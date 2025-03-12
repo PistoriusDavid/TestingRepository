@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="6f7bbe28-d6dd-4e4a-80ee-2f8ede9bfb0b" Status="New Topic" CreatedOn="2010-03-04T13:22:49.6096702Z" ModifiedOn="2010-03-04T13:35:51.0657313Z" ModifiedBy="" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="RSSSyntax" BuildFlags="">
+  <Title m="2010-03-04T13:23:00.3239488Z">RSS Syntax</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2010-03-04T13:35:51.0657313Z">&lt;P&gt;RSS defines an XML grammar (a set of HTML-like tags) for sharing news. Each RSS text file contains both static information about your site, plus dynamic information about your new stories, all surrounded by matching start and end tags.&lt;/P&gt;
+&lt;P&gt;Each story is defined by an &amp;lt;item&amp;gt; tag, which contains a headline TITLE, URL, and DESCRIPTION. Here's an example:&lt;/P&gt;&lt;?xml:namespace prefix = innovasys ns = "http://www.innovasys.com/widgets" /&gt;&lt;innovasys:widget type="Colorized Example Code" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;RSS Syntax&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="LanguageName"&gt;XML&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;&amp;lt;item&amp;gt;&lt;BR&gt;&amp;nbsp; &amp;lt;title&amp;gt;RSS Resources&amp;lt;/title&amp;gt;&lt;BR&gt;&amp;nbsp; &amp;lt;link&amp;gt;http://www.webreference.com/authoring/languages/xml/rss/&amp;lt;/link&amp;gt;&lt;BR&gt;&amp;nbsp; &amp;lt;description&amp;gt;Defined in XML, the Rich Site Summary (RSS) format has&lt;BR&gt;&amp;nbsp; quietly become a dominant format for distributing headlines on the Web.&lt;BR&gt;&amp;nbsp; Our list of links gives you the tools, tips and tutorials you need to get&lt;BR&gt;&amp;nbsp; started using RSS. 0323&amp;lt;/description&amp;gt;&lt;BR&gt;&amp;lt;/item&amp;gt;&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks />
+  <TopicKeywords />
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

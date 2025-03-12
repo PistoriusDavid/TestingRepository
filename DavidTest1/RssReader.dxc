@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentFile Version="2010" Moniker="C:\repos\renatus\.localconfig\samples\dx.net\assembly\RssReader.dll" DocType="DX.NET" IsLocalizationDisabled="false">
+  <RelatedProject>New Project2.dxp</RelatedProject>
+  <State>
+    <Attributes>
+      <Assembly key="dtscrollpos" valuetype="integer">0</Assembly>
+      <Assembly key="lang_VB" valuetype="string">on</Assembly>
+      <Assembly key="lang_VBUsage" valuetype="string">on</Assembly>
+      <Assembly key="lang_CS" valuetype="string">on</Assembly>
+      <Assembly key="lang_CPP2005" valuetype="string">on</Assembly>
+      <Assembly key="inheritedMembers" valuetype="string">on</Assembly>
+      <Assembly key="protectedMembers" valuetype="string">on</Assembly>
+    </Attributes>
+  </State>
+  <LastSelectedItem>RssReader~RssReader_namespace</LastSelectedItem>
+  <ModifiedOn>2025-03-12T12:20:30.9685021+00:00</ModifiedOn>
+  <ModifiedBy>ORBIS\dpistorius</ModifiedBy>
+  <item qn="RssReader~RssReader.RssFeed~DeleteRssItem">
+    <summary ChangeDateTime="2010-03-04T13:04:49.4409013Z">Removes&amp;nbsp;an &lt;A href="RssReader~RssReader.RssItem.html"&gt;RssItem&lt;/A&gt; from the this &lt;A href="RssReader~RssReader.RssFeed.html"&gt;RssFeed&lt;/A&gt;.</summary>
+  </item>
+  <item qn="RssReader~RssReader.RssFeed">
+    <summary ChangeDateTime="2010-03-04T13:06:10.7481973Z">Represents a single RSS Feed.</summary>
+  </item>
+  <item qn="RssReader~RssReader.RssFeedCollection">
+    <summary ChangeDateTime="2010-03-04T13:07:47.9245948Z">A collection for &lt;A href="RssReader~RssReader.RssFeed.html"&gt;RssFeed&lt;/A&gt; objects.</summary>
+  </item>
+  <item qn="RssReader~RssReader.RssItemCollection">
+    <summary ChangeDateTime="2010-03-04T13:08:05.0650993Z">A collection for &lt;A href="RssReader~RssReader.RssItem.html"&gt;RssItem&lt;/A&gt; objects.</summary>
+  </item>
+  <item qn="RssReader~RssReader.RssManager">
+    <summary ChangeDateTime="2010-03-04T13:09:14.4258943Z">A manager for a collection of &lt;A href="RssReader~RssReader.RssFeed.html"&gt;RssFeed&lt;/A&gt; objects and &lt;A href="RssReader~RssReader.RssItem.html"&gt;RssItem&lt;/A&gt; objects.</summary>
+  </item>
+  <item qn="RssReader~RssReader.RssManager~UpdateFeeds">
+    <examplecode ChangeDateTime="2010-03-04T13:16:38.9204626Z" title="UpdateFeeds Example" description="" pagetype="" inline="true" escaped="false" id="b450d9b9-9f58-4b78-9018-9ebfdb86e9ad" lang="VB.NET">' Create a new manager for the feed
+Dim RssManager As New RssManager()
+' Add a new feed via a url
+RssManager.AddFeed("http://newsrss.bbc.co.uk/rss/newsonline_uk_edition/front_page/rss.xml")
+' Get any new items from all available feeds
+RssManager.UpdateFeeds()</examplecode>
+    <examplecode ChangeDateTime="2010-03-04T13:17:51.3652317Z" title="UpdateFeeds Example" description="" pagetype="" inline="true" escaped="false" id="8e9fb973-92e8-4720-bd3d-8bd089c7668a" lang="C#">// Create a new manager for the feed
+RssManager RssManager = New RssManager();
+// Add a new feed via a url
+RssManager.AddFeed("http://newsrss.bbc.co.uk/rss/newsonline_uk_edition/front_page/rss.xml");
+// Get any new items from all available feeds
+RssManager.UpdateFeeds();</examplecode>
+  </item>
+  <item qn="RssReader~RssReader.RssItem">
+    <summary ChangeDateTime="2010-03-04T13:37:53.2600588Z">Represents a single RSS news item.</summary>
+  </item>
+  <Filters>
+    <CONTENTSTORECOMMON>
+      <IsIncludedItemsOnly>true</IsIncludedItemsOnly>
+    </CONTENTSTORECOMMON>
+    <CONTENTSTORELOCALIZATION>
+      <IsPrimaryLocaleContentPreviewEnabled>true</IsPrimaryLocaleContentPreviewEnabled>
+    </CONTENTSTORELOCALIZATION>
+    <DX.NETCONTENTSTOREFILTER>
+      <ShowProtectedMembers>true</ShowProtectedMembers>
+      <ShowProtectedFriendMembers>true</ShowProtectedFriendMembers>
+      <ShowFriendMembers>false</ShowFriendMembers>
+      <ShowPrivateMembers>false</ShowPrivateMembers>
+      <ShowInheritedMembers>false</ShowInheritedMembers>
+      <IsSourceCodeContentVisible>true</IsSourceCodeContentVisible>
+    </DX.NETCONTENTSTOREFILTER>
+  </Filters>
+</ContentFile>
