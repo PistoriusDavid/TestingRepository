@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<doc>
+  <members>
+    <member name="M:jQuery.validator.setDefaults">
+      <summary>Modify default settings for validation.</summary>
+      <param name="settings">Options to set as default</param>
+      <returns></returns>
+    </member>
+    <member name="M:jQuery.validator.addClassRules">
+      <summary>Add a compound class method - useful to refactor common combinations of rules into a single class.</summary>
+      <param name="className">The name of the class rules to add</param>
+      <param name="rules">The compound rules</param>
+      <returns></returns>
+    </member>
+    <member name="M:jQuery.validator.addMethod">
+      <summary>Add a custom validation method. It must consist of a name (must be a legal javascript identifier), a javascript based function and a default string message.</summary>
+      <param name="name">The name of the method, used to identify and referencing it, must be a valid javascript identifier</param>
+      <param name="method">The actual method implementation, returning true if an element is valid. First argument: Current value. Second argument: Validated element. Third argument: Parameters.</param>
+      <param name="message">The default message to display for this method. Can be a function created by jQuery.validator.format(value). When undefined, an already existing message is used (handy for localization), otherwise the field-specific messages have to be defined.</param>
+      <returns></returns>
+    </member>
+    <member name="M:jQuery.validator.form">
+      <summary>Validates the form, returns true if it is valid, false otherwise.</summary>
+      <returns></returns>
+    </member>
+    <member name="M:jQuery.validator.element">
+      <summary>Validates a single element, returns true if it is valid, false otherwise.</summary>
+      <param name="element">An element to validate, must be inside the validated form.</param>
+      <returns></returns>
+    </member>
+    <member name="M:jQuery.validator.showErrors">
+      <summary>Show the specified messages.</summary>
+      <param name="errors">One or more key/value pairs of input names and messages.</param>
+      <returns></returns>
+    </member>
+    <member name="M:jQuery.validator.resetForm">
+      <summary>Resets the controlled form.</summary>
+      <returns></returns>
+    </member>
+    <member name="M:jQuery.validator.numberOfInvalids">
+      <summary>Returns the number of invalid fields.</summary>
+      <returns></returns>
+    </member>
+    <member name="M:jQuery.validator.methods.required">
+      <summary>Makes the element always required.</summary>
+      <returns></returns>
+    </member>
+    <member name="M:jQuery.validator.methods.email">
+      <summary>Makes the element require a valid email.</summary>
+      <returns></returns>
+    </member>
+    <member name="M:jQuery.validator.methods.date">
+      <summary>Makes the element require a valid date.</summary>
+      <returns></returns>
+    </member>
+    <member name="M:jQuery.validator.methods.dateISO">
+      <summary>Makes the element require an ISO date.</summary>
+      <returns></returns>
+    </member>
+    <member name="M:jQuery.validator.methods.number">
+      <summary>Makes the element require a decimal number.</summary>
+      <returns></returns>
+    </member>
+    <member name="M:jQuery.validator.methods.digits">
+      <summary>Makes the element require digits only.</summary>
+      <returns></returns>
+    </member>
+    <member name="M:jQuery.validator.methods.creditcard">
+      <summary>Makes the element require a creditcard number.</summary>
+      <returns></returns>
+    </member>
+    <member name="M:jQuery.validator.methods.minlength">
+      <summary>Makes the element require a given minimum length.</summary>
+      <param name="length">Minimum number of characters required</param>
+      <returns></returns>
+    </member>
+    <member name="M:jQuery.validator.methods.maxlength">
+      <summary>Makes the element require a given maximum length.</summary>
+      <param name="length">Maximum number of characters required</param>
+      <returns></returns>
+    </member>
+    <member name="M:jQuery.validator.methods.rangelength">
+      <summary>Makes the element require a given value range.</summary>
+      <param name="range">Value range required</param>
+      <returns></returns>
+    </member>
+    <member name="M:jQuery.validator.methods.min">
+      <summary>Makes the element require a given minimum.</summary>
+      <param name="value">Minimum value required</param>
+      <returns></returns>
+    </member>
+    <member name="M:jQuery.validator.methods.max">
+      <summary>Makes the element require a given maximum.</summary>
+      <param name="value">Value range required</param>
+      <returns></returns>
+    </member>
+    <member name="M:jQuery.validator.methods.range">
+      <summary>Makes the element require a given value range.</summary>
+      <param name="range"></param>
+      <returns></returns>
+    </member>
+    <member name="M:jQuery.validator.methods.equalTo">
+      <summary>Requires the element to be the same as another one.</summary>
+      <param name="other">The selector for the element to compare the current values</param>
+      <returns></returns>
+    </member>
+    <member name="M:jQuery.validator.methods.remote">
+      <summary>Requests a resource to check the element for validity.</summary>
+      <param name="options">The URL of the resource to request for serverside validation (String) or options to fully customize the request, see jQuery.ajax for details.</param>
+      <returns></returns>
+    </member>
+    <member name="F:jQuery.validator.options.debug">
+      <summary>Enables debug mode. If true, the form is not submitted and certain errors are displayed on the console (requires Firebug or Firebug lite). 
+Try to enable when a form is just submitted instead of validation stopping the submit.</summary>
+    </member>
+    <member name="F:jQuery.validator.options.submitHandler">
+      <summary>Callback for handling the actual submit when the form is valid. Gets the form as the only argument. Replaces the default submit. 
+The right place to submit a form via Ajax after it validated.</summary>
+    </member>
+    <member name="F:jQuery.validator.options.invalidHandler">
+      <summary>Callback for custom code when an invalid form is submitted. Called with a event object as the first argument, and the validator as the second.</summary>
+    </member>
+    <member name="F:jQuery.validator.options.ignore">
+      <summary>Elements to ignore when validating, simply filtering them out. jQuery's not-method is used, therefore everything that is accepted by not() 
+can be passed as this option. Inputs of type submit and reset are always ignored, so are disabled elements.</summary>
+    </member>
+    <member name="F:jQuery.validator.options.rules">
+      <summary>Key/value pairs defining custom rules. Key is the name of an element (or a group of checkboxes/radio buttons), value is an object consisting of 
+rule/parameter pairs or a plain String. Can be combined with class/attribute/data rules. Each rule can be specified as having a depends-property 
+to apply the rule only in certain conditions. See the second example below for details.</summary>
+    </member>
+    <member name="F:jQuery.validator.options.messages">
+      <summary>Key/value pairs defining custom messages. Key is the name of an element, value the message to display for that element. Instead of a plain message 
+another map with specific messages for each rule can be used. Overrides the title attribute of an element or the default message for the method (in that order). 
+Each message can be a String or a Callback. The callback is called in the scope of the validator and with the rule's parameters as the first and the element as 
+the second arugment, it must return a String to display as the message.</summary>
+    </member>
+    <member name="F:jQuery.validator.options.groups">
+      <summary>Specify grouping of error messages. A group consists of an arbitrary group name as the key and a space separated list of element names as the value. 
+Use errorPlacement to control where the group message is placed.</summary>
+    </member>
+    <member name="F:jQuery.validator.options.onsubmit">
+      <summary>Validate the form on submit. Set to false to use only other events for validation.</summary>
+    </member>
+    <member name="F:jQuery.validator.options.onfocusout">
+      <summary>Validate elements (except checkboxes/radio buttons) on blur. If nothing is entered, all rules are skipped, except when the field was already marked as invalid.</summary>
+    </member>
+    <member name="F:jQuery.validator.options.onkeyup">
+      <summary>Validate elements on keyup. As long as the field is not marked as invalid, nothing happens. Otherwise, all rules are checked on each key up event.</summary>
+    </member>
+    <member name="F:jQuery.validator.options.onclick">
+      <summary>Validate checkboxes and radio buttons on click.</summary>
+    </member>
+    <member name="F:jQuery.validator.options.focusInvalid">
+      <summary>Focus the last active or first invalid element on submit via validator.focusInvalid(). The last active element is the one that had focus when the form was submitted, 
+avoiding to steal its focus. If there was no element focused, the first one in the form gets it, unless this option is turned off.</summary>
+    </member>
+    <member name="F:jQuery.validator.options.focusCleanup">
+      <summary>If enabled, removes the errorClass from the invalid elements and hides all errors messages whenever the element is focused. Avoid combination with focusInvalid.</summary>
+    </member>
+    <member name="F:jQuery.validator.options.errorClass">
+      <summary>Use this class to create error labels, to look for existing error labels and to add it to invalid elements.</summary>
+    </member>
+    <member name="F:jQuery.validator.options.validClass">
+      <summary>This class is added to an element after it was validated and considered valid.</summary>
+    </member>
+    <member name="F:jQuery.validator.options.errorElement">
+      <summary>Use this element type to create error messages and to look for existing error messages. The default, "label", has the advantage of creating a 
+meaningful link between error message and invalid field using the for attribute (which is always used, no matter the element type).</summary>
+    </member>
+    <member name="F:jQuery.validator.options.wrapper">
+      <summary>Wrap error labels with the specified element. Useful in combination with errorLabelContainer to create a list of error messages.</summary>
+    </member>
+    <member name="F:jQuery.validator.options.errorLabelContainer">
+      <summary>Hide and show this container when validating.</summary>
+    </member>
+    <member name="F:jQuery.validator.options.errorContainer">
+      <summary>Hide and show this container when validating.</summary>
+    </member>
+    <member name="F:jQuery.validator.options.showErrors">
+      <summary>A custom message display handler. Gets the map of errors as the first argument and and array of errors as the second, called in the 
+context of the validator object. The arguments contain only those elements currently validated, which can be a single element when 
+doing validation onblur/keyup. You can trigger (in addition to your own messages) the default behaviour by calling this.defaultShowErrors().</summary>
+    </member>
+    <member name="F:jQuery.validator.options.errorPlacement">
+      <summary>Customize placement of created error labels. First argument: The created error label as a jQuery object. Second argument: The invalid element as a jQuery object.</summary>
+    </member>
+    <member name="F:jQuery.validator.options.success">
+      <summary>If specified, the error label is displayed to show a valid element. If a String is given, its added as a class to the label. 
+If a Function is given, its called with the label (as a jQuery object) as its only argument. That can be used to add a text like "ok!".</summary>
+    </member>
+    <member name="F:jQuery.validator.options.highlight">
+      <summary>How to highlight invalid fields. Override to decide which fields and how to highlight.</summary>
+    </member>
+    <member name="F:jQuery.validator.options.unhighlight">
+      <summary>Called to revert changes made by option highlight, same arguments as highlight.</summary>
+    </member>
+    <member name="F:jQuery.validator.options.ignoreTitle">
+      <summary>Set to skip reading messages from the title attribute, helps to avoid issues with Google Toolbar; default is false for compability, 
+the message-from-title is likely to be completely removed in a future release</summary>
+    </member>
+    <member name="M:jQuery.fn.-.validate">
+      <summary>Validates the selected form</summary>
+      <returns></returns>
+    </member>
+    <member name="M:jQuery.fn.-.valid">
+      <summary>Checks whether the selected form is valid or whether all selected elements are valid.</summary>
+      <returns></returns>
+    </member>
+    <member name="M:jQuery.fn.-.removeAttrs">
+      <summary>Remove the specified attributes from the first matched element and return them.</summary>
+      <param name="attributes">A space-seperated list of attribute names to remove.</param>
+      <returns></returns>
+    </member>
+    <member name="M:jQuery.fn.-.rules">
+      <summary>Return the validations rules for the first selected element.</summary>
+      <param name="command"></param>
+      <param name="argument"></param>
+    </member>
+  </members>
+</doc>
