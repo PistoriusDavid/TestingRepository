@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="{90B6C1AC-5687-4F4D-B212-33E197310519}" Status="In Progress" CreatedOn="2004-08-23T00:00:00Z" ModifiedOn="2007-10-11T16:37:37Z" ModifiedBy="" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="ShipperDelete" BuildFlags="{0D13A77A-EE67-4FC5-9F37-6C0649200D2F}">
+  <Title m="2007-10-10T21:04:29Z">Deleting a shipper</Title>
+  <ContentsTitle m="2006-07-31T14:06:12Z" />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2007-10-10T21:06:13Z">&lt;OL&gt;
+&lt;LI&gt;From the &lt;STRONG&gt;Tools&lt;/STRONG&gt; menu, click &lt;STRONG&gt;Shipping&lt;/STRONG&gt; 
+&lt;LI&gt;Click the &lt;STRONG&gt;Delete&lt;/STRONG&gt; &lt;IMG alt="" src="Images/Commands/RealWorld/RecordsRemove.bmp" border=0&gt; button. 
+&lt;LI&gt;Answer &lt;STRONG&gt;Yes&lt;/STRONG&gt; to the confirmation prompt to remove the record. 
+&lt;LI&gt;Click &lt;STRONG&gt;OK&lt;/STRONG&gt; to save your changes &lt;/LI&gt;&lt;/OL&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;&lt;innovasys:widget layout="block" type="Caution Box"&gt; &lt;innovasys:widgetproperty layout="inline" name="content"&gt;
+&lt;P&gt;Please note that removing&amp;nbsp;a shipper will not update any&amp;nbsp;orders linked to this shipper.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="{2B360C37-2F05-4BEB-A3B6-2BC072A494D5}" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="{FCB14376-37CD-4DA8-949F-C8578AF8313D}">
+      <Title m="2007-10-10T21:04:29Z" />
+      <Category m="2007-10-10T21:04:29Z" />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="{75FA08E4-7109-4A02-A9A6-596E067AB6C2}" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="{058E53DD-A1D1-4788-A773-B63F395AE195}">
+      <Title m="2007-10-10T21:04:29Z" />
+      <Category m="2007-10-10T21:04:29Z" />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="{07243093-BB5F-4E45-B19F-4816FA87976A}">
+      <Keyword m="2007-10-10T21:04:29Z">Shipper|Deleting</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="{42F8464A-4BB4-4B75-826B-9DFF2770CBAA}" Status="In Progress" CreatedOn="2004-08-23T00:00:00Z" ModifiedOn="2004-09-07T00:00:00Z" ModifiedBy="" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="OrderDelete" BuildFlags="">
+  <Title m="2007-10-10T21:04:29Z">Deleting an order</Title>
+  <ContentsTitle m="2006-07-31T14:06:12Z" />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2007-10-10T21:06:12Z">&lt;OL&gt;
+&lt;LI&gt;Display the&amp;nbsp;&lt;A href="{7874FD30-1AF0-4AD7-B339-3AD2AFC824E9}"&gt;orders view&lt;/A&gt; and select an order from the list 
+&lt;LI&gt;Click the &lt;STRONG&gt;Delete&lt;/STRONG&gt; &lt;IMG alt="" src="Images/Commands/RealWorld/RecordsRemove.bmp" border=0&gt; button. 
+&lt;LI&gt;Answer &lt;STRONG&gt;Yes&lt;/STRONG&gt; to the confirmation prompt to remove the record. &lt;/LI&gt;&lt;/OL&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="{740888E0-3292-4FE8-B300-A0A9DA32F7AC}" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="{3318316B-5BF5-4CC6-9EF6-5D476DF7A2FF}">
+      <Title m="2007-10-10T21:04:29Z" />
+      <Category m="2007-10-10T21:04:29Z" />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="{BCBD3379-F126-4BEF-99BE-4E5AB94EB418}" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="{6163DD76-555E-4AA4-A04F-0FC5FA9CC05B}">
+      <Title m="2007-10-10T21:04:29Z" />
+      <Category m="2007-10-10T21:04:29Z" />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="{0CED5A76-9D72-4B93-9A1C-9FA4C2694FFD}">
+      <Keyword m="2007-10-10T21:04:29Z">Order|Deleting</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="{BE8F3B06-7D36-42D3-8C93-EEAE28A1D884}">
+      <Keyword m="2007-10-10T21:04:29Z">Deleting an order</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

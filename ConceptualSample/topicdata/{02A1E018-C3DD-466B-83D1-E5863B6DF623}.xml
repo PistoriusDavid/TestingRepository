@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="{02A1E018-C3DD-466B-83D1-E5863B6DF623}" Status="In Progress" CreatedOn="2004-08-23T00:00:00Z" ModifiedOn="2004-09-07T00:00:00Z" ModifiedBy="" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="CustomerDelete" BuildFlags="">
+  <Title m="2007-10-10T21:04:29Z">Deleting a customer</Title>
+  <ContentsTitle m="2006-07-31T14:06:12Z" />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2007-10-10T21:06:12Z">&lt;OL&gt;
+&lt;LI&gt;Display the&amp;nbsp;&lt;A href="{632AE989-92D6-4262-8E4E-04719B74E56F}"&gt;customers view&lt;/A&gt; and select a customer from the list 
+&lt;LI&gt;Click the &lt;STRONG&gt;Delete&lt;/STRONG&gt; &lt;IMG alt="" src="Images/Commands/RealWorld/RecordsRemove.bmp" border=0&gt; button. 
+&lt;LI&gt;Answer &lt;STRONG&gt;Yes&lt;/STRONG&gt; to the confirmation prompt to remove the record. &lt;/LI&gt;&lt;/OL&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;&lt;innovasys:widget layout="block" type="Caution Box"&gt; &lt;innovasys:widgetproperty layout="inline" name="content"&gt;
+&lt;P&gt;Please note that removing a customer will not remove any related orders or modify other records linked to that customer.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="{E2BB9AA1-AFE7-492B-95A4-578D6A8C3E1F}" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="{887A5E7A-AF8C-46C3-A6E0-03BD69C58192}">
+      <Title m="2007-10-10T21:04:29Z" />
+      <Category m="2007-10-10T21:04:29Z" />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="{4D4D0309-5106-48F7-AD52-2297A2B67BE6}" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="{D3853457-BE6B-4A79-B11B-A478CC90E618}">
+      <Title m="2007-10-10T21:04:29Z" />
+      <Category m="2007-10-10T21:04:29Z" />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="{24D38357-40B5-433E-BBCC-E72E2406D28B}">
+      <Keyword m="2007-10-10T21:04:29Z">Customer|Deleting</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="{1B986C27-E4FD-4327-A358-011C60DC4791}">
+      <Keyword m="2007-10-10T21:04:29Z">Deleting a customer</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="{A23C21A0-B6B5-45BC-A7E1-DC16E7E297F8}" Status="In Progress" CreatedOn="2004-08-23T00:00:00Z" ModifiedOn="2004-09-07T00:00:00Z" ModifiedBy="" PageTypeName="" AutoIndex="true" HelpContextIds="4" Name="EmployeesView" BuildFlags="">
+  <Title m="2007-10-10T21:04:29Z">The employees view</Title>
+  <ContentsTitle m="2007-10-10T21:04:29Z">Employees</ContentsTitle>
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2007-10-10T21:04:29Z">&lt;TABLE cellSpacing=2 cols=2 cellPadding=2&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TD&gt;&lt;IMG src="Images/Employees24.gif" border=0&gt;&lt;/TD&gt;
+&lt;TD&gt;
+&lt;P&gt;The Employees view displays a list of all your employees, and provides access for adding, editing or removing them.&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="{6570C8BB-E522-46AF-B73B-1960392A0858}" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="{A457AB2C-5EF5-46BF-B10A-3476ABAC6F42}">
+      <Title m="2007-10-10T21:04:29Z" />
+      <Category m="2007-10-10T21:06:10Z" />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="{392D23A8-D35C-441A-A06E-790A4B7B5835}" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="{74AF0629-88CB-4B9E-9237-DBC12C243374}">
+      <Title m="2007-10-10T21:04:29Z" />
+      <Category m="2007-10-10T21:06:11Z" />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="{799E850F-58BF-41C8-B2C6-0B0263EB399E}" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="{B71A1177-1546-408B-A8E6-0E85E1D9515E}">
+      <Title m="2007-10-10T21:04:29Z" />
+      <Category m="2007-10-10T21:06:11Z" />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="{AF4087E8-CE43-479C-99A9-AF11FE6FA3BB}">
+      <Keyword m="2007-10-10T21:04:29Z">View|Employees</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="{3BA1FFF2-3685-4CD0-826E-800FA2307618}">
+      <Keyword m="2007-10-10T21:04:29Z">Employee|Viewing</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="{3F7E8BF2-0C01-42A1-8C04-BEF3DD8BAE21}">
+      <Keyword m="2007-10-10T21:04:29Z">Employees View</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

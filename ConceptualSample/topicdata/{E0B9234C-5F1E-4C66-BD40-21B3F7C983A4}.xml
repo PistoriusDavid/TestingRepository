@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="{E0B9234C-5F1E-4C66-BD40-21B3F7C983A4}" Status="In Progress" CreatedOn="2004-08-23T00:00:00Z" ModifiedOn="2004-09-07T00:00:00Z" ModifiedBy="" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="CategoryAdd" BuildFlags="">
+  <Title m="2007-10-10T21:04:29Z">Adding a new category</Title>
+  <ContentsTitle m="2006-07-31T14:06:12Z" />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2007-10-10T21:04:29Z">&lt;OL&gt;
+&lt;LI&gt;From the &lt;STRONG&gt;Tools&lt;/STRONG&gt; menu, click &lt;STRONG&gt;Categories&lt;/STRONG&gt; 
+&lt;LI&gt;Click the &lt;STRONG&gt;Add&lt;/STRONG&gt; &lt;IMG alt="" src="Images/Commands/RealWorld/RecordsAdd.bmp" border=0&gt;&amp;nbsp;button to add a category 
+&lt;LI&gt;Click &lt;STRONG&gt;OK&lt;/STRONG&gt; to save your changes &lt;/LI&gt;&lt;/OL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="{77847D3E-6665-4D72-B4F5-40D4463814F0}" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="{5EC19138-EBE1-4B85-BC96-2B202911213C}">
+      <Title m="2007-10-10T21:04:29Z" />
+      <Category m="2007-10-10T21:04:29Z" />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="{C6DEA8A4-9EB1-4A09-9ABC-5E31A031039F}" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="{8AFBF264-CE62-4C00-BE7E-58CB063E9487}">
+      <Title m="2007-10-10T21:04:29Z" />
+      <Category m="2007-10-10T21:04:29Z" />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="{22FBDD67-E2DA-4A24-A2C7-BDA91C4261FF}">
+      <Keyword m="2007-10-10T21:04:29Z">Category|Adding</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

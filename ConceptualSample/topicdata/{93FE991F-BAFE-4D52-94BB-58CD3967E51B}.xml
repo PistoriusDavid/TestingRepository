@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="{93FE991F-BAFE-4D52-94BB-58CD3967E51B}" Status="In Progress" CreatedOn="2004-08-23T00:00:00Z" ModifiedOn="2005-07-06T00:00:00Z" ModifiedBy="" PageTypeName="" AutoIndex="true" HelpContextIds="18" Name="ProductEdit" BuildFlags="">
+  <Title m="2007-10-10T21:04:29Z">Editing a product</Title>
+  <ContentsTitle m="2006-07-31T14:06:12Z" />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2007-10-10T21:06:12Z">&lt;OL&gt;
+&lt;LI&gt;Display the&amp;nbsp;&lt;A href="{774892BC-9709-4A4B-A395-D166C7C67C48}"&gt;products view&lt;/A&gt; and select&amp;nbsp;a product from the list 
+&lt;LI&gt;Click the &lt;STRONG&gt;Edit&lt;/STRONG&gt; &lt;IMG alt="" src="Images/Commands/RealWorld/RecordsEdit.bmp" border=0&gt; button. &lt;/LI&gt;&lt;/OL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="{26BEAB20-142C-460A-886B-E9C698EE3E5C}" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="{34618C14-DEBB-488E-81FC-497B3D338FA2}">
+      <Title m="2007-10-10T21:04:29Z" />
+      <Category m="2007-10-10T21:04:29Z" />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="{85ED76BC-D11E-495C-9196-B0A04AB60262}" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="{CFB8DF78-021A-48AC-9AD5-4325A4A0FCAA}">
+      <Title m="2007-10-10T21:04:29Z" />
+      <Category m="2007-10-10T21:04:29Z" />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="{4DF89B3F-1D1E-4CA6-B282-96C178F1A61A}">
+      <Keyword m="2007-10-10T21:04:29Z">Product|Editing</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="{D278BD96-1665-4095-840F-8DBB45C9AA3E}">
+      <Keyword m="2007-10-10T21:04:29Z">Editing a product</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

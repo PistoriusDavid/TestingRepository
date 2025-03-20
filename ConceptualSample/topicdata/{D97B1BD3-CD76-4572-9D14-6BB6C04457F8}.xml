@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="{D97B1BD3-CD76-4572-9D14-6BB6C04457F8}" Status="In Progress" CreatedOn="2004-08-25T00:00:00Z" ModifiedOn="2004-09-07T00:00:00Z" ModifiedBy="" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="OpenViews" BuildFlags="">
+  <Title m="2007-10-10T21:04:29Z">Opening Views</Title>
+  <ContentsTitle m="2006-07-31T14:06:12Z" />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2007-10-10T21:06:13Z">&lt;P&gt;RealWorld has several core views and a basic browser interface. All core features can be accessed by the Shortcuts window displayed on the left hand side of the RealWorld user interface.&lt;/P&gt;
+&lt;P&gt;To open, simply click the corresponding node in the shortcuts treeview. If the window is not currently open, or has been closed, it will be opened. If it is already open, then it will be activated.&lt;/P&gt;
+&lt;P&gt;Clicking a internet shortcut will open/activate the browser window and display the specified page. Only one browser window can be open at any one time.&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;H4 class=""&gt;Displaying a list of open windows&lt;/H4&gt;
+&lt;UL&gt;
+&lt;LI&gt;Open the &lt;STRONG&gt;Window&lt;/STRONG&gt; menu. A list of the first 10 open windows will be listed.&lt;/LI&gt;&lt;/UL&gt;
+&lt;P&gt;- or -&lt;/P&gt;
+&lt;OL&gt;
+&lt;LI&gt;Open the &lt;STRONG&gt;Window&lt;/STRONG&gt; menu and click &lt;STRONG&gt;More Windows&lt;/STRONG&gt;. 
+&lt;LI&gt;The dialog displayed will list all open windows, allowing you to easily view and switch between windows&lt;/LI&gt;&lt;/OL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="{37C7FE43-671A-4C37-8941-99F99F7DD635}" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="{632AE989-92D6-4262-8E4E-04719B74E56F}">
+      <Title m="2007-10-10T21:04:29Z">Customers</Title>
+      <Category m="2007-10-10T21:06:13Z" />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="{CA636143-7958-491F-A073-229B9305F4C5}" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="{A23C21A0-B6B5-45BC-A7E1-DC16E7E297F8}">
+      <Title m="2007-10-10T21:04:29Z">Employees</Title>
+      <Category m="2007-10-10T21:06:13Z" />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="{ABBD8F99-5DEA-44B0-A9D9-159E4355423A}" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="{774892BC-9709-4A4B-A395-D166C7C67C48}">
+      <Title m="2007-10-10T21:04:29Z">Products</Title>
+      <Category m="2007-10-10T21:06:13Z" />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="{AE613F6B-169D-4D95-ADA7-D570529D82C4}" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="{E574023B-3100-4C41-B2C9-5ECA6C1A2FA0}">
+      <Title m="2007-10-10T21:04:29Z">Suppliers</Title>
+      <Category m="2007-10-10T21:06:13Z" />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="{62EC8C30-524E-4466-8BFB-4134760BCB32}" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="{7874FD30-1AF0-4AD7-B339-3AD2AFC824E9}">
+      <Title m="2007-10-10T21:04:29Z">Orders</Title>
+      <Category m="2007-10-10T21:06:13Z" />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="{6446F7EC-61B3-4DC5-955A-13C3AF6220A2}" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="{DEB63660-4D59-4979-9A84-5600774470EC}">
+      <Title m="2007-10-10T21:04:29Z" />
+      <Category m="2007-10-10T21:06:13Z" />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="{70D907AD-BAF8-47F0-AC01-3239A9DF3E8F}">
+      <Keyword m="2007-10-10T21:04:29Z">View</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="{272FBE4C-7AAF-4161-A1BF-438C7AF57EA7}">
+      <Keyword m="2007-10-10T21:04:29Z">RealWorld</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="{69FF412E-B2BF-42FC-A985-988D8C181A07}">
+      <Keyword m="2007-10-10T21:04:29Z">Window</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="{72DA5D49-FF98-488A-8C94-0906FD2218B5}">
+      <Keyword m="2007-10-10T21:04:29Z">List</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="{229F7400-786B-4D3C-9F3A-8E6E3B8188A4}">
+      <Keyword m="2007-10-10T21:04:29Z">Opening a view</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="{7F666EFF-37B9-4991-A5D5-7D09DEA91C28}">
+      <Keyword m="2007-10-10T21:04:29Z">Displaying a list of open windows</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

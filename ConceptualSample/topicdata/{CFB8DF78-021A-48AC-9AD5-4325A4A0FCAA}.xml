@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="{CFB8DF78-021A-48AC-9AD5-4325A4A0FCAA}" Status="In Progress" CreatedOn="2004-08-23T00:00:00Z" ModifiedOn="2004-09-07T00:00:00Z" ModifiedBy="" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="ProductDelete" BuildFlags="">
+  <Title m="2007-10-10T21:04:29Z">Deleting a product</Title>
+  <ContentsTitle m="2006-07-31T14:06:12Z" />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2007-10-10T21:06:12Z">&lt;OL&gt;
+&lt;LI&gt;Display the&amp;nbsp;&lt;A href="{774892BC-9709-4A4B-A395-D166C7C67C48}"&gt;products view&lt;/A&gt; and select a product from the list 
+&lt;LI&gt;Click the &lt;STRONG&gt;Delete&lt;/STRONG&gt; &lt;IMG alt="" src="Images/Commands/RealWorld/RecordsRemove.bmp" border=0&gt; button. 
+&lt;LI&gt;Answer &lt;STRONG&gt;Yes&lt;/STRONG&gt; to the confirmation prompt to remove the record. &lt;/LI&gt;&lt;/OL&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;&lt;innovasys:widget layout="block" type="Caution Box"&gt; &lt;innovasys:widgetproperty layout="inline" name="content"&gt;
+&lt;P&gt;Please note that removing a product will not remove any related orders or modify other records linked to that customer.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="{753B82AF-E84F-4B15-B3FA-DDA59CD15F5C}" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="{34618C14-DEBB-488E-81FC-497B3D338FA2}">
+      <Title m="2007-10-10T21:04:29Z" />
+      <Category m="2007-10-10T21:04:29Z" />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="{C8D2659E-8F5F-4DD8-A4A4-0BA2687A0046}" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="{93FE991F-BAFE-4D52-94BB-58CD3967E51B}">
+      <Title m="2007-10-10T21:04:29Z" />
+      <Category m="2007-10-10T21:04:29Z" />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="{B75F6EC2-119A-46FA-AF81-0DECA35800BF}">
+      <Keyword m="2007-10-10T21:04:29Z">Product|Delete</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="{47588AC3-DF4B-48B9-A7DC-FF02B67BC7E2}">
+      <Keyword m="2007-10-10T21:04:29Z">Deleting a product</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

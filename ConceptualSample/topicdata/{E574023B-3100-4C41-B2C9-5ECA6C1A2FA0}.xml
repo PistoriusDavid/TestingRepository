@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="{E574023B-3100-4C41-B2C9-5ECA6C1A2FA0}" Status="In Progress" CreatedOn="2004-08-23T00:00:00Z" ModifiedOn="2004-09-07T00:00:00Z" ModifiedBy="" PageTypeName="" AutoIndex="true" HelpContextIds="7" Name="SuppliersView" BuildFlags="">
+  <Title m="2007-10-10T21:04:29Z">The suppliers view</Title>
+  <ContentsTitle m="2007-10-10T21:04:29Z">Suppliers</ContentsTitle>
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2007-10-10T21:04:29Z">&lt;TABLE cellSpacing=2 cols=2 cellPadding=2&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TD&gt;&lt;IMG src="Images/Suppliers24.gif" border=0&gt;&lt;/TD&gt;
+&lt;TD&gt;
+&lt;P&gt;The Suppliers view displays a list of all your suppliers, and provides access for adding, editing or removing them.&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="{42E58BFC-84B9-4E7C-8DE1-051468DEFAE3}" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="{218F9C5A-E0B6-45E1-991C-FD4678F2D3D2}">
+      <Title m="2007-10-10T21:04:29Z" />
+      <Category m="2007-10-10T21:06:11Z" />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="{AF48CF78-46DB-4961-9E50-571D002DF63A}" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="{8C259DB2-5201-4160-B175-BAB75696F0FD}">
+      <Title m="2007-10-10T21:04:29Z" />
+      <Category m="2007-10-10T21:06:11Z" />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="{EF5921B4-E3F6-407D-8FB4-CD1618B1AE48}" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="{462B3324-3071-4CC2-A505-2CB4A23B4607}">
+      <Title m="2007-10-10T21:04:29Z" />
+      <Category m="2007-10-10T21:06:11Z" />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="{5857011D-1CB0-4ABD-9FB9-E0C50E835EEE}">
+      <Keyword m="2007-10-10T21:04:29Z">View|Suppliers</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="{5A52D307-1CE6-4579-B53C-D39176C509FB}">
+      <Keyword m="2007-10-10T21:04:29Z">Supplier|Viewing</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="{E6D062F4-03BF-4A8E-84A6-352110E23E30}">
+      <Keyword m="2007-10-10T21:04:29Z">Suppliers View</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

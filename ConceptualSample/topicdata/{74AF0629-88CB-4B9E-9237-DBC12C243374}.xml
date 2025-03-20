@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="{74AF0629-88CB-4B9E-9237-DBC12C243374}" Status="In Progress" CreatedOn="2004-08-23T00:00:00Z" ModifiedOn="2005-07-06T00:00:00Z" ModifiedBy="" PageTypeName="" AutoIndex="true" HelpContextIds="17" Name="EmployeeEdit" BuildFlags="">
+  <Title m="2007-10-10T21:04:29Z">Editing an employee</Title>
+  <ContentsTitle m="2006-07-31T14:06:12Z" />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2007-10-10T21:06:12Z">&lt;OL&gt;
+&lt;LI&gt;Display the&amp;nbsp;&lt;A href="{A23C21A0-B6B5-45BC-A7E1-DC16E7E297F8}"&gt;employees view&lt;/A&gt; and select&amp;nbsp;an employee&amp;nbsp;from the list 
+&lt;LI&gt;Click the &lt;STRONG&gt;Edit&lt;/STRONG&gt; &lt;IMG alt="" src="Images/Commands/RealWorld/RecordsEdit.bmp" border=0&gt; button. &lt;/LI&gt;&lt;/OL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="{6B538099-72B4-4362-8C0B-A76B303F7F9A}" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="{A457AB2C-5EF5-46BF-B10A-3476ABAC6F42}">
+      <Title m="2007-10-10T21:04:29Z" />
+      <Category m="2007-10-10T21:04:29Z" />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="{A30ABF39-BD74-408B-BEC9-2401A863FD0E}" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="{B71A1177-1546-408B-A8E6-0E85E1D9515E}">
+      <Title m="2007-10-10T21:04:29Z" />
+      <Category m="2007-10-10T21:04:29Z" />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="{486C8E73-6617-46AD-92BC-1F9575507F85}">
+      <Keyword m="2007-10-10T21:04:29Z">Employee|Editing</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="{A5ACE41F-A813-484B-9ADF-311CAB9980D6}">
+      <Keyword m="2007-10-10T21:04:29Z">Editing an employee</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

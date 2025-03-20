@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="{FCA35EF0-D6B6-4A6A-A28D-E96C253F2CD6}" Status="In Progress" CreatedOn="2004-08-23T00:00:00Z" ModifiedOn="2007-10-11T16:42:39Z" ModifiedBy="" PageTypeName="" AutoIndex="true" HelpContextIds="1" Name="default" BuildFlags="">
+  <Title m="2007-10-10T20:46:45Z">Welcome to Innovasys RealWorld</Title>
+  <ContentsTitle m="2006-07-31T14:06:12Z" />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2007-10-11T16:42:39Z">&lt;P&gt;RealWorld is a sample application built as a demonstration of HelpStudio functionality, including context sensitive help and dynamic help.&lt;/P&gt;
+&lt;P style="hs-build-flags: {63A5999F-6AF8-43AC-828E-89B338862749}"&gt;This help file contains a number of Topics, images, a Booklet definition, a number of Build Flags and 2 Build Flags. The Build Flags and the 2 Build Profiles are included to illustrate how you can generate multiple outputs from a single project. Use is made in several topics of the HelpStudio Dynamic Image, Drop&amp;nbsp;Down Section&amp;nbsp;and Note Box Widgets (this topic contains a Dynamic Image Widget and a Drop Down Section Widget).&lt;/P&gt;
+&lt;H1&gt;Screen Shot&lt;/H1&gt;&lt;?xml:namespace prefix = innovasys /&gt;&lt;innovasys:widget type="Dynamic Image" layout="block"&gt;&lt;innovasys:widgetproperty name="ImageTitle" layout="inline"&gt;RealWorld screenshot&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty name="ThumbnailURL" layout="inline"&gt;Images/RealWorld_thumb.png&lt;/innovasys:widgetproperty&gt; &lt;/innovasys:widget&gt;
+&lt;H1&gt;Functional Overview&lt;/H1&gt;
+&lt;P&gt;The RealWorld sample application includes the following areas of functionality:&lt;/P&gt;&lt;innovasys:widget type="Drop down section" layout="block"&gt;&lt;innovasys:widgetproperty name="Heading" layout="inline"&gt;Customers&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty name="Content" layout="block"&gt;
+&lt;P&gt;&lt;A style="auto-update-caption: true" href="{887A5E7A-AF8C-46C3-A6E0-03BD69C58192}"&gt;Adding a customer&lt;/A&gt;&lt;/P&gt;
+&lt;P&gt;&lt;A style="auto-update-caption: true" href="{D3853457-BE6B-4A79-B11B-A478CC90E618}"&gt;Editing a customer&lt;/A&gt;&lt;/P&gt;
+&lt;P&gt;&lt;A style="auto-update-caption: true" href="{02A1E018-C3DD-466B-83D1-E5863B6DF623}"&gt;Deleting a customer&lt;/A&gt;&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop down section" layout="block"&gt;&lt;innovasys:widgetproperty name="Heading" layout="inline"&gt;Employees&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty name="Content" layout="block"&gt;
+&lt;P&gt;&lt;A style="auto-update-caption: true" href="{A457AB2C-5EF5-46BF-B10A-3476ABAC6F42}"&gt;Adding an employee&lt;/A&gt;&lt;/P&gt;
+&lt;P&gt;&lt;A style="auto-update-caption: true" href="{74AF0629-88CB-4B9E-9237-DBC12C243374}"&gt;Editing an employee&lt;/A&gt;&lt;/P&gt;
+&lt;P&gt;&lt;A style="auto-update-caption: true" href="{B71A1177-1546-408B-A8E6-0E85E1D9515E}"&gt;Deleting an employee&lt;/A&gt;&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop down section" layout="block"&gt;&lt;innovasys:widgetproperty name="Heading" layout="inline"&gt;Products&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty name="Content" layout="block"&gt;
+&lt;P&gt;&lt;A style="auto-update-caption: true" href="{34618C14-DEBB-488E-81FC-497B3D338FA2}"&gt;Adding a product&lt;/A&gt;&lt;/P&gt;
+&lt;P&gt;&lt;A style="auto-update-caption: true" href="{93FE991F-BAFE-4D52-94BB-58CD3967E51B}"&gt;Editing a product&lt;/A&gt;&lt;/P&gt;
+&lt;P&gt;&lt;A style="auto-update-caption: true" href="{CFB8DF78-021A-48AC-9AD5-4325A4A0FCAA}"&gt;Deleting a product&lt;/A&gt;&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop down section" layout="block" hsbuildflags="{0D13A77A-EE67-4FC5-9F37-6C0649200D2F}"&gt;&lt;innovasys:widgetproperty name="Heading" layout="inline"&gt;Suppliers&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty name="Content" layout="block"&gt;
+&lt;P&gt;&lt;A style="auto-update-caption: true" href="{218F9C5A-E0B6-45E1-991C-FD4678F2D3D2}"&gt;Adding a supplier&lt;/A&gt;&lt;/P&gt;
+&lt;P&gt;&lt;A style="auto-update-caption: true" href="{8C259DB2-5201-4160-B175-BAB75696F0FD}"&gt;Editing a supplier&lt;/A&gt;&lt;/P&gt;
+&lt;P&gt;&lt;A style="auto-update-caption: true" href="{462B3324-3071-4CC2-A505-2CB4A23B4607}"&gt;Deleting a supplier&lt;/A&gt;&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop down section" layout="block"&gt;&lt;innovasys:widgetproperty name="Heading" layout="inline"&gt;Orders&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty name="Content" layout="block"&gt;
+&lt;P&gt;&lt;A style="auto-update-caption: true" href="{3318316B-5BF5-4CC6-9EF6-5D476DF7A2FF}"&gt;Adding an order&lt;/A&gt;&lt;/P&gt;
+&lt;P&gt;&lt;A style="auto-update-caption: true" href="{6163DD76-555E-4AA4-A04F-0FC5FA9CC05B}"&gt;Editing an order&lt;/A&gt;&lt;/P&gt;
+&lt;P&gt;&lt;A style="auto-update-caption: true" href="{42F8464A-4BB4-4B75-826B-9DFF2770CBAA}"&gt;Deleting an order&lt;/A&gt;&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop down section" layout="block"&gt;&lt;innovasys:widgetproperty name="Heading" layout="inline"&gt;Categories&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty name="Content" layout="block"&gt;
+&lt;P&gt;&lt;A style="auto-update-caption: true" href="{E0B9234C-5F1E-4C66-BD40-21B3F7C983A4}"&gt;Adding a new category&lt;/A&gt;&lt;/P&gt;
+&lt;P&gt;&lt;A style="auto-update-caption: true" href="{5EC19138-EBE1-4B85-BC96-2B202911213C}"&gt;Editing a category&lt;/A&gt;&lt;/P&gt;
+&lt;P&gt;&lt;A style="auto-update-caption: true" href="{8AFBF264-CE62-4C00-BE7E-58CB063E9487}"&gt;Deleting a category&lt;/A&gt;&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop down section" layout="block" hsbuildflags="{0D13A77A-EE67-4FC5-9F37-6C0649200D2F}"&gt;&lt;innovasys:widgetproperty name="Heading" layout="inline"&gt;Shipping&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty name="Content" layout="block"&gt;
+&lt;P&gt;&lt;A style="auto-update-caption: true" href="{FCB14376-37CD-4DA8-949F-C8578AF8313D}"&gt;Adding a new shipper&lt;/A&gt;&lt;/P&gt;
+&lt;P&gt;&lt;A style="auto-update-caption: true" href="{058E53DD-A1D1-4788-A773-B63F395AE195}"&gt;Editing a shipper&lt;/A&gt;&lt;/P&gt;
+&lt;P&gt;&lt;A style="auto-update-caption: true" href="{90B6C1AC-5687-4F4D-B212-33E197310519}"&gt;Deleting a shipper&lt;/A&gt;&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop down section" layout="block"&gt;&lt;innovasys:widgetproperty name="Heading" layout="inline"&gt;Scribble&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty name="Content" layout="block"&gt;
+&lt;P&gt;&lt;A style="auto-update-caption: true" href="{29BB5AEC-BBEF-4FC0-8954-69D155501460}"&gt;Changing the line color&lt;/A&gt;&lt;/P&gt;
+&lt;P&gt;&lt;A style="auto-update-caption: true" href="{F1991C20-7CFE-419E-8738-B2C2B5C0A69B}"&gt;Changing the line width&lt;/A&gt;&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="{CAE31013-A6D1-4469-B660-80C4BF0710FB}" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="{AD5633A8-BE77-4C63-9384-FD7B2C3B328A}">
+      <Title m="2007-10-10T20:46:45Z" />
+      <Category m="2007-10-10T20:46:45Z" />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="{56BE1ABB-C4AD-405B-8B27-29CF6B947F2A}" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="{D97B1BD3-CD76-4572-9D14-6BB6C04457F8}">
+      <Title m="2007-10-10T20:46:45Z" />
+      <Category m="2007-10-10T21:06:10Z" />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="{2BB095C9-5C1E-4D2D-B6D0-27044CBA7B33}">
+      <Keyword m="2007-10-10T20:46:45Z">Welcome</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="{9F012E8D-25E7-49BC-A1A3-1F0407FC3787}">
+      <Keyword m="2007-10-10T20:46:45Z">Concept application</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="{B8BDC7A5-13D1-4AB0-A61D-46ECF9C02C53}">
+      <Keyword m="2007-10-10T20:46:45Z">RealWorld</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="{031C3BD9-D3CD-4A77-8A1A-91CD80163242}">
+      <Keyword m="2007-10-10T20:46:45Z">Innovasys</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="{F14D9708-0561-4ADE-B961-4B121107BE78}">
+      <Keyword m="2007-10-10T20:46:45Z">ActiveX</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="{ACDA2771-2DB9-4BD9-8D0B-727C7CA815D4}">
+      <Keyword m="2007-10-10T20:46:45Z">Component</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

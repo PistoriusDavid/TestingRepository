@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="{6163DD76-555E-4AA4-A04F-0FC5FA9CC05B}" Status="In Progress" CreatedOn="2004-08-23T00:00:00Z" ModifiedOn="2005-07-06T00:00:00Z" ModifiedBy="" PageTypeName="" AutoIndex="true" HelpContextIds="13" Name="OrderEdit" BuildFlags="">
+  <Title m="2007-10-10T21:04:29Z">Editing an order</Title>
+  <ContentsTitle m="2006-07-31T14:06:12Z" />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2007-10-10T21:06:12Z">&lt;OL&gt;
+&lt;LI&gt;Display the&amp;nbsp;&lt;A href="{7874FD30-1AF0-4AD7-B339-3AD2AFC824E9}"&gt;orders view&lt;/A&gt; and select&amp;nbsp;an order&amp;nbsp;from the list 
+&lt;LI&gt;Click the &lt;STRONG&gt;Edit&lt;/STRONG&gt; &lt;IMG alt="" src="Images/Commands/RealWorld/RecordsEdit.bmp" border=0&gt; button. &lt;/LI&gt;&lt;/OL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="{49A8F2F6-9776-4BF8-A02B-A8D495E7A049}" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="{3318316B-5BF5-4CC6-9EF6-5D476DF7A2FF}">
+      <Title m="2007-10-10T21:04:29Z" />
+      <Category m="2007-10-10T21:04:29Z" />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="{A4D3314F-AE9A-4E14-8E8D-205F67A8C8EC}" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="{42F8464A-4BB4-4B75-826B-9DFF2770CBAA}">
+      <Title m="2007-10-10T21:04:29Z" />
+      <Category m="2007-10-10T21:04:29Z" />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="{6DAF21EB-973D-42FD-9787-734F16516567}">
+      <Keyword m="2007-10-10T21:04:29Z">Order|Editing</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="{6A132087-247B-4F7E-A01D-5CB6501178E0}">
+      <Keyword m="2007-10-10T21:04:29Z">Editing an order</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

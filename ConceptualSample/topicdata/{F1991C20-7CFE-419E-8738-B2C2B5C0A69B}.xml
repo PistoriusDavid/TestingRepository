@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="{F1991C20-7CFE-419E-8738-B2C2B5C0A69B}" Status="In Progress" CreatedOn="2004-08-24T00:00:00Z" ModifiedOn="2007-10-10T21:14:23Z" ModifiedBy="" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="ScribbleLineWidth" BuildFlags="">
+  <Title m="2007-10-10T21:04:29Z">Changing the line width</Title>
+  <ContentsTitle m="2006-07-31T14:06:12Z" />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2007-10-10T21:14:23Z">&lt;P&gt;Adjust the slider from left to right. The further to the ride the slider is, the thicker the line will be&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="{D1578002-7CD2-4E7B-A4F1-55AEEA4AABDE}" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="{F1991C20-7CFE-419E-8738-B2C2B5C0A69B}">
+      <Title m="2007-10-10T21:04:29Z" />
+      <Category m="2007-10-10T21:04:29Z" />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="{3931D976-8089-4810-8C67-7415EF8B6C18}">
+      <Keyword m="2007-10-10T21:04:29Z">Scribble|Width</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="{B9D4F1EA-17E9-4E6C-9A3A-22BDB65EE54D}">
+      <Keyword m="2007-10-10T21:04:29Z">Width</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="{B71160E3-B752-407F-98F8-8FE14EB4AEFD}">
+      <Keyword m="2007-10-10T21:04:29Z">Line</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="{462B3324-3071-4CC2-A505-2CB4A23B4607}" Status="In Progress" CreatedOn="2004-08-23T00:00:00Z" ModifiedOn="2007-10-11T16:37:41Z" ModifiedBy="" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="SupplierDelete" BuildFlags="{0D13A77A-EE67-4FC5-9F37-6C0649200D2F}">
+  <Title m="2007-10-10T21:04:29Z">Deleting a supplier</Title>
+  <ContentsTitle m="2006-07-31T14:06:12Z" />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2007-10-10T21:06:12Z">&lt;OL&gt;
+&lt;LI&gt;Display the&amp;nbsp;&lt;A href="{E574023B-3100-4C41-B2C9-5ECA6C1A2FA0}"&gt;suppliers view&lt;/A&gt; and select a supplier from the list 
+&lt;LI&gt;Click the &lt;STRONG&gt;Delete&lt;/STRONG&gt; &lt;IMG alt="" src="Images/Commands/RealWorld/RecordsRemove.bmp" border=0&gt; button. 
+&lt;LI&gt;Answer &lt;STRONG&gt;Yes&lt;/STRONG&gt; to the confirmation prompt to remove the record. &lt;/LI&gt;&lt;/OL&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;&lt;innovasys:widget layout="block" type="Caution Box"&gt; &lt;innovasys:widgetproperty layout="inline" name="content"&gt;
+&lt;P&gt;Please note that removing a&amp;nbsp;supplier will not remove any related orders or modify other records linked to that customer.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="{B95B5CA6-0ED5-4D33-A680-57DB7E0A0DC4}" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="{218F9C5A-E0B6-45E1-991C-FD4678F2D3D2}">
+      <Title m="2007-10-10T21:04:29Z" />
+      <Category m="2007-10-10T21:04:29Z" />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="{56D20E7A-D9D0-4C4D-9042-2C2D2AC45AC5}" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="{8C259DB2-5201-4160-B175-BAB75696F0FD}">
+      <Title m="2007-10-10T21:04:29Z" />
+      <Category m="2007-10-10T21:04:29Z" />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="{73816371-C69A-460B-A485-067CBCC0851E}">
+      <Keyword m="2007-10-10T21:04:29Z">Supplier|Deleting</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="{18AD637B-E886-480B-AD22-97055F73188C}">
+      <Keyword m="2007-10-10T21:04:29Z">Deleting a supplier</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

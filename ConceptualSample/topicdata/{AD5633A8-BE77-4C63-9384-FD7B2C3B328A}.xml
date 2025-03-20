@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="{AD5633A8-BE77-4C63-9384-FD7B2C3B328A}" Status="In Progress" CreatedOn="2004-09-07T00:00:00Z" ModifiedOn="2012-07-05T11:59:08.6144952Z" ModifiedBy="" PageTypeName="" AutoIndex="true" HelpContextIds="2" Name="userinterface" BuildFlags="">
+  <Title m="2007-10-10T21:04:29Z">The RealWorld User Interface</Title>
+  <ContentsTitle m="2006-07-31T14:06:12Z" />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2012-07-05T11:59:08.6144952Z">&lt;P&gt;The RealWorld user interface consists of several areas, outlined below:&lt;/P&gt;&lt;innovasys:widget type="Dynamic Image" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="ImageTitle"&gt;RealWorld User Interface Areas&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="thumbnailurl"&gt;Images/RealWorld_markedup_thumb.png&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;TABLE style="WIDTH: auto"&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TD&gt;&lt;IMG border=0 alt="" src="Images/RealWorldBullets/1.png"&gt;&lt;/TD&gt;
+&lt;TD&gt;&lt;STRONG&gt;Standard toolbar&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD&gt;Contains common action buttons and shortcuts to RealWorld views&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD&gt;&lt;IMG border=0 alt="" src="Images/RealWorldBullets/2.png"&gt;&lt;/TD&gt;
+&lt;TD&gt;&lt;STRONG&gt;Browser toolbar&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD&gt;Contains commands for working with the RealWorld browser&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD&gt;&lt;IMG border=0 alt="" src="Images/RealWorldBullets/3.png"&gt;&lt;/TD&gt;
+&lt;TD&gt;&lt;STRONG&gt;Shortcuts&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD&gt;Displays a list of views and Internet shortcuts&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD&gt;&lt;IMG border=0 alt="" src="Images/RealWorldBullets/4.png"&gt;&lt;/TD&gt;
+&lt;TD&gt;&lt;STRONG&gt;Dynamic help&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD&gt;Displays context help on the current view&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD&gt;&lt;IMG border=0 alt="" src="Images/RealWorldBullets/5.png"&gt;&lt;/TD&gt;
+&lt;TD&gt;&lt;STRONG&gt;Workspace&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD&gt;Displays the current view, it could be a browser page, or a data entry window&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="{C522F9A9-3B33-4AEE-A6E6-648C37D93E89}" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="{D97B1BD3-CD76-4572-9D14-6BB6C04457F8}">
+      <Title m="2007-10-10T21:04:29Z" />
+      <Category m="2007-10-10T21:06:13Z" />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="{C5FA115A-8084-40D3-8ABA-28C516DF27D8}">
+      <Keyword m="2007-10-10T21:04:29Z">User Interface</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="{0391EC96-F2CF-424C-B930-39C5D91D190F}">
+      <Keyword m="2007-10-10T21:04:29Z">Map</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="{57D5AC0B-DF52-4F3A-96DE-56BCF86AF5D3}">
+      <Keyword m="2007-10-10T21:04:29Z">Overview</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

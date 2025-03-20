@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="{FCB14376-37CD-4DA8-949F-C8578AF8313D}" Status="In Progress" CreatedOn="2004-08-23T00:00:00Z" ModifiedOn="2007-10-11T16:37:36Z" ModifiedBy="" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="ShipperAdd" BuildFlags="{0D13A77A-EE67-4FC5-9F37-6C0649200D2F}">
+  <Title m="2007-10-10T21:04:29Z">Adding a new shipper</Title>
+  <ContentsTitle m="2006-07-31T14:06:12Z" />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2007-10-10T21:04:29Z">&lt;OL&gt;
+&lt;LI&gt;From the &lt;STRONG&gt;Tools&lt;/STRONG&gt; menu, click &lt;STRONG&gt;Shipping&lt;/STRONG&gt; 
+&lt;LI&gt;Click the &lt;STRONG&gt;Add&lt;/STRONG&gt; &lt;IMG alt="" src="Images/Commands/RealWorld/RecordsAdd.bmp" border=0&gt;&amp;nbsp;button to add a shipper 
+&lt;LI&gt;Click &lt;STRONG&gt;OK&lt;/STRONG&gt; to save your changes &lt;/LI&gt;&lt;/OL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="{5C1F7C4F-EA5B-4748-9683-884B827360A2}" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="{058E53DD-A1D1-4788-A773-B63F395AE195}">
+      <Title m="2007-10-10T21:04:29Z" />
+      <Category m="2007-10-10T21:04:29Z" />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="{E3900DF3-D52C-4080-A10A-64E489C97BBF}" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="{90B6C1AC-5687-4F4D-B212-33E197310519}">
+      <Title m="2007-10-10T21:04:29Z" />
+      <Category m="2007-10-10T21:04:29Z" />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="{2AA963D4-1A03-4236-9032-689E2F3DCD4E}">
+      <Keyword m="2007-10-10T21:04:29Z">Shipper|Adding</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

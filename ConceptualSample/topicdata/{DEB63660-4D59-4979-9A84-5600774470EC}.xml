@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="{DEB63660-4D59-4979-9A84-5600774470EC}" Status="In Progress" CreatedOn="2004-09-07T00:00:00Z" ModifiedOn="2004-09-07T00:00:00Z" ModifiedBy="" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="BrowserView" BuildFlags="">
+  <Title m="2007-10-10T21:04:29Z">Browser</Title>
+  <ContentsTitle m="2006-07-31T14:06:12Z" />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2007-10-10T21:04:29Z">The browser window allows you to view local or remote web pages</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="{FDA07859-7BAB-4A28-9181-A83A8AAB1E63}" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="{0CFAA6FC-C014-4746-B207-0E68A4F11F5F}">
+      <Title m="2007-10-10T21:04:29Z" />
+      <Category m="2007-10-10T21:06:14Z" />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="{F5BC512B-DEB0-4389-8C73-2E54F6BB22E4}" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="{B68D543F-3C4D-4A9A-A19F-56BFAA43EBA4}">
+      <Title m="2007-10-10T21:04:29Z" />
+      <Category m="2007-10-10T21:06:14Z" />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="{12525E8B-A2F3-4B91-8234-DAC0509D6DEB}">
+      <Keyword m="2007-10-10T21:04:29Z">Browser</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="{8506609D-F04F-423D-BFF1-CE383BB734F1}">
+      <Keyword m="2007-10-10T21:04:29Z">Web</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="{96CB2078-B5BA-4218-B6CD-8B0783B734A5}">
+      <Keyword m="2007-10-10T21:04:29Z">Page</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="{632AE989-92D6-4262-8E4E-04719B74E56F}" Status="In Progress" CreatedOn="2004-08-23T00:00:00Z" ModifiedOn="2004-09-07T00:00:00Z" ModifiedBy="" PageTypeName="" AutoIndex="true" HelpContextIds="3" Name="CustomersView" BuildFlags="">
+  <Title m="2007-10-10T21:04:29Z">The customers view</Title>
+  <ContentsTitle m="2007-10-10T21:04:29Z">Customers</ContentsTitle>
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2007-10-10T21:04:29Z">&lt;TABLE cellSpacing=2 cols=2 cellPadding=2&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TD&gt;&lt;IMG alt="" src="Images/Customers24.gif" border=0&gt;&lt;/TD&gt;
+&lt;TD&gt;
+&lt;P&gt;The Customers view displays a list of all your customers, and provides access for adding, editing or removing them.&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="{CEABB4B7-B17D-429C-B0F8-5F24792DF031}" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="{887A5E7A-AF8C-46C3-A6E0-03BD69C58192}">
+      <Title m="2007-10-10T21:04:29Z" />
+      <Category m="2007-10-10T21:06:10Z" />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="{CF214131-37B1-471E-AC02-985A17743191}" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="{D3853457-BE6B-4A79-B11B-A478CC90E618}">
+      <Title m="2007-10-10T21:04:29Z" />
+      <Category m="2007-10-10T21:06:10Z" />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="{D3F09D6F-D466-40A4-A378-0AEB542AB384}" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="{02A1E018-C3DD-466B-83D1-E5863B6DF623}">
+      <Title m="2007-10-10T21:04:29Z" />
+      <Category m="2007-10-10T21:06:10Z" />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="{2B69C645-863D-4BCF-8201-2D7CA45AC1C5}">
+      <Keyword m="2007-10-10T21:04:29Z">View|Customers</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="{721353C0-549D-470F-8269-FB974342A656}">
+      <Keyword m="2007-10-10T21:04:29Z">Customer|Viewing</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="{0F31B99C-FF9E-41C9-ABBB-822AD8B6BF69}">
+      <Keyword m="2007-10-10T21:04:29Z">Customers View</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

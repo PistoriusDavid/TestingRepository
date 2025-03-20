@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="{774892BC-9709-4A4B-A395-D166C7C67C48}" Status="In Progress" CreatedOn="2004-08-23T00:00:00Z" ModifiedOn="2004-09-07T00:00:00Z" ModifiedBy="" PageTypeName="" AutoIndex="true" HelpContextIds="6" Name="ProductsView" BuildFlags="">
+  <Title m="2007-10-10T21:04:29Z">The products view</Title>
+  <ContentsTitle m="2007-10-10T21:04:29Z">Products</ContentsTitle>
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2007-10-10T21:04:29Z">&lt;TABLE cellSpacing=2 cols=2 cellPadding=2&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TD&gt;&lt;IMG src="Images/Products24.gif" border=0&gt;&lt;/TD&gt;
+&lt;TD&gt;
+&lt;P&gt;The Products view displays a list of all your products, and provides access for adding, editing or removing them.&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="{2DF6F371-F1C4-4727-9895-19891965BB5C}" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="{34618C14-DEBB-488E-81FC-497B3D338FA2}">
+      <Title m="2007-10-10T21:04:29Z" />
+      <Category m="2007-10-10T21:06:11Z" />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="{CB4B0140-0F1B-4468-8C33-1B9EDD8BB1FB}" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="{93FE991F-BAFE-4D52-94BB-58CD3967E51B}">
+      <Title m="2007-10-10T21:04:29Z" />
+      <Category m="2007-10-10T21:06:11Z" />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="{9A677F79-49C4-4582-8292-22E18F5CDE88}" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="{CFB8DF78-021A-48AC-9AD5-4325A4A0FCAA}">
+      <Title m="2007-10-10T21:04:29Z" />
+      <Category m="2007-10-10T21:06:11Z" />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="{E789EDE1-0511-44CB-BC8B-BCBA44007A8F}">
+      <Keyword m="2007-10-10T21:04:29Z">View|Products</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="{472A5340-5DA4-44CF-8C5E-84772E64EB0F}">
+      <Keyword m="2007-10-10T21:04:29Z">Product|View</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="{8029213F-2067-4C65-B03C-5A0C97F4AD40}">
+      <Keyword m="2007-10-10T21:04:29Z">Products View</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="{D3853457-BE6B-4A79-B11B-A478CC90E618}" Status="In Progress" CreatedOn="2004-08-23T00:00:00Z" ModifiedOn="2005-07-06T00:00:00Z" ModifiedBy="" PageTypeName="" AutoIndex="true" HelpContextIds="16" Name="CustomerEdit" BuildFlags="">
+  <Title m="2007-10-10T21:04:29Z">Editing a customer</Title>
+  <ContentsTitle m="2006-07-31T14:06:12Z" />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2007-10-10T21:06:11Z">&lt;OL&gt;
+&lt;LI&gt;Display the&amp;nbsp;&lt;A href="{632AE989-92D6-4262-8E4E-04719B74E56F}"&gt;customers view&lt;/A&gt; and select a customer from the list 
+&lt;LI&gt;Click the &lt;STRONG&gt;Edit&lt;/STRONG&gt; &lt;IMG alt="" src="Images/Commands/RealWorld/RecordsEdit.bmp" border=0&gt; button. &lt;/LI&gt;&lt;/OL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="{6D694B3B-E79E-4578-8DA3-7E275A96C735}" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="{887A5E7A-AF8C-46C3-A6E0-03BD69C58192}">
+      <Title m="2007-10-10T21:04:29Z" />
+      <Category m="2007-10-10T21:04:29Z" />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="{0E023A8D-BA75-442D-ADB2-3572C3EF7765}" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="{02A1E018-C3DD-466B-83D1-E5863B6DF623}">
+      <Title m="2007-10-10T21:04:29Z" />
+      <Category m="2007-10-10T21:04:29Z" />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="{EB4C5A8E-499F-44D9-BBF8-9D65971F728E}">
+      <Keyword m="2007-10-10T21:04:29Z">Customer|Editing</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="{B13574B2-E977-4222-99FA-8AFF93D8F5C7}">
+      <Keyword m="2007-10-10T21:04:29Z">Editing a customer</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

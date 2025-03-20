@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="{7874FD30-1AF0-4AD7-B339-3AD2AFC824E9}" Status="In Progress" CreatedOn="2004-08-23T00:00:00Z" ModifiedOn="2004-09-07T00:00:00Z" ModifiedBy="" PageTypeName="" AutoIndex="true" HelpContextIds="5" Name="OrdersView" BuildFlags="">
+  <Title m="2007-10-10T21:04:29Z">The orders view</Title>
+  <ContentsTitle m="2007-10-10T21:04:29Z">Orders</ContentsTitle>
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2007-10-10T21:04:29Z">&lt;TABLE cellSpacing=2 cols=2 cellPadding=2&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TD&gt;&lt;IMG src="Images/Orders24.gif" border=0&gt;&lt;/TD&gt;
+&lt;TD&gt;
+&lt;P&gt;The Orders view displays a list of all your orders, and provides access for adding, editing or removing them.&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="{78A7E943-C064-489A-AC61-FCF64CD12116}" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="{3318316B-5BF5-4CC6-9EF6-5D476DF7A2FF}">
+      <Title m="2007-10-10T21:04:29Z" />
+      <Category m="2007-10-10T21:06:11Z" />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="{3C5D90AA-7C53-4F5A-8270-7D858BD6DCCF}" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="{6163DD76-555E-4AA4-A04F-0FC5FA9CC05B}">
+      <Title m="2007-10-10T21:04:29Z" />
+      <Category m="2007-10-10T21:06:11Z" />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="{2424D184-A899-4FA9-938F-AB6AE7EF9A34}" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="{42F8464A-4BB4-4B75-826B-9DFF2770CBAA}">
+      <Title m="2007-10-10T21:04:29Z" />
+      <Category m="2007-10-10T21:06:11Z" />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="{EA64D649-400B-4551-8565-461CEC438ABB}">
+      <Keyword m="2007-10-10T21:04:29Z">View|Orders</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="{E68B34F0-4978-4D60-B07E-25C3D93741C5}">
+      <Keyword m="2007-10-10T21:04:29Z">Order|Viewing</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="{DE406F28-286C-469D-B567-0BF713D3C0F0}">
+      <Keyword m="2007-10-10T21:04:29Z">Orders view</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

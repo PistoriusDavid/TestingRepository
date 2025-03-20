@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="{5EC19138-EBE1-4B85-BC96-2B202911213C}" Status="In Progress" CreatedOn="2004-08-23T00:00:00Z" ModifiedOn="2005-07-06T00:00:00Z" ModifiedBy="" PageTypeName="" AutoIndex="true" HelpContextIds="15" Name="CategoryEdit" BuildFlags="">
+  <Title m="2007-10-10T21:04:29Z">Editing a category</Title>
+  <ContentsTitle m="2006-07-31T14:06:12Z" />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2007-10-10T21:06:12Z">&lt;OL&gt;
+&lt;LI&gt;From the &lt;STRONG&gt;Tools&lt;/STRONG&gt; menu, click &lt;STRONG&gt;Categories&lt;/STRONG&gt; 
+&lt;LI&gt;Select the category you want to edit 
+&lt;LI&gt;&lt;EM&gt;Optional.&lt;/EM&gt; To rename a category, press &lt;STRONG&gt;F2&lt;/STRONG&gt; and enter the new name. 
+&lt;LI&gt;&lt;EM&gt;Optional.&lt;/EM&gt; To change the description of the category, press &lt;STRONG&gt;Enter&lt;/STRONG&gt; and enter the new value 
+&lt;LI&gt;&lt;EM&gt;Optional.&lt;/EM&gt; To change the image&amp;nbsp;associated with a category, click &lt;STRONG&gt;Select Image&lt;/STRONG&gt; and choose a new graphic. 
+&lt;LI&gt;Press &lt;STRONG&gt;OK&lt;/STRONG&gt; to save your changes.&lt;/LI&gt;&lt;/OL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="{4AA0B552-B4BF-4EE4-9F11-6EA1C37AA422}" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="{E0B9234C-5F1E-4C66-BD40-21B3F7C983A4}">
+      <Title m="2007-10-10T21:04:29Z" />
+      <Category m="2007-10-10T21:04:29Z" />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="{7FE6DBE5-F56F-4425-BD0B-C04340A7468A}" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="{8AFBF264-CE62-4C00-BE7E-58CB063E9487}">
+      <Title m="2007-10-10T21:04:29Z" />
+      <Category m="2007-10-10T21:04:29Z" />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="{993D608C-0841-4D07-9D10-3F427A0BCFB2}">
+      <Keyword m="2007-10-10T21:04:29Z">Category|Editing</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

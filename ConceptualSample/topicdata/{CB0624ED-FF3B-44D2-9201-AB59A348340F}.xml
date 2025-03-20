@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="{CB0624ED-FF3B-44D2-9201-AB59A348340F}" Status="In Progress" CreatedOn="2004-08-23T00:00:00Z" ModifiedOn="2004-09-07T00:00:00Z" ModifiedBy="" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="ShortcutKeys" BuildFlags="">
+  <Title m="2007-10-10T21:04:29Z">HotKeys Reference</Title>
+  <ContentsTitle m="2006-07-31T14:06:12Z" />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2007-10-10T21:06:11Z">&lt;TABLE cellSpacing=2 cellPadding=2&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TD class=CommandHotkey&gt;F1&lt;/TD&gt;
+&lt;TD class=HotKeyDescription&gt;Displays the help file for Innovasys RealWorld&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD class=CommandHotkey&gt;Ctrl+A&lt;/TD&gt;
+&lt;TD class=HotKeyDescription&gt;Adds a new record&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD class=CommandHotkey&gt;Ctrl+E&lt;/TD&gt;
+&lt;TD class=HotKeyDescription&gt;Edits the selected record&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD class=CommandHotkey&gt;Ctrl+D&lt;/TD&gt;
+&lt;TD class=HotKeyDescription&gt;Removes the selected record&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD class=CommandHotkey&gt;Ctrl+P&lt;/TD&gt;
+&lt;TD class=HotKeyDescription&gt;Prints the contents of the current window&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD class=CommandHotkey&gt;Alt+F4&lt;/TD&gt;
+&lt;TD class=HotKeyDescription&gt;Quit Innovasys RealWorld&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="{192FCBEA-75FA-4ECF-B78B-724DF39B0C41}" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="{AD73B7BE-39AA-4150-89B5-0B516495D172}">
+      <Title m="2007-10-10T21:04:29Z" />
+      <Category m="2007-10-10T21:04:29Z" />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="{65CF996F-5CF4-40C0-BDD8-3774DF9B4A30}">
+      <Keyword m="2007-10-10T21:04:29Z">Reference</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="{F6AA6682-A002-4D6E-91A9-3D4729D49790}">
+      <Keyword m="2007-10-10T21:04:29Z">Hot Keys</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="{76C00168-2C1B-4356-9B64-1AFE2BE81F43}">
+      <Keyword m="2007-10-10T21:04:29Z">Shortcut Keys</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="{451781D6-943A-4303-BD63-8BD011D8AEEF}">
+      <Keyword m="2007-10-10T21:04:29Z">Keyboard</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

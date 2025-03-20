@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="{218F9C5A-E0B6-45E1-991C-FD4678F2D3D2}" Status="In Progress" CreatedOn="2004-08-23T00:00:00Z" ModifiedOn="2007-10-11T16:37:40Z" ModifiedBy="" PageTypeName="" AutoIndex="true" HelpContextIds="12" Name="SupplierAdd" BuildFlags="{0D13A77A-EE67-4FC5-9F37-6C0649200D2F}">
+  <Title m="2007-10-10T21:04:29Z">Adding a supplier</Title>
+  <ContentsTitle m="2006-07-31T14:06:12Z" />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2007-10-10T21:06:12Z">&lt;OL&gt;
+&lt;LI&gt;Display the&amp;nbsp;&lt;A href="{E574023B-3100-4C41-B2C9-5ECA6C1A2FA0}"&gt;suppliers view&lt;/A&gt; and click the &lt;STRONG&gt;Add&lt;/STRONG&gt; &lt;IMG alt="" src="Images/Commands/RealWorld/RecordsAdd.bmp" border=0&gt; button. &lt;/LI&gt;&lt;/OL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="{07D1DD8D-CCA5-4E0E-8005-994F8553B395}" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="{8C259DB2-5201-4160-B175-BAB75696F0FD}">
+      <Title m="2007-10-10T21:04:29Z" />
+      <Category m="2007-10-10T21:04:29Z" />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="{8D898C84-D31C-4EEB-B1EB-1836908A1E69}" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="{462B3324-3071-4CC2-A505-2CB4A23B4607}">
+      <Title m="2007-10-10T21:04:29Z" />
+      <Category m="2007-10-10T21:04:29Z" />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="{64941572-6F8B-4AB9-9782-E8824917CECD}">
+      <Keyword m="2007-10-10T21:04:29Z">Supplier|Adding</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="{D8186AE7-4BD7-4999-880C-28B1B3F81EC0}">
+      <Keyword m="2007-10-10T21:04:29Z">Adding a supplier</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

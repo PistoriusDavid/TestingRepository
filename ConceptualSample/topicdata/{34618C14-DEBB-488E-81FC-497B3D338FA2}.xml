@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="{34618C14-DEBB-488E-81FC-497B3D338FA2}" Status="In Progress" CreatedOn="2004-08-23T00:00:00Z" ModifiedOn="2005-07-06T00:00:00Z" ModifiedBy="" PageTypeName="" AutoIndex="true" HelpContextIds="11" Name="ProductAdd" BuildFlags="">
+  <Title m="2007-10-10T21:04:29Z">Adding a product</Title>
+  <ContentsTitle m="2006-07-31T14:06:12Z" />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2007-10-10T21:06:12Z">&lt;OL&gt;
+&lt;LI&gt;Display the&amp;nbsp;&lt;A href="{774892BC-9709-4A4B-A395-D166C7C67C48}"&gt;products view&lt;/A&gt; and click the &lt;STRONG&gt;Add&lt;/STRONG&gt; &lt;IMG alt="" src="Images/Commands/RealWorld/RecordsAdd.bmp" border=0&gt; button. &lt;/LI&gt;&lt;/OL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="{ED030BAB-4894-48B4-AAA1-927A555FE744}" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="{93FE991F-BAFE-4D52-94BB-58CD3967E51B}">
+      <Title m="2007-10-10T21:04:29Z" />
+      <Category m="2007-10-10T21:04:29Z" />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="{C23CA840-6811-41AC-884C-7BE0DA3E130B}" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="{CFB8DF78-021A-48AC-9AD5-4325A4A0FCAA}">
+      <Title m="2007-10-10T21:04:29Z" />
+      <Category m="2007-10-10T21:04:29Z" />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="{E9869B44-EB3E-4F4E-97CE-91C89916AA18}">
+      <Keyword m="2007-10-10T21:04:29Z">Product|Adding</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="{FAB026A3-B890-435F-9927-AF27CB05586C}">
+      <Keyword m="2007-10-10T21:04:29Z">Adding a product</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

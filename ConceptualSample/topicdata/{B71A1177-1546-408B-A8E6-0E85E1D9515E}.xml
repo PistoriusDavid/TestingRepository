@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="{B71A1177-1546-408B-A8E6-0E85E1D9515E}" Status="In Progress" CreatedOn="2004-08-23T00:00:00Z" ModifiedOn="2004-09-07T00:00:00Z" ModifiedBy="" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="EmployeeDelete" BuildFlags="">
+  <Title m="2007-10-10T21:04:29Z">Deleting an employee</Title>
+  <ContentsTitle m="2006-07-31T14:06:12Z" />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2007-10-10T21:06:12Z">&lt;OL&gt;
+&lt;LI&gt;Display the&amp;nbsp;&lt;A href="{A23C21A0-B6B5-45BC-A7E1-DC16E7E297F8}"&gt;employees view&lt;/A&gt; and select&amp;nbsp;an employee&amp;nbsp;from the list 
+&lt;LI&gt;Click the &lt;STRONG&gt;Delete&lt;/STRONG&gt; &lt;IMG alt="" src="Images/Commands/RealWorld/RecordsRemove.bmp" border=0&gt; button. 
+&lt;LI&gt;Answer &lt;STRONG&gt;Yes&lt;/STRONG&gt; to the confirmation prompt to remove the record. &lt;/LI&gt;&lt;/OL&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;&lt;innovasys:widget layout="block" type="Caution Box"&gt; &lt;innovasys:widgetproperty layout="inline" name="content"&gt;
+&lt;P&gt;Please note that removing&amp;nbsp;an employee&amp;nbsp;will not remove any related orders or modify other records linked to that employee.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="{1AE8ACCD-CE94-4716-A027-2145A40E5AAD}" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="{A457AB2C-5EF5-46BF-B10A-3476ABAC6F42}">
+      <Title m="2007-10-10T21:04:29Z" />
+      <Category m="2007-10-10T21:04:29Z" />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="{B86C0305-B794-404B-8A2C-183014202A3D}" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="{74AF0629-88CB-4B9E-9237-DBC12C243374}">
+      <Title m="2007-10-10T21:04:29Z" />
+      <Category m="2007-10-10T21:04:29Z" />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="{EAEB8B23-2B59-4A4D-8EC7-E94868DC0FFA}">
+      <Keyword m="2007-10-10T21:04:29Z">Employee|Deleting</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="{19EAD2B1-4A1A-4E5E-A2A0-28480D44008D}">
+      <Keyword m="2007-10-10T21:04:29Z">Deleting an employee</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

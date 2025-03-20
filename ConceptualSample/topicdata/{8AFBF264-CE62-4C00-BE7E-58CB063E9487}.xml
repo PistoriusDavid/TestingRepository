@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="{8AFBF264-CE62-4C00-BE7E-58CB063E9487}" Status="In Progress" CreatedOn="2004-08-23T00:00:00Z" ModifiedOn="2004-09-07T00:00:00Z" ModifiedBy="" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="CategoryDelete" BuildFlags="">
+  <Title m="2007-10-10T21:04:29Z">Deleting a category</Title>
+  <ContentsTitle m="2006-07-31T14:06:12Z" />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2007-10-10T21:06:13Z">&lt;OL&gt;
+&lt;LI&gt;From the &lt;STRONG&gt;Tools&lt;/STRONG&gt; menu, click &lt;STRONG&gt;Categories&lt;/STRONG&gt; 
+&lt;LI&gt;Click the &lt;STRONG&gt;Delete&lt;/STRONG&gt; &lt;IMG alt="" src="Images/Commands/RealWorld/RecordsRemove.bmp" border=0&gt; button. 
+&lt;LI&gt;Answer &lt;STRONG&gt;Yes&lt;/STRONG&gt; to the confirmation prompt to remove the record. 
+&lt;LI&gt;Click &lt;STRONG&gt;OK&lt;/STRONG&gt; to save your changes &lt;/LI&gt;&lt;/OL&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;&lt;innovasys:widget layout="block" type="Caution Box"&gt; &lt;innovasys:widgetproperty layout="inline" name="content"&gt;
+&lt;P&gt;Please note that removing&amp;nbsp;a category will not update any products linked to this category.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="{64455789-5A2B-45E7-8BF9-392C079DDBAF}" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="{E0B9234C-5F1E-4C66-BD40-21B3F7C983A4}">
+      <Title m="2007-10-10T21:04:29Z" />
+      <Category m="2007-10-10T21:04:29Z" />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="{EE6A3311-505B-4E10-B69E-B2BBB4C64F9F}" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="{5EC19138-EBE1-4B85-BC96-2B202911213C}">
+      <Title m="2007-10-10T21:04:29Z" />
+      <Category m="2007-10-10T21:04:29Z" />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="{51D781D9-7F56-4A5D-9FE5-45D197C22AC7}">
+      <Keyword m="2007-10-10T21:04:29Z">Category|Deleting</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>
