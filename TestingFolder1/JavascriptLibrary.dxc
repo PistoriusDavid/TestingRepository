@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentFile Version="2010" Moniker="&lt;JavascriptComponent ComponentName=&quot;JavascriptLibrary&quot; IgnoreUnderscoredNamespaces=&quot;false&quot; IgnoreUnderscoredTypesAndMembers=&quot;false&quot; UnderscorePrefixIsPrivate=&quot;true&quot; Title=&quot;jquery.validate jQuery Plugin Library&quot;&gt;&#xD;&#xA;  &lt;CacheableRootNames&gt;&#xD;&#xA;    &lt;CacheableRootName&gt;window&lt;/CacheableRootName&gt;&#xD;&#xA;    &lt;CacheableRootName&gt;window.jQuery&lt;/CacheableRootName&gt;&#xD;&#xA;    &lt;CacheableRootName&gt;window.jQuery.fn&lt;/CacheableRootName&gt;&#xD;&#xA;  &lt;/CacheableRootNames&gt;&#xD;&#xA;  &lt;SearchRootNames&gt;&#xD;&#xA;    &lt;SearchRootName&gt;window&lt;/SearchRootName&gt;&#xD;&#xA;    &lt;SearchRootName&gt;window.jQuery&lt;/SearchRootName&gt;&#xD;&#xA;    &lt;SearchRootName&gt;window.jQuery.fn&lt;/SearchRootName&gt;&#xD;&#xA;  &lt;/SearchRootNames&gt;&#xD;&#xA;  &lt;ExplicitNames /&gt;&#xD;&#xA;  &lt;CustomObjectTypes&gt;&#xD;&#xA;    &lt;CustomObjectType QualifiedName=&quot;window.docs&quot; OriginalObjectType=&quot;Variable&quot; ObjectType=&quot;Ignore&quot; ObjectWrapperKind=&quot;None&quot; /&gt;&#xD;&#xA;    &lt;CustomObjectType QualifiedName=&quot;window.jQuery.validator&quot; ConstructWith=&quot;new jQuery.validator({}, null)&quot; OriginalObjectType=&quot;Class&quot; ObjectType=&quot;Class&quot; ObjectWrapperKind=&quot;None&quot; /&gt;&#xD;&#xA;    &lt;CustomObjectType QualifiedName=&quot;window.NaN&quot; OriginalObjectType=&quot;Variable&quot; ObjectType=&quot;Ignore&quot; ObjectWrapperKind=&quot;None&quot; /&gt;&#xD;&#xA;  &lt;/CustomObjectTypes&gt;&#xD;&#xA;  &lt;IncludedGlobalNames /&gt;&#xD;&#xA;  &lt;ScriptFiles&gt;&#xD;&#xA;    &lt;ScriptFile FileName=&quot;..\..\..\repos\renatus\.writableconfig\samples\dx.javascript\jquery.validation\jquery.validate.js&quot; IsAmd=&quot;false&quot; IsDependency=&quot;false&quot; /&gt;&#xD;&#xA;    &lt;ScriptFile FileName=&quot;..\..\..\repos\renatus\.writableconfig\samples\dx.javascript\jquery.validation\jquery.validate.options.js&quot; IsAmd=&quot;false&quot; IsDependency=&quot;false&quot; /&gt;&#xD;&#xA;  &lt;/ScriptFiles&gt;&#xD;&#xA;  &lt;Browsers&gt;&#xD;&#xA;    &lt;Browser Version=&quot;8&quot; IsIncluded=&quot;true&quot; Name=&quot;InternetExplorer&quot; /&gt;&#xD;&#xA;    &lt;Browser Version=&quot;5&quot; IsIncluded=&quot;true&quot; Name=&quot;Firefox&quot; /&gt;&#xD;&#xA;    &lt;Browser Version=&quot;&quot; IsIncluded=&quot;true&quot; Name=&quot;Opera&quot; /&gt;&#xD;&#xA;    &lt;Browser Version=&quot;&quot; IsIncluded=&quot;true&quot; Name=&quot;Chrome&quot; /&gt;&#xD;&#xA;    &lt;Browser Version=&quot;5&quot; IsIncluded=&quot;true&quot; Name=&quot;Safari&quot; /&gt;&#xD;&#xA;  &lt;/Browsers&gt;&#xD;&#xA;  &lt;JQueryPluginMethodInfos&gt;&#xD;&#xA;    &lt;JQueryPluginMethodInfo IsWidget=&quot;false&quot; UseLiteralCallingSyntax=&quot;false&quot; OptionsCaption=&quot;options&quot; Name=&quot;JavascriptLibrary~jQuery.fn.-~validate&quot; OptionsType=&quot;JavascriptLibrary~jQuery.validator.options&quot; ImplementationType=&quot;JavascriptLibrary~jQuery.validator&quot; /&gt;&#xD;&#xA;    &lt;JQueryPluginMethodInfo IsWidget=&quot;false&quot; UseLiteralCallingSyntax=&quot;false&quot; OptionsCaption=&quot;options&quot; Name=&quot;JavascriptLibrary~jQuery.fn.-~valid&quot; /&gt;&#xD;&#xA;    &lt;JQueryPluginMethodInfo IsWidget=&quot;false&quot; UseLiteralCallingSyntax=&quot;false&quot; OptionsCaption=&quot;options&quot; Name=&quot;JavascriptLibrary~jQuery.fn.-~removeAttrs&quot; /&gt;&#xD;&#xA;    &lt;JQueryPluginMethodInfo IsWidget=&quot;false&quot; UseLiteralCallingSyntax=&quot;false&quot; OptionsCaption=&quot;options&quot; Name=&quot;JavascriptLibrary~jQuery.fn.-~rules&quot; ImplementationType=&quot;JavascriptLibrary~jQuery.validator.defaults.rules&quot; /&gt;&#xD;&#xA;    &lt;JQueryPluginMethodInfo IsWidget=&quot;false&quot; UseLiteralCallingSyntax=&quot;false&quot; OptionsCaption=&quot;options&quot; Name=&quot;JavascriptLibrary~jQuery.fn.-~validateDelegate&quot; /&gt;&#xD;&#xA;  &lt;/JQueryPluginMethodInfos&gt;&#xD;&#xA;&lt;/JavascriptComponent&gt;" DocType="DX.JAVASCRIPT" IsLocalizationDisabled="false">
+  <RelatedProject>TestingProject.dxp</RelatedProject>
+  <State>
+    <Attributes>
+      <Assembly key="scrollPosition" valuetype="integer">0</Assembly>
+    </Attributes>
+  </State>
+  <LastSelectedItem>JavascriptLibrary</LastSelectedItem>
+  <ModifiedOn>2025-03-20T10:49:20.032599+00:00</ModifiedOn>
+  <ModifiedBy>ORBIS\dpistorius</ModifiedBy>
+  <item qn="JavascriptLibrary~jQuery.-~format">
+    <exclude ChangeDateTime="2013-04-16T15:48:54.564424Z" />
+    <exclude_toc ChangeDateTime="2013-04-16T15:48:56.7706446Z" />
+  </item>
+  <item qn="JavascriptLibrary~jQuery.fn.-~validateDelegate">
+    <exclude ChangeDateTime="2013-04-16T15:49:19.4929166Z" />
+    <exclude_toc ChangeDateTime="2013-04-16T15:49:20.937061Z" />
+  </item>
+  <item qn="JavascriptLibrary~jQuery.validator~addWrapper">
+    <exclude_toc ChangeDateTime="2013-04-18T11:26:12.657077Z" />
+  </item>
+  <item qn="JavascriptLibrary~jQuery.validator~attributeRules">
+    <exclude_toc ChangeDateTime="2013-04-18T11:26:06.6656762Z" />
+  </item>
+  <item qn="JavascriptLibrary~jQuery.validator~check">
+    <exclude_toc ChangeDateTime="2013-04-18T11:26:03.7039724Z" />
+  </item>
+  <item qn="JavascriptLibrary~jQuery.validator~checkable">
+    <exclude_toc ChangeDateTime="2013-04-18T11:26:01.018241Z" />
+  </item>
+  <item qn="JavascriptLibrary~jQuery.validator~checkForm">
+    <exclude_toc ChangeDateTime="2013-04-18T11:25:58.4634965Z" />
+  </item>
+  <item qn="JavascriptLibrary~jQuery.validator~classRules">
+    <exclude_toc ChangeDateTime="2013-04-18T11:25:55.6967732Z" />
+  </item>
+  <item qn="JavascriptLibrary~jQuery.validator~clean">
+    <exclude_toc ChangeDateTime="2013-04-18T11:25:52.0211408Z" />
+  </item>
+  <item qn="JavascriptLibrary~jQuery.validator~customDataMessage">
+    <exclude_toc ChangeDateTime="2013-04-18T11:25:49.0284401Z" />
+  </item>
+  <item qn="JavascriptLibrary~jQuery.validator~customMessage">
+    <exclude_toc ChangeDateTime="2013-04-18T11:25:46.2617168Z" />
+  </item>
+  <item qn="JavascriptLibrary~jQuery.validator~dataRules">
+    <exclude_toc ChangeDateTime="2013-04-18T11:25:43.6579772Z" />
+  </item>
+  <item qn="JavascriptLibrary~jQuery.validator~defaultMessage">
+    <exclude_toc ChangeDateTime="2013-04-18T11:25:40.8932537Z" />
+  </item>
+  <item qn="JavascriptLibrary~jQuery.validator~defaultShowErrors">
+    <exclude_toc ChangeDateTime="2013-04-18T11:25:38.280515Z" />
+  </item>
+  <item qn="JavascriptLibrary~jQuery.validator~depend">
+    <exclude_toc ChangeDateTime="2013-04-18T11:25:35.2128218Z" />
+  </item>
+  <item qn="JavascriptLibrary~jQuery.validator~elements">
+    <exclude_toc ChangeDateTime="2013-04-18T11:25:31.3822049Z" />
+  </item>
+  <item qn="JavascriptLibrary~jQuery.validator~elementValue">
+    <exclude_toc ChangeDateTime="2013-04-18T11:25:28.6724759Z" />
+  </item>
+  <item qn="JavascriptLibrary~jQuery.validator~errors">
+    <exclude_toc ChangeDateTime="2013-04-18T11:25:25.8057626Z" />
+  </item>
+  <item qn="JavascriptLibrary~jQuery.validator~errorsFor">
+    <exclude_toc ChangeDateTime="2013-04-18T11:25:22.7440688Z" />
+  </item>
+  <item qn="JavascriptLibrary~jQuery.validator~findByName">
+    <exclude_toc ChangeDateTime="2013-04-18T11:25:19.0904342Z" />
+  </item>
+  <item qn="JavascriptLibrary~jQuery.validator~findDefined">
+    <exclude_toc ChangeDateTime="2013-04-18T11:25:15.4477985Z" />
+  </item>
+  <item qn="JavascriptLibrary~jQuery.validator~findLastActive">
+    <exclude_toc ChangeDateTime="2013-04-18T11:25:12.4071026Z" />
+  </item>
+  <item qn="JavascriptLibrary~jQuery.validator~focusInvalid">
+    <exclude_toc ChangeDateTime="2013-04-18T11:25:09.1544279Z" />
+  </item>
+  <item qn="JavascriptLibrary~jQuery.validator~format">
+    <exclude_toc ChangeDateTime="2013-04-18T11:26:23.3200106Z" />
+  </item>
+  <item qn="JavascriptLibrary~jQuery.validator~formatAndAdd">
+    <exclude_toc ChangeDateTime="2013-04-18T11:26:25.4977928Z" />
+  </item>
+  <item qn="JavascriptLibrary~jQuery.validator~getLength">
+    <exclude_toc ChangeDateTime="2013-04-18T11:26:28.3815044Z" />
+  </item>
+  <item qn="JavascriptLibrary~jQuery.validator~hideErrors">
+    <exclude_toc ChangeDateTime="2013-04-18T11:26:30.9202505Z" />
+  </item>
+  <item qn="JavascriptLibrary~jQuery.validator~idOrName">
+    <exclude_toc ChangeDateTime="2013-04-18T11:26:34.2269198Z" />
+  </item>
+  <item qn="JavascriptLibrary~jQuery.validator~init">
+    <exclude_toc ChangeDateTime="2013-04-18T11:26:37.0886336Z" />
+  </item>
+  <item qn="JavascriptLibrary~jQuery.validator~invalidElements">
+    <exclude_toc ChangeDateTime="2013-04-18T11:26:39.9293495Z" />
+  </item>
+  <item qn="JavascriptLibrary~jQuery.validator~normalizeRule">
+    <exclude_toc ChangeDateTime="2013-04-18T11:26:42.7170707Z" />
+  </item>
+  <item qn="JavascriptLibrary~jQuery.validator~normalizeRules">
+    <exclude_toc ChangeDateTime="2013-04-18T11:26:45.5897834Z" />
+  </item>
+  <item qn="JavascriptLibrary~jQuery.validator~objectLength">
+    <exclude_toc ChangeDateTime="2013-04-18T11:26:59.5153907Z" />
+  </item>
+  <item qn="JavascriptLibrary~jQuery.validator~optional">
+    <exclude_toc ChangeDateTime="2013-04-18T11:27:04.5872172Z" />
+  </item>
+  <item qn="JavascriptLibrary~jQuery.validator~prepareElement">
+    <exclude_toc ChangeDateTime="2013-04-18T11:27:07.0522172Z" />
+  </item>
+  <item qn="JavascriptLibrary~jQuery.validator~prepareForm">
+    <exclude_toc ChangeDateTime="2013-04-18T11:27:09.5022172Z" />
+  </item>
+  <item qn="JavascriptLibrary~jQuery.validator~previousValue">
+    <exclude_toc ChangeDateTime="2013-04-18T11:27:11.9482172Z" />
+  </item>
+  <item qn="JavascriptLibrary~jQuery.validator~reset">
+    <exclude_toc ChangeDateTime="2013-04-18T11:27:16.9942172Z" />
+  </item>
+  <item qn="JavascriptLibrary~jQuery.validator~showLabel">
+    <exclude_toc ChangeDateTime="2013-04-18T11:27:28.5552172Z" />
+  </item>
+  <item qn="JavascriptLibrary~jQuery.validator~size">
+    <exclude_toc ChangeDateTime="2013-04-18T11:27:31.1812172Z" />
+  </item>
+  <item qn="JavascriptLibrary~jQuery.validator~startRequest">
+    <exclude_toc ChangeDateTime="2013-04-18T11:27:33.7132172Z" />
+  </item>
+  <item qn="JavascriptLibrary~jQuery.validator~staticRules">
+    <exclude_toc ChangeDateTime="2013-04-18T11:27:36.0172172Z" />
+  </item>
+  <item qn="JavascriptLibrary~jQuery.validator~stopRequest">
+    <exclude_toc ChangeDateTime="2013-04-18T11:27:39.0252172Z" />
+  </item>
+  <item qn="JavascriptLibrary~jQuery.validator~valid">
+    <exclude_toc ChangeDateTime="2013-04-18T11:27:43.7542172Z" />
+  </item>
+  <item qn="JavascriptLibrary~jQuery.validator~validationTargetFor">
+    <exclude_toc ChangeDateTime="2013-04-18T11:27:49.7102172Z" />
+  </item>
+  <item qn="JavascriptLibrary~jQuery.validator~validElements">
+    <exclude_toc ChangeDateTime="2013-04-18T11:27:52.4652172Z" />
+  </item>
+  <item qn="JavascriptLibrary">
+    <summary ChangeDateTime="2013-05-08T15:11:03.668387Z">A sample project documenting the popular jQuery Validation plugin (&lt;a href="http://bassistance.de/jquery-plugins/jquery-plugin-validation/" target="_blank"&gt;http://bassistance.de/jquery-plugins/jquery-plugin-validation/&lt;/a&gt;).</summary>
+  </item>
+  <item qn="JavascriptLibrary~jQuery_namespace">
+    <summary ChangeDateTime="2016-08-21T11:11:59.2115133Z">jQuery Root Namespace.</summary>
+  </item>
+  <item qn="JavascriptLibrary~jQuery.validator_namespace">
+    <summary ChangeDateTime="2016-08-21T11:12:10.5100086Z">jQuery.validator Root Namespace.</summary>
+  </item>
+  <item qn="JavascriptLibrary~jQuery.validator.methods">
+    <summary ChangeDateTime="2016-08-21T11:12:25.9619265Z">Type containing static validator methods.</summary>
+  </item>
+  <item qn="JavascriptLibrary~jQuery.validator">
+    <examplecode ChangeDateTime="2016-08-21T11:13:46.1779987Z" title="Form Validation Example" description="" pagetype="" inline="true" escaped="false" id="537e247d-c8af-437a-a4d8-fe9efb522e33" lang="Javascript">// Wait for the DOM to be ready
+$(function() {
+  // Initialize form validation on the registration form.
+  // It has the name attribute "registration"
+  $("form[name='registration']").validate({
+    // Specify validation rules
+    rules: {
+      // The key name on the left side is the name attribute
+      // of an input field. Validation rules are defined
+      // on the right side
+      firstname: "required",
+      lastname: "required",
+      email: {
+        required: true,
+        // Specify that email should be validated
+        // by the built-in "email" rule
+        email: true
+      },
+      password: {
+        required: true,
+        minlength: 5
+      }
+    },
+    // Specify validation error messages
+    messages: {
+      firstname: "Please enter your firstname",
+      lastname: "Please enter your lastname",
+      password: {
+        required: "Please provide a password",
+        minlength: "Your password must be at least 5 characters long"
+      },
+      email: "Please enter a valid email address"
+    },
+    // Make sure the form is submitted to the destination defined
+    // in the "action" attribute of the form when valid
+    submitHandler: function(form) {
+      form.submit();
+    }
+  });
+});</examplecode>
+    <exampleintro ChangeDateTime="2016-08-21T11:14:34.7941863Z">The following example illustrates how jQuery.validator might be used to validate a registration form.</exampleintro>
+  </item>
+  <Filters>
+    <CONTENTSTORECOMMON>
+      <IsIncludedItemsOnly>true</IsIncludedItemsOnly>
+    </CONTENTSTORECOMMON>
+    <CONTENTSTORELOCALIZATION>
+      <IsPrimaryLocaleContentPreviewEnabled>true</IsPrimaryLocaleContentPreviewEnabled>
+    </CONTENTSTORELOCALIZATION>
+    <DX.AJAXCONTENTSTOREFILTER>
+      <ShowProtectedMembers>true</ShowProtectedMembers>
+      <ShowProtectedFriendMembers>true</ShowProtectedFriendMembers>
+      <ShowFriendMembers>false</ShowFriendMembers>
+      <ShowPrivateMembers>false</ShowPrivateMembers>
+      <ShowInheritedMembers>false</ShowInheritedMembers>
+      <IsSourceCodeContentVisible>true</IsSourceCodeContentVisible>
+    </DX.AJAXCONTENTSTOREFILTER>
+  </Filters>
+</ContentFile>
