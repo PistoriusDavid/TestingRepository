@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="f427806c-a0f0-4040-90f9-5f35cb60f08b" Status="Complete" CreatedOn="2014-09-09T12:47:21.0180329Z" ModifiedOn="2023-08-23T08:20:14.3322902Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Stock_Advanced_Check_Stock" BuildFlags="">
+  <Title m="2014-09-09T12:48:04.5235213Z">Kontrola hodnoty skladu v obstarávacích cenách</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-08-23T08:20:14.3322902Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; je venovaná &lt;STRONG&gt;problematike kontroly príjmu, výdaja a&amp;nbsp;stavu zásob v obstarávacích cenách&lt;/STRONG&gt; v&amp;nbsp;&lt;A href="1e423d36-8e0a-4420-b2e9-05f12806ec3a"&gt;sklade&lt;/A&gt;. Kontrola sa spravidla vykonáva na získanie prehľadu o hodnote skladových zásob a pre potreby účtovníctva.&lt;/P&gt;
+&lt;H2&gt;Postup kontroly skladu&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;Pred samotnou kontrolou skladu sa odporúča spustiť funkciu&amp;nbsp;&lt;A href="dc54990f-39a8-4a17-b0bf-9b463e6c9303"&gt;Prepočet obstarávacích cien a výnosov&lt;/A&gt; (kniha&amp;nbsp;&lt;A href="1a33ab0b-2df7-4dc2-962b-8a3319c16831"&gt;Skladové karty&lt;/A&gt;, tlačidlo &lt;I&gt;Možnosti&lt;/I&gt;)&lt;I&gt;.&lt;/I&gt; Táto funkcia opätovne prepočíta obstarávacie ceny a výnosy na všetkých skladových kartách v danom sklade. Funkcia sa používa&amp;nbsp;v&amp;nbsp;prípadoch, keď sa &lt;STRONG&gt;spätne opravujú doklady, vydáva sa do mínusu, vykonáva sa storno na registračnej pokladnici&lt;/STRONG&gt; a pod. 
+&lt;LI&gt;Ďalej je potrebné zistiť stav zásob na začiatku a na konci obdobia (obdobie je možné stanoviť ľubovoľne). Stav zásob je možné zistiť v&amp;nbsp;ponuke &lt;EM&gt;Sklad&lt;/EM&gt;,&amp;nbsp;&lt;A href="1a33ab0b-2df7-4dc2-962b-8a3319c16831"&gt;Skladové karty&lt;/A&gt;, tlačidlo &lt;I&gt;Tlač&lt;/I&gt;, možnosť &lt;I&gt;&lt;STRONG&gt;Stavy zásob (skladové karty) - k dátumu&lt;/STRONG&gt;.&lt;/I&gt; Je potrebné mať na zreteli, že do stavu zásob k dátumu sa započítavajú aj skladové pohyby vykonané v&amp;nbsp;daný deň (napr. ak chceme zistiť stav zásob k&amp;nbsp;začiatku účtovného obdobia 2023, je potrebné zostaviť stav zásob k 31.12.2022. 
+&lt;LI&gt;Výšku príjmu a výdaja v&amp;nbsp;danom sklade je možné zistiť pomocou nasledujúcich tlačových výstupov (ponuka &lt;EM&gt;Sklad&lt;/EM&gt;,&amp;nbsp;&lt;A href="fc7595a6-54ce-4aa9-acb4-93d7880e854e"&gt;Skladové pohyby&lt;/A&gt;, tlačidlo &lt;I&gt;Tlač&lt;/I&gt;): 
+&lt;UL&gt;
+&lt;LI&gt;&lt;I&gt;&lt;STRONG&gt;Súhrnný výkaz o príjme v sklade&lt;/STRONG&gt;,&lt;/I&gt; 
+&lt;LI&gt;&lt;I&gt;&lt;STRONG&gt;Súhrnný výkaz o výdaji v sklade&lt;/STRONG&gt;,&lt;/I&gt; 
+&lt;LI&gt;&lt;I&gt;&lt;STRONG&gt;Skladové pohyby (obstarávacie ceny - sumárne za doklad)&lt;/STRONG&gt;.&lt;/I&gt; &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Zistené údaje je možné zapísať do prehľadnej tabuľky v tabuľkovom kalkulátore (napr. &lt;EM&gt;LibreOffice&lt;/EM&gt;) a vypočítať hodnotu skladu ku koncu obdobia. Vypočítaná hodnota by mala byť rovnaká ako stav zásob ku koncu obdobia. Alternatívne je možné použiť tlačový výstup &lt;EM&gt;&lt;STRONG&gt;Súhrnný výkaz o&amp;nbsp;obratoch v&amp;nbsp;skladoch&lt;/STRONG&gt;&lt;/EM&gt;. &lt;/LI&gt;&lt;/OL&gt;
+&lt;H3&gt;Príklad výpočtu hodnoty skladu&lt;/H3&gt;
+&lt;TABLE style="HEIGHT: 242px; WIDTH: 49.27%"&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TD align=left&gt;Stav zásob na začiatku obdobia&lt;/TD&gt;
+&lt;TD align=right&gt;0,00&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD align=left&gt;Príjem&lt;/TD&gt;
+&lt;TD align=right&gt;155 000,00&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD align=left&gt;Výdaj&lt;/TD&gt;
+&lt;TD align=right&gt;89 900,52&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD align=left&gt;Stav zásob ku koncu obdobia&lt;/TD&gt;
+&lt;TD align=right&gt;65 099,48&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD align=left&gt;Vypočítaná hodnota*&lt;/TD&gt;
+&lt;TD align=right&gt;65 099,48&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD align=left&gt;Rozdiel medzi skutočnosťou a vypočítanou hodnotou&lt;/TD&gt;
+&lt;TD align=right&gt;0,00&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;
+&lt;P&gt;* Vypočítaná hodnota = stav zásob na začiatku obdobia + príjem - výdaj = stav zásob ku koncu obdobia&lt;/P&gt;
+&lt;H2&gt;Rozdiel hodnoty skladu&lt;/H2&gt;
+&lt;P&gt;V praxi sa môže vyskytnúť prípad, že vypočítaná hodnota nie je totožná s hodnotou stavu zásob ku koncu obdobia. Rozdiel hodnoty skladu môže vzniknúť z&amp;nbsp;nasledujúcich dôvodov:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;B&gt;spätné zaevidovanie dokladov&lt;/B&gt; - dodatočné zaevidovanie, prípadne korekcia príjmov. Riešením je spustenie funkcie&amp;nbsp;&lt;A href="dc54990f-39a8-4a17-b0bf-9b463e6c9303"&gt;Prepočet obstarávacích cien a výnosov&lt;/A&gt;; 
+&lt;LI&gt;&lt;B&gt;v evidencii sa stále nachádzajú pohyby (výdaje), po ktorých je stav zásob záporný&lt;/B&gt;&amp;nbsp;- po výdaji do mínusu nebolo vykonané ani spätné zaevidovanie príjmu. V tomto prípade je funkcia &lt;I&gt;Prepočet obstarávacích cien a výnosov&lt;/I&gt; neúčinná; 
+&lt;LI&gt;&lt;B&gt;chyba v databáze&lt;/B&gt; - chyba v štruktúre databázy môže spôsobiť nesprávny výpočet, bližšie informácie získate v téme&amp;nbsp;&lt;A href="a5cb5e1d-b643-4229-b77a-26caeb479aa9" style="auto-update-caption: true"&gt;Poškodená databáza&lt;/A&gt;; 
+&lt;LI&gt;&lt;B&gt;zaokrúhlenia&lt;/B&gt; - je potrebné mať na zreteli počet desatinných miest, na ktoré sa evidujú množstvá a predajné ceny na skladovej karte. Pri obratoch&amp;nbsp;desiatok miliónov môžu vznikať rozdiely rádovo v&amp;nbsp;desiatkach tisíc, t.&amp;nbsp;j.&amp;nbsp;napr. &lt;SPAN lang=en xml:lang="en"&gt;pri obrate 100 miliónov&amp;nbsp;rozdiel môže predstavovať hodnotu 10&amp;nbsp;000.&lt;/SPAN&gt; &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Ako postupovať pri zistení rozdielu hodnoty skladu&lt;/H2&gt;
+&lt;P&gt;Pri zistení nesúladu medzi vypočítanou hodnotou a hodnotou stavu zásob ku koncu obdobia je potrebné skontrolovať&amp;nbsp;skladové pohyby za dané obdobie po častiach (napr. po týždňoch, v prípade veľkého množstva skladových pohybov aj po dňoch). Pri kontrole postupujte takto:&lt;/P&gt;
+&lt;OL&gt;
+&lt;LI&gt;Aby sa predišlo strate údajov,&amp;nbsp;v&amp;nbsp;prvom kroku vykonajte&amp;nbsp;&lt;A href="493f5942-f267-4f98-a46d-8acc745b9b88"&gt;zálohu databázy&lt;/A&gt;.
+&lt;LI&gt;V&amp;nbsp;ponuke &lt;EM&gt;Sklad&lt;/EM&gt;,&amp;nbsp;&lt;A href="fc7595a6-54ce-4aa9-acb4-93d7880e854e"&gt;Skladové pohyby&lt;/A&gt; stlačte tlačidlo &lt;EM&gt;Tlač&lt;/EM&gt; a zvoľte tlačový výstup&amp;nbsp;&lt;EM&gt;&lt;STRONG&gt;Súhrnný výkaz o&amp;nbsp;obratoch v&amp;nbsp;skladoch&lt;/STRONG&gt;&lt;/EM&gt;.
+&lt;LI&gt;V&amp;nbsp;sprievodcovi zvoľte obdobie (prvý týždeň, deň), za ktoré sa zostaví tlačový výstup. Ak sa nezistí rozdiel, zvoľte nasledujúce obdobia (týždne, dni), kým nenarazíte na rozdiel v sumách. V problémovom období (týždni, dni) skontrolujte skladové pohyby (napr. či nebol vykonaný dodatočný príjem a nezabudlo sa na použitie funkcie prepočtu obstarávacích cien&amp;nbsp;a pod.).&lt;/LI&gt;&lt;/OL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="44fba714-7c4a-4660-a864-f2d0b5bfaf9d" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1e423d36-8e0a-4420-b2e9-05f12806ec3a">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="e4c16e70-450d-4a49-bc8f-c5c9e5ff85e7" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1a33ab0b-2df7-4dc2-962b-8a3319c16831">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="919f5dff-ed7e-40b6-b4e3-6e38efcb5f0d" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="fc7595a6-54ce-4aa9-acb4-93d7880e854e">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="76b56ee7-09ee-4851-90b9-ca5a9ec0a49d" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="a64f2b63-4025-4a07-b855-a85d34e55627">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="29c6063c-af04-4163-8925-3f2c8db6f22d" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="dc54990f-39a8-4a17-b0bf-9b463e6c9303">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="4a1c2401-c4b5-4b6f-a77d-cf4b8b44ce3d" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="219d1e12-dc75-4817-a237-5369100b0d11">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="b124d37c-39c9-499f-8f6c-19cf8830076d">
+      <Keyword m="2023-04-26T08:53:54.6664625Z">Hodnota skladu v obstarávacích cenách - kontrola</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="e2f10ac2-9dea-417c-a58c-12b1553c2221">
+      <Keyword m="2014-11-18T10:21:27.4697265Z">Intergrita skladu</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="88d53ab2-94d3-4a78-b250-8c34038f9607">
+      <Keyword m="2021-11-26T13:20:09.3645688Z">Obstarávacia cena - kontrola hodnoty skladu</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="0a683c28-6c43-4d16-af5c-99e1830af7da">
+      <Keyword m="2023-04-26T08:54:06.2770124Z">Kontrola skladu v obstarávacích cenách</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="5f565e45-1679-4b8c-a897-986602c240f6">
+      <Keyword m="2023-04-26T08:53:45.6575Z">Hodnota skladových zásob v obstarávacích cenách - kontrola</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="3b5b7172-ce24-4936-8b56-f4246f085618">
+      <Keyword m="2021-11-26T13:20:19.2986537Z">Súhrnný výkaz o príjme v sklade</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="4868fdeb-2c97-4a34-8a59-ebcac50f5f61">
+      <Keyword m="2021-11-26T13:20:30.36341Z">Súhrnný výkaz o výdaji v sklade</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="8636f0b9-4c2b-4133-969f-ab3adeda32fd">
+      <Keyword m="2021-11-26T13:20:58.2720099Z">Skladové pohyby (obstarávacie ceny - sumárne za doklad)</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="159a03c1-a698-4ac7-a596-a60b5b214c01">
+      <Keyword m="2021-11-26T13:21:17.8266016Z">Stavy zásob (skladové karty) - k dátumu</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

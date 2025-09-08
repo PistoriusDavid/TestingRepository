@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="56f661c6-24da-46aa-b157-5d988cbe792b" Status="Complete" CreatedOn="2014-09-02T12:04:43.8054015Z" ModifiedOn="2025-01-10T12:35:00.0518283Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Developers_XMLCommunication_BasicInfo" BuildFlags="">
+  <Title m="2021-03-30T11:16:06.034716Z">Všeobecne o XML komunikácii</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2025-01-10T11:56:32.7303411Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje všeobecné informácie&amp;nbsp;o &lt;STRONG&gt;XML komunikácii&lt;/STRONG&gt; - jednej z&amp;nbsp;&lt;A href="5020b29b-b6e5-48bb-bfc6-800d68d5b8e9"&gt;možností exportu/importu údajov z/do systému OBERON&lt;/A&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Jedným zo spôsobov, ako exportovať údaje z OBERON-u alebo naopak, importovať do OBERON-u, je pomocou XML komunikácie, t. j. výmeny súborov vo formáte XML, v&amp;nbsp;ktorom sú uložené prenášané údaje. Spravidla sa exportujú/importujú údaje dokladov ako faktúra, objednávka, výdajka a&amp;nbsp;pod. Export alebo import je možné vykonať v&amp;nbsp;danej agende, napr. v&amp;nbsp;&lt;I&gt;Knihe pohľadávok,&lt;/I&gt; prípadne nastaviť&amp;nbsp;ich automatické vykonávanie pomocou&amp;nbsp;&lt;A href="aecc92e6-f07c-418c-b1d1-e7794a78fd31"&gt;automatického XML exportu/importu&lt;/A&gt;, prípadne prostredníctvom&amp;nbsp;&lt;A href="797aaa39-ae1b-4f4c-bac5-88c9ac25f11d"&gt;off-line transportov údajov&lt;/A&gt;&amp;nbsp;(spravidla pri&amp;nbsp;&lt;A href="797aaa39-ae1b-4f4c-bac5-88c9ac25f11d"&gt;off-line pobočkovom režime&lt;/A&gt;). 
+&lt;LI&gt;Výmena súborov&amp;nbsp;XML&amp;nbsp;môže prebiehať v rámci jednej firmy (napr. pri viacerých pobočkách), ďalej medzi rôznymi účtovnými jednotkami používajúcimi OBERON (t.&amp;nbsp;j.&amp;nbsp;rovnaký softvér) a&amp;nbsp;nakoniec aj medzi rôznymi účtovnými jednotkami, ktoré používajú odlišné účtovné (skladové) softvéry. 
+&lt;LI&gt;XML komunikácia v systéme OBERON je založená na súboroch XML, ktoré sú presne špecifického formátu (ide o tzv. &lt;STRONG&gt;natívny formát&lt;/STRONG&gt; &lt;STRONG&gt;OBERON XML&lt;/STRONG&gt;). Aby systém&amp;nbsp;OBERON mohol&amp;nbsp;importovať údaje z&amp;nbsp;iného&amp;nbsp;softvéru s&amp;nbsp;odlišnou štruktúrou&amp;nbsp;súboru XML, existuje možnosť pred samotným importom automaticky vykonať &lt;STRONG&gt;konverziu&lt;/STRONG&gt; (transformáciu) týchto údajov. Konverziu&amp;nbsp;dát možno vykonať niekoľkými spôsobmi, pričom najčastejšie je to pomocou&amp;nbsp;&lt;A href="50adcd4a-de72-439e-895f-021cd9537535"&gt;transformačných šablón XSLT&lt;/A&gt;. Obdobne je možné postupovať aj pri exporte údajov. 
+&lt;LI&gt;Hotové transformačné šablóny XSLT&amp;nbsp;pre XML komunikáciu je možné vyhľadať a inštalovať pomocou &lt;A href="a1ae5eb5-f369-4aab-80b2-c6585166d550"&gt;Správcu doplnkov&lt;/A&gt; (záložka &lt;EM&gt;XML&lt;/EM&gt;). V odôvodnených prípadoch je možné požiadať&amp;nbsp;firmu EXALOGIC&amp;nbsp;o&amp;nbsp;vytvorenie&amp;nbsp;&lt;A href="bdd6c3d1-daaa-4c3f-94be-af2784f716ae"&gt;transformačnej šablóny XSLT na mieru&lt;/A&gt;. 
+&lt;LI&gt;Popri&amp;nbsp;XSLT transformačných šablónach sa&amp;nbsp;pri&amp;nbsp;XML komunikácii&amp;nbsp;v systéme OBERON používajú aj&amp;nbsp;&lt;A href="02287be9-0d9c-427d-8d25-88310ae34bbb"&gt;transformačné šablóny na import súborov CSV&lt;/A&gt; exportovaných z&amp;nbsp;iných systémov. 
+&lt;LI&gt;Pravidlá&amp;nbsp;daného importu alebo exportu je možné určiť pomocou&amp;nbsp;&lt;A href="ab9d497d-fd18-4185-a487-28e3bf04cecf"&gt;nastavení XML komunikácie&lt;/A&gt;. Umožňujú &lt;STRONG&gt;pred&lt;/STRONG&gt; &lt;STRONG&gt;importom&lt;/STRONG&gt; nastaviť spôsob konverzie údajov zo súboru&amp;nbsp;XML s odlišnou štruktúrou, ako OBERON priamo podporuje (tzv. natívny formát OBERON XML), prípadne spôsob&amp;nbsp;konverzie údajov zo súboru&amp;nbsp;iného formátu ako XML. Zároveň umožňujú nastaviť spôsob&amp;nbsp;konverzie údajov &lt;STRONG&gt;po exporte&lt;/STRONG&gt;&amp;nbsp;do súboru XML s odlišnou štruktúrou ako OBERON XML, prípadne do súboru&amp;nbsp;iného formátu ako XML,&amp;nbsp;na ďalšie spracovanie v externých systémoch. 
+&lt;LI&gt;V&amp;nbsp;rámci&amp;nbsp;&lt;A href="2b1c8088-fe6c-4fab-bf73-6947c2bec31e"&gt;podrobných nastavení XML komunikácie&lt;/A&gt; je možné nastaviť&amp;nbsp;&lt;STRONG&gt;ďalšie&amp;nbsp;parametre importu&lt;/STRONG&gt; (sklad, do ktorého sa má import vykonať, polia na synchronizáciu&amp;nbsp;skladových položiek atď.) v&amp;nbsp;prípade, že sa položky importovaného dokladu (faktúry, príjemky...) majú naimportovať &lt;STRONG&gt;ako skladové&lt;/STRONG&gt; (v opačnom prípade sa naimportujú ako neskladové).&amp;nbsp;Zároveň&amp;nbsp;je možné&amp;nbsp;nastaviť &lt;STRONG&gt;ďalšie parametre exportu&lt;/STRONG&gt;&amp;nbsp;- sklad,&amp;nbsp;z&amp;nbsp;ktorého sa má export vykonať, a&amp;nbsp;či sa majú exportovať aj základné, resp. rozšírené údaje skladových kariet, na základe ktorých&amp;nbsp;sa pri následnom importe bude môcť z položky dokladu&amp;nbsp;&lt;STRONG&gt;automaticky vytvoriť daná skladová karta&lt;/STRONG&gt; v prípade, že sa v cieľovej databáze nenachádza. 
+&lt;LI&gt;Pri exporte údajov vytvorený&amp;nbsp;súbor XML&amp;nbsp;môže byť automaticky elektronicky podpísaný. Naopak, pri importe údajov môže byť overená pravosť elektronického podpisu, a&amp;nbsp;tým aj&amp;nbsp;importovaného&amp;nbsp;súboru XML. Bližšie informácie o elektronickom podpise získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="c1e2e5a1-2cf4-47aa-a546-47d5baa1df3e" style="auto-update-caption: true"&gt;Čo je elektronický podpis&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Kde je možné použiť XML komunikáciu&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Priamo v evidenciách programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;:&lt;/STRONG&gt; &lt;EM&gt;Účtovný/Peňažný denník, Kniha pohľadávok, Kniha záväzkov, Príjemky, výdajky, Objednávky prijaté&lt;/EM&gt;... - po stlačení tlačidla &lt;EM&gt;Možnosti -&lt;/EM&gt;&amp;nbsp;&lt;A href="1e10bdae-2db4-4df8-94c4-94795ef55090"&gt;XML komunikácia - export údajov&lt;/A&gt; alebo&amp;nbsp;&lt;A href="87f1f18f-269b-4e21-998d-5e9b7f3d5024"&gt;XML komunikácia import dokladu, resp. hromadný import dokladov/údajov&lt;/A&gt;&lt;EM&gt;.&lt;/EM&gt; &lt;/LI&gt;&lt;/UL&gt;
+&lt;BLOCKQUOTE style="MARGIN-RIGHT: 0px" dir=ltr&gt;
+&lt;UL&gt;
+&lt;LI&gt;Výmena súborov&amp;nbsp;XML&amp;nbsp;môže prebiehať: 
+&lt;UL&gt;
+&lt;LI&gt;v rámci jednej firmy používajúcej systém OBERON&amp;nbsp;(napr. pri viacerých pobočkách), 
+&lt;LI&gt;medzi rôznymi účtovnými jednotkami používajúcimi systém OBERON (t.&amp;nbsp;j.&amp;nbsp;rovnaký softvér), 
+&lt;LI&gt;medzi účtovnou jednotkou používajúcou systém OBERON a&amp;nbsp;účtovnými jednotkami, ktoré používajú odlišné účtovné (skladové) softvéry - viac informácií získate&amp;nbsp;v témach&amp;nbsp;&lt;A href="c4bb279e-a2ba-4690-83b9-efb2e11cc077" style="auto-update-caption: true"&gt;Import dokladov z iných softvérov&lt;/A&gt; a&amp;nbsp;&lt;A href="2c463344-2e7a-4599-8afb-f5d06c2366e0" style="auto-update-caption: true"&gt;Export dokladov do iných softvérov&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Umožňuje rýchlo a jednoducho&amp;nbsp;exportovať alebo importovať doklady (záznamy) bez zložitých nastavení. 
+&lt;LI&gt;Je potrebné špecifikovať len &lt;A href="ab9d497d-fd18-4185-a487-28e3bf04cecf"&gt;nastavenia XML komunikácie&lt;/A&gt;, prípadne&amp;nbsp;&lt;A href="2b1c8088-fe6c-4fab-bf73-6947c2bec31e"&gt;podrobné nastavenia XML komunikácie&lt;/A&gt;. 
+&lt;LI&gt;Exportovať je možné jeden záznam, len označené záznamy alebo všetky (odfiltrované) záznamy zobrazené v knihe. 
+&lt;LI&gt;Importovať je možné jeden alebo viacero dokladov naraz. &lt;/LI&gt;&lt;/UL&gt;&lt;/BLOCKQUOTE&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Pri&amp;nbsp;automatickom XML exporte/importe:&lt;/STRONG&gt; &lt;/LI&gt;&lt;/UL&gt;
+&lt;BLOCKQUOTE style="MARGIN-RIGHT: 0px" dir=ltr&gt;
+&lt;UL&gt;
+&lt;LI&gt;XML komunikáciu&amp;nbsp;je možné použiť aj pri&amp;nbsp;&lt;STRONG&gt;automatickom XML exporte/importe&lt;/STRONG&gt;. Predstavuje&amp;nbsp;&lt;A href="9ce25bbd-35d1-4096-acd5-70007f5af5a6"&gt;automatickú úlohu&lt;/A&gt;, ktorá umožňuje v určených časových intervaloch&amp;nbsp;automaticky exportovať, resp. importovať XML súbory v ľubovoľných&amp;nbsp;evidenciách programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;&amp;nbsp;(skladové karty,&amp;nbsp;objednávky prijaté...) konkrétnym skupinám príjemcov, a to predovšetkým do/z iných účtovných jednotiek (firiem) používajúcich systém OBERON, resp. externých systémov (napr.&amp;nbsp;&lt;A href="2ba6a435-be52-46a1-b723-fb2b8ca084c0"&gt;internetového obchodu&lt;/A&gt;). 
+&lt;LI&gt;Úloha&amp;nbsp;umožňuje odosielať údaje ako: 
+&lt;UL&gt;
+&lt;LI&gt;súbor uložený v zdieľanom úložisku na spracovanie&amp;nbsp;externým programom, 
+&lt;LI&gt;súbor odoslaný&amp;nbsp;na FTP server, 
+&lt;LI&gt;správu obsahujúcu súbor XML&amp;nbsp;odoslanú na WEB server ako HTTP POST požiadavka. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Úloha môže prijímať údaje zo: 
+&lt;UL&gt;
+&lt;LI&gt;súboru&amp;nbsp;v&amp;nbsp;zdieľanom úložisku alebo vytvoreného externým programom, 
+&lt;LI&gt;súboru stiahnutého z FTP servera, 
+&lt;LI&gt;správy prijatej z WEB servera na základe&amp;nbsp;HTTP GET požiadavky. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;V porovnaní s off-line transportami údajov (pozri nižšie) ide o efektívnejší spôsob prenosu údajov (nastavuje sa len na jednej strane, nie je potrebný&amp;nbsp;&lt;A href="803b07a0-8fcc-46b7-aaee-3b3f6f708106"&gt;výber údajov na transport&lt;/A&gt;&amp;nbsp;a&amp;nbsp;pod.).&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/LI&gt;&lt;/UL&gt;&lt;/BLOCKQUOTE&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;V prípade&amp;nbsp;off-line transportov údajov:&lt;/STRONG&gt; &lt;/LI&gt;&lt;/UL&gt;
+&lt;BLOCKQUOTE style="MARGIN-RIGHT: 0px" dir=ltr&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;A href="1dc4ea18-03c0-4028-afe5-4532583b6a44"&gt;Off-line transporty údajov&lt;/A&gt; je umožňujú exporty a importy údajov&amp;nbsp;spravidla medzi pobočkou a centrálou účtovnej jednotky pri&amp;nbsp;&lt;A href="797aaa39-ae1b-4f4c-bac5-88c9ac25f11d"&gt;&lt;/A&gt;&lt;A href="797aaa39-ae1b-4f4c-bac5-88c9ac25f11d"&gt;off-line pobočkovom režime&lt;/A&gt;, napr. zabezpečujú transport údajov pri&amp;nbsp;&lt;A href="88af013e-47e9-408a-ac47-18fb4edb5553"&gt;off-line pobočkovej Pokladnici OBERON&lt;/A&gt;&lt;EM&gt;.&lt;/EM&gt; 
+&lt;LI&gt;Transporty údajov je možné vykonávať &lt;STRONG&gt;tak v internom formáte OBERON&amp;nbsp;&lt;/STRONG&gt;(medzi dvomi programami OBERON), &lt;STRONG&gt;ako aj&amp;nbsp;v&amp;nbsp;natívnom formáte OBERON&amp;nbsp;XML&lt;/STRONG&gt; - vďaka tomu tieto transporty umožňujú&amp;nbsp;export a&amp;nbsp;import údajov aj do/z iných externých systémov (napr. export faktúr na spracovanie účtovnej kancelárii). 
+&lt;LI&gt;&lt;A href="1dc4ea18-03c0-4028-afe5-4532583b6a44"&gt;Off-line transporty údajov&lt;/A&gt; je potrebné &lt;A href="e3338780-69be-478a-90d4-060d971f987d"&gt;nakonfigurovať&lt;/A&gt; v programe&amp;nbsp;&lt;A href="24e780fd-36d3-4a6e-bfc0-a8665c75e4ee"&gt;OBERON Center&lt;/A&gt;. Ako funkcia v &lt;EM&gt;OBERON Centri&lt;/EM&gt; off-line transporty údajov umožňujú&amp;nbsp;exportovať a importovať doklady automaticky na pozadí. Používateľ nemusí manuálne vyberať doklady&amp;nbsp;na transport a&amp;nbsp;ani manuálne transport spúšťať - o&amp;nbsp;všetko sa stará program&amp;nbsp;&lt;I&gt;OBERON Center&lt;/I&gt;. Ide však o&amp;nbsp;ťažkopádnejší spôsob prenosu údajov ako pri&amp;nbsp;&lt;A href="aecc92e6-f07c-418c-b1d1-e7794a78fd31"&gt;automatickom XML exporte/importe&lt;/A&gt; (potreba nastavení na oboch stranách, vyššie riziko zlyhania prenosu, potreba&amp;nbsp;&lt;A href="803b07a0-8fcc-46b7-aaee-3b3f6f708106"&gt;výberu údajov na transport&lt;/A&gt;&amp;nbsp;a pod.). &lt;/LI&gt;&lt;/UL&gt;&lt;/BLOCKQUOTE&gt;
+&lt;H2&gt;Schématický diagram&lt;/H2&gt;
+&lt;H5&gt;Obrázok č. 1:&amp;nbsp;Spôsob importu alebo exportu údajov&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Developers/XML Communication/OBERON_XMLCommunication.png"&gt;&lt;/P&gt;
+&lt;H2&gt;Import údajov sa vykonáva nasledujúcim spôsobom:&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;Ak je importovaný súbor XML iného ako natívneho formátu OBERON XML, údaje v&amp;nbsp;súbore&amp;nbsp;je možné zobraziť pomocou &lt;A href="50adcd4a-de72-439e-895f-021cd9537535"&gt;XSLT transformačnej šablóny&lt;/A&gt;&lt;STRONG&gt;&amp;nbsp;na&amp;nbsp;zobrazenie&lt;/STRONG&gt;,&amp;nbsp;najčastejšie vo formáte HTML. 
+&lt;LI&gt;Pomocou &lt;A href="50adcd4a-de72-439e-895f-021cd9537535"&gt;XSLT transformačnej šablóny&lt;/A&gt;&amp;nbsp;(alebo pomocou iných nástrojov) sa vykoná &lt;STRONG&gt;transformácia&lt;/STRONG&gt; importovaného&amp;nbsp;súboru XML do&amp;nbsp;súboru&amp;nbsp;natívneho formátu OBERON XML. Údaje zo súboru natívneho formátu je možné zobraziť pomocou XSLT šablóny (či už vstavanej alebo ľubovoľnej inej). 
+&lt;LI&gt;Následne sa vykoná &lt;STRONG&gt;import údajov&lt;/STRONG&gt; zo súboru natívneho formátu OBERON XML a údaje sa zapíšu do databázy. &lt;/LI&gt;&lt;/OL&gt;
+&lt;H2&gt;Export údajov sa vykonáva nasledujúcim spôsobom:&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;Údaje sa načítajú z databázy a následne sa &lt;STRONG&gt;exportujú&lt;/STRONG&gt; do súboru natívneho formátu OBERON XML. Údaje zo súboru natívneho formátu je možné &lt;STRONG&gt;zobraziť&lt;/STRONG&gt; pomocou &lt;A href="50adcd4a-de72-439e-895f-021cd9537535"&gt;XSLT transformačnej šablóny&lt;/A&gt;&amp;nbsp;(či už vstavanej alebo ľubovoľnej inej). 
+&lt;LI&gt;Následne sa môže&amp;nbsp;vykonať transformácia (konverzia)&amp;nbsp;súboru natívneho formátu OBERON XML do&amp;nbsp;súboru XML&amp;nbsp;inej štruktúry (prípadne iného formátu, napr. CSV). &lt;/LI&gt;&lt;/OL&gt;
+&lt;H2&gt;Vytvorenie vzorového súboru XML&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Pri &lt;STRONG&gt;importe/exporte údajov pomocou súboru typu&amp;nbsp;XML&lt;/STRONG&gt; je možné použiť &lt;A href="50adcd4a-de72-439e-895f-021cd9537535"&gt;XSLT transformačné šablóny&lt;/A&gt;&amp;nbsp;na konverziu údajov z&amp;nbsp;iného formátu XML (pozri vyššie). Súbor so vzorovou štruktúrou objednávky vo formáte XML platný od 01.01.2025&amp;nbsp;je možné získať takto: 
+&lt;OL&gt;
+&lt;LI&gt;Nainštalujte aktuálnu verziu OBERON-u (inštalačný súbor je dostupný na&amp;nbsp;webovej stránke &lt;A href="http://www.exalogic.sk"&gt;www.exalogic.sk&lt;/A&gt; v sekcii&amp;nbsp;&lt;EM&gt;Na stiahnutie&lt;/EM&gt;). 
+&lt;LI&gt;V programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt; v&amp;nbsp;príslušnej evidencii&amp;nbsp;(&lt;A href="5c21adcc-87c8-44e7-981d-02902635693d"&gt;Kniha pohľadávok&lt;/A&gt;,&amp;nbsp;&lt;A href="55028746-c263-4d92-a615-502222e8d53b"&gt;Kniha záväzkov&lt;/A&gt;, &lt;A href="48505e8d-5f28-4063-882b-ca07f33670ef" style="auto-update-caption: true"&gt;Objednávky prijaté&lt;/A&gt;...) vytvorte vzorový nový doklad, ktorý obsahuje základnú, zníženú a nulovú sadzbu DPH a prípadne aj cudziu menu. 
+&lt;LI&gt;Stlačte tlačidlo &lt;EM&gt;Možnosti&lt;/EM&gt; a vyberte položku &lt;EM&gt;&lt;STRONG&gt;XML komunikácia - export údajov&lt;/STRONG&gt;&lt;/EM&gt;. Otvorí sa sprievodca, v ktorom začiarknite pole &lt;EM&gt;&lt;STRONG&gt;Vytvoriť vzorový XML&lt;/STRONG&gt;&lt;/EM&gt;. Takto vyexportovaný súbor bude obsahovať všetky elementy a komentáre. &lt;/LI&gt;&lt;/OL&gt;&lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="74d02907-82cb-49c5-914e-338fbd9f2e89" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="d432b45a-6978-4337-885d-28254ece2616">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="09f2690a-f423-4250-b4d3-a7b5cf5369ba" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="5020b29b-b6e5-48bb-bfc6-800d68d5b8e9">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="1368551d-7c3b-46df-b965-724dad8ba24d" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="ab9d497d-fd18-4185-a487-28e3bf04cecf">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="c3ecc756-0da9-4be6-abeb-54d1b4b208ef" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="aecc92e6-f07c-418c-b1d1-e7794a78fd31">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="33c523db-caf7-4db8-994e-7cb0a947ef38" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1dc4ea18-03c0-4028-afe5-4532583b6a44">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="1d2787e5-197e-47db-92cd-246f5048dcac" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="50adcd4a-de72-439e-895f-021cd9537535">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="20b45d00-be38-4014-9f33-3d18a2909fde" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="bdd6c3d1-daaa-4c3f-94be-af2784f716ae">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="daa6f693-7651-4ef8-8c70-e2f03bd3b1cd" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="02287be9-0d9c-427d-8d25-88310ae34bbb">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="65995803-15f5-44ff-9bc7-7a311834c1cf" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1e10bdae-2db4-4df8-94c4-94795ef55090">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="681f3a2d-afd1-4c07-a80b-c5a461895f28" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="87f1f18f-269b-4e21-998d-5e9b7f3d5024">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="2cf0ee0f-ed79-4b16-958c-7cca385fa6c9" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="e133c0e5-e693-4162-a5ea-e67edf2f2f42">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="6fa80fde-f13c-4b01-ae24-c4fce8413980">
+      <Keyword m="2021-03-31T08:30:30.8659971Z">XML komunikácia - export údajov</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="fe03f446-a0b2-4578-b9d6-d544ce723a37">
+      <Keyword m="2021-03-31T08:30:46.3117637Z">XML komunikácia - import údajov</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="aa97664c-0be9-49bb-8c65-f25d45d7db08">
+      <Keyword m="2021-03-31T08:30:09.0037611Z">XML komunikácia - všeobecné informácie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="8de1d693-cb4a-4ef1-a21d-766960355438">
+      <Keyword m="2021-03-31T09:22:26.7202633Z">XML komunikácia - možnosti použitia</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="9273f3e9-ec8d-41d1-a4b7-0c1c79a7cad8">
+      <Keyword m="2021-04-06T05:59:11.2819182Z">XML komunikácia - schématický diagram</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="bc5e8666-4c09-4c20-b5f9-b54ae43f8d05">
+      <Keyword m="2025-01-10T12:06:07.0352696Z">Vytvorenie vzorového súboru XML</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="6b5d2ce7-12c9-49d8-b310-810ce01c06ca">
+      <Keyword m="2025-01-10T12:06:33.9616087Z">Vzorový súbor XML - vytvorenie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="da667245-1d46-49f3-9f72-98a4111a9976">
+      <Keyword m="2025-01-10T12:35:00.0508368Z">XML komunikácia - vzorový súbor XML</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="aaff1cb2-5d8a-481e-990e-0f69c608171e" Status="Complete" CreatedOn="2014-09-08T12:39:55.5108754Z" ModifiedOn="2023-02-14T08:59:47.1992702Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="22320" Name="Menu_Firm_Period_Documents_Lock" BuildFlags="">
+  <Title m="2014-09-08T12:40:23.4284722Z">Zamykanie dokladov</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2022-07-07T08:04:43.5336259Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;je venovaná&amp;nbsp;položke&amp;nbsp;&lt;EM&gt;Zamykanie dokladov&lt;/EM&gt; v ponuke&amp;nbsp;&lt;EM&gt;Firma,&amp;nbsp;Obdobie&lt;/EM&gt;&amp;nbsp;programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Výberom položky sa otvorí sprievodca&amp;nbsp;&lt;EM&gt;Zamykanie dokladov&lt;/EM&gt;, pomocou ktorého je možné v&amp;nbsp;systéme OBERON&amp;nbsp;&lt;STRONG&gt;zamknúť doklady na ochranu proti neželaným zmenám&lt;/STRONG&gt; (napr. po podaní DPH priznania, po kompletnom zaúčtovaní mesiaca a pod.). 
+&lt;LI&gt;Doklady je možné zamknúť k ľubovoľnému dátumu, pričom doklady staršie ako daný dátum nebude možné upravovať. 
+&lt;LI&gt;V&amp;nbsp;zamknutom období&amp;nbsp;je možné doklady len prezerať, nemožno ich opravovať ani vymazávať. Do zamknutého obdobia nie je možné zaevidovať nový doklad. 
+&lt;LI&gt;Zamykať doklady môže každý používateľ zvlášť. Príslušné právo možno jednotlivým používateľom nastaviť v&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="834e9546-a56b-476f-9028-ef4c24a82345" style="auto-update-caption: true"&gt;Práva používateľov&lt;/A&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;Zrušiť zamknutie&lt;/STRONG&gt; možno pomocou rovnakého sprievodcu, a&amp;nbsp;to tak, že sa v&amp;nbsp;ňom &lt;STRONG&gt;nezadá dátum zamknutia dokladov&lt;/STRONG&gt; (pole sa ponechá&amp;nbsp;prázdne). Po stlačení tlačidla&amp;nbsp;&lt;EM&gt;Dokončiť&lt;/EM&gt; sa&amp;nbsp;ochrana dokladov zamknutím zruší. &lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="fa42cc01-db3a-4f0a-9680-31afea256fa7" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="225638ed-22f6-4ac4-9085-6d77c64925db">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="ab255e8e-f755-494d-9989-9f533fd27cf8" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="834e9546-a56b-476f-9028-ef4c24a82345">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="5ee6f712-99d4-43fa-8e7a-1ca24491c607">
+      <Keyword m="2022-07-07T05:15:22.6497058Z">Zamknutie dokladov</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="03eb7c25-d98d-4128-9f1c-9722be86be52">
+      <Keyword m="2022-07-07T05:15:30.314716Z">Zamknúť doklady</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="ce4ee444-a288-471a-bf85-afec24265c27">
+      <Keyword m="2022-07-07T05:15:33.8434047Z">Ochrana dokladov</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="55ac15b6-f562-47b5-84f4-c8e7539315fb">
+      <Keyword m="2022-07-07T05:15:43.1497553Z">Zrušiť zamknutie dokladov</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="e6a0f6ed-c084-435b-8e5a-05a18c3ec69a">
+      <Keyword m="2022-07-07T05:15:49.0297398Z">Zrušenie zamknutia dokladov</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="cb32016b-1c43-4a57-ac13-eacbeed01da8">
+      <Keyword m="2022-07-07T05:15:55.9420934Z">Zamykanie dokladov - zrušenie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="39346e00-df6a-4617-8cf1-58ef14eccc85">
+      <Keyword m="2022-07-07T05:16:17.6169709Z">Doklady - zamknutie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="9e463324-4789-433c-8ad2-6c77add7f276">
+      <Keyword m="2022-07-07T05:16:25.2264505Z">Doklady - ochrana</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

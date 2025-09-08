@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="5bfb1129-550c-42bb-9f72-ba0b3687a2b5" Status="Complete" CreatedOn="2018-02-23T09:21:17.955565Z" ModifiedOn="2024-04-15T07:28:18.2757828Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="70660" Name="Menu_Wages_Type_TimeSheet" BuildFlags="">
+  <Title m="2018-02-23T09:22:14.7597718Z">Typy prechodov</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-04-15T06:25:17.9995864Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;je venovaná&amp;nbsp;položke&amp;nbsp;&lt;EM&gt;Typy prechodov&lt;/EM&gt; v ponuke&amp;nbsp;&lt;EM&gt;Mzdy,&amp;nbsp;Dochádzka&lt;/EM&gt;&amp;nbsp;programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Výberom položky sa otvorí&amp;nbsp;číselník&amp;nbsp;&lt;EM&gt;Typy prechodov&lt;/EM&gt;, ktorý &lt;STRONG&gt;umožňuje definovať jednotlivé typy prechodov&lt;/STRONG&gt; cez&amp;nbsp;&lt;A href="f46f3a8f-ba04-4359-ba99-dc6caeeba021"&gt;dochádzkový terminál&lt;/A&gt;. Typy prechodov predstavujú &lt;STRONG&gt;položky evidované v dochádzkovom termináli&lt;/STRONG&gt;. 
+&lt;LI&gt;V&amp;nbsp;číselníku&amp;nbsp;sú &lt;STRONG&gt;základné typy prechodov preddefinované&lt;/STRONG&gt; (&lt;EM&gt;Práca, Služobne, Pracovná cesta, Obed, Prestávka, Súkromne, Lekár, OČR, Dovolenka, Iná neprítomnosť&lt;/EM&gt;). Ďalšie typy prechodov si môže účtovná jednotka&amp;nbsp;&lt;STRONG&gt;podľa potreby&amp;nbsp;ľubovoľne definovať&lt;/STRONG&gt;. Pri definovaní nových typov prechodov je potrebné mať na zreteli, že pri niektorých typoch&amp;nbsp;&lt;A href="f46f3a8f-ba04-4359-ba99-dc6caeeba021"&gt;dochádzkových terminálov&lt;/A&gt; je možné&amp;nbsp;pracovať &lt;STRONG&gt;len s limitovaným počtom typov prechodov&lt;/STRONG&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Definovať typ prechodu je možné pomocou&amp;nbsp;formulára&amp;nbsp;&lt;EM&gt;Typ prechodu&lt;/EM&gt;&amp;nbsp;(pozri nižšie).&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H5&gt;Obrázok č. 1: Dochádzkový terminál &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt; s typmi prechodov&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/Attendance/Form_Attendance_TerminalOBERONAgendafirmy.png"&gt;&lt;/P&gt;
+&lt;H2&gt;Popis formulára&amp;nbsp;&lt;EM&gt;Typ prechodu&lt;/EM&gt;&lt;/H2&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Názov&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Zadáva sa názov typu prechodu.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Druh prechodu&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Vzhľadom na to, že typy prechodov si môže účtovná jednotka sama definovať,&amp;nbsp;je dôležité mať pri každom type prechodu&amp;nbsp;&lt;STRONG&gt;jednoznačne určené,&lt;/STRONG&gt; &lt;STRONG&gt;k akému druhu&amp;nbsp;prechodu prislúcha&lt;/STRONG&gt;. Na základe druhu prechodu sa program rozhoduje, ako bude s daným typom prechodu pracovať. Druhy prechodov sú v programe pevne dané a nie je ich možné upravovať:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Odpracované&lt;/STRONG&gt; - umožňuje definovať typy prechodov, ktoré&amp;nbsp;reflektujú odpracovaný pracovný čas (napr. &lt;EM&gt;Práca&lt;/EM&gt;...), 
+&lt;LI&gt;&lt;STRONG&gt;Pracovná cesta&lt;/STRONG&gt; - slúži na definovanie typov prechodov určených pre pracovné cesty (napr. &lt;EM&gt;Služobne, Pracovná cesta&lt;/EM&gt;...), 
+&lt;LI&gt;&lt;STRONG&gt;Prestávka v práci&lt;/STRONG&gt; - umožňuje definovať typy prechodov, ktoré&amp;nbsp;reflektujú odpracovaný pracovný čas (napr. &lt;EM&gt;Obed, Prestávka&lt;/EM&gt;...), 
+&lt;LI&gt;&lt;STRONG&gt;Neprítomnosť v práci&lt;/STRONG&gt; - umožňuje definovať typy prechodov pre situácie, keď sú pracovníci neprítomní (napr. &lt;EM&gt;Dovolenka, Lekár, Súkromne&lt;/EM&gt;...), 
+&lt;LI&gt;&lt;STRONG&gt;Len evidovať prechod&lt;/STRONG&gt; - špeciálny druh prechodu, ktorý umožňuje nadefinovať typy prechodov, pri ktorých sa neeviduje dochádzka (nemajú vplyv na spracovanie dochádzky), ale sa zaznamenáva len čas prechodu (príchodu alebo odchodu). Tým sa simuluje prístupový systém, ktorý môže pracovať v&amp;nbsp;dvoch režimoch: buď&amp;nbsp;paralelne popri dochádzkovom systéme, alebo vo výlučnom režime (len ako prístupový systém). V&amp;nbsp;oboch prípadoch je evidovanie prístupu potrebné definovať dva typy prechodov: jeden pre príchod a druhý pre odchod. To je potrebné mať na zreteli predovšetkým pri typoch&amp;nbsp;&lt;A href="f46f3a8f-ba04-4359-ba99-dc6caeeba021"&gt;dochádzkových terminálov&lt;/A&gt;, ktoré umožňujú&amp;nbsp;pracovať len s&amp;nbsp;limitovaným počtom typov prechodov (konkrétne sa to týka hardvérového&amp;nbsp;&lt;A href="ac73b976-c72c-449c-a608-c41ca5eb24ba"&gt;dochádzkového terminálu EXALOGIC A-C071S&lt;/A&gt;, pri&amp;nbsp;softvérových dochádzkových termináloch, ktoré umožňujú nadefinovať neobmedzený počet typov prechodov,&amp;nbsp;toto obmedzenie nie je). Príkladom použitia môžu byť určité špecifické prevádzky, kde je nutné evidovať osoby, ktoré vstúpili do daného priestoru (výroba potravín, zbraní a pod.). &lt;/LI&gt;&lt;/UL&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Časová zložka&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Každému typu prechodu sa priraďuje&amp;nbsp;&lt;A href="4eb19cec-64b2-467f-8e96-fa7e5387704c"&gt;časová zložka dochádzky&lt;/A&gt;, napr. typu prechodu&lt;EM&gt;&amp;nbsp;Lekár&lt;/EM&gt; sa priradí časová zložka dochádzky &lt;EM&gt;Návšteva lekára - ošetrenie&lt;/EM&gt;, prípadne iná súvisiaca časová zložka dochádzky (&lt;EM&gt;Nemoc, Ošetrovanie člena rodiny&lt;/EM&gt;...).&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Obrázok&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;K typu prechodu je možné pridať ľubovoľný obrázok.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Zakázať&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Po začiarknutí tohto políčka&amp;nbsp;typ prechodu nebude možné používať, v systéme však ostane definovaný.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Použitie jednotlivých typov prechodov pri evidencii dochádzky na dochádzkových termináloch&amp;nbsp;&lt;A href="6856d140-bbfc-43c6-b0d7-0a6360827bb8"&gt;OBERON&lt;/A&gt; a&amp;nbsp;&lt;A href="1e150e57-14b3-4afd-8380-996f4ed00898"&gt;OBERON - Agenda firmy&lt;/A&gt;&amp;nbsp;je bližšie popísané v téme&amp;nbsp;&lt;A href="945e7141-25d7-4e5b-bf76-95cad39c7edb"&gt;Evidencia dochádzky na softvérových dochádzkových termináloch&lt;/A&gt;.&amp;nbsp;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="06925bfa-5c6f-4350-9f76-62968ddb2e4a" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="c75f2889-6d89-46fe-b1e1-e699b22ed226">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="15aec596-88fb-4748-92c3-0d3aa5773246" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="4eb19cec-64b2-467f-8e96-fa7e5387704c">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="7afe1b4c-7814-41b5-a2b4-709d3550e14c" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="4a82f3bd-3c2b-4ab4-91f7-df0fa039cd5c">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="6fc02f34-9cf8-42eb-9ba8-e2330b2ecd2c" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="f46f3a8f-ba04-4359-ba99-dc6caeeba021">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="259bab0f-fb31-4af1-abf5-683a54bf3603" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="945e7141-25d7-4e5b-bf76-95cad39c7edb">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="34e672e3-41e0-4ec3-8e49-8491662ea82d" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="ccadca4e-2fbd-4b28-8d92-f826f3019bd0">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="5e17e62b-7c64-4b80-a1d7-9b64be643ac5">
+      <Keyword m="2023-08-28T12:47:40.2195398Z">Prechody - typy (dochádzka)</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="6216270b-e585-446c-b881-afc0ed1afbea">
+      <Keyword m="2023-08-30T07:03:48.2200797Z">Číselník Typy prechodov</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="6fd02c91-a3d6-49ac-b46f-c0ae9070b273">
+      <Keyword m="2024-04-15T07:28:17.907815Z">Len evidovať prechod</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="a6f770c7-e211-4e84-bb09-c493f6011181" Status="Complete" CreatedOn="2021-11-23T09:34:50.2999495Z" ModifiedOn="2024-07-29T09:08:30.5666Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Installation_.NETFramework" BuildFlags="">
+  <Title m="2021-11-23T09:35:38.4773305Z">Inštalácia .NET Framework 4.8</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-07-29T09:08:30.5666Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;informácie k&amp;nbsp;inštalácii&amp;nbsp;runtime v&amp;nbsp;starších verziách systému &lt;EM&gt;Windows&lt;/EM&gt;, a to &lt;EM&gt;Windows 7 SP1,&amp;nbsp;Windows 8.1&lt;/EM&gt; a&lt;EM&gt;&amp;nbsp;Windows 10&lt;/EM&gt; do verzie 1903&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Systém OBERON ako aplikáciu vyvíjanú na platforme &lt;EM&gt;Microsoft Windows&lt;/EM&gt; možno&amp;nbsp;prevádzkovať &lt;STRONG&gt;na verziách systému&amp;nbsp;&lt;/STRONG&gt;&lt;STRONG&gt;&lt;EM&gt; Windows&amp;nbsp;10 &lt;/EM&gt;a&lt;EM&gt;&amp;nbsp;Windows 11&lt;/EM&gt;&lt;/STRONG&gt;. &lt;SPAN style="COLOR: rgb(255,0,0)"&gt;Prevádzka na starších verziách systému&lt;/SPAN&gt; &lt;EM style="COLOR: rgb(255,0,0)"&gt;Windows &lt;/EM&gt;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;sa neodporúča (niektoré funkcie nemusia fungovať korektne, prípadne nebudú dostupné).&lt;/SPAN&gt; 
+&lt;LI&gt;V&amp;nbsp;systéme OBERON sa používa runtime (systémové knižnice) verzie &lt;STRONG&gt;&lt;EM&gt;Microsoft .NET Framework 4.8&lt;/EM&gt;&lt;/STRONG&gt;, ktorá je od verzie &lt;EM&gt;Windows 10&lt;/EM&gt; (od verzie 1903, aktualizácia z 05/2019) súčasťou inštalácie systému &lt;EM&gt;Windows&lt;/EM&gt;. V&amp;nbsp;starších verziách systému&amp;nbsp;&lt;EM&gt;Windows&lt;/EM&gt; buď podporovaná nie je, alebo ju&amp;nbsp;možno doinštalovať&lt;EM&gt;&amp;nbsp;&lt;/EM&gt;(aktualizovať) manuálne. 
+&lt;LI&gt;Inštalačné súbory .&lt;EM&gt;NET Framework&lt;/EM&gt; je možné stiahnuť&amp;nbsp;v&amp;nbsp;sekcii &lt;A href="https://exalogic.sk/na-stiahnutie-oberon/net-framework-4-6/" target=_blank&gt;Na stiahnutie&lt;/A&gt;&amp;nbsp;webovej stránky &lt;A href="http://www.exalogic.sk"&gt;www.exalogic.sk&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Tabuľka&amp;nbsp;č. 1:&amp;nbsp;Dostupnosť &lt;EM&gt;.NET Framework 4.8&lt;/EM&gt; vo verziách &lt;EM&gt;OS Windows&lt;/EM&gt;&lt;/H5&gt;
+&lt;TABLE id=table3 style="WIDTH: 50%"&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TD height=22 width="10%" align=left&gt;&lt;STRONG&gt;Verzia OS&amp;nbsp;Windows (klient)&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD width="7.5%" align=center&gt;&lt;STRONG&gt;Microsoft .NET Framework 4.8&lt;/STRONG&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=22 width="10%" align=left&gt;&lt;EM&gt;Windows 11&lt;/EM&gt;&lt;/TD&gt;
+&lt;TD width="7.5%" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=22 width="10%" align=left&gt;&lt;EM&gt;Windows 10&lt;/EM&gt; (od verzie 1903, aktualizácia z 05/2019)&lt;/TD&gt;
+&lt;TD width="7.5%" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=22 width="10%" align=left&gt;&lt;EM&gt;Windows 10&lt;/EM&gt; (do verzie 1903)&lt;/TD&gt;
+&lt;TD width="7.5%" align=center&gt;možné&amp;nbsp;aktualizovať&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=22 width="10%" align=left&gt;&lt;EM&gt;Windows 8.1&lt;/EM&gt;&lt;/TD&gt;
+&lt;TD width="7.5%" align=center&gt;možné&amp;nbsp;doinštalovať&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=22 width="10%" align=left&gt;&lt;EM&gt;Windows 8&lt;/EM&gt;&lt;/TD&gt;
+&lt;TD width="7.5%" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=22 width="10%" align=left&gt;&lt;EM&gt;Windows 7 SP1&lt;/EM&gt;&lt;/TD&gt;
+&lt;TD width="7.5%" align=center&gt;možné doinštalovať&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=22 width="10%" align=left&gt;&lt;EM&gt;Windows Embedded Standard 7&lt;/EM&gt;&lt;/TD&gt;
+&lt;TD width="7.5%" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;
+&lt;H2&gt;Inštalácia do Windows 7 SP1&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Pred samotnou inštaláciou sa uistite, že v&amp;nbsp;systéme &lt;EM&gt;Windows 7 SP1&lt;/EM&gt; sú stiahnuté a &lt;STRONG&gt;nainštalované všetky posledné aktualizácie&lt;/STRONG&gt;. 
+&lt;LI&gt;Samotnú inštaláciu spustite ako &lt;STRONG&gt;správca&lt;/STRONG&gt;. 
+&lt;LI&gt;V prípade problémov s inštaláciou nainštalujte do operačného systému &lt;EM&gt;Windows 7 SP1&lt;/EM&gt;&amp;nbsp;nasledujúce &lt;STRONG&gt;certifikáty a aktualizácie&lt;/STRONG&gt;&amp;nbsp;(postup inštalácie je k&amp;nbsp;dispozícii v&amp;nbsp;téme&amp;nbsp;&lt;A href="90fb41ed-a267-4fe4-8a0c-d86f2d2d847b"&gt;Inštalácia certifikátov pre .NET Framework 4.8&lt;/A&gt;): 
+&lt;UL&gt;
+&lt;LI&gt;&lt;EM&gt;Microsoft RSA TLS CA 01.crt&lt;/EM&gt;, 
+&lt;LI&gt;&lt;EM&gt;MicrosoftRootCertificateAuthority2011.cer&lt;/EM&gt;, 
+&lt;LI&gt;&lt;EM&gt;KB474419&lt;/EM&gt;, 
+&lt;LI&gt;&lt;EM&gt;KB4490628&lt;/EM&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Z&amp;nbsp;webovej stránky &lt;A href="http://www.exalogic.sk/"&gt;www.exalogic.sk&lt;/A&gt;, sekcia &lt;A href="https://exalogic.sk/na-stiahnutie-oberon/net-framework/" target=_blank&gt;Na stiahnutie&lt;/A&gt; stiahnite runtime &lt;EM&gt;&lt;STRONG&gt;Microsoft .NET Framework 4.8&lt;/STRONG&gt;&lt;/EM&gt; a nainštalujte ho do počítača. Po inštalácii sa aktualizácia &lt;EM&gt;&lt;STRONG&gt;Microsoft.NET Framework 4.8 (KB4503548)&lt;/STRONG&gt;&lt;/EM&gt; vo &lt;EM&gt;Windows 7 SP1&lt;/EM&gt; zobrazí ako nainštalovaná položka v časti programy a súčasti v ovládacom paneli (pri &lt;EM&gt;Windows 10&lt;/EM&gt; medzi aktualizáciami). &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt; 
+&lt;UL&gt;
+&lt;LI&gt;Postup inštalácie do operačného systému &lt;EM&gt;Windows 8.1&lt;/EM&gt; je analogický. 
+&lt;LI&gt;V operačnom systéme &lt;EM&gt;Windows 10&lt;/EM&gt; (do verzie 1903) stačí runtime&amp;nbsp;&lt;EM&gt;&lt;STRONG&gt;Microsoft .NET Framework&lt;/STRONG&gt;&lt;/EM&gt; aktualizovať na verziu 4.8. &lt;/LI&gt;&lt;/UL&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="e067bb7e-366b-43ba-aa53-b70128220d43" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="14223592-268a-4a9d-a456-da9adeb1c46b">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="3906ef31-eeb9-43d4-8cb9-e80d5103776c" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="19a10c98-2b1d-4fe1-8ab2-98921ab328be">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="1406b8ea-ba76-48e2-886a-ab1c5b8d842a" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="90fb41ed-a267-4fe4-8a0c-d86f2d2d847b">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="bfea7d24-8457-4f0f-bd58-16045e48189f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="47ad147f-780a-4735-adcc-c5ac17ea9526">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="84dbb24d-84ea-462e-a243-2e7207d26914">
+      <Keyword m="2021-11-24T11:06:51.7895003Z">.NET Framework 4.8 - inštalácia</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="f70a9bdf-4627-4a3a-919b-462cc89f1cef">
+      <Keyword m="2021-11-24T11:07:21.800801Z">.NET Framework 4.8 - Win 7 SP1, Win 8.1 a Win 10</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="9b93ad7e-2257-406d-8fef-107788819e6c">
+      <Keyword m="2021-11-24T11:08:06.8784912Z">Windows 7 SP1 - .NET Framework 4.8</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="e1c080bd-4e4e-4e63-9c6c-412ac45fe81a">
+      <Keyword m="2021-11-24T11:08:11.0390454Z">Windows 8.1 - .NET Framework 4.8</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="8b937c94-4c36-425a-bcb8-ad7e2841ee05">
+      <Keyword m="2021-11-24T11:08:01.5507749Z">Windows 10 - .NET Framework 4.8</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="6febddc7-1b77-42e1-8250-0fbc3aefd5ed">
+      <Keyword m="2021-11-26T07:48:09.1110136Z">Framework 4.8 - inštalácia</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

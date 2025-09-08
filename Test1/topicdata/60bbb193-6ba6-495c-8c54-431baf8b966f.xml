@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="60bbb193-6ba6-495c-8c54-431baf8b966f" Status="Complete" CreatedOn="2015-04-08T08:16:33.836914Z" ModifiedOn="2024-12-03T08:17:25.9067985Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Invoices_Basic_Options" BuildFlags="">
+  <Title m="2021-07-13T10:20:43.7040061Z">Základné možnosti</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-12-03T08:17:25.9067985Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;informácie o základných možnostiach,&lt;/STRONG&gt; &lt;STRONG&gt;užitočných&lt;/STRONG&gt; &lt;STRONG&gt;funkciách a zaujímavých vlastnostiach&lt;/STRONG&gt;&amp;nbsp;&lt;A href="9980b99c-4409-4422-9d70-9cdd8893d0f3"&gt;fakturácie&lt;/A&gt; v&amp;nbsp;systéme OBERON.&lt;/P&gt;
+&lt;H2&gt;Základné možnosti a vlastnosti&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Možnosť definovať&amp;nbsp;&lt;A href="614e08c0-a29e-4810-a741-174e81a8e259"&gt;typy dokladov&lt;/A&gt; k základným druhom dokladov v knihe pohľadávok/záväzkov. Viac v téme&amp;nbsp;&lt;A href="c36e079b-cc33-4141-83a7-ee2b1c7b53a0"&gt;Typy dokladov v knihe pohľadávok a záväzkov&lt;/A&gt;. 
+&lt;LI&gt;Možnosť&amp;nbsp;&lt;A href="ec4e9be4-140f-4ec9-aa04-544e9870bfe1"&gt;vystavovať pohľadávky&lt;/A&gt; (vystavené, vydané, vyšlé, odberateľské, odoslané&amp;nbsp;faktúry)&amp;nbsp;a&amp;nbsp;&lt;A href="b479a7dd-6c07-4548-862f-a38cbf1b872d"&gt;zaevidovať záväzky&lt;/A&gt; (prijaté, došlé, dodávateľské, doručené faktúry). 
+&lt;LI&gt;Možnosť&amp;nbsp;&lt;A href="1903cce7-5adf-4bd7-8b2b-4ff4b1fccbe8"&gt;automatického hromadného vystavenia pohľadávok&lt;/A&gt;. 
+&lt;LI&gt;Možnosť&amp;nbsp;&lt;A href="a9a8c655-077e-45cb-acb3-8fdb105a2409"&gt;tvorby objednávok a cenových ponúk&lt;/A&gt;, možnosť&amp;nbsp;&lt;A href="f65d09c4-6f7e-42a3-8ae5-3cda89534c06"&gt;automatickej tvorby vydaných objednávok&lt;/A&gt;. 
+&lt;LI&gt;Import/export údajov prostredníctvom&amp;nbsp;&lt;A href="56f661c6-24da-46aa-b157-5d988cbe792b"&gt;XML komunikácie&lt;/A&gt; (napr. import/export faktúr, možnosť vytvorenia dokladu importom údajov zo súboru typu XML&amp;nbsp;a pod.). 
+&lt;LI&gt;Možnosť načítať položky do dokladu z iných dokladov, napr. z výdajky (príjemky) do faktúry. 
+&lt;LI&gt;Možnosť vytvorenia pohľadávky z iného dokladu, prípadne importom údajov&amp;nbsp;z&amp;nbsp;&lt;A href="0fb6c9c4-9b89-43f6-af59-f9418f6871dd"&gt;Evidencie reklamácie a servisu&lt;/A&gt;, z&amp;nbsp;knihy &lt;A href="a2807e3b-d8b1-4d61-a3b9-63df2783bfda"&gt;Úlohy a udalosti&lt;/A&gt;&amp;nbsp;alebo zo záznamov v&amp;nbsp;module&amp;nbsp;&lt;A href="c59586c9-a034-4f31-9a3c-1960428236e7"&gt;Hotelová recepcia&lt;/A&gt; - rezervácia, ubytovanie,&amp;nbsp;hotelový účet, poskytovaná služba). 
+&lt;LI&gt;Možnosť&amp;nbsp;&lt;A href="a1f7821c-ea35-44fa-a009-326418d87a95"&gt;vložiť položky z vydanej objednávky do príjemky alebo priamo do faktúry (záväzku)&lt;/A&gt;. 
+&lt;LI&gt;Možnosť vystaviť&amp;nbsp;&lt;A href="2d1b2b76-359e-449e-bd88-c5a9229a926d"&gt;zálohovú faktúru&lt;/A&gt;&amp;nbsp;a&amp;nbsp;&lt;A href="c546faa8-9298-4064-95a0-cc26aee963e2"&gt;zúčtovať zálohovú faktúru konečnou faktúrou&lt;/A&gt;. 
+&lt;LI&gt;Možnosť vložiť viac výdajok (príjemiek) do tzv.&amp;nbsp;&lt;A href="60388e53-ff9f-48e3-9f8c-e45df1201ad3"&gt;zbernej faktúry&lt;/A&gt;. 
+&lt;LI&gt;Možnosť vystavovať/evidovať&amp;nbsp;&lt;A href="183ab557-cc49-4d23-8935-dfcc8379a1ec"&gt;faktúry v cudzej mene&lt;/A&gt; i cudzích jazykoch,&amp;nbsp;valutové pokladne a devízové účty. 
+&lt;LI&gt;Oprava základu dane -&amp;nbsp;&lt;A href="58d85eb3-1501-4964-a648-35fe4f076b1a"&gt;dobropis a ťarchopis&lt;/A&gt;. 
+&lt;LI&gt;Možnosť zaevidovania &lt;A href="6ed3037c-7be6-40bf-acbe-8336e4c5131a"&gt;colného dlhu&lt;/A&gt;. 
+&lt;LI&gt;Možnosť&amp;nbsp;&lt;A href="f68687b5-0939-447b-9f8e-37c883676f1e"&gt;členenia&lt;/A&gt; dokladov podľa požiadaviek na sledovanie jednotlivých činností,&amp;nbsp;zákaziek, dodávaných produktov, služieb, prenájmu&amp;nbsp;alebo ďalších sledovaných odvetví vo firme. Členenie je dostupné formou tzv. stromovej štruktúry. 
+&lt;LI&gt;Podpora používania&amp;nbsp;&lt;A href="db475de1-533d-46c4-a50a-4a57b0cf3573"&gt;šablón&lt;/A&gt; na zjednodušenie, a tým aj&amp;nbsp;zrýchlenie vypĺňania&amp;nbsp;vybraných dokladov&amp;nbsp;(napr. faktúry, objednávky). 
+&lt;LI&gt;Možnosť vytvorenia&amp;nbsp;&lt;A href="44687867-ecee-4004-93db-ac793d646191"&gt;zoznamu (číselníka) často používaných neskladových položiek&lt;/A&gt; v knihe pohľadávok/záväzkov. 
+&lt;LI&gt;Možnosť&amp;nbsp;&lt;A href="f500bb74-abd3-4d09-a7c5-4ca583519615"&gt;definovať najčastejšie používané texty&lt;/A&gt;&amp;nbsp;vo vystavovaných dokladoch (faktúry, objednávky...),&amp;nbsp;prípadne už zadané texty upravovať, resp. mazať. 
+&lt;LI&gt;Možnosť&amp;nbsp;&lt;A href="0e48f8ed-07c8-4be5-90cf-25dbf7d5afd9"&gt;zadávania zliav na dokladoch&lt;/A&gt;, a to na celý doklad alebo na jednotlivé položky dokladu. 
+&lt;LI&gt;Možnosť&amp;nbsp;&lt;A href="2dc1ca32-542f-467a-a6f8-1c4a33a367fd"&gt;opravy už zaúčtovanej faktúry&lt;/A&gt;. 
+&lt;LI&gt;Prepracovaný systém &lt;A href="834e9546-a56b-476f-9028-ef4c24a82345"&gt;práv používateľov&lt;/A&gt;, či už v jednopoužívateľskej alebo &lt;A href="9c0e1613-bfdc-48f6-9d03-58aba39dab36"&gt;sieťovej&lt;/A&gt; prevádzke. 
+&lt;LI&gt;Jednoduché kopírovanie záznamov (&lt;EM&gt;Ctrl+C, Ctrl+V&lt;/EM&gt;). &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Užitočné funkcie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;A href="6cd390d6-697d-4829-bc05-ea31662ffe4e"&gt;Prenesenie daňovej povinnosti&lt;/A&gt; – systém OBERON nastavuje príznak &lt;EM&gt;Prenesenie daňovej povinnosti&lt;/EM&gt; automaticky, používateľ si ho môže vždy na položke dokladu skontrolovať a&amp;nbsp;prípadne upraviť. Predpokladom je import&amp;nbsp;&lt;A href="8f7c0098-5332-40a6-a7e7-92be2a86e854"&gt;colného sadzobníka&lt;/A&gt;&amp;nbsp;a&amp;nbsp;správne nastavenie&amp;nbsp;kódu kombinovanej nomenklatúry colného sadzobníka&amp;nbsp;na skladových položkách. 
+&lt;LI&gt;Odosielanie e-mailových alebo SMS&amp;nbsp;správ, napr. faktúry alebo upomienky z knihy pohľadávok. Viac informácií je možné získať v téme&amp;nbsp;&lt;A href="e06c0c09-80ea-4083-8f6a-5a49a3fc9474"&gt;Odosielanie e-mailov v systéme OBERON&lt;/A&gt;, resp.&amp;nbsp;&lt;A href="d4119d75-dd5b-4a1c-b9fa-c982601e0746"&gt;SMS správy&lt;/A&gt;&amp;nbsp;a&amp;nbsp;v&amp;nbsp;téme&amp;nbsp;&lt;A href="d85e067f-27f4-47a2-bd25-7949e5853837"&gt;Ako poslať faktúru e-mailom?&lt;/A&gt; 
+&lt;LI&gt;Automatické &lt;A href="c1e2e5a1-2cf4-47aa-a546-47d5baa1df3e"&gt;elektronické podpisovanie&lt;/A&gt; a&amp;nbsp;overovanie pravosti faktúr (PDF, XML) s&amp;nbsp;vložením podpísanej faktúry v&amp;nbsp;PDF&amp;nbsp;formáte ako prílohy do e-mailu. 
+&lt;LI&gt;Do faktúry je možné umiestniť&amp;nbsp;&lt;A href="fe609232-2720-4a0f-bacd-713d7d0cbe09"&gt;logo&lt;/A&gt;,&amp;nbsp;&lt;A href="263345a9-095c-462c-9c0e-7e5eb28e7dff"&gt;firemnú pečiatku a podpis&lt;/A&gt;. 
+&lt;LI&gt;&lt;A href="bcc31dc7-fc29-4ed9-9897-7d0cdc4e3ecb"&gt;Hromadná tlač dokumentov&lt;/A&gt;, keď sa do jednej tlačovej zostavy zahrnú všetky dokumenty zobrazené v danej evidencii. 
+&lt;LI&gt;Podpora funkcie &lt;EM&gt;Drag&amp;amp;Drop&lt;/EM&gt; na jednoduché a rýchle vkladanie dokumentov a obrázkov v rôznych formátoch medzi prílohy záznamu (napr. jednoduchým potiahnutím myši je možné vložiť prílohu prijatej faktúry z e-mailu, obrázok z internetového prehliadača, prípadne prílohu z celého radu aplikácií podporovaných systémom &lt;EM&gt;Windows&lt;/EM&gt;, ako sú &lt;EM&gt;Messenger, WhatsApp, Discord&lt;/EM&gt; atď.). &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Zaujímavé vlastnosti&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Pri vytváraní nového dokladu (príjemka, faktúra...) možnosť&amp;nbsp;&lt;A href="e5871f39-032a-431b-9117-df5a4e5dccc8"&gt;vyhľadať obchodného partnera na internete podľa názvu alebo IČO&lt;/A&gt;. 
+&lt;LI&gt;Možnosť získať &lt;A href="00d205b2-0e2c-439a-8f6e-a1126be097ea"&gt;on-line informácie o tržbách, zisku, dlhoch a nedoplatkoch&lt;/A&gt; konkrétneho&amp;nbsp;&lt;A href="4fbe9db8-25bc-420f-aee5-228d0a8ff03f"&gt;obchodného partnera&lt;/A&gt; na základe platenej služby od&amp;nbsp;spoločnosti &lt;EM&gt;FinStat s.r.o.&lt;/EM&gt; Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="45606061-b153-4728-9964-618d7ef13eed" style="auto-update-caption: true"&gt;FinStat&lt;/A&gt;. 
+&lt;LI&gt;&lt;A href="ab574902-6abb-4c2c-b0a5-af9a2f62b7f4"&gt;Automatické overenie platnosti IČ DPH na internete&lt;/A&gt; – možnosť overiť IČ DPH pri konkrétnom obchodnom partnerovi alebo hromadne a pri každom doklade (faktúra, výdajka...), resp. pri tvorbe kontrolného výkazu DPH. 
+&lt;LI&gt;&lt;A href="bda10a0f-7c77-4861-91a1-0366af826978" style="auto-update-caption: true"&gt;Automatické overenie bankových účtov &lt;SPAN style="COLOR: rgb(0,0,0)"&gt;dodávateľov&lt;/SPAN&gt;&lt;/A&gt;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;&amp;nbsp;-&lt;/SPAN&gt; platiteľov DPH&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;.&lt;/SPAN&gt; 
+&lt;LI&gt;Pri vytváraní faktúry je možné zobrazovať upozornenie na neuhradené pohľadávky daného odberateľa, sledovanie&amp;nbsp;&lt;A href="96fd7619-32d2-462b-bad8-6f986dc4c6b2"&gt;kredit limitu&lt;/A&gt;. 
+&lt;LI&gt;Pokročilá&amp;nbsp;&lt;A href="4b420c1a-429f-4e4c-924b-9c265e241c46"&gt;práca s prevádzkami obchodného partnera&lt;/A&gt; s ohľadom na tlač adries na dokladoch, resp. poštových obálkach. 
+&lt;LI&gt;Interaktívne grafické znázornenie väzieb medzi dokladmi. 
+&lt;LI&gt;Veľké množstvo tlačových výstupov z jednotlivých evidencií (tlač dokladov, upomienok, prehľadových grafov, faktúry s QR kódom&amp;nbsp;na rýchlu úhradu pomocou mobilných aplikácií bánk (tzv. &lt;EM&gt;PAY by square&lt;/EM&gt;) atď.). 
+&lt;LI&gt;K dispozícii je viacero štýlov tlačových výstupov faktúry či dodacieho listu, pričom pomocou&amp;nbsp;&lt;A href="a1ae5eb5-f369-4aab-80b2-c6585166d550"&gt;Správcu doplnkov&lt;/A&gt; je možné doinštalovať ďalšie. 
+&lt;LI&gt;Vybrané manažérske informácie dostupné v reálnom čase prostredníctvom webovej aplikácie&amp;nbsp;&lt;A href="b138daad-5453-4e53-8d2c-ecf2e81a5fcb"&gt;OBERON Web&lt;/A&gt; (obchodní partneri, otvorené pohľadávky a&amp;nbsp;záväzky, prehľad nových objednávok...). &lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="6ed32355-d9a4-45d5-b5b4-b093c9dec5f6" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="9980b99c-4409-4422-9d70-9cdd8893d0f3">
+      <Title m="2021-09-13T09:50:17.8617002Z">Fakturácia - všeobecne o koncepcii</Title>
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="e6329b5f-d7f8-4986-a9f5-fa24cddb79c1" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1f5bf2be-396d-42e6-ade9-cc5a292efc15">
+      <Title m="2022-07-04T09:06:39.6174982Z">Fakturácia - prvé kroky</Title>
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="ccef4180-61e6-4c85-88e9-763a6e089abe">
+      <Keyword m="2021-09-13T09:52:16.1446393Z">Základné možnosti - fakturácia</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="4d762ee6-1865-49a0-b8db-9aa0b4aa69d1">
+      <Keyword m="2021-09-13T09:52:29.0555538Z">Fakturácia - základné možnosti</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="9bf0eead-c7f4-4e43-b702-1d892d83a54a">
+      <Keyword m="2022-10-10T08:42:43.4582852Z">QR kód platby v e-mailovej predlohe - faktúra, objednávka prijatá</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="9a1fc520-a31b-43cd-bdbf-f8a0695828b0">
+      <Keyword m="2022-10-10T08:44:42.4899777Z">PAY by square v e-mailovej predlohe - faktúra, objednávka prijatá</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="bdc86665-4ed6-44d3-8bb8-5f768e5b249a">
+      <Keyword m="2022-10-10T08:48:27.1356955Z">PAY by square vo faktúre</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="397fd0e7-a392-4921-acda-0b1474cf56d5">
+      <Keyword m="2022-10-10T08:48:39.7730174Z">QR kód platby vo faktúre</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

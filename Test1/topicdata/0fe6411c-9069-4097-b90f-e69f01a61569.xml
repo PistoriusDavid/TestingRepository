@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="0fe6411c-9069-4097-b90f-e69f01a61569" Status="Complete" CreatedOn="2015-08-27T07:53:25.3476562Z" ModifiedOn="2023-05-23T09:06:49.6619378Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="90110" Name="Menu_CRM_RegistratureDaily" BuildFlags="">
+  <Title m="2023-05-19T13:23:29.1711438Z">Registratúrny (podací) denník</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-05-23T08:18:14.8110642Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;je venovaná&amp;nbsp;položke&amp;nbsp;&lt;EM&gt;Registratúrny (podací) denník&lt;/EM&gt; v&amp;nbsp;ponuke&amp;nbsp;&lt;EM&gt;CRM&lt;/EM&gt; programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Výberom položky sa otvorí &lt;EM&gt;Registratúrny&lt;/EM&gt; &lt;EM&gt;(podací)&lt;/EM&gt; &lt;EM&gt;denník&lt;/EM&gt; - &lt;STRONG&gt;základná evidenčná pomôcka správy registratúry&lt;/STRONG&gt;, ktorá obsahuje údaje o prijatí, tvorbe, vybavení, odoslaní registratúrnych záznamov a uložení a vyradení&amp;nbsp;&lt;A href="b9d813c2-1ac9-4606-b104-819ea02b6463"&gt;spisov&lt;/A&gt;.&amp;nbsp;V ľavej časti denníka oddelenej rozdeľovacou lištou&amp;nbsp;sa zobrazuje stromová štruktúra&amp;nbsp;&lt;A href="e24eddba-71a4-4980-9396-4947da76375a"&gt;registratúrneho plánu&lt;/A&gt;. V&amp;nbsp;pravej časti sa nachádzajú záznamy registratúrneho denníka prislúchajúce vybranej vetve registratúrneho plánu. 
+&lt;LI&gt;V registratúrnom denníku sa evidujú &lt;STRONG&gt;registratúrne záznamy pochádzajúce z činnosti účtovnej jednotky&lt;/STRONG&gt;, t. j. doručené, odoslané&amp;nbsp;záznamy. Registratúrny denník sa vedie tak, aby priebežne poskytoval úplné a&amp;nbsp;presné údaje o&amp;nbsp;evidovaných registratúrnych záznamoch. 
+&lt;LI&gt;Pre každý kalendárny rok &lt;STRONG&gt;sa vytvára nový registratúrny denník&lt;/STRONG&gt;. Všetky položky denníka možno zobraziť kliknutím na najvyššiu (kmeňovú) položku v registratúrnom pláne. 
+&lt;LI&gt;Niektoré tlačové výstupy je možné &lt;STRONG&gt;vyexportovať do súboru vo formáte PDF&lt;/STRONG&gt;, ktorý&amp;nbsp;možno ďalej upravovať a meniť, napr. v poštovom podacom hárku je možné upraviť adresáta, pridať sumu dobierky a poistenia. 
+&lt;LI&gt;&lt;SPAN class=st&gt;&lt;SPAN class=st&gt;&lt;SPAN class=st&gt;&lt;SPAN class=st&gt;V&amp;nbsp;ponuke&amp;nbsp;&lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="2453b87d-ddca-4ac1-b4ba-b7199dce0c87"&gt;oddiel Firma, CRM a registratúra&lt;/A&gt;, záložka &lt;EM&gt;Registratúra&lt;/EM&gt;&amp;nbsp;&lt;SPAN class=st&gt;&lt;SPAN class=st&gt;&lt;SPAN class=st&gt;&lt;SPAN class=st&gt;&lt;SPAN class=st&gt;&lt;SPAN class=st&gt;&lt;SPAN class=st&gt;&lt;SPAN class=st&gt;je možné zvoliť &lt;STRONG&gt;spôsob číslovania záznamov&lt;/STRONG&gt; v&amp;nbsp;registratúrnom (podacom) denníku:&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt; 
+&lt;UL&gt;
+&lt;LI&gt;&lt;SPAN class=st&gt;&lt;STRONG&gt;Štandardné (jeden číselný rad)&lt;/STRONG&gt; - program pri vytvorení nového záznamu zistí najvyššie číslo záznamu, zvýši ho o 1 a pridelí vytváranému záznamu. Tento postup je nemenný bez ohľadu na dátum záznamu. Pri vytváraní záznamu so spätnou platnosťou (spätným dátumom) program pridelí záznamu najvyššie číslo tak, akoby to bol aktuálny záznam.&lt;/SPAN&gt; 
+&lt;LI&gt;&lt;SPAN class=st&gt;&lt;SPAN class=st&gt;&lt;STRONG&gt;Podľa organizačných útvarov&lt;/STRONG&gt; - program pri vytváraní čísla záznamu vkladá medzi prefix roku a&amp;nbsp;samotné číslo záznamu&amp;nbsp;číslo&amp;nbsp;&lt;A href="e507e3e5-493f-48df-a358-f85facee1796"&gt;organizačného útvaru&lt;/A&gt;. Príklad: číslo záznamu&amp;nbsp;2023/xx001, kde xx je kód organizačného útvaru.&lt;/SPAN&gt;&lt;/SPAN&gt; 
+&lt;LI&gt;&lt;SPAN class=st&gt;&lt;SPAN class=st&gt;&lt;SPAN class=st&gt;&lt;STRONG&gt;Podľa prevádzok a organizačných útvarov&lt;/STRONG&gt; - program pri vytváraní čísla záznamu vkladá medzi prefix roku a&amp;nbsp;samotné číslo záznamu&amp;nbsp;číslo&amp;nbsp;&lt;A href="8df798f2-4fbf-4279-ad8c-493bdbe7f2e4"&gt;prevádzky&lt;/A&gt; a kód organizačného útvaru.&amp;nbsp;Príklad: 23/1/D/0001 - rok/číslo prevádzky/kód organizačného útvaru/číslo záznamu.&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt; &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;&lt;SPAN class=st&gt;&lt;SPAN class=st&gt;&lt;SPAN class=st&gt;&lt;SPAN class=st&gt;&lt;SPAN class=st&gt;&lt;SPAN class=st&gt;&lt;SPAN class=st&gt;&lt;SPAN class=st&gt;&lt;SPAN class=st&gt;&lt;SPAN class=st&gt;&lt;SPAN class=st&gt;&lt;SPAN class=st&gt;&lt;SPAN class=st&gt;&lt;SPAN class=st&gt;&lt;SPAN class=st&gt;&lt;SPAN class=st&gt;&lt;SPAN class=st&gt;Viac informácií o&amp;nbsp;číslovaní záznamov získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="9aa7dbb1-f4a7-405e-8465-78b2133e0fd3" style="auto-update-caption: true"&gt;Číslovanie dokladov (záznamov)&lt;/A&gt;.&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt; 
+&lt;LI&gt;&lt;SPAN class=st&gt;&lt;SPAN class=st&gt;&lt;SPAN class=st&gt;&lt;SPAN class=st&gt;V&amp;nbsp;ponuke&amp;nbsp;&lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="a6408126-1c7d-40c5-912b-d2e1321b10fc"&gt;oddiel Používateľ, CRM a registratúra&lt;/A&gt; možno pre aktuálne prihláseného používateľa nastaviť automatické otváranie &lt;EM&gt;Registratúrneho (podacieho) denníka&lt;/EM&gt; po spustení programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;.&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt; &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Zaevidovať, resp. upraviť už zaevidovaný registratúrny záznam&amp;nbsp;je možné&amp;nbsp;pomocou&amp;nbsp;&lt;A href="2af84798-6d4b-40bc-8b7b-e537906a909c"&gt;formulára Záznam v registratúrnom (podacom) denníku&lt;/A&gt;. Postup zaevidovania registratúrneho záznamu je popísaný v téme &lt;A href="4b79a1e8-1752-4eda-95fc-5c72989d5e31" style="auto-update-caption: true"&gt;Pridanie záznamu do registratúrneho denníka&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Dostupné možnosti&lt;/H2&gt;
+&lt;P&gt;Ďalšie možnosti práce so záznamami&amp;nbsp;sú dostupné&amp;nbsp;po stlačení tlačidla &lt;EM&gt;Možnosti&lt;/EM&gt;, prípadne v&amp;nbsp;kontextovej ponuke tabuľky záznamov.&lt;/P&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Označiť ako vybavený&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Pomocou tejto funkcie je možné označiť registratúrny záznam za vybavený, prípadne mu priradiť poznámku k&amp;nbsp;vybaveniu. Vybavené záznamy sú označené &lt;SPAN style="COLOR: rgb(128,100,162)"&gt;&lt;STRONG&gt;fialovou farbou&lt;/STRONG&gt;&lt;/SPAN&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Zrušiť vybavenie&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Pomocou tejto funkcie je možné zrušiť označenie vybavenia registratúrneho záznamu.&amp;nbsp;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Presun medzi archívne zložky&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Otvorí sa sprievodca, pomocou ktorého sa záznamy presunú do&amp;nbsp;&lt;A href="5d728358-074b-4fe2-8ba7-bc9f6dba02c7"&gt;registratúrneho archívu&lt;/A&gt;. Po presunutí do registratúrneho archívu budú záznamy označené&amp;nbsp;&lt;SPAN style="COLOR: rgb(127,127,127)"&gt;&lt;STRONG&gt;sivou farbou&lt;/STRONG&gt;&lt;/SPAN&gt; a&amp;nbsp;nebude možné ich meniť.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Obnoviť vymazaný záznam&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Záznam, ktorý bol vymazaný presunutím do koša,&amp;nbsp;je možné obnoviť. Ďalšie informácie o mazaní a&amp;nbsp;obnove záznamov získate v téme&amp;nbsp;&lt;A href="90dfd66e-297e-41e9-9796-5f3c43ed111d" style="auto-update-caption: true"&gt;Kôš - vymazanie a obnova záznamov&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="5b17e3b8-78ee-4f11-a320-da083e4668e9" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="4b79a1e8-1752-4eda-95fc-5c72989d5e31">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="16abf9ec-3d1f-4de4-b4e9-3e2478849268" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="2af84798-6d4b-40bc-8b7b-e537906a909c">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="a19b4fbb-f970-4ed4-b501-c61f39ddd59d" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="e507e3e5-493f-48df-a358-f85facee1796">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="d36cfcea-fc67-4811-9c5d-913ba210068d" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="868b6d78-95e3-441c-b92d-3766d440ae08">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="3b2a9c58-7215-4cfb-9cfe-71e983ba745c" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="b9d813c2-1ac9-4606-b104-819ea02b6463">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="2612954f-8227-4214-bb62-189079a1513f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="e24eddba-71a4-4980-9396-4947da76375a">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="a3e478fb-843b-4373-a04e-87492ab4b41f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="5d728358-074b-4fe2-8ba7-bc9f6dba02c7">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="0a138b99-ce6f-44f6-9da9-80460bf40126" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="9aa7dbb1-f4a7-405e-8465-78b2133e0fd3">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="a2ea0f00-9ef1-44aa-9897-0e41b36d1480" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="15079add-f15f-4600-84e2-7fde9a21a1e9">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="16582b9e-7d53-47c8-8f1f-97cace0d8996">
+      <Keyword m="2023-05-19T13:24:24.4066234Z">Registratúrny denník</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="7becde4f-43aa-4749-8301-4cf099c81d62">
+      <Keyword m="2023-05-19T13:24:30.782975Z">Podací denník</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="a091bb6c-114b-4865-8a2b-d137b9653ad2">
+      <Keyword m="2023-05-22T07:36:36.8777218Z">Číslovanie záznamov v registratúrnom (podacom) denníku</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

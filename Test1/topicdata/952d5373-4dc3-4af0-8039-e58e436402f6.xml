@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="952d5373-4dc3-4af0-8039-e58e436402f6" Status="Complete" CreatedOn="2014-10-10T07:47:24.1502507Z" ModifiedOn="2023-10-30T07:13:32.4879235Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="40540" Name="Form_AccSingle_ColumnSum" BuildFlags="">
+  <Title m="2014-12-11T12:19:43.2285156Z">Formulár Súčty stĺpcov peňažného denníka</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2021-08-23T08:27:59.4184274Z">&lt;P&gt;Formulár &lt;EM&gt;Súčty stĺpcov peňažného denníka&lt;/EM&gt; umožňuje &lt;STRONG&gt;zobraziť súčty stĺpcov&amp;nbsp;&lt;/STRONG&gt;&lt;A href="5e82cca9-b8af-4a80-ba30-7ab91914a595"&gt;peňažného denníka&lt;/A&gt;&amp;nbsp;v&amp;nbsp;&lt;A href="32be28cf-2368-4818-9d24-cfa9d59afb75"&gt;jednoduchom účtovníctve&lt;/A&gt;. Formulár je dostupný z&amp;nbsp;programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;, ponuka&amp;nbsp;&lt;EM&gt;Účtovníctvo,&lt;/EM&gt;&amp;nbsp;&lt;A href="5e82cca9-b8af-4a80-ba30-7ab91914a595"&gt;Peňažný denník&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt; tlačidlo &lt;EM&gt;Možnosti&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Formulár zobrazí súčty stĺpcov peňažného denníka&amp;nbsp;v&amp;nbsp;členení na &lt;STRONG&gt;priebežné položky, príjmy ovplyvňujúce základ dane, príjmy neovplyvňujúce základ dane, výdavky ovplyvňujúce základ dane a výdavky neovplyvňujúce základ dane&lt;/STRONG&gt;. V spodnej časti formulára sa zobrazuje &lt;STRONG&gt;rozdiel medzi príjmami a výdavkami ovplyvňujúcimi základ dane&lt;/STRONG&gt;. 
+&lt;LI&gt;Do výpočtu budú zahrnuté všetky záznamy z aktuálneho účtovného obdobia. V prípade zadania&amp;nbsp;&lt;A href="1ea156c6-edd0-46e0-ab65-7f41af30e672"&gt;filtra&lt;/A&gt; program zahrnie do výpočtu súčtov len záznamy, ktoré vyhovujú aktuálnemu filtru, napr. ak sú vyfiltrované doklady len podľa určitého členenia, vypočítajú sa súčty len daného členenia. &lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="56b4a0b6-fbd4-4c62-83e1-28ddb3117df9" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="5e82cca9-b8af-4a80-ba30-7ab91914a595">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="7151c02a-549f-4d6e-b2d4-68cbec4d889a" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="1ea156c6-edd0-46e0-ab65-7f41af30e672">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="5e412b10-d5ce-488a-a469-95a4c850fd92">
+      <Keyword m="2021-08-06T10:58:25.012995Z">Súčty stĺpcov peňažného denníka - formulár</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

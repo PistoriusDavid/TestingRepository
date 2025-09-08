@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="5442590e-2d9a-4550-984d-e5b23f239d05" Status="Complete" CreatedOn="2014-09-03T13:14:17.727Z" ModifiedOn="2023-12-20T12:03:15.6467971Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="21016" Name="Fiscal_Universal_Interface" BuildFlags="">
+  <Title />
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-12-20T12:03:15.6467971Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje&amp;nbsp;informácie o rozhraní&amp;nbsp;&lt;EM&gt;Fiscal Universal Interface&lt;/EM&gt;, &lt;STRONG&gt;pomocou ktorého je možné pripojiť k&amp;nbsp;systému OBERON aj takú&amp;nbsp;fiškálnu tlačiareň, ktorá nie je&amp;nbsp;&lt;/STRONG&gt;&lt;A href="d9b919e7-20c4-4c50-9910-4f13211ed9a8"&gt;v systéme OBERON podporovaná&lt;/A&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Systém OBERON podporuje vybrané &lt;A href="b24ad235-cf7f-43e2-b3e8-ec0f7d92f6b6"&gt;fiškálne tlačiarne&lt;/A&gt;. Okrem toho firma &lt;I&gt;EXALOGIC&lt;/I&gt; vyvinula univerzálne rozhranie &lt;STRONG&gt;&lt;EM&gt;Fiscal Universal Interface&lt;/EM&gt;&lt;/STRONG&gt; s pevne definovanými pravidlami&amp;nbsp;na pripojenie fiškálnych tlačiarní, ktoré &lt;STRONG&gt;umožňuje k systému OBERON pripojiť akúkoľvek nepodporovanú&amp;nbsp;fiškálnu tlačiareň&lt;/STRONG&gt;. Uvedené univerzálne rozhranie prináša možnosť prepojiť externé skladové a pokladničné riešenia so systémom OBERON tak, ako by ním boli priamo podporované. 
+&lt;LI&gt;Na komunikáciu s&amp;nbsp;týmto univerzálnym rozhraním je potrebné vytvoriť &lt;STRONG&gt;externú DLL knižnicu (ovládač)&lt;/STRONG&gt;, ktorá spĺňa štruktúru a pravidlá tohto rozhrania a&amp;nbsp;ktorá obsahuje presne stanovené&amp;nbsp;metódy a vlastnosti pre danú špecifickú problematiku. 
+&lt;LI&gt;&lt;STRONG&gt;Vzor DLL knižnice (ovládača) &lt;EM&gt;Fiscal Universal Driver&lt;/EM&gt;&lt;/STRONG&gt; s podrobným popisom je na vyžiadanie od firmy EXALOGIC k&amp;nbsp;dispozícii výrobcom, dovozcom, servisným technikom i programátorom, ktorí by chceli naprogramovať ovládač k fiškálnej tlačiarni. Vzor je napísaný v&amp;nbsp;programovacom jazyku &lt;STRONG&gt;&lt;EM&gt;Visual Basic &lt;/EM&gt;&lt;/STRONG&gt;v&amp;nbsp;programovacom prostredí &lt;B&gt;&lt;EM&gt;Microsoft Visual Studio 2019&lt;/EM&gt;&lt;/B&gt;. Úlohou programátora je zapísanie programového kódu do pripraveného vzoru, ktorý obsahuje definície všetkých potrebných funkcií, vlastností a&amp;nbsp;udalostí. 
+&lt;LI&gt;Zápis samotného programového kódu do pripraveného vzoru nepredstavuje pre výrobcu fiškálnej tlačiarne náročnú úlohu, keďže výrobca podrobne pozná komunikačný protokol, príkazy, funkcie a správanie svojej fiškálnej tlačiarne. 
+&lt;LI&gt;&lt;SPAN lang=en-us xml:lang="en-us"&gt;Zariadenie pripojené prostredníctvom rozhrania &lt;EM&gt;Fiscal Universal Interface&lt;/EM&gt; sa inštaluje&amp;nbsp;v&amp;nbsp;programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;, ponuka &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="749ff4f1-eeb5-43f5-98d2-021399d8cec7" style="auto-update-caption: true"&gt;Zariadenia&lt;/A&gt;, tlačidlo &lt;EM&gt;Pridať&lt;/EM&gt;.&amp;nbsp;Viac informácií k&amp;nbsp;inštalácii zariadenia získate v téme&amp;nbsp;&lt;A href="4b7ab8d2-0e55-4be8-a112-430b9fb9d7e9" style="auto-update-caption: true"&gt;Fiscal Universal Interface - inštalácia zariadenia&lt;/A&gt;.&lt;/SPAN&gt; &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;STRONG&gt;Postup&lt;/STRONG&gt; &lt;STRONG&gt;prípravy vývojového prostredia&lt;/STRONG&gt; na vývoj externej DLL knižnice (ovládača) na komunikáciu s&amp;nbsp;nepodporovanou fiškálnou tlačiarňou pomocou&amp;nbsp;rozhrania&lt;STRONG&gt;&amp;nbsp;&lt;/STRONG&gt;&lt;EM&gt;Fiscal Universal Interface&lt;/EM&gt;&amp;nbsp;je dostupný v&amp;nbsp;téme&amp;nbsp;&lt;A href="2762a45e-ecf0-4176-972f-6f766604b4c6" style="auto-update-caption: true"&gt;Fiscal Universal Interface - príprava prostredia &lt;/A&gt;. &lt;STRONG&gt;Postup inštalácie&amp;nbsp;fiškálnej&amp;nbsp;tlačiarne&lt;/STRONG&gt; pripojenej k systému OBERON prostredníctvom rozhrania&amp;nbsp;&lt;EM&gt;Fiscal Universal Interface&lt;/EM&gt;&amp;nbsp;spolu s popisom formulára &lt;EM&gt;Nastavenie Fiscal Universal Interface&lt;/EM&gt; je dostupný v&amp;nbsp;téme&amp;nbsp;&lt;A href="4b7ab8d2-0e55-4be8-a112-430b9fb9d7e9" style="auto-update-caption: true"&gt;Fiscal Universal Interface - inštalácia zariadenia&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt; 
+&lt;P&gt;Pred vývojom externej DLL knižnice (ovládača) sa&amp;nbsp;odporúčame oboznámiť s&amp;nbsp;&lt;A href="d432b45a-6978-4337-885d-28254ece2616"&gt;úvodnými informáciami pre vývojárov&lt;/A&gt;.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="167e6b70-4a14-4e78-8440-498593951887" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="d432b45a-6978-4337-885d-28254ece2616">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="1f467498-8cb2-4c3f-ab15-4b605b5d2958" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="3757d6bf-3009-4685-beee-617e34892086">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="673be3a9-f79f-433f-ba51-aed1d2708705" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="2762a45e-ecf0-4176-972f-6f766604b4c6">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="eb1a518e-b6e3-42ab-b2b2-7d185a4b65f3" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="4b7ab8d2-0e55-4be8-a112-430b9fb9d7e9">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="85eca93a-7b04-4313-a304-22db2378b9eb" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="b24ad235-cf7f-43e2-b3e8-ec0f7d92f6b6">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="4efd0af0-d6ac-4f6c-90bb-b82329d9359c">
+      <Keyword m="2022-08-15T08:15:28.4778382Z">Fiscal Universal Interface - pre používateľov</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="3dc422f9-feb7-4e3c-b9ec-9a9ebd24ad73">
+      <Keyword m="2022-08-15T07:59:56.0263587Z">Fiscal Universal Interface - pre vývojárov</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="4e4cc300-b5df-4f5a-a048-7770d675be8b">
+      <Keyword m="2022-08-16T07:05:44.8439848Z">Fiscal Universal Interface - všeobecné informácie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="6690f603-fcae-4e08-92d0-29015bf96548">
+      <Keyword m="2022-08-16T07:06:12.39156Z">Driver - Fiscal Universal Interface</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="389b8b3d-2c2e-45b9-adda-150b2ff5da30">
+      <Keyword m="2022-08-16T07:06:25.2980147Z">Fiscal Universal Driver</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="c3c4f48d-c89d-4491-a5bc-78740cd73ded">
+      <Keyword m="2022-08-16T07:06:41.2916581Z">DLL knižnica - Fiscal Universal Interface</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="2387a7a2-74cc-40cd-b803-6a3aaf0a1407">
+      <Keyword m="2022-08-16T08:56:25.276367Z">Vzorová DLL knižnica (ovládač) - Fiscal Universal Interface</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

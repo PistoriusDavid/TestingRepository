@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="9980b99c-4409-4422-9d70-9cdd8893d0f3" Status="Complete" CreatedOn="2014-09-21T09:08:34.7443591Z" ModifiedOn="2023-11-27T13:55:00.6024415Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="false" HelpContextIds="" Name="Invoices_Concept" BuildFlags="">
+  <Title m="2021-07-13T10:16:31.1223871Z">Všeobecne o koncepcii</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-11-27T13:55:00.6024415Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;obsahuje &lt;STRONG&gt;všeobecné informácie o fakturácii&lt;/STRONG&gt; v&amp;nbsp;systéme OBERON.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;EM&gt;Fakturácia&lt;/EM&gt; v systéme OBERON &lt;STRONG&gt;nepredstavuje samostatný modul, ale&amp;nbsp;je akýmsi prienikom medzi modulmi&lt;/STRONG&gt; &lt;EM&gt;Účtovníctvo&lt;/EM&gt; a&amp;nbsp;&lt;EM&gt;Skladová evidencia&lt;/EM&gt;. V&amp;nbsp;programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt; je vyčlenená do samostatnej ponuky, aby s&amp;nbsp;ňou mohli pracovať tie účtovné jednotky, ktoré vedú účtovníctvo, ale nevedú skladovú evidenciu, a zároveň aj tie účtovné jednotky, ktoré vedú skladovú evidenciu, ale nevedú účtovníctvo. 
+&lt;LI&gt;&lt;EM&gt;Fakturácia&lt;/EM&gt; v&amp;nbsp;systéme OBERON pozostáva z&amp;nbsp;týchto evidencií: &lt;A href="5c21adcc-87c8-44e7-981d-02902635693d"&gt;Kniha pohľadávok&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt;&amp;nbsp;&lt;A href="55028746-c263-4d92-a615-502222e8d53b"&gt;Kniha záväzkov&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt;&lt;EM&gt;&amp;nbsp;&lt;/EM&gt;&lt;A href="48505e8d-5f28-4063-882b-ca07f33670ef"&gt;Objednávky prijaté&lt;/A&gt; a&amp;nbsp;&lt;A href="a93948ab-009e-4c8c-9467-60d60a3eb342"&gt;Objednávky vydané&lt;/A&gt;. Viac informácií o&amp;nbsp;objednávkach získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="c91cdf0d-f982-42ce-a348-4fb310046672" style="auto-update-caption: true"&gt;Všeobecne o objednávkach&lt;/A&gt;. 
+&lt;LI&gt;V&amp;nbsp;&lt;A href="5c21adcc-87c8-44e7-981d-02902635693d"&gt;Knihe pohľadávok&lt;/A&gt; a v&amp;nbsp;&lt;A href="55028746-c263-4d92-a615-502222e8d53b"&gt;Knihe záväzkov&lt;/A&gt;&amp;nbsp;sú definované základné druhy dokladov (&lt;EM&gt;Faktúra, Iná pohľadávka/záväzok, Dobropis, Ťarchopis, Colný dlh, Zálohová faktúra&lt;/EM&gt;). Na podrobnejšie členenie dokladov rovnakého druhu je ku každému druhu dokladu možné vytvoriť jeden alebo viac&amp;nbsp;&lt;A href="614e08c0-a29e-4810-a741-174e81a8e259"&gt;typov dokladu&lt;/A&gt;, napr. k&amp;nbsp;druhu dokladu &lt;EM&gt;Faktúra&lt;/EM&gt; možno vytvoriť typy dokladu &lt;EM&gt;Faktúra na zálohu, Faktúra v cudzej mene, Faktúra tovarová, Faktúra za služby, Faktúra na prijatú zálohu, Zberná faktúra, Faktúra v režime OSS CZ&lt;/EM&gt;&amp;nbsp;atď. Viac informácií získate v téme&amp;nbsp;&lt;A href="c36e079b-cc33-4141-83a7-ee2b1c7b53a0"&gt;Typy dokladov v&amp;nbsp;knihe pohľadávok a záväzkov&lt;/A&gt;. 
+&lt;LI&gt;Faktúry je možné vystavovať (prípadne na opačnej strane evidovať) v&amp;nbsp;základnej mene systému (na Slovensku €), prípadne aj v&amp;nbsp;iných (cudzích) menách - prácu s&amp;nbsp;cudzími menami je však potrebné povoliť v&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="5a6e5663-262e-4ff0-9741-1569385d11e4"&gt;oddiel Firma, Všeobecné&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt; záložka &lt;EM&gt;Základné&lt;/EM&gt;. 
+&lt;LI&gt;Ak má účtovná jednotka viac prevádzok, faktúry je možné členiť na tieto&amp;nbsp;&lt;A href="8df798f2-4fbf-4279-ad8c-493bdbe7f2e4"&gt;prevádzky&lt;/A&gt; - takéto faktúry majú spravidla iný číselný rad (v&amp;nbsp;závislosti&amp;nbsp;od nastavenia systému). Okrem toho je možné&amp;nbsp;doklady&amp;nbsp;&lt;A href="f68687b5-0939-447b-9f8e-37c883676f1e"&gt;členiť&lt;/A&gt;&amp;nbsp;formou stromovej štruktúry. 
+&lt;LI&gt;Faktúry je možné vystavovať&amp;nbsp;v prepojení so&amp;nbsp;&lt;A href="78d20602-4b59-4b31-9f0a-a04a1d376ec5"&gt;skladom&lt;/A&gt;, prípadne len ako neskladové - na faktúre sa nachádza príznak &lt;EM&gt;Položky zo skladu&lt;/EM&gt;. Po zadaní skladovej položky do faktúry sa ihneď vytvorí záznam o skladovom pohybe a zároveň sa vykoná úbytok stavu zásob na danej skladovej karte. V jednom doklade je možné fakturovať položky súčasne aj&amp;nbsp;z&amp;nbsp;viacerých skladov. Na vystavovanie&amp;nbsp;skladových faktúr&amp;nbsp;je z&amp;nbsp;hľadiska&amp;nbsp;&lt;A href="644b0685-defe-4ce5-b3cd-e731b5eff299"&gt;licencie&lt;/A&gt; potrebné &lt;STRONG&gt;používať modul &lt;EM&gt;Skladová evidencia&lt;/EM&gt;&lt;/STRONG&gt;. 
+&lt;LI&gt;Úhrady faktúr aj samotné faktúry (pri podvojnom účtovníctve) možno priamo v&amp;nbsp;OBERON-e zaúčtovať do účtovného, resp. peňažného denníka. Na zaúčtovanie je&amp;nbsp;z&amp;nbsp;hľadiska&amp;nbsp;&lt;A href="644b0685-defe-4ce5-b3cd-e731b5eff299"&gt;licencie&lt;/A&gt; potrebné &lt;STRONG&gt;používať modul &lt;EM&gt;Účtovníctvo&lt;/EM&gt;&lt;/STRONG&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Ďalšie informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Položky je možné do dokladu načítať z iných dokladov, napr. z objednávky, výdajky (príjemky) a pod. Taktiež je možné využiť export alebo import dokladov pomocou XML súborov&amp;nbsp;(tzv.&amp;nbsp;&lt;A href="56f661c6-24da-46aa-b157-5d988cbe792b"&gt;XML komunikácia&lt;/A&gt;). 
+&lt;LI&gt;V prípade potreby je možné položky dokladu zoradiť&amp;nbsp;pomocou&amp;nbsp;&lt;A href="38489850-ab82-41b6-b258-3fa613ed5861"&gt;panela na zmenu poradia položiek zoznamu&lt;/A&gt;&amp;nbsp;(modrých šípok). 
+&lt;LI&gt;K dispozícii je viacero štýlov tlačových výstupov faktúry či dodacieho listu, pričom pomocou&amp;nbsp;&lt;A href="a1ae5eb5-f369-4aab-80b2-c6585166d550"&gt;Správcu doplnkov&lt;/A&gt; je možné doinštalovať ďalšie.&amp;nbsp;K dispozícii je aj&amp;nbsp;&lt;A href="bd58b5ac-bf1a-44f0-9463-12aa3e5b8165"&gt;Editor tlačových výstupov&lt;/A&gt;, pomocou ktorého je možné vytvoriť vlastný štýl dokladu. 
+&lt;LI&gt;Na faktúre môže byť vytlačené&amp;nbsp;&lt;A href="fe609232-2720-4a0f-bacd-713d7d0cbe09"&gt;logo firmy&lt;/A&gt;, prípadne aj&amp;nbsp;&lt;A href="263345a9-095c-462c-9c0e-7e5eb28e7dff"&gt;pečiatka či podpis&lt;/A&gt;. V prípade potreby je možné doklad exportovať do&amp;nbsp;formátu PDF, pričom ho&amp;nbsp;možno&amp;nbsp;automaticky&amp;nbsp;&lt;A href="c1e2e5a1-2cf4-47aa-a546-47d5baa1df3e"&gt;elektronicky podpísať&lt;/A&gt;&amp;nbsp;a priamo z&amp;nbsp;OBERON-u &lt;A href="e06c0c09-80ea-4083-8f6a-5a49a3fc9474"&gt;odoslať e-mailom&lt;/A&gt;. 
+&lt;LI&gt;Systém OBERON udržiava medzi súvisiacimi záznamami v rôznych evidenciách &lt;STRONG&gt;väzby&lt;/STRONG&gt;.&amp;nbsp;To umožňuje zostaviť&amp;nbsp;grafický prehľad väzieb daného záznamu, ktorý je zároveň interaktívny - kliknutím pravým tlačidlom myši je možné jednotlivé záznamy zobraziť, upraviť, resp. exportovať. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 1: Väzby dokumentov&amp;nbsp;-&amp;nbsp;dve výdajky&amp;nbsp;vyúčtované faktúrou, účtovný zápis a zaúčtovanie úhrady&lt;/H5&gt;
+&lt;H5&gt;&lt;IMG border=0 alt="" src="images/Forms/Accounting/AccDouble_DocumentRelation.png"&gt;&lt;/H5&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="f4a19a39-bc9a-4c59-868e-aaf0791e0af3" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="60bbb193-6ba6-495c-8c54-431baf8b966f">
+      <Title m="2022-07-04T09:06:14.0410101Z">Fakturácia - základné možnosti</Title>
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="3326e236-3c10-45a6-99e0-19f9e27f2685" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="49dd3167-870a-4fdf-b631-d4f692f1ed72">
+      <Title m="2014-09-21T10:43:42.6758341Z">Podvojné účtovníctvo - všeobecne o koncepcii</Title>
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="faf58ce2-2de3-419c-adb5-763fb80e464d" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="32be28cf-2368-4818-9d24-cfa9d59afb75">
+      <Title m="2014-09-21T10:44:10.089402Z">Jednoduché účtovníctvo - všeobecne o koncepcii</Title>
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="d569f234-ef53-49e7-a115-a56df202f334" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="78d20602-4b59-4b31-9f0a-a04a1d376ec5">
+      <Title m="2014-11-29T08:12:00.3935722Z">Skladová evidencia - všeobecne o koncepcii</Title>
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="7e05fa69-fe45-4bb6-a117-b3c0747260ed" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1f5bf2be-396d-42e6-ade9-cc5a292efc15">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="ee9dae85-8915-4a4b-bf80-e9d7569a4286">
+      <Keyword m="2023-02-23T07:36:00.9153985Z">Fakturácia - všeobecne o koncepcii</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="ddfef5ba-40d7-4f2e-9068-59e15001baff">
+      <Keyword m="2023-02-23T07:38:05.5088843Z">Všeobecne o koncepcii - fakturácia</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

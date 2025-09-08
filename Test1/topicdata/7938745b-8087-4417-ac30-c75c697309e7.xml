@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="7938745b-8087-4417-ac30-c75c697309e7" Status="Complete" CreatedOn="2014-09-11T08:03:21.3110121Z" ModifiedOn="2024-11-11T09:57:06.1213467Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="AccDouble_Accounting_Samples_Stock_Accounting" BuildFlags="">
+  <Title m="2021-08-17T08:16:03.3212945Z">Príklady účtovania skladu</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-11-11T09:57:06.1213467Z">&lt;P&gt;V tejto téme &lt;EM&gt;Pomocníka&lt;/EM&gt; sú uvedené &lt;STRONG&gt;príklady účtovania skladu&amp;nbsp;&lt;/STRONG&gt;v&amp;nbsp;&lt;A href="49dd3167-870a-4fdf-b631-d4f692f1ed72"&gt;podvojnom účtovníctve&lt;/A&gt;&amp;nbsp;pri sadzbe DPH 20&amp;nbsp;%. Viac informácií o&amp;nbsp;tejto problematike je možné získať v&amp;nbsp;téme&amp;nbsp;&lt;A href="a00f332d-33c1-411f-9a2a-4116c3e783ef" style="auto-update-caption: true"&gt;Všeobecne o účtovaní skladu (zásob)&lt;/A&gt;.&lt;/P&gt;
+&lt;H2&gt;Príklad&amp;nbsp;1:&amp;nbsp;Účtovanie skladu spôsobom A (s použitím účtu obstarania)&lt;/H2&gt;
+&lt;H3&gt;Zadanie:&lt;/H3&gt;
+&lt;P&gt;Firma nakúpila od tuzemského dodávateľa 100 ton ocele s cenou 80&amp;nbsp;€ za 1 tonu ocele. Doprava bola zabezpečená doručovateľskou službou v hodnote 80&amp;nbsp;€. V priebehu roka predali 50 ton ocele. Na účtovanie skladu bola použitá &lt;A href="c9f0ed56-580d-477c-9dbe-2e850398781f"&gt;metóda A&lt;/A&gt;.&lt;/P&gt;
+&lt;P&gt;Firma po prijatí tovaru do skladu zaúčtuje príjemku v hodnote 8&amp;nbsp;000&amp;nbsp;€. Touto príjemkou dôjde k preúčtovaniu z účtu 131 – &lt;EM&gt;Obstaranie tovaru&lt;/EM&gt; na účet 132 – &lt;EM&gt;Tovar na sklade a v predajniach&lt;/EM&gt;.&lt;/P&gt;
+&lt;P&gt;Pri výdaji tovaru zo skladu zaúčtuje výdajku, prípadne dodací list v hodnote 4&amp;nbsp;000&amp;nbsp;€.&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;TABLE id=table3 style="HEIGHT: 535px; WIDTH: 500px; BORDER-COLLAPSE: collapse" width=764 border=0&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TD width="50%"&gt;&lt;B&gt;Text&lt;/B&gt;&lt;/TD&gt;
+&lt;TD width="12%" align=right&gt;&lt;B&gt;Suma&lt;/B&gt;&lt;/TD&gt;
+&lt;TD width="10%" align=right&gt;&lt;B&gt;MD&lt;/B&gt;&lt;/TD&gt;
+&lt;TD width="10%" align=right&gt;&lt;B&gt;DAL&lt;/B&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=15 width="50%" align=left&gt;&lt;B&gt;Obstaranie materiálu:&lt;/B&gt;&lt;/TD&gt;
+&lt;TD height=15 width="12%"&gt;&lt;/TD&gt;
+&lt;TD height=15 width="10%"&gt;&lt;/TD&gt;
+&lt;TD height=15 width="10%"&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=15 width="50%" align=left&gt;&amp;nbsp;- faktúra za materiál&lt;/TD&gt;
+&lt;TD height=15 width="12%" align=right&gt;8&amp;nbsp;000&lt;/TD&gt;
+&lt;TD height=15 width="10%" align=right&gt;111&lt;/TD&gt;
+&lt;TD height=15 width="10%" align=right&gt;321&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=15 width="50%" align=left&gt;&amp;nbsp;- DPH (20&amp;nbsp;%)&lt;/TD&gt;
+&lt;TD height=15 width="12%" align=right&gt;1&amp;nbsp;600&lt;/TD&gt;
+&lt;TD height=15 width="10%" align=right&gt;343&lt;/TD&gt;
+&lt;TD height=15 width="10%" align=right&gt;321&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width="50%" align=left&gt;&amp;nbsp;&lt;/TD&gt;
+&lt;TD width="12%" align=right&gt;&amp;nbsp;&lt;/TD&gt;
+&lt;TD width="10%" align=right&gt;&amp;nbsp;&lt;/TD&gt;
+&lt;TD width="10%" align=right&gt;&amp;nbsp;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width="50%" align=left&gt;&amp;nbsp;- faktúra za dopravu materiálu&lt;/TD&gt;
+&lt;TD width="12%" align=right&gt;80&lt;/TD&gt;
+&lt;TD width="10%" align=right&gt;111&lt;/TD&gt;
+&lt;TD width="10%" align=right&gt;321&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width="50%" align=left&gt;&amp;nbsp;- DPH (20&amp;nbsp;%)&lt;/TD&gt;
+&lt;TD width="12%" align=right&gt;16&lt;/TD&gt;
+&lt;TD width="10%" align=right&gt;343&lt;/TD&gt;
+&lt;TD width="10%" align=right&gt;321&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width="50%" align=left&gt;&amp;nbsp;&lt;/TD&gt;
+&lt;TD width="12%" align=right&gt;&amp;nbsp;&lt;/TD&gt;
+&lt;TD width="10%" align=right&gt;&amp;nbsp;&lt;/TD&gt;
+&lt;TD width="10%" align=right&gt;&amp;nbsp;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width="50%" align=left&gt;&lt;B&gt;Fyzický príjem na sklad na&lt;BR&gt;základe príjemky, dodacieho listu&lt;/B&gt;&lt;/TD&gt;
+&lt;TD width="12%" align=right&gt;&amp;nbsp;&lt;/TD&gt;
+&lt;TD width="10%" align=right&gt;&amp;nbsp;&lt;/TD&gt;
+&lt;TD width="10%" align=right&gt;&amp;nbsp;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width="50%" align=left&gt;&amp;nbsp;- materiál&lt;/TD&gt;
+&lt;TD width="12%" align=right&gt;8&amp;nbsp;080&lt;/TD&gt;
+&lt;TD width="10%" align=right&gt;112&lt;/TD&gt;
+&lt;TD width="10%" align=right&gt;111&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width="50%" align=left&gt;&amp;nbsp;&lt;/TD&gt;
+&lt;TD width="12%" align=right&gt;&amp;nbsp;&lt;/TD&gt;
+&lt;TD width="10%" align=right&gt;&amp;nbsp;&lt;/TD&gt;
+&lt;TD width="10%" align=right&gt;&amp;nbsp;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width="50%" align=left&gt;&lt;B&gt;Výdaj zo skladu na základe výdajky, dodacieho listu&lt;/B&gt;&lt;/TD&gt;
+&lt;TD width="12%" align=right&gt;&amp;nbsp;&lt;/TD&gt;
+&lt;TD width="10%" align=right&gt;&amp;nbsp;&lt;/TD&gt;
+&lt;TD width="10%" align=right&gt;&amp;nbsp;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width="50%" align=left&gt;&amp;nbsp;- materiál&lt;/TD&gt;
+&lt;TD width="12%" align=right&gt;4&amp;nbsp;000&lt;/TD&gt;
+&lt;TD width="10%" align=right&gt;501&lt;/TD&gt;
+&lt;TD width="10%" align=right&gt;112&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=104 width="84%" colSpan=4 align=left&gt;
+&lt;P class=MsoNormal&gt;&lt;B&gt;Legenda:&lt;/B&gt;&lt;/P&gt;
+&lt;P class=MsoNormal&gt;111 - Obstaranie materiálu&lt;BR&gt;112 - Materiál na sklade&lt;BR&gt;321 - Dodávatelia&lt;BR&gt;343 - Daň z pridanej hodnoty&lt;BR&gt;501 - Spotreba materiálu&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;
+&lt;H2&gt;Príklad&amp;nbsp;2: Účtovanie skladu spôsobom A (s použitím účtu obstarania)&lt;/H2&gt;
+&lt;H3&gt;Zadanie:&lt;/H3&gt;
+&lt;P&gt;Firma nakúpila od tuzemského dodávateľa 10 ks tonerov s&amp;nbsp;cenou 10&amp;nbsp;€ za 1 ks. Doprava bola zabezpečená doručovateľskou službou v hodnote 20&amp;nbsp;€. Ďalšia firma vystavila faktúru za sprostredkovanie tovaru.&amp;nbsp;V priebehu roka predali 5 ks tonerov. V novom roku nakúpili ešte 10 ks tonerov po 9&amp;nbsp;€. Jeden zákazník reklamoval toner zakúpený v minulom roku. Firma vystavila na vrátený tovar dobropis. Doklad, ktorým sa tovar prijal späť na sklad, bol výdajka mínusom. Na účtovanie skladu bola použitá &lt;A href="c9f0ed56-580d-477c-9dbe-2e850398781f"&gt;metóda A&lt;/A&gt;.&lt;/P&gt;
+&lt;P&gt;Firma po&amp;nbsp;prijatí tovaru do skladu zaúčtuje príjemku v hodnote 100&amp;nbsp;€. Touto príjemkou dôjde k preúčtovaniu z účtu 131 – &lt;EM&gt;Obstaranie tovaru&lt;/EM&gt; na účet 132 – &lt;EM&gt;Tovar na sklade a v predajniach&lt;/EM&gt;.&lt;/P&gt;
+&lt;P&gt;Pri výdaji tovaru zo skladu zaúčtuje výdajku, prípadne dodací list v hodnote 50&amp;nbsp;€.&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;TABLE id=table2 style="HEIGHT: 700px; WIDTH: 500px; BORDER-COLLAPSE: collapse; EMPTY-CELLS: hide" width=764 border=0&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TD width="48%"&gt;&lt;B&gt;Text&lt;/B&gt;&lt;/TD&gt;
+&lt;TD width=107 align=right&gt;&lt;B&gt;Suma&lt;/B&gt;&lt;/TD&gt;
+&lt;TD width="12%" align=right&gt;&lt;B&gt;MD&lt;/B&gt;&lt;/TD&gt;
+&lt;TD width="11%" align=right&gt;&lt;B&gt;DAL&lt;/B&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=15 width="48%" align=left&gt;&lt;B&gt;Obstaranie tovaru:&lt;/B&gt;&lt;/TD&gt;
+&lt;TD height=15 width=107&gt;&lt;/TD&gt;
+&lt;TD height=15 width="12%"&gt;&lt;/TD&gt;
+&lt;TD height=15 width="11%"&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=15 width="48%" align=left&gt;&amp;nbsp;- faktúra za tovar&lt;/TD&gt;
+&lt;TD height=15 width=107 align=right&gt;100&lt;/TD&gt;
+&lt;TD height=15 width="12%" align=right&gt;131&lt;/TD&gt;
+&lt;TD height=15 width="11%" align=right&gt;321&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=15 width="48%" align=left&gt;&amp;nbsp;- DPH (20&amp;nbsp;%)&lt;/TD&gt;
+&lt;TD height=15 width=107 align=right&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;20&lt;/TD&gt;
+&lt;TD height=15 width="12%" align=right&gt;343&lt;/TD&gt;
+&lt;TD height=15 width="11%" align=right&gt;321&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width="48%" align=left&gt;&amp;nbsp;- faktúra za dopravu tovaru&lt;/TD&gt;
+&lt;TD width=107 align=right&gt;20&lt;/TD&gt;
+&lt;TD width="12%" align=right&gt;131&lt;/TD&gt;
+&lt;TD width="11%" align=right&gt;321&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width="48%" align=left&gt;&amp;nbsp;- DPH (20&amp;nbsp;%)&lt;/TD&gt;
+&lt;TD width=107 align=right&gt;4&lt;/TD&gt;
+&lt;TD width="12%" align=right&gt;343&lt;/TD&gt;
+&lt;TD width="11%" align=right&gt;321&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width="48%" align=left&gt;&amp;nbsp;&lt;/TD&gt;
+&lt;TD width=107 align=right&gt;&amp;nbsp;&lt;/TD&gt;
+&lt;TD width="12%" align=right&gt;&amp;nbsp;&lt;/TD&gt;
+&lt;TD width="11%" align=right&gt;&amp;nbsp;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width="48%" align=left&gt;&amp;nbsp;- sprostredkovanie&lt;/TD&gt;
+&lt;TD width=107 align=right&gt;20&lt;/TD&gt;
+&lt;TD width="12%" align=right&gt;131&lt;/TD&gt;
+&lt;TD width="11%" align=right&gt;321&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width="48%" align=left&gt;&amp;nbsp;- DPH (20&amp;nbsp;%)&lt;/TD&gt;
+&lt;TD width=107 align=right&gt;4&lt;/TD&gt;
+&lt;TD width="12%" align=right&gt;343&lt;/TD&gt;
+&lt;TD width="11%" align=right&gt;321&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width="48%" align=left&gt;&amp;nbsp;&lt;/TD&gt;
+&lt;TD width=107 align=right&gt;&amp;nbsp;&lt;/TD&gt;
+&lt;TD width="12%" align=right&gt;&amp;nbsp;&lt;/TD&gt;
+&lt;TD width="11%" align=right&gt;&amp;nbsp;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width="48%" align=left&gt;&amp;nbsp;- faktúra&lt;/TD&gt;
+&lt;TD width=107 align=right&gt;90&lt;/TD&gt;
+&lt;TD width="12%" align=right&gt;131&lt;/TD&gt;
+&lt;TD width="11%" align=right&gt;321&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width="48%" align=left&gt;&amp;nbsp;- DPH (20&amp;nbsp;%)&lt;/TD&gt;
+&lt;TD width=107 align=right&gt;18&lt;/TD&gt;
+&lt;TD width="12%" align=right&gt;343&lt;/TD&gt;
+&lt;TD width="11%" align=right&gt;321&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width="48%" align=left&gt;&amp;nbsp;&lt;/TD&gt;
+&lt;TD width=107 align=right&gt;&amp;nbsp;&lt;/TD&gt;
+&lt;TD width="12%" align=right&gt;&amp;nbsp;&lt;/TD&gt;
+&lt;TD width="11%" align=right&gt;&amp;nbsp;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=18 width="48%" align=left&gt;&amp;nbsp;- vrátenie tovaru&lt;/TD&gt;
+&lt;TD height=18 width=107 align=right&gt;-10&lt;/TD&gt;
+&lt;TD height=18 width="12%" align=right&gt;131&lt;/TD&gt;
+&lt;TD height=18 width="11%" align=right&gt;321&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width="48%" align=left&gt;&amp;nbsp;&lt;/TD&gt;
+&lt;TD width=107 align=right&gt;&amp;nbsp;&lt;/TD&gt;
+&lt;TD width="12%" align=right&gt;&amp;nbsp;&lt;/TD&gt;
+&lt;TD width="11%" align=right&gt;&amp;nbsp;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width="48%" align=left&gt;&lt;B&gt;Fyzický príjem na sklad na základe príjemky, dodacieho listu&lt;/B&gt;&lt;/TD&gt;
+&lt;TD width=107 align=right&gt;&amp;nbsp;&lt;/TD&gt;
+&lt;TD width="12%" align=right&gt;&amp;nbsp;&lt;/TD&gt;
+&lt;TD width="11%" align=right&gt;&amp;nbsp;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width="48%" align=left&gt;&amp;nbsp;- tovar&lt;/TD&gt;
+&lt;TD width=107 align=right&gt;100&lt;/TD&gt;
+&lt;TD width="12%" align=right&gt;132&lt;/TD&gt;
+&lt;TD width="11%" align=right&gt;131&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width="48%" align=left&gt;&amp;nbsp;&lt;/TD&gt;
+&lt;TD width=107 align=right&gt;&amp;nbsp;&lt;/TD&gt;
+&lt;TD width="12%" align=right&gt;&amp;nbsp;&lt;/TD&gt;
+&lt;TD width="11%" align=right&gt;&amp;nbsp;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width="48%" align=left&gt;&lt;B&gt;Výdaj zo skladu na základe výdajky, dodacieho listu&lt;/B&gt;&lt;/TD&gt;
+&lt;TD width=107 align=right&gt;&amp;nbsp;&lt;/TD&gt;
+&lt;TD width="12%" align=right&gt;&amp;nbsp;&lt;/TD&gt;
+&lt;TD width="11%" align=right&gt;&amp;nbsp;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width="48%" align=left&gt;&amp;nbsp;- tovar&lt;/TD&gt;
+&lt;TD width=107 align=right&gt;50&lt;/TD&gt;
+&lt;TD width="12%" align=right&gt;504&lt;/TD&gt;
+&lt;TD width="11%" align=right&gt;132&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=115 width="87%" colSpan=4 align=left&gt;
+&lt;P class=MsoNormal&gt;&lt;B&gt;Legenda:&lt;/B&gt;&lt;/P&gt;
+&lt;P class=MsoNormal&gt;131 - Obstaranie tovaru&lt;BR&gt;132 - Tovar na sklade a v predajniach&lt;BR&gt;321 - Dodávatelia&lt;BR&gt;343 - Daň z pridanej hodnoty&lt;BR&gt;504 - Predaný tovar&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;H2&gt;Príklad 3: Príklad účtovania skladu spôsobom B&lt;/H2&gt;
+&lt;H3&gt;Zadanie:&lt;/H3&gt;
+&lt;P class=MsoNormal&gt;Zadanie je totožné zo zadaním príkladu 1. Rozdiel je v tom, že je použitý &lt;A href="b1838751-e53e-4824-bd05-991e16d1eb2a"&gt;spôsob B&lt;/A&gt;.&amp;nbsp;&lt;BR&gt;&amp;nbsp;&lt;/P&gt;
+&lt;TABLE id=table3 style="HEIGHT: 535px; WIDTH: 500px; BORDER-COLLAPSE: collapse" width=764 border=0&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TD width="59%"&gt;&lt;B&gt;Text&lt;/B&gt;&lt;/TD&gt;
+&lt;TD width="13%"&gt;&lt;B&gt;Suma&lt;/B&gt;&lt;/TD&gt;
+&lt;TD width="9%"&gt;&lt;B&gt;MD&lt;/B&gt;&lt;/TD&gt;
+&lt;TD width="9%"&gt;&lt;B&gt;DAL&lt;/B&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=15 width="59%" align=left&gt;účtovanie k 1.1.&lt;/TD&gt;
+&lt;TD height=15 width="13%"&gt;&lt;/TD&gt;
+&lt;TD height=15 width="9%"&gt;&lt;/TD&gt;
+&lt;TD height=15 width="9%"&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=15 width="59%" align=left&gt;&amp;nbsp;- začiatočný stav tovaru&lt;/TD&gt;
+&lt;TD height=15 width="13%"&gt;50&lt;/TD&gt;
+&lt;TD height=15 width="9%"&gt;132&lt;/TD&gt;
+&lt;TD height=15 width="9%"&gt;701&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=15 width="59%" align=left&gt;&lt;/TD&gt;
+&lt;TD height=15 width="13%"&gt;&lt;/TD&gt;
+&lt;TD height=15 width="9%"&gt;&lt;/TD&gt;
+&lt;TD height=15 width="9%"&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width="59%" align=left&gt;účtovanie v priebehu účtovného obdobia:&lt;/TD&gt;
+&lt;TD width="13%"&gt;&amp;nbsp;&lt;/TD&gt;
+&lt;TD width="9%"&gt;&amp;nbsp;&lt;/TD&gt;
+&lt;TD width="9%"&gt;&amp;nbsp;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=11 width="59%" align=left&gt;&amp;nbsp;- nákup tovaru&lt;/TD&gt;
+&lt;TD height=11 width="13%"&gt;90&lt;/TD&gt;
+&lt;TD height=11 width="9%"&gt;504&lt;/TD&gt;
+&lt;TD height=11 width="9%"&gt;321&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width="59%" align=left&gt;&amp;nbsp;- doprava&lt;/TD&gt;
+&lt;TD width="13%"&gt;20&lt;/TD&gt;
+&lt;TD width="9%"&gt;504&lt;/TD&gt;
+&lt;TD width="9%"&gt;321&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width="59%" align=left&gt;&amp;nbsp;&lt;/TD&gt;
+&lt;TD width="13%"&gt;&amp;nbsp;&lt;/TD&gt;
+&lt;TD width="9%"&gt;&amp;nbsp;&lt;/TD&gt;
+&lt;TD width="9%"&gt;&amp;nbsp;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width="59%" align=left&gt;&lt;B&gt;účtovanie k 31.12.&lt;/B&gt;&lt;/TD&gt;
+&lt;TD width="13%"&gt;&amp;nbsp;&lt;/TD&gt;
+&lt;TD width="9%"&gt;&amp;nbsp;&lt;/TD&gt;
+&lt;TD width="9%"&gt;&amp;nbsp;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width="59%" align=left&gt;po vykonaní fyzickej inventúry sa zaúčtuje:&lt;/TD&gt;
+&lt;TD width="13%"&gt;&amp;nbsp;&lt;/TD&gt;
+&lt;TD width="9%"&gt;&amp;nbsp;&lt;/TD&gt;
+&lt;TD width="9%"&gt;&amp;nbsp;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width="59%" align=left&gt;zúčtovanie začiatočného stavu zásob do spotreby&lt;/TD&gt;
+&lt;TD width="13%"&gt;50&lt;/TD&gt;
+&lt;TD width="9%"&gt;504&lt;/TD&gt;
+&lt;TD width="9%"&gt;132&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width="59%" align=left&gt;skutočný stav zásob zistený pri inventúre&lt;/TD&gt;
+&lt;TD width="13%"&gt;150&lt;/TD&gt;
+&lt;TD width="9%"&gt;132&lt;/TD&gt;
+&lt;TD width="9%"&gt;504&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width="59%" align=left&gt;zistené manko&lt;/TD&gt;
+&lt;TD width="13%"&gt;10&lt;/TD&gt;
+&lt;TD width="9%"&gt;549&lt;/TD&gt;
+&lt;TD width="9%"&gt;504&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width="59%" align=left&gt;zistený prebytok&lt;/TD&gt;
+&lt;TD width="13%"&gt;10&lt;/TD&gt;
+&lt;TD width="9%"&gt;132&lt;/TD&gt;
+&lt;TD width="9%"&gt;648&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width="90%" colSpan=4 align=left&gt;
+&lt;P&gt;&lt;B&gt;Legenda:&lt;/B&gt;&lt;/P&gt;
+&lt;P class=MsoNormal&gt;132 - Tovar na sklade a v predajniach&lt;BR&gt;321 - Dodávatelia &lt;BR&gt;504 - Predaný tovar&lt;BR&gt;549 - Manká a škody&lt;BR&gt;648 - Ostatné výnosy z hospodárskej činnosti&lt;BR&gt;701 - Začiatočný účet súvahový&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="189b7fe1-c12e-45e1-b92a-204fab38ba9c" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="a00f332d-33c1-411f-9a2a-4116c3e783ef">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="91134d7a-f719-423d-aaf7-74a1fd19a0d3" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="c9f0ed56-580d-477c-9dbe-2e850398781f">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="00ac3c3f-a687-494a-af47-db66a9e90e66" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="b1838751-e53e-4824-bd05-991e16d1eb2a">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="ee258c21-6d25-4b66-a96c-818db028a435" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="e50f9e37-991e-4800-9fc3-3eeb6ce162a7">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="f9635058-708d-466f-bb6f-855eacd2129b">
+      <Keyword m="2021-08-17T10:29:31.6866494Z">Účtovanie skladu - príklady</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="3c777151-6b28-42fc-adbc-09117753de90">
+      <Keyword m="2021-08-17T10:29:51.7523254Z">Sklad - účtovanie - príklady</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

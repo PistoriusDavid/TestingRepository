@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="001a08ce-5c9e-49ef-be9f-38e29fe140a0" Status="Complete" CreatedOn="2023-10-05T10:22:11.6177656Z" ModifiedOn="2023-11-28T12:00:11.107772Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Wages_Attendance_Start_HolidayEnter" BuildFlags="">
+  <Title m="2023-10-05T10:23:37.6265259Z">Ako zadať sviatok v dochádzke</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-10-09T06:09:13.2080585Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;informácie, ako zadať sviatok v&amp;nbsp;dochádzke&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Pracovníkovi, ktorý &lt;STRONG&gt;mal robiť a nerobil, lebo bol sviatok a je odmeňovaný časovou alebo úkolovou mzdou&lt;/STRONG&gt;, patrí podľa &lt;EM&gt;Zákonníka práce&lt;/EM&gt; &lt;STRONG&gt;náhrada mzdy&lt;/STRONG&gt; v&amp;nbsp;sume jeho priemerného zárobku. 
+&lt;LI&gt;Takému pracovníkovi je potrebné&amp;nbsp;v&amp;nbsp;&lt;A href="ce9e15f9-7459-4a5c-8bad-db17ef7b59ea"&gt;Pracovnom kalendári&lt;/A&gt; vygenerovať&amp;nbsp;&lt;A href="0d06308b-64cf-4d51-bc3a-9c262750667d"&gt;pracovný plán&lt;/A&gt;, ale v&amp;nbsp;deň, na ktorý pripadol sviatok, &lt;STRONG&gt;nie je potrebné zadávať žiadnu&amp;nbsp;&lt;/STRONG&gt;&lt;A href="4eb19cec-64b2-467f-8e96-fa7e5387704c"&gt;časovú zložku dochádzky&lt;/A&gt; &lt;STRONG&gt;(program automaticky zohľadňuje skutočnosť, že je v&amp;nbsp;daný deň sviatok)&lt;/STRONG&gt;.
+&lt;LI&gt;V prípade, že bola spolu s&amp;nbsp;pracovným plánom vygenerovaná aj dochádzka, je potrebné &lt;STRONG&gt;danú časovú zložku dochádzky vymazať&lt;/STRONG&gt;. &lt;STRONG&gt;POZOR:&lt;/STRONG&gt; &lt;SPAN style="COLOR: rgb(255,0,0)"&gt;vymazať je potrebné len časovú dochádzku, nie však pracovný plán (pracovnú zmenu)&lt;/SPAN&gt;. Napr. vymaže sa len časová zložka dochádzky &lt;EM&gt;Odpracované (O)&lt;/EM&gt;, nie však pracovný plán (zmena) &lt;EM&gt;Ranná (R)&lt;/EM&gt; (pozri Obrázok č. 1). &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Viac informácií o problematike odmeňovania práce vo sviatok získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="ae7d60eb-a50d-4811-b213-d94b66200304" style="auto-update-caption: true"&gt;Odmeňovanie práce vo sviatok&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H5&gt;Obrázok č. 1: Vymazanie časovej zložky dochádzky v &lt;EM&gt;Pracovnom kalendári&lt;/EM&gt;&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/Attendance/Form_Attendance_HolidayDelete.PNG"&gt;&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="ed938b5e-5d79-4130-8043-2ced66828495" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="ce9e15f9-7459-4a5c-8bad-db17ef7b59ea">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="a621b3c1-24bf-4646-b585-5f33dbd8e5db" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="85220d47-fc01-4329-90a7-1b68f5e6e083">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="13a76b26-b3f8-4ebc-9c2a-f9fb03f3dfa5" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="4eb19cec-64b2-467f-8e96-fa7e5387704c">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="3a713d48-accf-42c7-a08e-fee1ff066857" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="6923b0c5-166b-4e3b-a53b-71f62b53b2fc">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="ebaa3c15-4090-4061-8a52-ed8e32d5ee9f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="ae7d60eb-a50d-4811-b213-d94b66200304">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="410b5293-6115-41d4-b070-4e34ced04725">
+      <Keyword m="2023-11-28T11:59:49.6556166Z">Sviatok - ako zadať v dochádzke</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="7505f0d7-c443-4d20-a9b0-f9c1a8403524">
+      <Keyword m="2023-11-28T12:00:11.1067717Z">Sviatok v dochádzke - ako zadať</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

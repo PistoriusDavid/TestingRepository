@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="de42d42d-6f5c-49ba-b0c9-1413773f7ef1" Status="Complete" CreatedOn="2022-04-12T08:43:31.0302951Z" ModifiedOn="2024-04-16T12:14:03.611383Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Hotel_Advanced_On-lineCheckIn" BuildFlags="">
+  <Title m="2022-04-12T08:44:27.6576428Z">Hotel on-line check-in</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-04-16T12:14:03.611383Z">&lt;P&gt;Modul&amp;nbsp;&lt;A href="c3bd41f0-029e-4c74-b342-b0ffff647b6e"&gt;Hotelová recepcia&lt;/A&gt;&amp;nbsp;systému OBERON podporuje&amp;nbsp;&lt;STRONG&gt;hotel on-line check-in, t. j.&amp;nbsp;&lt;/STRONG&gt;&lt;STRONG&gt;webový on-line registračný formulár&lt;/STRONG&gt; určený na vyplnenie osobných údajov potrebných na registráciu hosťa pred, resp. po príchode do ubytovacieho zariadenia na zrýchlenie procesu ubytovania. V závislosti od toho, kedy sa použije, zahŕňa tzv.&amp;nbsp;&lt;A href="0773204a-fdc5-42c2-89b0-73d53dd5a2e4"&gt;Pre check-in&lt;/A&gt; alebo&amp;nbsp;&lt;A href="5b415da0-dc8c-4b42-8572-14159203f57a"&gt;Rýchly check-in&lt;/A&gt;. Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje všeobecné informácie o tomto formulári.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;EM&gt;Hotel on-line check-in&lt;/EM&gt; predstavuje &lt;STRONG&gt;webový on-line registračný formulár určený na vyplnenie osobných údajov potrebných na registráciu hosťa pred, resp. po príchode do ubytovacieho zariadenia na zrýchlenie procesu ubytovania&lt;/STRONG&gt;. V závislosti od toho, kedy sa použije, zahŕňa tzv.&amp;nbsp;&lt;A href="0773204a-fdc5-42c2-89b0-73d53dd5a2e4"&gt;Pre check-in&lt;/A&gt; alebo&amp;nbsp;&lt;A href="5b415da0-dc8c-4b42-8572-14159203f57a"&gt;Rýchly check-in&lt;/A&gt;. Funkcia výraznou mierou minimalizuje čas hostí strávený na recepcii ubytovacích zariadení a umožňuje im významnú časť úkonov spojených s procesom ubytovania zvládnuť vo vlastnej réžii (bez priameho kontaktu s obsluhou). 
+&lt;LI&gt;Prepojenie formulára s modulom&amp;nbsp;&lt;A href="c3bd41f0-029e-4c74-b342-b0ffff647b6e"&gt;Hotelová recepcia&lt;/A&gt; systému OBERON sa realizuje pomocou&amp;nbsp;&lt;A href="58bb31ca-00c8-4641-ad99-7d58e24f59c5"&gt;webových služieb&lt;/A&gt;, t. j. on-line. 
+&lt;LI&gt;Pri &lt;EM&gt;&lt;STRONG&gt;Pre check-ine&lt;/STRONG&gt;&lt;/EM&gt; ide o elektronickú registráciu hosťa (on-line check-in) ešte pred jeho príchodom do ubytovacieho zariadenia, a to spravidla z pohodlia jeho domova. Realizuje sa na základe &lt;A href="1f7db5e4-f5f7-4631-854a-bd7679c3186a"&gt;automaticky zasielanej výzvy&lt;/A&gt; (formou e-mailovej alebo SMS správy) &lt;STRONG&gt;na zadanie identifikačných údajov hosťa, prípadne aj ďalších osôb do osobitného on-line registračného formulára&lt;/STRONG&gt; na webovej stránke ubytovacieho zariadenia. Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="0773204a-fdc5-42c2-89b0-73d53dd5a2e4" style="auto-update-caption: true"&gt;Pre check-in&lt;/A&gt;. 
+&lt;LI&gt;Ak hosť nevyplní svoje identifikačné údaje pred svojím príchodom, môže využiť funkciu &lt;EM&gt;&lt;STRONG&gt;Rýchly check-in&lt;/STRONG&gt;&lt;/EM&gt;, keď svoje identifikačné údaje &lt;STRONG&gt;zadá do&amp;nbsp;on-line registračného&amp;nbsp;formulára bezprostredne po svojom príchode do ubytovacieho zariadenia a prevzatí izby&lt;/STRONG&gt;. Rýchly check-in sa realizuje na základe pripojenia mobilným zariadením (smartfónom, tabletom...) do lokálnej počítačovej WiFi siete a zadaním identifikačných údajov hosťa, prípadne aj ďalších osôb do on-line registračného formulára. Pri rýchlom check-ine sa používa &lt;STRONG&gt;osobitný tlačový výstup s QR kódom&lt;/STRONG&gt; na pripojenie do lokálnej počítačovej WiFi siete a QR kódom s odkazom na on-line registračný formulár. Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="5b415da0-dc8c-4b42-8572-14159203f57a" style="auto-update-caption: true"&gt;Rýchly check-in&lt;/A&gt;. 
+&lt;LI&gt;On-line registračný formulár&amp;nbsp;je dostupný &lt;STRONG&gt;v slovenskom,&lt;/STRONG&gt; &lt;STRONG&gt;anglickom,&lt;/STRONG&gt; &lt;STRONG&gt;nemeckom, českom a&amp;nbsp;poľskom jazyku&lt;/STRONG&gt;, pričom vo formulári je implementovaná automatická detekcia jazyka podľa prehliadača (napr. ak je formulár zobrazený v&amp;nbsp;prehliadači, ktorý je&amp;nbsp;v anglickom jazyku, formulár sa zobrazí v&amp;nbsp;angličtine).&amp;nbsp;Ďalšie jazyky si môže ubytovacie zariadenie doplniť aj vo vlastnej réžii (pozri nižšie časť &lt;EM&gt;Jazykové mutácie&lt;/EM&gt;). &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Technické informácie&amp;nbsp;&amp;nbsp;&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Formulár&amp;nbsp;na zadanie identifikačných údajov o hosťovi (on-line check-in) zapisuje údaje do rezervácie priamo, a to pomocou API rozhrania pre webové služby. Formulár sa&amp;nbsp;spravidla umiestňuje do webovej stránky ubytovacieho zariadenia - dôležitým faktom je, že webová stránka musí mať priamo dostupnú webovú službu, spravidla na statickej verejnej IP adrese. 
+&lt;LI&gt;On-line registračný formulár je možné priamo implementovať do webovej stránky týmito spôsobmi:&lt;BR&gt;&lt;STRONG&gt;a)&lt;/STRONG&gt; &lt;STRONG&gt;implementáciou kódu priamo do webovej stránky&lt;/STRONG&gt; - profesionálne riešenie s&amp;nbsp;možnosťami úpravy&amp;nbsp;správania sa&amp;nbsp;formulára podľa potrieb a&amp;nbsp;požiadaviek ubytovacieho zariadenia (implementácia je náročnejšia, zvládne ju len skúsený webový vývojár).&lt;BR&gt;&lt;STRONG&gt;b)&lt;/STRONG&gt; &lt;STRONG&gt;inštaláciou pluginu&amp;nbsp;&lt;EM&gt;OBERON - WP Add-in&lt;/EM&gt;&lt;EM&gt;&amp;nbsp;&lt;/EM&gt;&lt;/STRONG&gt;priamo do systému &lt;EM&gt;WordPress -&lt;/EM&gt;&amp;nbsp;na&amp;nbsp;implementáciu jednoduchá voľba, pričom sa formulár prispôsobí farebnej téme ubytovacieho zariadenia.&amp;nbsp;Bližšie informácie je možné získať v&amp;nbsp;téme&amp;nbsp;&lt;A href="2ce520a7-33d5-433c-99da-94568cb8173f" style="auto-update-caption: true"&gt;Hotel on-line check-in pre WordPress&lt;/A&gt;.&lt;BR&gt;&lt;STRONG&gt;b)&amp;nbsp;implementácia JavaScript&amp;nbsp;kódu priamo do webovej stránky -&lt;/STRONG&gt;&amp;nbsp;náročnejšia implementácia, zvládne ju aj menej skúsený webový vývojár. 
+&lt;LI&gt;Pri &lt;EM&gt;Pre check-ine&lt;/EM&gt; odkaz na formulár, ktorý sa zasiela v&amp;nbsp;&lt;A href="1f7db5e4-f5f7-4631-854a-bd7679c3186a"&gt;e-mailovej notifikácii&lt;/A&gt;&amp;nbsp;hosťovi, je možné získať vo formulári rezervácie v záložke &lt;EM&gt;Iné záznamy&lt;/EM&gt; - &lt;STRONG&gt;rezervácia sa identifikuje na základe tzv. GUID v danom odkaze&lt;/STRONG&gt;, napr.&amp;nbsp;&lt;EM&gt;https://hotel.sk/on-line-check-in/?guid=311b05ea-4461-49ce-b375-e7bc7c436b52&amp;amp;lang=sk.&lt;/EM&gt; 
+&lt;LI&gt;Pri &lt;EM&gt;Rýchlom check-ine&lt;/EM&gt; by mal byť formulár (na rozdiel od&amp;nbsp;režimu&amp;nbsp;&lt;EM&gt;Pre check-in&lt;/EM&gt;) technicky &lt;SPAN style="COLOR: rgb(255,0,0)"&gt;dostupný len z&amp;nbsp;lokálnej počítačovej siete (interná URL)&lt;/SPAN&gt;. Dôvodom je fakt, že odkaz na formulár obsahuje číslo izby, čo by mohlo byť&amp;nbsp;hosťom po skončení ubytovania (alebo kedykoľvek neskôr) zneužité (hosť by mohol zasielať SPAM údaje). &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Jazykové mutácie&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;On-line registračný&amp;nbsp;formulár môže&amp;nbsp;fungovať vo viacerých jazykových mutáciách&amp;nbsp;- momentálne sú k dispozícii&amp;nbsp;tieto: &amp;nbsp;&amp;nbsp;&amp;nbsp; 
+&lt;UL&gt;
+&lt;LI&gt;slovenský jazyk (predvolené), 
+&lt;LI&gt;anglický jazyk (príkaz lang=en), 
+&lt;LI&gt;nemecký jazyk (príkaz lang=de), 
+&lt;LI&gt;český jazyk (príkaz lang=cs), 
+&lt;LI&gt;poľský jazyk (príkaz lang=pl). &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Ďalšie jazykové mutácie je možné&amp;nbsp;implementovať veľmi jednoducho - vytvorením ďalšieho&amp;nbsp;súboru c:\OBERON\WebServices\&lt;EM&gt;&lt;STRONG&gt;názov služby v&amp;nbsp;OAC&lt;/STRONG&gt;&lt;/EM&gt;\OBERONWebTemplates\lang\frm-checkinguest-&lt;STRONG&gt;XX&lt;/STRONG&gt;.txt, kde XX je kód jazyka (napr. c:\OBERON\WebServices\&lt;EM&gt;&lt;STRONG&gt;WS-OBERON&lt;/STRONG&gt;&lt;/EM&gt;\OBERONWebTemplates\lang\frm-checkinguest-&lt;STRONG&gt;en&lt;/STRONG&gt;.txt). 
+&lt;LI&gt;Jazyková mutácia sa nastavuje pre každý formulár zvlášť&amp;nbsp;&lt;STRONG&gt;vložením príslušného príkazu do kódu&lt;/STRONG&gt; (napr. pri implementácii pomocou&amp;nbsp;IFrame pre anglickú mutáciu): 
+&lt;UL&gt;
+&lt;LI&gt;pre &lt;EM&gt;&lt;STRONG&gt;Pre check-in&amp;nbsp;&lt;/STRONG&gt;&lt;/EM&gt;v&amp;nbsp;tvare: &lt;STRONG&gt;http://192.168.16.101:25561/html?c=checkInGuest&amp;amp;&lt;/STRONG&gt;&lt;A href="http://192.168.16.101:25561/html?c=hotel_BaseForm_checkInGuest"&gt;&lt;/A&gt;&lt;A href="http://192.168.16.101:25561/html?c=hotel_BaseForm_checkInGuest"&gt;&lt;/A&gt;&lt;STRONG&gt;lang=en&lt;/STRONG&gt;, 
+&lt;LI&gt;pre &lt;EM&gt;&lt;STRONG&gt;Rýchly check-in&lt;/STRONG&gt;&lt;/EM&gt; v tvare &lt;STRONG&gt;http://192.168.16.101:25561/html?c=checkInReception&amp;amp;&lt;/STRONG&gt;&lt;A href="http://192.168.16.101:25561/html?c=hotel_BaseForm_checkInReception"&gt;&lt;/A&gt;&lt;A href="http://192.168.16.101:25561/html?c=hotel_BaseForm_checkInReception"&gt;&lt;/A&gt;&lt;STRONG&gt;lang=en&lt;/STRONG&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Ďalšie informácie získate na webovej stránke&amp;nbsp;&lt;A href="https://exalogic.sk/zakladne-moduly/hotelova-recepcia/hotel-on-line-check-in/" target=_blank&gt;Hotel on-line check-in&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H5&gt;&amp;nbsp;Obrázok č. 1: Formulár na zadanie identifikačných údajov na webovej stránke ubytovacieho zariadenia (pre check-in)&lt;/H5&gt;
+&lt;P&gt;&lt;IMG style="BORDER-TOP: black 1px solid; BORDER-RIGHT: grey 1px solid; BORDER-BOTTOM: grey 1px solid; BORDER-LEFT: grey 1px solid" alt="" src="images/CRM/CRM_OnlineCheck-In_WebFormular.png"&gt;&amp;nbsp;&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="ce35edb5-1d73-4cc5-ac10-3c8837fa1d6c" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="c3bd41f0-029e-4c74-b342-b0ffff647b6e">
+      <Title m="2022-04-12T09:07:44.6182816Z">Hotelová recepcia</Title>
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="ea921ae1-57fc-4795-b71e-2513d778be0b" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="58bb31ca-00c8-4641-ad99-7d58e24f59c5">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="467585cb-4986-4c42-a699-611552d8619b" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="0773204a-fdc5-42c2-89b0-73d53dd5a2e4">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="c9352d77-e6f2-4f91-a1a0-09936da8a028" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="5b415da0-dc8c-4b42-8572-14159203f57a">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="101bf390-96eb-4842-8481-700cb016d690" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="2ce520a7-33d5-433c-99da-94568cb8173f">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="625011f4-1a1a-4124-aaf8-0f0607dba5b3">
+      <Keyword m="2022-04-12T08:50:33.7779714Z">On-line check-in formulár</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="cbfa48cc-c6c7-4620-b892-04961986aa89">
+      <Keyword m="2022-04-12T08:50:43.3642772Z">Hotel on-line check-in - technické informácie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="1965195a-c239-413d-b2f0-1fb5da23b9b8">
+      <Keyword m="2022-04-12T08:50:20.1129659Z">Hotel on-line check-in - všeobecné informácie</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

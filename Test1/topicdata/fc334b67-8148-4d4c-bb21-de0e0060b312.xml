@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="fc334b67-8148-4d4c-bb21-de0e0060b312" Status="Complete" CreatedOn="2016-03-29T09:14:35.4650491Z" ModifiedOn="2024-10-21T13:01:22.2298098Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Hotel_Started_CalculationAccomodation" BuildFlags="">
+  <Title m="2022-06-28T09:33:28.936127Z">Automatický výpočet ceny za ubytovanie</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-10-21T13:01:22.2298098Z">&lt;P&gt;Táto téma&amp;nbsp;&lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;informácie o výpočte ceny za ubytovanie&lt;/STRONG&gt; v&amp;nbsp;module &lt;A href="c3bd41f0-029e-4c74-b342-b0ffff647b6e"&gt;Hotelová recepcia&lt;/A&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;V&amp;nbsp;systéme OBERON možno stanoviť cenu za ubytovanie&amp;nbsp;nasledujúcimi spôsobmi: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;manuálne&lt;/STRONG&gt; - cena sa&amp;nbsp;určuje a zadáva manuálne (je potrebné vytvoriť skladovú kartu&amp;nbsp;&lt;A href="8deac9fe-9864-41e8-aaa3-02257c241d78"&gt;typu služba&lt;/A&gt;), 
+&lt;LI&gt;&lt;STRONG&gt;automaticky&lt;/STRONG&gt; - cena sa vypočítava automaticky podľa nastavení cenových hladín v&amp;nbsp;&lt;A href="79646e11-b21e-473c-a78b-7e0fb8b55c14"&gt;cenotvorbe ubytovania&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Funkcia automatického výpočtu ceny za ubytovanie je dostupná vo&amp;nbsp;&lt;A href="90d7003c-1001-42ee-beef-bb7df6eada31"&gt;formulári Rezervácia&lt;/A&gt;, záložka &lt;EM&gt;Kalkulácia ceny&lt;/EM&gt;, tlačidlo &lt;EM&gt;Možnosti - &lt;STRONG&gt;Automaticky vytvoriť položky kalkulácie ceny (F9)&lt;/STRONG&gt;&lt;/EM&gt;&amp;nbsp;a&amp;nbsp;vo&amp;nbsp;&lt;A href="d43ef71f-edb1-44f7-b1a2-c0cf18067ee9"&gt;formulári Ubytovanie&lt;/A&gt;,&amp;nbsp;záložka &lt;EM&gt;Hotelové účty&lt;/EM&gt;, tlačidlo &lt;EM&gt;Nový, Nový, Možnosti - &lt;STRONG&gt;Automaticky vytvoriť položky hotelového účtu (F9)&lt;/STRONG&gt;&lt;/EM&gt;. Táto funkcia&amp;nbsp;na základe nastavených cenových hladín v&amp;nbsp;&lt;A href="79646e11-b21e-473c-a78b-7e0fb8b55c14"&gt;cenotvorbe ubytovania&lt;/A&gt;, nastavených sadzieb miestnej dane za ubytovanie,&amp;nbsp;počtu osôb, počtu dní ubytovania a objednaných služieb vytvorí položky cenovej kalkulácie: &lt;EM&gt;Ubytovanie, Miestna daň za ubytovanie&lt;/EM&gt; a&amp;nbsp;&lt;EM&gt;Služby&lt;/EM&gt;&amp;nbsp;(len základné služby). Podporovaná je aj skladová karta&amp;nbsp;&lt;A href="8deac9fe-9864-41e8-aaa3-02257c241d78"&gt;typu sada&lt;/A&gt;, keď po zadaní kódu skladovej položky sa do kalkulácie automaticky vložia všetky položky sady. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Nastavenia výpočtu ceny za ubytovanie&lt;/H2&gt;
+&lt;P&gt;V&amp;nbsp;ponuke&amp;nbsp;&lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="f0386fce-aa67-4fa4-a611-234d30fa9f82"&gt;oddiel Firma, Hotelová recepcia&lt;/A&gt;&amp;nbsp;je možné nastaviť spôsob výpočtu ceny za ubytovanie:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;použiť cenu platnú v deň príchodu&lt;/STRONG&gt; - cena pobytu&amp;nbsp;sa vypočíta podľa ceny, ktorá je platná v prvý deň pobytu, t. j. cena za ubytovanie sa určí podľa ceny platnej v&amp;nbsp;prvý deň ubytovania. 
+&lt;LI&gt;&lt;STRONG&gt;použiť cenu platnú pre každý deň (položky/cenové hladiny uvádzať osobitne)&lt;/STRONG&gt; - pri výpočte sa prihliada aj na to, že počas pobytu sa&amp;nbsp;môže zmeniť&amp;nbsp;cena (napr. zmena sezóny na mimosezónu). V&amp;nbsp;takomto prípade sa pre každý deň cena vypočítava samostatne -&amp;nbsp;do cenovej kalkulácie sa uvedie toľko&amp;nbsp;riadkov (položiek), koľko cenových hladín platí počas pobytu. 
+&lt;LI&gt;&lt;STRONG&gt;použiť cenu platnú pre každý deň (položky zlúčiť a uviesť priemernú cenu)&lt;/STRONG&gt; - pri výpočte sa prihliada aj na to, že počas pobytu sa&amp;nbsp;môže zmeniť&amp;nbsp;cena (napr. zmena sezóny na mimosezónu). V&amp;nbsp;takomto prípade sa pre každý deň cena vypočítava samostatne -&amp;nbsp;do cenovej kalkulácie sa uvedie vždy len jedna položka, kde bude uvedená priemerná cena, t. j. súčet cien za každú noc deleno počet nocí. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Príklad výpočtu ceny za ubytovanie&lt;/H2&gt;
+&lt;P&gt;Biznis hotel má vytvorené dve cenové hladiny. Prvá cenová hladina určuje cenu od pondelka do piatka, druhá cenová hladina určuje cenu cez víkend (od piatka do nedele).&lt;/P&gt;
+&lt;P&gt;Pobyt (2 osoby) - od&amp;nbsp;štvrtka do nedele&amp;nbsp;(3 noci)&lt;/P&gt;
+&lt;P&gt;Cena od pondelka do piatka (ceztýždňová cena)&amp;nbsp;= 50&amp;nbsp;€&lt;/P&gt;
+&lt;P&gt;Cena od piatka do nedele (víkendová cena)&amp;nbsp;= 40&amp;nbsp;€&lt;/P&gt;
+&lt;P&gt;Daň za ubytovanie&amp;nbsp;= 1&amp;nbsp;€&lt;/P&gt;
+&lt;H3&gt;Príklad č. 1 - Výpočet ceny podľa dňa príchodu&lt;/H3&gt;
+&lt;P&gt;Hosť sa ubytuje vo štvrtok&amp;nbsp;(deň príchodu), keď platí ceztýždňová cena 50&amp;nbsp;€. Podľa tejto ceny&amp;nbsp;sa vypočíta cena aj za ďalšie dni&amp;nbsp;pobytu hosťa.&lt;/P&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Hotel/Hotel_CalculationPrices_1.png"&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;H3&gt;Príklad č.&amp;nbsp;2 - Položky sú uvádzané osobitne&lt;/H3&gt;
+&lt;P&gt;Cena za ubytovanie&amp;nbsp;sa uvádza osobitne za každý deň. Vo štvrtok je platná cena 50&amp;nbsp;€, v piatok a v sobotu platí cena 40&amp;nbsp;€.&lt;/P&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Hotel/Hotel_CalculationPrices_2.png"&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;H3&gt;Príklad č. 3 - Priemerná cena&lt;/H3&gt;
+&lt;P&gt;Cena za ubytovanie sa vypočíta takto: 50+40+40=130 deleno počet nocí.&lt;/P&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Hotel/Hotel_CalculationPrices_3.png"&gt;&lt;/P&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Úhradu za ubytovanie možno v&amp;nbsp;systéme OBERON zaevidovať viacerými spôsobmi, bližšie informácie&amp;nbsp;získate&amp;nbsp;v&amp;nbsp;téme&amp;nbsp;&lt;A href="2058071a-7c05-453f-976f-5b4cb142498d" style="auto-update-caption: true"&gt;Spôsoby zaevidovania úhrady za ubytovanie&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="97f53f94-8054-4b40-b9d9-b6a52c762e77" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="79646e11-b21e-473c-a78b-7e0fb8b55c14">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="6340baaf-ad1d-441d-a444-ee05dff2fb1e" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="bb24750f-46d1-4514-9afb-402259b02ecc">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="6b8d2db3-069e-43f4-9333-6db71844e609" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="2414619b-e1e1-4bc2-b745-c8d08f3f2549">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="b22d2ed3-8ce0-4111-ac14-aab0c3e64b60" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="d5286006-62ed-43bc-93a2-5f4ec69fce0b">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="7ab9295c-9882-4a9a-9d43-f96144220e6b" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="75c3faa8-8de5-4868-b98c-687ae53d87ae">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="181402e2-379c-40a3-b279-e32c6f62a8e0" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="2058071a-7c05-453f-976f-5b4cb142498d">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="74666a37-a308-4493-bed1-7cc8f4f2fa73">
+      <Keyword m="2022-06-21T12:24:06.9535478Z">Ubytovanie - výpočet ceny</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="0a1ff81e-e9ff-4196-8db4-e9778f7f59d4">
+      <Keyword m="2022-06-21T12:23:53.471838Z">Cena za ubytovanie - výpočet</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="a9149948-ae19-4f71-9159-19bd75ece285">
+      <Keyword m="2022-06-21T12:23:42.6241646Z">Automaticky vytvoriť položky kalkulácie ceny (F9)</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="9029a568-b847-466d-aed1-a1b288d18162">
+      <Keyword m="2022-06-21T12:24:26.3402234Z">Automaticky vytvoriť položky hotelového účtu (F9)</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

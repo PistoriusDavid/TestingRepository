@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="0fb6c9c4-9b89-43f6-af59-f9418f6871dd" Status="Complete" CreatedOn="2017-12-01T10:57:43.6036347Z" ModifiedOn="2023-04-19T09:46:53.4117032Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="CRM_Servis_Started_Pay" BuildFlags="">
+  <Title m="2017-12-01T11:00:31.5854824Z">Vyúčtovanie reklamácie/servisu</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-04-19T09:39:24.3890752Z">&lt;P&gt;V tejto téme&amp;nbsp;&lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;sú popísané &lt;STRONG&gt;spôsoby&amp;nbsp;vyúčtovania reklamácie/servisu&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;V systéme OBERON je možné reklamáciu/servis vyúčtovať dvoma spôsobmi: 
+&lt;OL&gt;
+&lt;LI&gt;&lt;STRONG&gt;vystavením pokladničného dokladu&lt;/STRONG&gt;&amp;nbsp;na&amp;nbsp;&lt;A href="a6f5e32d-6f1e-40bb-9d15-3f784a183252"&gt;Pokladnici OBERON&lt;/A&gt;, 
+&lt;LI&gt;&lt;STRONG&gt;vystavením faktúry&lt;/STRONG&gt; v&amp;nbsp;&lt;A href="5c21adcc-87c8-44e7-981d-02902635693d"&gt;Knihe pohľadávok&lt;/A&gt;. &lt;/LI&gt;&lt;/OL&gt;
+&lt;LI&gt;V prípade, že sa&amp;nbsp;vystavená faktúra bude&amp;nbsp;uhrádzať v hotovosti, je potrebné jej úhradu zaevidovať&amp;nbsp;na&amp;nbsp;&lt;A href="aec074f4-3e1c-4a1e-8a80-06fcecf51156"&gt;Pokladnici OBERON&lt;/A&gt;. Bližšie informácie získate v téme&amp;nbsp;&lt;A href="0312f424-bcb0-4d34-aad4-64a1f63eca85" style="auto-update-caption: true"&gt;Úhrada faktúry v hotovosti&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;V prípade, že zákazník za reklamáciu/servis neplatí (napr. pri záručnej oprave), &lt;STRONG&gt;nie je potrebné vystavovať pokladničný doklad, resp. faktúru&lt;/STRONG&gt;. Vybaviť reklamáciu je možné odovzdaním opraveného výrobku, výmenou výrobku, vrátením kúpnej ceny výrobku, vyplatením primeranej zľavy z ceny výrobku, písomnou výzvou na prevzatie plnenia alebo jej odôvodneným zamietnutím (tlačový výstup&amp;nbsp;&lt;EM&gt;Odovzdávací protokol)&lt;/EM&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Vyúčtovanie&amp;nbsp;v &lt;EM&gt;Pokladnici OBERON&lt;/EM&gt;&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;V ponuke &lt;EM&gt;Sklad&lt;/EM&gt; zvoľte položku&amp;nbsp;&lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnica OBERON&lt;/A&gt;. 
+&lt;LI&gt;Otvorí sa pokladnica, v oddiele&amp;nbsp;&lt;EM&gt;Základné&amp;nbsp;&lt;IMG style="HEIGHT: 30px; WIDTH: 30px" border=0 alt="" src="images/CashRegister/CashRegister_Button_Basic.png" width=44 height=50&gt;&lt;/EM&gt;&amp;nbsp;stlačte tlačidlo &lt;EM&gt;Reklamácie a servis&lt;/EM&gt;. Pokiaľ sa&amp;nbsp;v&amp;nbsp;ňom&amp;nbsp;uvedené tlačidlo nenachádza, v oddiele &lt;EM&gt;Systém&amp;nbsp;&lt;IMG style="HEIGHT: 30px; WIDTH: 28px" border=0 alt="" src="images/CashRegister/CashRegister_Button_System.png" width=44 height=49&gt;&amp;nbsp;&lt;/EM&gt;stlačte tlačidlo &lt;EM&gt;Systém&lt;/EM&gt;. Otvorí sa formulár, v&amp;nbsp;záložke &lt;EM&gt;Nastavenia&lt;/EM&gt; stlačte tlačidlo &lt;EM&gt;Nastaviť&lt;/EM&gt;. V záložke &lt;EM&gt;Vrchný panel,&amp;nbsp;&lt;/EM&gt;sekcia &lt;EM&gt;Základné&lt;/EM&gt;&amp;nbsp;stlačte tlačidlo &lt;EM&gt;Definovať&lt;/EM&gt;.&amp;nbsp;Vyhľadajte tlačidlo &lt;EM&gt;Reklamácie a servis&lt;/EM&gt; a nastavte zobrazovanie na &lt;EM&gt;&lt;STRONG&gt;Zobraziť v paneli&lt;/STRONG&gt;&lt;/EM&gt;. Po uložení sa bude tlačidlo &lt;EM&gt;Reklamácie a servis&lt;/EM&gt; zobrazovať v&amp;nbsp;&lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnici OBERON&lt;/A&gt; v&amp;nbsp;záložke&amp;nbsp;&lt;EM&gt;Základné&lt;/EM&gt;.&amp;nbsp; 
+&lt;LI&gt;Po stlačení tlačidla &lt;EM&gt;Reklamácie a servis&lt;/EM&gt; sa otvorí&amp;nbsp;&lt;A href="945b74ea-31f8-44e7-baef-ffb5fc136b05"&gt;Evidencia reklamácií a servisu&lt;/A&gt;. 
+&lt;LI&gt;Vyberte reklamáciu/servis, ktorý chcete vyúčtovať, a stlačte tlačidlo &lt;EM&gt;&lt;STRONG&gt;OK&lt;/STRONG&gt;&lt;/EM&gt;. 
+&lt;LI&gt;Položky reklamácie/servisu sa pridajú na účet. 
+&lt;LI&gt;Stlačte tlačidlo &lt;EM&gt;Tlač dokladu&lt;/EM&gt;.&amp;nbsp;Vyberte spôsob úhrady a stlačte tlačidlo &lt;EM&gt;Tlač&lt;/EM&gt;. 
+&lt;LI&gt;Pokladničný doklad sa zaeviduje&amp;nbsp;(vytlačí). &lt;/LI&gt;&lt;/OL&gt;
+&lt;H2&gt;Vyfakturovanie reklamácie/servisu&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;V ponuke &lt;EM&gt;Fakturácia&lt;/EM&gt; zvoľte položku&amp;nbsp;&lt;A href="5c21adcc-87c8-44e7-981d-02902635693d"&gt;Kniha pohľadávok&lt;/A&gt;. 
+&lt;LI&gt;V&amp;nbsp;otvorenej evidencii stlačte tlačidlo &lt;I&gt;Nový&lt;/I&gt;, zobrazí sa sprievodca &lt;I&gt;Nový doklad&lt;/I&gt;. 
+&lt;LI&gt;Zvoľte spôsob vytvorenia novej pohľadávky - &lt;EM&gt;Iný spôsob vytvorenia dokladu - Evidencia reklamácií a servisu&lt;/EM&gt;. Stlačte tlačidlo &lt;EM&gt;Ďalej&lt;/EM&gt;. 
+&lt;LI&gt;Zadajte číslo, prípadne vyberte záznam z&amp;nbsp;&lt;A href="945b74ea-31f8-44e7-baef-ffb5fc136b05"&gt;Evidencie reklamácií a servisu&lt;/A&gt;, z ktorého&amp;nbsp;sa naimportujú údaje do novej pohľadávky. Stlačte tlačidlo &lt;EM&gt;Ďalej&lt;/EM&gt;. 
+&lt;LI&gt;Zadajte, prípadne upravte základné údaje novej pohľadávky. 
+&lt;LI&gt;Zadajte, prípadne vyberte obchodného partnera. Stlačte tlačidlo &lt;EM&gt;Dokončiť&lt;/EM&gt;. 
+&lt;LI&gt;Otvorí sa&amp;nbsp;&lt;A href="68022ee5-d91a-4a1d-960b-c5de57414b6f"&gt;formulár Pohľadávka&lt;/A&gt; s načítanými položkami dokladu. Zvoľte formu úhrady faktúry. Ak bude faktúra uhradená v hotovosti, je potrebné jej úhradu zaevidovať&amp;nbsp;na&amp;nbsp;&lt;A href="aec074f4-3e1c-4a1e-8a80-06fcecf51156"&gt;Pokladnici OBERON&lt;/A&gt;&amp;nbsp;- viac v&amp;nbsp;téme&amp;nbsp;&lt;A href="0312f424-bcb0-4d34-aad4-64a1f63eca85" style="auto-update-caption: true"&gt;Úhrada faktúry v hotovosti&lt;/A&gt;. 
+&lt;LI&gt;Stlačením tlačidla &lt;EM&gt;OK&lt;/EM&gt; sa faktúra uloží. &lt;/LI&gt;&lt;/OL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="bef4c149-f655-46bb-9d01-c2d9d09d08f0" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="945b74ea-31f8-44e7-baef-ffb5fc136b05">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="c3f4350f-132c-4903-9ef5-2950323e9b63" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="8d7d2b7c-6f1d-463c-8365-c8d914ca7aaa">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="e410f841-8fd4-481a-9cc0-2adf2c7b767c" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="b5283cc5-8203-4a5c-86c0-f099c7d55c81" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="69bbd499-45c0-4b0f-8f7a-c53fa5d70c1b">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="647634ed-7402-452b-87f2-020053c20e3c" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="0312f424-bcb0-4d34-aad4-64a1f63eca85">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="d6d8e296-e05d-4e19-bb26-a4cee1af321d" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="5c21adcc-87c8-44e7-981d-02902635693d">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="b303836a-5cdd-4152-8c77-3462f973261c">
+      <Keyword m="2017-12-01T11:09:43.1331768Z">Úhrada za servis (opravu)</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="47c49c42-884a-40ed-ab92-19e259a7618c">
+      <Keyword m="2023-04-19T09:46:39.1437577Z">Servis a opravy - vyúčtovanie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="ea6d3d8d-606f-4f71-bd27-d1eae2c71ae1">
+      <Keyword m="2023-04-19T09:46:33.2704966Z">Opravy a servisy - vyúčtovanie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="7f5a7d3b-9a7e-4cb2-bb00-05861e1b4a78">
+      <Keyword m="2023-04-19T09:46:52.760883Z">Reklamácia - vyúčtovanie</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="e133c0e5-e693-4162-a5ea-e67edf2f2f42" Status="Complete" CreatedOn="2015-04-16T07:00:54.6279296Z" ModifiedOn="2023-10-30T07:13:50.1835073Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="40600" Name="Form_Invoices_Assign_NonStockCard" BuildFlags="">
+  <Title m="2022-02-15T11:48:30.2496732Z">Formulár Priradiť položku dokladu ku skladovej karte</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2022-02-15T12:12:57.5394644Z">&lt;P&gt;Formulár&amp;nbsp;&lt;EM&gt;Priradiť položku dokladu ku skladovej karte&lt;/EM&gt; umožňuje &lt;STRONG&gt;priradiť neskladovú položku k už existujúcej skladovej karte alebo vytvoriť novú skladovú kartu podľa neskladovej položky&lt;/STRONG&gt;. Neskladové položky dokladu vznikajú pri&amp;nbsp;&lt;A href="56f661c6-24da-46aa-b157-5d988cbe792b"&gt;XML komunikácii&lt;/A&gt; - po naimportovaní dokladov niektoré položky dokladu môžu byť&amp;nbsp;zvýraznené &lt;SPAN style="COLOR: rgb(255,0,0)"&gt;červenou farbou&lt;/SPAN&gt;, čo je&amp;nbsp;príznak pre neskladové položky, teda položky, ktoré&amp;nbsp;nie sú priradené k&amp;nbsp;žiadnej skladovej karte. Formulár je dostupný z nasledujúcich dokladových formulárov&amp;nbsp;programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;:&amp;nbsp;&lt;A href="a7aeeeec-b6b6-45c5-b3d0-fe4f13937945"&gt;záväzok&lt;/A&gt;,&amp;nbsp;&lt;A href="6712889d-bea7-4ae7-859d-82b809c7bdcc"&gt;objednávka prijatá&lt;/A&gt;,&amp;nbsp;&lt;A href="062891b1-9360-4c09-9c7b-9474a28e7849"&gt;príjemka&lt;/A&gt;,&amp;nbsp;&lt;A href="e5d60ce3-8ad2-43f2-b60d-08c773376f5b"&gt;výdajka&lt;/A&gt;. Funkcia je dostupná&amp;nbsp;&lt;STRONG&gt;len pre neskladové položky&lt;/STRONG&gt;, a to prostredníctvom tlačidla &lt;EM&gt;Možnosti,&amp;nbsp;&lt;/EM&gt;prípadne v kontextovej ponuke tabuľky záznamov.&lt;/P&gt;
+&lt;H2&gt;Popis formulára &lt;EM&gt;Priradiť položku dokladu ku skladovej karte&lt;/EM&gt;&lt;/H2&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Nalistovať&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Stlačením tlačidla sa otvorí zoznam skladových kariet na priradenie neskladovej položky dokladu k&amp;nbsp;už existujúcej skladovej karte.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Vytvoriť novú&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Umožňuje&amp;nbsp;k&amp;nbsp;neskladovej položke vytvoriť novú skladovú kartu. Stlačením tlačidla sa otvorí&amp;nbsp;&lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;formulár Skladová karta&lt;/A&gt;, v ktorom je potrebné nastaviť všetky náležitosti skladovej karty.&lt;/innovasys:widgetproperty&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Vyhľadať podobné&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Stlačením tlačidla sa zobrazí zoznam podobných skladových kariet, ktoré majú podobné číslo skladovej karty alebo podobný názov.&lt;/innovasys:widgetproperty&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;/innovasys:widgetproperty&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="8093affe-7fa1-49a8-aeb1-554f977cbdbc" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="277559d2-a8ba-4399-b39d-58b8b28b01ff">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="fac16893-b5d3-4ed7-9100-d1213af14e27" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="56f661c6-24da-46aa-b157-5d988cbe792b">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="f1a8e246-2b17-4942-90f9-13b7308fa239" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="c4bb279e-a2ba-4690-83b9-efb2e11cc077">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="8bbe1385-67df-462a-a9ed-6d6f0281b9cf">
+      <Keyword m="2021-04-06T11:57:53.0059559Z">Neskladová položka - priradenie ku skladovej karte</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="c380bcee-e6a2-456e-9eaf-ce6e829df455">
+      <Keyword m="2015-04-16T08:53:11.9257812Z">Priradiť položku dokladu ku skladovej karte </Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="23688209-fe79-4fd1-8e75-71f8a09b037a">
+      <Keyword m="2022-02-15T12:14:22.2346762Z">XML import - priradenie neskladovej položky ku skladovej karte</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="8d7d2b7c-6f1d-463c-8365-c8d914ca7aaa" Status="Complete" CreatedOn="2017-11-13T13:33:55.5983164Z" ModifiedOn="2023-05-18T11:03:34.8242152Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="CRM_Servis_Started_Creating" BuildFlags="">
+  <Title m="2017-11-13T13:34:45.848157Z">Vytvorenie reklamácie/servisu</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-05-18T10:54:56.6735996Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;postup vytvorenia reklamácie alebo servisu&lt;/STRONG&gt; v&amp;nbsp;knihe &lt;A href="945b74ea-31f8-44e7-baef-ffb5fc136b05" style="auto-update-caption: true"&gt;Evidencia reklamácií a servisu&lt;/A&gt;&amp;nbsp;modulu&amp;nbsp;&lt;A href="f1a6963d-36aa-4134-92a5-fa47a4345e74"&gt;CRM a registratúra&lt;/A&gt;.&lt;/P&gt;
+&lt;H2&gt;Postup vytvorenia reklamácie/servisu&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;V ponuke &lt;EM&gt;CRM&lt;/EM&gt; zvoľte položku&amp;nbsp;&lt;A href="945b74ea-31f8-44e7-baef-ffb5fc136b05" style="auto-update-caption: true"&gt;Evidencia reklamácií a servisu&lt;/A&gt;. 
+&lt;LI&gt;V&amp;nbsp;otvorenej evidencii stlačte tlačidlo &lt;I&gt;Nový&lt;/I&gt;, zobrazí sa sprievodca &lt;I&gt;Nová reklamácia/servis&lt;/I&gt;. 
+&lt;LI&gt;Pred zaevidovaním nového záznamu je možné zadať výrobné číslo tovaru. Podľa neho sa v evidencii vyhľadajú všetky doklady (faktúry, príjemky, výdajky, iné reklamácie, evidencia výrobných čísiel a pod.), v ktorých bolo výrobné číslo použité. Ak nemá reklamovaný tovar výrobné číslo, pokračujte ďalej&amp;nbsp;bez jeho zadania. 
+&lt;LI&gt;Zvoľte&amp;nbsp;&lt;A href="52bcc711-881c-4cf6-bc24-47080bba3264"&gt;typ záznamu&lt;/A&gt; a kategóriu zákazníka (obchodný partner evidovaný v evidencii&amp;nbsp;&lt;A href="b7a48886-b367-4056-808a-59ba5f871f32"&gt;obchodných partnerov&lt;/A&gt; alebo fyzická osoba). 
+&lt;LI&gt;V ďalšom kroku v&amp;nbsp;závislosti od predchádzajúceho nastavenia zadajte údaje o obchodnom partnerovi alebo&amp;nbsp;zákazníkovi. 
+&lt;LI&gt;Pri reklamácii a&amp;nbsp;záručnom servise zadajte údaje k záruke: 
+&lt;UL&gt;
+&lt;LI&gt;dátum dokladu nákupu, 
+&lt;LI&gt;typ dokladu nákupu, 
+&lt;LI&gt;číslo dokladu nákupu, 
+&lt;LI&gt;dĺžku záručnej doby, 
+&lt;LI&gt;počet dní v predchádzajúcom servise. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Zadajte&amp;nbsp;všeobecný popis reklamácie/servisu a predpokladaný počet dní vybavenia. Stlačte tlačidlo &lt;EM&gt;Dokončiť&lt;/EM&gt;. 
+&lt;LI&gt;Otvorí sa&amp;nbsp;&lt;A href="802c5a4f-4c78-4ff0-9f58-dbec5cce6c16"&gt;formulár Reklamácia/servis&lt;/A&gt;.&amp;nbsp;V záložke &lt;EM&gt;Položky&lt;/EM&gt; zadajte tovar alebo službu určené na reklamáciu alebo servis. Skladové položky (varianty) môžete načítať použitím&amp;nbsp;&lt;A href="80a78093-fc45-4db9-b74b-e1f9829f7b3c"&gt;snímača čiarových kódov&lt;/A&gt;. 
+&lt;LI&gt;V záložke &lt;EM&gt;Popis chyby a podmienky&lt;/EM&gt; uveďte&amp;nbsp;podrobný popis&amp;nbsp;chýb a podmienky reklamácie/servisu. Texty je možné buď zapísať&amp;nbsp;priamo, alebo pomocou tlačidla &lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_ListButton.png"&gt;&amp;nbsp;vybrať vopred preddefinované texty. 
+&lt;LI&gt;V záložke&amp;nbsp;&lt;EM&gt;Stavy&lt;/EM&gt; je možné evidovať stavy reklamácie/servisu podľa priebežného stavu vybavenia (&lt;EM&gt;Zaevidovanie, Prijatie, Presun do interného servisu, Prijatie&amp;nbsp;z interného servisu&lt;/EM&gt; atď.). 
+&lt;LI&gt;V záložke &lt;EM&gt;Vybavenie&lt;/EM&gt; sa zadávajú informácie ohľadom vybavenia reklamácie/servisu - dátum a čas opravy, oznámenia a&amp;nbsp;ukončenia, spôsob vybavenia (&lt;EM&gt;Oprava, Výmena, Dobropis...&lt;/EM&gt;) a ďalšie.&amp;nbsp;Zadať je možné aj popis opravy (vybavenia) - buď priamo alebo výberom z preddefinovaných textov&amp;nbsp;(tlačidlo &lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_ListButton.png"&gt;). 
+&lt;LI&gt;V záložke &lt;EM&gt;Vyúčtovanie&lt;/EM&gt;&amp;nbsp;možno k&amp;nbsp;danému záznamu evidovať položky&amp;nbsp;na vyúčtovanie, a to v členení podľa toho, či ich zákazník&amp;nbsp;uhrádza alebo nie (v&amp;nbsp;rámci záruky). Zadáva sa materiál a práca, ktoré boli použité pri reklamácii alebo servise. Pridať sa môže skladová karta (tovar) alebo neskladová položka (služba - doprava, práca a pod.). Vložením skladovej položky sa vytvorí&amp;nbsp;&lt;A href="fc7595a6-54ce-4aa9-acb4-93d7880e854e"&gt;skladový pohyb&lt;/A&gt;. Následne je možné reklamáciu/servis vyúčtovať na&amp;nbsp;&lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnici OBERON&lt;/A&gt; alebo vyfakturovať. Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="0fb6c9c4-9b89-43f6-af59-f9418f6871dd" style="auto-update-caption: true"&gt;Vyúčtovanie reklamácie/servisu&lt;/A&gt;. 
+&lt;LI&gt;Zápis údajov potvrďte stlačením tlačidla &lt;I&gt;&lt;STRONG&gt;OK&lt;/STRONG&gt;&lt;/I&gt;. Do knihy&amp;nbsp;&lt;A href="945b74ea-31f8-44e7-baef-ffb5fc136b05" style="auto-update-caption: true"&gt;Evidencia reklamácií a servisu&lt;/A&gt; sa uloží nový záznam. &lt;/LI&gt;&lt;/OL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;V&amp;nbsp;sprievodcovi tvorbou novej reklamácie/servisu&amp;nbsp;je možné &lt;STRONG&gt;načítať údaje z dokladu&lt;/STRONG&gt; o zakúpenom tovare alebo službe (z&amp;nbsp;vydanej alebo prijatej faktúry, výdajky alebo&amp;nbsp;príjemky) na základe &lt;EM&gt;&lt;STRONG&gt;Čísla dokladu nákupu&lt;/STRONG&gt;.&lt;/EM&gt; Aby sa údaje načítali, je potrebné&amp;nbsp;v&amp;nbsp;sprievodcovi najskôr vybrať &lt;EM&gt;Typ dokladu nákupu&lt;/EM&gt; (&lt;EM&gt;Vydaná faktúra, Prijatá faktúra, Výdajka, Príjemka&lt;/EM&gt;). Po stlačení tlačidla &lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_ListButton.png"&gt;&amp;nbsp;pri poli &lt;EM&gt;Číslo dokladu nákupu&lt;/EM&gt; sa otvorí príslušná evidencia na výber daného dokladu. Po výbere dokladu sa z&amp;nbsp;neho do sprievodcu načítajú údaje (číslo, dátum dokladu nákupu atď.).&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="1e97d0d6-d978-4842-aaca-ae5d4a9b157b" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="945b74ea-31f8-44e7-baef-ffb5fc136b05">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="2bb7c39c-1e54-4782-9db3-7a02bcc695df" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="802c5a4f-4c78-4ff0-9f58-dbec5cce6c16">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="c3052fe5-a5d1-4497-9f26-f9549d4e667c" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="0fb6c9c4-9b89-43f6-af59-f9418f6871dd">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="832e9439-db57-4648-aaac-580e21089e3c" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="0a22d060-0b8a-4166-ba9b-8239f36863a0">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="f4fe848b-d7c7-4519-aa29-5796fbee24c8">
+      <Keyword m="2023-05-18T11:02:51.9913743Z">Reklamácia - vytvorenie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="818530d8-feba-49a7-93f6-0e9aa2d0d0de">
+      <Keyword m="2023-05-18T11:02:57.5369472Z">Servis - vytvorenie</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

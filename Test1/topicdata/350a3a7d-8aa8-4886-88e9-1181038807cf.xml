@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="350a3a7d-8aa8-4886-88e9-1181038807cf" Status="Complete" CreatedOn="2023-06-30T08:15:52.6376577Z" ModifiedOn="2024-05-31T12:31:40.8683569Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="93060" Name="OAC_Import_ExchangeRates" BuildFlags="">
+  <Title m="2021-08-30T09:41:11.6895869Z">Import kurzového lístka z ECB</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-05-31T12:31:40.8683569Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; je venovaná&amp;nbsp;jednej z&amp;nbsp;&lt;A href="9ce25bbd-35d1-4096-acd5-70007f5af5a6"&gt;automatických úloh&lt;/A&gt;&amp;nbsp;systému OBERON&amp;nbsp;-&amp;nbsp;&lt;STRONG&gt;importu kurzového lístka z ECB&lt;/STRONG&gt; (&lt;EM&gt;&lt;STRONG&gt;E&lt;/STRONG&gt;urópskej &lt;STRONG&gt;c&lt;/STRONG&gt;entrálnej &lt;STRONG&gt;b&lt;/STRONG&gt;anky&lt;/EM&gt;).&lt;/P&gt;&lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;V systéme OBERON&amp;nbsp;je táto&amp;nbsp;automatická úloha z dôvodu kompatibility stále&amp;nbsp;vykonávaná aj v&amp;nbsp;staršom programe &lt;EM&gt;OBERON Center&lt;/EM&gt;, avšak&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;&amp;nbsp;s obmedzenou platnosťou&lt;/SPAN&gt;.&amp;nbsp;Z&amp;nbsp;tohto dôvodu je potrebné automatickú úlohu konfigurovať v&amp;nbsp;programe&amp;nbsp;&lt;A href="09f3dae9-2fb7-490f-97dc-37f60885b398"&gt;OBERON Automation Center&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;EM&gt;Import kurzového lístka z ECB&lt;/EM&gt; predstavuje&amp;nbsp;&lt;A href="9ce25bbd-35d1-4096-acd5-70007f5af5a6"&gt;automatickú úlohu&lt;/A&gt;, ktorá v&amp;nbsp;systéme OBERON umožňuje&amp;nbsp;&lt;STRONG&gt;automaticky v&amp;nbsp;pravidelných intervaloch&amp;nbsp;(v prípade potreby aj manuálne) sťahovať&amp;nbsp;z internetu kurzové lístky&lt;/STRONG&gt;. Jednotlivé kurzy&amp;nbsp;sa sťahujú z &lt;I&gt;Európskej centrálnej banky&lt;/I&gt;. Manuálne&amp;nbsp;stiahnuť kurzový lístok je možné aj v&amp;nbsp;ponuke &lt;EM&gt;Firma&lt;/EM&gt;,&amp;nbsp;&lt;A href="8c1f1dd4-a841-4745-beed-49dd12964b0a"&gt;Kurzový lístok&lt;/A&gt;, tlačidlo &lt;EM&gt;Možnosti&lt;/EM&gt;. 
+&lt;LI&gt;Automatickú úlohu vykonáva program &lt;A href="09f3dae9-2fb7-490f-97dc-37f60885b398" style="auto-update-caption: true"&gt;OBERON Automation Center&lt;/A&gt;&amp;nbsp;(OAC). Aby bolo možné kurzové lístky automaticky sťahovať, je potrebné, aby bol počítač, na ktorom je spustený program&amp;nbsp;&lt;EM&gt;OAC&lt;/EM&gt;, pripojený k internetu. 
+&lt;LI&gt;V&amp;nbsp;prípade používania OBERON-u v&amp;nbsp;sieti s viacerými počítačmi, stačí kurzový lístok sťahovať len na jednom z nich (serveri). 
+&lt;LI&gt;Podľa § 24, ods. 2 zákona č. 431/2002 Z. z. o účtovníctve sa majetok a záväzky vyjadrené v cudzej mene prepočítajú na eurá referenčným výmenným kurzom určeným a vyhláseným &lt;EM&gt;Európskou centrálnou bankou&lt;/EM&gt; alebo &lt;EM&gt;Národnou bankou Slovenska&lt;/EM&gt; v&amp;nbsp;deň predchádzajúci dňu uskutočnenia účtovného prípadu alebo v iný deň, ak to ustanovuje osobitný predpis (napr. zákon o&amp;nbsp;bankách). Z uvedeného vyplýva, že kurz, ktorý zobrazuje NBS na svojich internetových stránkach, je kurz skutočne vydaný a platí až na nasledujúci deň. &lt;STRONG&gt;OBERON však&lt;/STRONG&gt; &lt;STRONG&gt;zapisuje do kurzového lístka kurz, ktorý sa má v&amp;nbsp;daný deň skutočne použiť - čiže z&amp;nbsp;predchádzajúceho dňa&lt;/STRONG&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Princíp fungovania&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Kurzový lístok, ktorý bol stiahnutý, &lt;STRONG&gt;sa zapisuje do tzv.&amp;nbsp;zdieľanej databázy&lt;/STRONG&gt; (&lt;EM&gt;\\OBERON\SHARE\shared_data.mdb&lt;/EM&gt;). Systém OBERON však nepracuje priamo s týmto kurzovým lístkom, ale ho kopíruje do databázy danej firmy. Do databázy danej firmy sa skopíruje pri jej otvorení. 
+&lt;LI&gt;V nastaveniach sťahovania kurzového lístka (&lt;A href="efd024a7-c559-4268-ac8b-ce6d71e4252e"&gt;formulár Nastavenie automatickej úlohy 'Import kurzového lístka'&lt;/A&gt;, záložka &lt;EM&gt;Databázy&lt;/EM&gt;)&amp;nbsp;je možné určiť, &lt;STRONG&gt;do ktorých firiem (databáz) sa má stiahnutý kurzový lístok&lt;/STRONG&gt; &lt;STRONG&gt;skopírovať&lt;/STRONG&gt; &lt;STRONG&gt;ihneď po stiahnutí&lt;/STRONG&gt;. Toto nastavenie je vhodné využiť vo firmách, ktorých údajová základňa je umiestnená na inom počítači v sieti, a ten nie je pripojený&amp;nbsp;k&amp;nbsp;internetu (prípadne&amp;nbsp;v ňom nie je OBERON nainštalovaný, napr. je to len tzv. súborový server). 
+&lt;LI&gt;&lt;STRONG&gt;Dátum sťahovania&lt;/STRONG&gt; sa automaticky určí, a to vždy od posledného úspešného sťahovania po aktuálny dátum v počítači. Ak sa kurzový lístok sťahuje na počítači prvýkrát, dátum začiatku sťahovania je určený na 1.1. aktuálneho roka. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Nastavenie sťahovania kurzového lístka v sieťovej prevádzke&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;Pred&amp;nbsp;nastavením automatickej úlohy v&amp;nbsp;systéme OBERON &lt;STRONG&gt;sa uistite, že je&amp;nbsp;na počítači, ktorý je neustále zapnutý (spravidla sieťovom databázovom serveri),&lt;/STRONG&gt;&amp;nbsp;správne nastavený&amp;nbsp;&lt;STRONG&gt;server&lt;/STRONG&gt;&amp;nbsp;&lt;A href="09f3dae9-2fb7-490f-97dc-37f60885b398"&gt;OBERON Automation Center&lt;/A&gt;. Postup nastavenia je dostupný v&amp;nbsp;téme&amp;nbsp;&lt;A href="fd64c37a-486b-4cdf-a370-297aaa8a8f73" style="auto-update-caption: true"&gt;Nastavenie servera OBERON Automation Center&lt;/A&gt;.&amp;nbsp;Správnosť nastavenia a&amp;nbsp;fungovania&amp;nbsp;servera OAC môžete skontrolovať v&amp;nbsp;programe&lt;STRONG&gt;&amp;nbsp;&lt;EM&gt;OBERON Automation Center&lt;/EM&gt; (klient)&lt;/STRONG&gt; (v&amp;nbsp;programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;, ponuka&amp;nbsp;&lt;EM&gt;OBERON&lt;/EM&gt;,&amp;nbsp;&lt;A href="69282df4-d4d6-462a-8cf2-68000e3e6f93"&gt;OBERON Automation Center (klient)&lt;/A&gt;). &lt;SPAN style="COLOR: rgb(255,0,0)"&gt;Pri&amp;nbsp;použití&lt;/SPAN&gt; &lt;EM style="COLOR: rgb(255,0,0)"&gt;OBERON Automation Center&lt;/EM&gt;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;&amp;nbsp;&lt;STRONG&gt;odporúčame&lt;/STRONG&gt;&lt;/SPAN&gt; &lt;STRONG style="COLOR: rgb(255,0,0)"&gt;používať databázu SQL&lt;/STRONG&gt;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;.&lt;/SPAN&gt; 
+&lt;LI&gt;Na &lt;STRONG&gt;klientskom počítači&lt;/STRONG&gt; spustite program &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt; a&amp;nbsp;v&amp;nbsp;ponuke &lt;EM&gt;OBERON,&amp;nbsp;&lt;/EM&gt;&lt;A href="e975459f-e882-49f2-adb9-79e68a07df0e"&gt;Otvorenie agendy (firmy)&lt;/A&gt; otvorte databázu účtovnej jednotky. 
+&lt;LI&gt;V&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="225638ed-22f6-4ac4-9085-6d77c64925db" style="auto-update-caption: true"&gt;Používatelia&lt;/A&gt; vytvorte&amp;nbsp;nového používateľa&amp;nbsp;typu &lt;I&gt;&lt;STRONG&gt;Systémový&lt;/STRONG&gt;&lt;/I&gt;. 
+&lt;LI&gt;V&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="9ce25bbd-35d1-4096-acd5-70007f5af5a6"&gt;Automatické úlohy&lt;/A&gt;&amp;nbsp;stlačte tlačidlo &lt;EM&gt;Nový&lt;/EM&gt;. Otvorí sa&amp;nbsp;formulár &lt;EM&gt;Automatická úloha&lt;/EM&gt;, v&amp;nbsp;ktorom vyberte typ úlohy&amp;nbsp;&lt;EM&gt;&lt;STRONG&gt;Import kurzového lístka z&amp;nbsp;ECB&lt;/STRONG&gt;&lt;/EM&gt; a zadajte názov úlohy. 
+&lt;LI&gt;Stlačením tlačidla&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_Button_Refresh.png"&gt;&amp;nbsp;pri rozbaľovacom zozname &lt;EM&gt;Vykonávať na serveri&lt;/EM&gt;&amp;nbsp;aktualizujte zoznam dostupných serverov a vyberte príslušný server OAC, na ktorom sa má úloha vykonávať. 
+&lt;LI&gt;Vyberte používateľa systému OBERON vytvoreného v&amp;nbsp;bode č.&amp;nbsp;3, pod ktorým sa má automatická&amp;nbsp;úloha vykonávať. 
+&lt;LI&gt;Stlačte tlačidlo &lt;EM&gt;Nastaviť&lt;/EM&gt;. Otvorí sa&amp;nbsp;&lt;A href="efd024a7-c559-4268-ac8b-ce6d71e4252e"&gt;formulár Nastavenia automatickej úlohy 'Import kurzového lístka'&lt;/A&gt;, v&amp;nbsp;ktorom: 
+&lt;UL&gt;
+&lt;LI&gt;v&amp;nbsp;záložke &lt;EM&gt;Základné&lt;/EM&gt;&amp;nbsp;zadajte kódy mien, ktoré sa majú zahrnúť do importu, napr. USD, CZK, PLN, HUF (jednotlivé kódy oddeľte čiarkou a&amp;nbsp;medzerou), 
+&lt;LI&gt;v&amp;nbsp;záložke &lt;EM&gt;Databázy&lt;/EM&gt; je možné nastaviť ďalšie firmy (databázy), do ktorých sa má stiahnutý kurzový lístok zapísať ihneď po stiahnutí.&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Nastavenia vykonané v jednotlivých záložkách potvrďte stlačením tlačidla &lt;STRONG&gt;&lt;EM&gt;OK&lt;/EM&gt;&lt;/STRONG&gt;. 
+&lt;LI&gt;Vo formulári &lt;EM&gt;Automatická úloha&lt;/EM&gt; v&amp;nbsp;záložke &lt;EM&gt;Čas spustenia&lt;/EM&gt; nastavte &lt;STRONG&gt;interval spustenia automatickej úlohy&lt;/STRONG&gt; (časový plán, podľa ktorého&amp;nbsp;sa má kurzový lístok sťahovať). 
+&lt;LI&gt;Vykonané nastavenia potvrďte stlačením tlačidla &lt;STRONG&gt;&lt;EM&gt;OK&lt;/EM&gt;&lt;/STRONG&gt;. &lt;/LI&gt;&lt;/OL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="67f222a5-c0b9-49d2-a910-c6bf398f3ff7" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="9ce25bbd-35d1-4096-acd5-70007f5af5a6">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="f514a3a4-f266-4aa6-8519-f00bf65a1be8" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="8c1f1dd4-a841-4745-beed-49dd12964b0a">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="bca6567b-974f-4798-a7ac-07333fae1258" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="09e378df-5c76-42f3-a245-b33dd0580648">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="c4a26200-6d61-490c-93f5-58fa5aa7f8da" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="efd024a7-c559-4268-ac8b-ce6d71e4252e">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="ed762ed6-e7a6-417b-8bc3-97e57d17ccc3" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="183ab557-cc49-4d23-8935-dfcc8379a1ec">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="254149b1-f1f9-4f75-88fb-630cc9194403" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="c674b4cf-fcde-4565-a245-852c1508b74f">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="3faed48a-94c7-4636-9785-469696205bac">
+      <Keyword m="2021-08-30T09:38:05.9286782Z">Devízy - import kurzového lístka z ECB</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="0e7084ac-eba1-48f6-b888-87e433309db9">
+      <Keyword m="2023-03-13T11:44:02.1415375Z">ECB - import kurzového lístka</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="05ed71c8-1d77-40d2-ac00-5e890f9fe471">
+      <Keyword />
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="37e92897-4889-4d8f-b6f8-9fdd72a153ee">
+      <Keyword m="2021-08-30T09:37:55.3201067Z">Kurzový lístok - import z ECB</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="8da72a39-51ce-4e9b-8110-96aabb01509b" Status="Complete" CreatedOn="2014-09-09T12:42:56.0128755Z" ModifiedOn="2023-05-29T07:54:26.5815711Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Stock_Advanced_Remove_Stock_Card" BuildFlags="">
+  <Title m="2014-09-09T12:43:30.18383Z">Odstránenie skladovej karty</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-05-29T07:47:03.4496922Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; je venovaná &lt;STRONG&gt;možnostiam&amp;nbsp;odstránenia, resp. deaktivovania&amp;nbsp;nepoužívaných skladových kariet&lt;/STRONG&gt; v&amp;nbsp;&lt;A href="78d20602-4b59-4b31-9f0a-a04a1d376ec5"&gt;skladovej evidencii&lt;/A&gt; systému OBERON.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;V prípade potreby systém OBERON umožňuje nepoužívané skladové karty odstrániť, resp. deaktivovať. Dôvodov na&amp;nbsp;zredukovanie počtu nepoužívaných skladových&amp;nbsp;kariet môže byť niekoľko - napr. prehľadnosť knihy&amp;nbsp;&lt;A href="1a33ab0b-2df7-4dc2-962b-8a3319c16831"&gt;Skladové karty&lt;/A&gt;, optimalizácia rýchlosti načítania a práce s knihou, zmenšenie veľkosti databázy atď. Hlavným dôvodom je&amp;nbsp;spravidla obmedzenie počtu skladových kariet &lt;A href="644b0685-defe-4ce5-b3cd-e731b5eff299"&gt;licenčnými podmienkami&lt;/A&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;Odstránenie skladovej karty&amp;nbsp;jednoduchým vymazaním&lt;/STRONG&gt; je možné &lt;STRONG&gt;iba v prípade, že k skladovej karte nie je vytvorený&lt;/STRONG&gt; &lt;A href="fc7595a6-54ce-4aa9-acb4-93d7880e854e"&gt;pohyb&lt;/A&gt; (príjem, výdaj).&amp;nbsp;To prakticky obmedzuje vymazanie skladovej karty len na krátky čas po jej vytvorení a znemožňuje vymazanie už používanej skladovej karty, ktorej evidovaný zostatok je 0, pričom&amp;nbsp;sa aktuálne&amp;nbsp;nepoužíva. Takéto obmedzenie existuje v&amp;nbsp;systéme OBERON z dôvodu evidovania údajov z&amp;nbsp;predchádzajúcich spracovávaných období. Vymazanie skladovej karty s&amp;nbsp;pohybmi by skreslilo údaje o stave skladu v období, ku ktorému boli pohyby na danej skladovej karte evidované. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Metódy&amp;nbsp;odstránenia alebo deaktivovania skladových kariet:&lt;/H2&gt;
+&lt;OL type=A&gt;
+&lt;LI&gt;&lt;B&gt;Nastaviť na skladovej karte parameter &lt;I&gt;Neaktívna skladová karta&lt;/I&gt;&lt;/B&gt;&lt;BR&gt;Každej skladovej karte v záložke &lt;I&gt;Základné&lt;/I&gt; je možné nastaviť parameter &lt;I&gt;Neaktívna skladová karta&lt;/I&gt;. S neaktívnou skladovou kartou nie je možné pracovať, nezobrazuje sa v zozname a program ju nezahŕňa medzi celkový počet skladových kariet, ktorý je obmedzený &lt;A href="644b0685-defe-4ce5-b3cd-e731b5eff299"&gt;licenciou&lt;/A&gt;. Skladová karta a&amp;nbsp;jej pohyby však budú stále zahrnuté v knihách a výstupoch, kde ešte mala nenulový stav. Neaktívne skladové karty&amp;nbsp;je možné zobraziť po začiarknutí políčka &lt;I&gt;Zobraziť aj neaktívne skladové karty&lt;/I&gt; vo &lt;I&gt;Vlastnostiach&lt;/I&gt; knihy &lt;EM&gt;Skladové karty&lt;/EM&gt; (&lt;A href="124da68e-c3f0-43e4-9466-60b4916bfc41"&gt;formulár Vlastnosti&lt;/A&gt;, záložka &lt;EM&gt;Skladové karty&lt;/EM&gt;). 
+&lt;P&gt;&lt;I&gt;Výhody a nevýhody:&lt;/I&gt;&lt;BR&gt;+ rýchlosť a jednoduchosť&lt;BR&gt;+ možnosť kedykoľvek spätne aktivovať kartu&lt;BR&gt;-&amp;nbsp; veľkosť databázy zostáva zachovaná&lt;/P&gt;
+&lt;LI&gt;&lt;B&gt;Vytvorenie nového skladu&lt;/B&gt;&lt;BR&gt;Riešenie spočíva vo vytvorení &lt;A href="1e423d36-8e0a-4420-b2e9-05f12806ec3a"&gt;nového skladu&lt;/A&gt; a &lt;A href="1a33ab0b-2df7-4dc2-962b-8a3319c16831"&gt;importovaní skladových kariet&lt;/A&gt; z pôvodného skladu so zostatkami alebo bez zostatkov. Po importovaní skladových kariet sú evidované pohyby (počiatočné stavy) len na kartách s nenulovým zostatkom. Ostatné karty je možné podľa potreby vymazať, premenovať, alebo inak upraviť. Následne je možné pôvodný sklad premenovať, nezobrazovať v zozname skladov alebo aj vymazať. V prípade ponechania pôvodného skladu je možné s oboma ďalej pracovať. V&amp;nbsp;prípade odstránenia pôvodného skladu je vhodné pred vymazaním zálohovať databázu, resp.&amp;nbsp;vytvoriť jej kópiu, v ktorej bude možné vykonať opravy v predchádzajúcich obdobiach. Zmenu skladu odporúčame vykonávať &lt;STRONG&gt;na prelome rokov&lt;/STRONG&gt;, prípadne po&amp;nbsp;&lt;A href="79f53c12-0f9d-46c1-b039-2a412e1671f0"&gt;inventúre skladu&lt;/A&gt;. 
+&lt;P&gt;&lt;I&gt;Výhody a nevýhody:&lt;/I&gt;&lt;BR&gt;+ zmenšenie veľkosti databázy v prípade, že pôvodný sklad bude vymazaný&lt;BR&gt;+ vyššia flexibilita z dôvodu možnosti odstrániť alebo neodstrániť pôvodný sklad spolu s možnosťou kedykoľvek vytvoriť nový sklad a importovať doň skladové karty&amp;nbsp;&lt;FONT color=white&gt;karty&lt;/FONT&gt;&lt;BR&gt;-&amp;nbsp; po importovaní skladových kariet do nového skladu sa celkový počet skladových kariet zvýši o počet kariet v novom sklade, čo môže spôsobiť prekročenie limitu obmedzeného aktivovanou licenciou;&amp;nbsp;v prípade, že je pôvodný sklad&amp;nbsp;označený príznakom &lt;A href="1e423d36-8e0a-4420-b2e9-05f12806ec3a"&gt;Nezobrazovať v zozname skladov&lt;/A&gt;, jeho skladové karty sa&amp;nbsp;nebudú započítavať do počtu kariet obmedzených licenciou&lt;BR&gt;-&amp;nbsp; umožňuje odstrániť len celý sklad (všetky skladové pohyby daného skladu) a nielen určitú časť skladu (len určité skladové karty alebo len&amp;nbsp;určité pohyby)&lt;/P&gt;&lt;/LI&gt;&lt;/OL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;UL&gt;
+&lt;LI&gt;V prípade, že firma používa &lt;STRONG&gt;súborovú databázu &lt;I&gt;Microsoft&amp;nbsp;Access&lt;/I&gt;&lt;/STRONG&gt; a databázu je potrebné zmenšiť, &lt;STRONG&gt;je vhodné využiť metódu B&lt;/STRONG&gt; - vytvorenie nového skladu. 
+&lt;LI&gt;V prípade, že firma používa &lt;STRONG&gt;databázu typu SQL&lt;/STRONG&gt; a zmenšenie veľkosti databázy nie je rozhodujúcim faktorom, &lt;STRONG&gt;odporúčame použiť&amp;nbsp;metódu A&lt;/STRONG&gt; - označiť kartu ako &lt;I&gt;Neaktívna skladová karta.&lt;/I&gt; &lt;/LI&gt;&lt;/UL&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Príklady použitia jednotlivých metód odstránenia skladových kariet&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;V prípade, že históriu skladových pohybov postačí ponechať v záložnej databáze alebo nie je nutné zmenšiť veľkosť databázy, je vhodné vytvoriť nový sklad a importovať doňho skladové karty. Pôvodný sklad je možné podľa potreby ponechať alebo vymazať.&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 
+&lt;LI&gt;Importovať skladové karty do novovytvoreného skladu (prípadne aj novovytvorenej databázy) je možné aj pri nekonzistentnosti pôvodného skladu spôsobenej napr. chybnými jednoznačnými identifikátormi (ID_Num) skladových kariet alebo dokladov, prípadne aj iných chybách databázy. 
+&lt;LI&gt;Jednotlivé metódy je možné aj kombinovať. &lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="99d1abd8-5d94-4ab2-9b71-edf89cde8e1b" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="277559d2-a8ba-4399-b39d-58b8b28b01ff">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="be1d8189-a757-4a73-8d33-0f68af0fbab6" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="6acbdde2-e6a9-43bc-8e10-4e1aa1ea1c3d">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="5286d74a-fb47-4af1-88e5-6004c999372f">
+      <Keyword m="2014-11-24T11:43:49.6034765Z">Vymazanie skladovej karty</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="2bfb07a6-e92e-449b-9b65-f7100fb7e635">
+      <Keyword m="2023-05-29T07:47:28.426296Z">Nezobrazovať v zozname skladov - odstránenie skladovej karty</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="c1486db3-a463-47bd-bab7-c7ed1efcaaf9">
+      <Keyword m="2023-05-29T07:47:34.9823267Z">Skladová karta - ako odstrániť</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="ed25edc3-5bdb-41ef-b9ba-586b5d30a40e">
+      <Keyword m="2023-05-29T07:47:47.8367291Z">Skladové karty - ako odstrániť</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

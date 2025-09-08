@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="14223592-268a-4a9d-a456-da9adeb1c46b" Status="Complete" CreatedOn="2014-09-01T14:00:38.439515Z" ModifiedOn="2024-07-30T11:03:43.5268179Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="HardwareSoftwareRequirements" BuildFlags="">
+  <Title m="2014-09-01T14:04:00.550075Z">Hardvérové a softvérové požiadavky</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-07-30T11:03:17.2825769Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; je venovaná &lt;STRONG&gt;tak&lt;/STRONG&gt; &lt;STRONG&gt;softvérovým a&amp;nbsp;hardvérovým požiadavkám na&amp;nbsp;prevádzkovanie&amp;nbsp;OBERON-u, ako aj jeho technickým parametrom&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;H2&gt;Softvérové požiadavky&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Podobne ako iné softvéry, aj systém OBERON vyžaduje určité hardvérové a softvérové predpoklady na inštaláciu a používanie. 
+&lt;LI&gt;Systém OBERON je určený pre 32- alebo 64-bitové prostredie systému &lt;EM&gt;Windows&lt;/EM&gt;. Možno&amp;nbsp;ho prevádzkovať na systémoch radu&amp;nbsp;&lt;EM&gt;Windows&amp;nbsp;10&lt;/EM&gt; a &lt;EM&gt;Windows 11&lt;/EM&gt;. &lt;SPAN style="COLOR: rgb(255,0,0)"&gt;Prevádzka na starších verziách systému&lt;/SPAN&gt; &lt;EM style="COLOR: rgb(255,0,0)"&gt;Windows&lt;/EM&gt; &lt;SPAN style="COLOR: rgb(255,0,0)"&gt;sa neodporúča (niektoré funkcie nemusia fungovať korektne, prípadne nebudú dostupné).&lt;/SPAN&gt; 
+&lt;LI&gt;V systéme OBERON&amp;nbsp;sa používa runtime (systémové knižnice) verzie &lt;STRONG&gt;Microsoft .NET Framework 4.8&lt;/STRONG&gt;, ktorá je od verzie &lt;EM&gt;Windows 10&lt;/EM&gt; (od verzie 1903, aktualizácia z 05/2019) súčasťou inštalácie systému &lt;EM&gt;Windows&lt;/EM&gt;. V&amp;nbsp;starších verziách &lt;EM&gt;Windows&lt;/EM&gt; je ju potrebné doinštalovať&lt;EM&gt;&amp;nbsp;&lt;/EM&gt;manuálne. Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="a6f770c7-e211-4e84-bb09-c493f6011181"&gt;Inštalácia .NET Framework 4.8&lt;/A&gt;. 
+&lt;LI&gt;Jazykovú verziu &lt;EM&gt;Windows&lt;/EM&gt; odporúčame &lt;STRONG&gt;slovenskú&lt;/STRONG&gt; (prípadne českú). V&amp;nbsp;iných jazykových mutáciách &lt;EM&gt;Windows&lt;/EM&gt; je možné pracovať, ale je nutné v &lt;EM&gt;Miestnych a&amp;nbsp;jazykových nastaveniach&lt;/EM&gt; (ponuka &lt;EM&gt;Štart, Nastavenia)&amp;nbsp;&lt;/EM&gt;nastaviť &lt;EM&gt;Krajinu&lt;/EM&gt;&amp;nbsp;na &lt;EM&gt;Slovensko&lt;/EM&gt;. 
+&lt;LI&gt;Pred prvotnou&amp;nbsp;inštaláciou systému OBERON v prípade použitia &lt;A href="0b81f4ea-5e68-48c1-8b89-933d5a23d962"&gt;databázového systému&lt;/A&gt;&amp;nbsp;&lt;STRONG&gt;SQL&lt;/STRONG&gt; je potrebné nainštalovať niektorý&amp;nbsp;z&amp;nbsp;podporovaných SQL serverov. 
+&lt;LI&gt;Systém OBERON sa dodáva aj vo forme tzv.&amp;nbsp;&lt;A href="7db416a1-c676-42fb-b8be-3815196303cd"&gt;&lt;STRONG&gt;portable variantu&lt;/STRONG&gt;&lt;/A&gt; (bezinštalačný variant) - ide o plnohodnotnú prenosnú verziu OBERON-u bez nutnosti inštalácie (stačí ho mať uložený napr. na prenosnom USB disku).&amp;nbsp;Je to&amp;nbsp;teda&amp;nbsp;systém s parametrami&amp;nbsp;ako pri bežnej inštalácii, avšak bez potreby inštalácie do systému &lt;EM&gt;Windows&lt;/EM&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;Hardvérový kľúč&lt;/STRONG&gt; (USB disk, kľúč) obsahujúci&amp;nbsp;&lt;A href="efb93a2c-e449-4770-88ba-0fe999e90ccd"&gt;multilicenciu&lt;/A&gt; odporúčame mať v systéme &lt;EM&gt;Windows&lt;/EM&gt; nastavený pod písmenom jednotky &lt;EM&gt;&lt;STRONG&gt;K&lt;/STRONG&gt;&lt;/EM&gt; (dôvodom je jeho rýchlejšia&amp;nbsp;detekcia). &lt;/LI&gt;&lt;/UL&gt;
+&lt;H4&gt;Postup nastavenia hardvérového kľúča na disk K:&lt;/H4&gt;
+&lt;P&gt;1. Kliknite na&amp;nbsp;ikonu &lt;EM&gt;Počítač&lt;/EM&gt; pravým tlačidlom myši a z miestnej ponuky vyberte &lt;EM&gt;Spravovať&lt;/EM&gt;.&lt;BR&gt;2. V okne &lt;EM&gt;Správa počítača&lt;/EM&gt; vyberte položku &lt;EM&gt;Správa diskov&lt;/EM&gt; (dole), pravým tlačidlom kliknite na USB HW kľúč a z miestnej ponuky vyberte &lt;EM&gt;Zmeniť písmeno jednotky a cesty...&lt;/EM&gt;&lt;BR&gt;3.&amp;nbsp;Stlačte tlačidlo &lt;EM&gt;Zmeniť&lt;/EM&gt; a v nasledujúcom formulári vyberte&amp;nbsp;písmeno &lt;EM&gt;K&lt;/EM&gt;.&amp;nbsp;Zmenu potvrďte tlačidlom &lt;EM&gt;&lt;STRONG&gt;OK&lt;/STRONG&gt;&lt;/EM&gt;.&lt;BR&gt;&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;IMG style="BORDER-TOP: black 1px solid; BORDER-RIGHT: grey 1px solid; BORDER-BOTTOM: grey 1px solid; BORDER-LEFT: grey 1px solid" border=0 src="images/BasicInformation/Installation/Installation_ChangeHW.png"&gt;&lt;/P&gt;&lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;EM&gt;Windows&lt;/EM&gt; sa všeobecne dodáva vo viacerých edíciách, pričom OBERON je možné prevádzkovať spravidla na ktorejkoľvek z nich. Výnimkou je edícia &lt;STRONG&gt;Home&lt;/STRONG&gt;, v&amp;nbsp;ktorej nie je možné využívať určité možnosti a funkcie OBERON-u, napr.&amp;nbsp;&lt;A href="58bb31ca-00c8-4641-ad99-7d58e24f59c5"&gt;webové služby&lt;/A&gt;. Z&amp;nbsp;tohto dôvodu odporúčame používať edíciu vyššiu ako &lt;STRONG&gt;Home&lt;/STRONG&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Špecifikácia servera v sieti&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Hoci server môže pracovať na rôznych operačných systémoch (&lt;EM&gt;Windows, Linux&lt;/EM&gt;),&amp;nbsp;&lt;STRONG&gt;odporúčame používať platformu &lt;EM&gt;Windows&lt;/EM&gt;&lt;/STRONG&gt;. Súčasťou systému OBERON&amp;nbsp;je aj program &lt;A href="09f3dae9-2fb7-490f-97dc-37f60885b398"&gt;OBERON Automation Center&lt;/A&gt;, ktorý je&amp;nbsp;určený&amp;nbsp;na vykonávanie&amp;nbsp;&lt;A href="9ce25bbd-35d1-4096-acd5-70007f5af5a6"&gt;automatických úloh&lt;/A&gt;&lt;STRONG&gt;&amp;nbsp;vykonávaných&amp;nbsp;na pozadí systému &lt;EM&gt;Windows&lt;/EM&gt; bez nutnosti zásahu používateľa&lt;/STRONG&gt; (zahŕňajú napr. automatické zasielanie notifikácií prostredníctvom generátora notifikácií, import kurzového lístka, automatické odosielanie e-mailov, import/export údajov z/do rezervačných portálov prostredníctvom manažéra rezervačných kanálov (&lt;EM&gt;Channel Manager&lt;/EM&gt;), ale aj webové služby, automatický export a import údajov&amp;nbsp;z/do externého internetového obchodu atď.). Ak by&amp;nbsp;server nebol na platforme &lt;EM&gt;Windows&lt;/EM&gt;, &lt;EM&gt;OBERON Automation Center&lt;/EM&gt; by mal byť&amp;nbsp;spustený na niektorej pracovnej stanici, pričom ak sa niektoré úlohy vykonávajú nepretržite, musela by byť táto pracovná stanica neustále spustená. 
+&lt;LI&gt;Ak sa na server použije operačný systém &lt;EM&gt;Windows&lt;/EM&gt;, je možné použiť aj &lt;STRONG&gt;bežnú desktopovú verziu&lt;/STRONG&gt; (s výnimkou edície &lt;EM&gt;Home&lt;/EM&gt;). Databázový SQL server pracuje bez problémov aj na bežnej pracovnej stanici (či už &lt;EM&gt;MariaDB,&amp;nbsp;MySQL Server&amp;nbsp;&lt;/EM&gt;alebo &lt;EM&gt;MS&amp;nbsp;SQL Server&lt;/EM&gt;). Ak sa bude server používať aj pre terminálový režim (&lt;EM&gt;Remote Desktop&lt;/EM&gt;) o počte viac ako jeden súčasne pracujúci používateľ, je nevyhnutný serverový operačný systém &lt;EM&gt;Microsoft Windows Server&lt;/EM&gt; (s potrebným počtom používateľských licencií). &lt;/LI&gt;&lt;/UL&gt;
+&lt;H3&gt;Hardvérové požiadavky&lt;/H3&gt;
+&lt;P&gt;Na prevádzkovanie systému OBERON je potrebný počítač, ktorý zaručuje spoľahlivý chod 32- alebo 64-bitového operačného systému &lt;EM&gt;Microsoft Windows&lt;/EM&gt;.&lt;/P&gt;
+&lt;H4&gt;Minimálne požiadavky na systém&lt;/H4&gt;
+&lt;UL&gt;
+&lt;LI&gt;OS Microsoft Windows 10, 11 
+&lt;LI&gt;CPU 1&amp;nbsp;GHz a vyšší 
+&lt;LI&gt;RAM&amp;nbsp;8&amp;nbsp;GB 
+&lt;LI&gt;500 MB voľného priestoru na pevnom disku&amp;nbsp;na úplnú inštaláciu 
+&lt;LI&gt;Monitor&amp;nbsp;s rozlíšením minimálne 1366x768 &lt;/LI&gt;&lt;/UL&gt;
+&lt;H4&gt;Odporúčané požiadavky na systém - pracovná stanica&lt;/H4&gt;
+&lt;UL&gt;
+&lt;LI&gt;OS Microsoft Windows 10, 11 
+&lt;LI&gt;CPU 2&amp;nbsp;GHz a vyšší 
+&lt;LI&gt;RAM&amp;nbsp;16&amp;nbsp;GB 
+&lt;LI&gt;2&amp;nbsp;GB voľného priestoru na pevnom disku&amp;nbsp;na úplnú inštaláciu a databázu 
+&lt;LI&gt;Monitor&amp;nbsp;24"&amp;nbsp;alebo väčší s rozlíšením minimálne 1920x1080 &lt;/LI&gt;&lt;/UL&gt;
+&lt;H4&gt;Odporúčané požiadavky na systém - server&lt;/H4&gt;
+&lt;UL&gt;
+&lt;LI&gt;OS Microsoft Windows 10, 11 (Windows Server 16 a vyšší) 
+&lt;LI&gt;CPU 2&amp;nbsp;GHz a vyšší 
+&lt;LI&gt;RAM&amp;nbsp;16&amp;nbsp;GB 
+&lt;LI&gt;10&amp;nbsp;GB voľného priestoru na pevnom disku&amp;nbsp;na úplnú inštaláciu a databázu 
+&lt;LI&gt;Kvalitná a rýchla počítačová sieť predovšetkým pri 3 a viac súčasne pripojených pracovných staniciach &lt;/LI&gt;&lt;/UL&gt;
+&lt;H4&gt;Ďalšie odporúčané požiadavky na systém&lt;/H4&gt;
+&lt;UL&gt;
+&lt;LI&gt;Pripojenie na internet 
+&lt;LI&gt;Laserová alebo atramentová tlačiareň, formát výstupných zostáv je&amp;nbsp;maximálne A4 
+&lt;LI&gt;V&amp;nbsp;sieťovej prevádzke sieť 100&amp;nbsp;Mbit ethernet alebo rýchlejší &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Technické parametre&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;počet spracovávaných firiem (databáz)&amp;nbsp;- neobmedzene 
+&lt;LI&gt;počet súčasne pracujúcich&amp;nbsp;používateľov (počítačov) v sieti - pre &lt;B&gt;Microsoft Access&lt;/B&gt; do 10, &lt;B&gt;SQL server&lt;/B&gt; neobmedzene 
+&lt;LI&gt;počet pripojených pokladníc v off-line režime - približne 25 
+&lt;LI&gt;počet pokladníc s fiškálnou tlačiarňou - približne 20 
+&lt;LI&gt;maximálna povolená veľkosť databázy jednej firmy - &lt;B&gt;Microsoft Access&lt;/B&gt; 1 GB, &lt;B&gt;SQL Server&lt;/B&gt; podľa možností servera 
+&lt;LI&gt;počet nastaviteľných hladín pre DPH - 3 základné&amp;nbsp;(vrátane nulovej) + hladiny DPH vybraných členských štátov EÚ v rámci osobitnej úpravy dane &lt;EM&gt;One Stop Shop (OSS)&lt;/EM&gt; 
+&lt;LI&gt;maximálny počet skladových kariet v&lt;SPAN lang=en&gt;&amp;nbsp;jednom sklade&lt;/SPAN&gt; - cca 50 000 
+&lt;LI&gt;počet spracovávaných miezd - 200/mesiac 
+&lt;LI&gt;modul &lt;EM&gt;Hotelová recepcia&lt;/EM&gt;: 
+&lt;UL&gt;
+&lt;LI&gt;celkový počet izieb - 250 
+&lt;LI&gt;počet osôb v histórii ubytovaných hostí - 100 000 
+&lt;LI&gt;počet záznamov v knihe ubytovaných - 100 000 
+&lt;LI&gt;počet dní zobrazenia v grafickom prehľade - podľa nastavení aj viac ako rok vopred &lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Ďalšie technické informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Spustiteľný súbor programu OBERON&amp;nbsp;sa nachádza v adresári \\OBERON\SHARE\SYSTEM, je to súbor &lt;B&gt;OBERON.EXE&lt;/B&gt;. Vo &lt;EM&gt;Windowse&lt;/EM&gt; ho možno spustiť&amp;nbsp;aj pomocou tlačidla &lt;I&gt;Štart&lt;/I&gt;, položka &lt;I&gt;Programy&lt;/I&gt;, &lt;I&gt;OBERON&lt;/I&gt; - program &lt;B&gt;OBERON&lt;/B&gt;. 
+&lt;LI&gt;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;Neodporúčame inštalovať systém OBERON do adresára&lt;/SPAN&gt; &lt;EM style="COLOR: rgb(255,0,0)"&gt;Program&amp;nbsp;Files&lt;/EM&gt;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;, keďže bežný&amp;nbsp;používateľ systému&lt;/SPAN&gt; &lt;EM style="COLOR: rgb(255,0,0)"&gt;Windows&lt;/EM&gt;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;&amp;nbsp;má na daný adresár obmedzené práva (len na čítanie)&lt;/SPAN&gt;.&amp;nbsp;Systém&amp;nbsp;OBERON v&amp;nbsp;tomto prípade nemôže zapisovať do konfiguračných súborov. &lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="633f4c7d-71b1-4d6a-a804-9845fe2a315c" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="19a10c98-2b1d-4fe1-8ab2-98921ab328be">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="0ab34ecc-d0e4-40f0-a716-9da09183c7e2" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="7db416a1-c676-42fb-b8be-3815196303cd">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="e2c78842-a6ee-4cd9-8af0-d1c4c19854a2" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="0b81f4ea-5e68-48c1-8b89-933d5a23d962">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="0fba04e6-4f98-4de0-95fd-a61755fa7b70" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="a6f770c7-e211-4e84-bb09-c493f6011181">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="b7173def-7061-415a-bc99-b298397fea33" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="90fb41ed-a267-4fe4-8a0c-d86f2d2d847b">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="5aae5dda-236c-4022-a80e-2439be32065b" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="260827a7-0d63-400a-a1ac-0b15b739d497">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="bc8d6067-ae3c-4924-ad56-73487cb33be3" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="a78acd01-c344-4900-bc2f-f0ad6d99818c">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="1f9732fb-653b-4302-a3f0-23144fe40244">
+      <Keyword m="2021-03-23T12:37:31.7996828Z">OBERON - technické parametre</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="6a768a9b-58ee-4590-8246-763fbf6b4c34">
+      <Keyword m="2015-11-03T10:32:38.5693359Z">Hardvérový kľúč - zmena cesty</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="f6d494ea-c28c-46e9-b773-2ab465e4d34e">
+      <Keyword m="2021-03-23T12:35:17.7359703Z">OBERON - hardvérové a softvérové požiadavky</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="234c6aa7-f0ad-4b09-90b1-8454f00b764e">
+      <Keyword m="2021-03-23T12:36:14.0594327Z">Hardvérový kľúč - nastavenie na disk K</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="5a6faa80-be83-49fc-9b10-8309382edf6c">
+      <Keyword m="2024-07-30T11:03:43.5258174Z">Disk K - hardvérový kľúč</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="322146dc-038a-428c-8cca-d62b2c6b4c69">
+      <Keyword m="2024-07-30T11:03:33.8166263Z">K disk - hardvérový kľúč</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

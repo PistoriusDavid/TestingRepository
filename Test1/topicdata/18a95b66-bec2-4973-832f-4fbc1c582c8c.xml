@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="18a95b66-bec2-4973-832f-4fbc1c582c8c" Status="Complete" CreatedOn="2014-09-09T10:47:49.699857Z" ModifiedOn="2023-04-14T06:00:36.0821991Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="AccSingle_Advanced_Older_Document_Cash_Journal" BuildFlags="">
+  <Title m="2021-08-24T07:21:19.1671428Z">Zápis staršieho dokladu do peňažného denníka</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-04-14T06:00:36.0821991Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;informácie, ako postupovať v prípade, že je potrebné zaúčtovať starší pokladničný doklad&lt;/STRONG&gt; do&amp;nbsp;&lt;A href="5e82cca9-b8af-4a80-ba30-7ab91914a595"&gt;peňažného denníka&lt;/A&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;V&amp;nbsp;odôvodnených prípadoch je možné do&amp;nbsp;&lt;A href="5e82cca9-b8af-4a80-ba30-7ab91914a595"&gt;peňažného denníka&lt;/A&gt; zaúčtovať aj starší pokladničný doklad. Vzhľadom na to, že sa pokladničné doklady priebežne číslujú, &lt;STRONG&gt;je potrebné zabezpečiť, aby bol tento doklad nielen správne zaradený, ale aby sa&amp;nbsp;doklady od dátumu tohto dokladu&amp;nbsp;aj prečíslovali&lt;/STRONG&gt;. Pri&amp;nbsp;zaúčtovaní staršieho&amp;nbsp;dokladu postupujte takto: 
+&lt;OL&gt;
+&lt;LI&gt;Zadajte do peňažného denníka pokladničný doklad so starším dátumom. Program mu automaticky priradí štandardné poradové číslo zápisu v peňažnom denníku (najväčšie použité číslo zvýšené o 1). Zároveň mu program priradí&amp;nbsp;číslo pokladničného dokladu tak, ako keby to bol posledný pokladničný doklad. Doklad uložte. 
+&lt;LI&gt;Nový pokladničný doklad sa zaradí na koniec peňažného denníka. Na prečíslovanie poradových čísel v&amp;nbsp;peňažnom denníku použite funkciu&amp;nbsp;&lt;A href="fbf31c4f-937e-4ff4-a88e-8ffab6ddecfd"&gt;Prečíslovanie poradových čísel&lt;/A&gt; (funkcia je dostupná v&amp;nbsp;&lt;EM&gt;Peňažnom denníku&lt;/EM&gt; po stlačení tlačidla &lt;I&gt;Možnosti&lt;/I&gt;). Po prečíslovaní&amp;nbsp;sa pokladničný doklad zaradí na správne miesto v&amp;nbsp;peňažnom denníku. 
+&lt;LI&gt;V poslednom kroku použite funkciu&amp;nbsp;&lt;A href="adc6cb3d-95b2-46fd-8d05-fd9cf02ad18c"&gt;Prečíslovanie pokladničných dokladov&lt;/A&gt; (funkcia je dostupná v&amp;nbsp;&lt;EM&gt;Peňažnom denníku&lt;/EM&gt; po stlačení tlačidla &lt;I&gt;Možnosti&lt;/I&gt;). Po prečíslovaní&amp;nbsp;sa pokladničnému dokladu priradí nové číslo prislúchajúce obdobiu so starším dátumom. &lt;/LI&gt;&lt;/OL&gt;&lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt; 
+&lt;P&gt;Ak využívate&amp;nbsp;funkciu prečíslovania pokladničných dokladov, je potrebné pri tlači pokladničných dokladov v&amp;nbsp;peňažnom denníku zakázať tlač čísla pokladničného dokladu (v&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="8406940f-006c-44df-b7ff-2f80e4556003"&gt;oddiel Používateľ, Tlač&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt; záložka &lt;EM&gt;Účtovníctvo&lt;/EM&gt;).&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;V&amp;nbsp;prípade, že sa chcete vyhnúť prečíslovávaniu pokladničných dokladov v peňažnom denníku,&amp;nbsp;je možné použiť tzv. číslovanie podľa dátumu (ponuka&amp;nbsp;&lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="932262cc-b80f-4ce6-aba6-6a7d4a18f5ec"&gt;oddiel Firma, Účtovníctvo&lt;/A&gt;, záložka &lt;EM&gt;Peňažný denník - Typ číslovania&lt;/EM&gt;). Doklad z 8. mája bude mať v tom prípade&amp;nbsp;priradené&amp;nbsp;číslo napr.&amp;nbsp;&lt;EM&gt;P-0805-004&lt;/EM&gt;. Tým je možné jednoducho dopĺňať do peňažného denníka aj staršie doklady.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="bcb7e8b8-d0b4-4c34-bc87-d33bc0b2c4bd" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="5e82cca9-b8af-4a80-ba30-7ab91914a595">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="6abf9385-ce65-4024-9c3e-d5e50fc78adc" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="565cef7b-84c9-4402-966c-d3c94972cab4">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="5fa71e19-6fc9-44cd-b7b7-6f6d613621a1" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="fbf31c4f-937e-4ff4-a88e-8ffab6ddecfd">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="3ffafc2b-7fd5-4480-aeb6-9fac98e3535c" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="adc6cb3d-95b2-46fd-8d05-fd9cf02ad18c">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="8168ef2b-0228-4367-8f68-f39f83461403">
+      <Keyword m="2021-08-24T07:17:55.2177484Z">Zápis staršieho pokladničého dokladu do peňažného denníka</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="985b915a-b667-499e-9c71-0fde47b4a47f">
+      <Keyword m="2021-08-24T07:18:21.2805096Z">Peňažný denník - zápis staršieho pokladničného dokladu</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

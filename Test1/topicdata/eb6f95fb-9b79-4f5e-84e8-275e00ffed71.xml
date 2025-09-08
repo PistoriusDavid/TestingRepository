@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="eb6f95fb-9b79-4f5e-84e8-275e00ffed71" Status="Complete" CreatedOn="2016-01-13T10:45:31.2239599Z" ModifiedOn="2023-05-09T08:57:43.8920635Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Vehicles_Started_StartmentsDocument_Vehicles" BuildFlags="">
+  <Title m="2016-01-13T10:47:28.1855265Z">Daňové priznanie k dani z motorových vozidiel</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-05-09T08:55:00.5590028Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;postup vytvorenia daňového priznania k dani z motorových vozidiel&lt;/STRONG&gt; v&amp;nbsp;systéme OBERON.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Systém OBERON umožňuje export vybraných výkazov a priznaní do súboru typu XML na jeho následný import do aplikácie &lt;I&gt;Finančného riaditeľstva SR&lt;/I&gt;&amp;nbsp;&lt;EM&gt;eDane&lt;/EM&gt;. 
+&lt;LI&gt;Tvorba výkazov v&amp;nbsp;programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;&amp;nbsp;je sústredená do evidencie&amp;nbsp;&lt;A href="71b702c2-e6e7-4f9a-b66b-15dba7d31ae1"&gt;Priznania a výkazy&lt;/A&gt; (ponuka &lt;I&gt;Firma&lt;/I&gt;)&lt;I&gt;.&lt;/I&gt; Export údajov a jeho následný import do&amp;nbsp;aplikácie &lt;I&gt;eDane&lt;/I&gt;&amp;nbsp;sa spravidla vykonáva &lt;STRONG&gt;automaticky pri vytváraní daného výkazu&lt;/STRONG&gt; v tejto evidencii. 
+&lt;LI&gt;Zoznam aktuálne podporovaných výkazov a&amp;nbsp;priznaní sa nachádza v téme&amp;nbsp;&lt;A href="71b702c2-e6e7-4f9a-b66b-15dba7d31ae1"&gt;Priznania a výkazy&lt;/A&gt;. 
+&lt;LI&gt;Daň z motorových vozidiel je jednou z daní, ktorá sa týka takmer každého podnikateľského subjektu. Predmetom dane z motorových vozidiel je &lt;STRONG&gt;motorové vozidlo a prípojné vozidlo kategórie M, N a O, ktoré sa používa v &lt;EM&gt;Slovenskej republike&lt;/EM&gt; na podnikanie alebo na činnosti, z ktorých plynúce príjmy sú predmetom dane z&amp;nbsp;príjmov&lt;/STRONG&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Postup vytvorenia daňového priznania&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;V&amp;nbsp;programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt; zvoľte ponuku &lt;EM&gt;Vozidlá&lt;/EM&gt;, &lt;A href="c6542278-5d57-4c96-b3d8-ec30f2b5a6d3"&gt;Vozidlá&lt;/A&gt;. Zobrazí sa zoznam vozidiel evidovaných v programe. Kurzorom označte vozidlo, ku ktorému chcete&amp;nbsp;vytvoriť daňové priznanie, a&amp;nbsp;stlačte tlačidlo &lt;EM&gt;Oprava&lt;/EM&gt;. Otvorí sa&amp;nbsp;&lt;A href="0e8e9ee3-91f6-4c3e-ae22-f874f9d4c8cc"&gt;formulár Vozidlo&lt;/A&gt;, v ktorom skontrolujte nasledujúce údaje, ktoré sú nevyhnutné na korektné&amp;nbsp;vytvorenie daňového priznania: 
+&lt;UL&gt;
+&lt;LI&gt;v záložke &lt;EM&gt;Základné údaje –&lt;/EM&gt; počet náprav, kategória, druh, objem, výkon, 
+&lt;LI&gt;v záložke &lt;EM&gt;Rozšírené&lt;/EM&gt; – dátum prvej evidencie vozidla, prípadne dátum evidencie a dátum zániku (v prípade, že vozidlo sa na podnikanie nepoužívalo celý rok), 
+&lt;LI&gt;v záložke &lt;EM&gt;Spotreba&lt;/EM&gt; – primárne PHL (druh paliva). &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Zvoľte ponuku &lt;EM&gt;Firma&lt;/EM&gt;,&amp;nbsp;&lt;A href="71b702c2-e6e7-4f9a-b66b-15dba7d31ae1"&gt;Priznania a výkazy&lt;/A&gt;. Stlačte tlačidlo &lt;I&gt;Pridať&lt;/I&gt; a vyberte druh výkazu &lt;EM&gt;Daňové priznanie k dani z motorových vozidiel&lt;/EM&gt;. 
+&lt;LI&gt;Otvorí sa sprievodca, v ktorom postupne vyberte obdobie, druh daňového priznania (riadny, opravný, dodatočný), zaplatené preddavky na daň. 
+&lt;LI&gt;V ďalšom kroku sprievodcu&amp;nbsp;na zobrazenie daňového priznania zvoľte možnosť &lt;EM&gt;&lt;STRONG&gt;Zobraziť výkaz v náhľade na obrazovke&lt;/STRONG&gt;&lt;/EM&gt;. 
+&lt;LI&gt;Na&amp;nbsp;podanie daňového priznania&amp;nbsp;v&amp;nbsp;aplikácii &lt;EM&gt;eDane/Java&lt;/EM&gt;&amp;nbsp;zvoľte možnosť &lt;EM&gt;&lt;STRONG&gt;Exportovať výkaz do súboru&lt;/STRONG&gt;&lt;/EM&gt; a&amp;nbsp;začiarknite voľbu &lt;EM&gt;&lt;STRONG&gt;Otvoriť výkaz v programe eDane&lt;/STRONG&gt;&lt;/EM&gt; - po stlačení tlačidla &lt;I&gt;Dokončiť&lt;/I&gt; sa vytvorí požadovaný výkaz (XML) a následne &lt;STRONG&gt;sa vykoná automatický import údajov do aplikácie &lt;EM&gt;eDane&lt;/EM&gt;&lt;/STRONG&gt; (aplikácia sa následne otvorí a&amp;nbsp;zobrazí formulár daňového priznania s&amp;nbsp;importovanými údajmi). &lt;/LI&gt;&lt;/OL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="78f6c109-153c-4864-b1db-66f8284469d5" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="c6542278-5d57-4c96-b3d8-ec30f2b5a6d3">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="0bc4bc92-c000-4a9d-b2e8-ec1940d8c390" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="0e8e9ee3-91f6-4c3e-ae22-f874f9d4c8cc">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="8e4b208f-754d-496d-9a05-e3504ff842d8" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="71b702c2-e6e7-4f9a-b66b-15dba7d31ae1">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="4df874b8-c415-4e2d-b7ce-d1903b7dfcc8" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="c5a0e260-f27f-4a19-9b09-39a40bfbd69f">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="5abbcd19-6858-41c2-9f4c-7a53b64c0584">
+      <Keyword m="2023-05-09T08:56:12.9877086Z">Priznanie k dani z motorových vozidiel</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="f9046a41-81bb-4e19-a5cf-24442411585b">
+      <Keyword m="2023-05-09T08:56:19.5884179Z">Vozidlá - priznanie k dani</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="cb6eb73e-089e-4f8c-9a69-df6063535f75">
+      <Keyword m="2023-05-09T08:55:55.6254807Z">Cestná daň - daňové priznanie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="bb06a749-f68b-4b32-9edd-b4e4cba76a6b">
+      <Keyword m="2023-05-09T08:56:04.818796Z">Motorové vozidlá - priznanie k dani</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

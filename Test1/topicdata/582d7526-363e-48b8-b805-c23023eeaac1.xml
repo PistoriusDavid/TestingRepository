@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="582d7526-363e-48b8-b805-c23023eeaac1" Status="Complete" CreatedOn="2016-10-05T08:23:41.0407124Z" ModifiedOn="2023-07-24T10:49:17.0274177Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Wages_Advanced_Print_EmploymentContract" BuildFlags="">
+  <Title m="2016-10-05T08:25:04.8713647Z">Vytvorenie a vytlačenie pracovnej zmluvy</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-07-24T10:49:17.0274177Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;postup vytvorenia a vytlačenia dokumentu, resp. výkazu&lt;/STRONG&gt;&amp;nbsp;v evidencii&amp;nbsp;&lt;A href="375979c2-cf78-4499-8ba9-30a5e2f1eb23"&gt;Dokumenty a výkazy pracovníkov&lt;/A&gt;&amp;nbsp;na príklade dokumentu &lt;EM&gt;Pracovná zmluva&lt;/EM&gt;. Vytvoriť dokument&amp;nbsp;(výkaz) je možné z dvoch&amp;nbsp;miest v programe, a to z&amp;nbsp;ponuky &lt;EM&gt;Mzdy,&lt;/EM&gt;&amp;nbsp;&lt;A href="375979c2-cf78-4499-8ba9-30a5e2f1eb23" style="auto-update-caption: true"&gt;Dokumenty a výkazy pracovníkov&lt;/A&gt;, tlačidlo &lt;EM&gt;Nový&lt;/EM&gt; alebo vo &lt;A href="95a3b7e2-6135-4860-a655-5724b186b94c"&gt;formulári Pracovný pomer pracovníka&lt;/A&gt;, tlačidlo &lt;EM&gt;Dokumenty a výkazy&lt;/EM&gt;, tlačidlo &lt;EM&gt;Nový&lt;/EM&gt; (odporúčaný spôsob).&lt;/P&gt;
+&lt;H2&gt;Postup vytlačenia tlačiva &lt;EM&gt;Pracovná zmluva&lt;/EM&gt;&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;V ponuke &lt;EM&gt;Mzdy&lt;/EM&gt; zvoľte položku&amp;nbsp;&lt;A href="375979c2-cf78-4499-8ba9-30a5e2f1eb23"&gt;Dokumenty a výkazy pracovníkov&lt;/A&gt;. 
+&lt;LI&gt;Stlačte tlačidlo &lt;EM&gt;Nový-Dokument&lt;/EM&gt;. Otvorí sa sprievodca, vyberte pracovníka&amp;nbsp;zadaním&amp;nbsp;osobného čísla a&amp;nbsp;potvrdením klávesom &lt;EM&gt;Enter&lt;/EM&gt; alebo výberom zo zoznamu pomocou tlačidla&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_ListButton.png"&gt;. 
+&lt;LI&gt;Dvojklikom otvorte&amp;nbsp;adresár &lt;EM&gt;Pracovný pomer&lt;/EM&gt; a&amp;nbsp;zvoľte typ dokumentu &lt;EM&gt;&lt;STRONG&gt;Pracovná zmluva&lt;/STRONG&gt;&lt;/EM&gt;.
+&lt;LI&gt;Pri niektorých dokumentoch (napr. pri pracovnej zmluve) je potrebné vybrať &lt;STRONG&gt;aj pracovný pomer&lt;/STRONG&gt;. Niektoré dokumenty (napr. potvrdenie o&amp;nbsp;návšteve lekára) sa vzťahujú k pracovníkovi, a nie k&amp;nbsp;pracovnému pomeru. 
+&lt;LI&gt;Po stlačení tlačidla &lt;EM&gt;&lt;STRONG&gt;Dokončiť&lt;/STRONG&gt;&lt;/EM&gt;&amp;nbsp;sa vytvorí nový dokument. Otvorí sa formulár &lt;EM&gt;Dokument&lt;/EM&gt;, v ktorom zadajte ďalšie údaje, ako je miesto výkonu práce, pracovný čas atď. Po zadaní údajov stlačte tlačidlo &lt;EM&gt;&lt;STRONG&gt;OK&lt;/STRONG&gt;&lt;/EM&gt;. 
+&lt;LI&gt;Na vytlačenie pracovnej zmluvy v&amp;nbsp;evidencii &lt;A href="375979c2-cf78-4499-8ba9-30a5e2f1eb23"&gt;Dokumenty a výkazy pracovníkov&lt;/A&gt;&amp;nbsp;označte daný dokument kurzorom a stlačte tlačidlo&amp;nbsp;&lt;I&gt;Tlač&lt;/I&gt;. &lt;/LI&gt;&lt;/OL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt; 
+&lt;P&gt;Pracovnú zmluvu je možné jednoducho kopírovať pomocou klávesových skratiek &lt;EM&gt;Ctrl+C&lt;/EM&gt; a &lt;EM&gt;Ctrl+V&lt;/EM&gt;, po skopírovaní&amp;nbsp;stačí zmeniť dátum a pracovníka.&amp;nbsp;&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="f1858538-1e30-4863-830a-f9deebe68f94" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="375979c2-cf78-4499-8ba9-30a5e2f1eb23">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="337fdead-3376-4cd3-9515-3b158ab7c08a" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="8dd60281-9cc7-41fe-9dd2-2ad5c7ffe047">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="5a805965-5297-4f83-8fb4-742cafc5175f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="3fced304-5201-4497-bb58-104c1fd77990">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="d73b5349-2b13-4182-b5a6-c22395f5d1bd">
+      <Keyword m="2023-07-14T07:33:00.6109799Z">Vytlačenie pracovnej zmluvy</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

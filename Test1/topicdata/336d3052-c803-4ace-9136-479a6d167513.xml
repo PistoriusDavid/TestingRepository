@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="336d3052-c803-4ace-9136-479a6d167513" Status="Complete" CreatedOn="2019-07-15T07:12:02.0198785Z" ModifiedOn="2022-09-29T09:24:47.1163596Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="ExternalSystem_HotelReservation_Beds24_PaymentGateways" BuildFlags="">
+  <Title m="2022-04-25T06:31:19.178521Z">Platobná brána PayPal v Beds24</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2022-09-29T09:14:05.0515264Z">&lt;P&gt;Manažér rezervačných kanálov&amp;nbsp;&lt;EM&gt;Beds24&lt;/EM&gt; podporuje viacero platobných brán, ktoré umožňujú&amp;nbsp;prijímať on-line platby za ubytovanie (prípadne posielať výzvy na úhradu). V tejto téme &lt;EM&gt;Pomocníka&lt;/EM&gt; je uvedený&amp;nbsp;&lt;STRONG&gt;základný&amp;nbsp;postup, ako si&amp;nbsp;nastaviť&amp;nbsp;platobnú bránu&amp;nbsp;&lt;EM&gt;PayPal&lt;/EM&gt; na prijímanie on-line platieb&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Prostredníctvom platobných brán sa finančné prostriedky ukladajú priamo na účet prevádzkovateľa ubytovacieho zariadenia. 
+&lt;LI&gt;Do&amp;nbsp;&lt;EM&gt;Beds24&lt;/EM&gt;&amp;nbsp;sa zasiela&amp;nbsp;notifikácia o platbe a prijatá čiastka sa zobrazí vo formulári&amp;nbsp;príslušnej rezervácie v záložke &lt;EM&gt;Poplatky a platby&lt;/EM&gt; (Charges and Payments). 
+&lt;LI&gt;&lt;STRONG&gt;Podrobnosti o poplatkoch a ďalšie informácie&lt;/STRONG&gt; závisia vždy od konkrétnej platobnej brány. 
+&lt;LI&gt;Pripojiť&amp;nbsp;platobnú bránu k&amp;nbsp;&lt;EM&gt;Beds24&lt;/EM&gt; je možné v ponuke&amp;nbsp;&lt;EM&gt;Settings/Payments/Payment Gateways.&amp;nbsp;&lt;/EM&gt;Tu je dostupný prehľad integrovaných platobných brán. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;1. Nastavenia platobnej brány &lt;EM&gt;PayPal&lt;/EM&gt;&lt;/H2&gt;
+&lt;P&gt;Ak sa rozhodnete pre používanie platobnej brány &lt;EM&gt;PayPal&lt;/EM&gt;, budete si potrebovať&amp;nbsp;otvoriť účet v &lt;EM&gt;PayPal&lt;/EM&gt;. Postupujte podľa nasledujúceho návodu:&lt;/P&gt;
+&lt;OL&gt;
+&lt;LI&gt;Na webovej stránke &lt;A href="http://www.paypal.com"&gt;www.paypal.com&lt;/A&gt;&amp;nbsp;kliknite vpravo hore na&amp;nbsp;tlačidlo&amp;nbsp;&lt;EM&gt;Založiť účet&lt;/EM&gt;&amp;nbsp;a pokračujte podľa návodu na stránke &lt;EM&gt;paypal.com&lt;/EM&gt;. 
+&lt;LI&gt;Overovanie &lt;EM&gt;PayPal&lt;/EM&gt;: 
+&lt;UL&gt;
+&lt;LI&gt;e-mailové potvrdenie pri zakladaní účtu, 
+&lt;LI&gt;&lt;EM&gt;PayPal&lt;/EM&gt; odošle na váš bankový účet testovaciu platbu (na overenie, že existuje bankový účet a karta). V náhľade na výpise z&amp;nbsp;bankového účtu alebo v banke vám&amp;nbsp;oznámia 4 miestny kód, ktorý&amp;nbsp;následne vložíte do prostredia &lt;EM&gt;PayPal&lt;/EM&gt;, 
+&lt;LI&gt;vloženie oskenovaného občianskeho preukazu, pasu, vodičského preukazu do prostredia &lt;EM&gt;PayPal&lt;/EM&gt; (podľa toho, na čo vás vyzvú), 
+&lt;LI&gt;po vytvorení účtu pokračujete aktiváciou platobnej brány&amp;nbsp;&lt;EM&gt;PayPal&lt;/EM&gt; v&amp;nbsp;&lt;EM&gt;Beds24&lt;/EM&gt; podľa postupu nižšie. &lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/OL&gt;
+&lt;H2&gt;2. Nastavenia v&amp;nbsp;Beds24&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;&lt;SPAN lang=sk class="tlid-translation translation"&gt;V&amp;nbsp;ponuke&amp;nbsp;&lt;EM&gt;Settings/Payments/Payment Gateways/PayPal&lt;/EM&gt; zmeňte nastavenie &lt;EM&gt;Enable&lt;/EM&gt;/&lt;EM&gt;Priority&lt;/EM&gt; z &lt;EM&gt;Not Used&lt;/EM&gt; na číslo.&lt;BR&gt;&lt;STRONG&gt;Poznámka:&lt;/STRONG&gt; Ak&amp;nbsp;budete používať&amp;nbsp;viac ako jednu platobnú bránu (napr. &lt;EM&gt;PayPal&lt;/EM&gt; a zároveň &lt;EM&gt;Paymill&lt;/EM&gt;), číslo určí poradie, v ktorom sa na stránke rezervácie zobrazí možnosť platby prostredníctvom danej platobnej brány. Ak&amp;nbsp;budete používať&amp;nbsp;len jednu platobnú bránu, je možné na aktiváciu použiť ľubovoľné číslo.&lt;/SPAN&gt; 
+&lt;LI&gt;&lt;SPAN lang=sk class="tlid-translation translation"&gt;Zadajte e-mailovú adresu svojho &lt;EM&gt;PayPal&lt;/EM&gt; účtu, na ktorý budete dostávať finančné prostriedky. Ak máte v &lt;EM&gt;Paypal&lt;/EM&gt; účte zadaných viac e-mailových adries,&amp;nbsp;uistite sa, že používate hlavnú adresu.&lt;/SPAN&gt; &lt;/LI&gt;&lt;/OL&gt;
+&lt;H5&gt;&lt;SPAN lang=sk&gt;Obrázok č. 1: Nastavenie platobnej brány &lt;EM&gt;PayPal&lt;/EM&gt; v&amp;nbsp;&lt;EM&gt;Beds24&lt;/EM&gt;&lt;/SPAN&gt;&lt;/H5&gt;
+&lt;H5&gt;&lt;SPAN lang=sk&gt;&amp;nbsp;&lt;IMG border=0 alt="" src="images/ProductOptions/ExternalSystems/Hotel_ExternalSystem_Beds24_PayPal.png"&gt;&lt;/SPAN&gt;&lt;/H5&gt;
+&lt;H2&gt;&lt;SPAN lang=sk class="tlid-translation translation"&gt;3. Nastavenia v PayPal účte&lt;/SPAN&gt;&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;&lt;SPAN lang=sk class="tlid-translation translation"&gt;V&amp;nbsp;nastaveniach &lt;EM&gt;PayPal&lt;/EM&gt; účtu vyplňte notifikačnú URL adresu v tvare &lt;A href="https://www.beds24.com/api/paypal/paypal.php"&gt;https://www.beds24.com/api/paypal/paypal.php&lt;/A&gt; (v&amp;nbsp;sekcii &lt;EM&gt;Instant Payment Notification&lt;/EM&gt; (IPN)) a povoľte IPN správy (zvoľte možnosť&amp;nbsp;&lt;EM&gt;Receive IPN messages (Enabled)&lt;/EM&gt;).&lt;/SPAN&gt; &lt;/LI&gt;&lt;/OL&gt;&lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;SPAN lang=sk class="tlid-translation translation"&gt;Ak sa rezervačná stránka používa v rámci &lt;EM&gt;Iframe&lt;/EM&gt; alebo vo&amp;nbsp;&lt;EM&gt;WordPresse&lt;/EM&gt;, kvôli bezpečnostným nastaveniam v prehliadačoch nemôže presmerovať používateľa na &lt;EM&gt;PayPal&lt;/EM&gt;. V tom prípade je potrebné &lt;STRONG&gt;povoliť&amp;nbsp;otvorenie stránky &lt;EM&gt;paypal.com&lt;/EM&gt; v novom&lt;/STRONG&gt; &lt;STRONG&gt;okne&lt;/STRONG&gt;. Zároveň je potrebné v ponuke &lt;EM&gt;Settings/Booking Engine/Property Booking Page/Behaviour&lt;/EM&gt; nastaviť položku &lt;EM&gt;Open in New Window&lt;/EM&gt; na &lt;EM&gt;On Secure Payment&lt;/EM&gt;.&lt;/SPAN&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;&amp;nbsp;&lt;SPAN lang=sk&gt;Zálohy na rezervácie&lt;/SPAN&gt;&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;V&amp;nbsp;&lt;EM&gt;Beds24&lt;/EM&gt; je možné nastaviť prijímanie záloh za ubytovanie tak, aby hosť &lt;STRONG&gt;nebol schopný&amp;nbsp;dokončiť rezerváciu bez vykonania platby&lt;/STRONG&gt;. 
+&lt;LI&gt;V ponuke &lt;EM&gt;Settings/Payments/Payment Collection&lt;/EM&gt; nastavte položku &lt;EM&gt;Non Payment Booking Status -&amp;nbsp;&lt;/EM&gt;nastavuje sa stav rezervácie, ak sa platba nedokončí v čase rezervácie. Vyberte jednu z&amp;nbsp;nasledujúcich možností: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Request&lt;/STRONG&gt; - keď hosť&amp;nbsp;klikne na tlačidlo &lt;EM&gt;Potvrdiť rezerváciu&lt;/EM&gt;, izba sa rezervuje a nebude k dispozícii pre ostatných hostí. Po úspešnej platbe sa stav rezervácie automaticky zmení na potvrdenú. Ak sa platba preruší alebo nezrealizuje, dostupnosť izby bude stále blokovaná. Následne&amp;nbsp;bude potrebné buď manuálne zmeniť stav rezervácie&amp;nbsp;na&amp;nbsp;&lt;EM&gt;Zrušená&lt;/EM&gt; (Cancelled) alebo použiť automatickú akciu na automatickú zmenu stavu rezervácií po uplynutí nastaveného času. Automatické akcie je možné nastaviť v ponuke &lt;EM&gt;Settings/Guest Management/Auto Actions&lt;/EM&gt;.&lt;BR&gt;&lt;STRONG&gt;Upozornenie:&lt;/STRONG&gt; Pri tomto nastavení bude hosťovi zaslaný rezervačný e-mail aj v prípade, že platbu neuskutoční. 
+&lt;LI&gt;&lt;STRONG&gt;Cancel&lt;/STRONG&gt; - keď hosť&amp;nbsp;klikne na tlačidlo &lt;EM&gt;Potvrdiť rezerváciu&lt;/EM&gt;,&amp;nbsp;izba sa nerezervuje, kým sa nedokončí platba. Ostatní hostia si&amp;nbsp;budú môcť tiež&amp;nbsp;rezervovať izbu až do úspešného zaplatenia, čím vznikne malé riziko prebukovania.&lt;BR&gt;&lt;STRONG&gt;Upozornenie:&lt;/STRONG&gt; Pri tomto nastavení bude hosťovi zaslaný rezervačný e-mail až po uskutočnení platby. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Nastavte požadovanú sumu -&amp;nbsp;môže to byť fixná čiastka, percento z celkovej sumy alebo hodnota ceny za prvú noc. 
+&lt;LI&gt;Použitá mena bude mena, ktorú ste nastavili na prijímanie platieb v&amp;nbsp;ponuke &lt;EM&gt;Properties/Description&lt;/EM&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Podrobnejšie informácie k téme získate v &lt;STRONG&gt;kontextovom pomocníkovi&lt;/STRONG&gt; (&lt;STRONG&gt;symbol ?&lt;/STRONG&gt; pri jednotlivých položkách&amp;nbsp;v&amp;nbsp;príslušných formulároch a tlačidlo &lt;STRONG&gt;Help ?&lt;/STRONG&gt;&amp;nbsp;vpravo hore) &lt;STRONG&gt;a v&amp;nbsp;&lt;/STRONG&gt;&lt;A href="https://wiki.beds24.com/index.php/Paypal" target=_blank&gt;dokumentácii&lt;/A&gt; manažéra rezervačných kanálov &lt;EM&gt;Beds24&lt;/EM&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="2615fdfe-8082-4bb0-9ad3-95fa3fc8c901" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="2564d1eb-a7ed-46a7-a957-6087afe26471">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="9eebc4b7-deb9-4f34-a6ff-adb27337a85d" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="a5318434-401b-4fef-9dab-7d5cd4479d19">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="9efb5833-3261-46bb-a930-c3c01edf6d95" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="6cd4a47a-5c87-4c7c-aa5e-9d8c198e9602">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="37d769fb-328b-45f2-b492-0db876bc6bfe" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="6e0bfd35-7d4e-479b-9dc5-cf5237b1aa69">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="ad18d7ce-5312-4ce4-a5d2-4ace92471289" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="a8869db0-d369-49c6-b801-de33672ce874">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="be988068-f5a8-423d-b780-05f9f16a069b" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="4d8c31da-446b-4fca-ba87-30787fe47f7b">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="60930a44-5cfc-45eb-8d3c-f6112e30d2c9">
+      <Keyword m="2022-09-29T09:24:25.5087275Z">PayPal - Beds24</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="b1ceec45-d0e5-4dbd-bedf-98227a1fba3a">
+      <Keyword m="2022-09-29T09:24:36.4735302Z">Platobná brána PayPal - Beds24</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="e605b6be-853a-4e0c-84d3-cdc16026e5fd">
+      <Keyword m="2022-09-29T09:24:47.115351Z">Zálohy na rezervácie - PayPal - Beds24</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

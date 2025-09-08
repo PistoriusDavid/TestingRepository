@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="8b99b3ec-3dc7-41dd-b3ed-ce935508483e" Status="Complete" CreatedOn="2024-11-29T11:12:27.0945856Z" ModifiedOn="2025-03-13T13:39:46.7388744Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="OBERON_News_2024_10" BuildFlags="{4AAE0FD4-7313-4FEE-A25F-0785B885F736},826B51BD-B6F0-4B2C-A814-029E169D018F">
+  <Title m="2024-11-29T11:12:47.5971662Z">Čo bolo nové vo verzii Október/2024</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2025-03-13T13:39:46.7388744Z">&lt;P&gt;Dňa 17.10.2024&amp;nbsp;bola&amp;nbsp;vydaná nová verzia ekonomického systému OBERON s&amp;nbsp;označením &lt;STRONG&gt;Október/2024&lt;/STRONG&gt;. V&amp;nbsp;nasledujúcej časti sú vymenované najdôležitejšie novinky, vylepšenia a&amp;nbsp;opravy oproti verzii&amp;nbsp;&lt;STRONG&gt;Júl/2024&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;H2&gt;OBERON&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Panel notifikácií&lt;/STRONG&gt; - pribudol nový panel notifikácií, v ktorom sa zobrazujú automatické notifikačné správy v&amp;nbsp;systéme OBERON (pri ktorých to má opodstatnenie). Ak&amp;nbsp;je v&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="5a6e5663-262e-4ff0-9741-1569385d11e4"&gt;oddiel Firma, Všeobecné&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt; záložka &lt;EM&gt;Ostatné&lt;/EM&gt; povolené používanie notifikácií, po spustení sa v&amp;nbsp;programe automaticky zobrazí ikona zvončeka&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_Notifications_Bell.png"&gt;. Po kliknutí na ikonu sa otvorí panel &lt;EM&gt;Notifikácie&lt;/EM&gt;. Okrem zobrazenia notifikácií zaslaných systémom OBERON panel &lt;EM&gt;Notifikácie&lt;/EM&gt; zároveň umožňuje odosielať a prijímať&amp;nbsp;(a&amp;nbsp;následne zobrazovať) notifikačné správy medzi jednotlivými používateľmi OBERON-u, pričom správu možno adresovať aj viacerým používateľom, resp.&amp;nbsp;&lt;A href="12e7a96f-bc40-4359-bc7a-213d74a785d4"&gt;skupinám používateľov&lt;/A&gt;. Viac informácií v téme&amp;nbsp;&lt;A href="54b09ba5-d225-4f4f-ae48-fefef53bb9f9" style="auto-update-caption: true"&gt;Panel notifikácií&lt;/A&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;Notifikácie&lt;/STRONG&gt; -&amp;nbsp;pribudli notifikácie pre spracovanie bankových výpisov, vozidlá a on-line check-in. Viac informácií v téme&amp;nbsp;&lt;A href="e301d0fb-f429-4bb5-a4df-7257efbe967b" style="auto-update-caption: true"&gt;O automatických notifikáciách&lt;/A&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;Duplicitné prihlásenie&amp;nbsp;-&lt;/STRONG&gt; ak sa používateľ, ktorý je prihlásený do systému OBERON na jednom počítači, prihlási do programu na inom počítači, program sa na prvom počítači automaticky ukončí (do 10 sekúnd). Na základe toho bude môcť používateľ začať na druhom počítači okamžite pracovať. 
+&lt;LI&gt;&lt;STRONG&gt;Správca hesiel&lt;/STRONG&gt; - v evidencii pribudol sprievodca, pomocou ktorého je možné hromadne zdieľať, prípadne odstrániť zdieľanie hesiel iným používateľom. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;OBERON Center&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Generátor notifikácií&lt;/STRONG&gt; - od tejto verzie túto automatickú úlohu už nie je možné spustiť (používať) v programe &lt;EM&gt;OBERON Center&lt;/EM&gt;. Na spúšťanie úlohy slúži program&amp;nbsp;&lt;A href="09f3dae9-2fb7-490f-97dc-37f60885b398" style="auto-update-caption: true"&gt;OBERON Automation Center&lt;/A&gt; (OAC - &lt;EM&gt;Windows&lt;/EM&gt; služba). Ak &lt;EM&gt;Generátor notifikácií&lt;/EM&gt; používate v programe &lt;EM&gt;OBERON Center&lt;/EM&gt;, je ho potrebné nakonfigurovať pre OAC. 
+&lt;LI&gt;&lt;STRONG&gt;Webové služby&lt;/STRONG&gt; – od tejto verzie webové služby už nie je možné spustiť (používať) v programe &lt;EM&gt;OBERON Center&lt;/EM&gt;. Na spúšťanie webových služieb slúži program&amp;nbsp;&lt;A href="09f3dae9-2fb7-490f-97dc-37f60885b398" style="auto-update-caption: true"&gt;OBERON Automation Center&lt;/A&gt; (OAC - &lt;EM&gt;Windows&lt;/EM&gt; služba). Ak webové služby používate v programe &lt;EM&gt;OBERON Center&lt;/EM&gt;, je potrebné ich nakonfigurovať pre OAC ako automatické úlohy. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Účtovníctvo&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Tatra banka Premium API&lt;/STRONG&gt; – v evidencii&amp;nbsp;&lt;A href="02bbf54b-086f-4641-8c33-4dd461e56fb4" style="auto-update-caption: true"&gt;Spracovanie bankových výpisov&lt;/A&gt; pribudla možnosť sťahovať bankové výpisy (transakcie) z &lt;EM&gt;Tatra banky, a.s.&lt;/EM&gt; pomocou bankového rozhrania &lt;EM&gt;Tatra banka Premium API&lt;/EM&gt;. Toto rozhranie naviac umožňuje sťahovanie bankových výpisov aj z iných slovenských bánk (pripravuje sa). Viac informácií získate v téme&amp;nbsp;&lt;A href="92551fc7-c797-47c7-9c54-b527c2346282" style="auto-update-caption: true"&gt;Prepojenie s Tatra bankou&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Fakturácia&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Úprava QR kódu&lt;/STRONG&gt; &lt;STRONG&gt;PayBySquare&lt;/STRONG&gt;&amp;nbsp;- QR kód platby (faktúry alebo objednávky) bol upravený tak, aby sa v prípade, že variabilný symbol obsahuje aj iné znaky ako čísla, uvádzal do referencie platiteľa. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Skladová evidencia&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Skladové karty k dátumu&lt;/STRONG&gt; - pribudla možnosť zostaviť tlačový výstup podrobne aj za varianty. 
+&lt;LI&gt;&lt;STRONG&gt;Stavy zásob&amp;nbsp;-&lt;/STRONG&gt; pribudol nový tlačový výstup &lt;EM&gt;Stavy zásob (kontrola zostatkových množstiev)&lt;/EM&gt;. Obsahuje zoznam skladových kariet, pri ktorých vznikol nesúlad evidovaných množstiev na skladových kartách a skladových pohybov. Do kontroly sú zahrnuté aj varianty skladových kariet. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Pokladnica OBERON&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;&amp;nbsp;eKasa&lt;/STRONG&gt; - vyriešenie problémov s tlačou na externej tlačiarni podľa odporúčania výrobcu. 
+&lt;LI&gt;&lt;STRONG&gt;Zvuková notifikácia&lt;/STRONG&gt; - pri nasnímaní čiarového kódu pribudla zvuková notifikácia zobrazenia okna&amp;nbsp;na bližší výber skladovej karty (ak jeden čiarový kód používa viac skladových kariet), prípadne&amp;nbsp;na výber variantu. Tým je obsluha informovaná, že nasnímaná položka nebola vložená do pokladničného dokladu a&amp;nbsp;vyžaduje sa manuálny výber. 
+&lt;LI&gt;&lt;STRONG&gt;Fľaškomat RVM&amp;nbsp;-&lt;/STRONG&gt; bol pridaný prefix 63 pre fľaškomat RVM pre zálohované obaly. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Hotelová recepcia&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Kalkulácia ceny&amp;nbsp;&lt;/STRONG&gt;- v rezervácii ubytovania (cenovej kalkulácii) pribudla podpora skladovej karty&amp;nbsp;&lt;A href="8deac9fe-9864-41e8-aaa3-02257c241d78"&gt;typu sada&lt;/A&gt;. Po zadaní kódu skladovej položky sa do kalkulácie automaticky vložia všetky položky sady. 
+&lt;LI&gt;&lt;STRONG&gt;Hotelový účet&lt;/STRONG&gt; - v hotelovom účte pribudla podpora skladovej karty &lt;A href="8deac9fe-9864-41e8-aaa3-02257c241d78"&gt;typu sada&lt;/A&gt;. Po zadaní kódu skladovej položky sa do hotelového účtu automaticky vložia všetky položky sady. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;ASTON - mobilný skladník&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Výdajky, príjemky, objednávky prijaté&lt;/STRONG&gt;&amp;nbsp;- doplnenie možnosti zadania prevádzky obchodného partnera. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;SPAN&gt;V prípade preskočenia viacerých verzií programu je dôležité si prečítať informácie o novinkách, vylepšeniach a opravách&amp;nbsp;aj&amp;nbsp;z&amp;nbsp;&lt;A href="dc832235-0e36-4aac-ae54-e51641eb2f50"&gt;predchádzajúcich verzií&lt;/A&gt;&lt;STRONG&gt;.&lt;/STRONG&gt; V&amp;nbsp;niektorej z predošlých verzií mohlo dôjsť k&amp;nbsp;dôležitým zmenám, o&amp;nbsp;ktorých je v niektorých prípadoch nevyhnutné vedieť.&lt;/SPAN&gt;&lt;/innovasys:widgetproperty&gt; &lt;/innovasys:widget&gt;&lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="c7357ab9-e0d8-47e3-b432-b3034ba1bd58" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="dc832235-0e36-4aac-ae54-e51641eb2f50">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="0aff6ea2-d3f9-4c1e-9000-f2192f9f2edc">
+      <Keyword m="2014-11-24T11:38:34.3847265Z">Verzia</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

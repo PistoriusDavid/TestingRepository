@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="74a4e3f7-d1c9-476a-9bb2-e7d7a98a8248" Status="Complete" CreatedOn="2021-03-08T07:31:37.2441048Z" ModifiedOn="2023-10-12T05:46:20.3000275Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="OBERONCenter_AutoTasks_HikCentralSystem" BuildFlags="">
+  <Title m="2022-03-29T11:54:14.3634198Z">Synchronizácia so systémom HikCentral</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-10-09T08:17:32.0294041Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; je venovaná&amp;nbsp;jednej z&amp;nbsp;&lt;A href="9ce25bbd-35d1-4096-acd5-70007f5af5a6"&gt;automatických úloh&lt;/A&gt;&amp;nbsp;systému OBERON&amp;nbsp;- &lt;STRONG&gt;synchronizácii so systémom&amp;nbsp;&lt;EM&gt;HikCentral&lt;/EM&gt;&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;EM&gt;Synchronizácia so systémom&amp;nbsp;HikCentral&lt;/EM&gt; predstavuje&amp;nbsp;&lt;A href="9ce25bbd-35d1-4096-acd5-70007f5af5a6"&gt;automatickú úlohu&lt;/A&gt;, ktorá v&amp;nbsp;systéme OBERON &lt;STRONG&gt;umožňuje synchronizáciu&lt;/STRONG&gt; medzi modulom&amp;nbsp;&lt;A href="c3bd41f0-029e-4c74-b342-b0ffff647b6e"&gt;Hotelová recepcia&lt;/A&gt;&amp;nbsp;a systémom &lt;A href="https://www.hikvision.com/en/support/download/software/hikcentral-pro-v1-7/" target=_blank&gt;HikCentral&lt;/A&gt;, v rámci ktorej sa do tohto systému&amp;nbsp;odosielajú údaje o&amp;nbsp;osobách zaevidovaných v&amp;nbsp;&lt;A href="0b9519ff-9438-422b-a3e8-358b628293e9"&gt;knihe ubytovaných&lt;/A&gt;&amp;nbsp;platné v danom čase. 
+&lt;LI&gt;Systém &lt;A href="https://www.hikvision.com/en/support/download/software/hikcentral-pro-v1-7/" target=_blank&gt;HikCentral&lt;/A&gt; je &lt;STRONG&gt;externý prístupový systém určený na identifikáciu osôb&lt;/STRONG&gt;. Viac informácií o&amp;nbsp;produkte a jeho licencii&amp;nbsp;vrátane možností inštalácie je možné získať na&amp;nbsp;webovej stránke&amp;nbsp;&lt;A href="https://www.allsecuritygroup.sk/" target=_blank&gt;All Security Group s.r.o.&lt;/A&gt; 
+&lt;LI&gt;Systém &lt;EM&gt;HikCentral&lt;/EM&gt; bráni vstupu neubytovaných osôb do ubytovacieho zariadenia a umožňuje tak ponechať jeho vstup bez kontroly personálu. Turniket je zároveň vybavený ochranou proti preskočeniu – v prípade neželanej udalosti automaticky odošle video a&amp;nbsp;fotografiu zodpovednej osobe. 
+&lt;LI&gt;Identifikácia osôb v rámci prístupového systému &lt;EM&gt;HikCentral&lt;/EM&gt; je založená na &lt;STRONG&gt;dvojstupňovej autentifikácii&lt;/STRONG&gt; – priložení karty a&amp;nbsp;tvárovom rozpoznávaní. Hosť, ktorý je zaevidovaný&amp;nbsp;v&amp;nbsp;&lt;A href="0b9519ff-9438-422b-a3e8-358b628293e9"&gt;knihe ubytovaných&lt;/A&gt;,&amp;nbsp;pred&amp;nbsp;vstupom do ubytovacieho zariadenia priloží k&amp;nbsp;turniketu kartu a následne je na termináli vyzvaný, aby ukázal tvár. Ak sa snímok tváre zhoduje s údajmi na karte, systém hosťa vpustí do ubytovacieho zariadenia. 
+&lt;LI&gt;V&amp;nbsp;rámci automatickej úlohy &lt;EM&gt;Synchronizácia so systémom HikCentral&lt;/EM&gt; sa&amp;nbsp;zo systému OBERON do systému &lt;EM&gt;HikCentral&lt;/EM&gt;&amp;nbsp;odosielajú údaje&amp;nbsp;o osobách aktuálne zaevidovaných v&amp;nbsp;&lt;A href="0b9519ff-9438-422b-a3e8-358b628293e9"&gt;knihe ubytovaných&lt;/A&gt;, ktoré sú&amp;nbsp;platné v danom čase. Zo systému &lt;EM&gt;HikCentral&lt;/EM&gt; sa údaje o ubytovaných osobách&amp;nbsp;automaticky odstraňujú v posledný deň ubytovania (t. j. pri odchode) týchto osôb, a to v nastavenom čase po odchode (čas sa nastavuje v rámci automatickej úlohy&amp;nbsp;systému OBERON), alebo o 24:00 hod., ak čas odchodu zadaný nie je. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Ďalšie informácie získate na webovej stránke&amp;nbsp;&lt;A href="https://exalogic.sk/oberon/suvisiace-produkty/system-hikcentral/" target=_blank&gt;Prístupový systém HikCentral&lt;/A&gt;&amp;nbsp;a na&amp;nbsp;&lt;A href="https://www.allsecuritygroup.sk/" target=_blank&gt;webovej stránke dodávateľa&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="864dfa17-059b-4bba-9177-e5ccf0577219" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="9690f267-6ad7-4e22-9af2-675ef3d9d041">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="cccc9637-9db3-4427-9f38-250561e5b4e9" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="9ce25bbd-35d1-4096-acd5-70007f5af5a6">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="b8455a36-ab6d-4fc8-8913-27b902edce16" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="c3bd41f0-029e-4c74-b342-b0ffff647b6e">
+      <Title m="2021-03-08T11:43:44.3879252Z">Hotelová recepcia</Title>
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="f8dcf8b5-23f5-4f40-a7d1-b6f824c4543e">
+      <Keyword m="2021-09-27T07:47:37.2379646Z">HikCentral</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="b915fc1c-392d-49d5-b83d-8359fcf210fd">
+      <Keyword m="2021-09-27T07:49:55.2162177Z">Systém HikCentral</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="5ad7add6-ab9e-4c4a-b910-15d2b2088494">
+      <Keyword m="2022-04-06T10:47:29.8822207Z">Tvárové rozpoznávanie - hotelová recepcia</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

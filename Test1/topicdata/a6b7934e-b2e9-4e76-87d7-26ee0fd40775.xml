@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="a6b7934e-b2e9-4e76-87d7-26ee0fd40775" Status="Complete" CreatedOn="2019-04-17T11:11:06.3390127Z" ModifiedOn="2023-12-29T12:34:25.1212484Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Device_FiscalDevice_ECM_CashRegister_GPS" BuildFlags="">
+  <Title m="2019-04-17T11:11:40.2786234Z">Poloha pokladnice</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-12-29T12:34:25.1212484Z">&lt;P&gt;V závislosti od konkrétneho&amp;nbsp;&lt;A href="b24ad235-cf7f-43e2-b3e8-ec0f7d92f6b6"&gt;fiškálneho zariadenia&lt;/A&gt;&amp;nbsp;môže&amp;nbsp;&lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9" style="auto-update-caption: true"&gt;Pokladnica OBERON&lt;/A&gt;&amp;nbsp;s týmto fiškálnym zariadením komunikovať prostredníctvom aplikácie &lt;A href="cd5f4475-36be-4b51-83ca-c11c8cd12b7e"&gt;EXALOGIC CashRegister Manager&lt;/A&gt; (ECM).&amp;nbsp;V&amp;nbsp;tejto téme &lt;EM&gt;Pomocníka&lt;/EM&gt; je popísaný &lt;STRONG&gt;postup, ako&amp;nbsp;v tejto aplikácii&amp;nbsp;zaevidovať polohu pokladnice&lt;/STRONG&gt;, t. j. údaje, ktoré identifikujú umiestnenie prenosnej pokladnice, na ktorej podnikateľ v&amp;nbsp;danom čase eviduje prijatú tržbu. Údaje o polohe pokladnice sa zasielajú na &lt;EM&gt;Finančnú správu SR&lt;/EM&gt;.&lt;/P&gt;
+&lt;H5&gt;Obrázok č. 1:&amp;nbsp;Zaevidovanie polohy prenosnej pokladnice&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/CashRegisterECM/Device_ECM_Location.PNG"&gt;&lt;/P&gt;
+&lt;H2&gt;Postup zaevidovania&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;Pravým tlačidlom myši kliknite na ikonu&amp;nbsp;aplikácie &lt;EM&gt;EXALOGIC CashRegister Manager&lt;/EM&gt; (štandardne sa&amp;nbsp;zobrazuje na&amp;nbsp;paneli úloh&amp;nbsp;systému &lt;EM&gt;Windows&lt;/EM&gt;) a vyberte možnosť &lt;EM&gt;Spravovať ECM&lt;/EM&gt;. 
+&lt;LI&gt;V záložke &lt;EM&gt;eKasa&lt;/EM&gt; zvoľte položku &lt;EM&gt;Poloha pokladnice&lt;/EM&gt;. 
+&lt;LI&gt;Otvorí sa formulár &lt;EM&gt;Nastavenie polohy pokladnice&lt;/EM&gt;, v ktorom zadajte nasledujúce údaje:&lt;BR&gt;- &lt;STRONG&gt;ak je známa poloha GPS&lt;/STRONG&gt;, zadajte príslušné súradnice;&lt;BR&gt;- &lt;STRONG&gt;ak nie je známa poloha GPS&lt;/STRONG&gt;, zadajte presnú adresu,&lt;BR&gt;- &lt;STRONG&gt;ak nie je známa presná adresa&lt;/STRONG&gt;, uveďte iný spôsob označenia, prípadne umiestnenia pokladnice. 
+&lt;LI&gt;Stlačením tlačidla &lt;EM&gt;OK&lt;/EM&gt; sa nastavenie polohy pokladnice uloží. &lt;/LI&gt;&lt;/OL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="ceba3f88-0dbb-444a-9805-b9993936074a" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="b24ad235-cf7f-43e2-b3e8-ec0f7d92f6b6">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="c16bb97c-730b-4555-a155-43f154427b36" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="cd5f4475-36be-4b51-83ca-c11c8cd12b7e">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="e9baa04b-f2bf-4202-bb2b-a334a6b39b0e">
+      <Keyword m="2019-04-18T06:11:58.2627868Z">ECM - Poloha pokladnice</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="157dadd7-4abb-4305-9570-297d8647afd9">
+      <Keyword m="2021-04-08T07:33:28.6569769Z">EXALOGIC CashRegister Manager - Poloha pokladnice</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="60f9427a-22c4-4e75-9437-f80bad5b5ec8">
+      <Keyword m="2021-04-08T07:37:22.6645271Z">eKasa - ECM - Poloha pokladnice</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

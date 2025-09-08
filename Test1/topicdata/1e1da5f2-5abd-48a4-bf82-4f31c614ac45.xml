@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="1e1da5f2-5abd-48a4-bf82-4f31c614ac45" Status="Complete" CreatedOn="2016-08-16T10:59:26.7331602Z" ModifiedOn="2023-10-04T12:18:38.7413286Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Wages_Start_ProcessingWage" BuildFlags="">
+  <Title m="2014-09-06T19:32:14.4961316Z">Spracovanie mzdy pracovníkovi</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-07-24T10:40:34.3686637Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;postup, ako spracovať mzdu pracovníkovi&lt;/STRONG&gt;. Predpokladá sa, že daný pracovník je zaevidovaný v&amp;nbsp;knihe &lt;A href="8dd60281-9cc7-41fe-9dd2-2ad5c7ffe047"&gt;Pracovníci&lt;/A&gt; a má vytvorený pracovný pomer v&amp;nbsp;knihe &lt;A href="3fced304-5201-4497-bb58-104c1fd77990"&gt;Pracovné pomery pracovníkov&lt;/A&gt;.&lt;/P&gt;
+&lt;H2&gt;Postup&amp;nbsp;spracovania mzdy pracovníkovi&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;Pred samotným spracovaním mzdy pracovníkovi skontrolujte systémový panel a uistite sa, že máte správne nastavené&amp;nbsp;spracovávané obdobie miezd. Prípadnú zmenu obdobia vykonajte v ponuke &lt;EM&gt;Mzdy&lt;/EM&gt;, &lt;EM&gt;Obdobie&lt;/EM&gt;, &lt;A href="d05c58b2-b990-44d8-ac5c-d199b9cde45e" style="auto-update-caption: true"&gt;Zmena spracovávaného obdobia miezd&lt;/A&gt;, prípadne priamo v systémovom paneli. 
+&lt;LI&gt;V programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt; zvoľte ponuku &lt;EM&gt;Mzdy,&amp;nbsp;&lt;/EM&gt;&lt;A href="6923b0c5-166b-4e3b-a53b-71f62b53b2fc"&gt;Tvorba miezd&lt;/A&gt;, prípadne stlačte tlačidlo&amp;nbsp;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Button_Wages.png"&gt;&amp;nbsp;v nástrojovej lište OBERON-u. 
+&lt;LI&gt;Vyberte (označte kurzorom) mzdu, ktorú chcete spracovať. V&amp;nbsp;dolnej časti formulára oddelenej&amp;nbsp;&lt;A href="38489850-ab82-41b6-b258-3fa613ed5861"&gt;rozdeľovacou lištou&lt;/A&gt; sa zobrazí príslušná výplatná páska. 
+&lt;LI&gt;Stlačte tlačidlo &lt;EM&gt;&lt;STRONG&gt;Upraviť mzdu&lt;/STRONG&gt;&lt;/EM&gt;. Otvorí sa&amp;nbsp;&lt;A href="2cd2daa2-afd8-4a7b-9ca3-da8f3c35fec4"&gt;formulár Úprava mzdy&lt;/A&gt;, v ktorom môžete zadávať neprítomnosti v práci,&amp;nbsp;zadávať alebo upravovať jednotlivé mzdové zložky atď. Postup, ako zadať pracovníkovi neprítomnosť v&amp;nbsp;práci, je dostupný v&amp;nbsp;téme&amp;nbsp;&lt;A href="1491b978-c63c-4182-95f4-70eade92f4d5" style="auto-update-caption: true"&gt;Ako zadať neprítomnosť v práci&lt;/A&gt;. 
+&lt;LI&gt;Stlačením tlačidla &lt;I&gt;&lt;STRONG&gt;OK (spracované)&lt;/STRONG&gt;&lt;/I&gt; sa formulár uzatvorí a&amp;nbsp;do údajov na&amp;nbsp;páske sa premietnu&amp;nbsp;vykonané zmeny. Formulár môžete zatvoriť aj tlačidlom &lt;EM&gt;OK (koncept),&lt;/EM&gt; ktorý sa používa na označovanie ešte nespracovaných a nedokončených miezd. 
+&lt;LI&gt;Po spracovaní miezd bude možné &lt;STRONG&gt;výplatné pásky vytlačiť&lt;/STRONG&gt;. Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="6c19c4be-2d19-4f43-9174-1297a9475c47" style="auto-update-caption: true"&gt;Vytlačenie výplatných pások&lt;/A&gt; . 
+&lt;LI&gt;Po spracovaní miezd všetkým pracovníkom je&amp;nbsp;potrebné vykonať&amp;nbsp;&lt;A href="4c0cffe2-a77b-44ea-bb3a-39476f21e420"&gt;mesačnú uzávierku spracovaných&amp;nbsp;miezd&lt;/A&gt;. Tu sa okrem iného generujú aj&amp;nbsp;tlačové výstupy &lt;EM&gt;Mesačný výkaz poistného a príspevkov&lt;/EM&gt; do &lt;EM&gt;Sociálnej poisťovne&lt;/EM&gt;, &lt;EM&gt;Mesačný výkaz preddavkov na poistné&lt;/EM&gt; do zdravotnej poisťovne&amp;nbsp;a súbory určené na export. Po vykonaní uzávierky už &lt;STRONG&gt;nebude možné v&amp;nbsp;aktuálnom mesiaci mzdy ďalej upravovať (spracovávať)&lt;/STRONG&gt;. V&amp;nbsp;prípade potreby vykonania dodatočných zmien v spracovaných mzdách bude však možné uzávierku zrušiť. 
+&lt;LI&gt;Po vykonaní mesačnej uzávierky miezd bude možné výplatné pásky hromadne &lt;STRONG&gt;odoslať elektronickou poštou na e-mailové adresy pracovníkov&lt;/STRONG&gt;. Na individuálne zaslanie výplatnej pásky konkrétnemu pracovníkovi stačí, ak je daná mzda spracovaná (nemusí byť vykonaná mesačná uzávierka miezd). Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="462dcabe-b3eb-4865-8bee-ade16b5faaec" style="auto-update-caption: true"&gt;Zasielanie výplatných pások e-mailom&lt;/A&gt;. &lt;/LI&gt;&lt;/OL&gt;
+&lt;H2&gt;Zadávanie zložiek mzdy pomocou čísla predkontácie&lt;/H2&gt;
+&lt;P&gt;Mzdové zložky je možné zadávať manuálne pomocou tlačidla &lt;STRONG&gt;&lt;EM&gt;Nový&lt;/EM&gt;&lt;/STRONG&gt;, prípadne zrýchlene priamym zadávaním čísla&amp;nbsp;&lt;A href="fc8d8173-0da0-459a-b570-587597ce3315"&gt;mzdovej predkontácie&lt;/A&gt; do poľa &lt;EM&gt;&lt;STRONG&gt;Pridať zložku mzdy&lt;/STRONG&gt;&lt;/EM&gt; (v&amp;nbsp;záložke &lt;EM&gt;Zložky mzdy&amp;nbsp;&lt;/EM&gt;&lt;A href="2cd2daa2-afd8-4a7b-9ca3-da8f3c35fec4"&gt;fomulára Úprava mzdy&lt;/A&gt;).&lt;/P&gt;
+&lt;TABLE style="WIDTH: 66.35%"&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TH width=250&gt;&lt;STRONG&gt;Popis zadania&lt;/STRONG&gt;&lt;/TH&gt;
+&lt;TH&gt;&lt;STRONG&gt;Príklad&lt;/STRONG&gt;&lt;/TH&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=250&gt;Zadanie položky so sumou (tarifou)&lt;/TD&gt;
+&lt;TD&gt;
+&lt;P&gt;&lt;STRONG&gt;1000*505&lt;/STRONG&gt; -&amp;gt;&amp;nbsp;1000 je suma v eurách,&amp;nbsp;505&amp;nbsp;-&amp;nbsp;&lt;EM&gt;Odmena (ročná)&lt;/EM&gt;&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=250&gt;Zadanie položky so sumou (percentom)&lt;/TD&gt;
+&lt;TD&gt;&lt;STRONG&gt;20*501&lt;/STRONG&gt; -&amp;gt;&amp;nbsp;20 % zo základnej mzdy,&amp;nbsp;501 - &lt;EM&gt;Odmena (mimoriadna)&lt;/EM&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=250&gt;Zadanie položky s počtom hodín&lt;/TD&gt;
+&lt;TD&gt;&lt;STRONG&gt;4*405&lt;/STRONG&gt; -&amp;gt;&amp;nbsp;4 hodiny brigádnickej práce&amp;nbsp;v sobotu&amp;nbsp;405 - &lt;EM&gt;Príplatok (práca v&amp;nbsp;sobotu)&lt;/EM&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=250&gt;Zadanie položky s počtom hodín&lt;/TD&gt;
+&lt;TD&gt;&lt;STRONG&gt;8*130&lt;/STRONG&gt; -&amp;gt;&amp;nbsp;8 hodín&amp;nbsp;mzdy za nadčas&amp;nbsp;130 - &lt;EM&gt;Mzda za nadčas&lt;/EM&gt; - program automaticky vygeneruje ďalšiu položku&amp;nbsp;&lt;EM&gt;Príplatok (nadčasový)&lt;/EM&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="be876d0f-3df7-4a28-8ac5-9681ee268330" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="8dd60281-9cc7-41fe-9dd2-2ad5c7ffe047">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="8515b8a1-31b8-4b67-810a-3e799e777453" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="3fced304-5201-4497-bb58-104c1fd77990">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="b8d30ee5-7bb7-4560-b436-819b8c8616a6" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="7a452352-b957-4643-9190-c308ecf20975">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="1db9c56a-5cc6-44e5-bb6f-af8cca7e01d0" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="6923b0c5-166b-4e3b-a53b-71f62b53b2fc">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="46b16978-380e-42cd-b2a4-478d929851fe" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="2cd2daa2-afd8-4a7b-9ca3-da8f3c35fec4">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="ddf03d11-b45e-41ac-8f38-8ddf5f1a92de" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1491b978-c63c-4182-95f4-70eade92f4d5">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="c94723ad-8daa-46cf-85c1-7bb6da58930e" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="fc8d8173-0da0-459a-b570-587597ce3315">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="78f49799-b90c-4e9e-93e0-bb3df3dc9c2d" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="4c0cffe2-a77b-44ea-bb3a-39476f21e420">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="fa756bed-fa0d-4cb6-a611-b6013662bb0d" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="6c19c4be-2d19-4f43-9174-1297a9475c47">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="6932e856-c2f1-474f-83d4-171b1783b907" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="462dcabe-b3eb-4865-8bee-ade16b5faaec">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="cf2b69b3-5536-4c86-8128-b00087c920a2">
+      <Keyword m="2023-07-18T07:38:35.8115051Z">Úprava mzdy pracovníkovi - postup</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="7d131bdb-a545-4606-96d5-039c6e7cc616">
+      <Keyword m="2023-07-18T07:38:49.4062103Z">Postup spracovania mzdy pracovníkovi</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

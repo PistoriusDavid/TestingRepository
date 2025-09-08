@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="3883342c-9ef0-4fd9-8773-88df84f78f65" Status="Complete" CreatedOn="2018-02-23T09:49:47.911323Z" ModifiedOn="2023-11-07T13:09:17.3146133Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Wages_About_Concept_Attendance" BuildFlags="">
+  <Title m="2021-07-07T06:55:41.4077726Z">Dochádzka - všeobecne o koncepcii</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-11-07T13:09:17.3146133Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;všeobecné informácie o jednej z dvoch častí&amp;nbsp;modulu &lt;EM&gt;Mzdy a&amp;nbsp;dochádzka&amp;nbsp;&lt;/EM&gt;&lt;/STRONG&gt;systému OBERON -&lt;STRONG&gt;&lt;EM&gt;&amp;nbsp;Dochádzka&lt;/EM&gt;&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Modul &lt;EM&gt;Mzdy a&amp;nbsp;dochádzka&lt;/EM&gt; predstavuje jeden z modulov systému OBERON, ktorý&amp;nbsp;&lt;STRONG&gt;umožňuje evidovať pracovný čas a dochádzku a&amp;nbsp;spracovávať mzdovú&amp;nbsp;agendu&lt;/STRONG&gt;. Skladá sa&amp;nbsp;z dvoch častí: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;&lt;EM&gt;Dochádzka&lt;/EM&gt;&lt;/STRONG&gt; -&amp;nbsp;plánovanie pracovných zmien, evidencia pracovného času a dochádzky&amp;nbsp;a vytvorenie podkladov pre mzdovú agendu. Všeobecné informácie o tejto&amp;nbsp;časti modulu sú predmetom tejto témy &lt;EM&gt;Pomocníka.&lt;/EM&gt; 
+&lt;LI&gt;&lt;STRONG&gt;&lt;EM&gt;Mzdy&lt;/EM&gt;&lt;/STRONG&gt; - spracovanie miezd a personálnej agendy - všeobecné informácie&amp;nbsp;o tejto časti modulu sa nachádzajú v téme&amp;nbsp;&lt;A href="bf009605-0be8-4286-8ef5-4c7d3b89143a" style="auto-update-caption: true"&gt;Mzdy - všeobecne o koncepcii&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Modul &lt;EM&gt;Mzdy a dochádzka&lt;/EM&gt; je možné používať: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;bez dochádzkového terminálu&lt;/STRONG&gt; -&amp;nbsp;na pracovisku nie je dochádzkový terminál, pracovníci sa pri príchode do práce neprihlasujú cez terminál. V tomto prípade &lt;STRONG&gt;sa neeviduje dochádzka a modul slúži len na plánovanie pracovných zmien&lt;/STRONG&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;s dochádzkovým terminálom&lt;/STRONG&gt; - na pracovisku je softvérový alebo hardvérový&amp;nbsp;dochádzkový terminál, pracovníci sa pri príchode do práce prihlasujú cez terminál. V tomto prípade &lt;STRONG&gt;sa eviduje dochádzka&lt;/STRONG&gt;. Viac informácií o dochádzkových termináloch môžete nájsť&amp;nbsp;v téme&amp;nbsp;&lt;A href="f46f3a8f-ba04-4359-ba99-dc6caeeba021"&gt;Dochádzkové terminály&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Pracovníci&amp;nbsp;firmy a ich osobné údaje, zaradenie vo firme, údaje pre&amp;nbsp;dochádzkový terminál&amp;nbsp;&lt;/STRONG&gt;atď.&amp;nbsp;sa evidujú v evidencii&amp;nbsp;&lt;A href="8dd60281-9cc7-41fe-9dd2-2ad5c7ffe047"&gt;Pracovníci&lt;/A&gt;. &lt;STRONG&gt;Pracovné pomery&lt;/STRONG&gt; priradené&amp;nbsp;&lt;A href="8dd60281-9cc7-41fe-9dd2-2ad5c7ffe047"&gt;pracovníkom&lt;/A&gt;&amp;nbsp;sa evidujú v&amp;nbsp;evidencii&amp;nbsp;&lt;A href="3fced304-5201-4497-bb58-104c1fd77990" style="auto-update-caption: true"&gt;Pracovné pomery pracovníkov&lt;/A&gt;. Jednému pracovníkovi možno priradiť viacero pracovných pomerov. 
+&lt;LI&gt;Najpoužívanejším formulárom na plánovanie dochádzky je&amp;nbsp;&lt;A href="ce9e15f9-7459-4a5c-8bad-db17ef7b59ea"&gt;Pracovný kalendár&lt;/A&gt;&amp;nbsp;- &lt;STRONG&gt;interaktívny formulár,&amp;nbsp;ktorý&amp;nbsp;umožňuje vytvoriť a&lt;EM&gt;&amp;nbsp;&lt;/EM&gt;v&amp;nbsp;grafickom&amp;nbsp;prehľade zobraziť&amp;nbsp;pracovný&amp;nbsp;plán pracovníkov&lt;/STRONG&gt; (rozpis&amp;nbsp;&lt;A href="a77380d9-dc93-41be-9423-aa76a8c7f9f4"&gt;pracovných zmien&lt;/A&gt;, resp. služieb), t. j. dni, v ktoré majú pracovať. Pracovný plán&amp;nbsp;pracovníkov možno &lt;STRONG&gt;vygenerovať&lt;/STRONG&gt; &lt;STRONG&gt;automaticky&lt;/STRONG&gt; na základe nastaveného&amp;nbsp;&lt;A href="0d06308b-64cf-4d51-bc3a-9c262750667d"&gt;pracovného plánu firmy&lt;/A&gt; a&amp;nbsp;&lt;A href="3fced304-5201-4497-bb58-104c1fd77990"&gt;pracovných pomerov pracovníkov&lt;/A&gt;&amp;nbsp;(&lt;A href="95a3b7e2-6135-4860-a655-5724b186b94c"&gt;formulár Pracovný pomer pracovníka&lt;/A&gt;, záložka &lt;EM&gt;Dochádzka&lt;/EM&gt;). Ak&amp;nbsp;účtovná jednotka&amp;nbsp;nebude&amp;nbsp;na evidenciu dochádzky využívať&amp;nbsp;&lt;A href="f46f3a8f-ba04-4359-ba99-dc6caeeba021"&gt;dochádzkový terminál&lt;/A&gt;, môže súčasne s vygenerovaním pracovného plánu &lt;STRONG&gt;vygenerovať&amp;nbsp;jednotlivým pracovníkom aj dochádzku&lt;/STRONG&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;Fyzické prechody pracovníkov dochádzkovými terminálmi&lt;/STRONG&gt; sa zaznamenávajú v knihe&amp;nbsp;&lt;A href="4a82f3bd-3c2b-4ab4-91f7-df0fa039cd5c"&gt;Evidencia príchodov a odchodov&lt;/A&gt;. Prechody zaznamenané dochádzkovými terminálmi sa v&amp;nbsp;knihe vytvárajú automaticky, prechod je však možné vytvoriť aj manuálne, prípadne ho upraviť. 
+&lt;LI&gt;Pri používaní dochádzkového terminálu &lt;STRONG&gt;je možné zistiť, ktorí pracovníci sa aktuálne nachádzajú na pracovisku, mimo pracoviska, prípadne ak nepracujú, dôvod neprítomnosti&lt;/STRONG&gt;. Viac&amp;nbsp;informácií o prítomných pracovníkoch je možné získať v téme&amp;nbsp;&lt;A href="77f4529f-a73f-4a6d-b4fe-02d338cbdafa"&gt;Prítomní pracovníci&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 1: Pracovný kalendár&lt;/H5&gt;
+&lt;H5&gt;&lt;IMG border=0 alt="" src="images/Forms/Attendance/Form_Attendance_WorkingCalendar.png"&gt;&lt;/H5&gt;
+&lt;H2&gt;Ďalšie informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Pre spracovanie miezd je pracovný kalendár &lt;STRONG&gt;dôležitý aj vtedy, keď sa dochádzkový terminál nepoužíva&lt;/STRONG&gt;. Z pracovného kalendára (plánu) sa vypočítavajú hodiny práce v&amp;nbsp;nočnej zmene, práce v sobotu a nedeľu a pod. Následne je možné automaticky vypočítať príplatky za tieto dni (hodiny). 
+&lt;LI&gt;Ponuka &lt;EM&gt;Mzdy, Dochádzka,&lt;/EM&gt; &lt;A href="0d06308b-64cf-4d51-bc3a-9c262750667d"&gt;Pracovné plány firmy&lt;/A&gt; slúži na tvorbu pracovných plánov firmy. Vytvorenie pracovného plánu (preddefinovaného zmenového kalendára) &lt;STRONG&gt;je nevyhnutné pred začatím samotnej evidencie&amp;nbsp;pracovného času a dochádzky&lt;/STRONG&gt;. Pracovný plán firmy&amp;nbsp;pozostáva z&amp;nbsp;pracovných zmien obsiahnutých v rozvrhoch pracovných zmien (v&amp;nbsp;závislosti od typu prevádzky).&amp;nbsp;Pracovné zmeny&amp;nbsp;sa definujú v ponuke &lt;EM&gt;Mzdy, Dochádzka,&amp;nbsp;&lt;/EM&gt;&lt;A href="a77380d9-dc93-41be-9423-aa76a8c7f9f4"&gt;Pracovné zmeny&lt;/A&gt;. 
+&lt;LI&gt;V module je ďalej možné nadefinovať&amp;nbsp;&lt;A href="4eb19cec-64b2-467f-8e96-fa7e5387704c"&gt;časové zložky dochádzky&lt;/A&gt;, jednotlivé&amp;nbsp;&lt;A href="5bfb1129-550c-42bb-9f72-ba0b3687a2b5"&gt;typy prechodov&lt;/A&gt; cez dochádzkový terminál a&amp;nbsp;&lt;A href="05f759ce-29f8-46c1-b195-7dc22fc30cbd"&gt;pravidlá spracovania dochádzky&lt;/A&gt;, ktoré určujú, akým spôsobom sa budú evidovať príchody/odchody do/z práce,&amp;nbsp;&lt;A href="a706e5ad-4717-472f-b1a3-9b368ef39aa4"&gt;prestávky v práci&lt;/A&gt; a&amp;nbsp;&lt;A href="376de250-3bb9-4979-9efd-9feb648ea91f"&gt;nadčasy&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Evidencia dochádzky a evidencia pracovného času&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;V praxi sa evidencia dochádzky často zamieňa s evidenciou pracovného času. Kým povinnosť viesť evidenciu dochádzky (príchodov/odchodov do/zo zamestnania spolu s údajmi o dňoch, keď zamestnanec čerpal dovolenku, náhradné voľno, mal prekážku v práci, neospravedlnenú absenciu a pod.) zákon nestanovuje, povinnosť vedenia &lt;STRONG&gt;evidencie pracovného času&lt;/STRONG&gt; zamestnancov je jednou zo zákonných povinností zamestnávateľa. &lt;SPAN style="COLOR: rgb(0,0,0)"&gt;Evidencia pracovného času sa pritom&amp;nbsp;musí viesť tak, aby bol &lt;STRONG style="COLOR: rgb(255,0,0)"&gt;zaznamenaný začiatok a koniec časového úseku&lt;/STRONG&gt;, v ktorom zamestnanec vykonával prácu alebo mal nariadenú alebo dohodnutú pracovnú pohotovosť&lt;/SPAN&gt;, nestačí teda zaznamenávať len odpracovaný čas alebo čas, v ktorom bol zamestnanec&amp;nbsp;v pracovnej pohotovosti. 
+&lt;LI&gt;Okrem evidencie pracovného času je zamestnávateľ podľa § 99 &lt;EM&gt;Zákonníka práce&lt;/EM&gt; (zákon č. 311/2001 Z. z.) povinný viesť: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;evidenciu práce nadčas&lt;/STRONG&gt; – samostatne sa zaeviduje začiatok a koniec vykonávania práce nadčas, aby sa odlíšila od pracovného času, ktorý je rozvrhovaný; 
+&lt;LI&gt;&lt;STRONG&gt;evidenciu nočnej práce&lt;/STRONG&gt; – samostatne sa eviduje, že daný časový úsek (okrem toho, že sa zaeviduje ako pracovný čas) je aj nočnou prácou. Eviduje sa začiatok a koniec nočnej práce; nočná práca sa vykonáva v čase medzi 22:00 a 6:00; 
+&lt;LI&gt;&lt;STRONG&gt;evidenciu aktívnej časti pracovnej pohotovosti&lt;/STRONG&gt; – čas, keď zamestnanec počas pracovnej pohotovosti vykonáva prácu, je aktívna časť pracovnej pohotovosti, ktorá sa považuje za prácu nadčas; 
+&lt;LI&gt;&lt;STRONG&gt;evidenciu neaktívnej časti pracovnej pohotovosti zamestnanca&lt;/STRONG&gt; – čas, počas ktorého sa zamestnanec zdržiava na pracovisku a je pripravený na výkon práce, ale prácu nevykonáva. Neaktívna časť pracovnej pohotovosti sa nezapočítava do pracovného času. Eviduje sa samostatne (jej začiatok a koniec). &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;V systéme OBERON je možné&amp;nbsp;vedenie evidencie tak&amp;nbsp;dochádzky a&amp;nbsp;pracovného času, ako aj ostatných zákonných evidencií.&lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Licenčné podmienky&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;V&amp;nbsp;obmedzenom režime (na skúšobné účely) je možné s modulom &lt;EM&gt;Mzdy a dochádzka &lt;/EM&gt;pracovať &lt;STRONG&gt;aj bez licencie&lt;/STRONG&gt; - viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="95d188df-c149-46a9-8474-4d9493f2ad41" style="auto-update-caption: true"&gt;Licenčná politika&lt;/A&gt;.
+&lt;LI&gt;Plnohodnotne je možné modul&amp;nbsp;&lt;EM&gt;Mzdy a dochádzka&lt;/EM&gt; používať &lt;STRONG&gt;len s&amp;nbsp;platnou&amp;nbsp;licenciou&lt;/STRONG&gt;. Dôležitým faktorom pri výbere typu licencie&amp;nbsp;je predpokladaný maximálny počet&amp;nbsp;spracovaných miezd za rok, priemerný počet pracovníkov za mesiac, počet pracovníkov, ktorým sa za mesiac vygeneruje pracovný plán a počet pracovníkov, ktorým sa za mesiac spracujú príchody a odchody. Ak budete evidovať dochádzku a spracovávať mzdy pre viacero firiem, využite špeciálnu licenciu určenú pre účtovné firmy - &lt;STRONG&gt;multilicenciu&lt;/STRONG&gt;. Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="644b0685-defe-4ce5-b3cd-e731b5eff299" style="auto-update-caption: true"&gt;Typy licencií&lt;/A&gt;.&lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="e1890918-4d0e-46a0-860b-2ae9e6f3bdaf" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="5387f5a3-4949-4456-95ca-18cc05004cec">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="310a979b-4640-46c9-b9d5-36a4ec41daf1" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="d616cd9f-1633-4d2d-b827-b072f162a1c8">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="4b19fe13-f603-498f-9d99-b2a38cc5c765" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="8883a3ef-5814-4275-8570-ca00cfbc1e93">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="4417f358-579f-45f3-8571-15f4e2d3a9de" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="f46f3a8f-ba04-4359-ba99-dc6caeeba021">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="5ca09573-9f76-4802-87bf-18dba9e14163">
+      <Keyword m="2023-10-03T07:09:07.8036433Z">Všeobecne o koncepcii - dochádzka</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

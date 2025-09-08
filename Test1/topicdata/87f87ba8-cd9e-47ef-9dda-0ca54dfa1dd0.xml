@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="87f87ba8-cd9e-47ef-9dda-0ca54dfa1dd0" Status="Complete" CreatedOn="2018-11-20T10:36:54.7684176Z" ModifiedOn="2024-06-04T07:36:50.2896288Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="20060" Name="ExportImport_On-lineBranchMode_Settings" BuildFlags="">
+  <Title m="2018-11-22T11:49:31.1291873Z">Nastavenie on-line pobočkového režimu</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-06-04T07:36:50.2896288Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; je venovaná &lt;STRONG&gt;postupu nastavenia&amp;nbsp;&lt;/STRONG&gt;&lt;A href="67abf56c-fe22-4bc8-ba77-6a8058a8782f"&gt;on-line pobočkového režimu&lt;/A&gt;&amp;nbsp;v systéme OBERON.&lt;/P&gt;
+&lt;H2&gt;Nastavenie režimu&amp;nbsp;v&amp;nbsp;centrále&lt;/H2&gt;
+&lt;H3&gt;1. Vytvorenie&amp;nbsp;centrálnej databázy&lt;/H3&gt;
+&lt;OL&gt;
+&lt;LI&gt;Vykonajte &lt;A href="19a10c98-2b1d-4fe1-8ab2-98921ab328be"&gt;Inštaláciu OBERON-u&lt;/A&gt;. 
+&lt;LI&gt;Spustite program &lt;EM&gt;OBERON - Agenda firmy.&lt;/EM&gt; 
+&lt;LI&gt;Vo &lt;A href="e975459f-e882-49f2-adb9-79e68a07df0e"&gt;formulári Otvorenie agendy (firmy)&lt;/A&gt; (ponuka &lt;EM&gt;OBERON,&lt;/EM&gt; &lt;EM&gt;Otvorenie agendy (firmy)&lt;/EM&gt;) stlačte tlačidlo &lt;I&gt;Nová firma&lt;/I&gt;. Postupujte podľa návodu v&amp;nbsp;téme&amp;nbsp;&lt;A href="9a485893-6dd2-44e8-9740-a4cd7083a932" style="auto-update-caption: true"&gt;Vytvorenie účtovnej jednotky (databázy)&lt;/A&gt;. 
+&lt;LI&gt;Po vytvorení&amp;nbsp;novej&amp;nbsp;účtovnej jednotky (firmy) je potrebné nadefinovať jej organizačnú štruktúru. Najskôr vytvorte centrálu ako prevádzku&amp;nbsp;firmy. Následne vytvorte ďalšiu prevádzku, ktorá bude predstavovať&amp;nbsp;pobočku firmy, napr. &lt;EM&gt;Predajňa&lt;/EM&gt; (prevádzky sa&amp;nbsp;definujú v&amp;nbsp;ponuke &lt;EM&gt;Firma&lt;/EM&gt;, &lt;A href="a833ee8a-1289-42b9-923f-80f549497702" style="auto-update-caption: true"&gt;Údaje o firme&lt;/A&gt;). 
+&lt;LI&gt;V ponuke &lt;EM&gt;Sklad&lt;/EM&gt;,&amp;nbsp;&lt;A href="1e423d36-8e0a-4420-b2e9-05f12806ec3a" style="auto-update-caption: true"&gt;Sklady&lt;/A&gt; vytvorte sklad, ktorý bude používať pobočka. 
+&lt;LI&gt;V ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="749ff4f1-eeb5-43f5-98d2-021399d8cec7" style="auto-update-caption: true"&gt;Zariadenia&lt;/A&gt; pridajte fiškálne zariadenie, ktoré bude používať pobočka. Zariadenie priraďte k prevádzke. 
+&lt;LI&gt;V ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="225638ed-22f6-4ac4-9085-6d77c64925db" style="auto-update-caption: true"&gt;Používatelia&lt;/A&gt; vytvorte systémového používateľa (napr. &lt;EM&gt;System_Predajna&lt;/EM&gt;).&amp;nbsp;Odporúčame mať&amp;nbsp;ku každej pobočke vytvoreného osobitného systémového používateľa. 
+&lt;LI&gt;V ponuke Servis,&amp;nbsp;&lt;A href="225638ed-22f6-4ac4-9085-6d77c64925db" style="auto-update-caption: true"&gt;Používatelia&lt;/A&gt; vytvorte používateľov, ktorí budú OBERON používať&amp;nbsp;v&amp;nbsp;pobočke. Používateľom je potrebné nadefinovať ich&amp;nbsp;&lt;A href="834e9546-a56b-476f-9028-ef4c24a82345"&gt;práva&lt;/A&gt;. Používateľov je možné vytvoriť aj neskôr priamo v&amp;nbsp;pobočkovej databáze. &lt;/LI&gt;&lt;/OL&gt;
+&lt;H2&gt;Nastavenie režimu&amp;nbsp;v&amp;nbsp;pobočke&lt;/H2&gt;
+&lt;H3&gt;1. Vytvorenie pobočkovej databázy&lt;/H3&gt;
+&lt;OL&gt;
+&lt;LI&gt;V pobočke&amp;nbsp;spustite program &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;. Stlačte ponuku OBERON a vyberte položku&amp;nbsp;&lt;A href="e975459f-e882-49f2-adb9-79e68a07df0e"&gt;Otvorenie firmy (agendy).&lt;/A&gt;&amp;nbsp;Nalistujte databázu centrály a stlačte tlačidlo &lt;EM&gt;&lt;STRONG&gt;OK&lt;/STRONG&gt;&lt;/EM&gt;. Zadajte prihlasovacie údaje. 
+&lt;LI&gt;Stlačte ponuku OBERON a vyberte položku&amp;nbsp;&lt;A href="e975459f-e882-49f2-adb9-79e68a07df0e"&gt;Otvorenie firmy (agendy).&lt;/A&gt;&amp;nbsp;Otvorí sa formulár, v ktorom stlačte tlačidlo &lt;EM&gt;Možnosti&lt;/EM&gt; a vyberte položku &lt;EM&gt;Vytvorenie pobočkovej databázy&lt;/EM&gt;. &amp;nbsp;&amp;nbsp;&amp;nbsp; 
+&lt;LI&gt;Otvorí sa sprievodca, pomocou ktorého možno jednorazovo vytvoriť novú databázu pre pobočku (prevádzku). Databáza&amp;nbsp;sa vytvorí ako čiastočná kópia centrálnej databázy. 
+&lt;LI&gt;Zvoľte prevádzku, pre ktorú sa má vytvoriť lokálna databáza. Ak sa v zozname nenachádza, vytvorte novú. 
+&lt;LI&gt;V ďalšom kroku nastavte databázový systém. Lokálna databáza prevádzky môže byť ľubovoľného databázového systému, odporúča sa však SQL server. 
+&lt;LI&gt;Automatická úloha v programe &lt;EM&gt;OBERON Center&lt;/EM&gt; sa bude pripájať k databáze v&amp;nbsp;centrále.&amp;nbsp;V nasledujúcom kroku&amp;nbsp;je potrebné vybrať systémového používateľa OBERON-u, pod ktorým sa bude toto pripojenie vykonávať. 
+&lt;LI&gt;Vzhľadom na to, že v&amp;nbsp;pobočke môže existovať viac počítačov, je ďalej potrebné určiť, na ktorom počítači sa bude synchronizácia vykonávať. Názov počítača a používateľa je možné nastaviť aj neskôr v&amp;nbsp;programe &lt;EM&gt;OBERON Center&lt;/EM&gt;. 
+&lt;LI&gt;Do lokálnej databázy&amp;nbsp;pobočky sa z centrálnej databázy skopírujú len vybrané údaje:&lt;BR&gt;&amp;nbsp;&amp;nbsp; - zoznam používateľov,&lt;BR&gt;&amp;nbsp;&amp;nbsp; - zoznam pokladníc,&lt;BR&gt;&amp;nbsp;&amp;nbsp; - obchodní partneri,&lt;BR&gt;&amp;nbsp;&amp;nbsp; - údaje o pracovníkoch - ak sa&amp;nbsp;v&amp;nbsp;pobočke eviduje dochádzka. 
+&lt;LI&gt;Po stlačení tlačidla &lt;EM&gt;Dokončiť&lt;/EM&gt; sa vytvorí nová lokálna databáza prevádzky. Pobočková databáza sa bude od centrálnej databázy odlišovať názvom -&amp;nbsp;za názvom firmy bude mať&amp;nbsp;dodatok&amp;nbsp;&lt;EM&gt;_LOCAL&lt;/EM&gt;. &lt;/LI&gt;&lt;/OL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;V prípade, že pobočka bude používať &lt;EM&gt;Pokladnicu OBERON&lt;/EM&gt;, je potrebné nastaviť fiškálne zariadenie, prípadne skontrolovať jeho nastavenia.&amp;nbsp;Fiškálne zariadenie sa nastavuje&amp;nbsp;v&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="749ff4f1-eeb5-43f5-98d2-021399d8cec7"&gt;Zariadenia&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H3&gt;2. Nastavenie v programe OBERON Center&lt;/H3&gt;
+&lt;OL&gt;
+&lt;LI&gt;Otvorte program &lt;A href="24e780fd-36d3-4a6e-bfc0-a8665c75e4ee"&gt;OBERON Center&lt;/A&gt;&amp;nbsp;na počítači pobočky. 
+&lt;LI&gt;V&amp;nbsp;oddiele &lt;EM&gt;Automatické úlohy&lt;/EM&gt; kliknite na&amp;nbsp;tlačidlo výberu&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_ListButton.png"&gt;&amp;nbsp;a vyberte &lt;STRONG&gt;databázu pobočky&lt;/STRONG&gt; (nie centrálnu databázu). 
+&lt;LI&gt;Stlačte&amp;nbsp;tlačidlo&amp;nbsp;&lt;EM&gt;Pridať&lt;/EM&gt;. Otvorí sa formulár, v ktorom zadajte, resp. vyberte:&lt;BR&gt;- &lt;STRONG&gt;Typ úlohy&lt;/STRONG&gt; - vyberte &lt;EM&gt;On-line pobočková synchronizácia&lt;/EM&gt;,&lt;BR&gt;- &lt;STRONG&gt;Názov&lt;/STRONG&gt; - pomenovanie úlohy,&lt;BR&gt;- &lt;STRONG&gt;Vykonávať na počítači&lt;/STRONG&gt; - na&amp;nbsp;ktorom počítači&amp;nbsp;sa bude&amp;nbsp;úloha vykonávať,&lt;BR&gt;- &lt;STRONG&gt;Vykonávať pod používateľom -&lt;/STRONG&gt; používateľ systému &lt;EM&gt;Windows&lt;/EM&gt;. 
+&lt;LI&gt;Stlačte tlačidlo &lt;EM&gt;Nastaviť&lt;/EM&gt;. Otvorí sa&amp;nbsp;&lt;A href="646bf512-f7a3-46c1-a594-962602ba58d7"&gt;formulár Nastavenie automatickej úlohy 'On-line pobočková synchronizácia'&lt;/A&gt;. 
+&lt;LI&gt;V záložke &lt;EM&gt;Databáza&lt;/EM&gt; nastavte databázu centrály. 
+&lt;LI&gt;V záložke &lt;EM&gt;Zložky&lt;/EM&gt; &lt;EM&gt;synchronizácie&lt;/EM&gt; stlačte tlačidlo &lt;EM&gt;Nový&lt;/EM&gt; a nastavte, ktoré typy (evidencie) sa budú synchronizovať. &lt;/LI&gt;&lt;/OL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Po vytvorení databázy v&amp;nbsp;pobočke sa automaticky všetky sklady pobočky nastavia s príznakom externý sklad. Externý sklad je&amp;nbsp;&lt;A href="1e423d36-8e0a-4420-b2e9-05f12806ec3a"&gt;sklad&lt;/A&gt;,&amp;nbsp;v&amp;nbsp;ktorom &lt;STRONG&gt;sa reálne nevedie skladová evidencia&lt;/STRONG&gt;&amp;nbsp;(na pobočke sa nevytvárajú príjemky, výdajky, tie sa&amp;nbsp;vytvárajú len&amp;nbsp;v&amp;nbsp;centrále).&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="8f274822-b6e3-4688-928d-3420605ac1f0" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="4b2b3447-f2f1-4bbe-9d21-3d87994bfba8">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="9f6b97a4-947a-4f41-bafc-0e546fac665e" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="67abf56c-fe22-4bc8-ba77-6a8058a8782f">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="1dc790be-ccc1-402b-a3d7-f3b956213eeb">
+      <Keyword m="2021-05-20T09:19:38.0921834Z">On-line pobočkový režim - nastavenie</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

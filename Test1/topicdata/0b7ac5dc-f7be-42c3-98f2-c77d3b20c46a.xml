@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="0b7ac5dc-f7be-42c3-98f2-c77d3b20c46a" Status="Complete" CreatedOn="2025-06-03T10:43:54.0948771Z" ModifiedOn="2025-06-03T10:44:16.0965113Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="OBERON_News_2025_04" BuildFlags="{4AAE0FD4-7313-4FEE-A25F-0785B885F736},826B51BD-B6F0-4B2C-A814-029E169D018F">
+  <Title m="2025-06-03T10:44:16.0955112Z">Čo bolo nové vo verzii Apríl/2025</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2025-06-03T10:43:59.7837341Z">&lt;P&gt;Dňa 22.04.2025&amp;nbsp;bola&amp;nbsp;vydaná&amp;nbsp;nová verzia ekonomického systému OBERON s&amp;nbsp;označením &lt;STRONG&gt;Apríl/2025&lt;/STRONG&gt;. V&amp;nbsp;nasledujúcej časti sú vymenované najdôležitejšie novinky, vylepšenia a&amp;nbsp;opravy oproti verzii&amp;nbsp;&lt;STRONG&gt;Marec/2025&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;H2&gt;OBERON&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Prihlásenie používateľa&lt;/STRONG&gt; - v prihlasovacom formulári používateľa pribudla po zadaní hesla možnosť &lt;EM&gt;Uložiť heslo&lt;/EM&gt;. Vďaka tejto funkcii nebude pri nasledujúcom spustení OBERON-u potrebné zadávať heslo. Uloženie hesla využite len ak nezdieľate počítač s inými používateľmi. 
+&lt;LI&gt;&lt;STRONG&gt;Zmena hesla&lt;/STRONG&gt; - vo formulári na zmenu hesla používateľa do programu pribudla funkcia na reset hesla. Ten môže používateľ vykonať kedykoľvek, aj bez potreby kontaktovať svojho správcu systému OBERON. Pri resete hesla sa používateľovi zasiela e-mailová správa, ktorá obsahuje odkaz na reset hesla. Po kliknutí na odkaz sa heslo automaticky resetuje (vymaže). Samozrejme, reset (vymazanie) hesla používateľa možno vykonať&amp;nbsp; v zozname používateľov ako&amp;nbsp; doposiaľ - môže tak kedykoľvek vykonať správca systému OBERON. 
+&lt;LI&gt;&lt;STRONG&gt;Heslo do SQL servera&lt;/STRONG&gt; - pribudla vyššia ochrana hesla do SQL servera v počítači používateľa. Bola zrušená možnosť zvoliť spôsob šifrovania hesla (bežná a vysoká bezpečnosť) a bude sa používať len vysoká bezpečnosť, t.&amp;nbsp;j. šifrovací kľúč na uloženie hesla bude závislý od hardvéru počítača. 
+&lt;LI&gt;&lt;STRONG&gt;Webové služby&lt;/STRONG&gt; - pribudli nové funkcie na načítanie pokladničných dokladov (bločkov), ako aj aktualizovanie stavu objednávky. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Skladová evidencia&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Rekapitulácia dokladu&lt;/STRONG&gt; - bola upravená metodika výpočtu rekapitulácie súm dokladu DPH, kde najmä pri malých sumách dochádzalo k centovým rozdielom. 
+&lt;LI&gt;&lt;STRONG&gt;Skladové karty&lt;/STRONG&gt; - príznak &lt;EM&gt;Dočasne nedostupné&lt;/EM&gt; je možné nastaviť aj u položiek, na ktorých zostatkové množstvo je nenulové (pôvodne len pri nulovom množstve). 
+&lt;LI&gt;&lt;STRONG&gt;Tlač cenoviek&lt;/STRONG&gt; - pri tlači cenoviek a voľby podľa pravidla rozšírenej cenotvorby (napr. len položky v akcii) pribudla možnosť ignorovať skladové položky, u ktorých je nastavený príznak &lt;EM&gt;Dočasne nedostupné&lt;/EM&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Pokladnica OBERON&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;eKasa FiskalPRO&lt;/STRONG&gt; - boli vykonané drobné úpravy na ošetrenie rôznych chybových stavov. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Mzdy a dochádzka&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Ročné hlásenie o vyúčtovaní dane&lt;/STRONG&gt; - hlásenie bolo aktualizované podľa súčasne platnej legislatívy.&lt;BR&gt;&lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget layout="block" type="Caution Box"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;SPAN&gt;V prípade preskočenia viacerých verzií programu je dôležité si prečítať informácie o novinkách, vylepšeniach a opravách&amp;nbsp;aj&amp;nbsp;z&amp;nbsp;&lt;A href="dc832235-0e36-4aac-ae54-e51641eb2f50"&gt;predchádzajúcich verzií&lt;/A&gt;&lt;STRONG&gt;.&lt;/STRONG&gt; V&amp;nbsp;niektorej z predošlých verzií mohlo dôjsť k&amp;nbsp;dôležitým zmenám, o&amp;nbsp;ktorých je v niektorých prípadoch nevyhnutné vedieť.&lt;/SPAN&gt;&lt;/innovasys:widgetproperty&gt; &lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="c7357ab9-e0d8-47e3-b432-b3034ba1bd58" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="dc832235-0e36-4aac-ae54-e51641eb2f50">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="0aff6ea2-d3f9-4c1e-9000-f2192f9f2edc">
+      <Keyword m="2014-11-24T11:38:34.3847265Z">Verzia</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

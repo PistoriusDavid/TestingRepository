@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="90dfd66e-297e-41e9-9796-5f3c43ed111d" Status="Complete" CreatedOn="2016-07-21T06:59:32.0556396Z" ModifiedOn="2024-08-07T06:49:40.8513536Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="20050" Name="ProgramControls_RecycleBin" BuildFlags="">
+  <Title m="2016-07-22T07:52:39.9262884Z">Kôš - vymazanie a obnova záznamov</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-08-07T06:49:40.8513536Z">&lt;P&gt;Vo vybraných evidenciách (knihách) systému OBERON je k dispozícii aj funkcia &lt;EM&gt;Kôš&lt;/EM&gt;. &lt;STRONG&gt;Možnosti mazania a prípadnej obnovy záznamov v týchto&amp;nbsp;evidenciách&lt;/STRONG&gt; popisuje táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&amp;nbsp;&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;V&amp;nbsp;jednotlivých evidenciách systému OBERON sa&amp;nbsp;záznam vymazaním spravidla definitívne a nevratne vymaže.&amp;nbsp;Vo vybraných&amp;nbsp;evidenciách &lt;STRONG&gt;sa však údaje&amp;nbsp;bežným vymazaním nevymažú,&amp;nbsp;len sa presunú&amp;nbsp;do koša&lt;/STRONG&gt;. Takto vymazané záznamy&amp;nbsp;je možné z&amp;nbsp;koša obnoviť, prípadne vyprázdnením koša nevratne vymazať. &lt;STRONG&gt;Záznamy v koši ostávajú zachované, pokiaľ nebudú natrvalo odstránené&lt;/STRONG&gt; pomocou funkcie &lt;EM&gt;Vyprázdniť kôš&lt;/EM&gt;. 
+&lt;LI&gt;Funkcia &lt;EM&gt;Kôš&lt;/EM&gt; je dostupná &lt;STRONG&gt;len vo vybraných&amp;nbsp;evidenciách&lt;/STRONG&gt;, spravidla takých, ktoré nie sú dokladové.&amp;nbsp;Podpora koša je napríklad v evidencii&amp;nbsp;&lt;A href="b7a48886-b367-4056-808a-59ba5f871f32"&gt;obchodných partnerov&lt;/A&gt;,&amp;nbsp;v&amp;nbsp;&lt;A href="a2807e3b-d8b1-4d61-a3b9-63df2783bfda"&gt;úlohách a udalostiach&lt;/A&gt;, v&amp;nbsp;registratúrnom denníku, v zozname pracovníkov, v stálych platbách, v&amp;nbsp;príkazoch na úhradu, v knihe rezervácií ubytovania a&amp;nbsp;pod. 
+&lt;LI&gt;Nastavenie zobrazovania záznamov v&amp;nbsp;koši a možnosť vyprázdniť (vysypať) kôš&amp;nbsp;sú dostupné vo&amp;nbsp;&lt;A href="124da68e-c3f0-43e4-9466-60b4916bfc41"&gt;formulári Vlastnosti&lt;/A&gt;. Tu je možné nastaviť, či sa v evidencii majú zobraziť aj záznamy v&amp;nbsp;koši, t. j. tie,&amp;nbsp;ktoré už boli vymazané.&amp;nbsp;Záznamy v koši (vymazané záznamy)&amp;nbsp;sa v tomto prípade zobrazujú ako &lt;STRONG&gt;prečiarknuté&lt;/STRONG&gt;. Vymazané záznamy v&amp;nbsp;koši nie je možné upravovať, v&amp;nbsp;prípade potreby&amp;nbsp;je možné jeden konkrétny záznam z koša obnoviť, prípadne&amp;nbsp;natrvalo vymazať (stlačením tlačidla &lt;EM&gt;Vymazať)&lt;/EM&gt;. 
+&lt;LI&gt;Používateľom je možné nastaviť&amp;nbsp;&lt;A href="834e9546-a56b-476f-9028-ef4c24a82345"&gt;právo&lt;/A&gt; na vymazanie (odstraňovanie) záznamov, prípadne na vyprázdňovanie koša. V prípade, že má používateľ nastavený obmedzený prístup (modrý kľúčik) k&amp;nbsp;danej evidencii, bude môcť záznamy vymazávať, ale nebude môcť&amp;nbsp;vyprázdniť kôš. Vyprázdniť kôš môže len používateľ s plným prístupom (zelený kľúčik) k&amp;nbsp;danej evidencii. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Ako zobraziť len vymazané údaje&lt;/H2&gt;
+&lt;P&gt;Zobraziť len vymazané údaje&amp;nbsp;(údaje z koša) je možné takto:&lt;/P&gt;
+&lt;OL&gt;
+&lt;LI&gt;V evidencii, v ktorej existuje kôš na vymazané záznamy, stlačte tlačidlo &lt;EM&gt;Vlastnosti&lt;/EM&gt;. 
+&lt;LI&gt;Otvorí sa&amp;nbsp;&lt;A href="124da68e-c3f0-43e4-9466-60b4916bfc41"&gt;formulár Vlastnosti&lt;/A&gt;, v záložke &lt;EM&gt;Nastavenie zoznamu&lt;/EM&gt; začiarknite možnosť &lt;EM&gt;Zobraziť aj záznamy v koši&lt;/EM&gt;. 
+&lt;LI&gt;V tom istom formulári v záložke &lt;EM&gt;Filtre&lt;/EM&gt; vytvorte filter &lt;EM&gt;Len vymazané&lt;/EM&gt;. Ďalšie informácie o vytváraní filtrov získate v téme&amp;nbsp;&lt;A href="1ea156c6-edd0-46e0-ab65-7f41af30e672" style="auto-update-caption: true"&gt;Používanie filtrov&lt;/A&gt;. 
+&lt;LI&gt;V evidencii budú zobrazené len záznamy v koši. &lt;/LI&gt;&lt;/OL&gt;
+&lt;H2&gt;Obnova údajov&amp;nbsp;&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Je potrebné mať na zreteli, že pri vymazávaní záznamov sa záznamy vlastne neodstránia, len sa&amp;nbsp;im nastaví príznak, že boli vymazané. Záznam, ktorý bol odstránený omylom, je možné obnoviť&amp;nbsp;po stlačení tlačidla &lt;EM&gt;Možnosti&lt;/EM&gt;, &lt;EM&gt;Obnoviť vymazaný záznam&lt;/EM&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 1: Vymazanie obchodného partnera&lt;/H5&gt;
+&lt;P&gt;&lt;IMG style="BORDER-TOP: black 1px solid; BORDER-RIGHT: grey 1px solid; BORDER-BOTTOM: grey 1px solid; BORDER-LEFT: grey 1px solid" border=0 src="images/BasicInformation/ProgramControls/ProgramControl_RecycleBin_Delete.png"&gt;&lt;/P&gt;
+&lt;H5&gt;Obrázok č. 2: Manuálne vymazanie záznamu z koša&lt;/H5&gt;
+&lt;P&gt;&lt;IMG style="BORDER-TOP: black 1px solid; BORDER-RIGHT: grey 1px solid; BORDER-BOTTOM: grey 1px solid; BORDER-LEFT: grey 1px solid" border=0 src="images/BasicInformation/ProgramControls/ProgramControl_RecycleBin_DeleteFinal.png"&gt;&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="8ca01013-94e7-4184-acbf-3e83f48a6c20" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="124da68e-c3f0-43e4-9466-60b4916bfc41">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="0bcb09c9-1aa8-4611-8b81-6caf6d0cff17" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="493f5942-f267-4f98-a46d-8acc745b9b88">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="14c7d149-777e-480a-a949-b501a762ff1e" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="c47b2846-a02e-4066-992b-cc976cd8a717">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="ea96f944-69aa-484e-9eb4-d7c733dc8ad1">
+      <Keyword m="2022-12-14T13:56:01.5940228Z">Mazanie a obnova záznamov - kôš</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="428381b2-474c-4075-98f6-16d793c338a9">
+      <Keyword m="2022-12-14T13:56:05.9626083Z">Obnova záznamov - kôš</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

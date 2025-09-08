@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="2c463344-2e7a-4599-8afb-f5d06c2366e0" Status="Complete" CreatedOn="2020-09-21T11:48:24.1067784Z" ModifiedOn="2022-02-15T14:04:38.3942915Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="ExportImport_Export_Documents" BuildFlags="">
+  <Title m="2022-02-08T11:31:44.8605656Z">Export dokladov do iných softvérov</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2022-02-15T14:04:38.3942915Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; je venovaná spravidla &lt;STRONG&gt;opakovaným&amp;nbsp;exportom dokladov&lt;/STRONG&gt; (faktúr...) &lt;STRONG&gt;zo systému&amp;nbsp;OBERON do&amp;nbsp;iných softvérov&lt;/STRONG&gt;, a to&amp;nbsp;vo formáte XML&amp;nbsp;v rámci tzv.&amp;nbsp;&lt;A href="56f661c6-24da-46aa-b157-5d988cbe792b"&gt;XML komunikácie&lt;/A&gt;. Obsahuje tak &lt;STRONG&gt;základné informácie o&amp;nbsp;problematike, ako aj postup exportu vydanej faktúry do formátu EDITEL XML&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Vo vybraných&amp;nbsp;dokladových evidenciách systému OBERON je okrem možnosti&amp;nbsp;&lt;A href="c4bb279e-a2ba-4690-83b9-efb2e11cc077"&gt;opakovaného importu dokladov z iných softvérov&lt;/A&gt;&amp;nbsp;(faktúr, príjemiek...) vo formáte XML (prípadne CSV)&amp;nbsp;dostupná aj&amp;nbsp;možnosť &lt;STRONG&gt;opakovaného exportu dokladov (faktúr)&amp;nbsp;do&amp;nbsp;iných softvérov&amp;nbsp;vo formáte XML&lt;/STRONG&gt;, a&amp;nbsp;to v rámci tzv.&amp;nbsp;&lt;A href="56f661c6-24da-46aa-b157-5d988cbe792b"&gt;XML komunikácie&lt;/A&gt;&lt;STRONG&gt;&amp;nbsp;&lt;/STRONG&gt;- viac informácií o tomto spôsobe komunikácie získate v téme&amp;nbsp;&lt;A href="56f661c6-24da-46aa-b157-5d988cbe792b" style="auto-update-caption: true"&gt;Všeobecne o XML komunikácii&lt;/A&gt;. 
+&lt;LI&gt;XML komunikácia v systéme OBERON je založená na súboroch XML, ktoré sú presne špecifického formátu (ide o tzv. &lt;STRONG&gt;natívny formát OBERON XML&lt;/STRONG&gt;). Na konverziu údajov do&amp;nbsp;iného&amp;nbsp;softvéru s&amp;nbsp;odlišnou štruktúrou&amp;nbsp;súboru XML&amp;nbsp;(prípadne iného formátu ako XML)&amp;nbsp;je možné&amp;nbsp;využiť &lt;A href="50adcd4a-de72-439e-895f-021cd9537535"&gt;transformačné šablóny XSLT&lt;/A&gt;, ktoré sú dostupné v&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="a1ae5eb5-f369-4aab-80b2-c6585166d550"&gt;Správca doplnkov&lt;/A&gt;, oddiel &lt;EM&gt;XML&lt;/EM&gt;. 
+&lt;LI&gt;Pravidlá&amp;nbsp;daného exportu sa určujú pomocou&amp;nbsp;&lt;A href="ab9d497d-fd18-4185-a487-28e3bf04cecf"&gt;nastavení XML komunikácie&lt;/A&gt; (napr. spôsob konverzie údajov, výber transformačnej šablóny). V&amp;nbsp;rámci&amp;nbsp;&lt;A href="2b1c8088-fe6c-4fab-bf73-6947c2bec31e"&gt;podrobných nastavení XML komunikácie&lt;/A&gt; je možné nastaviť sklad,&amp;nbsp;z&amp;nbsp;ktorého sa má export vykonať, a&amp;nbsp;či sa majú exportovať aj základné, resp. rozšírené údaje skladových kariet, na základe ktorých sa pri následnom importe bude môcť z&amp;nbsp;položky dokladu&amp;nbsp;&lt;STRONG&gt;automaticky vytvoriť daná skladová karta&lt;/STRONG&gt; v prípade, že sa v cieľovej databáze nenachádza. 
+&lt;LI&gt;Export a&amp;nbsp;následný import&amp;nbsp;dokladov umožňuje zásadne znížiť&amp;nbsp;prácnosť zaevidovania dokladov, šetriť čas a&amp;nbsp;eliminovať chybovosť pri evidovaní dokladov. 
+&lt;LI&gt;Zo systému OBERON je možné exportovať&amp;nbsp;nasledujúce doklady&amp;nbsp;do iných&amp;nbsp;softvérov (formátov):&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/LI&gt;&lt;/UL&gt;
+&lt;TABLE style="WIDTH: 35%" borderColor=silver cellPadding=2 border=1&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TD width="7.5%"&gt;&lt;/TD&gt;
+&lt;TD bgColor=#d9e1f2 width="3%" align=center&gt;&lt;STRONG&gt;EDITEL&lt;/STRONG&gt; (&lt;EM&gt;EDI&lt;/EM&gt;)&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;STRONG&gt;Export&amp;nbsp;vydanej faktúry (pohľadávky)&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;
+&lt;UL&gt;
+&lt;LI&gt;Okrem uvedeného formátu je možné zo systému OBERON&amp;nbsp;exportovať doklady aj do ďalších formátov - vyžaduje sa však konverzia údajov vo vlastnej réžii, resp.&amp;nbsp;vytvorenie príslušnej transformačnej šablóny XSLT - viac informácií je možné získať v téme&amp;nbsp;&lt;A href="bdd6c3d1-daaa-4c3f-94be-af2784f716ae"&gt;Transformačné šablóny XSLT na mieru&lt;/A&gt;. 
+&lt;LI&gt;Pri exporte do formátu &lt;STRONG&gt;EDITEL&lt;/STRONG&gt; je najskôr potrebné nainštalovať doplnok &lt;EM&gt;Transformačné šablóny pre export faktúr vo formáte EDITEL&lt;/EM&gt; (dostupný v ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="a1ae5eb5-f369-4aab-80b2-c6585166d550"&gt;Správca doplnkov&lt;/A&gt;, oddiel &lt;EM&gt;XML&lt;/EM&gt;). Transformačná šablóna automaticky upraví formát OBERON XML na EDITEL XML. V ďalšom kroku je potrebné nastaviť&amp;nbsp;parametre exportu v&amp;nbsp;nastaveniach XML komunikácie (spôsob konverzie údajov,&amp;nbsp;výber transformačnej šablóny, prípadne&amp;nbsp;sklad,&amp;nbsp;z&amp;nbsp;ktorého sa má export vykonať, a&amp;nbsp;či sa majú exportovať aj základné, resp. rozšírené údaje skladových kariet). Napokon&amp;nbsp; je potrebné zadať &lt;STRONG&gt;číslo&lt;/STRONG&gt; &lt;STRONG&gt;GLN&amp;nbsp;&lt;/STRONG&gt;firmy v&amp;nbsp;&lt;A href="a833ee8a-1289-42b9-923f-80f549497702"&gt;údajoch o firme&lt;/A&gt; a priradiť&amp;nbsp;číslo&amp;nbsp;GLN obchodnému partnerovi&amp;nbsp;(vo&amp;nbsp;&lt;A href="4fbe9db8-25bc-420f-aee5-228d0a8ff03f"&gt;formulári Obchodný partner&lt;/A&gt;, záložka &lt;EM&gt;Kontakt&lt;/EM&gt;, sekcia &lt;EM&gt;Ďalšie údaje&lt;/EM&gt;). &lt;STRONG&gt;Bez týchto údajov systém vyhodnotí&amp;nbsp;EDI faktúru ako chybnú&lt;/STRONG&gt;. Po týchto nastaveniach je možné pristúpiť k&amp;nbsp;samotnému exportu (ponuka &lt;EM&gt;Fakturácia&lt;/EM&gt;,&amp;nbsp;&lt;A href="5c21adcc-87c8-44e7-981d-02902635693d"&gt;Kniha pohľadávok&lt;/A&gt;, tlačidlo &lt;EM&gt;Možnosti - XML komunikácia - export údajov&lt;/EM&gt; (pozri postup nižšie). &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt; 
+&lt;P&gt;V prípade inštalácie transformačnej šablóny na export dokladov zo &lt;EM&gt;Správcu doplnkov&lt;/EM&gt; sa&amp;nbsp;v ponuke &lt;EM&gt;Servis,&amp;nbsp;&lt;/EM&gt;&lt;A href="ec3ff388-810d-4d3c-b220-f3c89133ea79"&gt;Nastavenia XML komunikácie&lt;/A&gt;&amp;nbsp;automaticky vytvorí príslušné&amp;nbsp;nastavenie (napr.&amp;nbsp;&lt;EM&gt;Export vydanej FA do formátu Editel XML - OBERON-&amp;gt;EDITEL&lt;/EM&gt;) s nastaveným spôsobom konverzie a vybratou príslušnou transformačnou šablónou.&amp;nbsp;Manuálne nastaviť je v&amp;nbsp;ňom však potrebné &lt;STRONG&gt;ďalšie parametre v prípade, že sa položky dokladu&lt;/STRONG&gt; &lt;STRONG&gt;majú vyexportovať ako skladové&lt;/STRONG&gt; (sklad,&amp;nbsp;nastavenie exportu základných, resp. rozšírených údajov skladovej karty atď.). V opačnom prípade sa položky dokladu vyexportujú ako &lt;STRONG&gt;neskladové&lt;/STRONG&gt;.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Globálne lokalizačné číslo (GLN)&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Globálne lokalizačné číslo - GLN&amp;nbsp;(&lt;STRONG&gt;G&lt;/STRONG&gt;lobal &lt;STRONG&gt;L&lt;/STRONG&gt;ocation &lt;STRONG&gt;N&lt;/STRONG&gt;umber) slúži na &lt;STRONG&gt;jedinečnú identifikáciu spoločnosti, ako právneho subjektu alebo konkrétneho miesta v spoločnosti&lt;/STRONG&gt; (napr. rampy alebo regálu). Číslo GLN je jedinečné na celom svete. Využíva sa v preprave a pri elektronickej komunikácii (EDI). 
+&lt;LI&gt;GLN&amp;nbsp;je jednoduchším vyjadrením adresy alebo konkrétneho miesta, s ktorým môže rovnako rýchlo a efektívne pracovať človek aj prístroj. Je to trinásťmiestny kód, ktorý sa pomocou aplikačných identifikátorov zobrazuje čiarovým kódom GS1-128. 
+&lt;LI&gt;Každý člen &lt;EM&gt;&lt;STRONG&gt;GS1 Slovakia&lt;/STRONG&gt;&lt;/EM&gt; má pridelené aspoň jedno GLN, ktoré je uvedené na rozhodnutí o pridelených číslach. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 1: Zadanie&amp;nbsp;čísla GLN firmy&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/Invoices/Form_Invoices_Export_GLN_Firm.PNG"&gt;&lt;/P&gt;
+&lt;H5&gt;Obrázok č. 2: Zadanie čísla GLN&amp;nbsp;obchodného partnera vo formulári &lt;EM&gt;Obchodný partner&lt;/EM&gt;, záložka &lt;EM&gt;Kontakt&lt;/EM&gt;, sekcia &lt;EM&gt;Ďalšie údaje&lt;/EM&gt;&lt;/H5&gt;
+&lt;P&gt;&amp;nbsp;&lt;IMG border=0 alt="" src="images/Forms/Invoices/Form_Invoices_Export_GLN_Partner.PNG"&gt;&lt;/P&gt;
+&lt;H2&gt;Postup exportu&amp;nbsp;vydanej faktúry&amp;nbsp;do formátu EDITEL&lt;/H2&gt;
+&lt;H3&gt;Inštalácia doplnku&lt;/H3&gt;
+&lt;OL&gt;
+&lt;LI&gt;V&amp;nbsp;programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt; v&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt; zvoľte položku&amp;nbsp;&lt;A href="a1ae5eb5-f369-4aab-80b2-c6585166d550"&gt;Správca doplnkov&lt;/A&gt;. 
+&lt;LI&gt;V oddiele &lt;EM&gt;XML&lt;/EM&gt; vyberte&amp;nbsp;doplnok &lt;EM&gt;&lt;STRONG&gt;Transformačné šablóny pre export faktúr vo formáte EDITEL&lt;/STRONG&gt;&lt;/EM&gt; a stlačte tlačidlo &lt;EM&gt;Inštalovať&lt;/EM&gt;. 
+&lt;LI&gt;Otvorí sa sprievodca inštaláciou, postupujte podľa pokynov. Po stlačení tlačidla &lt;EM&gt;Dokončiť&lt;/EM&gt; sa doplnok nainštaluje do adresára &lt;EM&gt;C:\OBERON\Data_System\XMLTransform&lt;/EM&gt;. 
+&lt;LI&gt;Zároveň sa&amp;nbsp;v ponuke &lt;EM&gt;Servis,&amp;nbsp;&lt;/EM&gt;&lt;A href="ec3ff388-810d-4d3c-b220-f3c89133ea79"&gt;Nastavenia XML komunikácie&lt;/A&gt;&amp;nbsp;automaticky vytvorí nastavenie&amp;nbsp;&lt;EM&gt;Export vydanej FA do formátu Editel XML - OBERON-&amp;gt;EDITEL&lt;/EM&gt; s nastaveným spôsobom konverzie a vybratou príslušnou transformačnou šablónou. &lt;/LI&gt;&lt;/OL&gt;
+&lt;H3&gt;Nastavenie XML komunikácie&lt;/H3&gt;
+&lt;OL&gt;
+&lt;LI&gt;V ponuke &lt;EM&gt;Servis&lt;/EM&gt; zvoľte položku&amp;nbsp;&lt;A href="ec3ff388-810d-4d3c-b220-f3c89133ea79" style="auto-update-caption: true"&gt;Nastavenia XML komunikácie&lt;/A&gt;.&amp;nbsp;Vyberte&amp;nbsp;nastavenie &lt;EM&gt;Export vydanej FA do formátu Editel XML - OBERON-&amp;gt;EDITEL&lt;/EM&gt;&amp;nbsp;a&amp;nbsp;stlačte tlačidlo &lt;EM&gt;Oprava&lt;/EM&gt;. Otvorí sa&amp;nbsp;&lt;A href="61528768-ed52-428d-b65c-458d9b11ae23"&gt;formulár Nastavenie XML komunikácie&lt;/A&gt;, v&amp;nbsp;ktorom&amp;nbsp;&lt;STRONG&gt;nastavte (skontrolujte) parametre exportu&lt;/STRONG&gt;: 
+&lt;UL&gt;
+&lt;LI&gt;v&amp;nbsp;záložke &lt;EM&gt;Základné&lt;/EM&gt;&amp;nbsp;skontrolujte názov nastavenia (&lt;EM&gt;Export vydanej FA do formátu Editel XML - OBERON-&amp;gt;EDITEL&lt;/EM&gt;). V rozbaľovacom zozname &lt;EM&gt;Modul&lt;/EM&gt; skontrolujte nastavenie, v ktorej agende&amp;nbsp;bude možné s&amp;nbsp;týmto nastavením pracovať (kniha pohľadávok). Po stlačení tlačidla &lt;EM&gt;Ďalšie nastavenia&lt;/EM&gt; sa otvorí&amp;nbsp;&lt;A href="2b1c8088-fe6c-4fab-bf73-6947c2bec31e"&gt;formulár Podrobné nastavenia XML komunikácie&lt;/A&gt;, v ktorom je možné vykonať ďalšie nastavenia v&amp;nbsp;prípade, že sa položky dokladu &lt;STRONG&gt;majú exportovať ako skladové&lt;/STRONG&gt; (nastavenie skladu,&amp;nbsp;exportu základných, resp. rozšírených údajov skladovej karty); 
+&lt;LI&gt;v&amp;nbsp;záložke &lt;EM&gt;Zobrazenie údajov&lt;/EM&gt; môžete zadať transformačnú šablónu na zobrazenie náhľadu súboru XML (spravidla vo formáte HTML); 
+&lt;LI&gt;v&amp;nbsp;záložke &lt;EM&gt;Konverzia údajov&lt;/EM&gt; v&amp;nbsp;rozbaľovacom zozname &lt;EM&gt;Typ príkazu&lt;/EM&gt;&amp;nbsp;skontrolujte výber&amp;nbsp;možnosti &lt;EM&gt;&lt;STRONG&gt;XSLT šablóna&lt;/STRONG&gt;&lt;/EM&gt; a&amp;nbsp;v&amp;nbsp;poli &lt;EM&gt;Príkaz&lt;/EM&gt; výber &lt;STRONG&gt;transformačnej šablóny&lt;/STRONG&gt; nainštalovanej v&amp;nbsp;&lt;EM&gt;Správcovi doplnkov&amp;nbsp;&lt;/EM&gt;(&lt;EM&gt;C:\OBERON\Data_System\XMLTransform\XmlToXml_EDITEL_FakturyVydane_OBERON_To_EDITEL.xslt&lt;/EM&gt;). &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Stlačením tlačidla &lt;EM&gt;OK&lt;/EM&gt; sa&amp;nbsp;nastavenie uloží. &lt;/LI&gt;&lt;/OL&gt;
+&lt;H3&gt;Nastavenie čísla GLN&lt;/H3&gt;
+&lt;OL&gt;
+&lt;LI&gt;V ponuke &lt;EM&gt;Firma&lt;/EM&gt;,&amp;nbsp;&lt;A href="a833ee8a-1289-42b9-923f-80f549497702" style="auto-update-caption: true"&gt;Údaje o firme&lt;/A&gt; zadajte &lt;STRONG&gt;číslo GLN&amp;nbsp;firmy&lt;/STRONG&gt;. 
+&lt;LI&gt;Vo&amp;nbsp;&lt;A href="4fbe9db8-25bc-420f-aee5-228d0a8ff03f"&gt;formulári Obchodný partner&lt;/A&gt;, záložka &lt;EM&gt;Kontakt&lt;/EM&gt;, sekcia &lt;EM&gt;Ďalšie údaje&lt;/EM&gt; priraďte &lt;STRONG&gt;číslo GLN obchodnému partnerovi&lt;/STRONG&gt;. &lt;/LI&gt;&lt;/OL&gt;
+&lt;H3&gt;Export dokladu&lt;/H3&gt;
+&lt;OL&gt;
+&lt;LI&gt;Otvorte &lt;A href="5c21adcc-87c8-44e7-981d-02902635693d"&gt;Knihu pohľadávok&lt;/A&gt;&amp;nbsp;v&amp;nbsp;ponuke &lt;EM&gt;Fakturácia&lt;/EM&gt;. 
+&lt;LI&gt;Stlačte tlačidlo &lt;EM&gt;Možnosti&lt;/EM&gt; a vyberte možnosť &lt;EM&gt;XML komunikácia - export údajov&lt;/EM&gt;. 
+&lt;LI&gt;Otvorí sa&amp;nbsp;&lt;A href="1e10bdae-2db4-4df8-94c4-94795ef55090"&gt;sprievodca XML komunikácia - export údajov&lt;/A&gt;, v ktorom: 
+&lt;UL&gt;
+&lt;LI&gt;zadajte názov, prípadne umiestnenie súboru, do ktorého sa doklad exportuje, 
+&lt;LI&gt;vyberte doklad, ktorý sa má exportovať, 
+&lt;LI&gt;v rozbaľovacom zozname &lt;EM&gt;Uplatniť nastavenia XML komunikácie&lt;/EM&gt; vyberte &lt;EM&gt;Export vydanej FA do formátu EDITEL XML - OBERON-&amp;gt;EDITEL.&lt;/EM&gt; &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;V ďalšom kroku je možné uviesť popis exportu údajov. 
+&lt;LI&gt;Stlačením tlačidla &lt;EM&gt;Exportovať&lt;/EM&gt; sa vybraný doklad exportuje. &lt;/LI&gt;&lt;/OL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="a0d1c96a-8cf8-4a69-9b34-5f5feb837c3c" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="5020b29b-b6e5-48bb-bfc6-800d68d5b8e9">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="81a4d0e2-4b65-4715-870d-48bc18055219" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="a1ae5eb5-f369-4aab-80b2-c6585166d550">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="14388b25-64f3-4a43-a980-864100ce6757" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="50adcd4a-de72-439e-895f-021cd9537535">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="045b31b1-b592-4f76-a422-309b292e6f87" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="bdd6c3d1-daaa-4c3f-94be-af2784f716ae">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="75e36ce9-c358-4422-a32b-78864f66363c" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="ec3ff388-810d-4d3c-b220-f3c89133ea79">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="c8b05f97-3071-4e1e-a495-03ff5ae05250" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="56f661c6-24da-46aa-b157-5d988cbe792b">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="35caacdd-d454-465f-ac5a-4366dab70ce2" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="5c21adcc-87c8-44e7-981d-02902635693d">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="d846e51d-d5f7-4942-924f-9a26fe4ffdf0" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1e10bdae-2db4-4df8-94c4-94795ef55090">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="64b925b2-5b0e-4708-a6f0-e7aa2cd1b884">
+      <Keyword m="2022-02-11T06:59:39.9413931Z">EDITEL - export faktúr</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="2a1a9f3c-7102-472f-a377-f04ce5b9a069">
+      <Keyword m="2022-02-14T10:28:05.54974Z">Globálne lokalizačné číslo - definícia</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="c6b9c07d-54de-4d1e-9891-3934e861510f">
+      <Keyword m="2022-02-14T09:25:17.9044624Z">GLN číslo - export faktúr EDITEL</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="42ba50df-177e-4812-b9fa-9330ac3ad7d0">
+      <Keyword m="2022-02-14T09:25:09.8504188Z">Globálne lokalizačné číslo - export faktúr EDITEL</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="c08fc369-5cc2-4735-bce6-65a58a0149a3">
+      <Keyword m="2022-02-11T06:58:09.4524947Z">Faktúry - export do iných softvérov (XML)</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="1bce82fd-7762-40b8-a117-180e338da273">
+      <Keyword m="2022-02-14T09:24:46.9289265Z">Číslo GLN - export faktúr EDITEL</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="d1a139c4-0811-4f7d-8f09-a4477c7f4a72">
+      <Keyword m="2022-02-14T09:25:35.4683021Z">GS1 Slovakia - GLN</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="ad62727f-55b6-4a99-ac0b-71e17b445417">
+      <Keyword m="2022-02-14T10:28:13.4740661Z">GLN - definícia</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="47ad147f-780a-4735-adcc-c5ac17ea9526" Status="Complete" CreatedOn="2023-10-19T12:10:12.3268989Z" ModifiedOn="2024-01-16T08:37:29.0869025Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Tech_AppRun_StartError_Windows" BuildFlags="">
+  <Title m="2023-10-19T12:10:49.2409912Z">Problém so systémom Windows</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-01-16T08:37:29.0869025Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; je venovaná &lt;STRONG&gt;problémom spojených so systémom &lt;EM&gt;Windows&lt;/EM&gt;, pre ktoré nie je možné spustiť, prípadne aktualizovať&lt;/STRONG&gt; systém OBERON.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;Pri spustení systému OBERON môžu nastať nasledujúce problémy&amp;nbsp;spojené s&amp;nbsp;operačným systémom &lt;EM&gt;Windows&lt;/EM&gt;: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Nedostupný aktuálny&amp;nbsp;runtime v&amp;nbsp;starších verziách systému &lt;EM&gt;Windows&lt;/EM&gt;&lt;/STRONG&gt; -&amp;nbsp;systém OBERON je vyvíjaný na platforme &lt;STRONG&gt;&lt;EM&gt;Microsoft .NET&lt;/EM&gt;,&lt;/STRONG&gt; preto&amp;nbsp;je&amp;nbsp;na&amp;nbsp;jeho spustenie potrebný runtime (systémové knižnice) &lt;EM&gt;Microsoft .NET Framework&lt;/EM&gt;. V&amp;nbsp;systéme OBERON sa aktuálne&amp;nbsp;používa runtime (systémové knižnice) verzie &lt;STRONG&gt;&lt;EM&gt;Microsoft .NET Framework 4.8&lt;/EM&gt;&lt;/STRONG&gt;, ktorá je &lt;STRONG&gt;od verzie &lt;EM&gt;Windows 10&lt;/EM&gt; (od verzie 1903, aktualizácia z 05/2019) súčasťou inštalácie systému &lt;EM&gt;Windows&lt;/EM&gt;&lt;/STRONG&gt;. V&amp;nbsp;starších verziách systému&amp;nbsp;&lt;EM&gt;Windows&lt;/EM&gt; buď podporovaná nie je, alebo ju&amp;nbsp;možno doinštalovať (aktualizovať)&amp;nbsp;manuálne. Prehľad starších verzií systému &lt;EM&gt;Windows&lt;/EM&gt;, v ktorých je možné &lt;EM&gt;.NET Framework 4.8&lt;/EM&gt; doinštalovať (aktualizovať), je dostupný v&amp;nbsp;téme&amp;nbsp;&lt;A href="a6f770c7-e211-4e84-bb09-c493f6011181" style="auto-update-caption: true"&gt;Inštalácia .NET Framework 4.8&lt;/A&gt;.&lt;BR&gt;Problémy s prostredím &lt;EM&gt;Microsoft .NET Framework&lt;/EM&gt;:
+&lt;OL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Chýbajúca inštalácia&amp;nbsp;prostredia &lt;EM&gt;.NET Framework&lt;/EM&gt;&lt;/STRONG&gt;&lt;EM&gt; -&amp;nbsp;&lt;/EM&gt;tieto systémové knižnice&amp;nbsp;nie&amp;nbsp;sú súčasťou inštalačnej sady OBERON-u.&amp;nbsp;Pomocou &lt;EM&gt;Ovládacieho panela&lt;/EM&gt; systému &lt;EM&gt;Windows&lt;/EM&gt; skontrolujte, či sa v zozname programov nachádza &lt;EM&gt;Microsoft .NET Framework 4.8&lt;/EM&gt;. V zápornom prípade je potrebné dané prostredie nainštalovať. Inštalačné súbory &lt;EM&gt;.NET Framework&lt;/EM&gt; sú dostupné na webovej&amp;nbsp;stránke &lt;A href="https://exalogic.sk/" target=_blank&gt;www.exalogic.sk&lt;/A&gt; v sekcii &lt;EM&gt;Na stiahnutie, OBERON doplnky,&amp;nbsp;&lt;/EM&gt;&lt;A href="https://exalogic.sk/na-stiahnutie/oberon-doplnky/microsoft-windows-podpora/" target=_blank&gt;MS Windows - podpora&lt;/A&gt;&lt;STRONG&gt;&lt;/STRONG&gt;
+&lt;LI&gt;&lt;STRONG&gt;Poškodené súbory &lt;EM&gt;.NET Framework&lt;/EM&gt;&lt;/STRONG&gt; - je potrebné vykonať opravnú inštaláciu tohto runtime (pomocou &lt;EM&gt;Ovládacieho panela&lt;/EM&gt; systému &lt;EM&gt;Windows&lt;/EM&gt;).&lt;/LI&gt;&lt;/OL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Inštalácia&amp;nbsp;problémových&amp;nbsp;aktualizácií&amp;nbsp;systému &lt;EM&gt;Windows&lt;/EM&gt;&lt;/STRONG&gt; - niektoré aktualizácie systému &lt;EM&gt;Windows&lt;/EM&gt; môžu spôsobovať problémy so spustením systému OBERON (napr.&amp;nbsp;&lt;A href="https://exalogic.sk/chybna-aktualizacia-windows-11/" target=_blank&gt;22H2&lt;/A&gt;).&amp;nbsp;Bezprostredným riešením je spravidla ponúkanú aktualizáciu odmietnuť a predmetnú verziu neinštalovať. V prípade, že ste aktualizáciu nainštalovali, je potrebné sa vrátiť na predošlú verziu &lt;EM&gt;Windows&lt;/EM&gt;. Finálne býva problém vyriešený vydaním novej verzie systému OBERON. Pri výskyte tohto druhu problému odporúčame sledovať aktuálne oznamy na webovej stránke &lt;A href="http://www.exalogic.sk" target=_blank&gt;www.exalogic.sk&lt;/A&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;Obmedzené práva používateľov systémov &lt;EM&gt;Windows&lt;/EM&gt;&lt;/STRONG&gt; - v&amp;nbsp;prípade, že bol systém OBERON na danom počítači nainštalovaný pod administrátorským kontom a je spúšťaný pod bežným používateľským kontom, &lt;STRONG&gt;možno ho síce spustiť, ale nemožno ho aktualizovať&lt;/STRONG&gt;. V tom prípade je potrebné odhlásiť sa z&amp;nbsp;aktuálneho konta a prihlásiť sa&amp;nbsp;pod administrátorským kontom. Alternatívne je možné systém OBERON&amp;nbsp;aktualizovať&amp;nbsp;aj pod používateľským kontom ako správca (kliknite na ikonu OBERON-u pravým tlačidlom myši a vyberte možnosť &lt;EM&gt;Spustiť ako správca&lt;/EM&gt;).&amp;nbsp;V&amp;nbsp;oboch prípadoch je na prihlásenie potrebné zadať prihlasovacie údaje (ak sú nastavené).
+&lt;LI&gt;&lt;STRONG&gt;Poškodenie&amp;nbsp;samotného&amp;nbsp;systému &lt;EM&gt;Windows &lt;/EM&gt;alebo&amp;nbsp;hardvérová porucha počítača&lt;/STRONG&gt; -&amp;nbsp;ak systém OBERON nie je možné spustiť pre poškodenie systému &lt;EM&gt;Windows&lt;/EM&gt;, riešením je reinštalácia systému &lt;EM&gt;Windows&lt;/EM&gt;. V&amp;nbsp;prípade hardvérovej poruchy je potrebné túto poruchu odstrániť. &lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="27133b3f-c431-4275-b4ee-208a8be4ddf7" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="114e64df-3d6c-4a0e-9405-c0e75fbe02dc">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="2abc1501-e7b4-4f51-b29a-11e649db190c" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="a6f770c7-e211-4e84-bb09-c493f6011181">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="4c541977-40bb-4528-8d34-4dc5e375be12" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="f556de38-1404-4022-94e4-3ec9f00fd222">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="81664d89-aa2e-4c9c-b5d4-3b396197f501">
+      <Keyword m="2023-10-19T12:14:46.0141922Z">Problémy so spustením OBERON-u - Windows</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="6ba660b0-c9ea-4591-bb57-0d2d6ba9fcd0">
+      <Keyword m="2023-10-19T12:14:35.5805062Z">Problémy s aktualizáciou OBERON-u - Windows</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="4d8c31da-446b-4fca-ba87-30787fe47f7b" Status="Complete" CreatedOn="2022-09-29T07:06:48.6853017Z" ModifiedOn="2022-11-15T13:23:09.1954064Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="ExternalSystem_HotelReservation_Beds24_Globalpayments" BuildFlags="">
+  <Title m="2022-09-29T08:33:13.7448276Z">Platobná brána Globalpayments v Beds24</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2022-11-15T13:23:09.1954064Z">&lt;P&gt;Manažér rezervačných kanálov&amp;nbsp;&lt;EM&gt;Beds24&lt;/EM&gt; podporuje viacero platobných brán, ktoré umožňujú&amp;nbsp;prijímať on-line platby za ubytovanie (prípadne posielať výzvy na úhradu). V tejto téme &lt;EM&gt;Pomocníka&lt;/EM&gt; je uvedený&amp;nbsp;&lt;STRONG&gt;základný&amp;nbsp;postup, ako si&amp;nbsp;nastaviť&amp;nbsp;platobnú bránu&amp;nbsp;&lt;EM&gt;Globalpayments&lt;/EM&gt;&amp;nbsp;na prijímanie on-line platieb&lt;/STRONG&gt;. Pre používateľov OBERON-u je&amp;nbsp;&lt;A href="1f32a90c-7b4a-4d69-9f38-a560178794b3"&gt;odporúčaným&lt;/A&gt; riešením &lt;A href="1f32a90c-7b4a-4d69-9f38-a560178794b3" style="auto-update-caption: true"&gt;&lt;IMG border=0 alt="Odporúčané riešenia" src="images/OBERON/Basic/Odporucane-riesenie_ruka_ikona.png"&gt;&lt;/A&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Prostredníctvom platobných brán sa finančné prostriedky ukladajú priamo na účet prevádzkovateľa ubytovacieho zariadenia. 
+&lt;LI&gt;Do&amp;nbsp;&lt;EM&gt;Beds24&lt;/EM&gt;&amp;nbsp;sa zasiela&amp;nbsp;notifikácia o platbe a prijatá čiastka sa zobrazí vo formulári&amp;nbsp;príslušnej rezervácie v záložke &lt;EM&gt;Poplatky a platby&lt;/EM&gt; (Charges and Payments). 
+&lt;LI&gt;&lt;STRONG&gt;Podrobnosti o poplatkoch a ďalšie informácie&lt;/STRONG&gt; závisia vždy od konkrétnej platobnej brány. 
+&lt;LI&gt;Pripojiť&amp;nbsp;platobnú bránu k&amp;nbsp;&lt;EM&gt;Beds24&lt;/EM&gt; je možné v ponuke&amp;nbsp;&lt;EM&gt;Settings/Payments/Payment Gateways.&lt;/EM&gt; Tu je dostupný prehľad integrovaných platobných brán. 
+&lt;LI&gt;Okrem toho, že platobnú bránu &lt;EM&gt;Globalpayments&lt;/EM&gt; možno integrovať aj do&amp;nbsp;&lt;A href="2ba6a435-be52-46a1-b723-fb2b8ca084c0"&gt;internetového obchodu&lt;/A&gt;, služba sa vyznačuje aj prijateľnou cenovou politikou. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;1. Nastavenia platobnej brány &lt;EM&gt;Globalpayments&lt;/EM&gt;&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;Ak sa rozhodnete pre používanie platobnej brány &lt;EM&gt;Globalpayments&lt;/EM&gt;, budete potrebovať účet u poskytovateľa služby. Na zriadenie účtu kontaktujte firmu &lt;EM&gt;Global Payments&lt;/EM&gt; odoslaním&amp;nbsp;&lt;A href="https://www.globalpayments.sk/sk-sk/online-platby/push-platby" target=_blank&gt;kontaktného formulára na jej webovej stránke&lt;/A&gt;. &lt;/LI&gt;&lt;/OL&gt;
+&lt;H2&gt;2. Nastavenia v&amp;nbsp;&lt;EM&gt;Beds24&lt;/EM&gt;&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;&lt;SPAN lang=sk class="tlid-translation translation"&gt;V&amp;nbsp;ponuke&amp;nbsp;&lt;EM&gt;Settings/Payments/Payment Gateways/Globalpayments&lt;/EM&gt; zmeňte nastavenie &lt;EM&gt;Enable&lt;/EM&gt;/&lt;EM&gt;Priority&lt;/EM&gt; z &lt;EM&gt;Not Used&lt;/EM&gt; na číslo.&lt;BR&gt;&lt;STRONG&gt;Poznámka:&lt;/STRONG&gt; Ak&amp;nbsp;budete používať&amp;nbsp;viac ako jednu platobnú bránu (napr.&amp;nbsp;&lt;EM&gt;Globalpayments&lt;/EM&gt; a zároveň&amp;nbsp;&lt;EM&gt;PayPal&lt;/EM&gt;), číslo určí poradie, v ktorom sa na stránke rezervácie zobrazí možnosť platby prostredníctvom danej platobnej brány. Ak&amp;nbsp;budete používať&amp;nbsp;len jednu platobnú bránu, je možné na aktiváciu použiť ľubovoľné číslo.&lt;/SPAN&gt; 
+&lt;LI&gt;&lt;SPAN lang=sk class="tlid-translation translation"&gt;Zadajte údaje zo svojho účtu v &lt;EM&gt;Global Payments&lt;/EM&gt; (&lt;EM&gt;Merchant Id, Merchand Sercret, Account&lt;/EM&gt;...).&lt;/SPAN&gt; &lt;/LI&gt;&lt;/OL&gt;
+&lt;H5&gt;&lt;SPAN lang=sk&gt;Obrázok č. 1: Nastavenie platobnej brány&amp;nbsp;&lt;EM&gt;Globalpayments&lt;/EM&gt; v&amp;nbsp;&lt;EM&gt;Beds24&lt;/EM&gt;&lt;/SPAN&gt;&lt;/H5&gt;
+&lt;H5&gt;&lt;SPAN lang=sk&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;IMG border=0 alt="" src="images/ProductOptions/ExternalSystems/Hotel_ExternalSystem_Beds24_Globalpayments.png"&gt;&lt;/H5&gt;
+&lt;H2&gt;&amp;nbsp;&lt;SPAN lang=sk&gt;Zálohy na rezervácie&lt;/SPAN&gt;&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;V&amp;nbsp;&lt;EM&gt;Beds24&lt;/EM&gt; je možné nastaviť prijímanie záloh za ubytovanie tak, aby hosť &lt;STRONG&gt;nebol schopný&amp;nbsp;dokončiť rezerváciu bez vykonania platby&lt;/STRONG&gt;. 
+&lt;LI&gt;V ponuke &lt;EM&gt;Settings/Payments/Payment Collection&lt;/EM&gt; nastavte položku &lt;EM&gt;Non Payment Booking Status -&amp;nbsp;&lt;/EM&gt;nastavuje sa stav rezervácie, ak sa platba nedokončí v čase rezervácie. Vyberte jednu z&amp;nbsp;nasledujúcich možností: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Request&lt;/STRONG&gt; - keď hosť&amp;nbsp;klikne na tlačidlo &lt;EM&gt;Potvrdiť rezerváciu&lt;/EM&gt;, izba sa rezervuje a nebude k dispozícii pre ostatných hostí. Po úspešnej platbe sa stav rezervácie automaticky zmení na potvrdenú. Ak sa platba preruší alebo nezrealizuje, dostupnosť izby bude stále blokovaná. Následne&amp;nbsp;bude potrebné buď manuálne zmeniť stav rezervácie&amp;nbsp;na&amp;nbsp;&lt;EM&gt;Zrušená&lt;/EM&gt; (Cancelled) alebo použiť automatickú akciu na automatickú zmenu stavu rezervácií po uplynutí nastaveného času. Automatické akcie je možné nastaviť v ponuke &lt;EM&gt;Settings/Guest Management/Auto Actions&lt;/EM&gt;.&lt;BR&gt;&lt;STRONG&gt;Upozornenie:&lt;/STRONG&gt; Pri tomto nastavení bude hosťovi zaslaný rezervačný e-mail aj v prípade, že platbu neuskutoční. 
+&lt;LI&gt;&lt;STRONG&gt;Cancel&lt;/STRONG&gt; - keď hosť&amp;nbsp;klikne na tlačidlo &lt;EM&gt;Potvrdiť rezerváciu&lt;/EM&gt;,&amp;nbsp;izba sa nerezervuje, kým sa nedokončí platba. Ostatní hostia si&amp;nbsp;budú môcť tiež&amp;nbsp;rezervovať izbu až do úspešného zaplatenia, čím vznikne malé riziko prebukovania.&lt;BR&gt;&lt;STRONG&gt;Upozornenie:&lt;/STRONG&gt; Pri tomto nastavení bude hosťovi zaslaný rezervačný e-mail až po uskutočnení platby. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Nastavte požadovanú sumu -&amp;nbsp;môže to byť fixná čiastka, percento z celkovej sumy alebo hodnota ceny za prvú noc. 
+&lt;LI&gt;Použitá mena bude mena, ktorú ste nastavili na prijímanie platieb v&amp;nbsp;ponuke &lt;EM&gt;Properties/Description&lt;/EM&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Podrobnejšie informácie k téme získate v &lt;STRONG&gt;kontextovom pomocníkovi&lt;/STRONG&gt; (&lt;STRONG&gt;symbol ?&lt;/STRONG&gt; pri jednotlivých položkách&amp;nbsp;v&amp;nbsp;príslušných formulároch a tlačidlo &lt;STRONG&gt;Help ?&lt;/STRONG&gt;&amp;nbsp;vpravo hore) &lt;STRONG&gt;a v&amp;nbsp;&lt;/STRONG&gt;&lt;A href="https://wiki.beds24.com/index.php/Globalpayments" target=_blank&gt;dokumentácii&lt;/A&gt; manažéra rezervačných kanálov &lt;EM&gt;Beds24&lt;/EM&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;HR&gt;
+
+&lt;P align=center&gt;&lt;A href="1f32a90c-7b4a-4d69-9f38-a560178794b3" style="auto-update-caption: true"&gt;&lt;IMG border=0 alt="Odporúčané riešenia" src="images/OBERON/Basic/Odporucane-riesenie.png"&gt;&lt;/A&gt;&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="2615fdfe-8082-4bb0-9ad3-95fa3fc8c901" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="2564d1eb-a7ed-46a7-a957-6087afe26471">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="9eebc4b7-deb9-4f34-a6ff-adb27337a85d" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="a5318434-401b-4fef-9dab-7d5cd4479d19">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="9efb5833-3261-46bb-a930-c3c01edf6d95" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="6cd4a47a-5c87-4c7c-aa5e-9d8c198e9602">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="37d769fb-328b-45f2-b492-0db876bc6bfe" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="6e0bfd35-7d4e-479b-9dc5-cf5237b1aa69">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="ad18d7ce-5312-4ce4-a5d2-4ace92471289" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="a8869db0-d369-49c6-b801-de33672ce874">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="b99c4f36-1f0e-4e7d-9033-45a258291660" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="336d3052-c803-4ace-9136-479a6d167513">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="60930a44-5cfc-45eb-8d3c-f6112e30d2c9">
+      <Keyword m="2022-09-29T09:24:13.782434Z">Globalpayments - Beds24</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="b1ceec45-d0e5-4dbd-bedf-98227a1fba3a">
+      <Keyword m="2022-09-29T09:24:07.3982742Z">Platobná brána Globalpayments - Beds24</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="e605b6be-853a-4e0c-84d3-cdc16026e5fd">
+      <Keyword m="2022-09-29T09:23:56.3221131Z">Zálohy na rezervácie - Globalpayments - Beds24</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

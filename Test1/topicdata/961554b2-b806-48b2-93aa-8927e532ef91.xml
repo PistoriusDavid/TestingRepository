@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="961554b2-b806-48b2-93aa-8927e532ef91" Status="Complete" CreatedOn="2016-03-07T09:06:05.2082144Z" ModifiedOn="2023-11-06T14:05:16.5911237Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Acc_Advanced_ChangeSingleToDoubleAcc" BuildFlags="">
+  <Title m="2021-08-13T07:02:00.2927609Z">Prechod z jednoduchého účtovníctva na podvojné</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-11-06T14:05:16.5911237Z">&lt;P&gt;Táto&amp;nbsp;téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;informácie, ako&lt;/STRONG&gt;&amp;nbsp;&lt;STRONG&gt;postupovať pri prechode&lt;/STRONG&gt;&amp;nbsp;z&amp;nbsp;&lt;A href="32be28cf-2368-4818-9d24-cfa9d59afb75"&gt;jednoduchého účtovníctva&lt;/A&gt;&amp;nbsp;na&amp;nbsp;&lt;A href="49dd3167-870a-4fdf-b631-d4f692f1ed72"&gt;podvojné&lt;/A&gt;&amp;nbsp;v&amp;nbsp;systéme OBERON.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;V prípade, že sa firma účtujúca v sústave jednoduchého účtovníctva rozhodne (alebo jej vznikne povinnosť) účtovať v sústave podvojného účtovníctva, &lt;STRONG&gt;musí vykonať prechod z&amp;nbsp;jednoduchého účtovníctva na podvojné účtovníctvo&lt;/STRONG&gt;. Prechod medzi sústavami sa uskutočňuje &lt;STRONG&gt;vždy len k prvému dňu účtovného obdobia&lt;/STRONG&gt;.&amp;nbsp; 
+&lt;LI&gt;Postup účtovania pri prechode zo sústavy jednoduchého účtovníctva do sústavy podvojného účtovníctvam, ako aj&amp;nbsp;postup účtovania pri prechode zo sústavy podvojného účtovníctva do sústavy jednoduchého účtovníctva upravuje &lt;A href="http://www.finance.gov.sk/Default.aspx?CatID=7493" target=_blank&gt;opatrenie Ministerstva financií Slovenskej republiky&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Postup prechodu v OBERON-e&amp;nbsp;&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;Keďže v&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="932262cc-b80f-4ce6-aba6-6a7d4a18f5ec"&gt;oddiel Firma, Účtovníctvo&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt; záložka &lt;EM&gt;Základné&lt;/EM&gt;&amp;nbsp;nie je možné zmeniť&amp;nbsp;typ účtovníctva, je na prechod z&amp;nbsp;jednoduchého na podvojné účtovníctvo&amp;nbsp;&lt;STRONG&gt;vytvoriť novú databázu a&amp;nbsp;vykonať do nej&amp;nbsp;import potrebných údajov z&amp;nbsp;pôvodnej databázy&lt;/STRONG&gt;. Postup vytvorenia novej databázy je popísaný v téme&amp;nbsp;&lt;A href="9a485893-6dd2-44e8-9740-a4cd7083a932" style="auto-update-caption: true"&gt;Vytvorenie účtovnej jednotky (databázy)&lt;/A&gt;. 
+&lt;LI&gt;Do novej databázy je potrebné naimportovať tie knihy (záznamy), ktoré budete využívať v podvojnom účtovníctve, napr.: 
+&lt;UL&gt;
+&lt;LI&gt;obchodných partnerov - viac informácií získate v&amp;nbsp;téme &lt;A href="6bb048fd-9d08-4028-bcf0-315fbd99fe57" style="auto-update-caption: true"&gt;Sprievodca Obchodní partneri - import údajov&lt;/A&gt;, 
+&lt;LI&gt;skladové karty - viac informácií v&amp;nbsp;téme &lt;A href="6e8e65c8-c776-4e45-bf3b-65fca66a1eff" style="auto-update-caption: true"&gt;Import skladových kariet&lt;/A&gt;, 
+&lt;LI&gt;zoznam investičného alebo drobného majetku -&amp;nbsp;v ponuke &lt;EM&gt;Účtovníctvo&lt;/EM&gt; zvoľte ponuku&amp;nbsp;&lt;A href="d123f778-12d3-4049-8c94-3d1b7acdc24f"&gt;Kniha investičného majetku&lt;/A&gt;, stlačte tlačidlo &lt;EM&gt;Možnosti&lt;/EM&gt; a vyberte &lt;EM&gt;&lt;STRONG&gt;Import majetku z inej účtovnej jednotky&lt;/STRONG&gt;&lt;/EM&gt;, 
+&lt;LI&gt;údaje modulu&amp;nbsp;&lt;A href="c3bd41f0-029e-4c74-b342-b0ffff647b6e"&gt;Hotelová recepcia&lt;/A&gt; -&amp;nbsp;v&amp;nbsp;ponuke &lt;EM&gt;Hotel&lt;/EM&gt;, &lt;A href="5570e633-ca2e-4887-9361-57c5ce552da6"&gt;Kniha rezervácií&lt;/A&gt; (prípadne&amp;nbsp;&lt;A href="0b9519ff-9438-422b-a3e8-358b628293e9"&gt;Kniha ubytovaných&lt;/A&gt;) stlačte tlačidlo &lt;EM&gt;Možnosti&lt;/EM&gt; a vyberte &lt;EM&gt;&lt;STRONG&gt;Import údajov do modulu Hotelová recepcia&lt;/STRONG&gt;&lt;/EM&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;V&amp;nbsp;&lt;A href="5e82cca9-b8af-4a80-ba30-7ab91914a595"&gt;účtovnom denníku&lt;/A&gt; manuálne zadajte zostatky (počiatočné stavy) pokladne a&amp;nbsp;bankových účtov. 
+&lt;LI&gt;V&amp;nbsp;module&amp;nbsp;&lt;A href="78d20602-4b59-4b31-9f0a-a04a1d376ec5"&gt;Skladová evidencia&lt;/A&gt;&amp;nbsp;pomocou príjemky s&amp;nbsp;druhom pohybu &lt;EM&gt;Počiatočný stav&lt;/EM&gt; zadajte počiatočné stavy na základe údajov inventúry vykonanej v&amp;nbsp;pôvodnej databáze. Počiatočné stavy je možné zadať jednoduchým naimportovaním &lt;A href="e5d60ce3-8ad2-43f2-b60d-08c773376f5b"&gt;výdajky&lt;/A&gt;, ktorú môžeme vystaviť v&amp;nbsp;pôvodnej databáze po&lt;A href="489dd25b-dd6a-416d-be26-ce647566b429"&gt; spracovaní inventúry&lt;/A&gt; a ktorou vyskladníme celý sklad. Túto výdajku následne &lt;STRONG&gt;naimportujeme do novej databázy ako príjemku s&amp;nbsp;druhom pohybu &lt;EM&gt;Počiatočný stav&lt;/EM&gt;&lt;/STRONG&gt;. &lt;/LI&gt;&lt;/OL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="912b3714-e0c6-46c3-968c-03be6c7bda82" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="9a485893-6dd2-44e8-9740-a4cd7083a932">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="65e16855-808f-410d-b1fd-e236acd23ff0" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="932262cc-b80f-4ce6-aba6-6a7d4a18f5ec">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="9df59ca1-c67a-4b93-93a9-8ef81c918924" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="d8c9bfc8-92d1-4471-8909-e5f8ce602d6c">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="43bf58b8-9bcc-4819-8f32-22551b292d80" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="efed1882-1614-4406-b57a-3023aee6ba26">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="01df15e3-9661-4a48-8884-f22c3eace5df" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="489dd25b-dd6a-416d-be26-ce647566b429">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords />
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

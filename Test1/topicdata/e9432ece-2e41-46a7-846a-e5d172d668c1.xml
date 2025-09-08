@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="e9432ece-2e41-46a7-846a-e5d172d668c1" Status="Complete" CreatedOn="2014-09-08T12:43:39.9677136Z" ModifiedOn="2022-02-17T11:47:29.5962757Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="22413" Name="Menu_Service_Data_Transport" BuildFlags="">
+  <Title m="2021-04-01T05:45:33.662796Z">Off-line transporty údajov
+</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2022-02-17T11:47:29.5962757Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;je venovaná&amp;nbsp;položke &lt;EM&gt;Off-line transporty údajov&lt;/EM&gt; v ponuke &lt;EM&gt;Servis&lt;/EM&gt; programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Výberom položky sa otvorí program&amp;nbsp;&lt;A href="24e780fd-36d3-4a6e-bfc0-a8665c75e4ee"&gt;OBERON Center&lt;/A&gt;, oddiel &lt;A href="1dc4ea18-03c0-4028-afe5-4532583b6a44"&gt;Off-line transporty údajov&lt;/A&gt;.
+&lt;LI&gt;Položka je dostupná len v prípade, že je v&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="5a6e5663-262e-4ff0-9741-1569385d11e4"&gt;oddiel Firma, Všeobecné&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt; záložka &lt;EM&gt;Pobočky&lt;/EM&gt; začiarknutá možnosť &lt;STRONG&gt;&lt;EM&gt;Používať off-line transporty údajov&lt;/EM&gt;.&lt;/STRONG&gt;
+&lt;LI&gt;Off-line transporty v systéme OBERON predstavujú nástroj, ktorý sa spravidla používa na výmenu dokladov (záznamov) medzi pobočkou a centrálou účtovnej jednotky v&amp;nbsp;rámci&amp;nbsp;&lt;A href="797aaa39-ae1b-4f4c-bac5-88c9ac25f11d"&gt;off-line pobočkového režimu&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Ďalšie informácie získate v téme&amp;nbsp;&lt;A href="1dc4ea18-03c0-4028-afe5-4532583b6a44"&gt;Off-line transporty údajov&lt;/A&gt;. Nadefinovať off-line exporty, resp. importy údajov je možné vo formulári&amp;nbsp;&lt;A href="e3338780-69be-478a-90d4-060d971f987d"&gt;Off-line transport údajov - export/import&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="9c8f6f1d-fe95-4132-83e0-0e0ace565c07" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1dc4ea18-03c0-4028-afe5-4532583b6a44">
+      <Title m="2021-04-01T06:00:44.1000832Z">Off-line transporty údajov (OBERON Center)</Title>
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="454d8dc3-a0a6-4a37-8b3c-de064318a552" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="797aaa39-ae1b-4f4c-bac5-88c9ac25f11d">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="cfcc5169-f920-4b3e-a36a-2ea752d1b3c3" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="2d5cb0af-0c1f-475d-a699-c315d30599f8">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="4b0724f0-3a2f-4a48-bfb4-346ea4e57c67">
+      <Keyword m="2021-04-16T10:50:06.7349954Z">Off-line transporty údajov - hlavná ponuka</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

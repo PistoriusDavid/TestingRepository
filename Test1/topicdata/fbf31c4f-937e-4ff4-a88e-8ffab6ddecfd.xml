@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="fbf31c4f-937e-4ff4-a88e-8ffab6ddecfd" Status="Complete" CreatedOn="2014-10-10T07:43:49.773989Z" ModifiedOn="2023-10-17T09:14:25.5677959Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="false" HelpContextIds="40511" Name="Form_AccSingle_RenumberingOrderNumbers" BuildFlags="">
+  <Title m="2014-12-11T12:57:17.8896484Z">Sprievodca Prečíslovanie poradových čísel</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-10-12T06:30:53.7174291Z">&lt;P&gt;&lt;SPAN&gt;Sprievodca&amp;nbsp;&lt;EM&gt;Prečíslovanie&amp;nbsp;poradových čísel&amp;nbsp;&lt;/EM&gt;umožňuje &lt;STRONG&gt;automaticky prečíslovať&amp;nbsp;poradové čísla dokladov&lt;/STRONG&gt; v&amp;nbsp;&lt;A href="5e82cca9-b8af-4a80-ba30-7ab91914a595"&gt;peňažnom denníku&lt;/A&gt; v&amp;nbsp;chronologickom slede (podľa dátumu dokladu). Sprievodca je dostupný z&amp;nbsp;programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;, ponuka&amp;nbsp;&lt;EM&gt;Účtovníctvo,&amp;nbsp;&lt;/EM&gt;&lt;A href="5e82cca9-b8af-4a80-ba30-7ab91914a595"&gt;Peňažný denník&lt;/A&gt; po stlačení tlačidla &lt;EM&gt;Možnosti&lt;/EM&gt;.&lt;/SPAN&gt;&lt;/P&gt;&lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;SPAN&gt;Pred použitím funkcie prečíslovania&amp;nbsp;poradových čísel&amp;nbsp;dokladov sa odporúča vykonať&amp;nbsp;&lt;A href="493f5942-f267-4f98-a46d-8acc745b9b88"&gt;zálohovanie údajov&lt;/A&gt;, keďže prečíslovanie je nevratný proces (nie je možné obnoviť pôvodné hodnoty).&lt;/SPAN&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Funkcia prečíslovania poradových čísel dokladov &lt;STRONG&gt;sa&amp;nbsp;spravidla používa v&amp;nbsp;situáciách, keď sa neúčtuje v chronologickom (časovom) slede, prípadne, keď sa doplní určitý starší (spravidla&amp;nbsp;&lt;EM&gt;zabudnutý&lt;/EM&gt;) doklad&lt;/STRONG&gt;. 
+&lt;LI&gt;Prečíslovanie&amp;nbsp;poradových čísel&amp;nbsp;pokladničných dokladov v &lt;EM&gt;Peňažnom denníku&lt;/EM&gt; je možné vykonať aj súčasne s&amp;nbsp;&lt;A href="adc6cb3d-95b2-46fd-8d05-fd9cf02ad18c"&gt;prečíslovaním pokladničných dokladov&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="045dfa44-523c-42c8-9b69-a8c01793dfa0" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="5e82cca9-b8af-4a80-ba30-7ab91914a595">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="116ce621-a13d-4584-ba3f-48f0a15c4098" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="18a95b66-bec2-4973-832f-4fbc1c582c8c">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="051f6991-2dc3-4528-92f5-0c12588fb879" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="9b7111d2-812c-4d4f-b0a4-d2a89e72df18">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="b7ddf781-dde4-4592-918c-f46d2498af88" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="adc6cb3d-95b2-46fd-8d05-fd9cf02ad18c">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="523d31da-88b7-41d2-b5e1-56db8bbbf46f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="9afaf246-51d4-40ea-968d-eada83983f24">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="015bb1d2-ad9c-4be1-b8c9-7a8f815efa17" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="9aa7dbb1-f4a7-405e-8465-78b2133e0fd3">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="0db912f8-8b9d-4320-8a8e-2516f63381b9">
+      <Keyword m="2021-08-05T11:48:47.716134Z">Prečíslovanie poradových čísel dokladov v peňažnom denníku - sprievodca</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="b9d7c873-7b63-4210-86fe-ab1c66ea6502" Status="Complete" CreatedOn="2014-09-04T08:18:08.9132Z" ModifiedOn="2025-03-20T13:29:24.2824978Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="21400" Name="Device_Printers_for_Kitchen" BuildFlags="">
+  <Title m="2019-04-25T12:19:13.0336399Z">Bonovacie tlačiarne</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2025-03-20T13:29:24.2824978Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; popisuje&amp;nbsp;jeden z&amp;nbsp;typov&amp;nbsp;&lt;A href="de37c038-dda7-44e6-bb5a-4b73832e69a1"&gt;bonovacích zariadení&lt;/A&gt; podporovaných v&amp;nbsp;systéme OBERON - bonovacie tlačiarne, ktoré sa v systéme OBERON používajú &lt;STRONG&gt;na tlač objednávok do kuchyne (na prípravu jedál) alebo baru (na prípravu nápojov)&lt;/STRONG&gt; z&amp;nbsp;&lt;A href="aec074f4-3e1c-4a1e-8a80-06fcecf51156"&gt;Pokladnice OBERON&lt;/A&gt; prevádzkovanej v&amp;nbsp;reštauračnom režime, prípadne z aplikácie&amp;nbsp;&lt;A href="942d48d5-b290-40f6-8ba3-45cf78f380f9"&gt;LUKUL - nielen mobilný čašník&lt;/A&gt;.&lt;/P&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt; 
+&lt;P&gt;Okrem bonovacích tlačiarní je na tento účel možné využiť aj&amp;nbsp;&lt;A href="d9867d81-7de7-4ce2-9c45-932025935b8b"&gt;systém bonovacích monitorov&lt;/A&gt;&amp;nbsp;- vtedy sa objednávky jedál a nápojov&amp;nbsp;&lt;STRONG&gt;zobrazujú na monitore&amp;nbsp;(smart TV, tablete)&lt;/STRONG&gt;. Bonovacie&amp;nbsp;monitory je možné používať aj v&amp;nbsp;kombinácii s&amp;nbsp;bonovacími&amp;nbsp;tlačiarňami.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Základné informácie&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Bonovacia tlačiareň predstavuje taký typ hardvérového zariadenia, na ktorom sa položky jedál alebo nápojov zapísané na &lt;A href="e0ccff3e-b9e7-4572-bc3c-7f41a32280dd"&gt;otvorený účet (stôl)&lt;/A&gt; po odoslaní objednávky z&amp;nbsp;&lt;A href="aec074f4-3e1c-4a1e-8a80-06fcecf51156"&gt;Pokladnice OBERON&lt;/A&gt; prevádzkovanej v&amp;nbsp;reštauračnom režime, resp. z&amp;nbsp;aplikácie&amp;nbsp;&lt;A href="942d48d5-b290-40f6-8ba3-45cf78f380f9"&gt;LUKUL - nielen mobilný čašník&lt;/A&gt;&amp;nbsp;vytlačia. 
+&lt;LI&gt;Spôsoby tlače objednávok jedál, resp. nápojov: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;na samostatnej tlačiarni umiestnenej v&amp;nbsp;kuchyni (bare)&lt;/STRONG&gt; - tlačiareň sa&amp;nbsp;spravidla pripája do lokálnej počítačovej siete&amp;nbsp;prostredníctvom rozhrania LAN (ethernet kábla), resp. k&amp;nbsp;počítaču pomocou (virtuálneho)&amp;nbsp;sériového portu, prípadne paralelného portu.&amp;nbsp;Pri paralelnej tlačiarni môže byť tlačiareň umiestnená maximálne 10&amp;nbsp;metrov od počítača, pri sériovej i niekoľkokrát ďalej. Moderné tlačiarne umožňujú pripojenie pomocou TCP/IP protokolu štandardným&amp;nbsp;ethernet káblom do smerovača&amp;nbsp;(routra) - výhodou je dostupnosť tlačiarne pre každý počítač v sieti a prakticky ľubovoľná dĺžka kábla. 
+&lt;LI&gt;&lt;B&gt;na tlačiarni pokladničných dokladov&lt;/B&gt; - tlač objednávok sa vykonáva na tej istej tlačiarni, ako pokladničné doklady, ale len na vybraných fiškálnych zariadeniach. Hlavnou výhodou tohto spôsobu tlače je ušetrenie jednej tlačiarne, nevýhodou je nutnosť manuálneho&amp;nbsp;presunu objednávok do kuchyne (baru). Celkovo sa však toto riešenie &lt;SPAN style="COLOR: rgb(255,0,0)"&gt;neodporúča &lt;SPAN style="COLOR: rgb(0,0,0)"&gt;kvôli zápisu objednávok&amp;nbsp;do chráneného dátového úložiska v&amp;nbsp;systéme eKasa&lt;/SPAN&gt;&lt;/SPAN&gt;, čo môže pri vysokej kadencii objednávok spôsobiť&amp;nbsp;rýchle&amp;nbsp;zaplnenie jeho kapacity (1 znak môže vyžadovať&amp;nbsp;až 16 kB kapacity CHDÚ). Ďalšou nevýhodou je, že obsluha môže kedykoľvek bez vedomia kuchyne/baru stornovať objednávku a objednané jedlo/nápoj nevyúčtovať (tým vlastne obsluha spôsobí manko kuchyni/baru). &lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Objednávky posielané z&amp;nbsp;aplikácie&amp;nbsp;&lt;A href="942d48d5-b290-40f6-8ba3-45cf78f380f9"&gt;LUKUL&lt;/A&gt; &lt;SPAN style="COLOR: rgb(255,0,0)"&gt;nie je možné tlačiť na&amp;nbsp;tej istej tlačiarni, ako pokladničné doklady&lt;/SPAN&gt; (nie je povolená tlač na fiškálnej tlačiarni).&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/UL&gt;
+&lt;UL&gt;
+&lt;LI&gt;Bonovacie tlačiarne umožňujú tlač tak aktívnych, ako aj zrušených objednávok jedál/nápojov (storn). 
+&lt;LI&gt;Niektoré modely bonovacích tlačiarní sú vybavené &lt;STRONG&gt;bzučiakom (pípač)&lt;/STRONG&gt;&amp;nbsp;na zvukovú signalizáciu vytlačenia objednávky. Pri modeloch, ktoré bzučiak (pípač) neobsahujú, je možné takéto zariadenie pripojiť (zapája sa pomocou konektora RJ11 na&amp;nbsp;pripojenie&amp;nbsp;&lt;A href="f70d563d-c13a-4063-89f1-ee85caef915a"&gt;pokladničnej zásuvky&lt;/A&gt;). 
+&lt;LI&gt;Tlač objednávok sa môže&amp;nbsp;vykonávať v&amp;nbsp;týchto režimoch: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;textový režim (tlač sa vykonáva znak po znaku)&lt;/STRONG&gt;&amp;nbsp;- pri pridaní (inštalácii) tlačiarne do OBERON-u je možné vybrať&amp;nbsp;model:&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; - &lt;STRONG&gt;&lt;EM&gt;EPSON TM - x&lt;/EM&gt;&lt;/STRONG&gt; - na tlač sa používa tlačiareň&amp;nbsp;&lt;A href="e046c976-bdef-4ff7-b069-e27347615921"&gt;EPSON TM - x&lt;/A&gt;&amp;nbsp;(alebo iná s ňou kompatibilná tlačiareň,&amp;nbsp;konkrétny typ je potrebné overiť u výrobcu), pričom už naformátovaný formát objednávky nie je možné ďalej upravovať (viac informácií nižšie),&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; - &lt;STRONG&gt;&amp;lt;&lt;EM&gt;Obecný&amp;gt;&lt;/EM&gt;&lt;/STRONG&gt; - na tlač sa môže použiť akákoľvek tlačiareň&amp;nbsp;nainštalovaná do systému &lt;EM&gt;Windows&lt;/EM&gt;, pričom formát objednávky nie je možné upraviť (tlačí sa len ako čistý text), 
+&lt;LI&gt;&lt;STRONG&gt;grafický režim&amp;nbsp;(tlač sa vykonáva bod po bode)&lt;/STRONG&gt;&amp;nbsp;- pri&amp;nbsp;pridaní (inštalácii) tlačiarne do OBERON-u&amp;nbsp;sa vyberá model &lt;STRONG&gt;&amp;lt;&lt;EM&gt;Grafický režim&amp;gt;&lt;/EM&gt;&lt;/STRONG&gt;), pri ktorom sa&amp;nbsp;na tlač používa&amp;nbsp;termotlačiareň. Umožňuje použiť väčšiu&amp;nbsp;veľkosť písma, pričom už naformátovaný formát objednávky je možné ďalej upravovať podľa vlastných požiadaviek. Neodporúča sa používať v&amp;nbsp;prevádzkach s vysokou kadenciou predaja. Okrem objednávok umožňuje tlačiť aj &lt;STRONG&gt;objednávkové kupóny pre zákazníka&lt;/STRONG&gt; - používajú sa v&amp;nbsp;zariadeniach rýchleho občerstvenia ako vyvolávací systém. &lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Model&amp;nbsp;EPSON TM - x&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Pri použití modelu &lt;STRONG&gt;&lt;EM&gt;EPSON TM - x&lt;/EM&gt;&lt;/STRONG&gt; je pri&amp;nbsp;inštalácii bonovacej tlačiarne do OBERON-u&amp;nbsp;možné zvoliť: 
+&lt;UL&gt;
+&lt;LI&gt;univerzálny&amp;nbsp;ovládač systému &lt;EM&gt;Windows&lt;/EM&gt; &lt;EM&gt;&lt;STRONG&gt;Generic/Text Only&lt;/STRONG&gt;&lt;/EM&gt; - v tom prípade sa tlač&amp;nbsp; z&amp;nbsp;&lt;A href="aec074f4-3e1c-4a1e-8a80-06fcecf51156"&gt;Pokladnice OBERON&lt;/A&gt;, resp. aplikácie&amp;nbsp;&lt;A href="942d48d5-b290-40f6-8ba3-45cf78f380f9"&gt;LUKUL&lt;/A&gt;&amp;nbsp;posiela prostredníctvom ovládača do správcu tlače systému &lt;EM&gt;Windows&lt;/EM&gt;.&amp;nbsp;Nevýhodou použitia tohto spôsobu je okolnosť, že nie je možné overiť pripravenosť tlačiarne na tlač (napr. pri&amp;nbsp;spotrebovaní papiera atď.). Obsluha v takomto prípade pri zaslaní novej objednávky nedokáže overiť, či bola skutočne vytlačená alebo len čaká vo fronte na doplnenie papiera a následnú tlač. 
+&lt;LI&gt;možnosť &lt;EM&gt;&lt;STRONG&gt;Priama tlač (serial port)&lt;/STRONG&gt;&lt;/EM&gt;, prípadne &lt;EM&gt;&lt;STRONG&gt;Priama tlač (ethernet)&lt;/STRONG&gt;&lt;/EM&gt; - pri týchto možnostiach systém OBERON, resp. aplikácia&amp;nbsp;&lt;A href="942d48d5-b290-40f6-8ba3-45cf78f380f9"&gt;LUKUL&lt;/A&gt; komunikuje s bonovacou tlačiarňou priamo (bez &lt;EM&gt;Správcu tlače&lt;/EM&gt; systému &lt;EM&gt;Windows&lt;/EM&gt;). Výhodou použitia tejto možnosti je, že sa zároveň testuje pripravenosť tlačiarne - ak tlačiareň nie je pripravená (vypnutá, je zaseknutý papier a pod.), zobrazí sa chybové hlásenie. Ak sa objednávky prestanú tlačiť v dôsledku nefunkčnosti tlačiarne (pri jej poškodení a pod.), je potrebné danú bonovaciu tlačiareň na&amp;nbsp;&lt;A href="c9f7216f-f252-4be3-aa26-3e9bb6d4c887"&gt;Pokladnici OBERON&lt;/A&gt; zakázať (tlačidlo &lt;EM&gt;Ďalšie možnosti, Dočasné pozastavenie tlače na bonovacej tlačiarni&lt;/EM&gt;). To umožní zaevidovať a vytlačiť pokladničný doklad aj s&amp;nbsp;neodoslanými položkami (tieto položky sa budú považovať za odoslané) - viac informácií o funkcii nájdete nižšie v časti &lt;EM&gt;Ďalšie informácie&lt;/EM&gt;. Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="7979135b-101e-4e8b-8544-bb8b653b7074"&gt;Priama tlač na bonovacej tlačiarni&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt; 
+&lt;P&gt;Informácie o&amp;nbsp;všetkých možnostiach inštalácie bonovacej tlačiarne tak&amp;nbsp;v&amp;nbsp;textovom, ako aj v grafickom režime, získate v téme&amp;nbsp;&lt;A href="5e465cda-4abf-4265-8b19-bb85470e116c"&gt;Inštalácia bonovacej tlačiarne&lt;/A&gt;.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Ďalšie&amp;nbsp;informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Bonovacia tlačiareň môže byť podľa typu: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;ihličková&lt;/STRONG&gt; - vtedy sa na tlač používa tzv. textový režim, šírka pásky je 40 znakov (8 cm). Výhodou je vysoká životnosť tlačiarne a nízke prevádzkové náklady (lacné rolky pásky). 
+&lt;LI&gt;&lt;STRONG&gt;termotlačiareň&lt;/STRONG&gt; - môže tlačiť aj tzv.&amp;nbsp;v textovom režime, avšak zaujímavejší je &lt;STRONG&gt;grafický režim&lt;/STRONG&gt; - tu môže byť veľkosť písma väčšia, pričom je možné upraviť formát objednávky podľa vlastných potrieb. Okrem štandardnej objednávky umožňuje tlačiť aj objednávkový kupón pre zákazníka - používa sa v&amp;nbsp;zariadeniach rýchleho občerstvenia ako vyvolávací systém. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Z technického hľadiska môžeme hovoriť o troch spôsoboch zapojenia tlačiarne: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;B&gt;jedna bonovacia tlačiareň&lt;/B&gt; - pri tom spôsobe sa na tlač objednávky používa tlačiareň umiestnená priamo v&amp;nbsp;kuchyni (bare). Po zaevidovaní objednávky na otvorený účet (stôl) sa objednávka vytlačí a&amp;nbsp;môže sa ihneď začať s&amp;nbsp;prípravou jedla. 
+&lt;LI&gt;&lt;B&gt;dve alebo viac bonovacích tlačiarní&lt;/B&gt; - tento spôsob je v podstate totožný s&amp;nbsp;bodom a), avšak v&amp;nbsp;prevádzke sú dve, prípadne aj viac&amp;nbsp;bonovacích tlačiarní (napr. bar, kuchyňa a vonkajší gril). 
+&lt;LI&gt;&lt;STRONG&gt;bez fyzickej bonovacej tlačiarne&lt;/STRONG&gt; - pri tomto spôsobe sa na tlač objednávok používa tlačiareň pokladničných dokladov (fiškálna tlačiareň). &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;V systéme OBERON je možné použiť celkovo až 10 bonovacích tlačiarní. Okrem tlače položky na jednu bonovaciu tlačiareň je možné tlačiť &lt;STRONG&gt;aj kópiu objednávky&lt;/STRONG&gt; -&amp;nbsp;tlač kópie&amp;nbsp;sa nastavuje&amp;nbsp;na skladovej karte ako ďalšia bonovacia tlačiareň. Tu existujú dve možnosti: kópia sa môže tlačiť na tej istej bonovacej tlačiarni, prípadne aj na inej fyzickej tlačiarni. Napr. hlavné jedlo so šalátom&amp;nbsp;môžu byť vytlačené spolu&amp;nbsp;na jednej bonovacej tlačiarni a na ďalšej fyzickej bonovacej tlačiarni (v kuchynskej sekcii na prípravu šalátov) sa vytlačí len šalát. 
+&lt;LI&gt;V prípade potreby je možné tlač položiek na konkrétnej bonovacej tlačiarni &lt;STRONG&gt;dočasne pozastaviť&lt;/STRONG&gt; (&lt;EM&gt;Pokladnica OBERON&lt;/EM&gt;, tlačidlo &lt;EM&gt;Ďalšie možnosti, Dočasné pozastavenie tlače na bonovacej tlačiarni&lt;/EM&gt;). Napríklad v prípade mimosezóny a&amp;nbsp;nižšej návštevnosti je možné&amp;nbsp;z&amp;nbsp;dôvodu šetrenia papierových roliek dočasne pozastaviť tlač objednávok na bonovacej tlačiarni&amp;nbsp;na objednávanie nápojov. Túto funkciu je zároveň možné využiť aj v prípade, že sa sa objednávky prestanú tlačiť v dôsledku nefunkčnosti tlačiarne (pri jej poškodení&amp;nbsp;a pod.) - &lt;STRONG&gt;dočasné pozastavenie tlače&amp;nbsp;umožní zaevidovať a vytlačiť pokladničný doklad aj s&amp;nbsp;neodoslanými položkami&lt;/STRONG&gt; (tieto položky sa budú považovať za odoslané).
+&lt;LI&gt;Na bonovacej tlačiarni možno tlačiť &lt;STRONG&gt;notifikáciu objednávky donášky&lt;/STRONG&gt; pri objednávke prijatej z externého systému, napr.&amp;nbsp;&lt;A href="23e4ac4d-169f-4c85-8e00-60f1e71ff358"&gt;pikMenu&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Zapojenie sériového kábla pre tlačiarne EPSON&lt;/H2&gt;
+&lt;P&gt;Zapojenie kábla medzi PC (serial port) a sériovými tlačiarňami (D-SUB 25 pin).&lt;/P&gt;&lt;IMG border=0 alt="" src="images/Devices/zapojenie_Epson.gif"&gt; 
+&lt;H2&gt;Zmena veľkosti písma objednávky do kuchyne&lt;/H2&gt;
+&lt;P&gt;Pri používaní bonovacej tlačiarne je niekedy&amp;nbsp;kvôli lepšej čitateľnosti obsluhou potrebné zväčšiť písmo na objednávkach. Riešením je&amp;nbsp;zmena ESC sekvencie vo vlastnostiach tlačiarne typu &lt;EM&gt;Generic/Text Only&lt;/EM&gt; podľa Obrázka č. 1. V záložke &lt;EM&gt;Printer commands&lt;/EM&gt; do poľa &lt;EM&gt;Begin print job&lt;/EM&gt; zadajte ESC sekvenciu. Napríklad&amp;nbsp;&lt;B&gt;&amp;lt;1B&amp;gt;!&amp;lt;08&amp;gt;&lt;/B&gt; pri zmene písma na&amp;nbsp;tučné (bold) alebo&amp;nbsp;&lt;STRONG&gt;&amp;lt;1B&amp;gt;!&amp;lt;10&amp;gt;&lt;/STRONG&gt; pri zmene písma na&amp;nbsp;tučné (bold) a väčšie. Uvedené riešenie bolo odskúšané na tlačiarňach od výrobcov &lt;EM&gt;EPSON, ELCOM LK-T20, ZONERICH&lt;/EM&gt; a &lt;EM&gt;BIXOLON&lt;/EM&gt;.&lt;/P&gt;
+&lt;H5&gt;Obrázok č. 2: Ukážky tlače bonovacej tlačiarne pri zmenenej ESC sekvencii&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Printer_Kitchen_Font.jpg"&gt;&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="854d0b76-1ccf-4bd8-a701-d130dd13cc23" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="de37c038-dda7-44e6-bb5a-4b73832e69a1">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="7039e1bf-e9eb-4e07-8fa7-a72ce5436879" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="d9867d81-7de7-4ce2-9c45-932025935b8b">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="6e8b61fa-73c4-4d64-9ece-0e5f49b85bd2" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="a92e71d7-962a-4c7e-a6f6-18cf8cda4947">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="6568ea67-00b6-4d67-8aff-e5e174d0b224" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="69bbd499-45c0-4b0f-8f7a-c53fa5d70c1b">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="0d3c27eb-9ed6-4c75-868a-ea07b6e28a34" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="942d48d5-b290-40f6-8ba3-45cf78f380f9">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="375474a9-ad3f-4afc-bacc-a8a9af1d077d" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="5e465cda-4abf-4265-8b19-bb85470e116c">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="3aee5cac-67f1-4ea2-9293-7231b64d48e9" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="7979135b-101e-4e8b-8544-bb8b653b7074">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="cf070f94-26e4-478c-85d1-76c0360883a8" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="e046c976-bdef-4ff7-b069-e27347615921">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="1917350e-2ec4-40dc-86d6-cd186fba735a" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="9926d2bf-57c1-4229-909f-cb9209486b60">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="0fc5f9ee-4364-458c-87e7-0adfcf02eaf5" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="98e59232-67da-441e-af25-09b722292c1f">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="aae202ea-c90e-4eac-955b-7e2acb8131c4" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="fa60e130-13fa-4c13-a3be-17b040b136a1">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="307fed80-792b-456f-aa24-4c92d33bc2e0" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="6385e301-ae0f-4698-8136-41a483e59357">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="85b96ecb-37f0-4d59-b982-0f178945037e">
+      <Keyword m="2015-02-06T12:28:17.7905026Z">Bonovacia tlačiareň</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="9a651c76-4602-4dad-85b2-95d7a0a9c8d9">
+      <Keyword m="2015-02-06T12:28:25.7999607Z">Tlačiareň do kuchyne</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="2a22b182-0eeb-4975-a518-f955fbad8e5a">
+      <Keyword m="2015-02-06T12:28:33.5294028Z">Objednávková tlačiareň</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="9da888f3-520f-4a35-8049-d0ac0c4d892e">
+      <Keyword m="2021-10-08T07:16:12.332856Z">Kuchyňa - bonovacie tlačiarne</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="b34cf976-67ba-4ef5-812c-7d0ff9661f7d">
+      <Keyword m="2015-06-05T11:16:34.734375Z">Veľkosť písma pri objednávke do kuchyne</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="805a9bbb-278d-4e80-bbb0-6a5e6a947d9d">
+      <Keyword m="2021-05-12T10:48:50.6110204Z">Objednávkový kupón pre zákazníka</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="ffbb17d1-4a56-40f1-9c92-c73a653ecd62">
+      <Keyword m="2022-12-15T08:33:38.4210427Z">Vyvolávací systém - objednávky jedál/nápojov</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="f5080c52-fc46-48ef-aaaa-987a3004a34a">
+      <Keyword m="2022-12-15T08:33:22.7381277Z">Zmena veľkosti písma objednávok jedál/nápojov</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="60bce5e4-0905-4d2b-b76e-625fc709e5ad">
+      <Keyword m="2022-12-15T08:24:14.7036587Z">Zapojenie sériového kábla pre tlačiarne EPSON - bonovacie tlačiarne</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="9d72ec9a-a197-4682-8baa-ceb6c6aef031">
+      <Keyword m="2022-12-15T08:33:33.8200394Z">Veľkosť písma - objednávky jedál/nápojov</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="80cac965-4b53-4009-bf36-6a9166402593">
+      <Keyword m="2021-10-08T07:16:28.0385677Z">Objednávkové tlačiarne</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="79ec45de-48f5-4374-857c-772150cefb6d">
+      <Keyword m="2022-12-15T08:22:37.0370711Z">Bar - bonovacia tlačiareň</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="45943424-7f7a-4dd8-b368-8fcde6544239">
+      <Keyword m="2022-01-24T13:42:38.0613176Z">Bzučiak - bonovacia tlačiareň</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="01929a05-ce00-462d-895e-92ef49ccb2c7">
+      <Keyword m="2022-01-24T13:42:52.591228Z">Bzučiak - bonovacia tlačiareň - zapojenie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="3873120f-3a47-4e9a-866f-4f1fcbee1e14">
+      <Keyword m="2023-04-20T11:36:46.1632766Z">Pípač - bonovacia tlačiareň - zapojenie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="4a87b788-15a0-450f-a22d-9a9fb79a9dbc">
+      <Keyword m="2025-03-20T13:27:11.3763224Z">Notifikácia donášky</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="145d27a1-ea99-4e43-b576-ec5ded41bd6f">
+      <Keyword m="2025-03-20T13:27:18.9003824Z">Notifikácia objednávky donášky </Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

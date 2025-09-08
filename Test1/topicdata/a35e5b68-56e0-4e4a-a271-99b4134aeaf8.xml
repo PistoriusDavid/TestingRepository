@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="a35e5b68-56e0-4e4a-a271-99b4134aeaf8" Status="Complete" CreatedOn="2014-10-08T14:12:06.1665637Z" ModifiedOn="2023-10-17T07:45:24.0073477Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="22181" Name="Form_OBERON_Sett_Settings_LoyalitySystem" BuildFlags="">
+  <Title m="2021-11-30T07:26:22.6491716Z">Formulár Vernostný systém</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-10-17T07:45:24.0073477Z">&lt;P&gt;Formulár&amp;nbsp;&lt;EM&gt;Vernostný systém&lt;/EM&gt;&amp;nbsp;umožňuje &lt;STRONG&gt;nastaviť&amp;nbsp;&lt;/STRONG&gt;&lt;A href="6c98a377-1b88-4eb8-801b-1f168641373b"&gt;&lt;STRONG&gt;vernostný (zľavový) systém&lt;/STRONG&gt;&lt;/A&gt; &lt;STRONG&gt;podporovaný v systéme OBERON&lt;/STRONG&gt;. Aby bolo možné vernostný systém definovať, musí byť v&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="5a6e5663-262e-4ff0-9741-1569385d11e4"&gt;oddiel Firma, Všeobecné&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt; záložka &lt;EM&gt;Rozšírenia&lt;/EM&gt;, začiarknuté políčko &lt;EM&gt;Umožniť používať vernostný systém&lt;/EM&gt;. Formulár je dostupný z programu&amp;nbsp;&lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;, ponuka&amp;nbsp;&lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="5a6e5663-262e-4ff0-9741-1569385d11e4"&gt;oddiel Firma, Všeobecné&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt; záložka &lt;EM&gt;Rozšírenia&lt;/EM&gt;, tlačidlo &lt;EM&gt;Nastaviť&lt;/EM&gt; -&amp;nbsp;otvorí sa formulár &lt;EM&gt;Vernostné systémy&lt;/EM&gt;, v&amp;nbsp;ktorom stlačte tlačidlo &lt;EM&gt;Nový&lt;/EM&gt; alebo &lt;EM&gt;Oprava&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Popis formulára &lt;EM&gt;Vernostný systém&lt;/EM&gt;&lt;/H2&gt;&lt;innovasys:widget type="Tab Strip" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;!-- Základné --&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Základné&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;&lt;STRONG&gt;Číslo&lt;/STRONG&gt; -&amp;nbsp;zadáva sa číslo vernostného systému, na základe ktorého je možné&amp;nbsp;v&amp;nbsp;&lt;A href="04d04395-7b97-45db-bdb1-4e36240a4b54"&gt;transakciách&lt;/A&gt; v prípade využívania niekoľkých vernostných systémov&amp;nbsp;identifikovať ten, ku ktorému transakcia patrí.&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;Názov&lt;/STRONG&gt; - interný názov vernostného systému. Názov musí byť&amp;nbsp;v rámci systému OBERON jedinečný, aj keď sú vernostné systémy rovnakého typu.&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;Typ vernostného systému&lt;/STRONG&gt; - viac informácií o typoch vernostného systému nájdete v téme&amp;nbsp;&lt;A href="6c98a377-1b88-4eb8-801b-1f168641373b" style="auto-update-caption: true"&gt;Vernostné (zľavové) systémy&lt;/A&gt;.&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;Sklad&lt;/STRONG&gt; - určuje sklad, prípadne zoskupenie skladov, s ktorým bude vernostný systém pracovať. Sklad obsahuje tak položky na kumulovanie benefitov, ako aj položky na čerpanie benefitov (zľavnené položky či&amp;nbsp;položky zdarma).&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;Nastavenia komunikácie&lt;/STRONG&gt; - pomocou rozbaľovacieho zoznamu je možné vybrať nastavenie (prihlasovacie údaje) externej webovej služby vernostného systému (napr.&amp;nbsp;&lt;A href="29a9a88d-471d-434a-ad1c-de2068775bdf"&gt;Cardberg&lt;/A&gt;).&amp;nbsp;Nastavenie je možné definovať v&amp;nbsp;číselníku &lt;EM&gt;Nastavenia externých webových služieb&lt;/EM&gt; po stlačení&amp;nbsp;tlačidla&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_Button_Tools.png"&gt;&amp;nbsp;na pravej strane rozbaľovacieho zoznamu. Číselník je dostupný aj z&amp;nbsp;ponuky &lt;EM&gt;Servis,&lt;/EM&gt; &lt;A href="b1032a3e-bd73-461a-92f6-02d1f210540a"&gt;Externé webové služby&lt;/A&gt;.&lt;/P&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Nastavenie externej webovej&amp;nbsp;služby&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Po stlačení tlačidla &lt;EM&gt;Nový&lt;/EM&gt; alebo &lt;EM&gt;Oprava&lt;/EM&gt; v&amp;nbsp;číselníku &lt;EM&gt;Nastavenia externých webových služieb&lt;/EM&gt; sa otvorí formulár &lt;EM&gt;&lt;STRONG&gt;Nastavenie externej webovej služby&lt;/STRONG&gt;&lt;/EM&gt;, ktorý slúži na vyplnenie prihlasovacích údajov externej webovej služby.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt; 
+&lt;P&gt;&lt;STRONG&gt;Zakázať&amp;nbsp;&lt;/STRONG&gt;- začiarknutím políčka nebude možné vernostný systém používať.&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Nastavenia&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;H3&gt;Kumulovanie vernostných bodov&lt;/H3&gt;
+&lt;P&gt;Nastavenie určuje, akým spôsobom sa budú pripočítavať vernostné body k vernostnej karte:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Podľa sumy dokladu&lt;/STRONG&gt; - 1&amp;nbsp;€ = 1 bod. 
+&lt;LI&gt;&lt;STRONG&gt;Vypočítava OBERON (body podľa sklad. karty)&lt;/STRONG&gt; - výpočet sa vykonáva podľa skladových položiek v&amp;nbsp;doklade (počtu predaných kusov). Na skladovej karte sa zadáva, koľko vernostných bodov pre kumulovanie benefitov predstavuje daná &lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;skladová karta&lt;/A&gt; (záložka &lt;EM&gt;Obch. partneri, Hodnota položky v bodoch pre kumulovanie benefitov&lt;/EM&gt;). Napr. počet vernostných bodov na skladovej karte je 2, na doklade sa predáva 5 ks -&amp;gt;&amp;nbsp;počet kumulovaných bodov bude 5&amp;nbsp;x&amp;nbsp;2&amp;nbsp;=&amp;nbsp;10 bodov. 
+&lt;LI&gt;&lt;STRONG&gt;Vypočítava OBERON (body podľa objemu predaja sklad. karty)&lt;/STRONG&gt; - výpočet sa vykonáva podľa skladových položiek v doklade (objemu predaja danej položky). Na skladovej karte sa zadáva, koľko vernostných bodov pre kumulovanie benefitov predstavuje daná &lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;skladová karta&lt;/A&gt; (záložka&amp;nbsp;&lt;EM&gt;Obch. partneri, Hodnota položky v bodoch pre kumulovanie benefitov&lt;/EM&gt;). Napr. počet vernostných bodov na skladovej karte je 2, na doklade sa predáva 5 ks za 12&amp;nbsp;€ s DPH -&amp;gt;&amp;nbsp;cena položky je 5&amp;nbsp;x&amp;nbsp;12&amp;nbsp;=&amp;nbsp;60 €, počet kumulovaných bodov bude 60&amp;nbsp;x&amp;nbsp;2&amp;nbsp;=&amp;nbsp;120 bodov. Ak sa zadá počet bodov pre kumulovanie 1, výpočet bude takmer totožný s&amp;nbsp;nastavením &lt;STRONG&gt;Podľa sumy dokladu&lt;/STRONG&gt;, avšak do výpočtu budú zahrnuté len položky dokladu, u ktorých je nastavený počet bodov pre kumulovanie.&amp;nbsp; 
+&lt;LI&gt;&lt;STRONG&gt;Vypočítava vernostný systém&lt;/STRONG&gt; - výpočet vernostných bodov je v&amp;nbsp;réžii vernostného systému. Pri vytlačení dokladu na &lt;EM&gt;Pokladnici OBERON&lt;/EM&gt; sa zasiela celý doklad do vernostného systému, ktorý následne podľa svojich pravidiel vypočíta počet vernostných bodov. &lt;/LI&gt;&lt;/UL&gt;
+&lt;P&gt;&lt;STRONG&gt;Pri čerpaní benefitov umožniť súčasne aj kumulovať benefity&lt;/STRONG&gt;&lt;/P&gt;
+&lt;P&gt;Umožní na jednom doklade niektorými položkami kumulovať benefit a inými čerpať benefit. V prípade, že políčko nie je začiarknuté, program neumožní kumulovať benefit v&amp;nbsp;prípade, že bola na doklad pridaná aspoň jedna položka v rámci čerpania benefitov.&lt;/P&gt;&lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;V prípade, že&amp;nbsp;je na&amp;nbsp;&lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;skladovej karte&lt;/A&gt; zadaná &lt;EM&gt;Hodnota položky v bodoch pre kumulovanie benefitov&lt;/EM&gt; a zároveň aj&amp;nbsp;&lt;EM&gt;Hodnota položky v bodoch pre čerpanie benefitov&lt;/EM&gt;, bude táto skladová položka pri jej vybratí pomocou tlačidla &lt;EM&gt;Čerpanie benefitov (Ctrl+Shift+E)&lt;/EM&gt; pridaná na doklad s nulovou cenou.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt; 
+&lt;H3&gt;Predvolené použitie&lt;/H3&gt;
+&lt;P&gt;Predvolený&amp;nbsp;spôsob použitia vernostnej karty na &lt;EM&gt;Pokladnici OBERON:&lt;/EM&gt;&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Čerpanie benefitov&lt;/STRONG&gt; - pri načítaní vernostnej karty snímačom sa automaticky&amp;nbsp;otvorí formulár&amp;nbsp;na čerpanie benefitov. 
+&lt;LI&gt;&lt;STRONG&gt;Kumulovanie benefitov&lt;/STRONG&gt; - po načítaní vernostnej karty snímačom program túto kartu eviduje, ale nevykoná žiadnu viditeľnú akciu a umožní obsluhe pridávať položky na účet. &lt;/LI&gt;&lt;/UL&gt;
+&lt;P&gt;&lt;STRONG&gt;Použitie vernostnej karty - jednoduchý režim&lt;/STRONG&gt;&lt;/P&gt;
+&lt;P&gt;Po začiarknutí políčka sa pri predaji na &lt;EM&gt;Pokladnici OBERON&lt;/EM&gt; formulár na zadanie čísla vernostnej karty zobrazí len pri&amp;nbsp;pridaní prvej položky pomocou tlačidla&amp;nbsp;&lt;EM&gt;Čerpanie benefitov (Ctrl+Shift+E)&lt;/EM&gt;), pri druhej a&amp;nbsp;ďalšej položke sa formulár už nezobrazí (preskočí).&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;!-- Nastavenia koniec --&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Rozšírené nastavenia&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;H3&gt;Miesto transakcie&lt;/H3&gt;
+&lt;P&gt;Zadáva sa&amp;nbsp;názov miesta vzniku&amp;nbsp;&lt;A href="04d04395-7b97-45db-bdb1-4e36240a4b54"&gt;transakcie&lt;/A&gt;, ktoré sa zasiela na server vernostného systému.&lt;/P&gt;
+&lt;H3&gt;Automatická detekcia vernostného systému&lt;/H3&gt;
+&lt;P&gt;Zadáva sa regulárny výraz, ktorý vyhodnotí príslušnosť vernostnej karty k vernostnému systému. V prípade, že&amp;nbsp;regulárny výraz nebude zadaný, pri použití vernostnej karty bude potrebné vernostný systém vybrať manuálne. Uvedené nastavenie je dôležité pri používaní&amp;nbsp;&lt;A href="80a78093-fc45-4db9-b74b-e1f9829f7b3c"&gt;snímača čiarových kódov&lt;/A&gt; alebo&amp;nbsp;&lt;A href="16818a7f-7c27-497a-be4a-4930302e84f1"&gt;snímača RFID kľúčov&lt;/A&gt;, keď po nasnímaní čiarového kódu sa štandardne vyhľadáva skladová položka v sklade. Ak zadaný regulárny výraz&amp;nbsp;vyhodnotí, že daný čiarový kód patrí k vernostnej karte,&amp;nbsp;vykoná sa spojenie s vernostným systémom a automaticky sa overí&amp;nbsp;nasnímaná vernostná karta.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="be970857-f7ea-4e99-8944-fa4a82d6fa57" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="6c98a377-1b88-4eb8-801b-1f168641373b">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="e9c0da16-92e7-4f1e-82ba-1a9e2e73a802" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="e20b0d75-24ee-4bd0-8f05-f61b22205d9a">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="08f1917e-e946-4338-85c4-979857c9bd15" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="92147420-5d85-4b11-a328-06d401650294">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="04983bc3-777b-4fbe-9245-36ea0a39ca01" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="29a9a88d-471d-434a-ad1c-de2068775bdf">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="b9d1a2c3-1a15-4fc7-abc8-19005fc3a41d" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="7a7d2c0d-866b-42ff-89bd-19d34b0b0a11">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="a121e595-2ef6-4583-a2bf-14f7719d0f33" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="6463c7dc-58dd-4df8-b0d6-bf41901c1998">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="55201640-8dbc-406c-bac5-0212e76d9c98" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="f63e245e-f7c1-4def-b012-21256dea3530">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="c259d29e-e39b-4ff6-92ec-bdf609903abc" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="04d04395-7b97-45db-bdb1-4e36240a4b54">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="26887808-0b56-49bc-a2d3-f8a635bfc751" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="b7a48886-b367-4056-808a-59ba5f871f32">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="3c91ee3a-55f4-4195-8368-712916805425">
+      <Keyword m="2021-12-01T13:41:09.9884169Z">Regulárny výraz - vernostný systém</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="dcc2823e-cddc-491a-b8a9-67509d8e8816">
+      <Keyword m="2015-04-09T07:46:00.7197265Z">Vernostný systém - nastavenie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="e00300e3-56d9-44b3-94bf-bc7516acc495">
+      <Keyword m="2021-12-01T13:41:46.4601875Z">Vernostný systém - formulár</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

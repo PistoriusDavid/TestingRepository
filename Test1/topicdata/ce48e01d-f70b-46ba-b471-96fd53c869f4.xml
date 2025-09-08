@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="ce48e01d-f70b-46ba-b471-96fd53c869f4" Status="Complete" CreatedOn="2017-08-17T08:18:20.6641015Z" ModifiedOn="2024-12-20T08:38:03.7380046Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="false" HelpContextIds="" Name="CashRegister_Advanced_GiftVoucher" BuildFlags="">
+  <Title m="2019-11-29T13:49:20.7122324Z">Predaj a výmena poukazov</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-12-20T08:38:03.7380046Z">&lt;P&gt;Táto téma&amp;nbsp;&lt;EM&gt;Pomocníka&lt;/EM&gt; je venovaná &lt;STRONG&gt;zásadám predaja a výmeny poukazov&lt;/STRONG&gt; (darčekové poukážky, knižné poukazy a pod.) v&amp;nbsp;systéme OBERON.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;P&gt;Poukaz je v&amp;nbsp;zákone&amp;nbsp;o DPH definovaný ako &lt;STRONG&gt;nástroj, s ktorým je spojená povinnosť&lt;/STRONG&gt; prijať ho ako protihodnotu alebo jej časť za dodanie tovaru alebo dodanie služby a na ktorom alebo v&amp;nbsp;súvisiacej dokumentácii ku ktorému je uvedený tovar alebo služba, ktoré sa majú dodať, alebo totožnosť možných dodávateľov vrátane podmienok použitia tohto nástroja.&lt;/P&gt;
+&lt;P&gt;Z&amp;nbsp;hľadiska účelu zákon o DPH rozdeľuje poukazy na:&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;1. Jednoúčelové poukazy&lt;/STRONG&gt;&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;Pri&amp;nbsp;vystavení jednoúčelových poukazov&amp;nbsp;je známe: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;miesto dodania tovaru alebo služby&lt;/STRONG&gt;, na ktoré sa poukaz vzťahuje (t. j. štát, v ktorom k dodaniu tovaru alebo služby dôjde), 
+&lt;LI&gt;&lt;STRONG&gt;suma prislúchajúcej DPH&lt;/STRONG&gt; na základe sadzby platnej pre konkrétne tovary alebo služby, príp. oslobodenie od DPH (ak by sa poukaz vzťahoval na tovary a služby, ktoré podliehajú rôznym sadzbám dane, môže ísť o jednoúčelový poukaz len v prípade,&amp;nbsp;že je hodnota poukazu jednoznačne rozdelená a priraditeľná k jednotlivým sadzbám). &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Napr.&amp;nbsp;firma predáva poukaz na dodanie vstavaných skríň s montážou pre zákazníkov výlučne v SR. Miesto dodania tovaru s montážou aj splatná daň sú vopred známe, preto ide o jednoúčelový poukaz. 
+&lt;LI&gt;Keďže pri jednoúčelovom poukaze je už &lt;STRONG&gt;v čase vystavenia poukazu&lt;/STRONG&gt; &lt;STRONG&gt;známe a nemenné uplatnenie DPH podkladovej transakcie&lt;/STRONG&gt; (tovaru alebo služby, ktoré budú poskytnuté výmenou za poukaz), &lt;STRONG&gt;zdaňuje sa každý prevod (predaj) poukazu&lt;/STRONG&gt; (ak by sa jednoúčelový poukaz vzťahoval na tovary alebo služby, ktoré podliehajú základnej sadzbe dane, bude aj prevod poukazu podliehať základnej sadzbe dane; ak by sa prevod jednoúčelového poukazu vzťahoval na tovary alebo služby, ktoré sú oslobodené od dane, napr. poskytnutie zdravotnej starostlivosti, prevod poukazu bude od dane oslobodený). 
+&lt;LI&gt;&lt;STRONG&gt;Dodanie&amp;nbsp;(výmena) tovaru alebo služby&lt;/STRONG&gt; za jednoúčelový&amp;nbsp;poukaz &lt;STRONG&gt;sa už nezdaňuje&lt;/STRONG&gt;. &amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/LI&gt;&lt;/UL&gt;
+&lt;P&gt;&lt;STRONG&gt;2. Viacúčelové poukazy&lt;/STRONG&gt;&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;Na rozdiel od jednoúčelového poukazu &lt;STRONG&gt;nie je známe daňové zaobchádzanie&lt;/STRONG&gt;. 
+&lt;LI&gt;Napr. poukaz v hodnote 30&amp;nbsp;€ bol vystavený na nákup tovaru v nákupnom centre. Keďže je zaň možné nakúpiť tovar s rôznou sadzbou DPH a hodnota poukazu nie je jednoznačne rozdelená a&amp;nbsp;priraditeľná k jednotlivým sadzbám DPH, ide o viacúčelový poukaz. 
+&lt;LI&gt;Pri viacúčelovom poukaze &lt;STRONG&gt;uplatnenie DPH podkladovej transakcie v čase vystavenia poukazu nie je známe a nemenné&lt;/STRONG&gt;, preto prevod (predaj)&amp;nbsp;viacúčelového poukazu nepodlieha DPH a&amp;nbsp;&lt;STRONG&gt;zdaňuje sa až dodanie (výmena)&lt;/STRONG&gt; tovaru alebo služby za poukaz. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Zásady predaja&amp;nbsp;a výmeny poukazov&lt;/H2&gt;
+&lt;P&gt;Princípy&amp;nbsp;predaja a výmeny poukazov sa líšia v závislosti od toho, o aký typ poukazu ide.&lt;/P&gt;
+&lt;H3&gt;Viacúčelové poukazy&lt;/H3&gt;
+&lt;UL&gt;
+&lt;LI&gt;Keďže v prípade viacúčelového poukazu ide o ceninu, jeho&amp;nbsp;&lt;STRONG&gt;predaj sa neeviduje v pokladnici&lt;/STRONG&gt; (nevydáva sa&amp;nbsp;pokladničný doklad). 
+&lt;LI&gt;Na druhej strane, pri &lt;STRONG&gt;výmene&lt;/STRONG&gt; viacúčelového poukazu&amp;nbsp;za tovar/službu je &lt;STRONG&gt;predávajúci povinný túto tržbu vo forme poukážky&lt;/STRONG&gt; &lt;STRONG&gt;zaevidovať v pokladnici&lt;/STRONG&gt; - z &lt;EM&gt;Pokladnice OBERON&lt;/EM&gt; tak zákazník dostane pokladničný doklad, pričom pri platbe je potrebné vybrať spôsob úhrady &lt;EM&gt;Cenina&lt;/EM&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 1: Výmena viacúčelového poukazu za tovar&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/CashRegister/Form_CashRegister_VUP_vymena.png"&gt;&amp;nbsp;&lt;/P&gt;
+&lt;H3&gt;Jednoúčelové poukazy&lt;/H3&gt;
+&lt;UL&gt;
+&lt;LI&gt;Na rozdiel od viacúčelových poukazov jednoúčelové poukazy nie sú ceniny, t. j. ich &lt;STRONG&gt;predaj sa má v zmysle zákona evidovať v pokladnici&lt;/STRONG&gt;. 
+&lt;LI&gt;Rovnako aj pri ich &lt;STRONG&gt;výmene za tovar alebo službu sa má vydávať pokladničný doklad&lt;/STRONG&gt;, ktorý však nesmie obsahovať údaje týkajúce sa dane z pridanej hodnoty (základ, sadzbu ani výšku dane). 
+&lt;LI&gt;To však platí len pre prípady, keď pôjde o štandardnú výmenu jednoúčelového poukazu za poskytnutú službu alebo dodaný tovar. Ak by hodnota služby alebo tovaru bola vyššia, ako je hodnota poukazu, dodávateľ služby/tovaru je &lt;STRONG&gt;povinný k rozdielu vystaviť plnohodnotný doklad&lt;/STRONG&gt; podľa zákona o DPH (so všetkými náležitosťami) a rozdiel v DPH odviesť do štátneho rozpočtu. 
+&lt;LI&gt;V OBERON-e&amp;nbsp;je možné&amp;nbsp;jednoúčelové poukazy evidovať vo forme &lt;STRONG&gt;skladovej karty&amp;nbsp;&lt;/STRONG&gt;&lt;A href="8deac9fe-9864-41e8-aaa3-02257c241d78"&gt;typu služba&lt;/A&gt; (ak nie je potrebné evidovať množstvo) alebo &lt;STRONG&gt;typu&lt;/STRONG&gt; &lt;STRONG&gt;&lt;EM&gt;Jednoduchá karta&lt;/EM&gt;&lt;/STRONG&gt; (umožní evidenciu presného počtu emitovaných poukazov). Na skladovej karte v záložke &lt;EM&gt;Reg. pokladnice&lt;/EM&gt; je potrebné jednorazovo vybrať &lt;STRONG&gt;typ položky &lt;EM&gt;Jednoúčelový poukaz (záporná položka)&lt;/EM&gt;&lt;/STRONG&gt;.&amp;nbsp;Dôležité je mať na skladovej karte nastavenú aj správnu sadzbu DPH v&amp;nbsp;závislosti od toho, akú sadzbu DPH má tovar alebo služba, ktorý bude predmetom výmeny. 
+&lt;LI&gt;Podľa vlastných preferencií je možné takúto skladovú kartu evidovať buď &lt;STRONG&gt;s cenou&lt;/STRONG&gt; (pri obmedzenom počte poukazov), alebo &lt;STRONG&gt;bez ceny&lt;/STRONG&gt; (pri vyššom počte poukazov s rôznou cenou). V&amp;nbsp;druhom prípade je cenu možné zadať pri výbere skladovej karty evidujúcej jednoúčelový poukaz pri výmene konkrétneho tovaru/služby za jednoúčelový poukaz na &lt;EM&gt;Pokladnici OBERON.&lt;/EM&gt; Tu je možné zadať aj číslo jednoúčelového poukazu, prípadne poznámku. 
+&lt;LI&gt;Pri štandardnej výmene jednúčelového poukazu (s rovnakou hodnotou ako tovar) sa na &lt;EM&gt;Pokladnici OBERON&lt;/EM&gt; nevyberá žiadny spôsob úhrady. Pri vyššej hodnote služby alebo tovaru je potrebné zvoliť niektorý zo spôsobov úhrady. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 2: Výmena jednoúčelového poukazu pri vyššej hodnote tovaru&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/CashRegister/Form_CashRegister_JUP_vymena.png"&gt;&lt;/P&gt;
+&lt;H5&gt;Obrázok č. 3: Pokladničný doklad pri výmene jednoúčelového poukazu s rovnakou hodnotou tovaru (vľavo) a vyššou hodnotou tovaru (vpravo)&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/CashRegister/Form_CashRegister_JUP_pokladnicne_doklady.png"&gt;&amp;nbsp;&lt;/P&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Viac informácií vrátane princípov zdaňovania poukazov nájdete v článku&amp;nbsp;&lt;A href="https://exalogic.sk/nove-pravidla-pre-poukazy/" target=_blank&gt;Nové pravidlá pre poukazy&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="cd8613a3-9f3a-41b6-a0c7-1b15ac3a4a7e" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="69bbd499-45c0-4b0f-8f7a-c53fa5d70c1b">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="240e54a1-e07e-4366-b2b1-4766fd046e81" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="8deac9fe-9864-41e8-aaa3-02257c241d78">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="b83d1aed-ab66-4b90-b5aa-6d80264ef601" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="277559d2-a8ba-4399-b39d-58b8b28b01ff">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="efafc9a3-94dc-4cf1-8ae8-c8c5855e1798" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="46e6deed-ce15-42dc-be53-ab72142d9673">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="c9e3083e-c024-44b5-bcaa-9c598f83e2dd">
+      <Keyword m="2017-09-06T09:25:40.6596587Z">Poukážky na nákup tovaru</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="c902b6f3-0479-4bf7-81b7-9baa80636af3">
+      <Keyword m="2017-09-06T10:07:02.8060782Z">Darčekové poukážky v Pokladnici OBERON</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="77129238-f9d6-409c-9d91-5fede226422d">
+      <Keyword m="2019-12-02T08:58:09.6485473Z">Jednoúčelové poukazy</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="3acbd108-9379-4933-a196-5a77bcf5daf3">
+      <Keyword m="2019-12-02T08:58:19.5380146Z">Viacúčelové poukazy</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="a3a65098-3112-467d-a33e-ede99af22d5e">
+      <Keyword m="2023-03-08T12:25:56.3458832Z">Cenina - poukazy</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="7e634819-44d2-4c03-9ec1-f036013e3fca">
+      <Keyword m="2019-12-02T09:05:14.5535628Z">Zdaňovanie poukazov</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

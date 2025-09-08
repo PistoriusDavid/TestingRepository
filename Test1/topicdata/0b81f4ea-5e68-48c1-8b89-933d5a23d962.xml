@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="0b81f4ea-5e68-48c1-8b89-933d5a23d962" Status="Complete" CreatedOn="2014-09-01T12:23:48.160186Z" ModifiedOn="2025-05-26T09:54:31.4435407Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="DatabaseEngines" BuildFlags="">
+  <Title m="2021-02-19T12:11:07.5401526Z">Databázové systémy</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2025-04-07T09:17:59.7365511Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;je venovaná &lt;STRONG&gt;problematike databázových&amp;nbsp;systémov, s ktorými&amp;nbsp;systém OBERON&lt;/STRONG&gt; &lt;STRONG&gt;umožňuje pracovať&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Systém OBERON&amp;nbsp;umožňuje pracovať&amp;nbsp;&lt;STRONG&gt;s&amp;nbsp;viacerými databázovými systémami, t. j. s viacerými typmi databáz&lt;/STRONG&gt;. Databázový&amp;nbsp;systém&amp;nbsp;predstavuje špecifický druh informačného systému, ktorý v sebe zahŕňa súbor navzájom súvisiacich údajov a programového vybavenia umožňujúceho prístup k týmto údajom a manipuláciu s nimi. Skladá sa z&amp;nbsp;dvoch častí: &lt;STRONG&gt;databáza&lt;/STRONG&gt;&amp;nbsp;a&amp;nbsp;&lt;STRONG&gt;systém riadenia bázy údajov&lt;/STRONG&gt; (DBMS - &lt;EM&gt;&lt;STRONG&gt;D&lt;/STRONG&gt;ata&lt;STRONG&gt;b&lt;/STRONG&gt;ase &lt;STRONG&gt;M&lt;/STRONG&gt;anagement &lt;STRONG&gt;S&lt;/STRONG&gt;ystem&lt;/EM&gt;). 
+&lt;LI&gt;Databázové systémy podporované&amp;nbsp;systémom OBERON rozdeľujeme do dvoch základných skupín:&lt;BR&gt;&lt;B&gt;A)&lt;/B&gt;&amp;nbsp;&lt;STRONG&gt;súborová databáza (s priamym prístupom k&amp;nbsp;databáze)&lt;/STRONG&gt;&amp;nbsp;- program pristupuje k&amp;nbsp;databáze priamo a je vhodný len&amp;nbsp;pre veľmi malé firmy (1 osoba pracujúca na 1 počítači, v ktorom je umiestnený program aj databáza) s&amp;nbsp;nízkym počtom (do niekoľko desiatok tisíc) záznamov. Samozrejme, na jednom počítači je možné napr. spracovávať účtovníctvo aj viacerým účtovným jednotkám (účtovné firmy), ich počet nie je obmedzený. Výhodou je ľahká&amp;nbsp;&lt;A href="529e2eb4-6a11-4d0e-bdb1-7fd774dea453"&gt;prenosnosť údajov do iného počítača&lt;/A&gt;, ďalšou výhodou je jednoduchosť inštalácie, pričom odpadá náročnejšie spravovanie databázového servera.&lt;BR&gt;&lt;B&gt;B) systém klient/server&lt;/B&gt; - databáza je umiestnená&amp;nbsp;v databázovom SQL&amp;nbsp;serveri. Tento systém je vhodný pre väčší počet záznamov a používateľov pracujúcich na viacerých počítačoch. 
+&lt;LI&gt;Výber vhodného databázového&amp;nbsp;systému závisí &lt;STRONG&gt;hlavne od množstva údajov v&amp;nbsp;databázových tabuľkách&lt;/STRONG&gt;. Pri očakávanom väčšom počte záznamov v databáze (rádovo niekoľko desiatok tisíc, napr. predajňa v maloobchode), &lt;STRONG&gt;odporúčame do&amp;nbsp;tohto počítača nainštalovať&lt;/STRONG&gt; databázový SQL server. Výkonnostný rozdiel medzi súborovou databázou a&amp;nbsp;SQL serverom je výrazný (aj keď sú umiestnené v tom istom počítači). 
+&lt;LI&gt;Databázový systém (typ databázy), ktorý bude OBERON a daná účtovná jednotka používať, sa vyberá pri &lt;A href="9a485893-6dd2-44e8-9740-a4cd7083a932"&gt;vytvorení novej firmy&lt;/A&gt;, prípadne&amp;nbsp;ho možno zmeniť aj dodatočne (tzv. &lt;A href="53708756-df6d-4205-b722-ff19054c3797"&gt;migrácia databázy&lt;/A&gt;). &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Podporované databázové systémy&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;B&gt;Microsoft Access 2003&lt;/B&gt; - desktopový databázový systém s priamym prístupom k&amp;nbsp;databáze (súbor s príponou &lt;STRONG&gt;MDB&lt;/STRONG&gt;). 
+&lt;LI&gt;&lt;B&gt;Microsoft Access 2007&lt;/B&gt; - desktopový databázový systém s priamym prístupom k databáze (súbor s príponou &lt;STRONG&gt;ACCDB&lt;/STRONG&gt;). 
+&lt;LI&gt;&lt;STRONG&gt;MariaDB&amp;nbsp;&lt;A href="1f32a90c-7b4a-4d69-9f38-a560178794b3" style="auto-update-caption: true"&gt;&lt;IMG border=0 alt="Odporúčané riešenia" src="images/OBERON/Basic/Odporucane-riesenie_ruka_ikona.png"&gt;&lt;/A&gt;&amp;nbsp;-&lt;/STRONG&gt; SQL relačný databázový systém (fork, t. j. odnož&amp;nbsp;systému &lt;EM&gt;MySQL&lt;/EM&gt;), slobodný a otvorený databázový systém &lt;STRONG&gt;dostupný zdarma&lt;/STRONG&gt; (pod správou pôvodných vývojárov &lt;EM&gt;MySQL&lt;/EM&gt;).&amp;nbsp;Pre používateľov OBERON-u je&amp;nbsp;&lt;A href="1f32a90c-7b4a-4d69-9f38-a560178794b3"&gt;odporúčaným&lt;/A&gt; databázovým SQL serverom. 
+&lt;LI&gt;&lt;B&gt;MySQL&lt;/B&gt; -&amp;nbsp;SQL relačný databázový systém, slobodný a otvorený databázový systém &lt;STRONG&gt;dostupný zdarma&lt;/STRONG&gt; (pod správou ORACLE). 
+&lt;LI&gt;&lt;B&gt;Microsoft SQL Server&lt;/B&gt; - SQL relačný databázový systém (&lt;STRONG&gt;zdarma vo verzii &lt;EM&gt;Express&lt;/EM&gt;&lt;/STRONG&gt;). &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 1: Sprievodca vytvorením novej firmy&lt;/H5&gt;
+&lt;P&gt;&lt;IMG style="BORDER-TOP: black 1px solid; BORDER-RIGHT: grey 1px solid; BORDER-BOTTOM: grey 1px solid; BORDER-LEFT: grey 1px solid" border=0 src="images/Forms/BasicInformation/Form_OBERON_CreateDatabase.png"&gt;&amp;nbsp;&lt;/P&gt;
+&lt;H2&gt;Ako vybrať správny&amp;nbsp;databázový systém&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Výber databázového&amp;nbsp;systému (typu databázy) je potrebné uskutočniť ešte pred prvým vytvorením databázy. Pre používateľov, ktorí budú pracovať &lt;STRONG&gt;na jednom počítači, prípadne majú nízky počet záznamov v&amp;nbsp;jednotlivých knihách&lt;/STRONG&gt; (rádovo niekoľko tisíc v jednej evidencii za jeden rok, napr. drobný živnostník), je najjednoduchšie použiť súborovú databázu &lt;STRONG&gt;Microsoft Access&lt;/STRONG&gt;, ktorej prednosťou je jednoduchosť inštalácie,&amp;nbsp;ľahká&amp;nbsp;&lt;A href="529e2eb4-6a11-4d0e-bdb1-7fd774dea453"&gt;prenosnosť do iného počítača&lt;/A&gt;, jednoduché zálohovanie. 
+&lt;LI&gt;Ak bude so systémom OBERON pracovať &lt;STRONG&gt;viac používateľov v sieti a bude sa používať&amp;nbsp;program&amp;nbsp;&lt;/STRONG&gt;&lt;A href="09f3dae9-2fb7-490f-97dc-37f60885b398"&gt;&lt;STRONG&gt;OBERON Automation Center&lt;/STRONG&gt;&lt;/A&gt;&lt;STRONG&gt;, prípadne sa vyžaduje vyššia bezpečnosť uloženia údajov&lt;/STRONG&gt;, odporúčame zvoliť niektorý z podporovaných &lt;STRONG&gt;databázových&amp;nbsp;SQL serverov&lt;/STRONG&gt;. Ich výkon je porovnateľný,&amp;nbsp;keďže&amp;nbsp;väčšina používateľov štandardne pracuje s údajmi&amp;nbsp;len&amp;nbsp;s veľkosťou maximálne niekoľko GB, čo pre tieto databázové servery znamená veľmi nízku záťaž (sú stavané na oveľa väčšie počty záznamov). Pri výbere je pre používateľa dôležitejšia&amp;nbsp;cena servera, pričom dostupné sú aj &lt;STRONG&gt;bezplatné SQL databázové systémy&lt;/STRONG&gt;.&amp;nbsp;Odporúčaným databázovým SQL serverom je&amp;nbsp;&lt;A href="f0a7aeb9-190b-4de7-90e7-30322114e9a9"&gt;MariaDB&lt;/A&gt;&amp;nbsp;&lt;A href="1f32a90c-7b4a-4d69-9f38-a560178794b3" style="auto-update-caption: true"&gt;&lt;IMG border=0 alt="Odporúčané riešenia" src="images/OBERON/Basic/Odporucane-riesenie_ruka_ikona.png"&gt;&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Porovnanie vlastností podporovaných databázových systémov&lt;/H2&gt;
+&lt;TABLE id=table1 style="HEIGHT: 574px; WIDTH: 60%" width="60%" border=1&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TD width="30%"&gt;&lt;B&gt;Vlastnosti/databázové systémy&lt;/B&gt;&lt;/TD&gt;
+&lt;TD width="10%" align=center&gt;&lt;B&gt;Microsoft&lt;BR&gt;Access 2003&lt;/B&gt;&lt;/TD&gt;
+&lt;TD width="10%" align=center&gt;&lt;B&gt;Microsoft&lt;BR&gt;Access 2007&lt;/B&gt;&lt;/TD&gt;
+&lt;TD width="10%" align=center&gt;&lt;B&gt;MariaDB,&lt;BR&gt;MySQL Server&lt;/B&gt;&lt;/TD&gt;
+&lt;TD width="10%" align=center&gt;&lt;B&gt;Microsoft SQL Server&lt;/B&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=47 width="30%"&gt;Desktopový databázový systém s&amp;nbsp;priamym prístupom k databáze&lt;/TD&gt;
+&lt;TD height=47 width="10%" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;BR&gt;súbor MDB&lt;/TD&gt;
+&lt;TD height=47 width="10%" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;BR&gt;súbor ACCDB&lt;/TD&gt;
+&lt;TD height=47 width="10%" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/TD&gt;
+&lt;TD height=47 width="10%" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width="30%"&gt;SQL relačný databázový systém (klient/server)&lt;/TD&gt;
+&lt;TD width="10%" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/TD&gt;
+&lt;TD width="10%" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/TD&gt;
+&lt;TD width="10%" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD width="10%" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width="30%"&gt;Maximálna veľkosť databázy&lt;/TD&gt;
+&lt;TD width="10%" align=center&gt;1GB&lt;/TD&gt;
+&lt;TD width="10%" align=center&gt;2GB&lt;/TD&gt;
+&lt;TD width="10%" align=center&gt;neobmedzene&lt;/TD&gt;
+&lt;TD width="10%" align=center&gt;10GB&lt;SUP&gt;*1&lt;/SUP&gt; alebo neobmedzene&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width="30%"&gt;Využitie systémových prostriedkov&amp;nbsp;CPU/RAM&lt;/TD&gt;
+&lt;TD width="10%" align=center&gt;-&lt;/TD&gt;
+&lt;TD width="10%" align=center&gt;-&lt;/TD&gt;
+&lt;TD width="10%" align=center&gt;neobmedzene/&lt;BR&gt;neobmedzene&lt;/TD&gt;
+&lt;TD width="10%" align=center&gt;1 jadro&lt;SUP&gt;*1&lt;/SUP&gt;/ do 1GB&lt;SUP&gt;*1&lt;/SUP&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width="30%"&gt;Počet používateľov OBERON-u&amp;nbsp;&lt;/TD&gt;
+&lt;TD width="10%" align=center&gt;5&lt;SUP&gt;*2&lt;/SUP&gt;&lt;/TD&gt;
+&lt;TD width="10%" align=center&gt;5&lt;SUP&gt;*2&lt;/SUP&gt;&lt;/TD&gt;
+&lt;TD width="10%" align=center&gt;neobmedzene&lt;/TD&gt;
+&lt;TD width="10%" align=center&gt;neobmedzene&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width="30%"&gt;Cena databázového systému&lt;/TD&gt;
+&lt;TD width="10%" align=center&gt;zdarma&lt;/TD&gt;
+&lt;TD width="10%" align=center&gt;zdarma&lt;/TD&gt;
+&lt;TD width="10%" align=center&gt;zdarma&lt;SUP&gt;*3&lt;/SUP&gt;&lt;/TD&gt;
+&lt;TD width="10%" align=center&gt;zdarma len v edícii &lt;EM&gt;Express&lt;/EM&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width="30%"&gt;Zložitosť inštalácie, nastavenia&lt;/TD&gt;
+&lt;TD width="10%" align=center&gt;nízka&lt;/TD&gt;
+&lt;TD width="10%" align=center&gt;nízka&lt;/TD&gt;
+&lt;TD width="10%" align=center&gt;štandardná&lt;/TD&gt;
+&lt;TD width="10%" align=center&gt;štandardná&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width="30%"&gt;Zložitosť prenášania údajov medzi počítačmi (napr. práca vo firme a&amp;nbsp;potom na notebooku doma)&lt;/TD&gt;
+&lt;TD width="10%" align=center&gt;nízka&lt;/TD&gt;
+&lt;TD width="10%" align=center&gt;nízka&lt;/TD&gt;
+&lt;TD width="10%" align=center&gt;vysoká&lt;/TD&gt;
+&lt;TD width="10%" align=center&gt;vysoká&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width="30%"&gt;Robustnosť a stabilita&lt;/TD&gt;
+&lt;TD width="10%" align=center&gt;štandardná&lt;/TD&gt;
+&lt;TD width="10%" align=center&gt;štandardná&lt;/TD&gt;
+&lt;TD width="10%" align=center&gt;vysoká&lt;/TD&gt;
+&lt;TD width="10%" align=center&gt;vysoká&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width="30%"&gt;Autorizácia, autentifikácia, bezpečnosť&lt;/TD&gt;
+&lt;TD width="10%" align=center&gt;nízka&lt;/TD&gt;
+&lt;TD width="10%" align=center&gt;nízka&lt;/TD&gt;
+&lt;TD width="10%" align=center&gt;vysoká&lt;/TD&gt;
+&lt;TD width="10%" align=center&gt;vysoká&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width="30%"&gt;Použitie na platforme &lt;EM&gt;Windows&lt;/EM&gt;&lt;/TD&gt;
+&lt;TD width="10%" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD width="10%" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD width="10%" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD width="10%" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width="30%"&gt;Použitie na platforme &lt;EM&gt;Linux&lt;/EM&gt;&lt;/TD&gt;
+&lt;TD width="10%" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;SUP&gt;*4&lt;/SUP&gt;&lt;/TD&gt;
+&lt;TD width="10%" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;SUP&gt;*4&lt;/SUP&gt;&lt;/TD&gt;
+&lt;TD width="10%" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD width="10%" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width="30%"&gt;Podporované verzie SQL servera&lt;/TD&gt;
+&lt;TD width="10%" align=center&gt;-&lt;/TD&gt;
+&lt;TD width="10%" align=center&gt;-&lt;/TD&gt;
+&lt;TD width="10%" align=center&gt;5.5 a vyššia&lt;/TD&gt;
+&lt;TD width="10%" align=center&gt;2008 R2&lt;BR&gt;a vyššia&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width="30%"&gt;Podpora programu&amp;nbsp;&lt;A href="09f3dae9-2fb7-490f-97dc-37f60885b398"&gt;OBERON Automation Center&lt;/A&gt; (OAC)&lt;/TD&gt;
+&lt;TD width="10%" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD width="10%" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD width="10%" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD width="10%" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;
+&lt;P&gt;*1 - &lt;EM&gt;Microsoft SQL Server&lt;/EM&gt; v edícii &lt;EM&gt;Express&lt;/EM&gt;&amp;nbsp;dostupný zdarma&lt;BR&gt;*2 - Orientačný počet používateľov, pri väčšom počte odporúčame SQL server&lt;BR&gt;*3 -&amp;nbsp;&lt;EM&gt;MariaDB&lt;/EM&gt; a &lt;EM&gt;MySQL Server&lt;/EM&gt;&amp;nbsp;sú dostupné ako voľný softvér pod licenciou &lt;EM&gt;GNU General Public License&lt;/EM&gt; (GPL)&lt;BR&gt;*4 - Databáza môže byť umiestnená aj&amp;nbsp;v &lt;EM&gt;Linux&lt;/EM&gt; serveri (ako file server)&lt;/P&gt;
+&lt;H2&gt;Súborová databáza Microsoft Access&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;V systéme OBERON sú podporované dve verzie&amp;nbsp;súborovej databázy &lt;EM&gt;Microsoft Access&lt;/EM&gt;: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Verzia 2003&lt;/STRONG&gt; - súbor s príponou &lt;STRONG&gt;MDB&lt;/STRONG&gt; - hlavnou výhodou tejto verzie je fakt, že do počítača nie je potrebné inštalovať žiadne databázové ovládače (pretože&amp;nbsp;sú súčasťou operačného systému &lt;EM&gt;Microsoft Windows&lt;/EM&gt;). 
+&lt;LI&gt;&lt;STRONG&gt;Verzia 2007&lt;/STRONG&gt; - súbor s príponou &lt;STRONG&gt;ACCDB&lt;/STRONG&gt; - ide o novšiu verziu súborovej databázy.&amp;nbsp;Na prístup k tomuto súboru musí byť&amp;nbsp;v&amp;nbsp;počítači nainštalovaný ovládač&amp;nbsp;&lt;A href="https://exalogic.sk/na-stiahnutie-oberon/2007-office-system-driver/" target=_blank&gt;2007 Office System Driver&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Nastavenie SQL servera&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Systém OBERON nevyžaduje špeciálne nastavenia SQL servera, spravidla&amp;nbsp;postačujú predvolené hodnoty s výnimkou niektorých - bližšie informácie je možné získať v&amp;nbsp;návode na inštaláciu konkrétneho SQL servera: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;A href="f0a7aeb9-190b-4de7-90e7-30322114e9a9"&gt;Inštalácia MariaDB&lt;/A&gt;, 
+&lt;LI&gt;&lt;A href="6072e597-0b64-4765-ad7d-c373b77beb9a"&gt;Inštalácia MySQL Servera&lt;/A&gt;, 
+&lt;LI&gt;&lt;A href="701211a9-6951-4401-acfb-fd5ea760c84d"&gt;Inštalácia Microsoft SQL Servera&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;Dôležitou úlohou, na ktorú netreba zabudnúť, je nastavenie zálohovania údajov&amp;nbsp;v SQL serveri.&lt;/SPAN&gt; 
+&lt;LI&gt;Do poľa &lt;I&gt;Názov&amp;nbsp;počítača&lt;/I&gt; sa zadáva meno počítača (prípadne inštancia) SQL servera, napr. SERVER\SQLEXPRESS, prípadne jeho IP adresa (ak sa nachádza &lt;EM&gt;na internete v cloude&lt;/EM&gt;). Po stlačení tlačidla&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_Button_Refresh.png"&gt;&amp;nbsp;na aktualizáciu zoznamu serverov (vpravo od rozbaľovacieho zoznamu), sa načítajú všetky dostupné SQL servery v rámci lokálnej počítačovej siete. Ak sa v prípade &lt;I&gt;Microsoft SQL Servera&lt;/I&gt; v&amp;nbsp;sieti nenájdu žiadne servery, je pravdepodobne vypnutá služba &lt;I&gt;&lt;B&gt;SQL Server Browser&lt;/B&gt;&lt;/I&gt;, prípadne je počítač chránený bránou &lt;B&gt;&lt;I&gt;Firewall&lt;/I&gt;&lt;/B&gt;. 
+&lt;LI&gt;Na&amp;nbsp;pripojenie k SQL serveru je potrebné zadať prihlasovacie údaje do daného servera.&amp;nbsp;Na prácu so serverom OBERON nevyžaduje žiadne špeciálne (systémové)&amp;nbsp;prihlasovanie meno, prípadne heslo. Prihlasovacie údaje sa zadávajú pri vytvorení novej firmy, prípadne pri pridávaní firmy do zoznamu spracovávaných firiem (ponuka &lt;I&gt;OBERON&lt;/I&gt;, položka &lt;I&gt;Otvorenie agendy (firmy)&lt;/I&gt;, tlačidlo &lt;I&gt;Nalistovať&lt;/I&gt;). Prihlasovacie údaje sú uložené v lokálnom počítači v&amp;nbsp;súbore &lt;I&gt;SQLConnections.xml&lt;/I&gt; (súbor je umiestnený v adresári \OBERON\SHARE\SYSTEM). Prihlasovacie údaje sú v&amp;nbsp;súbore zašifrované pomocou šifrovacieho kľúča závislého&amp;nbsp;od hardvéru počítača. Uvedený súbor preto nie je možné skopírovať&amp;nbsp;do iného počítača a tam ho používať. Ak ste zabudli heslo do databázového servera, pomocou &lt;STRONG&gt;kontextovej ponuky v poli &lt;EM&gt;Heslo&lt;/EM&gt; možno zaslať dodávateľovi systému OBERON požiadavku na zistenie (zobrazenie) hesla&lt;/STRONG&gt;. Vyplňte nasledujúce údaje a po odoslaní požiadavky telefonicky kontaktujte centrum podpory EXALOGIC. Táto služba môže byť spoplatnená podľa&amp;nbsp;&lt;A href="b117e4ac-71e5-46fe-9ddd-d309e8415a85"&gt;platného cenníka&lt;/A&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;SSL&lt;/STRONG&gt; (&lt;EM&gt;&lt;STRONG&gt;S&lt;/STRONG&gt;ecure &lt;STRONG&gt;S&lt;/STRONG&gt;ocket &lt;STRONG&gt;L&lt;/STRONG&gt;ayer&lt;/EM&gt;)&amp;nbsp;- určuje, či&amp;nbsp;komunikácia medzi OBERON-om a databázovým SQL serverom má byť šifrovaná. Šifrovaná komunikácia sa odporúča používať pri pripojení k databáze, ktorá je umiestnená v cloude, prípadne v rozsiahlejších sieťach. Nastavenie je dostupné v&amp;nbsp;&lt;A href="9a485893-6dd2-44e8-9740-a4cd7083a932"&gt;sprievodcovi vytvorením novej firmy&lt;/A&gt;, prípadne&amp;nbsp;v&amp;nbsp;&lt;A href="14d3162b-3fe5-4ed2-9385-8147b2d77b2b"&gt;sprievodcovi pripojením už existujúcej firmy&lt;/A&gt;. Aktuálny stav SSL sa zobrazuje v stavovom riadku programu obrázkom &lt;SPAN style="COLOR: rgb(0,176,80)"&gt;&lt;STRONG&gt;zeleného&lt;/STRONG&gt;&lt;/SPAN&gt; alebo &lt;SPAN style="COLOR: rgb(255,0,0)"&gt;&lt;STRONG&gt;červeného&lt;/STRONG&gt;&lt;/SPAN&gt; zámku.&amp;nbsp;Dostupné sú nasledujúce nastavenia: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Nepoužívať (vypnuté)&lt;/STRONG&gt;&amp;nbsp;- komunikácia medzi OBERON-om a databázovým SQL serverom nebude šifrovaná. Nešifrované spojenie sa môže používať v malých sieťach (s&amp;nbsp;malým počtom počítačov), kde sieť nie je prístupná z vonkajšieho internetu, prípadne sa do siete nemôžu pripojiť anonymní používatelia. Taktiež sa môže používať v&amp;nbsp;prípade, že je komunikácia medzi OBERON-om a SQL serverom šifrovaná sieťovou infraštruktúrou, napr. VPN. 
+&lt;LI&gt;&lt;STRONG&gt;Používať (ak je dostupné)&lt;/STRONG&gt; - ak je SQL server nakonfigurovaný na používanie SSL, OBERON sa automaticky pripojí s použitím&amp;nbsp;SSL pripojenia a komunikácia bude bezpečná (šifrovaná). Ak SQL server nebude používať SSL, komunikácia nebude šifrovaná. 
+&lt;LI&gt;&lt;STRONG&gt;Vždy vyžadovať&lt;/STRONG&gt; - OBERON pri pripojení&amp;nbsp;k&amp;nbsp;SQL serveru vždy používa šifrované pripojenie. Ak SQL server nie je nakonfigurovaný pre SSL, pripojenie nebude možné. &lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Ak sa budete pripájať k databázovému SQL serveru v cloude, z dôvodu bezpečnosti &lt;STRONG&gt;je potrebné vždy používať SSL pripojenie&lt;/STRONG&gt;. V opačnom prípade môže potenciálny útočník získať prihlasovacie údaje&amp;nbsp;do SQL servera, a tak získať neobmedzený prístup k údajom (môže ich aj vymazať).&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H5&gt;&amp;nbsp;Obrázok č. 2: Sprievodca vytvorením novej firmy - zadanie prihlasovacích údajov&lt;/H5&gt;
+&lt;P&gt;&lt;IMG style="BORDER-TOP: black 1px solid; BORDER-RIGHT: grey 1px solid; BORDER-BOTTOM: grey 1px solid; BORDER-LEFT: grey 1px solid" border=0 src="images/Forms/BasicInformation/Form_OBERON_CreateDatabase_SQLServer.png"&gt;&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="9ee9b843-bfa7-4d28-9145-444158e1511d" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="14223592-268a-4a9d-a456-da9adeb1c46b">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="f42bb9c9-6449-4ff2-b164-7198a089826b" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="19a10c98-2b1d-4fe1-8ab2-98921ab328be">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="69cceca5-bc21-46db-8be3-96f2517439a3" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="3c57ad66-7da9-4c69-9073-76947140b42f">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="fe798d55-d738-4ccc-a091-ead452ba2cdc" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="f0a7aeb9-190b-4de7-90e7-30322114e9a9">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="4619c8d3-75fc-44e5-885b-8d094e536932" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="6072e597-0b64-4765-ad7d-c373b77beb9a">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="284ff1f8-8da4-4903-94ca-c9e7260be453" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="701211a9-6951-4401-acfb-fd5ea760c84d">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="361b051b-65e8-4599-ba74-4f8acfda3012">
+      <Keyword m="2022-12-08T12:42:02.837419Z">Microsoft SQL Server - databázový systém</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="1dfc90b8-6414-457c-8f9a-e1d37fefa12e">
+      <Keyword m="2022-12-08T12:42:06.8140091Z">MySQL Server - databázový systém</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="551cfc34-5877-47a2-9581-ada7b1793b0e">
+      <Keyword m="2022-12-08T12:41:51.9162547Z">MariaDB - databázový systém</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="46928e3b-4a08-40c0-9df0-bdcf166711e1">
+      <Keyword m="2021-03-12T13:40:26.2828403Z">Systém klient/server</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="c6a412d9-c55e-4f61-92f0-f19116420c33">
+      <Keyword m="2014-11-18T10:48:44.3955078Z">Microsoft Access</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="d019e66f-ab00-4432-af8b-85d83d8834f4">
+      <Keyword m="2021-02-22T14:31:55.1153656Z">Databázový konektor</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="704f68b4-f624-4b7b-85e8-82833cb77cc8">
+      <Keyword m="2021-02-22T14:32:02.6763911Z">Súborová databáza</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="8fa6e253-18e6-459d-ad47-46b43f1ae099">
+      <Keyword m="2021-02-22T14:32:07.2608652Z">SQL server</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="48f52a1f-48f2-4e88-8bfa-3946e934a8f6">
+      <Keyword m="2021-02-22T14:32:21.0571232Z">Databázový stroj</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="1d1bc007-ffb5-4eed-9d05-b32cf9158635">
+      <Keyword m="2022-07-18T07:13:21.8536113Z">SSL - Secure Socket Layer - databázové systémy</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="877f17aa-5a22-4888-9b82-dfe00d0f1463">
+      <Keyword m="2022-07-18T06:53:46.6102375Z">SQL - SSL</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="2fe2282f-da71-45a1-9dae-741f1f30d467">
+      <Keyword m="2022-12-08T12:44:34.7213673Z">SQL - podpora OAC</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="fe061afc-6754-4c09-885d-3dfb3125de65">
+      <Keyword m="2022-12-08T12:45:08.4141033Z">OAC - databázové systémy (podpora)</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="4a1a0efa-b14a-436c-9619-00bfe48d451c">
+      <Keyword m="2024-07-29T10:38:30.344812Z">MDB</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="5e8bc442-1fc1-48f2-b161-3c1f05c80642">
+      <Keyword m="2024-07-29T10:38:35.7085911Z">ACCDB</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="b5cd59dd-2a5b-4935-9cf4-fd5105171366">
+      <Keyword m="2025-04-07T09:06:12.0516937Z">Zabudnuté heslo - SQL server</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="968c5edb-7416-4240-ab12-69e5c3b0e2e1">
+      <Keyword m="2025-04-07T09:06:20.7926378Z">Zobrazenie hesla - SQL server</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="18865a4d-69c6-4c5e-ad6f-8d7d5caf4751">
+      <Keyword m="2025-04-07T09:06:34.1342415Z">SQL server - heslo</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="6d996a87-df82-4059-9861-53167e76b410">
+      <Keyword m="2025-04-07T09:06:40.7192519Z">Heslo - SQL server</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="94dc31b2-71f4-44d5-b902-ef8342837a4d">
+      <Keyword m="2025-05-26T09:54:31.1378456Z">Reset hesla do SQL servera</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

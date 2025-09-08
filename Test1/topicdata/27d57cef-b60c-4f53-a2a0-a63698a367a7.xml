@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="27d57cef-b60c-4f53-a2a0-a63698a367a7" Status="Complete" CreatedOn="2014-09-11T11:01:59.1050348Z" ModifiedOn="2023-05-24T10:32:58.6696977Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Stock_Advanced_Product_Vydaj_sVyrobnym_Seriovym_Cislom" BuildFlags="">
+  <Title m="2014-09-11T11:02:32.1459247Z">Výdaj tovaru s výrobným/sériovým číslom zo skladu</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-05-24T10:32:58.6696977Z">&lt;P&gt;V&amp;nbsp;tejto téme &lt;EM&gt;Pomocníka&lt;/EM&gt; je uvedený &lt;STRONG&gt;návod, ako postupovať pri&amp;nbsp;výdaji tovaru s&amp;nbsp;&lt;/STRONG&gt;&lt;A href="6f1a89e8-2f56-4543-a452-409834433d36"&gt;výrobným, resp. sériovým číslom&lt;/A&gt;.&lt;STRONG&gt;&amp;nbsp;&lt;/STRONG&gt;Postup výdaja tovaru zo skladu bez evidencie výrobných/sériových čísel je uvedený v téme&amp;nbsp;&lt;A href="0a22d060-0b8a-4166-ba9b-8239f36863a0"&gt;Výdaj zo skladu&lt;/A&gt;.&lt;/P&gt;
+&lt;H2&gt;Výdaj tovaru zo skladu&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;V ponuke&amp;nbsp;&lt;I&gt;Sklad&lt;/I&gt; zvoľte položku &lt;A href="0be61fcc-a85b-4572-876d-2171a5cb7c29"&gt;Výdajky&lt;/A&gt;. 
+&lt;LI&gt;Presvedčte sa, že pomocou filtra &lt;EM&gt;Sklad&lt;/EM&gt; v&amp;nbsp;hornej časti evidencie je zvolený ten sklad, pre ktorý chcete vytvoriť výdajku. 
+&lt;LI&gt;Stlačte tlačidlo &lt;I&gt;Nový&lt;/I&gt;, zobrazí sa sprievodca &lt;I&gt;Nová výdajka&lt;/I&gt;. Zvoľte spôsob vytvorenia novej výdajky. Výdajku je možné vytvoriť štandardným zadaním alebo&amp;nbsp;z iného dokladu (z&amp;nbsp;objednávky&amp;nbsp;prijatej alebo vydanej, príjemky, inej výdajky), prípadne importom zo súboru. 
+&lt;LI&gt;Vyberte druh pohybu, zadajte dátum a číslo dokladu.&amp;nbsp;Ak sa&amp;nbsp;uvedený druh pohybu&amp;nbsp;v&amp;nbsp;zozname pohybov nenachádza, doplňte ho v&amp;nbsp;ponuke &lt;EM&gt;Sklad,&lt;/EM&gt; &lt;A href="a7e1c27b-e28f-4ae9-b643-16cc1b478212"&gt;Druhy pohybov&lt;/A&gt;. 
+&lt;LI&gt;V ďalšom kroku vyberte, resp. zadajte &lt;A href="b7a48886-b367-4056-808a-59ba5f871f32"&gt;obchodného partnera&lt;/A&gt;. Obchodného partnera je možné&amp;nbsp;&lt;A href="e5871f39-032a-431b-9117-df5a4e5dccc8"&gt;vyhľadať na internete podľa názvu alebo podľa IČO&lt;/A&gt;. 
+&lt;LI&gt;Stlačením tlačidla&amp;nbsp;&lt;I&gt;Dokončiť&lt;/I&gt; sa otvorí &lt;A href="e5d60ce3-8ad2-43f2-b60d-08c773376f5b"&gt;formulár Výdajka&lt;/A&gt;. &amp;nbsp;&amp;nbsp;&amp;nbsp; 
+&lt;LI&gt;Vo formulári vyplňte jednotlivé údaje.&amp;nbsp;V&amp;nbsp;záložke &lt;EM&gt;Položky dokladu&lt;/EM&gt; po stlačení&amp;nbsp;tlačidla &lt;EM&gt;Nový&lt;/EM&gt; vyberte skladovú položku, ktorú chcete&amp;nbsp;vydať zo skladu. Vo formulári &lt;EM&gt;Položka dokladu&lt;/EM&gt; stlačte tlačidlo &lt;EM&gt;&lt;STRONG&gt;OK&lt;/STRONG&gt;.&lt;/EM&gt; 
+&lt;LI&gt;Otvorí sa formulár &lt;EM&gt;&lt;STRONG&gt;Výrobné (sériové) čísla&lt;/STRONG&gt;,&lt;/EM&gt; v ktorom&amp;nbsp;stlačte tlačidlo &lt;I&gt;Nový&lt;/I&gt; a&amp;nbsp;&lt;STRONG&gt;vyberte už evidované&amp;nbsp;výrobné/sériové číslo&lt;/STRONG&gt;. 
+&lt;LI&gt;Tvorbu výdajky ukončite stlačením tlačidla &lt;I&gt;OK&lt;/I&gt;. Do knihy výdajok sa uloží nová výdajka. &lt;/LI&gt;&lt;/OL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt; 
+&lt;UL&gt;
+&lt;LI&gt;V ponuke &lt;EM&gt;Sklad,&amp;nbsp;&lt;/EM&gt;&lt;A href="0be61fcc-a85b-4572-876d-2171a5cb7c29"&gt;Výdajky&lt;/A&gt;, resp. &lt;EM&gt;Fakturácia&lt;/EM&gt;,&amp;nbsp;&lt;A href="5c21adcc-87c8-44e7-981d-02902635693d"&gt;Kniha pohľadávok&lt;/A&gt; možno vytlačiť tlačový výstup&amp;nbsp;&lt;EM&gt;&lt;STRONG&gt;Záručný list&lt;/STRONG&gt;&lt;/EM&gt;. 
+&lt;LI&gt;V prípade, že zadaný počet výrobných/sériových čísel nesúhlasí s množstvom uvedeným na doklade, je možné množstvo upraviť, a to pomocou tlačidla &lt;EM&gt;Oprava&lt;/EM&gt;&amp;nbsp;vo&amp;nbsp;&lt;A href="e5d60ce3-8ad2-43f2-b60d-08c773376f5b"&gt;formulári Výdajka&lt;/A&gt;&lt;I&gt;.&lt;/I&gt; 
+&lt;LI&gt;Pri tvorbe výdajky (prípadne pohľadávky) je možné označiť viacero výrobných čísel pomocou klávesu &lt;STRONG&gt;&lt;I&gt;Ins&lt;/I&gt; (&lt;I&gt;Insert&lt;/I&gt;)&lt;/STRONG&gt;. V&amp;nbsp;prípade, že bol aktuálny záznam už označený, bude jeho označenie zrušené. Označiť záznam (prípadne zrušiť označenie) je možné aj myšou stlačením pravého tlačidla. &lt;/LI&gt;&lt;/UL&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="4d817cc8-c629-47aa-944c-cd200eac4fc3" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="4f8c7cc5-f870-47fa-9506-1aa9ea89dc14">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="79a0e6ba-28fb-4ae9-8d90-f0821a73e7ad" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="6f1a89e8-2f56-4543-a452-409834433d36">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="4300073b-1f2c-40d2-b0fd-c04ee4d3921e" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="11af5a68-7562-4576-b7c5-ee49a64a571a">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="8e5e9a49-4ff2-4853-8a03-b9a40323ff81">
+      <Keyword m="2021-11-22T07:19:55.5580413Z">Sériové čísla - výdaj tovaru</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="5f575d64-d459-4e69-964e-e64f6814ce8d">
+      <Keyword m="2015-05-12T07:21:28.2841796Z">Záručný list</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="32378393-161f-497f-9fda-1a5257471bf4">
+      <Keyword m="2021-11-22T07:20:03.57729Z">Výrobné čísla - výdaj tovaru</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="aaa003e4-3338-4233-897b-73ef1109fa43">
+      <Keyword m="2021-11-22T07:25:20.6359867Z">Insert - výrobné čísla</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

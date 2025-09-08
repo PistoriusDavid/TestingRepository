@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="d85e067f-27f4-47a2-bd25-7949e5853837" Status="Complete" CreatedOn="2019-10-16T10:13:09.7685397Z" ModifiedOn="2024-03-19T14:27:57.3709182Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Invoices_Getting_SentEmail" BuildFlags="">
+  <Title m="2020-01-09T13:22:28.2002958Z">Ako poslať faktúru e-mailom?</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-03-19T14:27:57.3709182Z">&lt;P&gt;V&amp;nbsp;tejto téme &lt;EM&gt;Pomocníka&lt;/EM&gt; je uvedený &lt;STRONG&gt;postup, ako odoslať faktúru obchodnému partnerovi elektronickou poštou&lt;/STRONG&gt; priamo zo&amp;nbsp;systému OBERON.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Systém OBERON umožňuje zasielať vystavené faktúry priamo na e-mailovú adresu&amp;nbsp;obchodného partnera. Viac informácií o zasielaní e-mailových správ v&amp;nbsp;OBERONE získate v téme&amp;nbsp;&lt;A href="e06c0c09-80ea-4083-8f6a-5a49a3fc9474"&gt;Odosielanie e-mailov v systéme OBERON&lt;/A&gt;. 
+&lt;LI&gt;Nevyhnutnou podmienkou na&amp;nbsp;korektné odosielanie e-mailových správ v&amp;nbsp;OBERON-e je správne nastavenie&amp;nbsp;&lt;A href="ea5379c8-9451-40fc-ac0f-f038feefa916"&gt;poštového klienta&lt;/A&gt;. 
+&lt;LI&gt;Proces vytvárania e-mailových správ v&amp;nbsp;systéme OBERON je možné zefektívniť pomocou tzv.&amp;nbsp;&lt;A href="86ef2453-b1a0-42de-8a0c-d8443bb6027a"&gt;predlôh e-mailov&lt;/A&gt;. Predloha predstavuje šablónu (vzor,&amp;nbsp;prototyp, mustru) e-mailu, ktorý je možné&amp;nbsp;poslať v&amp;nbsp;podobných prípadoch&amp;nbsp;alebo v&amp;nbsp;podobných situáciách. 
+&lt;LI&gt;Hoci faktúra na to, aby spĺňala všetky zákonné náležitosti,&amp;nbsp;nemusí obsahovať podpis ani pečiatku, v systéme OBERON je ich možné podpísať&amp;nbsp;&lt;A href="c1e2e5a1-2cf4-47aa-a546-47d5baa1df3e"&gt;elektronickým podpisom&lt;/A&gt;&amp;nbsp;alebo na faktúru&amp;nbsp;&lt;A href="263345a9-095c-462c-9c0e-7e5eb28e7dff"&gt;pridať jednoduchý obrázok podpisu a pečiatky&lt;/A&gt;. 
+&lt;LI&gt;Faktúra sa v systéme OBERON&amp;nbsp;odosiela ako tlačová zostava vo formáte PDF z &lt;A href="2bac8d21-6ae0-44e4-8b2e-403ac2f25955"&gt;formulára Tlačové výstupy&lt;/A&gt;&amp;nbsp;stlačením&amp;nbsp;tlačidla &lt;STRONG&gt;&lt;EM&gt;E-mail&lt;/EM&gt;&lt;/STRONG&gt;, a&amp;nbsp;to na&amp;nbsp;e-mailovú adresu&amp;nbsp;&lt;A href="4fbe9db8-25bc-420f-aee5-228d0a8ff03f"&gt;obchodného partnera&lt;/A&gt; z&amp;nbsp;e-mailovej adresy účtovnej jednotky nastavenej v ponuke&amp;nbsp;&lt;A href="a833ee8a-1289-42b9-923f-80f549497702"&gt;Údaje o firme&lt;/A&gt;. V&amp;nbsp;prípade, že sú vykonané potrebné nastavenia,&amp;nbsp;dokument sa aj automaticky elektronicky podpíše alebo sa naň pridá obrázok podpisu, resp. pečiatky. 
+&lt;LI&gt;Ku každému&amp;nbsp;obchodnému partnerovi je možné evidovať ľubovoľný počet osôb a&amp;nbsp;ich kontaktné údaje vrátane e-mailovej adresy (vo&amp;nbsp;&lt;A href="4fbe9db8-25bc-420f-aee5-228d0a8ff03f"&gt;formulári Obchodný partner&lt;/A&gt;, záložka &lt;EM&gt;Osoby&lt;/EM&gt;). Pri zasielaní faktúry&amp;nbsp;ako prílohy e-mailovej správy bude táto adresa&amp;nbsp;figurovať v&amp;nbsp;zozname&amp;nbsp;e-mailových adries, na ktoré bude možné faktúru odoslať. 
+&lt;LI&gt;Každá e-mailová správa zaslaná z &lt;A href="2bac8d21-6ae0-44e4-8b2e-403ac2f25955"&gt;formulára Tlačové výstupy&lt;/A&gt;&amp;nbsp;sa automaticky uloží&amp;nbsp;do evidencie&amp;nbsp;&lt;A href="32dedc5d-8e4e-420e-acec-60ba202b6ec7" style="auto-update-caption: true"&gt;E-mailové správy&lt;/A&gt; v module &lt;EM&gt;CRM a registratúra&lt;/EM&gt;, napr. emailová správa s priloženou faktúrou sa uloží. Tak je možné jednoduchšie overiť, či a komu bola e-mailová správa zaslaná a v prípade potreby jej zaslanie zopakovať. Predpokladom ukladania e-mailových správ je povolenie používania modulu &lt;EM&gt;CRM a&amp;nbsp;registratúra&lt;/EM&gt;&amp;nbsp;v&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="081aff87-08e6-4933-9843-d1b47dc745fb"&gt;oddiel Firma, Moduly&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Ako poslať podpísanú faktúru e-mailom?&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;V&amp;nbsp;&lt;A href="5c21adcc-87c8-44e7-981d-02902635693d"&gt;Knihe pohľadávok&lt;/A&gt; vytvorte faktúru. Stlačte tlačidlo &lt;EM&gt;Tlač&amp;nbsp;&lt;/EM&gt;- otvorí sa&amp;nbsp;&lt;A href="2bac8d21-6ae0-44e4-8b2e-403ac2f25955"&gt;formulár Tlačové výstupy&lt;/A&gt;, v&amp;nbsp;ktorom vyberte tlačový výstup faktúry a&amp;nbsp;stlačte tlačidlo &lt;STRONG&gt;&lt;EM&gt;E-mail&lt;/EM&gt;&lt;/STRONG&gt;.&lt;BR&gt;&lt;BR&gt;&lt;IMG border=0 alt="" src="images/ProductOptions/EmailCommunication/EmailCommunication_Model_Report.png"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 
+&lt;LI&gt;Vyberte&amp;nbsp;text&amp;nbsp;e-mailovej správy&amp;nbsp;z preddefinovaných predlôh, skontrolujte e-mailovú adresu&amp;nbsp;príjemcu, text správy, prípadne ďalšie náležitosti a správu odošlite stlačením tlačidla &lt;EM&gt;Odoslať&lt;/EM&gt;.&lt;BR&gt;&lt;BR&gt;&lt;IMG border=0 alt="" src="images/ProductOptions/EmailCommunication/EmailCommunication_Model_Predloha.png"&gt; 
+&lt;LI&gt;Detail elektronického podpisu na faktúre. &lt;/LI&gt;&lt;/OL&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/ProductOptions/EmailCommunication/EmailCommunication_Model_SignatureDetail.png"&gt;&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="8d3ea882-3657-4dc8-a50e-663f602904cd" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="e06c0c09-80ea-4083-8f6a-5a49a3fc9474">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="82b6fb55-5fb7-4729-947d-52f900d9abc3" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="ea5379c8-9451-40fc-ac0f-f038feefa916">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="2ba5063f-3cf3-4aa1-8ac7-6b7e17609b74" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="86ef2453-b1a0-42de-8a0c-d8443bb6027a">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="c7dfcca4-1fa9-45a1-b9b5-af00ed01ed00" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="c1e2e5a1-2cf4-47aa-a546-47d5baa1df3e">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="94b254ba-f165-463e-9ce8-a18828516164" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="263345a9-095c-462c-9c0e-7e5eb28e7dff">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="013aa8b8-5839-45f4-851c-d8a1e2f18984" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="2bac8d21-6ae0-44e4-8b2e-403ac2f25955">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="6e3c9a65-71d0-4204-bef1-8453243b2772">
+      <Keyword m="2019-10-18T09:44:45.1011968Z">Faktúra emailom</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="404047e2-ffea-43a5-8332-0aebdc2dcfa7">
+      <Keyword m="2019-10-18T09:44:54.6422363Z">Email - poslať faktúru</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

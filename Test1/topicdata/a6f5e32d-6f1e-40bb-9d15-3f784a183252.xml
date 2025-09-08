@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="a6f5e32d-6f1e-40bb-9d15-3f784a183252" Status="Complete" CreatedOn="2014-10-08T11:07:14.3594237Z" ModifiedOn="2024-10-30T09:18:02.9469763Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="false" HelpContextIds="" Name="CashRegister_About_Concept" BuildFlags="">
+  <Title m="2021-07-13T10:17:13.1882251Z">Všeobecne o koncepcii</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-10-30T09:18:02.9469763Z">&lt;P&gt;Táto téma obsahuje &lt;STRONG&gt;všeobecné informácie o&amp;nbsp;&lt;EM&gt;Pokladnici OBERON&lt;/EM&gt;&lt;/STRONG&gt;&amp;nbsp;- jednom z&amp;nbsp;&lt;A href="d7884189-d893-43c0-8e6a-cfad14d790c1"&gt;modulov systému OBERON&lt;/A&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;A href="a6f5e32d-6f1e-40bb-9d15-3f784a183252"&gt;Pokladnica OBERON&lt;/A&gt;&amp;nbsp;predstavuje&amp;nbsp;samostatný &lt;A href="d7884189-d893-43c0-8e6a-cfad14d790c1"&gt;modul systému OBERON&lt;/A&gt;&amp;nbsp;(aj keď v rámci licencie sa zakupuje spolu s&amp;nbsp;modulom&amp;nbsp;&lt;A href="78d20602-4b59-4b31-9f0a-a04a1d376ec5"&gt;Skladová evidencia&lt;/A&gt;).&amp;nbsp;V&amp;nbsp;spolupráci s&amp;nbsp;&lt;A href="b24ad235-cf7f-43e2-b3e8-ec0f7d92f6b6"&gt;fiškálnou tlačiarňou&lt;/A&gt;&amp;nbsp;umožňuje vytvoriť z&amp;nbsp;počítača &lt;STRONG&gt;plnohodnotnú on-line registračnú pokladnicu&lt;/STRONG&gt;. Počítač sa pritom nezmení na jednoúčelové zariadenie určené len na predaj, ale možno ho naďalej využívať aj na iné činnosti (ako bez fiškálnej tlačiarne), a to aj paralelne popri predaji na pokladnici. 
+&lt;LI&gt;Primárnou úlohou registračnej pokladnice je &lt;STRONG&gt;evidencia tržieb za predaj tovarov a služieb&lt;/STRONG&gt;, pričom obsahuje množstvo ďalších zaujímavých funkcií a možností. 
+&lt;LI&gt;&lt;EM&gt;Pokladnica OBERON&lt;/EM&gt; je určená &lt;STRONG&gt;pre rôznorodé prevádzky&lt;/STRONG&gt; (bežné obchodné prevádzky, veľkoobchod, bary a&amp;nbsp;reštaurácie, resp. fastfoody...). Umožňuje pracovať v&amp;nbsp;štandardnom režime ovládania &lt;STRONG&gt;pomocou klávesnice a&amp;nbsp;myši, alebo pomocou dotykového displeja&lt;/STRONG&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;Každá predaná položka na pokladnici&lt;/STRONG&gt; sa automaticky zapisuje do evidencie&amp;nbsp;&lt;A href="a4568b9d-f4ac-4d94-b56f-de3717381da7"&gt;Pokladničné doklady&lt;/A&gt;. Tu je možné získať všetky súhrnné informácie o predaji, obratoch či výnosoch. V závislosti od fiškálneho zariadenia kniha umožňuje zobraziť odpis každého dokladu vytlačeného na fiškálnej tlačiarni (textovú správu bez QR kódu a niektorých ďalších údajov, ktoré neumožňuje&amp;nbsp;archivovať legislatíva). 
+&lt;LI&gt;Pri&amp;nbsp;&lt;A href="900c1b8a-2645-4225-ac93-d387237f3d90"&gt;vyhotovení dennej uzávierky&lt;/A&gt; sa automaticky vytvorí záznam v&amp;nbsp;&lt;A href="fd6a0f47-c326-43a2-8408-003cce805463"&gt;Knihe tržieb&lt;/A&gt; - záznam obsahuje obraty danej dennej &lt;STRONG&gt;uzávierky v členení podľa použitých typov platieb&lt;/STRONG&gt; (hotovosť, platobná karta, stravné lístky a pod.), ďalej obsahuje údaje výberov a vkladov hotovosti pokladnice, prípadne je k dispozícii aj&amp;nbsp;zoznam uhradených faktúr v hotovosti. V závislosti od fiškálneho zariadenia kniha umožňuje zobraziť, resp. vytlačiť originál každej evidovanej dennej uzávierky tak, ako bola vytlačená na fiškálnej tlačiarni. 
+&lt;LI&gt;Záznamy v knihe tržieb, ktoré&amp;nbsp;sa do evidencie zapísali automaticky pri dennej uzávierke, &lt;STRONG&gt;je možné automaticky zaúčtovať&lt;/STRONG&gt; do &lt;A href="d8c9bfc8-92d1-4471-8909-e5f8ce602d6c"&gt;účtovného&lt;/A&gt; alebo&amp;nbsp;&lt;A href="5e82cca9-b8af-4a80-ba30-7ab91914a595"&gt;peňažného denníka&lt;/A&gt;. Ďalšie informácie získate v témach &lt;A href="7410538f-4d0e-4d92-b76b-1e4df963548c"&gt;Automatické účtovanie tržieb Pokladnice OBERON (podvojné účtovníctvo)&lt;/A&gt; a&amp;nbsp;&lt;A href="38889643-dcf0-4def-80fb-d0adb0b00d70"&gt;Automatické účtovanie tržieb Pokladnice OBERON (jednoduché účtovníctvo)&lt;/A&gt;. 
+&lt;LI&gt;Ak sa &lt;EM&gt;Pokladnica OBERON&lt;/EM&gt; používa v reštauračnej prevádzke, všetky objednávky jedál a&amp;nbsp;nápojov odoslané z&amp;nbsp;&lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnice OBERON&lt;/A&gt;&amp;nbsp;alebo aplikácie&amp;nbsp;&lt;A href="942d48d5-b290-40f6-8ba3-45cf78f380f9"&gt;LUKUL - nielen mobilný čašník&lt;/A&gt;&amp;nbsp;možno tlačiť na &lt;A href="b9d7c873-7b63-4210-86fe-ab1c66ea6502"&gt;bonovacej tlačiarni&lt;/A&gt; (tlačiareň pre kuchyňu alebo pre prípravu nápojov - bar), resp. zobraziť na&amp;nbsp;&lt;A href="d9867d81-7de7-4ce2-9c45-932025935b8b"&gt;bonovacom monitore&lt;/A&gt;. Bezprostredne po každom vytlačení objednávky, resp. jej zobrazení na&amp;nbsp;bonovacom monitore&amp;nbsp;sa objednané položky zapíšu do&amp;nbsp;&lt;A href="83d00926-652d-4ae9-8cba-997d462fac7d"&gt;Bonovacej knihy&lt;/A&gt;. 
+&lt;LI&gt;Pokladnica je úzko &lt;STRONG&gt;prepojená s ostatnými modulmi systému OBERON&lt;/STRONG&gt;, napr. umožňuje&amp;nbsp;zaevidovať úhradu&amp;nbsp;výdajky,&amp;nbsp;importovať položky z objednávky, zaevidovať úhradu faktúry,&amp;nbsp;reklamácie&amp;nbsp;alebo servisu,&amp;nbsp;nezaevidovať doklad, ale len z neho vytvoriť výdajku. Pri použití modulu&amp;nbsp;&lt;A href="c3bd41f0-029e-4c74-b342-b0ffff647b6e"&gt;Hotelová recepcia&lt;/A&gt; umožňuje zaevidovať úhradu hotelového&amp;nbsp;účtu alebo služby. 
+&lt;LI&gt;&lt;EM&gt;Pokladnica OBERON&lt;/EM&gt; umožňuje &lt;STRONG&gt;prepojenie s&amp;nbsp;ďalšími systémami&lt;/STRONG&gt;, napr. mobilnou aplikáciu&amp;nbsp;&lt;A href="942d48d5-b290-40f6-8ba3-45cf78f380f9"&gt;LUKUL - nielen mobilný čašník&lt;/A&gt;, elektronickým jedálnym lístkom (&lt;A href="fe4a9463-d066-4a56-8eee-a728ae1a7220"&gt;OBERON eMenu&lt;/A&gt;), &lt;A href="6c98a377-1b88-4eb8-801b-1f168641373b"&gt;vernostnými a&amp;nbsp;zľavovými systémami&lt;/A&gt;&amp;nbsp;atď. 
+&lt;LI&gt;Webová aplikácia&amp;nbsp;&lt;A href="b138daad-5453-4e53-8d2c-ecf2e81a5fcb"&gt;OBERON Web&lt;/A&gt; ponúka možnosť zobrazenia okamžitých obratov na pokladnici, zobrazenie otvorených účtov, grafického vývoja tržieb&amp;nbsp;atď. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 1: Maloobchodná pokladnica so štandardným režimom zobrazenia&amp;nbsp;pre dotykový displej&lt;/H5&gt;
+&lt;P&gt;&lt;IMG style="HEIGHT: 462px; WIDTH: 639px" border=0 alt="" src="images/Forms/CashRegister/Form_CashRegister_Maloobchod_Dotykova2.png" width=1001 height=733&gt;&lt;/P&gt;
+&lt;H2&gt;Technické informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Aby sa z počítača stala&amp;nbsp;plnohodnotná pokladnica,&amp;nbsp;je k nemu nevyhnutné pripojiť &lt;A href="b24ad235-cf7f-43e2-b3e8-ec0f7d92f6b6"&gt;fiškálnu tlačiareň&lt;/A&gt; - ide o certifikované hardvérové zariadenie, ktoré pozostáva &lt;STRONG&gt;z&amp;nbsp;chráneného dátového úložiska (CHDÚ), tlačiarne pokladničných dokladov a príslušného softvéru&lt;/STRONG&gt;. Existuje aj určité špecifické riešenie, keď sa k počítaču vo funkcii fiškálnej tlačiarne pripojí klasická &lt;STRONG&gt;registračná pokladnica v tzv. režime on-line&lt;/STRONG&gt;. Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="04b8d290-1470-41ff-85a1-c44a20958841" style="auto-update-caption: true"&gt;Všeobecne o registračných pokladniciach&lt;/A&gt;. 
+&lt;LI&gt;Systém OBERON podporuje&amp;nbsp;&lt;STRONG&gt;vlastnú certifikovanú fiškálnu tlačiareň&amp;nbsp;&lt;/STRONG&gt;&lt;A href="00fa9619-a13d-4745-8938-cc0c2b5039ce"&gt;eKasa PANDORA&lt;/A&gt;&amp;nbsp;&lt;A href="1f32a90c-7b4a-4d69-9f38-a560178794b3" style="auto-update-caption: true"&gt;&lt;IMG border=0 alt="Odporúčané riešenia" src="images/OBERON/Basic/Odporucane-riesenie_ruka_ikona.png"&gt;&lt;/A&gt;a &lt;A href="d9b919e7-20c4-4c50-9910-4f13211ed9a8"&gt;niekoľko ďalších&amp;nbsp;fiškálnych tlačiarní od rôznych výrobcov&lt;/A&gt;. Podpora vlastnej fiškálnej tlačiarne je &lt;STRONG&gt;veľkou výhodou&lt;/STRONG&gt;. Hardvérová pokladnica aj pokladničný softvér sú tak od jedného výrobcu (firmy EXALOGIC), preto pri prípadných problémoch s hardvérom alebo softvérom voláte len jednému dodávateľovi. 
+&lt;LI&gt;Okrem toho je k &lt;EM&gt;Pokladnici OBERON&lt;/EM&gt; možné&amp;nbsp;pripojiť &lt;STRONG&gt;celý rad ďalších zariadení&lt;/STRONG&gt;, napr.&amp;nbsp;snímač čiarových kódov, elektronické váhy, externý displej, snímač prístupu na rýchle prihlásenie obsluhy atď. 
+&lt;LI&gt;Široká škála rôznych funkcií a nastavení &lt;STRONG&gt;umožňuje&amp;nbsp;prispôsobiť pokladnicu&amp;nbsp;svojim vlastným potrebám a&amp;nbsp;požiadavkám&lt;/STRONG&gt;. Vďaka tomu je možné &lt;EM&gt;Pokladnicu OBERON&lt;/EM&gt; používať v&amp;nbsp;rôznorodých prevádzkach, pri ktorých sú nároky na funkcionalitu a vzhľad pokladnice zásadne rozdielne, napr. pri veľkoobchodnej pokladnici je to&amp;nbsp;zaevidovanie úhrady&amp;nbsp;výdajky, pri reštauračnej tlač objednávok na bonovaciu tlačiareň, pri dotykovej obrazovke zobrazenie numerickej klávesnice a pod.&amp;nbsp;Viac informácií je možné získať v&amp;nbsp;téme&amp;nbsp;&lt;A href="c9f7216f-f252-4be3-aa26-3e9bb6d4c887" style="auto-update-caption: true"&gt;Nastavenie vzhľadu Pokladnice OBERON&lt;/A&gt;. 
+&lt;LI&gt;&lt;EM&gt;Pokladnica OBERON&lt;/EM&gt; umožňuje pripojiť&amp;nbsp;minimálne 25&amp;nbsp;&lt;A href="2edf9500-71d3-4b5c-9d44-990261fb51bc"&gt;registračných pokladníc v režime off-line&lt;/A&gt; a&amp;nbsp;20&amp;nbsp;&lt;A href="b24ad235-cf7f-43e2-b3e8-ec0f7d92f6b6"&gt;fiškálnych tlačiarní&lt;/A&gt;. 
+&lt;LI&gt;Na &lt;STRONG&gt;skúšobné účely&lt;/STRONG&gt; je možné použiť virtuálne fiškálne zariadenie&amp;nbsp;&lt;A href="30dd45fc-685d-4adf-a959-f87840e12c7f"&gt;Fiscal UNI (SK)&lt;/A&gt;&amp;nbsp;(neumožňuje tlačiť daňové doklady). 
+&lt;LI&gt;&lt;A href="4b2b3447-f2f1-4bbe-9d21-3d87994bfba8"&gt;Pobočkový režim&lt;/A&gt; umožňuje vytvoriť &lt;STRONG&gt;sieť maloobchodných predajní&lt;/STRONG&gt;. Správa skladových položiek (cenník), evidencia skladu, cenotvorba (akcie) sa vykonávajú v centrále, z predajne sa on-line prenášajú informácie o predaji. Centrálna databáza môže byť umiestnená v centrále firmy alebo v&amp;nbsp;cloude. 
+&lt;LI&gt;Inou možnosťou je použitie&amp;nbsp;&lt;A href="88af013e-47e9-408a-ac47-18fb4edb5553"&gt;off-line pobočkovej pokladnice&lt;/A&gt;, ktorá predstavuje režim práce &lt;EM&gt;Pokladnice OBERON&lt;/EM&gt; pri&amp;nbsp;&lt;A href="797aaa39-ae1b-4f4c-bac5-88c9ac25f11d"&gt;off-line pobočkovom režime&lt;/A&gt; - nástroji na výmenu údajov spravidla &lt;STRONG&gt;vo forme samostatných dátových súborov&lt;/STRONG&gt; medzi pobočkou so samostatnou databázou a centrálou (s hlavnou databázou účtovnej jednotky) pomocou&amp;nbsp;&lt;A href="1dc4ea18-03c0-4028-afe5-4532583b6a44"&gt;off-line transportov údajov&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Webové služby&lt;/H2&gt;
+&lt;P&gt;V&amp;nbsp;module &lt;EM&gt;Pokladnica OBERON&lt;/EM&gt; je možné použiť tieto funkcie a&amp;nbsp;aplikácie&amp;nbsp;využívajúce&amp;nbsp;&lt;A href="58bb31ca-00c8-4641-ad99-7d58e24f59c5"&gt;webové služby&lt;/A&gt;:&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;A href="942d48d5-b290-40f6-8ba3-45cf78f380f9"&gt;LUKUL - nielen mobilný čašník&lt;/A&gt;&amp;nbsp;- viacúčelová mobilná gastroaplikácia pre&amp;nbsp;&lt;EM&gt;Android&amp;nbsp;&lt;/EM&gt;a &lt;EM&gt;iOS&lt;/EM&gt; určená na použitie so systémom OBERON. 
+&lt;LI&gt;&lt;A href="d9867d81-7de7-4ce2-9c45-932025935b8b"&gt;Systém bonovacích monitorov&lt;/A&gt;&amp;nbsp;- bonovacie monitory sa v systéme OBERON používajú na&amp;nbsp;zobrazenie objednávok do kuchyne (na prípravu jedál) alebo baru (na prípravu nápojov) z&amp;nbsp;&lt;A href="aec074f4-3e1c-4a1e-8a80-06fcecf51156"&gt;Pokladnice OBERON&lt;/A&gt; prevádzkovanej v&amp;nbsp;reštauračnom režime, prípadne z&amp;nbsp;aplikácie&amp;nbsp;&lt;A href="942d48d5-b290-40f6-8ba3-45cf78f380f9"&gt;LUKUL - nielen mobilný čašník&lt;/A&gt;. 
+&lt;LI&gt;&lt;A href="fe4a9463-d066-4a56-8eee-a728ae1a7220"&gt;OBERON eMenu&lt;/A&gt; - jednoduchý elektronický&amp;nbsp;jedálny alebo nápojový lístok (&lt;EM&gt;OBERON eMenu&lt;/EM&gt;), ktorý si môže zákazník prezerať na svojom mobilnom zariadení, 
+&lt;LI&gt;&lt;A href="92147420-5d85-4b11-a328-06d401650294"&gt;OBERON vernostný systém (klient)&lt;/A&gt;, 
+&lt;LI&gt;&lt;A href="b138daad-5453-4e53-8d2c-ecf2e81a5fcb"&gt;OBERON Web&lt;/A&gt;&amp;nbsp;- nadstavbová webová aplikácia&amp;nbsp;pre smartfóny, tablety či iné mobilné zariadenia, ktorá poskytuje&amp;nbsp;&lt;STRONG&gt;vybrané manažérske informácie zo systému OBERON v reálnom čase&lt;/STRONG&gt;, ako napríklad: 
+&lt;UL&gt;
+&lt;LI&gt;aktuálne prihlásení používatelia do OBERON-u, 
+&lt;LI&gt;evidencia&amp;nbsp;&lt;A href="b7a48886-b367-4056-808a-59ba5f871f32"&gt;obchodných partnerov&lt;/A&gt;, 
+&lt;LI&gt;aktuálne obraty registračných pokladníc, 
+&lt;LI&gt;prehľad otvorených&amp;nbsp;účtov (stolov), 
+&lt;LI&gt;štatistiky k predajom na pokladniciach z&amp;nbsp;&lt;A href="fd6a0f47-c326-43a2-8408-003cce805463"&gt;knihy tržieb&lt;/A&gt;, 
+&lt;LI&gt;a ďalšie zaujímavé informácie. &lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Licenčné podmienky&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;V&amp;nbsp;obmedzenom režime (na skúšobné účely) je možné s modulom &lt;EM&gt;Pokladnica OBERON&lt;/EM&gt; pracovať &lt;STRONG&gt;aj bez licencie&lt;/STRONG&gt; - viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="95d188df-c149-46a9-8474-4d9493f2ad41" style="auto-update-caption: true"&gt;Licenčná politika&lt;/A&gt;. 
+&lt;LI&gt;Plnohodnotne je možné modul&amp;nbsp;&lt;EM&gt;Pokladnica OBERON&lt;/EM&gt; používať &lt;STRONG&gt;len s&amp;nbsp;platnou&amp;nbsp;licenciou&lt;/STRONG&gt;. Dôležitým faktorom pri výbere typu licencie&amp;nbsp;je kadencia predaja a od nej sa odvíjajúci počet pokladničných dokladov a&amp;nbsp;k nim prislúchajúcich skladových pohybov. Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="644b0685-defe-4ce5-b3cd-e731b5eff299" style="auto-update-caption: true"&gt;Typy licencií&lt;/A&gt;. 
+&lt;LI&gt;Licencia na modul &lt;EM&gt;Pokladnica OBERON&lt;/EM&gt; sa zakupuje &lt;STRONG&gt;v&amp;nbsp;rámci licencie&lt;/STRONG&gt; na modul&amp;nbsp;&lt;A href="78d20602-4b59-4b31-9f0a-a04a1d376ec5"&gt;Skladová evidencia&lt;/A&gt; (cena licencie je zahrnutá do ceny licencie za modul &lt;EM&gt;Skladová evidencia&lt;/EM&gt;). &lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="23556b9b-6ad2-4e87-b7cb-5bc19f6da3c5" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="aec074f4-3e1c-4a1e-8a80-06fcecf51156">
+      <Title m="2023-02-23T07:24:17.1897938Z">Pokladnica OBERON - základné možnosti</Title>
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="074116de-97e2-4e9f-946c-d794148f9fea" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="78d20602-4b59-4b31-9f0a-a04a1d376ec5">
+      <Title m="2023-02-23T07:25:20.7422867Z">Skladová evidencia - všeobecne o koncepcii</Title>
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="31f9ba85-89b0-4a6c-b75f-dec7717cfba9" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="8834c7c3-2fde-4d43-8448-14684dc3ed4d" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="942d48d5-b290-40f6-8ba3-45cf78f380f9">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="b2347c69-fe14-4faf-849a-4dea3b1d5734" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="00fa9619-a13d-4745-8938-cc0c2b5039ce">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="00ad238a-ab17-4227-b9aa-5e707434976d" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="d9b919e7-20c4-4c50-9910-4f13211ed9a8">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="4e971283-07ea-4e0d-bd69-a3b2d7e14c0e" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="3f051fd3-9727-4ecc-9613-7a7fb1cb2a54">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="35eb57ee-37bb-40e9-ab61-db558be5231c" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="c9f7216f-f252-4be3-aa26-3e9bb6d4c887">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="0eb5e293-6619-4559-be70-05300c945546" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="4b2b3447-f2f1-4bbe-9d21-3d87994bfba8">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="b8b0ad76-4e6d-4664-a752-b8beeda518f9">
+      <Keyword m="2023-02-23T07:34:24.4338805Z">Pokladnica OBERON - všeobecne o koncepcii</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="71737be9-2a6b-41b6-bad4-51244cfc4ea0">
+      <Keyword m="2023-02-23T07:39:23.1593064Z">Všeobecne o koncepcii - Pokladnica OBERON</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

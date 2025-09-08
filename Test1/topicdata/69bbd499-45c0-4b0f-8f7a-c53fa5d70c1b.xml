@@ -1,0 +1,362 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="69bbd499-45c0-4b0f-8f7a-c53fa5d70c1b" Status="Complete" CreatedOn="2014-09-10T07:42:36.3100048Z" ModifiedOn="2025-05-07T11:36:51.7804609Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="CashRegister_Started_Sale" BuildFlags="">
+  <Title m="2014-09-22T10:58:47.2841797Z">Predaj na Pokladnici OBERON</Title>
+  <ContentsTitle m="2014-10-09T06:40:01.0029419Z">Predaj na pokladnici</ContentsTitle>
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2025-05-07T11:36:51.7804609Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje praktické informácie&amp;nbsp;týkajúce sa&amp;nbsp;predaja na&amp;nbsp;&lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnici OBERON&lt;/A&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné&amp;nbsp;informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Pred začatím predaja&amp;nbsp;je potrebné uviesť &lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnicu OBERON&lt;/A&gt; do prevádzky spolu s inštaláciou&amp;nbsp;&lt;A href="b24ad235-cf7f-43e2-b3e8-ec0f7d92f6b6"&gt;fiškálnej tlačiarne&lt;/A&gt;, čím sa z&amp;nbsp;počítača vytvorí plnohodnotná&amp;nbsp;&lt;A href="04b8d290-1470-41ff-85a1-c44a20958841"&gt;on-line registračná pokladnica&lt;/A&gt;. Jednotlivé kroky sú dostupné v téme&amp;nbsp;&lt;A href="747496d6-0267-424d-a55e-aed6cbd90050" style="auto-update-caption: true"&gt;Pokladnica OBERON - uvedenie do prevádzky&lt;/A&gt;. 
+&lt;LI&gt;Popis &lt;STRONG&gt;používateľského rozhrania&lt;/STRONG&gt; pokladnice je dostupný v téme&amp;nbsp;&lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnica OBERON&lt;/A&gt;. Tu sa nachádza podrobný popis jednotlivých zón pokladnice, a&amp;nbsp;to&amp;nbsp;od displeja, cez popis systémových tlačidiel až po logo účtovnej jednotky (firmy). 
+&lt;LI&gt;Postup pri predaji na &lt;EM&gt;Pokladnici OBERON&lt;/EM&gt; je možné zhrnúť do štyroch krokov:&amp;nbsp;&amp;nbsp;&amp;nbsp; 
+&lt;OL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Výber pokladničného účtu&lt;/STRONG&gt; - základný účet pokladnice je tzv. &lt;I&gt;Priamy predaj&lt;/I&gt;. V prípade&amp;nbsp;režimu reštauračnej pokladnice je možné&amp;nbsp;&lt;A href="e0ccff3e-b9e7-4572-bc3c-7f41a32280dd"&gt;otvoriť jeden alebo viacero pokladničných účtov (stolov)&lt;/A&gt; a tieto používať pri predaji, prípadne predaj odložiť a zaevidovať neskôr. 
+&lt;LI&gt;&lt;B&gt;Pridanie položiek na účet&lt;/B&gt; - možno ho vykonať nasledujúcimi spôsobmi: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;A href="e76125f0-4fb3-4e56-82db-667593132461"&gt;zadaním kódu položky z klávesnice&lt;/A&gt; (&lt;EM&gt;Množstvo*Kód položky&lt;/EM&gt;), 
+&lt;LI&gt;stlačením tlačidla &lt;EM&gt;Zoznam položiek (F3)&lt;/EM&gt; a výberom skladovej položky zo zoznamu, 
+&lt;LI&gt;pomocou&amp;nbsp;&lt;A href="80a78093-fc45-4db9-b74b-e1f9829f7b3c"&gt;snímača čiarových kódov&lt;/A&gt; alebo&amp;nbsp;&lt;A href="98f367d6-b09e-4406-aad9-d4b2cfc4b504"&gt;elektronických váh&lt;/A&gt;, 
+&lt;LI&gt;prostredníctvom tlačidiel PLU, 
+&lt;LI&gt;pri dotykovom režime zobrazenia pomocou klávesnice na obrazovke, 
+&lt;LI&gt;stlačením tlačidla (obrázka) predávanej položky&amp;nbsp;v&amp;nbsp;&lt;A href="9b8fe798-5f73-41eb-a068-6f6edb55ae9d"&gt;režime Fast food&lt;/A&gt;, 
+&lt;LI&gt;zadaním čiarového kódu do poľa &lt;EM&gt;Množstvo*Kód položky&lt;/EM&gt; v režime maloobchodnej alebo reštauračnej pokladnice (len v&amp;nbsp;prípade, že je v&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="749ff4f1-eeb5-43f5-98d2-021399d8cec7"&gt;Zariadenia&lt;/A&gt;&amp;nbsp;pridaný aspoň jeden &lt;A href="80a78093-fc45-4db9-b74b-e1f9829f7b3c"&gt;snímač čiarových kódov&lt;/A&gt;). &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;&lt;B&gt;Úprava účtu&lt;/B&gt; - zadávanie zliav, zmena typu položky (vratný obal, vrátenie tovaru (storno)... - viac informácií pozri nižšie v časti &lt;EM&gt;Oprava položky&lt;/EM&gt;), presun položiek medzi účtami, zadanie odberateľa a ďalšie úpravy. 
+&lt;LI&gt;&lt;B&gt;Zaevidovanie (tlač) dokladu&lt;/B&gt; -&amp;nbsp;pomocou tlačidla&amp;nbsp;&lt;I&gt;Tlač dokladu&amp;nbsp;(F12)&lt;/I&gt;, po stlačení ktorého možno&amp;nbsp;aj zaslať pokladničný doklad na e-mailovú adresu zákazníka (pozri nižšie).&amp;nbsp;Okrem toho systém OBERON umožňuje nadefinovať systémové tlačidlá &lt;STRONG&gt;osobitne pre každý typ platby&lt;/STRONG&gt; (napr. &lt;EM&gt;Hotovosť, Platobná karta&lt;/EM&gt; atď.). To umožní&amp;nbsp;zaevidovať (vytlačiť) pokladničný doklad jednoduchým stlačením daného tlačidla.&amp;nbsp;Postup vytvorenia nového systémového tlačidla je dostupný v&amp;nbsp;téme&amp;nbsp;&lt;A href="c9f7216f-f252-4be3-aa26-3e9bb6d4c887"&gt;Nastavenia vzhľadu Pokladnice OBERON&lt;/A&gt;. &lt;/LI&gt;&lt;/OL&gt;&lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Zaslanie pokladničného dokladu zo zariadenia eKasa&amp;nbsp;na e-mailovú adresu&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Pri zaevidovaní dokladu (tlačidlo &lt;EM&gt;Tlač dokladu (F12)&lt;/EM&gt;)&amp;nbsp;&lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnica OBERON&lt;/A&gt; umožňuje &lt;STRONG&gt;buď&amp;nbsp;vytlačiť&amp;nbsp;pokladničný doklad, alebo ho odoslať na e-mailovú adresu zákazníka&lt;/STRONG&gt;. 
+&lt;LI&gt;Odoslanie&amp;nbsp;pokladničného dokladu sa realizuje po stlačení tlačidla &lt;EM&gt;E-mail&lt;/EM&gt; vo formulári &lt;EM&gt;Výber spôsobu úhrady (platby)&lt;/EM&gt; - otvorí sa okno na zadanie e-mailovej adresy. Tú možno načítať aj z&amp;nbsp;evidencie obchodných partnerov (tlačidlo výberu&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_ListButton.png"&gt;) alebo nasnímať snímačom čiarových kódov z QR kódu, ktorý obsahuje buď&amp;nbsp;&lt;STRONG&gt;dáta v&amp;nbsp;štandardizovanom formáte&lt;/STRONG&gt; &lt;STRONG&gt;&lt;EM&gt;VCard&lt;/EM&gt;&lt;/STRONG&gt; (súbor vo formáte VCF - &lt;STRONG&gt;V&lt;/STRONG&gt;irtual &lt;STRONG&gt;C&lt;/STRONG&gt;ontact &lt;STRONG&gt;F&lt;/STRONG&gt;ile), alebo e-mailovú adresu (ako text). 
+&lt;LI&gt;Obchodnej prevádzke, ktorá pri predaji používa tak&amp;nbsp;tlač&amp;nbsp;pokladničných&amp;nbsp;dokladov, ako aj ich zasielanie elektronickou poštou, sa&amp;nbsp;odporúča nastaviť osobitný&amp;nbsp;&lt;A href="46e6deed-ce15-42dc-be53-ab72142d9673"&gt;typ platby&lt;/A&gt; &lt;STRONG&gt;pre tlač dokladu&lt;/STRONG&gt; a osobitný&amp;nbsp;&lt;A href="46e6deed-ce15-42dc-be53-ab72142d9673"&gt;typ platby&lt;/A&gt; &lt;STRONG&gt;pre zaslanie dokladu e-mailom&lt;/STRONG&gt; (napr. &lt;EM&gt;Hotovosť - e-mail&lt;/EM&gt;). Dôvodom je, že podľa platných certifikačných podmienok &lt;SPAN style="COLOR: rgb(255,0,0)"&gt;nemožno zo zariadenia eKasa pokladničný doklad vytlačiť a zároveň ho odoslať na e-mailovú adresu zákazníka&lt;/SPAN&gt;, t.&amp;nbsp;j. ak sa doklad odošle elektronicky, nesmie sa tlačiť originál dokladu - môže (ale nemusí) sa vytlačiť len jeho kópia. 
+&lt;LI&gt;Samotné zaslanie pokladničných dokladov formou e-mailovej správy v OBERON-e zabezpečuje automatická úloha&amp;nbsp;&lt;A href="846ca30b-f11b-4096-ad20-3e4c57ba09d5"&gt;Automatické odosielanie e-mailov&lt;/A&gt;. Ak účtovná jednotka používa aj modul&amp;nbsp;&lt;A href="f1a6963d-36aa-4134-92a5-fa47a4345e74"&gt;CRM a registratúra&lt;/A&gt;, odoslané správy sa ukladajú do evidencie&amp;nbsp;&lt;A href="32dedc5d-8e4e-420e-acec-60ba202b6ec7" style="auto-update-caption: true"&gt;E-mailové správy&lt;/A&gt; (ponuka &lt;EM&gt;CRM&lt;/EM&gt;). Tu možno aj v prípade potreby dohľadať, či bol doklad odoslaný a na akú e-mailovú adresu, prípadne odoslať doklad znovu.&amp;nbsp;Pri fiškálnych zariadeniach, ktoré pokladničné doklady zasielajú e-mailom vo vlastnej réžii (napr.&amp;nbsp;&lt;A href="a7b7005c-b8d1-4ecd-862a-996128b685a9"&gt;FiskalPRO eKasa&lt;/A&gt;), sa pokladničné doklady do evidencie &lt;EM&gt;Emailové správy&lt;/EM&gt; neukladajú. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Číslovanie pokladničných dokladov&lt;/H2&gt;
+&lt;P&gt;Pokladničné doklady vytvorené na &lt;EM&gt;Pokladnici OBERON&lt;/EM&gt; a evidované v OBERON-e sú číslované takto:&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;11&lt;/SPAN&gt;.&lt;SPAN style="COLOR: rgb(0,88,40)"&gt;0765&lt;/SPAN&gt;-&lt;SPAN style="COLOR: rgb(6,89,255)"&gt;009&lt;/SPAN&gt;/0075&lt;/STRONG&gt;&lt;SPAN style="COLOR: rgb(0,132,60)"&gt;&lt;BR&gt;&lt;STRONG style="COLOR: rgb(255,0,0)"&gt;číslo mesiaca&lt;/STRONG&gt;&lt;/SPAN&gt;&lt;STRONG&gt;.&lt;SPAN style="COLOR: rgb(0,88,40)"&gt;číslo dokladu v systéme eKasa v rámci mesiaca&lt;/SPAN&gt;-&lt;SPAN style="COLOR: rgb(6,89,255)"&gt;číslo dennej uzávierky&lt;/SPAN&gt;/&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;číslo dokladu v&amp;nbsp;rámci dennej uzávierky&amp;nbsp;&amp;nbsp;&lt;/SPAN&gt;&lt;/STRONG&gt;&lt;/P&gt;
+&lt;H2&gt;Vklady a výbery&amp;nbsp;hotovosti&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Primárnou úlohou registračnej pokladnice je &lt;STRONG&gt;evidencia tržby,&amp;nbsp;a teda aj hotovosti&lt;/STRONG&gt;&amp;nbsp;&lt;STRONG&gt;za predaj tovarov a služieb&lt;/STRONG&gt;.&amp;nbsp;Na evidenciu hotovosti v&amp;nbsp;&lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnici OBERON&lt;/A&gt;&amp;nbsp;slúži kniha&amp;nbsp;&lt;EM&gt;Hotovosť pokladnice&lt;/EM&gt;, ktorá je dostupná v&amp;nbsp;záložke &lt;EM&gt;Základné&lt;/EM&gt;, tlačidlo &lt;I&gt;Hotovosť pokladnice&amp;nbsp;(Ctrl+H)&lt;/I&gt;. 
+&lt;LI&gt;Kniha&amp;nbsp;&lt;EM&gt;Hotovosť pokladnice&lt;/EM&gt; okrem evidencie&amp;nbsp;stavu a&amp;nbsp;pohybov hotovosti vytváraných predajom na pokladnici &lt;STRONG&gt;umožňuje&amp;nbsp;vykonávať&lt;/STRONG&gt; &lt;STRONG&gt;aj&lt;/STRONG&gt; &lt;STRONG&gt;vklady (F6) a výbery (F7) hotovosti&lt;/STRONG&gt;, ako aj tlačiť hotovosť pokladnice.&amp;nbsp;V&amp;nbsp;knihe je&amp;nbsp;možné pomocou filtra zobraziť históriu všetkých vkladov a výberov hotovosti. 
+&lt;LI&gt;Ak podnikateľ vloží do pokladnice eKasa klient hotovosť okrem prijatej tržby alebo vyberie z pokladnice eKasa klient hotovosť, je ich povinný v zmysle zákona bez zbytočného odkladu po ich vložení alebo vybratí zaevidovať v&amp;nbsp;systéme eKasa. 
+&lt;LI&gt;V praxi to znamená, že pri každom vklade a výbere hotovosti v registračnej pokladnici podnikateľ vytvorí samostatný doklad označený slovom &lt;EM&gt;VKLAD&lt;/EM&gt; alebo &lt;EM&gt;VÝBER&lt;/EM&gt;, ktorý sa odošle aj priamo do systému eKasa. 
+&lt;LI&gt;Inými slovami, objem tržieb v pokladnici (pokladničnej zásuvke) by mal korešpondovať so zostatkom v systéme eKasa. Ak by bola v pokladnici hotovosť vyššia, podnikateľovi hrozí sankcia vo výške od 330 € do 3 300 €. Existuje tu však aj istá tolerancia – pokuta sa udelí až v prípade, že rozdiel medzi hotovosťou v pokladnici&amp;nbsp;a&amp;nbsp;zaevidovaným stavom je viac ako 20 €. 
+&lt;LI&gt;Nevyriešeným problémom stále zostáva, že eKasa zóna finančnej správy &lt;STRONG&gt;eviduje len celkové sumy tržieb&lt;/STRONG&gt; a neobsahuje informácie o&amp;nbsp;&lt;A href="46e6deed-ce15-42dc-be53-ab72142d9673"&gt;type platby&lt;/A&gt;, a to v členení podľa prijatej hotovosti, cenín (poukážok, šekov a pod.), platieb kartou, prípadne iných bezhotovostných platieb. To v&amp;nbsp;praxi&amp;nbsp; pri výbere hotovosti z pokladnice spôsobuje problémy. Bližšie informácie, ako v&amp;nbsp;tomto prípade postupovať, získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="900c1b8a-2645-4225-ac93-d387237f3d90" style="auto-update-caption: true"&gt;Vyhotovovanie uzávierok&lt;/A&gt;. 
+&lt;LI&gt;Rozdiel môže vzniknúť aj medzi objemom tržby v pokladnici (&lt;A href="f70d563d-c13a-4063-89f1-ee85caef915a"&gt;pokladničnej zásuvke&lt;/A&gt;) a zostatkom v&amp;nbsp;&lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnici OBERON&lt;/A&gt;. V takom prípade je možné použiť funkciu &lt;EM&gt;&lt;STRONG&gt;Vklad&lt;/STRONG&gt;&lt;/EM&gt;, resp. &lt;EM&gt;&lt;STRONG&gt;Výber (korekcia) hotovosti (bez zaslania do fiškálneho zariadenia)&lt;/STRONG&gt;&lt;/EM&gt; (tlačidlo &lt;EM&gt;Možnosti&lt;/EM&gt;). 
+&lt;LI&gt;Pri&amp;nbsp;&lt;A href="d9b919e7-20c4-4c50-9910-4f13211ed9a8"&gt;registračných pokladniciach v režime on-line&lt;/A&gt; je potrebné vklad hotovosti do pokladnice realizovať aj v&amp;nbsp;&lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnici OBERON&lt;/A&gt;&amp;nbsp;a aj na registračnej pokladnici. 
+&lt;LI&gt;Typy vkladov a&amp;nbsp;výberov hotovosti je možné nadefinovať v&amp;nbsp;číselníku &lt;A href="fb9314f2-ef5d-4d18-87bc-94a856057bdc" style="auto-update-caption: true"&gt;Typy vkladov a výberov hotovosti&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;V prípade, že prevádzka začína predajný deň s určitým objemom hotovosti (napr. tržba z predošlého dňa), je potrebné vykonať &lt;I&gt;Počiatočný vklad&lt;/I&gt; hotovosti do pokladnice. &lt;I&gt;Výber - odvod tržby&lt;/I&gt; vykoná pokladnica automaticky pri dennej uzávierke.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Denná uzávierka&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Podľa aktuálneho znenia&amp;nbsp;zákona (§ 12, ods. 5) podnikateľ &lt;STRONG&gt;nemá povinnosť vyhotovovať žiadny typ uzávierky&lt;/STRONG&gt; v pokladnici eKasa klient (prehľadovú, dennú,&amp;nbsp;intervalovú uzávierku). V prípade potreby majú podnikatelia možnosť vytvárať na dobrovoľnej báze&amp;nbsp;&lt;STRONG&gt;prehľady (reporty) za určité obdobie&lt;/STRONG&gt; &lt;STRONG&gt;prostredníctvom eKasa zóny podnikateľa&lt;/STRONG&gt;. 
+&lt;LI&gt;Aj keď&amp;nbsp;však zákon povinnosť vyhotovovať denné uzávierky od 1.4.2019&amp;nbsp;podnikateľom neukladá, na evidenciu a kontrolu prijatých tržieb a hotovosti sú naďalej nevyhnutné. Týka sa to najmä tých podnikateľov, ktorí okrem hotovosti prijímajú aj iné platidlá. 
+&lt;LI&gt;Dennú uzávierku je možné na&amp;nbsp;&lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnici OBERON&lt;/A&gt; vykonať po&amp;nbsp;stlačení tlačidla &lt;I&gt;&lt;STRONG&gt;Uzávierky (Ctrl+Q)&lt;/STRONG&gt;&lt;/I&gt;. 
+&lt;LI&gt;Po&amp;nbsp;vykonaní dennej uzávierky obsluhou pokladnice je možné &lt;STRONG&gt;automaticky vygenerovať notifikáciu vo forme e-mailovej alebo SMS správy, ktorá sa odošle vopred určeným osobám&lt;/STRONG&gt;, napr. majiteľovi, manažérovi a&amp;nbsp;pod.&amp;nbsp;Viac informácií získate v téme&amp;nbsp;&lt;A href="284db2bc-8b11-40d2-b3fe-213808fff2fa" style="auto-update-caption: true"&gt;Môžem poslať dennú uzávierku majiteľovi formou SMS alebo e-mailu?&lt;/A&gt; 
+&lt;LI&gt;Podrobné informácie o tejto problematike získate v téme &lt;A href="900c1b8a-2645-4225-ac93-d387237f3d90" style="auto-update-caption: true"&gt;Vyhotovovanie uzávierok&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Pokiaľ ide o samotné vykonanie (vytlačenie) dennej uzávierky,&amp;nbsp;&lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnica OBERON&lt;/A&gt; &lt;STRONG&gt;priamo dennú uzávierku nevykonáva, len zasiela do fiškálneho zariadenia príkaz na jej vykonanie&lt;/STRONG&gt;. Vykonanie (vytlačenie) dennej uzávierky &lt;STRONG&gt;je&amp;nbsp;plne v&amp;nbsp;réžii fiškálneho zariadenia&lt;/STRONG&gt; -&amp;nbsp;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;prípadnú akúkoľvek nezrovnalosť&amp;nbsp;v&amp;nbsp;dennej uzávierke je z tohto dôvodu potrebné konzultovať so servisným technikom&amp;nbsp;daného zariadenia&lt;/SPAN&gt;. Výnimkou môžu byť &lt;STRONG&gt;nezrovnalosti so&amp;nbsp;zobrazením&amp;nbsp;platidiel&lt;/STRONG&gt;, ktoré závisí od nastavenia&amp;nbsp;&lt;A href="46e6deed-ce15-42dc-be53-ab72142d9673"&gt;typov platieb&lt;/A&gt; v&amp;nbsp;&lt;EM&gt;Pokladnici OBERON&lt;/EM&gt;.&amp;nbsp;Viac informácií získate v téme&amp;nbsp;&lt;A href="75a07288-2569-448c-bfd8-c66915fae9a8" style="auto-update-caption: true"&gt;Dennú uzávierku nie je možné vyhotoviť&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Predaj s využitím čiarových kódov&lt;/H2&gt;
+&lt;P&gt;Predaj s využitím čiarových kódov výrazným spôsobom zrýchľuje a uľahčuje pridanie položky na pokladničný účet (doklad). Po nasnímaní čiarového kódu &lt;A href="80a78093-fc45-4db9-b74b-e1f9829f7b3c"&gt;snímačom&lt;/A&gt; program identifikuje, či ide o:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;&lt;I&gt;Čiarový kód tovaru&lt;/I&gt;&lt;/STRONG&gt; - spravidla&amp;nbsp;sa nachádza na obale výrobku. Pri nasnímaní takéhoto kódu program vyhľadá a pridá položku na účet. &lt;STRONG&gt;Čiarový kód tovaru&lt;/STRONG&gt; je potrebné pridať skladovej karte vo&amp;nbsp;&lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;formulári Skladová karta&lt;/A&gt;, záložka &lt;EM&gt;Reg. pokladnica&lt;/EM&gt;. 
+&lt;LI&gt;&lt;I&gt;&lt;STRONG&gt;Vážený čiarový kód&lt;/STRONG&gt;&lt;/I&gt; - tlačia ho špeciálne&amp;nbsp;&lt;A href="98f367d6-b09e-4406-aad9-d4b2cfc4b504"&gt;elektronické váhy&lt;/A&gt;. Jedným nasnímaním umožňuje pridať&amp;nbsp;na pokladničný účet položku aj s jej hmotnosťou. Na skladovej karte nie je potrebné evidovať čiarový kód tovaru, ale len &lt;STRONG&gt;štvormiestny kód položky&lt;/STRONG&gt; v záložke &lt;I&gt;Reg.&amp;nbsp;pokladnica&lt;/I&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;&lt;I&gt;Vernostnú kartu&lt;/I&gt;&lt;/STRONG&gt; - karta s čiarovým kódom zadaným vo &lt;A href="4fbe9db8-25bc-420f-aee5-228d0a8ff03f"&gt;formulári Obchodný partner&lt;/A&gt;, záložka &lt;EM&gt;Ceny&lt;/EM&gt; ako &lt;STRONG&gt;číslo vernostnej karty&lt;/STRONG&gt;.&amp;nbsp;Bližšie informácie nájdete v téme &lt;A href="7a7d2c0d-866b-42ff-89bd-19d34b0b0a11" style="auto-update-caption: true"&gt;Vernostný systém na Pokladnici OBERON&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;P&gt;Program rozoznáva druh čiarového kódu aj v prípade, že je čiarový kód zadaný do poľa &lt;I&gt;Množstvo*Kód&lt;/I&gt; &lt;EM&gt;položky&lt;/EM&gt; v režime maloobchodnej alebo reštauračnej pokladnice&lt;EM&gt;.&lt;/EM&gt; Do tohto poľa je možné čiarový kód zadať pomocou klávesnice alebo snímača čiarových kódov emulujúceho klávesnicu. Program podporuje zadávanie čiarového kódu na pokladnici len v&amp;nbsp;prípade, že je v&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="749ff4f1-eeb5-43f5-98d2-021399d8cec7"&gt;Zariadenia&lt;/A&gt;&amp;nbsp;pridaný aspoň jeden &lt;A href="80a78093-fc45-4db9-b74b-e1f9829f7b3c"&gt;snímač čiarových kódov&lt;/A&gt;.&lt;/P&gt;
+&lt;H3&gt;Zvuková notifikáca&lt;/H3&gt;
+&lt;P&gt;Pri nasnímaní čiarového kódu v programe zaznie zvuková &lt;STRONG&gt;notifikácia zobrazenia okna na bližší výber skladovej karty (ak jeden čiarový kód používa viac skladových kariet), prípadne na výber variantu&lt;/STRONG&gt;. Tým je obsluha informovaná, že nasnímaná položka nebola vložená do pokladničného dokladu a&amp;nbsp;vyžaduje sa manuálny výber.&lt;/P&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt; 
+&lt;P&gt;Bližšie informácie o možnostiach využitia čiarových kódov v OBERON-e nájdete v téme &lt;A href="86ce651c-2637-4165-93b4-36535a700fbf"&gt;Práca s čiarovými kódmi&lt;/A&gt;.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Použitie elektronických váh&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Systém OBERON podporuje viaceré typy pripojiteľných &lt;A href="98f367d6-b09e-4406-aad9-d4b2cfc4b504"&gt;elektronických váh&lt;/A&gt;. Tieto váhy sa odlišujú komunikačným protokolom, ale aj spôsobom práce - elektronické váhy využívajúce vážený čiarový kód, s&amp;nbsp;protokolom CAS, s protokolom DIBAL, váhy s indikátorom BWS, váhoskener využívajúci protokol SASI. 
+&lt;LI&gt;Viac informácií spolu s postupom, ako vážiť&amp;nbsp;na&amp;nbsp;&lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnici OBERON&lt;/A&gt;,&amp;nbsp;získate v téme &lt;A href="98f367d6-b09e-4406-aad9-d4b2cfc4b504" style="auto-update-caption: true"&gt;Elektronické váhy&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Oprava položky&lt;/H2&gt;
+&lt;P&gt;Pomocou&amp;nbsp;funkcie &lt;EM&gt;Oprava položky&lt;/EM&gt;&amp;nbsp;je možné dodatočne upraviť&amp;nbsp;parametre položky pridanej do otvoreného pokladničného účtu. Funkcia je dostupná&amp;nbsp;v&amp;nbsp;&lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;používateľskom prostredí Pokladnice OBERON&lt;/A&gt; po stlačení tlačidla&amp;nbsp;&lt;IMG style="WIDTH: 20px" border=0 alt="" src="images/CashRegister/CashRegister_Button_Edit.png"&gt;, prípadne systémového tlačidla&amp;nbsp;&lt;EM&gt;Oprava položky (Medzerník)&lt;/EM&gt; alebo len jednoduchým dvojklikom na položku.&amp;nbsp;Otvorí sa formulár &lt;EM&gt;Oprava položky&lt;/EM&gt;, v ktorom&amp;nbsp;v&amp;nbsp;záložke &lt;EM&gt;Základné&lt;/EM&gt; možno:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;upraviť množstvo položky, 
+&lt;LI&gt;zvoliť&amp;nbsp;jeden z&amp;nbsp;nasledujúcich typov položky: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Štandardná&lt;/STRONG&gt; &lt;STRONG&gt;položka&lt;/STRONG&gt; - položka s nezápornou hodnotou evidovaná na doklade; 
+&lt;LI&gt;&lt;STRONG&gt;Vratný obal&lt;/STRONG&gt; &lt;STRONG&gt;(záporná položka)&lt;/STRONG&gt; - položka so zápornou hodnotou za vykúpené zálohované obaly; 
+&lt;LI&gt;&lt;STRONG&gt;Vrátenie tovaru (záporná položka)&lt;/STRONG&gt;&amp;nbsp;- položka so zápornou hodnotou v prípade zrušenia evidovanej položky po jej zaevidovaní na doklade&amp;nbsp;pri&amp;nbsp;&lt;A href="9abefb3a-4c7f-4c93-bc46-883d2e85d910"&gt;vrátení tovaru alebo služby&lt;/A&gt;, napr. z dôvodu reklamácie. Pri vrátení tovaru&amp;nbsp;v pokladnici eKasa klient musí pokladničný doklad obsahovať aj pôvodný identifikátor pokladničného dokladu (UID alebo OKP); 
+&lt;LI&gt;&lt;STRONG&gt;Zľava&lt;/STRONG&gt; - položka so zápornou hodnotou pri poskytnutí zľavy na doklade,&lt;EM&gt;&amp;nbsp;&lt;/EM&gt;napr. pri vernostnom systéme; 
+&lt;LI&gt;&lt;STRONG&gt;Oprava (kladná alebo záporná položka)&lt;/STRONG&gt; - položka s kladnou alebo zápornou hodnotou v prípade opravy položky už zaevidovaného dokladu, pričom opravou sa rozumie negácia pôvodnej položky, t. j. zaevidovanie položky s rovnakou sumou, ale opačným znamienkom ako pôvodná opravovaná položka. Na rozdiel od vrátenia tovaru sa pri zápornej položke nevyžaduje zadanie UID alebo OKP dokladu. Funkcia slúži na korekciu skladových zásob napr. v prípade, že pri receptúre si hosť&amp;nbsp;zamenil prílohu za inú&amp;nbsp;(napr. ryžu za hranolčeky), doklad však bol zaevidovaný s&amp;nbsp;pôvodnou prílohou a pod.; 
+&lt;LI&gt;&lt;STRONG&gt;Odpočítaná záloha (záporná položka)&lt;/STRONG&gt; - položka so zápornou hodnotou vo výške sumy prijatého preddavku&amp;nbsp;uvedená na doklade vystavenom v čase úhrady doplatku ceny za predaný tovar alebo poskytnutú službu; 
+&lt;LI&gt;&lt;STRONG&gt;Výmena poukazu (záporná položka)&lt;/STRONG&gt; &lt;EM&gt;-&lt;/EM&gt; položka so zápornou hodnotou pri výmene jednoúčelového poukazu za tovar alebo poskytnutú službu. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;pridať poznámku (v prípade reštauračného režimu aj poznámku pre&amp;nbsp;&lt;A href="b9d7c873-7b63-4210-86fe-ab1c66ea6502"&gt;bonovaciu tlačiareň&lt;/A&gt;). &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Používateľ môže mať&amp;nbsp;zakázané právo zaevidovať (vytlačiť) doklad, na ktorom sú záporné položky typu &lt;EM&gt;Vrátenie tovaru&lt;/EM&gt;; vtedy môže iný&amp;nbsp;používateľ&amp;nbsp;pokladnice&amp;nbsp;takýto doklad schváliť.&amp;nbsp;Používateľ s&amp;nbsp;povolenými právami na takýto doklad sa identifikuje svojím menom a heslom (ako pri bežnom prihlásení), a tak umožní obsluhe pokladnice daný doklad zaevidovať (vytlačiť).&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H5&gt;Obrázok č. 2: Oprava položky, záložka &lt;EM&gt;Základné&lt;/EM&gt;&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/CashRegister/Form_CashRegister_Typpolozky3.png"&gt;&lt;/P&gt;
+&lt;P&gt;V záložke &lt;EM&gt;eKasa&lt;/EM&gt; sú dostupné&amp;nbsp;nasledujúce nastavenia týkajúce sa prevodu jednoúčelového poukazu:&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;Platba&amp;nbsp;prijatá v&amp;nbsp;mene partnera&lt;/STRONG&gt; - ak sa prevod jednoúčelového poukazu uskutoční zdaniteľnou osobou, ktorá koná v mene inej zdaniteľne osoby, na doklade sa uvádzajú údaje o tejto inej osobe.&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;Číslo jednoúčelového poukazu&lt;/STRONG&gt; - predstavuje&amp;nbsp;číslo&amp;nbsp;jednoúčelového&amp;nbsp;poukazu&amp;nbsp;pri&amp;nbsp;výmene poukazu za tovar alebo poskytnutú službu.&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;Ďalšie údaje dokladu -&lt;/STRONG&gt; z rozbaľovacieho zoznamu je možné vybrať dôvod osobitnej úpravy zdaňovania. Dôvod priradenia nulovej sadzby DPH môže byť:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Oslobodené od dane -&lt;/STRONG&gt; oslobodenie od dane znamená, že pri dodaní nižšie vymenovaných služieb a tovarov platiteľ dane neúčtuje daň odberateľovi (a&amp;nbsp;teda neodvádza daň z týchto dodaní do štátneho rozpočtu) a súčasne si platiteľ dane nemôže odpočítať daň z nakúpených tovarov a služieb, ktoré použije na dodávky tovarov a služieb oslobodených od dane. Sú to napr. poštové služby, kultúrne služby, výchovné a vzdelávacie služby atď. 
+&lt;LI&gt;&lt;STRONG&gt;Prenesenie daňovej povinnosti -&lt;/STRONG&gt; vybrané tovary alebo služby sa medzi platiteľmi DPH fakturujú bez DPH (teda s nulovou sadzbou DPH). 
+&lt;LI&gt;&lt;STRONG&gt;Úprava zdaňovania prirážky - cestovné kancelárie&lt;/STRONG&gt; - osobitosť uplatňovania dane cestovnými kanceláriami, cestovnými agentúrami, ale aj inými platiteľmi DPH, ktorí dodávajú služby cestovného ruchu, spočíva v tom, že DPH neodvádzajú bežným spôsobom z celkovej predajnej ceny príslušnej poskytnutej služby, ale len zo svojej tzv. prirážky cestovnej kancelárie, ktorú vypočítajú ako rozdiel medzi celkovou predajnou cenou dodaných služieb cestovného ruchu a ich nákupnou cenou. 
+&lt;LI&gt;&lt;STRONG&gt;Úprava zdaňovania prirážky - použitý tovar&lt;/STRONG&gt; - použitý tovar je&amp;nbsp;hnuteľný hmotný majetok, ktorý je vhodný na ďalšie použitie v nezmenenom stave alebo po oprave (iný ako umelecké diela, zberateľské predmety a starožitnosti, drahé kovy a drahé kamene). 
+&lt;LI&gt;&lt;STRONG&gt;Úprava zdaňovania prirážky - umelecké diela&lt;/STRONG&gt; - umelecké diela sú&amp;nbsp;definované v prílohe zákona o DPH. 
+&lt;LI&gt;&lt;STRONG&gt;Úprava zdaňovania prirážky - zberateľské predmety a starožitnosti&lt;/STRONG&gt; - starožitnosti sú&amp;nbsp;umelecké diela a zberateľské predmety staršie ako 100 rokov. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 3: Oprava položky, záložka &lt;EM&gt;eKasa&lt;/EM&gt;&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/CashRegister/Form_CashRegister_eKasa.png"&gt;&lt;/P&gt;
+&lt;H2&gt;Zóna udalostí&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Zóna udalostí na&amp;nbsp;&lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnici OBERON&lt;/A&gt; predstavuje osobitnú sekciu (informačný panel)&amp;nbsp;oddelenú rozdeľovacou lištou. Slúži na zobrazenie rôznych informácií (o&amp;nbsp;navýšení, výnose, marži, hodnote, na ktorú sa upraví množstvo na skladovej karte po výdaji atď.&amp;nbsp;a&amp;nbsp;upozornení (napr. na nekorektnú súčasnú platnosť viacerých&amp;nbsp;&lt;A href="34f91c11-1a5d-4773-ac4e-48ad2fc859d3"&gt;pravidiel rozšírenej cenotvorby&lt;/A&gt; s rovnakou prioritou atď.). 
+&lt;LI&gt;Zónu udalostí je možné v priebehu používania skryť a opätovne zobraziť pomocou&amp;nbsp;&lt;A href="38489850-ab82-41b6-b258-3fa613ed5861"&gt;rozdeľovacej lišty&lt;/A&gt; (stlačením ovládacieho tlačidla s trojuholníkom). &lt;/LI&gt;&lt;/UL&gt;
+&lt;H1&gt;Špeciálne prípady predaja&lt;/H1&gt;
+&lt;P&gt;Pri predaji na&amp;nbsp;&lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnici OBERON&lt;/A&gt;&amp;nbsp;sa v&amp;nbsp;praxi vyskytujú aj nasledujúce špeciálne prípady predaja:&lt;/P&gt;
+&lt;H2&gt;Úhrada faktúry v hotovosti&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;V zmysle&amp;nbsp;&lt;A href="https://www.slov-lex.sk/static/pdf/2008/289/ZZ_2008_289_20211217.pdf" target=_blank&gt;zákona č. 289/2008 o používaní elektronickej registračnej pokladnice&lt;/A&gt; je potrebné každú platbu v hotovosti, a teda aj úhradu faktúry, zaevidovať&amp;nbsp;na &lt;A href="04b8d290-1470-41ff-85a1-c44a20958841"&gt;registračnej pokladnici (f&lt;/A&gt;&lt;A href="04b8d290-1470-41ff-85a1-c44a20958841"&gt;iškálnom zariadení)&lt;/A&gt;. 
+&lt;LI&gt;Podrobné informácie o tejto problematike získate v téme &lt;A href="0312f424-bcb0-4d34-aad4-64a1f63eca85" style="auto-update-caption: true"&gt;Úhrada faktúry v hotovosti&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Oprava základu dane (dobropis/ťarchopis)&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Zaevidovanie úhrady dobropisu/ťarchopisu v hotovosti je potrebné vykonať na&amp;nbsp;&lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnici OBERON&lt;/A&gt;. Postup zaevidovania úhrady je totožný s postupom&amp;nbsp;&lt;A href="0312f424-bcb0-4d34-aad4-64a1f63eca85"&gt;zaevidovania úhrady faktúry v hotovosti&lt;/A&gt;, pričom príznak položky je nastavený na príznak &lt;EM&gt;&lt;STRONG&gt;Vrátenie tovaru&lt;/STRONG&gt;&lt;/EM&gt;. 
+&lt;LI&gt;Podrobné informácie o tejto problematike získate v téme &lt;A href="58d85eb3-1501-4964-a648-35fe4f076b1a" style="auto-update-caption: true"&gt;Oprava základu DPH - dobropis a ťarchopis&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Prenesenie daňovej povinnosti&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Pri predaji tovaru s prenesenou daňovou povinnosťou na&amp;nbsp;&lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnici OBERON&lt;/A&gt; sa nezaeviduje (nevytlačí) bežný&amp;nbsp;pokladničný doklad, ale z pokladničného dokladu sa vytvorí faktúra, ktorá sa následne na &lt;EM&gt;Pokladnici OBERON&lt;/EM&gt; uhradí. 
+&lt;LI&gt;Postup a&amp;nbsp;podrobné informácie o tejto problematike získate v téme &lt;A href="6cd390d6-697d-4829-bc05-ea31662ffe4e" style="auto-update-caption: true"&gt;Prenesenie daňovej povinnosti&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Predaj a výmena poukazov&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Z&amp;nbsp;hľadiska účelu zákon o DPH rozdeľuje poukazy na&amp;nbsp;&lt;STRONG&gt;jednoúčelové poukazy a&amp;nbsp;viacúčelové poukazy&lt;/STRONG&gt;.&amp;nbsp;Princípy&amp;nbsp;predaja a výmeny poukazov sa líšia v závislosti od toho, o aký typ poukazu ide. 
+&lt;LI&gt;&lt;STRONG&gt;Viacúčelové poukazy&lt;/STRONG&gt; - keďže v prípade viacúčelového poukazu ide o ceninu, jeho&amp;nbsp;&lt;STRONG&gt;predaj sa neeviduje v pokladnici&lt;/STRONG&gt; (nevydáva sa&amp;nbsp;pokladničný doklad). Na druhej strane, pri &lt;STRONG&gt;výmene&lt;/STRONG&gt; viacúčelového poukazu&amp;nbsp;za tovar/službu je &lt;STRONG&gt;predávajúci povinný túto tržbu vo forme poukážky&lt;/STRONG&gt; &lt;STRONG&gt;zaevidovať v pokladnici&lt;/STRONG&gt; - z &lt;EM&gt;Pokladnice OBERON&lt;/EM&gt; tak zákazník dostane pokladničný doklad, pričom pri platbe je potrebné vybrať spôsob úhrady &lt;EM&gt;Cenina&lt;/EM&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;Jednoúčelové poukazy -&lt;/STRONG&gt; na rozdiel od viacúčelových poukazov jednoúčelové poukazy nie sú ceniny, t. j. ich &lt;STRONG&gt;predaj sa má v zmysle zákona evidovať v pokladnici&lt;/STRONG&gt;. Rovnako aj pri ich &lt;STRONG&gt;výmene za tovar alebo službu sa má vydávať pokladničný doklad&lt;/STRONG&gt;, ktorý však nesmie obsahovať údaje týkajúce sa dane z pridanej hodnoty (základ, sadzbu ani výšku dane). To však platí len pre prípady, keď pôjde o štandardnú výmenu jednoúčelového poukazu za poskytnutú službu alebo dodaný tovar. Ak by hodnota služby alebo tovaru bola vyššia, ako je hodnota poukazu, dodávateľ služby/tovaru je &lt;STRONG&gt;povinný k rozdielu vystaviť plnohodnotný doklad&lt;/STRONG&gt; podľa zákona o DPH (so všetkými náležitosťami) a rozdiel v DPH odviesť do štátneho rozpočtu. 
+&lt;LI&gt;Podrobné informácie o tejto problematike získate v téme &lt;A href="ce48e01d-f70b-46ba-b471-96fd53c869f4" style="auto-update-caption: true"&gt;Predaj a výmena poukazov&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Predaj a&amp;nbsp;výkup&amp;nbsp;vratných obalov&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;V systéme OBERON je možné pracovať so všetkými typmi zálohovateľných vratných obalov. Na ich evidenciu&amp;nbsp;sú určené skladové karty &lt;A href="8deac9fe-9864-41e8-aaa3-02257c241d78"&gt;typu&lt;/A&gt; &lt;EM&gt;&lt;STRONG&gt;Vratný obal&lt;/STRONG&gt;&lt;/EM&gt; s&amp;nbsp;cenou &lt;STRONG&gt;0,13 € bez DPH pri sklenených fľašiach a&amp;nbsp;0,15 € bez DPH pri plastových&lt;/STRONG&gt; &lt;STRONG&gt;fľašiach&lt;/STRONG&gt; &lt;STRONG&gt;PET a plechovkách&lt;/STRONG&gt;. 
+&lt;LI&gt;Príjem a výdaj (predaj) týchto obalov&amp;nbsp;sa realizuje&amp;nbsp;&lt;STRONG&gt;formou viazanej položky&lt;/STRONG&gt; – na príslušnej skladovej karte (napr. &lt;EM&gt;Rajec sýtená 1,5 l PET, Zlatý bažant svetlé 12 %, 0,5 l fl...&lt;/EM&gt;) je v záložke &lt;EM&gt;Základné&lt;/EM&gt; potrebné nastaviť &lt;EM&gt;&lt;STRONG&gt;Číslo viazanej položky&lt;/STRONG&gt;&lt;/EM&gt;. V&amp;nbsp;tom prípade bude vratný obal figurovať na doklade (príjemke, výdajke, pokladničnom doklade...) ako osobitná položka. 
+&lt;LI&gt;Pri výkupe&amp;nbsp;zálohovaných vratných obalov program podporuje nasnímanie čiarového kódu z &lt;STRONG&gt;kupónu&lt;/STRONG&gt; na odber&amp;nbsp;vratných&amp;nbsp;obalov. Po nasnímaní kupónu sa na doklad automaticky pridá záporná položka so sumou, ktorú je potrebné vrátiť alebo z dokladu odpočítať. Viac informácií o&amp;nbsp;štruktúre čiarového kódu získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="86ce651c-2637-4165-93b4-36535a700fbf"&gt;Práca s čiarovými kódmi&lt;/A&gt;. 
+&lt;LI&gt;Podrobné informácie o tejto problematike získate v téme &lt;A href="0cbf9ae9-1760-4f87-89be-559b62ee193b" style="auto-update-caption: true"&gt;Zálohovanie vratných obalov&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Predaj spotrebiteľského balenia liehu (SBL)&lt;!--DXMETADATA end--&gt;&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Osoba, ktorá chce v rámci podnikateľskej činnosti (pohostinstvá, reštaurácie, bufety, hotely...) na území &lt;EM&gt;Slovenskej republiky&lt;/EM&gt; predávať&amp;nbsp;lieh v spotrebiteľskom balení (t.&amp;nbsp;j.&amp;nbsp;destiláty, likéry a iné liehové nápoje) označený kontrolnou známkou, alebo predávať lieh z takéhoto spotrebiteľského balenia, &lt;STRONG&gt;musí mať povolenie na predaj&lt;/STRONG&gt;. 
+&lt;LI&gt;Podľa &lt;EM&gt;Zákona č. 105/2004 Z. z. o spotrebnej dani z liehu a o zmene a doplnení zákona č. 467/2002 Z. z. o výrobe a uvádzaní liehu na trh&lt;/EM&gt; sa podnikateľské subjekty, ktoré sa zaoberajú predajom spotrebiteľského balenia liehu,&amp;nbsp;delia na dve skupiny: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;distribútori&amp;nbsp;&lt;/STRONG&gt;-&amp;nbsp;podnikatelia, ktorí sa zaoberajú kúpou spotrebiteľského balenia liehu a jeho ďalšieho predaja iným podnikateľským subjektom;&amp;nbsp;u distribútorov SBL je potrebné &lt;STRONG&gt;povolenie na distribúciu&amp;nbsp;SBL&lt;/STRONG&gt; od colného úradu, 
+&lt;LI&gt;&lt;STRONG&gt;predajcovia&lt;/STRONG&gt; - podnikatelia, ktorí kupujú&amp;nbsp;spotrebiteľské balenie liehu na účely predaja konečnému spotrebiteľovi (napr. v&amp;nbsp;reštauračných zariadeniach); u predajcov SBL je potrebné &lt;STRONG&gt;povolenie na predaj SBL&lt;/STRONG&gt; od colného úradu. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Evidencia a predaj SBL si okrem iných nastavení v&amp;nbsp;systéme OBERON vyžaduje aj &lt;STRONG&gt;nasledujúce nastavenia platné pre distribútorov SBL pri predaji&lt;/STRONG&gt; na&amp;nbsp;&lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnici OBERON&lt;/A&gt;: 
+&lt;UL&gt;
+&lt;LI&gt;pri&amp;nbsp;predaji na &lt;EM&gt;Pokladnici OBERON&lt;/EM&gt; sa údaje o danom odberateľovi SBL (aj s číslom povolenia) tlačia na pokladničnom doklade, ak je v nastavení príslušného &lt;A href="46e6deed-ce15-42dc-be53-ab72142d9673"&gt;typu platby&lt;/A&gt; začiarknutá voľba &lt;EM&gt;Na doklade tlačiť odberateľa&lt;/EM&gt;, 
+&lt;LI&gt;číslo čiarového kódu SBL sa tlačí&amp;nbsp;pri položke na pokladničnom doklade, ak je vo &lt;A href="bb0e1e82-e344-4bf0-834a-a294269f2e71"&gt;formulári Pokladnica OBERON - nastavenia&lt;/A&gt; v záložke &lt;I&gt;Tlač dokladu&lt;/I&gt;&amp;nbsp;začiarknutá&amp;nbsp;možnosť&amp;nbsp;&lt;I&gt;Tlačiť čiarový kód položky (bude tlačený len&amp;nbsp;ako text na ďalšom riadku)&lt;/I&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Podrobné informácie o tejto problematike získate v téme &lt;A href="00777364-8b56-4ec5-b5ce-b302f3f384a3" style="auto-update-caption: true"&gt;Evidencia a predaj SBL&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Predaj denného menu&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Pre tie reštauračné prevádzky, ktoré ponúkajú svojim zákazníkom stravovacie služby vo forme denného&amp;nbsp;menu, systém OBERON umožňuje &lt;STRONG&gt;nadefinovať jednotlivé položky denného menu a následne ich predávať&lt;/STRONG&gt; na&amp;nbsp;&lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnici OBERON&lt;/A&gt;. 
+&lt;LI&gt;Podrobné informácie o tejto problematike získate v téme &lt;A href="8c3cc66a-acbb-4047-aad2-b06170ec7fb5" style="auto-update-caption: true"&gt;Ako nadefinovať položky denného menu&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Reklamácia a servis&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;V systéme OBERON je možné reklamáciu/servis vyúčtovať dvoma spôsobmi: 
+&lt;OL&gt;
+&lt;LI&gt;&lt;STRONG&gt;vystavením pokladničného dokladu&lt;/STRONG&gt;&amp;nbsp;na&amp;nbsp;&lt;A href="a6f5e32d-6f1e-40bb-9d15-3f784a183252"&gt;Pokladnici OBERON&lt;/A&gt;, 
+&lt;LI&gt;&lt;STRONG&gt;vystavením faktúry&lt;/STRONG&gt; v&amp;nbsp;&lt;A href="5c21adcc-87c8-44e7-981d-02902635693d"&gt;Knihe pohľadávok&lt;/A&gt;. &lt;/LI&gt;&lt;/OL&gt;
+&lt;LI&gt;V prípade, že sa&amp;nbsp;vystavená faktúra bude&amp;nbsp;uhrádzať v hotovosti, je potrebné jej úhradu zaevidovať&amp;nbsp;na&amp;nbsp;&lt;A href="aec074f4-3e1c-4a1e-8a80-06fcecf51156"&gt;Pokladnici OBERON&lt;/A&gt;. Bližšie informácie získate v téme&amp;nbsp;&lt;A href="0312f424-bcb0-4d34-aad4-64a1f63eca85" style="auto-update-caption: true"&gt;Úhrada faktúry v hotovosti&lt;/A&gt;. 
+&lt;LI&gt;Podrobné informácie o tejto problematike získate v téme &lt;A href="0fb6c9c4-9b89-43f6-af59-f9418f6871dd" style="auto-update-caption: true"&gt;Vyúčtovanie reklamácie/servisu&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Košíkový predaj&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnica OBERON&lt;/A&gt; používaná v&amp;nbsp;reštauračnom režime štandardne&amp;nbsp;umožňuje prácu s&amp;nbsp;otvorenými účtami (stolmi), ktoré slúžia na evidovanie položiek, ktoré si zákazníci objednali, pričom na ich základe&amp;nbsp;sa na&amp;nbsp;&lt;A href="b24ad235-cf7f-43e2-b3e8-ec0f7d92f6b6"&gt;fiškálnej tlačiarni&lt;/A&gt;&amp;nbsp;zaeviduje (vytlačí) daňový doklad.&amp;nbsp;&lt;STRONG&gt;Osobitným spôsobom využitia práce s&amp;nbsp;otvorenými účtami (stolmi)&lt;/STRONG&gt; je tzv. košíkový predaj. 
+&lt;LI&gt;Košíkový predaj predstavuje moderný spôsob predaja, ktorý je určený pre &lt;STRONG&gt;predajne s viacerými oddeleniami&lt;/STRONG&gt;, ako sú stavebniny, predajne so špecifickým tovarom (príliš veľký alebo príliš malý tovar - napr. predajne so spojovacím materiálom&amp;nbsp;či záhradnou technikou), ale aj&amp;nbsp;väčšie predajne potravín s viacerými oddeleniami (lahôdky, mäsiarstvo, ovocie a zelenia atď.), v&amp;nbsp;ktorých sa predáva tovar&amp;nbsp;na kusy alebo na váhu. Stačí, ak každé z týchto oddelení bude vybavené len počítačom s&amp;nbsp;OBERON-om bez&amp;nbsp;&lt;A href="04b8d290-1470-41ff-85a1-c44a20958841"&gt;fiškálneho zariadenia&lt;/A&gt;. To bude pripojené &lt;STRONG&gt;len k&amp;nbsp;jednému hlavnému počítaču, ktorý bude predstavovať registračnú pokladnicu&lt;/STRONG&gt;. 
+&lt;LI&gt;Podrobné informácie o tejto problematike získate v téme &lt;A href="046063d5-e7e1-4d4b-9373-43a672fdf410" style="auto-update-caption: true"&gt;Košíkový predaj&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Predaj elektrozariadení - recyklačný poplatok&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;V&amp;nbsp;zmysle § 34 ods. 1 písm. d)&amp;nbsp;&lt;EM&gt;Zákona č. 79/2015&lt;/EM&gt; &lt;EM&gt;Z. z. o odpadoch&lt;/EM&gt;&amp;nbsp;sa s&amp;nbsp;predajom elektrozariadenia určeného&amp;nbsp;na použitie v&amp;nbsp;domácnosti spája aj povinnosť &lt;STRONG&gt;uvádzať na jeho obale alebo etikete alebo na daňovom či inom obdobnom doklade vyhotovenom pri jeho predaji výšku recyklačného poplatku&lt;/STRONG&gt;. 
+&lt;LI&gt;Podrobné informácie o tejto problematike získate v téme &lt;A href="0d50e713-b7d3-4aab-9f4f-14712a6c8ac2" style="auto-update-caption: true"&gt;Recyklačný poplatok pri predaji elektrozariadení&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Predaj balení s jedným čiarovým kódom&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Pri predaji &lt;STRONG&gt;väčších balení nápojov, ktoré majú len jeden čiarový kód&lt;/STRONG&gt; (napr. 6 ks minerálnych vôd balených spolu) možno v&amp;nbsp;systéme OBERON použiť skladovú kartu&amp;nbsp;&lt;A href="8deac9fe-9864-41e8-aaa3-02257c241d78"&gt;typu sada&lt;/A&gt;. 
+&lt;LI&gt;Podrobné informácie o tejto problematike získate v téme &lt;A href="2a34c11f-bee8-4fdd-bf7f-70ee7b49bc79" style="auto-update-caption: true"&gt;Všeobecne o sadách&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Komisionálny predaj&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Komisionálny (komisný) predaj&amp;nbsp;predstavuje &lt;STRONG&gt;predaj tovaru, ktorý dodávateľ (vlastník, komitent) prenechá odberateľovi (predajca, komisionár) na predaj&amp;nbsp;s&amp;nbsp;cieľom získať&amp;nbsp;dohodnutú províziu&lt;/STRONG&gt;. Za tovar prevzatý do komisionálneho predaja odberateľ neplatí dodávateľovi pri jeho prevzatí, ale až po uskutočnení predaja. 
+&lt;LI&gt;V&amp;nbsp;závislosti od toho, či sa tovar na komisionálny tovar prijíma alebo dodáva, rozlišujeme&amp;nbsp;nasledujúce typy komisionálneho predaja: &lt;EM&gt;&lt;STRONG&gt;Prijaté na komisionálny predaj&lt;/STRONG&gt;&lt;/EM&gt; a&amp;nbsp;&lt;EM&gt;&lt;STRONG&gt;Poskytnuté na komisionálny predaj&lt;/STRONG&gt;&lt;/EM&gt;. 
+&lt;LI&gt;Podrobné informácie o tejto problematike získate v téme &lt;A href="78bceae1-1cc7-4e31-a232-24b38044c3d0" style="auto-update-caption: true"&gt;Komisionálny predaj&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt; 
+&lt;P&gt;&lt;STRONG&gt;Videonávod&lt;/STRONG&gt;&lt;/P&gt;
+&lt;P&gt;K téme je spracovaný videonávod&amp;nbsp;&lt;A href="https://exalogic.sk/na-stiahnutie-oberon/predaj-na-pokladnici-oberon-novinky/" target=_blank&gt;Predaj na Pokladnici OBERON – zmeny od verzie 2015&lt;/A&gt;.&amp;nbsp;Všetky videonávody&amp;nbsp;sú k&amp;nbsp;dispozícii&amp;nbsp;na stránke&amp;nbsp;&lt;A href="http://www.exalogic.sk/"&gt;www.exalogic.sk&lt;/A&gt; v&amp;nbsp;sekcii &lt;EM&gt;Na stiahnutie,&amp;nbsp;&lt;/EM&gt;&lt;A href="https://exalogic.sk/na-stiahnutie/oberon-agenda-firmy/video-navody-na-stiahnutie/" target=_blank&gt;Videonávody&lt;/A&gt;.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt; 
+&lt;P&gt;&lt;B&gt;Videonávody&lt;/B&gt;&lt;/P&gt;
+&lt;P&gt;K téme sú spracované&amp;nbsp;tieto videonávody:&lt;BR&gt;&lt;I&gt;Predaj na Pokladnici -&lt;/I&gt; &lt;A href="https://exalogic.sk/na-stiahnutie-oberon/predaj-na-pokladnici-oberon/" target=_blank&gt;https://exalogic.sk/na-stiahnutie-oberon/predaj-na-pokladnici-oberon/&lt;/A&gt;,&lt;BR&gt;&lt;I&gt;Pokladnica OBERON - typy platieb&lt;/I&gt; - &lt;A href="https://exalogic.sk/na-stiahnutie-oberon/pokladnica-oberon-typy-platieb/" target=_blank&gt;https://exalogic.sk/na-stiahnutie-oberon/pokladnica-oberon-typy-platieb/&lt;/A&gt;.&lt;BR&gt;&lt;BR&gt;Všetky videonávody&amp;nbsp;je možné nájsť na stránke &lt;A href="http://exalogic.sk/na-stiahnutie/oberon-agenda-firmy/video-navody-na-stiahnutie/" target=_blank&gt;www.exalogic.sk&lt;/A&gt; v záložke &lt;I&gt;Na stiahnutie&lt;/I&gt; -&amp;nbsp;&lt;I&gt;Videonávody&lt;/I&gt;.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="6ae023db-f7f7-4f4c-8c57-82f3dd25cce8" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="6788e054-4d6d-4706-8daf-b3542bc3964c" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="aec074f4-3e1c-4a1e-8a80-06fcecf51156">
+      <Title m="2023-03-27T11:05:33.3397119Z">Pokladnica OBERON - základné možnosti</Title>
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="cd4359ba-dba0-488c-9a53-5a62a58057ee" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="747496d6-0267-424d-a55e-aed6cbd90050">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="ac27e976-0a11-453f-9ef2-cf91b119b395" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="d9b919e7-20c4-4c50-9910-4f13211ed9a8">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="d8f0fec0-400e-487c-adb3-9a7459096ede" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="c9f7216f-f252-4be3-aa26-3e9bb6d4c887">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="ad4aaf55-c794-4db6-ba63-cd5c88290723" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="46e6deed-ce15-42dc-be53-ab72142d9673">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="7f366e9a-39ae-464a-8f27-adaaa5bee62e" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="e76125f0-4fb3-4e56-82db-667593132461">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="4acbcf2b-22a6-4820-9d7b-24873b704103" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="e0ccff3e-b9e7-4572-bc3c-7f41a32280dd">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="d99bfabc-1555-4900-b2b2-d7377394d7fc" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="900c1b8a-2645-4225-ac93-d387237f3d90">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="7f8f113c-b1da-4eca-aead-205e5e897bb2" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="0312f424-bcb0-4d34-aad4-64a1f63eca85">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="dff8b3cf-f1d7-4166-b31c-50de64e24263" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="58d85eb3-1501-4964-a648-35fe4f076b1a">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="5d83f155-bbe4-4bbe-af46-6e505446894c" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="6cd390d6-697d-4829-bc05-ea31662ffe4e">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="3c2efed3-283c-4a87-baed-473704da731e" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="ce48e01d-f70b-46ba-b471-96fd53c869f4">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="1691cab0-c4f1-444c-bd5c-969c220023a1" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="0cbf9ae9-1760-4f87-89be-559b62ee193b">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="4add8cf9-ae8c-47a3-9515-63d28d76f450" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="00777364-8b56-4ec5-b5ce-b302f3f384a3">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="e52fdbab-3bd9-4315-8ce0-d71a2d86c25f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="8c3cc66a-acbb-4047-aad2-b06170ec7fb5">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="b9f39282-74f9-419d-8602-3485ecec1f1e" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="0fb6c9c4-9b89-43f6-af59-f9418f6871dd">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="35dd6f36-b4ac-44a1-ba76-61cf69946053" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="046063d5-e7e1-4d4b-9373-43a672fdf410">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="2c9101f6-48c2-4c05-91a9-493582066050" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="0d50e713-b7d3-4aab-9f4f-14712a6c8ac2">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="f41404fc-d507-4030-84e5-e5df004a0d78" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="2a34c11f-bee8-4fdd-bf7f-70ee7b49bc79">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="8b4d2f6b-c9c5-4603-a199-b6e3e25d4fea" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="78bceae1-1cc7-4e31-a232-24b38044c3d0">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="4535049d-ab01-4dc5-a1d5-125bdf172cc7" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="86ce651c-2637-4165-93b4-36535a700fbf">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="a9079b3c-c4b6-4433-970b-a53d8ad7de22" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="6c98a377-1b88-4eb8-801b-1f168641373b">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="b30f289b-82fb-4b4d-a356-1971ea26a58f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="80a78093-fc45-4db9-b74b-e1f9829f7b3c">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="ced8d121-ade6-4406-8ff5-af1d7c52618c" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="98f367d6-b09e-4406-aad9-d4b2cfc4b504">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="94d66f50-dde0-4751-9af0-2e002fc80ab7" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="7f6d7623-30b8-4319-9db1-e76cc5aa33ed">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="7560788c-e407-49a3-97a8-5f7402de8821" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1a618813-f50b-46a3-8a94-598d5394f491">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="46e85561-beac-4111-adee-00da7518b93b" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="58b3fe6b-140a-4b1e-a7af-33b95fd684a4">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="b95c009b-ec1e-44d6-b26e-ed118ba92fc6" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="09461dd2-eb0e-43f3-a701-786a1328a96e">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="9b7655d5-4284-4a12-9d93-d1e97970fbb3" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="b38ff933-a53a-4a49-b2bf-3228c3cd657a">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="a4863ab5-e3a7-4a3a-af5f-548c28b6f574" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="75a07288-2569-448c-bfd8-c66915fae9a8">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="5420b490-1741-4d33-a1f0-1dd28be4b590" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="ccadca4e-2fbd-4b28-8d92-f826f3019bd0">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="341d8798-7f37-42b4-adbb-7dd13c5047ff" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="9abefb3a-4c7f-4c93-bc46-883d2e85d910">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="1085d771-e41c-46ef-ae4c-98ce8254c67f">
+      <Keyword m="2014-09-23T13:06:01.4853515Z">Pokladničný predaj</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="131cc623-af7e-404b-a170-4ff471efeaea">
+      <Keyword m="2023-03-27T11:37:29.9412153Z">Pokladnica OBERON - postup pri predaji</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="d0b78313-7a71-4e92-a541-00a82ef89959">
+      <Keyword m="2024-07-08T12:13:27.1337559Z">Denná uzávierka - Pokladnica OBERON</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="de39aef1-ea66-44e3-8c3e-abe82481815e">
+      <Keyword m="2023-03-27T11:36:07.601809Z">Zóna udalostí - Pokladnica OBERON</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="d425560f-bc69-4941-a400-4941041df6ba">
+      <Keyword m="2023-03-27T11:42:21.8125702Z">Priamy predaj - Pokladnica OBERON</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="70560fa5-f8c2-41ce-abb0-456e5bf20c5f">
+      <Keyword m="2023-03-27T11:36:27.4210258Z">Pokladnica OBERON - praktické informácie k predaju</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="c56ad085-9f1b-4270-a565-e15d0f3771ea">
+      <Keyword m="2023-03-27T11:36:39.8307996Z">Vklady a výbery hotovosti - Pokladnica OBERON</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="c5815101-11b5-4fcd-8e50-74029b8c21dc">
+      <Keyword m="2023-03-27T11:43:14.3484828Z">Číslovanie pokladničných dokladov</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="f05366a3-23a2-44df-aa83-f5fa8488540f">
+      <Keyword m="2023-03-27T11:43:50.3683889Z">Tlačidlá pre každý typ platby</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="fdc2a11b-c585-4f5b-8d76-fde7fbc3c822">
+      <Keyword m="2023-03-27T11:44:20.4285884Z">Úhrada faktúry v hotovosti - Pokladnica OBERON</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="5ab998bf-1060-4418-a85a-e470d1bc2a8b">
+      <Keyword m="2023-03-27T11:44:37.4707856Z">Predaj s využitím čiarových kódov</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="46e466df-d4e5-4894-8a5b-04a9fcd54d13">
+      <Keyword m="2023-03-27T11:44:49.8323655Z">Použitie elektronických váh</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="4be498d9-f80a-4926-a0f5-835a6179d632">
+      <Keyword m="2023-03-27T11:45:19.1952725Z">Oprava položky - Pokladnica OBERON</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="f7ba4d05-0177-4e8c-b302-8cbde235e706">
+      <Keyword m="2024-11-29T09:21:42.4550994Z">Zvuková notifikácia - bližší výber skladovej karty</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="cac4a77f-409f-4cec-a5e6-369d0d4be35d">
+      <Keyword m="2024-12-02T07:57:08.1344512Z">Zaslanie pokladničného dokladu na e-mailovú adresu</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="d0693f48-caf2-4049-8036-a781de32f367">
+      <Keyword m="2024-12-02T07:57:21.0927621Z">E-mailová adresa - zaslanie pokladničného dokladu</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

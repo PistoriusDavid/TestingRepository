@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="c47b2846-a02e-4066-992b-cc976cd8a717" Status="Complete" CreatedOn="2014-09-04T15:54:39.85925Z" ModifiedOn="2023-07-13T08:46:35.3219859Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="DataBackup_Recovery" BuildFlags="">
+  <Title m="2014-09-04T15:55:26.5069181Z">Všeobecne o obnove údajov</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-07-13T08:46:35.3219859Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;obsahuje &lt;STRONG&gt;všeobecné informácie o&amp;nbsp;obnove zálohovaných údajov&lt;/STRONG&gt; v systéme OBERON.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Obnovou údajov rozumieme obnovenie práve spracúvaných alebo nedávno uložených údajov, ak došlo k ich poškodeniu, strate&amp;nbsp;alebo zničeniu, a to zo záložnej kópie údajov (zo záložného&amp;nbsp;média). 
+&lt;LI&gt;V&amp;nbsp;závislosti od použitého spôsobu zálohovania a použitého databázového systému existuje v&amp;nbsp;systéme OBERON niekoľko spôsobov obnovy zálohovaných údajov: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;obnova manuálne zálohovaných údajov súborovej databázy &lt;EM&gt;Microsoft Access&lt;/EM&gt;&lt;/STRONG&gt; - umožňuje&amp;nbsp; zo záložného súboru obnoviť manuálne zálohované údaje danej účtovnej jednotky (firmy).&amp;nbsp;Takúto obnovu je možné vykonať len pri databázach typu&amp;nbsp;&lt;A href="0b81f4ea-5e68-48c1-8b89-933d5a23d962"&gt;Microsoft Access&lt;/A&gt;. Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="013b3381-22b4-4b7a-9c95-d7d132f9751d"&gt;Obnova údajov&lt;/A&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;obnova automaticky zálohovaných údajov súborovej databázy &lt;EM&gt;Microsoft Access&lt;/EM&gt;&lt;/STRONG&gt; - obnova údajov z&amp;nbsp;&lt;A href="02dc0022-00b9-4102-be15-a4415d7e1abf"&gt;automatického zálohovania&lt;/A&gt;&amp;nbsp;(OAC) sa vykonáva manuálne. Na obnovu údajov je potrebné rozbaliť zálohovaný ZIP archív a databázu skopírovať do priečinka &lt;EM&gt;C:\OBERON\DATA_U.&lt;/EM&gt; Otvoriť rozbalenú zálohu je možné aj z&amp;nbsp;iného umiestnenia - v tom prípade je potrebné rozbalenú zálohu nalistovať vo&amp;nbsp;&lt;A href="d2b25c8c-d57f-4678-8021-3148259d3777"&gt;formulári Otvorenie agendy firmy&lt;/A&gt; (ponuka &lt;EM&gt;OBERON,&lt;/EM&gt; &lt;EM&gt;Otvorenie agendy (firmy)&lt;/EM&gt;, tlačidlo &lt;I&gt;Nalistovať&lt;/I&gt;.&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 
+&lt;LI&gt;&lt;STRONG&gt;obnova automaticky zálohovaných údajov &lt;EM&gt;SQL servera&lt;/EM&gt;&lt;/STRONG&gt; - obnova údajov z&amp;nbsp;&lt;A href="02dc0022-00b9-4102-be15-a4415d7e1abf"&gt;automatického zálohovania&lt;/A&gt; (OAC) sa vykonáva pomocou externých databázových nástrojov (&lt;EM&gt;MySQL Workbench, Heidi SQL, SQL Server Management Studio&lt;/EM&gt;). &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Vykonať&amp;nbsp;obnovu údajov môže len&amp;nbsp;používateľ, ktorý má na to &lt;STRONG&gt;oprávnenie&lt;/STRONG&gt; (ponuka &lt;I&gt;Servis&lt;/I&gt;, položka &lt;I&gt;Práva používateľov&lt;/I&gt;). Platí to pre obnovu&amp;nbsp;manuálne zálohovanej súborovej databázy &lt;EM&gt;Microsoft Access&lt;/EM&gt;. Pre obnovu SQL databázových&amp;nbsp;systémov &lt;STRONG&gt;to neplatí&lt;/STRONG&gt; z dôvodu použitia externých databázových nástrojov.&amp;nbsp;&amp;nbsp;&amp;nbsp; 
+&lt;LI&gt;Obnoviť údaje je možné aj&amp;nbsp;z pomerne starej záložnej kópie - rozdielna verzia programu pre obnovu nie je problém, automatickým vykonaním transformácie databázy sa stará záložná kópia údajov upraví na aktuálnu verziu. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt; 
+&lt;P&gt;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;Pri obnove údajov je potrebné&amp;nbsp;postupovať veľmi opatrne, pretože&amp;nbsp;sa pri nej údaje aktuálne spracovávanej firmy&amp;nbsp;&lt;/SPAN&gt;&lt;STRONG style="COLOR: rgb(255,0,0)"&gt;nevratne prepíšu&lt;/STRONG&gt;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;STRONG style="COLOR: rgb(255,0,0)"&gt;údajmi zo záložnej kópie&lt;/STRONG&gt;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;.&lt;/SPAN&gt; Pred obnovou údajov odporúčame vykonať&amp;nbsp;&lt;A href="493f5942-f267-4f98-a46d-8acc745b9b88"&gt;zálohovanie aktuálnych údajov&lt;/A&gt;.&amp;nbsp;V&amp;nbsp;prípade,&amp;nbsp;že obnovované údaje nie sú údajmi aktuálne otvorenej firmy (kontroluje sa názov databázy), program zobrazí hlásenie a&amp;nbsp;nedovolí pokračovať v obnove údajov.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="5b5c4530-0038-406e-94c4-69720c5ec97c" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="013b3381-22b4-4b7a-9c95-d7d132f9751d">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="e4cb4e08-3631-4d60-a929-2b0913878ece" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="493f5942-f267-4f98-a46d-8acc745b9b88">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="a565a015-9f1a-4c26-a211-ae9079a98d6b">
+      <Keyword m="2021-04-06T11:28:04.4933032Z">Obnova údajov - všeobecné informácie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="39ca0b95-8673-46bb-bcfe-a15b2b31b6d5">
+      <Keyword m="2022-02-01T10:21:11.225404Z">Obnova údajov automaticky zálohovaných údajov - Microsoft Access </Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="4ae341b0-906c-4f5e-a687-a317c0b84c48">
+      <Keyword m="2022-02-01T10:21:30.2641835Z">Obnova údajov automaticky zálohovaných údajov - SQL server</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

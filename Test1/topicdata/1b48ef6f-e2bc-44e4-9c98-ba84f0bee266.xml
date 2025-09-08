@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="1b48ef6f-e2bc-44e4-9c98-ba84f0bee266" Status="Complete" CreatedOn="2025-05-28T08:20:51.8690465Z" ModifiedOn="2025-06-10T09:06:00.9724454Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="22102" Name="Article_Passwords" BuildFlags="D8EEEC64-8D7C-4E22-962B-32BF6BBC5DF5,826B51BD-B6F0-4B2C-A814-029E169D018F">
+  <Title m="2025-05-28T08:25:55.2208986Z">Heslo je fuč, panika začína...</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2025-05-28T08:29:36.1520621Z">&lt;P&gt;Každý z nás sa s tým už asi stretol… Všetko ide hladko, keď zrazu nás obleje studený pot… Aké heslo to bolo…? Nasleduje chvíľka paniky, v ktorej vyskúšate všetky možné kombinácie – od dátumu narodenia až po meno mačky… 🙂 No nič nefunguje… Našťastie, tvorcovia OBERON-u myslia aj na takéto situácie a od aktuálnej verzie zapracovali do programu šikovné riešenia. Zabudnuté heslo už viac neznamená zbytočné telefonáty a prosby o pomoc – stačí pár kliknutí a heslo je bezpečne obnovené.&lt;/P&gt;
+&lt;H2&gt;Novinky v programe&lt;/H2&gt;
+&lt;P&gt;Verzia systému OBERON Apríl/2025 priniesla našim používateľom viacero zásadných noviniek ohľadom bezpečnosti práce s programom. Okrem možnosti Uložiť heslo, ktorá pribudla v prihlasovacom formulári používateľa po spustení programu, sa zmeny týkajú možností bezpečného resetovania používateľských hesiel, ako aj zistenia hesla do SQL servera.&lt;/P&gt;
+&lt;P&gt;Čo presne tieto nové funkcie programu znamenajú a ako môžu pomôcť pri práci s OBERON-om vám priblížime v tomto článku.&lt;/P&gt;
+&lt;H2&gt;Uloženie hesla&lt;/H2&gt;
+&lt;P&gt;Používateľské heslo v systéme OBERON slúži ako ochrana pred neoprávneným prístupom, čím výrazne prispieva k bezpečnosti a ochrane citlivých údajov. Jeho používanie však prináša aj určité riziko – v prípade, že ho používateľ zabudne, môže sa dočasne ocitnúť bez prístupu k programu. Aby sa predišlo takýmto nepríjemnostiam, tvorcovia softvéru implementovali funkciu na uloženie hesla, vďaka ktorej nie je pri nasledujúcom spustení OBERON-u potrebné zadávať heslo manuálne. Táto funkcia však vyžaduje opatrnosť – odporúča sa ju využívať iba v prípade, že používateľ nezdieľa počítač s inými osobami, aby sa zachovala maximálna úroveň bezpečnosti.&lt;/P&gt;
+&lt;H2&gt;Reset používateľského hesla&lt;/H2&gt;
+&lt;P&gt;Funkcia na reset používateľského hesla pribudla vo formulári na zmenu hesla používateľa. Po novom tak používateľ môže vykonať reset svojho hesla kedykoľvek aj bez potreby kontaktovať svojho správcu systému OBERON (používateľa s príznakom Admin) alebo linku nášho centra podpory. Pri resete hesla sa používateľovi zasiela e-mailová správa, ktorá obsahuje odkaz na reset hesla. Správa sa odosiela na e-mailovú adresu, ktorú má používateľ nastavenú vo formulári Používateľ, záložka Podrobnosti.&lt;/P&gt;
+&lt;P&gt;Z uvedeného dôvodu odporúčame skontrolovať, či máte danú e-mailovú adresu vo svojom používateľskom profile v programe zadanú.&lt;/P&gt;
+&lt;P&gt;Ak e-mailovú adresu nastavenú nemáte, program umožňuje odoslať správu s požiadavkou na reset hesla na portál EXALOGIC. Následne je potrebné telefonicky kontaktovať pracovníka centra podpory firmy EXALOGIC. Po overení vašej totožnosti bude možné vykonať reset hesla.&lt;/P&gt;
+&lt;P&gt;Samozrejme, reset (vymazanie) hesla používateľa možno vykonať aj v zozname používateľov ako doposiaľ – môže tak kedykoľvek vykonať správca systému OBERON.&lt;/P&gt;
+&lt;H2&gt;Ako postupovať pri resete používateľského hesla?&lt;/H2&gt;
+&lt;P&gt;Pri resete hesla postupujte podľa nasledujúceho návodu:&lt;/P&gt;
+&lt;OL&gt;
+&lt;LI&gt;Vo formulári Prihlásenie používateľa stlačte tlačidlo Zmeniť heslo.
+&lt;LI&gt;Následne kliknite na odkaz Zabudli ste heslo?
+&lt;LI&gt;Zrušenie hesla je možné po zaslaní požiadavky na zrušenie hesla, a to na e-mailovú adresu nastavenú vo formulári Používateľ, záložka Podrobnosti, prípadne ak nie je zadaná, na portál EXALOGIC. Na zaslanie požiadavky stlačte tlačidlo Zaslať požiadavku.
+&lt;LI&gt;V prípade, že požiadavka bola odoslaná na e-mailovú adresu, otvorte prijatú e-mailovú správu a potvrďte reset hesla. Ak bola požiadavka odoslaná na portál EXALOGIC, je potrebné telefonicky kontaktovať pracovníka podpory firmy EXALOGIC. Po overení vašej totožnosti bude možné vykonať reset hesla.&lt;/LI&gt;&lt;/OL&gt;
+&lt;P&gt;Zapracované funkcie pomôžu riešiť nielen prípady zabudnutého hesla, ale aj situácie, keď napr. pracovník firmy odišiel a nikto nepozná jeho heslo.&lt;/P&gt;
+&lt;H2&gt;Dve dôležité heslá&lt;/H2&gt;
+&lt;P&gt;Z používateľského hľadiska sú pri práci v systéme OBERON dôležité dve heslá: okrem používateľského, ktoré slúži na prihlásenie každého používateľa do programu, je to aj heslo do SQL servera v prípade, že daná účtovná jednotka používa SQL server.&lt;/P&gt;
+&lt;H2&gt;Zistenie hesla do SQL servera&lt;/H2&gt;
+&lt;P&gt;Okrem zmien v ukladaní a obnove používateľského hesla pribudla v programe aj vyššia ochrana hesla do SQL servera v počítači používateľa. Konkrétne bola zrušená možnosť zvoliť spôsob šifrovania hesla (bežná a vysoká bezpečnosť) a používa sa len vysoká bezpečnosť, t. j. prihlasovacie údaje sú v súbore zašifrované pomocou šifrovacieho kľúča závislého od hardvéru počítača. V praxi to znamená, že uvedený súbor nie je možné skopírovať do iného počítača a tam ho používať.&lt;/P&gt;
+&lt;P&gt;Ak potrebujete heslo do databázového servera (napr. z dôvodu výmeny počítača, nového požívateľa či na prístup servisného technika a pod.) a stratili ste ho, vo formulári Vytvorenie nového pripojenia pomocou kontextovej ponuky v poli Heslo možno zaslať dodávateľovi systému OBERON požiadavku na zistenie (zobrazenie) hesla (pozri Obrázok č. 3). Vyplňte nasledujúce údaje a po odoslaní požiadavky telefonicky kontaktujte centrum podpory EXALOGIC. Z hľadiska bezpečnosti sa heslo zobrazuje len používateľovi, nie pracovníkovi podpory. Táto služba môže byť spoplatnená podľa platného cenníka.&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;Ďalšie informácie získate v príslušných témach Pomocníka OBERON:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;A href="0c107d0c-e14f-4aa7-a954-d84b299ac5cb" style="auto-update-caption: true"&gt;Prihlásenie/Odhlásenie&lt;/A&gt;,
+&lt;LI&gt;&lt;A href="0b81f4ea-5e68-48c1-8b89-933d5a23d962" style="auto-update-caption: true"&gt;Databázové systémy&lt;/A&gt;.&lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="6de8d738-e744-4cf7-9f23-dea43813bed4" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="0c107d0c-e14f-4aa7-a954-d84b299ac5cb">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="00265d33-5a8e-451b-8036-d7f334e77653" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="0b81f4ea-5e68-48c1-8b89-933d5a23d962">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="803a5137-812e-4909-b83f-35d1b415d6b9">
+      <Keyword m="2021-07-02T12:52:00.7308263Z">Zatvorenie programu OBERON - Agenda firmy</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="94164c16-417b-44a8-93d4-d10003b9104b">
+      <Keyword m="2021-07-02T12:51:54.8818262Z">Ukončenie programu OBERON - Agenda firmy</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

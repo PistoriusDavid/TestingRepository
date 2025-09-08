@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="4b2b3447-f2f1-4bbe-9d21-3d87994bfba8" Status="Complete" CreatedOn="2018-11-29T13:31:13.9102398Z" ModifiedOn="2024-06-04T06:09:56.5015045Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="ExportImport_BranchMode_General" BuildFlags="">
+  <Title m="2018-11-29T13:31:44.2026573Z">Všeobecne o pobočkovom režime OBERON-u</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-06-04T06:09:56.5015045Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; je venovaná jednej z&amp;nbsp;&lt;A href="93f31314-1503-41b9-a8f1-f477de367a39"&gt;možností použitia systému OBERON&lt;/A&gt; - &lt;STRONG&gt;pobočkového režimu&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Vzhľadom na veľkosť&amp;nbsp;účtovnej jednotky z hľadiska počtu používaných počítačov, štruktúry prevádzky a výberu &lt;A href="0b81f4ea-5e68-48c1-8b89-933d5a23d962"&gt;databázového systému&lt;/A&gt; existuje niekoľko rôznych&amp;nbsp;variantov použitia systému OBERON. Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="93f31314-1503-41b9-a8f1-f477de367a39"&gt;Možnosti použitia systému OBERON&lt;/A&gt;. 
+&lt;LI&gt;Pobočkový režim predstavuje jednu z&amp;nbsp;možností použitia&amp;nbsp;systému OBERON. Ide o veľmi komplexný, spoľahlivý a mocný &lt;STRONG&gt;nástroj&amp;nbsp;na výmenu&amp;nbsp;dát&lt;/STRONG&gt;&amp;nbsp;&lt;STRONG&gt;medzi pobočkou, resp. viacerými pobočkami a&amp;nbsp;centrálou jednej firmy&lt;/STRONG&gt;. Umožňuje tak jednosmernú, ako aj obojsmernú komunikáciu. 
+&lt;LI&gt;Pobočkový režim dovoľuje pracovať prakticky na neobmedzenom počte navzájom&amp;nbsp;vzdialených miest v&amp;nbsp;tom istom čase a na jednom z&amp;nbsp;nich doklady sumarizovať. Túto vlastnosť využijú hlavne väčšie &lt;STRONG&gt;firmy s&amp;nbsp;centrálou a&amp;nbsp;viacerými pobočkami na vzdialených miestach, ktoré chcú pracovať s údajmi centrálne&lt;/STRONG&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;Pobočka&lt;/STRONG&gt; má &lt;STRONG&gt;samostatnú databázu a rovnaké IČO ako centrála&lt;/STRONG&gt;. Ide o fyzické pracovisko, ktoré je v OBERON-e označované termínom&amp;nbsp;&lt;A href="a833ee8a-1289-42b9-923f-80f549497702"&gt;prevádzka&lt;/A&gt;. Takouto prevádzkou je aj centrála. 
+&lt;LI&gt;Centrála aj každá pobočka musí mať zakúpenú vlastnú licenciu. Bližšie informácie o typoch licencií a cenníku získate v téme&amp;nbsp;&lt;A href="644b0685-defe-4ce5-b3cd-e731b5eff299"&gt;Typy licencií&lt;/A&gt;&amp;nbsp;a&amp;nbsp;v téme &lt;A href="efb93a2c-e449-4770-88ba-0fe999e90ccd"&gt;Cenník - licencie OBERON&lt;/A&gt;. 
+&lt;LI&gt;Typickým príkladom použitia pobočkového režimu je prevádzkovanie počítačovej registračnej pokladnice (&lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnica OBERON&lt;/A&gt;)&amp;nbsp;na&amp;nbsp;určitom predajnom mieste (napr. predajňa v obchodnom centre). Pokladnica čerpá skladové položky (cenník) z centrály a zároveň&amp;nbsp;sa evidencia skladu s cenotvorbou realizujú v&amp;nbsp;databáze centrály. Tak predané množstvá (&lt;A href="a4568b9d-f4ac-4d94-b56f-de3717381da7"&gt;pokladničné doklady&lt;/A&gt;), ako aj denné uzávierky z pokladnice (záznamy v&amp;nbsp;evidencii&amp;nbsp;&lt;A href="fd6a0f47-c326-43a2-8408-003cce805463"&gt;Kniha tržieb&lt;/A&gt;&amp;nbsp;) sa zasielajú&amp;nbsp;do centrály firmy. 
+&lt;LI&gt;Pobočkový režim môže byť prínosom aj pre drobného živnostníka, ktorý si necháva účtovníctvo spracovávať externe. V&amp;nbsp;tomto prípade centrálu predstavuje firma, ktorá mu vedie účtovníctvo, a pobočkou je jeho prevádzka, kde napríklad len vystavuje faktúry. 
+&lt;LI&gt;Systém OBERON umožňuje vykonávať aj jednorazové exporty a importy najčastejšie používaných evidencií (kníh),&amp;nbsp;ako sú&amp;nbsp;faktúry vydané a prijaté, objednávky, skladové karty, obchodní partneri, ako aj&amp;nbsp;&lt;A href="aecc92e6-f07c-418c-b1d1-e7794a78fd31"&gt;automatické exporty/importy údajov&lt;/A&gt;. Ďalšie informácie o exportoch a&amp;nbsp;importoch je možné získať v&amp;nbsp;téme&amp;nbsp;&lt;A href="5020b29b-b6e5-48bb-bfc6-800d68d5b8e9"&gt;Možnosti importu a exportu údajov v OBERON-e&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Spôsob komunikácie medzi pobočkou a centrálou&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Komunikácia medzi pobočkou a centrálou firmy sa môže&amp;nbsp;realizovať v dvoch technicky odlišných režimoch: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;&lt;A href="67abf56c-fe22-4bc8-ba77-6a8058a8782f"&gt;on-line pobočkový režim&lt;/A&gt;&lt;/STRONG&gt; - predstavuje automaticky vykonávanú &lt;STRONG&gt;výmenu&amp;nbsp;&lt;/STRONG&gt;&lt;STRONG&gt;údajov&lt;/STRONG&gt;&lt;STRONG&gt;&amp;nbsp;v reálnom čase&amp;nbsp;(on-line synchronizácia&amp;nbsp;údajov)&lt;/STRONG&gt;, keď&amp;nbsp;komunikácia medzi pobočkou&amp;nbsp;a centrálou prebieha s&amp;nbsp;oneskorením len niekoľkých desiatok sekúnd. Z tohto dôvodu tento variant&amp;nbsp;vyžaduje&amp;nbsp;stabilné internetové pripojenie, pričom prípadné občasné výpadky nespôsobia&amp;nbsp;výpadok pobočky (keďže pobočka používa samostatnú&amp;nbsp;databázu). 
+&lt;LI&gt;&lt;A href="797aaa39-ae1b-4f4c-bac5-88c9ac25f11d"&gt;&lt;STRONG&gt;off-line pobočkový režim&lt;/STRONG&gt;&lt;/A&gt; - komunikácia medzi pobočkou a centrálou spravidla prebieha na základe &lt;STRONG&gt;výmeny údajov&lt;/STRONG&gt; (spravidla vo forme &lt;STRONG&gt;samostatných dátových súborov&lt;/STRONG&gt;)&amp;nbsp;&lt;STRONG&gt;pomocou FTP serverov,&amp;nbsp;ľubovoľných prenosných médií, prípadne priameho prístupu do databázy&lt;/STRONG&gt; - v&amp;nbsp;OBERON-e v tomto prípade hovoríme&amp;nbsp;o&amp;nbsp;tzv.&amp;nbsp;&lt;A href="1dc4ea18-03c0-4028-afe5-4532583b6a44"&gt;off-line transportoch údajov&lt;/A&gt;. Používa sa vtedy,&amp;nbsp;keď pobočka nemá trvalé pripojenie k internetu, prípadne sú jeho rýchlosť alebo kvalita&amp;nbsp;nedostatočné. Ak&amp;nbsp;pobočka disponuje stabilným internetovým pripojením, odporúča sa uprednostniť&amp;nbsp;on-line pobočkový režim. &lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 1: Pobočkový režim s&amp;nbsp;on-line spôsobom komunikácie s databázou v cloude (vľavo) a s databázou v centrále (vpravo)&lt;/H5&gt;
+&lt;H5 align=left&gt;&lt;IMG border=0 alt="" src="images/OBERON/Basic/OBERON_Use_Option_6b.png"&gt;&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Basic/OBERON_Use_Option_7.png"&gt;&lt;/H5&gt;
+&lt;H5&gt;Obrázok č. 2: Pobočkový režim s&amp;nbsp;off-line spôsobom komunikácie (off-line transporty údajov)&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/OBERON/Basic/OBERON_Use_Option_6a.png"&gt;&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="9c984b51-f235-4eff-bec9-489b03c0d781" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="93f31314-1503-41b9-a8f1-f477de367a39">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="74a549cd-3d2d-46a3-9a52-ab5cd21c4e7b" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="67abf56c-fe22-4bc8-ba77-6a8058a8782f">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="47354833-c905-4f70-a2ae-71fc0b2a53c7" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="797aaa39-ae1b-4f4c-bac5-88c9ac25f11d">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="972f83c3-4b91-4522-9ce3-f4ba5fd833ef">
+      <Keyword m="2021-05-19T11:43:21.1899638Z">Pobočka - centrála</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="299ce801-0d7d-4764-8e16-dfc9fd654439">
+      <Keyword m="2022-12-15T09:40:42.65428Z">Pobočkový režim - všeobecné informácie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="18c06c13-213e-49f4-8474-1ab035c8691e">
+      <Keyword m="2022-12-15T09:40:35.8810864Z">Centrála - pobočka </Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="4d81e26f-af30-4035-a016-f04aeac032c3">
+      <Keyword m="2021-05-19T11:44:21.2145251Z">Pobočka - definícia</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

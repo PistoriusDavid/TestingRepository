@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="250ef843-0b84-4f66-bc92-230067d309d8" Status="Complete" CreatedOn="2014-09-08T10:47:32.3931911Z" ModifiedOn="2023-05-16T07:53:41.5040563Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="22706" Name="Menu_Hotel_CashRegister_Book" BuildFlags="">
+  <Title m="2014-09-08T10:48:02.2088965Z">Pokladničná kniha</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-05-16T07:53:41.5040563Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;je venovaná&amp;nbsp;položke&amp;nbsp;&lt;EM&gt;Pokladničná kniha&lt;/EM&gt;&amp;nbsp;v&amp;nbsp;ponuke&amp;nbsp;&lt;EM&gt;Hotel&lt;/EM&gt; programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Výberom položky sa otvorí&amp;nbsp;&lt;EM&gt;Pokladničná kniha&lt;/EM&gt;, ktorá predstavuje doplnkovú knihu modulu&amp;nbsp;&lt;A href="c3bd41f0-029e-4c74-b342-b0ffff647b6e"&gt;Hotelová recepcia&lt;/A&gt;. Pomocou pokladničnej knihy je &lt;STRONG&gt;možné evidovať príjmy a výdaje v&amp;nbsp;hotovosti&lt;/STRONG&gt;. 
+&lt;LI&gt;Zaevidovať úhradu pomocou manuálneho zápisu do pokladničnej knihy možno&amp;nbsp;&lt;STRONG&gt;vtedy, keď sa za ubytovanie platí ihneď pri nástupe na pobyt, a to v&amp;nbsp;hotovosti&lt;/STRONG&gt;. V prípade, že účtovná jednotka používa aj modul&amp;nbsp;&lt;A href="78d20602-4b59-4b31-9f0a-a04a1d376ec5"&gt;Skladová evidencia&lt;/A&gt;, &lt;STRONG style="COLOR: rgb(255,0,0)"&gt;úhrada sa namiesto pokladničnej knihy zaeviduje pomocou&amp;nbsp;&lt;/STRONG&gt;&lt;A href="a6f5e32d-6f1e-40bb-9d15-3f784a183252"&gt;Pokladnice OBERON&lt;/A&gt;. 
+&lt;LI&gt;V&amp;nbsp;prípade používania viacerých účtovných pokladní (napr. obsluha recepcie&amp;nbsp;používa jednu a prevádzkar druhú)&amp;nbsp;záznamy&amp;nbsp;v&amp;nbsp;pokladničnej knihe&amp;nbsp;možno zobraziť podľa príslušnosti&amp;nbsp;k účtovnej pokladni, a&amp;nbsp;to&amp;nbsp;ako podmnožiny&amp;nbsp;záznamov pokladničnej knihy.&amp;nbsp;Možno tak urobiť pomocou filtra&amp;nbsp;&lt;EM&gt;Pokladňa&lt;/EM&gt; v&amp;nbsp;hornej časti evidencie. Zoznam dostupných&amp;nbsp;pokladní&amp;nbsp;je možné v prípade potreby obmedziť pomocou&amp;nbsp;&lt;A href="834e9546-a56b-476f-9028-ef4c24a82345"&gt;používateľských práv&lt;/A&gt;, a tým odoprieť niektorým používateľom právo s&amp;nbsp;danou pokladňou pracovať. 
+&lt;LI&gt;Okrem evidencie ľubovoľných bežných príjmov a výdajov pokladničná kniha umožňuje zaevidovať úhradu ubytovania z&amp;nbsp;&lt;A href="0b9519ff-9438-422b-a3e8-358b628293e9"&gt;knihy ubytovaných&lt;/A&gt;&amp;nbsp;alebo úhradu otvoreného&amp;nbsp;&lt;A href="ffa5a889-7bfe-4165-ba83-15263eb77358"&gt;hotelového účtu&lt;/A&gt;. 
+&lt;LI&gt;&lt;I&gt;Pokladničná kniha&lt;/I&gt; umožňuje okrem tlače pokladničnej knihy aj tlač príjmových a výdajových pokladničných dokladov. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Pridať zápis do pokladničnej knihy&amp;nbsp;je možné&amp;nbsp;pomocou &lt;A href="be6740fb-9e90-4385-9537-27582dc4f26b"&gt;formulára Zápis v&amp;nbsp;pokladničnej knihe&lt;/A&gt;. Postup zaevidovania ubytovania je popísaný v téme &lt;A href="be6740fb-9e90-4385-9537-27582dc4f26b" style="auto-update-caption: true"&gt;Pridanie zápisu do pokladničnej knihy&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Ďalšie možnosti evidencie&lt;/H2&gt;
+&lt;P&gt;Ďalšie možnosti práce so záznamami&amp;nbsp;sú dostupné&amp;nbsp;po stlačení tlačidla &lt;EM&gt;Možnosti&lt;/EM&gt;, prípadne v&amp;nbsp;kontextovej ponuke tabuľky záznamov.&lt;/P&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Doklad schváliť (zrušiť schválenie)&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Funkcia umožňuje jednotlivé&amp;nbsp;záznamy schvaľovať (schválené a&amp;nbsp;neschválené záznamy sú farebne odlíšené). Schválený doklad nie je možné opraviť a ani vymazať. Schváliť doklad môže len iný&amp;nbsp;používateľ, ako ten, ktorý doklad vytvoril, s &lt;A href="834e9546-a56b-476f-9028-ef4c24a82345"&gt;právom&amp;nbsp;používateľa&lt;/A&gt; - &lt;I&gt;Pokladničná kniha - doklad schváliť (zrušiť schválenie)&lt;/I&gt;. Samozrejme, schválenie je možné aj zrušiť, a tak daný doklad opraviť. Zrušiť schválenie môže len&amp;nbsp;používateľ, ktorý doklad schválil. Vyžadovať schválenie dokladu je potrebné povoliť v&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="f0386fce-aa67-4fa4-a611-234d30fa9f82"&gt;oddiel Firma, Hotelová recepcia&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt; záložka &lt;EM&gt;Ostatné&lt;/EM&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Prečíslovanie pokladničných dokladov&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Otvorí sa sprievodca, pomocou ktorého je možné hromadne prečíslovať pokladničné doklady. Prečíslovanie pokladničných dokladov sa robí v prípade,&amp;nbsp;keď sa neúčtuje v chronologickom (časovom) slede, prípadne, keď sa doplní určitý &lt;EM&gt;zabudnutý&lt;/EM&gt; doklad. Pred samotným&amp;nbsp;začatím prečíslovania pokladničných dokladov odporúčame vytvoriť&amp;nbsp;&lt;A href="ee4036d9-55fd-40ee-ab76-69337f16b1cc"&gt;záložnú kópiu údajov&lt;/A&gt;,&amp;nbsp;keďže prečíslovanie dokladov je nevratný proces (nie je možný návrat späť k&amp;nbsp;pôvodným hodnotám).&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Zobraziť väzby dokumentu&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Systém OBERON udržiava medzi súvisiacimi záznamami v rôznych evidenciách väzby. Funkcia zostaví grafický prehľad väzieb daného záznamu, ktorý je zároveň interaktívny - kliknutím pravým tlačidlom myši je možné jednotlivé záznamy zobraziť, upraviť, resp. exportovať.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Bližšie informácie o ovládaní evidencie, používaní filtrov, triedení záznamov a pod. sú dostupné v téme&amp;nbsp;&lt;A href="8936fde4-aac3-4672-99a2-c8bd5ccffdcd"&gt;Ovládanie knihy (evidencie)&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="67ae95c7-ff26-417d-896c-e751a65dce22" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="2058071a-7c05-453f-976f-5b4cb142498d">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="9b316cf9-e289-4ec4-aa39-ce1b8660458e" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="be6740fb-9e90-4385-9537-27582dc4f26b">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="eabfca88-5948-4d14-b64b-d1d429698d55" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="79646e11-b21e-473c-a78b-7e0fb8b55c14">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="11b3d7aa-4f8e-49d3-8126-4e763fa94403">
+      <Keyword m="2022-05-10T12:25:42.7981Z">Prečíslovanie pokladničných dokladov - Hotelová recepcia</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="98021eab-d3a5-49b4-8f63-b23419336c88">
+      <Keyword m="2015-11-23T12:30:17.832289Z">Evidencia hotovosti v Hotelovej recepcii</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="c7d63fd7-13b1-42a4-9de0-3a156ae36459" Status="Complete" CreatedOn="2020-04-16T05:34:12.2636554Z" ModifiedOn="2023-12-18T08:43:30.8350347Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="21750" Name="Device_FiscalDevice_PANDORA_FirmwareUpdate" BuildFlags="">
+  <Title m="2020-04-16T05:36:04.2581716Z">Fiškálna tlačiareň eKasa PANDORA - aktualizácia firmvéru</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-12-18T08:43:30.8350347Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; popisuje&amp;nbsp;&lt;STRONG&gt;aktualizáciu (update) firmvéru&amp;nbsp;fiškálnej tlačiarne&lt;/STRONG&gt;&amp;nbsp;&lt;A href="00fa9619-a13d-4745-8938-cc0c2b5039ce"&gt;eKasa PANDORA&lt;/A&gt;&amp;nbsp;&lt;A href="1f32a90c-7b4a-4d69-9f38-a560178794b3" style="auto-update-caption: true"&gt;&lt;IMG border=0 alt="Odporúčané riešenia" src="images/OBERON/Basic/Odporucane-riesenie_ruka_ikona.png"&gt;&lt;/A&gt;, konkrétne jej chráneného dátového úložiska (&lt;EM&gt;eKasa PANDORA CHDÚ&lt;/EM&gt;).&lt;/P&gt;&lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt; 
+&lt;P&gt;Pred aktualizáciou odporúčame najskôr overiť aktuálne používanú verziu PPEKK a firmvéru&amp;nbsp;CHDÚ. Táto informácia&amp;nbsp;je dostupná v ponuke&amp;nbsp;ovládača&amp;nbsp;ECM &lt;EM&gt;eKasa, Informácie o zariadení&lt;/EM&gt; alebo aj priamo z&amp;nbsp;programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;&amp;nbsp;-&amp;nbsp;ponuka &lt;EM&gt;Servis, Zariadenia&lt;/EM&gt; (Obrázok č. 1).&amp;nbsp;V prípade, že je verzia firmvéru neaktuálna (z&amp;nbsp;dôvodu aktualizácie PPEKK), je&amp;nbsp;nutné pristúpiť k&amp;nbsp;jej aktualizácii.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H5&gt;Obrázok č. 1: Informácia o&amp;nbsp;aktuálne používanej&amp;nbsp;verzii firmvéru&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/CashRegisterECM/Device_ECM_Info.png"&gt;&amp;nbsp;&lt;/P&gt;
+&lt;H2&gt;Postup aktualizácie firmvéru&lt;/H2&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Aktualizáciu firmvéru je možné vykonať &lt;STRONG&gt;kedykoľvek&lt;/STRONG&gt; - pred aktualizáciou nie je potrebné&amp;nbsp;vykonať napr. dennú uzávierku.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;OL&gt;
+&lt;LI&gt;V prvom kroku&amp;nbsp;je potrebné nainštalovať najnovšiu verziu OBERON-u. Pri inštalácii sa aktualizuje tak&amp;nbsp;&lt;A href="cd5f4475-36be-4b51-83ca-c11c8cd12b7e"&gt;ECM&lt;/A&gt;, ako aj&amp;nbsp;&lt;A href="00fa9619-a13d-4745-8938-cc0c2b5039ce"&gt;eKasa PANDORA PPEKK&lt;/A&gt; (súbory v adresári \OBERON\eKasaECM). 
+&lt;LI&gt;V programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt; zvoľte ponuku &lt;EM&gt;Servis,&amp;nbsp;&lt;/EM&gt;&lt;A href="749ff4f1-eeb5-43f5-98d2-021399d8cec7"&gt;Zariadenia&lt;/A&gt;&lt;EM&gt;.&amp;nbsp;&lt;/EM&gt;Kliknite na nainštalované zariadenie&amp;nbsp;&lt;EM&gt;eKasa PANDORA&lt;/EM&gt; a stlačte tlačidlo &lt;I&gt;Upraviť.&lt;/I&gt; V&amp;nbsp;otvorenom formulári&amp;nbsp;stlačte tlačidlo &lt;EM&gt;Nastaviť zariadenie.&lt;/EM&gt; Otvorí sa&amp;nbsp;&lt;A href="3c20e547-e046-4644-87b3-c8979f7cbacc" style="auto-update-caption: true"&gt;Formulár Nastavenie - eKasa klient ECM&lt;/A&gt;,&amp;nbsp;v ktorom&amp;nbsp;v záložke &lt;EM&gt;Komunikácia&lt;/EM&gt; môžete skontrolovať verziu firmvéru (Obrázok č. 1). 
+&lt;LI&gt;Následne sa&amp;nbsp;na paneli úloh (vpravo dole) objaví ikona ovládača ECM. Kliknutím na ikonu otvorte ovládač ECM&amp;nbsp;(Obrázok č. 2).&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 
+&lt;H5&gt;Obrázok č. 2: Otvorenie ECM kliknutím na ikonu na paneli úloh &lt;EM&gt;Windows&lt;BR&gt;&lt;BR&gt;&lt;IMG border=0 alt="" src="images/CashRegisterECM/Device_ECM_Menu.PNG"&gt;&lt;/EM&gt;&lt;/H5&gt;
+&lt;LI&gt;V ovládači ECM vyberte ponuku &lt;EM&gt;Zobraziť ECM, Servis, Aktualizácia firmvéru&lt;/EM&gt;. Otvorí sa sprievodca, pomocou ktorého je možné vykonať samotnú aktualizáciu firmvéru fiškálnej tlačiarne, resp. chráneného dátového úložiska &lt;EM&gt;eKasa PANDORA CHDÚ.&lt;/EM&gt; 
+&lt;LI&gt;V ďalšom kroku vyberte jednu z možností &lt;EM&gt;Automaticky stiahnuť z internetu&lt;/EM&gt; alebo &lt;EM&gt;Načítať zo súboru&lt;/EM&gt;. Najjednoduchšie je vybrať&amp;nbsp;aktualizáciu z internetu. Stlačte tlačidlo &lt;EM&gt;Ďalej,&lt;/EM&gt; automaticky sa stiahne nový firmvér, následne sa zobrazí celkový prehľad o aktuálnom&amp;nbsp;stave firmvéru. 
+&lt;H5&gt;Obrázok č. 3: Sťahovanie firmvéru&lt;BR&gt;&lt;/H5&gt;&lt;IMG border=0 alt="" src="images/CashRegisterECM/Device_ECM_Actualization_Download.PNG"&gt; 
+&lt;LI&gt;Stlačte tlačidlo &lt;EM&gt;Dokončiť&lt;/EM&gt; - vykoná sa aktualizácia firmvéru, ktorá trvá približne 2 minúty. 
+&lt;LI&gt;Aktualizácia firmvéru je ukončená. 
+&lt;H5&gt;Obrázok č. 4: Úspešne ukončená aktualizácia firmvéru&lt;BR&gt;&lt;BR&gt;&lt;IMG border=0 alt="" src="images/CashRegisterECM/Device_ECM_ActualizationEnd.PNG"&gt;&lt;/H5&gt;&lt;/LI&gt;&lt;/OL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="6f794bb7-e4f6-4d18-b577-7ca5f6058508" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="00fa9619-a13d-4745-8938-cc0c2b5039ce">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="b3d1e6cb-f6f0-4106-b245-d7de3429fa83" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="a75ad602-f141-475d-afba-8d0f3dcf668a">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="71e8cad7-35c8-4224-b9dd-471f9452787d" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="2bb8914d-3e8f-417d-a083-b83300c24d66">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="4c537d33-3e2e-4992-8e64-26fb8c946a31" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="cd5f4475-36be-4b51-83ca-c11c8cd12b7e">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="1e9b165a-6f60-4a9e-80ee-02a97f308623">
+      <Keyword m="2020-04-16T07:50:06.983775Z">eKasa PANDORA - aktualizácia firmvéru</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="a5af376b-df2d-4f7b-a55f-fe5b2e722194">
+      <Keyword m="2021-04-07T11:15:55.784664Z">Aktualizácia firmvéru eKasa PANDORA</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="924b74d6-1fc5-46e8-b569-41636507e6df">
+      <Keyword m="2021-04-07T11:16:37.6639203Z">Firmvér eKasa PANDORA - aktualizácia</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="ab9f00f4-75b6-47f9-a91d-481875f8f810">
+      <Keyword m="2021-05-12T09:30:00.8569426Z">PANDORA - aktualizácia firmvéru</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

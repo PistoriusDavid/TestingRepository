@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="b7531e2b-4bd6-4a46-a7e2-fd94bbc64325" Status="Complete" CreatedOn="2021-01-04T14:38:11.9028628Z" ModifiedOn="2024-10-23T11:13:53.0156554Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="22360" Name="Menu_Firm_Pref_BusinessPartners_Groups" BuildFlags="">
+  <Title m="2021-01-04T14:39:17.6568179Z">Skupiny obchodných partnerov</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-10-23T11:13:53.0156554Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;je venovaná&amp;nbsp;položke&amp;nbsp;&lt;EM&gt;Skupiny obchodných partnerov&lt;/EM&gt;&amp;nbsp;v ponuke&amp;nbsp;&lt;EM&gt;Firma, Predvoľby&lt;/EM&gt;&amp;nbsp;programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Výberom položky&amp;nbsp;&lt;EM&gt;Skupiny obchodných partnerov&lt;/EM&gt;&amp;nbsp;sa otvorí&amp;nbsp;číselník &lt;EM&gt;Zoznam skupín obchodných partnerov&lt;/EM&gt;,&amp;nbsp;v&amp;nbsp;ktorom je možné &lt;STRONG&gt;definovať skupiny obchodných partnerov&lt;/STRONG&gt; na následné zaraďovanie &lt;A href="b7a48886-b367-4056-808a-59ba5f871f32"&gt;obchodných partnerov&lt;/A&gt; v&amp;nbsp;systéme OBERON do&amp;nbsp;týchto skupín (napr.&amp;nbsp;&lt;EM&gt;Dodávatelia,&lt;/EM&gt; &lt;EM&gt;Odberatelia, Zmluvní partneri&lt;/EM&gt;&amp;nbsp;a pod.). 
+&lt;LI&gt;Skupiny obchodných partnerov si môže každá účtovná jednotka&amp;nbsp; definovať&amp;nbsp;ľubovoľne.&amp;nbsp;Obchodný partner môže byť zaradený do jednej&lt;EM&gt;,&lt;/EM&gt; prípadne viacerých skupín. 
+&lt;LI&gt;Obchodný partner sa do danej skupiny zaraďuje vo&amp;nbsp;&lt;A href="4fbe9db8-25bc-420f-aee5-228d0a8ff03f"&gt;formulári Obchodný partner&lt;/A&gt;, záložka &lt;EM&gt;Skupiny&lt;/EM&gt;, tlačidlo &lt;EM&gt;Pridať alebo odobrať&lt;/EM&gt;&amp;nbsp;(ponuka &lt;EM&gt;Firma,&amp;nbsp;&lt;/EM&gt;&lt;A href="b7a48886-b367-4056-808a-59ba5f871f32"&gt;Obchodní partneri&lt;/A&gt;). Tu je tiež možné jednotlivé skupiny definovať, a to stlačením tlačidiel &lt;EM&gt;Upraviť&lt;/EM&gt; a&amp;nbsp;následne&amp;nbsp;&lt;EM&gt;Nový&lt;/EM&gt; - otvorí sa formulár &lt;EM&gt;Obchodní partneri - skupina&lt;/EM&gt;. 
+&lt;LI&gt;Skupiny sa najčastejšie&amp;nbsp;používajú&lt;STRONG&gt;&amp;nbsp;na&lt;/STRONG&gt; &lt;STRONG&gt;filtrovanie&amp;nbsp;obchodných partnerov&lt;/STRONG&gt;, t.&amp;nbsp;j. výber len určitej skupiny, napr.&amp;nbsp;na zaslanie&amp;nbsp;&lt;A href="04e52362-d0f3-4a9a-8ec5-36ef724a7ee2"&gt;hromadnej e-mailovej správy&lt;/A&gt;, prípadne sa používajú&amp;nbsp;&lt;STRONG&gt;na členenie v&amp;nbsp;tlačových výstupoch&lt;/STRONG&gt;. 
+&lt;LI&gt;Skupiny obchodných partnerov je možné využiť&amp;nbsp;aj v&amp;nbsp;&lt;A href="34f91c11-1a5d-4773-ac4e-48ad2fc859d3"&gt;rozšírenej cenotvorbe&lt;/A&gt;&amp;nbsp;- tam možno nastaviť,&amp;nbsp;aby sa&lt;STRONG&gt;&amp;nbsp;pravidlo rozšírenej cenotvorby&lt;/STRONG&gt; (napr. zľava, použitie inej cenovej hladiny a pod.) použilo len&amp;nbsp;pri konkrétnej skupine&amp;nbsp;obchodných partnerov. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Cenotvorba podľa výšky obratu&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Špecialitou sú skupiny, ku ktorým môže systém OBERON priraďovať obchodného partnera (resp. dané priradenie aktualizovať) automaticky, a to &lt;STRONG&gt;na základe výšky obratu obchodného partnera&lt;/STRONG&gt;. Partnerom s&amp;nbsp;vyšším obratom je následne možné poskytnúť výhodnejšie ceny. Pri definovaní takejto skupiny je okrem základných nastavení potrebné&amp;nbsp;stanoviť aj&amp;nbsp;&lt;STRONG&gt;rozsah obratu (od - do) a&amp;nbsp;obdobie, za ktoré sa bude tento obrat posudzovať&lt;/STRONG&gt;. Po zadefinovaní skupín s obratmi je ďalej potrebné nadefinovať&amp;nbsp;&lt;A href="34f91c11-1a5d-4773-ac4e-48ad2fc859d3"&gt;pravidlá rozšírenej cenotvorby&lt;/A&gt;, ktoré sa pri týchto skupinách majú uplatniť. 
+&lt;LI&gt;Priradiť obchodného partnera do určitej skupiny podľa výšky jeho obratu je možné&amp;nbsp;pomocou funkcie &lt;EM&gt;&lt;STRONG&gt;Automatické priradenie skupín podľa obratov (prepočet)&lt;/STRONG&gt;&lt;/EM&gt; v&amp;nbsp;evidencii&amp;nbsp;&lt;A href="b7a48886-b367-4056-808a-59ba5f871f32"&gt;Obchodní partneri&lt;/A&gt;&amp;nbsp;(tlačidlo &lt;EM&gt;Možnosti&lt;/EM&gt;). Odporúčame však použiť&amp;nbsp;&lt;A href="9ce25bbd-35d1-4096-acd5-70007f5af5a6"&gt;automatickú úlohu&lt;/A&gt;&amp;nbsp;&lt;EM&gt;&lt;STRONG&gt;Aktualizácia skupín obchodných partnerov podľa obratu&lt;/STRONG&gt;&lt;/EM&gt;, kde sa prepočet obratov môže vykonávať pravidelne a automaticky&amp;nbsp;bez zásahu používateľa. 
+&lt;LI&gt;Pri výpočte obratu sa pracuje &lt;STRONG&gt;s cenami s DPH&lt;/STRONG&gt;.&amp;nbsp;Do obratu sú zahrnuté predaje z evidencie faktúr (&lt;A href="5c21adcc-87c8-44e7-981d-02902635693d"&gt;knihy pohľadávok&lt;/A&gt;), pokladničného predaja a&amp;nbsp;&lt;A href="04d04395-7b97-45db-bdb1-4e36240a4b54"&gt;transakcií vernostného systému&lt;/A&gt;. Faktúry&amp;nbsp;sa vyhľadávajú podľa čísla IČO, prípadne podľa e-mailu (to je dôležité pri internetových obchodoch a&amp;nbsp;zákazníkoch nepodnikateľoch). Pri&amp;nbsp;&lt;A href="6c98a377-1b88-4eb8-801b-1f168641373b"&gt;vernostnom systéme&lt;/A&gt; musí byť u obchodného partnera zadané číslo vernostnej karty. Ak zákazník používa vernostnú kartu, do výpočtu &lt;STRONG&gt;sú zahrnuté transakcie vernostného systému, avšak bez pokladničného predaja&lt;/STRONG&gt; - dôvodom je riziko, že by sa obrat mohol&amp;nbsp;započítať dvakrát. 
+&lt;LI&gt;Cenotvorbu podľa výšky obratu je možné využiť aj v internetovom obchode&amp;nbsp;&lt;A href="7437cbeb-c6d1-4b19-92ee-150ba8e4097f"&gt;PrestaShop&lt;/A&gt; - použitím skupín&amp;nbsp;je možné docieliť, že zákazník (alebo veľkoobchodný partner)&amp;nbsp;môže daný tovar nakúpiť napr. s určitou zľavou. Predpokladom, samozrejme,&amp;nbsp;je, že sa zákazník v internetovom obchode zaregistruje a pri nákupe sa doň prihlási. 
+&lt;LI&gt;Obraty obchodných partnerov&amp;nbsp;je možné skontrolovať v tlačovom výstupe &lt;EM&gt;Obraty obchodných partnerov (zákazníkov&lt;/EM&gt;). &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;V systéme OBERON&amp;nbsp;je automatická úloha&amp;nbsp;&lt;EM&gt;&lt;STRONG&gt;Aktualizácia skupín obchodných partnerov podľa obratu&lt;/STRONG&gt;&lt;/EM&gt; z dôvodu kompatibility stále&amp;nbsp;vykonávaná aj v&amp;nbsp;staršom programe &lt;EM&gt;OBERON Center&lt;/EM&gt;, avšak&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;&amp;nbsp;s obmedzenou platnosťou&lt;/SPAN&gt;.&amp;nbsp;Z tohto dôvodu je potrebné automatickú úlohu konfigurovať v&amp;nbsp;programe&amp;nbsp;&lt;A href="09f3dae9-2fb7-490f-97dc-37f60885b398"&gt;OBERON Automation Center&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Popis formulára &lt;EM&gt;Obchodní partneri - skupina&lt;/EM&gt;&lt;/H2&gt;
+&lt;P&gt;&lt;STRONG&gt;Názov&lt;/STRONG&gt; - uvádza sa pomenovanie (názov) skupiny.&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;Automaticky priraďovať podľa výšky obratu&lt;/STRONG&gt; - ak je pole zaškrtnuté, ide o špeciálnu skupinu, ktorú bude systém OBERON automaticky priraďovať k obchodným partnerom, a to podľa výšky obratu.&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;Rozsah obratu&amp;nbsp;&lt;/STRONG&gt;- zadáva sa rozsah obratu s DPH.&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;Obrat za obdobie&lt;/STRONG&gt; - obdobie, za ktoré sa bude výška obratu posudzovať, napr. dni, mesiace, kalendárne roky.&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;&amp;nbsp;&amp;nbsp; - Počet dní&lt;/STRONG&gt; - bude sa posudzovať obrat od aktuálneho dátumu a zadaný počet dní spätne.&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;&amp;nbsp;&amp;nbsp; - Počet mesiacov&lt;/STRONG&gt; - bude sa posudzovať obrat od aktuálneho dátumu a zadaný počet mesiacov spätne. Obrat v najstaršom&amp;nbsp;mesiaci sa bude posudzovať od 1. dňa daného mesiaca.&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;&amp;nbsp;&amp;nbsp; - Počet rokov&lt;/STRONG&gt; - bude sa posudzovať obrat od aktuálneho dátumu a zadaný počet kalendárnych rokov spätne.&amp;nbsp;Obrat v najstaršom roku sa&amp;nbsp;bude posudzovať od 1.1. daného roka.&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="2a57962c-2994-4752-85c1-805e00d758af" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="b7a48886-b367-4056-808a-59ba5f871f32">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="ec77dbd2-980e-465e-9efb-b46fdcb16251" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="4fbe9db8-25bc-420f-aee5-228d0a8ff03f">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="66f963f1-5982-41f9-8287-3d62140cc918" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="34f91c11-1a5d-4773-ac4e-48ad2fc859d3">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="e969cb63-0a77-4085-a118-4e08fca401a4">
+      <Keyword m="2022-01-19T09:17:24.7470275Z">Rozšírená cenotvorba podľa obratov obchodných partnerov</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="315b4d10-1860-42c0-8732-81b5608f7a02">
+      <Keyword m="2022-01-19T09:18:44.3412826Z">Zľavy podľa obratov obchodných partnerov</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="02272450-8487-4e85-8aee-40e39c841686">
+      <Keyword m="2022-01-19T09:16:48.8777696Z">Obrat a zľavy - skupiny obchodných partnerov</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="929c5e02-0da1-45b7-9295-520bca3da9f3">
+      <Keyword m="2022-01-19T09:18:04.576929Z">Cenotvorba podľa výšky obratu obchodného partnera</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

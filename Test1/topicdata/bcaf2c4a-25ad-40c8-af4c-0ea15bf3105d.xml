@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="bcaf2c4a-25ad-40c8-af4c-0ea15bf3105d" Status="Complete" CreatedOn="2016-08-24T05:24:32.0622881Z" ModifiedOn="2022-11-21T12:53:38.2258489Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="OBERON_PaymentOrder_Variable_Symbols" BuildFlags="">
+  <Title m="2016-08-24T05:25:57.8128184Z">Variabilné symboly v OBERON-e</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2022-11-21T12:48:30.6032692Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; je venovaná &lt;STRONG&gt;problematike používania všeobecných variabilných a&amp;nbsp;špecifických symbolov&lt;/STRONG&gt; v&amp;nbsp;systéme OBERON.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Pri tvorbe&amp;nbsp;&lt;A href="1288dcf2-9f76-4fc6-941a-1d03361bf937"&gt;príkazov na úhradu&lt;/A&gt;&amp;nbsp;v&amp;nbsp;systéme OBERON&amp;nbsp;možno používať aj všeobecné variabilné a špecifické symboly. To znamená, že do poľa variabilný (špecifický) symbol možno okrem konkrétnych číselných znakov zadať aj znaky, ktoré bude program interpretovať v&amp;nbsp;závislosti od aktuálneho dátumu alebo spracovávaného obdobia, resp. ich vzájomných kombinácií. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Všeobecné variabilné symboly a&amp;nbsp;ich kombinácie&lt;/H2&gt;
+&lt;TABLE style="HEIGHT: 222px; WIDTH: 512px; BORDER-COLLAPSE: collapse" width=512 border=0&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TD width=162 align=left&gt;&lt;B&gt;Symbol&lt;/B&gt;&lt;/TD&gt;
+&lt;TD width="84%"&gt;&lt;B&gt;Popis&lt;/B&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=162 align=left&gt;DD&lt;/TD&gt;
+&lt;TD width="84%"&gt;Deň aktuálneho dátumu v&amp;nbsp;počítači&amp;nbsp;pri tlači príkazu (dopĺňa sa úvodnou nulou)&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=162 align=left&gt;MM&lt;/TD&gt;
+&lt;TD width="84%"&gt;Mesiac aktuálneho dátumu v&amp;nbsp;počítači (dopĺňa sa úvodnou nulou)&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=162 align=left&gt;RR&lt;/TD&gt;
+&lt;TD width="84%"&gt;Rok aktuálneho dátumu v&amp;nbsp;počítači (bez milénia)&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=162 align=left&gt;RRRR&lt;/TD&gt;
+&lt;TD width="84%"&gt;Rok aktuálneho dátumu v&amp;nbsp;počítači &lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=162 align=left&gt;mm&lt;/TD&gt;
+&lt;TD width="84%"&gt;Mesiac&amp;nbsp;aktuálneho&amp;nbsp;spracovávaného obdobia v module&amp;nbsp;&lt;A href="bf009605-0be8-4286-8ef5-4c7d3b89143a"&gt;Mzdy&lt;/A&gt;&amp;nbsp;(dopĺňa sa úvodnou nulou)&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=162 align=left&gt;rr&lt;/TD&gt;
+&lt;TD width="84%"&gt;Rok aktuálne spracovávaného obdobia (bez milénia)&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=162 align=left&gt;rrrr&lt;/TD&gt;
+&lt;TD width="84%"&gt;Rok aktuálne spracovávaného obdobia&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;
+&lt;P&gt;&lt;/P&gt;
+&lt;H3&gt;Príklady&lt;/H3&gt;
+&lt;P&gt;Predpokladajme aktuálny dátum 24.08.2023 (prípadne dátum&amp;nbsp;vykonania príkazu&amp;nbsp;na&amp;nbsp;úhradu)&lt;BR&gt;a spracovávané obdobie miezd 07/2023.&lt;/P&gt;
+&lt;TABLE style="HEIGHT: 140px; WIDTH: 512px" width=512 border=0&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TD width=263&gt;&lt;B&gt;zadalo sa&lt;/B&gt;&lt;/TD&gt;
+&lt;TD width="64%"&gt;&lt;B&gt;bude sa tlačiť&lt;/B&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=263&gt;DDMMRRRR&lt;/TD&gt;
+&lt;TD width="64%"&gt;24082023&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=263&gt;RRRRMM&lt;/TD&gt;
+&lt;TD width="64%"&gt;202308&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=263&gt;RRRRMM+1&lt;/TD&gt;
+&lt;TD width="64%"&gt;202309&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=263&gt;RRRRMM-1&lt;/TD&gt;
+&lt;TD width="64%"&gt;202307&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=263&gt;MMRRRR&lt;/TD&gt;
+&lt;TD width="64%"&gt;082023&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=263&gt;MM+1RRRR&lt;/TD&gt;
+&lt;TD width="64%"&gt;092023&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=263&gt;rrrrmm&lt;/TD&gt;
+&lt;TD width="64%"&gt;202307&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=263&gt;rrrrmm+1&lt;/TD&gt;
+&lt;TD width="64%"&gt;202308&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=263&gt;rrrrmm-1&lt;/TD&gt;
+&lt;TD width="64%"&gt;202306&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=263&gt;mmrrrr&lt;/TD&gt;
+&lt;TD width="64%"&gt;072023&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=263&gt;mm+1rrrr&lt;/TD&gt;
+&lt;TD width="64%"&gt;082023&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="8a025f59-f1bd-4e0d-a11e-4ff76e53c7a0" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1288dcf2-9f76-4fc6-941a-1d03361bf937">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="7f5c9bd4-7c64-4eba-b3dc-3bbb59b3ba01" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="81a7aa22-db03-4095-8a7c-3e7436fee8c6">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="f360c94b-3ca8-4a65-af06-d3cfb13b97a9" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="acc728e4-c64c-4915-9bfc-5d74158cca39">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="8880cc7e-8c7c-4109-a5c1-9dbc18c45691">
+      <Keyword m="2022-11-21T12:42:59.9483602Z">Špecifický symbol - príkazy na úhradu</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="57dcd42c-daf2-4738-906a-1c7e12ec2fea">
+      <Keyword m="2022-11-21T12:43:08.3014661Z">Variabilný symbol - príkazy na úhradu</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="b0861ff4-5d1f-43f0-941b-d34af8222eb3">
+      <Keyword m="2022-11-21T12:43:13.8141953Z">Symboly platieb - príkazy na úhradu</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

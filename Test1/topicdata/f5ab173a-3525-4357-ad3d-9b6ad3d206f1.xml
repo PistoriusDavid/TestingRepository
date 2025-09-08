@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="f5ab173a-3525-4357-ad3d-9b6ad3d206f1" Status="Complete" CreatedOn="2015-02-10T12:31:03.0664062Z" ModifiedOn="2023-03-28T13:14:07.4446701Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="80135" Name="Form_CashRegister_ChangePrice" BuildFlags="">
+  <Title m="2015-02-10T12:33:41.8164062Z">Sprievodca Precenenie dokladu</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-03-28T13:07:20.0233915Z">&lt;P&gt;Sprievodca&amp;nbsp;&lt;EM&gt;Precenenie dokladu&lt;/EM&gt;&amp;nbsp;predstavuje vlastne dvoch sprievodcov: &lt;EM&gt;Precenenie dokladu&lt;/EM&gt; a &lt;EM&gt;Precenenie dokladu (zmena ceny)&lt;/EM&gt;. Oba umožňujú rôzny spôsob precenenia dokladu. V prvom prípade sa pri precenení vychádza &lt;STRONG&gt;zo súm uvedených v doklade&lt;/STRONG&gt;, v&amp;nbsp;druhom prípade sa suma dokladu precení &lt;STRONG&gt;podľa cien uvedených na skladových kartách&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;P&gt;Sprievodca&amp;nbsp;&lt;EM&gt;Precenenie dokladu&lt;/EM&gt; je dostupný z&amp;nbsp;programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;ponuka &lt;EM&gt;Sklad&lt;/EM&gt;,&amp;nbsp;&lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnica OBERON&lt;/A&gt;, tlačidlo &lt;EM&gt;Precenenie dokladu (Ctrl+F7)&lt;/EM&gt;, 
+&lt;LI&gt;v dokladových formulároch (pohľadávka, záväzok, prijatá objednávka...) po stlačení tlačidla &lt;EM&gt;Možnosti - Precenenie dokladu.&lt;/EM&gt; &lt;/LI&gt;&lt;/UL&gt;
+&lt;P&gt;Sprievodca&amp;nbsp;&lt;EM&gt;Precenenie dokladu (zmena ceny)&lt;/EM&gt;&amp;nbsp;je dostupný z&amp;nbsp;programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;ponuka &lt;EM&gt;Sklad&lt;/EM&gt;,&amp;nbsp;&lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnica OBERON&lt;/A&gt;, tlačidlo&amp;nbsp;&lt;EM&gt;Zmena ceny (Ctrl+Shift+F7)&lt;/EM&gt;, 
+&lt;LI&gt;v dokladových formulároch (pohľadávka, záväzok, prijatá objednávka...) po stlačení tlačidla &lt;EM&gt;Možnosti - Precenenie dokladu (zmena ceny).&lt;/EM&gt;&amp;nbsp; &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Popis sprievodcu&amp;nbsp;&lt;EM&gt;Precenenie dokladu&lt;/EM&gt;&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Preceniť o percento&lt;/STRONG&gt; - celková suma dokladu sa zvýši (zníži) o zadanú percentuálnu hodnotu z celkovej sumy dokladu. Suma jednotlivých položiek sa alikvótne prepočíta&amp;nbsp;o dané percento&amp;nbsp;tak, aby sa dosiahla požadovaná celková suma dokladu. Pri zadaní kladnej hodnoty (napr. +20) sa suma dokladu zvýši,&amp;nbsp;pri zadaní zápornej hodnoty&amp;nbsp;(napr. -20) sa suma dokladu zníži. 
+&lt;LI&gt;&lt;STRONG&gt;Preceniť o sumu&lt;/STRONG&gt; - celková suma dokladu sa zvýši (zníži) o zadanú hodnotu v €. Suma jednotlivých položiek sa alikvótne prepočíta&amp;nbsp;o danú hodnotu tak, aby sa dosiahla požadovaná celková suma dokladu. Pri zadaní kladnej hodnoty (napr. +20) sa suma dokladu zvýši,&amp;nbsp;pri zadaní zápornej hodnoty&amp;nbsp;(napr. -20) sa suma dokladu zníži. 
+&lt;LI&gt;&lt;STRONG&gt;Upraviť zľavu&lt;/STRONG&gt; -&amp;nbsp;upraví výšku zľavy na jednotlivých položkách dokladu o&amp;nbsp;zadanú hodnotu, pričom&amp;nbsp;položky bez zľavy sa ponechajú bez zmeny. Pri zadaní kladnej hodnoty (napr. +20) sa suma dokladu zvýši,&amp;nbsp;pri zadaní zápornej hodnoty&amp;nbsp;(napr. -20) sa suma dokladu zníži. 
+&lt;LI&gt;&lt;STRONG&gt;Nepreceniť (len vynulovať zľavu)&lt;/STRONG&gt; - celková suma dokladu zostane ako po zľave, z&amp;nbsp;položiek sa len odstránia (vynulujú) údaje o zľave. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Popis sprievodcu&amp;nbsp;&lt;EM&gt;Precenenie dokladu (zmena ceny)&lt;/EM&gt;&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Navýšenie z obstarávacích cien&lt;/STRONG&gt; - celková suma dokladu sa zvýši o percentuálnu hodnotu navýšenia z&amp;nbsp;obstarávacích cien&amp;nbsp;položiek dokladu. 
+&lt;LI&gt;&lt;STRONG&gt;Navýšenie z posledných nákupných cien&lt;/STRONG&gt; - celková suma dokladu sa zvýši o percentuálnu hodnotu navýšenia z&amp;nbsp;posledných nákupných&amp;nbsp;cien položiek dokladu. 
+&lt;LI&gt;&lt;STRONG&gt;Použiť inú cenovú hladinu&lt;/STRONG&gt; -&amp;nbsp;pri precenení celkovej sumy dokladu sa použijú predajné ceny inej cenovej hladiny podľa výberu. 
+&lt;LI&gt;&lt;STRONG&gt;Použiť inú cenovú hladinu (aj rozšírenú cenotvorbu)&lt;/STRONG&gt; - pri precenení celkovej sumy dokladu sa použijú predajné ceny inej cenovej hladiny podľa výberu, pričom sa zohľadnia aj platné &lt;A href="34f91c11-1a5d-4773-ac4e-48ad2fc859d3"&gt;pravidlá rozšírenej cenotvorby&lt;/A&gt;, napr. môžu sa uplatniť rôzne zmluvné ceny, predajné akcie a pod. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget layout="block" type="Note Box"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt; 
+&lt;P&gt;Informácie o precenení (použitej cenovej hladine, navýšení a pod.) sa zobrazujú v &lt;A href="1dce6bce-8c7d-443a-b0f9-14ec18f3c9a0"&gt;zóne udalostí&lt;/A&gt;. Precenenie dokladu sa&amp;nbsp;automaticky zaznamenáva do &lt;A href="bc30e126-afb5-41aa-a261-e92501038063"&gt;Sledovania činností&lt;/A&gt;.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="ffb212c5-6550-48f0-b95d-83ae7746ecca" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="69bbd499-45c0-4b0f-8f7a-c53fa5d70c1b">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="f039e972-c036-4823-938c-9a1b273fc526" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1a33ab0b-2df7-4dc2-962b-8a3319c16831">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="ef857919-c324-45be-99c0-647068dc12df" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="34f91c11-1a5d-4773-ac4e-48ad2fc859d3">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="f54bf958-3bdd-4f8e-bd03-3e7712fc2cc1" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="68022ee5-d91a-4a1d-960b-c5de57414b6f">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="8e252fa5-3b3a-4ae3-bb86-e1c01e842be9" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="a7aeeeec-b6b6-45c5-b3d0-fe4f13937945">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="ecf13fa1-8e7f-4a2c-86c2-f54e8a765f7c" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="6712889d-bea7-4ae7-859d-82b809c7bdcc">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="1c55eea5-ff7a-49e1-b9e9-468df4221a3f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="e5d60ce3-8ad2-43f2-b60d-08c773376f5b">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="31b916ae-4fa6-48b1-8c41-c621993494cb" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="062891b1-9360-4c09-9c7b-9474a28e7849">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="703e5a08-0332-45cc-91b1-21f48c881f17">
+      <Keyword m="2023-03-28T13:13:58.7799605Z">Precenenie dokladu - formulár</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="6fa4a0fe-fbd9-40f1-a98d-a03d7fc3b02a">
+      <Keyword m="2023-03-28T13:14:07.4436702Z">Zmena ceny na doklade - formulár</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="09461dd2-eb0e-43f3-a701-786a1328a96e" Status="Complete" CreatedOn="2017-05-23T06:14:27.4573522Z" ModifiedOn="2023-03-13T14:04:17.6687993Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="CashRegister_Started_Print_Notepad_OnCashRegister" BuildFlags="">
+  <Title m="2023-03-10T09:04:51.2768748Z">Tlač poznámky namiesto názvu na pokladničnom doklade</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-03-13T14:01:57.8780203Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; je venovaná špeciálnej funkcii systému OBERON, ktorá umožňuje &lt;STRONG&gt;nahradiť názov položky za poznámku&amp;nbsp;pri&amp;nbsp;zaevidovaní (tlači) pokladničného dokladu&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Systém OBERON pri zaevidovaní (tlači) pokladničného dokladu umožňuje &lt;STRONG&gt;nahradiť názov položky na doklade za poznámku k položke&lt;/STRONG&gt; (ak je zadaná).&lt;SPAN id=more-4717&gt;&lt;/SPAN&gt; Týmto môže obsluha pokladnice uviesť na doklade text, ktorý v odôvodnených prípadoch zákazník požaduje. 
+&lt;LI&gt;Príkladom môže byť situácia, keď&amp;nbsp;zákazník požaduje uviesť na pokladničnom doklade presný názov položky podľa objednávky,&amp;nbsp;no&amp;nbsp;účtovná jednotka eviduje danú položku pod iným (spravidla presnejším) názvom. Potom sa napr.&amp;nbsp;skladová&amp;nbsp;položka so zložitým názvom &lt;EM&gt;&lt;STRONG&gt;Microsoft Xbox One 1TB Without Kinect (Elite Edition) + Rainbow Six Siege&lt;/STRONG&gt;&lt;/EM&gt; môže&amp;nbsp;na pokladničnom doklade vytlačiť zjednodušene ako &lt;EM&gt;&lt;STRONG&gt;Xbox One 1TB&lt;/STRONG&gt;.&lt;/EM&gt; 
+&lt;LI&gt;Na zamieňanie názvu položky dokladu za poznámku &lt;STRONG&gt;je potrebné v&amp;nbsp;systéme OBERON definovať osobitný&amp;nbsp;&lt;/STRONG&gt;&lt;A href="46e6deed-ce15-42dc-be53-ab72142d9673"&gt;typ platby&lt;/A&gt;, a to v&amp;nbsp;ponuke &lt;EM&gt;Firma&lt;/EM&gt;, &lt;EM&gt;Predvoľby&lt;/EM&gt;,&amp;nbsp;&lt;A href="f3814738-213c-4f39-96d3-cdcaeb6674ec"&gt;Typy platieb&lt;/A&gt;.&amp;nbsp;Vo&amp;nbsp;&lt;A href="77a7891e-a525-416c-ad7a-9e25ff95e430"&gt;formulári Typ platby&lt;/A&gt;&amp;nbsp;(tlačidlo &lt;EM&gt;Nový&lt;/EM&gt;)&amp;nbsp;je potrebné v záložke &lt;EM&gt;Základné&lt;/EM&gt; po zadaní názvu (napr. &lt;EM&gt;Hotovosť - poznámka za názov&lt;/EM&gt;) začiarknuť pole&amp;nbsp;&lt;EM&gt;Názov položky dokladu zamieňať za poznámku&lt;/EM&gt;. &lt;EM&gt;Číslo platidla vo fiškálnom&amp;nbsp;zariadení&lt;/EM&gt; je potrebné zadať podľa hlavného typu platby: ak ide o hotovostnú platbu, zadáva sa rovnaké číslo platidla, ako pri type platby pre hotovosť, ak platbu kartou, zadáva sa rovnaké číslo platidla ako pri type platby pre platbu kartou. Príklad nastavenia typu platby pre hotovostnú platbu&amp;nbsp;je&amp;nbsp;uvedený&amp;nbsp;na Obrázku č. 1. 
+&lt;LI&gt;Poznámku, ktorá má nahradiť názov položky, možno zadať pri predaji na&amp;nbsp;&lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnici OBERON&lt;/A&gt; po stlačení tlačidla &lt;IMG style="WIDTH: 20px" border=0 alt="" src="images/CashRegister/CashRegister_Button_Edit.png"&gt;&amp;nbsp;(pozri tlačidlá na editáciu položiek dokladu na Obrázku č. 1 v&amp;nbsp;téme&amp;nbsp;&lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9" style="auto-update-caption: true"&gt;Pokladnica OBERON&lt;/A&gt;). &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 1: Nastavenie typu platby&amp;nbsp;pre hotovostnú platbu&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/CashRegister/Form_CashRegister_PaymentType_NotePad.png"&gt;&lt;/P&gt;
+&lt;H2&gt;Použitie na pokladnici&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;V programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt; zvoľte ponuku &lt;EM&gt;Sklad&lt;/EM&gt;,&amp;nbsp;&lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnica OBERON&lt;/A&gt;. 
+&lt;LI&gt;Pri predaji&amp;nbsp;na pokladnici stlačte tlačidlo&amp;nbsp;&lt;IMG style="WIDTH: 20px" border=0 alt="" src="images/CashRegister/CashRegister_Button_Edit.png"&gt;. Otvorí sa formulár &lt;EM&gt;Oprava položky&lt;/EM&gt;, v ktorom zadajte&amp;nbsp;&lt;EM&gt;Poznámku&lt;/EM&gt;. 
+&lt;LI&gt;Stlačte&amp;nbsp;tlačidlo &lt;EM&gt;Tlač dokladu&lt;/EM&gt; a v záložke &lt;EM&gt;Všetky typy platieb&lt;/EM&gt; vyberte nastavený typ platby (napr. s&amp;nbsp;názvom&amp;nbsp;&lt;EM&gt;Hotovosť - poznámka za názov&lt;/EM&gt;).&amp;nbsp;Na&amp;nbsp;pokladničný doklad sa namiesto názvu položky vytlačí text z poľa &lt;EM&gt;Poznámka&lt;/EM&gt;. &lt;/LI&gt;&lt;/OL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="8f3b2b7d-4831-40ce-ad7c-336f85594c35" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="790de8e5-e53a-4fa8-a187-f136b4c4c1dc" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="46e6deed-ce15-42dc-be53-ab72142d9673">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="3e466aa5-36cd-4d7e-a435-f610a6e765d0" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="f3814738-213c-4f39-96d3-cdcaeb6674ec">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="5f613bc6-4c6d-412a-9d10-c4ce2fdff460" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="77a7891e-a525-416c-ad7a-9e25ff95e430">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="d3ec0594-0bdb-4a91-a1ec-f2a65140ecf0" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="69bbd499-45c0-4b0f-8f7a-c53fa5d70c1b">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="c8884bb4-8758-4356-9b03-138ec9a2c2c7" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1a33ab0b-2df7-4dc2-962b-8a3319c16831">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="d4695475-cfeb-47c1-9d4a-cb67d0c13486">
+      <Keyword m="2023-03-13T14:03:33.5479117Z">Iný názov na pokladničnom doklade ako v sklade</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="37cdddab-5262-464c-a3ed-216f6c41138a">
+      <Keyword m="2023-03-13T14:03:46.2354405Z">Poznámka namiesto názvu na pokladničnom doklade</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

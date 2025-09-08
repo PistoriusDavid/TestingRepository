@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="09f3dae9-2fb7-490f-97dc-37f60885b398" Status="Complete" CreatedOn="2021-12-10T10:01:50.5901914Z" ModifiedOn="2024-11-18T09:29:26.6482642Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="94000" Name="OAC_OBERON_Automation_Center" BuildFlags="">
+  <Title m="2021-12-10T11:17:20.2952703Z">OBERON Automation Center</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-11-18T09:29:26.6482642Z">&lt;P&gt;Systém OBERON pozostáva&amp;nbsp;&lt;A href="d7884189-d893-43c0-8e6a-cfad14d790c1"&gt;z viacerých súčastí&lt;/A&gt;, z ktorých najdôležitejšou je základný spustiteľný program &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt; (&lt;EM&gt;oberon.exe&lt;/EM&gt;) obsahujúci všetky evidencie systému. Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; je venovaná jeho rozšíreniu -&amp;nbsp;programu &lt;EM&gt;&lt;STRONG&gt;OBERON Automation Center (OAC)&lt;/STRONG&gt;&lt;/EM&gt;, ktorý je určený na vykonávanie&amp;nbsp;&lt;A href="9ce25bbd-35d1-4096-acd5-70007f5af5a6"&gt;automatických úloh&lt;/A&gt; na pozadí systému OBERON.&lt;/P&gt;&lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;Program&lt;/SPAN&gt; &lt;EM style="COLOR: rgb(255,0,0)"&gt;OBERON Automation Center&lt;/EM&gt;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;&amp;nbsp;v&amp;nbsp;štruktúre systému OBERON nahrádza starší program&lt;/SPAN&gt; &lt;EM style="COLOR: rgb(255,0,0)"&gt;OBERON Center&lt;/EM&gt;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;.&lt;/SPAN&gt; Všetky funkcie programu &lt;EM&gt;OBERON Center&lt;/EM&gt; budú postupne združené do automatických úloh programu&amp;nbsp;&lt;EM&gt;OBERON Automation Center&lt;/EM&gt;. Tie budú pre danú účtovnú jednotku dostupné z&amp;nbsp;ponuky &lt;EM&gt;Servis,&lt;/EM&gt;&amp;nbsp;&lt;A href="9ce25bbd-35d1-4096-acd5-70007f5af5a6"&gt;Automatické úlohy&lt;/A&gt;.&amp;nbsp;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;Aj keď&amp;nbsp;&lt;/SPAN&gt;&lt;EM style="COLOR: rgb(0,0,0)"&gt;OBERON Automation Center&lt;/EM&gt;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;umožňuje&lt;/SPAN&gt; pracovať aj so súborovou databázou &lt;EM&gt;Microsoft Access&lt;/EM&gt;, &lt;SPAN style="COLOR: rgb(255,0,0)"&gt;p&lt;/SPAN&gt;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;ri&amp;nbsp;jeho použití&lt;/SPAN&gt;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;&amp;nbsp;&lt;STRONG&gt;odporúčame&lt;/STRONG&gt;&lt;/SPAN&gt; &lt;STRONG style="COLOR: rgb(255,0,0)"&gt;používať databázu SQL&lt;/STRONG&gt;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;.&lt;/SPAN&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Program &lt;EM&gt;&lt;STRONG&gt;O&lt;/STRONG&gt;BERON &lt;STRONG&gt;A&lt;/STRONG&gt;utomation &lt;STRONG&gt;C&lt;/STRONG&gt;enter (OAC)&lt;/EM&gt; je jednou zo súčastí&amp;nbsp;systému OBERON. Je&amp;nbsp;určený&amp;nbsp;na vykonávanie&amp;nbsp;&lt;A href="9ce25bbd-35d1-4096-acd5-70007f5af5a6"&gt;automatických úloh&lt;/A&gt;. 
+&lt;LI&gt;Automatické úlohy&amp;nbsp;&lt;STRONG&gt;predstavujú samostatné automatické činnosti a funkcie vykonávané&amp;nbsp;na pozadí systému &lt;EM&gt;Windows&lt;/EM&gt; bez nutnosti zásahu používateľa&lt;/STRONG&gt;. Zahŕňajú napr. automatické zasielanie notifikácií prostredníctvom generátora notifikácií, import kurzového lístka, automatické odosielanie e-mailov, import/export údajov z/do rezervačných portálov prostredníctvom manažéra rezervačných kanálov (&lt;EM&gt;Channel Manager&lt;/EM&gt;), ale aj webové služby, automatický export a import údajov&amp;nbsp;z/do externého internetového obchodu atď. 
+&lt;LI&gt;Podstatou automaticky vykonávaných úloh je &lt;STRONG&gt;úplná automatizácia činností a funkcií&lt;/STRONG&gt;, a tak odbremenenie používateľov OBERON-u: v&amp;nbsp;závislosti od nastavení a infraštruktúry sa úlohy môžu vykonávať plne automatizovane, a to aj vtedy, keď používateľ práve nepracuje s OBERON-om na svojom počítači (napr. zápis prijatých objednávok z internetového obchodu, príjem&amp;nbsp;on-line rezervácií z&amp;nbsp;rezervačného portálu, automatické odosielanie notifikácií pred príchodom hosťa do ubytovacieho zariadenia atď.). Viac informácií získate v&amp;nbsp;téme &lt;A href="9ce25bbd-35d1-4096-acd5-70007f5af5a6"&gt;Automatické úlohy&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Automatické úlohy je možné definovať v programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;, ponuka &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="9ce25bbd-35d1-4096-acd5-70007f5af5a6"&gt;Automatické úlohy&lt;/A&gt;. Tu&amp;nbsp;je k&amp;nbsp;dispozícii aj &lt;STRONG&gt;zoznam všetkých úloh nadefinovaných&amp;nbsp;v danej databáze (firme)&lt;/STRONG&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H5&gt;Obrázok č. 1: Služba &lt;EM&gt;OBERON Automation Center Service&lt;/EM&gt; v&amp;nbsp;zozname služieb &lt;!--DXMETADATA end--&gt;systému &lt;EM&gt;Windows&lt;/EM&gt;&lt;/H5&gt;
+&lt;P&gt;&lt;IMG style="WIDTH: 55%" border=0 alt="" src="images/OAC/OAC_Services.png"&gt;&lt;/P&gt;
+&lt;H2&gt;Výhody &lt;EM&gt;OBERON Automation Center&lt;/EM&gt;&lt;/H2&gt;
+&lt;P&gt;V porovnaní s predchádzajúcim programom &lt;EM&gt;OBERON Center&lt;/EM&gt; má&amp;nbsp;&lt;EM&gt;OBERON Automation Center&lt;/EM&gt; nasledujúce výhody:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;spravovať, resp. pristupovať k OAC serveru (službe) je možné pomocou programu&amp;nbsp;&lt;A href="69282df4-d4d6-462a-8cf2-68000e3e6f93" style="auto-update-caption: true"&gt;OBERON Automation Center (klient)&lt;/A&gt; z ktoréhokoľvek počítača&amp;nbsp;v sieti, 
+&lt;LI&gt;všetky automatické úlohy, ktoré sa majú vykonávať, sa definujú v programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt; v&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;, &lt;A href="9ce25bbd-35d1-4096-acd5-70007f5af5a6"&gt;Automatické úlohy&lt;/A&gt;, čo&amp;nbsp;poskytuje lepší prehľad o všetkých automatických úlohách nadefinovaných pre danú účtovnú jednotku, 
+&lt;LI&gt;správy o priebehu vykonávaných úloh sa zapisujú do štandardného&amp;nbsp;&lt;A href="bc30e126-afb5-41aa-a261-e92501038063"&gt;Sledovania činností&lt;/A&gt; a sú dostupné každému používateľovi z&amp;nbsp;ktoréhokoľvek počítača v sieti (v&amp;nbsp;programe &lt;EM&gt;OBERON Center&lt;/EM&gt; len na danom počítači, kde beží), 
+&lt;LI&gt;OAC ako služba systému &lt;EM&gt;Windows&lt;/EM&gt; je dostupná (funkčná)&amp;nbsp;ihneď aj po reštarte počítača (&lt;EM&gt;OBERON Center&lt;/EM&gt; až po prihlásení používateľa do systému &lt;EM&gt;Windows&lt;/EM&gt;). &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Technické informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Program &lt;EM&gt;OBERON Automation Center&lt;/EM&gt;&amp;nbsp;sa skladá z&amp;nbsp;dvoch častí: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;&lt;EM&gt;OBERON-Automation-Center-Service.exe&lt;/EM&gt;&lt;/STRONG&gt; (server)&amp;nbsp;- ide o&amp;nbsp;&lt;STRONG&gt;službu systému &lt;EM&gt;Windows&lt;/EM&gt;&lt;/STRONG&gt; (Obrázok č. 1)&lt;EM&gt;,&lt;/EM&gt; ktorú&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;&amp;nbsp;je potrebné nakonfigurovať na počítači, ktorý je neustále zapnutý, spravidla sieťovom databázovom serveri&lt;/SPAN&gt;. Viac informácií o&amp;nbsp;konfigurácii&amp;nbsp;služby (OAC) získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="fd64c37a-486b-4cdf-a370-297aaa8a8f73" style="auto-update-caption: true"&gt;Nastavenie servera OBERON Automation Center&lt;/A&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;&lt;EM&gt;OBERON-Automation-Client.exe&lt;/EM&gt;&lt;/STRONG&gt; (klient) - predstavuje spustiteľný súbor, ktorý sa nachádza v adresári &lt;SPAN lang=en-us xml:lang="en-us"&gt;&lt;EM&gt;\\OBERON\SHARE\SYSTEM&amp;nbsp;&lt;/EM&gt;&lt;STRONG&gt;klientskeho počítača&lt;/STRONG&gt;&lt;EM&gt;.&lt;/EM&gt;&lt;/SPAN&gt;&amp;nbsp;V programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt; je dostupný&amp;nbsp;z&amp;nbsp;ponuky &lt;EM&gt;OBERON,&amp;nbsp;&lt;/EM&gt;&lt;A href="69282df4-d4d6-462a-8cf2-68000e3e6f93"&gt;OBERON Automation Center (klient)&lt;/A&gt;. Výberom položky sa program otvorí a zároveň sa&amp;nbsp;zobrazí jeho ikona&amp;nbsp;na paneli úloh systému &lt;EM&gt;Windows&lt;/EM&gt;&amp;nbsp;v&amp;nbsp;systémových ikonách (pri dátume a čase), odkiaľ možno klienta tiež&amp;nbsp;otvoriť. Viac informácií&amp;nbsp;získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="69282df4-d4d6-462a-8cf2-68000e3e6f93" style="auto-update-caption: true"&gt;OBERON Automation Center (klient)&lt;/A&gt;. Informácie o&amp;nbsp;konfigurácii sú dostupné v&amp;nbsp;téme &lt;A href="7388e749-75b9-4306-85dd-b467bcb6a89c" style="auto-update-caption: true"&gt;Nastavenie OBERON Automation Center (klient)&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Prostredníctvom programu &lt;EM&gt;OBERON-Automation-Client.exe&lt;/EM&gt; (klient) je možné spravovať službu &lt;EM&gt;OBERON-Automation-Center-Service.exe&lt;/EM&gt; (server) z klientskeho počítača (napr. keď je potrebné službu pozastaviť, reštartovať a pod.) a&amp;nbsp;vykonávať kontrolu vykonávania automatických úloh.&amp;nbsp; 
+&lt;LI&gt;&lt;EM&gt;OBERON-Automation-Client.exe&lt;/EM&gt; (klient) &lt;STRONG&gt;neslúži na definovanie a správu automatických úloh&lt;/STRONG&gt; (tie sa&amp;nbsp;definujú v ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="9ce25bbd-35d1-4096-acd5-70007f5af5a6"&gt;Automatické úlohy&lt;/A&gt;&amp;nbsp;programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;). 
+&lt;LI&gt;&lt;STRONG&gt;Status pripojenia k serveru &lt;EM&gt;OBERON Automation Center&lt;/EM&gt;&lt;/STRONG&gt; - zobrazuje stav pripojenia k serveru&amp;nbsp;signalizovaný nasledujúcimi farbami: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;SPAN style="COLOR: rgb(127,127,127)"&gt;&lt;STRONG&gt;sivá&lt;/STRONG&gt;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;&amp;nbsp;- &lt;STRONG&gt;nie je&lt;/STRONG&gt; &lt;STRONG&gt;nastavený&lt;/STRONG&gt; server &lt;EM&gt;OBERON Automation Center&lt;/EM&gt;&lt;/SPAN&gt;&lt;/SPAN&gt; 
+&lt;LI&gt;&lt;SPAN style="COLOR: rgb(127,127,127)"&gt;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;&lt;SPAN style="COLOR: rgb(0,132,60)"&gt;&lt;STRONG&gt;zelená&lt;/STRONG&gt; -&amp;nbsp;&lt;FONT color=black&gt;server &lt;EM&gt;OBERON Automation Center&lt;/EM&gt;&lt;/FONT&gt; &lt;SPAN style="COLOR: rgb(127,127,127)"&gt;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;pracuje korektne (&lt;STRONG&gt;pripojený&lt;/STRONG&gt;),&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt; 
+&lt;LI&gt;&lt;SPAN style="COLOR: rgb(127,127,127)"&gt;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;&lt;SPAN style="COLOR: rgb(0,132,60)"&gt;&lt;SPAN style="COLOR: rgb(127,127,127)"&gt;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;&lt;SPAN style="COLOR: rgb(255,192,0)"&gt;&lt;STRONG&gt;oranžová&lt;/STRONG&gt;&lt;/SPAN&gt; - server &lt;EM&gt;OBERON Automation Center&lt;/EM&gt; nepracuje korektne (&lt;STRONG&gt;nepripojený&lt;/STRONG&gt;),&lt;/SPAN&gt;&lt;/SPAN&gt; &lt;SPAN style="COLOR: rgb(0,0,0)"&gt;služba nie je spustená,&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt; 
+&lt;LI&gt;&lt;SPAN style="COLOR: rgb(127,127,127)"&gt;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;&lt;SPAN style="COLOR: rgb(0,132,60)"&gt;&lt;SPAN style="COLOR: rgb(127,127,127)"&gt;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;&lt;STRONG&gt;červená&lt;/STRONG&gt;&lt;/SPAN&gt; - server &lt;EM&gt;OBERON Automation Center&lt;/EM&gt; je &lt;STRONG&gt;nepripojený&lt;/STRONG&gt;, počítač nie je dostupný, prípadne služba nie je spustená.&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt; &lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;&lt;SPAN style="COLOR: rgb(127,127,127)"&gt;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;&lt;SPAN&gt;Obrázok č. 2: Ikona&amp;nbsp;&lt;EM&gt;OBERON Automation Center&lt;/EM&gt; na paneli úloh systému &lt;EM&gt;Windows&lt;/EM&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/OAC/OAC_Taskbar_Icon.png.PNG"&gt;&lt;/P&gt;
+&lt;H5&gt;Obrázok č. 3: Spustenie a vypnutie služby&amp;nbsp;&lt;EM&gt;OBERON Automation Center&lt;/EM&gt; v &lt;EM&gt;Event Vieweri&lt;/EM&gt; systému &lt;EM&gt;Windows&lt;/EM&gt;&lt;/H5&gt;
+&lt;P&gt;&lt;EM&gt;&lt;IMG style="WIDTH: 55%" border=0 alt="" src="images/OAC/OAC_ComputerManagement.png"&gt;&amp;nbsp;&lt;/EM&gt;&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="024ca4f5-f00d-4cf4-9f18-542239603bf4" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="d7884189-d893-43c0-8e6a-cfad14d790c1">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="a8048329-5659-44c4-a548-6621a235049d" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="19a10c98-2b1d-4fe1-8ab2-98921ab328be">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="06339554-deff-4a91-86ca-8bce3a266448" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="69282df4-d4d6-462a-8cf2-68000e3e6f93">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="ca87df15-1966-44e3-8a9c-dff00dbf0865" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="9ce25bbd-35d1-4096-acd5-70007f5af5a6">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="00d9cfb8-0c69-454a-aace-cf93f236ca33" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="fd64c37a-486b-4cdf-a370-297aaa8a8f73">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="6d4f3064-b708-4adf-bd87-6d583a3f0959" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="7388e749-75b9-4306-85dd-b467bcb6a89c">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="3e977508-50de-4949-bac4-8b88921e4aa3">
+      <Keyword m="2021-12-14T11:20:05.4352538Z">OBERON Automation Center - všeobecné informácie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="c6999a2a-3e90-47ce-9909-995f86b8d511">
+      <Keyword m="2021-12-14T11:20:36.4313076Z">Automatizácia - OBERON</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="060ac3eb-3f18-4baf-8f95-8ee5323e5c73">
+      <Keyword m="2021-12-14T11:20:39.4161144Z">OBERON Automation Center Service.exe (server)</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="59a1df36-401d-4fca-a4af-87c5e0f1b07a">
+      <Keyword m="2021-12-14T11:20:50.1217104Z">OBERON Automation Client.exe (klient)</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="7c6327d9-8644-449f-a345-9bba1c70bc98">
+      <Keyword m="2021-12-14T11:22:07.9309669Z">OBERON Automation Center (klient) - formulár</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="db5f5255-adfa-4487-a025-219bc52d0650">
+      <Keyword m="2022-06-02T12:05:06.5479506Z">OAC - OBERON Automation Center (klient)</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="00655505-aee5-461b-bc9e-637850c71fb4">
+      <Keyword m="2024-04-08T06:36:28.4181166Z">OAC - OBERON Automation Center</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="c42107c7-67a1-4f98-be25-9f892412ce77">
+      <Keyword m="2024-04-08T06:36:31.6345379Z">OAC</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

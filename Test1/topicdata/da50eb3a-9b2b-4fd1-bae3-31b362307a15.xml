@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="da50eb3a-9b2b-4fd1-bae3-31b362307a15" Status="Complete" CreatedOn="2015-02-04T08:50:41.65625Z" ModifiedOn="2023-10-20T08:40:11.9264768Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="79020" Name="MsgBox_OBERON_Database_NotFound" BuildFlags="">
+  <Title m="2015-02-05T07:34:48.8828125Z">Databáza nie je dostupná</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-10-20T08:36:05.1605294Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; popisuje &lt;STRONG&gt;postupy pri riešení problémov spojených s nedostupnosťou databázy účtovnej jednotky&amp;nbsp;po spustení systému OBERON&lt;/STRONG&gt; spravidla z&amp;nbsp;dôvodu nesprávnej konfigurácie sieťovej infraštruktúry, resp. po&amp;nbsp;jej narušení vplyvom vonkajších faktorov. Riešenie problému závisí od použitia konkrétneho typu databázy&amp;nbsp;(súborová databáza &lt;EM&gt;Microsoft Access&lt;/EM&gt; alebo SQL server).&lt;/P&gt;
+&lt;H2&gt;Microsoft Access (súbor MDB)&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Ak sa databázový súbor (prípona MDB) nachádza&amp;nbsp;v&amp;nbsp;lokálnom počítači (najčastejšie disk C:\),&amp;nbsp;&lt;STRONG&gt;skontrolujte umiestnenie databázového súboru&lt;/STRONG&gt;,&amp;nbsp;t. j. pomocou ľubovoľného súborového manažéra overte existenciu databázy. Databázový súbor&amp;nbsp;sa podľa predvolených nastavení nachádza v adresári &lt;EM&gt;\\OBERON\Data_U\&lt;/EM&gt;, prípadne kdekoľvek v&amp;nbsp;počítači alebo aj na externom pevnom disku. 
+&lt;LI&gt;Ak sa databázový súbor nachádza na sieťovom disku [napr. \\Server\&amp;nbsp;(U:)], je nevyhnutné skontrolovať a overiť: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;mapovanie sieťového disku -&lt;/STRONG&gt; mapovanie disku, na ktorom sa nachádza databáza, sa mohlo po reštarte počítača stratiť.&amp;nbsp;V&amp;nbsp;systéme &lt;EM&gt;Windows&lt;/EM&gt; stlačte&amp;nbsp;tlačidlo &lt;EM&gt;Štart,&lt;/EM&gt; zvoľte ponuku &lt;EM&gt;Tento počítač&lt;/EM&gt;, vyhľadajte danú sieťovú jednotku. Ak sa v&amp;nbsp;danom zozname nenachádza, je potrebné opätovne namapovať sieťový disk (viac v téme&amp;nbsp;&lt;A href="3c57ad66-7da9-4c69-9073-76947140b42f"&gt;Sieťová inštalácia&lt;/A&gt;). Ak sa sieťová jednotka v zozname nachádza, dvojklikom ju otvorte -&amp;nbsp;ak sa zobrazia súbory, disk je namapovaný správne a server je dostupný. Tomuto momentu sa hovorí aj &lt;EM&gt;obnovenie sieťových jednotiek&lt;/EM&gt; - pripojenie k&amp;nbsp;sieťovému serveru bolo obnovené, pokúste sa OBERON spustiť znovu. Ak sa súbory nenačítajú,&amp;nbsp;server nie je dostupný (pozri ďalší bod). 
+&lt;LI&gt;&lt;STRONG&gt;server&amp;nbsp;nie je dostupný&lt;/STRONG&gt; - overte či sú&amp;nbsp;počítač, na ktorom sa používa systém OBERON (klient), a&amp;nbsp;server súčasťou jednej počítačovej siete. Reštartujte počítač, na ktorom sa používa systém OBERON, server aj sieťovú infraštruktúru&amp;nbsp;(sieťový hub alebo switch). &lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;SQL server (MariaDB, MySQL, MS SQL Server)&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;V&amp;nbsp;prvom kroku&amp;nbsp;je potrebné &lt;STRONG&gt;overiť, či sú počítač, na ktorom sa používa systém OBERON (klient),&lt;/STRONG&gt; &lt;STRONG&gt;a&amp;nbsp;server&lt;/STRONG&gt; súčasťou jednej počítačovej siete.&amp;nbsp;&lt;STRONG&gt;Reštartujte počítač, na ktorom sa používa systém OBERON (klienta),&lt;/STRONG&gt; &lt;STRONG&gt;server aj sieťovú infraštruktúru&lt;/STRONG&gt;&amp;nbsp;(sieťový hub alebo switch). 
+&lt;LI&gt;V ďalšom kroku je potrebné overiť, či je &lt;STRONG&gt;na serveri spustený príslušný databázovy server SQL&lt;/STRONG&gt; (najjednoduchšie je spustiť OBERON priamo na serveri). Ak OBERON otvorí lokálne príslušnú databázu, databázový server je v&amp;nbsp;poriadku. 
+&lt;LI&gt;Ďalej je potrebné overiť &lt;STRONG&gt;pripojenie k&amp;nbsp;SQL serveru&lt;/STRONG&gt;. Častým problémom, pre ktorý pripojenie zlyhá, je zmena IP adresy počítača, na ktorom sa používa systém OBERON (klienta), pri používaní automatizovaného protokolu DHCP. Pri&amp;nbsp;nastavení pripojenia k&amp;nbsp;SQL serveru&amp;nbsp;sa&amp;nbsp;preto &lt;STRONG&gt;odporúča používať názov&amp;nbsp;počítača nie IP adresu s&amp;nbsp;príslušným portom&lt;/STRONG&gt;. Tým je možné predísť problémom s pripojením v&amp;nbsp;dôsledku zmeny IP adresy. 
+&lt;LI&gt;Ďalšou možnou príčinou nedostupnosti SQL servera &lt;STRONG&gt;môže byť zmena nastavenia brány&amp;nbsp;firewall&lt;/STRONG&gt; (na kliente ako aj na serveri) - môže ísť o zmenu nastavení, prípadne o nainštalovanie nového antivírusového programu a pod. 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Server&lt;/STRONG&gt; -&amp;nbsp;&amp;nbsp;na serveri načúva SQL server na určitom TCP/IP porte &amp;nbsp;- skontrolujte výnimku v&amp;nbsp;programe&amp;nbsp;&lt;EM&gt;Windows Defender Firewall&lt;/EM&gt;. V ponuke &lt;EM&gt;Štart&lt;/EM&gt; vyhľadajte a&amp;nbsp;otvorte program&amp;nbsp;&lt;STRONG&gt;&lt;EM&gt;Windows Defender Firewall&lt;/EM&gt;&lt;/STRONG&gt;, kliknite na &lt;EM&gt;Rozšírené nastavenie&lt;/EM&gt; a&amp;nbsp;zvoľte &lt;EM&gt;Inbound Rules&lt;/EM&gt;. Napr. &lt;EM&gt;MariaDB&lt;/EM&gt; alebo &lt;EM&gt;MySQL Server&lt;/EM&gt; majú nastavenú výnimku&amp;nbsp;na port&amp;nbsp;3306 (profil &lt;EM&gt;Private&lt;/EM&gt;), &amp;nbsp;&lt;EM&gt;Microsoft SQL Server&lt;/EM&gt; používa port 1433 (prípadne aj 1038). 
+&lt;LI&gt;&lt;STRONG&gt;Klient&lt;/STRONG&gt; - na počítači, kde došlo k problému, musí byť povolený rovnaký port ako na serveri (v&amp;nbsp;predvolenom nastavení sú odchádzajúce porty povolené, mohol ich však niekto alebo niečo zakázať). &lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;V&amp;nbsp;programe &lt;EM&gt;Windows Defender Firewall&lt;/EM&gt; sú nastavené výnimky pre tzv. &lt;STRONG&gt;&lt;EM&gt;Profile&lt;/EM&gt;&lt;/STRONG&gt;. Napr. pre&amp;nbsp;&lt;EM&gt;MariaDB&lt;/EM&gt; alebo &lt;EM&gt;MySQL&lt;/EM&gt; je predvolené nastavenie &lt;EM&gt;Private&lt;/EM&gt; - teda výnimka platí len pre &lt;EM&gt;privátnu sieť&lt;/EM&gt;. Ak by sa v&amp;nbsp;nastaveniach siete zmenila sieť napr. na &lt;EM&gt;Public&lt;/EM&gt;, výnimka sa bude ignorovať a SQL server bude nedostupný.&lt;/innovasys:widgetproperty&gt; &lt;/innovasys:widget&gt;
+&lt;H5&gt;Obrázok č. 1: Rozšírené nastavenie vo&amp;nbsp;&lt;EM&gt;Windows Defender Firewall&lt;/EM&gt;&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/TechnicalIssues/Form_Database_Firewall.png"&gt;&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="a7ed922a-43ec-4de7-aa57-031dfaad31d2" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="31e5e0c6-6e6c-403f-aa32-9ef5f8291566">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="42353777-9c16-4788-9d22-fbf1d64da3af" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="0b81f4ea-5e68-48c1-8b89-933d5a23d962">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="4c6745d8-2773-4b4d-a2c2-76b41bf51624" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="f0a7aeb9-190b-4de7-90e7-30322114e9a9">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="812a73bb-d46c-48cb-b1c7-0a399822d35f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="6072e597-0b64-4765-ad7d-c373b77beb9a">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="ae804882-a4e0-44b7-9f9e-11bbccdaeb98" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="701211a9-6951-4401-acfb-fd5ea760c84d">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="f4e5bf3a-8195-4f55-800e-1f2f6bafbc94" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="3c57ad66-7da9-4c69-9073-76947140b42f">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="fcfe1160-8dbc-451c-a62e-4111d0d78540" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="114e64df-3d6c-4a0e-9405-c0e75fbe02dc">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="c1f2abbf-24aa-4e1d-ad6f-5c20dda97034">
+      <Keyword m="2023-10-20T08:38:40.6651309Z">Databáza - problémy s otvorením</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="22b4f15b-7dbe-441d-9b76-cb0efeab34b4">
+      <Keyword />
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="ce4f1c0c-565b-4012-b363-03209e218289">
+      <Keyword m="2023-10-20T08:38:15.9502604Z">Problémy s otvorením databázy</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

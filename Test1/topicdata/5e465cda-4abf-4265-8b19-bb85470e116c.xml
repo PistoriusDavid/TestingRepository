@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="5e465cda-4abf-4265-8b19-bb85470e116c" Status="Complete" CreatedOn="2021-10-07T12:05:10.6405413Z" ModifiedOn="2023-08-04T12:45:28.2864374Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Device_Printers_for_Kitchen_Install" BuildFlags="">
+  <Title m="2021-10-07T12:07:17.9158843Z">Inštalácia bonovacej tlačiarne</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-08-04T12:45:28.2864374Z">&lt;P&gt;Táto téma&amp;nbsp;&lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;obsahuje&lt;STRONG&gt;&amp;nbsp;postup inštalácie&amp;nbsp;&lt;/STRONG&gt;&lt;A href="b9d7c873-7b63-4210-86fe-ab1c66ea6502"&gt;bonovacej tlačiarne&lt;/A&gt;. Téma obsahuje informácie &lt;STRONG&gt;o&amp;nbsp;všetkých možnostiach inštalácie bonovacej tlačiarne tak&amp;nbsp;v&amp;nbsp;textovom, ako aj v grafickom režime&lt;/STRONG&gt;. Podrobné informácie o uvedených režimoch získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="b9d7c873-7b63-4210-86fe-ab1c66ea6502"&gt;Bonovacie tlačiarne&lt;/A&gt;.&lt;/P&gt;
+&lt;H1&gt;Inštalácia - tlač objednávok na tlačiarni&amp;nbsp;EPSON TM-x (textový režim)&lt;/H1&gt;
+&lt;P&gt;Pri tomto spôsobe tlače objednávok je tlačiareň štandardne pripojená k počítaču, resp. do lokálnej počítačovej siete, pričom sa na tlač využíva buď univerzálny&amp;nbsp;ovládač systému &lt;EM&gt;Windows&lt;/EM&gt; &lt;STRONG&gt;&lt;EM&gt;Generic/Text Only&lt;/EM&gt;&lt;/STRONG&gt;, alebo&amp;nbsp;&lt;EM&gt;&lt;STRONG&gt;Priama tlač (serial port)&lt;/STRONG&gt;&lt;/EM&gt;, prípadne &lt;EM&gt;&lt;STRONG&gt;Priama tlač (ethernet)&lt;/STRONG&gt;&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;EPSON TM-x (textový režim) - Generic/Text Only&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;Pripojte tlačiareň k&amp;nbsp;počítaču prostredníctvom sériového, resp. USB&amp;nbsp;portu alebo ju prostredníctvom&amp;nbsp;rozhrania LAN (ethernet kábla) pripojte do lokálnej počítačovej siete (v tom prípade bude možné s&amp;nbsp;tlačiarňou komunikovať z viacerých počítačov).&amp;nbsp;Z&amp;nbsp;technického hľadiska bude tlač objednávok smerovaná&amp;nbsp;do tlačiarne inštalovanej v systéme &lt;EM&gt;Windows&lt;/EM&gt;. 
+&lt;LI&gt;Pri pripojení tlačiarne prostredníctvom rozhrania LAN, resp. sériového portu nie je nutné inštalovať ovládač tlačiarne. Pri pripojení prostredníctvom rozhrania USB je potrebné&amp;nbsp;v&amp;nbsp;systéme &lt;EM&gt;Windows&lt;/EM&gt; nainštalovať &lt;STRONG&gt;ovládač tlačiarne&lt;/STRONG&gt; na vytvorenie virtuálneho sériového portu. 
+&lt;LI&gt;V systéme &lt;EM&gt;Windows&lt;/EM&gt; nainštalujte ovládač &lt;STRONG&gt;&lt;EM&gt;Generic/Text Only&lt;/EM&gt;&lt;/STRONG&gt;.&amp;nbsp;Ak budete na tlač objednávok používať tlačiareň s&amp;nbsp;orezávaním papiera, je potrebné v&amp;nbsp;ovládači nastaviť orezanie papiera. Môžete tak urobiť nastavením riadiacich znakov po ukončení tlače (napr. zadajte kódy znakov &lt;B&gt;&amp;lt;0D0A1D5601&amp;gt;&lt;/B&gt; alebo &lt;B&gt;&amp;lt;0D0A1B&amp;gt;i&lt;/B&gt;). Taktiež je potrebné nastaviť veľkosť papiera na &lt;I&gt;Letter&lt;/I&gt;. 
+&lt;DIV style="MARGIN-LEFT: 0px"&gt;
+&lt;H5&gt;Obrázok č. 1: Nastavenie ovládača &lt;EM&gt;Generic/Text Only&lt;/EM&gt;&lt;/H5&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_GenericTextOnly_Properties.png"&gt;&amp;nbsp;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_GenericTextOnly.png"&gt;&lt;BR&gt;&lt;/DIV&gt;
+&lt;LI&gt;Ak ešte nemáte v systéme OBERON vytvorenú (založenú) firmu, vytvorte ju&amp;nbsp;- bližšie informácie nájdete v téme &lt;A href="9a485893-6dd2-44e8-9740-a4cd7083a932" style="auto-update-caption: true"&gt;Vytvorenie účtovnej jednotky (databázy)&lt;/A&gt;. 
+&lt;LI&gt;Spustite program &lt;EM&gt;OBERON&amp;nbsp;- Agenda firmy&lt;/EM&gt;. 
+&lt;LI&gt;Zvoľte ponuku &lt;EM&gt;Servis,&amp;nbsp;&lt;/EM&gt;&lt;A href="749ff4f1-eeb5-43f5-98d2-021399d8cec7"&gt;Zariadenia&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt; stlačte tlačidlo &lt;I&gt;Pridať.&lt;/I&gt; V&amp;nbsp;otvorenom formulári&amp;nbsp;vyberte&amp;nbsp;typ zariadenia&amp;nbsp;&lt;EM&gt;&lt;STRONG&gt;Bonovacia tlačiareň&lt;/STRONG&gt;&lt;/EM&gt;,&amp;nbsp;zadajte názov zariadenia, vyberte model&amp;nbsp;&lt;EM&gt;&lt;STRONG&gt;EPSON TM - x&lt;/STRONG&gt;&lt;/EM&gt; a&amp;nbsp;zadajte (vyberte) &lt;STRONG&gt;názov počítača&lt;/STRONG&gt;, ku ktorému sa má zariadenie pripojiť, prípadne zadajte&amp;nbsp;ostatné údaje. Potom stlačte tlačidlo &lt;I&gt;Nastaviť zariadenie -&lt;/I&gt; otvorí sa&amp;nbsp;&lt;A href="06f5e819-cf70-4875-b3fd-eca80b19939b"&gt;formulár&lt;/A&gt;, v&amp;nbsp;ktorom v rozbaľovacom zozname &lt;EM&gt;Tlačiareň&lt;/EM&gt; vyberte možnosť &lt;STRONG&gt;&lt;EM&gt;Generic/Text Only&lt;/EM&gt;&lt;/STRONG&gt;. 
+&lt;LI&gt;Zvoľte číslo tlačiarne. Následne je potrebné rovnaké číslo bonovacej tlačiarne zvoliť aj na tých skladových kartách (&lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;formulár Skladová karta&lt;/A&gt;, záložka &lt;EM&gt;Receptúra&lt;/EM&gt;), ktorých objednávky sa budú tlačiť na tejto bonovacej tlačiarni. 
+&lt;LI&gt;Zvoľte 48 znakovú tlačiareň. Podľa potreby nastavte počet riadkov, o&amp;nbsp;ktorý sa má posunúť papier pred, resp. po vytlačení objednávky. 
+&lt;LI&gt;Vykonané nastavenia&amp;nbsp;potvrďte stlačením tlačidla &lt;EM&gt;&lt;STRONG&gt;OK&lt;/STRONG&gt;&lt;/EM&gt;. 
+&lt;LI&gt;Stlačením tlačidla &lt;EM&gt;Otestovať tlač&lt;/EM&gt; môžete overiť správnosť inštalácie a&amp;nbsp;funkčnosť pripojenej tlačiarne. 
+&lt;LI&gt;Po úspešnom otestovaní tlače je inštalácia bonovacej tlačiarne ukončená. &lt;/LI&gt;&lt;/OL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Na aktivovanie &lt;STRONG&gt;bzučiaka (pípača)&lt;/STRONG&gt; na zvukovú signalizáciu vytlačenia objednávky&amp;nbsp;zadajte vo formulári &lt;EM&gt;Generic/Text Only&lt;/EM&gt;, záložka &lt;EM&gt;Printer Commands&lt;/EM&gt; (Obrázok č. 1) príkaz &lt;STRONG&gt;&amp;lt;0D0A1B&amp;gt;i&amp;lt;1B&amp;gt;C&amp;lt;020403&amp;gt;&lt;/STRONG&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;EPSON TM-x (textový režim) -&amp;nbsp;priama tlač&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;Pripojte tlačiareň k&amp;nbsp;počítaču prostredníctvom sériového, resp. USB&amp;nbsp;portu alebo ju prostredníctvom&amp;nbsp;rozhrania LAN (ethernet kábla) pripojte do lokálnej počítačovej siete (v tom prípade bude možné s&amp;nbsp;tlačiarňou komunikovať z&amp;nbsp;viacerých počítačov). Z&amp;nbsp;technického hľadiska tlač objednávok bude smerovaná&amp;nbsp;priamo do tlačiarne (bez&amp;nbsp;systému &lt;EM&gt;Windows&lt;/EM&gt;). 
+&lt;LI&gt;Pri pripojení tlačiarne prostredníctvom rozhrania LAN, resp. sériového portu nie je nutné inštalovať ovládač tlačiarne. Pri pripojení prostredníctvom rozhrania USB je potrebné&amp;nbsp;v&amp;nbsp;systéme &lt;EM&gt;Windows&lt;/EM&gt; nainštalovať ovládač tlačiarne na vytvorenie virtuálneho sériového portu.&amp;nbsp;Orezávanie papiera a počet znakov v&amp;nbsp;riadku sú nastavené automaticky. 
+&lt;LI&gt;Ak ešte nemáte v systéme OBERON vytvorenú (založenú) firmu, vytvorte ju&amp;nbsp;- bližšie informácie nájdete v téme &lt;A href="9a485893-6dd2-44e8-9740-a4cd7083a932"&gt;Vytvorenie novej firmy&lt;/A&gt;.&amp;nbsp;&amp;nbsp; 
+&lt;LI&gt;Spustite program &lt;EM&gt;OBERON&amp;nbsp;- Agenda firmy&lt;/EM&gt;. 
+&lt;LI&gt;Zvoľte ponuku &lt;EM&gt;Servis,&amp;nbsp;&lt;/EM&gt;&lt;A href="749ff4f1-eeb5-43f5-98d2-021399d8cec7"&gt;Zariadenia&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt; stlačte tlačidlo &lt;I&gt;Pridať.&lt;/I&gt; V&amp;nbsp;otvorenom formulári vyberte&amp;nbsp;typ zariadenia&amp;nbsp;&lt;EM&gt;&lt;STRONG&gt;Bonovacia tlačiareň&lt;/STRONG&gt;&lt;/EM&gt;,&amp;nbsp;zadajte názov zariadenia, vyberte model&amp;nbsp;&lt;EM&gt;&lt;STRONG&gt;EPSON TM - x&lt;/STRONG&gt;&lt;/EM&gt; a&amp;nbsp;zadajte (vyberte) &lt;STRONG&gt;názov počítača&lt;/STRONG&gt;, ku ktorému sa má zariadenie pripojiť, prípadne zadajte&amp;nbsp;ostatné údaje. Potom stlačte tlačidlo &lt;I&gt;Nastaviť zariadenie -&lt;/I&gt; otvorí sa&amp;nbsp;&lt;A href="06f5e819-cf70-4875-b3fd-eca80b19939b"&gt;formulár&lt;/A&gt;, v&amp;nbsp;ktorom v rozbaľovacom zozname &lt;EM&gt;Tlačiareň&lt;/EM&gt; vyberte v závislosti od spôsobu komunikácie možnosť&amp;nbsp;&lt;STRONG&gt;&lt;EM&gt;Priama tlač (serial port)&lt;/EM&gt;&lt;/STRONG&gt;,&amp;nbsp;resp. &lt;EM&gt;&lt;STRONG&gt;Priama tlač (ethernet)&lt;/STRONG&gt;&lt;/EM&gt;. Pri prvej možnosti sa zariadenie bude pripájať prostredníctvom (virtuálneho) sériového portu, v druhom prípade&amp;nbsp;bude&amp;nbsp;komunikovať prostredníctvom protokolu TCP/IP. 
+&lt;LI&gt;Zvoľte číslo tlačiarne. Následne je potrebné rovnaké číslo bonovacej tlačiarne zvoliť aj na tých skladových kartách (&lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;formulár Skladová karta&lt;/A&gt;, záložka &lt;EM&gt;Receptúra&lt;/EM&gt;), ktorých objednávky sa budú tlačiť na tejto bonovacej tlačiarni. 
+&lt;LI&gt;Zvoľte 48 znakovú tlačiareň. Podľa potreby nastavte počet riadkov, o&amp;nbsp;ktorý sa má posunúť papier pred, resp. po vytlačení objednávky. 
+&lt;LI&gt;Vykonané nastavenia&amp;nbsp;potvrďte stlačením tlačidla &lt;EM&gt;OK&lt;/EM&gt;. 
+&lt;LI&gt;Stlačením tlačidla &lt;EM&gt;Otestovať tlač&lt;/EM&gt; môžete overiť správnosť inštalácie a&amp;nbsp;funkčnosť pripojenej tlačiarne. 
+&lt;LI&gt;Po úspešnom otestovaní tlače je inštalácia bonovacej tlačiarne ukončená. &lt;/LI&gt;&lt;/OL&gt;
+&lt;H1&gt;Inštalácia - tlač objednávok na tlačiarni&amp;nbsp;v&amp;nbsp;systéme Windows (textový režim)&lt;/H1&gt;
+&lt;P&gt;Pri tomto spôsobe tlače objednávok je tlačiareň štandardne pripojená k počítaču, resp. do lokálnej počítačovej siete, pričom sa na tlač využíva univerzálny&amp;nbsp;ovládač systému &lt;EM&gt;Windows&lt;/EM&gt; &lt;STRONG&gt;&lt;EM&gt;Generic/Text Only&lt;/EM&gt;&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;OL&gt;
+&lt;LI&gt;Pripojte tlačiareň k&amp;nbsp;počítaču prostredníctvom sériového, resp. USB&amp;nbsp;portu alebo ju prostredníctvom&amp;nbsp;rozhrania LAN (ethernet kábla) pripojte do lokálnej počítačovej siete (v tom prípade bude možné s&amp;nbsp;tlačiarňou komunikovať z viacerých počítačov). Z&amp;nbsp;technického hľadiska tlač objednávok bude smerovaná&amp;nbsp;do tlačiarne inštalovanej v systéme &lt;EM&gt;Windows&lt;/EM&gt;. 
+&lt;LI&gt;V systéme &lt;EM&gt;Windows&lt;/EM&gt; nainštalujte ovládač &lt;STRONG&gt;&lt;EM&gt;Generic/Text Only&lt;/EM&gt;&lt;/STRONG&gt;.&amp;nbsp;Ak budete na tlač objednávok používať tlačiareň s&amp;nbsp;orezávaním papiera, je potrebné v&amp;nbsp;ovládači nastaviť orezanie papiera. Môžete tak urobiť nastavením riadiacich znakov po ukončení tlače (napr. zadajte kódy znakov &lt;B&gt;&amp;lt;0D0A1D5601&amp;gt;&lt;/B&gt; alebo &lt;B&gt;&amp;lt;0D0A1B&amp;gt;i&lt;/B&gt;). Taktiež je potrebné nastaviť veľkosť papiera na &lt;EM&gt;Letter&amp;nbsp;&lt;/EM&gt;(pozri&amp;nbsp;Obrázok č. 1).&amp;nbsp;Ak je k tlačiarni ovládač dodávaný výrobcom, odporúčame ho tiež nainštalovať. &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 
+&lt;LI&gt;Ak ešte nemáte v systéme OBERON vytvorenú (založenú) firmu, vytvorte ju&amp;nbsp;- bližšie informácie nájdete v téme &lt;A href="9a485893-6dd2-44e8-9740-a4cd7083a932"&gt;Vytvorenie novej firmy&lt;/A&gt;. &amp;nbsp;&amp;nbsp;&amp;nbsp; 
+&lt;LI&gt;Spustite program &lt;EM&gt;OBERON&amp;nbsp;- Agenda firmy&lt;/EM&gt;. 
+&lt;LI&gt;Zvoľte ponuku &lt;EM&gt;Servis,&amp;nbsp;&lt;/EM&gt;&lt;A href="749ff4f1-eeb5-43f5-98d2-021399d8cec7"&gt;Zariadenia&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt; stlačte tlačidlo &lt;I&gt;Pridať.&lt;/I&gt; V&amp;nbsp;otvorenom formulári vyberte&amp;nbsp;typ zariadenia&amp;nbsp;&lt;EM&gt;&lt;STRONG&gt;Bonovacia tlačiareň&lt;/STRONG&gt;&lt;/EM&gt;,&amp;nbsp;zadajte názov zariadenia, vyberte model&amp;nbsp;&lt;STRONG&gt;&lt;EM&gt;&amp;lt;Obecný&amp;gt;&lt;/EM&gt;&lt;/STRONG&gt; a&amp;nbsp;zadajte&amp;nbsp;(vyberte) &lt;STRONG&gt;názov počítača&lt;/STRONG&gt;, ku ktorému sa má zariadenie pripojiť, prípadne zadajte&amp;nbsp;ostatné údaje. Potom stlačte tlačidlo &lt;I&gt;Nastaviť zariadenie -&lt;/I&gt; otvorí sa&amp;nbsp;&lt;A href="06f5e819-cf70-4875-b3fd-eca80b19939b"&gt;formulár&lt;/A&gt;, v&amp;nbsp;ktorom v rozbaľovacom zozname &lt;EM&gt;Tlačiareň&lt;/EM&gt; vyberte tlačiareň inštalovanú v&amp;nbsp;systéme &lt;EM&gt;Windows&lt;/EM&gt;. 
+&lt;LI&gt;Zvoľte číslo tlačiarne. Následne je potrebné rovnaké číslo bonovacej tlačiarne zvoliť aj na tých skladových kartách (&lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;formulár Skladová karta&lt;/A&gt;, záložka &lt;EM&gt;Receptúra&lt;/EM&gt;), ktorých objednávky sa budú tlačiť na tejto bonovacej tlačiarni. 
+&lt;LI&gt;V&amp;nbsp;závislosti od modelu tlačiarne zvoľte 40 alebo&amp;nbsp;48 znakovú tlačiareň. Podľa potreby nastavte počet riadkov, o&amp;nbsp;ktorý sa má posunúť papier pred, resp. po vytlačení objednávky. 
+&lt;LI&gt;Vykonané nastavenia&amp;nbsp;potvrďte stlačením tlačidla &lt;EM&gt;OK&lt;/EM&gt;. 
+&lt;LI&gt;Otestujte funkčnosť pripojeného zariadenia. Otvorte zoznam stolov, vytvorte nový stôl a zadajte niekoľko položiek. Po stlačení tlačidla F11 sa&amp;nbsp;po úspešnej inštalácii vytlačí na tlačiarni objednávka. 
+&lt;LI&gt;Inštalácia bonovacej tlačiarne je ukončená. &lt;/LI&gt;&lt;/OL&gt;
+&lt;H1&gt;Inštalácia&amp;nbsp;- tlač objednávok na samostatnej termotlačiarni (grafický režim)&lt;/H1&gt;
+&lt;P&gt;Pri tomto spôsobe tlače objednávok je tlačiareň štandardne pripojená k počítaču, resp. do lokálnej počítačovej siete, pričom sa na tlač využíva &lt;STRONG&gt;štandardný ovládač tlačiarne&lt;/STRONG&gt; nainštalovaný v systéme &lt;EM&gt;Windows&lt;/EM&gt;&amp;nbsp;(ovládač dodávaný výrobcom tlačiarne).&lt;/P&gt;
+&lt;OL&gt;
+&lt;LI&gt;Pripojte tlačiareň k&amp;nbsp;počítaču prostredníctvom sériového, resp. USB&amp;nbsp;portu alebo ju prostredníctvom&amp;nbsp;rozhrania LAN (ethernet kábla) pripojte do lokálnej počítačovej siete (v tom prípade bude možné s&amp;nbsp;tlačiarňou komunikovať z viacerých počítačov). Z&amp;nbsp;technického hľadiska tlač objednávok bude smerovaná&amp;nbsp;do termotlačiarne inštalovanej v systéme &lt;EM&gt;Windows&lt;/EM&gt;. 
+&lt;LI&gt;V&amp;nbsp;systéme &lt;EM&gt;Windows&lt;/EM&gt; nainštalujte ovládač tlačiarne dodávaný&amp;nbsp;jej výrobcom. 
+&lt;LI&gt;Ak ešte nemáte v systéme OBERON vytvorenú (založenú) firmu, vytvorte ju&amp;nbsp;- bližšie informácie nájdete v téme &lt;A href="9a485893-6dd2-44e8-9740-a4cd7083a932"&gt;Vytvorenie novej firmy&lt;/A&gt;. 
+&lt;LI&gt;Spustite program &lt;EM&gt;OBERON&amp;nbsp;- Agenda firmy&lt;/EM&gt;. 
+&lt;LI&gt;Zvoľte ponuku &lt;EM&gt;Servis,&amp;nbsp;&lt;/EM&gt;&lt;A href="749ff4f1-eeb5-43f5-98d2-021399d8cec7"&gt;Zariadenia&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt; stlačte tlačidlo &lt;I&gt;Pridať.&lt;/I&gt; V&amp;nbsp;otvorenom formulári vyberte&amp;nbsp;typ zariadenia&amp;nbsp;&lt;EM&gt;&lt;STRONG&gt;Bonovacia tlačiareň&lt;/STRONG&gt;&lt;/EM&gt;,&amp;nbsp;zadajte názov zariadenia, vyberte model&amp;nbsp;&lt;EM&gt;&lt;STRONG&gt;&amp;lt;Grafický režim&amp;gt;&lt;/STRONG&gt;&lt;/EM&gt; a&amp;nbsp;zadajte (vyberte) &lt;STRONG&gt;názov počítača&lt;/STRONG&gt;, ku ktorému sa má zariadenie pripojiť, prípadne zadajte&amp;nbsp;ostatné údaje. Potom stlačte tlačidlo &lt;I&gt;Nastaviť zariadenie -&lt;/I&gt; otvorí sa&amp;nbsp;&lt;A href="06f5e819-cf70-4875-b3fd-eca80b19939b"&gt;formulár&lt;/A&gt;, v&amp;nbsp;ktorom v rozbaľovacom zozname &lt;EM&gt;Tlačiareň&lt;/EM&gt; vyberte tlačiareň nainštalovanú v systéme &lt;EM&gt;Windows&lt;/EM&gt;. 
+&lt;LI&gt;Zvoľte číslo tlačiarne. Následne je potrebné rovnaké číslo bonovacej tlačiarne zvoliť aj na tých skladových kartách (&lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;formulár Skladová karta&lt;/A&gt;, záložka &lt;EM&gt;Receptúra&lt;/EM&gt;), ktorých objednávky sa budú tlačiť na tejto bonovacej tlačiarni. 
+&lt;LI&gt;Zvoľte tlačový výstup objednávky, resp. storna objednávky. V&amp;nbsp;prípade potreby je možné upraviť ich formát&amp;nbsp;pomocou štandardného &lt;A href="bd58b5ac-bf1a-44f0-9463-12aa3e5b8165"&gt;editora tlačových výstupov&lt;/A&gt;. Na tlač objednávkových kupónov pre zákazníka zvoľte možnosť &lt;EM&gt;&lt;STRONG&gt;Objednávka (kópia ako objednávkový kupón)&lt;/STRONG&gt;&lt;/EM&gt;. 
+&lt;LI&gt;Vykonané nastavenia&amp;nbsp;potvrďte stlačením tlačidla &lt;EM&gt;OK&lt;/EM&gt;. 
+&lt;LI&gt;Otestujte funkčnosť pripojeného zariadenia. Otvorte zoznam stolov, vytvorte nový stôl a zadajte niekoľko položiek. Po stlačení tlačidla F11 sa&amp;nbsp;po úspešnej inštalácii vytlačí na tlačiarni objednávka. 
+&lt;LI&gt;Inštalácia bonovacej tlačiarne je ukončená. &lt;/LI&gt;&lt;/OL&gt;
+&lt;H1&gt;Inštalácia&amp;nbsp;- tlač objednávok na tlačiarni pokladničných dokladov&lt;/H1&gt;
+&lt;P&gt;Pri tomto spôsobe sa objednávky tlačia na tej istej tlačiarni, ako pokladničné doklady (na fiškálnej tlačiarni).&lt;/P&gt;
+&lt;OL&gt;
+&lt;LI&gt;Ak ešte nemáte v systéme OBERON vytvorenú (založenú) firmu, vytvorte ju&amp;nbsp;- bližšie informácie nájdete v téme &lt;A href="9a485893-6dd2-44e8-9740-a4cd7083a932"&gt;Vytvorenie novej firmy&lt;/A&gt;. 
+&lt;LI&gt;Spustite program &lt;EM&gt;OBERON&amp;nbsp;- Agenda firmy&lt;/EM&gt;. 
+&lt;LI&gt;Zvoľte ponuku &lt;EM&gt;Servis,&amp;nbsp;&lt;/EM&gt;&lt;A href="749ff4f1-eeb5-43f5-98d2-021399d8cec7"&gt;Zariadenia&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt; stlačte tlačidlo &lt;I&gt;Pridať.&lt;/I&gt; V&amp;nbsp;otvorenom formulári vyberte&amp;nbsp;typ zariadenia&amp;nbsp;&lt;EM&gt;&lt;STRONG&gt;Bonovacia tlačiareň&lt;/STRONG&gt;&lt;/EM&gt;,&amp;nbsp;zadajte názov zariadenia, vyberte model&amp;nbsp;&lt;STRONG&gt;&lt;EM&gt;&amp;lt;Obecný&amp;gt;&lt;/EM&gt;&lt;/STRONG&gt; a&amp;nbsp;zadajte&amp;nbsp;(vyberte) &lt;STRONG&gt;názov počítača&lt;/STRONG&gt;, ku ktorému sa má zariadenie pripojiť, prípadne zadajte&amp;nbsp;ostatné údaje. Potom stlačte tlačidlo &lt;I&gt;Nastaviť zariadenie -&lt;/I&gt; otvorí sa&amp;nbsp;&lt;A href="06f5e819-cf70-4875-b3fd-eca80b19939b"&gt;formulár&lt;/A&gt;, v&amp;nbsp;ktorom v rozbaľovacom zozname &lt;EM&gt;Tlačiareň&lt;/EM&gt; vyberte možnosť&amp;nbsp;&lt;STRONG&gt;&lt;EM&gt;*** Fiškálne zariadenie&lt;/EM&gt; ***&lt;/STRONG&gt;. 
+&lt;LI&gt;Zvoľte číslo tlačiarne. Následne je potrebné rovnaké číslo bonovacej tlačiarne zvoliť aj na tých skladových kartách (&lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;formulár Skladová karta&lt;/A&gt;, záložka &lt;EM&gt;Receptúra&lt;/EM&gt;), ktorých objednávky sa budú tlačiť na tejto bonovacej tlačiarni. 
+&lt;LI&gt;V&amp;nbsp;závislosti od modelu tlačiarne zvoľte 40 alebo&amp;nbsp;48 znakovú tlačiareň. Podľa potreby nastavte počet riadkov, o&amp;nbsp;ktorý sa má posunúť papier pred, resp. po vytlačení objednávky. 
+&lt;LI&gt;Vykonané nastavenia&amp;nbsp;potvrďte stlačením tlačidla &lt;EM&gt;OK&lt;/EM&gt;. 
+&lt;LI&gt;Otestujte funkčnosť pripojeného zariadenia.&amp;nbsp; Otvorte zoznam stolov, vytvorte nový stôl a zadajte niekoľko položiek. Po stlačení tlačidla F11 sa&amp;nbsp;po úspešnej inštalácii vytlačí na tlačiarni pokladničných dokladov objednávka. 
+&lt;LI&gt;Inštalácia bonovacej tlačiarne je ukončená. &lt;/LI&gt;&lt;/OL&gt;&lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Objednávky posielané z&amp;nbsp;aplikácie&amp;nbsp;&lt;A href="942d48d5-b290-40f6-8ba3-45cf78f380f9"&gt;LUKUL&lt;/A&gt; nie je možné tlačiť na&amp;nbsp;tej istej tlačiarni, ako pokladničné doklady (nie je povolená tlač na fiškálnej tlačiarni).&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="7cc524a6-de0a-4eca-a8b2-a607fd6cc17d" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="b9d7c873-7b63-4210-86fe-ab1c66ea6502">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="cb522f72-918a-4378-8ead-896de04340de" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="749ff4f1-eeb5-43f5-98d2-021399d8cec7">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="f15edf04-98ce-4214-b51f-4f6f49f2e93d" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="7979135b-101e-4e8b-8544-bb8b653b7074">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="6e8b61fa-73c4-4d64-9ece-0e5f49b85bd2" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="a92e71d7-962a-4c7e-a6f6-18cf8cda4947">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="85b96ecb-37f0-4d59-b982-0f178945037e">
+      <Keyword m="2021-10-08T12:25:10.270033Z">Bonovacia tlačiareň - inštalácia</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="2a22b182-0eeb-4975-a518-f955fbad8e5a">
+      <Keyword m="2021-10-08T12:25:15.0712258Z">Objednávková tlačiareň - inštalácia</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="8409561a-69c1-4c0e-86a7-d66a2d3cc05c">
+      <Keyword m="2022-12-15T08:29:13.898031Z">Tlačiareň do kuchyne - inštalácia</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="7c913917-408f-4947-a884-ebe9b34b02f6">
+      <Keyword m="2023-04-20T12:04:01.1985076Z">Bzučiak (pípač) - EPSON TM-x - Generic/Text Only</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="3f86636a-09af-486e-8b08-e5276db71dcb">
+      <Keyword m="2023-04-20T12:04:16.8010052Z">Pípač (bzučiak) - EPSON TM-x - Generic/Text Only</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

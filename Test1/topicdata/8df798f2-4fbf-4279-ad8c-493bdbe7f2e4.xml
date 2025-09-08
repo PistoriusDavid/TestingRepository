@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="8df798f2-4fbf-4279-ad8c-493bdbe7f2e4" Status="Complete" CreatedOn="2014-09-04T11:40:31.3152Z" ModifiedOn="2024-08-07T12:01:43.7299471Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="ProgramControls_Branch" BuildFlags="">
+  <Title m="2014-09-04T11:40:59.1924Z">Prevádzky</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-08-07T12:01:43.7299471Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; je venovaná &lt;STRONG&gt;prevádzkam&lt;/STRONG&gt; v&amp;nbsp;systéme OBERON.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Prevádzky spravidla predstavujú &lt;STRONG&gt;vnútropodnikové útvary&lt;/STRONG&gt; (predajne, sklady, dielne...), ktoré účtovná jednotka využíva pri svojej činnosti. V prípade, že sa účtovná jednotka člení na prevádzky,&amp;nbsp;je možné tieto prevádzky v&amp;nbsp;systéme OBERON evidovať a ďalej využívať pri práci s&amp;nbsp;programom&amp;nbsp;(napr. pri tvorbe dokladov). 
+&lt;LI&gt;Prevádzky sa v systéme OBERON&amp;nbsp;delia&amp;nbsp;na: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;virtuálne&lt;/STRONG&gt; - prevádzky v rámci jednej databázy, ktoré predstavujú len účtovné rozdelenie účtovnej jednotky, 
+&lt;LI&gt;&lt;STRONG&gt;fyzické (pobočky)&lt;/STRONG&gt; - prevádzky na vzdialených miestach bez prepojenia lokálnou počítačovou sieťou, z&amp;nbsp;ktorých každá používa &lt;STRONG&gt;vlastnú databázu, ale zároveň rovnaké číslo IČO ako centrála&lt;/STRONG&gt;. Využívajú sa pri &lt;STRONG&gt;tzv. pobočkovom režime&lt;/STRONG&gt;, kde centrála aj každá pobočka majú zakúpenú vlastnú&amp;nbsp;&lt;A href="efb93a2c-e449-4770-88ba-0fe999e90ccd"&gt;licenciu&lt;/A&gt;&amp;nbsp;- viac informácií v téme&amp;nbsp;&lt;A href="4b2b3447-f2f1-4bbe-9d21-3d87994bfba8" style="auto-update-caption: true"&gt;Všeobecne o pobočkovom režime OBERON-u&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Využitie prevádzok: &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 
+&lt;UL&gt;
+&lt;LI&gt;priradenie predvolenej prevádzky k firme - vo formulári &lt;A href="a833ee8a-1289-42b9-923f-80f549497702"&gt;Údaje o firme&lt;/A&gt;, záložka &lt;EM&gt;Základné údaje&lt;/EM&gt;, 
+&lt;LI&gt;priradenie prevádzky k&amp;nbsp;používateľovi - vo&amp;nbsp;&lt;A href="12e7a96f-bc40-4359-bc7a-213d74a785d4"&gt;formulári Používateľ&lt;/A&gt;, záložka &lt;EM&gt;Podrobnosti&lt;/EM&gt;, 
+&lt;LI&gt;priradenie pracovníkov k&amp;nbsp;prevádzkam - vo&amp;nbsp;&lt;A href="8dd60281-9cc7-41fe-9dd2-2ad5c7ffe047"&gt;formulári Pracovník&lt;/A&gt;, záložka &lt;EM&gt;Zaradenie&lt;/EM&gt;, 
+&lt;LI&gt;povolenie, resp. odopretie &lt;A href="834e9546-a56b-476f-9028-ef4c24a82345"&gt;práv používateľa&lt;/A&gt; k&amp;nbsp;agende&amp;nbsp;(dokladom, tlačovým výstupom)&amp;nbsp;konkrétnej&amp;nbsp;prevádzky, 
+&lt;LI&gt;&lt;A href="c36e079b-cc33-4141-83a7-ee2b1c7b53a0"&gt;číslovanie faktúr&lt;/A&gt; - umožňuje vytvoriť číselný rad pre každú prevádzku samostatne, 
+&lt;LI&gt;číslovanie prijatých a vydaných objednávok podľa prevádzok - je potrebné nastaviť v&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="58eee6a7-b5aa-47a5-9d0e-6f9987c96a52"&gt;oddiel Firma, Sklad&lt;/A&gt;, záložka&amp;nbsp;&lt;EM&gt;Číslovania dokladov&lt;/EM&gt;, 
+&lt;LI&gt;priradenie dokladov k prevádzkam - napr. v &lt;A href="5c21adcc-87c8-44e7-981d-02902635693d"&gt;Knihe pohľadávok&lt;/A&gt;, 
+&lt;LI&gt;členenie (rozúčtovanie) mzdových nákladov v module&amp;nbsp;&lt;A href="bf009605-0be8-4286-8ef5-4c7d3b89143a"&gt;Mzdy&lt;/A&gt; a&amp;nbsp;&lt;A href="3883342c-9ef0-4fd9-8773-88df84f78f65"&gt;dochádzka&lt;/A&gt;, 
+&lt;LI&gt;členenie&amp;nbsp;záznamov v&amp;nbsp;ďalších evidenciách (napr.&amp;nbsp;v module&amp;nbsp;&lt;A href="f1a6963d-36aa-4134-92a5-fa47a4345e74"&gt;CRM a registratúra&lt;/A&gt; atď.), 
+&lt;LI&gt;tlač dokladov - v hlavičke dokladu sa tlačí adresa prevádzky, 
+&lt;LI&gt;práca s&amp;nbsp;prevádzkami&amp;nbsp;&lt;A href="b7a48886-b367-4056-808a-59ba5f871f32"&gt;obchodných partnerov&lt;/A&gt; s&amp;nbsp;ohľadom na&amp;nbsp;&lt;A href="4b420c1a-429f-4e4c-924b-9c265e241c46"&gt;tlač adries na dokladoch, resp. poštových obálkach&lt;/A&gt;, 
+&lt;LI&gt;priradenie objektov (a&amp;nbsp;tým izieb) a&amp;nbsp;&lt;A href="ffa5a889-7bfe-4165-ba83-15263eb77358"&gt;hotelových účtov&lt;/A&gt;&amp;nbsp;k prevádzkam v module&amp;nbsp;&lt;A href="c3bd41f0-029e-4c74-b342-b0ffff647b6e"&gt;Hotelová recepcia&lt;/A&gt;, 
+&lt;LI&gt;priradenie pripojiteľného zariadenia k prevádzke na zvýšenie prehľadu vo firme s prevádzkami (okrem toho prevádzka môže ovplyvňovať aj používanie daného zariadenia, napr. v module &lt;EM&gt;Pokladnica OBERON&lt;/EM&gt; je to prístup k hotelovým účtom len danej prevádzky). &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;V&amp;nbsp;prípade, že firma pracuje s&amp;nbsp;prevádzkami, možno &lt;STRONG&gt;priradiť samostatné logo každej&amp;nbsp;&lt;/STRONG&gt;prevádzke firmy (napr. v&amp;nbsp;prípade, že&amp;nbsp;účtovná jednotka&amp;nbsp;prevádzkuje&amp;nbsp;hotel a zároveň&amp;nbsp;predajňu&amp;nbsp;- vtedy sa na dokladoch budú tlačiť&amp;nbsp;rozdielne logá&amp;nbsp;v&amp;nbsp;závislosti&amp;nbsp;od zadanej prevádzky). Bližšie informácie získate v téme&amp;nbsp;&lt;A href="fe609232-2720-4a0f-bacd-713d7d0cbe09" style="auto-update-caption: true"&gt;Logo na faktúre&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Predvolená prevádzka&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Vo formulári &lt;A href="a833ee8a-1289-42b9-923f-80f549497702"&gt;Údaje o firme&lt;/A&gt;, záložka &lt;EM&gt;Základné údaje&lt;/EM&gt;&amp;nbsp;je možné priradiť firme &lt;STRONG&gt;predvolenú prevádzku&lt;/STRONG&gt;.&amp;nbsp;Následne bude možné v&amp;nbsp;jednotlivých&amp;nbsp;dokladových&amp;nbsp;evidenciách vytvoriť nový doklad aj v&amp;nbsp;prípade, že v hornej časti evidencie nebude zvolená konkrétna prevádzka (ale len&amp;nbsp;možnosť &lt;EM&gt;*** Všetky prevádzky ***&lt;/EM&gt;). 
+&lt;LI&gt;Tvorbu dokladov však ovplyvňuje aj priradenie niektorej z&amp;nbsp;prevádzok k&amp;nbsp;používateľovi (vo&amp;nbsp;&lt;A href="12e7a96f-bc40-4359-bc7a-213d74a785d4"&gt;formulári Používateľ&lt;/A&gt;, záložka &lt;EM&gt;Podrobnosti&lt;/EM&gt;). Ak je &lt;STRONG&gt;niektorá z&amp;nbsp;prevádzok priradená k používateľovi&lt;/STRONG&gt;, tiež bude možné v&amp;nbsp;jednotlivých&amp;nbsp;dokladových&amp;nbsp;evidenciách vytvoriť nový doklad aj v&amp;nbsp;prípade, že v hornej časti evidencie nebude zvolená konkrétna prevádzka (ale len&amp;nbsp;možnosť &lt;EM&gt;*** Všetky prevádzky ***&lt;/EM&gt;).&amp;nbsp;V tom prípade nerozhoduje, či&amp;nbsp;firma má alebo nemá priradenú predvolenú prevádzku, priradenie prevádzky k používateľovi má prioritu&lt;EM&gt;.&lt;/EM&gt;&amp;nbsp; 
+&lt;LI&gt;Uvedené nastavenia majú priamy vplyv na &lt;STRONG&gt;číslovanie dokladov (záznamov) podľa prevádzok&lt;/STRONG&gt;.&amp;nbsp;Pri tomto číslovaní&amp;nbsp;program pri vytváraní čísla dokladu&amp;nbsp;(záznamu) medzi prefix roku a samotné číslo dokladu vkladá číslo prevádzky, napr. 21050001 - rok 2021, číslo prevádzky 05, číslo dokladu 0001. Číslo prevádzky program uplatňuje podľa prevádzky zvolenej v hornej časti evidencie. Ak&amp;nbsp;je v&amp;nbsp;danej evidencii (napr. v&amp;nbsp;knihe pohľadávok) v&amp;nbsp;hornej časti evidencie zvolená možnosť &lt;EM&gt;*** Všetky prevádzky ***,&lt;/EM&gt; program&amp;nbsp;novému&amp;nbsp;dokladu (záznamu) priradí číslo&amp;nbsp;podľa prevádzky priradenej používateľovi, ktorý daný doklad (záznam) vytvára, prípadne predvolenej prevádzky. Viac informácií o číslovaní dokladov (záznamov) v&amp;nbsp;systéme OBERON získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="9aa7dbb1-f4a7-405e-8465-78b2133e0fd3" style="auto-update-caption: true"&gt;Číslovanie dokladov (záznamov)&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Prevádzky v module &lt;EM&gt;Hotelová recepcia&lt;/EM&gt;&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Modul&amp;nbsp;&lt;A href="c3bd41f0-029e-4c74-b342-b0ffff647b6e"&gt;Hotelová recepcia&lt;/A&gt;&amp;nbsp;umožňuje priradiť izby k objektom, v ktorých sa fyzicky nachádzajú. V prípade, že sa objekty nachádzajú na iných adresách - teda sú to osobitné prevádzky, je možné priradiť k&amp;nbsp;týmto objektom prevádzku. 
+&lt;LI&gt;V takomto prípade sa bude adresa prevádzky tlačiť aj na tlačových výstupoch z&amp;nbsp;modulu &lt;EM&gt;Hotelová recepcia,&lt;/EM&gt; napr.&amp;nbsp;na &lt;A href="6f290377-1b2d-4fe5-8c12-944b437f9337"&gt;Hlásení pobytu pre cudzineckú políciu&lt;/A&gt; alebo &lt;EM&gt;Ubytovacom poukaze - Voucheri&lt;/EM&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Prevádzky účtovnej jednotky sa definujú&amp;nbsp;vo formulári &lt;EM&gt;Prevádzka&lt;/EM&gt; (ponuka &lt;EM&gt;Firma&lt;/EM&gt;, &lt;A href="a833ee8a-1289-42b9-923f-80f549497702"&gt;Údaje o firme&lt;/A&gt;, tlačidlo&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_ListButton.png"&gt;&amp;nbsp;pri poli &lt;EM&gt;Prevádzka&lt;/EM&gt; -&amp;nbsp;otvorí sa formulár &lt;EM&gt;Prevádzky účtovnej jednotky&lt;/EM&gt;, v&amp;nbsp;ktorom stlačte tlačidlo &lt;EM&gt;Nový&lt;/EM&gt;).&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Popis formulára &lt;EM&gt;Prevádzka&lt;/EM&gt;&lt;/H2&gt;&lt;innovasys:widget type="Tab Strip" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Základné údaje&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Zadávajú sa základné údaje o&amp;nbsp;prevádzke (názov, adresa, kontaktné údaje - telefón, e-mail, webová adresa...). Adresa prevádzky&amp;nbsp;bude figurovať v rôznych tlačových výstupoch.&lt;/P&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Číslo&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Číslo prevádzky slúži ako prefix pri číslovaní dokladov v prípade, že&amp;nbsp;účtovná jednotka má nastavené&amp;nbsp;&lt;A href="c36e079b-cc33-4141-83a7-ee2b1c7b53a0"&gt;číslovanie dokladov v knihe pohľadávok a v knihe záväzkov podľa prevádzok&lt;/A&gt;. Spôsob číslovania dokladov v&amp;nbsp;knihe pohľadávok/záväzkov sa nastavuje v&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="932262cc-b80f-4ce6-aba6-6a7d4a18f5ec"&gt;oddiel Firma, Účtovníctvo&lt;/A&gt;, záložka&amp;nbsp;&lt;EM&gt;Fakturácia&lt;/EM&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Logo&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Zadáva sa logo prevádzky, ktoré sa bude tlačiť napr. na vystavených faktúrach. Logo je možné pridať pomocou tlačidla&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_Button_Images.png"&gt;. Odporúčaný rozmer&amp;nbsp;&lt;A href="ccadca4e-2fbd-4b28-8d92-f826f3019bd0"&gt;obrázka&lt;/A&gt; je 102&amp;nbsp;x&amp;nbsp;102 pixelov.&lt;/P&gt;
+&lt;P&gt;Bližšie informácie v téme&amp;nbsp;&lt;A href="fe609232-2720-4a0f-bacd-713d7d0cbe09" style="auto-update-caption: true"&gt;Logo na faktúre&lt;/A&gt;.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Oddelenia&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;V prípade členenia prevádzky na menšie jednotky je možné nadefinovať jednotlivé oddelenia danej prevádzky (napr. &lt;EM&gt;Oddelenie vývoja, Oddelenie podpory&lt;/EM&gt; a pod.). Oddelenia&amp;nbsp;je možné využiť napr. na podrobnejšie členenie záznamov vo vybraných evidenciách (napr.&amp;nbsp;&lt;A href="a2807e3b-d8b1-4d61-a3b9-63df2783bfda"&gt;Úlohy a udalosti&lt;/A&gt; v module&amp;nbsp;&lt;A href="f1a6963d-36aa-4134-92a5-fa47a4345e74"&gt;CRM a&amp;nbsp;registratúra&lt;/A&gt;).&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Ostatné&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;H3&gt;Webové služby&lt;/H3&gt;
+&lt;P&gt;&lt;A href="58bb31ca-00c8-4641-ad99-7d58e24f59c5"&gt;Webové služby&lt;/A&gt;&amp;nbsp;umožňujú komunikáciu medzi systémom OBERON&amp;nbsp;a ďalšími nadstavbovými modulmi, resp. aplikáciami,&amp;nbsp;prípadne aj&amp;nbsp;inými externými systémami. Bližšie informácie nájdete v téme&amp;nbsp;&lt;A href="58bb31ca-00c8-4641-ad99-7d58e24f59c5"&gt;Všeobecne o webových službách&lt;/A&gt;.&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;Verejná adresa (url)&lt;/STRONG&gt; - zadáva sa verejná url adresa - najčastejšie je to adresa webovej stránky prevádzky, na ktorej sa využívajú webové služby OBERON,&amp;nbsp;napr. http://hotelplesnivec.sk. Daná adresa sa používa pre generovanie odkazu napr. pre&amp;nbsp;&lt;A href="0773204a-fdc5-42c2-89b0-73d53dd5a2e4"&gt;on-line check-in&lt;/A&gt;&amp;nbsp;(&lt;EM&gt;Pre check-in&lt;/EM&gt;).&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;Interná adresa (url)&lt;/STRONG&gt; -&amp;nbsp;zadáva sa privátna url adresa webovej služby v rámci lokálnej počítačovej siete prevádzky v tvare 192.168.11.11:21001. Je to url adresa, kde fyzicky beží webová služba. Dané url sa používa&amp;nbsp;na generovanie odkazu napr. pre&amp;nbsp;&lt;A href="5b415da0-dc8c-4b42-8572-14159203f57a"&gt;rýchly check-in&lt;/A&gt;.&lt;/P&gt;
+&lt;H3&gt;Ubytovacie zariadenia&lt;/H3&gt;
+&lt;P&gt;Zadáva sa identifikátor, ktorý ubytovacie zariadenie&amp;nbsp;dostalo po registrácii na &lt;EM&gt;Ministerstve vnútra SR&lt;/EM&gt;&amp;nbsp;na hlásenie pobytu cudzincov elektronickou formou. V prípade, že ubytovacie zariadenie má viacero&amp;nbsp;&lt;A href="8df798f2-4fbf-4279-ad8c-493bdbe7f2e4"&gt;prevádzok&lt;/A&gt; a viacero identifikátorov zariadenia, identifikátor sa zadáva ku každej prevádzke.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Externé systémy&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Zadávajú sa jedinečné identifikátory prevádzky, ktoré slúžia na prepojenie OBERON-u s externými systémami (napr. manažérmi rezervačných kanálov&amp;nbsp;&lt;A href="2564d1eb-a7ed-46a7-a957-6087afe26471"&gt;Beds24&lt;/A&gt;,&amp;nbsp;&lt;A href="3e65fff1-f915-40da-8283-7ddd54167c2b"&gt;D-EDGE&lt;/A&gt;). &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="0128c075-a1b0-4884-a520-762b56fcd3e7" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="a833ee8a-1289-42b9-923f-80f549497702">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="c34aa541-f7e6-4fbe-99f8-c0707401ee31" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="4b2b3447-f2f1-4bbe-9d21-3d87994bfba8">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="ec9b060c-c8aa-4e7b-829c-74e9e00263a6">
+      <Keyword m="2021-03-25T13:34:40.2862414Z">Logo - prevádzka</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="be9dd4a4-4cc5-4924-8ce9-e50f5dbdedc8">
+      <Keyword m="2021-03-25T13:35:34.1642934Z">Hotelová recepcia - prevádzky</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="74efe1c2-a043-4c1b-bd23-b28927a841ca">
+      <Keyword m="2022-01-24T11:49:49.5618545Z">Obrázok - logo prevádzky</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="d3175bd2-677b-4691-a33e-db540409467a">
+      <Keyword m="2022-01-24T13:25:34.7414086Z">Prevádzky - delenie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="3f72ad62-57cf-498c-b97b-61e30f1c2366">
+      <Keyword m="2022-01-24T13:25:44.8307904Z">Prevádzka - fyzická (pobočka)</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="75a474a3-c3b0-4051-bb5a-3fea6cd6ce33">
+      <Keyword m="2022-01-24T13:25:50.2592117Z">Prevádzka - virtuálna</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="5e3e3ddd-f837-4ab7-bfbe-69fcad526325">
+      <Keyword m="2022-01-24T13:25:56.8647649Z">Virtuálna prevádzka</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="89d1a05b-04fb-405f-b7b4-9e9b5d2da761">
+      <Keyword m="2022-01-24T13:26:19.708195Z">Oddelenie - prevádzka</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="75b07f2a-c0c5-49e1-8ac4-2296eb0bc306">
+      <Keyword m="2022-01-24T13:26:38.1339512Z">Pobočka - fyzická prevádzka</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="5e895177-57d9-422f-9894-0c1a6bcdca08">
+      <Keyword m="2022-01-24T14:20:35.0749928Z">Formulár Prevádzka</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="c1196621-80a6-4608-a17e-06b0c0d7864a">
+      <Keyword m="2022-01-24T14:20:39.5250279Z">Prevádka - formulár</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="e4b78b22-b4bb-4f90-9ffd-b5d77ff92f99">
+      <Keyword m="2022-03-03T13:31:34.4943236Z">Predvolená prevádzka</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

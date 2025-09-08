@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="9abefb3a-4c7f-4c93-bc46-883d2e85d910" Status="Complete" CreatedOn="2024-06-20T07:05:49.9040032Z" ModifiedOn="2024-12-04T09:01:03.7016082Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="CashRegister_Started_PaymentCancellation" BuildFlags="">
+  <Title m="2024-06-20T10:36:40.4093433Z">Vrátenie tovaru</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-12-04T09:01:03.7016082Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje&amp;nbsp;&lt;STRONG&gt;informácie&amp;nbsp;týkajúce vrátenia tovaru&lt;/STRONG&gt;&amp;nbsp;na&amp;nbsp;&lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnici OBERON&lt;/A&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné&amp;nbsp;informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;V&amp;nbsp;odôvodnených prípadoch možno na &lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnici OBERON&lt;/A&gt; vykonať vrátenie&amp;nbsp;tovaru, a to aj ľubovoľný počet dní spätne. Vrátenie tovaru je vlastne &lt;STRONG&gt;stornovanie položky, resp. celého dokladu po tom, čo už bol pokladničný doklad zaevidovaný&lt;/STRONG&gt;&amp;nbsp;(napr. pri reklamácii). 
+&lt;LI&gt;V závislosti od toho, či sa pôvodný pokladničný doklad nachádza v databázovej evidencii, alebo nie, sa&amp;nbsp;vrátenie tovaru vykonáva dvoma spôsobmi: 
+&lt;UL&gt;
+&lt;LI&gt;pomocou tlačidla &lt;EM&gt;&lt;STRONG&gt;Vrátenie tovaru (Ctrl+T)&lt;/STRONG&gt;&lt;/EM&gt; - používa sa v prípade, že sa pôvodný pokladničný doklad &lt;STRONG&gt;nachádza v databázovej evidencii&lt;/STRONG&gt; (v&amp;nbsp;knihe&amp;nbsp;&lt;A href="a4568b9d-f4ac-4d94-b56f-de3717381da7"&gt;Pokladničné doklady&lt;/A&gt;). Funkcia umožňuje vrátiť všetky položky (celý doklad), alebo len vybrané&amp;nbsp;položky pokladničného&amp;nbsp;dokladu.&amp;nbsp;&lt;STRONG&gt;Len vrátenie tovaru týmto spôsobom zaručuje&lt;/STRONG&gt; &lt;STRONG&gt;automatické pridanie pôvodného identifikátora pokladničného dokladu (UID alebo OKP),&lt;/STRONG&gt; &lt;STRONG&gt;čo je povinnou súčasťou storna dokladu&lt;/STRONG&gt;. &lt;SPAN style="COLOR: rgb(255,0,0)"&gt;Bez pridania UID, resp. OKP nebude možné doklad s&amp;nbsp;položkami na vrátenie zaevidovať. Zároveň je potrebné, aby bolo UID, resp. OKP zadané správne, inak bude storno dokladu neplatné a bude môcť byť sankcionované finančnou správou&lt;/SPAN&gt;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;.&lt;/SPAN&gt; Program umožňuje aj vrátenie tovaru s&amp;nbsp;inou (pôvodnou)&amp;nbsp;sadzbou DPH (napr. pri legislatívnej zmene sadzby DPH). V&amp;nbsp;takomto prípade je potrebné v&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="5a6e5663-262e-4ff0-9741-1569385d11e4"&gt;oddiel Firma, Všeobecné&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt; záložka &lt;EM&gt;Základné&lt;/EM&gt; mať nastavené okrem aktuálnych aj pôvodné sadzby DPH (viac informácií v&amp;nbsp;téme&amp;nbsp;&lt;A href="3259200c-95c0-4632-adfb-62dafae5c955" style="auto-update-caption: true"&gt;Tvorba dokladov po zmene sadzby DPH&lt;/A&gt;)&amp;nbsp;a&amp;nbsp;príslušné daňové hladiny mať &lt;A href="06f5e819-cf70-4875-b3fd-eca80b19939b"&gt;nastavené aj vo fiškálnom zariadení&lt;/A&gt;. Postup&amp;nbsp;vrátenia tovaru týmto prvým&amp;nbsp;spôsobom pozri nižšie. 
+&lt;LI&gt;pomocou funkcie &lt;EM&gt;&lt;STRONG&gt;Vrátenie tovaru&lt;/STRONG&gt;&lt;/EM&gt; v záložke &lt;EM&gt;Iné údaje dokladu&lt;/EM&gt; - používa sa v prípade, že sa pôvodný pokladničný doklad &lt;STRONG&gt;v databázovej evidencii&lt;/STRONG&gt; (v&amp;nbsp;knihe&amp;nbsp;&lt;A href="a4568b9d-f4ac-4d94-b56f-de3717381da7"&gt;Pokladničné doklady&lt;/A&gt;)&lt;STRONG&gt;&amp;nbsp;nenachádza&lt;/STRONG&gt; (napr. z dôvodu, že bol zmazaný, bol zaevidovaný (vytlačený) na inej pokladnici, v&amp;nbsp;inej prevádzke alebo v inom&amp;nbsp;pokladničnom systéme&amp;nbsp;a pod.).&amp;nbsp;Funkcia umožňuje vrátiť všetky položky pokladničného dokladu (celý doklad), alebo len vybrané&amp;nbsp;položky pokladničného&amp;nbsp;dokladu.&amp;nbsp;Postup&amp;nbsp;vrátenia&amp;nbsp;tovaru týmto druhým&amp;nbsp;spôsobom pozri nižšie. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Po vykonaní vrátenia tovaru (storna) možno v programe použiť funkciu&amp;nbsp;&lt;A href="dc54990f-39a8-4a17-b0bf-9b463e6c9303" style="auto-update-caption: true"&gt;Prepočet obstarávacích cien a výnosov&lt;/A&gt; na opätovné prepočítanie obstarávacích cien a&amp;nbsp;výnosov na všetkých&amp;nbsp;&lt;A href="1a33ab0b-2df7-4dc2-962b-8a3319c16831"&gt;skladových kartách&lt;/A&gt; v danom&amp;nbsp;&lt;A href="1e423d36-8e0a-4420-b2e9-05f12806ec3a"&gt;sklade&lt;/A&gt;. 
+&lt;LI&gt;Vrátenie tovaru (storno) sa automaticky zaznamenáva (loguje) v rámci&amp;nbsp;&lt;A href="bc30e126-afb5-41aa-a261-e92501038063"&gt;Sledovania činností&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Postup vrátenia tovaru&amp;nbsp;- doklad sa nachádza v databázovej evidencii&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;V &lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnici OBERON&lt;/A&gt;&amp;nbsp;stlačte tlačidlo &lt;EM&gt;&lt;STRONG&gt;Vrátenie tovaru (Ctrl+T)&lt;/STRONG&gt;.&lt;/EM&gt; Otvorí formulár so zoznamom zaevidovaných pokladničných dokladov. 
+&lt;LI&gt;Ak máte v systéme definovaných viacero pokladníc, v záhlaví formulára&amp;nbsp;v rozbaľovacom zozname &lt;STRONG&gt;vyberte danú pokladnicu a zadajte dátum zaevidovania dokladu&lt;/STRONG&gt;. 
+&lt;LI&gt;V zozname zobrazených&amp;nbsp;zaevidovaných pokladničných dokladov vyberte príslušný pokladničný doklad, ktorý chcete stornovať. Položky dokladu sa automaticky načítajú do &lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnice OBERON&lt;/A&gt;, avšak &lt;STRONG&gt;s&amp;nbsp;príznakom &lt;EM&gt;Vrátenie tovaru&lt;/EM&gt;&lt;/STRONG&gt; (budú zobrazené&amp;nbsp;&lt;STRONG style="COLOR: rgb(255,0,0)"&gt;červenou farbou&lt;/STRONG&gt;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;&amp;nbsp;&lt;/SPAN&gt;a so zápornými hodnotami&amp;nbsp;množstva a ceny). 
+&lt;LI&gt;V prípade, že ide o&amp;nbsp;vrátenie &lt;STRONG&gt;len vybraných položiek, ostatné položky&amp;nbsp;dokladu vymažte&lt;/STRONG&gt;. 
+&lt;LI&gt;Stlačením tlačidla &lt;EM&gt;Tlač dokladu&lt;/EM&gt; &lt;EM&gt;F12&lt;/EM&gt; doklad zaevidujte. &lt;/LI&gt;&lt;/OL&gt;
+&lt;H2&gt;Postup vrátenia tovaru&amp;nbsp;- doklad sa nenachádza v databázovej evidencii&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;V &lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnici OBERON&lt;/A&gt;&amp;nbsp;medzi záložkami ľavého panela zvoľte záložku &lt;EM&gt;&lt;STRONG&gt;Iné údaje dokladu&lt;/STRONG&gt;&lt;/EM&gt;. 
+&lt;LI&gt;Do poľa &lt;EM&gt;&lt;STRONG&gt;Číslo pôvodného dokladu&lt;/STRONG&gt;&lt;/EM&gt; zadajte&amp;nbsp;pôvodné číslo dokladu, resp. pôvodný identifikátor pokladničného dokladu (UID alebo OKP). UID, resp. OKP možno načítať aj&amp;nbsp;jednoduchým nasnímaním QR kódu na pokladničnom doklade pomocou aplikácie&amp;nbsp;&lt;A href="518026eb-be63-494d-b3e3-837f9509c543"&gt;QeeR skener&lt;/A&gt;, resp.&amp;nbsp;&lt;A href="80a78093-fc45-4db9-b74b-e1f9829f7b3c"&gt;snímačom čiarových kódov&lt;/A&gt;. 
+&lt;LI&gt;Do otvoreného účtu na &lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnici OBERON&lt;/A&gt;&amp;nbsp;pridajte buď všetky, alebo len vybrané položky dokladu, ktoré sa budú stornovať (v závislosti od toho, či sa bude stornovať celý doklad, alebo len vybrané položky dokladu). 
+&lt;LI&gt;Kurzorom označte položku dokladu, ktorá sa má stornovať. Stlačte tlačidlo na editáciu položiek dokladu &lt;STRONG&gt;so symbolom žltej ceruzky&lt;/STRONG&gt; &lt;IMG style="HEIGHT: 20px; WIDTH: 19px" border=0 alt="" src="images/CashRegister/CashRegister_Button_Edit.png" width=35 height=36&gt;. Otvorí sa formulár &lt;EM&gt;Oprava položky&lt;/EM&gt;. V záložke &lt;EM&gt;Základné&lt;/EM&gt; v rozbaľovacom zozname &lt;EM&gt;Typ položky&lt;/EM&gt; vyberte možnosť&amp;nbsp;&lt;EM&gt;&lt;STRONG&gt;Vrátenie tovaru (záporná položka)&lt;/STRONG&gt;&lt;/EM&gt; a stlačte tlačidlo &lt;EM&gt;&lt;STRONG&gt;OK&lt;/STRONG&gt;&lt;/EM&gt; (pozri Obrázok č. 1). Označenej položke sa nastaví príznak &lt;STRONG&gt;&lt;EM&gt;Vrátenie tovaru&lt;/EM&gt;&lt;/STRONG&gt; (zobrazí sa&amp;nbsp;&lt;STRONG style="COLOR: rgb(255,0,0)"&gt;červenou farbou&lt;/STRONG&gt;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;&amp;nbsp;&lt;/SPAN&gt;a so zápornými hodnotami&amp;nbsp;množstva a ceny). 
+&lt;LI&gt;Stlačením tlačidla &lt;EM&gt;Tlač dokladu&lt;/EM&gt; &lt;EM&gt;F12&lt;/EM&gt; doklad zaevidujte. &lt;/LI&gt;&lt;/OL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Tento postup možno použiť aj v prípade, že sa pokladničný doklad nachádza v databázovej evidencii, prípadne možno postupovať štandardným spôsobom pomocou&amp;nbsp;tlačidla &lt;EM&gt;Vrátenie tovaru (Ctrl+T)&lt;/EM&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H5&gt;Obrázok č. 1:&amp;nbsp;Pole &lt;EM&gt;Číslo pôvodného dokladu&lt;/EM&gt; v záložke&amp;nbsp;&lt;EM&gt;Iné údaje dokladu&lt;/EM&gt;&amp;nbsp;na &lt;EM&gt;Pokladnici OBERON&lt;/EM&gt;&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/CashRegister/Form_CashRegister_OtherBilInformation.PNG"&gt;&lt;/P&gt;
+&lt;H5&gt;Obrázok č. 2: Vrátenie tovaru (storno) - výber možnosti &lt;EM&gt;Vrátenie tovaru (záporná položka)&lt;/EM&gt;&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/CashRegister/Form_CashRegister_Typpolozky3.png"&gt;&lt;/P&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Používateľ môže mať&amp;nbsp;zakázané právo zaevidovať (vytlačiť) doklad, na ktorom sú záporné položky typu &lt;EM&gt;Vrátenie tovaru&lt;/EM&gt;; vtedy môže iný&amp;nbsp;používateľ&amp;nbsp;pokladnice&amp;nbsp;takýto doklad schváliť.&amp;nbsp;Používateľ s&amp;nbsp;povolenými právami na takýto doklad sa identifikuje svojím menom a&amp;nbsp;heslom (ako pri bežnom prihlásení), a tak umožní obsluhe pokladnice daný doklad zaevidovať (vytlačiť).&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="6ae023db-f7f7-4f4c-8c57-82f3dd25cce8" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="9b7655d5-4284-4a12-9d93-d1e97970fbb3" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="69bbd499-45c0-4b0f-8f7a-c53fa5d70c1b">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="9cee608a-2244-4c00-bd20-7115cba713f0" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="e76125f0-4fb3-4e56-82db-667593132461">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="b30f289b-82fb-4b4d-a356-1971ea26a58f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="80a78093-fc45-4db9-b74b-e1f9829f7b3c">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="23ea080d-63f4-484b-b4dd-25bce75d21fa" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="518026eb-be63-494d-b3e3-837f9509c543">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="a4863ab5-e3a7-4a3a-af5f-548c28b6f574" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="a4568b9d-f4ac-4d94-b56f-de3717381da7">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="5420b490-1741-4d33-a1f0-1dd28be4b590" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="06f5e819-cf70-4875-b3fd-eca80b19939b">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="5c3e3ab2-70e1-4e27-a7a8-24f633ee7919" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="dc54990f-39a8-4a17-b0bf-9b463e6c9303">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="538d3f3a-355d-439a-a889-8bff3eafb862" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="58d85eb3-1501-4964-a648-35fe4f076b1a">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="d0b78313-7a71-4e92-a541-00a82ef89959">
+      <Keyword m="2024-07-08T12:14:24.5213524Z">Storno položky dokladu - Pokladnica OBERON</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="7dc4a23d-9edf-432d-be8f-4f1900a12881">
+      <Keyword m="2024-07-08T10:11:56.0841699Z">UID/OKP - vrátenie tovaru</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="9356a2a5-4605-447d-92c0-3f84066404b5">
+      <Keyword m="2024-07-08T10:12:08.9560909Z">Storno dokladu - Pokladnica OBERON</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="06cc8df2-435a-4ca8-9855-5c2f8900c597">
+      <Keyword m="2024-07-08T10:12:24.0748303Z">Postup vrátenia tovaru - doklad sa nenachádza v databázovej evidencii</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="ca2d7280-e045-4b03-a0ce-51b673add93c">
+      <Keyword m="2024-07-08T10:18:17.3925502Z">Postup storna dokladu - doklad sa nenachádza v databázovej evidencii</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="638001ad-cc17-462a-a05c-2f2db6b3b2e9">
+      <Keyword m="2024-07-08T12:13:59.7032379Z">Postup storna dokladu - doklad sa nachádza v databázovej evidencii</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="5f296afb-920d-46ae-b3ea-4df4ac1c3a1c">
+      <Keyword m="2024-07-08T12:14:09.3678917Z">Postup vrátenia tovaru - doklad sa nachádza v databázovej evidencii</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="6ded64dc-fec3-4445-8156-19b7c10f72ad">
+      <Keyword m="2024-07-08T12:14:35.9172761Z">Tovar - vrátenie na pokladnici</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

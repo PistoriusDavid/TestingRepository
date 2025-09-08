@@ -1,0 +1,377 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="2ba6a435-be52-46a1-b723-fb2b8ca084c0" Status="Complete" CreatedOn="2014-09-05T06:44:38.159458Z" ModifiedOn="2024-12-18T09:10:01.7110523Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="OBERONCenter_eShop_Overview" BuildFlags="">
+  <Title m="2014-11-30T12:24:12.4843216Z">Internetový obchod v systéme OBERON</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-12-18T09:10:01.7110523Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka OBERON&lt;/EM&gt; predstavuje &lt;STRONG&gt;tie e-shopové riešenia, ktoré je možné prepojiť so systémom OBERON&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;H2&gt;Riešenie internetového obchodu v systéme OBERON&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Problematika výberu vhodného e-shopového riešenia z pohľadu&amp;nbsp;predajcu je veľmi komplexnou témou,&amp;nbsp;ktorej sa&amp;nbsp;venujú celé tímy špecialistov a množstvo odbornej literatúry&amp;nbsp; (správny výber domény, marketing, SEO, biznis modely…). Pri výbere vhodného internetového obchodu je preto potrebné&amp;nbsp;postupovať premyslene. 
+&lt;LI&gt;Systém OBERON umožňuje vytvoriť prepojenie s viacerými internetovými obchodmi - &lt;STRONG&gt;spočíva hlavne v importe prijatých objednávok a exporte a&amp;nbsp;aktualizácii skladových&amp;nbsp;kariet (v&amp;nbsp;prostredí&amp;nbsp;e-shopu&amp;nbsp;označované ako&amp;nbsp;produkty), resp. cien a množstiev skladových položiek&lt;/STRONG&gt;. 
+&lt;LI&gt;Z hľadiska spôsobu komunikácie podporované e-shopové riešenia delíme na:&lt;BR&gt;&lt;STRONG&gt;A)&lt;/STRONG&gt; &lt;A href="4bc0fb91-8926-432e-879e-5e0150ed62d3"&gt;&lt;STRONG&gt;on-line internetový obchod (s priamym pripojením)&lt;/STRONG&gt;&lt;/A&gt; - OBERON komunikuje s internetovým obchodom priamo v&amp;nbsp;užšej väzbe prostredníctvom &lt;STRONG&gt;natívneho formátu&lt;/STRONG&gt; pre daný e-shop,&amp;nbsp;&lt;STRONG&gt;webových služieb&lt;/STRONG&gt;&amp;nbsp;alebo&amp;nbsp;&lt;STRONG&gt;rozhrania API&lt;/STRONG&gt;&amp;nbsp;(bez&amp;nbsp;alebo s konkrétnym ovládačom internetového obchodu), bez potreby relatívne ťažkopádnych exportov/importov údajov. Prepojenie je z tohto dôvodu rýchlejšie, robustnejšie a&amp;nbsp;menej poruchové. Tento typ prepojenia umožňuje implementáciu všetkých potrebných funkcií a možností, čo off-line pripojením je možné&amp;nbsp;len veľmi ťažko dosiahnuť.&lt;BR&gt;&lt;B&gt;B) &lt;A href="22856409-6be1-40cd-8216-1b6caae2c548"&gt;off-line internetový obchod (export/import údajov)&lt;/A&gt;&lt;/B&gt; - využíva exporty/importy údajov pomocou súborov &lt;A href="8086cb46-289b-420c-bbeb-825d6fc0deb5"&gt;typu XML alebo CSV&lt;/A&gt;.&amp;nbsp;Výhodou tohto riešenia&amp;nbsp; je jednoduchšia a&amp;nbsp;rýchlejšia implementácia ešte nepodporovaného internetového obchodu, nevýhodou&amp;nbsp;zas menšia schopnosť nájsť v prípade problémov chybu v komunikácii a overiť korektnosť daného exportu alebo importu údajov. 
+&lt;LI&gt;Z technického hľadiska komunikuje s internetovým obchodom program &lt;A href="24e780fd-36d3-4a6e-bfc0-a8665c75e4ee"&gt;OBERON Center&lt;/A&gt;, ktorý v prípade automatického nastavenia pracuje na pozadí -&amp;nbsp;v&amp;nbsp;určených časových&amp;nbsp;intervaloch aktualizuje ceny a množstvá skladových položiek v internetovom obchode,&amp;nbsp;prípadne importuje objednávky a aktualizuje ich stavy. V prípade sieťovej prevádzky &lt;A href="24e780fd-36d3-4a6e-bfc0-a8665c75e4ee"&gt;OBERON Center&lt;/A&gt;&amp;nbsp;komunikuje s internetovým obchodom vždy&amp;nbsp;len na jednom počítači (teda nie na každom počítači v sieti). 
+&lt;LI&gt;Aby bolo možné s&amp;nbsp;internetovým obchodom pracovať, je potrebné v&amp;nbsp;programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt; v&amp;nbsp;ponuke&amp;nbsp;&lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="58eee6a7-b5aa-47a5-9d0e-6f9987c96a52"&gt;oddiel Firma, Všeobecné&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt; záložka&amp;nbsp;&lt;EM&gt;Skladové karty&lt;/EM&gt;, sekcia &lt;I&gt;Skladová karta&lt;/I&gt; začiarknuť pole &lt;I&gt;&lt;STRONG&gt;Umožniť pracovať s&amp;nbsp;internetovým obchodom&lt;/STRONG&gt;&lt;/I&gt;. Vtedy sa na &lt;A href="1a33ab0b-2df7-4dc2-962b-8a3319c16831"&gt;skladovej karte&lt;/A&gt;&amp;nbsp;zobrazí nová záložka &lt;I&gt;Internetový obchod -&lt;/I&gt; obsahuje údaje, ktoré sú potrebné&amp;nbsp;na internetový predaj. Na zaradenie danej skladovej karty do exportu do internetového obchodu je potrebné v tejto záložke začiarknuť políčko &lt;I&gt;&lt;STRONG&gt;Zaradiť do internetového obchodu&lt;/STRONG&gt;&lt;/I&gt;. 
+&lt;LI&gt;Funkcia prepojenia OBERON-u s internetovým obchodom &lt;STRONG&gt;je bezplatná.&lt;/STRONG&gt; Samotné nastavenie prepojenia OBERON-u s internetovým obchodom &lt;STRONG&gt;si&amp;nbsp;používateľ&amp;nbsp;zabezpečuje vo vlastnej réžii&lt;/STRONG&gt;,&amp;nbsp;spravidla s využitím služieb&amp;nbsp;&lt;A href="https://exalogic.sk/oberon/suvisiace-produkty/internetove-obchody/oberon-a-prestashop/" target=_blank&gt;tretej strany&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Podporované internetové obchody&lt;/H2&gt;
+&lt;P&gt;&lt;STRONG&gt;A) On-line internetové obchody (s priamym pripojením):&lt;/STRONG&gt;&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;A href="7437cbeb-c6d1-4b19-92ee-150ba8e4097f"&gt;&lt;STRONG&gt;PrestaShop&lt;/STRONG&gt;&lt;/A&gt; - predstavuje on-line internetový obchod, ktorý ako jediné z e-shopových riešení na trhu&amp;nbsp;systém OBERON podporuje &lt;STRONG&gt;priamo&lt;/STRONG&gt; &lt;STRONG&gt;(od verzie 1.7.x)&lt;/STRONG&gt; &lt;STRONG&gt;prostredníctvom natívneho formátu pre tento e-shop, pričom časť komunikácie prebieha aj prostredníctvom rozhrania WEB API &lt;EM&gt;PrestaShopu&lt;/EM&gt;&lt;/STRONG&gt;.&amp;nbsp;Z&amp;nbsp;tohto dôvodu je pre používateľov OBERON-u &lt;STRONG&gt;odporúčanou e-shopovou platformou&lt;/STRONG&gt;. Dôvodom je skutočnosť, že ide o všeobecne obľúbený a často používaný internetový obchod, ktorý vďaka bezplatne distribuovanému systému s otvoreným kódom (open source) s&amp;nbsp;množstvom predvolených šablón a&amp;nbsp;modulov môže nájsť uplatnenie v ktoromkoľvek druhu podnikania. Viac informácií získate v téme&amp;nbsp;&lt;A href="7437cbeb-c6d1-4b19-92ee-150ba8e4097f"&gt;Internetový obchod PrestaShop&lt;/A&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;&lt;A href="https://www.csweb.sk/" target=_blank&gt;CREATIVE SOLUTION&lt;/A&gt;&lt;/STRONG&gt; - e-shopová platforma implementovaná do systému OBERON &lt;STRONG&gt;prostredníctvom API rozhrania&lt;/STRONG&gt;. Tento spôsob komunikácie umožňuje pridávať alebo modifikovať aj funkcionality šité na mieru podľa požiadaviek prevádzkovateľa internetového obchodu. Na rozdiel od iných riešení, ovládač pri tejto e-shopovej platforme nie je potrebný. 
+&lt;LI&gt;&lt;A href="http://www.grandus.sk/" target=_blank&gt;&lt;STRONG&gt;GRANDUS&lt;/STRONG&gt;&lt;/A&gt; -&amp;nbsp;stabilná a rýchla&amp;nbsp;e-shopová platforma, so systémom OBERON komunikuje &lt;STRONG&gt;cez rozhranie API&amp;nbsp;pomocou ovládača&lt;/STRONG&gt; (&lt;EM&gt;eShopGrandus.dll&lt;/EM&gt;) dostupného vo forme doplnku v&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="a1ae5eb5-f369-4aab-80b2-c6585166d550"&gt;Správca doplnkov&lt;/A&gt;, oddiel &lt;EM&gt;Ovládače&lt;/EM&gt;. Ovládač slúži na &lt;STRONG&gt;import prijatých objednávok z internetového obchodu do OBERON-u&lt;/STRONG&gt;. Po prvotnej inštalácii ovládača je potrebné v programe &lt;EM&gt;OBERON Center&lt;/EM&gt;, oddiel &lt;EM&gt;Internetový obchod&lt;/EM&gt;, nadefinovať on-line pripojenie k internetovému obchodu. 
+&lt;LI&gt;&lt;A href="https://www.wooconn.sk/" target=_blank&gt;&lt;STRONG&gt;WooConn&lt;/STRONG&gt;&lt;/A&gt; - e-shopové riešenie vytvorené na základe inštalácie pluginu &lt;EM&gt;WooCommerce&lt;/EM&gt; do &lt;EM&gt;WordPressu&lt;/EM&gt; a&amp;nbsp;prepojené so systémom OBERON &lt;STRONG&gt;na základe pluginu &lt;EM&gt;WooCommerce OBERON Connector&lt;/EM&gt;&lt;/STRONG&gt;. &lt;EM&gt;WooCommerce OBERON Connector&lt;/EM&gt; je plugin, ktorý v&amp;nbsp;pravidelných časových intervaloch obojsmerne synchronizuje dáta medzi &lt;EM&gt;WooCommerce&lt;/EM&gt; e-shopom vo &lt;EM&gt;WordPresse&lt;/EM&gt; a&amp;nbsp;systémom OBERON. Jednosmerne z&amp;nbsp;&lt;EM&gt;WooCommerce&lt;/EM&gt; e-shopu do OBERON-u sa exportujú údaje o&amp;nbsp;zákazníkoch a&amp;nbsp;objednávkach. Opačným smerom sa importujú údaje o&amp;nbsp;produktoch a&amp;nbsp;kategóriách. Správa objednávok prebieha na strane OBERON-u. 
+&lt;LI&gt;&lt;A href="https://oberonconnector.sk/" target=_blank&gt;&lt;STRONG&gt;OBERON Connector&lt;/STRONG&gt;&lt;/A&gt; - e-shopové riešenie vytvorené na základe inštalácie pluginu &lt;EM&gt;WooCommerce&lt;/EM&gt; do &lt;EM&gt;WordPressu&lt;/EM&gt; a&amp;nbsp;prepojené so systémom OBERON &lt;STRONG&gt;na základe pluginu &lt;EM&gt;OBERON Connector&lt;/EM&gt;&lt;/STRONG&gt;. Rozsah synchronizácie: synchronizácia objednávok, skladových zásob, cien, automatické vytvorenie výdajky ku faktúre,&amp;nbsp; automatické založenie skladovej karty z objednávky. 
+&lt;LI&gt;&lt;A href="https://www.shoptet.sk/" target=_blank&gt;&lt;STRONG&gt;Shoptet&lt;/STRONG&gt;&lt;/A&gt; - česká platforma pre tvorbu a správu e-shopov,&amp;nbsp;prepojenie so systémom OBERON sa realizuje &lt;STRONG&gt;prostredníctvom rozhrania API na základe inštalácie doplnku&lt;/STRONG&gt;, ktorý umožňuje okamžitú &lt;STRONG&gt;aktualizáciu skladových kariet (produktov), správu zásob a jednoduchú administráciu prijatých objednávok&lt;/STRONG&gt;. Objednávky doplnok synchronizuje okamžite po vytvorení objednávky v e-shope, pričom sa do OBERON-u prenášajú všetky údaje objednávok. Internetový obchod Shoptet možno prepojiť so systémom OBERON aj ako off-line internetový obchod (pozri nižšie). &lt;/LI&gt;&lt;/UL&gt;
+&lt;P dir=ltr&gt;&lt;STRONG&gt;B) Off-line internetové obchody (export/import údajov):&lt;/STRONG&gt;&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;A href="22856409-6be1-40cd-8216-1b6caae2c548"&gt;&lt;STRONG&gt;Základný (off-line)&lt;/STRONG&gt;&lt;/A&gt; - v systéme OBERON predvolený (obecný)&amp;nbsp;&lt;A href="8086cb46-289b-420c-bbeb-825d6fc0deb5"&gt;XML/CSV formát&lt;/A&gt; na&amp;nbsp;výmenu údajov určený na prepojenie OBERON-u&amp;nbsp;s externými e-shopovými riešeniami (príkladom je nasledujúci e-shop &lt;EM&gt;UNIobchod&lt;/EM&gt;). 
+&lt;LI&gt;&lt;A href="53600117-6139-4f5a-a639-1972dfcca586"&gt;&lt;STRONG&gt;UNIobchod&lt;/STRONG&gt;&lt;/A&gt;&amp;nbsp;- internetový obchod prepojený s OBERON-om na báze predvoleného obecného XML formátu na&amp;nbsp;výmenu údajov. Ide o produkt slovenskej firmy&amp;nbsp;&lt;A href="https://www.webygroup.sk/" target=_blank&gt;WEBY GROUP, s.r.o.&lt;/A&gt;, ktorá ponúka &lt;STRONG&gt;niekoľko verzií e-shopu s&amp;nbsp;možnosťou vyskladať si internetový obchod aj na mieru&lt;/STRONG&gt;. Viac informácií získate v téme&amp;nbsp;&lt;A href="53600117-6139-4f5a-a639-1972dfcca586"&gt;Internetový obchod UNIobchod&lt;/A&gt;. 
+&lt;LI&gt;&lt;A href="https://www.biznisweb.sk/" target=_blank&gt;&lt;STRONG&gt;BiznisWeb&lt;/STRONG&gt;&lt;/A&gt; - krabicový systém s hotovým redakčným systémom FLOX vhodný pre začínajúce a stredne veľké internetové obchody. So systémom OBERON je prepojený na báze XML komunikácie s použitím transformačnej šablóny určenej na &lt;STRONG&gt;import vydaných faktúr&lt;/STRONG&gt; &lt;STRONG&gt;z internetového obchodu do OBERON-u&lt;/STRONG&gt;&amp;nbsp;(dostupná vo forme doplnku v ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="a1ae5eb5-f369-4aab-80b2-c6585166d550"&gt;Správca doplnkov&lt;/A&gt;, oddiel &lt;EM&gt;XML&lt;/EM&gt;). 
+&lt;LI&gt;&lt;A href="https://www.shoptet.sk/" target=_blank&gt;&lt;STRONG&gt;Shoptet&lt;/STRONG&gt;&lt;/A&gt; - prepojenie so systémom OBERON funguje na základe XML komunikácie s použitím transformačnej šablóny určenej na&amp;nbsp;&lt;A href="https://exalogic.sk/import-objednavok-zo-shoptetu/" target=_blank&gt;&lt;STRONG&gt;manuálny import prijatých objednávok&lt;/STRONG&gt;&lt;/A&gt; &lt;STRONG&gt;z internetového obchodu do OBERON-u&lt;/STRONG&gt;&amp;nbsp;(dostupná vo forme doplnku v ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="a1ae5eb5-f369-4aab-80b2-c6585166d550"&gt;Správca doplnkov&lt;/A&gt;, oddiel &lt;EM&gt;XML&lt;/EM&gt;). &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Porovnanie vybraných podporovaných e-shopových aplikácií&lt;/H2&gt;
+&lt;TABLE id=table2 borderColor=silver cellSpacing=0 cellPadding=2 width="50%" border=1&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TD width="7%"&gt;&lt;/TD&gt;
+&lt;TD bgColor=#d9e1f2 width="3%" align=center&gt;&lt;B style="COLOR: rgb(0,0,0)"&gt;PrestaShop&lt;/B&gt;&lt;/TD&gt;
+&lt;TD bgColor=#d9e1f2 width="3%" align=center&gt;&lt;B&gt;Obecný&lt;/B&gt;&lt;/TD&gt;
+&lt;TD bgColor=#d9e1f2 width="3%" align=center&gt;&lt;B&gt;Grandus&lt;/B&gt;&lt;/TD&gt;
+&lt;TD bgColor=#d9e1f2 width="3%" align=center&gt;&lt;B&gt;UNIobchod*&lt;/B&gt;&lt;/TD&gt;
+&lt;TD bgColor=#d9e1f2 width="3%" align=center&gt;&lt;B&gt;BiznisWeb&lt;/B&gt;&lt;/TD&gt;
+&lt;TD bgColor=#d9e1f2 width="3%" align=center&gt;&lt;B&gt;Shoptet (on-line)&lt;/B&gt;&lt;/TD&gt;
+&lt;TD bgColor=#d9e1f2 width="3%" align=center&gt;&lt;B&gt;Shoptet (off-line)&lt;/B&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;B&gt;Výrobca&lt;/B&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=center&gt;&lt;A href="https://www.prestashop.com/" target=_blank&gt;PrestaShop Inc.&lt;/A&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;A href="https://exalogic.sk/" target=_blank&gt;EXALOGIC, s.r.o.&lt;/A&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;A href="http://www.grandus.sk/" target=_blank&gt;For Best Clients, s.r.o.&lt;/A&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;A href="https://www.webygroup.sk/" target=_blank&gt;WEBY GROUP, s.r.o.&lt;/A&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;A href="https://www.biznisweb.sk/" target=_blank&gt;BiznisWeb, s.r.o.&lt;/A&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;A href="https://www.shoptet.sk/" target=_blank&gt;Shoptet, s.r.o.&lt;/A&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;A href="https://www.shoptet.sk/" target=_blank&gt;Shoptet, s.r.o.&lt;/A&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;STRONG&gt;On-line pripojenie&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;STRONG&gt;Off-line pripojenie&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;STRONG&gt;XML export/import&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Slash.png"&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Slash.png"&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Slash.png"&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Slash.png"&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Slash.png"&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Slash.png"&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Slash.png"&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;STRONG&gt;CSV export/import&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Slash.png"&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Slash.png"&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Slash.png"&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Slash.png"&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Slash.png"&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Slash.png"&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Slash.png"&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;STRONG&gt;Transformačné šablóny na XML komunikáciu&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;STRONG&gt;Automatický export/import&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Slash.png"&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Slash.png"&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Slash.png"&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Slash.png"&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Slash.png"&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Slash.png"&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Slash.png"&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;STRONG&gt;Manuálny export/import&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Slash.png"&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Slash.png"&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Slash.png"&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Slash.png"&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Slash.png"&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Slash.png"&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Slash.png"&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;STRONG&gt;Ovládač&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;STRONG&gt;Import prijatých objednávok&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;STRONG&gt;Aktualizácia stavov prijatých objednávok&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;(len v smere&lt;BR&gt;Shoptet -&amp;gt; OBERON)&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;STRONG&gt;Export/import pohľadávok (vystavených faktúr)&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Slash.png"&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;**&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Slash.png"&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Slash.png"&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Slash.png"&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Slash.png"&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Slash.png"&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Slash.png"&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;STRONG&gt;Export/import zákazníkov&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Slash.png"&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Slash.png"&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Slash.png"&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Slash.png"&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Slash.png"&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Slash.png"&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Slash.png"&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;STRONG&gt;Export skladových kariet (všetky) [kompletné]&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;STRONG&gt;Export skladových kariet (všetky) [bez obrázkov]&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;STRONG&gt;Export skladových kariet (všetky) [len ceny a množstvá]&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc height=37&gt;&lt;STRONG&gt;Export skladových kariet (len zmenené) [kompletné]&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" height=37 align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD height=37 align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD height=37 align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD height=37 align=center&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD height=37 align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD height=37 align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD height=37 align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;STRONG&gt;Export skladových kariet (len zmenené) [bez obrázkov]&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;STRONG&gt;Export skladových kariet (len zmenené) [len ceny a množstvá]&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;STRONG&gt;Export skladových kariet [len identifikátory]&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;STRONG&gt;Export obrázkov skladových kariet&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;STRONG&gt;Export parametrov skladových kariet&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;STRONG&gt;Export variantov skladových kariet&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;STRONG&gt;Export&amp;nbsp;kategórií skladových kariet&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;STRONG&gt;Jednorazový import skladových kariet&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;STRONG&gt;Jednorazový import kategórií skladových kariet&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;STRONG&gt;Rozšírená cenotvorba&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;***&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;
+&lt;P&gt;* Podrobné informácie o možnostiach komunikácie medzi OBERON-om a &lt;EM&gt;UNIobchodom&lt;/EM&gt; získate na&amp;nbsp;&lt;A href="https://www.uniobchod.sk/prepojenie-internetoveho-obchodu-eshopu-s-oberonom.xhtml" target=_blank&gt;webovej stránke internetového obchodu&lt;/A&gt;.&lt;/P&gt;
+&lt;P&gt;** Faktúry sa vystavujú v OBERON-e.&lt;/P&gt;
+&lt;P&gt;*** Do internetového obchodu &lt;EM&gt;PrestaShop&lt;/EM&gt;&amp;nbsp; je možné zaslať aj&amp;nbsp;vybrané ceny z rozšírenej cenotvorby, napr. pre veľkoobchodných partnerov iné ceny (zmluvné, letákové dohody a pod.). Bližšie informácie získate&amp;nbsp;v&amp;nbsp;téme&amp;nbsp;&lt;A href="7437cbeb-c6d1-4b19-92ee-150ba8e4097f" style="auto-update-caption: true"&gt;Internetový obchod PrestaShop&lt;/A&gt;.&lt;/P&gt;
+&lt;H2&gt;Možnosti pripojenia nepodporovaného internetového obchodu&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;V prípade, že&amp;nbsp;prevádzkujete internetový obchod, ktorý OBERON priamo nepodporuje, no napriek tomu by ste ho chceli používať, môžete:&lt;BR&gt;&lt;B&gt;A)&lt;/B&gt; &lt;STRONG&gt;Využiť možnosti&lt;/STRONG&gt; &lt;A href="22856409-6be1-40cd-8216-1b6caae2c548"&gt;&lt;STRONG&gt;off-line internetového obchodu&lt;/STRONG&gt;&lt;/A&gt; - vtedy sa komunikácia s internetovým obchodom vykonáva pomocou exportov a importov &lt;A href="8086cb46-289b-420c-bbeb-825d6fc0deb5"&gt;XML alebo CSV súborov&lt;/A&gt;, na strane internetového obchodu sa bude potrebné prispôsobiť formátom týchto súborov (prípadne použiť XSLT transformačné šablóny).&lt;BR&gt;&lt;B&gt;B)&lt;/B&gt; &lt;STRONG&gt;Webové služby&lt;/STRONG&gt; &lt;STRONG&gt;(WebServices API)&lt;/STRONG&gt; - pripojenie internetového obchodu je možné aj pomocou webových služieb.&amp;nbsp;Viac informácií o&amp;nbsp;webových službách získate v téme&amp;nbsp;&lt;A href="58bb31ca-00c8-4641-ad99-7d58e24f59c5" style="auto-update-caption: true"&gt;Všeobecne o webových službách&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Knižnice&amp;nbsp;na komunikáciu s podporovaným&amp;nbsp;internetovým obchodom&amp;nbsp;je&amp;nbsp;možné nainštalovať&amp;nbsp;pomocou&amp;nbsp;&lt;A href="a1ae5eb5-f369-4aab-80b2-c6585166d550"&gt;Správcu doplnkov&lt;/A&gt;&amp;nbsp;(ponuka &lt;EM&gt;Servis&lt;/EM&gt;) v&amp;nbsp;oddiele &lt;EM&gt;Ovládače&lt;/EM&gt;. &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="e8a38e60-3a58-4e05-9794-cd026c98a9e0" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="9690f267-6ad7-4e22-9af2-675ef3d9d041">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="829dd6de-108a-4d51-95a4-4e8e9d63a77b" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="4bc0fb91-8926-432e-879e-5e0150ed62d3">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="4d2df410-2806-4e1a-aa17-7fb19d307817" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="22856409-6be1-40cd-8216-1b6caae2c548">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="43d65298-da7a-4461-af1e-ef43d5e284cd" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="7437cbeb-c6d1-4b19-92ee-150ba8e4097f">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="b3c93404-0165-490b-8c36-b1f1c47fe1ed">
+      <Keyword m="2022-07-27T08:29:12.0095667Z">Internetový obchod - všeobecné informácie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="56a78ddb-ac2e-4c63-b915-d2b388b6a1f8">
+      <Keyword m="2022-07-27T08:28:59.6318186Z">E-shop  - všeobecné informácie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="289d0cc4-6dba-4f26-b396-9e43e63b68b6">
+      <Keyword m="2022-07-27T08:29:55.1828303Z">On-line internetový obchod - všeobecné informácie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="9a9fbc00-2e07-40da-a1a6-e415ace18df7">
+      <Keyword m="2022-07-27T08:29:52.1501968Z">Off-line internetový obchod - všeobecné informácie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="ee466d70-52c1-48c0-abf8-9d54c9780315">
+      <Keyword m="2022-07-27T08:29:59.0644468Z">PrestaShop - všeobecné informácie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="7019acbb-11a8-47d4-8b96-808ad0578515">
+      <Keyword m="2022-07-27T08:29:07.2487335Z">Grandus - všeobecné informácie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="460c6e7c-d8e2-4798-abf3-f8351ea09119">
+      <Keyword m="2022-07-27T08:30:04.3286049Z">UNIobchod - všeobecné informácie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="fa527b1d-3a27-4065-9064-2b157f1a129b">
+      <Keyword m="2022-07-27T08:30:01.7032639Z">Shoptet - všeobecné informácie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="813f65b0-a630-457a-adc6-5c5215b7cecc">
+      <Keyword m="2022-07-27T08:28:51.3293886Z">BiznisWeb - všeobecné informácie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="f9afa5c7-df62-4c5c-b7f7-8a1707b83105">
+      <Keyword m="2022-07-27T08:31:01.2692525Z">eShop Universal Interface - internetové obchody</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="ff296d38-7a14-4b3f-897e-0bfeb69cd47b">
+      <Keyword m="2022-07-27T08:31:14.8563221Z">Internetový obchod - export/import XML/CSV súborov - všeobecné informácie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="be714d91-a4a9-43f2-b759-115268c6afd9">
+      <Keyword m="2021-03-09T13:22:17.7767246Z">OBERON Center - internetový obchod</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="a295bc56-3e9a-4c8f-a793-e2481953ab21">
+      <Keyword m="2022-07-27T08:30:10.4092599Z">WooConn - všeobecné informácie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="15ed55f4-8ed9-496a-85fd-3bde3860b52a">
+      <Keyword m="2022-07-27T08:30:07.4488641Z">WooCommerce OBERON Connector - všeobecné informácie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="fbf050a9-72cd-49df-9a68-a8df9acb2795">
+      <Keyword m="2022-07-27T08:30:15.0576171Z">WordPress - e-shop - všeobecné informácie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="d248c69a-d8ef-40f6-a3ac-f3f9209d09be">
+      <Keyword m="2022-07-27T08:29:45.7425522Z">OBERON Connector - všeobecné informácie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="139a16a9-680e-495b-8f60-01c1abb238c9">
+      <Keyword m="2022-08-01T06:59:17.4800925Z">Nepodporovaný e-shop - možnosti pripojenia</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="e6998703-9cbf-47cc-bcf2-9d37b99b0c43">
+      <Keyword m="2022-08-01T09:12:01.0131174Z">Webové služby - pripojenie internetového obchodu</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="dac6def7-6509-4b9f-b877-e546c1dac680">
+      <Keyword m="2022-08-05T06:43:46.4735758Z">Internetové obchody - všeobecné informácie</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

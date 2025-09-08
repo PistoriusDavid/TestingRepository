@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="ce40338e-4398-46fc-980f-1607cfa4e9a6" Status="Complete" CreatedOn="2017-11-08T12:15:44.8041551Z" ModifiedOn="2023-10-30T07:19:41.4794496Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="90420" Name="Form_CRM_StatustComplaint" BuildFlags="">
+  <Title m="2023-05-16T12:15:12.8801256Z">Formulár Typ stavu reklamácie/servisu</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-10-17T07:45:25.3867092Z">&lt;P&gt;Formulár&amp;nbsp;&lt;EM&gt;Typ stavu reklamácie/servisu&lt;/EM&gt;&amp;nbsp;umožňuje definovať, resp. upraviť už&amp;nbsp;definovaný&amp;nbsp;typ stavu reklamácie/servisu&amp;nbsp;v&amp;nbsp;knihe &lt;A href="945b74ea-31f8-44e7-baef-ffb5fc136b05" style="auto-update-caption: true"&gt;Evidencia reklamácií a servisu&lt;/A&gt;&amp;nbsp;modulu&amp;nbsp;&lt;A href="f1a6963d-36aa-4134-92a5-fa47a4345e74"&gt;CRM a registratúra&lt;/A&gt;.&amp;nbsp;Formulár je dostupný z programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt; z&amp;nbsp;&lt;A href="802c5a4f-4c78-4ff0-9f58-dbec5cce6c16"&gt;formulára Reklamácia/Servis&lt;/A&gt;, záložka &lt;EM&gt;Stavy&lt;/EM&gt;, tlačidlo výberu&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_ListButton.png"&gt;&amp;nbsp;pri poli &lt;EM&gt;Typ&amp;nbsp;stavu&lt;/EM&gt; - otvorí sa číselník &lt;EM&gt;Typy stavov reklamácií/servisu&lt;/EM&gt;, v&amp;nbsp;ktorom stlačte tlačidlo&amp;nbsp;&lt;EM&gt;Nový&lt;/EM&gt; alebo &lt;EM&gt;Oprava&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Popis formulára&amp;nbsp;&lt;EM&gt;Typ stavu reklamácie/servisu&lt;/EM&gt;&lt;/H2&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Názov&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Zadáva sa&amp;nbsp;pomenovanie typu stavu&amp;nbsp;reklamácie/servisu.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Druh stavu&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Vzhľadom na to, že typy&amp;nbsp;stavov reklamácií/servisu si&amp;nbsp;môžu&amp;nbsp;používatelia podľa potreby vytvárať sami, je dôležité mať &lt;STRONG&gt;pri každom type stavu reklamácie/servisu jednoznačne určené, k akému druhu&amp;nbsp;stavu reklamácie/servisu prislúcha&lt;/STRONG&gt;. Na základe druhu&amp;nbsp;stavu reklamácie/servisu sa program rozhoduje, ako bude s daným záznamom&amp;nbsp;pracovať. Druhy stavov reklamácií/servisu sú v programe pevne dané a nie je ich možné upravovať. Druhy stavov reklamácií/servisu&amp;nbsp;v&amp;nbsp;&lt;A href="945b74ea-31f8-44e7-baef-ffb5fc136b05"&gt;Evidencii reklamácií a servisu&lt;/A&gt;&amp;nbsp;sú tieto: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Zaevidovanie,&lt;/STRONG&gt; 
+&lt;LI&gt;&lt;STRONG&gt;Prijatie,&lt;/STRONG&gt; 
+&lt;LI&gt;&lt;STRONG&gt;Presun do interného servisu,&lt;/STRONG&gt; 
+&lt;LI&gt;&lt;STRONG&gt;Prijatie&amp;nbsp;z interného servisu,&lt;/STRONG&gt; 
+&lt;LI&gt;&lt;STRONG&gt;Odoslanie do&amp;nbsp;externého servisu,&lt;/STRONG&gt; 
+&lt;LI&gt;&lt;STRONG&gt;Prijatie z externého servisu,&lt;/STRONG&gt; 
+&lt;LI&gt;&lt;STRONG&gt;Oznámenie,&lt;/STRONG&gt; 
+&lt;LI&gt;&lt;STRONG&gt;Oznámenie o vybavení,&lt;/STRONG&gt; 
+&lt;LI&gt;&lt;STRONG&gt;Vybavenie,&lt;/STRONG&gt; 
+&lt;LI&gt;&lt;STRONG&gt;Vybavenie (zamietnutie).&lt;/STRONG&gt; &lt;/LI&gt;&lt;/UL&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="1f4682a0-f486-47ca-be99-54b68b02932f" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="945b74ea-31f8-44e7-baef-ffb5fc136b05">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="486f8d3f-d134-4a77-84d8-15a3e2cdb9f9" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="802c5a4f-4c78-4ff0-9f58-dbec5cce6c16">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="3c1f711f-9187-4f71-adf9-555bdb4e2838">
+      <Keyword m="2017-11-09T13:19:30.564472Z">Stavy udalostí reklamácie/servisu</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

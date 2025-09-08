@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="9c6e329d-63e2-486a-8e46-f953cff24559" Status="Complete" CreatedOn="2020-06-01T05:38:53.0899945Z" ModifiedOn="2024-08-07T06:34:57.6852785Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="ProgramControls_Calculator" BuildFlags="">
+  <Title m="2021-10-01T11:41:45.3355416Z">Kalkulačka</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-08-07T06:34:57.6852785Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;popisuje jednu z doplnkových funkcií OBERON-u - &lt;STRONG&gt;kalkulačku&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Kalkulačka v&amp;nbsp;systéme OBERON predstavuje&amp;nbsp;nástroj (nie samostatnú aplikáciu), ktorý je &lt;STRONG&gt;integrálne prepojený priamo s&amp;nbsp;príslušnými poľami programu&lt;/STRONG&gt;. 
+&lt;LI&gt;Kalkulačka v OBERON-e je dostupná v každom textovom poli, ktoré je určené na zadávanie čísel. Sú to napríklad polia na zadanie &lt;EM&gt;Množstva&lt;/EM&gt; alebo &lt;EM&gt;Ceny&lt;/EM&gt; v&amp;nbsp;rôznych dokladoch (príjemkách, výdajkách, faktúrach a pod.). 
+&lt;LI&gt;Dostupnými funkciami sú &lt;STRONG&gt;sčítanie (+), odčítanie (-), násobenie (*) a delenie (/)&lt;/STRONG&gt;. Tieto operácie je možné vykonávať tak s celými číselnými hodnotami, ako aj s&amp;nbsp;hodnotami s desatinnou čiarkou. 
+&lt;LI&gt;Kalkulačku v OBERON-e je možné využiť napríklad:
+&lt;UL&gt;
+&lt;LI&gt;pri príjme tovaru do skladu alebo jeho výdaji zo skladu,
+&lt;LI&gt;pri dokladoch&amp;nbsp;v &lt;EM&gt;Knihe pohľadávok&lt;/EM&gt; a &lt;EM&gt;Knihe záväzkov&lt;/EM&gt;, resp. v&amp;nbsp;iných evidenciách, ktoré obsahujú doklady s poľami na zadanie číselných hodnôt,
+&lt;LI&gt;v module &lt;EM&gt;Účtovníctvo&lt;/EM&gt; na zistenie&amp;nbsp;sumy bez DPH,
+&lt;LI&gt;v module &lt;EM&gt;Mzdy a dochádzka&lt;/EM&gt; na sčítanie/odčítanie odpracovaných hodín.&lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Ak sa napríklad na sklad prijíma vážený tovar (zemiaky, citróny, korenie a pod.) v baleniach s rôznou váhou, pri zadávaní množstva v príjemke je možné priamo v danom poli vypočítať celkové množstvo prijímaného tovaru. V&amp;nbsp;prípade, že prijímame 45 kusov 2,5-kilogramových balení zemiakov, do poľa množstvo zadáme 45*2,5 a do príjemky sa pri presune kurzora do ďalšieho poľa automaticky doplní výsledný údaj (112,5 kg). 
+&lt;LI&gt;Podobne je možné postupovať napr. pri cenách. Ak je celková cena za tovar napríklad 92&amp;nbsp;€ a prijímame 25 kg cesnaku, v príslušnom poli si ľahko vypočítame cenu za mernú jednotku - v tomto prípade 95/25=3,68&amp;nbsp;€. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 1: Funkcia kalkulačky v príjemke&amp;nbsp;(v poli &lt;EM&gt;Množstvo&lt;/EM&gt; formulára &lt;EM&gt;Položka dokladu&lt;/EM&gt;)&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/BasicInformation/ProgramControls/ProgramControls_Calculator.png"&gt;&amp;nbsp;&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="012060a7-aa5a-42b4-b425-f083095ac74c" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="8936fde4-aac3-4672-99a2-c8bd5ccffdcd">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="566607bd-3190-4222-b69e-5071884b11ab" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="1dce6bce-8c7d-443a-b0f9-14ec18f3c9a0">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords />
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

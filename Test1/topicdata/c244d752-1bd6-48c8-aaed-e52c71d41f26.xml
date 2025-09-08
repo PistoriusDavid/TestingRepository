@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="c244d752-1bd6-48c8-aaed-e52c71d41f26" Status="Complete" CreatedOn="2016-05-16T11:38:06.7122099Z" ModifiedOn="2023-07-18T09:41:06.2930376Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="70380" Name="Menu_Wages_ContractDefinition" BuildFlags="">
+  <Title m="2016-05-16T11:39:00.772823Z">Typy pracovných pomerov</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-07-18T09:41:06.2930376Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;je venovaná&amp;nbsp;položke&amp;nbsp;&lt;EM&gt;Typy pracovných pomerov&lt;/EM&gt; v&amp;nbsp;ponuke&amp;nbsp;&lt;EM&gt;Mzdy&lt;/EM&gt; programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Výberom položky sa otvorí&amp;nbsp;číselník&amp;nbsp;&lt;EM&gt;Typy pracovných pomerov&lt;/EM&gt;,&amp;nbsp;v&amp;nbsp;ktorom je možné &lt;STRONG&gt;definovať typy&amp;nbsp;pracovných pomerov&lt;/STRONG&gt; v&amp;nbsp;module&amp;nbsp;&lt;A href="bf009605-0be8-4286-8ef5-4c7d3b89143a"&gt;Mzdy&lt;/A&gt; a&amp;nbsp;&lt;A href="3883342c-9ef0-4fd9-8773-88df84f78f65"&gt;dochádzka&lt;/A&gt;. 
+&lt;LI&gt;V&amp;nbsp;číselníku&amp;nbsp;sú základné typy pracovných pomerov &lt;STRONG&gt;preddefinované a&amp;nbsp;spravidla postačujú pre 90&amp;nbsp;% pracovnoprávnych vzťahov&lt;/STRONG&gt;.&amp;nbsp;Pre ďalšie špeciálne prípady pracovnoprávnych vzťahov si účtovná jednotka môže ľubovoľne definovať ďalšie typy pracovných pomerov. 
+&lt;LI&gt;Vzhľadom na to, že typy pracovných pomerov si&amp;nbsp;môžu&amp;nbsp;používatelia podľa potreby vytvárať sami, je dôležité mať pri každom type pracovného pomeru &lt;STRONG&gt;jednoznačne určené,&lt;/STRONG&gt; &lt;STRONG&gt;k akému druhu&amp;nbsp;pracovného pomeru prislúcha&lt;/STRONG&gt;. Na základe druhu pracovného pomeru sa program rozhoduje, ako bude s daným&amp;nbsp;pracovným pomerom&amp;nbsp;pracovať. Druhy pracovných pomerov sú v programe pevne dané a nie je ich možné upravovať: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;EM&gt;Hlavný pracovný pomer,&lt;/EM&gt; 
+&lt;LI&gt;&lt;EM&gt;Dohoda o vykonaní práce,&lt;/EM&gt; 
+&lt;LI&gt;&lt;EM&gt;Dohoda o pracovnej činnosti,&lt;/EM&gt; 
+&lt;LI&gt;&lt;EM&gt;Dohoda o brigádnickej práci,&lt;/EM&gt; 
+&lt;LI&gt;&lt;EM&gt;Dohoda o športovej činnosti,&lt;/EM&gt; 
+&lt;LI&gt;&lt;EM&gt;Dohoda o pracovnej činnosti sezónna práca,&lt;/EM&gt; 
+&lt;LI&gt;&lt;EM&gt;Štatutári alebo konatelia.&lt;/EM&gt; &lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Definovať, resp. upraviť už definovaný typ pracovného pomeru je možné vo &lt;A href="95a3b7e2-6135-4860-a655-5724b186b94c"&gt;formulári Typ pracovného pomeru&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="81b0fd0f-b730-458b-8c98-84774ef66fc0" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="8dd60281-9cc7-41fe-9dd2-2ad5c7ffe047">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="fb9d0c64-d4cd-4252-bdc7-98b7c4b14254" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="3fced304-5201-4497-bb58-104c1fd77990">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="a9cb8f74-86af-4416-8b1a-e05ce8932f87" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="8883a3ef-5814-4275-8570-ca00cfbc1e93">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="c679238c-6614-4e7b-9068-4706102b41cf" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="fd4a9158-531c-411a-986e-6ea77622e591">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="a747ae0b-bfb1-4c79-8efb-639e69503bfe">
+      <Keyword m="2023-07-11T12:22:50.7302679Z">Pracovný pomer - typy</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="6562190d-3c6c-4ead-9050-0ac772bb1067">
+      <Keyword m="2023-07-11T12:22:58.3471297Z">Pracovné pomery - typy</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

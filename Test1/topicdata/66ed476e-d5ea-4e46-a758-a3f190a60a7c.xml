@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="66ed476e-d5ea-4e46-a758-a3f190a60a7c" Status="Complete" CreatedOn="2014-09-04T11:47:53.1454Z" ModifiedOn="2024-02-02T09:21:48.0801135Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="PrintReports_Overview" BuildFlags="">
+  <Title m="2022-09-30T08:40:07.9990037Z">Všeobecne o tlačových výstupoch</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-02-02T09:21:48.0801135Z">&lt;P&gt;V&amp;nbsp;tejto téme &lt;EM&gt;Pomocníka&lt;/EM&gt; sú uvedené&amp;nbsp;&lt;STRONG&gt;všeobecné informácie o tlačových výstupoch&lt;/STRONG&gt;&amp;nbsp;v systéme OBERON.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;V systéme OBERON je k dispozícii &lt;STRONG&gt;široká škála tlačových výstupov&lt;/STRONG&gt;, ktoré je možné zobraziť v náhľade na obrazovke, vytlačiť priamo na tlačiarni, exportovať do formátu PDF, prípadne&amp;nbsp;odoslať elektronickou poštou. 
+&lt;LI&gt;Tlačové výstupy zo&amp;nbsp;systému OBERON sa realizujú v&amp;nbsp;grafickom režime, preto odporúčame používať laserovú alebo atramentovú tlačiareň. Veľkosť formátu všetkých tlačových výstupov je A4, prípadne menší. 
+&lt;LI&gt;Aby sa z&amp;nbsp;programu dalo tlačiť, je &lt;STRONG&gt;potrebné mať v systéme&amp;nbsp;&lt;EM&gt;Windows&lt;/EM&gt; nainštalovanú tlačiareň&lt;/STRONG&gt; (vo formulári &lt;I&gt;Tlačiarne&lt;/I&gt;, ktorý je súčasťou &lt;EM&gt;Ovládacieho panela&lt;/EM&gt;).&amp;nbsp;Všetky tlačové výstupy sa z&amp;nbsp;OBERON-u zasielajú systému &lt;EM&gt;Windows&lt;/EM&gt;, ktorý ich spracúva ako štandardné tlačové úlohy&amp;nbsp;a zaraďuje ich do tlačového frontu.&amp;nbsp;Vlastná tlač potom prebieha&amp;nbsp;plne v réžii systému &lt;EM&gt;Windows&lt;/EM&gt;. 
+&lt;LI&gt;Tlačový výstup je možné okrem vytlačenia na tlačiarni zobraziť v náhľade na obrazovke, prípadne odoslať pomocou elektronickej pošty&amp;nbsp;vo formáte PDF alebo priamo uložiť vo formáte PDF. Pri uložení do PDF&amp;nbsp;je možné automaticky daný dokument podpísať&amp;nbsp;&lt;A href="c1e2e5a1-2cf4-47aa-a546-47d5baa1df3e"&gt;zaručeným elektronickým podpisom&lt;/A&gt;. 
+&lt;LI&gt;Tlačové výstupy s vyplnenými údajmi (náhľad) je &lt;STRONG&gt;možné exportovať&lt;/STRONG&gt; do rôznych známych formátov ako &lt;EM&gt;PDF, XPS file, Document file, text file, image&amp;nbsp;&lt;/EM&gt;a mnohých ďalších formátov. 
+&lt;LI&gt;Tlačové výstupy je možné kopírovať, upravovať a exportovať/importovať medzi rôznymi databázami&amp;nbsp;OBERON-u. Bližšie informácie nájdete v téme &lt;A href="bd58b5ac-bf1a-44f0-9463-12aa3e5b8165"&gt;Editor tlačových výstupov&lt;/A&gt;,&amp;nbsp;resp. &lt;A href="b3e41f60-bab3-4ad9-b73d-69ece0c12afa"&gt;Ako upraviť tlačový výstup&lt;/A&gt;. 
+&lt;LI&gt;Tlačové výstupy v zozname pri sieťovej prevádzke programu nemusia byť totožné pre každého&amp;nbsp;&lt;A href="225638ed-22f6-4ac4-9085-6d77c64925db"&gt;používateľa&lt;/A&gt; v sieti. Zobrazujú sa podľa nastavených práv&amp;nbsp;používateľa, prípadne tlačový výstup môže byť len skrytý (ak sa nepoužíva a&amp;nbsp;používateľ nechce, aby sa mu zobrazoval). 
+&lt;LI&gt;V hlavných evidenciách systému je možné vybraný tlačový výstup &lt;STRONG&gt;pridať na nástrojovú lištu danej evidencie&lt;/STRONG&gt; (pomocou kontextovej ponuky). Pri pridaní tlačového výstupu na nástrojovú lištu sa uloží aj&amp;nbsp;smerovanie tlače, konkrétna tlačiareň, jazyk.&amp;nbsp;Tým je možné dosiahnuť, že okrem&amp;nbsp;rýchlejšieho prístupu k&amp;nbsp;danému tlačovému výstupu sa uplatnia dané nastavenia, napr. faktúra sa môže tlačiť v rôznych jazykoch, štítky sa môžu&amp;nbsp;tlačiť vždy na inej tlačiarni v systéme a&amp;nbsp;pod. Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="8936fde4-aac3-4672-99a2-c8bd5ccffdcd" style="auto-update-caption: true"&gt;Ovládanie knihy (evidencie)&lt;/A&gt;, časť &lt;EM&gt;Panel nástrojovej lišty&lt;/EM&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt; 
+&lt;P&gt;Tlačový výstup možno zostaviť vo&amp;nbsp;&lt;A href="2bac8d21-6ae0-44e4-8b2e-403ac2f25955"&gt;formulári Tlačové výstupy&lt;/A&gt;, ktorý je dostupný z&amp;nbsp;akejkoľvek evidencie (knihy) programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;&amp;nbsp;stlačením tlačidla &lt;EM&gt;Tlač&lt;/EM&gt;.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H5&gt;Obrázok č. 1:&amp;nbsp; Formulár &lt;EM&gt;Tlačové výstupy&lt;/EM&gt;&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Print/OBERON_Form_Print.PNG"&gt;&lt;/P&gt;
+&lt;H2&gt;Ďalšie zaujímavé možnosti&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;A href="a1ae5eb5-f369-4aab-80b2-c6585166d550"&gt;Správca doplnkov&lt;/A&gt; umožňuje import &lt;STRONG&gt;rôznych inovatívnych grafických alebo obsahových variácií&lt;/STRONG&gt; už existujúcich tlačových výstupov, napr. viac štýlov faktúr, dodacích listov a pod. 
+&lt;LI&gt;Tlačové zostavy je možné vytvoriť aj &lt;STRONG&gt;v cudzom jazyku&lt;/STRONG&gt;. Na ich zostavenie postupujte takto: 
+&lt;OL&gt;
+&lt;LI&gt;v&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="a1ae5eb5-f369-4aab-80b2-c6585166d550"&gt;Správca doplnkov&lt;/A&gt;, oddiel &lt;EM&gt;Jazykové súbory&lt;/EM&gt;, nainštalujte jazykové súbory príslušného jazyka (postup je dostupný v&amp;nbsp;téme &lt;A href="a1ae5eb5-f369-4aab-80b2-c6585166d550"&gt;Správca doplnkov&lt;/A&gt;), 
+&lt;LI&gt;v&amp;nbsp;príslušnej evidencii na tlač požadovaného tlačového výstupu (napr. v&amp;nbsp;&lt;A href="5c21adcc-87c8-44e7-981d-02902635693d"&gt;Knihe pohľadávok&lt;/A&gt; na tlač faktúry) stlačte tlačidlo &lt;EM&gt;Tlač&lt;/EM&gt;. Otvorí sa&amp;nbsp;&lt;A href="2bac8d21-6ae0-44e4-8b2e-403ac2f25955"&gt;formulár Tlačové výstupy&lt;/A&gt;, v ktorom zvoľte daný tlačový výstup a v ľavom paneli z rozbaľovacieho zoznamu vyberte daný jazyk. &lt;/LI&gt;&lt;/OL&gt;
+&lt;LI&gt;Systém OBERON umožňuje tlačiť dokumenty (napr. faktúry,&amp;nbsp;objednávky atď.) aj &lt;STRONG&gt;hromadne&lt;/STRONG&gt;, a to takmer v každej evidencii. Nie je však podporovaná hromadná&amp;nbsp;tlač každého dokumentu.&amp;nbsp;Samotná hromadná tlač predstavuje vlastnosť daného tlačového výstupu, ktorá&amp;nbsp;umožní, aby sa do jednej tlačovej zostavy zahrnuli všetky doklady zobrazené v danej&amp;nbsp;evidencii (napr. &lt;I&gt;Knihe pohľadávok&lt;/I&gt;). Vybrať doklady (záznamy) knihy pre tlač je možné nastavením&amp;nbsp;&lt;A href="1ea156c6-edd0-46e0-ab65-7f41af30e672"&gt;filtrovacích podmienok&lt;/A&gt; (tlačidlo &lt;EM&gt;Vlastnosti&lt;/EM&gt;). Nastaviť hromadnú tlač je možné vo&amp;nbsp;&lt;A href="91150b04-8876-4fb2-89eb-d69d8cc654c2"&gt;formulári Vlastnosti tlačového výstupu&lt;/A&gt;, ktorý je možné zobraziť z&amp;nbsp;&lt;A href="2bac8d21-6ae0-44e4-8b2e-403ac2f25955"&gt;formulára Tlačové výstupy&lt;/A&gt;. Viac informácií získate v téme&amp;nbsp;&lt;A href="bcc31dc7-fc29-4ed9-9897-7d0cdc4e3ecb"&gt;Hromadná tlač dokumentov&lt;/A&gt;. 
+&lt;LI&gt;Dôležitou vlastnosťou tlačových výstupov je, že &lt;STRONG&gt;reagujú na nastavené vlastnosti zobrazenia príslušnej knihy&lt;/STRONG&gt; (nastavenie triedenia a filtrovania). To znamená, že ak je počet záznamov v príslušnej knihe zúžený nastavením podmienok filtrovania, tlačové výstupy z tejto knihy tlačia len odfiltrované záznamy. Tieto výstupy tak predstavujú veľmi mocný nástroj,&amp;nbsp;keďže tlačové výstupy sú často ukončené sekciou s celkovou rekapituláciou.&amp;nbsp;Pri niektorých tlačových výstupoch však nemožno na nastavenie vlastností zobrazenia prihliadať - tieto výstupy nastavenia triedenia a filtrov &lt;STRONG&gt;ignorujú&lt;/STRONG&gt; a vytlačia obsah knihy podľa daného sprievodcu. &lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="bbb4c03c-4b75-40ff-9b12-8dba7cd1c6cd" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="7161228a-8f54-4c36-8ae1-7c6875d896c0">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="6b3d1037-e3da-44d5-911d-c2825c8ef149" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="bd58b5ac-bf1a-44f0-9463-12aa3e5b8165">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="9307e8b1-f0bb-439e-a2a4-be5f023a1828" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="b3e41f60-bab3-4ad9-b73d-69ece0c12afa">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="2150b25b-f6ee-4710-a356-888e29bf9eca" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="bcc31dc7-fc29-4ed9-9897-7d0cdc4e3ecb">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="e3776086-ea92-4ca9-9969-b79e6cfe2467" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="2bac8d21-6ae0-44e4-8b2e-403ac2f25955">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="e29e4860-6789-4e7e-a4e1-90ceb826a519" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="91150b04-8876-4fb2-89eb-d69d8cc654c2">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="9564a507-3fda-4ada-9247-738f528b93e3" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="de8ea830-28e7-471f-aa50-c4f34eeb720d">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="5cc10751-424a-4c76-a49e-9b3bf6f8066b">
+      <Keyword m="2021-03-29T12:40:20.3064253Z">Hromadná tlač - všeobecné informácie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="895e27da-8b3d-469a-83ef-914c80271af7">
+      <Keyword m="2015-01-28T10:23:30.6757812Z">Tlačový výstup</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="43d0b444-4423-4454-977d-2f103eb66965">
+      <Keyword m="2021-03-25T13:47:17.6923856Z">Tlač - všeobecné informácie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="7f2b6239-4ac1-490a-ae7e-494ae283edd8">
+      <Keyword m="2021-03-25T13:46:26.803079Z">Tlač - rôzne štýly</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="aaf07ca2-3619-4249-ace7-4aaa8cd6b1e2">
+      <Keyword m="2021-03-25T13:46:39.436273Z">Tlač - cudzie jazyky</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="be3d8215-6600-4eca-b3ab-8acea037ce73">
+      <Keyword m="2021-03-25T13:47:01.0298723Z">Tlač - hromadná</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="e02666ac-6d52-4876-9baf-a4a0d61f2eee">
+      <Keyword m="2021-03-25T13:49:18.5890504Z">Tlač - triedenie a filtrovanie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="029a4446-7892-43cf-9449-482cf149348f">
+      <Keyword m="2022-07-27T05:20:11.3126518Z">Cudzí jazyk - tlač tlačového výstupu</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="ea25c586-139a-4017-8bd6-72bd9162f01c">
+      <Keyword m="2022-07-27T05:20:28.6759501Z">Reporty v cudzom jazyku</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="3e79099d-d6a5-4352-bd40-faa6a472ce2a">
+      <Keyword m="2022-07-27T05:20:39.1250633Z">Tlač tlačového výstupu v cudzom jazyku</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="3635eec9-68ac-4fbc-aa74-0acf5d095975">
+      <Keyword m="2022-07-27T05:20:56.4623366Z">Tlačový výstup v cudzom jazyku</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

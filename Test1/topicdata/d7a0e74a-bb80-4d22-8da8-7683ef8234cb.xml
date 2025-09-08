@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="d7a0e74a-bb80-4d22-8da8-7683ef8234cb" Status="Complete" CreatedOn="2025-02-03T13:55:54.7498132Z" ModifiedOn="2025-02-03T13:56:48.5934027Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="OBERON_News_2025_01" BuildFlags="{4AAE0FD4-7313-4FEE-A25F-0785B885F736},826B51BD-B6F0-4B2C-A814-029E169D018F">
+  <Title m="2025-02-03T13:56:19.2448217Z">Čo bolo nové vo verzii Január/2025</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2025-02-03T13:56:48.5934027Z">&lt;P&gt;Dňa 15.01.2025&amp;nbsp;bola&amp;nbsp;vydaná&amp;nbsp;nová verzia ekonomického systému OBERON s&amp;nbsp;označením &lt;STRONG&gt;Január/2025&lt;/STRONG&gt;. V&amp;nbsp;nasledujúcej časti sú vymenované najdôležitejšie novinky, vylepšenia a&amp;nbsp;opravy oproti verzii&amp;nbsp;&lt;STRONG&gt;December/2024&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;H2&gt;OBERON&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Dokladové formuláre&lt;/STRONG&gt; -&amp;nbsp;v&amp;nbsp;dokladových formulároch (faktúra, výdajka, príjemka, objednávka, reklamácia a servis) boli doplnené polia aj pre druhú zníženú sadzbu DPH, a to&amp;nbsp;z dôvodu manuálnej úpravy celkovej sumy najmä prijatých dokladov (faktúr, príjemiek). 
+&lt;LI&gt;&lt;STRONG&gt;Kopírovanie záznamov&lt;/STRONG&gt; - bolo upravené kopírovanie faktúr, objednávok, zápisov v peňažnom/účtovnom denníku z roku 2024 v pôvodných sadzbách DPH do roku 2025 - v doklade sa automaticky nastavia nové sadzby DPH. 
+&lt;LI&gt;&lt;STRONG&gt;Zúčtovanie zálohy&lt;/STRONG&gt;&amp;nbsp;-&amp;nbsp;bola vykonaná úprava zadávania zápornej položky do dokladu - pribudla možnosť vloženia zápornej položky ako vrátenie tovaru alebo zúčtovanie zálohy aj s pôvodnou sadzbou DPH (z minulého roka). Zároveň boli vykonané úpravy pre zúčtovanie zálohy z roku 2024 (platiteľov DPH). Položka dokladu &lt;EM&gt;Záloha&lt;/EM&gt; sa uvádza s pôvodnou sadzbou DPH, avšak plnenie (ako kladnú položku) v roku 2025 nebolo možné zadať v pôvodnej sadzbe (ale len v novej). 
+&lt;LI&gt;&lt;STRONG&gt;Oprava výpočtu samozdanenia&lt;/STRONG&gt; - bol opravený výpočet samozdanenia, keď k prijatej faktúre zaevidovanej v roku 2025 s dátumom dodania 2024 sa vypočítala DPH podľa sadzby 23 % (správne malo byť 20 %). &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Účtovníctvo&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Účtovný/peňažný denník&lt;/STRONG&gt; - bola opravená chyba pri zaúčtovaní účtovného predpisu faktúry pri druhej zníženej sadzbe DPH. 
+&lt;LI&gt;&lt;STRONG&gt;Kniha tržieb&lt;/STRONG&gt; - bola opravená chyba pri automatickom účtovaní tržieb (sadzbe DPH 5&amp;nbsp;%). &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Skladová evidencia&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Pokladnica Elcom Euro&lt;/STRONG&gt; - oprava hladín DPH pre 2025 v PLU pri off-line režime. Zároveň bol odstránený problém pri položke typu &lt;EM&gt;Vratný obal&lt;/EM&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;Kniha tržieb&lt;/STRONG&gt; - oprava zobrazenia obratu v sadzbe 5&amp;nbsp;% v dennej uzávierke. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Pokladnica OBERON&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Bločky nad 400 €&lt;/STRONG&gt; - bolo doplnené nastavenie na obmedzenie vytvorenia dokladu pre platiteľa DPH pri doklade s vyššou sumou ako 400 €. Ak sa zadá v pokladnici obchodný partner, ktorý má IČ DPH a je platiteľom DPH, je potrebné z dôvodu uplatnenia DPH vystaviť faktúru a zaevidovať úhradu faktúry. &amp;nbsp;&amp;nbsp;&amp;nbsp; 
+&lt;LI&gt;&lt;STRONG&gt;Tlačidlo na zmenu DPH položky&lt;/STRONG&gt;&amp;nbsp;-&amp;nbsp;v nastaveniach &lt;EM&gt;Pokladnice OBERON&lt;/EM&gt; (v zozname zariadení) pribudlo nastavenie &lt;EM&gt;Pri prepočte zachovať cenu s DPH&lt;/EM&gt;. Po začiarknutí tohto poľa sa pri donáške a použití tlačidla na rýchlu zmenu sadzby DPH zachová cena s&amp;nbsp;DPH, v opačnom prípade sa vypočíta nová predajná cena z ceny bez DPH. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Hotelová recepcia&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Grafický prehľad izieb&lt;/STRONG&gt; - v grafickom prehľade izieb pribudla možnosť kopírovať a prilepiť záznam rezervácie, ubytovania alebo záznam správy a údržby. 
+&lt;LI&gt;&lt;STRONG&gt;Kalkulácia ceny&lt;/STRONG&gt;&amp;nbsp;-&amp;nbsp;bol odstránený problém pri kalkulácii ceny rezervácie ubytovania vytvorenej v roku 2024 na rok 2025 s pôvodnými sadzbami DPH, kde sa v roku 2025 nedala upraviť (zmeniť) sadba DPH na jednotlivých položkách. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget layout="block" type="Caution Box"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;SPAN&gt;V prípade preskočenia viacerých verzií programu je dôležité si prečítať informácie o novinkách, vylepšeniach a opravách&amp;nbsp;aj&amp;nbsp;z&amp;nbsp;&lt;A href="dc832235-0e36-4aac-ae54-e51641eb2f50"&gt;predchádzajúcich verzií&lt;/A&gt;&lt;STRONG&gt;.&lt;/STRONG&gt; V&amp;nbsp;niektorej z predošlých verzií mohlo dôjsť k&amp;nbsp;dôležitým zmenám, o&amp;nbsp;ktorých je v niektorých prípadoch nevyhnutné vedieť.&lt;/SPAN&gt;&lt;/innovasys:widgetproperty&gt; &lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="c7357ab9-e0d8-47e3-b432-b3034ba1bd58" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="dc832235-0e36-4aac-ae54-e51641eb2f50">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="0aff6ea2-d3f9-4c1e-9000-f2192f9f2edc">
+      <Keyword m="2014-11-24T11:38:34.3847265Z">Verzia</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="1ea34514-fc70-49a3-9948-2e249ffe61a2" Status="Complete" CreatedOn="2015-03-10T08:33:52.5361328Z" ModifiedOn="2023-04-13T12:41:53.1907433Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="AccSingle_Started_Evidence_Tax" BuildFlags="">
+  <Title m="2015-03-10T08:35:35.3632812Z">Daňová evidencia</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-04-13T12:40:52.2589866Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; je venovaná &lt;STRONG&gt;možnosti vedenia daňovej evidencie&lt;/STRONG&gt; v systéme OBERON.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Daňová evidencia predstavuje &lt;STRONG&gt;spôsob vedenia účtovnej evidencie pre podnikateľské subjekty, ktoré spĺňajú štátom definované podmienky&lt;/STRONG&gt;. Daňová evidencia nemá stanovenú predpísanú formu a štruktúru, &lt;STRONG&gt;ale je stanovený obsah&lt;/STRONG&gt;, ktorý musia podnikateľské subjekty evidovať. 
+&lt;LI&gt;V súlade s § 6 ods. 11 zákona č. 595/2003 Z. z. o dani z príjmov platí, že ak daňovník uplatňuje pri uvedených príjmoch preukázateľne vynaložené daňové výdavky, môže viesť počas celého zdaňovacieho obdobia daňovú evidenciu o:&lt;BR&gt;a) príjmoch v časovom slede v členení potrebnom na zistenie základu dane (čiastkového základu dane) vrátane prijatých dokladov, ktoré spĺňajú náležitosti účtovných dokladov,&lt;BR&gt;b) daňových výdavkoch v časovom slede v&amp;nbsp;členení potrebnom na zistenie základu dane (čiastkového základu dane) vrátane vydaných dokladov, ktoré spĺňajú náležitosti účtovných dokladov,&lt;BR&gt;c) hmotnom majetku a nehmotnom majetku zaradenom do obchodného majetku,&lt;BR&gt;d) zásobách a pohľadávkach,&lt;BR&gt;e) záväzkoch. 
+&lt;LI&gt;Podnikateľ, ktorý vedie daňovú evidenciu nemusí:
+&lt;UL&gt;
+&lt;LI&gt;vykonávať inventarizáciu,
+&lt;LI&gt;nezostavuje účtovnú závierku,
+&lt;LI&gt;neotvára ani neuzatvára účtovné knihy,
+&lt;LI&gt;vyčísľovať kurzové rozdiely,
+&lt;LI&gt;zostavovať odpisový plán pre účtovné odpisy.&lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;V&amp;nbsp;prípade vedenia daňovej evidencie daňovník nie je považovaný za účtovnú jednotku a&amp;nbsp;prílohou daňového priznania nie sú účtovné výkazy (t. j. neprikladá k&amp;nbsp;daňovému priznaniu &lt;EM&gt;Výkaz o&amp;nbsp;príjmoch a&amp;nbsp;výdavkoch&lt;/EM&gt; a&amp;nbsp;&lt;EM&gt;Výkaz o&amp;nbsp;majetku a&amp;nbsp;záväzkoch&lt;/EM&gt;). &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Daňová evidencia v OBERON-e&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Daňová evidencia v systéme OBERON &lt;STRONG&gt;využíva rovnaké knihy a evidencie ako&amp;nbsp;&lt;/STRONG&gt;&lt;A href="32be28cf-2368-4818-9d24-cfa9d59afb75"&gt;jednoduché účtovníctvo&lt;/A&gt;.&amp;nbsp;Účtovná jednotka eviduje príjmy a výdaje pomocou&amp;nbsp;&lt;A href="5e82cca9-b8af-4a80-ba30-7ab91914a595"&gt;peňažného denníka&lt;/A&gt;. Bližšie informácie získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="565cef7b-84c9-4402-966c-d3c94972cab4" style="auto-update-caption: true"&gt;Zápis do peňažného denníka&lt;/A&gt;. 
+&lt;LI&gt;Evidenciu záväzkov a pohľadávok je možné vykonávať v &lt;EM&gt;Knihe pohľadávok&lt;/EM&gt; a v &lt;EM&gt;Knihe záväzkov&lt;/EM&gt;. Bližšie informácie získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="ec4e9be4-140f-4ec9-aa04-544e9870bfe1" style="auto-update-caption: true"&gt;Vystavenie faktúry - pohľadávky&lt;/A&gt;&amp;nbsp;alebo v&amp;nbsp;téme&amp;nbsp;&lt;A href="b479a7dd-6c07-4548-862f-a38cbf1b872d" style="auto-update-caption: true"&gt;Zaevidovanie faktúry - záväzku&lt;/A&gt;. 
+&lt;LI&gt;Daňovú evidenciu zásob je potrebné viesť tak, aby sa k&amp;nbsp;určitému dňu dal zistiť skutočný stav zásob, napr. formou skladových kariet. Bližšie informácie získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="277559d2-a8ba-4399-b39d-58b8b28b01ff" style="auto-update-caption: true"&gt;Založenie skladovej karty&lt;/A&gt;.&amp;nbsp;Pod pojmom zásoby sa myslí taký hmotný majetok, ktorý nespĺňa kritériá dlhodobého majetku (materiál, tovar, zvieratá). 
+&lt;LI&gt;Majetok účtovnej jednotky sa v závislosti od obstarávacej ceny&amp;nbsp;eviduje v&amp;nbsp;&lt;A href="d123f778-12d3-4049-8c94-3d1b7acdc24f"&gt;Knihe investičného majetku&lt;/A&gt;, prípadne v&amp;nbsp;&lt;A href="5c75c2ea-1b44-4dbd-84f9-e85a7febb948"&gt;Knihe drobného investičného majetku&lt;/A&gt;.&amp;nbsp;V prípade, že sa účtovná jednotka rozhodne tento majetok uviesť v&amp;nbsp;daňovej evidencii, tento majetok&amp;nbsp;sa stáva jej obchodným majetkom a&amp;nbsp;účtovná jednotka si môže uplatňovať všetky výdavky súvisiace s&amp;nbsp;využívaním tohto majetku. 
+&lt;LI&gt;Daňové priznanie k daňovej evidencii je možné zostaviť&amp;nbsp;v&amp;nbsp;ponuke &lt;EM&gt;Firma&lt;/EM&gt;,&amp;nbsp;&lt;A href="71b702c2-e6e7-4f9a-b66b-15dba7d31ae1"&gt;Priznania a&amp;nbsp;výkazy&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="14d440d5-589b-47b4-b4c1-7099e0ee8e16" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="32be28cf-2368-4818-9d24-cfa9d59afb75">
+      <Title m="2021-08-23T11:26:07.5736664Z">Jednoduché účtovníctvo - všeobecne o koncepcii</Title>
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="aecaf452-261d-4b37-97b2-560bfdbc443d" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="98f3fbbd-4456-432c-9318-8f9c9a7d933e">
+      <Title m="2023-04-13T12:41:34.1307174Z">Jednoduché účtovníctvo - základné možnosti</Title>
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="26f54abc-322a-4dad-a086-61bf89d12885" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="5e82cca9-b8af-4a80-ba30-7ab91914a595">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="11694c35-8598-40fc-98f8-32b09947e4dc" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="565cef7b-84c9-4402-966c-d3c94972cab4">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords />
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

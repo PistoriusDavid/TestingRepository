@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="14d3162b-3fe5-4ed2-9385-8147b2d77b2b" Status="Complete" CreatedOn="2014-10-16T11:16:48.370908Z" ModifiedOn="2025-04-07T09:38:48.5438597Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="20020" Name="Form_OBERON_CreateNewConnection" BuildFlags="">
+  <Title m="2021-08-03T08:29:17.8637757Z">Sprievodca Vytvorenie nového pripojenia</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2025-04-07T09:38:48.5438597Z">&lt;P&gt;Sprievodca &lt;EM&gt;Vytvorenie nového pripojenia&lt;/EM&gt; umožňuje &lt;STRONG&gt;nalistovať a pripojiť&amp;nbsp;existujúcu (už vytvorenú)&amp;nbsp;firmu k&amp;nbsp;programu, ak je umiestnená v&amp;nbsp;SQL serveri, resp. v inom ako štandardnom adresári&lt;/STRONG&gt;. Do zoznamu firiem vo&amp;nbsp;&lt;A href="d2b25c8c-d57f-4678-8021-3148259d3777"&gt;formulári Otvorenie agendy (firmy)&lt;/A&gt;&amp;nbsp;pribudne vybraná firma. Sprievodca&amp;nbsp;je dostupný z programu &lt;EM&gt;OBERON -&amp;nbsp;Agenda firmy&lt;/EM&gt;, &lt;A href="d2b25c8c-d57f-4678-8021-3148259d3777"&gt;formulár Otvorenie agendy (firmy)&lt;/A&gt;, tlačidlo &lt;EM&gt;Nalistovať&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Pomocou sprievodcu je možné&amp;nbsp;nalistovať a pripojiť&amp;nbsp;existujúcu (už vytvorenú)&amp;nbsp;firmu k programu, ak je umiestnená&amp;nbsp;v SQL serveri, prípadne&amp;nbsp;v&amp;nbsp;inom počítači alebo v&amp;nbsp;lokálnom počítači, ale v inom adresári, ako je štandardný (&lt;I&gt;C:\OBERON\DATA_U&lt;/I&gt;).&amp;nbsp;V&amp;nbsp;zozname firiem vo&amp;nbsp;&lt;A href="d2b25c8c-d57f-4678-8021-3148259d3777"&gt;formulári Otvorenie agendy (firmy)&lt;/A&gt;&amp;nbsp;pribudne vybraná firma, čím sa vlastne sprístupnia údaje danej firmy. 
+&lt;LI&gt;Najčastejšie sa tento&amp;nbsp;sprievodca používa na pripojenie účtovníctva umiestneného na zdieľanom sieťovom disku. 
+&lt;LI&gt;Pri nalistovaní firmy s &lt;STRONG&gt;databázou &lt;EM&gt;MS Access&lt;/EM&gt;&lt;/STRONG&gt; program danú firmu identifikuje podľa &lt;A href="2ed2711c-75f6-4f18-8dbb-1b44eaab93c0"&gt;adresára&lt;/A&gt;, ktorý je nalistovaný, napr. &lt;I&gt;C:\OBERON\DATA_U\DemoRestauracia&lt;/I&gt;. V takomto adresári program hľadá súbor s príponou &lt;EM&gt;.mdb&lt;/EM&gt; (napr.&amp;nbsp;&lt;EM&gt;DemoRestauracia.mdb&lt;/EM&gt;). 
+&lt;LI&gt;V prípade &lt;STRONG&gt;SQL servera&lt;/STRONG&gt; je potrebné zadať názov alebo IP adresu počítača, v&amp;nbsp;ktorom je SQL server umiestnený, a&amp;nbsp;prihlasovacie meno a heslo&amp;nbsp;do SQL servera . Tieto údaje je možné získať u&amp;nbsp;správcu daného SQL servera. Zároveň&amp;nbsp;vykonajte &lt;STRONG&gt;nastavenie SSL&lt;/STRONG&gt;&amp;nbsp;(&lt;EM&gt;&lt;STRONG&gt;S&lt;/STRONG&gt;ecure &lt;STRONG&gt;S&lt;/STRONG&gt;ocket &lt;STRONG&gt;L&lt;/STRONG&gt;ayer&lt;/EM&gt;)&amp;nbsp;- určuje, či&amp;nbsp;komunikácia medzi OBERON-om a databázovým SQL serverom má byť šifrovaná. Dostupné sú nasledujúce možnosti:&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Nepoužívať (vypnuté)&lt;/STRONG&gt;&amp;nbsp;- komunikácia medzi OBERON-om a databázovým SQL serverom nebude šifrovaná. Nešifrované spojenie sa môže používať v malých sieťach (s&amp;nbsp;malým počtom počítačov), kde sieť nie je prístupná z vonkajšieho internetu, prípadne sa do siete nemôžu pripojiť anonymní používatelia. Taktiež sa môže používať v&amp;nbsp;prípade, že je komunikácia medzi OBERON-om a SQL serverom šifrovaná sieťovou infraštruktúrou, napr. VPN. 
+&lt;LI&gt;&lt;STRONG&gt;Používať (ak je dostupné)&lt;/STRONG&gt; - ak je SQL server nakonfigurovaný na používanie SSL, OBERON sa automaticky pripojí s použitím&amp;nbsp;SSL pripojenia a komunikácia bude bezpečná (šifrovaná). Ak SQL server nebude používať SSL, komunikácia nebude šifrovaná. 
+&lt;LI&gt;&lt;STRONG&gt;Vždy vyžadovať&lt;/STRONG&gt; - OBERON pri pripojení&amp;nbsp;k&amp;nbsp;SQL serveru vždy používa šifrované pripojenie. Ak SQL server nie je nakonfigurovaný pre SSL, pripojenie nebude možné. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Systém OBERON&amp;nbsp;podporuje rôzne databázové systémy vrátane &lt;STRONG&gt;bezplatných&lt;/STRONG&gt;. Bližšie informácie získate v téme&amp;nbsp;&lt;A href="0b81f4ea-5e68-48c1-8b89-933d5a23d962"&gt;Databázové systémy&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;V&amp;nbsp;prípade, že&amp;nbsp;ste zabudli heslo do databázového servera, možno zaslať dodávateľovi systému OBERON požiadavku na zistenie (zobrazenie) hesla. Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="0b81f4ea-5e68-48c1-8b89-933d5a23d962" style="auto-update-caption: true"&gt;Databázové systémy&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="b2994b87-9333-48af-8fbb-82385cf3f67a" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="e975459f-e882-49f2-adb9-79e68a07df0e">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="8478a3a0-ddac-4df4-a42b-0ba14ff3c443" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="d2b25c8c-d57f-4678-8021-3148259d3777">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="034b9694-c009-4566-b14f-437d8119ec84">
+      <Keyword m="2023-02-16T11:41:25.9485352Z">Vvytvorenie nového pripojenia</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="e4edf6ae-1c85-46d2-8c32-9dd7d9df7691">
+      <Keyword m="2022-06-30T09:35:07.8657715Z">SSL - vytvorenie nového pripojenia (SQL server)</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="b5c3fec4-63ab-4822-9d2e-dd16f98f3b61">
+      <Keyword m="2023-02-16T11:42:09.7292482Z">Nalistovanie a pripojenie existujúcej firmy</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="1ea156c6-edd0-46e0-ab65-7f41af30e672" Status="Complete" CreatedOn="2014-09-04T11:29:19.5106Z" ModifiedOn="2024-08-07T07:00:38.3753329Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="ProgramControls_Filters" BuildFlags="">
+  <Title m="2014-09-04T11:29:43.8988Z">Používanie filtrov</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-08-07T07:00:38.3753329Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;popisuje &lt;STRONG&gt;problematiku používania filtrov&lt;/STRONG&gt; v systéme OBERON. Nastavenie filtrovania je dostupné v&amp;nbsp;jednotlivých&amp;nbsp;evidenciách (napr. kniha pohľadávok, záväzkov atď.) po stlačení tlačidla &lt;A href="124da68e-c3f0-43e4-9466-60b4916bfc41"&gt;Vlastnosti&lt;/A&gt;, záložka &lt;I&gt;Filtre&lt;/I&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Filtrovanie záznamov v systéme OBERON je&amp;nbsp;funkcia, ktorá &lt;STRONG&gt;umožňuje&amp;nbsp;v aktuálne&amp;nbsp;otvorenej evidencii (knihe) zobrazovať len tie záznamy, ktoré vyhovujú zadanej podmienke, resp. podmienkam&amp;nbsp;filtrovania&lt;/STRONG&gt;. 
+&lt;LI&gt;Samotné filtrovanie spočíva v porovnávaní zvoleného poľa knihy (alebo inej tabuľky záznamov) so zadanou hodnotou. Metódu porovnávania určuje podmienka filtrovania. 
+&lt;LI&gt;Použitie filtrov môže slúžiť na &lt;STRONG&gt;sprehľadnenie práce&lt;/STRONG&gt; s&amp;nbsp;danou knihou (program zobrazí len tie&amp;nbsp;údaje, ktoré vyhovujú podmienke filtra). Okrem toho, tlačové zostavy v&amp;nbsp;príslušných knihách, ktoré majú sprievodcu s&amp;nbsp;možnosťou nastavenia rozsahu&amp;nbsp;tlačených údajov,&amp;nbsp;reagujú na nastavenie filtra, čo znamená, že filtrované záznamy&amp;nbsp;možno vytlačiť. Pomocou filtra je teda možné v&amp;nbsp;určitom rozsahu &lt;STRONG&gt;určovať formát výstupnej tlačovej zostavy&lt;/STRONG&gt;. 
+&lt;LI&gt;V systéme OBERON je možné používať&amp;nbsp;&lt;STRONG&gt;základný filter&lt;/STRONG&gt; alebo &lt;STRONG&gt;rozšírené možnosti filtrov&lt;/STRONG&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Základný filter (bez rozšírených možností)&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Základný filter je určený na jednoduché filtrovanie v jednotlivých evidenciách (alebo iných tabuľkách záznamov). Môže sa skladať z jednej alebo viacerých podmienok (zložiek) filtrovania. 
+&lt;LI&gt;Nastavenie základného filtra spočíva vo výbere &lt;STRONG&gt;poľa&lt;/STRONG&gt; danej knihy (tabuľky záznamov), podľa ktorého budú záznamy filtrované, &lt;STRONG&gt;podmienky&lt;/STRONG&gt; filtrovania a &lt;STRONG&gt;hodnoty&lt;/STRONG&gt; &lt;STRONG&gt;(rozsahu hodnôt)&lt;/STRONG&gt;, podľa ktorej má podmienka filtrovať záznamy. 
+&lt;LI&gt;Nastavenú podmienku (zložku) filtra je možné &lt;STRONG&gt;aktivovať začiarknutím&amp;nbsp;políčka vľavo&lt;/STRONG&gt; (&lt;EM&gt;Použiť filter&lt;/EM&gt;). V prípade, že je potrebné pozastaviť filtrovanie podľa príslušnej podmienky, stačí zrušiť začiarknutie&amp;nbsp;daného políčka. 
+&lt;LI&gt;V prípade aktivácie viacerých filtrovacích podmienok je možné nastaviť &lt;EM&gt;&lt;STRONG&gt;Spôsob zlúčenia podmienok&lt;/STRONG&gt;&lt;/EM&gt;&amp;nbsp;- teda či vyfiltrované záznamy musia vyhovovať obom podmienkam &lt;EM&gt;súčasne&lt;/EM&gt;, alebo stačí jednej &lt;EM&gt;alebo&lt;/EM&gt; druhej. 
+&lt;LI&gt;Viac informácií o jednotlivých nastaveniach získate v téme&amp;nbsp;&lt;A href="124da68e-c3f0-43e4-9466-60b4916bfc41" style="auto-update-caption: true"&gt;Formulár Vlastnosti&lt;/A&gt;, záložka &lt;EM&gt;Filtre&lt;/EM&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt; 
+&lt;P&gt;Príklad použitia základného filtra:&lt;/P&gt;
+&lt;P&gt;V knihe &lt;EM&gt;Skladové pohyby&lt;/EM&gt; požadujeme zobraziť pohyby len za mesiac február daného roka. Nastavenie zložky filtra bude nasledujúce: Pole: &lt;STRONG&gt;&lt;EM&gt;Dátum&lt;/EM&gt;&lt;/STRONG&gt;, Podmienka: &lt;STRONG&gt;&lt;EM&gt;je z obdobia&lt;/EM&gt;&lt;/STRONG&gt;, Hodnota: &lt;STRONG&gt;&lt;EM&gt;Február&lt;/EM&gt;&lt;/STRONG&gt;. Ďalšie príklady nájdete v&amp;nbsp;téme&amp;nbsp;&lt;A href="4a930c98-fab8-4cda-849e-734179654358"&gt;Príklady použitia filtrov&lt;/A&gt;.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H5&gt;&amp;nbsp;Obrázok č. 1: Podmienka&amp;nbsp;filtra&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Properties/Form_Menu_Properties_Filter.png"&gt;&amp;nbsp;&lt;/P&gt;
+&lt;H2&gt;Rozšírené možnosti filtrov&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;V prípade aktivácie rozšírených možností filtrov (pozri postup nižšie) má používateľ možnosť vytvoriť &lt;STRONG&gt;viac filtrov, z ktorých každý sa môže skladať z jednej alebo viacerých filtrovacích podmienok&lt;/STRONG&gt;, ktoré sa nastavujú rovnako ako pri základnom filtri. Na rozdiel od základného filtra však jednotlivé podmienky nie je možné deaktivovať, iba vymazať. 
+&lt;LI&gt;Zoznam nastavených filtrov sa zobrazuje&amp;nbsp;v&amp;nbsp;paneli na ľavej strane formulára, ktorý&amp;nbsp;slúži na vytváranie, aktivovanie/vypínanie, presúvanie a vymazávanie filtrov. 
+&lt;LI&gt;Každý filter musí&amp;nbsp;mať svoj jedinečný názov. Filtre možno&amp;nbsp;aktivovať buď&amp;nbsp;jednotlivo, alebo aj súčasne s inými filtrami. 
+&lt;LI&gt;Panel so zoznamom filtrov sa zobrazuje aj v knihe (alebo inej tabuľke záznamov), v&amp;nbsp;ktorej sú nastavené rozšírené&amp;nbsp;možnosti filtrov. V tomto paneli je možné filtre aktivovať začiarknutím políčka pred názvom filtra, alebo zobraziť nastavenie filtra pomocou&amp;nbsp;tlačidla &lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_Button_FilterSettings.png"&gt;.&amp;nbsp;Aj tu je&amp;nbsp;v prípade potreby&amp;nbsp;možné &lt;STRONG&gt;aplikovať niekoľko filtrov naraz&lt;/STRONG&gt;. V takom prípade je potrebné pri začiarknutí políčka ďalšieho filtra súčasne stlačiť kláves &lt;EM&gt;&lt;STRONG&gt;Shift&lt;/STRONG&gt;&lt;/EM&gt;. 
+&lt;LI&gt;Do rozšírených možností filtrov je možné zapracovať aj podmienku jazyka SQL (po stlačení tlačidla &lt;EM&gt;Pre pokročilých&lt;/EM&gt;). Používa sa v prípadoch,&amp;nbsp;keď nestačí použiť štandardné možnosti filtrovania. V&amp;nbsp;prípade zvolenia podmienky SQL sa načítavané hodnoty z databázy filtrujú podľa nastavených podmienok filtra. 
+&lt;LI&gt;Pri každom filtri je možné&amp;nbsp;nastaviť &lt;STRONG&gt;vlastné triedenie&lt;/STRONG&gt;, podľa ktorého sa zoradia vyfiltrované záznamy v danej knihe. 
+&lt;LI&gt;Viac informácií o jednotlivých nastaveniach získate v téme&amp;nbsp;&lt;A href="124da68e-c3f0-43e4-9466-60b4916bfc41" style="auto-update-caption: true"&gt;Formulár Vlastnosti&lt;/A&gt;, záložka &lt;EM&gt;Filtre&lt;/EM&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 2: Nastavenie filtra s rozšírenými možnosťami&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Properties/Form_Menu_Properties.png"&gt;&amp;nbsp;&lt;/P&gt;
+&lt;H2&gt;Postup nastavenia filtrov s&amp;nbsp;rozšírenými možnosťami&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;Vo&amp;nbsp;&lt;A href="124da68e-c3f0-43e4-9466-60b4916bfc41"&gt;formulári Vlastnosti&lt;/A&gt;, záložka &lt;EM&gt;Filtre,&lt;/EM&gt; aktivujte&amp;nbsp;&lt;EM&gt;Rozšírené možnosti filtrov&lt;/EM&gt;&amp;nbsp;začiarknutím&amp;nbsp;políčka &lt;EM&gt;Zobraziť rozšírené možnosti filtrov.&lt;/EM&gt; 
+&lt;LI&gt;Nový filter je možné vytvoriť pomocou tlačidla &lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_Button_YellowPlus.png"&gt;&amp;nbsp;v ľavom paneli, v ktorom sa zobrazuje zoznam nastavených filtrov. Po zadaní názvu je možné pokračovať&amp;nbsp;podobným spôsobom ako pri zadávaní podmienok jednoduchého filtra. Rozdiel je v&amp;nbsp;tom, že ich nie je potrebné aktivovať (začiarknuť) - platné sú vždy. Zároveň ich nie je možné deaktivovať, iba vymazať (stlačením tlačidla &lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_Button_RedX.PNG"&gt;&amp;nbsp;po označení danej podmienky kurzorom). 
+&lt;LI&gt;Filter sa aktivuje začiarknutím políčka pred názvom filtra. Analogicky je možné filter deaktivovať. 
+&lt;LI&gt;Poradie filtrov je možné zmeniť pomocou&amp;nbsp;&lt;A href="38489850-ab82-41b6-b258-3fa613ed5861"&gt;panela na zmenu poradia položiek zoznamu&lt;/A&gt;&amp;nbsp;(modrých šípok). Na odstránenie označte filter kurzorom a&amp;nbsp;stlačte tlačidlo &lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_Button_RedX.PNG"&gt;. 
+&lt;LI&gt;Panel so zoznamom filtrov sa zobrazuje aj v knihe (alebo inej tabuľke záznamov), v&amp;nbsp;ktorej sú nastavené rozšírené&amp;nbsp;možnosti filtrov. V tomto paneli je možné filtre aktivovať začiarknutím políčka pred názvom filtra, alebo zobraziť nastavenie filtra pomocou&amp;nbsp;tlačidla &lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_Button_FilterSettings.png"&gt;.&amp;nbsp;V prípade potreby je možné &lt;STRONG&gt;aplikovať aj niekoľko filtrov naraz&lt;/STRONG&gt;. V takom prípade je potrebné pri začiarknutí políčka ďalšieho filtra súčasne stlačiť kláves &lt;EM&gt;&lt;STRONG&gt;Shift&lt;/STRONG&gt;&lt;/EM&gt;. &lt;/LI&gt;&lt;/OL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;V prípade sieťovej práce programu filtre jedného používateľa neovplyvnia filtre iného používateľa.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt; 
+&lt;P&gt;Niekoľko tipov na prácu s filtrami:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;Okrem bežných filtrov systém OBERON obsahuje aj ďalší silný nástroj na prácu so záznamami, a to &lt;STRONG&gt;označovanie záznamov&lt;/STRONG&gt;, pomocou ktorého&amp;nbsp;je možné z príslušného zoznamu jednoducho a rýchlo vybrať jednotlivé záznamy. Za označený záznam sa považuje ten, ktorý v&amp;nbsp;prvom stĺpci knihy (tabuľky záznamov) obsahuje znak &lt;STRONG&gt;*&lt;/STRONG&gt; (hviezdička). Na filtrovanie týchto záznamov slúži špeciálny typ podmienky filtra &lt;EM&gt;Vybrať záznamy - Len označené&lt;/EM&gt;. Viac informácií nájdete v téme&amp;nbsp;&lt;A href="54bcf6c3-515f-4dcb-a3eb-0bf905629a16" style="auto-update-caption: true"&gt;Označovanie záznamov&lt;/A&gt;. 
+&lt;LI&gt;Špeciálny typ filtra &lt;EM&gt;&lt;STRONG&gt;Vybrať záznamy&lt;/STRONG&gt;&lt;/EM&gt; ponúka aj ďalšie možnosti filtrovania záznamov, napr. záznamy &lt;EM&gt;Len neuhradené, Len uhradené, Len skladové&lt;/EM&gt; atď.&amp;nbsp;Ďalší typ&amp;nbsp;filtra &lt;EM&gt;&lt;STRONG&gt;Dátum splatnosti&lt;/STRONG&gt;&lt;/EM&gt; s&amp;nbsp;podmienkou&lt;EM&gt;&lt;STRONG&gt;&amp;nbsp;je z obdobia&lt;/STRONG&gt;&lt;/EM&gt; a hodnotou&amp;nbsp;&lt;EM&gt;&lt;STRONG&gt;budúci týždeň&lt;/STRONG&gt;&lt;/EM&gt; možno využiť napr. na filtrovanie faktúr, ktorých splatnosť je nasledujúci týždeň. 
+&lt;LI&gt;V niektorých evidenciách je dostupný &lt;STRONG&gt;vstavaný filter&lt;/STRONG&gt; (spravidla v ľavom paneli oddelenom rozdeľovacou lištou). Napr. v knihe&amp;nbsp;&lt;A href="48505e8d-5f28-4063-882b-ca07f33670ef"&gt;Objednávky prijaté&lt;/A&gt; je možné takto rýchlo filtrovať doklady podľa typu dokladu&amp;nbsp;(&lt;EM&gt;Všetky, Len objednávky, Len ponuky&lt;/EM&gt;) a stavu&amp;nbsp;objednávok (&lt;EM&gt;Všetky, Nové, Otvorené...&lt;/EM&gt;). 
+&lt;LI&gt;Filtre je možné použiť aj pri &lt;STRONG&gt;sumarizovaní výsledkov jednotlivých činností (odvetví) vo firme&lt;/STRONG&gt;&amp;nbsp;pri použití&amp;nbsp;&lt;A href="f68687b5-0939-447b-9f8e-37c883676f1e"&gt;členenia&lt;/A&gt;. Sumarizovanie výsledkov sa realizuje&amp;nbsp;využívaním príslušných tlačových výstupov (napr. &lt;EM&gt;Hospodársky výsledok (členenie)&lt;/EM&gt;).&amp;nbsp;&amp;nbsp;Vzhľadom na to, že výstupné zostavy reagujú na nastavené filtre,&amp;nbsp;je možné vo výstupných zostavách získať&amp;nbsp;aj súčty účtovných kníh podľa jednotlivých členení. Pri filtrovaní dokladov (záznamov)&amp;nbsp;je potrebné použiť filter: &lt;EM&gt;Členenie obsahuje text&lt;/EM&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;B&gt;Videonávody&lt;/B&gt; 
+&lt;P&gt;K téme sú spracované videonávody&amp;nbsp;&lt;A href="https://exalogic.sk/na-stiahnutie-oberon/pouzivanie-filtrov/" target=_blank&gt;Používanie filtrov&lt;/A&gt; a&lt;EM&gt;&amp;nbsp;&lt;/EM&gt;&lt;A href="https://exalogic.sk/na-stiahnutie-oberon/ovladanie-programu/" target=_blank&gt;Ovládanie programu&lt;/A&gt;. Všetky videonávody&amp;nbsp;sú k&amp;nbsp;dispozícii&amp;nbsp;na stránke&amp;nbsp;&lt;A href="http://www.exalogic.sk/"&gt;www.exalogic.sk&lt;/A&gt; v&amp;nbsp;sekcii &lt;EM&gt;Na stiahnutie,&amp;nbsp;&lt;/EM&gt;&lt;A href="https://exalogic.sk/na-stiahnutie/oberon-agenda-firmy/video-navody-na-stiahnutie/" target=_blank&gt;Videonávody&lt;/A&gt;.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="6d736385-6bd6-4133-b4b2-f1c3dc6b136a" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="124da68e-c3f0-43e4-9466-60b4916bfc41">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="030eedc9-0192-4772-900b-b728b1b4da3a" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="4a930c98-fab8-4cda-849e-734179654358">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="5c368ee7-79bc-462c-aff3-f956b7186b5b" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="54bcf6c3-515f-4dcb-a3eb-0bf905629a16">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="df32f855-97c1-4b78-9841-269bbee28028">
+      <Keyword m="2021-10-01T05:54:37.7240457Z">Filtre - používanie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="bbccdd7b-c257-4ae3-b8d4-e83f4777cf84">
+      <Keyword m="2021-10-01T07:35:42.4083705Z">Rozšírené možnosti filtrov</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="74989100-5e46-4fcb-b826-fe6a7a828c03">
+      <Keyword m="2021-10-01T07:35:52.4091741Z">Filtre - postup nastavenia</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="4a61f736-8a7d-4786-be8f-38ca25595c39">
+      <Keyword m="2021-10-01T09:02:34.4436318Z">Vybrať záznamy (filtre)</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="20eec8a2-780a-4f69-b03b-68ccb86034f4">
+      <Keyword m="2022-01-28T12:27:57.5697155Z">Filtre - tipy na prácu</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="2110925f-095e-48ca-808b-e7a7eea1719d">
+      <Keyword m="2022-01-28T12:28:04.5028768Z">Filtre - základné</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="7dc64dae-cf17-4cd0-a22f-7c87877c4e6a">
+      <Keyword m="2022-01-28T12:28:11.5619611Z">Filtre - rozšírené</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="9f8ac9d1-936b-40d5-95e8-382e8146d523">
+      <Keyword m="2022-01-28T12:28:45.6344044Z">Označovanie záznamov - filtre</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="6041fe83-f760-42ff-ac63-b6ef5d0f7f46">
+      <Keyword m="2022-08-15T09:15:57.2929198Z">Vstavaný filter</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="ecb1ee51-d868-430e-be8f-5aa8c4f2e72e">
+      <Keyword m="2022-01-28T12:53:26.9606572Z">Triedenie - filter</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="65dd0949-ac98-4f73-a837-4b0cf895f845">
+      <Keyword m="2022-01-28T13:11:50.4791322Z">Základný filter</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="f229ec0f-712a-4130-8994-5602b8a85a2b">
+      <Keyword m="2022-01-28T13:11:55.6310075Z">Rozšírený filter</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="3d333fe2-994e-49b4-ab6d-ea70d80d2d64">
+      <Keyword m="2022-01-28T13:12:58.3379479Z">Filtre v evidenciách - aktivácia viacerých (Shift)</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="d03a3341-6082-4e48-9828-914730131965">
+      <Keyword m="2022-01-28T13:15:41.170642Z">Len označené - filtrovanie záznamov</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="51d463b4-c8ab-4c70-8783-9e1b226a3ec1">
+      <Keyword m="2023-04-03T07:22:29.7539877Z">Filter Budúci týždeň</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="d1506f25-499c-424d-bd52-1bbe831906de" Status="Complete" CreatedOn="2014-10-10T08:17:31.8516453Z" ModifiedOn="2023-03-28T09:21:46.4677939Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="40560" Name="Form_Invoicces_Penale" BuildFlags="">
+  <Title m="2021-07-20T07:36:01.0577984Z">Sprievodca Výpočet úrokov z omeškania</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-03-28T09:21:46.4677939Z">&lt;P&gt;Sprievodca &lt;EM&gt;Výpočet úrokov z omeškania&lt;/EM&gt; umožňuje &lt;STRONG&gt;automaticky vypočítať úroky z&amp;nbsp;omeškania za neuhradenú pohľadávku po lehote splatnosti&lt;/STRONG&gt;. Výška úrokov z&amp;nbsp;omeškania je určená ako základná úroková sadzba ECB zvýšená o&amp;nbsp;8&amp;nbsp;percentuálnych bodov.&amp;nbsp;Aktuálna sadzba úrokov z omeškania je zverejnená na stránke&amp;nbsp;&lt;A href="https://www.justice.gov.sk/Stranky/Nase-sluzby/Civilne-pravo/Aktualna-sadzba-zakonnych-urokov-z-omeskania/Uvod.aspx" target=_blank&gt;Ministerstva spravodlivosti&lt;/A&gt;. Sprievodca je dostupný z&amp;nbsp;programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;, ponuka &lt;EM&gt;Fakturácia&lt;/EM&gt;,&amp;nbsp;&lt;A href="5c21adcc-87c8-44e7-981d-02902635693d"&gt;Kniha pohľadávok&lt;/A&gt;, tlačidlo &lt;EM&gt;Možnosti - Výpočet výšky úroku z&amp;nbsp;omeškania&lt;/EM&gt;.&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="bcba7d1b-13dc-4fc7-bc0f-043e3cb03313" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="5c21adcc-87c8-44e7-981d-02902635693d">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="d195e8b6-0c4f-4999-ae15-01b7a16d0447">
+      <Keyword m="2021-09-02T12:20:10.8142657Z">Úroky z omeškania - výpočet (sprievodca)</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="0da35c0c-4cb8-46b5-98e2-5b9f6686de20">
+      <Keyword m="2021-09-02T12:22:54.5082436Z">Penále z omeškania - výpočet (sprievodca)</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

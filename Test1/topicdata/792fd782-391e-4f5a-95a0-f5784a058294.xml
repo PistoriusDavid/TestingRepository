@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="792fd782-391e-4f5a-95a0-f5784a058294" Status="Complete" CreatedOn="2014-09-10T08:03:13.1987508Z" ModifiedOn="2024-07-17T08:22:57.0294387Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Vehicles_Started_Rides" BuildFlags="">
+  <Title m="2014-09-10T08:04:03.4826268Z">Tvorba knihy jázd</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-05-09T11:37:28.1543521Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; je venovaná &lt;STRONG&gt;tvorbe&amp;nbsp;knihy jázd&lt;/STRONG&gt; v&amp;nbsp;module&amp;nbsp;&lt;A href="085651d2-b64b-4884-b55d-0ba2b7f7808a"&gt;Evidencia vozidiel&lt;/A&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Zákon&amp;nbsp;nestanovuje presnú formu, ako&amp;nbsp;by mala&amp;nbsp;kniha jázd vyzerať,&amp;nbsp;mala by však spĺňať&amp;nbsp;isté štandardy. Inými slovami, na preukázanie&amp;nbsp;hodnovernosti a opodstatnenosti uskutočnených jázd &lt;STRONG&gt;nie je dôležitá forma, ale obsah evidencie&lt;/STRONG&gt;. Evidencia o&amp;nbsp;uskutočnených jazdách by mala obsahovať tieto údaje: 
+&lt;UL&gt;
+&lt;LI&gt;dátum, meno vodiča a označenie vozidla, 
+&lt;LI&gt;čas trvania cesty (od – do), 
+&lt;LI&gt;trasa cesty (odkiaľ – kam), 
+&lt;LI&gt;účel cesty - napr. obchodné rokovanie, nákup tovaru atď., 
+&lt;LI&gt;najazdené kilometre. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;V&amp;nbsp;systéme OBERON možno jazdy evidovať&amp;nbsp;v ponuke &lt;I&gt;Vozidlá,&lt;/I&gt;&amp;nbsp;&lt;A href="280be3ab-e42c-462b-bb0b-7abeac11b45a"&gt;Kniha jázd&lt;/A&gt;. V&amp;nbsp;knihe&amp;nbsp;sa&amp;nbsp;záznamy (jazdy)&amp;nbsp;zobrazujú podľa príslušnosti k&amp;nbsp;&lt;A href="c6542278-5d57-4c96-b3d8-ec30f2b5a6d3"&gt;vozidlu&lt;/A&gt;.&amp;nbsp;V&amp;nbsp;prípade používania viacerých&amp;nbsp;vozidiel záznamy&amp;nbsp;prislúchajúce k jednotlivým&amp;nbsp;vozidlám možno zobraziť ako podmnožiny&amp;nbsp;záznamov knihy&amp;nbsp;jázd.&amp;nbsp;Možno tak urobiť pomocou &lt;STRONG&gt;filtra&amp;nbsp;&lt;EM&gt;Vozidlo&lt;/EM&gt;&lt;/STRONG&gt; v&amp;nbsp;hornej časti evidencie. 
+&lt;LI&gt;Hlavička tabuľky &lt;EM&gt;Knihy jázd&lt;/EM&gt;&amp;nbsp;s&amp;nbsp;názvami polí (stĺpcov) sa líši podľa toho, či&amp;nbsp;je aktuálne&amp;nbsp;&lt;A href="c6542278-5d57-4c96-b3d8-ec30f2b5a6d3"&gt;vozidlo&lt;/A&gt; evidované ako &lt;STRONG&gt;firemné, resp. prenajaté&amp;nbsp;alebo súkromné&lt;/STRONG&gt;. 
+&lt;LI&gt;Pri firemnom a&amp;nbsp;prenajatom&amp;nbsp;vozidle je&amp;nbsp;pred samotným zaevidovaním jednotlivých jázd potrebné mať zaevidované doklady o&amp;nbsp;&lt;A href="822d4556-571e-4260-ab82-e68d232b1662"&gt;nákupe PHL&lt;/A&gt;. Následne sa&amp;nbsp;v&lt;EM&gt;&amp;nbsp;Knihe jázd&lt;/EM&gt; pri zvolenom firemnom, resp. prenajatom vozidle zobrazí &lt;STRONG&gt;zoznam dokladov&lt;/STRONG&gt; s&amp;nbsp;údajmi o nákupe PHL, podľa ktorých&amp;nbsp;bude možné&amp;nbsp;zaevidovať príslušné jazdy.&amp;nbsp;Po zaevidovaní danej jazdy na základe príslušného dokladu o&amp;nbsp;&lt;A href="822d4556-571e-4260-ab82-e68d232b1662"&gt;nákupe PHL&lt;/A&gt;&amp;nbsp;sa údaje tohto dokladu (množstvo, cena, číslo&amp;nbsp;dokladu...) prenesú do&amp;nbsp;príslušných polí&amp;nbsp;záznamu jazdy. Aby sa tieto údaje o&amp;nbsp;nákupe PHL do danej jazdy preniesli, je nevyhnutné, aby dátum a čas nákupu PHL &lt;STRONG&gt;spadal do rozsahu&amp;nbsp;dátumov (časov) uskutočnenia jazdy&lt;/STRONG&gt;. 
+&lt;LI&gt;Daný&amp;nbsp;pokladničný doklad sa pri zvolenom firemnom, resp. prenajatom vozidle&amp;nbsp;v&lt;EM&gt;&amp;nbsp;Knihe jázd&lt;/EM&gt; zobrazuje len do chvíle, kým sa na základe neho nezaeviduje sa jazda&amp;nbsp;v&lt;EM&gt;&amp;nbsp;Knihe jázd&lt;/EM&gt;, t.&amp;nbsp;j. kým sa jeho údaje neprenesú do&amp;nbsp;príslušných polí&amp;nbsp;záznamu jazdy&lt;EM&gt;.&amp;nbsp;&lt;/EM&gt;To umožňuje &lt;STRONG&gt;zaevidovať jazdy aj spätne&lt;/STRONG&gt; po uplynutí aj niekoľkých mesiacov od&amp;nbsp;ich uskutočnenia - pri firemných, resp. prenajatých vozidlách účtovná jednotka vie, že na základe jednotlivých dokladov o nákupe PHL, ktoré sa zobrazujú pri danom vozidle, ešte neboli zaevidované jazdy. Pri súkromných vozidlách je možné údaje o tom, kde a kedy vozidlo čerpalo PHL, zistiť v&amp;nbsp;knihe&amp;nbsp;&lt;A href="822d4556-571e-4260-ab82-e68d232b1662"&gt;Nákup PHL&lt;/A&gt;. 
+&lt;LI&gt;V&amp;nbsp;prípade, že účtovná jednotka eviduje doklady o nákupe PHL v&amp;nbsp;module &lt;EM&gt;Účtovníctvo&lt;/EM&gt;, v&amp;nbsp;programe sa vytvorí väzba medzi zaúčtovaným pokladničným dokladom a dokladom evidovaným v&amp;nbsp;module&amp;nbsp;&lt;A href="085651d2-b64b-4884-b55d-0ba2b7f7808a"&gt;Evidencia vozidiel&lt;/A&gt; (následne sa napr. pri prečíslovaní pokladničných dokladov v&amp;nbsp;účtovnom, resp. peňažnom&amp;nbsp;denníku automaticky prečíslujú aj doklady v knihe jázd). Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="75b0747a-07d3-4044-a463-48cbddb73f49" style="auto-update-caption: true"&gt;Zaevidovanie dokladu o nákupe PHL&lt;/A&gt;. 
+&lt;LI&gt;V&lt;EM&gt;&amp;nbsp;Knihe jázd&lt;/EM&gt; sa pre zvolené firemné, resp. prenajaté&amp;nbsp;vozidlo zobrazuje aj&amp;nbsp;&lt;STRONG&gt;z&lt;I&gt;ostatok paliva&lt;/I&gt;&lt;/STRONG&gt; a &lt;EM&gt;&lt;STRONG&gt;dojazd&lt;/STRONG&gt;,&lt;/EM&gt; ktorý je vypočítaný vždy k&amp;nbsp;poslednej evidovanej jazde. &lt;EM&gt;Zostatok paliva&lt;/EM&gt; má len informatívny charakter a slúži na približné určenie stavu paliva (pri vytváraní novej jazdy sa vždy uistite, že vozidlo má&amp;nbsp;dostatočný zostatok paliva). &lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="877f27fb-4167-48c6-b88b-596de3448ce8" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="280be3ab-e42c-462b-bb0b-7abeac11b45a">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="d0c4f6a7-8e2d-4d77-8e63-04d779010fc7" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="822d4556-571e-4260-ab82-e68d232b1662">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="e16b6dad-151b-4ee4-9dba-c04a77cf9f07" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="75b0747a-07d3-4044-a463-48cbddb73f49">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="62a56f3f-3adb-4d34-a010-94bd21771297" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="c6542278-5d57-4c96-b3d8-ec30f2b5a6d3">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="40ec699f-6cc5-46eb-bff6-fe7cd9c783a3" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1c45ad86-636b-4d4e-87f9-e2932e494f51">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="cb51e201-af2c-47ab-bea4-985ac1b2d39f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="beb97ace-1408-443d-87c0-bce72b007ea7">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="b6b484ca-2613-49f9-9b16-fb560f4bf0c8">
+      <Keyword m="2023-05-04T10:21:04.9569254Z">Jazdy - tvorba</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

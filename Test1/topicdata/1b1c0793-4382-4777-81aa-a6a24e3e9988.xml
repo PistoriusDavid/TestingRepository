@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="1b1c0793-4382-4777-81aa-a6a24e3e9988" Status="Complete" CreatedOn="2019-09-26T08:29:01.2979716Z" ModifiedOn="2022-12-15T08:56:44.3415236Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Device_Customer_DisplayOBERON" BuildFlags="">
+  <Title m="2019-09-26T08:29:41.2473928Z">Zákaznícky displej OBERON</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2022-09-09T09:13:16.9191242Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;je venovaná&lt;STRONG&gt;&amp;nbsp;zákazníckemu displeju &lt;EM&gt;OBERON&lt;/EM&gt;&lt;/STRONG&gt;. Téma obsahuje &lt;STRONG&gt;všeobecné informácie o zariadení spolu s&amp;nbsp;technickou špecifikáciou&lt;/STRONG&gt;.&amp;nbsp;Pre používateľov OBERON-u je &lt;A href="1f32a90c-7b4a-4d69-9f38-a560178794b3"&gt;odporúčaným&lt;/A&gt; zákazníckym displejom&amp;nbsp;&lt;A href="1f32a90c-7b4a-4d69-9f38-a560178794b3" style="auto-update-caption: true"&gt;&lt;IMG border=0 alt="Odporúčané riešenia" src="images/OBERON/Basic/Odporucane-riesenie_ruka_ikona.png"&gt;&lt;/A&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Zákaznícky displej &lt;EM&gt;OBERON&lt;/EM&gt;&amp;nbsp;je hardvérové zariadenie, ktoré sa používa v prepojení s modulom&amp;nbsp;&lt;A href="aec074f4-3e1c-4a1e-8a80-06fcecf51156"&gt;Pokladnica OBERON&lt;/A&gt;&amp;nbsp;na informovanie spotrebiteľa o cene predávaného výrobku alebo poskytovanej služby. 
+&lt;LI&gt;Zariadenie sa vyznačuje elegantným dizajnom a zároveň vysokou úžitkovosťou a všestrannosťou nasadenia. 
+&lt;LI&gt;Displej zobrazuje 40 znakov v dvoch riadkoch veľkým, vysoko svietivým písmom s podporou diakritiky. 
+&lt;LI&gt;Panel s displejom je možné natáčať a naklápať na zaistenie optimálneho uhla pre čítanie. 
+&lt;LI&gt;Skladaním komponentov stojana možno dosiahnuť tri rôzne výškové konfigurácie displeja. 
+&lt;LI&gt;Zákaznícky displej sa napája z počítača pomocou USB rozhrania. 
+&lt;LI&gt;Postup inštalácie zariadenia získate&amp;nbsp;v téme&amp;nbsp;&lt;A href="0d200c86-b5ea-4a47-9ff2-8a643fb32d78"&gt;Inštalácia zákazníckeho displeja OBERON&lt;/A&gt;. 
+&lt;LI&gt;Spôsob pripojenia: USB 
+&lt;LI&gt;Distribútor: EXALOGIC, s.r.o. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 1: Zákaznícky displej &lt;EM&gt;OBERON&lt;/EM&gt;&amp;nbsp;&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Devices/Device_CustomerDisplay_OBERON.png"&gt;&amp;nbsp;&lt;/P&gt;
+&lt;H2&gt;Technická špecifikácia&lt;/H2&gt;
+&lt;P&gt;&lt;STRONG&gt;Model:&lt;/STRONG&gt; OBERON&lt;BR&gt;&lt;STRONG&gt;Spôsob pripojenia (rozhranie):&lt;/STRONG&gt; USB&lt;BR&gt;&lt;STRONG&gt;Displej&lt;/STRONG&gt;: STN LCD (modrá farba pozadia a biela farba textu)&lt;BR&gt;&lt;STRONG&gt;Veľkosť displeja&lt;/STRONG&gt;: 40 znakov (2 riadky x 20 znakov)&lt;BR&gt;&lt;STRONG&gt;Svetlosť&lt;/STRONG&gt;:&amp;nbsp;300 cd/m2&lt;BR&gt;&lt;STRONG&gt;Typ písma&lt;/STRONG&gt;:&amp;nbsp;8 x 16 bodová matica&lt;BR&gt;&lt;STRONG&gt;Veľkosť znakov&lt;/STRONG&gt;: 15,68 (výška) x 7,84 (šírka) mm&lt;BR&gt;&lt;STRONG&gt;Veľkosť bodu&lt;/STRONG&gt;&lt;STRONG&gt;:&lt;/STRONG&gt; 0,93 x&amp;nbsp;0,93 mm&lt;BR&gt;&lt;STRONG&gt;Náklon panela&lt;/STRONG&gt;: 0°&amp;nbsp;- 45°&lt;BR&gt;&lt;STRONG&gt;Natáčanie panela&lt;/STRONG&gt;: 360°&lt;BR&gt;&lt;STRONG&gt;Napájanie&lt;/STRONG&gt;:&amp;nbsp;z PC pomocou USB rozhrania&lt;BR&gt;&lt;STRONG&gt;Teplota:&lt;/STRONG&gt; prevádzka: 10 °C - 40 °C, skladovanie: -10 °C - 50 °C&lt;BR&gt;&lt;STRONG&gt;Vlhkosť vzduchu:&lt;/STRONG&gt; prevádzka, skladovanie: 0 % - 90 % (bez kondenzácie)&lt;BR&gt;&lt;STRONG&gt;Farba:&lt;/STRONG&gt; čierna&lt;BR&gt;&lt;STRONG&gt;Rozmery:&lt;/STRONG&gt; panel: 224 x 85 x 40 mm (šírka x výška x hĺbka), stĺpik (dva kusy): výška 140 mm, priemer 34,5 mm, podstavec: 169,5 × 98,5 × 39 mm (šírka x výška x hĺbka)&lt;BR&gt;&lt;STRONG&gt;Hmotnosť&lt;/STRONG&gt;: 1&amp;nbsp;000 g&lt;/P&gt;
+&lt;H2&gt;Cena a objednávka zariadenia&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Zariadenie je určené na predaj, a to&amp;nbsp;výhradne používateľom OBERON-u a našim &lt;A href="f83c2a9c-cda4-4862-8628-7ba16ddb1b06" rel=noopener&gt;zmluvným partnerom&lt;/A&gt;. 
+&lt;LI&gt;Informácie o cene a dostupnosti zariadenia s možnosťou objednávky nájdete na stránke nášho internetového obchodu &lt;STRONG&gt;&lt;A href="https://shop.exalogic.sk/"&gt;EXALOGIC e-shop&lt;/A&gt;&lt;/STRONG&gt;. 
+&lt;LI&gt;Na inštaláciu a&amp;nbsp;nastavenie zariadenia odporúčame využiť služby našich zmluvných partnerov. &lt;/LI&gt;&lt;/UL&gt;
+&lt;HR&gt;
+
+&lt;P align=center&gt;&lt;A href="1f32a90c-7b4a-4d69-9f38-a560178794b3" style="auto-update-caption: true"&gt;&lt;IMG border=0 alt="Odporúčané riešenia" src="images/OBERON/Basic/Odporucane-riesenie.png"&gt;&lt;/A&gt;&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="608d2e7a-8d54-46fb-872f-82be553f50fa" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="2081eb79-1408-4dd5-8dcc-8ebc8cd00407">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="1beded2b-3f38-44ab-ac71-92618cbc6480" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="0d200c86-b5ea-4a47-9ff2-8a643fb32d78">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="25da8cb6-20d0-4b77-9ed1-5c629b64736c">
+      <Keyword m="2019-09-30T11:04:40.9301597Z">Zákaznícky displej OBERON</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="68a04c3b-9314-4d3d-9598-e669d2cce65a">
+      <Keyword m="2022-12-15T08:56:44.3405235Z">Zobrazovanie cien - zákaznícky displej OBERON</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="411f0665-c56f-4ead-bcd8-4ac7276f0425">
+      <Keyword m="2022-12-15T08:56:36.9054134Z">Informovanie o cenách - zákaznícky displej OBERON</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

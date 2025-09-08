@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="93f31314-1503-41b9-a8f1-f477de367a39" Status="Complete" CreatedOn="2014-09-01T12:27:27.1127094Z" ModifiedOn="2024-07-29T11:52:15.2490458Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="OBERONUseOptions" BuildFlags="">
+  <Title m="2018-11-23T10:32:06.4053273Z">Možnosti použitia systému OBERON</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-07-29T11:52:15.2490458Z">&lt;P&gt;V závislosti od veľkosti účtovnej jednotky z&amp;nbsp;hľadiska počtu používaných počítačov, štruktúry prevádzky a výberu&amp;nbsp;&lt;A href="0b81f4ea-5e68-48c1-8b89-933d5a23d962"&gt;databázového systému&lt;/A&gt; existuje niekoľko rôznych&amp;nbsp;variantov použitia systému OBERON. Možnosti sú pomerne široké, determinované sú&amp;nbsp;spravidla možnosťami a potrebami danej prevádzky. Táto téma&amp;nbsp;je venovaná &lt;STRONG&gt;prehľadu&lt;/STRONG&gt; &lt;STRONG&gt;jednotlivých&amp;nbsp;možností (variantov) použitia&lt;/STRONG&gt; systému OBERON.&lt;/P&gt;
+&lt;H3&gt;1.&amp;nbsp; Jeden počítač&lt;/H3&gt;
+&lt;UL&gt;
+&lt;LI&gt;Ide o najjednoduchší spôsob používania systému, keď sa&amp;nbsp;&lt;STRONG&gt;tak&amp;nbsp;program, ako aj databáza nachádzajú&amp;nbsp;v&amp;nbsp;jednom počítači&lt;/STRONG&gt;. Samozrejme, na jednom počítači je možné napr. spracovávať účtovníctvo aj viacerým účtovným jednotkám (účtovné firmy), ich počet nie je obmedzený. 
+&lt;LI&gt;Databázu je možné umiestniť aj na vymeniteľné médium (externý pevný disk), prípadne aj mimo počítača do cloudu (v tomto prípade musí byť počítač pripojený&amp;nbsp;k&amp;nbsp;internetu). 
+&lt;LI&gt;Pri veľmi malých firmách s&amp;nbsp;nízkym počtom záznamov v databáze (rádovo do niekoľko desiatok tisíc záznamov v&amp;nbsp;jednej knihe), keď na počítači pracuje jedna osoba,&amp;nbsp;je možné používať &lt;STRONG&gt;súborovú databázu&amp;nbsp;&lt;/STRONG&gt;&lt;A href="0b81f4ea-5e68-48c1-8b89-933d5a23d962"&gt;Microsoft Access&lt;/A&gt;&amp;nbsp;(súbor typu MDB alebo ACCDB). 
+&lt;LI&gt;Pri očakávanom väčšom počte záznamov v databáze (napr. predajňa v maloobchode), &lt;STRONG&gt;odporúčame do&amp;nbsp;tohto počítača nainštalovať&lt;/STRONG&gt; &lt;A href="0b81f4ea-5e68-48c1-8b89-933d5a23d962"&gt;databázový SQL server&lt;/A&gt;. Rozdiel medzi súborovou databázou a SQL serverom je výrazný (aj keď sú umiestnené v tom istom počítači). &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 1: Použitie systému OBERON na jednom počítači&lt;/H5&gt;
+&lt;H5&gt;&lt;IMG border=0 alt="" src="images/OBERON/Basic/OBERON_Use_Option_1.png"&gt;&lt;/H5&gt;
+&lt;H3&gt;2.&amp;nbsp;&amp;nbsp;Viac počítačov&amp;nbsp;v lokálnej počítačovej sieti bez servera/so serverom&lt;/H3&gt;
+&lt;UL&gt;
+&lt;LI&gt;Systém OBERON je možné používať aj v&amp;nbsp;&lt;STRONG&gt;sieťovej prevádzke, pri ktorej&amp;nbsp;môže k&amp;nbsp;databáze&amp;nbsp;súčasne pristupovať viac ako jeden&amp;nbsp;používateľ&lt;/STRONG&gt;. Dátová základňa (databáza) môže byť umiestnená&amp;nbsp;v&amp;nbsp;jednom z&amp;nbsp;počítačov, ktoré sú v&amp;nbsp;sieti rovnocenné, prípadne môže byť umiestnená&amp;nbsp;v&amp;nbsp;sieťovom serveri. 
+&lt;LI&gt;Všeobecne je&amp;nbsp;pri sieťovej inštalácii potrebné, aby bol systém OBERON &lt;A href="19a10c98-2b1d-4fe1-8ab2-98921ab328be"&gt;nainštalovaný v každom počítači&lt;/A&gt; v&amp;nbsp;sieti. Po úspešnej inštalácii sa v&amp;nbsp;jednom z&amp;nbsp;počítačov, resp. v&amp;nbsp;serveri&amp;nbsp;&lt;A href="9a485893-6dd2-44e8-9740-a4cd7083a932"&gt;&lt;FONT color=black&gt;vytvorí n&lt;/FONT&gt;ová firma&lt;/A&gt; (databáza) a&amp;nbsp;ostatné počítače v&amp;nbsp;sieti sa len pripoja k&amp;nbsp;danej databáze (pomocou formulára &lt;EM&gt;Otvorenie agendy (firmy)&lt;/EM&gt;). Viac informácií získate v téme&amp;nbsp;&lt;A href="9c0e1613-bfdc-48f6-9d03-58aba39dab36"&gt;O sieťovej inštalácii&lt;/A&gt;. 
+&lt;LI&gt;Sieťová prevádzka &lt;STRONG&gt;bez servera&lt;/STRONG&gt; predstavuje najčastejší spôsob používania OBERON-u, keď sa v lokálnej počítačovej sieti&amp;nbsp;nachádza &lt;STRONG&gt;niekoľko počítačov, pričom databáza je umiestnená v&amp;nbsp;jednom z nich&lt;/STRONG&gt;. Takéto riešenie je vhodné použiť vtedy, keď je počet počítačov v prevádzke relatívne nízky (približne do 5 počítačov,&amp;nbsp;určujúcim faktorom je však intenzita práce na danom počítači). Pri väčšom počte používateľov &lt;STRONG&gt;odporúčame na umiestnenie databázy použiť samostatný počítač (server)&lt;/STRONG&gt;. Odporúčaným&amp;nbsp;&lt;A href="0b81f4ea-5e68-48c1-8b89-933d5a23d962"&gt;databázovým systémom&lt;/A&gt; je SQL server (&lt;A href="f0a7aeb9-190b-4de7-90e7-30322114e9a9"&gt;MariaDB&lt;/A&gt;). 
+&lt;LI&gt;Pri sieťovej prevádzke &lt;STRONG&gt;so serverom&lt;/STRONG&gt; ide o&amp;nbsp;taký spôsob používania OBERON-u, keď sa v lokálnej počítačovej sieti&amp;nbsp;nachádza&amp;nbsp;&lt;STRONG&gt;väčší počet&amp;nbsp;počítačov, pričom&lt;/STRONG&gt; &lt;STRONG&gt;databáza je umiestnená v samostatnom počítači (serveri)&lt;/STRONG&gt;. Ide spravidla o prípady, keď je počet počítačov v prevádzke vyšší ako 5, určujúcim faktorom je však intenzita práce na danom počítači. Pri&amp;nbsp;nižšom počte používateľov stačí databázu umiestniť do jedného z&amp;nbsp;počítačov lokálnej počítačovej siete. Odporúčaným&amp;nbsp;&lt;A href="0b81f4ea-5e68-48c1-8b89-933d5a23d962"&gt;databázovým systémom&lt;/A&gt; je SQL server (&lt;A href="f0a7aeb9-190b-4de7-90e7-30322114e9a9"&gt;MariaDB&lt;/A&gt;&amp;nbsp;&lt;A href="1f32a90c-7b4a-4d69-9f38-a560178794b3" style="auto-update-caption: true"&gt;&lt;IMG border=0 alt="Odporúčané riešenia" src="images/OBERON/Basic/Odporucane-riesenie_ruka_ikona.png"&gt;&lt;/A&gt;). 
+&lt;LI&gt;Pri malom počte používateľov (do 5) sa môže na serveri použiť desktopový operačný systém &lt;STRONG&gt;&lt;EM&gt;Windows 10 Professional&lt;/EM&gt; (alebo novší)&lt;/STRONG&gt;,&amp;nbsp;pri väčšom počte používateľov (alebo záťaži), odporúčame už serverový operačný systém &lt;EM&gt;&lt;STRONG&gt;Microsoft Windows Server&lt;/STRONG&gt;&lt;/EM&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 2: Použitie systému OBERON v lokálnej počítačovej sieti bez servera a so serverom&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/OBERON/Basic/OBERON_Use_Option_2.png"&gt;&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Basic/OBERON_Use_Option_3.png"&gt;&lt;/P&gt;
+&lt;H3&gt;3.&amp;nbsp; Viac počítačov&amp;nbsp;(tenkých klientov)&amp;nbsp;a systém &lt;EM&gt;Microsoft Windows Server&lt;/EM&gt;&lt;/H3&gt;
+&lt;UL&gt;
+&lt;LI&gt;Pri tomto spôsobe použitia jeden z počítačov v lokálnej sieti má nainštalovaný operačný systém &lt;EM&gt;Microsoft Windows Server&lt;/EM&gt;, ktorý na rozdiel od bežného operačného systému&amp;nbsp;&lt;EM&gt;Windows&lt;/EM&gt; umožňuje pripojiť aj viac používateľov pomocou &lt;STRONG&gt;vzdialenej plochy&lt;/STRONG&gt; (Remote Desktop). Ostatné počítače majú nainštalovaný bežný &lt;EM&gt;Windows&lt;/EM&gt; - jednotliví&amp;nbsp;používatelia&amp;nbsp;sa&amp;nbsp;k&amp;nbsp;tomuto serveru pripájajú pomocou vzdialenej plochy&lt;EM&gt;.&lt;/EM&gt; 
+&lt;LI&gt;Hlavnou výhodou tohto riešenia je, že nie je problém s pripojením ďalších používateľov mimo lokálnej počítačovej siete, napr. okrem externého účtovníka alebo&amp;nbsp;majiteľa to môže byť aj&amp;nbsp;ďalšia&amp;nbsp;prevádzka danej firmy. 
+&lt;LI&gt;V&amp;nbsp;prípade väčšieho počtu prevádzok (pobočiek bez databázy) je možné&amp;nbsp;uvedené riešenie upraviť tak, že sa server so systémom &lt;EM&gt;Microsoft Windows Server&lt;/EM&gt; umiestni&amp;nbsp;do &lt;STRONG&gt;cloudu&lt;/STRONG&gt; - môže ísť o klasický cloud, prípadne len umiestnenie fyzického počítača do cloudu. V&amp;nbsp;tomto prípade sa všetky prevádzky pripájajú&amp;nbsp;k&amp;nbsp;danému&amp;nbsp;serveru pomocou internetu, čo však vyžaduje dostatočne rýchle a hlavne stabilné internetové pripojenie. 
+&lt;LI&gt;Pri tomto riešení je nutné pamätať najmä na prevádzku&amp;nbsp;&lt;A href="d9b919e7-20c4-4c50-9910-4f13211ed9a8"&gt;registračných pokladníc (fiškálnych tlačiarní)&lt;/A&gt;,&amp;nbsp;ktoré so systémom OBERON&amp;nbsp;spravidla komunikujú pomocou sériového alebo USB portu. Keďže pokladnica je&amp;nbsp;pripojená k pracovnej stanici a program beží&amp;nbsp;v inom počítači (serveri), komunikáciu s registračnou pokladnicou (fiškálnou tlačiarňou) je potrebné&amp;nbsp;ošetriť v&amp;nbsp;závislosti&amp;nbsp;od použitého typu individuálne. Väčšina&amp;nbsp;&lt;A href="d9b919e7-20c4-4c50-9910-4f13211ed9a8"&gt;podporovaných registračných pokladníc&lt;/A&gt; však&amp;nbsp;umožňuje komunikovať pomocou bežného&amp;nbsp;ethernet&amp;nbsp;pripojenia (protokolom TCP/IP), čo znamená vyriešenie daného problému. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 3: Použitie systému OBERON v lokálnej počítačovej sieti s použitím operačného systému&amp;nbsp;&lt;EM&gt;Microsoft Windows Server&lt;/EM&gt;&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/OBERON/Basic/OBERON_Use_Option_4.png"&gt;&lt;/P&gt;
+&lt;H3&gt;4.&amp;nbsp; Databáza umiestnená mimo lokálnej počítačovej siete (cloud)&lt;/H3&gt;
+&lt;UL&gt;
+&lt;LI&gt;Tento variant je podobný variantu použitia v lokálnej počítačovej sieti (bod č. 2),&amp;nbsp;&lt;STRONG&gt;databáza je však umiestnená mimo lokálnej počítačovej siete v cloude&lt;/STRONG&gt;.&amp;nbsp;Toto riešenie vyžaduje rýchle a hlavne stabilné internetové pripojenie; dôležitým faktorom je aj počet používateľov v sieti. 
+&lt;LI&gt;Výhoda tohto variantu je hlavne v tom, že &lt;STRONG&gt;nie je problém s pripojením ďalších používateľov mimo lokálnej počítačovej siete&lt;/STRONG&gt;, napr. okrem externého účtovníka alebo&amp;nbsp;majiteľa to môže byť aj&amp;nbsp;ďalšia&amp;nbsp;prevádzka danej firmy. 
+&lt;LI&gt;Príkladom použitia cloudového režimu môže byť prevádzka s viacerými predajňami s nižšou kadenciou predaja (napr. butik, ale aj veľkoobchod) s&amp;nbsp;nízkym nárokom na dostupnosť centrálnej databázy vzhľadom na spoľahlivosť vydávania pokladničných dokladov. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 4: Použitie systému OBERON v lokálnej počítačovej sieti s databázou v cloude&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/OBERON/Basic/OBERON_Use_Option_5.png"&gt;&lt;/P&gt;
+&lt;H3&gt;5.&amp;nbsp; On-line pobočkový režim&lt;/H3&gt;
+&lt;UL&gt;
+&lt;LI&gt;On-line pobočkový režim predstavuje&lt;STRONG&gt;&amp;nbsp;nástroj&amp;nbsp;na&amp;nbsp;výmenu&lt;/STRONG&gt; &lt;STRONG&gt;údajov&lt;/STRONG&gt;&lt;STRONG&gt;&amp;nbsp;v reálnom čase&lt;/STRONG&gt; medzi pobočkou so samostatnou&amp;nbsp;databázou a centrálou (s hlavnou databázou účtovnej jednotky). 
+&lt;LI&gt;V prvom variante tohto režimu je &lt;STRONG&gt;databáza centrály umiestnená&lt;/STRONG&gt; &lt;STRONG&gt;mimo lokálnej počítačovej siete v cloude&lt;/STRONG&gt;.&amp;nbsp;V druhom variante režimu je &lt;STRONG&gt;databáza centrály umiestnená v samostatnom počítači lokálnej počítačovej siete centrály (serveri)&lt;/STRONG&gt;. V oboch uvedených prípadoch platí, že databáza centrály&amp;nbsp;musí byť viditeľná z&amp;nbsp;vonkajšieho internetu, t. j. databázový server musia vidieť jednotlivé pobočky. 
+&lt;LI&gt;On-line pobočkový režim predstavuje automaticky vykonávanú &lt;STRONG&gt;on-line synchronizáciu údajov&lt;/STRONG&gt;, preto&amp;nbsp;vyžaduje rýchle a hlavne stabilné internetové pripojenie, dôležitým faktorom je aj počet používateľov v&amp;nbsp;sieti. Občasné výpadky internetu pritom nespôsobia výpadok pobočky (keďže používa samostatnú databázu). 
+&lt;LI&gt;Hlavná výhoda tohto variantu je v tom, že komunikácia medzi pobočkou&amp;nbsp;a centrálou prebieha on-line s oneskorením len niekoľkých sekúnd, čo umožňuje prevádzkovať aj registračnú pokladnicu. 
+&lt;LI&gt;Príkladom tohto použitia je napr. prevádzka s&amp;nbsp;viacerými predajňami s vysokou kadenciou predaja (napr. predajne potravín, rôzne predajné miesta vstupeniek do kúpalísk, klzísk, kín a pod.) s vysokým nárokom na dostupnosť centrálnej databázy vzhľadom na spoľahlivosť vydávania pokladničných dokladov. 
+&lt;LI&gt;Viac informácií o režime získate v téme&amp;nbsp;&lt;A href="67abf56c-fe22-4bc8-ba77-6a8058a8782f"&gt;Všeobecne o on-line pobočkovom režime&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 5: Použitie systému OBERON v&amp;nbsp;štruktúre centrála - pobočka s databázou v cloude (vľavo) a s databázou v centrále (vpravo)&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/OBERON/Basic/OBERON_Use_Option_6b.png"&gt;&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Basic/OBERON_Use_Option_7.png"&gt;&lt;/P&gt;
+&lt;H3&gt;6.&amp;nbsp; Off-line pobočkový režim&lt;/H3&gt;
+&lt;UL&gt;
+&lt;LI&gt;Off-line pobočkový režim predstavuje&amp;nbsp;nástroj&amp;nbsp;na &lt;STRONG&gt;výmenu&amp;nbsp;údajov&lt;/STRONG&gt; (spravidla vo forme &lt;STRONG&gt;samostatných dátových súborov&lt;/STRONG&gt;)&amp;nbsp;medzi pobočkou so samostatnou&amp;nbsp;databázou a centrálou (s hlavnou databázou účtovnej jednotky) &lt;STRONG&gt;pomocou FTP serverov,&amp;nbsp;ľubovoľných prenosných médií, prípadne priameho prístupu do databázy&lt;/STRONG&gt;. Z pobočky nie je databáza centrály dostupná (viditeľná). 
+&lt;LI&gt;Centrála firmy&amp;nbsp;môže mať&amp;nbsp;databázu&amp;nbsp;umiestnenú v &lt;STRONG&gt;lokálnej počítačovej sieti centrály&lt;/STRONG&gt;, prípadne &lt;STRONG&gt;mimo lokálnej počítačovej siete v cloude&lt;/STRONG&gt;. 
+&lt;LI&gt;Výmena údajov pri off-line pobočkovom režime sa vykonáva pomocou &lt;A href="1dc4ea18-03c0-4028-afe5-4532583b6a44"&gt;off-line transportov údajov&lt;/A&gt;. Funkcia umožňuje&amp;nbsp;exportovať a importovať&amp;nbsp;dáta automaticky na pozadí spravidla vo vopred stanovených intervaloch. Používateľ nemusí manuálne vyberať doklady&amp;nbsp;na transport a&amp;nbsp;ani manuálne transport spúšťať - o&amp;nbsp;všetko sa stará program&amp;nbsp;&lt;I&gt;OBERON Center&lt;/I&gt;. 
+&lt;LI&gt;V&amp;nbsp;off-line pobočkovom režime&amp;nbsp;je možné&amp;nbsp;pre automaticky&amp;nbsp;vykonávané opakované&amp;nbsp;transporty nastavovať periódy, a to aj simultánne počas práce ľubovoľného počtu používateľov s&amp;nbsp;údajovou základňou. Interval zasielania môže byť aj kratší ako 1 deň (napr. každé 2 hodiny). 
+&lt;LI&gt;Podobne ako pri on-line pobočkovom režime príkladom tohto použitia môže byť prevádzka s viacerými predajňami. V porovnaní s&amp;nbsp;&lt;A href="67abf56c-fe22-4bc8-ba77-6a8058a8782f"&gt;on-line pobočkovým režimom&lt;/A&gt; sú tu určité obmedzenia vyplývajúce z povahy off-line pobočkového režimu, napr. centrála nemá aktuálne informácie o predaji&amp;nbsp;v&amp;nbsp;pobočke, ostatné pobočky nemajú informácie o aktuálnom stave zásob atď., avšak v&amp;nbsp;mnohých prípadoch to nepredstavuje zásadný problém. 
+&lt;LI&gt;Viac informácií o&amp;nbsp;režime získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="797aaa39-ae1b-4f4c-bac5-88c9ac25f11d"&gt;Všeobecne o off-line pobočkovom režime&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 6: Použitie systému OBERON v&amp;nbsp;štruktúre centrála - pobočka s databázou v&amp;nbsp;samostatnom počítači (serveri)&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/OBERON/Basic/OBERON_Use_Option_6a.png"&gt;&amp;nbsp;&lt;/P&gt;
+&lt;H3&gt;7. Lokálna počítačová sieť v kombinácii so vzdialenou plochou (Remote Desktop)&lt;/H3&gt;
+&lt;UL&gt;
+&lt;LI&gt;V každom&amp;nbsp;z prípadov uvedených v bodoch 1 -&amp;nbsp;6 existuje aj možnosť&amp;nbsp;&lt;STRONG&gt;poskytnúť priestor (pracovnú plochu, desktop) ďalšiemu používateľovi, ktorý sa nachádza mimo lokálnej počítačovej siete, a to prostredníctvom vzdialenej plochy (Remote Desktop)&lt;/STRONG&gt;. Najčastejšie je takýmto používateľom externý účtovník, prípadne člen manažmentu či majiteľ firmy. 
+&lt;LI&gt;V danej lokálnej počítačovej sieti musí byť na tento účel vyhradený počítač, keďže po pripojení z vonku&amp;nbsp;na&amp;nbsp;danom počítači nemôže už iný&amp;nbsp;používateľ&amp;nbsp;pracovať. 
+&lt;LI&gt;V prípade, že je potrebné&amp;nbsp;pomocou vzdialenej plochy pripojiť väčší počet používateľov, odporúčame použiť už niektorý zo serverových operačných systémov (napr. &lt;EM&gt;Microsoft Windows Server&lt;/EM&gt;). &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 7: Použitie systému OBERON pri kombinácii lokálnej počítačovej siete so vzdialenou plochou (Remote Desktop)&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/OBERON/Basic/OBERON_Use_Option_8.png"&gt;&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="b62e7dac-a1d3-483b-b73e-6462c7095a89" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="0b81f4ea-5e68-48c1-8b89-933d5a23d962">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="b85ee9f2-4d4c-455b-a164-a5b80967ad18" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="19a10c98-2b1d-4fe1-8ab2-98921ab328be">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="b2f44fc3-2464-4fae-acf3-acf0d93ab73d" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="9a485893-6dd2-44e8-9740-a4cd7083a932">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="4b313c28-6dab-4ee4-ad51-c29275194992" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="9c0e1613-bfdc-48f6-9d03-58aba39dab36">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="b9cb492d-e7ef-4cc9-b933-cd940f9377d0" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="4b2b3447-f2f1-4bbe-9d21-3d87994bfba8">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="13d48b94-84ef-470d-b9b0-54207e249027" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="67abf56c-fe22-4bc8-ba77-6a8058a8782f">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="3fefe23f-fffb-4637-88e1-a2eb2e3f0727" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="797aaa39-ae1b-4f4c-bac5-88c9ac25f11d">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="6384767e-81b7-4b07-ab61-7df4e280e578">
+      <Keyword m="2022-12-08T13:06:09.2939364Z">Cloud - možnosti použitia OBERON-u</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="4348efee-918b-45cb-92a2-0eba663bc70a">
+      <Keyword m="2022-12-08T13:06:26.8082612Z">Sieťová prevádzka - možnosti použitia OBERON-u</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="80107b80-2751-42e2-bcd2-2fabe5f551ff">
+      <Keyword m="2022-12-08T13:06:17.5190541Z">Microsoft Windows Server - možnosti použitia OBERON-u</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="fae1c40f-df4a-4f85-b3b7-872ececf36bf">
+      <Keyword m="2022-12-08T13:06:21.7116546Z">Pobočkový režim - možnosti použitia OBERON-u</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="fb1f7940-6c00-4a4b-ad31-1d2d71da5de6">
+      <Keyword m="2021-03-12T14:03:20.9403477Z">Varianty použitia OBERON-u</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="0960ca50-f0f6-4b03-956b-7b5afddd9120">
+      <Keyword m="2022-12-08T13:06:30.6728867Z">Vzdialená plocha - možnosti použitia OBERON-u</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="fafea167-b3c6-41ef-b05c-6c45deddda55">
+      <Keyword m="2022-12-08T13:06:24.6319864Z">Remote Desktop - možnosti použitia OBERON-u</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

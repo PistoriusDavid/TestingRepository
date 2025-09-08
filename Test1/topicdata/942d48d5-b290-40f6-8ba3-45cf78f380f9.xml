@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="942d48d5-b290-40f6-8ba3-45cf78f380f9" Status="Complete" CreatedOn="2021-02-16T08:53:28.4742368Z" ModifiedOn="2025-03-20T09:47:02.9721253Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="LUKUL" BuildFlags="">
+  <Title m="2021-03-18T06:59:46.2573302Z">Aplikácia LUKUL</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2025-03-20T09:47:02.9721253Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; popisuje jedno z&amp;nbsp;&lt;A href="c23e6100-7028-47b3-952a-f43fbf6ee5c6"&gt;mobilných riešení&lt;/A&gt; systému OBERON určené pre&amp;nbsp;mobilné zariadenia (smartfóny, tablety) -&amp;nbsp;&lt;STRONG&gt;aplikáciu&amp;nbsp;&lt;EM&gt;LUKUL&amp;nbsp;- nielen mobilný čašník&lt;/EM&gt;&lt;/STRONG&gt; (skrátene &lt;EM&gt;LUKUL&lt;/EM&gt;) &lt;STRONG&gt;určenú pre gastroprevádzky&lt;/STRONG&gt; (reštaurácie, bary...).&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Viacúčelová gastroaplikácia &lt;EM&gt;LUKUL - nielen mobilný čašník&lt;/EM&gt; je určená pre mobilné zariadenia&amp;nbsp;(terminály, smartfóny, tablety)&amp;nbsp;s operačným systémom &lt;EM&gt;&lt;STRONG&gt;Android&lt;/STRONG&gt;&lt;/EM&gt; a &lt;EM&gt;&lt;STRONG&gt;iOS&lt;/STRONG&gt;&lt;/EM&gt; a&amp;nbsp;možno ju používať výhradne&amp;nbsp;so systémom OBERON. 
+&lt;LI&gt;Aplikácia môže pracovať vo viacerých režimoch: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;LUKUL - mobilný čašník&lt;/STRONG&gt; -&amp;nbsp;určený pre obsluhu,&amp;nbsp;umožňuje objednávať jedlo a nápoje priamo od stola zákazníka, 
+&lt;LI&gt;&lt;STRONG&gt;LUKUL eMenu - bez možnosti objednávania&lt;/STRONG&gt; - určený pre zákazníka na prezeranie elektronického&amp;nbsp;jedálneho a nápojového&amp;nbsp;lístka v reštauračnej prevádzke na vlastnom mobilnom zariadení (smartfóne, tablete)&amp;nbsp;bez možnosti objednávania, 
+&lt;LI&gt;&lt;STRONG&gt;LUKUL eMenu - hosť v reštaurácii&lt;/STRONG&gt; - určený pre zákazníka na prezeranie elektronického&amp;nbsp;jedálneho a nápojového&amp;nbsp;lístka v reštauračnej prevádzke na vlastnom mobilnom zariadení (smartfóne, tablete)&amp;nbsp;s&amp;nbsp;možnosťou objednania v reštaurácii, 
+&lt;LI&gt;&lt;STRONG&gt;LUKUL eMenu - donáška&lt;/STRONG&gt; -&amp;nbsp;určený pre zákazníka na prezeranie elektronického&amp;nbsp;jedálneho a nápojového&amp;nbsp;lístka na vlastnom mobilnom zariadení (smartfóne, tablete)&amp;nbsp;s&amp;nbsp;možnosťou objednania na donášku. Viac informácií o tomto režime získate v osobitnej téme&amp;nbsp;&lt;A href="e90f516a-cb3b-43d9-82dd-440c6e6e9789"&gt;Aplikácia LUKUL - režim donášky&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Porovnanie jednotlivých režimov mobilnej aplikácie&lt;STRONG&gt;&amp;nbsp;&lt;/STRONG&gt;&lt;EM&gt;LUKUL&lt;/EM&gt;) z viacerých hľadísk, napr. pre koho je daný režim určený, ďalej z pohľadu nastavení v OBERON-e, spôsobu prihlásenia do aplikácie,&amp;nbsp;používateľského rozhrania, dostupnosti jednotlivých funkcií je&amp;nbsp;k&amp;nbsp;dispozícii v&amp;nbsp;téme&amp;nbsp;&lt;A href="c1f1084d-0742-45cd-966a-7cf001b770c7"&gt;Aplikácia LUKUL - porovnanie režimov&lt;/A&gt;. 
+&lt;LI&gt;Daňový doklad je možné uhradiť &lt;STRONG&gt;v&amp;nbsp;hotovosti, stravnými lístkami a platobnou kartou&lt;/STRONG&gt; vďaka prepojeniu s&amp;nbsp;platobným terminálom. Na doklad je možné zadať zľavu v&amp;nbsp;percentách. Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="4b9fd97b-be62-43f9-9fc3-ed99dcd81cc6"&gt;Aplikácia LUKUL a platba kartou&lt;/A&gt;. 
+&lt;LI&gt;Aplikáciu &lt;EM&gt;LUKUL&lt;/EM&gt; je možné používať tak v slovenskom, ako aj v&amp;nbsp;ďalších jazykoch (anglickom, nemeckom a&amp;nbsp;ruskom). Preložené je nielen prostredie aplikácie, ale vďaka jazykovým verziám údajov v systéme OBERON si môže každá účtovná jednotka evidovať aj&amp;nbsp;vybrané údaje v OBERON-e &lt;STRONG&gt;v niekoľkých jazykových mutáciách&lt;/STRONG&gt;. Napr. údaje na skladovej karte je možné evidovať v slovenskom, ale aj v&amp;nbsp;anglickom, nemeckom, ruskom, maďarskom, poľskom, českom a ďalších jazykoch. Následne&amp;nbsp;po prepnutí&amp;nbsp;jazyka v aplikácii &lt;EM&gt;LUKUL&lt;/EM&gt; sa budú aj tieto údaje prenášať do ponuky &lt;EM&gt;eMenu&lt;/EM&gt; aplikácie v príslušnom jazyku. Viac informácií získate v téme&amp;nbsp;&lt;A href="04d2db16-08ec-459e-b5c9-71dd3a9f9e2f"&gt;Jazykové verzie OBERON-u&lt;/A&gt;. 
+&lt;LI&gt;Aplikácia&amp;nbsp;&lt;EM&gt;LUKUL&lt;/EM&gt; komunikuje so systémom OBERON&amp;nbsp;na základe&amp;nbsp;&lt;A href="9ce25bbd-35d1-4096-acd5-70007f5af5a6"&gt;automatickej úlohy&lt;/A&gt; typu &lt;EM&gt;&lt;STRONG&gt;WebServices API - Pokladnica OBERON 1G&lt;/STRONG&gt;&lt;/EM&gt;, t.&amp;nbsp;j. &lt;A href="58bb31ca-00c8-4641-ad99-7d58e24f59c5"&gt;webových služieb&lt;/A&gt;.&amp;nbsp;Aplikácia&amp;nbsp;&lt;EM&gt;LUKUL&lt;/EM&gt; v rámci komunikácie predstavuje &lt;STRONG&gt;klienta webovej služby&lt;/STRONG&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt; 
+&lt;P align=left&gt;Pred&amp;nbsp;inštaláciou aplikácie LUKUL je potrebné v systéme OBERON vykonať&amp;nbsp;&lt;STRONG&gt;súbor nastavení&lt;/STRONG&gt;. Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="2f634ed7-507e-4cf9-a6bf-6e68510e6f57" style="auto-update-caption: true"&gt;Aplikácia LUKUL - nastavenia v OBERON-e&lt;/A&gt;. Bližšie informácie k&amp;nbsp;samotnej&amp;nbsp;inštalácii aplikácie, t.&amp;nbsp;j.&amp;nbsp;nastaveniu komunikácie medzi aplikáciou&amp;nbsp;a&amp;nbsp;systémom OBERON,&amp;nbsp;získate v téme&amp;nbsp;&lt;A href="20b1783a-a8ca-42a9-b2f3-80c658d62248"&gt;Aplikácia LUKUL - inštalácia&lt;/A&gt;.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Softvérové a hardvérové požiadavky&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Aplikáciu &lt;EM&gt;LUKUL&lt;/EM&gt; je možné používať na mobilných zariadeniach s operačným systémom &lt;EM&gt;&lt;STRONG&gt;Android&lt;/STRONG&gt;&lt;/EM&gt; od verzie &lt;STRONG&gt;8.1&lt;/STRONG&gt; a s operačným systémom&amp;nbsp;&lt;STRONG&gt;&lt;EM&gt;iOS&lt;/EM&gt;&lt;/STRONG&gt; od verzie &lt;STRONG&gt;14&lt;/STRONG&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;Minimálne požiadavky&lt;/STRONG&gt; na&amp;nbsp;hardvér z hľadiska veľkosti displeja a výkonu sú ako napr. pri smartfóne&amp;nbsp;&lt;EM&gt;Xiaomi Redmi 7A 2GB/32GB.&lt;STRONG&gt;&amp;nbsp;&lt;/STRONG&gt;&lt;/EM&gt;&lt;STRONG&gt;Odporúčané požiadavky&lt;/STRONG&gt; sú ako napr. pri smartfóne&amp;nbsp;&lt;EM&gt;Xiaomi Redmi 10C 4 GB/64 GB&lt;/EM&gt;. 
+&lt;LI&gt;Odporúčame voľbu smartfónu s&amp;nbsp;bezdrôtovou technológiou &lt;STRONG&gt;NFC&lt;/STRONG&gt; (&lt;EM&gt;&lt;STRONG&gt;N&lt;/STRONG&gt;ear &lt;STRONG&gt;F&lt;/STRONG&gt;ield &lt;STRONG&gt;C&lt;/STRONG&gt;ommunication&lt;/EM&gt; - komunikácia na krátke vzdialenosti), ktorá je nevyhnutná na funkciu bezkontaktných platieb s&amp;nbsp;&lt;A href="936ab11c-b8d8-4007-8633-78c649beae4b"&gt;platobným terminálom GP tom&lt;/A&gt;&amp;nbsp;&lt;A href="1f32a90c-7b4a-4d69-9f38-a560178794b3" style="auto-update-caption: true"&gt;&lt;IMG border=0 alt="Odporúčané riešenia" src="images/OBERON/Basic/Odporucane-riesenie_ruka_ikona.png"&gt;&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 1: Úvodná obrazovka aplikácie&lt;/H5&gt;
+&lt;P&gt;&amp;nbsp; &lt;IMG border=0 alt="" src="images/OBERONMobileSolutions/OBERONMobileSolutions_LUKUL_MainScreen.png"&gt;&amp;nbsp;&lt;/P&gt;
+&lt;H1&gt;LUKUL - mobilný čašník (pre obsluhu)&lt;/H1&gt;
+&lt;UL&gt;
+&lt;LI&gt;Gastroaplikácia &lt;EM&gt;LUKUL&lt;/EM&gt; v režime mobilný čašník &lt;STRONG&gt;je určená pre obsluhu, ktorej umožňuje&amp;nbsp;objednávať jedlo a nápoje priamo od stola zákazníka&lt;/STRONG&gt;. 
+&lt;LI&gt;Na prihlásenie&amp;nbsp;obsluhy (v režime &lt;EM&gt;LUKUL - mobilný čašník&lt;/EM&gt;) do WiFi siete reštauračného zariadenia&amp;nbsp;a automatické nastavenie komunikácie pre režim mobilný čašník je&amp;nbsp;možné v systéme OBERON&amp;nbsp;vygenerovať &lt;STRONG&gt;prístupové QR kódy&lt;/STRONG&gt;. Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="20b1783a-a8ca-42a9-b2f3-80c658d62248"&gt;Aplikácia LUKUL - inštalácia&lt;/A&gt;, časť &lt;EM&gt;Generovanie prístupových QR kódov (obsluha)&lt;/EM&gt;. 
+&lt;LI&gt;Obsluha sa do aplikácie prihlasuje &lt;STRONG&gt;zadaním PIN-u&lt;/STRONG&gt;. Ide o &lt;STRONG&gt;&lt;EM&gt;Kód rýchleho prístupu&lt;/EM&gt;&lt;/STRONG&gt; nadefinovaný v&amp;nbsp;programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt; v&amp;nbsp;ponuke&amp;nbsp;&lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="225638ed-22f6-4ac4-9085-6d77c64925db"&gt;Používatelia&lt;/A&gt;, záložka &lt;EM&gt;Podrobnosti&lt;/EM&gt;, &lt;EM&gt;Prihlásenie&lt;/EM&gt;. 
+&lt;LI&gt;Po prihlásení do aplikácie sa otvorí záložka s názvom &lt;EM&gt;&lt;STRONG&gt;Všetky zóny&lt;/STRONG&gt;&lt;/EM&gt;, prípadne s názvom zóny nadefinovanej pri definovaní&amp;nbsp;&lt;A href="e0ccff3e-b9e7-4572-bc3c-7f41a32280dd"&gt;zoznamu stolov&lt;/A&gt; v &lt;EM&gt;Pokladnici OBERON&lt;/EM&gt;. V prípade, že má reštauračná prevádzka nadefinovaných viac zón, prepínať medzi nimi je možné potiahnutím prstom po displeji sprava doľava a naopak. Poslednou záložkou sú &lt;EM&gt;&lt;STRONG&gt;Priame objednávky&lt;/STRONG&gt;&lt;/EM&gt; na objednanie jedál/nápojov bez ohľadu na príslušnosť k stolu. 
+&lt;LI&gt;V jednotlivých zónach (záložkách) sa zobrazujú &lt;STRONG&gt;stoly&lt;/STRONG&gt;, ktoré sú k daným zónam priradené. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H3&gt;Hlavná ponuka - mobilný čašník&lt;/H3&gt;
+&lt;UL&gt;
+&lt;LI&gt;V hlavnej ponuke v dolnej časti obrazovky sa nachádzajú tieto položky: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Stoly&lt;/STRONG&gt; - stoly priradené danej zóne. Krátkym klepnutím na vybraný stôl sa pod týmto stolom otvorí nový účet. Dlhým stlačením (long press) sa vyvolá ponuka, v ktorej možno otvoriť účet s možnosťou zadať mu pomenovanie, prípadne otvoriť ďalší účet pod daným stolom. Stoly je možné zobraziť v&amp;nbsp;dvoch alebo troch stĺpcoch (nastavujú sa&amp;nbsp;v aplikácii v ponuke &lt;EM&gt;Používateľ&lt;/EM&gt;). V ponuke vyvolanej dlhým stlačením je možné zmeniť pomenovanie stola. 
+&lt;LI&gt;&lt;STRONG&gt;Skupiny&lt;/STRONG&gt; - napr. &lt;EM&gt;Nealko nápoje,&lt;/EM&gt; &lt;EM&gt;Polievky, Šaláty, Dezerty&lt;/EM&gt; a pod. Potiahnutím prstom sprava doľava&amp;nbsp;je možné prejsť na tzv. &lt;STRONG&gt;rýchle objednávanie&lt;/STRONG&gt; (pozri nižšie).&amp;nbsp;Názvy a&amp;nbsp;poradie skupín sa nastavujú v OBERON-e&amp;nbsp;ako skupiny&amp;nbsp;v&amp;nbsp;pokladnici&amp;nbsp;v&amp;nbsp;záložke &lt;EM&gt;Reg.&amp;nbsp;pokladnice&lt;/EM&gt; &lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;formulára S&lt;/A&gt;&lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;&lt;/A&gt;&lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;kladová karta&lt;/A&gt;.&amp;nbsp;Skupiny je možné používať s názvami jednotlivých skupín, alebo len ako&amp;nbsp;&lt;A href="ccadca4e-2fbd-4b28-8d92-f826f3019bd0"&gt;obrázky&lt;/A&gt; (nastavenie v aplikácii v ponuke &lt;EM&gt;Používateľ&lt;/EM&gt;).&amp;nbsp;Jednotlivým skupinám v&amp;nbsp;pokladnici&amp;nbsp;je možné v&amp;nbsp;OBERON-e priradiť &lt;STRONG&gt;prioritu&lt;/STRONG&gt;, prípadne&amp;nbsp;&lt;STRONG&gt;farbu&lt;/STRONG&gt; (&lt;A href="1b25ffff-3c56-4c16-a60c-868a0106a206" style="auto-update-caption: true"&gt;Aplikácia LUKUL - automatické triedenie položiek&lt;/A&gt;). 
+&lt;LI&gt;&lt;STRONG&gt;eMenu&lt;/STRONG&gt; -&amp;nbsp;po výbere konkrétnej skupiny zobrazuje položky tejto skupiny. Ak nie je zvolená žiadna skupina, zobrazuje položky prvej skupiny alebo&amp;nbsp;naposledy vybratej skupiny. V ponuke je dostupná funkcia fulltextového vyhľadávania položiek podľa názvu. Krátkym klepnutím na položku ju možno pridať do&amp;nbsp;účtu (opakovaným krátkym klepnutím sa pridá príslušné množstvo danej položky) - ak sú k danej skladovej karte priradené prílohy (záložka &lt;EM&gt;Receptúra, eMenu prílohy&lt;/EM&gt; - zadávajú sa čísla skladových kariet príloh), aplikácia &lt;STRONG&gt;automaticky ponúkne na výber priradené prílohy&lt;/STRONG&gt; (&lt;A href="66abad1e-bfa7-4d8a-b34c-6c1e9a69b4f9"&gt;automatická ponuka príloh&lt;/A&gt;). Dlhým stlačením (long press) položky sa zobrazí ponuka, kde je možné upraviť množstvo položky, vymazať množstvo (napr. pri chybnom vybratí), vybrať&amp;nbsp;ďalšiu prílohu, zadať &lt;STRONG&gt;oddeľovač chodov&lt;/STRONG&gt;, pridať &lt;STRONG&gt;špecifikácie&lt;/STRONG&gt; (napr. &lt;EM&gt;Nechladená, Bez syra,&amp;nbsp;Well done&lt;/EM&gt; atď. - pozri aj&amp;nbsp;&lt;A href="18aeb679-252d-405b-9661-7ed645370717"&gt;automatická ponuka špecifikácií&lt;/A&gt;) alebo&amp;nbsp;zobraziť&amp;nbsp;&lt;A href="05de0f02-be92-4f82-8a06-57e1ee70fbdf"&gt;&lt;STRONG&gt;podrobnosti o položke&lt;/STRONG&gt;&lt;/A&gt;. Informácie, ktoré sa prenášajú zo systému OBERON do ponuky &lt;EM&gt;eMenu&lt;/EM&gt;, sa definujú v&amp;nbsp;záložke &lt;EM&gt;Reg. pokladnice&lt;/EM&gt;&amp;nbsp;&lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;formulára Skladová karta&lt;/A&gt;&amp;nbsp;(ponuka &lt;EM&gt;Sklad, Skladové karty&lt;/EM&gt;) - začiarkavacie políčko &lt;EM&gt;Umožniť pracovať s&amp;nbsp;položkou na pokladnici.&lt;/EM&gt; Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="2f634ed7-507e-4cf9-a6bf-6e68510e6f57" style="auto-update-caption: true"&gt;Aplikácia LUKUL - nastavenia v OBERON-e&lt;/A&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;Účet&lt;/STRONG&gt; - obsahuje položky otvoreného účtu. Dlhým stlačením (long press) položky sa otvorí ponuka, v ktorej je možné upraviť množstvo položky, zadať poznámku k&amp;nbsp;objednávke a&amp;nbsp;oddeľovač chodov, prípadne pridať na účet&amp;nbsp;tú istú položku ako novú položku. Jednotlivé poznámky k objednávke (napr. dobre prepiecť, bez prílohy a pod.) sa definujú v&amp;nbsp;&lt;A href="69bbd499-45c0-4b0f-8f7a-c53fa5d70c1b"&gt;Pokladnici OBERON&lt;/A&gt; - &lt;EM&gt;Poznámky pre tlač&amp;nbsp;do kuchyne&lt;/EM&gt;. Stlačením tlačidla &lt;EM&gt;OBJEDNAŤ&lt;/EM&gt; sa&amp;nbsp;ešte neobjednané (neodoslané a nevytlačené) položky odošlú do OBERON-u a vytlačia na&amp;nbsp;&lt;A href="b9d7c873-7b63-4210-86fe-ab1c66ea6502"&gt;bonovacej tlačiarni&lt;/A&gt; (prípadne zobrazia na&amp;nbsp;&lt;A href="d9867d81-7de7-4ce2-9c45-932025935b8b"&gt;bonovacom monitore&lt;/A&gt;). 
+&lt;LI&gt;&lt;STRONG&gt;Platba&lt;/STRONG&gt; - umožňuje zaplatiť za otvorený účet a tým ho uzavrieť. K dispozícii sú tri záložky: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;EM&gt;&lt;STRONG&gt;Daňový doklad&lt;/STRONG&gt;&lt;/EM&gt; - na uzatvorenie účtu&amp;nbsp;zaevidovaním daňového dokladu. Sumu&amp;nbsp;na úhradu&amp;nbsp;je možné rozčleniť&amp;nbsp;podľa vybraných typov platieb&amp;nbsp;&lt;EM&gt;Hotovosť, Stravné lístky&lt;/EM&gt; a &lt;EM&gt;Platobná karta&lt;/EM&gt;. Stlačením tlačidla &lt;EM&gt;VYTLAČIŤ DOKLAD&lt;/EM&gt;&amp;nbsp;sa platba zaeviduje a&amp;nbsp;vytlačí&amp;nbsp;sa pokladničný doklad na&amp;nbsp;&lt;A href="04b8d290-1470-41ff-85a1-c44a20958841"&gt;fiškálnom zariadení&lt;/A&gt; (platba sa posiela cez danú webovú službu, ktorá komunikuje priamo s&amp;nbsp;fiškálnym zariadením). 
+&lt;LI&gt;&lt;EM&gt;&lt;STRONG&gt;Vnútorné zúčtovanie&lt;/STRONG&gt;&lt;/EM&gt; -&amp;nbsp;na uzatvorenie účtu&amp;nbsp;zaevidovaním nedaňového dokladu. Tým sa znížia&amp;nbsp;zásoby&amp;nbsp;v&amp;nbsp;sklade, ktorých úbytok&amp;nbsp;sa zaúčtuje iným spôsobom (napr. účet majiteľa, strava zamestnancov&amp;nbsp;a pod.). 
+&lt;LI&gt;&lt;EM&gt;&lt;STRONG&gt;Hotelové účty&lt;/STRONG&gt;&lt;/EM&gt; - na uzatvorenie účtu presunutím na&amp;nbsp;&lt;A href="ffa5a889-7bfe-4165-ba83-15263eb77358"&gt;hotelový účet&lt;/A&gt;. Záložka sa zobrazuje len v prípade, že je pri&amp;nbsp;&lt;A href="f3814738-213c-4f39-96d3-cdcaeb6674ec"&gt;type platby&lt;/A&gt; &lt;EM&gt;Presun na hotelový účet&lt;/EM&gt; v záložke &lt;EM&gt;Pokladnice&lt;/EM&gt; zvolená pokladnica priradená k danej webovej službe. Položky účtu je možné presunúť len na hotelový účet typu&amp;nbsp;&lt;EM&gt;Štandardný hotelový účet&lt;/EM&gt;, &lt;EM&gt;Hotelový účet len pre konzumáciu&lt;/EM&gt;, &lt;EM&gt;Hotelový účet pre konzumáciu a služby&lt;/EM&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Na opustenie&amp;nbsp;danej položky hlavnej ponuky klepnite na ikonu&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_LUKUL_left.png"&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;STRONG&gt;Oddeľovač chodov&lt;/STRONG&gt; sa využíva&amp;nbsp;pri jedlách, pri ktorých nemusí byť jasné, o ktorý chod ide (napr. palacinky si môže zákazník objednať ako hlavný chod, ale aj ako dezert) - oddeľovač chodov kuchárovi signalizuje, v akom slede má dané jedlo pripraviť.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H5&gt;Obrázok č. 2: Položky hlavnej ponuky v režime &lt;EM&gt;LUKUL - mobilný čašník&lt;/EM&gt;&lt;/H5&gt;
+&lt;P&gt;&amp;nbsp; &lt;IMG border=0 alt="" src="images/OBERONMobileSolutions/OBERONMobileSolutions_LUKUL_Tables.png"&gt;&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERONMobileSolutions/OBERONMobileSolutions_LUKUL_Groups.png"&gt;&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERONMobileSolutions/OBERONMobileSolutions_LUKUL_eMenu.png"&gt;&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERONMobileSolutions/OBERONMobileSolutions_LUKUL_Tab.png"&gt;&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERONMobileSolutions/OBERONMobileSolutions_LUKUL_Payment.png"&gt;&lt;/P&gt;
+&lt;H3&gt;Rýchle objednávanie&lt;/H3&gt;
+&lt;UL&gt;
+&lt;LI&gt;Rýchle objednávanie v aplikácii &lt;EM&gt;LUKUL&lt;/EM&gt; umožňuje pridávať jednotlivé položky do otvoreného účtu pomocou &lt;STRONG&gt;kódov položiek&lt;/STRONG&gt;. 
+&lt;LI&gt;Dostupné je z ponuky&amp;nbsp;&lt;STRONG&gt;Skupiny&lt;/STRONG&gt; (&lt;EM&gt;Nealko nápoje,&lt;/EM&gt; &lt;EM&gt;Polievky, Šaláty, Dezerty&lt;/EM&gt; a pod.) v hlavnej ponuke aplikácie (pozri vyššie). 
+&lt;LI&gt;Po krátkom stlačení&amp;nbsp;položky je možné&amp;nbsp;zadať poznámku k&amp;nbsp;objednávke. Jednotlivé poznámky k objednávke (napr. dobre prepiecť, bez prílohy a pod.) sa definujú v&amp;nbsp;&lt;A href="69bbd499-45c0-4b0f-8f7a-c53fa5d70c1b"&gt;Pokladnici OBERON&lt;/A&gt; - &lt;EM&gt;Poznámky pre tlač&amp;nbsp;do kuchyne&lt;/EM&gt;. 
+&lt;LI&gt;Otvorenie nového účtu a rýchle prepínanie medzi viacerými otvorenými účtami (účtenkami) pri&amp;nbsp;rýchlom&amp;nbsp;objednávaní je možné pomocou nasledujúcich skratkových klávesov: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;/*číslo stola&lt;/STRONG&gt;&amp;nbsp;- otvorí nový účet pod zadaným stolom (napr. /*1 - otvorí nový účet pod stolom č. 1). Pri opakovanom zadaní skratkového klávesu otvorí pod daným stolom vždy nový účet, pričom účty očísluje od 1 vyššie (1, 2, 3...). 
+&lt;LI&gt;&lt;STRONG&gt;/číslo stola&lt;/STRONG&gt; - zobrazí otvorený účet&amp;nbsp;pod zadaným stolom (napr. /1 - zobrazí otvorený účet&amp;nbsp;stolom č. 1). V prípade, že je pod daným stolom otvorených viacero účtov, aplikácia sa opýta, ktorý z otvorených účtov má zobraziť. 
+&lt;LI&gt;&lt;STRONG&gt;/číslo stola/číslo otvoreného účtu&lt;/STRONG&gt; - zobrazí&amp;nbsp;zadaný otvorený účet&amp;nbsp;pod zadaným stolom (napr. /1/2 - zobrazí otvorený účet&amp;nbsp;č.&amp;nbsp;2 pod stolom č. 1). &lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 3: Rýchle objednávanie&lt;/H5&gt;
+&lt;P&gt;&amp;nbsp; &lt;IMG border=0 alt="" src="images/OBERONMobileSolutions/OBERONMobileSolutions_LUKUL_Menu_FastOrder.png"&gt;&amp;nbsp;&lt;/P&gt;
+&lt;H3&gt;Práca s aktívnym účtom&lt;/H3&gt;
+&lt;UL&gt;
+&lt;LI&gt;V aplikácii je vždy možné pracovať &lt;STRONG&gt;len s jedným aktívnym otvoreným účtom&lt;/STRONG&gt;. Ak sa na niektorom otvorenom účte nachádzajú neodoslané položky, aplikácia nedovolí otvoriť nový účet, kým sa dané položky neodošlú (stlačením tlačidla &lt;EM&gt;OBJEDNAŤ&lt;/EM&gt;). 
+&lt;LI&gt;V položke &lt;EM&gt;Účet&lt;/EM&gt; je možné potiahnutím prsta zľava doprava &lt;STRONG&gt;rozbaliť ponuku na prácu s aktuálne aktívnym otvoreným účtom&lt;/STRONG&gt;: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Zlúčiť položky&lt;/STRONG&gt; - zlúči rovnaké položky daného účtu do jednej a množstvo spočíta (na sprehľadnenie zoznamu položiek v rámci otvoreného účtu). 
+&lt;LI&gt;&lt;STRONG&gt;Rozdeliť účet&lt;/STRONG&gt; - rozdelí položky daného účtu do dvoch samostatných účtov (ak sa&amp;nbsp;napr. hostia pri jednom stole&amp;nbsp;rozhodnú, že každý z nich bude platiť zvlášť). 
+&lt;LI&gt;&lt;STRONG&gt;Spojiť účty&lt;/STRONG&gt; - z otvoreného účtu presunie položky do iného účtu podľa výberu (ak sa napr. hostia pri jednom stole rozhodnú, že budú platiť spolu). 
+&lt;LI&gt;&lt;STRONG&gt;Zmeniť poradie&lt;/STRONG&gt; - v rámci otvoreného účtu umožňuje presúvať položky pomocou operácie &lt;EM&gt;ťahaj a pusť&lt;/EM&gt; (drag and drop); okrem toho je jednotlivým skupinám v&amp;nbsp;pokladnici&amp;nbsp;možné v OBERON-e priradiť&amp;nbsp;&lt;STRONG&gt;prioritu&lt;/STRONG&gt;, prípadne&amp;nbsp;&lt;STRONG&gt;farbu&lt;/STRONG&gt; (viac informácií v&amp;nbsp;téme&amp;nbsp;&lt;A href="1b25ffff-3c56-4c16-a60c-868a0106a206" style="auto-update-caption: true"&gt;Aplikácia LUKUL - automatické triedenie položiek&lt;/A&gt;). 
+&lt;LI&gt;&lt;STRONG&gt;Zmena stola (presadnutie)&lt;/STRONG&gt; - zmení stôl, nie účet - ak sú pod&amp;nbsp;novým stolom účty, pridá k nim&amp;nbsp;ďalší samostatný účet (ak sa hosť z akéhokoľvek dôvodu rozhodne presadnúť si&amp;nbsp;k inému stolu). 
+&lt;LI&gt;&lt;STRONG&gt;Zľava na doklad&lt;/STRONG&gt; - umožní zadať na doklad zľavu v percentách. 
+&lt;LI&gt;&lt;STRONG&gt;Účet len odoslať&lt;/STRONG&gt; - položky účtu odošle do OBERON-u bez tlače na&amp;nbsp;&lt;A href="b9d7c873-7b63-4210-86fe-ab1c66ea6502"&gt;bonovacej tlačiarni&lt;/A&gt;/zobrazenia na &lt;A href="d9867d81-7de7-4ce2-9c45-932025935b8b"&gt;bonovacom monitore&lt;/A&gt;&amp;nbsp;(ak napr. za jedným stolom si osobitne objednávajú dve dvojice - pán z prvej dvojice si objedná, pani však potrebuje čas na premyslenie, obsluha preto odošle objednávku pána do OBERON-u bez tlače na bonovacej tlačiarni a prejde k druhej dvojici. V závere sa vráti k pôvodnému účtu, doplní objednávku panej a účet odošle aj s tlačou na bonovacej tlačiarni); táto funkcia je prepojená s nasledujúcou funkciou &lt;EM&gt;Vytlačiť objednávku&lt;/EM&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;Vytlačiť&amp;nbsp;objednávku&lt;/STRONG&gt; - vytlačí na&amp;nbsp;&lt;A href="b9d7c873-7b63-4210-86fe-ab1c66ea6502"&gt;bonovacej tlačiarni&lt;/A&gt;/zobrazí na &lt;A href="d9867d81-7de7-4ce2-9c45-932025935b8b"&gt;bonovacom monitore&lt;/A&gt;&amp;nbsp;položky účtu, ktorý bol len odoslaný do OBERON-u. 
+&lt;LI&gt;&lt;STRONG&gt;Aktualizovať účet&lt;/STRONG&gt; - načíta položky účtu z OBERON-u a tým ho aktualizuje (ak sa napr. niektorá položka doplní do účtu na počítači a obsluha si&amp;nbsp;chce aktualizovať&amp;nbsp;zoznam položiek v&amp;nbsp;danom účte&amp;nbsp;v&amp;nbsp;mobilnom zariadení; iným príkladom je, keď kuchár doplní do otvoreného účtu doblok - obsluha si pomocou tejto funkcie aktualizuje zoznam položiek v otvorenom účte v aplikácii). 
+&lt;LI&gt;&lt;STRONG&gt;Vymazať účet&lt;/STRONG&gt; - otvorený účet vymaže (možné je vymazať len prázdny účet, ktorý neobsahuje položky). &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Na odhlásenie daného používateľa (obsluhy) z aplikácie slúži ikona&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_LUKUL_leave.png"&gt;&amp;nbsp;v&amp;nbsp;pravom hornom rohu. 
+&lt;LI&gt;S&amp;nbsp;aktívnymi účtami, s&amp;nbsp;ktorými sa pracuje v&amp;nbsp;mobilnej aplikácii &lt;EM&gt;LUKUL&lt;FONT color=#0066cc&gt;&amp;nbsp;&lt;/FONT&gt;&lt;/EM&gt;, je možné aktívne pracovať aj na &lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnici OBERON&lt;/A&gt;&amp;nbsp;(a&amp;nbsp;naopak). Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="e0ccff3e-b9e7-4572-bc3c-7f41a32280dd" style="auto-update-caption: true"&gt;Práca s otvorenými účtami (stolmi)&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 4: Možnosti práce s aktívnym otvoreným&amp;nbsp;účtom&lt;/H5&gt;
+&lt;P&gt;&amp;nbsp; &lt;IMG border=0 alt="" src="images/OBERONMobileSolutions/OBERONMobileSolutions_LUKUL_TabOptions.png"&gt;&lt;/P&gt;
+&lt;H1&gt;LUKUL eMenu (pre zákazníka)&lt;/H1&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;EM&gt;LUKUL eMenu&lt;/EM&gt; predstavuje súčasť viacúčelovej gastroaplikácie &lt;EM&gt;LUKUL - nielen mobilný čašník&lt;/EM&gt;. Ide o&amp;nbsp;elektronický&amp;nbsp;jedálny, resp. nápojový lístok určený pre reštauračné zariadenia, ktorý je možné &lt;STRONG&gt;zobraziť na&amp;nbsp;mobilnom zariadení zákazníka&lt;/STRONG&gt; (smartfóne, tablete). 
+&lt;LI&gt;Podaplikácia môže pracovať vo viacerých režimoch: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;eMenu - bez možnosti objednávania&lt;/STRONG&gt; - zákazník (hosť) si môže jedálny/nápojový lístok len prezerať bez možnosti objednávania. Zároveň má prístup k svojmu účtu (môže&amp;nbsp;sledovať položky na svojom účte), môže v prípade potreby privolať obsluhu, a to aj na&amp;nbsp;úhradu účtu (z ponuky &lt;EM&gt;Platba&lt;/EM&gt;), pričom môže určiť aj výšku obslužného. 
+&lt;LI&gt;&lt;STRONG&gt;eMenu - hosť v reštaurácii&lt;/STRONG&gt; - zákazník (hosť) si môže jedálny/nápojový lístok prezerať s možnosťou objednávky z reštauračného zariadenia. Oproti predchádzajúcemu režimu nemá pri práci s účtom žiadne obmedzenia, 
+&lt;LI&gt;&lt;STRONG&gt;eMenu - donáška&lt;/STRONG&gt; -&amp;nbsp;zákazník si môže jedálny/nápojový lístok prezerať s možnosťou objednávky na donášku. Viac informácií o tomto režime získate v osobitnej téme&amp;nbsp;&lt;A href="e90f516a-cb3b-43d9-82dd-440c6e6e9789"&gt;Aplikácia LUKUL - režim donášky&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Na prihlásenie zákazníka (v režime &lt;EM&gt;LUKUL eMenu - bez možnosti objednávania&lt;/EM&gt; a &lt;EM&gt;LUKUL eMenu - hosť v reštaurácii&lt;/EM&gt;) do WiFi siete reštauračného zariadenia, stiahnutie a&amp;nbsp;spustenie aplikácie &lt;EM&gt;LUKUL&lt;/EM&gt;, prípadne na stiahnutie a&amp;nbsp;spustenie aplikácie v režime donáškovej služby (&lt;EM&gt;LUKUL eMenu - donáška&lt;/EM&gt;),&amp;nbsp;je potrebné v&amp;nbsp;systéme OBERON vygenerovať prístupové &lt;STRONG&gt;QR kódy&lt;/STRONG&gt;. Prístupové QR kódy pre zákazníkov (hostí) v reštaurácii sa&amp;nbsp;spravidla umiestňujú&amp;nbsp;na stole v&amp;nbsp;reštauračnej prevádzke, pri objednávke na donášku&amp;nbsp;na webovej stránke reštauračného zariadenia. Viac informácií získate v téme&amp;nbsp;&lt;A href="20b1783a-a8ca-42a9-b2f3-80c658d62248"&gt;Aplikácia LUKUL - inštalácia&lt;/A&gt;, časť &lt;EM&gt;Generovanie prístupových QR kódov (zákazník)&lt;/EM&gt;. 
+&lt;LI&gt;Po nasnímaní QR kódu sa zákazník (hosť) môže rozhodnúť, či pod daným stolom otvorí nový účet. V kladnom prípade sa k otvorenému účtu priradí ID jeho mobilného zariadenia (podľa neho sa v aplikácii identifikuje otvorený účet). V&amp;nbsp;zápornom prípade sa aplikácia spustí v režime &lt;EM&gt;LUKUL eMenu - bez možnosti objednávania&lt;/EM&gt;. Napr. v prípade viacčlennej rodiny stačí, ak účet otvorí len jeden člen rodiny, ktorý bude za všetkých objednávať - ostatní členovia si budú môcť jedálny/nápojový lístok len prezerať. 
+&lt;LI&gt;Jedálny/nápojový lístok je &lt;STRONG&gt;vždy aktuálny&lt;/STRONG&gt;, zákazníka informuje tak&amp;nbsp;o dostupných, ako aj o dočasne nedostupných položkách (v &lt;EM&gt;eMenu&lt;/EM&gt; majú inú farbu ceny a nie je ich možné objednať). 
+&lt;LI&gt;Jedálny/nápojový lístok&amp;nbsp;sa môže&amp;nbsp;zobrazovať s &lt;STRONG&gt;obrázkami&lt;/STRONG&gt; jedál a nápojov alebo bez nich. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 5: Položky hlavnej ponuky v režime &lt;EM&gt;LUKUL - eMenu&lt;/EM&gt;&lt;/H5&gt;
+&lt;P&gt;&amp;nbsp; &lt;IMG border=0 alt="" src="images/OBERONMobileSolutions/OBERONMobileSolutions_LUKUL_Menu_Info.png"&gt;&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERONMobileSolutions/OBERONMobileSolutions_LUKUL_Menu_eMenu.png"&gt;&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERONMobileSolutions/OBERONMobileSolutions_LUKUL_Menu_Item1.png"&gt;&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERONMobileSolutions/OBERONMobileSolutions_LUKUL_Menu_Item2.png"&gt;&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERONMobileSolutions/OBERONMobileSolutions_LUKUL_Menu_Tip.png"&gt;&lt;/P&gt;
+&lt;H3&gt;Hlavná ponuka - eMenu&lt;/H3&gt;
+&lt;UL&gt;
+&lt;LI&gt;V hlavnej ponuke v dolnej časti obrazovky sa nachádzajú tieto položky: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Info&lt;/STRONG&gt; - v závislosti od nastavení obsahuje informácie o reštauračnej prevádzke, napr. logo, uvítací text a pod. s možnosťou privolať obsluhu. 
+&lt;LI&gt;&lt;STRONG&gt;Skupiny&lt;/STRONG&gt; - napr. &lt;EM&gt;Nealko nápoje,&lt;/EM&gt; &lt;EM&gt;Polievky, Šaláty, Dezerty&lt;/EM&gt; a pod. Názvy a&amp;nbsp;poradie skupín sa nastavujú v OBERON-e&amp;nbsp;ako skupiny&amp;nbsp;v&amp;nbsp;pokladnici&amp;nbsp;v&amp;nbsp;záložke &lt;EM&gt;Reg.&amp;nbsp;pokladnice&lt;/EM&gt;&amp;nbsp;&lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;formulára Skladová karta&lt;/A&gt;.&amp;nbsp;Jednotlivým skupinám v&amp;nbsp;pokladnici&amp;nbsp;je možné v OBERON-e priradiť&amp;nbsp;&lt;STRONG&gt;prioritu&lt;/STRONG&gt;, prípadne&amp;nbsp;&lt;STRONG&gt;farbu&amp;nbsp;&lt;/STRONG&gt;(viac informácií v&amp;nbsp;téme&amp;nbsp;&lt;A href="1b25ffff-3c56-4c16-a60c-868a0106a206" style="auto-update-caption: true"&gt;Aplikácia LUKUL - automatické triedenie položiek&lt;/A&gt;). 
+&lt;LI&gt;&lt;STRONG&gt;eMenu&lt;/STRONG&gt; -&amp;nbsp;po výbere konkrétnej skupiny zobrazuje položky tejto skupiny. Ak nie je vybraná žiadna skupina, zobrazuje položky prvej skupiny alebo&amp;nbsp;naposledy vybranej skupiny.&amp;nbsp;Potiahnutím prstom sprava doľava a späť je možné v ponuke listovať medzi jednotlivými skupinami položiek. Krátkym klepnutím na položku ju možno pridať do&amp;nbsp;účtu (opakovaným krátkym klepnutím sa pridá príslušné množstvo danej položky) - ak sú k danej skladovej karte priradené prílohy (záložka &lt;EM&gt;Receptúra, eMenu prílohy&lt;/EM&gt; - zadávajú sa čísla skladových kariet príloh), aplikácia &lt;STRONG&gt;automaticky ponúkne na výber priradené prílohy&amp;nbsp;&lt;/STRONG&gt;(&lt;A href="66abad1e-bfa7-4d8a-b34c-6c1e9a69b4f9"&gt;automatická ponuka príloh&lt;/A&gt;). Dlhým stlačením (long press) položky sa zobrazí ponuka, kde je možné upraviť množstvo položky, vymazať množstvo (napr. pri chybnom vybratí), vybrať&amp;nbsp;ďalšiu prílohu alebo&amp;nbsp;zobraziť&amp;nbsp;&lt;A href="05de0f02-be92-4f82-8a06-57e1ee70fbdf"&gt;&lt;STRONG&gt;podrobnosti o&amp;nbsp;položke&lt;/STRONG&gt;&lt;/A&gt;. V prípade, že položka ešte nie je vybratá do otvoreného účtu, dlhým stlačením je možné zobraziť priamo podrobnosti o&amp;nbsp;položke.&amp;nbsp;Informácie, ktoré sa prenášajú zo systému OBERON do ponuky &lt;EM&gt;eMenu&lt;/EM&gt;, sa preberajú zo skladovej položky pridanej do jedálneho lístka -&amp;nbsp;viac v&amp;nbsp;téme&amp;nbsp;&lt;A href="2f634ed7-507e-4cf9-a6bf-6e68510e6f57" style="auto-update-caption: true"&gt;Aplikácia LUKUL - nastavenia v OBERON-e&lt;/A&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;Účet&lt;/STRONG&gt; - obsahuje položky&amp;nbsp;otvoreného účtu. Dlhým stlačením (long press) položky sa otvorí ponuka, v ktorej je možné upraviť množstvo položky, zadať poznámku k&amp;nbsp;objednávke, prípadne&amp;nbsp;oddeľovač chodov.&amp;nbsp;Jednotlivé poznámky k objednávke (napr. dobre prepiecť, bez prílohy a pod.) sa definujú v&amp;nbsp;&lt;A href="69bbd499-45c0-4b0f-8f7a-c53fa5d70c1b"&gt;Pokladnici OBERON&lt;/A&gt; - &lt;EM&gt;Poznámky pre tlač&amp;nbsp;do kuchyne&lt;/EM&gt;.&amp;nbsp;Stlačením tlačidla &lt;EM&gt;OBJEDNAŤ&lt;/EM&gt; sa&amp;nbsp;ešte neobjednané (neodoslané a nevytlačené) položky odošlú do OBERON-u a vytlačia na&amp;nbsp;&lt;A href="b9d7c873-7b63-4210-86fe-ab1c66ea6502"&gt;bonovacej tlačiarni&lt;/A&gt; (prípadne zobrazia na&amp;nbsp;&lt;A href="d9867d81-7de7-4ce2-9c45-932025935b8b"&gt;bonovacom monitore&lt;/A&gt;). 
+&lt;LI&gt;&lt;STRONG&gt;Platba&lt;/STRONG&gt; - umožňuje privolať obsluhu na úhradu účtu a&amp;nbsp;v prípade spokojnosti s obsluhou zadať výšku &lt;STRONG&gt;obslužného (prepitné)&lt;/STRONG&gt; pre obsluhu,&amp;nbsp;resp. prípravu. Maximálna výška obslužného je v aplikácii nastavená na 20 €. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Na opustenie&amp;nbsp;danej položky hlavnej ponuky klepnite na ikonu&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_LUKUL_left.png"&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H3&gt;Hlavné výhody eMenu&lt;/H3&gt;
+&lt;UL&gt;
+&lt;LI&gt;Vždy aktuálne ceny. 
+&lt;LI&gt;Aktuálna dostupnosť množstva. 
+&lt;LI&gt;Vyšší prehľad zákazníka o ponuke prevádzky. 
+&lt;LI&gt;Jednoduchšia aktualizácia jedálneho lístka. 
+&lt;LI&gt;Zvýšená hygiena oproti tlačenému jedálnemu lístku. 
+&lt;LI&gt;Úspora nákladov&amp;nbsp;spojených s vydaním tlačeného jedálneho lístka. 
+&lt;LI&gt;V&amp;nbsp;epidemickej situácii možnosť objednávok z domu. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H1&gt;Ďalšie informácie&lt;/H1&gt;
+&lt;H3&gt;Notifikácie v aplikácii&lt;/H3&gt;
+&lt;UL&gt;
+&lt;LI&gt;Aplikácia využíva &lt;STRONG&gt;systémové upozornenia&lt;/STRONG&gt; operačných systémov &lt;EM&gt;Android&lt;/EM&gt; a &lt;EM&gt;iOS&lt;/EM&gt; na vlastné notifikácie. 
+&lt;LI&gt;Notifikácie sa v&amp;nbsp;aplikácii využívajú na privolanie obsluhy, a to: 
+&lt;UL&gt;
+&lt;LI&gt;stlačením tlačidla &lt;EM&gt;Privolať obsluhu&lt;/EM&gt; v ponuke &lt;EM&gt;Info -&lt;/EM&gt; po príchode alebo kedykoľvek počas pobytu v reštauračnom zariadení. Obsluhe sa na danom stole v aplikácii aj v OBERON-e zobrazí ikona&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_LUKUL_call-waiter-info.png"&gt;; 
+&lt;LI&gt;stlačením tlačidla &lt;EM&gt;Privolať obsluhu&lt;/EM&gt; v ponuke &lt;EM&gt;Platba -&lt;/EM&gt; po výbere preferovaného spôsobu úhrady. Obsluhe sa na danom stole (v aplikácii aj v OBERON-e) zobrazí ikona v závislosti od&amp;nbsp;zvoleného preferovaného spôsobu úhrady: pre hotovosť&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_LUKUL_cash.png"&gt;, pre stravné lístky &lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_LUKUL_voucher.png"&gt;, pre platobnú kartu&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_LUKUL_credit-card.png"&gt;, pre presun na hotelový účet&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_LUKUL_hotel-bill.png"&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/UL&gt;
+&lt;H3&gt;Mazanie účtov/položiek&lt;/H3&gt;
+&lt;UL&gt;
+&lt;LI&gt;V aplikácii je možné vymazať &lt;STRONG&gt;len prázdny účet bez položiek&lt;/STRONG&gt;, a&amp;nbsp;to&amp;nbsp;v&amp;nbsp;ponuke práce s aktívnym účtom pomocou funkcie &lt;EM&gt;Vymazať účet&lt;/EM&gt;&amp;nbsp;(pozri vyššie časť&amp;nbsp;&lt;EM&gt;Práca s aktívnym účtom&lt;/EM&gt;). 
+&lt;LI&gt;Pred odoslaním a vytlačením položiek (pred stlačením tlačidla &lt;EM&gt;OBJEDNAŤ&lt;/EM&gt;) je možné ľubovoľne mazať jednotlivé položky (potiahnutím&amp;nbsp;položky doľava v otvorenom účte sa zobrazí ikona &lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_LUKUL_delete.png"&gt;). 
+&lt;LI&gt;Obsluha môže&amp;nbsp;mazať položky&amp;nbsp;aj po odoslaní objednávky - vtedy sa automaticky tlačí storno na &lt;A href="b9d7c873-7b63-4210-86fe-ab1c66ea6502"&gt;bonovacej tlačiarni&lt;/A&gt;&amp;nbsp;(resp. zobrazí&amp;nbsp;na &lt;A href="d9867d81-7de7-4ce2-9c45-932025935b8b"&gt;bonovacom monitore&lt;/A&gt;). &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 6: Mazanie účtu a položky&lt;/H5&gt;
+&lt;P&gt;&amp;nbsp; &lt;IMG border=0 alt="" src="images/OBERONMobileSolutions/OBERONMobileSolutions_LUKUL_TabDelete.png"&gt;&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERONMobileSolutions/OBERONMobileSolutions_LUKUL_ItemDelete.png"&gt;&lt;/P&gt;
+&lt;H3&gt;Režim pre tablety&lt;/H3&gt;
+&lt;UL&gt;
+&lt;LI&gt;Používateľské rozhranie aplikácie je ergonomicky prispôsobené nielen&amp;nbsp;&lt;STRONG&gt;smartfónom, ale aj tabletom&lt;/STRONG&gt;. 
+&lt;LI&gt;Intuitívne spracovanie ovládania zabezpečuje rýchle zvládnutie práce s&amp;nbsp;aplikáciou. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 7: Aplikácia LUKUL na tablete (iPad)&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/OBERONMobileSolutions/OBERONMobileSolutions_LUKUL_ipad1.png"&gt;&amp;nbsp;&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERONMobileSolutions/OBERONMobileSolutions_LUKUL_ipad2.png"&gt;&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="1bb0116a-c349-4ce8-98c3-db285d4f3f31" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="58bb31ca-00c8-4641-ad99-7d58e24f59c5">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="636880c2-bdd4-462b-9010-5dff7908bdfc" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="c1f1084d-0742-45cd-966a-7cf001b770c7">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="158e8801-47fa-4000-9bd9-4c525c99dc8d" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="e90f516a-cb3b-43d9-82dd-440c6e6e9789">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="50cf26bd-a1d1-4bb0-8b89-6080a23b04aa" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1b25ffff-3c56-4c16-a60c-868a0106a206">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="323cd8c9-55fb-44e1-b0a5-662f4e0aec00" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="66abad1e-bfa7-4d8a-b34c-6c1e9a69b4f9">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="aea5c2b5-ecb1-4669-95d6-06938210a092" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="18aeb679-252d-405b-9661-7ed645370717">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="595a2112-3a02-427b-adcf-8f551923bba8" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="05de0f02-be92-4f82-8a06-57e1ee70fbdf">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="ace04155-00af-449d-8dfe-96b4e838cad4" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="4b9fd97b-be62-43f9-9fc3-ed99dcd81cc6">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="3dc02aa0-0108-4e9d-932b-00683f330a74" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="2f634ed7-507e-4cf9-a6bf-6e68510e6f57">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="3d57097c-ec16-48ae-ac41-f9f087c18ef6" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="4fe96b33-a1cd-4c08-93bc-d553db021c87">
+      <Title m="2023-02-06T09:55:47.7693703Z">Aplikácia LUKUL - nastavenia eMenu</Title>
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="e7729c1b-ea02-4b1b-b4ba-927311ae8e37" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="20b1783a-a8ca-42a9-b2f3-80c658d62248">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="5e2ab6da-eb70-420d-b428-e2bf40d81d79" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="726335c3-67d3-49b6-8825-c1f9d70c1be6">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="832cd65b-8d87-4c38-88ee-eeae6d758cc7">
+      <Keyword m="2021-03-18T09:49:32.5704353Z">LUKUL mobilný čašník</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="9ab88bf2-1dc7-40d2-b226-25865cd62072">
+      <Keyword m="2021-03-18T09:49:40.7812083Z">LUKUL eMenu</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="217857fa-67c3-4547-ab00-24b417818524">
+      <Keyword m="2021-03-18T09:49:49.3454332Z">LUKUL - nielen mobilný čašník</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="c04f9f16-c615-4616-94bc-77c6e61978e6">
+      <Keyword m="2021-03-18T09:55:32.4572042Z">Gastroaplikácia LUKUL</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="9acff8c4-118c-4390-b45c-d4530545ad93">
+      <Keyword m="2022-01-20T12:34:32.8326249Z">Obslužné - LUKUL</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="22b6f04c-f036-4838-b41f-b0e652f010a5">
+      <Keyword m="2022-01-20T12:34:40.3215022Z">Prepitné - LUKUL</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="802f6415-58ef-4d8a-b64f-e59559bc8b7a">
+      <Keyword m="2022-01-20T12:34:44.2293794Z">Sprepitné - LUKUL</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="0bdf99c8-c0be-4a92-aa49-8a0952d977a3">
+      <Keyword m="2022-01-20T12:34:49.5955592Z">Dýško - LUKUL</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="838a353f-9ff5-460c-b886-0c520c1eb81e">
+      <Keyword m="2022-01-20T12:34:54.0922988Z">Diškrécia - LUKUL</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="f3d524d4-2545-44c7-b622-8c041c522f78">
+      <Keyword m="2022-01-20T12:35:00.0926543Z">Bakšiš - LUKUL</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="d645c587-3ed0-43ec-ba52-05d73286b229">
+      <Keyword m="2022-01-20T12:35:04.7343461Z">Tringeld - LUKUL</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="4bd07519-466f-4574-96e1-7ee328411cd2">
+      <Keyword m="2022-06-21T13:06:42.9160564Z">LUKUL - hlavná téma</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="05735aa8-7a30-4571-9fb6-431e47fae953">
+      <Keyword m="2023-01-25T12:42:35.4755218Z">LUKUL - mobilný čašník (pre obsluhu)</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="f1053844-0a15-4888-be47-c0202724d1f7">
+      <Keyword m="2023-01-25T12:42:47.203164Z">LUKUL eMenu (pre zákazníka)</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="ee29be49-3262-4885-a109-6e66246ffc87">
+      <Keyword m="2023-01-25T12:44:10.26268Z">LUKUL - softvérové a hardvérové požiadavky</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="9cbd9f85-caa1-43b4-a483-93820d807b89">
+      <Keyword m="2023-01-25T12:44:55.6118821Z">Rýchle objednávanie - LUKUL</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="fd849dfa-d5b6-4103-9feb-e5007d766a93">
+      <Keyword m="2023-01-25T12:45:29.6883064Z">LUKUL - práca s aktívnym účtom</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="2bfa8b7e-575f-4565-85d7-4b5b1850ec5b">
+      <Keyword m="2023-01-25T12:45:40.1451712Z">LUKUL - notifikácie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="572b720e-71ff-4c83-9854-27ac11e4a41f">
+      <Keyword m="2023-01-25T12:53:55.604307Z">LUKUL - mazanie účtov/položiek</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="9f530bf7-8fff-4aa0-8b2e-8320956e089d">
+      <Keyword m="2023-01-25T12:46:03.8999043Z">LUKUL - režim pre tablety</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="d64fdd8d-f392-4af9-9eb3-a30bafe3e55b">
+      <Keyword m="2024-09-19T10:24:58.9381764Z">LUKUL</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="ef83607d-f365-445e-bf00-b257cead6f19" Status="Complete" CreatedOn="2014-09-08T12:54:30.9788279Z" ModifiedOn="2024-06-19T10:41:01.8798843Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="22406" Name="Menu_Service_Licence_Rights" BuildFlags="">
+  <Title m="2014-09-08T12:54:54.2021562Z">Licenčné práva</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-06-19T10:41:01.8798843Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;je venovaná&amp;nbsp;položke&amp;nbsp;&lt;EM&gt;Licenčné práva&lt;/EM&gt;&amp;nbsp;v ponuke&amp;nbsp;&lt;EM&gt;Servis&lt;/EM&gt; programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;. Položka je dostupná len pre&amp;nbsp;&lt;A href="225638ed-22f6-4ac4-9085-6d77c64925db"&gt;používateľov&lt;/A&gt; s&amp;nbsp;príznakom &lt;EM&gt;Administrátor&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Výberom položky sa otvorí formulár &lt;EM&gt;Licenčné práva&lt;/EM&gt;, ktorý umožňuje &lt;STRONG&gt;vytvoriť objednávku licencie systému OBERON a jej prípadnú manuálnu aktiváciu&lt;/STRONG&gt; (spravidla v&amp;nbsp;prípade, že počítač nie je pripojený k internetu; štandardne sa licencia po uhradení poplatku&amp;nbsp;aktivuje automaticky). 
+&lt;LI&gt;Vo formulári &lt;I&gt;Licenčné práva&lt;/I&gt; sa zároveň zobrazujú účtovné obdobia a pre ne platné licenčné práva na používanie systému OBERON. V&amp;nbsp;zozname licencií môžu byť zobrazené licencie platné pre aktuálnu účtovnú jednotku, v&amp;nbsp;prípade existencie hardvérového kľúča licencie platné pre multilicenciu. 
+&lt;LI&gt;Po stlačení tlačidla &lt;I&gt;&lt;STRONG&gt;Cenník&lt;/STRONG&gt;&lt;/I&gt; sa zobrazí interaktívny cenník, v&amp;nbsp;ktorom je možné vypočítať celkovú cenu za OBERON. Predtým sa však odporúčame&amp;nbsp;oboznámiť s&amp;nbsp;&lt;A href="95d188df-c149-46a9-8474-4d9493f2ad41"&gt;licenčnou politikou&lt;/A&gt;, &lt;A href="644b0685-defe-4ce5-b3cd-e731b5eff299"&gt;typmi licencií&lt;/A&gt;, prípadne získať ďalšie informácie z&amp;nbsp;&lt;A href="efb93a2c-e449-4770-88ba-0fe999e90ccd"&gt;cenníka&lt;/A&gt; uvedeného v&amp;nbsp;tejto dokumentácii. 
+&lt;LI&gt;Pred objednávkou&amp;nbsp;&lt;A href="efb93a2c-e449-4770-88ba-0fe999e90ccd"&gt;multilicencie&lt;/A&gt; je&amp;nbsp;v rozbaľovacom zozname &lt;STRONG&gt;&lt;EM&gt;Hardvérový kľúč&lt;/EM&gt;&lt;/STRONG&gt; možné zvoliť jednu z&amp;nbsp;nasledujúcich možností: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;EM&gt;Bez hardvérového kľúča&lt;/EM&gt; - vyberá sa pri prvotnom objednaní multilicencie. Po výbere tejto možnosti bude účtovnej jednotke zaslaný pamäťový kľúč (USB disk, kľúč) už obsahujúci multilicenciu na vybrané obdobie. Táto možnosť sa vyberá aj na zakázanie používania hardvérového kľúča pri tzv. &lt;STRONG&gt;súbehu licencií&lt;/STRONG&gt; - viac informácií získate v téme&amp;nbsp;&lt;A href="efb93a2c-e449-4770-88ba-0fe999e90ccd" style="auto-update-caption: true"&gt;Cenník - licencie OBERON&lt;/A&gt;. 
+&lt;LI&gt;&lt;EM&gt;Automaticky detegovať&lt;/EM&gt; - vyberá sa pri druhom a ďalšom objednaní&amp;nbsp;multilicencie,&amp;nbsp;keď účtovná jednotka už hardvérový kľúč vlastní. V procese objednávky bude na pokyn sprievodcu potrebné tento kľúč vložiť do portu počítača, z&amp;nbsp;ktorého sa objednávka odosiela. 
+&lt;LI&gt;&lt;EM&gt;Predvolený disk 'K'&lt;/EM&gt; - vyberá sa za rovnakých podmienok, ako v&amp;nbsp;predchádzajúcom bode, rozdiel je v nastavení hardvérového kľúča v systéme &lt;EM&gt;Windows&lt;/EM&gt;&amp;nbsp;pod písmenom jednotky &lt;EM&gt;&lt;STRONG&gt;K&lt;/STRONG&gt;&lt;/EM&gt; (kvôli&amp;nbsp;rýchlejšej detekcii). Postup nastavenia hardvérového kľúča na disk &lt;EM&gt;K&lt;/EM&gt; je dostupný v&amp;nbsp;téme&amp;nbsp;&lt;A href="14223592-268a-4a9d-a456-da9adeb1c46b" style="auto-update-caption: true"&gt;Hardvérové a softvérové požiadavky&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Objednávku licencie možno zostaviť po stlačení tlačidla &lt;EM&gt;&lt;STRONG&gt;Objednať&lt;/STRONG&gt;&lt;/EM&gt;. Otvorí sa sprievodca, pomocou ktorého môžete objednávku licencie odoslať. Po vytvorení objednávky bude systém OBERON pracovať v&amp;nbsp;rámci&amp;nbsp;tzv. trial licencie. &lt;STRONG&gt;Trial&amp;nbsp;licencia je časovo&amp;nbsp;obmedzená, štandardne na&amp;nbsp;obdobie 15 dní.&lt;/STRONG&gt; Počas týchto dní je potrebné na základe doručenej výzvy uhradiť poplatok za licenciu na bankový účet. &lt;STRONG&gt;Upozornenie:&lt;/STRONG&gt; V jednom účtovnom období (od 1.1. do 31.12.)&amp;nbsp;je možné pracovať &lt;STRONG style="COLOR: rgb(255,0,0)"&gt;v rámci&amp;nbsp;tzv.&amp;nbsp;trial licencie len raz&lt;/STRONG&gt;. Podrobné informácie o fungovaní trial licencie získate v&amp;nbsp;&lt;A href="40c83e5f-22aa-4ba5-b4c1-35938f90fac2"&gt;Obchodných podmienkach&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Podrobný&amp;nbsp;postup vytvorenia a odoslania objednávky (multi)licencie OBERON&amp;nbsp;získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="49208c26-7930-4363-9fab-977662e2e8cc" style="auto-update-caption: true"&gt;Ako objednať OBERON&lt;/A&gt;.&amp;nbsp;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Dostupné možnosti&lt;/H2&gt;
+&lt;P&gt;Po stlačení pravého tlačidla myši v&amp;nbsp;zozname licencií je možné zobraziť&amp;nbsp;kontextovú ponuku, v&amp;nbsp;ktorej sa nachádzajú&amp;nbsp;tieto možnosti:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;I&gt;Podrobnosti o aktuálnej licencii&lt;/I&gt; - zobrazí podrobné informácie o aktuálne platných&amp;nbsp;licenčných právach pre aktuálne spracovávané obdobie. 
+&lt;LI&gt;&lt;I&gt;Odstrániť licenciu&lt;/I&gt; - používa sa v&amp;nbsp;odôvodnených prípadoch (spravidla pri potrebe dodatočne upraviť názov spracovávanej firmy). &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Informačný panel&lt;/H2&gt;
+&lt;P&gt;Systém OBERON obsahuje spodný systémový panel, ktorý zobrazuje aktuálne otvorenú firmu, prevádzku, prihláseného používateľa, spracovávané obdobie (miezd), pripojiteľné zariadenia&amp;nbsp;a jazyk.&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;V&amp;nbsp;závislosti od aktuálnych&amp;nbsp;licenčných práv sa názov firmy môže zobrazovať rôznou farbou:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;&lt;STRONG&gt;Čierna farba&lt;/STRONG&gt;&lt;/SPAN&gt; - firma má platnú licenciu&amp;nbsp;na aktuálne spracovávané obdobie. 
+&lt;LI&gt;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;&lt;STRONG&gt;Červená farba&lt;/STRONG&gt;&lt;/SPAN&gt; - firma prekročila licenčné práva alebo nemá platnú licenciu na aktuálne spracovávané obdobie. 
+&lt;LI&gt;&lt;SPAN style="COLOR: rgb(171,115,213)"&gt;&lt;STRONG&gt;Fialová farba&lt;/STRONG&gt;&lt;/SPAN&gt; &lt;SPAN style="COLOR: rgb(171,115,213)"&gt;-&lt;/SPAN&gt; firma sa blíži k&amp;nbsp;prekročeniu licenčných práv podľa jednotlivých&amp;nbsp;&lt;A href="644b0685-defe-4ce5-b3cd-e731b5eff299"&gt;typov licencií&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 1: Systémový panel firmy, ktorá má platnú licenciu&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/BasicInformation/Prices/Database_LicenciaOK.png"&gt;&lt;/P&gt;
+&lt;H2&gt;Stavy licencií&lt;/H2&gt;
+&lt;P&gt;Vľavo v spodnom systémovom paneli sa zobrazuje ikona aktuálneho stavu licencie, ktorá informuje o platnosti alebo neplatnosti licencie&amp;nbsp;na aktuálne&amp;nbsp;spracovávané obdobie.&lt;/P&gt;
+&lt;TABLE&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TH&gt;
+&lt;H3&gt;Ikona stavu&lt;/H3&gt;&lt;/TH&gt;
+&lt;TH&gt;
+&lt;H3&gt;Popis&lt;/H3&gt;&lt;/TH&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Button_Licence_Gray.png"&gt;&lt;/TD&gt;
+&lt;TD&gt;Bez&amp;nbsp;dočasnej (trial) licencie, bez&amp;nbsp;licencie na aktuálne&amp;nbsp;spracovávané obdobie.&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Button_Licence_GrayGren.png"&gt;&lt;/TD&gt;
+&lt;TD&gt;Platná dočasná&amp;nbsp;(trial) licencia.&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Button_Licence_GrayRed.png"&gt;&lt;/TD&gt;
+&lt;TD&gt;Dočasná (trial) licencia prekročila povolenú lehotu na úhradu za licenciu.&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Button_Licence_Green.png"&gt;&lt;/TD&gt;
+&lt;TD&gt;Platná licencia na aktuálne&amp;nbsp;spracovávané obdobie.&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Button_Licence_GreenRed.png"&gt;&lt;/TD&gt;
+&lt;TD&gt;Firma sa blíži k&amp;nbsp;prekročeniu licenčných práv podľa jednotlivých&amp;nbsp;&lt;A href="644b0685-defe-4ce5-b3cd-e731b5eff299"&gt;typov licencií&lt;/A&gt;.&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Button_Licence_Red.png"&gt;&lt;/TD&gt;
+&lt;TD&gt;Neplatná licencia, prekročené licenčné práva podľa jednotlivých&amp;nbsp;&lt;A href="644b0685-defe-4ce5-b3cd-e731b5eff299"&gt;typov licencií&lt;/A&gt;.&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="77b168f6-f844-48dd-9d62-06822633c835" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="95d188df-c149-46a9-8474-4d9493f2ad41">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="8e24ae90-eb1d-49f0-841a-cb6ca2f33f3f" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="644b0685-defe-4ce5-b3cd-e731b5eff299">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="65195155-205b-42b3-9a00-b09a74bb5934" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="efb93a2c-e449-4770-88ba-0fe999e90ccd">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="e52dbd3f-cf9a-4765-af28-7f7ec0d0cf69" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="40c83e5f-22aa-4ba5-b4c1-35938f90fac2">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="331f7da3-3570-4ffb-b712-8731d6736f7f" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="49208c26-7930-4363-9fab-977662e2e8cc">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="57b0129d-2621-4c5e-a624-f4277bf52c63">
+      <Keyword m="2022-02-04T08:26:26.6327323Z">Licenčné práva - hlavná ponuka</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="645af981-ad2c-4e8f-a769-3459149d20b3">
+      <Keyword m="2024-01-09T09:00:51.563368Z">Trial licencia - licenčné práva</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="d4a205bd-3f16-47bc-ad04-120abb30fe3f">
+      <Keyword m="2017-07-03T09:00:50.9670267Z">Dočasná verzia OBERON-u</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="3d970ced-343e-4baf-a09c-08363979666d">
+      <Keyword m="2022-02-04T08:27:26.651254Z">Podrobnosti o aktuálnej licencii </Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="7b324f31-e1f6-4011-beeb-ddb469a92acc">
+      <Keyword m="2022-02-04T08:35:14.6883758Z">Dočasná trial licencia</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="b08c38eb-57e0-4ff5-b323-e001a0dcfba3">
+      <Keyword m="2022-02-04T08:35:21.6863043Z">Licencia trial</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="9180870c-740e-4ce5-955a-7d237d4016fe">
+      <Keyword m="2022-02-04T08:35:43.9990806Z">Odstránenie licencie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="4f6efabf-a290-47ad-b423-978ea6ba632e">
+      <Keyword m="2022-02-04T08:35:54.3656144Z">Stavy licencií</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

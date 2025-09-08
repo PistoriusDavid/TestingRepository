@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="49a252bc-d94f-4296-9a80-4ebf60f06e34" Status="Complete" CreatedOn="2019-04-17T11:09:11.1037854Z" ModifiedOn="2023-12-29T12:34:25.1172476Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="21710" Name="Device_FiscalDevice_ECM_UnsentBills" BuildFlags="">
+  <Title m="2019-04-17T11:10:17.8725941Z">Neodoslané doklady</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-12-29T12:34:25.1172476Z">&lt;P&gt;V závislosti od konkrétneho&amp;nbsp;&lt;A href="b24ad235-cf7f-43e2-b3e8-ec0f7d92f6b6"&gt;fiškálneho zariadenia&lt;/A&gt;&amp;nbsp;môže &lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9" style="auto-update-caption: true"&gt;Pokladnica OBERON&lt;/A&gt;&amp;nbsp;komunikovať&amp;nbsp;s&amp;nbsp;týmto fiškálnym zariadením prostredníctvom aplikácie &lt;A href="cd5f4475-36be-4b51-83ca-c11c8cd12b7e"&gt;EXALOGIC CashRegister Manager&lt;/A&gt; (ECM).&amp;nbsp;V&amp;nbsp;tejto téme &lt;EM&gt;Pomocníka&lt;/EM&gt; je&amp;nbsp;uvedený postup, ako pracovať s&amp;nbsp;jednou&amp;nbsp;z funkcií tejto aplikácie, ktorá umožňuje &lt;STRONG&gt;zobraziť, vytlačiť alebo&amp;nbsp;odoslať na &lt;EM&gt;Finančnú správu SR&lt;/EM&gt; neodoslané&amp;nbsp;doklady&lt;/STRONG&gt; (spravidla v&amp;nbsp;dôsledku výpadku internetového pripojenia daného pokladničného riešenia).&lt;/P&gt;
+&lt;H2&gt;Postup práce&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;Pravým tlačidlom myši kliknite na ikonu&amp;nbsp;aplikácie &lt;EM&gt;EXALOGIC CashRegister Manager&lt;/EM&gt; (štandardne sa&amp;nbsp;zobrazuje na paneli úloh systému &lt;EM&gt;Windows&lt;/EM&gt;) a vyberte možnosť &lt;EM&gt;Spravovať ECM&lt;/EM&gt;. 
+&lt;LI&gt;V záložke &lt;EM&gt;eKasa&lt;/EM&gt; vyberte jednu z nasledujúcich možností:&lt;BR&gt;a)&amp;nbsp;&lt;STRONG&gt;Zobraziť neodoslané&lt;/STRONG&gt; - zobrazia sa neodoslané doklady,&lt;BR&gt;b)&amp;nbsp;&lt;STRONG&gt;Odoslať neodoslané&lt;/STRONG&gt; - program odošle neodoslané doklady na finančnú správu,&lt;BR&gt;c)&amp;nbsp;&lt;STRONG&gt;Vytlačiť neodoslané (súhrn)&lt;/STRONG&gt; - program umožní vytlačiť neodoslané doklady. V prípade vyššieho počtu neodoslaných dokumentov nachádzajúcich sa vo fiškálnom zariadení&amp;nbsp;(dokladov, výberov, vkladov atď.) je možné zvoliť filter, ktorý bližšie určí rozsah neodoslaných dokumentov, s ktorými sa bude pracovať, a to podľa:&lt;BR&gt;- rozsahu dátumov,&lt;BR&gt;- rozsahu čísel dokladov. &lt;/LI&gt;&lt;/OL&gt;
+&lt;H5&gt;Obrázok č. 1: Možnosti funkcie &lt;EM&gt;Neodoslané doklady&lt;/EM&gt;&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/CashRegisterECM/Device_ECM_UnsentBills.png"&gt;&amp;nbsp;&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="8245e5f5-0f3f-4e55-8b5b-304f41235bd2" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="b24ad235-cf7f-43e2-b3e8-ec0f7d92f6b6">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="c48d0860-fbec-4640-a5dd-daa49d657132" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="cd5f4475-36be-4b51-83ca-c11c8cd12b7e">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="d2ebad2f-d829-4bea-9b53-237200e73600">
+      <Keyword m="2019-04-18T06:09:32.0430416Z">ECM - Neodoslané doklady</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="d86657e0-06a4-4ffd-aeae-2cf92e00f43b">
+      <Keyword m="2021-04-08T07:29:57.9289108Z">EXALOGIC CashRegister Manager - Neodoslané doklady</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="47d43c60-675a-405f-8eb7-944c4efb0790">
+      <Keyword m="2021-04-08T07:37:01.126503Z">eKasa - ECM - Neodoslané doklady</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

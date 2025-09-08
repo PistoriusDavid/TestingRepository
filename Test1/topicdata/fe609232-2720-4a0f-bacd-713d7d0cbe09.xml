@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="fe609232-2720-4a0f-bacd-713d7d0cbe09" Status="Complete" CreatedOn="2017-05-12T10:25:46.4071709Z" ModifiedOn="2023-12-13T12:55:00.0313369Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="false" HelpContextIds="" Name="Invoices_Advanced_Logo" BuildFlags="">
+  <Title m="2017-08-23T12:44:05.6024799Z">Logo na faktúre</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-12-05T08:23:01.2073863Z">&lt;P&gt;V tejto téme &lt;EM&gt;Pomocníka&lt;/EM&gt; je uvedený &lt;STRONG&gt;postup, ako pridať logo účtovnej jednotky, resp. jej prevádzky&amp;nbsp;na doklady&amp;nbsp;(faktúra, dodací list, objednávka...)&lt;/STRONG&gt;&amp;nbsp;vystavené v&amp;nbsp;systéme OBERON.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Doklady ako faktúry,&amp;nbsp;dodacie listy, cenové ponuky, objednávky atď. sú dôležitou súčasťou firemnej prezentácie, preto by ich vzhľad mal vyzerať atraktívne a&amp;nbsp;profesionálne (grafická úprava, typ a&amp;nbsp;farba písma podľa firemného logotypu atď.). Samozrejmou súčasťou &lt;STRONG&gt;vizuálnej prezentácie firmy je logo&lt;/STRONG&gt; uvádzané na dokladoch. 
+&lt;LI&gt;V systéme OBERON &lt;STRONG&gt;je možné&lt;/STRONG&gt;&amp;nbsp;&lt;STRONG&gt;účtovnej jednotke (firme) bez prevádzok priradiť logo&lt;/STRONG&gt;, ktoré možno následne pridať&amp;nbsp;na každý vystavený doklad (faktúru, cenovú ponuku, objednávku...). 
+&lt;LI&gt;V&amp;nbsp;prípade, že firma pracuje s&amp;nbsp;&lt;A href="8df798f2-4fbf-4279-ad8c-493bdbe7f2e4"&gt;prevádzkami&lt;/A&gt;, možno &lt;STRONG&gt;samostatné logo priradiť každej&amp;nbsp;prevádzke&lt;/STRONG&gt; &lt;STRONG&gt;firmy&lt;/STRONG&gt; (napr. v&amp;nbsp;prípade, že&amp;nbsp;účtovná jednotka&amp;nbsp;prevádzkuje&amp;nbsp;hotel a zároveň&amp;nbsp;predajňu&amp;nbsp;- vtedy sa na dokladoch budú tlačiť&amp;nbsp;rozdielne logá&amp;nbsp;v&amp;nbsp;závislosti&amp;nbsp;od zadanej prevádzky). &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Postup nastavenia loga&lt;/H2&gt;
+&lt;H3&gt;Firma bez prevádzok&lt;/H3&gt;
+&lt;UL&gt;
+&lt;LI&gt;V prípade, že firma nepoužíva prevádzky, logo sa nastavuje&amp;nbsp;v&amp;nbsp;ponuke &lt;EM&gt;Firma&lt;/EM&gt;,&amp;nbsp;&lt;A href="a833ee8a-1289-42b9-923f-80f549497702"&gt;Údaje o firme&lt;/A&gt;, oddiel &lt;EM&gt;Logo&lt;/EM&gt;. Kliknite na ikonku &lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_Button_Images.png"&gt; a nalistujte&amp;nbsp;obrázok loga.&amp;nbsp;Obrázok&amp;nbsp;môže byť vo formáte &lt;STRONG&gt;JPG&lt;/STRONG&gt;, &lt;STRONG&gt;PNG&lt;/STRONG&gt; alebo&amp;nbsp;&lt;STRONG&gt;GIF&lt;/STRONG&gt;. Odporúčané rozmery obrázka sú &lt;STRONG&gt;102&amp;nbsp;x&amp;nbsp;102 pixelov&lt;/STRONG&gt;, veľkosť &lt;STRONG&gt;max. 10 - 15 kB&lt;/STRONG&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 1: Pridanie loga firme bez prevádzok&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/Invoices/Form__Invoices_Logo_Bezprevadzky.png"&gt;&amp;nbsp;&lt;/P&gt;
+&lt;H3&gt;Firma s prevádzkami&lt;/H3&gt;
+&lt;UL&gt;
+&lt;LI&gt;V prípade, že firma používa prevádzky, samostatné logo sa nastavuje pre každú prevádzku, a to&amp;nbsp;v&amp;nbsp;ponuke &lt;EM&gt;Firma&lt;/EM&gt;,&amp;nbsp;&lt;A href="a833ee8a-1289-42b9-923f-80f549497702"&gt;Údaje o firme&lt;/A&gt;, oddiel &lt;EM&gt;Základné údaje&lt;/EM&gt;. &lt;STRONG&gt;Pre centrálu sa logo v tomto prípade tiež nastavuje ako logo prevádzky&lt;/STRONG&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;DIV style="MARGIN-LEFT: 2em"&gt;
+&lt;OL&gt;
+&lt;LI&gt;V ponuke &lt;EM&gt;Firma&lt;/EM&gt; vyberte položku &lt;A href="a833ee8a-1289-42b9-923f-80f549497702"&gt;Údaje o firme&lt;/A&gt;. 
+&lt;LI&gt;Otvorí sa formulár, kde v oddiele &lt;EM&gt;Základné údaje&lt;/EM&gt; stlačte pri poli &lt;EM&gt;Prevádzka&lt;/EM&gt; tlačidlo&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_ListButton.png"&gt;. 
+&lt;LI&gt;Otvorí sa zoznam všetkých prevádzok firmy. Zvoľte prevádzku, ktorej chcete nastaviť logo, a&amp;nbsp;stlačte tlačidlo &lt;EM&gt;Oprava&lt;/EM&gt; (v&amp;nbsp;prípade, že zakladáte novú prevádzku, stlačte tlačidlo &lt;EM&gt;Nový&lt;/EM&gt;). 
+&lt;LI&gt;Otvorí sa formulár &lt;EM&gt;Prevádzka&lt;/EM&gt;.&amp;nbsp;V záložke &lt;EM&gt;Logo&lt;/EM&gt; stlačte tlačidlo&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_Button_Images.png"&gt;&amp;nbsp;a nalistujte obrázok loga. 
+&lt;LI&gt;Ďalším prevádzkam pridajte logo obdobným spôsobom. &lt;/LI&gt;&lt;/OL&gt;&lt;/DIV&gt;
+&lt;H2&gt;Vlastné logo veľkých rozmerov&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;V predvolených tlačových výstupoch je grafické logo v tvare štvorca. V prípade potreby je možné tak rozmery loga, ako aj jeho umiestnenie upraviť v&amp;nbsp;&lt;A href="bd58b5ac-bf1a-44f0-9463-12aa3e5b8165"&gt;Editore tlačových výstupov&lt;/A&gt;. Viac informácií získate v&amp;nbsp;téme &lt;A href="b3e41f60-bab3-4ad9-b73d-69ece0c12afa" style="auto-update-caption: true"&gt;Ako upraviť tlačový výstup&lt;/A&gt;. 
+&lt;LI&gt;Okrem predvolených štýlov tlačových výstupov faktúr a dodacích listov sú k dispozícii aj ďalšie štýly&amp;nbsp;- je ich možné doinštalovať pomocou &lt;A href="a1ae5eb5-f369-4aab-80b2-c6585166d550" target=_blank&gt;Správcu doplnkov&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Okrem loga je možné umiestniť do faktúry firemnú pečiatku a podpis&amp;nbsp;- viac informácií v&amp;nbsp;téme &lt;A href="263345a9-095c-462c-9c0e-7e5eb28e7dff" target=_blank&gt;Ako pridať na faktúru podpis alebo pečiatku?&lt;/A&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="683d08f4-ac9e-425b-9e4b-7016747deb7c" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="8df798f2-4fbf-4279-ad8c-493bdbe7f2e4">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="1ddfaa50-881f-47c8-a324-60ff51a1bfd9" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="a833ee8a-1289-42b9-923f-80f549497702">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="2babddbd-0a56-4e00-a5df-a2ac3659a315" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="bd58b5ac-bf1a-44f0-9463-12aa3e5b8165">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="566e9294-d0b5-473e-b6a0-d4a3a442c09a" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="b3e41f60-bab3-4ad9-b73d-69ece0c12afa">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="bcd22f7f-e4db-4fa1-9b59-57caf430e363" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="263345a9-095c-462c-9c0e-7e5eb28e7dff">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="631688ca-1fa2-4bc5-b41e-e57e13672187" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="ccadca4e-2fbd-4b28-8d92-f826f3019bd0">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="4ef7161e-13fd-4a63-addc-534370dc3945">
+      <Keyword m="2017-05-12T11:18:17.7589204Z">Faktúra s logom</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="cd15cf36-f434-46bf-bb5f-bff7a49b1a59">
+      <Keyword m="2021-09-13T05:55:12.387233Z">Logo na faktúre</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="7cc11424-18d1-444c-a02e-bde615ac6049">
+      <Keyword m="2021-09-13T05:55:23.1358076Z">Logo firmy - nastavenie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="4a7c1023-05ef-41f6-8068-f8a3d02c1872">
+      <Keyword m="2021-09-13T05:55:30.0091746Z">Logo prevádzky - nastavenie</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<OBERON>
+  <Header>
+    <DocumentType>1000</DocumentType>
+    <DocumentTypeText>Export skladových položiek pre internetový obchod</DocumentTypeText>
+    <DocumentDateTime>09.12.2014 18:13:21</DocumentDateTime>
+    <CompanyName>Demo Hotel</CompanyName>
+    <User>System</User>
+    <OBERONVersion>November/2014 Beta2</OBERONVersion>
+    <OBERONVersionDB>232</OBERONVersionDB>
+    <Description>
+    </Description>
+  </Header>
+  <Settings>
+    <Type>1</Type>
+    <Type_Text>Export skladových položiek</Type_Text>
+    <Export_StockCards_Settings>1</Export_StockCards_Settings>
+    <Export_StockCards_Settings_Text>Všetky</Export_StockCards_Settings_Text>
+    <Export_StockCards_Images>0</Export_StockCards_Images>
+  </Settings>
+  <Data>
+    <StockCard IDNum="10775">
+      <IDNum_Stock>5</IDNum_Stock>
+      <IDnumSupplier>0</IDnumSupplier>
+      <Number>00010</Number>
+      <Name>Tričko Respect</Name>
+      <Unit>ks</Unit>
+      <Amount>80</Amount>
+      <VAT_Rate>20</VAT_Rate>
+      <BarCodes>
+      </BarCodes>
+      <CashRegister_Code>
+      </CashRegister_Code>
+      <TreeCategories>\Akcia\|\Oblečenie\Dámske tričká\</TreeCategories>
+      <IShop_Name>Tričko dámske - Respect</IShop_Name>
+      <IShop_Description><![CDATA[Dámske tričko s potlačou Respect. Dievča so zbraňou vzbudzujúca rešpekt.]]></IShop_Description>
+      <IShop_ExtendedDescription><![CDATA[<p>Veľmi kvalitné tričko univerzálneho strihu.</p>
+<p>Motív: technológia sieťotlače,&nbsp;motív nežehliť.</p>]]></IShop_ExtendedDescription>
+      <IShop_DeliveryTerm>1 deň</IShop_DeliveryTerm>
+      <IShop_Producer>BetaTextil, s.r.o.</IShop_Producer>
+      <IShop_New>1</IShop_New>
+      <IShop_SaleOut>0</IShop_SaleOut>
+      <IShop_Unavailable>0</IShop_Unavailable>
+      <IShop_WWW>www.betatextil.sk</IShop_WWW>
+      <IShop_Discount>10</IShop_Discount>
+      <IShop_Discount_Availability>15.12.2014</IShop_Discount_Availability>
+      <Catalog>55478555</Catalog>
+      <Guarantee_Period_Unit>3</Guarantee_Period_Unit>
+      <Guarantee_Period_Value>2</Guarantee_Period_Value>
+      <Stock_Location>Sklad B</Stock_Location>
+      <Stock_Group>Tričká</Stock_Group>
+      <Unit_Weight>0</Unit_Weight>
+      <Unit_Weight_Unit>g</Unit_Weight_Unit>
+      <Classification_Production>
+      </Classification_Production>
+      <Price_Discount_Flag>3</Price_Discount_Flag>
+      <PriceActionIn_Text_Additional>
+      </PriceActionIn_Text_Additional>
+      <Price_Supply_Unit>3</Price_Supply_Unit>
+      <Price1_WithoutVAT>12.5</Price1_WithoutVAT>
+      <Price1_WithVAT>15</Price1_WithVAT>
+      <Price2_WithoutVAT>11.667</Price2_WithoutVAT>
+      <Price2_WithVAT>14</Price2_WithVAT>
+      <Price3_WithoutVAT>10.833</Price3_WithoutVAT>
+      <Price3_WithVAT>13</Price3_WithVAT>
+      <Price4_WithoutVAT>10</Price4_WithoutVAT>
+      <Price4_WithVAT>12</Price4_WithVAT>
+      <IShop_Images>tricko-respect-damske.jpg|tricko-respect-damske2.jpg</IShop_Images>
+      <IShop_FileRepository>Cenník pult_2014.pdf</IShop_FileRepository>
+      <Variants>
+        <Item IDNum="1">
+          <IDNumStock>5</IDNumStock>
+          <IDNumStockCard>10775</IDNumStockCard>
+          <Name>Farba: Čierna; Veľkosť: XL</Name>
+          <Notice>
+          </Notice>
+          <CatalogNumber>
+          </CatalogNumber>
+          <Barcode>820044550555</Barcode>
+          <Amount>50</Amount>
+          <AmountMinimal>0</AmountMinimal>
+          <AmountMaximal>0</AmountMaximal>
+          <Attributes>
+            <Item IDNum="1">
+              <Name>Farba</Name>
+              <Notice>
+              </Notice>
+              <ValueType>16</ValueType>
+              <Value>255;0;0;0</Value>
+              <ValueColorName>Čierna</ValueColorName>
+            </Item>
+            <Item IDNum="2">
+              <Name>Veľkosť</Name>
+              <Notice>
+              </Notice>
+              <ValueType>1</ValueType>
+              <Value>XL</Value>
+            </Item>
+          </Attributes>
+        </Item>
+        <Item IDNum="2">
+          <IDNumStock>5</IDNumStock>
+          <IDNumStockCard>10775</IDNumStockCard>
+          <Name>Farba: Ružová; Veľkosť: XL</Name>
+          <Notice>
+          </Notice>
+          <CatalogNumber>
+          </CatalogNumber>
+          <Barcode>820044550554</Barcode>
+          <Amount>30</Amount>
+          <AmountMinimal>0</AmountMinimal>
+          <AmountMaximal>0</AmountMaximal>
+          <Attributes>
+            <Item IDNum="3">
+              <Name>Farba</Name>
+              <Notice>
+              </Notice>
+              <ValueType>16</ValueType>
+              <Value>255;255;128;255</Value>
+              <ValueColorName>Ružová</ValueColorName>
+            </Item>
+            <Item IDNum="2">
+              <Name>Veľkosť</Name>
+              <Notice>
+              </Notice>
+              <ValueType>1</ValueType>
+              <Value>XL</Value>
+            </Item>
+          </Attributes>
+        </Item>
+      </Variants>
+      <Parameters>
+        <Item>
+          <IDNumStock>5</IDNumStock>
+          <IDNumStockCard>10775</IDNumStockCard>
+          <Name>Materiál</Name>
+          <Notice>
+          </Notice>
+          <ParameterUnit>
+          </ParameterUnit>
+          <ValueType>1</ValueType>
+          <Value>100% bavlna, 185g/m2</Value>
+        </Item>
+        <Item>
+          <IDNumStock>5</IDNumStock>
+          <IDNumStockCard>10775</IDNumStockCard>
+          <Name>Maximálna teplota prania</Name>
+          <Notice>
+          </Notice>
+          <ParameterUnit>stupňov</ParameterUnit>
+          <ValueType>5</ValueType>
+          <Value>40</Value>
+        </Item>
+      </Parameters>
+    </StockCard>
+  </Data>
+</OBERON>

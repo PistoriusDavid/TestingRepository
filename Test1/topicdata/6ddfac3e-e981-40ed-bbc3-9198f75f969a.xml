@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="6ddfac3e-e981-40ed-bbc3-9198f75f969a" Status="Complete" CreatedOn="2014-09-08T11:13:50.0404274Z" ModifiedOn="2022-01-11T13:46:17.4710605Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="22304" Name="Menu_Firm_Pref_Unit_Measure" BuildFlags="">
+  <Title m="2014-09-08T11:14:17.1309769Z">Merné jednotky</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2022-01-11T12:55:30.421171Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;je venovaná&amp;nbsp;položke &lt;EM&gt;Merné jednotky&lt;/EM&gt; v ponuke&amp;nbsp;&lt;EM&gt;Firma, Predvoľby&lt;/EM&gt;&amp;nbsp;programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Výberom položky sa otvorí číselník&amp;nbsp;&lt;EM&gt;Merné jednotky,&amp;nbsp;&lt;/EM&gt;v ktorom je možné&amp;nbsp;&lt;STRONG&gt;definovať merné jednotky používané účtovnou jednotkou&lt;/STRONG&gt; pri evidencii&amp;nbsp;&lt;A href="1a33ab0b-2df7-4dc2-962b-8a3319c16831"&gt;skladových kariet&lt;/A&gt;&amp;nbsp;(napr. &lt;STRONG&gt;ks&lt;/STRONG&gt;, &lt;STRONG&gt;kg&lt;/STRONG&gt;, &lt;STRONG&gt;m2&lt;/STRONG&gt;&amp;nbsp;a pod.). 
+&lt;LI&gt;Merná jednotka (MJ) je popri type karty jedným z najdôležitejších parametrov skladovej karty. Správne alebo nesprávne zvolenie MJ môže zásadným spôsobom ovplyvniť prácu so skladovou kartou - príjem, výdaj a výpovednú hodnotu o stave skladových zásob. 
+&lt;LI&gt;Číselník obsahuje preddefinované údaje merných jednotiek množstva, hmotnosti, objemu, dĺžky, plochy a času, ktoré môžu poslúžiť pri definovaní nových merných jednotiek&amp;nbsp;(napr. &lt;STRONG&gt;q&lt;/STRONG&gt; - metrický cent, &lt;STRONG&gt;Kt&lt;/STRONG&gt; - metrický karát,&amp;nbsp;&lt;STRONG&gt;d&lt;/STRONG&gt; -&amp;nbsp;deň atď.). 
+&lt;LI&gt;Niektoré skladové položky sa s ohľadom na mernú jednotku, v ktorej sú evidované, spravidla nepredávajú v hodnotách s desatinným číslom (predávajú sa&amp;nbsp;v celých číslach), napr. kusy (&lt;STRONG&gt;ks&lt;/STRONG&gt;), fľaše (&lt;STRONG&gt;fl&lt;/STRONG&gt;) a pod. Z tohto dôvodu môže účtovná jednotka pri definovaní každej mernej jednotky určiť, či sa skladová položka evidovaná v&amp;nbsp;danej mernej jednotke bude predávať &lt;STRONG&gt;len v celých množstvách&lt;/STRONG&gt;, alebo bude možné predať aj časť mernej jednotky, napr. &lt;STRONG&gt;bm&lt;/STRONG&gt; (bežný meter) sa môže sa predávať len na celé metre (1&amp;nbsp;bm,&amp;nbsp;2&amp;nbsp;bm,&amp;nbsp;3&amp;nbsp;bm...) alebo aj&amp;nbsp;na desatinné miesto&amp;nbsp;(1,5 bm, 1,8 bm...). &amp;nbsp;&amp;nbsp;&amp;nbsp; 
+&lt;LI&gt;Na dokladoch ako výdajka, príjemka, faktúra a pod.&amp;nbsp;sa&amp;nbsp;pri každej položke musí uviesť aj merná jednotka, v ktorej je položka evidovaná. To zahŕňa aj rozlišovanie, či je napr. množstvo&amp;nbsp;uvedené v &lt;STRONG&gt;kg&lt;/STRONG&gt; (kilogramoch), alebo prípadne v&amp;nbsp;&lt;STRONG&gt;g&lt;/STRONG&gt; (gramoch) alebo &lt;STRONG&gt;t&lt;/STRONG&gt; (tonách). 
+&lt;LI&gt;V prípade používania &lt;A href="2edf9500-71d3-4b5c-9d44-990261fb51bc"&gt;registračných pokladníc v režime off-line&lt;/A&gt; je nevyhnutné, aby zoznam merných jednotiek v systéme OBERON bol &lt;STRONG&gt;totožný&lt;/STRONG&gt; so zoznamom merných jednotiek v&amp;nbsp;pokladnici (&lt;I&gt;Názov&lt;/I&gt; aj poradie v&amp;nbsp;zozname). &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 1: Nastavenia mernej jednotky a alternatívnej mernej jednotky&amp;nbsp;pre príjem/výdaj v baleniach&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/Stock/Form_StockCard.png"&gt;&lt;/P&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Informácie o práci s mernými jednotkami na skladovej karte je možné získať v téme&amp;nbsp;&lt;A href="7417bb5c-568f-4291-bbb9-0e5872ad6299"&gt;Práca s mernými jednotkami&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="a3553c65-be3b-416d-82d6-68016570149f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1a33ab0b-2df7-4dc2-962b-8a3319c16831">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="eb00d1c1-b137-4482-9d34-fa82093b2c32" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="c233ada3-0fed-4911-97f3-0680973ebac1">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="7eb710da-eba5-4500-b6be-695bdc21a51d" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="7417bb5c-568f-4291-bbb9-0e5872ad6299">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="9b1de155-3a3f-49f1-a67c-004dc340f45f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1619ae25-859c-4a39-a28b-ccdcc430f6a3">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="4304ca48-fb09-4db8-bc30-40b20b6bbe42" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1ad091e3-2718-4bb2-993a-8b032ca8d10e">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="ad023d20-ba2a-41af-ae70-3bc2edfe504a">
+      <Keyword m="2021-11-22T09:50:44.4551855Z">Merné jednotky - číselník</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="46fcff8b-8e61-47ec-9e17-98baec45e2df">
+      <Keyword m="2021-11-22T09:50:49.3724998Z">MJ - číselník</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

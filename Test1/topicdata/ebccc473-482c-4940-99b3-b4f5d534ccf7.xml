@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="ebccc473-482c-4940-99b3-b4f5d534ccf7" Status="Complete" CreatedOn="2015-11-13T08:21:21.75Z" ModifiedOn="2022-07-19T06:55:57.1558172Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="22024" Name="Form_OBERON_TemplateEditor" BuildFlags="">
+  <Title m="2015-11-24T13:09:05.586914Z">Editor predlohy</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2022-07-19T06:55:57.1558172Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; je venovaná editoru predlohy - nástroju, ktorý slúži &lt;STRONG&gt;na úpravu predlôh, resp. preddefinovaných&amp;nbsp;formátov e-mailových a SMS správ&lt;/STRONG&gt; pri zasielaní&amp;nbsp;&lt;A href="e301d0fb-f429-4bb5-a4df-7257efbe967b"&gt;automatických notifikácií&lt;/A&gt; v systéme OBERON.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Pre každý&amp;nbsp;&lt;A href="e301d0fb-f429-4bb5-a4df-7257efbe967b"&gt;typ automatickej notifikácie&lt;/A&gt; je v OBERON-e preddefinovaná predloha (šablóna, vzor) e-mailovej a SMS správy. 
+&lt;LI&gt;V&amp;nbsp;prípade potreby je možné preddefinovaný formát jednotlivých&amp;nbsp;predlôh notifikácií&amp;nbsp;ďalej upravovať pomocou tzv. editora predlohy, ktorý je dostupný z&amp;nbsp;&lt;A href="eaffff1a-43ad-4c90-a988-ebc3a51c1109"&gt;formulára Nastavenie notifikácie&lt;/A&gt; - v&amp;nbsp;záložke &lt;EM&gt;Predlohy&lt;/EM&gt; stlačte tlačidlo &lt;EM&gt;Upraviť predlohu (e-mail)&lt;/EM&gt;, resp. &lt;EM&gt;Upraviť predlohu (SMS)&lt;/EM&gt;. 
+&lt;LI&gt;Pri editovaní predlôh SMS správ je potrebné mať na zreteli, že jedna SMS správa&amp;nbsp;je ohraničená počtom 160 znakov, prekročenie ktorých nebude v editore viditeľné. Predloha SMS správy&amp;nbsp;sa zadáva do jedného riadku bez formátovania. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Práca s editorom predlohy&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;V&amp;nbsp;programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt; v&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt; zvoľte položku&amp;nbsp;&lt;A href="5a6e5663-262e-4ff0-9741-1569385d11e4"&gt;Nastavenia programu&lt;/A&gt;. 
+&lt;LI&gt;V&amp;nbsp;&lt;A href="5a6e5663-262e-4ff0-9741-1569385d11e4"&gt;oddiele Firma, Všeobecné&lt;/A&gt;, záložka &lt;EM&gt;Ostatné&lt;/EM&gt; stlačte tlačidlo &lt;EM&gt;Nastaviť&lt;/EM&gt;. Otvorí sa formulár &lt;EM&gt;Nastavenia notifikácií&lt;/EM&gt;, v ktorom stlačte tlačidlo &lt;EM&gt;Nový&lt;/EM&gt; alebo &lt;EM&gt;Oprava.&lt;/EM&gt; 
+&lt;LI&gt;Otvorí sa&amp;nbsp;&lt;A href="eaffff1a-43ad-4c90-a988-ebc3a51c1109"&gt;formulár Nastavenie notifikácie&lt;/A&gt;. V&amp;nbsp;záložke &lt;EM&gt;Základné&lt;/EM&gt; vyberte&amp;nbsp;príslušný typ notifikácie. V&amp;nbsp;záložke&amp;nbsp;&lt;EM&gt;Predlohy&lt;/EM&gt; vyberte predlohu (pre e-mail alebo SMS) a&amp;nbsp;stlačte tlačidlo&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_Button_Change.png"&gt;. Otvorí sa formulár &lt;EM&gt;&lt;STRONG&gt;Editor predlohy&lt;/STRONG&gt;&lt;/EM&gt;. 
+&lt;LI&gt;V&amp;nbsp;&lt;EM&gt;Editore&lt;/EM&gt; &lt;EM&gt;predlohy&lt;/EM&gt;&amp;nbsp;podľa potreby upravte text, pridajte premenné atď. 
+&lt;LI&gt;Stlačením tlačidla &lt;EM&gt;OK&lt;/EM&gt; sa vykonané zmeny uložia. &lt;/LI&gt;&lt;/OL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="f8d2154b-48ba-4cec-a026-8bd498c98f17" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="e301d0fb-f429-4bb5-a4df-7257efbe967b">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="dd0690a5-c6aa-4139-a0d1-d601d1cd9f8d" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="47863971-c920-44ee-b49b-99a58f439915">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="bf487ec6-5518-408d-b084-f66d00ed8866" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="eaffff1a-43ad-4c90-a988-ebc3a51c1109">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="05e6a35f-aee2-4ada-927a-25af40ee181a">
+      <Keyword m="2021-06-28T11:16:03.1834969Z">Predlohy e-mailových a SMS notifikácií</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="67e62cae-abcb-4a16-a004-63d3281da215">
+      <Keyword m="2015-11-24T13:10:35.4472656Z">Notifikácie - predlohy</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="11c94dab-9eb2-4c87-9a47-68528c308ff2">
+      <Keyword m="2021-06-28T11:16:09.5187261Z">Šablóny e-mailových a SMS notifikácií</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="b2f186f6-b800-40eb-b983-8eb683b1bb5d">
+      <Keyword m="2020-11-02T09:10:08.4889526Z">Automatické notifikácie - predlohy</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="efba1338-39c8-4f87-9610-1c4de99e4d55">
+      <Keyword m="2020-11-02T09:11:04.3887252Z">Úprava predlôh notifikácií</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="5fa12d6e-1564-402d-b9b3-4cd87f9d63ba">
+      <Keyword m="2021-06-28T11:16:19.6650486Z">E-mailové notifikácie - predlohy</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="2f124a18-35df-4363-bc04-b439fa7e841a">
+      <Keyword m="2021-06-28T11:16:25.682252Z">SMS notifikácie - predlohy</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

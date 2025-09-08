@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="b2cb9b90-3ca5-4bae-ae2f-9a671dac2e37" Status="Complete" CreatedOn="2015-09-16T11:06:14.6191406Z" ModifiedOn="2023-05-15T11:55:45.9626183Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="CRM_Started_Creating_TaskEvent" BuildFlags="">
+  <Title m="2015-09-16T11:07:07.8740234Z">Vytvorenie úlohy a udalosti</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-05-15T11:49:39.0553744Z">&lt;P&gt;V tejto téme &lt;EM&gt;Pomocníka&lt;/EM&gt; je uvedený &lt;STRONG&gt;postup vytvorenia úlohy, resp. udalosti&lt;/STRONG&gt; v&amp;nbsp;module&amp;nbsp;&lt;A href="f1a6963d-36aa-4134-92a5-fa47a4345e74"&gt;CRM a registratúra&lt;/A&gt;. Udalosti je možné vytvoriť viacerými spôsobmi, a to z&amp;nbsp;&lt;A href="3590e987-a2d8-48a5-a8dc-ce67c7d0e271"&gt;Kalendára udalostí&lt;/A&gt; alebo priamo&amp;nbsp;z&amp;nbsp;knihy&amp;nbsp;&lt;A href="a2807e3b-d8b1-4d61-a3b9-63df2783bfda"&gt;Úlohy a udalosti&lt;/A&gt;. V nasledujúcej časti&amp;nbsp;je popísaný postup vytvorenia úlohy/udalosti z knihy&amp;nbsp;&lt;A href="a2807e3b-d8b1-4d61-a3b9-63df2783bfda"&gt;Úlohy a udalosti&lt;/A&gt;.&lt;/P&gt;
+&lt;H2&gt;Postup vytvorenia úlohy/udalosti&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;V&amp;nbsp;programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt; zvoľte ponuku &lt;EM&gt;CRM&lt;/EM&gt;, &lt;A href="a2807e3b-d8b1-4d61-a3b9-63df2783bfda"&gt;Úlohy a udalosti&lt;/A&gt;. 
+&lt;LI&gt;Stlačte tlačidlo &lt;EM&gt;Nový&lt;/EM&gt; a vyberte z nasledujúcich možností: &lt;EM&gt;Úloha, Udalosť, Podúloha, Podudalosť&lt;/EM&gt;. 
+&lt;LI&gt;Otvorí sa&amp;nbsp;&lt;A href="e7eeba16-c957-49ba-b08a-b96e68f305b3"&gt;formulár Úloha&lt;/A&gt;, resp.&amp;nbsp;&lt;A href="ba23b970-8903-43ce-b7a0-7e60bb021cd1"&gt;formulár Udalosť&lt;/A&gt;, v ktorom zadajte&amp;nbsp;pomenovanie, vyberte typ, stav, pre koho je bude určená, prioritu&amp;nbsp;a ostatné náležitosti. 
+&lt;LI&gt;Po stlačení tlačidla &lt;EM&gt;OK&lt;/EM&gt;&amp;nbsp;sa úloha, resp.&amp;nbsp;udalosť uloží. &lt;/LI&gt;&lt;/OL&gt;&lt;innovasys:widget layout="block" type="Tip Box"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Zmeniť stav úlohy alebo udalosti je možné dvojklikom na ikonu stavu alebo stlačením tlačidla &lt;EM&gt;Možnosti&lt;/EM&gt; a&amp;nbsp;výberom položky &lt;EM&gt;Zmeniť stav&lt;/EM&gt;.&lt;/innovasys:widgetproperty&gt; &lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="f3eb136b-6a8b-42ba-8f44-10fd78e59838" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="a2807e3b-d8b1-4d61-a3b9-63df2783bfda">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="a5470777-0fb6-4822-ba86-4b53cc008d40" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="3590e987-a2d8-48a5-a8dc-ce67c7d0e271">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="1bde47bd-90e6-4fbe-a303-1f5b588ce510">
+      <Keyword m="2023-05-15T11:50:00.6974211Z">Udalosť - CRM - vytvorenie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="f6071ff2-3d63-42cd-9af6-0ff1a3e15ab9">
+      <Keyword m="2023-05-15T11:50:13.5233408Z">Úloha - CRM - vytvorenie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="33db31ab-cc12-4ca5-9bbd-4c17d2b3b0c0">
+      <Keyword m="2023-05-15T11:55:11.9551581Z">Úlohy a udalosti - CRM - vytvorenie</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

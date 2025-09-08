@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="c111b0dd-b673-4f62-a306-dfbabdd8d697" Status="Complete" CreatedOn="2021-09-14T11:44:22.7929792Z" ModifiedOn="2025-03-17T07:09:04.1714284Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Device_FiscalDevice_FiskalPRON_Android" BuildFlags="">
+  <Title m="2025-03-13T13:32:40.9666593Z">Fiškálna tlačiareň FiskalPRO Android eKasa</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2025-03-17T07:09:04.1714284Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;základné&lt;/STRONG&gt; &lt;STRONG&gt;informácie&lt;/STRONG&gt; o podporovanej fiškálnej tlačiarni&amp;nbsp;&lt;EM&gt;FiskalPRO Android eKasa&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;EM&gt;&lt;EM&gt;FiskalPRO Android eKasa&lt;/EM&gt;&lt;/EM&gt; predstavuje&amp;nbsp;&lt;STRONG&gt;androidovú&lt;/STRONG&gt; dotykovú prenosnú certifikovanú&amp;nbsp;&lt;A href="b24ad235-cf7f-43e2-b3e8-ec0f7d92f6b6"&gt;fiškálnu tlačiareň&lt;/A&gt;&amp;nbsp;s termotlačiarňou, ktorá v spojení s modulom &lt;A href="aec074f4-3e1c-4a1e-8a80-06fcecf51156"&gt;Pokladnica OBERON&lt;/A&gt; vytvorí z&amp;nbsp;počítača plnohodnotnú on-line registračnú pokladnicu (počítač sa pritom nezmení na jednoúčelové zariadenie určené len na predaj, ale možno ho naďalej využívať aj na iné činnosti, a to aj paralelne popri predaji na pokladnici).&amp;nbsp;Zároveň je to aj &lt;STRONG&gt;plnohodnotný&amp;nbsp;platobný POS terminál&lt;/STRONG&gt; s&amp;nbsp;jednoduchým intuitívnym ovládaním a množstvom ďalších&amp;nbsp;užitočných funkcií - viac informácií v&amp;nbsp;téme&amp;nbsp;&lt;A href="5ad1a704-08fd-4f9c-8302-8f8759cef50a" style="auto-update-caption: true"&gt;Platobné POS terminály&lt;/A&gt;. 
+&lt;LI&gt;Okrem funkcie eKasy a platobného POS terminálu je&amp;nbsp;zariadenie možné používať aj s&amp;nbsp;&lt;STRONG&gt;aplikáciou&amp;nbsp;&lt;/STRONG&gt;&lt;A href="942d48d5-b290-40f6-8ba3-45cf78f380f9"&gt;LUKUL - nielen mobilný čašník&lt;/A&gt;. 
+&lt;LI&gt;Zariadenie&amp;nbsp;&lt;EM&gt;FiskalPRO Android eKasa&lt;/EM&gt;&amp;nbsp;je určené pre obchodníkov, ktorí musia zo zákona evidovať platby pomocou registračnej pokladnice a chcú prijímať &lt;A href="1a618813-f50b-46a3-8a94-598d5394f491"&gt;bezhotovostné platby&lt;/A&gt; kartou aj&amp;nbsp;pomocou platobných terminálov.&amp;nbsp;Zariadenie&amp;nbsp;číta&amp;nbsp;karty s&amp;nbsp;magnetickým prúžkom, čipové karty a bezkontaktné NFC karty. 
+&lt;LI&gt;Systém OBERON podporuje celý rad modelov tohto fiškálneho zariadenia,&amp;nbsp;napr. &lt;SPAN class=lab&gt;&lt;EM&gt;FiskalPRO N86&lt;/EM&gt;.&lt;/SPAN&gt; 
+&lt;LI&gt;Výrobca pokladničného programu (PPEKK):&amp;nbsp;&lt;A href="http://www.a3soft.sk/" target=_blank&gt;A3 Soft s.r.o.&lt;/A&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp; 
+&lt;LI&gt;Výrobca chráneného dátového úložiska (CHDÚ):&amp;nbsp;&lt;A href="http://www.a3soft.sk/" target=_blank&gt;A3 Soft s.r.o.&lt;/A&gt; 
+&lt;LI&gt;Spôsob pripojenia (rozhranie): LAN, WiFi. 
+&lt;LI&gt;Spôsob komunikácie: TCP/IP. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt; 
+&lt;P&gt;Zariadenie sa inštaluje&amp;nbsp;v&amp;nbsp;programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;, ponuka &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="749ff4f1-eeb5-43f5-98d2-021399d8cec7" style="auto-update-caption: true"&gt;Zariadenia&lt;/A&gt;, tlačidlo &lt;EM&gt;Pridať&lt;/EM&gt;.&amp;nbsp;Viac informácií k inštalácii zariadenia získate v téme&amp;nbsp;&lt;A href="a548f9e3-7237-4540-b505-ac9d5e53980d" style="auto-update-caption: true"&gt;Fiškálna tlačiareň FiskalPRO Android eKasa - inštalácia&lt;/A&gt;. &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H5&gt;Obrázok č. 1: Fiškálna tlačiareň &lt;EM&gt;FiskalPRO&lt;/EM&gt; &lt;EM&gt;N86&lt;/EM&gt;&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Devices/Device_FiskalPRON86.png"&gt;&amp;nbsp;&lt;/P&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Zariadenie je možné použiť ako platobný terminál aj&amp;nbsp;s aplikáciou&amp;nbsp;&lt;A href="942d48d5-b290-40f6-8ba3-45cf78f380f9"&gt;LUKUL - nielen mobilný čašník&lt;/A&gt;. Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="4b9fd97b-be62-43f9-9fc3-ed99dcd81cc6" style="auto-update-caption: true"&gt;Aplikácia LUKUL a platba kartou&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Technické parametre FiskalPRO N86&lt;/H2&gt;
+&lt;P&gt;&lt;STRONG&gt;Operačný systém:&lt;/STRONG&gt; Android 9.0&lt;BR&gt;&lt;STRONG&gt;Batéria:&lt;/STRONG&gt; nabíjateľná&amp;nbsp;Li-ion batéria&lt;BR&gt;&lt;STRONG&gt;Displej:&lt;/STRONG&gt; 5.0“ HD (1280 x 720) farebný multikapacitný dotykový displej&lt;BR&gt;&lt;STRONG&gt;Snímač čiarových kódov:&lt;/STRONG&gt; 1D, 2D kódy&lt;BR&gt;&lt;STRONG&gt;Tlačiareň:&lt;/STRONG&gt; vysokorýchlostná termotlač, šírka rolky 58 mm&lt;BR&gt;&lt;STRONG&gt;Procesor:&lt;/STRONG&gt; Quad-core Procesor 1.4GHz&lt;BR&gt;&lt;STRONG&gt;Rozmery:&lt;/STRONG&gt; 194 x 80 x 68,8 mm (d x&amp;nbsp;v x š)&lt;BR&gt;&lt;STRONG&gt;Hmotnosť:&lt;/STRONG&gt; 420&amp;nbsp;g (vrátane batérie)&lt;/P&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Porovnanie jednotlivých podporovaných fiškálnych zariadení je dostupné v téme&amp;nbsp;&lt;A href="d9b919e7-20c4-4c50-9910-4f13211ed9a8"&gt;Podporované registračné pokladnice&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="a0abdc82-ece2-47da-ac83-17f76bc49ace" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="b24ad235-cf7f-43e2-b3e8-ec0f7d92f6b6">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="58212a2e-47a0-40ee-902d-04e407bb7e56" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="a548f9e3-7237-4540-b505-ac9d5e53980d">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="dea9aefd-12a6-4d51-92d9-d8f9209d41cb" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="29c1b7d9-36d4-4d86-89bd-54cd2cb22050">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="ccbfc151-3c0f-41f0-b8e9-73f199374597">
+      <Keyword m="2025-03-13T13:31:51.5826091Z">FiskalPRO Android eKasa - fiškálna tlačiareň</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="6cda5447-a217-4638-8ce1-1d0a2c2f2b47">
+      <Keyword m="2025-03-13T13:32:01.1903235Z">FiskalPRO Android eKasa - platobný terminál</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="257a3139-63f5-4f04-9226-f8d35856196c">
+      <Keyword m="2025-03-13T13:31:43.310227Z">FiskalPRO Android eKasa</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="9fb22d12-2376-410b-8678-7eec40c3fb4d">
+      <Keyword m="2025-03-13T13:31:55.7978532Z">FiskalPRO Android eKasa - PPEKK</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="e8d26760-bf98-434b-9120-556fd24b2577">
+      <Keyword m="2025-03-13T13:31:46.9580544Z">FiskalPRO Android eKasa - CHDÚ</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="e5305c7f-ebff-4cd6-967e-d935842ee392">
+      <Keyword m="2025-03-13T13:31:39.1756911Z">Android eKasa - FiskalPRO</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="06916591-de5b-4c03-a83e-520f39876222">
+      <Keyword m="2025-03-13T12:45:57.8793393Z">Androidové zariadenia FiskalPRO</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

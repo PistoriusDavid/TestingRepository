@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="1f5bf2be-396d-42e6-ade9-cc5a292efc15" Status="Complete" CreatedOn="2021-09-02T07:49:55.238809Z" ModifiedOn="2024-11-11T12:17:15.5390864Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="false" HelpContextIds="" Name="Invoices_First_Steps" BuildFlags="">
+  <Title m="2014-09-09T10:32:23.3078704Z">Prvé kroky</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-11-11T12:17:15.5390864Z">&lt;P&gt;Skôr, ako začnete s&amp;nbsp;&lt;EM&gt;Fakturáciou&lt;/EM&gt; pracovať, je potrebné, aby ste v&amp;nbsp;programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt; založili novú firmu. Viac informácií nájdete v&amp;nbsp;téme&amp;nbsp;&lt;A href="9a485893-6dd2-44e8-9740-a4cd7083a932"&gt;Vytvorenie účtovnej jednotky (databázy)&lt;/A&gt;. Zároveň je potrebné povoliť v&amp;nbsp;ponuke&amp;nbsp;&lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="5a6e5663-262e-4ff0-9741-1569385d11e4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="5a6e5663-262e-4ff0-9741-1569385d11e4"&gt;oddiel Firma, Moduly&lt;/A&gt;&amp;nbsp;účtovnej jednotke a&amp;nbsp;v&amp;nbsp;&lt;A href="6ffb02fa-4c5c-4d33-8a0c-6dba98b26a77"&gt;oddiele Používateľ, Moduly&lt;/A&gt; danému používateľovi buď prácu s&amp;nbsp;modulom&amp;nbsp;&lt;A href="49dd3167-870a-4fdf-b631-d4f692f1ed72"&gt;Podvojné účtovníctvo&lt;/A&gt;, resp. &lt;A href="32be28cf-2368-4818-9d24-cfa9d59afb75"&gt;Jednoduché účtovníctvo&lt;/A&gt;, alebo s&amp;nbsp;modulom&amp;nbsp;&lt;A href="78d20602-4b59-4b31-9f0a-a04a1d376ec5"&gt;Skladová evidencia&lt;/A&gt;.&lt;/P&gt;
+&lt;H2&gt;1. Údaje o firme&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;V ponuke &lt;EM&gt;Firma,&lt;/EM&gt; &lt;A href="a833ee8a-1289-42b9-923f-80f549497702"&gt;Údaje o firme&lt;/A&gt; je potrebné zadať základné informácie o účtovnej jednotke vrátane prevádzok v&amp;nbsp;prípade členenia firmy na&amp;nbsp;&lt;A href="8df798f2-4fbf-4279-ad8c-493bdbe7f2e4"&gt;prevádzky&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;2.&amp;nbsp;Nastavenia programu&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;V&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="5a6e5663-262e-4ff0-9741-1569385d11e4"&gt;oddiel Firma, Všeobecné&lt;/A&gt;,&amp;nbsp;záložka &lt;EM&gt;Základné&lt;/EM&gt;&amp;nbsp;sa nastavuje: 
+&lt;UL&gt;
+&lt;LI&gt;hlavná mena systému, 
+&lt;LI&gt;umožnenie práce s&amp;nbsp;&lt;A href="09e378df-5c76-42f3-a245-b33dd0580648"&gt;cudzími menami&lt;/A&gt;, 
+&lt;LI&gt;&lt;A href="5a6e5663-262e-4ff0-9741-1569385d11e4"&gt;DPH&lt;/A&gt; (typ platiteľa DPH a jednotlivé sadzby), 
+&lt;LI&gt;uplatňovanie dane na základe prijatia platby §&amp;nbsp;68d a&amp;nbsp;&lt;A href="fbb3fe9e-2f4a-401b-bb15-384245126a0a"&gt;režim One Stop Shop&lt;/A&gt;, 
+&lt;LI&gt;počet dní pre zaradenie záväzku do predchádzajúceho zdaňovacieho obdobia evidencie DPH, keď dátum dodania je predchádzajúci mesiac a evidencia dokladu až nasledujúci.&lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;V&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="5a6e5663-262e-4ff0-9741-1569385d11e4"&gt;oddiel Firma, Všeobecné&lt;/A&gt;,&amp;nbsp;záložka &lt;EM&gt;Ostatné&lt;/EM&gt;&amp;nbsp;je možné nastaviť zobrazovanie tzv. rýchleho vyhľadávania v dokladových formulároch ako faktúra, objednávka a pod. V&amp;nbsp;záložke &lt;EM&gt;Systém&lt;/EM&gt; sa nastavuje spôsob výpočtu rekapitulácie dokladu (výpočet DPH na dokladoch) a počet desatinných miest jednotkových cien na dokladoch. 
+&lt;LI&gt;V&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="932262cc-b80f-4ce6-aba6-6a7d4a18f5ec"&gt;oddiel Firma, Účtovníctvo&lt;/A&gt;, záložka&amp;nbsp;&lt;EM&gt;Fakturácia&lt;/EM&gt;&amp;nbsp;sa nastavuje: 
+&lt;UL&gt;
+&lt;LI&gt;spôsob číslovania dokladov v&amp;nbsp;&lt;A href="5c21adcc-87c8-44e7-981d-02902635693d"&gt;knihe pohľadávok&lt;/A&gt; alebo&amp;nbsp;&lt;A href="55028746-c263-4d92-a615-502222e8d53b"&gt;záväzkov&lt;/A&gt;, 
+&lt;LI&gt;dátum skladového pohybu pri vytvorení skladovej faktúry, 
+&lt;LI&gt;splatnosť faktúr v dňoch, 
+&lt;LI&gt;spôsob používania variabilného symbolu, 
+&lt;LI&gt;či sa má vyžadovať zadať predkontáciu na doklade v knihe pohľadávok/záväzkov, resp. na položkách dokladu v&amp;nbsp;týchto knihách. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;V záložke &lt;EM&gt;Ostatné&lt;/EM&gt; je možné nastaviť: 
+&lt;UL&gt;
+&lt;LI&gt;predvolenú výšku&amp;nbsp;&lt;A href="96fd7619-32d2-462b-bad8-6f986dc4c6b2"&gt;kredit limitu&lt;/A&gt;, 
+&lt;LI&gt;posunutie kontroly lehoty splatnosti faktúr v dňoch. &lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;4. Členenie dokladov&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Účtovná jednotka môže kvôli zvýšeniu prehľadnosti&amp;nbsp;použiť&amp;nbsp;&lt;A href="f68687b5-0939-447b-9f8e-37c883676f1e"&gt;členenie dokladov&lt;/A&gt; - možnosť priradiť každému dokladu v&amp;nbsp;účtovníctve súvis s&amp;nbsp;vybranou činnosťou,&amp;nbsp;zákazkou a pod. Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="f68687b5-0939-447b-9f8e-37c883676f1e"&gt;Členenie&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;5. Predvolené nastavenia&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;V&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="22339df8-4cc9-4569-8a96-654b454293af"&gt;oddiel Používateľ, Všeobecné&lt;/A&gt;, záložka&amp;nbsp;&lt;EM&gt;Základné&lt;/EM&gt;&amp;nbsp;možno nastaviť&amp;nbsp;predvolené&amp;nbsp;hodnoty, ktoré sa budú používať pri tvorbe nových dokladov&amp;nbsp;v&amp;nbsp;knihe pohľadávok a knihe výdajok. Vždy pri vytvorení nového dokladu v&amp;nbsp;jednej z&amp;nbsp;týchto evidencií sa do príslušných polí prednastavia tu zadané hodnoty, ktoré je, samozrejme, možné&amp;nbsp;v&amp;nbsp;doklade v&amp;nbsp;prípade potreby kedykoľvek zmeniť. 
+&lt;LI&gt;Okrem toho je v&amp;nbsp;rovnakej ponuke možné prednastaviť hodnotu členenia. Ak bude nastavené predvolené členenie napr. &lt;EM&gt;Stavebný materiál&lt;/EM&gt;, potom na každom doklade, ktorý vytvorí tento používateľ, bude nastavené toto členenie. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;6. Číselné rady a číslovanie dokladov&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;V ponuke &lt;EM&gt;Fakturácia,&amp;nbsp;&lt;/EM&gt;&lt;A href="614e08c0-a29e-4810-a741-174e81a8e259"&gt;Typy dokladov&lt;/A&gt; možno nastaviť viac samostatných číselných radov pre rôzne typy dokladov v&amp;nbsp;knihe pohľadávok a&amp;nbsp;v&amp;nbsp;knihe záväzkov. Samostatné číselné rady možno používať napr. na oddelenie zálohových faktúr, zahraničných faktúr a pod. V&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="58eee6a7-b5aa-47a5-9d0e-6f9987c96a52"&gt;oddiel Firma, Sklad&lt;/A&gt;, záložka&amp;nbsp;&lt;EM&gt;Číslovania dokladov&lt;/EM&gt; sa nastavuje číslovanie prijatých a&amp;nbsp;vydaných objednávok. Viac informácií získate v témach&amp;nbsp;&lt;A href="c36e079b-cc33-4141-83a7-ee2b1c7b53a0"&gt;Typy dokladov v&amp;nbsp;knihe pohľadávok a záväzkov&lt;/A&gt; a&amp;nbsp;&lt;A href="9aa7dbb1-f4a7-405e-8465-78b2133e0fd3"&gt;Číslovanie&amp;nbsp;dokladov (záznamov)&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;7. Zaokrúhľovanie celkovej sumy na faktúrach&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;V&amp;nbsp;ponuke &lt;EM&gt;Fakturácia,&lt;/EM&gt; &lt;A href="614e08c0-a29e-4810-a741-174e81a8e259"&gt;Typy dokladov&lt;/A&gt;&amp;nbsp;nastavte spôsob zaokrúhľovania faktúr (pohľadávok a záväzkov). Pre príslušný typ dokladu vyberte spôsob zaokrúhľovania v rozbaľovacom zozname &lt;I&gt;Zaokrúhlenie&lt;/I&gt;.&amp;nbsp;Vybraným spôsobom sa bude zaokrúhľovať celková suma&amp;nbsp;faktúry. Viac informácií získate v téme&amp;nbsp;&lt;A href="c36e079b-cc33-4141-83a7-ee2b1c7b53a0"&gt;Typy dokladov v&amp;nbsp;knihe pohľadávok a záväzkov&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;8. Nastavenia tlače&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;V&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="8406940f-006c-44df-b7ff-2f80e4556003"&gt;oddiel Používateľ, Tlač&lt;/A&gt;, záložka &lt;EM&gt;Faktúry, Výdajky&lt;/EM&gt;&amp;nbsp;je možné nastaviť tlač vybraných údajov pri tlači dokladov typu faktúra, dodací list, výdajka (napr. celkovú poskytnutú zľavu, celkovú hmotnosť položiek, čiarový kód pri názve položky, číslo skladovej karty atď.). &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;9. Upozornenia pri vytváraní nových dokladov&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;V&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="4ebe2877-9617-4943-8341-0dc7cadbf16e"&gt;oddiel Používateľ, Sklad&lt;/A&gt;&amp;nbsp;možno nastaviť zobrazovanie upozornenia na neuhradené pohľadávky daného odberateľa pri tvorbe dokladu typu faktúra, výdajka a pod. &lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="07589b5e-793f-4ec7-9e47-3fab434af676" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="9a485893-6dd2-44e8-9740-a4cd7083a932">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="4e02389a-6941-43aa-b33a-5ddd1b618877" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="49dd3167-870a-4fdf-b631-d4f692f1ed72">
+      <Title m="2021-09-02T10:02:38.8779173Z">Podvojné účtovníctvo - všeobecne o koncepcii</Title>
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="ac771dfa-8002-4c09-9075-4f21a79d57cb" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="32be28cf-2368-4818-9d24-cfa9d59afb75">
+      <Title m="2021-09-02T10:03:08.9098125Z">Jednoduché účtovníctvo - všeobecne o koncepcii</Title>
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="db193175-9499-49b7-a038-914092575457" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="78d20602-4b59-4b31-9f0a-a04a1d376ec5">
+      <Title m="2021-09-02T10:03:47.9394076Z">Skladová evidencia - všeobecne o koncepcii</Title>
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="6c28583c-118c-43a9-87a0-90d726b59b8f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="5a6e5663-262e-4ff0-9741-1569385d11e4">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="595cf232-4506-444b-be0a-3fd1a35a793c" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="22339df8-4cc9-4569-8a96-654b454293af">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="3aa6e593-b02a-4a36-ba9d-63cef41a332f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="932262cc-b80f-4ce6-aba6-6a7d4a18f5ec">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="20fa3903-6445-4443-bfdd-f1261d477958">
+      <Keyword m="2021-09-02T09:18:46.0966139Z">Fakturácia - prvé kroky</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="1deb1f7f-d2e6-4327-a9a4-6ccfb28297fe">
+      <Keyword m="2021-09-02T09:18:51.7456683Z">Prvé kroky - fakturácia</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

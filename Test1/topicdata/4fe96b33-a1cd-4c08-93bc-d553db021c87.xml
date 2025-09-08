@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="4fe96b33-a1cd-4c08-93bc-d553db021c87" Status="Complete" CreatedOn="2021-06-07T10:17:34.3175119Z" ModifiedOn="2025-03-20T10:08:52.4225253Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Menu_Firm_Pref_Unit_eMenuSettings" BuildFlags="">
+  <Title m="2021-06-07T10:19:12.1437449Z">Nastavenia eMenu</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2025-03-20T10:08:52.4225253Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;je venovaná&amp;nbsp;položke&amp;nbsp;&lt;EM&gt;Nastavenia eMenu&lt;/EM&gt;&amp;nbsp;v ponuke&amp;nbsp;&lt;EM&gt;Firma, Predvoľby&lt;/EM&gt;&amp;nbsp;programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Výberom položky &lt;EM&gt;Nastavenia eMenu&lt;/EM&gt; sa otvorí&amp;nbsp;&lt;A href="bcb35762-ef45-4dfd-b53a-93e752742cdd"&gt;formulár eMenu - nastavenia&lt;/A&gt;, ktorý umožňuje &lt;STRONG&gt;vykonať&amp;nbsp;vybrané nastavenia pre režim donášky a eMenu, ako aj pre aplikáciu&amp;nbsp;&lt;/STRONG&gt;&lt;A href="942d48d5-b290-40f6-8ba3-45cf78f380f9"&gt;LUKUL - nielen mobilný čašník&lt;/A&gt; &lt;STRONG&gt;v režime hosť.&lt;/STRONG&gt; 
+&lt;LI&gt;Uvedené nastavenia sa vždy vzťahujú na konkrétne &lt;A href="04b8d290-1470-41ff-85a1-c44a20958841"&gt;fiškálne zariadenie&lt;/A&gt;. V prípade, že účtovná jednotka používa viacero fiškálnych zariadení,&amp;nbsp;po výbere položky program&amp;nbsp;používateľa vyzve, aby vybral fiškálne zariadenie, pre ktoré sa majú vykonané nastavenia uložiť. 
+&lt;LI&gt;V záložke &lt;EM&gt;eMenu&lt;/EM&gt; sa vykonávajú nastavenia pre režimy&amp;nbsp;&lt;EM&gt;LUKUL eMenu - bez možnosti objednávania&lt;/EM&gt; a &lt;EM&gt;LUKUL eMenu - hosť v reštaurácii&lt;/EM&gt;. Je tu možné vybrať&amp;nbsp;&lt;A href="7dd24e6f-6f96-4a51-9881-991d948d6392"&gt;jedálny lístok&lt;/A&gt; a predvolené obslužné a zadať kód položky pre obslužné (odporúča sa evidovať ako skladová karta&amp;nbsp;&lt;A href="8deac9fe-9864-41e8-aaa3-02257c241d78"&gt;typu služba&lt;/A&gt;). 
+&lt;LI&gt;V záložke &lt;EM&gt;Donáška&lt;/EM&gt; sa definujú nastavenia osobitne pre režim donášky a eMenu&amp;nbsp;na pokladnici aj v aplikácii &lt;EM&gt;LUKUL&lt;/EM&gt; (režim &lt;EM&gt;LUKUL eMenu - donáška&lt;/EM&gt;). Tu je možné: 
+&lt;UL&gt;
+&lt;LI&gt;povoliť prácu s donáškou, v dôsledku čoho sa evidencia&amp;nbsp;&lt;A href="e0ccff3e-b9e7-4572-bc3c-7f41a32280dd"&gt;otvorených účtov&lt;/A&gt; rozšíri o otvorené účty pre režim donášky (pod záložkou&amp;nbsp;&lt;EM&gt;Donáška&lt;/EM&gt;); zároveň sa na&amp;nbsp;&lt;A href="aec074f4-3e1c-4a1e-8a80-06fcecf51156"&gt;Pokladnici OBERON&lt;/A&gt; zobrazí tlačidlo&amp;nbsp;&lt;EM&gt;Donáška (Ctrl+F9)&lt;/EM&gt;, ktorého stlačením sa&amp;nbsp;otvorí evidencia aktuálne otvorených účtov&amp;nbsp;pre režim donášky, 
+&lt;LI&gt;vybrať&amp;nbsp;&lt;A href="7dd24e6f-6f96-4a51-9881-991d948d6392"&gt;jedálny lístok&lt;/A&gt; pre režim donášky (lístok určuje, ktoré položky sa budú zobrazovať v&amp;nbsp;&lt;A href="23e4ac4d-169f-4c85-8e00-60f1e71ff358" style="auto-update-caption: true"&gt;pikMenu&lt;/A&gt;, v&amp;nbsp;ponuke &lt;EM&gt;eMenu&lt;/EM&gt; aplikácie &lt;EM&gt;LUKUL&lt;/EM&gt; v režime donášky atď.), 
+&lt;LI&gt;nastaviť otváracie hodiny, v ktorých daná prevádzka vykonáva donášku jedál, 
+&lt;LI&gt;v ročnom kalendári nastaviť dni, v ktoré majú platiť otváracie hodiny, 
+&lt;LI&gt;nastaviť čas, od ktorého je možné prijímať objednávky jedál na donášku, 
+&lt;LI&gt;nastaviť základný čas donášky (približný čas v minútach od objednania po&amp;nbsp;doručenie&amp;nbsp;jednej priemernej objednávky&amp;nbsp;na donášku do priemernej vzdialenosti od reštauračného zariadenia bez ohľadu na ďalšie objednávky), 
+&lt;LI&gt;definovať priemerný čas prípravy jednej porcie&amp;nbsp;ďalšieho jedla v sekundách (napr. v prípade, že&amp;nbsp;v&amp;nbsp;čase prijatia objednávky na donášku je objednaných 10 jedál, k minimálnemu času potrebnému na&amp;nbsp;doručenie jedla na donášku sa pripočíta desaťnásobok zadanej hodnoty), 
+&lt;LI&gt;zadať kód položky pre dopravu (odporúča sa evidovať ako skladová karta &lt;A href="8deac9fe-9864-41e8-aaa3-02257c241d78"&gt;typu služba&lt;/A&gt;), 
+&lt;LI&gt;nadefinovať cenník dopravy a lokality, do ktorých prevádzka bude doručovať objednávky na donášku, 
+&lt;LI&gt;nastaviť spôsob overovania mobilných zariadení, z ktorých sú odosielané objednávky jedál na donášku - po overení sa zariadenia automaticky pridajú medzi dôveryhodné zariadenia. &lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Nastavenia eMenu je možné vykonať pomocou&amp;nbsp;&lt;A href="bcb35762-ef45-4dfd-b53a-93e752742cdd"&gt;formulára eMenu - nastavenia&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;STRONG&gt;Prijímať objednávky jedál, prípadne nápojov na donášku&lt;/STRONG&gt; je na&amp;nbsp;&lt;A href="aec074f4-3e1c-4a1e-8a80-06fcecf51156"&gt;Pokladnici OBERON&lt;/A&gt; možné aj bez aplikácie&amp;nbsp;&lt;A href="942d48d5-b290-40f6-8ba3-45cf78f380f9"&gt;LUKUL - nielen mobilný čašník&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="00229d33-3469-4ddb-9865-091e9a7d6abb" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="942d48d5-b290-40f6-8ba3-45cf78f380f9">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="751f272f-5e60-42e1-b153-f5fb018dd705" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="20b1783a-a8ca-42a9-b2f3-80c658d62248">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="6792753b-3e35-46ee-bea0-251fc1123b12" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="c1f1084d-0742-45cd-966a-7cf001b770c7">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="007c4ba5-d71d-4403-b88e-2bba99ae6ae3" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="e90f516a-cb3b-43d9-82dd-440c6e6e9789">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="ced47187-a05d-46f5-bc99-cda588d78ca7" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="bcb35762-ef45-4dfd-b53a-93e752742cdd">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="b6e5dd91-698d-47f4-b35b-27292512e186" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="731c14b1-6a36-4e71-afcc-aa3d20489e48">
+      <Keyword m="2021-06-09T07:05:26.0843286Z">LUKUL - nastavenia eMenu a donášky</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="008685b8-206e-42b1-bf21-6adcf0995ee7">
+      <Keyword m="2022-01-20T12:31:06.7973733Z">Obslužné - LUKUL</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="62a00a23-39b0-471f-92b3-4550bcf928dd">
+      <Keyword m="2022-01-20T12:31:15.9513147Z">Tringeld - LUKUL</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="4983f715-ac09-4b32-916d-4377c5e8429f">
+      <Keyword m="2022-01-20T12:31:22.4152669Z">Prepitné - LUKUL</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="3d2d4796-420a-4b9d-9adf-3dfded75ab04">
+      <Keyword m="2022-01-20T12:31:26.4477492Z">Sprepitné - LUKUL</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="eaa3f518-9b7b-400a-b97a-fbba979b8313">
+      <Keyword m="2022-01-20T12:31:35.1142535Z">Bakšiš - LUKUL</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="29765d00-1472-490d-99d3-891bd8a21fcc">
+      <Keyword m="2022-01-20T12:31:40.8735204Z">Diškrécia - LUKUL</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="38675130-e7f1-4ade-a549-218bf203dbe6">
+      <Keyword m="2022-01-20T12:31:45.059344Z">Dýško - LUKUL</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

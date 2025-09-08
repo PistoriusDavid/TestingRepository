@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="6e0bfd35-7d4e-479b-9dc5-cf5237b1aa69" Status="Complete" CreatedOn="2017-04-20T07:00:42.2849505Z" ModifiedOn="2022-09-29T09:18:11.9496621Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="ExternalSystem_HotelReservation_Beds24_Settings" BuildFlags="">
+  <Title m="2022-04-21T08:51:16.9245046Z">Prepojenie Beds24 s Booking.com</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2022-04-21T12:45:54.1377038Z">&lt;P&gt;Táto téma&amp;nbsp;&lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;postup, ako&amp;nbsp;prepojiť&amp;nbsp;&lt;/STRONG&gt;&lt;A href="2564d1eb-a7ed-46a7-a957-6087afe26471"&gt;manažér rezervačných kanálov Beds24&lt;/A&gt;&lt;EM&gt;&amp;nbsp;&lt;/EM&gt;&lt;STRONG&gt;s&amp;nbsp;rezervačným portálom&lt;/STRONG&gt; &lt;EM&gt;&lt;STRONG&gt;Booking.com&lt;/STRONG&gt;.&lt;/EM&gt; Analogicky je možné nastaviť prepojenie aj s&amp;nbsp;inými rezervačnými portálmi ubytovania (&lt;EM&gt;Expedia&lt;/EM&gt;, &lt;EM&gt;Airbnb&lt;/EM&gt; atď.). Pred samotným prepojením je potrebné mať vytvorené účty tak na stránke &lt;EM&gt;Booking.com&lt;/EM&gt;, ako aj&amp;nbsp;na stránke&amp;nbsp;&lt;A href="2564d1eb-a7ed-46a7-a957-6087afe26471"&gt;Beds24&lt;/A&gt;, pričom na&amp;nbsp;&lt;EM&gt;Beds24&lt;/EM&gt; je možné využívať účet 30 dní bezplatne.&lt;/P&gt;
+&lt;H2&gt;1. Nastavenie na strane Booking.com&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;Prihláste sa do administračného rozhrania&amp;nbsp;&lt;EM&gt;Booking.com&lt;/EM&gt;. &lt;STRONG&gt;V&amp;nbsp;ponuke&lt;/STRONG&gt;&amp;nbsp;&lt;STRONG&gt;&lt;EM&gt;Účet&lt;/EM&gt;&amp;nbsp;vyberte položku&amp;nbsp;&lt;EM&gt;Poskytovateľ prepojenia&lt;/EM&gt;&lt;/STRONG&gt;.&lt;BR&gt;&lt;BR&gt;&lt;IMG border=0 alt="" src="images/Hotel/Hotel_ChannelManager_Beds24_01.png" width=700&gt;&lt;BR&gt;
+&lt;LI&gt;V prvom kroku vyberte poskytovateľa, v našom prípade&amp;nbsp;&lt;EM&gt;Beds24&lt;/EM&gt;. Typ pripojenia môže byť: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;&lt;EM&gt;Full connection (two-way)&lt;/EM&gt;&lt;/STRONG&gt; - úplné pripojenie obojsmerné - &lt;STRONG&gt;vyberte túto možnosť&lt;/STRONG&gt;, 
+&lt;LI&gt;&lt;EM&gt;Only reservations (one-way)&lt;/EM&gt; - iba rezervácie, 
+&lt;LI&gt;&lt;EM&gt;Only rates and availability&lt;/EM&gt; - iba ceny a dostupnosť. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;V ďalšom kroku &lt;STRONG&gt;vyjadrite súhlas s akceptáciou XML služieb&lt;/STRONG&gt;. 
+&lt;LI&gt;Po vašom súhlase môže akceptácia zo strany&amp;nbsp;&lt;EM&gt;Beds24&lt;/EM&gt; trvať&amp;nbsp;niekoľko minút až hodín. 
+&lt;LI&gt;V ďalšom kroku ešte raz &lt;STRONG&gt;vyjadrite súhlas s vytvorením prepojenia s&amp;nbsp;&lt;EM&gt;Beds24&lt;/EM&gt;&lt;/STRONG&gt;. Budete upozornení, že ceny a obsadenosť budete upravovať už len v&amp;nbsp;&lt;EM&gt;Beds24&lt;/EM&gt;. 
+&lt;LI&gt;Potrvá zase niekoľko minút až hodín, kým si&amp;nbsp;&lt;EM&gt;Beds24&lt;/EM&gt; stiahne ceny a obsadenosť z &lt;EM&gt;Booking.com&lt;/EM&gt;. 
+&lt;LI&gt;V &lt;EM&gt;Booking.com&lt;/EM&gt; je v závislosti od požiadaviek cenotvorby potrebné&amp;nbsp;&lt;STRONG&gt;mať&amp;nbsp;nastavené&amp;nbsp;cenové kategórie&lt;/STRONG&gt; (cenové hladiny, sadzby), ktorým sa automaticky vygenerujú identifikačné čísla (ID). Cenové kategórie sa spravidla nastavujú v závislosti od počtu nocí (napr. osobitné cenové hladiny sa nastavia pre ubytovania na 1 noc, 2&amp;nbsp;a&amp;nbsp;viac nocí, 4&amp;nbsp;a&amp;nbsp;viac nocí atď.). Identifikačné čísla (ID) uvedených cenových&amp;nbsp;kategórií sa následne zadávajú v účte ubytovacieho zariadenia&amp;nbsp;v&amp;nbsp;&lt;EM&gt;Beds24&lt;/EM&gt; (pozri nižšie). Viac informácií k nastaveniu cenotvorby v&amp;nbsp;&lt;EM&gt;Beds24&lt;/EM&gt; získate v téme&amp;nbsp;&lt;A href="a5318434-401b-4fef-9dab-7d5cd4479d19"&gt;Nastavenie cenotvorby v&amp;nbsp;Beds24&lt;/A&gt;. &lt;/LI&gt;&lt;/OL&gt;
+&lt;H2&gt;2. Nastavenie na strane Beds24&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;Prihláste sa do svojho účtu na&amp;nbsp;&lt;EM&gt;Beds24&lt;/EM&gt;. &lt;STRONG&gt;V&amp;nbsp;ponuke &lt;EM&gt;Settings&lt;/EM&gt; vyberte položku &lt;EM&gt;Channel Manager&lt;/EM&gt;&lt;/STRONG&gt;. Zobrazia sa všetky rezervačné kanály, ktoré môžete prepojiť.&lt;BR&gt;&lt;BR&gt;&lt;IMG border=0 alt="" src="images/Hotel/Hotel_ChannelManager_Booking_01.png" width=800&gt;&amp;nbsp;&lt;BR&gt;
+&lt;LI&gt;Zvoľte položku &lt;EM&gt;Booking.com&lt;/EM&gt;. &lt;STRONG&gt;Zadajte ID hotela, ID izieb a ID cenových hladín&lt;/STRONG&gt;. Jednotlivé ID zistíte v&amp;nbsp;administračnom rozhraní &lt;EM&gt;Booking.com&lt;/EM&gt;. &lt;/LI&gt;&lt;/OL&gt;&lt;innovasys:widget layout="block" type="Tip Box"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Firma EXALOGIC ponúka spoplatnenú &lt;STRONG&gt;pomoc s implementáciou&amp;nbsp;Beds24&lt;/STRONG&gt; spravidla formou vzdialenej pomoci. Viac informácií o službe získate v téme&amp;nbsp;&lt;A href="6d06d8a0-c188-4d6a-a8f5-13e7d9241716"&gt;Pomoc s implementáciou Beds24&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="3f2c784f-b3da-43b7-aacc-d6ab51e1064e" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="2564d1eb-a7ed-46a7-a957-6087afe26471">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="d9b87a27-4249-41a7-b97d-4dd94bb4ec0f" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="a5318434-401b-4fef-9dab-7d5cd4479d19">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="82f47c1d-598a-4d1f-a3f3-b38abf824a90" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="6cd4a47a-5c87-4c7c-aa5e-9d8c198e9602">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="1f6439c1-c0ec-4712-b4d5-9abeb732551b" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="a8869db0-d369-49c6-b801-de33672ce874">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="21c06bd8-c1b6-453f-839a-748142a62464" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="4d8c31da-446b-4fca-ba87-30787fe47f7b">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="d55e79ac-c615-4de7-80cc-7234f53f3b31" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="336d3052-c803-4ace-9136-479a6d167513">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="d206f118-d672-4ec4-a33d-eb61192707e6" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="6d06d8a0-c188-4d6a-a8f5-13e7d9241716">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="731f1283-0162-4143-8a7f-82f32b1c246a">
+      <Keyword m="2018-04-03T11:41:34.004136Z">Beds24 - prepojenie s Booking.com</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="6e0f9360-3a01-472a-85a4-3670284ea875">
+      <Keyword m="2019-05-31T08:06:10.6635909Z">Booking.com - prepojenie s Beds24</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="7099d214-14bd-40cf-81d3-4d4b3505ddef">
+      <Keyword m="2022-04-21T11:33:48.880923Z">Channel Manager Beds24 - prepojenie s Booking.com</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="e3bbe067-60ba-431f-a9a8-d5bfa3a79015">
+      <Keyword m="2022-04-21T11:34:07.1552662Z">Manažér rezervačných kanálov Beds24 - prepojenie s Booking.com</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

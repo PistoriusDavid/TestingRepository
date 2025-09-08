@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="7a13e845-12be-4a84-8839-da5eeda57678" Status="Complete" CreatedOn="2014-09-10T08:00:11.1153362Z" ModifiedOn="2024-04-29T07:32:54.3043805Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="false" HelpContextIds="" Name="Vehicles_Basic_Options" BuildFlags="">
+  <Title m="2021-07-13T10:21:41.6718485Z">Základné možnosti</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-04-29T07:32:54.3043805Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;informácie o základných možnostiach,&lt;/STRONG&gt; &lt;STRONG&gt;užitočných&lt;/STRONG&gt; &lt;STRONG&gt;funkciách a&amp;nbsp;zaujímavých vlastnostiach&lt;/STRONG&gt;&amp;nbsp;modulu &lt;A href="085651d2-b64b-4884-b55d-0ba2b7f7808a"&gt;Evidencia vozidiel&lt;/A&gt; v&amp;nbsp;systéme OBERON.&lt;/P&gt;
+&lt;H2&gt;Základné možnosti a vlastnosti&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Evidovanie ľubovoľného počtu motorových &lt;A href="c6542278-5d57-4c96-b3d8-ec30f2b5a6d3"&gt;vozidiel&lt;/A&gt;, kde je možné&amp;nbsp;okrem bežných údajov sledovať napr.&amp;nbsp;dátum&amp;nbsp;platnosti emisnej a technickej kontroly. 
+&lt;LI&gt;Možnosť evidencie vozidiel s&amp;nbsp;elektromotorom. 
+&lt;LI&gt;Evidencia nákupu a spotreby pohonných látok, podpora alternatívnej pohonnej látky vozidla, napr. benzín a&amp;nbsp;súčasne&amp;nbsp;LPG. 
+&lt;LI&gt;&lt;A href="792fd782-391e-4f5a-95a0-f5784a058294"&gt;Tvorba knihy jázd&lt;/A&gt; tak pre firemné, resp. prenajaté,&amp;nbsp;ako aj súkromné vozidlá. 
+&lt;LI&gt;Automatický výpočet času jazdy podľa vzdialenosti.
+&lt;LI&gt;Automatické doplnenie vzdialenosti miest pri opakovanom zadaní jazdy.
+&lt;LI&gt;Možnosť z&amp;nbsp;jazdy vytvoriť&amp;nbsp;&lt;A href="1c45ad86-636b-4d4e-87f9-e2932e494f51"&gt;cestovný príkaz&lt;/A&gt;. Pri cestovných príkazoch evidovanie ďalších výdavkov (napr. ubytovanie, strava, preddavky).
+&lt;LI&gt;Možnosť vytvorený &lt;A href="1c45ad86-636b-4d4e-87f9-e2932e494f51"&gt;cestovný príkaz&lt;/A&gt;&amp;nbsp;vytlačiť, prípadne uložiť do formátu PDF alebo poslať e-mailom ako prílohu v PDF formáte.
+&lt;LI&gt;Možnosť priradiť vodiča k&amp;nbsp;&lt;A href="c6542278-5d57-4c96-b3d8-ec30f2b5a6d3"&gt;vozidlu&lt;/A&gt;.
+&lt;LI&gt;Prepojenie s&amp;nbsp;&lt;A href="d8c9bfc8-92d1-4471-8909-e5f8ce602d6c"&gt;účtovným&lt;/A&gt; alebo&amp;nbsp;&lt;A href="5e82cca9-b8af-4a80-ba30-7ab91914a595"&gt;peňažným&lt;/A&gt; denníkom pri zadávaní dokladov o&amp;nbsp;&lt;A href="822d4556-571e-4260-ab82-e68d232b1662"&gt;nákupe PHL&lt;/A&gt; (pohonných látok). 
+&lt;LI&gt;Export&amp;nbsp;&lt;A href="eb6f95fb-9b79-4f5e-84e8-275e00ffed71"&gt;daňového priznania k dani z motorových vozidiel&lt;/A&gt; do súboru typu XML na jeho následný import do aplikácie &lt;I&gt;Finančného riaditeľstva SR&lt;/I&gt;&amp;nbsp;&lt;EM&gt;eDane&lt;/EM&gt;. 
+&lt;LI&gt;Jednoduché kopírovanie záznamov - jazdy, cestovného príkazu, nákupu PHL (&lt;EM&gt;Ctrl+C&lt;/EM&gt; a &lt;EM&gt;Ctrl+V&lt;/EM&gt;), rýchle zadávanie údajov&amp;nbsp;pomocou&amp;nbsp;&lt;A href="db475de1-533d-46c4-a50a-4a57b0cf3573"&gt;šablón&lt;/A&gt;. 
+&lt;LI&gt;Tlač knihy jázd vozidiel, možnosť upravovať výstupné zostavy pomocou&amp;nbsp;&lt;A href="bd58b5ac-bf1a-44f0-9463-12aa3e5b8165"&gt;Editora tlačových výstupov&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="89fc4a93-8333-4720-9c79-efab06f1f01a" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="085651d2-b64b-4884-b55d-0ba2b7f7808a">
+      <Title m="2023-05-10T05:56:22.6924666Z">Evidencia vozidiel - všeobecne o koncepcii</Title>
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="458eb7fb-5596-4de5-be1a-5b4b0b55673d" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1f2813d0-c593-41db-8216-c46ae992da65">
+      <Title m="2023-05-18T11:54:55.8330895Z">Evidencia vozidiel - prvé kroky</Title>
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="d809389c-64dd-40b9-86dc-b2d1b9212246" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="75b0747a-07d3-4044-a463-48cbddb73f49">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="5217fd89-d717-4d2b-a5c2-d1b8185d3195" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="792fd782-391e-4f5a-95a0-f5784a058294">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="bb610153-ac9f-4e66-92d2-5e5665d681a0" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="129b1c37-0b9d-4a3f-b676-ec7fadd0f7f2">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="f0f0f3ec-2553-40f2-a073-427d9680c2e0" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="eb6f95fb-9b79-4f5e-84e8-275e00ffed71">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="9c64a4d6-f321-4fc5-966d-ad385dbd7c8c" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="3e00a8e4-7e48-4911-b6e8-8b43fa6aa331">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="324e7415-f543-4085-b2de-40f53c952991">
+      <Keyword m="2023-05-09T13:05:30.9377343Z">Evidencia vozidiel - základné možnosti</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="470cc812-e45b-4201-93fb-9a30cf25db9d">
+      <Keyword m="2015-04-28T11:29:46.3076171Z">Základné možnosti - Evidencia vozidiel</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

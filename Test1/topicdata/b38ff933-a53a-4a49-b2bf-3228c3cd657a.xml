@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="b38ff933-a53a-4a49-b2bf-3228c3cd657a" Status="Complete" CreatedOn="2016-04-05T11:24:34.408048Z" ModifiedOn="2024-01-25T13:36:55.2918387Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Tech_ProblemsWithCashRegister_General" BuildFlags="">
+  <Title m="2016-04-05T11:26:39.97166Z">Možné problémy s registračnou pokladnicou</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-01-25T13:36:55.2918387Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; je venovaná &lt;STRONG&gt;problémom, ktoré môžu vzniknúť pri používaní&amp;nbsp;&lt;/STRONG&gt;&lt;A href="04b8d290-1470-41ff-85a1-c44a20958841"&gt;registračnej pokladnice (fiškálneho zariadenia)&lt;/A&gt;.&lt;/P&gt;
+&lt;H2&gt;Koniec platnosti autentifikačných údajov&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Súbor autentifikačných údajov&lt;/STRONG&gt; nahratý vo&amp;nbsp;&lt;A href="04b8d290-1470-41ff-85a1-c44a20958841"&gt;fiškálnom zariadení&lt;/A&gt;&amp;nbsp;má v&amp;nbsp;záujme ochrany údajov zasielaných do systému eKasa&amp;nbsp;platnosť &lt;STRONG&gt;dva roky od vystavenia&lt;/STRONG&gt;. Z tohto dôvodu majú podnikatelia, ktorí evidujú tržby v systéme eKasa,&amp;nbsp;povinnosť&amp;nbsp;po dvoch rokoch&amp;nbsp;&lt;STRONG&gt;vymeniť autentifikačné údaje&lt;/STRONG&gt; vo svojich pokladniciach. 
+&lt;LI&gt;Výmenu súboru je potrebné uskutočniť &lt;STRONG&gt;v lehote 30 dní pred vypršaním jeho platnosti&lt;/STRONG&gt; (podnikateľ tak však môže urobiť aj skôr). Na blížiaci sa koniec platnosti autentifikačných údajov program upozorňuje &lt;STRONG&gt;hlásením s&amp;nbsp;výzvou na aktualizáciu autentifikačných údajov&lt;/STRONG&gt;. 
+&lt;LI&gt;Požiadať o nové autentifikačné údaje je potrebné na portáli finančnej správy &lt;STRONG&gt;v&amp;nbsp;eKasa zóne podnikateľa&lt;/STRONG&gt;. Starým autentifikačným údajom nie je potrebné venovať pozornosť – po uplynutí dvojročnej lehoty sa automaticky zneplatnia. 
+&lt;LI&gt;Postup výmeny autentifikačných údajov po 2 rokoch je dostupný v&amp;nbsp;téme&amp;nbsp;&lt;A href="a75ad602-f141-475d-afba-8d0f3dcf668a" style="auto-update-caption: true"&gt;Postup získania identifikačných a autentifikačných údajov&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Aktualizácia firmvéru&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;V dôsledku úpravy pokladničných riešení ich výrobcami (napr. z dôvodu legislatívnych zmien) je v niektorých prípadoch&amp;nbsp;na správne fungovanie nevyhnutné&amp;nbsp;&lt;STRONG&gt;aktualizovať firmvér&lt;/STRONG&gt; &lt;A href="04b8d290-1470-41ff-85a1-c44a20958841"&gt;registračných pokladníc (fiškálnych zariadení)&lt;/A&gt;. 
+&lt;LI&gt;Keďže&amp;nbsp;k problémom výlučne na strane fiškálnych zariadení iných výrobcov firma EXALOGIC podporu neposkytuje, pri aktualizácii pokladničných riešení &lt;STRONG&gt;je vždy potrebné postupovať podľa návodu a servisného programu výrobcu&lt;/STRONG&gt;. 
+&lt;LI&gt;Pri aktualizácii firmvéru fiškálnej tlačiarne &lt;A href="00fa9619-a13d-4745-8938-cc0c2b5039ce"&gt;eKasa PANDORA&lt;/A&gt; &lt;A href="1f32a90c-7b4a-4d69-9f38-a560178794b3" style="auto-update-caption: true"&gt;&lt;IMG border=0 alt="Odporúčané riešenia" src="images/OBERON/Basic/Odporucane-riesenie_ruka_ikona.png"&gt;&lt;/A&gt;&amp;nbsp;postupujte&amp;nbsp; podľa návodu v téme&amp;nbsp;&lt;A href="c7d63fd7-13b1-42a4-9de0-3a156ae36459" style="auto-update-caption: true"&gt;Fiškálna tlačiareň eKasa PANDORA - aktualizácia firmvéru&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Pri fiškálnych zariadeniach iných výrobcov je aktualizácia firmvéru spravidla spoplatnená. Pri fiškálnom zariadení&amp;nbsp;&lt;A href="00fa9619-a13d-4745-8938-cc0c2b5039ce"&gt;eKasa PANDORA&lt;/A&gt; &lt;A href="1f32a90c-7b4a-4d69-9f38-a560178794b3" style="auto-update-caption: true"&gt;&lt;IMG border=0 alt="Odporúčané riešenia" src="images/OBERON/Basic/Odporucane-riesenie_ruka_ikona.png"&gt;&lt;/A&gt;&amp;nbsp;&lt;STRONG&gt;je vždy aktualizácia zdarma&lt;/STRONG&gt;. Ak inštaláciu firmvéru zveríte servisnému technikovi, môže si za tento servisný úkon účtovať poplatok.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Pravidelná servisná prehliadka&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Niektorí výrobcovia&amp;nbsp;&lt;A href="04b8d290-1470-41ff-85a1-c44a20958841"&gt;registračných pokladníc (fiškálnych zariadení)&lt;/A&gt;&amp;nbsp;môžu vyžadovať pravidelné servisné prehliadky s&amp;nbsp;cieľom kontroly a prípadnej údržby týchto zariadení. Servisné úkony sú spravidla spoplatnené. 
+&lt;LI&gt;Pri fiškálnej tlačiarni &lt;A href="00fa9619-a13d-4745-8938-cc0c2b5039ce"&gt;eKasa PANDORA&lt;/A&gt; &lt;A href="1f32a90c-7b4a-4d69-9f38-a560178794b3" style="auto-update-caption: true"&gt;&lt;IMG border=0 alt="Odporúčané riešenia" src="images/OBERON/Basic/Odporucane-riesenie_ruka_ikona.png"&gt;&lt;/A&gt;&amp;nbsp;sa absolvovanie servisných prehliadok nevyžaduje. &lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="e222b9a4-9982-4136-900c-91d49b67979b" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="d9b919e7-20c4-4c50-9910-4f13211ed9a8">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="acfe8dfb-bc0a-4e1a-9194-b7b9a861c78c" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="00fa9619-a13d-4745-8938-cc0c2b5039ce">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="7e388441-cbc9-4ad1-a5e4-fe4279ba34cc" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="75a07288-2569-448c-bfd8-c66915fae9a8">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="45dfe1af-3f2d-4969-847c-5f2ca052da44">
+      <Keyword m="2023-04-05T13:02:35.0308144Z">Firmvér fiškálneho zariadenia - aktualizácia - problémy</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="d45c8745-7b48-428f-8b8e-a0e05d84de26">
+      <Keyword m="2023-04-05T13:03:14.7394079Z">Výmena autentifikačných údajov - problémy</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

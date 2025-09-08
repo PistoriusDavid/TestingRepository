@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="18bcdd80-c320-42ef-b7d4-fb26abc6495e" Status="Complete" CreatedOn="2014-09-10T08:14:35.4637741Z" ModifiedOn="2024-11-11T12:17:15.5530896Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="false" HelpContextIds="" Name="Hotel_Started_FirstSteps" BuildFlags="">
+  <Title m="2014-09-10T08:15:13.8409691Z">Prvé kroky</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-11-11T12:17:15.5530896Z">&lt;P&gt;Skôr, ako začnete s modulom&amp;nbsp;&lt;EM&gt;Hotelová recepcia&lt;/EM&gt;&amp;nbsp;pracovať, je potrebné, aby ste v&amp;nbsp;programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt; založili novú firmu. Viac informácií nájdete v&amp;nbsp;téme&amp;nbsp;&lt;A href="9a485893-6dd2-44e8-9740-a4cd7083a932"&gt;Vytvorenie účtovnej jednotky (databázy)&lt;/A&gt;.&amp;nbsp;Zároveň je potrebné povoliť v ponuke&amp;nbsp;&lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="5a6e5663-262e-4ff0-9741-1569385d11e4"&gt;oddiel Firma, Moduly&lt;/A&gt;&amp;nbsp;účtovnej jednotke a&amp;nbsp;v&amp;nbsp;&lt;A href="6ffb02fa-4c5c-4d33-8a0c-6dba98b26a77"&gt;oddiele Používateľ, Moduly&lt;/A&gt; danému používateľovi prácu s&amp;nbsp;modulom&amp;nbsp;&lt;A href="c3bd41f0-029e-4c74-b342-b0ffff647b6e"&gt;Hotelová recepcia&lt;/A&gt;.&lt;/P&gt;
+&lt;H2&gt;1. Údaje o firme&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;V ponuke &lt;EM&gt;Firma,&lt;/EM&gt; &lt;A href="a833ee8a-1289-42b9-923f-80f549497702"&gt;Údaje o firme&lt;/A&gt; je potrebné zadať základné informácie o účtovnej jednotke. Ak je adresa sídla firmy&amp;nbsp;iná, ako adresa ubytovacieho zariadenia, vyplňte údaje o&amp;nbsp;&lt;A href="8df798f2-4fbf-4279-ad8c-493bdbe7f2e4"&gt;prevádzke&lt;/A&gt; účtovnej jednotky. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;2.&amp;nbsp; Nastavenia programu&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;V&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="5a6e5663-262e-4ff0-9741-1569385d11e4"&gt;oddiel Firma, Všeobecné&lt;/A&gt;,&amp;nbsp;záložka &lt;EM&gt;Základné&lt;/EM&gt;&amp;nbsp;sa nastavuje najmä: 
+&lt;UL&gt;
+&lt;LI&gt;hlavná mena systému, 
+&lt;LI&gt;umožnenie práce s&amp;nbsp;&lt;A href="09e378df-5c76-42f3-a245-b33dd0580648"&gt;cudzími menami&lt;/A&gt;, 
+&lt;LI&gt;&lt;A href="5a6e5663-262e-4ff0-9741-1569385d11e4"&gt;DPH&lt;/A&gt; (typ platiteľa DPH a jednotlivé sadzby). &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;V&amp;nbsp;prípade, že budete používať&lt;STRONG&gt;&amp;nbsp;&lt;/STRONG&gt;&lt;A href="58bb31ca-00c8-4641-ad99-7d58e24f59c5"&gt;webové služby&lt;/A&gt; a&amp;nbsp;&lt;A href="e301d0fb-f429-4bb5-a4df-7257efbe967b"&gt;notifikácie&lt;/A&gt; V&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="5a6e5663-262e-4ff0-9741-1569385d11e4"&gt;oddiel Firma, Všeobecné&lt;/A&gt;,&amp;nbsp;záložka&amp;nbsp;&lt;EM&gt;Rozšírené&lt;/EM&gt;&amp;nbsp;povoľte používanie &lt;STRONG&gt;webových služieb&lt;/STRONG&gt; a&amp;nbsp;v&amp;nbsp;záložke &lt;EM&gt;Ostatné&lt;/EM&gt; používanie &lt;STRONG&gt;notifikácií&lt;/STRONG&gt;. 
+&lt;LI&gt;V&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="f0386fce-aa67-4fa4-a611-234d30fa9f82"&gt;oddiel Firma, Hotelová recepcia&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt; záložka &lt;EM&gt;Základné&lt;/EM&gt; nastavte &lt;STRONG&gt;spôsob výpočtu a sadzby miestnej dane za ubytovanie&lt;/STRONG&gt; a&amp;nbsp;nastavenie ohľadom maximálneho počtu 60 prenocovaní v&amp;nbsp;jednom kalendárnom roku. 
+&lt;LI&gt;Na&amp;nbsp;&lt;A href="fc334b67-8148-4d4c-bb21-de0e0060b312"&gt;automatický výpočet ceny za ubytovanie&lt;/A&gt; v rovnakej záložke&amp;nbsp;zadajte rozsah rokov veku&amp;nbsp;dieťaťa,&amp;nbsp;spôsob automatického výpočtu ceny za ubytovanie a&amp;nbsp;nastavte uvádzanie ubytovania so zníženou sadzbou DPH. 
+&lt;LI&gt;V&amp;nbsp;záložke &lt;EM&gt;Grafické prehľady&lt;/EM&gt; skontrolujte, prípadne upravte predvolené nastavenia &lt;A href="3ca37544-bbc0-4a88-af6a-a2132b74279d"&gt;grafického prehľadu izieb&lt;/A&gt; a&amp;nbsp;&lt;A href="0f4cbef4-f919-441f-bd61-6ef9ca0b1344"&gt;grafického prehľadu poskytovaných služieb&lt;/A&gt;. 
+&lt;LI&gt;V&amp;nbsp;záložke &lt;EM&gt;Hostia&lt;/EM&gt; zadajte predvolené časy príchodu (check-in) a&amp;nbsp;odchodu (check-out) hostí. 
+&lt;LI&gt;V&amp;nbsp;záložke &lt;EM&gt;Hotelové účty&lt;/EM&gt; vykonajte nastavenia týkajúce sa hotelových účtov (kódy položiek, nulový hotelový účet, číslovanie). 
+&lt;LI&gt;V&amp;nbsp;záložke &lt;EM&gt;Rýchly predaj&lt;/EM&gt; vyberte, ktoré nastavenia skladu (zoskupenia skladov) a&amp;nbsp;cenovej hladiny sa majú uplatniť: buď z&amp;nbsp;&lt;A href="bb0e1e82-e344-4bf0-834a-a294269f2e71"&gt;nastavení Pokladnice OBERON&lt;/A&gt;,&amp;nbsp;alebo vlastné nastavenia. 
+&lt;LI&gt;V&amp;nbsp;záložke &lt;EM&gt;Ostatné&lt;/EM&gt; nastavte spôsob generovania variabilného symbolu v&amp;nbsp;rezerváciách ubytovania, spôsob generovania PIN-u pre systém&amp;nbsp;&lt;A href="d47942c0-d9d3-458d-b7cc-95ff8b2a67a4"&gt;dverových zámkov&lt;/A&gt;. Ďalej môžete nastaviť schvaľovanie&amp;nbsp;&lt;A href="250ef843-0b84-4f66-bc92-230067d309d8"&gt;pokladničných dokladov&lt;/A&gt; a vyžadovanie zadávania&amp;nbsp;&lt;A href="7615a4c6-6b52-47af-ad7a-394934d493cf"&gt;zdroja rezervácií&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;3. Izby&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;V ponuke &lt;EM&gt;Hotel,&amp;nbsp;&lt;/EM&gt;&lt;A href="902561af-a2ca-4bf7-adcd-21be1663b30a"&gt;Izby&lt;/A&gt; je potrebné nadefinovať jednotlivé izby ubytovacieho zariadenia. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;4. Cenotvorba ubytovania&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Nadefinujte &lt;STRONG&gt;predvolenú cenovú kategóriu hostí, ktorá sa bude používať pre bežných hostí&lt;/STRONG&gt; (tzv. pultové ceny). Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="c145fb4a-b1f9-404e-9f07-ee1a10f9b759" style="auto-update-caption: true"&gt;Cenové kategórie hostí&lt;/A&gt;. 
+&lt;LI&gt;V prípade používania&amp;nbsp;&lt;A href="fc334b67-8148-4d4c-bb21-de0e0060b312"&gt;automatického výpočtu ceny za ubytovanie&lt;/A&gt;&amp;nbsp;je potrebné v ponuke &lt;EM&gt;Hotel&lt;/EM&gt;,&amp;nbsp;&lt;A href="79646e11-b21e-473c-a78b-7e0fb8b55c14"&gt;Cenotvorba ubytovania&lt;/A&gt; nastaviť cenové hladiny a ceny. Odporúčame zadať základné ceny, sofistikovanejšie nastavenia je možné vykonať aj neskôr. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;5. Služby&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;V&amp;nbsp;ponuke &lt;EM&gt;Hotel&lt;/EM&gt;,&amp;nbsp;&lt;A href="52a22e5d-f6ee-46f3-9978-537f8fa5c984"&gt;Služby&lt;/A&gt;&amp;nbsp;nadefinujte služby, ktoré bude ubytovacie zariadenie poskytovať. V&amp;nbsp;systéme OBERON rozlišujeme&amp;nbsp;nasledujúce typy služieb: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;základné&lt;/STRONG&gt; - služby, ktoré sa pravidelne opakujú, napr. raňajky, večere, parkovanie&amp;nbsp;a pod., 
+&lt;LI&gt;&lt;STRONG&gt;rozšírené&lt;/STRONG&gt; - predstavujú doplnkové služby ubytovacieho zariadenia, napr. wellness, tenis, biliard a pod. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Podrobné informácie získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="52a22e5d-f6ee-46f3-9978-537f8fa5c984" style="auto-update-caption: true"&gt;Služby&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;6. Nastavenie zariadenia&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;V prípade používania&amp;nbsp;pripojiteľných&amp;nbsp;zariadení (fiškálna tlačiareň, registračná pokladnica, čítačka dokladov, snímač čiarového kódu atď.) je potrebné tieto zariadenia nainštalovať do systému OBERON v ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="749ff4f1-eeb5-43f5-98d2-021399d8cec7"&gt;Zariadenia&lt;/A&gt;. Bližšie informácie o&amp;nbsp;podporovaných zariadeniach získate&amp;nbsp;v téme&amp;nbsp;&lt;A href="3f051fd3-9727-4ecc-9613-7a7fb1cb2a54"&gt;Prehľad pripojiteľných zariadení&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="560f2adb-8712-4687-9f3a-17dcfd102f51" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="9a485893-6dd2-44e8-9740-a4cd7083a932">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="d31b78f5-f550-4c01-9743-cec949cde3bd" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="5a6e5663-262e-4ff0-9741-1569385d11e4">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="5360d44b-71c3-4ba8-850d-a1c5d370061e" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="f0386fce-aa67-4fa4-a611-234d30fa9f82">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="11193d1b-5cd2-4767-bdfd-384e9f43849a">
+      <Keyword m="2015-02-18T10:03:19.3574218Z">Prvé kroky - Hotelová recepcia</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="b62fb4af-9ba1-4940-a990-3b8b31de6807">
+      <Keyword m="2022-06-28T11:10:21.5857047Z">Hotelová recepcia - prvé kroky</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

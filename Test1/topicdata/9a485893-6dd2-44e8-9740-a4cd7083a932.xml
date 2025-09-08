@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="9a485893-6dd2-44e8-9740-a4cd7083a932" Status="Complete" CreatedOn="2014-09-01T14:23:27.8608414Z" ModifiedOn="2024-07-31T09:14:11.7999141Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="21050" Name="InstallationCreateDatabase" BuildFlags="">
+  <Title m="2014-09-01T14:23:57.9845644Z">Vytvorenie účtovnej jednotky (databázy)</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-07-31T09:13:28.7700032Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; popisuje &lt;STRONG&gt;postup vytvorenia novej&amp;nbsp;účtovnej jednotky (firmy)&lt;/STRONG&gt; v systéme OBERON, t. j. novej dátovej základne (databázy)&amp;nbsp;vrátane zápisu základných nastavení účtovnej jednotky.&lt;/P&gt;
+&lt;H2&gt;Postup vytvorenia novej firmy&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;Pred vytvorením firmy je potrebné vykonať&amp;nbsp;&lt;A href="19a10c98-2b1d-4fe1-8ab2-98921ab328be"&gt;inštaláciu OBERON-u&lt;/A&gt;. 
+&lt;LI&gt;Vo&amp;nbsp;&lt;A href="d2b25c8c-d57f-4678-8021-3148259d3777"&gt;formulári Otvorenie agendy firmy&lt;/A&gt; (ponuka &lt;EM&gt;OBERON,&lt;/EM&gt; &lt;EM&gt;Otvorenie agendy (firmy)&lt;/EM&gt;) stlačte tlačidlo &lt;I&gt;Nová firma&lt;/I&gt;. 
+&lt;LI&gt;Postupujte podľa pokynov sprievodcu a postupne zadajte: &lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Spôsob vytvorenia firmy (databázy)&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Nová prázdna databáza&lt;/STRONG&gt; - vytvorí novú databázu bez údajov. 
+&lt;LI&gt;&lt;STRONG&gt;Obnova zo zálohy&lt;/STRONG&gt; - vytvorí novú databázu zo zálohy (záloha má&amp;nbsp;príponu ZAL), ktorá bola vytvorená pomocou funkcie&amp;nbsp;&lt;A href="ee4036d9-55fd-40ee-ab76-69337f16b1cc"&gt;Zálohovanie údajov&lt;/A&gt;. Obnovu zo záložného súboru je možné vykonať len&amp;nbsp;pri databázach typu&amp;nbsp;&lt;A href="0b81f4ea-5e68-48c1-8b89-933d5a23d962"&gt;Microsoft Access&lt;/A&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;Databáza so skúšobnými údajmi&lt;/STRONG&gt; - vytvorí databázu a naplní ju skúšobnými údajmi, ktoré je možné využiť pri testovaní funkcií a možností programu. 
+&lt;LI&gt;&lt;STRONG&gt;Databáza s predpripravenými údajmi&lt;/STRONG&gt; - vytvorí databázu a&amp;nbsp;naplní ju údajmi, ktoré je možné následne využiť v ostrej prevádzke programu (napr. vytvorí receptúry a&amp;nbsp;kalkulácie jedál, ktoré&amp;nbsp;možno využiť v reštauračnej prevádzke). &lt;/LI&gt;&lt;/UL&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;/LI&gt;&lt;/OL&gt;
+&lt;BLOCKQUOTE style="MARGIN-RIGHT: 0px" dir=ltr&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Základné údaje firmy&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Vyplňte základné údaje o novej firme.&amp;nbsp;Zadané údaje bude možné&amp;nbsp;po vytvorení firmy&amp;nbsp;ešte upraviť (v ponuke &lt;EM&gt;Firma&lt;/EM&gt;,&amp;nbsp;&lt;A href="a833ee8a-1289-42b9-923f-80f549497702"&gt;Údaje o firme&lt;/A&gt;). Aj napriek tomu však venujte dostatok pozornosti vypĺňaniu najmä obchodného názvu účtovnej jednotky. Po zadaní licenčného čísla už&amp;nbsp;nebude možné opraviť obchodné meno účtovnej jednotky bez toho, aby ste kontaktovali&amp;nbsp;&lt;A href="571f742b-c33d-495b-bab3-01ff69c38ef0"&gt;dodávateľa systému OBERON&lt;/A&gt;.&lt;/P&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Ak je počítač pripojený&amp;nbsp;k&amp;nbsp;internetu, údaje o firme je možné&amp;nbsp;&lt;A href="e5871f39-032a-431b-9117-df5a4e5dccc8"&gt;načítať automaticky z&amp;nbsp;internetu&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt; &lt;/innovasys:widget&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;/BLOCKQUOTE&gt;
+&lt;BLOCKQUOTE style="MARGIN-RIGHT: 0px" dir=ltr&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Spôsob vedenia účtovníctva&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Zvoľte spôsob vedenia účtovníctva - podvojné alebo jednoduché účtovníctvo. Toto nastavenie už nie je možné neskôr zmeniť, preto je potrebné venovať tomuto kroku zvýšenú pozornosť.&lt;/innovasys:widgetproperty&gt; &lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Databázový systém&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Zvoľte&amp;nbsp;vhodný&amp;nbsp;&lt;A href="0b81f4ea-5e68-48c1-8b89-933d5a23d962"&gt;databázový systém&lt;/A&gt;, v prípade SQL servera už musí byť tento databázový server nainštalovaný. Zároveň&amp;nbsp;vykonajte &lt;STRONG&gt;nastavenie SSL&lt;/STRONG&gt;&amp;nbsp;(&lt;EM&gt;&lt;STRONG&gt;S&lt;/STRONG&gt;ecure &lt;STRONG&gt;S&lt;/STRONG&gt;ocket &lt;STRONG&gt;L&lt;/STRONG&gt;ayer&lt;/EM&gt;)&amp;nbsp;- určuje, či&amp;nbsp;komunikácia medzi OBERON-om a databázovým SQL serverom má byť šifrovaná. Dostupné sú nasledujúce možnosti:&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Nepoužívať (vypnuté)&lt;/STRONG&gt;&amp;nbsp;- komunikácia medzi OBERON-om a databázovým SQL serverom nebude šifrovaná. Nešifrované spojenie sa môže používať v malých sieťach (s&amp;nbsp;malým počtom počítačov), kde sieť nie je prístupná z vonkajšieho internetu, prípadne sa do siete nemôžu pripojiť anonymní používatelia. Taktiež sa môže používať v&amp;nbsp;prípade, že je komunikácia medzi OBERON-om a SQL serverom šifrovaná sieťovou infraštruktúrou, napr. VPN. 
+&lt;LI&gt;&lt;STRONG&gt;Používať (ak je dostupné)&lt;/STRONG&gt; - ak je SQL server nakonfigurovaný na používanie SSL, OBERON sa automaticky pripojí s použitím&amp;nbsp;SSL pripojenia a komunikácia bude bezpečná (šifrovaná). Ak SQL server nebude používať SSL, komunikácia nebude šifrovaná. 
+&lt;LI&gt;&lt;STRONG&gt;Vždy vyžadovať&lt;/STRONG&gt; - OBERON pri pripojení&amp;nbsp;k&amp;nbsp;SQL serveru vždy používa šifrované pripojenie. Ak SQL server nie je nakonfigurovaný pre SSL, pripojenie nebude možné. &lt;/LI&gt;&lt;/UL&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Výber modulov&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Vybrané moduly ovplyvňujú hlavnú ponuku (menu) systému OBERON, pričom pridať alebo odobrať moduly programu je možné aj dodatočne v&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="89fa80dd-8f80-4e9f-9a25-1eed4f6fdbb8"&gt;Nastavenia programu&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt; &lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Typ účtovnej osnovy (vyberá sa len pri podvojnom účtovníctve)&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Zvoľte typ účtovnej osnovy, ktorú bude účtovná jednotka používať: pre podnikateľské subjekty (mikro účtovná jednotka)&amp;nbsp;alebo pre&amp;nbsp;neziskové organizácie. Typ účtovnej osnovy je možné zvoliť aj neskôr v&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="89fa80dd-8f80-4e9f-9a25-1eed4f6fdbb8"&gt;Nastavenia programu&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt; &lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Typ platiteľa DPH&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Nastavte typ platiteľa dane z pridanej hodnoty: neplatiteľ DPH, neplatiteľ DPH (len registrovaný), platiteľ DPH - štvrťročný, platiteľ DPH - mesačný.&amp;nbsp;Typ platiteľa DPH je možné zvoliť aj neskôr v&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="89fa80dd-8f80-4e9f-9a25-1eed4f6fdbb8"&gt;Nastavenia programu&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt; &lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Umožniť pracovať s&amp;nbsp;cudzími menami&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Začiarknutie políčka&amp;nbsp;spôsobí, že bude možné pracovať s&amp;nbsp;&lt;A href="09e378df-5c76-42f3-a245-b33dd0580648"&gt;cudzími menami&lt;/A&gt;&amp;nbsp;a&amp;nbsp;bude dostupná položka&amp;nbsp;&lt;A href="8c1f1dd4-a841-4745-beed-49dd12964b0a"&gt;Kurzový lístok&lt;/A&gt; (ponuka &lt;EM&gt;Firma&lt;/EM&gt;). Voľba priamo ovplyvňuje zobrazenie účtovného denníka, knihy pohľadávok i záväzkov. Nastavenie možno vykonať aj neskôr v&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="89fa80dd-8f80-4e9f-9a25-1eed4f6fdbb8"&gt;Nastavenia programu&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt; &lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Účtovné obdobie&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Nastavuje sa predvolené účtovné obdobie, v ktorom bude účtovná jednotka pracovať, pričom ho možno&amp;nbsp;neskôr kedykoľvek zmeniť. Bližšie informácie získate v téme&amp;nbsp;&lt;A href="6b3b68a9-966a-42c2-8b0e-31fc5f3290df" style="auto-update-caption: true"&gt;Zmena spracovávaného obdobia&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt; &lt;/innovasys:widget&gt;&lt;/BLOCKQUOTE&gt;
+&lt;OL style="COUNTER-RESET: item 3" start=4&gt;
+&lt;LI&gt;Po prejdení všetkých krokov sprievodcu&amp;nbsp;sa stlačením tlačidla &lt;EM&gt;&lt;STRONG&gt;Dokončiť&lt;/STRONG&gt;&lt;/EM&gt; vytvorí nová firma. V&amp;nbsp;okne &lt;I&gt;Správa o priebehu&lt;/I&gt; program zobrazí informácie o vytvorení novej firmy alebo informáciu o&amp;nbsp;skutočnosti, ktorá bola dôvodom nevytvorenia firmy (databázy). 
+&lt;LI&gt;Po vytvorení novej účtovnej jednotky je možné pomocou &lt;A href="a1ae5eb5-f369-4aab-80b2-c6585166d550"&gt;Správcu doplnkov&lt;/A&gt;&amp;nbsp;&lt;STRONG&gt;rozšíriť systém OBERON o ďalšie možnosti, ktoré nie sú súčasťou štandardnej inštalácie&lt;/STRONG&gt;, napr. ďalšie štýly tlačových výstupov, jazykové súbory, transformačné šablóny na import dokladov&amp;nbsp;a ďalšie. 
+&lt;LI&gt;Ak prechádzate na OBERON &lt;STRONG&gt;z iného softvéru&lt;/STRONG&gt;, v niektorých prípadoch je možné použiť automatický import údajov z pôvodného programu. Viac informácií možno získať v&amp;nbsp;téme&amp;nbsp;&lt;A href="c5b5cbd0-8a60-490b-8bf7-31941d64db60"&gt;Import údajov z&amp;nbsp;iného softvéru&lt;/A&gt;.&amp;nbsp; &lt;/LI&gt;&lt;/OL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Po vytvorení novej firmy alebo v prípade, že používateľ nemá nastavené žiadne heslo (prípadne&amp;nbsp;pri použití napríklad DEMO databázy) na prihlásenie &lt;STRONG&gt;nie je potrebné zadávať žiadne heslo&lt;/STRONG&gt;&amp;nbsp;(stačí&amp;nbsp;kliknúť na&amp;nbsp;tlačidlo &lt;EM&gt;OK&lt;/EM&gt;).&lt;/P&gt;
+&lt;P&gt;Ak sa bude na jednom počítači spracovávať účtovníctvo pre viac účtovných jednotiek (firiem), vo formulári &lt;EM&gt;Otvorenie agendy (firmy)&lt;/EM&gt; je možné ku konkrétnej firme vytvoriť zástupcu na pracovnej ploche. Tým sa umožní jednoduchší a rýchlejší prístup k&amp;nbsp;požadovanej účtovnej jednotke.&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;Videonávod&lt;/STRONG&gt;&lt;/P&gt;
+&lt;P&gt;K téme je spracovaný videonávod&amp;nbsp;&lt;A href="https://exalogic.sk/na-stiahnutie-oberon/vytvorenie-novej-firmy/" target=_blank&gt;Vytvorenie novej firmy&lt;/A&gt;. Všetky videonávody&amp;nbsp;sú k&amp;nbsp;dispozícii&amp;nbsp;na stránke&amp;nbsp;&lt;A href="http://www.exalogic.sk/"&gt;www.exalogic.sk&lt;/A&gt; v&amp;nbsp;sekcii &lt;EM&gt;Na stiahnutie,&amp;nbsp;&lt;/EM&gt;&lt;A href="https://exalogic.sk/na-stiahnutie/oberon-agenda-firmy/video-navody-na-stiahnutie/" target=_blank&gt;Videonávody&lt;/A&gt;.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="4f2f7a4e-a9da-43c8-8d4d-ac31251917de" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="e975459f-e882-49f2-adb9-79e68a07df0e">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="10c851ab-42e2-4993-bf5e-00e47ab065e6" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="19a10c98-2b1d-4fe1-8ab2-98921ab328be">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="6dfb2c7a-c68b-4ff7-88bf-95bf88250a72" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="0b81f4ea-5e68-48c1-8b89-933d5a23d962">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="ee4e1327-d6b4-4904-a205-e5bc8f8551f8" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="a1ae5eb5-f369-4aab-80b2-c6585166d550">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="52e6fff5-1c8d-407b-a3ff-ba1839a4e9c5" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="c5b5cbd0-8a60-490b-8bf7-31941d64db60">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="00239eaf-bf7f-4d12-a2e6-6af394a310a5" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="2ed2711c-75f6-4f18-8dbb-1b44eaab93c0">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="39d92436-37df-45a5-bab7-0e5c736195d9" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="114e64df-3d6c-4a0e-9405-c0e75fbe02dc">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="85592f43-6718-46d3-b5cc-f787907c7a13">
+      <Keyword m="2021-03-24T06:49:40.8576548Z">Obnova zo zálohy</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="53dd796c-e3ea-4923-b7fb-83aeae23c6ee">
+      <Keyword m="2021-03-24T06:49:04.7835082Z">Databáza so skúšobnými údajmi</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="221a42d7-ee5a-41b7-8de6-f289ab33e0c3">
+      <Keyword m="2021-03-24T06:49:19.4552398Z">Databáza s predpripravenými údajmi</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="7c8d00c4-a1ad-458c-9c3d-e7a060316daf">
+      <Keyword m="2021-03-24T06:50:37.6539461Z">Nová prázdna databáza</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="da29c04e-6ae7-4423-b060-cccf930ff31b">
+      <Keyword m="2022-07-18T06:57:47.8733413Z">SSL - Secure Socket Layer - vytvorenie účtovnej jednotky (databázy) (SQL server)</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="9f3c7858-d156-4b3c-8721-c16a88382a19">
+      <Keyword m="2024-07-31T09:13:42.5651793Z">Firma - vytvorenie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="30176ec2-7b4d-47d9-a8cf-4f88f13c571e">
+      <Keyword m="2024-07-31T09:13:49.4019844Z">Databáza - vytvorenie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="0a9d50a5-6f42-49ff-bb49-188f6c2beae4">
+      <Keyword m="2024-07-31T09:14:08.7260751Z">Postup vytvorenia novej firmy</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

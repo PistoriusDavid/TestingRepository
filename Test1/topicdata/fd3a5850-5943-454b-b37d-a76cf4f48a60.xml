@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="fd3a5850-5943-454b-b37d-a76cf4f48a60" Status="Complete" CreatedOn="2014-12-02T18:46:24.7303066Z" ModifiedOn="2023-11-06T10:20:17.287234Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Developers_Interfaces_TransportData" BuildFlags="">
+  <Title m="2014-12-02T18:47:02.6274742Z">Transport Data Universal Interface</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-10-17T13:24:07.7806167Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje&amp;nbsp;informácie o rozhraní&amp;nbsp;&lt;EM&gt;Transport Data Universal Interface&lt;/EM&gt;,&lt;STRONG&gt; pomocou ktorého je možné vykonávať&amp;nbsp;export a import údajov&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;V systéme OBERON sú možnosti importu a exportu údajov pomerne široké. Napriek tomu sa v praxi stretávame s veľmi špecifickými požiadavkami, ktoré nie je možné priamo implementovať do systému OBERON. Riešením je použitie špeciálneho rozhrania, ktoré &lt;STRONG&gt;umožňuje v&amp;nbsp;podstate exportovať akékoľvek údaje a naopak,&amp;nbsp;importovať v&amp;nbsp;podstate čokoľvek&lt;/STRONG&gt;. 
+&lt;LI&gt;&lt;EM&gt;Transport Data Universal Interface&lt;/EM&gt; predstavuje rozhranie, ktoré vie komunikovať s&amp;nbsp;externým ovládačom (DLL knižnicou), ktoré spĺňa štruktúru a pravidlá tohto rozhrania. Je určené pre externých vývojárov, ktorí môžu s&amp;nbsp;relatívne malým úsilím napísať programový kód, ktorý vykoná požadovaný export alebo import. 
+&lt;LI&gt;Rozhranie sa nachádza v&amp;nbsp;programe&amp;nbsp;&lt;A href="24e780fd-36d3-4a6e-bfc0-a8665c75e4ee"&gt;OBERON Center&lt;/A&gt; a je priamo súčasťou&amp;nbsp;tzv.&amp;nbsp;&lt;A href="797aaa39-ae1b-4f4c-bac5-88c9ac25f11d"&gt;transportu údajov&lt;/A&gt;. Pri nadefinovaní daného transportu údajov je potrebné zvoliť typ transportu &lt;EM&gt;Transport Data Universal Interface&lt;/EM&gt;. 
+&lt;LI&gt;Export alebo import údajov je možné naprogramovať aj ako úplne samostatnú aplikáciu, avšak&amp;nbsp;riešenie pomocou &lt;EM&gt;Transport Data Universal Interface&lt;/EM&gt;&amp;nbsp;má nasledujúce výhody:
+&lt;UL&gt;
+&lt;LI&gt;je súčasťou systému OBERON, keď je zabezpečené napr. automatické spúšťanie transportu, automatická tvorba správ o priebehu a pod.,
+&lt;LI&gt;pri exporte je načítanie údajov&amp;nbsp;v réžii OBERON-u (napr. načítanie skladových kariet), stačí doprogramovať len samotný import,
+&lt;LI&gt;nie je potrebné riešiť nastavenie samotného exportu či importu (napr. pokladnice, sklady a pod.),
+&lt;LI&gt;nie je potrebné riešiť nastavenie príznakov pre export či import (napr. či sa majú záznamy pri importe prepísať),
+&lt;LI&gt;pri využití daného exportu alebo importu väčším počtom&amp;nbsp;používateľov&amp;nbsp;môže byť&amp;nbsp;daný transport údajov súčasťou&amp;nbsp;&lt;A href="a1ae5eb5-f369-4aab-80b2-c6585166d550"&gt;Správcu doplnkov&lt;/A&gt;, kde bude zabezpečená jednoduchá inštalácia alebo aktualizácia.&lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Informácie pre vývojára&amp;nbsp;&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Vzor ovládača (DLL knižnica&amp;nbsp;&lt;B&gt;Transport Data&amp;nbsp;Universal Driver&lt;/B&gt;) s podrobným popisom je na vyžiadanie dostupný programátorom, ktorí by chceli naprogramovať ovládač pre export alebo import. Vzor je napísaný v programovacom jazyku &lt;B&gt;Basic&lt;/B&gt; v programovacom prostredí &lt;B&gt;Microsoft Visual Studio 2019&lt;/B&gt;. Úlohou programátora je zapísanie programového kódu do pripraveného vzoru, ktorý obsahuje definície všetkých potrebných funkcií, vlastností a udalostí. 
+&lt;LI&gt;&lt;EM&gt;Transport Data Universal Interface&lt;/EM&gt; predstavuje z programátorskej stránky v podstate viac implementovaných rozhraní,&amp;nbsp;pričom existujú dve základné rozhrania a potom rozhranie vybraného konkrétneho exportu či importu:
+&lt;UL&gt;
+&lt;LI&gt;&lt;EM&gt;Exa.OBERON.ApplicationEnvironment.OBERON.OBERONInterfaceInfo.IOBERONInterface&lt;/EM&gt; - rozhranie, ktoré musí obsahovať každá externá DLL&amp;nbsp;knižnica (Add-In)&amp;nbsp;pre OBERON, obsahuje všeobecné údaje o rozhraní,
+&lt;LI&gt;&lt;EM&gt;Exa.OBERONCenter.Application.TransportData.Driver_TransportData_UniversalInterface.ITransportDataUniversalInterface&lt;/EM&gt; - rozhranie, ktoré musí obsahovať každá externá DLL&amp;nbsp;knižnica transportu údajov,
+&lt;LI&gt;rozhranie pre konkrétny export alebo import - napr. rozhranie pre export skladových kariet, import objednávok a pod.&lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="9b52349e-6cc1-42b1-8583-61b8b2064f9d" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="3757d6bf-3009-4685-beee-617e34892086">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="2bed8ebc-ff86-408f-9d92-b9137fe38272" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="5020b29b-b6e5-48bb-bfc6-800d68d5b8e9">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="ec25b533-8685-424c-a2bb-028aa43989bb">
+      <Keyword m="2023-10-17T13:23:40.5113734Z">DLL - Transport Data Universal Interface</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

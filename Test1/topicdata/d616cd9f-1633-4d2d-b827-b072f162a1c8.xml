@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="d616cd9f-1633-4d2d-b827-b072f162a1c8" Status="Complete" CreatedOn="2018-03-26T08:15:07.1567304Z" ModifiedOn="2023-10-02T13:13:06.3455539Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Wages_Attendance_First_Steps" BuildFlags="">
+  <Title m="2018-03-26T08:15:57.5800479Z">Prvé kroky</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-10-02T12:46:04.0540572Z">&lt;P&gt;Skôr, ako začnete s modulom&amp;nbsp;&lt;EM&gt;Mzdy a dochádzka&lt;/EM&gt; pracovať, je potrebné, aby ste v&amp;nbsp;programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt; založili novú firmu. Viac informácií nájdete v&amp;nbsp;téme&amp;nbsp;&lt;A href="9a485893-6dd2-44e8-9740-a4cd7083a932"&gt;Vytvorenie účtovnej jednotky (databázy)&lt;/A&gt;.&amp;nbsp;Zároveň je potrebné povoliť v ponuke&amp;nbsp;&lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="5a6e5663-262e-4ff0-9741-1569385d11e4"&gt;oddiel Firma, Moduly&lt;/A&gt;&amp;nbsp;účtovnej jednotke a&amp;nbsp;v&amp;nbsp;&lt;A href="6ffb02fa-4c5c-4d33-8a0c-6dba98b26a77"&gt;oddiele Používateľ, Moduly&lt;/A&gt; danému používateľovi prácu s&amp;nbsp;modulom&amp;nbsp;&lt;A href="bf009605-0be8-4286-8ef5-4c7d3b89143a"&gt;Mzdy&lt;/A&gt; a&amp;nbsp;&lt;A href="3883342c-9ef0-4fd9-8773-88df84f78f65"&gt;dochádzka&lt;/A&gt;.&lt;/P&gt;
+&lt;H2&gt;1. Konzultácia&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Pred začatím evidovania dochádzky odporúčame účtovným jednotkám požiadať o konzultáciu. V rámci nej sa zohľadnia individuálne potreby&amp;nbsp;konkrétnej účtovnej jednotky.&amp;nbsp;Pracovať s modulom &lt;EM&gt;Mzdy a&amp;nbsp;dochádzka&lt;/EM&gt; je možné: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;bez dochádzkového terminálu&lt;/STRONG&gt; -&amp;nbsp;na pracovisku nie je dochádzkový terminál, pracovníci sa pri príchode do práce neprihlasujú cez terminál. V tomto prípade &lt;STRONG&gt;sa neeviduje dochádzka a modul slúži len na plánovanie pracovných zmien&lt;/STRONG&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;s dochádzkovým terminálom&lt;/STRONG&gt; - na pracovisku je&amp;nbsp;&lt;A href="f46f3a8f-ba04-4359-ba99-dc6caeeba021"&gt;dochádzkový terminál&lt;/A&gt;, pracovníci sa pri príchode do práce prihlasujú cez terminál. V tomto prípade &lt;STRONG&gt;sa eviduje dochádzka&lt;/STRONG&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;2. Dochádzkový terminál&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Podľa potrieb účtovnej jednotky je potrebné sa rozhodnúť, &lt;STRONG&gt;aký typ dochádzkového terminálu bude používať&lt;/STRONG&gt;. Terminál môže byť softvérový alebo hardvérový, viac informácií je možné získať v téme &lt;A href="f46f3a8f-ba04-4359-ba99-dc6caeeba021"&gt;Dochádzkové terminály&lt;/A&gt;. 
+&lt;LI&gt;Dochádzkový terminál môže byť &lt;STRONG&gt;on-line prepojený s databázou účtovnej jednotky, prípadne môže pracovať v režime off-line&lt;/STRONG&gt;. K jednej účtovnej jednotke môže byť pripojených&amp;nbsp;aj &lt;STRONG&gt;viacero dochádzkových terminálov&lt;/STRONG&gt;.&amp;nbsp;Špecialitou je &lt;STRONG&gt;zdieľanie jedného dochádzkového terminálu viacerými účtovnými jednotkami&lt;/STRONG&gt; - pri vchode do budovy je umiestnený jeden dochádzkový terminál, pričom prechody z neho sa zapisujú do databáz viacerých účtovných jednotiek. 
+&lt;LI&gt;Každý používaný dochádzkový terminál sa &lt;STRONG&gt;musí&amp;nbsp;do programu nainštalovať&lt;/STRONG&gt; v&amp;nbsp;ponuke&amp;nbsp;&lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="749ff4f1-eeb5-43f5-98d2-021399d8cec7"&gt;Zariadenia&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;&amp;nbsp;3. Pracovné zmeny&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;V ponuke &lt;EM&gt;Mzdy, Dochádzka,&amp;nbsp;&lt;/EM&gt;&lt;A href="a77380d9-dc93-41be-9423-aa76a8c7f9f4" style="auto-update-caption: true"&gt;Pracovné zmeny&lt;/A&gt; definujte pracovné zmeny. Pracovná zmena určuje, &lt;STRONG&gt;kedy začína&amp;nbsp;a&amp;nbsp;ako dlho trvá pracovný čas (pracovná doba)&lt;/STRONG&gt;. Ak má firma pracovníkov, ktorí nastupujú do práce (pracovnej zmeny) v&amp;nbsp;rôznom čase, je potrebné nadefinovať viac&amp;nbsp;pracovných&amp;nbsp;zmien. Viac informácií získate &amp;nbsp;téme&amp;nbsp;&lt;A href="a77380d9-dc93-41be-9423-aa76a8c7f9f4"&gt;Pracovné zmeny&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;4. Pracovné plány firmy&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Pracovná zmena je súčasťou&amp;nbsp;&lt;A href="0d06308b-64cf-4d51-bc3a-9c262750667d"&gt;pracovného plánu firmy&lt;/A&gt;. Každý pracovný plán obsahuje &lt;STRONG&gt;jednu, prípadne viac&amp;nbsp;pracovných zmien&lt;/STRONG&gt;, napr. pracovný plán &lt;EM&gt;Dvojzmenná základná&lt;/EM&gt; obsahuje&amp;nbsp;dve&amp;nbsp;pracovné zmeny&amp;nbsp;- rannú a poobednú. 
+&lt;LI&gt;Pracovné plány firmy je možné vytvoriť v ponuke &lt;EM&gt;Mzdy, Dochádzka,&amp;nbsp;&lt;/EM&gt;&lt;A href="0d06308b-64cf-4d51-bc3a-9c262750667d" style="auto-update-caption: true"&gt;Pracovné plány firmy&lt;/A&gt;. Pracovný plán firmy&amp;nbsp;pozostáva z&amp;nbsp;&lt;A href="a77380d9-dc93-41be-9423-aa76a8c7f9f4"&gt;pracovných zmien&lt;/A&gt; obsiahnutých v rozvrhoch pracovných zmien (v&amp;nbsp;závislosti od typu prevádzky).&amp;nbsp;Viac informácií získate v téme&amp;nbsp;&lt;A href="0d06308b-64cf-4d51-bc3a-9c262750667d"&gt;Pracovné plány firmy&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;5. Pracovníci&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Evidencia pracovníkov&lt;/STRONG&gt; - pracovníci, ktorým sa bude evidovať dochádzka, sa&amp;nbsp;evidujú&amp;nbsp;v ponuke &lt;EM&gt;Mzdy&lt;/EM&gt;,&amp;nbsp;&lt;A href="8dd60281-9cc7-41fe-9dd2-2ad5c7ffe047"&gt;Pracovníci&lt;/A&gt;. Parametre dochádzky (prístupový kód, heslo...) sa každému pracovníkovi nastavujú vo&amp;nbsp;&lt;A href="8dd60281-9cc7-41fe-9dd2-2ad5c7ffe047"&gt;formulári Pracovník&lt;/A&gt;, záložka &lt;EM&gt;Dochádzka&lt;/EM&gt;. Tu je potrebné danému pracovníkovi priradiť aj dochádzkový terminál, na ktorom sa mu bude evidovať dochádzka. Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="28ad3f59-16f3-4162-a0a6-387778cbc7c3" style="auto-update-caption: true"&gt;Priradenie dochádzkového terminálu pracovníkovi&lt;/A&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;Pracovné pomery&lt;/STRONG&gt; - pracovné pomery pracovníkov sa evidujú v ponuke &lt;EM&gt;Mzdy&lt;/EM&gt;,&amp;nbsp;&lt;A href="3fced304-5201-4497-bb58-104c1fd77990"&gt;Pracovné pomery pracovníkov&lt;/A&gt;.&amp;nbsp;Nastavenia potrebné na spracovanie dochádzky (priradenie pracovného plánu firmy,&amp;nbsp;výber rozvrhu&amp;nbsp;zmien pracovného plánu...)&amp;nbsp;sa vykonávajú vo&amp;nbsp;&lt;A href="95a3b7e2-6135-4860-a655-5724b186b94c"&gt;formulári Pracovný pomer pracovníka&lt;/A&gt;, záložka &lt;EM&gt;Dochádzka&lt;/EM&gt;. Tu je možné nastaviť, či sa odpracované hodiny z&amp;nbsp;dochádzky majú preberať&amp;nbsp;pri výpočte mzdy. Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="28ad3f59-16f3-4162-a0a6-387778cbc7c3" style="auto-update-caption: true"&gt;Priradenie dochádzkového terminálu pracovníkovi&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;6. Pracovný kalendár&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;V ponuke &lt;EM&gt;Mzdy,&amp;nbsp;&lt;/EM&gt;&lt;A href="ce9e15f9-7459-4a5c-8bad-db17ef7b59ea" style="auto-update-caption: true"&gt;Pracovný kalendár&lt;/A&gt; sa vytvára a v grafickom prehľade zobrazuje pracovný&amp;nbsp;plán pracovníkov -&amp;nbsp;&lt;STRONG&gt;interaktívny formulár,&amp;nbsp;ktorý&amp;nbsp;umožňuje vytvoriť a&lt;EM&gt;&amp;nbsp;&lt;/EM&gt;v&amp;nbsp;grafickom&amp;nbsp;prehľade zobraziť&amp;nbsp;pracovný&amp;nbsp;plán pracovníkov&lt;/STRONG&gt; (rozpis&amp;nbsp;&lt;A href="a77380d9-dc93-41be-9423-aa76a8c7f9f4"&gt;pracovných zmien&lt;/A&gt;, resp. služieb), t. j. dni, v ktoré majú pracovať. Stlačením pravého tlačidla myši program umožňuje vyvolať kontextovú ponuku, kde je možné &lt;STRONG&gt;automaticky vygenerovať pracovný plán&amp;nbsp;pracovníkov&lt;/STRONG&gt;. Ak&amp;nbsp;účtovná jednotka&amp;nbsp;nebude&amp;nbsp;na evidenciu dochádzky využívať&amp;nbsp;&lt;A href="f46f3a8f-ba04-4359-ba99-dc6caeeba021"&gt;dochádzkový terminál&lt;/A&gt;, môže súčasne s vygenerovaním pracovného plánu &lt;STRONG&gt;vygenerovať&amp;nbsp;jednotlivým pracovníkom aj dochádzku&lt;/STRONG&gt;. Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="ce9e15f9-7459-4a5c-8bad-db17ef7b59ea" style="auto-update-caption: true"&gt;Pracovný kalendár&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;7.&amp;nbsp;Pravidlá spracovania dochádzky&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;V ponuke &lt;EM&gt;Mzdy&lt;/EM&gt;, &lt;EM&gt;Dochádzka&lt;/EM&gt; sa nastavujú&amp;nbsp;&lt;A href="05f759ce-29f8-46c1-b195-7dc22fc30cbd"&gt;pravidlá spracovania dochádzky&lt;/A&gt;,&amp;nbsp;ktoré určujú, akým spôsobom sa budú evidovať príchody/odchody do/z práce,&amp;nbsp;&lt;A href="a706e5ad-4717-472f-b1a3-9b368ef39aa4"&gt;prestávky v práci&lt;/A&gt; a&amp;nbsp;&lt;A href="376de250-3bb9-4979-9efd-9feb648ea91f"&gt;nadčasy&lt;/A&gt;. Ak nebudú zadefinované žiadne pravidlá spracovania dochádzky, &lt;STRONG&gt;program bude počítať reálnu dochádzku&lt;/STRONG&gt; tak, ako bola zaznamenaná&amp;nbsp;na&amp;nbsp;&lt;A href="f46f3a8f-ba04-4359-ba99-dc6caeeba021"&gt;dochádzkovom termináli&lt;/A&gt;. Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="05f759ce-29f8-46c1-b195-7dc22fc30cbd" style="auto-update-caption: true"&gt;Pravidlá spracovania dochádzky&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="662e5049-d949-4965-9ca6-c21c8e125a76" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="f46f3a8f-ba04-4359-ba99-dc6caeeba021">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="831f7120-47c8-4dc6-a546-66e5a83b2643" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="749ff4f1-eeb5-43f5-98d2-021399d8cec7">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="07d3c847-a7a7-4892-be1a-4940096d83f8" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="a77380d9-dc93-41be-9423-aa76a8c7f9f4">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="ca35c3a3-19bb-4486-ad4f-2819af57c07c" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="0d06308b-64cf-4d51-bc3a-9c262750667d">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="cfdeea39-07f3-4fba-8048-e8103969d155" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="8dd60281-9cc7-41fe-9dd2-2ad5c7ffe047">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="42f13da3-2534-4136-80d2-6843ee1a46e2" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="3fced304-5201-4497-bb58-104c1fd77990">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="14c09519-a882-4f80-b2ad-31ae40a1e84f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="28ad3f59-16f3-4162-a0a6-387778cbc7c3">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="965deb6f-542b-43af-91b3-ad1b321ef69c" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="ce9e15f9-7459-4a5c-8bad-db17ef7b59ea">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="44c12799-c230-4334-8afa-7e2096a29cc6" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="05f759ce-29f8-46c1-b195-7dc22fc30cbd">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="5345a8c9-6ac5-4334-b7d0-5afde1e271f1">
+      <Keyword m="2023-10-02T13:06:20.3994158Z">Dochádzka - prvé kroky</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="2d0b605d-55ef-49b3-ab38-e8a19b6d22dd">
+      <Keyword m="2023-10-02T13:06:25.5752387Z">Evidencia dochádzky - prvé kroky</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="69dbbe2a-695a-44e6-ae81-a8d4faf96025">
+      <Keyword m="2023-10-02T13:06:30.6248787Z">Evidencia pracovného času - prvé kroky</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="9bf3978c-5b10-45e2-9790-a9ec497c5a5a">
+      <Keyword m="2023-10-02T13:06:45.4192658Z">Prvé kroky - dochádzka</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

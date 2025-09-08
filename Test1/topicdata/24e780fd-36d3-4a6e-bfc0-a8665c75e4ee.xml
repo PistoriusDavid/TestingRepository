@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="24e780fd-36d3-4a6e-bfc0-a8665c75e4ee" Status="Complete" CreatedOn="2014-09-05T06:33:47.7972594Z" ModifiedOn="2023-11-14T12:08:17.7688097Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="93010" Name="OBERONCenter_OBERON_Center" BuildFlags="">
+  <Title m="2015-01-14T10:19:03.321289Z">OBERON Center</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-11-14T12:08:17.7688097Z">&lt;P&gt;Systém OBERON pozostáva&amp;nbsp;&lt;A href="d7884189-d893-43c0-8e6a-cfad14d790c1"&gt;z viacerých súčastí&lt;/A&gt;, z ktorých najdôležitejšou je základný spustiteľný program &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt; (&lt;EM&gt;oberon.exe&lt;/EM&gt;) obsahujúci všetky evidencie systému. Jeho rozšírením je program &lt;STRONG&gt;&lt;EM&gt;OBERON Center&lt;/EM&gt; určený na vykonávanie určitých špecifických funkcií na pozadí&lt;/STRONG&gt;. Jemu je venovaná táto téma.&lt;/P&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;V&amp;nbsp;štruktúre systému OBERON&amp;nbsp;program&lt;/SPAN&gt;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;EM style="COLOR: rgb(0,0,0)"&gt;OBERON Center&lt;/EM&gt;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;&amp;nbsp;sa postupne nahrádza programom&amp;nbsp;&lt;/SPAN&gt;&lt;STRONG style="COLOR: rgb(0,0,0)"&gt;&lt;A href="09f3dae9-2fb7-490f-97dc-37f60885b398"&gt;OBERON Automation Center&lt;/A&gt;&lt;/STRONG&gt;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;. Všetky funkcie programu&lt;/SPAN&gt; &lt;EM style="COLOR: rgb(0,0,0)"&gt;OBERON Center&lt;/EM&gt;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;&amp;nbsp;tak budú postupne združené do automatických úloh programu&amp;nbsp;&lt;/SPAN&gt;&lt;EM style="COLOR: rgb(0,0,0)"&gt;OBERON Automation Center&lt;/EM&gt;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;. Tie budú pre danú účtovnú jednotku dostupné z&amp;nbsp;ponuky&lt;/SPAN&gt; &lt;EM style="COLOR: rgb(0,0,0)"&gt;Servis,&lt;/EM&gt;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;&amp;nbsp;&lt;A href="9ce25bbd-35d1-4096-acd5-70007f5af5a6"&gt;Automatické úlohy&lt;/A&gt;&lt;/SPAN&gt;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;.&amp;nbsp;&lt;/SPAN&gt;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;Aj keď&amp;nbsp;&lt;/SPAN&gt;&lt;EM style="COLOR: rgb(0,0,0)"&gt;OBERON Automation Center&lt;/EM&gt;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;umožňuje&lt;/SPAN&gt;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;&amp;nbsp;pracovať aj so súborovou&lt;/SPAN&gt; databázou &lt;EM&gt;Microsoft Access&lt;/EM&gt;, &lt;SPAN style="COLOR: rgb(255,0,0)"&gt;p&lt;/SPAN&gt;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;ri&amp;nbsp;jeho použití&lt;/SPAN&gt;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;&amp;nbsp;&lt;STRONG&gt;odporúčame&lt;/STRONG&gt;&lt;/SPAN&gt; &lt;STRONG style="COLOR: rgb(255,0,0)"&gt;používať databázu SQL&lt;/STRONG&gt;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;.&lt;/SPAN&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Program &lt;I&gt;OBERON Center&lt;/I&gt; je súčasťou&amp;nbsp;systému OBERON&amp;nbsp;a je určený&amp;nbsp;na vykonávanie určitých špecifických funkcií - samostatných automatických úloh a činností&amp;nbsp;na pozadí. 
+&lt;LI&gt;&lt;EM&gt;OBERON Center&lt;/EM&gt; je súčasťou inštalácie&amp;nbsp;systému OBERON. 
+&lt;LI&gt;Program predstavuje spustiteľný súbor &lt;EM&gt;Oberon Center.exe&lt;/EM&gt;, ktorý sa nachádza v adresári &lt;SPAN lang=en-us xml:lang="en-us"&gt;&lt;EM&gt;\\OBERON\SHARE\SYSTEM&lt;/EM&gt;&lt;/SPAN&gt; a spúšťa sa automaticky pri spustení počítača. Jeho ikona sa štandardne zobrazuje&amp;nbsp;na paneli úloh systému &lt;EM&gt;Windows&lt;/EM&gt;&amp;nbsp;v&amp;nbsp;systémových ikonách (pri dátume a čase). &lt;/LI&gt;&lt;/UL&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/OBERON_Center/Oberon_Center_Taskbar.png"&gt;&lt;/P&gt;
+&lt;H2&gt;Funkcie programu OBERON Center&lt;/H2&gt;
+&lt;P&gt;Nasledujúci zoznam obsahuje funkcie, ktoré je možné konfigurovať &lt;STRONG&gt;len v programe &lt;EM&gt;OBERON Center&lt;/EM&gt;&lt;/STRONG&gt;. Tie funkcie, ktoré možno nastaviť aj v programe&amp;nbsp;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;&lt;/SPAN&gt;&lt;A href="09f3dae9-2fb7-490f-97dc-37f60885b398"&gt;OBERON Automation Center&lt;/A&gt;, v&amp;nbsp;zozname uvedené nie sú. Ich zoznam je k&amp;nbsp;dispozícii v&amp;nbsp;téme&amp;nbsp;&lt;A href="9ce25bbd-35d1-4096-acd5-70007f5af5a6"&gt;Automatické úlohy&lt;/A&gt;.&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;A href="46d868f7-8416-4300-bc86-a272c14f35d9"&gt;Aktualizácia z internetu&lt;/A&gt; - automatická aktualizácia&amp;nbsp;OBERON-u z internetu. 
+&lt;LI&gt;&lt;A href="9ce25bbd-35d1-4096-acd5-70007f5af5a6"&gt;Automatické úlohy&lt;/A&gt; - samostatné&amp;nbsp;automatické úlohy a činnosti v pravidelných intervaloch na pozadí:
+&lt;UL&gt;
+&lt;LI&gt;automatický XML export/import údajov v rôznych agendách,
+&lt;LI&gt;on-line pobočková synchronizácia,
+&lt;LI&gt;synchronizácia s &lt;EM&gt;Kalendárom Google&lt;/EM&gt;,
+&lt;LI&gt;synchronizácia s &lt;EM&gt;HikCentral systémom&lt;/EM&gt;.&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;&lt;A href="1dc4ea18-03c0-4028-afe5-4532583b6a44"&gt;Off-line transporty údajov&lt;/A&gt; - exporty a importy údajov spravidla medzi pobočkou a centrálou účtovnej jednotky pri&amp;nbsp;&lt;A href="797aaa39-ae1b-4f4c-bac5-88c9ac25f11d"&gt;off-line pobočkovom režime&lt;/A&gt;, napr. zabezpečuje transport údajov pri&amp;nbsp;&lt;A href="88af013e-47e9-408a-ac47-18fb4edb5553"&gt;off-line pobočkovej Pokladnici OBERON&lt;/A&gt;&lt;EM&gt;.&lt;/EM&gt; 
+&lt;LI&gt;&lt;A href="2ba6a435-be52-46a1-b723-fb2b8ca084c0"&gt;Internetový obchod&lt;/A&gt; - umožňuje automatický export a import údajov&amp;nbsp;z/do externého internetového obchodu. 
+&lt;LI&gt;&lt;A href="f46f3a8f-ba04-4359-ba99-dc6caeeba021"&gt;Dochádzkové terminály&lt;/A&gt;&amp;nbsp;- umožňuje definovať dochádzkové terminály na evidenciu príchodov a odchodov pracovníkov, t. j. evidenciu dochádzky. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Po definovaní jednotlivých funkcií skontrolujte nastavenie, či sa má&amp;nbsp;&lt;STRONG&gt;server&lt;/STRONG&gt; &lt;STRONG&gt;automaticky spúšťať&lt;/STRONG&gt; pri spustení programu&amp;nbsp;&lt;A href="24e780fd-36d3-4a6e-bfc0-a8665c75e4ee"&gt;OBERON Center&lt;/A&gt;: v&amp;nbsp;príslušnom oddiele stlačte tlačidlo &lt;EM&gt;Nastavenia&lt;/EM&gt; (vpravo hore). Otvorí sa okno, v ktorom danú možnosť povoľte, resp. zakážte.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="024ca4f5-f00d-4cf4-9f18-542239603bf4" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="d7884189-d893-43c0-8e6a-cfad14d790c1">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="a8048329-5659-44c4-a548-6621a235049d" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="19a10c98-2b1d-4fe1-8ab2-98921ab328be">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="3e977508-50de-4949-bac4-8b88921e4aa3">
+      <Keyword m="2021-03-09T11:36:46.8117896Z">OBERON Center - funkcie</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

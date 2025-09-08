@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="cb667999-05bb-4bef-9377-908411eb1ac2" Status="Complete" CreatedOn="2014-09-09T10:34:48.0021464Z" ModifiedOn="2025-02-18T09:34:44.3417884Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="30410" Name="Acc_Start_AccountStatementRules" BuildFlags="">
+  <Title m="2023-09-19T12:46:13.5364212Z">Pravidlá spracovania bankových výpisov</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2025-02-18T09:34:44.3417884Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;informácie o pravidlách spracovania bankových výpisov (transakcií)&lt;/STRONG&gt;&amp;nbsp;tak v&amp;nbsp;systéme&amp;nbsp;&lt;A href="49dd3167-870a-4fdf-b631-d4f692f1ed72"&gt;podvojného&lt;/A&gt;, ako aj&amp;nbsp;&lt;A href="32be28cf-2368-4818-9d24-cfa9d59afb75"&gt;jednoduchého účtovníctva&lt;/A&gt;&amp;nbsp;spolu &lt;STRONG&gt;s&amp;nbsp;príkladmi pravidiel&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Pravidlá spracovania bankových výpisov sa v&amp;nbsp;systéme OBERON&amp;nbsp;používajú: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;pri zaúčtovaní&amp;nbsp;položiek bankových výpisov (transakcií)&lt;/STRONG&gt;&amp;nbsp;do&amp;nbsp;&lt;A href="d8c9bfc8-92d1-4471-8909-e5f8ce602d6c"&gt;účtovného&lt;/A&gt;, resp.&amp;nbsp;&lt;A href="5e82cca9-b8af-4a80-ba30-7ab91914a595"&gt;peňažného denníka,&lt;/A&gt; a&amp;nbsp;to buď pri manuálnom&amp;nbsp;zaúčtovaní v knihe &lt;A href="02bbf54b-086f-4641-8c33-4dd461e56fb4" style="auto-update-caption: true"&gt;Spracovanie bankových výpisov&lt;/A&gt; (ponuka &lt;EM&gt;Účtovníctvo&lt;/EM&gt;)&amp;nbsp;alebo pri automatickom zaúčtovaní&amp;nbsp;pomocou&amp;nbsp;&lt;A href="9ce25bbd-35d1-4096-acd5-70007f5af5a6"&gt;automatickej úlohy&lt;/A&gt; &lt;A href="1a074e9a-9cf9-4ab8-b9a8-68575142a704" style="auto-update-caption: true"&gt;Automatické spracovanie bankových výpisov&lt;/A&gt;, 
+&lt;LI&gt;&lt;STRONG&gt;pri zápise&lt;/STRONG&gt; &lt;STRONG&gt;úhrady do iných evidencií&lt;/STRONG&gt; - napr.&amp;nbsp;zápis úhrady objednávky do knihy&amp;nbsp;&lt;A href="48505e8d-5f28-4063-882b-ca07f33670ef" style="auto-update-caption: true"&gt;Objednávky prijaté&lt;/A&gt;&amp;nbsp;alebo&amp;nbsp;zápis úhrady za ubytovanie do&amp;nbsp;&lt;A href="5570e633-ca2e-4887-9361-57c5ce552da6"&gt;Knihy rezervácií&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Pravidlá&amp;nbsp;spracovania bankových výpisov &lt;STRONG&gt;určujú, akým spôsobom má program spracovať (zaúčtovať, zaevidovať)&amp;nbsp;jednotlivé položky bankových výpisov (transakcií)&lt;/STRONG&gt;. Z tohto dôvodu si každá účtovná jednotka definuje vlastné pravidlá v&amp;nbsp;závislosti od toho, aké položky daný bankový výpis obsahuje. Tie sa môžu v&amp;nbsp;čase meniť, preto je potrebné zoznam pravidiel v&amp;nbsp;pravidelných intervaloch (napr. mesačne) aktualizovať tak, aby zodpovedal aktuálnej skladbe položiek bankového výpisu. &amp;nbsp;&amp;nbsp;&amp;nbsp; 
+&lt;LI&gt;Pravidlá sa odporúča nadefinovať &lt;STRONG&gt;po vykonaní importu položiek bankových výpisov (transakcií)&lt;/STRONG&gt;&amp;nbsp;do OBERON-u (ukladajú sa do evidencie &lt;A href="02bbf54b-086f-4641-8c33-4dd461e56fb4" style="auto-update-caption: true"&gt;Spracovanie bankových výpisov&lt;/A&gt;). Systém OBERON umožňuje viaceré spôsoby importu, viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="0121f553-c6f2-4860-87bc-485e3cb08e2f" style="auto-update-caption: true"&gt;Spôsoby importu bankových výpisov&lt;/A&gt;. 
+&lt;LI&gt;Pravidlá sa definujú pre každý&amp;nbsp;&lt;A href="93ded66f-b7a6-40a8-89e0-bd501cd17bfc"&gt;bankový účet&lt;/A&gt; samostatne. V prípade viacerých bankových účtov je potrebné vytvoriť viacero rôznych typov pravidiel. 
+&lt;LI&gt;Pri vytváraní nového pravidla je potrebné mať na zreteli, že &lt;STRONG&gt;poradové číslo pravidla predstavuje aj poradie (prioritu)&lt;/STRONG&gt;, podľa ktorého bude program párovať položky bankového výpisu s pravidlami. Znamená to, že pravidlo s nižším poradovým číslom má vyššiu prioritu ako pravidlo s vyšším poradovým číslom, preto bude spracované skôr. Napr. pravidlo s poradovým číslom 1, a teda s vyššou prioritou,&amp;nbsp;bude spracované skôr, ako pravidlo s poradovým číslom 3. 
+&lt;LI&gt;Pravidlá spracovania bankových výpisov (transakcií)&amp;nbsp;je možné v OBERON-e vytvárať &lt;STRONG&gt;buď manuálne, alebo podľa aktuálne vybranej položky&lt;/STRONG&gt;. Oba postupy sú uvedené nižšie. Pri vytváraní pravidla &lt;STRONG&gt;je potrebné zvoliť správny typ pravidla&lt;/STRONG&gt; podľa toho, na zaúčtovanie, resp. zápis ktorej položky bankového výpisu má byť určené: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;EM&gt;&lt;STRONG&gt;Štandardné pravidlo&lt;/STRONG&gt;&lt;/EM&gt; - určené na zaúčtovanie&amp;nbsp;bežných&amp;nbsp;položiek&amp;nbsp;bankového výpisu iných ako faktúra, napr. poplatok za vedenie účtu a pod. 
+&lt;LI&gt;&lt;STRONG&gt;&lt;EM&gt;Zaúčtovanie úhrady pohľadávky&lt;/EM&gt;&lt;/STRONG&gt; - určené na zaúčtovanie&amp;nbsp;úhrady vystavenej faktúry do&amp;nbsp;&lt;A href="d8c9bfc8-92d1-4471-8909-e5f8ce602d6c"&gt;účtovného&lt;/A&gt;/&lt;A href="5e82cca9-b8af-4a80-ba30-7ab91914a595"&gt;peňažného denníka&lt;/A&gt;&lt;EM&gt;.&lt;/EM&gt; Pri tomto type pravidla možno bližšie určiť podmienky na určenie predkontácie, a&amp;nbsp;to na základe cieľového (uhrádzaného)&amp;nbsp;dokladu. 
+&lt;LI&gt;&lt;STRONG&gt;&lt;EM&gt;Zápis úhrady do objednávky&amp;nbsp;&lt;/EM&gt;&lt;/STRONG&gt;- určené na zápis úhrady objednávky do knihy&amp;nbsp;&lt;A href="48505e8d-5f28-4063-882b-ca07f33670ef" style="auto-update-caption: true"&gt;Objednávky prijaté&lt;/A&gt;. 
+&lt;LI&gt;&lt;EM&gt;&lt;STRONG&gt;Zápis úhrady do rezervácie ubytovania&amp;nbsp;&lt;/STRONG&gt;&lt;/EM&gt;- určené na zápis úhrady za ubytovanie do&amp;nbsp;&lt;A href="5570e633-ca2e-4887-9361-57c5ce552da6"&gt;Knihy rezervácií&lt;/A&gt;. 
+&lt;LI&gt;&lt;EM&gt;&lt;STRONG&gt;Zaúčtovanie úhrady záväzku&lt;/STRONG&gt;&lt;/EM&gt;&amp;nbsp;- určené na zaúčtovanie&amp;nbsp;úhrady&amp;nbsp;prijatej faktúry do&amp;nbsp;&lt;A href="d8c9bfc8-92d1-4471-8909-e5f8ce602d6c"&gt;účtovného&lt;/A&gt;/&lt;A href="5e82cca9-b8af-4a80-ba30-7ab91914a595"&gt;peňažného denníka&lt;/A&gt;. Pri tomto type pravidla možno bližšie určiť podmienky na určenie predkontácie, a&amp;nbsp;to na základe cieľového (uhrádzaného) dokladu. &lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Zaúčtovanie úhrady pohľadávky alebo záväzku&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Okrem základných pravidiel na spracovanie bankovej transakcie je možné v&amp;nbsp;odôvodnených prípadoch určiť&amp;nbsp;podmienky na určenie predkontácie, a&amp;nbsp;to &lt;STRONG&gt;na základe cieľového (uhrádzaného)&amp;nbsp;dokladu&lt;/STRONG&gt; (vo formulári &lt;EM&gt;Nastavenie pravidla pre faktúry&lt;/EM&gt;, záložka &lt;EM&gt;Predkontácie&lt;/EM&gt;). 
+&lt;LI&gt;Typickým príkladom je&amp;nbsp;zaúčtovanie úhrady faktúry (pohľadávky alebo záväzku), kde pre zaúčtovanie zálohovej faktúry možno nastaviť inú predkontáciu ako pri bežnej faktúre. 
+&lt;LI&gt;V&amp;nbsp;&lt;STRONG&gt;jednoduchom účtovníctve&lt;/STRONG&gt; výber predkontácie na zaúčtovanie úhrady faktúry&amp;nbsp;bude takýto: 
+&lt;OL&gt;
+&lt;LI&gt;ak je na faktúre zadaná predkontácia, použije sa táto predkontácia z&amp;nbsp;faktúry&amp;nbsp;(hlavná predkontácia nastavená v pravidle sa bude ignorovať), 
+&lt;LI&gt;ak sú nastavené podmienky na bližšie určenie predkontácie v&amp;nbsp;pravidle spracovania bankových výpisov, použije sa predkontácia nastavená v&amp;nbsp;prvej platnej podmienke, 
+&lt;LI&gt;ak sa žiadna z podmienok nevyhodnotí ako kladná, použije sa hlavná predkontácia nastavená v&amp;nbsp;pravidle. &lt;/LI&gt;&lt;/OL&gt;
+&lt;LI&gt;V&amp;nbsp;&lt;STRONG&gt;podvojnom účtovníctve&lt;/STRONG&gt; výber predkontácie na zaúčtovanie úhrady faktúry&amp;nbsp;bude takýto: 
+&lt;OL&gt;
+&lt;LI&gt;ak sú nastavené podmienky na bližšie určenie predkontácie v&amp;nbsp;pravidle spracovania bankových výpisov, použije sa predkontácia nastavená v&amp;nbsp;prvej platnej podmienke, 
+&lt;LI&gt;ak sa žiadna z podmienok nevyhodnotí ako kladná, použije sa hlavná predkontácia nastavená v&amp;nbsp;pravidle. &lt;/LI&gt;&lt;/OL&gt;
+&lt;LI&gt;Jednotlivé podmienky sa vyhodnocujú v poradí, v akom sú zotriedené pomocou &lt;A href="38489850-ab82-41b6-b258-3fa613ed5861"&gt;panela na zmenu poradia položiek zoznamu&lt;/A&gt;&amp;nbsp;(modrých šípok). Ak sa nájde prvá platná podmienka, použije sa predkontácia nastavená v tejto podmienke. Ak nebude žiadna podmienka vyhodnotená kladne, použije sa hlavná predkontácia nastavená v&amp;nbsp;pravidle. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 1: Určenie predkontácie na základe uhrádzaného dokladu&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/Accounting/Acc_Rules_Conditions.PNG"&gt;&lt;/P&gt;
+&lt;H2&gt;Manuálne vytvorenie pravidla&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;V&amp;nbsp;programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt; otvorte knihu&amp;nbsp;&lt;A href="02bbf54b-086f-4641-8c33-4dd461e56fb4" style="auto-update-caption: true"&gt;Spracovanie bankových výpisov&lt;/A&gt; (ponuka &lt;I&gt;Účtovníctvo&lt;/I&gt;) a stlačte tlačidlo &lt;I&gt;Pravidlá&lt;/I&gt;. 
+&lt;LI&gt;V&amp;nbsp;zobrazenom formulári &lt;I&gt;Pravidlá spracovania bankových výpisov&lt;/I&gt; stlačte tlačidlo &lt;I&gt;Nový.&lt;/I&gt; Zobrazí sa formulár &lt;I&gt;Pravidlo spracovania&lt;/I&gt;, v&amp;nbsp;ktorom v&amp;nbsp;záložke &lt;I&gt;Základné&lt;/I&gt; zadajte &lt;STRONG&gt;poradové číslo, názov, typ pravidla a&amp;nbsp;predkontáciu&lt;/STRONG&gt;, podľa ktorej sa budú položky výpisu&amp;nbsp;automaticky spracúvať. V&amp;nbsp;prípade, že začiarknete pole &lt;EM&gt;&lt;STRONG&gt;Umožniť použiť aj ďalšie pravidlá spracovania&lt;/STRONG&gt;&lt;/EM&gt;, program pri spracovaní danej položky bankového výpisu (transakcie) bude vyhľadávať aj v&amp;nbsp;ďalších definovaných pravidlách. Nastavenie má význam&amp;nbsp;pri zápise úhrad (objednávky, do rezervácie ubytovania), keď je potrebné danú transakciu spracovať dvakrát, najprv ako zápis úhrady do príslušnej evidencie a potom ako zaúčtovanie úhrady&amp;nbsp;pohľadávky do&amp;nbsp;&lt;A href="d8c9bfc8-92d1-4471-8909-e5f8ce602d6c"&gt;účtovného&lt;/A&gt;/&lt;A href="5e82cca9-b8af-4a80-ba30-7ab91914a595"&gt;peňažného denníka&lt;/A&gt;. 
+&lt;LI&gt;V&amp;nbsp;záložke &lt;I&gt;Položky pravidla&lt;/I&gt; stlačte tlačidlo &lt;I&gt;Nový&lt;/I&gt;. V&amp;nbsp;zobrazenom okne &lt;I&gt;Položka pravidla&lt;/I&gt; vyberte &lt;I&gt;Pole, Podmienku&lt;/I&gt; a &lt;I&gt;Hodnotu&lt;/I&gt; podľa charakteru platieb, na ktoré sa bude pravidlo vzťahovať. Rozbaľovací zoznam &lt;I&gt;Pole&lt;/I&gt; obsahuje položky &lt;I&gt;Len debet, Len kredit&lt;/I&gt;, pri ktorých sa &lt;I&gt;Podmienka&lt;/I&gt; a&amp;nbsp;&lt;I&gt;Hodnota&lt;/I&gt; nezadávajú. Pri výbere ďalších položiek z&amp;nbsp;rozbaľovacieho zoznamu &lt;I&gt;Pole&lt;/I&gt; je potrebné zadať &lt;EM&gt;podmienku (sa rovná, obsahuje, začína textom)&lt;/EM&gt; a&amp;nbsp;&lt;EM&gt;hodnotu&lt;/EM&gt; položky pravidla. Na základe zvolenej &lt;EM&gt;podmienky&lt;/EM&gt; systém porovnáva pole výpisu s&amp;nbsp;&lt;EM&gt;hodnotou&lt;/EM&gt; zadanou v&amp;nbsp;pravidle. Položka výpisu vyhovuje pravidlu,&amp;nbsp;ak sú splnené všetky podmienky, ktoré sú v pravidle definované. &lt;/LI&gt;&lt;/OL&gt;
+&lt;H2&gt;Vytvorenie pravidla podľa aktuálnej položky&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;Otvorte knihu&amp;nbsp;&lt;A href="02bbf54b-086f-4641-8c33-4dd461e56fb4" style="auto-update-caption: true"&gt;Spracovanie bankových výpisov&lt;/A&gt; (ponuka &lt;I&gt;Účtovníctvo&lt;/I&gt;). 
+&lt;LI&gt;Označte kurzorom&amp;nbsp;položku, podľa ktorej&amp;nbsp;sa pravidlo vytvorí. 
+&lt;LI&gt;Stlačte tlačidlo &lt;I&gt;Možnosti&lt;/I&gt; a&amp;nbsp;kliknite na ponuku &lt;I&gt;Vytvoriť pravidlo (podľa aktuálnej položky).&lt;/I&gt;&amp;nbsp;Po spustení danej funkcie program automaticky vytvorí pravidlo, podľa ktorého&amp;nbsp;sa zvolená položka spracuje. Položky pravidla, ktoré nebudú obsahovať všetky položky bankového výpisu, na ktoré sa bude vzťahovať, možno vymazať (napr. úhrada záväzku: suma, číslo účtu, VS...). &lt;/LI&gt;&lt;/OL&gt;&lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt; 
+&lt;UL&gt;
+&lt;LI&gt;Vytváraným pravidlám sa priraďuje poradové číslo, ktoré určuje poradie, v ktorom budú položky bankového výpisu spracúvané (od&amp;nbsp;najnižšieho po najvyššie).&amp;nbsp;Pri vytváraní pravidiel je nutné začať s pravidlami, ktoré sa v priebehu roka nemenia a je ich možné jasne identifikovať (napr. poplatok za vedenie účtu, kreditný úrok atď.) a&amp;nbsp;takýmto pravidlám priradiť najnižšie poradové číslo (program&amp;nbsp;ich bude spracovávať ako prvé). Vyššie poradové číslo prideľte pravidlám na spracovanie zvyšných&amp;nbsp;položiek, o ktorých možno predpokladať, že budú úhrady prijatých&amp;nbsp;objednávok, pohľadávok a&amp;nbsp;pod. V opačnom prípade &lt;STRONG&gt;program &lt;SPAN style="COLOR: rgb(255,0,0)"&gt;nebude spracúvať bankové výpisy správne&lt;/SPAN&gt;&lt;/STRONG&gt;: ak napr. pravidlu na spracovanie úhrady pohľadávky priradíte nižšie poradové číslo ako už známym kreditným transakciám, hrozí riziko, že program bude&amp;nbsp;danú kreditnú transakciu&amp;nbsp;považovať za úhradu pohľadávky (ktorú pri vyhľadávaní variabilného symbolu pravdepodobne v&amp;nbsp;knihe pohľadávok nenájde a na vzniknutý problém upozorní chybovým hlásením). 
+&lt;LI&gt;Ak je v programe definované pravidlo na zápis úhrady prijatej objednávky a ďalšie pravidlo na zaúčtovanie úhrady pohľadávky, &lt;STRONG&gt;je dôležité, ktoré z týchto pravidiel má vyššiu prioritu&lt;/STRONG&gt; (nižšie poradové číslo). Pri pravidle s&amp;nbsp;vyššou prioritou&amp;nbsp;je potrebné začiarknuť pole&amp;nbsp;&lt;EM&gt;&lt;STRONG&gt;Umožniť použiť aj ďalšie pravidlá spracovania&lt;/STRONG&gt;&lt;/EM&gt; (vo formulári &lt;EM&gt;Pravidlo spracovania&lt;/EM&gt;, záložka základné). Vtedy&amp;nbsp;program pri spracovaní danej položky bankového výpisu bude vyhľadávať vhodné pravidlo aj medzi ďalšími definovanými pravidlami.&amp;nbsp;Pri pravidle s&amp;nbsp;nižšou prioritou&amp;nbsp;je potrebné ponechať pole &lt;STRONG&gt;&lt;EM&gt;Umožniť použiť aj ďalšie pravidlá spracovania&lt;/EM&gt;&lt;/STRONG&gt; &lt;SPAN style="COLOR: rgb(0,0,0)"&gt;nezačiarknuté&lt;/SPAN&gt;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;.&lt;/SPAN&gt; &lt;/LI&gt;&lt;/UL&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H4&gt;Príklad č. 1: Poplatok za vedenie účtu&lt;/H4&gt;
+&lt;P&gt;Príklad č. 1 zobrazuje situáciu, keď číslo protiúčtu je rovné 0 (na obrázku číslo 0000000000). Táto situácia znamená, že položka bankového výpisu bola poslaná z banky. Väčšinou ide o rôzne poplatky, úroky, daň z úrokov a pod.&lt;/P&gt;
+&lt;P&gt;V príklade je vytvorené pravidlo, podľa ktorého je možné účtovať mesačné poplatky banke za vedenie účtu. Program zaúčtuje položku bankového výpisu vtedy,&amp;nbsp;keď sa poznámka bude rovnať textu &lt;EM&gt;Poplatok za vedenie účtu&lt;/EM&gt;.&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/Accounting/Acc_Rules_Banks1.PNG"&gt;&amp;nbsp;&amp;nbsp;&lt;IMG border=0 alt="" src="images/Forms/Accounting/Acc_Rules_Banks2.PNG"&gt;&lt;/P&gt;
+&lt;H4&gt;Príklad č. 2: Úhrada faktúry konkrétnemu dodávateľovi&lt;/H4&gt;
+&lt;P&gt;Príklad č. 2 zobrazuje pravidlo, podľa ktorého je možné zaúčtovať úhradu záväzku, ak daný variabilný symbol obsahuje viac dokladov v knihe pohľadávok alebo záväzkov.&lt;/P&gt;
+&lt;P&gt;V&amp;nbsp;príklade je znázornené pravidlo, podľa ktorého je možné zaúčtovať záväzok voči SPP za dodávku plynu. V tomto prípade účtovná jednotka pozná číslo účtu, kód banky, aj variabilný symbol, lebo tieto údaje sa nemenia.&lt;/P&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/Accounting/Acc_Rules_Bank3.PNG" useMap=#{C2F6C781-3F46-458E-8B00-E2BC9AE42957}&gt;&amp;nbsp;&amp;nbsp;&lt;IMG border=0 alt="" src="images/Forms/Accounting/Acc_Rules_Banks4.PNG"&gt;&lt;MAP name={C2F6C781-3F46-458E-8B00-E2BC9AE42957}&gt; &lt;/MAP&gt;&lt;/P&gt;
+&lt;H4&gt;Príklad č.&amp;nbsp;3: Úhrada pohľadávky&lt;/H4&gt;
+&lt;P&gt;Po vytvorení pravidiel, ktoré sú jasne definované, je možné pristúpiť k vytvoreniu pravidiel, ktoré nie sú také konkrétne, napr. pravidlo na zaúčtovanie úhrady pohľadávky alebo záväzku. Príklad č. 3 zobrazuje pravidlo na zaúčtovanie úhrady&amp;nbsp;vystavenej faktúry (pohľadávky). Keďže ide o zaúčtovanie úhrady pohľadávky, v&amp;nbsp;záložke &lt;EM&gt;Položky pravidla&lt;/EM&gt; je potrebné zvoliť možnosť &lt;EM&gt;Len kredit&lt;/EM&gt; (pravidlo sa použije len pri kreditných transakciách). Rozhodujúcim nastavením je typ pravidla &lt;EM&gt;&lt;STRONG&gt;Úhrada pohľadávky&lt;/STRONG&gt;&lt;/EM&gt; - na základe neho bude program pri spracovaní bankových výpisov vyhľadávať príslušný záznam v&amp;nbsp;&lt;A href="5c21adcc-87c8-44e7-981d-02902635693d"&gt;knihe pohľadávok&lt;/A&gt;. Pri nájdení zhody &lt;STRONG&gt;variabilného symbolu&lt;/STRONG&gt; vykoná zaúčtovanie úhrady pohľadávky do účtovného/peňažného denníka.&lt;/P&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/Accounting/Acc_Rules_Bank5.png"&gt;&amp;nbsp;&amp;nbsp;&lt;IMG border=0 alt="" src="images/Forms/Accounting/Acc_Rules_Bank6.png"&gt;&lt;/P&gt;
+&lt;H4&gt;Príklad č.&amp;nbsp;4: Zápis úhrady do objednávky&lt;/H4&gt;
+&lt;P&gt;Príklad č.&amp;nbsp;4 zobrazuje pravidlo&amp;nbsp;na zápis úhrady prijatej objednávky. Keďže ide o&amp;nbsp;zápis úhrady objednávky, v&amp;nbsp;záložke &lt;EM&gt;Položky pravidla&lt;/EM&gt; je potrebné zvoliť možnosť &lt;EM&gt;Len kredit&lt;/EM&gt; (pravidlo sa použije len pri kreditných transakciách). Rozhodujúcim nastavením je typ pravidla &lt;EM&gt;&lt;STRONG&gt;Zápis úhrady do objednávky&lt;/STRONG&gt;&lt;/EM&gt; - na základe neho bude program pri spracovaní bankových výpisov vyhľadávať príslušný záznam v&amp;nbsp;&lt;A href="48505e8d-5f28-4063-882b-ca07f33670ef"&gt;knihe prijatých objednávok&lt;/A&gt;. Pri nájdení zhody &lt;STRONG&gt;čísla objednávky&lt;/STRONG&gt; vykoná&amp;nbsp;zápis úhrady objednávky do knihy prijatých objednávok.&lt;/P&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/Accounting/Acc_Rules_Bank7.PNG"&gt;&amp;nbsp;&amp;nbsp;&lt;IMG border=0 alt="" src="images/Forms/Accounting/Acc_Rules_Bank8.PNG"&gt;&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="d8e9f979-37b2-489c-aa50-9c8ed02ba9fb" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="0121f553-c6f2-4860-87bc-485e3cb08e2f">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="3eb5df9c-e02c-4a4b-a6d7-3a27f9c80120" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="02bbf54b-086f-4641-8c33-4dd461e56fb4">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="8f164284-05c4-445b-adae-7a59ca0216a1" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1a074e9a-9cf9-4ab8-b9a8-68575142a704">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="21794585-3032-44dd-b0b0-3db6e98bce2e" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="da8a9192-a6cc-4470-b5d5-13d3ec435f97">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="ce5df3e7-a103-4b25-8d7d-3af204184377" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="6dd73cf9-75cf-48d2-a903-62cd66b9478a">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="0584375d-0ce7-4b90-a7cb-418b56970787" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="93ded66f-b7a6-40a8-89e0-bd501cd17bfc">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="cd67556c-0bb7-46bc-af32-d213f6fa0107">
+      <Keyword m="2022-11-21T11:53:13.7208146Z">Bankové výpisy - pravidlá pre zaúčtovanie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="bf7c975c-0dd9-4dc0-ae8b-02dcec331bb2">
+      <Keyword m="2022-11-21T09:08:16.6309869Z">Pravidlá pre zaúčtovanie bankových výpisov - príklady</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="00328bc6-e25b-4b2b-91f9-34ebee43c5ab">
+      <Keyword m="2023-11-06T08:31:19.0620754Z">Umožniť použiť aj ďalšie pravidlá spracovania</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="497934fc-e822-486e-a947-ccc43b64c8ce">
+      <Keyword m="2023-11-06T08:31:31.6629126Z">Pravidlo spracovania - bankové výpisy</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

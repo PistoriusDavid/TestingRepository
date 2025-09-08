@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="5f4331ed-2a3a-426e-8cdb-4ac3adb49a3b" Status="Complete" CreatedOn="2018-02-05T12:54:42.8333306Z" ModifiedOn="2024-03-20T13:29:43.1615455Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Eletronic_Signature_Verifcation" BuildFlags="">
+  <Title m="2018-02-05T12:55:58.2805166Z">Overenie dôveryhodnosti elektronického podpisu</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-03-20T13:29:25.2465228Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;postupy, ako overiť dôveryhodnosť elektronického podpisu&amp;nbsp;pri importe elektronických dokumentov&lt;/STRONG&gt; do systému OBERON. Jednotlivé postupy sa líšia v&amp;nbsp;závislosti od typu (formátu) daného dokumentu.&lt;/P&gt;
+&lt;H2&gt;Overenie podpisu dokumentu vo formáte PDF&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Dôveryhodnosť elektronického podpisu pri importe elektronických dokumentov &lt;STRONG&gt;vo formáte PDF&lt;/STRONG&gt; (napr. faktúry) je možné &lt;STRONG&gt;vizuálne overiť priamo&amp;nbsp;v&amp;nbsp;danom dokumente otvorenom v programe&lt;/STRONG&gt;&lt;EM&gt;&amp;nbsp;&lt;STRONG&gt;Adobe Reader&lt;/STRONG&gt;&lt;/EM&gt; (od verzie 9.1) (pozri Obrázok&amp;nbsp;č.&amp;nbsp;1). 
+&lt;LI&gt;V&amp;nbsp;niektorých prípadoch sa môže vyskytnúť problém pri zobrazení informácie o korektnosti elektronického podpisu. Riešením je pridanie certifikátu medzi dôveryhodné certifikáty (pozri Obrázok č. 2).&amp;nbsp; &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č.&amp;nbsp;1: Overenie&amp;nbsp;dôveryhodnosti&amp;nbsp;elektronického podpisu&amp;nbsp;na faktúre&amp;nbsp;vo formáte PDF&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/ProductOptions/ElectronicSignature/ElectronicSignature_Verification.png"&gt;&lt;/P&gt;
+&lt;H5&gt;Obrázok č.&amp;nbsp;2: Pridanie bezpečnostného certifikátu&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/ProductOptions/ElectronicSignature/ElectronicSignature_Verification_AddCertificate800px.png"&gt;&amp;nbsp;&lt;/P&gt;
+&lt;H2&gt;Overenie podpisu dokumentu vo formáte XML&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Systém OBERON umožňuje &lt;STRONG&gt;automaticky overiť dôveryhodnosť elektronického podpisu&amp;nbsp;pri importe elektronických dokumentov vo formáte XML&lt;/STRONG&gt; (pri tzv.&amp;nbsp;&lt;A href="56f661c6-24da-46aa-b157-5d988cbe792b"&gt;XML komunikácii&lt;/A&gt;). Okrem overenia dôveryhodnosti&amp;nbsp;elektronického podpisu a samotného dokumentu (kontrola, či nebol pozmenený) je možné overiť, či daný elektronický dokument&amp;nbsp;naozaj patrí tomu, od koho pochádza - teda danému obchodnému partnerovi. Vtedy je však potrebné priradiť danému obchodnému partnerovi jeho certifikát (verejný klúč) podľa&amp;nbsp;tohto postupu: 
+&lt;OL&gt;
+&lt;LI&gt;Nainštalujte do počítača certifikát (verejný kľúč) daného obchodného partnera. Bližšie informácie získate v téme&amp;nbsp;&lt;A href="5b587dad-82da-489c-9bc2-a73dc28a0b4a"&gt;Inštalácia verejného kľúča&lt;/A&gt;. 
+&lt;LI&gt;V ponuke &lt;I&gt;Firma&lt;/I&gt;, &lt;A href="b7a48886-b367-4056-808a-59ba5f871f32"&gt;Obchodní partneri&lt;/A&gt; vyberte daného obchodného partnera&amp;nbsp;a stlačte tlačidlo &lt;I&gt;Oprava&lt;/I&gt;. V záložke &lt;I&gt;Rozšírené&lt;/I&gt; otvorte rozbaľovací zoznam, ktorý obsahuje zoznam certifikátov inštalovaných v&amp;nbsp;úložisku systému &lt;EM&gt;Windows&lt;/EM&gt; (&lt;I&gt;Certifikáty - Certifikáty aktuálny používateľ - Ostatní&lt;/I&gt;). Vyberte daný certifikát a stlačte tlačidlo &lt;EM&gt;&lt;STRONG&gt;OK&lt;/STRONG&gt;.&lt;/EM&gt; 
+&lt;LI&gt;Následne&amp;nbsp;sa &lt;B&gt;na danom počítači&lt;/B&gt; pri importe údajov automaticky&amp;nbsp;overí dôveryhodnosť&amp;nbsp;elektronického podpisu&amp;nbsp;pri každom importovanom elektronickom dokumente vo formáte XML. &lt;/LI&gt;&lt;/OL&gt;&lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt; 
+&lt;P&gt;Obrázok č.&amp;nbsp;3 obsahuje súbor vo formáte XML s&amp;nbsp;textovou časťou (element &lt;B&gt;Signature&lt;/B&gt;) na jeho konci, ktorá nesie informáciu o&amp;nbsp;elektronickom podpise. Ak&amp;nbsp;používateľ, ktorý nemá&amp;nbsp;priradený certifikát&amp;nbsp;na vytvorenie elektronického podpisu, vytvorí XML dokument (exportuje údaje vo formáte XML), elektronický podpis sa, samozrejme, nevytvorí a dokument nebude obsahovať element&amp;nbsp;&lt;B&gt;Signature.&lt;/B&gt;&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H5&gt;Obrázok č. 3: Časť XML súboru s informáciou o&amp;nbsp;elektronickom podpise&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/ProductOptions/ElectronicSignature/EL_podpis_12.png"&gt;&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="b4b5f036-f793-4ae9-b38b-3879e2b4bccb" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="c1e2e5a1-2cf4-47aa-a546-47d5baa1df3e">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="90fa752a-c7e1-4da7-bc37-fdceeea0c97c" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="bc1bbd4d-e641-438f-9b36-0a24347dd246">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="432e7ea7-7fe5-4bf6-a5d0-4c6640c273f4">
+      <Keyword m="2022-10-25T12:05:04.6483571Z">Elektronický podpis - overenie dôveryhodnosti</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="d5b5a775-01a1-45a4-8913-82b7a338d509">
+      <Keyword m="2022-10-25T12:05:18.9464688Z">KEP - overenie dôveryhodnosti</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="540619b0-70a8-4f79-b924-f3aa6254d11a">
+      <Keyword m="2022-10-25T12:05:31.1646766Z">Kvalifikovaný elektronický podpis - overenie dôveryhodnosti</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="483f9b02-ebd7-4125-aa77-27d40638c746">
+      <Keyword m="2024-03-20T13:29:36.3554479Z">PDF, XML - overenie dôveryhodnosti el. podpisu</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="c58bb5f8-5670-4bc2-87bb-e5289b7891a7">
+      <Keyword m="2024-03-20T13:29:43.1575452Z">XML, PDF - overenie dôveryhodnosti el. podpisu</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

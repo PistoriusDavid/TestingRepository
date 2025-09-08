@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="280be3ab-e42c-462b-bb0b-7abeac11b45a" Status="Complete" CreatedOn="2014-09-08T10:28:53.5541972Z" ModifiedOn="2024-07-17T08:12:34.5344427Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="22801" Name="Menu_Vehicles_Mileage_Book" BuildFlags="">
+  <Title m="2014-09-08T10:29:24.425963Z">Kniha jázd</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-04-29T08:28:25.1032555Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;je venovaná&amp;nbsp;položke&amp;nbsp;&lt;EM&gt;Kniha jázd&lt;/EM&gt; v&amp;nbsp;ponuke&amp;nbsp;&lt;EM&gt;Vozidlá&lt;/EM&gt; programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Výberom položky sa otvorí&amp;nbsp;&lt;EM&gt;Kniha jázd&lt;/EM&gt; - základná kniha modulu &lt;A href="085651d2-b64b-4884-b55d-0ba2b7f7808a"&gt;Evidencia vozidiel&lt;/A&gt;, ktorá &lt;STRONG&gt;umožňuje evidovať uskutočnené tuzemské a zahraničné jazdy&lt;/STRONG&gt; firemných, resp. prenajatých a&amp;nbsp;súkromných&amp;nbsp;&lt;A href="c6542278-5d57-4c96-b3d8-ec30f2b5a6d3"&gt;vozidiel&lt;/A&gt;. 
+&lt;LI&gt;V&amp;nbsp;knihe&amp;nbsp;jázd sa&amp;nbsp;záznamy (jazdy)&amp;nbsp;zobrazujú podľa príslušnosti k&amp;nbsp;&lt;A href="c6542278-5d57-4c96-b3d8-ec30f2b5a6d3"&gt;vozidlu&lt;/A&gt;.&amp;nbsp;V&amp;nbsp;prípade používania viacerých&amp;nbsp;vozidiel záznamy&amp;nbsp;prislúchajúce k jednotlivým&amp;nbsp;vozidlám možno zobraziť ako podmnožiny&amp;nbsp;záznamov knihy&amp;nbsp;jázd.&amp;nbsp;Možno tak urobiť pomocou &lt;STRONG&gt;filtra&amp;nbsp;&lt;EM&gt;Vozidlo&lt;/EM&gt;&lt;/STRONG&gt; v&amp;nbsp;hornej časti evidencie. 
+&lt;LI&gt;Hlavička tabuľky &lt;EM&gt;Knihy jázd&lt;/EM&gt;&amp;nbsp;s&amp;nbsp;názvami polí (stĺpcov) sa líši podľa toho, či&amp;nbsp;je aktuálne&amp;nbsp;&lt;A href="c6542278-5d57-4c96-b3d8-ec30f2b5a6d3"&gt;vozidlo&lt;/A&gt; evidované ako &lt;STRONG&gt;firemné, resp. prenajaté&amp;nbsp;alebo súkromné&lt;/STRONG&gt;. 
+&lt;LI&gt;Pri firemnom a&amp;nbsp;prenajatom&amp;nbsp;vozidle je&amp;nbsp;pred samotným zaevidovaním jednotlivých jázd potrebné mať zaevidované doklady o&amp;nbsp;&lt;A href="822d4556-571e-4260-ab82-e68d232b1662"&gt;nákupe PHL&lt;/A&gt;. Následne sa&amp;nbsp;v&lt;EM&gt;&amp;nbsp;Knihe jázd&lt;/EM&gt; pri zvolenom firemnom, resp. prenajatom vozidle zobrazí &lt;STRONG&gt;zoznam dokladov&lt;/STRONG&gt; s&amp;nbsp;údajmi o nákupe PHL, podľa ktorých&amp;nbsp;bude možné&amp;nbsp;zaevidovať príslušné jazdy.&amp;nbsp;Po zaevidovaní danej jazdy na základe príslušného dokladu o&amp;nbsp;&lt;A href="822d4556-571e-4260-ab82-e68d232b1662"&gt;nákupe PHL&lt;/A&gt;&amp;nbsp;sa údaje tohto dokladu (množstvo, cena, číslo&amp;nbsp;dokladu...) prenesú do&amp;nbsp;príslušných polí&amp;nbsp;záznamu jazdy. Aby sa tieto údaje o&amp;nbsp;nákupe PHL do danej jazdy preniesli, je nevyhnutné, aby dátum a čas nákupu PHL &lt;STRONG&gt;spadal do rozsahu&amp;nbsp;dátumov (časov) uskutočnenia jazdy&lt;/STRONG&gt;. 
+&lt;LI&gt;Daný&amp;nbsp;pokladničný doklad sa pri zvolenom firemnom, resp. prenajatom vozidle&amp;nbsp;v&lt;EM&gt;&amp;nbsp;Knihe jázd&lt;/EM&gt; zobrazuje len do chvíle, kým sa na základe neho nezaeviduje sa jazda&amp;nbsp;v&lt;EM&gt;&amp;nbsp;Knihe jázd&lt;/EM&gt;, t.&amp;nbsp;j. kým sa jeho údaje neprenesú do&amp;nbsp;príslušných polí&amp;nbsp;záznamu jazdy&lt;EM&gt;.&amp;nbsp;&lt;/EM&gt;To umožňuje &lt;STRONG&gt;zaevidovať jazdy aj spätne&lt;/STRONG&gt; po uplynutí aj niekoľkých mesiacov od&amp;nbsp;ich uskutočnenia - pri firemných, resp. prenajatých vozidlách účtovná jednotka vie, že na základe jednotlivých dokladov o nákupe PHL, ktoré sa zobrazujú pri danom vozidle, ešte neboli zaevidované jazdy. Pri súkromných vozidlách je možné údaje o tom, kde a kedy vozidlo čerpalo PHL, zistiť v&amp;nbsp;knihe&amp;nbsp;&lt;A href="822d4556-571e-4260-ab82-e68d232b1662"&gt;Nákup PHL&lt;/A&gt;. 
+&lt;LI&gt;V&amp;nbsp;prípade, že účtovná jednotka eviduje doklady o nákupe PHL v&amp;nbsp;module &lt;EM&gt;Účtovníctvo&lt;/EM&gt;, v&amp;nbsp;programe sa vytvorí väzba medzi zaúčtovaným pokladničným dokladom a dokladom evidovaným v&amp;nbsp;module&amp;nbsp;&lt;A href="085651d2-b64b-4884-b55d-0ba2b7f7808a"&gt;Evidencia vozidiel&lt;/A&gt; (následne sa napr. pri prečíslovaní pokladničných dokladov v&amp;nbsp;účtovnom, resp. peňažnom&amp;nbsp;denníku automaticky prečíslujú aj doklady v knihe jázd). Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="75b0747a-07d3-4044-a463-48cbddb73f49" style="auto-update-caption: true"&gt;Zaevidovanie dokladu o nákupe PHL&lt;/A&gt;. 
+&lt;LI&gt;V&lt;EM&gt;&amp;nbsp;Knihe jázd&lt;/EM&gt; sa pre zvolené firemné, resp. prenajaté&amp;nbsp;vozidlo zobrazuje aj&amp;nbsp;&lt;STRONG&gt;z&lt;I&gt;ostatok paliva&lt;/I&gt;&lt;/STRONG&gt; a&amp;nbsp;&lt;EM&gt;&lt;STRONG&gt;dojazd&lt;/STRONG&gt;,&lt;/EM&gt; ktorý je vypočítaný vždy k&amp;nbsp;poslednej evidovanej jazde. &lt;EM&gt;Zostatok paliva&lt;/EM&gt; má len informatívny charakter a slúži na približné určenie stavu paliva (pri vytváraní novej jazdy sa vždy uistite, že vozidlo má&amp;nbsp;dostatočný zostatok paliva). 
+&lt;LI&gt;Zo záznamu &lt;EM&gt;Knihy jázd&amp;nbsp;&lt;/EM&gt;možno jednoducho &lt;STRONG&gt;vytvoriť cestovný príkaz&lt;/STRONG&gt; (tlačidlo &lt;EM&gt;Možnosti&lt;/EM&gt;), ktorý bude dostupný v&amp;nbsp;evidencii&amp;nbsp;&lt;A href="1c45ad86-636b-4d4e-87f9-e2932e494f51"&gt;Cestovné príkazy&lt;/A&gt; &lt;EM&gt;(&lt;/EM&gt;ponuka &lt;EM&gt;Vozidlá)&lt;/EM&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Pri evidovaní jazdy po zadaní dĺžky trasy v km program automaticky vypočíta čas jazdy podľa vzdialenosti.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Dostupné&amp;nbsp;možnosti&lt;/H2&gt;
+&lt;P&gt;Ďalšie možnosti práce so záznamami&amp;nbsp;sú dostupné&amp;nbsp;po stlačení tlačidla &lt;EM&gt;Možnosti&lt;/EM&gt;, prípadne v&amp;nbsp;kontextovej ponuke tabuľky záznamov.&lt;/P&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Z jazdy vytvoriť cestovný príkaz&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Zo záznamu v evidencii &lt;EM&gt;Knihy jázd&lt;/EM&gt; vytvorí cestovný príkaz, ktorý bude dostupný v&amp;nbsp;evidencii&amp;nbsp;&lt;A href="1c45ad86-636b-4d4e-87f9-e2932e494f51"&gt;Cestovné príkazy&lt;/A&gt; &lt;EM&gt;(&lt;/EM&gt;ponuka &lt;EM&gt;Vozidlá)&lt;/EM&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Pridať do existujúceho cestovného príkazu&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Umožňuje pridať&amp;nbsp;zvolenú jazdu do existujúceho cestovného príkazu.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Zobraziť cestovný príkaz&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Zobrazí&amp;nbsp;&lt;A href="1c45ad86-636b-4d4e-87f9-e2932e494f51"&gt;cestovný príkaz&lt;/A&gt;, ktorý je možné upraviť.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Prepočet spotreby PHL&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Otvorí sa sprievodca, pomocou ktorého možno prepočítať spotrebu PHL v jednotlivých jazdách. Jazdy v ktorých bola spotreba manuálne upravovaná, nebudú do automatického prepočtu zahrnuté.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Bližšie informácie o ovládaní evidencie, používaní filtrov, triedení záznamov a pod. sú dostupné v&amp;nbsp;téme&amp;nbsp;&lt;A href="8936fde4-aac3-4672-99a2-c8bd5ccffdcd"&gt;Ovládanie knihy (evidencie)&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="9f702dde-3f9d-417a-85d1-26dde702e1dc" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="822d4556-571e-4260-ab82-e68d232b1662">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="f47fa443-916f-452a-a9ba-013bcd744f8d" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="792fd782-391e-4f5a-95a0-f5784a058294">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="ad7c9646-5046-4ddd-91c9-72e62e70b62c" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="c6542278-5d57-4c96-b3d8-ec30f2b5a6d3">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="c1bef9b8-5bb5-4510-b2e4-63001da71839" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="0e8e9ee3-91f6-4c3e-ae22-f874f9d4c8cc">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="543880b2-8446-4640-9b95-8e6dc7d3a9a7" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="d217346c-8ef3-4c61-a572-2ee976bb817f">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="03aca131-7bde-48de-988f-86fe764ab98f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="beb97ace-1408-443d-87c0-bce72b007ea7">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="8d65af81-7ee6-4e81-bc85-fc2ba2d21106" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1c45ad86-636b-4d4e-87f9-e2932e494f51">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="ab6bb311-2cc7-4f2d-9b82-fbddb4dea472" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="3e00a8e4-7e48-4911-b6e8-8b43fa6aa331">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="f1505cee-7895-4866-bbfb-1b10ca2f3d0c">
+      <Keyword m="2014-11-12T10:34:15.4999063Z">Autá</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="915387f5-4cdf-4820-88b7-6341e99c2d37">
+      <Keyword m="2015-05-04T08:55:20.7371016Z">Jazdy</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

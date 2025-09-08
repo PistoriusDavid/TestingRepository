@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="de98f84b-b20b-4ec8-9b0f-fd1bad07c9a2" Status="Complete" CreatedOn="2014-09-11T07:31:53.1530156Z" ModifiedOn="2022-11-22T10:22:38.9464001Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="AccDouble_Start_Main_Book_Print" BuildFlags="">
+  <Title m="2014-09-11T07:32:32.74228Z">Vytlačenie hlavnej knihy, súvahy, výsledovky</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2022-11-22T10:22:38.9464001Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;informácie k vytlačeniu účtovných tlačových výstupov&lt;/STRONG&gt; v systéme OBERON.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;V&amp;nbsp;&lt;A href="49dd3167-870a-4fdf-b631-d4f692f1ed72"&gt;podvojnom účtovníctve&lt;/A&gt; je časť účtovných tlačových výstupov dostupná v&amp;nbsp;&lt;A href="d8c9bfc8-92d1-4471-8909-e5f8ce602d6c"&gt;účtovnom denníku&lt;/A&gt; (napr. &lt;EM&gt;Hlavná kniha&lt;/EM&gt;, &lt;EM&gt;Obraty na účtoch&lt;/EM&gt;, &lt;EM&gt;Saldokonto&lt;/EM&gt;). 
+&lt;LI&gt;Výkazy sú však k dispozícii v&amp;nbsp;samostatnej evidencii&amp;nbsp;&lt;A href="71b702c2-e6e7-4f9a-b66b-15dba7d31ae1"&gt;Priznania a výkazy&lt;/A&gt;&lt;STRONG&gt;&amp;nbsp;&lt;/STRONG&gt;(ponuka &lt;EM&gt;Firma&lt;/EM&gt;). Tu&amp;nbsp;je dostupný aj tlačový výstup &lt;EM&gt;Účtovná závierka&lt;/EM&gt; so súvahou a výkazom ziskov a strát (výsledovkou). &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Postup vytlačenia (zostavenia) výkazov&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;V ponuke &lt;I&gt;Firma&lt;/I&gt; zvoľte položku&amp;nbsp;&lt;EM&gt;&lt;A href="71b702c2-e6e7-4f9a-b66b-15dba7d31ae1"&gt;Priznania a výkazy&lt;/A&gt;&lt;/EM&gt;&lt;B&gt;.&lt;/B&gt; 
+&lt;LI&gt;Stlačte tlačidlo &lt;I&gt;Nový&lt;/I&gt;, zvoľte&amp;nbsp;typ výkazu, ktorý&amp;nbsp;chcete zostaviť.&amp;nbsp;Následne sa otvorí sprievodca zostavením daného výkazu&lt;EM&gt;.&lt;/EM&gt; 
+&lt;LI&gt;Po vytvorení každý nový výkaz zostáva v zozname. Tu je možné vytvorené výkazy&amp;nbsp;opakovane prezerať alebo vytlačiť.&amp;nbsp;Zároveň je ich&amp;nbsp;možné exportovať do programu &lt;STRONG&gt;eDane&lt;/STRONG&gt;. Viac informácií získate v téme&amp;nbsp;&lt;A href="c5a0e260-f27f-4a19-9b09-39a40bfbd69f"&gt;Export výkazov do aplikácie eDane&lt;/A&gt;. &lt;/LI&gt;&lt;/OL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="730ba084-72b4-42dd-b89a-849d7576783d" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="66ed476e-d5ea-4e46-a758-a3f190a60a7c">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="ae3b2835-684a-4c06-bfbc-efa0a3f231f9" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="d8c9bfc8-92d1-4471-8909-e5f8ce602d6c">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="b9f799e5-36ab-4e84-b1a1-5ad585b98be3" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="71b702c2-e6e7-4f9a-b66b-15dba7d31ae1">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="7163ead3-1c42-4e4c-8440-44e805531227" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="c5a0e260-f27f-4a19-9b09-39a40bfbd69f">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="216268dc-6127-43b6-a284-e5bc454cce47">
+      <Keyword m="2021-08-09T09:08:48.3527751Z">Výsledovka - tlač</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="b3d26418-e864-4851-bdef-6d9b613a508d">
+      <Keyword m="2021-08-09T09:08:38.4715466Z">Súvaha - tlač</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="0e4e55d3-a425-4115-a81c-52dfb021d79c">
+      <Keyword m="2021-08-09T09:09:03.0911983Z">Tlač hlavnej knihy</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="6415d24a-e310-4f49-99fc-7e11780f7511">
+      <Keyword m="2021-08-09T09:08:44.5762733Z">Účtovná závierka - tlač</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="0cad68cc-91b4-493f-9bf4-4805836422dd">
+      <Keyword m="2021-08-09T09:09:10.8997657Z">Hlavná kniha - tlač</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="3183a901-15ce-410c-b6f0-8065901f749a">
+      <Keyword m="2021-08-09T09:09:17.6605526Z">Účtovné knihy - tlač</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="5fc531cb-9c2c-4b72-88f4-c988ad8bce3a">
+      <Keyword m="2021-08-09T09:09:27.3421126Z">Tlač súvahy</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="81b6c0b6-0264-409b-baf0-ecb3e4897022">
+      <Keyword m="2021-08-09T09:09:31.8467813Z">Tlač výsledovky</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="9fcaa9b3-d7b5-4edd-91bc-1904df4f28ce">
+      <Keyword m="2021-08-09T09:09:45.2083727Z">Tlač účtovných kníh</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="c47973d1-8866-4142-a372-e5a497b4eca7" Status="Complete" CreatedOn="2024-05-29T07:19:49.6812438Z" ModifiedOn="2024-05-31T11:02:14.2341907Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Form_AutomaticTask_AttendanceTerminals-Communication" BuildFlags="">
+  <Title m="2024-05-29T07:22:18.9561757Z">Formulár Nastavenie automatickej úlohy 'Dochádzkové terminály - komunikácia'</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-05-29T08:38:02.0726515Z">&lt;P&gt;Formulár&amp;nbsp;&lt;EM&gt;Nastavenie automatickej úlohy 'Dochádzkové terminály - komunikácia'&lt;/EM&gt; &lt;STRONG&gt;umožňuje nadefinovať nastavenia&amp;nbsp;&lt;/STRONG&gt;&lt;A href="9ce25bbd-35d1-4096-acd5-70007f5af5a6"&gt;automatickej úlohy&lt;/A&gt;&amp;nbsp;&lt;A href="OAC_AttendanceTerminals-Communication.html" style="auto-update-caption: true"&gt;Dochádzkové terminály - komunikácia&lt;/A&gt;, ktorá v&amp;nbsp;systéme OBERON&amp;nbsp;zabezpečuje komunikáciu medzi systémom OBERON a&amp;nbsp;&lt;A href="f46f3a8f-ba04-4359-ba99-dc6caeeba021"&gt;dochádzkovými terminálmi&lt;/A&gt;. Formulár je dostupný z programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;, ponuka &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="9ce25bbd-35d1-4096-acd5-70007f5af5a6"&gt;Automatické úlohy&lt;/A&gt;&amp;nbsp;- stlačte tlačidlo&amp;nbsp;&lt;EM&gt;Nový&lt;/EM&gt; alebo&amp;nbsp;&lt;EM&gt;Oprava.&lt;/EM&gt;&amp;nbsp;Otvorí sa formulár &lt;EM&gt;Automatická úloha&lt;/EM&gt;, v&amp;nbsp;ktorom vyberte daný typ automatickej úlohy a&amp;nbsp;stlačte tlačidlo &lt;EM&gt;Nastaviť&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Popis formulára &lt;EM&gt;Nastavenie automatickej úlohy 'Dochádzkové terminály - komunikácia'&lt;/EM&gt;&lt;/H2&gt;&lt;innovasys:widget type="Tab Strip" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;!-- Základné --&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Dochádzkové terminály&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Začiarknutím políčka sa vyberajú dochádzkové terminály, s ktorými má automatická úloha komunikovať, t.&amp;nbsp;j. sťahovať prechody a aktualizovať údaje o pracovníkoch&lt;EM&gt;.&lt;/EM&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;!-- Základné koniec --&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;!-- Údaje pre zálohovanie --&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Nastavenia&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Začiarknutím políčka možno zvoliť, či sa majú zasielať podrobné informácie do &lt;EM&gt;Prehľadu činností&lt;/EM&gt; (na OAC klienta).&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;!-- Údaje pre zálohovanie koniec--&gt;&lt;!-- Oprávnenia --&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="76f1c156-fd57-45a2-979f-edbd0c20f9d3" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="23e5d4e3-fa9b-483d-8068-1ea847daccc1">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="ca37a97f-64a0-41b0-b005-f779a34eca97" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="09f3dae9-2fb7-490f-97dc-37f60885b398">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="613fbad7-f486-440e-aacc-c49873f8137f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="f46f3a8f-ba04-4359-ba99-dc6caeeba021">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="f1ee0a48-f036-4832-9d80-d41f194272d2">
+      <Keyword m="2024-05-29T08:38:13.1338891Z">Dochádzkové terminály - komunikácia - formulár</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="c34bfb45-6c53-4ad5-bab3-b0488061cace">
+      <Keyword m="2024-05-29T08:40:14.7507109Z">Formulár Dochádzkové terminály - komunikácia - nastavenia</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

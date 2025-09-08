@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="a1ae5eb5-f369-4aab-80b2-c6585166d550" Status="Complete" CreatedOn="2014-09-08T12:49:20.7122031Z" ModifiedOn="2023-05-11T13:07:56.2864659Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="22414" Name="Menu_Service_Extension_Manager" BuildFlags="">
+  <Title m="2014-09-08T12:49:40.2033179Z">Správca doplnkov</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-05-11T13:07:56.2864659Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;je venovaná&amp;nbsp;položke&amp;nbsp;&lt;EM&gt;Správca doplnkov&lt;/EM&gt;&amp;nbsp;v ponuke&amp;nbsp;&lt;EM&gt;Servis&lt;/EM&gt; programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Výberom položky sa otvorí &lt;EM&gt;Správca doplnkov&lt;/EM&gt;, ktorý&amp;nbsp;&lt;STRONG&gt;umožňuje rozšíriť systém OBERON o&amp;nbsp;širokú škálu doplnkov - funkcií a&amp;nbsp;vlastností, ktoré nie sú súčasťou štandardnej inštalácie&lt;/STRONG&gt;. Doplnky môžu pochádzať tak od dodávateľa systému OBERON, ako aj od externých dodávateľov. 
+&lt;LI&gt;Doplnky sú zatriedené do nasledujúcich oddielov: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Tlačové výstupy&lt;/STRONG&gt; - obsahuje celý rad rôznych inovatívnych grafických alebo obsahových variácií už existujúcich tlačových výstupov, 
+&lt;LI&gt;&lt;STRONG&gt;Ovládače&lt;/STRONG&gt; - pre&amp;nbsp;&lt;A href="2ba6a435-be52-46a1-b723-fb2b8ca084c0"&gt;internetové obchody&lt;/A&gt;,&amp;nbsp;&lt;A href="b24ad235-cf7f-43e2-b3e8-ec0f7d92f6b6"&gt;fiškálne tlačiarne&lt;/A&gt;, prípadne ďalšie&amp;nbsp;&lt;A href="3f051fd3-9727-4ecc-9613-7a7fb1cb2a54"&gt;pripojiteľné zariadenia&lt;/A&gt;, 
+&lt;LI&gt;&lt;STRONG&gt;Jazykové súbory&lt;/STRONG&gt; - na preklad systému OBERON do vybraných cudzích jazykov (jazykových mutácií). Pri jazykových verziách programu nejde o úplné jazykové verzie celého programu. Preložené sú&amp;nbsp;len najčastejšie používané objekty&amp;nbsp;(názvy jednotlivých položiek menu, názvy záložiek, tlačidiel atď.) a&amp;nbsp;hlásenia v programe. Zároveň sú v&amp;nbsp;programe preložené najpoužívanejšie tlačové výstupy, napr. faktúra, dodací list, objednávka, hotelový účet, výplatná páska atď. Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="04d2db16-08ec-459e-b5c9-71dd3a9f9e2f" style="auto-update-caption: true"&gt;Jazykové verzie OBERON-u&lt;/A&gt;. Postup inštalácie jazykovej mutácie je popísaný nižšie. 
+&lt;LI&gt;&lt;STRONG&gt;XML&lt;/STRONG&gt; - obsahuje celý rad &lt;A href="50adcd4a-de72-439e-895f-021cd9537535"&gt;transformačných šablón XSLT&lt;/A&gt;&amp;nbsp;(prípadne &lt;A href="02287be9-0d9c-427d-8d25-88310ae34bbb"&gt;transformačných šablón na import súborov CSV&lt;/A&gt;)&amp;nbsp;na&amp;nbsp;&lt;A href="56f661c6-24da-46aa-b157-5d988cbe792b"&gt;XML komunikáciu&lt;/A&gt; (import/export údajov). Ďalšie informácie získate v&amp;nbsp;témach&amp;nbsp;&lt;A href="c4bb279e-a2ba-4690-83b9-efb2e11cc077" style="auto-update-caption: true"&gt;Import dokladov z iných softvérov&lt;/A&gt;,&amp;nbsp;&lt;A href="2c463344-2e7a-4599-8afb-f5d06c2366e0" style="auto-update-caption: true"&gt;Export dokladov do iných softvérov&lt;/A&gt;&amp;nbsp;a&amp;nbsp;&lt;A href="2ba6a435-be52-46a1-b723-fb2b8ca084c0" style="auto-update-caption: true"&gt;Internetový obchod v systéme OBERON&lt;/A&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;Transport údajov&lt;/STRONG&gt; - obsahuje ovládače na&amp;nbsp;import a export údajov v rámci&amp;nbsp;&lt;A href="1dc4ea18-03c0-4028-afe5-4532583b6a44"&gt;off-line transportov údajov&lt;/A&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;Ostatné&lt;/STRONG&gt; - obsahuje doplnky so súbormi typu XLSX na import údajov. Viac informácií získate v téme&amp;nbsp;&lt;A href="1c4fe40d-4be6-4e94-9ccc-39727c9a6a0c" style="auto-update-caption: true"&gt;Import údajov zo súboru typu XLSX&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Vo formulári je dostupné vyhľadávanie na rýchle vyhľadanie konkrétneho doplnku. Stlačením tlačidla &lt;EM&gt;&lt;STRONG&gt;Podrobnosti&lt;/STRONG&gt;&lt;/EM&gt; je možné zobraziť detailné informácie o doplnku. Stlačením tlačidla &lt;EM&gt;&lt;STRONG&gt;Nainštalovať&lt;/STRONG&gt;&lt;/EM&gt; sa doplnok nainštaluje do systému OBERON (postup inštalácie&amp;nbsp;sa líši&amp;nbsp;v závislosti od konkrétneho doplnku). &amp;nbsp;&amp;nbsp;&amp;nbsp; 
+&lt;LI&gt;Doplnky sú umiestnené&amp;nbsp;v&amp;nbsp;serveri dodávateľa programu. Z tohto dôvodu je&amp;nbsp;na využívanie správcu doplnkov nutné mať počítač pripojený do siete internet. 
+&lt;LI&gt;V&amp;nbsp;&lt;EM&gt;Správcovi doplnkov&lt;/EM&gt; je k&amp;nbsp;dispozícii&amp;nbsp;&lt;STRONG&gt;vstavaný filter&lt;/STRONG&gt;, pomocou ktorého možno zobraziť vybraný okruh doplnkov (&lt;EM&gt;Všetky, Nainštalované, Aktualizácie&lt;/EM&gt;). &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Najzaujímavejšie doplnky&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Inovatívne grafické&amp;nbsp;alebo obsahové variácie&amp;nbsp;faktúr (napr. faktúra s&amp;nbsp;platobným QR kódom)&amp;nbsp;a&amp;nbsp;ďalších tlačových výstupov (dodacie listy, výdajky, objednávky, záručné listy, darčekové&amp;nbsp;certifikáty...). 
+&lt;LI&gt;Jazykové súbory na&amp;nbsp;&lt;A href="04d2db16-08ec-459e-b5c9-71dd3a9f9e2f"&gt;preklad vybraných objektov a&amp;nbsp;tlačových výstupov&lt;/A&gt;&amp;nbsp;do vybraných cudzích jazykov (jazykových mutácií). 
+&lt;LI&gt;Transformačné šablóny&amp;nbsp;XSLT na import faktúr vo formáte XML z účtovného softvéru &lt;A href="c4bb279e-a2ba-4690-83b9-efb2e11cc077"&gt;MoneyS3, MoneyS4, MoneyS5&lt;/A&gt; (&lt;EM&gt;CÍGLER SOFTWARE&lt;/EM&gt;). 
+&lt;LI&gt;Transformačné šablóny&amp;nbsp;XSLT na import faktúr vo formáte XML z účtovného softvéru &lt;A href="c4bb279e-a2ba-4690-83b9-efb2e11cc077"&gt;Pohoda&lt;/A&gt; (&lt;EM&gt;STORMWARE&lt;/EM&gt;). 
+&lt;LI&gt;Transformačné šablóny&amp;nbsp;XSLT na import faktúr vo formáte XML z účtovného softvéru &lt;A href="c4bb279e-a2ba-4690-83b9-efb2e11cc077"&gt;MRP&lt;/A&gt;. 
+&lt;LI&gt;Transformačné šablóny&amp;nbsp;XSLT na import faktúr vo formáte&amp;nbsp;ISDOC z&amp;nbsp;portálu&amp;nbsp;&lt;A href="c4bb279e-a2ba-4690-83b9-efb2e11cc077"&gt;SuperFaktura.sk&lt;/A&gt;. 
+&lt;LI&gt;Transformačné šablóny&amp;nbsp;XSLT na import faktúr vo formáte&amp;nbsp;&lt;A href="c4bb279e-a2ba-4690-83b9-efb2e11cc077"&gt;ISDOC&lt;/A&gt;. 
+&lt;LI&gt;Transformačná šablóna&amp;nbsp;XSLT na import faktúr vo formáte XML z informačného systému &lt;A href="c4bb279e-a2ba-4690-83b9-efb2e11cc077"&gt;BarIS&lt;/A&gt;&amp;nbsp;(&lt;EM&gt;KASO TECHNOLOGIES&lt;/EM&gt;). 
+&lt;LI&gt;Transformačné šablóny&amp;nbsp;XSLT na import&amp;nbsp;príjemiek vo formáte&amp;nbsp;&lt;A href="c4bb279e-a2ba-4690-83b9-efb2e11cc077"&gt;NEXTIS&lt;/A&gt;. 
+&lt;LI&gt;Transformačná šablóna&amp;nbsp;CSV na import&amp;nbsp;príjemiek&amp;nbsp;zo systému &lt;A href="c4bb279e-a2ba-4690-83b9-efb2e11cc077"&gt;METRO&lt;/A&gt;. 
+&lt;LI&gt;Transformačné šablóny&amp;nbsp;XSLT na&amp;nbsp;export faktúr&amp;nbsp;do formátu&amp;nbsp;&lt;A href="c4bb279e-a2ba-4690-83b9-efb2e11cc077"&gt;EDITEL&lt;/A&gt;. 
+&lt;LI&gt;Transformačné šablóny&amp;nbsp;XSLT na import&amp;nbsp;bankového výpisu vo formáte&amp;nbsp;&lt;A href="02bbf54b-086f-4641-8c33-4dd461e56fb4"&gt;Besteron&lt;/A&gt;. 
+&lt;LI&gt;Transformačné šablóny na export údajov z knihy pohľadávok do elektronického podacieho hárku &lt;EM&gt;Slovenskej pošty.&lt;/EM&gt; 
+&lt;LI&gt;Vzorové súbory na import rôznych údajov (skladové karty, ceny, obchodní partneri, úlohy a udalosti)&amp;nbsp;&lt;A href="1c4fe40d-4be6-4e94-9ccc-39727c9a6a0c"&gt;zo súboru typu XLSX&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 1: Správca doplnkov, oddiel &lt;EM&gt;XML&lt;/EM&gt;&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Extension_Manager.png"&gt;&amp;nbsp;&lt;/P&gt;
+&lt;H2&gt;Postup inštalácie jazykovej mutácie&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;V ponuke &lt;EM&gt;Servis&lt;/EM&gt; zvoľte položku &lt;EM&gt;Správca doplnkov&lt;/EM&gt;. 
+&lt;LI&gt;V oddiele &lt;EM&gt;Jazykové súbory&lt;/EM&gt; vyberte jazykovú mutáciu, ktorú chcete nainštalovať, napr. &lt;EM&gt;Anglické jazykové súbory&lt;/EM&gt;. 
+&lt;LI&gt;Stlačte tlačidlo &lt;EM&gt;Inštalovať&lt;/EM&gt;. Otvorí sa sprievodca inštaláciou, pomocou ktorého nainštalujte jazykovú mutáciu. 
+&lt;LI&gt;Po inštalácii je potrebné systém OBERON &lt;STRONG&gt;reštartovať&lt;/STRONG&gt; (ukončiť prácu a opätovne spustiť). 
+&lt;LI&gt;Pri prihlásení&amp;nbsp;používateľom je možné vybrať jazykovú mutáciu, s ktoru chce daný&amp;nbsp;&lt;A href="225638ed-22f6-4ac4-9085-6d77c64925db"&gt;používateľ&lt;/A&gt; pracovať (Obrázok č. 2) 
+&lt;LI&gt;Na&amp;nbsp;zostavenie a&amp;nbsp;&lt;A href="66ed476e-d5ea-4e46-a758-a3f190a60a7c"&gt;tlač tlačových výstupov&lt;/A&gt; v&amp;nbsp;jazykovej mutácii stlačte v&amp;nbsp;príslušnej evidencii tlačidlo &lt;EM&gt;Tlač&lt;/EM&gt;. Otvorí sa&amp;nbsp;&lt;A href="2bac8d21-6ae0-44e4-8b2e-403ac2f25955"&gt;formulár Tlačové výstupy&lt;/A&gt;, v ktorom zvoľte daný tlačový výstup&amp;nbsp; (napr.&lt;EM&gt;&amp;nbsp;Faktúra&lt;/EM&gt; v&amp;nbsp;&lt;A href="5c21adcc-87c8-44e7-981d-02902635693d"&gt;Knihe pohľadávok&lt;/A&gt;)&amp;nbsp;a v ľavom paneli z rozbaľovacieho zoznamu vyberte daný jazyk. &lt;/LI&gt;&lt;/OL&gt;
+&lt;H5&gt;Obrázok č. 2: Prihlásenie&amp;nbsp;používateľa - výber jazykovej mutácie&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_ExtensionManager_LoginUser.png"&gt;&lt;/P&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Zmeniť jazykovú mutáciu&amp;nbsp;je možné aj v priebehu práce v systéme OBERON, a to v&amp;nbsp;spodnom systémovom paneli&amp;nbsp;kliknutím na vlajku štátu (Obrázok č. 3).&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H5&gt;Obrázok č. 3: Systémový panel&amp;nbsp;- zmena jazykovej mutácie&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_ExtensionManager_Language.png"&gt;&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="3151ff0b-4f0c-4e5b-b9d6-116681357c2a" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="66ed476e-d5ea-4e46-a758-a3f190a60a7c">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="f1853801-dd95-49aa-a341-37a854d28e38" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="04d2db16-08ec-459e-b5c9-71dd3a9f9e2f">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="46383217-dfa3-4c72-8151-03fdefa31668" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="817c0c0f-2bed-4b71-9cae-38f5032c1661">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="f0c337b8-a6e4-4334-a79c-668c0aef3fa7" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="56f661c6-24da-46aa-b157-5d988cbe792b">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="12d92812-a1ee-4fe9-a827-eb364eab0c30" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="ec3ff388-810d-4d3c-b220-f3c89133ea79">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="c25463b0-cbd7-460c-9d91-2ec455a42731" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="c4bb279e-a2ba-4690-83b9-efb2e11cc077">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="369ea9ff-d554-47cf-be89-5fb42e0b048b" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="2c463344-2e7a-4599-8afb-f5d06c2366e0">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="1b72b4b4-b1c5-4637-abd3-eec6cfe4552a" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="2ba6a435-be52-46a1-b723-fb2b8ca084c0">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="9c145537-6b20-45fb-89db-ac0ed3596b28" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1dc4ea18-03c0-4028-afe5-4532583b6a44">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="8b80bc99-d7a6-411f-bef9-6aaf45ad637a" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1c4fe40d-4be6-4e94-9ccc-39727c9a6a0c">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="65c51951-52c8-4f22-8ba8-4e8ae2f2eb8f">
+      <Keyword m="2014-10-21T12:51:03.8095703Z">Doplnky</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="78b1d6eb-42b8-47b5-9c86-d81940ffec4f">
+      <Keyword m="2022-02-08T10:34:26.2150978Z">Faktúra v cudzom jazyku - doplnok</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="f6f4d07d-daf6-4b36-87e2-97b383a5a4f6">
+      <Keyword m="2022-02-08T10:34:44.350936Z">Jazyky - doplnok</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="6fd4f702-3d77-4df2-aa13-68a89db7da54">
+      <Keyword m="2022-02-08T10:34:36.5091354Z">Import faktúr z iných účtovných programov - doplnok</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="e41f39ef-45cc-4420-bd4f-0870bcf20f6e">
+      <Keyword m="2023-02-14T09:35:39.4839555Z">ISDOC - transformačné šablóny</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="c79410a7-984c-4dc9-9144-8c9af336d5d1">
+      <Keyword m="2023-02-14T09:37:06.5168778Z">METRO - transformačná šablóna CSV</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="fd6e9667-5b53-45db-ac76-9d72673b2d27">
+      <Keyword m="2016-12-21T09:45:57.2659781Z">Pohoda - transformačné šablóny</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="047f10c7-f8fb-4b86-8180-3eb7c66057fc">
+      <Keyword m="2016-12-21T09:46:07.9227222Z">Money - transformačné šablóny</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="c032608c-f28d-4d84-bbc6-8df2f096c6be">
+      <Keyword m="2016-12-21T09:46:31.4741557Z">PrestaShop - transformačné šablóny</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="6337a6f5-5b2f-41e0-8775-4c8b56463313">
+      <Keyword m="2022-02-08T10:34:07.7734069Z">Cudzie jazyky - doplnok</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="d62ed9ab-bf8d-41ac-ae3b-057f91138288">
+      <Keyword m="2017-03-15T07:23:40.1334138Z">Výplatná páska v cudzom jazyku</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="7db90455-5a42-4f6d-83cc-b8f12213444f">
+      <Keyword m="2023-02-14T09:38:41.2790638Z">EDITEL - transformačné šablóny</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="ef351f69-1fcd-48f3-aaa9-ca5690dc903b">
+      <Keyword m="2022-02-08T10:34:01.5569843Z">CreativeSites - e-shop - doplnok</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="c9cc57e8-9a97-43cc-af7d-2f774d35a3c3">
+      <Keyword m="2023-02-14T09:39:00.7272637Z">Besteron - transformačné šablóny</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="10179c4e-9584-43e7-930c-197aa5b5867d">
+      <Keyword m="2022-07-27T05:23:25.3127784Z">Inštalácia jazykovej mutácie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="7b145f31-ded0-47ac-ac06-861639aaae7f">
+      <Keyword m="2022-07-27T05:23:34.9779885Z">Jazyková mutácia - inštalácia</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="0061506b-01f0-403b-a423-b022c96b1ffb">
+      <Keyword m="2022-07-27T05:26:03.7240695Z">Zmena jazykovej mutácie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="b0eb9f3f-9d89-431c-bd6e-7bff9a58aa70">
+      <Keyword m="2022-07-27T05:26:08.7166828Z">Jazyková mutácia - zmena</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="d6d398a9-769c-4dfe-9685-a36d912bdd63">
+      <Keyword m="2023-02-14T09:33:42.6656395Z">MRP - transformačné šablóny</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="e8436721-f8c5-43bb-94a5-ac12ec1d7bc5">
+      <Keyword m="2023-02-14T09:35:10.4112963Z">SuperFaktura.sk - transformačné šablóny</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="0bff6242-de7c-444e-8f52-150024cd5480">
+      <Keyword m="2023-02-14T09:38:14.3252635Z">BarIS - transformačná šablóna</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="01ef7768-a281-49a0-942d-62570c2aa5cb">
+      <Keyword m="2023-02-14T09:36:20.5749719Z">NEXTIS - transformačné šablóny</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

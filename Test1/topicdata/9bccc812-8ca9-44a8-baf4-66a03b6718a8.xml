@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="9bccc812-8ca9-44a8-baf4-66a03b6718a8" Status="Complete" CreatedOn="2015-07-31T13:00:22.4453125Z" ModifiedOn="2023-11-22T14:01:40.2693736Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Form_Hotel_ReservationBook_Contract" BuildFlags="">
+  <Title m="2015-07-31T13:01:12.6699218Z">Formulár Zmluvná rezervácia</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-11-22T14:01:40.2693736Z">&lt;P&gt;Formulár&amp;nbsp;&lt;EM&gt;Zmluvná rezervácia&lt;/EM&gt; umožňuje &lt;STRONG&gt;zaevidovať, resp. upraviť už zaevidovanú zmluvnú rezerváciu ubytovacieho zariadenia so zmluvným partnerom (napr. cestovnou kanceláriou)&lt;/STRONG&gt;&amp;nbsp;v module&amp;nbsp;&lt;A href="c3bd41f0-029e-4c74-b342-b0ffff647b6e"&gt;Hotelová recepcia&lt;/A&gt;. Formulár je dostupný&amp;nbsp;z&amp;nbsp;programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;,&amp;nbsp;ponuka &lt;EM&gt;Hotel&lt;/EM&gt;,&amp;nbsp;&lt;A href="311d7f3a-77ff-4be7-a9cf-5be3539ff604" style="auto-update-caption: true"&gt;Kniha zmluvných rezervácií&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt; tlačidlo&amp;nbsp;&lt;EM&gt;Nový&lt;/EM&gt; alebo &lt;EM&gt;Oprava&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Popis formulára &lt;EM&gt;Zmluvná rezervácia&lt;/EM&gt;&lt;/H2&gt;&lt;innovasys:widget type="Tab Strip" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Hlavička rezervácie&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Zadáva sa&amp;nbsp;dátum začatia a&amp;nbsp;ukončenia zmluvnej rezervácie.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Základné&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Eviduje základné informácie o zmluvnej rezervácii - názov rezervácie, kontaktné údaje.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Rezervované izby&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Záložka &lt;EM&gt;Rezervované izby&lt;/EM&gt; umožňuje zmluvne&amp;nbsp;zarezervovať potrebný počet izieb pre zmluvného partnera. Stlačením tlačidla &lt;EM&gt;Vybrať izby&lt;/EM&gt; vyberte všetky izby, ktoré si zmluvný partner rezervuje.&amp;nbsp;Zmluvné rezervácie zvolených izieb budú v&amp;nbsp;&lt;A href="3ca37544-bbc0-4a88-af6a-a2132b74279d"&gt;grafickom prehľade izieb&lt;/A&gt; zobrazené&amp;nbsp;&lt;SPAN style="COLOR: rgb(238,220,229)"&gt;&lt;STRONG style="COLOR: rgb(255,153,153)"&gt;lososovou farbou&lt;/STRONG&gt;&lt;/SPAN&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Obchodný partner&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Evidujú sa údaje&amp;nbsp;&lt;A href="b7a48886-b367-4056-808a-59ba5f871f32"&gt;obchodného partnera&lt;/A&gt;, t.&amp;nbsp;j. zmluvnej strany (napr. cestovnej kancelárie).&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Iné&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Časová platnosť zmluvnej rezervácie&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Zmluvnej rezervácii je možné zadať tzv.&amp;nbsp;&lt;STRONG&gt;časovú platnosť&lt;/STRONG&gt;.&amp;nbsp;Ak zmluvný partner (napr. cestovná kancelária) nerezervuje&amp;nbsp;vyhradené kapacity ubytovacieho zariadenia&amp;nbsp;zadaný počet dní pred nástupom na pobyt,&amp;nbsp;zmluvná rezervácia sa automaticky stornuje, t. j. ubytovacie kapacity si&amp;nbsp;bude môcť&amp;nbsp;obsadiť samotné ubytovacie zariadenie. Následne budú príslušné izby&amp;nbsp;v &lt;A href="3ca37544-bbc0-4a88-af6a-a2132b74279d"&gt;grafickom prehľade izieb&lt;/A&gt; označené ako voľné.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Tlačidlo vo formulári &lt;EM&gt;Zmluvná rezervácia&lt;/EM&gt;&lt;/H2&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Prílohy&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Stlačením tlačidla&amp;nbsp;sa otvorí formulár, v ktorom možno pridať dokument alebo obrázok (tlačidlo&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_Button_YellowPlus.png"&gt;). Použiť možno aj funkciu &lt;EM&gt;Drag&amp;amp;Drop&lt;/EM&gt;, prípadne prílohu oskenovať. Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="79eb5ae4-3bae-4a0c-be52-69c1ed8e59e5" style="auto-update-caption: true"&gt;Práca s prílohami&lt;/A&gt;. &lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="1ae076dd-fd07-48a8-bfd0-6b50f3ae7842" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="3ca37544-bbc0-4a88-af6a-a2132b74279d">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="b25451fc-36bc-42cf-824a-c309e0d62fa3" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="311d7f3a-77ff-4be7-a9cf-5be3539ff604">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="0046b89c-a6d8-466d-b8b9-4427009f24dd">
+      <Keyword m="2023-02-16T12:31:59.7536136Z">Zmluvná rezervácia - formulár</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="b137abc9-41ef-4b38-89bc-333a618c1f30">
+      <Keyword m="2023-02-16T12:33:01.6298901Z">Časová platnosť zmluvnej rezervácie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="44b4c166-30b1-490d-abba-87b54fdc40aa">
+      <Keyword m="2023-02-16T12:33:49.4845258Z">Cestovná kancelária - zmluvná rezervácia</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

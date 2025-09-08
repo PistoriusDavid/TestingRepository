@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="114e64df-3d6c-4a0e-9405-c0e75fbe02dc" Status="Complete" CreatedOn="2014-09-05T13:45:38.4622647Z" ModifiedOn="2024-01-16T08:39:39.8824983Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Tech_AppRun_StartError" BuildFlags="">
+  <Title m="2023-10-19T12:11:44.0845592Z">OBERON nie je možné spustiť (aktualizovať)</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-01-16T08:39:39.8824983Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; je venovaná &lt;STRONG&gt;problémom, pre ktoré nie je možné spustiť, prípadne aktualizovať&lt;/STRONG&gt; systém OBERON.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;P&gt;V praxi sa môžu vyskytnúť situácie, keď nie je možné systém OBERON spustiť, resp. aktualizovať. Najčastejšími príčinami, ktoré spôsobujú problémy so spustením OBERON-u,&amp;nbsp;sú:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Systém&lt;/STRONG&gt; &lt;EM&gt;&lt;STRONG&gt;Windows&lt;/STRONG&gt;&lt;/EM&gt; - problém môže spočívať v&amp;nbsp;potrebe doinštalovať runtime (systémové knižnice) aktuálnej verzie &lt;EM&gt;Microsoft .NET Framework&lt;/EM&gt; do starších verzií &lt;EM&gt;Windows&lt;/EM&gt;,&lt;STRONG&gt;&amp;nbsp;&lt;/STRONG&gt;v&amp;nbsp;inštalácii&amp;nbsp;problémových&amp;nbsp;aktualizácií&amp;nbsp;systému &lt;EM&gt;Windows&lt;/EM&gt; (napr. 22H2),&amp;nbsp;v&amp;nbsp;poškodení samotného systému &lt;EM&gt;Windows&lt;/EM&gt; a pod., viac informácií v&amp;nbsp;téme&amp;nbsp;&lt;A href="47ad147f-780a-4735-adcc-c5ac17ea9526"&gt;Problém so systémom Windows&lt;/A&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;Antivírusový program&lt;/STRONG&gt; - problém spočíva v zablokovaní systému OBERON antivírusovým programom (napr. ESET), viac informácií v&amp;nbsp;téme&amp;nbsp;&lt;A href="f556de38-1404-4022-94e4-3ec9f00fd222"&gt;Problém s antivírusovým programom&lt;/A&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;Poškodené programové súbory&lt;/STRONG&gt; - problém spočíva v&amp;nbsp;chýbajúcich alebo poškodených programových súboroch systému OBERON a súboroch systému &lt;EM&gt;Windows&lt;/EM&gt;. Viac informácií v&amp;nbsp;téme&amp;nbsp;&lt;A href="b2bcded5-2c05-4656-bfb3-c53512e5c6c8" style="auto-update-caption: true"&gt;Chýbajúce alebo poškodené programové súbory&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="2abc1501-e7b4-4f51-b29a-11e649db190c" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="47ad147f-780a-4735-adcc-c5ac17ea9526">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="4c773bd8-308d-4513-b222-7ac3e4fb6356" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="f556de38-1404-4022-94e4-3ec9f00fd222">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="576996e8-1685-40e4-af89-997fb2b536c6" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="31e5e0c6-6e6c-403f-aa32-9ef5f8291566">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="16421783-d553-486f-aecf-958c2ace0381" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="2ed2711c-75f6-4f18-8dbb-1b44eaab93c0">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="81664d89-aa2e-4c9c-b5d4-3b396197f501">
+      <Keyword m="2023-10-20T12:55:10.1811714Z">Problémy so spustením OBERON-u - všeobecne</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="6ba660b0-c9ea-4591-bb57-0d2d6ba9fcd0">
+      <Keyword m="2023-10-20T12:55:04.2341967Z">Problémy s aktualizáciou OBERON-u - všeobecne</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

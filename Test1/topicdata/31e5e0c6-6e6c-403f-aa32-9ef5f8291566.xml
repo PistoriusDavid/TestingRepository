@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="31e5e0c6-6e6c-403f-aa32-9ef5f8291566" Status="Complete" CreatedOn="2023-10-19T10:54:37.4051281Z" ModifiedOn="2023-10-25T12:03:09.8332933Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Tech_DatabaseNotAvailable_CannotOpen" BuildFlags="">
+  <Title m="2023-10-19T11:23:30.5503004Z">Databázu nie je možné otvoriť</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-10-23T06:05:18.052861Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; je venovaná &lt;STRONG&gt;problémom, pre ktoré nie je možné otvoriť databázu&lt;/STRONG&gt; systému OBERON.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;P&gt;V praxi sa môžu vyskytnúť situácie, keď po spustení&amp;nbsp;systému OBERON nie je možné otvoriť databázu účtovnej jednotky. Najčastejšími príčinami, ktoré spôsobujú problémy s&amp;nbsp;otvorením databázy,&amp;nbsp;sú:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Nedostupnosť databázy&lt;/STRONG&gt; - tento&amp;nbsp;druh problémov spravidla vzniká pri sieťovej prevádzke systému OBERON. Databázu nie je možné otvoriť, pretože&amp;nbsp;nie&amp;nbsp;je dostupná najčastejšie z&amp;nbsp;dôvodu nesprávnej konfigurácie sieťovej infraštruktúry, resp. po&amp;nbsp;jej narušení vplyvom vonkajších faktorov.&amp;nbsp;Riešenie problému závisí od použitia konkrétneho typu databázy&amp;nbsp;(súborová databáza &lt;EM&gt;Microsoft Access&lt;/EM&gt; alebo SQL server). Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="da50eb3a-9b2b-4fd1-bae3-31b362307a15"&gt;Databáza nie je dostupná&lt;/A&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;Poškodenie databázy&lt;/STRONG&gt; - poškodenie databázy (databázového súboru) takého rozsahu, že program po spustení&amp;nbsp;neotvorí databázu (prípadne sa nespustí vôbec). Systém OBERON pracuje v rôznych databázových systémoch, preto je potrebné rozlišovať, či ide o súborovú databázu&amp;nbsp;&lt;EM&gt;Microsoft Access&lt;/EM&gt; alebo SQL server. Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="da50eb3a-9b2b-4fd1-bae3-31b362307a15"&gt;&lt;/A&gt;&lt;A href="a5cb5e1d-b643-4229-b77a-26caeb479aa9"&gt;Poškodená databáza.&lt;/A&gt; &lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="2abc1501-e7b4-4f51-b29a-11e649db190c" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="da50eb3a-9b2b-4fd1-bae3-31b362307a15">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="f4bd1503-e3b3-4a04-a7b2-af3016d252c3" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="a5cb5e1d-b643-4229-b77a-26caeb479aa9">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="a86b7f25-92a3-44c1-aa10-bef3103991d0" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="114e64df-3d6c-4a0e-9405-c0e75fbe02dc">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="7a70b499-4912-4dbb-a5e8-a88f2b04b865" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="2ed2711c-75f6-4f18-8dbb-1b44eaab93c0">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="81664d89-aa2e-4c9c-b5d4-3b396197f501">
+      <Keyword m="2023-10-20T12:58:44.3032623Z">Problémy s otvorením databázy - všeobecne</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

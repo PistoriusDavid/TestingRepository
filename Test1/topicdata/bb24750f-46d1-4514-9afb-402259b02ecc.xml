@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="bb24750f-46d1-4514-9afb-402259b02ecc" Status="Complete" CreatedOn="2014-09-10T08:18:05.9908156Z" ModifiedOn="2022-06-28T11:31:23.2441905Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Hotel_Started_Accommodation_LocalTax" BuildFlags="">
+  <Title m="2014-09-10T08:18:38.6446832Z">Miestna daň za ubytovanie</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2022-06-28T11:31:23.2441905Z">&lt;P&gt;Táto téma&amp;nbsp;&lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;informácie o&amp;nbsp;miestnej dani za ubytovanie&lt;/STRONG&gt; v&amp;nbsp;module &lt;A href="c3bd41f0-029e-4c74-b342-b0ffff647b6e"&gt;Hotelová recepcia&lt;/A&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Daň za ubytovanie (turistický poplatok, miestny poplatok)&amp;nbsp;platí hosť&amp;nbsp;za&amp;nbsp;prechodné ubytovanie v&amp;nbsp;ubytovacom zariadení. O tom, či daň za ubytovanie má účtovná jednotka vyberať a odvádzať, rozhoduje miestny správca dane (napr. obec) vo svojom všeobecnom záväznom nariadení. Určuje, aká výška poplatku sa má odvádzať, prípadne určuje výnimky pre neplatenie tejto dane. Spôsob výpočtu a sadzby dane za ubytovanie je možné nastaviť v&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="f0386fce-aa67-4fa4-a611-234d30fa9f82"&gt;oddiel Firma, Hotelová recepcia&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt; záložka &lt;EM&gt;Základné&lt;/EM&gt;. 
+&lt;LI&gt;Základom dane za ubytovanie&amp;nbsp;je počet prenocovaní, najviac však 60 prenocovaní u jedného platiteľa dane v jednom kalendárnom roku&amp;nbsp;(tá istá osoba môže byť zdanená daňou za ubytovanie&amp;nbsp;v&amp;nbsp;jednom ubytovacom zariadení maximálne za 60 prenocovaní).&amp;nbsp;Príslušné nastavenie je dostupné v&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="f0386fce-aa67-4fa4-a611-234d30fa9f82"&gt;oddiel Firma, Hotelová recepcia&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt; záložka &lt;EM&gt;Základné.&lt;/EM&gt; Nastavenie odporúčame vykonať len v&amp;nbsp;prípade,&amp;nbsp;že ubytovávate osoby dlhodobo. Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="f0386fce-aa67-4fa4-a611-234d30fa9f82" style="auto-update-caption: true"&gt;Formulár Nastavenia - Firma - Hotelová recepcia&lt;/A&gt;. 
+&lt;LI&gt;Výpočet výšky miestnej dane za ubytovanie sa vykonáva vždy pri&amp;nbsp;&lt;A href="d5286006-62ed-43bc-93a2-5f4ec69fce0b"&gt;evidencii ubytovania (príchod hosťa)&lt;/A&gt; a&amp;nbsp;zobrazuje sa vo&amp;nbsp;&lt;A href="d43ef71f-edb1-44f7-b1a2-c0cf18067ee9"&gt;formulári Ubytovanie&lt;/A&gt; v&amp;nbsp;záložke &lt;EM&gt;Ubytované osoby&lt;/EM&gt; v&amp;nbsp;časti &lt;EM&gt;Daň za ubytovanie&lt;/EM&gt;. Tu je možné výšku dane v odôvodnených prípadoch aj upraviť (napr. ak má&amp;nbsp;osoba zníženú daň za ubytovanie, prípadne daň neplatí vôbec). 
+&lt;LI&gt;V&amp;nbsp;&lt;A href="0b9519ff-9438-422b-a3e8-358b628293e9"&gt;knihe ubytovaných&lt;/A&gt; je možné výšku miestnej dane aj hromadne prepočítať (tlačidlo &lt;I&gt;Možnosti,&lt;/I&gt; položka &lt;I&gt;Prepočet dane za ubytovanie&lt;/I&gt;), napr. z dôvodu zmeny sadzby u správcu&amp;nbsp;miestnej dane, pričom do programu boli nové sadzby zadané oneskorene. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Rozdiel v tlačových výstupoch&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Modul &lt;EM&gt;Hotelová recepcia&lt;/EM&gt; obsahuje dva tlačové výstupy &lt;EM&gt;&lt;STRONG&gt;Daň za ubytovanie&lt;/STRONG&gt;&lt;/EM&gt; a &lt;EM&gt;&lt;STRONG&gt;Daň za ubytovanie (súhrnne)&lt;/STRONG&gt;&lt;/EM&gt;, ktoré daň počítajú rôznou metodikou. Akú metodiku a ktorý tlačový výstup si ubytovacie zariadenie zvolí, závisí od interného predpisu&amp;nbsp;účtovnej jednotky&amp;nbsp;alebo požiadaviek správcu dane. 
+&lt;LI&gt;Pri tlačovom výstupe &lt;EM&gt;Daň za ubytovanie&lt;/EM&gt; sa daň počíta presne po dňoch (koľko bolo ubytovaných v&amp;nbsp;daný deň krát sadzba dane). V&amp;nbsp;tlačovom výstupe&amp;nbsp;&lt;EM&gt;Daň za ubytovanie (súhrnne)&lt;/EM&gt; program počíta s tým, že hosť zaplatí daň v&amp;nbsp;prvý deň ubytovania a je vybraná v celej výške. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Výpočet dane za ubytovanie v OBERON-e&lt;/H2&gt;
+&lt;P&gt;Daň za ubytovanie program počíta podľa zadaného&amp;nbsp;počtu dospelých a počtu detí vo&amp;nbsp;&lt;A href="d43ef71f-edb1-44f7-b1a2-c0cf18067ee9"&gt;formulári Ubytovanie&lt;/A&gt; (Obrázok č. 1), prípadne vo&amp;nbsp;&lt;A href="90d7003c-1001-42ee-beef-bb7df6eada31"&gt;formulári Rezervácia&lt;/A&gt;, a nie podľa zadaných osôb v záložke &lt;EM&gt;Ubytované osoby&lt;/EM&gt;. Pre výpočet dane za ubytovanie &lt;STRONG&gt;je podstatné, aby počet dospelých a detí bol zadaný správne&lt;/STRONG&gt;. Zadané ubytované osoby slúžia len ako doplnková informácia, pričom sa tieto údaje použijú na určenie veku detí, prípadne určujú oslobodenie osoby od platenia dane za&amp;nbsp;ubytovanie. Z&amp;nbsp;nasledujúcich príkladov je možné ľahšie pochopiť, ako sa počíta daň za ubytovanie v systéme OBERON.&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;Príklad&lt;/STRONG&gt;:&lt;/P&gt;
+&lt;P&gt;Daň za ubytovanie:&lt;BR&gt;1&amp;nbsp;€ za dospelého,&amp;nbsp;&amp;nbsp;0,50&amp;nbsp;€&amp;nbsp;za deti 6&amp;nbsp;-&amp;nbsp;18 rokov&lt;/P&gt;
+&lt;P&gt;Uvedený príklad je znázornený na Obrázku č. 1. Ubytovacie zariadenie ubytovalo dvoch dospelých ľudí a jedno dieťa vo veku 10 rokov, ale do evidencie&amp;nbsp;obsluha recepcie zapísala len jednu dospelú osobu. Program vypočíta daň za ubytovanie podľa počtu zadaných osôb, teda 2 osoby&amp;nbsp;x&amp;nbsp;1&amp;nbsp;€ + 1&amp;nbsp;osoba&amp;nbsp;x&amp;nbsp;0,50&amp;nbsp;€ = 2,50&amp;nbsp;€.&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;Príklad&lt;/STRONG&gt;:&lt;/P&gt;
+&lt;P&gt;Daň za ubytovanie:&lt;BR&gt;1&amp;nbsp;€ za dospelého,&amp;nbsp;&amp;nbsp;0,50&amp;nbsp;€&amp;nbsp;za deti 6&amp;nbsp;-&amp;nbsp;18 rokov&lt;/P&gt;
+&lt;P&gt;Ubytovacie zariadenie ubytovalo 4 dospelých ľudí do izby typu &lt;EM&gt;Dvojlôžková&amp;nbsp;+&amp;nbsp;2&lt;/EM&gt;. Aby program správne vypočítal daň za ubytovanie, je potrebné zadať do poľa&amp;nbsp;&lt;EM&gt;Počet dospelých&lt;/EM&gt;&amp;nbsp;hodnotu 4 a do poľa &lt;EM&gt;Počet detí&lt;/EM&gt;&amp;nbsp;hodnotu 0. Vtedy program vypočíta daň za ubytovanie v&amp;nbsp;hodnote 4&amp;nbsp;osoby&amp;nbsp;x&amp;nbsp;1&amp;nbsp;€ = &lt;STRONG&gt;4&amp;nbsp;€&lt;/STRONG&gt;. V prípade, že v&amp;nbsp;poli&amp;nbsp;&lt;EM&gt;Počet dospelých&lt;/EM&gt; bude zadaná&amp;nbsp;hodnota 2, v&amp;nbsp;poli&amp;nbsp;&lt;EM&gt;Počet&amp;nbsp;detí&lt;/EM&gt; taktiež&amp;nbsp;hodnota 2 a v záložke &lt;EM&gt;Ubytované osoby&lt;/EM&gt; budú zadané 4 dospelé osoby, program vypočíta daň za ubytovanie takto: 2&amp;nbsp;osoby x&amp;nbsp;1&amp;nbsp;€ +&amp;nbsp;2&amp;nbsp;osoby x&amp;nbsp;0,50&amp;nbsp;€ = &lt;STRONG&gt;3&amp;nbsp;€&lt;/STRONG&gt;.&lt;/P&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;V prípade, že ubytovaná osoba nemá povinnosť odvádzať daň za ubytovanie (napr. nevidomá osoba, osoba ŤZP - podmienky bližšie určuje miestny správca dane), je potrebné takejto osobe vo formulári &lt;EM&gt;Osoba&lt;/EM&gt; v záložke &lt;EM&gt;Sadzby&lt;/EM&gt; začiarknuť možnosť &lt;EM&gt;Neodvádzať miestnu daň za ubytovanie&lt;/EM&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H5&gt;Obrázok č. 1: Formulár &lt;EM&gt;Ubytovanie&lt;/EM&gt;&lt;/H5&gt;&lt;IMG border=0 alt="" src="images/Forms/Hotel/Form_Hotel_Accomodation.png"&gt; 
+&lt;H2&gt;Vykazovanie miestnej dane za ubytovanie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Ubytovacie zariadenie vybranú daň za ubytovanie odvádza správcovi dane &lt;STRONG&gt;spravidla v&amp;nbsp;mesačných intervaloch&lt;/STRONG&gt;. Ak sa hosť ubytuje na prelome mesiacov, výška&amp;nbsp;miestnej dane nemusí&amp;nbsp;na prvý pohľad zrejmá a&amp;nbsp;jej určenie nemusí byť jednoduché. 
+&lt;LI&gt;Výšku odvodu je možné stanoviť podľa viacerých metodík, preto sa pri jej výbere odporúčame poradiť so správcom dane. Daň sa môže vykazovať podľa dátumu príchodu (za celý pobyt), podľa skutočne vybranej dane od hosťa (t. j. keď hosť platí), prípadne presne rozpočítať podľa počtu prenocovaní v&amp;nbsp;danom mesiaci.&amp;nbsp; 
+&lt;LI&gt;Výšku miestnej dane za ubytovanie za daný mesiac je možné určiť z tlačového výstupu &lt;EM&gt;Daň za ubytovanie.&amp;nbsp;&lt;/EM&gt;V prípade pobytu na prelome mesiacov (začínajúceho v jednom mesiaci a končiaceho v ďalšom) je v stĺpci &lt;I&gt;Daň celkom&lt;/I&gt; zobrazená daň za celé ubytovanie a v stĺpci &lt;I&gt;Daň v sledovanom období&lt;/I&gt; je zobrazená len daň v danom mesiaci. 
+&lt;LI&gt;Ďalší spôsob vykazovania dane za ubytovanie môže byť&amp;nbsp;pomocou&amp;nbsp;&lt;A href="a6f5e32d-6f1e-40bb-9d15-3f784a183252"&gt;Pokladnice OBERON&lt;/A&gt;: prijatá daň za ubytovanie sa vždy &lt;STRONG&gt;vyúčtuje&amp;nbsp;na pokladničnom doklade&lt;/STRONG&gt; (s&amp;nbsp;nulovou sadzbou DPH) - zároveň odporúčame na túto položku použiť samostatnú tovarovú skupinu. V&amp;nbsp;prehľadoch pokladnice (v&amp;nbsp;tlačových výstupoch)&amp;nbsp;je potom možné vybranú daň vyčísliť. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Tabuľka&amp;nbsp;č. 1:&amp;nbsp;Príklad spôsobu vyčíslenia dane&amp;nbsp;v tlačovom výstupe &lt;EM&gt;Daň za ubytovanie&lt;/EM&gt;&lt;/H5&gt;
+&lt;TABLE style="HEIGHT: 111px; WIDTH: 700px"&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TD width=300&gt;&lt;STRONG&gt;Pobyt (2 osoby) - od 31.3-3.4. (3 noci)&lt;/STRONG&gt;&lt;BR&gt;(daň za ubytovanie&amp;nbsp;= 1 €)&amp;nbsp;&lt;/TD&gt;
+&lt;TD width=89&gt;Dátum pobytu&lt;/TD&gt;
+&lt;TD width=91&gt;Daň celkom (za pobyt)&lt;/TD&gt;
+&lt;TD width=83&gt;Daň celkom (príchod)&lt;/TD&gt;
+&lt;TD width=76&gt;Počet dní v&amp;nbsp;sledovanom období&lt;/TD&gt;
+&lt;TD&gt;Daň v&amp;nbsp;sledovanom období&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=314&gt;&lt;STRONG&gt;Daň za ubytovanie - marec&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD width=89&gt;31.3. do 3.4.&lt;/TD&gt;
+&lt;TD style="TEXT-ALIGN: center" width=91&gt;6 €&lt;/TD&gt;
+&lt;TD style="TEXT-ALIGN: center" width=83&gt;6 €&lt;/TD&gt;
+&lt;TD style="TEXT-ALIGN: center" width=76&gt;1&lt;/TD&gt;
+&lt;TD style="TEXT-ALIGN: center" width=83&gt;&lt;STRONG&gt;2 €&lt;/STRONG&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=314&gt;&lt;STRONG&gt;Daň&lt;/STRONG&gt; &lt;STRONG&gt;za ubytovanie&lt;/STRONG&gt; &lt;STRONG&gt;- apríl&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD width=89&gt;31.3. do 3.4.&lt;/TD&gt;
+&lt;TD style="TEXT-ALIGN: center" width=91&gt;6 €&lt;/TD&gt;
+&lt;TD style="TEXT-ALIGN: center" width=83&gt;0 €&lt;/TD&gt;
+&lt;TD style="TEXT-ALIGN: center" width=76&gt;2&lt;/TD&gt;
+&lt;TD style="TEXT-ALIGN: center" width=83&gt;
+&lt;P&gt;&lt;STRONG&gt;4 €&lt;/STRONG&gt;&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;
+&lt;H5&gt;&amp;nbsp;Tabuľka&amp;nbsp;č. 2:&amp;nbsp;Príklad spôsobu vyčíslenia dane&amp;nbsp;v tlačovom výstupe &lt;EM&gt;Daň za ubytovanie (súhrnne)&lt;/EM&gt;&lt;/H5&gt;
+&lt;TABLE style="HEIGHT: 111px; WIDTH: 700px"&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TD width=314&gt;&lt;STRONG&gt;Pobyt (2 osoby) - od 31.3-3.4. (3 noci)&lt;/STRONG&gt;&lt;BR&gt;(daň za ubytovanie&amp;nbsp;= 1&amp;nbsp;€)&amp;nbsp;&lt;/TD&gt;
+&lt;TD width=85&gt;Dátum pobytu&lt;/TD&gt;
+&lt;TD width=91&gt;Daň celkom (za pobyt)&lt;/TD&gt;
+&lt;TD width=83&gt;Daň celkom (príchod)&lt;/TD&gt;
+&lt;TD&gt;Daň v&amp;nbsp;sledovanom období&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=314&gt;&lt;STRONG&gt;Daň&lt;/STRONG&gt; &lt;STRONG&gt;za ubytovanie&lt;/STRONG&gt; &lt;STRONG&gt;- marec&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD width=85&gt;31.3. do 3.4.&lt;/TD&gt;
+&lt;TD style="TEXT-ALIGN: center" width=91&gt;6 €&lt;/TD&gt;
+&lt;TD style="TEXT-ALIGN: center" width=83&gt;6 €&lt;/TD&gt;
+&lt;TD style="TEXT-ALIGN: center" width=83&gt;&lt;STRONG&gt;6&amp;nbsp;€&lt;/STRONG&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=314&gt;&lt;STRONG&gt;Daň&lt;/STRONG&gt; &lt;STRONG&gt;za ubytovanie&lt;/STRONG&gt; &lt;STRONG&gt;- apríl&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD width=85&gt;31.3. do 3.4.&lt;/TD&gt;
+&lt;TD style="TEXT-ALIGN: center" width=91&gt;6 €&lt;/TD&gt;
+&lt;TD style="TEXT-ALIGN: center" width=83&gt;0 €&lt;/TD&gt;
+&lt;TD style="TEXT-ALIGN: center" width=83&gt;
+&lt;P&gt;&lt;STRONG&gt;0&amp;nbsp;€&lt;/STRONG&gt;&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="03dace14-f827-4834-bf95-df5ad735db6a" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="2414619b-e1e1-4bc2-b745-c8d08f3f2549">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="0d92ec96-9616-4bfc-b394-0e170f23166b" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="d5286006-62ed-43bc-93a2-5f4ec69fce0b">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="7b0141c5-717b-42ec-a0b6-0fdc6bc15a0d" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="fc334b67-8148-4d4c-bb21-de0e0060b312">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="00f400d4-59ec-4c57-a94c-d1b375f1b9ce" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="d43ef71f-edb1-44f7-b1a2-c0cf18067ee9">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="b4190e13-a5dd-4922-ba2c-c20c57124d6e" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="0b9519ff-9438-422b-a3e8-358b628293e9">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="d0f0cde7-6ce5-4c1d-b9d4-bb0cadd5221f">
+      <Keyword m="2020-09-18T07:07:23.0101035Z">Daň za ubytovanie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="cb37184f-2313-4622-b934-93c754638c45">
+      <Keyword m="2022-06-28T08:03:48.4890567Z">Turistický poplatok - hotelová recepcia</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="63cddb88-5879-4ea9-84ae-9ae63727d54f">
+      <Keyword m="2022-06-28T08:04:40.363137Z">Miestny poplatok - hotelová recepcia</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

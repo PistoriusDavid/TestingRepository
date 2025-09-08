@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="ea274222-0362-4c08-acdf-aaffbb57dd2b" Status="Complete" CreatedOn="2019-07-01T12:15:34.9285333Z" ModifiedOn="2024-01-25T10:05:33.3643199Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Device_FiscalDevice_PegasFM-06eKasa_Install" BuildFlags="">
+  <Title m="2019-07-17T09:22:58.0100946Z">Fiškálna tlačiareň Pegas FM-06 eKasa - inštalácia</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-01-25T10:05:33.3643199Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; popisuje &lt;STRONG&gt;inštaláciu fiškálnej tlačiarne&amp;nbsp;&lt;/STRONG&gt;&lt;A href="88774d27-941a-4924-a7c3-793588d21523"&gt;Pegas FM-06 eKasa&lt;/A&gt;.&lt;/P&gt;
+&lt;H2&gt;Pripojenie&amp;nbsp;fiškálnej tlačiarne&lt;/H2&gt;
+&lt;P&gt;Zariadenie sa napája pomocou sieťového adaptéra, k počítaču sa pripája pomocou sériového kábla (prípadne USB prevodníkom na pripojenie sériových zariadení).&lt;/P&gt;
+&lt;H5&gt;Obrázok č. 1: Schéma komunikácie medzi OBERON-om a zariadením&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Devices/Devices_Auxiliary/Device_Auxiliary_Pegas_Connection.png"&gt;&lt;/P&gt;
+&lt;H2&gt;Nastavenia fiškálnej tlačiarne&lt;/H2&gt;
+&lt;P&gt;Pomocou návodu a servisného programu BOWA (EKasaFMUI) nahrajte do zariadenia identifikačné a autentifikačné údaje a vykonajte ostatné nastavenia komunikácie. OBERON nekomunikuje&amp;nbsp;s&amp;nbsp;PPEKK zariadenia&amp;nbsp;priamo, ale prostredníctvom softvéru výrobcu - ovládača BOWA (FMInterfaceDLL.dll). PPEKK beží po nainštalovaní v počítači ako služba na pozadí.&lt;/P&gt;
+&lt;H2&gt;Nastavenia v OBERON-e&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;Ak ešte nemáte v systéme OBERON vytvorenú (založenú) firmu, vytvorte ju&amp;nbsp;- bližšie informácie nájdete v téme &lt;A href="9a485893-6dd2-44e8-9740-a4cd7083a932" style="auto-update-caption: true"&gt;Vytvorenie účtovnej jednotky (databázy)&lt;/A&gt;. 
+&lt;LI&gt;Spustite program &lt;EM&gt;OBERON - Agenda firmy.&lt;/EM&gt; 
+&lt;LI&gt;Pomocou &lt;EM&gt;Správcu doplnkov&lt;/EM&gt; (ponuka &lt;EM&gt;Servis&lt;/EM&gt;) nainštalujte &lt;EM&gt;Ovládač pre fiškálny modul Bowa Pegas a Pegassino eKasa&lt;/EM&gt;. 
+&lt;LI&gt;Zvoľte ponuku &lt;EM&gt;Servis,&amp;nbsp;&lt;/EM&gt;&lt;A href="749ff4f1-eeb5-43f5-98d2-021399d8cec7"&gt;Zariadenia&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt; stlačte tlačidlo &lt;I&gt;Pridať.&lt;/I&gt; V&amp;nbsp;otvorenom formulári vyberte&amp;nbsp;typ zariadenia&amp;nbsp;&lt;I&gt;&lt;STRONG&gt;Fiškálne zariadenie&lt;/STRONG&gt;&lt;/I&gt;, zadajte názov pokladnice, vyberte model&amp;nbsp;&lt;EM&gt;&lt;STRONG&gt;Bowa Pegas eKasa&lt;/STRONG&gt;&lt;/EM&gt; a&amp;nbsp;zadajte (vyberte) &lt;STRONG&gt;názov počítača&lt;/STRONG&gt;, ku ktorému sa má zariadenie pripojiť, prípadne zadajte&amp;nbsp;ostatné údaje. Potom stlačte tlačidlo &lt;I&gt;Nastaviť zariadenie -&lt;/I&gt; otvorí sa&amp;nbsp;&lt;A href="06f5e819-cf70-4875-b3fd-eca80b19939b"&gt;formulár&lt;/A&gt;, v ktorom:&lt;BR&gt;- v záložke &lt;EM&gt;Komunikácia&lt;/EM&gt; zadajte parametre komunikácie: vyberte možnosť &lt;EM&gt;Protokol TCP/IP&lt;/EM&gt;,&amp;nbsp;do poľa &lt;EM&gt;IP adresa&lt;/EM&gt; zadajte hodnotu&amp;nbsp;&lt;STRONG&gt;127.0.0.1&lt;/STRONG&gt;,&amp;nbsp;číslo portu nastavte &lt;STRONG&gt;30&amp;nbsp;000&lt;/STRONG&gt;. Na otestovanie komunikácie so zariadením stlačte tlačidlo &lt;EM&gt;Načítať zo zariadenia&lt;/EM&gt;;&lt;BR&gt;-&amp;nbsp;v&amp;nbsp;záložke &lt;EM&gt;Základné&lt;/EM&gt;&amp;nbsp;je možné vybrať tlačiareň na tlač nefiškálnych textov (rôznych súhrnných&amp;nbsp;obratov, mincoviek, náhradného paragónu pri nefunkčnosti fiškálnej tlačiarne a&amp;nbsp;pod.);&lt;BR&gt;-&amp;nbsp;v&amp;nbsp;záložke &lt;EM&gt;Nastavenia modulu&lt;/EM&gt; možno zadefinovať doplňujúcu hlavičku/pätičku pokladničného dokladu;&lt;BR&gt;-&amp;nbsp;v&amp;nbsp;záložke&amp;nbsp;&lt;EM&gt;Pokladnica OBERON&amp;nbsp;&lt;/EM&gt;nastavte parametre predaja a&amp;nbsp;zobrazenia&amp;nbsp;&lt;A href="aec074f4-3e1c-4a1e-8a80-06fcecf51156"&gt;Pokladnice OBERON&lt;/A&gt;. Každú pokladnicu definovanú v&amp;nbsp;systéme OBERON&amp;nbsp;je potrebné priradiť k&amp;nbsp;určitému&amp;nbsp;&lt;A href="327921ae-e0fb-48da-b179-61714048b841"&gt;predajnému miestu&lt;/A&gt;. Ďalšie dôležité nastavenia sú&amp;nbsp;&lt;I&gt;Režim predaja&lt;/I&gt;, &lt;I&gt;Režim zobrazenia&lt;/I&gt;&amp;nbsp;a&amp;nbsp;&lt;I&gt;Vytváranie skladových pohybov&lt;/I&gt;. Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="bb0e1e82-e344-4bf0-834a-a294269f2e71" style="auto-update-caption: true"&gt;Formulár Pokladnica OBERON - nastavenia&lt;/A&gt;. 
+&lt;LI&gt;Nastavenia vykonané vo formulári &lt;EM&gt;Nastavenie&amp;nbsp;fiškálneho zariadenia Bowa Pegas eKasa&lt;/EM&gt; a&amp;nbsp;vo formulári &lt;EM&gt;Zariadenie&lt;/EM&gt;&amp;nbsp;potvrďte stlačením tlačidla &lt;STRONG&gt;&lt;EM&gt;OK&lt;/EM&gt;&lt;/STRONG&gt;. 
+&lt;LI&gt;Inštalácia fiškálnej tlačiarne je ukončená. &lt;/LI&gt;&lt;/OL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Ďalšie informácie získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="06f5e819-cf70-4875-b3fd-eca80b19939b" style="auto-update-caption: true"&gt;Formulár Nastavenie zariadenia&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H5&gt;Obrázok č. 2: Nastavenie komunikácie s fiškálnou tlačiarňou &lt;EM&gt;Pegas FM-06 eKasa&lt;/EM&gt;&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/CashRegister/Form_CashRegister_Peggassino_Settings.png"&gt;&lt;/P&gt;
+&lt;H2&gt;Nastavenie zdieľanej tlače na fiškálnej tlačiarni&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;Pri&amp;nbsp;&lt;A href="5f118a35-e98e-46fb-8e14-d05d3294fe4e"&gt;režime zdieľania&lt;/A&gt; sa v zozname&amp;nbsp;&lt;A href="749ff4f1-eeb5-43f5-98d2-021399d8cec7"&gt;definovaných fiškálnych zariadení&lt;/A&gt; môže dané fiškálne zariadenie &lt;STRONG&gt;nachádzať len jedenkrát&lt;/STRONG&gt;. Na nastavenie&amp;nbsp;zdieľanej tlače&amp;nbsp;zvoľte &lt;STRONG&gt;na počítači, ku ktorému je fyzicky pripojená fiškálna tlačiareň (server)&lt;/STRONG&gt;, ponuku &lt;EM&gt;Servis,&amp;nbsp;&lt;/EM&gt;&lt;A href="749ff4f1-eeb5-43f5-98d2-021399d8cec7"&gt;Zariadenia&lt;/A&gt; a&amp;nbsp;stlačte tlačidlo &lt;I&gt;Pridať.&lt;/I&gt; V&amp;nbsp;otvorenom formulári&amp;nbsp;okrem ostatných parametrov&amp;nbsp;zadajte k &lt;STRONG&gt;názvu počítača&lt;/STRONG&gt;, ku ktorému sa má zariadenie pripojiť, aj &lt;STRONG&gt;názvy tých počítačov (pracovných staníc), pre ktoré chcete nastaviť zdieľanú tlač&lt;/STRONG&gt; (jednotlivé názvy oddeľte čiarkou a&amp;nbsp;medzerou, napr.&amp;nbsp;&lt;EM&gt;Pokladnica 1,&amp;nbsp;&lt;/EM&gt;Pokladnica 2,&amp;nbsp;&lt;EM&gt;Pokladnica&lt;/EM&gt; 3). V&amp;nbsp;prípade pripojenia pomocou vzdialenej pracovnej plochy je pred názvom počítača&amp;nbsp;skratka &lt;STRONG&gt;RDP&lt;/STRONG&gt; (napr. &lt;EM&gt;RDP:&lt;/EM&gt;&amp;nbsp;&lt;EM&gt;Pokladnica 1&lt;/EM&gt;). 
+&lt;LI&gt;V&amp;nbsp;ďalšom kroku stlačte tlačidlo &lt;I&gt;Nastaviť zariadenie -&lt;/I&gt; otvorí sa&amp;nbsp;&lt;A href="06f5e819-cf70-4875-b3fd-eca80b19939b"&gt;formulár&lt;/A&gt;, v ktorom v&amp;nbsp;záložke &lt;EM&gt;Komunikácia&lt;/EM&gt; do poľa &lt;EM&gt;IP adresa&lt;/EM&gt; &lt;STRONG&gt;zadajte hodnotu&amp;nbsp;IP adresy počítača&lt;/STRONG&gt; (nie 127.0.0.1)&lt;EM&gt;.&lt;/EM&gt; Číslo portu nastavte &lt;STRONG&gt;30&amp;nbsp;000&lt;/STRONG&gt;. Následne je daný port potrebné &lt;STRONG&gt;povoliť v&amp;nbsp;bráne firewall&lt;/STRONG&gt;.&amp;nbsp; 
+&lt;LI&gt;Na počítačoch, pre ktoré chcete nastaviť zdieľanú tlač (pracovné stanice), nie je potrebné vykonať žiadne nastavenia. &lt;/LI&gt;&lt;/OL&gt;&lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt; 
+&lt;H2&gt;Riešenie problémov pri inštalácii&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;Uistite sa, že je v počítači nainštalovaný ovládač BOWA (&lt;EM&gt;FMInterfaceDLL.dll&lt;/EM&gt;) - inštaluje sa pomocou &lt;EM&gt;Správcu doplnkov&lt;/EM&gt; v ponuke &lt;EM&gt;Servis&lt;/EM&gt;, názov:&amp;nbsp;&lt;STRONG&gt;Ovládač pre fiškálny modul Bowa Pegas a Pegassino eKasa&lt;/STRONG&gt;&lt;EM&gt;.&lt;/EM&gt; 
+&lt;LI&gt;V prípade, že&amp;nbsp;ovládač BOWA (&lt;EM&gt;FMInterfaceDLL.dll&lt;/EM&gt;), ktorý zabezpečuje komunikáciu s fiškálnym tlačiarňou, bol nainštalovaný prostredníctvom &lt;EM&gt;Správcu doplnkov&lt;/EM&gt; a aj sa nachádza v&amp;nbsp;adresári C:\OBERON\SHARE\SYSTEM\, no napriek tomu&amp;nbsp;ho program nevie použiť, je potrebné stiahnuť a nainštalovať &lt;STRONG&gt;32bit verziu&amp;nbsp;&lt;/STRONG&gt;&lt;A href="https://www.microsoft.com/en-us/download/details.aspx?id=48145" target=_blank&gt;Visual C++ Redistributable for Visual Studio 2015&lt;/A&gt; (aj pre &lt;STRONG&gt;Windows 64bit&lt;/STRONG&gt; je&amp;nbsp;potrebné&amp;nbsp;stiahnuť &lt;STRONG&gt;32bit verziu&lt;/STRONG&gt;). 
+&lt;LI&gt;Uistite sa, že&amp;nbsp;v&amp;nbsp;starších verziách &lt;EM&gt;Windows&lt;/EM&gt; je nainštalovaná verzia &lt;STRONG&gt;Microsoft .NET Framework 4.8&lt;/STRONG&gt; alebo novšia. &lt;/LI&gt;&lt;/OL&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="e98fde3f-0fd9-4f9a-a431-f514d242a488" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="88774d27-941a-4924-a7c3-793588d21523">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="bf55811b-52ee-4c37-8790-618129970fa5" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="a75ad602-f141-475d-afba-8d0f3dcf668a">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="7f59fa37-f5bc-42d8-ae89-557ea6fffee6" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="749ff4f1-eeb5-43f5-98d2-021399d8cec7">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="0b3f08f0-440d-4a04-950a-5d736277ff9a" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="06f5e819-cf70-4875-b3fd-eca80b19939b">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="5d05f77d-4fe8-4b84-8944-b5c44cd63c2d">
+      <Keyword m="2019-07-01T13:16:36.9587561Z">Pegas FM-06 eKasa - inštalácia</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="45182e31-9780-4725-9e80-23ef7a2b9813">
+      <Keyword m="2021-04-07T12:44:37.6508505Z">eKasa Pegas FM-06 - inštalácia</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

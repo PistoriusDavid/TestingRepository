@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="cd4b8ec5-af3b-4964-8330-cdb144f66307" Status="Complete" CreatedOn="2024-09-27T06:54:17.7853866Z" ModifiedOn="2024-09-27T09:04:43.2448579Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="ExternalSystem_GLOBERGDigital" BuildFlags="">
+  <Title m="2024-09-27T09:00:55.7194975Z">OBERON Cloud (GLOBERG:Digital)</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-09-27T09:04:43.243858Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; popisuje jeden zo&amp;nbsp;&lt;A href="9690f267-6ad7-4e22-9af2-675ef3d9d041"&gt;súvisiacich produktov&lt;/A&gt; systému OBERON -&amp;nbsp;&lt;STRONG&gt;cloudové riešenie&lt;/STRONG&gt; &lt;EM&gt;&lt;STRONG&gt;OBERON Cloud&lt;/STRONG&gt;&lt;/EM&gt; od spoločnosti &lt;EM&gt;&lt;STRONG&gt;GLOBERG:Digital&lt;/STRONG&gt;&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&amp;nbsp;&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Spoločnosť&amp;nbsp;&lt;A href="https://globerg.eu/" target=_blank&gt;GLOBERG:Digital, k. s.&lt;/A&gt; poskytuje používateľom OBERON-u profesionálnu cloudovú službu &lt;EM&gt;&lt;STRONG&gt;OBERON Cloud&lt;/STRONG&gt;&lt;/EM&gt; určenú na hosting softvéru. Na výber je buď &lt;STRONG&gt;umiestnenie databázy&lt;/STRONG&gt; &lt;STRONG&gt;v cloude, alebo terminálový server na mieru&lt;/STRONG&gt;. Spoločnosť tak ponúka riešenie pre širokú škálu používateľov, či už ide o malé podniky s niekoľkými prevádzkami, alebo veľké firmy so zložitými procesmi. 
+&lt;LI&gt;Servery spoločnosti sú pripojené priamymi optickými linkami s rýchlosťou 10 Gb/s v režime LACP (zálohovanej agregovanej linky). Optická sieť garantuje nízku latenciu a rýchlu odozvu načítania dát. 
+&lt;LI&gt;Spoločnosť ponúka dve možnosti používania OBERON-u v cloude: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Databázový server pre efektívnu zdieľanú prácu&lt;/STRONG&gt; - umožňuje firmám bezpečne zdieľať databázy a pracovať s nimi z viacerých miest. Toto riešenie je ideálne pre firmy, ktoré potrebujú spoľahlivý prístup k svojim dátam z rôznych prevádzok alebo pre zamestnancov, ktorí pracujú na diaľku. 
+&lt;LI&gt;&lt;STRONG&gt;Terminálový server pre firmy s pokročilými potrebami&lt;/STRONG&gt; - terminálové riešenie určené pre firmy využívajúce systém OBERON a jeho&amp;nbsp;&lt;A href="9ce25bbd-35d1-4096-acd5-70007f5af5a6"&gt;automatické úlohy&lt;/A&gt; vykonávané programom&amp;nbsp;&lt;A href="09f3dae9-2fb7-490f-97dc-37f60885b398"&gt;OBERON Automation Center&lt;/A&gt;. Tie zahŕňajú napr. synchronizáciu stavu zásob v e-shope, automatické importy objednávok, či synchronizáciu pokladničných systémov, prípadne ďalšie procesy aj vo viacerých prevádzkach naraz. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Poskytovateľ služby má na svojej webovej stránke k dispozícii podrobný &lt;STRONG&gt;cenový konfigurátor (kalkulačku)&lt;/STRONG&gt;, pomocou ktorého si možno vyskladať cloudové riešenie podľa vlastných preferencií. Na základe zvolených kritérií konfigurátor automaticky vypočíta cenu za umiestnenie OBERON-u do cloudu. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Hlavné výhody riešení od GLOBERG:Digital&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Škálovateľnosť a flexibilita&lt;/STRONG&gt; - okrem databázového alebo terminálového servera GLOBERG:Digital ponúka aj napr. automatizované e-shopové riešenia, ktoré zahŕňajú implementáciu, správu webhostingu a nastavenie parametrov prepojenia medzi OBERON-om a internetovým obchodom podľa vlastných požiadaviek. 
+&lt;LI&gt;&lt;STRONG&gt;Vysoký výkon&lt;/STRONG&gt; - umožňuje používať aj veľké databázy s tisíckami záznamov a vysokým počtom používateľov. 
+&lt;LI&gt;&lt;STRONG&gt;Bezpečnosť dátových centier&lt;/STRONG&gt; - centrá spĺňajú bezpečnostné štandardy typu TIER III s riadeným biometrickým prístupom dátového centra. Dátové centrum si môže zákazník zvoliť, a to v rámci Slovenska, Nemecka, Českej republiky, Poľska, Rakúska, Fínska alebo Izraela. 
+&lt;LI&gt;&lt;STRONG&gt;Jednoduchá migrácia&lt;/STRONG&gt; - dodávateľ služby zabezpečuje rýchly a bezproblémový prechod z iných databázových systémov (&lt;EM&gt;MS Access, MySQL, MS SQL&lt;/EM&gt;), resp. od iných poskytovateľov cloudových služieb. 
+&lt;LI&gt;&lt;STRONG&gt;Rýchlosť zriadenia služby&lt;/STRONG&gt; - po objednávke je možné spustiť službu už do 24 hodín. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Ďalšie informácie získate na webovej stránke&amp;nbsp;&lt;A href="https://exalogic.sk/oberon/suvisiace-produkty/globergdigital/" target=_blank&gt;OBERON Cloud (GLOBERG:Digital)&lt;/A&gt;&amp;nbsp;a na&amp;nbsp;&lt;A href="https://globerg.eu/" target=_blank&gt;webovej stránke dodávateľa&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="05c1ef12-d53b-4109-825b-51c52d514c62" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="9690f267-6ad7-4e22-9af2-675ef3d9d041">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="8bc33c2c-c491-4698-82ed-4a424afd803b" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="0b81f4ea-5e68-48c1-8b89-933d5a23d962">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="cd07ca11-ae80-4c60-a798-4807086e8d38" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="53708756-df6d-4205-b722-ff19054c3797">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="1c8232fc-bde1-4cb5-982a-1619450d004c" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="f0a7aeb9-190b-4de7-90e7-30322114e9a9">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="b27f134d-167c-46e3-8325-f7acbad42551" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="6072e597-0b64-4765-ad7d-c373b77beb9a">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="356c6245-88cc-4b30-a046-755007ddafa4" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="701211a9-6951-4401-acfb-fd5ea760c84d">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="d22268d5-f108-4b4b-9587-7e447602b44e">
+      <Keyword m="2022-04-06T10:07:59.7233358Z">Cloud - ENGINE Slovakia</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="a953a28b-88bb-4d5a-8f41-70e4ef9d02d4">
+      <Keyword m="2022-04-06T11:38:14.3065552Z">MariaDB server - cloud</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

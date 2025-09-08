@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="7619838c-ff53-45e4-be41-0038d3221294" Status="Complete" CreatedOn="2023-09-28T12:22:17.6668638Z" ModifiedOn="2023-09-29T05:53:53.9622515Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="ExternalSystem_Archiles" BuildFlags="">
+  <Title m="2023-09-28T12:22:41.1093129Z">Archiles</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-09-29T05:53:53.9622515Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; popisuje jeden zo&amp;nbsp;&lt;A href="9690f267-6ad7-4e22-9af2-675ef3d9d041"&gt;súvisiacich produktov&lt;/A&gt; systému OBERON -&lt;STRONG&gt;&amp;nbsp;webovú aplikáciu &lt;EM&gt;Archiles&lt;/EM&gt;&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;EM&gt;Archiles&lt;/EM&gt; predstavuje webovú aplikáciu, ktorá umožňuje &lt;STRONG&gt;automatické vyťažovanie účtovných a platobných údajov&lt;/STRONG&gt; &lt;STRONG&gt;z faktúr, ich elektronickú archiváciu a následný import do systému OBERON&lt;/STRONG&gt;. 
+&lt;LI&gt;Automatické štruktúrované vyťažovanie účtovných a platobných údajov z faktúr sa realizuje &lt;STRONG&gt;skenovaním a nahrávaním papierových dokladov do digitálneho archívu &lt;EM&gt;Archiles&lt;/EM&gt;&lt;/STRONG&gt;. Doklady vo formáte PDF je &lt;STRONG&gt;možno do archívu nahrávať priamo&lt;/STRONG&gt;. Vďaka vyťažovaniu údajov a ich digitálnej archivácii nie je potrebné manuálne prepisovať doklady do účtovníctva a vyhľadávať účtovné a firemné doklady s ich dátami vo fyzických zložkách (šanónoch). 
+&lt;LI&gt;Rozšírením hlavnej webovej aplikácie je &lt;STRONG&gt;mobilná aplikácia pre operačný systém &lt;EM&gt;Android&lt;/EM&gt;.&lt;/STRONG&gt; Jej primárnou úlohou je zjednodušenie a zrýchlenie skenovania a nahrávania dokumentov do digitálneho archívu. 
+&lt;LI&gt;Vyťažené dokumenty a ich údaje sa ukladajú do &lt;STRONG&gt;zabezpečeného elektronického archívu&lt;/STRONG&gt;. Dáta sú uložené lokálne v krajine poskytovania služby a nie vo verejnom cloude. Vďaka webovému rozhraniu sú archivované údaje &lt;STRONG&gt;dostupné on-line&lt;/STRONG&gt;. 
+&lt;LI&gt;Vyťažené údaje uložené v digitálnom archíve možno importovať do OBERON-u. To, či sa faktúra v OBERON-e naimportuje &lt;STRONG&gt;do prijatých, prijatých zálohových, vystavených, vystavených zálohových faktúr atď. závisí od kategórie dokumentu&lt;/STRONG&gt; v systéme &lt;EM&gt;Archiles&lt;/EM&gt;, a toho, aký má kategória priradený typ dokladu. Ak ide podľa kategórie o riadnu (nie zálohovú) faktúru a táto má zápornú sumu, automaticky sa jej v OBERON-e priradí typ &lt;EM&gt;Dobropis&lt;/EM&gt;. Podľa toho, kam sa faktúra naimportuje, &lt;STRONG&gt;sa jej priradí aj číselný rad&lt;/STRONG&gt;. Export ťarchopisov aktuálne nie je podporovaný. Ku každej faktúre sa v OBERON-e uloží &lt;STRONG&gt;odkaz na faktúru v digitálnom archíve &lt;EM&gt;Archiles&lt;/EM&gt;&lt;/STRONG&gt;. 
+&lt;LI&gt;Aplikácia so systémom OBERON spolupracuje prostredníctvom&amp;nbsp;&lt;A href="56f661c6-24da-46aa-b157-5d988cbe792b"&gt;XML komunikácie&lt;/A&gt;, ktorá zabezpečuje prenos faktúr prostredníctvom súboru XML. V aplikácii sa vyexportujú faktúry vo forme súboru XML, ktorý sa následne importuje do OBERON-u buď v&amp;nbsp;&lt;A href="5c21adcc-87c8-44e7-981d-02902635693d"&gt;Knihe pohľadávok&lt;/A&gt;, alebo v&amp;nbsp;&lt;A href="55028746-c263-4d92-a615-502222e8d53b"&gt;Knihe záväzkov&lt;/A&gt; (ponuka &lt;EM&gt;Fakturácia&lt;/EM&gt;) s použitím funkcie &lt;STRONG&gt;&lt;EM&gt;XML komunikácia - import dokladu&lt;/EM&gt;&lt;/STRONG&gt;, resp. &lt;STRONG&gt;&lt;EM&gt;XML komunikácia - hromadný import dokladov&lt;/EM&gt;&lt;/STRONG&gt; (tlačidlo &lt;EM&gt;Možnosti&lt;/EM&gt;).&lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Ďalšie informácie získate na webovej stránke&amp;nbsp;&lt;A href="https://exalogic.sk/oberon/suvisiace-produkty/archiles/" target=_blank&gt;Archiles&lt;/A&gt;&amp;nbsp;a na&amp;nbsp;&lt;A href="https://www.archiles.sk/" target=_blank&gt;webovej stránke dodávateľa&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="0b82bdb5-510f-4e7a-a3fb-8d984461e94b" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="9690f267-6ad7-4e22-9af2-675ef3d9d041">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="fd0be521-9606-49b8-b4e8-f01e6723a9a7" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="56f661c6-24da-46aa-b157-5d988cbe792b">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords />
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

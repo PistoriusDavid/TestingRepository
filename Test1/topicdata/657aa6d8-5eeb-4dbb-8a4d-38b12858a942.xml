@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="657aa6d8-5eeb-4dbb-8a4d-38b12858a942" Status="Complete" CreatedOn="2023-05-31T12:45:04.1029236Z" ModifiedOn="2023-11-30T11:51:37.1298464Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Stock_Advanced_Orders_Order_Offers" BuildFlags="">
+  <Title m="2023-05-31T12:45:34.2210542Z">Cenové ponuky</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-11-30T11:51:37.1298464Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; je venovaná &lt;STRONG&gt;možnostiam tvorby a&amp;nbsp;využitia cenových ponúk&lt;/STRONG&gt; v&amp;nbsp;systéme OBERON.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Systém OBERON umožňuje vytvárať cenové ponuky tovarov a služieb predávaných účtovnou jednotkou. Ponuky sa vytvárajú a evidujú v&amp;nbsp;knihe&amp;nbsp;&lt;A href="48505e8d-5f28-4063-882b-ca07f33670ef"&gt;Objednávky prijaté&lt;/A&gt; (ponuka &lt;EM&gt;Fakturácia&lt;/EM&gt;).&amp;nbsp;Vo&amp;nbsp;&lt;A href="6712889d-bea7-4ae7-859d-82b809c7bdcc"&gt;formulári Obednávka prijatá&lt;/A&gt; je potrebné v&amp;nbsp;rozbaľovacom zozname &lt;EM&gt;Typ dokladu&lt;/EM&gt; zvoliť možnosť &lt;EM&gt;&lt;STRONG&gt;Ponuka&lt;/STRONG&gt;&lt;/EM&gt;. 
+&lt;LI&gt;Na zaslanie cenovej ponuky zákazníkovi slúži tlačový výstup &lt;EM&gt;&lt;STRONG&gt;Objednávka prijatá (ponuka)&lt;/STRONG&gt;&lt;/EM&gt;, resp. &lt;EM&gt;&lt;STRONG&gt;Objednávka prijatá (ponuka) [s&amp;nbsp;obrázkami]&lt;/STRONG&gt;&lt;/EM&gt;. 
+&lt;LI&gt;Pri organizovaní spoločenských akcií (svadieb, konferencií, školení...)&amp;nbsp;je možné pri tvorbe cenových ponúk využiť ďalší tlačový výstup v&amp;nbsp;knihe &lt;A href="48505e8d-5f28-4063-882b-ca07f33670ef"&gt;Objednávky prijaté&lt;/A&gt;, a&amp;nbsp;to &lt;STRONG&gt;&lt;EM&gt;Objednávka prijatá (podrobný rozbor)&lt;/EM&gt;&lt;/STRONG&gt;. Obsahuje informácie o&amp;nbsp;výpočte zisku, navýšenia, marže atď. Následne možno tieto informácie využiť ako podklad na vytvorenie cenovej ponuky a&amp;nbsp;nastavenie výslednej ceny za zorganizovanie akcie. 
+&lt;LI&gt;Tlačový výstup &lt;EM&gt;&lt;STRONG&gt;Objednávka prijatá (podrobný rozbor)&lt;/STRONG&gt;&lt;/EM&gt; obsahuje podrobné &lt;STRONG&gt;informácie o surovinách&lt;/STRONG&gt; obsiahnutých v&amp;nbsp;jednotlivých &lt;A href="2d9e274d-bfb7-43bc-9e70-b091ed82b9b2"&gt;receptúrach&lt;/A&gt;&lt;STRONG&gt;: objednané množstvo, aktuálne množstvo na sklade, ako aj rozdiel medzi týmito množstvami.&amp;nbsp;&lt;/STRONG&gt;To môže účtovnej jednotke poslúžiť ako podkladová informácia, &lt;STRONG&gt;ktoré suroviny a&amp;nbsp;akom množstve je potrebné dokúpiť&lt;/STRONG&gt; (Obrázok č. 1). &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č.1: Tlačový výstup &lt;EM&gt;Objednávka prijatá (podrobný rozbor)&lt;/EM&gt;&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Stock/Stock_Orders_ReceptureReport.png"&gt;&lt;/P&gt;
+&lt;H2&gt;Viac spoločenských udalostí v krátkom časovom slede&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Pri organizovaní viacerých spoločenských akcií za sebou &lt;STRONG&gt;je možné nákup surovín realizovať hromadne&lt;/STRONG&gt;. V zozname prijatých objednávok&amp;nbsp;možno pomocou klávesu &lt;EM&gt;&lt;STRONG&gt;Insert&lt;/STRONG&gt;&lt;/EM&gt; označiť objednávky, pre ktoré sa vytvorí tlačový výstup&amp;nbsp;na hromadný nákup.&amp;nbsp; 
+&lt;LI&gt;Tlačový výstup &lt;EM&gt;&lt;STRONG&gt;Objednávka prijatá (podrobný rozbor) [len označené]&lt;/STRONG&gt;&lt;/EM&gt; poskytne súhrnné informácie o surovinách, ktoré je potrebné zakúpiť pre všetky označené akcie (Obrázok č. 2). &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 2: Tlačový výstup vytvorený z viacerých objednávok&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Stock/Stock_Orders_ReceptureReport_More.png"&gt;&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="417134da-7eff-4f07-a81a-1a9200a14cf5" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="c91cdf0d-f982-42ce-a348-4fb310046672">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="994c66db-011e-4853-8a2d-7523f95a3d66" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="48505e8d-5f28-4063-882b-ca07f33670ef">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="f53518c9-83ef-4710-9b05-bdb95abcc47f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="a9a8c655-077e-45cb-acb3-8fdb105a2409">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="39d129a8-bd9b-41f2-81df-7a6774ddc1e8" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="2d9e274d-bfb7-43bc-9e70-b091ed82b9b2">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="44e7a25d-1b29-4c67-9a1d-1bdcd0c5fdb1">
+      <Keyword m="2023-05-31T12:49:16.5880106Z">Objednávka prijatá - cenová ponuka</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="21391697-b1d0-4742-9458-b9f4a2ce1262">
+      <Keyword m="2023-05-31T12:54:05.0826048Z">Cenové ponuky s receptúrami</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="f48ce1a1-547f-4fb4-ab56-76239db3a025">
+      <Keyword m="2023-06-01T12:14:27.1187071Z">Ponuka</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="0e7d45fe-1dc3-4465-a40f-c490e381ff84">
+      <Keyword m="2023-06-01T12:14:31.9750671Z">Ponuky</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

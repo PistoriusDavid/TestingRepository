@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="5eaef397-0196-4360-a339-fcb1a11c32e3" Status="Complete" CreatedOn="2014-09-02T12:12:54.3804608Z" ModifiedOn="2025-04-24T10:01:52.1140639Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Hotel_Advanced_HotelReservation" BuildFlags="">
+  <Title m="2022-04-07T07:24:17.1636752Z">Rezervačný formulár ubytovania</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-11-06T14:09:34.9635631Z">&lt;P&gt;V systéme OBERON existuje&amp;nbsp;možnosť vytvoriť&amp;nbsp;rezervačný formulár&amp;nbsp;ubytovania (web booking engine, internet booking engine, smart booking engine, on-line booking system...) na internetovej stránke ubytovacieho zariadenia a&amp;nbsp;prepojiť ho&amp;nbsp;s&amp;nbsp;modulom &lt;A href="49dd3167-870a-4fdf-b631-d4f692f1ed72"&gt;Hotelová recepcia&lt;/A&gt;. Táto téma obsahuje &lt;STRONG&gt;základné informácie o&amp;nbsp;tomto prepojení vrátane popisu viacerých spôsobov&amp;nbsp;implementácie&lt;/STRONG&gt; rezervačného formulára.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Modul &lt;A href="c3bd41f0-029e-4c74-b342-b0ffff647b6e"&gt;Hotelová recepcia&lt;/A&gt; systému OBERON podporuje&amp;nbsp;&lt;STRONG&gt;priamu on-line rezerváciu izieb pomocou rezervačného formulára ubytovania na webovej stránke ubytovacieho zariadenia&lt;/STRONG&gt;. 
+&lt;LI&gt;Rezervačný formulár umožňuje po vykonaní rezervácie hosťom na internetovej stránke automaticky &lt;STRONG&gt;zapísať rezerváciu (alebo dopyt na ubytovanie) do evidencie rezervácií a&amp;nbsp;vzápätí&amp;nbsp;ju zobraziť v&amp;nbsp;grafickom prehľade izieb&lt;/STRONG&gt;. Rezervovať je možné jednu, prípadne aj viac izieb, pričom je možné overiť stav voľných izieb aj s automatickým výpočtom ceny za ubytovanie. 
+&lt;LI&gt;Prepojenie formulára s&amp;nbsp;modulom &lt;EM&gt;Hotelová recepcia&lt;/EM&gt; sa realizuje pomocou &lt;A href="58bb31ca-00c8-4641-ad99-7d58e24f59c5"&gt;webových služieb&lt;/A&gt;, t.&amp;nbsp;j. on-line, čím sa výrazne minimalizuje riziko duplicitnej rezervácie (prebukovania). 
+&lt;LI&gt;Pre každý dopyt alebo rezerváciu sa môže vygenerovať automatická notifikácia vo forme e-mailovej alebo SMS správy. Hosťovi sa zasiela jedna notifikácia o prijatí on-line požiadavky, ubytovaciemu zariadeniu sa zasiela druhá správa. Generovanie notifikácií zabezpečuje &lt;A href="47863971-c920-44ee-b49b-99a58f439915" style="auto-update-caption: true"&gt;Generátor notifikácií&lt;/A&gt;&amp;nbsp;ako jedna z &lt;A href="9ce25bbd-35d1-4096-acd5-70007f5af5a6"&gt;automatických úloh&lt;/A&gt; systému OBERON. Viac informácií je možné získať v&amp;nbsp;téme&amp;nbsp;&lt;A href="e301d0fb-f429-4bb5-a4df-7257efbe967b" style="auto-update-caption: true"&gt;O automatických notifikáciách&lt;/A&gt;. 
+&lt;LI&gt;Každé overenie pobytu, ako aj zaslanie rezervácie, sa zapisuje do správ o priebehu (log). Viac informácií je možné získať v&amp;nbsp;téme&amp;nbsp;&lt;A href="bc30e126-afb5-41aa-a261-e92501038063"&gt;Sledovanie činností&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Možnosti rezervačného formulára&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Overenie dostupnosti voľných izieb vo vybranom termíne, čím poskytuje údaje o obsadenosti v&amp;nbsp;danom termíne (o&amp;nbsp;evidovaných rezerváciách a zaevidovaných ubytovaniach). 
+&lt;LI&gt;Rezervovať je možné tak&amp;nbsp;typ izby, ako aj konkrétnu izbu. 
+&lt;LI&gt;Pri typoch izieb systém automaticky priradí najvhodnejšiu izbu (podľa obsadenosti a nadväznosti na koniec iného pobytu, prípadne začiatok ďalšieho pobytu). 
+&lt;LI&gt;Možnosť rezervácie viacerých izieb. 
+&lt;LI&gt;Pri skupinovej rezervácii presný rozpis osôb v izbách a vek detí. 
+&lt;LI&gt;On-line výpočet ceny za ubytovanie. 
+&lt;LI&gt;Rezervácia alebo dopyt sa automaticky zapíše do knihy rezervácií a zobrazí v grafickom prehľade izieb. 
+&lt;LI&gt;Viaceré jazykové mutácie. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Rezervačný formulár ubytovania je možné zriadiť na webovej stránke ubytovacieho zariadenia aj&amp;nbsp;jednoduchou inštaláciou pluginu&lt;STRONG&gt;&amp;nbsp;&lt;EM&gt;OBERON - Hotel Reservation&lt;/EM&gt;&lt;/STRONG&gt; priamo do systému &lt;EM&gt;WordPress.&lt;/EM&gt; Bližšie informácie je možné získať v téme&amp;nbsp;&lt;A href="a59c924d-9a00-4391-bbbe-58bad53c39ec" style="auto-update-caption: true"&gt;Rezervačný formulár ubytovania pre WordPress&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H5&gt;Obrázok č. 1: Formulár rezervačného&amp;nbsp;formulára ubytovania&lt;/H5&gt;
+&lt;P&gt;&lt;IMG style="BORDER-TOP: black 1px solid; BORDER-RIGHT: black 1px solid; BORDER-BOTTOM: black 1px solid; BORDER-LEFT: black 1px solid" alt="" src="images/Hotel/Hotel_RezervationEWeb.png"&gt;&lt;/P&gt;
+&lt;H2&gt;Implementácia rezervačného formulára do webovej stránky&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Rezervačný formulár je možné priamo implementovať do webovej stránky ubytovacieho zariadenia týmito spôsobmi:&lt;BR&gt;&lt;STRONG&gt;a)&lt;/STRONG&gt; &lt;STRONG&gt;implementáciou kódu priamo do webovej stránky&lt;/STRONG&gt; - profesionálne riešenie s možnosťami úpravy&amp;nbsp;správania sa&amp;nbsp;formulára podľa potrieb a&amp;nbsp;požiadaviek ubytovacieho zariadenia (implementácia je náročnejšia, zvládne ju len webový vývojár). &amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;BR&gt;&lt;STRONG&gt;b)&lt;/STRONG&gt; &lt;STRONG&gt;implementácia JavaScript&amp;nbsp;kódu priamo do webovej stránky&lt;/STRONG&gt; &lt;STRONG&gt;-&lt;/STRONG&gt;&amp;nbsp;náročnejšia implementácia, zvládne ju však aj menej skúsený webový vývojár.&lt;BR&gt;&lt;STRONG&gt;c) vložením odkazu IFrame do webovej stránky&lt;/STRONG&gt; - jednoduchá implementácia, avšak obmedzená možnosť úpravy. Farebná schéma sa dá nastaviť priamo v&amp;nbsp;súbore&amp;nbsp;&lt;EM&gt;frm_Reservation&lt;/EM&gt;&lt;EM&gt;.html&lt;/EM&gt;. 
+&lt;LI&gt;Rezervačný formulár ubytovania so systémom OBERON komunikuje na základe&amp;nbsp;&lt;A href="9ce25bbd-35d1-4096-acd5-70007f5af5a6"&gt;automatickej úlohy&lt;/A&gt; typu&amp;nbsp;&lt;EM&gt;&lt;STRONG&gt;WebServices API - OBERON 1G&lt;/STRONG&gt;&lt;/EM&gt;, t.&amp;nbsp;j. &lt;A href="58bb31ca-00c8-4641-ad99-7d58e24f59c5"&gt;webových služieb&lt;/A&gt;. Rezervačný formulár v rámci komunikácie predstavuje &lt;STRONG&gt;klienta webovej služby&lt;/STRONG&gt;. 
+&lt;LI&gt;V&amp;nbsp;rámci systému OBERON&amp;nbsp;automatickú úlohu vykonáva program &lt;A href="09f3dae9-2fb7-490f-97dc-37f60885b398"&gt;OBERON Automation Center&lt;/A&gt;. Samotná komunikácia s&amp;nbsp;webovou službou štandardne prebieha pomocou protokolu &lt;B&gt;SOAP&lt;/B&gt;, pričom je možné komunikovať aj pomocou &lt;B&gt;JSON&lt;/B&gt; štruktúr. Vývojári môžu využiť&amp;nbsp;funkčný príklad rezervačného formulára, ktorý sa nachádza vo webovej aplikácii &lt;A href="b138daad-5453-4e53-8d2c-ecf2e81a5fcb"&gt;OBERON Web&lt;/A&gt;.&amp;nbsp; 
+&lt;LI&gt;Rezervačný formulár implementovaný pomocou IFrame sa nachádza v súbore &lt;EM&gt;frm_Reservation.html&lt;/EM&gt;, umiestnenom v&amp;nbsp;&lt;EM&gt;\\OBERON\WebServices\NazovWebovejSluzby\OBERONWebTemplates\.&amp;nbsp;&lt;/EM&gt;Tento HTML súbor obsahuje&amp;nbsp;aj&amp;nbsp;&lt;B&gt;JavaScript&lt;/B&gt; (programový kód) samotného formulára a volanie funkcií webovej služby. 
+&lt;LI&gt;Ak sa rozhodnete upravovať súbor &lt;EM&gt;frm_Reservation.html&lt;/EM&gt; (napr. z dôvodu nastavenia farebnej schémy)&lt;EM&gt;,&lt;/EM&gt; neupravuje&amp;nbsp;originálny súbor, pretože pri inštalácii najbližšej aktualizácie OBERON-u sa automaticky prepíše. Je potrebné vytvoriť jeho kópiu a umiestniť&amp;nbsp;ju do adresára &lt;EM&gt;OBERONWebTemplates_UserDefined&lt;/EM&gt;. 
+&lt;LI&gt;Rezervačný formulár sa pripája na IP adresu webovej služby, ktorá spravidla beží na serveri ubytovacieho zariadenia. Z tohto dôvodu musí mať ubytovacie zariadenie&amp;nbsp;&lt;STRONG&gt;verejnú IP adresu&lt;/STRONG&gt;. Pri nastavení komunikácie je potrebné na sieťovom smerovači (rootri) nastaviť presmerovanie z vonkajšej IP adresy (a daného portu)&amp;nbsp;do počítača, v&amp;nbsp;ktorom beží webová služba (netreba zabudnúť ani na nastavenie brány firewall). &lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;STRONG style="COLOR: rgb(255,0,0)"&gt;Dôležité!&lt;/STRONG&gt;&lt;BR&gt;Rezervačný formulár môže byť problém&amp;nbsp;otestovať v rámci jedného internetového pripojenia, t. j. ak sa z tej istej IP adresy pripojíte&amp;nbsp;na webovú stránku s&amp;nbsp;rezervačným formulárom a&amp;nbsp;zároveň sa tento rezervačný formulár pripája na tú istú IP adresu. V tomto prípade vzniká problém tzv. &lt;EM&gt;NAT Loopback&lt;/EM&gt;, viac informácií je možné získať napr.&amp;nbsp;&lt;A href="https://docs.connectwise.com/ConnectWise_Control_Documentation/On-premises/On-premises_knowledge_base/Cannot_access_external_IP_address_from_LAN" target=_blank&gt;na tejto webovej adrese&lt;/A&gt;.&amp;nbsp;Jednoduchým riešením môže byť inštalácia napr. &lt;STRONG&gt;Tor Browsera&lt;/STRONG&gt; a v ňom otvorenie stránky s&amp;nbsp;rezervačným formulárom.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Colorized Example Code" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Implementáca rezervačného formulára do internetovej stránky pomocou IFrame&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="LanguageName"&gt;javascript&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;// Funkcia na zmenu veľkosti stránky podľa rezervačného formulára&lt;/P&gt;
+&lt;P&gt;&amp;lt;script&amp;gt;&lt;BR&gt;function resizeParentIframe() {&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; var par = window.parent;&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; if (!par || !_self.defaults.parentIframeID) return;&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; setTimeout(function () {&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; var target = par.postMessage ? par : (par.document.postMessage ? par.document : undefined);&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; if (typeof target != "undefined" &amp;amp;&amp;amp; document.body.scrollHeight) {&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; var container = $(".main");&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; var data = { event: "resizeIframe", height: container.height() };&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; target.postMessage(data, "*");&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; }&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; }, 500); //čas vyvolania udalosti musí byť dosť dlhý aby sa vykonala po plnom vyrolovaní zoznamu izieb rezervácie&lt;BR&gt;}&lt;BR&gt;&amp;lt;/script&amp;gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;// Rezervačný formulár volaný pomocou IFrame&lt;/P&gt;
+&lt;P&gt;&amp;lt;p&amp;gt;&lt;/P&gt;
+&lt;P&gt;&amp;lt;iframe align="middle" frameborder="0" height="700" id="ID_IFrame" scrolling="no" src="http://192.168.16.101:25561/html?c=hotel_BaseForm_ReservationAccommodation" width="700"&amp;gt;&amp;lt;/iframe&amp;gt;&lt;/P&gt;
+&lt;P&gt;&amp;lt;/p&amp;gt;&lt;BR&gt;&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Responzívny dizajn&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Rezervačný formulár ubytovania podporuje aj&amp;nbsp;responzívny dizajn - automatické prispôsobenie veľkosti formulára zariadeniu, na ktorom sa&amp;nbsp;webová stránka zobrazí.&amp;nbsp;Samozrejme, predpokladom je, že celá webová stránka, v ktorom je vložený IFrame, podporuje responzívny dizajn. 
+&lt;LI&gt;Respozívny dizajn formulára je možné dosiahnuť úpravou súboru CSS danej webovej stránky. Je ho potrebné doplniť o kód uvedený nižšie. Zároveň je potrebné&amp;nbsp;z&amp;nbsp;odkazu na&amp;nbsp;IFrame &lt;STRONG&gt;odstrániť nastavenie width="700"&lt;/STRONG&gt; (pozri kód vyššie). &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Colorized Example Code" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Responzívny dizajn - úprava CSS webovej stránky&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="LanguageName"&gt;javascript&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;// Nastavenie šírky IFrame v závislosti na maximálnej šírke stránky. Je ho potrebné vložiť do základného CSS danej webovej stránky&lt;/P&gt;
+&lt;P&gt;#ID_IFrame {&lt;BR&gt;&amp;nbsp; width: 700px;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;BR&gt;}&lt;BR&gt;@media only screen and (max-width: 640px) {&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; #ID_IFrame {&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; width: 570px;&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; }&lt;BR&gt;}&lt;BR&gt;@media only screen and (max-width: 520px) {&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; #ID_IFrame {&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; width: 450px;&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; }&lt;BR&gt;}&lt;BR&gt;@media only screen and (max-width: 420px) {&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; #ID_IFrame {&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; width: 360px;&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; }&lt;BR&gt;}&lt;BR&gt;@media only screen and (max-width: 360px) {&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; #ID_IFrame {&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; width: 310px;&lt;BR&gt;&amp;nbsp;&amp;nbsp; }&lt;BR&gt;}&lt;BR&gt;@media only screen and (max-width: 320px) {&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; #ID_IFrame {&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; width: 270px;&lt;BR&gt;&amp;nbsp;&amp;nbsp; }&lt;BR&gt;}&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Jazykové mutácie&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Rezervačný formulár môže&amp;nbsp;fungovať vo viacerých jazykových mutáciách&amp;nbsp;- momentálne sú k dispozícii&amp;nbsp;tieto:&lt;BR&gt;-&amp;nbsp;slovenský jazyk (predvolené)&lt;BR&gt;- anglický jazyk - (príkaz lang=en)&lt;BR&gt;-&amp;nbsp;nemecký jazyk - (príkaz lang=de)&lt;BR&gt;-&amp;nbsp;poľský jazyk - (príkaz lang=pl)&lt;BR&gt;-&amp;nbsp;český jazyk - (príkaz lang=cs) 
+&lt;LI&gt;Ďalšie jazykové mutácie je možné&amp;nbsp;implementovať veľmi jednoducho - vytvorením ďalšieho&amp;nbsp;súboru c:\OBERON\WebServices\&lt;EM&gt;&lt;STRONG&gt;názov služby v OAC&lt;/STRONG&gt;&lt;/EM&gt;\OBERONWebTemplates\lang\frm-reservation-&lt;STRONG&gt;XX&lt;/STRONG&gt;.txt, kde XX je kód jazyka (napr. c:\OBERON\WebServices\&lt;EM&gt;&lt;STRONG&gt;WS-OBERON&lt;/STRONG&gt;&lt;/EM&gt;\OBERONWebTemplates\lang\frm-reservation-&lt;STRONG&gt;en&lt;/STRONG&gt;.txt). 
+&lt;LI&gt;Jazyková mutácia sa nastavuje pre každý formulár zvlášť&amp;nbsp;&lt;STRONG&gt;vložením príslušného príkazu do kódu&lt;/STRONG&gt;, napr. pri implementácii pomocou&amp;nbsp;IFrame pre anglickú mutáciu: &lt;STRONG&gt;http://192.168.16.101:25561/html?c=hotel_BaseForm_ReservationAccommodation&amp;amp;&lt;/STRONG&gt;&lt;A&gt;&lt;STRONG&gt;lang=en&lt;/STRONG&gt;&lt;/A&gt;&amp;nbsp;(pozri nižšie). &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 2: Formulár rezervačného&amp;nbsp;formulára ubytovania v anglickom jazyku&amp;nbsp;s upravenou grafickou témou&lt;/H5&gt;&lt;IMG border=1 alt="" src="images/Hotel/Hotel_RezervationEWeb_EN.png"&gt; &lt;innovasys:widget type="Colorized Example Code" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Implementáca rezervačného formulára do internetovej stránky pomocou IFrame (anglický jazyk)&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="LanguageName"&gt;javascript&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;// Funkcia na zmenu veľkosti stránky podľa rezervačného formulára&lt;/P&gt;
+&lt;P&gt;&amp;lt;script&amp;gt;&lt;BR&gt;function resizeParentIframe() {&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; var par = window.parent;&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; if (!par || !_self.defaults.parentIframeID) return;&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; setTimeout(function () {&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; var target = par.postMessage ? par : (par.document.postMessage ? par.document : undefined);&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; if (typeof target != "undefined" &amp;amp;&amp;amp; document.body.scrollHeight) {&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; var container = $(".main");&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; var data = { event: "resizeIframe", height: container.height() };&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; target.postMessage(data, "*");&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; }&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; }, 500); //čas vyvolania udalosti musí byť dosť dlhý aby sa vykonala po plnom vyrolovaní zoznamu izieb rezervácie&lt;BR&gt;}&lt;BR&gt;&amp;lt;/script&amp;gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;// Rezervačný formulár volaný pomocou IFrame (Anglicky)&lt;/P&gt;
+&lt;P&gt;&amp;lt;p&amp;gt;&lt;/P&gt;
+&lt;P&gt;&amp;lt;iframe align="middle" frameborder="0" height="700" id="ID_IFrame" scrolling="no" src="http://192.168.16.101:25561/html?c=hotel_BaseForm_ReservationAccommodation&amp;amp;lang=en" width="700"&amp;gt;&amp;lt;/iframe&amp;gt;&lt;/P&gt;
+&lt;P&gt;&amp;lt;/p&amp;gt;&lt;BR&gt;&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="5565bf5b-8524-4432-9c90-a535b95e5e54" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="c3bd41f0-029e-4c74-b342-b0ffff647b6e">
+      <Title m="2022-12-15T11:46:53.0895157Z">Hotelová recepcia</Title>
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="b74f4c8e-716f-4b9a-8be6-06c7241556cd" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="58bb31ca-00c8-4641-ad99-7d58e24f59c5">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="f56e9b9f-cf99-483c-a3ce-3f43a7cd8518" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="2414619b-e1e1-4bc2-b745-c8d08f3f2549">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="352ab1cd-5234-4a6a-87e7-dd37f2ace624" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="a59c924d-9a00-4391-bbbe-58bad53c39ec">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="7fe8c3e8-2f76-4935-8f23-cfc77adc3d8f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="a8869db0-d369-49c6-b801-de33672ce874">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="095d5e9a-01b9-4fa9-b462-61c29e1548a4" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="dc8cdc4a-5c2a-427b-89e7-3c191be93746">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="3fa8969b-8f90-4441-b5b8-a433b0153ab2">
+      <Keyword m="2017-09-20T09:25:05.831204Z">On-line rezervácia</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="621258d1-dd09-474c-b6f4-43f7bddf33d8">
+      <Keyword m="2015-12-30T08:46:40.2475246Z">Rezervácia izby cez internet</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="9788c03c-6262-4b2b-b577-30c21c8b5790">
+      <Keyword m="2021-02-11T07:44:59.0356609Z">Rezervačný formulár ubytovania</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="8a8a9e80-f552-4ee3-b249-b02cdea37564">
+      <Keyword m="2021-02-11T07:45:19.3079293Z">OBERON - Hotel Reservation</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="08649649-58c1-4ab5-a894-13d8f037b4fe">
+      <Keyword m="2022-07-06T07:04:15.9615537Z">Web booking engine</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="f41aa1b2-30e4-454f-afd2-d5a0dd8a6ad6">
+      <Keyword m="2022-07-06T07:04:28.0428139Z">Internet booking engine</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="3b363c8c-96d7-4eec-a472-e9abb76c75ba">
+      <Keyword m="2022-07-06T07:04:37.5405489Z">Smart booking engine</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="38d984b2-dbe2-4729-a694-82520091b0e1">
+      <Keyword m="2022-07-06T07:04:43.0056372Z">On-line booking system</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="79af9a91-49b8-4a9e-8e2c-2d664c8325ab" Status="Complete" CreatedOn="2016-08-15T07:42:19.1965408Z" ModifiedOn="2023-07-18T13:11:56.8437113Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="false" HelpContextIds="" Name="Wages_Start_Steps" BuildFlags="">
+  <Title m="2016-08-15T07:42:42.4593362Z">Prvé kroky</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-07-18T13:06:42.20557Z">&lt;P&gt;Skôr, ako začnete s modulom&amp;nbsp;&lt;EM&gt;Mzdy a dochádzka&lt;/EM&gt; pracovať, je potrebné, aby ste v&amp;nbsp;programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt; založili novú firmu. Viac informácií nájdete v&amp;nbsp;téme&amp;nbsp;&lt;A href="9a485893-6dd2-44e8-9740-a4cd7083a932"&gt;Vytvorenie účtovnej jednotky (databázy)&lt;/A&gt;.&amp;nbsp;Zároveň je potrebné povoliť v ponuke&amp;nbsp;&lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="5a6e5663-262e-4ff0-9741-1569385d11e4"&gt;oddiel Firma, Moduly&lt;/A&gt;&amp;nbsp;účtovnej jednotke a&amp;nbsp;v&amp;nbsp;&lt;A href="6ffb02fa-4c5c-4d33-8a0c-6dba98b26a77"&gt;oddiele Používateľ, Moduly&lt;/A&gt; danému používateľovi prácu s&amp;nbsp;modulom&amp;nbsp;&lt;A href="bf009605-0be8-4286-8ef5-4c7d3b89143a"&gt;Mzdy&lt;/A&gt; a&amp;nbsp;&lt;A href="3883342c-9ef0-4fd9-8773-88df84f78f65"&gt;dochádzka&lt;/A&gt;.&lt;/P&gt;
+&lt;H2&gt;1. Údaje o&amp;nbsp;firme&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Základné údaje o účtovnej jednotke&lt;/STRONG&gt; - v ponuke &lt;EM&gt;Firma&lt;/EM&gt;, &lt;A href="a833ee8a-1289-42b9-923f-80f549497702" style="auto-update-caption: true"&gt;Údaje o firme&lt;/A&gt;&amp;nbsp;sa zadávajú nasledujúce údaje potrebné&amp;nbsp;na spracovanie miezd: 
+&lt;UL&gt;
+&lt;LI&gt;základné údaje o firme (účtovnej jednotke), 
+&lt;LI&gt;zodpovedná osoba za vedenie mzdovej agendy (potrebné pre elektronické výkazy), 
+&lt;LI&gt;deň určený na výplaty miezd, 
+&lt;LI&gt;výška percenta tvorby&amp;nbsp;sociálneho fondu. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Údaje o poisťovniach&lt;/STRONG&gt; -&amp;nbsp;ponuka&amp;nbsp;&lt;EM&gt;Mzdy,&lt;/EM&gt; &lt;A href="acc728e4-c64c-4915-9bfc-5d74158cca39" style="auto-update-caption: true"&gt;Poisťovne&lt;/A&gt;&amp;nbsp;je potrebné zadať údaje o zdravotných poisťovniach, &lt;EM&gt;Sociálnej poisťovni&lt;/EM&gt;, DSS, DDS a pod. 
+&lt;LI&gt;&lt;STRONG&gt;Údaje o bankových&amp;nbsp;prevodoch&lt;/STRONG&gt; - na úhradu dane zo mzdy, tvorbu sociálneho fondu a pod. je potrebné v evidencii &lt;A href="81a7aa22-db03-4095-8a7c-3e7436fee8c6"&gt;Stále platby&lt;/A&gt; zadať cieľové (prípadne zdrojové) bankové účty. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;2. Nastavenia programu&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;V&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="172ab39f-e82b-4a73-94eb-dc1d4d66323e"&gt;oddiel Firma, Mzdy a dochádzka&lt;/A&gt;: 
+&lt;UL&gt;
+&lt;LI&gt;je možné povoliť/zakázať možnosť &lt;STRONG&gt;schvaľovať (podpisovať)&amp;nbsp;mzdy&lt;/STRONG&gt; - spracovanú mzdu môže podpísať iný používateľ&amp;nbsp;ako ten, ktorý mzdu spracoval, 
+&lt;LI&gt;sa nastavuje, &lt;STRONG&gt;či sa má pri mesačnej mzde&amp;nbsp;sviatok zahrnúť alebo nezahrnúť do odpracovaných hodín&lt;/STRONG&gt;, &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 
+&lt;LI&gt;sa zobrazuje &lt;STRONG&gt;prehľad mzdových sadzieb&lt;/STRONG&gt;, ktoré&amp;nbsp;sa budú v&amp;nbsp;aktuálnej verzii programu v&amp;nbsp;danom&amp;nbsp;období používať pri výpočte miezd. &lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;3. Spracovávané obdobie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Nastavte počiatočné spracovávané obdobie (ponuka &lt;EM&gt;Mzdy&lt;/EM&gt;, &lt;EM&gt;Obdobie&lt;/EM&gt;, &lt;A href="d05c58b2-b990-44d8-ac5c-d199b9cde45e" style="auto-update-caption: true"&gt;Zmena spracovávaného obdobia miezd&lt;/A&gt;).&amp;nbsp; &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;4. Pracovníci a pracovné pomery&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Evidencia pracovníkov&lt;/STRONG&gt; - v ponuke &lt;EM&gt;Mzdy&lt;/EM&gt;,&amp;nbsp;&lt;A href="8dd60281-9cc7-41fe-9dd2-2ad5c7ffe047"&gt;Pracovníci&lt;/A&gt;&amp;nbsp;sa evidujú základné personálne údaje o pracovníkoch. Ak má pracovník viac súbežných pracovných pomerov, napr. trvalý pomer a dohodu, v&amp;nbsp;knihe &lt;EM&gt;Pracovníci&lt;/EM&gt; sa zadáva&amp;nbsp;pracovník &lt;STRONG&gt;len jedenkrát.&lt;/STRONG&gt; Viac informácií o zaevidovaní pracovníka je možné získať v&amp;nbsp;téme&amp;nbsp;&lt;A href="8883a3ef-5814-4275-8570-ca00cfbc1e93"&gt;Zaradenie pracovníka do evidencie&lt;/A&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;Pracovné pomery&lt;/STRONG&gt; - v ponuke &lt;EM&gt;Mzdy&lt;/EM&gt;,&amp;nbsp;&lt;A href="3fced304-5201-4497-bb58-104c1fd77990"&gt;Pracovné pomery pracovníkov&lt;/A&gt;&amp;nbsp;je možné k pracovníkovi vytvoriť jeden, prípadne viac pracovných pomerov. Pracovný pomer obsahuje údaje potrebné&amp;nbsp;na spracovanie miezd, napr. úväzok, základné mzdové sadzby, údaje o dovolenke a pod. Medzi najdôležitejšie nastavenie pracovného pomeru&amp;nbsp;patrí&amp;nbsp;&lt;A href="c244d752-1bd6-48c8-aaed-e52c71d41f26"&gt;typ pracovného pomeru&lt;/A&gt; - priamo určuje spôsob&amp;nbsp;výpočtu odvodov&amp;nbsp;a dane. Viac informácií o vytvorení pracovného pomeru je možné získať v&amp;nbsp;téme&amp;nbsp;&lt;A href="8883a3ef-5814-4275-8570-ca00cfbc1e93"&gt;Zaradenie pracovníka do evidencie&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;5. Spracovávanie miezd pracovníkom&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Spracovanie mzdy&lt;/STRONG&gt; - v ponuke &lt;EM&gt;Mzdy&lt;/EM&gt;,&amp;nbsp;&lt;A href="6923b0c5-166b-4e3b-a53b-71f62b53b2fc"&gt;Tvorba miezd&lt;/A&gt;&amp;nbsp;sa vykonáva vlastné spracovanie miezd, viac v téme&amp;nbsp;&lt;A href="1e1da5f2-5abd-48a4-bf82-4f31c614ac45"&gt;Spracovanie mzdy pracovníkovi&lt;/A&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;Mesačná uzávierka miezd&lt;/STRONG&gt; - v ponuke &lt;EM&gt;Mzdy&lt;/EM&gt;, &lt;EM&gt;Obdobie,&amp;nbsp;&lt;/EM&gt;&lt;A href="4c0cffe2-a77b-44ea-bb3a-39476f21e420"&gt;Mesačná uzávierka miezd&lt;/A&gt;&amp;nbsp;sa ukončuje spracovanie miezd za daný mesiac. &lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="fbb60bc4-46b6-41be-bbee-61fa5de77609" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="9a485893-6dd2-44e8-9740-a4cd7083a932">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="f61a201d-b0e7-4b77-bdb2-3d3a0351ca77" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="172ab39f-e82b-4a73-94eb-dc1d4d66323e">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="8e4d5875-3325-4ad5-b767-9b85fcbb3f02" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="8883a3ef-5814-4275-8570-ca00cfbc1e93">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="1bb2ce7a-0c0b-4cdb-9d4b-9ab7e1c20209" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1e1da5f2-5abd-48a4-bf82-4f31c614ac45">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="18300ff9-e826-4378-840b-90c749a0265c" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="4c0cffe2-a77b-44ea-bb3a-39476f21e420">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="1349c121-cda6-41f9-aa50-e1e1b86a0978">
+      <Keyword />
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="3a48700d-6ef6-4073-9076-1d6bcd3818c3">
+      <Keyword m="2023-07-18T13:11:27.7817414Z">Mzdy a dochádzka - prvé kroky</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="a1e6a581-1aa6-4c00-a43d-0df1982b6340">
+      <Keyword m="2023-07-18T13:11:44.1199669Z">Prvé kroky - Mzdy a dochádzka</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

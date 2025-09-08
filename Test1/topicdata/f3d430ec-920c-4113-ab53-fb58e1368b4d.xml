@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="f3d430ec-920c-4113-ab53-fb58e1368b4d" Status="Complete" CreatedOn="2014-09-08T13:21:11.7393862Z" ModifiedOn="2024-12-03T09:45:47.7358076Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="22215" Name="Menu_Stock_CashRegister_PLU_Write" BuildFlags="">
+  <Title m="2014-12-07T17:10:54.7493391Z">Zápis PLU do pokladnice</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-12-03T09:45:47.7358076Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;je venovaná&amp;nbsp;položke&amp;nbsp;&lt;EM&gt;Zápis PLU do pokladnice&lt;/EM&gt;&amp;nbsp;v ponuke &lt;EM&gt;Sklad, Registračné pokladnice&lt;/EM&gt;&amp;nbsp;programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;. Položka je dostupná len v&amp;nbsp;prípade, že sa vo firme používa &lt;STRONG&gt;niektorá z&amp;nbsp;podporovaných registračných&amp;nbsp;pokladníc&lt;/STRONG&gt;, t. j. v&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="749ff4f1-eeb5-43f5-98d2-021399d8cec7"&gt;Zariadenia&lt;/A&gt; je&amp;nbsp;pridaná aspoň jedna&amp;nbsp;&lt;A href="2edf9500-71d3-4b5c-9d44-990261fb51bc"&gt;registračná pokladnica v&amp;nbsp;režime off-line&lt;/A&gt;. Položka je zároveň dostupná &lt;STRONG&gt;len na počítači&lt;/STRONG&gt;,&amp;nbsp;na&amp;nbsp;ktorom je vo &lt;A href="749ff4f1-eeb5-43f5-98d2-021399d8cec7"&gt;formulári Zariadenie&lt;/A&gt; v&amp;nbsp;poli &lt;EM&gt;Pripojenie k počítaču&lt;/EM&gt; &lt;STRONG&gt;zadaný názov daného počítača&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;EM&gt;Zápis PLU do pokladnice&lt;/EM&gt; predstavuje jednu z funkcií systému OBERON pri použití&amp;nbsp;&lt;A href="2edf9500-71d3-4b5c-9d44-990261fb51bc"&gt;registračných pokladníc v režime off-line&lt;/A&gt;, keď sa predaj vykonáva &lt;STRONG&gt;priamo na pokladnici&amp;nbsp;bez pripojenia k&amp;nbsp;počítaču&lt;/STRONG&gt;. 
+&lt;LI&gt;Výberom položky sa otvorí&amp;nbsp;&lt;STRONG&gt;sprievodca, pomocou ktorého je možné do registračnej pokladnice zapísať skladové položky z&amp;nbsp;OBERON-u&lt;/STRONG&gt;. 
+&lt;LI&gt;Zápisom tovarových položiek sa rozumie &lt;STRONG&gt;zapísanie parametrov skladových kariet&lt;/STRONG&gt; (&lt;I&gt;PLU&lt;/I&gt;, &lt;EM&gt;Názov položky na bločku&lt;/EM&gt;, &lt;I&gt;Príznaky RP&lt;/I&gt;)&amp;nbsp;zo skladu do registračnej pokladnice. Údaje, ktoré sa zapisujú do pokladnice, sa nachádzajú v záložke &lt;I&gt;Reg. pokladnice&lt;/I&gt; formulára &lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;Skladová karta&lt;/A&gt;. 
+&lt;LI&gt;Pri zápise do pokladnice je možné zapísať len nové, prípadne upravené tovarové položky - týmto je možné významne skrátiť čas zápisu. 
+&lt;LI&gt;Je nevyhnutné, aby &lt;STRONG&gt;zoznam merných jednotiek&lt;/STRONG&gt; v systéme OBERON bol totožný so zoznamom merných jednotiek v pokladnici (&lt;I&gt;Názov&lt;/I&gt; aj poradie v zozname). 
+&lt;LI&gt;Pred zápisom odporúčame najskôr&amp;nbsp;&lt;A href="fb814763-c53d-473c-821d-ebbf53114723"&gt;načítať súhrnnú správu o predaji&lt;/A&gt; (čítanie z pokladnice), nakoľko niektoré nastavenia príznakov (zmena sadzby DPH, zmena čísla PLU a pod.) položiek nebude možné vykonať. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Možnosti zápisu&lt;/H2&gt;
+&lt;P&gt;K dispozícii sú tri spôsoby zápisu:&lt;/P&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Zapísať všetky PLU (neobsadené PLU vynulovať)&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;&amp;nbsp;Pri tomto spôsobe zápisu program pracuje s&amp;nbsp;PLU od čísla&amp;nbsp;1 do maximálneho PLU podporovaného pokladňou (napr. 2&amp;nbsp;400).&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Zapísať všetky PLU (neobsadené PLU ponechať)&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Pri tomto spôsobe zápisu program pracuje s&amp;nbsp;PLU od čísla&amp;nbsp;1 do najvyššieho PLU použitého v&amp;nbsp;sklade. Napr. ak má pokladňa max. počet PLU 10&amp;nbsp;000 a v&amp;nbsp;sklade je použitých 600,&amp;nbsp;program pracuje len so 600 položkami, čím sa skráti čas zápisu.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Zapísať len zmenené PLU&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Pri tomto spôsobe zápisu program pracuje len so zmenenými položkami v&amp;nbsp;sklade. Napr. ak opravíte v&amp;nbsp;sklade cenu troch položiek, program bude pracovať len s&amp;nbsp;týmito tromi&amp;nbsp;položkami, ktoré sa zmenili od posledného zápisu položiek, čím sa výrazne skráti čas komunikácie. &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt; 
+&lt;P&gt;Ak opravujete číslo PLU, prípadne príznaky, evidované predané množstvá v&amp;nbsp;registračnej pokladnici musia byť nulové. To je možné zabezpečiť&amp;nbsp;&lt;A href="fb814763-c53d-473c-821d-ebbf53114723"&gt;načítaním predaných PLU&lt;/A&gt;.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="c7aae7af-3bd1-4456-9f07-1f5e1bd8f840" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="2edf9500-71d3-4b5c-9d44-990261fb51bc">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="6096bf4b-c433-4070-b293-e0099861bfff" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="fb814763-c53d-473c-821d-ebbf53114723">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="1b5460dc-2428-42ec-97e7-35d0e3550c22" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1e77a4ea-9d02-498a-b332-0a5a036b23d7">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="9062a1e9-edb9-4853-a49a-3a5166e1b33d">
+      <Keyword m="2021-04-30T12:39:17.28605Z">PLU - zápis do pokladnice</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="f1cb91b8-5363-4aa8-b581-86dee5092642">
+      <Keyword m="2021-04-30T12:39:04.8249197Z">Registračné pokladnice v režime off-line - zápis PLU do pokladnice</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

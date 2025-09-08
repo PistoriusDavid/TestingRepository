@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="6df4e675-1a5d-4094-a64a-66712c4cba2e" Status="Complete" CreatedOn="2014-10-13T06:34:43.6984802Z" ModifiedOn="2024-06-19T10:41:01.8908867Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="49010" Name="MsgBox_AccSingle_LicencePrivileges" BuildFlags="">
+  <Title m="2014-10-13T06:35:15.6473075Z">Nedostatočné licenčné práva na vykonanie tejto činnosti</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-06-19T10:41:01.8908867Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;informácie o dialógovom okne týkajúcom sa informácie o nedostatočných licenčných právach v module&amp;nbsp;&lt;EM&gt;Jednoduché účtovníctvo&lt;/EM&gt;&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Na používanie&amp;nbsp;modulu&amp;nbsp;&lt;A href="32be28cf-2368-4818-9d24-cfa9d59afb75"&gt;Jednoduché účtovníctvo&lt;/A&gt; je potrebné zakúpiť a&amp;nbsp;aktivovať&amp;nbsp;licenciu. Bez zakúpenej licencie je možné &lt;STRONG&gt;vykonať len 100 zápisov do peňažného denníka v&amp;nbsp;jednom účtovnom období&lt;/STRONG&gt;. 
+&lt;LI&gt;Po&amp;nbsp;&lt;A href="49208c26-7930-4363-9fab-977662e2e8cc"&gt;realizácii objednávky licencie&lt;/A&gt; je&amp;nbsp;systém OBERON&amp;nbsp;&lt;STRONG&gt;plne&amp;nbsp;funkčný v&amp;nbsp;rámci objednaného typu licencie počas 15 dní&amp;nbsp;od objednania licencie&lt;/STRONG&gt; &lt;STRONG&gt;(trial licencia)&lt;/STRONG&gt;.&amp;nbsp;Ak po uplynutí tohto času nedôjde k úhrade poplatku za&amp;nbsp;licenciu,&amp;nbsp;vybrané funkcie a počet zápisov v niektorých evidenciách sa znovu automaticky&amp;nbsp;&lt;A href="644b0685-defe-4ce5-b3cd-e731b5eff299"&gt;obmedzia&lt;/A&gt;.&amp;nbsp;&lt;A href="efb93a2c-e449-4770-88ba-0fe999e90ccd"&gt;Úhradou poplatku za licenciu a jej aktivovaním&lt;/A&gt;&amp;nbsp;sa obmedzenia zrušia -&amp;nbsp;so softvérom bude možné pracovať plnohodnotne. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;STRONG&gt;Upozornenie:&lt;/STRONG&gt; V jednom účtovnom období (od 1.1. do 31.12.)&amp;nbsp;je možné pracovať &lt;STRONG style="COLOR: rgb(255,0,0)"&gt;v rámci&amp;nbsp;tzv.&amp;nbsp;trial licencie len raz&lt;/STRONG&gt;. Podrobné informácie o fungovaní trial licencie získate v&amp;nbsp;&lt;A href="40c83e5f-22aa-4ba5-b4c1-35938f90fac2"&gt;Obchodných podmienkach&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="a3bc7e37-6591-4d22-ac65-1b50a2ac3eb6" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="95d188df-c149-46a9-8474-4d9493f2ad41">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="2856cd50-3668-49a3-a0e7-973c01ec3659" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="644b0685-defe-4ce5-b3cd-e731b5eff299">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="7430f134-308d-4eab-9812-15c889386453" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="efb93a2c-e449-4770-88ba-0fe999e90ccd">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords />
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

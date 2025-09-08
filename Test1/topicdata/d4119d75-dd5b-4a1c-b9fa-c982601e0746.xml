@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="d4119d75-dd5b-4a1c-b9fa-c982601e0746" Status="Complete" CreatedOn="2015-09-07T10:28:35.9951172Z" ModifiedOn="2024-02-29T13:27:46.9437854Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="90130" Name="Menu_CRM_SMSMessages" BuildFlags="">
+  <Title m="2015-09-07T10:29:15.765625Z">SMS správy</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-02-29T13:27:46.9437854Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;je venovaná&amp;nbsp;položke &lt;EM&gt;SMS správy&lt;/EM&gt; v ponuke&amp;nbsp;&lt;EM&gt;CRM&lt;/EM&gt; programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Výberom položky sa otvorí evidencia&amp;nbsp;&lt;EM&gt;SMS správy&lt;/EM&gt;, ktorá &lt;STRONG&gt;umožňuje&lt;/STRONG&gt;&amp;nbsp;&lt;STRONG&gt;evidovať SMS správy vytvorené v&amp;nbsp;systéme OBERON&lt;/STRONG&gt;, a&amp;nbsp;to&amp;nbsp;buď&amp;nbsp;manuálne, alebo v&amp;nbsp;rámci&amp;nbsp;&lt;A href="f7710ccc-3e00-4ba2-a8d6-c11f18f5ddae"&gt;hromadného odosielania správ&lt;/A&gt;,&amp;nbsp;resp.&amp;nbsp;&lt;A href="e301d0fb-f429-4bb5-a4df-7257efbe967b"&gt;automatických notifikácií&lt;/A&gt;. Viac informácií o&amp;nbsp;SMS komunikácii v&amp;nbsp;systéme OBERON získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="af53c105-e266-49b7-a25c-832ac36e4280" style="auto-update-caption: true"&gt;Odosielanie SMS správ v systéme OBERON&lt;/A&gt;. 
+&lt;LI&gt;Okrem evidencie SMS správ kniha&amp;nbsp;umožňuje aj manuálne&amp;nbsp;vytvárať SMS správy, ktoré&amp;nbsp;sa vo zvolenom čase odošlú príjemcom, a to vo formulári &lt;EM&gt;SMS správa&lt;/EM&gt; (popis formulára pozri nižšie). Manuálne vytvoriť SMS správu je možné aj pomocou osobitného &lt;A href="811261a5-bffc-4ade-8202-53e489e4fa81"&gt;sprievodcu Zaslanie SMS&lt;/A&gt;, ktorý je dostupný z viacerých miest v programe po stlačení tlačidla &lt;EM&gt;Možnosti - Zaslať SMS&lt;/EM&gt; (napr. z&amp;nbsp;&lt;A href="5c21adcc-87c8-44e7-981d-02902635693d"&gt;knihy pohľadávok&lt;/A&gt; je možné zaslať upomienku obchodnému partnerovi, ktorému je vystavená faktúra po lehote splatnosti). 
+&lt;LI&gt;Na&amp;nbsp;odosielanie SMS správ zo systému OBERON (manuálne, &lt;A href="f7710ccc-3e00-4ba2-a8d6-c11f18f5ddae"&gt;hromadné&lt;/A&gt; i v&amp;nbsp;rámci &lt;A href="e301d0fb-f429-4bb5-a4df-7257efbe967b"&gt;automatických notifikácií&lt;/A&gt;) sa&amp;nbsp;používa osobitná automatická úloha&amp;nbsp;&lt;A href="4a6f63ac-fdeb-4de8-93d1-77c969da1f18"&gt;Posielanie SMS správ cez EuroSMS&lt;/A&gt;, ktorá umožňuje automaticky zasielať vytvorené SMS a&amp;nbsp;zároveň spätne overovať, či a kedy bola daná&amp;nbsp;SMS správa doručená. Odosielanie &lt;A href="e301d0fb-f429-4bb5-a4df-7257efbe967b"&gt;automatických SMS notifikácií&lt;/A&gt;&amp;nbsp;si navyše vyžaduje aj&amp;nbsp;nastavenie&amp;nbsp;automatickej úlohy&amp;nbsp;&lt;A href="47863971-c920-44ee-b49b-99a58f439915"&gt;Generátor notifikácií&lt;/A&gt;&amp;nbsp;na generovanie jednotlivých notifikácií.&amp;nbsp;Bližšie informácie získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="e301d0fb-f429-4bb5-a4df-7257efbe967b" style="auto-update-caption: true"&gt;O automatických notifikáciách&lt;/A&gt;. 
+&lt;LI&gt;Na rozdiel od e-mailovej komunikácie, v prípade SMS správ ide, samozrejme, len o zasielanie krátkych textových správ bez&amp;nbsp;obrázkov a&amp;nbsp;príloh. 
+&lt;LI&gt;Samotné odosielanie SMS správ sa&amp;nbsp;v&amp;nbsp;systéme OBERON realizuje &lt;STRONG&gt;prostredníctvom externej SMS brány&lt;/STRONG&gt;. Momentálne systém OBERON podporuje jednu SMS bránu - &lt;STRONG&gt;&lt;EM&gt;EuroSMS&lt;/EM&gt;&lt;/STRONG&gt;. Na používanie tejto SMS brány je potrebná &lt;STRONG&gt;registrácia na webovej stránke&lt;/STRONG&gt; &lt;A href="http://www.eurosms.com"&gt;&lt;STRONG&gt;www.eurosms.com&lt;/STRONG&gt;&lt;/A&gt;. Po zaregistrovaní získate prihlasovacie údaje a integračné údaje. &lt;STRONG&gt;Služba je&lt;/STRONG&gt; &lt;STRONG&gt;spoplatnená&lt;/STRONG&gt; podľa cenníka poskytovateľa.&amp;nbsp;Cena za jednu SMS je však nižšia ako pri posielaní správ v rámci štandardných mobilných sietí a&amp;nbsp;posielanie správ priamo z OBERON-u je komfortnejšie ako ich posielanie z mobilných zariadení. Viac informácií získate v&amp;nbsp;téme &lt;A href="cb2b6fc2-5bb6-49e3-8bbf-65463b3f026f"&gt;EuroSMS&lt;/A&gt;. 
+&lt;LI&gt;SMS správy je možné posielať: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;v rámci firmy&lt;/STRONG&gt; - pripomenutie stretnutia, úlohy, po&amp;nbsp;&lt;A href="284db2bc-8b11-40d2-b3fe-213808fff2fa"&gt;vykonaní uzávierky zaslanie tržby v Pokladnici OBERON&lt;/A&gt; atď., 
+&lt;LI&gt;&lt;STRONG&gt;mimo firmy&lt;/STRONG&gt; - pripomenutie pracovného stretnutia, informovanie obchodného partnera o&amp;nbsp;faktúre po dátume splatnosti,&amp;nbsp;o&amp;nbsp;presiahnutí kredit limitu, o&amp;nbsp;novinkách, o&amp;nbsp;znížení predajných cien, upozornenie na akciu, leták, informovanie o&amp;nbsp;nových službách atď. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Možnosť zaslania SMS správy je&amp;nbsp;dostupná len v prípade, že je v&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="081aff87-08e6-4933-9843-d1b47dc745fb"&gt;oddiel Firma, Moduly&lt;/A&gt;&amp;nbsp;povolené používanie modulu &lt;EM&gt;CRM a&amp;nbsp;registratúra&lt;/EM&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 1: Automatická notifikácia - denná uzávierka prijatá formou SMS správy&amp;nbsp;&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/CRM/CRM_SMS_Messages.png"&gt;&lt;/P&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Postup nastavenia odosielania&amp;nbsp;SMS notifikácií je dostupný v téme&amp;nbsp;&lt;A href="47863971-c920-44ee-b49b-99a58f439915" style="auto-update-caption: true"&gt;Generátor notifikácií&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Popis formulára&amp;nbsp;&lt;EM&gt;SMS správa&lt;/EM&gt;&lt;/H2&gt;
+&lt;P&gt;Formulár &lt;EM&gt;SMS správa&lt;/EM&gt; je dostupný z evidencie &lt;EM&gt;SMS správy&lt;/EM&gt; (ponuka &lt;EM&gt;CRM&lt;/EM&gt;) po stlačení tlačidla &lt;EM&gt;Nový&lt;/EM&gt; alebo &lt;EM&gt;Oprava&lt;/EM&gt;.&lt;/P&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Text správy&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Zadáva sa text SMS správy. SMS správa môže mať viacej&amp;nbsp;ako štandardných 160 znakov, v tom prípade bude text správy rozdelený do viacerých&amp;nbsp;SMS správ.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Príjemca&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Zobrazí sa príjemca SMS správy a telefónne číslo, na ktoré bola SMS správa odoslaná.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Odosielateľ&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;V záložke &lt;EM&gt;Odosielateľ&lt;/EM&gt; je zobrazený dátum a čas odoslania a doručenia SMS správy, odosielateľ a stav SMS správy - &lt;EM&gt;Pripravená na odoslanie, Odoslané, Neodosielať, Odoslanie neúspešené, Nedoručené, Doručené.&lt;/EM&gt; V prípade, že je pole &lt;EM&gt;Odosielateľ&lt;/EM&gt; prázdne, program&amp;nbsp;uvádza odosielateľa z nastavení vo &lt;A href="4a6f63ac-fdeb-4de8-93d1-77c969da1f18"&gt;formulári Nastavenie automatickej úlohy 'Sms sender: EuroSMS'&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="8ebfa97c-c279-409b-b499-546fdf7bd424" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="af53c105-e266-49b7-a25c-832ac36e4280">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="3155649b-c5f8-4d2f-881a-5bbdfa1dff8f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="811261a5-bffc-4ade-8202-53e489e4fa81">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="01def678-568d-4a28-8ae3-d996d09f8980" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="04e52362-d0f3-4a9a-8ec5-36ef724a7ee2">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="36b37d96-fec3-4efe-87f1-527d4215bdc7" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="f7710ccc-3e00-4ba2-a8d6-c11f18f5ddae">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="b45227f7-f39a-4753-920a-0d9682879386" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="e301d0fb-f429-4bb5-a4df-7257efbe967b">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="8f5b031d-8cba-481a-9f18-c43a01cfe1f3" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="47863971-c920-44ee-b49b-99a58f439915">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="fa1c63a8-7d56-49d8-b992-5711ebba7974" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="cb2b6fc2-5bb6-49e3-8bbf-65463b3f026f">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="00183aaa-4ec2-4e09-ab85-f3e7a13a244e" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="4a6f63ac-fdeb-4de8-93d1-77c969da1f18">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="ddc2ed74-dda2-465a-887e-bd7237470bc5" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1f7db5e4-f5f7-4631-854a-bd7679c3186a">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="c1ba7492-e983-422f-8ee7-954cef1ee32a" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="284db2bc-8b11-40d2-b3fe-213808fff2fa">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="956dde7a-e931-4530-88c6-12915f8db95e" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="7eb22e77-fa37-4bce-a53a-4d6382202041">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="95a985d7-aa7a-45cd-9a47-86ff12ca005e">
+      <Keyword m="2021-06-29T11:23:55.8797911Z">Zasielanie SMS správ</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

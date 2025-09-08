@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="54b09ba5-d225-4f4f-ae48-fefef53bb9f9" Status="Complete" CreatedOn="2024-10-17T07:02:45.1176648Z" ModifiedOn="2024-10-21T08:29:30.9979494Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="OAC_AutomaticNotifications_Panel" BuildFlags="">
+  <Title m="2024-10-17T07:03:13.4935195Z">Panel notifikácií</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-10-21T08:29:30.9979494Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; je venovaná&amp;nbsp;&lt;STRONG&gt;panelu notifikácií&lt;/STRONG&gt; v systéme OBERON.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Systém OBERON umožňuje automaticky odosielať a prijímať notifikačné správy, pomocou ktorých možno&amp;nbsp;&lt;A href="225638ed-22f6-4ac4-9085-6d77c64925db"&gt;používateľov&lt;/A&gt;,&amp;nbsp;&lt;A href="b7a48886-b367-4056-808a-59ba5f871f32"&gt;obchodných partnerov&lt;/A&gt;,&amp;nbsp;prípadne zákazníkov &lt;STRONG&gt;automaticky informovať o&amp;nbsp;určitých skutočnostiach&lt;/STRONG&gt;, napr.&amp;nbsp;o&amp;nbsp;blížiacom sa stretnutí zaevidovanom v&amp;nbsp;&lt;A href="f1a6963d-36aa-4134-92a5-fa47a4345e74"&gt;CRM&lt;/A&gt;, o&amp;nbsp;určitej udalosti, ktorá nastala (odoslanie tržby za pokladnicu po vykonaní dennej uzávierky majiteľovi podniku, odoslanie informácie o meškaní pracovníka zamestnávateľovi alebo&amp;nbsp;o&amp;nbsp;prijatej on-line rezervácii ubytovania atď.).&amp;nbsp;Informovanie sa&amp;nbsp;spravidla vykonáva &lt;STRONG&gt;formou e-mailovej, resp. SMS správy&lt;/STRONG&gt;. Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="e301d0fb-f429-4bb5-a4df-7257efbe967b" style="auto-update-caption: true"&gt;O automatických notifikáciách&lt;/A&gt;. 
+&lt;LI&gt;Automatické notifikačné správy (pri ktorých to má opodstatnenie)&amp;nbsp;&lt;STRONG&gt;sa zobrazujú v osobitnom paneli &lt;EM&gt;Notifikácie&lt;/EM&gt;&lt;/STRONG&gt;. Ak&amp;nbsp;je v&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="5a6e5663-262e-4ff0-9741-1569385d11e4"&gt;oddiel Firma, Všeobecné&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt; záložka &lt;EM&gt;Ostatné&lt;/EM&gt; povolené používanie notifikácií, po spustení sa v&amp;nbsp;programe automaticky zobrazí ikona zvončeka&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_Notifications_Bell.png"&gt;. Po kliknutí na ikonu sa otvorí panel &lt;EM&gt;Notifikácie&lt;/EM&gt;. 
+&lt;LI&gt;Okrem zobrazenia notifikácií zaslaných systémom OBERON panel &lt;EM&gt;Notifikácie&lt;/EM&gt; zároveň umožňuje &lt;STRONG&gt;odosielať a prijímať&amp;nbsp;(a&amp;nbsp;následne zobrazovať) notifikačné správy medzi jednotlivými používateľmi&lt;/STRONG&gt;, pričom správu možno adresovať aj viacerým používateľom, resp.&amp;nbsp;&lt;A href="12e7a96f-bc40-4359-bc7a-213d74a785d4"&gt;skupinám používateľov&lt;/A&gt;. 
+&lt;LI&gt;Dôležitou funkciou panela je, že umožňuje &lt;STRONG&gt;sledovať, či si adresát danú správu otvoril, a najmä kedy si ju otvoril, a to po kliknutí na ikonu oka v pravom dolnom rohu danej správy&lt;/STRONG&gt;.&amp;nbsp;V prípade, že je správa určená pre&amp;nbsp;viacerých adresátov, panel umožňuje zistiť, ktorý z&amp;nbsp;adresátov si správu prečítal, a ktorý nie, a, samozrejme, v akom čase.&amp;nbsp;Farba ikony signalizuje: &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 
+&lt;UL&gt;
+&lt;LI&gt;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_EyeGrey.png"&gt;&amp;nbsp;- správu si adresát nepozrel, 
+&lt;LI&gt;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_EyeOrange.png"&gt;&amp;nbsp;- správu si nepozreli všetci adresáti, 
+&lt;LI&gt;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_EyeGreen.png"&gt;&amp;nbsp;- správu si pozreli všetci adresáti. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Odoslanej správe možno priradiť &lt;STRONG&gt;dôležitosť&lt;/STRONG&gt; signalizovanú farebných odlíšením (nízka - &lt;STRONG style="COLOR: rgb(127,127,127)"&gt;sivá farba&lt;/STRONG&gt;, stredná - &lt;STRONG style="COLOR: rgb(6,89,255)"&gt;modrá farba&lt;/STRONG&gt;, vysoká - &lt;STRONG style="COLOR: rgb(255,0,0)"&gt;červená farba&lt;/STRONG&gt;). 
+&lt;LI&gt;Ikona&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_Notifications_Text.png"&gt;označuje správu, ktorá obsahuje &lt;STRONG&gt;podrobný popis&lt;/STRONG&gt;. Adresátovi tak signalizuje, ktoré správy by si mal pozrieť bližšie, a ktoré neobsahujú ďalšie informácie. 
+&lt;LI&gt;V paneli možno pomocou osobitných záložiek, resp.&amp;nbsp;kontextovej ponuky osobitne zobraziť prijaté a odoslané&amp;nbsp;notifikačné správy, pripnúť správu a zobraziť pripnuté správy v osobitnej záložke, odpovedať na prijatú správu, hromadne vymazať&amp;nbsp;správy&amp;nbsp;atď. 
+&lt;LI&gt;Notifikačné správy s výnimkou pripnutých správ, ktoré sú&amp;nbsp;staršie ako 2 mesiace, sa z programu automaticky vymažú. 
+&lt;LI&gt;Pri minimalizovaní OBERON-u sa minimalizuje aj panel notifikácií. Pri otvorení iného programu popri otvorenom OBERON-e panel notifikácií ostane na vrchu. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 1: Panel notifikácií (vpravo) a pozretie otvorenia správy (vľavo)&lt;/H5&gt;
+&lt;P&gt;&amp;nbsp;&lt;IMG border=0 alt="" src="images/Forms/CRM/Form_CRM_NotificationPanel.png"&gt;&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="f7e5e92c-17b1-4a0c-b30f-723798db2d2c" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="e301d0fb-f429-4bb5-a4df-7257efbe967b">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="d4e4ce7a-f864-4e5c-97b5-fa67e6f87969" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="d4119d75-dd5b-4a1c-b9fa-c982601e0746">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="5144d1b0-3d20-439c-b702-343b8f526567" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="ebccc473-482c-4940-99b3-b4f5d534ccf7">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="bcf3532c-9050-4589-b97d-d42d6064d7d4" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="eaffff1a-43ad-4c90-a988-ebc3a51c1109">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="dbcdace2-160d-4a19-8a0e-c1eafa7c5fda" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="4a6f63ac-fdeb-4de8-93d1-77c969da1f18">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="76e8038c-390c-4aeb-a246-5832475b9513">
+      <Keyword m="2024-10-17T07:48:29.3274511Z">Notifikácie - panel</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="fb7dda88-4371-42d1-a557-7076a2a13ba0">
+      <Keyword m="2024-10-17T07:48:42.481688Z">Panel Notifikácie</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

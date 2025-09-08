@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="d2ba2bed-1813-41d6-a257-d0b5ca4faf3f" Status="Complete" CreatedOn="2015-01-27T07:13:09.540039Z" ModifiedOn="2023-02-08T12:29:47.6511624Z" ModifiedBy="" PageTypeName="OBERON Standard (No Footer).html" AutoIndex="true" HelpContextIds="" Name="Legislative_Accounting_Business_Nonprofit_2015" BuildFlags="">
+  <Title m="2022-12-07T09:20:53.5475345Z">Účtovná osnova pre neziskové organizácie</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-02-08T12:29:47.6511624Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje&amp;nbsp;&lt;STRONG&gt;účtovnú osnovu (účtovú osnovu) pre neziskové organizácie&amp;nbsp;&lt;/STRONG&gt;platnú k 1.1.2015 (príloha&amp;nbsp;k opatreniu č. 23054/2002-92).&lt;/P&gt;
+&lt;H3&gt;&lt;BR&gt;Účtová trieda 0 – Dlhodobý majetok&lt;/H3&gt;
+&lt;P&gt;&lt;STRONG&gt;01 – Dlhodobý nehmotný majetok&lt;/STRONG&gt;&lt;BR&gt;012 – Nehmotné výsledky z vývojovej a obdobnej činnosti&lt;BR&gt;013 – Softvér&lt;BR&gt;014 – Oceniteľné práva&lt;BR&gt;018 – Drobný dlhodobý nehmotný majetok&lt;BR&gt;019 – Ostatný dlhodobý nehmotný majetok&lt;/P&gt;
+&lt;P&gt;&lt;B&gt;02 – Dlhodobý hmotný majetok odpisovaný&lt;/B&gt;&lt;BR&gt;021 – Stavby&lt;BR&gt;022 – Samostatné hnuteľné veci a súbory hnuteľných vecí&lt;BR&gt;023 – Dopravné prostriedky&lt;BR&gt;025 – Pestovateľské celky trvalých porastov&lt;BR&gt;026 – Základné stádo a ťažné zvieratá&lt;BR&gt;028 – Drobný dlhodobý hmotný majetok&lt;BR&gt;029 – Ostatný dlhodobý hmotný majetok&lt;/P&gt;
+&lt;P&gt;&lt;B&gt;03 – Dlhodobý hmotný majetok neodpisovaný&lt;/B&gt;&lt;BR&gt;031 – Pozemky&lt;BR&gt;032 – Umelecké diela a zbierky&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;04 – Obstaranie dlhodobého majetku&lt;BR&gt;&lt;/STRONG&gt;041 – Obstaranie dlhodobého nehmotného majetku&lt;BR&gt;042 – Obstaranie dlhodobého hmotného majetku&lt;BR&gt;043 – Obstaranie dlhodobého finančného majetku&lt;/P&gt;
+&lt;P&gt;&lt;B&gt;05 – Poskytnuté preddavky na dlhodobý majetok&lt;/B&gt;&lt;BR&gt;051 – Poskytnuté preddavky na dlhodobý nehmotný majetok&lt;BR&gt;052 – Poskytnuté preddavky na dlhodobý hmotný majetok&lt;BR&gt;053 – Poskytnuté preddavky na dlhodobý finančný majetok&lt;/P&gt;
+&lt;P&gt;&lt;B&gt;06 – Dlhodobý finančný majetok&lt;/B&gt;&lt;BR&gt;061 – Podielové cenné papiere a podiely v obchodných spoločnostiach v ovládanej osobe&lt;BR&gt;062 – Podielové cenné papiere a podiely v obchodných spoločnostiach s podstatným vplyvom&lt;BR&gt;065 – Dlhové cenné papiere držané do splatnosti&lt;BR&gt;066 – Pôžičky podnikom v skupine&lt;BR&gt;067 – Ostatné pôžičky&lt;BR&gt;069 – Ostatný dlhodobý finančný majetok&lt;/P&gt;
+&lt;P&gt;&lt;B&gt;07 – Oprávky k dlhodobému nehmotnému majetku&lt;BR&gt;&lt;/B&gt;072 – Oprávky k nehmotnému výsledku z vývojovej a obdobnej činnosti&lt;BR&gt;073 – Oprávky k softvéru&lt;BR&gt;074 – Oprávky k oceniteľným právam&lt;BR&gt;078 – Oprávky k drobnému dlhodobému nehmotnému majetku&lt;BR&gt;079 – Oprávky k ostatnému dlhodobému nehmotnému majetku&lt;/P&gt;
+&lt;P&gt;&lt;B&gt;08 – Oprávky k dlhodobému hmotnému majetku&lt;/B&gt;&lt;BR&gt;081 – Oprávky k stavbám&lt;BR&gt;082 – Oprávky k samostatným hnuteľným veciam a k súborom hnuteľných vecí&lt;BR&gt;083 – Oprávky k dopravným prostriedkom&lt;BR&gt;085 – Oprávky k pestovateľským celkom a trvalým po rastom&lt;BR&gt;086 – Oprávky k základnému stádu a ťažným zvieratám&lt;BR&gt;088 – Oprávky k drobnému dlhodobému hmotnému majetku&lt;BR&gt;089 – Oprávky k ostatnému dlhodobému hmotnému majetku&lt;/P&gt;
+&lt;P&gt;&lt;B&gt;09 – Opravné položky k dlhodobému majetku&lt;/B&gt;&lt;BR&gt;091 – Opravná položka k dlhodobému nehmotnému majetku&lt;BR&gt;092 – Opravná položka k dlhodobému hmotnému majetku&lt;BR&gt;093 – Opravná položka k dlhodobému nedokončené mu nehmotnému majetku&lt;BR&gt;094 – Opravná položka k dlhodobému nedokončené mu hmotnému majetku&lt;BR&gt;095 – Opravná položka k poskytnutým preddavkom&lt;BR&gt;096 – Opravná položka k dlhodobému finančnému majetku&lt;/P&gt;
+&lt;H3&gt;&lt;BR&gt;Účtová trieda 1 – Zásoby&lt;/H3&gt;
+&lt;P&gt;&lt;B&gt;11 – Materiál&lt;/B&gt;&lt;BR&gt;111 – Obstaranie materiálu&lt;BR&gt;112 – Materiál na sklade&lt;BR&gt;119 – Materiál na ceste&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;12 – Zásoby vlastnej výroby&lt;/STRONG&gt;&lt;BR&gt;121 – Nedokončená výroba&lt;BR&gt;122 – Polotovary vlastnej výroby&lt;BR&gt;123 – Výrobky&lt;BR&gt;124 – Zvieratá&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;13 – Tovar&lt;/STRONG&gt;&lt;BR&gt;131 – Obstaranie tovaru&lt;BR&gt;132 – Tovar na sklade&lt;BR&gt;139 – Tovar na ceste&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;19 – Opravné položky k zásobám&lt;/STRONG&gt;&lt;BR&gt;191 – Opravná položka k materiálu&lt;BR&gt;192 – Opravná položka k nedokončenej výrobe&lt;BR&gt;193 – Opravná položka k polotovarom vlastnej výroby&lt;BR&gt;194 – Opravná položka k výrobkom&lt;BR&gt;195 – Opravná položka k zvieratám&lt;BR&gt;196 – Opravná položka k tovaru&lt;/P&gt;
+&lt;H3&gt;&lt;BR&gt;Účtová trieda 2 – Finančné účty&lt;/H3&gt;
+&lt;P&gt;&lt;STRONG&gt;21 – Peniaze&lt;/STRONG&gt;&lt;BR&gt;211 – Pokladnica&lt;BR&gt;213 – Ceniny&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;22 – Účty v bankách&lt;/STRONG&gt;&lt;BR&gt;221 – Bankové účty&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;23 – Bežné bankové úvery&lt;/STRONG&gt;&lt;BR&gt;231 – Krátkodobé bankové úvery&lt;BR&gt;232 – Eskontné úvery&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;24 – Iné krátkodobé finančné výpomoci&lt;/STRONG&gt;&lt;BR&gt;241 – Krátkodobé dlhopisy emitované účtovnou jednotkou&lt;BR&gt;249 – Ostatné krátkodobé finančné výpomoci&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;25 – Krátkodobý finančný majetok&lt;/STRONG&gt;&lt;BR&gt;251 – Majetkové cenné papiere na obchodovanie&lt;BR&gt;253 – Dlhové cenné papiere na obchodovanie&lt;BR&gt;255 – Vlastné dlhopisy&lt;BR&gt;256 – Dlhové cenné papiere so splatnosťou do jedného roka držané do splatnosti&lt;BR&gt;257 – Ostatné realizovateľné cenné papiere&lt;BR&gt;259 – Obstaranie krátkodobého finančného majetku&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;26 – Prevody medzi finančnými účtami&lt;/STRONG&gt;&lt;BR&gt;261 – Peniaze na ceste&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;29 – Opravné položky ku krátkodobému finančnému majetku&lt;/STRONG&gt;&lt;BR&gt;291 – Opravné položky ku krátkodobému finančnému majetku&lt;/P&gt;
+&lt;H3&gt;&lt;BR&gt;Účtová trieda 3 – Zúčtovacie vzťahy&lt;/H3&gt;
+&lt;P&gt;&lt;STRONG&gt;31 – Pohľadávky&lt;/STRONG&gt;&lt;BR&gt;311 – Odberatelia&lt;BR&gt;312 – Zmenky na inkaso&lt;BR&gt;313 – Pohľadávky za eskontované cenné papiere&lt;BR&gt;314 – Poskytnuté prevádzkové preddavky&lt;BR&gt;315 – Ostatné pohľadávky&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;32 – Záväzky&lt;/STRONG&gt;&lt;BR&gt;321 – Dodávatelia&lt;BR&gt;322 – Zmenky na úhradu&lt;BR&gt;323 – Krátkodobé rezervy&lt;BR&gt;324 – Prijaté preddavky&lt;BR&gt;325 – Ostatné záväzky&lt;BR&gt;326 – Nevyfakturované dodávky&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;33 – Zúčtovanie so zamestnancami a inštitúciami&lt;/STRONG&gt;&lt;BR&gt;331 – Zamestnanci&lt;BR&gt;333 – Ostatné záväzky voči zamestnancom&lt;BR&gt;335 – Pohľadávky voči zamestnancom&lt;BR&gt;336 – Zúčtovanie so Sociálnou poisťovňou a zdravotnými poisťovňami&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;34 – Zúčtovanie daní, dotácií a ostatné zúčtovanie&lt;/STRONG&gt;&lt;BR&gt;341 – Daň z príjmov&lt;BR&gt;342 – Ostatné priame dane&lt;BR&gt;343 – Daň z pridanej hodnoty&lt;BR&gt;345 – Ostatné dane a poplatky&lt;BR&gt;346 – Dotácie a ostatné zúčtovanie so štátnym rozpočtom&lt;BR&gt;348 – Dotácie a zúčtovanie s rozpočtami územnej samosprávy&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;35 – Pohľadávky z dôvodu združovania&lt;/STRONG&gt;&lt;BR&gt;358 – Pohľadávky voči účastníkom združení&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;36 – Záväzky voči združeniam a záväzky z upísaných ne - splatených cenných papierov a vkladov&lt;/STRONG&gt;&lt;BR&gt;367 – Záväzky z upísaných nesplatených cenných papierov a vkladov&lt;BR&gt;368 – Záväzky voči účastníkom združení&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;37 – Iné pohľadávky a záväzky&lt;BR&gt;&lt;/STRONG&gt;373 – Pohľadávky a záväzky z pevných termínových operácií&lt;BR&gt;375 – Pohľadávky z dlhopisov emitovaných účtovnou jednotkou&lt;BR&gt;378 – Iné pohľadávky&lt;BR&gt;379 – Iné záväzky&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;38 – Časové rozlíšenie nákladov a výnosov&lt;/STRONG&gt;&lt;BR&gt;381 – Náklady budúcich období&lt;BR&gt;383 – Výdavky budúcich období&lt;BR&gt;384 – Výnosy budúcich období&lt;BR&gt;385 – Príjmy budúcich období&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;39 – Opravná položka k zúčtovacím vzťahom a vnútorné zúčtovanie&lt;/STRONG&gt;&lt;BR&gt;391 – Opravná položka k pohľadávkam&lt;BR&gt;395 – Vnútorné zúčtovanie&lt;BR&gt;396 – Spojovací účet pri združení&lt;/P&gt;
+&lt;H3&gt;&lt;BR&gt;Účtová trieda 4 – Imanie, fondy, výsledok hospodárenia a dlhodobé záväzky&lt;/H3&gt;
+&lt;P&gt;&lt;STRONG&gt;41 – Imanie a fondy (účinnosť od 1. januára 2012)&lt;BR&gt;&lt;/STRONG&gt;411 – Základné imanie&lt;BR&gt;412 – Fondy tvorené podľa osobitných predpisov&lt;BR&gt;413 – Fond reprodukcie&lt;BR&gt;414 – Oceňovacie rozdiely z precenenia majetku a záväzkov&lt;BR&gt;415 – Oceňovacie rozdiely z precenenia kapitálových&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;42 – Fondy tvorené zo zisku a prevedené výsledky hospodárenia&lt;/STRONG&gt;&lt;BR&gt;421 – Rezervný fond&lt;BR&gt;423 – Fondy tvorené zo zisku&lt;BR&gt;427 – Ostatné fondy&lt;BR&gt;428 – Nevysporiadaný výsledok hospodárenia minulých rokov&lt;BR&gt;43 – Výsledok hospodárenia&lt;BR&gt;431 – Výsledok hospodárenia v schvaľovaní&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;45 – Rezervy&lt;BR&gt;&lt;/STRONG&gt;451 – Rezervy zákonné&lt;BR&gt;459 – Ostatné rezervy&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;46 – Dlhodobé bankové úvery&lt;/STRONG&gt;&lt;BR&gt;461 – Dlhodobé bankové úvery&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;47 – Dlhodobé záväzky&lt;BR&gt;&lt;/STRONG&gt;472 – Záväzky zo sociálneho fondu&lt;BR&gt;473 – Vydané dlhopisy&lt;BR&gt;474 – Záväzky z nájmu&lt;BR&gt;475 – Dlhodobé prijaté preddavky&lt;BR&gt;476 – Dlhodobé nevyfakturované dodávky&lt;BR&gt;478 – Dlhodobé zmenky na úhradu&lt;BR&gt;479 – Ostatné dlhodobé záväzky&lt;/P&gt;
+&lt;H3&gt;&lt;BR&gt;Účtová trieda 5 – Náklady na činnosť&lt;/H3&gt;
+&lt;P&gt;&lt;STRONG&gt;50 – Spotrebované nákupy&lt;/STRONG&gt;&lt;BR&gt;501 – Spotreba materiálu&lt;BR&gt;502 – Spotreba energie&lt;BR&gt;504 – Predaný tovar&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;51 – Služby&lt;BR&gt;&lt;/STRONG&gt;511 – Opravy a udržiavanie&lt;BR&gt;512 – Cestovné&lt;BR&gt;513 – Náklady na reprezentáciu&lt;BR&gt;518 – Ostatné služby&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;52 – Osobné náklady&lt;BR&gt;&lt;/STRONG&gt;521 – Mzdové náklady&lt;BR&gt;524 – Zákonné sociálne poistenie a zdravotné poistenie&lt;BR&gt;525 – Ostatné sociálne poistenie&lt;BR&gt;527 – Zákonné sociálne náklady&lt;BR&gt;528 – Ostatné sociálne náklady&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;53 – Dane a poplatky&lt;/STRONG&gt;&lt;BR&gt;531 – Daň z motorových vozidiel&lt;BR&gt;532 – Daň z nehnuteľností&lt;BR&gt;538 – Ostatné dane a poplatky&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;54 – Ostatné náklady&lt;/STRONG&gt;&lt;BR&gt;541 – Zmluvné pokuty a penále&lt;BR&gt;542 – Ostatné pokuty a penále&lt;BR&gt;543 – Odpísanie pohľadávky&lt;BR&gt;544 – Úroky&lt;BR&gt;545 – Kurzové straty&lt;BR&gt;546 – Dary&lt;BR&gt;547 – Osobitné náklady&lt;BR&gt;548 – Manká a škody&lt;BR&gt;549 – Iné ostatné náklady&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;55 – Odpisy, predaný majetok a opravné položky&lt;/STRONG&gt;&lt;BR&gt;551 – Odpisy dlhodobého nehmotného majetku a dlhodobého hmotného majetku&lt;BR&gt;552 – Zostatková cena predaného dlhodobého nehmotného majetku a dlhodobého hmotného majetku&lt;BR&gt;553 – Predané cenné papiere&lt;BR&gt;554 – Predaný materiál&lt;BR&gt;555 – Náklady na krátkodobý finančný majetok&lt;BR&gt;556 – Tvorba fondov&lt;BR&gt;557 – Náklady na precenenie cenných papierov&lt;BR&gt;558 – Tvorba a zúčtovanie opravných položiek&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;56 – Poskytnuté príspevky&lt;/STRONG&gt;&lt;BR&gt;561 – Poskytnuté príspevky organizačným zložkám&lt;BR&gt;562 – Poskytnuté príspevky iným účtovným jednotkám&lt;BR&gt;563 – Poskytnuté príspevky fyzickým osobám&lt;BR&gt;565 – Poskytnuté príspevky z podielu zaplatenej dane&lt;BR&gt;567 – Poskytnuté príspevky z verejnej zbierky&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;57 – Vnútroorganizačné prevody nákladov&lt;/STRONG&gt;&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;59 – Daň z príjmov&lt;/STRONG&gt;&lt;BR&gt;591 – Daň z príjmov&lt;BR&gt;595 – Dodatočné odvody dane z príjmov&lt;/P&gt;
+&lt;H3&gt;&lt;BR&gt;Účtová trieda 6 – Výnosy z činnosti&lt;/H3&gt;
+&lt;P&gt;&lt;STRONG&gt;60 – Tržby za vlastné výkony a tovar&lt;/STRONG&gt;&lt;BR&gt;601 – Tržby za vlastné výrobky&lt;BR&gt;602 – Tržby z predaja služieb&lt;BR&gt;604 – Tržby za predaný tovar&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;61 – Zmena stavu zásob vlastnej výroby&lt;/STRONG&gt;&lt;BR&gt;611 – Zmena stavu zásob nedokončenej výroby&lt;BR&gt;612 – Zmena stavu zásob polotovarov&lt;BR&gt;613 – Zmena stavu zásob výrobkov&lt;BR&gt;614 – Zmena stavu zásob zvierat&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;62 – Aktivácia&lt;/STRONG&gt;&lt;BR&gt;621 – Aktivácia materiálu a tovaru&lt;BR&gt;622 – Aktivácia vnútroorganizačných služieb&lt;BR&gt;623 – Aktivácia dlhodobého nehmotného majetku&lt;BR&gt;624 – Aktivácia dlhodobého hmotného majetku&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;64 – Ostatné výnosy&lt;/STRONG&gt;&lt;BR&gt;641 – Zmluvné pokuty a penále&lt;BR&gt;642 – Ostatné pokuty a penále&lt;BR&gt;643 – Platby za odpísané pohľadávky&lt;BR&gt;644 – Úroky&lt;BR&gt;645 – Kurzové zisky&lt;BR&gt;646 – Prijaté dary&lt;BR&gt;647 – Osobitné výnosy&lt;BR&gt;648 – Zákonné poplatky&lt;BR&gt;649 – Iné ostatné výnosy&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;65 – Tržby z predaja a prenájmu majetku&lt;/STRONG&gt;&lt;BR&gt;651 – Tržby z predaja dlhodobého nehmotného majetku a dlhodobého hmotného majetku&lt;BR&gt;652 – Výnosy z dlhodobého finančného majetku&lt;BR&gt;653 – Tržby z predaja cenných papierov a podielov&lt;BR&gt;654 – Tržby z predaja materiálu&lt;BR&gt;655 – Výnosy z krátkodobého finančného majetku&lt;BR&gt;656 – Výnosy z použitia fondu&lt;BR&gt;657 – Výnosy z precenenia cenných papierov&lt;BR&gt;658 – Výnosy z nájmu majetku&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;66 – Prijaté príspevky&lt;/STRONG&gt;&lt;BR&gt;661 – Prijaté príspevky od organizačných zložiek&lt;BR&gt;662 – Prijaté príspevky od iných organizácií&lt;BR&gt;663 – Prijaté príspevky od fyzických osôb&lt;BR&gt;664 – Prijaté členské príspevky&lt;BR&gt;665 – Príspevky z podielu zaplatenej dane&lt;BR&gt;667 – Prijaté príspevky z verejných zbierok&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;67 – Vnútroorganizačné prevody výnosov&lt;/STRONG&gt;&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;69 – Dotácie&lt;/STRONG&gt;&lt;BR&gt;691 – Dotácie&lt;/P&gt;
+&lt;H3&gt;&lt;BR&gt;Účtová trieda 7 – Uzávierkové účty a podsúvahové účty&lt;/H3&gt;
+&lt;P&gt;&lt;STRONG&gt;70 – Súvahové uzávierkové účty&lt;/STRONG&gt;&lt;BR&gt;701 – Začiatočný účet súvahový&lt;BR&gt;702 – Konečný účet súvahový&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;71 – Výsledkový uzávierkový účet&lt;/STRONG&gt;&lt;BR&gt;710 – Účet ziskov a strát&lt;BR&gt;711 – Začiatočný účet nákladov a výnosov&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;77 až 79 – Podsúvahové účty&lt;/STRONG&gt;&lt;BR&gt;771 – 798 – Jednotlivé podsúvahové účty&lt;BR&gt;799 – Vyrovnávací účet k podsúvahovým účtom&lt;/P&gt;
+&lt;H3&gt;&lt;BR&gt;Účtová trieda 8 – Vnútroorganizačné účty&lt;/H3&gt;
+&lt;H3&gt;&lt;BR&gt;Účtová trieda 9 – Vnútroorganizačné účty&lt;/H3&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks />
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="2e47e8bc-8ad5-454f-b626-caa9662f39bd">
+      <Keyword m="2015-01-27T08:48:51.6201171Z">Neziskové organizácie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="c60e3f93-b1ff-413d-ad2f-543ce96cd8c7">
+      <Keyword m="2015-01-27T08:49:19.9716796Z">Osnova</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="aaed220f-45a0-47e9-b1f2-9229da89275b">
+      <Keyword m="2015-01-27T08:49:37.4677734Z">Legislatíva</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="b492373a-e4de-4d77-ab8f-3728d315f183">
+      <Keyword m="2015-01-27T08:49:59.0195312Z">Občianske združenie</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

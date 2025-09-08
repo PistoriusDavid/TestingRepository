@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="f1a1ee48-d6ac-4b22-bab3-a6e4ccc3cf99" Status="Complete" CreatedOn="2019-04-10T12:12:35.5533796Z" ModifiedOn="2024-11-11T13:53:27.0141926Z" ModifiedBy="" PageTypeName="" AutoIndex="true" HelpContextIds="80410" Name="Form_CashRegister_FiscalDevice_IdentificationAuthenticationData" BuildFlags="">
+  <Title m="2022-11-30T05:45:13.7086168Z">Sprievodca Nastavenie identifikačných a autentifikačných údajov</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-11-11T13:53:27.0141926Z">&lt;P&gt;Sprievodca nastavením identifikačných a autentifikačných údajov umožňuje&amp;nbsp;nastaviť&amp;nbsp;&lt;A href="04b8d290-1470-41ff-85a1-c44a20958841"&gt;fiškálnemu zariadeniu&lt;/A&gt; v&amp;nbsp;OBERON-e identifikačné a autentifikačné údaje, ktoré&amp;nbsp;je nevyhnutné získať a zadať do pokladnice&amp;nbsp;prevádzkovanej v&amp;nbsp;systéme eKasa.&amp;nbsp;Ide o dáta uložené v súboroch, ktoré vydáva &lt;EM&gt;Finančná správa SR -&lt;/EM&gt; údaje o&amp;nbsp;účtovnej jednotke, registračné číslo pokladnice,&amp;nbsp;ako aj certifikát určený&amp;nbsp;na šifrovanie komunikácie pokladnice a&amp;nbsp;finančnej správy.&amp;nbsp;Sprievodca je dostupný z&amp;nbsp;&lt;A href="3c20e547-e046-4644-87b3-c8979f7cbacc"&gt;formulára Nastavenie - eKasa klient ECM&lt;/A&gt;, záložka &lt;EM&gt;eKasa&lt;/EM&gt;, tlačidlo &lt;EM&gt;Zapísať do zariadenia&lt;/EM&gt; v časti &lt;EM&gt;Nastavenie identifikačných a autentifikačných údajov&lt;/EM&gt;.&lt;/P&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Momentálne je&amp;nbsp;zápis identifikačných a autentifikačných údajov pomocou tohto sprievodcu možný len pri&amp;nbsp;fiškálnej tlačiarni&amp;nbsp;&lt;A href="00fa9619-a13d-4745-8938-cc0c2b5039ce"&gt;eKasa PANDORA&lt;/A&gt;&amp;nbsp;&lt;A href="1f32a90c-7b4a-4d69-9f38-a560178794b3" style="auto-update-caption: true"&gt;&lt;IMG border=0 alt="Odporúčané riešenia" src="images/OBERON/Basic/Odporucane-riesenie_ruka_ikona.png"&gt;&lt;/A&gt;,&amp;nbsp;pri iných fiškálnych zariadeniach je potrebné postupovať podľa návodu a servisného programu výrobcu. Návod, ako získať&amp;nbsp;identifikačné a autentifikačné údaje od finančnej správy,&amp;nbsp;je popísaný v téme&amp;nbsp;&lt;A href="a75ad602-f141-475d-afba-8d0f3dcf668a" style="auto-update-caption: true"&gt;Postup získania identifikačných a autentifikačných údajov&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt; 
+&lt;P&gt;Zapísaním nesprávnych identifikačných alebo autentifikačných údajov je možné fiškálne zariadenie (CHDÚ) &lt;SPAN style="COLOR: rgb(255,0,0)"&gt;&lt;STRONG&gt;nevratne znefunkčniť&lt;/STRONG&gt;&lt;/SPAN&gt;. Z tohto dôvodu odporúčame tieto nastavenia zveriť &lt;STRONG&gt;zodpovednej osobe!&lt;/STRONG&gt;&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H5&gt;Obrázok č. 1:&amp;nbsp; Sprievodca&amp;nbsp;nastavením identifikačných a autentifikačných údajov&lt;BR&gt;&lt;BR&gt;&lt;IMG border=0 alt="" src="images/CashRegisterECM/Device_ECM_IdentificationData.PNG"&gt;&lt;/H5&gt;
+&lt;H2&gt;Sprievodca nastavením&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Nastavenie identifikačných údajov&lt;/STRONG&gt; - obsahujú údaje o účtovnej jednotke (názov, IČO atď.), ako aj registračné číslo pokladnice. Stlačte tlačidlo výberu &lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_ListButton.png"&gt;&amp;nbsp;a nalistujte identifikačné údaje (identifikačný balíček), ktoré ste si podľa &lt;A href="a75ad602-f141-475d-afba-8d0f3dcf668a"&gt;Postupu získania identifikačných a autentifikačných údajov&lt;/A&gt;&amp;nbsp;stiahli na lokálne úložisko. 
+&lt;LI&gt;&lt;STRONG&gt;Nastavenie autentifikačných údajov&lt;/STRONG&gt; - obsahujú certifikát, v ktorom je uložený súkromný kľúč určený na šifrovanie komunikácie medzi fiškálnym zariadením a finančnou správou.&amp;nbsp;Stlačte tlačidlo výberu &lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_ListButton.png"&gt;&amp;nbsp;a nalistujte autentifikačné údaje (autentifikačný balíček), ktoré ste si podľa &lt;A href="a75ad602-f141-475d-afba-8d0f3dcf668a"&gt;Postupu získania identifikačných a autentifikačných údajov&lt;/A&gt;&amp;nbsp;stiahli na lokálne úložisko. 
+&lt;LI&gt;Zadajte &lt;STRONG&gt;heslo&lt;/STRONG&gt; k certifikátu. Po stlačení tlačidla &lt;EM&gt;Dokončiť&lt;/EM&gt; sa vykoná nastavenie fiškálneho zariadenia. &lt;/LI&gt;&lt;/OL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt; 
+&lt;UL&gt;
+&lt;LI&gt;V prípade vybraných zmien v autentifikačných a identifikačných údajoch (napr. pri zmene z neplatiteľa na platiteľa DPH, pri zmene adresy prevádzky, názvu firmy a&amp;nbsp;pod.) nie je nutná výmena chráneného dátového úložiska (CHDÚ) za nové. &lt;STRONG&gt;Podmienkou je&lt;/STRONG&gt; &lt;STRONG&gt;zachovanie pôvodného čísla DIČ a&amp;nbsp;kódu pokladnice eKasa klient&lt;/STRONG&gt;. Hoci&amp;nbsp;je technicky možné identifikačné údaje v XML súbore&amp;nbsp;upraviť, tento postup neodporúčame. V&amp;nbsp;takomto prípade je potrebné požiadať o nové (upravené) identifikačné a&amp;nbsp;autentifikačné údaje a tie nahrať do CHDÚ. 
+&lt;LI&gt;Podnikatelia, ktorí evidujú tržby v systéme eKasa, majú povinnosť&amp;nbsp;po dvoch rokoch z dôvodu ochrany údajov zasielaných do systému eKasa&amp;nbsp;&lt;STRONG&gt;vymeniť autentifikačné údaje&lt;/STRONG&gt; vo svojich pokladniciach. 
+&lt;LI&gt;Pri novom čísle DIČ a kóde pokladnice eKasa klient je potrebné zabezpečiť nové CHDÚ. Pôvodné CHDÚ je v zmysle zákona potrebné archivovať po dobu desiatich rokov od konca roka, v ktorom vznikla povinnosť podať daňové priznanie. &lt;/LI&gt;&lt;/UL&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="1399cd28-50b4-4601-819e-9f17337b2f0a" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="3c20e547-e046-4644-87b3-c8979f7cbacc">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="29bb2483-681d-4e50-bf93-2a7a01a9bb80" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="a75ad602-f141-475d-afba-8d0f3dcf668a">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="f7b8297b-1c9e-48f7-b0b4-c1b4dd501727" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="2bb8914d-3e8f-417d-a083-b83300c24d66">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="e74669dd-8991-40f6-aa78-8774f8d96cf2">
+      <Keyword m="2023-03-29T13:08:00.4440627Z">eKasa PANDORA - nastavenie identifikačných a autentifikačných údajov</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="24d14422-42bf-4941-ae9a-2434a99b4f0e">
+      <Keyword m="2023-03-29T13:07:40.8889186Z">Identifikačné údaje - nastavenie pre eKasa PANDORA</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="34d98786-93f8-46a7-b635-2d488d497ec2">
+      <Keyword m="2023-03-29T13:07:33.9202136Z">Autentifikačné údaje - nastavenie pre eKasa PANDORA</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="95ae0f25-eb39-4fb0-8a3d-39fe334617eb">
+      <Keyword m="2023-03-29T13:07:45.9611479Z">Inicializačné údaje - nastavenie pre eKasa PANDORA</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

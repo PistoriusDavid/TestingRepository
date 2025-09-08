@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="479e9fda-1e0d-43d2-97e2-32f31244c476" Status="Complete" CreatedOn="2021-05-13T06:12:24.9929618Z" ModifiedOn="2023-10-31T14:08:12.8631786Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="22304" Name="Menu_Firm_Pref_Unit_TableList" BuildFlags="">
+  <Title m="2021-05-13T06:15:06.1029935Z">Zoznam stolov</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-10-31T14:08:12.8631786Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;je venovaná&amp;nbsp;položke&amp;nbsp;&lt;EM&gt;Zoznam stolov&lt;/EM&gt;&amp;nbsp;v ponuke&amp;nbsp;&lt;EM&gt;Firma, Predvoľby&lt;/EM&gt;&amp;nbsp;programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Výberom položky sa otvorí&amp;nbsp;číselník &lt;EM&gt;Zoznam stolov&lt;/EM&gt;, v &amp;nbsp;ktorom je možné &lt;STRONG&gt;definovať zoznam stolov pre potreby&lt;/STRONG&gt; &lt;A href="e0ccff3e-b9e7-4572-bc3c-7f41a32280dd"&gt;práce s otvorenými účtami (stolmi)&lt;/A&gt;&lt;STRONG&gt;&amp;nbsp;&lt;/STRONG&gt;na&lt;STRONG&gt;&amp;nbsp;&lt;/STRONG&gt;&lt;A href="a6f5e32d-6f1e-40bb-9d15-3f784a183252"&gt;Pokladnici OBERON&lt;/A&gt; &lt;STRONG&gt;v&amp;nbsp;režime reštauračnej pokladnice&lt;/STRONG&gt;. Číselník je dostupný aj v ponuke &lt;EM&gt;Sklad&lt;/EM&gt;,&amp;nbsp;&lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnica OBERON&lt;/A&gt; - vo vrchnom paneli zvoľte záložku &lt;EM&gt;Systém&lt;/EM&gt; označenú symbolom&amp;nbsp;&lt;IMG style="WIDTH: 20px" alt="" src="images/CashRegister/CashRegister_Button_System.png"&gt; a v&amp;nbsp;nej tlačidlo &lt;EM&gt;Systém&lt;/EM&gt;. Otvorí sa formulár &lt;EM&gt;Pokladnica OBERON - Systém&lt;/EM&gt;, v&amp;nbsp;ktorom v&amp;nbsp;záložke&amp;nbsp;&lt;EM&gt;Nastavenia&lt;/EM&gt;, sekcia &lt;EM&gt;Zoznam stolov&lt;/EM&gt; stlačte tlačidlo &lt;EM&gt;Definovať&lt;/EM&gt; (prvé zhora). 
+&lt;LI&gt;Pri používaní&amp;nbsp;&lt;A href="aec074f4-3e1c-4a1e-8a80-06fcecf51156"&gt;Pokladnice OBERON&lt;/A&gt; &lt;STRONG&gt;v&amp;nbsp;režime reštauračnej pokladnice&lt;/STRONG&gt;&amp;nbsp;je na&amp;nbsp;&lt;A href="e0ccff3e-b9e7-4572-bc3c-7f41a32280dd"&gt;prácu s otvorenými účtami (stolmi)&lt;/A&gt;&amp;nbsp;potrebné&amp;nbsp;&lt;STRONG&gt;pre každé predajné miesto najprv nadefinovať zoznam stolov&lt;/STRONG&gt;. Pritom platí, že pri definovaní stola &lt;STRONG&gt;možno daný stôl priradiť k&amp;nbsp;jednému alebo aj viacerým predajným miestam&lt;/STRONG&gt; (napr. stôl majiteľa alebo stôl určený na reprezentačné účely a pod.). 
+&lt;LI&gt;Okrem predajného miesta možno pri definovaní stola&amp;nbsp;daný stôl&amp;nbsp;priradiť aj k&amp;nbsp;&lt;STRONG&gt;zóne&lt;/STRONG&gt;. Zóny predstavujú &lt;STRONG&gt;menšie jednotky&amp;nbsp;v rámci predajného miesta (tzv. rajóny)&lt;/STRONG&gt;. Spravidla ide napr. o&amp;nbsp;terasy, pivnice či iné konkrétne miestnosti v rámci reštauračnej prevádzky. Napr.&amp;nbsp;predajné miesto &lt;EM&gt;Reštaurácia&lt;/EM&gt; môže byť rozdelené do zón &lt;EM&gt;Reštaurácia, Terasa&lt;/EM&gt; a &lt;EM&gt;Pivnica&lt;/EM&gt;. Pritom platí, že pri definovaní stola &lt;STRONG&gt;možno daný stôl priradiť len k&amp;nbsp;jednej zóne&lt;/STRONG&gt;. Viac informácií získate v téme&amp;nbsp;&lt;A href="327921ae-e0fb-48da-b179-61714048b841"&gt;O predajných miestach a&amp;nbsp;zónach&lt;/A&gt;. 
+&lt;LI&gt;Uvedené nastavenia sa&amp;nbsp;spravidla vykonávajú pri&amp;nbsp;&lt;A href="747496d6-0267-424d-a55e-aed6cbd90050"&gt;uvedení pokladnice do prevádzky&lt;/A&gt;, prípadne pri zmene počtu alebo označenia stolov. Stôl môže definovať len&amp;nbsp;&lt;A href="225638ed-22f6-4ac4-9085-6d77c64925db"&gt;používateľ&lt;/A&gt; s&amp;nbsp;príznakom &lt;EM&gt;Administrátor&lt;/EM&gt;. 
+&lt;LI&gt;Stoly je vhodné kvôli zvýšeniu prehľadnosti &lt;STRONG&gt;farebne odlíšiť&lt;/STRONG&gt;. Kvôli čiernej farbe textu je potrebné voliť svetlejšie farebné odtiene stolov. 
+&lt;LI&gt;Zoznam stolov je potrebné nadefinovať aj pre potreby&amp;nbsp;&lt;A href="c3c6b9fe-a88f-42c3-a10f-1e7f5f944ebf"&gt;grafického prehľadu stolov&lt;/A&gt; a pri práci s aplikáciou&lt;STRONG&gt;&amp;nbsp;&lt;/STRONG&gt;&lt;A href="942d48d5-b290-40f6-8ba3-45cf78f380f9"&gt;LUKUL - nielen mobilný čašník&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Postup definovania stolov&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;V programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt; zvoľte ponuku&amp;nbsp;&lt;EM&gt;Firma, Predvoľby,&amp;nbsp;Zoznam stolov.&lt;/EM&gt; 
+&lt;LI&gt;Otvorí sa formulár &lt;I&gt;Zoznam stolov&lt;/I&gt;, v ktorom stlačte tlačidlo &lt;I&gt;Nový&lt;/I&gt;. Otvorí sa&amp;nbsp;formulár &lt;EM&gt;Stôl&lt;/EM&gt;, v ktorom:
+&lt;UL&gt;
+&lt;LI&gt;zadajte číslo a názov&amp;nbsp;stola, 
+&lt;LI&gt;zvoľte&amp;nbsp;&lt;STRONG&gt;jedno alebo viac predajných miest&lt;/STRONG&gt;, 
+&lt;LI&gt;v&amp;nbsp;prípade používania zón vyberte &lt;STRONG&gt;zónu&lt;/STRONG&gt;, 
+&lt;LI&gt;priraďte stolu &lt;STRONG&gt;obrázok&lt;/STRONG&gt;, prípadne &lt;STRONG&gt;farbu&lt;/STRONG&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Vykonané nastavenia potvrďte stlačením tlačidla&amp;nbsp;&lt;EM&gt;&lt;STRONG&gt;OK&lt;/STRONG&gt;&lt;/EM&gt;. &lt;/LI&gt;&lt;/OL&gt;
+&lt;H5&gt;Obrázok č. 1: Definovanie stola&lt;/H5&gt;
+&lt;H5&gt;&lt;IMG border=0 alt="" src="images/Forms/CashRegister/Form_CashRegister_OpenedTables.png"&gt;&lt;/H5&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="24303fb4-cc6c-4d60-a65f-a3ddbbb601fa" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="6a3dce04-be29-4734-a4b0-c2edb1955bba" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="747496d6-0267-424d-a55e-aed6cbd90050">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="b22f20f4-de63-4b33-8622-8c694beeca0b" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="e0ccff3e-b9e7-4572-bc3c-7f41a32280dd">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="5fe60a29-04e6-4174-a71c-82559eeee450" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="327921ae-e0fb-48da-b179-61714048b841">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="0ec89b50-74fc-467c-8052-1b846e43d43b" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="c3c6b9fe-a88f-42c3-a10f-1e7f5f944ebf">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="a2d9e874-c8b2-4e62-bfee-3289ecffe7fe" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="942d48d5-b290-40f6-8ba3-45cf78f380f9">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="7fce84fd-5707-44fa-bc4d-19ce7e2bdaba" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="834e9546-a56b-476f-9028-ef4c24a82345">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="18730ea2-8a14-49e5-bee0-e3493dbcd2f9">
+      <Keyword m="2023-02-13T14:04:27.1923632Z">Stoly - zoznam</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="b74f7441-cda1-4b07-973b-4ecba13b1ff9">
+      <Keyword m="2023-02-13T14:04:33.0235454Z">Stoly - číselník</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="c40a159c-f82e-467c-9862-4feaff135d38">
+      <Keyword m="2023-02-13T14:04:55.0484017Z">Stoly - postup definovania</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="9232ad9b-529e-4365-b1d7-c4800c836f43">
+      <Keyword m="2023-03-06T12:02:31.6345451Z">Stôl - definovanie</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

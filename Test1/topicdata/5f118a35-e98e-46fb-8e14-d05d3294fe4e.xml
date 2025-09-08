@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="5f118a35-e98e-46fb-8e14-d05d3294fe4e" Status="Complete" CreatedOn="2014-09-10T07:51:54.1569118Z" ModifiedOn="2024-01-02T08:49:49.8436471Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="CashRegister_Advanced_ShareMode" BuildFlags="">
+  <Title m="2023-12-29T13:03:27.3378603Z">Režim zdieľania</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-01-02T08:49:49.8436471Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; je venovaná &lt;STRONG&gt;režimu zdieľania&lt;/STRONG&gt;, ktorý umožňuje &lt;STRONG&gt;tlačiť&amp;nbsp;pokladničné doklady z viacerých počítačov v&amp;nbsp;sieti na jednej fiškálnej tlačiarni&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Na prevádzku jednej pokladnice (počítača s&amp;nbsp;&lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnicou OBERON&lt;/A&gt;)&amp;nbsp;je spravidla potrebná jedna fiškálna tlačiareň. Z tohto pravidla však existujú výnimky.&amp;nbsp;Vybrané fiškálne zariadenia podporované v&amp;nbsp;systéme OBERON umožňujú pracovať v&amp;nbsp;tzv. &lt;STRONG&gt;režime zdieľania&lt;/STRONG&gt;&lt;EM&gt;.&lt;/EM&gt; Aktuálne sú to tieto fiškálne tlačiarne: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;A href="00fa9619-a13d-4745-8938-cc0c2b5039ce"&gt;eKasa PANDORA&lt;/A&gt;&amp;nbsp;&lt;A href="1f32a90c-7b4a-4d69-9f38-a560178794b3" style="auto-update-caption: true"&gt;&lt;IMG border=0 alt="Odporúčané riešenia" src="images/OBERON/Basic/Odporucane-riesenie_ruka_ikona.png"&gt;&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;V&amp;nbsp;prípade iných podporovaných fiškálnych tlačiarní možno rovnako použiť režim zdieľania, nie je však zaručená bezproblémovosť fungovania režimu (závisí od&amp;nbsp;možností a&amp;nbsp;konkrétnej konfigurácie daného fiškálneho zariadenia). 
+&lt;LI&gt;Režim zdieľania umožňuje &lt;STRONG&gt;zdieľať jednu fiškálnu tlačiareň viacerými používateľmi OBERON-u, čo v prípade potreby&amp;nbsp;umožňuje vyhotovovať pokladničné doklady aj z viacerých počítačov súčasne&lt;/STRONG&gt; (zdieľanie fiškálnej tlačiarne). V praxi ide o situácie, keď jedna prevádzka používa viacero samostatných počítačov s&amp;nbsp;&lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnicou OBERON&lt;/A&gt;, ktoré sú pripojené k&amp;nbsp;jednému fiškálnemu zariadeniu. Spravidla ide o prevádzky, kde obsluha jedného zákazníka trvá dlhší čas, napr. stavebniny, predajne vodoinštalačného materiálu a pod. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 1: Režim zdieľania&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/CashRegister/Pokladnica-sietova tlac.gif"&gt;&lt;/P&gt;
+&lt;H2&gt;Nastavenie režimu zdieľania&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Pri režime zdieľania sa v zozname&amp;nbsp;&lt;A href="749ff4f1-eeb5-43f5-98d2-021399d8cec7"&gt;definovaných fiškálnych zariadení&lt;/A&gt; môže dané fiškálne zariadenie &lt;STRONG&gt;nachádzať len jedenkrát&lt;/STRONG&gt;.&amp;nbsp;Vo &lt;A href="749ff4f1-eeb5-43f5-98d2-021399d8cec7"&gt;formulári Zariadenie&lt;/A&gt; do poľa &lt;EM&gt;Pripojenie k počítaču&lt;/EM&gt; sa zadávajú názvy všetkých&amp;nbsp;počítačov,&amp;nbsp;na ktorých sa&amp;nbsp;bude&amp;nbsp;fiškálna tlačiareň používať (hodnoty sa oddeľujú čiarkou a&amp;nbsp;medzerou, napr.&amp;nbsp;&lt;EM&gt;Pokladnica 1,&amp;nbsp;&lt;/EM&gt;Pokladnica 2,&amp;nbsp;&lt;EM&gt;Pokladnica&lt;/EM&gt; 3). V&amp;nbsp;prípade pripojenia pomocou vzdialenej pracovnej plochy je pred názvom počítača&amp;nbsp;skratka &lt;STRONG&gt;RDP&lt;/STRONG&gt; (napr. &lt;EM&gt;RDP:&lt;/EM&gt;&amp;nbsp;&lt;EM&gt;Pokladnica 1&lt;/EM&gt;). 
+&lt;LI&gt;&lt;EM&gt;Pokladnica OBERON&lt;/EM&gt; komunikuje s fiškálnym zariadením&amp;nbsp;&lt;STRONG&gt;prostredníctvom protokolu TCP/IP&lt;/STRONG&gt;. Fiškálne zariadenie nie je pripojené ku konkrétnemu počítaču, ale do lokálnej počítačovej siete. &lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="6246a1ee-d322-4832-b0fb-0f28e1c6178b" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="b24ad235-cf7f-43e2-b3e8-ec0f7d92f6b6">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="bd22b423-61b5-4405-93c5-a81fa85fbd2b" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="69bbd499-45c0-4b0f-8f7a-c53fa5d70c1b">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="1f78a61e-af4b-407a-aae2-781b6c7f45fc" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="00fa9619-a13d-4745-8938-cc0c2b5039ce">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="3fbe54a4-309f-4ccc-bb89-fc8f6e3b5f37">
+      <Keyword m="2020-02-05T09:07:54.0120726Z">Zdieľanie fiškálnej tlačiarne</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="28e19349-90f5-4e03-975b-18429e3561ba">
+      <Keyword m="2023-12-29T13:05:48.4992509Z">Fiškálne tlačiarne - režim zdieľania</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

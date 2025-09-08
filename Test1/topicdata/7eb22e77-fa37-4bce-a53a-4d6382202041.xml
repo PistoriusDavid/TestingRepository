@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="7eb22e77-fa37-4bce-a53a-4d6382202041" Status="Complete" CreatedOn="2018-10-05T10:55:14.4905216Z" ModifiedOn="2023-07-13T08:12:26.7659129Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Wages_Attendance_LateEmployee" BuildFlags="">
+  <Title m="2018-10-05T10:56:25.756512Z">Notifikácie o meškajúcich pracovníkoch</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-07-13T08:12:26.7659129Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje&amp;nbsp;&lt;STRONG&gt;informácie o&amp;nbsp;notifikáciách o&amp;nbsp;meškajúcich pracovníkoch zasielaných v&amp;nbsp;systéme OBERON zodpovednej osobe&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Systém OBERON umožňuje&amp;nbsp;svojich používateľov, obchodných partnerov a prípadne ďalšie osoby automaticky informovať o&amp;nbsp;určitých skutočnostiach formou&amp;nbsp;&lt;A href="e301d0fb-f429-4bb5-a4df-7257efbe967b"&gt;automatických notifikácií&lt;/A&gt; (e-mailových a SMS správ). 
+&lt;LI&gt;Notifikácia o meškajúcich pracovníkoch &lt;STRONG&gt;sa zasiela zodpovednej osobe vo forme e-mailovej alebo SMS správy na zadanú adresu alebo telefónne číslo v&amp;nbsp;prípade, že pracovník nepríde do práce do stanoveného času&lt;/STRONG&gt; (t.&amp;nbsp;j. po prekročení stanoveného času od začiatku pracovnej zmeny). 
+&lt;LI&gt;Dĺžku meškania, po ktorom sa odošle automatická notifikácia,&amp;nbsp;je možné nastaviť pre rôzne spôsoby evidencie pracovného času (štandardný pracovný čas, pružný pracovný čas...). 
+&lt;LI&gt;Pre tento typ notifikácie je v OBERON-e preddefinovaná predloha (šablóna, vzor) e-mailovej a SMS správy. V&amp;nbsp;prípade potreby je možné preddefinovaný tvar (formát) predlohy upraviť pomocou &lt;A href="ebccc473-482c-4940-99b3-b4f5d534ccf7"&gt;Editora predlohy&lt;/A&gt;. 
+&lt;LI&gt;Generovanie notifikácií zabezpečuje &lt;A href="47863971-c920-44ee-b49b-99a58f439915" style="auto-update-caption: true"&gt;Generátor notifikácií&lt;/A&gt;&amp;nbsp;ako jedna z &lt;A href="9ce25bbd-35d1-4096-acd5-70007f5af5a6"&gt;automatických úloh&lt;/A&gt; systému OBERON. Viac informácií je možné získať v téme&amp;nbsp;&lt;A href="e301d0fb-f429-4bb5-a4df-7257efbe967b" style="auto-update-caption: true"&gt;O automatických notifikáciách&lt;/A&gt;. 
+&lt;LI&gt;Notifikačné správy sa odosielajú &lt;STRONG&gt;automaticky&lt;/STRONG&gt;, nie je potrebné ich&amp;nbsp;posielať manuálne. V prípade notifikačných&amp;nbsp;SMS správ je možné&amp;nbsp;spätne overiť, či a kedy bola SMS vytvorená a&amp;nbsp;doručená. Všetky vygenerované SMS sú dostupné&amp;nbsp;v&amp;nbsp;evidencii&amp;nbsp;&lt;EM&gt;CRM&lt;/EM&gt;, &lt;A href="d4119d75-dd5b-4a1c-b9fa-c982601e0746"&gt;SMS správy&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;&amp;nbsp;Obrázok č. 1:&amp;nbsp;Notifikačná SMS správa&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Attendance/Attendance_SMS_LateEmployee.png"&gt;&amp;nbsp;&lt;/P&gt;
+&lt;H2&gt;Technické informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Aby bolo možné zasielať &lt;STRONG&gt;e-mailové notifikácie&lt;/STRONG&gt;, je potrebné v nastaveniach OBERON-u nastaviť&amp;nbsp;&lt;A href="ea5379c8-9451-40fc-ac0f-f038feefa916"&gt;typ poštového klienta&lt;/A&gt;&amp;nbsp;&lt;STRONG&gt;Webmail (SMTP Server)&lt;/STRONG&gt;. Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="ea5379c8-9451-40fc-ac0f-f038feefa916" style="auto-update-caption: true"&gt;Poštový klient&lt;/A&gt;. 
+&lt;LI&gt;Aby bolo možné zasielať &lt;STRONG&gt;SMS notifikácie&lt;/STRONG&gt;, je potrebné okrem automatickej úlohy &lt;EM&gt;Generátor notifikácií&lt;/EM&gt; nastaviť aj osobitnú automatickú úlohu&amp;nbsp;&lt;A href="4a6f63ac-fdeb-4de8-93d1-77c969da1f18"&gt;Posielanie SMS správ cez EuroSMS&lt;/A&gt;, ktorá umožňuje automaticky zasielať&amp;nbsp;vygenerované SMS a&amp;nbsp;zároveň spätne overovať, či a kedy bola daná&amp;nbsp;SMS správa doručená. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Nastavenie odosielania e-mailových notifikácií&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;Pred&amp;nbsp;nastavením automatickej úlohy v&amp;nbsp;systéme OBERON &lt;STRONG&gt;sa uistite, že je&amp;nbsp;na počítači, ktorý je neustále zapnutý (spravidla sieťovom databázovom serveri),&lt;/STRONG&gt;&amp;nbsp;správne nastavený&amp;nbsp;&lt;STRONG&gt;server&lt;/STRONG&gt;&amp;nbsp;&lt;A href="09f3dae9-2fb7-490f-97dc-37f60885b398"&gt;OBERON Automation Center&lt;/A&gt;. Postup nastavenia je dostupný v&amp;nbsp;téme&amp;nbsp;&lt;A href="fd64c37a-486b-4cdf-a370-297aaa8a8f73" style="auto-update-caption: true"&gt;Nastavenie servera OBERON Automation Center&lt;/A&gt;.&amp;nbsp;Správnosť nastavenia a&amp;nbsp;fungovania&amp;nbsp;servera OAC môžete skontrolovať v&amp;nbsp;programe&lt;STRONG&gt;&amp;nbsp;&lt;EM&gt;OBERON Automation Center&lt;/EM&gt; (klient)&lt;/STRONG&gt; (v&amp;nbsp;programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;, ponuka&amp;nbsp;&lt;EM&gt;OBERON&lt;/EM&gt;,&amp;nbsp;&lt;A href="69282df4-d4d6-462a-8cf2-68000e3e6f93"&gt;OBERON Automation Center (klient)&lt;/A&gt;). &lt;SPAN style="COLOR: rgb(255,0,0)"&gt;Pri&amp;nbsp;použití&lt;/SPAN&gt; &lt;EM style="COLOR: rgb(255,0,0)"&gt;OBERON Automation Center&lt;/EM&gt;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;&amp;nbsp;&lt;STRONG&gt;odporúčame&lt;/STRONG&gt; &lt;/SPAN&gt;&lt;STRONG style="COLOR: rgb(255,0,0)"&gt;používať databázu SQL&lt;/STRONG&gt;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;.&lt;/SPAN&gt; 
+&lt;LI&gt;Na &lt;STRONG&gt;klientskom počítači&lt;/STRONG&gt; spustite program &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt; a&amp;nbsp;v&amp;nbsp;ponuke &lt;EM&gt;OBERON,&amp;nbsp;&lt;/EM&gt;&lt;A href="e975459f-e882-49f2-adb9-79e68a07df0e"&gt;Otvorenie agendy (firmy)&lt;/A&gt; otvorte databázu účtovnej jednotky. 
+&lt;LI&gt;V&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="225638ed-22f6-4ac4-9085-6d77c64925db" style="auto-update-caption: true"&gt;Používatelia&lt;/A&gt; vytvorte&amp;nbsp;nového používateľa&amp;nbsp;typu &lt;I&gt;&lt;STRONG&gt;Systémový&lt;/STRONG&gt;&lt;/I&gt;. 
+&lt;LI&gt;V&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;, &lt;A href="5a6e5663-262e-4ff0-9741-1569385d11e4"&gt;oddiel Firma, Všeobecné&lt;/A&gt;, záložka &lt;EM&gt;E-mail&lt;/EM&gt;&amp;nbsp;vyberte typ poštového klienta &lt;STRONG&gt;Webmail (SMTP&amp;nbsp;Server)&lt;/STRONG&gt;. Bližšie informácie získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="ea5379c8-9451-40fc-ac0f-f038feefa916" style="auto-update-caption: true"&gt;Poštový klient&lt;/A&gt;. 
+&lt;LI&gt;V&amp;nbsp;rovnakej ponuke (&lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="5a6e5663-262e-4ff0-9741-1569385d11e4"&gt;oddiel Firma, Všeobecné&lt;/A&gt;) v&amp;nbsp;záložke &lt;EM&gt;Ostatné&lt;/EM&gt;&amp;nbsp;začiarknite možnosť &lt;EM&gt;&lt;STRONG&gt;Umožniť používať notifikácie&lt;/STRONG&gt;&lt;/EM&gt;. 
+&lt;LI&gt;V ponuke &lt;EM&gt;Servis&lt;/EM&gt; zvoľte položku&amp;nbsp;&lt;A href="225638ed-22f6-4ac4-9085-6d77c64925db"&gt;Používatelia&lt;/A&gt;. Vyberte &lt;STRONG&gt;osobu, ktorej sa budú posielať správy&lt;/STRONG&gt;. Stlačte tlačidlo &lt;EM&gt;Oprava&lt;/EM&gt;.&amp;nbsp;Otvorí sa&amp;nbsp;&lt;A href="12e7a96f-bc40-4359-bc7a-213d74a785d4"&gt;formulár Používateľ&lt;/A&gt;, kde v záložke &lt;EM&gt;Podrobnosti&lt;/EM&gt; zadajte&amp;nbsp;e-mailovú adresu.&amp;nbsp; 
+&lt;LI&gt;V&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="9ce25bbd-35d1-4096-acd5-70007f5af5a6"&gt;Automatické úlohy&lt;/A&gt;&amp;nbsp;stlačte tlačidlo &lt;EM&gt;Nový&lt;/EM&gt;. Otvorí sa&amp;nbsp;formulár &lt;EM&gt;Automatická úloha&lt;/EM&gt;, v&amp;nbsp;ktorom vyberte typ úlohy&amp;nbsp;&lt;STRONG&gt;&lt;EM&gt;Generátor notifikácií&lt;/EM&gt;&lt;/STRONG&gt; a zadajte názov úlohy. 
+&lt;LI&gt;Stlačením tlačidla&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_Button_Refresh.png"&gt;&amp;nbsp;pri rozbaľovacom zozname &lt;EM&gt;Vykonávať na serveri&lt;/EM&gt;&amp;nbsp;aktualizujte zoznam dostupných serverov a vyberte príslušný server OAC, na ktorom sa má úloha vykonávať. 
+&lt;LI&gt;Vyberte používateľa systému OBERON vytvoreného v&amp;nbsp;bode č.&amp;nbsp;3, pod ktorým sa má automatická&amp;nbsp;úloha vykonávať. 
+&lt;LI&gt;Stlačte tlačidlo &lt;EM&gt;Nastaviť&lt;/EM&gt;. Otvorí sa formulár &lt;EM&gt;Nastavenia notifikácií&lt;/EM&gt;, v&amp;nbsp;ktorom stlačte tlačidlo &lt;EM&gt;Nový&lt;/EM&gt;. Otvorí sa &lt;A href="eaffff1a-43ad-4c90-a988-ebc3a51c1109"&gt;formulár Nastavenie notifikácie&lt;/A&gt;, v&amp;nbsp;ktorom v&amp;nbsp;záložke &lt;EM&gt;Základné&lt;/EM&gt; vyberte typ notifikácie &lt;STRONG&gt;&lt;EM&gt;Dochádzka - meškajúci pracovníci&lt;/EM&gt;&lt;/STRONG&gt;, pridajte jej názov, príjemcov a&amp;nbsp;prípadne poznámku. Ak používate&amp;nbsp;&lt;A href="8df798f2-4fbf-4279-ad8c-493bdbe7f2e4"&gt;prevádzky&lt;/A&gt;, vyberte&amp;nbsp;prevádzku (v OBERON-e je možné nadefinovať viac notifikácií&amp;nbsp;- obsah správy môže byť prispôsobený konkrétnej prevádzke). 
+&lt;LI&gt;V záložke &lt;EM&gt;Predlohy&lt;/EM&gt; začiarknite možnosť &lt;EM&gt;&lt;STRONG&gt;Notifikovať odoslaním elektronickej pošty&lt;/STRONG&gt;&lt;/EM&gt;. Stlačením tlačidla &lt;EM&gt;Upraviť predlohu (e-mail)&lt;/EM&gt; je&amp;nbsp;možné&amp;nbsp;upraviť predlohu pre e-mailové správy. Viac informácií v téme&amp;nbsp;&lt;A href="ebccc473-482c-4940-99b3-b4f5d534ccf7"&gt;Editor predlohy&lt;/A&gt;. 
+&lt;LI&gt;V záložke &lt;EM&gt;Ostatné&lt;/EM&gt; nastavte &lt;STRONG&gt;čas v minútach&lt;/STRONG&gt; -&amp;nbsp;po prekročení tohto času po začatí zmeny pracovníka sa zadanému príjemcovi doručí notifikačná e-mailová správa. 
+&lt;LI&gt;Vykonané nastavenia potvrďte stlačením tlačidla &lt;STRONG&gt;&lt;EM&gt;OK&lt;/EM&gt;&lt;/STRONG&gt;. &lt;/LI&gt;&lt;/OL&gt;
+&lt;H2&gt;Nastavenie odosielania&amp;nbsp;SMS notifikácií&lt;/H2&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Nastavenie odosielania&amp;nbsp;SMS notifikácie je možné vykonať analogicky podľa&amp;nbsp;postupu v téme&amp;nbsp;&lt;A href="47863971-c920-44ee-b49b-99a58f439915"&gt;Generátor notifikácií&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="ea2c187c-a3b2-4118-97fb-41af54691086" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="e301d0fb-f429-4bb5-a4df-7257efbe967b">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="d94d4cc2-f5bc-4da3-98c8-d45240977d6b" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="47863971-c920-44ee-b49b-99a58f439915">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="6c890fb8-d640-4117-989a-e74cdec1ced0" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="d4119d75-dd5b-4a1c-b9fa-c982601e0746">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="01c1a0e7-f0d7-46e8-8655-7d5c4ddd2261" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="ebccc473-482c-4940-99b3-b4f5d534ccf7">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="a98a845b-b0ee-4021-9af0-c7a51900e242" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="77f4529f-a73f-4a6d-b4fe-02d338cbdafa">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="f22a7592-ee3d-432f-b2fd-f9058610bb70" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="ce9e15f9-7459-4a5c-8bad-db17ef7b59ea">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="c7030ed7-fcf2-4ed1-b206-e1b2180df28b">
+      <Keyword m="2021-06-30T11:43:39.4375546Z">Meškajúci pracovník - notifikácia</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="18ca395a-8a59-40ed-b061-355ccd19c405">
+      <Keyword m="2021-06-30T11:43:29.732343Z">Pracovník nepríde do práce - notifikácia</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="21cd65ad-4e61-4557-b439-0d0a2c155319">
+      <Keyword m="2018-10-08T08:25:52.4456903Z">Upozornenia na meškajúcich pracovníkov</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="555aa647-bdb9-4d8e-acf5-2e36e3b3eb11">
+      <Keyword m="2018-10-08T08:32:02.0270602Z">Automatické upozornenia na meškajúcich pracovníkov</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

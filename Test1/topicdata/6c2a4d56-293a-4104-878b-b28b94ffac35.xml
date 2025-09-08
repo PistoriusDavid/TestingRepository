@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="6c2a4d56-293a-4104-878b-b28b94ffac35" Status="Complete" CreatedOn="2022-02-21T07:47:25.0312313Z" ModifiedOn="2022-02-21T07:59:47.0385977Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Help_On-lineHelp" BuildFlags="">
+  <Title m="2022-02-21T07:48:07.4154821Z">Pomocník on-line</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2022-02-21T07:58:52.7489801Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;je venovaná&amp;nbsp;položke&amp;nbsp;&lt;EM&gt;Pomocník on-line&lt;/EM&gt;&amp;nbsp;v ponuke&amp;nbsp;&lt;EM&gt;Pomocník&lt;/EM&gt; programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Výberom položky sa&amp;nbsp;otvorí&amp;nbsp;&lt;A href="https://exalogic.sk/help/oberon/index.html#OBERON_Info.html" target=_blank&gt;on-line verzia&lt;/A&gt; &lt;EM&gt;Pomocníka OBERON&lt;/EM&gt;, ktorý predstavuje&amp;nbsp;&lt;STRONG&gt;štandardnú dokumentáciu&lt;/STRONG&gt; systému OBERON. Obsahuje tak informácie &lt;STRONG&gt;pre bežných&amp;nbsp;používateľov, ako aj základné&amp;nbsp;informácie&lt;/STRONG&gt; pre servisných technikov, systémových integrátorov či&amp;nbsp;vývojárov. 
+&lt;LI&gt;Popri tejto&amp;nbsp;on-line verzii&amp;nbsp;sú k dispozícii&amp;nbsp;aj ďalšie verzie &lt;EM&gt;Pomocníka OBERON&lt;/EM&gt;: 
+&lt;UL&gt;
+&lt;LI&gt;elektronická príručka vo formáte&amp;nbsp;štandardného &lt;EM&gt;Windows Pomocníka&lt;/EM&gt; (súbor OBERON.chm), ktorá je súčasťou štandardnej inštalácie, 
+&lt;LI&gt;&lt;EM&gt;Pomocník OBERON&lt;/EM&gt; vo formáte PDF - umožňuje vytlačenie&amp;nbsp;&lt;EM&gt;Pomocníka&lt;/EM&gt;, teda&amp;nbsp;zostavenie tlačenej&amp;nbsp;príručky. V prípade záujmu je možné &lt;EM&gt;Pomocníka&lt;/EM&gt; vo formáte PDF odoslať elektronickou poštou.&lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Okrem štandardného &lt;EM&gt;Pomocníka OBERON&lt;/EM&gt;&amp;nbsp;existuje aj&amp;nbsp;&lt;A href="519bcf42-f3e7-48c1-98a9-02a5784576f9"&gt;špecializovaná dokumentácia&lt;/A&gt; určená výhradne pre servisných technikov, systémových integrátorov, vývojárov&amp;nbsp;a&amp;nbsp;pod. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Ďalšie informácie získate v téme&amp;nbsp;&lt;A href="8c0e0dd3-ce14-410b-9a1c-76b92585e960" style="auto-update-caption: true"&gt;Pomocník OBERON&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="b67ce8f2-cdb9-4baa-a707-3ab02e734163" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="8c0e0dd3-ce14-410b-9a1c-76b92585e960">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="3be97b1f-cee7-40c8-85b9-73a5f9f3a87e" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="519bcf42-f3e7-48c1-98a9-02a5784576f9">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="d03bccf0-fa11-432d-b5fe-d80382a0cb4b" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="b3576a4b-0cf7-4032-bc13-35a363dd611a">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="5b20f37d-7072-4dec-89b2-781a7d439037">
+      <Keyword m="2022-02-21T07:59:07.7260171Z">Pomocník OBERON - on-line verzia - hlavná ponuka</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="a59356a6-e6d4-4b7b-8314-c8e3ef177259">
+      <Keyword m="2022-02-21T07:59:26.3358997Z">On-line Pomocník OBERON - hlavná ponuka</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="3e3b84bf-fa0a-4acc-8c8d-80b2bd0ad2c6" Status="Complete" CreatedOn="2019-11-25T08:46:10.4148425Z" ModifiedOn="2024-11-07T14:07:18.8023061Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Device_CashRegister_EURO_150_On-Line" BuildFlags="">
+  <Title m="2020-01-08T07:23:31.6006767Z">Pokladnica Euro-150i/o v režime on-line</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-11-07T14:07:18.8023061Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;základné&lt;/STRONG&gt; &lt;STRONG&gt;informácie&lt;/STRONG&gt; o&amp;nbsp;registračnej pokladnici&amp;nbsp;&lt;EM&gt;Euro-150i/o&lt;/EM&gt;&lt;EM&gt;&amp;nbsp;&lt;/EM&gt;vo funkcii&amp;nbsp;&lt;A href="b24ad235-cf7f-43e2-b3e8-ec0f7d92f6b6"&gt;fiškálnej tlačiarne&lt;/A&gt; prepojenej počas predaja s počítačom (tzv. režim on-line). Pokladnica je podporovaná aj v režime off-line (počas predaja nepripojená k počítaču) - viac informácií v téme&amp;nbsp;&lt;A href="d348b00e-f048-47ec-a3d9-3f7cefcc177e"&gt;Pokladnica Euro-150i/o&lt;/A&gt;.&amp;nbsp;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;Zariadenie je v&amp;nbsp;oboch režimoch podporované bez garancie ďalších úprav v&amp;nbsp;komunikačnom protokole na základe budúcich aktualizácií firmvéru.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Registračná pokladnica &lt;EM&gt;Euro-150i/o&lt;/EM&gt; (spolu so starším modelom &lt;EM&gt;Euro-150/o&lt;/EM&gt;) je plne kompatibilná so systémom eKasa a spĺňa všetky požiadavky zákona č. 289/2008 Z. z. o používaní elektronickej registračnej pokladnice v znení neskorších predpisov. Viac informácií o tejto registračnej pokladnici získate v téme&amp;nbsp;&lt;A href="d348b00e-f048-47ec-a3d9-3f7cefcc177e"&gt;Pokladnica Euro-150i/o&lt;/A&gt;. 
+&lt;LI&gt;Výhodou tejto on-line registračnej pokladnice&amp;nbsp;je funkcia fiškálnej tlačiarne prepojenej počas predaja s počítačom (tzv. režim on-line). To znamená, že&amp;nbsp;používateľ pracuje na počítači s&amp;nbsp;príslušným softvérom - &lt;A href="69bbd499-45c0-4b0f-8f7a-c53fa5d70c1b"&gt;Pokladnicou OBERON&lt;/A&gt; a doklad sa vytlačí na registračnej pokladnici, pričom položky sa odpisujú priamo zo skladu v závislosti od nastavení programu okamžite, alebo hromadne - pri dennej uzávierke. V režime on-line nie je potrebné mať v pokladnici naprogramované PLU, keďže ORP sa využíva len na evidovanie tržieb a tlač pokladničných dokladov. 
+&lt;LI&gt;Výrobca pokladničného programu (PPEKK): &lt;A href="https://www.elcom.eu/" target=_blank&gt;ELCOM, spoločnosť s ručením obmedzeným, Prešov&lt;/A&gt;.&lt;BR&gt;Výrobca chráneného dátového úložiska (CHDÚ): &lt;A href="https://www.elcom.eu/" target=_blank&gt;ELCOM, spoločnosť s ručením obmedzeným, Prešov&lt;/A&gt;. 
+&lt;LI&gt;Spôsob pripojenia (rozhranie): USB, LAN (&lt;EM&gt;Plus&lt;/EM&gt;). 
+&lt;LI&gt;Spôsob komunikácie: sériová komunikácia,&amp;nbsp;TCP/IP (&lt;EM&gt;Plus&lt;/EM&gt;). &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt; 
+&lt;P&gt;&lt;SPAN lang=en-us xml:lang="en-us"&gt;Zariadenie sa inštaluje&amp;nbsp;v&amp;nbsp;programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;, ponuka &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="749ff4f1-eeb5-43f5-98d2-021399d8cec7" style="auto-update-caption: true"&gt;Zariadenia&lt;/A&gt;, tlačidlo &lt;EM&gt;Pridať&lt;/EM&gt;.&amp;nbsp;Viac informácií k inštalácii zariadenia získate v téme&amp;nbsp;&lt;A href="5a7bd139-26e0-413c-8698-f89aa5fff79a" style="auto-update-caption: true"&gt;Pokladnica Euro-150i/o v režime on-line - inštalácia&lt;/A&gt;.&lt;/SPAN&gt;&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H5&gt;Obrázok č. 1: Pokladnica&amp;nbsp;&lt;EM&gt;Euro-150i/o Flexy BAT Plus&lt;/EM&gt;&lt;/H5&gt;
+&lt;P&gt;&lt;IMG style="MARGIN-LEFT: 10px" border=0 alt="" src="images/Devices/Device_Euro150.png"&gt;&lt;/P&gt;&lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt; 
+&lt;P&gt;Keďže komunikačný protokol registračných pokladníc&amp;nbsp;&lt;EM&gt;Euro&lt;/EM&gt; v&amp;nbsp;režime on-line (vo funkcii&amp;nbsp;fiškálnej tlačiarne) pracuje s &lt;B&gt;Cenou za MJ s DPH&lt;/B&gt;, je potrebné cenu za MJ s DPH zadávať aj pri pridávaní položky na účet na &lt;A href="69bbd499-45c0-4b0f-8f7a-c53fa5d70c1b"&gt;Pokladnici OBERON&lt;/A&gt;. Ak by sa pri sadzbe DPH 20&amp;nbsp;% pri&amp;nbsp;predaji zadala cena za MJ bez DPH&amp;nbsp;napr. 0,83&amp;nbsp;€ a&amp;nbsp;množstvo 15&amp;nbsp;ks, &lt;I&gt;Pokladnica OBERON&lt;/I&gt; by vypočítala cenu za MJ s DPH = 1€ a &lt;B&gt;Cenu celkom s DPH 14,94&amp;nbsp;€&lt;/B&gt;. Pri zaevidovaní dokladu na registračnej pokladnici&amp;nbsp;&lt;EM&gt;Euro&lt;/EM&gt;&amp;nbsp;by program&amp;nbsp;zaslal cenu za MJ s DPH = 1&amp;nbsp;€ a pokladnica by vypočítala a vytlačila na doklade &lt;B&gt;Cenu celkom s DPH 15&amp;nbsp;€&lt;/B&gt;. Vtedy&amp;nbsp;by nastal&amp;nbsp;rozdiel medzi sumou vypočítanou &lt;I&gt;Pokladnicou OBERON&lt;/I&gt; (teda aj oznámenou zákazníkovi, prípadne zadanou do bankového terminálu) a sumou vytlačenou na daňovom doklade. Bežné&amp;nbsp;fiškálne tlačiarne takýto problém nemajú. Viac informácií o výpočte súm na doklade získate v téme&amp;nbsp;&lt;A href="52df1f6d-0c85-4a3a-8ae8-dd57284545fc" style="auto-update-caption: true"&gt;Výpočet súm na doklade&lt;/A&gt;.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Porovnanie jednotlivých podporovaných fiškálnych zariadení je dostupné v téme&amp;nbsp;&lt;A href="d9b919e7-20c4-4c50-9910-4f13211ed9a8"&gt;Podporované registračné pokladnice&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="a8e69cd1-b00b-4956-ac79-a5d318364ff2" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="b24ad235-cf7f-43e2-b3e8-ec0f7d92f6b6">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="7bb93aee-525e-4982-b92d-d4ec4b745f54" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="5a7bd139-26e0-413c-8698-f89aa5fff79a">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="e6b7ccc4-d210-4283-acba-1c6bee141630">
+      <Keyword m="2020-01-08T08:35:12.4901444Z">Euro-150/o v režime on-line</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="cad5889b-e431-46c8-9a8f-928c9ff3d3f0">
+      <Keyword m="2021-04-07T13:09:09.9628447Z">eKasa Euro-150 v režime on-line</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="78d34b52-df18-4b21-90d2-42dc2dc55a11">
+      <Keyword m="2020-01-08T08:35:20.1885489Z">Euro-150i/o v režime on-line</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

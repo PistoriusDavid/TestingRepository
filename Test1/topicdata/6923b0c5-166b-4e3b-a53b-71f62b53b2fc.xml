@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="6923b0c5-166b-4e3b-a53b-71f62b53b2fc" Status="Complete" CreatedOn="2016-05-10T09:05:53.0062468Z" ModifiedOn="2023-10-04T12:17:51.0496106Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="70900" Name="Menu_Wages_Wages" BuildFlags="">
+  <Title m="2016-05-10T10:00:16.5872097Z">Tvorba miezd</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-09-25T08:15:33.779502Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;je venovaná&amp;nbsp;položke&amp;nbsp;&lt;EM&gt;Tvorba miezd&lt;/EM&gt; v&amp;nbsp;ponuke&amp;nbsp;&lt;EM&gt;Mzdy&lt;/EM&gt; programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&amp;nbsp;&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Výberom položky sa otvorí&amp;nbsp;kniha&amp;nbsp;&lt;I&gt;Tvorba miezd&lt;/I&gt;, ktorá je &lt;STRONG&gt;určená na tvorbu (spracovanie) a&amp;nbsp;evidenciu miezd&lt;/STRONG&gt;. Spracovať mzdu je možné len pracovníkovi, ktorý je zaevidovaný v zozname&amp;nbsp;&lt;A href="8dd60281-9cc7-41fe-9dd2-2ad5c7ffe047"&gt;pracovníkov&lt;/A&gt; a má vytvorený&amp;nbsp;&lt;A href="3fced304-5201-4497-bb58-104c1fd77990"&gt;pracovný pomer&lt;/A&gt;. 
+&lt;LI&gt;V&amp;nbsp;prípade používania &lt;A href="8df798f2-4fbf-4279-ad8c-493bdbe7f2e4"&gt;prevádzok&lt;/A&gt;&amp;nbsp;záznamy&amp;nbsp;v&amp;nbsp;evidencii (mzdy) možno &lt;STRONG&gt;zobraziť podľa príslušnosti&amp;nbsp;k prevádzke&lt;/STRONG&gt;, a&amp;nbsp;to&amp;nbsp;ako podmnožiny&amp;nbsp;záznamov knihy&amp;nbsp;&lt;EM&gt;Tvorba miezd&lt;/EM&gt;.&amp;nbsp;Možno tak urobiť pomocou filtra&amp;nbsp;&lt;EM&gt;Prevádzka&lt;/EM&gt; v&amp;nbsp;hornej časti evidencie.&amp;nbsp;Zoznam dostupných prevádzok (definujú sa v ponuke &lt;EM&gt;Firma&lt;/EM&gt;,&amp;nbsp;&lt;A href="a833ee8a-1289-42b9-923f-80f549497702"&gt;Údaje o firme&lt;/A&gt;)&amp;nbsp;je možné v prípade potreby obmedziť pomocou&amp;nbsp;&lt;A href="834e9546-a56b-476f-9028-ef4c24a82345"&gt;používateľských práv&lt;/A&gt;. 
+&lt;LI&gt;Po otvorení knihy sa&amp;nbsp;zobrazia &lt;STRONG&gt;predvypočítané mzdy pracovníkov&lt;/STRONG&gt; na základe nastavení&amp;nbsp;&lt;A href="3fced304-5201-4497-bb58-104c1fd77990"&gt;pracovných pomerov&lt;/A&gt;. Po označení kurzorom mzdy, ktorú chcete spracovať, sa v&amp;nbsp;dolnej časti formulára oddelenej&amp;nbsp;&lt;A href="38489850-ab82-41b6-b258-3fa613ed5861"&gt;rozdeľovacou lištou&lt;/A&gt; zobrazí príslušná výplatná páska. Pri zmene akejkoľvek mzdovej zložky alebo neprítomnosti&amp;nbsp;sa mzda ihneď prepočíta a výplatná páska&amp;nbsp;sa zobrazí so zmenenými položkami. 
+&lt;LI&gt;Úprava jednotlivých mzdových položiek sa realizuje vo&amp;nbsp;&lt;A href="2cd2daa2-afd8-4a7b-9ca3-da8f3c35fec4"&gt;formulári Úprava mzdy&lt;/A&gt;&lt;STRONG&gt;&amp;nbsp;&lt;/STRONG&gt;(je dostupný pomocou tlačidla &lt;EM&gt;Upraviť mzdu,&lt;/EM&gt; prípadne po stlačení pravého tlačidla myši z&amp;nbsp;kontextovej ponuky). Tu je možné zadávať a&amp;nbsp;upravovať&amp;nbsp;jednotlivé mzdové&amp;nbsp;zložky a&amp;nbsp;neprítomnosti&amp;nbsp;(zobrazujú sa z pracovného pomeru). 
+&lt;LI&gt;Pred prvotným spracovaním miezd&amp;nbsp;je potrebné &lt;STRONG&gt;nastaviť&amp;nbsp;počiatočné spracovávané obdobie miezd&amp;nbsp;&lt;/STRONG&gt;(ponuka &lt;EM&gt;Mzdy&lt;/EM&gt;, &lt;EM&gt;Obdobie&lt;/EM&gt;, &lt;A href="d05c58b2-b990-44d8-ac5c-d199b9cde45e" style="auto-update-caption: true"&gt;Zmena spracovávaného obdobia miezd&lt;/A&gt;, prípadne priamo v systémovom paneli). Následne bude potrebné správnosť nastavenia spracovávaného obdobia miezd skontrolovať pred každým spracovaním miezd pracovníkom. 
+&lt;LI&gt;Zároveň odporúčame pred prvotným spracovaním miezd&amp;nbsp;&lt;STRONG&gt;nastaviť veľkosť formulára&lt;/STRONG&gt; (pomocou posuvnej lišty vpravo hore). Pri väčšom počte pracovníkov je možné panel s&amp;nbsp;výplatnou páskou zmenšiť, prípadne úplne skryť pomocou&amp;nbsp;&lt;A href="38489850-ab82-41b6-b258-3fa613ed5861"&gt;rozdeľovacej lišty&lt;/A&gt;. 
+&lt;LI&gt;V ľavom paneli oddelenom&amp;nbsp;&lt;A href="38489850-ab82-41b6-b258-3fa613ed5861"&gt;rozdeľovacou lištou&lt;/A&gt;&amp;nbsp;je dostupné pole &lt;EM&gt;Obdobie&lt;/EM&gt;, ktoré neslúži na zmenu spracovávaného obdobia miezd, ale umožňuje&amp;nbsp;&lt;STRONG&gt;prezerať výplatné pásky aj spätne&lt;/STRONG&gt;, a to aj bez zmeny obdobia.&amp;nbsp;Umožňuje nastaviť príslušný mesiac, za ktorý chcete prezerať výplatné pásky. 
+&lt;LI&gt;V ľavom paneli&amp;nbsp;je dostupný aj&amp;nbsp;&lt;STRONG&gt;vstavaný filter&lt;/STRONG&gt;, pomocou ktorého možno rýchlo filtrovať záznamy podľa pracovísk a&amp;nbsp;podľa stavu spracovania mzdy. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Spracovať, resp. upraviť už spracovanú mzdu je možné pomocou&amp;nbsp;&lt;A href="2cd2daa2-afd8-4a7b-9ca3-da8f3c35fec4"&gt;formulára Úprava mzdy&lt;/A&gt;. Postup, ako spracovať pracovníkovi mzdu a&amp;nbsp;ako zrýchlene zadávať mzdové zložky je možné&amp;nbsp;získať v&amp;nbsp;téme&amp;nbsp;&lt;A href="1e1da5f2-5abd-48a4-bf82-4f31c614ac45" style="auto-update-caption: true"&gt;Spracovanie mzdy pracovníkovi&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Ďalšie informácie&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;V ľavom paneli oddelenom&amp;nbsp;&lt;A href="38489850-ab82-41b6-b258-3fa613ed5861"&gt;rozdeľovacou lištou&lt;/A&gt;&amp;nbsp;je dostupné pole &lt;EM&gt;Obdobie&lt;/EM&gt;, ktoré neslúži na zmenu spracovávaného obdobia miezd, ale umožňuje&amp;nbsp;&lt;STRONG&gt;prezerať výplatné pásky aj spätne&lt;/STRONG&gt;, a to aj bez zmeny obdobia.&amp;nbsp;Umožňuje nastaviť príslušný mesiac, za ktorý chcete prezerať výplatné pásky. 
+&lt;LI&gt;V ľavom paneli&amp;nbsp;je na zvýšenie&amp;nbsp;prehľadnosti dostupný aj&amp;nbsp;&lt;STRONG&gt;vstavaný filter&lt;/STRONG&gt;, pomocou ktorého možno rýchlo filtrovať záznamy podľa pracovísk a&amp;nbsp;podľa stavu spracovania mzdy. 
+&lt;LI&gt;Z&amp;nbsp;evidencie je možné po stlačení tlačidla &lt;EM&gt;Tlač&lt;/EM&gt; tlačiť &lt;STRONG&gt;tlačové výstupy&lt;/STRONG&gt;, napr. &lt;EM&gt;Výplatné&amp;nbsp;listy (s grafom),&lt;/EM&gt; mesačné výkazy do štátnych inštitúcií, rekapitulácie, ročné výkazy, rôzne prehľady a manažérske zostavy. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Popis stavov miezd vo formulári&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Pri mzde pracovníka možno evidovať tieto stavy: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;nespracovaná mzda&lt;/STRONG&gt; - mzda je len predvypočítaná na základe nastavenia&amp;nbsp;&lt;A href="3fced304-5201-4497-bb58-104c1fd77990"&gt;pracovného pomeru&lt;/A&gt; (ešte nie je uložená v databáze), 
+&lt;LI&gt;&lt;STRONG&gt;koncept&lt;/STRONG&gt; - mzda je uložená v databáze, nepovažuje sa však ešte za spracovanú (teda takú, aká má byť pracovníkovi vyplatená), nepočíta sa do tlačových výstupov daného mesiaca, 
+&lt;LI&gt;&lt;STRONG&gt;spracovaná&lt;/STRONG&gt;&amp;nbsp;- mzda bola uložená do databázy - považuje sa za finálnu (teda takú, aká sa má pracovníkovi vyplatiť), 
+&lt;LI&gt;&lt;STRONG&gt;podpísaná&lt;/STRONG&gt; - spracovanú mzdu je možné schváliť (podpísať) (v závislosti od&amp;nbsp;nastavení v&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="172ab39f-e82b-4a73-94eb-dc1d4d66323e"&gt;oddiel Firma, Mzdy a dochádzka&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt; záložka &lt;EM&gt;Základné&lt;/EM&gt;),&amp;nbsp;schvaľovať mzdy môže len iný&amp;nbsp;&lt;A href="225638ed-22f6-4ac4-9085-6d77c64925db"&gt;používateľ&lt;/A&gt;&amp;nbsp;(nie ten, ktorý mzdu spravoval). &lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/UL&gt;
+&lt;TABLE style="HEIGHT: 295px; WIDTH: 45.12%"&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TD width=41&gt;&lt;IMG border=0 alt="" src="images/Forms/Wages/Form_Wages_Icon_NotProcessed.PNG"&gt;&lt;/TD&gt;
+&lt;TD&gt;Mzda nebola ešte spracovaná&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=41&gt;&lt;IMG border=0 alt="" src="images/Forms/Wages/Form_Wages_Icon_Conceprt.PNG"&gt;&lt;/TD&gt;
+&lt;TD&gt;Mzda bola uložená ako koncept (návrh)&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=41&gt;&lt;IMG border=0 alt="" src="images/Forms/Wages/Form_Wages_Icon_Ended.PNG"&gt;&lt;/TD&gt;
+&lt;TD&gt;Mzda bola spracovaná&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=41&gt;&lt;IMG border=0 alt="" src="images/Forms/Wages/Form_Wages_Icon_EndedWithSignature.PNG"&gt;&lt;/TD&gt;
+&lt;TD&gt;Mzda bola spracovaná a podpísaná (odsúhlasená mzdárom)&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=41&gt;&lt;IMG border=0 alt="" src="images/Forms/Wages/Form_Wages_Icon_DeadlineWages.PNG"&gt;&lt;/TD&gt;
+&lt;TD&gt;Bola vykonaná uzávierka miezd, mzdu nie je možné zmeniť&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=41&gt;&lt;IMG border=0 alt="" src="images/Forms/Wages/Form_Wages_Icon_DeadlineWagesWithSignature.PNG"&gt;&lt;/TD&gt;
+&lt;TD&gt;Bola vykonaná uzávierka miezd na podpísanú mzdu,&amp;nbsp;mzdu nie je možné zmeniť&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;
+&lt;H5&gt;&amp;nbsp;Obrázok č. 1: Úprava mzdy&lt;/H5&gt;
+&lt;P&gt;&lt;IMG style="HEIGHT: 546px; WIDTH: 833px" border=0 alt="" src="images/Forms/Wages/Form_Wages_ChangeWage.png" width=1014 height=658&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;H2&gt;Ďalšie možnosti evidencie&lt;/H2&gt;
+&lt;P&gt;Ďalšie možnosti práce so záznamami&amp;nbsp;sú dostupné&amp;nbsp;po stlačení tlačidla &lt;EM&gt;Možnosti&lt;/EM&gt;, prípadne v&amp;nbsp;kontextovej ponuke tabuľky záznamov.&lt;/P&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Označiť za spracovanú&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Funkcia označí mzdu za spracovanú.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Podpísať spracovanú mzdu&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Funkcia označí mzdu za podpísanú. Podpísanie mzdy má evidenčný charakter. Aby bolo možné mzdy schvaľovať podpisom, je potrebné v&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="172ab39f-e82b-4a73-94eb-dc1d4d66323e"&gt;oddiel Firma, Mzdy a dochádzka&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt; záložka &lt;EM&gt;Základné&lt;/EM&gt;&amp;nbsp;začiarknuť pole &lt;EM&gt;&lt;STRONG&gt;Umožniť schvaľovať (podpisovať) mzdy&lt;/STRONG&gt;&lt;/EM&gt;. Podpísať mzdu môže len iný používateľ&amp;nbsp;ako ten, ktorý mzdu spracoval.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Zrušiť podpis spracovanej mzdy&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Funkcia zruší podpis spracovanej mzdy.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Označiť za koncept&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Funkcia označí mzdu za koncept.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Mzdu opätovne vygenerovať&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Funkcia opätovne prepočíta mzdu pracovníka podľa nastaveného&amp;nbsp;&lt;A href="3fced304-5201-4497-bb58-104c1fd77990"&gt;pracovného pomeru&lt;/A&gt;, prípadne podľa evidencie dochádzky. Manuálne zadané mzdové zložky (napr. neprítomnosti) sa nezmažú (na rozdiel od funkcie &lt;EM&gt;Storno mzdy&lt;/EM&gt;).&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Storno mzdy&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Storno mzdy znamená, že tak mzda, ako aj manuálne zadané mzdové zložky sa vymažú, pričom sa mzda opätovne prepočíta&amp;nbsp;podľa&amp;nbsp;&lt;A href="3fced304-5201-4497-bb58-104c1fd77990"&gt;pracovného pomeru&lt;/A&gt; (prípadne podľa&amp;nbsp;evidencie dochádzky). Mzda pracovníka sa označí ako nespracovaná.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Otvoriť adresár so súbormi uzávierky&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Otvorí sa adresár so súbormi uzávierky; štandardne býva na adrese &lt;STRONG&gt;C:/OBERON/_CompanyDocuments/Názov firmy/Rok/Mzdy/Mesiac&lt;/STRONG&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;XML editor&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Funkcia otvorí &lt;EM&gt;XML Editor&lt;/EM&gt;, v ktorom je možné prehľadne zobraziť súbory typu XML, prípadne ich v odôvodnených prípadoch aj upraviť. Bližšie informácie o editore získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="dbae92e9-a935-46e3-8f57-7854ad21497b" style="auto-update-caption: true"&gt;XML Editor&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Hromadné zaslanie výplatných pások&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Otvorí sa sprievodca na hromadné zaslanie výplatných pások pracovníkom. Pre každého pracovníka sa automaticky vytvorí e-mailová správa s&amp;nbsp;prílohou -&amp;nbsp;výplatnou páskou ako súborom vo formáte PDF. Ak má pracovník nastavené heslo pre zasielanie príloh, príloha bude automaticky chránená heslom (zašifrovaná). Viac informácií získate v téme&amp;nbsp;&lt;A href="462dcabe-b3eb-4865-8bee-ade16b5faaec" style="auto-update-caption: true"&gt;Zasielanie výplatných pások e-mailom&lt;/A&gt;.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Export údajov&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Zo spracovaných miezd je možné exportovať niektoré údaje:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;EM&gt;Mesačné hlásenie preddavkov na zdravotné poistenie&lt;/EM&gt; vo formáte PDF (je možné použiť len pre max. 2&amp;nbsp;pracovníkov danej zdravotnej poisťovne). &lt;/LI&gt;&lt;/UL&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="b3df2c43-2136-41f7-a7cf-1a5d2a1faa9e" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="8dd60281-9cc7-41fe-9dd2-2ad5c7ffe047">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="207ad6ce-2aae-4138-844c-df18731d5afa" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="3fced304-5201-4497-bb58-104c1fd77990">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="d284946b-63c7-42b4-b652-5e7a1124700e" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="7a452352-b957-4643-9190-c308ecf20975">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="535f2174-718b-45da-b55e-5d4c1173ff3f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="2cd2daa2-afd8-4a7b-9ca3-da8f3c35fec4">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="3f49ee67-e3fa-4323-a196-c5dcf3eb633c" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1e1da5f2-5abd-48a4-bf82-4f31c614ac45">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="0baebde9-4846-40c4-900e-d961205463fd" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="4c0cffe2-a77b-44ea-bb3a-39476f21e420">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="69932e2d-74c5-47d1-9cde-2b972ede1fff" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="462dcabe-b3eb-4865-8bee-ade16b5faaec">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="05e4de2c-1215-4703-aeb9-fb5d001c1833" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="6c19c4be-2d19-4f43-9174-1297a9475c47">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="a234fdb7-632e-4084-a780-dd31c99870d1">
+      <Keyword m="2016-12-08T13:48:53.0349422Z">Storno mzdy</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="9dee9ebf-fa15-4200-bd33-4ee0c4ba25fe">
+      <Keyword m="2023-07-17T06:44:16.6494004Z">Mzdy - tvorba</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="ec3ff388-810d-4d3c-b220-f3c89133ea79" Status="Complete" CreatedOn="2014-09-08T12:42:44.8545613Z" ModifiedOn="2022-02-15T08:03:56.4894915Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Menu_Service_XML_Communication_Settings" BuildFlags="">
+  <Title m="2014-09-08T12:43:08.5509167Z">Nastavenia XML komunikácie</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2022-02-15T08:03:56.4894915Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;je venovaná&amp;nbsp;položke&amp;nbsp;&lt;EM&gt;Nastavenia XML komunikácie&lt;/EM&gt;&amp;nbsp;v ponuke &lt;EM&gt;Servis&lt;/EM&gt; programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Výberom položky sa otvorí číselník &lt;EM&gt;Nastavenia XML komunikácie&lt;/EM&gt;, ktorý&amp;nbsp;&lt;STRONG&gt;umožňuje definovať&amp;nbsp;nastavenia parametrov&amp;nbsp;importu a exportu údajov&amp;nbsp;v rámci tzv.&lt;/STRONG&gt;&amp;nbsp;&lt;A href="56f661c6-24da-46aa-b157-5d988cbe792b"&gt;XML komunikácie&lt;/A&gt;&amp;nbsp;- viac informácií o tomto spôsobe komunikácie získate v téme&amp;nbsp;&lt;A href="56f661c6-24da-46aa-b157-5d988cbe792b" style="auto-update-caption: true"&gt;Všeobecne o XML komunikácii&lt;/A&gt;. 
+&lt;LI&gt;Nastavenia XML komunikácie sa uplatňujú pri samotnom importe alebo exporte&amp;nbsp;údajov. Najčastejšie sa využívajú: 
+&lt;UL&gt;
+&lt;LI&gt;pri importe na nastavenie spôsobu&amp;nbsp;konverzie údajov zo súboru&amp;nbsp;XML s odlišnou štruktúrou, ako OBERON priamo podporuje (tzv. natívny formát OBERON XML), 
+&lt;LI&gt;pri importe na nastavenie spôsobu&amp;nbsp;konverzie údajov zo súboru&amp;nbsp;iného formátu ako XML, 
+&lt;LI&gt;pri exporte na nastavenie spôsobu&amp;nbsp;konverzie údajov do súboru XML s odlišnou štruktúrou ako OBERON XML na ďalšie spracovanie v externých systémoch, 
+&lt;LI&gt;pri exporte na nastavenie spôsobu&amp;nbsp;konverzie údajov do súboru&amp;nbsp;iného formátu ako XML&amp;nbsp;na ďalšie spracovanie v externých systémoch, 
+&lt;LI&gt;pri importe alebo exporte&amp;nbsp;na určenie, v ktorých agendách systému OBERON bude možné s daným nastavením pracovať, 
+&lt;LI&gt;pri importe alebo exporte na nastavenie zobrazenia náhľadu XML súboru vo formáte HTML. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;V rámci&amp;nbsp;ďalších&amp;nbsp;nastavení XML komunikácie je ďalej možné: 
+&lt;UL&gt;
+&lt;LI&gt;pri importe nastaviť sklad, polia na sychronizáciu skladových položiek atď. v prípade, že sa napr.&amp;nbsp;položky importovaného dokladu (faktúry, objednávky, príjemky...) majú &lt;STRONG&gt;naimportovať ako skladové&lt;/STRONG&gt;, 
+&lt;LI&gt;pri exporte nastaviť sklad,&amp;nbsp;z&amp;nbsp;ktorého sa má export vykonať, a&amp;nbsp;či sa majú exportovať aj základné, resp. rozšírené údaje skladových kariet, na základe ktorých sa pri následnom importe bude môcť z&amp;nbsp;položky dokladu&amp;nbsp;&lt;STRONG&gt;automaticky vytvoriť daná skladová karta&lt;/STRONG&gt; v prípade, že sa v cieľovej databáze nenachádza. &lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Ďalšie informácie získate v téme&amp;nbsp;&lt;A href="ab9d497d-fd18-4185-a487-28e3bf04cecf"&gt;Nastavenia XML komunikácie&lt;/A&gt;. Nadefinovať&amp;nbsp;jednotlivé nastavenia parametrov&amp;nbsp;importu a exportu údajov&amp;nbsp;v rámci tzv.&amp;nbsp;&lt;A href="56f661c6-24da-46aa-b157-5d988cbe792b"&gt;XML komunikácie&lt;/A&gt; je možné vo &lt;A href="61528768-ed52-428d-b65c-458d9b11ae23"&gt;formulári Nastavenie XML komunikácie&lt;/A&gt;.&amp;nbsp;Ďalšie nastavenia je možné vykonať vo &lt;A href="2b1c8088-fe6c-4fab-bf73-6947c2bec31e"&gt;formulári Podrobné nastavenia XML komunikácie&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="76cd2842-8897-4f32-b490-731b7b4bf61f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="56f661c6-24da-46aa-b157-5d988cbe792b">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="7bd7a332-7e90-4dbd-ae4c-3eec12a498fd" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="ab9d497d-fd18-4185-a487-28e3bf04cecf">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="14918bf2-8513-4f39-b84c-ac241e575058" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="61528768-ed52-428d-b65c-458d9b11ae23">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="32b57ce3-4bf8-4782-bc5c-7f1e2fd4b423" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="2b1c8088-fe6c-4fab-bf73-6947c2bec31e">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="e06f841f-3e54-41c1-83e5-05766b5aecf0">
+      <Keyword m="2021-04-06T12:53:28.3073141Z">Nastavenia XML komunikácie - hlavná ponuka</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

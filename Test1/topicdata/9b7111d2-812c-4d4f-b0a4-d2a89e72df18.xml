@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="9b7111d2-812c-4d4f-b0a4-d2a89e72df18" Status="Complete" CreatedOn="2014-09-09T10:33:53.5040293Z" ModifiedOn="2023-04-25T06:25:06.0163482Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="AccSingle_Started_Document_Numbering" BuildFlags="">
+  <Title m="2014-09-09T10:34:28.9060542Z">O číslovaní dokladov v peňažnom denníku</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-04-25T06:25:06.0163482Z">&lt;P&gt;V&amp;nbsp;tejto téme &lt;EM&gt;Pomocníka&lt;/EM&gt; sú uvedené &lt;STRONG&gt;informácie o číslovaní dokladov&lt;/STRONG&gt; v&amp;nbsp;&lt;A href="5e82cca9-b8af-4a80-ba30-7ab91914a595"&gt;peňažnom denníku&lt;/A&gt; -&amp;nbsp;základnej účtovnej knihe&amp;nbsp;&lt;A href="32be28cf-2368-4818-9d24-cfa9d59afb75"&gt;jednoduchého účtovníctva&lt;/A&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Číslovaním dokladov v&amp;nbsp;&lt;A href="5e82cca9-b8af-4a80-ba30-7ab91914a595"&gt;peňažnom denníku&lt;/A&gt; sa myslí označenie príjmového alebo výdavkového pokladničného dokladu, prípadne označenie bankového výpisu, ktoré sa zapisuje do poľa &lt;I&gt;Doklad&lt;/I&gt; vo formulári&amp;nbsp;&lt;A href="b844cf33-8762-4c77-bfde-4a5b5b22350f"&gt;Zápis v&amp;nbsp;peňažnom denníku&lt;/A&gt;. 
+&lt;LI&gt;Spôsob číslovania &lt;STRONG&gt;pokladničných dokladov&lt;/STRONG&gt; v peňažnom denníku (&lt;EM&gt;Nečíslovať, Príjmové a výdavkové doklady číslovať spolu, Príjmové a výdavkové doklady číslovať samostatne&lt;/EM&gt;) sa definuje v&amp;nbsp;nastaveniach programu (ponuka &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="932262cc-b80f-4ce6-aba6-6a7d4a18f5ec"&gt;oddiel Firma, Účtovníctvo&lt;/A&gt;, záložka&amp;nbsp;&lt;EM&gt;Peňažný denník&lt;/EM&gt;). Tu je možné nastaviť aj typ číslovania (štandardný alebo podľa dátumu). Viac v&amp;nbsp;téme&amp;nbsp;&lt;A href="932262cc-b80f-4ce6-aba6-6a7d4a18f5ec"&gt;Formulár Nastavenia - Firma - Účtovníctvo&lt;/A&gt;. 
+&lt;LI&gt;Pri vytváraní&amp;nbsp;nového zápisu do peňažného denníka sa&amp;nbsp;danému dokladu&amp;nbsp;priradí číselné označenie automaticky. 
+&lt;LI&gt;Číselné označenie&amp;nbsp;dokladov&amp;nbsp;spravidla pozostáva z&amp;nbsp;tzv. prefixu, ktorý môže obsahovať všetky alfanumerické znaky, a číselného indexu. Číselné označenie je potrebné zvoliť tak, aby číselný index, ktorý bude program automaticky navyšovať, bol &lt;STRONG&gt;na konci číselného označenia&lt;/STRONG&gt;, napr. P-0001 (kde&amp;nbsp;P predstavuje alfanumerický&amp;nbsp;prefix a&amp;nbsp;0001 číselný index). 
+&lt;LI&gt;Do číselného indexu prvého čísla dokladu &lt;SPAN style="COLOR: rgb(255,0,0)"&gt;je nutné doplniť potrebný počet núl podľa predpokladaného najvyššieho dosiahnutého čísla dokladu&lt;/SPAN&gt;, napr. P-0001&amp;nbsp;pri predpokladanom najvyššom počte&amp;nbsp;daných dokladov 9&amp;nbsp;999.&amp;nbsp; 
+&lt;LI&gt;Príklad označenia &lt;STRONG&gt;bankových dokladov&lt;/STRONG&gt;: B-001, B-002, B-003... atď., keď viete, že počet všetkých zápisov v&amp;nbsp;peňažnom denníku vzťahujúcich sa&amp;nbsp;na&amp;nbsp;bankové výpisy nepresiahne 1&amp;nbsp;000. Ak odhadovaný počet výpisov za účtovný rok presiahne počet 1&amp;nbsp;000, odporúča sa prvý doklad označiť napr. B-0001. 
+&lt;LI&gt;V&amp;nbsp;prípade, že účtovná jednotka účtuje bankové výpisy z&amp;nbsp;viacerých bankových účtov, môže ich označiť podľa konkrétnej banky, napr. VUB-001, VUB-002... atď. pre čísla na prvom účte, SLSP-001, SLSP-002 na druhom účte atď. 
+&lt;LI&gt;O číslovaní pokladničných dokladov platí to isté, ako o bankových účtoch. Tu však &lt;STRONG&gt;stačí zadať len prvé číslo v&amp;nbsp;číselnom rade&lt;/STRONG&gt; a program bude ďalej príjmové a výdavkové doklady číslovať automaticky. 
+&lt;LI&gt;Pokladničné doklady, resp. interné (nepeňažné doklady) je možné v peňažnom denníku prečíslovať, a&amp;nbsp;to spravidla v&amp;nbsp;situácii, keď sa neúčtuje v chronologickom (časovom) slede, prípadne, keď sa doplní určitý &lt;EM&gt;zabudnutý&lt;/EM&gt; doklad. Viac informácií získate v&amp;nbsp;témach&amp;nbsp;&lt;A href="adc6cb3d-95b2-46fd-8d05-fd9cf02ad18c"&gt;Sprievodca Prečíslovanie pokladničných dokladov&lt;/A&gt; a&amp;nbsp;&lt;A href="9afaf246-51d4-40ea-968d-eada83983f24"&gt;Sprievodca Prečíslovanie interných (nepeňažných) dokladov&lt;/A&gt;. 
+&lt;LI&gt;V &lt;EM&gt;Peňažnom denníku&lt;/EM&gt; sa nachádza aj jedno špeciálne pole - &lt;I&gt;Poradové číslo&lt;/I&gt;. Toto číslo program&amp;nbsp;priraďuje k novým zápisom automaticky. Problém môže spôsobiť zadanie staršieho dokladu do peňažného denníka. Vtedy síce poradové čísla budú v rade, ale dátumy dokladov nie. V&amp;nbsp;takomto prípade sa&amp;nbsp;odporúča použiť&amp;nbsp;&lt;A href="fbf31c4f-937e-4ff4-a88e-8ffab6ddecfd"&gt;prečíslovanie poradových čísel&lt;/A&gt;&amp;nbsp;v&amp;nbsp;peňažnom denníku. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Bližšie informácie o číslovaní dokladov (záznamov) v&amp;nbsp;systéme OBERON získate v téme&amp;nbsp;&lt;A href="9aa7dbb1-f4a7-405e-8465-78b2133e0fd3"&gt;Číslovanie&amp;nbsp;dokladov (záznamov)&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="c2461ba0-28b3-4051-b09e-94acfa8b9b5a" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="5e82cca9-b8af-4a80-ba30-7ab91914a595">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="e0ebd48a-de20-4f05-8add-87b4539f946d" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="565cef7b-84c9-4402-966c-d3c94972cab4">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="f1318056-0970-44c9-a99a-a8c8b829b97a" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="fbf31c4f-937e-4ff4-a88e-8ffab6ddecfd">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="fabc3649-bbdf-489a-b01f-bb754288e14c" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="adc6cb3d-95b2-46fd-8d05-fd9cf02ad18c">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="718c93cd-c7c0-4288-a206-9a11c44bf2b6" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="9afaf246-51d4-40ea-968d-eada83983f24">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="efe90fdb-1165-4c2d-af70-f6a19beb7565" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="9aa7dbb1-f4a7-405e-8465-78b2133e0fd3">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="c8a0f815-5c1e-4b31-885d-31a6486a5f06">
+      <Keyword m="2021-08-23T08:09:32.9458585Z">Číslovanie dokladov v peňažnom denníku</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="f9ef3b3c-3217-4270-8dd6-c99bf6158e1a">
+      <Keyword m="2021-08-23T08:09:41.3869274Z">Peňažný denník - číslovanie dokladov</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

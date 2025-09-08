@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="500d259b-3e05-4b22-86a5-adc149eb9595" Status="Complete" CreatedOn="2022-03-31T12:21:00.3133416Z" ModifiedOn="2023-10-12T05:46:50.0727244Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="OBERONCenter_AutoTasks_GoogleCalendar" BuildFlags="">
+  <Title m="2022-03-31T12:21:34.3852077Z">Synchronizácia s Kalendárom Google</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-06-02T10:27:59.0051146Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; je venovaná&amp;nbsp;jednej z&amp;nbsp;&lt;A href="9ce25bbd-35d1-4096-acd5-70007f5af5a6"&gt;automatických úloh&lt;/A&gt;&amp;nbsp;systému OBERON&amp;nbsp;-&amp;nbsp;&lt;STRONG&gt;synchronizácii s&amp;nbsp;&lt;EM&gt;Kalendárom Google&lt;/EM&gt;&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;EM&gt;Synchronizácia s&amp;nbsp;Kalendárom Google&lt;/EM&gt; predstavuje&amp;nbsp;&lt;A href="9ce25bbd-35d1-4096-acd5-70007f5af5a6"&gt;automatickú úlohu&lt;/A&gt;, ktorá je v&amp;nbsp;systéme OBERON &lt;STRONG&gt;určená na obojsmernú synchronizáciu&amp;nbsp;úloh a udalostí&lt;/STRONG&gt;&amp;nbsp;medzi&amp;nbsp;modulom&amp;nbsp;&lt;A href="f1a6963d-36aa-4134-92a5-fa47a4345e74"&gt;CRM a registratúra&lt;/A&gt; a&amp;nbsp;&lt;EM&gt;Kalendárom Google&lt;/EM&gt;. 
+&lt;LI&gt;&lt;EM&gt;Kalendár Google&lt;/EM&gt; (angl. &lt;EM&gt;Google Calendar&lt;/EM&gt;) je &lt;STRONG&gt;bezplatná služba na organizáciu času, plánovanie a správu úloh a udalostí&lt;/STRONG&gt; od spoločnosti &lt;EM&gt;Google&lt;/EM&gt; dostupná vo forme webovej, ale aj mobilnej aplikácie pre platformy &lt;EM&gt;Android&lt;/EM&gt; a&amp;nbsp;&lt;EM&gt;iOS&lt;/EM&gt;. Aplikácia umožňuje používateľom &lt;STRONG&gt;vytvárať a upravovať úlohy a udalosti, pre ktoré je možné nastaviť upozornenia&lt;/STRONG&gt; zasielané do mobilného zariadenia. Tým môžu byť používatelia neustále v predstihu informovaní o&amp;nbsp;nadchádzajúcich aktivitách. Kalendár je navrhnutý pre tímy, takže s aplikáciou môžete zdieľať svoj plán s&amp;nbsp;kolegami alebo priateľmi a vytvárať viacero kalendárov, ktoré môžete vy a váš tím používať spoločne. Program je lokalizovaný aj do slovenského jazyka. 
+&lt;LI&gt;Kalendár vytvorený v aplikácii &lt;EM&gt;Kalendár Google&lt;/EM&gt; je možné prepojiť s modulom&amp;nbsp;&lt;A href="f1a6963d-36aa-4134-92a5-fa47a4345e74"&gt;CRM a registratúra&lt;/A&gt; systému OBERON. Štandardne po vytvorení&amp;nbsp;kalendára &lt;EM&gt;Google&lt;/EM&gt;&amp;nbsp;napr.&amp;nbsp;&lt;EM&gt;Firma CRM&lt;/EM&gt;&amp;nbsp;a nastavení zdieľania s&amp;nbsp;ostatnými členmi firmy budú môcť pridávať alebo upravovať udalosti v kalendári&amp;nbsp;všetci členovia firmy. Po nastavení automatickej úlohy bude takýto&amp;nbsp;spoločne používaný&amp;nbsp;kalendár zároveň&amp;nbsp;synchronizovaný s modulom&amp;nbsp;&lt;EM&gt;CRM a&amp;nbsp;registratúra&lt;/EM&gt;&amp;nbsp;v&amp;nbsp;OBERON-e (evidencia &lt;EM&gt;Úlohy a udalosti, Kalendár udalostí&lt;/EM&gt;). 
+&lt;LI&gt;Pred nastavením automatickej úlohy je potrebné v programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt; v ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="a1ae5eb5-f369-4aab-80b2-c6585166d550"&gt;Správca doplnkov&lt;/A&gt;, oddiel &lt;EM&gt;Ovládače&lt;/EM&gt; &lt;STRONG&gt;nainštalovať doplnok &lt;EM&gt;Synchronizácia OBERON CRM s&amp;nbsp;Kalendárom&amp;nbsp;Google&lt;/EM&gt;&lt;/STRONG&gt;. Doplnok obsahuje priečinok&amp;nbsp;&lt;EM&gt;Exa.GoogleConnector&lt;/EM&gt;, ktorý sa nainštaluje do systémového adresára OBERON. 
+&lt;LI&gt;Po nainštalovaní doplnku je potrebné &lt;STRONG&gt;vytvoriť automatickú úlohu&lt;/STRONG&gt; &lt;EM&gt;Synchronizácia s Kalendárom Google&lt;/EM&gt; v&amp;nbsp;programe &lt;EM&gt;OBERON Center&lt;/EM&gt;. V nastavení úlohy sa autorizuje účet &lt;EM&gt;Google&lt;/EM&gt; a vyberie sa kalendár, s ktorým bude úloha synchronizovať záznamy v CRM. 
+&lt;LI&gt;V&amp;nbsp;rámci automatickej úlohy &lt;EM&gt;Synchronizácia s Kalendárom Google&lt;/EM&gt;&amp;nbsp;je možné nastaviť &lt;STRONG&gt;obojsmernú synchronizáciu&lt;/STRONG&gt; údajov medzi&amp;nbsp;modulom&amp;nbsp;&lt;A href="f1a6963d-36aa-4134-92a5-fa47a4345e74"&gt;CRM a registratúra&lt;/A&gt; (evidencia &lt;EM&gt;Úlohy a udalosti, Kalendár udalostí&lt;/EM&gt;) a&amp;nbsp;&lt;EM&gt;Kalendárom Google,&lt;/EM&gt; v&amp;nbsp;rámci ktorej sa: 
+&lt;UL&gt;
+&lt;LI&gt;úlohy a udalosti vytvorené alebo zmenené v module &lt;A href="f1a6963d-36aa-4134-92a5-fa47a4345e74"&gt;CRM a registratúra&lt;/A&gt;&amp;nbsp;automaticky synchronizujú s &lt;EM&gt;Kalendárom Google&lt;/EM&gt;, 
+&lt;LI&gt;úlohy a udalosti vytvorené alebo zmenené v &lt;EM&gt;Kalendári Google&lt;/EM&gt;&amp;nbsp;automaticky synchronizujú s&amp;nbsp;modulom&amp;nbsp;&lt;A href="f1a6963d-36aa-4134-92a5-fa47a4345e74"&gt;CRM a registratúra&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Okrem nastavenia automatickej úlohy ďalším predpokladom správnej synchronizácie je &lt;STRONG&gt;nastavenie e-mailových adries jednotlivým používateľom&lt;/STRONG&gt; v&amp;nbsp;programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;, konkrétne vo&amp;nbsp;&lt;A href="12e7a96f-bc40-4359-bc7a-213d74a785d4"&gt;formulári Používateľ&lt;/A&gt;, záložka &lt;EM&gt;Externé systémy&lt;/EM&gt;&amp;nbsp;(ponuka &lt;EM&gt;Servis, Používatelia&lt;/EM&gt;). 
+&lt;LI&gt;Synchronizácia je založená na &lt;STRONG&gt;párovaní farieb&lt;/STRONG&gt; v &lt;EM&gt;CRM&lt;/EM&gt; a v &lt;EM&gt;Kalendári Google&lt;/EM&gt;. Zároveň sa do poznámky udalosti v&amp;nbsp;&lt;EM&gt;Kalendári Google&lt;/EM&gt; zapisuje názov typu udalosti z CRM, ku ktorému je daná farba priradená. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 1: Synchronizácia údajov medzi systémom OBERON a &lt;EM&gt;Kalendárom Google&lt;/EM&gt;&lt;/H5&gt;
+&lt;P&gt;&lt;IMG src="images/CRM/CRM_GoogleKalendar.png"&gt;&amp;nbsp;&lt;/P&gt;
+&lt;H2&gt;Postup nastavenia synchronizácie&lt;/H2&gt;
+&lt;H3&gt;1. Nastavenie e-mailových adries používateľom&lt;/H3&gt;
+&lt;OL&gt;
+&lt;LI&gt;V&amp;nbsp;programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt; v&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;&amp;nbsp;zvoľte položku&amp;nbsp;&lt;A href="225638ed-22f6-4ac4-9085-6d77c64925db"&gt;Používatelia&lt;/A&gt;. 
+&lt;LI&gt;Zobrazí sa zoznam používateľov OBERON-u. Kurzorom označte používateľa, ktorému chcete nastaviť e-mailovú adresu a stlačte tlačidlo &lt;EM&gt;Oprava&lt;/EM&gt;. 
+&lt;LI&gt;Otvorí sa&amp;nbsp;&lt;A href="12e7a96f-bc40-4359-bc7a-213d74a785d4"&gt;formulár Používateľ&lt;/A&gt;, v&amp;nbsp;ktorom v záložke &lt;EM&gt;Externé systémy&lt;/EM&gt; stlačte tlačidlo &lt;EM&gt;Nový&lt;/EM&gt;. 
+&lt;LI&gt;Zadajte&amp;nbsp;hodnoty, napríklad:&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;STRONG&gt;Typ:&lt;/STRONG&gt; Google,&lt;BR&gt;&amp;nbsp;&amp;nbsp; &lt;STRONG&gt;Pomenovanie:&lt;/STRONG&gt; E-mail,&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;STRONG&gt;Hodnota:&lt;/STRONG&gt; &lt;A href="mailto:jan.novak@gmail.com"&gt;jan.novak@gmail.com&lt;/A&gt; 
+&lt;LI&gt;Obdobným spôsobom pridajte e-mailové adresy aj&amp;nbsp;ďalším používateľom, ktorí budú používať &lt;EM&gt;Kalendár&lt;/EM&gt; &lt;EM&gt;Google&lt;/EM&gt;. &lt;/LI&gt;&lt;/OL&gt;
+&lt;H3&gt;2. Vytvorenie kalendára Google&lt;/H3&gt;
+&lt;OL&gt;
+&lt;LI&gt;Prihláste sa do svojho účtu &lt;EM&gt;Google&lt;/EM&gt;.&amp;nbsp;Stlačte tlačidlo &lt;IMG style="BORDER-TOP: black 1px solid; BORDER-RIGHT: grey 1px solid; BORDER-BOTTOM: grey 1px solid; BORDER-LEFT: grey 1px solid" border=0 src="images/ProductOptions/ExternalSystems/GoogleKalendar_button.png"&gt;&amp;nbsp;v pravom hornom rohu a vyberte položku &lt;EM&gt;Kalendár&lt;/EM&gt;. &amp;nbsp;&amp;nbsp;&amp;nbsp; 
+&lt;LI&gt;V&amp;nbsp;ľavom paneli pri položke &lt;EM&gt;Ďalšie kalendáre&lt;/EM&gt;&amp;nbsp;kliknite na znamienko + (&lt;EM&gt;Pridať ďalšie kalendáre&lt;/EM&gt;). 
+&lt;LI&gt;Vyberte položku &lt;EM&gt;Vytvoriť nový kalendár&lt;/EM&gt;.&amp;nbsp; 
+&lt;LI&gt;Zadajte názov kalendára, napr. &lt;EM&gt;Firma CRM&lt;/EM&gt;, prípadne popis, a&amp;nbsp;stlačte tlačidlo &lt;EM&gt;Vytvoriť kalendár&lt;/EM&gt;. 
+&lt;LI&gt;Vráťte sa do ľavého panela, kurzorom sa nastavte&amp;nbsp;nad názov kalendára v zozname&amp;nbsp;a po kliknutí na tri zvislé bodky vyberte položku &lt;EM&gt;Nastavenia a&amp;nbsp;zdieľanie&lt;/EM&gt;. 
+&lt;LI&gt;V časti &lt;EM&gt;Zdieľať s konkrétnymi ľuďmi&lt;/EM&gt; stlačte tlačidlo pridať ľudí a zadajte, resp. vyberte&amp;nbsp;e-mailovú adresu osoby, s ktorou chcete kalendár zdieľať. 
+&lt;LI&gt;Ak kalendár&amp;nbsp;používate spoločne&amp;nbsp;s jednotlivou e-mailovou adresou, danej osobe sa kalendár zobrazí v zozname&amp;nbsp;&lt;EM&gt;Ďalšie kalendáre&lt;/EM&gt;.&amp;nbsp;Ak kalendár používate spoločne so skupinou e-mailov, používateľom sa kalendár zobrazí v&amp;nbsp;zozname&amp;nbsp;&lt;EM&gt;Ďalšie&lt;/EM&gt; &lt;EM&gt;kalendáre&lt;/EM&gt; po kliknutí na odkaz v e-mailovej pozvánke z &lt;EM&gt;Kalendára&amp;nbsp;Google&lt;/EM&gt;. &lt;/LI&gt;&lt;/OL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Ak chcete, aby sa vám nový kalendár zobrazoval v mobilnom zariadení (smartfóne,&amp;nbsp;tablete...), bude potrebné pre daný kalendár&amp;nbsp;&lt;A href="https://support.google.com/calendar/answer/6084644#sync_calendar" target=_blank&gt;zapnúť synchronizáciu&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H3&gt;3. Inštalácia doplnku&lt;/H3&gt;
+&lt;OL&gt;
+&lt;LI&gt;V&amp;nbsp;programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt; v&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;&amp;nbsp;vyberte položku&amp;nbsp;&lt;A href="a1ae5eb5-f369-4aab-80b2-c6585166d550" style="auto-update-caption: true"&gt;Správca doplnkov&lt;/A&gt;. 
+&lt;LI&gt;V oddiele &lt;EM&gt;Ovládače&lt;/EM&gt; vyberte doplnok &lt;EM&gt;Synchronizácia OBERON CRM s&amp;nbsp;Kalendárom&amp;nbsp;Google&lt;/EM&gt;&amp;nbsp;a stlačte tlačidlo &lt;EM&gt;Inštalovať&lt;/EM&gt;. 
+&lt;LI&gt;Otvorí sa sprievodca inštaláciou, postupujte podľa pokynov sprievodcu&amp;nbsp;- doplnok sa nainštaluje. &lt;/LI&gt;&lt;/OL&gt;
+&lt;H3&gt;4. OBERON Center&lt;/H3&gt;
+&lt;OL&gt;
+&lt;LI&gt;V&amp;nbsp;programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt; v&amp;nbsp;ponuke&amp;nbsp;OBERON vyberte položku &lt;EM&gt;Otvoriť OBERON Center&lt;/EM&gt;. Otvorí sa program&amp;nbsp;&lt;A href="24e780fd-36d3-4a6e-bfc0-a8665c75e4ee"&gt;OBERON Center&lt;/A&gt;. 
+&lt;LI&gt;V oddiele &lt;EM&gt;Automatické úlohy&lt;/EM&gt; stlačte tlačidlo &lt;EM&gt;Pridať&lt;/EM&gt;. Otvorí sa&amp;nbsp;formulár &lt;EM&gt;Automatická úloha&lt;/EM&gt;, v ktorom vyberte &lt;EM&gt;Typ úlohy - Synchronizácia s&amp;nbsp;&lt;/EM&gt;&lt;EM&gt;Kalendárom&lt;/EM&gt; &lt;EM&gt;Google&lt;/EM&gt;. Zadajte názov úlohy, vyberte počítač a používateľa. 
+&lt;LI&gt;Stlačte tlačidlo &lt;EM&gt;Nastaviť&lt;/EM&gt;.&amp;nbsp;Otvorí sa formulár, v ktorom stlačte tlačidlo &lt;EM&gt;Prihlásiť sa&amp;nbsp;do&amp;nbsp;účtu Google&lt;/EM&gt;. Otvorí sa internetový prehliadač, vyberte účet &lt;EM&gt;Google&lt;/EM&gt;, ktorý sa prepojí s&amp;nbsp;OBERON-om a prihláste sa. 
+&lt;LI&gt;Zobrazí sa formulár (Obrázok č. 2), stlačte tlačidlo &lt;EM&gt;Povoliť&lt;/EM&gt;. 
+&lt;LI&gt;V programe &lt;EM&gt;OBERON Center&lt;/EM&gt; vyberte kalendár&amp;nbsp;&lt;EM&gt;Google&lt;/EM&gt;, v ktorom sa budú zobrazovať udalosti z&amp;nbsp;CRM. 
+&lt;LI&gt;Nastavenie synchronizácie je ukončené. &lt;/LI&gt;&lt;/OL&gt;
+&lt;H5&gt;Obrázok č.&amp;nbsp;2: Žiadosť o povolenie&lt;/H5&gt;
+&lt;P&gt;&lt;IMG style="BORDER-TOP: black 1px solid; BORDER-RIGHT: grey 1px solid; BORDER-BOTTOM: grey 1px solid; BORDER-LEFT: grey 1px solid" border=0 src="images/CRM/CRM_GoogleKalendar_CheckApp.png"&gt;&lt;/P&gt;
+&lt;H5&gt;Obrázok č.&amp;nbsp;3:&amp;nbsp;Kalendár udalostí&amp;nbsp;v OBERON-e&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/CRM/Form_CRM_Kalendar_SyncWithGoogle_Oberon.png"&gt;&lt;/P&gt;
+&lt;H5&gt;&amp;nbsp;Obrázok č.&amp;nbsp;4: Úlohy a udalosti&amp;nbsp;v kalendári &lt;EM&gt;Google&lt;/EM&gt;&lt;/H5&gt;
+&lt;P&gt;&lt;IMG style="BORDER-TOP: black 1px solid; BORDER-RIGHT: grey 1px solid; BORDER-BOTTOM: grey 1px solid; BORDER-LEFT: grey 1px solid" border=0 src="images/Forms/CRM/Form_CRM_Kalendar_SyncWithGoogle_Google.png"&gt;&amp;nbsp;&lt;/P&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Ďalšie informácie získate na webovej stránke&amp;nbsp;&lt;A href="https://exalogic.sk/oberon/suvisiace-produkty/kalendar-google/" target=_blank&gt;Kalendár Google&lt;/A&gt;&amp;nbsp;a na&amp;nbsp;&lt;A href="https://www.google.sk/" target=_blank&gt;webovej stránke dodávateľa&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="cccc9637-9db3-4427-9f38-250561e5b4e9" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="9ce25bbd-35d1-4096-acd5-70007f5af5a6">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="b8455a36-ab6d-4fc8-8913-27b902edce16" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="c3bd41f0-029e-4c74-b342-b0ffff647b6e">
+      <Title m="2021-03-08T11:43:44.3879252Z">Hotelová recepcia</Title>
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="f8dcf8b5-23f5-4f40-a7d1-b6f824c4543e">
+      <Keyword m="2022-03-31T12:22:56.5982367Z">CRM s Kalendárom Google</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="b915fc1c-392d-49d5-b83d-8359fcf210fd">
+      <Keyword m="2022-03-31T12:23:06.324436Z">Google Calendar</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="85ad7b5b-0018-451e-a4c7-c5e678c5e422">
+      <Keyword m="2022-03-31T12:23:11.8456906Z">Kalendár Google</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="92bb4192-c83b-4aaa-b35d-bdbd31ddac40">
+      <Keyword m="2022-03-31T12:23:28.0963879Z">Prepojenie Kalendára Google s OBERON-om</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="06353c52-8c4e-4446-b82f-0e1a216dc5f7">
+      <Keyword m="2022-03-31T12:23:45.313738Z">Kalendár udalostí a Kalendár Google</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="9ff880b0-1eb6-4043-9d40-9843ba05bfe2">
+      <Keyword m="2022-03-31T12:24:04.9563291Z">Google kalendár</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="0815955e-a1df-4a9b-9fbf-9c1cc3832ebb">
+      <Keyword m="2022-04-04T08:19:29.4607978Z">Úlohy a udalosti - Kalendár Google</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

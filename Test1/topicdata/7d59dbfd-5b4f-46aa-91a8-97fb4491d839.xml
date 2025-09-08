@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="7d59dbfd-5b4f-46aa-91a8-97fb4491d839" Status="Complete" CreatedOn="2014-10-08T08:12:49.2636718Z" ModifiedOn="2023-10-30T07:14:47.4923155Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="51050" Name="Form_StockCard_Recepture" BuildFlags="">
+  <Title m="2014-12-10T11:50:06.1552734Z">Formulár Zloženie receptúry</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-06-08T09:11:16.5423878Z">&lt;P&gt;Formulár&amp;nbsp;&lt;I&gt;Zloženie receptúry&lt;/I&gt; umožňuje &lt;STRONG&gt;definovať zloženie skladovej karty&amp;nbsp;&lt;/STRONG&gt;&lt;A href="8deac9fe-9864-41e8-aaa3-02257c241d78"&gt;typu receptúra&lt;/A&gt;.&amp;nbsp;Formulár je dostupný z&amp;nbsp;&lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;formulára Skladová karta&lt;/A&gt;, záložka &lt;EM&gt;Základné&lt;/EM&gt;, tlačidlo &lt;EM&gt;Zloženie &lt;/EM&gt;po zvolení typu karty &lt;EM&gt;Receptúra&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Popis formulára &lt;EM&gt;Zloženie receptúry&lt;/EM&gt;&lt;/H2&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Počet porcií&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Umožňuje nastaviť počet porcií, na ktorý bude kalkulovaná receptúra. Z&amp;nbsp;praktických dôvodov nie je možné každú receptúru kalkulovať na 1 porciu. Typickým príkladom sú polievky, kde sú napr. množstvá korenín na 1 porciu veľmi malé. Vtedy je možné nastaviť počet porcií na 100 a množstvá surovín zadávať na 100 porcií.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tab Strip" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Položky receptúry&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Nový/Oprava&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Pomocou tlačidla je možné pridať skladovú kartu do receptúry, resp. upraviť už pridanú skladovú kartu. Skladová karta môže byť jednoduchá, ale aj iná receptúra (viac informácií v&amp;nbsp;téme&amp;nbsp;&lt;A href="691d23dd-a44d-48f0-827e-c6a358b2dabc" style="auto-update-caption: true"&gt;Zložená receptúra&lt;/A&gt;).&lt;BR&gt;Pri pridávaní skladovej karty do receptúry je možné zadať&amp;nbsp;&lt;EM&gt;Hrubé množstvo&lt;/EM&gt;&amp;nbsp;a&amp;nbsp;&lt;EM&gt;Čisté&lt;/EM&gt; &lt;EM&gt;množstvo&lt;/EM&gt;, ktoré je očistené od&amp;nbsp;odpadu pri spracovaní. Napr. z&amp;nbsp;hrubého množstva&amp;nbsp;1&amp;nbsp;kg zemiakov v&amp;nbsp;šupke je možné získať 0,9&amp;nbsp;kg očistených zemiakov.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Súčet obstarávacích cien&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Celková obstarávacia cena receptúry je súčtom obstarávacích cien jej jednotlivých&amp;nbsp;zložiek.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Straty pri príprave&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;O straty pri príprave je znížená výsledná hmotnosť.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Výsledná hmotnosť&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Súčet hmotností jednotlivých zložiek receptúry znížený o straty pri príprave. Ak skladová karta nemá hmotnostnú&amp;nbsp;základnú mernú jednotku, program jej hmotnosť vyčíta z hodnoty zadanej v záložke &lt;EM&gt;Doplň. údaje&lt;/EM&gt; &lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;formulára Skladová karta&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Postup prípravy&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Záložka určená na zápis&amp;nbsp;postupu prípravy receptúry. Postup&amp;nbsp;sa tlačí v tlačovom výstupe &lt;EM&gt;Skladová karta - receptúra&lt;/EM&gt; v&amp;nbsp;knihe&amp;nbsp;&lt;A href="1a33ab0b-2df7-4dc2-962b-8a3319c16831" style="auto-update-caption: true"&gt;Skladové karty&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Ostatné&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Umožňuje zadať &lt;EM&gt;Nutričnú hodnotu&lt;/EM&gt; a &lt;EM&gt;Alergény&lt;/EM&gt; danej receptúry. Tieto hodnoty sa tlačia v&amp;nbsp;&lt;A href="7dd24e6f-6f96-4a51-9881-991d948d6392"&gt;jedálnom lístku&lt;/A&gt; a exportujú do&amp;nbsp;&lt;A href="fe4a9463-d066-4a56-8eee-a728ae1a7220"&gt;elektronického jedálneho lístka&lt;/A&gt;&amp;nbsp;a aplikácie&amp;nbsp;&lt;A href="942d48d5-b290-40f6-8ba3-45cf78f380f9"&gt;LUKUL&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="b8bc7080-e143-4c8c-8987-0739070c90a0" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="2d9e274d-bfb7-43bc-9e70-b091ed82b9b2">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="183bbd23-0c8d-48a9-bf13-42969e4e43c9" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="12572b52-44a7-433c-be59-df1192f3c6a0">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="4af673d6-8a7a-4a15-b712-2fe6586636a5" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="691d23dd-a44d-48f0-827e-c6a358b2dabc">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="a3643334-0467-4f97-8730-8188171cace3" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="d625d826-19da-443e-9c4b-9fd6d5a9c0bd">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="9211f007-10c9-4aaf-9e0b-18229d90e088" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="3ae0999b-7567-4494-ac38-6da31fcaa7b1">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="d20229d8-c932-4a59-a62c-7b611ab47541" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="7dd24e6f-6f96-4a51-9881-991d948d6392">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="f3633f95-47de-41e5-876e-6e3308d4fe08" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="fe4a9463-d066-4a56-8eee-a728ae1a7220">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="59d64bd9-9527-4026-83da-860c29d1ce1e" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="942d48d5-b290-40f6-8ba3-45cf78f380f9">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="dd808b27-a51d-4cbc-a891-7fdf2eebaf9f">
+      <Keyword m="2023-06-08T08:26:04.9538583Z">Nutričná hodnota</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="38cd931b-688b-4cb1-a458-464dff6977de">
+      <Keyword m="2014-10-08T12:18:45.0664062Z">Kalkulácie jedál</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="71f869ba-57fc-4595-b926-3d3bb87883e8">
+      <Keyword m="2014-12-10T11:55:11.0830078Z">Alergény</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="1a7c46d8-06ee-4544-9591-fdfcccb7b86f">
+      <Keyword m="2023-06-08T08:26:15.2509915Z">Zloženie receptúry - formulár</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

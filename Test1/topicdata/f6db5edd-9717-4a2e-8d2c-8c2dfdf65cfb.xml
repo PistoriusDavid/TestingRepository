@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="f6db5edd-9717-4a2e-8d2c-8c2dfdf65cfb" Status="Complete" CreatedOn="2014-09-04T07:11:57.0852Z" ModifiedOn="2024-11-12T07:43:04.0382603Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="false" HelpContextIds="" Name="CashRegister_Universal_Interface_Install" BuildFlags="">
+  <Title m="2021-05-03T07:08:12.3792671Z">CashRegister Universal Interface - inštalačná, konfiguračná a programovacia príručka </Title>
+  <ContentsTitle m="2021-05-04T10:15:25.8617692Z">CashRegister Universal Interface - inštalačná, konfiguračná a programovacia príručka </ContentsTitle>
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-11-12T07:43:04.0382603Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje&amp;nbsp;elektronickú &lt;STRONG&gt;inštalačnú, konfiguračnú a programovaciu príručku&lt;/STRONG&gt; univerzálneho rozhrania&amp;nbsp;&lt;A href="19c6d1c2-3a3c-46a0-9f37-ea433baa8598"&gt;CashRegister Universal Interface&lt;/A&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Firma EXALOGIC vyvinula univerzálne rozhranie &lt;EM&gt;CashRegister Universal Interface&lt;/EM&gt;, ktoré umožňuje integrovať do systému&amp;nbsp;OBERON aj takú registračnú pokladnicu, ktorá ním nie je priamo podporovaná. Po integrácii je možné zapísať položky PLU do registračnej pokladnice, vyčítať informácie o predaji, prípadne vykonať dennú uzávierku. Viac informácií získate v téme&amp;nbsp;&lt;A href="19c6d1c2-3a3c-46a0-9f37-ea433baa8598"&gt;CashRegister Universal Interface&lt;/A&gt;. 
+&lt;LI&gt;Pripojenie&amp;nbsp;registračnej pokladnice k&amp;nbsp;systému OBERON pomocou rozhrania&amp;nbsp;&lt;EM&gt;CashRegister Universal Interface&lt;/EM&gt; sa realizuje na základe nasledujúcich krokov, a&amp;nbsp;to úpravou&amp;nbsp;&lt;A href="https://exalogic.sk/na-stiahnutie-oberon/cashregister-universal-interface-priklad/" target=_blank&gt;príkladu na vytvorenie programového kódu&lt;/A&gt; alebo vytvorením úplne nového programového kódu na pripojenie registračnej pokladnice: &lt;/LI&gt;&lt;/UL&gt;
+&lt;DIV style="MARGIN-LEFT: 2em"&gt;
+&lt;OL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Inštalácia komunikačného programu&lt;/STRONG&gt; -&amp;nbsp;externého programu od výrobcu registračnej pokladnice, ktorý zabezpečí samotné zaslanie a&amp;nbsp;načítanie PLU, ktoré sú spravidla uložené v&amp;nbsp;textových alebo CSV súboroch. 
+&lt;LI&gt;&lt;STRONG&gt;Konfigurácia komunikačného programu&lt;/STRONG&gt; pre konkrétnu registračnú pokladnicu, ktorá sa spravidla realizuje cez konfiguračný súbor s&amp;nbsp;nastaveniami. 
+&lt;LI&gt;Vytvorenie jednotlivých &lt;STRONG&gt;dávkových súborov&lt;/STRONG&gt; obsahujúcich postupnosť príkazov, ktoré sú spracovávané interpreterom príkazového riadku. 
+&lt;LI&gt;&lt;STRONG&gt;Nastavenie jednotlivých operácií&lt;/STRONG&gt; registračnej pokladnice &lt;EM&gt;CashRegister Universal Interfac&lt;/EM&gt;e priamo v&amp;nbsp;systéme OBERON. 
+&lt;LI&gt;Naprogramovanie alebo&amp;nbsp;úprava programových kódov prostredníctvom &lt;B&gt;Editora kódu&lt;/B&gt;&amp;nbsp;na čítanie a&amp;nbsp;zápis PLU, ako aj programového kódu&amp;nbsp;na spracovanie návratových kódov. 
+&lt;LI&gt;Samotné &lt;STRONG&gt;otestovanie funkčnosti&lt;/STRONG&gt; rozhrania. &lt;/LI&gt;&lt;/OL&gt;&lt;/DIV&gt;
+&lt;UL&gt;
+&lt;LI&gt;Po úprave a prispôsobení všetkých nastavení je možné všetky tieto nastavenia exportovať alebo importovať (konfiguračný XML súbor). 
+&lt;LI&gt;Univerzálny príklad ako vzor na vytvorenie vlastnej úpravy je k&amp;nbsp;dispozícii na webovej stránke &lt;A href="http://www.exalogic.sk/" target=_blank&gt;www.exalogic.sk&lt;/A&gt; v&amp;nbsp;sekcii &lt;EM&gt;Na stiahnutie,&amp;nbsp;&lt;/EM&gt;&lt;A href="https://exalogic.sk/na-stiahnutie/pre-vyvojarov/cashregister-universal-interface/" target=_blank&gt;CashRegister Universal Interface&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;1. Inštalácia komunikačného programu&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Aby rozhranie &lt;EM&gt;CashRegister Universal Interface&lt;/EM&gt; mohlo pracovať s&amp;nbsp;konkrétnym modelom registračnej pokladnice,&amp;nbsp;je potrebné mať nainštalovaný komunikačný program -&amp;nbsp;externý program od výrobcu registračnej pokladnice. Ten zabezpečí samotné zaslanie a&amp;nbsp;načítanie PLU, ktoré sú spravidla uložené v&amp;nbsp;textových alebo CSV súboroch.&amp;nbsp;Na komfortné používanie je dôležité, aby komunikačný program vedel pracovať v&amp;nbsp;režime príkazového riadka. Ak však&amp;nbsp;komunikačný program pracuje len v&amp;nbsp;režime grafického používateľského rozhrania, komunikácia cez rozhranie &lt;EM&gt;CashRegister Universal Interface&lt;/EM&gt; bude možná len v&amp;nbsp;obmedzenej miere. Niektoré časti funkcií bude musieť&amp;nbsp;používateľ vykonávať manuálne. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;2. Konfigurácia komunikačného programu&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Podľa typu registračnej pokladnice pripájanej cez rozhranie &lt;EM&gt;CashRegister Universal Interface&lt;/EM&gt; a&amp;nbsp;príslušného komunikačného programu&amp;nbsp;je potrebné vykonať konfiguráciu komunikačného programu. Konfigurácia sa realizuje cez používateľskú aplikáciu alebo zápisom priamo do konfiguračného súboru (CFG alebo XML súbor). Najdôležitejšie parametre, ktoré&amp;nbsp;je potrebné správne nastaviť, sú tieto: &lt;/LI&gt;&lt;/UL&gt;
+&lt;DIV style="MARGIN-LEFT: 2em"&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;B&gt;Model registračnej pokladnice&lt;/B&gt; – výrobca môže pre viac modelov registračných pokladníc používať jeden komunikačný program. 
+&lt;LI&gt;&lt;B&gt;Číslo registračnej pokladnice&lt;/B&gt; – číslo, na základe ktorého je pokladnica adresovaná. 
+&lt;LI&gt;&lt;B&gt;Komunikačný port&lt;/B&gt; – port, ku ktorému bude registračná pokladnica pripojená (COM1, COM2...). 
+&lt;LI&gt;&lt;B&gt;Prenosová rýchlosť&lt;/B&gt; – rýchlosť, akou bude komunikačný program na zvolenom porte komunikovať (9600, 38400...). 
+&lt;LI&gt;&lt;B&gt;Oddeľovač polí&lt;/B&gt; – oddeľovací znak, ktorý oddeľuje jednotlivé údaje, z ktorých sa celé PLU skladá (najčastejšie „;“). 
+&lt;LI&gt;&lt;B&gt;Oddeľovač desatinnej časti&lt;/B&gt; – znak, ktorý reprezentuje desatinnú čiarku („,“ alebo „.“). 
+&lt;LI&gt;&lt;B&gt;Heslo pre komunikáciu&lt;/B&gt; – ak to komunikačný program vyžaduje. &lt;/LI&gt;&lt;/UL&gt;&lt;/DIV&gt;
+&lt;UL&gt;
+&lt;LI&gt;Samozrejme, môže existovať aj veľa iných parametrov, ktoré&amp;nbsp;je potrebné správne nastaviť, popis a&amp;nbsp;možnosti nastavenia&amp;nbsp;je potrebné vyhľadať v&amp;nbsp;dokumentácii ku komunikačnému programu daného modelu registračnej pokladnice. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;3. Dávkové súbory&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Rozhranie &lt;EM&gt;CashRegister Universal Interface&lt;/EM&gt; na vykonávanie jednotlivých funkcií využíva spúšťanie externých programov. Často je potrebné vykonať viac úkonov, preto potrebná funkcionalita môže byť naprogramovaná aj v&amp;nbsp;dávkových súboroch. Funkcie rozhrania sú tieto: &lt;/LI&gt;&lt;/UL&gt;
+&lt;DIV style="MARGIN-LEFT: 2em"&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;B&gt;Zapísanie PLU&lt;/B&gt; - táto funkcia má vykonať poslanie položiek PLU zapísaných v textovom súbore &lt;I&gt;PLU_Zapis.txt&lt;/I&gt; vytvorenom&amp;nbsp;systémom OBERON do registračnej pokladnice. Po ukončení operácie by mal byť výsledok operácie uložený v textovom súbore &lt;I&gt;chyby.txt&lt;/I&gt;, odkiaľ si ho systém OBERON prevezme. 
+&lt;LI&gt;&lt;B&gt;Načítanie PLU&lt;/B&gt; - táto funkcia má vykonať prečítanie položiek PLU z registračnej pokladnice do textového súboru &lt;I&gt;PLU_Citanie.txt&lt;/I&gt;, ktorý následne&amp;nbsp;systém OBERON spracuje. Po ukončení operácie by mal byť výsledok operácie uložený v textovom súbore &lt;I&gt;chyby.txt&lt;/I&gt;, odkiaľ si ho&amp;nbsp;systém OBERON prevezme. 
+&lt;LI&gt;&lt;B&gt;PLU uzávierka&lt;/B&gt; - táto funkcia má vykonať spustenie príkazu uzávierky PLU v registračnej pokladnici. Po ukončení operácie by mal byť výsledok operácie uložený v textovom súbore &lt;I&gt;chyby.txt&lt;/I&gt;, odkiaľ si ho&amp;nbsp;systém OBERON prevezme. 
+&lt;LI&gt;&lt;B&gt;Denná uzávierka&lt;/B&gt; - táto funkcia má vykonať spustenie príkazu dennej uzávierky v registračnej pokladnici. Po ukončení operácie by mal byť výsledok operácie uložený v textovom súbore &lt;I&gt;chyby.txt&lt;/I&gt;, odkiaľ si ho&amp;nbsp;systém OBERON prevezme. &lt;/LI&gt;&lt;/UL&gt;&lt;/DIV&gt;
+&lt;H5&gt;Obrázok č. 1: Vykonávanie dávkového súboru v príkazovom riadku&lt;/H5&gt;&lt;IMG border=0 alt="" src="images/Forms/CashRegister/Davkove_Subory.png"&gt; 
+&lt;H2&gt;4. Nastavenie komunikácie&lt;/H2&gt;
+&lt;P&gt;Nastavenie komunikácie rozhrania &lt;EM&gt;CashRegister Universal Interface&lt;/EM&gt; spočíva v&amp;nbsp;nastavení cesty k&amp;nbsp;externému programu, zadaní názvov dávkových súborov alebo externého programu s&amp;nbsp;parametrami, čo zabezpečí vykonanie požadovanej funkcie. Nastavenia komunikácie sú&amp;nbsp;tieto:&lt;/P&gt;&lt;innovasys:widget type="Tab Strip" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Základné&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Pracovný adresár&lt;/STRONG&gt; – adresár, v ktorom budú všetky potrebné súbory, s ktorými bude rozhranie&amp;nbsp;pracovať. 
+&lt;LI&gt;&lt;STRONG&gt;Kódovanie znakov&lt;/STRONG&gt; – v prípade problémov s diakritickými znakmi v dátových súboroch je možné zmeniť ich kódovanie. &lt;/LI&gt;&lt;/UL&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;&lt;B&gt;Zapísanie PLU&lt;/B&gt;&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;B&gt;Upraviť&amp;nbsp;formát...&lt;/B&gt;&amp;nbsp;– pri zápise položiek PLU do pokladnice&amp;nbsp;systém OBERON vytvorí textový súbor, ktorého formát je možné nastaviť (upraviť) presne podľa požiadaviek externého programu&amp;nbsp;na komunikáciu. 
+&lt;LI&gt;&lt;B&gt;Spustiť&lt;/B&gt; – po vytvorení súboru so skladovými položkami PLU bude spustený externý program, ktorý zapíše dané PLU priamo do pokladnice. &lt;/LI&gt;&lt;/UL&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Načítanie PLU&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Spustiť&lt;/STRONG&gt; – pri načítaní PLU z&amp;nbsp;pokladnice bude spustený externý program, ktorý načíta položky PLU z&amp;nbsp;pokladnice a&amp;nbsp;zároveň vytvorí textový súbor. 
+&lt;LI&gt;&lt;B&gt;Upraviť&amp;nbsp;formát...&lt;/B&gt; – po vytvorení textového súboru externým programom bude daný súbor následne načítaný a&amp;nbsp;spracovaný&amp;nbsp;systémom OBERON. Podmienky spracovania a&amp;nbsp;formát je potrebné nastaviť v&amp;nbsp;súlade s&amp;nbsp;podmienkami pokladnice. &lt;/LI&gt;&lt;/UL&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;&lt;B&gt;Uzávierky&lt;/B&gt;&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;B&gt;PLU uzávierka&lt;/B&gt; – spustenie príkazu, ktorý vykoná PLU uzávierku na pokladnici. Používa sa po prečítaní PLU z&amp;nbsp;pokladnice a&amp;nbsp;zápise predaných množstiev do databázy. 
+&lt;LI&gt;&lt;B&gt;Denná uzávierka&lt;/B&gt; - spustenie príkazu, ktorý vykoná dennú uzávierku v&amp;nbsp;pokladnici. Používa sa po prečítaní PLU z&amp;nbsp;pokladnice a&amp;nbsp;zápise predaných množstiev do databázy. &lt;/LI&gt;&lt;/UL&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;&lt;B&gt;Chybové správy&lt;/B&gt;&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;B&gt;Upraviť&amp;nbsp;formát...&lt;/B&gt; – pri komunikácii programu s&amp;nbsp;externým programom (ovládačom) pokladnice je potrebné vykonať prevod chybových správ medzi oboma programami. Je potrebné zabezpečiť, aby chybové správy ovládača pokladnice boli správne pretransformované do očakávaného formátu. &lt;/LI&gt;&lt;/UL&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H5&gt;Obrázok č. 2: Nastavenia komunikácie&lt;/H5&gt;&lt;IMG border=0 alt="" src="images/Forms/CashRegister/CashRegisterUniversal01.png"&gt; 
+&lt;H2&gt;5. Editor kódu&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Pri implementácii novej registračnej pokladnice medzi najdôležitejšie úlohy patrí úprava programového kódu&amp;nbsp;na načítanie (pri čítaní z&amp;nbsp;pokladnice) a&amp;nbsp;vytvorenie (pri zápise do pokladnice)&amp;nbsp;dátových súborov. Na túto úpravu&amp;nbsp;slúži &lt;B&gt;Editor kódu.&lt;/B&gt; 
+&lt;LI&gt;Uvedený kód definuje štruktúru jednej tovarovej položky, zapíše ju do riadka, kde sú jednotlivé údaje oddelené oddeľovacím znakom (napr. bodkočiarkou) alebo spätne dekóduje takýto riadok z pokladnice do štruktúry systému OBERON. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 3: Formulár úpravy programového kódu&lt;/H5&gt;&lt;IMG border=0 alt="" src="images/Forms/CashRegister/CashRegisterUniversal02.png"&gt; 
+&lt;UL&gt;
+&lt;LI&gt;Okrem úpravy programových kódov&amp;nbsp;na čítanie a zápis PLU je možné spracovať aj návratový kód, ktorý skripty a obslužné komunikačné programy zapíšu do chybového súboru. 
+&lt;LI&gt;Pri písaní programového kódu je veľmi dôležité poznať niektoré štruktúry a&amp;nbsp;objekty (ich vlastnosti a metódy) systému OBERON. Tie najdôležitejšie ponúka aj &lt;B&gt;Editor kódu&lt;/B&gt; na lište v&amp;nbsp;ľavej časti. Možno ich&amp;nbsp;rozdeliť do troch oblastí: vstupy, samotné PLU a&amp;nbsp;výstupy. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;&lt;I&gt;Variables&lt;/I&gt;&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;&lt;EM&gt;Values_Line – premenná typu reťazec vstupujúca do skriptu &lt;B&gt;Načítanie PLU&lt;/B&gt;, reprezentujúca tovarovú položku ako jeden riadok s&amp;nbsp;hodnotami oddelenými oddeľovacím znakom&lt;/EM&gt; (napr. „&lt;SPAN lang=EN-US&gt;;”&lt;/SPAN&gt;).&lt;/P&gt;
+&lt;BLOCKQUOTE style="MARGIN-RIGHT: 0px" dir=ltr&gt;
+&lt;P&gt;&lt;EM&gt;– premenná typu reťazec vystupujúca zo skriptu &lt;B&gt;Zapísanie PLU&lt;/B&gt;, reprezentujúca tovarovú položku ako jeden riadok s&amp;nbsp;hodnotami oddelenými oddeľovacím znakom (napr. „&lt;SPAN lang=EN-US&gt;;”&lt;/SPAN&gt;&lt;/EM&gt;).&lt;/P&gt;&lt;/BLOCKQUOTE&gt;
+&lt;P&gt;&lt;I&gt;Value_Error – premenná typu reťazec vstupujúca do skriptu &lt;B&gt;Chybové správy&lt;/B&gt;, reprezentujúca chybové hlásenie z&amp;nbsp;externého programu.&lt;/I&gt;&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;&lt;EM&gt;PLU&lt;/EM&gt;&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;&lt;I&gt;Number_PLU – číslo tovarovej položky.&lt;/I&gt;&lt;/P&gt;
+&lt;P&gt;&lt;I&gt;Active_PLU – príznak, ktorý určuje, či daná tovarová položka je alebo nie je aktívna. Hodnota, ktorú príznak môže &lt;SPAN style="COLOR: rgb(0,0,0)"&gt;nadobudnúť, je&lt;/SPAN&gt; &lt;SPAN style="COLOR: rgb(0,0,0)"&gt;True alebo False.&lt;/SPAN&gt;&lt;/I&gt;&lt;/P&gt;
+&lt;P&gt;&lt;I&gt;Name – názov tovarovej položky.&lt;/I&gt;&lt;/P&gt;
+&lt;P&gt;&lt;I&gt;BarCode – čiarový kód danej tovarovej položky reprezentovaný reťazcom číslic („8586000052581“).&lt;/I&gt;&lt;/P&gt;
+&lt;P&gt;&lt;I&gt;Price_WithVAT_Unit – jednotková cena danej tovarovej položky.&lt;/I&gt;&lt;/P&gt;
+&lt;P&gt;&lt;I&gt;LinkedPLU_Number – číslo viazanej položky, určuje tovarovú položku naviazanú na danú tovarovú položku.&lt;/I&gt;&lt;/P&gt;
+&lt;P&gt;&lt;I&gt;Amount – množstvo predanej tovarovej položky od poslednej uzávierky PLU.&lt;/I&gt;&lt;/P&gt;
+&lt;P&gt;&lt;I&gt;Price_WithVAT – hodnota predaja danej tovarovej položky od poslednej uzávierky PLU.&lt;/I&gt;&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;&lt;I&gt;&lt;SPAN lang=EN-US xml:lang="EN-US"&gt;PLU.Flags&lt;/SPAN&gt;&lt;/I&gt;&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;&lt;I&gt;ReturnablePackage – príznak, ktorý určuje, či daná tovarová položka je alebo nie je vratný obal (fľaša, prepravka, paleta...). Hodnota, ktorú príznak môže nadobudnúť&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;, je&lt;/SPAN&gt; &lt;SPAN style="COLOR: rgb(0,0,0)"&gt;True&lt;/SPAN&gt;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;&amp;nbsp;alebo&lt;/SPAN&gt; False.&lt;/I&gt;&lt;/P&gt;
+&lt;P&gt;&lt;I&gt;DPT_Name – názov tovarovej skupiny, do ktorej daná tovarová položka patrí.&lt;/I&gt;&lt;/P&gt;
+&lt;P&gt;&lt;I&gt;DPT_Number – číselný kód tovarovej skupiny, do ktorej daná tovarová položka patrí. Je to poradové číslo tovarovej skupiny v&amp;nbsp;zozname tovarových skupín&amp;nbsp;systému OBERON.&lt;/I&gt;&lt;/P&gt;
+&lt;P&gt;&lt;I&gt;Unit – názov predajnej jednotky (ks, kg, l, m...), v ktorej sa daná tovarová položka predáva.&lt;/I&gt;&lt;/P&gt;
+&lt;P&gt;&lt;I&gt;Unit_Number – číselný kód predajnej jednotky, v ktorej sa daná tovarová položka predáva. Je to poradové číslo mernej jednotky v&amp;nbsp;zozname merných jednotiek&amp;nbsp;systému OBERON.&lt;/I&gt;&lt;/P&gt;
+&lt;P&gt;&lt;I&gt;VAT_Level – číselný kód daňovej hladiny. Systém OBERON má nasledujúce daňové hladiny: 0 (nulová sadzba), 1 (základná sadzba), 2 (znížená sadzba).&lt;/I&gt;&lt;/P&gt;
+&lt;P&gt;&lt;I&gt;VAT_Rate – sadzba dane uvedená v&amp;nbsp;percentách: napr. 0% (nulová sadzba), 20% (základná sadzba), 10% (znížená sadzba).&lt;/I&gt;&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;&lt;EM&gt;ResultObject&lt;/EM&gt;&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;&lt;I&gt;Result – hovorí o&amp;nbsp;tom, či bol skript vykonaný bez chyby, alebo počas vykonávania skriptu nastala chyba. Návratová hodnota, ktorá môže nadobudnúť logickú &lt;SPAN style="COLOR: rgb(0,0,0)"&gt;hodnotu&lt;/SPAN&gt;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;, je True&amp;nbsp;&lt;/SPAN&gt;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;alebo False&lt;/SPAN&gt;. Na základe návratovej hodnoty sa OBERON rozhodne, či bude pokračovať vo vykonávaní úlohy, alebo ju preruší.&lt;/I&gt;&lt;/P&gt;
+&lt;P&gt;&lt;I&gt;Description – popis chyby, ktorá nastala počas vykonávania skriptu, uložený ako textový reťazec. Popis chyby sa zobrazí používateľovi&amp;nbsp;systému OBERON.&lt;/I&gt;&lt;/P&gt;
+&lt;P&gt;&lt;I&gt;ErrNumber – číselný kód chyby, ktorá nastala počas vykonávania skriptu, uložený ako číslo.&lt;/I&gt;&lt;/P&gt;
+&lt;P&gt;&lt;I&gt;Príklad č. 1: Spracovanie návratovej správy (hodnoty)&lt;/I&gt;&lt;/P&gt;
+&lt;P style="MARGIN: 0cm 0cm 0pt 35.4pt; LINE-HEIGHT: normal"&gt;&lt;FONT face=Verdana&gt;&lt;SPAN style="COLOR: blue"&gt;If&lt;/SPAN&gt; &lt;B&gt;&lt;SPAN style="COLOR: teal"&gt;Val&lt;/SPAN&gt;&lt;/B&gt;&lt;SPAN style="COLOR: red"&gt;(&lt;/SPAN&gt;&lt;B&gt;&lt;SPAN style="COLOR: teal"&gt;Left&lt;/SPAN&gt;&lt;/B&gt;&lt;SPAN style="COLOR: red"&gt;(&lt;/SPAN&gt;&lt;SPAN style="COLOR: purple"&gt;Value_Error&lt;/SPAN&gt;&lt;SPAN style="COLOR: black"&gt;,&lt;/SPAN&gt;&lt;SPAN style="COLOR: fuchsia"&gt;3&lt;/SPAN&gt;&lt;SPAN style="COLOR: red"&gt;)) =&lt;/SPAN&gt; &lt;SPAN style="COLOR: fuchsia"&gt;0&lt;/SPAN&gt; &lt;SPAN style="COLOR: blue"&gt;Then&lt;/SPAN&gt;&lt;/FONT&gt;&lt;/P&gt;
+&lt;P style="MARGIN: 0cm 0cm 0pt 35.4pt; LINE-HEIGHT: normal"&gt;&lt;FONT face=Verdana&gt;&lt;SPAN style="COLOR: blue"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/SPAN&gt; &lt;SPAN style="COLOR: green"&gt;'--- OK ---&lt;/SPAN&gt;&lt;/FONT&gt;&lt;/P&gt;
+&lt;P style="MARGIN: 0cm 0cm 0pt 35.4pt; LINE-HEIGHT: normal"&gt;&lt;FONT face=Verdana&gt;&lt;SPAN style="COLOR: green"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/SPAN&gt; &lt;SPAN style="COLOR: purple"&gt;ResultObject&lt;/SPAN&gt;&lt;SPAN style="COLOR: red"&gt;.&lt;/SPAN&gt;&lt;SPAN style="COLOR: purple"&gt;Result&lt;/SPAN&gt; &lt;SPAN style="COLOR: red"&gt;=&lt;/SPAN&gt; &lt;SPAN style="COLOR: blue"&gt;True&lt;/SPAN&gt;&lt;/FONT&gt;&lt;/P&gt;
+&lt;P style="MARGIN: 0cm 0cm 0pt 35.4pt; LINE-HEIGHT: normal"&gt;&lt;FONT face=Verdana&gt;&lt;SPAN style="COLOR: blue"&gt;Else&lt;/SPAN&gt;&lt;/FONT&gt;&lt;/P&gt;
+&lt;P style="MARGIN: 0cm 0cm 0pt 35.4pt; LINE-HEIGHT: normal"&gt;&lt;FONT face=Verdana&gt;&lt;SPAN style="COLOR: blue"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/SPAN&gt; &lt;SPAN style="COLOR: green"&gt;'--- ERROR ---&lt;/SPAN&gt;&lt;/FONT&gt;&lt;/P&gt;
+&lt;P style="MARGIN: 0cm 0cm 0pt 35.4pt; LINE-HEIGHT: normal"&gt;&lt;FONT face=Verdana&gt;&lt;SPAN style="COLOR: green"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/SPAN&gt; &lt;SPAN style="COLOR: purple"&gt;ResultObject&lt;/SPAN&gt;&lt;SPAN style="COLOR: red"&gt;.&lt;/SPAN&gt;&lt;SPAN style="COLOR: purple"&gt;Result&lt;/SPAN&gt; &lt;SPAN style="COLOR: red"&gt;=&lt;/SPAN&gt; &lt;SPAN style="COLOR: blue"&gt;False&lt;/SPAN&gt;&lt;/FONT&gt;&lt;/P&gt;
+&lt;P style="MARGIN: 0cm 0cm 0pt 35.4pt"&gt;&lt;FONT face=Verdana&gt;&lt;SPAN style="COLOR: blue"&gt;End If&lt;/SPAN&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;6. Otestovanie funkčnosti&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Otestovanie funkčnosti&amp;nbsp;je potrebné realizovať postupne. Pred samotným spustením testovania je potrebné overiť správnosť nakonfigurovania komunikačného programu, spustiť&amp;nbsp;vybranú jednoduchú úlohu, ktorá overí konektivitu a&amp;nbsp;komunikáciu s&amp;nbsp;registračnou pokladnicou. 
+&lt;LI&gt;Ak registračná pokladnica odpovedá na príkazy komunikačného programu, je potrebné otestovať jednotlivé funkcie, ktorých funkcionalita môže byť naprogramovaná aj v&amp;nbsp;dávkových súboroch. 
+&lt;LI&gt;Na záver&amp;nbsp;je potrebné otestovať postupne všetky funkcie priamo cez&amp;nbsp;systém OBERON. Po úspešnom otestovaní je vhodné všetky nastavenia exportovať (konfiguračný XML súbor) a&amp;nbsp;zálohovať. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 4: Sprievodca načítaním&amp;nbsp;predaných položiek z pokladnice&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/CashRegister/CashRegisterUniversal03.png"&gt;&amp;nbsp;&lt;/P&gt;
+&lt;H5 style="MARGIN-BOTTOM: 0pt"&gt;Obrázok č. 5: Ukážka komunikácie&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/CashRegister/CashRegisterUniversal04.png"&gt;&amp;nbsp;&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="fd2ca05d-add1-4317-8d47-f9196dc290eb" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="19c6d1c2-3a3c-46a0-9f37-ea433baa8598">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="0bdaa44b-28ac-43d6-bf0e-61d7663ee58f">
+      <Keyword m="2021-05-03T08:17:06.7350216Z">CashRegister Universal Interface - nastavenie komunikácie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="03cf1673-ae2b-404a-aa9d-1450dc0ccc12">
+      <Keyword m="2021-05-03T10:18:33.3385559Z">CashRegister Universal Interface - príručka</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

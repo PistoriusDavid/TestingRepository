@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="e0ccff3e-b9e7-4572-bc3c-7f41a32280dd" Status="Complete" CreatedOn="2014-09-10T07:43:57.7566633Z" ModifiedOn="2025-01-27T09:15:58.0364937Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="80210" Name="CashRegister_Started_Work_With_Opened_Tables" BuildFlags="">
+  <Title m="2021-03-01T13:54:42.2472138Z">Práca s otvorenými účtami (stolmi)</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2025-01-27T09:15:58.0364937Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje informácie &lt;STRONG&gt;o&amp;nbsp;práci s&amp;nbsp;pokladničnými&amp;nbsp;účtami otvorenými na&amp;nbsp;&lt;/STRONG&gt;&lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnici OBERON&lt;/A&gt; používanej v&amp;nbsp;&lt;A href="c9f7216f-f252-4be3-aa26-3e9bb6d4c887"&gt;režime predaja&lt;/A&gt; &lt;STRONG&gt;&lt;EM&gt;Reštauračná pokladnica&lt;/EM&gt;.&lt;/STRONG&gt;&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Práca s&amp;nbsp;otvorenými účtami (stolmi) je&amp;nbsp;štandardnou funkciou &lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnice OBERON&lt;/A&gt;&amp;nbsp;&lt;STRONG&gt;v&amp;nbsp;režime reštauračnej pokladnice&lt;/STRONG&gt;. Slúžia na evidovanie položiek, ktoré si zákazníci objednali, pričom na ich základe&amp;nbsp;sa na&amp;nbsp;&lt;A href="b24ad235-cf7f-43e2-b3e8-ec0f7d92f6b6"&gt;fiškálnej tlačiarni&lt;/A&gt;&amp;nbsp;zaeviduje (vytlačí) daňový doklad.&amp;nbsp; 
+&lt;LI&gt;Nový účet na &lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnici OBERON&lt;/A&gt;&amp;nbsp;možno otvoriť stlačením tlačidla &lt;EM&gt;Nový účet&lt;/EM&gt; (&lt;EM&gt;Insert&lt;/EM&gt;). Na otvorenom účte je možné položky priebežne dopĺňať o&amp;nbsp;nové, upravovať už pridané, prípadne&amp;nbsp;ich mazať. Pri platbe&amp;nbsp;obsluha jednoducho vyberie otvorený účet zákazníka (tlačidlo &lt;EM&gt;Otvorené účty (F9)&lt;/EM&gt;) a&amp;nbsp;zaeviduje (vytlačí) daňový doklad. 
+&lt;LI&gt;Pri používaní interaktívneho &lt;STRONG&gt;grafického prehľadu stolov&lt;/STRONG&gt;, ktorý&amp;nbsp;v&amp;nbsp;grafickej podobe zobrazuje pôdorys reštaurácie s rozmiestnením stolov (prípadne ďalších objektov), je možné&amp;nbsp;otvoriť pokladničné účty jednoduchým klepnutím (kliknutím)&amp;nbsp;na prísl&amp;nbsp;ušný stôl a&amp;nbsp;ďalej s&amp;nbsp;nimi pracovať - pridať do účtu položky, priebežne ich dopĺňať o&amp;nbsp;nové, upravovať už pridané, prípadne&amp;nbsp;ich mazať. Pri platbe&amp;nbsp;obsluha po klepnutí (kliknutí)&amp;nbsp;na príslušný stôl jednoducho vyberie otvorený účet zákazníka a&amp;nbsp;zaeviduje (vytlačí) daňový doklad. Výhody grafického prehľadu sa prejavia predovšetkým v&amp;nbsp;spojení s&amp;nbsp;&lt;STRONG&gt;dotykovou obrazovkou (displejom)&lt;/STRONG&gt;. Viac informácií získate v téme&amp;nbsp;&lt;A href="c3c6b9fe-a88f-42c3-a10f-1e7f5f944ebf" style="auto-update-caption: true"&gt;Grafický prehľad stolov&lt;/A&gt;. 
+&lt;LI&gt;Pri práci s otvorenými účtami (stolmi)&amp;nbsp;na &lt;A href="aec074f4-3e1c-4a1e-8a80-06fcecf51156"&gt;Pokladnici OBERON&lt;/A&gt; v&amp;nbsp;režime reštauračnej pokladnice&amp;nbsp;sa&amp;nbsp;otvorené účty (stoly)&amp;nbsp;v&amp;nbsp;pokladnici &lt;STRONG&gt;zobrazujú&amp;nbsp;v&amp;nbsp;rámci jedného predajného miesta&lt;/STRONG&gt;. Napr. otvorený účet (stôl)&amp;nbsp;v&amp;nbsp;pokladnici&amp;nbsp;&lt;EM&gt;Reštaurácia&lt;/EM&gt; je prístupný aj&amp;nbsp;v&amp;nbsp;pokladnici &lt;EM&gt;Terasa&lt;/EM&gt; (rovnaké predajné miesto &lt;EM&gt;Reštaurácia&lt;/EM&gt;),&amp;nbsp;no pre pokladnicu&amp;nbsp;&lt;EM&gt;Amfiteáter&lt;/EM&gt; (predajné miesto &lt;EM&gt;Amfiteáter&lt;/EM&gt;) je daný otvorený účet (stôl) neprístupný. Viac informácií získate v téme&amp;nbsp;&lt;A href="327921ae-e0fb-48da-b179-61714048b841" style="auto-update-caption: true"&gt;O predajných miestach a zónach&lt;/A&gt;. 
+&lt;LI&gt;Otvorených účtov je možné mať súčasne&amp;nbsp;viac (napr. v reštaurácii má každý zákazník alebo skupina zákazníkov&amp;nbsp;otvorený svoj účet (stôl)). Zároveň platí, že súčasne viac otvorených účtov (účteniek)&amp;nbsp;je možné mať aj&amp;nbsp;pod jedným&amp;nbsp;stolom (skupina zákazníkov platiacich jednotlivo). 
+&lt;LI&gt;Otvorený pokladničný účet je možné v prípade potreby rozdeliť na viac daňových dokladov (ak platia zákazníci pri jednom stole osobitne), prípadne je možné otvorené účty zlúčiť a&amp;nbsp;zaevidovať (vytlačiť) jeden daňový doklad. 
+&lt;LI&gt;Z otvoreného pokladničného účtu (stola) je možné&amp;nbsp;odoslať objednávku do prípravne jedál/nápojov (kuchyne/baru), kde sa vytlačí na&amp;nbsp;&lt;A href="b9d7c873-7b63-4210-86fe-ab1c66ea6502"&gt;bonovacej tlačiarni&lt;/A&gt;,&amp;nbsp;prípadne zobrazí na&amp;nbsp;&lt;A href="d9867d81-7de7-4ce2-9c45-932025935b8b"&gt;bonovacom monitore&lt;/A&gt;. Bližšie informácie získate v téme&amp;nbsp;&lt;A href="de37c038-dda7-44e6-bb5a-4b73832e69a1"&gt;Bonovacie zariadenia&lt;/A&gt;. 
+&lt;LI&gt;S&amp;nbsp;otvorenými účtami, s&amp;nbsp;ktorými sa pracuje na &lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnici OBERON&lt;/A&gt;, je možné aktívne pracovať aj v&amp;nbsp;mobilnej aplikácii &lt;A href="942d48d5-b290-40f6-8ba3-45cf78f380f9"&gt;LUKUL - nielen mobilný čašník&lt;/A&gt;&amp;nbsp;(a&amp;nbsp;naopak). Bližšie informácie získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="942d48d5-b290-40f6-8ba3-45cf78f380f9" style="auto-update-caption: true"&gt;Aplikácia LUKUL&lt;/A&gt;. 
+&lt;LI&gt;Na&amp;nbsp;&lt;A href="aec074f4-3e1c-4a1e-8a80-06fcecf51156"&gt;Pokladnici OBERON&lt;/A&gt;&amp;nbsp;je možné osobitne evidovať&amp;nbsp;aktuálne otvorené účty&amp;nbsp;&lt;STRONG&gt;pre režim donášky&lt;/STRONG&gt; - viac informácií získate v téme&amp;nbsp;&lt;A href="4fe96b33-a1cd-4c08-93bc-d553db021c87"&gt;Nastavenia eMenu&lt;/A&gt;. 
+&lt;LI&gt;&lt;I&gt;Pokladnica OBERON&lt;/I&gt; umožňuje prepojenie s&amp;nbsp;modulom &lt;A href="c59586c9-a034-4f31-9a3c-1960428236e7"&gt;Hotelová recepcia&lt;/A&gt;. Vtedy je možné otvorený účet (stôl) presunúť na otvorený&amp;nbsp;&lt;A href="ffa5a889-7bfe-4165-ba83-15263eb77358"&gt;hotelový účet&lt;/A&gt;. Ten je možné neskôr načítať do pokladnice a zaevidovať (vytlačiť) na&amp;nbsp;&lt;A href="b24ad235-cf7f-43e2-b3e8-ec0f7d92f6b6"&gt;fiškálnej tlačiarni&lt;/A&gt;. 
+&lt;LI&gt;Položky otvoreného účtu je možné presunúť&amp;nbsp;do&amp;nbsp;&lt;A href="0be61fcc-a85b-4572-876d-2171a5cb7c29"&gt;výdajky&lt;/A&gt;. 
+&lt;LI&gt;Pridanie položky&amp;nbsp;na otvorený účet&amp;nbsp;nemá za následok aj vytvorenie&amp;nbsp;&lt;A href="fc7595a6-54ce-4aa9-acb4-93d7880e854e"&gt;skladového pohybu&lt;/A&gt; a zníženie množstva na skladovej karte. Pohyb sa vykonáva až po zaevidovaní (vytlačení) dokladu na&amp;nbsp;&lt;A href="b24ad235-cf7f-43e2-b3e8-ec0f7d92f6b6"&gt;fiškálnej tlačiarni&lt;/A&gt; a spustení funkcie &lt;EM&gt;Vytvorenie skladových pohybov&lt;/EM&gt; (ponuka &lt;EM&gt;Sklad&lt;/EM&gt;, &lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnica OBERON&lt;/A&gt;, záložka &lt;EM&gt;Systém&lt;/EM&gt;, tlačidlo &lt;EM&gt;Uzávierky&lt;/EM&gt;). 
+&lt;LI&gt;Otvorené účty však možno využiť &lt;STRONG&gt;aj v iných prevádzkach ako reštauračných (v maloobchode, veľkoobchode)&lt;/STRONG&gt;, a&amp;nbsp;to najmä vtedy, keď je potrebné obslúžiť viac&amp;nbsp;zákazníkov naraz, resp. upraviť alebo&amp;nbsp;vytlačiť im doklady v inom časovom slede, ako ich predajca obslúžil. Osobitným spôsobom využitia práce s otvorenými účtami (stolmi) je tzv.&amp;nbsp;&lt;A href="046063d5-e7e1-4d4b-9373-43a672fdf410"&gt;košíkový predaj&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Definovanie zoznamu stolov&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Pri používaní&amp;nbsp;&lt;A href="aec074f4-3e1c-4a1e-8a80-06fcecf51156"&gt;Pokladnice OBERON&lt;/A&gt; v&amp;nbsp;režime reštauračnej pokladnice&amp;nbsp;je na&amp;nbsp;prácu s otvorenými účtami (stolmi)&amp;nbsp;potrebné&amp;nbsp;&lt;STRONG&gt;pre každé predajné miesto najprv nadefinovať zoznam stolov&lt;/STRONG&gt;.&amp;nbsp;Každý stôl je potrebné priradiť k&amp;nbsp;&lt;A href="327921ae-e0fb-48da-b179-61714048b841"&gt;predajnému miestu, prípadne k&amp;nbsp;zóne&lt;/A&gt;.&amp;nbsp;Bližšie informácie spolu s&amp;nbsp;postupom definovania stola&amp;nbsp;sú dostupné v&amp;nbsp;téme&amp;nbsp;&lt;A href="479e9fda-1e0d-43d2-97e2-32f31244c476" style="auto-update-caption: true"&gt;Zoznam stolov&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Otvorenie nového pokladničného účtu&lt;/H2&gt;
+&lt;P&gt;&lt;I&gt;Otvorený pokladničný účet&lt;/I&gt; je účtom, ktorý je možné prideliť&amp;nbsp;nadefinovanému stolu. Pod jedným&amp;nbsp;stolom je možné otvoriť jeden (zákazník alebo skupina zákazníkov platiacich spoločne)&amp;nbsp;alebo viac (skupina zákazníkov platiacich jednotlivo) pokladničných účtov (účteniek).&lt;/P&gt;
+&lt;OL&gt;
+&lt;LI&gt;V&amp;nbsp;ponuke &lt;EM&gt;Sklad&lt;/EM&gt;, &lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnica OBERON&lt;/A&gt;&amp;nbsp;stlačte tlačidlo &lt;EM&gt;&lt;STRONG&gt;Nový účet&lt;/STRONG&gt;&lt;/EM&gt; a vyberte stôl&lt;EM&gt;,&lt;/EM&gt; pod ktorým chcete otvoriť pokladničný účet&lt;EM&gt;.&lt;/EM&gt; V prípade, že pod daným stolom zamýšľate vytvoriť &lt;STRONG&gt;viacero účtov (účteniek)&lt;/STRONG&gt;, pred vybratím stola zadajte&amp;nbsp;názov účtenky. To vám umožní pridať v prípade potreby pod daný stôl viacero účtov (účteniek). 
+&lt;LI&gt;Položky dokladu môžete pridávať buď priamym predajom (&lt;EM&gt;Množstvo*Kód položky&lt;/EM&gt;) alebo výberom zo zoznamu (tlačidlo &lt;EM&gt;Zoznam položiek F3&lt;/EM&gt;). &lt;/LI&gt;&lt;/OL&gt;
+&lt;H2&gt;Práca s otvorenými&amp;nbsp;účtami&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;V&amp;nbsp;ponuke &lt;EM&gt;Sklad&lt;/EM&gt;, &lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnica OBERON&lt;/A&gt;&amp;nbsp;stlačte tlačidlo &lt;I&gt;&lt;STRONG&gt;Otvorené účty (F9)&lt;/STRONG&gt;.&amp;nbsp;&lt;/I&gt; 
+&lt;LI&gt;Výberom&amp;nbsp;už existujúceho účtu (účtenky)&amp;nbsp;a&amp;nbsp;stlačením tlačidla &lt;I&gt;OK&lt;/I&gt; sa označený účet aktivuje a môžete s&amp;nbsp;ním ďalej pracovať ako&amp;nbsp;pri &lt;A href="69bbd499-45c0-4b0f-8f7a-c53fa5d70c1b"&gt;priamom predaji&lt;/A&gt;. 
+&lt;LI&gt;Stlačením tlačidla &lt;I&gt;Nový&lt;/I&gt; otvoríte nový pokladničný účet a tlačidla &lt;I&gt;Vymazať&lt;/I&gt; vymažete kurzorom označený pokladničný účet. &lt;/LI&gt;&lt;/OL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt; 
+&lt;P&gt;Rýchle prepínanie medzi viacerými otvorenými účtami (prípadne účtenkami) je možné pomocou skratkového klávesu &lt;STRONG&gt;/číslo účtu&lt;/STRONG&gt; alebo &lt;STRONG&gt;//účtenka&lt;/STRONG&gt; zadaného do poľa&amp;nbsp;&lt;EM&gt;Množstvo*Kód položky.&lt;/EM&gt;&lt;/P&gt;
+&lt;P&gt;Príklad:&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;/3,&lt;/STRONG&gt; kde &lt;EM&gt;3&lt;/EM&gt; je číslo účtu (pôvodne číslo stola, ktoré sa pri otváraní pokladničného účtu automaticky pridelí tomuto účtu)&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;//terasa,&lt;/STRONG&gt; kde &lt;EM&gt;terasa&lt;/EM&gt; je názov účtenky&lt;/P&gt;
+&lt;P&gt;Číslo&amp;nbsp;stola sa definuje&amp;nbsp;v&amp;nbsp;číselníku&amp;nbsp;&lt;A href="479e9fda-1e0d-43d2-97e2-32f31244c476"&gt;Zoznam stolov&lt;/A&gt; v&amp;nbsp;ponuke &lt;EM&gt;Firma, Predvoľby&lt;/EM&gt;.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Presun položiek medzi otvorenými&amp;nbsp;účtami&lt;/H2&gt;
+&lt;P&gt;V&amp;nbsp;&lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnici OBERON&lt;/A&gt;&amp;nbsp;je možné presúvať položky medzi dvoma otvorenými&amp;nbsp;účtami. Presun položiek medzi účtami sa realizuje pomocou &lt;A href="0ee248b3-a28a-48d2-8b06-e586e9f7217f"&gt;formulára Presun položiek medzi účtami&lt;/A&gt;. Za prvý účet sa považuje aktuálne používaný účet (otvorený pokladničný účet alebo priamy predaj). Druhý účet (protiúčet)&amp;nbsp;je potrebné vybrať z otvorených pokladničných účtov alebo vytvoriť nový (tlačidlo &lt;EM&gt;Zmena účtu&lt;/EM&gt;). Predvoleným protiúčtom je &lt;EM&gt;Priamy predaj&lt;/EM&gt;.&amp;nbsp;&lt;/P&gt;
+&lt;OL&gt;
+&lt;LI&gt;V&amp;nbsp;ponuke &lt;EM&gt;Sklad&lt;/EM&gt;, &lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnica OBERON&lt;/A&gt;&lt;EM&gt;&amp;nbsp;&lt;/EM&gt;sa uistite, že aktuálne používaný účet&amp;nbsp;je účet, ktorý&amp;nbsp;chcete presunúť, a&amp;nbsp;stlačte tlačidlo &lt;EM&gt;&lt;STRONG&gt;Presun položiek&lt;/STRONG&gt;.&lt;/EM&gt; 
+&lt;LI&gt;Otvorí sa &lt;A href="0ee248b3-a28a-48d2-8b06-e586e9f7217f"&gt;formulár Presun položiek medzi účtami&lt;/A&gt;, v ktorom sa vľavo zobrazuje aktuálne používaný účet&amp;nbsp;a&amp;nbsp;vpravo predvolený protiúčet s&amp;nbsp;názvom &lt;EM&gt;Priamy predaj&lt;/EM&gt;. Aktívne okno účtu je lemované hrubým farebným rámom. 
+&lt;LI&gt;Kliknite do plochy okna protiúčtu &lt;EM&gt;Priamy predaj&lt;/EM&gt; a&amp;nbsp;stlačte tlačidlo &lt;EM&gt;Zmena účtu.&lt;/EM&gt; Zvoľte protiúčet, na ktorý chcete položky presunúť. Vybrať môžete zo zoznamu&amp;nbsp;otvorených pokladničných účtov alebo vytvoriť nový účet.&amp;nbsp; 
+&lt;LI&gt;Kliknite do plochy okna účtu, ktorého položky chcete&amp;nbsp;presunúť. 
+&lt;LI&gt;Stlačením tlačidla &lt;I&gt;Premiestniť&lt;/I&gt; presuniete kurzorom označenú položku na protiúčet. 
+&lt;LI&gt;Stlačením tlačidla &lt;I&gt;Premiestniť všetky&lt;/I&gt; presuniete všetky položky na protiúčet. &lt;/LI&gt;&lt;/OL&gt;
+&lt;H2&gt;Definovanie systémových tlačidiel pre otvorené účty&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Systém OBERON umožňuje &lt;STRONG&gt;definovať samostatné systémové tlačidlá aj pre otvorené účty&lt;/STRONG&gt; (napr. &lt;EM&gt;Účet 1, Účet 2, Účet 3&lt;/EM&gt; a&amp;nbsp;pod.). Postup definovania systémových tlačidiel je dostupný v&amp;nbsp;téme&amp;nbsp;&lt;A href="c9f7216f-f252-4be3-aa26-3e9bb6d4c887" style="auto-update-caption: true"&gt;Nastavenie vzhľadu Pokladnice OBERON&lt;/A&gt;.
+&lt;LI&gt;Samostatné systémové tlačidlá&amp;nbsp;pre otvorené účty &lt;STRONG&gt;umožňujú jednoduchým stlačením tlačidla otvárať nové účty, ako aj prepínať medzi jednotlivými otvorenými účtami&lt;/STRONG&gt;. 
+&lt;LI&gt;Zobrazenie tlačidiel otvorených účtov priamo na pokladnici môžu využiť&amp;nbsp;najmä&amp;nbsp;&lt;STRONG&gt;predajne s viacerými oddeleniami&lt;/STRONG&gt;, prípadne s veľkou rozlohou. Stačí, ak každé z týchto oddelení bude vybavené len počítačom s&amp;nbsp;OBERON-om. To bude pripojené &lt;STRONG&gt;len k&amp;nbsp;jednému hlavnému počítaču&amp;nbsp;&lt;/STRONG&gt;s&amp;nbsp;&lt;A href="04b8d290-1470-41ff-85a1-c44a20958841"&gt;fiškálnym zariadením&lt;/A&gt;, ktorý bude predstavovať registračnú pokladnicu. To umožňuje v ktoromkoľvek oddelení predajne na počítači bez fiškálneho zariadenia otvoriť zákazníkovi nový&amp;nbsp;účet. Následne možno na takýto účet postupne pridávať tovar v&amp;nbsp;jednotlivých oddeleniach predajne. V prípade digitálnych váh sa údaje o&amp;nbsp;odváženom tovare odosielajú na otvorený účet automaticky. Na&amp;nbsp;registračnej pokladnici (hlavnom počítači s&amp;nbsp;fiškálnym zariadením) napokon&amp;nbsp;obsluha pred zaplatením&amp;nbsp;&lt;STRONG&gt;skontroluje správnosť&amp;nbsp;položiek pridaných na otvorený účet a&amp;nbsp;účet uzavrie &lt;/STRONG&gt;zaevidovaním (vytlačením) pokladničného dokladu. 
+&lt;LI&gt;Typickým príkladom takéhoto predaja je&amp;nbsp;&lt;A href="046063d5-e7e1-4d4b-9373-43a672fdf410" style="auto-update-caption: true"&gt;Košíkový predaj&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="d40ce11a-8be1-499a-aa26-a3aa1d27d546" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="96b91351-f4da-46e4-ad33-2d36c038599a" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="69bbd499-45c0-4b0f-8f7a-c53fa5d70c1b">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="2e4219c9-4f77-4acf-a3ef-3840d1c9947f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="327921ae-e0fb-48da-b179-61714048b841">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="29a7f2dc-fa79-4d4e-8fc8-64902d12c215" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="479e9fda-1e0d-43d2-97e2-32f31244c476">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="78400afb-0cd3-46dc-9fbf-4e6eb3784863" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="c3c6b9fe-a88f-42c3-a10f-1e7f5f944ebf">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="7859b3c9-9ecb-4d78-b694-a6af734eaefa" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="0ee248b3-a28a-48d2-8b06-e586e9f7217f">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="75780bea-5059-48d8-8ac0-99984411127e" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="942d48d5-b290-40f6-8ba3-45cf78f380f9">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="62ec95ba-4e04-4653-850f-bbd0a7690846">
+      <Keyword m="2023-03-06T14:23:46.7073248Z">Stôl - otvorené účty (stoly)</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="eeed711e-87b4-4d5f-a5ad-6d22894cbf9d">
+      <Keyword m="2023-03-06T14:23:36.3037057Z">Pokladnica OBERON - otvorené účty (stoly)</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="dce16b05-ea5b-413f-a418-d5916ed8e843">
+      <Keyword m="2023-03-06T14:24:00.171996Z">Zoznam stolov - otvorené účty (stoly)</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="f359703e-0fb5-47ea-94b8-dc7ddb982fe9">
+      <Keyword m="2021-03-01T10:11:43.5110961Z">Otvorené účty (stoly)</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="5fcef2ea-461c-47cd-bd6a-2f687fd18f15">
+      <Keyword m="2023-03-06T14:23:52.0830397Z">Účtenka - otvorené účty (stoly)</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="e31ab164-c6e0-4ac3-986a-43eee5e44c55">
+      <Keyword m="2023-03-07T13:16:39.564659Z">Presun položiek medzi otvorenými účtami</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="487f9889-027b-4544-a2c5-13d490bc7512">
+      <Keyword m="2025-01-24T10:36:11.847133Z">Otvorené účty - definovanie systémových tlačidiel</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="e749434a-df54-46d4-8e44-3d611135b00d">
+      <Keyword m="2025-01-24T10:59:13.2522727Z">Tlačidlá - otvorené účty</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

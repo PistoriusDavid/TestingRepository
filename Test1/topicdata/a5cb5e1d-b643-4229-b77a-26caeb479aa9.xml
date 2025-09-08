@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="a5cb5e1d-b643-4229-b77a-26caeb479aa9" Status="Complete" CreatedOn="2014-09-05T13:46:41.4718687Z" ModifiedOn="2023-10-31T14:25:40.4834568Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Tech_DatabaseNotAvailable_DatabaseError" BuildFlags="">
+  <Title m="2015-02-05T08:31:20.0458984Z">Poškodená databáza</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-10-31T14:25:40.4824563Z">&lt;P&gt;V&amp;nbsp;tejto téme &lt;EM&gt;Pomocníka&lt;/EM&gt; sú uvedené &lt;STRONG&gt;informácie, ako postupovať v&amp;nbsp;prípade poškodenia&amp;nbsp;databázy&lt;/STRONG&gt; v&amp;nbsp;systéme OBERON.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Poškodenie databázy v systéme OBERON predstavuje &lt;STRONG&gt;buď&lt;/STRONG&gt; &lt;STRONG&gt;narušenie štruktúry databázy, alebo jej údajov&lt;/STRONG&gt;. Vzniká spravidla&amp;nbsp;v dôsledku poruchy počítača, výpadku napájania počítača, poruchy operačného systému počas prevádzky programu alebo pri zlyhaní sieťovej konektivity v&amp;nbsp;prípade sieťovej prevádzky. 
+&lt;LI&gt;Poškodenie databázy môže viesť k&amp;nbsp;tomu, že po spustení programu &lt;STRONG&gt;nie je možné danú databázu otvoriť&lt;/STRONG&gt;. Viac informácií o&amp;nbsp;ďalších dôvodoch, pre ktoré nie je možné databázu po spustení programu otvoriť, získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="31e5e0c6-6e6c-403f-aa32-9ef5f8291566" style="auto-update-caption: true"&gt;Databázu nie je možné otvoriť&lt;/A&gt;. 
+&lt;LI&gt;Strata údajov pri poškodení databázy &lt;STRONG&gt;je pomerne málo frekventovaný jav&lt;/STRONG&gt;, najčastejšie nastáva len porušenie indexov v&amp;nbsp;štruktúrach databázy. Vážnejšie porušenie štruktúry databázy však môže viesť aj k&amp;nbsp;strate údajov. 
+&lt;LI&gt;V systéme OBERON&amp;nbsp;je možné&amp;nbsp;pracovať vo viacerých &lt;A href="0b81f4ea-5e68-48c1-8b89-933d5a23d962"&gt;databázových systémoch&lt;/A&gt;, preto je pri prípadnom poškodení databázy kľúčové rozlišovať, &lt;STRONG&gt;či ide o súborovú databázu &lt;EM&gt;Microsoft Access&lt;/EM&gt; alebo&amp;nbsp;SQL server&lt;/STRONG&gt; (&lt;EM&gt;MariaDB&lt;/EM&gt;, &lt;EM&gt;MySQL Server,&lt;/EM&gt; &lt;EM&gt;Microsoft SQL Server&lt;/EM&gt;).&amp;nbsp;Pri súborovej databáze &lt;EM&gt;Microsoft&amp;nbsp;Access&lt;/EM&gt;&amp;nbsp;opravu databázy zvládne aj menej skúsený&amp;nbsp;používateľ, pri SQL serveri je oprava zložitejšia a spravidla ju zvládne len skúsený používateľ. 
+&lt;LI&gt;Na opravu poškodenej databázy sú v systéme OBERON dostupné dva základné nástroje: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;EM&gt;&lt;STRONG&gt;Údržba databázy&lt;/STRONG&gt;&lt;/EM&gt; (vo &lt;A href="d2b25c8c-d57f-4678-8021-3148259d3777"&gt;formulári Otvorenie agendy (firmy)&lt;/A&gt;, tlačidlo &lt;EM&gt;Možnosti&lt;/EM&gt;) &lt;EM&gt;-&lt;/EM&gt; je určená &lt;STRONG&gt;len pre súborovú databázu &lt;EM&gt;Microsoft Access&lt;/EM&gt;&lt;/STRONG&gt;. Predstavuje servisnú funkciu určenú na opravu štruktúry databázových tabuliek a&amp;nbsp;defragmentáciu&amp;nbsp;údajov&amp;nbsp;databázového súboru (s&amp;nbsp;príponou&amp;nbsp;MDB).&amp;nbsp;Pri závažnejšom poškodení databázy odporúčame následne použiť servisnú funkciu&amp;nbsp;&lt;EM&gt;Prevod do novej databázy&lt;/EM&gt;. 
+&lt;LI&gt;&lt;EM&gt;&lt;STRONG&gt;Prevod do novej databázy&lt;/STRONG&gt;&lt;/EM&gt; (ponuka &lt;EM&gt;Servis&lt;/EM&gt;) - je určený &lt;STRONG&gt;tak pre súborovú databázu &lt;EM&gt;Microsoft Access&lt;/EM&gt;, ako aj SQL server&lt;/STRONG&gt; (&lt;EM&gt;MariaDB&lt;/EM&gt;, &lt;EM&gt;MySQL Server,&lt;/EM&gt; &lt;EM&gt;Microsoft SQL Server&lt;/EM&gt;). Funkciu možno použiť najmä v&amp;nbsp;prípadoch neopraviteľného poškodenia databázy a pri problémoch pri tlači, keď je&amp;nbsp;databáza funkčná, ale má narušenú vnútornú štruktúru. Pri súborovej databáze &lt;EM&gt;Microsoft Access&lt;/EM&gt; sa spravidla&amp;nbsp;používa v&amp;nbsp;nadväznosti na inú servisnú funkciu -&amp;nbsp;&lt;EM&gt;Údržbu databázy Microsoft Access&lt;/EM&gt;. Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="7cbdb63a-dd9a-445c-a3ab-b51876e0541f" style="auto-update-caption: true"&gt;Prevod do novej databázy&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 1: Údržba databázy &lt;EM&gt;Microsoft Access&lt;/EM&gt;&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/TechnicalIssues/Access_Error_UdrzbaDTB.png"&gt;&lt;/P&gt;
+&lt;H2&gt;Súborová databáza &lt;EM&gt;Microsoft Access&lt;/EM&gt;&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Najľahšie poškodenia súborovej databázy&amp;nbsp;&lt;EM&gt;Microsoft Access&lt;/EM&gt;&amp;nbsp;vie program pri spustení automaticky detegovať a po výzve aj opraviť (95% všetkých&amp;nbsp;poškodení je porucha tohto typu). 
+&lt;LI&gt;Pri skrytejších (a neraz i závažnejších) poruchách program túto poruchu nedeteguje, nevie však otvoriť niektorú z&amp;nbsp;databázových tabuliek, čo môže spôsobiť, že&amp;nbsp;databázu nebude možné otvoriť. Pri tejto poruche je potrebné opraviť databázu. Keďže databázu nie je možné otvoriť, je potrebné vo&amp;nbsp;&lt;A href="d2b25c8c-d57f-4678-8021-3148259d3777"&gt;formulári Otvorenie agendy (firmy)&lt;/A&gt;&amp;nbsp;(ponuka&amp;nbsp;&lt;EM&gt;OBERON,&amp;nbsp;Otvorenie agendy (firmy)&lt;/EM&gt; po označení danej databázy kurzorom&amp;nbsp;stlačiť tlačidlo &lt;I&gt;Možnosti&lt;/I&gt; a zvoliť možnosť &lt;I&gt;&lt;B&gt;Údržba databázy&lt;/B&gt;&lt;/I&gt;. 
+&lt;LI&gt;Pri závažnejšom poškodení databázy, najmä &lt;STRONG&gt;v&amp;nbsp;prípadoch neopraviteľného poškodenia databázy a pri problémoch pri tlači&lt;/STRONG&gt;, keď je&amp;nbsp;databáza funkčná, ale má narušenú vnútornú štruktúru,&amp;nbsp;odporúčame následne použiť servisnú funkciu&amp;nbsp;&lt;A href="7cbdb63a-dd9a-445c-a3ab-b51876e0541f"&gt;Prevod do novej databázy&lt;/A&gt;&amp;nbsp;(ponuka &lt;EM&gt;Servis&lt;/EM&gt;). Prevodom do novej databázy sa vytvorí nová prázdna databáza, do ktorej sa následne prevedú všetky údaje z&amp;nbsp;aktuálnej databázy. &lt;SPAN style="COLOR: rgb(255,0,0)"&gt;Pri použití tejto funkcie nesmú s databázou pracovať iní&amp;nbsp;používatelia&lt;/SPAN&gt;. 
+&lt;LI&gt;Vo výnimočných prípadoch môže nastať také poškodenie databázy, ktoré &lt;STRONG&gt;nevie program opraviť vlastnými prostriedkami&lt;/STRONG&gt;. Vtedy je potrebné na opravu poškodenej databázy použiť niektorý z&amp;nbsp;externých nástrojov, najlepšie program &lt;EM&gt;&lt;STRONG&gt;Microsoft Access&lt;/STRONG&gt;&lt;/EM&gt;, ktorý je typicky súčasťou balíka&amp;nbsp;&lt;EM&gt;Microfost Office&lt;/EM&gt;&amp;nbsp;(pre súbor typu&amp;nbsp;MDB verziu 2003, pre súbor typu ACCDB verziu 2007 alebo novšiu). &lt;SPAN style="COLOR: rgb(255,0,0)"&gt;Pred opravou vytvorte zálohu poškodeného&amp;nbsp;súboru pomocou&amp;nbsp;ľubovoľného súborového manažéra (je lepšia poškodená databáza ako žiadna).&lt;/SPAN&gt; &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Databázy SQL servera&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Oprava databázy SQL serverov&amp;nbsp;&lt;EM&gt;MariaDB&lt;/EM&gt;, &lt;EM&gt;MySQL Server,&lt;/EM&gt; &lt;EM&gt;Microsoft SQL Server&amp;nbsp;je spravidla&lt;/EM&gt; zložitý proces,&amp;nbsp;ktorého výsledok závisí od konfigurácie daného systému. 
+&lt;LI&gt;Na opravu databázy SQL servera možno použiť servisnú funkciu&amp;nbsp;&lt;A href="7cbdb63a-dd9a-445c-a3ab-b51876e0541f"&gt;Prevod do novej databázy&lt;/A&gt;&amp;nbsp;(ponuka &lt;EM&gt;Servis&lt;/EM&gt;). V prípade, že sa databázu nepodarí opraviť, je potrebné kontaktovať&amp;nbsp;niektoré z našich&amp;nbsp;&lt;A href="f83c2a9c-cda4-4862-8628-7ba16ddb1b06"&gt;servisných stredísk&lt;/A&gt;. 
+&lt;LI&gt;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;Databázu&lt;/SPAN&gt;&lt;/SPAN&gt; &lt;FONT style="COLOR: rgb(255,0,0)" color=black&gt;SQL servera&lt;/FONT&gt; &lt;SPAN style="COLOR: rgb(255,0,0)"&gt;je dôležité&lt;/SPAN&gt; pravidelne zálohovať, keďže pri poškodení databázy často jediným riešením býva obnovenie zo zálohy&lt;/SPAN&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Pred každým použitím&amp;nbsp;servisnej funkcie&amp;nbsp;odporúčame&amp;nbsp;&lt;A href="ee4036d9-55fd-40ee-ab76-69337f16b1cc"&gt;vytvoriť zálohu databázy&lt;/A&gt;! &lt;SPAN style="COLOR: rgb(255,0,0)"&gt;Najjednoduchším spôsobom, ako predísť strate údajov, je&amp;nbsp;&lt;/SPAN&gt;&lt;A href="493f5942-f267-4f98-a46d-8acc745b9b88"&gt;pravidelné zálohovanie&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="737af8c2-facf-4a64-a53a-debc2ca12fde" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="31e5e0c6-6e6c-403f-aa32-9ef5f8291566">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="d41ca942-9de1-4443-82f4-35bac1fc4df5" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="114e64df-3d6c-4a0e-9405-c0e75fbe02dc">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="d771fc40-68ce-4a6f-9b7f-e05cf16aaf61" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="0b81f4ea-5e68-48c1-8b89-933d5a23d962">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="744c720f-2db7-43ee-8bc4-9c9bde56a768" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="d2b25c8c-d57f-4678-8021-3148259d3777">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="b452d01b-711f-4e13-9712-b39e02afb3a5" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="7cbdb63a-dd9a-445c-a3ab-b51876e0541f">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="0f69ac69-f2d2-429b-9427-0471e896a6dd" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="493f5942-f267-4f98-a46d-8acc745b9b88">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="4305d7d4-9b8b-45e8-8e11-4e03c85af2e1" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="c47b2846-a02e-4066-992b-cc976cd8a717">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="a0c71dfc-ac95-45cd-a17a-be7384a4ccbc" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="2ed2711c-75f6-4f18-8dbb-1b44eaab93c0">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="54570282-f5e5-4a9e-ad6b-815d2de7a5e8">
+      <Keyword m="2014-11-18T10:09:21.3408203Z">Chyba databázy</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="5dd9886e-af12-4e62-8554-53dc121e0072">
+      <Keyword m="2023-10-20T12:59:15.7072742Z">Problémy s otvorením databázy - poškodená databáza</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="918b4858-ff9a-4ab9-9df4-489a5a8484c8">
+      <Keyword m="2022-02-03T13:56:23.5349064Z">Databáza - poškodenie</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

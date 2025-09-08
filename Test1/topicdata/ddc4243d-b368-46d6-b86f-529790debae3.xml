@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="ddc4243d-b368-46d6-b86f-529790debae3" Status="Complete" CreatedOn="2014-10-10T10:11:11.939732Z" ModifiedOn="2023-10-30T07:11:56.2964703Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="30540" Name="Form_AccDouble_BillAcc" BuildFlags="">
+  <Title m="2021-07-14T07:59:13.5595426Z">Formulár Hromadné účtovanie dokladov</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2022-01-20T10:45:44.4865916Z">&lt;P&gt;Formulár&amp;nbsp;&lt;EM&gt;Hromadné účtovanie dokladov&lt;/EM&gt; umožňuje &lt;STRONG&gt;podľa potreby upraviť parametre&amp;nbsp;vybraného hromadného zaúčtovania&lt;/STRONG&gt; v evidencii&amp;nbsp;&lt;A href="41513109-f711-4de5-b494-67671f203dca"&gt;Hromadné účtovanie dokladov&lt;/A&gt;&amp;nbsp;spravidla po tom, ako bolo dané zaúčtovanie zrušené a vykonáva sa nanovo pomocou tlačidla &lt;EM&gt;Možnosti -&lt;/EM&gt; &lt;EM&gt;Hromadne zaúčtovať&lt;/EM&gt;. Formulár je dostupný z programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;, ponuka&amp;nbsp;&lt;EM&gt;Účtovníctvo,&amp;nbsp;&lt;/EM&gt;&lt;A href="41513109-f711-4de5-b494-67671f203dca"&gt;Hromadné účtovanie dokladov&lt;/A&gt;, tlačidlo &lt;EM&gt;Oprava&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Popis formulára &lt;EM&gt;Hromadné účtovanie dokladov&lt;/EM&gt;&lt;/H2&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Číslo účtovania&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;V poli sa nachádza&amp;nbsp;číslo účtovania, ktoré má len evidenčný charakter a v prípade potreby ho&amp;nbsp;možno zmeniť (skladá sa z&amp;nbsp;alfanumerických znakov). Pri novom zápise program dopĺňa toto číslo automaticky.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Evidencia&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Určuje zdrojové údaje, ktoré sa majú zaúčtovať. Dostupné sú tieto položky: &lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Kniha pohľadávok, záväzkov&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Pomocou tlačidla&amp;nbsp;&lt;IMG border=0 alt="" src="images/Forms/AccDouble/Form_Acc_Double_DPHChange.gif"&gt;&amp;nbsp;je možné určiť dátum, podľa ktorého&amp;nbsp;sa dané doklady zahrnú do účtovania. Dostupné sú tieto voľby:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Dátum&lt;/STRONG&gt; &lt;STRONG&gt;vystavenia&lt;/STRONG&gt; (&lt;STRONG&gt;zaevidovania&lt;/STRONG&gt;) - zdrojové doklady (napr. faktúry) sa vyberú podľa dátumu vystavenia (pri záväzkoch zaevidovania). Dátum účtovného zápisu v účtovnom denníku bude totožný s týmto dátumom. 
+&lt;LI&gt;&lt;STRONG&gt;Dátum&lt;/STRONG&gt; &lt;STRONG&gt;dodania&lt;/STRONG&gt; - zdrojové doklady (napr. faktúry) sa vyberú podľa dátumu dodania. Dátum účtovného zápisu v účtovnom denníku bude totožný s týmto dátumom. 
+&lt;LI&gt;&lt;STRONG&gt;Dátum&lt;/STRONG&gt; &lt;STRONG&gt;DPH&lt;/STRONG&gt; - zdrojové doklady (napr. faktúry) sa vyberú podľa dátumu evidencie DPH. Dátum účtovného zápisu v účtovnom denníku bude totožný s týmto dátumom. &lt;/LI&gt;&lt;/UL&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Sklad&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Zaúčtovaním skladu sa rozumie zaúčtovanie záznamov z evidencie&amp;nbsp;&lt;A href="fc7595a6-54ce-4aa9-acb4-93d7880e854e"&gt;Skladové pohyby&lt;/A&gt;. Pomocou tlačidla&amp;nbsp;&lt;IMG border=0 alt="" src="images/Forms/AccDouble/Form_Acc_Double_DPHChange.gif"&gt;&amp;nbsp;je možné určiť sklady a spôsob, akým budú zaúčtované. Dostupné sú tieto voľby:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Súhrnne&lt;/STRONG&gt; - pri účtovaní skladových pohybov sa jednotlivé záznamy za účtované obdobie zoskupia a zaúčtujú jednou sumou. Záznamy sú členené len podľa skladov, predkontácií na skladových kartách, typu pohybu (štandardná, inventúra, prevodka). 
+&lt;LI&gt;&lt;STRONG&gt;Podľa&lt;/STRONG&gt; &lt;STRONG&gt;typu&lt;/STRONG&gt; &lt;STRONG&gt;dokladov&lt;/STRONG&gt; - pri účtovaní skladových pohybov sa jednotlivé záznamy za účtované obdobie zoskupia podľa druhov pohybov. Záznamy sú členené podľa skladov, druhov pohybov, predkontácií na skladových kartách, typu pohybu (štandardná, inventúra, prevodka). 
+&lt;LI&gt;&lt;STRONG&gt;Podľa&lt;/STRONG&gt; &lt;STRONG&gt;dokladov&lt;/STRONG&gt; - pri účtovaní skladových pohybov sa jednotlivé záznamy za účtované obdobie zoskupia podľa jednotlivých dokladov (je to najpodrobnejšie účtovanie). Záznamy sú členené podľa skladov, dokladov, predkontácií na skladových kartách, typu pohybu (štandardná, inventúra, prevodka). &lt;/LI&gt;&lt;/UL&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Mzdy&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Zaúčtovanie miezd znamená zaúčtovanie spracovaných miezd v&amp;nbsp;evidencii&amp;nbsp;&lt;A href="6923b0c5-166b-4e3b-a53b-71f62b53b2fc"&gt;Tvorba miezd&lt;/A&gt; podľa príslušných mzdových predkontácií, ktoré je možné zobraziť stlačením tlačidla &lt;IMG border=0 alt="" src="images/Forms/AccDouble/Form_Acc_Double_DPHChange.gif"&gt;.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Majetok (odpisy)&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Zaúčtovaním&amp;nbsp;majetku (odpisov)&amp;nbsp;sa rozumie zaúčtovanie vypočítaných účtovných odpisov z&amp;nbsp;evidencie&amp;nbsp;&lt;A href="d123f778-12d3-4049-8c94-3d1b7acdc24f"&gt;Kniha investičného majetku&lt;/A&gt;.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Obdobie&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Umožňuje nastaviť rozsah dátumov dokladov, ktoré vstupujú do&amp;nbsp;hromadného zaúčtovania.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Správy o priebehu&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Kliknutím na tlačidlo &lt;EM&gt;Správy o priebehu&lt;/EM&gt; sa zobrazí správa o priebehu zaúčtovania dokladov.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="4e36016f-767d-4212-8208-bad7e07a6e58" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="41513109-f711-4de5-b494-67671f203dca">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="24dfbcc9-d012-4632-b12b-59ef48f3c011" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="b1b0dcee-286e-4564-a6a6-597d54e2e13a">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="68252be3-509c-4241-b5d5-1edcaeedde53">
+      <Keyword m="2021-07-14T11:49:03.4820968Z">Hromadné účtovanie dokladov - formulár</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

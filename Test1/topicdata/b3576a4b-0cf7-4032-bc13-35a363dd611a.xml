@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="b3576a4b-0cf7-4032-bc13-35a363dd611a" Status="Complete" CreatedOn="2021-02-17T08:13:25.3005433Z" ModifiedOn="2024-07-29T10:44:54.0110258Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="1030" Name="Help_Support" BuildFlags="">
+  <Title m="2021-02-17T08:39:50.7391762Z">Podpora k systému OBERON</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-07-18T09:05:17.8831341Z">&lt;P&gt;K systému OBERON sa poskytuje &lt;STRONG&gt;základná pomoc a podpora&lt;/STRONG&gt;, ktorá je štandardne zahrnutá v cene licencie. Riešenie určitých osobitných problémov na strane používateľa špecifikovaných v&amp;nbsp;&lt;A href="40c83e5f-22aa-4ba5-b4c1-35938f90fac2" rel=noopener target=_blank&gt;obchodných podmienkach&lt;/A&gt; v cene licencie &lt;STRONG&gt;zahrnuté nie je&lt;/STRONG&gt; a dodávateľ softvéru zaň môže účtovať ďalšie poplatky. O&amp;nbsp;skutočnosti, že ide o platenú službu, je zákazník &lt;STRONG&gt;vždy vopred informovaný&lt;/STRONG&gt;. Používatelia OBERON-u môžu pri riešení problémov využiť viaceré možnosti.&lt;/P&gt;
+&lt;H2&gt;Dokumentácia&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Informácie o&amp;nbsp;OBERON-e sú pre používateľov dostupné predovšetkým vo forme&amp;nbsp;&lt;A href="8c0e0dd3-ce14-410b-9a1c-76b92585e960"&gt;Pomocníka OBERON&lt;/A&gt;, ktorý je súčasťou každej inštalácie programu a je dostupný po stlačení klávesu F1 z&amp;nbsp;ktorejkoľvek jeho časti: Pomocník OBERON je zároveň dostupný v&amp;nbsp;&lt;A href="https://exalogic.sk/help/oberon/index.html#OBERON_Info.html" target=_blank&gt;on-line verzii&lt;/A&gt;.&amp;nbsp;Pomocník obsahuje&amp;nbsp;štandardnú dokumentáciu&amp;nbsp;k&amp;nbsp;softvéru&amp;nbsp;s popisom riešení konkrétnych prípadov z praxe. Samozrejmosťou je &lt;STRONG&gt;register kľúčových slov&lt;/STRONG&gt;&amp;nbsp;s&amp;nbsp;možnosťou vyhľadávania. 
+&lt;LI&gt;Okrem štandardného &lt;EM&gt;Pomocníka OBERON&lt;/EM&gt;, v ktorom sa nachádza dokumentácia pre bežných&amp;nbsp;používateľov, existuje aj&amp;nbsp;&lt;A href="519bcf42-f3e7-48c1-98a9-02a5784576f9"&gt;špecializovaná dokumentácia&lt;/A&gt; určená pre servisných technikov, systémových integrátorov, vývojárov&amp;nbsp;a pod. Táto dokumentácia nie je súčasťou štandardnej inštalácie, ale je ju možné získať&amp;nbsp;na vyžiadanie, prípadne niektoré jej časti sú zverejnené na&amp;nbsp;internetovej stránke &lt;A href="http://www.exalogic.sk"&gt;www.exalogic.sk&lt;/A&gt;. 
+&lt;LI&gt;Popri uvedených nápovedí je&amp;nbsp;ku každému modulu systému OBERON spracovaný &lt;STRONG&gt;doplnkový materiál&lt;/STRONG&gt; -&amp;nbsp;jedna, prípadne viac prehľadných&amp;nbsp;&lt;A href="https://exalogic.sk/na-stiahnutie/oberon-agenda-firmy/prezentacie/" rel=noopener target=_blank&gt;prezentácií&lt;/A&gt;, ktoré&amp;nbsp;sú k dispozícii&amp;nbsp;na webovej stránke&amp;nbsp;&lt;A href="http://www.exalogic.sk/"&gt;www.exalogic.sk&lt;/A&gt;. Informácie k nášmu produktu je možno nájsť aj na stránkach programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt; a jednotlivých modulov, prípadne ďalších podstránkach, či v&amp;nbsp;sekciách&amp;nbsp;&lt;A href="https://exalogic.sk/na-stiahnutie/oberon-agenda-firmy/propagacne-videa-na-stiahnutie/" target=_blank&gt;Propagačné videá&lt;/A&gt;,&amp;nbsp;&lt;A href="https://exalogic.sk/na-stiahnutie/oberon-agenda-firmy/video-navody-na-stiahnutie/" rel=noopener target=_blank&gt;Videonávody&lt;/A&gt; a&amp;nbsp;&lt;A href="https://exalogic.sk/oberon-viac/referencie/" target=_blank&gt;Referencie&lt;/A&gt;. 
+&lt;LI&gt;V prípade, že ste ani v jednom z uvedených zdrojov hľadané informácie nenašli, v rámci podpory k systému OBERON môžete využiť &lt;STRONG&gt;jednu z nasledujúcich možností&lt;/STRONG&gt;: &lt;/LI&gt;&lt;/UL&gt;
+&lt;H4&gt;A)&amp;nbsp;Odošlite formulár&lt;/H4&gt;
+&lt;UL&gt;
+&lt;LI&gt;Ako prvý a&amp;nbsp;najvhodnejší spôsob riešenia vášho problému po&amp;nbsp;oboznámení sa s&amp;nbsp;dokumentáciou a doplnkovým materiálom&amp;nbsp;odporúčame vyplnenie a&amp;nbsp;odoslanie niektorého z&amp;nbsp;&lt;A href="https://exalogic.sk/na-stiahnutie/oberon-agenda-firmy/formulare-a-zmluvy/" target=_blank&gt;formulárov&lt;/A&gt; na našej webovej stránke. Ich výhodou je, že &lt;STRONG&gt;sú priebežne prideľované na spracovanie&lt;/STRONG&gt; tým pracovníkom, ktorí sú zodpovední za príslušnú časť programu, a&amp;nbsp;odpoveď na vašu otázku dostanete priamo do svojej e-mailovej schránky –&amp;nbsp;spolu s prípadnými odkazmi na doplňujúce informácie v Pomocníku &lt;EM&gt;OBERON&lt;/EM&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H4&gt;B) Kontaktuje zmluvného partnera&lt;/H4&gt;
+&lt;UL&gt;
+&lt;LI&gt;Otázky súvisiace s &lt;STRONG&gt;hardvérom&lt;/STRONG&gt; používaným so systémom OBERON je&amp;nbsp;nutné smerovať&amp;nbsp;&lt;STRONG&gt;na&amp;nbsp;zmluvného partnera, ktorý vám dané zariadenie dodal&lt;/STRONG&gt;. Týka sa to najmä otázok ohľadom funkčnosti eKasa zariadení, bonovacích tlačiarní, rôznych&amp;nbsp;snímačov čiarových&amp;nbsp;kódov, čítačiek dokladov,&amp;nbsp;skenerov a pod. Mnohé z&amp;nbsp;týchto hardvérových zariadení vyžadujú autorizovaný servis a zásah priamo na mieste používania, čo&amp;nbsp;dokážu zabezpečiť len partnerské firmy. 
+&lt;LI&gt;Zoznam&amp;nbsp;zmluvných partnerov&amp;nbsp;spolu s kontaktnými údajmi nájdete v&amp;nbsp;téme&amp;nbsp;&lt;A href="f83c2a9c-cda4-4862-8628-7ba16ddb1b06"&gt;Zmluvní partneri&lt;/A&gt; alebo na webovej stránke&amp;nbsp;firmy EXALOGIC v&amp;nbsp;časti&amp;nbsp;&lt;A href="https://exalogic.sk/oberon/dokumentacia-a-podpora/servisne-strediska/" target=_blank&gt;Servisné strediská&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H3&gt;C) Zavolajte do centra podpory&lt;/H3&gt;
+&lt;UL&gt;
+&lt;LI&gt;Podrobné informácie o prevádzke centra podpory získate na&amp;nbsp;&lt;A href="https://exalogic.sk/oberon/dokumentacia-a-podpora/hotline/" target=_blank&gt;webovej stránke firmy EXALOGIC&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Vzdialená pomoc&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI class=tquote&gt;Súčasťou podpory používateľom systému OBERON je aj technológia na poskytovanie pomoci formou tzv. vzdialenej plochy. Poskytovanie podpory pomocou vzdialenej pomoci je pre užívateľa rýchle a jednoduché - ak má počítač pripojenie na internet, jedným kliknutím sa pripojí do centra podpory, kde pracovník podpory vidí jeho pracovnú plochu a ihneď môže začať riešiť daný problém. 
+&lt;LI class=tquote&gt;Takéto riešenie problémov je veľmi efektívne, pričom na rozdiel od konkurenčných firiem &lt;STRONG&gt;nie je táto služba spoplatnená&lt;/STRONG&gt;. Viac informácií nájdete v&amp;nbsp;téme &lt;A href="76d1c33f-06b5-4bb9-8a39-9635b68da1b4"&gt;Vzdialená pomoc&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="194b1d5f-1230-4b3e-814d-e1501b146e15" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="8c0e0dd3-ce14-410b-9a1c-76b92585e960">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="cb4fbc01-4d9f-45c2-8421-544a2fed95eb" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="519bcf42-f3e7-48c1-98a9-02a5784576f9">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="f7cea8c6-5f45-4fe2-a7b8-d853ebb7918b" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="f83c2a9c-cda4-4862-8628-7ba16ddb1b06">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="322b43d7-a0d2-42f7-be51-924bdde509bc" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="76d1c33f-06b5-4bb9-8a39-9635b68da1b4">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="a15e74a1-347a-411a-9c08-033acf1e6844" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="40c83e5f-22aa-4ba5-b4c1-35938f90fac2">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="31d21343-85bc-4730-a93a-fecdd081d9f9">
+      <Keyword m="2021-02-18T13:32:43.1296443Z">Telefonické centrum podpory</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="7c3d68bc-bc8e-4a45-b5d1-e72389ebdde8">
+      <Keyword m="2021-03-03T09:57:15.6702832Z">Telefón - centrum podpory</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="4d4b9556-42da-4aeb-9d0e-c9f4183b57d0">
+      <Keyword m="2021-03-03T08:33:21.6085757Z">Podpora - hotline</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="ee015d27-d5ea-4dd2-b7f6-fade385584c6">
+      <Keyword m="2021-02-18T13:37:28.2509672Z">Podpora používateľom</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="e018fc0d-2938-4a0b-93fc-9cd45152c852">
+      <Keyword m="2021-03-03T08:33:00.8158964Z">Podpora - technická</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="505836ab-d44a-4d39-8c50-b8dcddf6dbb7">
+      <Keyword m="2015-11-25T11:54:10.1464843Z">Centrum podpory</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="b8e0f6fd-5d10-4e45-bf0c-641082176a99">
+      <Keyword m="2021-02-18T13:46:14.7000231Z">Vzdialená pomoc</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="5312238b-ef03-4124-b32c-3634a67e1360">
+      <Keyword m="2021-03-03T09:56:56.7642599Z">E-mail - centrum podpory</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="e0bb955c-df29-4f35-a5a1-a8419ff41df1">
+      <Keyword m="2021-03-03T09:57:08.8649136Z">Kontakt - centrum podpory</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="d8b34478-4a81-4317-a3e2-efad59ed9056">
+      <Keyword m="2024-07-29T10:43:56.5657321Z">Podpora - formuláre</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="b0ece395-f288-473c-aa37-fc881b405e08">
+      <Keyword m="2022-12-08T11:37:47.1153006Z">Doplnkový materiál - podpora</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="4274ecae-da2e-4540-a605-d351462110c6">
+      <Keyword m="2022-12-08T11:39:34.2895552Z">Zmluvní partneri - podpora</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="8ffc4ae5-4f21-4a36-8181-fc7948999dea">
+      <Keyword m="2024-07-29T10:44:52.7241899Z">Servisné strediská - podpora</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

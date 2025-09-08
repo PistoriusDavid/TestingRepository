@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="bdf07bad-43fb-450a-9dba-15b8366448a9" Status="Complete" CreatedOn="2024-03-20T07:43:33.6012971Z" ModifiedOn="2024-03-22T09:13:43.9001494Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="QualifiedElectronicSignature_Overview" BuildFlags="">
+  <Title m="2024-03-20T08:04:38.1030382Z">O kvalifikovanom elektronickom podpise (KEP)</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-03-22T09:13:43.9001494Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;všeobecné informácie o&amp;nbsp;kvalifikovanom elektronickom podpise (KEP)&lt;/STRONG&gt;, ktorý sa vytvára&amp;nbsp;&lt;STRONG&gt;prostredníctvom&amp;nbsp;elektronickej identifikačnej karty (občiansky preukaz s elektronickým čipom (eID) alebo doklad o povolení na pobyt s&amp;nbsp;elektronickým čipom (eDoPP))&lt;/STRONG&gt;&amp;nbsp;s&amp;nbsp;platným kvalifikovaným certifikátom pre elektronický podpis uloženým&amp;nbsp;v&amp;nbsp;čipe. Téma obsahuje aj &lt;STRONG&gt;informácie o kvalifikovanej elektronickej pečati&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Kvalifikovaný elektronický podpis&lt;/STRONG&gt; (KEP, pôvodne používaný ako zaručený elektronický podpis ZEP) je podľa &lt;EM&gt;Nariadenia Európskeho parlamentu a Rady (EÚ) č. 910/2014 zo dňa 23. júla 2014 o elektronickej identifikácii a dôveryhodných službách pre elektronické transakcie na vnútornom trhu a&amp;nbsp;o&amp;nbsp;zrušení smernice 1999/93/ES&lt;/EM&gt; zdokonalený elektronický podpis vyhotovený s použitím kvalifikovaného zariadenia na vyhotovenie elektronického podpisu a&amp;nbsp;založený na kvalifikovanom certifikáte pre elektronické podpisy. 
+&lt;LI&gt;KEP je informácia pripojená alebo inak logicky spojená s elektronickým dokumentom, ktorá za splnenia podmienok daných zákonom č. 272/2016 Z. z. o dôveryhodných službách, umožňuje spoľahlivo a jednoznačne určiť fyzickú osobu, ktorá ho vyhotovila. 
+&lt;LI&gt;Pomocou KEP-u &lt;STRONG&gt;je možné elektronicky realizovať právne úkony, ktoré v papierovom svete vyžadujú písomnú formu&lt;/STRONG&gt;, t. j. KEP v tomto prípade &lt;STRONG&gt;nahrádza písomnú podobu vlastnoručného podpisu alebo úradne overeného podpisu&lt;/STRONG&gt; (v prípade pripojenia časovej pečiatky ku KEP-u). Z&amp;nbsp;uvedeného dôvodu je nevyhnutné jeho použitie pri niektorých úkonoch uskutočňovaných v rámci elektronickej komunikácie s orgánmi verejnej moci a komerčným sektorom. 
+&lt;LI&gt;V&amp;nbsp;závislosti od toho, či ide o&amp;nbsp;fyzickú alebo právnickú osobu, na elektronické podpisovanie možno použiť: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Kvalifikovaný elektronický podpis&lt;/STRONG&gt; - používa sa&amp;nbsp;na autentifikáciu&amp;nbsp;&lt;STRONG&gt;fyzickej&amp;nbsp;osoby (podnikateľa alebo nepodnikateľa)&lt;/STRONG&gt;. Vytvára sa prostredníctvom&lt;STRONG&gt;&amp;nbsp;elektronickej identifikačnej karty (občiansky preukaz s elektronickým čipom (eID) alebo doklad o povolení na pobyt s elektronickým čipom (eDoPP))&amp;nbsp;&lt;/STRONG&gt;s&amp;nbsp;platným kvalifikovaným certifikátom pre elektronický podpis uloženým&amp;nbsp;v&amp;nbsp;čipe. Vydanie kvalifikovaného certifikátu pre elektronický podpis je bezplatné ak je súčasťou elektronickej identifikačnej karty (eID, eDoPP). Certifikát je možné vydať aj prostredníctvom komerčnej certifikačnej autority za poplatok, avšak využívanie komerčného certifikátu má oproti bežnému certifikátu&amp;nbsp;niekoľko výhod (napr. jednoduchosť podpisovania, menej zverejnených údajov...). Na vytváranie osobného KEP-u je potrebné &lt;STRONG&gt;určité hardvérové a&amp;nbsp;softvérové vybavenie&lt;/STRONG&gt; (pozri nižšie časť &lt;EM&gt;Čo potrebujem na vytvorenie KEP-u?&lt;/EM&gt;) 
+&lt;LI&gt;&lt;STRONG&gt;Kvalifikovaná elektronická pečať&lt;/STRONG&gt; -&amp;nbsp;používa sa&amp;nbsp;na autentifikáciu právnickej osoby. Kvalifikovaná elektronická pečať musí byť založená na kvalifikovanom certifikáte, ktorý môžu vydávať len tzv. akreditované certifikačné autority (komerčné firmy) s povolením od &lt;EM&gt;Národného bezpečnostného úradu&lt;/EM&gt;.&amp;nbsp;Certifikát kvalifikovanej elektronickej pečate je spoplatnený. Jej implementácia predpokladá&amp;nbsp;&lt;A href="72c72d0f-32a6-487e-97eb-e0481758934d"&gt;inštaláciu kvalifikovaného certifikátu&lt;/A&gt;,&amp;nbsp;&lt;A href="4376aec1-e02e-436f-aeb1-21f4084c3d3c"&gt;inštaláciu súkromného kľúča&lt;/A&gt; a &lt;A href="5b587dad-82da-489c-9bc2-a73dc28a0b4a"&gt;inštaláciu verejného kľúča&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Využitie KEP-u&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Komunikácia s&amp;nbsp;orgánmi verejnej moci - ústredný portál verejnej správy &lt;A href="http://www.slovensko.sk/"&gt;www.slovensko.sk&lt;/A&gt;, služby obchodného alebo živnostenského registra, finančná správa (daňové úrady, colné riaditeľstvo), súdy, katastrálny úrad, &lt;EM&gt;Sociálna poisťovňa&lt;/EM&gt; atď.). 
+&lt;LI&gt;Komunikácia&amp;nbsp;medzi dvoma subjektmi (podpisovanie dokladov ako sú faktúry, objednávky, cenové ponuky,&amp;nbsp;dodacie listy medzi odberateľom a dodávateľom...). 
+&lt;LI&gt;Elektronické zasielanie &lt;A href="6f290377-1b2d-4fe5-8c12-944b437f9337"&gt;Hlásenia pobytu cudzinca&lt;/A&gt;. 
+&lt;LI&gt;Zabezpečená e-mailová komunikácia (elektronické podpisovanie a šifrovanie emailových správ). &amp;nbsp;&amp;nbsp;&amp;nbsp; 
+&lt;LI&gt;Autorizácia prístupu do zabezpečeného systému (napr.&amp;nbsp;prihlasovanie do počítača, inter&amp;shy;nej sie&amp;shy;te). &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Čo potrebujem na vytvorenie KEP-u?&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Na vytváranie KEP-u prostredníctvom elektronickej identifikačnej karty musia byť splnené&amp;nbsp;tieto podmienky: 
+&lt;UL&gt;
+&lt;LI&gt;občiansky preukaz s elektronickým čipom (eID) alebo doklad o povolení na pobyt s elektronickým čipom (eDoPP) s platným kvalifikovaným certifikátom pre elektronický podpis uloženým&amp;nbsp;v&amp;nbsp;čipe alebo certifikované zariadenie s platným kvalifikovaným certifikátom vydaným komerčnou certifikačnou autoritou; 
+&lt;LI&gt;počítač vybavený: 
+&lt;UL&gt;
+&lt;LI&gt;kontaktnou čítačkou čipových kariet a príslušnými ovládačmi, 
+&lt;LI&gt;softvérovým vybavením pre kartu eID, 
+&lt;LI&gt;aplikáciou pre vytváranie KEP-u. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;znalosť BOK kódu a KEP PIN-u. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;V prípade vytvárania KEP-u pri online komunikácii so službami verejnej moci musí byť počítač navyše vybavený: 
+&lt;UL&gt;
+&lt;LI&gt;pripojením do internetu, 
+&lt;LI&gt;internetovým prehliadačom s nainštalovanou aplikáciou&amp;nbsp;na vytváranie KEP-u. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Kompletné softvérové vybavenie potrebné k&amp;nbsp;vytvoreniu KEP-u prostredníctvom elektronickej identifikačnej karty je dostupné na&amp;nbsp;&lt;A href="https://eidas.minv.sk/download/Aplikacia_EID/" target=_blank&gt;internetovom portáli Ministerstva vnútra Slovenskej republiky&lt;/A&gt; a na ústrednom portáli verejnej správy &lt;A href="http://www.slovensko.sk"&gt;www.slovensko.sk&lt;/A&gt; v sekcii&amp;nbsp;&lt;A href="https://www.slovensko.sk/sk/na-stiahnutie" target=_blank&gt;Na stiahnutie&lt;/A&gt;. Informácie k&amp;nbsp;inštalácii softvérového vybavenia získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="940fa8ad-d52e-4443-8d08-cbc588311de3" style="auto-update-caption: true"&gt;Inštalácia balíka aplikácií pre kartu eID&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Čo potrebujem na vytvorenie kvalifikovanej elektronickej pečate?&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Implementáciu kvalifikovanej elektronickej pečate &lt;STRONG&gt;odporúčame&amp;nbsp;zveriť do&amp;nbsp;rúk&amp;nbsp;špecializovanej firme&lt;/STRONG&gt;. V prípade záujmu môžete kontaktovať firmu&amp;nbsp;&lt;A href="https://nakupujbezpecne.sk/" target=_blank&gt;nakupujbezpecne.sk, s.r.o.&lt;/A&gt; &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Čo je potrebné na podpísanie KEP-om?&lt;/H2&gt;
+&lt;P&gt;Na vyhotovenie KEP-u&amp;nbsp;je potrebné mať k dispozícii:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;elektronický dokument&lt;/STRONG&gt; - v celom rade formátov (.pdf .doc .docx .odt .txt .xml .rtf .png...), 
+&lt;LI&gt;&lt;STRONG&gt;súkromný kľúč&lt;/STRONG&gt; uložený na kvalifikovanom zariadení na vyhotovenie kvalifikovaného elektronického podpisu,&amp;nbsp;napr. občianskom preukaze s&amp;nbsp;elektronickým čipom (tzv. eID karta), 
+&lt;LI&gt;&lt;STRONG&gt;kvalifikovaný certifikát&lt;/STRONG&gt; vydaný poskytovateľom dôveryhodných služieb pre &lt;STRONG&gt;verejný kľúč&lt;/STRONG&gt; patriaci k súkromnému kľúču, 
+&lt;LI&gt;&lt;STRONG&gt;prostriedok a príslušné softvérové vybavenie&lt;/STRONG&gt; na vyhotovenie kvalifikovaného elektronického podpisu, pričom sa odporúča používať certifikované softvérové vybavenie, resp. softvérové vybavenie z dôveryhodných zdrojov. &lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="d45986ef-4787-4368-a890-f5c308a9bc51" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="c1e2e5a1-2cf4-47aa-a546-47d5baa1df3e">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="180542ca-f5c0-4efc-9fac-16f2b7c341e9" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="bc1bbd4d-e641-438f-9b36-0a24347dd246">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="21e3b6fd-4a5f-49e2-bb9c-5a939947aae5" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="940fa8ad-d52e-4443-8d08-cbc588311de3">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="94b65698-14d5-4f80-8a65-6e981f0cdfd5" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="72c72d0f-32a6-487e-97eb-e0481758934d">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="ffa7b755-843a-43ae-8a66-e4ebaa28a501" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="4376aec1-e02e-436f-aeb1-21f4084c3d3c">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="e923da7d-9f97-4c3a-aa37-9148692ed968" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="5b587dad-82da-489c-9bc2-a73dc28a0b4a">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="ccb9a00d-8e9e-4491-b849-017a006730f3" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="5f4331ed-2a3a-426e-8cdb-4ac3adb49a3b">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="69df54cb-02f7-41f3-9ac3-a1c073fb0ccd" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="68a24d97-e4a5-4cf4-bc7a-72262df5973e">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="fb9220b3-d24d-42eb-a576-e144956cdaf9">
+      <Keyword m="2024-03-20T11:54:57.5449601Z">Zaručený elektronický podpis - všeobecné informácie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="ca2859f4-c6a4-40c8-842a-014ad3f55889">
+      <Keyword m="2024-03-20T11:54:15.7162617Z">Kvalifikovaný elektronický podpis - všeobecné informácie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="1741bc44-f9e5-43a3-aa3e-34c5ac889369">
+      <Keyword m="2024-03-20T11:54:08.2739502Z">KEP - všeobecné informácie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="3eb5fd49-8b7e-4481-b9f7-fc4d38ddb9c9">
+      <Keyword m="2024-03-20T11:55:00.6740486Z">ZEP - všeobecné informácie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="9688f5f3-29b5-4da1-b238-199808a1ea86">
+      <Keyword m="2024-03-20T11:54:36.9346562Z">Podpis - KEP, ZEP - všeobecné informácie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="85e956e2-2be7-468b-bc4d-f56d4b462293">
+      <Keyword m="2024-03-22T07:42:42.0159015Z">Kvalifikovaná elektronická pečať</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="cb03e03c-4157-47c4-902b-c04d6114a54e">
+      <Keyword m="2024-03-22T07:42:50.8133004Z">Pečať - kvalifikovaná elektronická</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="df097250-30b3-4dc6-964f-2f811f7b57e6">
+      <Keyword m="2024-03-22T07:42:53.0826759Z">nakupujbezpecne.sk, s.r.o.</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

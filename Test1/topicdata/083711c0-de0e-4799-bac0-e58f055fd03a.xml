@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="083711c0-de0e-4799-bac0-e58f055fd03a" Status="Complete" CreatedOn="2015-01-26T10:41:52.0532031Z" ModifiedOn="2023-10-12T10:40:14.3824725Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Form_User_Hotel" BuildFlags="">
+  <Title m="2015-10-06T11:51:18.1435547Z">Formulár Nastavenia - Používateľ - Hotelová recepcia </Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-10-12T10:30:45.4189695Z">&lt;P&gt;Formulár &lt;EM&gt;Nastavenia -&amp;nbsp;Používateľ -&amp;nbsp;Hotelová recepcia&lt;/EM&gt;&amp;nbsp;&lt;STRONG&gt;umožňuje pre aktuálne prihláseného používateľa vykonať nastavenia automatického otvárania grafického prehľadu izieb pri spustení programu a práce so záznamami s príznakom &lt;EM&gt;Len pre vnútornú evidenciu&lt;/EM&gt;&lt;/STRONG&gt;. Formulár je dostupný z programu &lt;EM&gt;OBERON -&amp;nbsp;Agenda firmy&lt;/EM&gt;, ponuka &lt;EM&gt;Servis,&amp;nbsp;&lt;/EM&gt;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;&amp;nbsp;- v&amp;nbsp;sekcii&amp;nbsp;&lt;EM&gt;Používateľ&lt;/EM&gt; zvoľte oddiel &lt;EM&gt;Hotelová recepcia&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Popis formulára &lt;EM&gt;Nastavenia -&amp;nbsp;Používateľ - Hotelová recepcia&lt;/EM&gt;&lt;/H2&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Grafický prehľad izieb&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Umožňuje nastaviť automatické otvorenie &lt;A href="3ca37544-bbc0-4a88-af6a-a2132b74279d"&gt;grafického prehľadu izieb&lt;/A&gt; po spustení systému OBERON. Funkcia sa používa hlavne pri&amp;nbsp;používateľoch pracujúcich na recepcii.&amp;nbsp;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Vnútorná evidencia&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Umožňuje nastaviť zobrazovanie záznamov vnútornej evidencie v&amp;nbsp;&lt;A href="0b9519ff-9438-422b-a3e8-358b628293e9"&gt;knihe ubytovaných&lt;/A&gt;, aby s nimi daný používateľ mohol pracovať. Vnútorná evidencia znamená evidenciu ubytovaných hostí, ktorí za ubytovanie neplatia (napr. majiteľ, obchodný partner). Takéto ubytovanie nebude zahrnuté do výkazov a štatistík. V prípade začiarknutia možnosti bude&amp;nbsp;používateľovi dovolené pracovať s&amp;nbsp;takýmto typom záznamov.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="1d5398bc-540b-4bec-8b3c-350cbb55d0ba" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="89fa80dd-8f80-4e9f-9a25-1eed4f6fdbb8">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="268575ff-a94c-4ab4-9dd5-dfccbb6b53e3" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="8a35cd0d-3fea-40c5-9831-a35062e762b4">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="07badb48-8ab2-4fda-8077-8c15625bafc3" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="c59586c9-a034-4f31-9a3c-1960428236e7">
+      <Title m="2021-05-27T13:10:49.0502716Z">Hotelová recepcia - základné možnosti</Title>
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="33803a14-a778-469a-b0ac-32a65112ad30" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="225638ed-22f6-4ac4-9085-6d77c64925db">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="73a9b9e6-d5dc-4b61-b285-e7c777b1c203">
+      <Keyword m="2021-05-27T13:04:12.4864681Z">Používateľ - Hotelová recepcia - Nastavenia programu</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="69d48824-1ce4-46b5-b868-ac60967879cc">
+      <Keyword m="2021-05-27T13:04:23.4216033Z">Nastavenia programu - Používateľ - Hotelová recepcia</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

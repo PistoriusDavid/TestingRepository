@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="4a3fd53c-a95a-4850-8adb-17666063e88d" Status="Complete" CreatedOn="2015-05-05T07:40:38.1826171Z" ModifiedOn="2023-05-16T07:53:41.4720494Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="22740" Name="Menu_Hotel_ProvidedServices_Book" BuildFlags="">
+  <Title m="2015-05-05T07:41:28.2617187Z">Kniha poskytovaných služieb</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-05-16T07:53:41.4720494Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;je venovaná&amp;nbsp;položke&amp;nbsp;&lt;EM&gt;Kniha&amp;nbsp;poskytovaných služieb&lt;/EM&gt;&amp;nbsp;v&amp;nbsp;ponuke&amp;nbsp;&lt;EM&gt;Hotel&lt;/EM&gt; programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Výberom položky sa otvorí&amp;nbsp;&lt;EM&gt;Kniha poskytovaných služieb&lt;/EM&gt;, ktorá predstavuje doplnkovú knihu modulu&amp;nbsp;&lt;A href="c3bd41f0-029e-4c74-b342-b0ffff647b6e"&gt;Hotelová recepcia&lt;/A&gt;. Kniha &lt;STRONG&gt;umožňuje zaevidovať rozšírené služby poskytované ubytovacím zariadením&lt;/STRONG&gt; (so základnými službami kniha nepracuje). Po poskytnutí služieb v&amp;nbsp;nej záznamy ostávajú, pričom ich možno zobraziť prostredníctvom &lt;STRONG&gt;rýchleho filtra&lt;/STRONG&gt; dostupného po stlačení tlačidla &lt;EM&gt;Vlastnosti&lt;/EM&gt; (umožňuje nastaviť zobrazenie všetkých služieb, len aktívnych služieb a archívu služieb). Viac informácií o&amp;nbsp;službách v&amp;nbsp;systéme OBERON a&amp;nbsp;ich definovaní získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="52a22e5d-f6ee-46f3-9978-537f8fa5c984"&gt;Služby&lt;/A&gt;. 
+&lt;LI&gt;Rozšírené služby zaevidované v knihe poskytovaných služieb sa&amp;nbsp;v&amp;nbsp;grafickej podobe zobrazujú&amp;nbsp;v&amp;nbsp;&lt;A href="0f4cbef4-f919-441f-bd61-6ef9ca0b1344"&gt;grafickom prehľade poskytovaných služieb&lt;/A&gt;, kde je s&amp;nbsp;nimi možné aktívne pracovať. 
+&lt;LI&gt;Pridať alebo upraviť zápis v&amp;nbsp;knihe poskytovaných služieb je možné priamo v&amp;nbsp;tejto knihe alebo z&amp;nbsp;grafického prehľadu poskytovaných služieb (čiže bez otvorenia knihy poskytovaných služieb).&amp;nbsp;Kvôli vyššej prehľadnosti &lt;STRONG&gt;sa na zápis, resp. opravu služieb odporúča využívať&amp;nbsp;interaktívny&amp;nbsp;grafický prehľad poskytovaných služieb&lt;/STRONG&gt;. 
+&lt;LI&gt;Rozšírenú službu si môže hosť zarezervovať&amp;nbsp;alebo ju môže priamo čerpať. V&amp;nbsp;závislosti od toho pri zaevidovaní rozšírenej služby možno zvoliť z&amp;nbsp;nasledujúcich možností: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;EM&gt;&lt;STRONG&gt;Nová rezervácia&lt;/STRONG&gt; -&amp;nbsp;&lt;/EM&gt;vyberte, ak bude služba&amp;nbsp;poskytnutá v budúcnosti. Otvorí sa&amp;nbsp;&lt;A href="6e804e10-6205-46ad-95f0-47204b6ef066"&gt;formulár Rezervácia poskytovanej služby&lt;/A&gt;. 
+&lt;LI&gt;&lt;EM&gt;&lt;STRONG&gt;Nová služba&lt;/STRONG&gt; -&lt;/EM&gt; vyberte, ak sa bude služba&amp;nbsp;priamo čerpať. Otvorí sa&amp;nbsp;formulár &lt;EM&gt;Poskytovaná služba.&lt;/EM&gt; 
+&lt;LI&gt;&lt;EM&gt;&lt;STRONG&gt;Nová služba (ubytovaný hosť)&lt;/STRONG&gt; -&lt;/EM&gt; vyberte, ak službu bude čerpať ubytovaný hosť. Otvorí sa formulár, v ktorom vyberte osobu zo zoznamu ubytovaných osôb. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Rezerváciu&amp;nbsp;služby je možné evidovať &lt;STRONG&gt;s&amp;nbsp;rôznym stavom&lt;/STRONG&gt; - nepotvrdená rezervácia, potvrdená rezervácia, rezervácia so zálohou&amp;nbsp;atď.&amp;nbsp;Jednotlivé stavy služby sú v grafickom prehľade poskytovaných služieb&amp;nbsp;farebne odlíšené. 
+&lt;LI&gt;Službu je možné rezervovať &lt;STRONG&gt;do zvoleného dátumu&lt;/STRONG&gt;, t. j. je možné nastaviť, dokedy má byť služba rezervovaná (napr. v&amp;nbsp;prípade očakávania zálohy alebo opätovného potvrdenia).&amp;nbsp;Ak nastavený časový úsek uplynie, v zozname poskytovaných služieb sa&amp;nbsp;takáto rezervácia zvýrazní &lt;SPAN style="COLOR: rgb(255,0,0)"&gt;&lt;STRONG&gt;červenou farbou&lt;/STRONG&gt;&lt;/SPAN&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Zaevidovať, resp. upraviť už zaevidovanú rezerváciu rozšírenej služby&amp;nbsp;je možné&amp;nbsp;pomocou &lt;A href="6e804e10-6205-46ad-95f0-47204b6ef066"&gt;formulára Rezervácia poskytovanej služby&lt;/A&gt;. Postup&amp;nbsp;zaevidovania&amp;nbsp;rezervácie rozšírenej služby je popísaný v téme &lt;A href="a4d41ab0-a4b9-4307-9ae5-8b7a8d7ba977" style="auto-update-caption: true"&gt;Zaevidovanie rezervácie služby&lt;/A&gt;. &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Dostupné&amp;nbsp;možnosti&lt;/H2&gt;
+&lt;P&gt;Ďalšie možnosti práce so záznamami&amp;nbsp;sú dostupné&amp;nbsp;po stlačení tlačidla &lt;EM&gt;Možnosti&lt;/EM&gt;, prípadne v&amp;nbsp;kontextovej ponuke tabuľky záznamov.&lt;/P&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Zobraziť väzby dokumentu&amp;nbsp;&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Systém OBERON udržiava medzi súvisiacimi záznamami v rôznych evidenciách väzby (napr. na kontrolu správnosti zaevidovania služby). Funkcia zostaví grafický prehľad väzieb daného záznamu, ktorý je zároveň interaktívny - kliknutím pravým tlačidlom myši je možné jednotlivé záznamy zobraziť, upraviť, resp. exportovať.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Označiť službu&amp;nbsp;ako poskytnutú&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Službu označte&amp;nbsp;ako poskytnutú v prípade, že sa služba zrealizovala. Pri poskytnutej službe sa zmení farba v&amp;nbsp;&lt;A href="0f4cbef4-f919-441f-bd61-6ef9ca0b1344"&gt;grafickom prehľade poskytovaných služieb&lt;/A&gt; podľa nastavenia farieb v&amp;nbsp;ponuke&amp;nbsp;&lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="f0386fce-aa67-4fa4-a611-234d30fa9f82"&gt;oddiel Firma, Hotelová recepcia&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt; záložka &lt;EM&gt;Grafické prehľady&lt;/EM&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Zrušiť označenie služby ako poskytnutej&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Funkcia zruší označenie služby ako poskytnutej.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Vyúčtovanie poskytnutej služby&amp;nbsp;&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Otvorí sa sprievodca, pomocou ktorého&amp;nbsp;je možné vyúčtovať poskytnutú službu. Poskytnutá služba, ktorá bola vyúčtovaná, sa presunie medzi vyúčtované (neaktívne) služby. Službu možno vyúčtovať:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;manuálne&lt;/STRONG&gt; -&amp;nbsp;umožňuje zaevidovať úhradu poskytovanej služby, a tým&amp;nbsp;ju manuálne vyúčtovať. Služba sa stane neaktívnou (v&amp;nbsp;knihe poskytovaných služieb bude zobrazená &lt;STRONG&gt;tučným písmom&lt;/STRONG&gt;), 
+&lt;LI&gt;&lt;STRONG&gt;presunom na&amp;nbsp;&lt;/STRONG&gt;&lt;A href="ffa5a889-7bfe-4165-ba83-15263eb77358"&gt;hotelový účet&lt;/A&gt; - je potrebné vybrať hotelový účet, na ktorý&amp;nbsp;sa daná služba presunie, 
+&lt;LI&gt;&lt;STRONG&gt;vystavením faktúry&lt;/STRONG&gt; - otvorí sa sprievodca&amp;nbsp;&lt;A href="ec4e9be4-140f-4ec9-aa04-544e9870bfe1"&gt;tvorbou novej pohľadávky&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;P&gt;V prípade, že účtovná jednotka používa aj modul&amp;nbsp;&lt;A href="78d20602-4b59-4b31-9f0a-a04a1d376ec5"&gt;Skladová evidencia&lt;/A&gt;, poskytnutú službu možno vyúčtovať pomocou&amp;nbsp;&lt;A href="a6f5e32d-6f1e-40bb-9d15-3f784a183252"&gt;Pokladnice OBERON&lt;/A&gt;&amp;nbsp;(tlačidlo &lt;EM&gt;Poskyt. služby&lt;/EM&gt;).&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Bližšie informácie o ovládaní evidencie, používaní filtrov, triedení záznamov a pod. sú dostupné v téme&amp;nbsp;&lt;A href="8936fde4-aac3-4672-99a2-c8bd5ccffdcd"&gt;Ovládanie knihy (evidencie)&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="4995b8a5-6860-47a0-9b1b-87de2f494528" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="52a22e5d-f6ee-46f3-9978-537f8fa5c984">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="5a8a1c7b-5f4d-46d0-ac82-a01cbf4d3a9e" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="0f4cbef4-f919-441f-bd61-6ef9ca0b1344">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="9d037a07-1fba-4a08-aad4-2e0044b284e9" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="a4d41ab0-a4b9-4307-9ae5-8b7a8d7ba977">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="96623d07-0502-45b1-a713-c5b6747cc226" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="6e804e10-6205-46ad-95f0-47204b6ef066">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="bcf1edc9-a82c-491f-bc72-1f1c73984c60">
+      <Keyword m="2022-05-19T10:55:46.5017852Z">Služby - kniha poskytovaných služieb</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="3fffad84-bd5c-4d1b-86ad-05db3518474d">
+      <Keyword m="2022-05-19T10:55:30.6993679Z">Rezervácia služby - kniha poskytovaných služieb</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>
