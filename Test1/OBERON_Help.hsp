@@ -960,7 +960,9 @@
       <TopicCategory Id="-" AutoIndex="false">
         <Caption m="2009-09-11T10:57:19.7639331Z">(Un-categorized)</Caption>
         <ChildTopicCategories />
-        <Topics />
+        <Topics>
+          <Topic Id="9a9c4fc5-f5ed-4a98-99d8-1a0f7b241d27" />
+        </Topics>
       </TopicCategory>
       <TopicCategory Id="CONTENTSNIPPETS" AutoIndex="false">
         <Caption m="2014-08-31T13:43:41.2908378Z">Content Snippets</Caption>
