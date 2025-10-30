@@ -1,12 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Topic Id="9a9c4fc5-f5ed-4a98-99d8-1a0f7b241d27" Status="New Topic" CreatedOn="2025-09-08T11:49:21.2097491Z" ModifiedOn="2025-09-08T14:51:01.3485122Z" ModifiedBy="ORBIS\dpistorius" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="TestTopic" BuildFlags="">
+<Topic Id="9a9c4fc5-f5ed-4a98-99d8-1a0f7b241d27" Status="New Topic" CreatedOn="2025-09-08T11:49:21.2097491Z" ModifiedOn="2025-10-30T11:58:25.8850649Z" ModifiedBy="ORBIS\dpistorius" PageTypeName="" AutoIndex="true" HelpContextIds="" Name="TestTopic" BuildFlags="">
   <Title />
   <ContentsTitle />
   <Notes></Notes>
   <CanonicalLink></CanonicalLink>
   <TopicSections>
     <TopicSection Name="BodyText">
-      <Content m="2025-09-08T14:51:01.3485122Z">&lt;P&gt;testing the git for oberon 1234567890&lt;/P&gt;</Content>
+      <Content m="2025-10-30T11:58:25.8850649Z">&lt;P&gt;testing the git for oberon 1234567890&lt;/P&gt;
+&lt;P&gt;check-in lock file after checkin happens 30/10/2025&lt;/P&gt;</Content>
     </TopicSection>
   </TopicSections>
   <TopicLinks />
