@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="78d20602-4b59-4b31-9f0a-a04a1d376ec5" Status="Complete" CreatedOn="2014-09-09T11:36:48.5169477Z" ModifiedOn="2024-04-30T07:44:03.1286533Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="false" HelpContextIds="" Name="Stock_About_Concept" BuildFlags="">
+  <Title m="2021-07-13T10:16:50.1930512Z">Všeobecne o koncepcii</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-04-30T07:44:03.1286533Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;všeobecné informácie o module&amp;nbsp;&lt;EM&gt;Skladová evidencia&lt;/EM&gt;&lt;/STRONG&gt;&amp;nbsp;v&amp;nbsp;systéme OBERON.&lt;/P&gt;
+&lt;H2&gt;Dôležité evidencie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Modul &lt;EM&gt;Sklad&lt;/EM&gt;&lt;EM&gt;ová evidencia&lt;/EM&gt; predstavuje jeden z modulov systému OBERON, ktorý&amp;nbsp;obsahuje &lt;STRONG&gt;všetky základné knihy potrebné&amp;nbsp;na&amp;nbsp;vedenie evidencie skladu (skladového hospodárstva, materiálovo-technického zabezpečenia (MTZ)) od malých živnostníkov až po stredne veľké firmy&lt;/STRONG&gt;. 
+&lt;LI&gt;Základnú evidenciu modulu predstavuje kniha &lt;A href="1a33ab0b-2df7-4dc2-962b-8a3319c16831" style="auto-update-caption: true"&gt;Skladové karty&lt;/A&gt; v&amp;nbsp;ktorej sa evidujú informácie o&amp;nbsp;tovare, vratných obaloch, službách,&amp;nbsp;sadách, výrobkoch&amp;nbsp;alebo receptúrach. Skladové karty môžu byť rozdelené do jedného alebo viacerých &lt;A href="1e423d36-8e0a-4420-b2e9-05f12806ec3a"&gt;skladov&lt;/A&gt;. 
+&lt;LI&gt;Okrem knihy skladových kariet ďalšími dôležitými evidenciami sú knihy &lt;A href="0be61fcc-a85b-4572-876d-2171a5cb7c29"&gt;Výdajky&lt;/A&gt;&amp;nbsp;a &lt;A href="efed1882-1614-4406-b57a-3023aee6ba26"&gt;Príjemky&lt;/A&gt;.&amp;nbsp;Samozrejmou súčasťou modulu je prepojenie s&amp;nbsp;fakturáciou (samostatná ponuka&amp;nbsp;&lt;A href="9980b99c-4409-4422-9d70-9cdd8893d0f3"&gt;Fakturácia&lt;/A&gt;), ktorá obsahuje evidencie vydaných faktúr&amp;nbsp;(&lt;A href="5c21adcc-87c8-44e7-981d-02902635693d" style="auto-update-caption: true"&gt;Kniha pohľadávok&lt;/A&gt;), prijatých faktúr (&lt;A href="55028746-c263-4d92-a615-502222e8d53b" style="auto-update-caption: true"&gt;Kniha záväzkov&lt;/A&gt;) a objednávok (&lt;A href="a93948ab-009e-4c8c-9467-60d60a3eb342" style="auto-update-caption: true"&gt;Objednávky vydané&lt;/A&gt;,&amp;nbsp;&lt;A href="48505e8d-5f28-4063-882b-ca07f33670ef" style="auto-update-caption: true"&gt;Objednávky prijaté&lt;/A&gt;). Vďaka prepojeniu je napr.&amp;nbsp;možné načítať do výdajky či faktúry položky z&amp;nbsp;prijatej objednávky (prípadne aj čiastočne vybavenú prijatú objednávku). 
+&lt;LI&gt;V knihe&amp;nbsp;&lt;A href="fc7595a6-54ce-4aa9-acb4-93d7880e854e"&gt;Skladové pohyby&lt;/A&gt;&amp;nbsp;je možné sledovať všetky príjmy a výdaje v sklade.&amp;nbsp;Pri každom príjme alebo výdaji v sklade (napr. pomocou výdajky či faktúry) sa do tejto evidencie automaticky zapíše záznam. Je tu možné sledovať výnosy, tlačiť súhrnné výkazy o príjmoch a&amp;nbsp;výdajoch, či získať štatistické údaje vo forme grafov. 
+&lt;LI&gt;Okrem hlavných evidencií sú v&amp;nbsp;module dostupné aj ďalšie evidencie a zoznamy:&amp;nbsp;&lt;A href="4f8c7cc5-f870-47fa-9506-1aa9ea89dc14"&gt;Výrobné a sériové čísla&lt;/A&gt;,&amp;nbsp;inventúrny súpis&amp;nbsp;na vykonanie &lt;A href="79f53c12-0f9d-46c1-b039-2a412e1671f0"&gt;inventúry skladu&lt;/A&gt;,&amp;nbsp;&lt;A href="34f91c11-1a5d-4773-ac4e-48ad2fc859d3"&gt;pravidlá rozšírenej cenotvorby&lt;/A&gt;&amp;nbsp;na definovanie&amp;nbsp;zliav a akcií atď. 
+&lt;LI&gt;Súčasťou modulu je štandardne&amp;nbsp;&lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnica OBERON&lt;/A&gt; s príslušnými evidenciami (&lt;A href="a4568b9d-f4ac-4d94-b56f-de3717381da7"&gt;Pokladničné doklady&lt;/A&gt;,&amp;nbsp;&lt;A href="fd6a0f47-c326-43a2-8408-003cce805463"&gt;Kniha tržieb&lt;/A&gt; a&amp;nbsp;&lt;A href="83d00926-652d-4ae9-8cba-997d462fac7d"&gt;Bonovacia kniha&lt;/A&gt;) a možnosťou pripojiť&amp;nbsp;&lt;A href="04b8d290-1470-41ff-85a1-c44a20958841"&gt;on-line registračnú pokladnicu&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Ďalšie informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Okrem modulu&amp;nbsp;&lt;A href="a6f5e32d-6f1e-40bb-9d15-3f784a183252"&gt;Pokladnica OBERON&lt;/A&gt; je modul &lt;EM&gt;Sklad&lt;/EM&gt;&lt;EM&gt;ová evidencia&lt;/EM&gt;&amp;nbsp;prepojený aj s ďalšími modulmi,&amp;nbsp;ako je&amp;nbsp;&lt;A href="49dd3167-870a-4fdf-b631-d4f692f1ed72"&gt;Podvojné účtovníctvo&lt;/A&gt;,&amp;nbsp;&lt;A href="c3bd41f0-029e-4c74-b342-b0ffff647b6e"&gt;Hotelová recepcia&lt;/A&gt;, či&amp;nbsp;&lt;A href="f1a6963d-36aa-4134-92a5-fa47a4345e74"&gt;CRM a registratúra&lt;/A&gt; (&lt;A href="945b74ea-31f8-44e7-baef-ffb5fc136b05"&gt;Evidencia reklamácií a servisu&lt;/A&gt;).&amp;nbsp; 
+&lt;LI&gt;Modul je možné na&amp;nbsp;vedenie skladu&amp;nbsp;použiť &lt;STRONG&gt;v&amp;nbsp;pomerne rôznorodých prevádzkach&lt;/STRONG&gt; - od bežných obchodných prevádzok, cez bary a reštaurácie, až po internetové obchody s&amp;nbsp;evidovaním&amp;nbsp;&lt;A href="b0e0ad9c-d19d-4670-8485-ec384dbae1bd"&gt;variantov&lt;/A&gt; (veľkostí, farieb...) a parametrov. K dispozícii je evidencia&amp;nbsp;&lt;A href="00777364-8b56-4ec5-b5ce-b302f3f384a3"&gt;evidencia spotrebiteľského balenia liehu&lt;/A&gt; (tzv.&amp;nbsp;SBL pri predaji alkoholu) či &lt;A href="78bceae1-1cc7-4e31-a232-24b38044c3d0"&gt;komisionálneho predaja&lt;/A&gt;. 
+&lt;LI&gt;Väčšie firmy ocenia prepracovaný systém&amp;nbsp;&lt;A href="834e9546-a56b-476f-9028-ef4c24a82345"&gt;práv používateľov&lt;/A&gt; -&amp;nbsp;používatelia môžu mať prístup len k určitým skladom, môžu upravovať doklady len určitý počet dní, prípadne sa im môže odoprieť zobrazenie nákupných (obstarávacích) cien. 
+&lt;LI&gt;Systém OBERON udržiava medzi súvisiacimi záznamami v rôznych evidenciách &lt;STRONG&gt;väzby&lt;/STRONG&gt;.&amp;nbsp;To umožňuje zostaviť&amp;nbsp;grafický prehľad väzieb daného záznamu, ktorý je zároveň interaktívny - kliknutím pravým tlačidlom myši je možné jednotlivé záznamy zobraziť, upraviť, resp. exportovať. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 1: Väzby dokumentov - dve výdajky&amp;nbsp;vyúčtované faktúrou, účtovný predpis a zaúčtovanie&amp;nbsp;úhrady&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/Stock/Stock_DocumentRelation.png"&gt;&amp;nbsp;&lt;/P&gt;
+&lt;H2&gt;Webové služby&lt;/H2&gt;
+&lt;P&gt;V&amp;nbsp;module &lt;EM&gt;Skladová evidencia&lt;/EM&gt; je možné použiť tieto funkcie a&amp;nbsp;aplikácie&amp;nbsp;využívajúce&amp;nbsp;&lt;A href="58bb31ca-00c8-4641-ad99-7d58e24f59c5"&gt;webové služby&lt;/A&gt;:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;A href="be17efdf-4b36-4b47-ad5d-09b0f66c8f65"&gt;ASTON - mobilný skladník&lt;/A&gt;&amp;nbsp;- mobilná aplikácia pre&amp;nbsp;&lt;EM&gt;Android&amp;nbsp;&lt;/EM&gt;a &lt;EM&gt;iOS&lt;/EM&gt; určená na použitie so systémom OBERON na prácu v&amp;nbsp;sklade, 
+&lt;LI&gt;&lt;A href="b138daad-5453-4e53-8d2c-ecf2e81a5fcb"&gt;OBERON Web&lt;/A&gt;&amp;nbsp;- nadstavbová webová aplikácia&amp;nbsp;pre smartfóny, tablety či iné mobilné zariadenia, ktorá poskytuje&amp;nbsp;&lt;STRONG&gt;vybrané manažérske informácie zo systému OBERON v reálnom čase&lt;/STRONG&gt;, ako napríklad: 
+&lt;UL&gt;
+&lt;LI&gt;aktuálne prihlásení používatelia do OBERON-u, 
+&lt;LI&gt;evidencia&amp;nbsp;&lt;A href="b7a48886-b367-4056-808a-59ba5f871f32"&gt;obchodných partnerov&lt;/A&gt;, 
+&lt;LI&gt;prehľad&amp;nbsp;prijatých objednávok, 
+&lt;LI&gt;skladové karty, možnosť&amp;nbsp;&lt;A href="489dd25b-dd6a-416d-be26-ce647566b429"&gt;spracovania inventúry&lt;/A&gt; v sklade pomocou mobilných zariadení (zápis fyzických množstiev), 
+&lt;LI&gt;aktuálne stavy zásob v sklade, 
+&lt;LI&gt;štatistiky k nákupom a predajom v sklade, obrátkovosti, 
+&lt;LI&gt;množstvo grafov o príjme, predaji a výnosoch v skladoch, 
+&lt;LI&gt;aktuálne obraty registračných pokladníc, 
+&lt;LI&gt;štatistiky k predajom na pokladniciach z&amp;nbsp;&lt;A href="fd6a0f47-c326-43a2-8408-003cce805463"&gt;knihy tržieb&lt;/A&gt;, 
+&lt;LI&gt;a ďalšie zaujímavé informácie. &lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Licenčné podmienky&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;V&amp;nbsp;obmedzenom režime (na skúšobné účely) je možné s modulom &lt;EM&gt;Skladová evidencia&lt;/EM&gt; pracovať &lt;STRONG&gt;aj bez licencie&lt;/STRONG&gt; - viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="95d188df-c149-46a9-8474-4d9493f2ad41" style="auto-update-caption: true"&gt;Licenčná politika&lt;/A&gt;. 
+&lt;LI&gt;Plnohodnotne je možné modul&amp;nbsp;&lt;EM&gt;Skladová evidencia&lt;/EM&gt; používať &lt;STRONG&gt;len s&amp;nbsp;platnou&amp;nbsp;licenciou&lt;/STRONG&gt;. Dôležitým faktorom pri výbere typu licencie&amp;nbsp;je predpokladaný počet&amp;nbsp;&lt;A href="1a33ab0b-2df7-4dc2-962b-8a3319c16831"&gt;skladových kariet&lt;/A&gt; a&amp;nbsp;&lt;A href="fc7595a6-54ce-4aa9-acb4-93d7880e854e"&gt;skladových pohybov&lt;/A&gt;. Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="644b0685-defe-4ce5-b3cd-e731b5eff299" style="auto-update-caption: true"&gt;Typy licencií&lt;/A&gt;. 
+&lt;LI&gt;V cene licencie za modul &lt;EM&gt;Skladová evidencia&lt;/EM&gt; &lt;STRONG&gt;je zahrnutá aj cena licencie&lt;/STRONG&gt; za modul&amp;nbsp;&lt;A href="a6f5e32d-6f1e-40bb-9d15-3f784a183252"&gt;Pokladnica OBERON&lt;/A&gt;.&lt;BR&gt;&lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="3434535c-0886-4586-92cd-3ff0b56faaea" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="dbe76648-4e40-4ef5-938e-6b4a45580f97">
+      <Title m="2023-05-09T12:56:34.312748Z">Skladová evidencia - základné možnosti</Title>
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="12468323-ef0b-4cfe-bef1-8b34d21dd6e1" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="04b8d290-1470-41ff-85a1-c44a20958841">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="db90c5f0-1b6f-421c-989f-7ed6610ba99d" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="49dd3167-870a-4fdf-b631-d4f692f1ed72">
+      <Title m="2014-11-29T08:13:58.982355Z">Podvojné účtovníctvo - všeobecne o koncepcii</Title>
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="8ebba626-6674-47ef-bf8f-03f09fee92b9" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="32be28cf-2368-4818-9d24-cfa9d59afb75">
+      <Title m="2014-11-29T08:14:29.0400742Z">Jednoduché účtovníctvo - všeobecne o koncepcii</Title>
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="6884e680-d3b5-4d3c-882d-c579f851a930" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="9980b99c-4409-4422-9d70-9cdd8893d0f3">
+      <Title m="2023-06-08T13:41:30.6714969Z">Fakturácia - všeobecne o koncepcii</Title>
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="b0e491c4-dd82-4c85-8b35-547c29bdc059" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="a6f5e32d-6f1e-40bb-9d15-3f784a183252">
+      <Title m="2023-06-08T13:42:01.6117851Z">Pokladnica OBERON - všeobecne o koncepcii</Title>
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="c24b09b6-c2be-44d5-935a-a75c1c4bb115" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="713352a4-493d-4e5e-a592-49c7723d5ca4">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="566cc197-8ece-4f43-a4d4-9d2abec6e52f">
+      <Keyword m="2023-02-23T07:38:30.6482958Z">Všeobecne o koncepcii - skladová evidencia</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="5c788834-65ba-4edf-8463-979f27e7570c">
+      <Keyword m="2023-02-23T07:38:53.3713485Z">Skladová evidencia - všeobecne o koncepcii</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

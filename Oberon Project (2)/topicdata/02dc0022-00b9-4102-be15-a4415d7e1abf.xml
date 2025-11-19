@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="02dc0022-00b9-4102-be15-a4415d7e1abf" Status="Complete" CreatedOn="2023-06-02T07:13:43.8590546Z" ModifiedOn="2024-05-31T12:31:40.9033638Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="22000" Name="OAC_AutomaticBackup" BuildFlags="">
+  <Title m="2014-09-05T06:36:24.0011938Z">Automatické zálohovanie</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-05-31T12:31:40.9033638Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; je venovaná&amp;nbsp;jednej z&amp;nbsp;&lt;A href="9ce25bbd-35d1-4096-acd5-70007f5af5a6"&gt;automatických úloh&lt;/A&gt;&amp;nbsp;systému OBERON&amp;nbsp;- &lt;STRONG&gt;automatickému zálohovaniu údajov&lt;/STRONG&gt;. Automatické zálohovanie údajov predstavuje popri&amp;nbsp;&lt;A href="ee4036d9-55fd-40ee-ab76-69337f16b1cc"&gt;manuálnom zálohovaní&lt;/A&gt; jeden zo spôsobov&amp;nbsp;&lt;A href="493f5942-f267-4f98-a46d-8acc745b9b88"&gt;zálohovania údajov&lt;/A&gt; v systéme OBERON.&lt;/P&gt;&lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;V systéme OBERON&amp;nbsp;je táto&amp;nbsp;funkcia z dôvodu kompatibility stále&amp;nbsp;vykonávaná aj v&amp;nbsp;staršom programe &lt;EM&gt;OBERON Center&lt;/EM&gt;, avšak&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;&amp;nbsp;s obmedzenou platnosťou&lt;/SPAN&gt;.&amp;nbsp;Z tohto dôvodu je potrebné automatické zálohovanie konfigurovať v&amp;nbsp;programe&amp;nbsp;&lt;A href="09f3dae9-2fb7-490f-97dc-37f60885b398"&gt;OBERON Automation Center&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Základné informácie&amp;nbsp;&amp;nbsp;&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;I&gt;Automatické zálohovanie&lt;/I&gt; predstavuje&amp;nbsp;&lt;A href="9ce25bbd-35d1-4096-acd5-70007f5af5a6"&gt;automatickú úlohu&lt;/A&gt;, ktorá v&amp;nbsp;systéme OBERON umožňuje&amp;nbsp;automatické zálohovanie&amp;nbsp;údajov účtovnej jednotky (firmy). Je určené tak&lt;STRONG&gt;&amp;nbsp;pre databázový systém SQL server&amp;nbsp;(&lt;EM&gt;MariaDB&amp;nbsp;&lt;A href="1f32a90c-7b4a-4d69-9f38-a560178794b3" style="auto-update-caption: true"&gt;&lt;IMG border=0 alt="Odporúčané riešenia" src="images/OBERON/Basic/Odporucane-riesenie_ruka_ikona.png"&gt;&lt;/A&gt;, MySQL, MS SQL Server&lt;/EM&gt;),&lt;/STRONG&gt; &lt;STRONG&gt;ako aj pre&amp;nbsp;súborovú databázu &lt;EM&gt;Microsoft Access&lt;/EM&gt;&lt;/STRONG&gt;, pričom umožňuje zálohovať aj&amp;nbsp;iné, neúčtovné údaje&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;.&lt;/SPAN&gt; 
+&lt;LI&gt;Zálohované údaje sa v&amp;nbsp;závislosti od nastavení&amp;nbsp;ukladajú na disk počítača (C:\OBERON-ZALOHY) alebo akékoľvek iné záložné médium, ktoré sa nachádza v&amp;nbsp;lokálnom počítači, prípadne sa odosielajú na FTP server. 
+&lt;LI&gt;V prípade databáz SQL servera je možné &lt;STRONG&gt;v rámci jednej automatickej úlohy zálohovať všetky databázy&lt;/STRONG&gt; umiestnené na danom SQL serveri.&amp;nbsp; 
+&lt;LI&gt;Pri zálohovaní sa vytvorí súbor s&amp;nbsp;príponou ZIP (štandardný ZIP archív). Záložný súbor môže byť chránený heslom. 
+&lt;LI&gt;Informácie o automatickom zálohovaní sa priebežne ukladajú do&amp;nbsp;&lt;A href="bc30e126-afb5-41aa-a261-e92501038063"&gt;Sledovania činností&lt;/A&gt; (ponuka &lt;EM&gt;Servis&lt;/EM&gt;), kde sú dostupné každému používateľovi, ktorý si tak môže overiť, či sa databáza zálohuje. 
+&lt;LI&gt;Automatické zálohovanie &lt;STRONG&gt;nepodporuje inkrementálne zálohovanie&lt;/STRONG&gt; (zálohovanie, pri ktorom si držíme jednu úplnú zálohu a každou ďalšou zálohou sú len zmeny v údajoch), ale zálohuje sa vždy celá databáza, ktorá spravidla obsahuje údaje aj za viac účtovných období (rokov), prípadne aj viac celých databáz (účtovných jednotiek, firiem). 
+&lt;LI&gt;Automatická obnova údajov z automatického zálohovania &lt;STRONG&gt;nie je v systéme OBERON podporovaná&lt;/STRONG&gt;.&amp;nbsp;Viac informácií o&amp;nbsp;obnove&amp;nbsp;údajov&amp;nbsp;zo záložnej kópie údajov (zálohy) vytvorenej pri automatickom zálohovaní údajov získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="c47b2846-a02e-4066-992b-cc976cd8a717" style="auto-update-caption: true"&gt;Všeobecne o obnove údajov&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Nastavenie &lt;EM&gt;Automatického zálohovania&lt;/EM&gt;&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;Pred&amp;nbsp;nastavením automatickej úlohy v&amp;nbsp;systéme OBERON &lt;STRONG&gt;sa uistite, že je&amp;nbsp;na počítači, ktorý je neustále zapnutý (spravidla sieťovom databázovom serveri),&lt;/STRONG&gt;&amp;nbsp;správne nastavený&amp;nbsp;&lt;STRONG&gt;server&lt;/STRONG&gt;&amp;nbsp;&lt;A href="09f3dae9-2fb7-490f-97dc-37f60885b398"&gt;OBERON Automation Center&lt;/A&gt;. Postup nastavenia je dostupný v&amp;nbsp;téme&amp;nbsp;&lt;A href="fd64c37a-486b-4cdf-a370-297aaa8a8f73" style="auto-update-caption: true"&gt;Nastavenie servera OBERON Automation Center&lt;/A&gt;.&amp;nbsp;Správnosť nastavenia a&amp;nbsp;fungovania&amp;nbsp;servera OAC môžete skontrolovať v&amp;nbsp;programe&lt;STRONG&gt;&amp;nbsp;&lt;EM&gt;OBERON Automation Center&lt;/EM&gt; (klient)&lt;/STRONG&gt; (v&amp;nbsp;programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;, ponuka&amp;nbsp;&lt;EM&gt;OBERON&lt;/EM&gt;,&amp;nbsp;&lt;A href="69282df4-d4d6-462a-8cf2-68000e3e6f93"&gt;OBERON Automation Center (klient)&lt;/A&gt;). &lt;SPAN style="COLOR: rgb(255,0,0)"&gt;Pri&amp;nbsp;použití&lt;/SPAN&gt; &lt;EM style="COLOR: rgb(255,0,0)"&gt;OBERON Automation Center&lt;/EM&gt;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;&amp;nbsp;&lt;STRONG&gt;odporúčame&lt;/STRONG&gt;&lt;/SPAN&gt; &lt;STRONG style="COLOR: rgb(255,0,0)"&gt;používať databázu SQL&lt;/STRONG&gt;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;.&lt;/SPAN&gt; 
+&lt;LI&gt;Na &lt;STRONG&gt;klientskom počítači&lt;/STRONG&gt; spustite program &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt; a&amp;nbsp;v&amp;nbsp;ponuke &lt;EM&gt;OBERON,&amp;nbsp;&lt;/EM&gt;&lt;A href="e975459f-e882-49f2-adb9-79e68a07df0e"&gt;Otvorenie agendy (firmy)&lt;/A&gt; otvorte databázu účtovnej jednotky. 
+&lt;LI&gt;V&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="225638ed-22f6-4ac4-9085-6d77c64925db" style="auto-update-caption: true"&gt;Používatelia&lt;/A&gt; vytvorte&amp;nbsp;nového používateľa&amp;nbsp;typu &lt;I&gt;&lt;STRONG&gt;Systémový&lt;/STRONG&gt;&lt;/I&gt;. 
+&lt;LI&gt;V&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="9ce25bbd-35d1-4096-acd5-70007f5af5a6"&gt;Automatické úlohy&lt;/A&gt;&amp;nbsp;stlačte tlačidlo &lt;EM&gt;Nový&lt;/EM&gt;. Otvorí sa&amp;nbsp;formulár &lt;EM&gt;Automatická úloha&lt;/EM&gt;, v&amp;nbsp;ktorom vyberte typ úlohy&amp;nbsp;&lt;EM&gt;&lt;STRONG&gt;Automatické&amp;nbsp;zálohovanie&lt;/STRONG&gt;&lt;/EM&gt; a zadajte názov úlohy. 
+&lt;LI&gt;Stlačením tlačidla&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_Button_Refresh.png"&gt;&amp;nbsp;pri rozbaľovacom zozname &lt;EM&gt;Vykonávať na serveri&lt;/EM&gt;&amp;nbsp;aktualizujte zoznam dostupných serverov a vyberte príslušný server OAC, na ktorom sa má úloha vykonávať. 
+&lt;LI&gt;Vyberte používateľa systému OBERON vytvoreného v&amp;nbsp;bode č.&amp;nbsp;3, pod ktorým sa má automatická&amp;nbsp;úloha vykonávať. 
+&lt;LI&gt;Stlačte tlačidlo &lt;EM&gt;Nastaviť&lt;/EM&gt;. Otvorí sa &lt;A href="6499a206-9a28-440a-90ca-e6d5556763b4"&gt;formulár Nastavenie automatickej úlohy 'Automatické zálohovanie'&lt;/A&gt;, v&amp;nbsp;ktorom: 
+&lt;UL&gt;
+&lt;LI&gt;v&amp;nbsp;záložke &lt;EM&gt;Základné&lt;/EM&gt; &lt;STRONG&gt;zvoľte typ zálohovaných údajov&lt;/STRONG&gt; -&amp;nbsp;na zálohovanie databáz&amp;nbsp;typu SQL zvoľte možnosť &lt;EM&gt;Zálohovať databázy z&amp;nbsp;SQL servera&lt;/EM&gt;, v&amp;nbsp;prípade, že chcete zálohovať databázy typu&amp;nbsp;&lt;A href="0b81f4ea-5e68-48c1-8b89-933d5a23d962"&gt;Microsoft Access&lt;/A&gt;, prípadne iné neúčtovné údaje, zvoľte možnosť &lt;EM&gt;Zálohovať adresáre a&amp;nbsp;súbory v&amp;nbsp;počítači,&lt;/EM&gt; 
+&lt;LI&gt;v&amp;nbsp;záložke&amp;nbsp;&lt;EM&gt;SQL databázy&lt;/EM&gt; môžete&amp;nbsp;stlačením tlačidla &lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_Button_Refresh.png"&gt;&amp;nbsp;načítať všetky databázy umiestnené&amp;nbsp;v&amp;nbsp;SQL serveri&amp;nbsp;a&amp;nbsp;&lt;STRONG&gt;vybrať tie, ktoré sa majú zahrnúť do zálohovania&lt;/STRONG&gt;, 
+&lt;LI&gt;v&amp;nbsp;záložke &lt;EM&gt;Záložný súbor&lt;/EM&gt; zadajte &lt;STRONG&gt;názov záložného súboru, prípadne aj heslo na jeho ochranu, a zvoľte umiestnenie adresára&lt;/STRONG&gt;, do ktorého sa záložný súbor uloží, 
+&lt;LI&gt;v&amp;nbsp;záložke &lt;EM&gt;Ostatné&lt;/EM&gt; &lt;STRONG&gt;nastavte ostatné parametre zálohovania&lt;/STRONG&gt; (postupné obmieňanie záloh, vytváranie mesačných záloh, zoznam úloh pred a po spustení zálohovania). &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Nastavenia vykonané v jednotlivých záložkách potvrďte stlačením tlačidla &lt;STRONG&gt;&lt;EM&gt;OK&lt;/EM&gt;&lt;/STRONG&gt;. 
+&lt;LI&gt;Vo formulári &lt;EM&gt;Automatická úloha&lt;/EM&gt; v&amp;nbsp;záložke &lt;EM&gt;Čas spustenia&lt;/EM&gt; nastavte &lt;STRONG&gt;interval spustenia automatickej úlohy&lt;/STRONG&gt;. 
+&lt;LI&gt;Vykonané nastavenia potvrďte stlačením tlačidla &lt;STRONG&gt;&lt;EM&gt;OK&lt;/EM&gt;&lt;/STRONG&gt;. &lt;/LI&gt;&lt;/OL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="2298641f-994c-4ea1-9d99-1701b636c31b" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="9ce25bbd-35d1-4096-acd5-70007f5af5a6">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="d78adc4a-6bc0-4893-a819-140887add053" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="493f5942-f267-4f98-a46d-8acc745b9b88">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="410293a9-be67-4e49-aee8-c960c3c48dbd" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="6499a206-9a28-440a-90ca-e6d5556763b4">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="68922d31-bf3a-450a-95e8-e4939fa64ef8" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="c47b2846-a02e-4066-992b-cc976cd8a717">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="323eb12c-f5e3-4c83-be19-530164bfe686">
+      <Keyword m="2022-01-31T12:23:27.3989153Z">Zálohovanie databázy - automatické</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="aad62f76-6097-4965-b265-08451614ac70">
+      <Keyword m="2021-03-09T13:20:48.8524264Z">OBERON Center - automatické zálohovanie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="7d3c92f6-bf3c-4f0f-9bc1-489dc1091a35">
+      <Keyword m="2021-03-11T08:18:36.9743494Z">Databáza SQL servera - zálohovanie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="2495c35d-2390-417c-be1a-19a51b6c1f1b">
+      <Keyword m="2022-01-31T12:23:20.6638522Z">Súborová databáza - automatické zálohovanie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="cf81830d-e976-4246-a69b-8f73b05ea83b">
+      <Keyword m="2022-01-31T12:23:58.8582191Z">Záloha databázy SQL servera - automatické zálohovanie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="19e6fd5f-98a2-4317-9f67-fbf735243b59">
+      <Keyword m="2022-01-31T12:24:08.1234807Z">Štandardné zálohovanie - automatické</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="7494460e-267c-4db4-af4b-aeb02f559776">
+      <Keyword m="2023-02-14T12:38:38.5488543Z">MS Access - automatické zálohovanie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="c12fa9a3-db65-4065-9295-b02452c88d41">
+      <Keyword m="2023-02-14T12:38:51.6136624Z">SQL server - automatické zálohovanie</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

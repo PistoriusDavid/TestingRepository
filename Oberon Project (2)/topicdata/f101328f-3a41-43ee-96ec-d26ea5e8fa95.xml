@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="f101328f-3a41-43ee-96ec-d26ea5e8fa95" Status="Complete" CreatedOn="2024-10-03T09:59:41.2391648Z" ModifiedOn="2024-12-19T10:08:50.5687751Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="OBERON_Businesses_AccountingCompanies" BuildFlags="">
+  <Title m="2024-10-03T10:00:19.3480245Z">OBERON pre účtovné firmy</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-12-19T10:08:50.5687751Z">&lt;TABLE id=table1 borderColor=white cellSpacing=15 cellPadding=15 border=1&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TD bgColor=white width="10%" align=left cellpadding="15" cellspacing="15"&gt;&lt;IMG style="MARGIN-TOP: 35px; FLOAT: left; MARGIN-RIGHT: 20px" border=0 alt="" src="images/OBERON/Basic/OBERON_AccountingCompanies.png"&gt;&lt;/TD&gt;
+&lt;TD style="TEXT-ALIGN: left; PADDING-TOP: 10px" bgColor=white width="85%"&gt;
+&lt;P&gt;Malé a&amp;nbsp;stredne veľké&amp;nbsp;firmy, pre ktoré je systém OBERON určený,&amp;nbsp;možno&amp;nbsp;rozdeliť podľa oblastí, na ktoré sú zamerané - tzv. odborových zameraní. Prehľad&amp;nbsp;najčastejších odborových zameraní, v&amp;nbsp;rámci ktorých je vhodné používať systém OBERON, je dostupný v&amp;nbsp;téme&amp;nbsp;&lt;A href="a9d046bb-1f84-4530-8215-dda2b66b2cae" style="auto-update-caption: true"&gt;Pre koho je OBERON určený?&lt;/A&gt; Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje&amp;nbsp;&lt;STRONG&gt;prehľad špecifických evidencií, funkcií a&amp;nbsp;nástrojov&lt;/STRONG&gt;, ktoré môžu v OBERON-e využívať účtovné jednotky (firmy) v&amp;nbsp;rámci&amp;nbsp;odborového zamerania&amp;nbsp;&lt;EM&gt;&lt;STRONG&gt;Účtovné firmy&lt;/STRONG&gt;&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Do okruhu&amp;nbsp;odborových zameraní, pre ktoré je systém OBERON určený,&amp;nbsp;patria aj&amp;nbsp;&lt;STRONG&gt;účtovné firmy,&lt;/STRONG&gt; &lt;STRONG&gt;ktoré spracúvajú účtovnú agendu&amp;nbsp;pre veľký počet ďalších firiem&lt;/STRONG&gt;. 
+&lt;LI&gt;Systém OBERON obsahuje &lt;STRONG&gt;celý rad základných funkcií, možností a vlastností, ktoré sú nevyhnutné&lt;/STRONG&gt; pre správu agendy každej účtovnej jednotky (firmy). Tie, ktoré sú určené pre účtovné firmy, sú &lt;STRONG&gt;podrobne popísané&lt;/STRONG&gt; v&amp;nbsp;témach s&amp;nbsp;názvom &lt;EM&gt;&lt;STRONG&gt;Základné možnosti&lt;/STRONG&gt;&lt;/EM&gt;&amp;nbsp;(&lt;A href="45c3e766-c948-449b-9292-afacb10df9bc"&gt;Podvojné účtovníctvo - základné možnosti&lt;/A&gt;,&amp;nbsp;&lt;A href="98f3fbbd-4456-432c-9318-8f9c9a7d933e"&gt;Jednoduché účtovníctvo - základné možnosti&lt;/A&gt;,&amp;nbsp;&lt;A href="60bbb193-6ba6-495c-8c54-431baf8b966f"&gt;Fakturácia - základné možnosti&lt;/A&gt;...). 
+&lt;LI&gt;Základné evidencie, číselníky&amp;nbsp;a nastavenia sú sústredené najmä do dvoch ponúk programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;: do ponuky &lt;EM&gt;&lt;STRONG&gt;Servis&lt;/STRONG&gt;&lt;/EM&gt; a do ponuky &lt;EM&gt;&lt;STRONG&gt;Firma&lt;/STRONG&gt;&lt;/EM&gt;. Tu možno napr. evidovať údaje o firme, heslá ktoré používa, bankové účty, účtovné pokladne, obchodných partnerov firmy, jej pracovníkov, používateľov, ktorí budú s programom pracovať atď. 
+&lt;LI&gt;V nasledujúcej časti&amp;nbsp;je uvedený &lt;STRONG&gt;prehľad špecifických evidencií, funkcií a&amp;nbsp;nástrojov&lt;/STRONG&gt;, ktoré môžu v&amp;nbsp;OBERON-e využiť &lt;STRONG&gt;účtovné firmy&lt;/STRONG&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;
+&lt;H1&gt;Evidencie, funkcie a nástroje špecifické pre účtovné firmy&lt;/H1&gt;
+&lt;H2&gt;Účtovníctvo&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Podvojné aj jednoduché účtovníctvo&lt;/STRONG&gt; - program umožňuje účtovným firmám viesť účtovníctvo tak v sústave&amp;nbsp;&lt;A href="49dd3167-870a-4fdf-b631-d4f692f1ed72"&gt;podvojného&lt;/A&gt;, ako aj&amp;nbsp;&lt;A href="32be28cf-2368-4818-9d24-cfa9d59afb75"&gt;jednoduchého účtovníctva.&lt;/A&gt; 
+&lt;LI&gt;&lt;STRONG&gt;Účtovné osnovy&lt;/STRONG&gt; - podvojné účtovníctvo umožňuje pracovať so štandardnou účtovnou osnovou pre podnikateľské subjekty, pre mikro účtovné jednotky,&amp;nbsp;ako aj s účtovnou osnovou pre&amp;nbsp;neziskové organizácie. 
+&lt;LI&gt;Predovšetkým pre väčšie účtovné jednotky môžu byť užitočné funkcie&amp;nbsp;&lt;A href="41513109-f711-4de5-b494-67671f203dca"&gt;&lt;STRONG&gt;Hromadné účtovanie dokladov&lt;/STRONG&gt;&lt;/A&gt;&amp;nbsp;na hromadné&amp;nbsp;zaúčtovanie dokladov do účtovného denníka a&amp;nbsp;&lt;A href="02bbf54b-086f-4641-8c33-4dd461e56fb4" style="auto-update-caption: true"&gt;&lt;STRONG&gt;Spracovanie bankových výpisov&lt;/STRONG&gt;&lt;/A&gt;&amp;nbsp;na hromadné spracovanie bankových výpisov v&amp;nbsp;elektronickom formáte. Import a následné spracovanie bankových výpisov je možné vykonávať aj automaticky pomocou osobitnej automatickej úlohy. Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="1a074e9a-9cf9-4ab8-b9a8-68575142a704" style="auto-update-caption: true"&gt;&lt;STRONG&gt;Automatické spracovanie bankových výpisov&lt;/STRONG&gt;&lt;/A&gt;. 
+&lt;LI&gt;&lt;A href="e50f9e37-991e-4800-9fc3-3eeb6ce162a7"&gt;&lt;STRONG&gt;Hromadné zaúčtovanie skladu&lt;/STRONG&gt;&lt;/A&gt;&amp;nbsp;s&amp;nbsp;možnosťou nastavenia skladových predkontácií, pomocou ktorých sa hromadne zaúčtujú pohyby na sklade (za určité obdobie). 
+&lt;LI&gt;&lt;A href="b4329672-0a25-4161-bea7-150f71012c40"&gt;&lt;STRONG&gt;Hromadné účtovanie majetku (účtovných odpisov)&lt;/STRONG&gt;&lt;/A&gt;. 
+&lt;LI&gt;&lt;A href="7410538f-4d0e-4d92-b76b-1e4df963548c"&gt;&lt;STRONG&gt;Automatické účtovanie tržieb&lt;/STRONG&gt;&lt;/A&gt;&amp;nbsp;registračných pokladníc (fiškálnych tlačiarní). Okrem toho je možné&amp;nbsp;automaticky zaúčtovať aj úhrady faktúr v&amp;nbsp;hotovosti s&amp;nbsp;automatickým zaúčtovaním zaokrúhlenia a všetky výbery a vklady peňažných prostriedkov v pokladnici. 
+&lt;LI&gt;&lt;A href="cf9e27af-d4c5-4b0c-9b37-78cfa72b9abd" style="auto-update-caption: true"&gt;&lt;STRONG&gt;Automatické účtovanie pokladničných dokladov&lt;/STRONG&gt;&lt;/A&gt;&amp;nbsp;pomocou&amp;nbsp;&lt;A href="80a78093-fc45-4db9-b74b-e1f9829f7b3c"&gt;snímača čiarových kódov&lt;/A&gt;&amp;nbsp;alebo aplikácie&amp;nbsp;&lt;A href="518026eb-be63-494d-b3e3-837f9509c543"&gt;QeeR skener&lt;/A&gt;. 
+&lt;LI&gt;&lt;A href="cc3dcaea-c62f-450b-9878-6298aa9b0f6e"&gt;&lt;STRONG&gt;Automatické účtovanie zaokrúhlenia&lt;/STRONG&gt;&lt;/A&gt;.&lt;IMG style="MARGIN-LEFT: 20px; MARGIN-RIGHT: 20px" border=0 alt="" src="images/Devices/Device_QeeRskener_MainScreen.png" align=right&gt; 
+&lt;LI&gt;&lt;STRONG&gt;Automatické preúčtovanie daňových nákladov&lt;/STRONG&gt; pri pomernom odpočítaní DPH. 
+&lt;LI&gt;&lt;STRONG&gt;Automatické prečíslovanie dokladov&lt;/STRONG&gt; - možnosť dodatočne automaticky prečíslovať doklady v účtovnom denníku. 
+&lt;LI&gt;&lt;STRONG&gt;Prečíslovanie pokladničných dokladov&lt;/STRONG&gt;&amp;nbsp;- zároveň sa prečíslujú všetky súvisiace doklady v&amp;nbsp;iných knihách (&lt;EM&gt;Kniha pohľadávok, Kniha záväzkov, Kniha evidencie DPH,&amp;nbsp;Evidencia vozidiel&lt;/EM&gt;). 
+&lt;LI&gt;&lt;A href="c5a0e260-f27f-4a19-9b09-39a40bfbd69f"&gt;&lt;STRONG&gt;Export výkazov vo formáte XML do aplikácie eDane&lt;/STRONG&gt;&lt;/A&gt;&amp;nbsp;&lt;EM&gt;Finančného riaditeľstva SR&lt;/EM&gt; (export údajov a jeho následný import do programu &lt;EM&gt;eDane&lt;/EM&gt; sa spravidla vykonávajú automaticky pri vytváraní daného výkazu). 
+&lt;LI&gt;&lt;STRONG&gt;Automatické účtovanie kurzových rozdielov&lt;/STRONG&gt; (zisk alebo strata). 
+&lt;LI&gt;&lt;A href="aaff1cb2-5d8a-481e-990e-0f69c608171e"&gt;&lt;STRONG&gt;Zamykanie dokladov&lt;/STRONG&gt;&lt;/A&gt;&amp;nbsp;na ochranu proti neželaným zmenám (napr. po podaní DPH priznania, po kompletnom zaúčtovaní mesiaca a pod.). &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Ďalšie funkcie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Cloudové riešenia&lt;/STRONG&gt; - na bezproblémový prístup&amp;nbsp;môžu byť databázy jednotlivých&amp;nbsp;firiem uložené v cloude. K&amp;nbsp;dispozícii je viacero cloudových riešení:&amp;nbsp;&lt;A href="cd4b8ec5-af3b-4964-8330-cdb144f66307"&gt;OBERON Cloud&lt;/A&gt; od spoločnosti &lt;EM&gt;GLOBERG:Digital&lt;/EM&gt; vhodný najmä pre účtovné, resp. mzdové firmy,&amp;nbsp;&lt;A href="b2fd5a00-627a-4bb5-a28c-f6b923ddcdc6"&gt;OBERON Data Cloud&lt;/A&gt; od firmy &lt;EM&gt;ENGINE Slovakia&lt;/EM&gt;, prípadne ďalšie (napr. od &amp;nbsp;&lt;A href="089202e5-faad-43b4-8972-aeaaa9abd86f"&gt;Websupportu&lt;/A&gt;). 
+&lt;LI&gt;&lt;STRONG&gt;Multilicencia&lt;/STRONG&gt;&amp;nbsp;- pre účtovné firmy je určený osobitný druh licencie - tzv.&amp;nbsp;&lt;A href="644b0685-defe-4ce5-b3cd-e731b5eff299"&gt;multilicencia&lt;/A&gt;, s&amp;nbsp;ktorou môžu viesť účtovníctvo pre neobmedzené množstvo&amp;nbsp;menších firiem. 
+&lt;LI&gt;&lt;A href="f1a6963d-36aa-4134-92a5-fa47a4345e74"&gt;&lt;STRONG&gt;CRM&lt;/STRONG&gt;&lt;/A&gt; - riadenie vzťahov so zákazníkmi a sledovanie obchodných prípadov. 
+&lt;LI&gt;&lt;STRONG&gt;Mobilné riešenia&lt;/STRONG&gt; - na samotné účtovanie je k dispozícii mobilná aplikácia&amp;nbsp;&lt;A href="518026eb-be63-494d-b3e3-837f9509c543" style="auto-update-caption: true"&gt;QeeR skener&lt;/A&gt;&amp;nbsp;pre operačný systém &lt;EM&gt;Android&lt;/EM&gt; a &lt;EM&gt;iOS&lt;/EM&gt; na&amp;nbsp;&lt;A href="cf9e27af-d4c5-4b0c-9b37-78cfa72b9abd"&gt;automatické účtovanie pokladničných dokladov&lt;/A&gt;&amp;nbsp;(možno vykonávať aj&amp;nbsp;&lt;A href="80a78093-fc45-4db9-b74b-e1f9829f7b3c"&gt;snímačom čiarových kódov&lt;/A&gt;). 
+&lt;LI&gt;&lt;A href="836278d3-cfe9-4218-aaf5-51ee9fd113fe"&gt;&lt;STRONG&gt;Bankové API&lt;/STRONG&gt;&lt;/A&gt; - prepojenie systému OBERON s vybranými slovenskými bankami prostredníctvom bankového rozhrania API na import položiek bankových výpisov do účtovníctva priamo z banky. 
+&lt;LI&gt;&lt;A href="c1e2e5a1-2cf4-47aa-a546-47d5baa1df3e"&gt;&lt;STRONG&gt;Elektronický podpis&lt;/STRONG&gt;&lt;/A&gt; - automatické podpisovanie a overovanie pravosti elektronických dokumentov (PDF, XML) s vložením podpísaného PDF dokumentu ako prílohy do e-mailu. 
+&lt;LI&gt;&lt;A href="68a24d97-e4a5-4cf4-bc7a-72262df5973e"&gt;&lt;STRONG&gt;Elektronický archív&lt;/STRONG&gt;&lt;/A&gt;&amp;nbsp;- veľmi užitočným pre každú účtovnú jednotku môže byť&amp;nbsp;elektronický archív, ktorý umožňuje v&amp;nbsp;elektronickej forme uschovávať účtovnú dokumentáciu účtovných jednotiek (firiem). 
+&lt;LI&gt;&lt;A href="dcd3c480-994c-477d-9fc7-17af717ade13" style="auto-update-caption: true"&gt;&lt;STRONG&gt;Správca hesiel&lt;/STRONG&gt;&lt;/A&gt;&amp;nbsp;- užitočným nástrojom je aj&amp;nbsp;&lt;EM&gt;Správca hesiel&lt;/EM&gt;&amp;nbsp;určený na správu hesiel účtovnej jednotky a&amp;nbsp;ich zdieľanie&amp;nbsp;(napr. konateľ firmy môže zdieľať heslo do internetbankingu s&amp;nbsp;účtovníčkou).&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 
+&lt;LI&gt;&lt;A href="b138daad-5453-4e53-8d2c-ecf2e81a5fcb"&gt;&lt;STRONG&gt;OBERON Web&lt;/STRONG&gt;&lt;/A&gt;&amp;nbsp;- webová aplikácia, ktorá sprístupňuje vybrané manažérske informácie dostupné v reálnom čase (obchodní partneri, zostatky bankových účtov a pokladní...). 
+&lt;LI&gt;&lt;STRONG&gt;Prepojenie s inými modulmi&lt;/STRONG&gt; - modul &lt;EM&gt;Účtovníctvo&lt;/EM&gt; je prepojený s ostatnými modulmi OBERON-u, čo vytvára komplexný a moderný ekonomický systém. Napr. prepojenie účtovného denníka (pokladničných dokladov) s evidenciou&amp;nbsp;&lt;A href="822d4556-571e-4260-ab82-e68d232b1662"&gt;nákupu pohonných látok&lt;/A&gt;&amp;nbsp;(v&amp;nbsp;module&amp;nbsp;&lt;A href="085651d2-b64b-4884-b55d-0ba2b7f7808a"&gt;Evidencia vozidiel&lt;/A&gt;),&amp;nbsp;automatické čiastočné odpočítanie DPH vo výške 80&amp;nbsp;%. 
+&lt;LI&gt;&lt;A href="04d2db16-08ec-459e-b5c9-71dd3a9f9e2f"&gt;&lt;STRONG&gt;Jazykové verzie&lt;/STRONG&gt;&lt;/A&gt; - zahŕňajú jazykové verzie programu (preklady názvov&amp;nbsp;jednotlivých položiek menu, názvov záložiek, tlačidiel atď., hlásenia v programe a&amp;nbsp;tlačové výstupy) a jazykové verzie údajov (preklady dát evidovaných v databáze účtovnej jednotky). &lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="55348d9f-f204-4bea-b0ca-16132adbde50" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="ff101cdb-97bb-4962-b99a-6347d95ff311">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="c23b0ab7-0dde-429b-b0fb-5e6331745f36" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="a9d046bb-1f84-4530-8215-dda2b66b2cae">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="fec3ccc3-3d2b-4dd1-9c0a-4f953625b494" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="45c3e766-c948-449b-9292-afacb10df9bc">
+      <Title m="2024-10-30T08:23:50.5665295Z">Podvojné účtovníctvo - základné možnosti</Title>
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="6fbe484a-97c5-4aa8-a25e-7b97a57789ed" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="98f3fbbd-4456-432c-9318-8f9c9a7d933e">
+      <Title m="2024-10-04T10:11:02.4853076Z">Jednoduché účtovníctvo - základné možnosti</Title>
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="ad84219b-dcec-4de2-a15c-edd60cd697f7" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="75cfef8e-40bd-4b5b-9af2-a221edf76de9">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="d6bf187e-4e95-482f-bf22-3b6e58854cff" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="d2ba2bed-1813-41d6-a257-d0b5ca4faf3f">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="e3970730-1ba7-4878-9961-673bf6007cc0" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="95d188df-c149-46a9-8474-4d9493f2ad41">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="cdcca6f1-0a5c-4bb1-a0d0-fedb7c40e5af" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="40c83e5f-22aa-4ba5-b4c1-35938f90fac2">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="d4e14a29-4942-4986-a21a-34869fcecbc2" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="04d2db16-08ec-459e-b5c9-71dd3a9f9e2f">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="67d246aa-6279-47cf-8cd4-0a9e02dfcf5e">
+      <Keyword m="2024-10-28T07:03:53.5161807Z">Účtovné firmy - pre koho je OBERON určený</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

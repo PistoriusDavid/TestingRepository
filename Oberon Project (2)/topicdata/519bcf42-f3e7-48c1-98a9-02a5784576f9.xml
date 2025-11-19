@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="519bcf42-f3e7-48c1-98a9-02a5784576f9" Status="Complete" CreatedOn="2015-11-18T09:22:43.5000112Z" ModifiedOn="2024-07-18T08:52:05.0185141Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Help_SpecializedDocumentation" BuildFlags="">
+  <Title m="2015-11-18T09:23:43.5904481Z">Špecializovaná dokumentácia</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-07-18T08:52:05.0185141Z">&lt;P&gt;Okrem&lt;A href="8c0e0dd3-ce14-410b-9a1c-76b92585e960"&gt; štandardnej dokumentácie vo forme Pomocníka OBERON&lt;/A&gt;&amp;nbsp;je&amp;nbsp;k&amp;nbsp;systému OBERON spracovaná aj&amp;nbsp;&lt;STRONG&gt;špecializovaná dokumentácia&lt;/STRONG&gt; určená &lt;STRONG&gt;výhradne pre servisných technikov, systémových integrátorov, vývojárov&lt;/STRONG&gt;&amp;nbsp;a&amp;nbsp;pod. Jej je venovaná táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Dokumentácia&amp;nbsp;pre servisných technikov&amp;nbsp;a systémových integrátorov&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;A href="19a10c98-2b1d-4fe1-8ab2-98921ab328be"&gt;Inštalácia systému OBERON&lt;/A&gt; - obsahuje základné informácie o inštalácii OBERON-u. 
+&lt;LI&gt;&lt;A href="9c0e1613-bfdc-48f6-9d03-58aba39dab36"&gt;Inštalácia SQL servera&lt;/A&gt; - obsahuje popis inštalácie databázového&amp;nbsp;systému&amp;nbsp;SQL server. 
+&lt;LI&gt;&lt;A href="56f661c6-24da-46aa-b157-5d988cbe792b"&gt;XML komunikácia&lt;/A&gt; - obsahuje základné informácie o možnostiach XML exportov/importov, tzv. transformačné šablóny XSLT, import z&amp;nbsp;CSV. 
+&lt;LI&gt;&lt;A href="58bb31ca-00c8-4641-ad99-7d58e24f59c5"&gt;Webové služby&lt;/A&gt;&amp;nbsp;(&lt;EM&gt;WebServices API&lt;/EM&gt;) - základné informácie o webových službách v systéme OBERON. 
+&lt;LI&gt;&lt;A href="3757d6bf-3009-4685-beee-617e34892086"&gt;Univerzálne rozhrania&lt;/A&gt; - rozhrania&amp;nbsp;na vytvorenie externej DLL knižnice (fiškálna tlačiareň, transporty údajov). &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Špecializovaná dokumentácia - webové služby&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;&lt;A href="http://www.exalogic.sk/help/WebServices/index.html" target=_blank&gt;Referenčná príručka Webové služby OBERON&lt;/A&gt;&lt;/STRONG&gt; (obsahuje popis štruktúr a metód pre &lt;A href="58bb31ca-00c8-4641-ad99-7d58e24f59c5"&gt;webové služby&lt;/A&gt;&amp;nbsp;systému OBERON). Detaily:
+&lt;UL&gt;
+&lt;LI&gt;Základná služba OBERON (2. generácia):&amp;nbsp;&lt;A href="http://www.exalogic.sk/help/WebServicesGen2/?topic=html/R_Project_OBERON_WebServicesReferenceGuide.htm" target=_blank&gt;IOBERONWebServiceGen2&lt;/A&gt;&amp;nbsp;(od roku 2022)
+&lt;LI&gt;Základná služba OBERON:&amp;nbsp;&lt;A href="http://www.exalogic.sk/help/WebServices/?topic=html/R_Project_OBERON_WebServicesReferenceGuide.htm" target=_blank&gt;IOBERONWebService&lt;/A&gt;&amp;nbsp;(do roku 2022)
+&lt;LI&gt;Mobilný čašník:&amp;nbsp;&lt;A href="http://www.exalogic.sk/help/WebServices/?topic=html/T_Exa_OBERON_Services_IOBERONCashRegisterService.htm" target=_blank&gt;IOBERONCashRegisterWebService&lt;/A&gt;
+&lt;LI&gt;OBERON vernostný systém (server):&amp;nbsp;&lt;A href="http://www.exalogic.sk/help/WebServices/?topic=html/T_Exa_OBERON_Services_IOBERONLoyaltySystemService.htm" target=_blank&gt;IOBERONLoyaltySystemService&lt;/A&gt;
+&lt;LI&gt;OBERON vernostný systém (klient):&amp;nbsp;&lt;A href="http://www.exalogic.sk/help/WebServices/?topic=html/N_Exa_OBERON_Shared_LoyaltyCardSystems_Drivers.htm" target=_blank&gt;IOBERONLoyaltySystemClient&lt;/A&gt;&lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Špecializovaná dokumentácia -&amp;nbsp;eKasa PANDORA&amp;nbsp;API&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;A href="http://www.exalogic.sk/help/eKasaPANDORA-API/index.html" target=_blank&gt;Referenčná príručka eKasa PANDORA&lt;/A&gt;&amp;nbsp;&lt;A href="1f32a90c-7b4a-4d69-9f38-a560178794b3" style="auto-update-caption: true"&gt;&lt;IMG border=0 alt="Odporúčané riešenia" src="images/OBERON/Basic/Odporucane-riesenie_ruka_ikona.png"&gt;&lt;/A&gt;&amp;nbsp;-&amp;nbsp;k systému&amp;nbsp;&lt;A href="00fa9619-a13d-4745-8938-cc0c2b5039ce"&gt;eKasa PANDORA&lt;/A&gt; ako certifikovanej pokladničnej časti je možné pristúpiť&amp;nbsp;pomocou rozhrania API, ktoré umožňuje vytvoriť samostatné pokladničné riešenie. Poskytuje všetky funkcie, ktoré sú implementované v&amp;nbsp;module &lt;A href="a6f5e32d-6f1e-40bb-9d15-3f784a183252"&gt;Pokladnica OBERON&lt;/A&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;Prostredie -&lt;/STRONG&gt; ovládač je vo forme&amp;nbsp;knižnice DLL určenej pre prostredie &lt;EM&gt;Microsoft .NET 4.8&lt;/EM&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;PPEKK&lt;/STRONG&gt; - certifikovaná časť systému &lt;EM&gt;eKasa PANDORA&lt;/EM&gt; je určená pre prostredie&amp;nbsp;&lt;EM&gt;Microsoft .NET 4.8&lt;/EM&gt;. &lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="cb536a1c-f8ec-41fe-b31f-f7a67cbd4e3a" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="8c0e0dd3-ce14-410b-9a1c-76b92585e960">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="c89002a5-c86f-4ad7-b157-b667291cc311" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="d432b45a-6978-4337-885d-28254ece2616">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="a75ed0aa-53f0-400f-8a0e-f0f72b14426e">
+      <Keyword m="2021-02-22T13:26:45.6956945Z">Dokumentácia - servisní technici a integrátori</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="44e738cd-1955-4d7f-9054-bc3407e6c00f">
+      <Keyword m="2022-12-08T11:22:24.6644112Z">Nápoveď - špecializovaná</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="bb8ced8f-71f5-4e1e-b3c0-1ccdda38d9d2">
+      <Keyword m="2021-02-22T13:27:07.7249238Z">Dokumentácia - webové služby</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="81239613-087e-43f5-b07d-bafcc6cd52d5">
+      <Keyword m="2021-02-22T13:41:10.3005132Z">Dokumentácia - OBERON API</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="7b26d23a-78f2-4782-9014-456594a10a5a">
+      <Keyword m="2021-02-22T13:41:25.9624752Z">Dokumentácia - univerzálne rozhrania</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="77ff150f-e528-494d-b8e3-89e17a534d7a">
+      <Keyword m="2021-03-03T07:59:23.3679713Z">Dokumentácia - špecializovaná</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

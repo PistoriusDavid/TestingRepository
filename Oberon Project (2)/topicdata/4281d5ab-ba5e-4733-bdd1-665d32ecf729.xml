@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="4281d5ab-ba5e-4733-bdd1-665d32ecf729" Status="Complete" CreatedOn="2019-03-26T14:02:04.1402809Z" ModifiedOn="2024-05-30T06:40:20.971574Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Device_FiscalDevice_VAROS_FT5000B" BuildFlags="">
+  <Title m="2019-09-19T09:57:51.2629315Z">Fiškálna tlačiareň VAROS FT5000B</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2022-12-22T13:05:31.271184Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;základné&lt;/STRONG&gt; &lt;STRONG&gt;informácie&lt;/STRONG&gt; o podporovanej fiškálnej tlačiarni&amp;nbsp;&lt;EM&gt;VAROS FT5000B&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;EM&gt;VAROS FT5000B&lt;/EM&gt;&amp;nbsp;predstavuje certifikovanú&amp;nbsp;&lt;A href="b24ad235-cf7f-43e2-b3e8-ec0f7d92f6b6"&gt;fiškálnu tlačiareň&lt;/A&gt;, ktorá v spojení s modulom &lt;A href="aec074f4-3e1c-4a1e-8a80-06fcecf51156"&gt;Pokladnica OBERON&lt;/A&gt; vytvorí z počítača plnohodnotnú on-line registračnú pokladnicu. Počítač sa pritom nezmení na jednoúčelové zariadenie určené len na predaj, ale možno ho naďalej využívať aj na iné činnosti (ako bez fiškálnej tlačiarne), a to aj paralelne popri predaji na pokladnici. 
+&lt;LI&gt;Fiškálna tlačiareň &lt;EM&gt;VAROS FT5000B&lt;/EM&gt;&amp;nbsp;je zariadenie, ktoré sa skladá zo softvéru (pokladničného programu eKasa klient – PPEKK, ktorý je súčasťou firmvéru zariadenia), chráneného dátového úložiska a&amp;nbsp;tlačiarne pokladničných dokladov, ktoré sú súčasťou kitu zariadenia. 
+&lt;LI&gt;Zariadenie je kompatibilné s viacerými typmi tlačiarní pokladničných dokladov (konkrétny typ je potrebné overiť u výrobcu). 
+&lt;LI&gt;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;Výrobca pokladničného programu (PPEKK):&amp;nbsp;&lt;A href="http://www.bowa.sk/" target=_blank&gt;BOWA s.r.o.&lt;/A&gt;&lt;/SPAN&gt; 
+&lt;LI&gt;Výrobca chráneného dátového úložiska (CHDÚ):&amp;nbsp;&lt;A href="http://www.bowa.sk/" target=_blank&gt;BOWA s.r.o.&lt;/A&gt; 
+&lt;LI&gt;&lt;SPAN lang=en-us xml:lang="en-us"&gt;&lt;SPAN lang=en-us xml:lang="en-us"&gt;Spôsob pripojenia (rozhranie): LAN.&lt;/SPAN&gt;&lt;/SPAN&gt; 
+&lt;LI&gt;&lt;SPAN lang=en-us xml:lang="en-us"&gt;&lt;SPAN lang=en-us xml:lang="en-us"&gt;&lt;SPAN lang=en-us xml:lang="en-us"&gt;Spôsob komunikácie: TCP/IP.&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt; &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;&lt;SPAN lang=en-us xml:lang="en-us"&gt;&lt;SPAN lang=en-us xml:lang="en-us"&gt;&lt;SPAN lang=en-us xml:lang="en-us"&gt;&lt;SPAN lang=en-us xml:lang="en-us"&gt;Zariadenie sa inštaluje&amp;nbsp;v&amp;nbsp;programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;, ponuka &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="749ff4f1-eeb5-43f5-98d2-021399d8cec7" style="auto-update-caption: true"&gt;Zariadenia&lt;/A&gt;, tlačidlo &lt;EM&gt;Pridať&lt;/EM&gt;.&amp;nbsp;Viac informácií k inštalácii zariadenia získate v téme&amp;nbsp;&lt;A href="d7d8cb47-4180-42f1-8f06-510e4ce06009" style="auto-update-caption: true"&gt;Fiškálna tlačiareň VAROS FT5000B - inštalácia&lt;/A&gt;.&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H5&gt;Obrázok č. 1: Fiškálna tlačiareň &lt;EM&gt;VAROS FT5000B&lt;/EM&gt;&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Devices/Device_VAROS_FT5000B.png"&gt;&amp;nbsp;&lt;/P&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Porovnanie jednotlivých podporovaných fiškálnych zariadení je dostupné v téme&amp;nbsp;&lt;A href="d9b919e7-20c4-4c50-9910-4f13211ed9a8"&gt;Podporované registračné pokladnice&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt; &lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="a3754563-3ab4-40a1-85f4-5788603016e1" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="b24ad235-cf7f-43e2-b3e8-ec0f7d92f6b6">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="ec43fa6b-10d9-4cd5-bd26-3c11d19d7bdc" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="d7d8cb47-4180-42f1-8f06-510e4ce06009">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="289c31dd-b950-473c-a26b-f0b7c830daac" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="29c1b7d9-36d4-4d86-89bd-54cd2cb22050">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="a74a7432-d662-413f-8d9f-4fe5e64aea25">
+      <Keyword m="2021-04-07T12:33:08.0943296Z">VAROS FT5000 eKasa - fiškálna tlačiareň</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="e057872f-e0f2-4f80-81c3-22cd2883bc7a">
+      <Keyword m="2021-04-07T12:33:21.3240052Z">FT5000B VAROS eKasa</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="d287d86d-06cd-4a2e-bc4c-d7fe8f555cb7">
+      <Keyword m="2021-04-07T12:46:21.3433185Z">eKasa VAROS FT5000</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

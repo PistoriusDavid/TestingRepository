@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="c4816aab-0050-498d-b3a5-ff35774b6fa9" Status="Complete" CreatedOn="2014-09-08T10:56:58.2845583Z" ModifiedOn="2022-03-07T13:33:17.5262412Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="22316" Name="Menu_Firm_Accounting_CashRegister" BuildFlags="">
+  <Title m="2014-09-08T10:57:23.0869769Z">Účtovné pokladne</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2022-03-07T13:33:17.5262412Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;je venovaná&amp;nbsp;položke&amp;nbsp;&lt;EM&gt;Účtovné pokladne&lt;/EM&gt;&amp;nbsp;v ponuke&amp;nbsp;&lt;EM&gt;Firma&lt;/EM&gt; programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Výberom položky sa otvorí&amp;nbsp;číselník&amp;nbsp;&lt;EM&gt;Účtovné pokladne&lt;/EM&gt;, v&amp;nbsp;ktorom&amp;nbsp;je možné &lt;STRONG&gt;definovať účtovné pokladne účtovnej jednotky, opraviť už zadané údaje o&amp;nbsp;účtovných pokladniach, prípadne tieto údaje vymazať&lt;/STRONG&gt;.
+&lt;LI&gt;V&amp;nbsp;systéme OBERON môže jedna účtovná jednotka pracovať aj s&amp;nbsp;viacerými účtovnými pokladňami, vrátane valutových pokladní. V&amp;nbsp;&lt;A href="d8c9bfc8-92d1-4471-8909-e5f8ce602d6c"&gt;účtovnom denníku&lt;/A&gt;&amp;nbsp;môže mať každá pokladňa samostatný číselný rad príjmových a výdavkových dokladov.&amp;nbsp;V&amp;nbsp;tom prípade&amp;nbsp;je však potrebné nadefinovať príslušné typy dokladov (ponuka &lt;I&gt;Účtovníctvo&lt;/I&gt;, &lt;A href="a6423943-483f-408c-befc-73e849cb6b05"&gt;Typy dokladov&lt;/A&gt;).
+&lt;LI&gt;V&amp;nbsp;&lt;A href="d8c9bfc8-92d1-4471-8909-e5f8ce602d6c"&gt;účtovnom denníku&lt;/A&gt;&amp;nbsp;a&amp;nbsp;v&amp;nbsp;&lt;A href="5e82cca9-b8af-4a80-ba30-7ab91914a595"&gt;peňažnom denníku&lt;/A&gt;&amp;nbsp;možno pomocou filtra &lt;EM&gt;Zobraziť doklady&lt;/EM&gt; v&amp;nbsp;hornej časti evidencie zobraziť zápisy denníka podľa jednotlivých účtovných pokladní.
+&lt;LI&gt;Príslušná pokladňa&amp;nbsp;účtovnej jednotky sa vyberá z rozbaľovacieho zoznamu pri tlači pokladničnej knihy v účtovnom/peňažnom denníku. 
+&lt;LI&gt;Do poľa &lt;EM&gt;Platná (používaná) do&lt;/EM&gt; je možné zadať dátum, do ktorého sa daná pokladňa používala. Po tomto dátume sa už nebude v ďalšom účtovnom období zobrazovať (s pokladňou&amp;nbsp;sa nebude dať pracovať). &lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="796f7194-1843-4f37-abbb-6d7eb22b610e" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="d8c9bfc8-92d1-4471-8909-e5f8ce602d6c">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="c545fc7d-0c94-4063-9282-4432f78518f1" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="5e82cca9-b8af-4a80-ba30-7ab91914a595">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="112af191-9ede-47b2-b039-bf2f4a8f6d96" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="a6423943-483f-408c-befc-73e849cb6b05">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="8809f3e5-efd6-454b-96be-8e3d6c28ec1e">
+      <Keyword m="2015-04-22T09:04:45.7138671Z">Hlavná pokladňa</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="fff09125-0cb3-4971-97e4-113250c332eb">
+      <Keyword m="2022-03-07T13:26:13.5962754Z">Valutová pokladňa</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="f93b0e3c-bf54-4e28-aff7-f8bed5bb6661">
+      <Keyword m="2022-03-07T13:26:28.9821726Z">Pokladne účtovnej jednotky</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

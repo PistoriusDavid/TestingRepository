@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="8c3cc66a-acbb-4047-aad2-b06170ec7fb5" Status="Complete" CreatedOn="2017-05-24T10:33:56.0170723Z" ModifiedOn="2023-06-08T08:59:02.0766684Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Stock_Advanced_Dailymenu" BuildFlags="">
+  <Title m="2023-03-31T09:16:11.9994384Z">Ako nadefinovať položky denného menu</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-06-08T08:59:02.0766684Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;informácie, ako nadefinovať položky denného menu&lt;/STRONG&gt; v systéme OBERON a následne ich predávať na&amp;nbsp;&lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnici OBERON&lt;/A&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Pre tie reštauračné prevádzky, ktoré ponúkajú svojim zákazníkom stravovacie služby vo forme denného&amp;nbsp;menu, systém OBERON umožňuje nadefinovať jednotlivé položky denného menu a následne ich predávať na&amp;nbsp;&lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnici OBERON&lt;/A&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;Vytvorenie&amp;nbsp;položiek denného menu&lt;/STRONG&gt; v systéme OBERON znamená&amp;nbsp;&lt;A href="277559d2-a8ba-4399-b39d-58b8b28b01ff"&gt;založenie skladových kariet&lt;/A&gt;&amp;nbsp;&lt;A href="8deac9fe-9864-41e8-aaa3-02257c241d78"&gt;typu receptúra&lt;/A&gt; pre jednotlivé položky denného menu, a&amp;nbsp;to na každý deň v&amp;nbsp;týždni &lt;STRONG&gt;s&amp;nbsp;konkrétnym kódom položky&lt;/STRONG&gt; (napr. &lt;EM&gt;Pondelok -&lt;/EM&gt; &lt;EM&gt;Menu 1&lt;/EM&gt; s&amp;nbsp;kódom položky 01/1, kde 01 je prvý deň v týždni a 1 druh denného menu (&lt;EM&gt;Menu 1&lt;/EM&gt;)&lt;EM&gt;,&lt;/EM&gt; &lt;EM&gt;Pondelok -&lt;/EM&gt; &lt;EM&gt;Menu 2&lt;/EM&gt; s&amp;nbsp;kódom položky 01/2&lt;EM&gt;,&lt;/EM&gt; &lt;EM&gt;Utorok -&lt;/EM&gt; &lt;EM&gt;Menu 1&lt;/EM&gt; s&amp;nbsp;kódom položky 02/1&lt;EM&gt;,&lt;/EM&gt; &lt;EM&gt;Utorok -&lt;/EM&gt; &lt;EM&gt;Menu 2&lt;/EM&gt; s&amp;nbsp;kódom položky 02/2 atď.). Do takto vytvorenej položky &lt;STRONG&gt;sa do zloženia receptúry vloží receptúra jedla&lt;/STRONG&gt;, ktoré sa bude v rámci danej položky denného menu ponúkať (tzv. &lt;A href="691d23dd-a44d-48f0-827e-c6a358b2dabc"&gt;zložená receptúra&lt;/A&gt;). Pred začiatkom predaja v&amp;nbsp;nasledujúcom týždni sa jednoducho táto receptúra nahradí inou.&amp;nbsp;To umožní danú skladovú kartu denného menu evidovať vždy&amp;nbsp;s tým istým kódom položky, ale inou receptúrou (jedlom). 
+&lt;LI&gt;Položky denného menu je možné nadefinovať na rôzne&amp;nbsp;dlhé obdobie (1 týždeň, 2 týždne, 3 týždne, 1 mesiac, prípadne aj dlhšie obdobie). 
+&lt;LI&gt;Po nadefinovaní je možné &lt;STRONG&gt;predaj položiek denného menu&lt;/STRONG&gt; na &lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnici OBERON&lt;/A&gt;&amp;nbsp;realizovať viacerými spôsobmi: 
+&lt;UL&gt;
+&lt;LI&gt;využitím &lt;STRONG&gt;tlačidiel PLU (odporúčané riešenie)&lt;/STRONG&gt; - viac informácií o tlačidlách PLU&amp;nbsp;získate v téme&amp;nbsp;&lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnica OBERON&lt;/A&gt;, 
+&lt;LI&gt;pomocou &lt;STRONG&gt;tlačidiel predávaných položiek&lt;/STRONG&gt; priradených osobitnej&amp;nbsp;&lt;A href="07957769-848a-42b8-8d4b-678f7246396c"&gt;skupine v pokladnici&lt;/A&gt; (napr. s názvom &lt;EM&gt;Denné menu&lt;/EM&gt;) - tento spôsob je vhodné použiť v&amp;nbsp;prípade, že tlačidlá PLU sú už&amp;nbsp;obsadené inými skladovými položkami, ktoré nesúvisia s denným menu, 
+&lt;LI&gt;rýchlym&amp;nbsp;&lt;A href="e76125f0-4fb3-4e56-82db-667593132461"&gt;predajom pomocou kódu položky&lt;/A&gt;, t.&amp;nbsp;j.&amp;nbsp;&lt;STRONG&gt;formou priameho zadávania kódu predávanej položky (prípadne aj s množstvom) na klávesnici do poľa&amp;nbsp;&lt;EM&gt;Množstvo*Kód položky.&lt;/EM&gt;&lt;/STRONG&gt; Napr. na Obrázku č. 2 je zobrazený kód 24/1, kde 24 znamená deň, v ktorom sa dané menu ponúka (napr. 24. 5.) a&amp;nbsp;1 označuje druh denného menu.&amp;nbsp;Tento spôsob je vhodný pri plánovaní&amp;nbsp;denného menu&amp;nbsp;na celý mesiac vopred.&amp;nbsp;V takomto prípade je potrebné vytvoriť 31 skladových kariet pre každý&amp;nbsp;druh menu, napr. 01/1 až 31/1 pre prvý druh menu (&lt;EM&gt;Menu 1&lt;/EM&gt;), 01/2 až 31/2 pre&amp;nbsp;ďalší druh menu (&lt;EM&gt;Menu 2&lt;/EM&gt;)&amp;nbsp;atď. &lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 1: Nastavenie tlačidiel PLU&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/Stock/Form_Stock_Dailymenu_Settings.png"&gt;&amp;nbsp;&lt;/P&gt;
+&lt;H2&gt;Postup&amp;nbsp;vytvorenia položky denného menu&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;V&amp;nbsp;programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt; v&amp;nbsp;ponuke&amp;nbsp;&lt;I&gt;Sklad&lt;/I&gt; zvoľte položku&amp;nbsp;&lt;A href="1a33ab0b-2df7-4dc2-962b-8a3319c16831"&gt;Skladové karty&lt;/A&gt;. 
+&lt;LI&gt;V&amp;nbsp;otvorenej evidencii stlačte tlačidlo &lt;I&gt;Nový&lt;/I&gt;, zobrazí sa&amp;nbsp;&lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;formulár Skladová karta&lt;/A&gt;&amp;nbsp;(v&amp;nbsp;prípade, že používate&amp;nbsp;&lt;A href="f83017eb-1d46-42a5-991b-bdf5d628aa8d"&gt;samostatné číselné rady v rámci skladových skupín&lt;/A&gt;, najprv sa otvorí&amp;nbsp;číselník&amp;nbsp;&lt;EM&gt;Skladové skupiny&lt;/EM&gt;, v&amp;nbsp;ktorom&amp;nbsp;zvoľte príslušnú skladovú skupinu na priradenie novovytváranej skladovej karty&amp;nbsp;k&amp;nbsp;tejto skladovej skupine). 
+&lt;LI&gt;V záložke &lt;EM&gt;Základné&lt;/EM&gt; zadajte číslo a názov karty&amp;nbsp;(napr.&amp;nbsp;&lt;EM&gt;Pondelok -&lt;/EM&gt; &lt;EM&gt;Menu 1&lt;/EM&gt;, &lt;EM&gt;Utorok -&lt;/EM&gt; &lt;EM&gt;Menu 1&lt;/EM&gt; atď.)&amp;nbsp;a&amp;nbsp;zvoľte typ karty &lt;EM&gt;&lt;STRONG&gt;Receptúra&lt;/STRONG&gt;&lt;/EM&gt;. Po stlačení tlačidla &lt;EM&gt;Zloženie...&lt;/EM&gt; vložte do zloženia receptúry receptúru jedla, ktoré chcete v rámci danej položky denného menu predávať. 
+&lt;LI&gt;V záložke &lt;EM&gt;Reg. pokladnice&lt;/EM&gt; začiarknite&amp;nbsp;pole &lt;EM&gt;&lt;STRONG&gt;Umožniť pracovať s položkou na pokladnici&lt;/STRONG&gt;&lt;/EM&gt; a&amp;nbsp;zadajte &lt;STRONG&gt;kód položky&lt;/STRONG&gt;. 
+&lt;LI&gt;Ak sa bude daná položka denného menu predávať pomocou tlačidla PLU, môžete jej priradiť &lt;STRONG&gt;farbu&lt;/STRONG&gt; (v&amp;nbsp;záložke &lt;EM&gt;Doplň. údaje&lt;/EM&gt;). 
+&lt;LI&gt;Ak sa bude daná položka denného menu predávať pomocou tlačidla predávanej položky, priraďte ju ku &lt;STRONG&gt;skupine v pokladnici&lt;/STRONG&gt; (napr. s názvom &lt;EM&gt;Denné menu&lt;/EM&gt;). Postup, ako vytvoriť skupinu v pokladnici a priradiť k nej skladovú kartu, je dostupný v téme&amp;nbsp;&lt;A href="07957769-848a-42b8-8d4b-678f7246396c" style="auto-update-caption: true"&gt;Skladové karty - skupiny v pokladnici&lt;/A&gt;. 
+&lt;LI&gt;Vykonané nastavenia potvrďte stlačením tlačidla &lt;I&gt;&lt;STRONG&gt;OK&lt;/STRONG&gt;&lt;/I&gt;. Do knihy&amp;nbsp;skladových kariet&amp;nbsp;sa uloží nová skladová karta (položka denného menu). &lt;/LI&gt;&lt;/OL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Na uľahčenie vytvárania položiek denného menu je možné už vytvorenú skladovú kartu jednoducho skopírovať pomocou štandardného kopírovania &lt;EM&gt;Ctrl+C&lt;/EM&gt; a &lt;EM&gt;Ctrl+V&lt;/EM&gt; a následne v nej zmeniť príslušné údaje.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Nastavenie PLU tlačidiel&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;V&amp;nbsp;programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt; vo&amp;nbsp;&lt;A href="422aed09-2423-4763-b538-639c0493b060"&gt;formulári Nastavenie vzhľadu pokladnice&lt;/A&gt;&amp;nbsp;v záložke &lt;EM&gt;Vrchný panel&lt;/EM&gt;, sekcia&amp;nbsp;&lt;EM&gt;PLU (rýchly predaj)&lt;/EM&gt; stlačte tlačidlo&amp;nbsp;&lt;EM&gt;Definovať&lt;/EM&gt; (Obrázok č. 1) a následne tlačidlo &lt;EM&gt;Nový -&lt;/EM&gt;&amp;nbsp;zobrazí sa formulár &lt;EM&gt;Tlačidlo&lt;/EM&gt;, v&amp;nbsp;ktorom&amp;nbsp;stlačte tlačidlo&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_ListButton.png"&gt;. Zobrazí sa zoznam skladových kariet, z&amp;nbsp;ktorého vyberte príslušnú položku denného menu (napr. &lt;EM&gt;Pondelok - Menu 1&lt;/EM&gt;). 
+&lt;LI&gt;Na uloženie tlačidla PLU stlačte tlačidlo &lt;EM&gt;&lt;STRONG&gt;OK&lt;/STRONG&gt;&lt;/EM&gt;. 
+&lt;LI&gt;Poradie&amp;nbsp;tlačidiel PLU je možné meniť pomocou&amp;nbsp;&lt;A href="38489850-ab82-41b6-b258-3fa613ed5861"&gt;panela na zmenu poradia položiek zoznamu&lt;/A&gt;&amp;nbsp;(modrých šípok). &lt;/LI&gt;&lt;/OL&gt;
+&lt;H5&gt;Obrázok č. 2: Predaj denného menu na &lt;EM&gt;Pokladnici OBERON&lt;/EM&gt;&amp;nbsp;pomocou tlačidiel&amp;nbsp;PLU a pomocou kódu položky&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/Stock/Form_Stock_Dailymenu_Cash.png"&gt;&lt;/P&gt;&lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt; 
+&lt;P&gt;&lt;STRONG&gt;Evidencia počtu porcií&lt;/STRONG&gt;&lt;/P&gt;
+&lt;P&gt;Systém OBERON neumožňuje viesť presnú evidenciu počtu porcií jedál denného menu, t. j.&amp;nbsp;neupozorňuje obsluhu na klesajúci počet porcií menu (blížiace sa vyčerpanie zásob).&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="167e5539-4b4e-4b04-926c-44959b90f509" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="99d9fac5-cbaa-47a4-8dfb-ee4635b31a1b" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="69bbd499-45c0-4b0f-8f7a-c53fa5d70c1b">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="68cd998a-b34a-451f-ab76-512efdd9b34d" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1a33ab0b-2df7-4dc2-962b-8a3319c16831">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="510ef04c-5833-4312-9da9-94bb6df4eb50" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="277559d2-a8ba-4399-b39d-58b8b28b01ff">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="e8d5c4d0-7b90-4750-a82a-49b299d5abe0" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="07957769-848a-42b8-8d4b-678f7246396c">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="412cb898-86fc-4bc5-bad4-f0b983a5aeac" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="c9f7216f-f252-4be3-aa26-3e9bb6d4c887">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="bcf3233b-375a-445f-bfeb-212b9c724529" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="e76125f0-4fb3-4e56-82db-667593132461">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="ffcabe52-2b08-4a6a-9f5a-af8387eb9efe">
+      <Keyword m="2023-04-13T12:51:10.9917209Z">Denné menu - ako nadefinovať</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="3cee19ec-fd96-4268-9985-dd6f2e2a6b69">
+      <Keyword m="2023-04-13T12:51:23.2015693Z">Menučka - ako nadefinovať</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="5d382a12-ff17-4554-8fc2-04c0aba1c0dd">
+      <Keyword m="2023-04-13T12:51:21.1852489Z">Obedové menu - ako nadefinovať</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

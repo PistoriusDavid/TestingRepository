@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="9891a368-cf93-471b-84a4-db323a3d1106" Status="Complete" CreatedOn="2023-12-18T10:09:22.8991828Z" ModifiedOn="2024-08-21T06:35:22.1583093Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="21810" Name="Devices_POSterminal_Teya" BuildFlags="">
+  <Title m="2023-12-18T10:09:52.0442942Z">Platobný terminál Teya</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-12-18T11:58:33.0474505Z">&lt;P align=left&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;obsahuje&amp;nbsp;informácie&amp;nbsp;o jednom z&amp;nbsp;&lt;A href="3f051fd3-9727-4ecc-9613-7a7fb1cb2a54"&gt;pripojiteľných zariadení&lt;/A&gt; v&amp;nbsp;systéme OBERON -&amp;nbsp;hardvérovom &lt;A href="5ad1a704-08fd-4f9c-8302-8f8759cef50a"&gt;platobnom&amp;nbsp;termináli&lt;/A&gt;&lt;STRONG&gt;&amp;nbsp;Teya&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&amp;nbsp;&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;EM&gt;Platobný terminál Teya&lt;/EM&gt; predstavuje &lt;STRONG&gt;hardvérový platobný terminál&lt;/STRONG&gt; od firmy&amp;nbsp;&lt;EM&gt;Teya Solutions Ltd&lt;/EM&gt;. s&amp;nbsp;operačným systémom &lt;EM&gt;Android&lt;/EM&gt;&amp;nbsp;&lt;STRONG&gt;na realizáciu&amp;nbsp;&lt;/STRONG&gt;&lt;A href="1a618813-f50b-46a3-8a94-598d5394f491"&gt;bezhotovostných platieb&lt;/A&gt; &lt;STRONG&gt;prostredníctvom platobných kariet&lt;/STRONG&gt;. Je určený pre rôzne prevádzky&amp;nbsp;na alternatívny spôsob úhrady namiesto hotovosti.&amp;nbsp;&amp;nbsp;&amp;nbsp; 
+&lt;LI&gt;&lt;A href="a6f5e32d-6f1e-40bb-9d15-3f784a183252"&gt;Pokladnica OBERON&lt;/A&gt; pri úhrade dokladu platobnou kartou zasiela do platobného terminálu výšku uhrádzanej sumy, platobný terminál vykoná finančnú transakciu a&amp;nbsp;spätne informuje pokladnicu o&amp;nbsp;vykonaní, resp. nevykonaní&amp;nbsp;platby. 
+&lt;LI&gt;Výhodou prepojenia pokladnice a platobného terminálu je, že obsluha pokladnice nemusí zadávať uhrádzanú sumu manuálne (ako v prípade, keď terminál nie je prepojený s&amp;nbsp;pokladnicou). Na daňovom doklade z pokladnice sa taktiež tlačí info o&amp;nbsp;vykonaní bankovej transakcie, takže zákazníkovi nie je potrebné dávať&amp;nbsp;dva doklady (jeden štandardný&amp;nbsp;pokladničný doklad&amp;nbsp;a druhý z&amp;nbsp;platobného terminálu). &amp;nbsp;&amp;nbsp;&amp;nbsp; 
+&lt;LI&gt;Dodávateľ:&amp;nbsp;&lt;EM&gt;Teya Solutions Ltd&lt;/EM&gt;. 
+&lt;LI&gt;Operačný systém: &lt;EM&gt;Android&lt;/EM&gt;. 
+&lt;LI&gt;Spôsob pripojenia (rozhranie): LAN, Wi-Fi. 
+&lt;LI&gt;Spôsob komunikácie: TCP/IP. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;&lt;SPAN&gt;Obrázok č. 1: Platobný terminál &lt;EM&gt;Teya&lt;/EM&gt;&lt;/SPAN&gt;&lt;/H5&gt;
+&lt;P&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;IMG border=0 alt="" src="images/Devices/Device_Teya.png"&gt;&lt;/P&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;V&amp;nbsp;prípade záujmu o&amp;nbsp;platobný terminál &lt;EM&gt;Teya&lt;/EM&gt; vyplňte a odošlite tento&amp;nbsp;&lt;A href="https://teya.com/sk/get-started" target=_blank&gt;kontaktný formulár&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;HR&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="0fa9002c-45fe-4326-92d2-5b3f2a59d101" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="5ad1a704-08fd-4f9c-8302-8f8759cef50a">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="7f1584c8-de0d-4978-93d5-d6a2a72ce7e7" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="749ff4f1-eeb5-43f5-98d2-021399d8cec7">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="a36e6d02-b787-4fea-8cf4-6a9cd6698cbf" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="06f5e819-cf70-4875-b3fd-eca80b19939b">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="b1b7f05a-9ff7-4c75-8ee7-2df3c477ca85">
+      <Keyword m="2022-12-15T07:34:25.9738204Z">POS terminál - PAX</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="2058ddac-4a16-4c5e-acdb-12180d47bb64">
+      <Keyword m="2022-12-15T07:34:02.5708852Z">PAX - platobný POS terminál</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="3407f24a-6f12-48d6-9398-03b3015022f8">
+      <Keyword m="2022-12-15T07:34:17.1806384Z">PAX platobný terminál - postup inštalácie</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

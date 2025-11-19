@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="046063d5-e7e1-4d4b-9373-43a672fdf410" Status="Complete" CreatedOn="2017-06-26T08:23:16.5984436Z" ModifiedOn="2024-10-29T10:53:44.2076406Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="CashRegister_Advanced_BasketSales" BuildFlags="">
+  <Title m="2017-06-26T08:25:16.6851397Z">Košíkový predaj</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-10-29T10:53:44.2076406Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; je venovaná jednému z&amp;nbsp;moderných spôsobov predaja na&amp;nbsp;&lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnici OBERON&lt;/A&gt; - tzv. &lt;STRONG&gt;košíkovému predaju&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnica OBERON&lt;/A&gt; používaná v&amp;nbsp;reštauračnom režime štandardne&amp;nbsp;umožňuje prácu s&amp;nbsp;otvorenými účtami (stolmi), ktoré slúžia na evidovanie položiek, ktoré si zákazníci objednali, pričom na ich základe&amp;nbsp;sa na&amp;nbsp;&lt;A href="b24ad235-cf7f-43e2-b3e8-ec0f7d92f6b6"&gt;fiškálnej tlačiarni&lt;/A&gt;&amp;nbsp;zaeviduje (vytlačí) daňový doklad.&amp;nbsp;Otvorené účty však možno využiť &lt;STRONG&gt;aj v iných prevádzkach ako reštauračných&lt;/STRONG&gt; &lt;STRONG&gt;(v maloobchode, veľkoobchode)&lt;/STRONG&gt;,&amp;nbsp;a&amp;nbsp;to najmä vtedy, keď je potrebné obslúžiť viac&amp;nbsp;zákazníkov naraz, resp. upraviť alebo&amp;nbsp;vytlačiť im doklady v inom časovom slede, ako ich predajca obslúžil. Osobitným spôsobom využitia práce s otvorenými účtami (stolmi) je tzv. košíkový predaj. 
+&lt;LI&gt;Košíkový predaj predstavuje moderný spôsob predaja, ktorý je určený pre &lt;STRONG&gt;predajne s viacerými oddeleniami&lt;/STRONG&gt;, prípadne s veľkou rozlohou,&amp;nbsp;ako sú stavebniny, predajne so špecifickým tovarom (príliš veľký alebo príliš malý tovar - napr. predajne so spojovacím materiálom&amp;nbsp;či záhradnou technikou), v&amp;nbsp;ktorých sa predáva tovar&amp;nbsp;na kusy alebo na váhu. Stačí, ak každé z týchto oddelení bude vybavené len počítačom s&amp;nbsp;OBERON-om bez&amp;nbsp;&lt;A href="04b8d290-1470-41ff-85a1-c44a20958841"&gt;fiškálneho zariadenia&lt;/A&gt;. To bude pripojené &lt;STRONG&gt;len k&amp;nbsp;jednému hlavnému počítaču, ktorý bude predstavovať registračnú pokladnicu&lt;/STRONG&gt;. 
+&lt;LI&gt;Košíkový predaj umožňuje v ktoromkoľvek oddelení predajne na počítači bez fiškálnej tlačiarne otvoriť zákazníkovi&amp;nbsp;účet a priradiť mu konkrétne číslo košíka. Následne možno na takýto účet postupne pridávať tovar v&amp;nbsp;jednotlivých oddeleniach predajne. V prípade digitálnych váh sa údaje o odváženom tovare odosielajú na otvorený účet automaticky. Na&amp;nbsp;registračnej pokladnici (hlavnom počítači s&amp;nbsp;fiškálnym zariadením) napokon&amp;nbsp;obsluha pred zaplatením&amp;nbsp;skontroluje správnosť&amp;nbsp;položiek pridaných na otvorený účet a&amp;nbsp;účet uzavrie zaevidovaním (vytlačením) pokladničného dokladu. 
+&lt;LI&gt;Čísla košíkov sa definujú ako čísla stolov v&amp;nbsp;číselníku&amp;nbsp;&lt;A href="479e9fda-1e0d-43d2-97e2-32f31244c476"&gt;Zoznam stolov&lt;/A&gt; v&amp;nbsp;ponuke &lt;EM&gt;Firma, Predvoľby&lt;/EM&gt;. Pri košíkovom predaji je vhodné fyzické košíky&amp;nbsp;očíslovať, t.&amp;nbsp;j. priamo fixne&amp;nbsp;označiť napr. tabuľkou s&amp;nbsp;číslom. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Podrobné informácie o práci s otvorenými účtami sú k&amp;nbsp;dispozícii v téme&amp;nbsp;&lt;A href="e0ccff3e-b9e7-4572-bc3c-7f41a32280dd" style="auto-update-caption: true"&gt;Práca s otvorenými účtami (stolmi)&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Príklad&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;Pán František nakupuje v stavebninách. Po príchode do predajne mu v prvom oddelení, ktoré navštívi, obsluha otvorí účet s číslom košíka, napr. 9. 
+&lt;LI&gt;V oddelení s betónovými produktmi si pán František vyberie 10 ks parkových obrubníkov. Na počítači v tomto oddelení mu obsluha zvolený tovar&amp;nbsp;pridá na otvorený účet. 
+&lt;LI&gt;V oddelení so spojovacím materiálom si vyberie 0,5 kg stavebných klincov. Údaj o odváženom tovare sa z digitálnych váh automaticky odošle na jeho otvorený účet. 
+&lt;LI&gt;V oddelení so stavebnou chémiou si pán František ešte pribalí 2 ks akrylového tmelu. Podobne, ako pri obrubníkoch, sa mu tovar na počítači v tomto oddelení&amp;nbsp;pridá na otvorený účet. 
+&lt;LI&gt;Pri platení na registračnej pokladnici&amp;nbsp;napokon obsluha skontroluje jednotlivé položky na&amp;nbsp;otvorenom účte č. 9&amp;nbsp;a&amp;nbsp;zaeviduje (vytlačí) pokladničný doklad. &lt;/LI&gt;&lt;/OL&gt;
+&lt;H5&gt;Obrázok č. 1: Postup pri košíkovom predaji&lt;/H5&gt;
+&lt;H5 align=left&gt;&lt;IMG border=0 alt="" src="images/CashRegister/CashRegister_BasketSales_Schema.png"&gt;&lt;/H5&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt; 
+&lt;P&gt;Rýchle prepínanie medzi viacerými otvorenými účtami je možné pomocou skratkového klávesu &lt;STRONG&gt;/číslo účtu&lt;/STRONG&gt; zadaného na&amp;nbsp;&lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnici OBERON&lt;/A&gt; do poľa&amp;nbsp;&lt;EM&gt;Množstvo*Kód položky.&lt;/EM&gt; V prípade pána Františka z príkladu by to bolo /9.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="06680eae-c492-46b7-9a66-ab4fc35732cd" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="5ef76b70-6138-44fa-af8c-e214028f6324" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="69bbd499-45c0-4b0f-8f7a-c53fa5d70c1b">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="6614004a-2d6e-4de7-8144-ef116d7760a9" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="e0ccff3e-b9e7-4572-bc3c-7f41a32280dd">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="65568e31-6e96-484a-a068-26d0aba2daf2">
+      <Keyword m="2023-03-30T11:25:05.0537287Z">Košíkový predaj na Pokladnici OBERON</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="8669d5a4-e2c9-450e-928a-413cf33b3172">
+      <Keyword m="2023-03-30T11:25:20.7111819Z">Košíkový predaj - príklad</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="a180ff69-900f-4e15-9f88-048160278009">
+      <Keyword m="2023-03-30T11:25:30.3906427Z">Otvorené účty - košíkový predaj</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

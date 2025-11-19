@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="04e52362-d0f3-4a9a-8ec5-36ef724a7ee2" Status="Complete" CreatedOn="2020-07-20T08:41:15.1894406Z" ModifiedOn="2024-02-28T12:39:53.6628236Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="CRM_Started_Mailling" BuildFlags="">
+  <Title m="2020-10-07T09:16:05.4960838Z">Hromadné zasielanie e-mailov</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-02-28T12:39:53.6628236Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; je venovaná hromadnému zasielaniu e-mailových správ v&amp;nbsp;systéme OBERON - &lt;STRONG&gt;tzv. hromadnému mailingu&lt;/STRONG&gt; - jednému zo spôsobov&amp;nbsp;&lt;A href="e06c0c09-80ea-4083-8f6a-5a49a3fc9474"&gt;odosielania e-mailových správ&lt;/A&gt; v systéme OBERON.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Hromadné zasielanie e-mailov (hromadný mailing)&amp;nbsp;v&amp;nbsp;systéme OBERON&amp;nbsp;je nástrojom, ktorý umožňuje &lt;STRONG&gt;rozposielať hromadné e-mailové správy konkrétnym skupinám príjemcov (stovkám až tisícom adresátov)&lt;/STRONG&gt;, napr. v rámci&amp;nbsp;marketingovej kampane, informovania o&amp;nbsp;rôznych podujatiach, zmenách (napr. adresy sídla firmy) a pod. 
+&lt;LI&gt;Hromadné e-mailové správy &lt;STRONG&gt;sa vytvárajú&lt;/STRONG&gt; v programe &lt;EM&gt;OBERON – Agenda firmy&lt;/EM&gt; v ponuke &lt;EM&gt;CRM&lt;/EM&gt;,&amp;nbsp;&lt;A href="f7710ccc-3e00-4ba2-a8d6-c11f18f5ddae"&gt;Hromadné správy (kampane)&lt;/A&gt;. 
+&lt;LI&gt;E-mailové správy vytvorené (vygenerované)&amp;nbsp;pomocou hromadného mailingu (kampaní) &lt;STRONG&gt;sa evidujú&lt;/STRONG&gt; v&amp;nbsp;evidencii&amp;nbsp;&lt;A href="32dedc5d-8e4e-420e-acec-60ba202b6ec7"&gt;E-mailové správy&lt;/A&gt;. Pri hromadnom odoslaní e-mailov &lt;STRONG&gt;sa&amp;nbsp;vytvorené (vygenerované)&amp;nbsp;e-mailové správy pre všetkých príjemcov (adresátov) uložia v&amp;nbsp;tejto evidencii a následne sa pomocou SMTP servera fyzicky odošlú&lt;/STRONG&gt;.&amp;nbsp;Na základe toho je možné spätne overiť, či bola správa danému adresátovi odoslaná. 
+&lt;LI&gt;Fyzické odosielanie e-mailových správ z&amp;nbsp;evidencie&amp;nbsp;&lt;A href="32dedc5d-8e4e-420e-acec-60ba202b6ec7"&gt;E-mailové správy&lt;/A&gt;&amp;nbsp;zabezpečuje &lt;EM&gt;&lt;STRONG&gt;Automatické odosielanie e-mailov&lt;/STRONG&gt;&lt;/EM&gt;&amp;nbsp;- jedna z&amp;nbsp;&lt;A href="9ce25bbd-35d1-4096-acd5-70007f5af5a6"&gt;automatických úloh&lt;/A&gt; systému OBERON. Ak sa v&amp;nbsp;evidencii &lt;A href="32dedc5d-8e4e-420e-acec-60ba202b6ec7"&gt;E-mailové správy&lt;/A&gt;&amp;nbsp;objaví nová e-mailová správa (alebo viac správ), vzápätí&amp;nbsp;sa odošle (do cca 15 sekúnd). Viac informácií o automatickej úlohe získate v&amp;nbsp;téme &lt;A href="846ca30b-f11b-4096-ad20-3e4c57ba09d5"&gt;Automatické odosielanie e-mailov&lt;/A&gt;. 
+&lt;LI&gt;Na odosielanie e-mailových správ&amp;nbsp;je potrebné &lt;STRONG&gt;nastaviť SMTP server&lt;/STRONG&gt; - účtovná jednotka spravidla používa SMTP server svojho poskytovateľa webhosting-u (e-mail hosting-u). Na zadanie prihlasovacích údajov&amp;nbsp;do SMTP servera slúži&amp;nbsp;&lt;A href="432ca5a2-f3ad-4cd5-9194-aae8a3baa03e"&gt;formulár Nastavenia automatickej úlohy Automatické odosielanie e-mailov&lt;/A&gt;&amp;nbsp;(nie je potrebné nastaviť poštového klienta v&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;, &lt;A href="5a6e5663-262e-4ff0-9741-1569385d11e4"&gt;oddiel Firma, Všeobecné&lt;/A&gt;, záložka &lt;EM&gt;E-mail&lt;/EM&gt;). 
+&lt;LI&gt;Pri hromadnom odosielaní e-mailov&amp;nbsp;je dôležité aj &lt;STRONG&gt;nastavenie kadencie odosielania správ&lt;/STRONG&gt;, t.&amp;nbsp;j. koľko e-mailov je možné zaslať za 1 hodinu. Dôvodom je,&amp;nbsp;že&amp;nbsp;poskytovateľ e-mail hostingu&amp;nbsp;môže vyhodnotiť&amp;nbsp;hromadné zasielanie&amp;nbsp;ako nekalú činnosť a zaradiť&amp;nbsp;vás&amp;nbsp;na čiernu listinu (black list).&amp;nbsp;Odporúčame sa preto&amp;nbsp;informovať u&amp;nbsp;svojho poskytovateľa e-mail hostingu&amp;nbsp;ohľadom obmedzení hromadného zasielania e-mailových správ. Bežne je možné zasielať minimálne&amp;nbsp;200&amp;nbsp;-&amp;nbsp;300 e-mailov za hodinu, spravidla nie je problém navýšiť tento počet na 1000 e-mailov za hodinu, prípadne aj viac. 
+&lt;LI&gt;Pred&amp;nbsp;samotným vytvorením a zaslaním hromadnej správy&amp;nbsp;je potrebné do evidencie&amp;nbsp;&lt;A href="e80ec1f4-28f4-496f-8b9c-fc504944fff5" style="auto-update-caption: true"&gt;Zoznam príjemcov správ&lt;/A&gt; (ponuka &lt;EM&gt;CRM&lt;/EM&gt;)&amp;nbsp;&lt;STRONG&gt;zadať príjemcov (adresátov) správy&lt;/STRONG&gt; spolu s ich e-mailovými adresami, resp. telefónnymi číslami. Zadať ich možno buď manuálne, alebo hromadným importom.&amp;nbsp;Takýto import je možné vykonať zo súboru XML, prípadne z&amp;nbsp;iných evidencií OBERON-u (napr. z evidencie obchodných partnerov, prípadne pracovníkov), a to pomocou tlačidla&amp;nbsp;&lt;EM&gt;Možnosti&lt;/EM&gt; (alebo kontextovej ponuky). 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Import príjemcov z&amp;nbsp;iných evidencií&amp;nbsp;&lt;/STRONG&gt;- sprievodca umožňuje naimportovať&amp;nbsp;zoznam príjemcov z iných evidencií OBERON-u, najčastejšie z evidencie&amp;nbsp;obchodných partnerov alebo pracovníkov&amp;nbsp;(zamestnancov). 
+&lt;LI&gt;&lt;STRONG&gt;XML komunikácia - hromadný import údajov&lt;/STRONG&gt; - sprievodca umožňuje naimportovať údaje z XML súboru (formát XML súboru je podľa tejto evidencie). &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Systém OBERON umožňuje evidovať&amp;nbsp;kontaktné údaje aj tých príjemcov&amp;nbsp;e-mailových, resp. SMS správ, ktorí &lt;STRONG&gt;boli zakázaní&lt;/STRONG&gt; &lt;STRONG&gt;(vymazaní zo zoznamu príjemcov)&lt;/STRONG&gt;. Ku každému príjemcovi je možné priradiť dôvod zakázania (odhlásenie z e-mailov, nežiaduci príjemca, neudelený súhlas atď.). Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="888e3958-bd23-4e13-8793-ffeb2855b73a"&gt;Zoznam zakázaných príjemcov správ&lt;/A&gt;. 
+&lt;LI&gt;Na každý úspešne zaslaný e-mail &lt;STRONG&gt;sa zapíše dátum a čas jeho odoslania&lt;/STRONG&gt;. Hromadné odoslanie e-mailov &lt;STRONG&gt;je možné aj odložiť&lt;/STRONG&gt;, napr. pri generovaní e-mailov je možné zadať, od akého dátumu a času sa majú začať posielať. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt; 
+&lt;P&gt;V rámci hromadného mailingu je okrem e-mailových správ možné hromadne zasielať aj &lt;STRONG&gt;SMS správy&lt;/STRONG&gt;. Ide, samozrejme, len o zasielanie krátkych textových správ bez obrázkov a príloh. Na ich zasielanie &lt;STRONG&gt;je okrem automatickej úlohy &lt;EM&gt;Automatické odosielanie e-mailov&lt;/EM&gt;&lt;/STRONG&gt; &lt;STRONG&gt;potrebné nastaviť aj ďalšiu automatickú úlohu&lt;/STRONG&gt; &lt;A href="4a6f63ac-fdeb-4de8-93d1-77c969da1f18"&gt;Posielanie SMS správ cez EuroSMS&lt;/A&gt;, ktorá umožňuje automaticky zasielať vytvorené SMS v rámci alebo mimo firmy a&amp;nbsp;zároveň spätne overovať, či a kedy bola daná&amp;nbsp;SMS správa doručená. Všetky vygenerované SMS správy sa nachádzajú v&amp;nbsp;evidencii&amp;nbsp;&lt;EM&gt;CRM&lt;/EM&gt;, &lt;A href="d4119d75-dd5b-4a1c-b9fa-c982601e0746"&gt;SMS správy&lt;/A&gt;. Na využitie služby &lt;STRONG&gt;je&lt;/STRONG&gt; &lt;STRONG&gt;potrebná registrácia&lt;/STRONG&gt; na stránke &lt;A href="http://www.eurosms.com/"&gt;www.eurosms.com&lt;/A&gt;. Po zaregistrovaní získate prihlasovacie údaje a integračné údaje potrebné pre odosielanie SMS. Služba &lt;STRONG&gt;je spoplatnená podľa cenníka poskytovateľa&lt;/STRONG&gt;.&amp;nbsp;Bližšie informácie získate&amp;nbsp;v témach&amp;nbsp;&lt;A href="cb2b6fc2-5bb6-49e3-8bbf-65463b3f026f"&gt;EuroSMS&lt;/A&gt; a&amp;nbsp;&lt;A href="d4119d75-dd5b-4a1c-b9fa-c982601e0746" style="auto-update-caption: true"&gt;SMS správy&lt;/A&gt;.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt; 
+&lt;P&gt;Postup nastavenia hromadného zasielania e-mailov a vytvorenia a odoslania hromadnej správy na príklade informovania obchodných partnerov o zmene adresy je dostupný v téme&amp;nbsp;&lt;A href="f7710ccc-3e00-4ba2-a8d6-c11f18f5ddae"&gt;Hromadné správy (kampane)&lt;/A&gt;.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H5&gt;Obrázok č. 1: Úprava&amp;nbsp;konceptu hromadnej správy&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/CRM/Form_CRM_MassMessages.PNG"&gt;&amp;nbsp;&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="fbee2914-61e7-4927-b557-7c693a3a9df6" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="e06c0c09-80ea-4083-8f6a-5a49a3fc9474">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="6faaa407-138c-4d74-b5c7-5965a1c68023" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="af53c105-e266-49b7-a25c-832ac36e4280">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="40a22eda-483e-4c41-ba35-9fb677b87095" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="f7710ccc-3e00-4ba2-a8d6-c11f18f5ddae">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="97774cc3-cd56-4bed-b25a-57ce76ec4f32" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="32dedc5d-8e4e-420e-acec-60ba202b6ec7">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="be8d383d-8004-4d59-83d7-9605d5bad930" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="d4119d75-dd5b-4a1c-b9fa-c982601e0746">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="e1bd7a0f-9e01-4659-8dac-7ca36cb188af" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="e80ec1f4-28f4-496f-8b9c-fc504944fff5">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="c80dcff6-853c-4609-861b-7719c53dc8af" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="888e3958-bd23-4e13-8793-ffeb2855b73a">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="d0677781-a3c2-4aa6-b653-6a5601922b05" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="2a13b609-7775-4239-a87c-75bcc12b0012">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="cda2b3e4-4b61-401a-ab4f-c0881dbbd9ed" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="846ca30b-f11b-4096-ad20-3e4c57ba09d5">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="8b0ba713-b501-4906-a504-9eb296009aad" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="432ca5a2-f3ad-4cd5-9194-aae8a3baa03e">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="4cc6a075-ed1a-4b7f-887e-8e09baeb9da8">
+      <Keyword m="2020-11-02T10:12:47.8175291Z">Hromadný mailing</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="f1ba6a82-9aa2-43b0-bf8b-53b86db6d16e">
+      <Keyword m="2021-06-24T13:31:16.652985Z">SMS - hromadné zasielanie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="0ce75cdf-727a-4471-876d-ecad469392bf">
+      <Keyword m="2021-06-24T13:30:47.4529107Z">Hromadné zasielanie SMS správ</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="45d1618d-9198-472c-90fe-fa0de51afc21">
+      <Keyword m="2021-06-24T13:31:28.9175299Z">E-maily - hromadné zasielanie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="964930b5-b97f-4665-b651-201eb440a2bc">
+      <Keyword m="2021-06-25T07:44:49.3200143Z">Mailing - hromadný</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="0691f9c4-b567-4e5d-95ae-159c54b2c471">
+      <Keyword m="2021-06-25T12:13:39.6597116Z">Hromadné SMS</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

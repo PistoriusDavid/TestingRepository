@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="6bb048fd-9d08-4028-bcf0-315fbd99fe57" Status="Complete" CreatedOn="2015-04-09T11:16:52.9023437Z" ModifiedOn="2023-10-12T12:18:04.928729Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="22032" Name="Form_OBERON_BusinessPartner_Import" BuildFlags="">
+  <Title m="2022-01-18T14:14:37.0354178Z">Sprievodca Obchodní partneri - import údajov</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2022-12-19T12:04:32.8199965Z">&lt;P&gt;&lt;SPAN&gt;Sprievodca&amp;nbsp;&lt;EM&gt;Obchodní partneri - import údajov&lt;/EM&gt; umožňuje &lt;STRONG&gt;jednorazovo naimportovať údaje o&amp;nbsp;obchodných partneroch&lt;/STRONG&gt; do &lt;SPAN&gt;evidencie&amp;nbsp;&lt;A href="b7a48886-b367-4056-808a-59ba5f871f32"&gt;obchodných partnerov&lt;/A&gt;, a&amp;nbsp;to&amp;nbsp;z inej firmy alebo zo súboru typu XLSX. &lt;SPAN&gt;&lt;SPAN&gt;Sprievodca&amp;nbsp;je dostupný z&amp;nbsp;programu&amp;nbsp;&lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;, ponuka &lt;EM&gt;Firma&lt;/EM&gt;,&amp;nbsp;&lt;A href="b7a48886-b367-4056-808a-59ba5f871f32"&gt;Obchodní partneri&lt;/A&gt;, tlačidlo &lt;EM&gt;Možnosti&lt;/EM&gt;.&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;H2&gt;Základné informácie&amp;nbsp;&amp;nbsp;&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Systém OBERON umožňuje jednorazový import údajov obchodných partnerov do evidencie&amp;nbsp;&lt;A href="b7a48886-b367-4056-808a-59ba5f871f32"&gt;Obchodní partneri&lt;/A&gt;&amp;nbsp;(ponuka &lt;EM&gt;Firma&lt;/EM&gt;) pomocou funkcie &lt;EM&gt;Import&amp;nbsp;obchodných partnerov&lt;/EM&gt;&amp;nbsp;(tlačidlo &lt;EM&gt;Možnosti&lt;/EM&gt;). Import sa&amp;nbsp;spravidla využíva &lt;STRONG&gt;po vytvorení novej firmy na import nových obchodných partnerov&lt;/STRONG&gt;,&amp;nbsp;hoci sa môže&amp;nbsp;použiť aj v prípade, že v evidencii obchodných partnerov už&amp;nbsp;existujú záznamy. Na pravidelný import (alebo aktualizáciu) je&amp;nbsp;však vhodné&amp;nbsp;využiť&amp;nbsp;&lt;A href="1dc4ea18-03c0-4028-afe5-4532583b6a44"&gt;off-line transporty údajov&lt;/A&gt;. 
+&lt;LI&gt;V&amp;nbsp;systéme OBERON je možné zvoliť tieto zdroje na import údajov obchodných partnerov: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Z inej firmy&lt;/STRONG&gt; - pri zvolení tejto možnosti&amp;nbsp;sa importujú všetky, prípadne len označené záznamy (v&amp;nbsp;závislosti od nastavenia). 
+&lt;LI&gt;&lt;B&gt;Zo súboru typu XLSX&lt;/B&gt; - pri zvolení tejto možnosti sa importujú údaje obchodných partnerov zo vzorového súboru typu XLSX (&lt;EM&gt;Libre Office,&lt;/EM&gt; &lt;EM&gt;Microsoft Excel&lt;/EM&gt;). Súbor musí byť presne definovaného formátu, získať ho možno pomocou&amp;nbsp;&lt;A href="a1ae5eb5-f369-4aab-80b2-c6585166d550"&gt;Správcu doplnkov&lt;/A&gt; (bližšie informácie získate nižšie). &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Pri nájdení zhody (zhodný obchodný názov, obec, IČO) sa&amp;nbsp;v&amp;nbsp;závislosti od&amp;nbsp;nastavenia prepíšu aktuálne záznamy importovanými, alebo sa neimportujú vôbec. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Postup importovania obchodných partnerov&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;Ak ešte nemáte v systéme OBERON vytvorenú (založenú) firmu, vytvorte ju&amp;nbsp;- bližšie informácie nájdete v téme &lt;A href="9a485893-6dd2-44e8-9740-a4cd7083a932" style="auto-update-caption: true"&gt;Vytvorenie účtovnej jednotky (databázy)&lt;/A&gt;. 
+&lt;LI&gt;V&amp;nbsp;programe&amp;nbsp;&lt;EM&gt;OBERON - Agenda firmy&amp;nbsp;&lt;/EM&gt;otvorte knihu&amp;nbsp;&lt;A href="1a33ab0b-2df7-4dc2-962b-8a3319c16831"&gt;Obchodní partneri&lt;/A&gt; (ponuka &lt;EM&gt;Firma&lt;/EM&gt;) a stlačte tlačidlo &lt;I&gt;Možnosti.&lt;/I&gt; Vyberte možnosť&amp;nbsp;&lt;I&gt;Import obchodných partnerov&lt;/I&gt;. Zobrazí sa sprievodca, v ktorom vyberte zdroj údajov. Pri importe z inej firmy zvoľte, či sa majú importovať len označené záznamy. 
+&lt;LI&gt;Zvoľte, či sa pri nájdení zhody majú aktuálne záznamy prepísať importovanými. 
+&lt;LI&gt;Po stlačení tlačidla &lt;I&gt;Dokončiť&lt;/I&gt; sa do evidencie obchodných partnerov naimportujú údaje o obchodných partneroch. &lt;/LI&gt;&lt;/OL&gt;
+&lt;H2&gt;Ďalšie informácie o importe zo súboru XLSX&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Pri importe údajov obchodných partnerov nie je možné použiť ľubovoľný súbor XLSX,&amp;nbsp;ale&amp;nbsp;len &lt;STRONG&gt;vzorový&lt;/STRONG&gt; (s vopred definovaným formátom). Takýto súbor je možné získať v&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="a1ae5eb5-f369-4aab-80b2-c6585166d550"&gt;Správca doplnkov&lt;/A&gt;, oddiel &lt;EM&gt;Ostatné&lt;/EM&gt; nainštalovaním doplnku &lt;EM&gt;Import obchodných partnerov zo súboru typu XLSX&lt;/EM&gt;. 
+&lt;LI&gt;Doplnok obsahuje vzorový súbor typu XLSX s názvom &lt;EM&gt;&lt;STRONG&gt;ObchodniPartneri_Import&lt;/STRONG&gt;&lt;/EM&gt;, do ktorého je možné spravidla pomocou schránky (clipboard) nakopírovať údaje o obchodných partneroch z iného systému (&lt;EM&gt;Ctrl+C&lt;/EM&gt;/&lt;EM&gt;Ctrl+V&lt;/EM&gt;). Po nainštalovaní doplnku sa tento vzorový súbor uloží do adresára &lt;EM&gt;\OBERON\_Export_Import&lt;/EM&gt;. 
+&lt;LI&gt;Daný vzorový súbor je možné upraviť v rôznych tabuľkových kalkulátoroch (napr. &lt;EM&gt;LibreOffice, Microsoft Excel&lt;/EM&gt;), pričom tabuľkový kalkulátor musí byť nainštalovaný v&amp;nbsp;počítači aj pri samotnom importe. V súbore je potrebné v &lt;SPAN style="COLOR: rgb(255,0,0)"&gt;&lt;STRONG&gt;prvom (červenom) riadku&lt;/STRONG&gt;&lt;/SPAN&gt; z&amp;nbsp;rozbaľovacích zoznamov správne vybrať jednotlivé polia v OBERON-e, ku ktorým sa majú priradiť údaje v daných stĺpcoch a do ktorých sa tieto údaje následne naimportujú. 
+&lt;LI&gt;Pri napĺňaní stĺpcov údajmi je potrebné dodržať nasledujúce pokyny:&lt;BR&gt;- &lt;SPAN style="COLOR: rgb(255,0,0)"&gt;&lt;STRONG&gt;prvý (červený)&amp;nbsp;riadok&lt;/STRONG&gt;&lt;/SPAN&gt; v súbore &lt;STRONG&gt;musí byť zachovaný&lt;/STRONG&gt;, pričom v jednotlivých stĺpcoch je&amp;nbsp;potrebné z&amp;nbsp;rozbaľovacích zoznamov vybrať&amp;nbsp;názov stĺpca (t.&amp;nbsp;j. jednotlivé polia v OBERON-e, napr. &lt;EM&gt;Názov, Obec&lt;/EM&gt; atď.),&lt;BR&gt;-&amp;nbsp;povinné údaje sú &lt;EM&gt;Názov, Obec&lt;/EM&gt; a &lt;EM&gt;IČO&lt;/EM&gt;,&lt;BR&gt;- prvý obchodný partner musí byť umiestený na riadku 2, po ktorom budú nasledovať ďalší, medzi jednotlivými položkami však &lt;STRONG&gt;nesmie byť prázdny riadok&lt;/STRONG&gt;. &lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="7980d3d5-ca85-497f-944d-e2c0dda4baba" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="b7a48886-b367-4056-808a-59ba5f871f32">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="163d0348-209d-45d4-9e1f-6aa599f21d97" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1c4fe40d-4be6-4e94-9ccc-39727c9a6a0c">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="6233048d-5c2b-456a-9184-a50c8ba5994e">
+      <Keyword m="2022-01-19T08:18:59.4535597Z">Import obchodných partnerov - jednorazový</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="b2038955-11c6-44d7-b974-e4b574fba3e8">
+      <Keyword m="2022-01-19T08:18:30.6079523Z">Obchodní partneri - jednorazový import</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="bcd48302-4b5e-43bc-b899-29b6eda68ed5">
+      <Keyword m="2023-02-16T11:49:38.7242552Z">Jednorazový import obchodných partnerov</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="d97b58d9-c9e4-480a-a060-e4038ffdce8a">
+      <Keyword m="2022-01-19T08:18:49.40341Z">XLSX - jednorazový import obchodných partnerov</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

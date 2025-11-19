@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="92b71d6b-7b68-439c-9135-977733350aaf" Status="Complete" CreatedOn="2018-09-11T12:02:10.5977599Z" ModifiedOn="2023-09-07T10:16:17.5722942Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Devices_ReaderDocuments_Access" BuildFlags="">
+  <Title m="2018-09-11T12:02:47.0566187Z">Čítačka dokladov Access OCR31x</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-09-07T10:16:17.5722942Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;je venovaná&lt;STRONG&gt;&amp;nbsp;&lt;/STRONG&gt;čítačke dokladov &lt;EM&gt;Access OCR31x&lt;/EM&gt;. Téma obsahuje &lt;STRONG&gt;všeobecné informácie o zariadení s prehľadom jeho modelov a&amp;nbsp;technickou špecifikáciou&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Čítačka dokladov &lt;EM&gt;Access OCR31x&lt;/EM&gt; je hardvérové zariadenie, ktoré umožňuje &lt;STRONG&gt;automaticky načítať identifikačné údaje z občianskych preukazov, pasov, víz a iných identifikačných kariet&lt;/STRONG&gt; do modulu&amp;nbsp;&lt;A href="c3bd41f0-029e-4c74-b342-b0ffff647b6e"&gt;Hotelová recepcia&lt;/A&gt; systému OBERON, konkrétne do&amp;nbsp;&lt;A href="d43ef71f-edb1-44f7-b1a2-c0cf18067ee9"&gt;formulára Ubytovanie&lt;/A&gt; v&amp;nbsp;&lt;A href="0b9519ff-9438-422b-a3e8-358b628293e9"&gt;Knihe ubytovaných&lt;/A&gt;. Určená je pre recepcie ubytovacích zariadení, kde je potrebné zapisovať údaje z dokladov. 
+&lt;LI&gt;Čítačka umožňuje čítať také doklady, ktoré obsahujú &lt;STRONG&gt;MRZ&lt;/STRONG&gt; (&lt;STRONG&gt;M&lt;/STRONG&gt;achine &lt;STRONG&gt;R&lt;/STRONG&gt;eadable &lt;STRONG&gt;Z&lt;/STRONG&gt;one), pričom dokáže čítať 2-riadkové a 3-riadkové MRZ zóny. 
+&lt;LI&gt;Pri vytváraní nového ubytovania obsluha recepcie prejde dokladom v štrbine čítačky (v ktoromkoľvek smere). Vzápätí sa do OBERON-u načítajú údaje z dokladu – &lt;STRONG&gt;číslo dokladu totožnosti, priezvisko, meno, dátum narodenia, štát&lt;/STRONG&gt; (neprenáša sa adresa trvalého pobytu). 
+&lt;LI&gt;Pri ďalšej návšteve hosťa však program vyhľadá v histórii ubytovaných hostí a načíta &lt;STRONG&gt;nielen údaje prečítané z dokladu, ale aj ďalšie údaje, ktoré boli zapísané manuálne&lt;/STRONG&gt; (napr. adresa, titul, poznámka, e-mail). 
+&lt;LI&gt;Inštalácia čítačky je veľmi jednoduchá, na pripojenie k počítaču sa používa USB rozhranie. 
+&lt;LI&gt;Čítačka dokladov nepodporuje diakritiku. 
+&lt;LI&gt;Čítačka dokladov &lt;EM&gt;Access OCR31x&lt;/EM&gt; zahŕňa tieto modely: OCR315, OCR316, OCR315e a OCR316e. Všetky modely podporujú optické rozoznávanie znakov (OCR = &lt;STRONG&gt;O&lt;/STRONG&gt;ptical &lt;STRONG&gt;C&lt;/STRONG&gt;haracter &lt;STRONG&gt;R&lt;/STRONG&gt;eading). 
+&lt;LI&gt;Distribútor: EXALOGIC, s.r.o. 
+&lt;LI&gt;Spôsob pripojenia (rozhranie): USB.&amp;nbsp;&amp;nbsp; &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Hlavné výhody&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Kompaktný a flexibilný dizajn. 
+&lt;LI&gt;Zariadenie číta strojovo čitateľné pasy, víza a cestovné doklady, ktoré sú v súlade s normou ICAO 9303. 
+&lt;LI&gt;Automatické načítavanie údajov o prichádzajúcich hosťoch. 
+&lt;LI&gt;Zvlášť pri väčších skupinách výrazné skrátenie času zaevidovania hostí. 
+&lt;LI&gt;Odbúranie chybovosti pri manuálnom zadávaní údajov. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok&amp;nbsp;č. 1: Čítačka dokladov &lt;EM&gt;Access OCR315e&lt;/EM&gt;&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Devices/Device_OCR315.png"&gt;&lt;/P&gt;
+&lt;H2&gt;Technická špecifikácia&lt;/H2&gt;
+&lt;P&gt;&lt;STRONG&gt;Model:&lt;/STRONG&gt; OCR31x&lt;BR&gt;&lt;STRONG&gt;Spôsob pripojenia:&lt;/STRONG&gt; USB&lt;BR&gt;&lt;STRONG&gt;Spôsob komunikácie:&lt;/STRONG&gt; prostredníctvom knižnice&lt;BR&gt;&lt;STRONG&gt;Optické čítanie znakov:&lt;/STRONG&gt; obojsmerné&lt;BR&gt;&lt;STRONG&gt;Zvuková signalizácia&lt;/STRONG&gt;:&amp;nbsp;1&amp;nbsp;pípnutie pre&amp;nbsp;korektné čítanie, 3&amp;nbsp;pípnutia pre nekorektné čítanie&lt;BR&gt;&lt;STRONG&gt;Optická signalizácia&lt;/STRONG&gt;: áno&lt;BR&gt;&lt;STRONG&gt;Podpora diakritiky:&lt;/STRONG&gt; nie&lt;BR&gt;&lt;STRONG&gt;Vstupné napätie&lt;/STRONG&gt;: +5 VDC, 250 mA cez USB pripojenie&lt;BR&gt;&lt;STRONG&gt;Dĺžka kábla&lt;/STRONG&gt;: 1 m&lt;BR&gt;&lt;STRONG&gt;Teplota:&lt;/STRONG&gt; prevádzka: 0 °C - 50 °C, skladovanie: -20 °C - 60 °C&lt;BR&gt;&lt;STRONG&gt;Vlhkosť vzduchu:&lt;/STRONG&gt; 0 % - 95 % (bez kondenzácie)&lt;BR&gt;&lt;STRONG&gt;Farba&lt;/STRONG&gt;: tmavošedá&lt;BR&gt;&lt;STRONG&gt;Rozmery&lt;/STRONG&gt;: 44 x 150 x 45 mm (šírka x dĺžka x výška)&lt;BR&gt;&lt;STRONG&gt;Hmotnosť&lt;/STRONG&gt;: 325 g&lt;/P&gt;
+&lt;H2&gt;Cena a objednávka zariadenia&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Zariadenie je určené na predaj, a to&amp;nbsp;výhradne používateľom OBERON-u a našim &lt;A href="f83c2a9c-cda4-4862-8628-7ba16ddb1b06" rel=noopener&gt;zmluvným partnerom&lt;/A&gt;. 
+&lt;LI&gt;Informácie o cene a dostupnosti zariadenia s možnosťou objednávky nájdete na stránke nášho internetového obchodu &lt;STRONG&gt;&lt;A href="https://shop.exalogic.sk/"&gt;EXALOGIC e-shop&lt;/A&gt;&lt;/STRONG&gt;. 
+&lt;LI&gt;Na inštaláciu a&amp;nbsp;nastavenie zariadenia odporúčame využiť služby našich zmluvných partnerov. &lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="0634da57-6cde-4967-b0e1-d33bfe52dc8d" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="1ca0ffc5-a594-4417-b906-a801ad45f893">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="a3d2bbb2-d20f-49e1-b4ec-c5cba9f424dd" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="8d1f7917-39ce-468e-9183-b9a08b1be959">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="e744aa3c-aa29-4baf-b923-7d54dc04ae27">
+      <Keyword m="2021-05-11T08:59:50.2269121Z">Čítačka dokladov Access OCR31x</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="be79bf75-681c-43c9-b7f7-837ee4d5c0a7">
+      <Keyword m="2022-12-15T07:53:16.3312049Z">Access OCR31x - čítačka dokladov</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

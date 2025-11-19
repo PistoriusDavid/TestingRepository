@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="4b420c1a-429f-4e4c-924b-9c265e241c46" Status="Complete" CreatedOn="2014-09-11T07:42:35.5157567Z" ModifiedOn="2022-11-21T13:57:48.4538568Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="OBERON_Business_Partners_Branch" BuildFlags="">
+  <Title m="2014-09-11T07:43:33.1180513Z">Obchodní partneri - práca s prevádzkami</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2022-11-21T13:57:48.4538568Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; je venovaná práci s&amp;nbsp;&lt;A href="8df798f2-4fbf-4279-ad8c-493bdbe7f2e4"&gt;prevádzkami&lt;/A&gt;&amp;nbsp;&lt;A href="b7a48886-b367-4056-808a-59ba5f871f32"&gt;obchodných partnerov&lt;/A&gt; v&amp;nbsp;systéme OBERON s&amp;nbsp;ohľadom &lt;STRONG&gt;na tlač adries na dokladoch, resp. poštových obálkach&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;V&amp;nbsp;systéme OBERON je možné k&amp;nbsp;obchodnému partnerovi evidovať&amp;nbsp;aj údaje o jeho&amp;nbsp;&lt;A href="8df798f2-4fbf-4279-ad8c-493bdbe7f2e4"&gt;prevádzkach&lt;/A&gt;.&amp;nbsp;Pritom platí, že k&amp;nbsp;jednému obchodnému partnerovi je možné evidovať ľubovoľný počet prevádzok (Obrázok č. 1). 
+&lt;LI&gt;Pri tvorbe dokladu (faktúry, objednávky a pod.) sa&amp;nbsp;následne môže v sprievodcovi (alebo aj neskôr&amp;nbsp;&lt;A href="1dce6bce-8c7d-443a-b0f9-14ec18f3c9a0"&gt;priamo v doklade&lt;/A&gt;) určiť, &lt;STRONG&gt;ktorej prevádzke obchodného partnera má byť doklad adresovaný&lt;/STRONG&gt;. Prevádzka je tak vlastne rozšírením názvu (mena) obchodného partnera, pretože umožňuje bližšie určiť adresáta dokladu&amp;nbsp;(prevádzka ovplyvňuje tlač adresy na&amp;nbsp;doklade alebo poštovej obálke). 
+&lt;LI&gt;Ak sa pri prevádzke zadá aj IČO, ktoré nie je totožné s IČO-om firmy, ide o tzv. &lt;STRONG&gt;externú prevádzku&lt;/STRONG&gt;. Pri odberateľovi to môže byť konečný príjemca, pri dodávateľovi napr. subdodávateľ. Subdodávateľ má význam pri tvorbe vydaných objednávok - ku skladovej karte sa evidujú dodávatelia (prípadne aj so subdodávateľmi), ktorých katalógové číslo (označenie) sa&amp;nbsp;uvádza v objednávke (prípadne aj v exportovanom súbore XML).&amp;nbsp;Napr. účtovná jednotka predáva stavebný materiál, odberateľ (obchodný partner) je stavebná firma, ktorá má vlastné prevádzky, ktoré už predstavujú konkrétne stavby. Pri vytvorení výdajky je doklad vystavený na stavebnú firmu, pričom ako prevádzka sa uvedie konkrétna stavba. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 1: Formulár &lt;EM&gt;Obchodný partner&lt;/EM&gt;, záložka &lt;EM&gt;Prevádzky&lt;/EM&gt;&lt;/H5&gt;&lt;IMG border=0 alt="" src="images/Forms/Invoices/Form_ObchodniPartneri_Prevadzka1.PNG"&gt;&amp;nbsp; 
+&lt;H5&gt;Obrázok č. 2: Doklad s&amp;nbsp;uvedením prevádzky ako adresáta dokladu (v&amp;nbsp;oblasti odberateľa&amp;nbsp;sa nachádza obchodný názov s adresou&amp;nbsp;firmy, nižšie je uvedená adresa prevádzky)&lt;/H5&gt;&lt;IMG border=0 alt="" src="images/Forms/Invoices/Form_Invoices_ObchodniPartneri_PracaSprevadzkami4.GIF"&gt; 
+&lt;UL&gt;
+&lt;LI&gt;Prevádzky obchodného partnera možno pridať vo&amp;nbsp;&lt;A href="4fbe9db8-25bc-420f-aee5-228d0a8ff03f"&gt;formulári Obchodný partner&lt;/A&gt;, záložka &lt;EM&gt;Prevádzky&lt;/EM&gt;, tlačidlo &lt;EM&gt;Nový&lt;/EM&gt;. Otvorí sa formulár &lt;EM&gt;Prevádzka&lt;/EM&gt;,&amp;nbsp;v&amp;nbsp;ktorom je možné&amp;nbsp;vyplniť údaje o&amp;nbsp;prevádzke.&amp;nbsp;V&amp;nbsp;poli &lt;EM&gt;Pomenovanie&lt;/EM&gt; sa vypĺňa skrátený názov prevádzky, ktorý sa zobrazuje v rozbaľovacom zozname v sprievodcovi tvorbou dokladu, resp. priamo v&amp;nbsp;doklade&amp;nbsp;(Obrázok č. 3). 
+&lt;LI&gt;Vo formulári &lt;EM&gt;Prevádzka&amp;nbsp;&lt;/EM&gt;sa okrem polí&amp;nbsp;na zadanie údajov o prevádzke nachádza aj začiarkavacie pole &lt;EM&gt;Používať ako predvolenú&lt;/EM&gt; &lt;EM&gt;prevádzku&lt;/EM&gt;. Táto voľba má význam &lt;STRONG&gt;len pri tlači obálok&lt;/STRONG&gt; v&amp;nbsp;evidencii&amp;nbsp;&lt;A href="b7a48886-b367-4056-808a-59ba5f871f32"&gt;obchodných partnerov&lt;/A&gt;. Ak má niektorý obchodný partner zadanú prevádzku a táto prevádzka je nastavená ako predvolená, na obálke sa vytlačí adresa tejto prevádzky. Ak obchodný partner nemá žiadnu predvolenú prevádzku, na obálke sa vytlačí štandardná adresa firmy. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 3: Formulár &lt;EM&gt;Prevádzka&lt;/EM&gt; na vyplnenie údajov o prevádzke obchodného partnera&lt;/H5&gt;&lt;IMG border=0 alt="" src="images/Forms/Invoices/Form_ObchodniPartneri_Prevadzka3.PNG"&gt; 
+&lt;UL&gt;
+&lt;LI&gt;Začiarkavacie pole &lt;EM&gt;Na túto adresu zasielať daňové doklady&lt;/EM&gt; vo formulári &lt;EM&gt;Prevádzka&lt;/EM&gt; (Obrázok č. 3) má význam &lt;STRONG&gt;pri tlači dokladov&lt;/STRONG&gt; (faktúr, dodacích listov, výdajok atď.).&amp;nbsp;Ak je toto pole začiarknuté,&amp;nbsp;na doklade sa&amp;nbsp;v&amp;nbsp;oblasti odberateľa vytlačí adresa prevádzky a obchodný názov firmy so štandardnou adresou sa vytlačí&amp;nbsp;nižšie a&amp;nbsp;menším písmom (Obrázok č. 4). Túto voľbu možno využiť v prípade, že používate obálky s okienkom - daňový doklad sa zašle na adresu prevádzky a zároveň bude na doklade podľa zákona o&amp;nbsp;účtovníctve dodržaný obchodný názov účtovnej jednotky podľa živnostenského oprávnenia. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 4: Doklad s&amp;nbsp;adresou prevádzky v oblasti odberateľa (s&amp;nbsp;nastavením&amp;nbsp;&lt;EM&gt;Na túto adresu zasielať daňové doklady&lt;/EM&gt;)&amp;nbsp;&lt;/H5&gt;&lt;IMG border=0 alt="" src="images/Forms/Invoices/Form_ObchodniPartneri_PracaSPrevadzkami5.GIF"&gt; 
+&lt;UL&gt;
+&lt;LI&gt;Na Obrázku č.&amp;nbsp;5 je prevádzka ako taká použitá trochu inak. Bližšie nešpecifikuje prevádzku obchodného partnera, ale &lt;STRONG&gt;konkrétnu osobu, prípadne oddelenie firmy&lt;/STRONG&gt;. Pri zvolení takejto prevádzky sa&amp;nbsp;na hlavičke dokladu&amp;nbsp;táto osoba (oddelenie) vytlačí pod oblasťou s obchodným názvom firmy (Obrázok č. 6). &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 5: Formulár &lt;EM&gt;Prevádzka&lt;/EM&gt; (konkrétna osoba, resp. oddelenie firmy)&lt;/H5&gt;&lt;IMG border=0 alt="" src="images/Forms/Invoices/Form_ObchodniPartneri_Prevadzka2.PNG"&gt; 
+&lt;H5&gt;Obrázok č. 6: Doklad s&amp;nbsp;oddelením firmy špecifikovaným pod&amp;nbsp;obchodným názvom firmy&lt;/H5&gt;&lt;IMG border=0 alt="" src="images/Forms/Invoices/Form_Invoices_ObchodniPartneri_PracaSprevadzkami6.GIF"&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="c564999b-6faa-4e4a-878f-d2a41f544ffa" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="b7a48886-b367-4056-808a-59ba5f871f32">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="297f0982-8054-421a-9990-3439bd8dd99b" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="4fbe9db8-25bc-420f-aee5-228d0a8ff03f">
+      <Title m="2014-10-22T10:33:44.0322265Z">Formulár Obchodný partner</Title>
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="ad65bc83-1578-4cd7-b1b6-eb947d5d4981" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="8df798f2-4fbf-4279-ad8c-493bdbe7f2e4">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="bf08fb2b-1e4c-4307-ac60-333b494109cb" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1dce6bce-8c7d-443a-b0f9-14ec18f3c9a0">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="c0157e9c-01ad-4e85-97d8-fe14a35295f2" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="66ed476e-d5ea-4e46-a758-a3f190a60a7c">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="548b89fc-69cb-479c-bf13-abc36fe4780d">
+      <Keyword m="2021-09-10T12:05:48.7365144Z">Prevádzky na dokladoch</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="c8fc76a2-e3b7-42ba-86a9-0d48f8eca631">
+      <Keyword m="2021-09-10T12:04:51.6791978Z">Adresa prevádzky - tlač</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="11c3b9c7-5664-47d2-96f7-4719441d1155">
+      <Keyword m="2021-09-10T12:06:01.9399339Z">Prevádzka - tlač adresy</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="7dc67f5d-99d2-491f-8a90-a9ab5ab12815">
+      <Keyword m="2021-09-10T12:06:16.0424923Z">Tlač adresy prevádzky na dokladoch a obálkach</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="18c492ae-d52f-4c9f-92b7-c5d3b6daefe5">
+      <Keyword m="2022-01-18T08:29:15.4362836Z">Externá prevádzka</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

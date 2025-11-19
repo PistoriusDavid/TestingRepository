@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="d123f778-12d3-4049-8c94-3d1b7acdc24f" Status="Complete" CreatedOn="2014-12-03T08:57:40.1972656Z" ModifiedOn="2023-11-22T13:10:28.500418Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="22600" Name="Menu_Acc_Assets" BuildFlags="">
+  <Title m="2014-12-03T08:58:02.6074218Z">Kniha investičného majetku</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-11-22T13:10:28.500418Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;je venovaná&amp;nbsp;položke&amp;nbsp;&lt;EM&gt;Kniha investičného majetku&lt;/EM&gt;&amp;nbsp;v&amp;nbsp;ponuke&amp;nbsp;&lt;EM&gt;Účtovníctvo&lt;/EM&gt; programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Výberom položky sa otvorí &lt;EM&gt;Kniha investičného majetku&lt;/EM&gt;, ktorá&amp;nbsp;slúži na evidenciu investičného majetku účtovnej jednotky. Investičný&amp;nbsp;majetok (predtým označovaný ako dlhodobý)&amp;nbsp;predstavuje majetok, ktorý má &lt;STRONG&gt;dlhšiu životnosť a&amp;nbsp;relatívne vyššiu obstarávaciu cenu&lt;/STRONG&gt;. V priebehu životnosti investičného majetku si zachováva svoju pôvodnú formu a používaním sa len opotrebúva. 
+&lt;LI&gt;V&amp;nbsp;prípade používania &lt;A href="8df798f2-4fbf-4279-ad8c-493bdbe7f2e4"&gt;prevádzok&lt;/A&gt;&amp;nbsp;záznamy&amp;nbsp;v&amp;nbsp;&lt;EM&gt;Knihe investičného majetku&lt;/EM&gt;&amp;nbsp;možno zobraziť podľa príslušnosti&amp;nbsp;k prevádzke, a&amp;nbsp;to&amp;nbsp;ako podmnožiny&amp;nbsp;záznamov knihy. Možno tak urobiť pomocou filtra&amp;nbsp;&lt;EM&gt;Prevádzka&lt;/EM&gt; v&amp;nbsp;hornej časti evidencie.&amp;nbsp;Zoznam dostupných prevádzok (definujú sa v ponuke &lt;EM&gt;Firma&lt;/EM&gt;,&amp;nbsp;&lt;A href="a833ee8a-1289-42b9-923f-80f549497702"&gt;Údaje o firme&lt;/A&gt;)&amp;nbsp;je možné v prípade potreby obmedziť pomocou&amp;nbsp;&lt;A href="834e9546-a56b-476f-9028-ef4c24a82345"&gt;používateľských práv&lt;/A&gt;. 
+&lt;LI&gt;Investičný majetok delíme podľa druhu majetku na: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;EM&gt;&lt;STRONG&gt;hmotný majetok&lt;/STRONG&gt;&lt;/EM&gt; - stroje, budovy, pozemky, 
+&lt;LI&gt;&lt;EM&gt;&lt;STRONG&gt;nehmotný majetok&lt;/STRONG&gt;&lt;/EM&gt; - softvér, licencie, patenty. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Stlačením tlačidla &lt;EM&gt;Tlač&lt;/EM&gt; je možné vytlačiť rôzne zostavy investičného majetku (napr. &lt;EM&gt;Odpisový plán&lt;/EM&gt;, &lt;EM&gt;Inventárnu kartu, Knihu investičného majetku&lt;/EM&gt; atď.). 
+&lt;LI&gt;Vypočítané odpisy je možné &lt;STRONG&gt;automaticky zaúčtovať&lt;/STRONG&gt; do&amp;nbsp;&lt;A href="d8c9bfc8-92d1-4471-8909-e5f8ce602d6c"&gt;účtovného denníka&lt;/A&gt;, viac informácií je možné získať v téme&amp;nbsp;&lt;A href="b4329672-0a25-4161-bea7-150f71012c40"&gt;Hromadné účtovanie majetku (účtovných odpisov)&lt;/A&gt; (platí pre&amp;nbsp;&lt;A href="49dd3167-870a-4fdf-b631-d4f692f1ed72"&gt;podvojné účtovníctvo&lt;/A&gt;). Viac informácií&amp;nbsp;o automatickom účtovaní daňových odpisov v&amp;nbsp;&lt;A href="32be28cf-2368-4818-9d24-cfa9d59afb75"&gt;jednoduchom účtovníctve&lt;/A&gt; je možné získať v téme &lt;A href="bcc3e198-b8ce-4038-84f8-b332aa57dedb"&gt;Hromadné účtovanie majetku (daňových&amp;nbsp;odpisov)&lt;/A&gt;. 
+&lt;LI&gt;Investičný majetok je možné označiť&amp;nbsp;&lt;A href="61edd121-1efe-4a14-907c-8c8a18cc4539"&gt;etiketou&lt;/A&gt; (etiketa sa dá vytlačiť&amp;nbsp;po stlačení tlačidla &lt;EM&gt;Tlač&lt;/EM&gt;), prípadne je možné investičný majetok evidovať pomocou čiarových kódov. Bližšie informácie o čiarových kódoch získate v téme&amp;nbsp;&lt;A href="86ce651c-2637-4165-93b4-36535a700fbf"&gt;Práca s čiarovými kódmi&lt;/A&gt;. 
+&lt;LI&gt;Investičný majetok je možné členiť podľa potrieb účtovnej jednotky. Bližšie informácie o členení získate v téme&amp;nbsp;&lt;A href="f68687b5-0939-447b-9f8e-37c883676f1e"&gt;Členenie&lt;/A&gt;. 
+&lt;LI&gt;Záznamy v knihe&amp;nbsp;možno&amp;nbsp;filtrovať alebo triediť. Nastaviť kritériá filtrovania alebo triedenia možno po stlačení tlačidla &lt;A href="124da68e-c3f0-43e4-9466-60b4916bfc41"&gt;Vlastnosti&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Zaradiť&amp;nbsp;majetok do&amp;nbsp;&lt;EM&gt;Knihy investičného majetku&lt;/EM&gt;&amp;nbsp;je možné pomocou &lt;A href="bc57ce0f-9264-4a9b-b75e-d56e1400286b"&gt;formulára Inventárna karta&lt;/A&gt;.&amp;nbsp;Postup, ako zaevidovať majetok do&amp;nbsp;knihy investičného majetku&amp;nbsp;tak v systéme&amp;nbsp;&lt;A href="49dd3167-870a-4fdf-b631-d4f692f1ed72"&gt;podvojného&lt;/A&gt;, ako aj&amp;nbsp;&lt;A href="32be28cf-2368-4818-9d24-cfa9d59afb75"&gt;jednoduchého účtovníctva&lt;/A&gt;, nájdete v&amp;nbsp;téme&amp;nbsp;&lt;A href="6ddd5151-9a7b-46bb-a102-f812fd3734b9"&gt;Zaevidovanie majetku do knihy investičného majetku&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Ďalšie možnosti evidencie&lt;/H2&gt;
+&lt;P&gt;V &lt;EM&gt;Knihe investičného majetku&lt;/EM&gt; sú&amp;nbsp;pre prácu so&amp;nbsp;záznamami dostupné ďalšie možnosti, a to&amp;nbsp;po stlačení&amp;nbsp;tlačidla &lt;EM&gt;Možnosti&lt;/EM&gt;, prípadne v kontextovej ponuke tabuľky záznamov.&lt;/P&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Hromadný prepočet odpisov&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Hromadný prepočet odpisov znamená, že&amp;nbsp;sa nanovo vypočítajú účtovné aj daňové odpisy investičného majetku. Otvorí sa sprievodca, pomocou ktorého je možné zvoliť obdobie, od ktorého sa prepočítajú odpisy. V prípade zvolenia možnosti &lt;EM&gt;Prepísať&lt;/EM&gt; &lt;EM&gt;ručne zadané záznamy&lt;/EM&gt; sa prepíšu tie odpisy, ktoré boli zadané&amp;nbsp;používateľom.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Zobraziť prílohy&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Výberom možnosti sa otvorí formulár, v ktorom možno pridať dokument alebo obrázok (tlačidlo&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_Button_YellowPlus.png"&gt;). Použiť možno aj funkciu &lt;EM&gt;Drag&amp;amp;Drop&lt;/EM&gt;, prípadne prílohu oskenovať. Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="79eb5ae4-3bae-4a0c-be52-69c1ed8e59e5" style="auto-update-caption: true"&gt;Práca s prílohami&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;XML komunikácia - export údajov&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Otvorí sa sprievodca, ktorý umožňuje exportovať údaje z&amp;nbsp;tejto evidencie do súboru typu XML. Viac informácií získate v téme&amp;nbsp;&lt;A href="56f661c6-24da-46aa-b157-5d988cbe792b" style="auto-update-caption: true"&gt;Všeobecne o XML komunikácii&lt;/A&gt;.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;XML komunikácia - hromadný import dokladov&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Otvorí sa sprievodca, ktorý umožňuje importovať údaje&amp;nbsp;zo súboru typu&amp;nbsp;XML do tejto evidencie. Viac informácií získate v téme&amp;nbsp;&lt;A href="56f661c6-24da-46aa-b157-5d988cbe792b" style="auto-update-caption: true"&gt;Všeobecne o XML komunikácii&lt;/A&gt;.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Import majetku z inej účtovnej jednotky&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Otvorí sa sprievodca, ktorý umožňuje naimportovať údaje z inej účtovnej jednotky do &lt;EM&gt;Knihy investičného majetku&lt;/EM&gt;. Možnosť sa využíva vtedy, keď aktuálna databáza neobsahuje v &lt;EM&gt;Knihe investičného majetku&lt;/EM&gt; žiadne údaje.&amp;nbsp;V prípade, že aktuálna databáza nie je prázdna, všetky doteraz zaevidované karty investičného majetku sa &lt;STRONG&gt;vymažú a prepíšu&lt;/STRONG&gt; importom majetku z inej účtovnej jednotky.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Obnoviť vymazaný záznam&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Záznam, ktorý bol vymazaný presunutím do koša,&amp;nbsp;je možné obnoviť. Ďalšie informácie o mazaní a&amp;nbsp;obnove záznamov získate v téme&amp;nbsp;&lt;A href="90dfd66e-297e-41e9-9796-5f3c43ed111d" style="auto-update-caption: true"&gt;Kôš - vymazanie a obnova záznamov&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="623b9ece-a633-4a6c-a3b1-92fadcbb42ba" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="6ddd5151-9a7b-46bb-a102-f812fd3734b9">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="b02fc3ce-f702-4bc4-9008-8ef205b1eb9e" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="bc57ce0f-9264-4a9b-b75e-d56e1400286b">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="b326ba26-1e67-4481-883f-3936a23c8934" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="b4329672-0a25-4161-bea7-150f71012c40">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="92bb7f31-3474-4c67-a6a9-a475fcbc0f04" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="bcc3e198-b8ce-4038-84f8-b332aa57dedb">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="63695699-c78b-4591-9a17-79152747cd16">
+      <Keyword m="2021-08-10T12:45:35.6177587Z">Investičný majetok - kniha</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="d580322e-efba-4581-80c8-cce30bb871ef">
+      <Keyword m="2021-08-10T12:45:47.043268Z">Majetok - kniha investičného majetku</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="93c9073c-bd30-475a-a1a0-288f1ba222da">
+      <Keyword m="2021-08-10T12:45:59.4369149Z">Odpisová skupina - kniha investičného majetku</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

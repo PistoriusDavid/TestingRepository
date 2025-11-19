@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="c6542278-5d57-4c96-b3d8-ec30f2b5a6d3" Status="Complete" CreatedOn="2014-09-08T10:36:00.7906337Z" ModifiedOn="2023-05-12T06:07:21.2472936Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="22805" Name="Menu_Vehicles_Vehicles" BuildFlags="">
+  <Title m="2014-09-08T10:36:17.7136017Z">Vozidlá</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-05-12T06:07:21.2472936Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;je venovaná&amp;nbsp;položke&amp;nbsp;&lt;EM&gt;Vozidlá&amp;nbsp;&lt;/EM&gt;v&amp;nbsp;ponuke&amp;nbsp;&lt;EM&gt;Vozidlá&lt;/EM&gt; programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Výberom položky sa otvorí&amp;nbsp;kniha&amp;nbsp;&lt;EM&gt;Vozidlá&lt;/EM&gt;, ktorá &lt;STRONG&gt;umožňuje evidovať&lt;/STRONG&gt;&amp;nbsp;&lt;STRONG&gt;ľubovoľný počet vozidiel účtovnej jednotky&lt;/STRONG&gt;. 
+&lt;LI&gt;Kniha&amp;nbsp;umožňuje evidovať: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;firemné vozidlá&lt;/STRONG&gt; - cestné motorové vozidlá zahrnuté&amp;nbsp;do obchodného&amp;nbsp;majetku účtovnej jednotky, pri ktorých je okrem ďalších výdavkov (nákladov) možné uplatniť&amp;nbsp;aj výdavky&amp;nbsp;na nákup pohonných látok&amp;nbsp;(PHL) v preukázanej výške. 
+&lt;LI&gt;&lt;STRONG&gt;prenajaté vozidlá&lt;/STRONG&gt; - cestné motorové vozidlá obstarané formou operatívneho nájmu nezahrnuté do obchodného majetku (účtovná jednotka je len užívateľom vozidla). Okrem ďalších výdavkov je možné uplatniť aj výdavky na nákup&amp;nbsp;PHL v preukázanej výške. 
+&lt;LI&gt;&lt;STRONG&gt;súkromné vozidlá&lt;/STRONG&gt; - cestné motorové vozidlá, ktoré nie sú zahrnuté do obchodného majetku účtovnej jednotky, no&amp;nbsp;používajú sa na podnikanie.&amp;nbsp;Popri ďalších výdavkoch si pri nich možno uplatniť základnú náhradu za každý jeden kilometer jazdy a náhradu za spotrebované PHL. Viac informácií o výpočte náhrad preukázaných cestovných výdavkov pri použití súkromného vozidla na pracovnej ceste&amp;nbsp;získate v téme&amp;nbsp;&lt;A href="d217346c-8ef3-4c61-a572-2ee976bb817f" style="auto-update-caption: true"&gt;Sadzby základných náhrad&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;V prípade, že na jednom vozidle jazdí jeden vodič,&amp;nbsp;program umožňuje priradiť tohto vodiča k&amp;nbsp;danému&amp;nbsp;vozidlu (vo &lt;A href="0e8e9ee3-91f6-4c3e-ae22-f874f9d4c8cc"&gt;formulári Vozidlo&lt;/A&gt; v záložke &lt;EM&gt;Doplňujúce údaje&lt;/EM&gt; stlačte tlačidlo &lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_ListButton.png"&gt;&amp;nbsp;a&amp;nbsp;vyberte vodiča zo zoznamu &lt;A href="8dd60281-9cc7-41fe-9dd2-2ad5c7ffe047"&gt;pracovníkov&lt;/A&gt;).&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 
+&lt;LI&gt;V&amp;nbsp;OBERON-e je možné vytvoriť&amp;nbsp;&lt;A href="eb6f95fb-9b79-4f5e-84e8-275e00ffed71"&gt;daňové priznanie k dani z motorových vozidiel&lt;/A&gt; (ponuka &lt;EM&gt;Firma&lt;/EM&gt;,&amp;nbsp;&lt;A href="71b702c2-e6e7-4f9a-b66b-15dba7d31ae1" style="auto-update-caption: true"&gt;Priznania a výkazy&lt;/A&gt;). Údaje, ktoré program používa pri výpočte dane z&amp;nbsp;motorových vozidiel, čerpá z&amp;nbsp;&lt;A href="0e8e9ee3-91f6-4c3e-ae22-f874f9d4c8cc"&gt;formulára Vozidlo&lt;/A&gt;. 
+&lt;LI&gt;Program umožňuje&amp;nbsp;pri vozidlách&amp;nbsp;okrem bežných údajov sledovať napr.&amp;nbsp;dátum&amp;nbsp;platnosti emisnej a technickej kontroly. 
+&lt;LI&gt;Podpora alternatívnej pohonnej látky vozidla, napr. benzín a súčasne&amp;nbsp;LPG. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Vozidlo je možné zaevidovať pomocou&amp;nbsp;&lt;A href="0e8e9ee3-91f6-4c3e-ae22-f874f9d4c8cc"&gt;formulára Vozidlo&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="7d73c8d4-1b0a-400d-a6c2-de15506e0094" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="280be3ab-e42c-462b-bb0b-7abeac11b45a">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="3fd1db7f-04ef-4776-868d-d182756cf0f5" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="822d4556-571e-4260-ab82-e68d232b1662">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="56f75050-da66-442f-aa48-99da54d44b18" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="75b0747a-07d3-4044-a463-48cbddb73f49">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="f15c9a44-2d6c-4105-87ee-99ebdb8b34f3" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="d217346c-8ef3-4c61-a572-2ee976bb817f">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="69010a25-0fa1-43c2-bc9d-ba91801c7775" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="eb6f95fb-9b79-4f5e-84e8-275e00ffed71">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="ead24687-ce4c-44c0-94a3-535de54c8df5" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="0e8e9ee3-91f6-4c3e-ae22-f874f9d4c8cc">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="c7fb8add-f26a-4517-879f-b1a93dfde42d">
+      <Keyword m="2023-05-03T07:37:23.9660351Z">Autá - číselník</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="abe86319-a17f-4ef7-991c-8b4aa1b65604">
+      <Keyword m="2023-05-03T07:37:38.5036379Z">Číselník - vozidlá</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="721c90ba-acb8-4118-9b01-da56275715a2">
+      <Keyword m="2023-05-03T07:37:57.6617818Z">Vozidlá - číselník</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

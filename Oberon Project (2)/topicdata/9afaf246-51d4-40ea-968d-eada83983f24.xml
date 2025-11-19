@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="9afaf246-51d4-40ea-968d-eada83983f24" Status="Complete" CreatedOn="2015-02-24T08:41:00.7148437Z" ModifiedOn="2023-10-30T07:13:24.2247945Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="40590" Name="Form_AccSingle_RenumberingInternalDocument" BuildFlags="">
+  <Title m="2021-08-05T12:20:26.3853647Z">Sprievodca Prečíslovanie interných (nepeňažných) dokladov</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-10-16T11:30:18.1491509Z">&lt;P&gt;&lt;SPAN&gt;Sprievodca&amp;nbsp;&lt;EM&gt;Prečíslovanie (interných) nepeňažných&amp;nbsp;dokladov&lt;/EM&gt; umožňuje &lt;STRONG&gt;automaticky prečíslovať interné doklady nepeňažných operácií&lt;/STRONG&gt; v&amp;nbsp;&lt;A href="5e82cca9-b8af-4a80-ba30-7ab91914a595"&gt;peňažnom denníku&lt;/A&gt; v&amp;nbsp;chronologickom slede (podľa dátumu dokladu). Sprievodca je dostupný&amp;nbsp;z&amp;nbsp;programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;, ponuka&amp;nbsp;&lt;EM&gt;Účtovníctvo,&amp;nbsp;&lt;/EM&gt;&lt;A href="5e82cca9-b8af-4a80-ba30-7ab91914a595"&gt;Peňažný denník&lt;/A&gt; po stlačení tlačidla &lt;EM&gt;Možnosti - Prečíslovanie nepeňažných dokladov&lt;/EM&gt;.&lt;/SPAN&gt;&lt;/P&gt;&lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;SPAN&gt;Pred použitím funkcie prečíslovania&amp;nbsp;nepeňažných dokladov sa odporúča vykonať&amp;nbsp;&lt;A href="493f5942-f267-4f98-a46d-8acc745b9b88"&gt;zálohovanie údajov&lt;/A&gt;, keďže prečíslovanie je nevratný proces (nie je možné obnoviť pôvodné hodnoty).&lt;/SPAN&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Funkcia prečíslovania&amp;nbsp;nepeňažných dokladov &lt;STRONG&gt;sa&amp;nbsp;spravidla používa v&amp;nbsp;situáciách, keď sa neúčtuje v chronologickom (časovom) slede, prípadne, keď sa doplní určitý &lt;EM&gt;zabudnutý&lt;/EM&gt; doklad&lt;/STRONG&gt;. 
+&lt;LI&gt;Nepeňažná operácia predstavuje príjem alebo výdavok zaúčtovaný cez interný doklad (napr. zadanie počiatočných stavov, zaúčtovanie odpisov, manko atď.). Pri prečíslovaní nepeňažných dokladov bude k nepeňažným dokladom (nie hotovosť, bankový účet) priradené číslo, ktoré bude začínať číslom zadaným v sprievodcovi. 
+&lt;LI&gt;Do poľa &lt;EM&gt;Dátum&lt;/EM&gt; je možné zapísať dátum, od ktorého&amp;nbsp;sa nepeňažné doklady prečíslujú (pri zadaní 01.01.&amp;nbsp;daného účtovného obdobia&amp;nbsp;sa prečíslujú všetky nepeňažné doklady). 
+&lt;LI&gt;Pomocou&amp;nbsp;&lt;A href="834e9546-a56b-476f-9028-ef4c24a82345"&gt;práv používateľa&lt;/A&gt; je možné niektorým&amp;nbsp;používateľom obmedziť možnosť hromadne prečíslovať doklady. &amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="61d387e2-4c8b-4ba6-9f6f-1575ca51f185" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="5e82cca9-b8af-4a80-ba30-7ab91914a595">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="8df91124-d8b1-483f-b15e-320435f6e3ff" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="9b7111d2-812c-4d4f-b0a4-d2a89e72df18">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="4912df07-250a-4d1d-9676-3a02f3146ea7" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="fbf31c4f-937e-4ff4-a88e-8ffab6ddecfd">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="e228e21d-419f-4515-ad61-4292963e3053" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="adc6cb3d-95b2-46fd-8d05-fd9cf02ad18c">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="66280431-550e-4ebb-aaa5-5ffe52e56486" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="9aa7dbb1-f4a7-405e-8465-78b2133e0fd3">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="c6e09cd3-d2de-48a1-9d0a-1f9394cabd9f">
+      <Keyword m="2015-02-24T13:50:57.609375Z">Prečíslovanie nepeňažných dokladov</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="007a6d74-1f60-4686-89b6-c74e5150eb85">
+      <Keyword m="2015-02-24T14:01:38.7177734Z">Interný doklad</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="21c4092f-4240-4555-99ea-269d58e7e36f">
+      <Keyword m="2023-10-16T11:29:11.2483496Z">Prečíslovanie (interných) nepeňažných dokladov - sprievodca</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

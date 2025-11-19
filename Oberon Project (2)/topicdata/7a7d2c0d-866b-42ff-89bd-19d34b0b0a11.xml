@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="7a7d2c0d-866b-42ff-89bd-19d34b0b0a11" Status="Complete" CreatedOn="2014-09-10T07:55:27.0430882Z" ModifiedOn="2023-03-20T10:39:39.2283322Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="CashRegister_Advanced_Loyality_System" BuildFlags="">
+  <Title m="2014-09-24T13:57:23.8339843Z">Vernostný systém na Pokladnici OBERON</Title>
+  <ContentsTitle m="2014-09-24T13:57:06.9628906Z">Vernostný systém</ContentsTitle>
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-03-20T10:39:39.2283322Z">&lt;P&gt;Systém OBERON podporuje prácu s&amp;nbsp;&lt;A href="6c98a377-1b88-4eb8-801b-1f168641373b"&gt;vernostnými (zľavovými) systémami&lt;/A&gt;&amp;nbsp;na &lt;A href="a6f5e32d-6f1e-40bb-9d15-3f784a183252"&gt;Pokladnici OBERON&lt;/A&gt;&amp;nbsp;a&amp;nbsp;v&amp;nbsp;evidenciách &lt;A href="5c21adcc-87c8-44e7-981d-02902635693d"&gt;Kniha pohľadávok&lt;/A&gt; (vystavené faktúry) a&amp;nbsp;&lt;A href="0be61fcc-a85b-4572-876d-2171a5cb7c29"&gt;Výdajky&lt;/A&gt;. Táto téma obsahuje &lt;STRONG&gt;informácie o&amp;nbsp;práci s&amp;nbsp;vernostným systémom na &lt;EM&gt;Pokladnici OBERON&lt;/EM&gt;.&lt;/STRONG&gt;&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnica OBERON&lt;/A&gt; podporuje prácu&amp;nbsp;s&amp;nbsp;vernostným systémom, ktorého základný princíp spočíva&amp;nbsp;&lt;STRONG&gt;v&amp;nbsp;zbieraní vernostných bodov za nákup tovaru alebo služieb&lt;/STRONG&gt; (kumulovanie benefitov)&amp;nbsp;a &lt;STRONG&gt;v&amp;nbsp;následnom&lt;/STRONG&gt; &lt;STRONG&gt;získaní zľavy alebo darčeka (tovaru alebo&amp;nbsp;služby zdarma)&lt;/STRONG&gt;&amp;nbsp;za určitý počet naakumulovaných bodov (čerpanie benefitov). Viac informácií o&amp;nbsp;vernostných systémoch v&amp;nbsp;OBERON-e získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="6c98a377-1b88-4eb8-801b-1f168641373b"&gt;Vernostné (zľavové) systémy&lt;/A&gt;. 
+&lt;LI&gt;Pri používaní vernostného systému sa na &lt;I&gt;Pokladnici OBERON&lt;/I&gt; v oddiele &lt;I&gt;Obchodný partner&lt;/I&gt; zobrazí pole&amp;nbsp;&lt;EM&gt;Číslo vernostnej karty&lt;/EM&gt;. Stlačením tlačidla výberu&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_ListButton.png"&gt;&amp;nbsp;sa zobrazí &lt;A href="f63e245e-f7c1-4def-b012-21256dea3530"&gt;formulár Vernostný systém - kumulovanie benefitu&lt;/A&gt;&amp;nbsp;&lt;STRONG&gt;na zadanie čísla vernostnej karty na&lt;/STRONG&gt;&amp;nbsp;&lt;STRONG&gt;kumulovanie benefitov&lt;/STRONG&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;Čerpanie benefitov&lt;/STRONG&gt; je dostupné po stlačení tlačidla &lt;EM&gt;Čerpanie benefitov&amp;nbsp;(Ctrl+Shift+E)&lt;/EM&gt; - zobrazí sa &lt;A href="f63e245e-f7c1-4def-b012-21256dea3530"&gt;formulár Vernostný systém - čerpanie benefitu&lt;/A&gt;. 
+&lt;LI&gt;V oboch formulároch je možné zadať, resp.&amp;nbsp;&lt;A href="80a78093-fc45-4db9-b74b-e1f9829f7b3c"&gt;snímačom čiarových kódov&lt;/A&gt;&amp;nbsp;alebo&amp;nbsp;&lt;A href="16818a7f-7c27-497a-be4a-4930302e84f1"&gt;snímačom RFID kľúčov&lt;/A&gt; načítať číslo vernostnej karty (prípadne vytvoriť novú vernostnú kartu) na následné kumulovanie alebo čerpanie benefitov. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Postup kumulovania benefitov&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;V programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt; zvoľte ponuku &lt;EM&gt;Sklad&lt;/EM&gt;,&amp;nbsp;&lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnica OBERON&lt;/A&gt;. 
+&lt;LI&gt;V&amp;nbsp;oddiele &lt;I&gt;Obchodný partner&lt;/I&gt; pri poli &lt;EM&gt;Číslo vernostnej karty&lt;/EM&gt; stlačte&amp;nbsp;tlačidlo výberu&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_ListButton.png"&gt;. 
+&lt;LI&gt;V prípade používania viacerých vernostných systémov zvoľte vernostný systém, s&amp;nbsp;ktorým chcete pracovať. Zobrazí sa formulár&amp;nbsp;&lt;A href="f63e245e-f7c1-4def-b012-21256dea3530"&gt;Vernostný systém - kumulovanie benefitu&lt;/A&gt;. 
+&lt;LI&gt;Zadajte alebo nasnímajte číslo vernostnej karty a&amp;nbsp;stlačte tlačidlo &lt;EM&gt;&lt;STRONG&gt;OK&lt;/STRONG&gt;&lt;/EM&gt;. Na vernostnej karte sa navýši počet vernostných bodov podľa nastavení vernostného systému. &lt;/LI&gt;&lt;/OL&gt;
+&lt;H2&gt;Postup na čerpanie benefitu&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;V programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt; zvoľte ponuku &lt;EM&gt;Sklad&lt;/EM&gt;,&amp;nbsp;&lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnica OBERON&lt;/A&gt;. Medzi tlačidlami vrchného panela stlačte tlačidlo &lt;EM&gt;&lt;STRONG&gt;Čerpanie benefitov (Ctrl+Shift+E)&lt;/STRONG&gt;&lt;/EM&gt;. 
+&lt;LI&gt;V prípade používania viacerých vernostných systémov zvoľte vernostný systém, s&amp;nbsp;ktorým chcete pracovať. Zobrazí sa&amp;nbsp;&lt;A href="f63e245e-f7c1-4def-b012-21256dea3530"&gt;formulár Vernostný systém - čerpanie benefitu&lt;/A&gt;. 
+&lt;LI&gt;Zadajte alebo nasnímajte číslo vernostnej karty a&amp;nbsp;stlačte tlačidlo &lt;EM&gt;OK&lt;/EM&gt;.&amp;nbsp;Zobrazí sa zoznam dostupných benefitov, ktoré môže zákazník na základe vernostnej karty čerpať. 
+&lt;LI&gt;Vyberte benefit, ktorý chcete zákazníkovi poskytnúť: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;EM&gt;&lt;STRONG&gt;Zľava na doklad v&amp;nbsp;percentách&lt;/STRONG&gt;&lt;/EM&gt;&amp;nbsp;- zľava zadaná v evidencii&amp;nbsp;&lt;A href="4fbe9db8-25bc-420f-aee5-228d0a8ff03f"&gt;obchodného partnera&lt;/A&gt;, 
+&lt;LI&gt;&lt;EM&gt;&lt;STRONG&gt;Zľava na doklad v&amp;nbsp;určitej hodnote&lt;/STRONG&gt;&lt;/EM&gt; - zľava nastavená v&amp;nbsp;rámci konfigurácie webovej služby&amp;nbsp;vernostného systému&amp;nbsp;&lt;A href="92147420-5d85-4b11-a328-06d401650294"&gt;OBERON vernostný systém (klient)&lt;/A&gt;, 
+&lt;LI&gt;&lt;EM&gt;&lt;STRONG&gt;Darčeková položka&lt;/STRONG&gt; -&lt;/EM&gt; predstavuje&amp;nbsp;&lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;skladovú kartu&lt;/A&gt;&amp;nbsp;so zníženou alebo nulovou cenou. Na skladovej karte&amp;nbsp;v záložke &lt;EM&gt;Obch. partneri&lt;/EM&gt; je potrebné mať zadanú&amp;nbsp;hodnotu položky v bodoch pre čerpanie benefitov. Ak bude na vernostnej karte dostatočný počet bodov, benefit bude dostupný a bude možné ho využiť - čerpať (v&amp;nbsp;opačnom prípade bude zobrazený &lt;SPAN style="COLOR: rgb(127,127,127)"&gt;&lt;STRONG&gt;sivou farbou&lt;/STRONG&gt;&lt;/SPAN&gt;). Viac informácií získate&amp;nbsp;v&amp;nbsp;témach&amp;nbsp;&lt;A href="f63e245e-f7c1-4def-b012-21256dea3530" style="auto-update-caption: true"&gt;Formulár Vernostný systém - kumulovanie/čerpanie benefitu&lt;/A&gt;&amp;nbsp;a&amp;nbsp;&lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1" style="auto-update-caption: true"&gt;Formulár Skladová karta&lt;/A&gt;, záložka &lt;EM&gt;Obch. partneri&lt;/EM&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Po stlačení tlačidla &lt;EM&gt;OK&lt;/EM&gt;&amp;nbsp;sa benefit uplatní - na doklad sa&amp;nbsp;aplikuje zľava alebo sa doň pridá darčeková položka. Na vernostnej karte&amp;nbsp;sa počet vernostných bodov zníži o hodnotu bodov čerpaných darčekových položiek. &lt;/LI&gt;&lt;/OL&gt;&lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;V prípade, že&amp;nbsp;je na&amp;nbsp;&lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;skladovej karte&lt;/A&gt; zadaná &lt;EM&gt;Hodnota položky v bodoch pre kumulovanie benefitov&lt;/EM&gt; a zároveň aj&amp;nbsp;&lt;EM&gt;Hodnota položky v bodoch pre čerpanie benefitov&lt;/EM&gt;, bude táto skladová položka pri jej vybratí pomocou tlačidla &lt;EM&gt;Čerpanie benefitov (Ctrl+Shift+E)&lt;/EM&gt; pridaná na doklad s nulovou cenou.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt; 
+&lt;P&gt;Pri využívaní vernostného systému je možné&amp;nbsp;zakázať zadávanie zliav na &lt;A href="aec074f4-3e1c-4a1e-8a80-06fcecf51156"&gt;Pokladnici OBERON&lt;/A&gt;, ak obsluha pokladnice nepoužije vernostnú kartu - v&amp;nbsp;tomto prípade je potrebné&amp;nbsp;zakázať výber zákazníka manuálnym výberom z&amp;nbsp;evidencie obchodných partnerov. Možno tak urobiť vo&amp;nbsp;&lt;A href="bb0e1e82-e344-4bf0-834a-a294269f2e71"&gt;formulári Pokladnica OBERON - nastavenia&lt;/A&gt;, záložka &lt;I&gt;Rozšírené,&lt;/I&gt; nastavenie &lt;I&gt;Zakázať výber obchodných partnerov zo zoznamu.&lt;/I&gt;&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="4043983a-8f25-4eb6-93a8-86dfb5aedd99" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="6c98a377-1b88-4eb8-801b-1f168641373b">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="8fa3bb83-1faf-4ed5-845b-dc17fdc47e71" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="e20b0d75-24ee-4bd0-8f05-f61b22205d9a">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="46563ea6-2b64-4751-a30a-60a8b4ad1c22" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="92147420-5d85-4b11-a328-06d401650294">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="05e15b09-cb62-47c3-93a3-272b9e908c58" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="29a9a88d-471d-434a-ad1c-de2068775bdf">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="f09e6477-1fc4-4889-bd2a-14f468dd56d0" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="6463c7dc-58dd-4df8-b0d6-bf41901c1998">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="fecf9ae3-5213-493f-a85b-f482dda886cb" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="c233ada3-0fed-4911-97f3-0680973ebac1">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="04249d18-9288-4a03-9b93-805d4415c94d" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="a35e5b68-56e0-4e4a-a271-99b4134aeaf8">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="f1372bd6-0f6a-4010-8b78-0aabd07eab29" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="f63e245e-f7c1-4def-b012-21256dea3530">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="09738769-5c13-490e-8ba6-b3f36bb8167f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="04d04395-7b97-45db-bdb1-4e36240a4b54">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="ed530381-a3b8-4edc-a335-6a49d4f6a129">
+      <Keyword m="2021-12-07T10:19:28.9906992Z">Čerpanie benefitov - Pokladnica OBERON</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="d162b684-3ccd-4000-8950-df77826bae30">
+      <Keyword m="2021-12-07T10:19:53.8731898Z">Kumulovanie benefitov - Pokladnica OBERON</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="a5c5a5a4-db48-4264-90fe-3d1d17023816">
+      <Keyword m="2021-12-07T11:23:15.1661168Z">Pokladnica OBERON - čerpanie benefitov</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="029408be-a307-4f51-85df-fbbf79dab2e8">
+      <Keyword m="2021-12-07T11:23:26.7356542Z">Pokladnica OBERON - kumulovanie benefitov</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="1ced5e87-06e2-4ad8-b6cb-0c75d3e84f6f">
+      <Keyword m="2021-12-07T11:24:29.4400589Z">Pokladnica OBERON - vernostný systém</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

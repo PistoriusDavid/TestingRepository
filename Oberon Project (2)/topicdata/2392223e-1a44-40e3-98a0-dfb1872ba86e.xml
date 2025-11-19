@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="2392223e-1a44-40e3-98a0-dfb1872ba86e" Status="Complete" CreatedOn="2023-09-04T08:44:41.8902994Z" ModifiedOn="2023-09-20T12:23:11.533392Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="51025" Name="Stock_Advanced_AmountVerification" BuildFlags="">
+  <Title m="2023-09-04T08:45:09.0813298Z">Sledovanie pripravenosti tovaru</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-09-06T10:24:07.1165137Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;obsahuje &lt;STRONG&gt;informácie&amp;nbsp;o&amp;nbsp;sledovaní pripravenosti tovaru v sklade, ako aj&amp;nbsp;postup zápisu množstva pripraveného tovaru&lt;/STRONG&gt; v systéme OBERON. Funkcia sa používa&amp;nbsp;v&amp;nbsp;prípade, že účtovná jednotka pri vybavení prijatej objednávky postupuje tak, že&amp;nbsp;&lt;STRONG&gt;na základe objednávky prijatej&amp;nbsp;sa tovar fyzicky v sklade pripraví na vyskladnenie&lt;/STRONG&gt; a až následne sa&amp;nbsp;objednávka vloží do dokladu (výdajky, faktúry, pokladničného dokladu). Tento postup má výhodu v&amp;nbsp;tom, že sa &lt;STRONG&gt;najprv fyzicky overí dostupnosť množstva v&amp;nbsp;sklade a&amp;nbsp;až potom sa vytvorí doklad&lt;/STRONG&gt;. Tým možno predísť opravám dokladov, ak sa po ich vystavení zistí nedostatočné množstvo tovaru v sklade. Viac informácií o spôsoboch (postupoch) vybavenia prijatej objednávky získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="c91cdf0d-f982-42ce-a348-4fb310046672" style="auto-update-caption: true"&gt;Všeobecne o objednávkach&lt;/A&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Sledovanie&amp;nbsp;pripravenosti tovaru v systéme OBERON znamená &lt;STRONG&gt;sledovanie, resp.&amp;nbsp;overenie&amp;nbsp;fyzických množstiev&amp;nbsp;tovarov dostupných v sklade, a tak pripravených na vyskladnenie&lt;/STRONG&gt;. V&amp;nbsp;programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;&amp;nbsp;sa pripravené množstvo (popri rezervovanom a dodanom množstve) eviduje pri &lt;A href="48505e8d-5f28-4063-882b-ca07f33670ef"&gt;objednávkach prijatých&lt;/A&gt;, konkrétne pri danej skladovej položke vo&amp;nbsp;&lt;A href="6712889d-bea7-4ae7-859d-82b809c7bdcc"&gt;formulári Objednávka prijatá&lt;/A&gt;, záložka &lt;EM&gt;Položky&amp;nbsp;dokladu&lt;/EM&gt;. 
+&lt;LI&gt;Hlavnou výhodou funkcie sledovania pripravenosti tovaru je, že &lt;STRONG&gt;umožňuje overiť množstvo objednaného tovaru v sklade ešte pred tým, ako sa objednávka vloží do výdajky, prípadne do daňového dokladu&lt;/STRONG&gt;. To umožní predchádzať zbytočným opravám dokladov po ich vystavení. 
+&lt;LI&gt;Pripravené množstvo sa zaeviduje podľa reálneho množstva danej položky v sklade. Môžu pritom nastať tieto situácie: 
+&lt;UL&gt;
+&lt;LI&gt;v&amp;nbsp;sklade je dostupné &lt;STRONG&gt;rovnaké alebo vyššie množstvo ako objednané&lt;/STRONG&gt; - v&amp;nbsp;tom prípade sa&amp;nbsp;zaznačí&amp;nbsp;rovnaké pripravené množstvo ako objednané, 
+&lt;LI&gt;v&amp;nbsp;sklade je dostupné &lt;STRONG&gt;menšie množstvo ako objednané&lt;/STRONG&gt; (napr. v&amp;nbsp;dôsledku manka,&amp;nbsp;poškodenia a pod.) - vtedy sa zaeviduje toto (menšie) množstvo, 
+&lt;LI&gt;v&amp;nbsp;sklade nie je &lt;STRONG&gt;žiadne množstvo danej položky&lt;/STRONG&gt; -&amp;nbsp;zaznačí sa &lt;SPAN style="COLOR: rgb(255,0,0)"&gt;nulové množstvo (0)&lt;/SPAN&gt;. Je dôležité zaznačiť 0, pretože &lt;STRONG&gt;pri nezaznačení žiadneho množstva (ak sa ponechá pole prázdne)&amp;nbsp;sa pri následnom vložení objednávky do výdajky vyskladní celé objednané&amp;nbsp;množstvo danej položky&lt;/STRONG&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Podľa reálneho stavu množstva danej položky v&amp;nbsp;sklade sa následne účtovná jednotka rozhodne,&amp;nbsp;ako sa bude s&amp;nbsp;danou objednávkou ďalej pracovať, napr. sa vybaví len čiastočne&amp;nbsp;(čiastočne dodaná). 
+&lt;LI&gt;Na zaevidovanie pripraveného množstva možno použiť aj&amp;nbsp;mobilnú aplikáciu&amp;nbsp;&lt;A href="be17efdf-4b36-4b47-ad5d-09b0f66c8f65"&gt;ASTON - mobilný skladník&lt;/A&gt;. Použitie mobilnej aplikácie ASTON výrazným spôsobom uľahčuje a zrýchľuje prácu s tovarom v&amp;nbsp;sklade. Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="7b93ec65-6370-4d92-ba17-c1200cd1e203" style="auto-update-caption: true"&gt;ASTON - sledovanie pripravenosti tovaru&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Postup zápisu pripraveného množstva&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;V ponuke &lt;EM&gt;Fakturácia&lt;/EM&gt;,&amp;nbsp;&lt;A href="48505e8d-5f28-4063-882b-ca07f33670ef" style="auto-update-caption: true"&gt;Objednávky prijaté&lt;/A&gt;&amp;nbsp;vyberte konkrétnu&amp;nbsp;objednávku&amp;nbsp;a&amp;nbsp;stlačte tlačidlo &lt;EM&gt;Opraviť&lt;/EM&gt;. 
+&lt;LI&gt;V&amp;nbsp;záložke &lt;EM&gt;Položky&lt;/EM&gt; zvoľte položku, pri ktorej chcete zaevidovať pripravené množstvo, a&amp;nbsp;stlačte tlačidlo &lt;EM&gt;Oprava&lt;/EM&gt;. 
+&lt;LI&gt;Otvorí sa formulár &lt;EM&gt;Nová položka dokladu&lt;/EM&gt;,&amp;nbsp;v ktorom do poľa &lt;EM&gt;&lt;STRONG&gt;Množstvo pripravené&lt;/STRONG&gt;&lt;/EM&gt; zadajte množstvo danej položky, ktoré je v&amp;nbsp;sklade pripravené na vyskladnenie. 
+&lt;LI&gt;Stlačením tlačidla&amp;nbsp;&lt;EM&gt;OK&lt;/EM&gt;&amp;nbsp;sa pripravené množstvo tovaru uloží. &lt;/LI&gt;&lt;/OL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="76491baa-dd6e-4aeb-9ef0-e712e2a87a65" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="48505e8d-5f28-4063-882b-ca07f33670ef">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="551e50df-0d85-42a7-a7f4-24677617e248" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="c91cdf0d-f982-42ce-a348-4fb310046672">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="5f96ac70-bedd-477e-971f-220262c08841" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="a9a8c655-077e-45cb-acb3-8fdb105a2409">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="dc643929-e8d7-435b-914b-f5cbc7bed86b" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="5f711bd3-c5ab-4b68-93cc-214b6720faf8">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="b4d7ffb3-2ce1-4c54-9a82-f7b5d99e1bff" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="be17efdf-4b36-4b47-ad5d-09b0f66c8f65">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="b97556c7-c72e-4ba7-a394-5db866ce7956" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="7b93ec65-6370-4d92-ba17-c1200cd1e203">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="f6fa5eea-813b-4887-8e7e-8d82ed541909" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="d846e034-8068-4f77-a764-6d26c438e66a">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="3f46ed70-4637-4930-b4e3-536248b0ca08" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="26b93bca-ce0e-4fed-9d46-d5b46a27f113">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="2f716c9d-8642-4d3e-9ca9-1b6a756c3507">
+      <Keyword m="2023-09-04T12:10:16.6140173Z">Pripravenosť tovaru - sledovanie v OBERON-e</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="ca7c93a5-5405-4681-b99b-8402bbf29a28">
+      <Keyword m="2023-09-04T12:10:30.8250488Z">Pripravené množstvo tovaru - sledovanie v OBERON-e</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

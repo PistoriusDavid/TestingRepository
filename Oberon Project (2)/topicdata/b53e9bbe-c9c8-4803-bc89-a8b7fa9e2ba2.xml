@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="b53e9bbe-c9c8-4803-bc89-a8b7fa9e2ba2" Status="Complete" CreatedOn="2016-09-09T08:24:53.8668493Z" ModifiedOn="2023-07-31T06:10:34.4514581Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Wages_Practical_Supplement_MinimumWage" BuildFlags="">
+  <Title m="2016-09-13T11:16:29.0504681Z">Doplatok do sumy minimálnej mzdy</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-07-31T06:07:32.8513019Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;informácie o doplatku&amp;nbsp;do&amp;nbsp;minimálnej mzdy&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;V&amp;nbsp;zmysle&amp;nbsp;§ 3 ods. 1 zákona č. 663/2007 Z. z.&amp;nbsp;o minimálnej mzde, ak mzda zamestnanca za vykonanú prácu nedosiahne v kalendárnom mesiaci sumu minimálnej mzdy, aj keď zamestnanec odpracoval plný pracovný čas v mesiaci ustanovený zamestnávateľom, zamestnávateľ poskytne zamestnancovi &lt;STRONG&gt;doplatok, ktorý predstavuje rozdiel medzi sumou minimálnej mzdy ustanovenou na príslušný kalendárny rok a dosiahnutou mzdou&lt;/STRONG&gt;. 
+&lt;LI&gt;Pracovníkovi, ktorého mzda je splatná za dlhšie ako mesačné obdobie, sa doplatok poskytuje ako preddavok a&amp;nbsp;vyúčtuje sa pri výplate uvedenej mzdy alebo jej časti za obdobie predchádzajúce dňu tejto výplaty. Obdobie predchádzajúce dňu tejto výplaty, prípadne bližšie podmienky&amp;nbsp;vyúčtovania doplatku dohodne zamestnávateľ v&amp;nbsp;kolektívnej zmluve. 
+&lt;LI&gt;V prípade pracovníka, ktorý je odmeňovaný inou ako mesačnou mzdou, napr. časovou&amp;nbsp;alebo úkolovou, sa vychádza zo sumy minimálnej mzdy vyjadrenej v eurách na hodinu, zodpovedajúcej ustanovenému týždennému pracovnému času. 
+&lt;LI&gt;Ak je ustanovený týždenný pracovný čas na pracovisku pracovníka kratší ako 40 hodín týždenne, suma minimálnej mzdy v eurách za hodinu sa nepriamoúmerne skráteniu musí zvýšiť v pomere medzi 40-hodinovým týždenným pracovným časom a týždenným pracovným časom ustanoveným na prevádzke. 
+&lt;LI&gt;V&amp;nbsp;prípade, že pracovníkovi vznikol nárok na doplatok do sumy minimálnej mzdy, &lt;STRONG&gt;program ho počíta automaticky&lt;/STRONG&gt;. Doplatok však možno zadať aj manuálne, a to pri&lt;EM&gt;&amp;nbsp;&lt;/EM&gt;&lt;A href="6923b0c5-166b-4e3b-a53b-71f62b53b2fc"&gt;tvorbe miezd&lt;/A&gt;&amp;nbsp;(pozri postup nižšie). &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Manuálne zadanie doplatku do minimálnej mzdy&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;V programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt; zvoľte ponuku &lt;EM&gt;Mzdy,&amp;nbsp;&lt;/EM&gt;&lt;A href="6923b0c5-166b-4e3b-a53b-71f62b53b2fc"&gt;Tvorba miezd&lt;/A&gt;, prípadne stlačte tlačidlo&amp;nbsp;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Button_Wages.png"&gt;&amp;nbsp;v nástrojovej lište OBERON-u.&amp;nbsp; 
+&lt;LI&gt;Vyberte (označte kurzorom) mzdu pracovníka, ktorému chcete zadať doplatok. 
+&lt;LI&gt;Stlačte tlačidlo &lt;EM&gt;&lt;STRONG&gt;Upraviť mzdu&lt;/STRONG&gt;&lt;/EM&gt;. Otvorí sa&amp;nbsp;&lt;A href="2cd2daa2-afd8-4a7b-9ca3-da8f3c35fec4"&gt;formulár Úprava mzdy&lt;/A&gt;. V záložke &lt;EM&gt;Zložky mzdy&lt;/EM&gt; stlačte tlačidlo &lt;STRONG&gt;&lt;EM&gt;Nový-Základná mzda&lt;/EM&gt;&lt;/STRONG&gt; a&amp;nbsp;zo zoznamu&amp;nbsp;&lt;A href="fc8d8173-0da0-459a-b570-587597ce3315"&gt;mzdových predkontácií&lt;/A&gt; vyberte predkontáciu&amp;nbsp;&lt;EM&gt;&lt;STRONG&gt;150 - Doplatok do min. mzdy&lt;/STRONG&gt;&lt;/EM&gt;. 
+&lt;LI&gt;Zobrazí sa formulár &lt;EM&gt;Základná mzda&lt;/EM&gt;,&amp;nbsp;v ktorom zadajte tarifu (sumu doplatku). 
+&lt;LI&gt;Stlačením tlačidla &lt;I&gt;&lt;STRONG&gt;OK (spracované)&lt;/STRONG&gt;&lt;/I&gt; sa formulár uzatvorí. Formulár môžete zatvoriť aj tlačidlom &lt;EM&gt;OK (koncept),&lt;/EM&gt; ktorý sa používa na označovanie ešte nespracovaných a nedokončených miezd. &lt;/LI&gt;&lt;/OL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="6bcb52b4-edc0-4711-9922-05fc4e4d0561" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="fc8d8173-0da0-459a-b570-587597ce3315">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="48751158-9dbd-46ce-99bb-f217e1a3f9fa" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1e1da5f2-5abd-48a4-bf82-4f31c614ac45">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="f3b84f53-0896-4683-8879-a0a587440c61" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="6923b0c5-166b-4e3b-a53b-71f62b53b2fc">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="68dd2834-29a5-4297-ab2e-a5d80fa370a9" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="2cd2daa2-afd8-4a7b-9ca3-da8f3c35fec4">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="d648719b-e5a1-408f-9cf3-ccf443ec2c6d">
+      <Keyword m="2023-07-31T06:09:56.2732691Z">Minimálna mzda - doplatok do sumy</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="dcf2dad6-000f-498e-a0e5-e74e3dffcc06">
+      <Keyword m="2023-07-31T06:10:06.2593041Z">Suma minimálnej mzdy - doplatok</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="10094755-9040-49fe-b0a6-b9eb1d95799a">
+      <Keyword m="2023-07-31T06:10:20.0747206Z">150 - Doplatok do min. mzdy</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="2bac8d21-6ae0-44e4-8b2e-403ac2f25955" Status="Complete" CreatedOn="2014-10-08T12:03:03.5277101Z" ModifiedOn="2025-01-20T08:45:58.994765Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="22020" Name="Form_OBERON_Print" BuildFlags="">
+  <Title m="2014-12-09T14:01:19.9072265Z">Formulár Tlačové výstupy</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2025-01-20T08:45:58.994765Z">&lt;P&gt;Formulár &lt;EM&gt;Tlačové výstupy&lt;/EM&gt;&amp;nbsp;slúži na &lt;STRONG&gt;zostavenie tlačového výstupu&lt;/STRONG&gt;, ktorý je možné zobraziť v náhľade na obrazovke, vytlačiť na tlačiarni, exportovať do formátu PDF, prípadne odoslať elektronickou poštou.&amp;nbsp;Všeobecné informácie o tlačových výstupoch v systéme OBERON sú dostupné v&amp;nbsp;téme&amp;nbsp;&lt;A href="66ed476e-d5ea-4e46-a758-a3f190a60a7c" style="auto-update-caption: true"&gt;Všeobecne o tlačových výstupoch&lt;/A&gt;. Formulár &lt;EM&gt;Tlačové výstupy&lt;/EM&gt; je možné otvoriť&amp;nbsp;z&amp;nbsp;akejkoľvek evidencie (knihy) programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;&amp;nbsp;stlačením tlačidla &lt;EM&gt;Tlač&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Popis formulára &lt;EM&gt;Tlačové výstupy&lt;/EM&gt;&lt;/H2&gt;&lt;innovasys:widget layout="block" type="Drop Down Section"&gt;&lt;innovasys:widgetproperty name="Heading" layout="inline"&gt;Parametre tlače&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty name="Content" layout="block"&gt;
+&lt;P&gt;&lt;STRONG&gt;Tlačiareň&lt;/STRONG&gt;&amp;nbsp;- tlačiareň systému &lt;EM&gt;Windows&lt;/EM&gt;, na ktorej&amp;nbsp;sa tlačový výstup vytlačí.&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;Počet kópií&lt;/STRONG&gt; - počet kópií tlačového výstupu, ktoré sa majú vytlačiť na tlačiarni. Má význam len pri tlači priamo na tlačiarni, pri náhľade na obrazovke sa tento údaj nepoužíva.&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;Dátum&lt;/STRONG&gt; - niektoré tlačové výstupy (hlavne zoznamy) obsahujú dátum vytlačenia zostavy. Tu je možné tento dátum zmeniť.&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;Jazyk&lt;/STRONG&gt; - vyberá sa jazyk, v ktorom sa vytvorí tlačový výstup. Zoznam&amp;nbsp;je determinovaný jazykovými&amp;nbsp;súbormi&amp;nbsp;nainštalovanými pomocou&amp;nbsp;&lt;A href="a1ae5eb5-f369-4aab-80b2-c6585166d550"&gt;Správcu doplnkov&lt;/A&gt;.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget layout="block" type="Drop Down Section"&gt;&lt;innovasys:widgetproperty name="Heading" layout="inline"&gt;Tlačové výstupy&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty name="Content" layout="block"&gt;
+&lt;P&gt;Každá kniha obsahuje svoje vlastné tlačové zostavy. Ikonkou pred názvom tlačovej zostavy je možné rozlíšiť tieto&amp;nbsp;typy výstupov:&lt;/P&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Print/tlac_ico1.gif"&gt;-&amp;nbsp;Tlač jedného dokladu. Tlačový výstup rešpektuje filter nad knihou, prípadne vytlačí výstup len z označeného záznamu.&lt;/P&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Print/tlac_ico2.gif"&gt;-&amp;nbsp;Tlač viacerých dokladov. Tlačový výstup rešpektuje filter nad knihou.&lt;/P&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Print/tlac_ico3.gif"&gt;-&amp;nbsp;Tlačový výstup (súhrn) s vlastným jednokrokovým sprievodcom. Tento tlačový výstup nerešpektuje filter definovaný nad knihou.&lt;/P&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Print/Form_Button_Print_Wizard.png"&gt;&amp;nbsp;- Tlačový výstup s vlastným sprievodcom, ktorý má viacero krokov.&lt;/P&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Print/Form_Button_Print_Graph.png"&gt;&amp;nbsp;- Tlačový výstup vo forme grafu (stĺpcové grafy).&lt;/P&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Print/Form_Button_Print_Graph2.png"&gt;- Tlačový výstup vo forme iného typu grafu (lineárny graf).&lt;/P&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Print/Form_Button_Print_Table.png"&gt;&amp;nbsp;- Tlačový výstup vo forme tabuľky (cenovky, štítky).&lt;/P&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Print/Form_Button_Print_Sum.png"&gt;&amp;nbsp;-&amp;nbsp;Tlačový výstup vo forme&amp;nbsp;súhrnu (súčtu).&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget layout="block" type="Drop Down Section"&gt;&lt;innovasys:widgetproperty name="Heading" layout="inline"&gt;Tlačenie a náhľad&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty name="Content" layout="block"&gt;
+&lt;P&gt;&lt;STRONG&gt;Náhľad&lt;/STRONG&gt; - zobrazí náhľad tlačového výstupu na obrazovke, t.&amp;nbsp;j. otvorí sa okno generátora tlačových výstupov s náhľadom tlačového výstupu. Z tohto formulára&amp;nbsp;(pomocou tlačidla &lt;EM&gt;Uložiť/Save&lt;/EM&gt;) je&amp;nbsp;možné výstup exportovať do súborov rôznych formátov,&amp;nbsp;napr. &lt;EM&gt;MS Excel&lt;/EM&gt;, &lt;EM&gt;MS Word&lt;/EM&gt;, &lt;EM&gt;PDF&lt;/EM&gt;,&amp;nbsp;&lt;EM&gt;JPG&lt;/EM&gt; atď.&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;E-mail&lt;/STRONG&gt; - tlačová zostava sa odošle vo formáte PDF na&amp;nbsp;e-mailovú adresu&amp;nbsp;&lt;A href="b7a48886-b367-4056-808a-59ba5f871f32"&gt;obchodného partnera&lt;/A&gt;, resp.&amp;nbsp;&lt;A href="225638ed-22f6-4ac4-9085-6d77c64925db"&gt;používateľa&lt;/A&gt;&amp;nbsp;z&amp;nbsp;e-mailovej adresy nastavenej v ponuke&amp;nbsp;&lt;A href="a833ee8a-1289-42b9-923f-80f549497702"&gt;Údaje o firme&lt;/A&gt;.&amp;nbsp;Na odosielanie dokladov elektronickou poštou je potrebné mať v&amp;nbsp;&lt;A href="89fa80dd-8f80-4e9f-9a25-1eed4f6fdbb8"&gt;nastaveniach programu&lt;/A&gt; správne nakonfigurovaného&amp;nbsp;a&amp;nbsp;nastaveného&amp;nbsp;&lt;A href="ea5379c8-9451-40fc-ac0f-f038feefa916"&gt;poštového klienta&lt;/A&gt;. V&amp;nbsp;prípade, že sú vykonané potrebné nastavenia,&amp;nbsp;dokument sa aj automaticky elektronicky podpíše - viac v&amp;nbsp;téme&amp;nbsp;&lt;A href="c1e2e5a1-2cf4-47aa-a546-47d5baa1df3e" style="auto-update-caption: true"&gt;Čo je elektronický podpis&lt;/A&gt;.&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;E-mail (podpísať zákazníkom)&lt;/STRONG&gt; - tlačová zostava sa odošle vo formáte PDF na&amp;nbsp;e-mailovú adresu&amp;nbsp;&lt;A href="b7a48886-b367-4056-808a-59ba5f871f32"&gt;obchodného partnera&lt;/A&gt;, resp.&amp;nbsp;&lt;A href="225638ed-22f6-4ac4-9085-6d77c64925db"&gt;používateľa&lt;/A&gt;&amp;nbsp;podobne ako v predchádzajúcom prípade s tým rozdielom, že bude podpísaná zákazníkom pomocou&amp;nbsp;&lt;A href="a315053c-fb60-4f19-a3df-40b9c9dd02f8"&gt;digitálnej podpisovej podložky&lt;/A&gt;.&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;E-mail (ochrana heslom)&lt;/STRONG&gt; - tlačová zostava sa odošle vo formáte PDF na&amp;nbsp;e-mailovú adresu&amp;nbsp;&lt;A href="b7a48886-b367-4056-808a-59ba5f871f32"&gt;obchodného partnera&lt;/A&gt;, resp.&amp;nbsp;&lt;A href="225638ed-22f6-4ac4-9085-6d77c64925db"&gt;používateľa&lt;/A&gt;&amp;nbsp;podobne ako v predchádzajúcom prípade s tým rozdielom, že bude chránená heslom. &lt;EM&gt;Heslo pre zasielanie príloh&lt;/EM&gt; sa zadáva vo formulári&amp;nbsp;&lt;A href="4fbe9db8-25bc-420f-aee5-228d0a8ff03f"&gt;Obchodný partner&lt;/A&gt;, záložka &lt;EM&gt;Kontakt&lt;/EM&gt;, resp. vo&amp;nbsp;&lt;A href="12e7a96f-bc40-4359-bc7a-213d74a785d4"&gt;formulári Používateľ&lt;/A&gt;, záložka &lt;EM&gt;Podrobnosti&lt;/EM&gt;.&amp;nbsp;V&amp;nbsp;prípade, že sú vykonané potrebné nastavenia, dokument sa aj automaticky elektronicky podpíše - viac v téme&amp;nbsp;&lt;A href="c1e2e5a1-2cf4-47aa-a546-47d5baa1df3e" style="auto-update-caption: true"&gt;Čo je elektronický podpis&lt;/A&gt;.&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;PDF súbor&lt;/STRONG&gt;&amp;nbsp;- program vytvorí súbor vo formáte PDF a následne ho otvorí v programe na prehliadanie PDF súborov, napr. &lt;EM&gt;Adobe Reader&lt;/EM&gt;. V&amp;nbsp;prípade, že sú vykonané potrebné nastavenia, dokument sa aj automaticky elektronicky podpíše - viac v&amp;nbsp;téme&amp;nbsp;&lt;A href="c1e2e5a1-2cf4-47aa-a546-47d5baa1df3e"&gt;Elektronický podpis v systéme OBERON&lt;/A&gt;.&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;PDF súbor&amp;nbsp;(&lt;/STRONG&gt;&lt;STRONG&gt;podpísať zákazníkom&lt;/STRONG&gt;&lt;STRONG&gt;)&lt;/STRONG&gt; - program vytvorí súbor vo formáte PDF, pričom umožní podpísať súbor zákazníkom pomocou&amp;nbsp;&lt;A href="a315053c-fb60-4f19-a3df-40b9c9dd02f8"&gt;digitálnej podpisovej podložky&lt;/A&gt;.&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;PDF súbor&amp;nbsp;(&lt;/STRONG&gt;&lt;STRONG&gt;ochrana heslom&lt;/STRONG&gt;&lt;STRONG&gt;)&lt;/STRONG&gt; - program vytvorí súbor vo formáte PDF, pričom umožní zadať heslo&amp;nbsp;na ochranu PDF súboru.&amp;nbsp;Súbor bude možné otvoriť&amp;nbsp;v programe na prehliadanie PDF súborov (napr. &lt;EM&gt;Adobe Reader&lt;/EM&gt;)&amp;nbsp;len po zadaní hesla. V&amp;nbsp;prípade, že sú vykonané potrebné nastavenia, dokument sa aj automaticky elektronicky podpíše - viac v téme&amp;nbsp;&lt;A href="c1e2e5a1-2cf4-47aa-a546-47d5baa1df3e" style="auto-update-caption: true"&gt;Čo je elektronický podpis&lt;/A&gt;.&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;Tlač&lt;/STRONG&gt; - tlačový výstup sa vytlačí na predvolenej tlačiarni.&lt;/P&gt;
+&lt;P&gt;&lt;EM&gt;&lt;STRONG&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Button_PrintReports.PNG"&gt;&lt;/STRONG&gt;&lt;/EM&gt;&lt;/P&gt;&lt;innovasys:widget layout="block" type="Tip Box"&gt;&lt;innovasys:widgetproperty name="Content" layout="block"&gt;
+&lt;UL&gt;
+&lt;LI&gt;Po vytvorení súboru tlačového výstupu vo formáte PDF a následnom podpísaní&amp;nbsp;&lt;A href="41fb8a3f-4d42-4e29-8296-05613775d8a6"&gt;digitálnym podpisom vygenerovaným v OBERON-e&lt;/A&gt;&amp;nbsp;alebo &lt;A href="bdf07bad-43fb-450a-9dba-15b8366448a9"&gt;kvalifikovaným elektronickým podpisom (KEP)&lt;/A&gt;&amp;nbsp;vo formulári &lt;EM&gt;Tlačové výstupy&lt;/EM&gt; sa tento tlačový výstup (napr. tlačový výstup faktúry) &lt;STRONG&gt;automaticky uloží k danému záznamu ako príloha vo formáte PDF a zároveň sa&lt;/STRONG&gt; &lt;STRONG&gt;automaticky pridá aj do&lt;/STRONG&gt;&amp;nbsp;&lt;STRONG&gt;elektronického archívu&lt;/STRONG&gt;. Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="68a24d97-e4a5-4cf4-bc7a-72262df5973e"&gt;Elektronický archív&lt;/A&gt;. 
+&lt;LI&gt;Každá e-mailová správa zaslaná z &lt;A href="2bac8d21-6ae0-44e4-8b2e-403ac2f25955"&gt;formulára Tlačové výstupy&lt;/A&gt;&amp;nbsp;sa automaticky uloží&amp;nbsp;do evidencie&amp;nbsp;&lt;A href="32dedc5d-8e4e-420e-acec-60ba202b6ec7" style="auto-update-caption: true"&gt;E-mailové správy&lt;/A&gt; v module &lt;EM&gt;CRM a registratúra&lt;/EM&gt;, napr. emailová správa s priloženou faktúrou sa uloží. Tak je možné jednoduchšie overiť, či a komu bola e-mailová správa zaslaná a v prípade potreby jej zaslanie zopakovať. Predpokladom ukladania e-mailových správ je povolenie používania modulu &lt;EM&gt;CRM a&amp;nbsp;registratúra&lt;/EM&gt;&amp;nbsp;v&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="081aff87-08e6-4933-9843-d1b47dc745fb"&gt;oddiel Firma, Moduly&lt;/A&gt;.&lt;/LI&gt;&lt;/UL&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Ďalšie možnosti&lt;/H2&gt;
+&lt;P&gt;Vo formulári &lt;EM&gt;Tlačové výstupy&lt;/EM&gt; sú v&amp;nbsp;kontextovej ponuke&amp;nbsp;(pravé tlačidlo myši) dostupné ďalšie možnosti práce s tlačovými výstupmi.&lt;/P&gt;&lt;innovasys:widget layout="block" type="Drop Down Section"&gt;&lt;innovasys:widgetproperty name="Heading" layout="inline"&gt;Vlastnosti tlačového výstupu&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty name="Content" layout="block"&gt;Výberom možnosti sa otvorí formulár, ktorý umožňuje&amp;nbsp;vykonať&amp;nbsp;ďalšie bližšie nastavenia&amp;nbsp;zostavenie tlačového výstupu v&amp;nbsp;systéme OBERON, resp.&amp;nbsp;&lt;A href="b3e41f60-bab3-4ad9-b73d-69ece0c12afa"&gt;jeho úpravu&lt;/A&gt;. Popis formulára sa nachádza v&amp;nbsp;osobitnej téme&amp;nbsp;&lt;A href="91150b04-8876-4fb2-89eb-d69d8cc654c2" style="auto-update-caption: true"&gt;Formulár Vlastnosti tlačového výstupu&lt;/A&gt;.&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget layout="block" type="Drop Down Section"&gt;&lt;innovasys:widgetproperty name="Heading" layout="inline"&gt;Vytvoriť kópiu&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty name="Content" layout="block"&gt;
+&lt;P&gt;Umožňuje&amp;nbsp;manuálne vytvoriť kópiu&amp;nbsp;pôvodného tlačového výstupu (v&amp;nbsp;zozname tlačových výstupov pribudne ďalšia položka), ktorú je možné následne upraviť. Týmto spôsobom je možné&amp;nbsp;docieliť aj viacnásobnú úpravu pôvodného tlačového výstupu, následkom čoho môže existovať viacero upravených verzií jedného tlačového výstupu (originál +&amp;nbsp;jedna alebo viac rôznych upravených kópií daného tlačového výstupu).&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget layout="block" type="Drop Down Section"&gt;&lt;innovasys:widgetproperty name="Heading" layout="inline"&gt;Pridať na nástrojovú lištu&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty name="Content" layout="block"&gt;Na panel nástrojovej lišty bude pridaná nová ikonka znázorňujúca označený tlačový výstup. Otvorí sa formulár, v ktorom je možné priradiť k danému tlačovému výstupu obrázok, farbu, smerovanie (&lt;EM&gt;Zobraziť náhľad, Odoslať na tlačiareň&lt;/EM&gt;...) atď. Bližšie informácie o&amp;nbsp;ovládaní evidencie, používaní filtrov, triedení záznamov a pod. sú dostupné v&amp;nbsp;téme&amp;nbsp;&lt;A class=LastChild href="8936fde4-aac3-4672-99a2-c8bd5ccffdcd"&gt;Ovládanie knihy (evidencie)&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget layout="block" type="Drop Down Section"&gt;&lt;innovasys:widgetproperty name="Heading" layout="inline"&gt;Zobraziť nastavenia tlačiarní&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty name="Content" layout="block"&gt;Otvorí sa &lt;EM&gt;Ovládací panel&lt;/EM&gt;, v ktorom je možné zobraziť vlastnosti a nastavenia tlačiarne.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget layout="block" type="Drop Down Section"&gt;&lt;innovasys:widgetproperty name="Heading" layout="inline"&gt;Správca doplnkov&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty name="Content" layout="block"&gt;Otvorí sa&amp;nbsp;&lt;A href="a1ae5eb5-f369-4aab-80b2-c6585166d550"&gt;Správca doplnkov&lt;/A&gt;&amp;nbsp;(ponuka &lt;EM&gt;Servis&lt;/EM&gt;), ktorý&amp;nbsp;umožňuje import rôznych grafických alebo obsahových variácií už existujúcich tlačových výstupov (napr. viac štýlov faktúr, dodacích listov), inštaláciu jazykových súborov atď.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget layout="block" type="Drop Down Section"&gt;&lt;innovasys:widgetproperty name="Heading" layout="inline"&gt;Import/export upravených...&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty name="Content" layout="block"&gt;Otvorí sa sprievodca, ktorý umožní vykonať import/export upravených tlačových výstupov do alebo z formátu XML. Týmto spôsobom je možné upravené tlačové výstupy zálohovať, prípadne preniesť do inej účtovnej jednotky.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="54fc0ea8-bdc7-4cff-8b96-935176cfe7e9" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="91150b04-8876-4fb2-89eb-d69d8cc654c2">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="8375a20b-a647-4658-aae1-240e845c90c8" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="66ed476e-d5ea-4e46-a758-a3f190a60a7c">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="f68cf1ef-1733-492a-a39f-edfc1e9d753c" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="7161228a-8f54-4c36-8ae1-7c6875d896c0">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="210f3c68-97fa-4137-b2a0-15e933af7c8d" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="bd58b5ac-bf1a-44f0-9463-12aa3e5b8165">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="d061401c-65c2-4591-bb17-e2e082533b98" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="b3e41f60-bab3-4ad9-b73d-69ece0c12afa">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="f4c6ab24-0161-4af2-a326-b27bed413292" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="bcc31dc7-fc29-4ed9-9897-7d0cdc4e3ecb">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="b32c92b1-412d-4a34-889c-7d7519ba7d73" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="c1e2e5a1-2cf4-47aa-a546-47d5baa1df3e">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="37996d9e-6580-496a-9720-556c1d4a5762" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="68a24d97-e4a5-4cf4-bc7a-72262df5973e">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="16286d4d-7ec6-41ea-b243-810ac7ca861e">
+      <Keyword m="2021-05-20T08:05:29.5359053Z">Tlačové výstupy - formulár</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="2bcf5a91-521f-4ff9-a191-0af1c7378eb6">
+      <Keyword m="2021-09-09T07:09:08.2675859Z">E-mail - šifrovanie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="85d78d20-d90e-40c6-942d-b19c6adb2ce1">
+      <Keyword m="2021-09-09T07:09:20.1398235Z">PDF - šifrovanie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="8049312e-83d2-4f15-a96a-7573b64f5817">
+      <Keyword m="2021-03-30T09:54:57.5617509Z">Jazyk - tlačové výstupy</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="4a851530-d77a-4765-a7fe-7cdb7bd86f35">
+      <Keyword m="2021-03-30T10:51:21.9198433Z">Náhľad tlačového výstupu</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="665797c8-146f-4aa6-9763-f680f271f90b">
+      <Keyword m="2021-03-30T10:51:51.4026996Z">Zostavenie tlačového výstupu</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="1034dc1a-a709-4eb5-90c0-440b71b9cf27">
+      <Keyword m="2021-03-30T10:52:01.09773Z">Generovanie tlačového výstupu</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="4b0970e7-d972-4e0c-b1c7-c972a2d44971">
+      <Keyword m="2021-03-30T10:53:07.2731632Z">Hromadná tlač - nastavenie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="1bc6d51c-b52b-493f-b048-35627dfc21b8">
+      <Keyword m="2021-03-30T11:02:00.2552678Z">Pečiatka a podpis - nastavenie tlače</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="971c6b3c-9229-4650-8ae0-9342da3140c0">
+      <Keyword m="2021-03-30T10:56:41.7485865Z">Heslo - šifrovanie e-mailov a pdf súborov</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="54cde365-bac5-4fa0-9c60-fa5d9bb021c8">
+      <Keyword m="2021-03-30T11:01:51.2309604Z">Podpis a pečiatka - nastavenie tlače</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="2b53409d-2afa-4349-b5fe-ec634257c632">
+      <Keyword m="2021-09-09T07:08:18.6223836Z">Šifrovanie e-mailu</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

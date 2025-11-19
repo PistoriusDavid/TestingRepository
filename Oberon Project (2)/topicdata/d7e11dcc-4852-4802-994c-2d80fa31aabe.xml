@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="d7e11dcc-4852-4802-994c-2d80fa31aabe" Status="Complete" CreatedOn="2022-04-06T11:11:15.3676831Z" ModifiedOn="2024-09-26T08:28:18.6064936Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="ExternalSystem_Chameleoon" BuildFlags="">
+  <Title m="2022-04-06T11:11:59.6058389Z">Chameleoon</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-09-26T08:28:18.6064936Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; popisuje jeden zo&amp;nbsp;&lt;A href="9690f267-6ad7-4e22-9af2-675ef3d9d041"&gt;súvisiacich produktov&lt;/A&gt; systému OBERON -&amp;nbsp;&lt;STRONG&gt;webovú aplikáciu &lt;EM&gt;Chameleoon&lt;/EM&gt;&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&amp;nbsp;&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;EM&gt;Chameleoon&lt;/EM&gt; predstavuje webovú aplikáciu určenú na &lt;STRONG&gt;jednoduché a rýchle vytváranie objednávok prepravy a&amp;nbsp;tlač expedičných štítkov&lt;/STRONG&gt; s cieľom uľahčiť&amp;nbsp;&lt;A href="0a352869-3b4e-4ca4-bfbd-ad17483ed27b"&gt;expedíciu tovaru zo skladu&lt;/A&gt;. 
+&lt;LI&gt;Aplikácia je so systémom OBERON prepojená priamo prostredníctvom &lt;STRONG&gt;rozhrania API&lt;/STRONG&gt;. Zároveň je k dispozícii prepojenie na báze&amp;nbsp;&lt;A href="56f661c6-24da-46aa-b157-5d988cbe792b"&gt;XML komunikácie&lt;/A&gt;, ktorá zabezpečuje prenos faktúr a výdajok prostredníctvom súboru XML. 
+&lt;LI&gt;Produkt využijú tie účtovné jednotky, ktoré odosielajú tovar spotrebiteľom (spravidla&amp;nbsp;&lt;A href="2ba6a435-be52-46a1-b723-fb2b8ca084c0"&gt;internetové obchody&lt;/A&gt;) a potrebujú &lt;STRONG&gt;buď vytvárať objednávky prepravy pre kuriérov, alebo pripravovať tovar na expedíciu v prípade jeho doručovania vlastnou dopravou&lt;/STRONG&gt;. 
+&lt;LI&gt;V rámci jednej integrácie je pokrytých viac ako 30 prepravných spoločností, medzi ktoré patria najznámejšie spoločnosti na Slovensku a v Česku, ale aj prepravcovia špeciálne pre Maďarsko, Poľsko, Rumunsko, Taliansko a ďalšie krajiny EÚ. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Ďalšie informácie získate na webovej stránke&amp;nbsp;&lt;A href="https://exalogic.sk/oberon/suvisiace-produkty/chameleoon/" target=_blank&gt;Chameleoon&lt;/A&gt;&amp;nbsp;a na&amp;nbsp;&lt;A href="https://www.chameleoon.sk/podporovane-zdroje/chameleoon-a-prepojenie-so-systemom-oberon/" target=_blank&gt;webovej stránke dodávateľa&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="0b82bdb5-510f-4e7a-a3fb-8d984461e94b" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="9690f267-6ad7-4e22-9af2-675ef3d9d041">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="0496942f-f49c-45ce-8087-d97eacce6a55" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="56f661c6-24da-46aa-b157-5d988cbe792b">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="d22268d5-f108-4b4b-9587-7e447602b44e">
+      <Keyword m="2022-04-06T11:17:28.6280963Z">Webová aplikácia - Chameleoon</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="81fc61f3-4afb-4fe1-8501-7ea535e8a78a">
+      <Keyword m="2022-04-06T11:18:02.9515641Z">Expedícia tovaru zo skladu - Chameleoon</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="3d55928d-0ef7-4470-8f05-7853f85bc03e">
+      <Keyword m="2022-04-06T11:18:40.5806233Z">Vytváranie objednávok prepravy - Chameleoon</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="d988eab7-5213-4a27-ad95-6bd7895df729">
+      <Keyword m="2022-04-06T11:18:53.7751973Z">Tlač expedičných štítkov - Chameleoon</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

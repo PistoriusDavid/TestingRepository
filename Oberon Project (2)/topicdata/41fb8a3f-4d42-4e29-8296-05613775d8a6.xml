@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="41fb8a3f-4d42-4e29-8296-05613775d8a6" Status="Complete" CreatedOn="2024-03-19T07:49:48.5734601Z" ModifiedOn="2024-08-12T09:22:45.6649805Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Digital_Signature_in_OBERON" BuildFlags="">
+  <Title m="2024-03-19T07:50:30.9703424Z">Digitálny podpis vygenerovaný v OBERON-e</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-04-23T07:08:31.5320391Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;informácie o&amp;nbsp;možnostiach podpisovania&lt;/STRONG&gt; &lt;STRONG&gt;digitálnym podpisom vygenerovaným&amp;nbsp;v&amp;nbsp;OBERON-e&lt;/STRONG&gt; ako jednej z možností &lt;A href="c1e2e5a1-2cf4-47aa-a546-47d5baa1df3e"&gt;elektronického podpisovania&lt;/A&gt; v systéme OBERON.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Digitálny podpis vygenerovaný v systéme OBERON&lt;/STRONG&gt; umožňuje automaticky podpísať predovšetkým súbory tlačových výstupov vo formáte PDF,&amp;nbsp;ako aj overiť pravosť takto podpísaných dokumentov. Na podpísanie a&amp;nbsp;overenie pravosti podpísaných dokumentov využíva certifikát vygenerovaný v&amp;nbsp;ponuke &lt;EM&gt;Firma&lt;/EM&gt;,&amp;nbsp;&lt;A href="a833ee8a-1289-42b9-923f-80f549497702" style="auto-update-caption: true"&gt;Údaje o firme&lt;/A&gt;, oddiel &lt;EM&gt;Digitálny podpis&lt;/EM&gt;. Oproti komerčnej kvalifikovanej pečati je &lt;STRONG&gt;optimálnym riešením&lt;/STRONG&gt; (možno ho používať v&amp;nbsp;rámci ceny licencie OBERON), pričom&amp;nbsp;jeho platnosť&lt;STRONG&gt; nie je časovo obmedzená ako pri elektronickej pečati&lt;/STRONG&gt;. 
+&lt;LI&gt;Digitálny podpis na podpísanie využíva &lt;STRONG&gt;podpisový certifikát so súkromným kľúčom&lt;/STRONG&gt;, ktorý sa po vygenerovaní ukladá do &lt;STRONG&gt;systémového úložiska certifikátov&lt;/STRONG&gt; &lt;STRONG&gt;operačného systému &lt;EM&gt;Windows&lt;/EM&gt;&lt;/STRONG&gt;. Certifikát možno zobraziť&amp;nbsp;pomocou &lt;EM&gt;Nástroja na správu certifikátov&lt;/EM&gt; (&lt;EM&gt;Certificate Manager Tool&lt;/EM&gt;) po zadaní&amp;nbsp;príkazu &lt;B&gt;certmgr.msc&lt;/B&gt; do príkazového riadka, resp. poľa &lt;EM&gt;Hľadať&lt;/EM&gt; na systémovom paneli. Na overenie pravosti podpísaných dokumentov sa&amp;nbsp;využíva &lt;STRONG&gt;časť&amp;nbsp;certifikátu s&amp;nbsp;verejným kľúčom&lt;/STRONG&gt;, ktorá sa po vygenerovaní ukladá na disk počítača (c:\OBERON\_CompanyDocuments\nazovfirmy\PodpisovyCertifikat\). 
+&lt;LI&gt;Vygenerovaný podpisový&amp;nbsp;certifikát je alternatívou ku kvalifikovanému certifikátu vydanému certifikačnou autoritou a&amp;nbsp;je určený najmä pre interný&amp;nbsp;&lt;A href="68a24d97-e4a5-4cf4-bc7a-72262df5973e"&gt;elektronický archív dokumentov&lt;/A&gt;. Podpisový certifikát účtovnej jednotky poskytuje rovnakú úroveň ochrany ako kvalifikovaný certifikát pre elektronický podpis, &lt;STRONG&gt;nevyužíva však časovú pečiatku dôveryhodného časového servera, ale čas servera SQL&lt;/STRONG&gt;. 
+&lt;LI&gt;Po vygenerovaní je potrebné podpisový certifikát so&amp;nbsp;súkromným kľúčom &lt;STRONG&gt;zálohovať a zabezpečiť heslom&lt;/STRONG&gt;. Možno tak urobiť pomocou exportu podpisového certifikátu (pozri postup&amp;nbsp;nižšie). Záložný súbor&amp;nbsp;podpisového certifikátu so súkromným kľúčom je potrebné uložiť na záložné médium (mimo disku počítača) pre prípad, ak by došlo napr. k poruche počítača. &lt;SPAN style="COLOR: rgb(255,0,0)"&gt;Ak účtovná jednotka nemá zálohovaný certifikát a došlo k strate súkromného kľúča, jeho obnova nie je možná&lt;/SPAN&gt;. Exportovaný podpisový certifikát so súkromným kľúčom je možné &lt;STRONG&gt;skopírovať aj do iných počítačov&lt;/STRONG&gt;. Vďaka tomu bude možné&amp;nbsp;podpisovať dokumenty daným digitálnym podpisom aj&amp;nbsp;na týchto počítačoch. 
+&lt;LI&gt;OBERON umožňuje automaticky podpisovať elektronické dokumenty exportované do formátu &lt;STRONG&gt;PDF&lt;/STRONG&gt;, podpisovať údaje&amp;nbsp;exportované vo&amp;nbsp;formáte &lt;STRONG&gt;XML&lt;/STRONG&gt;&amp;nbsp;(tzv. &lt;A href="56f661c6-24da-46aa-b157-5d988cbe792b"&gt;XML komunikácia&lt;/A&gt;), prípadne overiť dôveryhodnosť kvalifikovaného elektronického podpisu pri importe elektronických dokumentov. 
+&lt;LI&gt;Overovanie pravosti podpísaných dokumentov závisí od použitého&amp;nbsp;softvéru.&amp;nbsp;Keďže podpis neobsahuje nadradený kvalifikovaný certifikát certifikačnej autority,&amp;nbsp;pre dodávateľa&amp;nbsp;sa nemusí javiť ako&amp;nbsp;dôveryhodný automaticky, ale sa preň&amp;nbsp;&lt;STRONG&gt;stáva dôveryhodným v&amp;nbsp;okamihu jeho akceptovania (otvorením podpísaného dokumentu a validáciou)&lt;/STRONG&gt;.&amp;nbsp;Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="5f4331ed-2a3a-426e-8cdb-4ac3adb49a3b" style="auto-update-caption: true"&gt;Overenie dôveryhodnosti elektronického podpisu&lt;/A&gt;. Iným spôsobom overovania je inštalácia&amp;nbsp;certifikátu s&amp;nbsp;verejným kľúčom&amp;nbsp;medzi dôveryhodné certifikáty na danom&amp;nbsp;počítači (napr. u dodávateľa). V&amp;nbsp;tejto súvislosti je možné&amp;nbsp;po vygenerovaní umiestniť certifikát s&amp;nbsp;verejným kľúčom na webovú stránku&amp;nbsp;účtovnej jednotky,&amp;nbsp;vďaka čomu bude&amp;nbsp;ľahko dostupný na stiahnutie (prípadne zabezpečiť iný spôsob doručenia certifikátu s&amp;nbsp;verejným kľúčom, napr. zaslaním elektronickou poštou a pod.). 
+&lt;LI&gt;Vytvoriť podpísaný PDF dokument (napr. vystavenú faktúru) je veľmi jednoduché a&amp;nbsp;rýchle – vo&amp;nbsp;&lt;A href="2bac8d21-6ae0-44e4-8b2e-403ac2f25955"&gt;formulári Tlačové výstupy&lt;/A&gt; stlačením tlačidla &lt;B&gt;PDF.&lt;/B&gt; Vtedy sa automaticky vytvorí PDF dokument a&amp;nbsp;ihneď sa automaticky podpíše. Obdobne to platí aj pri tlačidle &lt;B&gt;E-mail&lt;/B&gt; – podpísaný PDF dokument sa automaticky vloží ako príloha do e-mailovej správy. Okrem dokumentov vo formáte PDF možno podpisovať aj údaje&amp;nbsp;exportované vo&amp;nbsp;formáte &lt;STRONG&gt;XML&lt;/STRONG&gt;&amp;nbsp;(tzv. &lt;A href="56f661c6-24da-46aa-b157-5d988cbe792b"&gt;XML komunikácia&lt;/A&gt;), prípadne overiť dôveryhodnosť kvalifikovaného elektronického podpisu pri importe elektronických dokumentov. 
+&lt;LI&gt;Aby&amp;nbsp;sa v systéme OBERON používateľom vytváraný elektronický dokument automaticky elektronicky podpísal, je potrebné vo &lt;A href="12e7a96f-bc40-4359-bc7a-213d74a785d4"&gt;formulári Používateľ&lt;/A&gt;, záložka &lt;EM&gt;Podpis&lt;/EM&gt;&amp;nbsp;&lt;STRONG&gt;danému&lt;/STRONG&gt; &lt;STRONG&gt;používateľovi priradiť podpisový certifikát&amp;nbsp;&lt;/STRONG&gt;zo systémového úložiska certifikátov (pozri postup nižšie). &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 1: Priradenie podpisového certifikátu používateľovi vo formulári &lt;EM&gt;Používateľ&lt;/EM&gt;, záložka &lt;EM&gt;Podpis&lt;/EM&gt;&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/ProductOptions/ElectronicSignature/ElectronicSignature_UserCertificate.png.PNG"&gt;&lt;/P&gt;
+&lt;H2&gt;Postup vygenerovania certifikátu pre digitálny podpis&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;Spustite program &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt; &lt;STRONG&gt;ako správca&lt;/STRONG&gt;. Zvoľte ponuku &lt;EM&gt;Firma&lt;/EM&gt;,&amp;nbsp;&lt;A href="a833ee8a-1289-42b9-923f-80f549497702" style="auto-update-caption: true"&gt;Údaje o firme&lt;/A&gt;. Otvorí sa formulár, v ktorom v oddiele &lt;EM&gt;&lt;STRONG&gt;Digitálny podpis&lt;/STRONG&gt;&lt;/EM&gt; stlačte tlačidlo &lt;EM&gt;&lt;STRONG&gt;Vygenerovať podpisový certifikát&lt;/STRONG&gt;&lt;/EM&gt;. 
+&lt;LI&gt;V systéme OBERON sa vygeneruje certifikát a otvoria sa okná, v ktorých je uložená jeho &lt;STRONG&gt;podpisová časť so súkromným kľúčom&lt;/STRONG&gt; (v systémovom úložisku certifikátov operačného systému &lt;EM&gt;Windows&lt;/EM&gt;) a &lt;STRONG&gt;časť s&amp;nbsp;verejným kľúčom (&lt;/STRONG&gt;c:\OBERON\_CompanyDocuments\nazovfirmy\PodpisovyCertifikat\). 
+&lt;LI&gt;Po vygenerovaní je potrebné podpisový certifikát so súkromným kľúčom zálohovať a zabezpečiť heslom pomocou exportu (pozri postup nižšie). Zároveň možno časť certifikátu s verejným kľúčom sprístupniť, aby bolo možné overovanie pravosti podpísaných dokumentov (napr. na webovej stránke&amp;nbsp;účtovnej jednotky). &lt;/LI&gt;&lt;/OL&gt;
+&lt;H2&gt;Postup exportu podpisového certifikátu so súkromným kľúčom&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;V&amp;nbsp;programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt; zvoľte ponuku &lt;EM&gt;Firma&lt;/EM&gt;,&amp;nbsp;&lt;A href="a833ee8a-1289-42b9-923f-80f549497702" style="auto-update-caption: true"&gt;Údaje o firme&lt;/A&gt;. Otvorí sa formulár, v ktorom v oddiele &lt;EM&gt;&lt;STRONG&gt;Digitálny podpis&lt;/STRONG&gt;&lt;/EM&gt; stlačte tlačidlo &lt;EM&gt;&lt;STRONG&gt;Zobraziť certifikáty&lt;/STRONG&gt;&lt;/EM&gt;. 
+&lt;LI&gt;Otvorí sa okno so zoznamom certifikátov, v&amp;nbsp;ktorom kliknite pravým tlačidlom myši&amp;nbsp;na vygenerovaný podpisový certifikát. 
+&lt;LI&gt;V otvorenej kontextovej ponuke zvoľte možnosť &lt;EM&gt;&lt;STRONG&gt;Všetky úlohy, Export...&lt;/STRONG&gt;&lt;/EM&gt; (Obrázok č. 1). Otvorí sa &lt;EM&gt;Sprievodca exportom certifikátov&lt;/EM&gt;, v&amp;nbsp;ktorom: 
+&lt;UL&gt;
+&lt;LI&gt;zvoľte možnosť&amp;nbsp;&lt;EM&gt;&lt;STRONG&gt;Áno, exportovať súkromný kľúč&lt;/STRONG&gt;&lt;/EM&gt;, 
+&lt;LI&gt;zadajte a potvrďte heslo, 
+&lt;LI&gt;zadajte názov súboru, ktorý chcete exportovať. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Po stlačení tlačidla &lt;EM&gt;&lt;STRONG&gt;Dokončiť&lt;/STRONG&gt;&lt;/EM&gt; sa vykoná export podpisového certifikátu so súkromným kľúčom zabezpečeným heslom. &lt;/LI&gt;&lt;/OL&gt;
+&lt;H5&gt;Obrázok č. 1: Export vygenerovaného podpisového certifikátu so súkromným kľúčom&lt;/H5&gt;
+&lt;P&gt;&lt;STRONG&gt;&lt;IMG border=0 alt="" src="images/ProductOptions/ElectronicArchives/ElektronicArchives_CertificateExport.PNG"&gt;&lt;/STRONG&gt;&lt;/P&gt;
+&lt;H2&gt;Postup priradenia&amp;nbsp;podpisového&amp;nbsp;certifikátu&amp;nbsp;používateľovi&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;Uistite sa, že sa na danom počítači v&amp;nbsp;systémovom úložisku certifikátov nachádza vygenerovaný podpisový certifikát. 
+&lt;LI&gt;V programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt; zvoľte ponuku &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="225638ed-22f6-4ac4-9085-6d77c64925db" style="auto-update-caption: true"&gt;Používatelia&lt;/A&gt;. 
+&lt;LI&gt;V zozname používateľov zvoľte používateľa, ktorému chcete priradiť podpisový certifikát, a stlačte tlačidlo &lt;EM&gt;Oprava&lt;/EM&gt;. 
+&lt;LI&gt;Otvorí sa &lt;A href="12e7a96f-bc40-4359-bc7a-213d74a785d4"&gt;formulár Používateľ&lt;/A&gt;, v&amp;nbsp;ktorom v&amp;nbsp;záložke &lt;EM&gt;Podpis&lt;/EM&gt;,&amp;nbsp;sekcia &lt;EM&gt;Elektronický podpis&lt;/EM&gt; stlačte tlačidlo &lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_Button_Info.png"&gt;. Zobrazí sa zoznam certifikátov, v&amp;nbsp;ktorom zvoľte ponuku&amp;nbsp;&lt;EM&gt;Osobné, Certificates&lt;/EM&gt;. Pravým tlačidlom myši kliknite na&amp;nbsp;daný podpisový certifikát&amp;nbsp;a&amp;nbsp;vyberte možnosť &lt;EM&gt;Open&lt;/EM&gt;. 
+&lt;LI&gt;Otvorí sa formulár &lt;EM&gt;Certifikát&lt;/EM&gt;, v&amp;nbsp;ktorom v&amp;nbsp;záložke &lt;EM&gt;Podrobnosti&lt;/EM&gt; zistite &lt;STRONG&gt;sériové číslo certifikátu&lt;/STRONG&gt;. Číslo si zapamätajte. 
+&lt;LI&gt;Z&amp;nbsp;rozbaľovacieho zoznamu vyberte dané číslo certifikátu vo formáte napr.&amp;nbsp;&lt;EM&gt;Demo_Firma; SN=884D294580B07BAF4B200548D60B338F.&lt;/EM&gt; 
+&lt;LI&gt;Vykonané nastavenie potvrďte stlačením tlačidla &lt;EM&gt;&lt;STRONG&gt;OK&lt;/STRONG&gt;&lt;/EM&gt;. &lt;/LI&gt;&lt;/OL&gt;
+&lt;H2&gt;Postup podpisovania dokumentov digitálnym podpisom&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;Uistite sa, že je v programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt; &lt;STRONG&gt;prihlásený správny&amp;nbsp;používateľ&lt;/STRONG&gt; (ktorý má priradený podpisový certifikát vo&amp;nbsp;&lt;A href="12e7a96f-bc40-4359-bc7a-213d74a785d4"&gt;formulári Používateľ&lt;/A&gt;, záložka &lt;EM&gt;Podpis&lt;/EM&gt;. 
+&lt;LI&gt;Uistite sa, že daný tlačový výstup má vo&amp;nbsp;&lt;A href="91150b04-8876-4fb2-89eb-d69d8cc654c2"&gt;formulári Vlastnosti tlačového výstupu&lt;/A&gt; v&amp;nbsp;záložke &lt;EM&gt;Nastavenia&lt;/EM&gt; začiarknuté&amp;nbsp;políčko&amp;nbsp;&lt;STRONG&gt;&lt;EM&gt;Elektronicky podpísať (platí len pre export do PDF)&lt;/EM&gt;&lt;/STRONG&gt;. 
+&lt;LI&gt;V&amp;nbsp;danej evidencii označte kurzorom tlačový výstup, ktorý chcete elektronicky podpísať,&amp;nbsp;a&amp;nbsp;stlačte tlačidlo &lt;EM&gt;&lt;STRONG&gt;Tlač&lt;/STRONG&gt;&lt;/EM&gt;. 
+&lt;LI&gt;Otvorí sa&amp;nbsp;&lt;A href="2bac8d21-6ae0-44e4-8b2e-403ac2f25955"&gt;formulár Tlačové výstupy&lt;/A&gt;. Na vytvorenie a podpísanie označeného tlačového výstupu vo formáte PDF stlačte tlačidlo &lt;STRONG&gt;PDF&lt;/STRONG&gt; (pozri Obrázok č. 2). Na vytvorenie,&amp;nbsp;podpísanie a odoslanie označeného tlačového výstupu ako prílohy e-mailovej správy vo formáte PDF&amp;nbsp;na&amp;nbsp;e-mailovú adresu&amp;nbsp;&lt;A href="b7a48886-b367-4056-808a-59ba5f871f32"&gt;obchodného partnera&lt;/A&gt;, resp.&amp;nbsp;&lt;A href="225638ed-22f6-4ac4-9085-6d77c64925db"&gt;používateľa&lt;/A&gt;&amp;nbsp;z&amp;nbsp;e-mailovej adresy nastavenej v ponuke&amp;nbsp;&lt;A href="a833ee8a-1289-42b9-923f-80f549497702"&gt;Údaje o firme&lt;/A&gt;&amp;nbsp;stlačte tlačidlo &lt;STRONG&gt;E-mail&lt;/STRONG&gt;.&amp;nbsp;Pri tejto možnosti sa uistite, že máte v&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="5a6e5663-262e-4ff0-9741-1569385d11e4"&gt;oddiel Firma, Všeobecné&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt; záložka &lt;EM&gt;E-mail&lt;/EM&gt; správne nakonfigurovaného&amp;nbsp;a&amp;nbsp;nastaveného&amp;nbsp;&lt;A href="ea5379c8-9451-40fc-ac0f-f038feefa916"&gt;poštového klienta&lt;/A&gt;. &lt;/LI&gt;&lt;/OL&gt;
+&lt;H5&gt;Obrázok č. 2: Tlačidlá vo formulári &lt;EM&gt;Tlačové výstupy&lt;/EM&gt;&lt;/H5&gt;
+&lt;P&gt;&lt;EM&gt;&lt;STRONG&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Button_PrintReports.PNG"&gt;&lt;/STRONG&gt;&lt;/EM&gt;&lt;/P&gt;&lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt; 
+&lt;P&gt;PDF dokument vytváraný z náhľadu na obrazovke alebo tlačený na PDF tlačiarni sa nevytvára priamo&amp;nbsp;z programu, a teda &lt;STRONG&gt;nie je ani elektronicky podpísaný&lt;/STRONG&gt;. Podpísaný dokument &lt;STRONG&gt;je len PDF dokument vytváraný&amp;nbsp;po stlačení tlačidla &lt;EM&gt;PDF/E-mail&amp;nbsp;&lt;/EM&gt;&lt;/STRONG&gt;vo&amp;nbsp;&lt;A href="2bac8d21-6ae0-44e4-8b2e-403ac2f25955"&gt;formulári Tlačové výstupy&lt;/A&gt;.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Po vytvorení súboru tlačového výstupu vo formáte PDF&amp;nbsp;&lt;A href="a315053c-fb60-4f19-a3df-40b9c9dd02f8"&gt;&lt;/A&gt;vo &lt;A href="2bac8d21-6ae0-44e4-8b2e-403ac2f25955"&gt;formulári Tlačové výstupy&lt;/A&gt;&amp;nbsp;a následnom podpísaní&amp;nbsp;&lt;A href="a833ee8a-1289-42b9-923f-80f549497702"&gt;digitálnym podpisom vygenerovaným&amp;nbsp;v&amp;nbsp;OBERON-e&lt;/A&gt;&amp;nbsp;sa podpísaný dokument automaticky uloží k&amp;nbsp;príslušnému záznamu do databázy, a tým aj do elektronického archívu. Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="68a24d97-e4a5-4cf4-bc7a-72262df5973e" style="auto-update-caption: true"&gt;Elektronický archív&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="66d32a1f-150c-48d6-8da2-72e6708c60d1" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="c1e2e5a1-2cf4-47aa-a546-47d5baa1df3e">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="00732e9d-0c1d-4bb5-89ed-23338ec82a3e" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="bdf07bad-43fb-450a-9dba-15b8366448a9">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="0f3b5502-4ebe-4057-83fb-319da91f992d" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="225638ed-22f6-4ac4-9085-6d77c64925db">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="77979d70-c535-4eda-9942-20ca50b464db" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="12e7a96f-bc40-4359-bc7a-213d74a785d4">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="51986c24-fc8e-4f51-9eb4-d08625a71fff" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="68a24d97-e4a5-4cf4-bc7a-72262df5973e">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="685b8ae0-a368-4fc7-8610-7d8af7fa8e4b">
+      <Keyword m="2024-03-20T12:21:11.9128041Z">Elektronický podpis - vygenerovaný v OBERON-e</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="0a9fba3d-448f-4c7c-9cce-999f1335c807">
+      <Keyword m="2024-03-19T13:26:01.1720814Z">Používateľ - priradenie podpisového certifikátu</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="afd3f9a0-949d-4cf6-951d-54b009c30da1">
+      <Keyword m="2024-03-19T13:25:27.2637658Z">Podpisový certifikát - digitálny podpis vygenerovaný v OBERON-e</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="89c8f6b5-7258-42d4-a9f9-63dfae639fcc">
+      <Keyword m="2024-08-12T09:22:35.6130503Z">Certifikát vygenerovaný v OBERON-e</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="a4d41ab0-a4b9-4307-9ae5-8b7a8d7ba977" Status="Complete" CreatedOn="2015-05-07T06:57:57.3359375Z" ModifiedOn="2024-10-21T13:33:23.1509797Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Hotel_Started_Evided_ProvidedServices" BuildFlags="">
+  <Title m="2015-05-07T07:58:41.1943359Z">Zaevidovanie rezervácie služby</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-10-21T13:33:23.1509797Z">&lt;P&gt;V tejto téme&amp;nbsp;&lt;EM&gt;Pomocníka&lt;/EM&gt; je&amp;nbsp;uvedený&amp;nbsp;&lt;STRONG&gt;postup, ako zaevidovať rezerváciu&amp;nbsp;&lt;/STRONG&gt;&lt;A href="52a22e5d-f6ee-46f3-9978-537f8fa5c984"&gt;rozšírenej služby&lt;/A&gt;&lt;STRONG&gt;&amp;nbsp;&lt;/STRONG&gt;v&amp;nbsp;module&amp;nbsp;&lt;A href="c3bd41f0-029e-4c74-b342-b0ffff647b6e"&gt;Hotelová recepcia&lt;/A&gt;.&amp;nbsp;Rezerváciu služby&amp;nbsp;je možné zaevidovať dvoma spôsobmi, a to z&amp;nbsp;&lt;A href="0f4cbef4-f919-441f-bd61-6ef9ca0b1344"&gt;grafického prehľadu poskytovaných služieb&lt;/A&gt; (odporúčaný postup) alebo&amp;nbsp;priamo zápisom do&amp;nbsp;&lt;A href="0b9519ff-9438-422b-a3e8-358b628293e9"&gt;knihy poskytovaných služieb&lt;/A&gt;. V&amp;nbsp;tejto téme ju uvedený postup&amp;nbsp;zaevidovania rezervácie rozšírenej služby&amp;nbsp;&lt;STRONG&gt;z grafického prehľadu poskytovaných služieb&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;H2&gt;Postup zaevidovania&amp;nbsp;rezervácie služby&amp;nbsp;v&amp;nbsp;grafickom prehľade poskytovaných služieb&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;V&amp;nbsp;ponuke &lt;EM&gt;Hotel&lt;/EM&gt; otvorte&amp;nbsp;&lt;A href="0f4cbef4-f919-441f-bd61-6ef9ca0b1344" style="auto-update-caption: true"&gt;Grafický prehľad poskytovaných služieb&lt;/A&gt;&lt;I&gt;.&lt;/I&gt; Kurzorom sa nastavte na&amp;nbsp;službu,&amp;nbsp;dátum a&amp;nbsp;čas, na ktoré chcete zaevidovať službu. Viac buniek&amp;nbsp;označte stlačením ľavého tlačidla myši a&amp;nbsp;jednoduchým potiahnutím do strany.&amp;nbsp;Následne stlačte pravé tlačidlo myši a zvoľte možnosť &lt;EM&gt;&lt;STRONG&gt;Nová rezervácia&lt;/STRONG&gt;&lt;/EM&gt;. Otvorí sa&amp;nbsp;&lt;A href="6e804e10-6205-46ad-95f0-47204b6ef066"&gt;formulár Rezervácia poskytovanej služby&lt;/A&gt;. Zadajte dátum a&amp;nbsp;čas začiatku a ukončenia služby. 
+&lt;LI&gt;V&amp;nbsp;záložke &lt;EM&gt;Základné&lt;/EM&gt; zadajte&amp;nbsp;meno a priezvisko a&amp;nbsp;kontaktné údaje. Ďalej&amp;nbsp;vyberte stav rezervácie a&amp;nbsp;zadajte dátum a čas, do ktorého&amp;nbsp;má byť služba rezervovaná. Ak nastavený časový úsek uplynie, v zozname poskytovaných služieb sa&amp;nbsp;takáto rezervácia zvýrazní &lt;SPAN style="COLOR: rgb(255,0,0)"&gt;&lt;STRONG&gt;červenou farbou&lt;/STRONG&gt;&lt;/SPAN&gt;. 
+&lt;LI&gt;V záložke &lt;EM&gt;Poskytované služby&lt;/EM&gt; sa zobrazuje služba, ktorú si hosť (zákazník)&amp;nbsp;objednáva. V&amp;nbsp;prípade potreby je možné v&amp;nbsp;záložke&amp;nbsp;doplniť ďalšie služby. 
+&lt;LI&gt;V záložke &lt;EM&gt;Kontakt&lt;/EM&gt; zadajte ďalšie údaje o&amp;nbsp;hosťovi (zákazníkovi), resp.&amp;nbsp;&lt;A href="b7a48886-b367-4056-808a-59ba5f871f32"&gt;obchodnom partnerovi&lt;/A&gt;. 
+&lt;LI&gt;V záložke &lt;EM&gt;Kalkulácia ceny&lt;/EM&gt; môžete využiť funkciu &lt;STRONG&gt;&lt;EM&gt;Automaticky&lt;/EM&gt; v&lt;EM&gt;ytvoriť položky&amp;nbsp;kalkulácie ceny&amp;nbsp;(F9)&lt;/EM&gt;&lt;/STRONG&gt; (tlačidlo &lt;EM&gt;Možnosti&lt;/EM&gt;). Následne sa celková suma zobrazí v&amp;nbsp;záložke &lt;EM&gt;Cena a záloha&lt;/EM&gt;, kde je možné zaevidovať aj prijatú zálohu. 
+&lt;LI&gt;Po stlačení tlačidla &lt;I&gt;OK&lt;/I&gt; je zaevidovanie&amp;nbsp;rezervácie služby ukončené, do knihy&amp;nbsp;poskytovaných služieb &amp;nbsp;sa zapíše nový záznam. &lt;/LI&gt;&lt;/OL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Službu si môže hosť zarezervovať (nová rezervácia)&amp;nbsp;alebo ju môže priamo čerpať (nová služba).&amp;nbsp;Pri čerpaní&amp;nbsp;služby po výbere možností&amp;nbsp;&lt;EM&gt;&lt;STRONG&gt;Nová služba&lt;/STRONG&gt;&lt;/EM&gt; a &lt;EM&gt;&lt;STRONG&gt;Nová služba (ubytovaný hosť)&lt;/STRONG&gt;&lt;/EM&gt; postupujte analogicky.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Rezerváciu služby na ubytovanie (na konkrétnu izbu) je možné&amp;nbsp;vytvoriť&amp;nbsp;len pre ubytované osoby.&amp;nbsp;V prípade, že vo&amp;nbsp;&lt;A href="d43ef71f-edb1-44f7-b1a2-c0cf18067ee9"&gt;formulári Ubytovanie&lt;/A&gt; nebudú zadané žiadne ubytované osoby, nebude možné rezerváciu služby priradiť k určitej izbe.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="8c526342-a685-45ab-b091-0e82aa7a81b0" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="0f4cbef4-f919-441f-bd61-6ef9ca0b1344">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="50786812-4273-41ef-828e-f642ecff4447" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="4a3fd53c-a95a-4850-8adb-17666063e88d">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="62c55cb4-74aa-4ac2-aa31-adf6d285bdfd" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="52a22e5d-f6ee-46f3-9978-537f8fa5c984">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="af9923bd-c2fa-4a4c-819c-506d5282ebd3" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="6e804e10-6205-46ad-95f0-47204b6ef066">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="da9f3d2a-1af2-447f-8ab0-7fe8ea7ee4ca">
+      <Keyword m="2022-05-23T08:16:39.1431127Z">Rezervácia rozšírenej služby - postup zaevidovania</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="2a519e1c-2acf-4094-a4ab-3d1403e9011a">
+      <Keyword m="2022-05-23T09:24:56.4984718Z">Služby - zaevidovanie rezervácie rozšírenej služby</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

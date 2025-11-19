@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="4b7ab8d2-0e55-4be8-a112-430b9fb9d7e9" Status="Complete" CreatedOn="2014-09-03T13:14:44.507Z" ModifiedOn="2023-10-17T13:04:57.3074497Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Fiscal_Universal_Interface_Install" BuildFlags="">
+  <Title m="2022-08-16T06:58:27.2511725Z">Fiscal Universal Interface - inštalácia zariadenia</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-08-03T11:04:29.5202243Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;obsahuje &lt;STRONG&gt;postup&amp;nbsp;inštalácie fiškálnej&amp;nbsp;tlačiarne pripojenej k systému OBERON prostredníctvom rozhrania&amp;nbsp;&lt;/STRONG&gt;&lt;A href="5442590e-2d9a-4550-984d-e5b23f239d05"&gt;Fiscal Universal Interface&lt;/A&gt;&amp;nbsp;spolu s popisom &lt;STRONG&gt;formulára&lt;/STRONG&gt; &lt;EM&gt;&lt;STRONG&gt;Nastavenie Fiscal Universal Interface&lt;/STRONG&gt;.&lt;/EM&gt; Pred samotným nastavením v systéme OBERON je potrebné pripojiť danú fyzickú fiškálnu&amp;nbsp;tlačiareň k počítaču.&lt;/P&gt;
+&lt;H2&gt;Nastavenia v&amp;nbsp;OBERON-e&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;Po pripojení fiškálnej tlačiarne k&amp;nbsp;počítaču&amp;nbsp;&lt;STRONG&gt;nainštalujte externú DLL knižnicu (ovládač) pre danú fiškálnu tlačiareň&lt;/STRONG&gt;. Ovládač&amp;nbsp;dodáva výrobca (predajca) daného zariadenia. 
+&lt;LI&gt;Ak ešte nemáte v systéme OBERON vytvorenú (založenú) firmu, vytvorte ju&amp;nbsp;- bližšie informácie nájdete v téme &lt;A href="9a485893-6dd2-44e8-9740-a4cd7083a932" style="auto-update-caption: true"&gt;Vytvorenie účtovnej jednotky (databázy)&lt;/A&gt;. 
+&lt;LI&gt;Spustite program &lt;EM&gt;OBERON - Agenda firmy.&lt;/EM&gt; 
+&lt;LI&gt;Zvoľte ponuku &lt;EM&gt;Servis,&amp;nbsp;&lt;/EM&gt;&lt;A href="749ff4f1-eeb5-43f5-98d2-021399d8cec7"&gt;Zariadenia&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt; stlačte tlačidlo &lt;I&gt;Pridať.&lt;/I&gt; V&amp;nbsp;otvorenom&amp;nbsp;&lt;A href="06f5e819-cf70-4875-b3fd-eca80b19939b"&gt;formulári&lt;/A&gt; vyberte&amp;nbsp;typ zariadenia&amp;nbsp;&lt;I&gt;&lt;STRONG&gt;Fiškálne zariadenie&lt;/STRONG&gt;&lt;/I&gt;, zadajte názov pokladnice, vyberte model&amp;nbsp;&lt;STRONG&gt;&lt;EM&gt;Fiscal&amp;nbsp;Universal Interface&lt;/EM&gt;&lt;/STRONG&gt;&lt;STRONG&gt;&lt;EM&gt;&amp;nbsp;&lt;/EM&gt;&lt;/STRONG&gt;a&amp;nbsp;zadajte (vyberte) &lt;STRONG&gt;názov počítača&lt;/STRONG&gt;, ku ktorému sa má zariadenie pripojiť, prípadne zadajte&amp;nbsp;ostatné údaje. Potom stlačte tlačidlo &lt;I&gt;Nastaviť zariadenie -&lt;/I&gt; otvorí sa formulár&amp;nbsp;&lt;EM&gt;Nastavenie Fiscal Universal Interface&lt;/EM&gt; (pozri nižšie), v&amp;nbsp;ktorom: 
+&lt;UL&gt;
+&lt;LI&gt;v záložke &lt;EM&gt;Komunikácia&lt;/EM&gt; &amp;nbsp;v&amp;nbsp;rozbaľovacom zozname&amp;nbsp;&lt;EM&gt;Súbor ovládača&lt;/EM&gt; vyberte &lt;STRONG&gt;externú DLL knižnicu (ovládač) pre danú fiškálnu tlačiareň&lt;/STRONG&gt;.&amp;nbsp;Tlačidlom &lt;EM&gt;Otestovať&lt;/EM&gt; je možné skontrolovať korektnosť súboru ovládača.&amp;nbsp;Po vykonaní ostatných nastavení parametrov komunikácie a opätovnom stlačení tlačidla &lt;EM&gt;Otestovať&lt;/EM&gt; by sa v&amp;nbsp;závislosti od externého ovládača mala skontrolovať aj komunikácia s&amp;nbsp;danou fiškálnou tlačiarňou; 
+&lt;LI&gt;v&amp;nbsp;záložke &lt;EM&gt;Základné&lt;/EM&gt;&amp;nbsp;je možné vybrať tlačiareň nefiškálnych textov (rôznych súhrnných&amp;nbsp;obratov, mincoviek, objednávok jedál/nápojov, priebežných účtov, náhradného paragónu pri nefunkčnosti fiškálnej tlačiarne a&amp;nbsp;pod.). V prípade, že bude vybraná možnosť &lt;EM&gt;***Fiškálne zariadenie&lt;/EM&gt;***,&amp;nbsp;nefiškálne texty sa budú tlačiť na&amp;nbsp;fiškálnej tlačiarni; 
+&lt;LI&gt;v&amp;nbsp;záložke &lt;EM&gt;Nastavenie modulu&lt;/EM&gt; možno nadefinovať údaje&amp;nbsp;pätičky/doplňujúcej pätičky&amp;nbsp;pokladničného dokladu; 
+&lt;LI&gt;v&amp;nbsp;záložke&amp;nbsp;&lt;EM&gt;Pokladnica OBERON&amp;nbsp;&lt;/EM&gt;nastavte parametre predaja a&amp;nbsp;zobrazenia&amp;nbsp;&lt;A href="aec074f4-3e1c-4a1e-8a80-06fcecf51156"&gt;&lt;/A&gt;&lt;A href="aec074f4-3e1c-4a1e-8a80-06fcecf51156"&gt;Pokladnice OBERON&lt;/A&gt;. Každú pokladnicu definovanú v&amp;nbsp;systéme OBERON&amp;nbsp;je potrebné priradiť k&amp;nbsp;určitému&amp;nbsp;&lt;A href="327921ae-e0fb-48da-b179-61714048b841"&gt;predajnému miestu&lt;/A&gt;. Ďalšie dôležité nastavenia sú&amp;nbsp;&lt;I&gt;Režim predaja&lt;/I&gt;, &lt;I&gt;Režim zobrazenia&lt;/I&gt;&amp;nbsp;a&amp;nbsp;&lt;I&gt;Vytváranie skladových pohybov&lt;/I&gt;.&amp;nbsp;Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="bb0e1e82-e344-4bf0-834a-a294269f2e71" style="auto-update-caption: true"&gt;Formulár Pokladnica OBERON - nastavenia&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Príslušné nastavenia&amp;nbsp;potvrďte stlačením tlačidla &lt;STRONG&gt;&lt;EM&gt;OK&lt;/EM&gt;&lt;/STRONG&gt;. 
+&lt;LI&gt;Inštalácia fiškálnej tlačiarne je ukončená. &lt;/LI&gt;&lt;/OL&gt;
+&lt;H2&gt;Popis formulára &lt;EM&gt;Nastavenie Fiscal Universal Interface&lt;/EM&gt;&lt;/H2&gt;
+&lt;P&gt;Formulár je dostupný z programu&amp;nbsp;&lt;EM&gt;OBERON - Agenda firmy&amp;nbsp;&lt;/EM&gt;v&amp;nbsp;ponuke&amp;nbsp;&lt;EM&gt;Servis,&amp;nbsp;&lt;/EM&gt;&lt;A href="749ff4f1-eeb5-43f5-98d2-021399d8cec7"&gt;Zariadenia&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt;&amp;nbsp;tlačidlo &lt;I&gt;Pridať&lt;/I&gt; alebo &lt;EM&gt;Upraviť -&lt;/EM&gt;&amp;nbsp;otvorí sa formulár, v ktorom stlačte tlačidlo &lt;EM&gt;Nastaviť zariadenie&lt;/EM&gt;.&lt;/P&gt;&lt;innovasys:widget type="Tab Strip" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Komunikácia&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Nachádzajú sa tu nastavenia&amp;nbsp;parametrov komunikácie počítača a&amp;nbsp;OBERON-u s fiškálnou tlačiarňou.&amp;nbsp;Pri &lt;EM&gt;Fiscal Universal Interface&lt;/EM&gt; je to predovšetkým výber súboru ovládača. Stlačením tlačidla &lt;EM&gt;Otestovať&lt;/EM&gt; sa&amp;nbsp;skontroluje korektnosť súboru ovládača. Po vykonaní ostatných nastavení parametrov komunikácie a opätovnom stlačení tlačidla &lt;EM&gt;Otestovať&lt;/EM&gt; by sa v&amp;nbsp;závislosti od externého ovládača mala skontrolovať aj komunikácia s danou&amp;nbsp;fiškálnou tlačiarňou.&lt;/P&gt;
+&lt;P&gt;&lt;I&gt;&lt;STRONG&gt;Informácie o&amp;nbsp;fiškálnom zariadení&lt;/STRONG&gt;&lt;/I&gt; - po detegovaní fiškálnej tlačiarne sa v okne zobrazia informácie o danej fiškálnej tlačiarni. Medzi dôležité informácie patria predovšetkým sadzby DPH nastavené vo fiškálnej tlačiarni a ich zhoda s&amp;nbsp;&lt;A href="5a6e5663-262e-4ff0-9741-1569385d11e4"&gt;nastavením&lt;/A&gt; v&amp;nbsp;OBERON-e.&lt;/P&gt;
+&lt;P&gt;&lt;I&gt;&lt;STRONG&gt;Načítať zo zariadenia&lt;/STRONG&gt;&lt;/I&gt; - do záložky &lt;I&gt;Nastavenie modulu&lt;/I&gt; sa z fiškálnej tlačiarne načítajú informácie o&amp;nbsp;hlavičke, pätičke dokladu.&lt;/P&gt;
+&lt;P&gt;&lt;I&gt;&lt;STRONG&gt;Zapísať do zariadenia&lt;/STRONG&gt;&lt;/I&gt; -&amp;nbsp;z technického hľadiska je možné niektoré údaje zapísať do fiškálnej tlačiarne priamo z programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt; bez potreby servisného programu.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Základné&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Vyberá sa tlačiareň&amp;nbsp;na tlač nefiškálnych textov (rôznych súhrnných&amp;nbsp;obratov, mincoviek, objednávok jedál/nápojov, priebežných účtov, náhradného paragónu pri nefunkčnosti fiškálnej tlačiarne a&amp;nbsp;pod.). V prípade, že bude vybraná možnosť &lt;EM&gt;*** Fiškálne zariadenie&lt;/EM&gt; ***,&amp;nbsp;nefiškálne texty sa budú tlačiť na&amp;nbsp;fiškálnej tlačiarni.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Nastavenie modulu&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;&lt;I&gt;&lt;STRONG&gt;Hlavná hlavička&lt;/STRONG&gt;&lt;/I&gt; - hlavná hlavička pokladničného dokladu je determinovaná&amp;nbsp;&lt;A href="a14ac842-73d2-4d86-ab96-a99fe02e5a8f"&gt;zápisom identifikačných údajov&lt;/A&gt; do fiškálnej tlačiarne a priamo v OBERON-e ju nie je možné nadefinovať.&lt;/P&gt;&lt;I&gt;&lt;STRONG&gt;Pätička&lt;/STRONG&gt;&lt;/I&gt; - ľubovoľné doplňujúce údaje tlačené za položkami. Napríklad &lt;I&gt;Ďakujeme za nákup&lt;/I&gt;. 
+&lt;P&gt;&lt;I&gt;&lt;STRONG&gt;Doplňujúca pätička&lt;/STRONG&gt;&lt;/I&gt; - ľubovoľné doplňujúce údaje tlačené za položkami. Napríklad &lt;I&gt;Otváracie hodiny.&lt;/I&gt;&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Pokladnica OBERON&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;BR&gt;Nastavujú sa tu&amp;nbsp;parametre &lt;A href="aec074f4-3e1c-4a1e-8a80-06fcecf51156"&gt;Pokladnice OBERON&lt;/A&gt;&amp;nbsp;(režim predaja a&amp;nbsp;zobrazenia,&amp;nbsp;&lt;EM&gt;Predajné miesto,&lt;/EM&gt;&amp;nbsp;&lt;I&gt;Sklad,&lt;/I&gt; prípadne zoskupenie skladov, z&amp;nbsp;ktorých bude pokladnica predávať, &lt;EM&gt;Predajná cena,&lt;/EM&gt; tlačidlá a pod.). Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="bb0e1e82-e344-4bf0-834a-a294269f2e71" style="auto-update-caption: true"&gt;Formulár Pokladnica OBERON - nastavenia&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="17b0be64-2d6a-4aae-81a5-75449a29db7f" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="5442590e-2d9a-4550-984d-e5b23f239d05">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="f67fab85-14c1-43b9-b4b7-971fb1604e18" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="a75ad602-f141-475d-afba-8d0f3dcf668a">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="ca4e0c2a-3243-49b9-9fa4-c85874c28e10" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="749ff4f1-eeb5-43f5-98d2-021399d8cec7">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="6e55ab6e-a7b1-4686-9a15-34d705627532" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="06f5e819-cf70-4875-b3fd-eca80b19939b">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="8036cea3-cae4-4fd1-a8fa-bee2ce1f0268">
+      <Keyword m="2023-10-17T13:04:57.3074497Z">Fiscal Universal Interface - nastavenie komunikácie - formulár</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="b22e4722-ea4a-44b3-98d3-b24cac4f4d3b">
+      <Keyword m="2022-08-15T08:16:10.2436204Z">Inštalácia fiškálnej tlačiarne - Fiscal Universal Interface</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="b232226b-a719-4465-8fe2-879aa57752f2">
+      <Keyword m="2022-08-15T08:16:37.0543698Z">Formulár Nastavenie Fiscal Universal Interface</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="8fa578bf-92a5-43f3-82fc-be145cd19442" Status="Complete" CreatedOn="2019-04-10T12:05:47.6973096Z" ModifiedOn="2023-12-29T13:00:07.5746479Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="80420" Name="Form_CashRegister_FiscalDevice_ECMSettings" BuildFlags="">
+  <Title m="2019-04-10T12:07:44.1057718Z">Sprievodca Nastavenie EXALOGIC CashRegister Manager</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-12-29T13:00:07.5746479Z">&lt;P&gt;V závislosti od konkrétneho&amp;nbsp;&lt;A href="04b8d290-1470-41ff-85a1-c44a20958841"&gt;fiškálneho zariadenia&lt;/A&gt;&amp;nbsp;môže &lt;A href="a6f5e32d-6f1e-40bb-9d15-3f784a183252"&gt;Pokladnica OBERON&lt;/A&gt;&amp;nbsp;s týmto fiškálnym zariadením komunikovať prostredníctvom ovládača&amp;nbsp;&lt;A href="cd5f4475-36be-4b51-83ca-c11c8cd12b7e"&gt;EXALOGIC CashRegister Manager&lt;/A&gt; (ECM). Ovládač ECM je možné nastaviť&amp;nbsp;pomocou tohto sprievodcu, ktorý je dostupný z&amp;nbsp;&lt;A href="3c20e547-e046-4644-87b3-c8979f7cbacc"&gt;formulára Nastavenie - eKasa klient ECM&lt;/A&gt;, záložka &lt;EM&gt;Ovládač ECM&lt;/EM&gt;, tlačidlo &lt;EM&gt;Nastaviť&lt;/EM&gt;...&lt;/P&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Momentálne je&amp;nbsp;komunikácia prostredníctvom ovládača ECM možná len s fiškálnou tlačiarňou&amp;nbsp;&lt;A href="00fa9619-a13d-4745-8938-cc0c2b5039ce"&gt;eKasa PANDORA&lt;/A&gt;&amp;nbsp;&lt;A href="1f32a90c-7b4a-4d69-9f38-a560178794b3" style="auto-update-caption: true"&gt;&lt;IMG border=0 alt="Odporúčané riešenia" src="images/OBERON/Basic/Odporucane-riesenie_ruka_ikona.png"&gt;&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Sprievodca nastavením&lt;/H2&gt;
+&lt;P&gt;Ovládač ECM môže pracovať vo viacerých režimoch (&lt;STRONG&gt;jednoduchý režim, režim Windows služba, režim zdieľania&lt;/STRONG&gt;).&amp;nbsp;Predpokladom je,&amp;nbsp;aby PPEKK bežalo v počítači, a nie v zariadení (napr.&amp;nbsp;&lt;A href="00fa9619-a13d-4745-8938-cc0c2b5039ce"&gt;eKasa PANDORA&lt;/A&gt;). Viac informácií o jednotlivých režimoch práce ECM získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="19b510d5-e443-4f00-b4dc-6048fa05a4ea"&gt;Režimy použitia ovládača EXALOGIC CashRegister Manager&lt;/A&gt;.&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Spúšťať na tomto počítači ako program na pozadí&lt;/STRONG&gt; &lt;STRONG&gt;(jednoduchý režim)&lt;/STRONG&gt; - ovládač sa spúšťa na danom počítači ako bežná aplikácia systému &lt;EM&gt;Windows&lt;/EM&gt;. 
+&lt;UL&gt;
+&lt;LI&gt;Ovládač bude aktívny len pri spustení&amp;nbsp;&lt;A href="aec074f4-3e1c-4a1e-8a80-06fcecf51156"&gt;Pokladnice OBERON&lt;/A&gt;. Ak nebude pokladnica spustená, nebude možné automaticky odosielať tzv. off-line doklady do systému eKasa (v&amp;nbsp;závislosti od&amp;nbsp;fiškálneho zariadenia). 
+&lt;LI&gt;Tento režim sa odporúča pri malej kadencii predaja, prípadne pri nepravidelnom používaní &lt;EM&gt;Pokladnice OBERON&lt;/EM&gt;. 
+&lt;LI&gt;&lt;EM&gt;Pokladnica OBERON&lt;/EM&gt; bude komunikovať s ovládačom &lt;EM&gt;EXALOGIC CashRegister Manager&lt;/EM&gt; pomocou protokolu TCP/IP. 
+&lt;LI&gt;Po stlačení tlačidla &lt;EM&gt;Dokončiť&lt;/EM&gt; sa nastavenie ovládača dokončí&lt;EM&gt;. &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/EM&gt; &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Spúšťať na tomto počítači ako Windows službu&lt;/STRONG&gt; &lt;STRONG&gt;(režim Windows služba)&lt;/STRONG&gt; - ovládač sa spúšťa&amp;nbsp;na danom počítači ako služba systému &lt;EM&gt;Windows&lt;/EM&gt; (optimálne riešenie). 
+&lt;UL&gt;
+&lt;LI&gt;Ovládač bude aktívny aj bez nutnosti spustenia&amp;nbsp;&lt;A href="aec074f4-3e1c-4a1e-8a80-06fcecf51156"&gt;Pokladnice OBERON&lt;/A&gt;, čo v prípade výpadku internetu umožní automaticky odosielať tzv. off-line doklady do systému eKasa aj bez zásahu obsluhy pokladnice. 
+&lt;LI&gt;&lt;EM&gt;Pokladnica OBERON&lt;/EM&gt; bude s ovládačom komunikovať pomocou protokolu TCP/IP.&amp;nbsp;Preto&amp;nbsp;je potrebné zadať číslo komunikačného portu. 
+&lt;LI&gt;&lt;STRONG&gt;Pridať výnimku do Windows firewall&lt;/STRONG&gt; - je nutné&amp;nbsp;v prípade, že sa k službe&amp;nbsp;budú pripájať klienty (pokladnice) z iných počítačov (zdieľanie fiškálneho zariadenia). 
+&lt;LI&gt;Po stlačení tlačidla &lt;EM&gt;Dokončiť&lt;/EM&gt; sa nastavenie ovládača dokončí&lt;EM&gt;.&lt;/EM&gt; &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Pripojiť sa k ovládaču bežiacemu na inom počítači&lt;/STRONG&gt; &lt;STRONG&gt;(režim zdieľania) &lt;/STRONG&gt;- v&amp;nbsp;tomto režime sa ovládač spúšťa na inom počítači. 
+&lt;UL&gt;
+&lt;LI&gt;Tento režim umožňuje zdieľať jedno fiškálne zariadenie viacerými používateľmi OBERON-u, čo v prípade potreby umožňuje vyhotovovať pokladničné doklady aj z viacerých počítačov súčasne (zdieľanie fiškálneho zariadenia). 
+&lt;LI&gt;Pri výbere tohto režimu je nutné v&amp;nbsp;položke &lt;EM&gt;Pripojenie k počítaču&lt;/EM&gt; vo formulári &lt;EM&gt;Zariadenie&lt;/EM&gt; (ponuka &lt;EM&gt;Servis,&amp;nbsp;&lt;/EM&gt;&lt;A href="749ff4f1-eeb5-43f5-98d2-021399d8cec7"&gt;Zariadenia&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt;&amp;nbsp;tlačidlo &lt;EM&gt;Pridať&lt;/EM&gt;)&lt;EM&gt;&amp;nbsp;&lt;/EM&gt;zadať názvy všetkých počítačov, z ktorých sa budú vyhotovovať pokladničné doklady. Názvy jednotlivých počítačov&amp;nbsp;sa oddeľujú&amp;nbsp;čiarkou&amp;nbsp;a&amp;nbsp;medzerou, napr. &lt;EM&gt;PC-predajna1, PC-predajna2, PC-predajna3&lt;/EM&gt;. 
+&lt;LI&gt;&lt;EM&gt;Pokladnica OBERON&lt;/EM&gt; bude s ovládačom komunikovať pomocou protokolu TCP/IP. Preto&amp;nbsp;je potrebné zadať adresu servera (počítača, na ktorom je spustený ovládač)&amp;nbsp;a&amp;nbsp;číslo komunikačného portu. 
+&lt;LI&gt;Po stlačení tlačidla &lt;EM&gt;Dokončiť&lt;/EM&gt; sa nastavenie ovládača dokončí&lt;EM&gt;.&lt;/EM&gt; &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Odstrániť nastavenia z tohto počítača&lt;/STRONG&gt; - odstráni nastavenia ovládača z daného počítača. 
+&lt;UL&gt;
+&lt;LI&gt;Po stlačení tlačidla &lt;EM&gt;Dokončiť&lt;/EM&gt; sa nastavenia ovládača odstránia. V prípade, že pôvodné nastavenie bolo &lt;EM&gt;Windows služba&lt;/EM&gt;, táto služba sa zo systému &lt;EM&gt;Windows&lt;/EM&gt; odstráni. &lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="d95af7b9-995b-4cf2-85ec-3ee45dc377bc" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="3c20e547-e046-4644-87b3-c8979f7cbacc">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="56f78441-982c-4e79-b680-8e88dc80c420" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="2bb8914d-3e8f-417d-a083-b83300c24d66">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="1fed0f13-dbcd-4d21-aa2a-ef36cead6381">
+      <Keyword m="2022-08-12T05:44:29.8678992Z">Nastavenie ovládača ECM</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="8c12caa7-d2a5-4fe6-b0c1-33f936a75bb3">
+      <Keyword m="2022-08-12T05:44:38.3798489Z">Ovládač ECM</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="014310c3-0a0b-4572-b18f-053cc04ba263">
+      <Keyword m="2022-08-12T05:44:07.7515899Z">eKasa PANDORA - nastavenie ECM</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="3eb31902-74fa-46ef-8842-6f1b1e098d27">
+      <Keyword m="2022-08-12T05:44:17.4017029Z">Fiškálna tlačiareň - nastavenie ECM</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="f66cf24a-887c-4f6e-885b-02d3b8029a45">
+      <Keyword m="2020-02-04T13:09:12.7891703Z">Fiškálna tlačiareň - zdieľanie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="a8fee427-783b-4a97-acb1-8bc594d1e088">
+      <Keyword m="2020-02-04T13:09:19.8844516Z">Zdieľanie fiškálnej tlačiarne</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="0f96c7b5-2b55-4782-81ec-f64b9c832293">
+      <Keyword m="2022-08-12T05:44:43.940287Z">PANDORA - nastavenie ECM</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

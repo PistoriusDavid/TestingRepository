@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="83d00926-652d-4ae9-8cba-997d462fac7d" Status="Complete" CreatedOn="2014-09-05T15:33:31.4785001Z" ModifiedOn="2023-10-09T12:56:12.9708905Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="22216" Name="Menu_Stock_CashRegisterOrders" BuildFlags="">
+  <Title m="2014-09-06T19:30:58.0587597Z">Bonovacia kniha</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-10-09T12:56:12.9708905Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;je venovaná&amp;nbsp;položke&amp;nbsp;&lt;EM&gt;Bonovacia kniha&amp;nbsp;&lt;/EM&gt;v&amp;nbsp;ponuke&amp;nbsp;&lt;EM&gt;Sklad&lt;/EM&gt; programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;.&amp;nbsp;Položka je v&amp;nbsp;ponuke &lt;EM&gt;Sklad&lt;/EM&gt; dostupná&amp;nbsp;iba v&amp;nbsp;prípade, že je v&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="749ff4f1-eeb5-43f5-98d2-021399d8cec7" style="auto-update-caption: true"&gt;Zariadenia&lt;/A&gt; pridaná&amp;nbsp; aspoň jedna bonovacia tlačiareň alebo je&amp;nbsp;&lt;A href="2a7fe044-bfb5-45f5-b288-2aedb71f7999"&gt;nakofigurovaná webová služba pre bonovací monitor&lt;/A&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Výberom položky sa otvorí &lt;STRONG&gt;evidencia&amp;nbsp;objednávok jedál a nápojov&lt;/STRONG&gt;&amp;nbsp;vytlačených na&amp;nbsp;&lt;A href="b9d7c873-7b63-4210-86fe-ab1c66ea6502"&gt;bonovacej tlačiarni&lt;/A&gt; (tlačiareň pre kuchyňu alebo pre prípravu nápojov - bar), resp. zobrazených na&amp;nbsp;&lt;A href="d9867d81-7de7-4ce2-9c45-932025935b8b"&gt;bonovacom monitore&lt;/A&gt;. Záznamy sa do knihy &lt;STRONG&gt;zapisujú&amp;nbsp;automaticky&amp;nbsp;bezprostredne po&amp;nbsp;vytlačení/zobrazení&amp;nbsp;objednávok&lt;/STRONG&gt; odoslaných&amp;nbsp;z&amp;nbsp;&lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnice OBERON&lt;/A&gt;&amp;nbsp;alebo aplikácie&amp;nbsp;&lt;A href="942d48d5-b290-40f6-8ba3-45cf78f380f9"&gt;LUKUL - nielen mobilný čašník&lt;/A&gt;. 
+&lt;LI&gt;Záznamy v bonovacej knihe sa zobrazujú podľa príslušnosti k&amp;nbsp;&lt;A href="327921ae-e0fb-48da-b179-61714048b841"&gt;predajnému miestu&lt;/A&gt;.&amp;nbsp;V&amp;nbsp;prípade používania viacerých&amp;nbsp;predajných miest záznamy&amp;nbsp;prislúchajúce k jednotlivým predajným miestam možno zobraziť ako podmnožiny&amp;nbsp;záznamov bonovacej knihy.&amp;nbsp;Možno tak urobiť pomocou filtra&amp;nbsp;&lt;EM&gt;Predajné miesto&lt;/EM&gt;&amp;nbsp;v&amp;nbsp;hornej časti evidencie. Záznamy v bonovacej knihe sa pre každé predajné miesto číslujú zvlášť. Okrem toho sa osobitne číslujú doklady pre každú&amp;nbsp;fyzickú bonovaciu tlačiareň/monitor. 
+&lt;LI&gt;V bonovacej knihe sa evidujú &lt;STRONG&gt;tak objednávky, ako aj&amp;nbsp;storná&lt;/STRONG&gt; objednávok jedál a nápojov. 
+&lt;LI&gt;Záznamy knihy je možné filtrovať, vyhľadávať v nich, tlačiť kópie a iné tlačové výstupy. Taktiež je možné hromadne vymazávať staré a nepotrebné doklady (po stlačení tlačidla &lt;EM&gt;Možnosti&lt;/EM&gt;). &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Bližšie informácie o ovládaní evidencie, používaní filtrov, triedení záznamov a pod. sú dostupné v téme&amp;nbsp;&lt;A href="8936fde4-aac3-4672-99a2-c8bd5ccffdcd"&gt;Ovládanie knihy (evidencie)&lt;/A&gt;.&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="04ed24eb-e6f7-476b-b0ac-a7afeb3b4994" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="de37c038-dda7-44e6-bb5a-4b73832e69a1">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="9d184f63-22c0-4270-9bd8-3ffbed300de2" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="b9d7c873-7b63-4210-86fe-ab1c66ea6502">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="6acf8188-c14d-43e1-84b8-49761695b8b4" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="d9867d81-7de7-4ce2-9c45-932025935b8b">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="9f24ae68-a05a-47eb-9f79-0933839df384" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1ea156c6-edd0-46e0-ab65-7f41af30e672">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="b911a389-8bb7-4f9f-b58c-f4f7afb9d5e2" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="69bbd499-45c0-4b0f-8f7a-c53fa5d70c1b">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="387f1bfb-2308-471a-898d-46550d5aaed8" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="942d48d5-b290-40f6-8ba3-45cf78f380f9">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="42579f90-4659-4d19-82a8-68d4890fde96">
+      <Keyword m="2021-10-29T08:26:02.5742416Z">Bonovacia tlačiareň - záznamy</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="9055b144-67de-48bc-8252-6ed9b2326984">
+      <Keyword m="2021-10-29T08:25:36.7549111Z">Tlačiareň pre kuchyňu - záznamy</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="89047fa7-ee9a-4bd3-90e7-c42be0381dbf">
+      <Keyword m="2021-10-29T08:25:51.6126041Z">Tlačiareň pre bar - záznamy</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="e6743ec8-c44a-4822-994b-eb594f2cecb1">
+      <Keyword m="2021-10-29T08:26:08.8187877Z">Bonovací monitor - záznamy</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="0a352869-3b4e-4ca4-bfbd-ad17483ed27b" Status="Complete" CreatedOn="2024-03-05T09:55:53.9209599Z" ModifiedOn="2024-06-06T11:40:36.2599482Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Stock_Advanced_Shipment" BuildFlags="">
+  <Title m="2024-03-05T09:58:31.9074232Z">Expedícia tovaru</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-06-06T11:40:36.2599482Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;informácie o možnostiach&amp;nbsp;expedície tovaru&lt;/STRONG&gt; v&amp;nbsp;systéme OBERON.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Systém OBERON umožňuje&amp;nbsp;&lt;STRONG&gt;zadať (evidovať) údaje potrebné na správnu expedíciu tovaru zo skladu&lt;/STRONG&gt;,&amp;nbsp;a to v nasledujúcich evidenciách:&amp;nbsp;&lt;A href="48505e8d-5f28-4063-882b-ca07f33670ef" style="auto-update-caption: true"&gt;Objednávky prijaté&lt;/A&gt;,&amp;nbsp;&lt;A href="0be61fcc-a85b-4572-876d-2171a5cb7c29" style="auto-update-caption: true"&gt;Výdajky&lt;/A&gt;,&amp;nbsp;&lt;A href="5c21adcc-87c8-44e7-981d-02902635693d" style="auto-update-caption: true"&gt;Kniha pohľadávok&lt;/A&gt;. Funkciu využijú tie účtovné jednotky, ktoré odosielajú tovar spotrebiteľom (spravidla&amp;nbsp;&lt;A href="2ba6a435-be52-46a1-b723-fb2b8ca084c0"&gt;internetové obchody&lt;/A&gt;) a potrebujú &lt;STRONG&gt;buď vytvárať objednávky prepravy pre kuriérov, alebo pripravovať tovar na expedíciu v prípade jeho doručovania vlastnou dopravou&lt;/STRONG&gt;. Podľa zadaných údajov možno jednoduchšie objednať prepravcu, a to najmä vytlačiť&amp;nbsp;expedičné lístky. 
+&lt;LI&gt;Údaje&amp;nbsp;potrebné na expedíciu tovaru možno zaevidovať: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;priamo v&amp;nbsp;príslušných dokladových&amp;nbsp;formulároch&lt;/STRONG&gt; (&lt;A href="6712889d-bea7-4ae7-859d-82b809c7bdcc"&gt;Objednávka prijatá&lt;/A&gt;,&amp;nbsp;&lt;A href="e5d60ce3-8ad2-43f2-b60d-08c773376f5b"&gt;Výdajka&lt;/A&gt;,&amp;nbsp;&lt;A href="68022ee5-d91a-4a1d-960b-c5de57414b6f"&gt;Pohľadávka&lt;/A&gt;) v&amp;nbsp;záložke &lt;EM&gt;Doprava&lt;/EM&gt;, &lt;EM&gt;Expedícia&lt;/EM&gt;, 
+&lt;LI&gt;&lt;STRONG&gt;pomocou mobilnej aplikácie&amp;nbsp;&lt;/STRONG&gt;&lt;A href="be17efdf-4b36-4b47-ad5d-09b0f66c8f65"&gt;ASTON&lt;/A&gt;&amp;nbsp;- aplikácia umožňuje evidovať údaje&amp;nbsp;potrebné na expedíciu v&amp;nbsp;prijatých objednávkach a&amp;nbsp;vo výdajkách. Skladník priamo v&amp;nbsp;sklade tovar vyskladní a&amp;nbsp;pomocou aplikácie zadá údaje na expedíciu (počet balíkov, typ balíka, celkovú hmotnosť, rozmery atď.). Zadané údaje sa automaticky prenesú do OBERON-u. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Po zadaní údajov na expedíciu tovaru možno v príslušnej knihe vytlačiť &lt;EM&gt;&lt;STRONG&gt;Súhrn balíkov pripravených na expedíciu&lt;/STRONG&gt;&lt;/EM&gt;. 
+&lt;LI&gt;Tlač expedičných lístkov možno realizovať pomocou externej webovej aplikácie &lt;A href="d7e11dcc-4852-4802-994c-2d80fa31aabe"&gt;Chameleoon&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="b2cc9829-4ab1-4e4f-b92e-218b48905072" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="48505e8d-5f28-4063-882b-ca07f33670ef">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="d4230d76-4b1f-48b8-a127-c4513efce0f5" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="6712889d-bea7-4ae7-859d-82b809c7bdcc">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="4c5240a4-dc1a-46f6-a0aa-ebf04a9f9c04" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="0be61fcc-a85b-4572-876d-2171a5cb7c29">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="6ba7921e-4059-451b-9ce6-902e651db68f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="e5d60ce3-8ad2-43f2-b60d-08c773376f5b">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="856cdaa9-5dbf-47b4-90b2-e22f7b619c69" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="5c21adcc-87c8-44e7-981d-02902635693d">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="5b96c4be-3f5c-4d0e-8ede-566e1648f2cb" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="68022ee5-d91a-4a1d-960b-c5de57414b6f">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="accaa578-8446-4e93-8f8e-c2770011d3cc" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="be17efdf-4b36-4b47-ad5d-09b0f66c8f65">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="83cbc44b-3ec0-45b1-a472-f23fa076cf84">
+      <Keyword m="2024-03-05T12:10:01.4233685Z">Tovar - expedícia</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="fc089d55-d279-4778-82c1-209c6c2140db">
+      <Keyword m="2024-03-05T12:10:13.4937502Z">Údaje na expedíciu tovaru</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="8627bb01-baa9-407c-9718-3defdd6ac4fb">
+      <Keyword m="2024-03-05T12:10:40.6819702Z">Súhrn balíkov pripravených na expedíciu</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

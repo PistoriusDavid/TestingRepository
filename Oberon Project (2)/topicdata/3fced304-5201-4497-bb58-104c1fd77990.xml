@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="3fced304-5201-4497-bb58-104c1fd77990" Status="Complete" CreatedOn="2016-05-10T10:02:35.5611362Z" ModifiedOn="2023-07-18T08:54:22.8322483Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="70390" Name="Menu_Wages_Contract" BuildFlags="">
+  <Title m="2016-05-10T10:05:40.3897478Z">Pracovné pomery pracovníkov</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-07-18T08:54:22.8322483Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;je venovaná&amp;nbsp;položke&amp;nbsp;&lt;EM&gt;Pracovné pomery pracovníkov&lt;/EM&gt; v&amp;nbsp;ponuke&amp;nbsp;&lt;EM&gt;Mzdy&lt;/EM&gt; programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Výberom položky sa otvorí&amp;nbsp;kniha &lt;EM&gt;Pracovné pomery pracovníkov&lt;/EM&gt;, ktorá umožňuje&amp;nbsp;&lt;STRONG&gt;evidovať&amp;nbsp;pracovné pomery&lt;/STRONG&gt; priradené&amp;nbsp;&lt;A href="8dd60281-9cc7-41fe-9dd2-2ad5c7ffe047"&gt;pracovníkom&lt;/A&gt;,&amp;nbsp;prípadne&amp;nbsp;majiteľom&amp;nbsp;firmy. Pritom platí, že jednému pracovníkovi možno priradiť viacero pracovných pomerov. 
+&lt;LI&gt;V&amp;nbsp;prípade používania &lt;A href="8df798f2-4fbf-4279-ad8c-493bdbe7f2e4"&gt;prevádzok&lt;/A&gt;&amp;nbsp;záznamy&amp;nbsp;v&amp;nbsp;evidencii (pracovné pomery pracovníkov) možno &lt;STRONG&gt;zobraziť podľa príslušnosti&amp;nbsp;k prevádzke&lt;/STRONG&gt;, a&amp;nbsp;to&amp;nbsp;ako podmnožiny&amp;nbsp;záznamov knihy&amp;nbsp;&lt;EM&gt;Pracovné pomery pracovníkov&lt;/EM&gt;.&amp;nbsp;Možno tak urobiť pomocou filtra&amp;nbsp;&lt;EM&gt;Prevádzka&lt;/EM&gt; v&amp;nbsp;hornej časti evidencie.&amp;nbsp;Zoznam dostupných prevádzok (definujú sa v ponuke &lt;EM&gt;Firma&lt;/EM&gt;,&amp;nbsp;&lt;A href="a833ee8a-1289-42b9-923f-80f549497702"&gt;Údaje o firme&lt;/A&gt;)&amp;nbsp;je možné v prípade potreby obmedziť pomocou&amp;nbsp;&lt;A href="834e9546-a56b-476f-9028-ef4c24a82345"&gt;používateľských práv&lt;/A&gt;. 
+&lt;LI&gt;Pracovné pomery pracovníkov umožňujú evidovať vznik, zmenu alebo zánik pracovno-právneho vzťahu. Ku každému pracovnému pomeru je možné evidovať informácie o mzde, dovolenke,&amp;nbsp;&lt;A href="1491b978-c63c-4182-95f4-70eade92f4d5"&gt;neprítomnosti&lt;/A&gt; a&amp;nbsp;zrážky. V&amp;nbsp;pracovnom pomere je možné zadať spôsob doručovania dokumentov - elektronicky, poštou alebo osobne. 
+&lt;LI&gt;Pri zaevidovaní nového pracovného pomeru pracovníka je vždy potrebné určiť, ku ktorému typu pracovného pomeru bude daný pracovný pomer prislúchať. V systéme OBERON sú základné typy pracovných pomerov preddefinované, ďalšie typy si môže účtovná jednotka&amp;nbsp;vo&amp;nbsp;&lt;A href="fd4a9158-531c-411a-986e-6ea77622e591"&gt;formulári Typ pracovného pomeru&lt;/A&gt;&amp;nbsp;podľa potreby ľubovoľne definovať.&amp;nbsp;Nepoužívané typy stavov možno zakázať (deaktivovať). &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Vytvoriť, resp. upraviť údaje už o&amp;nbsp;vytvorenom pracovnom pomere pracovníka je možné&amp;nbsp;pomocou&amp;nbsp;&lt;A href="95a3b7e2-6135-4860-a655-5724b186b94c"&gt;formulára Pracovný pomer pracovníka&lt;/A&gt;. Postup priradenia pracovného pomeru pracovníkovi&amp;nbsp;je&amp;nbsp;popísaný v téme&amp;nbsp;&lt;A href="8883a3ef-5814-4275-8570-ca00cfbc1e93" style="auto-update-caption: true"&gt;Zaradenie pracovníka do evidencie&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Tlačové výstupy&lt;/H2&gt;
+&lt;P&gt;Kniha obsahuje celý rad tlačových výstupov, z&amp;nbsp;ktorých najdôležitejšie sú:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;EM&gt;Potvrdenie o príjme&lt;/EM&gt; 
+&lt;LI&gt;&lt;EM&gt;Zoznam pracovných pomerov&lt;/EM&gt; 
+&lt;LI&gt;&lt;EM&gt;Prezenčná listina&lt;/EM&gt; 
+&lt;LI&gt;&lt;EM&gt;Podpisová listina záloh&lt;/EM&gt; 
+&lt;LI&gt;&lt;EM&gt;Priemery&lt;/EM&gt; &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Dostupné&amp;nbsp;možnosti&lt;/H2&gt;
+&lt;P&gt;Ďalšie možnosti práce so záznamami&amp;nbsp;sú dostupné&amp;nbsp;po stlačení tlačidla &lt;EM&gt;Možnosti&lt;/EM&gt;, prípadne v&amp;nbsp;kontextovej ponuke tabuľky záznamov.&lt;/P&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Aktualizácia mzdových zložiek pracovných pomerov&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Otvorí sa sprievodca, pomocou ktorého možno vybraným pracovníkom aktualizovať základné mzdové sadzby, ako napr. minimálna mzda pre vybrané obdobie roka podľa platnej legislatívy pre daný rok.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;XML komunikácia - export údajov&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Otvorí sa sprievodca, ktorý umožňuje exportovať údaje z&amp;nbsp;tejto evidencie do súboru typu XML. Viac informácií získate v téme&amp;nbsp;&lt;A href="56f661c6-24da-46aa-b157-5d988cbe792b" style="auto-update-caption: true"&gt;Všeobecne o XML komunikácii&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;XML komunikácia - import údajov&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Otvorí sa sprievodca, ktorý umožňuje&amp;nbsp;importovať údaje&amp;nbsp;zo súboru typu&amp;nbsp;XML do tejto evidencie. Viac informácií získate v téme&amp;nbsp;&lt;A href="56f661c6-24da-46aa-b157-5d988cbe792b" style="auto-update-caption: true"&gt;Všeobecne o XML komunikácii&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Sociálna poisťovňa - import IČPV&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Otvorí sa sprievodca, ktorý umožňuje vykonať import identifikačných čísel právnych vzťahov (IČPV) vydávaných &lt;EM&gt;Sociálnou poisťovňou&lt;/EM&gt; pri registrácii pracovníkov v jej elektronickom systéme. IČPV je jedinečný identifikátor právneho vzťahu, ktorý pridelí &lt;EM&gt;Sociálna poisťovňa&lt;/EM&gt; pri prihlásení zamestnanca na konkrétny poistný (právny) vzťah – rolu. Zamestnávateľ je povinný uvádzať pridelené IČPV napr. pri podávaní &lt;I&gt;Registračného listu fyzickej osoby&lt;/I&gt; (RLFO) ako aj pri vykazovaní vymeriavacieho základu na tlačivách &lt;I&gt;Mesačný výkaz poistného a príspevkov&lt;/I&gt; a &lt;I&gt;Výkaz poistného a príspevkov&lt;/I&gt;.&lt;/P&gt;
+&lt;P&gt;Pred importom údajov je potrebné vykonať export údajov z elektronického systému &lt;EM&gt;Sociálnej poisťovne&lt;/EM&gt; a&amp;nbsp;exportovaný súbor&amp;nbsp;typu CSV&amp;nbsp;následne vybrať pre import.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="11b8e034-17d4-4e18-a027-eb056a741fb3" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="8dd60281-9cc7-41fe-9dd2-2ad5c7ffe047">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="d96b012c-6461-4e62-8f6c-645001a9257a" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="c244d752-1bd6-48c8-aaed-e52c71d41f26">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="e3c0560a-56cc-48ee-9b1b-9becc3f62b4f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="95a3b7e2-6135-4860-a655-5724b186b94c">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="a9db29f7-a8cc-4425-9301-211db6b236e6" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="8883a3ef-5814-4275-8570-ca00cfbc1e93">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="3fbf5d04-b16e-48a0-a052-a88b9bbd9d76" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="a2d510ea-4cba-46cd-b337-c01fb332cd35">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="ee23857b-7841-49e5-879c-77e31853b27c" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="cef3d868-1ade-4aea-a26d-083fc2a21048">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="b692639a-5aea-4139-a10f-824cb92700d8" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="6923b0c5-166b-4e3b-a53b-71f62b53b2fc">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="1a4c7f98-555d-41a7-9a0b-4043745178ce" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="02db47ec-e28b-4afd-936f-a5a9a7fed70e">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="bb1180d8-ce32-440c-b517-6300c8aa822f">
+      <Keyword m="2017-03-17T12:01:48.0173497Z">Potvrdenie o príjme</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="a6ab4c0f-aea8-4593-8a18-eb456a26ca00">
+      <Keyword m="2021-01-28T09:32:53.8191173Z">IČPV</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="5f2a9149-c20c-4cf0-9257-047f01a05bda">
+      <Keyword m="2023-07-10T12:32:35.6246221Z">Zoznam pracovných pomerov</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="4d5ab2ce-a99c-4e58-9020-7fec46dc566e">
+      <Keyword m="2023-07-10T12:32:44.2824179Z">Prezenčná listina</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="730a0f00-0e27-4e20-bff3-e314d93e9e89">
+      <Keyword m="2023-07-10T12:32:58.4995792Z">Podpisová listina záloh</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="c1fabd2b-8a13-4b0c-b259-b114dc4bb6c1">
+      <Keyword m="2023-07-10T12:33:07.692952Z">Priemery</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

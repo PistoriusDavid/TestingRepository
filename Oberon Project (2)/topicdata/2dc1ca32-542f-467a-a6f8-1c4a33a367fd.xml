@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="2dc1ca32-542f-467a-a6f8-1c4a33a367fd" Status="Complete" CreatedOn="2014-09-09T12:34:58.1685444Z" ModifiedOn="2022-07-18T10:31:27.8704144Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Invoices_Start_Invoice_Edit" BuildFlags="">
+  <Title m="2014-09-09T12:35:18.2106907Z">Oprava zaúčtovanej faktúry</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2022-07-18T10:31:27.8704144Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;informácie&amp;nbsp;o možnosti opravy už zaúčtovanej faktúry&lt;/STRONG&gt; v&amp;nbsp;systéme OBERON.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Koncepcia systému OBERON je postavená tak, aby bol v&amp;nbsp;čo najväčšej miere&amp;nbsp;minimalizovaný počet chýb, ktorých sa môžu jeho používatelia potenciálne dopustiť. Táto koncepcia núti používateľov, aby pri opravách dokladov v&amp;nbsp;účtovných knihách dodržali niektoré pevne dané postupy. 
+&lt;LI&gt;Z&amp;nbsp;tohto dôvodu nie je napr. dovolené v&amp;nbsp;&lt;A href="5c21adcc-87c8-44e7-981d-02902635693d"&gt;knihe pohľadávok&lt;/A&gt; alebo v&amp;nbsp;&lt;A href="55028746-c263-4d92-a615-502222e8d53b"&gt;knihe záväzkov&lt;/A&gt; opravovať doklady, ak sú už zaúčtované v&amp;nbsp;&lt;A href="d8c9bfc8-92d1-4471-8909-e5f8ce602d6c"&gt;účtovnom&lt;/A&gt;/&lt;A href="5e82cca9-b8af-4a80-ba30-7ab91914a595"&gt;peňažnom denníku&lt;/A&gt;, a to&amp;nbsp;ani v&amp;nbsp;prípade, že ide o čiastočné zaúčtovanie týchto dokladov. 
+&lt;LI&gt;Aby bolo možné opraviť údaje v&amp;nbsp;takýchto dokladoch (faktúrach), je potrebné najskôr zrušiť ich&amp;nbsp;zaúčtovanie v&amp;nbsp;účtovnom/peňažnom denníku. Následne bude možné tieto doklady (faktúry) opraviť a&amp;nbsp;opätovne zaúčtovať. 
+&lt;LI&gt;Zrušiť zaúčtovanie dokladu (faktúry) v&amp;nbsp;účtovnom/peňažnom denníku je možné pomocou funkcie &lt;EM&gt;Zrušiť väzbu na knihu pohľadávok alebo záväzkov&lt;/EM&gt; (tlačidlo &lt;EM&gt;Možnosti&lt;/EM&gt; alebo kontextová ponuka po kliknutí pravým tlačidlom myši do poľa &lt;EM&gt;Interný doklad&lt;/EM&gt;), prípadne jednoduchým vymazaním príslušného zápisu z&amp;nbsp;denníka. 
+&lt;LI&gt;Zrušiť zaúčtovanie faktúry v účtovnom/peňažnom denníku je možné &lt;STRONG&gt;jednoduchým vymazaním príslušného záznamu z denníka&lt;/STRONG&gt;. Postupovať je však možné aj inak - &lt;STRONG&gt;len zrušením väzby na daný doklad&lt;/STRONG&gt; (funkcia &lt;EM&gt;Zrušiť väzbu na knihu pohľadávok alebo záväzkov&lt;/EM&gt; pod tlačidlom &lt;EM&gt;Možnosti&lt;/EM&gt; alebo v kontextovej ponuke po kliknutí pravým tlačidlom myši do poľa &lt;EM&gt;Interný doklad&lt;/EM&gt;). Ak sa suma faktúry po jej úprave nezmení, funkciou &lt;EM&gt;Opätovne vytvoriť väzbu na knihu pohľadávok/záväzkov&lt;/EM&gt; sa prepojenie s faktúrou obnoví. &lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="d2dd7aa6-5f76-4059-bf9c-2b5e496dcc9a" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="5c21adcc-87c8-44e7-981d-02902635693d">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="678250b4-0e7f-4809-869e-27e023c12370" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="55028746-c263-4d92-a615-502222e8d53b">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="be52b059-fe43-4d04-9704-3bbcebdb1f78" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="d8c9bfc8-92d1-4471-8909-e5f8ce602d6c">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="0d6e6f4b-260b-4033-a73e-0fb8f8ffc233" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="cc3dcaea-c62f-450b-9878-6298aa9b0f6e">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="c1748d8a-c0f2-4ac0-a836-756c67efc442" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="5e82cca9-b8af-4a80-ba30-7ab91914a595">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="eaa03fc8-896a-4918-8500-88c753d03e23" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="565cef7b-84c9-4402-966c-d3c94972cab4">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="bb909d23-b89f-4e23-ac0e-c5ff70ec519d">
+      <Keyword m="2021-09-08T13:10:26.9217122Z">Faktúra - oprava</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="138e9b34-cf71-43fd-b673-7e531a8478d9">
+      <Keyword m="2021-09-08T13:10:42.8512795Z">Zaúčtovaná faktúra - oprava</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="8373b1db-9fb3-4c15-840d-3d0cb9a6afd0">
+      <Keyword m="2021-09-08T13:11:10.3230228Z">Zrušenie zaúčtovania faktúry</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

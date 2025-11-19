@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="d348b00e-f048-47ec-a3d9-3f7cefcc177e" Status="Complete" CreatedOn="2019-06-19T06:31:00.6820318Z" ModifiedOn="2024-12-30T07:30:27.7509349Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Device_CashRegister_EURO_150" BuildFlags="">
+  <Title m="2020-01-07T09:11:30.8894033Z">Pokladnica Euro-150i/o</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-12-30T07:30:27.7509349Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;informácie o&amp;nbsp;registračnej pokladnici&amp;nbsp;&lt;/STRONG&gt;&lt;EM&gt;&lt;STRONG&gt;Euro-150i/o&lt;/STRONG&gt;&amp;nbsp;&lt;/EM&gt;vo funkcii&amp;nbsp;&lt;A href="2edf9500-71d3-4b5c-9d44-990261fb51bc"&gt;registračnej pokladnice nepripojenej počas predaja k počítaču&lt;/A&gt;, t. j. &lt;STRONG&gt;v režime off-line&lt;/STRONG&gt;. Pokladnica je podporovaná aj v&amp;nbsp;režime on-line ako fiškálna tlačiareň počas predaja prepojená s počítačom - viac informácií v téme&amp;nbsp;&lt;A href="3e3b84bf-fa0a-4acc-8c8d-80b2bd0ad2c6"&gt;Pokladnica Euro-150i/o v režime on-line&lt;/A&gt;.&amp;nbsp;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;Zariadenie je v&amp;nbsp;oboch režimoch podporované bez garancie ďalších úprav v&amp;nbsp;komunikačnom protokole na základe budúcich aktualizácií firmvéru.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Registračná pokladnica &lt;EM&gt;Euro-150i/o&lt;/EM&gt; (spolu so starším modelom &lt;EM&gt;Euro-150/o&lt;/EM&gt;) je plne kompatibilná so systémom eKasa a spĺňa všetky požiadavky zákona č. 289/2008 Z. z. o používaní elektronickej registračnej pokladnice v znení neskorších predpisov. 
+&lt;LI&gt;Pokladnica &lt;EM&gt;Euro-150i/o&amp;nbsp;&lt;/EM&gt;patrí medzi prenosné registračné pokladnice. Je určená pre malé a stredne veľké podniky, a to od menších predajní potravín, textilu, kioskov, stánkov cez rôzne prevádzky služieb až po pultové prevádzky, ako papiernictvá či drogérie. Pokladnica je pripojiteľná k počítaču a umožňuje pripojenie externých zariadení (&lt;A href="80a78093-fc45-4db9-b74b-e1f9829f7b3c"&gt;snímač čiarových kódov&lt;/A&gt;,&amp;nbsp;&lt;A href="98f367d6-b09e-4406-aad9-d4b2cfc4b504"&gt;elektronické váhy&lt;/A&gt;,&amp;nbsp;&lt;A href="5ad1a704-08fd-4f9c-8302-8f8759cef50a"&gt;platobný terminál&lt;/A&gt;,&amp;nbsp;&lt;A href="2081eb79-1408-4dd5-8dcc-8ebc8cd00407"&gt;zákaznícky displej&lt;/A&gt;). 
+&lt;LI&gt;Systém OBERON podporuje starší model pokladnice vo verzii: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;EM&gt;Euro-150/o Flexy STD&lt;/EM&gt; (2 000 PLU), spôsob pripojenia: USB, 
+&lt;LI&gt;&lt;EM&gt;Euro-150/o Flexy BAT&lt;/EM&gt; (2 000 PLU), spôsob pripojenia: USB, 
+&lt;LI&gt;&lt;EM&gt;Euro-150/o Flexy Plus&lt;/EM&gt; (10 000 PLU), spôsob pripojenia: USB. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Model &lt;EM&gt;Euro-150i/o&lt;/EM&gt;&amp;nbsp;je podporovaný vo verzii: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;EM&gt;Euro-150i/o Flexy BAT&lt;/EM&gt; (2 000 PLU), spôsob pripojenia: USB, 
+&lt;LI&gt;&lt;EM&gt;Euro-150i/o Flexy BAT Plus&lt;/EM&gt; (10 000 PLU), spôsob pripojenia: USB, LAN. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;&lt;EM&gt;Euro 150i/o&amp;nbsp;&lt;/EM&gt;je určená pre prevádzky, ktoré majú do&amp;nbsp;2 000 tovarových položiek (pri modeli&amp;nbsp;s označením&lt;EM&gt;&amp;nbsp;Plus&lt;/EM&gt; až do 10&amp;nbsp;000). 
+&lt;LI&gt;Výrobca pokladničného programu (PPEKK): &lt;A href="https://www.elcom.eu/" target=_blank&gt;ELCOM, spoločnosť s ručením obmedzeným, Prešov&lt;/A&gt;. 
+&lt;LI&gt;Výrobca chráneného dátového úložiska (CHDÚ): &lt;A href="https://www.elcom.eu/" target=_blank&gt;ELCOM, spoločnosť s ručením obmedzeným, Prešov&lt;/A&gt;. 
+&lt;LI&gt;Spôsob pripojenia (rozhranie): USB, LAN (&lt;EM&gt;Plus&lt;/EM&gt;). 
+&lt;LI&gt;Spôsob komunikácie: sériová komunikácia,&amp;nbsp;TCP/IP (&lt;EM&gt;Plus&lt;/EM&gt;). &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt; 
+&lt;P&gt;&lt;SPAN lang=en-us xml:lang="en-us"&gt;Zariadenie sa inštaluje&amp;nbsp;v&amp;nbsp;programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;, ponuka &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="749ff4f1-eeb5-43f5-98d2-021399d8cec7" style="auto-update-caption: true"&gt;Zariadenia&lt;/A&gt;, tlačidlo &lt;EM&gt;Pridať&lt;/EM&gt;.&amp;nbsp;Viac informácií k inštalácii zariadenia získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="8964d14a-2f9d-496f-ad29-094e64f805e6" style="auto-update-caption: true"&gt;Pokladnica Euro-150i/o - inštalácia&lt;/A&gt;.&lt;/SPAN&gt;&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H5&gt;Obrázok č. 1:&amp;nbsp;Pokladnica &lt;EM&gt;Euro-150i/o Flexy BAT Plus&lt;/EM&gt;&lt;/H5&gt;
+&lt;H5&gt;&lt;IMG style="MARGIN-LEFT: 10px" border=0 alt="" src="images/Devices/Device_Euro150.png"&gt;&lt;/H5&gt;
+&lt;H2&gt;Ďalšie informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;OBERON umožňuje pokladňu naplniť tovarovými položkami, upraviť názvy a ceny tovarových položiek, načítať informácie o predaji a evidovať úbytok na skladových kartách ako skladové pohyby. 
+&lt;LI&gt;Pri off-line režime sa po zaevidovaní pokladničného dokladu hneď neprejaví úbytok na skladových kartách. V tomto režime pokladňa nemusí byť počas predaja pripojená k&amp;nbsp;počítaču. Úbytok na skladových kartách sa prejaví až po pripojení pokladne k&amp;nbsp;počítaču a načítaní informácií o predaji. Viac informácií získate v téme&amp;nbsp;&lt;A href="2edf9500-71d3-4b5c-9d44-990261fb51bc"&gt;Použitie registračných pokladníc v režime off-line&lt;/A&gt;. 
+&lt;LI&gt;K&amp;nbsp;programu je možné pripojiť aj viac registračných pokladníc, ktoré môžu pracovať s jedným alebo viacerými skladmi. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Technická špecifikácia&lt;/H2&gt;
+&lt;P&gt;&lt;STRONG&gt;Pripojenie na internet:&lt;/STRONG&gt; WiFi&lt;BR&gt;&lt;STRONG&gt;Počet tovarových položiek:&lt;/STRONG&gt; 2000 (Flexy STD/BAT), 10000 (23000) (Plus)&lt;BR&gt;&lt;STRONG&gt;Počet tovarových skupín (DPT):&lt;/STRONG&gt; 20&lt;BR&gt;&lt;STRONG&gt;Počet pokladníkov:&lt;/STRONG&gt; 10&lt;BR&gt;&lt;STRONG&gt;Práva pokladníkov:&lt;/STRONG&gt; prístup do režimov X, Z, T, P a práva na operácie Storno, Vrátenie, Prirážka/Zľava&lt;BR&gt;&lt;STRONG&gt;Počet znakov v názve PLU:&lt;/STRONG&gt; - (Flexy STD), 42 (Flexy BAT/Plus)&lt;BR&gt;&lt;STRONG&gt;Horné textové logo:&lt;/STRONG&gt; 11 riadkov (z toho 2 riadky pre IČ a DKP)&lt;BR&gt;&lt;STRONG&gt;Dolné textové logo:&lt;/STRONG&gt; 9 riadkov&lt;BR&gt;&lt;STRONG&gt;Počet znakov v riadku loga:&lt;/STRONG&gt; 42&lt;BR&gt;&lt;STRONG&gt;Veľké a malé, zvýraznené, zvláštne znaky:&lt;/STRONG&gt; áno&lt;BR&gt;&lt;STRONG&gt;Jazyk programovania:&lt;/STRONG&gt; SK&lt;BR&gt;&lt;STRONG&gt;Jazyk na účtenkách:&lt;/STRONG&gt; SK&lt;BR&gt;&lt;STRONG&gt;Jazyk na uzávierkach:&lt;/STRONG&gt; SK&lt;BR&gt;&lt;STRONG&gt;Uzávierky:&lt;/STRONG&gt; denné, intervalové, PLU, DPT, pokladníkov, flash, zásuvky&lt;BR&gt;&lt;STRONG&gt;Tréningový režim:&lt;/STRONG&gt; áno&lt;BR&gt;&lt;STRONG&gt;Pamäťová karta:&lt;/STRONG&gt; nie&lt;BR&gt;&lt;STRONG&gt;Displej účtujúceho:&lt;/STRONG&gt; 2x 16 znakov, alfanumerický s podsvietením&lt;BR&gt;&lt;STRONG&gt;Displej zákazníka:&lt;/STRONG&gt; 10-miestny segmentový s podsvietením&lt;BR&gt;&lt;STRONG&gt;Základná klávesnica:&lt;/STRONG&gt; programovateľná, 39 klávesov&lt;BR&gt;&lt;STRONG&gt;Rozšírená klávesnica:&lt;/STRONG&gt; nie&lt;BR&gt;&lt;STRONG&gt;Rozmery (Š x V x H):&lt;/STRONG&gt; 340 x 120,5 x 253,5 mm&lt;BR&gt;&lt;STRONG&gt;Hmotnosť:&lt;/STRONG&gt; 1,66 kg&lt;BR&gt;&lt;STRONG&gt;Priemerná rýchlosť tlače:&lt;/STRONG&gt; 15 riadkov/s&lt;BR&gt;&lt;STRONG&gt;Šírka pásky:&lt;/STRONG&gt; 57 mm&lt;BR&gt;&lt;STRONG&gt;Spôsob výmeny pásky:&lt;/STRONG&gt; drop-in&lt;BR&gt;&lt;STRONG&gt;Maximálny návin pásky:&lt;/STRONG&gt; 55 mm&lt;BR&gt;&lt;STRONG&gt;Tlač EAN kódov:&lt;/STRONG&gt; nie&lt;BR&gt;&lt;STRONG&gt;Adaptér:&lt;/STRONG&gt; 100-240 V / 9 V DC, 3 A&lt;BR&gt;&lt;STRONG&gt;Akumulátor:&lt;/STRONG&gt; nie&lt;BR&gt;&lt;STRONG&gt;Spotreba energie:&lt;/STRONG&gt; max. 27 W&lt;BR&gt;&lt;STRONG&gt;Komunikačné rozhranie:&lt;/STRONG&gt; 1x USB, 1x RS-232 (2x voliteľné) (Flexy STD/BAT), 1x USB, 2x RS-232, 1x LAN (Flexy Plus)&lt;BR&gt;&lt;STRONG&gt;Konfigurácia LAN parametrov cez webové rozhranie:&lt;/STRONG&gt; nie (Flexy STD/BAT), áno (Flexy Plus)&lt;BR&gt;&lt;STRONG&gt;Komunikačné protokoly ATOS NVIS + Verifon (Tatra banka, ČSOB):&lt;/STRONG&gt; áno&lt;BR&gt;&lt;STRONG&gt;Typy externých displejov:&lt;/STRONG&gt; DTV displej 2x 20 VFD | Displej ED-2500&lt;BR&gt;&lt;STRONG&gt;Farba:&lt;/STRONG&gt; svetlá&lt;BR&gt;&lt;STRONG&gt;Obsah balenia:&lt;/STRONG&gt; hlavné zariadenie, záručný list, 1 ks termopásky, adaptér&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="0b30ebfe-48ac-4fea-9358-a4d8022a6119" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="2edf9500-71d3-4b5c-9d44-990261fb51bc">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="18a15ea6-fc10-49fb-b118-9da1184850d2" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="8964d14a-2f9d-496f-ad29-094e64f805e6">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="2eabef70-14ae-4fd9-8a3b-b772d8635589">
+      <Keyword m="2021-05-03T06:37:10.0894799Z">Euro-150/o Flexy STD v režime off-line</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="7910ec36-4ef2-4e21-866e-e96544f2298d">
+      <Keyword m="2021-05-03T06:37:06.089087Z">Euro-150/o Flexy Plus v režime off-line</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="62c59e89-a022-4bd1-96cd-696dcfccb97f">
+      <Keyword m="2021-05-03T06:36:58.0804084Z">Euro-150/o Flexy BAT v režime off-line</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="8b904a96-129b-4f26-be16-04a29fede75b">
+      <Keyword m="2021-05-03T06:37:17.4424013Z">Euro-150i/o Flexy BAT Plus v režime off-line</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="3294a166-9b4a-48a8-9adc-f31590e8084f">
+      <Keyword m="2021-05-03T06:37:12.9540453Z">Euro-150i/o Flexy BAT v režime off-line</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

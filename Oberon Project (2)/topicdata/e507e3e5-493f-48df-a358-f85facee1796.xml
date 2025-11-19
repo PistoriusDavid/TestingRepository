@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="e507e3e5-493f-48df-a358-f85facee1796" Status="Complete" CreatedOn="2015-09-02T11:54:28.4307891Z" ModifiedOn="2023-10-30T07:19:24.568786Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="90220" Name="Form_CRM_Organization" BuildFlags="">
+  <Title m="2023-05-22T10:55:20.5999509Z">Formulár Organizačný útvar</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-10-17T07:45:25.3316969Z">&lt;P&gt;Formulár&amp;nbsp;&lt;EM&gt;Organizačný útvar&lt;/EM&gt; umožňuje definovať, resp. upraviť už definovaný organizačný útvar účtovnej jednotky v&amp;nbsp;module &lt;A href="f1a6963d-36aa-4134-92a5-fa47a4345e74"&gt;CRM a registratúra&lt;/A&gt;.&amp;nbsp;Formulár je dostupný z&amp;nbsp;programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt; z&amp;nbsp;&lt;A href="2af84798-6d4b-40bc-8b7b-e537906a909c"&gt;formulára Záznam v registratúrnom (podacom) denníku&lt;/A&gt;, tlačidlo&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_ListButton.png"&gt;&amp;nbsp;pri rozbaľovacom zozname &lt;EM&gt;Organizačný útvar&lt;/EM&gt;. Otvorí sa číselník &lt;EM&gt;Organizačné útvary&lt;/EM&gt;, v&amp;nbsp;ktorom stlačte tlačidlo&amp;nbsp;&lt;EM&gt;Nový&lt;/EM&gt; alebo &lt;EM&gt;Oprava&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Popis formulára &lt;EM&gt;Záznam v registratúrnom (podacom) denníku&lt;/EM&gt;&lt;/H2&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Názov&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Zadáva sa&amp;nbsp;pomenovanie organizačného útvaru.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Kód&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Zadáva sa&amp;nbsp;kód organizačného útvaru. Systém OBERON umožňuje číslovanie záznamov&amp;nbsp;v&amp;nbsp;&lt;A href="0fe6411c-9069-4097-b90f-e69f01a61569"&gt;registratúrnom (podacom) denníku&lt;/A&gt;&amp;nbsp;podľa organizačného útvaru (nastavuje sa v&amp;nbsp;ponuke&amp;nbsp;&lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="2453b87d-ddca-4ac1-b4ba-b7199dce0c87"&gt;oddiel Firma, CRM a registratúra&lt;/A&gt;, záložka &lt;EM&gt;Registratúra&lt;/EM&gt;). Následne kód organizačného útvaru bude figurovať v&amp;nbsp;evidenčnom čísle záznamu, napr. 2023/xx0001, kde xx je kód organizačného útvaru.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Vymazanie záznamu zo zoznamu organizačných útvarov nijako neovplyvní zadané organizačné útvary v záznamoch&amp;nbsp;&lt;A href="0fe6411c-9069-4097-b90f-e69f01a61569"&gt;registratúrneho (podacieho) denníka&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="9f45d91c-3520-46ac-a542-74aa86526d3a" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="2af84798-6d4b-40bc-8b7b-e537906a909c">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="3804bb52-2e44-4193-9034-6392d24084cd" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="4b79a1e8-1752-4eda-95fc-5c72989d5e31">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="c8b212ba-4019-4217-8234-50969ba6c1d2" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="0fe6411c-9069-4097-b90f-e69f01a61569">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="b8e2d95f-a831-4eb6-bf54-6f5952e6984f">
+      <Keyword m="2023-05-22T11:05:18.9917867Z">Organizačné útvary - číselník</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="d260f372-78c8-48aa-8fba-9c69521af78b">
+      <Keyword m="2023-05-22T11:05:31.3558988Z">Organizačný útvar - formulár</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

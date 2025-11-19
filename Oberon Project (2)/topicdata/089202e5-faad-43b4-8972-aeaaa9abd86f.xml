@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="089202e5-faad-43b4-8972-aeaaa9abd86f" Status="Complete" CreatedOn="2022-04-06T10:09:12.7840714Z" ModifiedOn="2022-11-15T12:29:45.9602484Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="ExternalSystem_WebsupportCloud" BuildFlags="">
+  <Title m="2022-04-06T10:10:13.3082463Z">Websupport (cloud)</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2022-11-15T12:29:45.9602484Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; popisuje jeden zo&amp;nbsp;&lt;A href="9690f267-6ad7-4e22-9af2-675ef3d9d041"&gt;súvisiacich produktov&lt;/A&gt; systému OBERON -&amp;nbsp;&lt;STRONG&gt;cloudové riešenie&lt;/STRONG&gt; &lt;EM&gt;&lt;STRONG&gt;Websupport&lt;/STRONG&gt;&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&amp;nbsp;&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Spoločnosť &lt;A href="https://www.websupport.sk/" rel=noopener target=_blank&gt;Websupport s.r.o.&lt;/A&gt; je poprednou hostingovou spoločnosťou, u ktorej má mnoho používateľov systému OBERON umiestnené svoje webové stránky alebo internetové obchody. Spoločnosť však v rámci svojich služieb poskytuje aj &lt;STRONG&gt;možnosť uloženia údajovej základne (databázy) systému OBERON do databázy svojho webhostingu&lt;/STRONG&gt;. Keďže takto umiestnená databáza je prístupná prostredníctvom internetu, ide de facto &lt;STRONG&gt;o cloudové riešenie&lt;/STRONG&gt;. Pre používateľov OBERON-u môže byť zaujímavé &lt;STRONG&gt;najmä z&amp;nbsp;hľadiska ceny&lt;/STRONG&gt; - uloženie databázy je v cene webhostingu. 
+&lt;LI&gt;Pri uložení údajovej základne (databázy) do cloudového úložiska, používatelia systému OBERON môžu mať takto cez internet prístup k svojej databáze odkiaľkoľvek, kde je prístup na internet. Na prácu so systémom OBERON je potrebné mať ľubovoľný počítač s operačným systémom &lt;EM&gt;Windows&lt;/EM&gt; a pripojením na internet. Takto je možné k jednej databáze pripojiť počítače nachádzajúce sa v ľubovoľných lokalitách. Toto riešenie cloudového úložiska pre databázu je &lt;STRONG&gt;veľmi cenovo výhodné a je určené najmä pre tieto skupiny používateľov&lt;/STRONG&gt;: 
+&lt;UL&gt;
+&lt;LI&gt;živnostník a externý účtovník, 
+&lt;LI&gt;malá firma a externý účtovník, 
+&lt;LI&gt;firma bez stálej prevádzky, ktorá pracuje prevažne v teréne, 
+&lt;LI&gt;firma, ktorá pracuje najmä s prenosnými počítačmi, 
+&lt;LI&gt;malá firma ktorá využíva prácu z domu, 
+&lt;LI&gt;veľké množstvo databáz (stovky a viac). &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;V prípade, že hľadáte cloudové riešenie dostatočne dimenzované a výkonné aj pre väčšie firmy (50 a viac súčasne pripojených používateľov do jednej databázy) alebo pre databázy s agendami v počte desiatok až stoviek tisíc zápisov a veľkou komunikačnou záťažou, odporúčame sa oboznámiť so súvisiacim produktom cloudového úložiska &lt;A href="b2fd5a00-627a-4bb5-a28c-f6b923ddcdc6"&gt;OBERON Data Cloud&lt;/A&gt; od firmy &lt;EM&gt;ENGINE Slovakia&lt;/EM&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Ďalšie informácie získate na webovej stránke&amp;nbsp;&lt;A href="https://exalogic.sk/oberon/suvisiace-produkty/websupport/" target=_blank&gt;Websupport&lt;/A&gt;&amp;nbsp;a na&amp;nbsp;&lt;A href="https://www.websupport.sk/" target=_blank&gt;webovej stránke dodávateľa&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="0b82bdb5-510f-4e7a-a3fb-8d984461e94b" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="9690f267-6ad7-4e22-9af2-675ef3d9d041">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="cc48562c-eaf9-43b9-acea-05b2144d6922" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="b2fd5a00-627a-4bb5-a28c-f6b923ddcdc6">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="d22268d5-f108-4b4b-9587-7e447602b44e">
+      <Keyword m="2022-04-06T10:33:41.8264452Z">Cloud - Websupport</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

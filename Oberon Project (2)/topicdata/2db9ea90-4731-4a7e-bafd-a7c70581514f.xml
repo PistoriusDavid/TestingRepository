@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="2db9ea90-4731-4a7e-bafd-a7c70581514f" Status="Complete" CreatedOn="2014-09-05T15:00:03.879672Z" ModifiedOn="2023-12-20T09:09:27.1208495Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="22630" Name="Menu_Acc_ChartOfAccounts" BuildFlags="">
+  <Title m="2014-09-05T14:59:57.3993013Z">Účtovný rozvrh</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-07-31T11:21:14.1367772Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;je venovaná&amp;nbsp;položke&amp;nbsp;&lt;EM&gt;Účtovný&amp;nbsp;rozvrh&lt;/EM&gt;&amp;nbsp;v&amp;nbsp;ponuke&amp;nbsp;&lt;EM&gt;Účtovníctvo&lt;/EM&gt; programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;. Položka je dostupná len v prípade, že&amp;nbsp;&lt;A href="081aff87-08e6-4933-9843-d1b47dc745fb"&gt;účtovná jednotka používa&lt;/A&gt;, resp. daný&amp;nbsp;&lt;A href="6ffb02fa-4c5c-4d33-8a0c-6dba98b26a77"&gt;používateľ má povolené pracovať&lt;/A&gt; s&amp;nbsp;modulom&amp;nbsp;&lt;A href="49dd3167-870a-4fdf-b631-d4f692f1ed72"&gt;Podvojné účtovníctvo&lt;/A&gt;.&amp;nbsp;&lt;/P&gt;
+&lt;H2&gt;Základné informácie&amp;nbsp;&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Výberom položky sa otvorí &lt;EM&gt;Účtovný rozvrh&lt;/EM&gt;, najzákladnejší zoznam podvojného účtovníctva.&amp;nbsp;Predstavuje &lt;STRONG&gt;zoznam len&amp;nbsp;tých účtov, ktoré&amp;nbsp;účtovná jednotka&amp;nbsp;v&amp;nbsp;danom účtovnom období reálne používa&lt;/STRONG&gt;. Nie každá účtovná jednotka totiž potrebuje počas účtovného obdobia použiť všetky existujúce účty&amp;nbsp;&lt;A href="75cfef8e-40bd-4b5b-9af2-a221edf76de9"&gt;účtovnej osnovy&lt;/A&gt;. &amp;nbsp;&amp;nbsp;&amp;nbsp; 
+&lt;LI&gt;Systém OBERON&amp;nbsp;pracuje s&amp;nbsp;účtovným rozvrhom &lt;STRONG&gt;s&amp;nbsp;trojmiestnymi syntetickými účtami a trojmiestnymi analytickými účtami&lt;/STRONG&gt;. Tým umožňuje podrobné členenie účtovného rozvrhu podľa potrieb účtovnej jednotky. 
+&lt;LI&gt;Po&amp;nbsp;&lt;A href="19a10c98-2b1d-4fe1-8ab2-98921ab328be"&gt;inštalácii programu&lt;/A&gt; a&amp;nbsp;&lt;A href="9a485893-6dd2-44e8-9740-a4cd7083a932"&gt;vytvorení novej účtovnej jednotky (databázy)&lt;/A&gt;&amp;nbsp;je účtovný rozvrh naplnený predvolenými štandardnými účtami účtovnej osnovy,&amp;nbsp;ktoré je možné ďalej dopĺňať, resp.&amp;nbsp;upravovať&amp;nbsp;podľa&amp;nbsp;potrieb a&amp;nbsp;požiadaviek účtovnej jednotky (a&amp;nbsp;to aj neskôr, resp. priebežne podľa potreby). 
+&lt;LI&gt;V&amp;nbsp;OBERON-e sa účtovný rozvrh a predkontácie&amp;nbsp;evidujú &lt;STRONG&gt;pre každý účtovný rok samostatne&lt;/STRONG&gt; (zmeny v&amp;nbsp;účtovnom rozvrhu a&amp;nbsp;v&amp;nbsp;predkontáciách v aktuálnom účtovnom období neovplyvnia účtovný rozvrh a predkontácie v&amp;nbsp;inom účtovnom období).&amp;nbsp;Z tohto dôvodu je potrebné účtovný rozvrh a&amp;nbsp;predkontácie do nového účtovného obdobia &lt;STRONG&gt;zakaždým naimportovať&lt;/STRONG&gt; (v&amp;nbsp;ponuke &lt;I&gt;Účtovníctvo,&lt;/I&gt;&amp;nbsp;&lt;EM&gt;Účtovný rozvrh&lt;/EM&gt;, resp.&amp;nbsp; &lt;A href="da8a9192-a6cc-4470-b5d5-13d3ec435f97"&gt;Predkontácie&lt;/A&gt;, tlačidlo &lt;EM&gt;Možnosti -&lt;/EM&gt;&amp;nbsp;&lt;EM&gt;Import účtovného rozvrhu a predkontácií&lt;/EM&gt;). Dostupnými možnosťami sú&amp;nbsp;import predvolených hodnôt, ďalej import z&amp;nbsp;predchádzajúceho, resp. nasledujúceho účtovného obdobia a import z inej účtovnej jednotky (v&amp;nbsp;prípade spracovávania účtovníctva pre viacero firiem). 
+&lt;LI&gt;Importovať účtovný rozvrh a predkontácie &lt;STRONG&gt;sa odporúča len do účtovníctva, v ktorom nie je v&amp;nbsp;účtovnom denníku nič zaúčtované&lt;/STRONG&gt;. Pri importe dôjde k&amp;nbsp;prepísaniu aktuálneho účtovného rozvrhu a&amp;nbsp;predkontácií&amp;nbsp;(s&amp;nbsp;ktorými&amp;nbsp;sa doteraz pracovalo). &lt;STRONG&gt;Proces je nevratný,&amp;nbsp;t.&amp;nbsp;j.&amp;nbsp;pôvodné údaje sa nevratne vymažú a&amp;nbsp;nahradia importovanými.&lt;/STRONG&gt; 
+&lt;LI&gt;Podvojné účtovníctvo umožňuje pracovať &lt;STRONG&gt;so štandardnou účtovnou osnovou pre podnikateľské subjekty, pre mikro účtovné jednotky,&amp;nbsp;ako aj s účtovnou osnovou pre&amp;nbsp;neziskové organizácie&lt;/STRONG&gt;. Nastaviť, s&amp;nbsp;akou účtovnou osnovou má program pracovať, je možné v&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="932262cc-b80f-4ce6-aba6-6a7d4a18f5ec"&gt;oddiel Firma, Účtovníctvo&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt; záložka &lt;EM&gt;Základné&lt;/EM&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Pridať, resp. upraviť účet účtovnej osnovy do&amp;nbsp;účtovného rozvrhu účtovnej jednotky je možné&amp;nbsp;pomocou&amp;nbsp;&lt;A href="6909f742-ec64-499d-8ad9-5dd51100a35e"&gt;formulára Účet účtovnej osnovy.&lt;/A&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Ďalšie možnosti evidencie&lt;/H2&gt;
+&lt;P&gt;V účtovnom rozvrhu sú&amp;nbsp;pre prácu so&amp;nbsp;zápismi dostupné ďalšie možnosti&amp;nbsp;po stlačení tlačidla &lt;EM&gt;Možnosti&lt;/EM&gt;, prípadne v kontextovej ponuke tabuľky záznamov.&lt;/P&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Import účtovného rozvrhu a predkontácií&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Otvorí sa sprievodca, pomocou ktorého je možné do aktuálneho účtovného obdobia naimportovať účtovný rozvrh a predkontácie.&lt;/P&gt;
+&lt;P&gt;Spôsoby importu:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;z&amp;nbsp;predchádzajúceho účtovného obdobia, 
+&lt;LI&gt;predvolený účtovný rozvrh a predkontácie, 
+&lt;LI&gt;z&amp;nbsp;nasledujúceho účtovného obdobia, 
+&lt;LI&gt;z&amp;nbsp;inej účtovnej jednotky. &lt;/LI&gt;&lt;/UL&gt;
+&lt;P&gt;Pri importe dôjde k prepísaniu aktuálneho účtovného rozvrhu (s ktorým&amp;nbsp;sa doteraz pracovalo). &lt;STRONG&gt;Proces je nevratný,&amp;nbsp;t.&amp;nbsp;j.&amp;nbsp;pôvodné údaje sa nevratne vymažú a&amp;nbsp;nahradia importovanými.&lt;/STRONG&gt;&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Kontrola účtovného rozvrhu&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Funkcia skontroluje účty účtovného rozvrhu a nastavenia riadkov podľa nastaveného typu účtovnej osnovy. Pri zmene typu účtovnej osnovy program účtovný rozvrh&amp;nbsp;automaticky nezmení; je potrebné spustiť funkciu &lt;EM&gt;&lt;STRONG&gt;Kontrola účtovného rozvrhu&lt;/STRONG&gt;&lt;/EM&gt;, ktorá po skontrolovaní vykoná aj zmenu&amp;nbsp;účtovného rozvrhu podľa nastaveného typu účtovnej osnovy&lt;EM&gt;.&lt;/EM&gt; Typ účtovníctva sa nastavuje v&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="932262cc-b80f-4ce6-aba6-6a7d4a18f5ec"&gt;oddiel Firma, Účtovníctvo&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt; záložka &lt;EM&gt;Základné&lt;/EM&gt;.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="84dc4365-5454-4556-89e6-e8e45f2695f1" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="da8a9192-a6cc-4470-b5d5-13d3ec435f97">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="aeb923e5-15c9-417d-8c16-aeb75570b5ec" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="6909f742-ec64-499d-8ad9-5dd51100a35e">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="0461d3ec-1cef-4ef9-ae84-67b0aa8940ca">
+      <Keyword m="2021-07-12T07:26:54.844553Z">Kontrola účtovného rozvrhu</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="62bfd240-fa66-4464-bd2b-0bc6161e9b8b">
+      <Keyword m="2021-07-09T11:36:46.636649Z">Import účtovného rozvrhu a predkontácií</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="40db7f20-af40-4e24-b83f-239fb0403f5e">
+      <Keyword m="2023-12-20T09:09:24.941785Z">Účtovný rozvrh a predkontácie - import</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

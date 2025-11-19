@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="2d1b2b76-359e-449e-bd88-c5a9229a926d" Status="Complete" CreatedOn="2014-09-09T11:33:08.1823453Z" ModifiedOn="2023-10-17T11:56:11.1512079Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Invoices_Pledge_Invoice" BuildFlags="">
+  <Title m="2014-09-09T11:33:28.7415212Z">Zálohová faktúra</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-10-17T11:56:11.1512079Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;postup vystavenia&lt;/STRONG&gt; &lt;STRONG&gt;zálohovej faktúry&lt;/STRONG&gt;&amp;nbsp;tak v&amp;nbsp;&lt;A href="49dd3167-870a-4fdf-b631-d4f692f1ed72"&gt;podvojnom účtovníctve&lt;/A&gt;, ako aj v&amp;nbsp;&lt;A href="32be28cf-2368-4818-9d24-cfa9d59afb75"&gt;jednoduchom účtovníctve&lt;/A&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Pred prijatím platby (zálohy) za dodanie tovaru alebo služby&amp;nbsp;dodávateľ spravidla vystavuje&amp;nbsp;&lt;A href="2d1b2b76-359e-449e-bd88-c5a9229a926d"&gt;zálohovú faktúru&lt;/A&gt; (preddavková faktúra, predfaktúra, proforma faktúra), ktorá nie je daňovým ani účtovným&amp;nbsp;dokladom. 
+&lt;LI&gt;Po prijatí platby (zálohy) za dodanie tovaru alebo služby&amp;nbsp;má dodávateľ - platiteľ DPH povinnosť vystaviť v&amp;nbsp;závislosti od toho, kedy sa dodanie tovaru alebo služby zrealizuje,&amp;nbsp;&lt;STRONG&gt;buď faktúru k&amp;nbsp;prijatej platbe (zálohe), alebo konečnú (ostrú) vyúčtovaciu faktúru&lt;/STRONG&gt;. Viac informácií získate v&amp;nbsp;téme &lt;A href="c546faa8-9298-4064-95a0-cc26aee963e2"&gt;Zúčtovanie zálohovej faktúry&lt;/A&gt;. 
+&lt;LI&gt;Postup vystavenia zálohovej faktúry je totožný s postupom &lt;A href="ec4e9be4-140f-4ec9-aa04-544e9870bfe1"&gt;vystavenia faktúry&lt;/A&gt; v&amp;nbsp;&lt;A href="5c21adcc-87c8-44e7-981d-02902635693d"&gt;Knihe pohľadávok&lt;/A&gt;, resp. &lt;A href="b479a7dd-6c07-4548-862f-a38cbf1b872d"&gt;zaevidovania faktúry - záväzku&lt;/A&gt; v &lt;A href="55028746-c263-4d92-a615-502222e8d53b"&gt;Knihe záväzkov&lt;/A&gt;. Rozdiel je len v &lt;A href="614e08c0-a29e-4810-a741-174e81a8e259"&gt;type dokladu&lt;/A&gt;.&amp;nbsp;Na&amp;nbsp;vytvorenie zálohovej faktúry&amp;nbsp;v sprievodcovi &lt;EM&gt;Nový doklad&lt;/EM&gt; je v rozbaľovacom zozname&amp;nbsp;potrebné zvoliť&amp;nbsp;položku &lt;I&gt;Zálohová faktúra&lt;/I&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Postup vytvorenia zálohovej faktúry&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;V&amp;nbsp;ponuke &lt;I&gt;Fakturácia&lt;/I&gt; zvoľte položku&amp;nbsp;&lt;A href="5c21adcc-87c8-44e7-981d-02902635693d"&gt;Kniha pohľadávok&lt;/A&gt;. 
+&lt;LI&gt;V&amp;nbsp;otvorenej evidencii stlačte tlačidlo &lt;I&gt;Nový&lt;/I&gt;, zobrazí sa sprievodca &lt;I&gt;Nový doklad&lt;/I&gt;. Spôsob vytvorenia&amp;nbsp;vyberte &lt;I&gt;&lt;STRONG&gt;štandardné zadanie&lt;/STRONG&gt;&lt;/I&gt;.&amp;nbsp; 
+&lt;LI&gt;Ďalej v sprievodcovi zvoľte prevádzku (v prípade členenia na&amp;nbsp;&lt;A href="8df798f2-4fbf-4279-ad8c-493bdbe7f2e4"&gt;prevádzky&lt;/A&gt;) a&amp;nbsp;&lt;A href="614e08c0-a29e-4810-a741-174e81a8e259"&gt;typ dokladu&lt;/A&gt; &lt;EM&gt;&lt;STRONG&gt;Zálohová faktúra&lt;/STRONG&gt;.&lt;/EM&gt; 
+&lt;LI&gt;V ďalšom kroku vyberte, resp. zadajte &lt;A href="b7a48886-b367-4056-808a-59ba5f871f32"&gt;obchodného partnera&lt;/A&gt;. Stlačením tlačidla&amp;nbsp;&lt;I&gt;Dokončiť&lt;/I&gt; sa otvorí &lt;A href="68022ee5-d91a-4a1d-960b-c5de57414b6f"&gt;formulár Pohľadávka&lt;/A&gt;. 
+&lt;LI&gt;Po stlačení &lt;I&gt;OK&lt;/I&gt; sa otvorí&amp;nbsp;&lt;A href="68022ee5-d91a-4a1d-960b-c5de57414b6f"&gt;formulár Pohľadávka&lt;/A&gt;. 
+&lt;LI&gt;Vo formulári definujte&amp;nbsp;formu úhrady, dátum vystavenia, dodania, splatnosť atď. Do dokladu zapíšte &lt;STRONG&gt;len jednu neskladovú&amp;nbsp;položku&lt;/STRONG&gt;,&amp;nbsp;a to s názvom napr. &lt;EM&gt;Záloha&lt;/EM&gt; (sadzba DPH bude v tomto prípade nulová). 
+&lt;LI&gt;Zápis údajov potvrďte stlačením tlačidla &lt;STRONG&gt;&lt;EM&gt;O&lt;/EM&gt;&lt;EM&gt;K&lt;/EM&gt;&lt;/STRONG&gt;. Do knihy pohľadávok sa uloží nová zálohová faktúra. &lt;/LI&gt;&lt;/OL&gt;&lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Do zálohovej faktúry je možné zapísať len neskladové položky a skladové položky&amp;nbsp;&lt;A href="8deac9fe-9864-41e8-aaa3-02257c241d78"&gt;typu&lt;/A&gt; &lt;EM&gt;Služba&lt;/EM&gt; (nie skladové položky typu &lt;EM&gt;Jednoduchá karta&lt;/EM&gt;).&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Pri zápise položiek do zálohovej faktúry môžete zadať aj viac položiek, sadzba dane pri zálohovej faktúre je nulová, keďže zálohová faktúra nie je daňový doklad.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="0ede8748-954a-4e13-8998-32bbbb21c0c8" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="c546faa8-9298-4064-95a0-cc26aee963e2">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="6dafa6d5-661d-47cd-8e8b-237c99170099" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="67d541c3-f071-41bc-92bc-7b19bc1cf191">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="38fbdf74-013d-4d9a-9b31-1b6c8a5e552d">
+      <Keyword m="2023-04-14T11:18:23.5688927Z">Preddavková faktúra</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="f843249a-ddd9-4287-ab00-daa8b2ac1d83">
+      <Keyword m="2023-04-14T11:18:30.1125664Z">Predfaktúra</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="2f57d3b6-37ea-4b5b-b725-5b93049083ad">
+      <Keyword m="2023-04-14T11:22:52.0763282Z">Proforma faktúra</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

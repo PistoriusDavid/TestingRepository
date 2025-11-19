@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="1a33ab0b-2df7-4dc2-962b-8a3319c16831" Status="Complete" CreatedOn="2014-09-05T15:15:44.6354801Z" ModifiedOn="2025-05-07T10:47:43.4504685Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="50170" Name="Menu_Stock_StockCard" BuildFlags="">
+  <Title m="2014-10-15T11:38:45.2774335Z">Skladové karty</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2025-05-07T10:47:43.4504685Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;je venovaná&amp;nbsp;položke&amp;nbsp;&lt;EM&gt;Skladové karty&amp;nbsp;&lt;/EM&gt;v&amp;nbsp;ponuke&amp;nbsp;&lt;EM&gt;Sklad&lt;/EM&gt; programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Výberom položky sa otvorí evidencia skladových kariet, ktoré predstavujú základ skladovej evidencie. V&amp;nbsp;skladových kartách sa &lt;STRONG&gt;evidujú informácie o&amp;nbsp;tovare, vratných obaloch, službách,&amp;nbsp;sadách, výrobkoch&amp;nbsp;alebo receptúrach&lt;/STRONG&gt;. 
+&lt;LI&gt;Skladové karty sa zobrazujú podľa príslušnosti ku&amp;nbsp;&lt;A href="1e423d36-8e0a-4420-b2e9-05f12806ec3a"&gt;skladu&lt;/A&gt;.&amp;nbsp;V&amp;nbsp;prípade používania viacerých skladov&amp;nbsp;skladové karty&amp;nbsp;prislúchajúce k jednotlivým&amp;nbsp;skladom možno zobraziť ako podmnožiny&amp;nbsp;záznamov knihy&amp;nbsp;&lt;EM&gt;Skladové karty&lt;/EM&gt;.&amp;nbsp;Možno tak urobiť pomocou filtra &lt;EM&gt;Sklad&lt;/EM&gt; v&amp;nbsp;hornej časti evidencie.&amp;nbsp;Zoznam dostupných skladov (definujú sa v&amp;nbsp;ponuke &lt;EM&gt;Sklad&lt;/EM&gt;,&amp;nbsp;&lt;A href="1e423d36-8e0a-4420-b2e9-05f12806ec3a"&gt;Sklady&lt;/A&gt;)&amp;nbsp;je možné v prípade potreby obmedziť pomocou&amp;nbsp;&lt;A href="834e9546-a56b-476f-9028-ef4c24a82345"&gt;používateľských práv&lt;/A&gt;. 
+&lt;LI&gt;Skladová karta má&amp;nbsp;štyri povinné parametre: &lt;STRONG&gt;&lt;EM&gt;Číslo karty&lt;/EM&gt;, &lt;EM&gt;Názov&lt;/EM&gt;, &lt;EM&gt;Typ karty&lt;/EM&gt;, &lt;EM&gt;Merná jednotka&lt;/EM&gt;&lt;/STRONG&gt;. Ak sa&amp;nbsp;zhodujú parametre &lt;EM&gt;Číslo karty&lt;/EM&gt; a &lt;EM&gt;Názov&lt;/EM&gt; viacerých kariet umiestnených&amp;nbsp;vždy&amp;nbsp;v&amp;nbsp;inom sklade, tieto skladové karty sa považujú za zhodné&amp;nbsp;(kópie tej istej karty). 
+&lt;LI&gt;Jedným z&amp;nbsp;ďalších &amp;nbsp;kľúčových parametrov skladovej karty&amp;nbsp;je jej &lt;STRONG&gt;typ&lt;/STRONG&gt; (jednoduchá, služba, vratný obal, sada, výrobok atď.). Klasifikácia typov skladových kariet je dostupná v téme&amp;nbsp;&lt;A href="8deac9fe-9864-41e8-aaa3-02257c241d78" style="auto-update-caption: true"&gt;Typy skladových kariet&lt;/A&gt;. 
+&lt;LI&gt;Na lepšiu orientáciu v&amp;nbsp;sklade možno definovať&amp;nbsp;&lt;A href="f83017eb-1d46-42a5-991b-bdf5d628aa8d"&gt;skladové skupiny&lt;/A&gt;&amp;nbsp;a&amp;nbsp;následne&amp;nbsp;číslovať skladové karty podľa skladových skupín. Jednu skladovú kartu možno priradiť &lt;STRONG&gt;k&amp;nbsp;jednej skladovej skupine&lt;/STRONG&gt;. 
+&lt;LI&gt;Kvôli prehľadnosti je&amp;nbsp;možné skladové karty členiť do&amp;nbsp;&lt;A href="4dfc2d36-f1c8-4b60-81c4-62e8e5197b99"&gt;kategórií&lt;/A&gt;, ktoré sa zobrazujú formou stromovej štruktúry. Na rozdiel od skladovej skupiny, jedna skladová karta môže byť priradená &lt;STRONG&gt;k viacerým kategóriám&lt;/STRONG&gt;. 
+&lt;LI&gt;Kniha umožňuje evidovať&amp;nbsp;skladové položky pod &lt;STRONG&gt;výrobným alebo sériovým číslom.&lt;/STRONG&gt; 
+&lt;LI&gt;Ku skladovým kartám je možné evidovať &lt;STRONG&gt;parametre&amp;nbsp;&lt;/STRONG&gt;a &lt;STRONG&gt;varianty&lt;/STRONG&gt;. Pod pojmom &lt;A href="b0e0ad9c-d19d-4670-8485-ec384dbae1bd"&gt;variant skladovej karty&lt;/A&gt;&amp;nbsp;možno rozumieť &lt;STRONG&gt;určitú podskupinu skladovej karty (položky, produktu), ktorú špecifikujú jedinečné charakteristické vlastnosti&lt;/STRONG&gt; &lt;STRONG&gt;-&lt;/STRONG&gt; &lt;STRONG&gt;atribúty&lt;/STRONG&gt;, napr. farba, veľkosť, rozmer, ale aj&amp;nbsp;ich kombinácie&amp;nbsp;vďaka&amp;nbsp;&lt;A href="1c0f4281-386c-4f5a-910f-e8d01a1b28d9"&gt;automatickému generátoru variantov&lt;/A&gt;. Variant&amp;nbsp;nemá vplyv na predajnú cenu.&amp;nbsp;Na rozdiel od parametrov sa ku každému variantu&amp;nbsp;eviduje aj jeho&amp;nbsp;aktuálne (zostatkové) množstvo&amp;nbsp;na&amp;nbsp;sklade. 
+&lt;LI&gt;Ku každej skladovej karte možno evidovať &lt;STRONG&gt;obrázok alebo iný dokument&lt;/STRONG&gt;, ktorý je možné vkladať aj pomocou funkcie &lt;EM&gt;Drag&amp;amp;Drop&lt;/EM&gt;. 
+&lt;LI&gt;V prípade, že sa na skladovej karte bude&amp;nbsp;&lt;A href="00777364-8b56-4ec5-b5ce-b302f3f384a3"&gt;evidovať spotrebiteľské balenie liehu&lt;/A&gt;, je potrebné zadať údaje v&amp;nbsp;záložke &lt;EM&gt;Doplň. údaje&lt;/EM&gt;, sekcia &lt;EM&gt;&lt;STRONG&gt;Spotrebiteľské balenie liehu&lt;/STRONG&gt;.&lt;/EM&gt; 
+&lt;LI&gt;Skladové položky možno štandardne predávať na&amp;nbsp;&lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnici OBERON&lt;/A&gt;, prípadne vložiť do dokladu (výdajky, faktúry...). Ak chcete&amp;nbsp;skladovú položku&amp;nbsp;&lt;A href="69bbd499-45c0-4b0f-8f7a-c53fa5d70c1b"&gt;predávať na Pokladnici OBERON&lt;/A&gt;,&amp;nbsp; je potrebné v záložke &lt;I&gt;Reg. pokladnica&lt;/I&gt; začiarknuť pole &lt;I&gt;&lt;STRONG&gt;Umožniť pracovať s&amp;nbsp;položkou na pokladnici&lt;/STRONG&gt;&lt;/I&gt; (predávať je možné len také položky,&amp;nbsp;pri ktorých je tento príznak nastavený). 
+&lt;LI&gt;V prípade reštauračných prevádzok možnosť vytvárať &lt;STRONG&gt;kalkulácie jedál (receptúry)&lt;/STRONG&gt;. Skladové položky&amp;nbsp;&lt;A href="8deac9fe-9864-41e8-aaa3-02257c241d78"&gt;typu receptúra&lt;/A&gt; je možné&amp;nbsp;predávať na&amp;nbsp;&lt;A href="aec074f4-3e1c-4a1e-8a80-06fcecf51156"&gt;Pokladnica OBERON&lt;/A&gt;, prípadne priamo vložiť do výdajky, a tak znížiť stavy zásob (tzv. odťažovanie skladu). 
+&lt;LI&gt;Dvojklikom na pole &lt;EM&gt;Množstvo objednané&lt;/EM&gt; je možné &lt;STRONG&gt;zobraziť odberateľov&lt;/STRONG&gt;, ktorí si objednali danú skladovú položku. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Ďalšie informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Záznamy v knihe&amp;nbsp;možno&amp;nbsp;filtrovať alebo triediť. Nastaviť kritériá filtrovania alebo triedenia možno po stlačení tlačidla &lt;A href="124da68e-c3f0-43e4-9466-60b4916bfc41"&gt;Vlastnosti&lt;/A&gt;. 
+&lt;LI&gt;Niektoré záložky&amp;nbsp;&lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;formulára Skladová karta&lt;/A&gt; sa nemusia zobrazovať. Ich zobrazovanie je podmienené nastavením&amp;nbsp;&lt;STRONG&gt;&lt;EM&gt;Umožniť pracovať s...&lt;/EM&gt;&lt;/STRONG&gt; v&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="58eee6a7-b5aa-47a5-9d0e-6f9987c96a52"&gt;oddiel Firma, Sklad&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt; záložka &lt;EM&gt;Skladové karty&lt;/EM&gt;. 
+&lt;LI&gt;V tlačovom výstupe &lt;EM&gt;Cenník&lt;/EM&gt; sa zobrazujú skladové karty, ktoré majú v záložke &lt;EM&gt;Doplň. údaje&lt;/EM&gt; začiarknutú možnosť &lt;EM&gt;Uvádzať v tlačovom výstupe Cenník&lt;/EM&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Jednoznačný identifikátor skladovej karty&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;V systéme OBERON jednoznačným identifikátorom skladovej karty&amp;nbsp;&lt;STRONG&gt;sú súčasne&amp;nbsp;číslo skladovej karty a jej názov&lt;/STRONG&gt;.&amp;nbsp;V prípade, že účtovná jednotka pracuje s viac ako jedným skladom, nástrojom na udržanie jednoznačného identifikovania skladových kariet vo viacerých skladoch je nastavenie &lt;EM&gt;&lt;STRONG&gt;Jeden číselný rad pre všetky sklady&lt;/STRONG&gt;&lt;/EM&gt;&amp;nbsp;v&amp;nbsp;ponuke&amp;nbsp;&lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="58eee6a7-b5aa-47a5-9d0e-6f9987c96a52"&gt;oddiel Firma, Sklad&lt;/A&gt;, záložka&amp;nbsp;&lt;EM&gt;Skladové karty&lt;/EM&gt;. Viac informácií&amp;nbsp;získate v téme&amp;nbsp;&lt;A href="1e423d36-8e0a-4420-b2e9-05f12806ec3a"&gt;Sklady&lt;/A&gt;, časť&amp;nbsp;&lt;EM&gt;Číselný rad&lt;/EM&gt;.&amp;nbsp; &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Vytvoriť, resp. upraviť už vytvorenú&amp;nbsp;skladovú kartu&amp;nbsp;je možné&amp;nbsp;pomocou &lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;formulára Skladová karta&lt;/A&gt;. Postup vytvorenia&amp;nbsp;skladovej karty&amp;nbsp;je popísaný v téme&amp;nbsp;&lt;A href="277559d2-a8ba-4399-b39d-58b8b28b01ff"&gt;Založenie skladovej karty&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Cenotvorba&lt;/H2&gt;
+&lt;P&gt;V systéme OBERON je možné pracovať s&amp;nbsp;týmito&amp;nbsp;druhmi cenotvorby:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Základná cenotvorba&amp;nbsp;&lt;/STRONG&gt;-&amp;nbsp;pracuje so štyrmi predajnými cenami (&lt;EM&gt;Cena 1 - 4&lt;/EM&gt;), prípadne s&amp;nbsp;odporúčanou predajnou cenou s&amp;nbsp;DPH. Umožňuje stanoviť pevnú predajnú cenu alebo predajnú cenu jednoducho vypočítanú ako navýšenie z obstarávacej alebo poslednej nákupnej ceny (v percentách alebo v €), prípadne ako zľavu z&amp;nbsp;odporúčanej predajnej ceny.&amp;nbsp;Cenovú hladinu je možné priradiť danému odberateľovi v evidencii&amp;nbsp;&lt;A href="b7a48886-b367-4056-808a-59ba5f871f32"&gt;obchodných partnerov&lt;/A&gt; (prípadne zadať výšku zľavy v %). Pomocou typu výdajky (&lt;A href="a7e1c27b-e28f-4ae9-b643-16cc1b478212"&gt;druh pohybu&lt;/A&gt;)&amp;nbsp;je možné v prípade potreby vypočítať predajnú cenu pomocou percentuálneho navýšenia. 
+&lt;LI&gt;&lt;STRONG&gt;Rozšírená cenotvorba&amp;nbsp;&lt;/STRONG&gt;-&amp;nbsp;rozšírená cenotvorba je&amp;nbsp;rozšírením základnej cenotvorby. Umožňuje&amp;nbsp;podrobnejšie pracovať s predajnými cenami na skladových kartách. Obsahuje pokročilé operácie&amp;nbsp;na tvorbu predajných cien, pričom predajná cena môže byť vopred zadaná (napr. akciový leták) alebo sa automaticky vypočítava pomocou vopred definovaných pravidiel (formou zliav alebo navýšení). Rozšírenú cenotvorbu predstavuje &lt;A href="34f91c11-1a5d-4773-ac4e-48ad2fc859d3"&gt;zoznam pravidiel&lt;/A&gt;, pomocou ktorých sa určí aktuálna predajná cena. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Farebné odlíšenie záznamov&lt;/H2&gt;
+&lt;P&gt;Skladová karta môže byť zobrazená rôznou farbou v závislosti od stavu, v ktorom sa nachádza.&lt;/P&gt;
+&lt;TABLE id=table2 style="HEIGHT: 108px; WIDTH: 750px; BORDER-COLLAPSE: collapse" cellPadding=2 width=750 border=0&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TH width=200&gt;&lt;STRONG&gt;Farba skladovej karty&lt;/STRONG&gt;&lt;/TH&gt;
+&lt;TH&gt;&lt;STRONG&gt;Popis&lt;/STRONG&gt;&lt;/TH&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD class=CZ height=22 width=200&gt;čierna farba&lt;/TD&gt;
+&lt;TD class=CZ height=22 align=left&gt;normálna skladová karta&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD&gt;&lt;STRIKE&gt;prečiarknuté písmo&lt;/STRIKE&gt;&lt;/TD&gt;
+&lt;TD class=CZ align=left&gt;&lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;neaktívna skladová karta&lt;/A&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD class=CZ width=200&gt;&lt;FONT color=#33cc33&gt;&lt;FONT style="COLOR: rgb(165,165,165)" color=red&gt;svetlo sivá&amp;nbsp;farba&lt;/FONT&gt;&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD class=CZ align=left&gt;dočasne nedostupná skladová karta (klávesová skratka F6)&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD class=CZ style="COLOR: rgb(171,115,213)" width=200&gt;&lt;STRONG&gt;fialová farba&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD class=CZ align=left&gt;skladová karta, na ktorú sa uplatňuje pravidlo&amp;nbsp;&lt;A href="34f91c11-1a5d-4773-ac4e-48ad2fc859d3"&gt;rozšírenej cenotvorby&lt;/A&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;
+&lt;P&gt;&amp;nbsp;V zozname skladových kariet sú položky, pri ktorých zostatkové množstvo kleslo pod minimálne množstvo, zvýraznené -&amp;nbsp;&lt;STRONG&gt;množstvo sa zobrazuje tučným písmom&lt;/STRONG&gt;.&lt;/P&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt; 
+&lt;UL&gt;
+&lt;LI&gt;Skladovú kartu je možné kopírovať pomocou klávesových skratiek &lt;EM&gt;Ctrl+C&lt;/EM&gt; a &lt;EM&gt;Ctrl+V&lt;/EM&gt;. Kopírovať je možné výrobky a receptúry aj so zložením, varianty (kopírujú sa aj atribúty), technické parametre, pripojené dokumenty a obrázky. Kopírovať je možné aj do iného skladu, prípadne aj do inej databázy. Ak sa napr. skopíruje receptúra do iného skladu, skopírujú sa aj jej zložky, prípadne aj ďalšie vnorené receptúry. Pri kopírovaní sú údaje uložené v schránke (clipboard), čo umožňuje kopírovať údaje aj napr. cez vzdialenú plochu systému&amp;nbsp;&lt;EM&gt;Windows&lt;/EM&gt; (&lt;EM&gt;Remote Desktop&lt;/EM&gt;). 
+&lt;LI&gt;Kopírovanie skladovej karty obsahuje aj voľbu&amp;nbsp;&lt;EM&gt;Prilepiť špeciálne&lt;/EM&gt; (&lt;EM&gt;CTRL+ALT+V&lt;/EM&gt;) - umožňuje skopírovať skladovú kartu do viacerých skladov súčasne. &lt;/LI&gt;&lt;/UL&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Dostupné možnosti&lt;/H2&gt;Ďalšie možnosti práce so záznamami&amp;nbsp;sú dostupné&amp;nbsp;po stlačení tlačidla &lt;EM&gt;Možnosti&lt;/EM&gt;, prípadne v&amp;nbsp;kontextovej ponuke tabuľky záznamov. &lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Zobraziť skladové pohyby skladovej karty&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Zobrazia sa skladové pohyby&amp;nbsp;danej skladovej karty, t.&amp;nbsp;j. záznamy o&amp;nbsp;jej&amp;nbsp;príjme alebo výdaji. Ponuka skladové pohyby sa dá zobraziť aj dvojklikom na pole &lt;EM&gt;Množstvo&lt;/EM&gt;. Zoznam všetkých skladových pohybov je dostupný z ponuky &lt;EM&gt;Sklad&lt;/EM&gt;,&amp;nbsp;&lt;A href="fc7595a6-54ce-4aa9-acb4-93d7880e854e"&gt;Skladové pohyby&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Zobraziť predajné ceny rozšírenej cenotvorby&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Otvorí sa formulár &lt;EM&gt;Dostupné pravidlá rozšírenej cenotvorby&lt;/EM&gt; so&amp;nbsp;zoznamom všetkých&amp;nbsp;&lt;A href="34f91c11-1a5d-4773-ac4e-48ad2fc859d3"&gt;pravidiel rozšírenej cenotvorby&lt;/A&gt;, ktoré platia pre danú skladovú kartu (aj také, ktoré budú platiť v budúcnosti a v súčasnosti ešte&amp;nbsp;nie sú platné).&amp;nbsp;Jedna skladová karta môže figurovať vo viacerých pravidlách. Cena skladovej položky&amp;nbsp;môže byť zobrazená modrou alebo fialovou farbou, pričom fialovou farbou&amp;nbsp;je zobrazená cena položky v&amp;nbsp;&lt;A href="6b018069-d729-4bd0-8bf8-2162d116c247"&gt;pravidle&lt;/A&gt; so začiarknutou možnosťou &lt;EM&gt;Položku dokladu považovať za akciovú&lt;/EM&gt; (záložka &lt;EM&gt;Ostatné&lt;/EM&gt;), modrou farbou cena položky v&amp;nbsp;rámci štandardného pravidla rozšírenej cenotvorby. To, ktoré pravidlo sa použije, závisí od viacerých podmienok, napr. od priority pravidla (uplatní sa pravidlo s vyšším číslom priority), položky označené ako akciové majú prednosť pred štandardnými pravidlami (t.&amp;nbsp;j. pravidlá&amp;nbsp;s&amp;nbsp;cenami položiek fialovou farbou majú prednosť pred pravidlami s&amp;nbsp;cenami položiek modrou farbou). Pravidlá sa nastavujú&amp;nbsp;v&amp;nbsp;ponuke &lt;EM&gt;Sklad&lt;/EM&gt;,&amp;nbsp;&lt;A href="34f91c11-1a5d-4773-ac4e-48ad2fc859d3" style="auto-update-caption: true"&gt;Pravidlá rozšírenej cenotvorby&lt;/A&gt;. Ďalšie informácie o rozšírenej cenotvorbe získate v téme&amp;nbsp;&lt;A href="5ba18930-a06e-4228-a051-bb2c63ebe86d" style="auto-update-caption: true"&gt;Príklady rozšírenej cenotvorby&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Označiť položku za dočasne nedostupnú F6&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;V prípade vypredania niektorej položky, resp. jej nedostupnosti u dodávateľa&amp;nbsp;je možné v OBERON-e danú skladovú kartu označiť ako dočasne nedostupnú. Po označení sa bude cena danej položky v aplikácii&amp;nbsp;zobrazovať&amp;nbsp;&lt;SPAN style="COLOR: rgb(127,127,127)"&gt;&lt;STRONG&gt;sivou farbou&lt;/STRONG&gt;&lt;/SPAN&gt; a&amp;nbsp;položku nebude možné objednať. Nastavenie sa používa hlavne pri elektronickom jedálnom lístku, resp. objednávaní nápojov a jedál priamo hosťami pri stole (&lt;A href="fe4a9463-d066-4a56-8eee-a728ae1a7220"&gt;OBERON eMenu&lt;/A&gt;,&amp;nbsp;&lt;A href="942d48d5-b290-40f6-8ba3-45cf78f380f9"&gt;LUKUL - nielen mobilný čašník&lt;/A&gt;), aby hosť videl, ktorú položku nie je možné objednať. Príznak &lt;EM&gt;Dočasne nedostupné&lt;/EM&gt; je možné nastaviť aj u položiek, na ktorých zostatkové množstvo je nenulové &lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Prepočet obstarávacích cien a výnosov&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Opätovne prepočíta obstarávacie ceny na všetkých skladových kartách v&amp;nbsp;danom sklade a&amp;nbsp;výnosy v&amp;nbsp;skladových pohyboch.&amp;nbsp;Bližšie informácie nájdete v téme &lt;A href="dc54990f-39a8-4a17-b0bf-9b463e6c9303"&gt;Prepočet obstarávacích cien a&amp;nbsp;výnosov&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Hromadné zmeny&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Hromadné zmeny umožňujú hromadne zmeniť hodnotu vybraného poľa. Zmena sa vykoná len&amp;nbsp;v&amp;nbsp;záznamoch nachádzajúcich sa v&amp;nbsp;zozname (ak je použitý&amp;nbsp;&lt;A href="1ea156c6-edd0-46e0-ab65-7f41af30e672"&gt;filter&lt;/A&gt;,&amp;nbsp;zmeny sa vykonajú len na vyfiltrovaných kartách).&amp;nbsp;&lt;STRONG&gt;Hromadné zmeny sú nevratný proces, preto pred&amp;nbsp;ich spustením odporúčame vykonať&amp;nbsp;&lt;A href="493f5942-f267-4f98-a46d-8acc745b9b88"&gt;zálohovanie údajov&lt;/A&gt;&lt;/STRONG&gt;. Hromadné zmeny možno vykonať dvojakým spôsobom: 
+&lt;UL&gt;
+&lt;LI&gt;hromadne zmeniť - vybrané pole sa zmení na určenú hodnotu, 
+&lt;LI&gt;nájsť a nahradiť - program nájde vybrané pole a nahradí ho určenou hodnotou. &amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/LI&gt;&lt;/UL&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Hromadné zmeny kategórií&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Funkcia umožňuje hromadne zmeniť kategórie skladových kariet. Kategórie budú zmenené len skladovým kartám, ktoré sú aktuálne načítané v evidencii. Výber je možné zúžiť vybratím možnosti zmeny len&amp;nbsp;&lt;A href="54bcf6c3-515f-4dcb-a3eb-0bf905629a16"&gt;označených skladových kariet&lt;/A&gt;.&amp;nbsp;Funkcia umožňuje hromadne zadať nové kategórie, pridať kategóriu k existujúcim, odstrániť alebo nahradiť existujúcu kategóriu alebo nastaviť hlavnú kategóriu.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Hromadná zmena sadzieb DPH&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Funkcia umožňuje hromadne zmeniť sadzbu DPH z konkrétnej pôvodnej hodnoty na novú, pričom umožňuje zachovať predajné ceny s DPH alebo bez DPH (ak chcete zachovať pôvodnú predajnú cenu na skladovej karte, zvoľte možnosť &lt;EM&gt;Zachovať predajné ceny s DPH&lt;/EM&gt;). Aplikuje sa buď na položky zobrazené v knihe &lt;I&gt;Skladové karty&lt;/I&gt; (rešpektuje filter)&amp;nbsp;v&amp;nbsp;aktuálne zvolenom sklade, alebo hromadne na všetky skladové karty vo všetkých skladoch (možné zvoliť v sprievodcovi). Pomocou sprievodcu možno sadzby DPH a predajné ceny upraviť aj v&amp;nbsp;&lt;A href="34f91c11-1a5d-4773-ac4e-48ad2fc859d3"&gt;pravidlách rozšírenej cenotvorby&lt;/A&gt; - viac informácií v&amp;nbsp;téme&amp;nbsp;&lt;A href="194e0195-69ae-453f-b550-6b65617e63f1" style="auto-update-caption: true"&gt;Zmena sadzby DPH &lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Hromadné precenenie&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Umožňuje&amp;nbsp;zmeniť predajné ceny na skladových kartách v danom sklade. Funkcia obsahuje sprievodcu, ktorý&amp;nbsp;používateľa podrobne oboznámi s&amp;nbsp;príslušnými možnosťami a nastaveniami. Zmeny sa aplikujú&amp;nbsp;na položky zobrazené v knihe &lt;EM&gt;Skladové karty&lt;/EM&gt; (ak je použitý&amp;nbsp;&lt;A href="1ea156c6-edd0-46e0-ab65-7f41af30e672"&gt;filter&lt;/A&gt;,&amp;nbsp;zmeny sa vykonajú len na vyfiltrovaných kartách).&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Hromadné zmeny dodávateľov&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Funkcia umožňuje&amp;nbsp;hromadne pridať alebo upraviť dodávateľov na vybraných skladových kartách. Otvorí sa sprievodca, pomocou ktorého vyberte spôsob vykonania hromadnej zmeny:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Pridať k existujúcim dodávateľom&lt;/STRONG&gt;, 
+&lt;LI&gt;&lt;STRONG&gt;Zameniť dodávateľa&lt;/STRONG&gt;, 
+&lt;LI&gt;&lt;STRONG&gt;Nahradiť existujúcich dodávateľov&lt;/STRONG&gt;, 
+&lt;LI&gt;&lt;STRONG&gt;Vymazať existujúcich dodávateľov&lt;/STRONG&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Hromadne zameniť zložku výrobkov alebo receptúr&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Funkcia umožňuje&amp;nbsp;v&amp;nbsp;zložení výrobkov alebo receptúr hromadne zameniť jednu zložku za inú, napr. &lt;EM&gt;Syr tvrdý&lt;/EM&gt; hromadne zameniť za &lt;EM&gt;Syr Parmezán&lt;/EM&gt;. Otvorí sa sprievodca, pomocou ktorého vyberiete zložku, ktorú chcete zameniť, a novú zložku. Nová zložka musí mať vytvorenú skladovú kartu.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Prepočet predajných cien&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Otvorí sa sprievodca, pomocou ktorého je možné prepočítať&amp;nbsp;predajné ceny. Prepočet sa aplikuje len na skladové karty s tvorbou predajných cien pomocou navýšenia: v&amp;nbsp;prípade, že je predajná cena závislá&amp;nbsp;od obstarávacej (navýšenie v percentách alebo v&amp;nbsp;€) a&amp;nbsp;táto sa zmení, funkcia aktualizuje predajné ceny.&amp;nbsp;Prepočet sa aplikuje na položky v&amp;nbsp;knihe &lt;I&gt;Skladové karty&lt;/I&gt; (rešpektuje filter).&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Internetový obchod - manuálne spustenie úlohy&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;V prípade&amp;nbsp;&lt;A href="4bc0fb91-8926-432e-879e-5e0150ed62d3"&gt;on-line internetového obchodu (s&amp;nbsp;priamym prístupom)&lt;/A&gt; je možné zaslať požiadavku na spustenie úlohy manuálne. Požiadavka sa zašle do programu &lt;A href="24e780fd-36d3-4a6e-bfc0-a8665c75e4ee"&gt;OBERON Center&lt;/A&gt;, ktorý následne zvolenú úlohu (export skladových položiek)&amp;nbsp;asynchrónne vykoná.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;XML komunikácia - export údajov&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Otvorí sa sprievodca, ktorý umožňuje exportovať údaje z&amp;nbsp;tejto evidencie do súboru typu XML. Viac informácií získate v téme&amp;nbsp;&lt;A href="56f661c6-24da-46aa-b157-5d988cbe792b" style="auto-update-caption: true"&gt;Všeobecne o XML komunikácii&lt;/A&gt;.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;XML komunikácia - hromadný import záznamov&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Otvorí sa sprievodca, ktorý umožňuje&amp;nbsp;importovať údaje&amp;nbsp;zo súboru typu&amp;nbsp;XML do tejto evidencie. Viac informácií získate v téme&amp;nbsp;&lt;A href="56f661c6-24da-46aa-b157-5d988cbe792b" style="auto-update-caption: true"&gt;Všeobecne o XML komunikácii&lt;/A&gt;.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Import skladových kariet&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Funkcia umožňuje importovať do skladu nové skladové položky z iného skladu tej istej firmy, z inej firmy, prípadne&amp;nbsp;zo súboru typu XLSX (aj v&amp;nbsp;cudzom jazyku) alebo XML. Importovaním sa rozumie vytvorenie nových skladových kariet, pričom je možné naimportovať aj počiatočné stavy na kartách - program automaticky vytvorí príjemku typu počiatočný stav. Bližšie informácie nájdete v téme &lt;A href="6e8e65c8-c776-4e45-bf3b-65fca66a1eff"&gt;Import skladových kariet&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Import (len aktualizácia) predajných cien&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Funkcia umožňuje aktualizovať predajné ceny na skladových kartách aktuálne zvoleného skladu. Ceny je možné importovať z iného skladu tej istej firmy, z inej firmy, alebo zo súboru typu XLSX (aj v&amp;nbsp;cudzom jazyku). Importovaním sa rozumie nahradenie (aktualizovanie) existujúcich predajných cien vo zvolených cenových hladinách novými predajnými cenami, pričom ostatné parametre ostanú zachované. Bližšie informácie nájdete v&amp;nbsp;téme &lt;A href="9f876a39-4860-4c68-867c-a911d0aa6c46"&gt;Import predajných cien&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Import (len aktualizácia) údajov na skladovej karte zo súboru typu XLSX&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Pomocou tohto sprievodcu je možné&amp;nbsp; aktualizovať údaje na skladových kartách pomocou importu zo súboru typu XLSX (a&amp;nbsp;to aj v&amp;nbsp;cudzom jazyku).&amp;nbsp;Import (aktualizovanie) údajov sa najčastejšie využíva na hromadnú aktualizáciu vybraných údajov skladovej karty z centrály alebo inej pobočky danej firmy a pod. Rozsah importovaných údajov určuje importovaný súbor.&lt;/P&gt;
+&lt;P&gt;Import je možné vykonať len pomocou vzorového súboru XLSX, ktorý je možné získať pomocou&amp;nbsp;&lt;A href="a1ae5eb5-f369-4aab-80b2-c6585166d550"&gt;Správcu doplnkov&lt;/A&gt;. Bližšie informácie nájdete v&amp;nbsp;téme &lt;A href="1c4fe40d-4be6-4e94-9ccc-39727c9a6a0c"&gt;Import údajov zo súboru typu XLSX&lt;/A&gt;.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Automatické vytvorenie kategórií skladových kariet&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Funkcia umožní automaticky vytvoriť stromovú štruktúru&amp;nbsp;&lt;A href="4dfc2d36-f1c8-4b60-81c4-62e8e5197b99"&gt;kategórií skladových kariet&lt;/A&gt;&amp;nbsp;v&amp;nbsp;danom sklade podľa údajov na skladových kartách. Je možné zvoliť nasledujúce spôsoby vygenerovania kategórií:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Len vygenerovať kategórie (stromovú štruktúru)&lt;/STRONG&gt; - napr. po importe skladových kariet z inej databázy, keď importované údaje obsahujú aj údaje o&amp;nbsp;kategóriách&amp;nbsp;skladových kariet. 
+&lt;LI&gt;&lt;STRONG&gt;Vytvoriť kategórie podľa polí skladovej karty&lt;/STRONG&gt; - vygeneruje stromovú štruktúru podľa zvolených kritérií (skladová skupina, skupina v pokladnici,&amp;nbsp;umiestnenie, doplňujúci text atď.). &lt;/LI&gt;&lt;/UL&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Vytvorenie&amp;nbsp;skladových kariet z&amp;nbsp;pokladnice&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Funkcia umožňuje importovať do skladu nové skladové položky vytvorené z&amp;nbsp;tovarových položiek PLU naprogramovaných v&amp;nbsp;&lt;A href="2edf9500-71d3-4b5c-9d44-990261fb51bc"&gt;registračnej pokladnici používanej v režime off-line&lt;/A&gt;. Importovaním sa rozumie vytvorenie nových skladových kariet, pričom po naimportovaní je zostatok na týchto kartách vždy nulový a nie sú na nich vytvorené žiadne pohyby. Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="60b46e26-4dbe-43d9-a2e9-182be2dfafa8" style="auto-update-caption: true"&gt;Vytvorenie skladových kariet z pokladnice&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Ak opravujete skladovú kartu, môžete opraviť aj pomenovanie (názov skladovej karty). Po uložení zmien program vykoná aktualizáciu názvu prípadne iného parametra vo všetkých súvisiacich pohyboch k&amp;nbsp;tejto skladovej karte. &lt;STRONG&gt;Ak chcete zmeniť pomenovanie skladovej karty, ku ktorej sú už vytvorené pohyby, mali by ste nanajvýš upresniť názov skladovej karty, ale nie ju premenovať na niečo úplne iné&lt;/STRONG&gt;. Napr. &lt;I&gt;Cukor&lt;/I&gt; môžete zmeniť na &lt;I&gt;Cukor kryštálový,&lt;/I&gt; ale nie&amp;nbsp;napr. na &lt;I&gt;Pivo.&lt;/I&gt; Ak budete porušovať túto konvenciu, tak váš sklad už nebude skladom. &lt;STRONG style="COLOR: rgb(255,0,0)"&gt;Nesmiete&lt;/STRONG&gt; v&amp;nbsp;jednom účtovnom roku použiť to isté číslo skladovej karty&amp;nbsp;pre dva rôzne tovary.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="bebb330a-9fb1-4b7f-8bca-3706869804ba" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1e423d36-8e0a-4420-b2e9-05f12806ec3a">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="12dd5f0f-3a6f-4239-86fd-a1454c66da14" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="c233ada3-0fed-4911-97f3-0680973ebac1">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="64d386a7-dadf-4fe7-94e2-ccd43a250cc3" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="8deac9fe-9864-41e8-aaa3-02257c241d78">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="707dc146-bc07-4829-8a31-d7940b553c06" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="277559d2-a8ba-4399-b39d-58b8b28b01ff">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="1571708e-1b9d-44ab-af4a-59bc06756368" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="8da72a39-51ce-4e9b-8110-96aabb01509b">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="df0d987c-7fb6-4970-93be-1e4a5b3c2818" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="2a34c11f-bee8-4fdd-bf7f-70ee7b49bc79">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="c76ed953-355f-4709-b0c1-0e5505969d0f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="2d9e274d-bfb7-43bc-9e70-b091ed82b9b2">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="64f3533b-d57f-4c5d-a410-3afddc73fcc8" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="6f1a89e8-2f56-4543-a452-409834433d36">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="cf704376-db0f-4a41-8f86-ac7415b6d032" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="fc7595a6-54ce-4aa9-acb4-93d7880e854e">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="081f520c-3c5b-4c3b-93a3-6d0bb3a24135" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="34f91c11-1a5d-4773-ac4e-48ad2fc859d3">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="edaa0a25-44fc-4f45-8900-15785d5d858f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="00777364-8b56-4ec5-b5ce-b302f3f384a3">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="baab13ab-9692-44fe-9d42-3482dd810702" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="7417bb5c-568f-4291-bbb9-0e5872ad6299">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="35ef2078-01e8-439b-a508-601a2b41bc08" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="86ce651c-2637-4165-93b4-36535a700fbf">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="04660202-2b5e-4b44-8b02-cf1dfaade5db" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="b0e0ad9c-d19d-4670-8485-ec384dbae1bd">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="eb960450-09db-49d7-a989-ab2199cea097" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="489dd25b-dd6a-416d-be26-ce647566b429">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="f3f097a1-838c-4670-8314-4f8b235a53a9" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="6e8e65c8-c776-4e45-bf3b-65fca66a1eff">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="3708e9dd-d5bf-47fb-860f-64d468873122" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="9f876a39-4860-4c68-867c-a911d0aa6c46">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="a6c92ed8-aba4-472d-aa5f-00cad94ec64f">
+      <Keyword m="2022-07-12T09:17:06.8900259Z">Typ skladovej karty - skladové karty</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="fd51aeae-ba97-4d4a-9da8-6d108cb0265f">
+      <Keyword m="2021-10-28T07:06:51.7160079Z">Hromadná zmena sadzieb DPH - skladové karty</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="862af57c-4b84-4db2-b674-9e3444cc6994">
+      <Keyword m="2022-07-12T09:17:21.4356409Z">Receptúra - skladové karty</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="b50b5f24-2b33-4d99-9ef0-4c3fa1212507">
+      <Keyword m="2022-07-12T09:17:16.7460844Z">Výrobok - skladové karty</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="52d367dd-610f-4d52-84b2-3dfe2508b7d7">
+      <Keyword m="2019-04-04T07:14:13.0713498Z">Dodávateľ na skladovej karte - hromadná zmena</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="085865c0-624f-4541-aa95-34e4a0d9b57f">
+      <Keyword m="2022-07-12T09:20:11.2176632Z">Jednoduchá karta - skladové karty</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="03fbd304-6b06-4cc7-86eb-936ce7b9720b">
+      <Keyword m="2022-12-19T09:30:09.2978683Z">Cenotvorba - skladové karty</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="56743fa9-82b0-4a34-9858-a743165f1251">
+      <Keyword m="2021-10-28T07:04:25.7354434Z">Farebné odlíšenie záznamov - skladové karty</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="25b2786b-7349-437e-9f74-ef58fb571146">
+      <Keyword m="2021-10-28T07:04:31.0641368Z">Farba - skladové karty</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="f684711b-2bc5-4ddb-922b-264d686746f4">
+      <Keyword m="2021-10-28T07:05:46.8269728Z">F6 - označiť položku za dočasne nedostupnú</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="af956236-8418-4756-9ad9-781aaeb52b30">
+      <Keyword m="2022-07-12T09:18:16.1380119Z">Dočasne nedostupná položka - F6 - skladové karty</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="1fee27d1-9b41-42ae-aa04-ae0d1de4a6ca">
+      <Keyword m="2021-10-28T07:07:18.6145882Z">Zámena zložky receptúr/výrobkov</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="97127332-038b-4286-8fa9-2a96a4925628">
+      <Keyword m="2021-10-28T07:07:49.0026614Z">Manuálne spustenie úlohy - internetový obchod</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="178c616c-7d84-4e4c-8d1c-3b4b153c5361">
+      <Keyword m="2021-10-28T07:07:57.739861Z">Internetový obchod - manuálne spustenie úlohy</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="ccc114db-8801-470d-a2e5-353c02e71b16">
+      <Keyword m="2021-10-28T07:08:26.3119604Z">Import - skladové karty, predajné ceny</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="7a798142-03c5-425d-aebd-75671494f830">
+      <Keyword m="2021-10-28T07:08:51.3957329Z">Import skladových kariet - PLU</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="3651f02c-1efc-4c54-bb47-ca4c84b980fc">
+      <Keyword m="2022-07-12T09:19:38.9258561Z">Základná cenotvorba - skladové karty</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="c2271c46-143c-4a53-9fbd-0a6aaf5c5881">
+      <Keyword m="2022-07-12T09:19:45.8538205Z">Rozšírená cenotvorba - skladové karty</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="da56d275-021f-424d-a3f4-7996584d42fe">
+      <Keyword m="2021-10-28T07:13:01.3252426Z">Skladová karta</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="09745bec-13d7-458b-a3a0-a3808a9ed003">
+      <Keyword m="2022-07-12T09:17:26.0039309Z">SBL - skladové karty</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="194ec462-fe61-4eb1-8bf0-a9d40bc81ad4">
+      <Keyword m="2022-07-12T09:16:54.0391012Z">Spotrebiteľské balenie liehu - skladové karty</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="28ce43f8-381b-42dd-8175-2f60bdaebe6e">
+      <Keyword m="2021-11-15T09:18:33.2593478Z">Cenník - skladové karty</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="7d347ea6-0533-43b8-9f7e-5821ca2e76e4">
+      <Keyword m="2022-07-12T09:17:33.4133555Z">Vratný obal - skladové karty</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="e0e93e90-aba0-4408-aafe-8e642eece63e">
+      <Keyword m="2022-07-12T09:17:36.9417165Z">Sada - skladové karty</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="28cab529-8f4c-4e80-a14e-97ec380407b5">
+      <Keyword m="2022-07-12T09:19:21.4508423Z">Služba - skladové karty</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="8e88ad54-f12d-4b45-8e1e-f919fa8cbbf9">
+      <Keyword m="2022-07-12T09:21:28.9235047Z">Kopírovanie - skladové karty</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="0504fb8e-59b9-4bb1-ba7f-6983a50f4bd9">
+      <Keyword m="2022-07-12T09:22:01.3522375Z">Prepočet predajných cien - skladové karty</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="7a45da52-5fa3-4c2a-90f3-cd4c44c38505">
+      <Keyword m="2022-07-12T09:22:58.7923281Z">Automatické vytvorenie kategórií skladových kariet</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="974d8cd6-56a5-4724-a655-fdbad5b74d0d">
+      <Keyword m="2022-07-12T09:23:20.7862947Z">Kategórie skladových kariet - automatické vytvorenie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="c10af411-ec41-4050-9e4b-433e001dc43d">
+      <Keyword m="2022-07-12T09:23:34.3490247Z">Vytvorenie skladových kariet z pokladnice</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

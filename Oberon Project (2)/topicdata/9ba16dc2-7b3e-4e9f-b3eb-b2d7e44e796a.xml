@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="9ba16dc2-7b3e-4e9f-b3eb-b2d7e44e796a" Status="Complete" CreatedOn="2014-09-08T10:55:43.729294Z" ModifiedOn="2024-02-29T13:15:58.8563283Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="22321" Name="Menu_Firm_Documents_Images" BuildFlags="">
+  <Title m="2014-12-30T12:49:22.8707238Z">Knižnica dokumentov a obrázkov</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-11-30T11:40:27.1538118Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;je venovaná&amp;nbsp;položke&amp;nbsp;&lt;EM&gt;Knižnica dokumentov&amp;nbsp;a&amp;nbsp;obrázkov&lt;/EM&gt;&amp;nbsp;v ponuke&amp;nbsp;&lt;EM&gt;Firma&lt;/EM&gt; programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Výberom položky sa otvorí&amp;nbsp;kniha&amp;nbsp;&lt;EM&gt;Knižnica dokumentov&amp;nbsp;a obrázkov&lt;/EM&gt;, ktorá je určená &lt;STRONG&gt;na evidenciu&amp;nbsp;obrázkov alebo ľubovoľných iných dokumentov&lt;/STRONG&gt;. Evidencia sa používa napr. pri&amp;nbsp;&lt;A href="1a33ab0b-2df7-4dc2-962b-8a3319c16831"&gt;skladových kartách&lt;/A&gt;, kde je možné ku skladovej karte priradiť obrázok, certifikát a pod. V tomto prípade používateľ nepracuje s touto evidenciou priamo, ale pracuje s&amp;nbsp;ňou &lt;STRONG&gt;nepriamo&lt;/STRONG&gt;&amp;nbsp;- na&amp;nbsp;skladovej karte. 
+&lt;LI&gt;Jednotlivé dokumenty a obrázky môžu byť zatriedené do &lt;STRONG&gt;kategórií&lt;/STRONG&gt;, ktoré je možné ľubovoľne definovať. Kategórie umožňujú členiť dokumenty a obrázky podľa potrieb firmy, napr. &lt;EM&gt;Zmluvy, Certifikáty, Fotografie, Návody&lt;/EM&gt; atď. Jeden dokument alebo obrázok môže byť zaradený len do jednej kategórie. 
+&lt;LI&gt;Systém OBERON umožňuje k&amp;nbsp;dokladom (napr. faktúra, objednávka,&amp;nbsp;výdajka a pod.), resp. záznamom z&amp;nbsp;ďalších&amp;nbsp;evidencií (&lt;A href="33c01089-c83f-47e5-a262-79c14d9ff698" style="auto-update-caption: true"&gt;Evidencia zápočtov faktúr&lt;/A&gt;,&amp;nbsp;&lt;A href="945b74ea-31f8-44e7-baef-ffb5fc136b05" style="auto-update-caption: true"&gt;Evidencia reklamácií a servisu&lt;/A&gt;...)&amp;nbsp;evidovať aj &lt;EM&gt;&lt;STRONG&gt;Prílohy&lt;/STRONG&gt;&lt;/EM&gt;, napr. oskenovanú faktúru. Takéto prílohy sa síce systémovo tiež ukladajú&amp;nbsp;do &lt;EM&gt;Knižnice dokumentov a&amp;nbsp;obrázkov&lt;/EM&gt;, ale používateľ k&amp;nbsp;nim priamo z&amp;nbsp;tejto knihy nemá prístup - k&amp;nbsp;týmto prílohám je možné pristupovať len&amp;nbsp;zo zdrojového miesta v&amp;nbsp;programe (napr. z&amp;nbsp;&lt;A href="5c21adcc-87c8-44e7-981d-02902635693d"&gt;Knihy pohľadávok&lt;/A&gt;). 
+&lt;LI&gt;Súbory (binárne údaje) môžu byť &lt;STRONG&gt;uložené v databáze alebo v adresári mimo databázy&lt;/STRONG&gt; - nastavenia sa nachádzajú v&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="5a6e5663-262e-4ff0-9741-1569385d11e4"&gt;oddiel Firma, Všeobecné&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt; záložka &lt;EM&gt;Prílohy&lt;/EM&gt;. 
+&lt;LI&gt;Pomocou tlačidla &lt;EM&gt;Možnosti&lt;/EM&gt; je možné&amp;nbsp;obrázok alebo dokument oskenovať a zobraziť&amp;nbsp;v náhľade. Obrázok je možné upraviť v&amp;nbsp;jednoduchom vstavanom editore. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Zaevidovať obrázok alebo iný dokument do&amp;nbsp;&lt;EM&gt;Knižnice dokumentov&amp;nbsp;a obrázkov&lt;/EM&gt; možno pomocou &lt;A href="def09dba-69a7-4eb2-b41f-49eafbca9b39"&gt;formulára Záznam v knižnici dokumentov a obrázkov&lt;/A&gt;. Ku skladovej karte možno obrázok alebo iný dokument&amp;nbsp; pripojiť pomocou&amp;nbsp;&lt;A href="fa471057-f995-4987-b25d-6b5b16f939e3"&gt;formulára Dokument (obrázok)&lt;/A&gt;&amp;nbsp;(&lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;formulár Skladová karta&lt;/A&gt;, tlačidlo &lt;EM&gt;Dokumenty a obrázky&lt;/EM&gt;).&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Dostupné možnosti&lt;/H2&gt;
+&lt;P&gt;Ďalšie možnosti práce so záznamami&amp;nbsp;sú dostupné&amp;nbsp;po stlačení tlačidla &lt;EM&gt;Možnosti&lt;/EM&gt;, prípadne v&amp;nbsp;kontextovej ponuke tabuľky záznamov.&lt;/P&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Export súborov&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Funkcia skopíruje všetky súbory z &lt;EM&gt;Knižnice dokumentov a obrázkov&lt;/EM&gt; do adresára na pevnom disku.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Import súborov (všeobecný)&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Z vybraného adresára na disku skopíruje všetky súbory do &lt;EM&gt;Knižnice dokumentov a obrázkov&lt;/EM&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Import súborov (skladové karty)&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Zo zvoleného&amp;nbsp;adresára je možné hromadne importovať súbory a automaticky ich priradiť ku skladovým kartám. Program porovná názov súboru&amp;nbsp;s&amp;nbsp;hodnotou vybraného poľa skladovej karty (napr. &lt;EM&gt;Číslo, Čiarový kód&lt;/EM&gt;). Názov súboru musí na začiatku alebo na konci obsahovať túto hodnotu poľa skladovej karty (napr. číslo skladovej karty), podľa ktorej&amp;nbsp;sa súbor automaticky priradí ku&amp;nbsp;skladovej karte (synchronizuje).&lt;/P&gt;
+&lt;P&gt;Pri neúspešnom priradení je možné súbory importovať aj bez synchronizácie.&lt;/P&gt;
+&lt;P&gt;Z dôvodu prehľadnosti je možné korektne naimportované (synchronizované i&amp;nbsp;nesynchronizované)&amp;nbsp;súbory automaticky presunúť do samostatného podadresára.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Oskenovať&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Otvorí sa formulár, v ktorom&amp;nbsp;je možné&amp;nbsp;oskenovať obrázok alebo dokument.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Prevod obrázkov do priečinka&amp;nbsp;&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Otvorí sa sprievodca, pomocou ktorého je možné všetky obrázky z databázy previesť (skopírovať)&amp;nbsp;do vyhradeného adresára na disku počítača. Tento adresár by mal byť viditeľný pre všetky počítače pripojené v sieťovej prevádzke. Toto riešenie je vhodné&amp;nbsp;použiť pri súborovej databáze &lt;I&gt;Microsoft Access&lt;/I&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Prevod obrázkov do databázy&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Otvorí sa sprievodca, pomocou ktorého je možné všetky obrázky z priečinka na disku počítača previesť (skopírovať)&amp;nbsp;do databázy firmy. Obrázky sa uložia priamo do databázy. Každý dokument uložený v&amp;nbsp;databáze zväčší jej veľkosť - čo časom môže byť výrazný problém pri súborovej databáze &lt;I&gt;Microsoft Access&lt;/I&gt;, ktorá má maximálnu veľkosť 1GB. Naopak, v&amp;nbsp;prípade SQL servera je to praktické riešenie,&amp;nbsp;keďže (v sieťovej prevádzke) nie je potrebné zdieľať žiadne ďalšie adresáre na disku.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Bližšie informácie o ovládaní evidencie, používaní filtrov, triedení záznamov a pod. sú dostupné v&amp;nbsp;téme&amp;nbsp;&lt;A href="8936fde4-aac3-4672-99a2-c8bd5ccffdcd"&gt;Ovládanie knihy (evidencie)&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="ea75d7dd-399a-4305-8dee-dea8a62ca4f2" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1a33ab0b-2df7-4dc2-962b-8a3319c16831">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="7a0e5ad3-0da5-4341-8106-911ef02ae8c4" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="fa471057-f995-4987-b25d-6b5b16f939e3">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="31bc3c55-cc06-43ee-bc40-7f391dd61906" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="79eb5ae4-3bae-4a0c-be52-69c1ed8e59e5">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="5cf8d099-3bb6-477d-bebe-7eb6b5afe4d7" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="ccadca4e-2fbd-4b28-8d92-f826f3019bd0">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="c481118c-f015-4eca-aeb1-d47c2c73be21">
+      <Keyword m="2022-01-20T07:40:49.9830401Z">Dokumenty a obrázky - knižnica</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="7e130e94-2c33-4a7d-aaa1-e7a9dcdd2aa6">
+      <Keyword m="2022-01-20T07:40:43.7830277Z">Obrázky - knižnica</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="6f2a304e-3154-4e08-84da-5abec2f8ab6f">
+      <Keyword m="2022-01-20T07:41:00.2165133Z">Kategórie - dokumenty a obrázky</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

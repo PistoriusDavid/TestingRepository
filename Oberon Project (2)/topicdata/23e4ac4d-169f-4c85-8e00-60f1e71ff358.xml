@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="23e4ac4d-169f-4c85-8e00-60f1e71ff358" Status="Complete" CreatedOn="2025-03-19T12:24:35.505917Z" ModifiedOn="2025-04-15T10:59:25.0419544Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="ExternalSystem_RestaurantSolutions_pikMenu" BuildFlags="">
+  <Title m="2025-03-19T12:26:04.7390573Z">pikMenu</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2025-04-15T10:59:25.0419544Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; popisuje jeden zo&amp;nbsp;&lt;A href="9690f267-6ad7-4e22-9af2-675ef3d9d041"&gt;súvisiacich produktov&lt;/A&gt; systému OBERON -&amp;nbsp;&lt;STRONG&gt;reštauračné riešenie &lt;EM&gt;pikMenu&lt;/EM&gt;&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&amp;nbsp;&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;EM&gt;pikMenu&amp;nbsp;&lt;/EM&gt;predstavuje webovú aplikáciu&amp;nbsp;- &lt;STRONG&gt;QR menu&lt;/STRONG&gt;, ktoré je určené predovšetkým pre reštauračné prevádzky, použiť ho však možno aj v iných segmentoch podnikania (napr. kaderníctva, autoservisy). V rámci gastrosegmentu predstavuje elektronický jedálny/nápojový lístok ako náhradu tlačeného lístka. V rámci iných oblastí podnikania predstavuje elektronické menu obsahujúce príslušné produkty a služby. 
+&lt;LI&gt;Aplikácia umožňuje objednávanie jedál a nápojov &lt;STRONG&gt;tak hosťami v reštaurácii, ako aj na donášku&lt;/STRONG&gt;. V oboch prípadoch zákazník okrem objednania môže za dané jedlo alebo nápoj aj &lt;STRONG&gt;priamo v aplikácii prostredníctvom platobnej brány zaplatiť&lt;/STRONG&gt;. 
+&lt;LI&gt;V prípade režimu &lt;STRONG&gt;objednávania hosťami priamo v reštaurácii&lt;/STRONG&gt; aplikácia odosiela objednané položky priamo do OBERON-u, kde sa zobrazujú v evidencii &lt;A title="" href="e0ccff3e-b9e7-4572-bc3c-7f41a32280dd" rel=noopener target=_blank&gt;Otvorených účtov&lt;/A&gt;, záložka &lt;EM&gt;Otvorené pokladničné účty&lt;/EM&gt;. 
+&lt;LI&gt;Ak si zákazníci objednávajú jedlá/nápoje na donášku, objednané položky sa v evidencii&amp;nbsp;&lt;A title="" href="e0ccff3e-b9e7-4572-bc3c-7f41a32280dd" rel=noopener target=_blank&gt;Otvorených účtov&lt;/A&gt;&amp;nbsp;zobrazujú v záložke &lt;EM&gt;Donáška&lt;/EM&gt;. Priamo v aplikácii zákazník vyplní adresu, na ktorú sa má objednávka doručiť. &lt;/LI&gt;&lt;/UL&gt;&lt;!-- wp:heading {"level":3} --&gt;
+&lt;H3 class=wp-block-heading&gt;Hlavné výhody produktu&lt;/H3&gt;&lt;!-- /wp:heading --&gt;&lt;!-- wp:list --&gt;
+&lt;UL class=wp-block-list&gt;&lt;!-- wp:list-item --&gt;
+&lt;LI&gt;&lt;STRONG&gt;Nahrádza web prevádzky&lt;/STRONG&gt; - s&amp;nbsp;pikMenu získate moderné, interaktívne rozhranie. &lt;!-- /wp:list-item --&gt;&lt;!-- wp:list-item --&gt;
+&lt;LI&gt;&lt;STRONG&gt;Zvyšuje tržby&lt;/STRONG&gt; - predpokladaný nárast príjmov od 3 do 15%. &lt;!-- /wp:list-item --&gt;&lt;!-- wp:list-item --&gt;
+&lt;LI&gt;&lt;STRONG&gt;Jednoduchosť a rýchlosť&lt;/STRONG&gt; - rýchle objednávanie a&amp;nbsp;platba cez QR kód. &lt;!-- /wp:list-item --&gt;&lt;!-- wp:list-item --&gt;
+&lt;LI&gt;&lt;STRONG&gt;Okamžité aktualizácie&lt;/STRONG&gt; - úprava menu v&amp;nbsp;reálnom čase priamo z&amp;nbsp;mobilu alebo počítača. &lt;!-- /wp:list-item --&gt;&lt;!-- wp:list-item --&gt;
+&lt;LI&gt;&lt;STRONG&gt;Mnohojazyčnosť&lt;/STRONG&gt; - preklad ponuky do viacerých jazykov jedným klikom. &lt;!-- /wp:list-item --&gt;&lt;!-- wp:list-item --&gt;
+&lt;LI&gt;&lt;STRONG&gt;Zníženie nákladov&lt;/STRONG&gt; - eliminuje potrebu fyzických menu. &lt;!-- /wp:list-item --&gt;&lt;!-- wp:list-item --&gt;
+&lt;LI&gt;&lt;STRONG&gt;Nahradenie zamestnancov&lt;/STRONG&gt; - menej zamestnancov na obsluhu znamená nižšie náklady. &lt;!-- /wp:list-item --&gt;&lt;!-- wp:list-item --&gt;
+&lt;LI&gt;&lt;STRONG&gt;Pútavé vizuály&lt;/STRONG&gt; - používanie vlastných obrázkov produktov. &lt;!-- /wp:list-item --&gt;&lt;/LI&gt;&lt;/UL&gt;&lt;!-- /wp:list --&gt;
+&lt;H2&gt;Technické informácie&lt;/H2&gt;
+&lt;UL&gt;&lt;!-- /wp:paragraph --&gt;
+&lt;LI&gt;Aplikácia je so systémom OBERON prepojená &lt;STRONG&gt;priamo&lt;/STRONG&gt; &lt;STRONG&gt;prostredníctvom rozhrania &lt;EM&gt;WebServices API - Pokladnica OBERON 1G&lt;/EM&gt;&lt;/STRONG&gt;. Táto webová služba musí byť spustená na prevádzke, pričom sa vyžaduje verejná statická IP adresa (je potrebný DNS záznam), prípadne služba &lt;A href="02f77fd1-6b2f-482c-8dd0-77896d038c3e" rel=noopener target=_blank&gt;OBERON Link&lt;/A&gt;, ktorá sa umožňuje aplikáciám využívajúcim webové služby systému OBERON pripájať k týmto webovým službám z vonkajšieho internetu (t. j. mimo lokálnej počítačovej siete). &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Implementácia produktu&lt;/H2&gt;
+&lt;P&gt;Implementácia &lt;EM&gt;pikMenu&lt;/EM&gt; pozostáva z&amp;nbsp;dvoch krokov:&amp;nbsp;&amp;nbsp;&lt;/P&gt;
+&lt;OL&gt;
+&lt;LI&gt;&lt;STRONG&gt;nastavenia na strane OBERON-u&lt;/STRONG&gt; - na komunikáciu s&amp;nbsp;aplikáciou &lt;EM&gt;&lt;STRONG&gt;pikMenu&lt;/STRONG&gt;&lt;/EM&gt; je potrebné nastaviť&amp;nbsp;&lt;A href="9ce25bbd-35d1-4096-acd5-70007f5af5a6"&gt;automatickú úlohu&lt;/A&gt;&amp;nbsp;&lt;A href="58bb31ca-00c8-4641-ad99-7d58e24f59c5"&gt;WebServices API - Pokladnica OBERON 1G&lt;/A&gt;, 
+&lt;LI&gt;&lt;STRONG&gt;nastavenie verejne IP adresy&lt;/STRONG&gt;, 
+&lt;LI&gt;&lt;STRONG&gt;nastavenie webovej aplikácie pikMenu&lt;/STRONG&gt; - nastavuje sa vo webovom administračnom rozhraní &lt;EM&gt;pikMenu&lt;/EM&gt;. &lt;/LI&gt;&lt;/OL&gt;
+&lt;H2&gt;1. Nastavenie automatickej úlohy&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;Pred&amp;nbsp;nastavením automatickej úlohy v&amp;nbsp;systéme OBERON sa uistite, že je&amp;nbsp;&lt;STRONG&gt;na počítači, ktorý&amp;nbsp;je zapnutý v čase, v ktorom je otvorená prevádzka&lt;/STRONG&gt;, správne nastavený&amp;nbsp;&lt;STRONG&gt;server&lt;/STRONG&gt;&amp;nbsp;&lt;A href="09f3dae9-2fb7-490f-97dc-37f60885b398"&gt;OBERON Automation Center&lt;/A&gt;. Postup nastavenia je dostupný v&amp;nbsp;téme&amp;nbsp;&lt;A href="fd64c37a-486b-4cdf-a370-297aaa8a8f73" style="auto-update-caption: true"&gt;Nastavenie servera OBERON Automation Center&lt;/A&gt;.&amp;nbsp;Správnosť nastavenia a&amp;nbsp;fungovania&amp;nbsp;servera OAC môžete skontrolovať v&amp;nbsp;programe&lt;STRONG&gt;&amp;nbsp;&lt;EM&gt;OBERON Automation Center&lt;/EM&gt; (klient)&lt;/STRONG&gt; (v&amp;nbsp;programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;, ponuka&amp;nbsp;&lt;EM&gt;OBERON&lt;/EM&gt;,&amp;nbsp;&lt;A href="69282df4-d4d6-462a-8cf2-68000e3e6f93"&gt;OBERON Automation Center (klient)&lt;/A&gt;). &lt;SPAN style="COLOR: rgb(255,0,0)"&gt;Pri&amp;nbsp;použití&lt;/SPAN&gt; &lt;EM style="COLOR: rgb(255,0,0)"&gt;OBERON Automation Center&lt;/EM&gt;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;&amp;nbsp;&lt;STRONG&gt;odporúčame&lt;/STRONG&gt;&lt;/SPAN&gt; &lt;STRONG style="COLOR: rgb(255,0,0)"&gt;používať databázu SQL&lt;/STRONG&gt;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;.&lt;/SPAN&gt; 
+&lt;LI&gt;Na &lt;STRONG&gt;serveri (nie na&lt;/STRONG&gt; &lt;STRONG&gt;klientskom počítači)&lt;/STRONG&gt;&amp;nbsp;spustite program &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt; &lt;STRONG&gt;ako správca&lt;/STRONG&gt; a&amp;nbsp;v&amp;nbsp;ponuke &lt;EM&gt;OBERON,&amp;nbsp;&lt;/EM&gt;&lt;A href="e975459f-e882-49f2-adb9-79e68a07df0e"&gt;Otvorenie agendy (firmy)&lt;/A&gt; otvorte databázu účtovnej jednotky. 
+&lt;LI&gt;V&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="225638ed-22f6-4ac4-9085-6d77c64925db" style="auto-update-caption: true"&gt;Používatelia&lt;/A&gt; vytvorte&amp;nbsp;nového používateľa&amp;nbsp;typu &lt;STRONG&gt;&lt;EM&gt;Systémový&lt;/EM&gt;&lt;/STRONG&gt; (napr. s názvom &lt;EM&gt;sys_pikMenu&lt;/EM&gt;). 
+&lt;LI&gt;V&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="9ce25bbd-35d1-4096-acd5-70007f5af5a6"&gt;Automatické úlohy&lt;/A&gt;&amp;nbsp;stlačte tlačidlo &lt;EM&gt;Nový&lt;/EM&gt;. Otvorí sa&amp;nbsp;formulár &lt;EM&gt;Automatická úloha&lt;/EM&gt;, v&amp;nbsp;ktorom vyberte typ úlohy&amp;nbsp;&lt;EM&gt;&lt;STRONG&gt;WebServices API - Pokladnica OBERON 1G&lt;/STRONG&gt;&lt;/EM&gt; a zadajte názov úlohy (napr. &lt;EM&gt;pikMenu&lt;/EM&gt;). 
+&lt;LI&gt;Stlačením tlačidla&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_Button_Refresh.png"&gt;&amp;nbsp;pri rozbaľovacom zozname &lt;EM&gt;Vykonávať na serveri&lt;/EM&gt;&amp;nbsp;aktualizujte zoznam dostupných serverov a vyberte príslušný server OAC, na ktorom sa má úloha vykonávať. 
+&lt;LI&gt;Vyberte používateľa systému OBERON vytvoreného v&amp;nbsp;bode č.&amp;nbsp;3, pod ktorým sa má automatická&amp;nbsp;úloha vykonávať. 
+&lt;LI&gt;Stlačte tlačidlo &lt;EM&gt;Nastaviť&lt;/EM&gt;, zobrazí sa&amp;nbsp;&lt;A href="621f9ff1-bc7a-40af-9c1e-be72be87c01e"&gt;formulár Nastavenie automatickej úlohy 'WebServices API - Pokladnica OBERON'&lt;/A&gt;, v&amp;nbsp;ktorom v&amp;nbsp;záložke&lt;EM&gt;&amp;nbsp;Komunikácia&lt;/EM&gt;: 
+&lt;UL&gt;
+&lt;LI&gt;zadajte &lt;STRONG&gt;číslo TCP/IP&amp;nbsp;portu&lt;/STRONG&gt;, pod ktorým bude daná služba dostupná (port musí byť voľný - t.&amp;nbsp;j.&amp;nbsp;v systéme &lt;EM&gt;Windows&lt;/EM&gt; ho nesmie používať iná služba, pre OAC odporúčame používať hodnoty 22&amp;nbsp;001 a nasl.), 
+&lt;LI&gt;spôsob zabezpečenia odporúčame zvoliť&amp;nbsp;&lt;EM&gt;&lt;STRONG&gt;OBERON autorizácia&lt;/STRONG&gt; &lt;STRONG&gt;(zabezpečené pripojenie)&lt;/STRONG&gt;&lt;/EM&gt;, 
+&lt;LI&gt;začiarknite pole &lt;EM&gt;&lt;STRONG&gt;Zasielať podrobné info do 'Prehľadu činností' (na OAC klienta)&lt;/STRONG&gt;&lt;/EM&gt; - prehľad záznamov o činnosti (logovania) bude dostupný v&amp;nbsp;programe&amp;nbsp;&lt;A href="69282df4-d4d6-462a-8cf2-68000e3e6f93" style="auto-update-caption: true"&gt;OBERON Automation Center (klient)&lt;/A&gt;, oddiel &lt;EM&gt;Prehľad činností&lt;/EM&gt;, 
+&lt;LI&gt;pole &lt;EM&gt;&lt;STRONG&gt;Aktivovať podrobnú analýzu komunikácie cez webovú službu&lt;/STRONG&gt;&lt;/EM&gt; ponechajte nezačiarknuté (slúži len pre pracovníkov centra podpory na detekciu prípadných problémov, ktoré sa môžu vyskytnúť pri komunikácii), 
+&lt;LI&gt;začiarknite pole &lt;EM&gt;&lt;STRONG&gt;Pridať výnimku do Windows firewall&lt;/STRONG&gt;&lt;/EM&gt; (ak používate bránu firewall iného výrobcu, je potrebné povoliť zadaný port manuálne). &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Aby systém &lt;I&gt;Windows&lt;/I&gt;&amp;nbsp;webovú službu povolil, je nevyhnutné vykonať jej registráciu - stlačte tlačidlo &lt;EM&gt;&lt;STRONG&gt;Zaregistrovať službu&lt;/STRONG&gt;&lt;/EM&gt;. Pred prípadnou dodatočnou zmenou napr. čísla portu je potrebné najprv zrušiť registráciu danej služby, zmeniť port a následne opätovne vykonať registráciu. 
+&lt;LI&gt;V&amp;nbsp;záložke &lt;EM&gt;Nastavenia&lt;/EM&gt; &lt;A href="621f9ff1-bc7a-40af-9c1e-be72be87c01e"&gt;formulára Nastavenie automatickej úlohy 'WebServices API - Pokladnica OBERON'&lt;/A&gt;: 
+&lt;UL&gt;
+&lt;LI&gt;pri položke &lt;EM&gt;Pokladnica OBERON&lt;/EM&gt; &lt;STRONG&gt;vyberte pokladnicu, ktorú bude táto webová služba zastupovať&lt;/STRONG&gt; (bližšie určuje predajnú cenu, sklady, otvorené účty (stoly) a pod.), 
+&lt;LI&gt;pri položke &lt;EM&gt;Režim činnosti&lt;/EM&gt; zvoľte jednu z nasledujúcich možností v závislosti od toho, pre ktorú súčasť aplikácie webovú službu konfigurujete: &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;eMenu - hosť v reštaurácii&lt;/STRONG&gt; - pre zákazníka pri objednávke z reštauračného zariadenia, 
+&lt;LI&gt;&lt;STRONG&gt;eMenu - donáška&lt;/STRONG&gt; -&amp;nbsp;pre zákazníka pri objednávke&amp;nbsp;na donášku, &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;v sekcii &lt;EM&gt;OBERON Link&lt;/EM&gt; môžete vykonať registráciu do služby&amp;nbsp;&lt;A href="02f77fd1-6b2f-482c-8dd0-77896d038c3e"&gt;OBERON Link&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Vykonané nastavenia potvrďte stlačením tlačidla &lt;STRONG&gt;&lt;EM&gt;OK&lt;/EM&gt;&lt;/STRONG&gt;. 
+&lt;LI&gt;Ak je webová služba nakonfigurovaná korektne, vo webovom prehliadači je možné vykonať jej kontrolu - po zadaní IP adresy a portu v&amp;nbsp;tvare &lt;STRONG&gt;192.168.16.20:22001&lt;/STRONG&gt; sa zobrazí informácia o danej službe. &lt;/LI&gt;&lt;/OL&gt;&lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Na prácu s webovou aplikáciou &lt;EM&gt;pikMenu&lt;/EM&gt; je potrebné&amp;nbsp;nastaviť &lt;STRONG&gt;potrebný počet automatických úloh (webových služieb) typu&amp;nbsp;&lt;/STRONG&gt;&lt;EM&gt;&lt;STRONG&gt;WebServices API - Pokladnica OBERON 1G&lt;/STRONG&gt;&lt;/EM&gt; &lt;STRONG&gt;v závislosti od počtu použitých režimov činnosti&lt;/STRONG&gt;: jednu na prácu objednávanie v reštaurácii obsluhy (vyberá sa režim&amp;nbsp;&lt;STRONG&gt;&lt;EM&gt;eMenu - hosť v&amp;nbsp;reštaurácii&lt;/EM&gt;&lt;/STRONG&gt;) a&amp;nbsp;druhú pre objednávanie na donášku (vyberá sa režim&amp;nbsp;&lt;STRONG&gt;&lt;EM&gt;eMenu - donáška&lt;/EM&gt;&lt;/STRONG&gt;). Pre každú automatickú úlohu je potrebné nadefinovať nového používateľa&amp;nbsp;typu &lt;I&gt;&lt;STRONG&gt;Systémový&lt;/STRONG&gt;&lt;/I&gt; (ponuka&amp;nbsp;&lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="225638ed-22f6-4ac4-9085-6d77c64925db"&gt;Používatelia&lt;/A&gt;).&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H3&gt;2. Nastavenie verejnej IP adresy&lt;/H3&gt;
+&lt;P&gt;Webová aplikácia &lt;EM&gt;pikMenu&lt;/EM&gt;, t.&amp;nbsp;j. webový server sa pripája k&amp;nbsp;OBERON-u na danú adresu webovej služby, preto musí byť viditeľná z&amp;nbsp;vonkajšieho internetu.&lt;/P&gt;
+&lt;OL&gt;
+&lt;LI&gt;Na&amp;nbsp;zabezpečenie potrebnej sieťovej infraštruktúry, nastavenie lokálnej počítačovej siete a jej následnú správu&amp;nbsp;odporúčame &lt;STRONG&gt;kontaktovať servisného technika&lt;/STRONG&gt;. Osloviť môžete niektorého z&amp;nbsp;našich&amp;nbsp;&lt;A href="f83c2a9c-cda4-4862-8628-7ba16ddb1b06"&gt;zmluvných partnerov (servisných stredísk)&lt;/A&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;Zvoľte počítač,&amp;nbsp;na ktorom bude automatická úloha (webová služba) spustená&lt;/STRONG&gt;. Mal by to byť počítač, ktorý je neustále zapnutý (spravidla sieťový databázový server). 
+&lt;LI&gt;Počítač, na ktorom je automatická úloha (webová služba) spustená, musí byť dostupný&amp;nbsp;z&amp;nbsp;vonkajšieho internetu. Z&amp;nbsp;tohto dôvodu &lt;STRONG&gt;zabezpečte u&amp;nbsp;poskytovateľa internetu (ISP)&lt;/STRONG&gt;&amp;nbsp;&lt;STRONG&gt;pre svoju prevádzku&amp;nbsp;verejnú statickú IP adresu, pričom je potrebný DNS záznam.&lt;/STRONG&gt; Alternatívne môžete využiť službu&amp;nbsp;&lt;A href="02f77fd1-6b2f-482c-8dd0-77896d038c3e"&gt;OBERON Link&lt;/A&gt;. 
+&lt;LI&gt;Zároveň je potrebné&amp;nbsp;&lt;STRONG&gt;nastaviť presmerovanie portu na smerovači (routri) z verejnej IP adresy na IP adresu počítača&lt;/STRONG&gt;, na ktorom je automatická úloha (webová služba) spustená. &lt;/LI&gt;&lt;/OL&gt;
+&lt;H2&gt;3. Nastavenie webovej aplikácie pikMenu&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Pri&amp;nbsp;nastavení webovej aplikácie &lt;EM&gt;pikMenu&lt;/EM&gt; postupujte podľa dokumentácie dodávateľa &lt;A href="http://www.pikmenu.com/" target=_blank&gt;www.pikMenu.com&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Ďalšie informácie získate na webovej stránke&amp;nbsp;&lt;A href="https://exalogic.sk/oberon/suvisiace-produkty/pikmenu/" target=_blank&gt;pikMenu&lt;/A&gt;&amp;nbsp;a na&amp;nbsp;&lt;A href="https://www.pikmenu.com/" target=_blank&gt;webovej stránke dodávateľa&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="05c1ef12-d53b-4109-825b-51c52d514c62" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="9690f267-6ad7-4e22-9af2-675ef3d9d041">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="8bc33c2c-c491-4698-82ed-4a424afd803b" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="58bb31ca-00c8-4641-ad99-7d58e24f59c5">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="cd07ca11-ae80-4c60-a798-4807086e8d38" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="f3e85885-2cfb-4f9b-b966-a54836db41cd">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="1c8232fc-bde1-4cb5-982a-1619450d004c" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="7d4c6ecf-89c9-402a-966c-96a86ae3bfbb">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="92ee7fa7-bf32-4c6f-ab41-f83f02337b4e" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="02f77fd1-6b2f-482c-8dd0-77896d038c3e">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="aca47409-2664-43bb-937f-5a2c41336f55" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="9ce25bbd-35d1-4096-acd5-70007f5af5a6">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="410f9807-29c8-41b2-951e-32519609b913" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="e0ccff3e-b9e7-4572-bc3c-7f41a32280dd">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="d22268d5-f108-4b4b-9587-7e447602b44e">
+      <Keyword m="2025-03-19T12:39:03.7570956Z">pikMenu</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="a953a28b-88bb-4d5a-8f41-70e4ef9d02d4">
+      <Keyword m="2025-03-19T12:39:11.1997915Z">QR menu - pikMenu</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="36e40b3d-bc70-4587-bf8a-d84f418c09bf">
+      <Keyword m="2025-03-20T09:45:23.5150576Z">eMenu - pikMenu</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

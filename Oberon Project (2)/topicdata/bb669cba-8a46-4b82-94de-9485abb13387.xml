@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="bb669cba-8a46-4b82-94de-9485abb13387" Status="Complete" CreatedOn="2015-12-09T06:45:29.0004583Z" ModifiedOn="2024-11-11T12:52:20.9172861Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="FAQ_Stock_CalculatingDPH" BuildFlags="">
+  <Title m="2023-04-25T11:31:43.3285596Z">Výpočet DPH v rekapitulácii dokladu</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-11-11T12:52:20.9162859Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; je venovaná &lt;STRONG&gt;problematike výpočtu&amp;nbsp;DPH v rekapitulácii dokladov&lt;/STRONG&gt; (faktúra, objednávka, výdajka, pokladničné doklady...) v systéme OBERON.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Systém OBERON&amp;nbsp;umožňuje počítať DPH v rekapitulácii&amp;nbsp;dokladu dvoma spôsobmi: 
+&lt;OL&gt;
+&lt;LI&gt;&lt;STRONG&gt;DPH počítať pri každej položke -&lt;/STRONG&gt; v tom prípade je rekapitulácia dokladu len súčtom týchto položiek. Tento spôsob je vhodný pre obchodné prevádzky, pretože program počíta&amp;nbsp;DPH tak, ako&amp;nbsp;&lt;A href="04b8d290-1470-41ff-85a1-c44a20958841"&gt;registračná pokladnica&lt;/A&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;DPH počítať ako rozdiel celkovej sumy dokladu a základu DPH -&lt;/STRONG&gt; DPH sa vypočíta ako celková suma s DPH mínus cena bez DPH, pričom DPH sa&amp;nbsp;podľa zákona&amp;nbsp;zaokrúhli na&amp;nbsp;dve desatinné miesta. Následne program robí prepočet, v ktorom&amp;nbsp;spätne vypočíta sumu bez DPH, t. j. z celkovej sumy s&amp;nbsp;DPH odpočíta DPH. &lt;/LI&gt;&lt;/OL&gt;
+&lt;LI&gt;Zákon o DPH &lt;STRONG&gt;priamo neurčuje spôsob výpočtu DPH&lt;/STRONG&gt;. Obidve metodiky sú v&amp;nbsp;súlade so zákonom. To, ktorá sa bude používať, možno nastaviť v&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="5a6e5663-262e-4ff0-9741-1569385d11e4"&gt;oddiel Firma, Všeobecné&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt; záložka &lt;EM&gt;Systém&lt;/EM&gt;. 
+&lt;LI&gt;Pri výpočte sumy DPH na doklade dochádza v&amp;nbsp;praxi k rozdielom (pozri nižšie), pričom platí, že metodika, ktorá počíta DPH pri každej položke,&amp;nbsp;spôsobuje &lt;STRONG&gt;menej problémov ako druhý spôsob výpočtu DPH&lt;/STRONG&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Prečo vznikajú rozdiely pri výpočte DPH&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Pomer základu DPH&amp;nbsp;a DPH na doklade nemusí byť presný, a to z&amp;nbsp;dôvodu zaokrúhľovania. Rovnaký problém sa vyskytuje aj napr. pri podaní DPH daňového priznania - ani tam "nesedí" základ DPH a DPH na jeden eurocent, a to preto, lebo vo výkaze sú spočítané základy DPH a DPH postupne z dokladov, a nie mechanicky vypočítaná DPH zo sumy bez DPH. &amp;nbsp;&amp;nbsp;&amp;nbsp; 
+&lt;LI&gt;Výpočet DPH na doklade závisí aj od spôsobu, akým sa položka pridá&amp;nbsp;do dokladu - s cenou&amp;nbsp;bez DPH alebo s DPH.&amp;nbsp;Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="52df1f6d-0c85-4a3a-8ae8-dd57284545fc" style="auto-update-caption: true"&gt;Výpočet súm na doklade&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;P&gt;&lt;STRONG&gt;Príklad - DPH vypočítaná podľa položiek&lt;/STRONG&gt;&lt;/P&gt;
+&lt;P&gt;Máme faktúru, na ktorej sú dve položky po 1,00&amp;nbsp;€, teda celková suma predstavuje 2,00&amp;nbsp;€. Ak jedna položka stojí 1,00&amp;nbsp;€, základ DPH je 0,833&amp;nbsp;€ a DPH 0,17&amp;nbsp;€ (podľa zákona o DPH sa DPH zaokrúhľuje na&amp;nbsp;dve desatinné miesta). Logicky teda celková suma dokladu predstavuje 2,00 €, avšak súčet bez DPH je 1,66&amp;nbsp;€. Program vypočíta&amp;nbsp;DPH pre každú položku (v tomto prípade je to 0,17&amp;nbsp;€) a spočíta ich za všetky položky: 0,17+0,17 = &lt;STRONG&gt;0,34&amp;nbsp;€&lt;/STRONG&gt;&lt;/P&gt;
+&lt;H5&gt;Obrázok č. 1: Faktúra - DPH vypočítaná podľa položiek&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/Invoices/ZaokruhlovanieDPH_Polozky.png"&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;Príklad - DPH vypočítaná ako rozdiel celkovej sumy dokladu a základu DPH&lt;/STRONG&gt;&lt;/P&gt;
+&lt;P&gt;Máme faktúru, na ktorej sú dve položky po 1,00&amp;nbsp;€, teda celková suma predstavuje 2,00&amp;nbsp;€. Ak jedna položka stojí 1,00&amp;nbsp;€, základ DPH je 0,833&amp;nbsp;€. Program vypočíta DPH takto: (1,00+1,00) - (0,833+0,833) = 0,334&amp;nbsp;€,&amp;nbsp;čo sa zaokrúhli na &lt;STRONG&gt;0,33&amp;nbsp;€.&lt;/STRONG&gt; Základ dane sa vypočíta takto: 2,00 - 0,33 = 1,67&amp;nbsp;€.&amp;nbsp;&lt;/P&gt;
+&lt;H5&gt;Obrázok č. 2: Faktúra - DPH vypočítaná ako rozdiel celkovej sumy dokladu a základu DPH&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/Invoices/ZaokruhlovanieDPH_DPHRozdiel.png"&gt;&lt;/P&gt;
+&lt;H2&gt;Zaokrúhľovanie pri zberných faktúrach a dobropisoch&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;A href="60388e53-ff9f-48e3-9f8c-e45df1201ad3"&gt;Zberná faktúra&lt;/A&gt;&amp;nbsp;predstavuje faktúru, ktorá je tvorená z jednej alebo spravidla z&amp;nbsp;viacerých výdajok (dodacích listov). Zberné faktúry sa používajú v&amp;nbsp;situáciách,&amp;nbsp;keď účtovná jednotka dodáva tovar obchodnému partnerovi viacnásobne a opakovane, pričom nevystavuje daňový doklad (faktúru) pri každom dodaní.&amp;nbsp;V prípade, že sa&amp;nbsp;DPH vypočíta&amp;nbsp;&lt;STRONG&gt;druhým spôsobom - t. j.&amp;nbsp;zo súčtu súm jednotlivých položiek (základu DPH), nastane nesúlad&lt;/STRONG&gt; vypočítanej dane pri spočítaní jednotlivých dokladov. Niečo podobné sa stane aj pri odpočítaní dokladov. Odpočítať doklady môžeme napríklad v&amp;nbsp;prípade, že&amp;nbsp;z vystavenej faktúry k nejakej dodávke tovaru alebo služieb budeme časť tejto dodávky dobropisovať. Nesúlad vzniká preto, že &lt;STRONG&gt;sa vypočítaná daň zaokrúhľuje&lt;/STRONG&gt;. 
+&lt;LI&gt;Rozdiel aj viac ako jeden eurocent teda vznikne, ak budeme sumy&amp;nbsp;v&amp;nbsp;dokladoch sčítavať (t.&amp;nbsp;j. používať&amp;nbsp;druhý spôsob výpočtu DPH). Výsledkom takéhoto postupu spravidla je, že rekapitulácie vo výstupných zostavách z účtovných evidencií by nedávali tie isté výsledky, ako evidencia v knihe DPH a boli by s tým aj iné problémy. &lt;STRONG&gt;Takýto nesúlad však nemôže nastať, ak budeme postupovať prvým spôsobom, pri ktorom sa DPH počíta pri každej položke&lt;/STRONG&gt;, lebo nech vložíme do dobropisu akékoľvek položky, aj také, ktoré pôvodný doklad ani neobsahoval, vždy bude platiť, že súčet zvyšnej sumy a dobropisu dáva presne sumy pôvodného dokladu. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Zaevidovanie&amp;nbsp;daňových dokladov v registračných pokladniciach&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Do niektorých typov registračných pokladníc sa pri komunikácii zasiela s celkovou cenou položky aj vypočítaná daň. Ak pokladnica umožňuje voľbu výpočtu dane, je potrebné, aby sa jej zasielala vypočítaná daň už pri jednotlivých položkách, inak by jeden a ten istý doklad mal inú rekapituláciu po vložení do faktúry, a inú po odoslaní do pokladnice. &lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="610461c0-1b50-493d-abcf-e2fcff20798c" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="52df1f6d-0c85-4a3a-8ae8-dd57284545fc">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="76f0ed6e-82c7-4aec-b7f8-9990a5b9ead7" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="5a6e5663-262e-4ff0-9741-1569385d11e4">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="b731a960-051f-4a48-929d-fbfcf954fbb3">
+      <Keyword m="2023-04-24T10:45:54.5991638Z">Výpočet rekapitulácie dokladu - DPH</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="bd10c3b1-e1f3-42c1-937b-3089b6ef4e74">
+      <Keyword />
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="16cdb06e-6bd1-4c84-b58d-db8ad991ddb9">
+      <Keyword m="2016-11-15T14:24:07.1739371Z">Zaokrúhlenie DPH</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="655e6308-330e-4c6d-99db-a07e04f4529f">
+      <Keyword m="2023-04-24T10:43:53.4250131Z">DPH - výpočet na doklade</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

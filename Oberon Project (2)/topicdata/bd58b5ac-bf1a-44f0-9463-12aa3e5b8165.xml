@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="bd58b5ac-bf1a-44f0-9463-12aa3e5b8165" Status="Complete" CreatedOn="2014-09-04T11:52:18.6382Z" ModifiedOn="2022-10-03T06:29:39.8406671Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="99000" Name="PrintReports_ReportEditor" BuildFlags="">
+  <Title m="2014-09-04T11:53:06.0526Z">Editor tlačových výstupov</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2022-10-03T06:29:39.8406671Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje informácie o&amp;nbsp;&lt;EM&gt;Editore tlačových výstupov&lt;/EM&gt;&amp;nbsp;- jednom z&amp;nbsp;programových&amp;nbsp;nástrojov systému OBERON. Editor tlačových výstupov je dostupný vo&amp;nbsp;&lt;A href="91150b04-8876-4fb2-89eb-d69d8cc654c2"&gt;formulári Vlastnosti tlačového výstupu&lt;/A&gt;, záložka &lt;EM&gt;Úpravy&lt;/EM&gt;, tlačidlo &lt;EM&gt;Upraviť&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;I&gt;Editor tlačových výstupov&lt;/I&gt; je nástroj integrovaný v&amp;nbsp;systéme &lt;A href="d7884189-d893-43c0-8e6a-cfad14d790c1"&gt;OBERON&lt;/A&gt;, ktorý &lt;STRONG&gt;umožňuje&amp;nbsp;používateľom vykonávať úpravy tlačových výstupov podľa vlastných požiadaviek&lt;/STRONG&gt;. Viac informácií o tlačových výstupoch nájdete v téme&amp;nbsp;&lt;A href="66ed476e-d5ea-4e46-a758-a3f190a60a7c" style="auto-update-caption: true"&gt;Všeobecne o tlačových výstupoch&lt;/A&gt;. 
+&lt;LI&gt;V&amp;nbsp;tlačových výstupoch možno upravovať šírku a umiestnenie jednotlivých polí, veľkosť písma a pod. V&amp;nbsp;prípade pokročilejších úprav, ako napríklad vynechanie alebo doplnenie nových polí, súčtov, vzorcov či vkladanie celých nových sekcií&amp;nbsp;v tlačových výstupoch sa predpokladá, že&amp;nbsp;používateľ pozná problematiku a princíp činnosti tlačových výstupov.&amp;nbsp;&amp;nbsp; 
+&lt;LI&gt;Keďže je&amp;nbsp;&lt;EM&gt;Editor tlačových výstupov&lt;/EM&gt; priamo integrovaný do systému OBERON, netreba ho samostatne inštalovať. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Možnosti úpravy tlačového výstupu&lt;/H2&gt;
+&lt;P&gt;Systém OBERON umožňuje pri úprave tlačového výstupu postupovať dvojako:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;upraviť&lt;/STRONG&gt; &lt;STRONG&gt;pôvodný (originálny) tlačový výstup&lt;/STRONG&gt; - v skutočnosti nedochádza k úprave pôvodného tlačového výstupu, ale k &lt;STRONG&gt;automatickému vytvoreniu dočasnej kópie&lt;/STRONG&gt; a následne jej úprave. Súbor dočasnej kópie je uložený na pevnom disku počítača (v adresári OBERON\SHARE\SYSTEM\REPORTS\USERS\ ako súbor s príponou MRT) &lt;STRONG&gt;len počas úpravy tlačového výstupu&lt;/STRONG&gt;. Po jej ukončení sa upravený tlačový výstup &lt;STRONG&gt;uloží do databázy&lt;/STRONG&gt; firmy (ako binárne údaje). Pri sieťovej prevádzke programu je tak zabezpečené &lt;STRONG&gt;automatické rozšírenie&lt;/STRONG&gt; upraveného tlačového výstupu&amp;nbsp;do všetkých pracovných staníc. Keďže sa upravený tlačový výstup nachádza v&amp;nbsp;zdieľanej databáze, program ho môže automaticky rozšíriť do všetkých pracovných staníc. 
+&lt;LI&gt;&lt;STRONG&gt;manuálne vytvoriť&lt;/STRONG&gt; &lt;STRONG&gt;kópiu&lt;/STRONG&gt;&amp;nbsp;&lt;STRONG&gt;pôvodného tlačového výstupu&lt;/STRONG&gt; (v&amp;nbsp;zozname tlačových výstupov pribudne ďalšia položka) &lt;STRONG&gt;a&amp;nbsp;ten následne upraviť&lt;/STRONG&gt; -&amp;nbsp;týmto spôsobom je možné&amp;nbsp;docieliť to, že jeden&amp;nbsp;pôvodný tlačový výstup môže byť upravený viac ako jedenkrát - čiže môže existovať &lt;STRONG&gt;viacero upravených verzií jedného tlačového výstupu (originál +&amp;nbsp;jedna alebo viac rôznych upravených kópií daného tlačového výstupu)&lt;/STRONG&gt;. Keďže je kópia tlačového výstupu tiež uložená v&amp;nbsp;databáze, pri sieťovej prevádzke programu sa upravený tlačový výstup&amp;nbsp;&lt;STRONG&gt;automatický rozšíri&lt;/STRONG&gt;&amp;nbsp;do všetkých pracovných staníc. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Pri&amp;nbsp;tlači upraveného tlačového&amp;nbsp;výstupu &lt;STRONG&gt;je možné určiť, či sa má vytlačiť upravený tlačový výstup alebo či sa majú&amp;nbsp;úpravy ignorovať a má sa vytlačiť&amp;nbsp;pôvodný (originálny) tlačový výstup&lt;/STRONG&gt;. Príslušné nastavenie je dostupné po stlačení pravého tlačidla myši na príslušnom&amp;nbsp;upravenom tlačovom výstupe vo&amp;nbsp;&lt;A href="2bac8d21-6ae0-44e4-8b2e-403ac2f25955"&gt;formulári Tlačové výstupy&lt;/A&gt;. V kontextovej ponuke zvoľte možnosť &lt;EM&gt;Vlastnosti tlačového výstupu -&lt;/EM&gt; otvorí sa formulár, v&amp;nbsp;ktorom v&amp;nbsp;záložke &lt;EM&gt;Úpravy&lt;/EM&gt; vyberte, či sa má na&amp;nbsp;tlač použiť pôvodný alebo upravený tlačový výstup. Tu sa nachádza aj &lt;STRONG&gt;informácia o tom, či je daný tlačový výstup upravený alebo pôvodný&lt;/STRONG&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Postup úpravy tlačového výstupu je dostupný v&amp;nbsp;téme&amp;nbsp;&lt;A href="b3e41f60-bab3-4ad9-b73d-69ece0c12afa"&gt;Ako upraviť tlačový výstup&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Ďalšie&amp;nbsp;informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Upravené tlačové výstupy je možné &lt;STRONG&gt;exportovať do XML súboru (a&amp;nbsp;následne importovať)&lt;/STRONG&gt;, a tak si ich v prípade potreby preniesť do inej firmy,&amp;nbsp;iného počítača a pod. 
+&lt;LI&gt;Upravený tlačový výstup je možné kedykoľvek jednoducho odstrániť a opäť používať pôvodný. Pritom nie je potrebné OBERON preinštalovať.&amp;nbsp;&amp;nbsp; 
+&lt;LI&gt;Pri inštalácii novšej verzie&amp;nbsp;systému OBERON&amp;nbsp;sa všetky&amp;nbsp;používateľom upravené tlačové výstupy zachovajú. Môže sa však stať, že bol &lt;STRONG&gt;podstatne zmenený pôvodný (originálny) tlačový výstup&lt;/STRONG&gt; - vtedy môže upravený tlačový výstup&amp;nbsp;generovať chybné výsledky, prípadne nemusí vôbec pracovať. V&amp;nbsp;takomto prípade&amp;nbsp;&lt;STRONG&gt;odporúčame zrušiť upravený tlačový výstup a potom ho opätovne upraviť&lt;/STRONG&gt;. 
+&lt;LI&gt;Pri zálohovaní údajov firmy sa do záložných súborov umiestňujú aj upravené tlačové výstupy. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt; 
+&lt;P&gt;&lt;B&gt;Videonávod&lt;/B&gt;&lt;/P&gt;
+&lt;P&gt;K téme je spracovaný videonávod&amp;nbsp;&lt;A href="https://exalogic.sk/na-stiahnutie-oberon/tlacove-vystupy-uprava/" target=_blank&gt;Tlačové výstupy - úprava&lt;/A&gt;. Všetky videonávody nájdete na stránke &lt;A href="http://www.exalogic.sk/"&gt;www.exalogic.sk&lt;/A&gt; v záložke &lt;EM&gt;Na&amp;nbsp;stiahnutie,&lt;/EM&gt;&amp;nbsp;&lt;A href="https://exalogic.sk/na-stiahnutie/oberon-agenda-firmy/video-navody-na-stiahnutie/" target=_blank&gt;Videonávody&lt;/A&gt;.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="5e71e56a-7d0e-4d04-8d50-d339e928ad5f" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="66ed476e-d5ea-4e46-a758-a3f190a60a7c">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="11428e94-2bba-480c-9622-66c6ca925db4" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="b3e41f60-bab3-4ad9-b73d-69ece0c12afa">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="0e0e7a33-4a0b-43b3-9524-c46543ec620b" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="45722e64-2e04-4b98-a37a-a55b8b83606b">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="3fd1d537-da38-40b5-ac62-725bb83c3c20" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="2bac8d21-6ae0-44e4-8b2e-403ac2f25955">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="1ddedf3d-97ce-4442-8347-edac2da8491a" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="91150b04-8876-4fb2-89eb-d69d8cc654c2">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="675d529d-559e-404e-9337-4d6761b95d01">
+      <Keyword m="2021-03-25T14:01:56.4404009Z">Tlačový výstup na mieru</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="1e2ab384-c287-4f8c-97ca-51a075bfd963">
+      <Keyword m="2021-03-25T14:03:01.7232267Z">Tlačový výstup podľa vlastných požiadaviek</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="6d4b5490-04a3-4e47-80f8-f176347f1884">
+      <Keyword m="2021-03-25T14:04:13.4764082Z">Nástroj na úpravu tlačových výstupov</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="6c147c36-ab89-46ab-a903-9bb68400db43">
+      <Keyword m="2021-03-29T12:59:20.3490335Z">Modul na úpravu tlačových výstupov</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

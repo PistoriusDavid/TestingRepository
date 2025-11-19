@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="0121f553-c6f2-4860-87bc-485e3cb08e2f" Status="Complete" CreatedOn="2023-09-13T09:29:13.9061517Z" ModifiedOn="2025-05-15T11:40:44.4439397Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Acc_Start_AccountStatementImport" BuildFlags="">
+  <Title m="2023-09-13T09:30:25.4932117Z">Spôsoby importu bankových výpisov</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2025-05-15T11:40:17.2142599Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;informácie o&amp;nbsp;rozličných spôsoboch&amp;nbsp;importu bankových výpisov&amp;nbsp;&lt;/STRONG&gt;do systému OBERON&amp;nbsp;tak v&amp;nbsp;systéme&amp;nbsp;&lt;A href="49dd3167-870a-4fdf-b631-d4f692f1ed72"&gt;podvojného&lt;/A&gt;, ako aj&amp;nbsp;&lt;A href="32be28cf-2368-4818-9d24-cfa9d59afb75"&gt;jednoduchého účtovníctva&lt;/A&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Systém OBERON umožňuje &lt;STRONG&gt;viaceré spôsoby importu bankových výpisov&lt;/STRONG&gt; na ich následné spracovanie&amp;nbsp;pomocou funkcie&amp;nbsp;&lt;A href="02bbf54b-086f-4641-8c33-4dd461e56fb4"&gt;spracovania bankových výpisov&lt;/A&gt;&amp;nbsp;alebo&amp;nbsp;&lt;A href="1a074e9a-9cf9-4ab8-b9a8-68575142a704"&gt;automatického&amp;nbsp;spracovania bankových výpisov&lt;/A&gt;: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;manuálny import&lt;/STRONG&gt; - vykonáva sa v&amp;nbsp;ponuke &lt;EM&gt;Účtovníctvo&lt;/EM&gt;,&amp;nbsp;&lt;A href="02bbf54b-086f-4641-8c33-4dd461e56fb4" style="auto-update-caption: true"&gt;Spracovanie bankových výpisov&lt;/A&gt;. Môže sa realizovať dvojakým spôsobom, a to ako: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;import pomocou bankového rozhrania API&lt;/STRONG&gt; - priamy manuálny import položiek bankových výpisov vybraných bánk prostredníctvom rozhrania &lt;EM&gt;&lt;STRONG&gt;Bank API&lt;/STRONG&gt;&lt;/EM&gt; (prehľad podporovaných bánk pozri nižšie v&amp;nbsp;časti &lt;EM&gt;Manuálny import pomocou Bank API - prehľad podporovaných bánk&lt;/EM&gt;). 
+&lt;LI&gt;&lt;STRONG&gt;import zo súboru&lt;/STRONG&gt; - manuálny import položiek bankových výpisov vybraných bánk pomocou súboru (prehľad podporovaných bánk pozri nižšie v&amp;nbsp;časti &lt;EM&gt;Manuálny import zo súboru - prehľad podporovaných bánk&lt;/EM&gt;). &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;automatický import&lt;/STRONG&gt; -&amp;nbsp;v&amp;nbsp;závislosti od toho, aký druh rozhrania&amp;nbsp;API sa použije, ide o: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;import pomocou bankového&amp;nbsp;rozhrania API&lt;/STRONG&gt;&amp;nbsp;-&amp;nbsp;vykonáva sa&amp;nbsp;na základe&amp;nbsp;prepojenia realizovaného firmou EXALOGIC, a&amp;nbsp;to&amp;nbsp;prostredníctvom rozhrania &lt;EM&gt;&lt;STRONG&gt;Bank API&lt;/STRONG&gt;.&lt;/EM&gt; Na vykonávanie&amp;nbsp;je potrebné nastaviť&amp;nbsp;automatickú úlohu &lt;A href="1a074e9a-9cf9-4ab8-b9a8-68575142a704" style="auto-update-caption: true"&gt;Automatické spracovanie bankových výpisov&lt;/A&gt;&amp;nbsp;(prehľad podporovaných bánk pozri nižšie v&amp;nbsp;časti &lt;EM&gt;Automatický import pomocou Bank API - prehľad podporovaných bánk&lt;/EM&gt;). 
+&lt;LI&gt;&lt;STRONG&gt;import pomocou rozhrania&lt;/STRONG&gt; &lt;STRONG&gt;OBERON Webservices&amp;nbsp;API&lt;/STRONG&gt; - vykonáva sa&amp;nbsp;na základe&amp;nbsp;prepojenia realizovaného tretími stranami, a&amp;nbsp;to&amp;nbsp;prostredníctvom rozhrania&amp;nbsp;&lt;EM&gt;&lt;STRONG&gt;OBERON Webservices&amp;nbsp;API&lt;/STRONG&gt;.&lt;/EM&gt; Na vykonávanie&amp;nbsp;je potrebné nastaviť&amp;nbsp;automatickú úlohu &lt;A href="https://exalogic.sk/help/oberon/Developers_WebServices_BasicInfo.html"&gt;WebServices API - OBERON 2G&lt;/A&gt;. Príkladom tohto prepojenia je služba&amp;nbsp;&lt;A href="9939d41f-a9fa-4840-b3fc-d99e50407161" target=_blank&gt;DATIVERY&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Manuálny import bankových výpisov&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Pred vykonávaním manuálneho importu bankových výpisov do systému OBERON je potrebné vykonať príslušné nastavenia v&amp;nbsp;ponuke &lt;EM&gt;Firma&lt;/EM&gt;,&amp;nbsp;&lt;A href="93ded66f-b7a6-40a8-89e0-bd501cd17bfc" style="auto-update-caption: true"&gt;Vlastné bankové účty&lt;/A&gt;. 
+&lt;LI&gt;Manuálny import bankových výpisov sa vykonáva&amp;nbsp;v&amp;nbsp;ponuke &lt;EM&gt;Účtovníctvo&lt;/EM&gt;,&amp;nbsp;&lt;A href="02bbf54b-086f-4641-8c33-4dd461e56fb4" style="auto-update-caption: true"&gt;Spracovanie bankových výpisov&lt;/A&gt;. Na naimportovanie bankových výpisov&amp;nbsp;je v&amp;nbsp;závislosti od spôsobu manuálneho importu po stlačení tlačidla &lt;EM&gt;Nový&lt;/EM&gt; potrebné zvoliť jednu z&amp;nbsp;nasledujúcich možností: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;&lt;EM&gt;Import bankového výpisu (API)&lt;/EM&gt; -&lt;/STRONG&gt; otvorí sa sprievodca, ktorý umožňuje naimportovať jednotlivé položky bankového výpisu prostredníctvom rozhrania &lt;EM&gt;Bank API&lt;/EM&gt;, 
+&lt;LI&gt;&lt;EM&gt;&lt;STRONG&gt;Import bankového výpisu (zo súboru)&lt;/STRONG&gt;&lt;/EM&gt; - otvorí sa sprievodca, v&amp;nbsp;ktorom je&amp;nbsp;potrebné&amp;nbsp;zvoliť typ (formát)&amp;nbsp;importovaného výpisu na import jednotlivých položiek bankového výpisu. Typ importovaného&amp;nbsp;výpisu je možné prednastaviť vo&amp;nbsp;&lt;A href="93ded66f-b7a6-40a8-89e0-bd501cd17bfc"&gt;formulári Bankový účet&lt;/A&gt;, záložka &lt;EM&gt;Bankové výpisy&lt;/EM&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Ak používate manuálny import bankových výpisov&amp;nbsp;zo súboru, uistite sa, že máte v&amp;nbsp;banke&amp;nbsp;sprístupnenie bankového výpisu v&amp;nbsp;elektronickej forme vo formátoch napr. SEPA XML, ABO, CSV, Gemini a pod. 
+&lt;LI&gt;Pokiaľ sa položka bankového výpisu naimportuje správne, zobrazí sa&amp;nbsp;&lt;STRONG&gt;tučným písmom&lt;/STRONG&gt;, chybne naimportovaná položka sa zobrazí &lt;SPAN style="COLOR: rgb(255,0,0)"&gt;červenou farbou&lt;/SPAN&gt;. 
+&lt;LI&gt;Manuálny import bankových výpisov možno vykonať aj pomocou tlačidla &lt;EM&gt;Možnosti&lt;/EM&gt;, resp. kontextovej ponuky. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget layout="block" type="Drop Down Section"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Manuálny import pomocou Bank API - prehľad podporovaných bánk&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;TABLE id=table4 style="WIDTH: 400px; BORDER-COLLAPSE: collapse" cellPadding=2 width=316 border=0&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TH width=197&gt;&lt;B&gt;Banka&lt;/B&gt;&lt;/TH&gt;
+&lt;TH&gt;&lt;B&gt;API&lt;/B&gt;&lt;/TH&gt;&lt;/TR&gt;
+&lt;TR class=SK&gt;
+&lt;TD class=SK width=197&gt;&lt;A href="d67d60c0-09ce-4ffc-88b8-8f904a9a7a06"&gt;Fio banka&lt;/A&gt;&lt;/TD&gt;
+&lt;TD class=SK align=left&gt;Fio&amp;nbsp;API Bankovníctvo&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR class=SK&gt;
+&lt;TD class=SK width=197&gt;Všetky banky (&lt;A href="bfbd5782-31d5-47a6-a664-1897881b652f"&gt;Everifin&lt;/A&gt;)&lt;/TD&gt;
+&lt;TD class=SK align=left&gt;Everifin BankConnect API&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR class=SK&gt;
+&lt;TD class=SK width=197&gt;&lt;A href="92551fc7-c797-47c7-9c54-b527c2346282"&gt;Tatra banka&lt;/A&gt;&lt;/TD&gt;
+&lt;TD class=SK align=left&gt;Tatra banka Premium API&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget layout="block" type="Drop Down Section"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Manuálny import zo súboru - prehľad podporovaných bánk&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Niektoré banky umožňujú zasielanie informatívnych súborov (napr. s príponou stm, html atď.), ktoré nie sú exportmi zo systému internetbanking alebo homebanking. Takéto výpisy nie je možné importovať priamo do účtovného programu, je potrebné mať zakúpený a&amp;nbsp;nainštalovaný špeciálny softvér od banky, ktorý tento exportovaný súbor dekryptuje. V&amp;nbsp;nasledujúcej tabuľke sú uvedené banky a formáty, ktoré je možné importovať do&amp;nbsp;systému OBERON.&lt;BR&gt;
+&lt;TABLE id=table4 style="HEIGHT: 687px; WIDTH: 400px; BORDER-COLLAPSE: collapse" cellPadding=2 width=316 border=0&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TH width=197&gt;&lt;B&gt;Banka&lt;/B&gt;&lt;/TH&gt;
+&lt;TH&gt;&lt;B&gt;Názov formátu&lt;/B&gt;&lt;/TH&gt;&lt;/TR&gt;
+&lt;TR class=SK&gt;
+&lt;TD class=SK width=197&gt;SEPA výpis z účtu&lt;/TD&gt;
+&lt;TD class=SK align=left&gt;CAMT/XML&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR class=SK&gt;
+&lt;TD class=SK width=197&gt;Obecný formát&lt;/TD&gt;
+&lt;TD class=SK align=left&gt;ABO-GPC&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR class=SK&gt;
+&lt;TD class=SK width=197&gt;Obecný formát&lt;/TD&gt;
+&lt;TD class=SK align=left&gt;Clearing&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD class=SK width=197&gt;Obecný formát&lt;/TD&gt;
+&lt;TD class=SK align=left&gt;Gemini&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD class=CZ width=197&gt;SLSP homebanking&lt;/TD&gt;
+&lt;TD class=CZ align=left&gt;CSV&lt;BR&gt;Clearing&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD class=CZ width=197&gt;SLSP internetbanking&lt;/TD&gt;
+&lt;TD class=CZ align=left&gt;CSV&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD class=CZ width=197&gt;TatraBanka homebanking&lt;/TD&gt;
+&lt;TD class=CZ align=left&gt;ABO-GPC&lt;BR&gt;Clearing&lt;BR&gt;XML&lt;BR&gt;Gemini&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD class=CZ width=197&gt;TatraBanka internetbanking&lt;/TD&gt;
+&lt;TD class=CZ align=left&gt;XML&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR class=CZ&gt;
+&lt;TD class=CZ width=197&gt;VÚB homebanking&lt;/TD&gt;
+&lt;TD class=CZ align=left&gt;ABO-GPC&lt;BR&gt;XML&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR class=CZ&gt;
+&lt;TD class=CZ height=23 width=197&gt;VÚB homebanking - tuzemsko&lt;/TD&gt;
+&lt;TD class=CZ height=23 align=left&gt;XML&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR class=CZ&gt;
+&lt;TD class=CZ width=197&gt;VÚB internetbanking&lt;/TD&gt;
+&lt;TD class=CZ align=left&gt;GPC&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR class=CZ&gt;
+&lt;TD class=CZ width=197&gt;Poštová banka - internetbanking&lt;/TD&gt;
+&lt;TD class=CZ align=left&gt;XML&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD class=SK width=197&gt;Prima banka homebanking&lt;/TD&gt;
+&lt;TD class=SK align=left&gt;ABO-GPC&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD class=SK width=197&gt;Prima banka internetbanking&lt;/TD&gt;
+&lt;TD class=SK align=left&gt;CSV&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD class=SK width=197&gt;ČSOB internetbanking&lt;/TD&gt;
+&lt;TD class=SK align=left&gt;CSV&lt;BR&gt;TXT&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD class=SK width=197&gt;ČSOB homebanking&lt;/TD&gt;
+&lt;TD class=SK align=left&gt;XML&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD class=SK width=197&gt;mBank internetbanking&lt;/TD&gt;
+&lt;TD class=SK align=left&gt;CSV&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD class=SK width=197&gt;OTP internetbanking&lt;/TD&gt;
+&lt;TD class=SK align=left&gt;CSV&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD class=SK width=197&gt;OTP homebanking&lt;/TD&gt;
+&lt;TD class=SK align=left&gt;GPC&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD class=SK width=197&gt;Sberbank internetbanking&lt;/TD&gt;
+&lt;TD class=SK align=left&gt;DLM&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD class=SK width=197&gt;Fio banka&lt;/TD&gt;
+&lt;TD class=SK align=left&gt;CSV&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Automatický&amp;nbsp;import bankových výpisov&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Na automatický import pomocou &lt;STRONG&gt;bankového&amp;nbsp;rozhrania API&lt;/STRONG&gt;&amp;nbsp;konkrétnych bánk (&lt;STRONG&gt;&lt;EM&gt;Bank API&lt;/EM&gt;&lt;/STRONG&gt;) je potrebné vykonať príslušné nastavenia v&amp;nbsp;ponuke &lt;EM&gt;Firma&lt;/EM&gt;,&amp;nbsp;&lt;A href="93ded66f-b7a6-40a8-89e0-bd501cd17bfc" style="auto-update-caption: true"&gt;Vlastné bankové účty&lt;/A&gt;.&amp;nbsp;Ďalej je potrebné&amp;nbsp;nastaviť&amp;nbsp;automatickú úlohu &lt;A href="1a074e9a-9cf9-4ab8-b9a8-68575142a704" style="auto-update-caption: true"&gt;Automatické spracovanie bankových výpisov&lt;/A&gt;. 
+&lt;LI&gt;Na import pomocou &lt;STRONG&gt;rozhrania&lt;/STRONG&gt; &lt;STRONG&gt;OBERON Webservices&amp;nbsp;API&lt;/STRONG&gt;, ktorý sa vykonáva&amp;nbsp;na základe&amp;nbsp;prepojenia realizovaného tretími stranami, je potrebné nastaviť&amp;nbsp;automatickú úlohu &lt;A href="https://exalogic.sk/help/oberon/Developers_WebServices_BasicInfo.html"&gt;WebServices API - OBERON 2G&lt;/A&gt;. Príkladom tohto prepojenia je služba&amp;nbsp;&lt;A href="9939d41f-a9fa-4840-b3fc-d99e50407161" target=_blank&gt;DATIVERY&lt;/A&gt;. 
+&lt;LI&gt;Bankové výpisy naimportované do systému OBERON sa ukladajú do knihy &lt;A href="02bbf54b-086f-4641-8c33-4dd461e56fb4" style="auto-update-caption: true"&gt;Spracovanie bankových výpisov&lt;/A&gt;&amp;nbsp;(ponuka &lt;EM&gt;Účtovníctvo&lt;/EM&gt;). Tu ich možno následne zaúčtovať do účtovného alebo peňažného denníka. Viac informácií získate v&amp;nbsp;témach&amp;nbsp;&lt;A href="02bbf54b-086f-4641-8c33-4dd461e56fb4" style="auto-update-caption: true"&gt;Spracovanie bankových výpisov&lt;/A&gt;&amp;nbsp;a&amp;nbsp;&lt;A href="1a074e9a-9cf9-4ab8-b9a8-68575142a704" style="auto-update-caption: true"&gt;Automatické spracovanie bankových výpisov&lt;/A&gt;. 
+&lt;LI&gt;Pokiaľ sa položka bankového výpisu naimportuje správne, zobrazí sa&amp;nbsp;&lt;STRONG&gt;tučným písmom&lt;/STRONG&gt;, chybne naimportovaná položka sa zobrazí &lt;SPAN style="COLOR: rgb(255,0,0)"&gt;červenou farbou&lt;/SPAN&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget layout="block" type="Drop Down Section"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Automatický&amp;nbsp;import pomocou Bank API - prehľad podporovaných bánk&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;TABLE id=table4 style="WIDTH: 400px; BORDER-COLLAPSE: collapse" cellPadding=2 border=0&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TH width=197&gt;&lt;B&gt;Banka&lt;/B&gt;&lt;/TH&gt;
+&lt;TH&gt;&lt;B&gt;API&lt;/B&gt;&lt;/TH&gt;&lt;/TR&gt;
+&lt;TR class=SK&gt;
+&lt;TD class=SK width=197&gt;&lt;A href="d67d60c0-09ce-4ffc-88b8-8f904a9a7a06"&gt;Fio banka&lt;/A&gt;&lt;/TD&gt;
+&lt;TD class=SK align=left&gt;Fio&amp;nbsp;API Bankovníctvo&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR class=SK&gt;
+&lt;TD class=SK width=197&gt;Všetky banky (&lt;A href="bfbd5782-31d5-47a6-a664-1897881b652f"&gt;Everifin&lt;/A&gt;)&lt;/TD&gt;
+&lt;TD class=SK align=left&gt;Everifin BankConnect API&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR class=SK&gt;
+&lt;TD class=SK width=197&gt;&lt;A href="92551fc7-c797-47c7-9c54-b527c2346282"&gt;Tatra banka&lt;/A&gt;&lt;/TD&gt;
+&lt;TD class=SK align=left&gt;Tatra banka Premium API&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget layout="block" type="Drop Down Section"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Automatický&amp;nbsp;import pomocou&amp;nbsp;OBERON Webservices&amp;nbsp;API - prehľad podporovaných služieb&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;TABLE id=table4 style="WIDTH: 400px; BORDER-COLLAPSE: collapse" cellPadding=2 width=316 border=0&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TH height=17 width=197&gt;&lt;B&gt;Služba&lt;/B&gt;&lt;/TH&gt;
+&lt;TH height=17&gt;&lt;B&gt;API&lt;/B&gt;&lt;/TH&gt;&lt;/TR&gt;
+&lt;TR class=SK&gt;
+&lt;TD class=SK width=197&gt;&lt;A href="9939d41f-a9fa-4840-b3fc-d99e50407161"&gt;DATIVERY&lt;/A&gt;&lt;/TD&gt;
+&lt;TD class=SK align=left&gt;OBERON Webservices API&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="fe9be13d-5deb-4a52-9aa3-ff48e0681d33" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="cb667999-05bb-4bef-9377-908411eb1ac2">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="3eb5df9c-e02c-4a4b-a6d7-3a27f9c80120" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="02bbf54b-086f-4641-8c33-4dd461e56fb4">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="0879505e-e381-4290-8937-4590adf5c86e" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1a074e9a-9cf9-4ab8-b9a8-68575142a704">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="21794585-3032-44dd-b0b0-3db6e98bce2e" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="da8a9192-a6cc-4470-b5d5-13d3ec435f97">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="ce5df3e7-a103-4b25-8d7d-3af204184377" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="6dd73cf9-75cf-48d2-a903-62cd66b9478a">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="0584375d-0ce7-4b90-a7cb-418b56970787" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="93ded66f-b7a6-40a8-89e0-bd501cd17bfc">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="e179ce5e-b6f5-4e66-a850-139d42e68107" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="836278d3-cfe9-4218-aaf5-51ee9fd113fe">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="d91ef361-d3a1-47aa-affe-bbf16e3b3dc3" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="d67d60c0-09ce-4ffc-88b8-8f904a9a7a06">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="38398cd3-f038-4d12-91a6-8bd4862f563d" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="bfbd5782-31d5-47a6-a664-1897881b652f">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="91b04e45-14db-4ddd-b70e-1d97a6803c04" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="92551fc7-c797-47c7-9c54-b527c2346282">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="cd67556c-0bb7-46bc-af32-d213f6fa0107">
+      <Keyword m="2023-09-18T07:14:58.709593Z">Bankové výpisy - spôsoby importu</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="bf7c975c-0dd9-4dc0-ae8b-02dcec331bb2">
+      <Keyword m="2023-09-18T07:15:20.5534377Z">Import bankových výpisov - spôsoby</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="2f4ac6eb-da66-49bf-a9c3-084d31f3db6a">
+      <Keyword m="2023-09-18T07:19:19.1932829Z">API - import bankových výpisov</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="462d646f-5b2d-4e0d-913e-700253ea14be">
+      <Keyword m="2023-09-18T07:19:46.0365628Z">Súbor - import bankových výpisov</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="16140323-8340-4434-881a-14e3d683b026">
+      <Keyword m="2023-09-18T07:23:52.5094638Z">Manuálny import bankových výpisov</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="c426589f-fe6e-45e3-8a94-1f182d54d4b6">
+      <Keyword m="2023-09-18T07:24:13.8323806Z">Automatický import bankových výpisov</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="692de9a1-1d02-4216-a37c-955ca012116a">
+      <Keyword m="2023-09-18T07:25:36.6830723Z">Manuálny import zo súboru - prehľad podporovaných bánk</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="e123d1a6-77f1-470e-aaca-3ccbc2571cac">
+      <Keyword m="2023-09-18T07:25:48.6125123Z">Manuálny import pomocou Bank API - prehľad podporovaných bánk</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="51092da1-e7fa-4ad8-ace3-124356d9babc">
+      <Keyword m="2023-09-18T07:25:59.3742853Z">Automatický import pomocou Bank API - prehľad podporovaných bánk</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="c332e883-0c42-4a3d-b9a4-227d903453c6">
+      <Keyword m="2023-09-18T07:26:07.8163171Z">Automatický import pomocou OBERON Webservices API - prehľad podporovaných služieb</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="058a16ec-de8f-449f-9812-fd58efc41785">
+      <Keyword m="2023-09-28T10:00:44.0902383Z">Barion</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="39a148ed-8070-4ac5-b462-77862066b440">
+      <Keyword m="2023-09-28T10:00:54.0482378Z">Besteron</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="b1d55917-27b8-4f2d-8e36-06b403872217">
+      <Keyword m="2023-09-28T10:01:04.1652902Z">GP Webpay</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="6bf1c7ee-9ea9-4f19-a624-411ddb22d94a">
+      <Keyword m="2023-09-28T10:01:14.1548719Z">Packeta</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="484408d8-d25a-4376-948b-bd972ef39d8f">
+      <Keyword m="2023-09-28T10:42:13.2003891Z">Bank API - import bankových výpisov</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

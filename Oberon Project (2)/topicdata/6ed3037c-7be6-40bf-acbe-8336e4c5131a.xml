@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="6ed3037c-7be6-40bf-acbe-8336e4c5131a" Status="Complete" CreatedOn="2023-04-13T09:18:28.8242578Z" ModifiedOn="2023-04-13T10:10:57.0696499Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Acc_Advanced_CustomsDebt" BuildFlags="">
+  <Title m="2023-04-13T09:19:26.6287312Z">Zaevidovanie colného dlhu</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-04-13T10:10:57.0696499Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;informácie o postupe pri zaevidovaní colného dlhu&lt;/STRONG&gt; tak v&amp;nbsp;&lt;A href="49dd3167-870a-4fdf-b631-d4f692f1ed72"&gt;podvojnom&lt;/A&gt;, ako aj v&amp;nbsp;&lt;A href="32be28cf-2368-4818-9d24-cfa9d59afb75"&gt;jednoduchom účtovníctve&lt;/A&gt;&amp;nbsp;systému OBERON.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Tak v&amp;nbsp;&lt;A href="49dd3167-870a-4fdf-b631-d4f692f1ed72"&gt;podvojnom&lt;/A&gt;, ako aj v&amp;nbsp;&lt;A href="32be28cf-2368-4818-9d24-cfa9d59afb75"&gt;jednoduchom účtovníctve&lt;/A&gt; systému OBERON&amp;nbsp;predstavuje zaúčtovanie colného dlhu do&amp;nbsp;&lt;A href="d8c9bfc8-92d1-4471-8909-e5f8ce602d6c"&gt;účtovného&lt;/A&gt;, resp. &lt;A href="5e82cca9-b8af-4a80-ba30-7ab91914a595"&gt;peňažného denníka&lt;/A&gt; určité špecifikum. Z&amp;nbsp;dôvodu správneho zaevidovania DPH ho &lt;STRONG&gt;nemožno účtovať priamo do účtovného/peňažného denníka&lt;/STRONG&gt;, najskôr sa musí zaevidovať do&amp;nbsp;&lt;A href="55028746-c263-4d92-a615-502222e8d53b"&gt;knihy záväzkov&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Postup zaevidovania colného dlhu&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;V&amp;nbsp;ponuke&amp;nbsp;&lt;I&gt;Fakturácia&lt;/I&gt; zvoľte položku&amp;nbsp;&lt;A href="55028746-c263-4d92-a615-502222e8d53b"&gt;Kniha záväzkov&lt;/A&gt;. 
+&lt;LI&gt;V&amp;nbsp;otvorenej evidencii stlačte tlačidlo &lt;I&gt;Nový&lt;/I&gt;, otvorí sa sprievodca&amp;nbsp;vytvorením nového dokladu. 
+&lt;LI&gt;Zvoľte &lt;EM&gt;Štandardné zadanie&lt;/EM&gt;,&amp;nbsp;vyberte typ dokladu &lt;STRONG&gt;&lt;EM&gt;Colný dlh&lt;/EM&gt;&lt;/STRONG&gt;, obchodného partnera a&amp;nbsp;stlačte tlačidlo &lt;EM&gt;Dokončiť&lt;/EM&gt;. 
+&lt;LI&gt;Otvorí sa&amp;nbsp;&lt;A href="a7aeeeec-b6b6-45c5-b3d0-fe4f13937945"&gt;formulár Záväzok&lt;/A&gt;&lt;EM&gt;.&lt;/EM&gt; Vyplňte príslušné polia. V záložke &lt;EM&gt;Položky dokladu&lt;/EM&gt; pridajte clo a&amp;nbsp;základ DPH. Pri&amp;nbsp;cle&amp;nbsp;uveďte DPH so sadzbou&amp;nbsp;0. Výšku colného dlhu možno zadať aj bez použitia položiek na faktúre, a&amp;nbsp;to&amp;nbsp;zapísaním do poľa &lt;EM&gt;Bez DPH&lt;/EM&gt; v dolnej časti formulára. 
+&lt;LI&gt;Po stlačení tlačidla &lt;I&gt;OK&lt;/I&gt; sa colný dlh uloží do &lt;EM&gt;Knihy záväzkov&lt;/EM&gt;. &lt;/LI&gt;&lt;/OL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Postupom, keď sa colný dlh najskôr zaeviduje v&amp;nbsp;&lt;A href="55028746-c263-4d92-a615-502222e8d53b"&gt;Knihe záväzkov&lt;/A&gt;, sa zabezpečí, aby program pridal do&amp;nbsp;&lt;A href="eb506116-6287-4c49-b289-8d1ee5614f0f"&gt;Knihy evidencie DPH&lt;/A&gt; k&amp;nbsp;tejto DPH aj prislúchajúci základ a zároveň aby po zaúčtovaní colného dlhu do&amp;nbsp;&lt;A href="d8c9bfc8-92d1-4471-8909-e5f8ce602d6c"&gt;účtovného&lt;/A&gt;, resp. &lt;A href="5e82cca9-b8af-4a80-ba30-7ab91914a595"&gt;peňažného denníka&lt;/A&gt;&amp;nbsp;základ DPH neovplyvnil nákladovú položku účtovnej jednotky. To by nebolo možné zabezpečiť, keby sa colný dlh zaúčtoval priamo do účtovného/peňažného denníka. Colný dlh vstupuje do&amp;nbsp;&lt;A href="eb506116-6287-4c49-b289-8d1ee5614f0f"&gt;Knihy evidencie DPH&lt;/A&gt;&amp;nbsp;až po&amp;nbsp;zaúčtovaní úhrady colného dlhu do&amp;nbsp;účtovného/peňažného denníka.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;V téme&amp;nbsp;&lt;A href="02b75430-21aa-456d-98da-deb0948edc3a" style="auto-update-caption: true"&gt;Príklad zaevidovania colného dlhu&lt;/A&gt;&amp;nbsp;je&amp;nbsp;uvedený príklad zaevidovania colného dlhu v&amp;nbsp;systéme OBERON.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="5cd0d250-7361-4b20-897c-9aee5522e0d1" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="d8c9bfc8-92d1-4471-8909-e5f8ce602d6c">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="40ef69d5-d0bd-4b0f-8107-a05a89ff2091" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="5e82cca9-b8af-4a80-ba30-7ab91914a595">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="77e8ce5f-e826-4f42-a722-96273d5af932" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="051c8fb5-bb27-4f40-bfd9-b4f57e24b4c9">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="7c98edad-b77d-4a07-ab34-b1b36c814f0e">
+      <Keyword m="2023-04-13T09:23:43.8878183Z">Colný dlh - zaevidovanie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="c7b5897d-92e1-488a-bff1-88da45369125">
+      <Keyword m="2023-04-13T09:23:32.9180803Z">Clo - zaevidovanie colného dlhu</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="1e77a4ea-9d02-498a-b332-0a5a036b23d7" Status="Complete" CreatedOn="2014-09-05T15:48:42.2155912Z" ModifiedOn="2023-02-22T11:26:31.0013877Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="50230" Name="Menu_Stock_CashRegister_PLU_BillJournal" BuildFlags="">
+  <Title m="2014-09-05T15:48:56.7944251Z">Súhrn predaja</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-02-22T11:26:31.0013877Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;je venovaná&amp;nbsp;položke&amp;nbsp;&lt;EM&gt;Súhrn predaja&lt;/EM&gt; v ponuke &lt;EM&gt;Sklad, Registračné pokladnice&lt;/EM&gt;&amp;nbsp;programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;. Položka je dostupná len v prípade, že sa vo firme používa &lt;STRONG&gt;niektorá z&amp;nbsp;podporovaných registračných&amp;nbsp;pokladníc&lt;/STRONG&gt;, t. j. v&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="749ff4f1-eeb5-43f5-98d2-021399d8cec7"&gt;Zariadenia&lt;/A&gt; je&amp;nbsp;pridaná aspoň jedna&amp;nbsp;&lt;A href="2edf9500-71d3-4b5c-9d44-990261fb51bc"&gt;registračná pokladnica v režime off-line&lt;/A&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&amp;nbsp;&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Výberom položky sa otvorí&amp;nbsp;&lt;STRONG&gt;zoznam predaných množstiev&lt;/STRONG&gt;, ktoré boli vyčítané z&amp;nbsp;&lt;A href="2edf9500-71d3-4b5c-9d44-990261fb51bc"&gt;registračnej pokladnice (prípadne viacerých registračných pokladníc) v režime off-line&lt;/A&gt;. V&amp;nbsp;zozname je možné jednotlivé záznamy prezerať a&amp;nbsp;pomocou tlačových výstupov vyhodnocovať daný predaj. 
+&lt;LI&gt;Záznamy sa do zoznamu &lt;STRONG&gt;zapisujú automaticky&lt;/STRONG&gt; pri tzv.&amp;nbsp;&lt;A href="fb814763-c53d-473c-821d-ebbf53114723"&gt;Čítaní PLU z pokladnice&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Bližšie informácie o ovládaní evidencie, používaní filtrov, triedení záznamov a pod. sú dostupné v téme&amp;nbsp;&lt;A href="8936fde4-aac3-4672-99a2-c8bd5ccffdcd"&gt;Ovládanie knihy (evidencie)&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="43e15bda-1d5f-4c40-9672-c922a9c91fd2" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="2edf9500-71d3-4b5c-9d44-990261fb51bc">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="9c0ffa50-98fe-4e6a-8411-54ef5c37de48" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="fb814763-c53d-473c-821d-ebbf53114723">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="e5f0846e-973b-4ff1-b358-ef2ce3e557f7">
+      <Keyword m="2021-04-30T12:37:53.4747512Z">Registračné pokladnice v režime off-line - súhrn predaja</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

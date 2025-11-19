@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="e040a1de-5802-4302-ad10-3e2222949604" Status="Complete" CreatedOn="2022-01-21T07:20:20.6021637Z" ModifiedOn="2023-02-13T13:51:14.1421136Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Menu_Firm_Pref_States" BuildFlags="">
+  <Title m="2022-01-21T07:20:57.8236807Z">Štáty</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2022-01-25T08:29:15.6594757Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;je venovaná&amp;nbsp;položke&amp;nbsp;&lt;EM&gt;Štáty&lt;/EM&gt;&amp;nbsp;v ponuke&amp;nbsp;&lt;EM&gt;Firma,&amp;nbsp;Predvoľby&lt;/EM&gt;&amp;nbsp;programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Výberom položky sa otvorí&amp;nbsp;číselník &lt;EM&gt;Štáty&lt;/EM&gt;, v&amp;nbsp;ktorom je možné &lt;STRONG&gt;definovať štáty, krajiny alebo závislé územia&lt;/STRONG&gt;, a&amp;nbsp;to podľa medzinárodnej normy (číselníka) krajín&amp;nbsp;&lt;A href="https://sk.wikipedia.org/wiki/ISO_3166-1" target=_blank&gt;ISO 3166-1&lt;/A&gt;. 
+&lt;LI&gt;Pridanie štátu má v&amp;nbsp;systéme OBERON&amp;nbsp;význam napr. pri ubytovaní osôb v module&amp;nbsp;&lt;A href="c3bd41f0-029e-4c74-b342-b0ffff647b6e"&gt;Hotelová recepcia&lt;/A&gt;&amp;nbsp;alebo pri režime&amp;nbsp;&lt;A href="fbb3fe9e-2f4a-401b-bb15-384245126a0a"&gt;One Stop Shop (OSS)&lt;/A&gt;, ale slúži aj &lt;STRONG&gt;na pridanie jazyka&lt;/STRONG&gt; daného štátu do OBERON-u. Okrem slovenského jazyka je na výber&amp;nbsp;dvanásť&amp;nbsp;spravidla svetových jazykov, resp. jazykov susedných krajín. Pridanie daného jazyka je dôležité z&amp;nbsp;hľadiska prekladov dát v&amp;nbsp;OBERON-e. Viac informácií získate v téme&amp;nbsp;&lt;A href="04d2db16-08ec-459e-b5c9-71dd3a9f9e2f"&gt;Jazykové verzie OBERON-u&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Definovať nový štát, krajinu alebo závislé územie je možné pomocou&amp;nbsp;&lt;A href="c74441ae-8cdd-4bf2-940c-a1041ed9c586"&gt;formulára Štát&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="53c93748-d928-4ffd-b95a-456e60284a05" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="5570e633-ca2e-4887-9361-57c5ce552da6">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="9843ad9c-5d52-4139-93f2-bec480aed059" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="0b9519ff-9438-422b-a3e8-358b628293e9">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="b3103b75-d6b7-4b5b-b44e-0178a23707fb" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="fbb3fe9e-2f4a-401b-bb15-384245126a0a">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="6adc2711-42bc-4eea-8e8a-7da61e815417" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="04d2db16-08ec-459e-b5c9-71dd3a9f9e2f">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="7d40fbbe-8971-4db9-95ce-4c2fdf21ef00" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="c74441ae-8cdd-4bf2-940c-a1041ed9c586">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="3d31be84-cfa8-486a-b08f-bd4336f4916c">
+      <Keyword m="2022-01-21T07:34:27.4799288Z">Zoznam štátov - číselník</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="e6abbb67-a146-41d6-a79f-edb178ad2fc0">
+      <Keyword m="2022-01-21T07:34:45.0460805Z">Číselník štátov</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="c5c29fbd-2d24-4ebb-a551-0242d79b31d7">
+      <Keyword m="2022-01-21T07:34:56.4639007Z">Jazyk - pridanie do OBERON-u</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="da1b9f15-49c9-4944-b48a-d8b78d5c92e5">
+      <Keyword m="2022-01-21T07:35:12.123372Z">Kódy štátov</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="782a7834-b0db-463f-a7d9-ab91d76f078a">
+      <Keyword m="2022-01-21T07:35:18.3984047Z">Štát - číselník</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="be7fae61-9385-478f-8745-03cd4afae7d3">
+      <Keyword m="2023-02-13T13:50:32.8728189Z">Štáty - číselník</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="7c1c4f2c-a40d-4c56-8ed8-643e43a678ff">
+      <Keyword m="2022-01-21T07:35:29.4005217Z">Vízum - štáty</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="e8455fc1-3c53-455a-b5bf-df6cf34f634a">
+      <Keyword m="2022-01-21T07:41:46.5607391Z">Vízová povinnosť - štáty</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="c60c30f2-5b6f-4f0b-b84a-faac0bb20fa7">
+      <Keyword m="2022-01-21T07:42:06.4895454Z">Víza - štáty</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="1f8425ad-654a-456e-8b55-07cf1262be63">
+      <Keyword m="2023-02-13T13:51:13.3453664Z">Krajiny - číselník</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

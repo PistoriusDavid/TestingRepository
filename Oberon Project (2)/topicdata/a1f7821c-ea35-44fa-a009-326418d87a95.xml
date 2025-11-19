@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="a1f7821c-ea35-44fa-a009-326418d87a95" Status="Complete" CreatedOn="2014-09-11T11:04:12.4936642Z" ModifiedOn="2023-05-26T07:59:07.558389Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="51030" Name="Stock_Advanced_Orders_Order_Import_Invoice" BuildFlags="">
+  <Title m="2018-02-12T12:14:14.6990822Z">Import objednávky do faktúry</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-05-26T07:59:07.558389Z">&lt;P&gt;V&amp;nbsp;systéme OBERON je možné položky z&amp;nbsp;&lt;A href="a93948ab-009e-4c8c-9467-60d60a3eb342"&gt;vydanej objednávky&lt;/A&gt; vložiť do&amp;nbsp;&lt;A href="efed1882-1614-4406-b57a-3023aee6ba26"&gt;príjemky&lt;/A&gt; alebo priamo do&amp;nbsp;&lt;A href="55028746-c263-4d92-a615-502222e8d53b"&gt;faktúry (záväzku)&lt;/A&gt;. Postup je obdobný, v&amp;nbsp;tejto téme je popísaný &lt;STRONG&gt;postup ako vytvoriť z&amp;nbsp;vydanej objednávky faktúru (záväzok)&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;H2&gt;Vytvorenie&amp;nbsp;záväzku z vydanej objednávky&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;V ponuke &lt;I&gt;Fakturácia&lt;/I&gt; zvoľte položku &lt;A href="55028746-c263-4d92-a615-502222e8d53b"&gt;Kniha záväzkov&lt;/A&gt;. 
+&lt;LI&gt;V&amp;nbsp;otvorenej evidencii stlačte tlačidlo &lt;I&gt;Nový&lt;/I&gt;, zobrazí sa sprievodca &lt;I&gt;Nový doklad&lt;/I&gt;. Zvoľte spôsob vytvorenia nového záväzku &lt;EM&gt;&lt;STRONG&gt;z&amp;nbsp;objednávky vydanej&lt;/STRONG&gt;&lt;/EM&gt;. V&amp;nbsp;ďalšom kroku vyberte konkrétnu objednávku vydanú a ďalej&amp;nbsp;&lt;A href="b479a7dd-6c07-4548-862f-a38cbf1b872d"&gt;zadajte, prípadne upravte požadované údaje&lt;/A&gt;. 
+&lt;LI&gt;Druhou možnosťou je&amp;nbsp;zvoliť &lt;EM&gt;&lt;STRONG&gt;štandardné zadanie&lt;/STRONG&gt;&lt;/EM&gt;. V ďalších krokoch&amp;nbsp;&lt;A href="b479a7dd-6c07-4548-862f-a38cbf1b872d"&gt;zadajte, prípadne upravte požadované údaje&lt;/A&gt;. 
+&lt;LI&gt;Stlačením tlačidla&amp;nbsp;&lt;I&gt;Dokončiť&lt;/I&gt; sa otvorí &lt;A href="a7aeeeec-b6b6-45c5-b3d0-fe4f13937945"&gt;formulár Záväzok&lt;/A&gt;. 
+&lt;LI&gt;Stlačte tlačidlo &lt;EM&gt;Možnosti&lt;/EM&gt;, prípadne pravé tlačidlo myši a vyberte možnosť &lt;EM&gt;Vložiť položky z objednávky vydanej&lt;/EM&gt;. 
+&lt;LI&gt;Zobrazí sa kniha &lt;EM&gt;Objednávky vydané&lt;/EM&gt;. Vyberte položky, ktoré&amp;nbsp;sa naimportujú do dokladu. Keďže nie vždy je dodaný tovar zhodný s&amp;nbsp;objednaným, vo formulári&amp;nbsp;&lt;EM&gt;Záväzok&lt;/EM&gt; je možné upraviť dodaný počet, prípadne cenu položiek. Ak objednaná položka nebola vôbec dodaná, možno ju jednoducho vynechať. 
+&lt;LI&gt;Po naimportovaní poslednej položky sa tento formulár zatvorí, pričom v&amp;nbsp;záväzku je možné skontrolovať naimportované položky. 
+&lt;LI&gt;Zápis údajov potvrďte stlačením tlačidla &lt;I&gt;&lt;STRONG&gt;OK&lt;/STRONG&gt;&lt;/I&gt;. &lt;/LI&gt;&lt;/OL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="417134da-7eff-4f07-a81a-1a9200a14cf5" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="c91cdf0d-f982-42ce-a348-4fb310046672">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="994c66db-011e-4853-8a2d-7523f95a3d66" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="a93948ab-009e-4c8c-9467-60d60a3eb342">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="f53518c9-83ef-4710-9b05-bdb95abcc47f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="a9a8c655-077e-45cb-acb3-8fdb105a2409">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="0ae93cb3-397d-4ea8-b47d-082cc714bdb0" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="b479a7dd-6c07-4548-862f-a38cbf1b872d">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="9875a191-b655-4908-bdca-c2461cc115b9">
+      <Keyword m="2021-09-20T12:48:27.4959308Z">Vydaná objednávka - import do faktúry (záväzku)</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="44e7a25d-1b29-4c67-9a1d-1bdcd0c5fdb1">
+      <Keyword m="2021-09-20T12:48:12.7914917Z">Objednávka vydaná - import do faktúry (záväzku)</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

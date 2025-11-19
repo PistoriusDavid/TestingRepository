@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="78bceae1-1cc7-4e31-a232-24b38044c3d0" Status="Complete" CreatedOn="2014-09-10T06:38:16.8382556Z" ModifiedOn="2023-04-05T10:16:47.5948893Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="51016" Name="Stock_Advanced_Komisionalny" BuildFlags="">
+  <Title m="2014-09-10T06:38:44.8228562Z">Komisionálny predaj</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-04-05T08:34:50.6072605Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; je venovaná&amp;nbsp;&lt;STRONG&gt;problematike komisionálneho predaja&lt;/STRONG&gt; v&amp;nbsp;systéme OBERON.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Komisionálny (komisný) predaj&amp;nbsp;predstavuje &lt;STRONG&gt;predaj tovaru, ktorý dodávateľ (vlastník, komitent) prenechá odberateľovi (predajca, komisionár) na predaj&amp;nbsp;s&amp;nbsp;cieľom získať&amp;nbsp;dohodnutú províziu&lt;/STRONG&gt;. Za tovar prevzatý do komisionálneho predaja odberateľ neplatí dodávateľovi pri jeho prevzatí, ale až po uskutočnení predaja. 
+&lt;LI&gt;V&amp;nbsp;závislosti od toho, či sa tovar na komisionálny tovar prijíma alebo dodáva, rozlišujeme&amp;nbsp;nasledujúce typy komisionálneho predaja: &lt;/LI&gt;&lt;/UL&gt;
+&lt;H3&gt;1. Prijaté&amp;nbsp;na komisionálny predaj&amp;nbsp;&lt;/H3&gt;
+&lt;UL&gt;
+&lt;LI&gt;Pri tomto type komisionálneho predaja &lt;STRONG&gt;účtovná jednotka prijíma&amp;nbsp;tovar&amp;nbsp;na komisionálny predaj od dodávateľov&lt;/STRONG&gt;. 
+&lt;LI&gt;Pri položkách, ktoré sú prijaté&amp;nbsp;na komisionálny predaj, je potrebné vo&amp;nbsp;&lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;formulári Skladová karta&lt;/A&gt;, záložka &lt;EM&gt;Doplň. údaje&lt;/EM&gt;&amp;nbsp;začiarknuť pole &lt;I&gt;&lt;STRONG&gt;Prijaté&amp;nbsp;na komisionálny predaj&lt;/STRONG&gt;.&lt;/I&gt; Zároveň je pri týchto položkách potrebné &lt;STRONG&gt;zadať aj dodávateľa&lt;/STRONG&gt; (v záložke &lt;EM&gt;Objednávky&lt;/EM&gt;), a to najmä v&amp;nbsp;prípade, že účtovná jednotka prijíma na komisionálny predaj&amp;nbsp;ten istý tovar od viacerých dodávateľov - vtedy&amp;nbsp;je potrebné vytvoriť viac skladových kariet (pre každého dodávateľa jednu). Dodávateľ sa na skladovej karte zadáva pre potreby&amp;nbsp;hlásenia o&amp;nbsp;predaji - dodávateľom&amp;nbsp;sa totiž v&amp;nbsp;dohodnutých intervaloch podáva hlásenie o predaji komisionálnych položiek, čo potom slúži ako podklad pre&amp;nbsp;vyúčtovanie toho, čo&amp;nbsp;sa predalo. Takéto hlásenie je dostupné v&amp;nbsp;knihe&amp;nbsp;&lt;A href="fc7595a6-54ce-4aa9-acb4-93d7880e854e"&gt;Skladové pohyby&lt;/A&gt;, tlačový výstup &lt;I&gt;Komisionálny predaj&amp;nbsp;-&amp;nbsp;hlásenie o predaji.&lt;/I&gt; 
+&lt;LI&gt;Vzhľadom na účtovníctvo položka prijatá na komisionálny predaj nie je majetkom účtovnej jednotky (stále je majetkom dodávateľa), čiže sa &lt;STRONG&gt;nepočíta do účtovného stavu zásob&lt;/STRONG&gt;. Na základe nastavení na skladových kartách&amp;nbsp;je preto&amp;nbsp;možné &lt;STRONG&gt;členiť skladové karty na bežné a komisionálne&lt;/STRONG&gt;. Následne&amp;nbsp;možno podľa tohto členenia vytlačiť tlačový výstup &lt;I&gt;&lt;STRONG&gt;Stavy zásob (skladových kariet) k&amp;nbsp;dátumu&lt;/STRONG&gt;&lt;/I&gt; (z&amp;nbsp;knihy&amp;nbsp;&lt;A href="1a33ab0b-2df7-4dc2-962b-8a3319c16831"&gt;Skladové karty&lt;/A&gt;). 
+&lt;LI&gt;Predaj komisionálnych položiek je totožný s&amp;nbsp;predajom bežných skladových položiek&amp;nbsp;(je&amp;nbsp;ich možné vyskladniť&amp;nbsp;výdajkou, faktúrou, pokladničným predajom...). &lt;/LI&gt;&lt;/UL&gt;
+&lt;H3&gt;2. Poskytnuté&amp;nbsp;na komisionálny predaj&amp;nbsp;&lt;/H3&gt;
+&lt;UL&gt;
+&lt;LI&gt;Pri tomto type komisionálneho predaja &lt;STRONG&gt;účtovná jednotka dodáva&amp;nbsp;tovar na komisionálny predaj odberateľom&lt;/STRONG&gt;. 
+&lt;LI&gt;Na&amp;nbsp;správne a prehľadné evidovanie týchto položiek odporúčame &lt;STRONG&gt;vytvoriť pre každého odberateľa samostatný komisionálny&amp;nbsp;sklad&lt;/STRONG&gt;, a to tak, že&amp;nbsp;sa vo formulári &lt;EM&gt;Sklad&lt;/EM&gt;, záložka &lt;EM&gt;Komisionálny sklad&lt;/EM&gt; (ponuka&amp;nbsp;&lt;EM&gt;Sklad&lt;/EM&gt;, &lt;A href="1e423d36-8e0a-4420-b2e9-05f12806ec3a"&gt;Sklady&lt;/A&gt;) priradí k&amp;nbsp;danému skladu&amp;nbsp;odberateľ. Poskytnutie tovaru odberateľovi sa uskutoční &lt;STRONG&gt;prevodkou&lt;/STRONG&gt; zo skladu účtovnej jednotky (dodávateľa) do komisionálneho skladu. Vystavenie daňového dokladu (faktúry, pokladničného dokladu) bude potom vyskladnením tovaru z&amp;nbsp;komisionálneho skladu. Pri takomto sledovaní je možné v ktoromkoľvek okamihu zistiť, aký tovar a aké množstvo tovaru má&amp;nbsp;daný odberateľ na sklade. 
+&lt;LI&gt;Pri prevodkách tovaru&amp;nbsp;do komisionálneho skladu odberateľa vzhľadom na obstarávacie a predajné ceny možno postupovať takto: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;B&gt;prevod robiť v predajných cenách&lt;/B&gt; - pri tomto spôsobe účtovná jednotka zadáva do prevodky predajné ceny, ktoré sú vlastne obstarávacími cenami pre odberateľa. Problém však vznikne, keď odberateľ tovar nepredá a je potrebné ho previesť späť&amp;nbsp;do&amp;nbsp;skladu účtovnej jednotky. Ak by sa do prevodky zadala obstarávacia cena odberateľa, umelo by sa zvýšila priemerná obstarávacia cena tovaru v&amp;nbsp;sklade účtovnej jednotky. Napríklad obstarávacia cena tovaru je 1,50 €, odberateľovi&amp;nbsp;sa prevedie do jeho komisionálneho skladu za 2 €. Ak odberateľ tovar nepredá, je potrebné urobiť prevod späť do skladu účtovnej jednotky. Ak by&amp;nbsp;sa tovar previedol za 2 €, zvýšilo by&amp;nbsp;to obstarávaciu cenu v&amp;nbsp;sklade účtovnej jednotky. 
+&lt;LI&gt;&lt;B&gt;prevod robiť v obstarávacích cenách&lt;/B&gt; - pri tomto spôsobe&amp;nbsp;sa prevod uskutočňuje v&amp;nbsp;obstarávacích cenách. Problémom je však prevodka, na ktorej sú uvedené&amp;nbsp;obstarávacie ceny&amp;nbsp;účtovnej jednotky -&amp;nbsp;takýto doklad nie je možné odberateľovi poskytnúť. Skladová evidencia to rieši takto: po vytvorení prevodky sa v&amp;nbsp;komisionálnom sklade automaticky vytvorí príjemka. V&amp;nbsp;knihe &lt;I&gt;Príjemky&lt;/I&gt; je možné vytlačiť &lt;I&gt;&lt;STRONG&gt;Dodací list (komisionálny sklad)&lt;/STRONG&gt;,&lt;/I&gt; v ktorom sú uvedené&amp;nbsp;&lt;STRONG&gt;predajné ceny&lt;/STRONG&gt; účtovnej jednotky (na skladovej karte sú celkom štyri predajné ceny, pri tlači sa použije tá, ktorá je priradená danému odberateľovi vo &lt;A href="4fbe9db8-25bc-420f-aee5-228d0a8ff03f"&gt;formulári Obchodný partner&lt;/A&gt;, záložka &lt;EM&gt;Ceny&lt;/EM&gt;). Aby bolo možné takýto dodací list vytlačiť, je potrebné mať vo formulári &lt;EM&gt;Sklad&lt;/EM&gt;, záložka &lt;EM&gt;Komisionálny sklad&lt;/EM&gt;&amp;nbsp;daného odberateľa priradeného ku komisionálnemu skladu (ponuka&amp;nbsp;&lt;EM&gt;Sklad&lt;/EM&gt;, &lt;A href="1e423d36-8e0a-4420-b2e9-05f12806ec3a"&gt;Sklady&lt;/A&gt;). &lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Príklad&lt;/H2&gt;
+&lt;P&gt;Dodávateľ (vlastník, komitent) poskytne odberateľovi (predajcovi, komisionárovi)&amp;nbsp;na komisionálny predaj 100 kusov drevených varešiek. Dodávateľ vytvorí prevodku zo svojho skladu do komisionálneho skladu. Odberateľ prijme tovar príjemkou&amp;nbsp;do svojho skladu. V&amp;nbsp;dohodnutom termíne odberateľ pomocou tlačového výstupu &lt;EM&gt;Komisionálny predaj - hlásenie o predaji&lt;/EM&gt; zistí, že predal 40 kusov varešiek. Tlačový výstup pošle dodávateľovi, ktorý mu z komisionálneho skladu vystaví daňový doklad na 40 kusov.&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="05aa061b-bd95-4cdb-b06d-c1f148369578" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1e423d36-8e0a-4420-b2e9-05f12806ec3a">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="72b9aa62-8300-459b-8463-9d01eb42e0a5" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1a33ab0b-2df7-4dc2-962b-8a3319c16831">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="e40b6352-6c54-4d8a-b68f-6ef5aad83e0f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="fc7595a6-54ce-4aa9-acb4-93d7880e854e">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="c8e22ad4-658e-4870-8e6a-9765a3397ac6" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="c233ada3-0fed-4911-97f3-0680973ebac1">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="76a4b141-a909-4632-a231-b7570756264c" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="4fbe9db8-25bc-420f-aee5-228d0a8ff03f">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="dfc8bf01-1864-447f-ab33-14e3a9560182" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="69bbd499-45c0-4b0f-8f7a-c53fa5d70c1b">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="f9d16aee-2ce2-47a2-baae-2785e702611e">
+      <Keyword m="2023-04-05T08:36:28.2824448Z">Komisný predaj</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="886139aa-e4de-485d-920c-cbd805804b51">
+      <Keyword m="2023-04-05T08:37:28.6588695Z">Komitent</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="b0b094b4-f7db-474c-a72c-b311c3ccad16">
+      <Keyword m="2023-04-05T08:37:38.3485167Z">Komisionár</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

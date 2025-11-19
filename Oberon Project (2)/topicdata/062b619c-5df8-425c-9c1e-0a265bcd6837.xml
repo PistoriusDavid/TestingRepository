@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="062b619c-5df8-425c-9c1e-0a265bcd6837" Status="Complete" CreatedOn="2016-08-12T06:37:09.1981729Z" ModifiedOn="2023-10-30T07:16:50.5201802Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="70720" Name="Form_Wages_WageCoding" BuildFlags="">
+  <Title m="2016-08-12T06:38:20.0481646Z">Formulár Mzdová predkontácia</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-08-30T10:33:04.6463024Z">&lt;P&gt;Formulár &lt;EM&gt;Mzdová predkontácia&lt;/EM&gt; umožňuje&lt;STRONG&gt; pridať, resp. upraviť už existujúcu&amp;nbsp;&lt;/STRONG&gt;&lt;A href="fc8d8173-0da0-459a-b570-587597ce3315"&gt;mzdovú predkontáciu&lt;/A&gt;. Formulár je&amp;nbsp;dostupný z&amp;nbsp;ponuky &lt;EM&gt;Mzdy&lt;/EM&gt;,&amp;nbsp;&lt;A href="fc8d8173-0da0-459a-b570-587597ce3315" style="auto-update-caption: true"&gt;Mzdové predkontácie&lt;/A&gt;, tlačidlo&amp;nbsp;&lt;EM&gt;Nový&lt;/EM&gt; alebo &lt;EM&gt;Oprava&lt;/EM&gt;.&amp;nbsp;&lt;/P&gt;
+&lt;H2&gt;Popis formulára&amp;nbsp;&lt;EM&gt;Mzdová predkontácia&lt;/EM&gt;&lt;/H2&gt;&lt;innovasys:widget layout="block" type="Tab Strip"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;innovasys:widget layout="block" type="Tab Item"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Základné&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;innovasys:widget layout="block" type="Drop Down Section"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Kategória&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Zvoľte kategóriu mzdovej zložky:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;Základné zložky 
+&lt;LI&gt;Iné príjmy 
+&lt;LI&gt;Príplatky 
+&lt;LI&gt;Odmeny 
+&lt;LI&gt;Náhrady 
+&lt;LI&gt;Zrážky 
+&lt;LI&gt;Zúčtovanie 
+&lt;LI&gt;Ostatné zložky &lt;/LI&gt;&lt;/UL&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget layout="block" type="Drop Down Section"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Typ zložky&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Zvoľte typ zložky, typ sa mení v závislosti od zvolenej kategórie.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget layout="block" type="Drop Down Section"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Číslo predkontácie&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Zadáva sa spravidla trojmiestne číslo predkontácie - používa sa pri rýchlom zadávaní mzdových zložiek pri&amp;nbsp;&lt;A href="1e1da5f2-5abd-48a4-bf82-4f31c614ac45"&gt;tvorbe miezd&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget layout="block" type="Drop Down Section"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Názov predkontácie&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Názov&amp;nbsp;sa automaticky vytvára podľa typu mzdovej zložky, tu je ho možné upraviť.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget layout="block" type="Drop Down Section"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Automaticky podľa aktuálnej sadzby&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Predkontácia určuje typ mzdovej zložky a aj jej &lt;STRONG&gt;tarifu&lt;/STRONG&gt;. Tarifu je možné zadať v jej absolútnej hodnote (konkrétne číslo), prípadne je&amp;nbsp;možné začiarknuť toto pole. Vtedy sa sadzba preberá podľa nastavení sadzieb podľa aktuálne platnej legislatívy pre dané obdobie, napr. výška daňového bonusu na dieťa. Ak je toto pole zakázané, mzdová zložka (už z jej povahy)&amp;nbsp;neumožňuje použiť&amp;nbsp;automatickú sadzbu.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget layout="block" type="Drop Down Section"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Spôsob výpočtu&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Zvoľte, akým spôsobom sa bude mzdová predkontácia počítať. Spôsob výpočtu sa&amp;nbsp;líši&amp;nbsp;v&amp;nbsp;závislosti&amp;nbsp;od&amp;nbsp;predkontácie, zvyčajne pri jednej predkontácii nie sú dostupné všetky možnosti. Spôsob výpočtu môže byť:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;percento (3-mesačný priemer)&lt;/STRONG&gt; - tento spôsob sa používa pri výpočte výšky príplatku. Príplatok sa bude počítať ako percento z trojmesačného priemeru mzdy pracovníka. 
+&lt;LI&gt;&lt;STRONG&gt;percento (minimálna mzda)&lt;/STRONG&gt; - tento spôsob sa používa pri výpočte výšky príplatku. Príplatok sa bude počítať ako percento z minimálnej hodinovej mzdy. 
+&lt;LI&gt;&lt;STRONG&gt;percento (priemer pre odmeny)&lt;/STRONG&gt; - tento spôsob sa používa pri výpočte výšky príplatku. Príplatok sa bude počítať na základe používateľom zadanej tarify. Tento spôsob sa využíva napr. v školstve. 
+&lt;LI&gt;&lt;STRONG&gt;čiastka na hodinu/deň&lt;/STRONG&gt; - do poľa &lt;EM&gt;Tarifa&lt;/EM&gt; sa zadáva suma v eurách. &lt;/LI&gt;&lt;/UL&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget layout="block" type="Drop Down Section"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Tarifa&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Tarifa môže byť zadaná ako čiastka, prípadne čiastka za hodinu, deň alebo ako percento.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget layout="block" type="Drop Down Section"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Platnosť&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Zadáva sa platnosť mzdovej predkontácie. Ak nebude zadané pole&amp;nbsp;&lt;EM&gt;Obdobie do,&lt;/EM&gt; mzdová predkontácia bude mať neobmedzenú platnosť.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget layout="block" type="Tab Item"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Iné&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Záložka &lt;EM&gt;Iné&lt;/EM&gt; slúži na evidenciu doplňujúcich informácií.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="6e465a69-1d82-42f8-9bc1-15e27e948856" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="fc8d8173-0da0-459a-b570-587597ce3315">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="56e604bf-0035-4cc9-b9da-fc298cc6445f" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="6923b0c5-166b-4e3b-a53b-71f62b53b2fc">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="ab4843f4-f2e3-4965-9e09-1857631842dc" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="2cd2daa2-afd8-4a7b-9ca3-da8f3c35fec4">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="17883bcc-19b8-4445-a4a6-8afc013f6bcb">
+      <Keyword m="2023-07-14T12:12:11.7722639Z">Mzdová predkontácia - formulár</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="fc8d8173-0da0-459a-b570-587597ce3315" Status="Complete" CreatedOn="2016-05-16T11:39:20.2581809Z" ModifiedOn="2023-07-18T09:41:22.6678148Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="70370" Name="Menu_Wages_WageCodings" BuildFlags="">
+  <Title m="2016-05-16T11:39:50.5127014Z">Mzdové predkontácie</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-07-18T09:41:22.6678148Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;je venovaná&amp;nbsp;položke&amp;nbsp;&lt;EM&gt;Mzdové predkontácie&lt;/EM&gt;&amp;nbsp;v&amp;nbsp;ponuke&amp;nbsp;&lt;EM&gt;Mzdy&lt;/EM&gt; programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Výberom položky sa otvorí číselník &lt;EM&gt;Mzdové predkontácie&lt;/EM&gt;.&amp;nbsp;Mzdové predkontácie v&amp;nbsp;module&amp;nbsp;&lt;A href="bf009605-0be8-4286-8ef5-4c7d3b89143a"&gt;Mzdy&lt;/A&gt; a&amp;nbsp;&lt;A href="3883342c-9ef0-4fd9-8773-88df84f78f65"&gt;dochádzka&lt;/A&gt; predstavujú &lt;STRONG&gt;predpripravené&amp;nbsp;zložky mzdy,&amp;nbsp;&lt;/STRONG&gt;ktoré je možné použiť pri&amp;nbsp;&lt;A href="6923b0c5-166b-4e3b-a53b-71f62b53b2fc"&gt;tvorbe miezd&lt;/A&gt;. Zoznam mzdových predkontácii je preddefinovaný,&amp;nbsp;v prípade potreby je však možné vo&amp;nbsp;&lt;A href="062b619c-5df8-425c-9c1e-0a265bcd6837"&gt;formulári Mzdová predkontácia&lt;/A&gt; vytvoriť nové predkontácie, prípadne upraviť pôvodné. 
+&lt;LI&gt;Mzdové predkontácie používa program &lt;STRONG&gt;pri výpočte miezd&lt;/STRONG&gt;, keď podľa daného typu zložky použije príslušnú tarifu, napr. pri výpočte nadčasového príplatku v&amp;nbsp;predkontácii hľadá sadzbu (v tomto prípade percento) nadčasového príplatku. Ak by mal niektorý pracovník dohodnutý vyšší nadčasový príplatok ako ostatní, túto predkontáciu je možné zadať do&amp;nbsp;pracovného pomeru&amp;nbsp;(vo &lt;A href="95a3b7e2-6135-4860-a655-5724b186b94c"&gt;formulári Pracovný pomer pracovníka&lt;/A&gt;, záložka &lt;EM&gt;Mzdové sadzby&lt;/EM&gt;),&amp;nbsp;no s inou sadzbou. Vtedy sa pri výpočte nadčasového príplatku danému pracovníkovi&amp;nbsp;použije predkontácia z&amp;nbsp;pracovného pomeru.&amp;nbsp;&amp;nbsp; 
+&lt;LI&gt;Mzdovú predkontáciu je možné kopírovať pomocou klávesových skratiek &lt;EM&gt;Ctrl+C&lt;/EM&gt; a &lt;EM&gt;Ctrl+V&lt;/EM&gt;. 
+&lt;LI&gt;Po stlačení tlačidla &lt;EM&gt;Možnosti&lt;/EM&gt; je možné&amp;nbsp;vykonať &lt;STRONG&gt;aktualizáciu mzdových predkontácií&lt;/STRONG&gt; pre vybrané obdobie podľa legislatívy platnej v danom období. Pred aktualizáciou záznamov&amp;nbsp;sa vymažú všetky už existujúce záznamy mzdových predkontácií začínajúce vo vybranom období roka. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Pridať, resp. upraviť už existujúcu mzdovú predkontáciu je možné pomocou&amp;nbsp;&lt;A href="062b619c-5df8-425c-9c1e-0a265bcd6837"&gt;formulára Mzdová predkontácia&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Postup vytvorenia mzdovej predkontácie&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;V ponuke &lt;I&gt;Mzdy&lt;/I&gt; zvoľte položku &lt;EM&gt;Mzdové predkontácie&lt;/EM&gt;. 
+&lt;LI&gt;Stlačte tlačidlo &lt;EM&gt;Nový&lt;/EM&gt;, zobrazí sa&amp;nbsp;&lt;A href="062b619c-5df8-425c-9c1e-0a265bcd6837"&gt;formulár Mzdová predkontácia&lt;/A&gt;&lt;I&gt;.&lt;/I&gt; 
+&lt;LI&gt;Vyberte, resp. zadajte&amp;nbsp;&lt;EM&gt;Kategóriu, Typ položky&lt;/EM&gt; a ďalšie údaje. 
+&lt;LI&gt;Stlačením tlačidla &lt;I&gt;&lt;STRONG&gt;OK&lt;/STRONG&gt;&lt;/I&gt; sa nová predkontácia uloží. &lt;/LI&gt;&lt;/OL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="682e3116-1a8a-4577-9deb-27d961450685" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="6923b0c5-166b-4e3b-a53b-71f62b53b2fc">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="4bf8551b-38f7-400a-913e-406907e8c555" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="062b619c-5df8-425c-9c1e-0a265bcd6837">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="30f55528-7ca3-4b57-aaa1-36e777c2b6a4" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="95a3b7e2-6135-4860-a655-5724b186b94c">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="d36c9eee-f646-48db-bae5-4ce3481a68ae">
+      <Keyword m="2016-10-20T07:52:47.9046917Z">Mzdová osnova</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="118ae74b-fb96-4d9c-b458-670e18685813">
+      <Keyword m="2023-07-14T11:50:51.6327312Z">Zložky mzdy - predkontácie</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

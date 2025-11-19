@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="a315053c-fb60-4f19-a3df-40b9c9dd02f8" Status="Complete" CreatedOn="2023-08-01T13:07:11.1666339Z" ModifiedOn="2025-07-24T11:47:04.2852763Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Devices_DigitalSignaturePads_EXALOGIC-DSP1" BuildFlags="">
+  <Title m="2023-08-02T05:58:57.8158566Z">Digitálna podpisová podložka EXALOGIC-DSP1</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2025-07-24T08:50:23.9038199Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;informácie o digitálnej podpisovej podložke &lt;EM&gt;EXALOGIC-DSP1&lt;/EM&gt;&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;EM&gt;EXALOGIC-DSP1&lt;/EM&gt; predstavuje &lt;STRONG&gt;digitálnu podpisovú podložku, t.&amp;nbsp;j. elektronické zariadenie určené na snímanie digitálnych biometrických podpisov na bezpapierové elektronické podpisovanie dokumentov&lt;/STRONG&gt;. 
+&lt;LI&gt;V&amp;nbsp;systéme OBERON je zariadenie určené na podpisovanie dokumentov &lt;STRONG&gt;v evidenciách, ktoré umožňujú pri jednotlivých záznamoch evidovať prílohy&lt;/STRONG&gt; (obsahujú tlačidlo &lt;EM&gt;Prílohy&lt;/EM&gt;): &lt;EM&gt;Výdajky, Príjemky, Objednávky prijaté, Kniha pohľadávok, Kniha záväzkov, Objednávky vydané, Dokumenty a&amp;nbsp;výkazy pracovníkov, Kniha rezervácií, Kniha ubytovaných, Hotelové účty, Obchodní partneri, Evidencia reklamácií a servisu, Evidencia zápočtov faktúr..&lt;/EM&gt;. Do vygenerovaného&amp;nbsp;tlačového výstupu (vo formáte PDF) sa po podpise na digitálnej podpisovej podložke&amp;nbsp;vloží podpis zákazníka a&amp;nbsp;zároveň sa dokument&amp;nbsp;digitálne podpíše. Takýto dokument sa &lt;STRONG&gt;automaticky uloží ako príloha k danému záznamu v danej evidencii, čím sa automaticky stáva súčasťou aj&amp;nbsp;&lt;/STRONG&gt;&lt;A href="68a24d97-e4a5-4cf4-bc7a-72262df5973e"&gt;elektronického archívu&lt;/A&gt;. Používanie podpisovej podložky umožní znížiť, prípadne úplne odbúrať listinnú (papierovú) formu týchto dokladov. Napr. v stavebninách pri výdaji materiálu na výdajku zákazník namiesto vytlačenej výdajky podpíše výdajku digitálne na podpisovej podložke. 
+&lt;LI&gt;Dokument podpísaný pomocou digitálnej podpisovej podložky &lt;EM&gt;EXALOGIC-DSP1&lt;/EM&gt; &lt;STRONG&gt;obsahuje zaručený elektronický podpis&lt;/STRONG&gt; vydaný spoločnosťou&amp;nbsp;&lt;A href="https://www.disig.sk/sk/" target=_blank&gt;Disig a.s.&lt;/A&gt; pre firmu EXALOGIC, s.r.o. 
+&lt;LI&gt;Podpísaný dokument môže obsahovať &lt;STRONG&gt;kvalifikovanú elektronickú časovú pečiatku&lt;/STRONG&gt; na overenie podpísania dokumentu v&amp;nbsp;danom čase. Podmienkou je funkčné&amp;nbsp;pripojenie k&amp;nbsp;internetu. V&amp;nbsp;prípade, že v čase podpisu neexistuje funkčné pripojenie k&amp;nbsp;internetu, dokument sa najprv nepodpíše. Po opakovanom podpise sa dokument podpíše, avšak bez časovej pečiatky. 
+&lt;LI&gt;Pomocou digitálnej podpisovej podložky možno priradiť podpis &lt;A href="225638ed-22f6-4ac4-9085-6d77c64925db"&gt;používateľovi&lt;/A&gt; - viac informácií v&amp;nbsp;téme&amp;nbsp;&lt;A href="263345a9-095c-462c-9c0e-7e5eb28e7dff" style="auto-update-caption: true"&gt;Ako pridať na faktúru podpis alebo pečiatku?&lt;/A&gt; 
+&lt;LI&gt;&lt;SPAN lang=en-us xml:lang="en-us"&gt;&lt;SPAN lang=en-us xml:lang="en-us"&gt;Spôsob pripojenia (rozhranie): USB.&lt;/SPAN&gt;&lt;/SPAN&gt; &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt; 
+&lt;P&gt;&lt;SPAN lang=en-us xml:lang="en-us"&gt;Zariadenie sa inštaluje&amp;nbsp;v&amp;nbsp;programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;, ponuka &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="749ff4f1-eeb5-43f5-98d2-021399d8cec7" style="auto-update-caption: true"&gt;Zariadenia&lt;/A&gt;, tlačidlo &lt;EM&gt;Pridať&lt;/EM&gt;.&amp;nbsp;Viac informácií k inštalácii zariadenia získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="960c6386-4c8c-4669-902c-5170074591ca" style="auto-update-caption: true"&gt;Inštalácia digitálnej podpisovej podložky EXALOGIC-DSP1&lt;/A&gt;.&lt;/SPAN&gt;&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H5&gt;&lt;SPAN lang=en-us xml:lang="en-us"&gt;Obrázok č. 1: Digitálna podpisová podložka &lt;EM&gt;EXALOGIC-DSP1&lt;/EM&gt;&lt;/SPAN&gt;&lt;/H5&gt;
+&lt;P&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;IMG border=0 alt="" src="images/Devices/Device_EXALOGIC-DSP1.png"&gt;&lt;/P&gt;
+&lt;H2&gt;Ďalšie informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Podpísaním dokumentu pomocou digitálnej podpisovej podložky v systéme OBERON sú &lt;STRONG&gt;naplnené zákonné požiadavky písomnej formy prejavu vôle&lt;/STRONG&gt;, a to že: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;bol úkon podpísaný konajúcou osobou (zákazníkom, pracovníkom) a je možné (bez pochybností) určiť osobu, ktorá úkon urobila&lt;/STRONG&gt; (teda osobu, ktorej prejavom vôle má byť daný právny úkon), a to tak, že je osoba fyzicky prítomná a jej totožnosť overila zodpovedná osoba účtovnej jednotky rovnako ako pri podpisovaní dokumentu v listinnej (papierovej) forme, 
+&lt;LI&gt;&lt;STRONG&gt;elektronická forma právneho úkonu zachytáva jeho obsah&lt;/STRONG&gt; - dokument je vytvorený vo formáte PDF a po podpísaní ho už nemožno upravovať, 
+&lt;LI&gt;&lt;STRONG&gt;je možné overiť podpísanie dokumentu v danom čase&lt;/STRONG&gt; na základe použitia časovej pečiatky. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Vyhotovenie a podpísanie dokumentu v elektronickej podobe znižuje náklady spojené s tlačou (papier, toner...), ale aj náklady na uschovanie týchto dokumentov v&amp;nbsp;listinnej (papierovej) podobe (šanóny, archivácia...). &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Technické informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;V&amp;nbsp;evidenciách, ktoré umožňujú evidovať prílohy, nie je digitálne podpisovanie&amp;nbsp;dostupné vo všetkých dokumentoch (tlačových výstupoch), ale &lt;STRONG&gt;len&amp;nbsp;v&amp;nbsp;tých,&amp;nbsp;v&amp;nbsp;ktorých má opodstatnenie&lt;/STRONG&gt;. 
+&lt;LI&gt;U tých&amp;nbsp;používateľov, ktorí si upravili tlačové výstupy v starších verziách OBERON-u (do verzie &lt;EM&gt;Júl/2023&lt;/EM&gt;), je potrebné, aby si do upraveného tlačového výstupu &lt;STRONG&gt;manuálne skopírovali pole na digitálny podpis z originálneho tlačového výstupu&lt;/STRONG&gt; (pozri Obrázok č. 2).&amp;nbsp;V tlačových výstupoch upravených vo verzii Júl/2023 a novších to nie je potrebné. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 2: Skopírovanie poľa na digitálny podpis z originálneho (neupraveného) tlačového výstupu&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Devices/Devices_Auxiliary/Device_Auxiliary_EXALOGIC-DSP1_PrintReport.png"&gt;&amp;nbsp;&lt;/P&gt;
+&lt;H2&gt;Nastavenie časového servera (pre časovú pečiatku)&lt;/H2&gt;
+&lt;P&gt;Pri podpisovaní pomocou digitálnej podpisovej podložky sa v systéme OBERON používa predvolený časový server na vytváranie časovej pečiatky. Program v prípade potreby umožňuje jeho vypnutie alebo používanie iného časového servera. Na nastavenie časového servera sú v programe k dispozícii nasledujúce možnosti:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Používať predvolený&lt;/STRONG&gt; – časová pečiatka bude vytváraná s použitím predvoleného časového servera.
+&lt;LI&gt;&lt;STRONG&gt;Nepoužívať (pri dočasnom výpadku)&lt;/STRONG&gt; – umožňuje podpisovanie bez časového servera, napríklad pri výpadku internetového pripojenia alebo nedostupnosti časového servera. V takom prípade sa použije čas SQL servera, čo môže znížiť dôveryhodnosť podpisu.
+&lt;LI&gt;&lt;STRONG&gt;Používať zadaný časový server&lt;/STRONG&gt; – umožňuje zadať URL iného časového servera. Väčšinou ide o spoplatnenú službu, ktorú si používateľ hradí samostatne.&lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Postup podpisovania pomocou podpisovej podložky&lt;/H2&gt;
+&lt;P&gt;V&amp;nbsp;nasledujúcej časti je uvedený postup podpísania dokumentu pomocou podpisovej podložky na príklade podpisu výdajky.&lt;/P&gt;
+&lt;OL&gt;
+&lt;LI&gt;V&amp;nbsp;programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt; zvoľte ponuku &lt;EM&gt;Sklad&lt;/EM&gt;,&amp;nbsp;&lt;A href="0be61fcc-a85b-4572-876d-2171a5cb7c29"&gt;Výdajky&lt;/A&gt;. 
+&lt;LI&gt;Zvoľte (kurzorom označte) výdajku, ktorú chcete dať podpísať zákazníkovi a stlačte tlačidlo &lt;EM&gt;Tlač&lt;/EM&gt;. 
+&lt;LI&gt;Otvorí sa&amp;nbsp;&lt;A href="2bac8d21-6ae0-44e4-8b2e-403ac2f25955"&gt;formulár Tlačové výstupy&lt;/A&gt;,&amp;nbsp;v&amp;nbsp;ktorom stlačte tlačidlo &lt;EM&gt;&lt;STRONG&gt;PDF súbor&amp;nbsp;(podpísať zákazníkom)&lt;/STRONG&gt;.&lt;/EM&gt; Program&amp;nbsp;vygeneruje súbor (výdajku)&amp;nbsp;vo formáte PDF, pričom umožní podpísať súbor zákazníkom pomocou digitálnej podpisovej podložky. Na podpisovej podložke sa rozsvieti displej, na ktorý sa zákazník podpíše elektromagnetickým perom a stlačí tlačidlo &lt;EM&gt;&lt;STRONG&gt;OK&lt;/STRONG&gt;&lt;/EM&gt;.&amp;nbsp;Podpis zákazníka sa prenesie do OBERON-u, a&amp;nbsp;tým sa dokument&amp;nbsp;digitálne podpíše.&amp;nbsp;Zároveň sa&amp;nbsp;dokument automaticky uloží ako príloha k danému záznamu (výdajke). &lt;/LI&gt;&lt;/OL&gt;
+&lt;H2&gt;Technická špecifikácia&lt;/H2&gt;
+&lt;P&gt;&lt;STRONG&gt;Model:&lt;/STRONG&gt;&amp;nbsp;EXALOGIC-DSP1&lt;BR&gt;&lt;STRONG&gt;Dotykový displej:&lt;/STRONG&gt;&amp;nbsp;LCD 4,3" elektromagnetický 480 x 272 px&lt;BR&gt;&lt;STRONG&gt;Spôsob pripojenia a napájanie:&lt;/STRONG&gt;&amp;nbsp;USB 2.0, 5 V&lt;BR&gt;&lt;STRONG&gt;Spôsob snímania podpisu:&lt;/STRONG&gt;&amp;nbsp;Tlak, rýchlosť, dráha&lt;BR&gt;&lt;STRONG&gt;Operačný systém:&lt;/STRONG&gt;&amp;nbsp;Windows 7, 8, 10, 11&lt;BR&gt;&lt;STRONG&gt;Bezpečnosť:&lt;/STRONG&gt;&amp;nbsp;Šifrovaná komunikácia AES &amp;amp; RSA&lt;BR&gt;&lt;STRONG&gt;Pero:&lt;/STRONG&gt;&amp;nbsp;Plastové, bezbatériové&lt;BR&gt;&lt;STRONG&gt;Pozorovací uhol:&lt;/STRONG&gt;&amp;nbsp;60 – 90 °&lt;BR&gt;&lt;STRONG&gt;Podpisová plocha:&lt;/STRONG&gt;&amp;nbsp;95 x 53,86 mm&lt;BR&gt;&lt;STRONG&gt;Teplota&amp;nbsp;prevádzka:&lt;/STRONG&gt; 0 °C - 50 °C, skladovanie: -20 °C - 60 °C&lt;BR&gt;&lt;STRONG&gt;Vlhkosť vzduchu:&lt;/STRONG&gt;&amp;nbsp;0 % - 95 % (bez kondenzácie)&lt;BR&gt;&lt;STRONG&gt;Farba:&lt;/STRONG&gt;&amp;nbsp;Čierna&lt;BR&gt;&lt;STRONG&gt;Rozmery:&lt;/STRONG&gt;&amp;nbsp;150 x 112 x 18 mm (šírka x dĺžka x výška)&lt;BR&gt;&lt;STRONG&gt;Hmotnosť (balenie):&lt;/STRONG&gt;&amp;nbsp;311 g&lt;/P&gt;
+&lt;H2&gt;Cena a objednávka zariadenia&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Zariadenie je určené na predaj, a to&amp;nbsp;výhradne používateľom OBERON-u a našim &lt;A href="f83c2a9c-cda4-4862-8628-7ba16ddb1b06" rel=noopener&gt;zmluvným partnerom&lt;/A&gt;. 
+&lt;LI&gt;Informácie o cene a dostupnosti zariadenia s možnosťou objednávky nájdete na stránke nášho internetového obchodu &lt;STRONG&gt;&lt;A href="https://shop.exalogic.sk/"&gt;EXALOGIC e-shop&lt;/A&gt;&lt;/STRONG&gt;. 
+&lt;LI&gt;Na inštaláciu a&amp;nbsp;nastavenie zariadenia odporúčame využiť služby našich zmluvných partnerov. &lt;/LI&gt;&lt;/UL&gt;
+&lt;HR&gt;
+
+&lt;P align=center&gt;&lt;A href="1f32a90c-7b4a-4d69-9f38-a560178794b3" style="auto-update-caption: true"&gt;&lt;IMG border=0 alt="Odporúčané riešenia" src="images/OBERON/Basic/Odporucane-riesenie.png"&gt;&lt;/A&gt;&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="fd50910e-e2a6-4e83-99ba-747e77fafe8f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="960c6386-4c8c-4669-902c-5170074591ca">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="51479516-82a8-417e-9b89-cd3ecef21b81" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="263345a9-095c-462c-9c0e-7e5eb28e7dff">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="2e39ab79-91c2-4599-ac1e-2339a8eccc0f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="66ed476e-d5ea-4e46-a758-a3f190a60a7c">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="27de24c5-b0b7-4c9e-8dd1-998002bb808b" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="b3e41f60-bab3-4ad9-b73d-69ece0c12afa">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="8be0d433-ddca-42fe-989e-5ca6bafb428d" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="c1e2e5a1-2cf4-47aa-a546-47d5baa1df3e">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="3eba2271-3457-4710-8325-61fd6e7f6339" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="68a24d97-e4a5-4cf4-bc7a-72262df5973e">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="695e0cf6-d6f3-47f8-a242-5c0a31828937">
+      <Keyword m="2023-08-02T10:54:26.8422097Z">Podpisová podložka EXALOGIC-DSP1</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="6b890b83-e6e5-435c-82fd-49732e8ac6c7">
+      <Keyword m="2023-08-02T10:54:42.4435246Z">EXALOGIC-DSP1 - digitálna podpisová podložka </Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="77111f50-23e0-4981-88dd-b49113655d6f">
+      <Keyword m="2023-08-04T05:55:49.7400155Z">Podložka - podpisová</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="16619622-6059-4533-b9a8-4b35f7dd99e6">
+      <Keyword m="2023-08-04T05:55:54.3925149Z">Signature pad</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="d7a6733b-4f11-4084-a46f-bc71701c81ed">
+      <Keyword m="2023-08-04T05:56:00.1013742Z">Pad - signature</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="ab6a6ff7-c417-41f1-8b9c-589ebd79c79d">
+      <Keyword m="2023-08-04T05:56:11.9833698Z">Digital signature pad</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="1930d638-5a13-4df0-8b8d-03d67a8a15ab">
+      <Keyword m="2025-07-24T08:50:26.7187668Z">Nastavenie časového servera - digitálna podpisová podložka</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="dd03685d-f3a8-4d4f-834e-48e93b0f7c71">
+      <Keyword m="2025-07-24T11:47:01.4629488Z">Time Stamp Authority (TSA) Server</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="0f4cbef4-f919-441f-bd61-6ef9ca0b1344" Status="Complete" CreatedOn="2015-05-05T07:35:57.0693359Z" ModifiedOn="2023-11-16T09:33:25.2803638Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="22730" Name="Menu_Hotel_Graphical_ProvidedServices" BuildFlags="">
+  <Title m="2015-05-05T07:37:18.7363281Z">Grafický prehľad poskytovaných služieb</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-11-16T09:33:25.2803638Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;je venovaná&amp;nbsp;položke&amp;nbsp;&lt;EM&gt;Grafický prehľad&amp;nbsp;poskytovaných služieb&amp;nbsp;&lt;/EM&gt;v&amp;nbsp;ponuke&amp;nbsp;&lt;EM&gt;Hotel&lt;/EM&gt; programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Výberom položky sa otvorí &lt;EM&gt;Grafický prehľad poskytovaných služieb&lt;/EM&gt;&amp;nbsp;- &lt;STRONG&gt;interaktívny formulár, ktorý&amp;nbsp;v&amp;nbsp;grafickej podobe zobrazuje prehľad&amp;nbsp;rezervovaných,&amp;nbsp;prebiehajúcich a ukončených rozšírených služieb&lt;/STRONG&gt; poskytovaných ubytovacím zariadením (základné služby sa v&amp;nbsp;grafickom prehľade nezobrazujú). Údaje čerpá z&amp;nbsp;&lt;A href="4a3fd53c-a95a-4850-8adb-17666063e88d"&gt;knihy poskytovaných služieb&lt;/A&gt;. Formulár zároveň&amp;nbsp;umožňuje &lt;STRONG&gt;aktívne pracovať s&amp;nbsp;rozšírenými službami&lt;/STRONG&gt; -&amp;nbsp;zaevidovať dopyt, resp. rezerváciu rozšírenej služby (nová rezervácia), ako aj čerpanie rozšírenej služby (nová služba), a&amp;nbsp;to&amp;nbsp;tak&amp;nbsp;ubytovaným hosťom, ako aj samostatne (neubytovaným hosťom), označiť službu ako poskytnutú, zameniť služby,&amp;nbsp;vyúčtovať službu atď.&amp;nbsp;Viac informácií o&amp;nbsp;službách v&amp;nbsp;systéme OBERON a&amp;nbsp;ich definovaní získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="52a22e5d-f6ee-46f3-9978-537f8fa5c984"&gt;Služby&lt;/A&gt;. 
+&lt;LI&gt;&lt;EM&gt;Grafický prehľad poskytovaných služieb&lt;/EM&gt;&amp;nbsp;umožňuje dva rôzne spôsoby zobrazenia: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;štandardné&lt;/STRONG&gt; - zobrazenie&amp;nbsp;podobné&amp;nbsp;&lt;A href="3ca37544-bbc0-4a88-af6a-a2132b74279d"&gt;grafickému prehľadu izieb&lt;/A&gt;, kde &lt;STRONG&gt;jeden riadok predstavuje jednu službu&lt;/STRONG&gt; (toto zobrazenie je vhodné pri väčšom počte služieb); 
+&lt;LI&gt;&lt;STRONG&gt;denný plánovač&lt;/STRONG&gt; - zobrazenie, kde &lt;STRONG&gt;jeden stĺpec predstavuje jednu službu&lt;/STRONG&gt; (vhodné pri nižšom počte služieb). &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Zmyslom&amp;nbsp;grafického prehľadu&amp;nbsp;je sprehľadniť a zjednodušiť&amp;nbsp;prácu so záznamami. Zobrazením jednotlivých služieb v grafickom&amp;nbsp;prehľade je možné zamedziť kolízii objednania jednej služby viacerými hosťami (zákazníkmi). 
+&lt;LI&gt;Jednotlivé rozšírené služby sú v grafickom prehľade &lt;STRONG&gt;zoskupené do záložiek&lt;/STRONG&gt; (v&amp;nbsp;hornej časti formulára), ktoré graficky zobrazujú druhy rozšírenej služby nadefinované vo&amp;nbsp;&lt;A href="52a22e5d-f6ee-46f3-9978-537f8fa5c984"&gt;formulári Služba (definícia) - rozšírená služba&lt;/A&gt;&amp;nbsp;(napr. &lt;EM&gt;Športoviská, Priestory, Wellness&lt;/EM&gt; a pod.). Tu sa pre každú službu zvlášť definuje aj denná dostupnosť poskytovania služby, t.&amp;nbsp;j. časový rozsah, v&amp;nbsp;ktorom sa bude služba poskytovať. 
+&lt;LI&gt;Stlačením &lt;B&gt;pravého&lt;/B&gt; &lt;STRONG&gt;tlačidla myši&lt;/STRONG&gt; program umožňuje vyvolať kontextovú ponuku, kde je možné priamo veľmi jednoducho a rýchlo pracovať s&amp;nbsp;jednotlivými záznamami. V ľavom paneli oddelenom rozdeľovacou lištou&amp;nbsp;sa nachádzajú &lt;STRONG&gt;zoznamy on-line rezervácií, dnešných rezervácií a neuhradených služieb&lt;/STRONG&gt;, kde je opäť možné pracovať s kontextovou ponukou (viac informácií o ľavom paneli pozri nižšie). 
+&lt;LI&gt;V grafickom prehľade je možné meniť výšku riadkov a šírku stĺpcov jednoduchým posunutím trojuholníka v pravom hornom rohu formulára. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Zaevidovať, resp. upraviť už zaevidovanú rezerváciu rozšírenej služby&amp;nbsp;je možné&amp;nbsp;pomocou &lt;A href="6e804e10-6205-46ad-95f0-47204b6ef066"&gt;formulára Rezervácia poskytovanej služby&lt;/A&gt;. Postup&amp;nbsp;zaevidovania&amp;nbsp;rezervácie rozšírenej služby je popísaný v téme &lt;A href="a4d41ab0-a4b9-4307-9ae5-8b7a8d7ba977" style="auto-update-caption: true"&gt;Zaevidovanie rezervácie služby&lt;/A&gt;. &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H5&gt;Obrázok č. 1: Formulár &lt;EM&gt;Grafický prehľad poskytovaných služieb - denný plánovač&lt;/EM&gt;&lt;/H5&gt;&lt;IMG border=0 alt="" src="images/Forms/Hotel/Form_Hotel_GraphicalViewServices.png"&gt; 
+&lt;H2&gt;Ľavý panel formulára&lt;/H2&gt;
+&lt;P&gt;V ľavej časti formulára sa nachádza panel oddelený rozdeľovacou lištou. V&amp;nbsp;jeho hornej časti sú dostupné nasledujúce záložky:&lt;/P&gt;
+&lt;TABLE style="HEIGHT: 147px; WIDTH: 48.58%; TABLE-LAYOUT: fixed"&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TD width=49&gt;&lt;IMG border=0 alt="" src="images/Forms/Hotel/Hotel_GraphicalViewRooms_Tab1.png"&gt;&lt;/TD&gt;
+&lt;TD&gt;&lt;STRONG&gt;On-line rezervácie&lt;/STRONG&gt; - zobrazí zoznam rezervácií rozšírených služieb so stavom&amp;nbsp;&lt;EM&gt;Nová on-line rezervácia&lt;/EM&gt; alebo &lt;EM&gt;Nový on-line dopyt.&amp;nbsp;&lt;/EM&gt;Prijímanie on-line rezervácií rozšírených služieb je možné&amp;nbsp;aj prostredníctvom rozhrania API.&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=49&gt;&lt;IMG border=0 alt="" src="images/Forms/Hotel/Hotel_GraphicalView_Provided_Today_Dnesne.png"&gt;&lt;/TD&gt;
+&lt;TD&gt;&lt;STRONG&gt;Dnešné rezervácie&lt;/STRONG&gt; - zobrazí zoznam rezervácií rozšírených služieb&amp;nbsp;k&amp;nbsp;danému dátumu.&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=49&gt;&lt;IMG border=0 alt="" src="images/Forms/Hotel/Hotel_GraphicalView_Provided_NonCash.png"&gt;&lt;/TD&gt;
+&lt;TD&gt;&lt;STRONG&gt;Neuhradené služby&lt;/STRONG&gt; - zobrazí zoznam rozšírených služieb neuhradených k&amp;nbsp;danému dátumu. Vyúčtovať službu je možné z ponuky &lt;EM&gt;Hotel&lt;/EM&gt;,&amp;nbsp;&lt;A href="4a3fd53c-a95a-4850-8adb-17666063e88d"&gt;Kniha poskytovaných služieb&lt;/A&gt;, tlačidlo &lt;EM&gt;Možnosti,&lt;/EM&gt; alebo v kontextovej ponuke po stlačení pravého tlačidla myši na príslušnej službe.&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;
+&lt;H2&gt;Vyúčtovanie služieb&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;V prípade, že rozšírená služba bola čerpaná v rámci pobytového balíka a hosť za ňu &lt;STRONG&gt;neplatí&lt;/STRONG&gt;, služba sa len pomocou tlačidla &lt;EM&gt;Možnosti&lt;/EM&gt; alebo v&amp;nbsp;kontextovej ponuke&amp;nbsp;označí za poskytnutú (nie je ju potrebné vyúčtovať). 
+&lt;LI&gt;V prípade, že čerpanie rozšírenej služby je &lt;STRONG&gt;spoplatnené&lt;/STRONG&gt; a má zadanú jednotkovú cenu, službu je potrebné vyúčtovať. Existuje&amp;nbsp;niekoľko spôsobov vyúčtovania rozšírenej služby (tlačidlo &lt;EM&gt;Možnosti - Vyúčtovanie poskytnutej služby&lt;/EM&gt;): 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;manuálne&lt;/STRONG&gt; -&amp;nbsp;umožňuje zaevidovať úhradu poskytovanej služby, a tým&amp;nbsp;ju manuálne vyúčtovať. Služba sa stane neaktívnou (v&amp;nbsp;&lt;A href="4a3fd53c-a95a-4850-8adb-17666063e88d"&gt;Knihe poskytovaných služieb&lt;/A&gt; bude zobrazená &lt;STRONG&gt;tučným písmom&lt;/STRONG&gt;), 
+&lt;LI&gt;&lt;STRONG&gt;presunom na&amp;nbsp;&lt;/STRONG&gt;&lt;A href="ffa5a889-7bfe-4165-ba83-15263eb77358"&gt;hotelový účet&lt;/A&gt; - je potrebné vybrať hotelový účet, na ktorý&amp;nbsp;sa daná služba presunie, 
+&lt;LI&gt;&lt;STRONG&gt;vystavením faktúry&lt;/STRONG&gt; - otvorí sa sprievodca&amp;nbsp;&lt;A href="ec4e9be4-140f-4ec9-aa04-544e9870bfe1"&gt;tvorbou novej pohľadávky&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;V prípade, že účtovná jednotka používa aj modul&amp;nbsp;&lt;A href="78d20602-4b59-4b31-9f0a-a04a1d376ec5"&gt;Skladová evidencia&lt;/A&gt;, poskytnutú službu možno vyúčtovať pomocou&amp;nbsp;&lt;A href="a6f5e32d-6f1e-40bb-9d15-3f784a183252"&gt;Pokladnice OBERON&lt;/A&gt;&amp;nbsp;(tlačidlo &lt;EM&gt;Poskyt. služby&lt;/EM&gt;). &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;&amp;nbsp;Obrázok č. 2: Spôsoby vyúčtovania poskytnutej rozšírenej služby&lt;/H5&gt;
+&lt;P&gt;&amp;nbsp;&lt;IMG border=0 alt="" src="images/Hotel/Hotel_ExtendedServiceBillingMethods.png"&gt;&lt;/P&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Na označenie služby ako poskytnutej sa v grafickom prehľade poskytovaných služieb&amp;nbsp;nastavte na danú službu,&amp;nbsp;stlačte pravé tlačidlo myši alebo tlačidlo &lt;EM&gt;Možnosti&lt;/EM&gt; a&amp;nbsp;vyberte možnosť &lt;EM&gt;Označiť službu ako poskytnutú&lt;/EM&gt; (alternatívne stlačte tlačidlo&amp;nbsp;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Button_Services_Rendeted.png"&gt;&amp;nbsp;v&amp;nbsp;hornej časti formulára).&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Dostupné&amp;nbsp;možnosti&lt;/H2&gt;
+&lt;P&gt;Ďalšie možnosti práce so záznamami&amp;nbsp;sú dostupné&amp;nbsp;po stlačení tlačidla &lt;EM&gt;Možnosti&lt;/EM&gt;, prípadne v&amp;nbsp;kontextovej ponuke tabuľky záznamov.&lt;/P&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Označiť službu&amp;nbsp;ako poskytnutú&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Službu označte&amp;nbsp;ako poskytnutú v prípade, že sa služba zrealizovala a&amp;nbsp;hosť za ňu neplatí. Pri poskytnutej službe sa zmení farba podľa nastavenia farieb v&amp;nbsp;ponuke&amp;nbsp;&lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="f0386fce-aa67-4fa4-a611-234d30fa9f82"&gt;oddiel Firma, Hotelová recepcia&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt; záložka &lt;EM&gt;Grafické prehľady&lt;/EM&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Zrušiť označenie služby&amp;nbsp;ako poskytnutej&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Funkcia zruší označenie služby ako poskytnutej.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Vyúčtovať službu&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Otvorí sa sprievodca, pomocou ktorého&amp;nbsp;je možné vyúčtovať poskytnutú službu. Poskytnutá služba, ktorá bola vyúčtovaná, sa presunie medzi vyúčtované (neaktívne) služby. Službu možno vyúčtovať:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;manuálne&lt;/STRONG&gt; -&amp;nbsp;umožňuje zaevidovať úhradu poskytovanej služby, a tým&amp;nbsp;ju manuálne vyúčtovať. Služba sa stane neaktívnou (v&amp;nbsp;&lt;A href="4a3fd53c-a95a-4850-8adb-17666063e88d"&gt;Knihe poskytovaných služieb&lt;/A&gt; bude zobrazená &lt;STRONG&gt;tučným písmom&lt;/STRONG&gt;), 
+&lt;LI&gt;&lt;STRONG&gt;presunom na&amp;nbsp;&lt;/STRONG&gt;&lt;A href="ffa5a889-7bfe-4165-ba83-15263eb77358"&gt;hotelový účet&lt;/A&gt; - je potrebné vybrať hotelový účet, na ktorý&amp;nbsp;sa daná služba presunie, 
+&lt;LI&gt;&lt;STRONG&gt;vystavením faktúry&lt;/STRONG&gt; - otvorí sa sprievodca&amp;nbsp;&lt;A href="ec4e9be4-140f-4ec9-aa04-544e9870bfe1"&gt;tvorbou novej pohľadávky&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;P&gt;V prípade, že účtovná jednotka používa aj modul&amp;nbsp;&lt;A href="78d20602-4b59-4b31-9f0a-a04a1d376ec5"&gt;Skladová evidencia&lt;/A&gt;, poskytnutú službu možno vyúčtovať pomocou&amp;nbsp;&lt;A href="a6f5e32d-6f1e-40bb-9d15-3f784a183252"&gt;Pokladnice OBERON&lt;/A&gt;&amp;nbsp;(tlačidlo &lt;EM&gt;Poskyt. služby&lt;/EM&gt;).&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Odoslať e-mail&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Funkcia &lt;EM&gt;Odoslať e-mail&lt;/EM&gt; umožňuje na zadaný e-mailový kontakt manuálne odoslať jednoduchú e-mailovú správu. Správu je možné vytvoriť z preddefinovaných predlôh, ktoré možno podľa potreby upravovať, ďalšie predlohy je možné vytvárať podľa požiadaviek účtovnej jednotky. Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="e06c0c09-80ea-4083-8f6a-5a49a3fc9474" style="auto-update-caption: true"&gt;Odosielanie e-mailov v systéme OBERON&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Zobraziť väzby dokumentu&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Systém OBERON udržiava medzi súvisiacimi záznamami v rôznych evidenciách väzby (napr. na kontrolu správnosti zaevidovania služby). Funkcia zostaví grafický prehľad väzieb daného záznamu, ktorý je zároveň interaktívny - kliknutím pravým tlačidlom myši je možné jednotlivé záznamy zobraziť, upraviť, resp. exportovať.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Zobraziť nastavenie farieb&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Zobrazí sa&amp;nbsp;farebná&amp;nbsp;schéma&amp;nbsp;(popis, legenda)&amp;nbsp;k jednotlivých farbám grafického prehľadu, pričom farby&amp;nbsp;je možné zmeniť, prípadne ponechať pôvodné farby. Nastavenie farieb je dostupné v&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="f0386fce-aa67-4fa4-a611-234d30fa9f82"&gt;oddiel Firma, Hotelová recepcia&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt; záložka &lt;EM&gt;Grafické prehľady&lt;/EM&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Presunúť službu&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Službu je možné presunúť na inú službu, napr. službu&amp;nbsp;&lt;EM&gt;Sauna 1&lt;/EM&gt; presunúť na&amp;nbsp;&lt;EM&gt;Sauna 2&lt;/EM&gt;. Službu možno&amp;nbsp;presunúť len v prípade, že sú&amp;nbsp;služby&amp;nbsp;rovnakého druhu rozšírenej služby.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Zameniť služby&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Dve služby je možné navzájom zameniť.&amp;nbsp;Zameniť je možné len služby rovnakého druhu rozšírenej služby, napr. službu&amp;nbsp;&lt;EM&gt;Sauna 1&lt;/EM&gt; za&amp;nbsp;&lt;EM&gt;Sauna 2&lt;/EM&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="7c1919de-2b5c-41b8-9bef-03abea6435ab" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="52a22e5d-f6ee-46f3-9978-537f8fa5c984">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="576aff4a-f1ce-46b7-9d05-ab89182c8cf2" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="4a3fd53c-a95a-4850-8adb-17666063e88d">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="0f39bbf4-1569-4bd4-aba5-c0242ef80742" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="6e804e10-6205-46ad-95f0-47204b6ef066">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="7a0d3e50-78fd-452d-adc2-074c29840866" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="a4d41ab0-a4b9-4307-9ae5-8b7a8d7ba977">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="13a9dabf-a45d-4d25-a3d8-882046e18e88">
+      <Keyword m="2022-05-19T07:35:55.4914133Z">Poskytované služby - grafický prehľad</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="e4277c60-44a9-4a20-a4d8-75af9fb72513">
+      <Keyword m="2022-05-19T07:36:05.827776Z">Rozšírené služby - grafický prehľad</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="6c409a22-7bb2-4a2b-ae09-71fefe2b2152">
+      <Keyword m="2022-05-19T07:36:10.4042125Z">Zameniť služby</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="baabf65d-a99d-4edf-bca7-81c4fb8ba864">
+      <Keyword m="2022-05-19T07:36:17.245115Z">Presunúť službu</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="435efb4a-adbc-4988-92d1-c23c9611030c">
+      <Keyword m="2022-05-19T07:37:05.2288778Z">Plachta - poskytované služby</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="ff404d2b-cc47-41dc-bf02-1cfc6a4591c4">
+      <Keyword m="2022-05-23T07:52:14.1348852Z">Vyúčtovanie rozšírených služieb</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

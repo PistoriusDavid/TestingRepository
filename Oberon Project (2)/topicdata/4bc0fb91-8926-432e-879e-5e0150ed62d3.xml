@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="4bc0fb91-8926-432e-879e-5e0150ed62d3" Status="Complete" CreatedOn="2014-09-05T06:45:31.2944972Z" ModifiedOn="2024-10-30T13:19:21.5674946Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="OBERONCenter_eShop_Online_DirectAccess" BuildFlags="">
+  <Title m="2017-08-23T05:30:12.0983468Z">On-line internetový obchod (s priamym prístupom)</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-10-30T13:19:21.5674946Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; je venovaná &lt;STRONG&gt;on-line internetovému obchodu&lt;/STRONG&gt;, s&amp;nbsp;ktorým systém&amp;nbsp;OBERON komunikuje &lt;STRONG&gt;priamo&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;O&amp;nbsp;on-line pripojení k &lt;A href="2ba6a435-be52-46a1-b723-fb2b8ca084c0"&gt;internetovému obchodu&lt;/A&gt; hovoríme vtedy,&amp;nbsp;keď systém OBERON komunikuje s internetovým obchodom priamo v&amp;nbsp;užšej väzbe prostredníctvom &lt;STRONG&gt;natívneho formátu&lt;/STRONG&gt; pre daný e-shop,&amp;nbsp;&lt;STRONG&gt;webových služieb&lt;/STRONG&gt;&amp;nbsp;alebo&amp;nbsp;&lt;STRONG&gt;rozhrania API&lt;/STRONG&gt;&amp;nbsp;(bez&amp;nbsp;alebo s konkrétnym ovládačom internetového obchodu), t.&amp;nbsp;j. bez potreby niekedy pomerne ťažkopádnych exportov a následných importov údajov, ako je to&amp;nbsp;v &lt;A href="22856409-6be1-40cd-8216-1b6caae2c548"&gt;režime off-line&lt;/A&gt;. Prepojenie je v&amp;nbsp;tomto prípade rýchlejšie, robustnejšie a&amp;nbsp;menej poruchové. Tento typ prepojenia umožňuje implementáciu všetkých potrebných funkcií a možností, čo off-line pripojením je možné&amp;nbsp;len veľmi ťažko dosiahnuť. 
+&lt;LI&gt;Komunikácia s internetovým obchodom je obsiahnutá v programe &lt;A href="24e780fd-36d3-4a6e-bfc0-a8665c75e4ee"&gt;OBERON Center&lt;/A&gt;. Dané exporty alebo importy údajov&amp;nbsp;môžu pritom&amp;nbsp;prebiehať &lt;STRONG&gt;úplne automaticky bez zásahu&amp;nbsp;používateľa, prípadne sa ich vykonanie môže spúšťať manuálne&lt;/STRONG&gt;. 
+&lt;LI&gt;Systém OBERON podporuje niekoľko internetových obchodov s priamym pripojením (&lt;A href="7437cbeb-c6d1-4b19-92ee-150ba8e4097f"&gt;Prestashop&lt;/A&gt;, &lt;EM&gt;Grandus&lt;/EM&gt;), viac informácií o podporovaných e-shopových&amp;nbsp;riešeniach nájdete v téme&amp;nbsp;&lt;A href="2ba6a435-be52-46a1-b723-fb2b8ca084c0"&gt;Internetový obchod v systéme OBERON&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Postup nastavenia prepojenia on-line internetového obchodu so systémom OBERON je uvedený v téme&amp;nbsp;&lt;A href="beec58fd-9285-4391-abab-28caaf9368af" style="auto-update-caption: true"&gt;Nastavenie komunikácie OBERON-u s on-line internetovým obchodom&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Možnosti komunikácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Komunikácia medzi systémom OBERON a&amp;nbsp;on-line internetovým obchodom zahŕňa: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;import prijatých objednávok&lt;/STRONG&gt; s prípadnou&amp;nbsp;&lt;STRONG&gt;aktualizáciou ich stavov&lt;/STRONG&gt;&amp;nbsp;a možnosťou automatickej rezervácie objednaných položiek, 
+&lt;LI&gt;&lt;STRONG&gt;export skladových kariet&lt;/STRONG&gt; (v prostredí internetového obchodu označovaných ako produkty) zo skladového systému do internetového obchodu v rôznych variáciách (kompletné - vrátane obrázkov, parametrov, variantov a kategórií -&amp;nbsp;ale aj bez obrázkov, len ceny a množstvá alebo len identifikátory), 
+&lt;LI&gt;&lt;STRONG&gt;export/import pohľadávok&lt;/STRONG&gt; (vystavených faktúr), 
+&lt;LI&gt;&lt;STRONG&gt;export/import zákazníkov&lt;/STRONG&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Pri komunikácii s internetovým obchodom je možné exportovať buď všetky skladové karty, alebo &lt;EM&gt;&lt;STRONG&gt;len zmenené&lt;/STRONG&gt;&lt;/EM&gt;, t. j. také, na ktorých sa od posledného exportu manuálne zmenili údaje (napr. názov, predajná cena, popis pre internetový obchod) alebo&amp;nbsp;na ktorých nastal príjem alebo výdaj (zmenilo sa zostatkové množstvo). S termínom &lt;EM&gt;len zmenené&lt;/EM&gt; sa vždy pracuje s ohľadom na dátum a čas, od ktorého sa odvodzuje načítanie len zmenených položiek (posledný export). 
+&lt;LI&gt;Pri exporte kategórií skladových kariet (stromová štruktúra) jeden produkt môže byť v jednej, alebo viacerých kategóriách. 
+&lt;LI&gt;Export identifikátorov sa vykonáva predovšetkým&amp;nbsp;na odstránenie skladových kariet z internetového obchodu (v prípade, že sa vymažú z evidencie v OBERON-e alebo už nie&amp;nbsp;sú zaradené do internetového obchodu). Export umožňuje, aby internetový obchod identifikoval, ktoré skladové karty sú preň aktuálne a ktoré by mal odstrániť. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Cenotvorba a export množstiev&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Pri používaní&amp;nbsp;on-line internetového obchodu (s priamym prepojením) je možné využiť &lt;STRONG&gt;niektoré skryté možnosti OBERON-u na prácu s cenotvorbou a zľavami&lt;/STRONG&gt;. Štandardne sa do internetového obchodu prenáša predajná cena zadaná na skladovej karte&amp;nbsp;(&lt;EM&gt;Cena 1 – 4&lt;/EM&gt;). Ak sa však zadá cena aj do poľa &lt;EM&gt;Odporúčaná predajná cena s DPH&lt;/EM&gt;, do e-shopu sa prenesie predajná&amp;nbsp;cena a rozdiel medzi ňou a štandardnou predajnou cenou sa automaticky dopočíta ako zľava (napr. ak je na skladovej karte nastavená predajná cena s DPH&amp;nbsp;80 € a&amp;nbsp;do poľa &lt;EM&gt;Odporúčaná predajná cena s&amp;nbsp;DPH&lt;/EM&gt; sa nastaví cena 100 €, do internetového obchodu sa prenesie cena 80 € a rozdiel 20 € sa automaticky&amp;nbsp;dopočíta ako zľava). Alternatívne je možné na skladovej karte nastaviť &lt;EM&gt;Odporúčanú predajnú cenu s&amp;nbsp;DPH&lt;/EM&gt; a výšku zľavy. Pre program nie je problém ani ďalší spôsob cenotvorby – zadá sa skutočná predajná cena a výška zľavy, vtedy sa automaticky dopočíta cena pred zľavou. 
+&lt;LI&gt;V závislosti od typu internetového obchodu a prepojenia so systémom OBERON je možné v niektorých prípadoch používať aj&amp;nbsp;&lt;A href="34f91c11-1a5d-4773-ac4e-48ad2fc859d3"&gt;rozšírenú cenotvorbu&lt;/A&gt;. 
+&lt;LI&gt;Zo skladových kariet v&amp;nbsp;OBERON-e sa do internetového obchodu štandardne exportujú&amp;nbsp;aktuálne zostatkové množstvá. Toto je však možné jednoduchým nastavením zmeniť tak, by sa do e-shopu zasielali&amp;nbsp;&lt;STRONG&gt;minimálne množstvá&lt;/STRONG&gt; (z poľa &lt;I&gt;Minimálne množstvo&lt;/I&gt;) (napr. ak tovar nie je momentálne na sklade, no napriek tomu ho&amp;nbsp;predajca vie v krátkom čase expedovať). Dostupné sú aj ďalšie možnosti - napr. export&amp;nbsp;aktuálnych množstiev alebo minimálnych&amp;nbsp;množstiev podľa toho, čo predstavuje&amp;nbsp;vyššiu hodnotu. Uvedené nastavenia sú dostupné vo &lt;A href="d6f59ec9-e1c8-4452-b048-fac4d4ab6fd8"&gt;formulári Internetový obchod - on-line pripojenie (rozšírené nastavenia)&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Podrobné informácie o možnostiach komunikácie medzi OBERON-om a konkrétnym internetovým obchodom získate v prehľadnej tabuľke v téme&amp;nbsp;&lt;A href="2ba6a435-be52-46a1-b723-fb2b8ca084c0"&gt;Internetový obchod v systéme OBERON&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="6ae057a0-b08c-4a72-bfc3-15264ed0a9ac" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="2ba6a435-be52-46a1-b723-fb2b8ca084c0">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="367cdee2-748f-4b75-933e-98fcaf7f5b00" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="7437cbeb-c6d1-4b19-92ee-150ba8e4097f">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="af8994d7-0a6a-44b0-9b1e-40f4951d40fe" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="beec58fd-9285-4391-abab-28caaf9368af">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="ec08d008-2959-45a5-b679-c1300df9dd01">
+      <Keyword m="2022-07-27T09:30:47.7440934Z">Internetový obchod - on-line pripojenie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="e0292b0b-91e5-4017-a7d6-d9f6466e5ff0">
+      <Keyword m="2022-07-27T09:30:29.8057464Z">E-shop - on-line pripojenie</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

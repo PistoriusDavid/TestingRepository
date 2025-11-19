@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="7db416a1-c676-42fb-b8be-3815196303cd" Status="Complete" CreatedOn="2017-06-19T08:15:55.6129486Z" ModifiedOn="2023-11-07T09:51:03.2432961Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Installation_PotableVerzia" BuildFlags="">
+  <Title m="2017-06-26T07:25:13.270568Z">Portable variant OBERON-u</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-11-07T09:51:03.2432961Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; je venovaná tzv.&amp;nbsp;&lt;STRONG&gt;portable variantu&lt;/STRONG&gt; systému OBERON.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Systém OBERON sa dodáva aj vo forme tzv.&amp;nbsp;&lt;STRONG&gt;portable variantu&lt;/STRONG&gt;, t.&amp;nbsp;j. &lt;STRONG&gt;prenosného, bezinštalačného variantu&lt;/STRONG&gt;. Ide o plnohodnotnú verziu OBERON-u s parametrami&amp;nbsp;ako pri&amp;nbsp;&lt;A href="19a10c98-2b1d-4fe1-8ab2-98921ab328be"&gt;bežnej inštalácii&lt;/A&gt;, avšak &lt;STRONG&gt;bez potreby inštalácie&lt;/STRONG&gt; do systému &lt;EM&gt;Windows&lt;/EM&gt; (stačí ho mať uložený napr. na prenosnom USB disku). 
+&lt;LI&gt;Pri prenose z jedného počítača do druhého je možné mať k dispozícii všetky dáta (databázy, prípadne aj iné dokumenty). 
+&lt;LI&gt;Portable&amp;nbsp;variant&amp;nbsp;predstavuje kompletnú verziu systému OBERON so všetkými modulmi, funkciami a&amp;nbsp;tlačovými výstupmi. 
+&lt;LI&gt;Portable&amp;nbsp;variant je k dispozícii na stiahnutie na stránke &lt;A href="http://www.exalogic.sk"&gt;www.exalogic.sk&lt;/A&gt; v sekcii&amp;nbsp;&lt;A href="https://exalogic.sk/na-stiahnutie/" target=_blank&gt;Na stiahnutie&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Výhody portable variantu&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Možné používať na rôznych počítačoch (v práci, doma, na chate atď.) a mať ho tak vždy k dispozícii. 
+&lt;LI&gt;OBERON nie je potrebné inštalovať - stačí ho&amp;nbsp;len rozbaliť zo ZIP archívu. 
+&lt;LI&gt;Žiadne obavy zo zanesenia systému &lt;EM&gt;Windows&lt;/EM&gt; (DLL Hell) inštaláciou ďalšieho programu. 
+&lt;LI&gt;Umožňuje jednoduchšie zálohovanie - stačí skopírovať celý adresár do záložného média. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Postup spustenia&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;Zo stránky &lt;A href="http://www.exalogic"&gt;www.exalogic&lt;/A&gt;, sekcia&amp;nbsp;&lt;A href="https://exalogic.sk/na-stiahnutie/" target=_blank&gt;Na stiahnutie&lt;/A&gt;&amp;nbsp;stiahnite &lt;EM&gt;OBERON - bezinštalačný variant&lt;/EM&gt;. 
+&lt;LI&gt;Súbor &lt;EM&gt;oberon_portable.zip&lt;/EM&gt; rozbaľte do USB disku (kľúča) alebo do iného prenosného média.&amp;nbsp;V&amp;nbsp;prenosnom médiu sa vytvorí adresár s názvom OBERON. 
+&lt;LI&gt;OBERON spustite dvojklikom na &lt;EM&gt;OBERON_Start.bat&lt;/EM&gt;. &lt;/LI&gt;&lt;/OL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="d182ab2b-737a-4cee-b4ec-c85ce92b6b16" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="19a10c98-2b1d-4fe1-8ab2-98921ab328be">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="c1b7b63b-e4d4-4237-ba8d-ef6722d06249" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="9a485893-6dd2-44e8-9740-a4cd7083a932">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="a993b0ff-0e45-46a8-8b41-1a519e61bda5">
+      <Keyword m="2020-01-09T13:37:33.3627332Z">Bezinštalačný variant OBERON-u</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="6b334cca-0fbb-4e01-857d-f662fc0b42d0">
+      <Keyword m="2021-03-23T13:59:28.2229687Z">Prenosný variant OBERON-u</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

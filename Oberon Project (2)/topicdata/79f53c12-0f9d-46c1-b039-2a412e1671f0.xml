@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="79f53c12-0f9d-46c1-b039-2a412e1671f0" Status="Complete" CreatedOn="2014-09-05T15:16:09.4088971Z" ModifiedOn="2024-07-09T11:58:05.8842977Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="50190" Name="Menu_Stock_StockCards_Inventory" BuildFlags="">
+  <Title m="2014-12-10T11:22:23.9423828Z">Inventúra skladu</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-07-09T11:58:05.8842977Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;je venovaná&amp;nbsp;položke&amp;nbsp;&lt;EM&gt;Inventúra skladu&amp;nbsp;&lt;/EM&gt;v&amp;nbsp;ponuke&amp;nbsp;&lt;EM&gt;Sklad&lt;/EM&gt; programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Každá účtovná jednotka, ktorá eviduje skladové zásoby, je v zmysle zákona č. 431/2002 Z. z. o&amp;nbsp;účtovníctve povinná v pravidelných intervaloch vykonávať fyzickú inventúru skladu. Táto povinnosť súvisí so širším úkonom inventarizácie, v rámci ktorej účtovná jednotka overuje, či stav majetku, záväzkov a rozdielu majetku a záväzkov (t. j. vlastného imania) v účtovníctve zodpovedá skutočnosti. Bez presnej evidencie skladových zásob by nebola možná ich kontrola, nedali by sa prijímať včasné opatrenia na doplnenie chýbajúcich zásob, ani sledovať celková hospodárnosť skladovania. 
+&lt;LI&gt;Výberom položky &lt;EM&gt;Inventúra skladu&lt;/EM&gt; sa otvorí&amp;nbsp;&lt;STRONG&gt;inventúrny súpis&amp;nbsp;určený&lt;/STRONG&gt; &lt;STRONG&gt;na&amp;nbsp;vykonanie inventúry skladu&amp;nbsp;&lt;/STRONG&gt;účtovnou jednotkou. 
+&lt;LI&gt;Inventúra skladu predstavuje korekciu rozdielu (&lt;I&gt;Manko&lt;/I&gt; alebo &lt;I&gt;Prebytok&lt;/I&gt;) medzi množstvom evidovaným skladovou evidenciou (&lt;I&gt;Množstvo v evidencii&lt;/I&gt;) a reálnym množstvom v sklade (&lt;I&gt;Množstvo fyzické&lt;/I&gt;) k určitému dátumu. Výsledkom inventúry skladu je zosúladenie skladovej evidencie s reálnym stavom zásob v&amp;nbsp;sklade. 
+&lt;LI&gt;Ak je zistený skutočný stav vyšší ako evidovaný účtovný stav a&amp;nbsp;rozdiel medzi týmito stavmi nemožno preukázať účtovným dokladom,&amp;nbsp;ide o&amp;nbsp;&lt;STRONG&gt;prebytok&lt;/STRONG&gt;. 
+&lt;LI&gt;Ak je zistený skutočný stav nižší ako evidovaný účtovný stav a rozdiel medzi týmito stavmi nemožno preukázať účtovným dokladom,&amp;nbsp;ide o&amp;nbsp;&lt;STRONG&gt;manko&lt;/STRONG&gt;. 
+&lt;LI&gt;Pred začatím inventúry je potrebné, aby účtovná jednotka mala zaevidované všetky skladové doklady v databázovej evidencii. Podrobný návod, ako vykonať inventúru, je k dispozícii v&amp;nbsp;téme&amp;nbsp;&lt;A href="489dd25b-dd6a-416d-be26-ce647566b429"&gt;Spracovanie inventúry&lt;/A&gt;. 
+&lt;LI&gt;Fyzickú inventúru skladových zásob je možné vykonať kedykoľvek v&amp;nbsp;priebehu spracovávaného obdobia. Na zápis fyzických množstiev v sklade je možné najprv použiť tlačový výstup typu inventúrny hárok. Následne možno zapísané fyzické množstvá prepísať do inventúrneho súpisu v&amp;nbsp;programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;, inventúrne rozdiely (manká alebo prebytky) program &lt;STRONG&gt;dopočíta automaticky&lt;/STRONG&gt;. Pomocou tlačidla &lt;I&gt;Tlač&lt;/I&gt; je možné vytlačiť príslušné tlačové výstupy, napr. &lt;I&gt;Inventúrny súpis (len manká a prebytky)&lt;/I&gt;. 
+&lt;LI&gt;V inventúrnom súpise sú zobrazené len skladové položky typu &lt;I&gt;Jednoduchá karta&lt;/I&gt; alebo &lt;EM&gt;Vratný obal&lt;/EM&gt;.&amp;nbsp;Skladové položky&amp;nbsp;&lt;A href="8deac9fe-9864-41e8-aaa3-02257c241d78"&gt;typu služba&lt;/A&gt;&lt;I&gt;, Sada, Výrobok, Receptúra&lt;/I&gt; majú vždy evidované množstvo nulové, preto sa na inventúrnom súpise nenachádzajú. 
+&lt;LI&gt;V&amp;nbsp;&lt;A href="834e9546-a56b-476f-9028-ef4c24a82345"&gt;právach používateľov&lt;/A&gt; je možné povoliť, resp. nepovoliť zobrazovanie evidovaných množstiev pri inventúre skladu (napr. čašník nebude vidieť evidované množstvo). &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Inventúra skladu pomocou mobilných zariadení&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;V&amp;nbsp;systéme OBERON je možné inventúru skladu vykonať aj&amp;nbsp;s&amp;nbsp;využitím&amp;nbsp;&lt;STRONG&gt;mobilných zariadení&lt;/STRONG&gt; (smartfón, tablet, &lt;A href="726335c3-67d3-49b6-8825-c1f9d70c1be6"&gt;priemyselný mobilný terminál&lt;/A&gt;) priamo v teréne, a to pomocou nasledujúcich mobilných aplikácií: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;A href="be17efdf-4b36-4b47-ad5d-09b0f66c8f65"&gt;ASTON - mobilný skladník&lt;/A&gt;&amp;nbsp;- mobilná aplikácia dostupná na&amp;nbsp;&lt;A href="https://play.google.com/store/apps/details?id=sk.exalogic.aston&amp;amp;gl=SK" target=_blank&gt;Google Play&lt;/A&gt; určená pre mobilné zariadenia&amp;nbsp;s operačným systémom&amp;nbsp;&lt;EM&gt;Android&lt;/EM&gt; a &lt;EM&gt;iOS&lt;/EM&gt;. Použiť ju možno výhradne so systémom OBERON. Viac informácií v&amp;nbsp;téme&amp;nbsp;&lt;A href="5147b081-3c16-436f-a07e-e6ce748d34ee" style="auto-update-caption: true"&gt;ASTON - inventúra skladu&lt;/A&gt;. 
+&lt;LI&gt;&lt;A href="b138daad-5453-4e53-8d2c-ecf2e81a5fcb"&gt;OBERON Web&lt;/A&gt; - nadstavbová webová aplikácia systému OBERON, ktorá&amp;nbsp;môže byť spustená v ľubovoľnom webovom prehliadači, pričom svojou funkčnosťou je prispôsobená aj&amp;nbsp;na použitie na mobilných zariadeniach. Keďže ide o webovú aplikáciu, nezáleží na používanom operačnom systéme daného zariadenia - či už je to &lt;EM&gt;Windows, Windows Phone, Android, iOS, Linux&lt;/EM&gt; atď. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Obe aplikácie so systémom OBERON komunikujú prostredníctvom&amp;nbsp;&lt;A href="58bb31ca-00c8-4641-ad99-7d58e24f59c5"&gt;webových služieb&lt;/A&gt;. Na mobilnom zariadení sa &lt;STRONG&gt;vykonáva zápis spočítaných fyzických množstiev&lt;/STRONG&gt; a&amp;nbsp;spravidla pomocou siete Wi-Fi sa údaje vzápätí prenesú do počítača. Po skončení inventúry stačí v&amp;nbsp;počítači skontrolovať údaje a danú inventúru dokončiť. Tým odpadá zdĺhavá práca prepisovania fyzických množstiev z inventúrnych hárkov do počítača, čím sa výrazne skráti čas vyhodnotenia inventúry. 
+&lt;LI&gt;Postup spracovania inventúry pomocou aplikácie &lt;EM&gt;ASTON&lt;/EM&gt; a &lt;EM&gt;OBERON Web&lt;/EM&gt; nájdete v&amp;nbsp;téme&amp;nbsp;&lt;A href="489dd25b-dd6a-416d-be26-ce647566b429"&gt;Spracovanie inventúry&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 1: Spracovanie inventúry&amp;nbsp;pomocou mobilnej aplikácie ASTON&lt;/H5&gt;
+&lt;P&gt;&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERONMobileSolutions/OBERONMobileSolutions_ASTON_Inventory.png"&gt;&lt;/P&gt;
+&lt;H5&gt;Obrázok č. 2: Spracovanie inventúry&amp;nbsp;na&amp;nbsp;tablete v aplikácii OBERON Web&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/Oberon_Center/Form_OberonCenter_StockCard_Inventory.png"&gt;&amp;nbsp;&lt;/P&gt;
+&lt;H2&gt;Dostupné možnosti&lt;/H2&gt;
+&lt;P&gt;Ďalšie možnosti práce so záznamami&amp;nbsp;sú dostupné&amp;nbsp;po stlačení tlačidla &lt;EM&gt;Možnosti&lt;/EM&gt;, prípadne v&amp;nbsp;kontextovej ponuke tabuľky záznamov.&lt;/P&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Začiatok inventúry&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Otvorí sprievodcu, pomocou ktorého je možné začať inventúru skladu. Zadáva sa v&amp;nbsp;ňom dátum, ku ktorému chce účtovná jednotka&amp;nbsp;začať fyzickú inventúru. Podľa zadaného dátumu&amp;nbsp;sa zo skladových kariet načítajú zostatkové množstvá a následne sa&amp;nbsp;zapíšu do inventúrneho súpisu do poľa &lt;I&gt;Množstvo evidované&lt;/I&gt;. 
+&lt;P&gt;Ak sa začína nová inventúra, je potrebné predchádzajúcu inventúru (fyzické množstvá) vynulovať. Ak sa dodatočne upravovali doklady po začiatku inventúry, je možné ponechať už zadané fyzické množstvá (inventúra sa opätovne prepočíta).&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Zápis fyzických množstiev podľa evidencie (pro forma inventúra)&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Umožní&amp;nbsp;do aktuálne spracovávanej inventúry zapísať fyzické množstvá podľa množstiev v evidencii. Táto možnosť sa používa, ak účtovná jednotka neurobila skutočnú fyzickú inventúru, prípadne ju urobila len čiastočne. Fyzické množstvá budú zapísané len k&amp;nbsp;doposiaľ nezadaným položkám, preto sa táto možnosť využíva až po zadaní známych fyzických množstiev.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Zápis nulových fyzických množstiev&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Funkcia automaticky zapíše nulové množstvá do tých políčok stĺpca &lt;I&gt;Množstvo fyzické,&lt;/I&gt; v ktorých nie je zadaná žiadna hodnota.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Zrušenie inventúry&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Funkcia vymaže zapísané fyzické množstvá.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;XML komunikácia - export údajov&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Umožní export inventúrneho súpisu do súboru typu XML. Viac informácií získate v téme&amp;nbsp;&lt;A href="56f661c6-24da-46aa-b157-5d988cbe792b" style="auto-update-caption: true"&gt;Všeobecne o XML komunikácii&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;XML komunikácia - hromadný import údajov&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Umožní import fyzických množstiev zo súboru typu&amp;nbsp;XML. Formát súboru XML je totožný so súborom XML exportu inventúrneho súpisu (funkcia vyššie &lt;EM&gt;XML komunikácia - export údajov&lt;/EM&gt;). Položky sú identifikované podľa &lt;I&gt;ID_Num&lt;/I&gt; alebo &lt;I&gt;Čísla karty&lt;/I&gt; alebo &lt;I&gt;EAN kódu&lt;/I&gt;. Import pomocou&amp;nbsp;XML komunikácie je možné využívať napr. pri vykonávaní inventúry&amp;nbsp;pomocou zariadení od iných dodávateľov za predpokladu, že takéto zariadenie (alebo aplikačný softvér k tomuto zariadeniu) umožňuje vykonávať export do súboru XML. Viac informácií získate v téme&amp;nbsp;&lt;A href="56f661c6-24da-46aa-b157-5d988cbe792b" style="auto-update-caption: true"&gt;Všeobecne o XML komunikácii&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Bližšie informácie o ovládaní evidencie, používaní filtrov, triedení záznamov a pod. sú dostupné v téme&amp;nbsp;&lt;A href="8936fde4-aac3-4672-99a2-c8bd5ccffdcd"&gt;Ovládanie knihy (evidencie)&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="14b9d76b-e518-4c16-a906-e6e919e077a9" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="489dd25b-dd6a-416d-be26-ce647566b429">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="0098acec-32ad-44b2-8e7d-42657911a40e" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="8deac9fe-9864-41e8-aaa3-02257c241d78">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="1efa291f-c80b-4f0d-b227-1fba39e68f3a" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="62db2271-9ae9-4968-b790-47a07e7c6aef">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="59c319c7-8a27-4e39-93c2-51bb675404d5" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="0a22d060-0b8a-4166-ba9b-8239f36863a0">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="172487b6-7b5b-43f8-933e-47144327ad41" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="5147b081-3c16-436f-a07e-e6ce748d34ee">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="d8f2bccd-8a34-4cdb-9973-f1da6d8346bc" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="b138daad-5453-4e53-8d2c-ecf2e81a5fcb">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="3ddd5e74-ac34-4997-b12f-8ff27b268fcb">
+      <Keyword m="2021-11-02T10:09:29.0189697Z">Sklad - inventúra</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="defe5f28-8b54-4d87-b1e8-e303029b0d92">
+      <Keyword m="2021-11-02T10:09:38.9402792Z">Inventúra - mobilné zariadenia</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="08035a50-84b2-4a67-88cd-f461e7e853a0">
+      <Keyword m="2021-11-02T10:09:45.7252016Z">Inventúra - ASTON</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="92e98092-618e-428f-99bb-02024a03292c">
+      <Keyword m="2021-11-02T10:09:53.9346917Z">Inventúra - OBERON Web</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

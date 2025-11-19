@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="a75ad602-f141-475d-afba-8d0f3dcf668a" Status="Complete" CreatedOn="2019-04-10T12:02:03.089656Z" ModifiedOn="2023-04-17T09:26:32.5810669Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Devices_Identification_AuthenticationData" BuildFlags="">
+  <Title m="2019-04-11T10:56:50.7155952Z">Postup získania identifikačných a autentifikačných údajov</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-04-17T09:26:32.5800667Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; je venovaná &lt;STRONG&gt;postupu získania identifikačných a autentifikačných údajov (tzv. inicializačný balíček)&lt;/STRONG&gt; od &lt;EM&gt;Finančnej správy SR&lt;/EM&gt;. Postup je určený pre podnikateľov, ktorí evidujú tržby v systéme eKasa.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;V&amp;nbsp;prípade kúpy novej&amp;nbsp;&lt;A href="04b8d290-1470-41ff-85a1-c44a20958841"&gt;registračnej pokladnice&lt;/A&gt; (fiškálneho zariadenia) je nevyhnutné &lt;STRONG&gt;získať a zadať do pokladnice&amp;nbsp;identifikačné a autentifikačné údaje&lt;/STRONG&gt;&amp;nbsp;- dáta uložené v súboroch, ktoré vydáva &lt;EM&gt;Finančná správa SR.&lt;/EM&gt; 
+&lt;LI&gt;&lt;STRONG&gt;Identifikačnými údajmi&lt;/STRONG&gt; sa rozumie súbor údajov potrebných na vyhotovenie pokladničného dokladu, dokladu označeného slovami „NEPLATNÝ DOKLAD“, „VKLAD“ alebo „VÝBER“, ktoré jednoznačne identifikujú on-line registračnú pokladnicu podnikateľa. 
+&lt;LI&gt;&lt;STRONG&gt;Autentifikačnými údajmi&lt;/STRONG&gt; sú údaje, ktoré umožňujú overiť identitu&amp;nbsp;fiškálneho zariadenia&amp;nbsp;pri komunikácii so systémom eKasa. Rozumie sa nimi elektronický certifikát (kryptografická informácia), ktorý slúži&amp;nbsp;na autentifikáciu&amp;nbsp;pokladnice pri zasielaní dátovej správy do systému eKasa. 
+&lt;LI&gt;Získaniu identifikačných a autentifikačných údajov&amp;nbsp;pri kúpe novej pokladnice&amp;nbsp;predchádza &lt;STRONG&gt;žiadosť o pridelenie eKasa kódu&lt;/STRONG&gt; (kód pokladnice eKasa klient). Po jeho pridelení bude podnikateľovi doručený aj inicializačný balíček, t.&amp;nbsp;j.&amp;nbsp;identifikačné a autentifikačné údaje, ktoré je podnikateľ povinný si následne stiahnuť (nahrať) do svojej pokladnice (fiškálneho zariadenia). 
+&lt;LI&gt;&lt;STRONG&gt;Súbor autentifikačných údajov&lt;/STRONG&gt; nahratý vo fiškálnom zariadení&amp;nbsp;má v&amp;nbsp;záujme ochrany údajov zasielaných do systému eKasa&amp;nbsp;platnosť &lt;STRONG&gt;dva roky od vystavenia&lt;/STRONG&gt;. Z tohto dôvodu majú podnikatelia, ktorí evidujú tržby v systéme eKasa,&amp;nbsp;povinnosť&amp;nbsp;po dvoch rokoch&amp;nbsp;&lt;STRONG&gt;vymeniť autentifikačné údaje&lt;/STRONG&gt; vo svojich pokladniciach. Výmenu súboru je potrebné uskutočniť &lt;STRONG&gt;v lehote 30 dní pred vypršaním jeho platnosti&lt;/STRONG&gt; (podnikateľ tak však môže urobiť aj skôr). Na blížiaci sa koniec platnosti autentifikačných údajov program upozorňuje &lt;STRONG&gt;hlásením s&amp;nbsp;výzvou na aktualizáciu autentifikačných údajov&lt;/STRONG&gt;. Požiadať o nové autentifikačné údaje je potrebné na portáli finančnej správy &lt;STRONG&gt;v&amp;nbsp;eKasa zóne podnikateľa&lt;/STRONG&gt;. Starým autentifikačným údajom nie je potrebné venovať pozornosť – po uplynutí dvojročnej lehoty sa automaticky zneplatnia. 
+&lt;LI&gt;Po získaní identifikačných a autentifikačných údajov je potrebné vykonať ich zápis&amp;nbsp;do fiškálneho zariadenia. Pri fiškálnom zariadení&amp;nbsp;&lt;A href="00fa9619-a13d-4745-8938-cc0c2b5039ce"&gt;eKasa PANDORA&lt;/A&gt; &lt;A href="1f32a90c-7b4a-4d69-9f38-a560178794b3" style="auto-update-caption: true"&gt;&lt;IMG border=0 alt="Odporúčané riešenia" src="images/OBERON/Basic/Odporucane-riesenie_ruka_ikona.png"&gt;&lt;/A&gt;&amp;nbsp;postupujte podľa návodu v téme&amp;nbsp;&lt;A href="f1a1ee48-d6ac-4b22-bab3-a6e4ccc3cf99"&gt;Sprievodca - Nastavenie identifikačných a autentifikačných údajov&lt;/A&gt;&amp;nbsp;alebo v&amp;nbsp;téme &lt;A href="a14ac842-73d2-4d86-ab96-a99fe02e5a8f"&gt;&lt;/A&gt;&lt;A href="a14ac842-73d2-4d86-ab96-a99fe02e5a8f"&gt;Zápis identifikačných a autentifikačných údajov&lt;/A&gt;.&amp;nbsp;Pri iných pokladniciach je potrebné postupovať podľa návodu a servisného programu výrobcu. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Postup získania údajov (pridelenia eKasa kódu po kúpe novej pokladnice)&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Podajte žiadosť o pridelenie kódu pokladnice eKasa klient&lt;/STRONG&gt;: 
+&lt;UL&gt;
+&lt;LI&gt;prihláste sa na portáli &lt;EM&gt;Finančnej správy&amp;nbsp;SR&lt;/EM&gt; do svojej &lt;EM&gt;Osobnej internetovej zóny (OIZ)&lt;/EM&gt; a vyberte časť &lt;EM&gt;Katalóg formulárov&lt;/EM&gt; (ponuka &lt;EM&gt;Katalógy&lt;/EM&gt;), 
+&lt;LI&gt;vyplňte a odošlite elektronický formulár &lt;EM&gt;&lt;STRONG&gt;Žiadosť o&amp;nbsp;pridelenie kódu pokladnice e-kasa klient&lt;/STRONG&gt;&lt;/EM&gt; - v&amp;nbsp;žiadosti označte, že žiadate o&amp;nbsp;pridelenie kódu on-line registračnej pokladnice (ORP). &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;V&amp;nbsp;OIZ na portáli finančnej správy pribudne odkaz na &lt;STRONG&gt;eKasa zónu podnikateľa&lt;/STRONG&gt; (Obrázok č. 1)&lt;STRONG&gt;, v ktorej&amp;nbsp;si stiahnite inicializačný balíček&lt;/STRONG&gt;: 
+&lt;UL&gt;
+&lt;LI&gt;v&amp;nbsp;eKasa zóne nájdete zoznam všetkých pokladníc, ktorým&amp;nbsp;finančná správa&amp;nbsp;pridelila na základe žiadosti kód pokladnice eKasa klient -&amp;nbsp;stiahnite si identifikačné údaje pokladnice (identifikačný balíček) na lokálne úložisko, 
+&lt;LI&gt;prostredníctvom eKasa zóny požiadajte certifikačnú autoritu o&amp;nbsp;pridelenie certifikátu (autentifikačných údajov), a to pre každú pokladnicu osobitne, 
+&lt;LI&gt;v žiadosti zadajte &lt;STRONG&gt;heslo&lt;/STRONG&gt;, ktoré použijete pri nahrávaní autentifikačného balíčka do ORP – &lt;STRONG style="COLOR: rgb(255,0,0)"&gt;heslo nezabudnite!&lt;/STRONG&gt; 
+&lt;LI&gt;po spracovaní požiadavky sa vám v systéme eKasa certifikát zobrazí a môžete si ho stiahnuť na lokálne úložisko (autentifikačný balíček). &lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/OL&gt;
+&lt;H5&gt;Obrázok č. 1: Osobná internetová zóna (OIZ), sekcia eKasa&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Devices/Devices_Auxiliary/Device_Auxiliary_OIZ_eKasa.png"&gt;&lt;/P&gt;
+&lt;H2&gt;Postup výmeny autentifikačných údajov (po 2 rokoch)&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;Na portáli &lt;EM&gt;Finančnej správy SR&lt;/EM&gt; sa prihláste do svojej &lt;EM&gt;Osobnej internetovej zóny (OIZ)&lt;/EM&gt;, zvoľte sekciu &lt;EM&gt;&lt;STRONG&gt;eKasa&lt;/STRONG&gt;&lt;/EM&gt; (Obrázok č. 1). 
+&lt;LI&gt;V sekcii &lt;EM&gt;eKasa&lt;/EM&gt; vyberte ponuku &lt;EM&gt;Autentifikačné údaje&lt;/EM&gt;. Informácie o evidovaných pokladniciach vrátane dátumu exspirácie sú k dispozícii v dolnej časti webovej stránky. 
+&lt;LI&gt;Vo svojej &lt;EM&gt;eKasa&lt;/EM&gt; zóne vyberte ponuku &lt;EM&gt;&lt;STRONG&gt;Žiadosť o nové autentifikačné údaje&lt;/STRONG&gt;&lt;/EM&gt;. 
+&lt;LI&gt;Prostredníctvom poľa &lt;EM&gt;&lt;STRONG&gt;Nové autentifikačné údaje&lt;/STRONG&gt;&lt;/EM&gt; požiadajte o ich pridelenie pre svoje fiškálne zariadenie. V prípade viacerých pokladníc je potrebné požiadať o pridelenie nových autentifikačných údajov pre každé fiškálne zariadenie osobitne. 
+&lt;LI&gt;V žiadosti je potrebné vytvoriť &lt;STRONG&gt;heslo&lt;/STRONG&gt;, ktoré následne použijete pri nahrávaní autentifikačných údajov do svojho fiškálneho zariadenia – &lt;STRONG&gt;&lt;FONT color=red&gt;heslo nezabudnite!&lt;/FONT&gt;&lt;/STRONG&gt; 
+&lt;LI&gt;Po spracovaní požiadavky sa vám &lt;STRONG&gt;súbor autentifikačných údajov zobrazí&lt;/STRONG&gt; a môžete si ho stiahnuť na lokálne úložisko, napr. do svojho počítača. 
+&lt;LI&gt;V poslednom kroku je potrebné nové autentifikačné údaje zapísať do fiškálneho zariadenia. Pri fiškálnom zariadení&amp;nbsp;&lt;A href="00fa9619-a13d-4745-8938-cc0c2b5039ce"&gt;eKasa PANDORA&lt;/A&gt; &lt;A href="1f32a90c-7b4a-4d69-9f38-a560178794b3" style="auto-update-caption: true"&gt;&lt;IMG border=0 alt="Odporúčané riešenia" src="images/OBERON/Basic/Odporucane-riesenie_ruka_ikona.png"&gt;&lt;/A&gt;&amp;nbsp;postupujte podľa návodu v téme&amp;nbsp;&lt;A href="f1a1ee48-d6ac-4b22-bab3-a6e4ccc3cf99"&gt;Sprievodca - Nastavenie identifikačných a autentifikačných údajov&lt;/A&gt;&amp;nbsp;alebo v&amp;nbsp;téme &lt;A href="a14ac842-73d2-4d86-ab96-a99fe02e5a8f"&gt;&lt;/A&gt;&lt;A href="a14ac842-73d2-4d86-ab96-a99fe02e5a8f"&gt;Zápis identifikačných a autentifikačných údajov&lt;/A&gt;. Pri iných pokladniciach je potrebné postupovať podľa návodu a servisného programu výrobcu. &lt;/LI&gt;&lt;/OL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="b5a11998-6564-4ba3-915f-a5edc4709218" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="d9b919e7-20c4-4c50-9910-4f13211ed9a8">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="49ef6d54-7fc5-4a2f-a1ee-1d45f055f2f2" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="b24ad235-cf7f-43e2-b3e8-ec0f7d92f6b6">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="ae374ebe-40c5-49f3-958d-aaf187e6efb0" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="2edf9500-71d3-4b5c-9d44-990261fb51bc">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="97c82764-b218-42cf-a2c0-ea4ad0df046d" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="06f5e819-cf70-4875-b3fd-eca80b19939b">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="46dc6ffb-97ca-4a56-a144-2abc1994dce0" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="3c20e547-e046-4644-87b3-c8979f7cbacc">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="3c6af822-2d0c-445d-8204-719c11ed32c5" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="f1a1ee48-d6ac-4b22-bab3-a6e4ccc3cf99">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="411f4513-ffe6-47eb-90f5-ca34b101912a">
+      <Keyword m="2021-03-19T14:27:52.5929127Z">Autentifikačné údaje (eKasa) - postup získania</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="dd209153-f94c-44f2-893a-1053ef42536c">
+      <Keyword m="2021-03-19T14:28:15.2253761Z">Inicializačné údaje (eKasa) - postup získania</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="c9665b06-bba8-4571-8103-84562bdee756">
+      <Keyword m="2021-03-19T14:28:08.0771113Z">Identifikačné údaje (eKasa) - postup získania</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="a59bcdff-fb1c-42f9-8707-edf8e53a97e2">
+      <Keyword m="2021-03-19T14:29:04.639212Z">Postup získania identifikačných a autentifikačných údajov (eKasa)</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="f6cb379a-83b9-4790-8b32-1099b7135a88">
+      <Keyword m="2021-03-19T14:29:15.7935175Z">eKasa - postup získania identifikačných a autentifikačných údajov</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="e993577e-b700-47d8-af74-3a2cbba04e08">
+      <Keyword m="2021-03-22T13:17:00.3877322Z">Autentifikačný balíček (eKasa)</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="90669ed7-998a-4edd-9296-b144cff5cf87">
+      <Keyword m="2021-03-22T13:17:07.2677133Z">Identifikačný balíček (eKasa)</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="e0086e22-2d28-4eae-9b42-9b0e505fbb3e">
+      <Keyword m="2021-03-22T13:17:12.5285016Z">Inicializačný balíček (eKasa)</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="958e7897-f487-43a9-b027-37f987d53f27">
+      <Keyword m="2021-03-22T13:17:24.7330258Z">Heslo - autentifikačný balíček (eKasa)</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="3d5bab65-e891-473d-80e1-25ecf7bb1488">
+      <Keyword m="2023-04-05T11:04:10.2569558Z">Výmena autentifikačných údajov po 2 rokoch</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="61c807be-02eb-4fd2-b34e-8d766ab12b5e">
+      <Keyword m="2023-04-05T11:04:27.7964264Z">Autentifikačné údaje (eKasa) - výmena po 2 rokoch</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="0ec3eb7c-617b-4ab3-9f90-6b13218da02d">
+      <Keyword m="2023-04-05T11:05:04.9312923Z">2 roky - výmena autentifikačných údajov</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="ae7d60eb-a50d-4811-b213-d94b66200304" Status="Complete" CreatedOn="2018-06-28T10:00:29.6804371Z" ModifiedOn="2023-11-16T10:13:47.3051237Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Wages_Practical_Holiday" BuildFlags="">
+  <Title m="2018-06-28T10:01:04.05988Z">Odmeňovanie práce vo sviatok</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-11-16T10:13:47.3051237Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; je venovaná &lt;STRONG&gt;problematike odmeňovania práce vo sviatok&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;V mesiaci, v ktorom bol sviatok, môžu v&amp;nbsp;praxi nastať tieto situácie: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Pracovník robil vo sviatok&lt;/STRONG&gt; - vtedy&amp;nbsp;podľa &lt;EM&gt;Zákonníka práce&lt;/EM&gt; (zákon č. 311/2001 Z. z.) &lt;STRONG&gt;patrí pracovníkovi&amp;nbsp;za prácu vo sviatok&lt;/STRONG&gt; &lt;STRONG&gt;dosiahnutá mzda a mzdové zvýhodnenie&lt;/STRONG&gt; &lt;STRONG&gt;(príplatok)&lt;/STRONG&gt;. Pracovníkovi &lt;STRONG&gt;nepatrí&lt;/STRONG&gt; &lt;STRONG&gt;náhrada mzdy&lt;/STRONG&gt;, keďže bol v&amp;nbsp;práci. 
+&lt;LI&gt;&lt;STRONG&gt;Pracovník mal robiť a nerobil, lebo bol sviatok&lt;/STRONG&gt; - tu je potrebné rozlišovať, akým typom mzdy je pracovník odmeňovaný: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Časová alebo úkolová mzda&lt;/STRONG&gt; - pri tejto mzde pracovníkovi &lt;STRONG&gt;patrí náhrada mzdy&lt;/STRONG&gt; v&amp;nbsp;sume jeho priemerného zárobku. 
+&lt;LI&gt;&lt;STRONG&gt;Mesačná mzda&lt;/STRONG&gt; -&amp;nbsp;u pracovníka, ktorý je odmeňovaný mesačnou mzdou, sa sviatok, ktorý pripadne na jeho obvyklý pracovný deň, považuje za odpracovaný deň, za ktorý mu &lt;STRONG&gt;patrí dosiahnutá mzda&lt;/STRONG&gt;. Tomuto pracovníkovi &lt;STRONG&gt;náhrada mzdy za sviatok nepatrí&lt;/STRONG&gt;. V&amp;nbsp;kolektívnej zmluve alebo v&amp;nbsp;pracovnej zmluve však možno dohodnúť, že aj pracovníkovi, ktorý je odmeňovaný mesačnou mzdou, bude patriť náhrada mzdy v sume jeho priemerného zárobku. Okolnosť, či sa má sviatok zahrnúť alebo nezahrnúť do odpracovaných hodín a&amp;nbsp;má sa mu počítať náhrada mzdy,&amp;nbsp;sa nastavuje v&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="172ab39f-e82b-4a73-94eb-dc1d4d66323e"&gt;oddiel Firma, Mzdy a dochádzka&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt; záložka &lt;EM&gt;Výpočet miezd&lt;/EM&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Ak sa zamestnávateľ so zamestnancom dohodne na čerpaní náhradného voľna za prácu vo sviatok, patrí zamestnancovi &lt;STRONG&gt;pri časovej mzde&lt;/STRONG&gt; za hodinu práce vo sviatok hodina náhradného voľna. V tom prípade mu mzdové zvýhodnenie nepatrí. 
+&lt;LI&gt;U zamestnanca, ktorý je &lt;STRONG&gt;odmeňovaný mesačnou mzdou&lt;/STRONG&gt;, sa čas čerpania náhradného voľna za prácu vo sviatok považuje za odpracovaný čas, za ktorý mu patrí dosiahnutá mzda; tomuto zamestnancovi náhrada mzdy za čas čerpania náhradného voľna za prácu vo sviatok nepatrí. 
+&lt;LI&gt;Vysvetlenie pojmov: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Dosiahnutá mzda&lt;/STRONG&gt; - predstavuje bežnú mzdu zamestnanca. 
+&lt;LI&gt;&lt;STRONG&gt;Mzdové zvýhodnenie&lt;/STRONG&gt; - predstavuje príplatok za prácu vo sviatok podľa platnej legislatívy (výšku príplatku za sviatok môže určovať aj kolektívna zmluva).&amp;nbsp;Mzdové zvýhodnenie patrí aj za prácu vykonávanú vo sviatok, ktorý pripadne na deň nepretržitého odpočinku zamestnanca v&amp;nbsp;týždni. V&amp;nbsp;OBERON-e mu zodpovedá mzdová predkontácia &lt;EM&gt;&lt;STRONG&gt;402 - Príplatok (za sviatok)&lt;/STRONG&gt;&lt;/EM&gt;. Postup zadania mzdového zvýhodnenia (príplatku) v OBERON-e je dostupný nižšie. 
+&lt;LI&gt;&lt;STRONG&gt;Náhrada mzdy&lt;/STRONG&gt; - možno ju chápať ako preplatenie „ušlej“ mzdy pracovníka za čas, ktorý mal robiť a nerobil, lebo bol sviatok. V&amp;nbsp;OBERON-e&amp;nbsp;jej zodpovedá mzdová predkontácia &lt;EM&gt;&lt;STRONG&gt;601 - Náhrada mzdy za sviatok&lt;/STRONG&gt;&lt;/EM&gt;. Náhrada mzdy za sviatok sa vypočítava ako trojmesačný priemerný zárobok pracovníka - viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="f77fe5bd-e3df-4e7b-84f3-93d44bf10c0d" style="auto-update-caption: true"&gt;Výpočet priemerov&lt;/A&gt;. Na základe nastavenia v&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="172ab39f-e82b-4a73-94eb-dc1d4d66323e"&gt;oddiel Firma, Mzdy a dochádzka&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt; záložka &lt;EM&gt;Výpočet miezd&lt;/EM&gt; ju program dopĺňa do mzdových zložiek pracovníka&amp;nbsp;automaticky. &lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 1: Schéma odmeňovania práce vo sviatok&lt;/H5&gt;
+&lt;P&gt;&amp;nbsp;&lt;IMG border=0 alt="" src="images/Wages/Wages_HolidayWork.png"&gt;&lt;/P&gt;
+&lt;H2&gt;Postup zadania mzdového zvýhodnenia (príplatku)&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;Pred samotným spracovaním mzdy pracovníkovi skontrolujte systémový panel a uistite sa, že máte správne nastavené&amp;nbsp;spracovávané obdobie miezd. Prípadnú zmenu obdobia vykonajte v ponuke &lt;EM&gt;Mzdy&lt;/EM&gt;, &lt;EM&gt;Obdobie&lt;/EM&gt;, &lt;A href="d05c58b2-b990-44d8-ac5c-d199b9cde45e" style="auto-update-caption: true"&gt;Zmena spracovávaného obdobia miezd&lt;/A&gt;, prípadne priamo v systémovom paneli. 
+&lt;LI&gt;V programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt; zvoľte ponuku &lt;EM&gt;Mzdy,&amp;nbsp;&lt;/EM&gt;&lt;A href="6923b0c5-166b-4e3b-a53b-71f62b53b2fc"&gt;Tvorba miezd&lt;/A&gt;, prípadne stlačte tlačidlo&amp;nbsp;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Button_Wages.png"&gt;&amp;nbsp;v nástrojovej lište OBERON-u. 
+&lt;LI&gt;Vyberte (označte kurzorom) mzdu pracovníka, ktorému prináleží príplatok. 
+&lt;LI&gt;Stlačte tlačidlo &lt;EM&gt;&lt;STRONG&gt;Upraviť mzdu&lt;/STRONG&gt;&lt;/EM&gt;. Otvorí sa&amp;nbsp;&lt;A href="2cd2daa2-afd8-4a7b-9ca3-da8f3c35fec4"&gt;formulár Úprava mzdy&lt;/A&gt;. V záložke &lt;EM&gt;Zložky mzdy&lt;/EM&gt; stlačte tlačidlo &lt;EM&gt;&lt;STRONG&gt;Nový-Príplatok&lt;/STRONG&gt;&lt;/EM&gt; a&amp;nbsp;zo zoznamu &lt;A href="fc8d8173-0da0-459a-b570-587597ce3315"&gt;mzdových predkontácií&lt;/A&gt; vyberte predkontáciu &lt;STRONG&gt;&lt;EM&gt;402 - Príplatok (za sviatok)&lt;/EM&gt;&lt;/STRONG&gt;. 
+&lt;LI&gt;Zobrazí sa formulár &lt;EM&gt;Príplatok&lt;/EM&gt;,&amp;nbsp;v ktorom zadajte tarifu a počet hodín práce vo sviatok. 
+&lt;LI&gt;Stlačením tlačidla &lt;I&gt;&lt;STRONG&gt;OK (spracované)&lt;/STRONG&gt;&lt;/I&gt; sa formulár uzatvorí. Formulár môžete zatvoriť aj tlačidlom &lt;EM&gt;OK (koncept),&lt;/EM&gt; ktorý sa používa na označovanie ešte nespracovaných a nedokončených miezd. &lt;/LI&gt;&lt;/OL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="51183043-e691-4502-8550-3baf59958147" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="001a08ce-5c9e-49ef-be9f-38e29fe140a0">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="1e9391f5-6ac7-4a0c-afb1-b5ab6536a191" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="6923b0c5-166b-4e3b-a53b-71f62b53b2fc">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="b0d42d68-c5c5-4258-8410-f7c78f661fcf" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1e1da5f2-5abd-48a4-bf82-4f31c614ac45">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="3d9a1080-8404-4c0a-876b-b9d5cf5defa5" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="2cd2daa2-afd8-4a7b-9ca3-da8f3c35fec4">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="c3b3fc31-b5cf-41ba-80d0-239ce85373e5" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="172ab39f-e82b-4a73-94eb-dc1d4d66323e">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="92eac666-161c-43ab-880e-690bc94c8caa" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="f77fe5bd-e3df-4e7b-84f3-93d44bf10c0d">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="772c2bcd-f6a1-46a0-a75b-544016bf9128">
+      <Keyword m="2023-07-25T11:47:27.8934397Z">Sviatok - odmeňovanie práce</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="707a070f-c3c0-4426-b665-a37fdaa1cfc8">
+      <Keyword m="2023-07-25T11:47:39.4974561Z">Náhrada mzdy vo sviatok</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="737c6b8b-600d-4ec2-8d01-6fa70aef4d60">
+      <Keyword m="2023-07-25T11:47:48.9336797Z">Príplatok za prácu vo sviatok</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="43f58ddd-207e-4e32-a9dd-cb7b6336736e">
+      <Keyword m="2023-07-25T11:49:04.9905557Z">402 - Príplatok (za sviatok)</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="5487013a-6691-4c97-b77e-b5409b4b8b39">
+      <Keyword m="2023-07-25T11:48:59.7820468Z">601 - Náhrada mzdy za sviatok</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="4ffbc44c-3e37-447e-8d95-f0cbb2f16eb2">
+      <Keyword m="2023-07-25T11:49:55.0450565Z">Mzdové zvýhodnenie (príplatok)</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

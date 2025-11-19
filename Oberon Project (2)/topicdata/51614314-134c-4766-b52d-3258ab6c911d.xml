@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="51614314-134c-4766-b52d-3258ab6c911d" Status="Complete" CreatedOn="2014-09-04T15:20:35.9353442Z" ModifiedOn="2022-10-20T10:32:10.646708Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Exportimport_Offline_SettingsSampleOBERONFile" BuildFlags="">
+  <Title m="2021-05-24T06:45:40.5825094Z">Príklad nastavenia transportu faktúr</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2022-10-20T10:32:10.6457078Z">&lt;P&gt;V tejto téme &lt;EM&gt;Pomocníka&lt;/EM&gt; je uvedený &lt;STRONG&gt;príklad exportu faktúr z&amp;nbsp;knihy pohľadávok&amp;nbsp;vystavených&amp;nbsp;v pobočke firmy a ich následný import&amp;nbsp;do centrály&lt;/STRONG&gt;.&amp;nbsp;Na prenos údajov je použitý súbor&amp;nbsp;(ide teda o&amp;nbsp;transport údajov typu &lt;EM&gt;&lt;STRONG&gt;OBERON File Transfer&lt;/STRONG&gt;)&lt;/EM&gt;, ktorý sa zo zdroja do cieľového miesta presunie pomocou FTP prenosu. V&amp;nbsp;tomto prípade pobočka predstavuje zdroj údajov a centrála cieľ.&amp;nbsp;Na export údajov&amp;nbsp;z pobočky a&amp;nbsp;následný import&amp;nbsp;do centrály je, samozrejme,&amp;nbsp;potrebné transport údajov nastaviť na obidvoch stranách.&lt;/P&gt;
+&lt;H2&gt;Postup nastavenia exportu&amp;nbsp;z&amp;nbsp;pobočky&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;Pred samotným nastavením transportu údajov je potrebné v nastaveniach účtovnej jednotky povoliť používanie&amp;nbsp;off-line transportov údajov (ponuka &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="5a6e5663-262e-4ff0-9741-1569385d11e4"&gt;oddiel Firma, Všeobecné&lt;/A&gt;, záložka &lt;EM&gt;Pobočky&lt;/EM&gt;, sekcia &lt;EM&gt;Off-line pobočkový režim&lt;/EM&gt;), pričom&amp;nbsp;je potrebné nastaviť pomenovanie cieľa transportu (napr. &lt;EM&gt;Centrála&lt;/EM&gt;). 
+&lt;LI&gt;Otvorte program&amp;nbsp;&lt;A href="24e780fd-36d3-4a6e-bfc0-a8665c75e4ee"&gt;OBERON Center&lt;/A&gt;. V&amp;nbsp;oddiele &lt;A href="e3338780-69be-478a-90d4-060d971f987d"&gt;Off-line transporty údajov&lt;/A&gt;&amp;nbsp;v rozbaľovacom&amp;nbsp;zozname &lt;EM&gt;Firma&lt;/EM&gt; vyberte účtovnú jednotku (resp. jej databázu), pre ktorú sa bude transport údajov&amp;nbsp;používať (t.&amp;nbsp;j. databázu pobočky). Ak sa firma v&amp;nbsp;rozbaľovacom&amp;nbsp;zozname nenachádza, pridajte ju pomocou tlačidla&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_ListButton.png"&gt;. &amp;nbsp;&amp;nbsp;&amp;nbsp; 
+&lt;LI&gt;Stlačte tlačidlo &lt;EM&gt;Pridať&lt;/EM&gt;. Otvorí sa formulár&amp;nbsp;&lt;A href="e3338780-69be-478a-90d4-060d971f987d"&gt;Off-line transport údajov - export/import&lt;/A&gt;, v&amp;nbsp;ktorom vyberte oddiel &lt;EM&gt;Základné&lt;/EM&gt;. V záložke &lt;EM&gt;Základné údaje&lt;/EM&gt; nastavte:
+&lt;UL&gt;
+&lt;LI&gt;typ transportu -&amp;nbsp;&lt;EM&gt;&lt;STRONG&gt;OBERON File Transport&lt;/STRONG&gt;&lt;/EM&gt;,
+&lt;LI&gt;názov - napr.&amp;nbsp;&lt;EM&gt;Export faktúr do&amp;nbsp;centrály&lt;/EM&gt;,
+&lt;LI&gt;smer výmeny údajov - &lt;EM&gt;&lt;STRONG&gt;Export&lt;/STRONG&gt;&lt;/EM&gt;,&lt;EM&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/EM&gt;&lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;V záložke &lt;EM&gt;Nastavenia&lt;/EM&gt;&amp;nbsp;nastavte&amp;nbsp;tieto hodnoty:
+&lt;UL&gt;
+&lt;LI&gt;formát údajov - &lt;EM&gt;&lt;STRONG&gt;OBERON&lt;/STRONG&gt;&lt;/EM&gt;,
+&lt;LI&gt;cieľ transportu - &lt;EM&gt;&lt;STRONG&gt;Centrála&lt;/STRONG&gt;&lt;/EM&gt;,
+&lt;LI&gt;exportovať do&amp;nbsp;súboru - zadajte názov súboru bez prípony, napr. &lt;EM&gt;knihapohladavok&lt;/EM&gt;,
+&lt;LI&gt;spôsob prenosu - &lt;EM&gt;&lt;STRONG&gt;FTP&lt;/STRONG&gt;&lt;/EM&gt;.&lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;V záložke &lt;EM&gt;Doplňujúce nastavenia&lt;/EM&gt; môžete nastaviť časový plán spustenia transportu údajov a ochranu heslom počas prenosu. 
+&lt;LI&gt;V oddiele&amp;nbsp;&lt;EM&gt;Kniha pohľadávok&lt;/EM&gt;&amp;nbsp;nastavte export záznamov v knihe pohľadávok. V&amp;nbsp;rámci nastavení určite, či sa majú exportované položky pohľadávok označiť ako&amp;nbsp;neskladové alebo vyberte sklad, s ktorým sa majú položky&amp;nbsp;prepojiť. 
+&lt;LI&gt;Vykonané nastavanie potvrďte stlačením tlačidla &lt;STRONG&gt;&lt;EM&gt;OK&lt;/EM&gt;&lt;/STRONG&gt;. 
+&lt;LI&gt;Na okamžité manuálne vykonanie exportu údajov stlačte tlačidlo &lt;EM&gt;Spustiť&lt;/EM&gt;, na&amp;nbsp;automatické vykonávanie exportov podľa časového plánu nastaveného v bode č.&amp;nbsp;5 stlačte&amp;nbsp;tlačidlo&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_Button_Play.PNG"&gt;. &lt;/LI&gt;&lt;/OL&gt;
+&lt;H2&gt;Postup nastavenia importu&amp;nbsp;do centrály&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;Pred samotným nastavením transportu údajov je potrebné v nastaveniach účtovnej jednotky povoliť používanie&amp;nbsp;off-line transportov údajov (ponuka &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="5a6e5663-262e-4ff0-9741-1569385d11e4"&gt;oddiel Firma, Všeobecné&lt;/A&gt;, záložka &lt;EM&gt;Pobočky&lt;/EM&gt;, sekcia &lt;EM&gt;Off-line pobočkový režim&lt;/EM&gt;), pričom&amp;nbsp;je potrebné nastaviť pomenovanie zdroja transportu (napr. &lt;EM&gt;Pobočka&lt;/EM&gt;). 
+&lt;LI&gt;Otvorte program&amp;nbsp;&lt;A href="24e780fd-36d3-4a6e-bfc0-a8665c75e4ee"&gt;OBERON Center&lt;/A&gt;. V&amp;nbsp;oddiele &lt;A href="e3338780-69be-478a-90d4-060d971f987d"&gt;Off-line transporty údajov&lt;/A&gt;&amp;nbsp;v rozbaľovacom&amp;nbsp;zozname &lt;EM&gt;Firma&lt;/EM&gt; vyberte účtovnú jednotku (resp. jej databázu), pre ktorú sa bude transport údajov&amp;nbsp;používať (t.&amp;nbsp;j. databázu centrály). Ak sa firma v&amp;nbsp;rozbaľovacom&amp;nbsp;zozname nenachádza, pridajte ju pomocou tlačidla&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_ListButton.png"&gt;. 
+&lt;LI&gt;Stlačte tlačidlo &lt;EM&gt;Pridať&lt;/EM&gt;. Otvorí sa formulár&amp;nbsp;&lt;A href="e3338780-69be-478a-90d4-060d971f987d"&gt;Off-line transport údajov - export/import&lt;/A&gt;, v&amp;nbsp;ktorom vyberte oddiel &lt;EM&gt;Základné&lt;/EM&gt;. V záložke &lt;EM&gt;Základné údaje&lt;/EM&gt; nastavte:
+&lt;UL&gt;
+&lt;LI&gt;typ transportu -&amp;nbsp;&lt;EM&gt;&lt;STRONG&gt;OBERON File Transport&lt;/STRONG&gt;&lt;/EM&gt;,
+&lt;LI&gt;názov - napr.&amp;nbsp;&lt;EM&gt;Import faktúr z pobočky&lt;/EM&gt;,
+&lt;LI&gt;smer výmeny údajov - &lt;EM&gt;&lt;STRONG&gt;Import&lt;/STRONG&gt;&lt;/EM&gt;,&lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;V záložke &lt;EM&gt;Nastavenia&lt;/EM&gt;&amp;nbsp;nastavte&amp;nbsp;tieto hodnoty:
+&lt;UL&gt;
+&lt;LI&gt;formát údajov - &lt;EM&gt;&lt;STRONG&gt;OBERON&lt;/STRONG&gt;&lt;/EM&gt;,
+&lt;LI&gt;zdroj transportu - &lt;EM&gt;&lt;STRONG&gt;Pobočka&lt;/STRONG&gt;&lt;/EM&gt;,
+&lt;LI&gt;importovať zo&amp;nbsp;súboru - zadajte názov súboru bez prípony, napr. &lt;EM&gt;knihapohladavok&lt;/EM&gt;,
+&lt;LI&gt;spôsob prenosu - &lt;EM&gt;&lt;STRONG&gt;FTP&lt;/STRONG&gt;&lt;/EM&gt;.&lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;V záložke &lt;EM&gt;Doplňujúce nastavenia&lt;/EM&gt; môžete nastaviť časový plán spustenia transportu údajov a ochranu heslom počas prenosu. Čas importu nastavte vždy na neskôr ako export, napr. export o 17.00 hod., import o 17:30 hod.&amp;nbsp; 
+&lt;LI&gt;V oddiele&amp;nbsp;&lt;EM&gt;Kniha pohľadávok&lt;/EM&gt;&amp;nbsp;nastavte import záznamov v knihe pohľadávok. V&amp;nbsp;rámci nastavení určite, či sa majú importované položky pohľadávok označiť ako&amp;nbsp;neskladové alebo vyberte sklad, s ktorým sa majú položky&amp;nbsp;prepojiť. Ak nebude vybraný žiadny sklad,&amp;nbsp;faktúry sa importujú len ako neskladové. Ak sa zadá sklad, položky&amp;nbsp;sa s daným skladom synchronizujú, a tým&amp;nbsp;sa znížia stavy skladových položiek. 
+&lt;LI&gt;Vykonané nastavanie potvrďte stlačením tlačidla &lt;STRONG&gt;&lt;EM&gt;OK&lt;/EM&gt;&lt;/STRONG&gt;. 
+&lt;LI&gt;Na okamžité manuálne vykonanie importu údajov stlačte tlačidlo &lt;EM&gt;Spustiť&lt;/EM&gt;, na&amp;nbsp;automatické vykonávanie importov podľa časového plánu nastaveného v bode č.&amp;nbsp;5 stlačte&amp;nbsp;tlačidlo&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_Button_Play.PNG"&gt;. &lt;/LI&gt;&lt;/OL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="c67e0139-eb98-440e-a4ae-ec941b0c9b0d" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="797aaa39-ae1b-4f4c-bac5-88c9ac25f11d">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="748b352a-9599-44e2-bb95-165282047a03" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="2d5cb0af-0c1f-475d-a699-c315d30599f8">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="0d6e1353-8566-48db-acd6-838e0bddbc10" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1dc4ea18-03c0-4028-afe5-4532583b6a44">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="6b7a8ded-873f-41e6-a007-460d83500614" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="e3338780-69be-478a-90d4-060d971f987d">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="27afe63a-4313-4ca7-8a91-1307d4b452a6" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="803b07a0-8fcc-46b7-aaee-3b3f6f708106">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="eaa6271a-99bf-49af-8d91-2376ceb739d7">
+      <Keyword m="2021-05-24T06:28:10.703194Z">Off-line transporty údajov - príklad</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

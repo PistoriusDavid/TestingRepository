@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="4eb19cec-64b2-467f-8e96-fa7e5387704c" Status="Complete" CreatedOn="2018-02-23T09:20:18.5062369Z" ModifiedOn="2023-08-30T08:30:59.3133001Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="70640" Name="Menu_Wages_AttendaceType" BuildFlags="">
+  <Title m="2018-03-09T07:54:31.4013598Z">Časové zložky dochádzky</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-08-30T08:30:59.3133001Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;je venovaná&amp;nbsp;položke&amp;nbsp;&lt;EM&gt;Časové zložky dochádzky&lt;/EM&gt; v&amp;nbsp;ponuke&amp;nbsp;&lt;EM&gt;Mzdy,&amp;nbsp;Dochádzka&lt;/EM&gt;&amp;nbsp;programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Výberom položky sa otvorí&amp;nbsp;číselník&amp;nbsp;&lt;EM&gt;Časové zložky dochádzky&lt;/EM&gt;, ktorý &lt;STRONG&gt;umožňuje definovať časové zložky dochádzky&lt;/STRONG&gt; v&amp;nbsp;module&amp;nbsp;&lt;A href="bf009605-0be8-4286-8ef5-4c7d3b89143a"&gt;Mzdy&lt;/A&gt; a&amp;nbsp;&lt;A href="3883342c-9ef0-4fd9-8773-88df84f78f65"&gt;dochádzka&lt;/A&gt;.&amp;nbsp;Ide o&amp;nbsp;položky, ktoré predstavujú jednotlivé typy prítomností a neprítomností v práci a&amp;nbsp;slúžia na evidenciu dochádzky pracovníkov. 
+&lt;LI&gt;V&amp;nbsp;číselníku&amp;nbsp;sú &lt;STRONG&gt;základné časové zložky dochádzky preddefinované&lt;/STRONG&gt; (&lt;EM&gt;Odpracované, Nadčas, Náhradné voľno (tvorba), Prestávka v práci, Dovolenka, Nemoc, Ošetrovanie člena rodiny, Návšteva&amp;nbsp;lekára - ošetrenie, Návšteva lekára - sprevádzanie, Náhradné voľno (čerpanie),&amp;nbsp;Absencia, Neplatené voľno, Materská dovolenka, Rodičovská dovolenka, Prekážky na strane zamestnávateľa, Svadba, Úmrtie, Vojenská služba, Účasť na štrajku, Uväznenie&lt;/EM&gt;). Ďalšie časové zložky dochádzky si môže účtovná jednotka&amp;nbsp;&lt;STRONG&gt;podľa potreby&amp;nbsp;ľubovoľne definovať&lt;/STRONG&gt;. 
+&lt;LI&gt;Časové zložky dochádzky &lt;STRONG&gt;sa priraďujú k&amp;nbsp;typom prechodov&lt;/STRONG&gt;. Viac informácií získate v téme&amp;nbsp;&lt;A href="5bfb1129-550c-42bb-9f72-ba0b3687a2b5" style="auto-update-caption: true"&gt;Typy prechodov&lt;/A&gt;. 
+&lt;LI&gt;Ak účtovná jednotka využíva na evidenciu dochádzky pracovníkov &lt;A href="f46f3a8f-ba04-4359-ba99-dc6caeeba021"&gt;dochádzkový terminál&lt;/A&gt;, jednotlivé&amp;nbsp;časové zložky dochádzky na základe prechodov evidovaných na dochádzkovom termináli sa do&amp;nbsp;&lt;A href="ce9e15f9-7459-4a5c-8bad-db17ef7b59ea"&gt;Pracovného kalendára&lt;/A&gt; &lt;STRONG&gt;prenášajú automaticky&lt;/STRONG&gt; (v grafickom prehľade sa zobrazia vždy v&amp;nbsp;nasledujúci deň).&amp;nbsp;Ak&amp;nbsp;účtovná jednotka&amp;nbsp;nebude&amp;nbsp;na evidenciu dochádzky využívať&amp;nbsp;dochádzkový terminál, je možné jednotlivé časové zložky dochádzky zadať v&amp;nbsp;pracovnom kalendári manuálne. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget layout="block" type="Note Box"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Definovať časovú zložku dochádzky je možné pomocou&amp;nbsp;formulára&amp;nbsp;&lt;EM&gt;Časová zložka dochádzky&lt;/EM&gt; (pozri nižšie).&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Popis formulára&amp;nbsp;&lt;EM&gt;Časová zložka dochádzky&lt;/EM&gt;&lt;/H2&gt;&lt;innovasys:widget layout="block" type="Drop Down Section"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Druh&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Vzhľadom na to, že časové zložky dochádzky si môže účtovná jednotka sama definovať,&amp;nbsp;je dôležité mať pri každej časovej zložke dochádzky&amp;nbsp;&lt;STRONG&gt;jednoznačne určené,&lt;/STRONG&gt; &lt;STRONG&gt;k akému druhu&amp;nbsp;časovej zložky dochádzky prislúcha&lt;/STRONG&gt;. Na základe druhu sa program rozhoduje, ako bude s danou&amp;nbsp;časovou zložkou dochádzky pracovať. Druhy časových zložiek dochádzky sú v programe pevne dané a nie je ich možné upravovať:&amp;nbsp;&lt;EM&gt;Odpracované, Nadčas, Náhradné voľno (tvorba), Prestávka v práci, Pracovná pohotovosť, Dovolenka, Náhradné voľno (čerpanie), Nemoc, Ošetrovanie člena rodiny, Návšteva&amp;nbsp;lekára - ošetrenie, Návšteva lekára - sprevádzanie, Materská dovolenka, Rodičovská dovolenka, Úmrtie, Svadba, Neplatené voľno,&lt;/EM&gt; &lt;EM&gt;Absencia, &lt;EM&gt;&lt;EM&gt;Prekážky na strane zamestnávateľa,&amp;nbsp;Účasť na štrajku, Verejná funkcia, Vojenská služba, Uväznenie, Iná neprítomnosť (s náhradou), Iná neprítomnosť.&lt;/EM&gt;&lt;/EM&gt;&lt;/EM&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget layout="block" type="Drop Down Section"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Názov&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Zadáva sa názov časovej zložky dochádzky.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget layout="block" type="Drop Down Section"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Málo (nie často) používaná položka&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Začiarknite, ak sa&amp;nbsp;časová zložka dochádzky nepoužíva príliš často - nebude sa zobrazovať&amp;nbsp;v&amp;nbsp;&lt;A href="ce9e15f9-7459-4a5c-8bad-db17ef7b59ea"&gt;Pracovnom kalendári&lt;/A&gt; pri interaktívnej úprave dochádzky (z dôvodu veľkého počtu časových zložiek sa&amp;nbsp;zobrazujú len často používané). Zároveň sa takáto položka nebude zobrazovať pri zadávaní časového úseku (v&amp;nbsp;pracovnom kalendári pri konkrétnom dni).&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget layout="block" type="Drop Down Section"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Zakázať&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Po začiarknutí tohto políčka&amp;nbsp;časovú zložku dochádzky nebude možné používať, v systéme však ostane definovaná.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="1c3f01c1-02f5-4466-9374-2faac02d5e9b" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="ce9e15f9-7459-4a5c-8bad-db17ef7b59ea">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="fd285322-3635-4f18-86ed-2a50e5eaa57f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="f46f3a8f-ba04-4359-ba99-dc6caeeba021">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="b7976410-00ca-4b79-986f-7fcd7df1bc04" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="4a82f3bd-3c2b-4ab4-91f7-df0fa039cd5c">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="11cc73f6-3efd-405f-b02a-86c5a8b14eb9" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="5bfb1129-550c-42bb-9f72-ba0b3687a2b5">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="d55fd191-0b6e-4d70-b852-597dbb86410a">
+      <Keyword m="2023-08-28T08:29:47.9949136Z">Evidencia dochádzky - časové zložky</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="52d67148-9fd8-4c15-877f-375a3360d309">
+      <Keyword m="2023-08-28T08:29:38.4924914Z">Dochádzka - časové zložky</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="b0e0ad9c-d19d-4670-8485-ec384dbae1bd" Status="Complete" CreatedOn="2014-11-24T08:42:58.9003515Z" ModifiedOn="2023-07-06T08:11:09.4652357Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="51017" Name="Stock_Advanced_Variants_Samples" BuildFlags="">
+  <Title m="2017-06-26T05:38:44.5061807Z">Práca s variantmi skladovej karty</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-07-06T08:11:09.4652357Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; je venovaná &lt;STRONG&gt;používaniu&amp;nbsp;variantov&lt;/STRONG&gt; &lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;skladových kariet&lt;/A&gt; v module&amp;nbsp;&lt;A href="78d20602-4b59-4b31-9f0a-a04a1d376ec5"&gt;Skladová evidencia&lt;/A&gt;&amp;nbsp;systému OBERON. Záložka &lt;EM&gt;Varianty&lt;/EM&gt; je dostupná&amp;nbsp;iba&amp;nbsp;v prípade, že je v&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="58eee6a7-b5aa-47a5-9d0e-6f9987c96a52"&gt;oddiel Firma, Sklad&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt; záložka &lt;EM&gt;Skladové karty&lt;/EM&gt; začiarknutá možnosť &lt;STRONG&gt;&lt;EM&gt;Umožniť pracovať s variantmi&lt;/EM&gt;&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Systém OBERON umožňuje prácu s&amp;nbsp;variantmi skladovej karty. Aby bolo možné s&amp;nbsp;variantmi skladovej karty&amp;nbsp;v&amp;nbsp;systéme OBERON pracovať, je potrebné v&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="58eee6a7-b5aa-47a5-9d0e-6f9987c96a52"&gt;oddiel Firma, Sklad&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt; záložka &lt;EM&gt;Skladové karty&lt;/EM&gt; začiarknuť pole &lt;I&gt;&lt;STRONG&gt;Umožniť pracovať&amp;nbsp;s&amp;nbsp;variantmi&lt;/STRONG&gt;.&lt;/I&gt; 
+&lt;LI&gt;Pod pojmom variant skladovej karty v&amp;nbsp;systéme OBERON možno rozumieť &lt;STRONG&gt;určitú podskupinu skladovej karty (položky, produktu), ktorú špecifikujú jedinečné charakteristické vlastnosti&lt;/STRONG&gt; &lt;STRONG&gt;-&lt;/STRONG&gt; &lt;STRONG&gt;atribúty&lt;/STRONG&gt;, napr. farba, veľkosť, rozmer atď. 
+&lt;LI&gt;Variant&amp;nbsp;&lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;skladovej karty&lt;/A&gt;&amp;nbsp;ako&amp;nbsp;jedna z&amp;nbsp;vlastností skladovej karty &lt;STRONG&gt;nemá vplyv na predajnú cenu&lt;/STRONG&gt;.&amp;nbsp;Na rozdiel od parametrov sa ku každému variantu&amp;nbsp;eviduje aj jeho&amp;nbsp;&lt;STRONG&gt;aktuálne (zostatkové) množstvo&lt;/STRONG&gt;&amp;nbsp;na&amp;nbsp;sklade. 
+&lt;LI&gt;Okrem aktuálneho množstva program eviduje &lt;STRONG&gt;aj&amp;nbsp;množstvo&amp;nbsp;pri príjme a výdaji&lt;/STRONG&gt; jednotlivého variantu. Na rozdiel od množstva celej skladovej karty je možné&amp;nbsp;množstvo variantu &lt;STRONG&gt;ľubovoľne upraviť jednoduchým prepísaním&lt;/STRONG&gt;. 
+&lt;LI&gt;Varianty skladovej karty je možné definovať vo&amp;nbsp;&lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;formulári Skladová karta&lt;/A&gt;, záložka &lt;EM&gt;Varianty&lt;/EM&gt; (ponuka&amp;nbsp;&lt;EM&gt;Sklad,&amp;nbsp;&lt;/EM&gt;&lt;A href="1a33ab0b-2df7-4dc2-962b-8a3319c16831"&gt;Skladové karty&lt;/A&gt;, tlačidlo &lt;EM&gt;Nový&lt;/EM&gt; alebo &lt;EM&gt;Oprava&lt;/EM&gt;). 
+&lt;LI&gt;K variantu je možné evidovať aj &lt;STRONG&gt;čiarový kód&lt;/STRONG&gt; v prípade, že tovar v danom variante (napr. veľkosti) má vlastný čiarový kód (odlišný od iného variantu). V tom prípade sa po nasnímaní tohto čiarového kódu&amp;nbsp;&lt;A href="80a78093-fc45-4db9-b74b-e1f9829f7b3c"&gt;snímačom čiarových kódov&lt;/A&gt; automaticky pridá do dokladu&amp;nbsp;(výdajky, faktúry...) alebo pokladničného účtu daný&amp;nbsp;variant skladovej karty. 
+&lt;LI&gt;Varianty skladovej karty môžu byť zaradené do tzv. automatickej tvorby objednávok. Viac informácií získate v téme &lt;A href="f65d09c4-6f7e-42a3-8ae5-3cda89534c06"&gt;Automatická tvorba objednávok&lt;/A&gt;. 
+&lt;LI&gt;Varianty sa využívajú hlavne v&amp;nbsp;&lt;A href="2ba6a435-be52-46a1-b723-fb2b8ca084c0"&gt;internetovom obchode&lt;/A&gt;, napr. zákazník si vyberá z 10 rôznych farieb tovaru alebo&amp;nbsp;z 5 rôznych veľkostí, pričom cena ostáva rovnaká. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Atribúty&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Každý variant skladovej karty je tvorený jedným alebo viacerými atribútmi. Atribúty (Obrázok č. 1) &lt;STRONG&gt;predstavujú špecifické vlastnosti skladovej karty&lt;/STRONG&gt; (farba, veľkosť, rozmer atď.),&amp;nbsp;ktoré sa&amp;nbsp;používajú pri vytváraní&amp;nbsp;variantov skladových kariet. 
+&lt;LI&gt;Atribúty je možné definovať v&amp;nbsp;číselníku &lt;EM&gt;Zoznam atribútov skladových kariet&lt;/EM&gt; v&amp;nbsp;ponuke &lt;EM&gt;Firma, Predvoľby&lt;/EM&gt;,&amp;nbsp;&lt;A href="f93130c1-bcfc-4752-af35-084daf4a2fbf"&gt;Skladové karty - atribúty&lt;/A&gt;&lt;EM&gt;.&lt;/EM&gt; Číselník je dostupný aj z&amp;nbsp;formulára &lt;EM&gt;Variant skladovej karty&lt;/EM&gt;, záložka&amp;nbsp;&lt;EM&gt;Základné&lt;/EM&gt;,&amp;nbsp;&lt;EM&gt;Atribúty variantu&lt;/EM&gt;, tlačidlo&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_ListButton.png"&gt;&amp;nbsp;(&lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;formulár Skladová karta&lt;/A&gt;, záložka &lt;EM&gt;Varianty&lt;/EM&gt;, tlačidlo &lt;EM&gt;Nový&lt;/EM&gt; alebo &lt;EM&gt;Oprava&lt;/EM&gt;). 
+&lt;LI&gt;Atribúty môžu nadobúdať tieto typy hodnôt: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Bez hodnoty&lt;/STRONG&gt;, 
+&lt;LI&gt;&lt;STRONG&gt;Textová hodnota&lt;/STRONG&gt; - atribút skladovej karty bude nastavený na textovú hodnotu, napríklad veľkosť S, M, L, XL, 
+&lt;LI&gt;&lt;STRONG&gt;Farba&lt;/STRONG&gt; - atribút skladovej karty bude nastavený na určitú farbu, napr. zelenú, 
+&lt;LI&gt;&lt;STRONG&gt;Číselná hodnota&lt;/STRONG&gt; - atribút skladovej karty bude nastavený na číselnú hodnotu, ktorá môže byť bez desatinného miesta alebo s ním, napr. veľkosť topánky. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Pre&amp;nbsp;konkrétny variant je možné vybrať ľubovoľnú kombináciu atribútov. Ak sa variant&amp;nbsp;skladá z&amp;nbsp;viac ako jedného atribútu (napr. topánky rôznej farby a veľkosti), jednotlivých variantov môže byť aj pomerne&amp;nbsp;vysoký počet - v&amp;nbsp;takom prípade je&amp;nbsp;možné varianty vytvárať automaticky ako kombinácie jednotlivých atribútov podľa výberu, viac v téme&amp;nbsp;&lt;A href="1c0f4281-386c-4f5a-910f-e8d01a1b28d9"&gt;Generátor variantov&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Príklad: skladová karta &lt;EM&gt;Pánske topánky&lt;/EM&gt;&lt;/H2&gt;
+&lt;P&gt;Predajňa obuvi potrebuje vygenerovať varianty skladovej karty &lt;EM&gt;Pánske topánky&lt;/EM&gt; s&amp;nbsp;použitím nasledujúcich&amp;nbsp;atribútov skladových kariet:&amp;nbsp;Veľkosť&amp;nbsp;42, Veľkosť&amp;nbsp;43, Farba Hnedá, Farba Čierna. Pomocou generátora variantov sa vygenerujú nasledujúce varianty:&lt;/P&gt;
+&lt;P&gt;Variant 1: Veľkosť 42; Farba Hnedá&lt;/P&gt;
+&lt;P&gt;Variant 2: Veľkosť 42; Farba Čierna&lt;/P&gt;
+&lt;P&gt;Variant 3: Veľkosť 43; Farba Hnedá&lt;/P&gt;
+&lt;P&gt;Variant 4: Veľkosť 43; Farba Čierna&lt;/P&gt;
+&lt;H5&gt;Obrázok č. 1: Zoznam atribútov skladových kariet&lt;/H5&gt;
+&lt;P&gt;&lt;IMG style="BORDER-TOP: black 1px solid; BORDER-RIGHT: grey 1px solid; BORDER-BOTTOM: grey 1px solid; BORDER-LEFT: grey 1px solid" border=0 src="images/Stock/Stock_Variant_Sample.PNG"&gt;&lt;/P&gt;
+&lt;H5&gt;Obrázok č. 2: Skladová karta, záložka &lt;EM&gt;Varianty&lt;/EM&gt;&lt;/H5&gt;
+&lt;P&gt;&lt;IMG style="BORDER-TOP: black 1px solid; BORDER-RIGHT: grey 1px solid; BORDER-BOTTOM: grey 1px solid; BORDER-LEFT: grey 1px solid" border=0 src="images/Stock/Stock_Variants.PNG"&gt;&lt;/P&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt; 
+&lt;P&gt;Príklad skladovej karty, ktorá &lt;STRONG&gt;sa nehodí&lt;/STRONG&gt; na prácu s variantmi:&lt;/P&gt;
+&lt;P&gt;Skladová karta &lt;EM&gt;Lišta&lt;/EM&gt;&lt;/P&gt;
+&lt;P&gt;Varianty: Dĺžka 1&amp;nbsp;m, Dĺžka 2&amp;nbsp;m, Dĺžka 3&amp;nbsp;m, Dĺžka 4&amp;nbsp;m&lt;/P&gt;
+&lt;P&gt;Keďže&amp;nbsp;každá dĺžka lišty&amp;nbsp;má inú predajnú cenu, nie je možné použiť varianty&amp;nbsp;-&amp;nbsp;pre každú veľkosť by sa mala vytvoriť samostatná skladová karta.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Hromadné vyskladnenie variantov&amp;nbsp;skladovej karty&lt;/H2&gt;
+&lt;P&gt;Skladovú kartu s variantmi je možné vyskladniť hromadne, t.&amp;nbsp;j. vyskladnia sa všetky varianty danej skladovej karty. Pri&amp;nbsp;tvorbe výdajky po vybratí skladovej karty typu variant v okne &lt;EM&gt;Výber variantu&lt;/EM&gt; stlačte tlačidlo &lt;EM&gt;Zatvoriť&lt;/EM&gt; (t.&amp;nbsp;j. nevyberiete žiadny variant). Ak zadáte vydané množstvo vo výške celkového evidovaného množstva, program automaticky ponúkne možnosť vyskladniť všetky varianty danej položky.&lt;/P&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Na&amp;nbsp;skúšobné účely je možné využiť&amp;nbsp;vzorovú databázu so skúšobnými údajmi, ktoré obsahujú skladové karty s variantmi&amp;nbsp;na jednoduché a rýchle odskúšanie. Databáza so skúšobnými údajmi je dostupná v&amp;nbsp;ponuke &lt;EM&gt;OBERON&lt;/EM&gt;,&amp;nbsp;&lt;A href="e975459f-e882-49f2-adb9-79e68a07df0e"&gt;Otvorenie agendy (firmy)&lt;/A&gt;, tlačidlo &lt;EM&gt;Nová firma&lt;/EM&gt;. Otvorí sa sprievodca, v ktorom je možné vytvoriť firmu so skúšobnými údajmi pre&amp;nbsp;&lt;A href="2ba6a435-be52-46a1-b723-fb2b8ca084c0"&gt;internetový obchod&lt;/A&gt;&amp;nbsp;(&lt;EM&gt;Skúšobná databáza pre internetový obchod&lt;/EM&gt;).&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="94e8ae51-0c03-45b7-87da-f5e3b71acfdb" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1a33ab0b-2df7-4dc2-962b-8a3319c16831">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="ffb9440d-26b1-4bb8-9dab-e3ed989c7597" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="c233ada3-0fed-4911-97f3-0680973ebac1">
+      <Title m="2014-11-24T09:18:33.9833593Z">Formulár Skladová karta</Title>
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="f7cdecbd-8f0e-45b9-ab40-49a96d535a3c" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="f93130c1-bcfc-4752-af35-084daf4a2fbf">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="7ec3bb9a-ecba-48db-ad70-3413b010c986" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1c0f4281-386c-4f5a-910f-e8d01a1b28d9">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="c5aa3f93-3e74-4422-9fa6-821d8ea883b4" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="f65d09c4-6f7e-42a3-8ae5-3cda89534c06">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="b6dc387b-124a-4cdc-8a18-52a30989b540" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="86ce651c-2637-4165-93b4-36535a700fbf">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="da339179-3ab3-440f-a459-6977b6473bf7" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="2ba6a435-be52-46a1-b723-fb2b8ca084c0">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="3e4b4f2f-a2d3-44d4-86d8-9cf30273ddd2">
+      <Keyword m="2022-01-21T08:53:17.0036113Z">Varianty skladovej karty</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="cc41be54-ae10-4404-a5f0-16292a5a5301">
+      <Keyword m="2022-01-21T08:50:31.7049003Z">Atribúty - varianty skladovej karty</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="5d94f31c-7fa0-4fa0-9114-4db0fc2852de">
+      <Keyword m="2022-01-21T08:50:40.6803784Z">Atribút - varianty skladovej karty</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="6ba3f401-f829-475e-bd32-97f1dec0f76f">
+      <Keyword m="2022-01-21T09:33:35.9336088Z">Čiarový kód - variant skladovej karty</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="8cb340b7-9dcf-4d15-af48-86d255dc07da">
+      <Keyword m="2022-01-21T10:31:44.0624371Z">Variant skladovej karty - čiarový kód</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="5d9d352e-9e25-4760-a0c6-05902ad8c73a">
+      <Keyword m="2022-01-21T09:33:58.7654791Z">Varianty skladovej karty - práca</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="51414116-8a77-45e3-9f74-1336468f6ed0">
+      <Keyword m="2022-01-21T10:31:59.1333789Z">Generátor variantov skladovej karty</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

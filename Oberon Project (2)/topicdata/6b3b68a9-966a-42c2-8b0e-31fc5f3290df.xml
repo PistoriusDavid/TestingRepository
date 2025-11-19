@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="6b3b68a9-966a-42c2-8b0e-31fc5f3290df" Status="Complete" CreatedOn="2014-09-08T12:39:09.8092614Z" ModifiedOn="2024-01-22T10:26:36.7991259Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="30275" Name="Menu_Firm_Period_Change_Period" BuildFlags="">
+  <Title m="2014-09-08T12:39:45.9453283Z">Zmena spracovávaného obdobia</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-01-22T10:26:36.7991259Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;je venovaná&amp;nbsp;položke&amp;nbsp;&lt;EM&gt;Zmena spracovávaného obdobia&lt;/EM&gt; v ponuke&amp;nbsp;&lt;EM&gt;Firma,&amp;nbsp;Obdobie&lt;/EM&gt;&amp;nbsp;programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Výberom položky sa otvorí sprievodca &lt;EM&gt;Zmena spracovávaného obdobia&lt;/EM&gt;, pomocou ktorého je možné v&amp;nbsp;systéme OBERON&amp;nbsp;&lt;STRONG&gt;zmeniť spracovávané obdobie, t.&amp;nbsp;j.&amp;nbsp;zvoliť&amp;nbsp;iné účtovné obdobie, v&amp;nbsp;ktorom bude účtovná jednotka pracovať&lt;/STRONG&gt;. 
+&lt;LI&gt;Účtovné obdobie v systéme OBERON spravidla predstavuje &lt;STRONG&gt;kalendárny rok&lt;/STRONG&gt;. Okrem neho však účtovná jednotka - právnická osoba&amp;nbsp;účtujúca v sústave&amp;nbsp;&lt;A href="49dd3167-870a-4fdf-b631-d4f692f1ed72"&gt;podvojného účtovníctva&lt;/A&gt; môže používať aj&amp;nbsp;&lt;A href="3e08b8bb-efeb-44fe-88c6-7292a88a3094"&gt;hospodársky (fiškálny) rok&lt;/A&gt;. 
+&lt;LI&gt;Správne nastavenie spracovávaného obdobia&amp;nbsp;má vplyv na zobrazovanie záznamov, resp. na prácu so záznamami v danom účtovnom období. 
+&lt;LI&gt;Nastavenie spracovávaného obdobia súvisí predovšetkým s&amp;nbsp;&lt;A href="ef83607d-f365-445e-bf00-b257cead6f19"&gt;licenčnými právami&lt;/A&gt;. V prípade, že je nastavené spracovávané obdobie iné ako to, na ktoré je zakúpená a&amp;nbsp;aktivovaná&amp;nbsp;&lt;A href="644b0685-defe-4ce5-b3cd-e731b5eff299"&gt;licencia&lt;/A&gt;, program sa správa ako bez licencie. O aktuálnom spracovávanom období program používateľa informuje v systémovom paneli v dolnej časti obrazovky. 
+&lt;LI&gt;Spracovávané obdobie &lt;STRONG&gt;sa eviduje pre každého používateľa zvlášť&lt;/STRONG&gt;. V praxi tak možno zmenu spracovávaného obdobia využiť aj&amp;nbsp;v prípade,&amp;nbsp;keď napr. skladníci pracujú v aktuálnom období a účtovníčka ešte v&amp;nbsp;predchádzajúcom. 
+&lt;LI&gt;Zmenu spracovávaného obdobia je možné vykonať kedykoľvek. Pri zmene obdobia na iné sa pôvodné obdobie neuzatvára, ani sa v&amp;nbsp;ňom nemažú žiadne údaje. V&amp;nbsp;odôvodnených prípadoch&amp;nbsp;sa tak možno vždy&amp;nbsp;k pôvodnému spracovávanému obdobiu vrátiť. 
+&lt;LI&gt;V systéme OBERON možno zmenu spracovávaného obdobia vykonať dvoma rôznymi spôsobmi: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;pomocou&amp;nbsp; tohto sprievodcu&lt;/STRONG&gt; - umožňuje zmeniť spracovávané obdobie hromadne aj&amp;nbsp;pre viacerých používateľov, 
+&lt;LI&gt;&lt;STRONG&gt;rýchla zmena&lt;/STRONG&gt; - len pre aktuálne prihláseného používateľa. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Pri&amp;nbsp;&lt;A href="831d0b51-ffdf-4708-8afc-9d305d97e4d0"&gt;účtovnej závierke peňažného denníka&lt;/A&gt; sa odporúča uskutočniť prevod počiatočných stavov po skončení účtovania v&amp;nbsp;danom období ešte pred&amp;nbsp;zmenou spracovávaného obdobia na nové účtovné obdobie (nový účtovný rok). &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;V OBERON-e existujú dva druhy období&amp;nbsp;- jedno pre celý systém OBERON a druhé výlučne&amp;nbsp;pre modul &lt;EM&gt;Mzdy a dochádzka&lt;/EM&gt;. Dôvodom je, že mzdy sa spracúvajú na mesačnej báze, a to spravidla mesiac spätne.&amp;nbsp;Viac informácií získate v téme&amp;nbsp;&lt;A href="d05c58b2-b990-44d8-ac5c-d199b9cde45e" style="auto-update-caption: true"&gt;Zmena spracovávaného obdobia miezd&lt;/A&gt;.&amp;nbsp;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Postup zmeny spracovávaného obdobia - rýchla zmena&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;V systémovom paneli kliknite pravým tlačidlom myši na aktuálny rok a vyberte položku &lt;EM&gt;Zmeniť na predchádzajúce/nasledujúce obdobie.&lt;/EM&gt; &lt;/LI&gt;&lt;/OL&gt;
+&lt;H5&gt;Obrázok č. 1: &amp;nbsp;Rýchla zmena spracovávaného obdobia&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Period_Change.png"&gt;&amp;nbsp;&lt;/P&gt;
+&lt;H2&gt;Postup zmeny spracovávaného obdobia pomocou sprievodcu&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;V programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt; zvoľte ponuku &lt;EM&gt;Firma, Obdobie, Zmena spracovávaného obdobia&lt;/EM&gt;. 
+&lt;LI&gt;Otvorí sa sprievodca, v ktorom zvoľte nové spracovávané obdobie, v ktorom chcete pracovať. 
+&lt;LI&gt;Vyberte, či sa zmena obdobia má uplatniť len pre aktuálne prihláseného používateľa alebo všetkých používateľov, prípadne pre vybraných používateľov. 
+&lt;LI&gt;Po stlačení tlačidla &lt;EM&gt;Dokončiť&lt;/EM&gt; sa vykoná zmena spracovávaného obdobia. &lt;/LI&gt;&lt;/OL&gt;
+&lt;H5&gt;Obrázok č. 2: Otvorenie sprievodcu na zmenu spracovávaného obdobia&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Firm_Period_Change.png"&gt;&lt;/P&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;B&gt;Videonávod&lt;/B&gt; 
+&lt;P&gt;K téme je spracovaný videonávod&amp;nbsp;&lt;A href="https://exalogic.sk/na-stiahnutie-oberon/zmena-spracovavaneho-obdobia/" target=_blank&gt;Zmena spracovávaného obdobia&lt;/A&gt;. Všetky videonávody&amp;nbsp;sú k&amp;nbsp;dispozícii&amp;nbsp;na stránke&amp;nbsp;&lt;A href="http://www.exalogic.sk/"&gt;www.exalogic.sk&lt;/A&gt; v&amp;nbsp;sekcii &lt;EM&gt;Na stiahnutie,&amp;nbsp;&lt;/EM&gt;&lt;A href="https://exalogic.sk/na-stiahnutie/oberon-agenda-firmy/video-navody-na-stiahnutie/" target=_blank&gt;Videonávody&lt;/A&gt;.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="7cc84cbc-7a6e-47ae-b187-d628ab3b55c3" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="225638ed-22f6-4ac4-9085-6d77c64925db">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="1195fb68-c019-4117-95d9-3e8f805335aa" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="95d188df-c149-46a9-8474-4d9493f2ad41">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="6632954e-9db7-4607-b6ef-33694623ca7e" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="3e08b8bb-efeb-44fe-88c6-7292a88a3094">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="51ff7bbf-3cb7-4806-ae9a-39e5e1c132ab" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="831d0b51-ffdf-4708-8afc-9d305d97e4d0">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="bf9dfe1a-6e3b-47cf-ad2a-8db870d1a359" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="d05c58b2-b990-44d8-ac5c-d199b9cde45e">
+      <Title m="2021-03-19T12:58:08.7019319Z">Zmena spracovávaného obdobia miezd </Title>
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="f390bd32-24b4-4891-a7ba-45b0cdad2db6">
+      <Keyword m="2022-03-08T08:13:59.2537357Z">Obdobie - zmena</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="0244ff20-318a-443e-b8b1-b4373687a194">
+      <Keyword m="2023-02-13T14:23:31.6370969Z">Nový účtovný rok - zmena</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="c5709648-6561-4812-bc9d-89258839ba37">
+      <Keyword m="2018-01-31T07:20:43.6526389Z">Zmena obdobia</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="8e4f5e33-1caa-4448-b832-87e46aca3be0">
+      <Keyword m="2023-02-13T14:23:26.4929136Z">Nasledujúce účtovné obdobie - zmena</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="2bd893fe-6c93-4966-9f18-ef86a270a101">
+      <Keyword m="2023-02-13T14:23:36.3624775Z">Predchádzajúce účtovné obdobie - zmena</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="f3966aad-26da-4d4b-b509-37b51834fc5b">
+      <Keyword m="2023-12-20T08:43:30.1114216Z">Spracovávané obdobie - zmena</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

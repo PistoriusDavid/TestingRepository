@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="1a618813-f50b-46a3-8a94-598d5394f491" Status="Complete" CreatedOn="2014-09-10T07:46:30.5114003Z" ModifiedOn="2025-03-11T09:13:21.9754424Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="80220" Name="CashRegister_Started_NonCash_Payments" BuildFlags="">
+  <Title m="2014-09-10T07:47:00.2931037Z">O bezhotovostných platbách</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2025-03-11T09:13:21.9254311Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; je venovaná &lt;STRONG&gt;problematike bezhotovostných platieb&lt;/STRONG&gt; v&amp;nbsp;systéme OBERON.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;V&amp;nbsp;&lt;A href="aec074f4-3e1c-4a1e-8a80-06fcecf51156"&gt;Pokladnici OBERON&lt;/A&gt;&amp;nbsp;je možné okrem iných&amp;nbsp;&lt;A href="46e6deed-ce15-42dc-be53-ab72142d9673"&gt;typov platieb&lt;/A&gt; prijímať i bezhotovostné platby, ktoré sa od platieb v hotovosti líšia tým, že&amp;nbsp;sa pri nich -do pokladne nezapočítava hotovosť (nemení sa stav pokladne v&amp;nbsp;€). 
+&lt;LI&gt;Bezhotovostné platby&amp;nbsp;v&amp;nbsp;systéme OBERON môžu predstavovať: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;platby platobnými kartami&lt;/STRONG&gt; - platby prijímané pomocou hardvérových alebo softvérových &lt;A href="5ad1a704-08fd-4f9c-8302-8f8759cef50a"&gt;platobných POS terminálov&lt;/A&gt;, 
+&lt;LI&gt;&lt;STRONG&gt;iné bezhotovostné platby&lt;/STRONG&gt; - platby, pri ktorých sa nepoužíva platobný terminál, ale otvorený pokladničný účet&amp;nbsp;(doklad) sa uhrádza inou bezhotovostnou platbou, napr. pri donáške pomocou platobnej brány (typicky napr. pri &lt;EM&gt;Bistro.sk&lt;/EM&gt;).&amp;nbsp; &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Hoci sa bezhotovostné platby započítavajú do denných obratov pokladnice, eKasa zóna finančnej správy &lt;STRONG&gt;eviduje len celkové sumy tržieb&lt;/STRONG&gt; a neobsahuje informácie o&amp;nbsp;&lt;A href="46e6deed-ce15-42dc-be53-ab72142d9673"&gt;type platby&lt;/A&gt;, a to v členení podľa prijatej hotovosti,&amp;nbsp;cenín (poukážok, šekov a pod.), platieb kartou,&amp;nbsp;prípadne iných bezhotovostných platieb. Na správne rozúčtovanie tržieb podľa typov platieb pre&amp;nbsp;potreby účtovníctva tak aj naďalej&amp;nbsp;jediným zdrojom informácií zostáva denná uzávierka. V prípade, že&amp;nbsp;fiškálne zariadenie, ktoré podnikateľ používa, umožňuje vyhotoviť&amp;nbsp;dennú uzávierku, je&amp;nbsp;potrebné kontrolu a evidenciu tržieb a&amp;nbsp;hotovosti vykonávať &lt;STRONG&gt;podľa uzávierky zo zariadenia&lt;/STRONG&gt;. Ak&amp;nbsp;fiškálne zariadenie niektorú z uzávierok nepodporuje, v OBERON-e je možnosť využiť tlačový výstup &lt;EM&gt;&lt;STRONG&gt;Prehľad tržieb (podklady pre zaúčtovanie)&lt;/STRONG&gt;&lt;/EM&gt; v&amp;nbsp;ponuke &lt;EM&gt;Sklad&lt;/EM&gt;,&amp;nbsp;&lt;A href="a4568b9d-f4ac-4d94-b56f-de3717381da7"&gt;Pokladničné doklady&lt;/A&gt;, tlačidlo &lt;EM&gt;Tlač&lt;/EM&gt;. Inou možnosťou je použitie tlačového výstupu &lt;EM&gt;&lt;STRONG&gt;Obraty pokladnice z&amp;nbsp;Pokladnice OBERON&lt;/STRONG&gt;&lt;/EM&gt; (tlačidlo &lt;EM&gt;Obraty pokladnice - Ctrl+O&lt;/EM&gt;) v&amp;nbsp;členení podľa typov platieb.&amp;nbsp;Tu je možné nastaviť rozsah dátumov, za ktorý sa má tlačový výstup vytvoriť. Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="900c1b8a-2645-4225-ac93-d387237f3d90" style="auto-update-caption: true"&gt;Vyhotovovanie uzávierok&lt;/A&gt;. 
+&lt;LI&gt;Zaúčtovanie bezhotovostných platieb do&amp;nbsp;&lt;A href="d8c9bfc8-92d1-4471-8909-e5f8ce602d6c"&gt;účtovného&lt;/A&gt; (&lt;A href="5e82cca9-b8af-4a80-ba30-7ab91914a595"&gt;peňažného&lt;/A&gt;) denníka je tiež špecifické. V&amp;nbsp;podstate ho možné&amp;nbsp;vykonať &lt;STRONG&gt;dvoma spôsobmi&lt;/STRONG&gt;: 
+&lt;OL&gt;
+&lt;LI&gt;Do daňového základu sa počíta celá denná uzávierka, ktorá pozostáva z&amp;nbsp;hotovostných platieb a bezhotovostných platieb (platobnými kartami, prípadne inými bezhotovostnými platbami). Platby, ktoré potom prídu na bankový účet, sa účtujú ako príjem, ktorý však už neovplyvňuje základ dane. 
+&lt;LI&gt;Do daňového základu sa započíta denná uzávierka, avšak znížená o bezhotovostné platby. Platby, ktoré prídu na bankový účet, sa potom taktiež účtujú ako príjem, ktorý ovplyvňuje základ dane.&lt;/LI&gt;&lt;/OL&gt;
+&lt;LI&gt;Systém OBERON umožňuje pri bezhotovostných platbách prijímať a evidovať aj platby obslužného. Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="fe23503f-10eb-4b61-8265-4377f0401583"&gt;Obslužné&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Niektoré účtovné jednotky používajú prvý a niektoré druhý spôsob (záleží na povahe firmy, na celkovom počte bezhotovostných platieb, zvyklosti účtovníka a pod.). Odporúčame však účtovať &lt;STRONG&gt;podľa prvého spôsobu&lt;/STRONG&gt;, pričom pre väčšiu prehľadnosť bankových výpisov môžete prijímať bezhotovostné platby na samostatný bankový účet.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H5&gt;Obrázok č. 1: Typ platby so spôsobom zaevidovania &lt;EM&gt;Daňový doklad - iná bezhotovostná platba&lt;/EM&gt;&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/CashRegister/Form_CashRegister_PaymentType_Bistro.sk.png"&gt;&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="6f23219b-e1a3-4450-b6fb-e2afcf4c0c16" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="46e6deed-ce15-42dc-be53-ab72142d9673">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="92fd470c-b6b2-42ac-8260-37bd2304be8c" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="69bbd499-45c0-4b0f-8f7a-c53fa5d70c1b">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="21a813f9-74f9-44b2-9f92-a67757c2d71d" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="900c1b8a-2645-4225-ac93-d387237f3d90">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="f5ec55a3-8920-4629-ab55-12d76a73c54b" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="fe23503f-10eb-4b61-8265-4377f0401583">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="4f3b5195-96be-4cdc-a1db-b36241445ad3">
+      <Keyword m="2014-09-23T13:14:48.1904296Z">Platobná karta</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="c9e0627c-3157-4005-8aa8-9ea87ae6fb05">
+      <Keyword m="2014-09-23T13:16:36.555664Z">Kreditná karta</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="49a10c31-5f51-41b2-ae57-a00cb7556d52">
+      <Keyword m="2014-10-05T10:17:25.8712732Z">Debetná karta</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="30aa993c-34ba-4db0-b091-8013b685b6db">
+      <Keyword m="2023-03-28T06:25:56.6323811Z">Platobná brána</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="927a3eb7-7aba-4464-a05d-58be74406528">
+      <Keyword m="2023-03-28T06:26:00.3782318Z">Bistro.sk</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="a3da5693-8803-409b-a03f-4146cd159279">
+      <Keyword m="2023-03-28T06:26:09.8583624Z">Bezhotovostná platba</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="60a638b6-ee6a-4eb8-befe-30e542fed484">
+      <Keyword m="2023-03-28T06:26:15.4904713Z">Iná bezhotovostná platba</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

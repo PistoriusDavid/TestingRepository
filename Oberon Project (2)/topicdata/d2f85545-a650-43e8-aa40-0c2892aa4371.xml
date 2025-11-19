@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="d2f85545-a650-43e8-aa40-0c2892aa4371" Status="Complete" CreatedOn="2015-03-30T06:33:41.0173985Z" ModifiedOn="2023-10-30T07:18:43.8440889Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Form_Hotel_Room" BuildFlags="">
+  <Title m="2015-03-30T06:34:12.5232578Z">Formulár Izba</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-10-17T07:45:25.0936434Z">&lt;P&gt;Formulár &lt;EM&gt;Izba&lt;/EM&gt; umožňuje definovať, resp. upraviť už vytvorenú&amp;nbsp;izbu v&amp;nbsp;module&amp;nbsp;&lt;A href="c3bd41f0-029e-4c74-b342-b0ffff647b6e"&gt;Hotelová recepcia&lt;/A&gt; systému OBERON. Formulár je dostupný z&amp;nbsp;programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;, ponuka &lt;EM&gt;Hotel,&lt;/EM&gt; &lt;A href="902561af-a2ca-4bf7-adcd-21be1663b30a" style="auto-update-caption: true"&gt;Izby&lt;/A&gt;, tlačidlo&amp;nbsp;&lt;EM&gt;Nový&lt;/EM&gt; alebo &lt;EM&gt;Oprava&lt;/EM&gt;&lt;EM&gt;.&lt;/EM&gt;&lt;/P&gt;
+&lt;H2&gt;Popis formulára &lt;EM&gt;Izba&lt;/EM&gt;&lt;/H2&gt;&lt;innovasys:widget type="Tab Strip" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Základné&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Číslo a názov izby&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Zadáva sa číslo a názov izby, napr. číslo:&amp;nbsp;&lt;EM&gt;101&lt;/EM&gt;, názov: &lt;EM&gt;Apartmán 2&lt;/EM&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Typ izby&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;&lt;EM&gt;Typ izby&lt;/EM&gt; prestavuje&amp;nbsp;parameter izby, ktorý je kľúčový prakticky pre všetky základné funkcie&amp;nbsp;modulu (rezervácie, ubytovanie, výpočet ceny za ubytovanie&amp;nbsp;a ďalšie). Určuje počet pevných lôžok a&amp;nbsp;prísteliek a&amp;nbsp;&lt;A href="79646e11-b21e-473c-a78b-7e0fb8b55c14"&gt;typ cenovej hladiny&lt;/A&gt;. Pre každý typ izby je možné nastaviť aj počet dní, po koľkých sa má uskutočniť výmena uterákov a posteľnej bielizne, a&amp;nbsp;jedinečné identifikátory, ktoré slúžia na prepojenie OBERON-u s externými rezervačnými systémami (napr.&amp;nbsp;&lt;A href="25b9b2fe-ad9e-49dd-9a59-e57d2520e87b"&gt;manažérom rezervačných kanálov&lt;/A&gt;). Podľa typu izby možno&amp;nbsp;rýchlo filtrovať záznamy&amp;nbsp;v &lt;A href="3ca37544-bbc0-4a88-af6a-a2132b74279d"&gt;grafickom prehľade izieb&lt;/A&gt;. Jednotlivé typy izieb je možné definovať po stlačení&amp;nbsp;tlačidla&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_ListButton.png"&gt;.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Skrátený popis&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Zadáva sa skrátený popis izby na&amp;nbsp;lepšiu orientáciu v&amp;nbsp;&lt;A href="3ca37544-bbc0-4a88-af6a-a2132b74279d"&gt;grafickom prehľade izieb&lt;/A&gt;.&amp;nbsp;Najčastejšie obsahuje počet pevných lôžok a prísteliek, napr. 2+1.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Telefónne číslo&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Zadáva sa telefónne číslo na danú izbu v prípade, že sú izby ubytovacieho zariadenia vybavené telefónmi.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Rozšírené&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Veľkosť izby&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Zadáva sa veľkosť izby v m2. Údaj slúži ako doplnková informácia pre zamestnancov ubytovacieho zariadenia, napr. v prípade&amp;nbsp;otázok zo strany hostí.&amp;nbsp;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Farba izby&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Na&amp;nbsp;lepšiu orientáciu v&amp;nbsp;&lt;A href="3ca37544-bbc0-4a88-af6a-a2132b74279d"&gt;grafickom prehľade izieb&lt;/A&gt; je možné izbe priradiť konkrétnu farbu. Napr. izby v&amp;nbsp;rámci jedného objektu alebo poschodia&amp;nbsp;budú mať inú farbu ako izby v inom objekte alebo na inom poschodí a&amp;nbsp;pod.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Objekt&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Vyberá sa v&amp;nbsp;prípade, že sa ubytovacie zariadenie skladá z viacerých objektov (komplexov, budov...).&amp;nbsp;Podľa objektov&amp;nbsp;možno v &lt;A href="3ca37544-bbc0-4a88-af6a-a2132b74279d"&gt;grafickom prehľade izieb&lt;/A&gt;&amp;nbsp;rýchlo filtrovať záznamy, ale aj&amp;nbsp;tlačiť rôzne tlačové výstupy. K objektu je možné priradiť&amp;nbsp;&lt;A href="8df798f2-4fbf-4279-ad8c-493bdbe7f2e4"&gt;prevádzku&lt;/A&gt;, ktorej názov&amp;nbsp;a&amp;nbsp;adresa sa budú tlačiť na tlačových výstupoch, napr. &lt;EM&gt;Hlásenie pobytu (pre cudzineckú políciu)&lt;/EM&gt; (&lt;A href="d43ef71f-edb1-44f7-b1a2-c0cf18067ee9"&gt;formulár Ubytovanie&lt;/A&gt;, záložka &lt;EM&gt;Ubytované osoby&lt;/EM&gt;, tlačidlo &lt;EM&gt;Tlač&lt;/EM&gt;)&amp;nbsp;alebo &lt;EM&gt;Ubytovací poukaz (VOUCHER)&lt;/EM&gt; (&lt;A href="3ca37544-bbc0-4a88-af6a-a2132b74279d"&gt;Grafický prehľad izieb&lt;/A&gt;, tlačidlo &lt;EM&gt;Tlač&lt;/EM&gt;).&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Upratovanie - rajón/Poschodie&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;V prípade rozdelenia ubytovacieho zariadenia na upratovacie rajóny je možné izbe priradiť &lt;STRONG&gt;rajón&lt;/STRONG&gt; a&amp;nbsp;&lt;STRONG&gt;poschodie&lt;/STRONG&gt;. Rajón bude použitý v tlačovom výstupe&amp;nbsp;&lt;I&gt;Prehľad upratovania izieb k dátumu&lt;/I&gt;, kde je možné tlačiť izby, ktoré je potrebné upratať vo zvolenom rajóne. Tlačový výstup sa člení podľa poschodí.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Zoskupenie&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Zoskupenie spravidla predstavuje ľubovoľnú spoločnú charakteristiku daných izieb (napr. v ubytovni môžu byť&amp;nbsp;zoskupenia izieb určené pre robotníkov,&amp;nbsp;študentov a pod.). Zaradenie izby do zoskupenia izieb je možné využiť v tlačových výstupoch.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Popis izby&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;V záložke &lt;EM&gt;Popis izby&lt;/EM&gt; je možné pridať&amp;nbsp;ďalšie informácie o&amp;nbsp;danej izbe. Popis môže obsahovať napríklad informácie o fajčiarskej/nefajčiarskej izbe, vybavení izby atď.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Majiteľ izby&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Zadáva sa majiteľ (vlastník)&amp;nbsp;izby. Toto nastavenie sa využíva pri apartmánových domoch, v ktorom každý apartmán (izba) má iného majiteľa. Údaj o&amp;nbsp;majiteľovi izby sa využíva v tlačových výstupoch, napr. &lt;EM&gt;Zoznam izieb (majitelia), Prehľad vyťaženosti izieb&lt;/EM&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Externé systémy&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Zadávajú sa jedinečné identifikátory alebo doplnkové identifikátory izby, ktoré slúžia na prepojenie OBERON-u s externými systémami (napr.&amp;nbsp;so systémom&amp;nbsp;&lt;A href="abb7c314-1a2d-4d71-8706-3c00a8cf2276"&gt;dverových zámkov SALTO&lt;/A&gt;). Hodnota identifikátora sa zadáva po stlačení tlačidla &lt;EM&gt;Nový&lt;/EM&gt;.&lt;/P&gt;
+&lt;P&gt;Typ prepojenia:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;EM&gt;&lt;STRONG&gt;Predvolené&lt;/STRONG&gt;&lt;/EM&gt; - identifikátor nie je konkrétneho typu a&amp;nbsp;môže sa použiť napr. pri prepojení prostredníctvom rozhrania API. 
+&lt;LI&gt;&lt;STRONG&gt;&lt;EM&gt;SALTO - iné autorizácie&lt;/EM&gt;&lt;/STRONG&gt; - doplnkový identifikátor, ktorý identifikuje ďalšie prepojenia k izbe v&amp;nbsp;systéme &lt;EM&gt;SALTO&lt;/EM&gt; (napr. klimatizácia, garážové státie atď.). 
+&lt;LI&gt;&lt;EM&gt;&lt;STRONG&gt;SALTO - identifikátor izby&lt;/STRONG&gt;&lt;/EM&gt; - jedinečný identifikátor, ktorý identifikuje izbu v&amp;nbsp;systéme &lt;EM&gt;SALTO&lt;/EM&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;P&gt;&lt;STRONG&gt;Hodnota&lt;/STRONG&gt; - zadáva sa&amp;nbsp;hodnota identifikátora&amp;nbsp;v&amp;nbsp;externom systéme.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="554e2ee6-45f5-4b42-a5cb-175a3f942bed" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="902561af-a2ca-4bf7-adcd-21be1663b30a">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="76513c4a-df05-400c-b571-dc39368dd64a" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="3ca37544-bbc0-4a88-af6a-a2132b74279d">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="841ff577-ad36-4038-b7fc-db54afddad3d" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="79646e11-b21e-473c-a78b-7e0fb8b55c14">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="5555d5a5-0721-4296-a758-3854ca217556">
+      <Keyword m="2022-05-30T11:09:35.794923Z">Izba - formulár</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="3b0865c2-1267-4702-b073-fb07ce874e53">
+      <Keyword m="2022-05-30T11:08:52.0266433Z">Majiteľ izby (apartmánu) - nastavenie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="75e1a45a-94b2-4113-bd2c-95f26a03dc26">
+      <Keyword m="2022-05-30T11:09:50.7801202Z">Apartmánový hotel - majiteľ</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="253cb30b-0d1a-4fe1-8bb3-4ac179238300">
+      <Keyword m="2022-05-30T11:10:07.403783Z">Farba izby - nastavenie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="899d1a1c-79a0-46d5-a5fa-33a78f920b6c">
+      <Keyword m="2022-05-30T11:10:33.0847819Z">Jedinečný identifikátor izby</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="30d9a2cb-9ebf-40a3-88f4-d7a26c25feff">
+      <Keyword m="2022-05-30T11:11:12.892648Z">Poschodie - izby - nastavenie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="8a95c11b-5904-4b50-9ac5-9d4bc840809a">
+      <Keyword m="2022-05-30T11:11:28.773394Z">Rajón - izby - nastavenie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="5579f3a8-cf13-483a-8bb4-11d6a24d121a">
+      <Keyword m="2022-05-30T11:11:47.823378Z">Skrátený popis izby - nastavenie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="1c3bcd73-621c-4f77-a74b-46212499c4e5">
+      <Keyword m="2022-05-30T11:12:20.6871853Z">Veľkosť (plocha) izby - nastavenie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="90a762ab-44a8-4a70-beb1-18126f8135b6">
+      <Keyword m="2022-05-30T11:12:56.6481657Z">Zoskupenie izieb - nastavenie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="c3037916-656a-4680-9f37-a4003dcd8fb7">
+      <Keyword m="2022-05-30T11:14:40.9789962Z">Telefónne číslo izby - nastavenie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="28ff63fb-9415-45ba-b516-d1adeecc3f1d">
+      <Keyword m="2022-05-30T11:15:49.01164Z">SALTO - dverové zámky - izba</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

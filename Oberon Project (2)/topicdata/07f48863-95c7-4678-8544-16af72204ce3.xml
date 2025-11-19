@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="07f48863-95c7-4678-8544-16af72204ce3" Status="Complete" CreatedOn="2014-09-08T10:49:21.8044491Z" ModifiedOn="2022-07-25T07:37:32.9780334Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="22710" Name="Menu_Hotel_History_Guests" BuildFlags="">
+  <Title m="2014-09-08T10:49:53.6202689Z">História ubytovaných osôb</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2022-07-25T07:37:32.976033Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;je venovaná&amp;nbsp;položke&amp;nbsp;&lt;EM&gt;História ubytovaných osôb&lt;/EM&gt; v&amp;nbsp;ponuke&amp;nbsp;&lt;EM&gt;Hotel&lt;/EM&gt; programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Výberom položky sa otvorí&amp;nbsp;kniha&amp;nbsp;&lt;EM&gt;História ubytovaných osôb&lt;/EM&gt;, ktorá umožňuje vyhľadať hostí, ktorí boli v minulosti ubytovaní v&amp;nbsp;danom ubytovacom zariadení. Do&amp;nbsp;knihy sa záznamy dostanú automaticky pri zaevidovaní hosťa do&amp;nbsp;&lt;A href="0b9519ff-9438-422b-a3e8-358b628293e9"&gt;knihy ubytovaných&lt;/A&gt;. 
+&lt;LI&gt;Na vyhľadanie&amp;nbsp;a zobrazenie údajov (záznamov) o hosťovi &lt;STRONG&gt;je&amp;nbsp;potrebné zadať niektorý identifikačný údaj o hosťovi&lt;/STRONG&gt; -&amp;nbsp;meno alebo priezvisko, e-mailovú adresu, ulicu adresy, prípadne len časť z&amp;nbsp;uvedených hodnôt. Po stlačení tlačidla &lt;STRONG&gt;&lt;EM&gt;Vyhľadať&lt;/EM&gt;&lt;/STRONG&gt; sa načítajú záznamy, ktoré vyhovujú danej podmienke. &lt;STRONG&gt;Ak nebude zadaný žiadny hľadaný text, načítajú sa&amp;nbsp;všetky záznamy o hosťoch&lt;/STRONG&gt;. 
+&lt;LI&gt;Po označení kurzorom vybraného hosťa v zozname a stlačení tlačidla &lt;EM&gt;História&lt;/EM&gt;&amp;nbsp;sa zobrazí formulár &lt;EM&gt;História ubytovanej osoby&lt;/EM&gt; so&amp;nbsp;zoznamom všetkých ubytovaní&amp;nbsp;daného hosťa v ubytovacom zariadení. Vo formulári&amp;nbsp;sú dostupné aj údaje o celkovom počte prenocovaní, ako aj o počte prenocovaní v aktuálnom a&amp;nbsp;predchádzajúcom roku. 
+&lt;LI&gt;Tlačový výstup &lt;EM&gt;&lt;STRONG&gt;História ubytovaných osôb&lt;/STRONG&gt;&lt;/EM&gt; je dostupný v&amp;nbsp;&lt;A href="3ca37544-bbc0-4a88-af6a-a2132b74279d"&gt;grafickom prehľade izieb&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Dostupné&amp;nbsp;možnosti&lt;/H2&gt;
+&lt;P&gt;Ďalšie možnosti práce so záznamami&amp;nbsp;sú dostupné&amp;nbsp;po stlačení tlačidla &lt;EM&gt;Možnosti&lt;/EM&gt;, prípadne v&amp;nbsp;kontextovej ponuke tabuľky záznamov.&lt;/P&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Export e-mailových adries&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;E-mailové adresy z&amp;nbsp;&lt;A href="07f48863-95c7-4678-8544-16af72204ce3"&gt;histórie ubytovaných osôb&lt;/A&gt; je možné exportovať do samostatného textového súboru (.TXT). Po ukončení exportu sa zobrazí správa o priebehu.&amp;nbsp;Exportované e-mailové adresy je ďalej možné použiť napr. pri&amp;nbsp;&lt;A href="04e52362-d0f3-4a9a-8ec5-36ef724a7ee2"&gt;hromadnom zasielaní e-mailov&lt;/A&gt;.&amp;nbsp;Bližšie informácie získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="d9d47a4c-5442-45eb-b5a5-952fb1eb00b4" style="auto-update-caption: true"&gt;Sprievodca Export e-mailových adries&lt;/A&gt;.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="1670d923-4b09-4c08-b943-4a4d5e95600e" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="0b9519ff-9438-422b-a3e8-358b628293e9">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="8beb74b7-7858-4ca7-919c-3f19f1660223">
+      <Keyword m="2022-05-10T09:22:47.7067527Z">Export e-mailových adries z histórie ubytovaných osôb</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="99314452-d424-4f92-a07d-5cfff55f6f57">
+      <Keyword m="2022-05-10T09:21:48.7069643Z">Ubytovaní hostia - história</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

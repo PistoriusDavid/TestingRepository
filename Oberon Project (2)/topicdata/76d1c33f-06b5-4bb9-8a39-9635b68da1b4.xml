@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="76d1c33f-06b5-4bb9-8a39-9635b68da1b4" Status="Complete" CreatedOn="2014-09-01T08:36:44.4179525Z" ModifiedOn="2023-10-27T11:06:27.9113468Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="21020" Name="Help_RemoteAssistance" BuildFlags="">
+  <Title m="2022-02-21T08:54:31.8581991Z">Požiadať o vzdialenú pomoc</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-10-27T11:06:27.9113468Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;je venovaná&amp;nbsp;položke&amp;nbsp;&lt;EM&gt;Požiadať o vzdialenú pomoc&lt;/EM&gt; v ponuke&amp;nbsp;&lt;EM&gt;Pomocník&lt;/EM&gt; programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Výberom položky sa&amp;nbsp;otvorí&amp;nbsp;&lt;EM&gt;Sprievodca pripojením k vzdialenej&amp;nbsp;pomoci&lt;/EM&gt;, pomocou ktorého je možné &lt;STRONG&gt;požiadať o vzdialenú pomoc pracovníka&amp;nbsp;centra podpory&lt;/STRONG&gt;. &lt;SPAN style="COLOR: rgb(0,0,0)"&gt;Podmienkou je, aby počítač&amp;nbsp;používateľa bol počas poskytovania vzdialenej pomoci pripojený k internetu&lt;/SPAN&gt;. Pracovník&amp;nbsp;centra podpory sa pripojí k&amp;nbsp;počítaču používateľa&amp;nbsp;a bude ho ovládať tak, akoby pracoval priamo na ňom. 
+&lt;LI&gt;Vzdialená pomoc predstavuje&lt;EM&gt;&amp;nbsp;&lt;/EM&gt;&lt;STRONG&gt;funkciu určenú na pomoc pri riešení bežných používateľských, resp. technických problémov&lt;/STRONG&gt; v rámci poskytovania podpory k systému OBERON. Odporúčame ju využiť pri problémoch, ktoré je možné len s&amp;nbsp;ťažkosťami vyriešiť&amp;nbsp;cez telefón - jednoduchšie je nadviazať spojenie a ponúknuť pracovníkovi&amp;nbsp;centra podpory prístup k obrazovke, myši a klávesnici. Výhodou je, že máte pred očami všetko, čo sa deje na obrazovke - dokážete tak sledovať, ako je možné problém vyriešiť. Prerušiť poskytovanie vzdialenej pomoci môže&amp;nbsp;tak používateľ, ako aj poskytovateľ vzdialenej pomoci. 
+&lt;LI&gt;Poskytovanie podpory k systému OBERON formou vzdialenej pomoci (prostredníctvom technológie &lt;EM&gt;Vzdialená pomoc&lt;/EM&gt;, resp. softvéru &lt;EM&gt;Team Viewer&lt;/EM&gt;) je od 25. mája 2018 na základe nariadenia &lt;EM&gt;Európskeho parlamentu a&amp;nbsp;Rady (EÚ) &lt;STRONG&gt;General Data Protection Regulation (GDPR)&lt;/STRONG&gt;&lt;/EM&gt; možné &lt;STRONG&gt;len na základe vopred uzatvorenej písomnej zmluvy medzi prevádzkovateľom&lt;/STRONG&gt; (používateľ žiadajúci podporu) &lt;STRONG&gt;a sprostredkovateľom&lt;/STRONG&gt; (firma EXALOGIC, s.r.o.).&amp;nbsp;&lt;A href="https://exalogic.sk/na-stiahnutie-oberon/zmluva-o-sprostredkovani-spracuvania-osobnych-udajov/" target=_blank&gt;Zmluva&lt;/A&gt; a ďalšie informácie sú dostupné na internetovej stránke&amp;nbsp;&lt;A href="https://exalogic.sk/oberon/dokumentacia-a-podpora/o-vzdialenej-pomoci/" target=_blank&gt;O vzdialenej pomoci&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt; 
+&lt;UL&gt;
+&lt;LI&gt;Vzdialenú pomoc použite len po telefonickom (prípadne inom) kontakte s pracovníkom&amp;nbsp;centra podpory. Nepoužívajte vzdialenú pomoc bez predchádzajúcej konzultácie s&amp;nbsp;pracovníkom&amp;nbsp;centra podpory&lt;B&gt;.&lt;/B&gt; 
+&lt;LI&gt;V prípade, že používate systém OBERON na počítači, ku ktorému sa pripájate prostredníctvom vzdialenej plochy (napr. na serveri), služba vzdialenej pomoci nemusí fungovať korektne. Z tohto dôvodu &lt;STRONG&gt;odporúčame používať systém OBERON priamo na počítači, na ktorom pracujete&lt;/STRONG&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Postup využitia vzdialenej pomoci&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;Skontrolujte, či je váš počítač pripojený k internetu. 
+&lt;LI&gt;Telefonicky kontaktujte pracovníka&amp;nbsp;&lt;A href="b3576a4b-0cf7-4032-bc13-35a363dd611a"&gt;centra podpory&lt;/A&gt; a upovedomte ho o vašom probléme. 
+&lt;LI&gt;Ak vám navrhne použitie vzdialenej pomoci, zvoľte ponuku &lt;EM&gt;Pomocník, Požiadať o vzdialenú pomoc&lt;/EM&gt;. Otvorí sa Sprievodca pripojením k&amp;nbsp;vzdialenej pomoci, v&amp;nbsp;ktorom podľa pokynov pracovníka centra podpory zvoľte jednu z dostupných technológií vzdialenej pomoci (predvolenú alebo &lt;EM&gt;TeamViewer&lt;/EM&gt;). Ak začiarknete pole &lt;EM&gt;&lt;STRONG&gt;Spustiť ako správca&lt;/STRONG&gt;&lt;/EM&gt;&amp;nbsp;a v&amp;nbsp;ďalšom kroku zadáte &lt;STRONG&gt;prihlasovacie údaje správcu systému &lt;EM&gt;Windows&lt;/EM&gt;&lt;/STRONG&gt; (ak sa vyžadujú), pracovník vzdialenej pomoci bude môcť jednoduchšie&amp;nbsp;vyriešiť vzniknutý problém vo vašom počítači.
+&lt;LI&gt;Ďalej pokračujte podľa pokynov pracovníka centra podpory. 
+&lt;LI&gt;Spojenie s pracovníkom poskytujúcim vzdialenú pomoc je možné kedykoľvek prerušiť stlačením tlačidla &lt;EM&gt;Odpojiť&lt;/EM&gt; (tlačidlo sa nachádza v samostatnom okne, ktoré sa zobrazuje na &lt;EM&gt;Paneli úloh&lt;/EM&gt;). &lt;/LI&gt;&lt;/OL&gt;
+&lt;H2&gt;Princíp fungovania&lt;/H2&gt;
+&lt;P&gt;Na nasledujúcom obrázku je zobrazený princíp fungovania vzdialenej pomoci.&amp;nbsp;Používateľ požiada o vzdialenú pomoc - požiadavka o pomoc prejde používateľovou bránou&amp;nbsp;firewall, putuje cez internet až k poskytovateľovi vzdialenej pomoci. Ten požiadavku prevezme a spojí sa s počítačom&amp;nbsp;používateľa - vidí obrazovku, môže pracovať s&amp;nbsp;myšou a&amp;nbsp;klávesnicou&amp;nbsp;používateľa OBERON-u.&lt;BR&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/OBERON/Contact/Contact_RemoteAssistance.png"&gt;&lt;/P&gt;
+&lt;H2&gt;Ďalšie informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Vzdialenú pomoc môžu poskytovať aj&amp;nbsp;&lt;A href="f83c2a9c-cda4-4862-8628-7ba16ddb1b06"&gt;zmluvní partneri&lt;/A&gt; firmy EXALOGIC (servisné strediská). Vtedy je potrebné zvoliť v sprievodcovi pripojením k vzdialenej pomoci voľbu &lt;EM&gt;Iné servisné strediská&lt;/EM&gt;.&amp;nbsp;Aby mohol zmluvný partner poskytovať vzdialenú pomoc, je potrebné, aby mal&amp;nbsp;v&amp;nbsp;počítači nainštalovaný program &lt;EM&gt;Centrum pre vzdialenú pomoc&lt;/EM&gt;&amp;nbsp;a požiadal firmu EXALOGIC o&amp;nbsp;zaradenie do zoznamu poskytovateľov vzdialenej pomoci.&amp;nbsp; 
+&lt;LI&gt;Vzdialenú pomoc je možné využiť aj v rámci lokálnej počítačovej siete. Poskytovateľom vzdialenej pomoci môže byť napr. skúsenejší pracovník firmy. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Technické informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Vzdialená pomoc integrovaná v&amp;nbsp;systéme OBERON využíva technológiu firmy &lt;A href="https://www.realvnc.com/" target=_blank&gt;Ultra VNC&lt;/A&gt; (technológia &lt;I&gt;&lt;STRONG&gt;V&lt;/STRONG&gt;irtual &lt;STRONG&gt;N&lt;/STRONG&gt;etwork &lt;STRONG&gt;C&lt;/STRONG&gt;omputing -&lt;/I&gt; práca na vzdialenom počítači). Na strane&amp;nbsp;používateľa&amp;nbsp;sa spúšťa &lt;I&gt;Server&lt;/I&gt; (&lt;EM&gt;Ultra VNC&lt;/EM&gt;, verzia 1.05 - avšak špeciálne upravený pre OBERON), na strane poskytovateľa vzdialenej pomoci &lt;I&gt;Viewer&lt;/I&gt; (&lt;I&gt;Centrum pre vzdialenú pomoc&lt;/I&gt;). 
+&lt;LI&gt;Alternatívnou&amp;nbsp;technológiou pre vzdialenú pomoc je&amp;nbsp;softvér&amp;nbsp;&lt;A href="http://www.teamviewer.com/sk/" target=_blank&gt;TeamViewer&lt;/A&gt;. 
+&lt;LI&gt;Aby program &lt;I&gt;Centrum pre vzdialenú pomoc&lt;/I&gt; dokázal prijať požiadavku o pomoc od&amp;nbsp;používateľa, musí byť spustený s&amp;nbsp;parametrom &lt;B&gt;-listen,&lt;/B&gt; (napr.&amp;nbsp;z&amp;nbsp;príkazového riadku &lt;I&gt;vncviewer.exe&lt;/I&gt;&lt;I&gt;&amp;nbsp;-listen).&lt;/I&gt; Vtedy program &lt;EM&gt;načúva&lt;/EM&gt; na TCP/IP porte 5500 - predpokladom, samozrejme, je, aby bol počítač prístupný z&amp;nbsp;internetu,&amp;nbsp;t.&amp;nbsp;j.&amp;nbsp;je potrebné na bráne&amp;nbsp;firewall povoliť uvedený port. Taktiež je potrebné mať povolený HTTP port 80. &lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="b67ce8f2-cdb9-4baa-a707-3ab02e734163" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="8c0e0dd3-ce14-410b-9a1c-76b92585e960">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="3be97b1f-cee7-40c8-85b9-73a5f9f3a87e" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="519bcf42-f3e7-48c1-98a9-02a5784576f9">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="d03bccf0-fa11-432d-b5fe-d80382a0cb4b" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="b3576a4b-0cf7-4032-bc13-35a363dd611a">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="5b20f37d-7072-4dec-89b2-781a7d439037">
+      <Keyword m="2014-11-18T12:36:24.2265625Z">Riešenie problémov</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="f8a78f9d-641d-4b3f-9262-cc90a6bee5a1">
+      <Keyword m="2015-01-14T12:15:44.6582031Z">TeamViewer</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="3e200747-1fbc-41a6-a180-41de936b4111">
+      <Keyword m="2015-01-14T12:19:32.6953125Z">VNC</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="8c49f740-d941-46eb-9e89-7dcfa90c1139">
+      <Keyword m="2022-02-21T09:42:53.1810372Z">Vzdialená pomoc</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

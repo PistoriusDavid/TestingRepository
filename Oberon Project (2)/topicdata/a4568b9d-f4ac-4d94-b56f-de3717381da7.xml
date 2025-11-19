@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="a4568b9d-f4ac-4d94-b56f-de3717381da7" Status="Complete" CreatedOn="2014-09-05T15:31:32.2246791Z" ModifiedOn="2023-10-09T12:52:52.2551485Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="22204" Name="Menu_Stock_CashRegister_BillJournal" BuildFlags="">
+  <Title m="2014-09-05T15:31:52.6718486Z">Pokladničné doklady</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-10-09T12:52:52.2551485Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;je venovaná&amp;nbsp;položke&amp;nbsp;&lt;EM&gt;Pokladničné doklady&amp;nbsp;&lt;/EM&gt;v&amp;nbsp;ponuke&amp;nbsp;&lt;EM&gt;Sklad&lt;/EM&gt; programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;. Položka je dostupná len v prípade, že je v&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="749ff4f1-eeb5-43f5-98d2-021399d8cec7"&gt;Zariadenia&lt;/A&gt; pridaná aspoň jedna &lt;A href="b24ad235-cf7f-43e2-b3e8-ec0f7d92f6b6"&gt;fiškálna tlačiareň,&lt;/A&gt; resp.&amp;nbsp;&lt;A href="2edf9500-71d3-4b5c-9d44-990261fb51bc"&gt;registračná pokladnica v režime off-line&lt;/A&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Výberom položky sa otvorí&amp;nbsp;kniha &lt;EM&gt;Pokladničné doklady&lt;/EM&gt;, ktorá je určená &lt;STRONG&gt;na evidenciu&amp;nbsp;položiek predaných&amp;nbsp;na&amp;nbsp;&lt;/STRONG&gt;&lt;A href="a6f5e32d-6f1e-40bb-9d15-3f784a183252"&gt;Pokladnici OBERON&lt;/A&gt; spolu s&amp;nbsp;&lt;STRONG&gt;číslami zaevidovaných pokladničných dokladov&lt;/STRONG&gt;, na ktorých sa tieto položky nachádzajú, a ďalšími údajmi. 
+&lt;LI&gt;V&amp;nbsp;knihe&amp;nbsp;je možné získať &lt;STRONG&gt;všetky súhrnné informácie o predaji, obratoch či výnosoch&lt;/STRONG&gt;.&amp;nbsp;V závislosti od fiškálneho zariadenia kniha umožňuje zobraziť odpis každého dokladu vytlačeného na fiškálnej tlačiarni (textovú správu bez QR kódu a niektorých ďalších údajov, ktoré neumožňuje&amp;nbsp;archivovať legislatíva). 
+&lt;LI&gt;V&amp;nbsp;knihe&amp;nbsp;pokladničných dokladov&amp;nbsp;sa&amp;nbsp;záznamy zobrazujú podľa príslušnosti k&amp;nbsp;pokladnici (&lt;A href="b24ad235-cf7f-43e2-b3e8-ec0f7d92f6b6"&gt;fiškálnej tlačiarni&lt;/A&gt;), na ktorej boli položky predané (bol zaevidovaný pokladničný doklad).&amp;nbsp;V&amp;nbsp;prípade používania viacerých&amp;nbsp;pokladníc&amp;nbsp;položky prislúchajúce k jednotlivým&amp;nbsp;pokladniciam možno zobraziť ako podmnožiny&amp;nbsp;záznamov knihy&amp;nbsp;pokladničných dokladov.&amp;nbsp;Možno tak urobiť pomocou filtra&amp;nbsp;&lt;EM&gt;Pokladnica&lt;/EM&gt; v&amp;nbsp;hornej časti evidencie. 
+&lt;LI&gt;Záznamy&amp;nbsp;je možné filtrovať, vyhľadávať v nich, tlačiť kópie pokladničných dokladov&amp;nbsp;a iné tlačové výstupy. Taktiež je možné hromadne vymazávať staré a nepotrebné pokladničné doklady. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Dostupné možnosti&lt;/H2&gt;
+&lt;P&gt;Ďalšie možnosti práce so záznamami&amp;nbsp;sú dostupné&amp;nbsp;po stlačení tlačidla &lt;EM&gt;Možnosti&lt;/EM&gt;, prípadne v&amp;nbsp;kontextovej ponuke tabuľky záznamov.&lt;/P&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Zobraziť&amp;nbsp;odpis pokladničného dokladu&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;V poznámkovom bloku sa&amp;nbsp;zobrazí&amp;nbsp;odpis pokladničného dokladu vytlačeného na fiškálnej tlačiarni (textová správa bez QR kódu a niektorých ďalších údajov, ktoré neumožňuje&amp;nbsp;archivovať legislatíva).&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Vernostný systém - transakcie&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Zobrazí&amp;nbsp;zoznam&amp;nbsp;transakcií vernostného systému prislúchajúcich k&amp;nbsp;danému pokladničnému dokladu.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Výber záznamov pre transport údajov&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Vyberú sa záznamy zobrazené v&amp;nbsp;zozname, ktoré sa exportujú pri najbližšom&amp;nbsp;&lt;A href="1dc4ea18-03c0-4028-afe5-4532583b6a44"&gt;off-line transporte údajov&lt;/A&gt; (zoznam možno zúžiť pomocou&amp;nbsp;&lt;A href="1ea156c6-edd0-46e0-ab65-7f41af30e672"&gt;filtra&lt;/A&gt;). Exportujú sa len záznamy s príznakom &lt;EM&gt;Neexportované&lt;/EM&gt;, ostatné záznamy sa do exportu nezaradia (príznak program nastavuje automaticky, možno ho však manuálne zmeniť - pozri nižšie &lt;EM&gt;Zmena príznakov pre transport údajov)&lt;/EM&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Zmena príznakov pre transport údajov&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Pri používaní&amp;nbsp;&lt;A href="1dc4ea18-03c0-4028-afe5-4532583b6a44"&gt;off-line transportov údajov&lt;/A&gt;&amp;nbsp;sa záznamy automaticky označujú príznakmi. Pomocou sprievodcu je možné príznaky záznamov manuálne zmeniť, a tým ovplyvniť zaradenie vybraných záznamov medzi exportované údaje pri ich najbližšom transporte. Zmeny možno aplikovať na všetky&amp;nbsp;záznamy&amp;nbsp;v zozname alebo len na aktuálny záznam. Príznaky možno nastaviť na:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;EM&gt;Neexportované,&lt;/EM&gt; 
+&lt;LI&gt;&lt;EM&gt;Exportované,&lt;/EM&gt; 
+&lt;LI&gt;&lt;EM&gt;Nikdy nezaradiť na export&lt;/EM&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Transport údajov&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Výber možnosti otvorí program&amp;nbsp;&lt;A href="24e780fd-36d3-4a6e-bfc0-a8665c75e4ee"&gt;OBERON Center&lt;/A&gt;, oddiel&amp;nbsp;&lt;A href="1dc4ea18-03c0-4028-afe5-4532583b6a44"&gt;Off-line transporty údajov&lt;/A&gt;, kde možno manuálne spustiť transport údajov na import, resp. export&amp;nbsp;údajov do/z&amp;nbsp;&lt;A href="88af013e-47e9-408a-ac47-18fb4edb5553"&gt;off-line pobočkovej pokladnice&lt;/A&gt;.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Vymazanie pokladničných dokladov&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Funkcia so sprievodcom umožňuje vymazať pokladničné doklady do zadaného dátumu, a tým zmenšiť databázu a zrýchliť načítanie knihy.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;XML komunikácia - export pokladničných dokladov&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Otvorí sa sprievodca, ktorý umožňuje exportovať údaje z&amp;nbsp;tejto evidencie do súboru typu XML. Viac informácií získate v téme&amp;nbsp;&lt;A href="56f661c6-24da-46aa-b157-5d988cbe792b" style="auto-update-caption: true"&gt;Všeobecne o XML komunikácii&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;XML komunikácia - import pokladničných dokladov&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Otvorí sa sprievodca, ktorý umožňuje&amp;nbsp;importovať údaje&amp;nbsp;zo súboru typu&amp;nbsp;XML do tejto evidencie. Viac informácií získate v téme&amp;nbsp;&lt;A href="56f661c6-24da-46aa-b157-5d988cbe792b" style="auto-update-caption: true"&gt;Všeobecne o XML komunikácii&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Správca zálohového systému - mesačný export o vyplatených zálohoch&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Pomocou tohto sprievodcu je možné vykonať&amp;nbsp;&lt;A href="0cbf9ae9-1760-4f87-89be-559b62ee193b"&gt;mesačný export o vyplatených zálohoch&lt;/A&gt; pre &lt;EM&gt;Správcu zálohového systému&lt;/EM&gt; vo formáte CSV. Do exportu budú zahrnuté všetky uplatnené kupóny na pokladnici za zvolené obdobie (mesiac).&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt; 
+&lt;P&gt;Ku každej pridanej položke sa (okrem iných) evidujú aj&amp;nbsp;tieto údaje:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;I&gt;Dátum a čas&lt;/I&gt; - kedy sa pokladničný doklad zaevidoval. 
+&lt;LI&gt;&lt;I&gt;Dátum a čas výdaja&lt;/I&gt; - kedy bola položka pridaná na otvorený účet (stôl). Položky jedného pokladničného dokladu majú rovnaký dátum a čas zaevidovania, ale môžu mať rôzny dátum a čas výdaja. 
+&lt;LI&gt;&lt;I&gt;Dátum pohybu -&lt;/I&gt; kedy boli vytvorené&amp;nbsp;&lt;A href="fc7595a6-54ce-4aa9-acb4-93d7880e854e"&gt;skladové pohyby&lt;/A&gt; z pokladničných dokladov. Tento dátum je rozdielny pri rôznych nastaveniach vytvárania skladových pohybov a pri&amp;nbsp;off-line pobočkovej&amp;nbsp;pokladnici. Ak pri položke nie je poznačený dátum pohybu, tento predaj&amp;nbsp;sa zo stavu zásob odpíše pri najbližšom vytváraní skladových pohybov. &lt;I&gt;Dátum pohybu&lt;/I&gt; nemusí byť zaznačený v prípade výdaja položky &lt;A href="0be61fcc-a85b-4572-876d-2171a5cb7c29"&gt;výdajkou&lt;/A&gt; alebo &lt;A href="ffa5a889-7bfe-4165-ba83-15263eb77358"&gt;hotelovým účtom&lt;/A&gt;. Vtedy bol pohyb vytvorený&amp;nbsp;pôvodným dokladom (výdajkou, hotelovým účtom), ktorý&amp;nbsp;sa následne&amp;nbsp;zaeviduje&amp;nbsp;na &lt;I&gt;Pokladnici OBERON&lt;/I&gt;. Dátum pohybu je poznačený pri danej výdajke, resp. hotelovom účte.&lt;BR&gt;&lt;I&gt;Poznámka:&lt;/I&gt; Na&amp;nbsp;&lt;A href="88af013e-47e9-408a-ac47-18fb4edb5553"&gt;off-line pobočkovej pokladnici&lt;/A&gt; tento dátum zapísaný nemôže byť,&amp;nbsp;keďže vytváranie skladových pohybov sa vykonáva až v&amp;nbsp;centrále. &lt;SPAN style="COLOR: rgb(255,0,0)"&gt;Ak poznačený je, znamená to, že už bolo predané množstvo odpísané na off-line pobočkovej pokladnici (do mínusu), a teda&amp;nbsp;v&amp;nbsp;centrále už odpísané nebude!&lt;/SPAN&gt; V tomto prípade &lt;STRONG&gt;je potrebné zmeniť nastavenie vytvárania skladových pohybov&lt;/STRONG&gt; na off-line pobočkovej pokladnici na &lt;EM&gt;&lt;STRONG&gt;Nevytvárať&lt;/STRONG&gt;&lt;/EM&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="c2ffaa8e-a7f6-467b-be3a-4737cc0e2ffa" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="ace2b019-1779-45f2-a369-503cab85fa79" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="69bbd499-45c0-4b0f-8f7a-c53fa5d70c1b">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="fb84df1d-eb2d-402e-8992-d546953dabe1" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="749ff4f1-eeb5-43f5-98d2-021399d8cec7">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="f0e15af7-e329-454c-b7f3-4a847354e464" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="b24ad235-cf7f-43e2-b3e8-ec0f7d92f6b6">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="5b40ebd8-1e94-4388-8326-c364e1cf9062" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="88af013e-47e9-408a-ac47-18fb4edb5553">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="abfe4747-54bc-4a0c-bbc6-390034e6f3b2">
+      <Keyword m="2022-12-22T12:15:03.8728603Z">Zálohy za vratné obaly - export do CSV - sprievodca</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="8f1defb2-9722-4487-b6b3-f563ac6f5421">
+      <Keyword m="2022-12-22T12:14:55.1838105Z">Export o vyplatených zálohoch do CSV - sprievodca</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="73051e3d-0742-49a3-8c48-899354943580">
+      <Keyword m="2022-12-22T12:15:01.2973288Z">Mesačný export o vyplatených zálohoch do CSV - sprievodca</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="6e0a03bb-76c7-4d8a-b9af-abaea6825258">
+      <Keyword m="2022-12-22T12:15:31.4910991Z">Predané položky na pokladnici - evidencia</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="892554f8-4394-414b-bda9-9f5a171b893a">
+      <Keyword m="2022-12-22T12:53:09.6197016Z">Tlač kópie pokladničného dokladu</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="008a77f7-8615-419a-b982-95a2bbeb95b9">
+      <Keyword m="2022-12-22T12:53:19.9962616Z">Kópia pokladničného dokladu - tlač</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

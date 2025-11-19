@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="b1149fc4-6187-4f45-ac50-c576f3e450db" Status="Complete" CreatedOn="2018-05-03T07:54:50.0360127Z" ModifiedOn="2024-08-05T12:08:26.7229782Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Installation_OBERON_Protocol" BuildFlags="">
+  <Title m="2018-05-03T12:13:03.7360968Z">Protokol o implementácii systému OBERON (technické údaje)</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BODYTEXT">
+      <Content m="2024-08-05T12:08:26.7229782Z">&lt;P class=MsoNormal style="MARGIN-BOTTOM: 0pt; TEXT-ALIGN: justify; LINE-HEIGHT: normal"&gt;Po úspešnej implementácii systému OBERON je potrebné, aby servisný technik, ktorý implementáciu vykonal, vyplnil &lt;EM&gt;&lt;STRONG&gt;Protokol o implementácii systému OBERON (technické údaje)&lt;/STRONG&gt;&lt;/EM&gt; a&amp;nbsp;odovzdal ho zodpovednej osobe v prevádzke. Táto téma obsahuje &lt;STRONG&gt;základné informácie o protokole, ako&amp;nbsp;aj&amp;nbsp;samotný protokol na stiahnutie&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;EM&gt;Protokol&amp;nbsp;o implementácii systému OBERON (technické údaje)&lt;/EM&gt; slúži na evidenciu technických údajov&amp;nbsp;a je nevyhnutný pre poskytovanie podpory k&amp;nbsp;systému OBERON firmou&amp;nbsp;&lt;A href="571f742b-c33d-495b-bab3-01ff69c38ef0" target=_blank&gt;EXALOGIC&lt;/A&gt;, resp.&amp;nbsp;&lt;A href="f83c2a9c-cda4-4862-8628-7ba16ddb1b06"&gt;servisným strediskom&lt;/A&gt;. Bez údajov evidovaných v protokole je&amp;nbsp;vykonanie potrebného servisného zásahu v&amp;nbsp;rámci poskytnutia podpory často zásadne sťažené, ba niekedy&amp;nbsp;až nemožné. 
+&lt;LI&gt;Protokol je &lt;STRONG&gt;potrebné vyplniť a v&amp;nbsp;elektronickej podobe uložiť ako prílohu do&amp;nbsp;&lt;/STRONG&gt;&lt;A href="dcd3c480-994c-477d-9fc7-17af717ade13"&gt;Správcu hesiel&lt;/A&gt;. Okrem toho je potrebné protokol&amp;nbsp;&lt;STRONG&gt;v&amp;nbsp;papierovej podobe&lt;/STRONG&gt; &lt;STRONG&gt;v zapečatenej obálke uložiť na bezpečnom a&amp;nbsp;dostupnom mieste&amp;nbsp;v&amp;nbsp;prevádzke tak, aby bol vždy k dispozícii zodpovednej osobe.&lt;/STRONG&gt;
+&lt;LI&gt;&lt;STRONG&gt;Bezpečné uloženie protokolu &lt;/STRONG&gt;je potrebné najmä z&amp;nbsp;dôvodu, že servisný technik, ktorý vykonal implementáciu,&amp;nbsp;nemusí byť v&amp;nbsp;prípade výskytu problému z rôznych dôvodov dostupný (rozviazanie zmluvy, zmena alebo zánik servisnej organizácie, havarijný stav a pod.). 
+&lt;LI&gt;Pri akejkoľvek zmene údajov je ich&amp;nbsp;&lt;STRONG&gt;nutné v protokole bezodkladne aktualizovať&lt;/STRONG&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;P&gt;Protokol si môžete stiahnuť kliknutím na nasledujúci odkaz:&lt;/P&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_WordIcon.png"&gt;&lt;STRONG&gt;&amp;nbsp;&lt;A href="https://download.exalogic.sk/media/documents/Protokol o implementacii systemu OBERON (technicke udaje).docx" target=_blank&gt;Protokol o implementácii systému OBERON (technické údaje)&lt;/A&gt;&lt;/STRONG&gt;&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="b0ffe57e-c231-4416-87ce-62094b80489f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="19a10c98-2b1d-4fe1-8ab2-98921ab328be">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="3c37aac0-0faf-4d65-9e3d-bff6f3555ac0" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="f0a7aeb9-190b-4de7-90e7-30322114e9a9">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="aefd44d7-8c7e-4ada-9d45-1fa68a8523d6" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="6072e597-0b64-4765-ad7d-c373b77beb9a">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="e295948c-e289-4183-8a25-92d66220ca4d" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="701211a9-6951-4401-acfb-fd5ea760c84d">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="a2c3fd4e-fe1f-4a46-b888-36344e8c947b" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="dcd3c480-994c-477d-9fc7-17af717ade13">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="2bc42b7d-15ad-4c84-9d36-795321d2ec46">
+      <Keyword m="2022-12-14T13:08:34.2117516Z">Implementačný protokol</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="6c376f43-dece-462c-8ff8-44e7f5c0e34e">
+      <Keyword m="2022-12-14T13:08:45.7177184Z">Implementácia - protokol</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

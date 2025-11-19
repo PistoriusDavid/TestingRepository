@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="488ad298-0d1f-4969-b5a4-6c6e164f8961" Status="Complete" CreatedOn="2019-12-17T13:50:51.4636728Z" ModifiedOn="2023-09-07T09:54:24.1046761Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Devices_ReaderDocuments_XTIOT_Install" BuildFlags="">
+  <Title m="2023-03-13T07:48:20.8360545Z">Inštalácia čítačky dokladov XTIOT XTZ62x</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-09-07T09:54:24.1046761Z">&lt;P&gt;Táto téma&amp;nbsp;&lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje&lt;STRONG&gt;&amp;nbsp;postup inštalácie a návod na použitie&lt;/STRONG&gt; &lt;STRONG&gt;čítačky dokladov&amp;nbsp;&lt;/STRONG&gt;&lt;A href="e73dd5b1-b25c-4337-89cf-ce6624f3c6bc"&gt;XTIOT XTZ62x&lt;/A&gt;.&lt;/P&gt;
+&lt;H2&gt;Postup inštalácie&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;Čítačku pripojte do voľného USB portu počítača. V prehľade konfiguračných čiarových kódov uvedených nižšie nasnímajte kód &lt;EM&gt;Začať nastavenie&lt;/EM&gt;, následne nasnímajte kód &lt;EM&gt;Prepnúť do USB virtuálneho sériového portu&lt;/EM&gt; a napokon kód &lt;EM&gt;Ukončiť nastavenie&lt;/EM&gt;. V počítači sa vytvorí sériový port z&amp;nbsp;pripojenia USB. 
+&lt;LI&gt;&lt;STRONG&gt;Nekorektné načítanie&lt;/STRONG&gt; kódu je signalizované &lt;STRONG&gt;bzučiakom&lt;/STRONG&gt;, &lt;STRONG&gt;korektné načítanie&lt;/STRONG&gt; je signalizované &lt;STRONG&gt;pípnutím&lt;/STRONG&gt;. Na korektné načítanie kódu je niekedy potrebné čítačku pri snímaní &lt;STRONG&gt;mierne nakloniť do šikmej polohy&lt;/STRONG&gt;. 
+&lt;LI&gt;Ak ešte nemáte v systéme OBERON vytvorenú (založenú) firmu, vytvorte ju&amp;nbsp;- bližšie informácie nájdete v téme &lt;A href="9a485893-6dd2-44e8-9740-a4cd7083a932" style="auto-update-caption: true"&gt;Vytvorenie účtovnej jednotky (databázy)&lt;/A&gt;. 
+&lt;LI&gt;Spustite program &lt;EM&gt;OBERON&amp;nbsp;- Agenda firmy&lt;/EM&gt;. 
+&lt;LI&gt;Zvoľte ponuku &lt;EM&gt;Servis,&amp;nbsp;&lt;/EM&gt;&lt;A href="749ff4f1-eeb5-43f5-98d2-021399d8cec7"&gt;Zariadenia&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt; stlačte tlačidlo &lt;I&gt;Pridať.&lt;/I&gt; V&amp;nbsp;otvorenom formulári vyberte&amp;nbsp;typ zariadenia&amp;nbsp;&lt;EM&gt;&lt;STRONG&gt;Čítačka dokladov&lt;/STRONG&gt;&lt;/EM&gt;,&amp;nbsp;zadajte názov zariadenia, vyberte model&amp;nbsp;&lt;EM&gt;&lt;STRONG&gt;XTIOT XTZ62x&lt;/STRONG&gt;&lt;/EM&gt; a&amp;nbsp;zadajte (vyberte) &lt;STRONG&gt;názov počítača&lt;/STRONG&gt;, ku ktorému sa má zariadenie pripojiť, prípadne zadajte&amp;nbsp;ostatné údaje. Potom stlačte tlačidlo &lt;I&gt;Nastaviť zariadenie -&lt;/I&gt; otvorí sa&amp;nbsp;&lt;A href="06f5e819-cf70-4875-b3fd-eca80b19939b"&gt;formulár&lt;/A&gt;, v ktorom vyberte správny komunikačný port. Tu je zároveň možné otestovať komunikáciu s čítačkou dokladov. &amp;nbsp;&amp;nbsp;&amp;nbsp; 
+&lt;LI&gt;Stlačením tlačidla &lt;STRONG&gt;&lt;EM&gt;OK&lt;/EM&gt;&lt;/STRONG&gt; sa inštalácia čítačky ukončí. &lt;/LI&gt;&lt;/OL&gt;
+&lt;HR&gt;
+
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Devices/Devices_Auxiliary/Devices_Auxiliary_XT6201B_Settings.png"&gt;&lt;/P&gt;
+&lt;HR&gt;
+
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Devices/Devices_Auxiliary/Devices_Auxiliary_XTZ62E_Settings.png"&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;A href="https://exalogic.sk/wp-content/uploads/2018/05/Navod-na-obsluhu_EXALOGIC-A-C071S.pdf" target=_blank&gt;&lt;STRONG&gt;&lt;IMG style="HEIGHT: 18px; WIDTH: 20px" border=0 alt="" src="images/OBERON/Controls/Controls_PdfIcon.png" width=30 height=27&gt;&lt;/STRONG&gt;&lt;/A&gt;&lt;STRONG&gt;&amp;nbsp;&lt;/STRONG&gt;&lt;A href="https://download.exalogic.sk/media/documents/Navod-na-pouzitie-XTIOT-XTZ62E.pdf" target=_blank&gt;&lt;STRONG&gt;Návod na použitie&amp;nbsp;XTIOT XTZ62x&lt;/STRONG&gt;&lt;/A&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;A href="https://exalogic.sk/wp-content/uploads/2018/05/Navod-na-obsluhu_EXALOGIC-A-C071S.pdf" target=_blank&gt;&lt;STRONG&gt;&lt;IMG style="HEIGHT: 18px; WIDTH: 20px" border=0 alt="" src="images/OBERON/Controls/Controls_PdfIcon.png" width=30 height=27&gt;&lt;/STRONG&gt;&lt;/A&gt;&lt;STRONG&gt;&amp;nbsp;&lt;/STRONG&gt;&lt;A href="https://download.exalogic.sk/media/documents/XT6201B Firmware Upgrade-20230714.pdf" target=_blank&gt;&lt;STRONG&gt;Manuál na&amp;nbsp;aktualizáciu firmvéru pre XTIOT XTZ62B&lt;/STRONG&gt;&lt;/A&gt;&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="83e7b8db-3792-40e3-a9b8-f3b176193aca" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1ca0ffc5-a594-4417-b906-a801ad45f893">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="909c365f-320e-47a2-9c96-8043c849e629" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="e73dd5b1-b25c-4337-89cf-ce6624f3c6bc">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="4844510a-5845-4b67-a6ad-1b5080cfb0c4" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="749ff4f1-eeb5-43f5-98d2-021399d8cec7">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="9262c99d-fd60-45f7-84e3-8710382d50bc">
+      <Keyword m="2021-05-11T08:43:36.5203798Z">Čítačka dokladov XTIOT XTZ62E - inštalácia</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="f662b963-e671-400e-830b-12644a2f664c">
+      <Keyword m="2022-12-15T07:59:10.4745847Z">XTIOT XTZ62E - inštalácia</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

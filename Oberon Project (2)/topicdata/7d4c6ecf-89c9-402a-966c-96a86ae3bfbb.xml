@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="7d4c6ecf-89c9-402a-966c-96a86ae3bfbb" Status="Complete" CreatedOn="2024-07-12T08:02:53.1993192Z" ModifiedOn="2024-07-12T10:23:19.4170656Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Developers_WebServices_Usage" BuildFlags="">
+  <Title m="2024-07-12T08:50:20.1174684Z">Možnosti pripojenia k webovej službe</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-07-12T10:23:19.4170656Z">&lt;P align=left&gt;Táto téma&amp;nbsp;&lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;obsahuje &lt;STRONG&gt;informácie o&amp;nbsp;možnostiach pripojenia k&amp;nbsp;webovej službe&lt;/STRONG&gt; v&amp;nbsp;systéme OBERON.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;V&amp;nbsp;závislosti od spôsobu použitia webovej služby je v&amp;nbsp;systéme OBERON k&amp;nbsp;dispozícii viacero možností pripojenia k&amp;nbsp;webovej službe: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;v rámci lokálnej počítačovej siete&lt;/STRONG&gt; - určené na používanie aplikácií, pri ktorom &lt;STRONG&gt;sa nevyžaduje prístup z&amp;nbsp;vonkajšieho internetu&lt;/STRONG&gt; (napr. pri použití mobilných dát). Toto riešenie si&amp;nbsp;vyžaduje &lt;STRONG&gt;zabezpečiť WiFi pripojenie&lt;/STRONG&gt; do lokálnej počítačovej siete. Na&amp;nbsp;zabezpečenie potrebnej sieťovej infraštruktúry, nastavenie lokálnej počítačovej siete a jej následnú správu&amp;nbsp;odporúčame &lt;STRONG&gt;kontaktovať servisného technika&lt;/STRONG&gt;. Štandardne sa týmto spôsobom používa napr. aplikácia&amp;nbsp;&lt;A href="942d48d5-b290-40f6-8ba3-45cf78f380f9"&gt;LUKUL&lt;/A&gt; v režime mobilný čašník,&amp;nbsp;&lt;A href="d9867d81-7de7-4ce2-9c45-932025935b8b"&gt;systém bonovacích monitorov&lt;/A&gt;, ale podobne možno používať aj iné aplikácie, ak sa nevyžaduje prístup z&amp;nbsp;vonkajšieho internetu. Pri aplikácii LUKUL sa v praxi vyžaduje oddelenie sietí WiFi pre prevádzku a pre zákazníkov (vzhľadom na bezpečnosť a&amp;nbsp;vyťažovanie siete pre prevádzku). 
+&lt;LI&gt;&lt;STRONG&gt;mimo lokálnej počítačovej siete&lt;/STRONG&gt; - táto možnosť zahŕňa dva spôsoby: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;pomocou verejnej statickej IP adresy&lt;/STRONG&gt; - určené na používanie aplikácií &lt;STRONG&gt;mimo lokálnej počítačovej siete, pri ktorom&lt;/STRONG&gt; &lt;STRONG&gt;sa vyžaduje prístup z&amp;nbsp;vonkajšieho internetu&lt;/STRONG&gt; (napr. pri použití mobilných dát). Pri tomto riešení je potrebné&amp;nbsp;nastaviť presmerovanie portu na smerovači (routri) z verejnej IP adresy na IP adresu a&amp;nbsp;port počítača v lokálnej sieti, na ktorom beží&amp;nbsp;&lt;A href="09f3dae9-2fb7-490f-97dc-37f60885b398" style="auto-update-caption: true"&gt;OBERON Automation Center&lt;/A&gt;&amp;nbsp;(predpokladá sa, že prevádzka má verejnú statickú IP adresu). Následne sa bude možné k&amp;nbsp;webovej službe pripájať &lt;STRONG&gt;odkiaľkoľvek z&amp;nbsp;vonkajšieho internetu&lt;/STRONG&gt;, pričom bude možné na&amp;nbsp;mobilnom zariadení s&amp;nbsp;danou aplikáciou používať aj mobilné dáta (nie pripojenie do WiFi siete). Na&amp;nbsp;nastavenie technických parametrov riešenia odporúčame &lt;STRONG&gt;kontaktovať servisného technika&lt;/STRONG&gt;. Týmto spôsobom sa spravidla používa napr. aplikácia&amp;nbsp;&lt;A href="b138daad-5453-4e53-8d2c-ecf2e81a5fcb" style="auto-update-caption: true"&gt;OBERON Web&lt;/A&gt;, aplikácia&amp;nbsp;&lt;A href="be17efdf-4b36-4b47-ad5d-09b0f66c8f65"&gt;ASTON&lt;/A&gt; pri práci v geograficky vzdialených skladoch, aplikácia &lt;A href="942d48d5-b290-40f6-8ba3-45cf78f380f9"&gt;LUKUL&lt;/A&gt; v režimoch určených pre zákazníkov,&amp;nbsp;aplikácia&amp;nbsp;&lt;A href="fe4a9463-d066-4a56-8eee-a728ae1a7220"&gt;OBERON eMenu&lt;/A&gt;, prípadne ďalšie aplikácie. 
+&lt;LI&gt;&lt;STRONG&gt;prostredníctvom služby&amp;nbsp;&lt;A href="02f77fd1-6b2f-482c-8dd0-77896d038c3e" style="auto-update-caption: true"&gt;OBERON Link&lt;/A&gt;&lt;/STRONG&gt; - podobne ako v&amp;nbsp;predchádzajúcom bode je toto pripojenie určené na používanie aplikácií &lt;STRONG&gt;mimo lokálnej počítačovej siete, pri ktorom&lt;/STRONG&gt; &lt;STRONG&gt;sa vyžaduje prístup z&amp;nbsp;vonkajšieho internetu&lt;/STRONG&gt; (napr. pri použití mobilných dát). Pri tomto riešení je potrebné vykonať registráciu do služby, ktorú zvládne každý používateľ (nie je potrebné kontaktovať servisného technika). Tento spôsob možno použiť v&amp;nbsp;prípade, keď účtovná jednotka nemôže alebo nechce nastavovať verejnú statickú IP adresu. Aj keď je služba spoplatnená, používateľovi prináša vysoký komfort prevádzkovania aplikácií bez nutnosti neraz zložitého nastavovania verejnej statickej IP adresy, ktorej zriadenie je tiež spravidla spoplatnené. Viac informácií vrátane postupu registrácie získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="02f77fd1-6b2f-482c-8dd0-77896d038c3e" style="auto-update-caption: true"&gt;OBERON Link&lt;/A&gt;.&amp;nbsp;&lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Ako získať verejnú statickú IP adresu&lt;/H2&gt;
+&lt;P&gt;Na získanie verejnej statickej IP adresy je potrebné vykonať dva kroky:&lt;/P&gt;
+&lt;OL&gt;
+&lt;LI&gt;Kontaktovať poskytovateľa internetu a požiadať ho o zriadenie verejnej statickej IP adresy. Táto služba je spravidla spoplatnená.
+&lt;LI&gt;Nastavenie sieťového routra - presmerovanie portu na smerovači (routri) z verejnej IP adresy na IP adresu a port počítača v lokálnej počítačovej sieti, na ktorom na ktorom beží&amp;nbsp;&lt;A href="09f3dae9-2fb7-490f-97dc-37f60885b398" style="auto-update-caption: true"&gt;OBERON Automation Center&lt;/A&gt;. Zároveň je na tomto počítači potrebné nastavenie brány firewall, pričom je&amp;nbsp;potrebné mať na zreteli rôzne antivírusové programy a ich brány&amp;nbsp;firewall. &lt;/LI&gt;&lt;/OL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt; 
+&lt;P&gt;Na&amp;nbsp;zabezpečenie potrebnej sieťovej infraštruktúry, nastavenie lokálnej počítačovej siete a jej následnú správu&amp;nbsp;môžete osloviť niektorého z&amp;nbsp;našich&amp;nbsp;&lt;A href="f83c2a9c-cda4-4862-8628-7ba16ddb1b06"&gt;zmluvných partnerov (servisných stredísk&lt;/A&gt;.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="92c0dda2-338c-4206-ac17-5dfb62e83d8b" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="58bb31ca-00c8-4641-ad99-7d58e24f59c5">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="303ed690-8ac3-4e55-a33f-e51b25b6f252" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="f3e85885-2cfb-4f9b-b966-a54836db41cd">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="4714d8b5-c9b1-4353-b612-dff0e6fed53b" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="02f77fd1-6b2f-482c-8dd0-77896d038c3e">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="4e8523ee-f323-42c4-8cd1-d6582d2cfc02">
+      <Keyword m="2024-07-12T09:58:46.4828114Z">OBERON Link - možnosti pripojenia k webovej službe</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="6a4b1ab4-9b27-47ef-85d7-224c3939507c">
+      <Keyword m="2024-07-12T09:59:10.5781332Z">Webová služba - možnosti pripojenia</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="6e45a367-3e3c-4ffc-8d4b-f1a5a66cef1f">
+      <Keyword m="2024-07-12T09:58:58.6715233Z">Pripojenie k webovej službe - možnosti</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="3d2275ae-151b-46a0-a250-c8515448ae71">
+      <Keyword m="2024-07-12T09:59:25.6251775Z">Webservice - možnosti pripojenia</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

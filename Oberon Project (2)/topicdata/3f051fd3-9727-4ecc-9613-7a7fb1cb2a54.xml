@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="3f051fd3-9727-4ecc-9613-7a7fb1cb2a54" Status="Complete" CreatedOn="2014-09-01T12:17:41.6972255Z" ModifiedOn="2025-03-13T14:06:26.3947705Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="21010" Name="Devices_Overview" BuildFlags="">
+  <Title m="2014-09-01T12:18:01.987386Z">Prehľad pripojiteľných zariadení</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2025-03-13T14:06:26.3947705Z">&lt;P&gt;OBERON umožňuje pracovať so širokým spektrom externých pripojiteľných zariadení. Najčastejšie sú to&amp;nbsp;fiškálne tlačiarne, registračné pokladnice,&amp;nbsp;snímače čiarových kódov, elektronické váhy, ale aj dochádzkové, platobné či&amp;nbsp;mobilné terminály,&amp;nbsp;čítačky dokladov, dverové zámky&amp;nbsp;a iné. Táto téma obsahuje &lt;STRONG&gt;prehľad jednotlivých typov zariadení, ktoré možno pripojiť k&amp;nbsp;&lt;/STRONG&gt;&lt;STRONG&gt;systému OBERON&lt;/STRONG&gt;. Zariadenia označené symbolom&amp;nbsp;&lt;A href="1f32a90c-7b4a-4d69-9f38-a560178794b3" style="auto-update-caption: true"&gt;&lt;IMG border=0 alt="Odporúčané riešenia" src="images/OBERON/Basic/Odporucane-riesenie_ruka_ikona.png"&gt;&lt;/A&gt;&amp;nbsp;predstavujú&amp;nbsp;&lt;A href="1f32a90c-7b4a-4d69-9f38-a560178794b3"&gt;odporúčané pripojiteľné zariadenia&lt;/A&gt;.&lt;/P&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt; 
+&lt;P&gt;Aby bolo možné so zariadením v&amp;nbsp;OBERON-e pracovať, musí byť&amp;nbsp;najskôr v&amp;nbsp;ponuke &lt;EM&gt;Servis,&lt;/EM&gt;&amp;nbsp;&lt;A href="749ff4f1-eeb5-43f5-98d2-021399d8cec7"&gt;Zariadenia&lt;/A&gt;&amp;nbsp;nadefinované a nastavené.&amp;nbsp;Ďalšie informácie o&amp;nbsp;inštalácii pripojiteľných zariadení&amp;nbsp;do systému OBERON nájdete v téme &lt;A href="749ff4f1-eeb5-43f5-98d2-021399d8cec7"&gt;Zariadenia&lt;/A&gt;.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Prehľad druhov pripojiteľných zariadení &amp;nbsp;&lt;/H2&gt;
+&lt;TABLE style="WIDTH: 50%"&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TD height=21 width="50%" colSpan=2&gt;
+&lt;P&gt;&lt;A href="04b8d290-1470-41ff-85a1-c44a20958841"&gt;&lt;STRONG&gt;Registračné pokladnice&lt;/STRONG&gt;&lt;/A&gt;&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=40 width="10%"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 
+&lt;P align=center&gt;&lt;IMG border=0 alt="" src="images/Devices/Device_Euro150.png"&gt;&lt;/P&gt;&lt;/TD&gt;
+&lt;TD height=40&gt;
+&lt;P&gt;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;Ide o&amp;nbsp;&lt;A href="04b8d290-1470-41ff-85a1-c44a20958841"&gt;štandardné registračné pokladnice&lt;/A&gt;, ktoré v&amp;nbsp;spojení so systémom&amp;nbsp;OBERON možno&amp;nbsp;používať dvoma spôsobmi:&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;SPAN&gt;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;&lt;STRONG&gt;počas predaja pripojené k počítaču (režim on-line)&lt;/STRONG&gt;&amp;nbsp;- predaj sa vykonáva na počítači pomocou modulu&amp;nbsp;&lt;A href="aec074f4-3e1c-4a1e-8a80-06fcecf51156"&gt;Pokladnica OBERON&lt;/A&gt; (rovnako ako pri fiškálnych tlačiarňach),&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt; 
+&lt;LI&gt;&lt;SPAN&gt;&lt;STRONG&gt;počas predaja nepripojené k počítaču (režim off-line)&lt;/STRONG&gt;&amp;nbsp;-&amp;nbsp;predaj sa vykonáva priamo na pokladnici.&lt;/SPAN&gt; &lt;/LI&gt;&lt;/UL&gt;
+&lt;P&gt;&lt;SPAN&gt;Zoznam podporovaných registračných pokladníc je dostupný v téme&amp;nbsp;&lt;A href="d9b919e7-20c4-4c50-9910-4f13211ed9a8" style="auto-update-caption: true"&gt;Podporované registračné pokladnice&lt;/A&gt;.&lt;/SPAN&gt;&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=21 width="50%" colSpan=2&gt;
+&lt;P&gt;&lt;A href="b24ad235-cf7f-43e2-b3e8-ec0f7d92f6b6"&gt;&lt;STRONG&gt;Fiškálne tlačiarne&lt;/STRONG&gt;&lt;/A&gt;&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=40 width="10%"&gt;
+&lt;P align=center&gt;&lt;IMG border=0 alt="" src="images/Devices/Device_eKasaPANDORA.png"&gt;&lt;/P&gt;&lt;/TD&gt;
+&lt;TD height=40&gt;
+&lt;P&gt;Fiškálna tlačiareň je hardvérové zariadenie, ktoré pozostáva &lt;STRONG&gt;z chráneného dátového úložiska (CHDÚ), tlačiarne pokladničných dokladov a príslušného softvéru&lt;/STRONG&gt;. Pomocou fiškálnej tlačiarne je možné z počítača vytvoriť&amp;nbsp;&lt;A href="04b8d290-1470-41ff-85a1-c44a20958841"&gt;on-line registračnú pokladnicu&lt;/A&gt;. Samotný predaj sa vykonáva v&amp;nbsp;module&amp;nbsp;&lt;A href="aec074f4-3e1c-4a1e-8a80-06fcecf51156"&gt;Pokladnica OBERON&lt;/A&gt;.&lt;/P&gt;
+&lt;P&gt;&lt;A href="1f32a90c-7b4a-4d69-9f38-a560178794b3"&gt;Odporúčanou&lt;/A&gt; podporovanou fiškálnou tlačiarňou je&amp;nbsp;&lt;A href="00fa9619-a13d-4745-8938-cc0c2b5039ce"&gt;eKasa PANDORA&lt;/A&gt;&amp;nbsp;&lt;A href="1f32a90c-7b4a-4d69-9f38-a560178794b3" style="auto-update-caption: true"&gt;&lt;IMG border=0 alt="Odporúčané riešenia" src="images/OBERON/Basic/Odporucane-riesenie_ruka_ikona.png"&gt;&lt;/A&gt;.&lt;/P&gt;
+&lt;P&gt;Zoznam ďalších&amp;nbsp;podporovaných fiškálnych tlačiarní je dostupný v téme&amp;nbsp;&lt;A href="d9b919e7-20c4-4c50-9910-4f13211ed9a8" style="auto-update-caption: true"&gt;Podporované registračné pokladnice&lt;/A&gt;.&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=21 width="50%" colSpan=2&gt;&lt;A href="a92e71d7-962a-4c7e-a6f6-18cf8cda4947"&gt;&lt;STRONG&gt;Tlačiarne pokladničných dokladov&lt;/STRONG&gt;&lt;/A&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=40 width="10%"&gt;
+&lt;P align=center&gt;&lt;IMG border=0 alt="" src="images/Devices/Device_EPSON_TM-T20II.png"&gt;&lt;/P&gt;&lt;/TD&gt;
+&lt;TD height=40&gt;
+&lt;P&gt;Tlačiareň pokladničných dokladov je hardvérové zariadenie, ktoré &lt;STRONG&gt;spolu s chráneným dátovým úložiskom (CHDÚ) a príslušným softvérom&lt;/STRONG&gt; môže tvoriť&amp;nbsp;&lt;A href="b24ad235-cf7f-43e2-b3e8-ec0f7d92f6b6"&gt;fiškálnu tlačiareň&lt;/A&gt;. Pomocou fiškálnej tlačiarne je možné z počítača vytvoriť&amp;nbsp;&lt;A href="04b8d290-1470-41ff-85a1-c44a20958841"&gt;on-line registračnú pokladnicu&lt;/A&gt;.&lt;/P&gt;
+&lt;P&gt;Tlačiarne sa pripájajú k počítaču pomocou rôznych rozhraní (USB, ethernet, RS232 atď.).&lt;/P&gt;
+&lt;P&gt;OBERON podporuje tieto tlačiarne pokladničných dokladov:&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;A href="e046c976-bdef-4ff7-b069-e27347615921"&gt;EPSON&lt;/A&gt;&amp;nbsp;&lt;A href="1f32a90c-7b4a-4d69-9f38-a560178794b3" style="auto-update-caption: true"&gt;&lt;IMG border=0 alt="Odporúčané riešenia" src="images/OBERON/Basic/Odporucane-riesenie_ruka_ikona.png"&gt;&lt;/A&gt;, 
+&lt;LI&gt;STAR, 
+&lt;LI&gt;BIXOLON, 
+&lt;LI&gt;&amp;lt;Obecný&amp;gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=21 width="50%" colSpan=2&gt;&lt;B&gt;&lt;A href="f70d563d-c13a-4063-89f1-ee85caef915a"&gt;&lt;FONT size=2&gt;Pokladničné zásuvky&lt;/FONT&gt;&lt;/A&gt;&lt;/B&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=41 width="10%"&gt;
+&lt;P align=center&gt;&lt;IMG border=0 alt="" src="images/Devices/Device_CashRegisterDrawer.png"&gt;&lt;/P&gt;&lt;/TD&gt;
+&lt;TD height=41&gt;Pokladničné zásuvky&amp;nbsp;implementované v systéme OBERON predstavujú &lt;STRONG&gt;hardvérové zariadenia&lt;/STRONG&gt; &lt;STRONG&gt;určené na úschovu a ochranu&amp;nbsp;hotovosti (bankoviek a mincí)&lt;/STRONG&gt; spravidla počas predaja na&amp;nbsp;&lt;A href="a6f5e32d-6f1e-40bb-9d15-3f784a183252"&gt;Pokladnici OBERON&lt;/A&gt;. Vnútro pokladničných zásuviek je členené na priečinky na mince a bankovky, čo&amp;nbsp;uľahčuje a zrýchľuje manipuláciu s peniazmi a tým aj samotný predaj.&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=21 width="50%" colSpan=2&gt;&lt;A href="5ad1a704-08fd-4f9c-8302-8f8759cef50a"&gt;&lt;STRONG&gt;Platobné POS terminály&lt;/STRONG&gt;&lt;/A&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=40 width="10%"&gt;
+&lt;P align=center&gt;&lt;IMG style="MARGIN: 10px" border=0 alt="" src="images/Devices/Device_POSTerminal.png" width=170 height=170&gt;&lt;/P&gt;&lt;/TD&gt;
+&lt;TD height=40&gt;
+&lt;P&gt;Platobný (bankový)&amp;nbsp;terminál&amp;nbsp;je hardvérové alebo softvérové&amp;nbsp;zariadenie &lt;STRONG&gt;na realizáciu&amp;nbsp;&lt;/STRONG&gt;&lt;A href="1a618813-f50b-46a3-8a94-598d5394f491"&gt;bezhotovostných platieb&lt;/A&gt; &lt;STRONG&gt;prostredníctvom platobných kariet&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;P&gt;OBERON podporuje tieto&amp;nbsp;platobné terminály:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;A href="936ab11c-b8d8-4007-8633-78c649beae4b"&gt;GP tom&lt;/A&gt;&amp;nbsp;&lt;A href="1f32a90c-7b4a-4d69-9f38-a560178794b3" style="auto-update-caption: true"&gt;&lt;IMG border=0 alt="Odporúčané riešenia" src="images/OBERON/Basic/Odporucane-riesenie_ruka_ikona.png"&gt;&lt;/A&gt;, 
+&lt;LI&gt;&lt;A href="04f1792c-2c89-4554-9a71-65cb4c8309e9"&gt;PAX&lt;/A&gt; &lt;A href="1f32a90c-7b4a-4d69-9f38-a560178794b3" style="auto-update-caption: true"&gt;&lt;IMG border=0 alt="Odporúčané riešenia" src="images/OBERON/Basic/Odporucane-riesenie_ruka_ikona.png"&gt;&lt;/A&gt;, 
+&lt;LI&gt;&lt;A href="5ad1a704-08fd-4f9c-8302-8f8759cef50a"&gt;FiskalPRO&lt;/A&gt;, 
+&lt;LI&gt;&lt;A href="5ad1a704-08fd-4f9c-8302-8f8759cef50a"&gt;AXASOFT&lt;/A&gt;, 
+&lt;LI&gt;&lt;A href="9891a368-cf93-471b-84a4-db323a3d1106"&gt;Teya&lt;/A&gt;, 
+&lt;LI&gt;&lt;A href="14d15475-300c-4663-ac01-cc9200070908"&gt;Softplus Ticket&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=21 width="50%" colSpan=2&gt;&lt;B&gt;&lt;A href="80a78093-fc45-4db9-b74b-e1f9829f7b3c"&gt;Snímače čiarových kódov&lt;/A&gt;&lt;/B&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=40 width="10%"&gt;
+&lt;P align=center&gt;&lt;IMG border=0 alt="" src="images/Devices/Device_Barcode Scanner.png"&gt;&amp;nbsp;&lt;/P&gt;&lt;/TD&gt;
+&lt;TD height=40&gt;
+&lt;P&gt;Snímače čiarových kódov sú hardvérové zariadenia, ktoré&amp;nbsp;sa spravidla používajú &lt;STRONG&gt;na zjednodušenie a&amp;nbsp;zrýchlenie predaja&lt;/STRONG&gt; na&amp;nbsp;&lt;A href="aec074f4-3e1c-4a1e-8a80-06fcecf51156"&gt;Pokladnici OBERON&lt;/A&gt; alebo &lt;STRONG&gt;v&amp;nbsp;dokladových formulároch&lt;/STRONG&gt; (faktúra, výdajka a pod.).&lt;/P&gt;
+&lt;P&gt;Zariadenia je rovnako možné využiť na&amp;nbsp;&lt;A href="cf9e27af-d4c5-4b0c-9b37-78cfa72b9abd"&gt;&lt;STRONG&gt;automatické účtovanie pokladničných dokladov&lt;/STRONG&gt;&lt;/A&gt; – skenovanie QR kódov na pokladničných dokladoch v systéme eKasa na ich automatický zápis do&amp;nbsp;&lt;A href="5e82cca9-b8af-4a80-ba30-7ab91914a595"&gt;peňažného&lt;/A&gt;/&lt;A href="d8c9bfc8-92d1-4471-8909-e5f8ce602d6c"&gt;účtovného denníka&lt;/A&gt; v&amp;nbsp;module &lt;EM&gt;Účtovníctvo&lt;/EM&gt;.&lt;/P&gt;
+&lt;P&gt;OBERON podporuje tieto snímače čiarových kódov:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;A href="https://download.exalogic.sk/media/documents/Navod-na-pouzitie-drotovy-snimac-ciarovych-kodov-(vratane-QR-kodov).pdf" target=_blank&gt;Drôtový snímač čiarových kódov (vrátane QR kódov)&lt;/A&gt;, 
+&lt;LI&gt;&lt;A href="https://download.exalogic.sk/media/documents/Navod-na-pouzitie-bezdrotovy-snimac-ciarovych-kodov-(vratane-QR-kodov).pdf" target=_blank&gt;Bezdrôtový snímač čiarových kódov (vrátane QR kódov)&lt;/A&gt;, 
+&lt;LI&gt;&lt;A href="518026eb-be63-494d-b3e3-837f9509c543"&gt;QeeR skener&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=21 width="50%" colSpan=2&gt;&lt;B&gt;&lt;A href="2081eb79-1408-4dd5-8dcc-8ebc8cd00407"&gt;Zákaznícke displeje&lt;/A&gt;&lt;/B&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=40 width="10%"&gt;
+&lt;P align=center&gt;&lt;IMG border=0 alt="" src="images/Devices/Device_CustomerDisplay_OBERON.png"&gt;&amp;nbsp;&lt;/P&gt;&lt;/TD&gt;
+&lt;TD height=40&gt;
+&lt;P&gt;Zákaznícky displej&amp;nbsp;je hardvérové zariadenie, ktoré sa používa v prepojení s modulom&amp;nbsp;&lt;A href="aec074f4-3e1c-4a1e-8a80-06fcecf51156"&gt;Pokladnica OBERON&lt;/A&gt; &lt;STRONG&gt;na informovanie spotrebiteľa o cene predávaného výrobku alebo poskytovanej služby&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;P&gt;Zákaznícky displej je spravidla súčasťou fiškálnej tlačiarne,&amp;nbsp;v&amp;nbsp;odôvodnených prípadoch je však možné použiť aj ďalší externý displej.&lt;/P&gt;
+&lt;P&gt;Podporované zákaznícke displeje:&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;A href="1b1c0793-4382-4777-81aa-a6a24e3e9988"&gt;EXALOGIC OBERON&lt;/A&gt; &lt;A href="1f32a90c-7b4a-4d69-9f38-a560178794b3" style="auto-update-caption: true"&gt;&lt;IMG border=0 alt="Odporúčané riešenia" src="images/OBERON/Basic/Odporucane-riesenie_ruka_ikona.png"&gt;&lt;/A&gt;,&amp;nbsp;&amp;nbsp; 
+&lt;LI&gt;VAROS Disp20C, 
+&lt;LI&gt;EPSON 20 znakov x 2 riadky, 
+&lt;LI&gt;ELCOM ED-2500R. &lt;/LI&gt;&lt;/UL&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=21 width="50%" colSpan=2&gt;&lt;B&gt;&lt;A href="b9d7c873-7b63-4210-86fe-ab1c66ea6502"&gt;Bonovacie zariadenia&lt;/A&gt;&lt;/B&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=40 width="10%"&gt;
+&lt;P align=center&gt;&lt;IMG border=0 alt="" src="images/Devices/Device_KitchenPrinter.png"&gt;&amp;nbsp;&lt;/P&gt;&lt;/TD&gt;
+&lt;TD height=40&gt;
+&lt;P&gt;Bonovacie&amp;nbsp;zariadenie je hardvérové zariadenie,&amp;nbsp;&lt;STRONG&gt;ktoré slúži na objednávanie jedál a nápojov v gastroprevádzkach&lt;/STRONG&gt; z&amp;nbsp;&lt;A href="aec074f4-3e1c-4a1e-8a80-06fcecf51156"&gt;Pokladnice OBERON&lt;/A&gt; prevádzkovanej v&amp;nbsp;reštauračnom režime, prípadne z&amp;nbsp;aplikácie&amp;nbsp;&lt;A href="942d48d5-b290-40f6-8ba3-45cf78f380f9"&gt;LUKUL - nielen mobilný čašník&lt;/A&gt;.&lt;/P&gt;
+&lt;P&gt;Zariadenia zahŕňajú&amp;nbsp;&lt;A href="b9d7c873-7b63-4210-86fe-ab1c66ea6502"&gt;bonovacie tlačiarne&lt;/A&gt;, ktoré sa pripájajú k počítaču pomocou rôznych rozhraní (USB, ethernet, RS232 atď.).&lt;/P&gt;
+&lt;P&gt;Ako alternatívu k bonovacím tlačiarňam je možné využiť&amp;nbsp;&lt;A href="d9867d81-7de7-4ce2-9c45-932025935b8b"&gt;bonovacie monitory&lt;/A&gt;.&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=21 width="50%" colSpan=2&gt;&lt;B&gt;&lt;A href="98f367d6-b09e-4406-aad9-d4b2cfc4b504"&gt;Elektronické váhy&lt;/A&gt;&lt;/B&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=40 width="10%"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 
+&lt;P align=center&gt;&amp;nbsp;&lt;IMG border=0 alt="" src="images/Devices/Device_Scales.png"&gt;&lt;/P&gt;&lt;/TD&gt;
+&lt;TD height=40&gt;
+&lt;P&gt;Elektronická váha&amp;nbsp;je&amp;nbsp;hardvérovým zariadením, ktoré sa používa &lt;STRONG&gt;pri predaji&lt;/STRONG&gt; na&amp;nbsp;&lt;A href="aec074f4-3e1c-4a1e-8a80-06fcecf51156"&gt;Pokladnici OBERON&lt;/A&gt;&lt;EM&gt;.&lt;/EM&gt;&lt;/P&gt;
+&lt;P&gt;OBERON podporuje&amp;nbsp;tieto protokoly elektronických váh:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;elektronické váhy využívajúce vážený čiarový kód, 
+&lt;LI&gt;elektronické váhy s protokolom CAS, 
+&lt;LI&gt;elektronické váhy s protokolom DIBAL (Delta, Apollo/Posnet, Uniprox), 
+&lt;LI&gt;elektronické váhy so skenerom využívajúce protokol SASI, 
+&lt;LI&gt;elektronické priemyselné váhy s indikátorom BWS, 
+&lt;LI&gt;elektronické priemyselné váhy s indikátorom DFWL. &lt;/LI&gt;&lt;/UL&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=21 width="50%" colSpan=2&gt;&lt;B&gt;&lt;A href="e90970b3-c6fb-4ec5-bac8-4a06d41662b4"&gt;Váhoskenery&lt;/A&gt;&lt;/B&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=40 width="10%"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 
+&lt;P align=center&gt;&lt;IMG border=0 alt="" src="images/Devices/Device_ScannerScales.png" width=175 height=175&gt;&lt;/P&gt;&lt;/TD&gt;
+&lt;TD height=40&gt;
+&lt;P&gt;Váhoskenery ako hardvérové zariadenia sa používajú &lt;STRONG&gt;pri predaji&lt;/STRONG&gt; na&amp;nbsp;&lt;A href="aec074f4-3e1c-4a1e-8a80-06fcecf51156"&gt;Pokladnici OBERON&lt;/A&gt;&lt;EM&gt;.&lt;/EM&gt; Váhoskener slúži tak &lt;STRONG&gt;na načítanie čiarového kódu&lt;/STRONG&gt; (ako ručný&amp;nbsp;&lt;A href="80a78093-fc45-4db9-b74b-e1f9829f7b3c"&gt;snímač čiarových kódov&lt;/A&gt;), ako aj &lt;STRONG&gt;na váženie&lt;/STRONG&gt; (ako&amp;nbsp;&lt;A href="98f367d6-b09e-4406-aad9-d4b2cfc4b504"&gt;elektronická váha&lt;/A&gt;).&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=21 width="50%" colSpan=2&gt;&lt;B&gt;&lt;A href="16818a7f-7c27-497a-be4a-4930302e84f1"&gt;Snímače RFID kľúčov&lt;/A&gt;&lt;/B&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=40 width="10%"&gt;&amp;nbsp; 
+&lt;P align=center&gt;&lt;IMG border=0 alt="" src="images/Devices/Device_ECI-20.png"&gt;&lt;/P&gt;&lt;/TD&gt;
+&lt;TD height=40&gt;
+&lt;P&gt;Snímač RFID kľúčov je&amp;nbsp;hardvérové zariadenie, ktoré slúži na &lt;STRONG&gt;snímanie&amp;nbsp;kľúčov, kariet a&amp;nbsp;identifikačných náramkov s RFID čipom&lt;/STRONG&gt;.&amp;nbsp;V&amp;nbsp;systéme OBERON sa používajú:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;pri prihlasovaní do OBERON-u &lt;STRONG&gt;ako snímač prístupu&lt;/STRONG&gt;, 
+&lt;LI&gt;vo vernostnom systéme &lt;STRONG&gt;na identifikáciu vernostných kariet&lt;/STRONG&gt;, 
+&lt;LI&gt;pri softvérových dochádzkových termináloch &lt;STRONG&gt;na identifikáciu pracovníkov&lt;/STRONG&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;P&gt;OBERON podporuje tieto snímače RFID kľúčov:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;A href="07a9169a-6739-4fc2-bbd8-959ae5d3b93d"&gt;EXALOGIC ECI-20&lt;/A&gt;, 
+&lt;LI&gt;&lt;A href="9c6ac7dd-7781-45cf-b1f3-192bd968dbf7"&gt;EXALOGIC ECI-125&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=21 width="50%" colSpan=2&gt;&lt;B&gt;&lt;A href="aebc21a5-02ca-401f-975c-96b60ae15989"&gt;Tlačiarne samolepiacich etikiet a štítkov&lt;/A&gt;&lt;/B&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=40 width="10%"&gt;
+&lt;P align=center&gt;&lt;IMG border=0 alt="" src="images/Devices/Device_IntermecPF8.png"&gt;&amp;nbsp;&lt;/P&gt;&lt;/TD&gt;
+&lt;TD height=40&gt;
+&lt;P&gt;Okrem bežných tlačiarní OBERON umožňuje &lt;STRONG&gt;tlač samolepiacich cenoviek, etikiet a štítkov&lt;/STRONG&gt; aj na špecializovanej tlačiarni, napr. &lt;I&gt;Zebra TLP 2824 Plus&lt;/I&gt;.&lt;/P&gt;
+&lt;P&gt;Upraviť štítky na požadovaný formát je možné pomocou&amp;nbsp;&lt;A href="bd58b5ac-bf1a-44f0-9463-12aa3e5b8165"&gt;Editora tlačových výstupov&lt;/A&gt;.&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=21 width="50%" colSpan=2&gt;&lt;A href="140d1f07-a761-4ad1-a288-97a4ae098e6e"&gt;&lt;STRONG&gt;Mobilné terminály&lt;/STRONG&gt;&lt;/A&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=40 width="10%"&gt;
+&lt;P align=center&gt;&lt;IMG style="HEIGHT: 200px" border=0 alt="" src="images/Devices/Devices_Auxiliary/Device_Auxiliary_ODA_S3-PG_front.png"&gt;&lt;/P&gt;&lt;/TD&gt;
+&lt;TD height=40&gt;
+&lt;P&gt;Mobilný terminál&amp;nbsp;je prenosné hardvérové zariadenie určené na prácu v rôznorodých prevádzkach&lt;EM&gt;.&lt;/EM&gt; V spolupráci so&amp;nbsp;systémom OBERON ho &lt;STRONG&gt;možno používať s rôznymi aplikáciami&lt;/STRONG&gt; (napr.&amp;nbsp;&lt;A href="be17efdf-4b36-4b47-ad5d-09b0f66c8f65"&gt;ASTON - mobilný skladník&lt;/A&gt;).&lt;/P&gt;
+&lt;P&gt;OBERON podporuje tieto&amp;nbsp;priemyselné mobilné terminály:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;A href="726335c3-67d3-49b6-8825-c1f9d70c1be6"&gt;(ODA) OBERON Data Assistant&lt;/A&gt;&amp;nbsp;&lt;A href="1f32a90c-7b4a-4d69-9f38-a560178794b3" style="auto-update-caption: true"&gt;&lt;IMG border=0 alt="Odporúčané riešenia" src="images/OBERON/Basic/Odporucane-riesenie_ruka_ikona.png"&gt;&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=21 width="50%" colSpan=2&gt;
+&lt;H3&gt;&lt;A href="1ca0ffc5-a594-4417-b906-a801ad45f893"&gt;Čítačky dokladov&lt;/A&gt;&lt;/H3&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=40 width="10%"&gt;
+&lt;P align=center&gt;&lt;IMG border=0 alt="" src="images/Devices/Device_OCR315.png"&gt;&amp;nbsp;&lt;/P&gt;&lt;/TD&gt;
+&lt;TD height=40&gt;
+&lt;P&gt;Čítačka dokladov je hardvérové zariadenie, ktoré umožňuje &lt;STRONG&gt;automaticky načítať identifikačné údaje z občianskych preukazov, pasov, víz a iných identifikačných kariet&lt;/STRONG&gt; do modulu&amp;nbsp;&lt;A href="c3bd41f0-029e-4c74-b342-b0ffff647b6e"&gt;Hotelová recepcia&lt;/A&gt;.&lt;/P&gt;
+&lt;P&gt;OBERON podporuje tieto&amp;nbsp;čítačky dokladov:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;A href="92b71d6b-7b68-439c-9135-977733350aaf"&gt;Access OCR31x&lt;/A&gt;, 
+&lt;LI&gt;&lt;A href="e73dd5b1-b25c-4337-89cf-ce6624f3c6bc"&gt;XTIOT XTZ62E&lt;/A&gt;&amp;nbsp;(zároveň funguje aj ako plnohodnotný&amp;nbsp;&lt;A href="80a78093-fc45-4db9-b74b-e1f9829f7b3c"&gt;snímač čiarových kódov&lt;/A&gt; vrátane QR kódov). &lt;/LI&gt;&lt;/UL&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=21 width="50%" colSpan=2&gt;&lt;B&gt;&lt;A href="f46f3a8f-ba04-4359-ba99-dc6caeeba021"&gt;Dochádzkové&amp;nbsp;terminály&lt;/A&gt;&lt;/B&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=40 width="10%"&gt;
+&lt;P align=center&gt;&lt;IMG border=0 alt="" src="images/Devices/Device_Attendance_EXALOGIC_A-C071S.png"&gt;&lt;/P&gt;&lt;/TD&gt;
+&lt;TD height=40&gt;
+&lt;P&gt;Dochádzkový terminál&amp;nbsp;(hardvérový alebo softvérový) je zariadenie určené &lt;STRONG&gt;na zber&amp;nbsp;informácií o dochádzke pracovníkov&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;P&gt;OBERON podporuje tieto terminály:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;A href="ac73b976-c72c-449c-a608-c41ca5eb24ba"&gt;EXALOGIC AC-071S&lt;/A&gt;&amp;nbsp;&lt;A href="1f32a90c-7b4a-4d69-9f38-a560178794b3" style="auto-update-caption: true"&gt;&lt;IMG border=0 alt="Odporúčané riešenia" src="images/OBERON/Basic/Odporucane-riesenie_ruka_ikona.png"&gt;&lt;/A&gt;, 
+&lt;LI&gt;&lt;A href="6856d140-bbfc-43c6-b0d7-0a6360827bb8"&gt;&lt;/A&gt;&lt;A href="6856d140-bbfc-43c6-b0d7-0a6360827bb8"&gt;Dochádzkový terminál OBERON&lt;/A&gt;,&lt;A href="1e150e57-14b3-4afd-8380-996f4ed00898"&gt;&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="1e150e57-14b3-4afd-8380-996f4ed00898"&gt;Dochádzkový terminál OBERON - Agenda firmy&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;P&gt;&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=21 width="50%" colSpan=2&gt;&lt;B&gt;&lt;A href="a315053c-fb60-4f19-a3df-40b9c9dd02f8"&gt;Digitálne podpisové podložky&lt;/A&gt;&lt;/B&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=40 width="10%"&gt;
+&lt;P align=center&gt;&lt;IMG border=0 alt="" src="images/Devices/Device_EXALOGIC-DSP1.png"&gt;&lt;/P&gt;&lt;/TD&gt;
+&lt;TD height=40&gt;
+&lt;P&gt;Digitálna podpisová podložka&amp;nbsp;je&amp;nbsp;&lt;STRONG&gt;elektronické zariadenie určené na snímanie digitálnych biometrických podpisov na bezpapierové elektronické podpisovanie dokumentov&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;P&gt;OBERON podporuje tieto podpisové podložky:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;A href="a315053c-fb60-4f19-a3df-40b9c9dd02f8"&gt;EXALOGIC-DSP1&lt;/A&gt;&amp;nbsp;&lt;A href="1f32a90c-7b4a-4d69-9f38-a560178794b3" style="auto-update-caption: true"&gt;&lt;IMG border=0 alt="Odporúčané riešenia" src="images/OBERON/Basic/Odporucane-riesenie_ruka_ikona.png"&gt;&lt;/A&gt; &lt;/LI&gt;&lt;/UL&gt;
+&lt;P&gt;&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=21 width="50%" colSpan=2&gt;
+&lt;P&gt;&lt;A href="d47942c0-d9d3-458d-b7cc-95ff8b2a67a4"&gt;&lt;STRONG&gt;Dverové zámky&lt;/STRONG&gt;&lt;/A&gt;&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=40 width="10%"&gt;
+&lt;P align=center&gt;&lt;IMG border=0 alt="" src="images/Devices/Device_DoorKey_Salto.png"&gt;&amp;nbsp;&lt;/P&gt;&lt;/TD&gt;
+&lt;TD height=40&gt;
+&lt;P&gt;Dverové zámky sa používajú v module&amp;nbsp;&lt;A href="c3bd41f0-029e-4c74-b342-b0ffff647b6e"&gt;Hotelová recepcia&lt;/A&gt;, kde je možné pri ubytovaní hosťa aktivovať čipovú kartu&amp;nbsp;&lt;STRONG&gt;na ovládanie dverových zámkov ubytovacieho zariadenia&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;P&gt;K systému OBERON možno pripojiť&amp;nbsp;tieto systémy:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;A href="2a7a94ec-b0eb-4f8c-9bb5-a62c39dfe060"&gt;ASSA ABLOY&lt;/A&gt;, 
+&lt;LI&gt;&lt;A href="abb7c314-1a2d-4d71-8706-3c00a8cf2276"&gt;SALTO&lt;/A&gt;&amp;nbsp;&lt;A href="1f32a90c-7b4a-4d69-9f38-a560178794b3" style="auto-update-caption: true"&gt;&lt;IMG border=0 alt="Odporúčané riešenia" src="images/OBERON/Basic/Odporucane-riesenie_ruka_ikona.png"&gt;&lt;/A&gt;, 
+&lt;LI&gt;&lt;A href="678febcd-d889-4897-b1d0-cb63fd0b4a5c"&gt;SEALOCK&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="340345d1-3fc0-473f-921b-6820c981b10e" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="749ff4f1-eeb5-43f5-98d2-021399d8cec7">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="6897c150-52e3-4266-810c-3db5ee5e5969" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="04b8d290-1470-41ff-85a1-c44a20958841">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="354a650f-8d01-418b-ac5d-fb2e459d4d80" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="d9b919e7-20c4-4c50-9910-4f13211ed9a8">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="203892fd-74b7-452f-81a6-a4c91e064f68" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="06f5e819-cf70-4875-b3fd-eca80b19939b">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="388ce624-a979-463b-a349-13a1526e2cd9">
+      <Keyword m="2021-03-19T14:12:31.708163Z">Pripojiteľné zariadenia - prehľad</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="50b8a4cf-6b08-4046-8a4c-56742289e88d">
+      <Keyword m="2021-03-19T14:12:48.1635067Z">Zariadenia - prehľad</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

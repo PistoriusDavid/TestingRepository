@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="f2098df3-0aab-4f5c-ae03-19aa0fcc76cf" Status="Complete" CreatedOn="2016-01-05T13:23:10.5588901Z" ModifiedOn="2023-10-12T12:12:44.7409749Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="22012" Name="Form_OBERON_XML_EMail" BuildFlags="">
+  <Title m="2021-11-30T08:48:59.9824058Z">Sprievodca XML komunikácia - odoslať na e-mail</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2021-09-20T10:34:21.3423277Z">&lt;P&gt;Sprievodca &lt;EM&gt;XML komunikácia - odoslať na e-mail&lt;/EM&gt;&amp;nbsp;umožňuje &lt;STRONG&gt;exportovať&amp;nbsp;záznamy vo formáte XML a&amp;nbsp;následne ich odoslať elektronickou poštou&lt;/STRONG&gt; (v prílohe e-mailu budú priložené dokumenty vo formáte XML, prípadne aj PDF). Dostupný je z&amp;nbsp;&lt;A href="5c21adcc-87c8-44e7-981d-02902635693d"&gt;knihy pohľadávok&lt;/A&gt; po kliknutí na tlačidlo &lt;EM&gt;Možnosti&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Sprievodca umožňuje:&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;Vybrať nastavenia XML komunikácie, ktoré sa majú uplatniť. Ak sa nevyberú žiadne nastavenia, export sa vykoná&amp;nbsp;v&amp;nbsp;natívnom formáte &lt;EM&gt;OBERON XML&lt;/EM&gt;. 
+&lt;LI&gt;V prípade potreby je možné do e-mailovej správy pripojiť tlačový výstup (faktúra, dodací list) ako súbor&amp;nbsp;vo formáte PDF. 
+&lt;LI&gt;Nastaviť jazyk správy. Jazykové súbory&amp;nbsp;je možné doinštalovať z programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;&amp;nbsp;pomocou&amp;nbsp;&lt;A href="a1ae5eb5-f369-4aab-80b2-c6585166d550"&gt;Správcu doplnkov&lt;/A&gt;&amp;nbsp;(ponuka &lt;EM&gt;Servis&lt;/EM&gt;). Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="04d2db16-08ec-459e-b5c9-71dd3a9f9e2f"&gt;Jazykové verzie OBERON-u&lt;/A&gt;. 
+&lt;LI&gt;Určiť e-mailovú adresu, predmet a text e-mailovej správy.
+&lt;LI&gt;Odoslať samotnú správu. &lt;/LI&gt;&lt;/OL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Bližšie informácie o nastavení XML komunikácie nájdete v téme &lt;A href="ab9d497d-fd18-4185-a487-28e3bf04cecf"&gt;Nastavenia XML komunikácie&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="9bdc5f16-a1d1-41e0-a049-d6b15feb7651" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="56f661c6-24da-46aa-b157-5d988cbe792b">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="8929d0b3-cc49-4b36-99c3-8280202c8ad9" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="ab9d497d-fd18-4185-a487-28e3bf04cecf">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="f7094546-9bb6-4274-a9b0-a43a5fc06a3f">
+      <Keyword m="2016-01-07T08:26:48.9325988Z">Faktúra do e-mailu</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="f7faccfc-2829-4bb2-ae7a-64e943cc9f7e">
+      <Keyword m="2021-05-05T10:33:59.1151521Z">E-mail - XML komunikácia</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="0b6af732-e349-492f-9951-9721a50fd3f6">
+      <Keyword m="2021-05-05T10:34:53.629758Z">Odoslanie faktúry e-mailom ako XML</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="8ed89dd7-44ae-41f8-9641-8b7bf2916aeb">
+      <Keyword m="2023-10-12T12:12:44.3079941Z">XML komunikácia - odoslať na e-mail - sprievodca</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

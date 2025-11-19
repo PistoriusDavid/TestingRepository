@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="96fd7619-32d2-462b-bad8-6f986dc4c6b2" Status="Complete" CreatedOn="2014-09-10T06:45:02.9994867Z" ModifiedOn="2024-04-16T09:19:09.6296265Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Stock_Advanced_Credit_Limit" BuildFlags="">
+  <Title m="2014-09-10T06:45:19.5364326Z">Kredit limit</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-04-16T09:18:37.7539485Z">&lt;P&gt;V tejto téme &lt;EM&gt;Pomocníka&lt;/EM&gt; sú uvedené &lt;STRONG&gt;informácie o tzv. kredit limite&lt;/STRONG&gt; - objeme neuhradených objednávok, ktoré je dodávateľ ochotný poskytnúť konkrétnemu odberateľovi tovaru alebo služby.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Kredit limit predstavuje&amp;nbsp;&lt;STRONG&gt;objem neuhradených pohľadávok, ktorý je dodávateľ ochotný poskytnúť konkrétnemu odberateľovi&lt;/STRONG&gt; (&lt;A href="b7a48886-b367-4056-808a-59ba5f871f32"&gt;obchodnému partnerovi&lt;/A&gt;). Pomocou kredit limitu je možné obmedziť výdaj materiálu (tovaru) zo skladu pre daného odberateľa, ak odberateľ&amp;nbsp;kredit limit prekročil, prípadne ak dodávateľ&amp;nbsp;voči odberateľovi eviduje pohľadávky po lehote splatnosti. 
+&lt;LI&gt;Pri prekročení kredit limitu je bežnému&amp;nbsp;používateľovi zakázané vytvoriť nový doklad (faktúru, výdajku), v &lt;A href="834e9546-a56b-476f-9028-ef4c24a82345"&gt;právach&amp;nbsp;používateľa&lt;/A&gt; je však možné toto obmedzenie zrušiť (napr. majiteľ firmy alebo iná zodpovedná osoba môže aj pri prekročení kredit limitu vytvoriť nový doklad). 
+&lt;LI&gt;Pri kontrole prekročenia kredit limitu sa posudzujú všetky neuhradené pohľadávky (faktúry), ako aj všetky nevysporiadané (nevyfakturované) výdajky zo skladu. Za prekročenie kredit limitu sa považuje: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;ak existuje akákoľvek pohľadávka po lehote splatnosti&lt;/STRONG&gt;, 
+&lt;LI&gt;&lt;STRONG&gt;ak súčet pohľadávok (neuhradených faktúr) a nevysporiadaných výdajok je vyšší, ako zadaný kredit limit&lt;/STRONG&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Pri kontrole kredit limitu a pohľadávok po lehote splatnosti je možné lehotu splatnosti &lt;STRONG&gt;posunúť o určitý počet dní&lt;/STRONG&gt;. Je to čas ktorý je nevyhnutný napríklad&amp;nbsp;na bankový prevod finančných prostriedkov, zaúčtovanie úhrady účtovníkom a pod. Tým je umožnené odberateľovi, ktorý napríklad v&amp;nbsp;posledný deň splatnosti uhradil neuhradené pohľadávky (a preukáže sa potvrdeným bankovým prevodom) odobrať ďalší tovar a opäť čerpať pridelený kredit limit. Nastaviť posunutie kredit limitu je možné v&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="932262cc-b80f-4ce6-aba6-6a7d4a18f5ec"&gt;oddiel Firma, Účtovníctvo&lt;/A&gt;, záložka &lt;EM&gt;Ostatné&lt;/EM&gt;. 
+&lt;LI&gt;V praxi je však neraz potrebné umožniť predať tovar aj odberateľovi, ktorý kredit limit prekročil - môže to byť napr. výdajka s&amp;nbsp;druhom pohybu &lt;I&gt;Hotovosť&lt;/I&gt;, ktorej úhrada&amp;nbsp;sa následne&amp;nbsp;zaeviduje na fiškálnej tlačiarni, čiže odberateľ bude platiť v&amp;nbsp;hotovosti. Z tohto dôvodu je možné v&amp;nbsp;&lt;A href="a7e1c27b-e28f-4ae9-b643-16cc1b478212"&gt;druhoch pohybov&lt;/A&gt; povoliť &lt;STRONG&gt;(zakázať) kontrolu&amp;nbsp;kredit limitu&lt;/STRONG&gt;. 
+&lt;LI&gt;Modul &lt;EM&gt;Sklad&lt;/EM&gt;&lt;EM&gt;ová evidencia&lt;/EM&gt; umožňuje zvoliť, ktorý&amp;nbsp;&lt;A href="1e423d36-8e0a-4420-b2e9-05f12806ec3a"&gt;sklad&lt;/A&gt; bude zahrnutý do výpočtu kredit limitu a ktorý bude vylúčený - predvolené nastavenie pri vytvorení skladu je &lt;EM&gt;Zahrnúť do výpočtu kredit limitu&lt;/EM&gt;. Nastavenie sa nachádza v ponuke &lt;I&gt;Sklad,&lt;/I&gt;&amp;nbsp;&lt;A href="1e423d36-8e0a-4420-b2e9-05f12806ec3a" style="auto-update-caption: true"&gt;Sklady&lt;/A&gt;. Obdobne je možné postupovať pri&amp;nbsp;&lt;A href="a7e1c27b-e28f-4ae9-b643-16cc1b478212"&gt;druhoch pohybov&lt;/A&gt; (druhy výdajok), kde je možné určiť, ktoré druhy výdajok budú (prípadne nebudú) zahrnuté do výpočtu kredit limitu.
+&lt;LI&gt;&lt;STRONG&gt;Aktuálny stav kredit limitu&lt;/STRONG&gt; (neuhradených faktúr) sa overuje aj v&amp;nbsp;mobilnej aplikácii&amp;nbsp;&lt;A href="be17efdf-4b36-4b47-ad5d-09b0f66c8f65"&gt;ASTON - mobilný skladník&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Kredit limit danému odberateľovi&amp;nbsp;možno nastaviť vo&amp;nbsp;&lt;A href="4fbe9db8-25bc-420f-aee5-228d0a8ff03f"&gt;formulári Obchodný partner&lt;/A&gt;, záložka &lt;EM&gt;Rozšírené&lt;/EM&gt;. Predvolený kredit limit pre všetkých odberateľov je možné nastaviť v&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="932262cc-b80f-4ce6-aba6-6a7d4a18f5ec"&gt;oddiel Firma, Účtovníctvo,&lt;/A&gt; záložka &lt;EM&gt;Ostatné&lt;/EM&gt;. V&amp;nbsp;prípade, že&amp;nbsp;sa kredit limit nepoužíva, nastavuje sa &lt;STRONG&gt;nulová hodnota (0)&lt;/STRONG&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="2c526d7c-02ba-4366-bda3-c44461eba136" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="b7a48886-b367-4056-808a-59ba5f871f32">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="d6a1b5ca-9447-4c32-8e91-a11b89600c65" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="4fbe9db8-25bc-420f-aee5-228d0a8ff03f">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="296ddda2-0d83-47e1-a63a-354e0d992e0b" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1e423d36-8e0a-4420-b2e9-05f12806ec3a">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="d17d9ff8-0a0c-4c3c-b87a-31aca536f598" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="a7e1c27b-e28f-4ae9-b643-16cc1b478212">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="99be6ee7-7c91-49ba-a611-d5cd05fedae7" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="be17efdf-4b36-4b47-ad5d-09b0f66c8f65">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="8ac28f1a-5f8b-4fe5-b890-9c894030e9a9" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="26b93bca-ce0e-4fed-9d46-d5b46a27f113">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="01dd9b2b-ac23-42bb-aceb-d7501645d24c" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="d846e034-8068-4f77-a764-6d26c438e66a">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="4f750384-91ff-407b-9820-eb46cf966f48">
+      <Keyword m="2015-04-01T13:25:30.3945312Z">Dodávateľský úver</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="1730f7bb-b503-4689-a1df-e9ba96802617">
+      <Keyword m="2015-04-01T13:25:45.2060546Z">Limit pohľadávok</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="ae59813e-9c36-4c90-8ef1-ead387c8a7ff">
+      <Keyword m="2022-01-17T08:17:24.0377388Z">Neuhradené pohľadávky - kredit limit</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="fb0ecf4d-0976-423d-a016-e24c84b6cd55">
+      <Keyword m="2022-01-17T08:19:04.8342679Z">Posun splatnosti pohľadávok - kredit limit</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

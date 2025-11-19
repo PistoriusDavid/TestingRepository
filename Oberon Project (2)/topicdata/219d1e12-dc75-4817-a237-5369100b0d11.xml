@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="219d1e12-dc75-4817-a237-5369100b0d11" Status="Complete" CreatedOn="2014-09-09T12:45:19.6070886Z" ModifiedOn="2024-11-11T10:26:29.7137715Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Stock_Advanced_Yield" BuildFlags="">
+  <Title m="2014-09-09T12:45:57.8542762Z">Zistenie výnosu</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-11-11T10:26:29.7137715Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;informácie o možnostiach zistenia výnosu&lt;/STRONG&gt; v&amp;nbsp;module&amp;nbsp;&lt;A href="78d20602-4b59-4b31-9f0a-a04a1d376ec5"&gt;Skladová evidencia&lt;/A&gt; systému OBERON.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Pri vytváraní&amp;nbsp;dokladov v module&amp;nbsp;&lt;A href="78d20602-4b59-4b31-9f0a-a04a1d376ec5"&gt;Skladová evidencia&lt;/A&gt;&amp;nbsp;&lt;STRONG&gt;sa pri zapísaní každej skladovej položky do dokladu vytvorí pohyb&lt;/STRONG&gt; (do knihy&amp;nbsp;&lt;A href="fc7595a6-54ce-4aa9-acb4-93d7880e854e"&gt;Skladové pohyby&lt;/A&gt; sa zapíše záznam). 
+&lt;LI&gt;Skladové pohyby&amp;nbsp;slúžia&amp;nbsp;&lt;STRONG&gt;na&amp;nbsp;analýzu uskutočnených skladových operácií s&amp;nbsp;cieľom získať informácie o zvýšení ekonomických úžitkov účtovnej jednotky (výnose)&lt;/STRONG&gt;. Jednotlivé záznamy v tejto knihe je možné triediť, filtrovať a&amp;nbsp;následne&amp;nbsp;zvolené pohyby tlačiť v&amp;nbsp;rade tlačových výstupov. 
+&lt;LI&gt;Jednotlivé tlačové výstupy sú v rôznom členení, napr. podľa jednotlivých dokladov, druhov pohybov, obchodných partnerov, stredísk a pod. V&amp;nbsp;tlačovom výstupe &lt;I&gt;Štatistika obratov (dodávatelia)&lt;/I&gt; je možné vytlačiť jednotlivé dosiahnuté obraty obchodných partnerov a&amp;nbsp;zoradiť ich voliteľne - podľa výšky obratu,&amp;nbsp;výnosu, marže, prípadne podľa názvu obchodného partnera. 
+&lt;LI&gt;Informácie o výnose je možné zobraziť aj v&amp;nbsp;jednotlivých dokladových formulároch (&lt;A href="68022ee5-d91a-4a1d-960b-c5de57414b6f"&gt;pohľadávka&lt;/A&gt;,&amp;nbsp;&lt;A href="e5d60ce3-8ad2-43f2-b60d-08c773376f5b"&gt;výdajka&lt;/A&gt;,&amp;nbsp;&lt;A href="6712889d-bea7-4ae7-859d-82b809c7bdcc"&gt;objednávka prijatá&lt;/A&gt;) po stlačení tlačidla &lt;EM&gt;&lt;STRONG&gt;Možnosti - Doklad - podrobnosti o výnose&lt;/STRONG&gt;&lt;/EM&gt;. Funkcia zobrazí podrobnosti o výnose - výnos v eurách, v&amp;nbsp;percentách, maržu, poskytnutú zľavu. 
+&lt;LI&gt;Podobne informácie o výnose možno zobraziť aj pri predaji na&amp;nbsp;&lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnici OBERON&lt;/A&gt; po stlačení systémového tlačidla &lt;EM&gt;&lt;STRONG&gt;Zobraziť výnos (Ctrl+Shift+N)&lt;/STRONG&gt;.&lt;/EM&gt; Funkcia zobrazí podrobnosti o výnose - výnos v eurách, v&amp;nbsp;percentách, maržu, poskytnutú zľavu (pozri Obrázok č. 1). Vo veľkoobchodnej pokladnici sa tlačidlo zobrazuje automaticky, v&amp;nbsp;maloobchodnej a&amp;nbsp;reštauračnej pokladnici sa v predvolenom&amp;nbsp;nastavení nezobrazuje. V prípade potreby je možné obsluhe pokladnice v&amp;nbsp;&lt;A href="834e9546-a56b-476f-9028-ef4c24a82345"&gt;právach používateľov&lt;/A&gt; obmedziť prístup k tomuto tlačidlu. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Vysvetlenie pojmov&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;B&gt;Navýšenie&lt;/B&gt; je percentuálna (%) alebo absolútna časť (€), ktorá sa pripočítava k obstarávacej cene (prípadne poslednej nákupnej cene v závislosti&amp;nbsp;od nastavenia programu v&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="58eee6a7-b5aa-47a5-9d0e-6f9987c96a52"&gt;oddiel Firma, Sklad&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt; záložka &lt;EM&gt;Skladové karty&lt;/EM&gt;) pri tvorbe predajnej ceny. Percentuálne navýšenie sa vypočítava z obstarávacej (poslednej nákupnej) ceny. 
+&lt;LI&gt;Vyjadrenie vzorcom (€): &lt;STRONG&gt;&lt;EM&gt;Navýšenie = predajná cena – obstarávacia (nákupná) cena&lt;/EM&gt;&lt;/STRONG&gt; 
+&lt;LI&gt;Vyjadrenie vzorcom (%): &lt;STRONG&gt;&lt;EM&gt;Navýšenie =&lt;/EM&gt;&lt;/STRONG&gt; &lt;EM&gt;&lt;STRONG&gt;(predajná cena – obstarávacia (nákupná) cena) / obstarávacia (nákupná) cena x 100&lt;/STRONG&gt;&lt;/EM&gt; 
+&lt;LI&gt;&lt;B&gt;Výnos&lt;/B&gt; je pojem, ktorý sa využíva v tlačových výstupoch knihy&amp;nbsp;&lt;A href="fc7595a6-54ce-4aa9-acb4-93d7880e854e"&gt;Skladové pohyby&lt;/A&gt;&amp;nbsp;a je vyjadrený v absolútnej (€) alebo percentuálnej hodnote (%). Výnos v&amp;nbsp;% aj €&amp;nbsp;je vlastne totožný s&amp;nbsp;navýšením. &lt;EM&gt;Navýšenie&lt;/EM&gt; a &lt;EM&gt;Výnos&lt;/EM&gt; sú tie isté pojmy používané v inej situácii, keď za základ považujeme obstarávaciu (poslednú nákupnú) cenu. &lt;I&gt;Navýšenie&lt;/I&gt; sa používa pri cenotvorbe a &lt;I&gt;Výnos&lt;/I&gt; vo výstupných zostavách. 
+&lt;LI&gt;Vyjadrenie vzorcom (€):&amp;nbsp;&lt;STRONG&gt;&lt;EM&gt;Výnos =&lt;/EM&gt;&lt;/STRONG&gt; &lt;STRONG&gt;&lt;EM&gt;predajná cena&amp;nbsp;– obstarávacia (nákupná) cena&lt;/EM&gt;&lt;/STRONG&gt; 
+&lt;LI&gt;Vyjadrenie vzorcom (%): &lt;STRONG&gt;&lt;EM&gt;Výnos =&lt;/EM&gt;&lt;/STRONG&gt; &lt;EM&gt;&lt;STRONG&gt;(predajná cena&amp;nbsp;– obstarávacia (nákupná) cena) / obstarávacia (nákupná) cena x 100&lt;/STRONG&gt;&lt;/EM&gt; 
+&lt;LI&gt;&lt;B&gt;Marža&lt;/B&gt; v % je podiel výnosu v absolútnej hodnote k predajnej cene. Je to vlastne percentuálna časť z obratu (z&amp;nbsp;tržby), ktorú tvorí výnos. Marža sa na rozdiel od výnosu počíta tzv. zvrchu, t.&amp;nbsp;j. z predajnej ceny&amp;nbsp;(výnos zospodu z obstarávacej (poslednej nákupnej) ceny). Niekedy sa marža udáva v absolútnych číslach (v €), len ako rozdiel medzi predajnou a obstarávacou (poslednou nákupnou) cenou.&amp;nbsp;V prípade výpočtu absolútnej marže obidve vstupné hodnoty musia byť bez DPH. Pri výpočte relatívnej marže (v percentách) nezáleží na tom, či sú vstupy bez alebo s&amp;nbsp;DPH. 
+&lt;LI&gt;Vyjadrenie vzorcom (€): &lt;EM&gt;&lt;STRONG&gt;Marža = predajná cena – obstarávacia (nákupná) cena&lt;/STRONG&gt;&lt;/EM&gt; 
+&lt;LI&gt;Vyjadrenie vzorcom (%): &lt;EM&gt;&lt;STRONG&gt;Marža = (predajná cena – obstarávacia (nákupná) cena) / predajná cena x 100 &amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/STRONG&gt;&lt;/EM&gt; 
+&lt;LI&gt;&lt;STRONG&gt;Zľava&lt;/STRONG&gt; (rabat) je čiastka spravidla vyjadrená&amp;nbsp;v %, o ktorú sa zníži &lt;I&gt;konečná predajná (pultová) cena&lt;/I&gt;. &lt;I&gt;Zľava&lt;/I&gt; sa vypočítava z&amp;nbsp;predajnej ceny (s&amp;nbsp;DPH&amp;nbsp;alebo bez DPH). Ak &lt;I&gt;zľava&lt;/I&gt; = &lt;I&gt;marža,&lt;/I&gt; potom &lt;I&gt;predajná cena po zľave = obstarávacia&amp;nbsp;(nákupná) cena.&lt;/I&gt; 
+&lt;LI&gt;Vyjadrenie vzorcom (€):&amp;nbsp;&lt;EM&gt;&lt;B&gt;Zľava&amp;nbsp;&lt;/B&gt;&lt;STRONG&gt;= zľava v&amp;nbsp;% / 100 x pôvodná predajná cena&lt;/STRONG&gt;&lt;/EM&gt; 
+&lt;LI&gt;Vyjadrenie vzorcom (%):&amp;nbsp;&lt;EM&gt;&lt;B&gt;Zľava&lt;/B&gt; &lt;STRONG&gt;= zľava v €&amp;nbsp;/ pôvodná predajná cena x 100&lt;/STRONG&gt;&lt;/EM&gt; 
+&lt;LI&gt;&lt;STRONG&gt;Poznámka:&lt;/STRONG&gt; Hoci v&amp;nbsp;systéme OBERON možno zľavu na&amp;nbsp;dokladoch zadať v&amp;nbsp;% aj v&amp;nbsp;€,&amp;nbsp;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;na výpočet zľavy sa používa len percentuálne vyjadrenie zľavy&lt;/SPAN&gt;. Zľava v&amp;nbsp;€ je len informatívna. Viac informácií získate v téme&amp;nbsp;&lt;A href="0e48f8ed-07c8-4be5-90cf-25dbf7d5afd9" style="auto-update-caption: true"&gt;Zadávanie zľavy na dokladoch&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Príklad:&lt;/H2&gt;
+&lt;P&gt;Uvedený príklad názorne ukazuje, akým spôsobom program používa pojmy&amp;nbsp;&lt;EM&gt;&lt;B&gt;Navýšenie,&lt;/B&gt; &lt;B&gt;Výnos&lt;/B&gt;, &lt;B&gt;Marža&lt;/B&gt; a&amp;nbsp;&lt;STRONG&gt;Zľava&lt;/STRONG&gt;&lt;/EM&gt;.&lt;/P&gt;
+&lt;TABLE style="WIDTH: 50%"&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#d9e1f2 height=30 width=500&gt;&lt;B&gt;Výpočet novej predajnej ceny s&amp;nbsp;navýšením (výnosom) 20&amp;nbsp;%&lt;BR&gt;&lt;/B&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=376&gt;&lt;STRONG&gt;Obstarávacia (posledná nákupná) cena&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD&gt;&lt;B&gt;90&amp;nbsp;€&lt;/B&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=376&gt;&lt;B&gt;Predajná cena&amp;nbsp;bez DPH&lt;/B&gt;&lt;/TD&gt;
+&lt;TD&gt;&lt;B&gt;108&amp;nbsp;€&lt;/B&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=376&gt;&lt;STRONG&gt;Predajná cena&amp;nbsp;s DPH (sadzba DPH 20&amp;nbsp;%)&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD&gt;&lt;B&gt;129,60&amp;nbsp;€&lt;/B&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=376&gt;&lt;STRONG&gt;Navýšenie (výnos)&amp;nbsp;[%]&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD&gt;
+&lt;P&gt;&lt;STRONG&gt;20 %&lt;/STRONG&gt;&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=376&gt;&lt;STRONG&gt;Navýšenie (výnos) [€]&lt;/STRONG&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/TD&gt;
+&lt;TD&gt;108&amp;nbsp;€ -&amp;nbsp;90&amp;nbsp;€ =&amp;nbsp;&lt;B&gt;18&amp;nbsp;€&lt;/B&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=376&gt;&lt;B&gt;Marža&amp;nbsp;[€]&lt;/B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/TD&gt;
+&lt;TD&gt;108&amp;nbsp;€ -&amp;nbsp;90&amp;nbsp;€ =&amp;nbsp;&lt;B&gt;18&amp;nbsp;€&lt;/B&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=376&gt;&lt;B&gt;Marža [%]&lt;/B&gt;&lt;/TD&gt;
+&lt;TD&gt;
+&lt;P&gt;(108&amp;nbsp;€ -&amp;nbsp;90&amp;nbsp;€) /&amp;nbsp;108 €&amp;nbsp;x 100 =&amp;nbsp;&lt;STRONG&gt;16,7&amp;nbsp;%&lt;/STRONG&gt;&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;
+&lt;P&gt;&lt;I&gt;Navýšenie,&lt;/I&gt; &lt;I&gt;výnos a marža&lt;/I&gt; sa v absolútnej hodnote vyjadrenej v € zhodujú, ale vyjadrené v % sú rozdielne. Rozdiel je spôsobený tým, že výpočty pracujú s&amp;nbsp;rôznym základom - &lt;I&gt;navýšenie a výnos&lt;/I&gt; s obstarávacou (poslednou nákupnou)&amp;nbsp;cenou a &lt;I&gt;marža&lt;/I&gt; s predajnou cenou.&lt;/P&gt;
+&lt;H5&gt;Obrázok č. 1: Zobrazenie výnosu na &lt;EM&gt;Pokladnici OBERON&lt;/EM&gt;&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/CashRegister/Form_CashRegister_RevenueDisplay.PNG"&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;TABLE style="WIDTH: 50%"&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#d9e1f2 height=30 width=500&gt;&lt;B&gt;Výpočet zľavy 10&amp;nbsp;% z predajnej ceny&amp;nbsp;108&amp;nbsp;€ bez DPH&amp;nbsp;(neplatiteľ DPH)&lt;BR&gt;&lt;/B&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=500&gt;&lt;STRONG&gt;Obstarávacia (posledná nákupná) cena&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD&gt;&lt;B&gt;90&amp;nbsp;€&lt;/B&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=500&gt;&lt;B&gt;Predajná cena bez DPH&lt;/B&gt;&lt;/TD&gt;
+&lt;TD&gt;&lt;B&gt;108&amp;nbsp;€&lt;/B&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=19 width=500&gt;&lt;B&gt;Zľava [%]&lt;/B&gt;&lt;/TD&gt;
+&lt;TD height=19&gt;
+&lt;P&gt;&lt;STRONG&gt;10&amp;nbsp;%&lt;/STRONG&gt;&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=500&gt;&lt;B&gt;Zľava [€]&lt;/B&gt;&lt;/TD&gt;
+&lt;TD&gt;
+&lt;P&gt;10&amp;nbsp;% / 100 x&amp;nbsp;108&amp;nbsp;€ =&amp;nbsp;&lt;B&gt;10,80&amp;nbsp;€&lt;/B&gt;&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=500&gt;&lt;B&gt;Predajná cena po zľave&lt;/B&gt;&lt;/TD&gt;
+&lt;TD&gt;108&amp;nbsp;€ -&amp;nbsp;10,80&amp;nbsp;€ =&amp;nbsp;&lt;B&gt;97,20&amp;nbsp;€&lt;/B&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=500&gt;&lt;B&gt;Výnos&amp;nbsp;po zľave 20&amp;nbsp;%&lt;/B&gt;&amp;nbsp;&lt;B&gt;[€]&amp;nbsp;&lt;/B&gt;&lt;/TD&gt;
+&lt;TD&gt;97,20&amp;nbsp;€ -&amp;nbsp;90&amp;nbsp;€ =&amp;nbsp;&lt;STRONG&gt;7,20&amp;nbsp;€&lt;/STRONG&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=500&gt;&lt;B&gt;Výnos&amp;nbsp;po zľave 20&amp;nbsp;%&lt;/B&gt;&amp;nbsp;&lt;B&gt;[%]&lt;/B&gt;&lt;/TD&gt;
+&lt;TD&gt;(97,20&amp;nbsp;€ -&amp;nbsp;90&amp;nbsp;€) / 90&amp;nbsp;€ x 100 =&amp;nbsp;&lt;STRONG&gt;8&amp;nbsp;%&lt;/STRONG&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;TABLE style="WIDTH: 50%"&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#d9e1f2 height=30 width=500&gt;&lt;STRONG&gt;Výpočet novej predajnej ceny s&amp;nbsp;navýšením (výnosom) 20&amp;nbsp;% a zľavou 20&amp;nbsp;%&lt;BR&gt;&lt;/STRONG&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=500&gt;&lt;STRONG&gt;Obstarávacia (posledná nákupná) cena&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD&gt;&lt;B&gt;90&amp;nbsp;€&lt;/B&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=500&gt;&lt;B&gt;Predajná cena bez DPH&lt;/B&gt;&lt;/TD&gt;
+&lt;TD&gt;&lt;B&gt;108&amp;nbsp;€&lt;/B&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=500&gt;&lt;STRONG&gt;Navýšenie (výnos)&amp;nbsp;[%]&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD&gt;
+&lt;P&gt;&lt;STRONG&gt;20 %&lt;/STRONG&gt;&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=500&gt;&lt;STRONG&gt;Navýšenie (výnos) [€]&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD&gt;108&amp;nbsp;€ -&amp;nbsp;90&amp;nbsp;€ =&amp;nbsp;&lt;B&gt;18&amp;nbsp;€&lt;/B&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=376&gt;&lt;B&gt;Marža&amp;nbsp;[€]&lt;/B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/TD&gt;
+&lt;TD&gt;108&amp;nbsp;€ -&amp;nbsp;90&amp;nbsp;€ =&amp;nbsp;&lt;B&gt;18&amp;nbsp;€&lt;/B&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=376&gt;&lt;B&gt;Marža [%]&lt;/B&gt;&lt;/TD&gt;
+&lt;TD&gt;
+&lt;P&gt;(108&amp;nbsp;€ -&amp;nbsp;90&amp;nbsp;€) /&amp;nbsp;108 €&amp;nbsp;x 100 =&amp;nbsp;&lt;STRONG&gt;16,7&amp;nbsp;%&lt;/STRONG&gt;&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=500&gt;&lt;B&gt;Zľava [%]&lt;/B&gt;&lt;/TD&gt;
+&lt;TD&gt;
+&lt;P&gt;&lt;STRONG&gt;20&amp;nbsp;%&lt;/STRONG&gt;&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=500&gt;&lt;B&gt;Zľava [€]&lt;/B&gt;&lt;/TD&gt;
+&lt;TD&gt;
+&lt;P&gt;20&amp;nbsp;% / 100 x&amp;nbsp;108&amp;nbsp;€ =&amp;nbsp;&lt;B&gt;21,60&amp;nbsp;€&lt;/B&gt;&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=500&gt;&lt;B&gt;Predajná cena po zľave&lt;/B&gt;&lt;/TD&gt;
+&lt;TD&gt;108&amp;nbsp;€ -&amp;nbsp;21,60&amp;nbsp;€ =&amp;nbsp;&lt;B&gt;86,40&amp;nbsp;€&lt;/B&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=500&gt;&lt;B&gt;Výnos&amp;nbsp;po zľave 20&amp;nbsp;%&lt;/B&gt;&amp;nbsp;&lt;B&gt;[€]&amp;nbsp;&lt;/B&gt;&lt;/TD&gt;
+&lt;TD&gt;86,40&amp;nbsp;€ -&amp;nbsp;90&amp;nbsp;€ =&amp;nbsp;&lt;STRONG&gt;-3,60&amp;nbsp;€&lt;/STRONG&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=500&gt;&lt;B&gt;Výnos&amp;nbsp;po zľave 20&amp;nbsp;%&lt;/B&gt;&amp;nbsp;&lt;B&gt;[%]&lt;/B&gt;&lt;/TD&gt;
+&lt;TD&gt;(86,40&amp;nbsp;€ -&amp;nbsp;90&amp;nbsp;€) / 90&amp;nbsp;€ x 100 =&amp;nbsp;&lt;STRONG&gt;-4&amp;nbsp;%&lt;/STRONG&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;&lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;V prípade,&amp;nbsp;že pri cenotvorbe nastavíme &lt;I&gt;navýšenie (výnos)&lt;/I&gt; 20&amp;nbsp;% a &lt;I&gt;zľavu&lt;/I&gt; pri predaji taktiež 20&amp;nbsp;%, &lt;STRONG&gt;predajná cena po zľave nebude rovnaká ako obstarávacia (posledná nákupná) cena, ale nižšia&lt;/STRONG&gt;. To znamená, že&amp;nbsp;v&amp;nbsp;tomto prípade budeme predávať pod obstarávaciu (poslednú nákupnú) cenu. Dôvodom je opäť rôzny základ, s&amp;nbsp;ktorým pracujú &lt;I&gt;navýšenie&lt;/I&gt; a &lt;I&gt;zľava&lt;/I&gt;. Z tohto dôvodu je potrebné pri poskytovaní zliav sledovať maržu.&amp;nbsp;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;BR&gt;
+&lt;TABLE style="WIDTH: 50%"&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#d9e1f2 height=30 width=500&gt;&lt;B&gt;Výpočet zľavy 20&amp;nbsp;% z predajnej ceny 120&amp;nbsp;€ bez DPH + 20&amp;nbsp;% DPH&amp;nbsp;(platiteľ DPH)&lt;BR&gt;&lt;/B&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=500&gt;&lt;STRONG&gt;Obstarávacia (posledná nákupná) cena&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD&gt;&lt;B&gt;90&amp;nbsp;€&lt;/B&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=376&gt;&lt;B&gt;Predajná cena bez DPH&lt;/B&gt;&lt;/TD&gt;
+&lt;TD&gt;&lt;B&gt;120&amp;nbsp;€&lt;/B&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=247&gt;&lt;STRONG&gt;Predajná cena s DPH&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD&gt;&lt;STRONG&gt;144&amp;nbsp;€&lt;/STRONG&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=500&gt;&lt;B&gt;Zľava [%]&lt;/B&gt;&lt;/TD&gt;
+&lt;TD&gt;
+&lt;P&gt;&lt;STRONG&gt;20&amp;nbsp;%&lt;/STRONG&gt;&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=247&gt;&lt;STRONG&gt;Zľava [€&lt;B&gt;]&lt;/B&gt;&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD&gt;20&amp;nbsp;% /&amp;nbsp;100 x&amp;nbsp;144&amp;nbsp;€ =&amp;nbsp;&lt;B&gt;28,80&amp;nbsp;€&lt;/B&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=247&gt;&lt;STRONG&gt;Predajná cena s&amp;nbsp;DPH&lt;/STRONG&gt; &lt;STRONG&gt;po zľave&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD&gt;144&amp;nbsp;€ - 28,80&amp;nbsp;€ = &lt;B&gt;115,20&amp;nbsp;€&lt;/B&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=247&gt;&lt;STRONG&gt;Predajná cena&lt;/STRONG&gt; &lt;STRONG&gt;bez DPH&lt;/STRONG&gt; &lt;STRONG&gt;po zľave&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD&gt;115,20&amp;nbsp;€/1,2 &lt;B&gt;= 96&amp;nbsp;€&lt;/B&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=247&gt;&lt;B&gt;Výnos&amp;nbsp;po zľave 20&amp;nbsp;%&lt;/B&gt;&amp;nbsp;&lt;B&gt;[€]&amp;nbsp;&lt;/B&gt;&lt;/TD&gt;
+&lt;TD&gt;96&amp;nbsp;€ -&amp;nbsp;90&amp;nbsp;€ = &lt;B&gt;6&amp;nbsp;€&lt;/B&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=247&gt;&lt;B&gt;Výnos&amp;nbsp;po zľave 20&amp;nbsp;%&lt;/B&gt;&amp;nbsp;&lt;B&gt;[%]&amp;nbsp;&lt;/B&gt;&lt;/TD&gt;
+&lt;TD&gt;(96&amp;nbsp;€ -&amp;nbsp;90&amp;nbsp;€) / 90&amp;nbsp;€ x 100 =&amp;nbsp;&lt;STRONG&gt;6,7&amp;nbsp;%&lt;/STRONG&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="25ac1c98-00dc-467c-a321-18b10907ff01" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="0e48f8ed-07c8-4be5-90cf-25dbf7d5afd9">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="5381f627-da89-46a4-ac29-1efa51b28c36" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="f427806c-a0f0-4040-90f9-5f35cb60f08b">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="7ce92bcb-84f7-4dc0-8172-155aa57eaae8" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1dce6bce-8c7d-443a-b0f9-14ec18f3c9a0">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="c9dc5f2a-e3f4-4e53-9b56-f9b73ad151e3" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="68022ee5-d91a-4a1d-960b-c5de57414b6f">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="c8c780e1-f7cc-4d94-ae85-e87cbe8f8f2f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="e5d60ce3-8ad2-43f2-b60d-08c773376f5b">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="a90783f1-74c4-4758-bf78-503444705605" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="6712889d-bea7-4ae7-859d-82b809c7bdcc">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="d1eac3c8-a149-4bb0-9c13-eb9ad60744c7" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="12e7a96f-bc40-4359-bc7a-213d74a785d4">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="d1a955ce-7ebf-42c1-acc6-9620ee098aa8">
+      <Keyword m="2023-04-27T11:48:56.5117618Z">Marža - pojem</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="4d4ff9b7-55f1-4543-804b-745c6eda1558">
+      <Keyword m="2023-04-27T11:49:05.6090753Z">Výnos - pojem</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="06f53d95-fbd9-4094-9586-034d856f1f82">
+      <Keyword m="2023-04-27T11:49:02.4249721Z">Navýšenie - pojem</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="cb724ab1-d77d-490c-b651-7992560ebe2e">
+      <Keyword m="2023-04-27T11:49:08.6577211Z">Zľava - pojem</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="b693bb37-4ed2-4ad8-8c35-ac4c0002222d">
+      <Keyword m="2023-04-27T11:49:22.690707Z">Výnos - zistenie</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

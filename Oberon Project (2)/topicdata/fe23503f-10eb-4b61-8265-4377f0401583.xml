@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="fe23503f-10eb-4b61-8265-4377f0401583" Status="Complete" CreatedOn="2025-03-11T07:28:03.910996Z" ModifiedOn="2025-05-07T11:34:26.607201Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="CashRegister_Started_Tips" BuildFlags="">
+  <Title m="2025-03-11T07:28:30.6857084Z">Obslužné</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2025-05-07T11:34:26.607201Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; je venovaná &lt;STRONG&gt;problematike obslužného&lt;/STRONG&gt; v&amp;nbsp;systéme OBERON.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Na Slovensku je obslužné (prepitné,&amp;nbsp;tringeld, bakšiš, diškrécia, oročka, dýško...) upravené legislatívou, ktorá stanovuje pravidlá pre jeho poskytovanie a zdaňovanie. Obslužné predstavuje &lt;STRONG&gt;dobrovoľnú peňažnú odmenu zákazníka za obsluhu&lt;/STRONG&gt;, ktorá môže byť zahrnutá v účte&amp;nbsp;alebo poskytnutá samostatne. 
+&lt;LI&gt;Podľa zákona o dani z príjmov je obslužné považované &lt;STRONG&gt;za príjem a podlieha zdaneniu&lt;/STRONG&gt;. Prevádzkovatelia zariadení sú povinní zabezpečiť správne zaúčtovanie a odvody z obslužného. 
+&lt;LI&gt;Okrem klasického poskytovania obslužného v hotovosti je možné zadať obslužné aj pri&amp;nbsp;&lt;A href="1a618813-f50b-46a3-8a94-598d5394f491"&gt;platbe kartou, resp. inej bezhotovostnej platbe&lt;/A&gt;. Systém OBERON podporuje &lt;STRONG&gt;oba uvedené spôsoby&lt;/STRONG&gt; &lt;STRONG&gt;bezhotovostného zadania&lt;/STRONG&gt; obslužného. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H3&gt;Platobné terminály&lt;/H3&gt;
+&lt;UL&gt;
+&lt;LI&gt;Pokiaľ ide o platbu kartou, moderné &lt;STRONG&gt;platobné terminály umožňujú zadávať obslužné&amp;nbsp;ako súčasť platobného procesu&lt;/STRONG&gt;. Táto funkcia musí byť dostupná v&amp;nbsp;danom termináli a zároveň povolená v nastaveniach zariadenia v OBERON-e (ponuka &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="749ff4f1-eeb5-43f5-98d2-021399d8cec7" style="auto-update-caption: true"&gt;Zariadenia&lt;/A&gt;). Spravidla sa využíva na termináloch používaných v&amp;nbsp;reštauráciách, kaviarňach a iných prevádzkach, kde zákazníci môžu dobrovoľne pridať obslužné k celkovej sume. Obsluha alebo zákazník môže zadať výšku obslužného &lt;STRONG&gt;priamo na termináli pred potvrdením platby&lt;/STRONG&gt;. Následne sa informácia o&amp;nbsp;zadanom obslužnom odošle do OBERON-u a&amp;nbsp;zaeviduje sa &lt;STRONG&gt;do obratov pokladnice&lt;/STRONG&gt; (v&amp;nbsp;členení tak podľa typov platieb, ako aj pokladníkov). V&amp;nbsp;obratoch pokladnice je obslužné členené podľa toho, či bolo poskytnuté obsluhe, alebo pre kuchára. Na konci dňa tak poskytuje prehľad o&amp;nbsp;prijatých sumách obslužného. 
+&lt;LI&gt;Funkcia evidencie obslužného je v&amp;nbsp;&lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnici OBERON&lt;/A&gt; štandardne dostupná &lt;STRONG&gt;v&amp;nbsp;reštauračnom režime&lt;/STRONG&gt;. V&amp;nbsp;iných režimoch predaja je dostupná len v&amp;nbsp;prípade, že je obrat obslužného rôzny od nuly. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H3&gt;Iné bezhotovostné platby&lt;/H3&gt;
+&lt;UL&gt;
+&lt;LI&gt;Pri &lt;STRONG&gt;iných bezhotovostných platbách, pri ktorých sa nepoužíva platobný terminál, ale otvorený pokladničný účet&amp;nbsp;(doklad) sa uhrádza inou bezhotovostnou platbou&lt;/STRONG&gt; (napr. pri elektronickom jedálnom lístku alebo pri donáške pomocou platobnej brány), sa informácia o&amp;nbsp;obslužnom odosiela do OBERON-u do otvorených účtov, kde sa zobrazuje v&amp;nbsp;stĺpci &lt;EM&gt;&lt;STRONG&gt;Obslužné&lt;/STRONG&gt;&lt;/EM&gt;. Zároveň sa suma obslužného zobrazuje v&amp;nbsp;informačnej zóne (displeji)&amp;nbsp;&lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnice OBERON&lt;/A&gt;. Obsluha je tak informovaná o&amp;nbsp;výške poskytnutého obslužného. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt; 
+&lt;P&gt;Obslužné možno prijímať aj v mobilnej aplikácii&amp;nbsp;&lt;EM&gt;LUKUL - nielen mobilný čašník&lt;/EM&gt;. Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="942d48d5-b290-40f6-8ba3-45cf78f380f9" style="auto-update-caption: true"&gt;Aplikácia LUKUL&lt;/A&gt;.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="03fb0509-da92-441d-8be3-b62109459cd7" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="1a618813-f50b-46a3-8a94-598d5394f491">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="6f23219b-e1a3-4450-b6fb-e2afcf4c0c16" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="46e6deed-ce15-42dc-be53-ab72142d9673">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="92fd470c-b6b2-42ac-8260-37bd2304be8c" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="69bbd499-45c0-4b0f-8f7a-c53fa5d70c1b">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="f49777b4-a90d-4663-8f44-2b9408123a4f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="942d48d5-b290-40f6-8ba3-45cf78f380f9">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="4f3b5195-96be-4cdc-a1db-b36241445ad3">
+      <Keyword m="2025-03-11T09:16:19.5706544Z">Platobná karta - obslužné</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="c9e0627c-3157-4005-8aa8-9ea87ae6fb05">
+      <Keyword m="2025-03-11T09:16:15.0230725Z">Kreditná karta - obslužné</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="49a10c31-5f51-41b2-ae57-a00cb7556d52">
+      <Keyword m="2025-03-11T09:16:10.828649Z">Debetná karta - obslužné</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="30aa993c-34ba-4db0-b091-8013b685b6db">
+      <Keyword m="2025-03-11T09:16:17.1675035Z">Platobná brána - obslužné</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="927a3eb7-7aba-4464-a05d-58be74406528">
+      <Keyword m="2025-03-11T09:16:08.9554064Z">Bistro.sk - obslužné</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="a3da5693-8803-409b-a03f-4146cd159279">
+      <Keyword m="2025-03-11T09:16:03.2915065Z">Bezhotovostná platba - obslužné</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="60a638b6-ee6a-4eb8-befe-30e542fed484">
+      <Keyword m="2025-03-11T09:16:12.7621021Z">Iná bezhotovostná platba - obslužné</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="255d6b12-c23b-48b4-bb10-d183a6b871ce">
+      <Keyword m="2025-03-11T09:16:34.5637067Z">Obslužné - bezhotovostné platby</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="446ecd3c-d344-4d65-a3ea-249d67554b26">
+      <Keyword m="2025-03-11T09:56:41.8141424Z">Dýško</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="c1c180e5-a4db-4b54-ae8b-9a7cc383d913">
+      <Keyword m="2025-03-11T09:56:45.6429178Z">Sprepitné</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="be41600f-e7fc-4506-8227-58e4eec325c3">
+      <Keyword m="2025-03-11T09:56:50.3384938Z">Prepitné</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="9af581cd-7db7-4151-bb96-d53760c6e23c">
+      <Keyword m="2025-03-11T09:56:55.4259324Z">Diškrécia</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="82dc98d9-5307-415e-9b21-be34a7478f6b">
+      <Keyword m="2025-03-11T09:56:58.4640321Z">Oročka</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="75bd561a-eeaa-4806-9754-651c83c1b75b">
+      <Keyword m="2025-03-11T09:57:03.7755994Z">Tringeld</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="63be8f13-acc7-4a1e-b83b-3553e068fe17">
+      <Keyword m="2025-03-11T09:57:22.9258514Z">Bakšiš</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

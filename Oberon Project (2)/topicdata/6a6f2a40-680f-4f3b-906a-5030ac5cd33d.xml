@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="6a6f2a40-680f-4f3b-906a-5030ac5cd33d" Status="Complete" CreatedOn="2014-09-04T11:14:47.8352Z" ModifiedOn="2024-07-11T07:47:13.6877556Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="ProgramControls_Shortcuts" BuildFlags="">
+  <Title m="2014-09-04T11:15:03.482Z">Klávesové skratky</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-07-11T07:47:13.6877556Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;prehľadnú tabuľku klávesových skratiek&lt;/STRONG&gt; v systéme OBERON. Ide o&amp;nbsp;klávesy alebo kombinácie klávesov, ktoré slúžia na jednoduchšie a&amp;nbsp;rýchlejšie ovládanie niektorých&amp;nbsp;funkcií programu.&lt;/P&gt;
+&lt;TABLE style="HEIGHT: 1250px; WIDTH: 505px; BORDER-COLLAPSE: collapse" height=1250 width=505 border=0&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TD height=30 width=309&gt;
+&lt;H3&gt;Všeobecné klávesy&lt;/H3&gt;&lt;/TD&gt;
+&lt;TD height=30 width=201&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=18 width=309&gt;Presunúť sa&amp;nbsp;do ďalšieho poľa&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/TD&gt;
+&lt;TD height=18 width=201&gt;TAB&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=18 width=309&gt;Presunúť sa&amp;nbsp;do predchádzajúceho poľa&lt;/TD&gt;
+&lt;TD height=18 width=201&gt;SHIFT + TAB&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=18 width=309&gt;Zatvorenie formulára&lt;/TD&gt;
+&lt;TD height=18 width=201&gt;ESC&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=18 width=309&gt;Vybrať pole s&amp;nbsp;podčiarknutým písmenom v&amp;nbsp;názve&amp;nbsp;alebo stlačiť tlačidlo s&amp;nbsp;podčiarknutým písmenom v&amp;nbsp;názve&amp;nbsp;&lt;/TD&gt;
+&lt;TD height=18 width=201&gt;ALT + písmeno&lt;BR&gt;(stlačením klávesu ALT je možné zobraziť podčiarknutie písmen, ktoré&amp;nbsp;sa štandardne nezobrazuje)&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=18 width=309&gt;Zmena šírky stĺpcov v grafických prehľadoch&lt;/TD&gt;
+&lt;TD height=18 width=201&gt;CTRL + koliesko myši&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=18 width=309&gt;Nastavenie systémového dátumu&lt;/TD&gt;
+&lt;TD height=18 width=201&gt;*&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=18 width=309&gt;
+&lt;H3&gt;Klávesy na ovládanie otvorenej knihy&lt;/H3&gt;&lt;/TD&gt;
+&lt;TD height=18 width=201&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=18 width=309&gt;Presun na predchádzajúci záznam&lt;/TD&gt;
+&lt;TD height=18 width=201&gt;šípka nahor&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=18 width=309&gt;Presun na nasledujúci záznam&lt;/TD&gt;
+&lt;TD height=18 width=201&gt;šípka nadol&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=18 width=309&gt;Presun na predchádzajúcu obrazovku&lt;/TD&gt;
+&lt;TD height=18 width=201&gt;PageUp&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=18 width=309&gt;Presun na nasledujúcu obrazovku&lt;/TD&gt;
+&lt;TD height=18 width=201&gt;PageDown&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=18 width=309&gt;Presun na prvý záznam&lt;/TD&gt;
+&lt;TD height=18 width=201&gt;CTRL + Home&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=18 width=309&gt;Presun na posledný záznam&lt;/TD&gt;
+&lt;TD height=18 width=201&gt;CTRL + End&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=18 width=309&gt;Otvorenie (zobrazenie) záznamu vo formulári&lt;/TD&gt;
+&lt;TD height=18 width=201&gt;medzerník&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=18 width=309&gt;Rýchle zobrazenie obrázka skladovej karty&lt;/TD&gt;
+&lt;TD height=18 width=201&gt;SHIFT + medzerník&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=18 width=309&gt;Presun položky na dokladoch vpravo&lt;/TD&gt;
+&lt;TD height=18 width=201&gt;CTRL + SHIFT + šípka vpravo&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=18 width=309&gt;Presun položky na dokladoch vľavo&lt;/TD&gt;
+&lt;TD height=18 width=201&gt;CTRL + SHIFT + šípka vľavo&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=18 width=309&gt;Kopírovanie záznamu (napr. faktúry)&lt;/TD&gt;
+&lt;TD height=18 width=201&gt;CTRL + C&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=18 width=309&gt;Prilepiť záznam (napr. faktúru)&lt;/TD&gt;
+&lt;TD height=18 width=201&gt;CTRL + V&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=18 width=309&gt;Väzby dokumentu&lt;/TD&gt;
+&lt;TD height=18 width=201&gt;CTRL + W&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=18 width=309&gt;
+&lt;H3&gt;Klávesy na označovanie záznamov&lt;/H3&gt;&lt;/TD&gt;
+&lt;TD height=18 width=201&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=18 width=309&gt;Označenie (zrušenie označenia) aktuálneho záznamu&amp;nbsp;&lt;/TD&gt;
+&lt;TD height=18 width=201&gt;Insert&amp;nbsp;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=18 width=309&gt;Označenie záznamov v zozname&lt;/TD&gt;
+&lt;TD height=18 width=201&gt;CTRL + Plus&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=18 width=309&gt;Zrušenie označenia záznamov v zozname&lt;/TD&gt;
+&lt;TD height=18 width=201&gt;CTRL + Mínus&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=18 width=309&gt;Invertovanie výberu&lt;/TD&gt;
+&lt;TD height=18 width=201&gt;CTRL +&amp;nbsp;/&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=18 width=309 colSpan=2&gt;
+&lt;H3&gt;Klávesy na ovládanie jednoduchého formulára&lt;/H3&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=18 width=309&gt;Oprava záznamu&lt;/TD&gt;
+&lt;TD height=18 width=201&gt;medzerník&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=18 width=309&gt;Vymazanie záznamu&lt;/TD&gt;
+&lt;TD height=18 width=201&gt;Del&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=18 width=309&gt;
+&lt;H3&gt;Iné klávesové skratky&lt;/H3&gt;&lt;/TD&gt;
+&lt;TD height=18 width=201&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=18 width=309&gt;Otvorenie zoznamu (číselníka)&lt;/TD&gt;
+&lt;TD height=18 width=201&gt;F3&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=18 width=309&gt;Vloženie textu z položky do predmetu faktúry&lt;/TD&gt;
+&lt;TD height=18 width=201&gt;P&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=18 width=309&gt;Prepočet súm medzi poľami s&amp;nbsp;rekapituláciou dokladu - vypnutie*&lt;/TD&gt;
+&lt;TD height=18 width=201&gt;CTRL + SHIFT + N&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=18 width=309&gt;Prepočet súm medzi poľami s&amp;nbsp;rekapituláciou dokladu - zapnutie*&lt;/TD&gt;
+&lt;TD height=18 width=201&gt;CTRL + SHIFT + R&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=18 width=309&gt;Aktualizovanie zoznamu s údajmi - tzv. &lt;I&gt;Refresh&lt;/I&gt;&lt;/TD&gt;
+&lt;TD height=18 width=201&gt;F5&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=18 width=309&gt;Tlač&lt;/TD&gt;
+&lt;TD height=18&gt;F7&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=309&gt;Pomocník&lt;/TD&gt;
+&lt;TD&gt;F1&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=18 width=309&gt;
+&lt;H3&gt;Špeciálne klávesové skratky&lt;/H3&gt;&lt;/TD&gt;
+&lt;TD height=18 width=201&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=18 width=309&gt;Spustenie &lt;I&gt;Editora jazykov&lt;/I&gt;&lt;/TD&gt;
+&lt;TD height=18 width=201&gt;CTRL + ALT + SHIFT + F11&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;
+&lt;P&gt;* - umožňuje vypnúť/zapnúť prepočet súm medzi poľami v &lt;EM&gt;Knihe pohľadávok&lt;/EM&gt; v module &lt;EM&gt;Účtovníctvo&lt;/EM&gt; (podvojné alebo jednoduché účtovníctvo). Bližšie informácie nájdete v&amp;nbsp;téme&amp;nbsp;&lt;A href="b479a7dd-6c07-4548-862f-a38cbf1b872d"&gt;Zaevidovanie faktúry - záväzku&lt;/A&gt;, prípadne v téme &lt;A href="ec4e9be4-140f-4ec9-aa04-544e9870bfe1" style="auto-update-caption: true"&gt;Vystavenie faktúry - pohľadávky&lt;/A&gt;.&lt;/P&gt;&lt;innovasys:widget layout="block" type="Caution Box"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;V&amp;nbsp;systéme OBERON sa vyskytujú aj ďalšie klávesové skratky. Sú uvedené v niektorých ponukách a&amp;nbsp;umiestnené hneď za názvom ponuky, prípadne sú zobrazené v&amp;nbsp;názve možnosti, napr. &lt;EM&gt;Zapísať do hromadného príkazu na úhradu (Ctrl + I).&lt;/EM&gt;&lt;/innovasys:widgetproperty&gt; &lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="80319654-883f-449a-b90e-c062e81842e4" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="38489850-ab82-41b6-b258-3fa613ed5861">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="8de87e48-2ea5-436f-9832-d11247200fe5" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="8936fde4-aac3-4672-99a2-c8bd5ccffdcd">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="b3f0150b-629d-49d4-b43a-ee452f08cb29" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="9c6e329d-63e2-486a-8e46-f953cff24559">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="22719ff7-9292-454e-b021-e89f64a53c0b">
+      <Keyword m="2015-01-05T14:10:20.7421875Z">Skratkové klávesy </Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

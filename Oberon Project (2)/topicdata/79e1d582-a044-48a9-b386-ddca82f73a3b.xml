@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="79e1d582-a044-48a9-b386-ddca82f73a3b" Status="Complete" CreatedOn="2014-10-15T13:37:04.2214698Z" ModifiedOn="2023-06-08T10:46:53.103895Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="51090" Name="Form_StockCard_CompositionOfProduct" BuildFlags="">
+  <Title m="2023-06-08T08:49:33.4924148Z">Formulár Zloženie výrobku</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-06-08T10:27:13.0674964Z">&lt;P&gt;Formulár&amp;nbsp;&lt;I&gt;Zloženie výrobku&lt;/I&gt; umožňuje &lt;STRONG&gt;definovať zloženie skladovej karty&amp;nbsp;&lt;/STRONG&gt;&lt;A href="8deac9fe-9864-41e8-aaa3-02257c241d78"&gt;typu výrobok&lt;/A&gt;.&amp;nbsp;Formulár je dostupný z&amp;nbsp;&lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;formulára Skladová karta&lt;/A&gt;, záložka &lt;EM&gt;Základné&lt;/EM&gt;, tlačidlo &lt;EM&gt;Zloženie&lt;/EM&gt; po zvolení typu karty &lt;EM&gt;Výrobok&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Popis formulára &lt;EM&gt;Zloženie výrobku&lt;/EM&gt;&lt;/H2&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Nový/Oprava&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Pomocou tlačidla je možné pridať skladovú kartu do výrobku, resp. upraviť už pridanú skladovú kartu. Do zloženia skladovej karty nie je možné pridať iný výrobok.&lt;BR&gt;Pri pridávaní skladovej karty do výrobku je možné zadať&amp;nbsp;&lt;EM&gt;Hrubé množstvo&lt;/EM&gt;&amp;nbsp;a&amp;nbsp;&lt;EM&gt;Čisté&lt;/EM&gt; &lt;EM&gt;množstvo&lt;/EM&gt;, ktoré je očistené od&amp;nbsp;odpadu pri spracovaní. Napr. z&amp;nbsp;hrubého množstva&amp;nbsp;0,5&amp;nbsp;m2&amp;nbsp;textilnej látky je možné po vykonaní strihu získať&amp;nbsp;0,4&amp;nbsp;m2 čistého množstva látky.&lt;/innovasys:widgetproperty&gt; &lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Súčet obstarávacích cien&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Celková obstarávacia cena&amp;nbsp;výrobku je súčtom obstarávacích cien jej jednotlivých&amp;nbsp;zložiek.&lt;/innovasys:widgetproperty&gt; &lt;/innovasys:widget&gt;
+&lt;H2&gt;Ďalšie možnosti&lt;/H2&gt;
+&lt;P&gt;Ďalšie možnosti sú dostupné&amp;nbsp;po stlačení tlačidla &lt;EM&gt;Možnosti&lt;/EM&gt;, prípadne v&amp;nbsp;kontextovej ponuke tabuľky záznamov.&lt;/P&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Vytvoriť doplňujúci text z textových skratiek&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Funkcia vytvorí doplňujúci text z textových skratiek zložiek výrobku. Textové skratky možno zadať skladovej karte vo &lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;formulári Skladová karta&lt;/A&gt;, záložka &lt;EM&gt;Základné&lt;/EM&gt;, v&amp;nbsp;poli &lt;EM&gt;Názov&lt;/EM&gt; v&amp;nbsp;hranatých zátvorkách, napr. &lt;EM&gt;Crucial SO-DIMM 16 GB DDR4 3200 MHz CL22&amp;nbsp;[16&amp;nbsp;GB RAM].&lt;/EM&gt; Po spustení funkcie sa na skladovej karte výrobku (napr. skladaného počítača) do poľa &lt;EM&gt;Doplňujúci text&lt;/EM&gt; automaticky pridá textová skratka &lt;EM&gt;16&amp;nbsp;GB RAM.&lt;/EM&gt;&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="b177ce06-0cdb-4c6e-8675-6aac2e8ce55e" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="1a33ab0b-2df7-4dc2-962b-8a3319c16831">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="08e4fad1-b467-4cca-aa90-c7666f355fac" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="277559d2-a8ba-4399-b39d-58b8b28b01ff">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="00dc6675-abd1-4a1f-9eb5-e2ff18f14c97" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="c233ada3-0fed-4911-97f3-0680973ebac1">
+      <Title m="2014-11-25T09:25:46.461914Z">Formulár Skladová karta</Title>
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="5b7c98df-4108-4861-b0c6-41aabeb849d1">
+      <Keyword m="2023-06-08T10:46:47.0985101Z">Výrobok - zloženie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="b7e02d01-2ca8-4d53-8e68-62dd30151515">
+      <Keyword m="2023-06-08T10:46:38.7618299Z">Zloženie výrobku - formulár</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

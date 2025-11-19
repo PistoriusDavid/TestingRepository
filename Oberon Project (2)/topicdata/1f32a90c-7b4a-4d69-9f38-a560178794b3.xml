@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="1f32a90c-7b4a-4d69-9f38-a560178794b3" Status="Complete" CreatedOn="2022-06-20T07:10:28.243569Z" ModifiedOn="2024-09-27T08:50:54.6642819Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="OBERONRecommendedSolutions" BuildFlags="">
+  <Title m="2022-06-20T07:11:00.2662599Z">Odporúčané riešenia</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-09-27T08:50:54.6642819Z">&lt;P align=left&gt;Systém OBERON podporuje celý rad&amp;nbsp;&lt;A href="3f051fd3-9727-4ecc-9613-7a7fb1cb2a54"&gt;pripojiteľných zariadení&lt;/A&gt; (fiškálne tlačiarne, platobné POS terminály, čítačky dokladov, elektronické váhy atď.) a&amp;nbsp;&lt;A href="9690f267-6ad7-4e22-9af2-675ef3d9d041"&gt;externých súvisiacich produktov a služieb&lt;/A&gt; (internetové obchody, cloudové riešenia, hotelové riešenia, vernostné systémy atď.).&lt;/P&gt;
+&lt;P align=left&gt;Keďže škála podporovaných riešení ja veľmi široká a neustále sa rozširuje, rozhodli sme sa v Pomocníku &lt;EM&gt;OBERON&lt;/EM&gt; a&amp;nbsp;na webovej stránke &lt;A href="https://www.exalogic.sk/" target=_blank&gt;www.exalogic.sk&lt;/A&gt; zaviesť označovanie vybraných riešení ikonou s&amp;nbsp;textom&amp;nbsp;&lt;EM&gt;&lt;STRONG&gt;Odporúčané riešenie&lt;/STRONG&gt;&lt;/EM&gt; (resp.&amp;nbsp;zjednodušenou ikonou&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Basic/Odporucane-riesenie_ruka_ikona.png"&gt;).&amp;nbsp;Toto označenie má slúžiť používateľom OBERON-u na lepšiu orientáciu a jednoduchší výber spomedzi podporovaných (dostupných) riešení.&lt;/P&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/OBERON/Basic/Odporucane-riesenie.png"&gt;&lt;/P&gt;
+&lt;P&gt;&lt;BR&gt;Aj keď OBERON spravidla podporuje viac ako jedno&amp;nbsp;riešenie daného typu, často je možné &lt;STRONG&gt;vybrať spomedzi nich také, ktoré možno označiť za odporúčané&lt;/STRONG&gt;. Takéto označenie automaticky neznamená, žeby ostatné riešenia boli nevhodné. Odporúčané riešenie je také, ktoré nejakým spôsobom vyniká - napr.&amp;nbsp;škálou podporovaných funkcií, pomerom kvality a ceny, dostupnosťou a pod. Zjednodušene možno povedať, že odporúčanými riešeniami sú&amp;nbsp;produkty alebo služby, &lt;STRONG&gt;pre ktoré by sa rozhodli tvorcovia systému OBERON&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;H2&gt;Zoznam odporúčaných riešení&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;A href="f0a7aeb9-190b-4de7-90e7-30322114e9a9"&gt;SQL relačný databázový systém MariaDB&lt;/A&gt;&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Basic/Odporucane-riesenie_ruka_ikona.png"&gt; 
+&lt;LI&gt;&lt;A href="7437cbeb-c6d1-4b19-92ee-150ba8e4097f"&gt;Internetový obchod PrestaShop&lt;/A&gt;&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Basic/Odporucane-riesenie_ruka_ikona.png"&gt;
+&lt;LI&gt;&lt;A href="d67d60c0-09ce-4ffc-88b8-8f904a9a7a06" style="auto-update-caption: true"&gt;Prepojenie s Fio bankou&lt;/A&gt; &lt;IMG border=0 alt="" src="images/OBERON/Basic/Odporucane-riesenie_ruka_ikona.png"&gt; 
+&lt;LI&gt;&lt;A href="2564d1eb-a7ed-46a7-a957-6087afe26471"&gt;Manažér rezervačných kanálov Beds24&lt;/A&gt;&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Basic/Odporucane-riesenie_ruka_ikona.png"&gt; 
+&lt;LI&gt;&lt;A href="a8869db0-d369-49c6-b801-de33672ce874" style="auto-update-caption: true"&gt;Rezervačný formulár Beds24&lt;/A&gt;&amp;nbsp;&lt;A href="1f32a90c-7b4a-4d69-9f38-a560178794b3" style="auto-update-caption: true"&gt;&lt;IMG border=0 alt="Odporúčané riešenia" src="images/OBERON/Basic/Odporucane-riesenie_ruka_ikona.png"&gt;&lt;/A&gt;&amp;nbsp; 
+&lt;LI&gt;&lt;A href="00fa9619-a13d-4745-8938-cc0c2b5039ce"&gt;Fiškálna tlačiareň eKasa PANDORA&lt;/A&gt;&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Basic/Odporucane-riesenie_ruka_ikona.png"&gt; 
+&lt;LI&gt;&lt;A href="e046c976-bdef-4ff7-b069-e27347615921"&gt;Tlačiareň EPSON TM-T20II&lt;/A&gt;&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Basic/Odporucane-riesenie_ruka_ikona.png"&gt; 
+&lt;LI&gt;&lt;A href="1b1c0793-4382-4777-81aa-a6a24e3e9988"&gt;Zákaznícky displej OBERON&lt;/A&gt;&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Basic/Odporucane-riesenie_ruka_ikona.png"&gt; 
+&lt;LI&gt;&lt;A href="ac73b976-c72c-449c-a608-c41ca5eb24ba"&gt;Dochádzkový terminál EXALOGIC A-C071S&lt;/A&gt;&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Basic/Odporucane-riesenie_ruka_ikona.png"&gt; 
+&lt;LI&gt;&lt;A href="936ab11c-b8d8-4007-8633-78c649beae4b"&gt;Platobný terminál GP tom&lt;/A&gt;&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Basic/Odporucane-riesenie_ruka_ikona.png"&gt;
+&lt;LI&gt;&lt;A href="04f1792c-2c89-4554-9a71-65cb4c8309e9" style="auto-update-caption: true"&gt;Platobný terminál PAX&lt;/A&gt;&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Basic/Odporucane-riesenie_ruka_ikona.png"&gt; 
+&lt;LI&gt;&lt;A href="d236bb20-6609-4575-8dd8-4ea120c3d1c9"&gt;Mobilný terminál ODA S1-K&lt;/A&gt;&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Basic/Odporucane-riesenie_ruka_ikona.png"&gt;
+&lt;LI&gt;&lt;A href="f6390b9c-745a-46e9-811e-3b32a7bd91a3"&gt;Mobilný terminál ODA S2&lt;/A&gt;&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Basic/Odporucane-riesenie_ruka_ikona.png"&gt; 
+&lt;LI&gt;&lt;A href="b05e8a8e-16f5-4d4f-9092-0990e840089a"&gt;Mobilný terminál ODA S3-PG&lt;/A&gt;&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Basic/Odporucane-riesenie_ruka_ikona.png"&gt;
+&lt;LI&gt;&lt;A href="a315053c-fb60-4f19-a3df-40b9c9dd02f8" style="auto-update-caption: true"&gt;Digitálna podpisová podložka EXALOGIC-DSP1&lt;/A&gt;&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Basic/Odporucane-riesenie_ruka_ikona.png"&gt; 
+&lt;LI&gt;&lt;A href="abb7c314-1a2d-4d71-8706-3c00a8cf2276"&gt;Dverové zámky SALTO&lt;/A&gt;&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Basic/Odporucane-riesenie_ruka_ikona.png"&gt;&lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="62171a59-1891-4658-87cb-c81a05c49906" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="3f051fd3-9727-4ecc-9613-7a7fb1cb2a54">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="d5ae9738-6b75-43a2-9415-c71df0eb1f54" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="9690f267-6ad7-4e22-9af2-675ef3d9d041">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="71e34897-552b-451f-b73a-68ce884a8aa2">
+      <Keyword m="2024-07-29T13:10:51.0893106Z">Súvisiace produkty a služby - odporúčané</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="02c2fc36-7ae3-4eb6-8bae-dec4367ab7a3">
+      <Keyword m="2024-07-29T13:11:02.2964054Z">Pripojiteľné zariadenia - odporúčané</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

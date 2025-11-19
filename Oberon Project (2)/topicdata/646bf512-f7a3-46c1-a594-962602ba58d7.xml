@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="646bf512-f7a3-46c1-a594-962602ba58d7" Status="Complete" CreatedOn="2018-11-22T11:55:39.229631Z" ModifiedOn="2023-11-13T14:12:38.321156Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="false" HelpContextIds="" Name="Form_OBERON_Settings_CenterBranch" BuildFlags="">
+  <Title m="2021-03-08T14:02:15.1427483Z">Formulár Nastavenie automatickej úlohy 'On-line pobočková synchronizácia'</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-11-13T14:12:38.321156Z">&lt;P&gt;Formulár &lt;EM&gt;Nastavenie automatickej úlohy 'On-line pobočková synchronizácia'&lt;/EM&gt; umožňuje nadefinovať nastavenia&amp;nbsp;&lt;A href="9ce25bbd-35d1-4096-acd5-70007f5af5a6"&gt;automatickej úlohy&lt;/A&gt;&amp;nbsp;&lt;A href="87f87ba8-cd9e-47ef-9dda-0ca54dfa1dd0"&gt;On-line pobočková synchronizácia&lt;/A&gt; na automaticky vykonávanú &lt;STRONG&gt;on-line&lt;/STRONG&gt; &lt;STRONG&gt;synchronizáciu údajov medzi&amp;nbsp;pobočkou, prípadne viacerými pobočkami a&amp;nbsp;centrálou jednej firmy&lt;/STRONG&gt;, keď&amp;nbsp;komunikácia medzi pobočkou&amp;nbsp;a&amp;nbsp;centrálou prebieha s&amp;nbsp;oneskorením len niekoľkých desiatok sekúnd. Formulár je dostupný z:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;, ponuka&amp;nbsp;&lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="972f1ab7-4209-43d8-ba8a-cde9b0f48690" style="auto-update-caption: true"&gt;Pobočková synchronizácia&lt;/A&gt; 
+&lt;LI&gt;programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;, ponuka&amp;nbsp;&lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="5a6e5663-262e-4ff0-9741-1569385d11e4"&gt;oddiel Firma, Všeobecné&lt;/A&gt;, záložka &lt;EM&gt;Pobočky&lt;/EM&gt; - v časti &lt;EM&gt;On-line pobočkový režim&lt;/EM&gt; stlačte tlačidlo &lt;EM&gt;Nastaviť&lt;/EM&gt;, 
+&lt;LI&gt;programu&amp;nbsp;&lt;A href="24e780fd-36d3-4a6e-bfc0-a8665c75e4ee"&gt;OBERON Center&lt;/A&gt;, oddiel&amp;nbsp;&lt;A href="9ce25bbd-35d1-4096-acd5-70007f5af5a6"&gt;Automatické úlohy&lt;/A&gt;, tlačidlo &lt;EM&gt;Pridať&lt;/EM&gt; alebo &lt;EM&gt;Upraviť -&lt;/EM&gt;&amp;nbsp;otvorí sa &lt;A href="9ce25bbd-35d1-4096-acd5-70007f5af5a6"&gt;formulár Automatické úlohy&lt;/A&gt;, v&amp;nbsp;ktorom vyberte daný typ automatickej úlohy a&amp;nbsp;stlačte tlačidlo &lt;EM&gt;Nastaviť&lt;/EM&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Popis formulára &lt;EM&gt;Nastavenie automatickej úlohy 'On-line pobočková synchronizácia'&lt;/EM&gt;&lt;/H2&gt;&lt;innovasys:widget type="Tab Strip" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Aktuálny stav&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;V záložke&amp;nbsp;je zobrazený aktuálny stav synchronizácie, v odôvodnených prípadoch ju možno aj pozastaviť.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Zložky synchronizácie&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Nastavujú sa typy (evidencie), ktoré&amp;nbsp;sa budú synchronizovať.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Databáza&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Nastavuje sa databáza centrály v cloude.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="53643f7e-7313-4f90-8b7d-5907dda18a65" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="67abf56c-fe22-4bc8-ba77-6a8058a8782f">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="c49889c5-87d1-420e-b6d8-bd17ade63624" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="87f87ba8-cd9e-47ef-9dda-0ca54dfa1dd0">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="6b8588f0-ce31-4550-8bd9-3e45ffcabea8" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="9ce25bbd-35d1-4096-acd5-70007f5af5a6">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="12d73ed3-3228-42a1-8af0-7a07eecaae63">
+      <Keyword m="2021-05-20T07:45:08.1300387Z">Nastavenie automatickej úlohy 'On-line pobočková synchronizácia'  - formulár</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

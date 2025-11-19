@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="740e9e84-541c-42fb-a04d-6867f46b329d" Status="Complete" CreatedOn="2024-09-02T06:25:39.6541406Z" ModifiedOn="2024-09-02T06:28:34.8651133Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Device_AttendanceTerminal_EXALOGIC_A-L365S_ChangeIPAdress" BuildFlags="D8EEEC64-8D7C-4E22-962B-32BF6BBC5DF5,826B51BD-B6F0-4B2C-A814-029E169D018F">
+  <Title m="2024-09-02T06:28:34.8641045Z">Zadávanie alfanumerických znakov do terminálu EXALOGIC A-L365S</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2022-08-19T10:00:29.3112007Z">&lt;P&gt;V tejto téme &lt;EM&gt;Pomocníka&lt;/EM&gt; je popísaný &lt;STRONG&gt;postup, ako zadávať alfanumerické znaky do dochádzkového terminálu&lt;/STRONG&gt;&amp;nbsp;&lt;A href="ac73b976-c72c-449c-a608-c41ca5eb24ba"&gt;EXALOGIC A-C071S&lt;/A&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Zariadenie pracuje s viacerými režimami zadávania alfanumerických znakov. Medzi jednotlivými režimami sa prepína tlačidlom &lt;EM&gt;MENU&lt;/EM&gt;, vybraný režim sa potvrdzuje tlačidlom &lt;EM&gt;&lt;STRONG&gt;OK&lt;/STRONG&gt;&lt;/EM&gt;. 
+&lt;LI&gt;V zariadení je možné zadávať: 
+&lt;UL&gt;
+&lt;LI&gt;veľké písmená abecedy (v zariadení režim&amp;nbsp;označený ako &lt;STRONG&gt;&lt;EM&gt;Mode:&amp;nbsp;A&lt;/EM&gt;&lt;/STRONG&gt;), 
+&lt;LI&gt;malé písmená abecedy (v zariadení režim označený ako &lt;EM&gt;&lt;STRONG&gt;Mode:&amp;nbsp;a&lt;/STRONG&gt;&lt;/EM&gt;), 
+&lt;LI&gt;diakritické znamienka&amp;nbsp;a špeciálne znaky (v zariadení režim označený ako &lt;STRONG&gt;&lt;EM&gt;Mode:&amp;nbsp;&lt;/EM&gt;#&lt;/STRONG&gt;), 
+&lt;LI&gt;číslice (v zariadení režim označený ako &lt;EM&gt;&lt;STRONG&gt;Mode:&amp;nbsp;12&lt;/STRONG&gt;&lt;/EM&gt;). &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Okrem týchto režimov je v zariadení k dispozícii aj režim na zadávanie čínskych znakov. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Príklad&amp;nbsp;- zadanie IP adresy počítača&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;V dochádzkovom termináli&amp;nbsp;&lt;EM&gt;EXALOGIC A-C071S&lt;/EM&gt; pomocou šípok a tlačidla &lt;EM&gt;OK&lt;/EM&gt;&amp;nbsp;v ponuke &lt;EM&gt;MENU&lt;/EM&gt;,&amp;nbsp;&lt;EM&gt;Nastaviť&lt;/EM&gt; vyberte položku &lt;EM&gt;Comm&lt;/EM&gt;. 
+&lt;LI&gt;Vyhľadajte ponuku &lt;EM&gt;Server IP&lt;/EM&gt; a stlačte &lt;EM&gt;OK&lt;/EM&gt;. 
+&lt;LI&gt;Zobrazí sa obrazovka (Obrázok č. 1). Aktuálny režim zadávania alfanumerických znakov sa zobrazuje v pravom hornom rohu. 
+&lt;LI&gt;Na zmenu režimu stlačte tlačidlo &lt;EM&gt;MENU&lt;/EM&gt;&amp;nbsp;a nastavte sa na&amp;nbsp;režim &lt;EM&gt;12&lt;/EM&gt; -&amp;nbsp;zadávanie číslic. Napíšte číslo 192. 
+&lt;LI&gt;Tlačidlom &lt;EM&gt;MENU&lt;/EM&gt; zmeňte režim na # -&amp;nbsp;zadávanie diakritických znamienok a špeciálnych&amp;nbsp;znakov. Napíšte znak . (bodka). 
+&lt;LI&gt;Znova zmeňte&amp;nbsp;režim na &lt;EM&gt;12&lt;/EM&gt; –&amp;nbsp;zadávanie číslic. Napíšte číslo 168. 
+&lt;LI&gt;Týmto&amp;nbsp;spôsobom pokračujte až do zadania celej IP adresy počítača. Zadanú IP adresu uložte tlačidlom &lt;EM&gt;OK&lt;/EM&gt;. &lt;/LI&gt;&lt;/OL&gt;
+&lt;H5&gt;Obrázok č.&amp;nbsp;1: Displej dochádzkového terminálu &lt;EM&gt;EXALOGIC A-C071S&lt;/EM&gt;&lt;BR&gt;&lt;/H5&gt;&lt;IMG border=0 alt="" src="images/Attendance/Attendance_Terminal_Exalogic_Nastavenie2.png"&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="2117d4c2-874b-44cc-b2e2-3feeeb858813" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="e11b492e-8020-499e-8e54-0b71c6ebdd75">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="e2e7149a-a820-405f-9604-e1e3d0d46faa">
+      <Keyword m="2018-06-12T12:16:43.5384133Z">Alfanumerické znaky na termináli EXALOGIC A-C071S</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="d50962de-0aba-4780-bed2-f45002b8512d">
+      <Keyword m="2022-12-15T07:27:21.2624674Z">EXALOGIC A-C071S - zadávanie znakov</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="b49b9dbc-f463-4319-9a6b-1f393919fe16">
+      <Keyword m="2024-09-02T05:44:14.5488619Z">A-C071S - zadávanie znakov</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

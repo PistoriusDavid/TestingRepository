@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="bdbb4661-20cf-49cb-aa5b-66c46765f2c3" Status="Complete" CreatedOn="2017-07-11T08:37:32.61031Z" ModifiedOn="2022-12-14T13:08:10.1946793Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Installation_ChangeText_Large" BuildFlags="">
+  <Title m="2017-07-11T08:46:14.5643734Z">Zväčšenie veľkosti formulárov podľa systému Windows</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2022-10-03T10:04:28.7819255Z">&lt;P&gt;Systém OBERON&amp;nbsp;podporuje možnosť&amp;nbsp;prispôsobiť veľkosť svojich formulárov&amp;nbsp;veľkosti zobrazenia, ktorá sa definuje v&amp;nbsp;systéme &lt;EM&gt;Windows&lt;/EM&gt;&amp;nbsp;(napr. na hodnotu 125&amp;nbsp;%). Spolu s formulármi sa korektne zväčší aj&amp;nbsp;písmo, čo umožňuje pohodlnejšiu prácu v&amp;nbsp;OBERON-e na počítačoch s&amp;nbsp;vysokým rozlíšením (s vyšším DPI), prípadne uľahčuje prácu ľuďom so slabším zrakom. &lt;STRONG&gt;Postup&amp;nbsp;na zmenu veľkosti formulárov v OBERON-e podľa systému &lt;EM&gt;Windows&lt;/EM&gt;&lt;/STRONG&gt;&amp;nbsp;je popísaný v tejto téme &lt;EM&gt;Pomocníka&lt;/EM&gt;.&amp;nbsp; &lt;/P&gt;
+&lt;H5&gt;Obrázok č. 1: Štandardná veľkosť formulára (vľavo) a zväčšená veľkosť formulára na 125 % (vpravo)&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/BasicInformation/Installation/Installation_DPI_Normal-plus-zvacseny.png"&gt;&lt;/P&gt;
+&lt;H2&gt;Postup zmeny veľkosti formulárov&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;Na pracovnej ploche stlačte pravé tlačidlo myši a vyberte položku &lt;EM&gt;&lt;STRONG&gt;Nastavenie obrazovky&lt;/STRONG&gt;&lt;/EM&gt;. 
+&lt;LI&gt;Otvorí sa formulár &lt;EM&gt;Nastavenie&lt;/EM&gt;, v oddiele &lt;EM&gt;&lt;STRONG&gt;Obrazovka - Mierka a rozloženie&lt;/STRONG&gt;&lt;/EM&gt; vyberte hodnotu 125&amp;nbsp;% alebo inú. Systém &lt;EM&gt;Windows&lt;/EM&gt;&amp;nbsp;zobrazí hlásenie: &lt;EM&gt;Niektoré aplikácie zohľadnia zmenu mierky až keď sa odhlásite&lt;/EM&gt;. Pre správne fungovanie je potrebné, aby ste sa&amp;nbsp;zo systému &lt;EM&gt;Windows&lt;/EM&gt; &lt;STRONG&gt;odhlásili a následne sa doň znovu prihlásili&lt;/STRONG&gt;. V&amp;nbsp;prípade neodhlásenia budú&amp;nbsp;formuláre v&amp;nbsp;OBERON-e&amp;nbsp;deformované. 
+&lt;LI&gt;Na niektorých počítačoch sa po zmene rozlíšenia na inú hodnotu&amp;nbsp;OBERON javí ako rozmazaný. V takomto prípade kliknite na ikonu OBERON-u, stlačte pravé tlačidlo myši a vyberte položku &lt;EM&gt;Vlastnosti&lt;/EM&gt;. Otvorí sa formulár (Obrázok č. 2), v ktorom v záložke &lt;EM&gt;Kompatibilita&lt;/EM&gt; začiarknite možnosť: &lt;EM&gt;Prepísať správanie nastavenia vysokého DPI&lt;/EM&gt;. Ak sa záložka &lt;EM&gt;Kompatibilita&lt;/EM&gt;&amp;nbsp;vo formulári nenachádza, stlačte pravé tlačidlo myši a vyberte položku &lt;EM&gt;Riešiť problémy s&amp;nbsp;kompatibilitou&lt;/EM&gt;. 
+&lt;LI&gt;Postup je ukončený, formuláre v&amp;nbsp;OBERON-e sa budú zobrazovať podľa nastavenia v systéme&amp;nbsp;&lt;EM&gt;Windows&lt;/EM&gt;. &lt;/LI&gt;&lt;/OL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Uvedený postup platí pre operačný systém &lt;EM&gt;Windows 10&lt;/EM&gt;.&amp;nbsp;V&amp;nbsp;iných&amp;nbsp;verziách je možné použiť analogický postup.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H5&gt;&amp;nbsp;Obrázok č. 2: Formulár &lt;EM&gt;Vlastnosti oberon.exe&lt;/EM&gt;&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/BasicInformation/Installation/Installation_DPI_Vlastnosti.png"&gt;&amp;nbsp;&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="73ff74ff-d783-41f7-9cf7-004827bac83f" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="19a10c98-2b1d-4fe1-8ab2-98921ab328be">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="c71d21ef-7488-4e50-982a-7016433ec519">
+      <Keyword m="2021-03-24T07:22:29.0701884Z">Prispôsobenie veľkosti zobrazenia systému Windows</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="675531d1-dbdd-4214-a479-68945ef35f94">
+      <Keyword m="2022-12-14T13:07:33.6040541Z">Veľkosť formulárov - zmena podľa Windows</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="9a8994b8-0486-4f59-aead-02f18e8b70a0">
+      <Keyword m="2022-12-14T13:08:00.9375286Z">Veľkosť písma - zmena podľa Windows</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="aceef2fd-5253-49f0-92d6-8a6bb02c9535">
+      <Keyword m="2022-12-14T13:08:10.1946793Z">Zmena veľkosti formulárov podľa Windows </Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="2190ac8c-a10a-4de2-ab8c-31792baedee9">
+      <Keyword m="2021-03-24T07:25:31.6773781Z">Kompatibilita - prepísať správanie nastavenia vysokého DPI </Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="9bb86c2c-fb34-4e62-aea9-6ffe91e91efd">
+      <Keyword m="2022-12-14T13:07:53.0643736Z">DPI - zmena podľa Windows</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="62db2271-9ae9-4968-b790-47a07e7c6aef" Status="Complete" CreatedOn="2014-09-09T12:22:45.2116216Z" ModifiedOn="2023-04-25T07:06:58.955158Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Stock_Start_Prijem_Sklad" BuildFlags="">
+  <Title m="2014-09-09T12:23:01.0215259Z">Príjem do skladu</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-04-25T07:06:58.9531576Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;postup, ako prijať tovar&lt;/STRONG&gt; &lt;STRONG&gt;do skladu&lt;/STRONG&gt; v systéme OBERON.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Modul&amp;nbsp;&lt;A href="78d20602-4b59-4b31-9f0a-a04a1d376ec5"&gt;Skladová evidencia&lt;/A&gt; umožňuje prijať tovar do skladu &lt;STRONG&gt;dvoma spôsobmi&lt;/STRONG&gt;. Prvý spôsob je vystavením&amp;nbsp;&lt;A href="efed1882-1614-4406-b57a-3023aee6ba26"&gt;príjemky&lt;/A&gt; a druhý spôsob priamo pomocou&amp;nbsp;&lt;A href="55028746-c263-4d92-a615-502222e8d53b"&gt;faktúry (záväzku)&lt;/A&gt;. Ktorý spôsob účtovná jednotka zvolí, závisí od&amp;nbsp;jej&amp;nbsp;povahy a zvyklostí. 
+&lt;LI&gt;Hlavnou výhodou príjmu&amp;nbsp;priamo&amp;nbsp;pomocou faktúry je, že jednou faktúrou môže byť prijatý tovar&amp;nbsp;do&amp;nbsp;viacerých skladov (pri príjemke len&amp;nbsp;do&amp;nbsp;jedného skladu). Ďalšia výhoda spočíva&amp;nbsp;v&amp;nbsp;tom, že faktúra zaevidovaná v&amp;nbsp;sklade sa automaticky objaví v&amp;nbsp;účtovníctve (v&amp;nbsp;&lt;A href="55028746-c263-4d92-a615-502222e8d53b"&gt;knihe záväzkov&lt;/A&gt;). Samozrejme, príjem do skladu je možné aj kombinovať, t.&amp;nbsp;j.&amp;nbsp;prijímať tovar prostredníctvom príjemky a súčasne aj faktúry. 
+&lt;LI&gt;Do&amp;nbsp;príjemky je možné automaticky vkladať&lt;STRONG&gt;&amp;nbsp;viazanú položku&lt;/STRONG&gt; (nastavuje sa&amp;nbsp;vo&amp;nbsp;&lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;formulári Skladová karta&lt;/A&gt;, záložka &lt;EM&gt;Základné&lt;/EM&gt;, pole &lt;EM&gt;Číslo viazanej položky&lt;/EM&gt;) - napr.&amp;nbsp;pri&amp;nbsp;príjme&amp;nbsp;&lt;A href="0cbf9ae9-1760-4f87-89be-559b62ee193b"&gt;zálohovaných vratných obalov&lt;/A&gt; alebo&amp;nbsp;&lt;A href="1619ae25-859c-4a39-a28b-ccdcc430f6a3"&gt;príjme tovaru v baleniach&lt;/A&gt;&amp;nbsp;(napr. pri&amp;nbsp;príjme nápoja sa do dokladu automaticky pridá vratný obal (fľaša), prípadne aj balenie (prepravka)). &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Prijatie tovaru do skladu vytvorením príjemky&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;V ponuke&amp;nbsp;&lt;I&gt;Sklad&lt;/I&gt; zvoľte položku &lt;A href="efed1882-1614-4406-b57a-3023aee6ba26"&gt;Príjemky&lt;/A&gt;. 
+&lt;LI&gt;Presvedčte sa, že pomocou filtra &lt;EM&gt;Sklad&lt;/EM&gt; v&amp;nbsp;hornej časti evidencie je zvolený ten sklad, pre ktorý chcete vytvoriť príjemku. 
+&lt;LI&gt;Stlačte tlačidlo &lt;I&gt;Nový&lt;/I&gt;, zobrazí sa sprievodca &lt;I&gt;Nová príjemka&lt;/I&gt;. Zvoľte spôsob vytvorenia novej príjemky. Príjemku je možné vytvoriť štandardným zadaním alebo&amp;nbsp;z iného dokladu (z&amp;nbsp;objednávky&amp;nbsp;vydanej alebo prijatej, výdajky, inej príjemky), prípadne importom zo súboru. 
+&lt;LI&gt;Vyberte druh pohybu, zadajte dátum a číslo dokladu.&amp;nbsp;Ak sa&amp;nbsp;požadovaný druh pohybu&amp;nbsp;v&amp;nbsp;zozname pohybov nenachádza, doplňte ho v&amp;nbsp;ponuke &lt;EM&gt;Sklad,&lt;/EM&gt; &lt;A href="a7e1c27b-e28f-4ae9-b643-16cc1b478212"&gt;Druhy pohybov&lt;/A&gt;. 
+&lt;LI&gt;V ďalšom kroku vyberte, resp. zadajte &lt;A href="b7a48886-b367-4056-808a-59ba5f871f32"&gt;obchodného partnera&lt;/A&gt;. Obchodného partnera je možné&amp;nbsp;&lt;A href="e5871f39-032a-431b-9117-df5a4e5dccc8"&gt;vyhľadať na internete podľa názvu alebo podľa IČO&lt;/A&gt;. 
+&lt;LI&gt;Stlačením tlačidla&amp;nbsp;&lt;I&gt;Dokončiť&lt;/I&gt; sa otvorí &lt;A href="062891b1-9360-4c09-9c7b-9474a28e7849"&gt;formulár Príjemka&lt;/A&gt;. 
+&lt;LI&gt;Vo formulári vyplňte jednotlivé údaje.&amp;nbsp;V&amp;nbsp;záložke &lt;EM&gt;Položky dokladu&lt;/EM&gt; pomocou tlačidla &lt;EM&gt;Nový&lt;/EM&gt; pridajte do príjemky položky, ktoré chcete&amp;nbsp;prijať do skladu. 
+&lt;LI&gt;Tvorbu príjemky ukončite stlačením tlačidla &lt;I&gt;&lt;STRONG&gt;OK&lt;/STRONG&gt;&lt;/I&gt;.&amp;nbsp;Do knihy príjemiek sa uloží nová príjemka. &lt;/LI&gt;&lt;/OL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="e05e2af2-50df-4ce8-bf70-93b920131912" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1e423d36-8e0a-4420-b2e9-05f12806ec3a">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="97bfdef7-de54-401b-8d5a-6ad4f69c954d" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1a33ab0b-2df7-4dc2-962b-8a3319c16831">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="bfc12fe4-72de-4607-8ff8-c137404b7e10" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="efed1882-1614-4406-b57a-3023aee6ba26">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="77c45aac-5da3-4778-81a8-bf3474db635f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="062891b1-9360-4c09-9c7b-9474a28e7849">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="e1eb16fb-6352-4a40-be0d-6820fdabb21a" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="6acbdde2-e6a9-43bc-8e10-4e1aa1ea1c3d">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="6cd28704-2789-45bb-a106-dc7ec59bc24a" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="a7e1c27b-e28f-4ae9-b643-16cc1b478212">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="9cd792a2-9ce2-4cc5-9151-dd6de31d4880" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="654ac563-026a-455d-a98b-e523f62ef4fa">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="51423179-f036-40b7-bccd-f71b3db71dde" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1619ae25-859c-4a39-a28b-ccdcc430f6a3">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="3c9323b8-9ff2-415c-90d5-b4faafa1c2ec">
+      <Keyword m="2022-01-14T12:00:08.0155141Z">Sklad - príjem</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="7625e59b-d41c-48a8-aee6-cd4c0e3a92f8">
+      <Keyword />
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="81ae2e99-93b4-4cf1-99ab-12475925e62e">
+      <Keyword m="2022-01-14T12:08:53.6128978Z">Viazaná položka - príjem do skladu</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

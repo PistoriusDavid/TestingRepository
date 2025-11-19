@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="e24eddba-71a4-4980-9396-4947da76375a" Status="Complete" CreatedOn="2015-08-27T07:55:34.8691406Z" ModifiedOn="2024-05-23T08:10:22.6759375Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="90210 " Name="Menu_CRM_RegistraturePlan" BuildFlags="">
+  <Title m="2015-08-27T07:56:07.2539062Z">Registratúrny plán</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-05-23T08:10:22.6759375Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;je venovaná&amp;nbsp;položke&amp;nbsp;&lt;EM&gt;Registratúrny&amp;nbsp;plán&lt;/EM&gt; v&amp;nbsp;ponuke&amp;nbsp;&lt;EM&gt;CRM&lt;/EM&gt; programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Výberom položky sa otvorí &lt;EM&gt;Registratúrny&lt;/EM&gt; &lt;EM&gt;plán&lt;/EM&gt; -&amp;nbsp;&lt;STRONG&gt;pomôcka na účelné a&amp;nbsp;systematické označovanie a&amp;nbsp;ukladanie&amp;nbsp;&lt;/STRONG&gt;&lt;A href="b9d813c2-1ac9-4606-b104-819ea02b6463"&gt;spisov&lt;/A&gt;. Pridelením registratúrnej značky určuje spisom miesto v registratúre; ďalej určuje spisom znak hodnoty a lehotu uloženia.
+&lt;LI&gt;Registratúrny plán môže byť &lt;STRONG&gt;vopred preddefinovaný podľa charakteru účtovnej jednotky &lt;/STRONG&gt;(obchodná spoločnosť, živnostník, obecný úrad), prípadne ho možno dopĺňať a&amp;nbsp;upravovať podľa požiadaviek firmy. Preddefinovaný registratúrny plán možno vytvoriť pomocou importu (pozri nižšie). Okrem toho možno importovať registratúrny plán z&amp;nbsp;predchádzajúceho účtovného obdobia, prípadne z&amp;nbsp;inej firmy.
+&lt;LI&gt;Registratúrny plán je usporiadaný do &lt;STRONG&gt;vecných skupín&lt;/STRONG&gt; podľa jednotlivých úsekov činností.
+&lt;LI&gt;Podľa registratúrneho plánu sa zatrieďujú záznamy v&amp;nbsp;&lt;A href="0fe6411c-9069-4097-b90f-e69f01a61569"&gt;registratúrnom (podacom) denníku&lt;/A&gt;. 
+&lt;LI&gt;Vo formulári &lt;I&gt;Registratúrny plán&lt;/I&gt; je možné prezerať vytvorený plán vo formáte zoznamu položiek registratúrneho plánu. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Dostupné možnosti&lt;/H2&gt;
+&lt;P&gt;Ďalšie možnosti práce so záznamami&amp;nbsp;sú dostupné&amp;nbsp;po stlačení tlačidla &lt;EM&gt;Možnosti&lt;/EM&gt;, prípadne v&amp;nbsp;kontextovej ponuke tabuľky záznamov.&lt;/P&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Import registratúrneho plánu&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Otvorí sa sprievodca, pomocou ktorého je možné importovať registratúrny plán.&amp;nbsp;Na výber&amp;nbsp;je viacero spôsobov importu - z&amp;nbsp;predchádzajúceho účtovného obdobia,&amp;nbsp;inej firmy alebo preddefinovaný registratúrny plán podľa charakteru&amp;nbsp;účtovnej jednotky&amp;nbsp;(obchodná spoločnosť (s.&amp;nbsp;r. o.), živnostník, obecný úrad). Pri importe registratúrneho plánu sa aktuálny registratúrny plán (v&amp;nbsp;aktuálnom účtovnom období) &lt;STRONG&gt;nevratne prepíše&lt;/STRONG&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Postup na priradenie dokumentu do registratúrneho plánu&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;V&amp;nbsp;programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt; zvoľte ponuku &lt;EM&gt;CRM&lt;/EM&gt;, &lt;A href="0fe6411c-9069-4097-b90f-e69f01a61569" style="auto-update-caption: true"&gt;Registratúrny (podací) denník&lt;/A&gt;. 
+&lt;LI&gt;Stlačte tlačidlo &lt;I&gt;Nový&lt;/I&gt;, otvorí sa&amp;nbsp;&lt;A href="2af84798-6d4b-40bc-8b7b-e537906a909c"&gt;formulár Záznam v registratúrnom (podacom) denníku&lt;/A&gt;&lt;SPAN lang=en xml:lang="en"&gt;.&lt;/SPAN&gt; 
+&lt;LI&gt;&lt;SPAN lang=en xml:lang="en"&gt;Stlačte tlačidlo&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_ListButton.png"&gt;&amp;nbsp;vedľa poľa &lt;I&gt;Registratúrna značka.&lt;/I&gt;&lt;/SPAN&gt; 
+&lt;LI&gt;&lt;SPAN lang=en xml:lang="en"&gt;Otvorí sa formulár &lt;EM&gt;Registratúrny plán,&lt;/EM&gt; v ktorom zvoľte položku registratúrneho plánu. Do polí&amp;nbsp;&lt;EM&gt;Registratúrna značka&lt;/EM&gt;&amp;nbsp;a &lt;EM&gt;Vec&lt;/EM&gt; sa automaticky doplnia príslušné údaje.&lt;/SPAN&gt; &lt;/LI&gt;&lt;/OL&gt;
+&lt;H2&gt;Postup na úpravu položky registratúrneho plánu&lt;/H2&gt;
+&lt;P&gt;Upravovať (pridávať alebo vymazávať) položky registratúrneho plánu možno priamo v stromovej štruktúre plánu po otvorení&amp;nbsp;&lt;A href="0fe6411c-9069-4097-b90f-e69f01a61569"&gt;registratúrneho (podacieho) denníka&lt;/A&gt;. Postupujte takto:&lt;/P&gt;
+&lt;OL&gt;
+&lt;LI&gt;V&amp;nbsp;programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt; zvoľte ponuku &lt;EM&gt;CRM&lt;/EM&gt;, &lt;A href="0fe6411c-9069-4097-b90f-e69f01a61569" style="auto-update-caption: true"&gt;Registratúrny (podací) denník&lt;/A&gt;. 
+&lt;LI&gt;V ľavej časti sa nachádzajú záložky &lt;I&gt;Registratúrny plán&lt;/I&gt; a&amp;nbsp;&lt;EM&gt;Spisy&lt;/EM&gt;.&amp;nbsp;Zvoľte prvú záložku - &lt;EM&gt;Registratúrny plán&lt;/EM&gt;. 
+&lt;LI&gt;V stromovej štruktúre registratúrneho plánu vyberte príslušnú skupinu a stlačte tlačidlo &lt;EM&gt;Nový&lt;/EM&gt;, prípadne stlačte pravé tlačidlo myši. Vyberte položku &lt;EM&gt;Nová skupina&lt;/EM&gt; alebo &lt;EM&gt;Nová položka&lt;/EM&gt;. 
+&lt;LI&gt;Otvorí sa formulár &lt;EM&gt;Záznam v&amp;nbsp;registratúrnom pláne&lt;/EM&gt;, v ktorom vyplňte&amp;nbsp;požadované údaje. &lt;/LI&gt;&lt;/OL&gt;
+&lt;H5&gt;Obrázok č. 1: Formulár &lt;EM&gt;Registratúrny plán&lt;/EM&gt;&lt;/H5&gt;&lt;IMG style="BORDER-TOP: black 1px solid; BORDER-RIGHT: grey 1px solid; BORDER-BOTTOM: grey 1px solid; BORDER-LEFT: grey 1px solid" border=0 src="images/Forms/CRM/Form_CRM_RegistraturePlan.png"&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="09e5cfbe-70f7-4ba0-a964-57ffd90958e2" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="0fe6411c-9069-4097-b90f-e69f01a61569">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="e9aa44d1-b141-4e5f-9003-a782f71cca98" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="4b79a1e8-1752-4eda-95fc-5c72989d5e31">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="29ebe443-866f-4720-baf1-9e07384c7b15" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="2af84798-6d4b-40bc-8b7b-e537906a909c">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="15807c06-09df-4a76-ad2f-33df43020c8c" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="b9d813c2-1ac9-4606-b104-819ea02b6463">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="8facd999-b080-4055-ae38-7c664604ebfc">
+      <Keyword m="2015-09-07T07:13:27.4537188Z">Plán registratúry</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="daf61c3c-9fb3-4897-b963-9818ba0e7693">
+      <Keyword m="2023-12-20T09:28:14.2961875Z">Import registratúrneho plánu</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="5b5a5deb-d32e-437f-9c40-db71aada78b0">
+      <Keyword m="2023-12-20T09:28:40.0149939Z">Registratúrny plán - import</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

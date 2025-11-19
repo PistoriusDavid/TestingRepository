@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="a2d510ea-4cba-46cd-b337-c01fb332cd35" Status="Complete" CreatedOn="2015-11-16T10:17:01.8383437Z" ModifiedOn="2023-07-18T09:41:52.4120137Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="70360" Name="Menu_Wages_Workplaces" BuildFlags="">
+  <Title m="2015-11-16T10:17:33.3842422Z">Pracoviská</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-07-18T09:41:52.4120137Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;je venovaná&amp;nbsp;položke&amp;nbsp;&lt;EM&gt;Pracoviská&lt;/EM&gt; v&amp;nbsp;ponuke&amp;nbsp;&lt;EM&gt;Mzdy&lt;/EM&gt; programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Výberom položky sa otvorí&amp;nbsp;číselník&amp;nbsp;&lt;EM&gt;Pracoviská&lt;/EM&gt;,&amp;nbsp;v&amp;nbsp;ktorom je možné &lt;STRONG&gt;definovať&amp;nbsp;pracoviská&lt;/STRONG&gt; v&amp;nbsp;module&amp;nbsp;&lt;A href="bf009605-0be8-4286-8ef5-4c7d3b89143a"&gt;Mzdy&lt;/A&gt; a&amp;nbsp;&lt;A href="3883342c-9ef0-4fd9-8773-88df84f78f65"&gt;dochádzka&lt;/A&gt;. Pracovisko predstavuje &lt;STRONG&gt;miesto,&lt;/STRONG&gt; &lt;SPAN class=st&gt;&lt;STRONG&gt;kde pracovník pravidelne&amp;nbsp;vykonáva svoju prácu&lt;/STRONG&gt; (kde pracuje), a&amp;nbsp;ktoré je&lt;/SPAN&gt;&amp;nbsp;písomne dohodnuté medzi zamestnancom a zamestnávateľom v&amp;nbsp;pracovnej zmluve. V&amp;nbsp;pracovnej zmluve môže byť uvedených aj viac pracovísk (obec, organizačná jednotka, iné miesto v podniku), ale je nevyhnutné za pracovisko považovať vždy len jedno miesto. 
+&lt;LI&gt;Ak účtovná jednotka používa&amp;nbsp;&lt;A href="8df798f2-4fbf-4279-ad8c-493bdbe7f2e4"&gt;prevádzky&lt;/A&gt;, pracovisko &lt;STRONG&gt;je možné vytvoriť len na základe príslušnosti k prevádzke&lt;/STRONG&gt;. Preto je pred vytvorením nového pracoviska potrebné v&amp;nbsp;hornej časti číselníka vybrať konkrétnu prevádzku. 
+&lt;LI&gt;K jednej prevádzke môže byť definovaných viacero pracovísk. Napr. prevádzka &lt;EM&gt;Pobočka v Košiciach&lt;/EM&gt; má tieto pracoviská: &lt;EM&gt;Oddelenie podpory, Obchodné oddelenie, Oddelenie predaja&lt;/EM&gt; a pod. 
+&lt;LI&gt;Ku každému pracovisku&amp;nbsp;je možné evidovať&amp;nbsp;základné údaje (názov, adresa, okres...),&amp;nbsp;meno zodpovedného vedúceho a kontaktné údaje, prípadne nastaviť členenie. Pri definovaní okresu (po stlačení tlačidla &lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_ListButton.png"&gt;&amp;nbsp;pri poli &lt;EM&gt;Okres&lt;/EM&gt;) sa do poľa &lt;I&gt;Kód okresu&lt;/I&gt;&amp;nbsp;zadáva číslo okresu pracoviska podľa &lt;EM&gt;Číselníka okresov Slovenskej republiky&lt;/EM&gt;. Údaj sa využíva na štatistické účely, konkrétne pre &lt;A href="3a260235-ceef-4dec-9bbe-b5e34ed1f880"&gt;Informačný systém o cene práce (ISCP)&lt;/A&gt;. 
+&lt;LI&gt;Pracovisko je možné označiť&amp;nbsp;za neaktívne.&amp;nbsp;Vtedy&amp;nbsp;ho program nebude ponúkať na výber a&amp;nbsp;v&amp;nbsp;číselníku &lt;EM&gt;Pracoviská&lt;/EM&gt; sa bude zobrazovať&amp;nbsp;&lt;SPAN style="COLOR: rgb(127,127,127)"&gt;&lt;STRONG&gt;sivou farbou&lt;/STRONG&gt;&lt;/SPAN&gt;. 
+&lt;LI&gt;Pracoviská sa priraďujú k pracovným pomerom vo&amp;nbsp;&lt;A href="95a3b7e2-6135-4860-a655-5724b186b94c"&gt;formulári Pracovný pomer pracovníka,&lt;/A&gt; záložka &lt;EM&gt;Základné&lt;/EM&gt;), čo umožňuje identifikovať&amp;nbsp;príslušnosť pracovníkov k&amp;nbsp;pracoviskám. Údaje o pracovisku, ktoré je už priradené k pracovným pomerom, je možné dodatočne upravovať; pri zmene názvu pracoviska sa zmení názov aj v už spracovaných mzdách. 
+&lt;LI&gt;Podľa pracoviska je možné získať prehľad o vyplatených mzdách za jednotlivé pracoviská. &lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="83ded546-3343-4d82-8f55-da07ccb91ea0" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="8df798f2-4fbf-4279-ad8c-493bdbe7f2e4">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="97a23501-a226-41ff-852e-11502df4ce63" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="3fced304-5201-4497-bb58-104c1fd77990">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="739eec73-6f46-489d-932f-0d5fd8cd9ef9" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="95a3b7e2-6135-4860-a655-5724b186b94c">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="04665e2a-8725-4b2e-ad3d-29d7a697a07a" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="3a260235-ceef-4dec-9bbe-b5e34ed1f880">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="84ce2ffc-18e5-4f24-96e4-4cbdaa462f56">
+      <Keyword m="2023-07-12T06:58:19.0748112Z">Mzdy - pracoviská</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

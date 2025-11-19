@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="6e8e65c8-c776-4e45-bf3b-65fca66a1eff" Status="Complete" CreatedOn="2014-09-10T06:50:46.0471079Z" ModifiedOn="2024-06-13T09:08:04.4850082Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="51012" Name="Stock_Advanced_Stock_Cards_Import" BuildFlags="">
+  <Title m="2014-09-10T06:51:10.1334856Z">Import skladových kariet</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-06-13T09:08:04.4850082Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;informácie o možnostiach jednorazového importu skladových kariet&lt;/STRONG&gt; v&amp;nbsp;systéme OBERON.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Systém OBERON umožňuje &lt;STRONG&gt;jednorazový import nových skladových&amp;nbsp;položiek do aktuálne vybraného skladu&lt;/STRONG&gt; pomocou funkcie &lt;EM&gt;&lt;STRONG&gt;Import skladových kariet&lt;/STRONG&gt;&lt;/EM&gt; (ponuka &lt;EM&gt;Sklad&lt;/EM&gt;, &lt;A href="1a33ab0b-2df7-4dc2-962b-8a3319c16831"&gt;Skladové karty&lt;/A&gt;, tlačidlo &lt;EM&gt;Možnosti&lt;/EM&gt;). Funkcia sa využíva v&amp;nbsp;prípade potreby naimportovať nové skladové karty spravidla po vytvorení nového skladu, pričom je možné importovať aj počiatočné stavy na skladových kartách. Na aktualizáciu skladových kariet je možné využiť inú funkciu - &lt;EM&gt;Import (len aktualizácia) údajov na skladovej karte zo súboru typu XLSX&lt;/EM&gt; (ponuka &lt;EM&gt;Sklad&lt;/EM&gt;, &lt;A href="1a33ab0b-2df7-4dc2-962b-8a3319c16831"&gt;Skladové karty&lt;/A&gt;, tlačidlo &lt;EM&gt;Možnosti&lt;/EM&gt; - pozri informácie na konci témy). 
+&lt;LI&gt;V&amp;nbsp;systéme OBERON je možné zvoliť tieto zdroje údajov na import skladových kariet: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;&lt;EM&gt;Z iného skladu&lt;/EM&gt;&lt;/STRONG&gt; - pri zvolení tejto možnosti&amp;nbsp;sa importujú všetky skladové karty z iného skladu tej istej firmy. 
+&lt;LI&gt;&lt;B&gt;&lt;EM&gt;Z inej firmy&lt;/EM&gt;&lt;/B&gt; - pri zvolení tejto možnosti sa importujú všetky skladové karty z vybraného skladu, no inej účtovnej jednotky (databázy OBERON). 
+&lt;LI&gt;&lt;B&gt;&lt;EM&gt;Zo súboru typu XLSX&lt;/EM&gt;&lt;/B&gt; - pri zvolení tejto možnosti sa importujú skladové karty zo vzorového súboru typu XLSX (&lt;EM&gt;Libre Office,&lt;/EM&gt; &lt;EM&gt;Microsoft Excel&lt;/EM&gt;). Importovať možno len jednoduché karty, nie receptúry, ani výrobky a ani služby. Súbor musí byť presne definovaného formátu, získať ho možno pomocou&amp;nbsp;&lt;A href="a1ae5eb5-f369-4aab-80b2-c6585166d550"&gt;Správcu doplnkov&lt;/A&gt; (bližšie informácie nájdete nižšie). 
+&lt;LI&gt;&lt;STRONG&gt;&lt;EM&gt;Zo súboru typu XML&lt;/EM&gt;&lt;/STRONG&gt; - pri zvolení tejto možnosti sa importujú skladové karty zo súboru typu XML. Importovať možno len jednoduché karty (nie receptúry, výrobky ani služby). Súbor je možné získať exportom skladových kariet do XML, prípadne exportom skladových kariet pre internetový obchod. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Počiatočné stavy je možné docieliť automatickým&amp;nbsp;&lt;A href="62db2271-9ae9-4968-b790-47a07e7c6aef"&gt;vytvorením príjemky&lt;/A&gt; s&amp;nbsp;druhom pohybu &lt;EM&gt;Počiatočný stav&lt;/EM&gt; a s&amp;nbsp;množstvom položiek rovnajúcim sa aktuálnemu stavu na skladových kartách v zdrojovom sklade, prípadne v súbore typu XLSX, resp. XML (v sprievodcovi importom je potrebné začiarknuť pole &lt;EM&gt;Importovať aj množstvá&lt;/EM&gt;). Pri importe počiatočných stavov je vhodné&amp;nbsp;nemať v&amp;nbsp;zdrojovom sklade&amp;nbsp;záporné stavy na kartách, inak sa do&amp;nbsp;&lt;A href="062891b1-9360-4c09-9c7b-9474a28e7849"&gt;príjemky&lt;/A&gt; načítajú záporné množstvá. 
+&lt;LI&gt;Import odporúčame vykonávať &lt;STRONG&gt;do prázdneho skladu&lt;/STRONG&gt;. Pokiaľ sa import vykonáva do už existujúceho skladu so skladovými položkami, pri nájdení zhodnej skladovej karty sa pôvodná zachová&amp;nbsp;(za zhodnú kartu sa považuje karta s rovnakým názvom a&amp;nbsp;číslom). Do skladu sa&amp;nbsp;však importuje aj nová skladová karta, pričom sa jej pridá odlišovací znak do názvu a do čísla. 
+&lt;LI&gt;Import odporúčame vykonávať &lt;STRONG&gt;len na hromadné vytvorenie skladových kariet pri zakladaní nového skladu&lt;/STRONG&gt;. Mnohonásobné importovanie do už používaného skladu vedie k pretečeniu identifikátorov skladových kariet, čo má za následok nefunkčnosť databázy v&amp;nbsp;systéme OBERON.&amp;nbsp;Rovnako to vedie k viacnásobnému vzniku duplicít už existujúcich skladových kariet.&amp;nbsp;Na vytvorenie kópie skladovej karty v inom sklade odporúčame využívať funkcie kopírovania skladových kariet (&lt;EM&gt;Ctrl+C, Ctrl+V&lt;/EM&gt;), prípadne pri použití &lt;I&gt;Výdajky&lt;/I&gt; typu &lt;I&gt;Prevodka&lt;/I&gt; sa automaticky vytvorí neexistujúca skladová karta v sklade. 
+&lt;LI&gt;Skladové karty (zdroja a cieľa) možno synchronizovať (párovať) podľa nasledujúcich polí: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;B&gt;&lt;EM&gt;Čísla skladovej karty,&lt;/EM&gt;&lt;/B&gt; 
+&lt;LI&gt;&lt;B&gt;&lt;EM&gt;Čiarového kódu,&lt;/EM&gt;&lt;/B&gt; 
+&lt;LI&gt;&lt;STRONG&gt;&lt;EM&gt;Kódu pre Pokladnicu OBERON (Kód položky),&lt;/EM&gt;&lt;/STRONG&gt; 
+&lt;LI&gt;&lt;STRONG&gt;&lt;EM&gt;Čísla PLU,&lt;/EM&gt;&lt;/STRONG&gt; 
+&lt;LI&gt;&lt;STRONG&gt;&lt;EM&gt;Katalógového označenia,&lt;/EM&gt;&lt;/STRONG&gt; 
+&lt;LI&gt;&lt;STRONG&gt;&lt;EM&gt;Klasifikácie produkcie.&lt;/EM&gt;&lt;/STRONG&gt; &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Údaje skladových kariet je možné importovať aj v&amp;nbsp;cudzom jazyku. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Vybrané pole skladovej karty &lt;STRONG&gt;musí byť zhodné&lt;/STRONG&gt; v zdrojovej aj cieľovej tabuľke skladových kariet (iný sklad, XLSX zošit).&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Postup importovania skladových kariet&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;Ak ešte nemáte v systéme OBERON vytvorenú (založenú) firmu, vytvorte ju&amp;nbsp;- bližšie informácie nájdete v téme &lt;A href="9a485893-6dd2-44e8-9740-a4cd7083a932" style="auto-update-caption: true"&gt;Vytvorenie účtovnej jednotky (databázy)&lt;/A&gt;. 
+&lt;LI&gt;V&amp;nbsp;programe&amp;nbsp;&lt;EM&gt;OBERON - Agenda firmy&amp;nbsp;&lt;/EM&gt;v&amp;nbsp;ponuke &lt;EM&gt;Sklad&lt;/EM&gt;,&amp;nbsp;&lt;A href="1e423d36-8e0a-4420-b2e9-05f12806ec3a"&gt;Sklady&lt;/A&gt; odporúčame&amp;nbsp;vytvoriť nový sklad, do ktorého sa majú importovať skladové karty. Import je však možné vykonať aj do už existujúceho skladu so skladovými položkami. 
+&lt;LI&gt;Otvorte knihu &lt;A href="1a33ab0b-2df7-4dc2-962b-8a3319c16831"&gt;Skladové karty&lt;/A&gt; a pomocou filtra &lt;EM&gt;Sklad&lt;/EM&gt; v hornej časti evidencie vyberte sklad, do ktorého sa majú importovať nové položky. 
+&lt;LI&gt;Stlačte tlačidlo &lt;I&gt;Možnosti,&lt;/I&gt; vyberte možnosť&amp;nbsp;&lt;I&gt;Import skladových kariet&lt;/I&gt;. Zobrazí sa sprievodca, pomocou ktorého je možné importovať skladové karty. Zvoľte zdroj údajov, t. j. odkiaľ sa majú importovať údaje. 
+&lt;LI&gt;V ďalšom kroku podľa pokynov sprievodcu vyberte sklad, databázu inej firmy, prípadne súbor typu XLSX, resp. XML. 
+&lt;LI&gt;Po stlačení tlačidla &lt;I&gt;Dokončiť&lt;/I&gt; sa do aktuálne vybraného skladu importujú skladové položky. &lt;/LI&gt;&lt;/OL&gt;
+&lt;H2&gt;Ďalšie informácie o importe zo súboru XLSX&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Pri importe skladových&amp;nbsp;kariet nie je možné použiť ľubovoľný súbor XLSX,&amp;nbsp;ale&amp;nbsp;len &lt;STRONG&gt;vzorový&lt;/STRONG&gt; (s vopred definovaným formátom). Takýto súbor je možné získať v&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="a1ae5eb5-f369-4aab-80b2-c6585166d550"&gt;Správca doplnkov&lt;/A&gt;, oddiel &lt;EM&gt;Ostatné&lt;/EM&gt; nainštalovaním doplnku &lt;EM&gt;Import skladových kariet zo súboru typu XLSX&lt;/EM&gt;. 
+&lt;LI&gt;Doplnok obsahuje vzorový súbor typu XLSX s názvom &lt;EM&gt;&lt;STRONG&gt;SkladoveKarty_Import,&lt;/STRONG&gt;&lt;/EM&gt; do ktorého je možné spravidla pomocou schránky (clipboard) nakopírovať údaje skladových kariet z iného systému (&lt;EM&gt;Ctrl+C&lt;/EM&gt;/&lt;EM&gt;Ctrl+V&lt;/EM&gt;). Po nainštalovaní doplnku sa tento vzorový súbor uloží do adresára &lt;EM&gt;C:\OBERON_Export_Import&lt;/EM&gt;. 
+&lt;LI&gt;Daný vzorový súbor je možné upraviť v rôznych tabuľkových kalkulátoroch (napr. &lt;EM&gt;LibreOffice, Microsoft Excel&lt;/EM&gt;), pričom tabuľkový kalkulátor musí byť nainštalovaný v počítači aj pri samotnom importe. V súbore je potrebné v prvom (červenom) riadku z rozbaľovacích zoznamov správne vybrať jednotlivé polia v OBERON-e, ku ktorým sa majú priradiť údaje v daných stĺpcoch a do ktorých sa tieto údaje následne naimportujú. 
+&lt;LI&gt;Pri napĺňaní stĺpcov údajmi je potrebné dodržať nasledujúce pokyny: 
+&lt;UL&gt;
+&lt;LI&gt;prvý (červený)&amp;nbsp;riadok v súbore &lt;STRONG&gt;musí byť zachovaný&lt;/STRONG&gt;, pričom v jednotlivých stĺpcoch je&amp;nbsp;potrebné z&amp;nbsp;rozbaľovacích zoznamov vybrať&amp;nbsp;názov stĺpca (t.&amp;nbsp;j. jednotlivé polia v OBERON-e, napr. &lt;EM&gt;Názov, Čiarový kód, Kód položky, MJ&lt;/EM&gt; atď.), 
+&lt;LI&gt;vo vzorovom súbore &lt;STRONG&gt;musí byť zadané pole&amp;nbsp;na synchronizáciu&lt;/STRONG&gt;&amp;nbsp;zvolené v sprievodcovi importom, podľa ktorého sa budú skladové karty v zdrojovej a cieľovej evidencii vyhľadávať (synchronizovať), 
+&lt;LI&gt;povinné údaje sú &lt;I&gt;Číslo&lt;/I&gt;, &lt;I&gt;Názov&lt;/I&gt;, &lt;I&gt;Merná jednotka (MJ)&lt;/I&gt; a pri importe množstiev aj &lt;I&gt;Množstvo&lt;/I&gt; a &lt;I&gt;Obstarávacia cena,&lt;/I&gt; 
+&lt;LI&gt;prvá skladová karta musí byť umiestená na riadku 2, po ktorej budú nasledovať ďalšie, medzi jednotlivými položkami však &lt;STRONG&gt;nesmie byť prázdny riadok&lt;/STRONG&gt;, 
+&lt;LI&gt;pri importe viacerých kategórií do jednej skladovej karty postupujte podľa&amp;nbsp;nasledujúceho vzoru (príklad vyplnenia poľa na import dvoch kategórií do jednej skladovej karty): &lt;STRONG&gt;\Víno\Šumivé víno\||\Víno&lt;/STRONG&gt;.&lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Pri importe skladových kariet zo súboru XLSX&amp;nbsp;je možné naimportovať &lt;STRONG&gt;aj dodávateľov a ich katalógové označenie&lt;/STRONG&gt;. Týmto spôsobom možno na základe importu tieto údaje v systéme OBERON aktualizovať. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt; 
+&lt;UL&gt;
+&lt;LI&gt;Okrem jednorazového importu nových skladových položiek je v&amp;nbsp;systéme OBERON možné importom&amp;nbsp;zo súboru typu XLSX aj &lt;STRONG&gt;aktualizovať vybrané údaje na už existujúcich skladových kartách&lt;/STRONG&gt; (ponuka &lt;EM&gt;Sklad&lt;/EM&gt;, &lt;A href="1a33ab0b-2df7-4dc2-962b-8a3319c16831"&gt;Skladové karty&lt;/A&gt;, tlačidlo &lt;EM&gt;Možnosti - Import (len aktualizácia) údajov na skladovej karte zo súboru typu XLSX&lt;/EM&gt;). Postup je analogický ako pri jednorazovom importe skladových položiek, v&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="a1ae5eb5-f369-4aab-80b2-c6585166d550"&gt;Správca doplnkov&lt;/A&gt;, oddiel &lt;EM&gt;Ostatné&lt;/EM&gt; nainštalovaním doplnku &lt;EM&gt;Import (len aktualizovanie) údajov skladových kariet zo súboru typu XLSX&lt;/EM&gt;. 
+&lt;LI&gt;V systéme OBERON je možné importovať&amp;nbsp;zo súboru typu XLSX&amp;nbsp;&lt;STRONG&gt;predajné ceny&lt;/STRONG&gt;. Importovaním predajných cien sa rozumie nahradenie (aktualizovanie) existujúcich predajných cien vo zvolených cenových hladinách novými predajnými cenami, pričom ostatné parametre skladových kariet&amp;nbsp;ostanú zachované.&amp;nbsp;Bližšie informácie získate v téme &lt;A href="9f876a39-4860-4c68-867c-a911d0aa6c46"&gt;Import predajných cien&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="96e67a6e-d4cc-432d-8fd8-df6c2443861c" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1a33ab0b-2df7-4dc2-962b-8a3319c16831">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="ba9f2868-b252-4e5a-8e53-4743b2b1d977" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1c4fe40d-4be6-4e94-9ccc-39727c9a6a0c">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="529895ca-00b1-4655-9dd0-d3d6b7c89256">
+      <Keyword m="2021-10-13T12:25:43.4689484Z">XLSX - import (aktualizácia) skladových kariet</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="24829126-7ca6-49ae-8230-d2084aaa27a8">
+      <Keyword m="2021-10-13T12:24:52.9012075Z">Excel - import (aktualizácia) skladových kariet</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="b29f7dd4-43ca-4517-9efd-d9aa94db8c84">
+      <Keyword m="2021-10-13T12:00:57.7488797Z">Aktualizácia údajov skladových kariet - XLSX</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="2da7c4be-2d57-45c2-8623-dda2a67662ce">
+      <Keyword m="2021-10-13T12:25:22.4011131Z">Skladové karty - import (aktualizácia)</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="58f0d0b7-a715-46a5-b0d8-5848baa79921">
+      <Keyword m="2021-10-13T12:05:45.7249464Z">Jednorazový import skladových kariet</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="ad221f2e-3178-43c2-ac14-58f323e5b36a">
+      <Keyword m="2022-01-19T08:12:12.2703058Z">XLSX - jednorazový import skladových kariet</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

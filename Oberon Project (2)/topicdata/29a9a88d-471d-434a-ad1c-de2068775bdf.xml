@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="29a9a88d-471d-434a-ad1c-de2068775bdf" Status="Complete" CreatedOn="2014-09-04T12:45:57.2886Z" ModifiedOn="2022-11-07T08:02:33.4598632Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="LoyaltySystem_Cardberg" BuildFlags="">
+  <Title m="2021-12-07T09:44:56.3305879Z">Vernostný systém Cardberg</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2022-11-07T08:02:33.4598632Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje informácie o vernostnom systéme &lt;EM&gt;&lt;STRONG&gt;Cardberg&lt;/STRONG&gt;&lt;/EM&gt; - jednom z&amp;nbsp;&lt;A href="6c98a377-1b88-4eb8-801b-1f168641373b"&gt;vernostných (zľavových) systémov&lt;/A&gt; podporovaných v&amp;nbsp;systéme OBERON.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Vernostný systém&amp;nbsp;&lt;A href="https://cardberg.com/" target=_blank&gt;&lt;STRONG&gt;Cardberg&lt;/STRONG&gt;&lt;/A&gt;&amp;nbsp;predstavuje &lt;STRONG&gt;vernostný systém externého dodávateľa&lt;/STRONG&gt;, ktorý so systémom OBERON komunikuje pomocou&amp;nbsp;&lt;A href="b1032a3e-bd73-461a-92f6-02d1f210540a"&gt;externej webovej služby&lt;/A&gt; systému &lt;EM&gt;Cardberg&lt;/EM&gt;,&amp;nbsp;vďaka čomu sú údaje vernostnej karty&amp;nbsp;evidované vo webovom&amp;nbsp;serveri systému &lt;EM&gt;Cardberg&lt;/EM&gt; dostupné z&amp;nbsp;viacerých predajných miest (napr. z predajne v&amp;nbsp;Bratislave aj v&amp;nbsp;Košiciach). 
+&lt;LI&gt;Rozdiel&amp;nbsp;v&amp;nbsp;porovnaní s&amp;nbsp;vernostným systémom&amp;nbsp;&lt;A href="92147420-5d85-4b11-a328-06d401650294"&gt;OBERON vernostný systém (klient)&lt;/A&gt; je &lt;STRONG&gt;v ponuke funkcií&lt;/STRONG&gt;, ktoré sú v prípade vernostného systému &lt;EM&gt;Cardberg&lt;/EM&gt; širšie. 
+&lt;LI&gt;Na správu systému účtovnou jednotkou slúži &lt;STRONG&gt;webové administračné rozhranie&lt;/STRONG&gt;, v ktorom sa vykonávajú nastavenia vernostného programu v systéme &lt;EM&gt;Cardberg&lt;/EM&gt;, prípadne štatistiky. V samotnej prevádzke personál &lt;STRONG&gt;obsluhuje len systém OBERON&lt;/STRONG&gt;. Systém &lt;EM&gt;Cardberg&lt;/EM&gt;&amp;nbsp;zároveň obsahuje aj &lt;STRONG&gt;webové rozhranie pre zákazníka&lt;/STRONG&gt;, ktorý si tak v&amp;nbsp;prípade&amp;nbsp;záujmu môže overiť stav svojej vernostnej karty, dostupné benefity a pod. 
+&lt;LI&gt;Pri &lt;STRONG&gt;kumulovaní benefitov&lt;/STRONG&gt;&amp;nbsp;výšku bodov spravidla vypočítava systém &lt;EM&gt;Cardberg&lt;/EM&gt;,&amp;nbsp;môže tak však robiť aj OBERON. V tom prípade&amp;nbsp;sa body pripočítavajú podľa celkovej sumy dokladu (1&amp;nbsp;€ = 1 bod), prípadne sa výška bodov vypočíta podľa položiek dokladu - každý tovar či služba má stanovenú hodnotu vernostných bodov (nastavenie &lt;EM&gt;Hodnota položky v&amp;nbsp;bodoch pre kumulovanie benefitov&lt;/EM&gt; za jednu mernú jednotku vo&amp;nbsp;&lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;formulári Skladová karta&lt;/A&gt;, záložka &lt;EM&gt;Obch. partneri&lt;/EM&gt;). 
+&lt;LI&gt;&lt;STRONG&gt;Čerpanie benefitov&lt;/STRONG&gt; je výlučne v&amp;nbsp;réžii vernostného systému &lt;EM&gt;Cardberg&lt;/EM&gt;. 
+&lt;LI&gt;Tak položky na kumulovanie benefitov, ako aj položky na čerpanie benefitov (zľavnené položky či položky zdarma) sa spravidla evidujú v osobitnom sklade, ktorý je možné definovať v ponuke &lt;EM&gt;Sklad&lt;/EM&gt;,&amp;nbsp;&lt;A href="1e423d36-8e0a-4420-b2e9-05f12806ec3a"&gt;Sklady&lt;/A&gt;. 
+&lt;LI&gt;S vernostným systémom (kumulovanie a čerpanie benefitov) je možné v&amp;nbsp;OBERON-e pracovať na &lt;A href="a6f5e32d-6f1e-40bb-9d15-3f784a183252"&gt;Pokladnici OBERON&lt;/A&gt;, v evidencii &lt;A href="5c21adcc-87c8-44e7-981d-02902635693d"&gt;Kniha pohľadávok&lt;/A&gt; (vystavené faktúry) a&amp;nbsp;v evidencii &lt;A href="0be61fcc-a85b-4572-876d-2171a5cb7c29"&gt;Výdajky&lt;/A&gt;. Možnosť kumulovania a&amp;nbsp;čerpania benefitov výdajkami alebo staršími dokladmi je možné nastaviť individuálne pre každého&amp;nbsp;používateľa v&amp;nbsp;&lt;A href="834e9546-a56b-476f-9028-ef4c24a82345"&gt;právach používateľov.&lt;/A&gt; 
+&lt;LI&gt;Webový server systému &lt;EM&gt;Cardberg&lt;/EM&gt;&amp;nbsp;komunikuje so systémom OBERON pomocou&amp;nbsp;protokolu &lt;STRONG&gt;JSON&lt;/STRONG&gt;. Komunikácia prebieha pomocou sieťového protokolu &lt;B&gt;TCP-IP&lt;/B&gt;, pričom ako transportný protokol môže&amp;nbsp;slúžiť aj&amp;nbsp;&lt;B&gt;HTTP&lt;/B&gt; alebo zabezpečené &lt;B&gt;HTTPS&lt;/B&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt; 
+&lt;UL&gt;
+&lt;LI&gt;Bližšie informácie o&amp;nbsp;práci s&amp;nbsp;vernostným systémom&amp;nbsp;v module &lt;EM&gt;Pokladnica OBERON&lt;/EM&gt; je popísaný v téme&amp;nbsp;&lt;A href="7a7d2c0d-866b-42ff-89bd-19d34b0b0a11" style="auto-update-caption: true"&gt;Vernostný systém na Pokladnici OBERON&lt;/A&gt;. 
+&lt;LI&gt;Bližšie informácie o&amp;nbsp;práci s&amp;nbsp;vernostným systémom&amp;nbsp;v&amp;nbsp;&lt;A href="5c21adcc-87c8-44e7-981d-02902635693d"&gt;Knihe pohľadávok&lt;/A&gt; a v evidencii&amp;nbsp;&lt;A href="0be61fcc-a85b-4572-876d-2171a5cb7c29"&gt;Výdajky&lt;/A&gt; je popísaný v téme&amp;nbsp;&lt;A href="6463c7dc-58dd-4df8-b0d6-bf41901c1998"&gt;Vernostný systém v pohľadávkach a výdajkách&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H5&gt;Obrázok č. 1:&amp;nbsp;Vernostný systém &lt;EM&gt;Cardberg&lt;/EM&gt; - obsahuje tak webové rozhranie pre zákazníka, ako aj administračné rozhranie&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/ProductOptions/LoyaltySystem/LoyaltySystem_CardBerg_02.png"&gt;&lt;/P&gt;
+&lt;H2&gt;Vernostné karty&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Na identifikáciu zákazníkov sa používajú &lt;STRONG&gt;vernostné karty&lt;/STRONG&gt; vo forme plastových kariet s ľubovoľným grafickým návrhom dodávané systémom &lt;EM&gt;Cardberg&lt;/EM&gt;. Vernostné karty možno&amp;nbsp;zaevidovať (aktivovať)&amp;nbsp;vo &lt;A href="f63e245e-f7c1-4def-b012-21256dea3530"&gt;formulári Vernostný systém - kumulovanie/čerpanie benefitu&lt;/A&gt;, tlačidlo &lt;EM&gt;Vytvoriť kartu&lt;/EM&gt;. 
+&lt;LI&gt;Čísla kariet&amp;nbsp;sú vo forme&amp;nbsp;&lt;A href="86ce651c-2637-4165-93b4-36535a700fbf"&gt;čiarového kódu&lt;/A&gt;.&amp;nbsp;To umožňuje využiť &lt;A href="80a78093-fc45-4db9-b74b-e1f9829f7b3c"&gt;snímač čiarových kódov&lt;/A&gt;, pomocou ktorého je&amp;nbsp;aktivácia karty a následná identifikácia zákazníka pri predaji veľmi jednoduchá a rýchla. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 2:&amp;nbsp; Vernostné (zákaznícke) karty s rôznou potlačou&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/ProductOptions/LoyaltySystem/LoyaltySystem_CardBerg2.png"&gt;&lt;/P&gt;
+&lt;H2&gt;Nastavenie vernostného systému&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Nastavenie pripojenia k&amp;nbsp;externému&amp;nbsp;serveru&lt;/STRONG&gt; - vernostný systém &lt;A href="https://www.cardberg.com/" target=_blank&gt;Cardberg&lt;/A&gt;&amp;nbsp;vyžaduje pripojenie k&amp;nbsp;externému serveru, z tohto dôvodu je potrebné ešte pred nastaveniami v&amp;nbsp;systéme OBERON kontaktovať dodávateľa daného vernostného systému. 
+&lt;LI&gt;&lt;STRONG&gt;Nastavenie vernostného systému&lt;/STRONG&gt; - aby bolo možné vernostný systém v OBERON-e používať, je ho najskôr potrebné správne nakonfigurovať a nastaviť.&amp;nbsp;V&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="5a6e5663-262e-4ff0-9741-1569385d11e4"&gt;oddiel Firma, Všeobecné&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt; záložka &lt;EM&gt;Rozšírenia&lt;/EM&gt; je potrebné povoliť používanie vernostného systému. Po stlačení tlačidla &lt;EM&gt;Nastaviť&lt;/EM&gt; sa zobrazí formulár &lt;EM&gt;Vernostné systémy&lt;/EM&gt;, v&amp;nbsp;ktorom stlačte tlačidlo &lt;EM&gt;Nový&lt;/EM&gt; -&amp;nbsp;otvorí sa&amp;nbsp;&lt;A href="a35e5b68-56e0-4e4a-a271-99b4134aeaf8"&gt;formulár Vernostný systém&lt;/A&gt;&amp;nbsp;na nadefinovanie vernostného systému. V prípade potreby je možné využívať aj viac vernostných systémov súčasne, napr. svoj vlastný a zároveň nejaký iný regionálny. Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="a35e5b68-56e0-4e4a-a271-99b4134aeaf8" style="auto-update-caption: true"&gt;Formulár Vernostný systém&lt;/A&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;Nastavenie skladu&lt;/STRONG&gt; - ak kumulovanie benefitov vypočítava systém OBERON, položky na kumulovanie benefitov sa spravidla evidujú v osobitnom sklade, ktorý je možné definovať v&amp;nbsp;ponuke &lt;EM&gt;Sklad&lt;/EM&gt;,&amp;nbsp;&lt;A href="1e423d36-8e0a-4420-b2e9-05f12806ec3a"&gt;Sklady&lt;/A&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;Nastavenie&amp;nbsp;v skladových kartách&lt;/STRONG&gt; - ak kumulovanie benefitov vypočítava systém OBERON, vo&amp;nbsp;&lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;formulári Skladová karta&lt;/A&gt;, záložka&amp;nbsp;&lt;EM&gt;Obch. partneri,&lt;/EM&gt; je potrebné povoliť prácu s&amp;nbsp;vernostnými bodmi a zadať &lt;EM&gt;Hodnotu položky v bodoch pre kumulovanie benefitov&lt;/EM&gt;&amp;nbsp;za jednu mernú jednotku. Pri predaji danej skladovej karty sa vernostné body&amp;nbsp;&lt;A href="b7a48886-b367-4056-808a-59ba5f871f32"&gt;obchodného partnera&lt;/A&gt; navýšia o zadanú hodnotu.&amp;nbsp;&lt;EM&gt;Hodnota položky v bodoch pre čerpanie benefitov&lt;/EM&gt; sa nenastavuje. 
+&lt;LI&gt;&lt;STRONG&gt;Nastavenie Pokladnice OBERON&lt;/STRONG&gt; - pri využívaní vernostného systému je možné&amp;nbsp;zakázať zadávanie zliav na &lt;A href="aec074f4-3e1c-4a1e-8a80-06fcecf51156"&gt;Pokladnici OBERON&lt;/A&gt;, ak obsluha pokladnice nepoužije vernostnú kartu - v tomto prípade je potrebné&amp;nbsp;zakázať výber zákazníka manuálnym výberom z evidencie obchodných partnerov. Možno tak urobiť vo&amp;nbsp;&lt;A href="bb0e1e82-e344-4bf0-834a-a294269f2e71"&gt;formulári Pokladnica OBERON - nastavenia&lt;/A&gt;, záložka &lt;I&gt;Rozšírené,&lt;/I&gt; nastavenie &lt;I&gt;Zakázať výber obchodných partnerov zo zoznamu.&lt;/I&gt; &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Podrobný prehľad transakcií v rámci všetkých používaných vernostných systémov je dostupný v ponuke &lt;EM&gt;Sklad&lt;/EM&gt;,&amp;nbsp;&lt;A href="04d04395-7b97-45db-bdb1-4e36240a4b54"&gt;Vernostný systém - transakcie&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Ďalšie informácie získate na webovej stránke&amp;nbsp;&lt;A href="https://exalogic.sk/oberon/suvisiace-produkty/cardberg-vernostny-system/" target=_blank&gt;Cardberg - vernostný systém&lt;/A&gt; a na&amp;nbsp;&lt;A href="https://cardberg.com/" target=_blank&gt;webovej stránke dodávateľa&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="10e88332-4cad-41f8-8dea-ed375df5986d" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="9690f267-6ad7-4e22-9af2-675ef3d9d041">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="090e6319-386f-4b5f-95dd-ed7e59d47e07" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="6c98a377-1b88-4eb8-801b-1f168641373b">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="d5bc127e-56a4-4409-bf60-c6a16c7bff23" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="7a7d2c0d-866b-42ff-89bd-19d34b0b0a11">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="66cdd65b-a0c9-48b5-b0da-23041c65512a" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="6463c7dc-58dd-4df8-b0d6-bf41901c1998">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="ebee585e-df2a-42ed-87c5-36031fbeecdb" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="a35e5b68-56e0-4e4a-a271-99b4134aeaf8">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="a8c3dfd3-c82c-47c5-a771-38c29be39345" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="f63e245e-f7c1-4def-b012-21256dea3530">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="17e3b788-7e93-47e3-b738-16ea809f4bda" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="04d04395-7b97-45db-bdb1-4e36240a4b54">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="70eaa018-dcd9-40b8-bf5e-d8d225b1ce8a">
+      <Keyword m="2021-12-07T09:57:14.1396804Z">Kumulovanie benefitov - Cardberg</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="7812255d-ff1b-486e-bae5-8bdd9fda31c9">
+      <Keyword m="2022-04-05T11:42:25.1233874Z">Cardberg - vernostný systém</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="767b7f1a-e735-4a74-b97a-c08ad65d1586">
+      <Keyword m="2021-12-07T09:56:54.425561Z">Členovia klubu - Cardberg</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="0e4b7d62-0432-4888-8b7e-247f95931b42">
+      <Keyword m="2021-12-07T09:57:39.7431404Z">Zákaznícke karty - Cardberg</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="e851303f-23fb-465d-9017-9f2b6ec7c1ad">
+      <Keyword m="2021-12-07T09:55:18.4850178Z">Benefity - Cardberg</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="defb68e0-c8e9-4c71-8ce2-081b76a19805">
+      <Keyword m="2021-12-07T09:55:24.6367649Z">Body - Cardberg</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="ecbeb05f-e522-46d1-b3fb-36ddb8c6ff39">
+      <Keyword m="2021-12-07T09:55:33.4058188Z">Bodový systém - Cardberg</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="790691d3-91b7-4671-a274-165f90e47c55">
+      <Keyword m="2021-12-07T09:55:46.2236844Z">Čerpanie benefitov - Cardberg</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="223aefa1-b737-4b16-9953-8ed6f2005835">
+      <Keyword m="2021-12-07T09:57:46.5197304Z">Vernostná karta - Cardberg</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="cc2d7522-e844-4d49-98e3-97f27002ee60">
+      <Keyword m="2021-12-07T09:57:53.5367321Z">Vernostné karty - Cardberg</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

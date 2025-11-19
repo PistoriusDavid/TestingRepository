@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="61652504-d947-43c3-a333-eacf464a05ad" Status="Complete" CreatedOn="2024-04-15T06:00:00.9749983Z" ModifiedOn="2024-12-18T09:07:26.4174212Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="OBERON_News_2024_03" BuildFlags="{4AAE0FD4-7313-4FEE-A25F-0785B885F736},826B51BD-B6F0-4B2C-A814-029E169D018F">
+  <Title m="2024-04-15T06:01:21.7027281Z">Čo bolo nové vo verzii Marec/2024</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-12-18T09:07:26.4174212Z">&lt;P&gt;Dňa 21.03.2024&amp;nbsp;bola&amp;nbsp;vydaná nová verzia ekonomického systému OBERON s&amp;nbsp;označením &lt;STRONG&gt;Marec/2024&lt;/STRONG&gt;. V&amp;nbsp;nasledujúcej časti sú vymenované najdôležitejšie novinky, vylepšenia a&amp;nbsp;opravy oproti verzii&amp;nbsp;&lt;STRONG&gt;Január/2024&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;H2&gt;OBERON&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Elektronický archív&lt;/STRONG&gt; - v systéme OBERON bolo vykonaných viacero úprav a zmien, ktoré smerujú k plnej &lt;STRONG&gt;elektronizácii všetkých firemných dokumentov&lt;/STRONG&gt;, napr.: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;automatické uloženie prílohy k vytvoreným dokladom&lt;/STRONG&gt; -&amp;nbsp;napr. vystavená faktúra sa elektronicky podpíše a uloží ako príloha PDF k danému záznamu, 
+&lt;LI&gt;&lt;A href="f03d4e27-214d-4138-8d5a-3c65ca1ea6a4" style="auto-update-caption: true"&gt;Hromadný export príloh dokumentov&lt;/A&gt; -&amp;nbsp;funkcia, pomocou ktorej&amp;nbsp;možno hromadne exportovať elektronické prílohy dokumentov z&amp;nbsp;aktuálnej databázy (prípadne archívnej databázy) do zvoleného adresára na disku počítača, t. j. do&amp;nbsp;&lt;A href="68a24d97-e4a5-4cf4-bc7a-72262df5973e"&gt;elektronického archívu&lt;/A&gt;, 
+&lt;LI&gt;&lt;A href="98d635be-10ba-40e1-83f1-acc2366c63eb" style="auto-update-caption: true"&gt;Presun príloh dokumentov do archívu&lt;/A&gt; - funkcia, pomocou ktorej&amp;nbsp;možno hromadne presunúť elektronické prílohy dokumentov z aktuálnej databázy firmy do archívnej databázy, t. j. do&amp;nbsp;&lt;A href="68a24d97-e4a5-4cf4-bc7a-72262df5973e"&gt;elektronického archívu&lt;/A&gt;. Viac informácií získate v téme &lt;A href="68a24d97-e4a5-4cf4-bc7a-72262df5973e" style="auto-update-caption: true"&gt;Elektronický archív&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Účtovníctvo&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Neziskové organizácie&lt;/STRONG&gt; - boli opravené chyby pri výpočte účtovnej závierky (súvahe) pre neziskové organizácie. 
+&lt;LI&gt;&lt;STRONG&gt;Inventarizácia pohľadávok&lt;/STRONG&gt; - pri posudzovaní pohľadávok sa už nezohľadňuje dátum evidencie, ale dátum dodania. 
+&lt;LI&gt;&lt;STRONG&gt;Faktúry vydané&lt;/STRONG&gt; - pri pridávaní skladovej položky do faktúry pribudla možnosť automatického doplnenia typu DPH zo skladovej karty za predpokladu, že je typ evidencie DPH zadaný v skladovej predkontácii. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Skladová evidencia&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Expedícia tovaru -&lt;/STRONG&gt; v evidenciách &lt;A href="48505e8d-5f28-4063-882b-ca07f33670ef" style="auto-update-caption: true"&gt;Objednávky prijaté&lt;/A&gt;,&amp;nbsp;&lt;A href="0be61fcc-a85b-4572-876d-2171a5cb7c29" style="auto-update-caption: true"&gt;Výdajky&lt;/A&gt;,&amp;nbsp;&lt;A href="5c21adcc-87c8-44e7-981d-02902635693d" style="auto-update-caption: true"&gt;Kniha pohľadávok&lt;/A&gt;&amp;nbsp;pribudla v dokladovom formulári v záložke &lt;EM&gt;Doprava&lt;/EM&gt; záložka &lt;EM&gt;Expedícia&lt;/EM&gt;. Umožňuje zadať (evidovať) &lt;STRONG&gt;údaje potrebné na správnu expedíciu tovaru zo skladu&lt;/STRONG&gt;,&amp;nbsp;t.&amp;nbsp;j. počet a typ balíkov, ich hmotnosť, poznámku. Podľa týchto údajov je možné jednoduchšie objednať prepravcu, a to najmä vytlačiť expedičné lístky. V uvedených evidenciách pribudol tlačový výstup &lt;EM&gt;Súhrn balíkov pripravených na expedíciu&lt;/EM&gt;. Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="0a352869-3b4e-4ca4-bfbd-ad17483ed27b" style="auto-update-caption: true"&gt;Expedícia tovaru&lt;/A&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;Kategórie skladových kariet&lt;/STRONG&gt; - v&amp;nbsp;evidencii &lt;EM&gt;Skladové karty&lt;/EM&gt; (tlačidlo &lt;EM&gt;Možnosti&lt;/EM&gt;) pribudol samostatný sprievodca na hromadnú zmenu kategórií skladových kariet. Umožňuje hromadne zadať nové kategórie, pridať kategóriu k existujúcim, odstrániť alebo nahradiť existujúcu kategóriu alebo nastaviť hlavnú kategóriu. 
+&lt;LI&gt;&lt;STRONG&gt;Výdajky a príjemky&lt;/STRONG&gt; - ak sa s jedným skladom pracuje vo viacerých prevádzkach, je možné danému používateľovi zakázať prístup k dokladom z inej prevádzky, t. j. používateľovi&amp;nbsp;sa doklady zo zakázaných prevádzok nenačítajú. 
+&lt;LI&gt;&lt;STRONG&gt;Správca zálohového systému&lt;/STRONG&gt; - bola upravená štruktúra súboru CSV mesačného exportu o vyplatených zálohoch platná od 01.01.2024. 
+&lt;LI&gt;&lt;STRONG&gt;Predaj sady&lt;/STRONG&gt; - pri predaji sady bolo doplnené zohľadnenie prenesenej daňovej povinnosti. Pri zmene ceny sady (prípadne pri uplatnení zľavy) sa štandardne cena položiek sady prepočítava alikvotne. Ak je však niektorá zložka sady s prenesenou daňovou povinnosťou (nulovou sadzbou DPH), po novom sa cena tejto položky zníži o DPH a následne sa o túto sumu zníži aj celková cena sady. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Mzdy a dochádzka&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;
+&lt;DIV&gt;&lt;STRONG&gt;Dochádzkový terminál&lt;/STRONG&gt; - pri softvérovom dochádzkovom termináli bola vykonaná úprava v evidencii času - ten sa teraz získava z SQL servera (pôvodne z lokálneho počítača). Táto úprava znemožňuje používateľom zmeniť dátum v počítači, a tak si upraviť čas príchodu alebo odchodu. &lt;/DIV&gt;
+&lt;LI&gt;
+&lt;DIV&gt;&lt;STRONG&gt;Ročné hlásenie&lt;/STRONG&gt; - boli zapracované legislatívne úpravy týkajúce sa tohto hlásenia. &lt;/DIV&gt;
+&lt;LI&gt;
+&lt;DIV&gt;&lt;STRONG&gt;Ročné zúčtovanie&lt;/STRONG&gt; - bol upravený výpočet daňového bonusu za deti, keď pri prepočte po mesiacoch v niektorých prípadoch dochádzalo&amp;nbsp;k centovým rozdielom. &lt;/DIV&gt;
+&lt;LI&gt;
+&lt;DIV&gt;&lt;STRONG&gt;Mzdy -&lt;/STRONG&gt; úprava výkazu do zdravotnej poisťovne a exportu, aby nezaokrúhľovalo desatinné percentá v reporte pri pracovníkoch ŤZP (znížené poistné). &lt;/DIV&gt;
+&lt;LI&gt;
+&lt;DIV&gt;&lt;STRONG&gt;Potvrdenie o zdaniteľnej mzde&lt;/STRONG&gt; - oprava nesprávneho vyplnenia mesiacov daňového bonusu v exporte do PDF.&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/DIV&gt;
+&lt;LI&gt;
+&lt;DIV&gt;&lt;STRONG&gt;Úprava výpočtu minimálneho odvodu do ZP&lt;/STRONG&gt; – zmena výšky percenta pre výpočet odvodov za zamestnávateľa podľa platnej legislatívy. &lt;/DIV&gt;&lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;PrestaShop&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Rozšírená cenotvorba&lt;/STRONG&gt; -&amp;nbsp;pri pravidle &lt;EM&gt;Štandardná zľava v percentách&lt;/EM&gt; pribudla možnosť zasielať do internetového obchodu zápornú zľavu z predajnej ceny (navýšenie). To je možné využiť, ak chceme do internetového obchodu zasielať položky s vyššou cenou. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;ASTON - mobilný skladník&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Zariadenia UNITECH&lt;/STRONG&gt; - pribudla podpora snímača čiarových kódov tohto zariadenia. 
+&lt;LI&gt;&lt;STRONG&gt;Expedícia tovaru&lt;/STRONG&gt; - pri vyskladnení tovaru pribudla možnosť zadať do výdajky (prijatej objednávky) aj údaje potrebné na správnu expedíciu tovaru zo skladu, t.&amp;nbsp;j. počet a druh balíkov, hmotnosť, poznámku k baleniu. Na základe týchto údajov je možné jednoducho objednať dopravu u prepravnej služby. Viac informácií v téme&amp;nbsp;&lt;A href="0a352869-3b4e-4ca4-bfbd-ad17483ed27b" style="auto-update-caption: true"&gt;Expedícia tovaru&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;LUKUL - nielen mobilný čašník&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Vyhľadávanie&lt;/STRONG&gt; - oprava chyby, keď v poli na vyhľadanie skladovej položky sa automaticky nezobrazovala klávesnica (bolo potrebné klepnúť na dané políčko). &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;SPAN&gt;V prípade preskočenia viacerých verzií programu je dôležité si prečítať informácie o novinkách, vylepšeniach a opravách&amp;nbsp;aj&amp;nbsp;z&amp;nbsp;&lt;A href="dc832235-0e36-4aac-ae54-e51641eb2f50"&gt;predchádzajúcich verzií&lt;/A&gt;&lt;STRONG&gt;.&lt;/STRONG&gt; V&amp;nbsp;niektorej z predošlých verzií mohlo dôjsť k&amp;nbsp;dôležitým zmenám, o&amp;nbsp;ktorých je v niektorých prípadoch nevyhnutné vedieť.&lt;/SPAN&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="c7357ab9-e0d8-47e3-b432-b3034ba1bd58" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="dc832235-0e36-4aac-ae54-e51641eb2f50">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="0aff6ea2-d3f9-4c1e-9000-f2192f9f2edc">
+      <Keyword m="2014-11-24T11:38:34.3847265Z">Verzia</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

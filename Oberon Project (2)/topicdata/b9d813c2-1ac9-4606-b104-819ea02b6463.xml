@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="b9d813c2-1ac9-4606-b104-819ea02b6463" Status="Complete" CreatedOn="2014-09-11T06:57:08.1597608Z" ModifiedOn="2024-05-23T08:54:32.9881257Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="false" HelpContextIds="90250" Name="CRM_Registrature_Started_Writings" BuildFlags="">
+  <Title m="2014-09-11T06:57:21.991552Z">Spisy</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-05-23T08:54:32.9881257Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;informácie o&amp;nbsp;zaraďovaní registratúrnych záznamov do spisov&lt;/STRONG&gt; v&amp;nbsp;module&amp;nbsp;&lt;A href="f1a6963d-36aa-4134-92a5-fa47a4345e74"&gt;CRM a registratúra&lt;/A&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Registratúrne záznamy, ktoré sú priradené do rôznych skupín v&amp;nbsp;&lt;A href="e24eddba-71a4-4980-9396-4947da76375a"&gt;registratúrnom pláne&lt;/A&gt;, ale logicky k sebe patria, sa zaraďujú do spisov. Spis predstavuje registratúrny záznam alebo súbor registratúrnych záznamov, ktoré vznikli pri vybavovaní jednej veci a&amp;nbsp;účtovná jednotka&amp;nbsp;ich zaevidovala v&amp;nbsp;&lt;A href="0fe6411c-9069-4097-b90f-e69f01a61569"&gt;registratúrnom (podacom) denníku&lt;/A&gt;. 
+&lt;LI&gt;Začleňovanie registratúrnych záznamov&amp;nbsp;do spisov tak poskytuje na jednom mieste vysoký prehľad o rôznych dlhodobých konaniach. Vybratím spisu sa všetky navzájom súvisiace registratúrne záznamy zobrazia vedľa seba bez ohľadu na ich zaradenie&amp;nbsp;v registratúrnom pláne. Možno tak rýchlo pristúpiť k záznamom, ktoré sa nachádzajú v rôznych častiach registratúrneho plánu, ale spolu súvisia. 
+&lt;LI&gt;Spisy sa v&amp;nbsp;programe&amp;nbsp;zobrazujú v&amp;nbsp;&lt;STRONG&gt;stromovej štruktúre&lt;/STRONG&gt;, ktorú možno utvárať&amp;nbsp;podľa&amp;nbsp;potrieb účtovnej jednotky.&amp;nbsp;V&amp;nbsp;rámci stromovej štruktúry je možné definovať&amp;nbsp;&lt;STRONG&gt;skupiny (vetvy)&lt;/STRONG&gt;&amp;nbsp;a k nim priradené&amp;nbsp;&lt;STRONG&gt;spisy (listy)&lt;/STRONG&gt;. 
+&lt;LI&gt;Do&amp;nbsp;spisu v&amp;nbsp;stromovej štruktúre možno zaradiť každý záznam v registratúrnom (podacom) denníku. Možno tak urobiť vo &lt;A href="2af84798-6d4b-40bc-8b7b-e537906a909c"&gt;formulári Záznam v registratúrnom (podacom) denníku&lt;/A&gt;, tlačidlo&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_ListButton.png"&gt;&amp;nbsp; pri poli &lt;EM&gt;Číslo spisu&lt;/EM&gt;. 
+&lt;LI&gt;Na zobrazenie registratúrnych záznamov zaradených&amp;nbsp;do konkrétneho spisu je potrebné v&amp;nbsp;stromovej štruktúre &lt;STRONG&gt;začiarknuť políčko pred názvom spisu&lt;/STRONG&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Vytváranie&amp;nbsp;skupín a spisov&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Spisy možno definovať a upravovať buď priamo v&amp;nbsp;stromovej štruktúre v&amp;nbsp;&lt;A href="0fe6411c-9069-4097-b90f-e69f01a61569"&gt;Registratúrnom (podacom) denníku&lt;/A&gt; (pravé tlačidlo myši),&amp;nbsp;alebo vo &lt;A href="2af84798-6d4b-40bc-8b7b-e537906a909c"&gt;formulári Záznam v registratúrnom (podacom) denníku&lt;/A&gt;, tlačidlo&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_ListButton.png"&gt;&amp;nbsp; pri poli &lt;EM&gt;Číslo spisu&lt;/EM&gt; (tlačidlo &lt;EM&gt;Nový&lt;/EM&gt;). 
+&lt;UL&gt;
+&lt;LI&gt;&lt;EM&gt;Nová skupina -&lt;/EM&gt; pridá skupinu (vetvu&amp;nbsp;stromu)&lt;EM&gt;,&lt;/EM&gt; 
+&lt;LI&gt;&lt;EM&gt;Nový spis -&lt;/EM&gt; vytvorí položku (list stromu) pod kurzorom označenou skupinou. &lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 1: Vytváranie nových skupín a&amp;nbsp;spisov v &lt;EM&gt;Registratúrnom (podacom)denníku&lt;/EM&gt;&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/CRM/Registry/CRM_Registrature_Files.png"&gt;&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="1e434083-90ae-4296-8432-71bf019bf4c7" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="0fe6411c-9069-4097-b90f-e69f01a61569">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="f99ad4f0-1163-4c01-901a-a8491a427af3" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="4b79a1e8-1752-4eda-95fc-5c72989d5e31">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="399477f9-c841-4760-a574-d91e55a333c1" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="2af84798-6d4b-40bc-8b7b-e537906a909c">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="7323bd4a-5ff7-4cd6-9cfa-df7c71395c4a" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="e24eddba-71a4-4980-9396-4947da76375a">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="388319a1-a177-488b-af75-b9ceb8280371" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="5d728358-074b-4fe2-8ba7-bc9f6dba02c7">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="b130dd2c-96b0-4a5f-aa11-ebae12502560">
+      <Keyword m="2023-05-23T12:56:58.1731684Z">Spisy - registratúra</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="336321c5-cbf9-4ae3-bcbf-dee120130d5b">
+      <Keyword m="2023-05-23T12:56:47.4449965Z">Skupiny spisov - registratúra</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="905a8ca0-eac4-4ba5-9cd4-489ddf901239">
+      <Keyword m="2023-05-23T12:57:10.2561781Z">Spis - registratúra</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

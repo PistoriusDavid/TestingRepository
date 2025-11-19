@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="f6de9f99-2b83-4075-99cf-98684bee04d8" Status="Complete" CreatedOn="2025-08-25T07:24:23.7313645Z" ModifiedOn="2025-08-25T08:44:59.3705374Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="30440" Name="AccDouble_Advanced_CardPayments_ReceiptChecking" BuildFlags="">
+  <Title m="2025-08-25T07:34:11.1294236Z">Kontrola bločkov pri platbe kartou</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2025-08-25T08:42:42.2106867Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;informácie o&amp;nbsp;možnostiach kontroly&amp;nbsp;pokladničných dokladov (bločkov)&amp;nbsp;pri&amp;nbsp;platbe debetnou&amp;nbsp;platobnou kartou v&amp;nbsp;účtovnom denníku&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;V&amp;nbsp;systéme OBERON je v&amp;nbsp;module &lt;EM&gt;Podvojné účtovníctvo&lt;/EM&gt;&amp;nbsp;dostupná funkcia &lt;STRONG&gt;na automatickú kontrolu zaúčtovaných pokladničných dokladov a&amp;nbsp;zaúčtovaných bankových transakcií&lt;/STRONG&gt;. 
+&lt;LI&gt;Funkcia sa aktivuje začiarknutím políčka &lt;STRONG&gt;&lt;EM&gt;Overiť doklad protistrany&lt;/EM&gt;&lt;/STRONG&gt; v&amp;nbsp;sprievodcovi tvorbou tlačového výstupu &lt;EM&gt;Hlavná kniha – analytické účty&lt;/EM&gt; (kniha &lt;A href="d8c9bfc8-92d1-4471-8909-e5f8ce602d6c"&gt;Účtovný denník&lt;/A&gt;). Táto voľba dá systému signál, aby pri generovaní výstupu &lt;STRONG&gt;automaticky vyhľadal súvisiaci doklad (zápis) protistrany&lt;/STRONG&gt; – napríklad k pokladničnému dokladu (bločku) vyhľadá bankovú transakciu (platbu platobnou kartou). 
+&lt;LI&gt;Samotný výdaj z bankového účtu – čiže skutočné zúčtovanie kartovej transakcie – &lt;STRONG&gt;býva zaúčtovaný s neskorším dátumom&lt;/STRONG&gt;, často o niekoľko dní neskôr. Funkcia &lt;EM&gt;Overiť doklad protistrany&lt;/EM&gt; preto automaticky vyhľadáva súvisiace doklady (zápisy) protistrany v dátumovom rozpätí 10 dní, ktoré je v systéme pevne nastavené. 
+&lt;LI&gt;Prítomnosť súvisiacich dokladov (zápisov) možno v systéme OBERON &lt;STRONG&gt;overiť&lt;/STRONG&gt; &lt;STRONG&gt;prostredníctvom samotného tlačového výstupu &lt;EM&gt;Hlavná kniha – analytické účty&lt;/EM&gt;&lt;/STRONG&gt;. Ak sa nájdu oba súvisiace doklady (zápisy), systém nesignalizuje žiadne nezrovnalosti. Naopak, ak jeden zo súvisiacich dokladov (zápisov) chýba, program na to upozorní &lt;SPAN style="COLOR: rgb(255,0,0)"&gt;&lt;STRONG&gt;červeným textom&lt;/STRONG&gt;&lt;/SPAN&gt;, čím účtovníkovi pomáha identifikovať problémové transakcie. 
+&lt;LI&gt;Možné príčiny problémov pri zaúčtovaní sú napríklad tieto: 
+&lt;UL&gt;
+&lt;LI&gt;Na úhradu sa omylom použila &lt;STRONG&gt;iná banková karta&lt;/STRONG&gt; (napr. súkromná a pod.). 
+&lt;LI&gt;Nie je k&amp;nbsp;dispozícii &lt;STRONG&gt;pokladničný doklad&lt;/STRONG&gt; (stratil sa, podnikateľ alebo zamestnanec&amp;nbsp;ho nedodal účtovníkovi a pod.). &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Funkciu je možné analogicky použiť aj pri iných analytických účtoch. &lt;/LI&gt;&lt;/UL&gt;
+&lt;P&gt;&lt;STRONG&gt;Príklad&lt;/STRONG&gt;: podnikateľ zaplatí &lt;STRONG&gt;debetnou kartou&lt;/STRONG&gt; za pohonné hmoty. Vyhotovený &lt;STRONG&gt;pokladničný doklad&lt;/STRONG&gt; sa následne zaúčtuje do účtovného denníka takto:&lt;/P&gt;&lt;!-- /wp:list-item --&gt;
+&lt;TABLE style="WIDTH: 800px"&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TD&gt;&lt;B&gt;P. č.&lt;/B&gt;&lt;/TD&gt;
+&lt;TD&gt;&lt;B&gt;Text&lt;/B&gt;&lt;/TD&gt;
+&lt;TD&gt;&lt;B&gt;Účet MD&lt;/B&gt;&lt;/TD&gt;
+&lt;TD&gt;&lt;B&gt;Suma MD&lt;/B&gt;&lt;/TD&gt;
+&lt;TD&gt;&lt;B&gt;Účet DAL&lt;/B&gt;&lt;/TD&gt;
+&lt;TD&gt;&lt;B&gt;Suma DAL&lt;/B&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD rowSpan=6&gt;1.&lt;/TD&gt;
+&lt;TD&gt;&lt;B&gt;Účtovanie bločku&lt;/B&gt;&lt;/TD&gt;
+&lt;TD&gt;&lt;/TD&gt;
+&lt;TD&gt;&lt;/TD&gt;
+&lt;TD&gt;&lt;/TD&gt;
+&lt;TD&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD&gt;Bloček za nákup PHL:&lt;/TD&gt;
+&lt;TD&gt;&lt;/TD&gt;
+&lt;TD&gt;&lt;/TD&gt;
+&lt;TD&gt;&lt;/TD&gt;
+&lt;TD&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD&gt;a) nákup PHL spolu&lt;/TD&gt;
+&lt;TD&gt;&lt;/TD&gt;
+&lt;TD&gt;&lt;/TD&gt;
+&lt;TD&gt;&lt;STRONG&gt;261&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD&gt;123&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD&gt;b) nákup PHL (bez DPH)&lt;/TD&gt;
+&lt;TD&gt;&lt;STRONG&gt;501&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD&gt;100&lt;/TD&gt;
+&lt;TD&gt;&lt;/TD&gt;
+&lt;TD&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD&gt;c) DPH&lt;/TD&gt;
+&lt;TD&gt;&lt;STRONG&gt;343&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD&gt;23&lt;/TD&gt;
+&lt;TD&gt;&lt;/TD&gt;
+&lt;TD&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD colSpan=6&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD rowSpan=3&gt;2.&lt;/TD&gt;
+&lt;TD&gt;&lt;B&gt;Účtovanie bankového výpisu&lt;/B&gt;&lt;/TD&gt;
+&lt;TD&gt;&lt;/TD&gt;
+&lt;TD&gt;&lt;/TD&gt;
+&lt;TD&gt;&lt;/TD&gt;
+&lt;TD&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD&gt;Banková&amp;nbsp;transakcia:&lt;/TD&gt;
+&lt;TD&gt;&lt;/TD&gt;
+&lt;TD&gt;&lt;/TD&gt;
+&lt;TD&gt;&lt;/TD&gt;
+&lt;TD&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD&gt;a) platba kartou&lt;/TD&gt;
+&lt;TD&gt;&lt;STRONG&gt;261&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD&gt;123&lt;/TD&gt;
+&lt;TD&gt;&lt;STRONG&gt;221&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD&gt;123&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD colSpan=6&gt;&lt;B&gt;Legenda:&lt;/B&gt;&lt;BR&gt;261 - Peniaze na ceste&lt;BR&gt;501 - Spotreba materiálu&lt;BR&gt;343 - Daň z pridanej hodnoty&lt;BR&gt;221 - Bankové účty&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="bc7b0b80-7e33-4bc8-80ee-c716a2eb473f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="d8c9bfc8-92d1-4471-8909-e5f8ce602d6c">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="d545049d-d08d-4af6-8339-7ae239e2207f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="cf9e27af-d4c5-4b0c-9b37-78cfa72b9abd">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="c0244395-308d-4395-87c4-b3ea2e30d7cc" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1a074e9a-9cf9-4ab8-b9a8-68575142a704">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="302fbc17-1e12-4ea0-bfee-024ed97d466b">
+      <Keyword m="2025-08-25T08:40:02.4517791Z">Overiť doklad protistrany</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="3b2ff0b1-a778-4cd0-b891-24cd59c19ddb">
+      <Keyword m="2025-08-25T08:41:22.0901795Z">Hlavná kniha – analytické účty</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

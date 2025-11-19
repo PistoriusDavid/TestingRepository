@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="2de6a480-b7ce-451e-8758-d63b7908140c" Status="Complete" CreatedOn="2021-05-12T12:32:52.3646024Z" ModifiedOn="2022-11-08T12:28:13.1015643Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="80470" Name="Form_CashRegister_Tables_QRLukulWaiter" BuildFlags="">
+  <Title m="2021-05-12T12:33:54.2373561Z">Sprievodca QR kód pre režim čašníka aplikácie LUKUL</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2022-11-08T12:11:50.6537584Z">&lt;P&gt;&lt;SPAN&gt;Sprievodca&amp;nbsp;&lt;EM&gt;QR kód pre režim čašníka aplikácie LUKUL&lt;/EM&gt; umožňuje &lt;STRONG&gt;vygenerovať QR kódy pre obsluhu na prihlásenie do WiFi siete reštauračného zariadenia a&amp;nbsp;nastavenie komunikácie&lt;/STRONG&gt; pre&amp;nbsp;režim &lt;EM&gt;&lt;STRONG&gt;LUKUL - mobilný čašník&lt;/STRONG&gt;&lt;/EM&gt;. Sprievodca je dostupný z&amp;nbsp;programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;,&amp;nbsp;&lt;A href="621f9ff1-bc7a-40af-9c1e-be72be87c01e"&gt;formulár Nastavenie automatickej úlohy 'WebServices API - Pokladnica OBERON'&lt;/A&gt;, záložka &lt;EM&gt;Komunikácia&lt;/EM&gt;, tlačidlo&amp;nbsp;&lt;EM&gt;Vygenerovať QR kód&lt;/EM&gt;.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Na prihlásenie&amp;nbsp;obsluhy (v režime &lt;EM&gt;LUKUL - mobilný čašník&lt;/EM&gt;) do WiFi siete reštauračného zariadenia&amp;nbsp; a nastavenie komunikácie pre režim mobilný čašník je&amp;nbsp;možné v&amp;nbsp;systéme OBERON&amp;nbsp;vygenerovať prístupové QR kódy. 
+&lt;LI&gt;Obsluha nasníma mobilným zariadením&amp;nbsp;QR kód na prihlásenie do lokálnej&amp;nbsp;WiFi siete. Následne nasníma QR kód na stiahnutie aplikácie (môže využiť QR kód vygenerovaný pomocou sprievodcu &lt;A href="959da176-93fc-4bcd-94bc-42b02aea8f91"&gt;Sprievodcu QR kódy stolov a aplikácie LUKUL&lt;/A&gt;). Po jej nainštalovaní nasníma QR kód na nastavenie komunikácie pre režim &lt;EM&gt;LUKUL - mobilný čašník&lt;/EM&gt;. Následne sa môže prihlásiť do aplikácie zadaním PIN-u. Viac informácií získate v téme&amp;nbsp;&lt;A href="20b1783a-a8ca-42a9-b2f3-80c658d62248" style="auto-update-caption: true"&gt;Aplikácia LUKUL - inštalácia&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;&amp;nbsp;Postup vygenerovanie QR kódov&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;Vo &lt;A href="621f9ff1-bc7a-40af-9c1e-be72be87c01e"&gt;formulári Nastavenie automatickej úlohy 'WebServices API - Pokladnica OBERON'&lt;/A&gt;, záložka &lt;EM&gt;Komunikácia&lt;/EM&gt;, stlačte tlačidlo&amp;nbsp;&lt;EM&gt;Vygenerovať QR kód&lt;/EM&gt;. 
+&lt;LI&gt;Otvorí sa sprievodca, v ktorom v prvom kroku: 
+&lt;UL&gt;
+&lt;LI&gt;zadajte &lt;STRONG&gt;názov siete WiFi (SSID)&lt;/STRONG&gt;, pre ktorú má byť vytvorený QR kód na pripojenie, 
+&lt;LI&gt;vyberte &lt;STRONG&gt;spôsob overovania&lt;/STRONG&gt;, 
+&lt;LI&gt;zadajte &lt;STRONG&gt;heslo siete&lt;/STRONG&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;V ďalšom&amp;nbsp;kroku zadajte údaje potrebné na pripojenie k webovej službe, s ktorou aplikácia LUKUL pracuje: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;adresa webovej služby&lt;/STRONG&gt; - zadáva sa v tvare 192.168.16.17:21005, 
+&lt;LI&gt;&lt;STRONG&gt;meno&lt;/STRONG&gt; - meno používateľa, 
+&lt;LI&gt;&lt;STRONG&gt;heslo&lt;/STRONG&gt; - heslo používateľa. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Po stlačení tlačidla &lt;EM&gt;Náhľad&lt;/EM&gt;&amp;nbsp;sa zostaví tlačový výstup&amp;nbsp;&lt;EM&gt;QR kód pre režim čašníka aplikácie LUKUL&lt;/EM&gt; s QR kódmi pre obsluhu na prihlásenie do WiFi siete reštauračného zariadenia a&amp;nbsp;nastavenie komunikácie pre režim &lt;EM&gt;LUKUL - mobilný čašník.&lt;/EM&gt; &lt;/LI&gt;&lt;/OL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="3f7f07e0-4ea7-4c8a-ad9d-2c2153bbeaf9" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="942d48d5-b290-40f6-8ba3-45cf78f380f9">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="4bb6dd8b-cff9-4406-b50a-f9cacc6b76fe" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="20b1783a-a8ca-42a9-b2f3-80c658d62248">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="908eaf92-1f53-4d95-8c46-602d93a562b4" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="621f9ff1-bc7a-40af-9c1e-be72be87c01e">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="e5568440-4912-4860-9159-2b1e4a0f78e8" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="959da176-93fc-4bcd-94bc-42b02aea8f91">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="66529bc2-27cb-4563-b1b4-a6f2bae3cc86" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="770624f5-e8d5-40f9-bf9f-bccb1839fdab">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="e496d9ef-87d1-4587-9198-d14bf8fc8f0d">
+      <Keyword m="2022-11-08T12:28:13.1015643Z">QR kódy LUKUL pre obsluhu (generovanie)</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="82c42890-2fbe-4d0d-85d4-f16b95890df0">
+      <Keyword m="2022-11-08T12:28:03.7968749Z">LUKUL - QR kódy pre obsluhu</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

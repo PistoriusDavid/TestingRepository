@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="0d06308b-64cf-4d51-bc3a-9c262750667d" Status="Complete" CreatedOn="2018-02-23T09:09:33.3750701Z" ModifiedOn="2023-10-02T13:13:34.1894862Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="70610" Name="Menu_Wages_WorkPlan" BuildFlags="">
+  <Title m="2018-02-26T10:19:25.3720276Z">Pracovné plány firmy</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-08-24T12:31:43.2491218Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;je venovaná&amp;nbsp;položke&amp;nbsp;&lt;EM&gt;Pracovné plány firmy&lt;/EM&gt;&amp;nbsp;v ponuke&amp;nbsp;&lt;EM&gt;Mzdy,&amp;nbsp;Dochádzka&lt;/EM&gt;&amp;nbsp;programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Výberom položky sa otvorí&amp;nbsp;číselník&amp;nbsp;&lt;EM&gt;Pracovné plány firmy&lt;/EM&gt;, ktorý &lt;STRONG&gt;je určený na&amp;nbsp;tvorbu pracovných plánov účtovnej jednotky&lt;/STRONG&gt;. Vytvorenie pracovného plánu (preddefinovaného zmenového kalendára) je nevyhnutné pred začatím samotnej evidencie&amp;nbsp;pracovného času a&amp;nbsp;dochádzky. 
+&lt;LI&gt;Pracovný plán firmy&amp;nbsp;pozostáva z&amp;nbsp;&lt;A href="a77380d9-dc93-41be-9423-aa76a8c7f9f4"&gt;pracovných zmien&lt;/A&gt; obsiahnutých v rozvrhoch pracovných zmien (v&amp;nbsp;závislosti od typu prevádzky).&amp;nbsp;Pracovnú zmenu &lt;EM&gt;Zákonník práce&lt;/EM&gt; definuje ako&amp;nbsp;&lt;EM&gt;„časť ustanoveného týždenného pracovného času, ktorý je zamestnanec povinný na základe vopred určeného rozvrhu pracovných zmien odpracovať v rámci 24 hodín po sebe nasledujúcich a prestávka v práci.“&amp;nbsp;&lt;/EM&gt; Základné pracovné zmeny sú v&amp;nbsp;systéme OBERON preddefinované - viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="a77380d9-dc93-41be-9423-aa76a8c7f9f4" style="auto-update-caption: true"&gt;Pracovné zmeny&lt;/A&gt;. 
+&lt;LI&gt;Pracovný plán&amp;nbsp;tvorí jedna, prípadne viacero pracovných zmien, napr. pracovný plán &lt;EM&gt;Dvojzmenná&amp;nbsp;základná&lt;/EM&gt; obsahuje dve&amp;nbsp;pracovné zmeny&amp;nbsp;- rannú a poobednú. Pri definovaní pracovného plánu sa používa aj špeciálna „zmena“ - &lt;EM&gt;Voľno&lt;/EM&gt;. Je to čas,&amp;nbsp;v ktorom&amp;nbsp;pracovník nemá pracovať. 
+&lt;LI&gt;Viac informácií k o pracovných plánoch spolu s príkladmi na vytvorenie pracovného plánu&amp;nbsp;nájdete v téme&amp;nbsp;&lt;A href="85220d47-fc01-4329-90a7-1b68f5e6e083"&gt;O pracovných plánoch firmy&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget layout="block" type="Note Box"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Vytvoriť pracovný plán firmy je možné pomocou&amp;nbsp;&lt;A href="ad99d095-e232-4990-b629-8df431cf7039"&gt;formulára Pracovný plán&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H5&gt;&amp;nbsp;Obrázok č.&amp;nbsp;1: Rozvrh zmien pracovného plánu &lt;EM&gt;Dvojzmenná krátky/dlhý&lt;/EM&gt;&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/Attendance/Attendance_dvojzmenna_kratky_dlhy.png"&gt;&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="78edf4ee-8d53-4ae9-aa65-9d78c729aa84" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="d616cd9f-1633-4d2d-b827-b072f162a1c8">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="83fc7771-035a-4101-b372-6e2811a1086a" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="ce9e15f9-7459-4a5c-8bad-db17ef7b59ea">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="dd49a969-5cf7-408a-b757-5bdee27a88c3" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="a77380d9-dc93-41be-9423-aa76a8c7f9f4">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="e1e14216-3e07-4f74-bfde-9be9f30c172e" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="85220d47-fc01-4329-90a7-1b68f5e6e083">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="d85b1a8d-05a1-4b86-886e-9d223083b27c" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="ad99d095-e232-4990-b629-8df431cf7039">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="8cc91d78-1bce-41e9-b1c2-c5407619f860">
+      <Keyword m="2023-08-24T05:58:22.4849694Z">Dochádzka - pracovné plány firmy</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

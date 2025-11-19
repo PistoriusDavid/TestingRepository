@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="654ac563-026a-455d-a98b-e523f62ef4fa" Status="Complete" CreatedOn="2014-09-09T12:24:15.8338049Z" ModifiedOn="2023-04-25T08:04:10.7454151Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Stock_Start_How_toUse_Movements_Types" BuildFlags="">
+  <Title m="2014-09-09T12:25:08.3188069Z">Ako používať druhy pohybov</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-04-25T07:54:35.5755234Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje&amp;nbsp;&lt;STRONG&gt;informácie&amp;nbsp;o&amp;nbsp;používaní&amp;nbsp;&lt;/STRONG&gt;&lt;A href="a7e1c27b-e28f-4ae9-b643-16cc1b478212"&gt;druhov pohybov&lt;/A&gt; v systéme OBERON.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Číselník&amp;nbsp;&lt;A href="a7e1c27b-e28f-4ae9-b643-16cc1b478212"&gt;Druhy pohybov&lt;/A&gt; (ponuka &lt;EM&gt;Sklad, Druhy pohybov&lt;/EM&gt;) umožňuje definovať druhy pohybov, ktoré bude účtovná jednotka pri vedení skladovej evidencie používať. Po nainštalovaní programu číselník obsahuje zoznam&amp;nbsp;preddefinovaných druhov pohybov, ktorý je možné ľubovoľne upraviť, resp. doplniť. 
+&lt;LI&gt;Druh pohybu predstavuje vlastnosť dokladu, ktorú možno aplikovať na výdajky alebo príjemky. Túto vlastnosť je možné použiť na filtrovanie dokladov a získať prehľad o príjme&amp;nbsp;alebo výdaji v&amp;nbsp;sklade podľa daného druhu pohybu. 
+&lt;LI&gt;Druh pohybu určuje, či sa na obeh tovaru použijú obchodní partneri,&amp;nbsp;pracovníci, prípadne iný sklad (vtedy ide o prevod medzi skladmi). Ďalej môže určovať predajnú cenu, spôsob kontrolovania vysporiadanosti a pod. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt; 
+&lt;P&gt;&lt;B&gt;Príklad&lt;BR&gt;&lt;/B&gt;Účtovná jednotka má sklad hotových výrobkov a chce, aby sa presun do predajného skladu uskutočňoval samostatným druhom pohybu.&lt;/P&gt;
+&lt;P&gt;&lt;B&gt;Riešenie:&lt;/B&gt;&lt;BR&gt;Vo formulári &lt;I&gt;Druhy pohybov&lt;/I&gt; sa vytvorí&amp;nbsp;nový druh pohybu (napr. s&amp;nbsp;názvom &lt;I&gt;Presun hotových výrobkov&lt;/I&gt;) a tomuto pohybu sa stanoví, že&amp;nbsp;na obeh tovaru sa budú používať sklady. Keď sa bude vytvárať výdajka z&amp;nbsp;tohto skladu a použije sa&amp;nbsp;tento druh pohybu, v&amp;nbsp;sprievodcovi&amp;nbsp;na mieste, kde sa zapisujú údaje o obchodnom partnerovi, bude možné vybrať zo zoznamu všetkých skladov predajný sklad.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="0b171f31-3f81-4391-8ea5-6cb83425ff59" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="a7e1c27b-e28f-4ae9-b643-16cc1b478212">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="51ad1498-8339-48e9-963d-b4aed1c25b63" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="efed1882-1614-4406-b57a-3023aee6ba26">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="19b3f0ec-854f-4f3d-aec1-1bf9358f3edb" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="0be61fcc-a85b-4572-876d-2171a5cb7c29">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="46b2c732-6d3c-4042-9319-cacd54e689b9" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="62db2271-9ae9-4968-b790-47a07e7c6aef">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="1b1072ff-4426-483b-8e4d-d0a003c1b1cd" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="0a22d060-0b8a-4166-ba9b-8239f36863a0">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="5f7ba334-bcec-4cd1-89c4-4b28ef0de39f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="6acbdde2-e6a9-43bc-8e10-4e1aa1ea1c3d">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="74e434cd-9cd0-4fbe-8b99-33abc6cb0f3e" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="6cd390d6-697d-4829-bc05-ea31662ffe4e">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="054de5c4-112a-47b1-a11e-3373318de3be">
+      <Keyword m="2021-10-22T08:36:34.7045723Z">Druhy pohybov - ako používať</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="19e46e37-e224-4c76-9125-a0aa0da7ae17">
+      <Keyword m="2021-10-22T08:36:45.8442778Z">Prevodka - druh pohybu</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

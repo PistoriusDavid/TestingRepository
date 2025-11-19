@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="2cd2daa2-afd8-4a7b-9ca3-da8f3c35fec4" Status="Complete" CreatedOn="2016-08-12T10:31:07.4704891Z" ModifiedOn="2024-07-17T07:52:10.8460237Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="70910" Name="Form_Wages_ChangeEdit" BuildFlags="">
+  <Title m="2016-08-12T10:32:05.6844637Z">Formulár Úprava mzdy</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-07-17T06:45:08.628138Z">&lt;P&gt;Formulár &lt;EM&gt;Úprava mzdy&lt;/EM&gt; umožňuje &lt;STRONG&gt;spracovať, resp. upraviť už spracovanú mzdu&amp;nbsp;&lt;/STRONG&gt;&lt;A href="8dd60281-9cc7-41fe-9dd2-2ad5c7ffe047"&gt;pracovníkovi&lt;/A&gt; v&amp;nbsp;module&amp;nbsp;&lt;A href="bf009605-0be8-4286-8ef5-4c7d3b89143a"&gt;Mzdy&lt;/A&gt; a&amp;nbsp;&lt;A href="3883342c-9ef0-4fd9-8773-88df84f78f65"&gt;dochádzka&lt;/A&gt;. Formulár je dostupný z&amp;nbsp;ponuky&amp;nbsp;&lt;EM&gt;Mzdy&lt;/EM&gt;,&amp;nbsp;&lt;A href="6923b0c5-166b-4e3b-a53b-71f62b53b2fc" style="auto-update-caption: true"&gt;Tvorba miezd&lt;/A&gt;, tlačidlo&amp;nbsp;&lt;EM&gt;Upraviť mzdu&lt;/EM&gt;.&lt;/P&gt;&lt;innovasys:widget type="Tab Strip" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Hlavička&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Hlavička formulára obsahuje údaje o&amp;nbsp;&lt;A href="8dd60281-9cc7-41fe-9dd2-2ad5c7ffe047"&gt;pracovníkovi&lt;/A&gt; a jeho&amp;nbsp;&lt;A href="3fced304-5201-4497-bb58-104c1fd77990"&gt;pracovnom pomere&lt;/A&gt;, plán (fond pracovnej doby) a&amp;nbsp;ďalšie vybrané údaje výplatnej pásky.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Neprítomnosť&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;V záložke &lt;EM&gt;Neprítomnosť&lt;/EM&gt; sa zadávajú záznamy o&amp;nbsp;neprítomnostiach v práci, napr. čerpanie dovolenky, nemocenské, ošetrovanie člena rodiny, návšteva lekára atď.&amp;nbsp;Na zobrazenie neprítomností, ktoré boli&amp;nbsp;pracovníkovi vyplatené v&amp;nbsp;predchádzajúcom období (mesiaci), zmeňte zobrazované&amp;nbsp;&lt;A href="d05c58b2-b990-44d8-ac5c-d199b9cde45e"&gt;obdobie&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Zložky mzdy&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;V záložke &lt;EM&gt;Zložky mzdy&lt;/EM&gt; sa zadávajú (prípadne upravujú) jednotlivé mzdové zložky:&amp;nbsp;základná mzda, príplatky, odmeny,&amp;nbsp;náhrady mzdy, zrážky atď. Mzdové zložky automaticky generuje program na základe&amp;nbsp;&lt;A href="3fced304-5201-4497-bb58-104c1fd77990"&gt;pracovného pomeru&lt;/A&gt;, tu je možné ďalšie mzdové zložky dopĺňať.&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;Novú mzdovú zložku je možné pridať dvoma spôsobmi:&lt;BR&gt;A) &lt;STRONG&gt;Stlačením tlačidla &lt;EM&gt;Nový&lt;/EM&gt;&lt;/STRONG&gt;&amp;nbsp;- po výbere príslušného typu mzdovej zložky sa otvorí formulár, v ktorom sa následne otvorí zoznam&amp;nbsp;&lt;A href="fc8d8173-0da0-459a-b570-587597ce3315"&gt;mzdových predkontácií&lt;/A&gt;.&lt;BR&gt;B)&amp;nbsp;&lt;STRONG&gt;Rýchle zadávanie čísla predkontácie&lt;/STRONG&gt; - do poľa &lt;EM&gt;Pridať zložku mzdy&lt;/EM&gt; sa zadáva priamo číslo predkontácie, prípadne kombinácia dvoch (alebo aj troch) čísel, napr.&amp;nbsp;&lt;STRONG&gt;1000*505&lt;/STRONG&gt;, kde&amp;nbsp;1000 je suma v eurách,&amp;nbsp;505&amp;nbsp;je mzdová zložka&amp;nbsp;&lt;EM&gt;Odmena (ročná)&lt;/EM&gt; &lt;STRONG&gt;-&lt;/STRONG&gt; viac informácií v téme&amp;nbsp;&lt;A href="1e1da5f2-5abd-48a4-bf82-4f31c614ac45"&gt;Spracovanie mzdy pracovníkovi&lt;/A&gt;).&lt;/P&gt;
+&lt;P&gt;V prípade, že potrebujete pridať zložku mzdy, ktorá sa nenachádza v zozname (napr. určitý typ príplatku), stlačte tlačidlo výberu&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_ListButton.png"&gt;. Otvorí sa zoznam&amp;nbsp;&lt;A href="fc8d8173-0da0-459a-b570-587597ce3315"&gt;mzdových predkontácií&lt;/A&gt;, v ktorom sa nachádzajú najčastejšie používané predkontácie. Mzdové predkontácie je možné dopĺňať podľa individuálnych požiadaviek zamestnávateľa.&lt;/P&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Základná mzda&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;H3&gt;Základná mzda (mesačná)&lt;/H3&gt;
+&lt;P&gt;Pod pojmom mesačná základná mzda sa rozumie dohodnutá mzda za mesiac. Mesačná mzda sa zadáva v&amp;nbsp;eurách (pole &lt;EM&gt;Tarifa&lt;/EM&gt;) a bude zobrazená ako základná mzda.&amp;nbsp;Ak pracovník neodpracoval celý fond pracovnej doby, stačí, ak mu budú správne zadané neodpracované hodiny (zadanie nemocenskej dávky, dovolenky, absencie a pod.) a program automaticky upraví počet odpracovaných hodín tak, aby súčet všetkých hodín predstavoval fond pracovnej doby pracovníka.&amp;nbsp;Pri zmene počtu hodín mesačnej mzdy program vypočíta mesačnú mzdu takto: načíta výšku mesačnej mzdy z príslušného pracovného pomeru pracovníka, tú vydelí počtom hodín fondu pracovnej doby v tom období a výsledok vynásobí počtom hodín.&lt;/P&gt;
+&lt;H3&gt;Základná mzda (hodinová)&lt;/H3&gt;
+&lt;P&gt;Hodinová mzda predstavuje čiastku, ktorú pracovník&amp;nbsp;dostane za odpracovanú hodinu.&amp;nbsp;Ak pracovník neodpracoval celý fond pracovnej doby, stačí, ak mu budú správne zadané neodpracované hodiny (zadanie nemocenskej dávky, dovolenky, absencie a pod.) a program automaticky upraví počet odpracovaných hodín tak, aby súčet všetkých hodín predstavoval fond pracovnej doby pracovníka.&lt;/P&gt;
+&lt;H3&gt;Základná mzda (úkolová)&lt;/H3&gt;
+&lt;P&gt;Úkolová mzda sa používa pri odmeňovaní pracovníkov, ktorých výkon možno merať pomocou noriem (napr. výrobných robotníkov, stavebných robotníkov). Zamestnanci sú teda odmeňovaní od skutočného výkonu. Výkonové normy určujú, aké množstvo práce musí pracovník vykonať za určitý čas. Úkolová sadzba za jednotku výkonu predstavuje, koľko peňazí pracovník dostane napr. za jeden vyrobený kus, jeden opracovaný výrobok, jednu ušitú košeľu a pod. Na výpočet úkolovej mzdy potrebujeme poznať úkolovú sadzbu za jednotku výkonu a skutočný výkon.&lt;/P&gt;
+&lt;H3&gt;Mzda za nadčas&lt;/H3&gt;
+&lt;P&gt;Za prácu nadčas patrí pracovníkovi mzda a mzdové zvýhodnenie. Pri práci za nadčas stačí zadať&amp;nbsp;zložky mzdy&amp;nbsp;&lt;EM&gt;Mzdu za nadčas&lt;/EM&gt; a automaticky bude pridaný &lt;EM&gt;Príplatok (nadčasový).&lt;/EM&gt;&lt;/P&gt;
+&lt;H3&gt;Doplatok do min. mzdy&lt;/H3&gt;
+&lt;P&gt;Doplatok do základnej mzdy v prípade, že je mzda pracovníka za odpracované hodiny nižšia ako hodinová minimálna mzda.&lt;/P&gt;
+&lt;H3&gt;Náhradné voľno (tvorba)&lt;/H3&gt;
+&lt;P&gt;Kumulovanie náhradného voľna, ktoré môže pracovník čerpať ako náhradu za odpracovaný nadčas.&amp;nbsp;Za prácu nadčas môže pracovník čerpať náhradné voľno v rozsahu, v akom sa práca nadčas vykonávala, ak sa na tom so zamestnávateľom dohodnú. V tom prípade však už pracovníkovi mzdové zvýhodnenie za prácu nadčas nepatrí.&lt;/P&gt;
+&lt;H3&gt;Náhradné voľno (čerpanie)&lt;/H3&gt;
+&lt;P&gt;Čerpanie náhradného voľna ako náhrady za odpracované hodiny nadčasov.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Príplatok&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;H3&gt;Príplatok (nadčasový)&lt;/H3&gt;
+&lt;P&gt;Príplatok za nadčas patrí pracovníkovi za každú hodinu mimo rámca rozvrhnutého týždenného pracovného času.&lt;/P&gt;
+&lt;H3&gt;Príplatok (za sviatok)&amp;nbsp;&lt;/H3&gt;
+&lt;P&gt;Príplatok patriaci pracovníkovi, ktorý nastúpil na zmenu vo sviatok. Ak nastúpil vo sviatok napr. o 22:00 a končí nasledujúci deň, patrí mu príplatok za celú zmenu. Ak nenastúpil vo sviatok a končí vo sviatok, nárok na príplatok nemá.&lt;/P&gt;
+&lt;H3&gt;Príplatok (práca v sobotu)&amp;nbsp;&lt;/H3&gt;
+&lt;P&gt;Príplatok za prácu v sobotu patrí pracovníkovi za čas odpracovaný v sobotu, napr. v prípade nástupu na zmenu v&amp;nbsp;piatok o&amp;nbsp;22:00&amp;nbsp;mu patrí príplatok len za hodiny od 24:00 do konca zmeny.&lt;/P&gt;
+&lt;H3&gt;Príplatok (práca v nedeľu)&lt;/H3&gt;
+&lt;P&gt;Príplatok za prácu v nedeľu patrí pracovníkovi za čas odpracovaný v nedeľu, napr. v prípade nástupu na zmenu o 22:00 v sobotu mu patrí príplatok len za hodiny od 24:00 do konca zmeny.&lt;/P&gt;
+&lt;H3&gt;Príplatok (nočná práca)&amp;nbsp;&lt;/H3&gt;
+&lt;P&gt;Príplatok za každú hodinu práce v noci (v čase od 22:00 do 6:00).&lt;/P&gt;
+&lt;H3&gt;Príplatok (rizikový)&amp;nbsp;&lt;/H3&gt;
+&lt;P&gt;Príplatok za rizikovú prácu nad rozsah stupňa náročnosti práce.&lt;/P&gt;
+&lt;H3&gt;Príplatok (za sťažený výkon práce)&lt;/H3&gt;
+&lt;P&gt;Mzdová kompenzácia za sťažený výkon práce podľa §&amp;nbsp;124 (chemické, biologické, karcinogénne a iné faktory).&lt;/P&gt;
+&lt;H3&gt;Príspevok na DSS (2. pilier, firma)&lt;/H3&gt;
+&lt;P&gt;Dobrovoľný príspevok zamestnávateľa na dôchodkové sporenie (2. pilier, §&amp;nbsp;11 os. 8 zák. o DP).&lt;/P&gt;
+&lt;H3&gt;Príspevok na DDS (3. pilier, firma)&lt;/H3&gt;
+&lt;P&gt;Dobrovoľný príspevok zamestnávateľa na doplnkové dôchodkové sporenie (3. pilier).&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Odmena&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Odmeny a prémie sú určené na stimulovanie&amp;nbsp;pracovníka k vyššiemu výkonu a sú finančnou odmenou pri splnení&amp;nbsp;istých podmienok. Odmeny môžu byť mimoriadne, ročné, polročné, za výkon, trinásty plat, štrnásty plat, prémie, podiely na zisku...&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Náhrada&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;H3&gt;Náhrada mzdy za sviatok&lt;/H3&gt;
+&lt;P&gt;Náhrada mzdy v sume priemerného príjmu za sviatok, ktorý pripadne na obvykle pracovný deň. Náhrada sviatku je vlastne preplatenie ušlej mzdy pracovníka za čas, ktorý mal robiť a nerobil, lebo bol sviatok. Bližšie informácie v téme&amp;nbsp;&lt;A href="ae7d60eb-a50d-4811-b213-d94b66200304" style="auto-update-caption: true"&gt;Odmeňovanie práce vo sviatok&lt;/A&gt;.&lt;/P&gt;
+&lt;H3&gt;Náhrada príjmu pri PN&lt;/H3&gt;
+&lt;P&gt;Nárok na náhradu príjmu má pracovník, ktorý bol pre chorobu alebo úraz uznaný za dočasne práceneschopného a nemá nárok na mzdu, plat, odmenu za prácu. Pracovníkovi patrí:&amp;nbsp;&amp;nbsp;&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;od 1. dňa dočasnej pracovnej neschopnosti do 3. dňa dočasnej pracovnej neschopnosti 25&amp;nbsp;% denného vymeriavacieho základu pracovníka 
+&lt;LI&gt;od 4. dňa dočasnej pracovnej neschopnosti do 10. dňa dočasnej pracovnej neschopnosti 55&amp;nbsp;% denného vymeriavacieho základu pracovníka&amp;nbsp; &lt;/LI&gt;&lt;/UL&gt;
+&lt;H3&gt;Nemocenské (náhrada príjmu)&lt;/H3&gt;
+&lt;P&gt;Ak je pracovník&amp;nbsp;dočasne pracovne neschopný dlhšie&amp;nbsp;ako 10 dní, od 11. dňa poskytuje nemocenské príslušná pobočka &lt;EM&gt;Sociálnej poisťovne&lt;/EM&gt;. Nemocenské sa poskytuje najdlhšie do uplynutia 52. týždňa.&lt;/P&gt;
+&lt;H3&gt;Návšteva lekára&lt;/H3&gt;
+&lt;P&gt;Nárok na náhradu príjmu má pracovník, ktorý:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;podstúpil vyšetrenie (ošetrenie) u lekára, 
+&lt;LI&gt;sprevádzal člena rodiny do zdravotníckeho zariadenia. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H3&gt;Úmrtie, svadba&lt;/H3&gt;
+&lt;P&gt;Pracovné voľno s náhradou mzdy pri úmrtí rodinného príslušníka alebo blízkej osoby a&amp;nbsp;pri účasti na svadbe.&lt;/P&gt;
+&lt;H3&gt;Dovolenka (náhrada)&lt;/H3&gt;
+&lt;P&gt;Náhrada príjmu počas dovolenky.&lt;/P&gt;
+&lt;H3&gt;Dovolenka (preplatenie zostatku)&lt;/H3&gt;
+&lt;P&gt;Pracovníkovi vzniká za každý deň čerpania dovolenky nárok na náhradu mzdy vo výške jeho priemerného zárobku. Priemerný zárobok sa počíta zo mzdy zúčtovanej pracovníkovi na výplatu v kalendárnom štvrťroku predchádzajúcom štvrťroku, v ktorom sa zisťuje priemerný zárobok.&lt;/P&gt;
+&lt;H3&gt;Skrátená práca vplyvom nepriaznivej situácie&lt;/H3&gt;
+&lt;P&gt;Prekážky v práci spôsobujúce krátenie pracovného času vzhľadom na nepriaznivú situáciu spôsobenú vonkajším faktorom (kurzarbeit).&lt;/P&gt;
+&lt;H3&gt;Prekážky na strane zamestnávateľa&lt;/H3&gt;
+&lt;P&gt;Ak pracovník nemôže vykonávať prácu z dôvodu, že na strane zamestnávateľa vznikla prekážka, ktorá mu znemožňuje vykonávať prácu dohodnutú v pracovnej zmluve, ide o prekážku na strane zamestnávateľa. Ak pracovník nemôže vykonávať prácu pre prechodný nedostatok spôsobený poruchou na strojovom zariadení, výpadkom dodávky surovín alebo pohonnej sily, chybnými pracovnými podkladmi alebo inými podobnými prevádzkovými príčinami (prestoj), patrí zamestnancovi náhrada mzdy v sume jeho priemerného zárobku. V prípade, že pracovník vykonáva prácu, ktorá je závislá od počasia a nemôže ju z dôvodu nepriaznivých poveternostných vplyvov vykonávať, má nárok na náhradu mzdy vo výške stanovenej zákonom.&lt;/P&gt;
+&lt;H3&gt;Cestovné náhrady (vyúčtovanie)&lt;/H3&gt;
+&lt;P&gt;Suma náhrad vyúčtovaná na základe oprávnených výdavkov. V prípade vyplateného preddavku (napr. z pokladnice) ide o doplatok rozdielu, ak boli výdavky vyššie ako suma preddavku. Suma nepredstavuje príjem pracovníka, nevstupuje do čistej mzdy, je pripočítaná len ku konečnej sume mzdy k výplate.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Iný príjem&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;H3&gt;Odstupné/Odchodné&lt;/H3&gt;
+&lt;P&gt;Nárok na odstupné vzniká pri skončení pracovného pomeru výpoveďou alebo dohodou. Nárok na odchodné vypláca firma pracovníkovi pri prvom skončení pracovného pomeru po vzniku nároku na starobný dôchodok. Položky vstupujú do základov pre daň a odvody podľa aktuálne platnej legislatívnej úpravy.&lt;/P&gt;
+&lt;H3&gt;Firemné auto (použitie zamestnancom)&lt;/H3&gt;
+&lt;P&gt;Nepeňažný príjem pri používaní firemného vozidla pracovníkom na súkromné účely vo výške 1&amp;nbsp;% obstarávacej ceny vozidla (za mesiac). Ďalšie informácie získate v téme&amp;nbsp;&lt;A href="7336737f-7f94-40fd-9815-e38a3a5c729b"&gt;Zamestnanec používa firemné vozidlo aj na súkromné účely&lt;/A&gt;.&lt;/P&gt;
+&lt;H3&gt;Naturálie&lt;/H3&gt;
+&lt;P&gt;Naturálna mzda vo forme výrobkov, práce alebo služieb so súhlasom pracovníka (len nad rámec minimálnej mzdy). Naturálna mzda pracovníka sa na páske zobrazuje pod položkou &lt;EM&gt;Naturálie&lt;/EM&gt;. Z tejto položky sa neodvádzajú odvody (na výplatnej páske sa tu uvedená suma nezapočítava k sume &lt;EM&gt;K výplate&lt;/EM&gt;).&lt;/P&gt;
+&lt;H3&gt;Stravné (finančný príspevok)&lt;/H3&gt;
+&lt;P&gt;Finančný príspevok na stravovanie je alternatívou k stravným lístkom pri zabezpečení stravovania.&lt;/P&gt;
+&lt;H3&gt;Sociálny fond (zdaniteľný príjem)&lt;/H3&gt;
+&lt;P&gt;Príspevky zo sociálneho fondu vo forme zdaniteľného príjmu, napr. účasť na kultúrnom podujatí.&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;Príklad:&lt;/STRONG&gt; Zamestnávateľ zakúpi pre pracovníkov lístky do rehabilitačného centra na masáže. Pokiaľ nemá zamestnávateľ uzatvorenú zmluvu o nájme, tak pre uvedený príklad nie je možné použiť §&amp;nbsp;5 ods. 7 zákona o dani z príjmov (ktorý je od dane oslobodený).&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Zrážka&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;H3&gt;Záloha&lt;/H3&gt;
+&lt;P&gt;Zrážka zálohy vyplatenej pracovníkovi v predstihu.&lt;/P&gt;
+&lt;H3&gt;Stravné lístky&lt;/H3&gt;
+&lt;P&gt;Doplatok (zrážka) pracovníka do plnej hodnoty stravného lístka.&lt;/P&gt;
+&lt;H3&gt;Príspevok&amp;nbsp;na DSS, DDS&amp;nbsp;(pracovník)&lt;/H3&gt;
+&lt;P&gt;Zrážky zo mzdy pracovníka na dôchodkové sporenie (2. pilier, §11 os. 8 zák. o DP) a&amp;nbsp;doplnkové dôchodkové sporenie (3. pilier).&lt;/P&gt;
+&lt;H3&gt;Výživné/Exekučná zrážka&amp;nbsp;&lt;/H3&gt;
+&lt;P&gt;Zrážky zo mzdy nariadené súdom.&lt;/P&gt;
+&lt;H3&gt;Cestovné náhrady (vrátenie rozdielu)&lt;/H3&gt;
+&lt;P&gt;Používa sa v prípade vrátenia rozdielu z vyššieho vyplateného preddavku na pracovnú cestu ako skutočne preukázanými nákladmi pracovníka.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Zúčtovanie&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;H3&gt;Daňový bonus&lt;/H3&gt;
+&lt;P&gt;Daňový bonus je daňové zvýhodnenie na vyživované dieťa žijúce s daňovníkom v domácnosti, ktoré nielen znižuje výslednú daňovú povinnosť (daň z príjmov), ale môže byť aj príjmom daňovníka, ak jeho výsledná daňová povinnosť bude nižšia ako suma daňového bonusu. Informáciu o&amp;nbsp;výške daňového bonusu získate v téme&amp;nbsp;&lt;A href="beb97ace-1408-443d-87c0-bce72b007ea7" style="auto-update-caption: true"&gt;Mzdové a iné veličiny&lt;/A&gt;.&lt;/P&gt;
+&lt;H3&gt;Ročné zúčtovanie dane/zdravotného poistenia&amp;nbsp;&lt;/H3&gt;
+&lt;P&gt;Po vykonaní ročných zúčtovaní pracovníkovi (dane a poistení) je potrebné vykonať vyrovnanie rozdielov zistených po vykonaní uvedených zúčtovaní. Do poľa &lt;EM&gt;Tarifa&lt;/EM&gt; sa zadáva suma&amp;nbsp; preplatku(+)/nedoplatku(-).&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;Význam znamienok +/-&lt;/STRONG&gt;&lt;/P&gt;
+&lt;P&gt;Mínus (-)&amp;nbsp;- záporná hodnota je považovaná za nedoplatok, teda sumu ktorú je potrebné vybrať od pracovníka.&lt;/P&gt;
+&lt;P&gt;Plus (+) - kladná hodnota je považovaná za preplatok, teda sumu, ktorú je potrebné pracovníkovi vyplatiť (vrátiť)&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Zložky mzdy môžu byť znázornené rôznym typom písma:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;EM&gt;kurzívou -&lt;/EM&gt; zložky mzdy nebudú tlačené na tlačových výstupoch z dôvodu, že suma je rovná nule 
+&lt;LI&gt;&lt;STRONG&gt;tučným písmom -&lt;/STRONG&gt; zložka mzdy bola zmenená používateľom &lt;/LI&gt;&lt;/UL&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Odvody&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;H3&gt;Poistenie&lt;/H3&gt;
+&lt;P&gt;Zobrazujú sa vypočítané odvody zo mzdy. Začiarknutím poľa &lt;EM&gt;&lt;STRONG&gt;Manuálna úprava poistenia&lt;/STRONG&gt;&lt;/EM&gt; je možné upraviť výšku vypočítaných odvodov, prípadne počty dní poistenia.&amp;nbsp;Manuálnu úpravu vypočítanej mzdy vykonávajte &lt;STRONG&gt;len v odôvodnených prípadoch až po spracovaní mzdy&lt;/STRONG&gt; (zadaní všetkých zložiek mzdy). Pri akejkoľvek zmene mzdovej zložky (alebo neprítomnosti)&amp;nbsp;sa mzda&amp;nbsp;opäť prepočíta.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Dane&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 
+&lt;H3&gt;Dane&lt;/H3&gt;
+&lt;P&gt;Zobrazuje sa výška dane zo mzdy, daňový bonus, odpočítateľná položka a iné.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Rozúčtovanie&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Mzdu pracovníka je možné rozúčtovať podľa potrieb firmy na jednotlivé zákazky, pracoviská atď. Mzdy sa členia podľa stromovej štruktúry&amp;nbsp;&lt;A href="f68687b5-0939-447b-9f8e-37c883676f1e"&gt;členenia firmy&lt;/A&gt;. Hodnotu, ktorá sa má rozúčtovať, je možné zadať ako:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;čiastku (v eurách) 
+&lt;LI&gt;odpracované dni 
+&lt;LI&gt;odpracované hodiny 
+&lt;LI&gt;percento 
+&lt;LI&gt;zvyšok (ostatné nerozúčtované) &lt;/LI&gt;&lt;/UL&gt;
+&lt;P&gt;Postup rozúčtovania mzdy je popísaný v téme&amp;nbsp;&lt;A href="c1379073-007e-434a-a410-d6fde709ff9e" style="auto-update-caption: true"&gt;O členení pracovníkov a rozúčtovaní miezd&lt;/A&gt;.&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;Príklad&lt;/STRONG&gt;: Stavebná firma člení mzdové náklady podľa jednotlivých stavieb. Pracovník odpracoval na stavbe v Ružomberku 15 pracovných dní, zvyšný počet dní odpracoval na stavbe v Turíku.&lt;/P&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Firm_Classification_Wages.png"&gt;&amp;nbsp;&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Iné&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;V záložke &lt;EM&gt;Iné&lt;/EM&gt; sa zobrazujú údaje o pracovníkovi, napr. zdravotná poisťovňa, DDS a pod., ktoré sa preberajú z&amp;nbsp;&lt;A href="8dd60281-9cc7-41fe-9dd2-2ad5c7ffe047"&gt;formulára Pracovník&lt;/A&gt;.&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;Čerpaná dovolenka&lt;/STRONG&gt; - zobrazia sa informácie o dovolenke pracovníka (prenos z minulého roka, čerpaná dovolenka, zostatok dovolenky).&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;Náhradné voľno&lt;/STRONG&gt; -&amp;nbsp;náhradné voľno poskytuje zamestnávateľ po dohode so zamestnancom za prácu nadčas, za čas neaktívnej pracovnej pohotovosti na pracovisku alebo za prácu vo sviatok namiesto mzdového zvýhodnenia, v&amp;nbsp;rozsahu trvania práce nadčas alebo práce vo sviatok si teda zamestnanec vyberie náhradné voľno.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="7d507d06-165e-4870-9790-d6e78ebff9f4" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="6923b0c5-166b-4e3b-a53b-71f62b53b2fc">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="1a7995db-1abc-407c-a104-9c2cd0263127" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1e1da5f2-5abd-48a4-bf82-4f31c614ac45">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="978d6a15-579c-4d31-b57b-88a18fd51b55" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="beb97ace-1408-443d-87c0-bce72b007ea7">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="c2f62aa0-6790-43ab-a3f8-bf1169ff2b6a">
+      <Keyword m="2023-07-17T12:29:27.7462206Z">Úprava mzdy - formulár</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

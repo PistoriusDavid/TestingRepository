@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="44410dcc-1dbd-43c4-a623-a0f75c371fbb" Status="Complete" CreatedOn="2024-09-09T08:47:22.1597362Z" ModifiedOn="2024-12-18T09:07:26.4344253Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="OBERON_News_2024_07" BuildFlags="{4AAE0FD4-7313-4FEE-A25F-0785B885F736},826B51BD-B6F0-4B2C-A814-029E169D018F">
+  <Title m="2024-09-09T08:47:59.1305323Z">Čo bolo nové vo verzii Júl/2024</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-12-18T09:07:26.4344253Z">&lt;P&gt;Dňa 22.07.2024&amp;nbsp;bola&amp;nbsp;vydaná nová verzia ekonomického systému OBERON s&amp;nbsp;označením &lt;STRONG&gt;Júl/2024&lt;/STRONG&gt;. V&amp;nbsp;nasledujúcej časti sú vymenované najdôležitejšie novinky, vylepšenia a&amp;nbsp;opravy oproti verzii&amp;nbsp;&lt;STRONG&gt;Máj/2024&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;H2&gt;OBERON&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;OBERON Link&lt;/STRONG&gt; – pribudla nová služba &lt;EM&gt;OBERON Link&lt;/EM&gt;, ktorá umožňuje aplikáciám využívajúcim &lt;A href="58bb31ca-00c8-4641-ad99-7d58e24f59c5"&gt;webové služby&lt;/A&gt;&amp;nbsp;systému OBERON &lt;STRONG&gt;pripájať sa k týmto webovým službám z vonkajšieho internetu&lt;/STRONG&gt; (t.&amp;nbsp;j. mimo lokálnej počítačovej siete).&amp;nbsp;Služba významne rozširuje a zjednodušuje možnosti použitia jednotlivých aplikácií, ktoré so systémom OBERON komunikujú pomocou webových služieb, keďže nie je potrebné pripojenie do lokálnej počítačovej siete alebo nastavenie verejnej statickej IP adresy. Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="02f77fd1-6b2f-482c-8dd0-77896d038c3e" style="auto-update-caption: true"&gt;OBERON Link&lt;/A&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;MySQL konektor&lt;/STRONG&gt; - bol aktualizovaný MySQL konektor. 
+&lt;LI&gt;&lt;STRONG&gt;Správca hesiel&amp;nbsp;-&lt;/STRONG&gt; pribudol sprievodca na hromadnú úpravu zdieľania hesiel iným používateľom. 
+&lt;LI&gt;&lt;STRONG&gt;Správca hesiel&lt;/STRONG&gt; - oprava filtrovania podľa skupín. 
+&lt;LI&gt;&lt;STRONG&gt;Automatické úlohy&lt;/STRONG&gt; - pribudla nová automatická úloha &lt;EM&gt;&lt;STRONG&gt;Dochádzkové terminály - komunikácia&lt;/STRONG&gt;&lt;/EM&gt;, t. j. sťahovanie prechodov môže vykonáva&amp;nbsp;&lt;A href="09f3dae9-2fb7-490f-97dc-37f60885b398"&gt;OBERON Automation Center (OAC)&lt;/A&gt;. Odporúčame prekonfigurovať komunikáciu z programu &lt;EM&gt;OBERON Center&lt;/EM&gt; do &lt;EM&gt;OAC&lt;/EM&gt;. Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="23e5d4e3-fa9b-483d-8068-1ea847daccc1" style="auto-update-caption: true"&gt;Dochádzkové terminály - komunikácia&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Účtovníctvo&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Spracovanie bankových výpisov - Tatrabanka&lt;/STRONG&gt; - bol upravený import bankových výpisov z formátu &lt;EM&gt;SEPA Credit Transfer (SCT)&lt;/EM&gt;, kde sa&amp;nbsp;lepšie identifikujú údaje o výbere z bankomatu. 
+&lt;LI&gt;&lt;STRONG&gt;Pravidlá spracovania bankových výpisov&lt;/STRONG&gt; - pribudla možnosť skopírovať pomocou schránky (clipboard) všetky podmienky pravidla spracovania bankových výpisov z iného pravidla. 
+&lt;LI&gt;&lt;STRONG&gt;Bank API&lt;/STRONG&gt; - FIO banka zmenila URL pre načítanie bankových výpisov z pôvodného &lt;A href="https://www.fio.cz/ib_api/rest/" target=_blank&gt;https://www.fio.cz/ib_api/rest/&lt;/A&gt; na &lt;A href="https://fioapi.fio.cz/ib_api/rest/" target=_blank&gt;https://fioapi.fio.cz/ib_api/rest/&lt;/A&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;Majetok&lt;/STRONG&gt; - pribudli&amp;nbsp;nové tlačové výstupy - zaraďovací a vyraďovací protokol. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Skladová evidencia&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Skladová karta&lt;/STRONG&gt; - pribudlo hromadné kopírovanie&amp;nbsp;parametrov skladovej karty pomocou schránky (clipboard). 
+&lt;LI&gt;&lt;STRONG&gt;Skladové skupiny&lt;/STRONG&gt; - v zozname skladových skupín pribudla možnosť zoradiť skupiny, napr. podľa abecedy. 
+&lt;LI&gt;&lt;STRONG&gt;PrestaShop&lt;/STRONG&gt; - ošetrenie chyby pri nastavení default príznaku pre variant (product_attribute) na skladovej karte. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Pokladnica OBERON&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Pokladničné doklady&lt;/STRONG&gt; - tlačové výstupy &lt;EM&gt;Prehľad tržieb (pokladnice, typy platieb)&lt;/EM&gt; a&lt;EM&gt;&amp;nbsp;Prehľad tržieb (typy platieb, pokladnice)&lt;/EM&gt; boli upravené - sumy základu DPH a DPH sú podrobne rozpísané. 
+&lt;LI&gt;&lt;STRONG&gt;BOWA&lt;/STRONG&gt; - bol aktualizovaný doplnok (t. j. ovládač) k tomuto fiškálnemu zariadeniu. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Mzdy a dochádzka&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;
+&lt;DIV&gt;&lt;STRONG&gt;Mzdy&lt;/STRONG&gt; - nová výška životného minima od 07/2024. &lt;/DIV&gt;
+&lt;LI&gt;
+&lt;DIV&gt;&lt;STRONG&gt;Dochádzka&lt;/STRONG&gt; - dochádzková karta (tlačový výstup) bol doplnený o rozpis podľa pracovných zmien. Odpracované hodiny sa členia podľa pracovných dní, sobôt, nedieľ a sviatkov.&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/DIV&gt;&lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Hotelová recepcia&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Grafický prehľad izieb&lt;/STRONG&gt; - pri nastavení veľkosti zobrazenia bunky na 2 riadky a dostatočnej šírke bunky sa názov rezervácie alebo ubytovania zobrazí väčším fontom. 
+&lt;LI&gt;&lt;STRONG&gt;D-EDGE&lt;/STRONG&gt; – bolo doplnené a vylepšené logovanie komunikácie na jednoduchšiu detekciu potenciálnych problémov. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Evidencia vozidiel&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Nové polia na zadanie údajov&lt;/STRONG&gt; - k údajom o vozidle pribudli polia na zadanie dátumu konca platnosti PZP, havarijného poistenia a platnosti diaľničnej známky. 
+&lt;LI&gt;&lt;STRONG&gt;Zoznam vozidiel&lt;/STRONG&gt; - pribudol tlačový výstup so zoznamom vozidiel aj s danými dátumami. 
+&lt;LI&gt;&lt;STRONG&gt;Sadzby základných náhrad&lt;/STRONG&gt; - boli aktualizované hodnoty sadzieb základných náhrad. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;SPAN&gt;V prípade preskočenia viacerých verzií programu je dôležité si prečítať informácie o novinkách, vylepšeniach a opravách&amp;nbsp;aj&amp;nbsp;z&amp;nbsp;&lt;A href="dc832235-0e36-4aac-ae54-e51641eb2f50"&gt;predchádzajúcich verzií&lt;/A&gt;&lt;STRONG&gt;.&lt;/STRONG&gt; V&amp;nbsp;niektorej z predošlých verzií mohlo dôjsť k&amp;nbsp;dôležitým zmenám, o&amp;nbsp;ktorých je v niektorých prípadoch nevyhnutné vedieť.&lt;/SPAN&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="c7357ab9-e0d8-47e3-b432-b3034ba1bd58" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="dc832235-0e36-4aac-ae54-e51641eb2f50">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="0aff6ea2-d3f9-4c1e-9000-f2192f9f2edc">
+      <Keyword m="2014-11-24T11:38:34.3847265Z">Verzia</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

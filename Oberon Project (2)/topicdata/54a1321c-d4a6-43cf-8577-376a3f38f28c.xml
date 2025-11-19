@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="54a1321c-d4a6-43cf-8577-376a3f38f28c" Status="Complete" CreatedOn="2022-05-02T08:06:26.5281576Z" ModifiedOn="2024-11-11T10:20:07.6746545Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Stock_Advanced_Sets_Examples" BuildFlags="">
+  <Title m="2022-05-02T08:07:06.1353919Z">Príklady sád</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-11-11T10:20:07.6746545Z">&lt;P&gt;V tejto téme &lt;EM&gt;Pomocníka&lt;/EM&gt; sú uvedené &lt;STRONG&gt;príklady skladových kariet&amp;nbsp;&lt;/STRONG&gt;&lt;A href="8deac9fe-9864-41e8-aaa3-02257c241d78"&gt;typu sada&lt;/A&gt; v module&amp;nbsp;&lt;A href="78d20602-4b59-4b31-9f0a-a04a1d376ec5"&gt;Skladová evidencia&lt;/A&gt; systému OBERON. Viac informácií o&amp;nbsp;typoch skladových kariet je možné získať v&amp;nbsp;téme&amp;nbsp;&lt;A href="8deac9fe-9864-41e8-aaa3-02257c241d78" style="auto-update-caption: true"&gt;Typy skladových kariet&lt;/A&gt;.&lt;/P&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Príklad sady &lt;EM&gt;Počítačová zostava HP PAVILION&lt;/EM&gt;&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;V príklade je použitá skladová karta&amp;nbsp;&lt;A href="8deac9fe-9864-41e8-aaa3-02257c241d78"&gt;typu sada&lt;/A&gt;&amp;nbsp;&lt;EM&gt;Počítačová zostava HP PAVILION.&lt;/EM&gt; Na jednotlivé položky sady bola uplatnená zľava 5&amp;nbsp;% z cenovej hladiny 1.&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;Skladová karta typu sada&amp;nbsp;&lt;EM&gt;Počítačová zostava HP PAVILION&lt;/EM&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/STRONG&gt;&lt;/P&gt;
+&lt;TABLE style="HEIGHT: 50px; WIDTH: 50%"&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TD width=50&gt;&lt;B&gt;Číslo&lt;/B&gt;&lt;/TD&gt;
+&lt;TD width=300&gt;&lt;B&gt;Názov&lt;/B&gt;&lt;/TD&gt;
+&lt;TD width=30&gt;&lt;B&gt;MJ&lt;/B&gt;&lt;/TD&gt;
+&lt;TD width=139&gt;&lt;STRONG&gt;Predajná cena s&amp;nbsp;DPH (€)&lt;/STRONG&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=136&gt;00201&lt;/TD&gt;
+&lt;TD width=64&gt;Počítačová zostava HP PAVILION&lt;/TD&gt;
+&lt;TD width=127&gt;ks&lt;/TD&gt;
+&lt;TD&gt;1161,73&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;
+&lt;P&gt;&lt;STRONG&gt;Zloženie sady&amp;nbsp;&lt;EM&gt;Počítačová zostava HP PAVILION&lt;/EM&gt;&lt;/STRONG&gt;&lt;/P&gt;
+&lt;TABLE style="HEIGHT: 140px; WIDTH: 50%"&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TD width=50&gt;&lt;B&gt;Číslo&lt;/B&gt;&lt;/TD&gt;
+&lt;TD width=300&gt;&lt;B&gt;Názov&lt;/B&gt;&lt;/TD&gt;
+&lt;TD width=30&gt;&lt;B&gt;MJ&lt;/B&gt;&lt;/TD&gt;
+&lt;TD&gt;&lt;STRONG&gt;Množstvo&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD width=139&gt;&lt;STRONG&gt;Predajná cena s&amp;nbsp;DPH (€)&lt;/STRONG&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=136&gt;00105&lt;/TD&gt;
+&lt;TD width=64&gt;Počítač HP PAVILION GAMING TG01-1122NC&lt;/TD&gt;
+&lt;TD width=127&gt;ks&lt;/TD&gt;
+&lt;TD width=139&gt;1&lt;/TD&gt;
+&lt;TD&gt;939,55&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=136&gt;00106&lt;/TD&gt;
+&lt;TD width=64&gt;Klávesnica&amp;nbsp; GENIUS SLIMSTAR 230&lt;/TD&gt;
+&lt;TD width=127&gt;ks&lt;/TD&gt;
+&lt;TD width=139&gt;1&lt;/TD&gt;
+&lt;TD&gt;10,44&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=136&gt;00107&lt;/TD&gt;
+&lt;TD width=64&gt;Myš HP X220 drôtová&lt;/TD&gt;
+&lt;TD width=127&gt;ks&lt;/TD&gt;
+&lt;TD width=139&gt;1&lt;/TD&gt;
+&lt;TD&gt;11,39&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=136&gt;00108&lt;/TD&gt;
+&lt;TD width=64&gt;Monitor Samsung T35F 24" FULL HD&amp;nbsp; 75Hz, IPS&lt;/TD&gt;
+&lt;TD width=127&gt;ks&lt;/TD&gt;
+&lt;TD width=139&gt;1&lt;/TD&gt;
+&lt;TD&gt;141,55&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=136&gt;00109&lt;/TD&gt;
+&lt;TD width=64&gt;Reproduktory Logitech Z-333 2.1&amp;nbsp; 80w&lt;/TD&gt;
+&lt;TD width=127&gt;ks&lt;/TD&gt;
+&lt;TD width=139&gt;1&lt;/TD&gt;
+&lt;TD&gt;58,80&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;
+&lt;H5&gt;Obrázok č. 1: Príklad skladovej karty typu sada - &lt;EM&gt;Počítačová zostava HP PAVILION&lt;/EM&gt;&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/Stock/Form_Stock_PCSet.png" width="35%"&gt;&amp;nbsp;&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Príklad sady &lt;EM&gt;Satelitný set AB CryptoBox&lt;/EM&gt;&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;V príklade je použitá skladová karta&amp;nbsp;&lt;A href="8deac9fe-9864-41e8-aaa3-02257c241d78"&gt;typu sada&lt;/A&gt;&amp;nbsp;&lt;EM&gt;Satelitný set AB CryptoBox&lt;/EM&gt;&lt;EM&gt;.&lt;/EM&gt; Pri jednotlivých položkách sady bola použitá cenová hladina 1.&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;Skladová karta typu sada&amp;nbsp;&lt;EM&gt;Satelitný set AB CryptoBox&lt;/EM&gt;&lt;/STRONG&gt;&lt;/P&gt;
+&lt;TABLE style="HEIGHT: 50px; WIDTH: 50%"&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TD width=50&gt;&lt;B&gt;Číslo&lt;/B&gt;&lt;/TD&gt;
+&lt;TD width=300&gt;&lt;B&gt;Názov&lt;/B&gt;&lt;/TD&gt;
+&lt;TD width=30&gt;&lt;B&gt;MJ&lt;/B&gt;&lt;/TD&gt;
+&lt;TD width=139&gt;&lt;STRONG&gt;Predajná cena s&amp;nbsp;DPH (€)&lt;/STRONG&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=136&gt;00301&lt;/TD&gt;
+&lt;TD width=64&gt;Satelitný set AB CryptoBox&lt;/TD&gt;
+&lt;TD width=127&gt;ks&lt;/TD&gt;
+&lt;TD&gt;143,10&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;
+&lt;P&gt;&lt;STRONG&gt;Zloženie sady&amp;nbsp;&lt;EM&gt;Satelitný set AB CryptoBox&lt;/EM&gt;&lt;/STRONG&gt;&lt;/P&gt;
+&lt;TABLE style="HEIGHT: 140px; WIDTH: 50%"&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TD width=50&gt;&lt;B&gt;Číslo&lt;/B&gt;&lt;/TD&gt;
+&lt;TD width=300&gt;&lt;B&gt;Názov&lt;/B&gt;&lt;/TD&gt;
+&lt;TD width=30&gt;&lt;B&gt;MJ&lt;/B&gt;&lt;/TD&gt;
+&lt;TD&gt;&lt;STRONG&gt;Množstvo&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD width=139&gt;&lt;STRONG&gt;Predajná cena s&amp;nbsp;DPH (€)&lt;/STRONG&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=136&gt;00120&lt;/TD&gt;
+&lt;TD width=64&gt;AB CryptoBox 752HD Combo DVB-T2/S2/C&lt;/TD&gt;
+&lt;TD width=127&gt;ks&lt;/TD&gt;
+&lt;TD width=139&gt;1&lt;/TD&gt;
+&lt;TD&gt;73,90&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=136&gt;00121&lt;/TD&gt;
+&lt;TD width=64&gt;Telesystem satelitná hliníková parabola 82x72 cm&lt;/TD&gt;
+&lt;TD width=127&gt;ks&lt;/TD&gt;
+&lt;TD width=139&gt;1&lt;/TD&gt;
+&lt;TD&gt;45,90&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=136&gt;00122&lt;/TD&gt;
+&lt;TD width=64&gt;Koaxiálny kábel&lt;/TD&gt;
+&lt;TD width=127&gt;bm&lt;/TD&gt;
+&lt;TD width=139&gt;15&lt;/TD&gt;
+&lt;TD&gt;11,40&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=136&gt;00123&lt;/TD&gt;
+&lt;TD width=64&gt;Konzola - trojbodový pozinkovaný držiak&lt;/TD&gt;
+&lt;TD width=127&gt;ks&lt;/TD&gt;
+&lt;TD width=139&gt;1&lt;/TD&gt;
+&lt;TD&gt;11,90&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Príklad sady &lt;EM&gt;Darčekový kôš&amp;nbsp;De Luxe&lt;/EM&gt;&amp;nbsp;s vratnými obalmi&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;V príklade je použitá skladová karta&amp;nbsp;&lt;A href="8deac9fe-9864-41e8-aaa3-02257c241d78"&gt;typu sada&lt;/A&gt;&amp;nbsp;&lt;EM&gt;Darčekový kôš&amp;nbsp;De Luxe&lt;/EM&gt;, ktorá obsahuje vratné obaly. Pri jednotlivých položkách sady bola použitá fixná cena.&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;Skladová karta typu sada&amp;nbsp;&lt;EM&gt;Darčekový kôš&amp;nbsp;De Luxe&lt;/EM&gt;&amp;nbsp;s vratnými obalmi&lt;/STRONG&gt;&lt;/P&gt;
+&lt;TABLE style="HEIGHT: 50px; WIDTH: 50%"&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TD width=50&gt;&lt;B&gt;Číslo&lt;/B&gt;&lt;/TD&gt;
+&lt;TD width=300&gt;&lt;B&gt;Názov&lt;/B&gt;&lt;/TD&gt;
+&lt;TD width=30&gt;&lt;B&gt;MJ&lt;/B&gt;&lt;/TD&gt;
+&lt;TD width=139&gt;&lt;STRONG&gt;Predajná cena s&amp;nbsp;DPH (€)&lt;/STRONG&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=136&gt;00501&lt;/TD&gt;
+&lt;TD width=64&gt;Darčekový kôš&amp;nbsp;De Luxe&lt;/TD&gt;
+&lt;TD width=127&gt;ks&lt;/TD&gt;
+&lt;TD&gt;55,45&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;
+&lt;P&gt;&lt;STRONG&gt;Zloženie sady&amp;nbsp;&lt;EM&gt;Darčekový kôš&amp;nbsp;De Luxe&lt;/EM&gt;&amp;nbsp;s vratnými obalmi&lt;/STRONG&gt;&lt;/P&gt;
+&lt;TABLE style="HEIGHT: 50px; WIDTH: 50%"&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TD width=50&gt;&lt;B&gt;Číslo&lt;/B&gt;&lt;/TD&gt;
+&lt;TD width=300&gt;&lt;B&gt;Názov&lt;/B&gt;&lt;/TD&gt;
+&lt;TD width=30&gt;&lt;B&gt;MJ&lt;/B&gt;&lt;/TD&gt;
+&lt;TD&gt;&lt;STRONG&gt;Množstvo&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD width=139&gt;&lt;STRONG&gt;Predajná cena s&amp;nbsp;DPH (€)&lt;/STRONG&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=136&gt;00130&lt;/TD&gt;
+&lt;TD width=64&gt;Darčekový kôš 1&lt;/TD&gt;
+&lt;TD width=127&gt;ks&lt;/TD&gt;
+&lt;TD width=139&gt;1&lt;/TD&gt;
+&lt;TD&gt;55,00&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=136&gt;99910&lt;/TD&gt;
+&lt;TD width=64&gt;Jednorazový vratný obal&lt;/TD&gt;
+&lt;TD width=127&gt;ks&lt;/TD&gt;
+&lt;TD width=139&gt;3&lt;/TD&gt;
+&lt;TD&gt;0,45&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Príklad sady&amp;nbsp;&lt;EM&gt;Mitická jemne perlivá (6x1,5L) zálohovaná&lt;/EM&gt;&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;V príklade je použitá skladová karta&amp;nbsp;&lt;A href="8deac9fe-9864-41e8-aaa3-02257c241d78"&gt;typu sada&lt;/A&gt;&amp;nbsp;&lt;EM&gt;Mitická jemne perlivá (6x1,5L) zálohovaná&lt;/EM&gt;, ktorá obsahuje vratné obaly. Pri jednotlivých položkách sady bola použitá cenová hladina 1.&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;Skladová karta typu sada&amp;nbsp;&lt;EM&gt;Mitická jemne perlivá (6x1,5L) zálohovaná&lt;/EM&gt; s vratnými obalmi&lt;/STRONG&gt;&lt;/P&gt;
+&lt;TABLE style="HEIGHT: 50px; WIDTH: 50%"&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TD width=50&gt;&lt;B&gt;Číslo&lt;/B&gt;&lt;/TD&gt;
+&lt;TD width=300&gt;&lt;B&gt;Názov&lt;/B&gt;&lt;/TD&gt;
+&lt;TD width=30&gt;&lt;B&gt;MJ&lt;/B&gt;&lt;/TD&gt;
+&lt;TD width=139&gt;&lt;STRONG&gt;Predajná cena s&amp;nbsp;DPH (€)&lt;/STRONG&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=136&gt;00601&lt;/TD&gt;
+&lt;TD width=64&gt;&lt;EM&gt;&lt;EM&gt;&lt;EM&gt;Mitická jemne perlivá (6x1,5L) zálohovaná&lt;/EM&gt;&lt;/EM&gt;&lt;/EM&gt;&lt;/TD&gt;
+&lt;TD width=127&gt;ks&lt;/TD&gt;
+&lt;TD&gt;2,76&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;
+&lt;P&gt;&lt;STRONG&gt;Zloženie sady&amp;nbsp;&lt;EM&gt;Mitická jemne perlivá (6x1,5L) zálohovaná&lt;/EM&gt; s vratnými obalmi&lt;/STRONG&gt;&lt;/P&gt;
+&lt;TABLE style="HEIGHT: 50px; WIDTH: 50%"&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TD width=50&gt;&lt;B&gt;Číslo&lt;/B&gt;&lt;/TD&gt;
+&lt;TD width=300&gt;&lt;B&gt;Názov&lt;/B&gt;&lt;/TD&gt;
+&lt;TD width=30&gt;&lt;B&gt;MJ&lt;/B&gt;&lt;/TD&gt;
+&lt;TD&gt;&lt;STRONG&gt;Množstvo&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD width=139&gt;&lt;STRONG&gt;Predajná cena s&amp;nbsp;DPH (€)&lt;/STRONG&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=136&gt;00140&lt;/TD&gt;
+&lt;TD width=64&gt;&lt;EM&gt;&lt;EM&gt;&lt;EM&gt;&lt;EM&gt;Mitická jemne perlivá 1,5L zálohovaná&lt;/EM&gt;&lt;/EM&gt;&lt;/EM&gt;&lt;/EM&gt;&lt;/TD&gt;
+&lt;TD width=127&gt;ks&lt;/TD&gt;
+&lt;TD width=139&gt;6&lt;/TD&gt;
+&lt;TD&gt;1,86&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=136&gt;99910&lt;/TD&gt;
+&lt;TD width=64&gt;Jednorazový vratný obal&lt;/TD&gt;
+&lt;TD width=127&gt;ks&lt;/TD&gt;
+&lt;TD width=139&gt;6&lt;/TD&gt;
+&lt;TD&gt;0,90&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="bb57beda-57d4-433c-ae01-158245b93582" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="8deac9fe-9864-41e8-aaa3-02257c241d78">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="80b93643-672b-463e-9dd5-ae997c1f227e" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="2a34c11f-bee8-4fdd-bf7f-70ee7b49bc79">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="fa769fc2-f601-408e-8c5b-3e1ace68b205">
+      <Keyword m="2022-05-03T08:41:03.1365397Z">Multipack - sada - príklad</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="310d2af1-1fe5-41f0-8f95-3e1d8ebf3e9d">
+      <Keyword m="2022-05-03T07:30:49.2886706Z">Vratný obal - multipack</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="fa2dde2a-cda7-43e2-a657-a57acb7158ee">
+      <Keyword m="2022-05-03T08:33:59.5110903Z">Sada - príklady</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="c1b12141-a814-461f-9dd4-cc5c4fbde495">
+      <Keyword m="2022-05-03T08:34:03.936619Z">Sady - príklady</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="520ed0a1-9ead-411b-8767-b8eb1402b032">
+      <Keyword m="2022-05-03T08:40:46.562017Z">Darčekový kôš - sada - príklad</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="1dd6a6ac-2e59-44da-abff-53135247cd0c">
+      <Keyword m="2022-05-03T08:41:16.2103136Z">Počítačová zostava - sada - príklad</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="b96e7746-142f-4ebb-a8d3-bf18a932a5cd">
+      <Keyword m="2022-05-03T08:41:24.6800114Z">Satelitný set - sada - príklad</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="c01776ad-9264-4036-a6d8-2c09d5595c8f">
+      <Keyword m="2022-05-03T08:41:32.6502902Z">PC zostava - sada - príklad</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="f2a5ec21-d999-4a2c-96d6-330a6d998eb2">
+      <Keyword m="2022-05-03T10:28:31.4119927Z">Vratný obal - sada - príklad</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="06c51468-31b4-4fab-bd7a-4dadf1146e0a">
+      <Keyword m="2022-05-03T10:28:43.2534921Z">Vratné obaly - sada - príklad</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

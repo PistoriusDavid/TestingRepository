@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="29c1b7d9-36d4-4d86-89bd-54cd2cb22050" Status="Complete" CreatedOn="2024-01-16T07:57:36.1546807Z" ModifiedOn="2025-03-13T14:21:34.7090534Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="90000" Name="Tech_BillRegistrationProblems" BuildFlags="">
+  <Title m="2024-01-16T08:09:36.1329366Z">Problémy pri zaevidovaní dokladu</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2025-03-13T14:21:34.7090534Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; je venovaná &lt;STRONG&gt;problémom, ktoré môžu vzniknúť pri zaevidovaní (tlači) pokladničného dokladu na&amp;nbsp;&lt;/STRONG&gt;&lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnici OBERON&lt;/A&gt;.&lt;/P&gt;
+&lt;H2&gt;Bežné&amp;nbsp;chybové hlásenia&amp;nbsp;&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;SPAN&gt;&lt;STRONG&gt;Hlásenie o&amp;nbsp;chýbajúcej licencii&lt;/STRONG&gt; - aby účtovná jednotka mohla evidovať (tlačiť) pokladničné doklady,&amp;nbsp;musí mať pre dané účtovné obdobie (kalendárny rok)&amp;nbsp;zakúpenú a&amp;nbsp;aktivovanú licenciu na modul&amp;nbsp;&lt;A href="a6f5e32d-6f1e-40bb-9d15-3f784a183252"&gt;Pokladnica OBERON&lt;/A&gt;. Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="49208c26-7930-4363-9fab-977662e2e8cc" style="auto-update-caption: true"&gt;Ako objednať OBERON&lt;/A&gt;.&lt;/SPAN&gt; 
+&lt;LI&gt;&lt;SPAN&gt;&lt;STRONG&gt;Chybové hlásenia pri kontrole (validácii) dokladu pri jeho&amp;nbsp;zaevidovaní (tlači)&lt;/STRONG&gt;&amp;nbsp;- tieto chyby je spravidla možné odstrániť opravou dokladu a opätovným pokusom o jeho zaevidovanie (tlač).&lt;/SPAN&gt; 
+&lt;LI&gt;&lt;SPAN&gt;&lt;STRONG&gt;Chybové hlásenia z&amp;nbsp;fiškálneho zariadenia&lt;/STRONG&gt; - pri zaevidovaní (tlači) dokladu sa kontroluje stav fiškálneho zariadenia. Ak nie je zariadenie pripravené zaevidovať (vytlačiť) doklad, zobrazí sa chybové hlásenie generované fiškálnym zariadením, napr. v&amp;nbsp;tlačiarni chýba papier, autentifikačné údaje stratili platnosť, CHDÚ je zaplnené a pod. V takýchto prípadoch je potrebné postupovať podľa dokumentácie k&amp;nbsp;fiškálnemu zariadeniu, resp. &lt;SPAN&gt;obsluha pokladnice by mala kontaktovať svojho servisného&amp;nbsp;technika, resp. dodávateľa pokladničného riešenia.&lt;/SPAN&gt;&lt;/SPAN&gt; 
+&lt;LI&gt;&lt;SPAN&gt;&lt;STRONG&gt;Chybové hlásenia z modulu Pokladnica OBERON&lt;/STRONG&gt; - tieto hlásenia generuje systém OBERON (modul&amp;nbsp;&lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnica OBERON&lt;/A&gt;), napr. chyba pri uložení dokladu do databázy (z&amp;nbsp;dôvodu výpadku počítačovej siete, v&amp;nbsp;prípade cloudu pri výpadku internetového pripojenia a pod.). Riešenie problému závisí od jeho povahy, obsluha pokladnice by mala kontaktovať svojho servisného&amp;nbsp;technika, resp. dodávateľa pokladničného riešenia.&lt;/SPAN&gt; &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Chybové hlásenia, keď fiškálne zariadenia neodpovedá&lt;/H2&gt;
+&lt;P&gt;Tento typ chybových hlásení vzniká vtedy, keď pri požiadavke systému OBERON fiškálne zariadenie v&amp;nbsp;požadovanom čase neodpovedá (timeout).&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;SPAN&gt;&lt;STRONG&gt;Chybové hlásenie pri zaevidovaní (tlači) dokladu&lt;/STRONG&gt; - ak sa pri tlači dokladu zobrazí chybové hlásenie typu timeout, môžu nastať tieto situácie:&lt;/SPAN&gt; 
+&lt;UL&gt;
+&lt;LI&gt;&lt;SPAN&gt;&lt;STRONG&gt;doklad sa vytlačil, resp. začal tlačiť&lt;/STRONG&gt; - takýto doklad (aj keď nebol kompletne vytlačený), možno považovať za zaevidovaný vo fiškálnom zariadení (CHDÚ), a teda aj v systéme eKasa. Po zobrazení chybového hlásenia je potrebné hlásenie potvrdiť a doklad dať opätovne zaevidovať (vytlačiť). Vtedy sa už doklad nebude opätovne evidovať (tlačiť), len sa neuzatvorený doklad na&amp;nbsp;&lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnici OBERON&lt;/A&gt;&amp;nbsp;uzatvorí. Ak doklad nebol kompletne vytlačený a zákazník ho požaduje, je potrebné doklad vystornovať a opätovne zaevidovať (vytlačiť).&lt;/SPAN&gt; 
+&lt;LI&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;STRONG&gt;doklad sa nezačal tlačiť&lt;/STRONG&gt; - v&amp;nbsp;tomto prípade nie je zrejmé, či bol doklad vo fiškálnom zariadení (CHDÚ) zaevidovaný, alebo nie. Pri fiškálnej tlačiarni &lt;A href="00fa9619-a13d-4745-8938-cc0c2b5039ce"&gt;eKasa PANDORA&lt;/A&gt; &lt;A href="1f32a90c-7b4a-4d69-9f38-a560178794b3" style="auto-update-caption: true"&gt;&lt;IMG border=0 alt="Odporúčané riešenia" src="images/OBERON/Basic/Odporucane-riesenie_ruka_ikona.png"&gt;&lt;/A&gt;&amp;nbsp;a pri fiškálnych zariadeniach &lt;EM&gt;FiskalPRO&lt;/EM&gt; a&amp;nbsp;&lt;EM&gt;BOWA&lt;/EM&gt; (t.&amp;nbsp;j. pri zariadeniach, ktoré umožňujú načítať daný doklad z&amp;nbsp;CHDÚ) je potrebné doklad opätovne zaevidovať (vytlačiť)&amp;nbsp;-&amp;nbsp;vtedy sa automaticky &lt;STRONG&gt;aktivuje funkcia automatického overenia zaevidovania dokladu&lt;/STRONG&gt; vo fiškálnom zariadení (CHDÚ). Ak bol doklad vo fiškálnom zariadení (CHDÚ) zaevidovaný, v&amp;nbsp;&lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnici OBERON&lt;/A&gt;&amp;nbsp;sa uzatvorí, ak nebol, opätovne sa zaeviduje (vytlačí).&amp;nbsp;&lt;SPAN&gt;Pri ostatných fiškálnych zariadeniach je potrebné z&lt;SPAN&gt;istiť, či bol doklad zaevidovaný,&amp;nbsp;a&amp;nbsp;to vytlačením informatívnej (priebežnej) uzávierky z&amp;nbsp;fiškálneho zariadenia a&amp;nbsp;kontrolou hotovosti v&amp;nbsp;&lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnici OBERON&lt;/A&gt;&amp;nbsp;(tlačidlo &lt;EM&gt;Obraty pokladnice&lt;/EM&gt;). Doklad je potrebné nanovo zaevidovať (vytlačiť), pričom obsluha na základe daného zistenia zvolí, či daný doklad len v&amp;nbsp;&lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnici OBERON&lt;/A&gt;&amp;nbsp;uzatvorí, alebo ho dá nanovo zaevidovať (vytlačiť).&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt; &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;STRONG&gt;S dokladom nie je možné pracovať (názov účtu je zobrazený &lt;SPAN style="COLOR: rgb(255,0,0)"&gt;červenou farbou&lt;/SPAN&gt;)&lt;/STRONG&gt; - červená farba informuje o&amp;nbsp;probléme pri zaevidovaní (tlači) dokladu. Ak nebolo možné doklad opätovne zaevidovať (vytlačiť), možno&amp;nbsp;v&amp;nbsp;&lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnici OBERON&lt;/A&gt;&amp;nbsp;použiť funkciu&amp;nbsp;&lt;STRONG&gt;&lt;EM&gt;Odstránenie príznaku o&amp;nbsp;vykonávaní zaevidovania dokladu&lt;/EM&gt;&lt;/STRONG&gt; (tlačidlo &lt;EM&gt;Ďalšie možnosti&lt;/EM&gt; - pozri tému&amp;nbsp;&lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnica OBERON&lt;/A&gt;). Problém môže byť signalizovaný napr. takýmto hlásením: &lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;EM&gt;Položku nie je možné upraviť, pretože tento doklad už mohol byť do fiškálneho zariadenia zaslaný a teda zaevidovaný. Pokúste sa doklad opätovne zaevidovať (vytlačiť) - vtedy sa automaticky overí, či predchádzajúce zaevidovanie bolo korektné.&lt;/EM&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt; &lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="e222b9a4-9982-4136-900c-91d49b67979b" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="d9b919e7-20c4-4c50-9910-4f13211ed9a8">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="acfe8dfb-bc0a-4e1a-9194-b7b9a861c78c" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="00fa9619-a13d-4745-8938-cc0c2b5039ce">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="7e388441-cbc9-4ad1-a5e4-fe4279ba34cc" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="75a07288-2569-448c-bfd8-c66915fae9a8">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="665c1262-8ba3-478f-9c35-72809ec1aacc" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="b38ff933-a53a-4a49-b2bf-3228c3cd657a">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="3d1a65bf-0baf-4c8f-b9a8-05f4bc06bbc5" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="69bbd499-45c0-4b0f-8f7a-c53fa5d70c1b">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="f0535514-ce6b-4ce8-bad6-80ab0ee2a817" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="f83c2a9c-cda4-4862-8628-7ba16ddb1b06">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="ffa74315-782a-40fb-a2eb-fcb064caedcb">
+      <Keyword m="2024-01-17T11:31:45.8658938Z">Automatické overenie zaevidovania dokladu</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="ac5c4055-aeac-423d-a3b5-4decd567e6fe">
+      <Keyword m="2024-01-17T11:31:56.8913909Z">Overenie zaevidovania dokladu</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="052753d6-8900-4c36-829e-0739790b0354">
+      <Keyword m="2024-01-17T13:52:12.7373399Z">Chybové hlásenia pri kontrole (validácii) dokladu pri jeho zaevidovaní (tlači)</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="b32fdbac-9af1-4b05-9d96-876dc2871ace">
+      <Keyword m="2024-01-17T13:52:20.5539471Z">Chybové hlásenia z fiškálneho zariadenia </Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="8c7a50ce-4a92-437a-ae0f-1ee3bb6bf288">
+      <Keyword m="2024-01-17T13:52:28.7232021Z">Chybové hlásenia z modulu Pokladnica OBERON </Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="dd906cc0-669e-47a4-b18a-f033c2bd058f">
+      <Keyword m="2024-01-17T13:52:40.0364992Z">Chybové hlásenie pri zaevidovaní (tlači) dokladu </Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

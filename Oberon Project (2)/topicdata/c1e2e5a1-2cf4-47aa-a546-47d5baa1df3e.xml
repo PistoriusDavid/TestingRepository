@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="c1e2e5a1-2cf4-47aa-a546-47d5baa1df3e" Status="Complete" CreatedOn="2014-09-04T15:26:20.654061Z" ModifiedOn="2024-04-23T07:08:59.1921696Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="What_is_Electronic_Signature" BuildFlags="">
+  <Title m="2014-09-04T15:26:41.8462731Z">Čo je elektronický podpis</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-04-23T07:08:59.1921696Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;všeobecné informácie o&amp;nbsp;elektronickom podpise&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Elektronický podpis je informácia pripojená alebo inak logicky spojená s elektronickým dokumentom. Jeho účel je viacnásobný: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Overenie identity&lt;/STRONG&gt; – elektronický podpis umožňuje spoľahlivo a jednoznačne určiť identitu subjektu, ktorý ho vytvoril, 
+&lt;LI&gt;&lt;STRONG&gt;Preukázanie nemennosti údajov&lt;/STRONG&gt; – elektronický podpis zabezpečuje, že údaje v dokumente zostali nezmenené, 
+&lt;LI&gt;&lt;STRONG&gt;Právna platnosť&lt;/STRONG&gt; – elektronický podpis je právne platný a môže byť použitý ako alternatíva k vlastnoručnému podpisu. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Elektronicky možno podpisovať prakticky &lt;STRONG&gt;všetky dokumenty účtovnej jednotky&lt;/STRONG&gt;, výnimkou môžu byť pracovné zmluvy a iné dokumenty podpisované zamestnancami. Tie však tiež môžu byť podpisované elektronicky v&amp;nbsp;prípade, že zamestnanci vlastnia občiansky preukaz s&amp;nbsp;platným certifikátom pre kvalifikovaný elektronický podpis. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Čo je súkromný a verejný kľúč?&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Súkromný kľúč&lt;/STRONG&gt; je tajná informácia, ktorá slúži na vyhotovenie elektronického podpisu. 
+&lt;LI&gt;&lt;STRONG&gt;Verejný kľúč&lt;/STRONG&gt; je informácia dostupná overovateľovi, ktorá slúži na overenie správnosti elektronického podpisu vyhotoveného pomocou súkromného kľúča patriaceho k danému verejnému kľúču. 
+&lt;LI&gt;Súkromný a verejný kľúč sú kryptograficky previazané, a preto spolu tvoria &lt;STRONG&gt;kľúčový pár&lt;/STRONG&gt;. Sú to pojmy spojené s asymetrickou kryptografiou, ktorá tvorí základ vytvárania elektronického podpisu. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Čo je kvalifikovaný (digitálny) certifikát?&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Overenie elektronického podpisu zahŕňa okrem matematických operácií aj &lt;STRONG&gt;prenos dôvery&lt;/STRONG&gt; z dôveryhodnej tretej strany na tvorcu podpisu a následne na dôveryhodnosť elektronicky podpísaného dokumentu. Na to sa využíva &lt;STRONG&gt;kvalifikovaný certifikát&lt;/STRONG&gt; vydaný certifikačnou autoritou. 
+&lt;LI&gt;Kvalifikovaný certifikát pre elektronický podpis je &lt;STRONG&gt;elektronický dokument, ktorým vydavateľ certifikátu potvrdzuje, že v certifikáte uvedený verejný kľúč patrí osobe, ktorej je certifikát vydaný&lt;/STRONG&gt; (držiteľ certifikátu). 
+&lt;LI&gt;Vydavateľom kvalifikovaného certifikátu môže byť len &lt;STRONG&gt;kvalifikovaný poskytovateľ dôveryhodných služieb&lt;/STRONG&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Elektronický podpis v OBERON-e&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;OBERON umožňuje &lt;STRONG&gt;vytvárať dokumenty vo formáte PDF a následne ich elektronicky podpisovať&lt;/STRONG&gt; (spravidla ide o vystavené faktúry, ponuky, dokumenty týkajúce sa pracovníkov a pod.). 
+&lt;LI&gt;Aby&amp;nbsp;sa v systéme OBERON používateľom vytváraný elektronický dokument automaticky elektronicky podpísal, je potrebné vo &lt;A href="12e7a96f-bc40-4359-bc7a-213d74a785d4"&gt;formulári Používateľ&lt;/A&gt;, záložka &lt;EM&gt;Podpis&lt;/EM&gt;&amp;nbsp;&lt;STRONG&gt;danému&lt;/STRONG&gt; &lt;STRONG&gt;používateľovi priradiť podpisový certifikát&amp;nbsp;&lt;/STRONG&gt;zo systémového úložiska certifikátov (pozri postup nižšie). 
+&lt;LI&gt;V&amp;nbsp;systéme OBERON&amp;nbsp;sa na elektronické podpisovanie dokumentov môže použiť: &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;kvalifikovaný elektronický podpis&lt;/STRONG&gt; &lt;STRONG&gt;(KEP)&lt;/STRONG&gt; - používa sa&amp;nbsp;na autentifikáciu&amp;nbsp;&lt;STRONG&gt;fyzickej&amp;nbsp;osoby&lt;/STRONG&gt; (podnikateľa alebo nepodnikateľa). Vytvára sa &lt;STRONG&gt;prostredníctvom&amp;nbsp;elektronickej identifikačnej karty (občiansky preukaz s elektronickým čipom (eID) alebo doklad o povolení na pobyt s&amp;nbsp;elektronickým čipom (eDoPP))&lt;/STRONG&gt;&amp;nbsp;s&amp;nbsp;platným &lt;STRONG&gt;kvalifikovaným certifikátom pre elektronický podpis&lt;/STRONG&gt; uloženým&amp;nbsp;v&amp;nbsp;čipe. Vydanie kvalifikovaného certifikátu pre elektronický podpis je &lt;STRONG&gt;bezplatné ak je súčasťou elektronickej identifikačnej karty (eID, eDoPP)&lt;/STRONG&gt;. Certifikát je možné vydať aj prostredníctvom komerčnej certifikačnej autority za poplatok, pričom využívanie komerčného certifikátu má oproti bežnému certifikátu&amp;nbsp;niekoľko výhod (napr. jednoduchosť podpisovania, menej zverejnených údajov...).&amp;nbsp;Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="bdf07bad-43fb-450a-9dba-15b8366448a9" style="auto-update-caption: true"&gt;O kvalifikovanom elektronickom podpise (KEP)&lt;/A&gt;.
+&lt;LI&gt;&lt;STRONG&gt;kvalifikovaná elektronická pečať&lt;/STRONG&gt; -&amp;nbsp;používa sa&amp;nbsp;na autentifikáciu &lt;STRONG&gt;právnickej osoby&lt;/STRONG&gt;. Kvalifikovaná elektronická pečať musí byť založená na kvalifikovanom certifikáte, ktorý môžu vydávať len tzv. akreditované certifikačné autority (komerčné firmy) s povolením od &lt;EM&gt;Národného bezpečnostného úradu&lt;/EM&gt;.&amp;nbsp;Certifikát kvalifikovanej elektronickej pečate je spoplatnený a vydáva sa na obmedzený čas (spravidla 1 rok). Jej implementácia predpokladá&amp;nbsp;&lt;A href="72c72d0f-32a6-487e-97eb-e0481758934d"&gt;inštaláciu kvalifikovaného certifikátu&lt;/A&gt;,&amp;nbsp;&lt;A href="4376aec1-e02e-436f-aeb1-21f4084c3d3c"&gt;inštaláciu súkromného kľúča&lt;/A&gt; a &lt;A href="5b587dad-82da-489c-9bc2-a73dc28a0b4a"&gt;inštaláciu verejného kľúča&lt;/A&gt;.&amp;nbsp;&amp;nbsp;Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="bdf07bad-43fb-450a-9dba-15b8366448a9" style="auto-update-caption: true"&gt;O kvalifikovanom elektronickom podpise (KEP)&lt;/A&gt;.
+&lt;LI&gt;&lt;STRONG&gt;digitálny podpis&amp;nbsp;vygenerovaný v&amp;nbsp;OBERON-e&lt;/STRONG&gt; - v&amp;nbsp;ponuke &lt;EM&gt;Firma&lt;/EM&gt;,&amp;nbsp;&lt;A href="a833ee8a-1289-42b9-923f-80f549497702" style="auto-update-caption: true"&gt;Údaje o firme&lt;/A&gt; možno vygenerovať podpisový certifikát danej účtovnej jednotky na digitálne podpisovanie&amp;nbsp;dokumentov.&amp;nbsp;Takto vygenerovaný podpisový&amp;nbsp;certifikát je alternatívou ku kvalifikovanému certifikátu vydanému certifikačnou autoritou a&amp;nbsp;je určený najmä pre interný&amp;nbsp;&lt;A href="68a24d97-e4a5-4cf4-bc7a-72262df5973e"&gt;elektronický archív dokumentov&lt;/A&gt;. Vygenerovaný podpisový certifikát účtovnej jednotky poskytuje rovnakú úroveň ochrany ako kvalifikovaný certifikát pre elektronický podpis (pečať), nevyužíva však časovú pečiatku dôveryhodného časového servera, ale čas servera SQL. Keďže neobsahuje nadradený kvalifikovaný certifikát certifikačnej autority,&amp;nbsp;pre dodávateľa&amp;nbsp;sa nemusí javiť ako&amp;nbsp;dôveryhodný automaticky, ale sa preň&amp;nbsp;stáva dôveryhodným v&amp;nbsp;okamihu jeho akceptovania (otvorením podpísaného dokumentu a validáciou).&amp;nbsp;Oproti komerčnej kvalifikovanej pečati je optimálnym riešením (možno ho používať v&amp;nbsp;rámci ceny licencie OBERON), pričom&amp;nbsp;jeho platnosť nie je časovo obmedzená ako pri elektronickej pečati. Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="41fb8a3f-4d42-4e29-8296-05613775d8a6" style="auto-update-caption: true"&gt;Digitálny podpis vygenerovaný v OBERON-e&lt;/A&gt;.
+&lt;LI&gt;&lt;STRONG&gt;podpis pomocou&amp;nbsp;digitálnej podpisovej podložky&lt;/STRONG&gt; - ide o &lt;STRONG&gt;snímanie digitálnych biometrických podpisov na bezpapierové elektronické podpisovanie dokumentov&lt;/STRONG&gt; v evidenciách, ktoré umožňujú pri jednotlivých záznamoch evidovať prílohy (obsahujú tlačidlo &lt;EM&gt;Prílohy&lt;/EM&gt;). Do vygenerovaného&amp;nbsp;tlačového výstupu (vo formáte PDF) sa po podpise na digitálnej podpisovej podložke&amp;nbsp;vloží podpis zákazníka, a&amp;nbsp;tým sa dokument&amp;nbsp;digitálne podpíše. Dokument podpísaný pomocou digitálnej podpisovej podložky &lt;EM&gt;EXALOGIC-DSP1&lt;/EM&gt; &lt;STRONG&gt;obsahuje zaručený elektronický podpis&lt;/STRONG&gt; vydaný spoločnosťou&amp;nbsp;&lt;A href="https://www.disig.sk/sk/" target=_blank&gt;Disig a.s.&lt;/A&gt; pre firmu EXALOGIC, s.r.o. Podpísaný dokument zároveň môže obsahovať &lt;STRONG&gt;kvalifikovanú elektronickú časovú pečiatku&lt;/STRONG&gt; na overenie podpísania dokumentu v&amp;nbsp;danom čase.&amp;nbsp;Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="a315053c-fb60-4f19-a3df-40b9c9dd02f8" style="auto-update-caption: true"&gt;Digitálna podpisová podložka EXALOGIC-DSP1&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 1: Priradenie podpisového certifikátu používateľovi vo formulári &lt;EM&gt;Používateľ&lt;/EM&gt;, záložka &lt;EM&gt;Podpis&lt;/EM&gt;&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/ProductOptions/ElectronicSignature/ElectronicSignature_UserCertificate.png.PNG"&gt;&lt;/P&gt;
+&lt;H2&gt;Výhody elektronického podpisovania vlastných dokumentov&lt;/H2&gt;
+&lt;P&gt;Elektronické&amp;nbsp;podpisovanie vlastných dokumentov&amp;nbsp;&lt;A href="a833ee8a-1289-42b9-923f-80f549497702"&gt;digitálnym podpisom vygenerovaným&amp;nbsp;v&amp;nbsp;OBERON-e&lt;/A&gt;&amp;nbsp;a&amp;nbsp;&lt;A href="c1e2e5a1-2cf4-47aa-a546-47d5baa1df3e"&gt;kvalifikovaným elektronickým podpisom (KEP), resp. kvalifikovanou elektronickou pečaťou&lt;/A&gt;&amp;nbsp;má nasledujúce výhody:&lt;/P&gt;
+&lt;OL&gt;
+&lt;LI&gt;&lt;STRONG&gt;autenticita&lt;/STRONG&gt; – možno jednoznačne overiť identitu subjektu, ktorý podpis vytvoril, napr. obchodný partner si môže overiť, či daná faktúra&amp;nbsp;bola naozaj vydaná danou účtovnou jednotkou, 
+&lt;LI&gt;&lt;STRONG&gt;integrita&lt;/STRONG&gt; – možno preukázať, že po podpísaní dokumentu nedošlo k žiadnej úmyselnej alebo neúmyselnej zmene obsahu dokumentu, aký bol v čase jeho podpisovania, 
+&lt;LI&gt;&lt;STRONG&gt;nepopierateľnosť&lt;/STRONG&gt; – autor nemôže tvrdiť, že nevyhotovil daný podpis elektronického dokumentu, 
+&lt;LI&gt;&lt;STRONG&gt;znemožňuje&amp;nbsp;antidatovať dokument&lt;/STRONG&gt; - pri kvalifikovanom elektronickom podpise (pečati)&amp;nbsp;sa používa časová pečiatka, pri digitálnom podpise vygenerovanom v&amp;nbsp;OBERON-e sa používa&amp;nbsp;čas SQL servera, 
+&lt;LI&gt;&lt;STRONG&gt;nedá sa pozmeňovať dokument&lt;/STRONG&gt; - v prípade úprav dokumentov (napr. faktúr) je zachytená celá história zmien v&amp;nbsp;rámci jednotlivých podpísaných príloh (tieto zmeny nie je možné zachytiť v&amp;nbsp;rámci&amp;nbsp;&lt;A href="bc30e126-afb5-41aa-a261-e92501038063" style="auto-update-caption: true"&gt;Sledovanie činností&lt;/A&gt;), 
+&lt;LI&gt;&lt;STRONG&gt;vyššia kontrola dokumentov&lt;/STRONG&gt; - najmä vo väčších firmách s väčším počtom používateľov (napr. pri viacerých prevádzkach a pod.), 
+&lt;LI&gt;&lt;STRONG&gt;dokument sa nemusí archivovať v papierovej (listinnej) podobe&lt;/STRONG&gt; -&amp;nbsp;je uchovaný vo formáte PDF. Takto vyexportované údaje je možné poskytnúť tretej strane napr. pri kontrole a pod.&amp;nbsp;Viac informácií v&amp;nbsp;téme&amp;nbsp;&lt;A href="f03d4e27-214d-4138-8d5a-3c65ca1ea6a4" style="auto-update-caption: true"&gt;Hromadný export príloh dokumentov&lt;/A&gt;. &amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/LI&gt;&lt;/OL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt; 
+&lt;UL&gt;
+&lt;LI&gt;Po vytvorení súboru tlačového výstupu vo formáte PDF&amp;nbsp;&lt;A href="a315053c-fb60-4f19-a3df-40b9c9dd02f8"&gt;&lt;/A&gt;vo &lt;A href="2bac8d21-6ae0-44e4-8b2e-403ac2f25955"&gt;formulári Tlačové výstupy&lt;/A&gt;&amp;nbsp;a následnom podpísaní&amp;nbsp;&lt;A href="a833ee8a-1289-42b9-923f-80f549497702"&gt;digitálnym podpisom vygenerovaným&amp;nbsp;v&amp;nbsp;OBERON-e&lt;/A&gt;&amp;nbsp;a&amp;nbsp;&lt;A href="c1e2e5a1-2cf4-47aa-a546-47d5baa1df3e"&gt;kvalifikovaným elektronickým podpisom (KEP), resp. kvalifikovanou elektronickou pečaťou&lt;/A&gt;, ako aj po podpise súboru tlačového výstupu vo formáte PDF pomocou&amp;nbsp;&lt;A href="a315053c-fb60-4f19-a3df-40b9c9dd02f8"&gt;digitálnej podpisovej podložky&lt;/A&gt;&amp;nbsp;sa podpísaný dokument automaticky uloží k&amp;nbsp;príslušnému záznamu do databázy, a tým aj do elektronického archívu. Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="68a24d97-e4a5-4cf4-bc7a-72262df5973e" style="auto-update-caption: true"&gt;Elektronický archív&lt;/A&gt;. 
+&lt;LI&gt;V prípade&amp;nbsp;&lt;A href="60388e53-ff9f-48e3-9f8c-e45df1201ad3"&gt;zbernej faktúry&lt;/A&gt;, ktorá je tvorená z jednej alebo z viacerých výdajok, ktoré obsahujú prílohy vo formáte PDF podpísané&amp;nbsp;&lt;A href="a833ee8a-1289-42b9-923f-80f549497702"&gt;digitálnym podpisom vygenerovaným&amp;nbsp;v&amp;nbsp;OBERON-e&lt;/A&gt;,&amp;nbsp;&lt;A href="c1e2e5a1-2cf4-47aa-a546-47d5baa1df3e"&gt;kvalifikovaným elektronickým podpisom (KEP), resp. kvalifikovanou elektronickou pečaťou&lt;/A&gt;&amp;nbsp;alebo pomocou&amp;nbsp;&lt;A href="a315053c-fb60-4f19-a3df-40b9c9dd02f8"&gt;digitálnej podpisovej podložky&lt;/A&gt;, sa&amp;nbsp;tieto prílohy výdajok vložia do e-mailovej správy spolu s faktúrou. &lt;/LI&gt;&lt;/UL&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="94b65698-14d5-4f80-8a65-6e981f0cdfd5" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="41fb8a3f-4d42-4e29-8296-05613775d8a6">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="ccb9a00d-8e9e-4491-b849-017a006730f3" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="bdf07bad-43fb-450a-9dba-15b8366448a9">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="eb8013ed-adfb-43bd-970e-b8e77cdc0933" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="a315053c-fb60-4f19-a3df-40b9c9dd02f8">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="69df54cb-02f7-41f3-9ac3-a1c073fb0ccd" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="68a24d97-e4a5-4cf4-bc7a-72262df5973e">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="ca2859f4-c6a4-40c8-842a-014ad3f55889">
+      <Keyword m="2022-10-25T08:33:24.7581595Z">Elektronický podpis - všeobecné informácie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="1741bc44-f9e5-43a3-aa3e-34c5ac889369">
+      <Keyword m="2024-03-20T09:58:29.0270211Z">Súkromný kľúč</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="d857a346-ecc6-4aae-a417-21c59d425490">
+      <Keyword m="2024-03-20T09:58:12.9129303Z">Kvalifikovaný (digitálny) certifikát </Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="65014eea-c070-47b4-a478-5bbe4ca67cf5">
+      <Keyword m="2024-03-20T09:58:20.3050423Z">Digitálny certifikát</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="8d3ca8a1-4297-4134-88a8-40af248147a5">
+      <Keyword m="2024-03-20T09:58:34.3472556Z">Verejný kľúč</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="e1b8c61c-4eb6-4f07-a5e5-d529cbefb4d2">
+      <Keyword m="2024-03-20T09:58:44.0133033Z">Výhody elektronického podpisovania vlastných dokumentov</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

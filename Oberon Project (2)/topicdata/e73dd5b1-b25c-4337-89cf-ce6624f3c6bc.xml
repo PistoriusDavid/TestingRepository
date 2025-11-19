@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="e73dd5b1-b25c-4337-89cf-ce6624f3c6bc" Status="Complete" CreatedOn="2019-12-17T13:50:36.7662358Z" ModifiedOn="2023-09-07T10:15:13.2246057Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Devices_ReaderDocuments_XTIOT" BuildFlags="">
+  <Title m="2023-03-13T07:46:04.7879565Z">Čítačka dokladov XTIOT XTZ62x</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-09-07T10:15:13.2246057Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;je venovaná&lt;STRONG&gt;&amp;nbsp;&lt;/STRONG&gt;čítačke dokladov&amp;nbsp;&lt;EM&gt;XTIOT XTZ62x&lt;/EM&gt;. Téma obsahuje &lt;STRONG&gt;všeobecné informácie o zariadení spolu s&amp;nbsp;jeho&amp;nbsp;technickou špecifikáciou&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Čítačka dokladov&amp;nbsp;&lt;EM&gt;XTIOT XTZ62x&lt;/EM&gt; je hardvérové zariadenie, ktoré umožňuje &lt;STRONG&gt;automaticky načítať identifikačné údaje z občianskych preukazov, pasov, víz a iných identifikačných kariet&lt;/STRONG&gt; do modulu&amp;nbsp;&lt;A href="c3bd41f0-029e-4c74-b342-b0ffff647b6e"&gt;Hotelová recepcia&lt;/A&gt; systému OBERON, konkrétne do&amp;nbsp;&lt;A href="d43ef71f-edb1-44f7-b1a2-c0cf18067ee9"&gt;formulára Ubytovanie&lt;/A&gt; v&amp;nbsp;&lt;A href="0b9519ff-9438-422b-a3e8-358b628293e9"&gt;Knihe ubytovaných&lt;/A&gt;.&amp;nbsp;Určená je pre recepcie ubytovacích zariadení, kde je potrebné zapisovať údaje z dokladov. 
+&lt;LI&gt;Okrem uvedenej funkcionality čítačka funguje aj ako &lt;STRONG&gt;plnohodnotný snímač čiarových kódov vrátane QR kódov&lt;/STRONG&gt;. Viac informácií získate v téme&amp;nbsp;&lt;A href="80a78093-fc45-4db9-b74b-e1f9829f7b3c"&gt;Snímače čiarových kódov&lt;/A&gt;. V prípade, že chcete zariadenie používať aj ako snímač čiarových kódov, &lt;STRONG&gt;stačí ho v OBERON-e pridať len ako čítačku dokladov&lt;/STRONG&gt; (nie je potrebné&amp;nbsp;pridávať ďalšie zariadenie ako snímač čiarových kódov). 
+&lt;LI&gt;Čítačka umožňuje čítať také doklady, ktoré obsahujú &lt;STRONG&gt;MRZ&lt;/STRONG&gt; (&lt;STRONG&gt;M&lt;/STRONG&gt;achine &lt;STRONG&gt;R&lt;/STRONG&gt;eadable &lt;STRONG&gt;Z&lt;/STRONG&gt;one), pričom dokáže čítať 2-riadkové a 3-riadkové MRZ zóny. 
+&lt;LI&gt;Pri vytváraní nového ubytovania obsluha recepcie nasníma MRZ zónu na doklade. Vzápätí sa do OBERON-u z dokladu načítajú nasledujúce údaje – &lt;STRONG&gt;číslo dokladu totožnosti, priezvisko, meno, dátum narodenia, štát&lt;/STRONG&gt; (neprenáša sa adresa trvalého pobytu). 
+&lt;LI&gt;Pri ďalšej návšteve hosťa však program vyhľadá v histórii ubytovaných hostí a načíta &lt;STRONG&gt;nielen údaje prečítané z dokladu, ale aj ďalšie údaje, ktoré boli zapísané manuálne&lt;/STRONG&gt; (napr. adresa, titul, poznámka, e-mail). 
+&lt;LI&gt;Inštalácia čítačky je veľmi jednoduchá, na pripojenie k počítaču sa používa USB rozhranie. Postup inštalácie je k dispozícii v téme&amp;nbsp;&lt;A href="488ad298-0d1f-4969-b5a4-6c6e164f8961"&gt;Návod na použitie čítačky dokladov&amp;nbsp;XTIOT XTZ62x&lt;/A&gt;. 
+&lt;LI&gt;Čítačka dokladov nepodporuje diakritiku. 
+&lt;LI&gt;Podporované modely: &lt;EM&gt;&lt;STRONG&gt;XTZ62E&lt;/STRONG&gt;, &lt;STRONG&gt;XT6201B&lt;/STRONG&gt;&lt;/EM&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Hlavné výhody&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Zariadenie číta strojovo čitateľné pasy, víza a cestovné doklady, ktoré sú v súlade s normou ICAO 9303. 
+&lt;LI&gt;Automatické načítavanie údajov o prichádzajúcich hosťoch. 
+&lt;LI&gt;Zvlášť pri väčších skupinách výrazné skrátenie času zaevidovania hostí. 
+&lt;LI&gt;Odbúranie chybovosti pri manuálnom zadávaní údajov. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Nevýhody&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Nevýhodou čítačky dokladov&amp;nbsp;&lt;EM&gt;XTIOT XTZ62x&lt;/EM&gt; oproti štrbinovej čítačke môže byť spôsob jej obsluhy, ktorý vyžaduje obe ruky (držanie dokladu, stláčanie tlačidla). Štrbinovú čítačku je možné umiestniť na stôl a jej obsluha vyžaduje len jednu ruku (stačí prejsť dokladom v štrbine čítačky). Inou nevýhodou môže byť dlhší kábel, ktorý môže prekážať. 
+&lt;LI&gt;Ak sa v blízkosti snímaného kódu nachádza iný kód (napr. na občianskych preukazoch občanov &lt;EM&gt;Českej republiky&lt;/EM&gt; je aj QR kód), odporúčame tento iný kód prekryť, aby sa predišlo jeho nežiaducemu nasnímaniu namiesto pôvodného kódu. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Čítačku dokladov je možné používať aj cez vzdialenú plochu &lt;EM&gt;Windows&lt;/EM&gt;, pričom zariadenie je nakonfigurované na vzdialenom počítači.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H5&gt;Obrázok&amp;nbsp;č. 1: Čítačka dokladov&amp;nbsp;&lt;EM&gt;XTIOT,&lt;/EM&gt; model&lt;EM&gt;&amp;nbsp;XTZ62E&lt;/EM&gt;&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Devices/Device_XTIOT-XTZ62E.png"&gt;&lt;/P&gt;
+&lt;H2&gt;Technická špecifikácia&lt;/H2&gt;
+&lt;P&gt;&lt;STRONG&gt;Model&lt;/STRONG&gt;: XTZ62E, XT6201B&lt;BR&gt;&lt;STRONG&gt;Spôsob pripojenia (rozhranie)&lt;/STRONG&gt;: USB (s emuláciou sériového portu)&lt;BR&gt;&lt;STRONG&gt;Spôsob komunikácie:&lt;/STRONG&gt; virtuálny sériový port&lt;BR&gt;&lt;STRONG&gt;Typ snímacieho prvku&lt;/STRONG&gt;: CMOS&lt;BR&gt;&lt;STRONG&gt;Optické rozlíšenie&lt;/STRONG&gt;: 1280 x 960&lt;BR&gt;&lt;STRONG&gt;Identifikácia kódov&lt;/STRONG&gt;: 1D, 2D, MRZ&lt;BR&gt;&lt;STRONG&gt;Farebná hĺbka&lt;/STRONG&gt;: 32 Bit&lt;BR&gt;&lt;STRONG&gt;Rýchlosť snímania&lt;/STRONG&gt;: ≥ 3 mil&lt;BR&gt;&lt;STRONG&gt;Zvuková signalizácia:&lt;/STRONG&gt;&amp;nbsp;1 pípnutie pre korektné čítanie&lt;BR&gt;&lt;STRONG&gt;Optická signalizácia: &lt;/STRONG&gt;áno&lt;BR&gt;&lt;STRONG&gt;Podpora diakritiky:&lt;/STRONG&gt; nie&lt;BR&gt;&lt;STRONG&gt;Prevádzkové&amp;nbsp;napätie&lt;/STRONG&gt;: +5 VDC&amp;nbsp;±&amp;nbsp;5&amp;nbsp;%&lt;BR&gt;&lt;STRONG&gt;Prevádzkový prúd&lt;/STRONG&gt;: 266 mA&lt;BR&gt;&lt;STRONG&gt;Dĺžka kábla:&lt;/STRONG&gt; 2 m&lt;BR&gt;&lt;STRONG&gt;Teplota:&lt;/STRONG&gt; prevádzka: -20 °C - 50 °C, skladovanie: -40 °C - 70 °C&lt;BR&gt;&lt;STRONG&gt;Vlhkosť vzduchu:&lt;/STRONG&gt; 5 % - 95 % (bez kondenzácie)&lt;BR&gt;&lt;STRONG&gt;Rozmery&lt;/STRONG&gt;: 107 x 166 x 71 mm (šírka x dĺžka x výška)&lt;BR&gt;&lt;STRONG&gt;Hmotnosť&lt;/STRONG&gt;:&amp;nbsp;332 g&lt;/P&gt;
+&lt;H2&gt;Cena a objednávka zariadenia&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Zariadenie je určené na predaj, a to&amp;nbsp;výhradne používateľom OBERON-u a našim &lt;A href="f83c2a9c-cda4-4862-8628-7ba16ddb1b06" rel=noopener&gt;zmluvným partnerom&lt;/A&gt;. 
+&lt;LI&gt;Informácie o cene a dostupnosti zariadenia s možnosťou objednávky nájdete na stránke nášho internetového obchodu &lt;STRONG&gt;&lt;A href="https://shop.exalogic.sk/"&gt;EXALOGIC e-shop&lt;/A&gt;&lt;/STRONG&gt;. 
+&lt;LI&gt;Na inštaláciu a&amp;nbsp;nastavenie zariadenia odporúčame využiť služby našich zmluvných partnerov. &lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="b0cb4474-0810-4762-80c2-e0817a6926b2" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1ca0ffc5-a594-4417-b906-a801ad45f893">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="169d0b96-6397-4e64-922f-090c15ca23d8" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="80a78093-fc45-4db9-b74b-e1f9829f7b3c">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="43668544-5298-419a-8bfb-df724c205f5e" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="488ad298-0d1f-4969-b5a4-6c6e164f8961">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="e744aa3c-aa29-4baf-b923-7d54dc04ae27">
+      <Keyword m="2021-05-11T09:03:52.5563093Z">Čítačka dokladov XTIOT XTZ62E</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="990ad907-763f-484a-b3f7-570e50d2228f">
+      <Keyword m="2022-12-15T07:58:48.9627327Z">XTIOT XTZ62E – čítačka dokladov</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

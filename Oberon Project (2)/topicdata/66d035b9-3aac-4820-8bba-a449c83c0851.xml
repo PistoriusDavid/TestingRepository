@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="66d035b9-3aac-4820-8bba-a449c83c0851" Status="Complete" CreatedOn="2014-09-08T14:38:32.2758097Z" ModifiedOn="2024-11-11T12:17:15.5170815Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="false" HelpContextIds="" Name="AccDouble_Start_First_Steps" BuildFlags="">
+  <Title m="2014-09-08T14:39:34.0443427Z">Prvé kroky</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-11-11T12:17:15.5170815Z">&lt;P&gt;Skôr, ako začnete s modulom &lt;EM&gt;Účtovníctvo&lt;/EM&gt; pracovať, je potrebné, aby ste v&amp;nbsp;programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt; založili novú firmu. Viac informácií nájdete v&amp;nbsp;téme&amp;nbsp;&lt;A href="9a485893-6dd2-44e8-9740-a4cd7083a932"&gt;Vytvorenie účtovnej jednotky (databázy)&lt;/A&gt;. Zároveň je potrebné povoliť v ponuke&amp;nbsp;&lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="5a6e5663-262e-4ff0-9741-1569385d11e4"&gt;oddiel Firma, Moduly&lt;/A&gt;&amp;nbsp;účtovnej jednotke a&amp;nbsp;v&amp;nbsp;&lt;A href="6ffb02fa-4c5c-4d33-8a0c-6dba98b26a77"&gt;oddiele Používateľ, Moduly&lt;/A&gt; danému používateľovi prácu s&amp;nbsp;modulom&amp;nbsp;&lt;A href="49dd3167-870a-4fdf-b631-d4f692f1ed72"&gt;Podvojné účtovníctvo&lt;/A&gt;.&lt;/P&gt;
+&lt;H2&gt;1. Údaje o firme&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;V ponuke &lt;EM&gt;Firma,&lt;/EM&gt; &lt;A href="a833ee8a-1289-42b9-923f-80f549497702"&gt;Údaje o firme&lt;/A&gt; je potrebné zadať základné informácie o účtovnej jednotke. V ponuke &lt;EM&gt;Firma,&amp;nbsp;&lt;/EM&gt;&lt;A href="c4816aab-0050-498d-b3a5-ff35774b6fa9"&gt;Účtovné pokladne&lt;/A&gt; a&amp;nbsp;&lt;A href="93ded66f-b7a6-40a8-89e0-bd501cd17bfc"&gt;Vlastné bankové účty&lt;/A&gt;&amp;nbsp;zadajte údaje o&amp;nbsp;pokladniach a&amp;nbsp;bankových účtoch, ktoré ako firma používate. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;2. Predkontácie a účtovný rozvrh&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Po&amp;nbsp;&lt;A href="19a10c98-2b1d-4fe1-8ab2-98921ab328be"&gt;inštalácii programu&lt;/A&gt; a&amp;nbsp;&lt;A href="9a485893-6dd2-44e8-9740-a4cd7083a932"&gt;vytvorení novej účtovnej jednotky (databázy)&lt;/A&gt;&amp;nbsp;sú zoznam predkontácií a&amp;nbsp;účtovný rozvrh naplnené predvolenými štandardnými účtovnými prípadmi, resp. predvolenými štandardnými účtami&amp;nbsp;&lt;A href="75cfef8e-40bd-4b5b-9af2-a221edf76de9"&gt;účtovnej osnovy&lt;/A&gt;,&amp;nbsp;ktoré je možné ďalej dopĺňať, resp.&amp;nbsp;upravovať&amp;nbsp;podľa&amp;nbsp;potrieb a&amp;nbsp;požiadaviek účtovnej jednotky (a&amp;nbsp;to aj neskôr, resp. priebežne podľa potreby). 
+&lt;LI&gt;V&amp;nbsp;OBERON-e sa účtovný rozvrh a predkontácie&amp;nbsp;evidujú pre každý účtovný rok samostatne (zmeny v&amp;nbsp;účtovnom rozvrhu a&amp;nbsp;v&amp;nbsp;predkontáciách v aktuálnom účtovnom období neovplyvnia účtovný rozvrh a&amp;nbsp;predkontácie v&amp;nbsp;inom účtovnom období).&amp;nbsp;Z tohto dôvodu je potrebné účtovný rozvrh a predkontácie do nového účtovného obdobia zakaždým naimportovať (v&amp;nbsp;ponuke &lt;I&gt;Účtovníctvo,&lt;/I&gt;&amp;nbsp;&lt;A href="2db9ea90-4731-4a7e-bafd-a7c70581514f"&gt;Účtovný rozvrh&lt;/A&gt;, resp.&amp;nbsp;&lt;A href="da8a9192-a6cc-4470-b5d5-13d3ec435f97"&gt;Predkontácie&lt;/A&gt;, tlačidlo &lt;EM&gt;Možnosti -&lt;/EM&gt;&amp;nbsp;&lt;EM&gt;Import účtovného rozvrhu a predkontácií&lt;/EM&gt;). Dostupnými možnosťami sú&amp;nbsp;import predvolených hodnôt, ďalej import z&amp;nbsp;predchádzajúceho, resp. nasledujúceho účtovného obdobia a import z inej účtovnej jednotky (v&amp;nbsp;prípade spracovávania účtovníctva pre viacero firiem). 
+&lt;LI&gt;Importovať účtovný rozvrh a predkontácie sa odporúča len do účtovníctva, v ktorom nie je v&amp;nbsp;účtovnom denníku nič zaúčtované. Pri importe dôjde k&amp;nbsp;prepísaniu aktuálneho účtovného rozvrhu a predkontácií&amp;nbsp;(s&amp;nbsp;ktorými&amp;nbsp;sa doteraz pracovalo). &lt;STRONG&gt;Proces je nevratný,&amp;nbsp;t.&amp;nbsp;j.&amp;nbsp;pôvodné údaje sa nevratne vymažú a&amp;nbsp;nahradia importovanými.&lt;/STRONG&gt; 
+&lt;LI&gt;Na&amp;nbsp;automatické zaúčtovanie zaokrúhlenia&amp;nbsp;pri manuálnom aj automatickom účtovaní nezaokrúhlených hotovostných dokladov je potrebné v predkontácii, ktorá sa použije,&amp;nbsp;zadať&amp;nbsp;čísla predkontácií na zaúčtovanie nákladov a&amp;nbsp;výnosov (vo&amp;nbsp;&lt;A href="6510031b-e990-40e6-96aa-d0034df89cdc"&gt;formulári Predkontácia (podvojné účtovníctvo)&lt;/A&gt;, záložka &lt;EM&gt;Preúčtovania&lt;/EM&gt;). &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;3. Nastavenia programu&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;V&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="5a6e5663-262e-4ff0-9741-1569385d11e4"&gt;oddiel Firma, Všeobecné&lt;/A&gt; sa nastavuje: 
+&lt;UL&gt;
+&lt;LI&gt;hlavná mena systému, 
+&lt;LI&gt;umožnenie práce s&amp;nbsp;&lt;A href="09e378df-5c76-42f3-a245-b33dd0580648"&gt;cudzími menami&lt;/A&gt;, 
+&lt;LI&gt;&lt;A href="5a6e5663-262e-4ff0-9741-1569385d11e4"&gt;DPH&lt;/A&gt; (typ platiteľa DPH a jednotlivé sadzby), 
+&lt;LI&gt;uplatňovanie dane na základe prijatia platby §&amp;nbsp;68d a&amp;nbsp;&lt;A href="fbb3fe9e-2f4a-401b-bb15-384245126a0a"&gt;režim One Stop Shop&lt;/A&gt;, 
+&lt;LI&gt;počet dní pre zaradenie záväzku do predchádzajúceho zdaňovacieho obdobia evidencie DPH, keď dátum dodania je predchádzajúci mesiac a evidencia dokladu až nasledujúci.&lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;V&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="932262cc-b80f-4ce6-aba6-6a7d4a18f5ec"&gt;oddiel Firma, Účtovníctvo&lt;/A&gt;, záložka&amp;nbsp;&lt;EM&gt;Základné&lt;/EM&gt;&amp;nbsp;sa nastavuje druh účtového obdobia. Účtovným&amp;nbsp;obdobím v systéme OBERON je štandardne kalendárny rok. Okrem neho však účtovná jednotka - právnická osoba&amp;nbsp;účtujúca v sústave&amp;nbsp;podvojného účtovníctva môže používať aj&amp;nbsp;&lt;A href="3e08b8bb-efeb-44fe-88c6-7292a88a3094"&gt;hospodársky (fiškálny) rok&lt;/A&gt;. Ďalej v záložke &lt;EM&gt;Účtovanie&lt;/EM&gt; je možné nastaviť: 
+&lt;UL&gt;
+&lt;LI&gt;spôsob účtovania skladu, 
+&lt;LI&gt;spôsob účtovania skladových položiek podľa typu skladovej karty, 
+&lt;LI&gt;predvolené čísla predkontácií, ktoré sa použijú pri vytváraní&amp;nbsp;&lt;A href="2c25546b-872e-4c70-a89a-53e5999a7fe1"&gt;zápočtov faktúr&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;V záložke &lt;EM&gt;Ostatné&lt;/EM&gt; možno nastaviť schvaľovanie&amp;nbsp;&lt;A href="1288dcf2-9f76-4fc6-941a-1d03361bf937"&gt;príkazov na úhradu&lt;/A&gt; pred vytlačením alebo exportovaním do banky. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;4. Členenie dokladov&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Účtovná jednotka môže kvôli zvýšeniu prehľadnosti&amp;nbsp;použiť&amp;nbsp;&lt;A href="f68687b5-0939-447b-9f8e-37c883676f1e"&gt;členenie dokladov&lt;/A&gt; - možnosť priradiť každému dokladu v&amp;nbsp;účtovníctve súvis s&amp;nbsp;vybranou činnosťou,&amp;nbsp;zákazkou a pod. V&amp;nbsp;&lt;A href="d8c9bfc8-92d1-4471-8909-e5f8ce602d6c"&gt;účtovnom denníku&lt;/A&gt; je možné členiť doklady aj pomocou analytickej evidencie účtovného rozvrhu. Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="f68687b5-0939-447b-9f8e-37c883676f1e"&gt;Členenie&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;5. Nastavenia tlače&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;V&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="8406940f-006c-44df-b7ff-2f80e4556003"&gt;oddiel Používateľ, Tlač&lt;/A&gt;, záložka&amp;nbsp;&lt;EM&gt;Účtovníctvo&lt;/EM&gt;&amp;nbsp;je možné&amp;nbsp;povoliť (prípadne zakázať) tlač čísla pokladničného dokladu pri tlači pokladničných dokladov v účtovnom (peňažnom) denníku. &lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="f74a1772-64c0-41a4-863b-43d5c2d9499b" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="9a485893-6dd2-44e8-9740-a4cd7083a932">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="ccd92ff8-1cfc-4436-a0a0-a189bfd36e7b" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="5a6e5663-262e-4ff0-9741-1569385d11e4">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="20805aa1-b0cf-40bc-b354-bf4742097563" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="22339df8-4cc9-4569-8a96-654b454293af">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="527e8f9d-3141-4283-bfe3-78a7291513c7" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="932262cc-b80f-4ce6-aba6-6a7d4a18f5ec">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="56ac9a77-084d-48b8-bc3b-b90ff082c0dd" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="f03fc4a3-1248-49e2-8b72-223a1236cc02">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="1577b5f1-a26c-4b2f-bb98-dea6205a72c0" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1f5bf2be-396d-42e6-ade9-cc5a292efc15">
+      <Title m="2021-09-02T11:19:02.929235Z">Fakturácia - prvé kroky</Title>
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="ee771c1e-126a-4391-995b-808c7e83c441">
+      <Keyword m="2021-07-21T11:33:01.9336214Z">Podvojné účtovníctvo - prvé kroky</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="84f209db-129a-422e-99a9-4cb22c54c4a9">
+      <Keyword m="2021-07-21T11:32:50.5785997Z">Prvé kroky - podvojné účtovníctvo</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

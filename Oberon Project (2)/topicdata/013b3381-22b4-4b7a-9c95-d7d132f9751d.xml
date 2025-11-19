@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="013b3381-22b4-4b7a-9c95-d7d132f9751d" Status="Complete" CreatedOn="2014-09-08T12:52:20.0783409Z" ModifiedOn="2023-06-05T09:29:24.2404323Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="40340" Name="Menu_Service_Data_Recovery" BuildFlags="">
+  <Title m="2014-09-08T12:52:42.3866168Z">Obnova údajov</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-06-05T09:29:24.2404323Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; je venovaná položke &lt;EM&gt;Obnova údajov&lt;/EM&gt; v ponuke &lt;EM&gt;Servis&lt;/EM&gt; programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Výberom položky sa otvorí sprievodca&amp;nbsp;&lt;EM&gt;Obnova&lt;/EM&gt; &lt;EM&gt;údajov&lt;/EM&gt;, pomocou ktorého je možné &lt;STRONG&gt;obnoviť zálohované údaje danej účtovnej jednotky (firmy)&lt;/STRONG&gt;. Podmienkou je,&amp;nbsp;aby záložná kópia údajov (záloha) bola vytvorená pomocou&amp;nbsp;&lt;A href="ee4036d9-55fd-40ee-ab76-69337f16b1cc"&gt;manuálneho zálohovania&lt;/A&gt; údajov (ponuka &lt;EM&gt;Servis&lt;/EM&gt;, &lt;A href="ee4036d9-55fd-40ee-ab76-69337f16b1cc"&gt;Zálohovanie údajov&lt;/A&gt;).&amp;nbsp;Obnoviť údaje&amp;nbsp;pomocou tohto sprievodcu je&amp;nbsp;možné &lt;STRONG&gt;len pre&amp;nbsp;súborovú databázu&amp;nbsp;&lt;/STRONG&gt;&lt;I&gt;&lt;STRONG&gt;Microsoft Access&lt;/STRONG&gt;.&lt;/I&gt; 
+&lt;LI&gt;Obnovou údajov rozumieme obnovenie práve spracúvaných alebo nedávno uložených údajov, ak došlo k ich poškodeniu, strate&amp;nbsp;alebo zničeniu, a to zo záložnej kópie údajov (zo záložného&amp;nbsp;média). 
+&lt;LI&gt;Obnoviť údaje je možné aj&amp;nbsp;z pomerne starej záložnej kópie - rozdielna verzia programu pre obnovu nie je problém, automatickým vykonaním transformácie databázy sa stará záložná kópia údajov upraví na aktuálnu verziu. 
+&lt;LI&gt;V prípade, že v&amp;nbsp;systéme OBERON nie je vytvorená firma, ktorej zálohu chce účtovná jednotka obnoviť, je potrebné nalistovať rozbalenú zálohu danej firmy&amp;nbsp;cez ponuku &lt;EM&gt;OBERON&lt;/EM&gt;,&amp;nbsp;&lt;A href="e975459f-e882-49f2-adb9-79e68a07df0e"&gt;Otvorenie firmy&lt;/A&gt;, tlačidlo &lt;EM&gt;Nová firma&lt;/EM&gt;. Bližšie informácie získate v téme&amp;nbsp;&lt;A href="9a485893-6dd2-44e8-9740-a4cd7083a932" style="auto-update-caption: true"&gt;Vytvorenie účtovnej jednotky (databázy)&lt;/A&gt;. 
+&lt;LI&gt;Vykonať obnovu manuálne zálohovaných&amp;nbsp;údajov môže len&amp;nbsp;používateľ, ktorý má na to oprávnenie (ponuka &lt;I&gt;Servis&lt;/I&gt;, položka&amp;nbsp;&lt;A href="834e9546-a56b-476f-9028-ef4c24a82345"&gt;Práva používateľov&lt;/A&gt;). &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget layout="block" type="Caution Box"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt; 
+&lt;P&gt;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;Pri obnove údajov je potrebné&amp;nbsp;postupovať veľmi opatrne, pretože&amp;nbsp;sa pri nej údaje aktuálne spracovávanej firmy&amp;nbsp;&lt;/SPAN&gt;&lt;STRONG style="COLOR: rgb(255,0,0)"&gt;nevratne prepíšu&lt;/STRONG&gt;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;STRONG style="COLOR: rgb(255,0,0)"&gt;údajmi zo záložnej kópie&lt;/STRONG&gt;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;.&lt;/SPAN&gt; Pred obnovou údajov odporúčame vykonať&amp;nbsp;&lt;A href="493f5942-f267-4f98-a46d-8acc745b9b88"&gt;zálohovanie aktuálnych údajov&lt;/A&gt;.&amp;nbsp;V&amp;nbsp;prípade,&amp;nbsp;že obnovované údaje nie sú údajmi aktuálne otvorenej firmy (kontroluje sa názov databázy), program zobrazí hlásenie a&amp;nbsp;nedovolí pokračovať v obnove údajov.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget layout="block" type="Note Box"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Ďalšie informácie o obnove údajov získate v téme &lt;A href="c47b2846-a02e-4066-992b-cc976cd8a717"&gt;Všeobecne o obnove údajov&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="4b61a5d7-9a82-4f77-bcbe-d3b61d5aa9e0" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="c47b2846-a02e-4066-992b-cc976cd8a717">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="1ebabe06-dbad-4862-8c52-336c98688434" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="493f5942-f267-4f98-a46d-8acc745b9b88">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="c2dc92ce-ed41-4dba-b367-a7464af13380" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="ee4036d9-55fd-40ee-ab76-69337f16b1cc">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="734e253f-6840-45a9-8557-1d5838e01a14">
+      <Keyword m="2023-02-14T12:32:26.0383051Z">Obnova manuálne zálohovaných údajov</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="1a6189bc-1ae9-4544-84cf-f1a74520184d">
+      <Keyword m="2021-04-06T13:03:34.103999Z">Obnova údajov - hlavná ponuka</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="3757d6bf-3009-4685-beee-617e34892086" Status="Complete" CreatedOn="2014-09-02T12:15:09.6231962Z" ModifiedOn="2023-12-20T12:03:15.6567993Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Developers_Interfaces_BasicInfo" BuildFlags="">
+  <Title m="2014-09-06T19:52:41.9423376Z">Všeobecne o univerzálnych rozhraniach </Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-12-20T12:03:15.6567993Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;všeobecné informácie o univerzálnych rozhraniach&lt;/STRONG&gt; na prepojenie systému OBERON s&amp;nbsp;externými softvérovými a hardvérovými riešeniami (produktami a&amp;nbsp;službami), ktoré nie sú v&amp;nbsp;systéme OBERON podporované.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Univerzálne rozhrania umožňujú prepojenie systému OBERON s&amp;nbsp;externými softvérovými a hardvérovými riešeniami (produktami a službami), ktoré &lt;STRONG&gt;nie sú&amp;nbsp;v systéme OBERON&amp;nbsp;podporované&lt;/STRONG&gt;. Univerzálne rozhrania umožňujú vykonávať určité špecifické činnosti, ktoré nie sú integrálnou súčasťou&amp;nbsp;systému OBERON, prostredníctvom &lt;STRONG&gt;tzv. zásuvného modulu&lt;/STRONG&gt; (angl. plug-in, plugin alebo add-on). 
+&lt;LI&gt;Na komunikáciu s&amp;nbsp;daným univerzálnym rozhraním je potrebné vytvoriť &lt;STRONG&gt;externú DLL knižnicu (ovládač)&lt;/STRONG&gt;, ktorá spĺňa štruktúru a pravidlá tohto rozhrania a&amp;nbsp;ktorá obsahuje presne stanovené&amp;nbsp;metódy a vlastnosti pre danú špecifickú problematiku. 
+&lt;LI&gt;OBERON obsahuje&amp;nbsp;nasledujúce univerzálne rozhrania:&amp;nbsp;&amp;nbsp;&amp;nbsp; 
+&lt;UL&gt;
+&lt;LI&gt;&lt;A href="fd3a5850-5943-454b-b37d-a76cf4f48a60"&gt;&lt;STRONG&gt;Transport Data Universal Interface&lt;/STRONG&gt;&lt;/A&gt; - rozhranie&amp;nbsp;na export a import údajov, 
+&lt;LI&gt;&lt;B&gt;&lt;A href="5442590e-2d9a-4550-984d-e5b23f239d05"&gt;Fiscal Universal Interface&lt;/A&gt;&lt;/B&gt; - rozhranie&amp;nbsp;na pripojenie nepodporovanej fiškálnej tlačiarne, 
+&lt;LI&gt;&lt;A href="19c6d1c2-3a3c-46a0-9f37-ea433baa8598"&gt;&lt;STRONG&gt;CashRegister Universal Interface&lt;/STRONG&gt;&lt;/A&gt; - univerzálne rozhranie na pripojenie&amp;nbsp;nepodporovaných registračných pokladníc v režime off-line. Toto rozhranie je priamo implementované do systému OBERON (programový kód sa upravuje priamo v OBERON-e), preto nie sú potrebné žiadne ďalšie vývojové nástroje. Je určené pre servisných technikov, prípadne vývojárov. &lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Pre vývojárov&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Práca&amp;nbsp;s ktorýmkoľvek&amp;nbsp;rozhraním&amp;nbsp;vyžaduje inštaláciu niektorého z vývojových nástrojov.&amp;nbsp;Na vytvorenie externej DLL knižnice (ovládača) na komunikáciu s&amp;nbsp;daným rozhraním&amp;nbsp;sú potrebné&amp;nbsp;základné znalosti v programovacích&amp;nbsp;jazykoch &lt;EM&gt;&lt;STRONG&gt;Microsoft Visual&amp;nbsp;Studio 2019&lt;/STRONG&gt;&lt;/EM&gt;&amp;nbsp;(&lt;EM&gt;Visual Basic &lt;/EM&gt;alebo &lt;EM&gt;C#&lt;/EM&gt;). 
+&lt;LI&gt;Úlohou programátora je zapísanie programového kódu do &lt;STRONG&gt;pripraveného vzoru (šablóny)&lt;/STRONG&gt;, ktorý obsahuje definície všetkých potrebných funkcií, vlastností a udalostí. Ku každému rozhraniu je k dispozícii ukážkový príklad, ktorý obsahuje veľké množstvo&amp;nbsp;využiteľného programového kódu. &lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="a2962381-262a-45a0-9382-6285f7c33782" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="d432b45a-6978-4337-885d-28254ece2616">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="0060a657-23b4-4b99-83c6-ec553a5feda0" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="fd3a5850-5943-454b-b37d-a76cf4f48a60">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="5c91d217-5690-42b1-9bc5-b051dd90f19c" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="5442590e-2d9a-4550-984d-e5b23f239d05">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="8dfe02bf-b0d8-4a4a-8e92-b4a2a3a16683" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="19c6d1c2-3a3c-46a0-9f37-ea433baa8598">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="34fdff97-4056-464f-a9b4-656fa5af2e8c" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="9690f267-6ad7-4e22-9af2-675ef3d9d041">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="10114767-f533-4ab2-ba6a-566393756e2d">
+      <Keyword m="2022-08-16T06:56:06.1652063Z">Univerzálne rozhrania - všeobecné informácie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="9734ccbe-63bc-4c4c-b670-ffb4cef9cd19">
+      <Keyword m="2022-08-16T06:56:30.2816696Z">Rozhrania - univerzálne - všeobecné informácie</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

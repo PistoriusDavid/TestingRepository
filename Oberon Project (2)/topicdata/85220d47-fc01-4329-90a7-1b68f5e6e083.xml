@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="85220d47-fc01-4329-90a7-1b68f5e6e083" Status="Complete" CreatedOn="2018-05-16T11:13:32.8891679Z" ModifiedOn="2023-10-02T10:33:02.421257Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Wages_Attendance_Attendance_AboutWorkPlans" BuildFlags="">
+  <Title m="2018-06-01T07:43:42.1056674Z">O pracovných plánoch firmy</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-10-02T10:33:02.421257Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; je venovaná &lt;STRONG&gt;pracovným plánom firmy, ich výberu, resp. tvorbe spolu s príkladmi konkrétnych pracovných plánov&lt;/STRONG&gt; určených pre jednotlivé druhy prevádzok.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Pracovný plán firmy&amp;nbsp;je tvorený&amp;nbsp;jednou alebo viacerými &lt;A href="a77380d9-dc93-41be-9423-aa76a8c7f9f4"&gt;pracovnými zmenami&lt;/A&gt; obsiahnutými v rozvrhoch pracovných zmien (v&amp;nbsp;závislosti od typu prevádzky). 
+&lt;LI&gt;&lt;EM&gt;Zákonník práce&lt;/EM&gt;&amp;nbsp;definuje tri druhy zmien: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;ranná&lt;/STRONG&gt; -&amp;nbsp;prevažnou časťou spadá medzi 6. až 14. hodinu, 
+&lt;LI&gt;&lt;STRONG&gt;odpoludňajšia&lt;/STRONG&gt; - prevažnou časťou spadá medzi 14. až. 22. hodinu, 
+&lt;LI&gt;&lt;STRONG&gt;nočná zmena&lt;/STRONG&gt; - prevažnou časťou spadá medzi 22. až 6. hodinu. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Pracovné plány firmy možno definovať v&amp;nbsp;ponuke &lt;EM&gt;Mzdy, Dochádzka&lt;/EM&gt;, &lt;A href="0d06308b-64cf-4d51-bc3a-9c262750667d"&gt;Pracovné plány firmy&lt;/A&gt;.&amp;nbsp;Pri definovaní pracovného plánu sa používa aj špeciálna „zmena“ - &lt;EM&gt;Voľno&lt;/EM&gt;. Je to čas,&amp;nbsp;v ktorom&amp;nbsp;pracovník nemá pracovať. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Ďalšie informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Ak je pracovný čas rozvrhnutý do dvoch pracovných zmien, ide o &lt;STRONG&gt;dvojzmenný pracovný režim&lt;/STRONG&gt;. Ak zamestnávateľ rozvrhne pracovný čas do troch pracovných zmien, ide o&amp;nbsp;&lt;STRONG&gt;trojzmenný pracovný režim&lt;/STRONG&gt;. Pracovný režim, v ktorom pracovná činnosť prebieha súvislo po všetky dni v týždni, je &lt;STRONG&gt;nepretržitý pracovný režim&lt;/STRONG&gt;. 
+&lt;LI&gt;Dvojzmenná prevádzka obvykle zahŕňa rozvrhnutie zamestnancov do rannej a odpoludňajšej pracovnej zmeny, trojzmenná prevádzka zahŕňa všetky typy zmien. Nepretržitý pracovný režim je obvykle vykonávaný vo forme nepretržite sa opakujúcej prevádzky v cykle troch zmien. 
+&lt;LI&gt;Do rozvrhu pracovného času sa obligatórne premieta právo zamestnancov na odpočinok a zotavenie po práci zohľadnením prestávok v práci, nepretržitého denného a týždenného odpočinku a dní pracovného pokoja. Viac informácií o prestávkach získate v téme&amp;nbsp;&lt;A href="a706e5ad-4717-472f-b1a3-9b368ef39aa4"&gt;O prestávkach v práci&lt;/A&gt;. 
+&lt;LI&gt;Zamestnávateľ obvykle informuje zamestnanca&amp;nbsp;o&amp;nbsp;tom, kedy má na akú zmenu nastúpiť, prostredníctvom rozpisu zmien. Tento rozpis&amp;nbsp;musí byť zamestnancovi oznámený najmenej týždeň vopred a&amp;nbsp;musí byť stanovený minimálne na týždeň. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;FONT color=red&gt;Pri tvorbe pracovného plánu je kľúčovým údajom dátum,&amp;nbsp;od ktorého má začať cyklus danej zmennosti (spravidla pondelok).&amp;nbsp;Pri fungujúcich prevádzkach je dátum začiatku potrebné prispôsobiť už existujúcemu pracovnému cyklu.&lt;/FONT&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H5&gt;Obrázok č. 1: Nastavenie dátumu začiatku&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/Attendance/Attendance_datum.png"&gt;&amp;nbsp;&lt;/P&gt;
+&lt;H2&gt;Jednozmenná prevádzka&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;V tejto prevádzke sa práca neorganizuje systémom práce na zmeny (zamestnanci sa nestriedajú). 
+&lt;LI&gt;Zamestnanci majú buď:&lt;BR&gt;1. pevný pracovný čas, napr. 8:00 – 16:00 alebo&lt;BR&gt;2. pružný pracovný čas, napr. základný 9:00-15:00 a voliteľný 7:00 až 9:00 a 15:00 až 18:00. 
+&lt;LI&gt;V &lt;EM&gt;OBERON-e&lt;/EM&gt; sú pre jednozmennú prevádzku preddefinované&amp;nbsp;tieto druhy pracovného plánu: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Jednozmenná ranná&lt;/STRONG&gt;&amp;nbsp;- základný jednozmenný pracovný kalendár, napr. pre pracovníkov v administratíve v rannej zmene v dňoch pondelok až piatok. 
+&lt;LI&gt;&lt;STRONG&gt;Jednozmenná ranná&amp;nbsp;+ sobota&lt;/STRONG&gt; - jednozmenný pracovný kalendár s rannou zmenou len v dňoch pondelok až piatok a čiastočne aj v&amp;nbsp;sobotu. &lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č.&amp;nbsp;2: Rozvrh zmien pracovného plánu &lt;EM&gt;Jednozmenná ranná + sobota&lt;/EM&gt;&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/Attendance/Attendance_jednozmenna_ranna_sobota.png"&gt;&amp;nbsp;&lt;/P&gt;
+&lt;H2&gt;Dvojzmenná prevádzka&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;V dvojzmennej prevádzke sa práca&amp;nbsp;organizuje systémom práce na zmeny, pričom sa&amp;nbsp;striedajú dve zmeny. 
+&lt;LI&gt;Zamestnanci pracujú napr. takto: prvá&amp;nbsp;zmena 6:00 –14:00,&amp;nbsp;druhá zmena 14:00 – 22:00. Možné je aj prekrytie – súbežný výkon práce v dvoch zmenách (napr. pri preberaní práce): prvá zmena 7:00 – 15:00,&amp;nbsp;druhá zmena 14:00 – 22:00 (prekrytie 14:00 –15:00). 
+&lt;LI&gt;Ak zamestnanci&amp;nbsp;pracujú stále v tej istej zmene, pre nich to nie je práca na zmeny -&amp;nbsp;chýba tu&amp;nbsp;podmienka striedavého výkonu v oboch zmenách. Pre zamestnávateľa to znamená, že organizuje prácu v dvoch zmenách&amp;nbsp;(dvojzmenná prevádzka), ale nestrieda v nich zamestnancov. 
+&lt;LI&gt;V &lt;EM&gt;OBERON-e&lt;/EM&gt; sú pre dvojzmennú prevádzku preddefinované&amp;nbsp;tieto druhy pracovného plánu: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Dvojzmenná základná&lt;/STRONG&gt; - základný dvojzmenný pracovný kalendár s rannou a popoludňajšou zmenou v dňoch pondelok až piatok. 
+&lt;LI&gt;&lt;STRONG&gt;Dvojzmenná predajňa&lt;/STRONG&gt; - dvojzmenný pracovný kalendár s rannou a popoludňajšou zmenou v dňoch pondelok až piatok a čiastočne aj sobotu. 
+&lt;LI&gt;&lt;STRONG&gt;Predajňa krátky, dlhý&lt;/STRONG&gt; - dvojzmenný kalendár s 12 hodinovou zmenou v dňoch pondelok až piatok a čiastočne sobotu použiteľný, napr. v predajniach. 
+&lt;LI&gt;&lt;STRONG&gt;Dvojzmenná krátky, dlhý&lt;/STRONG&gt; -&amp;nbsp;dvojzmenný kalendár s 12 hodinovou zmenou (tzv. krátky/dlhý týždeň), používaný napr. v reštauračných prevádzkach. &lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č.&amp;nbsp;3: Rozvrh zmien pracovného plánu &lt;EM&gt;Dvojzmenná krátky/dlhý&lt;/EM&gt;&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/Attendance/Attendance_dvojzmenna_kratky_dlhy.png"&gt;&lt;/P&gt;
+&lt;H2&gt;Trojzmenná prevádzka&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Práca v tejto prevádzke sa&amp;nbsp;organizuje systémom striedania troch zmien. 
+&lt;LI&gt;Na rozdiel od nepretržitej prevádzky je&amp;nbsp;počas týždňa prerušená, napr. sa nepracuje v sobotu a v nedeľu, v nedeľu a pondelok a pod. 
+&lt;LI&gt;Zamestnanci pracujú napr. takto: 
+&lt;UL&gt;
+&lt;LI&gt;prvá&amp;nbsp;zmena 6:00 –14:00,&amp;nbsp;druhá zmena 14:00 – 22:00,&amp;nbsp;tretia zmena 22:00 – 6:00 alebo 
+&lt;LI&gt;prvá zmena 6:00-12:00, druhá zmena 12:00-18:00,&amp;nbsp;tretia zmena 18:00 – 24:00. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Možné je aj prekrytie – súbežný výkon práce v dvoch zmenách (napr. pri preberaní práce): prvá zmena 6:00 –12:00,&amp;nbsp;druhá zmena 11:00 – 17:00,&amp;nbsp;tretia zmena 16:00 – 22:00. 
+&lt;LI&gt;V &lt;EM&gt;OBERON-e&lt;/EM&gt; sú pre trojzmennú prevádzku preddefinované&amp;nbsp;tieto druhy pracovného plánu: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Trojzmenná týždenná&lt;/STRONG&gt; - trojzmenný pracovný kalendár v dňoch pondelok až piatok. &lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č.&amp;nbsp;4: Rozvrh zmien pracovného plánu &lt;EM&gt;Trojzmenná týždenná&lt;/EM&gt;&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/Attendance/Attendance_trojzmenna_tyzdenna.png"&gt;&lt;/P&gt;
+&lt;H2&gt;Nepretržitá prevádzka&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;V nepretržitej prevádzke sa práca organizuje systémom striedania zmien, pričom práca v prevádzke sa neprerušuje. 
+&lt;LI&gt;Zamestnanci pracujú napr. takto: prvá zmena 6:00 – 14:00,&amp;nbsp;druhá zmena 14:00 – 22:00,&amp;nbsp;tretia zmena 22:00 – 6:00. Pracuje sa v pondelok až nedeľu. Zamestnanci sú v zmysle iných ustanovení&amp;nbsp;&lt;EM&gt;Zákonníka práce&lt;/EM&gt; (zákon č. 311/2001 Z. z.) zaraďovaní do jednotlivých zmien. 
+&lt;LI&gt;Možných je viacero kombinácií -&amp;nbsp;náhodné zaraďovanie zamestnancov, resp. spájanie zamestnancov v určitých blokoch. Napr.&amp;nbsp;prevádzka je nepretržitá a má tri zmeny 6.00 – 14.00,14.00 – 22.00, 22.00 – 6.00, pričom má blok 5 skupín zamestnancov, ktorí sú zaraďovaní do týchto zmien. Skupín musí byť viac, pretože inak by zamestnanec pracoval 7 dní v týždni. 
+&lt;LI&gt;Technické odstávky a údržba v priebehu roka neznamenajú, že zmena nie je nepretržitá. 
+&lt;LI&gt;V &lt;EM&gt;OBERON-e&lt;/EM&gt; sú pre&amp;nbsp;nepretržitú prevádzku preddefinované&amp;nbsp;tieto druhy pracovného plánu: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Nepretržitá štvorzmenná (28-dňová)&lt;/STRONG&gt; - štvorzmenný pracovný kalendár pre nepretržité 24-hodinové prevádzky s 28-dňovým pracovným cyklom. 
+&lt;LI&gt;&lt;STRONG&gt;Nepretržitá štvorzmenná (8-dňová)&lt;/STRONG&gt; - štvorzmenný pracovný kalendár pre nepretržité 24-hodinové prevádzky s 8-dňovým pracovným cyklom. &lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č.&amp;nbsp;5: Rozvrh zmien pracovného plánu&amp;nbsp;&lt;EM&gt;Nepretržitá štvorzmenná (28 dňová)&lt;/EM&gt;&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/Attendance/Attendance_nepretrzita_28.png"&gt;&lt;/P&gt;
+&lt;H2&gt;Vlastný vzor&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;V &lt;EM&gt;OBERON-e&lt;/EM&gt; je možné vytvoriť aj vlastný pracovný plán v závislosti od individuálnych potrieb konkrétnej prevádzky. Možné je pritom zvoliť ľubovoľný počet rozvrhov zmien aj dĺžku pracovného cyklu. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č.&amp;nbsp;6: Rozvrh zmien pracovného plánu&amp;nbsp;&lt;EM&gt;Vlastný vzor&lt;/EM&gt;&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/Attendance/Attendance_vlastny_vzor.png"&gt;&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="fb2e5c93-8b22-438f-8e52-56c912aa3005" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="0d06308b-64cf-4d51-bc3a-9c262750667d">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="11dbd286-cb55-494f-b822-586b6b8b4818" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="a77380d9-dc93-41be-9423-aa76a8c7f9f4">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="f4b72097-aa78-408c-9479-951e67bb0b79" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="ce9e15f9-7459-4a5c-8bad-db17ef7b59ea">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="b471b2ef-198f-449a-9a86-a93c3ae3ffcc">
+      <Keyword />
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="30460562-ea34-4d2f-adaf-033da4f17dc9">
+      <Keyword m="2018-06-13T06:27:01.6827041Z">Dochádzka</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="3dd5be3b-d98d-4745-8399-320f4d8cb0b9">
+      <Keyword m="2018-06-13T06:27:11.9531967Z">Evidencia dochádzky</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="5ee4b5eb-9e8c-4acd-8d56-15356a3f3981">
+      <Keyword m="2018-06-13T06:27:17.6727253Z">Evidencia pracovného času</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

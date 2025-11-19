@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="98d635be-10ba-40e1-83f1-acc2366c63eb" Status="Complete" CreatedOn="2024-02-28T13:27:09.3335137Z" ModifiedOn="2024-04-18T11:07:58.6959033Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="22341" Name="Menu_Firm_DocumentsMoveToArchive" BuildFlags="">
+  <Title m="2024-02-28T13:28:22.5671618Z">Presun príloh dokumentov do archívu</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-04-18T11:07:58.6959033Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;je venovaná&amp;nbsp;položke&amp;nbsp;&lt;EM&gt;Presun príloh dokumentov do archívu&lt;/EM&gt; v ponuke&amp;nbsp;&lt;EM&gt;Firma&lt;/EM&gt; programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Výberom položky sa otvorí&amp;nbsp;sprievodca, pomocou ktorého&lt;STRONG&gt;&amp;nbsp;možno hromadne presunúť elektronické prílohy dokumentov z aktuálnej databázy firmy do archívnej databázy&lt;/STRONG&gt;, t. j. do&amp;nbsp;&lt;A href="68a24d97-e4a5-4cf4-bc7a-72262df5973e"&gt;elektronického archívu&lt;/A&gt;.
+&lt;LI&gt;Prílohy dokumentov&amp;nbsp;budú aj po presunutí&amp;nbsp;v OBERON-e &lt;STRONG&gt;naďalej dostupné&lt;/STRONG&gt;, pretože sa budú načítavať z&amp;nbsp;archívnej databázy. Po presunutí príloh dokumentov do archívnej databázy totiž program pri pokuse o zobrazenie prílohy v&amp;nbsp;danej evidencii vyhľadáva túto prílohu najskôr v&amp;nbsp;aktuálnej databáze. Ak ju nenájde, vyhľadáva ju aj v&amp;nbsp;archívnej databáze. 
+&lt;LI&gt;Cieľom presunu príloh dokumentov do elektronického archívu&amp;nbsp;je &lt;STRONG&gt;zníženie veľkosti aktuálnej databázy účtovnej jednotky a&amp;nbsp;zvýšenie rýchlosti zálohovania&lt;/STRONG&gt;. Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="68a24d97-e4a5-4cf4-bc7a-72262df5973e" style="auto-update-caption: true"&gt;Elektronický archív&lt;/A&gt;, časť &lt;EM&gt;Technické informácie&lt;/EM&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Postup presunu príloh&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Pri hromadnom presune príloh dokumentov do archívu&amp;nbsp;postupujte podľa nasledujúcich krokov: 
+&lt;OL&gt;
+&lt;LI&gt;Zvoľte spôsob hromadného presunu príloh dokumentov. Na výber sú dve možnosti: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;EM&gt;&lt;STRONG&gt;Presunúť do elektronického archívu firmy&lt;/STRONG&gt;&lt;/EM&gt; - prílohy dokumentov sa z&amp;nbsp;aktuálnej databázy presunú do novej archívnej databázy, ktorá&amp;nbsp;sa automaticky vytvorí (ak ešte neexistuje). Po presune stačí archívnu databázu jednorazovo zálohovať. Tento spôsob presunu zároveň umožňuje zvoliť, či sa má vykonať aj&amp;nbsp;&lt;A href="f03d4e27-214d-4138-8d5a-3c65ca1ea6a4"&gt;hromadný export príloh dokumentov&lt;/A&gt; do adresára na disku počítača. 
+&lt;LI&gt;&lt;EM&gt;&lt;STRONG&gt;Exportovať prílohy na disk počítača a z databázy ich odstrániť (skartovať)&lt;/STRONG&gt;&lt;/EM&gt; - pri zvolení tohto spôsobu sa vykoná &lt;A href="f03d4e27-214d-4138-8d5a-3c65ca1ea6a4"&gt;hromadný export príloh dokumentov&lt;/A&gt; do adresára na disku počítača a zároveň sa z prílohy z&amp;nbsp;aktuálnej databázy firmy odstránia (skartujú). &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Zadajte &lt;STRONG&gt;obdobie&lt;/STRONG&gt;, za ktoré sa majú prílohy dokumentov presunúť, resp. skartovať. 
+&lt;LI&gt;V prípade potreby zvoľte&amp;nbsp;&lt;STRONG&gt;adresár na disku počítača&lt;/STRONG&gt;, do ktorého sa prílohy vyexportujú. V danom adresári sa automaticky vytvorí podadresár s daným obdobím (rokom) a ďalšie podadresáre podľa jednotlivých evidencií. 
+&lt;LI&gt;Zvoľte &lt;STRONG&gt;evidencie&lt;/STRONG&gt;, s ktorými sa bude pracovať. Na označenie všetkých evidencií stlačte pravé tlačidlo myši a zvoľte možnosť &lt;EM&gt;Označiť všetky&lt;/EM&gt;. 
+&lt;LI&gt;Po stlačení tlačidla &lt;EM&gt;&lt;STRONG&gt;Dokončiť&lt;/STRONG&gt;&lt;/EM&gt; sa vykoná hromadný presun (export) príloh dokumentov. &lt;/LI&gt;&lt;/OL&gt;&lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="ea75d7dd-399a-4305-8dee-dea8a62ca4f2" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="68a24d97-e4a5-4cf4-bc7a-72262df5973e">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="7a0e5ad3-0da5-4341-8106-911ef02ae8c4" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="f03d4e27-214d-4138-8d5a-3c65ca1ea6a4">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="f94ac0f7-fd02-4caf-9f8a-deae66deee86" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="79eb5ae4-3bae-4a0c-be52-69c1ed8e59e5">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="498a2ab2-fbb8-494f-93fc-5894f1e8d76d" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="5a6e5663-262e-4ff0-9741-1569385d11e4">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="c481118c-f015-4eca-aeb1-d47c2c73be21">
+      <Keyword m="2024-03-05T10:37:16.8050686Z">Elektronický archív - presun príloh dokumentov</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="7e130e94-2c33-4a7d-aaa1-e7a9dcdd2aa6">
+      <Keyword m="2024-03-05T10:37:55.7967999Z">Postup presunu príloh dokumentov do archívu</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="6f2a304e-3154-4e08-84da-5abec2f8ab6f">
+      <Keyword m="2024-03-05T10:36:32.2379488Z">Prílohy dokumentov - presun do archívu</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

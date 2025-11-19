@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="4ea50d45-2d8e-4cca-9bd0-b0bbd0547980" Status="Complete" CreatedOn="2024-07-30T12:08:06.6524951Z" ModifiedOn="2024-08-05T09:27:47.4866072Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Device_FiscalDevice_PENELOPA" BuildFlags="D8EEEC64-8D7C-4E22-962B-32BF6BBC5DF5,826B51BD-B6F0-4B2C-A814-029E169D018F">
+  <Title m="2024-07-30T12:27:58.2035435Z">Fiškálna tlačiareň eKasa PENELOPA</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-08-05T09:27:47.4866072Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;informácie o fiškálnej tlačiarni &lt;EM&gt;eKasa PENELOPA&lt;/EM&gt;&lt;/STRONG&gt; vrátane technických parametrov,&amp;nbsp;ako&amp;nbsp;aj&amp;nbsp;údajov o&amp;nbsp;možnosti zakúpenia tohto zariadenia dodávaného firmou&amp;nbsp;&lt;A href="571f742b-c33d-495b-bab3-01ff69c38ef0"&gt;EXALOGIC&lt;/A&gt;.&amp;nbsp;Pre používateľov OBERON-u je &lt;EM&gt;eKasa PENELOPA&lt;/EM&gt; &lt;A href="1f32a90c-7b4a-4d69-9f38-a560178794b3"&gt;odporúčanou&lt;/A&gt; fiškálnou tlačiarňou&amp;nbsp;&lt;A href="1f32a90c-7b4a-4d69-9f38-a560178794b3" style="auto-update-caption: true"&gt;&lt;IMG border=0 alt="Odporúčané riešenia" src="images/OBERON/Basic/Odporucane-riesenie_ruka_ikona.png"&gt;&lt;/A&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;EM&gt;eKasa&lt;/EM&gt; &lt;EM&gt;PENELOPA&lt;/EM&gt; &lt;A href="1f32a90c-7b4a-4d69-9f38-a560178794b3"&gt;&lt;/A&gt;predstavuje dotykovú prenosnú certifikovanú&amp;nbsp;&lt;A href="b24ad235-cf7f-43e2-b3e8-ec0f7d92f6b6"&gt;fiškálnu tlačiareň&lt;/A&gt;&amp;nbsp;s termotlačiarňou, ktorá v spojení s&amp;nbsp;modulom &lt;A href="aec074f4-3e1c-4a1e-8a80-06fcecf51156"&gt;Pokladnica OBERON&lt;/A&gt; vytvorí z&amp;nbsp;počítača plnohodnotnú on-line registračnú pokladnicu (počítač sa pritom nezmení na jednoúčelové zariadenie určené len na predaj, ale možno ho naďalej využívať aj na iné činnosti, a to aj paralelne popri predaji na pokladnici).&amp;nbsp;Počas&amp;nbsp;&lt;A href="69bbd499-45c0-4b0f-8f7a-c53fa5d70c1b"&gt;predaja na Pokladnici OBERON&lt;/A&gt; fiškálne zariadenie zároveň slúži ako &lt;STRONG&gt;zákaznícky displej&lt;/STRONG&gt;, keď sa na ňom zobrazujú položky otvoreného účtu. Okrem toho je v &lt;SPAN lang=en-us xml:lang="en-us"&gt;rámci každej prenosnej pokladnice k dispozícii aj integrovaný &lt;STRONG&gt;platobný terminál&lt;/STRONG&gt; (pripravujeme).&lt;/SPAN&gt; 
+&lt;LI&gt;&lt;SPAN lang=en-us xml:lang="en-us"&gt;Okrem funkcie eKasy a platobného POS terminálu je&amp;nbsp;zariadenie možné používať aj s&amp;nbsp;&lt;STRONG&gt;aplikáciou&amp;nbsp;&lt;/STRONG&gt;&lt;A href="942d48d5-b290-40f6-8ba3-45cf78f380f9"&gt;LUKUL - nielen mobilný čašník&lt;/A&gt;. To umožňuje zaevidovať a vytlačiť pokladničný doklad pre zákazníka priamo pri stole.&lt;/SPAN&gt; 
+&lt;LI&gt;&lt;EM&gt;eKasa&lt;/EM&gt; &lt;EM&gt;PENELOPA&lt;/EM&gt; sa ako fiškálne zariadenie skladá zo softvéru (pokladničného programu eKasa klient) &lt;STRONG&gt;eKasa&amp;nbsp;PENELOPA&amp;nbsp;PPEKK&lt;/STRONG&gt;,&amp;nbsp;chráneného dátového úložiska &lt;STRONG&gt;eKasa PENELOPA&amp;nbsp;CHDÚ&lt;/STRONG&gt;&amp;nbsp;a tlačiarne pokladničných dokladov (termotlačiareň). 
+&lt;LI&gt;&lt;SPAN lang=en-us xml:lang="en-us"&gt;Fiškálnu tlačiareň &lt;EM&gt;eKasa PENELOPA&lt;/EM&gt; možno používať na týchto zariadeniach s&amp;nbsp;operačným systémom &lt;EM&gt;&lt;STRONG&gt;Android&lt;/STRONG&gt;&lt;/EM&gt;:&lt;/SPAN&gt; 
+&lt;UL&gt;
+&lt;LI&gt;&lt;SPAN lang=en-us xml:lang="en-us"&gt;&lt;EM&gt;&lt;SPAN lang=en-us xml:lang="en-us"&gt;&lt;EM&gt;iMin Swift 2 Pro,&lt;/EM&gt;&lt;/SPAN&gt;&lt;/EM&gt;&lt;/SPAN&gt;
+&lt;LI&gt;&lt;SPAN lang=en-us xml:lang="en-us"&gt;&lt;SPAN lang=en-us xml:lang="en-us"&gt;&lt;EM&gt;Sunmi V3 Mix,&lt;/EM&gt;&lt;/SPAN&gt;&lt;/SPAN&gt; 
+&lt;LI&gt;&lt;SPAN lang=en-us xml:lang="en-us"&gt;&lt;EM&gt;Sunmi D3 Mini,&lt;/EM&gt;&lt;/SPAN&gt; 
+&lt;LI&gt;&lt;SPAN lang=en-us xml:lang="en-us"&gt;&lt;EM&gt;&lt;SPAN lang=en-us xml:lang="en-us"&gt;&lt;EM&gt;&lt;SPAN lang=en-us xml:lang="en-us"&gt;&lt;/SPAN&gt;Sunmi P2&lt;/EM&gt;&lt;/SPAN&gt;&lt;/EM&gt;.&lt;/SPAN&gt; &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;&lt;SPAN lang=en-us xml:lang="en-us"&gt;Zariadenie&amp;nbsp;&lt;EM&gt;eKasa&lt;/EM&gt; &lt;EM&gt;PENELOPA&lt;/EM&gt; je určené pre obchodníkov, ktorí musia zo zákona evidovať platby pomocou registračnej pokladnice a chcú prijímať &lt;A href="1a618813-f50b-46a3-8a94-598d5394f491"&gt;bezhotovostné platby&lt;/A&gt; kartou aj&amp;nbsp;pomocou platobných terminálov.&amp;nbsp;Zariadenie&amp;nbsp;číta&amp;nbsp;karty s&amp;nbsp;magnetickým prúžkom, čipové karty a bezkontaktné NFC karty.&lt;/SPAN&gt; 
+&lt;LI&gt;&lt;SPAN lang=en-us xml:lang="en-us"&gt;Výrobca pokladničného programu (PPEKK):&amp;nbsp;&lt;A href="https://exalogic.sk/" target=_blank&gt;EXALOGIC, s.r.o.&lt;/A&gt;&lt;/SPAN&gt; 
+&lt;LI&gt;Výrobca chráneného dátového úložiska (CHDÚ):&amp;nbsp;&lt;A href="https://www.swissbit.com/en/" target=_blank&gt;Swissbit&lt;/A&gt; 
+&lt;LI&gt;&lt;SPAN lang=en-us xml:lang="en-us"&gt;&lt;SPAN lang=en-us xml:lang="en-us"&gt;Spôsob pripojenia (rozhranie): WiFi, 4G, BT, NFC.&lt;/SPAN&gt;&lt;/SPAN&gt; 
+&lt;LI&gt;&lt;SPAN lang=en-us xml:lang="en-us"&gt;&lt;SPAN lang=en-us xml:lang="en-us"&gt;&lt;SPAN lang=en-us xml:lang="en-us"&gt;Spôsob komunikácie: TCP/IP.&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt; &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt; 
+&lt;P&gt;&lt;SPAN lang=en-us xml:lang="en-us"&gt;Zariadenie sa inštaluje&amp;nbsp;v&amp;nbsp;programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;, ponuka &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="749ff4f1-eeb5-43f5-98d2-021399d8cec7" style="auto-update-caption: true"&gt;Zariadenia&lt;/A&gt;, tlačidlo &lt;EM&gt;Pridať&lt;/EM&gt;.&amp;nbsp;Viac informácií k inštalácii zariadenia získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="Device_FiscalDevice_PENELOPA_Install.html" style="auto-update-caption: true"&gt;Fiškálna tlačiareň eKasa PENELOPA - inštalácia&lt;/A&gt;.&lt;/SPAN&gt;&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H5&gt;&lt;SPAN lang=en-us xml:lang="en-us"&gt;Obrázok č. 1: Fiškálna tlačiareň &lt;EM&gt;eKasa PENELOPA&lt;/EM&gt; - zariadenie&amp;nbsp;&lt;SPAN lang=en-us xml:lang="en-us"&gt;&lt;SPAN lang=en-us xml:lang="en-us"&gt;&lt;EM&gt;iMin Swift 2 Pro&lt;/EM&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/H5&gt;
+&lt;P&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;IMG border=0 alt="" src="images/Devices/Device_eKasaPENELOPA_iMinSwift2Pro.png"&gt;&lt;/P&gt;
+&lt;H2&gt;Technické parametre eKasa PENELOPA&amp;nbsp;- zariadenie&amp;nbsp;&lt;SPAN lang=en-us xml:lang="en-us"&gt;&lt;EM&gt;&lt;SPAN lang=en-us xml:lang="en-us"&gt;&lt;EM&gt;iMin Swift 2 Pro&lt;/EM&gt;&lt;/SPAN&gt;&lt;/EM&gt;&lt;/SPAN&gt;&lt;/H2&gt;
+&lt;P&gt;&lt;STRONG&gt;Model: &lt;/STRONG&gt;&lt;SPAN lang=en-us xml:lang="en-us"&gt;&lt;SPAN lang=en-us xml:lang="en-us"&gt;iMin Swift 2 Pro&lt;BR&gt;&lt;STRONG&gt;Spôsob pripojenia:&lt;/STRONG&gt; WiFi, 4G, BT, NFC&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;BR&gt;&lt;STRONG&gt;Operačný systém:&lt;/STRONG&gt;&amp;nbsp;&amp;nbsp;Android 13&lt;BR&gt;&lt;STRONG&gt;CPU:&lt;/STRONG&gt; &amp;nbsp;Octa Core, Arm Cortex-A53 2.0GHz&lt;BR&gt;&lt;STRONG&gt;RAM:&lt;/STRONG&gt; &amp;nbsp;4 GB&lt;BR&gt;&lt;STRONG&gt;Displej:&lt;/STRONG&gt; LCD &amp;nbsp;6.5”, 720 x 1600 kapacitná dotyková obrazovka&lt;BR&gt;&lt;STRONG&gt;Batéria:&lt;/STRONG&gt; 3 350 mAh, 7,6 V&lt;BR&gt;&lt;STRONG&gt;Nabíjacia dokovacia stanica:&lt;/STRONG&gt; áno&lt;BR&gt;&lt;STRONG&gt;Tlačiareň:&lt;/STRONG&gt;&amp;nbsp;58 mm, 100mm/s&lt;BR&gt;&lt;STRONG&gt;Prevádzková teplota:&lt;/STRONG&gt; -10 - 50 °C&lt;BR&gt;&lt;STRONG&gt;Rozmery:&lt;/STRONG&gt;&amp;nbsp;240,6 x 84,3 x 59,6 mm (d x&amp;nbsp;v x š)&lt;/P&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Porovnanie jednotlivých podporovaných fiškálnych zariadení je dostupné v téme&amp;nbsp;&lt;A href="d9b919e7-20c4-4c50-9910-4f13211ed9a8"&gt;Podporované registračné pokladnice&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Cena a objednávka zariadenia&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Zariadenie je určené na predaj, a to&amp;nbsp;výhradne používateľom OBERON-u a našim &lt;A href="f83c2a9c-cda4-4862-8628-7ba16ddb1b06" rel=noopener&gt;zmluvným partnerom&lt;/A&gt;. 
+&lt;LI&gt;Informácie o cene a dostupnosti zariadenia s možnosťou objednávky nájdete na stránke nášho internetového obchodu &lt;STRONG&gt;&lt;A href="https://shop.exalogic.sk/"&gt;EXALOGIC e-shop&lt;/A&gt;&lt;/STRONG&gt;. 
+&lt;LI&gt;Na inštaláciu a&amp;nbsp;nastavenie zariadenia odporúčame využiť služby našich zmluvných partnerov. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Porovnanie jednotlivých podporovaných fiškálnych zariadení je dostupné v téme&amp;nbsp;&lt;A href="d9b919e7-20c4-4c50-9910-4f13211ed9a8"&gt;Podporované registračné pokladnice&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;HR&gt;
+
+&lt;P align=center&gt;&lt;A href="1f32a90c-7b4a-4d69-9f38-a560178794b3" style="auto-update-caption: true"&gt;&lt;IMG border=0 alt="Odporúčané riešenia" src="images/OBERON/Basic/Odporucane-riesenie.png"&gt;&lt;/A&gt;&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="c03ca28e-53d2-40fb-9e00-6f987f4301df" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="b24ad235-cf7f-43e2-b3e8-ec0f7d92f6b6">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="fd50910e-e2a6-4e83-99ba-747e77fafe8f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="18463e36-5868-4269-b96e-801eec756b5c">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="68d90b3c-6db0-4caf-a7af-544204cac906" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="c4c6d67d-224e-4b0b-8c04-ae5b09042597">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="92e448e1-6763-4634-9ef5-b511a1b0db42" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="29c1b7d9-36d4-4d86-89bd-54cd2cb22050">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="a74a7432-d662-413f-8d9f-4fe5e64aea25">
+      <Keyword m="2024-07-31T10:53:05.8488716Z">eKasa PENELOPA - fiškálna tlačiareň</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="21c1b13b-d036-41cc-b7a5-bee5e7a13fdd">
+      <Keyword m="2024-07-31T10:53:24.6355134Z">PENELOPA - eKasa tlačiareň</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="f3561a55-80f9-4fca-86db-ea4221741d36">
+      <Keyword m="2024-07-31T10:53:16.2656412Z">eKasa PENELOPA - PPEKK</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="ffab9f63-dc5c-4bc0-a285-30900d592f1a">
+      <Keyword m="2024-07-31T10:53:20.3866681Z">eKasa PENELOPA - CHDÚ</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="e4bec673-21c4-45e4-8aca-4f3b58be9398">
+      <Keyword m="2024-08-05T08:06:07.8615271Z">iMin Swift 2 Pro - eKasa PENELOPA</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="92b12274-17b6-4df3-8f5e-d554ba959f9e">
+      <Keyword m="2024-08-05T08:06:23.1504329Z">Sunmi V3 Mix - eKasa PENELOPA</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="b2645abe-ee53-4d10-af56-2406448e4d4c">
+      <Keyword m="2024-08-05T08:06:13.6263302Z">Sunmi D3 Mini - eKasa PENELOPA</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="95d572dd-b2ba-42e0-9dc0-94de7e5488b7">
+      <Keyword m="2024-08-05T08:06:18.4594558Z">Sunmi P2 - eKasa PENELOPA</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

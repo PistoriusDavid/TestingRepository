@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="2f5004a1-3092-42ef-8f11-f35818f26724" Status="Complete" CreatedOn="2022-09-20T09:29:49.1226294Z" ModifiedOn="2023-07-03T10:35:58.3263749Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="93250 " Name="Form_AutomaticTask_D-EDGE" BuildFlags="">
+  <Title m="2021-03-12T10:32:07.5866816Z">Formulár Nastavenie automatickej úlohy 'D-EDGE'</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2022-09-20T09:34:37.0051837Z">&lt;P&gt;Formulár&amp;nbsp;&lt;EM&gt;Nastavenie automatickej úlohy 'D-EDGE'&lt;/EM&gt; umožňuje nadefinovať nastavenia&amp;nbsp;&lt;A href="9ce25bbd-35d1-4096-acd5-70007f5af5a6"&gt;automatickej úlohy&lt;/A&gt; &lt;EM&gt;&lt;STRONG&gt;Manažér rezervačných kanálov D-EDGE&lt;/STRONG&gt;&lt;/EM&gt; pre modul&amp;nbsp;&lt;A href="c3bd41f0-029e-4c74-b342-b0ffff647b6e"&gt;Hotelová recepcia&lt;/A&gt;. Úloha umožňuje &lt;STRONG&gt;exportovať údaje o&amp;nbsp;voľných a&amp;nbsp;obsadených ubytovacích kapacitách ubytovacieho zariadenia, ako aj import rezervácií ubytovania&lt;/STRONG&gt;. Formulár je dostupný z programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;, ponuka&amp;nbsp;&lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="9ce25bbd-35d1-4096-acd5-70007f5af5a6"&gt;Automatické úlohy&lt;/A&gt;,&amp;nbsp;tlačidlo &lt;EM&gt;Nový &lt;/EM&gt;- otvorí sa formulár, v&amp;nbsp;ktorom vyberte daný typ automatickej úlohy a&amp;nbsp;stlačte tlačidlo &lt;EM&gt;Nastaviť&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Popis formulára &lt;EM&gt;Nastavenie automatickej úlohy 'D-EDGE'&lt;/EM&gt;&lt;/H2&gt;&lt;innovasys:widget type="Tab Strip" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Základné nastavenia&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Účet D-EDGE&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Zadávajú sa identifikačné údaje hotela. Ubytovacie zariadenie &lt;STRONG&gt;musí mať s firmou&amp;nbsp;D-EDGE uzatvorenú platnú zmluvu, následne mu budú poskytnuté prihlasovacie údaje a URL odkazy&lt;/STRONG&gt;, ktoré je potrebné zadať do systému OBERON.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt; 
+&lt;H5&gt;Obrázok č. 1: ID ubytovacieho zariadenia (hotela), ID účtu a&amp;nbsp;ID typu izby v&amp;nbsp;&lt;EM&gt;D-EDGE&lt;/EM&gt;&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/ProductOptions/ExternalSystems/Hotel_ChannelManager_Dedge.png"&gt;&lt;/P&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;URL&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Zadávajú sa parametre na komunikáciu (odkazy URL), ktoré používateľovi poskytne&amp;nbsp;firma D-EDGE. Pomocou URL odkazov systém OBERON umožní export údajov o voľných a obsadených izbách, prípadne import rezervácií ubytovania.&lt;/P&gt;
+&lt;P&gt;Štandardné nastavenie URL adries:&lt;/P&gt;
+&lt;P&gt;&lt;A href="https://exalogic-planning.suppliers.availproconnect.com/Update"&gt;https://exalogic-planning.suppliers.availproconnect.com/Update&lt;/A&gt;&lt;BR&gt;&lt;A href="https://exalogic-planning.suppliers.availproconnect.com/GetSynchronization"&gt;https://exalogic-planning.suppliers.availproconnect.com/GetSynchronization&lt;/A&gt;&lt;BR&gt;&lt;A href="https://exalogic-booking.suppliers.availproconnect.com/RetrievePending"&gt;https://exalogic-booking.suppliers.availproconnect.com/RetrievePending&lt;/A&gt;&lt;BR&gt;&lt;A href="https://exalogic-booking.suppliers.availproconnect.com/Confirm"&gt;https://exalogic-booking.suppliers.availproconnect.com/Confirm&lt;/A&gt;&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;P&gt;Otestovať komunikáciu medzi systémami&amp;nbsp;&lt;EM&gt;D-EDGE&lt;/EM&gt; a OBERON je možné stlačením tlačidla &lt;EM&gt;Otestovať&lt;/EM&gt;.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H5&gt;Obrázok č. 2: Nastavenie automatickej úlohy&lt;/H5&gt;
+&lt;P&gt;&amp;nbsp;&lt;IMG border=0 alt="" src="images/Forms/OAC/Form_OAC_D-EDGE_Settings.png"&gt;&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="77a6aa38-a92a-4bab-bcc9-fb5af2d1bf5f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="fd64c37a-486b-4cdf-a370-297aaa8a8f73">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="0986947b-1622-4d9c-925e-5c5f97299edd" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="9ce25bbd-35d1-4096-acd5-70007f5af5a6">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="4b336e0b-2459-42c9-bbe0-a8f5742e014b" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="25fca7cd-4d51-45f7-9333-0247c8f2b5c1">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="6d46a0cc-f4e5-4de1-86d9-2afcd4e0dd9c" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="3e65fff1-f915-40da-8283-7ddd54167c2b">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="ec89099e-6edb-4473-8831-76e9e31dac9c">
+      <Keyword m="2022-04-26T12:09:21.1493559Z">D-EDGE - nastavenie automatickej úloy - formulár</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

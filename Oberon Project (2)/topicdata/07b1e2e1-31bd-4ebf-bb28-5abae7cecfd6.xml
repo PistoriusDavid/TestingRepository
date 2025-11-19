@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="07b1e2e1-31bd-4ebf-bb28-5abae7cecfd6" Status="Complete" CreatedOn="2014-11-29T15:49:30.9696553Z" ModifiedOn="2023-10-30T07:18:39.7462817Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="22720" Name="Form_Hotel_RoomOccupyOverview" BuildFlags="">
+  <Title m="2014-12-11T13:12:09.2246094Z">Formulár Prehľad obsadenosti izieb</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2022-06-28T12:55:57.078727Z">&lt;P&gt;Formulár &lt;EM&gt;Prehľad obsadenosti izieb&lt;/EM&gt; &lt;STRONG&gt;zobrazuje za zvolené obdobie (rozsah dátumov) komplexné údaje nielen o obsadenosti izieb (aj v členení podľa typov izieb), ale aj presné informácie o ubytovaných a rezervovaných osobách, ako aj údaje o jednotlivých obratoch (tržbách) vyjadrených sumách s&amp;nbsp;DPH&lt;/STRONG&gt;.&amp;nbsp;V&amp;nbsp;prípade, že je&amp;nbsp;ubytovacie zariadenie členené na objekty (budovy, prípadne viaceré ubytovacie zariadenia v jednej databáze), umožňuje zostaviť prehľad obsadenosti aj za jednotlivé objekty (pomocou tzv. &lt;STRONG&gt;rýchleho filtra&lt;/STRONG&gt; v&amp;nbsp;ľavom bočnom paneli). Formulár je dostupný z&amp;nbsp;&lt;A href="3ca37544-bbc0-4a88-af6a-a2132b74279d"&gt;Grafického prehľadu izieb&lt;/A&gt;, tlačidlo &lt;EM&gt;Možnosti - Zobraziť prehľad obsadenosti izieb.&lt;/EM&gt;&lt;/P&gt;
+&lt;H2&gt;Prehľad&amp;nbsp;zobrazovaných informácií&lt;/H2&gt;
+&lt;P&gt;Prehľad obsadenosti izieb poskytuje veľké množstvo informácií, tu sú niektoré z nich:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;prehľad o počte voľných, obsadených a rezervovaných izieb,
+&lt;LI&gt;prehľad o počte ubytovaných osôb (dospelých, detí) ako aj&amp;nbsp;počte osôb evidovaných v rezerváciách,
+&lt;LI&gt;aktuálna celková obsadenosť ubytovacieho zariadenia za dané obdobie, očakávaná obsadenosť vypočítaná z rezervácií,
+&lt;LI&gt;denná obsadenosť ubytovacieho zariadenia (obsadenosť vyčíslená za každý deň),
+&lt;LI&gt;prehľad o obratoch (tržbách) za ubytovanie v&amp;nbsp;cenách s DPH,
+&lt;LI&gt;prehľad o budúcich obratoch (tržbách) z rezervácií v&amp;nbsp;cenách s DPH.&lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Popis formulára &lt;EM&gt;Prehľad obsadenosti izieb&lt;/EM&gt;&lt;/H2&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Okupometer&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;&lt;STRONG&gt;Okupometer&lt;/STRONG&gt; (z lat. occupatio) -&amp;nbsp;graficky zobrazuje obsadenosť ubytovacieho zariadenia za určité obdobie.&lt;/P&gt;
+&lt;TABLE width="100%"&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TD height=10 width=176&gt;&lt;IMG border=0 alt="" src="images/Forms/Hotel/Form_Hotel_Okupometer.png"&gt;&lt;/TD&gt;
+&lt;TD height=50&gt;&lt;STRONG style="COLOR: rgb(11,139,10)"&gt;Zelená šípka&lt;/STRONG&gt; - denná obsadenosť (za dnešný deň).&lt;BR&gt;&lt;STRONG style="COLOR: rgb(38,38,184)"&gt;Tmavomodrá šípka&lt;/STRONG&gt; - obsadenosť za posledných 7 dní.&lt;BR&gt;&lt;STRONG style="COLOR: rgb(0,191,255)"&gt;Svetlomodrá&amp;nbsp;zóna&lt;/STRONG&gt; - obsadenosť za posledných&amp;nbsp;365 dní. 
+&lt;P&gt;Zobrazenie 7-dňovej a ročnej obsadenosti je možné zakázať&amp;nbsp;&lt;A href="834e9546-a56b-476f-9028-ef4c24a82345"&gt;právom&lt;/A&gt; &lt;EM&gt;Prehľad obsadenosti izieb (podrobný rozbor).&lt;/EM&gt; Okupometer zobrazuje obsadenosť podľa dátumu spracovania. Ak bude dátum spracovania v budúcnosti, obsadenosť sa bude počítať&amp;nbsp;nielen z&amp;nbsp;ubytovania, ale aj z rezervácií. Obsadenosť&amp;nbsp;sa počíta podľa počtu osôb ubytovaných (alebo rezervovaných) na izbe. Pri výpočte obsadenosti izieb s prístelkami je použitá nasledujúca metodika: pri izbe napr. izba 2+2&amp;nbsp;obsadenosť 1+0 = 50&amp;nbsp;%, 2+0 = 100&amp;nbsp;%, 2+1 = 125&amp;nbsp;%, 2+2 = 150&amp;nbsp;%.&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Obdobie&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Zadáva sa rozsah dátumov, za ktorý sa má zostaviť prehľad obsadenosti izieb. Rozsah je možné nastaviť zadaním dátumov alebo počtu dní od dátumu začiatku. Rozsah dátumov je možné určiť ešte pred otvorením tohto formulára - ak sa v&amp;nbsp;&lt;A href="3ca37544-bbc0-4a88-af6a-a2132b74279d"&gt;grafickom prehľade izieb&lt;/A&gt; označí rozsah dátumov, prehľad obsadenosti izieb&amp;nbsp;sa zostaví podľa tohto výberu.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Zobrazenie údajov&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;STRONG&gt;Jednoduché&lt;/STRONG&gt; - zobrazuje prehľad obsadenosti v členení podľa izieb, pričom sa niektoré stĺpce prehľadu nezobrazujú, napr. detailné členenie rezervácií.&lt;BR&gt;&lt;STRONG&gt;Rozšírené&lt;/STRONG&gt; - zobrazuje prehľad obsadenosti v členení podľa izieb, pričom&amp;nbsp;sa zobrazujú všetky stĺpce prehľadu.&lt;BR&gt;&lt;STRONG&gt;Podrobné&lt;/STRONG&gt; - zobrazuje prehľad obsadenosti v členení podľa izieb, ako aj podľa typov izieb, sú zobrazené všetky stĺpce prehľadu.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Spôsob výpočtu obratov&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;STRONG&gt;K dátumu príchodu&lt;/STRONG&gt;&amp;nbsp;&amp;nbsp;(Obrázok č. 2) - obrat ubytovania (z hotelového účtu) alebo rezervácie (z kalkulácie ceny)&amp;nbsp;je uvedený v deň začiatku pobytu (príchodu).&lt;BR&gt;&lt;STRONG&gt;Rozpočítať po dňoch&lt;/STRONG&gt;&amp;nbsp;(Obrázok č. 1) - obrat ubytovania (z hotelového účtu) alebo rezervácie (z kalkulácie ceny)&amp;nbsp;je rozpočítaný na každý deň pobytu, napr.&amp;nbsp;pri ubytovaní na 7 dní vo výške&amp;nbsp;700 € každý deň bude uvedená suma 100 €.&lt;BR&gt;&lt;STRONG&gt;K ukončeniu pobytu&lt;/STRONG&gt; - obrat ubytovania (z hotelového účtu) alebo rezervácie (z kalkulácie ceny)&amp;nbsp;je uvedený&amp;nbsp;v posledný deň ubytovania, t. j. deň pred fyzickým odchodom z&amp;nbsp;ubytovacieho zariadenia.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H5&gt;Obrázok č. 1: Základný prehľad obsadenosti izieb&lt;/H5&gt;&lt;IMG border=0 alt="" src="images/Forms/Hotel/Form_Hotel_RoomOccupyOverview_Basic.png"&gt; 
+&lt;H5&gt;Obrázok č. 2: Podrobný prehľad obsadenosti izieb&lt;/H5&gt;&lt;IMG border=0 alt="" src="images/Forms/Hotel/Form_Hotel_RoomOccupyOverview_Detail.png"&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="a55e18ef-b6c3-481e-87e3-d79f8c961454" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="3ca37544-bbc0-4a88-af6a-a2132b74279d">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="86d4d230-7d52-4294-9268-b8b18c58238d" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="0b9519ff-9438-422b-a3e8-358b628293e9">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="42bc3b2c-c9fc-487c-87aa-92ea1321e2d3" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="902561af-a2ca-4bf7-adcd-21be1663b30a">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="d8c3f84a-fa0e-4d0e-8cb4-f92083a9a48b">
+      <Keyword m="2022-06-28T12:49:28.3898893Z">Obsadenosť izieb - prehľad</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="581c3e78-c174-4297-b2e1-8efdd07c84bf">
+      <Keyword m="2022-06-28T12:50:05.7468323Z">Prehľad obsadenosti izieb - formulár</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="0e213c4c-2dbf-4da7-8fe6-9baf4850041d">
+      <Keyword m="2022-06-28T12:50:24.269352Z">Vyťaženosť izieb a objektov</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="401e98c3-008f-4a2f-9c07-8493769e6d73">
+      <Keyword m="2022-06-28T12:49:55.2884528Z">Okupometer - prehľad obsadenosti izieb</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="bc7a23de-92da-4839-b70a-023f52fc914a">
+      <Keyword m="2022-06-28T12:49:36.8864528Z">Izby - prehľad obsadenosti</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="d17fa725-72fc-41da-98d1-6adce70ca7eb">
+      <Keyword m="2022-06-28T12:50:15.9403388Z">Prehľad obsadenosti izieb</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="c639df2d-fb97-4799-bfbe-e3cad3a9f3db">
+      <Keyword m="2022-06-28T12:50:44.5002912Z">Objekty - prehľad obsadenosti izieb</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="230ec06a-efd0-47ea-8e02-4f4fdae6d31d">
+      <Keyword m="2022-06-28T12:51:02.0614432Z">Základný prehľad obsadenosti izieb</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="91251595-22ff-4deb-9406-7b3868d3e231">
+      <Keyword m="2022-06-28T12:51:12.4595991Z">Podrobný prehľad obsadenosti izieb</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

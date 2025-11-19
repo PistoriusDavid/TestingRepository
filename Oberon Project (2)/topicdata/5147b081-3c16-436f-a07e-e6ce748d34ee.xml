@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="5147b081-3c16-436f-a07e-e6ce748d34ee" Status="Complete" CreatedOn="2020-11-11T11:19:21.5378208Z" ModifiedOn="2024-04-16T07:38:38.6491888Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="ASTON_StockInventory" BuildFlags="">
+  <Title m="2020-11-11T11:44:02.01498Z">ASTON - inventúra skladu</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-06-08T08:55:48.9182629Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; popisuje &lt;STRONG&gt;inventúru skladu ako&amp;nbsp;jednu z funkcií, ktoré&amp;nbsp;možno vykonávať pomocou&amp;nbsp;aplikácie&amp;nbsp;&lt;/STRONG&gt;&lt;A href="be17efdf-4b36-4b47-ad5d-09b0f66c8f65"&gt;ASTON - mobilný skladník&lt;/A&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Okrem iných funkcií aplikácia&amp;nbsp;&lt;EM&gt;ASTON - mobilný skladník&lt;/EM&gt; umožňuje vykonávať &lt;STRONG&gt;inventúru skladu&lt;/STRONG&gt; - zadávanie fyzických množstiev&amp;nbsp;do inventúrneho súpisu priamo na&amp;nbsp;mobilnom zariadení.&amp;nbsp;Všeobecné informácie o inventúre skladu získate&amp;nbsp;v&amp;nbsp;téme&amp;nbsp;&lt;A href="489dd25b-dd6a-416d-be26-ce647566b429" style="auto-update-caption: true"&gt;Spracovanie inventúry&lt;/A&gt;. 
+&lt;LI&gt;Aplikácia &lt;EM&gt;ASTON - mobilný skladník&lt;/EM&gt; je určená pre mobilné zariadenia&amp;nbsp;(terminály, smartfóny, tablety)&amp;nbsp;s operačným systémom &lt;EM&gt;Android&lt;/EM&gt; a&amp;nbsp;&lt;EM&gt;iOS&lt;/EM&gt; a možno ju používať výhradne s programom &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;. Viac informácií&amp;nbsp;získate v téme&amp;nbsp;&lt;A href="be17efdf-4b36-4b47-ad5d-09b0f66c8f65" style="auto-update-caption: true"&gt;Aplikácia ASTON&lt;/A&gt;.&lt;A href="5f711bd3-c5ab-4b68-93cc-214b6720faf8"&gt;&lt;/A&gt; 
+&lt;LI&gt;Pomocou aplikácie &lt;EM&gt;ASTON&lt;/EM&gt; je možné inventúru skladu &lt;STRONG&gt;vykonávať aj na bežnom smartfóne za predpokladu, že je tovar označený cenovkami s QR kódom&lt;/STRONG&gt; (&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;pri cenovkách s&amp;nbsp;čiarovým kódom je potrebné mať na zreteli, že ich fotoaparát bežného smartfónu&lt;/SPAN&gt;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;&amp;nbsp;nemusí byť&amp;nbsp;schopný prečítať&lt;/SPAN&gt;). Postup, ako upraviť príslušný tlačový výstup je popísaný v&amp;nbsp;téme&amp;nbsp;&lt;A href="61edd121-1efe-4a14-907c-8c8a18cc4539"&gt;Tlač cenoviek&lt;/A&gt;. 
+&lt;LI&gt;Aplikácia &lt;EM&gt;ASTON&lt;/EM&gt; komunikuje so systémom OBERON&amp;nbsp;na základe&amp;nbsp;&lt;A href="9ce25bbd-35d1-4096-acd5-70007f5af5a6"&gt;automatickej úlohy&lt;/A&gt; typu &lt;EM&gt;&lt;STRONG&gt;WebServices API - OBERON 2G&lt;/STRONG&gt;&lt;/EM&gt;, t.&amp;nbsp;j. &lt;A href="58bb31ca-00c8-4641-ad99-7d58e24f59c5"&gt;webových služieb&lt;/A&gt;.&amp;nbsp;Aplikácia&amp;nbsp;&lt;EM&gt;ASTON&lt;/EM&gt; v rámci komunikácie predstavuje &lt;STRONG&gt;klienta webovej služby&lt;/STRONG&gt;. Bližšie informácie o nastavení komunikácie so systémom OBERON&amp;nbsp;získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="4532794b-6100-4bd6-b5d1-4bdb8e6f1b89"&gt;Aplikácia ASTON - inštalácia&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5 align=left&gt;&amp;nbsp;Obrázok č. 1:&amp;nbsp;Inventúra skladu v aplikácii &lt;EM&gt;ASTON&lt;/EM&gt;&lt;/H5&gt;
+&lt;P align=left&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERONMobileSolutions/OBERONMobileSolutions_ASTON_Inventory.png"&gt;&amp;nbsp;&lt;/P&gt;
+&lt;H2 align=left&gt;Inventúra skladu s aplikáciou ASTON&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Na zadanie množstva aplikácia &lt;EM&gt;ASTON&lt;/EM&gt; umožňuje&amp;nbsp;načítať skladovú kartu troma spôsobmi: 
+&lt;UL&gt;
+&lt;LI&gt;nasnímaním čiarového (QR) kódu skladovej karty pomocou snímača zariadenia (mobilný terminál), 
+&lt;LI&gt;nasnímaním čiarového (QR)&amp;nbsp;kódu skladovej karty pomocou fotoaparátu zariadenia (smartfón, mobilný terminál), 
+&lt;LI&gt;manuálnym vyhľadaním skladovej karty podľa názvu, čísla alebo čiarového (QR) kódu. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Aplikácia v rámci inventúry skladu ponúka viacero spôsobov práce s variantmi: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;vyhľadanie skladovej karty&lt;/STRONG&gt; - zobrazí sa zoznam variantov skladovej karty; po následnom výbere konkrétneho variantu je možné zadať jeho fyzické množstvo, 
+&lt;LI&gt;&lt;STRONG&gt;nasnímanie čiarového (QR)&lt;/STRONG&gt; &lt;STRONG&gt;kódu variantu skladovej karty&lt;/STRONG&gt; - zobrazí sa daný variant skladovej karty na zadanie jeho fyzického množstva. &lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt; 
+&lt;DIV style="MARGIN-LEFT: 2em"&gt;Postup spracovania inventúry s&amp;nbsp;aplikáciou &lt;EM&gt;ASTON&lt;/EM&gt; je uvedený v téme&amp;nbsp;&lt;A href="489dd25b-dd6a-416d-be26-ce647566b429" style="auto-update-caption: true"&gt;Spracovanie inventúry&lt;/A&gt;. V inventúrnom súpise&amp;nbsp;sa zobrazujú len skladové položky typu &lt;I&gt;&lt;STRONG&gt;Jednoduchá karta&lt;/STRONG&gt;&lt;/I&gt; alebo &lt;STRONG&gt;&lt;EM&gt;Vratný obal&lt;/EM&gt;&lt;/STRONG&gt;.&amp;nbsp;Skladové položky&amp;nbsp;&lt;A href="8deac9fe-9864-41e8-aaa3-02257c241d78"&gt;typu služba&lt;/A&gt;&lt;I&gt;, Sada, Výrobok, Receptúra&lt;/I&gt; majú vždy evidované množstvo nulové, preto sa na inventúrnom súpise nenachádzajú.&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/DIV&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H3&gt;Prírastkový režim&lt;/H3&gt;
+&lt;UL&gt;
+&lt;LI&gt;Aplikácia umožňuje pracovať aj v tzv. &lt;STRONG&gt;prírastkovom režime&lt;/STRONG&gt;, pri ktorom sa množstvo zvyšuje po nasnímaní čiarového kódu&amp;nbsp;vždy len o 1 položku. 
+&lt;LI&gt;Na zapnutie prírastkového režimu v&amp;nbsp;nastaveniach inventúry skladu&amp;nbsp;aktivujte možnosť &lt;EM&gt;Prírastkový režim&lt;/EM&gt; (pozri Obrázok č. 2). 
+&lt;LI&gt;Po aktivovaní možnosti &lt;EM&gt;Odoslať ihneď po nasnímaní&lt;/EM&gt; zvýšenie množstva nebude potrebné potvrdzovať - množstvo sa o 1 položku zvýši automaticky po nasnímaní čiarového kódu. 
+&lt;LI&gt;V prípade váženého čiarového kódu sa množstvo automaticky zvýši o nasnímanú hmotnosť. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;&amp;nbsp;Obrázok č. 2:&amp;nbsp;Inventúra v aplikácii &lt;EM&gt;ASTON&lt;/EM&gt; - zapnutý prírastkový režim&lt;/H5&gt;
+&lt;P&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;IMG border=0 alt="" src="images/OBERONMobileSolutions/OBERONMobileSolutions_ASTON_Incremental.png"&gt;&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="b9d8ba64-6af0-4d3e-b85b-dab91bcfc635" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="be17efdf-4b36-4b47-ad5d-09b0f66c8f65">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="fd34573f-7171-471f-bed4-bee5d7b2cee1" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="4532794b-6100-4bd6-b5d1-4bdb8e6f1b89">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="422f8f34-253e-47d1-957c-6f9b3d804f34" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="79f53c12-0f9d-46c1-b039-2a412e1671f0">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="36f55679-586d-4691-94c2-821f5b1d769f">
+      <Keyword m="2023-01-03T09:02:05.9395024Z">Inventúra skladu - ASTON</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

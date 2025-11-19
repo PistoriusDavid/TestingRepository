@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="fd64c37a-486b-4cdf-a370-297aaa8a8f73" Status="Complete" CreatedOn="2022-06-06T08:19:02.488503Z" ModifiedOn="2023-08-08T13:03:30.9934424Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="94100" Name="OAC_Settings_Server" BuildFlags="">
+  <Title m="2022-06-07T06:11:56.2739131Z">Nastavenie servera OBERON Automation Center</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-08-08T13:03:30.9934424Z">&lt;P&gt;&lt;A href="09f3dae9-2fb7-490f-97dc-37f60885b398"&gt;OBERON Automation Center&lt;/A&gt; (skrátene OAC), ktorý je určený na vykonávanie&amp;nbsp;&lt;A href="9ce25bbd-35d1-4096-acd5-70007f5af5a6"&gt;automatických úloh&lt;/A&gt; na pozadí systému OBERON,&amp;nbsp;sa skladá&amp;nbsp;z&amp;nbsp;dvoch častí:&amp;nbsp;&lt;STRONG&gt;&lt;EM&gt;OBERON-Automation-Center-Service&lt;/EM&gt;&lt;/STRONG&gt;&lt;STRONG&gt;&lt;EM&gt;.exe&lt;/EM&gt;&lt;/STRONG&gt; (server) a&amp;nbsp;&lt;STRONG&gt;&lt;EM&gt;OBERON-Automation-Client.exe&lt;/EM&gt;&lt;/STRONG&gt; (klient). Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; je venovaná&amp;nbsp;konfigurácii jeho prvej časti:&amp;nbsp;&lt;STRONG&gt;&lt;EM&gt;OBERON-Automation-Center-Service&lt;/EM&gt;&lt;/STRONG&gt;&lt;STRONG&gt;&lt;EM&gt;.exe&lt;/EM&gt;&lt;/STRONG&gt; &lt;STRONG&gt;(server)&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;EM&gt;OBERON-Automation-Center-Service.exe&lt;/EM&gt; (server)&amp;nbsp;predstavuje&amp;nbsp;službu systému &lt;EM&gt;Windows&lt;/EM&gt;&lt;EM&gt;.&lt;/EM&gt; &lt;SPAN style="COLOR: rgb(255,0,0)"&gt;Konfiguruje sa na&lt;/SPAN&gt;&amp;nbsp;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;počítači, ktorý je neustále zapnutý, spravidla sieťovom databázovom serveri&lt;/SPAN&gt;. 
+&lt;LI&gt;Správa servera (ak je potrebné&amp;nbsp;napr. službu pozastaviť, reštartovať a pod.)&amp;nbsp;sa spravidla vykonáva &lt;STRONG&gt;z klientskych počítačov&lt;/STRONG&gt;, a&amp;nbsp;to pomocou spustiteľného súboru&amp;nbsp;&lt;STRONG&gt;&lt;EM&gt;OBERON-Automation-Client.exe&lt;/EM&gt;&lt;/STRONG&gt; &lt;STRONG&gt;(klient)&lt;/STRONG&gt;, ktorý sa v klientskom počítači&amp;nbsp;nachádza v adresári &lt;SPAN lang=en-us xml:lang="en-us"&gt;&lt;EM&gt;\\OBERON\SHARE\SYSTEM&lt;/EM&gt;&lt;EM&gt;.&lt;/EM&gt;&lt;/SPAN&gt;&amp;nbsp;V programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt; je dostupný&amp;nbsp;z&amp;nbsp;ponuky &lt;EM&gt;OBERON,&amp;nbsp;&lt;/EM&gt;&lt;A href="69282df4-d4d6-462a-8cf2-68000e3e6f93"&gt;OBERON Automation Center (klient)&lt;/A&gt;. Výberom položky sa program otvorí a zároveň sa&amp;nbsp;zobrazí jeho ikona&amp;nbsp;na paneli úloh systému &lt;EM&gt;Windows&lt;/EM&gt;&amp;nbsp;v&amp;nbsp;systémových ikonách (pri dátume a čase), odkiaľ možno klienta tiež&amp;nbsp;otvoriť. Viac informácií&amp;nbsp;získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="7388e749-75b9-4306-85dd-b467bcb6a89c" style="auto-update-caption: true"&gt;Nastavenie OBERON Automation Center (klient)&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Postup nastavenia&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI style="COLOR: rgb(0,0,0)"&gt;Na počítači,&amp;nbsp;&lt;FONT style="COLOR: rgb(0,0,0)" color=red&gt;ktorý je neustále zapnutý (spravidla&lt;/FONT&gt;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;&amp;nbsp;&lt;/SPAN&gt;sieťovom databázovom&amp;nbsp;serveri), vykonajte&amp;nbsp;&lt;A href="19a10c98-2b1d-4fe1-8ab2-98921ab328be"&gt;inštaláciu OBERON-u&lt;/A&gt;&amp;nbsp;a&amp;nbsp;spustite program &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt; &lt;STRONG&gt;ako správca&lt;/STRONG&gt;. 
+&lt;LI style="COLOR: rgb(0,0,0)"&gt;Ak ešte nemáte v systéme OBERON vytvorenú (založenú) firmu, vytvorte ju&amp;nbsp;- bližšie informácie nájdete v&amp;nbsp;téme &lt;A href="9a485893-6dd2-44e8-9740-a4cd7083a932" style="auto-update-caption: true"&gt;Vytvorenie účtovnej jednotky (databázy)&lt;/A&gt;. Databázový systém zvoľte &lt;STRONG&gt;SQL server&lt;/STRONG&gt;. 
+&lt;LI style="COLOR: rgb(0,0,0)"&gt;V&amp;nbsp;ponuke &lt;EM&gt;OBERON,&amp;nbsp;&lt;/EM&gt;&lt;A href="e975459f-e882-49f2-adb9-79e68a07df0e"&gt;Otvorenie agendy (firmy)&lt;/A&gt; otvorte databázu účtovnej jednotky. 
+&lt;LI style="COLOR: rgb(0,0,0)"&gt;V&amp;nbsp;ponuke &lt;EM&gt;OBERON&lt;/EM&gt; zvoľte položku &lt;EM&gt;OBERON Automation Center (klient)&lt;/EM&gt;. Otvorí sa program&amp;nbsp;&lt;A href="69282df4-d4d6-462a-8cf2-68000e3e6f93"&gt;OBERON Automation Center (klient&lt;/A&gt;), v&amp;nbsp;ktorom vyberte oddiel &lt;EM&gt;&lt;STRONG&gt;Windows služba&lt;/STRONG&gt;.&lt;/EM&gt;&amp;nbsp;V&amp;nbsp;ňom je možné vykonať konfiguráciu servera &lt;EM&gt;OBERON Automation Center&lt;/EM&gt; (OAC). 
+&lt;LI&gt;Stlačte tlačidlo &lt;EM&gt;Pridať&lt;/EM&gt;. Otvorí sa sprievodca, pomocou ktorého je možné na&amp;nbsp;danom počítači vytvoriť server OAC, ktorý predstavuje&amp;nbsp;&lt;STRONG&gt;službu systému &lt;EM&gt;Windows&lt;/EM&gt;&lt;/STRONG&gt;. 
+&lt;LI&gt;Zadajte základné údaje potrebné&amp;nbsp;na vytvorenie servera OAC: 
+&lt;UL&gt;
+&lt;LI&gt;pomenovanie servera -&amp;nbsp;&lt;STRONG&gt;odporúča sa použiť prefix OAC&lt;/STRONG&gt;, napr. &lt;EM&gt;OAC-NAZOV-PC&lt;/EM&gt;, 
+&lt;LI&gt;číslo IP portu - &lt;STRONG&gt;predvolený port je 20 200&lt;/STRONG&gt;, 
+&lt;LI&gt;heslo servera - zadajte heslo (&lt;STRONG&gt;povinný údaj&lt;/STRONG&gt;, vyžaduje sa pri pripojení programu &lt;A href="69282df4-d4d6-462a-8cf2-68000e3e6f93"&gt;OBERON Automation Center (klient&lt;/A&gt;) k&amp;nbsp;serveru OAC). &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Stlačte tlačidlo &lt;EM&gt;Ďalej&lt;/EM&gt;. Po stlačení tlačidla &lt;EM&gt;Dokončiť&lt;/EM&gt; sa na&amp;nbsp;danom počítači vytvorí server &lt;EM&gt;OBERON Automation Center&lt;/EM&gt;, t.&amp;nbsp;j. služba v systéme &lt;EM&gt;Windows&lt;/EM&gt;. 
+&lt;LI&gt;V&amp;nbsp;oddiele &lt;EM&gt;&lt;STRONG&gt;Pripojenie k serveru OAC&lt;/STRONG&gt;&lt;/EM&gt; stlačte tlačidlo &lt;EM&gt;Vlastnosti&lt;/EM&gt;. Pomocou tlačidla &lt;EM&gt;Vyhľadať&lt;/EM&gt; vyhľadajte&amp;nbsp;nakonfigurovaný server &lt;EM&gt;OBERON Automation Center&lt;/EM&gt;. 
+&lt;LI&gt;Stlačte tlačidlo &lt;EM&gt;OK&lt;/EM&gt; a následne tlačidlo &lt;EM&gt;Pripojiť&lt;/EM&gt;. Zadajte heslo k serveru OAC. 
+&lt;LI&gt;Pripojenie k serveru &lt;EM&gt;OBERON Automation Center&lt;/EM&gt; je dokončené (ikona signalizujúca status pripojenia k&amp;nbsp;serveru OAC je &lt;SPAN style="COLOR: rgb(127,127,127)"&gt;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;&lt;SPAN style="COLOR: rgb(0,132,60)"&gt;&lt;STRONG&gt;zelenej farby&lt;/STRONG&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;). 
+&lt;LI&gt;V&amp;nbsp;oddiele&amp;nbsp;&lt;EM&gt;Firmy&lt;/EM&gt;&amp;nbsp;stlačte tlačidlo &lt;EM&gt;Nový&lt;/EM&gt; a &lt;STRONG&gt;nalistujte databázu firmy&lt;/STRONG&gt;. &lt;SPAN style="COLOR: rgb(255,0,0)"&gt;Pri&amp;nbsp;použití&lt;/SPAN&gt; &lt;EM style="COLOR: rgb(255,0,0)"&gt;OBERON Automation Center&lt;/EM&gt;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;&amp;nbsp;&lt;STRONG&gt;odporúčame&lt;/STRONG&gt;&lt;/SPAN&gt; &lt;STRONG style="COLOR: rgb(255,0,0)"&gt;používať databázu SQL&lt;/STRONG&gt;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;.&lt;/SPAN&gt; 
+&lt;LI&gt;V oddiele &lt;EM&gt;Automatické úlohy&lt;/EM&gt; sa zobrazujú automatické úlohy firiem nalistovaných v&amp;nbsp;oddiele &lt;EM&gt;Firmy&lt;/EM&gt;. Automatické úlohy&amp;nbsp;sa definujú&amp;nbsp;v ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="9ce25bbd-35d1-4096-acd5-70007f5af5a6"&gt;Automatické úlohy&lt;/A&gt;. &lt;/LI&gt;&lt;/OL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Postup nastavenia programu &lt;EM&gt;&lt;STRONG&gt;OBERON Automation Center (klient)&lt;/STRONG&gt;&lt;/EM&gt; je dostupný v&amp;nbsp;téme&amp;nbsp;&lt;A href="7388e749-75b9-4306-85dd-b467bcb6a89c" style="auto-update-caption: true"&gt;Nastavenie OBERON Automation Center (klient)&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt; &lt;/innovasys:widget&gt;&lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;&lt;STRONG&gt;Riešenie problémov pri konfigurácii servera OAC&lt;/STRONG&gt;&lt;/P&gt;
+&lt;OL&gt;
+&lt;LI&gt;Ak sa služba &lt;EM&gt;Windows&lt;/EM&gt; (server OAC) nespustí automaticky (nebeží), je potrebné službu &lt;STRONG&gt;spustiť manuálne&lt;/STRONG&gt; v zozname služieb &lt;EM&gt;Windows&lt;/EM&gt; (&lt;EM&gt;Services&lt;/EM&gt;). 
+&lt;LI&gt;Uistite sa, že ste pred nastavením&amp;nbsp;&lt;A href="09f3dae9-2fb7-490f-97dc-37f60885b398"&gt;OBERON Automation Center&lt;/A&gt; spustili OBERON ako správca. &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 
+&lt;LI&gt;Uistite sa, že&amp;nbsp;v&amp;nbsp;starších verziách &lt;EM&gt;Windows&lt;/EM&gt; je nainštalovaná verzia &lt;STRONG&gt;Microsoft .NET Framework 4.8&lt;/STRONG&gt; alebo novšia. 
+&lt;LI&gt;Skontrolujte uložené záznamy (logy) v &lt;EM&gt;Prehliadači udalostí (Event Viewer)&amp;nbsp;&lt;/EM&gt;a&amp;nbsp;v&amp;nbsp;&lt;A href="bc30e126-afb5-41aa-a261-e92501038063"&gt;Sledovaní činností&lt;/A&gt; na detekciu vzniknutých problémov. 
+&lt;LI&gt;Zasielanie hromadných e-mailových správ, resp. notifikácií a pod. s chybnou diakritikou - v nastaveniach systému &lt;EM&gt;Windows&lt;/EM&gt; (&lt;STRONG&gt;Regionálne nastavenia&lt;/STRONG&gt;) je potrebné nastaviť jazyk &lt;STRONG&gt;Slovenčina (nastavenie pre systémové služby).&lt;/STRONG&gt; &lt;/LI&gt;&lt;/OL&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="1df61c5d-c1c5-406c-8c16-cb5ded6e544f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="09f3dae9-2fb7-490f-97dc-37f60885b398">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="59d4b772-14f6-4cc6-8043-b3aab00e8503" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="69282df4-d4d6-462a-8cf2-68000e3e6f93">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="4eac4325-ba91-42c1-b94c-319a3198c6d9" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="7388e749-75b9-4306-85dd-b467bcb6a89c">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="7c941497-806b-44c3-9175-5a9dd91ad332">
+      <Keyword m="2022-06-06T08:23:53.4269892Z">OBERON Automation Center - nastavenie servera</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="9a33f138-a0f0-4c3e-84d7-0c4ca6ad4c4f">
+      <Keyword m="2022-06-06T08:24:45.5062835Z">OAC - nastavenie servera</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="3c6bb201-645a-406e-89d3-2387da861b55">
+      <Keyword m="2022-06-08T11:10:00.9907038Z">OBERON-Automation-Center-Service.exe (server) - nastavenie</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

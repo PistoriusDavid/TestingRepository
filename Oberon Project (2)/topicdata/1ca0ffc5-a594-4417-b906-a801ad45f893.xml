@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="1ca0ffc5-a594-4417-b906-a801ad45f893" Status="Complete" CreatedOn="2018-08-24T11:33:16.4437261Z" ModifiedOn="2023-09-07T12:59:03.6237802Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Device_ReaderDocuments" BuildFlags="">
+  <Title m="2018-09-11T07:21:11.8808349Z">Čítačky dokladov</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-09-07T12:59:03.6237802Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;obsahuje&amp;nbsp;&lt;STRONG&gt;všeobecné&amp;nbsp;informácie&amp;nbsp;o&amp;nbsp;čítačkách dokladov&lt;/STRONG&gt;, ktoré predstavujú jeden z typov&amp;nbsp;&lt;A href="3f051fd3-9727-4ecc-9613-7a7fb1cb2a54"&gt;pripojiteľných zariadení&lt;/A&gt; podporovaných v systéme OBERON.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Čítačka dokladov je hardvérové zariadenie, ktoré umožňuje &lt;STRONG&gt;automaticky načítať identifikačné údaje z občianskych preukazov, pasov, víz a iných identifikačných kariet&lt;/STRONG&gt; do modulu&amp;nbsp;&lt;A href="c3bd41f0-029e-4c74-b342-b0ffff647b6e"&gt;Hotelová recepcia&lt;/A&gt; systému OBERON, konkrétne do&amp;nbsp;&lt;A href="d43ef71f-edb1-44f7-b1a2-c0cf18067ee9"&gt;formulára Ubytovanie&lt;/A&gt; v&amp;nbsp;&lt;A href="0b9519ff-9438-422b-a3e8-358b628293e9"&gt;Knihe ubytovaných&lt;/A&gt;.&amp;nbsp;Určená je pre recepcie ubytovacích zariadení, kde je potrebné zapisovať údaje z dokladov. 
+&lt;LI&gt;Čítačka umožňuje čítať také doklady, ktoré obsahujú &lt;STRONG&gt;MRZ&lt;/STRONG&gt; (&lt;STRONG&gt;M&lt;/STRONG&gt;achine &lt;STRONG&gt;R&lt;/STRONG&gt;eadable &lt;STRONG&gt;Z&lt;/STRONG&gt;one), pričom dokáže čítať 2-riadkové a 3-riadkové MRZ zóny. 
+&lt;LI&gt;Pri vytváraní nového ubytovania sa po nasnímaní&amp;nbsp; MRZ zóny načítajú do OBERON-u údaje z dokladu – &lt;STRONG&gt;číslo dokladu totožnosti, priezvisko, meno, dátum narodenia, štát&lt;/STRONG&gt; (neprenáša sa adresa trvalého pobytu). 
+&lt;LI&gt;Pri ďalšej návšteve hosťa však program vyhľadá v histórii ubytovaných hostí a načíta &lt;STRONG&gt;nielen údaje prečítané z dokladu, ale aj ďalšie údaje, ktoré boli zapísané manuálne&lt;/STRONG&gt; (napr. adresa, titul, poznámka, e-mail). 
+&lt;LI&gt;Inštalácia čítačky je veľmi jednoduchá, na pripojenie k počítaču sa používa USB rozhranie. 
+&lt;LI&gt;Čítačka dokladov nepodporuje diakritiku. 
+&lt;LI&gt;OBERON podporuje tieto čítačky dokladov: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;A href="92b71d6b-7b68-439c-9135-977733350aaf" style="auto-update-caption: true"&gt;Čítačka dokladov Access OCR31x&lt;/A&gt;, 
+&lt;LI&gt;&lt;A href="e73dd5b1-b25c-4337-89cf-ce6624f3c6bc"&gt;Čítačka dokladov XTIOT XTZ62x&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Tabuľka č. 1: Porovnanie čítačiek dokladov&lt;/H5&gt;
+&lt;TABLE id=table2 style="WIDTH: 50%" borderColor=silver cellSpacing=0 cellPadding=2 width="60%" border=1&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TD width="7%"&gt;&lt;/TD&gt;
+&lt;TD bgColor=#d9e1f2 width="3%" align=center&gt;&lt;B&gt;XTIOT XTZ62x&lt;/B&gt;&lt;/TD&gt;
+&lt;TD bgColor=#d9e1f2 width="3%" align=center&gt;&lt;B style="COLOR: rgb(0,0,0)"&gt;Access OCR31x&lt;/B&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;STRONG&gt;Výrobca&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;Shenzhen Xingtong IOT Technology Co., Ltd., Čína&lt;/TD&gt;
+&lt;TD align=center&gt;Access Limited, Anglicko&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;B&gt;Modely&lt;/B&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;XTZ62E, XT6201B&lt;/TD&gt;
+&lt;TD align=center&gt;OCR315, OCR316, OCR315e, OCR316e&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;STRONG&gt;Cena (€)&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;200&lt;/TD&gt;
+&lt;TD align=center&gt;630&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;B&gt;Spôsob pripojenia (rozhranie)&lt;/B&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;USB (s&amp;nbsp;emuláciou sériového portu)&lt;/TD&gt;
+&lt;TD align=center&gt;USB&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;STRONG&gt;Spôsob komunikácie&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;Virtuálny sériový port&lt;/TD&gt;
+&lt;TD align=center&gt;DLL&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;B&gt;Čítačka dokladov&lt;/B&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;STRONG&gt;&lt;A href="80a78093-fc45-4db9-b74b-e1f9829f7b3c"&gt;Snímač čiarových kódov&lt;/A&gt;&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;STRONG&gt;Čítanie kódov&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;1D, 2D, MRZ&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;MRZ&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;STRONG&gt;Čítanie 2-riadkových a 3-riadkových MRZ zón&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;STRONG&gt;Podpora diakritiky&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;STRONG&gt;Štrbinová čítačka&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;STRONG&gt;Ručná čítačka&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;STRONG&gt;Spôsob obsluhy&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;Obe ruky, pri doobjednaní stojana&amp;nbsp;jedna ruka&lt;/TD&gt;
+&lt;TD align=center&gt;Jedna ruka&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;B&gt;Zvuková signalizácia&lt;/B&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;1 pípnutie pre korektné čítanie&lt;/TD&gt;
+&lt;TD align=center&gt;1&amp;nbsp;pípnutie pre&amp;nbsp;korektné čítanie, 3&amp;nbsp;pípnutia pre nekorektné čítanie&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;B&gt;Optická signalizácia&lt;/B&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;STRONG&gt;&lt;A href="cf9e27af-d4c5-4b0c-9b37-78cfa72b9abd"&gt;Automatické účtovanie pokladničných dokladov&lt;/A&gt;&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;
+&lt;H5&gt;Obrázok&amp;nbsp;č. 1: Strojovo čitateľná zóna (MRZ) na občianskom preukaze a pase&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Devices/Device_OCR31x_ID_Passport_MRZ.png"&gt;&amp;nbsp;&lt;/P&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Aby čítačka korektne načítala údaj o štáte, musí byť daný štát&amp;nbsp;vybraný do zoznamu štátov ešte pred samotným načítaním&amp;nbsp;údajov z&amp;nbsp;dokladu&amp;nbsp;(vo formulári &lt;EM&gt;Zoznam štátov&lt;/EM&gt;).&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H5&gt;Obrázok&amp;nbsp;č. 2: Výber štátu do formulára &lt;EM&gt;Zoznam štátov&lt;/EM&gt;&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Devices/Device_OCR31x_State.png"&gt;&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="cfeba120-75a2-49d2-ad72-0522aba6434a" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="3f051fd3-9727-4ecc-9613-7a7fb1cb2a54">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="a180cd12-514b-4cec-b201-f22088ac5fee" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="92b71d6b-7b68-439c-9135-977733350aaf">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="f359ea90-6e5e-4027-8f06-5cff8322a49d" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="e73dd5b1-b25c-4337-89cf-ce6624f3c6bc">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="1667f8ae-2d83-40e9-a5b3-703ba0f11e10">
+      <Keyword m="2021-05-11T08:44:46.4195531Z">Čítačky dokladov - všeobecné informácie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="5d57eca7-72ac-4029-a191-67b36fb59b64">
+      <Keyword m="2022-12-15T07:56:26.8686018Z">MRZ (Machine Readable Zone) - čítačky dokladov</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="88d43b8e-0249-4c63-8699-b24cab7a915f">
+      <Keyword m="2021-05-11T08:46:14.6994156Z">Hotelová recepcia - automatické načítanie identifikačných údajov</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="a935f3a9-b517-482a-8fbb-9b1d07825d19">
+      <Keyword m="2022-12-15T07:56:43.9353799Z">Štát - výber do formulára Zoznam štátov - čítačky dokladov</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="911a2412-ad21-4cd2-9b7c-5281f17cf1dd">
+      <Keyword m="2022-12-15T07:56:33.6861702Z">Strojovo čitateľná zóna (MRZ) - čítačky dokladov</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

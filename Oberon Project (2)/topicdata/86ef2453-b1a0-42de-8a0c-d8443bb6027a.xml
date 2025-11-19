@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="86ef2453-b1a0-42de-8a0c-d8443bb6027a" Status="Complete" CreatedOn="2016-02-22T12:17:46.5326825Z" ModifiedOn="2024-08-07T10:29:44.0690616Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="21040" Name="EmailCommunication_Templates" BuildFlags="">
+  <Title m="2016-02-22T12:18:28.5999922Z">Predlohy e-mailov</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-08-07T10:29:44.0690616Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; je venovaná &lt;STRONG&gt;možnostiam použitia predlôh e-mailov a&amp;nbsp;postupu ich tvorby&lt;/STRONG&gt; pri&amp;nbsp;&lt;A href="e06c0c09-80ea-4083-8f6a-5a49a3fc9474"&gt;odosielaní e-mailových správ v systéme OBERON&lt;/A&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Systém OBERON umožňuje odosielanie e-mailových správ, ktoré sa môže realizovať viacerými spôsobmi: &lt;STRONG&gt;manuálne, hromadne a formou automatických notifikácií&lt;/STRONG&gt;. Viac informácií získate v téme&amp;nbsp;&lt;A href="e06c0c09-80ea-4083-8f6a-5a49a3fc9474"&gt;Odosielanie e-mailov v systéme OBERON&lt;/A&gt;. 
+&lt;LI&gt;Proces vytvárania e-mailových správ v&amp;nbsp;systéme OBERON je možné &lt;STRONG&gt;zefektívniť pomocou tzv. predlôh e-mailov&lt;/STRONG&gt;. Predloha predstavuje šablónu (vzor,&amp;nbsp;prototyp, mustru) e-mailu, ktorý je možné&amp;nbsp;poslať v&amp;nbsp;podobných prípadoch&amp;nbsp;alebo v&amp;nbsp;podobných situáciách. 
+&lt;LI&gt;Systém OBERON umožňuje vytvárať a prípadne meniť predlohy e-mailov podľa požiadaviek firmy (napr. v&amp;nbsp;ubytovacom zariadení, keď sa hosť&amp;nbsp;dopytuje na voľný termín,&amp;nbsp;obsluha na recepcii nemusí vytvárať novú správu, ale na odpoveď hosťovi môže použiť&amp;nbsp;predlohu o&amp;nbsp;obsadenosti ubytovacieho zariadenia). 
+&lt;LI&gt;Predlohy e-mailov obsahujú preddefinované informácie a&amp;nbsp;atribúty,&amp;nbsp;ktoré sa menia v závislosti&amp;nbsp;od prípadu. 
+&lt;LI&gt;Predlohy e-mailov sú dostupné z viacerých miest v&amp;nbsp;programe, napr. z knihy pohľadávok, z evidencie obchodných partnerov, z knihy ubytovaných, z&amp;nbsp;evidencie reklamácií a servisu&amp;nbsp;atď., a&amp;nbsp;to&amp;nbsp;z kontextovej ponuky tabuľky záznamov alebo&amp;nbsp;po stlačení tlačidla &lt;EM&gt;Možnosti&lt;/EM&gt; (položka &lt;EM&gt;Odoslať e-mail&lt;/EM&gt; - otvorí sa formulár &lt;EM&gt;E-mail&lt;/EM&gt;, v ktorom vyberte predlohu z rozbaľovacieho zoznamu). &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;V systéme OBERON je pomocou predlôh možné zefektívniť aj vytváranie SMS správ. Viac informácií&amp;nbsp;získate v téme&amp;nbsp;&lt;A href="811261a5-bffc-4ade-8202-53e489e4fa81"&gt;Sprievodca Zaslanie SMS&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Postup vytvorenia predlohy&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;V&amp;nbsp;evidencii, v ktorej chcete vytvoriť predlohu (napr. v knihe pohľadávok) stlačte tlačidlo &lt;EM&gt;Možnosti&lt;/EM&gt; a&amp;nbsp;vyberte položku &lt;EM&gt;Odoslať e-mail&lt;/EM&gt;. 
+&lt;LI&gt;V prípade, že k obchodnému partnerovi je zaevidovaných viacero e-mailových adries, vyberte jednu e-mailovú adresu. 
+&lt;LI&gt;Otvorí sa formulár &lt;EM&gt;E-mail&lt;/EM&gt;, v poli &lt;EM&gt;Predloha&lt;/EM&gt;&amp;nbsp;stlačte tlačidlo výberu &lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_ListButton.png"&gt;. Otvorí sa formulár &lt;EM&gt;Predlohy (elektronickej pošty),&lt;/EM&gt; ktorý obsahuje zoznam všetkých predlôh. Novú predlohu pridajte stlačením tlačidla &lt;EM&gt;Nový&lt;/EM&gt;. 
+&lt;LI&gt;Otvorí sa formulár &lt;EM&gt;Predloha (elektronickej pošty)&lt;/EM&gt;, v ktorom zadajte výstižný názov predlohy. 
+&lt;LI&gt;Ďalej zadajte používateľov, pre ktorých bude predloha dostupná (ak nebude zadaný žiaden používateľ, predloha bude dostupná pre všetkých používateľov). 
+&lt;LI&gt;Zadajte &lt;EM&gt;Predmet správy (e-mailu)&lt;/EM&gt; - stručný sumár obsahu predlohy správy. 
+&lt;LI&gt;Do poľa &lt;EM&gt;Text správy&lt;/EM&gt; napíšte text (obsah) predlohy e-mailu. Text správy je tvorený premennými a&amp;nbsp;obyčajným textom. Pri zostavovaní predlohy správy je možné využiť panel s nástrojmi na formátovanie, ktorý sa nachádza priamo nad poľom&amp;nbsp;na písanie textu predlohy. K dispozícii sú&amp;nbsp;rôzne štýly, napr. tučné písmo alebo kurzíva, ďalej je možné&amp;nbsp;zmeniť typ písma, zarovnať text na stred atď. Niektorým premenným&amp;nbsp;je možné nastaviť formát hodnoty, napr. dátum vo formáte dd.mm.yyyy alebo dd.mm.yy. 
+&lt;LI&gt;Stlačením tlačidla &lt;EM&gt;OK&lt;/EM&gt; sa predloha uloží. &lt;/LI&gt;&lt;/OL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Priamo do predlohy&amp;nbsp;e-mailovej správy je kliknutím pravým tlačidlom myši možné vkladať vybrané znaky a tabuľky,&amp;nbsp;odkazy a obrázky (napr. logo firmy).&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H5&gt;Obrázok č. 1: Vytváranie predlohy e-mailu&amp;nbsp;&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/ProductOptions/EmailCommunication/EmailCommunication_Model_Email.png"&gt;&lt;/P&gt;
+&lt;H5&gt;&amp;nbsp;Obrázok č. 2: Vytvorená&amp;nbsp;e-mailová správa&amp;nbsp;- voľný termín na ubytovanie v &lt;EM&gt;Knihe rezervácií&lt;/EM&gt;&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/ProductOptions/EmailCommunication/EmailCommunication_Model_FreeRezervation.png"&gt;&amp;nbsp;&lt;/P&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Preddefinovaná predloha (šablóna, vzor) e-mailovej a SMS správy existuje v OBERON-e aj pre&amp;nbsp;každý&amp;nbsp;&lt;A href="e301d0fb-f429-4bb5-a4df-7257efbe967b"&gt;typ automatickej notifikácie&lt;/A&gt;. V&amp;nbsp;prípade potreby je možné preddefinovaný tvar (formát) jednotlivých&amp;nbsp;predlôh notifikácií&amp;nbsp;ďalej upravovať pomocou tzv. &lt;STRONG&gt;editora predlohy&lt;/STRONG&gt;. Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="ebccc473-482c-4940-99b3-b4f5d534ccf7"&gt;Editor predlohy&lt;/A&gt;. &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="40be7840-2ce0-4af9-9fc5-f56956e0c1e3" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="e06c0c09-80ea-4083-8f6a-5a49a3fc9474">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="582bbf20-83bc-4f00-b549-1976a13d815f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="04e52362-d0f3-4a9a-8ec5-36ef724a7ee2">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="0faac0b4-0644-4341-9b4b-4c1772b8a6a8" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="ea5379c8-9451-40fc-ac0f-f038feefa916">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="46af5bf4-7949-4a3c-8d68-7e1b6a63dadc">
+      <Keyword m="2016-02-23T09:59:41.4791692Z">Predlohy e-mailov</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="2f900d2f-ca90-4dd3-b3f6-a65749b89c87">
+      <Keyword m="2021-03-25T13:31:21.1116036Z">E-maily - predlohy</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="1bd18900-0800-436e-a485-42d0f0875e84">
+      <Keyword m="2021-06-25T07:30:55.3706448Z">Tvorba predlôh e-mailov</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

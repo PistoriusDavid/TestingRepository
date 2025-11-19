@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="a64f2b63-4025-4a07-b855-a85d34e55627" Status="Complete" CreatedOn="2014-09-10T06:39:47.1264198Z" ModifiedOn="2023-04-26T07:54:01.3986607Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Stock_Advanced_Work_With_Acquisition" BuildFlags="">
+  <Title m="2014-09-10T06:40:29.0608183Z">Práca s obstarávacími nákladmi</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-04-26T07:50:42.29356Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;informácie o možnostiach práce s&amp;nbsp;obstarávacími nákladmi&lt;/STRONG&gt; v&amp;nbsp;module&amp;nbsp;&lt;A href="78d20602-4b59-4b31-9f0a-a04a1d376ec5"&gt;Skladová evidencia&lt;/A&gt;&amp;nbsp;systému OBERON.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Pri príjme tovaru na&amp;nbsp;&lt;A href="1a33ab0b-2df7-4dc2-962b-8a3319c16831"&gt;skladovú kartu&lt;/A&gt; program automaticky vypočíta obstarávaciu cenu ako vážený priemer ceny zásob a poslednej nákupnej ceny. Okrem toho obstarávaciu cenu ovplyvňujú aj obstarávacie náklady, t.&amp;nbsp;j. &lt;STRONG&gt;náklady na obstaranie tovaru ako sú dopravné náklady, prípadne iné výdavky súvisiace s&amp;nbsp;obstaraním tovaru&lt;/STRONG&gt;. 
+&lt;LI&gt;V praxi sa vyskytujú situácie, keď v čase, v ktorom účtovná jednotka&amp;nbsp;&lt;A href="62db2271-9ae9-4968-b790-47a07e7c6aef"&gt;prijíma tovar do skladu&lt;/A&gt;, výška obstarávacích nákladov ešte nie je známa. Z tohto dôvodu sa zaužíval postup, pri ktorom sa tieto obstarávacie náklady zaevidujú dodatočne - vytvorí sa osobitný typ&amp;nbsp;&lt;A href="efed1882-1614-4406-b57a-3023aee6ba26"&gt;príjemky&lt;/A&gt; s druhom pohybu &lt;EM&gt;&lt;STRONG&gt;P - Obst. náklady &lt;/STRONG&gt;&lt;/EM&gt;(obstarávacie náklady), a tak sa zvýši obstarávacia cena skladových položiek prijatých do&amp;nbsp;&lt;A href="1e423d36-8e0a-4420-b2e9-05f12806ec3a"&gt;skladu&lt;/A&gt;. 
+&lt;LI&gt;Modul&amp;nbsp;&lt;A href="78d20602-4b59-4b31-9f0a-a04a1d376ec5"&gt;Skladová evidencia&lt;/A&gt; umožňuje &lt;STRONG&gt;obstarávacie náklady rozpočítať na príjemku&lt;/STRONG&gt;, t.&amp;nbsp;j.&amp;nbsp;obstarávacie náklady sa rozpočítajú na skladové karty nachádzajúce sa na danej príjemke. 
+&lt;LI&gt;Rozpočítaním obstarávacích nákladov sa rozumie zvýšenie obstarávacej ceny na skladovej karte úmerne podľa aktuálneho množstva tak, aby sa v&amp;nbsp;konečnom dôsledku hodnota celého skladu v&amp;nbsp;obstarávacej cene zvýšila o tieto obstarávacie náklady. Rozpočítanie obstarávacích nákladov je pomerne komplikovaná záležitosť, pretože ku každej skladovej položke, na ktorú sa obstarávací náklad rozpočítal, sa vytvorí samostatný&amp;nbsp;&lt;A href="fc7595a6-54ce-4aa9-acb4-93d7880e854e"&gt;skladový pohyb&lt;/A&gt; (vo výške obstarávacieho nákladu s nulovým množstvom). &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Príklad rozpočítania obstarávacích nákladov&lt;/H2&gt;
+&lt;TABLE id=table1 style="HEIGHT: 352px; WIDTH: 463px"&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TD width=161&gt;
+&lt;P align=left&gt;&lt;STRONG&gt;Názov položky&lt;/STRONG&gt;&lt;/P&gt;&lt;/TD&gt;
+&lt;TD width=66&gt;
+&lt;P align=left&gt;&lt;STRONG&gt;Evidované množstvo&lt;/STRONG&gt;&lt;/P&gt;&lt;/TD&gt;
+&lt;TD width=88&gt;
+&lt;P align=left&gt;&lt;STRONG&gt;Obstarávacia cena/MJ&lt;/STRONG&gt;&lt;/P&gt;&lt;/TD&gt;
+&lt;TD width=75&gt;
+&lt;P align=left&gt;&lt;STRONG&gt;Obstarávacia cena spolu&lt;/STRONG&gt;&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=161&gt;
+&lt;P align=left&gt;Piesok&lt;/P&gt;&lt;/TD&gt;
+&lt;TD width=66&gt;
+&lt;P align=right&gt;&amp;nbsp;10 t&lt;/P&gt;&lt;/TD&gt;
+&lt;TD width=88&gt;
+&lt;P align=right&gt;&amp;nbsp;500.000&lt;/P&gt;&lt;/TD&gt;
+&lt;TD width=75&gt;
+&lt;P align=right&gt;5 000&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=161&gt;
+&lt;P align=left&gt;Štrk hrubý&lt;/P&gt;&lt;/TD&gt;
+&lt;TD width=66&gt;
+&lt;P align=right&gt;&amp;nbsp;5 t&lt;/P&gt;&lt;/TD&gt;
+&lt;TD width=88&gt;
+&lt;P align=right&gt;&amp;nbsp;600.000&lt;/P&gt;&lt;/TD&gt;
+&lt;TD width=75&gt;
+&lt;P align=right&gt;&amp;nbsp; 3 000&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=161&gt;
+&lt;P align=left&gt;Štrk jemný&lt;/P&gt;&lt;/TD&gt;
+&lt;TD width=66&gt;
+&lt;P align=right&gt;&amp;nbsp;2 t&lt;/P&gt;&lt;/TD&gt;
+&lt;TD width=88&gt;
+&lt;P align=right&gt;&amp;nbsp;600.000&lt;/P&gt;&lt;/TD&gt;
+&lt;TD width=75&gt;
+&lt;P align=right&gt;&amp;nbsp; 1 200&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=161&gt;
+&lt;P align=right&gt;&amp;nbsp;&lt;/P&gt;&lt;/TD&gt;
+&lt;TD width=66&gt;
+&lt;P align=right&gt;&amp;nbsp;&lt;/P&gt;&lt;/TD&gt;
+&lt;TD width=88&gt;
+&lt;P align=right&gt;&lt;STRONG&gt;Spolu&lt;/STRONG&gt;&lt;/P&gt;&lt;/TD&gt;
+&lt;TD width=75&gt;
+&lt;P align=right&gt;&lt;STRONG&gt;&amp;nbsp; 9 200&lt;/STRONG&gt;&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=402 colSpan=4&gt;Skladové položky po rozpočítaní obstarávacích nákladov vo výške&amp;nbsp;1000&amp;nbsp;EUR.&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=161&gt;
+&lt;P align=left&gt;Piesok&lt;/P&gt;&lt;/TD&gt;
+&lt;TD width=66&gt;
+&lt;P align=right&gt;&amp;nbsp;10 t&lt;/P&gt;&lt;/TD&gt;
+&lt;TD width=88&gt;
+&lt;P align=right&gt;&amp;nbsp;554.438&lt;/P&gt;&lt;/TD&gt;
+&lt;TD width=75&gt;
+&lt;P align=right&gt;&amp;nbsp; 5 544&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=161&gt;
+&lt;P align=left&gt;Štrk hrubý&lt;/P&gt;&lt;/TD&gt;
+&lt;TD width=66&gt;
+&lt;P align=right&gt;&amp;nbsp;5 t&lt;/P&gt;&lt;/TD&gt;
+&lt;TD width=88&gt;
+&lt;P align=right&gt;&amp;nbsp;665.217&lt;/P&gt;&lt;/TD&gt;
+&lt;TD width=75&gt;
+&lt;P align=right&gt;&amp;nbsp; 3 326&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=161&gt;
+&lt;P align=left&gt;Štrk jemný&lt;/P&gt;&lt;/TD&gt;
+&lt;TD width=66&gt;
+&lt;P align=right&gt;&amp;nbsp;2 t&lt;/P&gt;&lt;/TD&gt;
+&lt;TD width=88&gt;
+&lt;P align=right&gt;&amp;nbsp;665.217&lt;/P&gt;&lt;/TD&gt;
+&lt;TD width=75&gt;
+&lt;P align=right&gt;&amp;nbsp; 1 330&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=161&gt;&amp;nbsp;&lt;/TD&gt;
+&lt;TD width=66&gt;&amp;nbsp;&lt;/TD&gt;
+&lt;TD width=88&gt;&lt;STRONG&gt;Spolu&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD width=75&gt;
+&lt;P align=right&gt;&lt;STRONG&gt;10 200&lt;/STRONG&gt;&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;
+&lt;H2&gt;Zaevidovanie obstarávacích nákladov&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;Vytvorte &lt;A href="efed1882-1614-4406-b57a-3023aee6ba26"&gt;príjemku&lt;/A&gt; s&amp;nbsp;druhom pohybu &lt;I&gt;P - Obst. náklady&lt;/I&gt;. 
+&lt;LI&gt;Pridajte do príjemky položku &lt;EM&gt;&lt;STRONG&gt;Obstarávacie náklady&lt;/STRONG&gt;&lt;/EM&gt; s&amp;nbsp;množstvom 1, zadajte&amp;nbsp;mernú jednotku a&amp;nbsp;výšku obstarávacích nákladov (cenu za mernú jednotku). 
+&lt;LI&gt;Pomocou tlačidla&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_ListButton.png"&gt;&amp;nbsp;vyberte príjemku so skladovými položkami, na ktoré&amp;nbsp;sa majú rozpočítať obstarávacie náklady, a stlačte tlačidlo &lt;EM&gt;&lt;STRONG&gt;OK&lt;/STRONG&gt;&lt;/EM&gt;. 
+&lt;LI&gt;Po uložení&amp;nbsp;príjemky sa na príslušné skladové karty rozpočítajú&amp;nbsp;obstarávacie náklady (hodnota skladu v obstarávacej cene sa zvýši o tieto obstarávacie náklady). &lt;/LI&gt;&lt;/OL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt; 
+&lt;UL&gt;
+&lt;LI&gt;V&amp;nbsp;prípade chybného zadania obstarávacích nákladov (napr. pri zadaní nesprávnej sumy) je možné doklad&amp;nbsp;opraviť (vymazať položku a opätovne vytvoriť novú). Vtedy sa pôvodné rozpočítanie obstarávacích nákladov zruší a vykoná sa opätovný prepočet. 
+&lt;LI&gt;Ak opravujete doklad s obstarávacími nákladmi spätne, odporúčame použiť funkciu &lt;A href="dc54990f-39a8-4a17-b0bf-9b463e6c9303"&gt;Prepočet obstarávacích cien a výnosov&lt;/A&gt; (kniha&amp;nbsp;&lt;A href="1a33ab0b-2df7-4dc2-962b-8a3319c16831"&gt;Skladové karty&lt;/A&gt;, tlačidlo &lt;I&gt;Možnosti&lt;/I&gt;). Vtedy sa v sklade opätovne prepočítajú obstarávacie ceny a výnosy&amp;nbsp;na všetkých skladových kartách daného skladu. &lt;/LI&gt;&lt;/UL&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="a75505aa-d1c3-4ede-bc08-da633c3a420e" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1a33ab0b-2df7-4dc2-962b-8a3319c16831">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="8f10680d-0c69-451f-bdb8-53a6e000eab9" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="c233ada3-0fed-4911-97f3-0680973ebac1">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="1795d9b7-ed8d-408b-b2db-4adf31932b8e" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="efed1882-1614-4406-b57a-3023aee6ba26">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="12d34afa-64ad-49d3-958e-e717c7ae4868" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="62db2271-9ae9-4968-b790-47a07e7c6aef">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="798204d1-0dd9-40d8-9f3d-92553f908762" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="a7e1c27b-e28f-4ae9-b643-16cc1b478212">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="ddb805c0-d528-42c9-98fe-e84101bb22e1" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="fc7595a6-54ce-4aa9-acb4-93d7880e854e">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="d21107d8-1db9-4a48-87f0-0ec67c024a44" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="7417bb5c-568f-4291-bbb9-0e5872ad6299">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="24e1c44c-409e-4e4d-850a-94d682908964" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="dc54990f-39a8-4a17-b0bf-9b463e6c9303">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="bdd6e6b9-6284-4d65-a91e-832fba7846de" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="f427806c-a0f0-4040-90f9-5f35cb60f08b">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="2e4f9d78-dc3b-4495-968f-ba4cd5ae5254">
+      <Keyword m="2023-04-26T07:54:01.3986607Z">Obstarávacie náklady - práca</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

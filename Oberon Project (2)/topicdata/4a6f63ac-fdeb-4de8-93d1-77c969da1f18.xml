@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="4a6f63ac-fdeb-4de8-93d1-77c969da1f18" Status="Complete" CreatedOn="2022-09-22T12:23:29.652987Z" ModifiedOn="2024-05-31T12:36:11.7030041Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="93260" Name="Form_AutomaticTask_EuroSMS" BuildFlags="">
+  <Title m="2022-04-06T13:00:59.1467766Z">Formulár Nastavenie automatickej úlohy 'Sms sender: EuroSMS'</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-05-31T12:36:11.7030041Z">&lt;P&gt;Formulár&amp;nbsp;&lt;EM&gt;Nastavenie automatickej úlohy 'Sms sender: EuroSMS'&lt;/EM&gt; umožňuje nadefinovať nastavenia&amp;nbsp;&lt;A href="9ce25bbd-35d1-4096-acd5-70007f5af5a6"&gt;automatickej úlohy&lt;/A&gt; na &lt;STRONG&gt;posielanie SMS správ v rámci alebo mimo firmy&lt;/STRONG&gt;. Na využitie služby je potrebná registrácia na stránke &lt;A href="http://www.eurosms.com"&gt;www.eurosms.com&lt;/A&gt;. Po zaregistrovaní získate prihlasovacie údaje a integračné údaje potrebné pre odosielanie SMS. Služba je spoplatnená podľa cenníka poskytovateľa.&amp;nbsp;Bližšie informácie získate&amp;nbsp;v témach&amp;nbsp;&lt;A href="cb2b6fc2-5bb6-49e3-8bbf-65463b3f026f"&gt;EuroSMS&lt;/A&gt; a&amp;nbsp;&lt;A href="d4119d75-dd5b-4a1c-b9fa-c982601e0746" style="auto-update-caption: true"&gt;SMS správy&lt;/A&gt;. Formulár je dostupný z programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;, ponuka&amp;nbsp;&lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="9ce25bbd-35d1-4096-acd5-70007f5af5a6"&gt;Automatické úlohy&lt;/A&gt;,&amp;nbsp;tlačidlo &lt;EM&gt;Nový&lt;/EM&gt; - otvorí sa formulár, v&amp;nbsp;ktorom vyberte daný typ automatickej úlohy a&amp;nbsp;stlačte tlačidlo &lt;EM&gt;Nastaviť&lt;/EM&gt;.&lt;/P&gt;&lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;V systéme OBERON&amp;nbsp;je táto&amp;nbsp;automatická úloha z dôvodu kompatibility stále&amp;nbsp;vykonávaná aj v&amp;nbsp;staršom programe &lt;EM&gt;OBERON Center&lt;/EM&gt;, avšak&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;&amp;nbsp;s obmedzenou platnosťou&lt;/SPAN&gt;.&amp;nbsp;Z tohto dôvodu je potrebné automatickú úlohu konfigurovať v&amp;nbsp;programe&amp;nbsp;&lt;A href="09f3dae9-2fb7-490f-97dc-37f60885b398"&gt;OBERON Automation Center&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Popis formulára &lt;EM&gt;Nastavenie automatickej úlohy 'Sms sender: EuroSMS'&lt;/EM&gt;&lt;/H2&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Odosielateľ, integračné ID, integračný kľúč&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Zadávajú sa prihlasovacie a integračné údaje získané na základe registrácie&amp;nbsp;na webovej&amp;nbsp;stránke &lt;A href="http://www.eurosms.com/" target=_blank&gt;www.eurosms.com&lt;/A&gt;.&amp;nbsp;Do poľa &lt;EM&gt;Odosielateľ&lt;/EM&gt; je možné zadať maximálne 15 znakov.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Test odosielania SMS&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Na otestovanie korektného odosielania SMS zadajte mobilné číslo príjemcu, vyplňte text správy a stlačte tlačidlo &lt;EM&gt;Odošli SMS&lt;/EM&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="140bea85-af00-4882-a898-62c11b6935b8" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="fd64c37a-486b-4cdf-a370-297aaa8a8f73">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="5a0b932b-d178-4c44-aa29-d54f8be5815a" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="9ce25bbd-35d1-4096-acd5-70007f5af5a6">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="428ad240-0d18-449a-abb7-1ddce1018eb8" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="af53c105-e266-49b7-a25c-832ac36e4280">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="74d5558c-29e2-4901-9802-61f9a020b76c" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="d4119d75-dd5b-4a1c-b9fa-c982601e0746">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="5ec3b9cf-e56f-4639-8b2c-175910bc64f7" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="811261a5-bffc-4ade-8202-53e489e4fa81">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="9809df6b-5c5b-4299-9252-2d755642b76b">
+      <Keyword m="2015-10-13T08:18:57.9228515Z">Nastavenie eurosms.sk</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="536213f3-b2a9-450f-91ae-ed075fd7d15b">
+      <Keyword m="2021-06-29T08:30:01.8827664Z">SMS notifikácie - nastavenie úlohy</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="2d08b236-4c33-42f4-857c-025089856515">
+      <Keyword m="2023-02-14T14:20:32.4703712Z">Posielanie SMS správ cez EuroSMS</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="5029f2bc-846f-49b6-8269-9f86bc1f6c0a">
+      <Keyword m="2023-02-14T14:25:58.5525221Z">EuroSMS - posielanie SMS správ </Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

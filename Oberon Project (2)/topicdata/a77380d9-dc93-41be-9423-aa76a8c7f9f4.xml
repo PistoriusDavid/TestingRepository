@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="a77380d9-dc93-41be-9423-aa76a8c7f9f4" Status="Complete" CreatedOn="2018-02-23T09:10:59.3160081Z" ModifiedOn="2023-10-02T13:12:45.8097338Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="70620" Name="Menu_Wages_Shift" BuildFlags="">
+  <Title m="2023-08-24T12:21:49.265637Z">Pracovné zmeny</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-10-02T12:46:04.0680606Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;je venovaná&amp;nbsp;položke&amp;nbsp;&lt;EM&gt;Pracovné zmeny&lt;/EM&gt; v ponuke&amp;nbsp;&lt;EM&gt;Mzdy,&amp;nbsp;Dochádzka&lt;/EM&gt;&amp;nbsp;programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Výberom položky sa otvorí&amp;nbsp;číselník&amp;nbsp;&lt;EM&gt;Pracovné zmeny&lt;/EM&gt;, ktorý &lt;STRONG&gt;umožňuje definovať&amp;nbsp;pracovné zmeny&lt;/STRONG&gt; v&amp;nbsp;module&amp;nbsp;&lt;A href="bf009605-0be8-4286-8ef5-4c7d3b89143a"&gt;Mzdy&lt;/A&gt; a&amp;nbsp;&lt;A href="3883342c-9ef0-4fd9-8773-88df84f78f65"&gt;dochádzka&lt;/A&gt;. Podľa&amp;nbsp;&lt;EM&gt;Zákonníka práce&lt;/EM&gt; (zákon č. 311/2001 Z. z.) pracovná zmena predstavuje &lt;EM&gt;„časť ustanoveného týždenného pracovného času, ktorý je zamestnanec povinný na základe vopred určeného rozvrhu pracovných zmien odpracovať v rámci 24 hodín po sebe nasledujúcich a prestávka v práci.“&lt;/EM&gt; Pracovná zmena tak &lt;STRONG&gt;zahŕňa pracovný čas&lt;/STRONG&gt; (napr. 7,5 hodiny) &lt;STRONG&gt;a prestávku v práci&lt;/STRONG&gt; (napr. 30 minút). 
+&lt;LI&gt;Pracovná zmena určuje, &lt;STRONG&gt;kedy začína&amp;nbsp;a&amp;nbsp;ako dlho trvá pracovný čas (pracovná doba)&lt;/STRONG&gt;. Ak má firma pracovníkov, ktorí nastupujú do práce (pracovnej zmeny) v rôznom čase, je potrebné nadefinovať viac&amp;nbsp;pracovných&amp;nbsp;zmien. 
+&lt;LI&gt;Pracovná zmena je súčasťou&amp;nbsp;&lt;A href="0d06308b-64cf-4d51-bc3a-9c262750667d"&gt;pracovného plánu firmy&lt;/A&gt;. Každý pracovný plán obsahuje jednu, prípadne viac&amp;nbsp;pracovných zmien, napr. pracovný plán &lt;EM&gt;Dvojzmenná základná&lt;/EM&gt; obsahuje&amp;nbsp;dve&amp;nbsp;pracovné zmeny&amp;nbsp;- rannú a poobednú. Viac informácií získate v téme&amp;nbsp;&lt;A href="0d06308b-64cf-4d51-bc3a-9c262750667d"&gt;Pracovné plány firmy&lt;/A&gt;. 
+&lt;LI&gt;V&amp;nbsp;číselníku&amp;nbsp;sú &lt;STRONG&gt;základné pracovné&amp;nbsp;zmeny preddefinované&lt;/STRONG&gt; (&lt;EM&gt;Voľno, Ranná, Poobedná, Nočná, Ranná - sobota, Denná 12h, Nočná 12h, Celodenná, Pohotovosť celodenná&lt;/EM&gt;). Ďalšie pracovné zmeny si môže účtovná jednotka&amp;nbsp;&lt;STRONG&gt;podľa potreby&amp;nbsp;ľubovoľne definovať&lt;/STRONG&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Definovať pracovnú zmenu je možné pomocou&amp;nbsp;formulára&amp;nbsp;&lt;EM&gt;Pracovná zmena&lt;/EM&gt; (pozri nižšie).&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H5&gt;Obrázok č. 1: Preddefinovaná pracovná zmena&amp;nbsp;&lt;EM&gt;Ranná&lt;/EM&gt;&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/Attendance/Attendance_ShiftDefinition.png"&gt;&amp;nbsp;&lt;/P&gt;
+&lt;H2&gt;Popis formulára&amp;nbsp;&lt;EM&gt;Pracovná zmena&lt;/EM&gt;&lt;/H2&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Názov&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Zadáva sa názov pracovnej zmeny.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Druh zmeny&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Vzhľadom na to, že pracovné zmeny si môže účtovná jednotka sama definovať,&amp;nbsp;je dôležité mať pri každej pracovnej zmene&amp;nbsp;&lt;STRONG&gt;jednoznačne určené,&lt;/STRONG&gt; &lt;STRONG&gt;k akému druhu&amp;nbsp;pracovnej zmeny prislúcha&lt;/STRONG&gt;. Na základe druhu pracovnej zmeny sa program rozhoduje, ako bude s danou&amp;nbsp;pracovnou zmenou pracovať. Druhy pracovných&amp;nbsp;zmien sú v programe pevne dané a nie je ich možné upravovať: &lt;EM&gt;Odpočinok (voľno), Pracovná zmena, Pohotovosť&lt;/EM&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Čas začiatku&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Zadáva sa čas začiatku pracovnej zmeny.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Dĺžka&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Zadáva sa dĺžka pracovnej zmeny v hodinách. Je to pracovný čas, keď má pracovník pracovať (neobsahuje prestávky).&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Dĺžka prestávky&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Zadáva sa celková dĺžka prestávky&amp;nbsp;v minútach.&amp;nbsp;Pracovník má zo zákona&amp;nbsp;nárok na prestávky, ich dĺžka závisí od dĺžky pracovnej zmeny a dohody medzi zamestnancom a zamestnávateľom. Nastavenie ovplyvňuje výpočet času konca pracovnej zmeny, t. j. kedy má pracovník opustiť pracovisko.&amp;nbsp;V prípade,&amp;nbsp;že sa prestávka má započítať do pracovného času pracovníka, upravte nastavenie priamo v pracovnom pomere pracovníka (&lt;A href="95a3b7e2-6135-4860-a655-5724b186b94c"&gt;formulár Pracovný pomer pracovníka&lt;/A&gt;, záložka &lt;EM&gt;Dochádzka&lt;/EM&gt;).&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Málo (nie často) používaná položka&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Začiarknite, ak sa táto pracovná zmena&amp;nbsp;nepoužíva príliš často - nebude sa zobrazovať&amp;nbsp;v&amp;nbsp;&lt;A href="ce9e15f9-7459-4a5c-8bad-db17ef7b59ea"&gt;Pracovnom kalendári&lt;/A&gt; pri interaktívnej úprave pracovného plánu (v&amp;nbsp;rozbaľovacom zozname so šípkou&amp;nbsp;v&amp;nbsp;pravom hornom rohu formulára).&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Zakázať&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Po začiarknutí tohto poľa&amp;nbsp;pracovnú zmenu nebude možné používať, v systéme však ostane definovaná.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="eae4d45c-ba73-4f60-abd1-711a8e9be0d5" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="d616cd9f-1633-4d2d-b827-b072f162a1c8">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="23858a98-b025-4ab3-9238-a97bd383abec" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="ce9e15f9-7459-4a5c-8bad-db17ef7b59ea">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="41321656-da76-48f7-a5eb-a99bc5060bac" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="0d06308b-64cf-4d51-bc3a-9c262750667d">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="7d3ed546-7e68-4391-92e9-1cc59b50fb09" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="85220d47-fc01-4329-90a7-1b68f5e6e083">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="58368211-f714-4930-84c8-89fa7f36011c" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="a706e5ad-4717-472f-b1a3-9b368ef39aa4">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="a8ab7c6d-9215-4a39-80b5-4ae347b7a387">
+      <Keyword m="2018-06-12T13:16:51.105516Z">Dochádzka</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="cd8b8dd7-4006-4c6b-91b3-20906f98dbdc">
+      <Keyword m="2018-06-12T13:16:56.5347969Z">Evidencia dochádzky</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="b6fbe73c-308b-456a-8ba0-53ddee038ea9">
+      <Keyword m="2018-06-12T13:17:04.2858287Z">Evidencia pracovného času</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="40399571-9e5a-45f0-ad0b-85b9f3bf2d83">
+      <Keyword m="2018-06-12T13:17:09.8547165Z">Prestávka</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

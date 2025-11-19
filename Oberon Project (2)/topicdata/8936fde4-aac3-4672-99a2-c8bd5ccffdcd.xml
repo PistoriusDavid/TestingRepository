@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="8936fde4-aac3-4672-99a2-c8bd5ccffdcd" Status="Complete" CreatedOn="2014-09-04T11:15:54.6198Z" ModifiedOn="2023-11-22T09:31:38.9495817Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="ProgramControls_Books_Control" BuildFlags="">
+  <Title m="2014-09-18T20:55:34.8214754Z">Ovládanie knihy (evidencie)</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-11-22T09:31:38.9495817Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;popisuje &lt;STRONG&gt;ovládacie prvky ľubovoľnej evidencie (knihy)&lt;/STRONG&gt; v systéme OBERON.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Systém&amp;nbsp;&lt;I&gt;OBERON&lt;/I&gt; zobrazuje záznamy &lt;STRONG&gt;spravidla ako tabuľku&lt;/STRONG&gt; (angl. &lt;EM&gt;grid&lt;/EM&gt; - v&amp;nbsp;preklade&amp;nbsp;&lt;I&gt;mriežka, tabuľka&lt;/I&gt;), &lt;STRONG&gt;kde riadky predstavujú jednotlivé záznamy&lt;/STRONG&gt;. Tabuľka je vzhľadovo&amp;nbsp;podobná&amp;nbsp;tabuľkám kalkulátorov, ako je napr. &lt;EM&gt;Microsoft Excel&lt;/EM&gt;. Ak nie je tabuľka prázdna, je vždy jeden riadok tabuľky&amp;nbsp;aktívny -&amp;nbsp;je farebne podsvietený po celej šírke riadku;&amp;nbsp;tento riadok sa nazýva&amp;nbsp;aj &lt;STRONG&gt;aktuálne vybratý záznam&lt;/STRONG&gt;. 
+&lt;LI&gt;Pod pojmom &lt;EM&gt;&lt;STRONG&gt;tabuľka záznamov&lt;/STRONG&gt;&lt;/EM&gt; je možné rozumieť ľubovoľnú evidenciu (knihu) alebo iný zoznam údajov (napr. zoznam skladových kariet). Knihy&amp;nbsp;spravidla predstavujú tabuľky, ktoré majú základ a&amp;nbsp;pôvod v&amp;nbsp;reálnej evidencii, pričom&amp;nbsp;umožňujú zostaviť rôzne tlačové zostavy. Tabuľky, z ktorých nie je možné (potrebné) tlačiť tlačové výstupy, sú pomocné zoznamy údajov (tzv. číselníky), ktoré sa využívajú pri práci s programom. Z praktických dôvodov je ovládanie kníh aj pomocných zoznamov (tabuliek) jednotné. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 1:&amp;nbsp;Kniha pohľadávok&lt;BR&gt;&lt;BR&gt;&lt;IMG border=0 alt="" src="images/BasicInformation/ProgramControls/ProgramControl_Book.PNG"&gt;&lt;/H5&gt;
+&lt;UL&gt;
+&lt;LI&gt;V názve formulára evidencie je zobrazené číslo v zátvorkách - číslo zobrazuje aktuálny počet vybraných (načítaných) záznamov v knihe. 
+&lt;LI&gt;Niektoré evidencie (knihy) zobrazujú v spodnej časti tabuľky záznamov tzv. &lt;STRONG&gt;súčtový riadok&lt;/STRONG&gt; - hodnoty sú sčítané, prípadne je zobrazená najmenšia a najväčšia hodnota. 
+&lt;LI&gt;Na spodnom okraji každej knihy sa nachádzajú tlačidlá, pomocou ktorých je možné s&amp;nbsp;evidenciou pracovať. &amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Tlačidlá v spodnej časti formulára&lt;/H2&gt;
+&lt;P&gt;Na spracovanie údajov v tabuľke slúžia tlačidlá umiestnené v spodnej časti knihy (evidencie). Pomocou nich je napr. možné do knihy pridávať nové záznamy, opravovať zapísané záznamy, prípadne záznamy vymazávať.&amp;nbsp;Najčastejšie tlačidlá v&amp;nbsp;spodnej časti formulára:&lt;/P&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Vlastnosti&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Po stlačení tlačidla sa zobrazí formulár&amp;nbsp;&lt;A href="124da68e-c3f0-43e4-9466-60b4916bfc41"&gt;Vlastnosti&lt;/A&gt;, ktorý umožňuje pomocou&amp;nbsp;&lt;A href="1ea156c6-edd0-46e0-ab65-7f41af30e672"&gt;filtrov&lt;/A&gt; vybrať záznamy knihy, ktoré budú aktuálne zobrazené, obmedziť načítanie príliš veľkého počtu záznamov a nastaviť východiskové triedenie záznamov v zozname a vzhľad zobrazenia údajov.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Tlač&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Zobrazí zoznam&amp;nbsp;&lt;A href="66ed476e-d5ea-4e46-a758-a3f190a60a7c"&gt;tlačových výstupov&lt;/A&gt; prislúchajúcich k danej knihe. Väčšina tlačových výstupov reaguje na nastavené filtrovacie podmienky vo vlastnostiach zobrazenia knihy a predstavuje tak veľmi mocný nástroj na získanie súčtu alebo rekapitulácie len pre aktuálne odfiltrované záznamy z&amp;nbsp;danej knihy.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Možnosti&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Poskytuje zoznam nástrojov so špeciálnymi možnosťami, ktoré môžu hromadne modifikovať alebo iným spôsobom ovplyvňovať záznamy príslušnej knihy, exportovať alebo importovať záznamy alebo umožniť komunikáciu knihy s&amp;nbsp;externými zariadeniami.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Nový&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Otvorí&amp;nbsp;formulár&amp;nbsp;na pridanie nového záznamu do knihy. Ak kniha&amp;nbsp;neobsahuje tlačidlo &lt;I&gt;Nový&lt;/I&gt;, záznamy v knihe program tvorí&amp;nbsp;automaticky.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Oprava&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Otvorí formulár, do ktorého sa načítajú údaje aktuálne vybraného záznamu, aby ich bolo možné opraviť. Ak sú polia so zobrazenými údajmi neaktívne, údaje možno len prezerať. Vtedy titulkový pruh formulára zobrazuje informáciu, prečo záznam nemožno opraviť.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Vymazať&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Umožňuje nevratne vymazať aktuálne vybraný záznam. OBERON môže odmietnuť vymazanie záznamu. V takom prípade poskytne informáciu, prečo nemožno záznam vymazať, prípadne čo treba urobiť, aby záznam bolo možné vymazať.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Hlavička tabuľky&lt;/H2&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/BasicInformation/ProgramControls/OvladanieTabulkyZaznamov/hlavicka_zoznamu.JPG"&gt;&lt;/P&gt;
+&lt;P&gt;Hlavička tabuľky&amp;nbsp;obsahuje zoznam názvov polí (stĺpcov) tabuľky. Na pravej strane bunky v hlavičke tabuľky sú zobrazené symboly smeru triedenia a priority triedenia pre jednotlivé polia. Zapnúť/prepnúť triedenie podľa poľa a&amp;nbsp;prepnúť prioritu triedenia je možné kliknutím na názov poľa. Napr. zoznam na obrázku je triedený podľa názvu vzostupne (od A do Z). Ak je názov zhodný, zoznam sa&amp;nbsp;triedi podľa&amp;nbsp;kódu položky&amp;nbsp;taktiež vzostupne (od 00000 do 99999).&lt;/P&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt; 
+&lt;P&gt;&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Trojuholník v rohu bunky&lt;/STRONG&gt; symbolizuje &lt;I&gt;&lt;STRONG&gt;aktívnu bunku&lt;/STRONG&gt;&lt;/I&gt;. Dvojklik na túto bunku vykoná akciu súvisiacu s danou bunkou. Napr. ak&amp;nbsp;je trojuholník v bunke &lt;I&gt;Množstvo&lt;/I&gt;, po dvojkliku na bunku sa zobrazí kniha &lt;I&gt;Skladové pohyby&lt;/I&gt; danej skladovej karty. 
+&lt;LI&gt;Pri dvojkliku na &lt;STRONG&gt;bunku s kancelárskou sponou&lt;/STRONG&gt; sa&amp;nbsp;zobrazia&amp;nbsp;&lt;A href="79eb5ae4-3bae-4a0c-be52-69c1ed8e59e5"&gt;Prílohy&lt;/A&gt; pripojené k&amp;nbsp;danému záznamu, resp.&amp;nbsp;&lt;I&gt;Dokumenty a obrázky&lt;/I&gt; pripojené k danej skladovej karte. 
+&lt;LI&gt;Dvojklik na neaktívnu bunku spravidla spustí opravu záznamu alebo nevykoná žiadnu akciu. &lt;/LI&gt;&lt;/UL&gt;
+&lt;P&gt;&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Panel&amp;nbsp;na rýchle hľadanie&lt;/H2&gt;&lt;IMG border=0 alt="" src="images/BasicInformation/ProgramControls/ProgramControls_QuickSearch.png"&gt; 
+&lt;P&gt;Pomocou panela je možné rýchle hľadanie v tabuľke záznamov podľa zvolenej podmienky. V ľavom rozbaľovacom zozname vyberte pole, v ktorom budete vyhľadávať (operand). Pole vyberte myšou alebo klávesovou skratkou &lt;B&gt;ALT&lt;SPAN lang=sk&gt;&amp;nbsp;&lt;/SPAN&gt;+&lt;SPAN lang=sk&gt;&amp;nbsp;&lt;/SPAN&gt;podčiarknuté&lt;SPAN lang=sk&gt;&amp;nbsp;&lt;/SPAN&gt;písmeno&lt;/B&gt; v názve poľa v hlavičke tabuľky (na podčiarknutie písmen stlačte kláves &lt;EM&gt;Alt&lt;/EM&gt;). V prostrednom rozbaľovacom zozname zvoľte podmienku vyhľadávania. Do pravého rozbaľovacieho zoznamu napíšte (prípadne vyberte) hľadanú hodnotu/text. Ak je rýchle hľadanie nastavené správne, môžete hľadaný text písať okamžite po otvorení tabuľky. Na ľavej strane panela sa nachádza tlačidlo &lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_Button_RedCross.png"&gt; na zrušenie rýchleho hľadania.&lt;/P&gt;
+&lt;H2&gt;Panel nástrojovej lišty&lt;/H2&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/BasicInformation/ProgramControls/ProgramControls_ToolBar.PNG"&gt;&lt;/P&gt;
+&lt;P&gt;Panel nástrojovej lišty umožňuje rýchly prístup k vybraným možnostiam danej evidencie, tlačovým výstupom, ponukám programu či aplikáciám, a to pridaním príslušného tlačidla na rýchle spustenie.&lt;/P&gt;
+&lt;P&gt;Položka nástrojovej lišty môže byť rôzneho typu:&lt;/P&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Položka možností&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Do panela nástrojovej lišty sa pridá položka dostupná&amp;nbsp;po stlačení tlačidla &lt;EM&gt;Možnosti&lt;/EM&gt;. Položku je možné pomenovať či zmeniť jej&amp;nbsp;farbu.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Tlačový výstup&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Do panela nástrojovej lišty sa pridá položka dostupná&amp;nbsp;po stlačení tlačidla &lt;EM&gt;Tlač&lt;/EM&gt; (napr. tlač faktúry na konkrétnej tlačiarni). Položku je možné pomenovať, pridať k&amp;nbsp;nej obrázok či zmeniť jej farbu.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Aplikácia&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Do panela nástrojovej lišty sa pridá aplikácia (&lt;EM&gt;Kalkulačka&lt;/EM&gt;, &lt;EM&gt;Poznámkový blok&lt;/EM&gt;), prípadne si&amp;nbsp;možno navoliť&amp;nbsp;iný program. &lt;EM&gt;Poznámkový blok&lt;/EM&gt; je možné spúšťať vždy nový alebo sa bude spúšťať vždy ten istý súbor&amp;nbsp;poznámkového bloku.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Oddeľovač položiek&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Oddeľovač položiek oddelí položky. Oddeľovač možno umiestniť na požadované miesto pomocou&amp;nbsp;&lt;A href="38489850-ab82-41b6-b258-3fa613ed5861"&gt;panela na zmenu poradia položiek zoznamu&lt;/A&gt;&amp;nbsp;(modrých šípok)&amp;nbsp;v&amp;nbsp;pravej časti formulára.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;P&gt;Pridať položku do panela nástrojovej lišty je možné po stlačení tlačidla&amp;nbsp;&lt;IMG border=0 alt="" src="images/BasicInformation/ProgramControls/OvladanieTabulkyZaznamov/ProgramControl_Button_Toolobar.PNG"&gt; - otvorí sa formulár&amp;nbsp;&lt;EM&gt;Zoznam položiek nástrojovej lišty&lt;/EM&gt;, v ktorom stlačte tlačidlo &lt;EM&gt;Nový&lt;/EM&gt;. Pridať položku tlačového výstupu do panela nástrojovej lišty možno aj po stlačení tlačidla &lt;EM&gt;Tlač&lt;/EM&gt; a&amp;nbsp;následne pravého tlačidla myši&amp;nbsp;na danom tlačovom výstupe vo&amp;nbsp;&lt;A href="2bac8d21-6ae0-44e4-8b2e-403ac2f25955"&gt;formulári Tlačové výstupy&lt;/A&gt;.&lt;/P&gt;
+&lt;P&gt;Nastavenia panela nástrojovej lišty sú dostupné po stlačení pravého tlačidla myši na panel nástrojovej lišty. Výberom možnosti &lt;EM&gt;Upraviť&lt;/EM&gt; sa zobrazí formulár &lt;EM&gt;Zoznam položiek nástrojovej lišty&lt;/EM&gt; na pridanie, resp. opravu položiek panela.&lt;/P&gt;
+&lt;P&gt;Panel nástrojovej lišty je možné aj&amp;nbsp;prevziať od iného používateľa, a&amp;nbsp;to:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;len v tejto evidencii&lt;/STRONG&gt; - prevezmú sa&amp;nbsp;položky nastavené daným používateľom len v&amp;nbsp;otvorenej evidencii, 
+&lt;LI&gt;&lt;STRONG&gt;zo všetkých evidencií&lt;/STRONG&gt; - prevezmú sa&amp;nbsp;položky nastavené daným používateľom vo všetkých evidenciách. &lt;/LI&gt;&lt;/UL&gt;
+&lt;P&gt;Obnovením pôvodných nastavení sa zobrazia len&amp;nbsp;predvolené položky.&amp;nbsp;&amp;nbsp;&lt;/P&gt;
+&lt;H2&gt;Úprava usporiadania a šírky stĺpcov tabuľky&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Šírku jednotlivých stĺpcov knihy je možné nastaviť pomocou myši. Program si zmenu zapamätá a pri opätovnom zobrazení knihy nastaví zvolenú šírku. Zmeniť šírku stĺpca je možné&amp;nbsp;takto:&lt;BR&gt;Kurzor myši umiestnite do záhlavia tabuľky na čiaru oddeľujúcu stĺpce, ktorú chcete posúvať. Keď sa zmení tvar kurzora na dvojitú&amp;nbsp;šípku, stlačte ľavé tlačidlo myši, držte ho stlačené a posúvajte myš po podložke. Po premiestnení čiary oddeľujúcej stĺpce do požadovanej polohy uvoľnite tlačidlo myši. 
+&lt;LI&gt;Pomocou myši je tiež možné&amp;nbsp;meniť poradie stĺpcov, resp. presunúť stĺpec na iné miesto v zozname. Ľavým tlačidlom myši jednoducho uchopte stĺpec a posuňte ho na pravú alebo ľavú stranu a&amp;nbsp;program vám automaticky ponúkne najbližšie umiestnenie. Presunúť stĺpec je možné aj pomocou kontextovej ponuky. Kliknite pravým tlačidlom myši na hlavičku stĺpca alebo aj na údaje. V&amp;nbsp;kontextovej ponuke vyberte možnosť &lt;EM&gt;Stĺpec&lt;/EM&gt;. Ten obsahuje možnosti &lt;EM&gt;Posunúť na začiatok. vľavo, vpravo,&amp;nbsp;na koniec&lt;/EM&gt; a možnosť &lt;EM&gt;Obnoviť pôvodné nastavenia stĺpcov&lt;/EM&gt;. 
+&lt;LI&gt;V grafických prehľadoch je možné zmenu šírky stĺpcov nastaviť pomocou klávesovej skratky &lt;EM&gt;Ctrl + koliesko myši&lt;/EM&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;V niektorých knihách a tabuľkách záznamov (napr. zoznam skladových kariet pri výbere položky v &lt;EM&gt;Pokladnici OBERON&lt;/EM&gt;) sa môžu vyskytovať neaktualizované údaje (napr.&amp;nbsp;z dôvodu práce viacerých používateľov s databázou), ktoré môžete aktualizovať klávesom F5.&amp;nbsp;Bližšie informácie o použitých klávesoch a klávesových skratkách na ovládanie knihy (tabuľky) nájdete v&amp;nbsp;téme&amp;nbsp;&lt;A href="6a6f2a40-680f-4f3b-906a-5030ac5cd33d"&gt;Klávesové skratky&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt; 
+&lt;P&gt;&lt;B&gt;Videonávody&lt;/B&gt;&lt;/P&gt;
+&lt;P&gt;K téme sú spracované videonávody&amp;nbsp;&lt;A href="https://exalogic.sk/na-stiahnutie-oberon/pouzivanie-filtrov/" target=_blank&gt;Používanie filtrov&lt;/A&gt; a&amp;nbsp;&lt;A href="https://exalogic.sk/na-stiahnutie-oberon/ovladanie-programu/" target=_blank&gt;Ovládanie programu&lt;/A&gt;. Všetky videonávody&amp;nbsp;sú k&amp;nbsp;dispozícii&amp;nbsp;na stránke&amp;nbsp;&lt;A href="http://www.exalogic.sk/"&gt;www.exalogic.sk&lt;/A&gt; v&amp;nbsp;sekcii &lt;EM&gt;Na stiahnutie,&amp;nbsp;&lt;/EM&gt;&lt;A href="https://exalogic.sk/na-stiahnutie/oberon-agenda-firmy/video-navody-na-stiahnutie/" target=_blank&gt;Videonávody&lt;/A&gt;.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="c9c8a44b-ff35-4cea-81e2-f6815d88e7b1" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="38489850-ab82-41b6-b258-3fa613ed5861">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="64f591d3-9e36-470e-a35e-b98a6fdf1fa7" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="6a6f2a40-680f-4f3b-906a-5030ac5cd33d">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="468ac284-bf54-45a2-8858-50db118541e5" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="1ea156c6-edd0-46e0-ab65-7f41af30e672">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="c2f188a0-9343-4d35-b275-d153b1f10ef0" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="9c6e329d-63e2-486a-8e46-f953cff24559">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="5f83f8c3-446f-4fc5-af12-81ccce74bd87">
+      <Keyword m="2014-11-20T07:41:18.4257812Z">Tabuľka záznamov</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="5d62f559-4f4d-42eb-ad04-d04b07b37dbe">
+      <Keyword m="2021-03-25T13:11:31.42515Z">Evidencia (kniha, agenda) - ovládanie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="b3b12329-0c54-4cfc-a044-24e4b2b5cfe2">
+      <Keyword m="2022-12-14T13:47:22.1726451Z">Súčtový riadok</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="04ebdb0c-dbeb-4f1b-b9b5-7cf5ec3c55b6">
+      <Keyword m="2022-12-14T13:48:32.1739674Z">Hlavička tabuľky</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="d1d5457f-6832-4664-ad87-1485731eeb5e">
+      <Keyword m="2022-12-14T13:48:44.7221145Z">Trojuholník v rohu bunky</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="d5cabc9a-8e3b-4465-b5d2-377394f83627">
+      <Keyword m="2022-12-14T13:48:49.7126359Z">Aktívna bunka</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="73280a35-a502-4c77-9483-dd87c4f3e96b">
+      <Keyword m="2022-12-14T13:49:17.5320263Z">Podčiarknuté písmeno</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="124f301a-16e6-455f-8dbb-5ac544364c7c">
+      <Keyword m="2022-12-14T13:49:29.3916165Z">Panel nástrojovej lišty</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="479fb1a9-f6cc-45ef-b0b5-c5c4d0e2ca57">
+      <Keyword m="2022-12-14T13:50:14.3336011Z">Panel na rýchle hľadanie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="49371907-bd75-4256-a1b2-ac7fad5c0b68">
+      <Keyword m="2022-12-14T13:50:40.2250616Z">Úprava usporiadania a šírky stĺpcov tabuľky</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="f1ded5fb-05d6-4879-9936-dca879738788">
+      <Keyword m="2022-12-14T13:50:53.725709Z">Šírka stĺpcov tabuľky</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

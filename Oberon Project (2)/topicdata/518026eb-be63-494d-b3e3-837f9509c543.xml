@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="518026eb-be63-494d-b3e3-837f9509c543" Status="Complete" CreatedOn="2019-09-02T11:40:25.1326683Z" ModifiedOn="2024-07-08T10:19:53.2331699Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Device_Barcode_Scanner_QeeRskener" BuildFlags="">
+  <Title m="2019-09-09T06:21:04.7602562Z">QeeR skener</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-07-08T10:19:46.3377426Z">&lt;SPAN lang=en id=result_box class=short_text xml:lang="en"&gt;&lt;SPAN lang=en id=result_box xml:lang="en"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;
+&lt;P&gt;&lt;SPAN lang=en id=result_box class=short_text xml:lang="en"&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; je venovaná jednému z&amp;nbsp;&lt;A href="c23e6100-7028-47b3-952a-f43fbf6ee5c6"&gt;mobilných riešení&lt;/A&gt; a&amp;nbsp;&lt;A href="3f051fd3-9727-4ecc-9613-7a7fb1cb2a54"&gt;pripojiteľných zariadení&lt;/A&gt; v&amp;nbsp;systéme OBERON&amp;nbsp;-&amp;nbsp;softvérovému&amp;nbsp;&lt;A href="80a78093-fc45-4db9-b74b-e1f9829f7b3c"&gt;snímaču&lt;/A&gt; QR kódov&amp;nbsp;&lt;STRONG&gt;QeeR skener&lt;/STRONG&gt; určenému pre mobilné zariadenia s operačným systémom &lt;EM&gt;Android&lt;/EM&gt;&amp;nbsp;a &lt;EM&gt;iOS&lt;/EM&gt; (smartfóny, tablety, iPhony, iPady).&lt;/SPAN&gt;&lt;/P&gt;
+&lt;H2&gt;&lt;SPAN lang=en class=short_text xml:lang="en"&gt;&lt;SPAN lang=en xml:lang="en"&gt;Základné informácie&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;EM&gt;QeeR skener&lt;/EM&gt;&amp;nbsp;predstavuje&amp;nbsp;softvérový&amp;nbsp;&lt;A href="80a78093-fc45-4db9-b74b-e1f9829f7b3c"&gt;snímač&lt;/A&gt; QR kódov.&amp;nbsp;Je určený pre mobilné zariadenia s operačným systémom &lt;EM&gt;Android&lt;/EM&gt; od verzie&amp;nbsp;5.1&amp;nbsp;a &lt;EM&gt;iOS&lt;/EM&gt; od verzie 8.0 a&amp;nbsp;možno&amp;nbsp;ho používať výhradne&amp;nbsp;so systémom OBERON. 
+&lt;LI&gt;Aplikácia je &lt;STRONG&gt;bezplatná&lt;/STRONG&gt; a&amp;nbsp;možno ju&amp;nbsp;využiť na skenovanie QR kódov na pokladničných dokladoch na ich&amp;nbsp;zaúčtovanie do&amp;nbsp;&lt;A href="5e82cca9-b8af-4a80-ba30-7ab91914a595"&gt;peňažného&lt;/A&gt;/&lt;A href="d8c9bfc8-92d1-4471-8909-e5f8ce602d6c"&gt;účtovného denníka&lt;/A&gt; v module &lt;EM&gt;Účtovníctvo&lt;/EM&gt;. Viac informácií nájdete v&amp;nbsp;téme&amp;nbsp;&lt;A href="cf9e27af-d4c5-4b0c-9b37-78cfa72b9abd" style="auto-update-caption: true"&gt;Automatické účtovanie pokladničných dokladov&lt;/A&gt;. 
+&lt;LI&gt;Ďalším&amp;nbsp;spôsobom využitia je&amp;nbsp;nasnímanie QR kódu pri&amp;nbsp;&lt;A href="9abefb3a-4c7f-4c93-bc46-883d2e85d910"&gt;vrátení tovaru (storne)&lt;/A&gt; v&amp;nbsp;&lt;A href="aec074f4-3e1c-4a1e-8a80-06fcecf51156"&gt;Pokladnici OBERON&lt;/A&gt;&amp;nbsp;na načítanie UID, resp. OKP dokladu (v záložke &lt;EM&gt;Iné údaje dokladu&lt;/EM&gt;), prípadne iné spôsoby využitia.&amp;nbsp;Viac informácií je možné získať v téme&amp;nbsp;&lt;A href="86ce651c-2637-4165-93b4-36535a700fbf"&gt;Práca s čiarovými kódmi&lt;/A&gt;. 
+&lt;LI&gt;Predpokladom použitia softvérového snímača v OBERON-e je jeho pridanie medzi snímače čiarových kódov (v&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="749ff4f1-eeb5-43f5-98d2-021399d8cec7"&gt;Zariadenia&lt;/A&gt;). V prípade účtovania pre viaceré firmy je potrebné zariadenie (snímač čiarových kódov s podporou QR kódov alebo QR skener) &lt;STRONG&gt;pridať do každej firmy zvlášť&lt;/STRONG&gt;. Viac informácií v téme&amp;nbsp;&lt;A href="84f513e6-b158-4719-9008-729f2ba0dc66"&gt;QeeR skener - inštalácia&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 1: Titulná obrazovka aplikácie&lt;/H5&gt;
+&lt;P&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;IMG border=0 alt="" src="images/Devices/Device_QeeRskener_MainScreen.png"&gt;&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="03fb5f56-30c0-4c19-972c-302d1edebd8e" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="c23e6100-7028-47b3-952a-f43fbf6ee5c6">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="003abe1d-52a7-4d70-8629-c585ca370b45" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="3f051fd3-9727-4ecc-9613-7a7fb1cb2a54">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="7448ec59-0851-45c9-95b3-2ed191e0d66f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="80a78093-fc45-4db9-b74b-e1f9829f7b3c">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="7f1c6684-2aa2-47a6-818f-bfbe7520c5be" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="84f513e6-b158-4719-9008-729f2ba0dc66">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="4edfaf04-966b-4658-90db-28feb0666e26" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="cf9e27af-d4c5-4b0c-9b37-78cfa72b9abd">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="8860c279-1bd0-43c6-a94f-7eced29c359b" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="9abefb3a-4c7f-4c93-bc46-883d2e85d910">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="0fd35456-c74c-4996-a050-f617815649a1">
+      <Keyword m="2019-09-13T06:22:06.4769579Z">QeeR skener</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="f84c47a6-1e5b-4f06-82d6-3cb685f65a93">
+      <Keyword m="2021-05-12T08:03:42.4473519Z">QR kódy - QeeR skener</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="a6ce48c7-1ee0-45f7-b9cf-a5aff0fe8996">
+      <Keyword m="2021-05-12T08:03:24.5967837Z">Snímač QR kódov QeeR skener</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="75ba6a72-2f4d-4d1d-97ba-9695a575a1a4">
+      <Keyword m="2019-10-04T11:28:25.8746403Z">Skener QeeR</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="f5eaa421-1c3d-450a-8363-ab3fa8460f1b">
+      <Keyword m="2021-05-12T08:04:50.4382415Z">Softvérový snímač QeeR skener </Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

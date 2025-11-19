@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="77f4529f-a73f-4a6d-b4fe-02d338cbdafa" Status="Complete" CreatedOn="2018-07-23T06:37:53.9210856Z" ModifiedOn="2023-09-25T06:05:35.3824504Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="70410" Name="Menu_Wages_Present_Employee" BuildFlags="">
+  <Title m="2018-07-23T06:38:42.5726772Z">Prítomní pracovníci</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-09-25T06:05:35.3824504Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;je venovaná&amp;nbsp;položke&amp;nbsp;&lt;EM&gt;Prítomní pracovníci&lt;/EM&gt; v ponuke&amp;nbsp;&lt;EM&gt;Mzdy&lt;/EM&gt;&amp;nbsp;programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&amp;nbsp;&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Výberom položky sa otvorí&amp;nbsp;formulár &lt;EM&gt;Prítomní pracovníci&lt;/EM&gt;, ktorý&amp;nbsp;&lt;STRONG&gt;zobrazuje aktuálny prehľad prítomných pracovníkov na pracovisku&lt;/STRONG&gt;. Okrem toho je možné zistiť, ktorý pracovník&amp;nbsp;je neprítomný (a aj&amp;nbsp;z akého dôvodu). Prehľad sa zostavuje na základe pracovného kalendára (plánu, kto má pracovať) a evidencie príchodov a&amp;nbsp;odchodov (tie sa zaznamenávajú automaticky&amp;nbsp;&lt;A href="f46f3a8f-ba04-4359-ba99-dc6caeeba021"&gt;dochádzkovým terminálom&lt;/A&gt;). 
+&lt;LI&gt;Prehľad prítomných pracovníkov je možné zostaviť aj spätne ku konkrétnemu dátumu a času -&amp;nbsp;týmto je možné jednoducho a rýchlo zistiť, ktorí pracovníci boli v danom čase na pracovisku. 
+&lt;LI&gt;V&amp;nbsp;prípade používania &lt;A href="8df798f2-4fbf-4279-ad8c-493bdbe7f2e4"&gt;prevádzok&lt;/A&gt;&amp;nbsp;možno jednotlivých pracovníkov&amp;nbsp;&lt;STRONG&gt;zobraziť podľa príslušnosti&amp;nbsp;k prevádzke&lt;/STRONG&gt;.&amp;nbsp;Možno tak urobiť pomocou filtra&amp;nbsp;&lt;EM&gt;Prevádzka&lt;/EM&gt; v&amp;nbsp;hornej časti formulára.&amp;nbsp;Zoznam dostupných prevádzok (definujú sa v ponuke &lt;EM&gt;Firma&lt;/EM&gt;,&amp;nbsp;&lt;A href="a833ee8a-1289-42b9-923f-80f549497702"&gt;Údaje o firme&lt;/A&gt;)&amp;nbsp;je možné v prípade potreby obmedziť pomocou&amp;nbsp;&lt;A href="834e9546-a56b-476f-9028-ef4c24a82345"&gt;používateľských práv&lt;/A&gt;. 
+&lt;LI&gt;OBERON umožňuje automatické upozorňovanie na meškajúcich pracovníkov formou e-mailovej alebo SMS správy zodpovednej osobe, viac informácií je možné získať v téme&amp;nbsp;&lt;A href="7eb22e77-fa37-4bce-a53a-4d6382202041" style="auto-update-caption: true"&gt;Notifikácie o meškajúcich pracovníkoch&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 1: Formulár &lt;EM&gt;Prítomní pracovníci&lt;/EM&gt;&amp;nbsp;&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/Attendance/Form_Attendance_PritomniPracovnici2.png"&gt;&amp;nbsp;&lt;/P&gt;
+&lt;H2&gt;Ďalšie informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Na zvýšenie&amp;nbsp;prehľadnosti&amp;nbsp;je v ľavom paneli oddelenom &lt;A href="38489850-ab82-41b6-b258-3fa613ed5861"&gt;rozdeľovacou lištou&lt;/A&gt;&amp;nbsp;k dispozícii &lt;STRONG&gt;vstavaný filter&lt;/STRONG&gt;, pomocou ktorého možno jednotlivých pracovníkov členiť podľa pracovísk. 
+&lt;LI&gt;Okrem toho je možné využiť aj ďalší filter obsahujúci nasledujúce položky:
+&lt;UL&gt;
+&lt;LI&gt;&lt;EM&gt;&lt;STRONG&gt;Všetci -&lt;/STRONG&gt;&lt;/EM&gt; zobrazovať sa budú všetci pracovníci,
+&lt;LI&gt;&lt;EM&gt;&lt;STRONG&gt;Len prítomní -&amp;nbsp;&lt;/STRONG&gt;&lt;/EM&gt;zobrazuje len prítomných pracovníkov,
+&lt;LI&gt;&lt;EM&gt;&lt;STRONG&gt;Len neprítomní&lt;/STRONG&gt; -&lt;/EM&gt; zobrazuje pracovníkov, ktorí mali podľa pracovného plánu pracovať,&amp;nbsp;z určitého dôvodu však nepracujú (čerpanie dovolenky,&amp;nbsp;choroba, absencia),
+&lt;LI&gt;&lt;EM&gt;&lt;STRONG&gt;Len oneskorený príchod&lt;/STRONG&gt; -&lt;/EM&gt; zobrazuje pracovníkov, ktorí prišli po začiatku pracovnej zmeny, príchod&amp;nbsp;sa zobrazuje &lt;STRONG style="COLOR: rgb(255,0,0)"&gt;červenou farbou&lt;/STRONG&gt;.&lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Popis možných stavov&lt;/H2&gt;
+&lt;TABLE style="HEIGHT: 146px; WIDTH: 70%"&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TD&gt;&lt;IMG border=0 alt="" src="images/Attendance/Attendance_Green.png"&gt;&lt;/TD&gt;
+&lt;TD&gt;Pracovník je prítomný na pracovisku.&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD&gt;&lt;IMG border=0 alt="" src="images/Attendance/Attendance_Orange.png"&gt;&lt;/TD&gt;
+&lt;TD&gt;Pracovník pracuje (na začiatku pracovnej zmeny nastúpil do práce), ale nemusí byť na pracovisku, napr. prestávka,&amp;nbsp;služobný odchod a pod.&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD&gt;&lt;IMG border=0 alt="" src="images/Attendance/Attendance_Red.png"&gt;&lt;/TD&gt;
+&lt;TD&gt;Pracovník&amp;nbsp;nie je na pracovisku (nie je evidovaný&amp;nbsp;príchod) - podľa pracovného plánu by mal pracovník pracovať.&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD&gt;&lt;IMG border=0 alt="" src="images/Attendance/Attendance_Grey.png"&gt;&lt;/TD&gt;
+&lt;TD&gt;Pracovník nemá pracovať (v pracovnom pláne nemá pracovnú zmenu), prípadne má nahlásenú neprítomnosť (dovolenka, PV, OČR a pod).&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;
+&lt;H2&gt;Ďalšie možnosti evidencie&lt;/H2&gt;
+&lt;P&gt;Ďalšie možnosti práce so záznamami sú dostupné&amp;nbsp;po stlačení tlačidla &lt;EM&gt;Možnosti&lt;/EM&gt;, prípadne v kontextovej ponuke tabuľky záznamov.&lt;/P&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Zobraziť príchody a odchody&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Funkcia zobrazí&amp;nbsp;&lt;A href="4a82f3bd-3c2b-4ab4-91f7-df0fa039cd5c"&gt;príchody a odchody&lt;/A&gt; (z dochádzkového terminálu)&amp;nbsp;aktuálne vybraného pracovníka v aktuálnom mesiaci.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="de99f61a-ab45-490a-ab11-34b15d400c0f" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="4a82f3bd-3c2b-4ab4-91f7-df0fa039cd5c">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="ad898a24-6e4a-482c-bad8-cf38d2afec10" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="f46f3a8f-ba04-4359-ba99-dc6caeeba021">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="b7294b10-d1fa-48e6-a67d-7a7e8dd4fb4a" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="28ad3f59-16f3-4162-a0a6-387778cbc7c3">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="9719c77e-5c9e-4c78-86b6-44828173179b" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="7eb22e77-fa37-4bce-a53a-4d6382202041">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="f85d95b5-f94a-47b1-b6af-a21d938b7962">
+      <Keyword m="2023-08-30T07:49:43.9873526Z">Prehľad prítomných pracovníkov na pracovisku</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="84674d49-a99c-40bf-a639-596f501f9948">
+      <Keyword m="2023-08-30T07:50:20.4637401Z">Neprítomní pracovníci</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="3a2bd452-dbe3-428a-a458-cad4eb73d5fe">
+      <Keyword m="2023-08-30T07:50:27.5992743Z">Meškajúci pracovníci</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

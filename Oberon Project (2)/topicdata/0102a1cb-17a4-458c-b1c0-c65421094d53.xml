@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="0102a1cb-17a4-458c-b1c0-c65421094d53" Status="Complete" CreatedOn="2014-10-29T10:49:36.5612432Z" ModifiedOn="2024-07-09T07:54:18.1646764Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="FAQ_List_OBERON" BuildFlags="">
+  <Title m="2022-12-07T14:13:37.2714174Z">Najčastejšie kladené otázky - všeobecne o systéme OBERON</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-07-09T07:54:18.1646764Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje zoznam najčastejšie kladených otázok k systému OBERON všeobecne (čo je OBERON, inštalácia,&amp;nbsp;databázové systémy a pod.).&lt;/P&gt;
+&lt;H2&gt;Otázky&lt;/H2&gt;&lt;A href="16ffb76f-46f2-42c7-a060-091fa178b272"&gt;&lt;/A&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;A href="ff101cdb-97bb-4962-b99a-6347d95ff311"&gt;Čo je to systém OBERON?&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="d7884189-d893-43c0-8e6a-cfad14d790c1"&gt;Akú má systém OBERON štruktúru?&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="efb93a2c-e449-4770-88ba-0fe999e90ccd"&gt;Aká je cena OBERON-u?&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="644b0685-defe-4ce5-b3cd-e731b5eff299"&gt;Aké sú rozdiely medzi jednotlivými typmi licencií (Mini, Štandard a Profi)?&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="b3576a4b-0cf7-4032-bc13-35a363dd611a"&gt;Na akú podporu k systému OBERON mám nárok v rámci licencie?&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="b117e4ac-71e5-46fe-9ddd-d309e8415a85"&gt;Poskytuje sa k systému OBERON školenie, prípadne ďalšie služby?&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="76d1c33f-06b5-4bb9-8a39-9635b68da1b4"&gt;Ako mám požiadať o vzdialenú pomoc?&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="93f31314-1503-41b9-a8f1-f477de367a39"&gt;Aké sú možnosti použitia OBERON-u?&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="49208c26-7930-4363-9fab-977662e2e8cc"&gt;Ako mám postupovať, keď si chcem objednať OBERON?&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="19a10c98-2b1d-4fe1-8ab2-98921ab328be"&gt;Ako mám nainštalovať OBERON?&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="9a485893-6dd2-44e8-9740-a4cd7083a932"&gt;Ako vytvorím účtovnú jednotku (firmu) v OBERON-e?&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="8df798f2-4fbf-4279-ad8c-493bdbe7f2e4"&gt;Ako mám postupovať v prípade, že sa moja firma člení na prevádzky?&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="f68687b5-0939-447b-9f8e-37c883676f1e"&gt;Ako&amp;nbsp;vytvorím členenie dokladov pre moju firmu?&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="5020b29b-b6e5-48bb-bfc6-800d68d5b8e9"&gt;Aké sú možnosti exportu a importu v OBERON-e?&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="04d2db16-08ec-459e-b5c9-71dd3a9f9e2f"&gt;Môžem používať OBERON aj v cudzích jazykoch?&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="f6c9b9bf-bd79-4781-b0a4-f3f69b8304c5"&gt;Ako nainštalujem aktualizáciu OBERON-u?&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="6b3b68a9-966a-42c2-8b0e-31fc5f3290df"&gt;Ako mám zmeniť spracovávané obdobie?&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="ff9dd37a-2a02-4346-a6d8-bed33c784086"&gt;Kde je možné zistiť, ktorí používatelia sú momentálne prihlásení v OBERON-e?&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="0b81f4ea-5e68-48c1-8b89-933d5a23d962"&gt;Aké databázové systémy OBERON podporuje?&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="53708756-df6d-4205-b722-ff19054c3797"&gt;Ako vykonám migráciu&amp;nbsp;údajov firmy&amp;nbsp;na SQL server?&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="529e2eb4-6a11-4d0e-bdb1-7fd774dea453"&gt;Ako premiestnim údaje firmy do iného počítača?&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="c1e2e5a1-2cf4-47aa-a546-47d5baa1df3e"&gt;Môžem elektronicky podpisovať dokumenty v OBERON-e?&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="9ce25bbd-35d1-4096-acd5-70007f5af5a6"&gt;Čo sú to automatické úlohy v OBERON-e?&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="e301d0fb-f429-4bb5-a4df-7257efbe967b"&gt;Umožňuje OBERON odosielanie automatických notifikácií?&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="e06c0c09-80ea-4083-8f6a-5a49a3fc9474"&gt;Aké sú možnosti odosielania e-mailových správ v OBERON-e?&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="af53c105-e266-49b7-a25c-832ac36e4280"&gt;Aké sú možnosti odosielania SMS správ v OBERON-e?&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="c23e6100-7028-47b3-952a-f43fbf6ee5c6"&gt;Aké mobilné riešenia OBERON podporuje?&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="3f051fd3-9727-4ecc-9613-7a7fb1cb2a54"&gt;S akými pripojiteľnými zariadeniami umožňuje OBERON pracovať?&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="ef8ec592-c1af-45af-92b7-8734ce46e0f5"&gt;Umožňuje OBERON prácu s internetbankingom?&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="6c98a377-1b88-4eb8-801b-1f168641373b"&gt;Umožňuje OBERON prácu s vernostným systémom?&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="9690f267-6ad7-4e22-9af2-675ef3d9d041"&gt;S akými ďalšími súvisiacimi produktami a službami je OBERON prepojený?&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="1ea156c6-edd0-46e0-ab65-7f41af30e672"&gt;Aké sú možnosti používania filtrov?&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="b3e41f60-bab3-4ad9-b73d-69ece0c12afa"&gt;Ako môžem upraviť tlačový výstup?&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="1f32a90c-7b4a-4d69-9f38-a560178794b3"&gt;Čo znamená v niektorých témach Pomocníka tento symbol?&lt;/A&gt;&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Basic/Odporucane-riesenie_ruka_ikona.png"&gt; 
+&lt;LI&gt;&lt;A href="260827a7-0d63-400a-a1ac-0b15b739d497"&gt;Môžem používať OBERON na Linuxe?&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="a78acd01-c344-4900-bc2f-f0ad6d99818c"&gt;Môžem používať OBERON na macOSe?&lt;/A&gt;
+&lt;LI&gt;&lt;A href="68a24d97-e4a5-4cf4-bc7a-72262df5973e"&gt;Je v OBERON-e dostupná funkcia elektronického archivovania?&lt;/A&gt;
+&lt;LI&gt;&lt;A href="dcd3c480-994c-477d-9fc7-17af717ade13"&gt;Môžem v OBERON-e bezpečne ukladať, spravovať a zdieľať heslá účtovnej jednotky?&lt;/A&gt; &lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="ec6b3c9d-e11a-4956-ab47-9f325e02dafc" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="10acb2be-830f-4012-930c-ead0f6ad67ab">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="b8dea825-c46f-432c-8ddc-4de4bc0f25ac">
+      <Keyword m="2023-10-05T09:22:28.6152812Z">FAQ - všeobecne o systéme OBERON</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="3711f32d-808e-4b2a-a28b-f520b2849372">
+      <Keyword m="2023-10-05T09:22:38.9918397Z">OBERON - FAQ</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

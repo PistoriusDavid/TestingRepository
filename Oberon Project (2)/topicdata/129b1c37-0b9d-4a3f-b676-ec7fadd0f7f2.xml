@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="129b1c37-0b9d-4a3f-b676-ec7fadd0f7f2" Status="Complete" CreatedOn="2017-05-26T07:20:34.8132961Z" ModifiedOn="2024-07-17T08:14:31.0464701Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Vehicles_Started_TravelExpensesRefunds" BuildFlags="">
+  <Title m="2017-06-02T11:40:14.7768093Z">Cestovné náhrady</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-07-24T08:18:07.8481974Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; je venovaná &lt;STRONG&gt;problematike cestovných náhrad&lt;/STRONG&gt; v&amp;nbsp;systéme OBERON.&lt;/P&gt;
+&lt;H2&gt;Pracovná cesta a jej náležitosti&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Podľa zákona č. 283/2002 Z. z. o cestovných náhradách &lt;STRONG&gt;pracovná cesta je čas&lt;/STRONG&gt; od nástupu zamestnanca na cestu na výkon práce do iného miesta, ako je jeho pravidelné pracovisko, vrátane výkonu práce v tomto mieste do skončenia tejto cesty. 
+&lt;LI&gt;Zamestnávateľ vysielajúci zamestnanca na pracovnú cestu má &lt;STRONG&gt;povinnosť písomne určiť&lt;/STRONG&gt;: 
+&lt;UL&gt;
+&lt;LI&gt;miesto nástupu na pracovnú cestu, 
+&lt;LI&gt;miesto výkonu práce, 
+&lt;LI&gt;čas trvania, 
+&lt;LI&gt;spôsob dopravy, 
+&lt;LI&gt;miesto skončenia pracovnej cesty. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Zákon o cestovných náhradách ustanovuje &lt;STRONG&gt;všeobecné podmienky poskytovania cestovných náhrad&lt;/STRONG&gt;, presné pravidlá a zásady je&amp;nbsp;potrebné upraviť &lt;STRONG&gt;v internej smernici zamestnávateľa&lt;/STRONG&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Tlačivo&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Zákon pri vysielaní na pracovnú cestu a jej vyúčtovaní&amp;nbsp;nepredpisuje žiadne záväzné tlačivo. V praxi sa využíva cestovný príkaz, ktorý by však mal obsahovať &lt;STRONG&gt;všetky náležitosti účtovného dokladu&lt;/STRONG&gt;. 
+&lt;LI&gt;V OBERON-e sa vysielanie na pracovnú cestu uskutočňuje &lt;STRONG&gt;formou tlačového výstupu&amp;nbsp;&lt;EM&gt;Cestovný príkaz&lt;/EM&gt;&lt;/STRONG&gt; (ponuka &lt;EM&gt;Vozidlá,&amp;nbsp;&lt;/EM&gt;&lt;A href="1c45ad86-636b-4d4e-87f9-e2932e494f51"&gt;Cestovné príkazy&lt;/A&gt;, tlačidlo &lt;EM&gt;Tlač&lt;/EM&gt;). &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 1: Formulár cestovného príkazu v OBERON-e&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/Vehicles/Form_Vehicles_TravelOrders.png"&gt;&amp;nbsp;&lt;/P&gt;
+&lt;H2&gt;Na aké cestovné náhrady má zamestnanec nárok?&lt;/H2&gt;
+&lt;P&gt;Podľa zákona zamestnancovi vyslanému na pracovnú cestu patrí:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;náhrada preukázaných cestovných výdavkov, 
+&lt;LI&gt;náhrada preukázaných výdavkov za ubytovanie, 
+&lt;LI&gt;stravné, 
+&lt;LI&gt;náhrada preukázaných potrebných vedľajších výdavkov, 
+&lt;LI&gt;náhrada preukázaných cestovných výdavkov za cesty na návštevu jeho rodiny. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Spôsob dopravy&lt;/H2&gt;
+&lt;P&gt;Zamestnanec môže na pracovnú cestu vycestovať:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;firemným, resp. prenajatým&amp;nbsp;vozidlom&lt;/STRONG&gt; – v tomto prípade mu nepatria žiadne náhrady za cestovné náklady (pozri tému&amp;nbsp;&lt;A href="c6542278-5d57-4c96-b3d8-ec30f2b5a6d3"&gt;Vozidlá&lt;/A&gt;), 
+&lt;LI&gt;&lt;STRONG&gt;súkromným vozidlom&lt;/STRONG&gt; – len na základe písomnej dohody so zamestnávateľom; vtedy mu patrí základná náhrada za každý 1 km jazdy a náhrada za spotrebované pohonné látky (pozri tému&amp;nbsp;&lt;A href="c6542278-5d57-4c96-b3d8-ec30f2b5a6d3"&gt;Vozidlá&lt;/A&gt;), 
+&lt;LI&gt;&lt;STRONG&gt;verejnou dopravou&lt;/STRONG&gt; (autobus, vlak, lietadlo, loď) – spravidla mu patria cestovné náhrady vo výške preukázaných cestovných výdavkov; 
+&lt;LI&gt;&lt;STRONG&gt;ďalšími dopravnými prostriedkami&lt;/STRONG&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Preddavky na cestovné náhrady&lt;/H2&gt;
+&lt;P&gt;Preddavok na náhrady zamestnávateľ:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;je povinný zamestnancovi poskytnúť v prípade, že je vyslaný na zahraničnú pracovnú cestu alebo do štátu EÚ, 
+&lt;LI&gt;je povinný zamestnancovi poskytnúť pri vyslaní na tuzemskú pracovnú cestu len v prípade, že o to zamestnanec požiada, 
+&lt;LI&gt;poskytuje do sumy predpokladaných náhrad. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Vyúčtovanie pracovnej cesty&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Zamestnanec &lt;STRONG&gt;je povinný do 10 pracovných dní odo dňa skončenia pracovnej cesty predložiť zamestnávateľovi písomné doklady na vyúčtovanie náhrad a vrátiť nevyúčtovaný preddavok&lt;/STRONG&gt;. 
+&lt;LI&gt;Lehotu je možné predĺžiť v kolektívnej zmluve, v písomnej dohode so zamestnancom alebo vo vnútornom predpise zamestnávateľa, ale len do konca kalendárneho mesiaca nasledujúceho po kalendárnom mesiaci, v ktorom bola pracovná cesta skončená. 
+&lt;LI&gt;Zamestnávateľ &lt;STRONG&gt;je povinný do 10 pracovných dní odo dňa predloženia písomných dokladov vykonať vyúčtovanie pracovnej cesty&lt;/STRONG&gt;. 
+&lt;LI&gt;Lehotu je možné predĺžiť v kolektívnej zmluve, v písomnej dohode so zamestnancom alebo vo vnútornom predpise zamestnávateľa, ale len do konca kalendárneho mesiaca nasledujúceho po kalendárnom mesiaci, v ktorom boli predložené písomné doklady. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Platia sa z cestovných náhrad odvody a dane?&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Ak sú cestovné náhrady vo výške, v akej má na ne zamestnanec nárok, sú oslobodené od dane a neplatia sa z nich žiadne odvody. 
+&lt;LI&gt;Ak však zamestnávateľ poskytne zamestnancovi náhrady vo vyššej sume (na základe dohody), suma prekračujúca náhrady v zmysle zákona sa zahŕňa do vymeriavacieho základu na sociálne a zdravotné poistenie zamestnanca aj zamestnávateľa a podlieha dani z príjmov. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Ako sa vyplácajú cestovné náhrady?&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Zákon o cestovných náhradách &lt;STRONG&gt;nestanovuje&lt;/STRONG&gt;, akým konkrétnym spôsobom má zamestnávateľ vyplácať cestovné náhrady svojim zamestnancom. Zamestnávateľ teda môže:&lt;BR&gt;a)&amp;nbsp;vyplatiť cestovné náhrady priamo zo svojej pokladne, resp. účtu,&lt;BR&gt;b)&amp;nbsp;cestovné náhrady poukázať na účet zamestnanca spolu so mzdou (menej časté riešenie). &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Informácie&amp;nbsp;o &lt;STRONG&gt;vyplácaní cestovných náhrad v OBERON-e&lt;/STRONG&gt; sú dostupné v téme&amp;nbsp;&lt;A href="e2b43d8d-2743-477c-8bc3-27a0608a8552"&gt;Vyplatenie cestovných náhrad&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="3646b82d-18e6-44fe-a58c-8cc1cdb6d75d" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1c45ad86-636b-4d4e-87f9-e2932e494f51">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="c50a56b0-ed33-4873-aae1-bd7d2feb2618" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="d217346c-8ef3-4c61-a572-2ee976bb817f">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="b84f118b-5327-48a3-95d2-761921c9fd82" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="beb97ace-1408-443d-87c0-bce72b007ea7">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="29ddf4b6-ca17-4049-b669-05a8e9f09473" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="6923b0c5-166b-4e3b-a53b-71f62b53b2fc">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="55de5c3b-077d-4c85-b915-0260d4a4f550" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="fc8d8173-0da0-459a-b570-587597ce3315">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="9c560a34-2f6e-4a35-8150-de578bcdc9ed" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="e2b43d8d-2743-477c-8bc3-27a0608a8552">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="85a5d04b-d041-4448-b0fa-8866cf25a9fa">
+      <Keyword m="2023-05-09T07:11:45.7065764Z">Preddavky na cestovné náhrady</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="9292baa0-9355-45ee-a119-6370435b8494">
+      <Keyword m="2023-05-09T07:12:01.083859Z">Vyúčtovanie pracovnej cesty</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="0e75b9f8-3dd0-4773-ad90-4336a060451c">
+      <Keyword m="2023-05-09T07:12:07.6530461Z">Náhrady - cestovné</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

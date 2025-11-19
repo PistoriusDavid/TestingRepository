@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="811261a5-bffc-4ade-8202-53e489e4fa81" Status="Complete" CreatedOn="2015-10-13T05:48:17.7363281Z" ModifiedOn="2023-10-12T12:18:19.9110675Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="22042" Name="Form_OBERON_BusinessPartner_SentSMS" BuildFlags="">
+  <Title m="2015-10-13T05:49:00.2246093Z">Sprievodca Zaslanie SMS</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2022-07-19T06:46:39.5917796Z">&lt;P&gt;&lt;SPAN&gt;Sprievodca&amp;nbsp;&lt;EM&gt;Zaslanie SMS&lt;/EM&gt; umožňuje &lt;STRONG&gt;manuálne vytvoriť SMS správu&lt;/STRONG&gt; v systéme OBERON. Vytvorená SMS správa sa&amp;nbsp;vzápätí odošle na telefón jej adresáta. &lt;SPAN&gt;Sprievodca je dostupný z&amp;nbsp;viacerých miest v&amp;nbsp;programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;&amp;nbsp;(napr. z ponuky &lt;EM&gt;Firma&lt;/EM&gt;,&amp;nbsp;&lt;A href="b7a48886-b367-4056-808a-59ba5f871f32"&gt;Obchodní partneri&lt;/A&gt;&amp;nbsp;alebo z&amp;nbsp;&lt;A href="5c21adcc-87c8-44e7-981d-02902635693d"&gt;Knihy pohľadávok&lt;/A&gt;) po stlačení tlačidla &lt;EM&gt;Možnosti - Zaslať SMS.&lt;/EM&gt; Táto možnosť je&amp;nbsp;dostupná len v prípade, že je v&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="081aff87-08e6-4933-9843-d1b47dc745fb"&gt;oddiel Firma, Moduly&lt;/A&gt;&amp;nbsp;povolené používanie modulu &lt;EM&gt;CRM a&amp;nbsp;registratúra&lt;/EM&gt;.&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Jedným zo spôsobov, ako manuálne vytvoriť SMS správu v systéme OBERON, je pomocou&amp;nbsp;sprievodcu &lt;EM&gt;Zaslanie SMS.&lt;/EM&gt; Vytvorená SMS správa sa hneď po vytvorení odošle na telefón jej adresáta a uloží do evidencie &lt;A href="d4119d75-dd5b-4a1c-b9fa-c982601e0746"&gt;SMS správy&lt;/A&gt; v&amp;nbsp;ponuke &lt;EM&gt;CRM&lt;/EM&gt; programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;.&amp;nbsp;V&amp;nbsp;tejto knihe je možné napr. v&amp;nbsp;prípade nedostupnosti mobilného telefónu prijímateľa overiť aj fyzické doručenie danej správy. 
+&lt;LI&gt;Zasielanie SMS správ v&amp;nbsp;systéme OBERON je &lt;STRONG&gt;spoplatnená služba&lt;/STRONG&gt;. Viac informácií získate v téme &lt;A href="d4119d75-dd5b-4a1c-b9fa-c982601e0746"&gt;SMS správy&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Postup&amp;nbsp;zaslania&amp;nbsp;SMS správy&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;V prvom kroku vyberte šablónu (predlohu) správy v prípade, že je dostupná (napr. &lt;EM&gt;Vystavenie faktúry&lt;/EM&gt; v knihe pohľadávok). V prípade potreby je možné predlohu nadefinovať, resp. upraviť&amp;nbsp;- stlačením tlačidla &lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_Button_Change.png"&gt;&amp;nbsp;sa otvorí&amp;nbsp;formulár &lt;EM&gt;Predlohy (SMS)&lt;/EM&gt;, v&amp;nbsp;ktorom stlačte tlačidlo &lt;EM&gt;Nový&lt;/EM&gt; alebo &lt;EM&gt;Oprava&lt;/EM&gt;. 
+&lt;LI&gt;Vyberte telefónne číslo adresáta (používateľa alebo obchodného partnera) zadané&amp;nbsp;v&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="225638ed-22f6-4ac4-9085-6d77c64925db"&gt;Používatelia&lt;/A&gt; alebo&amp;nbsp;v ponuke &lt;EM&gt;Firma&lt;/EM&gt;,&amp;nbsp;&lt;A href="b7a48886-b367-4056-808a-59ba5f871f32"&gt;Obchodní partneri&lt;/A&gt;. 
+&lt;LI&gt;Stlačením tlačidla &lt;EM&gt;Dokončiť&lt;/EM&gt; sa SMS správa odošle. &lt;/LI&gt;&lt;/OL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="e8b9aab3-0540-4f5c-b3b6-8efc18fe4ad0" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="d4119d75-dd5b-4a1c-b9fa-c982601e0746">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="69439fe5-f883-47f3-84af-48f9588cb29e" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="af53c105-e266-49b7-a25c-832ac36e4280">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="02b95be4-3068-44e7-b61a-80aaa7b2f602">
+      <Keyword m="2015-10-14T10:38:16.6142578Z">Zaslanie SMS obchodnému partnerovi</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="c4e6bc9a-89f5-45b3-8302-08a81d9a0002">
+      <Keyword m="2015-10-14T09:26:15.1220703Z">Poslať SMS</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="b83fed36-0b56-4d46-af40-011eaa48fe3b">
+      <Keyword m="2015-10-14T10:38:38.6699219Z">Zaslanie upomienky formou SMS </Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="6b57a5f0-0197-4c42-92c4-ce4b42f2d225">
+      <Keyword m="2021-06-29T13:29:19.2563375Z">SMS správy - postup zaslania</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="654de014-c3c5-4032-95da-6222ee5a8c35">
+      <Keyword m="2023-02-16T11:53:30.3474424Z">Zaslanie SMS - sprievodca</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

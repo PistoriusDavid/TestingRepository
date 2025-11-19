@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="489dd25b-dd6a-416d-be26-ce647566b429" Status="Complete" CreatedOn="2014-09-09T12:41:29.6949384Z" ModifiedOn="2023-09-18T12:59:33.0950174Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Stock_Start_Spracovanie_Inventury" BuildFlags="">
+  <Title m="2014-09-09T12:41:57.1645096Z">Spracovanie inventúry</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-06-08T08:55:05.6222447Z">&lt;P&gt;V&amp;nbsp;tejto téme &lt;EM&gt;Pomocníka&lt;/EM&gt; sú uvedené &lt;STRONG&gt;informácie&lt;/STRONG&gt;&amp;nbsp;&lt;STRONG&gt;o&amp;nbsp;vykonaní&amp;nbsp;inventúry skladu&lt;/STRONG&gt;&amp;nbsp;v&amp;nbsp;systéme OBERON. Štandardne sa inventúra skladu&amp;nbsp;spracúva v programe &lt;EM&gt;OBERON&amp;nbsp;- Agenda firmy&lt;/EM&gt;,&amp;nbsp;inventúru však možno vykonať aj s&amp;nbsp;využitím mobilných zariadení priamo v&amp;nbsp;teréne. Téma obsahuje postup spracovania inventúry skladu v programe &lt;EM&gt;OBERON - Agenda firmy,&lt;/EM&gt; ďalej pomocou mobilnej aplikácie&amp;nbsp;&lt;A href="be17efdf-4b36-4b47-ad5d-09b0f66c8f65"&gt;ASTON&lt;/A&gt;, ako aj prostredníctvom webovej aplikácie&amp;nbsp;&lt;A href="b138daad-5453-4e53-8d2c-ecf2e81a5fcb"&gt;OBERON Web&lt;/A&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Inventúra skladu sa v&amp;nbsp;systéme OBERON vykonáva v programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;, ponuka &lt;EM&gt;Sklad&lt;/EM&gt;,&amp;nbsp;&lt;EM&gt;Inventúra skladu&lt;/EM&gt; - viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="79f53c12-0f9d-46c1-b039-2a412e1671f0"&gt;Inventúra skladu&lt;/A&gt;. 
+&lt;LI&gt;Inventúra skladu sa vykonáva s&amp;nbsp;cieľom korekcie rozdielu (&lt;I&gt;Manko&lt;/I&gt; alebo &lt;I&gt;Prebytok&lt;/I&gt;) medzi množstvom evidovaným skladovou evidenciou (&lt;I&gt;Množstvo v evidencii&lt;/I&gt;) a reálnym množstvom v sklade (&lt;I&gt;Množstvo fyzické&lt;/I&gt;) k určitému dátumu. Výsledkom inventúry skladu je &lt;STRONG&gt;zosúladenie skladovej evidencie s reálnym stavom zásob v&amp;nbsp;sklade&lt;/STRONG&gt;. 
+&lt;LI&gt;Fyzickú inventúru skladových zásob možno vykonať kedykoľvek v&amp;nbsp;priebehu spracovávaného obdobia. Fyzické množstvá je&amp;nbsp;možné zapisovať priamo do inventúrneho súpisu, inventúrne rozdiely (manká alebo prebytky) program &lt;STRONG&gt;dopočíta automaticky&lt;/STRONG&gt;. 
+&lt;LI&gt;Pred začatím inventúry je potrebné, aby účtovná jednotka mala &lt;STRONG&gt;zaevidované všetky skladové doklady&lt;/STRONG&gt; v databázovej evidencii. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Postup spracovania inventúry skladu&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;V&amp;nbsp;programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt; v&amp;nbsp;ponuke &lt;I&gt;Sklad&lt;/I&gt; vyberte položku &lt;A href="79f53c12-0f9d-46c1-b039-2a412e1671f0"&gt;Inventúra skladu&lt;/A&gt;. 
+&lt;LI&gt;V&amp;nbsp;hornej časti formulára pomocou filtra &lt;EM&gt;Sklad&lt;/EM&gt; vyberte sklad (tlačidlo&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_ListButton.png"&gt;), ktorého inventúru chcete spracovať. 
+&lt;LI&gt;Stlačte tlačidlo &lt;I&gt;Možnosti&lt;/I&gt; a&amp;nbsp;zvoľte funkciu &lt;STRONG&gt;&lt;EM&gt;Začiatok inventúry&lt;/EM&gt;&lt;/STRONG&gt;. V sprievodcovi&amp;nbsp;nastavte dátum, ku ktorému chce účtovná jednotka&amp;nbsp;začať fyzickú inventúru. Podľa zadaného dátumu&amp;nbsp;sa zo skladových kariet načítajú zostatkové množstvá a následne sa&amp;nbsp;zapíšu do inventúrneho súpisu do poľa &lt;I&gt;Množstvo evidované&lt;/I&gt;. V inventúrnom súpise sú zobrazené &lt;STRONG&gt;len skladové položky typu &lt;I&gt;Jednoduchá karta&lt;/I&gt; alebo &lt;EM&gt;Vratný obal&lt;/EM&gt;&lt;/STRONG&gt;.&amp;nbsp;Skladové položky&amp;nbsp;&lt;A href="8deac9fe-9864-41e8-aaa3-02257c241d78"&gt;typu služba&lt;/A&gt;&lt;I&gt;, Sada, Výrobok, Receptúra&lt;/I&gt; majú vždy evidované množstvo nulové, preto sa na inventúrnom súpise nenachádzajú. 
+&lt;LI&gt;V prípade &lt;STRONG&gt;novej inventúry&lt;/STRONG&gt; vyberte možnosť &lt;I&gt;Vynulovať predchádzajúcu inventúru&lt;/I&gt; - vymaže všetky hodnoty v poliach &lt;I&gt;Množstvo fyzické&lt;/I&gt;.&amp;nbsp;Možnosť &lt;I&gt;Ponechať zapísané fyzické množstvo&lt;/I&gt; využite v&amp;nbsp;prípade &lt;STRONG&gt;opravnej inventúry&lt;/STRONG&gt; (inventúra už&amp;nbsp;bola&amp;nbsp;vykonaná - sú zadané množstvá fyzické), ak požadujete opätovne vypočítať množstvá v&amp;nbsp;evidencii, ale fyzické množstvo opätovne zadávať manuálne nechcete. 
+&lt;LI&gt;Vykonajte fyzickú inventúru v sklade. Po spočítaní fyzických množstiev skladových položiek je možné ihneď v sklade pracovať (vystavovať príjemky, výdajky a naskladňovať a&amp;nbsp;vyskladňovať&amp;nbsp;tovar) i napriek tomu, že ešte nie je spracovaná inventúra (nie sú zadané inventúrne rozdiely). Program totiž eviduje &lt;STRONG&gt;množstvá v inventúrnom súpise nezávisle od množstiev evidovaných na skladových kartách&lt;/STRONG&gt;. 
+&lt;LI&gt;Priamo do inventúrneho súpisu zapíšte fyzické množstvá. Program automaticky vypočíta inventúrne rozdiely - manká alebo prebytky. V prípade, že po zapísaní všetkých nenulových množstiev zostáva ešte veľké množstvo kariet s nulovým fyzickým množstvom, je možné využiť funkciu &lt;I&gt;Zápis nulových množstiev&lt;/I&gt;. Funkcia automaticky zapíše nulové množstvá do tých políčok stĺpca &lt;I&gt;Množstvo fyzické,&lt;/I&gt; v ktorých nie je zadaná žiadna hodnota (k dispozícii je v&amp;nbsp;knihe &lt;EM&gt;Inventúra skladu&lt;/EM&gt;, tlačidlo &lt;EM&gt;Možnosti&lt;/EM&gt;)&lt;EM&gt;.&lt;/EM&gt; 
+&lt;LI&gt;Pomocou tlačidla &lt;I&gt;Tlač&lt;/I&gt; je možné vytlačiť príslušné tlačové výstupy, napr. &lt;EM&gt;Inventúrny súpis (len manká a prebytky)&lt;/EM&gt;. 
+&lt;LI&gt;Po skončení inventúry je potrebné zosúladiť fyzické množstvá a evidované množstvá. Vyrovnanie rozdielov inventúry sa realizuje pomocou dokladu&amp;nbsp;&lt;A href="e5d60ce3-8ad2-43f2-b60d-08c773376f5b"&gt;výdajka&lt;/A&gt;. Vytvorte novú výdajku (odporúčame so samostatným&amp;nbsp;druhom pohybu napr. &lt;I&gt;Inventúra&lt;/I&gt;). Vo výdajke stlačte tlačidlo &lt;I&gt;Možnosti.&lt;/I&gt; Vyberte možnosť &lt;STRONG&gt;&lt;EM&gt;Vložiť položky z inventúrneho súpisu&lt;/EM&gt;&lt;/STRONG&gt;. Otvorí sa sprievodca, pomocou ktorého sa do výdajky&amp;nbsp;načítajú inventúrne rozdiely, a tak sa zosúladia zistené fyzické množstvá&amp;nbsp;s&amp;nbsp;pôvodne evidovanými. V&amp;nbsp;prípade, že na všetkých skladových kartách neboli zadané fyzické množstvá, program vypíše ich počet, prípadne aj počet variantov. 
+&lt;LI&gt;V inventúrnom súpise je dostupná&amp;nbsp;možnosť &lt;EM&gt;Zrušenie inventúry&lt;/EM&gt;. Vtedy sa v&amp;nbsp;inventúrnom zozname vynulujú polia &lt;I&gt;Množstvo&amp;nbsp;&lt;/I&gt;fyzické, &lt;EM&gt;Manko&lt;/EM&gt; a &lt;EM&gt;Prebytok&lt;/EM&gt;. Túto možnosť môžete využiť po skončení inventúry. Zrušenie inventúry je nepovinné, pri nepoužití tejto funkcie bude spracovaná inventúra evidovaná až do nasledujúcej inventúry. &lt;/LI&gt;&lt;/OL&gt;&lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;V prípade&amp;nbsp;&lt;A href="b0e0ad9c-d19d-4670-8485-ec384dbae1bd"&gt;variantov&lt;/A&gt; &lt;SPAN style="COLOR: rgb(255,0,0)"&gt;nie je možné začať inventúru k ľubovoľnému dátumu&lt;/SPAN&gt; - program doplní do inventúrneho súpisu vždy množstvá evidované k aktuálnemu dátumu (napr. aktuálny dátum je 3.11.2021, inventúru chce účtovná jednotka vykonať k 31.10.2021, program doplní do inventúrneho súpisu množstvá evidované k 3.11.2021).&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Postup spracovania inventúry s aplikáciou ASTON&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;V&amp;nbsp;prvom kroku sa uistite, že máte správne nastavenú komunikáciu medzi aplikáciou &lt;EM&gt;ASTON&lt;/EM&gt; a systémom OBERON.&amp;nbsp;Podrobný postup je uvedený v&amp;nbsp;téme&amp;nbsp;&lt;A href="4532794b-6100-4bd6-b5d1-4bdb8e6f1b89"&gt;Aplikácia ASTON - inštalácia&lt;/A&gt;.&amp;nbsp;&amp;nbsp; 
+&lt;LI&gt;Spustite aplikáciu &lt;EM&gt;ASTON&lt;/EM&gt; na mobilnom zariadení.&amp;nbsp;V&amp;nbsp;aplikácii v&amp;nbsp;nastaveniach inventúry&amp;nbsp;v časti&amp;nbsp;&lt;EM&gt;&lt;STRONG&gt;Sklad&lt;/STRONG&gt;&lt;/EM&gt; vyberte sklad, s&amp;nbsp;ktorým budete pracovať.&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 
+&lt;LI&gt;Na počítači&amp;nbsp;v&amp;nbsp;programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt; v ponuke &lt;EM&gt;Sklad&lt;/EM&gt; vyberte položku &lt;A href="79f53c12-0f9d-46c1-b039-2a412e1671f0"&gt;Inventúra skladu&lt;/A&gt;, stlačte tlačidlo&amp;nbsp;&lt;I&gt;Možnosti&lt;/I&gt; a&amp;nbsp;zvoľte funkciu &lt;EM&gt;&lt;STRONG&gt;Začiatok inventúry&lt;/STRONG&gt;&lt;/EM&gt;. 
+&lt;LI&gt;Vykonajte fyzickú inventúru v&amp;nbsp;sklade. V aplikácii &lt;EM&gt;ASTON&lt;/EM&gt; zadajte zistené&amp;nbsp;množstvá príslušných skladových kariet. Viac informácií o&amp;nbsp;práci s aplikáciou pri inventúre získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="5147b081-3c16-436f-a07e-e6ce748d34ee"&gt;ASTON&amp;nbsp;-&amp;nbsp;inventúra skladu&lt;/A&gt;. 
+&lt;LI&gt;V prípade, že mobilné zariadenie je pripojené k&amp;nbsp;OBERON-u (k&amp;nbsp;webovej službe), zadané množstvá&amp;nbsp;sa prenesú do inventúrneho súpisu v&amp;nbsp;OBERON-e&amp;nbsp;(na aktualizáciu zoznamu skladových položiek v&amp;nbsp;OBERON-e stlačte kláves F5). 
+&lt;LI&gt;Ďalej&amp;nbsp;v spracovaní inventúry skladu&amp;nbsp;v&amp;nbsp;OBERON-e pokračujte podľa&amp;nbsp;postupu spracovania inventúry skladu uvedeného vyššie. &lt;/LI&gt;&lt;/OL&gt;
+&lt;H2&gt;Postup spracovania inventúry s aplikáciou OBERON Web&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;Aplikácia&amp;nbsp;&lt;A href="b138daad-5453-4e53-8d2c-ecf2e81a5fcb"&gt;OBERON Web&lt;/A&gt;&amp;nbsp;komunikuje so systémom OBERON&amp;nbsp;na základe&amp;nbsp;&lt;A href="9ce25bbd-35d1-4096-acd5-70007f5af5a6"&gt;automatickej úlohy&lt;/A&gt; typu &lt;EM&gt;&lt;STRONG&gt;WebServices API - OBERON 1G&lt;/STRONG&gt;&lt;/EM&gt;, t.&amp;nbsp;j. &lt;A href="58bb31ca-00c8-4641-ad99-7d58e24f59c5"&gt;webových služieb&lt;/A&gt;. Aplikácia v rámci komunikácie predstavuje &lt;STRONG&gt;klienta webovej služby&lt;/STRONG&gt;. V&amp;nbsp;prvom kroku preto nastavte (v&amp;nbsp;programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;, ponuka &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="9ce25bbd-35d1-4096-acd5-70007f5af5a6"&gt;Automatické úlohy&lt;/A&gt;) automatickú úlohu typu &lt;STRONG&gt;&lt;EM&gt;WebServices API - OBERON 1G&lt;/EM&gt;&lt;/STRONG&gt;.&amp;nbsp;Postup je dostupný&amp;nbsp;v téme&amp;nbsp;&lt;A href="f3e85885-2cfb-4f9b-b966-a54836db41cd" style="auto-update-caption: true"&gt;Inštalácia webovej služby&lt;/A&gt;. 
+&lt;LI&gt;V&amp;nbsp;rámci inštalácie webovej služby vo&amp;nbsp;&lt;A href="a8d6abf6-4a2a-4e37-a89a-1afbb2b09e17"&gt;formulári Rozšírené nastavenia automatickej úlohy 'WebServices API - OBERON'&lt;/A&gt; v oddiele &lt;EM&gt;Sklad&lt;/EM&gt; začiarknite možnosť &lt;EM&gt;&lt;STRONG&gt;Inventúra skladu&lt;/STRONG&gt;&lt;/EM&gt;. 
+&lt;LI&gt;Otvorte program&lt;STRONG&gt;&amp;nbsp;&lt;EM&gt;OBERON Automation Center (klient)&lt;/EM&gt;&lt;/STRONG&gt; (ponuka&amp;nbsp;&lt;EM&gt;OBERON&lt;/EM&gt;,&amp;nbsp;&lt;A href="69282df4-d4d6-462a-8cf2-68000e3e6f93"&gt;OBERON Automation Center (klient)&lt;/A&gt;). V&amp;nbsp;oddiele &lt;EM&gt;Automatické úlohy&lt;/EM&gt; dvojklikom na danú úlohu otvorte okno &lt;EM&gt;Detaily&lt;/EM&gt;, v&amp;nbsp;ktorom sa nachádza odkaz v tvare napr. &lt;EM&gt;&lt;STRONG&gt;http://&lt;/STRONG&gt;&lt;/EM&gt;&lt;A&gt;&lt;EM&gt;&lt;STRONG&gt;192.168.16.20:22001&lt;/STRONG&gt;&lt;/EM&gt;&lt;/A&gt;&lt;EM&gt;&lt;A&gt;&lt;STRONG&gt;/login&lt;/STRONG&gt;&lt;/A&gt;&lt;/EM&gt; na&amp;nbsp;zobrazenie&amp;nbsp;webovej&amp;nbsp;aplikácie&amp;nbsp;&lt;A href="b138daad-5453-4e53-8d2c-ecf2e81a5fcb"&gt;OBERON Web&lt;/A&gt;. &amp;nbsp;&amp;nbsp;&amp;nbsp; 
+&lt;LI&gt;Na počítači&amp;nbsp;v&amp;nbsp;programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt; v ponuke &lt;EM&gt;Sklad&lt;/EM&gt; vyberte položku &lt;A href="79f53c12-0f9d-46c1-b039-2a412e1671f0"&gt;Inventúra skladu&lt;/A&gt;, stlačte tlačidlo&amp;nbsp;&lt;I&gt;Možnosti&lt;/I&gt; a&amp;nbsp;zvoľte funkciu &lt;EM&gt;&lt;STRONG&gt;Začiatok inventúry&lt;/STRONG&gt;&lt;/EM&gt;. 
+&lt;LI&gt;Vykonajte fyzickú inventúru v&amp;nbsp;sklade. V aplikácii&amp;nbsp;&lt;EM&gt;OBERON Web&lt;/EM&gt;&amp;nbsp;na mobilnom zariadení zadajte zistené&amp;nbsp;množstvá príslušných skladových kariet. V prípade, že mobilné zariadenie je pripojené k&amp;nbsp;OBERON-u (k&amp;nbsp;webovej službe),&amp;nbsp;zadané množstvá&amp;nbsp;sa prenesú do inventúrneho súpisu v&amp;nbsp;OBERON-e (na aktualizáciu zoznamu skladových položiek v&amp;nbsp;OBERON-e stlačte kláves F5). 
+&lt;LI&gt;Ďalej&amp;nbsp;v spracovaní inventúry skladu&amp;nbsp;v&amp;nbsp;OBERON-e pokračujte podľa&amp;nbsp;postupu spracovania inventúry skladu uvedeného vyššie. &lt;/LI&gt;&lt;/OL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="68532485-0105-4971-b1b1-2879d46d848b" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="79f53c12-0f9d-46c1-b039-2a412e1671f0">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="6d9bb2a0-c711-46e3-a9c3-49542db56291" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="be17efdf-4b36-4b47-ad5d-09b0f66c8f65">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="a1cddff5-d2ed-47a3-a421-a5770b9c582f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="4532794b-6100-4bd6-b5d1-4bdb8e6f1b89">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="dfc10ede-64ff-4d03-ad9b-3164523e644f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="5147b081-3c16-436f-a07e-e6ce748d34ee">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="436d07a1-246d-4d03-a725-f6689f393aee" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="b138daad-5453-4e53-8d2c-ecf2e81a5fcb">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="a23cfb02-e56b-4f3c-aaec-b5e6a25d26a6" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="f3e85885-2cfb-4f9b-b966-a54836db41cd">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="f4c050c6-f2eb-4a86-ad31-da3d5477ecc2" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="a8d6abf6-4a2a-4e37-a89a-1afbb2b09e17">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="1b73b289-0489-41d8-92a4-8641de747e01">
+      <Keyword m="2021-11-02T10:35:23.0037187Z">Inventúra skladu - spracovanie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="8a1d982f-0a50-41b8-bc2f-331018b81169">
+      <Keyword m="2015-03-11T09:31:46.5068359Z">Podklady k inventúre</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="735c6383-bd25-4ed7-a23b-65260de89967">
+      <Keyword m="2015-03-11T09:32:40.25Z">Inventúrny súpis</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="be9f267a-729b-4dce-8605-546fa7a35a6e">
+      <Keyword m="2021-11-02T10:35:04.1868587Z">Prebytok - inventúra</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="3854c605-0ff9-49b6-98d8-79d922af757b">
+      <Keyword m="2021-11-02T10:35:11.2251663Z">Manko - inventúra</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="931646c8-f68e-45c5-9a5d-dc69c8a99ac9">
+      <Keyword m="2021-11-02T13:53:16.0307374Z">ASTON - inventúra skladu</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="048c2618-afc5-4041-a84e-f74d4a5a79f2">
+      <Keyword m="2021-11-02T13:53:24.9409263Z">OBERON Web - inventúra skladu</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="56bd1c0b-7486-44b3-967f-8e02048215cf">
+      <Keyword m="2021-11-02T13:53:33.424981Z">Inventúra skladu - mobilné zariadenia</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="066fa54c-fa5a-46b7-9cab-1d8ab916b652">
+      <Keyword m="2021-11-02T13:53:40.8313711Z">Inventúra skladu - ASTON</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="538f9259-1895-4e9c-9e4a-93747b06e20e">
+      <Keyword m="2021-11-02T13:53:51.6975018Z">Inventúra skladu - OBERON Web</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

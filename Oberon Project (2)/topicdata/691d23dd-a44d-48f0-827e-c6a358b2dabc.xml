@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="691d23dd-a44d-48f0-827e-c6a358b2dabc" Status="Complete" CreatedOn="2014-09-11T11:08:15.0335367Z" ModifiedOn="2023-06-08T08:58:08.6233412Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Stock_Advanced_Recepture_Advanced_Recepture" BuildFlags="">
+  <Title m="2014-09-11T11:15:17.4116954Z">Zložená receptúra</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-06-08T08:58:08.6223404Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; je venovaná možnostiam práce&amp;nbsp;s&amp;nbsp;receptúrami v module&amp;nbsp;&lt;A href="78d20602-4b59-4b31-9f0a-a04a1d376ec5"&gt;Skladová evidencia&lt;/A&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Modul&amp;nbsp;&lt;A href="78d20602-4b59-4b31-9f0a-a04a1d376ec5"&gt;Skladová evidencia&lt;/A&gt; umožňuje okrem štandardných receptúr (viac v téme&amp;nbsp;&lt;A href="12572b52-44a7-433c-be59-df1192f3c6a0"&gt;Vytvorenie receptúry&lt;/A&gt;)&amp;nbsp;vytvárať aj zložené receptúry. Zložená receptúra je &lt;STRONG&gt;receptúra, ktorej položky&amp;nbsp;okrem jednoduchých skladových kariet obsahujú aj iné skladové karty&amp;nbsp;&lt;/STRONG&gt;&lt;A href="8deac9fe-9864-41e8-aaa3-02257c241d78"&gt;typu receptúra&lt;/A&gt;.&amp;nbsp; 
+&lt;LI&gt;V niektorých prípadoch sa môže stať, že receptúra, ktorá je položkou inej receptúry, obsahuje v sebe ďalšiu receptúru. Počet takto vnorených receptúr nie je programom obmedzený, &lt;STRONG&gt;neodporúča sa však používať počet vnorení vyšší ako štyri&lt;/STRONG&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Príklad zloženej receptúry&lt;/H2&gt;
+&lt;P&gt;Hovädzí vývar s rezancami je receptúra, ktorá sa skladá:&lt;/P&gt;
+&lt;TABLE style="HEIGHT: 198px; WIDTH: 46.28%"&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TD height=16 vAlign=top width=622 colSpan=5 align=left&gt;&lt;I&gt;&lt;B&gt;Zloženie receptúry&lt;/B&gt;&lt;/I&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=22 vAlign=top width=168 colSpan=2 align=left&gt;&lt;FONT size=2&gt;&lt;B&gt;Hovädzí vývar s&amp;nbsp;rezancami&lt;/B&gt;&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD height=22 vAlign=top width=392 colSpan=3 align=right&gt;&lt;B&gt;Počet porcií: 10&lt;/B&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=37 vAlign=top width=31 align=left&gt;&lt;B&gt;Číslo&lt;/B&gt;&lt;/TD&gt;
+&lt;TD height=37 vAlign=top width=392 align=left&gt;&lt;B&gt;Názov&lt;/B&gt;&lt;/TD&gt;
+&lt;TD height=37 vAlign=top width=329 align=right&gt;&lt;B&gt;Hrubé množstvo&lt;/B&gt;&lt;/TD&gt;
+&lt;TD height=37 vAlign=top width=335 align=right&gt;&lt;B&gt;Čisté množstvo&lt;/B&gt;&lt;/TD&gt;
+&lt;TD height=37 vAlign=top width=375 align=left&gt;
+&lt;P align=right&gt;&lt;B&gt;MJ&lt;/B&gt;&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=23 vAlign=top width=31 align=left&gt;644&lt;/TD&gt;
+&lt;TD height=23 vAlign=top width=392 align=left&gt;Vývar hovädzí&lt;/TD&gt;
+&lt;TD height=23 vAlign=top width=329 align=right&gt;1,14&lt;/TD&gt;
+&lt;TD height=23 vAlign=top width=335 align=right&gt;1,14&lt;/TD&gt;
+&lt;TD height=23 vAlign=top width=375 align=right&gt;kg&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=22 vAlign=top width=31 align=left&gt;010&lt;/TD&gt;
+&lt;TD height=22 vAlign=top width=392 align=left&gt;Polievkové korenie&lt;/TD&gt;
+&lt;TD height=22 vAlign=top width=329 align=right&gt;0,05&lt;/TD&gt;
+&lt;TD height=22 vAlign=top width=335 align=right&gt;0,05&lt;/TD&gt;
+&lt;TD height=22 vAlign=top width=375 align=right&gt;l&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD vAlign=top width=31 align=left&gt;009&lt;/TD&gt;
+&lt;TD vAlign=top width=392 align=left&gt;Niťovky&lt;/TD&gt;
+&lt;TD vAlign=top width=329 align=right&gt;0,22&lt;/TD&gt;
+&lt;TD vAlign=top width=335 align=right&gt;0,22&lt;/TD&gt;
+&lt;TD vAlign=top width=375 align=right&gt;kg&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;
+&lt;P&gt;Jedna z týchto zložiek, a to &lt;EM&gt;Vývar hovädzí,&lt;/EM&gt; je sama receptúrou a skladá sa z&amp;nbsp;jednoduchých skladových kariet&amp;nbsp;hovädzie kosti, soľ,&amp;nbsp;celé čierne korenie, mrkva, zeler&amp;nbsp;atď.&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="442626f8-f383-4830-8189-aef9a1d0eb7d" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="2d9e274d-bfb7-43bc-9e70-b091ed82b9b2">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="42da7914-1c21-4d40-b90c-eefbb6387198" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="12572b52-44a7-433c-be59-df1192f3c6a0">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="b92e5c6a-a562-4896-9eb7-1bafd81ed3c4" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="d625d826-19da-443e-9c4b-9fd6d5a9c0bd">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="2935f426-3eda-4495-8425-5a1991e3e53b" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="3ae0999b-7567-4494-ac38-6da31fcaa7b1">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="a72a4c6e-5f40-4dd9-b5d8-045f1bad196a" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="7d59dbfd-5b4f-46aa-91a8-97fb4491d839">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="ddbab063-97c7-427a-a7f9-f7c9a1c9fed5">
+      <Keyword m="2023-05-31T12:53:48.1230899Z">Receptúr - zložená</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="75b30e2b-4e84-46ae-b43d-4e8898152715">
+      <Keyword />
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

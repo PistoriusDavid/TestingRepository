@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="f556de38-1404-4022-94e4-3ec9f00fd222" Status="Complete" CreatedOn="2023-10-19T12:10:14.7892714Z" ModifiedOn="2024-01-16T08:49:22.9651078Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Tech_AppRun_StartError_Antivirus" BuildFlags="">
+  <Title m="2023-10-19T12:11:34.7809602Z">Problém s antivírusovým programom</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-01-16T08:49:22.9651078Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; je venovaná &lt;STRONG&gt;problémom spojeným s&amp;nbsp;antivírusovým programom, pre ktoré nie je možné spustiť, prípadne aktualizovať&lt;/STRONG&gt; systém OBERON.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Skupinou&amp;nbsp;problémov, ktoré môžu nastať pri spustení (prípadne prevádzkovaní) systému OBERON, sú&amp;nbsp;&lt;STRONG&gt;problémy&amp;nbsp;spojené aj s&amp;nbsp;antivírusovým programom&lt;/STRONG&gt;. Tento druh&amp;nbsp;problémov sa spravidla vyskytuje po aktualizácii antivírusového programu, ktorú používateľ systému OBERON nemusí ani postrehnúť. Po ukončení aktualizácie antivírusový systém &lt;STRONG&gt;vyhodnotí OBERON alebo niektorú z&amp;nbsp;jeho systémových súčastí ako hrozbu&amp;nbsp;a zablokuje ho&lt;/STRONG&gt; - vymaže daný súbor z disku, prípadne ho presunie&amp;nbsp;do karantény. 
+&lt;LI&gt;Aj&amp;nbsp;keď existuje teoretická možnosť, že by mohol byť inštalačný súbor napadnutý, &lt;STRONG&gt;spravidla ide o nesprávnu detekciu antivírusového systému (falošný poplach)&lt;/STRONG&gt;, ktorá sa v&amp;nbsp;minulosti vyskytla u viacerých výrobcov antivírusových systémov - napr.&amp;nbsp;&lt;EM&gt;Avast&lt;/EM&gt;, &lt;EM&gt;AVG&lt;/EM&gt;, &lt;EM&gt;Eset&lt;/EM&gt;, &lt;EM&gt;Kaspersky&lt;/EM&gt;. Ak nás niektorý&amp;nbsp;z&amp;nbsp;používateľov informuje o takejto situácii, spravidla obratom informujeme o&amp;nbsp;danom probléme&amp;nbsp;výrobcu antivírusového systému a žiadame ho o&amp;nbsp;riešenie. Niektorí výrobcovia s nami spolupracujú a chybu do niekoľkých hodín či dní odstránia,&amp;nbsp;niektorí však na našu výzvu v&amp;nbsp;minulosti nereagovali - vtedy jediným riešením je&amp;nbsp;&lt;STRONG&gt;antivírusový systém z&amp;nbsp;počítača odstrániť a nahradiť ho iným&lt;/STRONG&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H3&gt;Riešenie chybnej detekcie OBERON-u antivírusovým programom&lt;/H3&gt;
+&lt;UL&gt;
+&lt;LI&gt;V prípade, že&amp;nbsp;antivírusový program&amp;nbsp;detegoval&amp;nbsp;OBERON ako hrozbu, je potrebné rozlišovať, kedy sa tak stalo - &lt;STRONG&gt;ak to bolo po aktualizácii antivírusového systému, s&amp;nbsp;vysokou pravdepodobnosťou ide o falošný poplach&lt;/STRONG&gt;. Vtedy odporúčame postupovať takto: 
+&lt;OL&gt;
+&lt;LI&gt;dočasne pozastaviť antivírusovú kontrolu, 
+&lt;LI&gt;vykonať reinštaláciu OBERON-u a následne overiť, či pracuje korektne, 
+&lt;LI&gt;ponechať pozastavenú antivírusovú kontrolu, pridať výnimku pre označenú hrozbu v&amp;nbsp;antivírusovom programe, prípadne na nevyhnutný čas antivírusový program odinštalovať. &lt;/LI&gt;&lt;/OL&gt;
+&lt;LI&gt;V prípade, že&amp;nbsp;antivírusový program &lt;STRONG&gt;detegoval&amp;nbsp;OBERON ako hrozbu&amp;nbsp;pri jeho inštalácii (alebo aktualizácii), môže ísť o nesprávnu detekciu, ale aj o skutočnú hrozbu&lt;/STRONG&gt; - vtedy odporúčame kontaktovať firmu EXALOGIC a pokúsiť sa získať viac informácií o&amp;nbsp;uvedenom probléme. 
+&lt;LI&gt;Iným príkladom problémov spôsobených antivírusovým programom &lt;STRONG&gt;je zablokovanie prístupu mobilných zariadení, na ktorých sa používajú aplikácie&lt;/STRONG&gt; (&lt;A href="be17efdf-4b36-4b47-ad5d-09b0f66c8f65"&gt;ASTON&lt;/A&gt;,&amp;nbsp;&lt;A href="942d48d5-b290-40f6-8ba3-45cf78f380f9"&gt;LUKUL&lt;/A&gt; a pod.) &lt;STRONG&gt;k&amp;nbsp;webovej službe spustenej&amp;nbsp;na počítači, kde je nainštalovaný antivírusový program ako aplikácia nadradená programu&amp;nbsp;&lt;EM&gt;Windows Defender Firewall&lt;/EM&gt;&lt;/STRONG&gt;. Riešením je povolenie príslušného portu v antivírusovom programe. 
+&lt;LI&gt;Ďalším príkladom je v&amp;nbsp;sieťovej prevádzke&amp;nbsp;zablokovanie prístupu počítača, na ktorom sa používa systém OBERON, k počítaču (serveru) s&amp;nbsp;SQL serverom, na ktorom je &lt;STRONG&gt;nainštalovaný antivírusový program&amp;nbsp;ako aplikácia nadradená programu&amp;nbsp;&lt;EM&gt;Windows Defender Firewall&lt;/EM&gt;&lt;/STRONG&gt;. Riešením je povolenie príslušného portu v antivírusovom programe. 
+&lt;LI&gt;Problém s antivírusovým systémom sa môže prejavovať&amp;nbsp;&lt;STRONG&gt;aj pri tvorbe tlačového výstupu&lt;/STRONG&gt; - použitý generátor tlačových výstupov generuje dočasnú DLL knižnicu&amp;nbsp;C:\OBERON\TEMP\compiled_report.dll, ktorú antivírusový program označí za hrozbu, prípadne ju ihneď odstráni.&amp;nbsp;Riešením je pridanie výnimky na kontrolu danej DLL knižnice v antivírusovom programe. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget layout="block" type="Tip Box"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Na&amp;nbsp;ochranu počítača odporúčame využívať antivírusový systém od firmy ESET, ktorá patrí vo svojej triede medzi svetovú špičku. Dôležitá je nielen detekcia potencionálnej hrozby, ale aj dostupnosť technickej podpory a rýchlosť vyriešenia vzniknutého problému.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H5&gt;Obrázok č.&amp;nbsp;1:&amp;nbsp;Príklad chybnej detekcie antivírusového systému AVAST (03/20015)&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/TechnicalIssues/Avast_Problem1.gif"&gt;&lt;/P&gt;
+&lt;H5&gt;Obrázok č.&amp;nbsp;2:&amp;nbsp;Príklad pridania výnimky do antivírusového systému AVAST&lt;BR&gt;&lt;BR&gt;&lt;IMG border=0 alt="" src="images/TechnicalIssues/Avast_Exception.PNG"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/H5&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="2abc1501-e7b4-4f51-b29a-11e649db190c" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="114e64df-3d6c-4a0e-9405-c0e75fbe02dc">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="514fa7c9-c19c-4484-a4c6-9f22101de51e" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="47ad147f-780a-4735-adcc-c5ac17ea9526">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="81664d89-aa2e-4c9c-b5d4-3b396197f501">
+      <Keyword m="2023-10-20T12:58:27.1222339Z">Problémy so spustením OBERON-u - antivírusový program</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="6ba660b0-c9ea-4591-bb57-0d2d6ba9fcd0">
+      <Keyword />
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

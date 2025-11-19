@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="06901091-ca91-46ba-8a98-f3183d00bb63" Status="Complete" CreatedOn="2014-09-10T06:39:23.3760614Z" ModifiedOn="2024-12-03T08:20:51.7974079Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="51100" Name="Stock_Advanced_Reservations" BuildFlags="">
+  <Title m="2015-12-28T09:41:02.809076Z">Rezervácie tovaru</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-12-03T08:20:51.7974079Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;informácie o možnostiach vytvárania a&amp;nbsp;evidovania rezervácií tovaru&lt;/STRONG&gt; v&amp;nbsp;systéme OBERON.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Systém OBERON umožňuje &lt;STRONG&gt;vytvárať a&amp;nbsp;evidovať rezervácie tovaru (skladových položiek)&lt;/STRONG&gt;, a&amp;nbsp;to v&amp;nbsp;knihe &lt;A href="48505e8d-5f28-4063-882b-ca07f33670ef"&gt;Objednávky prijaté&lt;/A&gt;. Postup na vytvorenie rezervácie je totožný s postupom na vytvorenie prijatej objednávky s tým rozdielom, že sa vyplní pole &lt;EM&gt;&lt;STRONG&gt;Dátum rezervácie&lt;/STRONG&gt;&lt;/EM&gt;. 
+&lt;LI&gt;Rezervovať tovar je možné v prijatej objednávke (nie na type dokladu &lt;EM&gt;Ponuka&lt;/EM&gt;). Rezervovať je možné &lt;STRONG&gt;aj množstvo, ktoré je väčšie ako práve evidované&lt;/STRONG&gt; (napr. môže&amp;nbsp;sa rezervovať 10&amp;nbsp;ks, na skladovej karte však môžu byť len 3&amp;nbsp;ks). 
+&lt;LI&gt;Pri výdaji rezervovanej položky program&amp;nbsp;používateľa upozorní &lt;STRONG&gt;podrobnou informáciou o rezervácii&lt;/STRONG&gt; (pozri Obrázok č. 1).&amp;nbsp;Následne sa&amp;nbsp;používateľ môže rozhodnúť, či položku napriek rezervácii vydá, alebo nie. 
+&lt;LI&gt;Či je na položku vykonaná rezervácia, je možné zistiť kedykoľvek, napr. v&amp;nbsp;zozname skladových kariet po stlačení tlačidla &lt;I&gt;Možnosti&lt;/I&gt; - &lt;I&gt;Zobraziť prijaté nevybavené objednávky&lt;/I&gt; alebo pri výbere položky do dokladu. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 1: Informovanie o rezervácii položky&amp;nbsp;pri vytváraní výdajky&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/Stock/Form_Stock_Reserve.png"&gt;&amp;nbsp;&lt;/P&gt;
+&lt;H2&gt;Ako vykonať rezerváciu&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;V&amp;nbsp;ponuke &lt;EM&gt;Fakturácia&lt;/EM&gt; zvoľte položku &lt;A href="48505e8d-5f28-4063-882b-ca07f33670ef"&gt;Objednávky prijaté&lt;/A&gt;. 
+&lt;LI&gt;V&amp;nbsp;otvorenej evidencii&amp;nbsp;stlačte tlačidlo&amp;nbsp;&lt;EM&gt;Nový&lt;/EM&gt;,&amp;nbsp;otvorí sa sprievodca &lt;EM&gt;Nová prijatá objednávka.&lt;/EM&gt; 
+&lt;LI&gt;Vyberte&amp;nbsp;spôsob vytvorenia dokladu, prevádzku (v prípade členenia na&amp;nbsp;&lt;A href="8df798f2-4fbf-4279-ad8c-493bdbe7f2e4"&gt;prevádzky&lt;/A&gt;), typ dokladu, zadajte dátum, číslo dokladu a&amp;nbsp;&lt;STRONG&gt;dátum rezervácie&lt;/STRONG&gt;. 
+&lt;LI&gt;V ďalšom kroku vyberte, resp. zadajte &lt;A href="b7a48886-b367-4056-808a-59ba5f871f32"&gt;obchodného partnera&lt;/A&gt;. Obchodného partnera je možné&amp;nbsp;&lt;A href="e5871f39-032a-431b-9117-df5a4e5dccc8"&gt;vyhľadať na internete podľa názvu alebo podľa IČO&lt;/A&gt;. 
+&lt;LI&gt;Stlačením tlačidla&amp;nbsp;&lt;I&gt;Dokončiť&lt;/I&gt; sa otvorí&amp;nbsp;&lt;A href="6712889d-bea7-4ae7-859d-82b809c7bdcc"&gt;formulár Objednávka prijatá&lt;/A&gt;. 
+&lt;LI&gt;V poli &lt;EM&gt;&lt;STRONG&gt;Dátum rezervácie&lt;/STRONG&gt;&lt;/EM&gt; skontrolujte, či je zadaný dátum, dokedy majú byť položky dokladu&amp;nbsp;rezervované.&amp;nbsp;Ak bude zadaný dátum platnosti rezervácie, bude pri vkladaní položiek do objednávky automaticky každá z&amp;nbsp;nich rezervovaná. 
+&lt;LI&gt;Pridať novú položku&amp;nbsp;do dokladu je možné&amp;nbsp;v&amp;nbsp;záložke &lt;I&gt;Položky dokladu&lt;/I&gt;, tlačidlo &lt;I&gt;Nový&lt;/I&gt;. Položky dokladu môžu byť skladové (&lt;A href="1a33ab0b-2df7-4dc2-962b-8a3319c16831"&gt;skladové karty&lt;/A&gt;) alebo neskladové (označené ikonou&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_NonStockCardItem.png"&gt;). Stlačením tlačidla&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_ListButton.png"&gt;, ktoré sa nachádza&amp;nbsp;za názvom neskladovej položky dokladu,&amp;nbsp;je možné&amp;nbsp;otvoriť &lt;A href="44687867-ecee-4004-93db-ac793d646191"&gt;Zoznam neskladových položiek&lt;/A&gt; (číselník), ktorý slúži na rýchlejšie a&amp;nbsp;jednoduchšie zadávanie často&amp;nbsp;používaných položiek dokladu. Funkcie na prácu s&amp;nbsp;položkami dokladu sú dostupné po stlačení tlačidla &lt;EM&gt;Možnosti&lt;/EM&gt; (napr. zadávanie zľavy). V prípade potreby možno upraviť rezervované množstvá položiek po stlačení tlačidla &lt;EM&gt;Oprava&lt;/EM&gt;. 
+&lt;LI&gt;V&amp;nbsp;záložke &lt;EM&gt;Doprava&lt;/EM&gt; vyplňte potrebné údaje o doprave (údaje o spôsobe dopravy, nakládke, vykládke). Podľa potreby zadajte text pred, resp. za položkami. Najčastejšie používané texty v&amp;nbsp;objednávkach (pred položkami, za položkami atď.) je možné preddefinovať, prípadne už zadané texty upravovať alebo mazať. Viac informácií v téme&amp;nbsp;&lt;A href="f500bb74-abd3-4d09-a7c5-4ca583519615"&gt;Texty dokladov&lt;/A&gt;. 
+&lt;LI&gt;Zápis údajov potvrďte stlačením tlačidla &lt;I&gt;&lt;STRONG&gt;OK&lt;/STRONG&gt;&lt;/I&gt;. Do knihy&amp;nbsp;prijatých objednávok&amp;nbsp;sa uloží nová&amp;nbsp;prijatá objednávka - &lt;STRONG&gt;rezervácia&lt;/STRONG&gt;. &lt;/LI&gt;&lt;/OL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="b2cc9829-4ab1-4e4f-b92e-218b48905072" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="48505e8d-5f28-4063-882b-ca07f33670ef">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="d4230d76-4b1f-48b8-a127-c4513efce0f5" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="6712889d-bea7-4ae7-859d-82b809c7bdcc">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="dc63f312-a528-44ba-8625-d6aa59533cb0" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="d6f59ec9-e1c8-4452-b048-fac4d4ab6fd8">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="83cbc44b-3ec0-45b1-a472-f23fa076cf84">
+      <Keyword m="2023-04-27T12:50:12.4804484Z">Tovar - rezervácie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="fc089d55-d279-4778-82c1-209c6c2140db">
+      <Keyword m="2023-04-27T12:50:19.3907677Z">Vytvorenie rezervácie tovaru</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

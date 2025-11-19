@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="c23e6100-7028-47b3-952a-f43fbf6ee5c6" Status="Complete" CreatedOn="2019-10-04T07:25:22.1641776Z" ModifiedOn="2023-07-06T13:02:12.3111187Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="OBERON_MobileSolutions" BuildFlags="">
+  <Title m="2019-10-04T07:26:30.322346Z">Mobilné riešenia v OBERON-e</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-07-06T13:02:12.3111187Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;prehľad mobilných riešení, ktoré&amp;nbsp;predstavujú rozšírenia systému OBERON pre mobilné zariadenia a dotykové displeje&lt;/STRONG&gt; dodávané priamo s&amp;nbsp;OBERON-om alebo partnermi. Všetky nasledujúce mobilné riešenia možno používať výhradne so systémom OBERON.&lt;/P&gt;
+&lt;H2&gt;&lt;A href="b138daad-5453-4e53-8d2c-ecf2e81a5fcb"&gt;OBERON Web&lt;/A&gt;&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;EM&gt;OBERON Web&lt;/EM&gt; je &lt;STRONG&gt;nadstavbová webová aplikácia systému OBERON, ktorá&amp;nbsp;môže byť spustená v ľubovoľnom webovom prehliadači, pričom svojou funkčnosťou je prispôsobená aj&amp;nbsp;na použitie na mobilných zariadeniach&lt;/STRONG&gt; (tablety, smartfóny...). Keďže ide o webovú aplikáciu, nezáleží na používanom operačnom systéme daného zariadenia - či už je to &lt;EM&gt;Windows, macOS, Android, iOS&lt;/EM&gt; atď.
+&lt;LI&gt;Aplikácia &lt;I&gt;OBERON Web&lt;/I&gt; &lt;STRONG&gt;poskytuje&amp;nbsp;vybrané manažérske informácie zo systému OBERON v reálnom čase&lt;/STRONG&gt;, prípadne umožňuje vykonávať určité špecifické činnosti, napr. zadávanie fyzických množstiev&amp;nbsp;pri inventúre skladu. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;&lt;A href="fe4a9463-d066-4a56-8eee-a728ae1a7220"&gt;OBERON eMenu&lt;/A&gt;&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Miniaplikácia &lt;EM&gt;OBERON eMenu&lt;/EM&gt; predstavuje&amp;nbsp;&lt;STRONG&gt;jednoduchý elektronický&amp;nbsp;jedálny (nápojový, raňajkový atď.)&amp;nbsp;lístok určený pre gastroprevádzky&lt;/STRONG&gt;, ktorý je možné zobraziť na&amp;nbsp;mobilnom zariadení zákazníka (smartfóne, tablete...). &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;&lt;A href="518026eb-be63-494d-b3e3-837f9509c543"&gt;QeeR skener&lt;/A&gt;&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Aplikácia &lt;EM&gt;QeeR skener&lt;/EM&gt;&amp;nbsp;predstavuje&amp;nbsp;softvérový&amp;nbsp;&lt;A href="80a78093-fc45-4db9-b74b-e1f9829f7b3c"&gt;snímač&lt;/A&gt; QR kódov.&amp;nbsp;Je určený pre mobilné zariadenia s operačným systémom &lt;EM&gt;&lt;STRONG&gt;Android&lt;/STRONG&gt;&lt;/EM&gt;&amp;nbsp;a &lt;EM&gt;&lt;STRONG&gt;iOS&lt;/STRONG&gt;&lt;/EM&gt;.
+&lt;LI&gt;Aplikácia je &lt;STRONG&gt;bezplatná&lt;/STRONG&gt; a&amp;nbsp;možno ju&amp;nbsp;využiť na skenovanie QR kódov na pokladničných dokladoch na ich&amp;nbsp;zaúčtovanie do&amp;nbsp;&lt;A href="5e82cca9-b8af-4a80-ba30-7ab91914a595"&gt;peňažného&lt;/A&gt;/&lt;A href="d8c9bfc8-92d1-4471-8909-e5f8ce602d6c"&gt;účtovného denníka&lt;/A&gt; v module &lt;EM&gt;Účtovníctvo&lt;/EM&gt;. Viac informácií nájdete v&amp;nbsp;téme&amp;nbsp;&lt;A href="cf9e27af-d4c5-4b0c-9b37-78cfa72b9abd" style="auto-update-caption: true"&gt;Automatické účtovanie pokladničných dokladov&lt;/A&gt;.
+&lt;LI&gt;Ďalším&amp;nbsp;spôsobom využitia je&amp;nbsp;nasnímanie QR kódu pri vrátení tovaru (storne) v&amp;nbsp;&lt;A href="aec074f4-3e1c-4a1e-8a80-06fcecf51156"&gt;Pokladnici OBERON&lt;/A&gt;&amp;nbsp;na načítanie UID, resp. OKP dokladu (v záložke &lt;EM&gt;Iné údaje dokladu&lt;/EM&gt;), prípadne iné spôsoby využitia.&amp;nbsp;Viac informácií je možné získať v téme&amp;nbsp;&lt;A href="86ce651c-2637-4165-93b4-36535a700fbf"&gt;Práca s čiarovými kódmi&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;&lt;A href="be17efdf-4b36-4b47-ad5d-09b0f66c8f65"&gt;ASTON&lt;/A&gt;&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Aplikácia &lt;EM&gt;ASTON - mobilný skladník&lt;/EM&gt; je určená pre mobilné zariadenia&amp;nbsp;(terminály, smartfóny, tablety)&amp;nbsp;s operačným systémom &lt;EM&gt;&lt;STRONG&gt;Android&lt;/STRONG&gt;&lt;/EM&gt; a&amp;nbsp;&lt;EM&gt;&lt;STRONG&gt;iOS&lt;/STRONG&gt;&lt;/EM&gt;.
+&lt;LI&gt;Aplikačný program má &lt;STRONG&gt;všestranné využitie na prácu v&amp;nbsp;sklade&lt;/STRONG&gt; (inventúra, kontrola cien, príjem do skladu, výdaj zo skladu, sledovanie naskladnenosti/vyskladnenosti tovaru...). &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;&lt;A href="942d48d5-b290-40f6-8ba3-45cf78f380f9"&gt;LUKUL&lt;/A&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Viacúčelová gastroaplikácia &lt;EM&gt;LUKUL - nielen mobilný čašník&lt;/EM&gt; je určená pre mobilné zariadenia&amp;nbsp;(terminály, smartfóny, tablety)&amp;nbsp;s operačným systémom &lt;EM&gt;&lt;STRONG&gt;Android&lt;/STRONG&gt;&lt;/EM&gt; a &lt;EM&gt;&lt;STRONG&gt;iOS&lt;/STRONG&gt;&lt;/EM&gt;.
+&lt;LI&gt;Aplikácia môže pracovať vo viacerých režimoch: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;LUKUL - mobilný čašník&lt;/STRONG&gt; -&amp;nbsp;určený pre obsluhu,&amp;nbsp;umožňuje objednávať jedlo a nápoje priamo od stola zákazníka,
+&lt;LI&gt;&lt;STRONG&gt;LUKUL eMenu - bez možnosti objednávania&lt;/STRONG&gt; - určený pre zákazníka na prezeranie elektronického&amp;nbsp;jedálneho a nápojového&amp;nbsp;lístka v reštauračnej prevádzke na vlastnom mobilnom zariadení (smartfóne, tablete)&amp;nbsp;bez možnosti objednávania,
+&lt;LI&gt;&lt;STRONG&gt;LUKUL eMenu - hosť v reštaurácii&lt;/STRONG&gt; - určený pre zákazníka na prezeranie elektronického&amp;nbsp;jedálneho a nápojového&amp;nbsp;lístka v reštauračnej prevádzke na vlastnom mobilnom zariadení (smartfóne, tablete)&amp;nbsp;s&amp;nbsp;možnosťou objednania v reštaurácii,
+&lt;LI&gt;&lt;STRONG&gt;LUKUL eMenu - donáška&lt;/STRONG&gt; -&amp;nbsp;určený pre zákazníka na prezeranie elektronického&amp;nbsp;jedálneho a nápojového&amp;nbsp;lístka na vlastnom mobilnom zariadení (smartfóne, tablete)&amp;nbsp;s&amp;nbsp;možnosťou objednania na donášku. Viac informácií o tomto režime získate v osobitnej téme&amp;nbsp;&lt;A href="e90f516a-cb3b-43d9-82dd-440c6e6e9789"&gt;Aplikácia LUKUL - režim donášky&lt;/A&gt;.&lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="56ceaafd-e90d-4ba9-9402-63c86504c445" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="d7884189-d893-43c0-8e6a-cfad14d790c1">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="c89f9067-894c-4589-857c-a854578a22e6" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="9690f267-6ad7-4e22-9af2-675ef3d9d041">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="114ef29a-7c33-4e30-8a4a-61f6380b2725">
+      <Keyword m="2022-04-05T11:12:03.9116694Z">OBERON Web - mobilné riešenia</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="06d2c6f9-ae29-4974-9f6a-1cd6fb20fb5d">
+      <Keyword m="2022-04-05T11:13:06.3843512Z">OBERON eMenu - mobilné riešenia</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="9ccde7a7-c5ec-42d5-b112-b0ef3eebe7dd">
+      <Keyword m="2022-04-05T11:13:52.8636534Z">ASTON - mobilné riešenia</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="a2c6f6a4-b6d0-45f0-b4ff-b3406b726703">
+      <Keyword m="2022-04-05T11:14:04.9123102Z">QeeR skener - mobilné riešenia</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="970d8b4a-e7ef-429a-a8e7-f1eea78cbb4e">
+      <Keyword m="2022-04-05T11:14:17.5370968Z">LUKUL - mobilné riešenia</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

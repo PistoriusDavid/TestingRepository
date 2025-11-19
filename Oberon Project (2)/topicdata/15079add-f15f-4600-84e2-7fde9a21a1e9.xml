@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="15079add-f15f-4600-84e2-7fde9a21a1e9" Status="Complete" CreatedOn="2015-09-07T08:40:54.426375Z" ModifiedOn="2023-05-23T11:43:20.8975528Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="CRM_Registrature_Started_LiquidationWritings" BuildFlags="">
+  <Title m="2015-09-07T09:16:27.2349688Z">Vyradenie a fyzická likvidácia registratúrnych záznamov</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-05-23T11:24:09.8041708Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;informácie o&amp;nbsp;vyradení a fyzickej likvidácii registratúrnych záznamov&lt;/STRONG&gt; v&amp;nbsp;module&amp;nbsp;&lt;A href="f1a6963d-36aa-4134-92a5-fa47a4345e74"&gt;CRM a registratúra&lt;/A&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Vyradenie registratúrneho záznamu predstavuje &lt;STRONG&gt;súhrn činností, pri ktorých sa z registratúry vyčleňuje registratúrny záznam, ktorému uplynula lehota uloženia&lt;/STRONG&gt;. Registratúrny záznam s trvalou dokumentárnou hodnotou sa ukladá do&amp;nbsp;&lt;A href="5d728358-074b-4fe2-8ba7-bc9f6dba02c7"&gt;archívu&lt;/A&gt; a registratúrny záznam bez trvalej dokumentárnej hodnoty sa zničí. Postup presunutia registratúrnych záznamov do archívu je popísaný v téme&amp;nbsp;&lt;A href="5d728358-074b-4fe2-8ba7-bc9f6dba02c7" style="auto-update-caption: true"&gt;Registratúrne stredisko (archív)&lt;/A&gt;. 
+&lt;LI&gt;Registratúrne záznamy a spisy je možné fyzicky zlikvidovať (skartovať) len so súhlasom príslušného miestneho štátneho archívu. Pri vyraďovacom konaní je dôležité odborne a zodpovedne rozhodnúť, ktoré záznamy a&amp;nbsp;&lt;A href="b9d813c2-1ac9-4606-b104-819ea02b6463"&gt;spisy&lt;/A&gt; je možné vyradiť a následne skartovať a ktoré je potrebné odovzdať do štátneho archívu. 
+&lt;LI&gt;Vyraďujú sa dokumenty a spisy, ktoré nie sú potrebné pre ďalšiu činnosť&amp;nbsp;účtovnej jednotky&amp;nbsp;a ktorým uplynuli lehoty uloženia. Vyraďovacie konanie sa má urobiť minimálne jedenkrát za päť rokov. Rozhodnutie o&amp;nbsp;vyradení vydáva miestny príslušný štátny archív na základe návrhu&amp;nbsp;účtovnej jednotky&amp;nbsp;po posúdení dokumentárnej hodnoty a po vykonaní odbornej archívnej prehliadky. &lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="0c9132e9-a7b2-4536-9854-3721b47624f4" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="5d728358-074b-4fe2-8ba7-bc9f6dba02c7">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="df36c1fd-9d2e-47d6-99b5-332bd8e7be41" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="0fe6411c-9069-4097-b90f-e69f01a61569">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="5a5f4371-c00c-498b-814f-5814e7fcfa69">
+      <Keyword m="2015-09-07T09:33:34.058211Z">Skartácia dokumentov a spisov</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="86248762-ea7e-47ba-9deb-82894e721285">
+      <Keyword m="2023-05-23T11:21:23.0127797Z">Fyzická likvidácia dokumentov a spisov - registratúra</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

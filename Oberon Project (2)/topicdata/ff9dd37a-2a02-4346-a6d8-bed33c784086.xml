@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="ff9dd37a-2a02-4346-a6d8-bed33c784086" Status="Complete" CreatedOn="2014-09-08T12:50:49.5231614Z" ModifiedOn="2024-10-21T12:24:58.2134832Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="22403" Name="Menu_Service_Logged_Users" BuildFlags="">
+  <Title m="2022-01-26T06:46:01.6345979Z">Prihlásení používatelia</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-10-21T12:24:58.2134832Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;je venovaná&amp;nbsp;položke&amp;nbsp;&lt;EM&gt;Prihlásení používatelia&lt;/EM&gt;&amp;nbsp;v&amp;nbsp;ponuke&amp;nbsp;&lt;EM&gt;Servis&lt;/EM&gt; programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Výberom položky sa otvorí formulár &lt;EM&gt;Zoznam&lt;/EM&gt; p&lt;I&gt;rihlásených používateľov&lt;/I&gt; so &lt;STRONG&gt;zoznamom používateľov, ktorí&amp;nbsp;sú aktuálne (v&amp;nbsp;čase zobrazenia zoznamu) prihlásení&lt;/STRONG&gt; do programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt; . 
+&lt;LI&gt;Formulár obsahuje meno prihláseného&amp;nbsp;používateľa (meno, ktorým sa tento&amp;nbsp;používateľ prihlasuje do programu), názov počítača, na&amp;nbsp;ktorom je prihlásený, ako&amp;nbsp;aj čas a dátum prihlásenia.&amp;nbsp; 
+&lt;LI&gt;Údaje sa vo formulári automaticky neaktualizujú (na ich aktualizáciu je potrebné stlačiť tlačidlo&amp;nbsp;&lt;EM&gt;Obnoviť&lt;/EM&gt; alebo&amp;nbsp;kláves &lt;EM&gt;F5&lt;/EM&gt;). 
+&lt;LI&gt;Informácie zobrazené vo formulári môže využiť napr.&amp;nbsp;administrátor pri sieťovej prevádzke systému OBERON. &lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="48d10219-ddfa-4666-8671-edfe17544894" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="0c107d0c-e14f-4aa7-a954-d84b299ac5cb">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="9f69edbe-b789-4661-89cb-d5edececcaa0" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="225638ed-22f6-4ac4-9085-6d77c64925db">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="f42af9cb-01ce-4343-90d0-a6a5c1d2a736" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="834e9546-a56b-476f-9028-ef4c24a82345">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="5e50a796-6b3b-484d-9e3c-8962fe811e68" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="bc30e126-afb5-41aa-a261-e92501038063">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="2a58f60c-cbcf-4d54-a9a0-5adde07dd975">
+      <Keyword m="2021-07-02T12:21:56.8433439Z">Prilásenie/odhlásenie - zoznam prihlásených používateľov</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

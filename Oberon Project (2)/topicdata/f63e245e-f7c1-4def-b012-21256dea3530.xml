@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="f63e245e-f7c1-4def-b012-21256dea3530" Status="Complete" CreatedOn="2014-10-17T07:00:03.6316047Z" ModifiedOn="2023-10-12T12:18:40.6070283Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="22002" Name="Form_OBERON_LoyalitySystem" BuildFlags="">
+  <Title m="2021-12-03T09:54:05.5281783Z">Formulár Vernostný systém - kumulovanie/čerpanie benefitu</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2022-08-10T08:52:11.2866986Z">&lt;P&gt;Formulár&amp;nbsp;&lt;EM&gt;Vernostný systém - kumulovanie/čerpanie benefitu&lt;/EM&gt;&amp;nbsp;umožňuje &lt;STRONG&gt;zaevidovať (aktivovať) vernostnú kartu (RFID kľúč) a kumulovať/čerpať benefity&lt;/STRONG&gt; pri práci s&amp;nbsp;&lt;A href="6c98a377-1b88-4eb8-801b-1f168641373b"&gt;vernostným systémom&lt;/A&gt; v&amp;nbsp;systéme OBERON. De facto ide až o&amp;nbsp;tri obsahovo takmer&amp;nbsp;totožné formuláre s&amp;nbsp;rozdielnym názvom -&amp;nbsp;formulár &lt;EM&gt;Vernostný systém - kumulovanie benefitu,&lt;/EM&gt; formulár &lt;EM&gt;Vernostný systém - čerpanie benefitu&amp;nbsp;&lt;/EM&gt;a&amp;nbsp;&lt;EM&gt;Vernostný systém - info&lt;/EM&gt;, ktoré poskytujú prístup k&amp;nbsp;detailným informáciám o&amp;nbsp;dostupných benefitoch, ako aj o použití danej vernostnej karty.&lt;/P&gt;
+&lt;P&gt;Formulár &lt;EM&gt;&lt;STRONG&gt;Vernostný systém - kumulovanie benefitu&lt;/STRONG&gt;&lt;/EM&gt; je dostupný z&amp;nbsp;programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;ponuka &lt;EM&gt;Fakturácia&lt;/EM&gt;,&amp;nbsp;&lt;A href="5c21adcc-87c8-44e7-981d-02902635693d"&gt;Kniha pohľadávok&lt;/A&gt; alebo ponuka&amp;nbsp;&lt;EM&gt;Sklad&lt;/EM&gt;,&amp;nbsp;&lt;A href="0be61fcc-a85b-4572-876d-2171a5cb7c29"&gt;Výdajky&lt;/A&gt;,&amp;nbsp;tlačidlo &lt;EM&gt;Možnosti - Vernostný systém - kumulovanie benefitov,&lt;/EM&gt; 
+&lt;LI&gt;ponuka &lt;EM&gt;Sklad&lt;/EM&gt;,&amp;nbsp;&lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnica OBERON&lt;/A&gt;, oddiel &lt;EM&gt;Obchodný partner&lt;/EM&gt;, tlačidlo výberu&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_ListButton.png"&gt;&amp;nbsp;pri poli &lt;EM&gt;Číslo vernostnej karty&lt;/EM&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;P&gt;Formulár &lt;EM&gt;&lt;STRONG&gt;Vernostný systém - čerpanie benefitu&lt;/STRONG&gt;&lt;/EM&gt; je dostupný z&amp;nbsp;programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;z &lt;A href="68022ee5-d91a-4a1d-960b-c5de57414b6f"&gt;formulára Pohľadávka&lt;/A&gt; a&amp;nbsp;z&amp;nbsp;&lt;A href="e5d60ce3-8ad2-43f2-b60d-08c773376f5b"&gt;formulára Výdajka&lt;/A&gt; po stlačení tlačidla &lt;EM&gt;Možnosti&lt;/EM&gt; &lt;EM&gt;- Vernostný systém - čerpanie benefitov&lt;/EM&gt;, 
+&lt;LI&gt;ponuka &lt;EM&gt;Sklad&lt;/EM&gt;,&amp;nbsp;&lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnica OBERON&lt;/A&gt;,&amp;nbsp;tlačidlo &lt;EM&gt;Čerpanie benefitov&lt;/EM&gt;&amp;nbsp;(&lt;EM&gt;Ctrl+Shift+E)&lt;/EM&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;P&gt;Formulár &lt;EM&gt;&lt;STRONG&gt;Vernostný systém -&amp;nbsp;info&lt;/STRONG&gt;&lt;/EM&gt; je dostupný z&amp;nbsp;programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;ponuka &lt;EM&gt;Sklad&lt;/EM&gt;,&amp;nbsp;&lt;A href="04d04395-7b97-45db-bdb1-4e36240a4b54" style="auto-update-caption: true"&gt;Vernostný systém - transakcie,&lt;/A&gt; tlačidlo &lt;EM&gt;Možnosti - Zobraziť informácie o vernostnej karte&lt;/EM&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Popis formulára &lt;EM&gt;Vernostný systém - kumulovanie/čerpanie benefitu&lt;/EM&gt;&lt;/H2&gt;&lt;innovasys:widget layout="block" type="Drop Down Section"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Vernostný systém&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Zobrazuje sa názov vernostného systému na kumulovanie, resp. čerpanie benefitov (v prípade používania viacerých vernostných systémov bol zvolený v&amp;nbsp;predchádzajúcom kroku). Vernostný systém sa nastavuje vo&amp;nbsp;&lt;A href="a35e5b68-56e0-4e4a-a271-99b4134aeaf8"&gt;formulári Vernostný systém&lt;/A&gt;, kde možno jeho používanie v&amp;nbsp;prípade potreby aj zakázať.&lt;/innovasys:widgetproperty&gt; &lt;/innovasys:widget&gt;&lt;innovasys:widget layout="block" type="Drop Down Section"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Číslo vernostnej karty&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Zadáva sa číslo vernostnej karty na jej načítanie. Na&amp;nbsp;vernostnej karte&amp;nbsp;môže byť zobrazené vo forme&amp;nbsp;&lt;A href="86ce651c-2637-4165-93b4-36535a700fbf"&gt;čiarového kódu&lt;/A&gt;, čo umožní jeho načítanie, a&amp;nbsp;teda aj identifikáciu obchodného partnera pomocou&amp;nbsp;&lt;A href="80a78093-fc45-4db9-b74b-e1f9829f7b3c"&gt;snímača čiarových kódov&lt;/A&gt;.&amp;nbsp;Alternatívne je možné čísla vernostných kariet evidovať ako čísla RFID kľúčov a na identifikáciu použiť&amp;nbsp;&lt;A href="16818a7f-7c27-497a-be4a-4930302e84f1"&gt;snímač RFID kľúčov&lt;/A&gt;, ktorý sa však v&amp;nbsp;tomto prípade inštaluje ako snímač čiarových kódov - viac v&amp;nbsp;téme&amp;nbsp;&lt;A href="16818a7f-7c27-497a-be4a-4930302e84f1"&gt;Snímače RFID kľúčov&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt; &lt;/innovasys:widget&gt;&lt;innovasys:widget layout="block" type="Drop Down Section"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Vytvoriť novú&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Umožňuje&amp;nbsp;vytvoriť, t.&amp;nbsp;j. zaevidovať novú vernostnú kartu spravidla nasnímaním (aktivovaním)&amp;nbsp;už vopred pripravenej fyzickej karty (resp. RFID kľúča) a&amp;nbsp;zadaním príslušných údajov (platnosť karty, jej typ, osobné údaje&amp;nbsp;zákazníka atď.). Pri vernostnom systéme&amp;nbsp;&lt;A href="e20b0d75-24ee-4bd0-8f05-f61b22205d9a"&gt;OBERON Basic&lt;/A&gt; a&amp;nbsp;&lt;A href="92147420-5d85-4b11-a328-06d401650294"&gt;OBERON vernostný systém (klient)&lt;/A&gt; možno vernostnú kartu vytvoriť aj vo&amp;nbsp;&lt;A href="4fbe9db8-25bc-420f-aee5-228d0a8ff03f"&gt;formulári Obchodný partner&lt;/A&gt;, záložka &lt;EM&gt;Ceny&lt;/EM&gt;. Vernostné karty je následne možné vytlačiť v&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="b7a48886-b367-4056-808a-59ba5f871f32"&gt;Obchodní partneri&lt;/A&gt;, tlačidlo &lt;EM&gt;Tlač&lt;/EM&gt;.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget layout="block" type="Drop Down Section"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Detaily&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Zobrazí históriu pohybov (transakcií) danej vernostnej karty (pripočítanie bodov, odpočítanie bodov, zľava na doklad).&lt;/innovasys:widgetproperty&gt; &lt;/innovasys:widget&gt;&lt;innovasys:widget layout="block" type="Drop Down Section"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Benefity&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Zobrazí zoznam&amp;nbsp;dostupných benefitov, ktoré môže zákazník na základe vernostnej karty čerpať:&lt;BR&gt;- &lt;EM&gt;&lt;STRONG&gt;Zľava na doklad v&amp;nbsp;percentách&lt;/STRONG&gt;&lt;/EM&gt;&amp;nbsp;- zľava zadaná vo&amp;nbsp;&lt;A href="4fbe9db8-25bc-420f-aee5-228d0a8ff03f"&gt;formulári Obchodný partner&lt;/A&gt;,&lt;BR&gt;- &lt;EM&gt;&lt;STRONG&gt;Zľava na doklad v&amp;nbsp;určitej hodnote&lt;/STRONG&gt;&lt;/EM&gt; - zľava nastavená v&amp;nbsp;rámci konfigurácie webovej služby&amp;nbsp;vernostného systému&amp;nbsp;&lt;A href="92147420-5d85-4b11-a328-06d401650294"&gt;OBERON vernostný systém (klient)&lt;/A&gt;,&lt;BR&gt;- &lt;EM&gt;&lt;STRONG&gt;Darčeková položka&lt;/STRONG&gt; -&lt;/EM&gt; predstavuje&amp;nbsp;&lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;skladovú kartu&lt;/A&gt;&amp;nbsp;so zníženou alebo nulovou cenou. Na skladovej karte&amp;nbsp;v záložke &lt;EM&gt;Obch. partneri&lt;/EM&gt; je potrebné mať zadanú&amp;nbsp;hodnotu položky v bodoch pre čerpanie benefitov. Ak bude na vernostnej karte dostatočný počet bodov, benefit bude dostupný a bude možné ho využiť - čerpať (v&amp;nbsp;opačnom prípade bude zobrazený&amp;nbsp;&lt;SPAN style="COLOR: rgb(127,127,127)"&gt;&lt;STRONG&gt;sivou farbou&lt;/STRONG&gt;&lt;/SPAN&gt;).&lt;/innovasys:widgetproperty&gt; &lt;/innovasys:widget&gt;&lt;innovasys:widget layout="block" type="Note Box"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Pri externom vernostnom systéme &lt;EM&gt;Cardberg&lt;/EM&gt; výšku bodov pri &lt;STRONG&gt;kumulovaní benefitov&lt;/STRONG&gt; môže&amp;nbsp;počítať aj systém OBERON, spravidla ju však vypočítava systém&amp;nbsp;&lt;A href="29a9a88d-471d-434a-ad1c-de2068775bdf"&gt;Cardberg&lt;/A&gt;.&amp;nbsp;&lt;STRONG&gt;Čerpanie benefitov&lt;/STRONG&gt; je výlučne v&amp;nbsp;réžii vernostného systému &lt;EM&gt;Cardberg&lt;/EM&gt;.&lt;/innovasys:widgetproperty&gt; &lt;/innovasys:widget&gt;
+&lt;H5&gt;Obrázok&amp;nbsp;č. 1:&amp;nbsp; Formulár na kumulovanie benefitov&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/ProductOptions/LoyaltySystem/LoyaltySystem_CardSelect.PNG"&gt;&lt;/P&gt;&lt;innovasys:widget layout="block" type="Note Box"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Podrobný prehľad transakcií v rámci všetkých používaných vernostných systémov je dostupný v ponuke &lt;EM&gt;Sklad&lt;/EM&gt;,&amp;nbsp;&lt;A href="04d04395-7b97-45db-bdb1-4e36240a4b54"&gt;Vernostný systém - transakcie&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt; &lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="6f4ff1e4-e184-4a0e-996a-d3be1f0900c8" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="6c98a377-1b88-4eb8-801b-1f168641373b">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="847e3f38-18be-4b6f-b004-5cf3e27a60b0" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="e20b0d75-24ee-4bd0-8f05-f61b22205d9a">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="43b66b39-f614-41c1-b256-10fa26a29293" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="92147420-5d85-4b11-a328-06d401650294">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="8decb3a8-d9ae-485f-96de-55619f1c5e82" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="29a9a88d-471d-434a-ad1c-de2068775bdf">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="018c9b33-7bd0-44d5-81fa-743ee6aa1c5f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="7a7d2c0d-866b-42ff-89bd-19d34b0b0a11">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="683bf1a7-fec0-4253-befe-a1d6eadb425a" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="6463c7dc-58dd-4df8-b0d6-bf41901c1998">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="050e3849-3ab9-4a36-a942-45425304333e" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="04d04395-7b97-45db-bdb1-4e36240a4b54">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="cd730c4d-2601-4b89-b5ab-fe9efb9fe851" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="a35e5b68-56e0-4e4a-a271-99b4134aeaf8">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="7372861d-3dde-4878-a45a-5e12d446324a">
+      <Keyword m="2021-12-03T13:20:46.0068198Z">Kumulovanie benefitov - formulár</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="67c39166-dfc1-4e9a-8cbb-8c2649f5e7bf">
+      <Keyword m="2021-12-03T13:20:41.0235495Z">Čerpanie benefitov - formulár</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

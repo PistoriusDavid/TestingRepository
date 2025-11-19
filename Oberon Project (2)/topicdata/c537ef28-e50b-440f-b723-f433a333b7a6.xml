@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="c537ef28-e50b-440f-b723-f433a333b7a6" Status="Complete" CreatedOn="2024-03-05T12:17:43.2215035Z" ModifiedOn="2024-03-06T07:41:44.1691017Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Acc_Start_TurnOfAccountingPeriods" BuildFlags="">
+  <Title m="2024-03-05T12:54:39.4464118Z">Prelom účtovných období</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-03-06T07:31:49.8294927Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; popisuje &lt;STRONG&gt;jednotlivé kroky, ktoré by účtovná jednotka mala vykonať v&amp;nbsp;závislosti od svojho zamerania&amp;nbsp;na konci aktuálneho účtovného obdobia a na začiatku nového účtovného obdobia&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;H2&gt;Zmena spracovávaného obdobia&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Prvým krokom, ktorý je potrebné uskutočniť na prelome účtovných období, je zmena spracovávaného obdobia. Spracovávané obdobie v systéme OBERON spravidla predstavuje kalendárny rok, v ktorom účtovná jednotka pracuje. Jeho správne nastavenie má &lt;STRONG&gt;vplyv na zobrazovanie záznamov, resp. na prácu so záznamami&lt;/STRONG&gt; v danom účtovnom období. 
+&lt;LI&gt;V systéme OBERON možno zmenu spracovávaného obdobia vykonať dvoma rôznymi spôsobmi: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;rýchla zmena&lt;/STRONG&gt; – len pre aktuálne prihláseného používateľa, 
+&lt;LI&gt;&lt;STRONG&gt;pomocou sprievodcu&lt;/STRONG&gt; – hromadne aj pre viacerých používateľov. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Viac informácií získate v téme&amp;nbsp;&lt;A href="6b3b68a9-966a-42c2-8b0e-31fc5f3290df" style="auto-update-caption: true"&gt;Zmena spracovávaného obdobia&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Objednávka licencie na&amp;nbsp;nasledujúce obdobie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Aby ste mohli v novom účtovnom období pracovať &lt;STRONG&gt;bez obmedzení&lt;/STRONG&gt;, je potrebné zakúpiť licenciu (zakupuje sa na každé účtovné obdobie&amp;nbsp;samostatne - tzv.&amp;nbsp;ročná licencia).&amp;nbsp;Objednávky licencií na nasledujúce účtovné obdobie možno realizovať v&amp;nbsp;pracovné dni spravidla od 1.12. aktuálneho účtovného obdobia. 
+&lt;LI&gt;Ďalšie informácie získate v téme&amp;nbsp;&lt;A href="49208c26-7930-4363-9fab-977662e2e8cc" style="auto-update-caption: true"&gt;Ako objednať OBERON&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Import účtovného rozvrhu a predkontácií&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;V OBERON-e sa účtovný rozvrh (len v&amp;nbsp;&lt;A href="49dd3167-870a-4fdf-b631-d4f692f1ed72"&gt;podvojnom účtovníctve&lt;/A&gt;) a predkontácie evidujú pre každý účtovný rok &lt;STRONG&gt;samostatne&lt;/STRONG&gt; (zmeny v predkontáciách v aktuálnom účtovnom období neovplyvnia predkontácie v inom účtovnom období). Z tohto dôvodu je potrebné účtovný rozvrh a predkontácie do nového účtovného obdobia zakaždým naimportovať (pomocou sprievodcu v ponuke &lt;EM&gt;Účtovníctvo&lt;/EM&gt;,&amp;nbsp;&lt;A href="2db9ea90-4731-4a7e-bafd-a7c70581514f" style="auto-update-caption: true"&gt;Účtovný rozvrh&lt;/A&gt;, tlačidlo &lt;EM&gt;Možnosti&lt;/EM&gt;). 
+&lt;LI&gt;Viac informácií získate v téme &lt;A href="2db9ea90-4731-4a7e-bafd-a7c70581514f" style="auto-update-caption: true"&gt;Účtovný rozvrh&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Colný sadzobník&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Keďže sa colný sadzobník do nového účtovného obdobia automaticky neprenáša, je ho potrebné &lt;STRONG&gt;naimportovať manuálne&lt;/STRONG&gt;, a to pomocou sprievodcu dostupného v ponuke &lt;EM&gt;Sklad&lt;/EM&gt;,&amp;nbsp;&lt;A href="1a33ab0b-2df7-4dc2-962b-8a3319c16831" style="auto-update-caption: true"&gt;Skladové karty&lt;/A&gt;, tlačidlo &lt;EM&gt;Nový/Oprava&lt;/EM&gt;, záložka &lt;EM&gt;Doplň. údaje&lt;/EM&gt;. 
+&lt;LI&gt;Viac informácií získate v téme&amp;nbsp;&lt;A href="8f7c0098-5332-40a6-a7e7-92be2a86e854" style="auto-update-caption: true"&gt;Formulár Colný sadzobník&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Registratúrny plán&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Tie účtovné jednotky, ktoré používajú modul&amp;nbsp;&lt;A href="f1a6963d-36aa-4134-92a5-fa47a4345e74"&gt;CRM a registratúra&lt;/A&gt;, by nemali zabudnúť na &lt;STRONG&gt;import registratúrneho plánu&lt;/STRONG&gt; (pomocou sprievodcu v ponuke&amp;nbsp;&lt;A href="e24eddba-71a4-4980-9396-4947da76375a" style="auto-update-caption: true"&gt;Registratúrny plán&lt;/A&gt;, tlačidlo &lt;EM&gt;Možnosti&lt;/EM&gt;). 
+&lt;LI&gt;Viac informácií získate v téme &lt;A href="e24eddba-71a4-4980-9396-4947da76375a" style="auto-update-caption: true"&gt;Registratúrny plán&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Členenie dokladov&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;V prípade, že vo svojej firme využívate členenie dokladov, upozorňujeme, že &lt;STRONG&gt;doklady sa členia pre každý účtovný rok zvlášť&lt;/STRONG&gt;. Ak si želáte preniesť členenie z predchádzajúceho obdobia, môžete tak urobiť v ponuke &lt;EM&gt;Firma&lt;/EM&gt;,&amp;nbsp;&lt;A href="f68687b5-0939-447b-9f8e-37c883676f1e" style="auto-update-caption: true"&gt;Členenie&lt;/A&gt;, tlačidlo &lt;EM&gt;Možnosti&lt;/EM&gt;. 
+&lt;LI&gt;Viac informácií získate v téme &lt;A href="f68687b5-0939-447b-9f8e-37c883676f1e" style="auto-update-caption: true"&gt;Členenie&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Inventarizácia&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Kvôli preukázateľnosti účtovníctva je účtovná jednotka povinná vykonať inventarizáciu majetku a záväzkov ku dňu, ku ktorému sa zostavuje účtovná závierka. Neodkladnou povinnosťou je aj&lt;STRONG&gt; fyzická inventúra v sklade&lt;/STRONG&gt;. 
+&lt;LI&gt;Viac informácií získate v téme&amp;nbsp;&lt;A href="489dd25b-dd6a-416d-be26-ce647566b429" style="auto-update-caption: true"&gt;Spracovanie inventúry&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Účtovná závierka&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Jedným z&amp;nbsp;hlavných krokov, ktoré je potrebné uskutočniť na prelome účtovných období, je vykonanie účtovnej závierky &lt;A href="d8c9bfc8-92d1-4471-8909-e5f8ce602d6c"&gt;účtovného denníka&lt;/A&gt; v&amp;nbsp;&lt;A href="49dd3167-870a-4fdf-b631-d4f692f1ed72"&gt;podvojnom účtovníctve&lt;/A&gt;, resp. účtovná závierka&amp;nbsp;&lt;A href="5e82cca9-b8af-4a80-ba30-7ab91914a595"&gt;peňažného denníka&lt;/A&gt; v&amp;nbsp;&lt;A href="32be28cf-2368-4818-9d24-cfa9d59afb75"&gt;jednoduchom účtovníctve&lt;/A&gt;. 
+&lt;LI&gt;Účtovná závierka sa vykonáva &lt;STRONG&gt;až po kompletnom spracovaní predchádzajúceho účtovného obdobia&lt;/STRONG&gt;, t. j. nemusí byť vykonaná ihneď pri prechode do nového kalendárneho roka. 
+&lt;LI&gt;Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="831d0b51-ffdf-4708-8afc-9d305d97e4d0" style="auto-update-caption: true"&gt;Účtovná závierka účtovného denníka&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Presun príloh dokumentov do elektronického archívu&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Vykonáva sa pomocou&amp;nbsp;&lt;A href="98d635be-10ba-40e1-83f1-acc2366c63eb"&gt;sprievodcu Presun príloh dokumentov do archívu&lt;/A&gt;, pomocou ktorého&lt;STRONG&gt;&amp;nbsp;možno hromadne presunúť elektronické prílohy dokumentov z aktuálnej databázy firmy do archívnej databázy&lt;/STRONG&gt; (&lt;A href="68a24d97-e4a5-4cf4-bc7a-72262df5973e"&gt;elektronického archívu&lt;/A&gt;). 
+&lt;LI&gt;Cieľom presunu príloh dokumentov do elektronického archívu&amp;nbsp;je zníženie veľkosti aktuálnej databázy účtovnej jednotky. Presunuté prílohy dokumentov však&amp;nbsp;budú v OBERON-e i naďalej dostupné, pretože sa budú načítavať z&amp;nbsp;archívnej databázy. 
+&lt;LI&gt;Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="68a24d97-e4a5-4cf4-bc7a-72262df5973e" style="auto-update-caption: true"&gt;Elektronický archív&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="1d714d51-7d14-4707-93d4-90e18e80e11e" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="6b3b68a9-966a-42c2-8b0e-31fc5f3290df">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="6c07410d-6b58-4b1e-8570-142014fcb99c" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="49208c26-7930-4363-9fab-977662e2e8cc">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="c11770f3-6cdf-406f-99bb-742a27297bd1" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="2db9ea90-4731-4a7e-bafd-a7c70581514f">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="42e5f44f-dfd2-436c-8ac3-b1db203a1ba1" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="8f7c0098-5332-40a6-a7e7-92be2a86e854">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="4be806eb-8280-4e88-a044-7079a96046d5" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="e24eddba-71a4-4980-9396-4947da76375a">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="4f8c7640-642b-44c0-b08a-a976ba5215c5" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="f68687b5-0939-447b-9f8e-37c883676f1e">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="281e51e7-fe1f-4bc9-a8f1-5d18644a2ec5" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="489dd25b-dd6a-416d-be26-ce647566b429">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="a3d4a9cf-6e10-402a-a341-839fd1e038cb" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="831d0b51-ffdf-4708-8afc-9d305d97e4d0">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="e58e3b27-451d-4a40-9a10-7ec277ae8001" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="68a24d97-e4a5-4cf4-bc7a-72262df5973e">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="17b81b54-140d-478c-95d3-74799a5b5b7c">
+      <Keyword m="2024-03-05T14:30:11.9982984Z">Uzatvorenie účtovného obdobia</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="3634c3b3-b6af-496c-a757-f19630cb9122">
+      <Keyword m="2024-03-05T14:30:24.0739925Z">Prvé kroky v novom účtovnom období</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="fb77ad69-c098-4f11-bbfd-5ef218ae503e">
+      <Keyword m="2024-03-06T07:07:21.733142Z">Posledné kroky v aktuálnom účtovnom období</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

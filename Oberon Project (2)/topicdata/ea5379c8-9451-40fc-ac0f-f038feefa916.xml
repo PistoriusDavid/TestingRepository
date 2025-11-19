@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="ea5379c8-9451-40fc-ac0f-f038feefa916" Status="Complete" CreatedOn="2016-03-03T11:58:08.3900944Z" ModifiedOn="2023-11-13T11:08:11.7297879Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="EmailCommunication_General" BuildFlags="">
+  <Title m="2016-03-03T12:30:41.2678618Z">Poštový klient</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-11-13T11:08:11.7297879Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; je venovaná &lt;STRONG&gt;problematike klientskeho programu elektronickej pošty (poštového klienta) a jeho nastavenia&lt;/STRONG&gt; v systéme OBERON pre potreby&amp;nbsp;&lt;A href="e06c0c09-80ea-4083-8f6a-5a49a3fc9474"&gt;odosielania e-mailových správ&lt;/A&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Systém OBERON umožňuje odosielanie e-mailových správ, ktoré sa môže realizovať viacerými spôsobmi: &lt;STRONG&gt;manuálne, hromadne a formou automatických notifikácií&lt;/STRONG&gt;. Viac informácií získate v téme&amp;nbsp;&lt;A href="e06c0c09-80ea-4083-8f6a-5a49a3fc9474"&gt;Odosielanie e-mailov v systéme OBERON&lt;/A&gt;. 
+&lt;LI&gt;Nevyhnutnou podmienkou na&amp;nbsp;korektné odosielanie e-mailových správ v systéme OBERON je správne nastavenie klientskeho programu elektronickej pošty, t.&amp;nbsp;j. poštového klienta. 
+&lt;LI&gt;Klientsky program elektronickej pošty (poštový klient) je program, prostredníctvom ktorého používatelia bezprostredne a priamo pracujú s&amp;nbsp;elektronickou poštou (napr. &lt;EM&gt;Outlook, Thunderbird, Opera Mail, FoxMail, DreamMail&lt;/EM&gt; atď.). Pomocou tohto programu&amp;nbsp;píšu nové správy, čítajú prijaté správy, odpovedajú na ne, mažú ich, ukladajú, tlačia alebo ich inak ďalej spracúvajú. 
+&lt;LI&gt;Jednou z funkcií poštového klienta je aj &lt;STRONG&gt;sprostredkovanie&lt;/STRONG&gt;&amp;nbsp;&lt;STRONG&gt;odosielania nových správ&lt;/STRONG&gt; - v&amp;nbsp;okamihu, keď to&amp;nbsp;používateľ uzná za vhodné a zadá pokyn&amp;nbsp;na odoslanie správy, jeho poštový klient&amp;nbsp;odovzdá obsah správy spolu s&amp;nbsp;požiadavkou na jej odoslanie poštovému serveru, ktorý zabezpečí jej faktické doručenie. 
+&lt;LI&gt;Poštový klient môže byť iný pre firmu a iný pre používateľa. V oboch prípadoch sa nastavuje v&amp;nbsp;programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;: 
+&lt;UL&gt;
+&lt;LI&gt;pre firmu v&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="5a6e5663-262e-4ff0-9741-1569385d11e4"&gt;oddiel Firma, Všeobecné&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt; záložka &lt;EM&gt;E-mail&lt;/EM&gt;, 
+&lt;LI&gt;pre používateľa v&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="22339df8-4cc9-4569-8a96-654b454293af"&gt;oddiel Používateľ, Všeobecné&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt; záložka &lt;EM&gt;E-mail&lt;/EM&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Typy poštových klientov&lt;/H2&gt;
+&lt;P&gt;OBERON podporuje&amp;nbsp;niekoľko typov&amp;nbsp;poštových klientov, prípadne dokáže komunikovať so serverom na odosielanie pošty priamo:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Predvolený poštový klient&lt;/STRONG&gt; -&lt;EM&gt;&amp;nbsp;MAPI Messaging Application Programming Interface&lt;/EM&gt; -&amp;nbsp;je protokol,&amp;nbsp;ktorý umožňuje naplno využiť všetky funkcie &lt;EM&gt;Microsoft Exchange Servera&lt;/EM&gt; (predovšetkým príjem a odosielanie poštových správ, správu kalendára a kontaktov, zdieľanie verejných zložiek). 
+&lt;LI&gt;&lt;STRONG&gt;Microsoft Outlook&lt;/STRONG&gt; -&amp;nbsp;je bezplatný e-mailový a groupwarový klient od spoločnosti &lt;EM&gt;Microsoft&lt;/EM&gt;, ktorý je štandardne súčasťou balíka&amp;nbsp;&lt;EM&gt;Microsoft Office&lt;/EM&gt;. Obsahuje klienta elektronickej pošty, vedenie kontaktov, organizáciu času, úloh, poznámok a&amp;nbsp;denník. Produkt je k dispozícii aj ako samostatná aplikácia a&amp;nbsp;často&amp;nbsp;sa nasadzuje v spolupráci s &lt;EM&gt;Microsoft Exchange Serverom&lt;/EM&gt; pre firmy vyžadujúce zdieľanie pošty a organizáciu stretnutí. 
+&lt;LI&gt;&lt;STRONG&gt;Mozilla Thunderbird&lt;/STRONG&gt; -&amp;nbsp;je bezplatný&amp;nbsp;slobodný multiplatformový poštový klient vyvíjaný firmou &lt;EM&gt;Mozilla&lt;/EM&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;Webmail (SMTP Server)&lt;/STRONG&gt; - &lt;EM&gt;Simple Mail Transfer Protocol&lt;/EM&gt;&amp;nbsp;- v tomto prípade OBERON komunikuje priamo so serverom na odosielanie pošty (spravidla prostredníctvom komunikačného TCP/IP portu 25); pri tomto type sa tak &lt;STRONG&gt;nevyžaduje poštový klient, e-mail sa posiela priamo&lt;/STRONG&gt;. Skutočnosť, že zasielanie pošty obchádza&amp;nbsp;klientsky program elektronickej pošty, umožňuje zasielať poštu aj automaticky. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Na&amp;nbsp;manuálne&amp;nbsp;odosielanie e-mailov&amp;nbsp;je možné použiť ktorýkoľvek z uvedených typov poštových klientov, resp. spôsobov odosielania e-mailových správ.&amp;nbsp;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;Na hromadné odosielanie e-mailových správ (hromadný mailing) a&amp;nbsp;automatické notifikácie je možné použiť&lt;/SPAN&gt; &lt;STRONG style="COLOR: rgb(255,0,0)"&gt;len SMTP server&lt;/STRONG&gt;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;.&lt;/SPAN&gt; V&amp;nbsp;tom prípade je potrebné vedieť požadované informácie o serveri odchádzajúcej pošty SMTP a svoje prihlasovanie meno (plné znenie e-mailovej adresy aj s doménou) a heslo na prihlásenie do e-mailového konta. Informácie o&amp;nbsp;SMTP serveri nájdete na stránkach poskytovateľa tejto služby.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Príklady nastavenia SMTP serverov&lt;/H2&gt;
+&lt;H3&gt;1. Príklad nastavenia SMTP servera pre&amp;nbsp;websupport.sk:&lt;/H3&gt;
+&lt;P&gt;SMTP: &lt;STRONG&gt;smtp.websupport.sk&lt;/STRONG&gt;&lt;/P&gt;
+&lt;P&gt;Port: &lt;STRONG&gt;587&lt;/STRONG&gt;&lt;/P&gt;
+&lt;P&gt;Prihlasovacie meno: &lt;STRONG&gt;menopouzivatela@websupport.sk&lt;/STRONG&gt;&lt;/P&gt;
+&lt;P&gt;Prihlasovacie heslo: &lt;STRONG&gt;heslo&lt;/STRONG&gt;&lt;/P&gt;
+&lt;P&gt;SSL: &lt;STRONG&gt;aktívne&lt;/STRONG&gt;&lt;/P&gt;
+&lt;H3&gt;2. Príklad nastavenia SMTP servera pre&amp;nbsp;gmail.com:&lt;/H3&gt;&lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Nasledujúci postup je platný k 04/2021. Pri novších verziách používateľského rozhrania účtu &lt;EM&gt;Google&lt;/EM&gt; postupujte analogicky.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;P&gt;1. Prihláste sa do svojho&amp;nbsp;účtu &lt;EM&gt;Google&lt;/EM&gt;. Stlačte obrázok profilového obrázka a následne stlačte tlačidlo &lt;EM&gt;Google Account (Spravovať účet Google&lt;/EM&gt;).&lt;/P&gt;
+&lt;H5&gt;Obrázok č. 1: Prihlásenie sa do účtu &lt;EM&gt;Google&lt;/EM&gt;&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/ProductOptions/EmailCommunication/EmailCommunication_Gmail_Nastavenie_Ikona.png"&gt;&lt;/P&gt;
+&lt;P&gt;2. Zobrazí sa váš účet. Stlačte ponuku &lt;EM&gt;Prihlásenie a zabezpečenie&lt;/EM&gt;.&lt;/P&gt;
+&lt;H5&gt;Obrázok&amp;nbsp;č. 2:&amp;nbsp;Prihlásenie a zabezpečenie&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/ProductOptions/EmailCommunication/EmailCommunication_Gmail_NastavenieUctu.png"&gt;&lt;/P&gt;
+&lt;P&gt;3.&amp;nbsp;Poštový klient &lt;EM&gt;gmail.com&lt;/EM&gt; obsahuje SMTP server, ktorý vyžaduje overenie, t. j. prihlasovacie meno a&amp;nbsp;heslo (účet &lt;EM&gt;Google&lt;/EM&gt; musí mať dvojstupňové overenie).&lt;/P&gt;
+&lt;H5&gt;Obrázok č. 3: Dvojstupňové overenie&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/ProductOptions/EmailCommunication/EmailCommunication_Gmail_Nastavenie_Dvojstupnove.png"&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;4.&amp;nbsp;Heslo je možné vygenerovať v časti&amp;nbsp;&lt;A href="https://accounts.google.com/ServiceLogin?service=accountsettings&amp;amp;passive=1209600&amp;amp;osid=1&amp;amp;continue=https://security.google.com/settings/security/apppasswords&amp;amp;followup=https://security.google.com/settings/security/apppasswords" target=_blank&gt;Heslá aplikácií&lt;/A&gt;&amp;nbsp;po prihlásení do svojho účtu. V časti &lt;EM&gt;Heslá aplikácií&lt;/EM&gt; vyberte aplikáciu &lt;EM&gt;Iné (vlastný názov)&lt;/EM&gt; a stlačte tlačidlo &lt;EM&gt;Generovať&lt;/EM&gt;. Vygeneruje sa kód, heslo pre SMTP server, ktorý je potrebné zadať do OBERON-u.&lt;/P&gt;
+&lt;P&gt;SMTP: &lt;STRONG&gt;smtp.gmail.com&lt;/STRONG&gt;&lt;/P&gt;
+&lt;P&gt;Port: &lt;STRONG&gt;587&lt;/STRONG&gt;&lt;/P&gt;
+&lt;P&gt;Prihlasovacie meno:&amp;nbsp;&lt;STRONG&gt;menopouzivatela&lt;/STRONG&gt;&lt;STRONG&gt;@gmail.com&lt;/STRONG&gt;&lt;/P&gt;
+&lt;P&gt;Prihlasovacie heslo: &lt;STRONG&gt;heslo aplikácie k službe &lt;EM&gt;Google&lt;/EM&gt;&lt;/STRONG&gt;&lt;/P&gt;
+&lt;P&gt;SSL: &lt;STRONG&gt;aktívne&lt;/STRONG&gt;&lt;/P&gt;
+&lt;H5&gt;Obrázok č. 4: Heslo aplikácie&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/ProductOptions/EmailCommunication/EmailCommunication_SMTP_Gmail.png"&gt;&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="bdd7952f-cf96-4857-8851-bb52c0274957" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="e06c0c09-80ea-4083-8f6a-5a49a3fc9474">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="40637c7d-be10-4488-b57e-4cd737149b1b" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="5a6e5663-262e-4ff0-9741-1569385d11e4">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="5aa6e701-a88f-421c-98a2-5755eac39fe4" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="22339df8-4cc9-4569-8a96-654b454293af">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="828eb049-c3ad-40b2-a285-11426c1d62b9" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="86ef2453-b1a0-42de-8a0c-d8443bb6027a">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="490fb6ce-e41b-4c6d-a29e-78ce944ae84c">
+      <Keyword m="2021-06-24T08:04:31.7702675Z">Gmail SMTP server</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="e88b7af9-b8aa-4a8f-a479-5d23d6d87aa9">
+      <Keyword m="2022-12-15T09:54:37.5526083Z">Google účet - SMTP server</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="0e0ef30b-b863-4c25-8fdf-e41068ef7df5">
+      <Keyword m="2021-05-24T09:32:37.741664Z">E-mail - poštový klient</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="37db980c-2aae-44a2-b0dd-5f29f69732f4">
+      <Keyword m="2022-12-15T09:54:44.049566Z">Účet Google - SMTP server</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="10e0f34f-c33c-4e30-87a5-a3b6960994cc">
+      <Keyword m="2021-05-24T09:33:59.2954073Z">Outlook - poštový klient</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="36c3e2a3-50c2-46f9-a834-9c27a356d33a">
+      <Keyword m="2021-05-24T09:34:06.3045678Z">Thunderbird - poštový klient</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="6aa91748-2c90-4a70-a1c7-df7009f7253c">
+      <Keyword m="2021-05-24T09:34:40.2370663Z">SMTP server - nastavenie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="6d858c71-a4f4-4a0c-a924-727fe0b2e753">
+      <Keyword m="2021-06-24T08:00:08.9663516Z">Odosielanie e-mailov - nastavenie poštového klienta</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="db84a017-0234-49e0-a235-fde7ae21a6e0">
+      <Keyword m="2021-06-24T08:03:07.567093Z">Predvolený poštový klient</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="292c0021-5581-48dd-bba4-92a00c1eece7">
+      <Keyword m="2021-06-24T08:04:23.1618238Z">Websupport SMTP server</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="8ded3293-6ca0-4260-b0f6-baba2a533f52">
+      <Keyword m="2022-07-18T07:13:58.4818691Z">SSL - poštový klient</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

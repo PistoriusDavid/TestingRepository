@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="e90970b3-c6fb-4ec5-bac8-4a06d41662b4" Status="Complete" CreatedOn="2015-01-19T13:33:13.0062109Z" ModifiedOn="2023-08-04T12:47:32.5040624Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Device_Electronic_ScannerScales" BuildFlags="">
+  <Title m="2015-02-14T16:10:24.7159399Z">Váhoskenery</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-08-04T12:47:32.5040624Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;je venovaná&lt;STRONG&gt;&amp;nbsp;&lt;/STRONG&gt;váhoskenerom, ktoré predstavujú jeden z typov&amp;nbsp;&lt;A href="3f051fd3-9727-4ecc-9613-7a7fb1cb2a54"&gt;pripojiteľných zariadení&lt;/A&gt; podporovaných v systéme OBERON. Téma obsahuje &lt;STRONG&gt;technické informácie vrátane postupu inštalácie a návodu, ako postupovať pri vážení a&amp;nbsp;snímaní čiarových kódov na váhoskeneri v&amp;nbsp;systéme OBERON&lt;/STRONG&gt;.&amp;nbsp;&lt;/P&gt;
+&lt;H2&gt;Základné&amp;nbsp;informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Váhoskener predstavuje &lt;STRONG&gt;hardvérové zariadenie, ktoré zahŕňa tak&amp;nbsp;&lt;/STRONG&gt;&lt;A href="98f367d6-b09e-4406-aad9-d4b2cfc4b504"&gt;váhy&lt;/A&gt;, ako aj&amp;nbsp;&lt;A href="80a78093-fc45-4db9-b74b-e1f9829f7b3c"&gt;snímač čiarových kódov&lt;/A&gt;.&amp;nbsp;Najčastejšie má využitie ako súčasť&amp;nbsp;pokladničných pultov, napr. v&amp;nbsp;predajniach potravín. 
+&lt;LI&gt;Zariadenie sa&amp;nbsp;v&amp;nbsp;systéme OBERON spravidla používa v prepojení s modulom &lt;A href="aec074f4-3e1c-4a1e-8a80-06fcecf51156"&gt;Pokladnica OBERON&lt;/A&gt;. Umožňujú súčasne&amp;nbsp;vážiť tovar&amp;nbsp;aj snímať (skenovať) čiarové kódy. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Technické informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Z technického hľadiska váhoskener spravidla obsahuje dva komunikačné káble&amp;nbsp;na pripojenie k počítaču - jeden na pripojenie váh a jeden na pripojenie snímača čiarových kódov (skenera). Z tohto dôvodu sa v systéme OBERON z&amp;nbsp;hľadiska inštalácie a nastavenia na toto zariadenie pozerá&amp;nbsp;ako na &lt;STRONG&gt;dve samostatné zariadenia&lt;/STRONG&gt; - jedny&amp;nbsp;&lt;A href="98f367d6-b09e-4406-aad9-d4b2cfc4b504"&gt;váhy&lt;/A&gt; a jeden&amp;nbsp;&lt;A href="80a78093-fc45-4db9-b74b-e1f9829f7b3c"&gt;snímač čiarových kódov&lt;/A&gt;. Okrem toho je&amp;nbsp;k OBERON-u možné súčasne pripojiť&amp;nbsp;aj ďalší snímač čiarových kódov (napr.&amp;nbsp;na ručné snímanie nadrozmerných tovarov).&amp;nbsp;V takomto prípade&amp;nbsp;je v&amp;nbsp;zozname zariadení systému OBERON potrebné definovať dva snímače čiarových kódov. 
+&lt;LI&gt;K systému OBERON je možné pripojiť váhoskenery rôznych výrobcov, pretože podporuje najčastejšie používané komunikačné protokoly. Váhoskener ako zariadenie spravidla podporuje viac komunikačných protokolov, preto je pri inštalácii potrebné nahliadnuť do technickej dokumentácie a nastaviť podporovaný&amp;nbsp;komunikačný protokol. Viac informácií je možné získať v&amp;nbsp;téme&amp;nbsp;&lt;A href="98f367d6-b09e-4406-aad9-d4b2cfc4b504"&gt;Elektronické váhy&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Inštalácia váhoskenera&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;Pripojte váhoskener&amp;nbsp;do sériového komunikačného portu počítača, napr. COM1, alebo&amp;nbsp;do USB portu, ktorý emuluje virtuálny sériový port. Ak už v&amp;nbsp;počítači nie je voľný komunikačný port (je obsadený iným zariadením), je potrebné do počítača zakúpiť tzv.&amp;nbsp;rozšírenie portov cez rozhranie USB. 
+&lt;LI&gt;Ak ešte nemáte v systéme OBERON vytvorenú (založenú) firmu, vytvorte ju&amp;nbsp;- bližšie informácie nájdete v téme &lt;A href="9a485893-6dd2-44e8-9740-a4cd7083a932" style="auto-update-caption: true"&gt;Vytvorenie účtovnej jednotky (databázy)&lt;/A&gt;. 
+&lt;LI&gt;Spustite program &lt;EM&gt;OBERON - Agenda firmy.&lt;/EM&gt; 
+&lt;LI&gt;Zvoľte ponuku &lt;EM&gt;Servis,&amp;nbsp;&lt;/EM&gt;&lt;A href="749ff4f1-eeb5-43f5-98d2-021399d8cec7"&gt;Zariadenia&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt; stlačte tlačidlo &lt;I&gt;Pridať.&lt;/I&gt; V&amp;nbsp;otvorenom formulári vyberte&amp;nbsp;typ zariadenia&amp;nbsp;&lt;EM&gt;&lt;STRONG&gt;Elektronická váha&lt;/STRONG&gt;&lt;/EM&gt;,&amp;nbsp;zadajte názov zariadenia, zvoľte konkrétny model (výrobcu) alebo len daný&amp;nbsp;komunikačný protokol a&amp;nbsp;zadajte&amp;nbsp;(vyberte) &lt;STRONG&gt;názov počítača&lt;/STRONG&gt;, ku ktorému sa má zariadenie pripojiť, prípadne zadajte&amp;nbsp;ostatné údaje. Potom stlačte tlačidlo &lt;I&gt;Nastaviť zariadenie -&lt;/I&gt; otvorí sa&amp;nbsp;&lt;A href="06f5e819-cf70-4875-b3fd-eca80b19939b"&gt;formulár&lt;/A&gt;, v&amp;nbsp;ktorom je potrebné zadať parametre komunikácie - číslo komunikačného portu, rýchlosť komunikácie (spravidla býva výrobcom&amp;nbsp;nastavená na hodnotu 9600&amp;nbsp;b/s). 
+&lt;LI&gt;Stlačením tlačidla &lt;STRONG&gt;&lt;EM&gt;OK&lt;/EM&gt;&lt;/STRONG&gt; sa inštalácia&amp;nbsp;váh ukončí. 
+&lt;LI&gt;Po nastavení všetkých potrebných parametrov otestujte váhy odvážením tovaru pomocou tlačidla &lt;EM&gt;Odvážiť&lt;/EM&gt;. V prípade načítania hmotnosti sú váhy&amp;nbsp;nainštalované správne. Ak sa po odvážení nezobrazia žiadne načítané dáta, zmeňte komunikačný port, rýchlosť komunikácie, prípadne vyskúšajte použitie iného komunikačného protokolu. 
+&lt;LI&gt;V zozname zariadení opäť&amp;nbsp;stlačte tlačidlo &lt;I&gt;Pridať.&lt;/I&gt; 
+&lt;LI&gt;Otvorí sa&amp;nbsp;formulár, v ktorom zadajte názov zariadenia,&amp;nbsp;vyberte&amp;nbsp;typ zariadenia&amp;nbsp;&lt;EM&gt;&lt;STRONG&gt;Snímač čiarového kódu&lt;/STRONG&gt;&lt;/EM&gt;,&amp;nbsp;zvoľte konkrétny model (výrobcu) alebo len daný&amp;nbsp;komunikačný protokol, zadajte (vyberte) &lt;STRONG&gt;názov počítača&lt;/STRONG&gt;, ku ktorému sa má zariadenie pripojiť, prípadne zadajte&amp;nbsp;ostatné údaje. Potom stlačte tlačidlo &lt;I&gt;Nastaviť zariadenie -&lt;/I&gt; otvorí sa&amp;nbsp;&lt;A href="06f5e819-cf70-4875-b3fd-eca80b19939b"&gt;formulár&lt;/A&gt;, v&amp;nbsp;ktorom je potrebné zadať parametre komunikácie. 
+&lt;LI&gt;Po nastavení všetkých potrebných parametrov otestujte snímač nasnímaním ľubovoľného čiarového kódu. Ak sa nasnímaný kód nezobrazí, zmeňte komunikačný port, prípadne rýchlosť komunikácie. &lt;/LI&gt;&lt;/OL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;K jednému fiškálnemu&amp;nbsp;zariadeniu (počítaču) je možné pripojiť viacero váhoskenerov. Bližšie informácie o zapojení vyššieho počtu váhoskenerov získate v téme&amp;nbsp;&lt;A href="9678bca2-1255-40c4-aff2-e3607fbaae23" style="auto-update-caption: true"&gt;Zapojenie viacerých elektronických váh&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Postup váženia a skenovania na váhoskeneri&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Postup váženia je&amp;nbsp;rovnaký ako pri použití bežných elektronických váh, viac v téme&amp;nbsp;&lt;A href="98f367d6-b09e-4406-aad9-d4b2cfc4b504"&gt;Elektronické váhy&lt;/A&gt;. 
+&lt;LI&gt;Skenovanie tovarov je komfortnejšie ako pri bežnom&amp;nbsp;snímači čiarových kódov,&amp;nbsp;pretože váhoskener obsahuje robustnejší viacsmerový skener (viac snímacích paprskov). Z hľadiska obsluhy &lt;EM&gt;Pokladnice OBERON&lt;/EM&gt; je snímanie týmto skenerom a bežným snímačom čiarových kódov rovnaké. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 1: Váhoskener &lt;EM&gt;Datalogic Magellan 8400&lt;/EM&gt;&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Devices/Device_ScannerScales.png"&gt;&amp;nbsp;&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="44e3b84a-80bd-412f-93ca-5b37a229eda6" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="3f051fd3-9727-4ecc-9613-7a7fb1cb2a54">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="3e60dcc3-8f9c-488e-b20f-531b50240fbb" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="749ff4f1-eeb5-43f5-98d2-021399d8cec7">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="8edd3224-7066-4ce7-b24d-28905f4be3a8" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="98f367d6-b09e-4406-aad9-d4b2cfc4b504">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="e0af44df-f65b-4d93-97b7-0e7a77dc6826" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="80a78093-fc45-4db9-b74b-e1f9829f7b3c">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="b34ed55b-6068-4e3d-a7c4-1cb767987521">
+      <Keyword m="2021-09-08T10:35:15.4161665Z">Váhy - váhoskener</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="9956eb78-65d9-48f8-9d6b-e62549678b7b">
+      <Keyword m="2021-09-08T10:35:10.4006401Z">Snímač čiarových kódov - váhoskener</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

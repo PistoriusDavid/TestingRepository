@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="5a5262fd-4e93-4ae8-b237-d1a6a80dd180" Status="Complete" CreatedOn="2021-08-10T11:46:34.9877012Z" ModifiedOn="2024-02-29T13:56:02.2981135Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="22790" Name="Form_Hotel_Guest Requirements" BuildFlags="">
+  <Title m="2022-06-27T08:49:19.3074513Z">Formulár Požiadavka hosťa</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-02-29T13:56:02.2981135Z">&lt;P&gt;Formulár &lt;EM&gt;Požiadavka hosťa&lt;/EM&gt; &lt;STRONG&gt;umožňuje definovať, resp. upraviť už nadefinovanú&lt;/STRONG&gt;&amp;nbsp;&lt;A href="3bed284c-d73b-4b5b-8549-843ef72ffcc2"&gt;požiadavku hosťa&lt;/A&gt; v module&amp;nbsp;&lt;A href="c3bd41f0-029e-4c74-b342-b0ffff647b6e"&gt;Hotelová recepcia&lt;/A&gt;. Formulár je dostupný z programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt; z&amp;nbsp;formulára&amp;nbsp;&lt;A href="90d7003c-1001-42ee-beef-bb7df6eada31"&gt;Rezervácia&lt;/A&gt; alebo&amp;nbsp;&lt;A href="d43ef71f-edb1-44f7-b1a2-c0cf18067ee9"&gt;Ubytovanie&lt;/A&gt;, záložka &lt;EM&gt;Základné&lt;/EM&gt;, tlačidlo výberu&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_ListButton.png"&gt;&amp;nbsp;pri poli &lt;EM&gt;Požiadavky hosťa&lt;/EM&gt; - otvorí sa&amp;nbsp;číselník &lt;EM&gt;Požiadavky hostí&lt;/EM&gt;, v ktorom stlačte tlačidlo&amp;nbsp;&lt;EM&gt;Nový&lt;/EM&gt; alebo &lt;EM&gt;Oprava&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Popis formulára &lt;EM&gt;Požiadavka hosťa&lt;/EM&gt;&lt;/H2&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Číslo&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Zadáva sa číslo&amp;nbsp;požiadavky hosťa, ktoré určuje jej poradie v&amp;nbsp;zozname.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Názov&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Zadáva sa názov požiadavky hosťa.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Obrázok&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;K položke je možné priradiť obrázok. Z rozbaľovacieho zoznamu vyberte niektorý z&amp;nbsp;dostupných obrázkov, prípadne stlačte tlačidlo výberu&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_ListButton.png"&gt; a vyberte vlastný obrázok. Viac informácií v téme&amp;nbsp;&lt;A href="ccadca4e-2fbd-4b28-8d92-f826f3019bd0" style="auto-update-caption: true"&gt;Práca s obrázkami&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Zobrazovať v grafickom prehľade&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Po začiarknutí sa požiadavky hosťa budú zobrazovať v&amp;nbsp;&lt;A href="3ca37544-bbc0-4a88-af6a-a2132b74279d"&gt;Grafickom prehľade izieb&lt;/A&gt; v oddieloch &lt;EM&gt;Prichádzajúci hostia, Ubytovaní hostia&lt;/EM&gt; a &lt;EM&gt;Odchádzajúci hostia&lt;/EM&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Uvádzať v tlačovom výstupe upratovania&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Po začiarknutí sa požiadavky hosťa budú tlačiť v tlačovom výstupe &lt;EM&gt;Prehľad upratovania izieb&amp;nbsp;k dátumu&lt;/EM&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Uvádzať aj počas pobytu&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Po začiarknutí sa&amp;nbsp;v tlačovom výstupe &lt;EM&gt;Prehľad upratovania izieb k dátumu&lt;/EM&gt; budú tlačiť&amp;nbsp;požiadavky hosťa zadané tak vo &lt;A href="90d7003c-1001-42ee-beef-bb7df6eada31"&gt;formulári Rezervácia&lt;/A&gt;, ako aj vo &lt;A href="d43ef71f-edb1-44f7-b1a2-c0cf18067ee9"&gt;formulári Ubytovanie&lt;/A&gt;.&amp;nbsp;Ak zostane políčko nezačiarknuté, v&amp;nbsp;tlačovom výstupe&amp;nbsp;&lt;EM&gt;Prehľad upratovania izieb k dátumu&lt;/EM&gt; sa budú tlačiť len požiadavky zadané vo&amp;nbsp;&lt;A href="90d7003c-1001-42ee-beef-bb7df6eada31"&gt;formulári Rezervácia&lt;/A&gt; (nie vo&amp;nbsp;&lt;A href="d43ef71f-edb1-44f7-b1a2-c0cf18067ee9"&gt;formulári Ubytovanie&lt;/A&gt;).&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Neaktívne&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Požiadavku hosťa je možné označiť&amp;nbsp;za neaktívnu.&amp;nbsp;Vtedy ju program nebude ponúkať na výber a&amp;nbsp;v&amp;nbsp;číselníku &lt;EM&gt;Požiadavky hostí&lt;/EM&gt; sa bude zobrazovať&amp;nbsp;&lt;SPAN style="COLOR: rgb(127,127,127)"&gt;&lt;STRONG&gt;sivou farbou&lt;/STRONG&gt;&lt;/SPAN&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="63b9b066-0006-43d7-bdd0-bf406dd846fc" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="3bed284c-d73b-4b5b-8549-843ef72ffcc2">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="089e8883-0c34-4f61-842c-416cb382a0f6" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="90d7003c-1001-42ee-beef-bb7df6eada31">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="6a3eaaf3-c27b-4e2f-b612-d4a3f42e9792" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="d43ef71f-edb1-44f7-b1a2-c0cf18067ee9">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="f4190a46-613d-447b-a4bb-16814f882731">
+      <Keyword m="2022-06-27T10:14:59.4268389Z">Požiadavka hosťa - formulár</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="6ae411ee-98c6-4f3f-955b-7bb4be8d6fce">
+      <Keyword m="2022-06-27T10:15:08.3729857Z">Požiadavky hosťa - formulár</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="df79cf4e-ce72-4a24-9fc7-f51487f61a27">
+      <Keyword m="2022-06-27T10:22:56.6847188Z">Požiadavka hosťa - definovanie</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

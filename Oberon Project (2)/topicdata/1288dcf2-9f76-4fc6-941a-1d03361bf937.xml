@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="1288dcf2-9f76-4fc6-941a-1d03361bf937" Status="Complete" CreatedOn="2014-09-05T14:55:39.7275633Z" ModifiedOn="2023-10-16T07:35:14.768395Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="22607" Name="Menu_Acc_PaymentsOrder" BuildFlags="">
+  <Title m="2017-06-01T07:29:34.7185141Z">Príkazy na úhradu</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-10-16T07:35:14.768395Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;je venovaná&amp;nbsp;položke&amp;nbsp;&lt;EM&gt;Príkazy na úhradu&lt;/EM&gt;&amp;nbsp;v&amp;nbsp;ponuke&amp;nbsp;&lt;EM&gt;Účtovníctvo&lt;/EM&gt; programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Výberom položky sa otvorí kniha &lt;I&gt;Príkazy&amp;nbsp;na úhradu&lt;/I&gt;. Ide o pomocnú knihu, ktorá&amp;nbsp;je určená &lt;STRONG&gt;na vedenie evidencie vytvárania platobných príkazov,&amp;nbsp;ich exportovanie vo forme súborov, prípadne&lt;/STRONG&gt; &lt;STRONG&gt;tlač v&amp;nbsp;klasickej podobe&lt;/STRONG&gt;.&amp;nbsp;Slúži na&amp;nbsp;získanie plnej kontroly v styku s bankou (bankami) najmä vo firmách, kde s platobnými príkazmi pracuje viac ako jedna osoba. Okrem vytvárania platobných príkazov&amp;nbsp;umožňuje schvaľovanie týchto príkazov pred úhradou oprávnenými osobami. 
+&lt;LI&gt;V&amp;nbsp;prípade používania &lt;A href="8df798f2-4fbf-4279-ad8c-493bdbe7f2e4"&gt;prevádzok&lt;/A&gt;&amp;nbsp;záznamy&amp;nbsp;v&amp;nbsp;knihe &lt;EM&gt;Príkazy na úhradu&lt;/EM&gt;&amp;nbsp;možno zobraziť podľa príslušnosti&amp;nbsp;k prevádzke, a&amp;nbsp;to&amp;nbsp;ako podmnožiny&amp;nbsp;záznamov knihy. Možno tak urobiť pomocou filtra&amp;nbsp;&lt;EM&gt;Prevádzka&lt;/EM&gt; v&amp;nbsp;hornej časti evidencie.&amp;nbsp;Zoznam dostupných prevádzok (definujú sa v ponuke &lt;EM&gt;Firma&lt;/EM&gt;,&amp;nbsp;&lt;A href="a833ee8a-1289-42b9-923f-80f549497702"&gt;Údaje o firme&lt;/A&gt;)&amp;nbsp;je možné v prípade potreby obmedziť pomocou&amp;nbsp;&lt;A href="834e9546-a56b-476f-9028-ef4c24a82345"&gt;používateľských práv&lt;/A&gt;. 
+&lt;LI&gt;Príkazy&amp;nbsp;na úhradu je možné vytvoriť &lt;STRONG&gt;manuálne, prípadne automaticky&lt;/STRONG&gt; pri určitej akcii (napr. pri mesačnej uzávierke miezd sa generujú príkazy zo mzdových údajov).&amp;nbsp;&amp;nbsp; 
+&lt;LI&gt;Súbory s vyexportovanými platobnými príkazmi je možné použiť pre elektronické bankovníctvo (&lt;A href="ef8ec592-c1af-45af-92b7-8734ce46e0f5"&gt;internetbanking&lt;/A&gt;), formáty podporovaných súborov sú uvedené v téme&amp;nbsp;&lt;A href="8a48a395-a1ba-47fb-b250-689f6df7e93e"&gt;Formáty exportovaných prevodných príkazov&lt;/A&gt;. 
+&lt;LI&gt;V systéme OBERON je možné vystaviť &lt;STRONG&gt;tak jednoduchý, ako&amp;nbsp;aj hromadný príkaz na úhradu&lt;/STRONG&gt;. Obidva typy príkazov&amp;nbsp;sa&amp;nbsp;vytvárajú rovnakým spôsobom (v ponuke&amp;nbsp;&lt;EM&gt;Účtovníctvo&lt;/EM&gt;, &lt;A href="1288dcf2-9f76-4fc6-941a-1d03361bf937"&gt;Príkazy na úhradu&lt;/A&gt;, tlačidlo &lt;EM&gt;Nový&lt;/EM&gt;).&amp;nbsp;Po stlačení tlačidla&amp;nbsp;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Button_Question.png"&gt;&amp;nbsp;pri poli &lt;EM&gt;Číslo účtu príjemcu (IBAN)&lt;/EM&gt; program automaticky overí, či v&amp;nbsp;prípade dodávateľa - platiteľa DPH dané číslo figuruje v zozname na portáli finančnej správy ako účet používaný na podnikanie. Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="bda10a0f-7c77-4861-91a1-0366af826978" style="auto-update-caption: true"&gt;Automatické overenie bankových účtov dodávateľov&lt;/A&gt;. 
+&lt;LI&gt;Úpravou&amp;nbsp;tlačového výstupu je možné dosiahnuť vytlačenie údajov vo forme QR kódu (&lt;EM&gt;PAY by square)&lt;/EM&gt;&amp;nbsp;na rýchlu úhradu pomocou mobilných aplikácií bánk. 
+&lt;LI&gt;Vytváranie príkazov na úhradu je prepojené s&amp;nbsp;&lt;A href="55028746-c263-4d92-a615-502222e8d53b"&gt;knihou záväzkov&lt;/A&gt;, s&amp;nbsp;&lt;A href="81a7aa22-db03-4095-8a7c-3e7436fee8c6"&gt;evidenciou stálych platieb&lt;/A&gt;&amp;nbsp;a&amp;nbsp;s&amp;nbsp;&lt;A href="b7a48886-b367-4056-808a-59ba5f871f32"&gt;evidenciou obchodných partnerov&lt;/A&gt;. 
+&lt;LI&gt;Súčasťou platobného príkazu&amp;nbsp;môže byť aj určenie, ktorá strana má znášať bankové poplatky. 
+&lt;LI&gt;Pri exportovaní príkazov na úhradu vo formáte &lt;EM&gt;SEPA Credit Transfer&amp;nbsp;(SCT)&lt;/EM&gt;&amp;nbsp;do banky môže nastať situácia, že sa vyexportovaný súbor XML nepodarí do banky načítať. Banka vypíše chybu, ktorá obyčajne neobsahuje relevantné informácie o tom, prečo nedošlo k akceptácii XML súboru zo strany banky. Postup&amp;nbsp;validácie je dostupný v téme&amp;nbsp;&lt;A href="83c34110-385c-4103-ac93-58d6400944d6" style="auto-update-caption: true"&gt;Validácia SEPA súboru XML&lt;/A&gt;. 
+&lt;LI&gt;Variabilný (aj špecifický) symbol&amp;nbsp;príkazu je možné zadať vo formáte všeobecného symbolu, napr. RRRRMM&amp;nbsp;sa nahradí rokom a mesiacom. Viac informácií je možné získať v téme&amp;nbsp;&lt;A href="bcaf2c4a-25ad-40c8-af4c-0ea15bf3105d"&gt;Variabilné symboly v OBERON-e&lt;/A&gt;. 
+&lt;LI&gt;Záznamy v knihe&amp;nbsp;možno&amp;nbsp;filtrovať alebo triediť. Nastaviť kritériá filtrovania alebo triedenia možno po stlačení tlačidla &lt;A href="124da68e-c3f0-43e4-9466-60b4916bfc41"&gt;Vlastnosti&lt;/A&gt;. 
+&lt;LI&gt;Pri tvorbe&amp;nbsp;príkazov na úhradu&amp;nbsp;v&amp;nbsp;systéme OBERON&amp;nbsp;možno používať aj všeobecné variabilné a špecifické symboly. Viac informácií získate v téme&amp;nbsp;&lt;A href="bcaf2c4a-25ad-40c8-af4c-0ea15bf3105d" style="auto-update-caption: true"&gt;Variabilné symboly v OBERON-e&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Ďalšie možnosti evidencie&lt;/H2&gt;
+&lt;P&gt;Ďalšie možnosti práce s&amp;nbsp;príkazmi na úhradu&amp;nbsp;sú dostupné&amp;nbsp;po stlačení&amp;nbsp;tlačidla &lt;EM&gt;Možnosti&lt;/EM&gt;, prípadne v kontextovej ponuke tabuľky záznamov.&lt;/P&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Exportovať príkaz do banky&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Otvorí sa sprievodca, pomocou ktorého je možné&amp;nbsp;&lt;A href="65ec3c9f-09c4-4fde-a7b8-2d6c356e3f20"&gt;exportovať príkaz na úhradu do elektronického príkazu na úhradu&lt;/A&gt;. Vyberte formát elektronického príkazu a súbor, do ktorého sa príkaz na úhradu exportuje. Ďalej je možné automaticky otvoriť internetovú stránku banky, prípadne spustiť program&amp;nbsp;na ďalšie spracovanie exportovaných údajov.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Príkaz&amp;nbsp;na úhradu schváliť (zrušiť schválenie)&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Jednotlivé doklady je možné schvaľovať. Schválený doklad nie je možné opraviť a ani vymazať. Schváliť doklad môže len iný&amp;nbsp;používateľ ako ten, ktorý doklad vytvoril, s&amp;nbsp;&lt;A href="834e9546-a56b-476f-9028-ef4c24a82345"&gt;právom&amp;nbsp;používateľa&lt;/A&gt; (&lt;EM&gt;Príkazy&amp;nbsp;na úhradu&lt;/EM&gt;&amp;nbsp;&lt;I&gt;- záznam schváliť&amp;nbsp;(zrušiť schválenie)&lt;/I&gt;. Samozrejme, schválenie je možné aj zrušiť, a tak daný doklad opraviť. Zrušiť schválenie však môže len&amp;nbsp;používateľ, ktorý doklad schválil. Vyžadovať schválenie dokladu je potrebné povoliť v&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="932262cc-b80f-4ce6-aba6-6a7d4a18f5ec"&gt;oddiel Firma, Účtovníctvo&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt; záložka &lt;EM&gt;Ostatné&lt;/EM&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Obnoviť vymazaný záznam&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Záznam, ktorý bol vymazaný presunutím do koša,&amp;nbsp;je možné obnoviť. Ďalšie informácie o mazaní a obnove záznamov získate v téme&amp;nbsp;&lt;A href="90dfd66e-297e-41e9-9796-5f3c43ed111d" style="auto-update-caption: true"&gt;Kôš - vymazanie a obnova záznamov&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Bližšie informácie o ovládaní evidencie, používaní filtrov, triedení záznamov a pod. sú dostupné v téme&amp;nbsp;&lt;A href="8936fde4-aac3-4672-99a2-c8bd5ccffdcd"&gt;Ovládanie knihy (evidencie)&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="656ce377-c7f9-431f-9129-99665c3dc635" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="81a7aa22-db03-4095-8a7c-3e7436fee8c6">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="86ecf6ef-6c34-40c1-915a-6fe1a5385551" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="65ec3c9f-09c4-4fde-a7b8-2d6c356e3f20">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="c081fb0b-69cc-4662-908d-080e8bb19ef4" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="8a48a395-a1ba-47fb-b250-689f6df7e93e">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="df9de485-9672-41ef-9499-685477b14889" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="ef8ec592-c1af-45af-92b7-8734ce46e0f5">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="979570ed-deb6-47e2-921d-24e235ca727c" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="bda10a0f-7c77-4861-91a1-0366af826978">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="7e20103e-544c-427e-a131-f4188bfab350" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="83c34110-385c-4103-ac93-58d6400944d6">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="6511001d-6b99-4553-aead-923d656c3e01">
+      <Keyword m="2021-08-04T11:17:49.9187835Z">Platby do banky</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="55e0d95a-7239-44f6-b1fc-76aca67ebc12">
+      <Keyword m="2022-01-26T10:46:59.1402443Z">Overenie bankového účtu dodávateľa - platiteľa DPH - príkazy na úhradu</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

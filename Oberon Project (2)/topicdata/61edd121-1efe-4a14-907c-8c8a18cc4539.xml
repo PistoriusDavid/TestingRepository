@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="61edd121-1efe-4a14-907c-8c8a18cc4539" Status="Complete" CreatedOn="2014-09-10T06:49:57.3143206Z" ModifiedOn="2024-10-31T08:30:07.9883807Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="51013" Name="Stock_Advanced_Label_Print" BuildFlags="">
+  <Title m="2021-05-17T11:56:40.0740461Z">Tlač cenoviek a etikiet</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-10-31T08:30:07.9883807Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;je venovaná &lt;STRONG&gt;tlači cenoviek, resp.&amp;nbsp;etikiet&lt;/STRONG&gt; v&amp;nbsp;systéme&amp;nbsp;OBERON. Tlač etikiet je&amp;nbsp;možné vykonávať aj&amp;nbsp;&lt;A href="58b3fe6b-140a-4b1e-a7af-33b95fd684a4"&gt;automaticky priamo pri predaji na Pokladnici OBERON&lt;/A&gt;, čo však nie je predmetom tejto témy.&amp;nbsp;Rozdiel medzi cenovkami a etiketami spočíva v&amp;nbsp;tom, že cenovky sa používajú na evidenciu a&amp;nbsp;označovanie&amp;nbsp;tovaru v regáloch, pričom etikety&amp;nbsp;predstavujú samolepiace štítky, ktoré obsahujú rôzne údaje o tovare (napr. spôsob ošetrovania pri obuvi, spôsob prania pri textíliách, bezpečnostné upozornenia pri pyrotechnike a pod.) a&amp;nbsp;spravidla sa lepia priamo na konkrétny tovar.&lt;/P&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Informácie uvedené v tejto téme o cenovkách sa analogicky vzťahujú aj na etikety.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H5&gt;Obrázok č. 1: Tlačové výstupy cenovka, cenovka (s čiarovým kódom) a cenovka (s QR kódom)&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Stock/Stock_Label.png"&gt;&amp;nbsp;&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Rozmery cenoviek môžu byť ľubovoľné - pomocou &lt;EM&gt;Editora tlačových výstupov&lt;/EM&gt; je možné tak rozmery, ako aj&amp;nbsp;formát cenoviek jednoducho upraviť, viac v&amp;nbsp;téme&amp;nbsp;&lt;A href="b3e41f60-bab3-4ad9-b73d-69ece0c12afa"&gt;Ako upraviť&amp;nbsp;tlačový výstup&lt;/A&gt;. 
+&lt;LI&gt;Tlač cenoviek je dostupná v nasledujúcich evidenciách: 
+&lt;UL&gt;
+&lt;LI&gt;v&amp;nbsp;knihe &lt;A href="1a33ab0b-2df7-4dc2-962b-8a3319c16831"&gt;Skladové karty&lt;/A&gt; &lt;EM&gt;-&lt;/EM&gt; tlačia sa cenovky pre všetky skladové&amp;nbsp;položky v zozname, 
+&lt;LI&gt;v knihe &lt;A href="efed1882-1614-4406-b57a-3023aee6ba26"&gt;Príjemky&lt;/A&gt; -&lt;I&gt;&amp;nbsp;&lt;/I&gt;tlačia sa&amp;nbsp;cenovky&amp;nbsp;položiek aktuálne vybranej príjemky, 
+&lt;LI&gt;v &lt;A href="55028746-c263-4d92-a615-502222e8d53b"&gt;Knihe záväzkov&lt;/A&gt; &lt;EM&gt;-&amp;nbsp;&lt;/EM&gt;tlačia sa&amp;nbsp;cenovky položiek aktuálne vybranej faktúry. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Program umožňuje tlačiť tieto tlačové výstupy: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Cenovky&lt;/STRONG&gt;, resp.&lt;STRONG&gt;&amp;nbsp;Cenovky (s čiarovým kódom)&lt;/STRONG&gt; - určené na tlač na štandardnej tlačiarni, 
+&lt;LI&gt;&lt;STRONG&gt;Cenovky (s čiarovým kódom)&amp;nbsp;- rolka štítkov&lt;/STRONG&gt;&amp;nbsp;- určené na tlač na&amp;nbsp;&lt;A href="aebc21a5-02ca-401f-975c-96b60ae15989"&gt;špecializovanej tlačiarni&lt;/A&gt; so samolepiacou rolkou, napr.&amp;nbsp;na tlačiarni&amp;nbsp;&lt;A href="https://exalogic.sk/zoznam/tlaciaren-zebra-tlp-2824-plus/" target=_blank&gt;Zebra TLP 2824 Plus&lt;/A&gt; (pri tlači na štandardnej tlačiarni sa tlačí 1 cenovka na 1 list papiera). &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Cenovku s čiarovým kódom je možné upraviť na cenovku s &lt;STRONG&gt;QR kódom&lt;/STRONG&gt; (Obrázok č. 2). Využiť sa dá napr. pri inventúre skladu pomocou&amp;nbsp;&lt;A href="be17efdf-4b36-4b47-ad5d-09b0f66c8f65"&gt;aplikácie ASTON&lt;/A&gt; pri použití bežného smartfónu (pri cenovkách so štandardným&amp;nbsp;čiarovým kódom ich fotoaparát bežného smartfónu&amp;nbsp;nemusí byť&amp;nbsp;schopný prečítať). &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 2: Úprava tlačového výstupu - zámena štandardného čiarového kódu za QR kód&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Stock/Stock_Label_QR.PNG"&gt;&amp;nbsp;&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;V sprievodcovi tlačou je možné zmeniť počet cenoviek, resp. etikiet, ktoré sa vytlačia. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 3: Úprava množstva pri tlači etikiet&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/Stock/Form_Stock_Etiketa_uprava_mnozstva.png"&gt;&lt;/P&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt; 
+&lt;P&gt;Aby sa pri návrhu cenovky predišlo zbytočnému plytvaniu papiera, je možné pri skúšaní finálneho návrhu využiť virtuálnu PDF tlačiareň. Vtedy nie je potrebné cenovku fyzicky vytlačiť, ale možno ju prezrieť ako PDF dokument.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Ďalšie informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Na cenovky alebo etikety sa veľmi často tlačí aj čiarový kód,&amp;nbsp;z tohto dôvodu sa odporúčame oboznámiť s témou&amp;nbsp;&lt;A href="86ce651c-2637-4165-93b4-36535a700fbf"&gt;Práca s čiarovými kódmi&lt;/A&gt;. 
+&lt;LI&gt;Na cenovku je možné tlačiť aj jednotkovú cenu.&amp;nbsp;&lt;STRONG&gt;Jednotková cena&lt;/STRONG&gt; je konečná cena vrátane dane z pridanej hodnoty a ostatných daní za jeden&amp;nbsp;kilogram, liter, meter, meter štvorcový, meter kubický výrobku alebo inú jednotku množstva, ktorá sa&amp;nbsp;používa pri predaji výrobku. Jednotková cena nemusí byť vyznačená, ak je zhodná s predajnou cenou. Prepočet jednotkovej ceny sa zadáva&amp;nbsp;vo &lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;formulári Skladová karta&lt;/A&gt; v&amp;nbsp;záložke&amp;nbsp;&lt;EM&gt;Doplň. údaje&lt;/EM&gt;. 
+&lt;H5&gt;Obrázok č. 4: Zadanie výpočtu jednotkovej ceny na skladovej karte&lt;/H5&gt;&lt;BR&gt;&lt;IMG border=0 alt="" src="images/Forms/Stock/Form_Stock_Cenovka_JednotkovaCena.png"&gt; 
+&lt;LI&gt;Pri používaní&amp;nbsp;&lt;A href="34f91c11-1a5d-4773-ac4e-48ad2fc859d3"&gt;pravidiel rozšírenej cenotvorby&lt;/A&gt; je možné tlačiť cenovky s&amp;nbsp;cenou, ktorá je &lt;STRONG&gt;aktuálne zadaná na skladovej karte alebo s&amp;nbsp;takou, ktorá bude platiť až o niekoľko dní&lt;/STRONG&gt; (keď bude platiť určitá zľava). To umožňuje pripraviť cenovky už &lt;STRONG&gt;v&amp;nbsp;predstihu&lt;/STRONG&gt;, t.&amp;nbsp;j. ešte pre začatím danej akcie. Tlačiť cenovky k určitému dátumu je možné z knihy &lt;EM&gt;Skladové karty.&lt;/EM&gt; Z knihy &lt;EM&gt;Príjemiek&lt;/EM&gt; a&amp;nbsp;z &lt;EM&gt;Knihy záväzkov&lt;/EM&gt; sa tlačia cenovky a etikety len s cenou zadanou na doklade. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt; 
+&lt;P&gt;Pri tlači cenoviek a etikiet&amp;nbsp;sa použije predajná cena zo skladovej karty alebo sa použije predajná cena podľa pravidiel rozšírenej cenotvorby (akciová). V prípade použitia predajnej ceny podľa pravidiel&amp;nbsp;rozšírenej cenotvorby typu &lt;EM&gt;Zmluvné ceny, Množstevná zľava v %&lt;/EM&gt; alebo &lt;EM&gt;Množstvo N za cenu množstva N-1&lt;/EM&gt; sa nebudú tlačiť akciové ceny, ale len predajné ceny. Pri ostatných typoch pravidiel sa budú tlačiť akciové predajné ceny.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="5df25ca3-b76d-418e-8b1c-d66692524e4a" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="58b3fe6b-140a-4b1e-a7af-33b95fd684a4">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="0bb05560-732c-45c2-aa20-559e77d70109" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="b3e41f60-bab3-4ad9-b73d-69ece0c12afa">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="f0250d31-415f-47c0-9cb3-b1c8dc13db24" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="bd58b5ac-bf1a-44f0-9463-12aa3e5b8165">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="f2ca52ab-6043-4f0b-b4e8-33eecbee72e4" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="86ce651c-2637-4165-93b4-36535a700fbf">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="e56aee99-4233-4c50-b567-9567ba4654d5" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="aebc21a5-02ca-401f-975c-96b60ae15989">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="53d3d964-c26b-4b92-9101-2967a52a7670" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="be17efdf-4b36-4b47-ad5d-09b0f66c8f65">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="f816e2ed-375c-4542-9077-e611f06d9273">
+      <Keyword m="2021-05-17T12:07:15.3993053Z">Cenovky - tlač</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="8d063cf2-f2d7-4957-98e4-6369e9528ec8">
+      <Keyword m="2021-05-17T12:07:49.8368151Z">QR kód za čiarový kód</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="af167cc1-db24-4cff-b351-56efd6f71e0c">
+      <Keyword m="2023-03-15T06:55:34.5519633Z">Etikety - manuálna tlač</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="b3b643fa-83ec-45b3-8c96-259f7b4da2fc">
+      <Keyword m="2021-05-17T12:07:24.8892457Z">Štítky - tlač</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="418622be-3d08-4ed7-a6de-23f66d54807b">
+      <Keyword m="2019-10-24T06:33:22.0422616Z">Tlač cenoviek</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="ac6e5263-7b07-4c3a-99cd-d3f5bae9afd5">
+      <Keyword m="2023-03-15T06:55:51.2323331Z">Tlač etikiet - manuálna</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="266442c0-7e69-41c4-9227-c4e733de8258">
+      <Keyword m="2019-10-24T06:33:32.2196169Z">Tlač štítkov</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="4d7d8ef6-9b38-4e70-b810-e9229d59e4df" Status="Complete" CreatedOn="2014-10-09T13:52:45.4549722Z" ModifiedOn="2023-10-17T07:45:24.9836187Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="80140" Name="Form_CashRegister_FoodStamp" BuildFlags="">
+  <Title m="2014-12-11T09:22:05.3076171Z">Formulár Cenina</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-10-17T07:45:24.9836187Z">&lt;P&gt;Formulár&amp;nbsp;&lt;EM&gt;Cenina&lt;/EM&gt; umožňuje definovať&amp;nbsp;konkrétnu ceninu ako&amp;nbsp;&lt;A href="46e6deed-ce15-42dc-be53-ab72142d9673"&gt;typ platby&lt;/A&gt; v&amp;nbsp;&lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnici OBERON&lt;/A&gt;. Formulár je dostupný z&amp;nbsp;&lt;A href="77a7891e-a525-416c-ad7a-9e25ff95e430"&gt;formulára Typ platby&lt;/A&gt; po zvolení spôsobu zaevidovania &lt;EM&gt;Daňový doklad&amp;nbsp;- cenina&lt;/EM&gt; - stlačte tlačidlo&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_ListButton.png"&gt;&amp;nbsp;pri rozbaľovacom zozname &lt;EM&gt;Mena&lt;/EM&gt; a následne tlačidlo&amp;nbsp;&lt;EM&gt;Nový&lt;/EM&gt; alebo &lt;EM&gt;Oprava&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Popis formulára &lt;EM&gt;Cenina&lt;/EM&gt;&lt;/H2&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Názov&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Zadáva sa pomenovanie ceniny. Názov ceniny sa zobrazuje napríklad v tlačových výstupoch.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Kód (skrátený názov)&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Zadáva sa kód, resp. skrátený názov ceniny, ktorý sa&amp;nbsp;nesmie zhodovať s názvom niektorej meny (EUR, CZK, PLN, USD...).&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Hodnota ceniny&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Zadáva sa hodnota 1&amp;nbsp;ks ceniny v EUR. Aby sa cenina pri zaevidovaní pokladničného dokladu zobrazovala vo formulári &lt;EM&gt;Spôsob úhrady (platby)&lt;/EM&gt; v&amp;nbsp;záložke &lt;EM&gt;Vybrané typy platieb&lt;/EM&gt;, zadajte do poľa hodnotu 0. Vo formulári &lt;EM&gt;Spôsob úhrady (platby)&lt;/EM&gt; sa potom do poľa &lt;EM&gt;Cenina&lt;/EM&gt; zadáva celková hodnota prijatej ceniny, napríklad&amp;nbsp;1 stravný lístok v hodnote 4,20 EUR/1&amp;nbsp;ks sa zadá&amp;nbsp;ako hodnota&amp;nbsp;4,20, 2 stravné lístky v hodnote 4,20 EUR/1 ks sa zadajú&amp;nbsp;ako hodnota&amp;nbsp;8,40.&lt;/P&gt;
+&lt;P&gt;Ako do poľa zadáte konkrétnu hodnotu ceniny, vo formulári &lt;EM&gt;Spôsob úhrady (platby)&lt;/EM&gt; sa bude cenina zobrazovať v&amp;nbsp;záložke&amp;nbsp;&lt;EM&gt;Všetky typy platieb.&lt;/EM&gt; Program umožňuje nadefinovať viacero cenín&amp;nbsp;s rôznou hodnotou. Bližšie informácie o typoch platieb pokladničnom predaji získate v téme&amp;nbsp;&lt;A href="46e6deed-ce15-42dc-be53-ab72142d9673" style="auto-update-caption: true"&gt;Typ platby&lt;/A&gt;.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Maximálny počet kusov&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Nastavuje sa maximálny počet cenín, ktoré je možné zaevidovať na jednom doklade. Zostatok sumy sa zaeviduje iným typom platby.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="61c51ec8-11de-441c-b5c8-d0f00ba850c4" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="46e6deed-ce15-42dc-be53-ab72142d9673">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="fa8db2c1-6831-4c5a-936b-e4dfa56feb8e" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="f3814738-213c-4f39-96d3-cdcaeb6674ec">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="b887b968-81d3-4bd1-8c96-43b934cbdcb1" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="77a7891e-a525-416c-ad7a-9e25ff95e430">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="02c555d1-74cf-491a-9b6d-3e3922ab308c">
+      <Keyword m="2023-03-02T08:52:30.1997641Z">Cenina - formulár</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="7dae8331-4789-40de-b48c-ae8e8b17940d">
+      <Keyword m="2015-02-27T09:09:09.0351562Z">Hodnota ceniny</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

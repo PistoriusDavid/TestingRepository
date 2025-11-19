@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="16818a7f-7c27-497a-be4a-4930302e84f1" Status="Complete" CreatedOn="2021-05-18T12:19:40.567799Z" ModifiedOn="2022-12-15T09:30:33.5684609Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Device_Scanning_RFID_Keys" BuildFlags="">
+  <Title m="2021-05-18T12:25:37.6176102Z">Snímače RFID kľúčov</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2022-09-07T11:15:10.6112014Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;obsahuje&amp;nbsp;&lt;STRONG&gt;informácie&amp;nbsp;o&amp;nbsp;snímačoch RFID kľúčov&lt;/STRONG&gt;, ktoré predstavujú jeden z typov&amp;nbsp;&lt;A href="3f051fd3-9727-4ecc-9613-7a7fb1cb2a54"&gt;pripojiteľných zariadení&lt;/A&gt; podporovaných v systéme OBERON.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Snímač RFID kľúčov je&amp;nbsp;hardvérové zariadenie, ktoré slúži na &lt;STRONG&gt;snímanie&amp;nbsp;RFID kľúčov/kariet a&amp;nbsp;identifikačných náramkov s RFID čipom&lt;/STRONG&gt;. 
+&lt;LI&gt;Zariadenie&amp;nbsp;sa môže použiť: &lt;/LI&gt;&lt;/UL&gt;
+&lt;DIV style="MARGIN-LEFT: 2em"&gt;
+&lt;UL&gt;
+&lt;LI&gt;pri prihlasovaní do OBERON-u ako &lt;STRONG&gt;snímač prístupu&lt;/STRONG&gt;: &lt;/LI&gt;&lt;/UL&gt;&lt;/DIV&gt;
+&lt;BLOCKQUOTE&gt;
+&lt;DIV style="MARGIN-LEFT: 2em"&gt;
+&lt;UL&gt;
+&lt;LI&gt;Používa sa&amp;nbsp;na rýchle prihlásenie používateľov v&amp;nbsp;systéme OBERON, najčastejšie v module&amp;nbsp;&lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnica OBERON&lt;/A&gt; v režime reštauračnej pokladnice. Pokladnicu je možné rýchlo odomknúť priložením&amp;nbsp;RFID kľúča/karty k&amp;nbsp;snímaču. Tým súčasne pokladnica identifikuje obsluhu s cieľom získania prehľadu o vykonaných tržbách členov personálu. 
+&lt;LI&gt;Kód prístupového kľúča/karty nenahrádza heslo&amp;nbsp;&lt;A href="225638ed-22f6-4ac4-9085-6d77c64925db"&gt;používateľa&lt;/A&gt;, je to vlastne ďalšie alternatívne heslo do programu. Z&amp;nbsp;tohto dôvodu &lt;STRONG&gt;musí mať každý&amp;nbsp;používateľ zadané aj štandardné heslo do programu&lt;/STRONG&gt;, inak by sa ktokoľvek iný mohol prihlásiť pod jeho menom. 
+&lt;LI&gt;Zariadenie&amp;nbsp;je potrebné do zoznamu &lt;A href="749ff4f1-eeb5-43f5-98d2-021399d8cec7"&gt;zariadení&lt;/A&gt; pridať ako &lt;EM&gt;&lt;STRONG&gt;Snímač prístupu&lt;/STRONG&gt;&lt;/EM&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;/DIV&gt;&lt;/BLOCKQUOTE&gt;
+&lt;DIV style="MARGIN-LEFT: 2em"&gt;
+&lt;UL&gt;
+&lt;LI&gt;vo vernostnom systéme&amp;nbsp;na &lt;STRONG&gt;identifikáciu vernostných kariet&lt;/STRONG&gt;: &lt;/LI&gt;&lt;/UL&gt;&lt;/DIV&gt;
+&lt;BLOCKQUOTE&gt;
+&lt;DIV style="MARGIN-LEFT: 2em"&gt;
+&lt;UL&gt;
+&lt;LI&gt;Používa sa pri identifikácii&amp;nbsp;&lt;A href="b7a48886-b367-4056-808a-59ba5f871f32"&gt;obchodného partnera&lt;/A&gt; pomocou RFID kľúča/karty pri používaní&amp;nbsp;&lt;A href="7a7d2c0d-866b-42ff-89bd-19d34b0b0a11"&gt;vernostného systému v Pokladnici OBERON&lt;/A&gt;&amp;nbsp;a&amp;nbsp;v&amp;nbsp;&lt;A href="6c98a377-1b88-4eb8-801b-1f168641373b"&gt;knihe pohľadávok a výdajok&lt;/A&gt;. Po nasnímaní RFID kľúča/karty obchodného partnera&amp;nbsp;môže dôjsť ku kumulovaniu benefitov, alebo k&amp;nbsp;ich čerpaniu. 
+&lt;LI&gt;Vo&amp;nbsp;&lt;A href="a35e5b68-56e0-4e4a-a271-99b4134aeaf8"&gt;formulári Vernostný systém&lt;/A&gt;, záložka &lt;EM&gt;Rozšírené nastavenia&lt;/EM&gt;,&amp;nbsp;je možné zadať tzv. regulárny výraz (napr. prefix), ktorý vyhodnotí príslušnosť RFID kľúča/karty&amp;nbsp;k vernostnému systému. 
+&lt;LI&gt;Zariadenie&amp;nbsp;je potrebné do zoznamu &lt;A href="749ff4f1-eeb5-43f5-98d2-021399d8cec7"&gt;zariadení&lt;/A&gt; pridať ako &lt;EM&gt;&lt;STRONG&gt;Snímač čiarových kódov&lt;/STRONG&gt;&lt;/EM&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;/DIV&gt;&lt;/BLOCKQUOTE&gt;
+&lt;DIV style="MARGIN-LEFT: 2em"&gt;
+&lt;UL&gt;
+&lt;LI&gt;pri softvérových dochádzkových termináloch na &lt;STRONG&gt;identifikáciu pracovníkov&lt;/STRONG&gt;: &lt;/LI&gt;&lt;/UL&gt;&lt;/DIV&gt;
+&lt;BLOCKQUOTE style="MARGIN-RIGHT: 0px" dir=ltr&gt;
+&lt;DIV style="MARGIN-LEFT: 2em"&gt;
+&lt;UL&gt;
+&lt;LI&gt;Používa sa na identifikáciu pracovníkov pri softvérových dochádzkových termináloch&amp;nbsp;&lt;A href="6856d140-bbfc-43c6-b0d7-0a6360827bb8"&gt;OBERON&lt;/A&gt; a&amp;nbsp;&lt;A href="1e150e57-14b3-4afd-8380-996f4ed00898"&gt;OBERON - Agenda firmy&lt;/A&gt;. 
+&lt;LI&gt;Identifikácia pracovníka sa realizuje priložením RFID kľúča/karty na&amp;nbsp;snímač prístupu. 
+&lt;LI&gt;Číslo RFID kľúča/karty sa načítava&amp;nbsp;do poľa&amp;nbsp;&lt;EM&gt;Kód prístupovej karty&lt;/EM&gt; vo&amp;nbsp;&lt;A href="8dd60281-9cc7-41fe-9dd2-2ad5c7ffe047"&gt;formulári Pracovník&lt;/A&gt;, záložka &lt;EM&gt;Dochádzka&lt;/EM&gt;&lt;STRONG&gt;.&lt;/STRONG&gt; 
+&lt;LI&gt;Zariadenie&amp;nbsp;je potrebné do zoznamu &lt;A href="749ff4f1-eeb5-43f5-98d2-021399d8cec7"&gt;zariadení&lt;/A&gt; pridať ako &lt;EM&gt;&lt;STRONG&gt;Snímač prístupu&lt;/STRONG&gt;&lt;/EM&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;/DIV&gt;&lt;/BLOCKQUOTE&gt;
+&lt;UL&gt;
+&lt;LI&gt;OBERON podporuje tieto snímače RFID kľúčov:&lt;BR&gt;&amp;nbsp;&amp;nbsp; -&amp;nbsp;&lt;A href="07a9169a-6739-4fc2-bbd8-959ae5d3b93d"&gt;EXALOGIC ECI-20&lt;/A&gt;,&lt;BR&gt;&amp;nbsp;&amp;nbsp; -&amp;nbsp;&lt;A href="9c6ac7dd-7781-45cf-b1f3-192bd968dbf7"&gt;EXALOGIC ECI-125&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;V prípade, že firma používa niektorý zo snímačov RFID kľúčov pri prihlasovaní používateľov a zároveň chce používať snímač pri identifikácii vernostných kariet, prípadne aj na identifikáciu pracovníkov pri softvérových dochádzkových termináloch,&lt;STRONG&gt;&amp;nbsp;je potrebné mať&amp;nbsp;tri takéto zariadenia&lt;/STRONG&gt;.&amp;nbsp;Zároveň sa všetky&amp;nbsp;tri&amp;nbsp;snímače musia pridať medzi&amp;nbsp;&lt;A href="749ff4f1-eeb5-43f5-98d2-021399d8cec7"&gt;zariadenia&lt;/A&gt; v systéme OBERON (dvakrát ako snímač prístupu a&amp;nbsp;raz&amp;nbsp;ako snímač čiarového kódu).&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="7c16157f-5212-4745-a443-4cc688f88511" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="3f051fd3-9727-4ecc-9613-7a7fb1cb2a54">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="b540383f-34c7-4159-aee0-93982515b810" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="07a9169a-6739-4fc2-bbd8-959ae5d3b93d">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="57cbf715-4046-4f1f-99bf-1e2f552d3e7a" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="9c6ac7dd-7781-45cf-b1f3-192bd968dbf7">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="19a2f471-7db5-4936-a7eb-2686a0491404">
+      <Keyword m="2022-12-15T08:49:19.7532766Z">RFID snímač</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="547b6954-706f-4fa3-b63f-dc60187f191c">
+      <Keyword m="2022-12-15T08:49:34.659406Z">Vernostný systém - identifikácia vernostných kariet pomocou snímača RFID kľúčov</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="ea80641d-cdf4-40b4-be2d-1a56e81acd4f">
+      <Keyword m="2016-04-29T09:08:38.7819417Z">Snímač prístupu</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="8fb8f602-3b5f-4b30-bc66-39c5efdd15a7">
+      <Keyword m="2022-12-15T08:49:01.063664Z">Dochádzkové terminály - identifikácia pracovníkov pomocou snímača RFID kľúčov</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="e3d35453-0749-4d9b-a691-ef8a125ea80e">
+      <Keyword m="2022-12-15T08:51:06.4395705Z">Pokladnica OBERON - prihlasovanie obsluhy pomocou snímača RFID kľúčov</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

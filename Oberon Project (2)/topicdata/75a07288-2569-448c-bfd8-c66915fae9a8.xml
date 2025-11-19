@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="75a07288-2569-448c-bfd8-c66915fae9a8" Status="Complete" CreatedOn="2015-11-02T10:00:53.4865781Z" ModifiedOn="2023-03-27T13:18:32.4864867Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="39040" Name="MsgBox_OBERON_CashRegister_DailyReport" BuildFlags="">
+  <Title m="2015-11-03T09:17:29.0673828Z">Dennú uzávierku nie je možné vyhotoviť</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-03-27T13:18:32.4864867Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; popisuje postupy, ktoré je možné&amp;nbsp;použiť v situácii, keď na&amp;nbsp;&lt;A href="a6f5e32d-6f1e-40bb-9d15-3f784a183252"&gt;Pokladnici OBERON&lt;/A&gt;&amp;nbsp;&lt;STRONG&gt;nie je možné vyhotoviť (vytlačiť) dennú uzávierku a zobrazí sa chybové hlásenie&lt;/STRONG&gt;.&amp;nbsp;Chybové hlásenie sa môže líšiť v&amp;nbsp;závislosti od použitého&amp;nbsp;&lt;A href="04b8d290-1470-41ff-85a1-c44a20958841"&gt;fiškálneho zariadenia&lt;/A&gt;, prípadne ovládača k&amp;nbsp;danému zariadeniu.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Aj keď&amp;nbsp;zákon povinnosť vyhotovovať denné uzávierky od 1.4.2019&amp;nbsp;podnikateľom neukladá, &lt;STRONG&gt;na evidenciu a kontrolu prijatých tržieb a hotovosti sú naďalej nevyhnutné&lt;/STRONG&gt;. Týka sa to najmä tých podnikateľov, ktorí okrem hotovosti prijímajú aj iné platidlá. Dôvodom je, že eKasa zóna finančnej správy &lt;STRONG&gt;eviduje len celkové sumy tržieb&lt;/STRONG&gt; a neobsahuje informácie o&amp;nbsp;&lt;A href="46e6deed-ce15-42dc-be53-ab72142d9673"&gt;type platby&lt;/A&gt;, a to v členení podľa prijatej hotovosti, cenín (poukážok, šekov a pod.), platieb kartou, prípadne iných bezhotovostných platieb. Na správne rozúčtovanie tržieb podľa typov platieb tak denná uzávierka zostáva pre&amp;nbsp;potreby účtovníctva&amp;nbsp;jediným zdrojom informácií. Viac informácií získate v téme&amp;nbsp;&lt;A href="900c1b8a-2645-4225-ac93-d387237f3d90" style="auto-update-caption: true"&gt;Vyhotovovanie uzávierok&lt;/A&gt;. 
+&lt;LI&gt;V prípade, že&amp;nbsp;fiškálne zariadenie, ktoré podnikateľ používa, umožňuje vyhotoviť&amp;nbsp;dennú uzávierku, je&amp;nbsp;potrebné kontrolu a evidenciu tržieb a&amp;nbsp;hotovosti vykonávať &lt;STRONG&gt;podľa uzávierky zo zariadenia&lt;/STRONG&gt;. Fiškálne zariadenia implementované do systému OBERON dennú uzávierku spravidla podporujú. Informácie o podpore dennej uzávierky&amp;nbsp;konkrétnymi&amp;nbsp;fiškálnymi zariadeniami sú k dispozícii v&amp;nbsp;prehľadnej tabuľke v&amp;nbsp;téme&amp;nbsp;&lt;A href="d9b919e7-20c4-4c50-9910-4f13211ed9a8"&gt;Podporované registračné pokladnice&lt;/A&gt;. 
+&lt;LI&gt;Pokiaľ ide o samotné vykonanie (vytlačenie) uzávierky,&amp;nbsp;&lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnica OBERON&lt;/A&gt; &lt;STRONG&gt;priamo dennú uzávierku nevykonáva, len zasiela do fiškálneho zariadenia príkaz na jej vykonanie&lt;/STRONG&gt;. Vykonanie (vytlačenie) dennej uzávierky &lt;STRONG&gt;je&amp;nbsp;plne v&amp;nbsp;réžii fiškálneho zariadenia&lt;/STRONG&gt; -&amp;nbsp;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;prípadnú akúkoľvek nezrovnalosť&amp;nbsp;v&amp;nbsp;dennej uzávierke je z tohto dôvodu potrebné konzultovať so servisným technikom&amp;nbsp;daného zariadenia&lt;/SPAN&gt;. Výnimkou môžu byť &lt;STRONG&gt;nezrovnalosti so&amp;nbsp;zobrazením&amp;nbsp;platidiel&lt;/STRONG&gt;, ktoré závisí od nastavenia&amp;nbsp;&lt;A href="46e6deed-ce15-42dc-be53-ab72142d9673"&gt;typov platieb&lt;/A&gt; v&amp;nbsp;&lt;EM&gt;Pokladnici OBERON&lt;/EM&gt;.&amp;nbsp; 
+&lt;LI&gt;Pri samotnom vyhotovovaní, resp. tlači dennej uzávierky môžu v&amp;nbsp;praxi nastať nasledujúce problémy: 
+&lt;OL&gt;
+&lt;LI&gt;Pred vykonaním dennej uzávierky sa testuje, &lt;STRONG&gt;či je fiškálne zariadenie&amp;nbsp;v&amp;nbsp;stave, ktorý uzávierku umožňuje vykonať&lt;/STRONG&gt;. Ak&amp;nbsp;uzávierku neumožňuje vykonať, zobrazí sa chybové hlásenie. Dôvodom môže byť aj celkom banálny problém, napr.&amp;nbsp;chýbajúci papier v&amp;nbsp;tlačiarni.&amp;nbsp; 
+&lt;LI&gt;Tesne pred vykonaním dennej uzávierky &lt;EM&gt;Pokladnica OBERON&lt;/EM&gt;&amp;nbsp;&lt;STRONG&gt;vykonáva kontrolu dokladov uložených v&amp;nbsp;databázovej evidencii s&amp;nbsp;dennými obratmi fiškálneho zariadenia&lt;/STRONG&gt;. Za štandardných okolností&amp;nbsp;sa obraty zhodujú a&amp;nbsp;následne&amp;nbsp;sa vykoná (vytlačí) denná uzávierka. Ak sa obraty nezhodujú, zobrazí sa chybové hlásenie o nezrovnalosti daných obratov.&amp;nbsp;V takomto prípade odporúčame dennú uzávierku vykonať,&amp;nbsp;následne je však&amp;nbsp;potrebné skontrolovať doklady&amp;nbsp;zapísané v databázovej evidencii&amp;nbsp;&lt;A href="a4568b9d-f4ac-4d94-b56f-de3717381da7"&gt;Pokladničné doklady&lt;/A&gt;. Je možné, že niektorý doklad bol do fiškálneho zariadenia zaslaný viackrát (obsluha pokladnice o tom rozhodla pri probléme s&amp;nbsp;vytlačením určitého dokladu) alebo niektorý doklad v&amp;nbsp;databázovej evidencii chýba (napr. v&amp;nbsp;prípade poškodenia databázy, výpadku konektivity k&amp;nbsp;databáze&amp;nbsp;tesne po&amp;nbsp;vytlačení dokladu), prípadne bol zaevidovaný (vytlačený) až po vykonaní dennej uzávierky v&amp;nbsp;predchádzajúci deň a&amp;nbsp;následne zahrnutý do dennej uzávierky v&amp;nbsp;nasledujúci deň ako doklad s&amp;nbsp;dátumom z&amp;nbsp;predchádzajúceho dňa a&amp;nbsp;pod. &lt;/LI&gt;&lt;/OL&gt;&lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Možné postupy riešenia&amp;nbsp;problémov pri dennej uzávierke&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Skontrolovať napájací kábel, prípadne iné káble z fiškálneho zariadenia, skontrolovať, či na fiškálnom zariadení svietia&amp;nbsp;štandardné kontrolky. 
+&lt;LI&gt;Skontrolovať, či fiškálne zariadenie má dostatok papiera.&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 
+&lt;LI&gt;Skontrolovať, či od poslednej dennej uzávierky došlo&amp;nbsp;k predaju. 
+&lt;LI&gt;Vypnúť/zapnúť počítač aj fiškálne zariadenie a&amp;nbsp;pokúsiť sa o opätovné vytlačenie dennej uzávierky. 
+&lt;LI&gt;V prípade, že sa problém uvedenými postupmi nevyriešil, je potrebné kontaktovať servisného technika k&amp;nbsp;danému zariadeniu, resp. jeho dodávateľa. Servisný technik sa môže pokúsiť&amp;nbsp;vykonať dennú uzávierku pomocou servisného programu,&amp;nbsp;prípadne zvolí iný postup. &lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="c7a0c93f-ec17-4cbf-8abc-6c5e76f61621" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="900c1b8a-2645-4225-ac93-d387237f3d90">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="0ce17435-2a82-4d52-9363-b10aabbcf042" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="69bbd499-45c0-4b0f-8f7a-c53fa5d70c1b">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="bb03fe5c-25fc-436f-a2af-682a23967f2b">
+      <Keyword m="2023-03-09T08:05:53.0935337Z">Denná uzávierka - nie je možné vyhotoviť</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="30f4b118-a5d4-4839-bd69-7ebe988547aa">
+      <Keyword m="2023-03-09T10:07:39.3080528Z">Servisný technik - denná uzávierka</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

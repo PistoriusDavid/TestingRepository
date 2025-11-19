@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="c9f7216f-f252-4be3-aa26-3e9bb6d4c887" Status="Complete" CreatedOn="2015-01-15T08:10:49.3867187Z" ModifiedOn="2025-01-24T09:58:19.7482259Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="CashRegister_Started_LayoutSettings" BuildFlags="">
+  <Title m="2023-02-27T09:03:33.7203168Z">Nastavenie vzhľadu Pokladnice OBERON</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2025-01-24T09:58:19.7482259Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;informácie o&amp;nbsp;nastavení vzhľadu a&amp;nbsp;funkčnosti&amp;nbsp;&lt;/STRONG&gt;&lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnice OBERON&lt;/A&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Modul&amp;nbsp;&lt;A href="a6f5e32d-6f1e-40bb-9d15-3f784a183252"&gt;Pokladnica OBERON&lt;/A&gt; možno používať &lt;STRONG&gt;v&amp;nbsp;rôznorodých prevádzkach&lt;/STRONG&gt; - od&amp;nbsp;bežných maloobchodných prevádzok,&amp;nbsp;predajní s viacerými predajnými miestami, cez veľkoobchodné prevádzky až po reštaurácie, bary a&amp;nbsp;zariadenia rýchleho občerstvenia (fastfoody). 
+&lt;LI&gt;Takéto rôznorodé použitie &lt;EM&gt;Pokladnice OBERON&lt;/EM&gt; je možné vďaka dostupným&amp;nbsp;&lt;STRONG&gt;nastaveniam režimu predaja a režimu zobrazenia&lt;/STRONG&gt; pokladnice. Systém OBERON umožňuje nastaviť nasledujúce &lt;A href="bb0e1e82-e344-4bf0-834a-a294269f2e71"&gt;režimy predaja&lt;/A&gt;: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;&lt;EM&gt;Maloobchodná pokladnica&lt;/EM&gt;&lt;/STRONG&gt; - bežný predaj v maloobchodných prevádzkach, 
+&lt;LI&gt;&lt;STRONG&gt;&lt;EM&gt;Veľkoobchodná pokladnica&lt;/EM&gt;&lt;/STRONG&gt; -&amp;nbsp;zaevidovanie úhrady&amp;nbsp;výdajky, objednávky, faktúry, možnosť zadať ľubovoľnú predajnú cenu s&amp;nbsp;DPH alebo bez DPH..., 
+&lt;LI&gt;&lt;STRONG&gt;&lt;EM&gt;Reštauračná pokladnica&lt;/EM&gt;&lt;/STRONG&gt; - otvorené účty (stoly), presuny medzi účtami, tlač na&amp;nbsp;&lt;A href="b9d7c873-7b63-4210-86fe-ab1c66ea6502"&gt;bonovacej tlačiarni&lt;/A&gt;, resp. zobrazenie na&amp;nbsp;&lt;A href="d9867d81-7de7-4ce2-9c45-932025935b8b"&gt;bonovacom monitore&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Zároveň OBERON umožňuje nastaviť&amp;nbsp;viacero &lt;A href="bb0e1e82-e344-4bf0-834a-a294269f2e71"&gt;režimov zobrazenia&lt;/A&gt;&amp;nbsp;pokladnice: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;&lt;EM&gt;Štandardný&lt;/EM&gt;&lt;/STRONG&gt; - ovládanie pomocou klávesnice alebo myši, 
+&lt;LI&gt;&lt;STRONG&gt;&lt;EM&gt;Dotykový displej - Štandardný&lt;/EM&gt;&lt;/STRONG&gt; - štandardné ovládanie dotykom, 
+&lt;LI&gt;&lt;STRONG&gt;&lt;EM&gt;Dotykový displej - Fast food&lt;/EM&gt;&lt;/STRONG&gt; - prispôsobený na ovládanie dotykom (prstom alebo dotykovým perom) na zariadeniach s&amp;nbsp;dotykovým displejom, predávané položky predstavujú tlačidlá s&amp;nbsp;obrázkami. Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="9b8fe798-5f73-41eb-a068-6f6edb55ae9d" style="auto-update-caption: true"&gt;Režim Fast food&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Výsledný vzhľad &lt;EM&gt;Pokladnice OBERON&lt;/EM&gt;&amp;nbsp;závisí od &lt;STRONG&gt;nastavení&amp;nbsp;režimu predaja a zobrazenia&lt;/STRONG&gt;. Tento vzhľad však nie je nemenný,&amp;nbsp;možno ho&amp;nbsp;ďalej&amp;nbsp;upravovať, a&amp;nbsp;tak úplne&amp;nbsp;prispôsobiť&amp;nbsp;svojim vlastným potrebám a&amp;nbsp;požiadavkám. 
+&lt;LI&gt;V&amp;nbsp;praxi sa okrem základných nastavení režimu predaja a&amp;nbsp;zobrazenia&amp;nbsp;ďalšie úpravy vzhľadu &lt;EM&gt;Pokladnice OBERON&lt;/EM&gt; spravidla&amp;nbsp;uskutočňujú kvôli: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;rôznemu nastaveniu rozlíšenia obrazovky&lt;/STRONG&gt; - každý monitor počítača pracuje v určitom rozlíšení (napr. 1024x768, 1280x768,&amp;nbsp;1600x900, 1600x1200 atď.), čo priamo ovplyvňuje maximálny počet zobrazených tlačidiel v pokladnici. Čím menšie rozlíšenie, tým&amp;nbsp;menej ovládacích prvkov (tlačidiel)&amp;nbsp;bude dostupných.&amp;nbsp;Pre dotykové displeje odporúčame používať rozlíšenie 1024×768 a vyššie; 
+&lt;LI&gt;&lt;STRONG&gt;obmedzeniu funkčnosti niektorých funkcií&lt;/STRONG&gt; - pomocou nastavenia vzhľadu je možné zobrazovať len tie systémové tlačidlá, ktoré sú pre danú firmu podstatné; 
+&lt;LI&gt;&lt;STRONG&gt;pridaniu ďalších funkcií&lt;/STRONG&gt; -&amp;nbsp;v &lt;EM&gt;Pokladnici OBERON&lt;/EM&gt; je možné nadefinovať vlastné systémové tlačidlá, napr. tlačidlo s akoukoľvek výškou zľavy alebo tlačidlo s konkrétnym&amp;nbsp;&lt;A href="46e6deed-ce15-42dc-be53-ab72142d9673"&gt;typom platby&lt;/A&gt; - hotovosť, platobná karta, zamestnanci (postup vytvorenia takéhoto tlačidla je&amp;nbsp;k dispozícii na konci tejto témy). &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Nastavenia vzhľadu pokladnice je možné &lt;STRONG&gt;exportovať a&amp;nbsp;následne importovať&lt;/STRONG&gt; do iného počítača. Export/import nastavení sa vykonáva v module &lt;EM&gt;Pokladnica OBERON&lt;/EM&gt; vo formulári &lt;EM&gt;Pokladnica OBERON - Systém&lt;/EM&gt;: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Exportovať&lt;/STRONG&gt; - exportujú sa nastavenia vzhľadu pokladnice (režim predaja a zobrazenia,&amp;nbsp;systémové tlačidlá, veľkosť&amp;nbsp;panelov a tlačidiel...). Export nastavení sa vykonáva vo formáte XML.&amp;nbsp;Pri exporte&amp;nbsp;sa automaticky exportujú všetky nastavenia. 
+&lt;LI&gt;&lt;STRONG&gt;Importovať&lt;/STRONG&gt; - import znamená načítanie nastavení vzhľadu pokladnice zo súboru typu XML.&amp;nbsp;Pri importe je možné zvoliť, ktoré údaje sa majú importovať.&amp;nbsp;Pri exporte/importe z jedného počítača&amp;nbsp;do druhého je vhodné, aby obidva počítače mali rovnaké rozlíšenie obrazovky. V prípade importu s iným rozlíšením (napr. z väčšieho rozlíšenia na menšie) sa&amp;nbsp;tlačidlá naimportujú správne,&amp;nbsp;no vzhľad&amp;nbsp;a&amp;nbsp;veľkosť panelov&amp;nbsp;budú odlišné a&amp;nbsp;pokladnicu bude potrebné ešte manuálne doupravovať. &lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Nastaviť &lt;STRONG&gt;vzhľad a funkčnosť&lt;/STRONG&gt;&amp;nbsp;&lt;EM&gt;Pokladnice OBERON&lt;/EM&gt; je možné pomocou&amp;nbsp;&lt;A href="422aed09-2423-4763-b538-639c0493b060"&gt;formulára Nastavenie vzhľadu pokladnice&lt;/A&gt; a&amp;nbsp;&lt;A href="bb0e1e82-e344-4bf0-834a-a294269f2e71"&gt;formulára Pokladnica OBERON - nastavenia&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H1&gt;Príklady nastavenia vzhľadu &lt;EM&gt;Pokladnice OBERON&lt;/EM&gt;&lt;/H1&gt;
+&lt;H5&gt;Obrázok č. 1: &lt;EM&gt;Pokladnica OBERON&lt;/EM&gt; v&amp;nbsp;režime&amp;nbsp;predaja &lt;EM&gt;Maloobchodná pokladnica&lt;/EM&gt;&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/CashRegister/Form_CashRegister_Maloobchod2.png"&gt;&lt;/P&gt;
+&lt;H5&gt;Obrázok č. 2: Maloobchodná pokladnica s štandardným režimom zobrazenia&amp;nbsp;pre dotykový displej&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/CashRegister/Form_CashRegister_Maloobchod_Dotykova2.png"&gt;&lt;/P&gt;
+&lt;H5&gt;Obrázok č. 3: Reštauračná pokladnica s režimom zobrazenia &lt;EM&gt;Dotykový displej - Fast food&lt;/EM&gt;&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/CashRegister/Form_CashRegister_FastFood2.png"&gt;&lt;/P&gt;
+&lt;H1&gt;Nastavenie displeja &lt;EM&gt;Pokladnice OBERON&lt;/EM&gt;&lt;/H1&gt;
+&lt;P&gt;V &lt;EM&gt;Pokladnici OBERON&lt;/EM&gt; sú dostupné nastavenia zobrazenia&amp;nbsp;displeja, t.&amp;nbsp;j.&amp;nbsp;informačnej zóny v&amp;nbsp;ľavej hornej časti pokladnice, v ktorej sa zobrazujú údaje ako dátum, čas, celková suma dokladu atď. Nastavenia sa vykonávajú vo&amp;nbsp;&lt;A href="422aed09-2423-4763-b538-639c0493b060"&gt;formulári Nastavenie vzhľadu pokladnice&lt;/A&gt;, záložka&amp;nbsp;&lt;EM&gt;Základné&lt;/EM&gt;. Umožňujú nastaviť displej ako:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Štandardný&lt;/STRONG&gt; - informačná zóna sa zobrazuje štandardne (Obrázok č. 1). 
+&lt;LI&gt;&lt;STRONG&gt;Digitálny&lt;/STRONG&gt; - niektoré čísla sa vykresľujú digitálne, farba pozadia&amp;nbsp;je zachovaná (Obrázok č. 2). 
+&lt;LI&gt;&lt;STRONG&gt;Tmavý&lt;/STRONG&gt; - niektoré čísla sa vykresľujú digitálne a ich farba závisí od nastavenia farebnej škály, farba pozadia&amp;nbsp;je tmavá (Obrázok č. 3). &lt;/LI&gt;&lt;/UL&gt;
+&lt;H1&gt;Nastavenie vrchného panela&lt;/H1&gt;
+&lt;P&gt;Vrchný panel obsahuje tri záložky - &lt;EM&gt;Základné,&amp;nbsp;PLU (rýchly predaj)&lt;/EM&gt;&amp;nbsp;a &lt;EM&gt;Systém&lt;/EM&gt;.&amp;nbsp;Každá z nich &lt;STRONG&gt;obsahuje systémové tlačidlá&lt;/STRONG&gt;, ktoré je možné nadefinovať podľa vlastných potrieb. Vzhľad vrchného panela&amp;nbsp;&lt;EM&gt;Pokladnice OBERON&lt;/EM&gt; sa nastavuje vo&amp;nbsp;&lt;A href="422aed09-2423-4763-b538-639c0493b060"&gt;formulári Nastavenie vzhľadu pokladnice&lt;/A&gt;, záložka &lt;EM&gt;Vrchný panel&lt;/EM&gt;.&lt;/P&gt;
+&lt;H4&gt;Nastavenie tlačidiel v&amp;nbsp;záložke &lt;EM&gt;Základné&lt;/EM&gt;&lt;/H4&gt;
+&lt;TABLE&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TD width=84&gt;
+&lt;P align=center&gt;&lt;IMG alt="" src="images/CashRegister/CashRegister_Button_Basic.png"&gt;&lt;/P&gt;&lt;/TD&gt;
+&lt;TD&gt;
+&lt;UL&gt;
+&lt;LI&gt;Vo&amp;nbsp;&lt;A href="422aed09-2423-4763-b538-639c0493b060"&gt;formulári Nastavenie vzhľadu pokladnice&lt;/A&gt;&amp;nbsp;v záložke &lt;EM&gt;Vrchný panel&lt;/EM&gt;, sekcia &lt;EM&gt;Základné&lt;/EM&gt;&amp;nbsp;stlačte tlačidlo &lt;EM&gt;Definovať&lt;/EM&gt;, zobrazí sa&amp;nbsp;&lt;STRONG&gt;číselník so zoznamom&amp;nbsp;preddefinovaných tlačidiel vrchného panela určených&amp;nbsp;na bežnú prácu obsluhy&lt;/STRONG&gt; s&amp;nbsp;&lt;EM&gt;Pokladnicou OBERON&lt;/EM&gt;. 
+&lt;LI&gt;Číselník&amp;nbsp;umožňuje &lt;STRONG&gt;definovať nové tlačidlá,&lt;/STRONG&gt; &lt;STRONG&gt;nastaviť, ktoré tlačidlá sa majú v&amp;nbsp;paneli&amp;nbsp;zobrazovať a v akom poradí, prípadne im priradiť farbu&lt;/STRONG&gt; na zvýšenie prehľadnosti pri predaji. &lt;/LI&gt;&lt;/UL&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;
+&lt;H4&gt;Nastavenie tlačidiel v&amp;nbsp;záložke &lt;EM&gt;PLU (rýchly predaj)&lt;/EM&gt;&lt;/H4&gt;
+&lt;TABLE&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TD width=84&gt;
+&lt;P align=center&gt;&lt;IMG alt="" src="images/CashRegister/CashRegister_Button_PLU1.png"&gt;&lt;/P&gt;&lt;/TD&gt;
+&lt;TD&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;EM&gt;Pokladnica OBERON&lt;/EM&gt; umožňuje nadefinovať &lt;STRONG&gt;tlačidlá PLU určené&amp;nbsp;na rýchly predaj položiek&lt;/STRONG&gt;. Každé tlačidlo predstavuje konkrétnu&amp;nbsp;&lt;A href="1a33ab0b-2df7-4dc2-962b-8a3319c16831"&gt;skladovú kartu&lt;/A&gt; (vyberajú sa tie skladové karty, ktoré sa často predávajú). Nastavenie&amp;nbsp;tlačidiel PLU&amp;nbsp;umožňuje rýchlejšie a&amp;nbsp;jednoduchšie&amp;nbsp;pridávanie položiek do otvoreného pokladničného účtu. 
+&lt;LI&gt;
+&lt;P&gt;Na priradenie skladovej karty k tlačidlu vo&amp;nbsp;&lt;A href="422aed09-2423-4763-b538-639c0493b060"&gt;formulári Nastavenie vzhľadu pokladnice&lt;/A&gt;&amp;nbsp;v záložke &lt;EM&gt;Vrchný panel&lt;/EM&gt;, sekcia&amp;nbsp;&lt;EM&gt;PLU (rýchly predaj)&lt;/EM&gt; stlačte tlačidlo&amp;nbsp;&lt;EM&gt;Nový -&lt;/EM&gt;&amp;nbsp;zobrazí sa formulár &lt;EM&gt;Tlačidlo&lt;/EM&gt;, v&amp;nbsp;ktorom&amp;nbsp;stlačte tlačidlo&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_ListButton.png"&gt;&amp;nbsp;na zobrazenie zoznamu skladových kariet. Na zvýšenie prehľadnosti je možné tlačidlá PLU &lt;STRONG&gt;farebne odlíšiť&lt;/STRONG&gt;&amp;nbsp;na základe nastavenia&amp;nbsp;farby&amp;nbsp;vo&amp;nbsp;&lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;formulári Skladová karta&lt;/A&gt;, záložka &lt;EM&gt;Doplň. údaje&lt;/EM&gt;.&lt;/P&gt;
+&lt;LI&gt;
+&lt;P&gt;Nastaviť tlačidlá PLU je &lt;STRONG&gt;možné aj automaticky&lt;/STRONG&gt; (tlačidlo &lt;EM&gt;Možnosti - Vytvorenie tlačidiel PLU podľa predaných položiek&lt;/EM&gt;) podľa najčastejšie predávaných skladových kariet za určité obdobie. Vytvorením nových tlačidiel&amp;nbsp;sa predchádzajúce tlačidlá PLU prepíšu. Poradie tlačidiel je možné upraviť.&lt;/P&gt;&lt;/LI&gt;&lt;/UL&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;
+&lt;H4&gt;Nastavenie tlačidiel v&amp;nbsp;záložke &lt;EM&gt;Systém&lt;/EM&gt;&lt;/H4&gt;
+&lt;TABLE&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TD width=84&gt;
+&lt;P align=center&gt;&lt;IMG alt="" src="images/CashRegister/CashRegister_Button_System.png"&gt;&lt;/P&gt;&lt;/TD&gt;
+&lt;TD&gt;
+&lt;UL&gt;
+&lt;LI&gt;Vo&amp;nbsp;&lt;A href="422aed09-2423-4763-b538-639c0493b060"&gt;formulári Nastavenie vzhľadu pokladnice&lt;/A&gt;&amp;nbsp;v záložke &lt;EM&gt;Vrchný panel&lt;/EM&gt;, sekcia&amp;nbsp;&lt;EM&gt;Systém&lt;/EM&gt;&amp;nbsp;stlačte tlačidlo &lt;EM&gt;Definovať&lt;/EM&gt;, zobrazí sa&amp;nbsp;&lt;STRONG&gt;číselník so zoznamom&amp;nbsp;preddefinovaných tlačidiel vrchného panela,&lt;/STRONG&gt; &lt;STRONG&gt;ktoré sa používajú menej často&lt;/STRONG&gt; (uzávierky, kópia dokladu, hotelové účty) a nie sú nevyhnutné pre bežný&amp;nbsp;predaj. 
+&lt;LI&gt;Číselník&amp;nbsp;umožňuje &lt;STRONG&gt;definovať nové tlačidlá,&lt;/STRONG&gt; &lt;STRONG&gt;nastaviť, ktoré tlačidlá sa majú v&amp;nbsp;paneli&amp;nbsp;zobrazovať a v akom poradí, prípadne im priradiť&lt;/STRONG&gt; &lt;STRONG&gt;farbu&lt;/STRONG&gt; na zvýšenie prehľadnosti pri predaji. 
+&lt;LI&gt;Pri&amp;nbsp;definovaní tlačidiel &lt;STRONG&gt;odporúčame všetky používané tlačidlá umiestniť do záložky &lt;EM&gt;Základné&lt;/EM&gt;&lt;/STRONG&gt;,&amp;nbsp;ostatné tlačidlá sa môžu nachádzať v záložke &lt;EM&gt;Systém&lt;/EM&gt;. Tým sa minimalizuje potreba prepínania medzi jednotlivými&amp;nbsp;záložkami&amp;nbsp;pri predaji. &lt;/LI&gt;&lt;/UL&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;
+&lt;H1&gt;Nastavenie pravého bočného panela&lt;/H1&gt;
+&lt;P&gt;V&amp;nbsp;závislosti od nastavení pravý bočný panel&amp;nbsp;obsahuje tri&amp;nbsp;sekcie - systémové tlačidlá,&amp;nbsp;ktoré je možné nadefinovať podľa vlastných potrieb,&amp;nbsp;dotykovú numerickú klávesnicu a logo firmy. Vzhľad&amp;nbsp;pravého bočného&amp;nbsp;panela&amp;nbsp;&lt;EM&gt;Pokladnice OBERON&lt;/EM&gt; sa nastavuje vo&amp;nbsp;&lt;A href="422aed09-2423-4763-b538-639c0493b060"&gt;formulári Nastavenie vzhľadu pokladnice&lt;/A&gt;, záložka&amp;nbsp;&lt;EM&gt;Pravý bočný&amp;nbsp;panel&lt;/EM&gt;.&lt;/P&gt;
+&lt;H3&gt;Nastavenie tlačidiel pravého bočného panela&lt;/H3&gt;
+&lt;UL&gt;
+&lt;LI&gt;Pravý bočný panel so systémovými&amp;nbsp;tlačidlami sa zobrazuje vpravo pod poľom &lt;EM&gt;Množstvo*Kód položky&lt;/EM&gt;. Nachádzajú sa v ňom &lt;STRONG&gt;najčastejšie používané tlačidlá&lt;/STRONG&gt;. Stlačením tlačidla &lt;EM&gt;Definovať&lt;/EM&gt;&amp;nbsp;sa zobrazia všetky preddefinované tlačidlá. Program umožňuje nastaviť, ktoré tlačidlá sa majú zobrazovať a v akom poradí, prípadne im priradiť farbu. 
+&lt;LI&gt;Systém OBERON umožňuje nadefinovať systémové tlačidlá &lt;STRONG&gt;osobitne pre každý typ platby&lt;/STRONG&gt; (napr. &lt;EM&gt;Hotovosť, Platobná karta&lt;/EM&gt; atď.). To umožní&amp;nbsp;zaevidovať (vytlačiť) pokladničný doklad jednoduchým stlačením daného tlačidla.&amp;nbsp;Postup vytvorenia nového tlačidla je uvedený nižšie. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H3&gt;Nastavenie dotykovej numerickej klávesnice&lt;/H3&gt;
+&lt;UL&gt;
+&lt;LI&gt;Dotyková numerická klávesnica sa zobrazuje v pravom bočnom paneli pri&amp;nbsp;dotykovom režime zobrazenia (pozri Obrázky č. 2 a 3). &lt;/LI&gt;&lt;/UL&gt;
+&lt;H3&gt;Nastavenie zobrazovania obrázka zadanej položky, resp. loga firmy&lt;/H3&gt;
+&lt;UL&gt;
+&lt;LI&gt;Program umožňuje nastaviť, aby sa v pravom bočnom paneli na mieste,&amp;nbsp;kde&amp;nbsp;sa štandardne zobrazuje logo,&amp;nbsp;krátko zobrazil obrázok skladovej karty&amp;nbsp;pridanej do otvoreného pokladničného dokladu (nastavuje sa vo&amp;nbsp;&lt;A href="fa471057-f995-4987-b25d-6b5b16f939e3"&gt;formulári Dokument (obrázok)&lt;/A&gt; s príznakom &lt;EM&gt;&lt;STRONG&gt;Základný (predvolený obrázok)&lt;/STRONG&gt;&lt;/EM&gt; s&amp;nbsp;odporúčanými rozmermi&amp;nbsp;&lt;STRONG&gt;aspoň&amp;nbsp;64&amp;nbsp;x&amp;nbsp;64 pixelov, veľkosťou max.&amp;nbsp;5&amp;nbsp;-&amp;nbsp;10&amp;nbsp;kB,&amp;nbsp;formát PNG&lt;/STRONG&gt;). Po zmiznutí obrázka sa zobrazí logo programu&amp;nbsp;&lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;, alebo logo účtovnej jednotky, ak je zadané. Ak políčko ostane nezačiarknuté, vznikne väčší priestor na ďalšie tlačidlá. Logo účtovnej jednotky možno nastaviť po stlačení tlačidla &lt;EM&gt;Vybrať&lt;/EM&gt;. Odporúčané rozmery obrázka loga&amp;nbsp;sú &lt;STRONG&gt;102&amp;nbsp;x&amp;nbsp;102 pixelov&lt;/STRONG&gt;, veľkosť &lt;STRONG&gt;max. 10 - 15 kB&lt;/STRONG&gt;, formát &lt;STRONG&gt;PNG&lt;/STRONG&gt;. 
+&lt;LI&gt;Ak sa nenastaví zobrazovanie obrázka, resp. loga, vznikne väčší priestor na ďalšie tlačidlá. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H1&gt;Postup vytvorenia nových systémových tlačidiel&lt;/H1&gt;
+&lt;P&gt;Postup vytvorenia tlačidla&amp;nbsp;&lt;EM&gt;Platobná karta&lt;/EM&gt; (tlačidlo je zobrazené na Obrázku č. 1):&lt;/P&gt;
+&lt;OL&gt;
+&lt;LI&gt;V&amp;nbsp;programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt; zvoľte ponuku &lt;EM&gt;Sklad&lt;/EM&gt;, &lt;EM&gt;Pokladnica OBERON&lt;/EM&gt;. 
+&lt;LI&gt;V záložke &lt;EM&gt;Systém&lt;/EM&gt; označenej symbolom&amp;nbsp;&lt;IMG style="WIDTH: 20px" alt="" src="images/CashRegister/CashRegister_Button_System.png"&gt; stlačte tlačidlo &lt;EM&gt;Systém&lt;/EM&gt;. Otvorí sa formulár &lt;EM&gt;Pokladnica OBERON - Systém&lt;/EM&gt;, v&amp;nbsp;ktorom v záložke&amp;nbsp;&lt;EM&gt;Vzhľad&lt;/EM&gt; stlačte tlačidlo &lt;EM&gt;Nastaviť&lt;/EM&gt;. 
+&lt;LI&gt;Otvorí sa&amp;nbsp;&lt;A href="422aed09-2423-4763-b538-639c0493b060"&gt;formulár Nastavenie vzhľadu pokladnice&lt;/A&gt;.&amp;nbsp;Zvoľte záložku &lt;EM&gt;Vrchný panel&lt;/EM&gt; alebo &lt;EM&gt;Pravý bočný panel&lt;/EM&gt; podľa toho, kam chcete pridať nové tlačidlo. 
+&lt;LI&gt;Stlačte tlačidlo &lt;EM&gt;Definovať&lt;/EM&gt;. Zobrazí sa zoznam preddefinovaných&amp;nbsp;tlačidiel. 
+&lt;LI&gt;Stlačte tlačidlo &lt;EM&gt;Nový.&lt;/EM&gt;&amp;nbsp;V&amp;nbsp;rozbaľovacom zozname &lt;EM&gt;Typ&lt;/EM&gt; zvoľte položku&amp;nbsp;&lt;EM&gt;&lt;STRONG&gt;Typ platby&lt;/STRONG&gt;&lt;/EM&gt;, v&amp;nbsp;rozbaľovacom zozname&amp;nbsp;&lt;EM&gt;Hodnota&lt;/EM&gt; zvoľte položku &lt;EM&gt;&lt;STRONG&gt;Platobná karta&lt;/STRONG&gt;&lt;/EM&gt;, v&amp;nbsp;rozbaľovacom zozname&amp;nbsp;&lt;EM&gt;Farba&lt;/EM&gt; zvoľte&amp;nbsp;farbu podľa svojich preferencií (napr. &lt;EM&gt;Tyrkysová&lt;/EM&gt;). 
+&lt;LI&gt;Začiarknite možnosť &lt;EM&gt;&lt;STRONG&gt;Zobraziť v paneli&lt;/STRONG&gt;&lt;/EM&gt; a stlačte tlačidlo&amp;nbsp;&lt;EM&gt;&lt;STRONG&gt;OK&lt;/STRONG&gt;&lt;/EM&gt;. 
+&lt;LI&gt;Tlačidlo &lt;EM&gt;Platobná karta&lt;/EM&gt; sa uloží a zobrazí v paneli. &lt;/LI&gt;&lt;/OL&gt;
+&lt;P&gt;Analogicky je možné vytvoriť tlačidlo&amp;nbsp;aj s iným typom platby alebo iné tlačidlo, napr.&amp;nbsp;so zľavou, kde postupujte rovnako, len do poľa &lt;EM&gt;Hodnota&lt;/EM&gt; zadajte číslo, ktoré bude vyjadrovať výšku zľavy.&lt;/P&gt;
+&lt;H1&gt;Nastavenie &lt;EM&gt;Pokladnice OBERON&lt;/EM&gt; v režime &lt;EM&gt;Fast food&lt;/EM&gt;&lt;/H1&gt;
+&lt;P&gt;Oproti&amp;nbsp;štandardnému režimu&amp;nbsp;zobrazenia&amp;nbsp;sú v&amp;nbsp;režime zobrazenia &lt;EM&gt;Dotykový displej - Fast food&lt;/EM&gt; &lt;STRONG&gt;položky reprezentované tlačidlami (obrázkami jedál a nápojov)&lt;/STRONG&gt; &lt;STRONG&gt;a zatriedené&amp;nbsp;do&amp;nbsp;&lt;/STRONG&gt;&lt;A href="07957769-848a-42b8-8d4b-678f7246396c"&gt;skupín v pokladnici&lt;/A&gt;. Podrobné informácie o nastavení&amp;nbsp;&lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnice OBERON&lt;/A&gt; v tomto režime, ako aj o samotnom režime získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="9b8fe798-5f73-41eb-a068-6f6edb55ae9d" style="auto-update-caption: true"&gt;Režim Fast food&lt;/A&gt;.&lt;/P&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt; 
+&lt;P&gt;Vo&amp;nbsp;&lt;A href="422aed09-2423-4763-b538-639c0493b060"&gt;formulári Nastavenie vzhľadu pokladnice&lt;/A&gt;, záložka&amp;nbsp;&lt;EM&gt;Ostatné&lt;/EM&gt;, sú dostupné nastavenia&amp;nbsp;tlačidiel na &lt;EM&gt;Pokladnici OBERON&lt;/EM&gt; (veľkosť systémových tlačidiel a tlačidiel predávaných položiek, zobrazovanie cien skladových kariet na tlačidlách predávaných položiek, zobrazovanie názvov na tlačidlách skupín v&amp;nbsp;pokladnici,&amp;nbsp;zobrazovanie&amp;nbsp;klávesových skratiek na systémových tlačidlách&amp;nbsp;na dotykovej pokladnici).&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="1c09d9b4-c336-42ba-9fff-c8a8787d61d0" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="8db6915f-61e6-493a-b932-f2c28e7df4bc" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="747496d6-0267-424d-a55e-aed6cbd90050">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="6c430db6-6f67-4a3d-98bc-ada441edd6c3" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="69bbd499-45c0-4b0f-8f7a-c53fa5d70c1b">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="e5574602-42f1-4505-ae19-57f421091fb4" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="46e6deed-ce15-42dc-be53-ab72142d9673">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="e29d4d7d-f98b-4b21-95ee-1d8e4b64e7ac" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="422aed09-2423-4763-b538-639c0493b060">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="ebdca074-7b53-42ae-80c1-5b6f58fa22cc" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="bb0e1e82-e344-4bf0-834a-a294269f2e71">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="6cedc8b7-f675-4751-91ec-b4f7cad492ae" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="07957769-848a-42b8-8d4b-678f7246396c">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="ab33ea65-703d-4288-bbd5-7c751ce691ac" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="7dd24e6f-6f96-4a51-9881-991d948d6392">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="ab7baff7-a424-4923-981c-5b316b2459ac" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="fe4a9463-d066-4a56-8eee-a728ae1a7220">
+      <Title m="2023-02-28T09:19:33.0649185Z">Jedálny lístok v mobilnom zariadení (OBERON eMenu)</Title>
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="b8cc8bcc-2d85-4ca0-88a2-3e121fb822e0" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="942d48d5-b290-40f6-8ba3-45cf78f380f9">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="d0c82a03-dbd3-413a-9110-048e2760686e" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="ccadca4e-2fbd-4b28-8d92-f826f3019bd0">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="5d7950c5-3886-40a1-9a30-29bbbfa31ab1">
+      <Keyword m="2023-02-28T09:20:50.492654Z">Vzhľad Pokladnice OBERON - nastavenie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="020a3698-13ce-4671-813c-dc5b7d061ccd">
+      <Keyword m="2023-02-28T09:21:46.402345Z">PLU (rýchly predaj) - Pokladnica OBERON</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="e9f9a13e-8d76-45b4-abb5-8ed3a9b65f34">
+      <Keyword m="2015-01-21T08:04:07.1416015Z">Logo na Pokladnici OBERON</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="b2231192-c0fa-40b2-9fe0-6602d1e8bc36">
+      <Keyword m="2023-02-28T09:20:38.1217239Z">Číslovanie pokladničných dokladov</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="0c7d7cc8-c7e7-469a-8a78-7f27936b4b40">
+      <Keyword m="2023-02-28T09:21:08.8106186Z">Displej - Pokladnica OBERON</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="6046c865-4a29-4ee9-9e0a-fd368f82f78d">
+      <Keyword m="2023-02-28T09:21:25.0236521Z">Dotyková numerická klávesnica - Pokladnica OBERON</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="5f18f05b-e82f-4d6f-b650-f13e10660fba">
+      <Keyword m="2023-02-28T09:22:34.7689013Z">Obrázok zadanej položky - Pokladnica OBERON</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="867d5294-b38e-44c6-9c87-15b6197ebee1">
+      <Keyword m="2023-02-28T09:23:06.7813196Z">Pravý bočný panel - Pokladnica OBERON</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="9ec03024-6404-4656-96d5-24941149be91">
+      <Keyword m="2023-02-28T09:23:25.7159647Z">Tlačidlá na Pokladnici OBERON - postup vytvorenia</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="b6db65cd-ed22-4439-988b-23c97af6f2ce">
+      <Keyword m="2023-02-28T09:23:38.4015444Z">Vytvorenie tlačidla na Pokladnici OBERON</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="82f995da-d8e3-4028-8ec7-a80395a33ffe">
+      <Keyword m="2023-02-28T09:24:17.5106675Z">Vrchný panel - Pokladnica OBERON</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="d7e1f755-ccc1-4012-8971-a37432ec7037">
+      <Keyword m="2023-02-28T09:25:30.3212797Z">Skupiny v pokladnici - Pokladnica OBERON</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

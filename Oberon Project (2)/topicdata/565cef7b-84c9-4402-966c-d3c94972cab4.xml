@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="565cef7b-84c9-4402-966c-d3c94972cab4" Status="Complete" CreatedOn="2014-09-09T10:33:12.0186565Z" ModifiedOn="2023-10-17T10:54:49.1688489Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="AccSingle_Started_Zadanie_Zapisu_Penazny_Dennik" BuildFlags="">
+  <Title m="2021-08-24T07:22:46.7508481Z">Zápis do peňažného denníka</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-04-13T11:47:25.7653575Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;postup zápisu&amp;nbsp;&lt;/STRONG&gt;do&amp;nbsp;&lt;A href="5e82cca9-b8af-4a80-ba30-7ab91914a595"&gt;peňažného denníka&lt;/A&gt; -&amp;nbsp;základnej účtovnej knihy&amp;nbsp;&lt;A href="32be28cf-2368-4818-9d24-cfa9d59afb75"&gt;jednoduchého účtovníctva&lt;/A&gt;.&lt;/P&gt;
+&lt;H2&gt;Postup zápisu do peňažného denníka&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;V&amp;nbsp;ponuke &lt;I&gt;Účtovníctvo&lt;/I&gt; zvoľte položku &lt;A href="5e82cca9-b8af-4a80-ba30-7ab91914a595"&gt;Peňažný denník&lt;/A&gt;. 
+&lt;LI&gt;V&amp;nbsp;otvorenej evidencii stlačte tlačidlo &lt;I&gt;Nový&lt;/I&gt;, otvorí sa&amp;nbsp;&lt;A href="b844cf33-8762-4c77-bfde-4a5b5b22350f"&gt;formulár Zápis v peňažnom denníku&lt;/A&gt;. 
+&lt;LI&gt;Zadajte dátum účtovného prípadu. Číslo dokladu program doplní podľa nastaveného číslovania v ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="932262cc-b80f-4ce6-aba6-6a7d4a18f5ec"&gt;oddiel Firma, Účtovníctvo&lt;/A&gt;, záložka &lt;EM&gt;Peňažný denník&lt;/EM&gt;.&amp;nbsp;Do poľa &lt;I&gt;Predkontácia&lt;/I&gt; je potrebné zadať trojmiestne číslo, ktoré určí, do ktorého stĺpca peňažného denníka&amp;nbsp;sa daný doklad zapíše. Zoznam predkontácií&amp;nbsp;sa otvorí po stlačení tlačidla &lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_ListButton.png"&gt;. Ďalej je potrebné zadať sumy dokladu, prípadne ďalšie potrebné náležitosti. Medzi poľami &lt;EM&gt;Základ DPH&lt;/EM&gt;, &lt;EM&gt;DPH&lt;/EM&gt; a &lt;EM&gt;Suma celkom&lt;/EM&gt; sú väzby, ktoré uľahčujú&amp;nbsp;zaúčtovanie dokladu. 
+&lt;LI&gt;V&amp;nbsp;rozbaľovacom zozname &lt;I&gt;Pokladňa/Účet&lt;/I&gt; zvoľte druh peňažnej operácie&amp;nbsp;(vyberte pokladňu alebo bankový účet), prípadne vyberte nepeňažnú operáciu. Ak sa v tomto zozname nenachádza číslo bankového účtu, je potrebné v ponuke &lt;I&gt;Firma&lt;/I&gt;,&amp;nbsp;&lt;A href="93ded66f-b7a6-40a8-89e0-bd501cd17bfc"&gt;Vlastné bankové účty&lt;/A&gt;&amp;nbsp;zadať bankový účet (bankové účty) účtovnej jednotky. &amp;nbsp;&amp;nbsp;&amp;nbsp; 
+&lt;LI&gt;Po stlačení tlačidla &lt;I&gt;OK&lt;/I&gt; sa do peňažného denníka uloží nový zápis. &lt;/LI&gt;&lt;/OL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;V&amp;nbsp;prípade, že v rozbaľovacom zozname &lt;EM&gt;Pokladňa/Účet&lt;/EM&gt; bola&amp;nbsp;zvolená pokladňa, je možné vytlačiť príjmový/výdavkový pokladničný doklad.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Zrušiť&amp;nbsp;zápis v&amp;nbsp;peňažnom denníku je možné jednoduchým vymazaním príslušného zápisu z denníka (napr. pri oprave už zaúčtovanej faktúry - viac v téme&amp;nbsp;&lt;A href="2dc1ca32-542f-467a-a6f8-1c4a33a367fd"&gt;Oprava zaúčtovanej faktúry&lt;/A&gt;).&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="f2923205-450f-4ae6-84ed-9658be7b94e0" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="5e82cca9-b8af-4a80-ba30-7ab91914a595">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="d15f9779-eb81-4a38-8a8f-f327a86e2de2" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="6dd73cf9-75cf-48d2-a903-62cd66b9478a">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="dad75cd0-2457-4009-a4a0-373e7a814d3a" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="b844cf33-8762-4c77-bfde-4a5b5b22350f">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="ab4c2347-40bb-4df6-9639-9ae4d0472dca" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="9b7111d2-812c-4d4f-b0a4-d2a89e72df18">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="7f3541ad-8b58-460a-b98a-f105447a55d9" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="eb81acac-d595-4fef-befa-e9e2fe0994f4">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="f1ade2f7-e6e7-4025-91d8-77030a2b0189" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="2dc1ca32-542f-467a-a6f8-1c4a33a367fd">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="a80ba6f3-c7e2-4625-92dd-209822a30f76" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="18a95b66-bec2-4973-832f-4fbc1c582c8c">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="800cf2b3-2541-417d-9392-b0547f64deca" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="75b0747a-07d3-4044-a463-48cbddb73f49">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="08bbe1ee-e729-4eea-a238-a60c4742267d">
+      <Keyword m="2023-04-13T11:48:04.6265901Z">Peňažný denník - pridanie zápisu</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="27c75db0-2abe-4c96-a8bc-c7f208132bda" Status="Complete" CreatedOn="2022-04-11T06:58:12.5171057Z" ModifiedOn="2022-12-15T11:15:30.0066339Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="ExternalSystem_Bigeron" BuildFlags="">
+  <Title m="2022-04-11T06:59:04.0518904Z">Bigeron</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2022-11-15T12:29:45.9672497Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; popisuje jeden zo&amp;nbsp;&lt;A href="9690f267-6ad7-4e22-9af2-675ef3d9d041"&gt;súvisiacich produktov&lt;/A&gt; systému OBERON - &lt;STRONG&gt;balík dizajnových a&amp;nbsp;rezervačných riešení &lt;EM&gt;Bigeron&lt;/EM&gt;&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Vďaka prepojeniu dizajnových a&amp;nbsp;rezervačných riešení od agentúry&amp;nbsp;&lt;A href="https://www.bigbigger.sk/" target=_blank&gt;Big &amp;amp; BIGGER s.r.o.&lt;/A&gt; pod značkou &lt;EM&gt;Bigeron&lt;/EM&gt; a&amp;nbsp;modulu&amp;nbsp;&lt;A href="c3bd41f0-029e-4c74-b342-b0ffff647b6e"&gt;Hotelová recepcia&lt;/A&gt; môžu používatelia systému OBERON &lt;STRONG&gt;významne rozšíriť on-line rezervačné a&amp;nbsp;správcovské služby&lt;/STRONG&gt; pre svoje ubytovacie zariadenia. 
+&lt;LI&gt;Firma &lt;EM&gt;Big &amp;amp; BIGGER&lt;/EM&gt; ponúka vo svojom portfóliu &lt;STRONG&gt;celý rad dizajnových a&amp;nbsp;rezervačných riešení ušitých priamo pre segment HORECA&lt;/STRONG&gt;, v&amp;nbsp;ktorom má viac ako desať rokov skúseností s dizajnom, marketingom a&amp;nbsp;IT službami. Medzi jej klientov patria napr. zariadenia &lt;EM&gt;Hotel Patria****&lt;/EM&gt; (Štrbské Pleso), &lt;EM&gt;Hotel Partizán****&lt;/EM&gt; (Tále), kúpele &lt;EM&gt;Sklené Teplice&lt;/EM&gt; a&amp;nbsp;mnohé ďalšie. 
+&lt;LI&gt;Všetky moduly systému &lt;EM&gt;Bigeron&lt;/EM&gt; je možné &lt;STRONG&gt;zapracovať priamo do webovej stránky ubytovacieho zariadenia (pomocou iFrame)&lt;/STRONG&gt;. Vaši zákazníci tak nebudú presmerovaní do externého systému a&amp;nbsp;všetky moduly budú dostupné z jedinej stránky, na ktorej môže klient uskutočňovať svoj nákup. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Rezervačný formulár Bigeron&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Prvou z&amp;nbsp;ponúkaných služieb firmy &lt;EM&gt;Big &amp;amp; BIGGER s.r.o.&lt;/EM&gt; je zriadenie rezervačného formulára ubytovania na webovej stránke ubytovacieho zariadenia. Informácie &lt;STRONG&gt;o&amp;nbsp;rezervačnom formulári &lt;EM&gt;Bigeron&lt;/EM&gt;&lt;/STRONG&gt; získate v sekcii &lt;EM&gt;Web Booking Engine&lt;/EM&gt; -&amp;nbsp;&lt;A href="dc8cdc4a-5c2a-427b-89e7-3c191be93746"&gt;Rezervačný formulár Bigeron&lt;/A&gt;). &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Rezervačný systém služieb a vstupov&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Druhým z&amp;nbsp;ponúkaných hotelových riešení v&amp;nbsp;rámci systému &lt;EM&gt;Bigeron&lt;/EM&gt; je možnosť &lt;STRONG&gt;on-line rezervácie a&amp;nbsp;nákupu služieb&lt;/STRONG&gt; ponúkaných ubytovacím zariadením. Systém umožňuje premeniť vaše hotelové služby na produkty, podobne ako v&amp;nbsp;internetovom obchode. Môžete s&amp;nbsp;ním predávať vstupy do wellness, masáže a&amp;nbsp;procedúry, vstupy na športoviská, ale umožňuje aj napr. rezervácie bicyklov či iného športového náčinia. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Darčekové poukazy&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Ďalšou významnou pridanou hodnotou vášho ubytovacieho zariadenia môžu byť darčekové poukazy. Systém &lt;EM&gt;Bigeron&lt;/EM&gt; obsahuje &lt;STRONG&gt;modul na ich generovanie&lt;/STRONG&gt;, ktorý môže pre vašich klientov&amp;nbsp;predstavovať vhodnú príležitosť, ako obdarovať svojich blízkych. Navyše sa zbavíte povinnosti tlačiť a&amp;nbsp;zasielať poukazy, pretože zákazník si na webe celý darčekový poukaz vytvorí sám. Po uhradení platby mu bude poukaz automaticky doručený na zadanú e-mailovú adresu. Modul pre darčekové poukazy je výborným spôsobom, ako zaistiť vášmu ubytovaciemu zariadeniu okamžitý zisk pri minimálnej aktivite. 
+&lt;LI&gt;Vďaka modulu pre darčekové poukazy predávate: 
+&lt;UL&gt;
+&lt;LI&gt;ubytovanie&amp;nbsp;a&amp;nbsp;služby, 
+&lt;LI&gt;konkrétne pobytové balíčky, 
+&lt;LI&gt;služby a&amp;nbsp;produkty hotela (wellness, vstupy, vlastné hotelové produkty), 
+&lt;LI&gt;...alebo dáte klientom možnosť vyskladať darček podľa seba na základe predvolených možností. &lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Tvorba (redizajn) webovej stránky&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Ak má vaša webová stránka svoje &lt;STRONG&gt;najlepšie roky za sebou, alebo máte problémy pri úpravách jej obsahu, prípadne sa stránka nezobrazuje správne v&amp;nbsp;mobilných zariadeniach a&amp;nbsp;pod.&lt;/STRONG&gt;, je čas vymeniť ju za novú. O&amp;nbsp;novom webe odporúčame porozmýšľať aj vtedy, ak sa nezhoduje s vašim brandom, smerovaním či hodnotami a&amp;nbsp;v&amp;nbsp;neposlednom rade aj vtedy, ak sa vám jednoducho nepáči alebo naň máte negatívne ohlasy a&amp;nbsp;potenciálni ani reálni klienti na ňom nevedia nájsť informácie, ktoré potrebujú. 
+&lt;LI&gt;To, ako vaša webová stránka pôsobí, &lt;STRONG&gt;tvorí podstatnú časť rozhodovacieho procesu zákazníkov pri rezervácii pobytu&lt;/STRONG&gt;. Novým webom ich podnietite k&amp;nbsp;tomu, aby mu venovali zvýšenú pozornosť, čítali obsah a&amp;nbsp;zaujímali sa o&amp;nbsp;vašu ponuku. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt; 
+&lt;P&gt;Ďalšie informácie získate na webovej stránke&amp;nbsp;&lt;A href="https://exalogic.sk/oberon/suvisiace-produkty/bigeron/" target=_blank&gt;Bigeron&lt;/A&gt; a na&amp;nbsp;&lt;A href="https://www.bigbigger.sk/" target=_blank&gt;webovej stránke dodávateľa&lt;/A&gt;.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="994322eb-9b0d-4438-a87a-509090e2729c" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="9690f267-6ad7-4e22-9af2-675ef3d9d041">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="87a4cc13-4aa3-497e-bd3f-5290aafe3092" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="c3bd41f0-029e-4c74-b342-b0ffff647b6e">
+      <Title m="2022-04-11T07:13:33.041537Z">Hotelová recepcia</Title>
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="d4a7f9e0-856f-4cce-ba5a-94f69de2cbdf" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="58bb31ca-00c8-4641-ad99-7d58e24f59c5">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="ead82198-b651-4fd7-a8c0-0e3369bc1823">
+      <Keyword m="2022-04-11T07:14:46.3955247Z">Tvorba (redizajn) webovej stránky - Bigeron</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="9591bb00-05d3-40ba-a1b7-d61730a9a516">
+      <Keyword m="2022-04-11T07:14:02.0854779Z">Dizajnové a rezervačné riešenia - Bigeron</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="87d9e323-b4b0-40d5-b88b-a4a71f5cd9e3">
+      <Keyword m="2022-04-11T07:14:30.1529337Z">Darčekové poukazy - Bigeron</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="25f23c7c-c1aa-49bc-a23e-109c27ae90d1">
+      <Keyword m="2022-04-11T07:14:20.504395Z">Rezervačný systém služieb a vstupov - Bigeron</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="24cadca6-ea72-4cf9-9e58-e3b8f02bf10d">
+      <Keyword m="2022-04-11T07:15:13.7830026Z">Bigeron - balík dizajnových a rezervačných riešení</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="2493d2df-7985-4861-94b9-bf2ad9e13de1">
+      <Keyword m="2022-04-11T07:15:26.6862268Z">Bigeron - hotelové riešenia</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

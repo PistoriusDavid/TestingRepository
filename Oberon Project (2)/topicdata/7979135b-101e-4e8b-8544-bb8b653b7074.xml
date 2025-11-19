@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="7979135b-101e-4e8b-8544-bb8b653b7074" Status="Complete" CreatedOn="2021-10-11T10:24:38.1596445Z" ModifiedOn="2022-10-05T06:41:57.8251394Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="CashRegister_Advanced_Direct_Print" BuildFlags="">
+  <Title m="2021-10-11T10:25:09.4519963Z">Priama tlač na bonovacej tlačiarni</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2022-10-05T06:41:57.8251394Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; je venovaná &lt;STRONG&gt;problematike priamej tlače&lt;/STRONG&gt; na&amp;nbsp;&lt;A href="b9d7c873-7b63-4210-86fe-ab1c66ea6502"&gt;bonovacej tlačiarni&lt;/A&gt;&amp;nbsp;v systéme OBERON.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Priama tlač na bonovacej tlačiarni v&amp;nbsp;systéme OBERON predstavuje spôsob tlače objednávok jedál/nápojov, pri ktorom systém OBERON, resp. aplikácia&amp;nbsp;&lt;A href="942d48d5-b290-40f6-8ba3-45cf78f380f9"&gt;LUKUL&lt;/A&gt; &lt;STRONG&gt;komunikuje s&amp;nbsp;bonovacou tlačiarňou priamo (bez &lt;EM&gt;Správcu tlače&lt;/EM&gt; systému &lt;EM&gt;Windows&lt;/EM&gt;)&lt;/STRONG&gt;. Viac informácií o&amp;nbsp;možnostiach tlače objednávok na bonovacích tlačiarňach získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="b9d7c873-7b63-4210-86fe-ab1c66ea6502"&gt;Bonovacie tlačiarne&lt;/A&gt;. 
+&lt;LI&gt;Možnosť priamej tlače je v&amp;nbsp;OBERON-e dostupná v textovom režime pri použití modelu &lt;STRONG&gt;&lt;EM&gt;EPSON TM - x&lt;/EM&gt;&lt;/STRONG&gt;, pri ktorom sa na tlač používa tlačiareň&amp;nbsp;&lt;A href="e046c976-bdef-4ff7-b069-e27347615921"&gt;EPSON TM - x&lt;/A&gt;&amp;nbsp;(alebo iná s ňou kompatibilná tlačiareň,&amp;nbsp;konkrétny typ je potrebné overiť u výrobcu), pričom už naformátovaný formát objednávky nie je možné ďalej upravovať. 
+&lt;LI&gt;Pri priamej tlači sú k dispozícii dva spôsoby komunikácie. Pri prvej možnosti sa zariadenie bude pripájať prostredníctvom (virtuálneho) sériového portu, v druhom prípade&amp;nbsp;bude&amp;nbsp;komunikovať prostredníctvom protokolu TCP/IP. V&amp;nbsp;závislosti od toho je potrebné pri inštalácii zariadenia po stlačení tlačidla&amp;nbsp;&lt;EM&gt;Nastaviť zariadenie&lt;/EM&gt;&amp;nbsp;v&amp;nbsp;rozbaľovacom zozname &lt;EM&gt;Tlačiareň&lt;/EM&gt; vybrať možnosť&amp;nbsp;&lt;STRONG&gt;&lt;EM&gt;Priama tlač (serial port)&lt;/EM&gt;&lt;/STRONG&gt;,&amp;nbsp;resp. &lt;EM&gt;&lt;STRONG&gt;Priama tlač (ethernet)&lt;/STRONG&gt;&lt;/EM&gt;. Viac informácií získate v téme&amp;nbsp;&lt;A href="5e465cda-4abf-4265-8b19-bb85470e116c"&gt;Inštalácia bonovacej tlačiarne&lt;/A&gt; - časť &lt;STRONG&gt;&lt;EM&gt;EPSON TM-x (textový režim) - priama tlač&lt;/EM&gt;&lt;/STRONG&gt;. 
+&lt;LI&gt;Pri priamej tlači sa obchádza tlačový front zo systému &lt;EM&gt;Windows&lt;/EM&gt;, preto je tlač spoľahlivejšia (tlačová úloha sa "nezasekne" v tlačovom fronte). Výhodou použitia priamej tlače zároveň je, že sa &lt;STRONG&gt;testuje pripravenosť tlačiarne&lt;/STRONG&gt; - ak tlačiareň nie je pripravená (vypnutá, je zaseknutý papier a pod.), zobrazí sa chybové hlásenie tak&amp;nbsp;v&amp;nbsp;&lt;A href="aec074f4-3e1c-4a1e-8a80-06fcecf51156"&gt;Pokladnici OBERON&lt;/A&gt;, ako aj v aplikácii &lt;A href="942d48d5-b290-40f6-8ba3-45cf78f380f9"&gt;LUKUL&lt;/A&gt;. 
+&lt;LI&gt;Ak sa objednávky prestanú tlačiť v dôsledku nefunkčnosti tlačiarne (pri jej poškodení a pod.), je potrebné danú bonovaciu tlačiareň na&amp;nbsp;&lt;A href="c9f7216f-f252-4be3-aa26-3e9bb6d4c887"&gt;Pokladnici OBERON&lt;/A&gt; &lt;STRONG&gt;zakázať&lt;/STRONG&gt; (tlačidlo &lt;EM&gt;Ďalšie možnosti, Dočasné pozastavenie tlače na bonovacej tlačiarni&lt;/EM&gt;). To umožní zaevidovať a vytlačiť pokladničný doklad aj s&amp;nbsp;neodoslanými položkami (tieto položky sa budú považovať za odoslané). Štandardne sa funkcia používa napr. v prípade mimosezóny a&amp;nbsp;nižšej návštevnosti, keď&amp;nbsp;je možné&amp;nbsp;z&amp;nbsp;dôvodu šetrenia papierových roliek tlač objednávok na bonovacej tlačiarni&amp;nbsp;dočasne pozastaviť. &lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="6246a1ee-d322-4832-b0fb-0f28e1c6178b" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="de37c038-dda7-44e6-bb5a-4b73832e69a1">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="1d34f260-f55e-46a3-8bcd-6910585e1787" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="b9d7c873-7b63-4210-86fe-ab1c66ea6502">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="bd22b423-61b5-4405-93c5-a81fa85fbd2b" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="5e465cda-4abf-4265-8b19-bb85470e116c">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="3fbe54a4-309f-4ccc-bb89-fc8f6e3b5f37">
+      <Keyword m="2021-10-11T10:56:18.8480426Z">Objednávky jedál/nápojov - priama tlač</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="28e19349-90f5-4e03-975b-18429e3561ba">
+      <Keyword m="2021-10-11T10:55:59.8921397Z">Bonovacie tlačiarne - priama tlač</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

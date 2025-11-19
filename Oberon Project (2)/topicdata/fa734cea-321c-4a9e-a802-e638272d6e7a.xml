@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="fa734cea-321c-4a9e-a802-e638272d6e7a" Status="Complete" CreatedOn="2014-09-11T08:11:38.0144219Z" ModifiedOn="2024-11-11T09:37:45.0715699Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="AccDouble_Accounting_Samples_CashRegisterSalesPosting" BuildFlags="">
+  <Title m="2021-08-18T07:50:38.4368793Z">Zaúčtovanie tržby z registračnej pokladnice do účtovného denníka</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-11-11T09:37:45.0715699Z">&lt;P&gt;V tejto téme &lt;EM&gt;Pomocníka&lt;/EM&gt; je uvedený &lt;STRONG&gt;príklad zaúčtovania tržby&lt;/STRONG&gt; z&amp;nbsp;&lt;A href="04b8d290-1470-41ff-85a1-c44a20958841"&gt;registračnej pokladnice&lt;/A&gt;&amp;nbsp;do&amp;nbsp;&lt;A href="d8c9bfc8-92d1-4471-8909-e5f8ce602d6c"&gt;účtovného denníka&lt;/A&gt;&amp;nbsp;pri sadzbe DPH 20&amp;nbsp;%.&lt;/P&gt;
+&lt;H2&gt;Príklad: Zaúčtovanie tržby&amp;nbsp;v&amp;nbsp;hotovosti, úhradou faktúry v hotovosti a platobnou kartou&lt;/H2&gt;
+&lt;H3&gt;Zadanie:&lt;/H3&gt;
+&lt;P&gt;Firma prijala tržbu na pokladnici v hodnote 1350 €,&amp;nbsp;z toho:&lt;BR&gt;- hotovosť -&amp;gt; 600 €&lt;BR&gt;- hotovosť -&amp;gt; 400&amp;nbsp;€ ako úhrada faktúry&lt;BR&gt;- platobná karta -&amp;gt; 350 €&lt;/P&gt;
+&lt;P&gt;&lt;BR&gt;Účtovná jednotka príjme tržbu vo výške 950&amp;nbsp;€ na účet 211/343 (DPH) a&amp;nbsp; 211/60x (teda celkovú tržbu v hotovosti a platobnou kartou spolu -&amp;nbsp;pozri dennú uzávierku nižšie), pretože registračná pokladnica nečlení tržby na základ a DPH podľa typov platieb (hotovosť, platba kartou, prípadne ceniny). Pre účtovníka slúži ako účtovný doklad pre zaúčtovanie práve táto denná uzávierka, preto sa neúčtuje 211/343, 211/60x a potom 315/343, 315/60x. Platba kartou sa účtuje ako zníženie tržby 315/211 (vznik krátkodobej pohľadávky), prijatie platieb na bankový účet 221/315.&lt;/P&gt;
+&lt;H3&gt;Účtovanie:&lt;/H3&gt;
+&lt;TABLE id=table1 style="HEIGHT: 195px; WIDTH: 750px; BORDER-COLLAPSE: collapse" width=750 border=0&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TD width="17%"&gt;&lt;B&gt;Typ dokladu&lt;/B&gt;&lt;/TD&gt;
+&lt;TD width="34%"&gt;&lt;B&gt;Text&lt;/B&gt;&lt;/TD&gt;
+&lt;TD width="11%" align=right&gt;&lt;B&gt;Účet MD&lt;/B&gt;&lt;/TD&gt;
+&lt;TD width="13%" align=right&gt;&lt;B&gt;Suma MD&lt;/B&gt;&lt;/TD&gt;
+&lt;TD width="11%" align=right&gt;&lt;B&gt;Účet DAL&lt;/B&gt;&lt;/TD&gt;
+&lt;TD width="12%" align=right&gt;&lt;B&gt;Suma DAL&lt;/B&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=15 width="17%" align=left&gt;Pokl.-Príjem&lt;/TD&gt;
+&lt;TD height=15 width="34%" align=left&gt;Tržby - celkom (bez faktúr)&lt;/TD&gt;
+&lt;TD height=15 width="11%" align=right&gt;&lt;B&gt;211&lt;/B&gt;&lt;/TD&gt;
+&lt;TD height=15 width="13%" align=right&gt;950&lt;/TD&gt;
+&lt;TD height=15 width="11%" align=right&gt;&lt;/TD&gt;
+&lt;TD height=15 width="12%" align=right&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=15 width="17%" align=left&gt;Pokl.-Príjem&lt;/TD&gt;
+&lt;TD height=15 width="34%" align=left&gt;Tržby - DPH&lt;/TD&gt;
+&lt;TD height=15 width="11%" align=right&gt;&lt;/TD&gt;
+&lt;TD height=15 width="13%" align=right&gt;&lt;/TD&gt;
+&lt;TD height=15 width="11%" align=right&gt;&lt;B&gt;343&lt;/B&gt;&lt;/TD&gt;
+&lt;TD height=15 width="12%" align=right&gt;158,33&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=15 width="17%" align=left&gt;Pokl.-Príjem&lt;/TD&gt;
+&lt;TD height=15 width="34%" align=left&gt;Tržby - tovar&lt;/TD&gt;
+&lt;TD height=15 width="11%" align=right&gt;&lt;/TD&gt;
+&lt;TD height=15 width="13%" align=right&gt;&lt;/TD&gt;
+&lt;TD height=15 width="11%" align=right&gt;&lt;B&gt;604&lt;/B&gt;&lt;/TD&gt;
+&lt;TD height=15 width="12%" align=right&gt;791,67&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=15 width="17%" align=left&gt;Pokl.-Príjem&lt;/TD&gt;
+&lt;TD height=15 width="34%" align=left&gt;Úhrada faktúry&lt;/TD&gt;
+&lt;TD height=15 width="11%" align=right&gt;&lt;B&gt;211&lt;/B&gt;&lt;/TD&gt;
+&lt;TD height=15 width="13%" align=right&gt;400&lt;/TD&gt;
+&lt;TD height=15 width="11%" align=right&gt;&lt;B&gt;311&lt;/B&gt;&lt;/TD&gt;
+&lt;TD height=15 width="12%" align=right&gt;400,00&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=15 width="17%" align=left&gt;Int. doklad&lt;/TD&gt;
+&lt;TD height=15 width="34%" align=left&gt;Preúčtovanie - platba kartou&lt;/TD&gt;
+&lt;TD height=15 width="11%" align=right&gt;&lt;B&gt;315&lt;/B&gt;&lt;/TD&gt;
+&lt;TD height=15 width="13%" align=right&gt;350&lt;/TD&gt;
+&lt;TD height=15 width="11%" align=right&gt;&lt;B&gt;211&lt;/B&gt;&lt;/TD&gt;
+&lt;TD height=15 width="12%" align=right&gt;350,00&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width="17%" align=left&gt;Banka&lt;/TD&gt;
+&lt;TD width="34%" align=left&gt;Príjem tržby - platba kartou&lt;/TD&gt;
+&lt;TD width="11%" align=right&gt;&lt;B&gt;221&lt;/B&gt;&lt;/TD&gt;
+&lt;TD width="13%" align=right&gt;350&lt;/TD&gt;
+&lt;TD width="11%" align=right&gt;&lt;B&gt;315&lt;/B&gt;&lt;/TD&gt;
+&lt;TD height=15 width="12%" align=right&gt;350,00&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;
+&lt;H3&gt;Legenda:&lt;/H3&gt;
+&lt;P&gt;604 - Tržby za tovar&lt;BR&gt;315 - Ostatné pohľadávky&lt;BR&gt;211 - Pokladňa&lt;BR&gt;221 - Bankové účty&lt;BR&gt;343 - Daň z pridanej hodnoty&lt;/P&gt;
+&lt;H3&gt;Vytlačená denná uzávierka:&lt;BR&gt;&lt;/H3&gt;&lt;PRE&gt; &lt;FONT face="Courier New"&gt;       *************************         
+        * EXALOGIC, Bešeňová 13 *         
+        *************************         
+               SK2021861127               
+******************* Z ********************
+            Finančná uzávierka            
+                  Denná                   
+******************************************
+Číslo uzávierky                         71
+Obchodný deň                    20-08-2014
+Kumulovaný obrat                  20176,08
+******************************************
+Sadzba       Bez DPH        DPH      Obrat
+A 20,00%      791,67     158,33     950,00
+B 10,00%        0,00       0,00       0,00
+C 0,00%         0,00       0,00       0,00
+D 19,00%        0,00       0,00       0,00
+E 0,00%         0,00       0,00       0,00
+F 0,00%         0,00       0,00       0,00
+G Faktúry     400,00       0,00     400,00
+Celkom       1191,67     158,33    1350,00
+******************************************
+Počet dokladov        20×                 
+Neplatné doklady       0×             0,00
+Vrátenie               0×             0,00
+Záporné položky        0×             0,00
+Zľava                  0×             0,00
+Záporný obrat                         0,00
+Storno                 0×             0,00
+Faktúry                1×           400,00
+******************************************
+Hotovosť                                  
+   Platba             15×           600,00
+Platobní karty                                     
+   Platba              5×           350,00
+Úhrada faktúry                            
+   Platba              1×           400,00
+******************************************
+20-08-2014                           11:05
+              12345678901234&lt;/FONT&gt;              
+&lt;/PRE&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="0f6a98e1-56b7-42a5-8bcb-dc2a16e87749" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="d8c9bfc8-92d1-4471-8909-e5f8ce602d6c">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="d6042dbb-2e51-4437-bec6-5ed5f91269c1" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="7410538f-4d0e-4d92-b76b-1e4df963548c">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="edc66653-1e42-49ae-b790-0b515479dd7b" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="fd6a0f47-c326-43a2-8408-003cce805463">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="456f53e1-0b33-4b05-8449-db4ff416cd79" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="900c1b8a-2645-4225-ac93-d387237f3d90">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="2fabfc66-de10-4c5e-90da-44f5606417f9">
+      <Keyword m="2021-08-18T07:44:29.6277331Z">Tržba z registračnej pokladnice - zaúčtovanie (PÚ)</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

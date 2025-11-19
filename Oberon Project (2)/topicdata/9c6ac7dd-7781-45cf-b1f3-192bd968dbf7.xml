@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="9c6ac7dd-7781-45cf-b1f3-192bd968dbf7" Status="Complete" CreatedOn="2020-03-05T08:21:29.5061733Z" ModifiedOn="2025-03-20T13:58:21.8304181Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Device_Scanning_RFID_Keys_EXALOGIC_ECI125" BuildFlags="">
+  <Title m="2020-03-05T09:00:47.5835276Z">Snímač RFID kľúčov EXALOGIC ECI-125</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2025-03-20T13:56:53.3165431Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;obsahuje&amp;nbsp;&lt;STRONG&gt;informácie&amp;nbsp;o&amp;nbsp;snímači RFID kľúčov &lt;EM&gt;EXALOGIC ECI-125&lt;/EM&gt;&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Snímač RFID kľúčov &lt;EM&gt;EXALOGIC ECI-125&lt;/EM&gt; je&amp;nbsp;hardvérové zariadenie &lt;STRONG&gt;na snímanie kľúčov, kariet a identifikačných náramkov s RFID čipom s frekvenciou 125 kHz a 13,56 MHz&lt;/STRONG&gt;. Zariadenie má zabudované antény na snímanie dvoch frekvencií. 
+&lt;LI&gt;Zariadenie&amp;nbsp;sa môže použiť: 
+&lt;UL&gt;
+&lt;LI&gt;pri prihlasovaní do OBERON-u ako &lt;STRONG&gt;snímač prístupu&lt;/STRONG&gt;: 
+&lt;UL&gt;
+&lt;LI&gt;Používa sa&amp;nbsp;na rýchle prihlásenie používateľov v&amp;nbsp;systéme OBERON, najčastejšie v module&amp;nbsp;&lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnica OBERON&lt;/A&gt; v režime reštauračnej pokladnice. Pokladnicu je možné rýchlo odomknúť priložením&amp;nbsp;RFID kľúča/karty k&amp;nbsp;snímaču. Tým súčasne pokladnica identifikuje obsluhu s cieľom získania prehľadu o vykonaných tržbách členov personálu. 
+&lt;LI&gt;Kód prístupového kľúča/karty nenahrádza heslo&amp;nbsp;&lt;A href="225638ed-22f6-4ac4-9085-6d77c64925db"&gt;používateľa&lt;/A&gt;, je to vlastne ďalšie alternatívne heslo do programu. Z&amp;nbsp;tohto dôvodu &lt;STRONG&gt;musí mať každý&amp;nbsp;používateľ zadané aj štandardné heslo do programu&lt;/STRONG&gt;, inak by sa ktokoľvek iný mohol prihlásiť pod jeho menom. 
+&lt;LI&gt;Zariadenie&amp;nbsp;je potrebné do zoznamu &lt;A href="749ff4f1-eeb5-43f5-98d2-021399d8cec7"&gt;zariadení&lt;/A&gt; pridať ako &lt;EM&gt;&lt;STRONG&gt;Snímač prístupu&lt;/STRONG&gt;&lt;/EM&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;vo vernostnom systéme&amp;nbsp;na &lt;STRONG&gt;identifikáciu vernostných kariet&lt;/STRONG&gt;: 
+&lt;UL&gt;
+&lt;LI&gt;Používa sa pri identifikácii&amp;nbsp;&lt;A href="b7a48886-b367-4056-808a-59ba5f871f32"&gt;obchodného partnera&lt;/A&gt; pomocou RFID kľúča/karty pri používaní&amp;nbsp;&lt;A href="7a7d2c0d-866b-42ff-89bd-19d34b0b0a11"&gt;vernostného systému v Pokladnici OBERON&lt;/A&gt;&amp;nbsp;a&amp;nbsp;v&amp;nbsp;&lt;A href="6c98a377-1b88-4eb8-801b-1f168641373b"&gt;knihe pohľadávok a výdajok&lt;/A&gt;. Po nasnímaní RFID kľúča/karty obchodného partnera&amp;nbsp;môže dôjsť ku kumulovaniu benefitov, alebo k&amp;nbsp;ich čerpaniu. 
+&lt;LI&gt;Vo&amp;nbsp;&lt;A href="a35e5b68-56e0-4e4a-a271-99b4134aeaf8"&gt;formulári Vernostný systém&lt;/A&gt;, záložka &lt;EM&gt;Rozšírené nastavenia&lt;/EM&gt;,&amp;nbsp;je možné zadať tzv. regulárny výraz (napr. prefix), ktorý vyhodnotí príslušnosť RFID kľúča/karty&amp;nbsp;k vernostnému systému. 
+&lt;LI&gt;Zariadenie&amp;nbsp;je potrebné do zoznamu &lt;A href="749ff4f1-eeb5-43f5-98d2-021399d8cec7"&gt;zariadení&lt;/A&gt; pridať ako &lt;EM&gt;&lt;STRONG&gt;Snímač čiarových kódov&lt;/STRONG&gt;&lt;/EM&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;pri softvérových dochádzkových termináloch na &lt;STRONG&gt;identifikáciu pracovníkov&lt;/STRONG&gt;: 
+&lt;UL&gt;
+&lt;LI&gt;Používa sa na identifikáciu pracovníkov pri softvérových dochádzkových termináloch&amp;nbsp;&lt;A href="6856d140-bbfc-43c6-b0d7-0a6360827bb8"&gt;OBERON&lt;/A&gt; a&amp;nbsp;&lt;A href="1e150e57-14b3-4afd-8380-996f4ed00898"&gt;OBERON - Agenda firmy&lt;/A&gt;. 
+&lt;LI&gt;Identifikácia pracovníka sa realizuje priložením RFID kľúča/karty na&amp;nbsp;snímač prístupu. 
+&lt;LI&gt;Číslo RFID kľúča/karty sa načítava&amp;nbsp;do poľa&amp;nbsp;&lt;EM&gt;Kód prístupovej karty&lt;/EM&gt; vo&amp;nbsp;&lt;A href="8dd60281-9cc7-41fe-9dd2-2ad5c7ffe047"&gt;formulári Pracovník&lt;/A&gt;, záložka &lt;EM&gt;Dochádzka&lt;/EM&gt;. 
+&lt;LI&gt;Zariadenie&amp;nbsp;je potrebné do zoznamu &lt;A href="749ff4f1-eeb5-43f5-98d2-021399d8cec7"&gt;zariadení&lt;/A&gt; pridať ako &lt;EM&gt;&lt;STRONG&gt;Snímač prístupu&lt;/STRONG&gt;&lt;/EM&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/UL&gt;
+&lt;UL&gt;
+&lt;LI&gt;Zariadenie dodáva firma EXALOGIC, s.r.o., ktorá ponúka aj snímač prístupu&amp;nbsp;&lt;A href="07a9169a-6739-4fc2-bbd8-959ae5d3b93d"&gt;EXALOGIC ECI-20&lt;/A&gt;&amp;nbsp;s frekvenciou 13,56 MHz. 
+&lt;LI&gt;Podrobný postup inštalácie je k dispozícii v téme&amp;nbsp;&lt;A href="2e8ab208-bdc5-48e5-9243-ccfe940e915d"&gt;Snímač RFID kľúčov EXALOGIC ECI-125 - inštalácia&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;V prípade, že firma používa niektorý zo snímačov RFID kľúčov pri prihlasovaní používateľov a zároveň chce používať snímač pri identifikácii vernostných kariet, prípadne aj na identifikáciu pracovníkov pri softvérových dochádzkových termináloch,&amp;nbsp;&lt;STRONG&gt;je potrebné mať&amp;nbsp;tri takéto zariadenia&lt;/STRONG&gt;.&amp;nbsp;Zároveň sa všetky&amp;nbsp;tri&amp;nbsp;snímače musia pridať medzi&amp;nbsp;&lt;A href="749ff4f1-eeb5-43f5-98d2-021399d8cec7"&gt;zariadenia&lt;/A&gt; v systéme OBERON (dvakrát ako snímač prístupu a&amp;nbsp;raz&amp;nbsp;ako snímač čiarového kódu).&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H5&gt;Obrázok č. 1: Snímač &lt;EM&gt;EXALOGIC ECI-125&lt;/EM&gt;&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Devices/Device_ECI-125.png"&gt;&lt;/P&gt;
+&lt;H2&gt;Technická špecifikácia&lt;/H2&gt;
+&lt;P&gt;&lt;STRONG&gt;Model:&lt;/STRONG&gt; EXALOGIC ECI-125&lt;BR&gt;&lt;STRONG&gt;Spôsob pripojenia (rozhranie):&lt;/STRONG&gt; USB&lt;BR&gt;&lt;STRONG&gt;Frekvencia:&lt;/STRONG&gt; 125 KHz&lt;BR&gt;&lt;STRONG&gt;Napájacie napätie:&lt;/STRONG&gt; 5 V&lt;BR&gt;&lt;STRONG&gt;Dĺžka kábla:&lt;/STRONG&gt; 1,35 m&lt;BR&gt;&lt;STRONG&gt;Teplota:&lt;/STRONG&gt; prevádzka: -10 °C - 70 °C, skladovanie: -20 °C - 80 °C&lt;BR&gt;&lt;STRONG&gt;Farba:&lt;/STRONG&gt; čierna&lt;BR&gt;&lt;STRONG&gt;Rozmery:&lt;/STRONG&gt; 70 x 105 x&amp;nbsp;12 mm (šírka x dĺžka x výška)&lt;BR&gt;&lt;STRONG&gt;Hmotnosť:&lt;/STRONG&gt;&amp;nbsp;100 g&lt;/P&gt;
+&lt;H2&gt;Cena a objednávka zariadenia&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Zariadenie je určené na predaj, a to&amp;nbsp;výhradne používateľom OBERON-u a našim &lt;A href="f83c2a9c-cda4-4862-8628-7ba16ddb1b06" rel=noopener&gt;zmluvným partnerom&lt;/A&gt;. K jednému snímaču možno dokúpiť neobmedzený počet unikátnych RFID kľúčov. 
+&lt;LI&gt;Informácie o cene a dostupnosti zariadenia s možnosťou objednávky nájdete na stránke nášho internetového obchodu &lt;STRONG&gt;&lt;A href="https://shop.exalogic.sk/"&gt;EXALOGIC e-shop&lt;/A&gt;&lt;/STRONG&gt;. 
+&lt;LI&gt;Na inštaláciu a&amp;nbsp;nastavenie zariadenia odporúčame využiť služby našich zmluvných partnerov. &lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="295ea6aa-1051-432c-8e10-8c0a73ce509d" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="16818a7f-7c27-497a-be4a-4930302e84f1">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="bdcd759e-494b-4440-b177-323ac9fa889e" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="2e8ab208-bdc5-48e5-9243-ccfe940e915d">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="1450f415-9d01-4a85-b092-79b86323124c">
+      <Keyword m="2020-03-05T09:59:06.5124487Z">ECI-125</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="56fa4c72-7536-4960-9747-0a81d1883d0d">
+      <Keyword m="2021-05-18T12:54:06.4994222Z">Snímač prístupu EXALOGIC ECI-125</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="af9d3d3f-ec4c-41da-87e0-578ceeeac294">
+      <Keyword m="2020-03-05T09:59:19.4986228Z">EXALOGIC ECI-125</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="2c2075a0-e67b-44de-9899-73ddd79f37cd">
+      <Keyword m="2020-03-05T09:59:40.6691378Z">Vernostný systém - identifikácia vernostných kariet pomocou snímača ECI-125</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="cfc31928-0f59-4d7f-8200-35019beb898c">
+      <Keyword m="2020-03-05T09:59:36.1699056Z">Dochádzkové terminály - identifikácia pracovníkov pomocou snímača ECI-125</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="1026097a-bc75-40e0-bcdb-6b4adbfe02a3">
+      <Keyword m="2021-05-18T12:54:17.5726695Z">RFID - EXALOGIC ECI-125</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="d55aea6e-2e4f-4944-b786-0c37efa789d5">
+      <Keyword m="2022-12-15T08:53:31.4238292Z">Pokladnica OBERON - prihlasovanie obsluhy pomocou snímača ECI-125</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="99976346-cb5f-433c-aa73-dc66c8c57c3b">
+      <Keyword m="2025-03-20T13:58:09.0386389Z">125 kHz - ECI-125</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="eec67365-66ab-4fc7-9ed6-19cfc049d384">
+      <Keyword m="2025-03-20T13:58:21.4844064Z">13,56 MHz - ECI-125</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="34f91c11-1a5d-4773-ac4e-48ad2fc859d3" Status="Complete" CreatedOn="2014-09-05T15:17:31.1405719Z" ModifiedOn="2025-08-05T07:09:56.1311546Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="22210" Name="Menu_Stock_StockCardsExtendedPrices" BuildFlags="">
+  <Title m="2015-05-15T08:52:49.9882812Z">Pravidlá rozšírenej cenotvorby</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2025-08-05T07:09:56.1311546Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;je venovaná&amp;nbsp;položke&amp;nbsp;&lt;EM&gt;Pravidlá rozšírenej cenotvorby&lt;/EM&gt; v&amp;nbsp;ponuke&amp;nbsp;&lt;EM&gt;Sklad&lt;/EM&gt; programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;. Položka je dostupná len v prípade, že je v&amp;nbsp;ponuke&amp;nbsp;&lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="58eee6a7-b5aa-47a5-9d0e-6f9987c96a52"&gt;oddiel Firma, Sklad&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt; záložka &lt;EM&gt;Ostatné&lt;/EM&gt; začiarknuté políčko &lt;EM&gt;Umožniť pracovať s rozšírenou cenotvorbou&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;V systéme OBERON je možné pracovať so &lt;STRONG&gt;základnou cenotvorbou&lt;/STRONG&gt; a &lt;STRONG&gt;rozšírenou cenotvorbou&lt;/STRONG&gt;. Viac informácií o týchto druhoch cenotvorby získate v téme&amp;nbsp;&lt;A href="1a33ab0b-2df7-4dc2-962b-8a3319c16831"&gt;Skladové karty&lt;/A&gt;, časť &lt;EM&gt;Cenotvorba&lt;/EM&gt;. 
+&lt;LI&gt;Výberom položky &lt;EM&gt;Pravidlá rozšírenej cenotvorby&lt;/EM&gt; sa otvorí číselník, ktorý &lt;STRONG&gt;umožňuje nadefinovať jednotlivé pravidlá rozšírenej cenotvorby&lt;/STRONG&gt;. 
+&lt;LI&gt;Ako jej pomenovanie napovedá, rozšírená cenotvorba &lt;STRONG&gt;rozširuje možnosti programu pri práci s&amp;nbsp;predajnými cenami&lt;/STRONG&gt; skladových položiek (umožňuje poskytovať rôzne percentuálne alebo množstevné zľavy, vytvárať akciové ceny, zmluvné ceny a pod.). 
+&lt;LI&gt;V&amp;nbsp;prípade používania &lt;A href="8df798f2-4fbf-4279-ad8c-493bdbe7f2e4"&gt;prevádzok&lt;/A&gt;&amp;nbsp;nadefinované pravidlá rozšírenej cenotvorby možno zobraziť podľa príslušnosti&amp;nbsp;k prevádzke, a&amp;nbsp;to&amp;nbsp;ako podmnožiny&amp;nbsp;zoznamu nadefinovaných pravidiel. Možno tak urobiť pomocou filtra&amp;nbsp;&lt;EM&gt;Prevádzka&lt;/EM&gt; v&amp;nbsp;hornej časti číselníka.&amp;nbsp;Zoznam dostupných prevádzok (definujú sa v ponuke &lt;EM&gt;Firma&lt;/EM&gt;,&amp;nbsp;&lt;A href="a833ee8a-1289-42b9-923f-80f549497702"&gt;Údaje o firme&lt;/A&gt;)&amp;nbsp;je možné v&amp;nbsp;prípade potreby obmedziť pomocou&amp;nbsp;&lt;A href="834e9546-a56b-476f-9028-ef4c24a82345"&gt;používateľských práv&lt;/A&gt;. 
+&lt;LI&gt;Podľa definovaných&amp;nbsp;pravidiel rozšírenej cenotvorby sa &lt;STRONG&gt;automaticky&amp;nbsp;určujú (vypočítavajú) predajné ceny&lt;/STRONG&gt;, pričom počet pravidiel (a tým aj predajných cien)&amp;nbsp;môže byť&amp;nbsp;neobmedzený.&amp;nbsp;Predajná cena môže byť závislá od obchodného partnera (odberateľa),&amp;nbsp;skupiny obchodných partnerov, typu dokladu, od predávaného množstva (množstevné zľavy) a pod. Výber skladových kariet je spravidla možné určiť napr. pomocou kategórií, skladových či tovarových skupín, prípadne môže ísť o okruh konkrétnych skladových kariet. 
+&lt;LI&gt;Rozšírenú cenotvorbu je možné spravidla použiť v&amp;nbsp;nasledujúcich situáciách: 
+&lt;UL&gt;
+&lt;LI&gt;poskytovanie zľavy v percentách na určité skladové položky - na&amp;nbsp;zvolenú cenovú hladinu sa poskytne nastavená zľava v&amp;nbsp;percentách, 
+&lt;LI&gt;evidenciu letákových akcií - poskytovanie zliav formou akciových letákov, kde sú známe predajné&amp;nbsp;(akciové) ceny, 
+&lt;LI&gt;množstevné zľavy, 
+&lt;LI&gt;poskytovanie zliav vybraným obchodným partnerom, prípadne&amp;nbsp;skupinám obchodným partnerov, 
+&lt;LI&gt;zmluvné ceny - predajné ceny sú zmluvne dohodnuté s&amp;nbsp;konkrétnymi obchodnými partnermi. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;V prípade používania rozšírenej cenotvorby&amp;nbsp;pribudne v zozname skladových kariet &lt;STRONG&gt;ďalší stĺpec s&amp;nbsp;predajnou cenou určenou pomocou pravidiel rozšírenej cenotvorby&lt;/STRONG&gt; -&amp;nbsp;používateľ má prehľad tak o akciovej cene, ako aj o&amp;nbsp;pôvodnej (bežnej) predajnej&amp;nbsp;cene. Na skladovej karte je možné kedykoľvek zobraziť všetky predajné ceny určené (vypočítané) pomocou všetkých pravidiel rozšírenej cenotvorby,&amp;nbsp;na ktoré sa dané pravidlá rozšírenej cenotvorby vzťahujú (tlačidlo &lt;EM&gt;Možnosti&lt;/EM&gt;). 
+&lt;LI&gt;V odôvodnených prípadoch&amp;nbsp;je možné na skladovej karte&amp;nbsp;ignorovať pravidlá rozšírenej cenotvorby (&lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;formulár Skladová karta&lt;/A&gt;, záložka &lt;EM&gt;Cena&lt;/EM&gt;) a&amp;nbsp;používať tak predajnú cenu definovanú na skladovej karte, napr. obsluha pokladnice zistí nesprávnu cenu určitej položky (z&amp;nbsp;dôvodu nesprávne nastavených pravidiel rozšírenej cenotvorby), pričom v danej chvíli nie je dostupná&amp;nbsp;osoba zodpovedná za cenotvorbu. 
+&lt;LI&gt;V prípade potreby je možné dané pravidlo cenotvorby kedykoľvek manuálne deaktivovať (zakázať) - vo&amp;nbsp;&lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;formulári Skladová karta&lt;/A&gt;, záložka &lt;EM&gt;Základné&lt;/EM&gt;. 
+&lt;LI&gt;V prípade legislatívnej zmeny&amp;nbsp;sadzieb DPH možno pomocou sprievodcu hromadnou zmenou sadzieb DPH na skladových kartách sadzby DPH a predajné ceny&amp;nbsp;upraviť aj v&amp;nbsp;pravidlách rozšírenej cenotvorby - viac informácií v&amp;nbsp;téme&amp;nbsp;&lt;A href="194e0195-69ae-453f-b550-6b65617e63f1" style="auto-update-caption: true"&gt;Zmena sadzby DPH &lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Definovať pravidlo rozšírenej cenotvorby&amp;nbsp;je možné&amp;nbsp;pomocou &lt;A href="6b018069-d729-4bd0-8bf8-2162d116c247"&gt;formulára Pravidlo cenotvorby&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H5&gt;Obrázok č. 1: Dostupné pravidlá rozšírenej cenotvorby ku skladovej karte&lt;/H5&gt;&lt;IMG style="BORDER-TOP: black 1px solid; BORDER-RIGHT: grey 1px solid; BORDER-BOTTOM: grey 1px solid; BORDER-LEFT: grey 1px solid" border=0 src="images/Forms/Stock/Form_Stock_ExtentedPrices.png"&gt; 
+&lt;H2&gt;Pravidlá rozšírenej cenotvorby&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Typ pravidla&lt;/STRONG&gt; - pravidlá rozšírenej cenotvorby z hľadiska spôsobu určenia predajnej ceny&amp;nbsp;môžu byť&amp;nbsp;týchto typov: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Štandardná zľava v percentách&lt;/STRONG&gt; - jednoduchá zľava v percentách, napr. zľava 5&amp;nbsp;% určitému odberateľovi alebo zľava 20&amp;nbsp;% za kávu v čase od 11.00 do 13.00 hod. 
+&lt;LI&gt;&lt;STRONG&gt;Konkrétna cenová hladina&lt;/STRONG&gt; - skladové&amp;nbsp;položky sa budú predávať v&amp;nbsp;konkrétnej cenovej hladine. 
+&lt;LI&gt;&lt;STRONG&gt;Množstevná zľava v percentách&lt;/STRONG&gt; - zadáva sa množstvo, pri ktorom&amp;nbsp;sa použije určitá zľava, napr. pri predaji od 10 do 100 kusov tovaru dostane zákazník zľavu 2&amp;nbsp;%, pri predaji od 100 do 1&amp;nbsp;000 kusov tovaru zľavu 3&amp;nbsp;%. 
+&lt;LI&gt;&lt;STRONG&gt;Množstvo N za cenu množstva N&amp;nbsp;-&amp;nbsp;1&lt;/STRONG&gt; - pri predaji N kusov tovaru zákazník zaplatí cenu za&amp;nbsp;N - 1 kusov, napr.&amp;nbsp;pri zakúpení 6 ks je cena len za 5 ks (teda 1 ks je zadarmo). 
+&lt;LI&gt;&lt;STRONG&gt;Zmluvné ceny&lt;/STRONG&gt; - firma sa dohodne so svojím odberateľom na určitej pevnej cene (zmluvné ceny sú pevne&amp;nbsp;dané). 
+&lt;LI&gt;&lt;STRONG&gt;Zmluvné zľavy&lt;/STRONG&gt; - firma sa dohodne so svojím odberateľom na určitej percentuálnej zľave z aktuálnej predajnej ceny konkrétnych skladových položiek.&amp;nbsp;Predajná cena (1 až 4), z ktorej sa&amp;nbsp;má zľava poskytnúť, sa nastavuje v danom pravidle. 
+&lt;LI&gt;&lt;STRONG&gt;Akciový leták&lt;/STRONG&gt; - firma vo vlastnej réžii vytvorí akciu, pričom na rozdiel od letákovej dohody zľavu poskytuje výhradne z vlastných zdrojov. 
+&lt;LI&gt;&lt;STRONG&gt;Akciový leták (letáková dohoda s&amp;nbsp;dodávateľom)&lt;/STRONG&gt; - pod pojmom&amp;nbsp;&lt;A href="40c5a838-b404-441c-ac13-f0232013d8f7"&gt;letáková dohoda&lt;/A&gt; sa rozumie dohoda medzi dodávateľom a firmou o poskytnutí zľavy na konkrétnu položku (zľava sa&amp;nbsp;poskytuje na základe dohody s&amp;nbsp;dodávateľom). V letákovej dohode je určená&amp;nbsp;akciová predajná aj nákupná cena. 
+&lt;LI&gt;&lt;STRONG&gt;Navýšenie z obstarávacej ceny&lt;/STRONG&gt; - obstarávacia cena sa navýši o&amp;nbsp;určité %, obstarávaciu cenu program&amp;nbsp;počíta automaticky pri príjme tovaru. 
+&lt;LI&gt;&lt;STRONG&gt;Navýšenie z poslednej nákupnej ceny&lt;/STRONG&gt; - posledná nákupná cena sa navýši o&amp;nbsp;určité %.&amp;nbsp;Posledná nákupná cena predstavuje cenu, za ktorú firma naposledy nakúpila skladovú položku. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Časová platnosť&lt;/STRONG&gt; - každé pravidlo cenotvorby je platné v rozsahu dvoch dátumov.&amp;nbsp;Zároveň je možné pomocou&amp;nbsp;&lt;A href="0b544ca9-1220-4056-8c1d-82d41ecbac18"&gt;ročného kalendára&lt;/A&gt;&amp;nbsp;vybrať konkrétne dni v roku, v&amp;nbsp;ktoré má dané pravidlo platiť (napr.&amp;nbsp;len víkendy). Pri zadaní času je možné platnosť daného pravidla obmedziť&amp;nbsp;len na&amp;nbsp;rozsah daných hodín (tzv. happy hour).&amp;nbsp; 
+&lt;LI&gt;&lt;STRONG&gt;Priorita&lt;/STRONG&gt; - každému pravidlu možno&amp;nbsp;zadať prioritu, ktorá rozhoduje o tom, ktoré pravidlo&amp;nbsp;sa v&amp;nbsp;prípade viacerých súčasne platných pravidiel použije. Napr. obchodný partner má zľavu 3&amp;nbsp;%, ale zároveň platí akciový leták, v&amp;nbsp;ktorom je nastavená zľava 30&amp;nbsp;%. V&amp;nbsp;rovnakom čase sú platné obidve pravidlá, ale uplatní sa&amp;nbsp;len jedno pravidlo&amp;nbsp;- to, ktoré má vyššiu prioritu (má zadané väčšie číslo priority). Pri pravidle &lt;EM&gt;&lt;STRONG&gt;Množstevná zľava v&amp;nbsp;percentách&lt;/STRONG&gt;&lt;/EM&gt;&amp;nbsp;priorita určuje poradie jednotlivých cien v&amp;nbsp;rozbaľovacom&amp;nbsp;zozname &lt;EM&gt;Cena za MJ&lt;/EM&gt; pri pridaní položky do dokladu.&amp;nbsp; 
+&lt;LI&gt;&lt;STRONG&gt;Okruh platnosti skladových kariet&lt;/STRONG&gt; - pravidlu cenotvorby je potrebné určiť, na&amp;nbsp;ktoré skladové karty sa má vzťahovať. Môže to byť kategória, skladová skupina, tovarová skupina, prípadne je možné zvoliť konkrétne skladové karty. 
+&lt;LI&gt;&lt;STRONG&gt;Okruh platnosti typov dokladov&lt;/STRONG&gt; - pravidlo sa&amp;nbsp;môže vzťahovať len na určité typy faktúr, druhy výdajok, prípadne len na vybrané registračné pokladnice. Taktiež je možné nastaviť spôsob uplatnenia pravidla v&amp;nbsp;&lt;A href="2ba6a435-be52-46a1-b723-fb2b8ca084c0"&gt;internetovom obchode&lt;/A&gt;, prípadne pri použití vernostnej karty z&amp;nbsp;&lt;A href="6c98a377-1b88-4eb8-801b-1f168641373b"&gt;vernostného systému&lt;/A&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;Okruh platnosti obchodných partnerov&lt;/STRONG&gt; - pravidlo môže platiť pre všetkých obchodných partnerov, pre&amp;nbsp;vybrané skupiny partnerov, prípadne pre konkrétnych&amp;nbsp;obchodných partnerov. Skupiny obchodných partnerov je možné využiť pre cenotvorbu závislú od&amp;nbsp;výšky obratu, viac informácií je možné získať v téme&amp;nbsp;&lt;A href="b7531e2b-4bd6-4a46-a7e2-fd94bbc64325"&gt;Skupiny obchodných partnerov&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Príklady niektorých typov pravidiel a ich využitie&amp;nbsp;sú dostupné&amp;nbsp;v téme&amp;nbsp;&lt;A href="5ba18930-a06e-4228-a051-bb2c63ebe86d" style="auto-update-caption: true"&gt;Príklady rozšírenej cenotvorby&lt;/A&gt;&lt;I&gt;.&lt;/I&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Ďalšie informácie o rozšírenej cenotvorbe&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Po vytvorení pravidiel je možné na&amp;nbsp;&lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;skladovej karte&lt;/A&gt; v záložke &lt;EM&gt;Cena&lt;/EM&gt; stlačením tlačidla &lt;EM&gt;Ceny rozšírenej cenotvorby&lt;/EM&gt; zobraziť všetky pravidlá cenotvorby vzťahujúce sa na danú skladovú kartu (aj také, ktoré v&amp;nbsp;súčasnosti nie sú platné, pričom budú platiť v budúcnosti).&amp;nbsp;V&amp;nbsp;&lt;A href="1a33ab0b-2df7-4dc2-962b-8a3319c16831"&gt;zozname skladových kariet&lt;/A&gt;&amp;nbsp;je&amp;nbsp;cena určená rozšírenou cenotvorbou&amp;nbsp;označená &lt;SPAN style="COLOR: rgb(6,89,255)"&gt;&lt;STRONG&gt;modrou farbou&lt;/STRONG&gt;&lt;/SPAN&gt;, v&amp;nbsp;prípade akciovej položky &lt;SPAN style="COLOR: rgb(112,48,160)"&gt;&lt;STRONG&gt;fialovou farbou&lt;/STRONG&gt;&lt;/SPAN&gt; (nastavenie &lt;EM&gt;Položku dokladu považovať za akciovú&lt;/EM&gt; vo formulári&amp;nbsp;&lt;A href="6b018069-d729-4bd0-8bf8-2162d116c247"&gt;Pravidlo cenotvorby&lt;/A&gt;, záložka &lt;EM&gt;Ostatné&lt;/EM&gt;). Tento zoznam je dostupný aj priamo zo zoznamu skladových kariet po stlačení tlačidla &lt;EM&gt;Možnosti - Zobraziť predajné ceny rozšírenej cenotvorby&lt;/EM&gt;. 
+&lt;LI&gt;Jedným z problémov, na ktorý je možné aplikovať pravidlá rozšírenej cenotvorby,&amp;nbsp;je aj &lt;STRONG&gt;podpora predaja&amp;nbsp;pomocou výraznej zľavy takých položiek, ktoré je potrebné&amp;nbsp;z&amp;nbsp;hľadiska záručnej doby vypredať v&amp;nbsp;čo najkratšom čase&lt;/STRONG&gt; (napr. predaj jogurtov). Tu je možné postupovať tak, že pravidlo cenotvorby sa použije vtedy,&amp;nbsp;keď čiarový kód položky bude obsahovať regulárny výraz, napr.&amp;nbsp;prefix 111. Vtedy sa jogurty, u ktorých končí záručná doba, jednoducho prelepia novým čiarovým kódom,&amp;nbsp;ktorý po použití na&amp;nbsp;&lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnici OBERON&lt;/A&gt; uplatní pravidlo s výraznom zľavou. 
+&lt;LI&gt;Ak sa pri predaji vyskytne stav,&amp;nbsp;pri ktorom&amp;nbsp;je&amp;nbsp;platných súčasne viac pravidiel rozšírenej cenotvorby s rovnakou prioritou (čo je nekorektný stav), použije sa pravidlo &lt;STRONG&gt;s&amp;nbsp;najvýhodnejšou cenou pre zákazníka&lt;/STRONG&gt; (teda s&amp;nbsp;najnižšou cenou). V&amp;nbsp;&lt;A href="1dce6bce-8c7d-443a-b0f9-14ec18f3c9a0"&gt;zóne udalostí&lt;/A&gt; sa okrem použitého pravidla s&amp;nbsp;najnižšou cenou&amp;nbsp;zobrazí varovné hlásenie &lt;SPAN style="COLOR: rgb(255,0,0)"&gt;&lt;STRONG&gt;červenou farbou&lt;/STRONG&gt;&lt;/SPAN&gt;, v ktorom bude&amp;nbsp;používateľ informovaný o nekorektnom stave - v oznámení budú zobrazené názvy nekorektných (kolidujúcich) pravidiel. 
+&lt;LI&gt;S rozšírenou cenotvorbou súvisí aj tlač cenníka, &lt;A href="61edd121-1efe-4a14-907c-8c8a18cc4539"&gt;cenoviek či etikiet&lt;/A&gt;. V systéme OBERON je možné tlačiť cenovky s&amp;nbsp;cenou, ktorá je aktuálne zadaná na skladovej karte, prípadne s&amp;nbsp;takou, ktorá bude platiť až o niekoľko dní (keď bude platiť určitá zľava). To umožňuje napr. pripraviť cenovky už v&amp;nbsp;predstihu ešte pre začatím danej akcie. 
+&lt;LI&gt;Pri pravidle &lt;EM&gt;&lt;STRONG&gt;Množstevná zľava v&amp;nbsp;percentách&lt;/STRONG&gt;&lt;/EM&gt; sa pri pridaní položky do dokladu v rozbaľovacom zozname &lt;EM&gt;Cena za MJ&lt;/EM&gt; zobrazujú aj jednotlivé ceny podľa množstiev. Príslušná cena sa&amp;nbsp;v&amp;nbsp;poli vyberie&amp;nbsp;automaticky podľa&amp;nbsp;zadaného množstva.
+&lt;LI&gt;Platnosť pravidla rozšírenej cenotvorby je možné určiť na základe &lt;STRONG&gt;čísla použitej vernostnej karty&lt;/STRONG&gt;, napr. ak začína (obsahuje, končí) určitým číslom, použije sa cenotvorba určená daným pravidlom. Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="6b018069-d729-4bd0-8bf8-2162d116c247" style="auto-update-caption: true"&gt;Formulár Pravidlo cenotvorby&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Rozšírená cenotvorba a internetový obchod&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;V závislosti od typu&amp;nbsp;internetového obchodu (on-line alebo off-line) sa pravidlá rozšírenej cenotvorby môžu uplatňovať&amp;nbsp;aj pri&amp;nbsp;e-shope. Pravidlá rozšírenej cenotvorby je možné uplatňovať pri&amp;nbsp;&lt;A href="4bc0fb91-8926-432e-879e-5e0150ed62d3"&gt;on-line internetovom obchode&lt;/A&gt;, záleží však na implementácii&amp;nbsp;daného e-shopového riešenia. 
+&lt;LI&gt;Pravidlá rozšírenej cenotvorby &lt;STRONG&gt;sa neprenášajú z OBERON-u do internetového obchodu pomerom 1:1&lt;/STRONG&gt;. 
+&lt;LI&gt;Vybrané&amp;nbsp;pravidlá rozšírenej cenotvorby je možné uplatňovať v internetovom obchode &lt;EM&gt;PrestaShop&lt;/EM&gt;. Bližšie informácie o&amp;nbsp;možnostiach exportu získate v téme&amp;nbsp;&lt;A href="7437cbeb-c6d1-4b19-92ee-150ba8e4097f" style="auto-update-caption: true"&gt;Internetový obchod PrestaShop&lt;/A&gt;. 
+&lt;LI&gt;Pravidlo cenotvorby musí byť aktívne a musí platiť pre internetový obchod (v záložke &lt;EM&gt;Typy dokladov&lt;/EM&gt; zaškrtnutá možnosť &lt;EM&gt;Pravidlo platí aj pre internetový obchod&lt;/EM&gt;). 
+&lt;LI&gt;Pri off-line internetovom obchode sa exportuje akciová cena, ktorá je platná v čase exportu. Napr. je možné exportovať pravidlo &lt;EM&gt;Akciový leták&lt;/EM&gt;, ktoré&amp;nbsp;sa dá uplatniť pre každého zákazníka. Ak je cena určená len pre určitú skupinu zákazníkov (obchodní partneri, konkrétny zákazník), cenu nie je možné uplatniť. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Obmedzenie uplatnenia zľavy na skladovú položku&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Na skladovej karte je možné nastaviť spôsob poskytovania zľavy, prípadne jej maximálnu výšku. Vo&amp;nbsp;&lt;A href="6b018069-d729-4bd0-8bf8-2162d116c247"&gt;formulári Pravidlo cenotvorby&lt;/A&gt;&amp;nbsp;v záložke &lt;EM&gt;Ostatné&lt;/EM&gt; sa nastavuje, či program bude brať do úvahy nastavenia na skladovej karte alebo ich bude ignorovať (začiarkavacie pole &lt;EM&gt;Položku &lt;STRONG&gt;dokladu považovať za akciovú&lt;/STRONG&gt;&lt;/EM&gt;). 
+&lt;LI&gt;V prípade, že&amp;nbsp;je pole začiarknuté, pri pravidle Š&lt;EM&gt;tandardná zľava v&amp;nbsp;percentách&lt;/EM&gt; a pri&amp;nbsp;pravidle &lt;EM&gt;Množstevná zľava v percentách&lt;/EM&gt; program použije zľavu uvedenú v&amp;nbsp;pravidle a nezohľadňuje výšku maximálnej zľavy&amp;nbsp;uvedenej na skladovej karte (napr. pravidlo má nastavenú zľavu 40&amp;nbsp;%, maximálna zľava je 30&amp;nbsp;%, pri predaji sa na položku uplatní pravidlo so zľavou 40&amp;nbsp;%). 
+&lt;LI&gt;Ak pole nie je začiarknuté, program rešpektuje nastavenie spôsobu uplatnenia zľavy na skladovej karte. Pri predaji sa použije zľava uvedená v pravidle cenotvorby, ale jej výška bude nanajvýš vo výške maximálnej zľavy (napr. pravidlo má nastavenú zľavu 40&amp;nbsp;%, maximálna zľava je 30&amp;nbsp;%, pri predaji na položku sa pravidlo uplatní, ale so zľavou 30&amp;nbsp;%). 
+&lt;LI&gt;Pri iných typoch pravidiel (konkrétna cenová hladina, množstvo N za cenu množstva N-1, zmluvné ceny, akciový leták atď.) sa nastavenia na skladovej karte ignorujú. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 2: Princíp fungovania pravidla typu &lt;EM&gt;Štandardná zľava v percentách&lt;/EM&gt;&lt;/H5&gt;
+&lt;P&gt;&amp;nbsp;&lt;IMG border=0 alt="" src="images/Stock/Stock_StandardPercentageDiscount.png"&gt;&lt;/P&gt;
+&lt;H2&gt;Práca v sieťovej prevádzke a viacerých pobočkách&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Ak sa rozšírená cenotvorba používa&amp;nbsp;v module &lt;EM&gt;Skladová evidencia&lt;/EM&gt;&amp;nbsp;alebo &lt;EM&gt;Pokladnica OBERON&lt;/EM&gt; v&amp;nbsp;sieťovej prevádzke, jednotlivé pravidlá sú z dôvodu optimalizácie načítané v&amp;nbsp;dočasnej pamäti počítača. Pri zmene niektorého&amp;nbsp;pravidla sa vykonané zmeny&amp;nbsp;v&amp;nbsp;iných počítačoch v sieti prejavia len&amp;nbsp;s určitým časovým oneskorením (spravidla niekoľkých&amp;nbsp;minút). Načítanie aktuálnych pravidiel cenotvorby je však možné vykonať manuálne pomocou kontextovej ponuky &lt;STRONG&gt;&lt;EM&gt;Aktualizovať&lt;/EM&gt;&lt;/STRONG&gt; (kláves F5) v&amp;nbsp;zozname skladových kariet. 
+&lt;LI&gt;Ak má účtovná jednotka viac prevádzok (predajní), pričom má každá svoju vlastnú databázovú základňu, pravidlá rozšírenej cenotvorby je možné &lt;STRONG&gt;exportovať/importovať pomocou súboru typu XML&lt;/STRONG&gt;. Tým je možné jednoducho&amp;nbsp;napr. v&amp;nbsp;prípade akciového letáku zaslať všetkým pobočkám zoznam akciových cien. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Dostupné&amp;nbsp;možnosti&lt;/H2&gt;
+&lt;P&gt;Pri&amp;nbsp;práci s pravidlami sú&amp;nbsp;dostupné ďalšie možnosti&amp;nbsp;po stlačení tlačidla &lt;EM&gt;Možnosti,&lt;/EM&gt; prípadne v kontextovej ponuke tabuľky záznamov.&lt;/P&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;XML komunikácia - export údajov&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Otvorí sa sprievodca, ktorý umožňuje exportovať údaje z&amp;nbsp;tejto evidencie do súboru typu XML. Viac informácií získate v téme&amp;nbsp;&lt;A href="56f661c6-24da-46aa-b157-5d988cbe792b" style="auto-update-caption: true"&gt;Všeobecne o XML komunikácii&lt;/A&gt;. Pri exporte do súboru typu XML je dôležité nastavenie na&amp;nbsp;&lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;skladovej karte&lt;/A&gt; &lt;EM&gt;Pole pre synchronizáciu skladových kariet.&lt;/EM&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;XML komunikácia - hromadný import údajov&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Otvorí sa sprievodca, ktorý umožňuje&amp;nbsp;hromadne importovať údaje&amp;nbsp;zo súboru typu&amp;nbsp;XML do tejto evidencie. Viac informácií získate v téme&amp;nbsp;&lt;A href="56f661c6-24da-46aa-b157-5d988cbe792b" style="auto-update-caption: true"&gt;Všeobecne o XML komunikácii&lt;/A&gt;. Pri importe do súboru typu XML je dôležité nastavenie na&amp;nbsp;&lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;skladovej karte&lt;/A&gt; &lt;EM&gt;Pole pre synchronizáciu skladových kariet.&lt;/EM&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Bližšie informácie o nastavení XML komunikácie nájdete v téme &lt;A href="ab9d497d-fd18-4185-a487-28e3bf04cecf" style="auto-update-caption: true"&gt;Nastavenia XML komunikácie&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="e111119c-0f29-4a2b-afba-364279384381" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="5ba18930-a06e-4228-a051-bb2c63ebe86d">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="bc71d3e1-f823-40ff-84d9-ac6776bbba52" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="6b018069-d729-4bd0-8bf8-2162d116c247">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="a0920be0-d46e-4bca-8776-6a523c0ba191" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="40c5a838-b404-441c-ac13-f0232013d8f7">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="69957cea-8a9d-45ff-a888-1251d0b9f03f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="f1fdc993-21a1-4db1-989e-fda72f89ef31">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="f65be9b4-03d1-4103-b968-5a83d5dcbab7" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1a33ab0b-2df7-4dc2-962b-8a3319c16831">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="0b16f326-ad2b-43c1-b5f4-0062cd72ba5f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="c233ada3-0fed-4911-97f3-0680973ebac1">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="c35c510d-c732-4342-99ae-db5874620b23" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="0b544ca9-1220-4056-8c1d-82d41ecbac18">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="1024adbf-4df0-4b10-a28e-253b325c7260" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="86ce651c-2637-4165-93b4-36535a700fbf">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="71e9ec1b-ccda-41f3-a0b7-62f4f394f9c0" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="0e48f8ed-07c8-4be5-90cf-25dbf7d5afd9">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="0070b84b-babd-4c4a-bf27-9f96e866782d" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="b7531e2b-4bd6-4a46-a7e2-fd94bbc64325">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="be2fa758-f273-4e21-b755-73e9ec194404" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="69bbd499-45c0-4b0f-8f7a-c53fa5d70c1b">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="4370b88c-b003-449b-b816-8a46df42e740" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="61edd121-1efe-4a14-907c-8c8a18cc4539">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="658d928b-7253-4a15-80f7-eff99bb38213" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="58eee6a7-b5aa-47a5-9d0e-6f9987c96a52">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="4aeb0dc4-6116-4a07-8167-e8bbe2b3ba0b" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="7437cbeb-c6d1-4b19-92ee-150ba8e4097f">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="75b6e928-25b2-4f8d-b8c0-fed85f843ffb">
+      <Keyword m="2021-11-04T09:11:12.3995249Z">Akcia - sklad</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="7db6943e-87b9-4ed2-a184-b2d3f46aedc5">
+      <Keyword m="2021-11-04T09:10:37.0730437Z">Letáková dohoda - sklad</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="ecc34c80-4814-421e-a5b1-025b004f113a">
+      <Keyword m="2021-11-04T09:09:53.4125004Z">Cenová stratégia - sklad</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="9c3d7447-db2e-48e7-ba6a-a19431d45bd0">
+      <Keyword m="2015-11-22T08:38:32.5549283Z">Cenotvorba v sklade</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="fd2bba16-4c70-43e2-9423-9a507faaee34">
+      <Keyword m="2021-11-04T09:10:25.1125061Z">Zľava a akcia - sklad</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="ee3e4444-4cc4-43a4-98c6-b628d4cb9f76">
+      <Keyword m="2021-11-04T09:10:21.0387036Z">Zmluvné ceny - sklad</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="8bca1e92-efd8-47ea-905f-ff982bd1871d">
+      <Keyword m="2021-11-04T09:10:03.4047397Z">Rozšírená cenotvorba - sklad</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="6e34cdbf-a1a2-4737-ab5a-d43e9b447095">
+      <Keyword m="2021-11-04T09:10:31.5081969Z">Obrat a zľavy - sklad</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="edcbee5a-aaaf-46e9-bbaa-1857cbfc2109">
+      <Keyword m="2021-11-04T09:11:06.0314966Z">Cenotvorba rozšírená</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="b36fadba-bc18-4850-a03d-4af9caba2af1">
+      <Keyword m="2021-11-04T09:13:46.1620711Z">Rozšírená cenotvorba a internetový obchod</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="a9f5c723-fc86-4c51-9aa9-4e54f3edc2d0">
+      <Keyword m="2021-11-04T11:14:35.602601Z">Regulárny výraz</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="37a1f183-4c90-41e7-9f3b-12d59bfcbcda">
+      <Keyword m="2023-04-26T07:19:39.8936488Z">Rozšírená cenotvorba - pravidlá</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="fded12e2-5c03-4276-9264-edad19b169df">
+      <Keyword m="2023-10-27T07:38:13.9063235Z">Štandardná zľava v percentách</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="49f18759-c0c9-4176-8a29-c9688a0b4c1d">
+      <Keyword m="2023-10-27T07:38:25.4200628Z">Konkrétna cenová hladina</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="e2acb4cb-c81b-47c5-a2aa-10ee0cdb25e0">
+      <Keyword m="2023-10-27T07:38:34.2452356Z">Množstevná zľava v percentách</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="811e9d51-5ffc-4446-a241-241e078990e0">
+      <Keyword m="2023-10-27T07:38:45.1035508Z">Množstvo N za cenu množstva N - 1</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="9198cd1e-10be-4635-b8d8-155dd87ce852">
+      <Keyword m="2023-10-27T07:38:54.2317958Z">Zmluvné ceny</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="9ae8db2f-9202-4634-abc1-d193d38e887e">
+      <Keyword m="2023-10-27T07:39:03.320913Z">Akciový leták</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="7584ee8a-6798-4a50-b89b-b7f370b9e6d6">
+      <Keyword m="2023-10-27T07:39:12.5223063Z">Akciový leták (letáková dohoda s dodávateľom)</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="81196d7e-ab1d-43e1-9fde-9f500052251e">
+      <Keyword m="2023-10-27T07:39:28.4444451Z">Navýšenie z obstarávacej ceny</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="838b99ac-d539-454b-948e-498f97d267ff">
+      <Keyword m="2023-10-27T07:39:38.421615Z">Navýšenie z poslednej nákupnej ceny</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>
