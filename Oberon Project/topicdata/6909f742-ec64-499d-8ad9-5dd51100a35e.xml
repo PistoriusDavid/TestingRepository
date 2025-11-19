@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="6909f742-ec64-499d-8ad9-5dd51100a35e" Status="Complete" CreatedOn="2014-10-09T09:29:48.3642578Z" ModifiedOn="2023-10-30T07:11:33.5849768Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="22604" Name="Form_AccDouble_ChartOfAccounts" BuildFlags="">
+  <Title m="2014-12-11T12:12:50.375Z">Formulár Účet účtovnej osnovy</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-10-17T07:45:24.259456Z">&lt;P&gt;Formulár&amp;nbsp;&lt;EM&gt;Účet účtovnej osnovy&lt;/EM&gt; umožňuje &lt;STRONG&gt;pridať (prípadne upraviť) účet účtovnej osnovy&lt;/STRONG&gt; do&amp;nbsp;&lt;A href="2db9ea90-4731-4a7e-bafd-a7c70581514f"&gt;účtovného rozvrhu&lt;/A&gt; účtovnej jednotky. Formulár je dostupný z programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;, ponuka &lt;EM&gt;Účtovníctvo&lt;/EM&gt;, &lt;A href="2db9ea90-4731-4a7e-bafd-a7c70581514f"&gt;Účtovný rozvrh&lt;/A&gt;, tlačidlo&amp;nbsp;&lt;EM&gt;Nový&lt;/EM&gt; alebo &lt;EM&gt;Oprava&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Popis formulára &lt;EM&gt;Účet účtovnej osnovy&lt;/EM&gt;&lt;/H2&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Číslo&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Zadáva sa číslo účtovného rozvrhu v tvare SSS AAA, kde SSS znamená číslo syntetického účtu&amp;nbsp; a AAA číslo analytického účtu, napr. 211 100. Pri oprave čísla účtovného rozvrhu sa prečíslujú aj všetky už zaúčtované zápisy s týmto účtom v účtovnom denníku.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Saldokontný účet&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Začiarknutím tejto voľby sa stane analytický účet saldokontný. Pri saldokontných účtoch program pri zápise nového dokladu do&amp;nbsp;&lt;A href="d8c9bfc8-92d1-4471-8909-e5f8ce602d6c"&gt;účtovného denníka&lt;/A&gt; vyžaduje zadať obchodného partnera a číslo faktúry.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Nedaňové výdavky (nezdaňovaná činnosť)&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Určuje, či nákladový účet je bežný daňovo uznateľný výdavok, prípadne či nejde o špeciálnu položku, ktorá neznižuje&amp;nbsp;daňový základ, napr. pri používaní firemného auta aj na súkromné účely.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Riadok súvahy&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;V&amp;nbsp;rozbaľovacom zozname môžete určiť, do ktorého riadka súvahy bude zaradený analytický účet. Zakázané pole znamená, že analytický účet má v súvahe svoje pevné miesto a nemožno ho zmeniť. Príkladom určenia riadka v súvahe je syntetický účet 311 (odberatelia). V&lt;SPAN lang=en&gt;&amp;nbsp;&lt;/SPAN&gt;súvahe môže byť analytický účet 311 AAA dlhodobá pohľadávka (riadok 37) alebo krátkodobá pohľadávka (riadok 43).&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Riadok výsledovky&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;V&amp;nbsp;rozbaľovacom zozname môžete určiť, do ktorého riadka výsledovky (výkazu o majetku a&amp;nbsp;záväzkoch) bude zaradený analytický účet. Zakázané pole znamená, že analytický účet má vo výsledovke svoje pevné&amp;nbsp;miesto a nemožno ho zmeniť.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Členenie&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Je možné zadať členenie dokladov. Používa sa pri účtovaní v účtovnom denníku (v účtovnom zápise).&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="7c479614-ce40-45ab-a559-5311f109036d" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="2db9ea90-4731-4a7e-bafd-a7c70581514f">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="e2aa60b4-17c7-4f91-a420-e6d97b1df71a" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="da8a9192-a6cc-4470-b5d5-13d3ec435f97">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="3e449bda-9f1b-498e-a9dd-45410da5cfe3" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="d8c9bfc8-92d1-4471-8909-e5f8ce602d6c">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="10b654e0-366f-46a5-99b3-73b92c653b3b" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="3e00a8e4-7e48-4911-b6e8-8b43fa6aa331">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="02ac5178-f9c3-481b-a774-cc99a5485fec">
+      <Keyword m="2021-07-12T07:12:01.0430552Z">Účet účtovnej osnovy - formulár</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

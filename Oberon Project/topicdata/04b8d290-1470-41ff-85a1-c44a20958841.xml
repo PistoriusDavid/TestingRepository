@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="04b8d290-1470-41ff-85a1-c44a20958841" Status="Complete" CreatedOn="2014-09-02T14:30:07.1613489Z" ModifiedOn="2024-10-30T09:48:48.339132Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Devices_CashDevicesOverview" BuildFlags="">
+  <Title m="2019-04-26T06:52:15.4169224Z">Všeobecne o registračných pokladniciach</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-10-30T09:48:48.339132Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;všeobecné informácie o registračných pokladniciach, t.&amp;nbsp;j. fiškálnych zariadeniach&lt;/STRONG&gt;&amp;nbsp;podporovaných v&amp;nbsp;systéme OBERON.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Systém OBERON podporuje pripojenie&amp;nbsp;on-line registračných pokladníc (ORP), ktorých&amp;nbsp;hlavnou funkciou je evidovanie tržieb a&amp;nbsp;vystavovanie&amp;nbsp;pokladničných&amp;nbsp;dokladov.&amp;nbsp;Podporované fiškálne zariadenia delíme na: 
+&lt;UL&gt;
+&lt;LI&gt;A)&amp;nbsp;&lt;STRONG&gt;On-line registračné pokladnice (ORP)&lt;/STRONG&gt;:&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;A.1)&amp;nbsp;&lt;A href="b24ad235-cf7f-43e2-b3e8-ec0f7d92f6b6"&gt;&lt;STRONG&gt;Fiškálne tlačiarne&lt;/STRONG&gt;&lt;/A&gt; -&amp;nbsp;hardvérové fiškálne zariadenia, pri ktorých sa predaj vykonáva na počítači pomocou modulu&amp;nbsp;&lt;A href="aec074f4-3e1c-4a1e-8a80-06fcecf51156"&gt;Pokladnica OBERON&lt;/A&gt;.&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; A.2)&amp;nbsp;&lt;STRONG&gt;Štandardné registračné pokladnice&lt;/STRONG&gt;&amp;nbsp;-&amp;nbsp;hardvérové fiškálne zariadenia&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;, ktoré je možné v&amp;nbsp;spojení so systémom&amp;nbsp;OBERON&amp;nbsp;používať dvoma spôsobmi: &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; -&amp;nbsp;&lt;STRONG&gt;počas predaja pripojené k počítaču (režim on-line)&lt;/STRONG&gt;&amp;nbsp;- predaj sa vykonáva na počítači pomocou modulu&amp;nbsp;&lt;A href="aec074f4-3e1c-4a1e-8a80-06fcecf51156"&gt;Pokladnica OBERON&lt;/A&gt; (rovnako ako pri fiškálnych tlačiarňach),&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;-&amp;nbsp;&lt;STRONG&gt;počas predaja nepripojené k počítaču (režim off-line)&lt;/STRONG&gt;&amp;nbsp;-&amp;nbsp;predaj sa vykonáva priamo na pokladnici, viac informácií je možné získať v téme&amp;nbsp;&lt;A href="2edf9500-71d3-4b5c-9d44-990261fb51bc"&gt;Použitie registračných pokladníc v&amp;nbsp;režime off-line&lt;/A&gt;.&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; A.3)&amp;nbsp;&lt;STRONG&gt;Fiscal UNI (SK)&lt;/STRONG&gt; - softvérové fiškálne zariadenie ako&amp;nbsp;náhrada hardvérového zariadenia určené na skúšobné účely. Viac informácií získate v téme&amp;nbsp;&lt;A href="30dd45fc-685d-4adf-a959-f87840e12c7f" style="auto-update-caption: true"&gt;Fiscal UNI (SK)&lt;/A&gt;. 
+&lt;LI&gt;B) &lt;STRONG&gt;Virtuálna registračná pokladnica 2&amp;nbsp;(VRP 2)&lt;/STRONG&gt; - registračná pokladnica prevádzkovaná &lt;EM&gt;Finančným riaditeľstvom SR&lt;/EM&gt;. 
+&lt;LI&gt;C)&amp;nbsp;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;&lt;STRONG&gt;Ostatné&lt;/STRONG&gt; - tu ide o fiškálne riešenia platné pre iné štáty ako &lt;EM&gt;Slovenská republika&lt;/EM&gt;, napr.&amp;nbsp;&lt;A href="c1e30fa4-f96a-460c-9ed5-33fc343797bf" style="auto-update-caption: true"&gt;Fiscal UNI (CZ)&lt;/A&gt;.&lt;/SPAN&gt;&lt;/SPAN&gt; &lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Voľba hardvérového fiškálneho zariadenia závisí&amp;nbsp;od charakteru prevádzky a teda požiadaviek, ktoré by mala registračná pokladnica spĺňať. Jednotlivé zariadenia sa od seba líšia nielen funkčnosťou, ale aj cenou.&amp;nbsp;&lt;A href="1f32a90c-7b4a-4d69-9f38-a560178794b3"&gt;Odporúčaným&lt;/A&gt; fiškálnym zariadením je&amp;nbsp;&lt;A href="00fa9619-a13d-4745-8938-cc0c2b5039ce"&gt;eKasa PANDORA&lt;/A&gt;&amp;nbsp;&lt;A href="1f32a90c-7b4a-4d69-9f38-a560178794b3" style="auto-update-caption: true"&gt;&lt;IMG border=0 alt="Odporúčané riešenia" src="images/OBERON/Basic/Odporucane-riesenie_ruka_ikona.png"&gt;&lt;/A&gt;&amp;nbsp;(výhodou je rovnaký dodávateľ hardvéru i&amp;nbsp;softvéru, čím sa eliminujú problémy s komunikáciou).&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Pripojenie k počítaču počas predaja (režim on-line)&lt;/H2&gt;
+&lt;P&gt;V tomto režime je fiškálne zariadenie neustále pripojené k počítaču, predaj sa vykonáva na počítači pomocou modulu&amp;nbsp;&lt;A href="aec074f4-3e1c-4a1e-8a80-06fcecf51156"&gt;Pokladnica OBERON&lt;/A&gt;. Ako fiškálne zariadenie je možné použiť fiškálnu tlačiareň, prípadne štandardnú registračnú pokladnicu, ktorá umožňuje tzv. &lt;STRONG&gt;on-line komunikáciu&lt;/STRONG&gt; - vtedy sa z bežnej registračnej pokladnice stane v&amp;nbsp;podstate&amp;nbsp;&lt;A href="00fa9619-a13d-4745-8938-cc0c2b5039ce"&gt;fiškálna tlačiareň&lt;/A&gt;.&lt;/P&gt;
+&lt;P&gt;Výhody fiškálnej&amp;nbsp;tlačiarne:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;spravidla dostatočná šírka pokladničnej pásky, väčšinou 40 znakov (u pokladníc je to väčšinou obmedzené, napr. len 24 znakov), 
+&lt;LI&gt;možnosť tlače textu za položku dokladu (výrobného alebo sériového čísla, záruky, čiarového kódu, variantu, poznámky atď.), 
+&lt;LI&gt;tlač nedaňových dokladov (dokladov typu vnútorné zúčtovanie, obraty pokladnice, objednávky do kuchyne...), 
+&lt;LI&gt;tlač textov tak pred, ako aj za dokladom (napr. názov odberateľa, otváracie hodiny...). &lt;/LI&gt;&lt;/UL&gt;
+&lt;P&gt;Nevýhody:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;spravidla vyššia cena, 
+&lt;LI&gt;predaj je nutné vykonávať na počítači, pri registračnej&amp;nbsp;pokladnici je možná&amp;nbsp;kombinácia s prácou&amp;nbsp;v režime off-line. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Nepripojenie k počítaču počas predaja (režim off-line)&lt;/H2&gt;
+&lt;P&gt;V tomto režime sa predaj vykonáva výlučne na registračnej pokladnici.&amp;nbsp;OBERON slúži len na zápis položiek do pokladnice,&amp;nbsp;na konci predajného dňa na vyčítanie predaných položiek a&amp;nbsp;následnú úpravu (zníženie)&amp;nbsp;zostatkových množstiev na skladových kartách.&lt;/P&gt;
+&lt;P&gt;Výhody predaja priamo na registračnej pokladnici:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;pokladnicu nie je nutné mať neustále pripojenú k&amp;nbsp;počítaču, 
+&lt;LI&gt;spravidla nižšia cena riešenia. &lt;/LI&gt;&lt;/UL&gt;
+&lt;P&gt;Nevýhody:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;menej komfortné ovládanie -&amp;nbsp;umožňuje len základné funkcie&amp;nbsp;na evidenciu tržieb v hotovosti, 
+&lt;LI&gt;neumožňuje pracovať s otvorenými účtami (stolmi), nepodporuje funkciu &lt;EM&gt;Odložiť predaj&lt;/EM&gt; a pod., 
+&lt;LI&gt;predaj len z jedného skladu, 
+&lt;LI&gt;úbytok na skladových kartách sa prejaví až po pripojení pokladnice k&amp;nbsp;počítaču a načítaní informácií o predaji. &lt;/LI&gt;&lt;/UL&gt;
+&lt;P&gt;Viac informácií o tomto režime predaja&amp;nbsp;je možné získať v téme&amp;nbsp;&lt;A href="2edf9500-71d3-4b5c-9d44-990261fb51bc"&gt;Použitie registračných pokladníc v režime off-line&lt;/A&gt;.&lt;/P&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Prehľad &lt;STRONG&gt;podporovaných fiškálnych zariadení&lt;/STRONG&gt; nájdete v téme&amp;nbsp;&lt;A href="d9b919e7-20c4-4c50-9910-4f13211ed9a8"&gt;Podporované registračné pokladnice&lt;/A&gt;. Prehľad ďalších pripojiteľných zariadení v systéme OBERON je možné získať v téme&amp;nbsp;&lt;A href="3f051fd3-9727-4ecc-9613-7a7fb1cb2a54"&gt;Prehľad pripojiteľných zariadení&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="08ae4aea-2910-4254-bcee-4195aaf809e9" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="aec074f4-3e1c-4a1e-8a80-06fcecf51156">
+      <Title m="2021-03-22T14:00:07.9167198Z">Pokladnica OBERON</Title>
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="23a96ae5-6822-48bd-8420-256b1eb60504" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="3f051fd3-9727-4ecc-9613-7a7fb1cb2a54">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="88a85a45-a3e4-4216-bfb3-90b5c6541acb" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="749ff4f1-eeb5-43f5-98d2-021399d8cec7">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="bc03c28f-9b45-4129-9529-37efec4ec2ca" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="d9b919e7-20c4-4c50-9910-4f13211ed9a8">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="2bb0d9be-c78b-41c5-8ad4-5c18baca8418" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="b24ad235-cf7f-43e2-b3e8-ec0f7d92f6b6">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="18355a01-ea66-475f-a4a6-d05b51d113a8" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="2edf9500-71d3-4b5c-9d44-990261fb51bc">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="8357dcd2-6986-422b-8973-55461c169303" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="60b46e26-4dbe-43d9-a2e9-182be2dfafa8">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="1271752a-52bd-4470-b6e0-02b2e4ca8e5e" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="a75ad602-f141-475d-afba-8d0f3dcf668a">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="6a65fe9a-3d43-484d-a574-34dc4b942241" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="b38ff933-a53a-4a49-b2bf-3228c3cd657a">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="e20b4f8a-1ace-42eb-9da0-95cf1b3b5700">
+      <Keyword m="2021-03-19T14:14:41.2128372Z">On-line registračné pokladnice - všeobecné informácie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="991fd6ae-0604-49d7-b5d6-90246923971a">
+      <Keyword m="2021-03-19T14:13:30.6616842Z">Registračné pokladnice - všeobecné informácie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="59bd3af9-f61e-4745-a3aa-8ee2d59bfd22">
+      <Keyword m="2021-03-19T14:15:02.4185811Z">ORP - všeobecné informácie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="90c412dc-8316-4666-9a3c-d8d8671f8918">
+      <Keyword m="2021-03-19T14:18:34.8611193Z">Fiškálne zariadenia - všeobecné informácie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="f8bd0b47-4d5a-4a3e-abcc-04b6cd8f78b5">
+      <Keyword m="2021-03-19T14:19:24.4657895Z">Registračné pokladnice v režime on-line - všeobecné informácie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="b60d4fce-fbf4-450a-a449-e9fe7adf3b7d">
+      <Keyword m="2021-03-19T14:19:46.3768279Z">Registračné pokladnice v režime off-line - všeobecné informácie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="c2d6db21-f89c-40fb-a885-987b97e9284d">
+      <Keyword m="2022-08-09T08:39:22.1158123Z">VRP 2</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="21bb41ca-bf93-4e1c-89fc-8c75c5d1ba62">
+      <Keyword m="2022-08-09T08:39:34.5603982Z">Virtuálna registračná pokladnica 2</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

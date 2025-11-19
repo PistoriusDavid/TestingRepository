@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="ef8ec592-c1af-45af-92b7-8734ce46e0f5" Status="Complete" CreatedOn="2014-09-04T14:57:55.5165327Z" ModifiedOn="2023-09-20T06:04:44.1885156Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="false" HelpContextIds="" Name="Homebanking_What_is_Homebanking" BuildFlags="">
+  <Title m="2014-09-05T18:11:44.3120771Z">Čo je internetbanking</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-09-20T06:04:44.1885156Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; je venovaná&amp;nbsp;&lt;STRONG&gt;všeobecným informáciám o&amp;nbsp;internetbankingu ako forme elektronického bankovníctva a jeho použitiu&lt;/STRONG&gt; v systéme OBERON.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Internetbanking (internetové bankovníctvo) &lt;STRONG&gt;je formou elektronického bankovníctva&lt;/STRONG&gt;, ktorá bola v minulosti známa aj pod pojmom homebanking (domáce bankovníctvo). Je založený na elektronickej výmene údajov prostredníctvom internetu. 
+&lt;LI&gt;Internetbanking je výhodný pre klienta aj banku: klient môže komunikovať s bankou v akomkoľvek čase (24/7)&amp;nbsp;a z ktoréhokoľvek miesta na svete a banka automatizovaným systémom spracováva požiadavky&amp;nbsp;klientov a šetrí tak náklady. 
+&lt;LI&gt;Internetbanking umožňuje komunikovať s bankou &lt;STRONG&gt;rôznymi spôsobmi&lt;/STRONG&gt;, či už priamo zo stolného počítača, alebo z mobilného zariadenia (smartfónu, tabletu...). 
+&lt;LI&gt;Služba umožňuje sledovať pohyby na účtoch, mať prehľad o zostatkoch na účtoch, zadávať jednorazové či trvalé príkazy na úhradu alebo príkazy na inkaso. 
+&lt;LI&gt;Požiadaním banky je možné&amp;nbsp;zasielanie bankových výpisov elektronickou&amp;nbsp;poštou &lt;STRONG&gt;v rôznych formátoch exportu&lt;/STRONG&gt;; okrem toho, že nie je nutné banku navštíviť osobne, je možné uvedené exportované výpisy spracovávať elektronicky automatizovaným spôsobom. 
+&lt;LI&gt;V&amp;nbsp;protiklade k&amp;nbsp;službám&amp;nbsp;poskytovaným v pobočke banky sú so službou elektronického bankovníctva štandardne spojené &lt;STRONG&gt;nižšie alebo žiadne poplatky&lt;/STRONG&gt;. 
+&lt;LI&gt;Na rozdiel od súčasného internetbankingu homebanking používaný v minulosti&amp;nbsp;vyžadoval inštaláciu špeciálneho softvéru do počítača klienta. Naproti tomu internetbanking využíva verejnú internetovú sieť a&amp;nbsp;bežný webový prehliadač s bezpečnostnou nadstavbou SSL (HTTPS). &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Využitie internetbankingu v OBERON-e&amp;nbsp;&lt;/H2&gt;
+&lt;P&gt;V systéme OBERON sa internetbanking používa na:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;export údajov&lt;/STRONG&gt;&amp;nbsp;- zo systému OBERON sa vyexportujú príkazy na úhradu. Bližšie informácie získate v téme&amp;nbsp;&lt;A href="65ec3c9f-09c4-4fde-a7b8-2d6c356e3f20"&gt;Zaslanie príkazu na úhradu do banky&lt;/A&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;import údajov&lt;/STRONG&gt;&amp;nbsp;- do systému OBERON&amp;nbsp;sa naimportujú bankové výpisy, ktoré sa môžu ďalej spracovať (zaúčtovať, zaevidovať). Bližšie informácie získate v téme&amp;nbsp;&lt;A href="02bbf54b-086f-4641-8c33-4dd461e56fb4" style="auto-update-caption: true"&gt;Spracovanie bankových výpisov&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="96404de6-06a6-403e-ada4-21c5ba27017d" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1288dcf2-9f76-4fc6-941a-1d03361bf937">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="cf8ba551-3417-4c57-9875-4a50efb828c1" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="65ec3c9f-09c4-4fde-a7b8-2d6c356e3f20">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="fb314b88-628c-49cf-9f61-40e520d6a03f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="8a48a395-a1ba-47fb-b250-689f6df7e93e">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="97954150-8295-452d-9fdd-fd547968aafe" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="02bbf54b-086f-4641-8c33-4dd461e56fb4">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="25344161-bc0d-4ec5-bb1d-2ef94546ceab" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="83c34110-385c-4103-ac93-58d6400944d6">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="d9fbc4ad-9c2b-4e95-9ab6-6d4064155ca7" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="93ded66f-b7a6-40a8-89e0-bd501cd17bfc">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="f33922a5-cbb5-4620-8884-fe9faa17c0f9">
+      <Keyword m="2014-11-12T10:49:15.2713907Z">Homebanking</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="fd4ba3bf-ff14-49b4-ae6a-e1bcc9876b81">
+      <Keyword m="2015-02-11T08:00:44.4042968Z">Internetbanking</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="0bf103eb-4a75-429b-971c-006156a78ae5">
+      <Keyword m="2021-08-04T07:42:00.2973344Z">Elektronické bankovníctvo</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="31567a53-3a5a-4577-8668-a164964a9de6">
+      <Keyword m="2022-07-18T07:14:35.0315121Z">SSL - internetbanking</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="a5318434-401b-4fef-9dab-7d5cd4479d19" Status="Complete" CreatedOn="2018-01-25T10:06:07.4483275Z" ModifiedOn="2024-01-08T12:54:25.975404Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="ExternalSystem_HotelReservation_Beds24_PricingSetting" BuildFlags="">
+  <Title m="2022-04-20T11:30:34.9232625Z">Nastavenie cenotvorby v Beds24</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-01-08T12:15:46.8044121Z">&lt;P&gt;V tejto téme &lt;EM&gt;Pomocníka&lt;/EM&gt; sú uvedené &lt;STRONG&gt;informácie k&amp;nbsp;nastaveniu cenotvorby&lt;/STRONG&gt; v&amp;nbsp;&lt;A href="2564d1eb-a7ed-46a7-a957-6087afe26471"&gt;manažéri rezervačných kanálov Beds24&lt;/A&gt;&lt;EM&gt;.&lt;/EM&gt;&lt;/P&gt;&lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Pri prepojení s rezervačnými portálmi (napr. &lt;EM&gt;Booking.com&lt;/EM&gt;) je potrebné mať na zreteli, že &lt;SPAN style="COLOR: rgb(255,0,0)"&gt;niektoré nastavenia uskutočnené v&amp;nbsp;&lt;EM&gt;Beds24&lt;/EM&gt; sa na rezervačné portály&amp;nbsp;neodosielajú (alebo sa odosielajú len na niektoré),&amp;nbsp;a teda platia len pre&lt;/SPAN&gt;&amp;nbsp;&lt;A href="a8869db0-d369-49c6-b801-de33672ce874"&gt;rezervačný formulár&amp;nbsp;Beds24&lt;/A&gt;. Pri iných nastaveniach &lt;SPAN style="COLOR: rgb(255,0,0)"&gt;je možné nastaviť, či majú platiť len pre rezervačný formulár&amp;nbsp;&lt;EM&gt;Beds24&lt;/EM&gt; alebo len pre rezervačné portály&amp;nbsp;(a ktoré) alebo pre oboje&lt;/SPAN&gt;. Dôvodom je, že ide rádovo o&amp;nbsp;desiatky samostatných softvérov, ktoré nie sú úplne kompatibilné.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt; 
+&lt;P&gt;Pri využívaní rezervačných portálov &lt;STRONG&gt;je nutné najprv nastaviť cenotvorbu v&amp;nbsp;&lt;EM&gt;Beds24&lt;/EM&gt;&lt;/STRONG&gt; a&amp;nbsp;následne nastaviť komunikáciu&amp;nbsp;a aktivovať&amp;nbsp;prepojenie&amp;nbsp;&lt;EM&gt;Beds24&lt;/EM&gt; s&amp;nbsp;konkrétnym rezervačným portálom - pre &lt;EM&gt;Booking.com&lt;/EM&gt; je postup uvedený v&amp;nbsp;téme&amp;nbsp;&lt;A href="6e0bfd35-7d4e-479b-9dc5-cf5237b1aa69" style="auto-update-caption: true"&gt;Prepojenie Beds24 s Booking.com&lt;/A&gt;.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Nastavenie cien v&amp;nbsp;&lt;EM&gt;Beds24&lt;/EM&gt; je nevyhnutné na&amp;nbsp;zobrazenie, resp. odosielanie dostupnosti. &lt;STRONG&gt;Ak k&amp;nbsp;nejakému dátumu ceny nastavené nie sú, systém nezobrazí žiadnu dostupnosť izieb&lt;/STRONG&gt;. Z&amp;nbsp;tohto dôvodu je dôležité&amp;nbsp;nastaveniu cien venovať náležitú pozornosť a ceny udržiavať aktuálne. 
+&lt;LI&gt;Systém pracuje s dvomi typmi cien: &lt;STRONG&gt;denné ceny (Daily Prices)&lt;/STRONG&gt; a&amp;nbsp;&lt;STRONG&gt;sadzby (Rates)&lt;/STRONG&gt;. Ktorý z&amp;nbsp;nich použijete, závisí od štruktúry vašej cenotvorby, pričom je&amp;nbsp;možné&amp;nbsp;použiť aj ich kombináciu. Vo všeobecnosti platí, že &lt;STRONG&gt;denné ceny sa ľahšie ovládajú a fungujú&lt;/STRONG&gt; takmer pre všetkých používateľov. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Denné ceny a sadzby&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Denné ceny (Daily Prices)&lt;/STRONG&gt;&amp;nbsp;sú ceny, ktoré možno nastaviť na konkrétny dátum alebo rozsah dátumov.&amp;nbsp;Ich tvorba sa skladá z&amp;nbsp;dvoch krokov: najprv sa&amp;nbsp;vytvorí denná cena&amp;nbsp;spolu s&amp;nbsp;pravidlami (v&amp;nbsp;ponuke &lt;EM&gt;Prices, Daily Price Setup&lt;/EM&gt;) a následne sa v&amp;nbsp;grafickom prehľade (Calendar), zadá konkrétna výška dennej ceny.&amp;nbsp;Vo výsledku tak môžete používať&amp;nbsp;súbor denných cien s rôznymi pravidlami a&amp;nbsp;s rôznou výškou pre jednotlivé časti ubytovacej sezóny. Denné ceny &lt;STRONG&gt;sa odporúča používať&lt;/STRONG&gt; z&amp;nbsp;nasledujúcich dôvodov: 
+&lt;UL&gt;
+&lt;LI&gt;sú&amp;nbsp;flexibilné a ľahko ovládateľné, 
+&lt;LI&gt;umožňujú&amp;nbsp;dynamicky upravovať ceny na dennej báze, 
+&lt;LI&gt;sú vhodné, ak máte ubytovaciu sezónu rozdelenú na množstvo častí s&amp;nbsp;rôznymi cenami, 
+&lt;LI&gt;umožňujú &lt;SPAN style="COLOR: rgb(0,0,0)"&gt;odosielať&amp;nbsp;na rezervačné portály&lt;/SPAN&gt;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;&amp;nbsp;(&lt;/SPAN&gt;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;napr. na&lt;/SPAN&gt;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;EM&gt;Booking.com&lt;/EM&gt;) cenu za ďalšiu osobu (Extra Person)&lt;EM&gt;.&lt;/EM&gt; &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Sadzby (Rates)&lt;/STRONG&gt;&amp;nbsp;sú ceny, ktoré majú počiatočný a koncový dátum, takže sa vzťahujú na rozsah dátumov. Ak je k dispozícii viacero sadzieb pre rovnaký dátum, pravidlá každej sadzby určia, ktorá sadzba sa uplatní. Pri sadzbách sa cena za ďalšiu osobu (Extra Person)&amp;nbsp;ne&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;odosiela&amp;nbsp;na rezervačné portály&lt;/SPAN&gt;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;&amp;nbsp;(&lt;/SPAN&gt;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;napr. na&lt;/SPAN&gt;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;EM&gt;Booking.com&lt;/EM&gt;)&lt;EM&gt;.&lt;/EM&gt;&amp;nbsp;Sadzby je vhodné používať namiesto denných cien ak napr.: 
+&lt;UL&gt;
+&lt;LI&gt;máte ceny vopred pevne stanovené, nechcete ich upravovať a nemáte ubytovaciu sezónu rozdelenú na žiadne alebo len málo úsekov, 
+&lt;LI&gt;chcete umožniť hosťom, aby sa mohli informovať, keď nie je dostupná žiadna cena, ale izba nie je úplne obsadená. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Kombinácia sadzieb a denných cien&lt;/STRONG&gt; - za bežných okolností sa používajú buď denné ceny, alebo sadzby, pokiaľ nemáte veľmi zložitú cenovú štruktúru, ktorá si vyžaduje kombináciu oboch. Ak často upravujete ceny, resp. máte ubytovaciu sezónu rozdelenú na množstvo častí s&amp;nbsp;rôznymi cenami, &lt;STRONG&gt;používajte len denné ceny&lt;/STRONG&gt;. Ak máte fixné a vopred stanovené ceny a&amp;nbsp;žiadne alebo málo kratších sezón, &lt;STRONG&gt;používajte len sadzby&lt;/STRONG&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Nastavenie&amp;nbsp;denných cien a&amp;nbsp;sadzieb&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Na nastavenie&amp;nbsp;denných cien a&amp;nbsp;sadzieb môžete využiť &lt;STRONG&gt;sprievodcu (Price Wizard)&lt;/STRONG&gt;, ktorý je dostupný&amp;nbsp;po stlačení tlačidla &lt;EM&gt;Support, Setup Wizards&lt;/EM&gt; v záhlaví vášho účtu po prihlásení do&amp;nbsp;&lt;EM&gt;Beds24&lt;/EM&gt;.&amp;nbsp;V sprievodcovi je možné prepínať medzi&amp;nbsp; záložkami &lt;STRONG&gt;&lt;EM&gt;Ovládací panel&lt;/EM&gt;&lt;/STRONG&gt; &lt;STRONG&gt;(Control Panel)&lt;/STRONG&gt; a &lt;STRONG&gt;&lt;EM&gt;Podpora Wiki&lt;/EM&gt;&lt;/STRONG&gt; &lt;STRONG&gt;(Support Wiki)&lt;/STRONG&gt;. Tu nájdete doplňujúce informácie k jednotlivým nastaveniam. 
+&lt;LI&gt;Predpokladá sa, že vo svojom účte&amp;nbsp;v&amp;nbsp;&lt;EM&gt;Beds24&lt;/EM&gt; už máte &lt;STRONG&gt;založené&amp;nbsp;svoje ubytovacie zariadenie (Property)&amp;nbsp;a nadefinované typy&amp;nbsp;izieb&lt;/STRONG&gt;. Na nasledujúci krok v sprievodcovi sa možno presunúť pomocou tlačidla&amp;nbsp;&lt;EM&gt;&lt;STRONG&gt;next&amp;nbsp;&amp;gt;&lt;/STRONG&gt;&lt;/EM&gt; v&amp;nbsp;hornej časti obrazovky. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 1: Sprievodca nastavením denných cien a&amp;nbsp;sadzieb&amp;nbsp;(Price Wizard)&lt;/H5&gt;
+&lt;P&gt;&lt;IMG style="WIDTH: 55%" border=0 alt="" src="images/ProductOptions/ExternalSystems/Hotel_ExternalSystem_Beds24_PriceWizard.png"&gt;&amp;nbsp;&lt;/P&gt;
+&lt;H3&gt;Postup nastavenia denných cien&lt;/H3&gt;
+&lt;OL&gt;
+&lt;LI&gt;Prihláste sa do svojho účtu &lt;EM&gt;Beds24&lt;/EM&gt;. 
+&lt;LI&gt;V ponuke &lt;EM&gt;Prices, Daily Price Setup&lt;/EM&gt; stlačte tlačidlo &lt;EM&gt;&lt;STRONG&gt;Pridať nové pravidlo dennej ceny&lt;/STRONG&gt;&lt;/EM&gt; &lt;STRONG&gt;(Add New Daily Price Rule)&lt;/STRONG&gt;. 
+&lt;LI&gt;V&amp;nbsp;rozbaľovacom zozname zvoľte ubytovacie zariadenie a typ izby, pre ktorý má denná cena platiť. 
+&lt;LI&gt;Zadajte názov (Name) dennej ceny (napr. &lt;EM&gt;Top sezóna&lt;/EM&gt;). Pod týmto názvom sa bude daná denná cena zobrazovať v&amp;nbsp;grafickom prehľade (Calendar). 
+&lt;LI&gt;Nastavte maximálny počet osôb na izbe (Price For), na ktorý sa má daná denná cena vzťahovať. Ak bude pri rezervácii zadaný vyšší počet hostí, pre ďalšie osoby sa uplatní cena za ďalšiu osobu (Extra Person), resp. ďalšie dieťa (Extra Child). 
+&lt;LI&gt;V&amp;nbsp;ďalších&amp;nbsp;krokoch môžete zadať ďalšie nastavenia, ako je minimálny a&amp;nbsp;maximálny počet dní pobytu atď. 
+&lt;LI&gt;V&amp;nbsp;časti&amp;nbsp;&lt;STRONG&gt;&lt;EM&gt;Uplatniť&lt;/EM&gt; (Enable)&lt;/STRONG&gt; zadajte, či má cena platiť pre&amp;nbsp;&lt;A href="a8869db0-d369-49c6-b801-de33672ce874"&gt;rezervačný formulár Beds24&lt;/A&gt; a&amp;nbsp;(alebo) rezervačné portály a ktoré. Nastavenie umožňuje definovať &lt;STRONG&gt;odlišné denné ceny pre rezervačný formulár&amp;nbsp;na webovej stránke vášho ubytovacieho zariadenia&amp;nbsp;a rezervačné portály&lt;/STRONG&gt; (napr. &lt;EM&gt;Booking.com&lt;/EM&gt;). 
+&lt;LI&gt;Po vytvorení dennej ceny a definovaní jej pravidiel prejdite do grafického prehľadu (Calendar). Pod príslušným typom izby pribudne &lt;STRONG&gt;nový riadok s&amp;nbsp;názvom vytvorenej dennej ceny&lt;/STRONG&gt; (napr. &lt;EM&gt;Top sezóna&lt;/EM&gt; - pozri Obrázok č. 2). 
+&lt;LI&gt;V&amp;nbsp;riadku s&amp;nbsp;vytvorenou dennou cenou&amp;nbsp;(s názvom, ktorý ste&amp;nbsp;zadali pri jej definovaní) kliknite na vybraný deň, pre ktorý chcete zadať dennú cenu. Otvorí sa&amp;nbsp;okno, v&amp;nbsp;ktorom&lt;STRONG&gt;&amp;nbsp;zadajte výšku ceny, rozsah dátumov a dni v&amp;nbsp;týždni, pre ktoré má platiť&lt;/STRONG&gt; a vykonané nastavenia uložte. Na odstránenie dennej ceny zadajte nulu. &lt;/LI&gt;&lt;/OL&gt;
+&lt;H5&gt;Obrázok č. 2: Nastavenie dennej ceny v&amp;nbsp;grafickom prehľade (Calendar)&lt;/H5&gt;
+&lt;P&gt;&lt;IMG style="WIDTH: 30%" border=0 alt="" src="images/ProductOptions/ExternalSystems/Hotel_ExternalSystem_Beds24_DailyPriceSetting.png"&gt;&lt;/P&gt;
+&lt;H3&gt;Postup nastavenia sadzieb&lt;/H3&gt;
+&lt;OL&gt;
+&lt;LI&gt;Prihláste sa do svojho účtu &lt;EM&gt;Beds24&lt;/EM&gt;. 
+&lt;LI&gt;V ponuke &lt;EM&gt;Prices, Rates&lt;/EM&gt; stlačte tlačidlo&amp;nbsp;&lt;STRONG&gt;&lt;EM&gt;Pridať sadzbu&lt;/EM&gt; (Add Rate)&lt;/STRONG&gt;. Otvorí sa okno s&amp;nbsp;piatimi záložkami: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;EM&gt;Prehľad&lt;/EM&gt; (Summary) - obsahuje všetky ceny a podmienky pre danú sadzbu, 
+&lt;LI&gt;&lt;EM&gt;Izby&lt;/EM&gt; (Rooms) - tu sa vyberá izba, pre ktorú má daná sadzba platiť, 
+&lt;LI&gt;&lt;EM&gt;Zľavy&lt;/EM&gt; (Discounts) - zľavy pri dlhších pobytoch (Long Stay Discounts) alebo zľavy na rezervácie z určitého zdroja (Referer Discounts), napr. webovej stránky (&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;zľavy v&amp;nbsp;tejto záložke sa neodosielajú do&amp;nbsp; rezervačných portálov, napr. &lt;EM&gt;Booking.com&lt;/EM&gt;&lt;/SPAN&gt;), 
+&lt;LI&gt;&lt;EM&gt;Produkty navyše&lt;/EM&gt;&amp;nbsp;(Upsell) -&amp;nbsp;jednotlivé položky nadefinované v&amp;nbsp;ponuke &lt;EM&gt;Settings, Booking Engine, Upsell Items&lt;/EM&gt; (napr. &lt;EM&gt;Ubytovanie domáceho miláčika&lt;/EM&gt;) je tu možné pre danú sadzbu (de)aktivovať&amp;nbsp;(&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;produkty navyše&amp;nbsp;sa neodosielajú do rezervačných portálov, napr.&amp;nbsp;&lt;EM&gt;Booking.com&lt;/EM&gt;&lt;/SPAN&gt;), 
+&lt;LI&gt;&lt;EM&gt;Kanály&lt;/EM&gt; (Channels) - začiarknutím príslušného políčka sa vyberá,&amp;nbsp;na ktorý rezervačný portál má sadzba odosielať a či sa má zobrazovať v&amp;nbsp;&lt;A href="a8869db0-d369-49c6-b801-de33672ce874"&gt;rezervačnom formulári&amp;nbsp;Beds24&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;V záložke &lt;EM&gt;Prehľad&amp;nbsp;(Summary)&lt;/EM&gt; možno&amp;nbsp;nastaviť &lt;STRONG&gt;cenu za izbu (Room Price),&amp;nbsp;cenu za jednu osobu (Single Price), cenu za dve osoby (Double Price), cenu za ďalšiu osobu (Extra Person) a cenu za dieťa (Extra Child)&lt;/STRONG&gt;. Ich kombinácie umožňujú nastaviť rôzne pravidlá cenotvorby. 
+&lt;LI&gt;Pri nastavení&amp;nbsp;každej sadzby&amp;nbsp;v záložke &lt;EM&gt;Prehľad&lt;/EM&gt; (Summary) zadajte &lt;STRONG&gt;názov sadzby&lt;/STRONG&gt; (nezverejňuje sa, je len pre vašu evidenciu). Ďalej v závislosti od potrieb vašej cenotvorby vyberte jednu alebo viac z cien za celú izbu (Room Price), za jednu (Single Price) alebo dve osoby (Double Price) alebo ďalšiu&amp;nbsp;osobu/osoby, resp. dieťa/deti (Extra Person/Extra Child). Začiarknite typ, ktorý chcete použiť, a zadajte cenu. 
+&lt;LI&gt;Pri začiarknutí políčka &lt;EM&gt;Cena za izbu&lt;/EM&gt; (Room Price) môžete nastaviť &lt;STRONG&gt;maximálny počet hostí&lt;/STRONG&gt;, pre ktorý cena za izbu bude platiť. Pri hosťoch prekračujúcich tento počet sa cena za izbu navýši o cenu za ďalšiu osobu&amp;nbsp;(Extra Person) a/alebo ďalšie dieťa&amp;nbsp;(Extra Child). 
+&lt;LI&gt;Nastavte prvú a poslednú noc, pre ktorú má sadzba platiť. 
+&lt;LI&gt;Prejdite na záložku &lt;EM&gt;Izby&lt;/EM&gt; (Rooms) a nastavte &lt;EM&gt;Izbu&lt;/EM&gt; (Room) na izbu, ku ktorej chcete sadzbu priradiť. 
+&lt;LI&gt;V záložke &lt;EM&gt;Kanály&lt;/EM&gt; (Channels) začiarknutím príslušného políčka vyberte,&amp;nbsp;na ktorý rezervačný portál sa má sadzba odosielať a či sa má zobrazovať v&amp;nbsp;&lt;A href="a8869db0-d369-49c6-b801-de33672ce874"&gt;rezervačnom formulári&amp;nbsp;Beds24&lt;/A&gt;. &lt;/LI&gt;&lt;/OL&gt;&lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Pri sadzbách sa ceny za ďalšiu osobu&amp;nbsp;(Extra Person) a ďalšie dieťa&amp;nbsp;(Extra Child) &lt;SPAN style="COLOR: rgb(255,0,0)"&gt;sa nemusia odosielať&amp;nbsp;na rezervačné portály&lt;/SPAN&gt;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;&amp;nbsp;&lt;/SPAN&gt;- &lt;SPAN style="COLOR: rgb(255,0,0)"&gt;napr. na&lt;/SPAN&gt; &lt;EM style="COLOR: rgb(255,0,0)"&gt;Booking.com&lt;/EM&gt;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;&amp;nbsp;sa neodosielajú&lt;/SPAN&gt;. Uvedené príklady preto platia len pre rezervačný formulár&amp;nbsp;Beds24. &lt;STRONG&gt;V prípade, že potrebujete nastaviť ceny podľa počtu osôb na izbe pre &lt;EM&gt;Booking.com&lt;/EM&gt;, je potrebné požiadať &lt;EM&gt;Booking.com,&lt;/EM&gt; aby vám takéto nastavenia umožnil.&lt;/STRONG&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H3&gt;Príklady nastavenia sadzieb&lt;/H3&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Príklad 1:&lt;/STRONG&gt; Ubytovacie zariadenie ponúka dvojlôžkovú izbu s dvomi prístelkami.&amp;nbsp;Cena za ubytovanie jednej osoby je 20 eur,&amp;nbsp;dvoch osôb je 40 eur, za prístelku 15 eur. V&amp;nbsp;&lt;EM&gt;Beds24&lt;/EM&gt; je potrebné nastaviť jednu sadzbu:&lt;BR&gt;- Room Price: 40, Up to 2 people&lt;BR&gt;- Single Price: 20&lt;BR&gt;- Double Price: 40&lt;BR&gt;- Extra&amp;nbsp;Person: 15 
+&lt;LI&gt;&lt;STRONG&gt;Príklad 2:&lt;/STRONG&gt; Ubytovacie zariadenie ponúka štvorlôžkovú izbu.&amp;nbsp;Cena pri ubytovaní jednej osoby je 20 eur,&amp;nbsp;dvoch osôb za každú 18 eur, troch osôb za každú 16 eur, štyroch osôb za každú 14 eur. V&amp;nbsp;&lt;EM&gt;Beds24&lt;/EM&gt; je potrebné nastaviť jednu sadzbu:&lt;BR&gt;- Room Price: 56, Up to 4 people (= 14 eur/1 osobu)&lt;BR&gt;- Single Price: 20&lt;BR&gt;- Double Price: 36 (= 18 eur/1 osobu)&lt;BR&gt;- Extra Person: 12 (= 3 osoby, 16 eur/1 osobu) 
+&lt;LI&gt;&lt;STRONG&gt;Príklad 3:&lt;/STRONG&gt; Ubytovacie zariadenie ponúka päťlôžkovú izbu.&amp;nbsp;Cena pri ubytovaní jednej osoby je 20 eur,&amp;nbsp;dvoch osôb&amp;nbsp;za každú 18 eur, troch osôb za každú 16 eur, štyroch osôb za každú 14 eur, piatich osôb za každú 12 eur. V&amp;nbsp;&lt;EM&gt;Beds24&lt;/EM&gt; je potrebné nastaviť&amp;nbsp;dve sadzby.&lt;BR&gt;Sadzba 1:&lt;BR&gt;- Room Price: 56, Up to 4 people (= 14 eur/1 osobu)&lt;BR&gt;- Single Price: 20&lt;BR&gt;- Double Price: 36 (= 18 eur/1 osobu)&lt;BR&gt;- Extra Person: 12 (= 3 osoby, 16 eur/1 osobu)&lt;BR&gt;Sadzba 2:&lt;BR&gt;- Room Price: 60, Max Room Capacity (= 12 eur/1 osobu) &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Stratégie pri kombinácii&amp;nbsp;denných cien a&amp;nbsp;sadzieb&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Ak sa používa kombinácia denných cien a&amp;nbsp;sadzieb, &lt;STRONG&gt;predvolenou stratégiou je ponuka najnižšej ceny&lt;/STRONG&gt;, ktorá spĺňa požadované podmienky rezervácie. V&amp;nbsp;prípade potreby je možné túto stratégiu zmeniť pomocou nastavenia &lt;EM&gt;Stratégie denných cien&lt;/EM&gt; (Daily Price Strategy)&lt;EM&gt;,&lt;/EM&gt; ako aj&amp;nbsp;&lt;EM&gt;Stratégie&lt;/EM&gt; (Strategy)&amp;nbsp;v&amp;nbsp;nastavení konkrétnej sadzby. 
+&lt;LI&gt;Pri nastavení &lt;EM&gt;&lt;STRONG&gt;Stratégie denných cien&lt;/STRONG&gt;&lt;/EM&gt; (Daily Price Strategy) v ponuke &lt;EM&gt;Settings, Properties, Booking Rules&lt;/EM&gt; je možné vybrať jednu z nasledujúcich stratégií: 
+&lt;OL&gt;
+&lt;LI&gt;&lt;EM&gt;Povoľ nižšie ceny&lt;/EM&gt; (Allow lower prices) - systém uplatní najnižšiu cenu nastavenú buď v sadzbách alebo pri denných cenách. 
+&lt;LI&gt;&lt;EM&gt;Nepovoľ nižšie ceny&lt;/EM&gt; (Do not allow lower prices) - systém uplatní&amp;nbsp;cenu nastavenú pri denných cenách a&amp;nbsp;bude ignorovať akúkoľvek nižšiu cenu nastavenú v&amp;nbsp;sadzbách. 
+&lt;LI&gt;&lt;EM&gt;Nepovoľ žiadne iné sadzby (&lt;/EM&gt;Do not allow any other rates) - systém uplatní&amp;nbsp;cenu nastavenú pri denných cenách a bude ignorovať všetky ceny nastavené v&amp;nbsp;sadzbách. &lt;/LI&gt;&lt;/OL&gt;
+&lt;LI&gt;Pri nastavení &lt;STRONG&gt;&lt;EM&gt;Stratégie&lt;/EM&gt;&lt;/STRONG&gt; (Strategy)&amp;nbsp;pri nastavení konkrétnej sadzby v&amp;nbsp;záložke &lt;EM&gt;Prehľad&lt;/EM&gt; (Summary) je možné vybrať jednu z&amp;nbsp;týchto stratégií: 
+&lt;OL&gt;
+&lt;LI&gt;&lt;EM&gt;Prednastavená&lt;/EM&gt; (Default) - systém vždy uplatní najnižšiu cenu, 
+&lt;LI&gt;&lt;EM&gt;Nepovoľ nižšie ceny a kratšie pobyty&lt;/EM&gt; (Do not allow lower prices or shorter stays) - systém nepovolí nižšie ceny a kratšie pobyty, 
+&lt;LI&gt;&lt;EM&gt;Nepovoľ žiadne iné sadzby&lt;/EM&gt; (Do not allow any other prices) - všetky ostatné ceny sa prepíšu. &lt;/LI&gt;&lt;/OL&gt;&lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Nastavenia cenotvorby pre rezervačný portál &lt;EM&gt;Booking.com&lt;/EM&gt;&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Po aktivácii&amp;nbsp;prepojenia&amp;nbsp;&lt;EM&gt;Beds24&lt;/EM&gt; s &lt;EM&gt;Booking.com&lt;/EM&gt; sa &lt;STRONG&gt;odstránia všetky ceny a&amp;nbsp;obsadenosť&lt;/STRONG&gt; v&amp;nbsp;extranete &lt;EM&gt;Booking.com&lt;/EM&gt; a nahradia sa údajmi odoslanými z&amp;nbsp;&lt;EM&gt;Beds24&lt;/EM&gt;.&amp;nbsp;Preto &lt;SPAN style="COLOR: rgb(255,0,0)"&gt;je nutné ceny a obsadenosť všetkých izieb nastaviť v&amp;nbsp;&lt;/SPAN&gt;&lt;EM style="COLOR: rgb(255,0,0)"&gt;Beds24&lt;/EM&gt;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;&amp;nbsp;ešte pred samotným prepojením s&amp;nbsp;&lt;/SPAN&gt;&lt;EM style="COLOR: rgb(255,0,0)"&gt;Booking.com&lt;/EM&gt;. 
+&lt;LI&gt;Pri nastavení cenotvorby pre &lt;EM&gt;Booking.com&lt;/EM&gt; (ako aj ostatné rezervačné portály)&amp;nbsp;&lt;STRONG&gt;sa odporúčajú používať denné ceny&lt;/STRONG&gt;. 
+&lt;LI&gt;Pred samotným nastavením cenotvorby pre rezervačný portál &lt;EM&gt;Booking.com&lt;/EM&gt;&amp;nbsp;je potrebné&amp;nbsp;v&amp;nbsp;ponuke &lt;EM&gt;Settings, Channel Manager, Booking.com, Mapping&lt;/EM&gt; &lt;STRONG&gt;nastaviť &lt;EM&gt;Cenový model&lt;/EM&gt; (Pricing Model)&lt;/STRONG&gt;. Predvolenou a odporúčanou hodnotou je &lt;STRONG&gt;&lt;EM&gt;Ceny podľa obsadenosti&lt;/EM&gt; (Per Occupancy Pricing)&lt;/STRONG&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H3&gt;Nastavenie denných cien pre &lt;EM&gt;Booking.com&lt;/EM&gt;&lt;/H3&gt;
+&lt;UL&gt;
+&lt;LI&gt;Pri použití &lt;STRONG&gt;denných cien&lt;/STRONG&gt; sa do &lt;EM&gt;Booking.com&lt;/EM&gt; odosiela táto cena vrátane obsadenosti. Zároveň sa odosiela aj cena za&amp;nbsp;ďalšiu osobu (Extra Person)&lt;EM&gt;.&lt;/EM&gt; 
+&lt;LI&gt;Ak chcete, aby sa do &lt;EM&gt;Booking.com&lt;/EM&gt; odosielala rovnaká denná cena, ako do&amp;nbsp;&lt;A href="a8869db0-d369-49c6-b801-de33672ce874"&gt;rezervačného formulára Beds24&lt;/A&gt;,&amp;nbsp;pri vytváraní dennej ceny v&amp;nbsp;časti&amp;nbsp;&lt;STRONG&gt;&lt;EM&gt;Uplatniť&lt;/EM&gt; (Enable)&lt;/STRONG&gt; začiarknite pole pri &lt;EM&gt;beds24.com&lt;/EM&gt; aj pri &lt;EM&gt;Booking.com&lt;/EM&gt;. 
+&lt;LI&gt;Ak chcete, aby sa&amp;nbsp;&lt;STRONG&gt;v&amp;nbsp;&lt;EM&gt;Booking.com&lt;/EM&gt; zobrazovala iná (vyššia) cena ako na webovej stránke vášho ubytovacieho zariadenia&lt;/STRONG&gt; (v&amp;nbsp;&lt;A href="a8869db0-d369-49c6-b801-de33672ce874"&gt;rezervačnom formulári Beds24&lt;/A&gt;), &lt;STRONG&gt;vytvorte osobitnú dennú cenu pre &lt;EM&gt;Booking.com&lt;/EM&gt;&lt;/STRONG&gt; a v&amp;nbsp;časti&amp;nbsp;&lt;STRONG&gt;&lt;EM&gt;Uplatniť&lt;/EM&gt; (Enable)&lt;/STRONG&gt; začiarknite &lt;STRONG&gt;len pole&lt;/STRONG&gt; pri &lt;EM&gt;Booking.com&lt;/EM&gt;. 
+&lt;LI&gt;Následne v&amp;nbsp;grafickom prehľade zadajte výšku vytvorenej dennej ceny (pozri vyššie&amp;nbsp;&lt;EM&gt;Postup nastavenia denných cien&lt;/EM&gt;). &lt;/LI&gt;&lt;/UL&gt;
+&lt;H3&gt;Nastavenie sadzieb pre &lt;EM&gt;Booking.com&lt;/EM&gt;&lt;/H3&gt;
+&lt;UL&gt;
+&lt;LI&gt;Pri &lt;STRONG&gt;sadzbách&lt;/STRONG&gt; je možné odosielať na &lt;EM&gt;Booking.com&lt;/EM&gt; (ako aj ostatné rezervačné portály) &lt;STRONG&gt;iba ceny za noc&lt;/STRONG&gt;, preto je potrebné v&amp;nbsp;ponuke &lt;EM&gt;Sadzba&lt;/EM&gt; (Rate), &lt;EM&gt;Prehľad&lt;/EM&gt; (Summary) nastaviť ceny za noc (Prices per Night). 
+&lt;LI&gt;Pri sadzbách &lt;STRONG&gt;možno odosielať&lt;/STRONG&gt; cenu za&amp;nbsp;osobu (Single Price), cenu za dve osoby (Double Price) a cenu za izbu pri špecifikovanej obsadenosti (Room Price). 
+&lt;LI&gt;Ceny za ďalšiu osobu&amp;nbsp;(Extra Person) a ďalšie dieťa&amp;nbsp;(Extra Child) a zľavy nastavené v záložke&amp;nbsp;&lt;EM&gt;Zľavy&lt;/EM&gt; (Discounts) vo formulári &lt;EM&gt;Sadzba&lt;/EM&gt; (Rate) sa do &lt;EM&gt;Booking.com&lt;/EM&gt; &lt;STRONG&gt;neodosielajú&lt;/STRONG&gt;. V&amp;nbsp;prípade, že potrebujete&amp;nbsp;nastaviť &lt;STRONG&gt;ceny podľa počtu osôb na izbe&amp;nbsp;&lt;/STRONG&gt;(napr. cena&amp;nbsp;20 eur za 1 osobu, po 18 eur za 2 osoby, po 16 eur za 3 osoby atď.)&amp;nbsp;je potrebné požiadať &lt;EM&gt;Booking.com,&lt;/EM&gt; aby vám takéto nastavenia umožnil. 
+&lt;LI&gt;V záložke &lt;EM&gt;Kanály&lt;/EM&gt; (Channels) začiarknutím príslušného políčka vyberte,&amp;nbsp;či sa má daná cena odosielať len na &lt;EM&gt;Booking.com&lt;/EM&gt;, alebo sa má zobrazovať aj &lt;STRONG&gt;na webovej stránke vášho ubytovacieho zariadenia&lt;/STRONG&gt; (v&amp;nbsp;&lt;A href="a8869db0-d369-49c6-b801-de33672ce874"&gt;rezervačnom formulári Beds24&lt;/A&gt;). 
+&lt;LI&gt;Ak chcete, aby sa&amp;nbsp;&lt;STRONG&gt;v&amp;nbsp;&lt;EM&gt;Booking.com&lt;/EM&gt; zobrazovala vyššia cena ako na webovej stránke vášho ubytovacieho zariadenia&lt;/STRONG&gt; (v&amp;nbsp;&lt;A href="a8869db0-d369-49c6-b801-de33672ce874"&gt;rezervačnom formulári&amp;nbsp;Beds24&lt;/A&gt;), je možné využiť nastavenie v&amp;nbsp;záložke &lt;EM&gt;Kanály&lt;/EM&gt; (Channels) vo formulári &lt;EM&gt;Sadzba&lt;/EM&gt; (Rate). Tu je možné nastaviť &lt;STRONG&gt;cenu určenú na export&amp;nbsp;(Export Price)&lt;/STRONG&gt;. Tá sa bude odosielať do &lt;EM&gt;Booking.com&lt;/EM&gt; namiesto ceny nastavenej v sadzbe, ktorá sa bude zobrazovať v&amp;nbsp;&lt;A href="a8869db0-d369-49c6-b801-de33672ce874"&gt;rezervačnom formulári&amp;nbsp;Beds24&lt;/A&gt;. Pri položke &lt;EM&gt;Channel Management&lt;/EM&gt; je však potrebné vybrať možnosť &lt;STRONG&gt;&lt;EM&gt;Použi cenu na export&lt;/EM&gt; (Use Export Price)&lt;/STRONG&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Násobiteľ (Multiplier)&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Ak chcete &lt;STRONG&gt;rýchlo&amp;nbsp;zvýšiť alebo znížiť všetky ceny v daný deň alebo v&amp;nbsp;určitom rozsahu dátumov&lt;/STRONG&gt;, môžete využiť násobiteľ (Multiplier). 
+&lt;LI&gt;Násobiteľ sa dá použiť v rozsahu 25&amp;nbsp;% až 250&amp;nbsp;% na všetky ceny vo vybraný deň. Nastavenia pri násobiteľovi sú: 
+&lt;UL&gt;
+&lt;LI&gt;100 = rovnaká cena, 
+&lt;LI&gt;násobiteľ&amp;lt;100 = zníženie ceny, 
+&lt;LI&gt;násobiteľ&amp;gt;100 = zvýšenie ceny. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Násobiteľ sa nastavuje buď v nastaveniach v ponuke &lt;EM&gt;Prices, Yield Optimiser&lt;/EM&gt; &lt;STRONG&gt;na automatickú zmenu cien&lt;/STRONG&gt;, alebo v grafickom prehľade &lt;STRONG&gt;na manuálnu zmenu cien&lt;/STRONG&gt;. Pravidlo nastavené v&amp;nbsp;optimalizátore výnosu je možné &lt;STRONG&gt;prevážiť manuálne zadaným násobiteľom&lt;/STRONG&gt; v grafickom prehľade pre vybrané dátumy alebo dni v týždni.&amp;nbsp;&amp;nbsp; 
+&lt;LI&gt;Násobiteľ sa aplikuje &lt;STRONG&gt;tak na ceny v&amp;nbsp;rezervačnom formulári &lt;EM&gt;Beds24&lt;/EM&gt;, ako aj&amp;nbsp;na ceny exportované do &lt;EM&gt;Booking.com&lt;/EM&gt;&lt;/STRONG&gt;. 
+&lt;LI&gt;Príklad: Vaša cena je 100 €. Násobiteľ 125 zvýši cenu na 125&amp;nbsp;%, t. j. 125 €. Násobiteľ 75 znižuje cenu na 75&amp;nbsp;%, t. j. 75 €. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 3: Manuálna zmena násobiteľa v&amp;nbsp;grafickom prehľade pre vybrané dátumy a dni v týždni&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/ProductOptions/ExternalSystems/Hotel_ExternalSystem_Beds24_PriceMultiplier_ManualSettings.png"&gt;&amp;nbsp;&lt;/P&gt;
+&lt;H2&gt;First&amp;nbsp;Minute/Early Bird&amp;nbsp;a Last Minute&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Sadzba &lt;STRONG&gt;First Minute&lt;/STRONG&gt; sa dá vytvoriť použitím položky &lt;EM&gt;Minimálny počet dní do príchodu&lt;/EM&gt; (Min Days until Check-in) v záložke &lt;EM&gt;Prehľad&lt;/EM&gt; (Summary). Nastavenie definuje, koľko dní&amp;nbsp;v&amp;nbsp;predstihu&amp;nbsp;je možné uskutočniť rezerváciu s&amp;nbsp;touto sadzbou. Napr. ak je hodnota nastavená na 365, rezervácia s touto sadzbou bude možná až rok vopred. Ak je nastavená hodnota 7, táto sadzba sa uplatní, len ak sa rezervácia uskutoční&amp;nbsp;minimálne&amp;nbsp;jeden týždeň vopred. 
+&lt;LI&gt;Sadzba &lt;STRONG&gt;Last Minute&lt;/STRONG&gt; sa dá vytvoriť použitím položky &lt;EM&gt;Maximálny počet dní do príchodu&lt;/EM&gt; (Max Days in Advance) v záložke &lt;EM&gt;Prehľad&lt;/EM&gt; (Summary). Nastavenie definuje, koľko dní vopred je možné uskutočniť rezerváciu s touto sadzbou. Napr. ak je hodnota nastavená na 0, rezervácia s touto sadzbou bude možná len v daný deň. Ak je nastavená hodnota 3, táto sadzba sa uplatní maximálne tri dni pred príchodom. 
+&lt;LI&gt;Sadzby &lt;EM&gt;First&amp;nbsp;Minute&lt;/EM&gt; a &lt;EM&gt;Last Minute&lt;/EM&gt; je možné uplatniť&amp;nbsp;&lt;STRONG&gt;tak v&amp;nbsp;rezervačnom formulári &lt;EM&gt;Beds24&lt;/EM&gt;, ako aj&amp;nbsp;v &lt;EM&gt;Booking.com&lt;/EM&gt; (tu je však cenu potrebné nastaviť ako Export Price)&lt;/STRONG&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Nastavenie zliav&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;EM&gt;Beds24&lt;/EM&gt; ponúka viaceré možnosti nastavenia zliav. V záložke&amp;nbsp;&lt;EM&gt;Zľavy&lt;/EM&gt; (Discounts) je možné nastaviť &lt;STRONG&gt;zľavy pri dlhších pobytoch&lt;/STRONG&gt; (Long Stay Discounts) alebo &lt;STRONG&gt;zľavy na rezervácie z určitého zdroja&lt;/STRONG&gt; (Referer Discounts), napr. z&amp;nbsp;&lt;EM&gt;Facebooku&lt;/EM&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Zľavy nastavené v záložke&amp;nbsp;&lt;EM&gt;Zľavy&lt;/EM&gt; (Discounts) vo formulári &lt;EM&gt;Sadzba&lt;/EM&gt; (Rate) &lt;SPAN style="COLOR: rgb(255,0,0)"&gt;sa neodosielajú na rezervačné portály&lt;/SPAN&gt; a platia len pre&amp;nbsp;&lt;A href="a8869db0-d369-49c6-b801-de33672ce874"&gt;rezervačný formulár&amp;nbsp;Beds24&lt;/A&gt;. Môžete si ich nastaviť v prípade, že chcete mať &lt;STRONG&gt;vyššie ceny na rezervačnom portáli (napr. &lt;EM&gt;Booking.com&lt;/EM&gt;) a nižšie ceny na webovej stránke svojho ubytovacieho zariadenia (v&amp;nbsp;&lt;A href="a8869db0-d369-49c6-b801-de33672ce874"&gt;rezervačnom formulári&amp;nbsp;Beds24&lt;/A&gt;)&lt;/STRONG&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Zľavy pri dlhších pobytoch&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Zľavy pri dlhších pobytoch (Long Stay Discounts)&amp;nbsp;sa dajú nastaviť ako percentuálna zľava z celkovej ceny pobytu,&amp;nbsp;fixná zľava na noc alebo jednorazová zľava pri dosiahnutí istého počtu nocí. 
+&lt;LI&gt;&lt;STRONG&gt;Percentuálna zľava&lt;/STRONG&gt; (Percent) sa uplatňuje na celkovú cenu pobytu. Ak je platných viac ako jedna percentuálna zľava, aplikuje sa len jedna, a to najvyššia percentuálna zľava. 
+&lt;LI&gt;&lt;STRONG&gt;Zľava za noc&lt;/STRONG&gt; (Per Night) sa vzťahuje na jednotlivé noci v závislosti od ich počtu. Napr. pri cene za&amp;nbsp;izbu 110 €&amp;nbsp;zľava 10 € nastavená na&amp;nbsp;2 noci znamená, že 1 noc bude za&amp;nbsp;základnú cenu (110 €)&amp;nbsp;a&amp;nbsp;2 a viac nocí bude so zľavou 10 € (100 €). Viacnásobné zľavy za noc sa sčítavajú, tzn. že v prípade ďalšej zľavy 5 € nastavenej na&amp;nbsp;4 noci sa cena za&amp;nbsp;4 a viac nocí zníži o 15 € (5 € + 10 €, t. j. cena za&amp;nbsp;izbu bude 95 €). Navyše, hodnota zľavy sa zadáva iba pre prvú noc, pre dalšie noci, pre ktoré má platiť, sa zadáva nula - systém si&amp;nbsp;však zľavu "pamätá" a&amp;nbsp;aj tu pracuje s hodnotou nastavenou pri prvej noci (napr. pri 3 nociach sa uvedie 0, ale systém tu pracuje so zľavou nastavenou pri 2 nociach, t. j. 10 € (pozri&amp;nbsp;Tabuľku č. 1). Na lepšie pochopenie pravidiel nastavenia zľavy reálne hodnoty zľavy uvádzame v&amp;nbsp;zátvorkách - &lt;SPAN style="COLOR: rgb(255,0,0)"&gt;v&amp;nbsp;nastavení v&amp;nbsp;Beds24 sa však nezadávajú&lt;/SPAN&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Tabuľka&amp;nbsp;č. 1: Príklad zľavy za noc pri základnej cene 110 €/noc&lt;/H5&gt;
+&lt;TABLE style="HEIGHT: 79px; WIDTH: 665px" width=665 border=0&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TH height=35 width=13 align=center&gt;
+&lt;P align=center&gt;&lt;STRONG&gt;Počet nocí (Nights)&lt;/STRONG&gt;&lt;/P&gt;&lt;/TH&gt;
+&lt;TH height=35 width=193 align=center&gt;
+&lt;P align=center&gt;&lt;STRONG&gt;Zľava za noc (Per Night)&lt;BR&gt;(€)&lt;/STRONG&gt;&lt;/P&gt;&lt;/TH&gt;
+&lt;TH height=35 width=103 align=center&gt;
+&lt;P align=center&gt;&lt;STRONG&gt;Cena za izbu (Room Price)&lt;BR&gt;(€)&lt;/STRONG&gt;&lt;/P&gt;&lt;/TH&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=19 width=13 align=center&gt;1&lt;/TD&gt;
+&lt;TD height=19 width=193 align=center&gt;0&lt;/TD&gt;
+&lt;TD height=19 width=103 align=center&gt;110&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=18 width=13 align=center&gt;2&lt;/TD&gt;
+&lt;TD height=18 width=193 align=center&gt;10 (10)&lt;/TD&gt;
+&lt;TD height=18 width=103 align=center&gt;100&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=18 width=13 align=center&gt;3&lt;/TD&gt;
+&lt;TD height=18 width=193 align=center&gt;0 (10)&lt;/TD&gt;
+&lt;TD height=18 width=103 align=center&gt;100&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=18 width=13 align=center&gt;4&lt;/TD&gt;
+&lt;TD height=18 width=193 align=center&gt;5 (15)&lt;/TD&gt;
+&lt;TD height=18 width=103 align=center&gt;95&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=18 width=13 align=center&gt;5&lt;/TD&gt;
+&lt;TD height=18 width=193 align=center&gt;0 (15)&lt;/TD&gt;
+&lt;TD height=18 width=103 align=center&gt;95&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=18 width=13 align=center&gt;...&lt;/TD&gt;
+&lt;TD height=18 width=193 align=center&gt;0 (15)&lt;/TD&gt;
+&lt;TD height=18 width=103 align=center&gt;95&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Jednorazová zľava&lt;/STRONG&gt; (Once Off) sa odpočítava jednorazovo z celkovej ceny, ak je zarezervovaný požadovaný počet nocí alebo viac. Pri viacerých jednorazových zľavách sa tieto&amp;nbsp;odpočítajú zakaždým, keď sa zarezervuje požadovaný počet nocí. 
+&lt;LI&gt;&lt;STRONG&gt;Kombináciou zľavy za noc a jednorazovej zľavy&lt;/STRONG&gt; sa dá dosiahnuť nastavenie&amp;nbsp;kumulatívnej zľavy v závislosti od počtu rezervovaných nocí. Toto nastavenie môžete využiť, ak chcete, aby napr.&amp;nbsp;pri&amp;nbsp;rezervácii 2 nocí&amp;nbsp;cena za každú noc bola 50 €, pri rezervácií 3 až&amp;nbsp;6 nocí&amp;nbsp;cena za každú noc bola 48 € a pri&amp;nbsp;rezervácii&amp;nbsp;7 a viac nocí cena za každú noc bola 44 €. 
+&lt;LI&gt;Dôležitým je vedieť, akú hodnotu je potrebné zadať pod zľavu za noc a akú pod jednorazovú zľavu. Pod zľavu za noc uvádzame hodnotu, o ktorú chceme znížiť predchádzajúcu cenu (v tomto prípade pôvodnú cenu 50 € chceme pri 3 nociach&amp;nbsp;znížiť na 48 €, teda pod jednorazovú zľavu uvedieme 2. Hodnotu, ktorú uvedieme pod jednorazovú zľavu, vypočítame ako rozdiel súčtov&amp;nbsp;pôvodných cien za jednotlivé noci&amp;nbsp;(50 € x 3 noci = 150 €) a cien&amp;nbsp;po zľave (48 € x 3 noci = 144 €), od ktorého ešte odrátame zľavu za noc, t. j. pre 3 noci to bude 150 - 144&amp;nbsp;= 6; 6 - 2 = 4. 
+&lt;LI&gt;Viacnásobné zľavy za noc sa sčítavajú, tzn. že ak pri 7 nociach chceme nastaviť zľavu 6 € (t. j. cenu za jednu noc 44 €), pri jednorazovej zľave v príslušnom poli stačí uviesť hodnotu 4 - táto hodnota sa automaticky sčíta s hodnotou uvedenou pri 3 nociach (2). Hodnotu jednorazovej zľavy je v tomto prípade potrebné nastaviť na 24: vypočíta sa ako rozdiel súčtov pôvodných cien za jednotlivé noci (50 € x 7 nocí = 350 €) a cien po zľave (44 € x 7 nocí = 308 €), od ktorého odrátame zľavu za noc, t. j. pre 7 nocí to bude 350 - 308 = 42; 42 - 12 (t. j. 6 x 2 € za prvých šesť nocí) - 6 (1 x 6 € za siedmu noc) = 24. 
+&lt;LI&gt;Hodnota zľavy sa&amp;nbsp;vždy&amp;nbsp;zadáva&amp;nbsp;len pre prvú noc, pre ďalšie noci, pre ktoré má platiť, sa zadáva nula - systém si zľavu "pamätá" a&amp;nbsp;aj tu pracuje s&amp;nbsp;hodnotou nastavenou pri prvej noci (napr. pri&amp;nbsp;4 nociach sa uvedie 0, ale systém tu pracuje so zľavou nastavenou pri&amp;nbsp;3 nociach, t. j. 2 € (pozri&amp;nbsp;Tabuľku č. 2). Na lepšie pochopenie pravidiel nastavenia zľavy reálne hodnoty zľavy uvádzame v&amp;nbsp;zátvorkách - &lt;SPAN style="COLOR: rgb(255,0,0)"&gt;v&amp;nbsp;nastavení v&amp;nbsp;Beds24 sa však nezadávajú&lt;/SPAN&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Tabuľka č. 2: Príklad kombinácie zľavy za noc a jednorazovej zľavy pri základnej cene 50 €/noc&lt;/H5&gt;
+&lt;TABLE style="HEIGHT: 314px; WIDTH: 758px" width=758 border=0&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TH height=35 width=13 align=center&gt;
+&lt;P align=center&gt;&lt;STRONG&gt;Počet nocí (Nights)&lt;/STRONG&gt;&lt;/P&gt;&lt;/TH&gt;
+&lt;TH height=35 width=107 align=center&gt;
+&lt;P align=center&gt;&lt;STRONG&gt;Zľava za noc (Per Night)&lt;BR&gt;(€)&lt;/STRONG&gt;&lt;/P&gt;&lt;/TH&gt;
+&lt;TH height=35 width=103 align=center&gt;
+&lt;P align=center&gt;&lt;STRONG&gt;Jednorazová zľava (Once Off)&lt;BR&gt;(€)&lt;/STRONG&gt;&lt;/P&gt;&lt;/TH&gt;
+&lt;TH height=35 width=103 align=center&gt;
+&lt;P align=center&gt;&lt;STRONG&gt;Cena za izbu (Room Price)&lt;BR&gt;(€)&lt;/STRONG&gt;&lt;/P&gt;&lt;/TH&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=19 width=13 align=center&gt;1&lt;/TD&gt;
+&lt;TD height=19 width=107 align=center&gt;0&lt;/TD&gt;
+&lt;TD height=19 width=103 align=center&gt;0&lt;/TD&gt;
+&lt;TD height=19 width=103 align=center&gt;&lt;STRONG&gt;50&lt;/STRONG&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=18 width=13 align=center&gt;2&lt;/TD&gt;
+&lt;TD height=18 width=107 align=center&gt;0&lt;/TD&gt;
+&lt;TD height=18 width=103 align=center&gt;0&lt;/TD&gt;
+&lt;TD height=19 width=103 align=center&gt;&lt;STRONG&gt;50&lt;/STRONG&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=18 width=13 align=center&gt;3&lt;/TD&gt;
+&lt;TD height=18 width=107 align=center&gt;2 (2)&lt;/TD&gt;
+&lt;TD height=18 width=103 align=center&gt;4&lt;/TD&gt;
+&lt;TD height=19 width=103 align=center&gt;48&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=18 width=13 align=center&gt;4&lt;/TD&gt;
+&lt;TD height=18 width=107 align=center&gt;0 (2)&lt;/TD&gt;
+&lt;TD height=18 width=103 align=center&gt;0&lt;/TD&gt;
+&lt;TD height=19 width=103 align=center&gt;48&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=18 width=13 align=center&gt;5&lt;/TD&gt;
+&lt;TD height=18 width=107 align=center&gt;0 (2)&lt;/TD&gt;
+&lt;TD height=18 width=103 align=center&gt;0&lt;/TD&gt;
+&lt;TD height=19 width=103 align=center&gt;48&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=18 width=13 align=center&gt;6&lt;/TD&gt;
+&lt;TD height=18 width=107 align=center&gt;0 (2)&lt;/TD&gt;
+&lt;TD height=18 width=103 align=center&gt;0&lt;/TD&gt;
+&lt;TD height=19 width=103 align=center&gt;48&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=18 width=13 align=center&gt;7&lt;/TD&gt;
+&lt;TD height=18 width=107 align=center&gt;4 (6)&lt;/TD&gt;
+&lt;TD height=18 width=103 align=center&gt;24&lt;/TD&gt;
+&lt;TD height=19 width=103 align=center&gt;44&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=18 width=13 align=center&gt;...&lt;/TD&gt;
+&lt;TD height=18 width=107 align=center&gt;0 (6)&lt;/TD&gt;
+&lt;TD height=18 width=103 align=center&gt;0&lt;/TD&gt;
+&lt;TD height=19 width=103 align=center&gt;44&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt; 
+&lt;UL&gt;
+&lt;LI&gt;Na kontrolu, aké ceny sa uplatňujú pri jednotlivých dátumoch alebo ich rozsahoch, je možné využiť &lt;STRONG&gt;nástroj na kontrolu cien&lt;/STRONG&gt; (Price Check). Nástroj je dostupný v&amp;nbsp;grafickom prehľade (Calendar), v&amp;nbsp;sadzbách (Rates) alebo pod tlačidlom &lt;EM&gt;Podpora&lt;/EM&gt; (Support). 
+&lt;LI&gt;Firma EXALOGIC ponúka spoplatnenú &lt;STRONG&gt;pomoc s implementáciou&amp;nbsp;Beds24&lt;/STRONG&gt; spravidla formou vzdialenej pomoci. Viac informácií o službe získate v téme&amp;nbsp;&lt;A href="6d06d8a0-c188-4d6a-a8f5-13e7d9241716"&gt;Pomoc s implementáciou Beds24&lt;/A&gt;. 
+&lt;LI&gt;Informácie o ďalších možnostiach cenotvorby sú k dispozícii v&amp;nbsp;&lt;A href="https://wiki.beds24.com/index.php/Category:Prices" target=_blank&gt;dokumentácii&lt;/A&gt;&amp;nbsp;manažéra rezervačných kanálov &lt;EM&gt;Beds24&lt;/EM&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="2615fdfe-8082-4bb0-9ad3-95fa3fc8c901" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="2564d1eb-a7ed-46a7-a957-6087afe26471">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="9efb5833-3261-46bb-a930-c3c01edf6d95" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="6cd4a47a-5c87-4c7c-aa5e-9d8c198e9602">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="37d769fb-328b-45f2-b492-0db876bc6bfe" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="6e0bfd35-7d4e-479b-9dc5-cf5237b1aa69">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="a1377d3c-17b2-47b3-914e-318cf35bd114" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="a8869db0-d369-49c6-b801-de33672ce874">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="9a490c61-ce70-4d6f-b6bb-733e0d312d95" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="4d8c31da-446b-4fca-ba87-30787fe47f7b">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="23cbb78a-1606-4adb-8783-8689448a4dbd" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="336d3052-c803-4ace-9136-479a6d167513">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="21d4d9c8-618c-4d21-8aec-1e8a697ac595" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="6d06d8a0-c188-4d6a-a8f5-13e7d9241716">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="50b6eca1-c1e9-414f-b86c-fd2ba8d267a3">
+      <Keyword m="2022-04-20T11:12:14.8960822Z">Beds24 - cenotvorba</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="2cb078b5-691b-44a0-8e74-cdeb2d25c4fe">
+      <Keyword m="2022-04-20T11:12:19.9036135Z">Cenotvorba v Beds24</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="af2b2bba-7681-45fc-a376-b7aacab00f65">
+      <Keyword m="2024-01-08T12:52:46.3119736Z">Denné ceny a sadzby - Beds24</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="95fc295a-1fe0-46b1-9a91-a9570abd1fe8">
+      <Keyword m="2024-01-08T12:52:57.9033583Z">Sadzby a denné ceny - Beds24</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="b5801bac-da5a-43e8-89d1-86164a297b32">
+      <Keyword m="2024-01-08T12:53:48.1542598Z">Stratégie pri kombinácii denných cien a sadzieb</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="ae1611e3-65ad-4082-b252-e034e5d92622">
+      <Keyword m="2024-01-08T12:54:25.975404Z">Nastavenia cenotvorby pre rezervačný portál Booking.com - Beds24</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

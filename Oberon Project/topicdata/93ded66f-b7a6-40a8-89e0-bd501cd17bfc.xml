@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="93ded66f-b7a6-40a8-89e0-bd501cd17bfc" Status="Complete" CreatedOn="2014-09-08T10:56:25.2676698Z" ModifiedOn="2025-05-15T11:41:55.4731091Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="22310" Name="Menu_Firm_Bank_Accounts" BuildFlags="">
+  <Title m="2014-09-08T10:56:46.6488928Z">Vlastné bankové účty</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2025-05-15T11:35:47.8760022Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;je venovaná&amp;nbsp;položke&amp;nbsp;&lt;EM&gt;Vlastné bankové účty&lt;/EM&gt;&amp;nbsp;v ponuke&amp;nbsp;&lt;EM&gt;Firma&lt;/EM&gt; programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Výberom položky sa otvorí&amp;nbsp;číselník&amp;nbsp;&lt;EM&gt;Vlastné bankové účty&lt;/EM&gt;, v&amp;nbsp;ktorom&amp;nbsp;je možné &lt;STRONG&gt;definovať bankové účty účtovnej jednotky, opraviť už zadané údaje o účtoch, prípadne tieto&amp;nbsp;údaje vymazať&lt;/STRONG&gt;. 
+&lt;LI&gt;Údaje o účtoch účtovnej jednotky program používa pri&amp;nbsp;&lt;A href="ec4e9be4-140f-4ec9-aa04-544e9870bfe1"&gt;vystavení novej pohľadávky&lt;/A&gt;, v rozbaľovacom zozname &lt;EM&gt;Typ dokladu&lt;/EM&gt; vo&amp;nbsp;&lt;A href="bc2ddb1a-1ece-4899-841a-e180956c3702"&gt;formulári Zápis v účtovnom denníku&lt;/A&gt;, resp. &lt;EM&gt;Pokladňa/Účet&lt;/EM&gt; vo&amp;nbsp;&lt;A href="b844cf33-8762-4c77-bfde-4a5b5b22350f"&gt;formulári Zápis v peňažnom denníku&lt;/A&gt;,&amp;nbsp;pri zasielaní&amp;nbsp;&lt;A href="65ec3c9f-09c4-4fde-a7b8-2d6c356e3f20"&gt;príkazov na úhradu do banky&lt;/A&gt;&amp;nbsp;atď. 
+&lt;LI&gt;Nastavenia bankových účtov sú dôležité aj pre &lt;STRONG&gt;import bankových výpisov&lt;/STRONG&gt; na ich následné zaúčtovanie do &lt;A href="d8c9bfc8-92d1-4471-8909-e5f8ce602d6c"&gt;účtovného&lt;/A&gt;, resp.&amp;nbsp;&lt;A href="5e82cca9-b8af-4a80-ba30-7ab91914a595"&gt;peňažného denníka&lt;/A&gt;. Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="0121f553-c6f2-4860-87bc-485e3cb08e2f" style="auto-update-caption: true"&gt;Spôsoby importu bankových výpisov&lt;/A&gt;. 
+&lt;LI&gt;V&amp;nbsp;&lt;A href="d8c9bfc8-92d1-4471-8909-e5f8ce602d6c"&gt;účtovnom denníku&lt;/A&gt;&amp;nbsp;a&amp;nbsp;v&amp;nbsp;&lt;A href="5e82cca9-b8af-4a80-ba30-7ab91914a595"&gt;peňažnom denníku&lt;/A&gt;&amp;nbsp;možno pomocou filtra &lt;EM&gt;Zobraziť doklady&lt;/EM&gt; v&amp;nbsp;hornej časti evidencie zobraziť zápisy denníka podľa jednotlivých bankových účtov. 
+&lt;LI&gt;IBAN&amp;nbsp;(&lt;EM&gt;&lt;STRONG&gt;I&lt;/STRONG&gt;nternational &lt;STRONG&gt;B&lt;/STRONG&gt;ank &lt;STRONG&gt;A&lt;/STRONG&gt;ccount &lt;STRONG&gt;N&lt;/STRONG&gt;umber&lt;/EM&gt;) je medzinárodný bankový identifikátor umožňujúci jednoznačnú identifikáciu čísla účtu a&amp;nbsp;finančnej inštitúcie v&amp;nbsp;danej krajine. 
+&lt;LI&gt;SWIFT kód (BIC - &lt;EM&gt;&lt;STRONG&gt;B&lt;/STRONG&gt;ank &lt;STRONG&gt;I&lt;/STRONG&gt;dentifier &lt;STRONG&gt;C&lt;/STRONG&gt;ode&lt;/EM&gt; = identifikačný kód banky) je celosvetovo platným štandardnom pre kód banky. Pozostáva z&amp;nbsp;kombinácie 8 až 11 znakov – veľkých písmen, prípadne číslic, a uvádza sa bez medzier. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget layout="block" type="Note Box"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;STRONG&gt;Príklad čísla účtu v štruktúre IBAN&lt;/STRONG&gt;&lt;BR&gt;IBAN (na Slovensku dlhé 24 znakov): &lt;STRONG&gt;&lt;SPAN style="COLOR: rgb(192,0,0)"&gt;SK&lt;/SPAN&gt;&lt;SPAN style="COLOR: rgb(0,132,60)"&gt;33&lt;/SPAN&gt; &lt;SPAN style="COLOR: rgb(0,112,192)"&gt;0200&lt;/SPAN&gt; 0000 0000 0001 2351&lt;BR&gt;&lt;/STRONG&gt;&lt;BR&gt;Legenda:&lt;BR&gt;&lt;SPAN style="COLOR: rgb(192,0,0)"&gt;&lt;STRONG&gt;SK&lt;/STRONG&gt;&lt;/SPAN&gt; – krajina Slovensko (kód podľa ISO normy 3166-1)&lt;BR&gt;&lt;SPAN style="COLOR: rgb(0,132,60)"&gt;&lt;STRONG&gt;33&lt;/STRONG&gt;&lt;/SPAN&gt; - kontrolné číslo (tzv. check digits podľa systému MOD 97-10)&lt;BR&gt;&lt;SPAN style="COLOR: rgb(0,112,192)"&gt;&lt;STRONG&gt;0200&lt;/STRONG&gt;&lt;/SPAN&gt; – kód banky&lt;BR&gt;&lt;STRONG&gt;000000&lt;/STRONG&gt; – predčíslie&lt;BR&gt;&lt;STRONG&gt;0000012351&lt;/STRONG&gt; – číslo účtu&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Popis formulára &lt;EM&gt;Bankový účet&lt;/EM&gt;&lt;/H2&gt;&lt;innovasys:widget layout="block" type="Tab Strip"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;innovasys:widget layout="block" type="Tab Item"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Základné&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;innovasys:widget layout="block" type="Drop Down Section"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Pomenovanie&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Zadáva sa pomenovanie bankového účtu, napr. &lt;EM&gt;SLSP-úver&lt;/EM&gt;. Pomenovanie môže byť odlišné od názvu bankového účtu, ktorý má byť oficiálny, napr. &lt;EM&gt;Slovenská sporiteľňa&lt;/EM&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget layout="block" type="Drop Down Section"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Číslo účtu a IBAN&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Zadáva sa&amp;nbsp;číslo bankového účtu vo formáte, ktorý platil do 1. 2. 2014. Od tohto dátumu sa v&amp;nbsp;platobnom styku používa formát bankového účtu IBAN. IBAN bol vytvorený&amp;nbsp;na zjednodušenie predtým relatívne náročného zadávania medzinárodnej transakcie. Dnes sa však nepoužíva len pri medzinárodných transakciách, ale i pri tuzemských platbách v rámci &lt;EM&gt;Slovenskej republiky&lt;/EM&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget layout="block" type="Drop Down Section"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Platný (používaný) do&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Je možné zadať dátum, do ktorého sa daný bankový účet používal. Po tomto dátume sa už nebude v ďalšom účtovnom období zobrazovať (s bankovým účtom sa nebude dať pracovať).&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget layout="block" type="Tab Item"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Bankové výpisy&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;H3&gt;Číslovanie bankových výpisov pri importe&lt;/H3&gt;&lt;innovasys:widget layout="block" type="Drop Down Section"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Prefix čísla bankového výpisu&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Prefix čísla bankového výpisu&amp;nbsp;sa používa pri&amp;nbsp;označení bankového výpisu, napr. pri prefixe FIO označenie bankového výpisu bude FIO-07.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget layout="block" type="Drop Down Section"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Spôsob číslovania&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Vyberá sa jeden zo spôsobov číslovania:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;Automaticky z bankového výpisu (ak je číslo dostupné) 
+&lt;LI&gt;Mesačne 
+&lt;LI&gt;Denne &lt;/LI&gt;&lt;/UL&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H3&gt;Typy formátov pre export a import súborov&lt;/H3&gt;&lt;innovasys:widget layout="block" type="Drop Down Section"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Typ bankového výpisu&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Umožňuje prednastaviť&amp;nbsp;typ (formát)&amp;nbsp;bankového výpisu na&amp;nbsp;manuálne&amp;nbsp;spracovanie elektronických bankových výpisov. Prednastavený typ možno zmeniť v sprievodcovi importom zo&amp;nbsp;súboru.&amp;nbsp;Bližšie informácie o manuálnom spracovaní bankových výpisov získate v téme&amp;nbsp;&lt;A href="02bbf54b-086f-4641-8c33-4dd461e56fb4" style="auto-update-caption: true"&gt;Spracovanie bankových výpisov&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget layout="block" type="Drop Down Section"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Typ príkazu na úhradu&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Umožňuje prednastaviť typ (formát) elektronického príkazu na úhradu pre potreby exportu&amp;nbsp;jednoduchého alebo hromadného príkazu na úhradu. Prednastavený typ možno zmeniť v sprievodcovi exportom príkazu. Bližšie informácie získate v témach&amp;nbsp;&lt;A href="65ec3c9f-09c4-4fde-a7b8-2d6c356e3f20" style="auto-update-caption: true"&gt;Zaslanie príkazu na úhradu do banky&lt;/A&gt; a&amp;nbsp;&lt;A href="8a48a395-a1ba-47fb-b250-689f6df7e93e" style="auto-update-caption: true"&gt;Formáty exportovaných príkazov na úhradu&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt; 
+&lt;H3&gt;Priama komunikácia s bankou (Bank API)&lt;/H3&gt;
+&lt;P&gt;Umožňuje nastaviť rozhranie&amp;nbsp;API&amp;nbsp;na priamu komunikáciu s bankou na manuálny alebo automatický import bankových výpisov z daného bankového účtu. Viac informácií o&amp;nbsp;spôsoboch importu bankových výpisov získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="0121f553-c6f2-4860-87bc-485e3cb08e2f" style="auto-update-caption: true"&gt;Spôsoby importu bankových výpisov&lt;/A&gt;.&lt;/P&gt;
+&lt;P&gt;Nastavenie rozhrania API na priamu komunikáciu je potrebné nastaviť&amp;nbsp;osobitne pre&amp;nbsp;každú banku. Stlačením tlačidla výberu&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_ListButton.png"&gt;&amp;nbsp;sa otvorí&amp;nbsp;&lt;A href="b1032a3e-bd73-461a-92f6-02d1f210540a"&gt;číselník Nastavenie externej webovej služby&lt;/A&gt;, ktorý umožňuje nastaviť parametre bankového rozhrania API pre jednu z&amp;nbsp;podporovaných bánk. Vo formulári zadajte názov rozhrania, zvoľte&amp;nbsp;druh &lt;EM&gt;&lt;STRONG&gt;Bankové API&lt;/STRONG&gt;&lt;/EM&gt;, vyberte API banky daného bankového účtu zo zoznamu podporovaných&amp;nbsp;rozhraní API bánk a&amp;nbsp;stlačte tlačidlo &lt;EM&gt;Nastaviť API&lt;/EM&gt;.&lt;/P&gt;&lt;innovasys:widget layout="block" type="Drop Down Section"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Nastaviť API&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Obsahuje nastavenia na priamu komunikáciu s bankou v závislosti od konkrétnej banky.&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/P&gt;
+&lt;TABLE style="WIDTH: 50%; BORDER-COLLAPSE: collapse" cellPadding=2 border=0&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TH width=100&gt;&lt;B&gt;Banka&lt;/B&gt;&lt;/TH&gt;
+&lt;TH width=200&gt;&lt;B&gt;Nastavenia&lt;/B&gt;&lt;/TH&gt;
+&lt;TH width=200&gt;&lt;B&gt;Poznámka&lt;/B&gt;&lt;/TH&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=100&gt;Fio banka&lt;/TD&gt;
+&lt;TD width=200 align=left&gt;
+&lt;P&gt;Potrebné nastavenia sú dostupné v&amp;nbsp;téme&amp;nbsp;&lt;A href="d67d60c0-09ce-4ffc-88b8-8f904a9a7a06" style="auto-update-caption: true"&gt;Prepojenie s Fio bankou&lt;/A&gt;.&lt;/P&gt;&lt;/TD&gt;
+&lt;TD width=200 align=left&gt;API token sa viaže na názov počítača, t. j. je dostupný len na danom počítači.&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=100&gt;Všetky banky (Everifin)&lt;/TD&gt;
+&lt;TD width=200 align=left&gt;Potrebné nastavenia sú dostupné v&amp;nbsp;téme&amp;nbsp;&lt;A href="bfbd5782-31d5-47a6-a664-1897881b652f" style="auto-update-caption: true"&gt;Prepojenie s Everifin&lt;/A&gt;.&lt;/TD&gt;
+&lt;TD width=200 align=left&gt;Prepojenie&amp;nbsp;&lt;STRONG&gt;so slovenskými, ale aj zahraničnými&amp;nbsp;bankami&lt;/STRONG&gt; v&amp;nbsp;rámci &lt;EM&gt;Európskeho hospodárskeho priestoru&lt;/EM&gt; (EHP).&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=100&gt;Tatra banka&lt;/TD&gt;
+&lt;TD width=200 align=left&gt;Potrebné nastavenia sú dostupné v&amp;nbsp;téme&amp;nbsp;&lt;A href="92551fc7-c797-47c7-9c54-b527c2346282" style="auto-update-caption: true"&gt;Prepojenie s Tatra bankou&lt;/A&gt;.&lt;/TD&gt;
+&lt;TD width=200 align=left&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="b05664a6-48c4-4b62-a76f-ad971f3b2fb5" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="cc3dcaea-c62f-450b-9878-6298aa9b0f6e">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="23b035ea-853d-4ea6-a292-627693d19288" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="565cef7b-84c9-4402-966c-d3c94972cab4">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="2bc356ad-c5e9-4d64-b24a-ac370ba448ac" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="0121f553-c6f2-4860-87bc-485e3cb08e2f">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="2243199c-43c6-468c-b705-afcfbe493c8c" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="cb667999-05bb-4bef-9377-908411eb1ac2">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="3e75869f-0e34-42df-8b6b-8a9cb20055c6" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="02bbf54b-086f-4641-8c33-4dd461e56fb4">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="ee7cda38-ef04-48d4-ab6e-99aee6249cc7" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1a074e9a-9cf9-4ab8-b9a8-68575142a704">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="b93dd9d3-9fbb-4058-b5c9-e1fac840150e" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="65ec3c9f-09c4-4fde-a7b8-2d6c356e3f20">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="827d8855-d12c-4e28-818f-89b573f9fc8d" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="8a48a395-a1ba-47fb-b250-689f6df7e93e">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="838dfc09-22a2-4a2b-86f7-02871ad070a8" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="b1032a3e-bd73-461a-92f6-02d1f210540a">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="965ee84d-11e0-4222-82d5-6ad25f753a93" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="d67d60c0-09ce-4ffc-88b8-8f904a9a7a06">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="7be14e5e-102a-4d8b-87d3-599e05b7e3c3" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="bfbd5782-31d5-47a6-a664-1897881b652f">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="2edb7628-f6c5-4b0e-9e06-ea128a5b5dfe" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="92551fc7-c797-47c7-9c54-b527c2346282">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="9bdc222a-8cb5-42e7-a07e-ce98dc188877">
+      <Keyword m="2014-11-18T10:12:50.6904296Z">IBAN</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="75be2191-60b7-4961-89bd-929504f3b0cf">
+      <Keyword m="2014-11-20T07:37:19.1826171Z">SWIFT</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="f5f60f68-a9d1-4fc2-8ead-3e127ea302ef">
+      <Keyword m="2021-08-31T12:13:30.6491461Z">Bankový účet firmy</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="e2116c1e-dc2e-4b92-8f73-ba14d0602378">
+      <Keyword m="2022-03-07T12:25:01.8252179Z">Bankové účty firmy</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="9e3e895c-0f3b-4417-9521-7485ff499e10">
+      <Keyword m="2022-03-07T12:25:07.0111023Z">BIC</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="e83af158-cfbb-4c63-b5f0-1395036730d9">
+      <Keyword m="2023-09-18T08:39:19.479168Z">Typ bankového výpisu - prednastavenie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="a2147863-5b7a-48c8-9367-0669b537fe0f">
+      <Keyword m="2023-09-18T08:39:48.2656827Z">Typ príkazu na úhradu - prednastavenie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="c8c68438-0478-40b3-bd01-ff8573318be2">
+      <Keyword m="2023-09-18T08:40:04.7007443Z">Číslovanie bankových výpisov pri importe</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="9dc2676e-5990-4210-832e-933f40e8d607">
+      <Keyword m="2023-09-18T08:40:35.0240253Z">Fio banka - nastavenie priamej komunikácie (API)</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="66d554fa-88d3-4afe-8216-307dabf36ad9">
+      <Keyword m="2024-09-06T07:34:21.5537169Z">Bank API - vlastné bankové účty</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="701a848d-c653-4832-8a9a-804968590aa8">
+      <Keyword m="2025-05-15T11:41:44.8094977Z">Tatra banka - nastavenie priamej komunikácie (API)</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="01360233-5091-4566-bc50-c389de8085dd">
+      <Keyword m="2025-05-15T11:41:54.6343035Z">Everifin - nastavenie priamej komunikácie (API)</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

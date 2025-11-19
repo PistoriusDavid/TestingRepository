@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="6b7313ef-9556-46e9-8382-8d937a2ab35d" Status="Complete" CreatedOn="2014-10-15T13:26:21.303697Z" ModifiedOn="2025-03-20T08:49:21.9784824Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="51086" Name="Form_StockCard_Menu" BuildFlags="">
+  <Title m="2021-09-23T11:19:59.5306269Z">Formulár Jedálny lístok</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2025-03-20T08:49:21.9784824Z">&lt;P&gt;Formulár&amp;nbsp;&lt;EM&gt;Jedálny lístok&lt;/EM&gt;&amp;nbsp;umožňuje&amp;nbsp;&lt;STRONG&gt;definovať&lt;/STRONG&gt;&amp;nbsp;&lt;A href="7dd24e6f-6f96-4a51-9881-991d948d6392"&gt;jedálny, resp. nápojový lístok&lt;/A&gt; v&amp;nbsp;systéme OBERON. Formulár je dostupný z&amp;nbsp;programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;,&amp;nbsp;&lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;formulár Skladová karta&lt;/A&gt;, záložka &lt;EM&gt;Receptúra&lt;/EM&gt; po stlačení tlačidla&amp;nbsp;&lt;EM&gt;Pridať alebo odobrať&lt;/EM&gt; a&amp;nbsp;následne &lt;EM&gt;Upraviť&lt;/EM&gt; a &lt;EM&gt;Nový&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Popis formulára &lt;EM&gt;Jedálny lístok&lt;/EM&gt;&lt;/H2&gt;&lt;innovasys:widget type="Tab Strip" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Základné údaje&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;&lt;STRONG&gt;Názov&lt;/STRONG&gt; - zadáva sa názov jedálneho/nápojového lístka. Názov sa prenáša tak do tlačového výstupu, ako aj do mobilného zariadenia v prípade elektronického lístka.&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;Uvítací text&lt;/STRONG&gt; - zadáva sa text na uvítanie zákazníkov (hostí), napr. &lt;EM&gt;Vítame Vás&lt;/EM&gt;. Text sa prenáša do tlačového výstupu, ako aj do mobilného zariadenia v prípade elektronického&amp;nbsp;lístka.&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;Hlavná vetva jedálneho lístka v&amp;nbsp;zozname kategórií &lt;/STRONG&gt;- pomocou tlačidla&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_ListButton.png"&gt; sa zobrazí formulár&amp;nbsp;&lt;A href="4dfc2d36-f1c8-4b60-81c4-62e8e5197b99"&gt;Kategórie skladových kariet&lt;/A&gt;,&amp;nbsp;v&amp;nbsp;ktorom je možné pridať alebo vybrať hlavnú&amp;nbsp;skupinu (vetvu)&amp;nbsp;v stromovej štruktúre, pod ktorou sa budú zobrazovať príslušné kategórie skladových kariet ako skupiny jedál pre daný jedálny lístok. Viac informácií získete v&amp;nbsp;téme&amp;nbsp;&lt;A href="7dd24e6f-6f96-4a51-9881-991d948d6392" style="auto-update-caption: true"&gt;Jedálny lístok&lt;/A&gt;.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Text na začiatku&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Zadáva sa text na začiatku jedálneho/nápojového&amp;nbsp;lístka po uvítacom texte. Text sa prenáša&amp;nbsp;tak do tlačového výstupu, ako aj do mobilného zariadenia v&amp;nbsp;prípade elektronického jedálneho lístka. Text je možné formátovať alebo zadať priamo v HTML kóde. HTML kód je možné zadať a upravovať, ak je aktívne tlačidlo &lt;EM&gt;Kód&lt;/EM&gt; na pravej strane nástrojovej lišty.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Text na konci&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Zadáva sa text na konci jedálneho/nápojového lístka. Text sa prenáša tak do tlačového výstupu, ako aj do mobilného zariadenia v prípade elektronického lístka. Text je možné formátovať alebo zadať priamo v&amp;nbsp;HTML kóde. HTML kód je možné zadať a upravovať, ak je aktívne tlačidlo &lt;EM&gt;Kód&lt;/EM&gt; na pravej strane nástrojovej lišty.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Alergény&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Zadávajú sa alergény, ktoré sa zobrazujú na konci jedálneho lístka. Text je možné formátovať alebo zadať priamo v HTML kóde. HTML kód je možné zadať a upravovať, ak je aktívne tlačidlo &lt;EM&gt;Kód&lt;/EM&gt; na pravej strane nástrojovej lišty.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Otváracie hodiny&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Zadávajú sa otváracie hodiny, ktoré sa zobrazujú na konci jedálneho/nápojového lístka. Text je možné formátovať alebo zadať priamo v HTML kóde. HTML kód je možné zadať a upravovať, ak je aktívne tlačidlo &lt;EM&gt;Kód&lt;/EM&gt; na pravej strane nástrojovej lišty.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="3296b8b8-cf5c-4ff5-b510-cb7de0c5d432" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="7dd24e6f-6f96-4a51-9881-991d948d6392">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="11f06820-857e-4561-8f42-00feb1f50d33" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="fe4a9463-d066-4a56-8eee-a728ae1a7220">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="a41ac6a7-e178-4f11-87c8-73084b5fa328" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="942d48d5-b290-40f6-8ba3-45cf78f380f9">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="d86d9fef-35e0-4f91-b75d-63a6efe4ae5d" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="2f634ed7-507e-4cf9-a6bf-6e68510e6f57">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="f7dece6c-4f7d-422e-b6fb-2592ade7c244" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="bcb35762-ef45-4dfd-b53a-93e752742cdd">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="51506749-ab52-4520-87dd-1c2bfe2d9b18">
+      <Keyword m="2021-09-23T10:12:57.1517769Z">Jedálny lístok - formulár</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="9dc8e087-1593-47ac-a4f6-14920f08ff79">
+      <Keyword m="2021-09-23T10:13:05.5208729Z">Nastavenie jedálneho lístka</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

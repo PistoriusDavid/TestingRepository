@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="c145fb4a-b1f9-404e-9f07-ee1a10f9b759" Status="Complete" CreatedOn="2022-06-24T06:47:53.3623928Z" ModifiedOn="2022-06-28T11:25:41.0296826Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Hotel_Started_GuestPriceCategories" BuildFlags="">
+  <Title m="2022-06-24T06:48:20.508631Z">Cenové kategórie hostí</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2022-06-28T11:25:41.0296826Z">&lt;P&gt;Táto téma&amp;nbsp;&lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;informácie o&amp;nbsp;cenových kategóriách hostí&lt;/STRONG&gt;&amp;nbsp;v&amp;nbsp;module &lt;A href="c3bd41f0-029e-4c74-b342-b0ffff647b6e"&gt;Hotelová recepcia&lt;/A&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;V module &lt;A href="c3bd41f0-029e-4c74-b342-b0ffff647b6e"&gt;Hotelová recepcia&lt;/A&gt;&amp;nbsp;&lt;STRONG&gt;sa jednotlivé cenové hladiny&lt;/STRONG&gt; nadefinované v číselníku&amp;nbsp;&lt;A href="79646e11-b21e-473c-a78b-7e0fb8b55c14"&gt;Cenotvorba ubytovania&lt;/A&gt;&lt;STRONG&gt;&amp;nbsp;&lt;/STRONG&gt;priraďujú k cenovým kategóriám hostí. Inými slovami, cenové kategórie hostí &lt;STRONG&gt;zoskupujú jednotlivé nadefinované cenové&amp;nbsp;hladiny&lt;/STRONG&gt;. 
+&lt;LI&gt;Cenové kategórie hostí možno&amp;nbsp;v&amp;nbsp;systéme OBERON ľubovoľne definovať, pričom v&amp;nbsp;systéme &lt;STRONG style="COLOR: rgb(255,0,0)"&gt;musí byť vždy nadefinovaná jedna&lt;/STRONG&gt;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;STRONG style="COLOR: rgb(255,0,0)"&gt;predvolená cenová kategória hostí, ktorá sa bude používať pre bežných hostí&lt;/STRONG&gt;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;&amp;nbsp;&lt;/SPAN&gt;(tzv. pultové ceny). Okrem toho môže byť v&amp;nbsp;systéme nadefinovaný&amp;nbsp;ľubovoľný počet iných cenových kategórií, napr. pre konkrétneho obchodného partnera, ktorý bude mať inú&amp;nbsp;cenu.&amp;nbsp;Pri&amp;nbsp;&lt;A href="fc334b67-8148-4d4c-bb21-de0e0060b312"&gt;automatickom výpočte ceny za ubytovanie&lt;/A&gt; potom &lt;STRONG&gt;obsluha zvolí, ktorá cenová kategória hostí sa má použiť&lt;/STRONG&gt;.&amp;nbsp;Takto je možné&amp;nbsp;docieliť,&amp;nbsp;aby pri ubytovaní hosťa z&amp;nbsp;konkrétnej firmy systém automaticky vypočítal a na hotelový účet zapísal konkrétnu zmluvnú cenu. 
+&lt;LI&gt;Pre každú cenovú kategóriu hosťa &lt;STRONG&gt;je nevyhnutné definovať cenové hladiny&lt;/STRONG&gt;, pričom môže byť definovaná len jedna cenová hladina pre všetky&amp;nbsp;&lt;A href="902561af-a2ca-4bf7-adcd-21be1663b30a"&gt;typy izieb&lt;/A&gt;&amp;nbsp;(štandardná izba, apartmán...), prípadne viac cenových hladín pre každý typ izby (typ cenovej hladiny) samostatne, napr. zmluvná cena môže byť vždy rovnaká pre bežnú izbu či apartmán, alebo môžu byť tieto ceny&amp;nbsp;odlišné (vtedy sa musia nadefinovať dve osobitné cenové hladiny) - pozri Obrázok č. 1. 
+&lt;LI&gt;Cenovú kategóriu hosťa možno &lt;STRONG&gt;priradiť obchodnému partnerovi&lt;/STRONG&gt; vo&amp;nbsp;&lt;A href="4fbe9db8-25bc-420f-aee5-228d0a8ff03f"&gt;formulári Obchodný partner&lt;/A&gt;, záložka &lt;EM&gt;Ceny&lt;/EM&gt;. Pri rezervácii ubytovania alebo priamo v hotelovom účte bude pri zvolení tohto obchodného partnera automaticky použitá&amp;nbsp;daná cenová kategória (obsluha však môže výber cenovej kategórie ešte dodatočne upraviť). 
+&lt;LI&gt;V evidencii&amp;nbsp;&lt;A href="ffa5a889-7bfe-4165-ba83-15263eb77358"&gt;Hotelové účty&lt;/A&gt; sú dostupné&amp;nbsp;tlačové výstupy, pomocou ktorých je možné zistiť celkové obraty podľa jednotlivých cenových kategórií hostí. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Definovať, resp. upraviť už vytvorenú cenovú kategóriu hostí&amp;nbsp;je možné vo&amp;nbsp;&lt;A href="6f074a3e-8f7c-4cf1-ad03-69dea6f35369"&gt;formulári Cenová kategória hostí&lt;/A&gt;&lt;EM&gt;.&lt;/EM&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H5&gt;Obrázok č. 1: Príklad nastavenia a použitia cenových kategórií hostí&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/Hotel/Hotel-cenove kategorie.png"&gt;&lt;/P&gt;
+&lt;P&gt;Obrázok č. 1 znázorňuje dve cenové kategórie hostí, z ktorých prvá&amp;nbsp;má&amp;nbsp;nadefinované dve cenové hladiny (hlavná sezóna a mimo sezóny) pre typ cenovej hladiny určenej pre štandardné izby a&amp;nbsp;dve ďalšie&amp;nbsp;cenové hladiny pre typ cenovej hladiny určenej pre&amp;nbsp;apartmány. Druhá cenová kategória hostí má nadefinované jednu cenovú hladinu pre obchodného partnera&amp;nbsp;(zmluvná cena) pre typ cenovej hladiny určenej pre všetky typy izieb.&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="fe2b8e94-2174-4419-9f41-cfe349ee9250" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="c2c5ff27-6417-4630-9f9b-5760a815edf1">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="3f5a48e0-dee6-4fa6-aacc-751297ba90ea" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="79646e11-b21e-473c-a78b-7e0fb8b55c14">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="6340baaf-ad1d-441d-a444-ee05dff2fb1e" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="bb24750f-46d1-4514-9afb-402259b02ecc">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="6b8d2db3-069e-43f4-9333-6db71844e609" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="2414619b-e1e1-4bc2-b745-c8d08f3f2549">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="b22d2ed3-8ce0-4111-ac14-aab0c3e64b60" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="d5286006-62ed-43bc-93a2-5f4ec69fce0b">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="7ab9295c-9882-4a9a-9d43-f96144220e6b" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="75c3faa8-8de5-4868-b98c-687ae53d87ae">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="181402e2-379c-40a3-b279-e32c6f62a8e0" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="2058071a-7c05-453f-976f-5b4cb142498d">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="9029a568-b847-466d-aed1-a1b288d18162">
+      <Keyword m="2022-06-24T12:25:18.5319222Z">Príklad nastavenia a použitia cenových kategórií hostí</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="ed067137-33fa-4edd-aeda-bea77f18c769">
+      <Keyword m="2022-06-24T12:32:16.794613Z">Obchodný partner - cenová kategória hostí</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

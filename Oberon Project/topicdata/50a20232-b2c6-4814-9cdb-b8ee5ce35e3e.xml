@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="50a20232-b2c6-4814-9cdb-b8ee5ce35e3e" Status="Complete" CreatedOn="2019-06-17T08:38:35.4259701Z" ModifiedOn="2023-08-09T08:18:21.37368Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Device_FiscalDevice_Easy-Pos.eKasa" BuildFlags="">
+  <Title m="2019-07-17T10:15:20.3666855Z">Fiškálna tlačiareň Easy-Pos.eKasa</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-08-09T08:18:21.37368Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;základné&lt;/STRONG&gt; &lt;STRONG&gt;informácie&lt;/STRONG&gt; o&amp;nbsp;fiškálnej tlačiarni&amp;nbsp;&lt;EM&gt;Easy-Pos.eKasa&lt;/EM&gt;&amp;nbsp;vrátane &lt;STRONG&gt;technickej špecifikácie zariadenia, prehľadu podporovaných tlačiarní pokladničných dokladov a používateľského manuálu&lt;/STRONG&gt;. &lt;SPAN style="COLOR: rgb(255,0,0)"&gt;Zariadenie je podporované v obmedzenej miere (naposledy testovaná verzia DLL z januára 2020).&lt;/SPAN&gt;&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;EM&gt;Easy-Pos.eKasa&lt;/EM&gt;&amp;nbsp;predstavuje certifikovanú&amp;nbsp;&lt;A href="b24ad235-cf7f-43e2-b3e8-ec0f7d92f6b6"&gt;fiškálnu tlačiareň&lt;/A&gt;, ktorá v spojení s modulom &lt;A href="aec074f4-3e1c-4a1e-8a80-06fcecf51156"&gt;Pokladnica OBERON&lt;/A&gt; vytvorí z počítača registračnú pokladnicu. Počítač sa pritom nezmení na jednoúčelové zariadenie určené len na predaj, ale možno ho naďalej využívať aj na iné činnosti (ako bez fiškálnej tlačiarne), a to aj paralelne popri predaji na pokladnici. 
+&lt;LI&gt;Fiškálna tlačiareň &lt;EM&gt;Easy-Pos.eKasa&lt;/EM&gt; je zariadenie, ktoré sa skladá zo softvéru (pokladničného programu eKasa klient - PPEKK),&amp;nbsp;chráneného dátového úložiska &lt;EM&gt;CHDÚ Easy-Pos&lt;/EM&gt;&amp;nbsp;a&amp;nbsp;tlačiarne pokladničných dokladov (pozri časť &lt;EM&gt;Podporované tlačiarne&lt;/EM&gt;). Chránené dátové úložisko sa pripája k počítaču pomocou USB kábla, k tlačiarni prostredníctvom sériového kábla. 
+&lt;LI&gt;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;Výrobca pokladničného programu (PPEKK):&amp;nbsp;&lt;A href="http://www.sasro.sk/" target=_blank&gt;S.A. spol. s r.o.&lt;/A&gt;&lt;/SPAN&gt; 
+&lt;LI&gt;Výrobca chráneného dátového úložiska (CHDÚ):&amp;nbsp;&lt;A href="https://chdu.tech/" target=_blank&gt;CHDU s.r.o.&lt;/A&gt; 
+&lt;LI&gt;Spôsob pripojenia (rozhranie): USB. 
+&lt;LI&gt;Spôsob komunikácie: DLL. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget layout="block" type="Note Box"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;&lt;SPAN lang=en-us xml:lang="en-us"&gt;Zariadenie sa inštaluje&amp;nbsp;v&amp;nbsp;programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;, ponuka &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="749ff4f1-eeb5-43f5-98d2-021399d8cec7" style="auto-update-caption: true"&gt;Zariadenia&lt;/A&gt;, tlačidlo &lt;EM&gt;Pridať&lt;/EM&gt;.&amp;nbsp;Viac informácií k inštalácii zariadenia získate v téme&amp;nbsp;&lt;A href="c48357e5-9cde-421f-b010-5051fa148bc4" style="auto-update-caption: true"&gt;Fiškálna tlačiareň Easy-Pos.eKasa - inštalácia&lt;/A&gt;.&lt;/SPAN&gt;&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H5&gt;&amp;nbsp;Obrázok č. 1: Fiškálna tlačiareň&amp;nbsp;&lt;EM&gt;Easy-Pos.eKasa&lt;/EM&gt;&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Devices/Device_Easy-Pos.eKasa.png"&gt;&lt;/P&gt;
+&lt;H2&gt;Technická špecifikácia&lt;/H2&gt;
+&lt;P&gt;&lt;STRONG&gt;Názov chráneného dátového úložiska (CHDÚ):&lt;/STRONG&gt; CHDÚ Easy-Pos&lt;BR&gt;&lt;STRONG&gt;Certifikovaný ovládač CHDÚ:&lt;/STRONG&gt; EkasaDll.dll&lt;BR&gt;&lt;STRONG&gt;Názov pokladničného programu (PPEKK):&lt;/STRONG&gt; EkasaDll.dll&lt;BR&gt;&lt;STRONG&gt;Názov nadstavbového pokladničného programu:&lt;/STRONG&gt; OBERON – Agenda firmy (modul Pokladnica OBERON)&lt;BR&gt;&lt;STRONG&gt;Číslo rozhodnutia o certifikácii/právoplatnosť rozhodnutia:&lt;/STRONG&gt; 283530/2019&lt;BR&gt;&lt;STRONG&gt;Jedinečný identifikátor:&lt;/STRONG&gt; df90a2f18243582ca5396f34e8a8e8b3d2f80a67&lt;BR&gt;&lt;STRONG&gt;Kapacita pre ukladanie údajov:&lt;/STRONG&gt; 16 GB&lt;BR&gt;&lt;STRONG&gt;Spôsob pripojenia:&lt;/STRONG&gt; USB&lt;BR&gt;&lt;STRONG&gt;Napájanie z PC:&lt;/STRONG&gt; USB 3.0 1,5 A (súčasť balenia)&lt;BR&gt;&lt;STRONG&gt;Alternatívne napájanie:&lt;/STRONG&gt; sieťový adaptér DC 5 V/1,5 A (Micro USB) (možnosť doobjednať)&lt;BR&gt;&lt;STRONG&gt;Prevádzkové napätie:&lt;/STRONG&gt; 5 V&lt;BR&gt;&lt;STRONG&gt;Podporované tlačiarne:&lt;/STRONG&gt; EPSON TM-88III a iné kompatibilné tlačiarne&lt;BR&gt;&lt;STRONG&gt;Šírka pásky:&lt;/STRONG&gt; 38 a viac znakov/1 riadok&lt;BR&gt;&lt;STRONG&gt;Rozmery:&lt;/STRONG&gt; 100 (d)*73 (š)*27 (v) mm&lt;BR&gt;&lt;STRONG&gt;Hmotnosť:&lt;/STRONG&gt; 80 g&lt;BR&gt;&lt;STRONG&gt;Farba:&lt;/STRONG&gt; čierna&lt;BR&gt;&lt;STRONG&gt;Teplota:&lt;/STRONG&gt; prevádzka 5 °C – 45 °C, skladovanie -10 °C – 50 °C&lt;BR&gt;&lt;STRONG&gt;Vlhkosť vzduchu:&lt;/STRONG&gt; prevádzka 10 % – 90 %, skladovanie 10 % – 90 %&lt;BR&gt;&lt;STRONG&gt;Obsah balenia:&lt;/STRONG&gt; hlavné zariadenie, USB kábel, návod na použitie&lt;/P&gt;
+&lt;H2&gt;Podporované tlačiarne&lt;/H2&gt;Tlačiarne, ktoré dokážu tlačiť QR kódy a majú sériový vstup: 
+&lt;UL&gt;
+&lt;LI&gt;EPSON – TM88III, TM88IV, TM88V, TM88VI, TM20, TM70 
+&lt;LI&gt;SAMSUNG – SRP350II, SRP350II+, SRP350III 
+&lt;LI&gt;CITIZEN – CT-E351, CT-E361 &lt;/LI&gt;&lt;/UL&gt;Termotlačiarne, ktoré vytlačia QR kód prostredníctvom obrázka: 
+&lt;UL&gt;
+&lt;LI&gt;EPSON – TM88, TM88II 
+&lt;LI&gt;SAMSUNG – SRP350 &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget layout="block" type="Tip Box"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Porovnanie jednotlivých podporovaných fiškálnych zariadení je dostupné v téme&amp;nbsp;&lt;A href="d9b919e7-20c4-4c50-9910-4f13211ed9a8"&gt;Podporované registračné pokladnice&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt; &lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="88889687-8ff2-4291-a500-b6bf58b5fcca" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="b24ad235-cf7f-43e2-b3e8-ec0f7d92f6b6">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="9bdcbc0a-13f0-460b-92ee-1b31da4bc814" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="c48357e5-9cde-421f-b010-5051fa148bc4">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="08b788c6-6880-4d76-8389-46ed738fbefe">
+      <Keyword m="2021-04-07T12:53:38.0801089Z">Easy-Pos.eKasa - fiškálna tlačiareň</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="191eb059-a3eb-4215-8df9-5e29456230e0">
+      <Keyword m="2021-04-07T12:54:11.6651556Z">CHDU s.r.o. - Easy-Pos.eKasa</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="0089ff85-28fd-4765-89d7-6891ad3e31c7">
+      <Keyword m="2021-04-07T12:54:31.8630566Z">Easy-Pos.eKasa - PPEKK</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="70c5ab04-09cd-46bd-89b2-e4a631e81d3d">
+      <Keyword m="2021-04-07T12:55:03.0216332Z">eKasa Easy-Pos</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

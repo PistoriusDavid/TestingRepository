@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="da8a9192-a6cc-4470-b5d5-13d3ec435f97" Status="Complete" CreatedOn="2014-09-05T14:57:55.3223189Z" ModifiedOn="2023-07-14T11:42:39.1479361Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="22603" Name="Menu_Acc_AccountCoding_AccDouble" BuildFlags="">
+  <Title m="2021-07-12T11:02:22.5037642Z">Predkontácie (podvojné účtovníctvo)</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-07-14T11:42:39.1479361Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;je venovaná&amp;nbsp;položke&amp;nbsp;&lt;EM&gt;Predkontácie&lt;/EM&gt;&amp;nbsp;v&amp;nbsp;ponuke&amp;nbsp;&lt;EM&gt;Účtovníctvo&lt;/EM&gt; programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&amp;nbsp;&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Výberom položky sa otvorí číselník &lt;EM&gt;Predkontácie&lt;/EM&gt;. Predkontácie v&amp;nbsp;&lt;A href="49dd3167-870a-4fdf-b631-d4f692f1ed72"&gt;podvojnom účtovníctve&lt;/A&gt; predstavujú &lt;STRONG&gt;preddefinované účtovné prípady, ktoré slúžia na rýchlejšie a pohodlnejšie účtovanie predovšetkým frekventovaných účtovných prípadov&lt;/STRONG&gt;.&amp;nbsp;Tým najmä určujú, na aké účty sa konkrétny doklad zaúčtuje. 
+&lt;LI&gt;Po&amp;nbsp;&lt;A href="19a10c98-2b1d-4fe1-8ab2-98921ab328be"&gt;inštalácii programu&lt;/A&gt; a&amp;nbsp;&lt;A href="9a485893-6dd2-44e8-9740-a4cd7083a932"&gt;vytvorení novej účtovnej jednotky (databázy)&lt;/A&gt; je zoznam predkontácií naplnený predvolenými štandardnými účtovnými prípadmi, ktoré je možné ďalej dopĺňať, resp.&amp;nbsp;upravovať&amp;nbsp;podľa&amp;nbsp;potrieb a&amp;nbsp;požiadaviek účtovnej jednotky (a&amp;nbsp;to aj neskôr, resp. priebežne podľa potreby). 
+&lt;LI&gt;V&amp;nbsp;OBERON-e sa&amp;nbsp;predkontácie a&amp;nbsp;účtovný rozvrh&amp;nbsp;evidujú &lt;STRONG&gt;pre každý účtovný rok samostatne&lt;/STRONG&gt; (zmeny v&amp;nbsp;účtovnom rozvrhu a&amp;nbsp;v&amp;nbsp;predkontáciách v aktuálnom účtovnom období neovplyvnia účtovný rozvrh a predkontácie v&amp;nbsp;inom účtovnom období).&amp;nbsp;Z tohto dôvodu je potrebné účtovný rozvrh a&amp;nbsp;predkontácie do nového účtovného obdobia &lt;STRONG&gt;zakaždým naimportovať&lt;/STRONG&gt; (v&amp;nbsp;ponuke &lt;I&gt;Účtovníctvo,&lt;/I&gt;&amp;nbsp;&lt;A href="2db9ea90-4731-4a7e-bafd-a7c70581514f"&gt;Účtovný rozvrh&lt;/A&gt;, resp.&amp;nbsp; &lt;A href="da8a9192-a6cc-4470-b5d5-13d3ec435f97"&gt;Predkontácie&lt;/A&gt;, tlačidlo &lt;EM&gt;Možnosti -&lt;/EM&gt;&amp;nbsp;&lt;EM&gt;Import účtovného rozvrhu a predkontácií&lt;/EM&gt;). Dostupnými možnosťami sú&amp;nbsp;import predvolených hodnôt, ďalej import z&amp;nbsp;predchádzajúceho, resp. nasledujúceho účtovného obdobia a import z inej účtovnej jednotky (v&amp;nbsp;prípade spracovávania účtovníctva pre viacero firiem). 
+&lt;LI&gt;Importovať účtovný rozvrh a predkontácie &lt;STRONG&gt;sa odporúča len do účtovníctva, v ktorom nie je v&amp;nbsp;účtovnom denníku nič zaúčtované&lt;/STRONG&gt;. Pri importe dôjde k&amp;nbsp;prepísaniu aktuálneho účtovného rozvrhu a predkontácií&amp;nbsp;(s&amp;nbsp;ktorými&amp;nbsp;sa doteraz pracovalo). &lt;STRONG&gt;Proces je nevratný,&amp;nbsp;t.&amp;nbsp;j.&amp;nbsp;pôvodné údaje sa nevratne vymažú a&amp;nbsp;nahradia importovanými.&lt;/STRONG&gt; 
+&lt;LI&gt;Vo formulári &lt;I&gt;Možnosti&lt;/I&gt;&amp;nbsp;je možné&amp;nbsp;vyexportovať predkontácie do súboru, ktorý je následne možné naimportovať (napr. do inej účtovnej jednotky ako je uvedené vyššie). 
+&lt;LI&gt;Predkontácie rozdeľujeme na: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;I&gt;&lt;STRONG&gt;účtovné predkontácie&lt;/STRONG&gt;&lt;/I&gt; - používajú sa pri opakujúcich sa účtovných prípadoch, 
+&lt;LI&gt;&lt;I&gt;&lt;STRONG&gt;skladové predkontácie&lt;/STRONG&gt;&lt;/I&gt; - používajú sa hlavne pri &lt;A href="a00f332d-33c1-411f-9a2a-4116c3e783ef"&gt;účtovaní skladu&lt;/A&gt; (príjem, výdaj, odpisy a pod.). &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Už použité predkontácie v účtovnom denníku je dovolené opravovať,&amp;nbsp;ale &lt;SPAN style="COLOR: rgb(255,0,0)"&gt;neodporúča sa&amp;nbsp;to&amp;nbsp;&lt;/SPAN&gt;- účtovanie už zaúčtovaných záznamov sa nezmení, upravená predkontácia sa použije len pre nové záznamy. V prípade,&amp;nbsp;že sa zmení číslo predkontácie,&amp;nbsp;zmení sa&amp;nbsp;automaticky aj vo všetkých zápisoch účtovného denníka. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget layout="block" type="Note Box"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Pridávať, resp. upravovať účtovné a skladové predkontácie v&amp;nbsp;&lt;A href="49dd3167-870a-4fdf-b631-d4f692f1ed72"&gt;podvojnom účtovníctve&lt;/A&gt; je možné pomocou&amp;nbsp;&lt;A href="6510031b-e990-40e6-96aa-d0034df89cdc"&gt;formulára Predkontácia (podvojné účtovníctvo)&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Postup vytvorenia novej účtovnej/skladovej predkontácie&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;V ponuke&amp;nbsp;&lt;I&gt;Účtovníctvo&lt;/I&gt; zvoľte položku &lt;I&gt;Predkontácie&lt;/I&gt;. 
+&lt;LI&gt;Stlačte tlačidlo &lt;EM&gt;Nový&lt;/EM&gt; a vyberte&amp;nbsp;položku &lt;I&gt;Účtovná predkontácia&lt;/I&gt; alebo &lt;I&gt;Skladová predkontácia&lt;/I&gt;. Zobrazí sa&amp;nbsp;&lt;A href="6510031b-e990-40e6-96aa-d0034df89cdc"&gt;formulár Predkontácia&amp;nbsp;&lt;/A&gt;&lt;A href="6510031b-e990-40e6-96aa-d0034df89cdc"&gt;(podvojné účtovníctvo)&lt;/A&gt;&lt;I&gt;.&lt;/I&gt; 
+&lt;LI&gt;Jednotlivé záložky vo formulári &lt;EM&gt;Predkontácia&lt;/EM&gt; sú rôzne a závisia od typu predkontácie (účtovná, skladová). Vyplňte všetky potrebné polia. 
+&lt;LI&gt;Stlačením tlačidla &lt;I&gt;OK&lt;/I&gt; sa nová predkontácia uloží. &lt;/LI&gt;&lt;/OL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="27f54be5-c11c-44be-bf43-3a68d84ea8f1" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="d8c9bfc8-92d1-4471-8909-e5f8ce602d6c">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="dcfec50a-7f76-4516-bb71-f6f3157ad807" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="2db9ea90-4731-4a7e-bafd-a7c70581514f">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="bac3b98b-ec72-4fba-b4b9-07ab23209f6c" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="6510031b-e990-40e6-96aa-d0034df89cdc">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="92cdbb75-85b4-4bf5-945e-83b2dee272f9">
+      <Keyword m="2014-11-24T10:00:46.7216406Z">Účtovné predkontácie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="686a5a20-19a1-4c9a-a8f3-b6e14e5d71f9">
+      <Keyword m="2015-03-31T11:47:18.0566406Z">Skladové predkontácie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="3960f960-be42-43b9-8dc3-1e305f49d1f0">
+      <Keyword m="2021-07-13T10:23:12.9251272Z">Import predkontácií - podvojné účtovníctvo</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

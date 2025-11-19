@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="9d32ac6a-62c8-4740-b603-a4a63c990b43" Status="Complete" CreatedOn="2019-03-26T14:49:07.596178Z" ModifiedOn="2024-05-30T06:39:44.0770072Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Device_FiscalDevice_PegassinoPrinter" BuildFlags="">
+  <Title m="2021-04-07T12:21:27.3756029Z">Fiškálna tlačiareň Pegassino Printer eKasa</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2022-12-22T13:05:31.2361756Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;základné&lt;/STRONG&gt; &lt;STRONG&gt;informácie&lt;/STRONG&gt; o podporovanej fiškálnej tlačiarni&amp;nbsp;&lt;EM&gt;Pegassino Printer eKasa&lt;/EM&gt; vrátane &lt;STRONG&gt;technickej špecifikácie zariadenia&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;EM&gt;Pegassino Printer&lt;/EM&gt; &lt;EM&gt;eKasa&lt;/EM&gt; predstavuje certifikovanú&amp;nbsp;&lt;A href="b24ad235-cf7f-43e2-b3e8-ec0f7d92f6b6"&gt;fiškálnu tlačiareň&lt;/A&gt;, ktorá v spojení s modulom &lt;A href="aec074f4-3e1c-4a1e-8a80-06fcecf51156"&gt;Pokladnica OBERON&lt;/A&gt; vytvorí z počítača plnohodnotnú on-line registračnú pokladnicu. Počítač sa pritom nezmení na jednoúčelové zariadenie určené len na predaj, ale možno ho naďalej využívať aj na iné činnosti (ako bez fiškálnej tlačiarne), a to aj paralelne popri predaji na pokladnici. 
+&lt;LI&gt;Fiškálna tlačiareň&amp;nbsp;&lt;EM&gt;Pegassino Printer eKasa&lt;/EM&gt;&amp;nbsp;je zariadenie, ktoré sa skladá zo softvéru (ovládača pokladničného programu eKasa klient - PPEKK), chráneného dátového úložiska a&amp;nbsp;tlačiarne pokladničných dokladov, ktoré sú súčasťou kitu zariadenia. 
+&lt;LI&gt;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;Výrobca pokladničného programu (PPEKK):&amp;nbsp;&lt;A href="http://www.bowa.sk/" target=_blank&gt;BOWA s.r.o.&lt;/A&gt;&lt;/SPAN&gt; 
+&lt;LI&gt;Výrobca chráneného dátového úložiska (CHDÚ):&amp;nbsp;&lt;A href="http://www.bowa.sk/" target=_blank&gt;BOWA s.r.o.&lt;/A&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp; 
+&lt;LI&gt;&lt;SPAN lang=en-us xml:lang="en-us"&gt;Spôsob pripojenia (rozhranie): RS232.&lt;/SPAN&gt; 
+&lt;LI&gt;&lt;SPAN lang=en-us xml:lang="en-us"&gt;Spôsob komunikácie: TCP/IP.&lt;/SPAN&gt; &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;&lt;SPAN lang=en-us xml:lang="en-us"&gt;&lt;SPAN lang=en-us xml:lang="en-us"&gt;Zariadenie sa inštaluje&amp;nbsp;v&amp;nbsp;programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;, ponuka &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="749ff4f1-eeb5-43f5-98d2-021399d8cec7" style="auto-update-caption: true"&gt;Zariadenia&lt;/A&gt;, tlačidlo &lt;EM&gt;Pridať&lt;/EM&gt;.&amp;nbsp;Viac informácií k inštalácii zariadenia získate v téme&amp;nbsp;&lt;A href="78da2033-037c-43fc-a420-d315bf1b13b6" style="auto-update-caption: true"&gt;Fiškálna tlačiareň Pegassino Printer eKasa - inštalácia&lt;/A&gt;.&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H5&gt;Obrázok č. 1: Fiškálna tlačiareň &lt;EM&gt;Pegassino Printer eKasa&lt;/EM&gt;&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Devices/Device_Pegassino.png"&gt;&amp;nbsp;&lt;/P&gt;
+&lt;H2&gt;Technická špecifikácia&lt;/H2&gt;
+&lt;P&gt;&lt;STRONG&gt;Spôsob tlače:&lt;/STRONG&gt;&amp;nbsp;termo&lt;BR&gt;&lt;STRONG&gt;Rýchlosť tlače:&lt;/STRONG&gt;&amp;nbsp;70 mm (19 riadkov )/sec&lt;BR&gt;&lt;STRONG&gt;Rozlíšenie tlače:&lt;/STRONG&gt;&amp;nbsp;384 bodov/riadok&lt;BR&gt;&lt;STRONG&gt;Charakteristika tlače:&lt;/STRONG&gt;&amp;nbsp;Font A: 12&amp;nbsp;x&amp;nbsp;24 (42 znakov/riadok)&lt;BR&gt;&lt;STRONG&gt;Typ papiera:&lt;/STRONG&gt;&amp;nbsp;termopapier&lt;BR&gt;&lt;STRONG&gt;Šírka papiera:&lt;/STRONG&gt;&amp;nbsp;58 mm&lt;BR&gt;&lt;STRONG&gt;Priemer papierového kotúčika:&lt;/STRONG&gt;&amp;nbsp;max. 65 mm&lt;BR&gt;&lt;STRONG&gt;Životnosť termohlavy:&lt;/STRONG&gt;&amp;nbsp;50 km&lt;BR&gt;&lt;STRONG&gt;Tlač čiarových kódov:&lt;/STRONG&gt;&amp;nbsp;UPC-A/E, EAN-13/8, Code 39, ITF, Codabar, Code 93/128&lt;BR&gt;&lt;STRONG&gt;Rozhranie:&lt;/STRONG&gt;&amp;nbsp;RS-232C&lt;BR&gt;&lt;STRONG&gt;Zákaznícky displej:&lt;/STRONG&gt;&amp;nbsp;2 x 20 znakov LCD&lt;BR&gt;&lt;STRONG&gt;Zdroj napájania:&lt;/STRONG&gt;&amp;nbsp;DC 12 V, 3,5 A&lt;BR&gt;&lt;STRONG&gt;Výstup peňažnej zásuvky:&lt;/STRONG&gt;&amp;nbsp;áno&lt;BR&gt;&lt;STRONG&gt;Strihač pásky:&lt;/STRONG&gt;&amp;nbsp;nie&lt;BR&gt;&lt;STRONG&gt;Podpora funkcie kuchynskej tlačiarne:&lt;/STRONG&gt;&amp;nbsp;nie&lt;BR&gt;&lt;STRONG&gt;Kapacita chráneného dátového úložiska:&lt;/STRONG&gt;&amp;nbsp;8 GB&lt;BR&gt;&lt;STRONG&gt;Pracovná teplota:&lt;/STRONG&gt;&amp;nbsp;0 °C až 45 °C&lt;BR&gt;&lt;STRONG&gt;Rozmery (Š x&amp;nbsp;H x V):&lt;/STRONG&gt;&amp;nbsp;125&amp;nbsp;x&amp;nbsp;198&amp;nbsp;x&amp;nbsp;96&amp;nbsp;mm&lt;BR&gt;&lt;STRONG&gt;Hmotnosť:&lt;/STRONG&gt;&amp;nbsp;900&amp;nbsp;g&lt;/P&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Porovnanie jednotlivých podporovaných fiškálnych zariadení je dostupné v téme&amp;nbsp;&lt;A href="d9b919e7-20c4-4c50-9910-4f13211ed9a8"&gt;Podporované registračné pokladnice&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt; &lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="b881174e-a3b3-4aa9-be57-e3115d05805b" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="b24ad235-cf7f-43e2-b3e8-ec0f7d92f6b6">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="c1fe5e66-3994-4359-ab9b-82a1fdc2fedd" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="78da2033-037c-43fc-a420-d315bf1b13b6">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="409ff23b-8278-42c2-a48a-ef3ac9e0f419" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="29c1b7d9-36d4-4d86-89bd-54cd2cb22050">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="aa9c10cf-711f-4b9a-9fb1-c4634ce6ae15">
+      <Keyword m="2021-04-07T12:25:00.2657211Z">Pegassino Printer eKasa - fiškálna tlačiareň</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="9356cb06-6b00-4892-94aa-447308ee6e62">
+      <Keyword m="2021-04-07T12:26:06.7494629Z">Pegassino Printer eKasa - CHDÚ</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="d58acd48-6827-414f-8835-852cb640e3c1">
+      <Keyword m="2021-04-07T12:25:57.789903Z">Pegassino Printer eKasa - PPEKK</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="5b02a12a-cc40-441c-969e-19af9788515e">
+      <Keyword m="2021-04-07T12:25:47.8719934Z">BOWA Pegassino Printer eKasa</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="cce07310-4ee0-4251-986a-5ff4309929f8">
+      <Keyword m="2021-04-07T12:45:14.8052075Z">eKasa Pegassino Printer</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

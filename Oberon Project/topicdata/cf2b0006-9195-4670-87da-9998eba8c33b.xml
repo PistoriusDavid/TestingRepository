@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="cf2b0006-9195-4670-87da-9998eba8c33b" Status="Complete" CreatedOn="2023-10-26T08:51:57.9711394Z" ModifiedOn="2024-01-18T08:08:53.7371778Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Tech_SystemErrorMessages" BuildFlags="">
+  <Title m="2023-10-26T09:02:48.3175902Z">Systémové chybové hlásenia</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-01-18T08:08:53.7371778Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje&amp;nbsp;&lt;STRONG&gt;vybrané&amp;nbsp;systémové chybové hlásenia, ktoré sa môžu vyskytnúť pri používaní systému OBERON.&lt;/STRONG&gt; Hlásenia sú spracované do tabuľky, ktorá v&amp;nbsp;osobitných stĺpcoch obsahuje&amp;nbsp;snímku daného chybového hlásenia (problému), jeho popis spolu s riešením a prípadne náhľad riešenia priamo v programe.&lt;/P&gt;
+&lt;TABLE style="WIDTH: 70%"&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TH width="30%"&gt;&lt;B&gt;Chybové hlásenie&lt;/B&gt;&lt;/TH&gt;
+&lt;TH width="40%"&gt;&lt;B&gt;Popis/Riešenie&lt;/B&gt;&lt;/TH&gt;
+&lt;TH width="30%"&gt;&lt;B&gt;Riešenie - náhľad&lt;/B&gt;&lt;/TH&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=347&gt;&lt;innovasys:widget type="Dynamic Image" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="ThumbnailUrl"&gt;images/TechnicalIssues/TechIssueReportCreationError_thumb.PNG&lt;/innovasys:widgetproperty&gt; &lt;/innovasys:widget&gt;&lt;/TD&gt;
+&lt;TD width=251&gt;
+&lt;P&gt;&lt;STRONG&gt;Popis:&lt;/STRONG&gt; V dotaze na&amp;nbsp;načítanie údajov v časti SELECT sa nachádzajú iné stĺpce alebo stĺpce v inom formáte ako v časti GROUP BY.&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;Riešenie:&lt;/STRONG&gt; Pomocou nástroja na správu SQL servera (napr. &lt;EM&gt;Heidi&lt;/EM&gt;) vykonajte zmenu v premennej s názvom &lt;EM&gt;sql_mode&lt;/EM&gt;: odstráňte z nej hodnotu &lt;EM&gt;only_full_group_by&lt;/EM&gt;. Po vykonaní úpravy je potrebné vykonať reštart služby, prípadne celého SQL servera.&lt;BR&gt;&lt;/P&gt;&lt;/TD&gt;
+&lt;TD width="24%"&gt;&lt;innovasys:widget type="Dynamic Image" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="ThumbnailUrl"&gt;images/TechnicalIssues/TechIssueReportCreationError_Heidi_thumb.PNG&lt;/innovasys:widgetproperty&gt; &lt;/innovasys:widget&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=347&gt;&lt;IMG border=0 alt="" src="images/TechnicalIssues/TechIssue_GraphicalTableOverview.PNG"&gt;&lt;/TD&gt;
+&lt;TD width=251&gt;
+&lt;P&gt;&lt;STRONG&gt;Popis:&lt;/STRONG&gt; Po otvorení&amp;nbsp;&lt;A href="c3c6b9fe-a88f-42c3-a10f-1e7f5f944ebf"&gt;grafického prehľadu stolov&lt;/A&gt; sa definované&amp;nbsp;objekty nezobrazia.&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;Riešenie:&lt;/STRONG&gt; Na vyriešenie problému je potrebné v&amp;nbsp;nastaveniach systému &lt;EM&gt;Windows&lt;/EM&gt; zmeniť miestne nastavenie systému na &lt;EM&gt;Slovenčina (Slovensko)&lt;/EM&gt;.&lt;/P&gt;&lt;/TD&gt;
+&lt;TD width="24%"&gt;&lt;innovasys:widget type="Dynamic Image" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="ThumbnailURL"&gt;images/TechnicalIssues/TechIssue_RegionalSettings_thumb.PNG&lt;/innovasys:widgetproperty&gt; &lt;/innovasys:widget&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=347&gt;&lt;innovasys:widget type="Dynamic Image" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="ThumbnailUrl"&gt;images/TechnicalIssues/TechIssue_SQLNotAvailable_thumb.png&lt;/innovasys:widgetproperty&gt; &lt;/innovasys:widget&gt;&lt;/TD&gt;
+&lt;TD width=251&gt;
+&lt;P&gt;&lt;STRONG&gt;Popis:&lt;/STRONG&gt; Po spustení systému OBERON sa nie je možné pripojiť k&amp;nbsp;databázovému SQL serveru (databáza je nedostupná). Dôvodom je spravidla nesprávna konfigurácia sieťovej infraštruktúry, resp.&amp;nbsp;jej narušenie vplyvom vonkajších faktorov.&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;Riešenie:&lt;/STRONG&gt; Na vyriešenie problému pozri tému&amp;nbsp;&lt;A href="da50eb3a-9b2b-4fd1-bae3-31b362307a15" style="auto-update-caption: true"&gt;Databáza nie je dostupná&lt;/A&gt;, časť &lt;EM&gt;SQL server (MariaDB, MySQL, MS SQL Server)&lt;/EM&gt;.&lt;/P&gt;&lt;/TD&gt;
+&lt;TD width="24%"&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=347&gt;&lt;innovasys:widget type="Dynamic Image" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="ThumbnailUrl"&gt;images/TechnicalIssues/TechIssue_BankTransaction_thumb.png&lt;/innovasys:widgetproperty&gt; &lt;/innovasys:widget&gt;&lt;/TD&gt;
+&lt;TD width=251&gt;
+&lt;P&gt;&lt;STRONG&gt;Popis:&lt;/STRONG&gt; Do dokladu (otvoreného účtu) nie je možné pridať novú položku, ani z neho položku vymazať. Dôvodom je, že doklad už bol uhradený platobnou kartou, ale sa v dôsledku zlyhania komunikácie (napr. pre nedostatok papiera) sa nevytlačil (nezaevidoval do fiškálneho zariadenia).&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;Riešenie:&lt;/STRONG&gt; Doklad je potrebné opätovne vytlačiť (tlačidlo &lt;EM&gt;Tlač dokladu&lt;/EM&gt;)&amp;nbsp;- doklad sa len vytlačí, k opätovnej úhrade platobnou kartou už nedôjde.&lt;/P&gt;&lt;/TD&gt;
+&lt;TD width="24%"&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="d48f5ecb-34f1-4577-aef8-120425d64af4" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="f83c2a9c-cda4-4862-8628-7ba16ddb1b06">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="1234ea05-887c-46df-b119-75fab78091b7" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="10acb2be-830f-4012-930c-ead0f6ad67ab">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="8729ebdf-bbea-47d9-ba41-29007ab25dd5" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="b3576a4b-0cf7-4032-bc13-35a363dd611a">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="47641a44-ded1-48a7-84c0-eb7fcdd41d92" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="114e64df-3d6c-4a0e-9405-c0e75fbe02dc">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="659ddf78-a5bf-46df-be91-28a592981823" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="31e5e0c6-6e6c-403f-aa32-9ef5f8291566">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="6fb7d820-7d1e-4289-84d1-710f8f8215ba" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="de8ea830-28e7-471f-aa50-c4f34eeb720d">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="e0c7a2b9-3139-493c-a445-897cd38e242e" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="16ffb76f-46f2-42c7-a060-091fa178b272">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="f656c155-10eb-407e-bb3c-cdbf75161cea">
+      <Keyword m="2023-10-27T11:55:07.8484797Z">Chyby - systémové - hlásenia</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="a712da21-1d2e-4503-8a3c-ad4e94abe26f">
+      <Keyword m="2023-10-26T12:50:34.9656705Z">Chybové hlásenia - systémové</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

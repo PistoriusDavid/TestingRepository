@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="284db2bc-8b11-40d2-b3fe-213808fff2fa" Status="Complete" CreatedOn="2016-05-11T11:13:33.3115624Z" ModifiedOn="2023-07-13T08:12:26.9929643Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="FAQ_CashRegister_ReceiptsSendOwner" BuildFlags="">
+  <Title m="2016-05-11T11:15:55.1454519Z">Môžem poslať dennú uzávierku majiteľovi formou SMS alebo e-mailu?</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-07-13T08:12:26.9929643Z">&lt;P&gt;Systém OBERON umožňuje&amp;nbsp;svojich používateľov, obchodných partnerov a prípadne ďalšie osoby automaticky informovať o&amp;nbsp;určitých skutočnostiach formou&amp;nbsp;&lt;A href="e301d0fb-f429-4bb5-a4df-7257efbe967b"&gt;automatických notifikácií&lt;/A&gt; (e-mailových a SMS správ). Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje&amp;nbsp;&lt;STRONG&gt;informácie o notifikácii&amp;nbsp;obsahujúcej tržbu za pokladnicu, ktorú je možné odoslať po vykonaní dennej uzávierky&lt;/STRONG&gt; v module&amp;nbsp;&lt;A href="a6f5e32d-6f1e-40bb-9d15-3f784a183252"&gt;Pokladnica OBERON&lt;/A&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&amp;nbsp;&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Po&amp;nbsp;&lt;A href="900c1b8a-2645-4225-ac93-d387237f3d90"&gt;vykonaní dennej uzávierky&lt;/A&gt; obsluhou pokladnice je možné &lt;STRONG&gt;automaticky vygenerovať notifikáciu vo forme e-mailovej alebo SMS správy, ktorá sa odošle vopred určeným osobám&lt;/STRONG&gt;, napr. majiteľovi, manažérovi a pod. 
+&lt;LI&gt;Pre tento typ notifikácie je v OBERON-e &lt;STRONG&gt;preddefinovaná predloha (šablóna, vzor) e-mailovej a SMS správy&lt;/STRONG&gt;. V&amp;nbsp;prípade potreby je možné preddefinovaný tvar (formát) predlohy upraviť pomocou &lt;A href="ebccc473-482c-4940-99b3-b4f5d534ccf7"&gt;Editora predlohy&lt;/A&gt;. 
+&lt;LI&gt;Generovanie notifikácií zabezpečuje &lt;A href="47863971-c920-44ee-b49b-99a58f439915" style="auto-update-caption: true"&gt;Generátor notifikácií&lt;/A&gt;&amp;nbsp;ako jedna z &lt;A href="9ce25bbd-35d1-4096-acd5-70007f5af5a6"&gt;automatických úloh&lt;/A&gt; systému OBERON.&amp;nbsp;Viac informácií je možné získať v téme&amp;nbsp;&lt;A href="e301d0fb-f429-4bb5-a4df-7257efbe967b" style="auto-update-caption: true"&gt;O automatických notifikáciách&lt;/A&gt;. 
+&lt;LI&gt;Notifikačné správy sa odosielajú &lt;STRONG&gt;automaticky&lt;/STRONG&gt;, nie je potrebné ich&amp;nbsp;posielať manuálne. V prípade notifikačných&amp;nbsp;SMS správ je možné&amp;nbsp;spätne overiť, či a kedy bola SMS vytvorená a&amp;nbsp;doručená. Všetky vygenerované SMS sú dostupné&amp;nbsp;v&amp;nbsp;evidencii&amp;nbsp;&lt;EM&gt;CRM&lt;/EM&gt;, &lt;A href="d4119d75-dd5b-4a1c-b9fa-c982601e0746"&gt;SMS správy&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Technické informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Aby bolo možné zasielať &lt;STRONG&gt;e-mailové notifikácie&lt;/STRONG&gt;, je potrebné v nastaveniach OBERON-u nastaviť&amp;nbsp;&lt;A href="ea5379c8-9451-40fc-ac0f-f038feefa916"&gt;typ poštového klienta&lt;/A&gt;&amp;nbsp;&lt;STRONG&gt;Webmail (SMTP Server)&lt;/STRONG&gt;. Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="ea5379c8-9451-40fc-ac0f-f038feefa916" style="auto-update-caption: true"&gt;Poštový klient&lt;/A&gt;. 
+&lt;LI&gt;Aby bolo možné zasielať &lt;STRONG&gt;SMS notifikácie&lt;/STRONG&gt;, je potrebné okrem automatickej úlohy &lt;EM&gt;Generátor notifikácií&lt;/EM&gt; nastaviť aj osobitnú automatickú úlohu&amp;nbsp;&lt;A href="4a6f63ac-fdeb-4de8-93d1-77c969da1f18"&gt;Posielanie SMS správ cez EuroSMS&lt;/A&gt;, ktorá umožňuje automaticky zasielať&amp;nbsp;vygenerované SMS a&amp;nbsp;zároveň spätne overovať, či a kedy bola daná&amp;nbsp;SMS správa doručená. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Nastavenie odosielania e-mailových notifikácií&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;Pred&amp;nbsp;nastavením automatickej úlohy v&amp;nbsp;systéme OBERON &lt;STRONG&gt;sa uistite, že je&amp;nbsp;na počítači, ktorý je neustále zapnutý (spravidla sieťovom databázovom serveri),&lt;/STRONG&gt;&amp;nbsp;správne nastavený&amp;nbsp;&lt;STRONG&gt;server&lt;/STRONG&gt;&amp;nbsp;&lt;A href="09f3dae9-2fb7-490f-97dc-37f60885b398"&gt;OBERON Automation Center&lt;/A&gt;. Postup nastavenia je dostupný v&amp;nbsp;téme&amp;nbsp;&lt;A href="fd64c37a-486b-4cdf-a370-297aaa8a8f73" style="auto-update-caption: true"&gt;Nastavenie servera OBERON Automation Center&lt;/A&gt;.&amp;nbsp;Správnosť nastavenia a&amp;nbsp;fungovania&amp;nbsp;servera OAC môžete skontrolovať v&amp;nbsp;programe&lt;STRONG&gt;&amp;nbsp;&lt;EM&gt;OBERON Automation Center&lt;/EM&gt; (klient)&lt;/STRONG&gt; (v&amp;nbsp;programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;, ponuka&amp;nbsp;&lt;EM&gt;OBERON&lt;/EM&gt;,&amp;nbsp;&lt;A href="69282df4-d4d6-462a-8cf2-68000e3e6f93"&gt;OBERON Automation Center (klient)&lt;/A&gt;). &lt;SPAN style="COLOR: rgb(255,0,0)"&gt;Pri&amp;nbsp;použití&lt;/SPAN&gt; &lt;EM style="COLOR: rgb(255,0,0)"&gt;OBERON Automation Center&lt;/EM&gt;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;&amp;nbsp;&lt;STRONG&gt;odporúčame&lt;/STRONG&gt; &lt;/SPAN&gt;&lt;STRONG style="COLOR: rgb(255,0,0)"&gt;používať databázu SQL&lt;/STRONG&gt;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;.&lt;/SPAN&gt; 
+&lt;LI&gt;Na &lt;STRONG&gt;klientskom počítači&lt;/STRONG&gt; spustite program &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt; a&amp;nbsp;v&amp;nbsp;ponuke &lt;EM&gt;OBERON,&amp;nbsp;&lt;/EM&gt;&lt;A href="e975459f-e882-49f2-adb9-79e68a07df0e"&gt;Otvorenie agendy (firmy)&lt;/A&gt; otvorte databázu účtovnej jednotky. &amp;nbsp;&amp;nbsp;&amp;nbsp; 
+&lt;LI&gt;V&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="225638ed-22f6-4ac4-9085-6d77c64925db" style="auto-update-caption: true"&gt;Používatelia&lt;/A&gt; vytvorte&amp;nbsp;nového používateľa&amp;nbsp;typu &lt;I&gt;&lt;STRONG&gt;Systémový&lt;/STRONG&gt;&lt;/I&gt;. 
+&lt;LI&gt;V&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;, &lt;A href="5a6e5663-262e-4ff0-9741-1569385d11e4"&gt;oddiel Firma, Všeobecné&lt;/A&gt;, záložka &lt;EM&gt;E-mail&lt;/EM&gt;&amp;nbsp;vyberte typ poštového klienta &lt;STRONG&gt;Webmail (SMTP&amp;nbsp;Server)&lt;/STRONG&gt;. Bližšie informácie získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="ea5379c8-9451-40fc-ac0f-f038feefa916" style="auto-update-caption: true"&gt;Poštový klient&lt;/A&gt;. 
+&lt;LI&gt;V&amp;nbsp;rovnakej ponuke (&lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="5a6e5663-262e-4ff0-9741-1569385d11e4"&gt;oddiel Firma, Všeobecné&lt;/A&gt;) v&amp;nbsp;záložke &lt;EM&gt;Ostatné&lt;/EM&gt;&amp;nbsp;začiarknite možnosť &lt;EM&gt;&lt;STRONG&gt;Umožniť používať notifikácie&lt;/STRONG&gt;&lt;/EM&gt;. 
+&lt;LI&gt;V ponuke &lt;EM&gt;Servis&lt;/EM&gt; zvoľte položku&amp;nbsp;&lt;A href="225638ed-22f6-4ac4-9085-6d77c64925db"&gt;Používatelia&lt;/A&gt;. Vyberte &lt;STRONG&gt;osobu, ktorej sa budú posielať správy&lt;/STRONG&gt;. Stlačte tlačidlo &lt;EM&gt;Oprava&lt;/EM&gt;.&amp;nbsp;Otvorí sa&amp;nbsp;&lt;A href="12e7a96f-bc40-4359-bc7a-213d74a785d4"&gt;formulár Používateľ&lt;/A&gt;, kde v záložke &lt;EM&gt;Podrobnosti&lt;/EM&gt; zadajte&amp;nbsp;e-mailovú adresu.&amp;nbsp; 
+&lt;LI&gt;V&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="9ce25bbd-35d1-4096-acd5-70007f5af5a6"&gt;Automatické úlohy&lt;/A&gt;&amp;nbsp;stlačte tlačidlo &lt;EM&gt;Nový&lt;/EM&gt;. Otvorí sa&amp;nbsp;formulár &lt;EM&gt;Automatická úloha&lt;/EM&gt;, v&amp;nbsp;ktorom vyberte typ úlohy&amp;nbsp;&lt;STRONG&gt;&lt;EM&gt;Generátor notifikácií&lt;/EM&gt;&lt;/STRONG&gt; a zadajte názov úlohy. 
+&lt;LI&gt;Stlačením tlačidla&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_Button_Refresh.png"&gt;&amp;nbsp;pri rozbaľovacom zozname &lt;EM&gt;Vykonávať na serveri&lt;/EM&gt;&amp;nbsp;aktualizujte zoznam dostupných serverov a vyberte príslušný server OAC, na ktorom sa má úloha vykonávať. 
+&lt;LI&gt;Vyberte používateľa systému OBERON vytvoreného v&amp;nbsp;bode č.&amp;nbsp;3, pod ktorým sa má automatická&amp;nbsp;úloha vykonávať. 
+&lt;LI&gt;Stlačte tlačidlo &lt;EM&gt;Nastaviť&lt;/EM&gt;. Otvorí sa formulár &lt;EM&gt;Nastavenia notifikácií&lt;/EM&gt;, v&amp;nbsp;ktorom stlačte tlačidlo &lt;EM&gt;Nový&lt;/EM&gt;. Otvorí sa &lt;A href="eaffff1a-43ad-4c90-a988-ebc3a51c1109"&gt;formulár Nastavenie notifikácie&lt;/A&gt;, v&amp;nbsp;ktorom v&amp;nbsp;záložke &lt;EM&gt;Základné&lt;/EM&gt; vyberte typ notifikácie &lt;STRONG&gt;&lt;EM&gt;Pokladnica OBERON - denná uzávierka&lt;/EM&gt;&lt;/STRONG&gt;, pridajte jej názov, príjemcov a&amp;nbsp;prípadne poznámku. Ak používate&amp;nbsp;&lt;A href="8df798f2-4fbf-4279-ad8c-493bdbe7f2e4"&gt;prevádzky&lt;/A&gt;, vyberte&amp;nbsp;prevádzku (v OBERON-e je možné nadefinovať viac notifikácií&amp;nbsp;- obsah správy môže byť prispôsobený konkrétnej prevádzke, napr. konkrétnej predajni). 
+&lt;LI&gt;V záložke &lt;EM&gt;Predlohy&lt;/EM&gt; začiarknite možnosť &lt;EM&gt;&lt;STRONG&gt;Notifikovať odoslaním elektronickej pošty&lt;/STRONG&gt;&lt;/EM&gt;. Stlačením tlačidla &lt;EM&gt;Upraviť predlohu (e-mail)&lt;/EM&gt; je&amp;nbsp;možné&amp;nbsp;upraviť predlohu pre e-mailové správy. Viac informácií v téme&amp;nbsp;&lt;A href="ebccc473-482c-4940-99b3-b4f5d534ccf7"&gt;Editor predlohy&lt;/A&gt;. 
+&lt;LI&gt;Vykonané nastavenia potvrďte stlačením tlačidla &lt;STRONG&gt;&lt;EM&gt;OK&lt;/EM&gt;&lt;/STRONG&gt;. &lt;/LI&gt;&lt;/OL&gt;
+&lt;H2&gt;Nastavenie odosielania&amp;nbsp;SMS notifikácií&lt;/H2&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Nastavenie odosielania&amp;nbsp;SMS notifikácie je možné vykonať analogicky podľa&amp;nbsp;postupu v téme&amp;nbsp;&lt;A href="47863971-c920-44ee-b49b-99a58f439915"&gt;Generátor notifikácií&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H5&gt;Obrázok č. 1: E-mailová&amp;nbsp;notifikácia s tržbou, ktorá bude doručená do schránky majiteľa&lt;/H5&gt;
+&lt;P&gt;&lt;IMG style="BORDER-TOP: black 1px solid; BORDER-RIGHT: grey 1px solid; BORDER-BOTTOM: grey 1px solid; BORDER-LEFT: grey 1px solid" border=0 src="images/FAQ/FAQ_AutomaticAlerts_Receipt.png"&gt;&lt;/P&gt;
+&lt;H5&gt;Obrázok č. 2: SMS notifikácia&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/CRM/CRM_SMS_Messages.png"&gt;&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="ff3a3d72-7290-4039-b6db-1f25eb8c1a9d" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="e301d0fb-f429-4bb5-a4df-7257efbe967b">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="d63b9f9f-6210-441a-872b-a4427bc56d6b" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="47863971-c920-44ee-b49b-99a58f439915">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="4e1fa15c-c095-43a6-a6d4-81f50293fe21" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="af53c105-e266-49b7-a25c-832ac36e4280">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="d811f537-70fd-47b7-82f8-79909766306d" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="d4119d75-dd5b-4a1c-b9fa-c982601e0746">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="83388cdd-8511-4ac6-8ce8-8b91cc93198f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="ebccc473-482c-4940-99b3-b4f5d534ccf7">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="f272f051-d341-49e0-bb0d-2f0ba3827b1c" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="4a6f63ac-fdeb-4de8-93d1-77c969da1f18">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="302eb606-8d44-42da-b3ad-b46cf6bba575" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="e06c0c09-80ea-4083-8f6a-5a49a3fc9474">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="c0a93522-3657-4357-9f5a-1d4fbe0539ac" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="ea5379c8-9451-40fc-ac0f-f038feefa916">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="a6739762-69ab-46ec-8669-34b4d5025316" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="86ef2453-b1a0-42de-8a0c-d8443bb6027a">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="41b8a7a4-7805-4b6d-b0d7-9f2547dbaec9" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="900c1b8a-2645-4225-ac93-d387237f3d90">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="d5d348af-5329-41ea-b8f5-ca2956e1ab67">
+      <Keyword m="2016-05-11T11:57:47.2663366Z">Denná tržba majiteľovi</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="66d391d5-8fe8-4ba8-86e6-552e7a170bcb">
+      <Keyword m="2021-06-30T12:42:28.9379582Z">Posielanie tržby e-mailom alebo SMS správou</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="89f6419c-7da6-4a07-abc5-36c72da7088a">
+      <Keyword m="2021-06-30T12:42:14.6400955Z">Tržba - poslať na e-mail alebo telefónne číslo</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

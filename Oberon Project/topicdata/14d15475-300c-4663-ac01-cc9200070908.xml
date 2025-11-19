@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="14d15475-300c-4663-ac01-cc9200070908" Status="Complete" CreatedOn="2022-06-10T10:26:55.7204904Z" ModifiedOn="2024-08-21T06:37:23.8151461Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="21840" Name="Devices_POSterminal_SoftPlusTicket" BuildFlags="">
+  <Title m="2022-06-10T10:27:27.4024253Z">Platobný terminál Softplus Ticket</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-08-04T12:37:01.8212065Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;obsahuje&amp;nbsp;&lt;STRONG&gt;základné informácie&amp;nbsp;o&amp;nbsp;platobnom systéme &lt;EM&gt;Softplus Ticket&lt;/EM&gt;&lt;/STRONG&gt;, ktorý je do systému OBERON implementovaný ako&amp;nbsp;&lt;A href="5ad1a704-08fd-4f9c-8302-8f8759cef50a"&gt;platobný terminál&lt;/A&gt;, ktorý&amp;nbsp;predstavuje jeden z&amp;nbsp;typov&amp;nbsp;&lt;A href="3f051fd3-9727-4ecc-9613-7a7fb1cb2a54"&gt;pripojiteľných zariadení&lt;/A&gt; podporovaných v systéme OBERON.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&amp;nbsp;&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;EM&gt;Softplus Ticket&lt;/EM&gt; predstavuje&amp;nbsp;platobný systém od spoločnosti&amp;nbsp;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;&lt;A href="https://www.tssgroup.sk/" target=_blank&gt;TSS Group a.s.&lt;/A&gt;&lt;/SPAN&gt;&amp;nbsp;implementovaný do systému OBERON ako&amp;nbsp;&lt;A href="5ad1a704-08fd-4f9c-8302-8f8759cef50a"&gt;platobný POS terminál&lt;/A&gt;.&amp;nbsp;Systém je &lt;STRONG&gt;určený&lt;/STRONG&gt; &lt;STRONG&gt;pre rôzne prevádzky&amp;nbsp;na alternatívny spôsob úhrady namiesto hotovosti&lt;/STRONG&gt; (napr. bufety, stánky a&amp;nbsp;pod.&amp;nbsp;v&amp;nbsp;akvaparkoch a pod). 
+&lt;LI&gt;Na rozdiel do štandardného platobného (bankového) POS terminálu sa na realizáciu&amp;nbsp;&lt;A href="1a618813-f50b-46a3-8a94-598d5394f491"&gt;bezhotovostných platieb&lt;/A&gt;&amp;nbsp;&lt;STRONG&gt;nepoužívajú platobné karty, ale RFID kľúče&lt;/STRONG&gt; (napr. vo forme náramku). Z tohto dôvodu je potrebné do systému OBERON pridať dve zariadenia: 
+&lt;OL&gt;
+&lt;LI&gt;typ zariadenia &lt;EM&gt;&lt;STRONG&gt;Platobný terminál&lt;/STRONG&gt;&lt;/EM&gt;, model&amp;nbsp;&lt;EM&gt;&lt;STRONG&gt;Softplus Ticket&lt;/STRONG&gt;&lt;/EM&gt;, 
+&lt;LI&gt;typ zariadenia&amp;nbsp;&lt;EM&gt;&lt;STRONG&gt;Snímač prístupu&lt;/STRONG&gt;&lt;/EM&gt;, model&amp;nbsp;&lt;A href="07a9169a-6739-4fc2-bbd8-959ae5d3b93d"&gt;ECI-20&lt;/A&gt;. &lt;/LI&gt;&lt;/OL&gt;
+&lt;LI&gt;Jednotlivé platby&amp;nbsp;sa vždy realizujú formou &lt;STRONG&gt;odrátania príslušnej sumy&amp;nbsp;z&amp;nbsp;celkovej&amp;nbsp;sumy kreditu&lt;/STRONG&gt; zákazníka, ktorá sa zaeviduje do platobného&amp;nbsp;systému&amp;nbsp;&lt;EM&gt;Softplus Ticket&lt;/EM&gt;&amp;nbsp;pred vstupom zákazníka do prevádzky. 
+&lt;LI&gt;Na zriadenie zákazníckeho účtu je potrebné kontaktovať dodávateľa systému&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;&amp;nbsp;&lt;A href="https://www.tssgroup.sk/" target=_blank&gt;TSS Group a.s.&lt;/A&gt;&lt;/SPAN&gt; &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Spôsoby&amp;nbsp;zaevidovania daňového dokladu&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Zaevidovanie&amp;nbsp;dokladu sa môže realizovať dvoma spôsobmi: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;zaevidovanie pri zakúpení kreditu&lt;/STRONG&gt; - pri tomto spôsobe sa daňový doklad&amp;nbsp;&lt;STRONG&gt;zaeviduje&lt;/STRONG&gt; pri zakúpení kreditu zákazníkom u&amp;nbsp;dodávateľa platobného systému. Pre tento spôsob sa v&amp;nbsp;systéme OBERON&amp;nbsp;v&amp;nbsp;typoch platieb nastaví typ platby &lt;STRONG&gt;&lt;EM&gt;Nedaňový doklad - vnútorné zúčtovanie&lt;/EM&gt;&lt;/STRONG&gt; (napr. s&amp;nbsp;názvom &lt;EM&gt;Nedaňový doklad Softplus Ticket&lt;/EM&gt;).&amp;nbsp;Vo&amp;nbsp;&lt;A href="77a7891e-a525-416c-ad7a-9e25ff95e430"&gt;formulári Typ platby&lt;/A&gt; je zároveň v&amp;nbsp;záložke &lt;EM&gt;Platobné terminály&lt;/EM&gt; potrebné vybrať &lt;EM&gt;&lt;STRONG&gt;Platobný terminál Softplus Ticket&lt;/STRONG&gt;&lt;/EM&gt;. Následne pri jednotlivých&amp;nbsp;čerpaniach kreditu&amp;nbsp;zákazník priloží k&amp;nbsp;snímaču &lt;EM&gt;ECI-20&lt;/EM&gt;&amp;nbsp;RFID kľúč (napr. vo forme náramku). Po overení kódu kľúča sa odráta príslušná suma z&amp;nbsp;kreditu zákazníka a&amp;nbsp;na &lt;EM&gt;Pokladnici OBERON&lt;/EM&gt; sa vytlačí &lt;STRONG&gt;nedaňový pokladničný doklad&lt;/STRONG&gt;.&amp;nbsp; 
+&lt;LI&gt;&lt;STRONG&gt;zaevidovanie pri jednotlivých&amp;nbsp;transakciách -&lt;/STRONG&gt; pri tomto spôsobe sa daňový doklad&amp;nbsp;&lt;STRONG&gt;nezaeviduje&lt;/STRONG&gt; pri zakúpení kreditu zákazníkom u&amp;nbsp;dodávateľa platobného systému, ale na &lt;A href="a6f5e32d-6f1e-40bb-9d15-3f784a183252"&gt;Pokladnici OBERON&lt;/A&gt;&amp;nbsp;pri každej transakcii (čerpaní kreditu). Pre tento spôsob sa v&amp;nbsp;systéme OBERON&amp;nbsp;v&amp;nbsp;typoch platieb nastaví typ platby &lt;STRONG&gt;&lt;EM&gt;Daňový doklad - bezhotovostná platba&lt;/EM&gt;&lt;/STRONG&gt; (napr. s&amp;nbsp;názvom &lt;EM&gt;Daňový doklad Softplus Ticket&lt;/EM&gt;).&amp;nbsp;Vo&amp;nbsp;&lt;A href="77a7891e-a525-416c-ad7a-9e25ff95e430"&gt;formulári Typ platby&lt;/A&gt; je zároveň v&amp;nbsp;záložke &lt;EM&gt;Platobné terminály&lt;/EM&gt; potrebné vybrať &lt;EM&gt;&lt;STRONG&gt;Platobný terminál Softplus Ticket&lt;/STRONG&gt;&lt;/EM&gt;. Následne pri jednotlivých&amp;nbsp;čerpaniach kreditu&amp;nbsp;zákazník priloží k&amp;nbsp;snímaču &lt;EM&gt;ECI-20&lt;/EM&gt;&amp;nbsp;RFID kľúč (napr. vo forme náramku). Po overení kódu kľúča sa odráta príslušná suma z&amp;nbsp;kreditu zákazníka a&amp;nbsp;na &lt;EM&gt;Pokladnici OBERON&lt;/EM&gt; sa vytlačí &lt;STRONG&gt;daňový pokladničný doklad&lt;/STRONG&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Uvedené spôsoby sa &lt;STRONG&gt;neodporúča kombinovať&lt;/STRONG&gt;, t.&amp;nbsp;j. &lt;SPAN style="COLOR: rgb(255,0,0)"&gt;je potrebné, aby sa prevádzka rozhodla pre jeden z&amp;nbsp;uvedených spôsobov a používala len daný&lt;/SPAN&gt; spôsob.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Postup inštalácie&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;Ak ešte nemáte v systéme OBERON vytvorenú (založenú) firmu, vytvorte ju&amp;nbsp;- bližšie informácie nájdete v téme &lt;A href="9a485893-6dd2-44e8-9740-a4cd7083a932" style="auto-update-caption: true"&gt;Vytvorenie účtovnej jednotky (databázy)&lt;/A&gt;. 
+&lt;LI&gt;Spustite program &lt;EM&gt;OBERON - Agenda firmy.&lt;/EM&gt; 
+&lt;LI&gt;Zvoľte ponuku &lt;EM&gt;Servis,&amp;nbsp;&lt;/EM&gt;&lt;A href="749ff4f1-eeb5-43f5-98d2-021399d8cec7"&gt;Zariadenia&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt; stlačte tlačidlo &lt;I&gt;Pridať.&lt;/I&gt; V&amp;nbsp;otvorenom formulári vyberte&amp;nbsp;typ zariadenia&amp;nbsp;&lt;EM&gt;&lt;STRONG&gt;&lt;EM&gt;Platobný&lt;/EM&gt; terminál&lt;/STRONG&gt;&lt;/EM&gt;,&amp;nbsp;zadajte názov zariadenia, zvoľte&amp;nbsp;model&amp;nbsp;&lt;EM&gt;&lt;STRONG&gt;Softplus Ticket&lt;/STRONG&gt;&lt;/EM&gt; a&amp;nbsp;zadajte (vyberte) &lt;STRONG&gt;názov počítača&lt;/STRONG&gt;, ku ktorému sa má zariadenie pripojiť, prípadne zadajte&amp;nbsp;ostatné údaje. Potom stlačte tlačidlo &lt;I&gt;Nastaviť zariadenie -&lt;/I&gt; otvorí sa&amp;nbsp;&lt;A href="06f5e819-cf70-4875-b3fd-eca80b19939b"&gt;formulár&lt;/A&gt;, v&amp;nbsp;ktorom zadajte údaje zákazníckeho účtu zriadeného u&amp;nbsp;dodávateľa systému&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;&amp;nbsp;&lt;A href="https://www.tssgroup.sk/" target=_blank&gt;TSS Group a.s.&lt;/A&gt;&amp;nbsp;&lt;/SPAN&gt; 
+&lt;LI&gt;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;Stlačením tlačidla &lt;EM&gt;Otestovať komunikáciu&lt;/EM&gt; je možné otestovať pripojenie k&amp;nbsp;platobnému systému&amp;nbsp;&lt;EM&gt;Softplus Ticket.&lt;/EM&gt;&lt;/SPAN&gt; 
+&lt;LI&gt;Vykonané nastavenia&amp;nbsp;potvrďte stlačením tlačidla &lt;STRONG&gt;&lt;EM&gt;OK&lt;/EM&gt;&lt;/STRONG&gt;. 
+&lt;LI&gt;Nastavenie platobného terminálu je ukončené. &lt;/LI&gt;&lt;/OL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Postup inštalácie&amp;nbsp;zariadenia &lt;A href="07a9169a-6739-4fc2-bbd8-959ae5d3b93d"&gt;ECI-20&lt;/A&gt;&amp;nbsp;&amp;nbsp;je k dispozícii v téme&amp;nbsp;&lt;A href="1a3df299-6cf2-4c64-8dec-7ff0d8ca795d"&gt;Snímač RFID kľúčov EXALOGIC ECI-20 - inštalácia&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="1617c9f3-81b3-4646-a15b-b9561c3a727d" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="9690f267-6ad7-4e22-9af2-675ef3d9d041">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="92410411-043b-40b5-903b-d0f096bdd6cc" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="5ad1a704-08fd-4f9c-8302-8f8759cef50a">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="363469d4-ca8e-4d68-9eb5-d31c91a11d5e" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="749ff4f1-eeb5-43f5-98d2-021399d8cec7">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="53b6a0c9-42b8-40f4-8be7-e2b6c4801768" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="06f5e819-cf70-4875-b3fd-eca80b19939b">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="b1b7f05a-9ff7-4c75-8ee7-2df3c477ca85">
+      <Keyword m="2022-06-13T11:23:36.5443218Z">POS terminál - Softplus Ticket </Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="404ab524-b55c-4380-aa75-e7d5944eaa5c">
+      <Keyword m="2022-06-13T11:23:15.5345517Z">Softplus Ticket - platobný POS terminál</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="4e2cc791-045a-44af-bddd-a333e1b2a052">
+      <Keyword m="2022-06-10T10:47:19.139537Z">TSS Softplus Ticket </Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="861dc989-28c6-4070-afe6-19182b142df7">
+      <Keyword m="2022-06-13T11:23:43.5775835Z">Softplus Ticket - postup inštalácie</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

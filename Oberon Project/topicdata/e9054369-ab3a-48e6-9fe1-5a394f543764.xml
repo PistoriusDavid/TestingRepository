@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="e9054369-ab3a-48e6-9fe1-5a394f543764" Status="Complete" CreatedOn="2024-10-22T11:32:25.7786764Z" ModifiedOn="2024-12-19T08:51:39.5097436Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="OBERON_Businesses_OnlineStore" BuildFlags="">
+  <Title m="2024-10-22T11:39:25.7092806Z">OBERON pre internetový obchod</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-12-19T08:51:39.5097436Z">&lt;TABLE id=table1 borderColor=white cellSpacing=15 cellPadding=15 border=1&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TD bgColor=white width="10%" align=left cellpadding="15" cellspacing="15"&gt;&lt;IMG style="MARGIN-TOP: 35px; FLOAT: left; MARGIN-RIGHT: 20px" border=0 alt="" src="images/OBERON/Basic/OBERON_OnlineStore.png"&gt;&lt;/TD&gt;
+&lt;TD style="TEXT-ALIGN: left; PADDING-TOP: 10px" bgColor=white width="85%"&gt;
+&lt;P&gt;Malé a&amp;nbsp;stredne veľké&amp;nbsp;firmy, pre ktoré je systém OBERON určený,&amp;nbsp;možno&amp;nbsp;rozdeliť podľa oblastí, na ktoré sú zamerané - tzv. odborových zameraní. Prehľad&amp;nbsp;najčastejších odborových zameraní, v&amp;nbsp;rámci ktorých je vhodné používať systém OBERON, je dostupný v&amp;nbsp;téme&amp;nbsp;&lt;A href="a9d046bb-1f84-4530-8215-dda2b66b2cae" style="auto-update-caption: true"&gt;Pre koho je OBERON určený?&lt;/A&gt;&amp;nbsp;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje&amp;nbsp;&lt;STRONG&gt;prehľad špecifických evidencií, funkcií a&amp;nbsp;nástrojov&lt;/STRONG&gt;, ktoré môžu v OBERON-e využívať účtovné jednotky (firmy) v&amp;nbsp;rámci&amp;nbsp;odborového zamerania&amp;nbsp;&lt;EM&gt;&lt;STRONG&gt;Internetový obchod&lt;/STRONG&gt;&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Do okruhu&amp;nbsp;odborových zameraní, pre ktoré je systém OBERON určený,&amp;nbsp;patria aj&amp;nbsp;&lt;STRONG&gt;internetové obchody&lt;/STRONG&gt;.&amp;nbsp; 
+&lt;LI&gt;Systém OBERON obsahuje &lt;STRONG&gt;celý rad základných funkcií, možností a vlastností, ktoré sú nevyhnutné&lt;/STRONG&gt; pre správu agendy každej účtovnej jednotky (firmy). Tie, ktoré sú určené pre internetové obchody, sú &lt;STRONG&gt;podrobne popísané&lt;/STRONG&gt; v&amp;nbsp;témach s&amp;nbsp;názvom &lt;EM&gt;&lt;STRONG&gt;Základné možnosti&lt;/STRONG&gt;&lt;/EM&gt;&amp;nbsp;(&lt;A href="2ba6a435-be52-46a1-b723-fb2b8ca084c0" style="auto-update-caption: true"&gt;Internetový obchod v systéme OBERON&lt;/A&gt;,&amp;nbsp;&lt;A href="7437cbeb-c6d1-4b19-92ee-150ba8e4097f" style="auto-update-caption: true"&gt;Internetový obchod PrestaShop&lt;/A&gt;, &lt;A href="dbe76648-4e40-4ef5-938e-6b4a45580f97"&gt;Skladová evidencia - základné možnosti&lt;/A&gt;, &lt;A href="60bbb193-6ba6-495c-8c54-431baf8b966f"&gt;Fakturácia - základné možnosti&lt;/A&gt;...)&amp;nbsp;a&amp;nbsp;príbuzných témach. 
+&lt;LI&gt;Základné evidencie, číselníky&amp;nbsp;a nastavenia sú sústredené najmä do dvoch ponúk programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;: do ponuky &lt;EM&gt;&lt;STRONG&gt;Servis&lt;/STRONG&gt;&lt;/EM&gt; a do ponuky &lt;EM&gt;&lt;STRONG&gt;Firma&lt;/STRONG&gt;&lt;/EM&gt;. Tu možno napr. evidovať údaje o firme, heslá ktoré používa, bankové účty, účtovné pokladne, obchodných partnerov firmy, jej pracovníkov, používateľov, ktorí budú s programom pracovať atď. 
+&lt;LI&gt;V nasledujúcej časti&amp;nbsp;je uvedený &lt;STRONG&gt;prehľad špecifických evidencií, funkcií a&amp;nbsp;nástrojov&lt;/STRONG&gt;, ktoré môžu v&amp;nbsp;OBERON-e využiť &lt;STRONG&gt;internetové obchody&lt;/STRONG&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;
+&lt;H1&gt;Evidencie, funkcie a nástroje špecifické pre internetové obchody&lt;/H1&gt;
+&lt;H2&gt;Internetový obchod&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Komunikácia s&amp;nbsp;internetovým obchodom&lt;/STRONG&gt; -&amp;nbsp;umožňuje on-line predaj, podpora viacerých on-line a off-line e-shopových riešení, prehľad rozsahu synchronizácie pri jednotlivých internetových obchodoch je k&amp;nbsp;dispozícii v&amp;nbsp;téme &lt;A href="2ba6a435-be52-46a1-b723-fb2b8ca084c0" style="auto-update-caption: true"&gt;Internetový obchod v systéme OBERON&lt;/A&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;PrestaShop&lt;/STRONG&gt; - priama (natívna) podpora&amp;nbsp;&lt;A href="7437cbeb-c6d1-4b19-92ee-150ba8e4097f"&gt;internetového obchodu PrestaShop&lt;/A&gt;&amp;nbsp;&lt;A href="1f32a90c-7b4a-4d69-9f38-a560178794b3" style="auto-update-caption: true"&gt;&lt;IMG border=0 alt="Odporúčané riešenia" src="images/OBERON/Basic/Odporucane-riesenie_ruka_ikona.png"&gt;&lt;/A&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;Rozsah synchronizácie&amp;nbsp;pri PrestaShope&lt;/STRONG&gt; -&amp;nbsp;export skladových kariet,&amp;nbsp;obrázkov,&amp;nbsp;predajných cien (vrátane vybraných cien rozšírenej cenotvorby),&amp;nbsp;parametrov a variantov (farby, veľkosti...),&amp;nbsp;aktuálnych množstiev (aj z viacerých skladov),&amp;nbsp;kategórií skladových kariet, import prijatých objednávok, aktualizácia stavov prijatých&amp;nbsp;objednávok. 
+&lt;LI&gt;&lt;STRONG&gt;Implementácia PrestaShopu&lt;/STRONG&gt;&amp;nbsp;- na implementáciu môžete využiť služby niektorej zo špecializovaných firiem:&amp;nbsp;&lt;A href="https://exalogic.sk/oberon/suvisiace-produkty/prestashop-ivanic/" target=_blank&gt;iVANIC, s.r.o.&lt;/A&gt;&amp;nbsp;alebo&amp;nbsp;&lt;A href="https://exalogic.sk/oberon/suvisiace-produkty/prestashop-caleydon/" target=_blank&gt;Caleydon s.r.o.&lt;/A&gt; &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Sklad&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;&lt;A href="78d20602-4b59-4b31-9f0a-a04a1d376ec5"&gt;Skladová evidencia&lt;/A&gt;&lt;/STRONG&gt; - evidencia zásob, práca s objednávkami, faktúrami, príjmom, výdajom a&amp;nbsp;expedíciou&amp;nbsp;tovaru, sledovanie pripravenosti, naskladnenosti a vyskladnenosti&amp;nbsp;tovaru. Vydávanie tovaru z jedného, prípadne viacerých skladov. 
+&lt;LI&gt;&lt;STRONG&gt;Kategórie skladových kariet&lt;/STRONG&gt; - kvôli prehľadnosti je&amp;nbsp;možné skladové karty členiť do&amp;nbsp;&lt;A href="4dfc2d36-f1c8-4b60-81c4-62e8e5197b99"&gt;kategórií&lt;/A&gt;, ktoré sa zobrazujú formou stromovej štruktúry. 
+&lt;LI&gt;&lt;STRONG&gt;Výrobné a sériové čísla&lt;/STRONG&gt; - možnosť evidovať predávané položky pod &lt;A href="6f1a89e8-2f56-4543-a452-409834433d36"&gt;výrobným alebo sériovým číslom&lt;/A&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;Parametre a varianty&lt;/STRONG&gt; - možnosť evidovať k&amp;nbsp;predávaným položkám parametre&amp;nbsp;a&amp;nbsp;&lt;A href="b0e0ad9c-d19d-4670-8485-ec384dbae1bd"&gt;varianty&lt;/A&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;Obrázky a dokumenty&lt;/STRONG&gt;&amp;nbsp;- ku každej predávanej položke možno evidovať&amp;nbsp;&lt;A href="ccadca4e-2fbd-4b28-8d92-f826f3019bd0"&gt;obrázok&lt;/A&gt; alebo iný dokument. 
+&lt;LI&gt;&lt;A href="34f91c11-1a5d-4773-ac4e-48ad2fc859d3"&gt;&lt;STRONG&gt;Rozšírená cenotvorba&lt;/STRONG&gt;&lt;/A&gt; - možnosť zasielať vybrané ceny rozšírenej cenotvorby do internetového obchodu&amp;nbsp;&lt;EM&gt;PrestaShop&lt;/EM&gt;, napr. pre veľkoobchodných partnerov iné ceny (zmluvné, letákové dohody a pod.). 
+&lt;LI&gt;&lt;STRONG&gt;Stavy objednávok -&lt;/STRONG&gt; možnosť&amp;nbsp;pri objednávkach evidovať stavy, ktoré odzrkadľujú aktuálny status ich&amp;nbsp;vybavenia,&amp;nbsp;resp. upresnenie ich procesného spracovania.&amp;nbsp;Kým pri vydaných objednávkach sú stavy dané (&lt;EM&gt;Nevybavená, Vybavuje sa, Vybavená, Zrušená&lt;/EM&gt;), pri prijatých objednávkach ich možno prispôsobiť a nadefinovať podľa potrieb účtovnej jednotky, napr. &lt;EM&gt;Nová objednávka, Potrebné objednať, Potrebné vyskladniť, Odoslaná&lt;/EM&gt; atď.&amp;nbsp;Bližšie informácie v&amp;nbsp;téme&amp;nbsp;&lt;A href="e3603367-ba3b-4944-b731-0d81cb121c61" style="auto-update-caption: true"&gt;Typy stavov prijatých objednávok&lt;/A&gt;. 
+&lt;LI&gt;&lt;A href="f65d09c4-6f7e-42a3-8ae5-3cda89534c06"&gt;&lt;STRONG&gt;Automatická tvorba objednávok&lt;/STRONG&gt;&lt;/A&gt;&amp;nbsp;-&amp;nbsp;možnosť automaticky vytvárať objednávky tovaru podľa evidovaných prijatých objednávok a aktuálneho stavu zásob. 
+&lt;LI&gt;&lt;A href="7417bb5c-568f-4291-bbb9-0e5872ad6299"&gt;&lt;STRONG&gt;Príjem/výdaj tovaru v baleniach&lt;/STRONG&gt;&lt;/A&gt; - možnosť&amp;nbsp;prijímať/vydávať tovar vo väčších baleniach (napr. paleta obsahuje&amp;nbsp;40 vreciek záhradníckeho substrátu pod.), ktoré si používateľ môže definovať sám. 
+&lt;LI&gt;&lt;STRONG&gt;Umiestnenie&lt;/STRONG&gt; - možnosť zadať na skladovej karte&amp;nbsp;fyzické umiestnenie tovaru v sklade (napr. &lt;EM&gt;Regál 5, Skriňa 2&lt;/EM&gt; a pod.).&lt;IMG style="MARGIN-LEFT: 20px; MARGIN-RIGHT: 20px" border=0 alt="" src="images/OBERON_Center/PrestaShop/OBERON_Center_PrestaShop_logo.png" align=right&gt; 
+&lt;LI&gt;&lt;STRONG&gt;Expedícia tovaru&lt;/STRONG&gt; - možnosť&amp;nbsp;zadať (evidovať) údaje potrebné na správnu expedíciu tovaru zo skladu, t. j. počet a typ balíkov, ich hmotnosť, poznámku. 
+&lt;LI&gt;&lt;STRONG&gt;Inventúra skladu&lt;/STRONG&gt; - prepracovaný systém&amp;nbsp;&lt;A href="79f53c12-0f9d-46c1-b039-2a412e1671f0"&gt;inventúry&lt;/A&gt;, tlač manka, prebytku a pod. Zadávanie fyzických množstiev je možné aj pomocou mobilnej aplikácie&amp;nbsp;&lt;A href="be17efdf-4b36-4b47-ad5d-09b0f66c8f65"&gt;ASTON - mobilný skladník&lt;/A&gt; alebo webovej aplikácie&amp;nbsp;&lt;A href="b138daad-5453-4e53-8d2c-ecf2e81a5fcb"&gt;OBERON Web&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Fakturácia&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Vyhľadanie obchodného partnera&lt;/STRONG&gt; - pri vytváraní nového dokladu (príjemka, faktúra...) možnosť&amp;nbsp;&lt;A href="e5871f39-032a-431b-9117-df5a4e5dccc8"&gt;vyhľadať obchodného partnera na internete podľa názvu alebo IČO&lt;/A&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;On-line informácie&lt;/STRONG&gt; - možnosť získať &lt;A href="00d205b2-0e2c-439a-8f6e-a1126be097ea"&gt;on-line informácie o tržbách, zisku, dlhoch a nedoplatkoch&lt;/A&gt; konkrétneho&amp;nbsp;&lt;A href="4fbe9db8-25bc-420f-aee5-228d0a8ff03f"&gt;obchodného partnera&lt;/A&gt; na základe platenej služby od&amp;nbsp;spoločnosti &lt;EM&gt;FinStat s.r.o.&lt;/EM&gt; Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="45606061-b153-4728-9964-618d7ef13eed" style="auto-update-caption: true"&gt;FinStat&lt;/A&gt;. 
+&lt;LI&gt;&lt;A href="ab574902-6abb-4c2c-b0a5-af9a2f62b7f4"&gt;&lt;STRONG&gt;Automatické overenie platnosti IČ DPH na internete&lt;/STRONG&gt;&lt;/A&gt; – možnosť overiť IČ DPH pri konkrétnom obchodnom partnerovi alebo hromadne a pri každom doklade (faktúra, výdajka...), resp. pri tvorbe kontrolného výkazu DPH. 
+&lt;LI&gt;&lt;A href="bda10a0f-7c77-4861-91a1-0366af826978" style="auto-update-caption: true"&gt;&lt;STRONG&gt;Automatické overenie bankových účtov dodávateľov&lt;/STRONG&gt;&lt;/A&gt;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;&amp;nbsp;-&lt;/SPAN&gt; platiteľov DPH&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;.&lt;/SPAN&gt; 
+&lt;LI&gt;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;&lt;STRONG&gt;Vystavenie faktúr&lt;/STRONG&gt; - možnosť vytvoriť faktúru z prijatej objednávky.&lt;/SPAN&gt; 
+&lt;LI&gt;&lt;A href="f68687b5-0939-447b-9f8e-37c883676f1e"&gt;&lt;STRONG&gt;Členenie&lt;/STRONG&gt;&lt;/A&gt; &lt;STRONG&gt;-&lt;/STRONG&gt; možnosť definovať členenie dokladov (záznamov) evidovaných spravidla v dokladových evidenciách na získanie prehľadu o chode činností (odvetví) internetového obchodu (napr.&amp;nbsp;elektronika&amp;nbsp;- drogéria - domáce potreby). 
+&lt;LI&gt;&lt;STRONG&gt;Cudzie meny a jazyky&lt;/STRONG&gt; - možnosť vystavovať/evidovať&amp;nbsp;&lt;A href="183ab557-cc49-4d23-8935-dfcc8379a1ec"&gt;faktúry v cudzej mene&lt;/A&gt; i cudzích jazykoch. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Ďalšie funkcie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Mobilné riešenia&lt;/STRONG&gt;&amp;nbsp;- aplikácia&amp;nbsp;&lt;A href="be17efdf-4b36-4b47-ad5d-09b0f66c8f65"&gt;ASTON - mobilný skladník&lt;/A&gt; pre &lt;EM&gt;Android&lt;/EM&gt; a &lt;EM&gt;iOS&lt;/EM&gt; na všestrannú prácu v sklade (príjem objednávok, príjem a výdaj tovaru, sledovanie&amp;nbsp; pripravenosti, naskladnenosti a&amp;nbsp;vyskladnenosti&amp;nbsp;tovaru, expedícia tovaru,&amp;nbsp;editácia skladových kariet, kontrola cien...). 
+&lt;LI&gt;&lt;STRONG&gt;Chameleoon&lt;/STRONG&gt; -&amp;nbsp;externá webová aplikácia, ktorá umožňuje jednoducho vytvárať a tlačiť expedičné štítky pre celý rad kuriérskych spoločností z celej Európy bez potreby manuálneho prepisovania. 
+&lt;LI&gt;&lt;A href="945b74ea-31f8-44e7-baef-ffb5fc136b05"&gt;&lt;STRONG&gt;Reklamácie a servis&lt;/STRONG&gt;&lt;/A&gt; - možnosť evidovať reklamácie, prípadne&amp;nbsp;servisné zásahy (v module&amp;nbsp;&lt;A href="f1a6963d-36aa-4134-92a5-fa47a4345e74"&gt;CRM a registratúra&lt;/A&gt;). 
+&lt;LI&gt;&lt;A href="c1e2e5a1-2cf4-47aa-a546-47d5baa1df3e"&gt;&lt;STRONG&gt;Elektronický podpis&lt;/STRONG&gt;&lt;/A&gt; - automatické elektronické podpisovanie a overovanie pravosti faktúr (PDF, XML) s&amp;nbsp;vložením podpísanej faktúry v&amp;nbsp;PDF&amp;nbsp;formáte ako prílohy do e-mailu. 
+&lt;LI&gt;&lt;A href="68a24d97-e4a5-4cf4-bc7a-72262df5973e"&gt;&lt;STRONG&gt;Elektronický archív&lt;/STRONG&gt;&lt;/A&gt;&amp;nbsp;- veľmi užitočným pre každú účtovnú jednotku môže byť&amp;nbsp;elektronický archív, ktorý umožňuje v&amp;nbsp;elektronickej forme uschovávať doklady (výdajky,&amp;nbsp; faktúry...). 
+&lt;LI&gt;&lt;A href="dcd3c480-994c-477d-9fc7-17af717ade13" style="auto-update-caption: true"&gt;&lt;STRONG&gt;Správca hesiel&lt;/STRONG&gt;&lt;/A&gt;&amp;nbsp;- užitočným nástrojom je aj&amp;nbsp;&lt;EM&gt;Správca hesiel&lt;/EM&gt;&amp;nbsp;určený na správu hesiel účtovnej jednotky a&amp;nbsp;ich zdieľanie&amp;nbsp;(napr. prihlásenie do internetbankingu, údaje platobných kariet, BOK kód, prihlásenie do&amp;nbsp;SQL servera, internetových obchodov a pod.). 
+&lt;LI&gt;&lt;A href="b138daad-5453-4e53-8d2c-ecf2e81a5fcb"&gt;&lt;STRONG&gt;OBERON Web&lt;/STRONG&gt;&lt;/A&gt;&amp;nbsp;- webová aplikácia, ktorá sprístupňuje vybrané manažérske informácie dostupné v reálnom čase (obchodní partneri, prehľad prijatých objednávok, aktuálne stavy zásob v sklade...)&amp;nbsp;a&amp;nbsp;umožňuje vykonávať inventúru skladu. 
+&lt;LI&gt;&lt;STRONG&gt;Tlačové výstupy&lt;/STRONG&gt; - množstvo prehľadných&amp;nbsp;tlačových výstupov&amp;nbsp;na analýzu predaja, grafy. 
+&lt;LI&gt;&lt;A href="04d2db16-08ec-459e-b5c9-71dd3a9f9e2f"&gt;&lt;STRONG&gt;Jazykové verzie&lt;/STRONG&gt;&lt;/A&gt; - zahŕňajú jazykové verzie programu (preklady názvov&amp;nbsp;jednotlivých položiek menu, názvov záložiek, tlačidiel atď., hlásenia v programe a&amp;nbsp;tlačové výstupy) a jazykové verzie údajov (preklady dát evidovaných v databáze účtovnej jednotky). &lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="1c0f4d8f-fb72-48df-82e4-6b0776565bf8" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="ff101cdb-97bb-4962-b99a-6347d95ff311">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="c23b0ab7-0dde-429b-b0fb-5e6331745f36" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="a9d046bb-1f84-4530-8215-dda2b66b2cae">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="ad84219b-dcec-4de2-a15c-edd60cd697f7" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="2ba6a435-be52-46a1-b723-fb2b8ca084c0">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="d6bf187e-4e95-482f-bf22-3b6e58854cff" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="7437cbeb-c6d1-4b19-92ee-150ba8e4097f">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="fec3ccc3-3d2b-4dd1-9c0a-4f953625b494" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="dbe76648-4e40-4ef5-938e-6b4a45580f97">
+      <Title m="2024-10-30T13:44:06.4444501Z">Skladová evidencia - základné možnosti</Title>
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="6fbe484a-97c5-4aa8-a25e-7b97a57789ed" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="60bbb193-6ba6-495c-8c54-431baf8b966f">
+      <Title m="2024-10-30T13:44:27.48805Z">Fakturácia - základné možnosti</Title>
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="0ad6ab74-449b-453b-9832-161ea0bb9235" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="95d188df-c149-46a9-8474-4d9493f2ad41">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="cdcca6f1-0a5c-4bb1-a0d0-fedb7c40e5af" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="40c83e5f-22aa-4ba5-b4c1-35938f90fac2">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="697f1e8e-6aa5-4361-b4bc-8244461e17f3" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="04d2db16-08ec-459e-b5c9-71dd3a9f9e2f">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="fc809cc1-8dd4-4a27-8985-4a73889414d5">
+      <Keyword m="2024-10-28T07:06:07.9642254Z">Internetový obchod - pre koho je OBERON určený</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="9ee88427-4faa-4dbd-913b-f0e258c86db3">
+      <Keyword m="2024-10-31T09:29:07.9419529Z">eShop - pre koho je OBERON určený</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="c368e39f-89cd-4409-a6f7-2293bd69ef45">
+      <Keyword m="2024-10-31T09:29:25.6461481Z">e-Shop - pre koho je OBERON určený</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

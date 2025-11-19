@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="33c01089-c83f-47e5-a262-79c14d9ff698" Status="Complete" CreatedOn="2020-11-20T08:40:06.3470061Z" ModifiedOn="2023-11-24T07:02:24.1652427Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="22612" Name="Menu_Acc_InvoiceOffsetting" BuildFlags="">
+  <Title m="2020-11-20T08:41:03.6202171Z">Evidencia zápočtov faktúr</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-11-24T07:02:24.1652427Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;je venovaná&amp;nbsp;položke&amp;nbsp;&lt;EM&gt;Evidencia zápočtov faktúr&lt;/EM&gt;&amp;nbsp;v&amp;nbsp;ponuke&amp;nbsp;&lt;EM&gt;Účtovníctvo&lt;/EM&gt; programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Výberom položky sa otvorí kniha &lt;EM&gt;Evidencia zápočtov faktúr&lt;/EM&gt;, ktorá&amp;nbsp;v systéme OBERON &lt;STRONG&gt;umožňuje vytvoriť a evidovať zápočet (dohodu o zápočte) vzájomných pohľadávok a&amp;nbsp;záväzkov medzi účtovnou jednotkou a odberateľom, ktorý je zároveň aj dodávateľom&lt;/STRONG&gt;. Špecialitou je tzv. &lt;STRONG&gt;zaúčtovanie súhrnnej platby&lt;/STRONG&gt;, keď je možné zaúčtovať zápočet medzi odberateľmi a tretím partnerom, ktorý sprostredkúva predaj tovarov alebo služieb a prijíma platby v&amp;nbsp;mene&amp;nbsp;účtovnej jednotky (napr. zľavové portály, rezervačné portály ubytovania a pod.). 
+&lt;LI&gt;V&amp;nbsp;prípade používania &lt;A href="8df798f2-4fbf-4279-ad8c-493bdbe7f2e4"&gt;prevádzok&lt;/A&gt;&amp;nbsp;záznamy&amp;nbsp;v&amp;nbsp;knihe &lt;EM&gt;Evidencia zápočtov faktúr&lt;/EM&gt;&amp;nbsp;možno zobraziť podľa príslušnosti&amp;nbsp;k prevádzke, a&amp;nbsp;to&amp;nbsp;ako podmnožiny&amp;nbsp;záznamov knihy. Možno tak urobiť pomocou filtra&amp;nbsp;&lt;EM&gt;Prevádzka&lt;/EM&gt; v&amp;nbsp;hornej časti evidencie.&amp;nbsp;Zoznam dostupných prevádzok (definujú sa v ponuke &lt;EM&gt;Firma&lt;/EM&gt;,&amp;nbsp;&lt;A href="a833ee8a-1289-42b9-923f-80f549497702"&gt;Údaje o firme&lt;/A&gt;)&amp;nbsp;je možné v prípade potreby obmedziť pomocou&amp;nbsp;&lt;A href="834e9546-a56b-476f-9028-ef4c24a82345"&gt;používateľských práv&lt;/A&gt;. 
+&lt;LI&gt;Vzájomný zápočet pohľadávok a záväzkov predstavuje &lt;STRONG&gt;jednu z foriem úhrad týchto dokladov&lt;/STRONG&gt;, pričom zápočtom je možné navzájom započítať (uhradiť) pohľadávky a&amp;nbsp;záväzky evidované voči tomu istému&amp;nbsp;&lt;A href="b7a48886-b367-4056-808a-59ba5f871f32"&gt;obchodnému partnerovi&lt;/A&gt;. Zároveň sa zápočtom automaticky vykoná aj zaúčtovanie úhrad pohľadávok a&amp;nbsp;záväzkov. 
+&lt;LI&gt;Legislatívne vzájomný zápočet pohľadávok a záväzkov upravuje &lt;EM&gt;Občiansky zákonník&lt;/EM&gt; v § 580 – 581 a &lt;EM&gt;Obchodný zákonník&lt;/EM&gt; v § 358 – 364. 
+&lt;LI&gt;V&amp;nbsp;OBERON-e sa rozlišujú tieto druhy zápočtov: 
+&lt;OL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Jednostranný zápočet&lt;/STRONG&gt; - je jednostranným právnym úkonom, na ktorého platnosť a účinnosť sa nevyžaduje súhlas druhej strany. Jednostranné započítanie pohľadávok je prejavením vôle jedného účastníka započítať druhému účastníkovi vzájomné pohľadávky, a to bez ohľadu na to, či s takýmto započítaním druhá strana súhlasí, alebo nie. Ak sa jedna strana rozhodne pre vzájomný zápočet jednostranným úkonom, je potrebné splniť nasledujúce podmienky: 
+&lt;UL&gt;
+&lt;LI&gt;pohľadávky nie sú na náhradu škody spôsobenej na zdraví, 
+&lt;LI&gt;pohľadávky je možné postihnúť výkonom rozhodnutia, 
+&lt;LI&gt;pohľadávky nie sú premlčané a zároveň sa ich vyplatenia nemožno domáhať na súde, 
+&lt;LI&gt;všetky započítavané pohľadávky sú splatné.&lt;BR&gt;Pri automatickom vytvorení jednostranného zápočtu sa do tohto zápočtu zaradia len faktúry, ktoré sú po lehote splatnosti. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Zápočet dohodou&lt;/STRONG&gt; - pri tomto druhu zápočtu nie je nutné splniť predchádzajúce podmienky (na základe dohody strán možno započítať akékoľvek vzájomné pohľadávky, t.&amp;nbsp;j. aj premlčané a pred&amp;nbsp;dátumom splatnosti). V prípade zápočtu dohodou je však potrebné, aby prvý účastník predložil takýto zápočet druhému účastníkovi na odsúhlasenie. Po odsúhlasení a potvrdení zápočtu posiela druhý účastník jednu kópiu zápočtu späť prvému účastníkovi a až potom môže byť zápočet zaúčtovaný. 
+&lt;LI&gt;&lt;STRONG&gt;Zaúčtovanie súhrnnej platby&lt;/STRONG&gt; -&amp;nbsp;v tomto treťom špeciálnom prípade ide o zaúčtovanie prijatej hromadnej platby od sprostredkovateľa a úhradu (aj zaúčtovanie úhrad) vystavených faktúr jednotlivých odberateľov. Inými slovami, týmto spôsobom je možné zaúčtovať zápočet medzi odberateľmi a tretím partnerom, ktorý sprostredkúva predaj tovarov alebo služieb a prijíma platby v mene účtovnej jednotky. Typickým príkladom sú zľavové portály, rezervačné portály ubytovania alebo v dnešnej dobe čoraz obľúbenejšie internetové obchody využívajúce platobné brány. Tie od zákazníkov inkasujú peniaze (zákazníci spravidla platia platobnou kartou). Následne za určité obdobie zasielajú súhrnnú platbu účtovnej jednotke. Daňové doklady vystavuje vždy účtovná jednotka priamo zákazníkovi, čiže tretia strana vystupuje v roli sprostredkovateľa. Platba prijatá účtovnou jednotkou od sprostredkovateľa nie je záväzkom – je to len platba, z ktorej je spravidla odpočítaná provízia. Viac informácií je možné získať v&amp;nbsp;témach&amp;nbsp;&lt;A href="ed36a928-8e2c-4607-abaf-5c188e6045cf"&gt;Účtovanie faktúr za ubytovanie cez rezervačný portál (podvojné účtovníctvo)&lt;/A&gt;&amp;nbsp;a &lt;A href="5e0f3718-0c09-4471-bdcc-a6bfebc36f5e"&gt;Účtovanie faktúr za ubytovanie cez rezervačný portál (jednoduché účtovníctvo)&lt;/A&gt;. &lt;/LI&gt;&lt;/OL&gt;
+&lt;LI&gt;Započítať pohľadávky je možné len do výšky, v akej sa kryjú. Ak sú vzájomné doklady pre zápočet v rôznej výške, započítať je možné aj časť faktúry, t. j. faktúra bude uhradená čiastočne. 
+&lt;LI&gt;Po vytvorení zápočtu sa do&amp;nbsp;&lt;A href="d8c9bfc8-92d1-4471-8909-e5f8ce602d6c"&gt;účtovného&lt;/A&gt;, resp.&amp;nbsp;&lt;A href="5e82cca9-b8af-4a80-ba30-7ab91914a595"&gt;peňažného denníka&lt;/A&gt; &lt;STRONG&gt;automaticky zapíšu úhrady faktúr uvedených v zápočte&lt;/STRONG&gt;. Úhrady sa zaúčtujú podľa predkontácií zadaných v zápočte, spravidla sú to interné doklady. Predvolené predkontácie je možné nastaviť v&amp;nbsp;nastaveniach programu (ponuka &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="932262cc-b80f-4ce6-aba6-6a7d4a18f5ec"&gt;oddiel Firma, Účtovníctvo&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt; záložka &lt;EM&gt;Účtovanie&lt;/EM&gt;). Tu zadané predkontácie sa automaticky preberajú do vytvorených zápočtov, kde je ich možné v prípade potreby aj upraviť (zmeniť predkontáciu). 
+&lt;LI&gt;Záznamy v knihe&amp;nbsp;možno&amp;nbsp;filtrovať alebo triediť. Nastaviť kritériá filtrovania alebo triedenia možno po stlačení tlačidla &lt;A href="124da68e-c3f0-43e4-9466-60b4916bfc41"&gt;Vlastnosti&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt; 
+&lt;P&gt;Vytvoriť, resp. upraviť zápočet je možné pomocou&amp;nbsp;&lt;A href="5b38ec44-f2e2-4ee1-b00a-268b6d20482b"&gt;formulára Zápočet&lt;/A&gt;.&amp;nbsp;Všeobecný postup pri vzájomnom vysporiadaní pohľadávok a záväzkov&amp;nbsp;pomocou zápočtov tak v systéme&amp;nbsp;&lt;A href="49dd3167-870a-4fdf-b631-d4f692f1ed72"&gt;podvojného&lt;/A&gt;, ako aj&amp;nbsp;&lt;A href="32be28cf-2368-4818-9d24-cfa9d59afb75"&gt;jednoduchého účtovníctva&lt;/A&gt;&amp;nbsp;nájdete v&amp;nbsp;téme&amp;nbsp;&lt;A href="2c25546b-872e-4c70-a89a-53e5999a7fe1"&gt;Úhrada faktúr zápočtom&lt;/A&gt;.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Spôsoby vytvorenia zápočtu&lt;/H2&gt;Z hľadiska výberu faktúr do vzájomného započítania je možné postupovať viacerými spôsobmi: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Manuálny výber faktúr&lt;/STRONG&gt;&amp;nbsp;- do zápočtu sa faktúry vyberajú&amp;nbsp;manuálne, a to tak z knihy pohľadávok,&amp;nbsp;ako aj&amp;nbsp;z&amp;nbsp;knihy záväzkov. Prípadný vzniknutý rozdiel&amp;nbsp;v&amp;nbsp;započítaných faktúrach je potrebné upraviť manuálne. V tomto prípade&amp;nbsp;je v sprievodcovi tvorbou nového zápočtu potrebné zvoliť&amp;nbsp;voľbu&amp;nbsp;&lt;EM&gt;Faktúry vybrať manuálne&lt;/EM&gt;.&amp;nbsp;Pri výbere faktúr&amp;nbsp;sa zobrazujú len neuhradené doklady daného obchodného partnera (kontroluje sa IČO). 
+&lt;LI&gt;&lt;STRONG&gt;Manuálny hromadný výber faktúr&lt;/STRONG&gt;&amp;nbsp;- do zápočtu sa faktúry vyberajú&amp;nbsp;manuálne, a to tak&amp;nbsp;z knihy pohľadávok,&amp;nbsp;ako aj&amp;nbsp;z&amp;nbsp;knihy záväzkov. Faktúry je však možné vybrať pomocou&amp;nbsp;&lt;A href="54bcf6c3-515f-4dcb-a3eb-0bf905629a16"&gt;označovania záznamov&lt;/A&gt; a tak ich hromadne zapísať do zápočtu. Prípadný vzniknutý rozdiel&amp;nbsp;v započítaných faktúrach je potrebné upraviť manuálne. V sprievodcovi tvorbou nového zápočtu je potrebné zvoliť&amp;nbsp;voľbu&amp;nbsp;&lt;EM&gt;Faktúry vybrať manuálne&lt;/EM&gt;.&amp;nbsp; &amp;nbsp; 
+&lt;LI&gt;&lt;STRONG&gt;Automatická tvorba zápočtu&lt;/STRONG&gt;&amp;nbsp;- započítané doklady (faktúry) sa do zápočtu vyberajú automaticky. Vyberú sa všetky neuhradené faktúry z knihy pohľadávok a záväzkov s daným obchodným partnerom (pri jednostrannom zápočte len po lehote splatnosti). Celková započítaná suma sa nakoniec automaticky upraví podľa toho, či sú navzájom fakturované sumy rovnaké alebo nie. V prvom prípade sa pohľadávky a záväzky vzájomne vynulujú, v druhom, častejšom prípade sa celková započítaná suma upraví podľa toho, ktorá strana vyfakturovala menej. V tomto prípade&amp;nbsp;je v sprievodcovi tvorbou nového zápočtu potrebné zvoliť&amp;nbsp;voľbu&amp;nbsp;&lt;EM&gt;Faktúry na zápočet vybrať&amp;nbsp;automaticky.&lt;/EM&gt; &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Ďalšie informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Ak je zápočet už zaúčtovaný, nie je ho už možné upravovať. V&amp;nbsp;prípade potreby je možné zrušiť zaúčtovanie zápočtu (tlačidlo &lt;EM&gt;Možnosti&lt;/EM&gt;, &lt;EM&gt;Zrušiť zaúčtovanie zápočtu&lt;/EM&gt;) - vtedy sa automaticky z účtovného (peňažného) denníka odstránia záznamy vytvorené pri zaúčtovaní zápočtu. 
+&lt;LI&gt;Záznamy v evidencii zápočtov môžu byť zobrazené rôznou farbou v závislosti od stavu, v akom sa nachádzajú.&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/LI&gt;&lt;/UL&gt;
+&lt;TABLE id=table2 style="HEIGHT: 108px; WIDTH: 650px; BORDER-COLLAPSE: collapse" cellPadding=2 width=650 border=0&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TH width=163&gt;&lt;STRONG&gt;Farba záznamu&lt;/STRONG&gt;&lt;/TH&gt;
+&lt;TH&gt;&lt;STRONG&gt;Popis&lt;/STRONG&gt;&lt;/TH&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD class=CZ height=22 width=163&gt;Čierna farba&lt;/TD&gt;
+&lt;TD class=CZ height=22 align=left&gt;Schválený a zaúčtovaný zápočet&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD&gt;&lt;STRONG&gt;Tučné písmo&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD class=CZ align=left&gt;Nezaúčtovaný zápočet&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD class=CZ width=163&gt;&lt;FONT color=#33cc33&gt;&lt;FONT style="COLOR: rgb(255,101,101)" color=red&gt;&lt;STRONG style="COLOR: rgb(255,0,0)"&gt;Červená farba&lt;/STRONG&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD class=CZ align=left&gt;Rozdiel medzi započítanými pohľadávkami a záväzkami (chyba)&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD class=CZ style="COLOR: rgb(171,115,213)" width=163&gt;&lt;STRONG style="COLOR: rgb(112,48,160)"&gt;Fialová farba&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD class=CZ align=left&gt;Neschválený zápočet (očakáva sa schválenie)&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;
+&lt;H2&gt;Dostupné možnosti&lt;/H2&gt;
+&lt;P&gt;Ďalšie možnosti práce so záznamami&amp;nbsp;sú dostupné&amp;nbsp;po stlačení tlačidla &lt;EM&gt;Možnosti&lt;/EM&gt;, prípadne v&amp;nbsp;kontextovej ponuke tabuľky záznamov.&lt;/P&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Zobraziť účtovanie&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Zobrazí účtovanie v&amp;nbsp;&lt;A href="d8c9bfc8-92d1-4471-8909-e5f8ce602d6c"&gt;účtovnom&lt;/A&gt; alebo v&amp;nbsp;&lt;A href="5e82cca9-b8af-4a80-ba30-7ab91914a595"&gt;peňažnom&lt;/A&gt; denníku.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Zrušiť zaúčtovanie zápočtu&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Funkcia zruší už zaúčtovaný zápočet.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Zobraziť väzby dokumentu&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Systém OBERON udržiava medzi súvisiacimi záznamami v rôznych evidenciách väzby (napr. na kontrolu správnosti zaúčtovania). Funkcia zostaví grafický prehľad väzieb daného záznamu, ktorý je zároveň interaktívny - kliknutím pravým tlačidlom myši je možné jednotlivé záznamy zobraziť, upraviť, resp. exportovať.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Zobraziť prílohy&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Výberom možnosti sa otvorí formulár, v ktorom možno pridať dokument alebo obrázok (tlačidlo&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_Button_YellowPlus.png"&gt;). Použiť možno aj funkciu &lt;EM&gt;Drag&amp;amp;Drop&lt;/EM&gt;, prípadne prílohu oskenovať. Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="79eb5ae4-3bae-4a0c-be52-69c1ed8e59e5" style="auto-update-caption: true"&gt;Práca s prílohami&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Odoslať e-mail&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Funkcia &lt;EM&gt;Odoslať e-mail&lt;/EM&gt; umožňuje na zadaný e-mailový kontakt manuálne odoslať jednoduchú e-mailovú správu. Správu je možné vytvoriť z preddefinovaných predlôh, ktoré možno podľa potreby upravovať, ďalšie predlohy je možné vytvárať podľa požiadaviek účtovnej jednotky. Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="e06c0c09-80ea-4083-8f6a-5a49a3fc9474" style="auto-update-caption: true"&gt;Odosielanie e-mailov v systéme OBERON&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Zaslať SMS&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Pomocou sprievodcu je možné ihneď zaslať SMS obchodnému partnerovi o započítaní pohľadávok a záväzkov.&amp;nbsp;Zoznam vytvorených SMS správ je dostupný v ponuke &lt;EM&gt;CRM&lt;/EM&gt;,&amp;nbsp;&lt;A href="d4119d75-dd5b-4a1c-b9fa-c982601e0746" style="auto-update-caption: true"&gt;SMS správy&lt;/A&gt;. V tejto evidencii je možné napríklad v&amp;nbsp;prípade nedostupnosti mobilného telefónu prijímateľa overiť aj fyzické doručenie danej správy. Bližšie informácie získate v téme&amp;nbsp;&lt;A href="811261a5-bffc-4ade-8202-53e489e4fa81" style="auto-update-caption: true"&gt;Sprievodca Zaslanie SMS&lt;/A&gt;. Zasielanie SMS správ je&amp;nbsp;&lt;A href="d4119d75-dd5b-4a1c-b9fa-c982601e0746"&gt;spoplatnená služba&lt;/A&gt;. Možnosť zaslania SMS správy je&amp;nbsp;dostupná len v prípade, že je v&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="081aff87-08e6-4933-9843-d1b47dc745fb"&gt;oddiel Firma, Moduly&lt;/A&gt;&amp;nbsp;povolené používanie modulu &lt;EM&gt;CRM a&amp;nbsp;registratúra&lt;/EM&gt;. Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="af53c105-e266-49b7-a25c-832ac36e4280" style="auto-update-caption: true"&gt;Odosielanie SMS správ v systéme OBERON&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;XML komunikácia - export údajov&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Otvorí sa sprievodca, ktorý umožňuje exportovať údaje z&amp;nbsp;tejto evidencie do súboru typu XML. Viac informácií získate v téme&amp;nbsp;&lt;A href="56f661c6-24da-46aa-b157-5d988cbe792b" style="auto-update-caption: true"&gt;Všeobecne o XML komunikácii&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;XML komunikácia&amp;nbsp; - import dokladu&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Otvorí sa sprievodca, ktorý umožňuje&amp;nbsp;importovať údaje&amp;nbsp;zo súboru typu&amp;nbsp;XML do tejto evidencie. Viac informácií získate v téme&amp;nbsp;&lt;A href="56f661c6-24da-46aa-b157-5d988cbe792b" style="auto-update-caption: true"&gt;Všeobecne o XML komunikácii&lt;/A&gt;. Importovať je&amp;nbsp;možné napr.&amp;nbsp;faktúry z&amp;nbsp;iných softvérov, viac informácií&amp;nbsp;je možné získať&amp;nbsp;v&amp;nbsp;téme&amp;nbsp;&lt;A href="c4bb279e-a2ba-4690-83b9-efb2e11cc077" style="auto-update-caption: true"&gt;Import dokladov z iných softvérov&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;XML komunikácia - hromadný import dokladu&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Otvorí sa sprievodca, ktorý umožňuje&amp;nbsp;importovať údaje&amp;nbsp;zo súboru typu&amp;nbsp;XML do tejto evidencie. Viac informácií získate v téme&amp;nbsp;&lt;A href="56f661c6-24da-46aa-b157-5d988cbe792b" style="auto-update-caption: true"&gt;Všeobecne o XML komunikácii&lt;/A&gt;. Importovať je&amp;nbsp;možné napr.&amp;nbsp;faktúry z&amp;nbsp;iných softvérov, viac informácií&amp;nbsp;je možné získať&amp;nbsp;v&amp;nbsp;téme&amp;nbsp;&lt;A href="c4bb279e-a2ba-4690-83b9-efb2e11cc077" style="auto-update-caption: true"&gt;Import dokladov z iných softvérov&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;XML komunikácia - odoslať e-mail&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Otvorí sa sprievodca, ktorý umožňuje&amp;nbsp;exportovať záznam vo formáte XML a následne ho odoslať elektronickou poštou. V prílohe e-mailu bude pripojená faktúra vo formáte XML a PDF. Formulár je bližšie popísaný v téme&amp;nbsp;&lt;A href="f2098df3-0aab-4f5c-ae03-19aa0fcc76cf" style="auto-update-caption: true"&gt;Sprievodca XML komunikácia - odoslať na e-mail&lt;/A&gt;. &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Bližšie informácie o ovládaní evidencie, používaní filtrov, triedení záznamov a pod. sú dostupné v téme&amp;nbsp;&lt;A href="8936fde4-aac3-4672-99a2-c8bd5ccffdcd"&gt;Ovládanie knihy (evidencie)&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="2b741644-9d16-49bd-bc96-95f13dbc1706" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="2c25546b-872e-4c70-a89a-53e5999a7fe1">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="e83d0f0c-df81-40ac-bebe-dbe36413f655" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="5b38ec44-f2e2-4ee1-b00a-268b6d20482b">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="11f1e703-0ee3-49a3-9cce-10c159261519" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="cdfc0d2e-850e-4858-9d56-bf7348720216">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="66ce01c1-df51-41b7-acf0-a3a249e7b317" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="ed36a928-8e2c-4607-abaf-5c188e6045cf">
+      <Title m="2021-08-04T12:39:35.8818672Z">Účtovanie faktúr za ubytovanie cez rezervačný portál (podvojné účtovníctvo)</Title>
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="c3057cb6-74b6-4961-a227-e38837bfdc5a" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="5e0f3718-0c09-4471-bdcc-a6bfebc36f5e">
+      <Title m="2021-08-04T12:39:20.1517711Z">Účtovanie faktúr za ubytovanie cez rezervačný portál (jednoduché účtovníctvo)</Title>
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="00390b4b-76ce-4826-8374-14d884392e31">
+      <Keyword m="2022-11-21T11:08:28.0986304Z">Zápočty faktúr - evidencia</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="1a162921-d810-4930-8f1b-d703ea509a49">
+      <Keyword m="2022-11-21T11:07:45.846424Z">Súhrnná platba - zaúčtovanie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="a8d04caa-0ce4-498a-9d8d-07fe678ffdd7">
+      <Keyword m="2022-11-21T11:08:04.4614363Z">Úhrada pohľadávok zápočtom</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="3fb7e971-0b35-4290-bbbc-dfb31f0661ed">
+      <Keyword m="2022-11-21T11:08:09.1021918Z">Úhrada záväzkov zápočtom</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="86be22b1-453b-4cd1-8c0e-804a2da4aea7">
+      <Keyword m="2022-11-21T11:10:12.3947065Z">Booking.com - zaúčtovanie súhrnnej platby</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="5988df0a-ed76-4277-8764-1d0bbe98455e">
+      <Keyword m="2022-11-21T11:10:32.7337672Z">Zaúčtovanie súhrnnej platby</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="5c8803b1-47f3-4eb3-a2eb-0c3ff7731563">
+      <Keyword m="2022-11-21T11:12:01.8094176Z">Jednostranný zápočet</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="b13e4263-d0e7-4bd9-b008-9b1ccfbfd405">
+      <Keyword m="2022-11-21T11:13:42.6622876Z">Zápočet dohodou</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="9b7540a7-2a81-4a5a-8cd7-2de8f0e072ac">
+      <Keyword m="2022-11-21T11:14:22.7637724Z">Manuálny výber faktúr do zápočtu</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="4cf497b4-5a25-4c91-b8c2-a74edeb72d06">
+      <Keyword m="2022-11-21T11:14:42.19884Z">Manuálny hromadný výber faktúr do zápočtu</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="579318d6-d16e-4143-8ad5-4cdbb2e01cdf">
+      <Keyword m="2022-11-21T11:15:02.3690075Z">Automatická tvorba zápočtu</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

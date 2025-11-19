@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="4637ee90-9b44-4ba9-b816-66f0f601fddb" Status="Complete" CreatedOn="2016-08-23T10:44:18.2769749Z" ModifiedOn="2024-10-10T11:19:44.8939855Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="false" HelpContextIds="" Name="Wages_Basic_Options" BuildFlags="">
+  <Title m="2021-07-07T06:55:24.1653206Z">Mzdy - základné možnosti</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-10-10T11:19:44.8939855Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;informácie o základných možnostiach, užitočných funkciách a&amp;nbsp;zaujímavých vlastnostiach&lt;/STRONG&gt;&amp;nbsp;časti modulu&amp;nbsp;&lt;EM&gt;Mzdy a dochádzka&lt;/EM&gt; - &lt;EM&gt;&lt;STRONG&gt;Mzdy&lt;/STRONG&gt;&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné možnosti a vlastnosti&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Možnosť evidovať údaje o&amp;nbsp;&lt;A href="8dd60281-9cc7-41fe-9dd2-2ad5c7ffe047"&gt;pracovníkoch&lt;/A&gt; (osobné údaje, zaradenie vo firme, údaje pre&amp;nbsp;dochádzkový terminál&amp;nbsp;atď.). 
+&lt;LI&gt;Možnosť evidovať&amp;nbsp;&lt;A href="3fced304-5201-4497-bb58-104c1fd77990"&gt;pracovné pomery&lt;/A&gt; priradené pracovníkom, možnosť priradiť jednému pracovníkovi viacero pracovných pomerov. 
+&lt;LI&gt;Možnosť pracovať s&amp;nbsp;preddefinovanými&amp;nbsp;&lt;A href="c244d752-1bd6-48c8-aaed-e52c71d41f26"&gt;typmi pracovných pomerov&lt;/A&gt; ktoré spravidla postačujú pre 90&amp;nbsp;% pracovnoprávnych vzťahov, prípadne si podľa potreby definovať&amp;nbsp;vlastné typy pracovných pomerov. 
+&lt;LI&gt;Ku každému pracovnému pomeru je možné evidovať informácie o mzde, dovolenke,&amp;nbsp;&lt;A href="1491b978-c63c-4182-95f4-70eade92f4d5"&gt;neprítomnosti&lt;/A&gt; a&amp;nbsp;zrážky. 
+&lt;LI&gt;Možnosť vytvárať a evidovať rôzne&amp;nbsp;&lt;A href="375979c2-cf78-4499-8ba9-30a5e2f1eb23"&gt;dokumenty a výkazy&lt;/A&gt; ako je&amp;nbsp;pracovná zmluva, dohoda, rôzne tlačivá a pod., možnosť pridávať tieto dokumenty a&amp;nbsp;obrázky&amp;nbsp;(napr. doklad o dosiahnutom vzdelaní, doklad o absolvovaní&amp;nbsp;skúšky a pod.)&amp;nbsp;k&amp;nbsp;jednotlivým pracovníkom. 
+&lt;LI&gt;Možnosť zostavovať &lt;A href="375979c2-cf78-4499-8ba9-30a5e2f1eb23"&gt;dokumenty a výkazy&lt;/A&gt;&amp;nbsp;určené na komunikáciu s&amp;nbsp;externými inštitúciami (&lt;EM&gt;Sociálna poisťovňa&lt;/EM&gt;, zdravotné poisťovne, úrad práce, finančná správa...). 
+&lt;LI&gt;Zoznam preddefinovaných&amp;nbsp;&lt;A href="fc8d8173-0da0-459a-b570-587597ce3315"&gt;mzdových predkontácií&lt;/A&gt; na jednoduché zadávanie mzdových zložiek (výberom zo zoznamu alebo&amp;nbsp;súčinom sumy a&amp;nbsp;čísla predkontácie), možnosť definovať&amp;nbsp;ďalšie&amp;nbsp;mzdové predkontácie. 
+&lt;LI&gt;Možnosť pracovať &lt;STRONG&gt;s&amp;nbsp;predvypočítanými mzdami pracovníkov&lt;/STRONG&gt; na základe nastavení&amp;nbsp;&lt;A href="3fced304-5201-4497-bb58-104c1fd77990"&gt;pracovných pomerov&lt;/A&gt;. 
+&lt;LI&gt;Pri mzde pracovníka možno evidovať&amp;nbsp;rôzne &lt;STRONG&gt;stavy a&lt;/STRONG&gt; &lt;STRONG&gt;štádiá jej rozpracovanosti&lt;/STRONG&gt; - nespracovaná mzda, koncept, spracovaná a&amp;nbsp;podpísaná (odsúhlasená) mzda. 
+&lt;LI&gt;Výpočet mzdy - mesačnej, úkolovej, časovej. 
+&lt;LI&gt;Výpočet mzdy pri súbehu viacerých pracovných pomerov. 
+&lt;LI&gt;Výpočet priemerov - ročného,&amp;nbsp;trojmesačného. 
+&lt;LI&gt;Ročné zúčtovanie preddavkov na daň. 
+&lt;LI&gt;Výpočet nemocenských dávok. 
+&lt;LI&gt;Prehľadná evidencia dovolenky pracovníka, evidencia tvorby a čerpania náhradného voľna. 
+&lt;LI&gt;&lt;STRONG&gt;Automatický prepočet odpracovaných hodín&lt;/STRONG&gt; (napr. pri zadaní nemocenskej dávky sa automaticky upraví počet odpracovaných dní a hodín). 
+&lt;LI&gt;Automatické generovanie &lt;A href="1288dcf2-9f76-4fc6-941a-1d03361bf937"&gt;príkazov na úhradu&lt;/A&gt; (aj so súbormi pre&amp;nbsp;&lt;A href="ef8ec592-c1af-45af-92b7-8734ce46e0f5"&gt;internetbanking&lt;/A&gt;) a tvorba potrebných tlačových výstupov a&amp;nbsp;exportov údajov pre finančnú správu&lt;EM&gt;,&amp;nbsp;Sociálnu poisťovňu&lt;/EM&gt; a zdravotné poisťovne. 
+&lt;LI&gt;Možnosť &lt;STRONG&gt;stornovať mzdu&lt;/STRONG&gt;&amp;nbsp;- mzda a manuálne zadané mzdové zložky sa vymažú z databázy, pričom sa mzda opätovne prepočíta podľa pracovného pomeru (prípadne evidencie dochádzky). 
+&lt;LI&gt;Generovanie&amp;nbsp;&lt;A href="1288dcf2-9f76-4fc6-941a-1d03361bf937"&gt;príkazov na úhradu&lt;/A&gt; zo&amp;nbsp;&lt;A href="81a7aa22-db03-4095-8a7c-3e7436fee8c6"&gt;stálych platieb&lt;/A&gt; (s&amp;nbsp;možnosťou ich dodatočnej úpravy), podpora elektronického platobného styku, tzv.&amp;nbsp;homebanking, &lt;A href="ef8ec592-c1af-45af-92b7-8734ce46e0f5"&gt;internetbanking&lt;/A&gt;. 
+&lt;LI&gt;Jednoduché kopírovanie záznamov (&lt;EM&gt;Ctrl+C, Ctrl+V&lt;/EM&gt;). &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Užitočné funkcie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Evidencia&amp;nbsp;&lt;A href="3883342c-9ef0-4fd9-8773-88df84f78f65"&gt;dochádzky&lt;/A&gt; pracovníkov a vytvorenie podkladov pre spracovanie mzdy. 
+&lt;LI&gt;Možnosť rovnomerného a nerovnomerného rozvrhnutia pracovného času. 
+&lt;LI&gt;&lt;A href="375979c2-cf78-4499-8ba9-30a5e2f1eb23"&gt;Vzory tlačív a výkazov&lt;/A&gt; - pracovná zmluva, dodatok k pracovnej zmluve, dohoda o vykonaní práce, dohoda o pracovnej činnosti, dohoda o hmotnej zodpovednosti, žiadosť o návštevu lekára atď. 
+&lt;LI&gt;Program obsahuje prehľadné grafy&amp;nbsp;-&lt;EM&gt;&amp;nbsp;Hrubé mzdy, Čerpaná dovolenka, Počet spracovaných miezd, Vývoj miezd za obdobie.&lt;/EM&gt; 
+&lt;LI&gt;Tlačové výstupy sa realizujú v grafickom režime, pričom ich možno exportovať do rôznych formátov, napr. &lt;EM&gt;Microsoft Excel, Microsoft Word, PDF, HTML&lt;/EM&gt; atď. 
+&lt;LI&gt;Podpora aktívnych tlačových výstupov vo formáte PDF (napr. mesačné&amp;nbsp;výkazy do zdravotných poisťovní). 
+&lt;LI&gt;Hromadné&amp;nbsp;&lt;A href="462dcabe-b3eb-4865-8bee-ade16b5faaec"&gt;zaslanie výplatných pások pracovníkom automaticky e-mailom&lt;/A&gt; ako PDF príloh (v prípade potreby môžu byť chránené heslom). 
+&lt;LI&gt;&lt;A href="354e86f6-e098-451f-a4d6-2ecf73bce5ee"&gt;Automatické zaúčtovanie miezd&lt;/A&gt; do účtovného denníka. 
+&lt;LI&gt;Možnosť&amp;nbsp;&lt;A href="c1379073-007e-434a-a410-d6fde709ff9e"&gt;členiť (rozúčtovať)&lt;/A&gt;&amp;nbsp;mzdové náklady podľa&amp;nbsp;&lt;A href="c1379073-007e-434a-a410-d6fde709ff9e"&gt;prevádzok&lt;/A&gt;,&amp;nbsp;&lt;A href="a2d510ea-4cba-46cd-b337-c01fb332cd35"&gt;pracovísk&lt;/A&gt;&amp;nbsp;a&amp;nbsp;tzv.&amp;nbsp;&lt;A href="f68687b5-0939-447b-9f8e-37c883676f1e"&gt;členenia&lt;/A&gt; (stromovej štruktúry). 
+&lt;LI&gt;Export údajov v elektronickej forme pre &lt;EM&gt;Informačný systém o cene práce&lt;/EM&gt; (&lt;A href="3a260235-ceef-4dec-9bbe-b5e34ed1f880"&gt;ISCP&lt;/A&gt;). &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Zaujímavé vlastnosti&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Možnosť importovať a exportovať údaje pomocou &lt;A href="56f661c6-24da-46aa-b157-5d988cbe792b"&gt;XML komunikácie&lt;/A&gt;. 
+&lt;LI&gt;Prepracovaný systém&amp;nbsp;&lt;A href="834e9546-a56b-476f-9028-ef4c24a82345"&gt;práv používateľov&lt;/A&gt;. 
+&lt;LI&gt;&lt;A href="bc30e126-afb5-41aa-a261-e92501038063"&gt;Sledovanie činností&lt;/A&gt; - automaticky zaznamenáva činnosti a udalosti&amp;nbsp;pri práci so systémom OBERON, napr.&amp;nbsp;vymazanie pracovníka,&amp;nbsp;zmena&amp;nbsp;osobného čísla pracovníka a pod. 
+&lt;LI&gt;Možnosť&amp;nbsp;&lt;A href="1491b978-c63c-4182-95f4-70eade92f4d5"&gt;zadať neprítomnosť v práci&lt;/A&gt; z troch rôznych miest v programe.&amp;nbsp;Po zadaní neprítomnosti na jednom mieste sa daná neprítomnosť bude zobrazovať aj na ostatných miestach. &lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="b4580d4a-7c76-4cd8-803d-2ca694a3fbb2" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="bf009605-0be8-4286-8ef5-4c7d3b89143a">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="24144f1c-ba1e-4f24-9385-e62fd15a8067" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="79af9a91-49b8-4a9e-8e2c-2d664c8325ab">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="370f9923-a018-42a3-ba1f-d5d72f41b77a">
+      <Keyword m="2023-08-16T13:18:51.817758Z">Základné možnosti - Mzdy</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="1318fded-5d8a-4377-be31-d80bf4634589">
+      <Keyword m="2023-08-16T13:19:11.7968105Z">Mzdy - základné možnosti</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

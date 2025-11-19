@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="126d72a2-223e-4907-824b-859fad46f02e" Status="Complete" CreatedOn="2024-07-15T11:27:05.336416Z" ModifiedOn="2025-03-13T13:39:46.7140509Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="OBERON_News_2024_05" BuildFlags="{4AAE0FD4-7313-4FEE-A25F-0785B885F736},826B51BD-B6F0-4B2C-A814-029E169D018F">
+  <Title m="2024-07-15T11:27:39.3532347Z">Čo bolo nové vo verzii Máj/2024</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2025-03-13T13:39:46.7140509Z">&lt;P&gt;Dňa 29.05.2024&amp;nbsp;bola&amp;nbsp;vydaná nová verzia ekonomického systému OBERON s&amp;nbsp;označením &lt;STRONG&gt;Máj/2024&lt;/STRONG&gt;. V&amp;nbsp;nasledujúcej časti sú vymenované najdôležitejšie novinky, vylepšenia a&amp;nbsp;opravy oproti verzii&amp;nbsp;&lt;STRONG&gt;Apríl/2024&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;H2&gt;OBERON&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Správca hesiel&lt;/STRONG&gt; - v&amp;nbsp;ponuke &lt;EM&gt;Firma&lt;/EM&gt; pribudla do programu nová evidencia &lt;EM&gt;Správca hesiel&lt;/EM&gt;, ktorá je &lt;STRONG&gt;určená na správu hesiel účtovnej jednotky&lt;/STRONG&gt;. Tie zahŕňajú predovšetkým rôzne dôležité prístupové heslá, ale aj iné záznamy, ktoré účtovná jednotka používa&amp;nbsp;(napr. prihlásenie do internetbankingu, údaje platobných kariet, BOK kód, prihlásenie do&amp;nbsp;SQL servera, internetových obchodov a pod.). Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="dcd3c480-994c-477d-9fc7-17af717ade13" style="auto-update-caption: true"&gt;Správca hesiel&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Skladová evidencia&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Predvolená merná jednotka&lt;/STRONG&gt; - vo&amp;nbsp;&lt;A href="1ad091e3-2718-4bb2-993a-8b032ca8d10e"&gt;formulári Alternatívna merná jednotka (balenie)&lt;/A&gt; pribudlo začiarkavacie políčko, ktoré umožňuje určiť pri príjme/výdaji, ktorá predvolená merná jednotka sa má použiť. Ak nebude ani jedna alternatívna merná jednotka predvolenou, použije sa základná merná jednotka. V zozname merných jednotiek sa názov predvolenej mernej jednotky zobrazuje tučným písmom. 
+&lt;LI&gt;&lt;STRONG&gt;Kategórie skladových kariet&lt;/STRONG&gt; - pri zmene názvu kategórie sa názov aktualizuje aj v&amp;nbsp;&lt;A href="34f91c11-1a5d-4773-ac4e-48ad2fc859d3"&gt;pravidlách rozšírenej cenotvorby&lt;/A&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;Rozšírená cenotvorba&lt;/STRONG&gt; - zapracovaná možnosť hromadne aktualizovať obstarávacie ceny v pravidle rozšírenej cenotvorby podľa aktuálnych obstarávacích cien na skladových kartách. 
+&lt;LI&gt;&lt;STRONG&gt;Čiarový kód GS1&lt;/STRONG&gt; - bolo upravené detegovanie QR kódu, ktorý obsahuje GS1 kód. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Pokladnica OBERON&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Fiškálne zariadenia&amp;nbsp;BOWA&lt;/STRONG&gt; - pribudlo automatické overenie&amp;nbsp;dokladu pomocou GUID. Viac informácií v&amp;nbsp;téme&amp;nbsp;&lt;A href="29c1b7d9-36d4-4d86-89bd-54cd2cb22050" style="auto-update-caption: true"&gt;Problémy pri zaevidovaní dokladu&lt;/A&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;Pobočková synchronizácia&lt;/STRONG&gt; - ak je v pobočke chybný doklad (napr. v databáze bez položiek z dôvodu výpadku databázového servera alebo inej chyby), synchronizácia pokračuje ďalej a pokladničné doklady sa exportujú do centrály (pôvodne sa synchronizácia prerušila). 
+&lt;LI&gt;&lt;STRONG&gt;Platobný terminál&lt;/STRONG&gt; - oprava ceny na potvrdenke pri použití obslužného. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Mzdy a dochádzka&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;
+&lt;DIV&gt;&lt;STRONG&gt;Mzdy&lt;/STRONG&gt; - úprava tlačového výstupu &lt;EM&gt;Finančná správa - ročné hlásenie o vyúčtovaní dane&lt;/EM&gt;.&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/DIV&gt;&lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;CRM a registratúra&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Úlohy a udalosti&lt;/STRONG&gt; - pribudla možnosť opakovať udalosť, pričom možno nastaviť parametre opakovania (interval, počet opakovaní, opakovanie len v pracovné dni, dátum najbližšej udalosti&amp;nbsp;atď.). Napr. štvrťročný platiteľ DPH si nastaví interval opakovania udalosti &lt;EM&gt;Platba DPH&lt;/EM&gt; každý štvrťrok s&amp;nbsp;počtom opakovaní 4. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;PrestaShop&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;PrestaShop 1.7 -&lt;/STRONG&gt; podpora dobierky s modulom &lt;EM&gt;Cash On Delivery With Fee/Surcharge Plus (COD) by Idnovate&lt;/EM&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;SPAN&gt;V prípade preskočenia viacerých verzií programu je dôležité si prečítať informácie o novinkách, vylepšeniach a opravách&amp;nbsp;aj&amp;nbsp;z&amp;nbsp;&lt;A href="dc832235-0e36-4aac-ae54-e51641eb2f50"&gt;predchádzajúcich verzií&lt;/A&gt;&lt;STRONG&gt;.&lt;/STRONG&gt; V&amp;nbsp;niektorej z predošlých verzií mohlo dôjsť k&amp;nbsp;dôležitým zmenám, o&amp;nbsp;ktorých je v niektorých prípadoch nevyhnutné vedieť.&lt;/SPAN&gt;&lt;/innovasys:widgetproperty&gt; &lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="c7357ab9-e0d8-47e3-b432-b3034ba1bd58" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="dc832235-0e36-4aac-ae54-e51641eb2f50">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="0aff6ea2-d3f9-4c1e-9000-f2192f9f2edc">
+      <Keyword m="2014-11-24T11:38:34.3847265Z">Verzia</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

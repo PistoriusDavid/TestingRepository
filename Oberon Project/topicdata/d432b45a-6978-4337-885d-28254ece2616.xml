@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="d432b45a-6978-4337-885d-28254ece2616" Status="Complete" CreatedOn="2014-09-02T12:02:11.5726943Z" ModifiedOn="2024-02-27T08:41:51.8067745Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Developers_BasicInfo" BuildFlags="">
+  <Title m="2014-09-02T12:59:27.0401918Z">Pre vývojárov na úvod</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-02-27T08:41:51.8067745Z">&lt;P&gt;Systém OBERON&amp;nbsp;je účtovný softvér určený pre malé a&amp;nbsp;stredne veľké firmy. Napriek vysokej funkcionalite, ktorú&amp;nbsp;systém&amp;nbsp;ponúka, sa môže stať, že v ňom určitá požadovaná funkcia chýba. Najčastejšie&amp;nbsp;ide o&amp;nbsp;modifikované tlačové výstupy, export a&amp;nbsp;import údajov, prepojenie s&amp;nbsp;externými systémami, rozšírenie podpory pripojiteľných zariadení (napr.&amp;nbsp;fiškálnych tlačiarní atď.) či internetových obchodov a&amp;nbsp;pod. Z&amp;nbsp;tohto dôvodu sme ako tvorcovia softvéru pripravili určité nástroje, pomocou ktorých je možné riešiť aj takéto úlohy.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;P&gt;Z hľadiska tematických okruhov a náročnosti rozdeľujeme jednotlivé nástroje a&amp;nbsp;možnosti na rozšírenie funkčnosti systému OBERON na&amp;nbsp;tieto skupiny:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;B&gt;Úprava tlačových výstupov&lt;/B&gt; - všetky tlačové výstupy v&amp;nbsp;OBERON-e je možné upraviť podľa vlastných potrieb a&amp;nbsp;požiadaviek. Tieto úpravy zvládne aj bežný&amp;nbsp;používateľ, v&amp;nbsp;prípade zložitejších úprav je možné požiadať o&amp;nbsp;pomoc&amp;nbsp;našich&amp;nbsp;&lt;A href="f83c2a9c-cda4-4862-8628-7ba16ddb1b06"&gt;zmluvných partnerov&lt;/A&gt;, prípadne&amp;nbsp;priamo&amp;nbsp;firmu EXALOGIC.&amp;nbsp;Ďalšie informácie o&amp;nbsp;úprave tlačových výstupov získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="b3e41f60-bab3-4ad9-b73d-69ece0c12afa"&gt;Ako upraviť tlačový výstup&lt;/A&gt;. 
+&lt;LI&gt;&lt;B&gt;Export a&amp;nbsp;import údajov&lt;/B&gt; - v&amp;nbsp;systéme OBERON je implementovaný tzv. &lt;A href="797aaa39-ae1b-4f4c-bac5-88c9ac25f11d"&gt;transport údajov&lt;/A&gt;, pomocou ktorého je možné exportovať alebo importovať údaje. Tieto údaje môžu byť interného formátu (pri výmene údajov jednej účtovnej jednotky z&amp;nbsp;iných pobočiek), prípadne sa transport údajov vykonáva vo&amp;nbsp;formáte&amp;nbsp;XML na základe&amp;nbsp;tzv. &lt;A href="56f661c6-24da-46aa-b157-5d988cbe792b"&gt;XML komunikácie&lt;/A&gt;. Umožňuje export a&amp;nbsp;import faktúr, objednávok, výdajok, príjemiek a&amp;nbsp;iných dokladov. Pri XML komunikácii je neraz potrebné upraviť importované formáty XML pomocou &lt;A href="50adcd4a-de72-439e-895f-021cd9537535"&gt;XSLT transformačných šablón&lt;/A&gt;, čo zvládnu len veľmi pokročilí&amp;nbsp;používatelia, servisní technici, prípadne vývojári. 
+&lt;LI&gt;&lt;B&gt;&lt;A href="58bb31ca-00c8-4641-ad99-7d58e24f59c5"&gt;Webové služby&lt;/A&gt;&lt;/B&gt; &lt;STRONG&gt;(WebServices API)&lt;/STRONG&gt; - umožňujú komunikáciu medzi systémom OBERON&amp;nbsp;a ďalšími nadstavbovými modulmi, prípadne inými externými systémami pomocou protokolu SOAP a JSON&amp;nbsp;(transportný protokol TCP-IP, HTTP, HTTPS). 
+&lt;LI&gt;&lt;B&gt;&lt;A href="19c6d1c2-3a3c-46a0-9f37-ea433baa8598"&gt;CashRegister Universal Interface&lt;/A&gt;&lt;/B&gt; - univerzálne rozhranie&amp;nbsp;na pripojenie registračných pokladníc v&amp;nbsp;režime off-line. Toto rozhranie je priamo implementované do systému OBERON (programový kód sa upravuje priamo v OBERON-e), preto nie sú potrebné žiadne ďalšie vývojové nástroje. Je určené pre servisných technikov, prípadne vývojárov. 
+&lt;LI&gt;&lt;B&gt;&lt;A href="3757d6bf-3009-4685-beee-617e34892086"&gt;Univerzálne rozhrania (add-in)&lt;/A&gt;&lt;/B&gt; - univerzálne rozhrania vo forme externej DLL knižnice určené pre vývojárov na rozšírenie určitých špecifických&amp;nbsp;funkcií&amp;nbsp;systému OBERON (napr.&amp;nbsp;exporty a&amp;nbsp;importy údajov a pod.). &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Podpora pri vývoji&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Firma EXALOGIC poskytuje vývojárom tretích strán pri využívaní univerzálnych rozhraní&amp;nbsp;plnú podporu - konzultácie s programátorom a&amp;nbsp;on-line komunikáciu. 
+&lt;LI&gt;K dispozícii sú taktiež referenčné príručky s&amp;nbsp;popisom objektov vo forme štandardného súboru pomocníka (súbor CHM), ktorú je možné získať len na vyžiadanie. Pre popisy jednotlivých vlastností&amp;nbsp;a metód daných objektov pre vývojové prostredie &lt;I&gt;Microsoft Visual Studio&lt;/I&gt; je dostupná tzv. XML dokumentácia (na webovej stránke&amp;nbsp;&lt;A href="http://www.exalogic.sk/" target=_blank&gt;www.exalogic.sk&lt;/A&gt; v&amp;nbsp;sekcii &lt;I&gt;Na stiahnutie)&lt;/I&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Dokumentácia k webovým službám&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Odkazy na dokumentáciu k webovým službám (referenčné príručky pre vývojárov) sú dostupné v téme&amp;nbsp;&lt;A href="519bcf42-f3e7-48c1-98a9-02a5784576f9" style="auto-update-caption: true"&gt;Špecializovaná dokumentácia&lt;/A&gt;.&lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Použitie univerzálnych rozhraní a záručné podmienky&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Všeobecne odporúčame vývojárom súčastí pri používaní univerzálnych rozhraní (ďalej len tretia strana), aby sa u firmy EXALOGIC ako výrobcu systému OBERON (ďalej len výrobca) zaregistrovali a&amp;nbsp;uviedli, akej problematike sa venovali (ktoré základné objekty použili). Dôvodom môže byť situácia, keď výrobca či už z legislatívnych alebo iných dôvodov bude musieť zmeniť (upraviť) niektoré objekty využívané vyššie uvedenými nástrojmi. To môže nepriaznivo ovplyvniť funkčnosť vyvinutých súčastí tretích strán, čo môže spôsobiť problémy&amp;nbsp;koncovým&amp;nbsp;používateľom. 
+&lt;LI&gt;Po vytvorení súčasti programátorom tretej strany je možné postupovať takto&lt;BR&gt;&lt;B&gt;A) Nezaregistrovať sa u firmy EXALOGIC&lt;/B&gt; - neodporúčame, keďže v prípade zmien výrobca nemá možnosť včas informovať tretiu stranu o vykonaných zmenách a tým zabrániť možným komplikáciám. Uvedenú možnosť môžu využiť firmy, ktoré si danú súčasť implementovali len pre svoju internú potrebu a v prípade zmeny na strane systému OBERON nie je pre nich problém vykonať úpravu svojej súčasti.&lt;BR&gt;&lt;B&gt;B) Zaregistrovať sa u firmy EXALOGIC (bez poskytnutia zdrojových textov)&lt;/B&gt; - výrobca bude tretiu stranu informovať o prípadných zmenách v systéme OBERON, ktoré by mohli ovplyvniť jeho súčasť.&lt;BR&gt;&lt;B&gt;C) Zaregistrovať sa u firmy EXALOGIC (s poskytnutím zdrojových textov)&lt;/B&gt; - výrobca na základne zdrojových textov otestuje danú súčasť z hľadiska možnej &lt;B&gt;kompilácie&lt;/B&gt; a v prípade akýchkoľvek problémov bude tretiu stranu informovať o daných zmenách v systéme OBERON. Zároveň dodá tretej strane zdrojové texty tak, aby boli bez problémov &lt;B&gt;kompilovateľné&lt;/B&gt;. Ďalej môže navrhnúť nevyhnutné úpravy, prípadne ich po dohode aj automaticky vykonať. 
+&lt;LI&gt;Za funkčnosť vyvinutých súčastí tretích strán firma EXALOGIC nenesie žiadne záruky, avšak vývojárom tretích strán ručí za vždy bezproblémové skompilovanie zdrojových textov daných naprogramovaných súčastí (za predpokladu, že zdrojové texty výrobcovi poskytli). &lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="a510b7fc-f362-4319-af4c-903eb067f82e" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="8c0e0dd3-ce14-410b-9a1c-76b92585e960">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="ac6bcad3-33c5-481b-824a-c878156d4106" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="519bcf42-f3e7-48c1-98a9-02a5784576f9">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="e827f961-71e4-403d-a0e0-906cd9ac9bcf" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="56f661c6-24da-46aa-b157-5d988cbe792b">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="0e76229d-0baa-4ef0-a9db-d2c5af0360f1" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="58bb31ca-00c8-4641-ad99-7d58e24f59c5">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="adee3c17-b923-47d0-860a-3483813793c4" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="3757d6bf-3009-4685-beee-617e34892086">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="2f6878d0-d9d9-4d3b-a377-67e33897be8f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="9690f267-6ad7-4e22-9af2-675ef3d9d041">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="251be72b-b74c-4210-92c4-d758224a34d0" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="5020b29b-b6e5-48bb-bfc6-800d68d5b8e9">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="4a04a21b-db96-4c48-a7ee-18ef97863fb9">
+      <Keyword m="2023-10-17T12:15:56.4720226Z">Vývojári - všeobecne na úvod</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

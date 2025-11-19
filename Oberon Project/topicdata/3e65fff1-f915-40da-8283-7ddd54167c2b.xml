@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="3e65fff1-f915-40da-8283-7ddd54167c2b" Status="Complete" CreatedOn="2015-08-05T06:49:06.8964843Z" ModifiedOn="2023-07-10T08:21:29.6885699Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="ExternalSystem_HotelReservation_Availpro" BuildFlags="">
+  <Title m="2022-04-19T09:12:17.9858501Z">Manažér rezervačných kanálov D-EDGE</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-07-10T08:21:29.6885699Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje informácie o jednom z&amp;nbsp;&lt;A href="25b9b2fe-ad9e-49dd-9a59-e57d2520e87b"&gt;manažérov rezervačných kanálov&lt;/A&gt;&amp;nbsp;podporovaných v&amp;nbsp;systéme OBERON&amp;nbsp;-&amp;nbsp;&lt;STRONG&gt;D-EDGE&lt;/STRONG&gt; (oficiálna stránka &lt;A href="https://www.d-edge.com/" target=_blank&gt;www.d-edge.com&lt;/A&gt;), ktorý&amp;nbsp;umožňuje&amp;nbsp;&lt;STRONG&gt;prepojenie systému OBERON predovšetkým s&amp;nbsp;rezervačnými portálmi ubytovania&lt;/STRONG&gt; (napr. &lt;EM&gt;Booking.com&lt;/EM&gt;)&lt;EM&gt;.&lt;/EM&gt;&lt;/P&gt;
+&lt;H2&gt;Základné údaje&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Ubytovacie zariadenia (hotely, apartmánové domy, penzióny, chaty, turistické ubytovne atď.) štandardne ponúkajú a&amp;nbsp;predávajú svoje ubytovacie služby &lt;STRONG&gt;na viacerých miestach (kanáloch)&lt;/STRONG&gt; – od vlastnej webovej stránky, cez webové stránky cestovných kancelárií až po provízne rezervačné portály ubytovania typu &lt;EM&gt;Booking.com&lt;/EM&gt;. 
+&lt;LI&gt;Úlohou recepčného v takom prípade je okrem iného aj &lt;STRONG&gt;sledovanie a aktualizovanie obsadenosti&lt;/STRONG&gt; (evidovaných rezervácií a&amp;nbsp;zaevidovaných ubytovaní) na všetkých týchto miestach. Ak sa napr. hosť ubytuje priamo „z ulice“ alebo si vytvorí rezerváciu na webovej stránke hotela, prípadne už vytvorenú rezerváciu zruší, recepčný musí aktualizovať počet voľných izieb na všetkých rezervačných platformách, ktoré ubytovacie zariadenie využíva. 
+&lt;LI&gt;Aby sa táto aktualizácia nemusela vykonávať manuálne, je k&amp;nbsp;dispozícii &lt;STRONG&gt;tzv. manažér rezervačných kanálov (angl. &lt;EM&gt;Hotel Channel Manager&lt;/EM&gt;)&lt;/STRONG&gt;. Ide&amp;nbsp;o&amp;nbsp;&lt;STRONG&gt;softvérový nástroj, resp. komunikačné rozhranie (interface)&lt;/STRONG&gt;, ktorý umožňuje on-line prepojenie &lt;STRONG&gt;medzi rezervačným systémom&lt;/STRONG&gt;&amp;nbsp;(modul &lt;A href="c3bd41f0-029e-4c74-b342-b0ffff647b6e"&gt;Hotelová recepcia&lt;/A&gt;), rezervačným formulárom na webovej stránke ubytovacieho zariadenia a ďalšími rezervačnými platformami, predovšetkým &lt;STRONG&gt;províznymi rezervačnými portálmi ubytovania&lt;/STRONG&gt; (&lt;EM&gt;Booking.com,&lt;/EM&gt; &lt;EM&gt;Expedia.com&lt;/EM&gt;, &lt;EM&gt;Airbnb.com,&lt;/EM&gt; &lt;EM&gt;Agoda.com&lt;/EM&gt;, &lt;EM&gt;HRS.com, Hotel.cz, Hotel.de, Hotele.pl&lt;/EM&gt; atď.). 
+&lt;LI&gt;On-line prepojenie spočíva &lt;STRONG&gt;v&amp;nbsp;automatickom odosielaní obsadenosti&lt;/STRONG&gt; z&amp;nbsp;modulu &lt;EM&gt;Hotelová recepcia&lt;/EM&gt; (evidovaných rezervácií a&amp;nbsp;zaevidovaných ubytovaní) &lt;STRONG&gt;a&amp;nbsp;v&amp;nbsp;prijímaní rezervácií ubytovania&lt;/STRONG&gt; z&amp;nbsp;rezervačných platforiem. Umožňuje tak automaticky aktualizovať tieto údaje &lt;STRONG&gt;na viacerých rezervačných platformách súčasne&lt;/STRONG&gt;. V praxi to znamená, že ak si napr. niekto rezervuje izbu vo vašom ubytovacom zariadení prostredníctvom rezervačného portálu&amp;nbsp;&lt;EM&gt;Booking.com&lt;/EM&gt;, manažér zabezpečí, že sa táto rezervácia automaticky zapíše aj do&amp;nbsp;&lt;A href="5570e633-ca2e-4887-9361-57c5ce552da6"&gt;knihy rezervácií&lt;/A&gt; a zobrazí sa v&amp;nbsp;&lt;A href="3ca37544-bbc0-4a88-af6a-a2132b74279d"&gt;grafickom prehľade izieb&lt;/A&gt; v OBERON-e. Podobne, ak recepčná zaeviduje nové ubytovanie v&amp;nbsp;OBERON-e, manažér zabezpečí, že sa táto obsadenosť prenesie aj do všetkých ostatných rezervačných platforiem a&amp;nbsp;potenciálny hosť si už nebude môcť danú izbu zarezervovať. 
+&lt;LI&gt;Okrem toho manažér rezervačných kanálov často poskytuje &lt;STRONG&gt;aj ďalšie služby&lt;/STRONG&gt;, ako je umiestnenie rezervačného formulára na webovú stránku ubytovacieho zariadenia, práca s rozšírenou cenotvorbou (rôzne akcie, first moment, last minute), prepojenie s porovnávačmi cien typu &lt;EM&gt;Trivago&lt;/EM&gt; atď. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 1: Logo&amp;nbsp;manažéra rezervačných kanálov&amp;nbsp;&lt;EM&gt;D-EDGE&lt;/EM&gt;&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/ProductOptions/ExternalSystems/Hotel_ExternalSystem_Dege_Logo.PNG"&gt;&amp;nbsp;&lt;/P&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Ďalšie informácie získate na webovej stránke&amp;nbsp;&lt;A href="https://exalogic.sk/oberon/suvisiace-produkty/d-edge/" target=_blank&gt;D-EDGE&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Implementácia &lt;EM&gt;D-EDGE&lt;/EM&gt;&lt;/H2&gt;
+&lt;P&gt;V&amp;nbsp;porovnaní s manažérom rezervačných kanálov &lt;A href="2564d1eb-a7ed-46a7-a957-6087afe26471"&gt;Beds24&lt;/A&gt;, ktorý predstavuje tzv. samoimplementačné riešenie, &lt;EM&gt;D-EDGE&lt;/EM&gt; &lt;STRONG&gt;preferuje osobný kontakt - od stanovenia ceny až po nastavenie systému a uvedenie celého prepojenia do prevádzky&lt;/STRONG&gt;. V dôsledku toho je cena systému vyššia ako pri &lt;EM&gt;Beds24&lt;/EM&gt;. Vyvažuje ju však kompletný servis pri výstavbe architektúry správy rezervácií vo vašom ubytovacom zariadení.&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;Na vytvorenie zmluvy a implementáciu služby kontaktujte obchodné zastúpenie &lt;EM&gt;D-EDGE&lt;/EM&gt; na Slovensku e-mailom alebo telefonicky: &lt;STRONG&gt;Kateřina Klímová, +420 222 201 303&amp;nbsp;alebo +420 774 993 903, kklimova@d-edge.com&lt;/STRONG&gt;. 
+&lt;LI&gt;Na komunikáciu medzi systémom OBERON a&amp;nbsp;&lt;EM&gt;D-EDGE&lt;/EM&gt; je potrebné nastaviť&amp;nbsp;&lt;A href="9ce25bbd-35d1-4096-acd5-70007f5af5a6"&gt;automatickú úlohu&lt;/A&gt; s&amp;nbsp;názvom&amp;nbsp;&lt;EM&gt;&lt;STRONG&gt;Manažér rezervačných kanálov&lt;/STRONG&gt;&lt;/EM&gt; &lt;EM&gt;&lt;STRONG&gt;D-EDGE&lt;/STRONG&gt;&lt;/EM&gt;. Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="25fca7cd-4d51-45f7-9333-0247c8f2b5c1" style="auto-update-caption: true"&gt;Nastavenie komunikácie OBERON-u s D-EDGE&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Nastavenie komunikácie medzi systémom OBERON a &lt;EM&gt;D-EDGE&lt;/EM&gt; je bližšie popísané v téme&amp;nbsp;&lt;A href="25fca7cd-4d51-45f7-9333-0247c8f2b5c1" style="auto-update-caption: true"&gt;Nastavenie komunikácie OBERON-u s D-EDGE&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Cena&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Na strane OBERON-u je funkcia prepojenia s &lt;EM&gt;D-EDGE&lt;/EM&gt; bezplatná. Na strane &lt;EM&gt;D-EDGE&lt;/EM&gt; je používanie služby spoplatnené a&amp;nbsp;jej cena sa stanovuje &lt;STRONG&gt;zmluvne s dodávateľom služby&lt;/STRONG&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;&amp;nbsp;Obrázok č. 2: Grafický prehľad cien v&amp;nbsp;&lt;EM&gt;D-EDGE&lt;/EM&gt;&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/ProductOptions/ExternalSystems/Hotel_ExternalSystem_Dedge.png"&gt;&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="20f9176d-5a3c-436c-94e9-d438a7a12513" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="25b9b2fe-ad9e-49dd-9a59-e57d2520e87b">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="99c025fd-eff6-40f1-a8f7-e462555417cc" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="25fca7cd-4d51-45f7-9333-0247c8f2b5c1">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="2a69ab68-98a8-44c5-8259-e44869f468f7">
+      <Keyword m="2022-04-19T09:47:52.6048562Z">Channel manager - D-EDGE</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="bc84a8d6-3cd6-474a-a8d2-e564e67e677b">
+      <Keyword m="2022-04-19T09:47:59.7827165Z">Rezervačný portál - D-EDGE</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="cf397c59-cc92-46c5-b69a-b63e24484b9b">
+      <Keyword m="2022-04-25T07:00:51.478755Z">D-EDGE - všeobecné informácie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="14785045-d267-4dd8-b1b6-c7a60301e5b4">
+      <Keyword m="2022-04-19T09:47:22.6168046Z">Booking.com - D-EDGE</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="09269f71-136e-48b3-971b-32348b257760">
+      <Keyword m="2022-04-19T09:47:44.7328104Z">Expedia - D-EDGE</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="081ae081-b6ce-484b-8d88-1a2c9f95ea9b">
+      <Keyword m="2022-04-25T07:16:27.9717718Z">AvailPro - D-EDGE</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="9a9823f6-e61c-424e-bf7e-514f9a6ebd69">
+      <Keyword m="2022-04-25T07:01:28.5964546Z">Hotel channel manager - D-EDGE</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="fe4b58a2-387d-43ff-bcf1-0385c8f7ffc9">
+      <Keyword m="2022-07-06T06:48:50.7753128Z">Korecová Soňa</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="83457b11-c18a-46ac-a7f4-634f750b7af1">
+      <Keyword m="2022-07-06T06:49:07.2646333Z">Soňa Korecová</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

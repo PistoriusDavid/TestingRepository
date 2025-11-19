@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="183ab557-cc49-4d23-8935-dfcc8379a1ec" Status="Complete" CreatedOn="2014-09-09T11:34:08.214779Z" ModifiedOn="2024-12-03T08:18:02.6170824Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Invoices_Invoice_Foreign_Currency" BuildFlags="">
+  <Title m="2021-08-31T06:25:55.5842282Z">Vytvorenie faktúry v cudzej mene</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-12-03T08:18:02.6170824Z">&lt;P&gt;V&amp;nbsp;tejto téme&amp;nbsp;&lt;EM&gt;Pomocníka&lt;/EM&gt; je uvedený &lt;STRONG&gt;postup vystavenia, resp. zaevidovania&amp;nbsp;faktúry v cudzej mene&lt;/STRONG&gt; v&amp;nbsp;&lt;A href="5c21adcc-87c8-44e7-981d-02902635693d"&gt;Knihe pohľadávok&lt;/A&gt; a v&amp;nbsp;&lt;A href="55028746-c263-4d92-a615-502222e8d53b"&gt;Knihe záväzkov&lt;/A&gt;&amp;nbsp;systému OBERON.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Postup vystavenia, resp. zaevidovania&amp;nbsp;faktúry v cudzej mene je analogický k postupu vystavenia pohľadávky&amp;nbsp;v&amp;nbsp;&lt;A href="5c21adcc-87c8-44e7-981d-02902635693d"&gt;Knihe pohľadávok&lt;/A&gt;, resp. &lt;A href="b479a7dd-6c07-4548-862f-a38cbf1b872d"&gt;zaevidovania záväzku&lt;/A&gt; v &lt;A href="55028746-c263-4d92-a615-502222e8d53b"&gt;Knihe záväzkov&lt;/A&gt;. Rozdiel je v type dokladu - je potrebné zvoliť &lt;I&gt;&lt;STRONG&gt;Faktúra v CM&lt;/STRONG&gt;&lt;/I&gt;. V&amp;nbsp;prípade, že&amp;nbsp;sa táto položka v rozbaľovacom zozname nenachádza, je potrebné v&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="5a6e5663-262e-4ff0-9741-1569385d11e4"&gt;oddiel Firma, Všeobecné&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt; záložka &lt;EM&gt;Základné&lt;/EM&gt; povoliť prácu s&amp;nbsp;cudzími menami. Cudzie meny sa nastavujú v ponuke &lt;EM&gt;Firma&lt;/EM&gt;, &lt;EM&gt;Predvoľby&lt;/EM&gt;,&amp;nbsp;&lt;A href="09e378df-5c76-42f3-a245-b33dd0580648"&gt;Cudzie meny&lt;/A&gt;. 
+&lt;LI&gt;Na vystavenej faktúre &lt;SPAN style="COLOR: rgb(255,0,0)"&gt;sa DPH&lt;/SPAN&gt; &lt;SPAN style="COLOR: rgb(255,0,0)"&gt;vypočítava pri každej jednej položke dokladu&lt;/SPAN&gt;.&amp;nbsp;Suma DPH&amp;nbsp;vypočítaná z&amp;nbsp;danej položky sa následne zaokrúhli. V rekapitulácii súm dokladu sa&amp;nbsp;suma DPH&amp;nbsp;potom uvádza ako súčet vypočítaných a zaokrúhlených&amp;nbsp;súm DPH&amp;nbsp;z jednotlivých položiek. Bližšie informácie o výpočte DPH nájdete v téme &lt;A href="52df1f6d-0c85-4a3a-8ae8-dd57284545fc"&gt;Výpočet súm na doklade&lt;/A&gt;, prípadne v téme&amp;nbsp;&lt;A href="bb669cba-8a46-4b82-94de-9485abb13387" style="auto-update-caption: true"&gt;Výpočet DPH v rekapitulácii dokladu&lt;/A&gt;. 
+&lt;LI&gt;V odôvodnených prípadoch je možné upraviť celkovú rekapituláciu súm dokladu. V&amp;nbsp;súlade s predvolenými nastaveniami programu je táto možnosť vypnutá, nastavenie je možné zmeniť v&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="834e9546-a56b-476f-9028-ef4c24a82345"&gt;Práva používateľov&lt;/A&gt; &lt;I&gt;-&lt;/I&gt; nastavenie &lt;EM&gt;Manuálna úprava celkovej sumy prijatého/vydaného dokladu&lt;/EM&gt;. 
+&lt;LI&gt;Pri úprave súm celkovej rekapitulácie dokladu je niekedy potrebné zrušiť väzbu medzi niektorými poľami, napr. základ DPH a výška DPH. Túto väzbu je možné zrušiť, prípadne opätovne povoliť pomocou &lt;A href="6a6f2a40-680f-4f3b-906a-5030ac5cd33d"&gt;klávesových skratiek&lt;/A&gt;&amp;nbsp;(vypnutie: &lt;EM&gt;Ctrl+Shift+N&lt;/EM&gt;, zapnutie:&amp;nbsp;&lt;EM&gt;Ctrl+&lt;/EM&gt;&lt;EM&gt;Shift&lt;/EM&gt;&lt;EM&gt;+R&lt;/EM&gt;). 
+&lt;LI&gt;Faktúru v cudzej mene je možné vytlačiť aj v inom jazyku (jazyky je možné pridávať, prípadne upravovať pomocou&amp;nbsp;&lt;A href="a1ae5eb5-f369-4aab-80b2-c6585166d550"&gt;Správcu doplnkov&lt;/A&gt;). Pred tlačou je potrebné vybrať jazyk, v ktorom chcete mať danú faktúru vytlačenú. Preložiť je možné aj dáta (napr. názvy skladových položiek faktúry). Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="04d2db16-08ec-459e-b5c9-71dd3a9f9e2f"&gt;Jazykové verzie OBERON-u&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Postup vystavenia faktúry v cudzej mene&amp;nbsp;&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;V&amp;nbsp;ponuke &lt;I&gt;Fakturácia&lt;/I&gt; zvoľte položku&amp;nbsp;&lt;A href="5c21adcc-87c8-44e7-981d-02902635693d"&gt;Kniha pohľadávok&lt;/A&gt;. 
+&lt;LI&gt;V&amp;nbsp;otvorenej evidencii stlačte tlačidlo &lt;I&gt;Nový&lt;/I&gt;, zobrazí sa sprievodca &lt;I&gt;Nový doklad&lt;/I&gt;. Spôsob vytvorenia&amp;nbsp;vyberte &lt;I&gt;&lt;STRONG&gt;štandardné zadanie&lt;/STRONG&gt;&lt;/I&gt;.&amp;nbsp; 
+&lt;LI&gt;Ďalej v sprievodcovi zvoľte prevádzku (v prípade členenia na&amp;nbsp;&lt;A href="8df798f2-4fbf-4279-ad8c-493bdbe7f2e4"&gt;prevádzky&lt;/A&gt;) a&amp;nbsp;&lt;A href="614e08c0-a29e-4810-a741-174e81a8e259"&gt;typ dokladu&lt;/A&gt; &lt;STRONG&gt;&lt;EM&gt;Faktúra v CM&lt;/EM&gt;&lt;/STRONG&gt; (faktúra v&amp;nbsp;cudzej mene)&lt;EM&gt;.&lt;/EM&gt; V&amp;nbsp;prípade, že&amp;nbsp;sa táto položka v rozbaľovacom zozname nenachádza, je potrebné v&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="5a6e5663-262e-4ff0-9741-1569385d11e4"&gt;oddiel Firma, Všeobecné&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt; záložka &lt;EM&gt;Základné&lt;/EM&gt; povoliť prácu s&amp;nbsp;cudzími menami. Ak doklad bude obsahovať len skladové položky, začiarknite pole &lt;EM&gt;Skladový doklad (položky zo skladu)&lt;/EM&gt;. 
+&lt;LI&gt;Z&amp;nbsp;rozbaľovacieho zoznamu vyberte cudziu menu. Ak sa daná mena v&amp;nbsp;zozname nenachádza, je potrebné ju nastaviť v ponuke &lt;EM&gt;Firma&lt;/EM&gt;, &lt;EM&gt;Predvoľby&lt;/EM&gt;,&amp;nbsp;&lt;A href="09e378df-5c76-42f3-a245-b33dd0580648"&gt;Cudzie meny&lt;/A&gt;. 
+&lt;LI&gt;Stlačte tlačidlo výberu&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_ListButton.png"&gt;&amp;nbsp;za poľom &lt;EM&gt;Kurz&lt;/EM&gt;, otvorí sa formulár&amp;nbsp;&lt;A href="8c1f1dd4-a841-4745-beed-49dd12964b0a"&gt;kurzový lístok&lt;/A&gt;. V prípade, že je&amp;nbsp;formulár prázdny, stlačte tlačidlo &lt;EM&gt;Možnosti&lt;/EM&gt; &lt;EM&gt;- Stiahnutie kurzového lístka&lt;/EM&gt;. Funkcia stiahne kurzový lístok nastavených cudzích mien z internetovej stránky&amp;nbsp;&lt;A href="https://www.ecb.europa.eu/ecb/html/index.sk.html" target=_blank&gt;Európskej centrálnej banky&lt;/A&gt;. 
+&lt;LI&gt;Vyberte kurz a&amp;nbsp;zadajte, resp. vyberte &lt;A href="b7a48886-b367-4056-808a-59ba5f871f32"&gt;obchodného partnera&lt;/A&gt;. Obchodného partnera je možné&amp;nbsp;&lt;A href="e5871f39-032a-431b-9117-df5a4e5dccc8"&gt;vyhľadať na internete podľa názvu alebo podľa IČO&lt;/A&gt;. 
+&lt;LI&gt;Stlačením tlačidla&amp;nbsp;&lt;I&gt;Dokončiť&lt;/I&gt; sa otvorí &lt;A href="68022ee5-d91a-4a1d-960b-c5de57414b6f"&gt;formulár Pohľadávka&lt;/A&gt;. 
+&lt;LI&gt;Vo formulári definujte&amp;nbsp;formu úhrady, dátum vystavenia, dodania, splatnosť atď. 
+&lt;LI&gt;Pridať novú položku&amp;nbsp;do dokladu je možné&amp;nbsp;v&amp;nbsp;záložke &lt;I&gt;Položky dokladu&lt;/I&gt;, tlačidlo &lt;I&gt;Nový&lt;/I&gt;. Položky dokladu môžu byť skladové (&lt;A href="1a33ab0b-2df7-4dc2-962b-8a3319c16831"&gt;skladové karty&lt;/A&gt;) alebo neskladové - nastavenie sa nachádza pod zoznamom položiek (rovnaké ako v sprievodcovi - pozri bod č. 3).&amp;nbsp;Stlačením tlačidla&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_ListButton.png"&gt;, ktoré sa nachádza&amp;nbsp;za názvom položky dokladu,&amp;nbsp;je možné&amp;nbsp;otvoriť &lt;A href="44687867-ecee-4004-93db-ac793d646191"&gt;Zoznam neskladových položiek&lt;/A&gt; (číselník), ktorý slúži na rýchlejšie a&amp;nbsp;jednoduchšie zadávanie často&amp;nbsp;používaných položiek dokladu. Funkcie na prácu s&amp;nbsp;položkami dokladu sú dostupné po stlačení tlačidla &lt;EM&gt;Možnosti&lt;/EM&gt; (napr. zadávanie zľavy). 
+&lt;LI&gt;Podľa potreby zadajte text pred, resp. za položkami. Najčastejšie používané texty vo vystavených faktúrach (pred položkami, za položkami atď.) je možné preddefinovať, prípadne už zadané texty upravovať alebo mazať. Viac informácií v téme&amp;nbsp;&lt;A href="f500bb74-abd3-4d09-a7c5-4ca583519615"&gt;Texty dokladov&lt;/A&gt;. 
+&lt;LI&gt;V spodnej časti formulára v záložke &lt;EM&gt;Celkom v cudzej mene&lt;/EM&gt; a &lt;EM&gt;Cudzia mena&lt;/EM&gt; je možné skontrolovať kurz, vypočítané sumy DPH a pod. 
+&lt;LI&gt;Zápis údajov potvrďte stlačením tlačidla &lt;I&gt;&lt;STRONG&gt;OK&lt;/STRONG&gt;&lt;/I&gt;. Do knihy pohľadávok sa uloží nová faktúra v cudzej mene. &lt;/LI&gt;&lt;/OL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Pri zaevidovaní záväzku v cudzej mene postupujte analogicky.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Bližšie informácie o štruktúre a štandardných možnostiach dokladu v systéme OBERON&amp;nbsp;sú k&amp;nbsp;dispozícii&amp;nbsp;v téme &lt;A class=LastChild href="1dce6bce-8c7d-443a-b0f9-14ec18f3c9a0"&gt;Štruktúra a možnosti dokladu&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="69834f55-00c8-4fcf-b6d7-f783b7bdef1b" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="5c21adcc-87c8-44e7-981d-02902635693d">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="e86eecee-4787-4b31-a130-0444aa839585" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="55028746-c263-4d92-a615-502222e8d53b">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="c7de86bc-9702-46c8-b005-049c850557b1" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="ec4e9be4-140f-4ec9-aa04-544e9870bfe1">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="67cff398-7acc-4299-bba2-7d8460de9ef6" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="09e378df-5c76-42f3-a245-b33dd0580648">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="eda0899c-2f3b-46a3-b395-17a222ab4ec8" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="66ed476e-d5ea-4e46-a758-a3f190a60a7c">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="8228d1e2-86ac-433a-97a3-6105edf57e82">
+      <Keyword m="2021-08-31T07:08:44.7435771Z">Cudzie meny - vytvorenie faktúry</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="293a08b5-7644-48f2-b0f9-10ed25892355">
+      <Keyword m="2021-08-31T07:21:24.814366Z">Faktúra v cudzej mene</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="107e3b44-a647-4385-887c-b817cc7ec229">
+      <Keyword m="2022-03-02T13:51:25.0916681Z">Faktúra - cudzia mena</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="023e8c15-1221-4cd8-b0e7-a5b5312f0c56">
+      <Keyword m="2022-03-03T10:28:36.0857948Z">Cudzia mena - vytvorenie faktúry</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="55837337-bfc6-4cdc-9b5d-b2ab351fb631">
+      <Keyword m="2022-03-03T10:28:48.8314568Z">Vystavenie faktúry v cudzej mene</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="4f42e42f-a7ee-484c-b5bc-7c285ee07512">
+      <Keyword m="2023-04-19T07:18:58.3234364Z">Zaevidovanie faktúry v cudzej mene</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

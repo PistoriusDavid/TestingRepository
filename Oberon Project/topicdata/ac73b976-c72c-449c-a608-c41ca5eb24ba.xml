@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="ac73b976-c72c-449c-a608-c41ca5eb24ba" Status="Complete" CreatedOn="2018-03-19T09:57:12.9861399Z" ModifiedOn="2024-09-02T05:43:50.2708282Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Device_AttendanceTerminal_Exalogic" BuildFlags="">
+  <Title m="2022-12-15T07:24:13.3817127Z">Dochádzkový terminál EXALOGIC A-C071S</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-06-06T07:04:39.1933081Z">&lt;P&gt;Systém OBERON podporuje viaceré hardvérové aj softvérové&amp;nbsp;&lt;A href="f46f3a8f-ba04-4359-ba99-dc6caeeba021"&gt;dochádzkové terminály&lt;/A&gt; na&amp;nbsp;evidenciu príchodov a odchodov pracovníkov, t. j. evidenciu dochádzky. Táto téma&amp;nbsp;&lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje informácie o&amp;nbsp;&lt;STRONG&gt;hardvérovom&amp;nbsp;dochádzkovom termináli &lt;EM&gt;EXALOGIC A-C071S&lt;/EM&gt;&lt;/STRONG&gt;, ktorý je&amp;nbsp;pre používateľov OBERON-u&amp;nbsp;&lt;A href="1f32a90c-7b4a-4d69-9f38-a560178794b3"&gt;odporúčaným&lt;/A&gt; dochádzkovým terminálom &lt;A href="1f32a90c-7b4a-4d69-9f38-a560178794b3" style="auto-update-caption: true"&gt;&lt;IMG border=0 alt="Odporúčané riešenia" src="images/OBERON/Basic/Odporucane-riesenie_ruka_ikona.png"&gt;&lt;/A&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Hardvérový dochádzkový terminál&amp;nbsp;&lt;STRONG&gt;EXALOGIC A-C071S&lt;/STRONG&gt; je elektronické zariadenie určené&amp;nbsp;na evidenciu príchodov a odchodov pracovníkov, t. j. evidenciu dochádzky. 
+&lt;LI&gt;Identifikácia pracovníkov sa realizuje viacerými spôsobmi, a to&amp;nbsp;pomocou: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;prístupového kódu a&amp;nbsp;zároveň&amp;nbsp;hesla&lt;/STRONG&gt;, 
+&lt;LI&gt;&lt;STRONG&gt;RFID kľúča/karty&lt;/STRONG&gt;, 
+&lt;LI&gt;&lt;STRONG&gt;odtlačku&amp;nbsp;prsta&lt;/STRONG&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Dochádzkový terminál je určený na použitie v on-line prepojení s&amp;nbsp;databázou účtovnej jednotky. V odôvodnených prípadoch&amp;nbsp;je ho možné používať aj v&amp;nbsp;režime off-line (maximálne jeden mesiac). Po opätovnom pripojení dochádzkového terminálu k&amp;nbsp;databáze&amp;nbsp;sa prechody automaticky načítajú do knihy&amp;nbsp;&lt;A href="4a82f3bd-3c2b-4ab4-91f7-df0fa039cd5c"&gt;Evidencia príchodov a odchodov&lt;/A&gt;, prípadne je možné prechody stiahnuť v CSV formáte (napr. pri inštalácii dochádzkového terminálu na stavenisku a mesačnom spracovaní dochádzky). &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 1: Dochádzkový terminál&amp;nbsp;&lt;EM&gt;EXALOGIC A-C071S&lt;/EM&gt;&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Devices/Device_Attendance_EXALOGIC_A-C071S.png"&gt;&lt;/P&gt;
+&lt;H2&gt;Technické informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Zariadenie inštaluje servisný technik dodávateľa v spolupráci so správcom lokálnej počítačovej&amp;nbsp;siete. Viac informácií k inštalácii zariadenia získate v téme&amp;nbsp;&lt;A href="e11b492e-8020-499e-8e54-0b71c6ebdd75"&gt;Inštalácia dochádzkového terminálu EXALOGIC A-C071S&lt;/A&gt;. 
+&lt;LI&gt;Komunikáciu medzi dochádzkovým terminálom a&amp;nbsp;systémom OBERON zabezpečuje &lt;A href="9ce25bbd-35d1-4096-acd5-70007f5af5a6"&gt;automatická úloha&lt;/A&gt; &lt;STRONG&gt;&lt;EM&gt;Dochádzkové terminály - komunikácia&lt;/EM&gt;&lt;/STRONG&gt; vykonávaná programom&amp;nbsp;&lt;A href="09f3dae9-2fb7-490f-97dc-37f60885b398" style="auto-update-caption: true"&gt;OBERON Automation Center&lt;/A&gt;&amp;nbsp;(nastavuje sa&amp;nbsp;v&amp;nbsp;programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;, ponuka &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="9ce25bbd-35d1-4096-acd5-70007f5af5a6"&gt;Automatické úlohy&lt;/A&gt;). 
+&lt;LI&gt;Logovacie súbory z priebehu komunikácie medzi systémom OBERON a dochádzkovým terminálom sa ukladajú do adresára &lt;STRONG&gt;c:\OBERON\Temp\DochadzkoveTerminaly_LOG*.*&lt;/STRONG&gt;. 
+&lt;LI&gt;Zariadenie &lt;STRONG&gt;neuchováva odtlačky prstov&lt;/STRONG&gt;&amp;nbsp;- eviduje len základné daktyloskopické vzory a markanty. Na základe nich nie je možné vygenerovať konkrétny odtlačok prsta. Možné je len porovnanie daktyloskopických vzorov a markantov na identifikovanie danej osoby. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Pri dochádzkovom termináli&amp;nbsp;EXALOGIC A-C071S&amp;nbsp;je potrebné, aby pracovník mal vo formulári&amp;nbsp;&lt;A href="8dd60281-9cc7-41fe-9dd2-2ad5c7ffe047"&gt;Pracovník&lt;/A&gt; (ponuka &lt;EM&gt;Firma&lt;/EM&gt;, resp. &lt;EM&gt;Mzdy, Pracovníci&lt;/EM&gt;) &lt;STRONG&gt;okrem prístupového kódu zadané aj heslo,&amp;nbsp;resp. kód RFID kľúča/karty&lt;/STRONG&gt;. Pri ostatných typoch terminálov stačí mať zadaný prístupový kód pracovníka.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Ďalšie informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Dochádzkový terminál &lt;EM&gt;EXALOGIC A-C071S&lt;/EM&gt; dokáže rozpoznať odtlačky za sucha i mokra, dokonca aj mierne poškodené odtlačky. 2.4" TFT LCD displej zaručuje jasnosť a čitateľnosť všetkých údajov. 
+&lt;LI&gt;Vysoká rýchlosť verifikácie - vždy do jednej sekundy. 
+&lt;LI&gt;Pri použití identifikácie pracovníkov pomocou odtlačkov prstov má&amp;nbsp;firma&amp;nbsp;&lt;STRONG&gt;povinnosť registrácie&lt;/STRONG&gt; na &lt;EM&gt;Úrade na ochranu osobných údajov&lt;/EM&gt;. 
+&lt;LI&gt;Dôležité položky firmvéru sú k dispozícii &lt;STRONG&gt;v&amp;nbsp;slovenskom jazyku&lt;/STRONG&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;Dôležité upozornenie:&lt;/STRONG&gt; Tlačidlo &lt;EM&gt;F1 Príchod&lt;/EM&gt; slúži tak na príchod do zamestnania, ako aj na návrat zo všetkých druhov neprítomností. Všetky ostatné tlačidlá (&lt;EM&gt;F2 – F8&lt;/EM&gt;) slúžia len na odchod zo zamestnania podľa cieľa neprítomnosti. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Technická špecifikácia&lt;/H2&gt;
+&lt;P&gt;&lt;STRONG&gt;Model:&lt;/STRONG&gt;&amp;nbsp;EXALOGIC A-C071S&lt;BR&gt;&lt;STRONG&gt;Spôsob pripojenia (rozhranie):&lt;/STRONG&gt;&amp;nbsp;LAN, USB&lt;BR&gt;&lt;STRONG&gt;Spôsob komunikácie:&lt;/STRONG&gt;&amp;nbsp;TCP/IP, USB&lt;BR&gt;&lt;STRONG&gt;Kapacita pracovníkov:&lt;/STRONG&gt; &amp;nbsp;2 000&lt;BR&gt;&lt;STRONG&gt;Kapacita odtlačkov:&amp;nbsp;&lt;/STRONG&gt;2 000&lt;BR&gt;&lt;STRONG&gt;Kapacita záznamov:&lt;/STRONG&gt;&amp;nbsp;neobmedzená (100 000&amp;nbsp; v&amp;nbsp;režime off-line)&lt;BR&gt;&lt;STRONG&gt;Jazyk:&lt;/STRONG&gt;&amp;nbsp;slovenský, anglický&lt;BR&gt;&lt;STRONG&gt;Displej:&lt;/STRONG&gt;&amp;nbsp;2.4" TFT LCD&lt;BR&gt;&lt;STRONG&gt;Zvonenie - alarm:&lt;/STRONG&gt; zabudované v zariadení&lt;BR&gt;&lt;STRONG&gt;Typy prechodov:&lt;/STRONG&gt; preddefinované (max. 8)&lt;BR&gt;&lt;STRONG&gt;Spôsob overovania:&lt;/STRONG&gt;&amp;nbsp;prístupový kód a heslo/kľúč, resp. karta s RFID&amp;nbsp;čipom (125 Khz)/odtlačky prstov&lt;BR&gt;&lt;STRONG&gt;Rozlíšenie snímača odtlačkov prstov:&lt;/STRONG&gt;&amp;nbsp;500 DPI (Optical)&lt;BR&gt;&lt;STRONG&gt;Reálne zobrazenie odtlačkov prstov na displeji:&lt;/STRONG&gt;&amp;nbsp;k dispozícii&lt;BR&gt;&lt;STRONG&gt;Čas identifikácie:&lt;/STRONG&gt;&amp;nbsp;do 1 s&lt;BR&gt;&lt;STRONG&gt;Napájanie:&lt;/STRONG&gt;&amp;nbsp;DC 12 V/1 A&lt;BR&gt;&lt;STRONG&gt;Prevádzkové prostredie:&lt;/STRONG&gt;&amp;nbsp;prevádzková teplota: 0&amp;nbsp;°C&amp;nbsp;- 45 °C, vlhkosť vzduchu: 20 % - 80 %&lt;BR&gt;&lt;STRONG&gt;Rozmery:&lt;/STRONG&gt;&amp;nbsp;110 x 164 x 42 mm (šírka x dĺžka x výška)&lt;BR&gt;&lt;STRONG&gt;Hmotnosť:&lt;/STRONG&gt; 850 g&lt;BR&gt;&lt;STRONG&gt;Spôsob uloženia odtlačku prsta:&lt;/STRONG&gt; len daktyloskopické vzory a markanty (max 498 bajtov)&lt;/P&gt;
+&lt;H2&gt;Cena a objednávka zariadenia&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Zariadenie je určené na predaj, a to&amp;nbsp;výhradne používateľom OBERON-u a našim &lt;A href="f83c2a9c-cda4-4862-8628-7ba16ddb1b06" rel=noopener&gt;zmluvným partnerom&lt;/A&gt;. 
+&lt;LI&gt;Informácie o cene a dostupnosti zariadenia s možnosťou objednávky nájdete na stránke nášho internetového obchodu &lt;STRONG&gt;&lt;A href="https://shop.exalogic.sk/"&gt;EXALOGIC e-shop&lt;/A&gt;&lt;/STRONG&gt;. 
+&lt;LI&gt;Na inštaláciu a&amp;nbsp;nastavenie zariadenia odporúčame využiť služby našich zmluvných partnerov. &lt;/LI&gt;&lt;/UL&gt;
+&lt;HR&gt;
+
+&lt;P align=center&gt;&lt;A href="1f32a90c-7b4a-4d69-9f38-a560178794b3" style="auto-update-caption: true"&gt;&lt;IMG border=0 alt="Odporúčané riešenia" src="images/OBERON/Basic/Odporucane-riesenie.png"&gt;&lt;/A&gt;&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="5f372149-d3bc-4f43-9cdb-f6498834571a" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="f46f3a8f-ba04-4359-ba99-dc6caeeba021">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="c777963d-e4f1-4cd7-95ea-62851de81f30" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="e11b492e-8020-499e-8e54-0b71c6ebdd75">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="3e6dd768-12d6-4243-a3bd-d948d5c1fc21" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="8dd60281-9cc7-41fe-9dd2-2ad5c7ffe047">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="5bfd49bf-33d9-48bc-98cc-3f3a84e3505c" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="28ad3f59-16f3-4162-a0a6-387778cbc7c3">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="37daf764-f785-4c16-8f28-a9dedb7fc1c3">
+      <Keyword m="2022-12-15T07:25:36.6638333Z">EXALOGIC A-C071S - dochádzkový terminál</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="c313b344-1e3c-43fb-831f-e4c9a051eca9">
+      <Keyword m="2021-05-04T06:22:08.6099079Z">Dochádzkový terminál EXALOGIC A-C071S</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="54b66d78-8ae2-41f7-bd3f-24cd6c8c68a3">
+      <Keyword m="2024-09-02T05:43:48.7879688Z">A-C071S - dochádzkový terminál</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

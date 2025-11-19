@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="4a930c98-fab8-4cda-849e-734179654358" Status="Complete" CreatedOn="2014-09-04T11:31:12.9184Z" ModifiedOn="2022-09-27T12:37:29.2092784Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="false" HelpContextIds="" Name="ProgramControls_Filters_Sample" BuildFlags="">
+  <Title m="2021-10-01T11:00:53.5049407Z">Príklady použitia filtrov</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2022-09-27T12:37:29.2092784Z">&lt;P&gt;Filtrovanie záznamov v OBERON-e je&amp;nbsp;funkcia, ktorá umožňuje&amp;nbsp;v aktuálne&amp;nbsp;otvorenej evidencii (knihe) zobrazovať len tie záznamy, ktoré vyhovujú zadanej podmienke, resp. podmienkam&amp;nbsp;filtrovania.&amp;nbsp;Nastavenie filtrovania je dostupné v&amp;nbsp;príslušných&amp;nbsp;evidenciách (napr. kniha pohľadávok, záväzkov atď.) po stlačení tlačidla &lt;A href="124da68e-c3f0-43e4-9466-60b4916bfc41"&gt;Vlastnosti&lt;/A&gt;, záložka &lt;I&gt;Filtre&lt;/I&gt;. V tejto téme sú uvedené &lt;STRONG&gt;príklady použitia filtra v&amp;nbsp;knihe pohľadávok a&amp;nbsp;knihe výdajok&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;H2&gt;Príklad použitia&amp;nbsp;filtra v knihe pohľadávok&lt;/H2&gt;
+&lt;P&gt;Účtovná jednotka v&amp;nbsp;&lt;A href="5c21adcc-87c8-44e7-981d-02902635693d"&gt;knihe pohľadávok&lt;/A&gt; chce zistiť, aké faktúry vystavila v prvej polovici mesiaca december. Filtre môžeme nastaviť nasledujúcim spôsobom&amp;nbsp;(na ich poradí nezáleží):&lt;/P&gt;
+&lt;TABLE style="HEIGHT: 57px; WIDTH: 420px" width=420 border=0&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TD height=4 width=105&gt;Dátum vystavenia&lt;/TD&gt;
+&lt;TD height=4 width=105&gt;je z rozsahu&lt;/TD&gt;
+&lt;TD height=4 width=105&gt;1.12.&amp;nbsp;až 16.12.&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=105&gt;Typ dokladu&lt;/TD&gt;
+&lt;TD width=105&gt;sa rovná&lt;/TD&gt;
+&lt;TD width=105&gt;&amp;nbsp;Faktúra&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;
+&lt;P&gt;Prvá podmienka ponechá v knihe pohľadávok len&amp;nbsp;záznamy z vybraného obdobia. Druhá podmienka ponechá len záznamy, ktoré sú faktúrami (nie zálohové faktúry, dobropisy, faktúry na zálohu...). Po výbere spôsobu zlúčenia podmienok &lt;EM&gt;a súčasne&lt;/EM&gt; sa&amp;nbsp;zobrazia záznamy, ktoré vyhovujú obom podmienkam filtra.&lt;/P&gt;
+&lt;H2&gt;Príklad použitia&amp;nbsp;filtra v knihe výdajok&lt;/H2&gt;
+&lt;P&gt;Účtovná jednotka v&amp;nbsp;&lt;A href="0be61fcc-a85b-4572-876d-2171a5cb7c29"&gt;knihe výdajok&lt;/A&gt; chce zistiť, aké vysporiadané výdajky za mesiac február vydala.&lt;/P&gt;
+&lt;TABLE style="HEIGHT: 57px; WIDTH: 420px" width=420 border=0&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TD height=4 width=105&gt;Dátum&lt;/TD&gt;
+&lt;TD height=4 width=105&gt;je z obdobia&lt;/TD&gt;
+&lt;TD height=4 width=105&gt;Február&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=105&gt;Vysporiadanosť&lt;/TD&gt;
+&lt;TD width=105&gt;sa rovná&lt;/TD&gt;
+&lt;TD width=105&gt;&amp;nbsp;Áno&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;
+&lt;P&gt;Prvá podmienka ponechá len výdajky z obdobia február. Druhá podmienka ponechá len vysporiadané výdajky. Po výbere spôsobu zlúčenia podmienok &lt;EM&gt;a súčasne&lt;/EM&gt; sa&amp;nbsp;zobrazia záznamy, ktoré vyhovujú obom podmienkam filtra.&lt;/P&gt;
+&lt;P&gt;Na zobrazenie výdajok&amp;nbsp;len z určitého skladu je potrebné v&amp;nbsp;&lt;A href="0be61fcc-a85b-4572-876d-2171a5cb7c29"&gt;knihe výdajok&lt;/A&gt;&amp;nbsp;pomocou filtra &lt;EM&gt;Sklad&lt;/EM&gt; v hornej časti evidencie vybrať daný sklad.&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="eb696ee6-1cdc-4f93-9ecb-5a4733f7ea99" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1ea156c6-edd0-46e0-ab65-7f41af30e672">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="bfd3e3b4-a43c-4056-8d76-81d36d3c5d29" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="124da68e-c3f0-43e4-9466-60b4916bfc41">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="c8c63597-500c-4c5c-ab94-0c056d89566a" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="54bcf6c3-515f-4dcb-a3eb-0bf905629a16">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="10a71b99-c982-4cc1-a61c-aa45312bddb0">
+      <Keyword m="2021-03-25T13:23:20.2759546Z">Filtre - príklady</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="806a4070-132c-454c-927b-5b149e2fc4ef">
+      <Keyword m="2021-10-01T09:03:04.975814Z">Použitie filtrov - príklady</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="41513109-f711-4de5-b494-67671f203dca" Status="Complete" CreatedOn="2014-09-05T14:55:07.2387051Z" ModifiedOn="2023-11-24T08:35:22.3654441Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="22611" Name="Menu_Acc_BullAccounting" BuildFlags="">
+  <Title m="2014-10-15T09:20:26.7257835Z">Hromadné účtovanie dokladov</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-11-24T08:35:22.3654441Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;je venovaná&amp;nbsp;položke&amp;nbsp;&lt;EM&gt;Hromadné účtovanie dokladov&lt;/EM&gt;&amp;nbsp;v&amp;nbsp;ponuke&amp;nbsp;&lt;EM&gt;Účtovníctvo&lt;/EM&gt; programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Výberom položky sa otvorí kniha &lt;EM&gt;Hromadné účtovanie dokladov.&lt;/EM&gt; V&amp;nbsp;nej sa ukladajú záznamy o hromadnom účtovaní dokladov - funkcii, ktorá slúži na&lt;STRONG&gt; hromadné&amp;nbsp;zaúčtovanie dokladov do účtovného alebo peňažného&amp;nbsp;denníka&lt;/STRONG&gt;.&amp;nbsp;Najčastejšie ide o hromadné zaúčtovanie konkrétnej evidencie za zvolené obdobie.&amp;nbsp;Bankové výpisy (napr. úhrady faktúr)&amp;nbsp;sa účtujú v&amp;nbsp;osobitnej&amp;nbsp;evidencii&amp;nbsp;&lt;A href="02bbf54b-086f-4641-8c33-4dd461e56fb4" style="auto-update-caption: true"&gt;Spracovanie bankových výpisov&lt;/A&gt;. 
+&lt;LI&gt;V&amp;nbsp;prípade používania &lt;A href="8df798f2-4fbf-4279-ad8c-493bdbe7f2e4"&gt;prevádzok&lt;/A&gt;&amp;nbsp;záznamy&amp;nbsp;v&amp;nbsp;knihe &lt;EM&gt;Hromadné účtovanie dokladov&lt;/EM&gt;&amp;nbsp;možno zobraziť podľa príslušnosti&amp;nbsp;k prevádzke, a&amp;nbsp;to&amp;nbsp;ako podmnožiny&amp;nbsp;záznamov knihy. Možno tak urobiť pomocou filtra&amp;nbsp;&lt;EM&gt;Prevádzka&lt;/EM&gt; v&amp;nbsp;hornej časti evidencie.&amp;nbsp;Zoznam dostupných prevádzok (definujú sa v ponuke &lt;EM&gt;Firma&lt;/EM&gt;,&amp;nbsp;&lt;A href="a833ee8a-1289-42b9-923f-80f549497702"&gt;Údaje o firme&lt;/A&gt;)&amp;nbsp;je možné v prípade potreby obmedziť pomocou&amp;nbsp;&lt;A href="834e9546-a56b-476f-9028-ef4c24a82345"&gt;používateľských práv&lt;/A&gt;. 
+&lt;LI&gt;Hromadne účtovať je možné&amp;nbsp;tieto evidencie: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;A href="5c21adcc-87c8-44e7-981d-02902635693d"&gt;Kniha pohľadávok&lt;/A&gt;&amp;nbsp;- účtovné predpisy dokladov (faktúr), 
+&lt;LI&gt;&lt;A href="55028746-c263-4d92-a615-502222e8d53b"&gt;Kniha záväzkov&lt;/A&gt;&amp;nbsp;- účtovné predpisy dokladov (faktúr), 
+&lt;LI&gt;&lt;EM&gt;Skladová evidencia&lt;/EM&gt; - údaje (skladové pohyby) v sklade, viac informácií je možné získať v téme &lt;A href="e50f9e37-991e-4800-9fc3-3eeb6ce162a7" style="auto-update-caption: true"&gt;Hromadné zaúčtovanie skladu&lt;/A&gt;, 
+&lt;LI&gt;&lt;A href="354e86f6-e098-451f-a4d6-2ecf73bce5ee"&gt;Účtovanie miezd&lt;/A&gt; - zaúčtovanie účtovného predpisu spracovaných miezd, 
+&lt;LI&gt;&lt;A href="b4329672-0a25-4161-bea7-150f71012c40"&gt;Účtovanie majetku (účtovných odpisov)&lt;/A&gt;&amp;nbsp;- zaúčtovanie účtovných odpisov do&amp;nbsp;&lt;A href="d8c9bfc8-92d1-4471-8909-e5f8ce602d6c"&gt;účtovného denníka&lt;/A&gt; (podvojné účtovníctvo), 
+&lt;LI&gt;&lt;A href="bcc3e198-b8ce-4038-84f8-b332aa57dedb"&gt;Účtovanie majetku (daňových odpisov)&lt;/A&gt; - zaúčtovanie daňových odpisov do&amp;nbsp;&lt;A href="5e82cca9-b8af-4a80-ba30-7ab91914a595"&gt;peňažného denníka&lt;/A&gt; (jednoduché účtovníctvo). &amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Hromadné zaúčtovanie dokladov sa vykonáva pomocou &lt;A href="b1b0dcee-286e-4564-a6a6-597d54e2e13a"&gt;sprievodcu Hromadné účtovanie dokladov&lt;/A&gt;, ktorý je&amp;nbsp;dostupný po stlačení tlačidla &lt;EM&gt;Nový&amp;nbsp;&lt;/EM&gt;v&amp;nbsp;knihe &lt;EM&gt;Hromadné účtovanie dokladov&lt;/EM&gt;. 
+&lt;LI&gt;V sprievodcovi je možné začiarknuť možnosť &lt;STRONG&gt;&lt;EM&gt;Pred samotným zaúčtovaním vykonať test zaúčtovania&lt;/EM&gt;&lt;/STRONG&gt;. V tom prípade program najskôr&amp;nbsp;vykoná test&amp;nbsp;účtovania a až následne sa uskutoční samotné účtovanie. V&amp;nbsp;rámci testu sa skontrolujú všetky zdrojové záznamy (doklady), ktoré sú predmetom účtovania, či spĺňajú všetky potrebné podmienky na korektné zaúčtovanie. 
+&lt;LI&gt;Pole &lt;I&gt;Stav zaúčtovania&lt;/I&gt; pri jednotlivých záznamoch v&amp;nbsp;knihe &lt;EM&gt;Hromadné účtovanie dokladov&lt;/EM&gt; zobrazuje stav, v akom sa práve nachádza účtovanie (&lt;EM&gt;Nezaúčtované, Nezaúčtované (otestované), Zaúčtované&lt;/EM&gt;). 
+&lt;LI&gt;Pomocou tlačidla &lt;I&gt;Tlač&lt;/I&gt; je možné dané zaúčtovanie vytlačiť, a to aj so zápismi, ktoré sa týmto zaúčtovaním automaticky vytvorili v účtovnom (peňažnom)&amp;nbsp;denníku. 
+&lt;LI&gt;Každý záznam v&amp;nbsp;knihe &lt;EM&gt;Hromadné účtovanie dokladov&lt;/EM&gt; obsahuje &lt;STRONG&gt;tzv. správu o priebehu účtovania&lt;/STRONG&gt;, ktorá umožňuje jednoducho odhaliť prípadné problémy so zaúčtovaním. 
+&lt;LI&gt;V odôvodnených prípadoch je možné dané hromadné zaúčtovanie zrušiť (tlačidlo &lt;EM&gt;Možnosti -&lt;/EM&gt; &lt;EM&gt;Zrušiť hromadné&amp;nbsp;zaúčtovanie&lt;/EM&gt;).&amp;nbsp;Po zrušení zaúčtovania sa vymažú záznamy v účtovnom/peňažnom denníku, v knihe &lt;EM&gt;Hromadné účtovanie dokladov&lt;/EM&gt;&amp;nbsp;však daný záznam o hromadnom zaúčtovaní ostatne zachovaný (so stavom zaúčtovania &lt;EM&gt;Nezaúčtované&lt;/EM&gt;). V prípade potreby&amp;nbsp;tak bude možné parametre daného účtovania upraviť (pomocou&amp;nbsp;&lt;A href="ddc4243d-b368-46d6-b86f-529790debae3"&gt;formulára Hromadné účtovanie dokladov&lt;/A&gt;&amp;nbsp;po stlačení tlačidla &lt;EM&gt;Oprava&lt;/EM&gt;)&amp;nbsp;a&amp;nbsp;účtovanie vykonať nanovo (tlačidlo &lt;EM&gt;Možnosti -&lt;/EM&gt; &lt;EM&gt;Hromadne zaúčtovať&lt;/EM&gt;). 
+&lt;LI&gt;Pri&amp;nbsp;hromadnom účtovaní tržieb&amp;nbsp;registračných pokladníc je potrebné postupovať&amp;nbsp;inak - účtovanie je&amp;nbsp;dostupné v&amp;nbsp;&lt;A href="fd6a0f47-c326-43a2-8408-003cce805463"&gt;Knihe tržieb&lt;/A&gt;&amp;nbsp;po stlačení tlačidla &lt;I&gt;Možnosti&lt;/I&gt; (účtuje sa konkrétna denná uzávierka). 
+&lt;LI&gt;Záznamy v knihe&amp;nbsp;možno&amp;nbsp;filtrovať alebo triediť. Nastaviť kritériá filtrovania alebo triedenia možno po stlačení tlačidla &lt;A href="124da68e-c3f0-43e4-9466-60b4916bfc41"&gt;Vlastnosti&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Ďalšie možnosti evidencie&lt;/H2&gt;
+&lt;P&gt;Ďalšie možnosti práce so záznamami&amp;nbsp;sú dostupné&amp;nbsp;po stlačení tlačidla &lt;EM&gt;Možnosti&lt;/EM&gt;, prípadne v&amp;nbsp;kontextovej ponuke tabuľky záznamov.&lt;/P&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Hromadne zaúčtovať&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Otvorí sa sprievodca, ktorý umožňuje vykonať hromadné zaúčtovanie dokladov&amp;nbsp;do účtovného/peňažného denníka. V sprievodcovi je možné začiarknuť možnosť &lt;EM&gt;Pred samotným zaúčtovaním vykonať test zaúčtovania&lt;/EM&gt;. V&amp;nbsp;tom prípade program najskôr&amp;nbsp;vykoná test&amp;nbsp;účtovania a až následne sa uskutoční samotné účtovanie.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Zrušiť hromadné zaúčtovanie&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Funkcia zruší hromadné zaúčtovanie dokladov. Po zrušení zaúčtovania sa vymažú záznamy v účtovnom/peňažnom denníku, v knihe &lt;EM&gt;Hromadné účtovanie dokladov&lt;/EM&gt;&amp;nbsp;však daný záznam o hromadnom zaúčtovaní ostatne zachovaný (so stavom zaúčtovania &lt;EM&gt;Nezaúčtované&lt;/EM&gt;).&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Zobraziť správy o priebehu&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Funkcia zobrazí správy o priebehu hromadného zaúčtovania, ktoré umožňujú jednoducho odhaliť prípadné problémy so zaúčtovaním.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Zobraziť vytvorené záznamy v denníku&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Funkcia zobrazí záznamy vytvorené hromadným zaúčtovaním dokladov v účtovnom/peňažnom denníku - otvorí knihu&amp;nbsp;&lt;A href="d8c9bfc8-92d1-4471-8909-e5f8ce602d6c"&gt;Účtovný denník&lt;/A&gt;&amp;nbsp;alebo&amp;nbsp;&lt;A href="5e82cca9-b8af-4a80-ba30-7ab91914a595"&gt;Peňažný denník&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Bližšie informácie o ovládaní evidencie, používaní filtrov, triedení záznamov a pod. sú dostupné v&amp;nbsp;téme&amp;nbsp;&lt;A href="8936fde4-aac3-4672-99a2-c8bd5ccffdcd"&gt;Ovládanie knihy (evidencie)&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="6305924a-fd5c-4106-a1e4-88301126b620" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="d8c9bfc8-92d1-4471-8909-e5f8ce602d6c">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="1b0780c5-8d09-4e7f-9a6f-06ace811e1d8" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="5e82cca9-b8af-4a80-ba30-7ab91914a595">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="bb370d04-0323-4a49-92dd-f8ace49b184d" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="b1b0dcee-286e-4564-a6a6-597d54e2e13a">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="b83928b6-bb82-4a0f-b4a7-794b371f79a0" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="ddc4243d-b368-46d6-b86f-529790debae3">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="942010ff-87b9-41c5-8428-41f970ee56c9" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="e50f9e37-991e-4800-9fc3-3eeb6ce162a7">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="cc37d47c-dd1e-4239-a510-88b0bba78e87" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="02bbf54b-086f-4641-8c33-4dd461e56fb4">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="58c3a089-3242-441a-82c6-e668223d92ae">
+      <Keyword m="2015-03-11T13:17:25.4511718Z">Automatické účtovanie dokladov</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

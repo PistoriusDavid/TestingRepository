@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="085651d2-b64b-4884-b55d-0ba2b7f7808a" Status="Complete" CreatedOn="2014-09-10T08:00:48.3624666Z" ModifiedOn="2024-04-29T11:07:53.8227124Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="false" HelpContextIds="" Name="Vehicles_Basic_Concept" BuildFlags="">
+  <Title m="2021-07-13T10:17:28.6542683Z">Všeobecne o koncepcii</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-04-29T11:07:53.8227124Z">&lt;P&gt;Táto téma obsahuje &lt;STRONG&gt;všeobecné informácie o&amp;nbsp;module &lt;EM&gt;Evidencia vozidiel&lt;/EM&gt;&lt;/STRONG&gt;&amp;nbsp;v&amp;nbsp;systéme OBERON.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Modul&amp;nbsp;&lt;EM&gt;Evidencia vozidiel&lt;/EM&gt;&amp;nbsp;predstavuje jeden z&amp;nbsp;voliteľných modulov systému OBERON. Umožňuje viesť knihu jázd vozidiel, pričom obsahuje aj ďalšie pomocné evidencie. Slúži tak na splnenie zákonnej povinnosti &lt;STRONG&gt;vykazovať uskutočnené jazdy&lt;/STRONG&gt; a pomáha &lt;STRONG&gt;získať prehľad o&amp;nbsp;dopravných výkonoch&lt;/STRONG&gt; vozidiel vo firme. 
+&lt;LI&gt;Najdôležitejšou&amp;nbsp;evidenciou modulu je &lt;A href="280be3ab-e42c-462b-bb0b-7abeac11b45a"&gt;Kniha jázd&lt;/A&gt;, ktorá umožňuje evidovať &lt;STRONG&gt;uskutočnené tuzemské a zahraničné jazdy&lt;/STRONG&gt; firemných, resp. prenajatých a&amp;nbsp;súkromných&amp;nbsp;&lt;A href="c6542278-5d57-4c96-b3d8-ec30f2b5a6d3"&gt;vozidiel&lt;/A&gt;. 
+&lt;LI&gt;Jednotlivé &lt;STRONG&gt;doklady o nákupe pohonných látok (PHL)&lt;/STRONG&gt; možno evidovať v&amp;nbsp;knihe&amp;nbsp;&lt;A href="822d4556-571e-4260-ab82-e68d232b1662"&gt;Nákup PHL&lt;/A&gt;. Pokiaľ ide o&amp;nbsp;samotný úkon zaevidovania dokladu o&amp;nbsp;nákupe PHL, systém OBERON ponúka&amp;nbsp;používateľom&amp;nbsp;&lt;STRONG&gt;dve možnosti&lt;/STRONG&gt;, a&amp;nbsp;to v&amp;nbsp;závislosti od toho, či spolu s&amp;nbsp;modulom &lt;EM&gt;Evidencia vozidiel&lt;/EM&gt;&amp;nbsp;používajú aj modul &lt;EM&gt;Účtovníctvo&lt;/EM&gt;.&amp;nbsp;Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="75b0747a-07d3-4044-a463-48cbddb73f49" style="auto-update-caption: true"&gt;Zaevidovanie dokladu o nákupe PHL&lt;/A&gt;. 
+&lt;LI&gt;Súčasťou programu je i &lt;STRONG&gt;možnosť tvorby cestovných príkazov&lt;/STRONG&gt; v knihe &lt;A href="1c45ad86-636b-4d4e-87f9-e2932e494f51"&gt;Cestovné príkazy&lt;/A&gt;. 
+&lt;LI&gt;Údaje o ľubovoľnom počte firemných, prenajatých alebo súkromných vozidiel využívaných na podnikateľské účely možno evidovať v&amp;nbsp;knihe&amp;nbsp;&lt;A href="c6542278-5d57-4c96-b3d8-ec30f2b5a6d3" style="auto-update-caption: true"&gt;Vozidlá&lt;/A&gt;. 
+&lt;LI&gt;Program &lt;STRONG&gt;neobsahuje vzdialenosti miest&lt;/STRONG&gt;,&amp;nbsp;t. j. vzdialenosť v km je potrebné zadať manuálne. To neplatí pri evidovaní opakovanej jazdy, keď program vzdialenosť automaticky doplní z už zaevidovanej jazdy. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Licenčné podmienky&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Modul &lt;EM&gt;Evidencia vozidiel&lt;/EM&gt; &lt;STRONG&gt;nie je spoplatnený&lt;/STRONG&gt; - možno ho používať zdarma bez akejkoľvek licencie, pričom nie sú obmedzené žiadne jeho funkcie. &lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="ba8e1f4a-8d88-4788-b3e6-1281762604de" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="7a13e845-12be-4a84-8839-da5eeda57678">
+      <Title m="2023-05-10T05:56:04.3305201Z">Evidencia vozidiel - základné možnosti</Title>
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="52934d66-997d-4ca4-a293-77f816d6106e" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="1f2813d0-c593-41db-8216-c46ae992da65">
+      <Title m="2023-05-18T11:55:13.9935809Z">Evidencia vozidiel - prvé kroky</Title>
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="459e17d1-44a0-4e89-bbc4-6b2f9be9bd90" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="75b0747a-07d3-4044-a463-48cbddb73f49">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="8a438553-661d-404c-b9a2-5e6a22068f83">
+      <Keyword m="2023-05-09T12:51:42.9321599Z">Evidencia vozidiel - všeobecne o koncepcii</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="53cff74f-71bd-4269-8303-9147e9aae1e3">
+      <Keyword m="2023-05-09T12:51:58.9984889Z">Všeobecne o koncepcii - Evidencia vozidiel</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="df0520a4-ee6e-45a0-b7ff-633fd1e91718" Status="Complete" CreatedOn="2014-09-11T06:55:31.2892202Z" ModifiedOn="2023-05-24T07:23:13.1410249Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="false" HelpContextIds="" Name="CRM_Registrature_Started_First_Steps" BuildFlags="">
+  <Title m="2023-05-18T11:58:40.7927526Z">Registratúra - prvé kroky</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-05-24T06:57:29.0590947Z">&lt;P&gt;Skôr, ako začnete s modulom&amp;nbsp;&lt;EM&gt;CRM a registratúra&lt;/EM&gt;&amp;nbsp;pracovať, je potrebné, aby ste v&amp;nbsp;programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt; založili novú firmu. Viac informácií nájdete v&amp;nbsp;téme&amp;nbsp;&lt;A href="9a485893-6dd2-44e8-9740-a4cd7083a932"&gt;Vytvorenie účtovnej jednotky (databázy)&lt;/A&gt;.&amp;nbsp;Zároveň je potrebné povoliť v ponuke&amp;nbsp;&lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="5a6e5663-262e-4ff0-9741-1569385d11e4"&gt;oddiel Firma, Moduly&lt;/A&gt;&amp;nbsp;účtovnej jednotke a&amp;nbsp;v&amp;nbsp;&lt;A href="6ffb02fa-4c5c-4d33-8a0c-6dba98b26a77"&gt;oddiele Používateľ, Moduly&lt;/A&gt; danému používateľovi prácu s&amp;nbsp;modulom&amp;nbsp;&lt;A href="f1a6963d-36aa-4134-92a5-fa47a4345e74"&gt;CRM a registratúra&lt;/A&gt;.&lt;/P&gt;
+&lt;H2&gt;1. Nastavenia modulu&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;SPAN class=st&gt;V&amp;nbsp;ponuke&amp;nbsp;&lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="2453b87d-ddca-4ac1-b4ba-b7199dce0c87"&gt;oddiel Firma, CRM a registratúra&lt;/A&gt;, záložka &lt;EM&gt;Registratúra&lt;/EM&gt;&amp;nbsp;možno nastaviť, aby program vyžadoval pri vytváraní záznamu v&amp;nbsp;&lt;A href="0fe6411c-9069-4097-b90f-e69f01a61569"&gt;registratúrnom (podacom) denníku&lt;/A&gt; &lt;STRONG&gt;zadanie registratúrnej značky&lt;/STRONG&gt;.&lt;/SPAN&gt; 
+&lt;LI&gt;&lt;SPAN class=st&gt;&lt;SPAN class=st&gt;&lt;SPAN class=st&gt;&lt;SPAN class=st&gt;&lt;SPAN class=st&gt;&lt;SPAN class=st&gt;V&amp;nbsp;rovnakej ponuke&amp;nbsp;&lt;SPAN class=st&gt;&lt;SPAN class=st&gt;&lt;SPAN class=st&gt;&lt;SPAN class=st&gt;&lt;SPAN class=st&gt;&lt;SPAN class=st&gt;&lt;SPAN class=st&gt;&lt;SPAN class=st&gt;je možné zvoliť &lt;STRONG&gt;spôsob číslovania záznamov&lt;/STRONG&gt; v&amp;nbsp;registratúrnom (podacom) denníku. Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="0fe6411c-9069-4097-b90f-e69f01a61569" style="auto-update-caption: true"&gt;Registratúrny (podací) denník&lt;/A&gt;.&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt; &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;&lt;SPAN class=st&gt;&lt;SPAN class=st&gt;&lt;SPAN class=st&gt;&lt;SPAN class=st&gt;&lt;SPAN class=st&gt;&lt;SPAN class=st&gt;&lt;SPAN class=st&gt;&lt;SPAN class=st&gt;&lt;SPAN class=st&gt;&lt;SPAN class=st&gt;&lt;SPAN class=st&gt;&lt;SPAN class=st&gt;&lt;SPAN class=st&gt;&lt;SPAN&gt;2. Nastavenia organizačných útvarov a umiestnení&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;SPAN class=st&gt;Vo&amp;nbsp;&lt;A href="2af84798-6d4b-40bc-8b7b-e537906a909c"&gt;formulári Záznam v registratúrnom (podacom) denníku&lt;/A&gt;&amp;nbsp;je možné definovať&amp;nbsp;&lt;A href="e507e3e5-493f-48df-a358-f85facee1796"&gt;organizačné útvary&lt;/A&gt; a fyzické&amp;nbsp;&lt;A href="868b6d78-95e3-441c-b92d-3766d440ae08"&gt;umiestnenia dokumentov&lt;/A&gt;&amp;nbsp;(budovy, miestnosti...).&amp;nbsp;Od&amp;nbsp;organizačného útvaru&amp;nbsp;sa môže odvíjať spôsob&amp;nbsp;číslovanie&amp;nbsp;záznamov v&amp;nbsp;&lt;A href="0fe6411c-9069-4097-b90f-e69f01a61569"&gt;registratúrnom (podacom) denníku&lt;/A&gt;.&lt;/SPAN&gt; &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;3. Vytvorenie registratúrneho plánu&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Vytvorte registratúrny plán. Registratúrny plán môžete aj jednoducho naimportovať pomocou sprievodcu v ponuke &lt;I&gt;CRM,&lt;/I&gt; &lt;A href="e24eddba-71a4-4980-9396-4947da76375a"&gt;Registratúrny plán&lt;/A&gt;, tlačidlo&amp;nbsp;&lt;I&gt;Možnosti&lt;/I&gt;.
+&lt;LI&gt;Ak&amp;nbsp;evidujete dokumenty, ktoré sa budú radiť do&amp;nbsp;&lt;A href="b9d813c2-1ac9-4606-b104-819ea02b6463"&gt;spisov&lt;/A&gt;, môžete vytvoriť&amp;nbsp;stromovú štruktúru&amp;nbsp;spisov.&amp;nbsp;Stromovú štruktúru&amp;nbsp;spisov&amp;nbsp;možno kedykoľvek podľa potreby dopĺňať. &lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="b3a1727a-856c-4080-ab42-47cc1dc4a899" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="9a485893-6dd2-44e8-9740-a4cd7083a932">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="ddef9642-fe3a-464c-8be1-9d41f34c3b28" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="f1a6963d-36aa-4134-92a5-fa47a4345e74">
+      <Title m="2023-05-24T06:46:29.5177945Z">Registratúra - všeobecne o koncepcii</Title>
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="843a6527-ede8-43b3-baeb-c84760965c57" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="2453b87d-ddca-4ac1-b4ba-b7199dce0c87">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="6559e26c-3258-4ad3-912a-8ff2ffdef1ca" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="0fe6411c-9069-4097-b90f-e69f01a61569">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="0199348c-cffc-40d6-a5bf-ddf34a6d41b2" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="2af84798-6d4b-40bc-8b7b-e537906a909c">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="443eb695-3563-46e3-93da-edf8a64b7948" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="e507e3e5-493f-48df-a358-f85facee1796">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="583fa72e-9f90-4a80-93b2-4e73ba0d6c6f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="868b6d78-95e3-441c-b92d-3766d440ae08">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="297ea610-1cfa-4c7f-9645-8162c873b6f5" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="e24eddba-71a4-4980-9396-4947da76375a">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="e7a8303b-0a1c-4d98-94b9-f5dcbce8ed2d" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="b9d813c2-1ac9-4606-b104-819ea02b6463">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="91f475f1-de66-4247-a406-f21c196ddb3d">
+      <Keyword m="2023-05-24T06:52:48.4086947Z">Prvé kroky - registratúra</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

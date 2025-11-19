@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="68a24d97-e4a5-4cf4-bc7a-72262df5973e" Status="Complete" CreatedOn="2024-02-29T08:32:17.4717533Z" ModifiedOn="2025-08-21T08:59:33.4640085Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="22342" Name="ElectronicArchives" BuildFlags="">
+  <Title m="2024-02-29T08:32:58.0496362Z">Elektronický archív</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2025-08-21T08:59:33.4640085Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;informácie o&amp;nbsp;elektronickom archíve&lt;/STRONG&gt; systému OBERON.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Elektronický archív účtovnej jednotky predstavuje &lt;STRONG&gt;elektronické úložisko archívnych dokumentov&lt;/STRONG&gt;, ktoré tvorí najmä jej účtovná dokumentácia. Účtovnú dokumentáciu v elektronickej podobe predstavujú: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;prijaté doklady&lt;/STRONG&gt;, a to buď priamo v elektronickej podobe vo formáte PDF, alebo ako skeny papierových dokladov (napr. prijaté faktúry za určité obdobie), 
+&lt;LI&gt;&lt;STRONG&gt;vlastné vystavené doklady&lt;/STRONG&gt; (vydané faktúry, účtovné knihy...) spravidla ako tlačové výstupy vo formáte PDF. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Podľa zákona o účtovníctve možno účtovnú dokumentáciu uchovávať: 
+&lt;UL&gt;
+&lt;LI&gt;v listinnej (papierovej) podobe, 
+&lt;LI&gt;v&amp;nbsp;elektronickej podobe, 
+&lt;LI&gt;kombináciou týchto dvoch podôb. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Tak listinné, ako aj kombinované uchovávanie účtovnej dokumentácie vedie v praxi k &lt;STRONG&gt;problémom pri jej archivácii&lt;/STRONG&gt;. Naproti tomu elektronické uchovávanie dokumentov so sebou prináša &lt;STRONG&gt;množstvo výhod&lt;/STRONG&gt;. 
+&lt;LI&gt;Uchovávanie príloh dokumentov &lt;STRONG&gt;v elektronickej forme&lt;/STRONG&gt; vedie k&amp;nbsp;zvýšeniu prehľadu v dokumentácii a&amp;nbsp;zabezpečuje jej rýchlu dostupnosť jedným klikom kedykoľvek aj spätne, a&amp;nbsp;to&amp;nbsp;pre všetkých používateľov (zodpovedný vedúci, skladník, mzdár, účtovník atď.). Zároveň odpadá potreba presúvať fyzické doklady v listinnej (papierovej) podobe, čím sa eliminuje riziko poškodenia, prípadne straty dokladov.&amp;nbsp;Nezanedbateľnou výhodou sú aj&amp;nbsp;menšie nároky na fyzický priestor a&amp;nbsp;vybavenie (nie je potrebný&amp;nbsp;vyhradený samostatný priestor na archív, regály, šanóny a pod.). &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Legislatívny rámec&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Podľa platnej legislatívy je účtovná jednotka povinná zabezpečiť &lt;STRONG&gt;ochranu svojej účtovnej dokumentácie&lt;/STRONG&gt; proti strate, odcudzeniu, zničeniu alebo poškodeniu. Zároveň je povinná zabezpečiť &lt;STRONG&gt;ochranu použitých technických prostriedkov, nosičov informácií a programového vybavenia&lt;/STRONG&gt; pred ich zneužitím, poškodením, zničením, neoprávnenými zásahmi do nich, neoprávneným prístupom k nim, stratou alebo odcudzením. 
+&lt;LI&gt;Ďalšou povinnosťou je &lt;STRONG&gt;uchovávať účtovnú dokumentáciu počas zákonom stanovenej lehoty&lt;/STRONG&gt; (doba uchovávania účtovných záznamov 10 rokov nasledujúcich po roku, ktorého sa týkajú, rôzne súčasti mzdovej dokumentácie sa archivujú niekoľko desiatok rokov). 
+&lt;LI&gt;Za porušenie povinností pri archivácii môže daňový úrad uložiť účtovnej jednotke &lt;STRONG&gt;pokutu až do výšky 100 000 €&lt;/STRONG&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Elektronický archív v OBERON-e&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Elektronický archív v OBERON-e predstavuje &lt;STRONG&gt;mocný nástroj na elektronické uchovávanie a správu vystavených a&amp;nbsp;prijatých dokladov&lt;/STRONG&gt;. 
+&lt;LI&gt;Elektronický archív systému OBERON umožňuje uchovávať a archivovať vo formáte PDF alebo ako skeny papierových dokumentov: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;účtovnú dokumentáciu&lt;/STRONG&gt; (faktúry, účtovné knihy...), 
+&lt;LI&gt;&lt;STRONG&gt;rôzne iné prílohy dokumentov&lt;/STRONG&gt; (napr. zmluvy, certifikáty, návody...). &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Externé dokumenty, ku ktorým neexistuje v&amp;nbsp;OBERON-e záznam&lt;/STRONG&gt; (došlé dokumenty) možno evidovať&amp;nbsp;vo viacerých evidenciách podľa povahy dokumentu, napr. zmluvy možno&amp;nbsp;evidovať v evidencii&amp;nbsp;&lt;A href="b7a48886-b367-4056-808a-59ba5f871f32"&gt;obchodných partnerov&lt;/A&gt;,&amp;nbsp;bankové výpisy a iné&amp;nbsp;dokumenty v&amp;nbsp;evidencii&amp;nbsp;&lt;A href="5065958b-9ec2-46c0-81ce-ce9e316c90b7" style="auto-update-caption: true"&gt;CRM zložky&lt;/A&gt;, prípadne v&amp;nbsp;&lt;A href="0fe6411c-9069-4097-b90f-e69f01a61569"&gt;registratúrnom (podacom) denníku&lt;/A&gt; a pod. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Formy elektronického archívu v OBERON-e&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;V&amp;nbsp;systéme OBERON elektronický archív nepredstavuje jedno konkrétne úložisko, ale&amp;nbsp;môže mať nasledujúce formy: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;aktuálna databáza účtovnej jednotky&lt;/STRONG&gt; - za elektronický archív sa považujú už samotné elektronické prílohy dokumentov vo formáte PDF (prípadne v&amp;nbsp;inom formáte) v&amp;nbsp;príslušných evidenciách OBERON-u. Každá elektronická príloha dokumentu v&amp;nbsp;OBERON-e sa tak stáva súčasťou elektronického archívu. Viac informácií o&amp;nbsp;prílohách dokumentov získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="79eb5ae4-3bae-4a0c-be52-69c1ed8e59e5" style="auto-update-caption: true"&gt;Práca s prílohami&lt;/A&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;archívna databáza účtovnej jednotky&lt;/STRONG&gt; - elektronické prílohy dokumentov&amp;nbsp;možno presunúť z aktuálnej databázy do&amp;nbsp;archívnej databázy (elektronického archívu), a&amp;nbsp;to&amp;nbsp;pomocou funkcie&amp;nbsp;&lt;A href="98d635be-10ba-40e1-83f1-acc2366c63eb" style="auto-update-caption: true"&gt;Presun príloh dokumentov do archívu&lt;/A&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;adresár na disku počítača&lt;/STRONG&gt; - elektronické prílohy dokumentov možno hromadne exportovať &lt;STRONG&gt;z&amp;nbsp;aktuálnej databázy (prípadne archívnej databázy)&lt;/STRONG&gt; do zvoleného adresára na disku počítača&amp;nbsp;(elektronického archívu) pomocou funkcie&amp;nbsp;&lt;A href="f03d4e27-214d-4138-8d5a-3c65ca1ea6a4" style="auto-update-caption: true"&gt;Hromadný export príloh dokumentov&lt;/A&gt;.&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 1: Exportované údaje v štruktúrovanej forme v elektronickom archíve – adresári na disku počítača&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/ProductOptions/ElectronicArchives/ElektronicArchives_Directory.PNG"&gt;&lt;/P&gt;
+&lt;H2&gt;Elektronický podpis&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;S témou elektronického archívu úzko súvisí téma elektronického podpisu, pričom&amp;nbsp;z hľadiska elektronického archivovania dokumentov má elektronické podpisovanie dokumentov vo formáte PDF &lt;STRONG&gt;zásadný význam&lt;/STRONG&gt;. 
+&lt;LI&gt;Pri elektronicky podpísaných dokumentoch možno jednoznačne overiť identitu subjektu, ktorý podpis vytvoril a zároveň sa znemožňuje ich dodatočná úprava (napr. antedatovanie či iná zmena dokumentu), čo vedie k &lt;STRONG&gt;vyššej ochrane a&amp;nbsp;kontrole dokumentov&lt;/STRONG&gt;. 
+&lt;LI&gt;Elektronicky možno podpisovať prakticky &lt;STRONG&gt;všetky dokumenty účtovnej jednotky&lt;/STRONG&gt;, výnimkou môžu byť pracovné zmluvy a iné dokumenty podpisované zamestnancami. Tie však tiež môžu byť podpisované elektronicky v&amp;nbsp;prípade, že zamestnanci vlastnia občiansky preukaz s&amp;nbsp;platným certifikátom pre kvalifikovaný elektronický podpis. 
+&lt;LI&gt;V OBERON-e sa každá elektronicky podpísaná príloha dokumentu &lt;STRONG&gt;automaticky pridá do elektronického archívu&lt;/STRONG&gt;. 
+&lt;LI&gt;Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="c1e2e5a1-2cf4-47aa-a546-47d5baa1df3e" style="auto-update-caption: true"&gt;Čo je elektronický podpis&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Pridávanie príloh do aktuálnej databázy (elektronického archívu)&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Prílohy možno pridať do aktuálnej databázy, t.&amp;nbsp;j. do elektronického archívu&amp;nbsp;viacerými spôsobmi: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;manuálne&lt;/STRONG&gt; - v&amp;nbsp;rámci pridávania elektronických príloh k&amp;nbsp;dokumentom v&amp;nbsp;príslušných evidenciách pomocou tlačidla &lt;EM&gt;Prílohy&lt;/EM&gt; alebo funkcie &lt;EM&gt;Drag&amp;amp;Drop&lt;/EM&gt;, 
+&lt;LI&gt;&lt;STRONG&gt;automaticky&lt;/STRONG&gt;: &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 
+&lt;UL&gt;
+&lt;LI&gt;po vytvorení súboru tlačového výstupu vo formáte PDF a následnom podpísaní&amp;nbsp;&lt;A href="41fb8a3f-4d42-4e29-8296-05613775d8a6"&gt;digitálnym podpisom vygenerovaným v OBERON-e&lt;/A&gt;&amp;nbsp;alebo &lt;A href="bdf07bad-43fb-450a-9dba-15b8366448a9"&gt;kvalifikovaným elektronickým podpisom (KEP)&lt;/A&gt;&amp;nbsp;vo &lt;A href="2bac8d21-6ae0-44e4-8b2e-403ac2f25955"&gt;formulári Tlačové výstupy&lt;/A&gt; (napr. tlačový výstup faktúry sa po podpise uloží k danému záznamu ako príloha vo formáte PDF), 
+&lt;LI&gt;po podpise súboru tlačového výstupu vo formáte PDF pomocou&amp;nbsp;&lt;A href="a315053c-fb60-4f19-a3df-40b9c9dd02f8"&gt;digitálnej podpisovej podložky&lt;/A&gt; (napr. po podpise výdajky). &lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Viac informácií získate&amp;nbsp;v&amp;nbsp;téme&amp;nbsp;&lt;A href="79eb5ae4-3bae-4a0c-be52-69c1ed8e59e5" style="auto-update-caption: true"&gt;Práca s prílohami&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Button_PrintReports.PNG"&gt;&lt;/P&gt;
+&lt;H2&gt;Nastavenia na automatické ukladanie príloh do elektronického archívu&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Získanie kvalifikovaného certifikátu&lt;/STRONG&gt; vydaného certifikačnou autoritou pre elektronický podpis alebo &lt;STRONG&gt;vygenerovanie podpisového certifikátu účtovnej jednotky&lt;/STRONG&gt;. Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="c1e2e5a1-2cf4-47aa-a546-47d5baa1df3e" style="auto-update-caption: true"&gt;Čo je elektronický podpis&lt;/A&gt;. Pri viacerých počítačoch možno postupovať viacerými spôsobmi: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;vygenerovať podpisový certifikát len raz a exportovať ho na následný import do ostatných počítačov&lt;/STRONG&gt; - tento postup je vhodný v&amp;nbsp;prípade, že sa za účtovnú jednotku bude podpisovať ako za celok, 
+&lt;LI&gt;&lt;STRONG&gt;vygenerovať podpisový certifikát na každom počítači zvlášť&lt;/STRONG&gt; - tento postup je vhodný pri členení účtovnej jednotky (napr. každá prevádzka bude podpisovať pomocou vlastného vygenerovaného podpisového certifikátu). &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Nastavenie certifikátu používateľovi&lt;/STRONG&gt; -&amp;nbsp;aby používateľ mohol podpisovať súbory PDF, je potrebné danému používateľovi priradiť vygenerovaný podpisový certifikát (vo&amp;nbsp;&lt;A href="12e7a96f-bc40-4359-bc7a-213d74a785d4"&gt;formulári Používateľ&lt;/A&gt;,&amp;nbsp;záložka &lt;EM&gt;Podpis&lt;/EM&gt;). 
+&lt;LI&gt;&lt;STRONG&gt;Nastavenie príznaku&lt;/STRONG&gt; &lt;STRONG&gt;&lt;EM&gt;Elektronicky&amp;nbsp;podpísať (platí len pre export do PDF)&lt;/EM&gt;&lt;/STRONG&gt;&amp;nbsp;- nastavuje sa vo&amp;nbsp;&lt;A href="91150b04-8876-4fb2-89eb-d69d8cc654c2"&gt;formulári Vlastnosti tlačového výstupu&lt;/A&gt;. Súbor PDF sa podpíše, len&amp;nbsp;ak má nastavený tento príznak. &lt;/LI&gt;&lt;/OL&gt;
+&lt;H5&gt;Obrázok č. 2: Export vygenerovaného podpisového certifikátu&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/ProductOptions/ElectronicArchives/ElektronicArchives_CertificateExport.PNG"&gt;&lt;/P&gt;
+&lt;H2&gt;Export príloh dokumentov&amp;nbsp;z archívu&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;V prípade potreby je možné prílohu dokumentu z archívu exportovať. Export príloh dokumentov do archívu možno vykonať &lt;STRONG&gt;manuálne&lt;/STRONG&gt; do zvoleného adresára na disku počítača vyvolaním kontextovej ponuky na danej prílohe (pravé tlačidlo myši) a zvolením možnosti &lt;EM&gt;&lt;STRONG&gt;Exportovať (uložiť ako...)&lt;/STRONG&gt;&lt;/EM&gt; na export danej prílohy, alebo možnosti &lt;EM&gt;&lt;STRONG&gt;Export súborov&lt;/STRONG&gt;&lt;/EM&gt; na export všetkých príloh daného dokumentu. 
+&lt;LI&gt;Každý takto vykonaný export sa loguje (t.&amp;nbsp;j. program automaticky zaznamenáva do&amp;nbsp;&lt;A href="bc30e126-afb5-41aa-a261-e92501038063"&gt;Sledovania činností&lt;/A&gt;&amp;nbsp;(ponuka &lt;EM&gt;Servis&lt;/EM&gt;), kto a kedy export vykonal). &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Technické informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Cieľom presunu príloh dokumentov do archívnej databázy (elektronického archívu)&amp;nbsp;je &lt;STRONG&gt;zníženie veľkosti aktuálnej databázy účtovnej jednotky a&amp;nbsp;zvýšenie rýchlosti zálohovania&lt;/STRONG&gt; (je rozdiel, či sa zálohuje databáza s veľkosťou&amp;nbsp;10 GB niekoľko minút, alebo databáza s veľkosťou&amp;nbsp;100 GB niekoľko desiatok minút). 
+&lt;LI&gt;Archívna databáza sa automaticky vytvára pri prvom presune údajov na tom istom databázovom serveri. Jej názov je totožný s názvom aktuálnej databázy účtovnej jednotky a má sufix &lt;EM&gt;&lt;STRONG&gt;archivedoc&lt;/STRONG&gt;&lt;/EM&gt;. Overiť názov archívnej databázy možno v&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="5a6e5663-262e-4ff0-9741-1569385d11e4"&gt;oddiel Firma, Všeobecné&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt; záložka &lt;EM&gt;Databázy&lt;/EM&gt;. 
+&lt;LI&gt;Názov archívnej databázy možno aj zmeniť (v&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="5a6e5663-262e-4ff0-9741-1569385d11e4"&gt;oddiel Firma, Všeobecné&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt; záložka &lt;EM&gt;Databázy&lt;/EM&gt;). Názov je však nevyhnutné zmeniť &lt;STRONG&gt;ešte pred prvým presunom údajov&lt;/STRONG&gt; do archívnej databázy. 
+&lt;LI&gt;Ak účtovná jednotka nemá oprávnenie na vytváranie novej databázy, &lt;STRONG&gt;je možné použiť aj existujúcu (vopred vytvorenú) databázu, musí však byť prázdna&lt;/STRONG&gt; (nesmie obsahovať žiadnu tabuľku). Vtedy sa nevytvorí nová archívna databáza, ale v existujúcej databáze sa vytvorí databázová štruktúra archívnej databázy. Tento prípad sa môže vyskytnúť u poskytovateľov cloudu, u ktorých účtovná jednotka nemá možnosť vytvárať databázu s konkrétnym názvom. 
+&lt;LI&gt;Ak má účtovná jednotka umiestnenú aktuálnu databázu v&amp;nbsp;cloude, môže archívnu databázu &lt;STRONG&gt;umiestniť aj do databázového servera iného poskytovateľa cloudu&lt;/STRONG&gt;. Môže to byť v prípadoch, keď iný poskytovateľ cloudu ponúka nižšiu cenu za 1 GB dát, avšak na úkor rýchlosti načítania dát, prípadne latencie. Napr. pre aktuálnu databázu odporúčame prístup s rýchlosťou do približne 20 ms, pri archívnej databáze nie je problém ani prístup s rýchlosťou 100 ms. Umiestnenie archívnej databázy možno zmeniť v&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="5a6e5663-262e-4ff0-9741-1569385d11e4"&gt;oddiel Firma, Všeobecné&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt; záložka &lt;EM&gt;Databázy&lt;/EM&gt;. 
+&lt;LI&gt;Ak má účtovná jednotka umiestnenú aktuálnu databázu v&amp;nbsp;cloude, môže archívnu databázu &lt;STRONG&gt;umiestniť aj do lokálneho databázového servera (vo vlastnej firme)&lt;/STRONG&gt;. Môže sa tak vyhnúť zbytočným poplatkom za cloudové dátové úložisko (napr. aktuálna databáza má veľkosť 10&amp;nbsp;GB, archívna databáza má veľkosť 100 GB - účtovná jednotka bude platiť len za dáta v objeme 10&amp;nbsp;GB, za 100&amp;nbsp;GB dát archívnej databázy&amp;nbsp;nebude musieť platiť). 
+&lt;LI&gt;Aj po archivovaní sú dokumenty v OBERON-e &lt;STRONG&gt;neustále dostupné&lt;/STRONG&gt;. &lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="94b65698-14d5-4f80-8a65-6e981f0cdfd5" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="f03d4e27-214d-4138-8d5a-3c65ca1ea6a4">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="ccb9a00d-8e9e-4491-b849-017a006730f3" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="98d635be-10ba-40e1-83f1-acc2366c63eb">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="4a146079-ab6e-45de-b1ce-481ad0964333" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="79eb5ae4-3bae-4a0c-be52-69c1ed8e59e5">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="ecd86712-d2d2-479a-a5b6-c5e3f13e719a" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="2bac8d21-6ae0-44e4-8b2e-403ac2f25955">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="23f7dc96-94fd-4252-a365-4fa8f2f0e94f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="bc30e126-afb5-41aa-a261-e92501038063">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="f207aab1-daa3-4f6d-bb46-3a7a73169a47" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="a833ee8a-1289-42b9-923f-80f549497702">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="7c976bc4-443f-41e3-9103-707dcb947f5a" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="c1e2e5a1-2cf4-47aa-a546-47d5baa1df3e">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="5d7f578f-0911-4235-ac38-e5e4f3148709">
+      <Keyword m="2024-03-05T10:39:51.3330058Z">Archív - elektronický</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="411f1c7e-6f48-449e-ba1f-350a98bd02e9">
+      <Keyword m="2024-03-05T10:40:03.2926054Z">Formy elektronického archívu</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="c4bf4af8-f4f5-407d-a7e5-a3760ef34384">
+      <Keyword m="2024-03-05T10:40:11.4863991Z">Archívna databáza</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="ca5e92cc-4e46-44ae-8e86-6f8218c350f7">
+      <Keyword m="2024-03-05T10:40:22.9472443Z">Pridávanie príloh do aktuálnej databázy</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="a6590264-2104-472d-bae0-2ad32f24de0a">
+      <Keyword m="2024-03-05T10:41:19.826666Z">Export príloh dokumentov do archívu - spôsoby</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="861aa1bf-858f-4ee7-99f5-a9cdecdffebc">
+      <Keyword m="2024-03-13T13:33:13.6899762Z">Nastavenia na automatické ukladanie príloh do elektronického archívu</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

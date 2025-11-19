@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="52b12b75-3fa1-4a52-8f08-34d2f53f390d" Status="Complete" CreatedOn="2020-05-11T11:04:15.2937318Z" ModifiedOn="2023-10-17T07:45:24.6815508Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="40700" Name="Form_Invoices_OrdersStates" BuildFlags="">
+  <Title m="2023-05-24T13:17:34.0849044Z">Formulár Typ stavu prijatej objednávky</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-10-17T07:45:24.6815508Z">&lt;P&gt;Formulár&amp;nbsp;&lt;EM&gt;Typ stavu prijatej objednávky&lt;/EM&gt;&amp;nbsp;umožňuje&amp;nbsp;&lt;STRONG&gt;definovať, resp. upraviť&amp;nbsp;&lt;/STRONG&gt;&lt;A href="e3603367-ba3b-4944-b731-0d81cb121c61"&gt;typ stavu prijatej objednávky&lt;/A&gt;&amp;nbsp;v&amp;nbsp;systéme OBERON. Formulár je dostupný z&amp;nbsp;programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;, ponuka&amp;nbsp;&lt;EM&gt;Fakturácia&lt;/EM&gt;,&amp;nbsp;&lt;A href="e3603367-ba3b-4944-b731-0d81cb121c61" style="auto-update-caption: true"&gt;Typy stavov prijatých objednávok&lt;/A&gt;, tlačidlo&amp;nbsp;&lt;EM&gt;Nový&lt;/EM&gt; alebo &lt;EM&gt;Oprava&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Popis formulára&amp;nbsp;&lt;EM&gt;Typ stavu prijatej objednávky&lt;/EM&gt;&lt;/H2&gt;&lt;innovasys:widget type="Tab Strip" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Základné&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;&lt;STRONG&gt;Druh stavu&lt;/STRONG&gt; -&amp;nbsp;vzhľadom na to, že typy&amp;nbsp;stavov prijatých objednávok si&amp;nbsp;môžu&amp;nbsp;používatelia podľa potreby vytvárať sami, je dôležité mať pri každom type stavu prijatej objednávky jednoznačne určené, k akému druhu&amp;nbsp;stavu prijatej objednávky prislúcha. Na základe druhu&amp;nbsp;stavu prijatej objednávky sa program rozhoduje, ako bude s daným záznamom&amp;nbsp;pracovať. Druhy stavov prijatých objednávok sú v programe pevne dané a nie je ich možné upravovať.&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;Názov&lt;/STRONG&gt; - uvádza sa pomenovanie (názov) typu stavu prijatej objednávky pre systém OBERON.&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;Číslo&lt;/STRONG&gt; - číselné označenie na presné identifikovanie typu stavu objednávky, čo je dôležité pri&amp;nbsp;automatickom nastavení stavu objednávky.&amp;nbsp;Číslo sa môže používať na presné identifikovanie typu stavu aj&amp;nbsp;pre externé systémy (pri exportoch objednávok).&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;Farba&lt;/STRONG&gt; - slúži na rozlíšenie a zvýraznenie (sprehľadnenie) práce s&amp;nbsp;objednávkami v zozname objednávok.&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;Číslo v e-shope&lt;/STRONG&gt; - číslo typu stavu v internetovom obchode (nepovinná hodnota). Slúži na&amp;nbsp;synchronizáciu typu&amp;nbsp;stavu medzi systémom OBERON a internetovým obchodom.&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;Názov v e-shope&lt;/STRONG&gt; - uvádza sa pomenovanie (názov) typu stavu prijatej objednávky pre internetový obchod. Za predpokladu, že prepojenie&amp;nbsp;s&amp;nbsp;e-shopom podporuje synchronizáciu typov stavov objednávok,&amp;nbsp;tento názov sa zobrazuje zákazníkovi.&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;Zakázať&lt;/STRONG&gt; - zakázať typ stavu objednávky&amp;nbsp;znamená, že ho nebude možné používať, v systéme však ostane definovaný. Typy stavov, ktoré z hľadiska firemných procesov účtovná jednotka nepoužíva, odporúčame zakázať - nebudú sa používať pri automatickej zmene stavu.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Notifikácie&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;H3&gt;Notifikácie (používateľ)&lt;/H3&gt;
+&lt;P&gt;Ak objednávka nadobudne tento typ stavu, používateľ bude&amp;nbsp;po uplynutí tohto časového limitu upozornený, aby danej objednávke venoval zvýšenú pozornosť, prípadne vykonal určitú akciu. Po nastavení&amp;nbsp;počtu hodín sa vo&amp;nbsp;&lt;A href="6712889d-bea7-4ae7-859d-82b809c7bdcc"&gt;formulári Objednávka prijatá&lt;/A&gt;&amp;nbsp;v poli &lt;EM&gt;Objednávku zvýrazniť po uplynutí času&lt;/EM&gt; (záložka &lt;EM&gt;Stavy&lt;/EM&gt;) automaticky nastaví časový údaj s&amp;nbsp;hodnotou &lt;STRONG&gt;dátum a čas evidencie + nastavený počet hodín&lt;/STRONG&gt; a záznam sa v&amp;nbsp;&lt;A href="48505e8d-5f28-4063-882b-ca07f33670ef"&gt;knihe prijatých objednávok&lt;/A&gt; začne zobrazovať &lt;STRONG style="COLOR: rgb(171,115,213)"&gt;fialovou farbou&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;H3&gt;Notifikácie (zákazník)&lt;/H3&gt;
+&lt;P&gt;O zmene stavu objednávky na tento typ stavu je možné&amp;nbsp;automaticky informovať aj zákazníka, a&amp;nbsp;to formou e-mailovej alebo SMS správy. Stlačením tlačidla &lt;EM&gt;Šablóna&lt;/EM&gt; je možné tieto notifikácie upraviť (funkciu pripravujeme).&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Ostatné&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;H3&gt;Použitie typu stavu pri udalosti&lt;/H3&gt;
+&lt;P&gt;Na tomto mieste&amp;nbsp;je možné detailnejšie určiť, pri akej udalosti (okamihu) sa má tento typ stavu objednávky automaticky použiť. Napr. po vytvorení faktúry sa môže automaticky zmeniť stav objednávky na&amp;nbsp;&lt;EM&gt;Potrebné vyskladniť, Pripravené na odoslanie&lt;/EM&gt;,&amp;nbsp;prípadne &lt;EM&gt;Vybavená.&lt;/EM&gt; Týmto je vlastne možné&amp;nbsp;nastaviť firemné procesy vybavovania objednávok, t.&amp;nbsp;j. postupnosť jednotlivých krokov vybavovania objednávok sprevádzaných automatickou zmenou stavov objednávok.&lt;/P&gt;
+&lt;H3&gt;Prevádzka účtovnej jednotky&lt;/H3&gt;
+&lt;P&gt;Ak sa účtovná jednotka člení na&amp;nbsp;&lt;A href="8df798f2-4fbf-4279-ad8c-493bdbe7f2e4"&gt;prevádzk&lt;/A&gt;y,&amp;nbsp;na tomto mieste&amp;nbsp;je možné zadať prevádzku, na ktorej bude možné tento typ stavu použiť. Pri používaní viacerých prevádzok je takto možné určiť, ktoré typy stavov sa&amp;nbsp;budú&amp;nbsp;v&amp;nbsp;danej prevádzke používať.&amp;nbsp;&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="7a982cec-e3f2-49bb-83c4-e07aaa0b0d97" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="c91cdf0d-f982-42ce-a348-4fb310046672">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="0a788fa5-af9c-4e4d-a3b1-dbd5923e7672" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="48505e8d-5f28-4063-882b-ca07f33670ef">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="f44e9337-8fea-4305-a7c7-499ebc7e1ca5" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="a9a8c655-077e-45cb-acb3-8fdb105a2409">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="e563d8d8-ff58-410f-abc1-93893e62e74f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="e3603367-ba3b-4944-b731-0d81cb121c61">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="94c4deda-daeb-485f-b653-5e515c15aaa9">
+      <Keyword m="2023-05-25T09:54:39.1497629Z">Typ stavu prijatej objednávky - formulár</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

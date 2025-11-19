@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="bf268d24-c860-4bc9-99c0-b1eb5b801a0d" Status="Complete" CreatedOn="2024-09-19T13:09:52.5170892Z" ModifiedOn="2024-09-26T11:10:10.8149484Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="ASTON_StockCardLookUp" BuildFlags="">
+  <Title m="2024-09-25T12:12:45.2246139Z">ASTON - vyhľadanie skladovej karty</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-09-26T11:10:10.8149484Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; popisuje&amp;nbsp;&lt;STRONG&gt;vyhľadanie skladovej karty&amp;nbsp;ako&amp;nbsp;jednu z funkcií, ktoré je možné vykonávať pomocou&amp;nbsp;aplikácie&amp;nbsp;&lt;/STRONG&gt;&lt;A href="be17efdf-4b36-4b47-ad5d-09b0f66c8f65"&gt;ASTON - mobilný skladník&lt;/A&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Okrem iných funkcií aplikácia&amp;nbsp;&lt;EM&gt;ASTON - mobilný skladník&lt;/EM&gt; umožňuje &lt;STRONG&gt;vyhľadať skladovú kartu&lt;/STRONG&gt; na jej kontrolu (vrátane kontroly ceny), prípadne editáciu vybraných údajov.&amp;nbsp;&amp;nbsp; 
+&lt;LI&gt;Aplikácia &lt;EM&gt;ASTON - mobilný skladník&lt;/EM&gt; je určená pre mobilné zariadenia&amp;nbsp;(terminály, smartfóny, tablety)&amp;nbsp;s operačným systémom &lt;EM&gt;Android&lt;/EM&gt; a&amp;nbsp;&lt;EM&gt;iOS&lt;/EM&gt; a možno ju používať výhradne s programom &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;. Viac informácií&amp;nbsp;získate v téme&amp;nbsp;&lt;A href="be17efdf-4b36-4b47-ad5d-09b0f66c8f65" style="auto-update-caption: true"&gt;Aplikácia ASTON&lt;/A&gt;.&lt;A href="5f711bd3-c5ab-4b68-93cc-214b6720faf8"&gt;&lt;/A&gt; 
+&lt;LI&gt;Aplikácia &lt;EM&gt;ASTON&lt;/EM&gt; komunikuje so systémom OBERON&amp;nbsp;na základe&amp;nbsp;&lt;A href="9ce25bbd-35d1-4096-acd5-70007f5af5a6"&gt;automatickej úlohy&lt;/A&gt; typu &lt;EM&gt;&lt;STRONG&gt;WebServices API - OBERON 2G&lt;/STRONG&gt;&lt;/EM&gt;, t.&amp;nbsp;j. &lt;A href="58bb31ca-00c8-4641-ad99-7d58e24f59c5"&gt;webových služieb&lt;/A&gt;.&amp;nbsp;Aplikácia&amp;nbsp;&lt;EM&gt;ASTON&lt;/EM&gt; v rámci komunikácie predstavuje &lt;STRONG&gt;klienta webovej služby&lt;/STRONG&gt;. Bližšie informácie o nastavení komunikácie so systémom OBERON&amp;nbsp;získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="4532794b-6100-4bd6-b5d1-4bdb8e6f1b89"&gt;Aplikácia ASTON - inštalácia&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5 align=left&gt;&amp;nbsp;Obrázok č. 1: Vyhľadanie skladovej karty&amp;nbsp;v aplikácii&lt;/H5&gt;
+&lt;P align=left&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;IMG border=0 alt="" src="images/OBERONMobileSolutions/OBERONMobileSolutions_ASTON_StockCardLookUp.png"&gt;&lt;/P&gt;
+&lt;H2 align=left&gt;Vyhľadanie skladovej karty&amp;nbsp;s aplikáciou ASTON&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Funkcia vyhľadania skladovej karty umožňuje vyhľadať skladovú kartu podľa &lt;STRONG&gt;čísla, čiarového kódu, kódu položky a názvu&lt;/STRONG&gt;. Ak sa v nastaveniach vyhľadávania zvolí možnosť &lt;EM&gt;&lt;STRONG&gt;Automaticky&lt;/STRONG&gt;&lt;/EM&gt;, vyhľadávať bude možné podľa hociktorého uvedeného parametra. 
+&lt;LI&gt;Ak sú v evidencii&amp;nbsp;&lt;A href="1a33ab0b-2df7-4dc2-962b-8a3319c16831" style="auto-update-caption: true"&gt;Skladové karty&lt;/A&gt; evidované viaceré skladové karty &lt;STRONG&gt;s rovnakým čiarovým kódom&lt;/STRONG&gt;, v aplikácii &lt;EM&gt;ASTON&lt;/EM&gt; sa pri použití funkcie vyhľadania skladovej karty nasnímaním čiarového kódu vyhľadajú všetky skladové karty s týmto čiarovým kódom. 
+&lt;LI&gt;Po vyhľadaní skladovej karty možno v aplikácii prezerať údaje skladovej karty. Po klepnutí na ikonu&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_ASTON_info.png"&gt;&amp;nbsp;bude možné listovať medzi jednotlivými stránkami údajov jednoduchým potiahnutím prsta po displeji. Vybrané údaje možno priamo v aplikácii aj upraviť (napr. čiarový kód, umiestnenie).&lt;/LI&gt;&lt;/UL&gt;
+&lt;H3&gt;Kontrola cien&lt;/H3&gt;
+&lt;UL&gt;
+&lt;LI&gt;Funkcia vyhľadania skladovej karty zahŕňa aj kontrolu cien. Pri kontrole cien v teréne (napr. v obchodnej prevádzke) aplikácia &lt;EM&gt;ASTON&lt;/EM&gt; po nasnímaní čiarového kódu tovaru zobrazí jeho aktuálnu cenu. V prípade, že sa zobrazená cena nezhoduje s cenou na cenovke, používateľ ju &lt;STRONG&gt;označí pomocou prepínača (toggle switch)&lt;/STRONG&gt;.&amp;nbsp;V&amp;nbsp;OBERON-e v&amp;nbsp;evidencii&amp;nbsp;&lt;A href="1a33ab0b-2df7-4dc2-962b-8a3319c16831"&gt;Skladové karty&lt;/A&gt;&amp;nbsp;program&amp;nbsp;danú skladovú kartu označí &lt;STRONG&gt;symbolom hviezdičky&lt;/STRONG&gt; (&lt;A href="54bcf6c3-515f-4dcb-a3eb-0bf905629a16"&gt;označovanie záznamov&lt;/A&gt;). Po ukončení kontroly cien&amp;nbsp;možno&amp;nbsp;v OBERON-e pomocou filtra (stlačte tlačidlo &lt;EM&gt;Vlastnosti&lt;/EM&gt; a v záložke &lt;EM&gt;Filtre&lt;/EM&gt; nastavte filter s podmienkou &lt;EM&gt;&lt;STRONG&gt;Vybrať záznamy – Len označené&lt;/STRONG&gt;&lt;/EM&gt;) načítať zoznam označených skladových kariet, na ktorých&amp;nbsp;bude následne možné cenu manuálne&amp;nbsp;upraviť. 
+&lt;LI&gt;Po načítaní už označenej skladovej karty prepínač bude zapnutý a&amp;nbsp;symbol prepínača bude zobrazený&amp;nbsp;&lt;SPAN style="COLOR: rgb(128,100,162)"&gt;&lt;STRONG style="COLOR: rgb(125,201,191)"&gt;tyrkysovou farbou&lt;/STRONG&gt;&lt;/SPAN&gt;. &amp;nbsp;&amp;nbsp;&amp;nbsp; 
+&lt;LI&gt;V prípade, že sa na skladovú kartu vzťahuje pravidlo rozšírenej cenotvorby, po nasnímaní čiarového kódu sa zobrazí aj akciová cena. &lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="3b9eb42e-cb18-4597-90b4-387ad913c6bb" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="be17efdf-4b36-4b47-ad5d-09b0f66c8f65">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="13c45c7c-83cf-4203-ba59-94e89671bdd2" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="4532794b-6100-4bd6-b5d1-4bdb8e6f1b89">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="da98aa48-66ec-4126-8c10-4595bc21e087">
+      <Keyword m="2024-09-25T10:32:20.1436038Z">Vyhľadať skladovú kartu - ASTON</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="411daba7-7bd1-423b-9b9a-63eb2c979fe6">
+      <Keyword m="2024-09-25T10:32:38.2787775Z">Skladová karta - vyhľadať - ASTON</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="bcba9d80-e3c8-48a9-bd3a-e97234e78882">
+      <Keyword m="2024-09-25T10:32:44.5416048Z">Karta - vyhľadať - ASTON</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="b46d563a-bc56-4b32-a610-8ec5de0b6156">
+      <Keyword m="2024-09-26T10:46:41.2638331Z">Kontrola cien - ASTON</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

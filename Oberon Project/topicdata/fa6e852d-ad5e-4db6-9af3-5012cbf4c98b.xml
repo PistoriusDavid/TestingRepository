@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="fa6e852d-ad5e-4db6-9af3-5012cbf4c98b" Status="Complete" CreatedOn="2023-07-07T09:20:05.4476814Z" ModifiedOn="2023-10-05T10:18:10.6351923Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="FAQ_List_OBERONAutomationCenter" BuildFlags="">
+  <Title m="2023-07-07T09:20:35.5942357Z">Najčastejšie kladené otázky - OBERON Automation Center</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-07-07T11:17:17.3605732Z">&lt;H2&gt;Otázky:&lt;/H2&gt;&lt;A href="24e780fd-36d3-4a6e-bfc0-a8665c75e4ee"&gt;&lt;/A&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;A href="09f3dae9-2fb7-490f-97dc-37f60885b398"&gt;Čo je to OBERON Automation Center (OAC)?&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="09f3dae9-2fb7-490f-97dc-37f60885b398"&gt;Aké sú výhody OAC oproti staršiemu programu OBERON Center?&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="09f3dae9-2fb7-490f-97dc-37f60885b398"&gt;Na čo slúži OBERON Automation Center (server)?&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="09f3dae9-2fb7-490f-97dc-37f60885b398"&gt;Na čo slúži OBERON Automation Center (klient)?&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="fd64c37a-486b-4cdf-a370-297aaa8a8f73"&gt;Aký je postup nastavenia&amp;nbsp;OBERON Automation Center (server)?&lt;/A&gt;
+&lt;LI&gt;&lt;A href="fd64c37a-486b-4cdf-a370-297aaa8a8f73"&gt;Je potrebné pred konfiguráciou servera OAC spustiť OBERON ako správca?&lt;/A&gt;
+&lt;LI&gt;&lt;A href="fd64c37a-486b-4cdf-a370-297aaa8a8f73"&gt;Ako postupovať, keď je po nastavení server OAC nefunkčný?&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="7388e749-75b9-4306-85dd-b467bcb6a89c"&gt;Aký je postup nastavenia OBERON Automation Center (klient)?&lt;/A&gt;
+&lt;LI&gt;&lt;A href="7388e749-75b9-4306-85dd-b467bcb6a89c"&gt;Je potrebné pred pripojením klienta OAC k serveru OAC spustiť OBERON ako správca?&lt;/A&gt;
+&lt;LI&gt;&lt;A href="69282df4-d4d6-462a-8cf2-68000e3e6f93"&gt;Ako zistím heslo do servera OAC?&lt;/A&gt;
+&lt;LI&gt;&lt;A href="09f3dae9-2fb7-490f-97dc-37f60885b398"&gt;Môžem používať OAC, keď mám súborovú databázu Microsoft Access?&lt;/A&gt;
+&lt;LI&gt;&lt;A href="0b81f4ea-5e68-48c1-8b89-933d5a23d962"&gt;Sú na trhu aj bezplatné databázové systémy typu SQL?&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="9ce25bbd-35d1-4096-acd5-70007f5af5a6"&gt;Čo sú to automatické úlohy, ktoré vykonáva OAC?&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="9ce25bbd-35d1-4096-acd5-70007f5af5a6"&gt;Aké automatické úlohy OAC vykonáva?&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="9ce25bbd-35d1-4096-acd5-70007f5af5a6"&gt;Kde môžem nadefinovať automatické úlohy?&lt;/A&gt; &lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="b4a6ad4d-9dce-4075-8f13-39c40be66234" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="10acb2be-830f-4012-930c-ead0f6ad67ab">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="766adac6-105b-4a07-b89a-f0d9e6fe5e03">
+      <Keyword m="2023-10-05T10:17:47.8153245Z">OBERON Automation Center - FAQ</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="0b9d9b4d-0c2b-4b00-9493-ed941907c711">
+      <Keyword m="2023-10-05T10:17:52.8015611Z">OAC - FAQ</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="4de44397-3174-444b-a76a-db8179399c68">
+      <Keyword m="2023-10-05T10:18:00.6154839Z">FAQ - OAC</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="cb5a5109-e049-47cd-9353-2536a048c29b">
+      <Keyword m="2023-10-05T10:18:09.6885447Z">FAQ - OBERON Automation Center</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

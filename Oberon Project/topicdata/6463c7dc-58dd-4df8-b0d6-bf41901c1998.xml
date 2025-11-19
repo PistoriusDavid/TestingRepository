@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="6463c7dc-58dd-4df8-b0d6-bf41901c1998" Status="Complete" CreatedOn="2021-12-03T06:45:02.8814465Z" ModifiedOn="2022-11-15T11:49:09.6877588Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="LoyaltySystem_InvoicesIssuedReleaseNotes" BuildFlags="">
+  <Title m="2021-12-03T06:46:39.5667392Z">Vernostný systém v pohľadávkach a výdajkách</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2022-11-15T11:49:09.6877588Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka &lt;/EM&gt;obsahuje &lt;STRONG&gt;informácie o&amp;nbsp;práci s&amp;nbsp;vernostným systémom v&amp;nbsp;knihe pohľadávok a v&amp;nbsp;knihe výdajok.&lt;/STRONG&gt;&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Systém OBERON podporuje prácu s&amp;nbsp;&lt;A href="6c98a377-1b88-4eb8-801b-1f168641373b"&gt;vernostnými (zľavovými) systémami&lt;/A&gt;&amp;nbsp;na &lt;A href="a6f5e32d-6f1e-40bb-9d15-3f784a183252"&gt;Pokladnici OBERON&lt;/A&gt;, ale aj&amp;nbsp;v&amp;nbsp;evidencii &lt;A href="5c21adcc-87c8-44e7-981d-02902635693d"&gt;Kniha pohľadávok&lt;/A&gt; (vystavené faktúry) a&amp;nbsp;v&amp;nbsp;evidencii &lt;A href="0be61fcc-a85b-4572-876d-2171a5cb7c29"&gt;Výdajky&lt;/A&gt;.
+&lt;LI&gt;Základný princíp vernostného systému spočíva&amp;nbsp;&lt;STRONG&gt;v&amp;nbsp;zbieraní vernostných bodov za nákup tovaru alebo služieb&lt;/STRONG&gt; (kumulovanie benefitov)&amp;nbsp;a &lt;STRONG&gt;v&amp;nbsp;následnom&lt;/STRONG&gt; &lt;STRONG&gt;získaní zľavy alebo darčeka (tovaru alebo&amp;nbsp;služby zdarma)&lt;/STRONG&gt;&amp;nbsp;za určitý počet naakumulovaných bodov (čerpanie benefitov). Viac informácií o&amp;nbsp;vernostných systémoch v&amp;nbsp;OBERON-e získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="6c98a377-1b88-4eb8-801b-1f168641373b"&gt;Vernostné (zľavové) systémy&lt;/A&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;Kumulovanie benefitov&lt;/STRONG&gt; je v oboch knihách dostupné po stlačení tlačidla &lt;EM&gt;Možnosti&lt;/EM&gt; - zobrazí sa formulár&amp;nbsp;&lt;A href="f63e245e-f7c1-4def-b012-21256dea3530"&gt;Vernostný systém - kumulovanie benefitu&lt;/A&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;Čerpanie benefitov&lt;/STRONG&gt; je dostupné z &lt;A href="68022ee5-d91a-4a1d-960b-c5de57414b6f"&gt;formulára Pohľadávka&lt;/A&gt; a&amp;nbsp;z&amp;nbsp;&lt;A href="e5d60ce3-8ad2-43f2-b60d-08c773376f5b"&gt;formulára Výdajka&lt;/A&gt; po stlačení tlačidla &lt;EM&gt;Možnosti&lt;/EM&gt; - zobrazí sa formulár &lt;A href="f63e245e-f7c1-4def-b012-21256dea3530"&gt;Vernostný systém - čerpanie benefitu&lt;/A&gt;. 
+&lt;LI&gt;V oboch formulároch je možné zadať, resp. &lt;A href="80a78093-fc45-4db9-b74b-e1f9829f7b3c"&gt;snímačom čiarových kódov&lt;/A&gt;&amp;nbsp;alebo&amp;nbsp;&lt;A href="16818a7f-7c27-497a-be4a-4930302e84f1"&gt;snímačom RFID kľúčov&lt;/A&gt; načítať číslo vernostnej karty (prípadne vytvoriť novú vernostnú kartu) na následné kumulovanie alebo čerpanie benefitov. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Postup kumulovania benefitov&lt;/H2&gt;
+&lt;P&gt;Postup kumulovania benefitov je popísaný pre knihu pohľadávok. V knihe výdajok je postup analogický.&lt;/P&gt;
+&lt;OL&gt;
+&lt;LI&gt;V programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt; zvoľte ponuku &lt;EM&gt;Fakturácia&lt;/EM&gt;,&amp;nbsp;&lt;A href="5c21adcc-87c8-44e7-981d-02902635693d"&gt;Kniha pohľadávok&lt;/A&gt;. 
+&lt;LI&gt;Označte kurzorom pohľadávku, ktorú chcete použiť na kumulovanie benefitov,&amp;nbsp;stlačte tlačidlo &lt;EM&gt;Možnosti&lt;/EM&gt; a&amp;nbsp;vyberte položku&amp;nbsp;&lt;EM&gt;&lt;STRONG&gt;Vernostný systém - kumulovanie benefitov&lt;/STRONG&gt;&lt;/EM&gt;. 
+&lt;LI&gt;V prípade používania viacerých vernostných systémov zvoľte vernostný systém, s&amp;nbsp;ktorým chcete pracovať. Zobrazí sa formulár&amp;nbsp;&lt;A href="f63e245e-f7c1-4def-b012-21256dea3530"&gt;Vernostný systém - kumulovanie benefitu&lt;/A&gt;. 
+&lt;LI&gt;Zadajte alebo nasnímajte číslo vernostnej karty a&amp;nbsp;stlačte tlačidlo &lt;EM&gt;&lt;STRONG&gt;OK&lt;/STRONG&gt;&lt;/EM&gt;. Na vernostnej karte sa navýši počet vernostných bodov podľa nastavení vernostného systému. &lt;/LI&gt;&lt;/OL&gt;
+&lt;H2&gt;Postup čerpania benefitov&lt;/H2&gt;
+&lt;P&gt;Postup&amp;nbsp;čerpania benefitov je popísaný pre knihu pohľadávok. V knihe výdajok je postup analogický.&lt;/P&gt;
+&lt;OL&gt;
+&lt;LI&gt;V programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt; zvoľte ponuku &lt;EM&gt;Fakturácia&lt;/EM&gt;,&amp;nbsp;&lt;A href="5c21adcc-87c8-44e7-981d-02902635693d"&gt;Kniha pohľadávok&lt;/A&gt;. Stlačte tlačidlo &lt;EM&gt;Nový&lt;/EM&gt; a&amp;nbsp;&lt;A href="ec4e9be4-140f-4ec9-aa04-544e9870bfe1"&gt;vytvorte novú pohľadávku&lt;/A&gt;. 
+&lt;LI&gt;Vo &lt;A href="68022ee5-d91a-4a1d-960b-c5de57414b6f"&gt;formulári Pohľadávka&lt;/A&gt;&amp;nbsp;pridajte položky&amp;nbsp;do dokladu. 
+&lt;LI&gt;Stlačte tlačidlo &lt;EM&gt;Možnosti&lt;/EM&gt; a&amp;nbsp;vyberte položku&amp;nbsp;&lt;EM&gt;&lt;STRONG&gt;Vernostný systém -&amp;nbsp;čerpanie benefitov&lt;/STRONG&gt;&lt;/EM&gt;. 
+&lt;LI&gt;V prípade používania viacerých vernostných systémov zvoľte vernostný systém, s&amp;nbsp;ktorým chcete pracovať. Zobrazí sa formulár&amp;nbsp;&lt;A href="f63e245e-f7c1-4def-b012-21256dea3530"&gt;Vernostný systém - čerpanie benefitu&lt;/A&gt;. 
+&lt;LI&gt;Zadajte alebo nasnímajte číslo vernostnej karty a&amp;nbsp;stlačte tlačidlo &lt;EM&gt;OK&lt;/EM&gt;.&amp;nbsp;Zobrazí sa zoznam dostupných benefitov, ktoré môže zákazník na základe vernostnej karty čerpať. 
+&lt;LI&gt;Vyberte benefit, ktorý chcete zákazníkovi poskytnúť:
+&lt;UL&gt;
+&lt;LI&gt;&lt;EM&gt;&lt;STRONG&gt;Zľava na doklad v&amp;nbsp;percentách&lt;/STRONG&gt;&lt;/EM&gt;&amp;nbsp;- zľava zadaná v evidencii&amp;nbsp;&lt;A href="4fbe9db8-25bc-420f-aee5-228d0a8ff03f"&gt;obchodného partnera&lt;/A&gt;,
+&lt;LI&gt;&lt;EM&gt;&lt;STRONG&gt;Zľava na doklad v&amp;nbsp;určitej hodnote&lt;/STRONG&gt;&lt;/EM&gt; - zľava nastavená v&amp;nbsp;rámci konfigurácie webovej služby&amp;nbsp;vernostného systému&amp;nbsp;&lt;A href="92147420-5d85-4b11-a328-06d401650294"&gt;OBERON vernostný systém (klient)&lt;/A&gt;,
+&lt;LI&gt;&lt;EM&gt;&lt;STRONG&gt;Darčeková položka&lt;/STRONG&gt; -&lt;/EM&gt; predstavuje&amp;nbsp;&lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;skladovú kartu&lt;/A&gt;&amp;nbsp;so zníženou alebo nulovou cenou. Na skladovej karte&amp;nbsp;v záložke &lt;EM&gt;Obch. partneri&lt;/EM&gt; je potrebné mať zadanú&amp;nbsp;hodnotu položky v bodoch pre čerpanie benefitov. Ak bude na vernostnej karte dostatočný počet bodov, benefit bude dostupný a bude možné ho využiť - čerpať (v&amp;nbsp;opačnom prípade bude zobrazený &lt;SPAN style="COLOR: rgb(127,127,127)"&gt;&lt;STRONG&gt;sivou farbou&lt;/STRONG&gt;&lt;/SPAN&gt;). Viac informácií získate&amp;nbsp;v&amp;nbsp;témach&amp;nbsp;&lt;A href="f63e245e-f7c1-4def-b012-21256dea3530" style="auto-update-caption: true"&gt;Formulár Vernostný systém - kumulovanie/čerpanie benefitu&lt;/A&gt;&amp;nbsp;a&amp;nbsp;&lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1" style="auto-update-caption: true"&gt;Formulár Skladová karta&lt;/A&gt;, záložka &lt;EM&gt;Obch. partneri&lt;/EM&gt;.&lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Po stlačení tlačidla &lt;EM&gt;OK&lt;/EM&gt;&amp;nbsp;sa benefit uplatní - na doklad sa&amp;nbsp;aplikuje zľava alebo sa doň pridá darčeková položka. Na vernostnej karte&amp;nbsp;sa počet vernostných bodov zníži o hodnotu bodov čerpaných darčekových položiek. &lt;/LI&gt;&lt;/OL&gt;&lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;V prípade, že&amp;nbsp;je na&amp;nbsp;&lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;skladovej karte&lt;/A&gt; zadaná &lt;EM&gt;Hodnota položky v bodoch pre kumulovanie benefitov&lt;/EM&gt; a zároveň aj&amp;nbsp;&lt;EM&gt;Hodnota položky v bodoch pre čerpanie benefitov&lt;/EM&gt;, bude táto skladová položka pri&amp;nbsp;čerpaní benefitov&amp;nbsp;pridaná na doklad s nulovou cenou.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H5&gt;Obrázok č. 1:&amp;nbsp;Formulár&amp;nbsp;na čerpanie benefitu&amp;nbsp;&lt;EM&gt;Zľava na doklad v&amp;nbsp;určitej hodnote&lt;/EM&gt;&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/ProductOptions/LoyaltySystem/LoyaltySystem-Benefit-Apply.png"&gt;&amp;nbsp;&lt;/P&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Postup kumulovania a&amp;nbsp;čerpania benefitov na &lt;EM&gt;Pokladnici OBERON&lt;/EM&gt; je popísaný v téme&amp;nbsp;&lt;A href="7a7d2c0d-866b-42ff-89bd-19d34b0b0a11" style="auto-update-caption: true"&gt;Vernostný systém na Pokladnici OBERON&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="de6d5017-62dd-48de-b24b-842e4a3e7952" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="6c98a377-1b88-4eb8-801b-1f168641373b">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="bf9d4968-22e7-4483-9f2b-efa4c17d1bfa" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="e20b0d75-24ee-4bd0-8f05-f61b22205d9a">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="699113fc-62cb-47af-8a76-725aec808a79" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="92147420-5d85-4b11-a328-06d401650294">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="96903ba8-b59b-4322-8091-6aee198341a2" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="29a9a88d-471d-434a-ad1c-de2068775bdf">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="391ba0c0-9172-4848-89bf-6bf8236ca12c" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="7a7d2c0d-866b-42ff-89bd-19d34b0b0a11">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="1bd38da5-51d2-450f-bcc7-98983de673f8" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="c233ada3-0fed-4911-97f3-0680973ebac1">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="d177f5ad-264d-4da3-8d9d-41d0a46f09ed" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="a35e5b68-56e0-4e4a-a271-99b4134aeaf8">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="29d7ff5c-5028-4c16-9642-d0d585efde0d" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="f63e245e-f7c1-4def-b012-21256dea3530">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="54cc636e-eae1-4763-873a-02b41a58bece" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="04d04395-7b97-45db-bdb1-4e36240a4b54">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="b0d64d5b-5bff-4bf6-9057-6a9574c123e2">
+      <Keyword m="2021-12-03T09:42:15.2264223Z">Pohľadávka - vernostný systém</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="86e973bd-8427-43c7-b405-3666fca0710d">
+      <Keyword m="2021-12-03T09:42:25.5631719Z">Výdajka - vernostný systém</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="7c13aa93-bdef-43c3-8e59-429068e4cfd8">
+      <Keyword m="2021-12-03T09:42:40.0438283Z">Pohľadávka - čerpanie benefitov</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="10732a42-629c-47fd-a95e-661836be8e50">
+      <Keyword m="2021-12-03T09:42:47.619643Z">Výdajka - čerpanie benefitov</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="6ad32a71-175e-4c1e-8438-f56a9307980a">
+      <Keyword m="2021-12-03T09:42:58.7957413Z">Kniha pohľadávok - kumulovanie benefitov</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="23731c68-6699-4fee-bc3f-c3ddd38a732a">
+      <Keyword m="2021-12-03T09:43:07.5308747Z">Výdajky - kumulovanie benefitov</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="95b8e4e9-30d4-4a14-945e-690f70bb58e1">
+      <Keyword m="2021-12-03T09:43:24.0598917Z">Čerpanie benefitov - pohľadávky a výdajky</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="0eb1f569-f59d-49d2-a03b-f0796b233617">
+      <Keyword m="2021-12-03T09:43:34.1727949Z">Kumulovanie benefitov - pohľadávky a výdajky</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

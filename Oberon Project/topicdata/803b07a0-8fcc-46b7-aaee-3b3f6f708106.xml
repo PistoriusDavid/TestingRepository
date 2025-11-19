@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="803b07a0-8fcc-46b7-aaee-3b3f6f708106" Status="Complete" CreatedOn="2014-09-04T15:19:45.2694463Z" ModifiedOn="2022-12-16T10:21:04.0252194Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Exportimport_Offline_SelectRecords" BuildFlags="">
+  <Title m="2017-05-30T09:10:57.1151672Z">Výber údajov na transport</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2022-12-16T10:21:04.0252194Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; je venovaná &lt;STRONG&gt;výberu údajov na transport&lt;/STRONG&gt; v rámci&amp;nbsp;&lt;A href="1dc4ea18-03c0-4028-afe5-4532583b6a44"&gt;off-line transportu údajov&lt;/A&gt;, ktorý sa používa spravidla pri&amp;nbsp;&lt;A href="797aaa39-ae1b-4f4c-bac5-88c9ac25f11d"&gt;off-line pobočkovom režime&lt;/A&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Pri exporte údajov systém OBERON obsahuje mechanizmus, ktorým sa&amp;nbsp;označujú záznamy určené&amp;nbsp;na export. To zabezpečí, aby sa&amp;nbsp;&lt;STRONG&gt;zakaždým neexportovali všetky záznamy z danej evidencie&lt;/STRONG&gt; (napr. z knihy pohľadávok), ale vždy len nové,&amp;nbsp;prípadne opravené. Toto označovanie záznamov&amp;nbsp;sa nazýva aj&amp;nbsp;termínom &lt;EM&gt;&lt;STRONG&gt;príznaky pre transport údajov&lt;/STRONG&gt;&lt;/EM&gt;.&lt;BR&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;B&gt;Automatické označovanie dokladov príznakmi -&lt;/B&gt; OBERON označuje nové, resp. opravené doklady v knihách príznakmi pre transport údajov automaticky. Zmeny príznakov nastávajú počas exportu údajov, pri vytvorení nového dokladu alebo pri oprave už exportovaného dokladu a pod.
+&lt;LI&gt;&lt;B&gt;Manuálna zmena príznakov&amp;nbsp;používateľom&lt;/B&gt; - príznaky možno kedykoľvek zmeniť prostredníctvom tlačidla&amp;nbsp;&lt;A href="8936fde4-aac3-4672-99a2-c8bd5ccffdcd"&gt;Možnosti&lt;/A&gt; príslušnej knihy. Položka &lt;I&gt;Výber záznamov&amp;nbsp;na transport údajov&lt;/I&gt; umožňuje rýchlo a pohodlne pripraviť aktuálne vybrané záznamy v&amp;nbsp;evidencii&amp;nbsp;na export. Potrebný výber záznamov&amp;nbsp;je možné&amp;nbsp;dosiahnuť nastavením&amp;nbsp;&lt;A href="1ea156c6-edd0-46e0-ab65-7f41af30e672"&gt;filtrovacích podmienok&lt;/A&gt; (tlačidlo &lt;EM&gt;Vlastnosti&lt;/EM&gt;). Pomocou položky &lt;I&gt;Zmena príznakov&amp;nbsp;na transport údajov&lt;/I&gt;&amp;nbsp;možno podľa potreby ďalej nastavovať príznaky pre transport.&lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/UL&gt;
+&lt;DIV style="MARGIN-LEFT: 2em"&gt;&lt;/DIV&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="9724dd1b-7573-48ee-8168-b955e131fedb" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="1dc4ea18-03c0-4028-afe5-4532583b6a44">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="2faa94c8-b7c0-43db-b309-a71efe2e39b6" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="797aaa39-ae1b-4f4c-bac5-88c9ac25f11d">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="a0101b39-916c-4044-a702-d2256c743d37">
+      <Keyword m="2021-03-31T13:02:22.1226161Z">Označovanie záznamov - off-line transporty údajov</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="73adf2ac-377a-4989-8dd1-f4346bc7d35d">
+      <Keyword m="2021-03-31T13:02:50.3386654Z">Automatické označovanie dokladov príznakmi - off-line transporty údajov</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="f3c09ebc-11ad-448c-8256-c87000be7542">
+      <Keyword m="2021-03-31T13:03:08.9361521Z">Manuálna zmena príznakov používateľom - off-line transporty údajov</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="b2af2ec0-3522-4998-802a-462eb1b6d33d">
+      <Keyword m="2021-03-31T13:24:31.9432371Z">Príznaky pre transport údajov</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="75c3faa8-8de5-4868-b98c-687ae53d87ae" Status="Complete" CreatedOn="2014-09-10T08:22:20.314362Z" ModifiedOn="2023-04-03T09:08:27.2145495Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Hotel_Started_HotelAccount_Create" BuildFlags="">
+  <Title m="2014-09-10T08:22:48.9109977Z">Vytvorenie hotelového účtu</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-04-03T09:08:27.2145495Z">&lt;P&gt;V tejto téme &lt;EM&gt;Pomocníka&lt;/EM&gt; je uvedený &lt;STRONG&gt;postup, ako vytvoriť (otvoriť) hotelový účet&lt;/STRONG&gt; v&amp;nbsp;module&amp;nbsp;&lt;A href="c3bd41f0-029e-4c74-b342-b0ffff647b6e"&gt;Hotelová recepcia&lt;/A&gt; systému OBERON.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Pri zaevidovaní ubytovania (príchodu hosťa) &lt;STRONG&gt;sa automaticky hotelový účet nevytvára&lt;/STRONG&gt;. V systéme OBERON je potrebné hotelový účet vytvoriť (otvoriť) manuálne. Možno tak urobiť&amp;nbsp;z&amp;nbsp;viacerých miest v programe: 
+&lt;UL&gt;
+&lt;LI&gt;z&amp;nbsp;&lt;A href="d43ef71f-edb1-44f7-b1a2-c0cf18067ee9"&gt;formulára Ubytovanie&lt;/A&gt;, záložka &lt;EM&gt;Hotelové účty&lt;/EM&gt; - hotelový účet bude priradený k ubytovaniu (osobe). V tomto prípade môžu byť&amp;nbsp;položky účtu&amp;nbsp;automaticky vygenerované programom, a to pomocou funkcie &lt;I&gt;&lt;STRONG&gt;Automaticky vytvoriť položky hotelového účtu&lt;/STRONG&gt;&lt;/I&gt;. Táto funkcia&amp;nbsp;na základe nastavených cenových hladín v&amp;nbsp;&lt;A href="79646e11-b21e-473c-a78b-7e0fb8b55c14"&gt;cenotvorbe ubytovania&lt;/A&gt;, nastavených sadzieb miestnej dane za ubytovanie, počtu osôb, počtu dní ubytovania a objednaných služieb vytvorí položky cenovej kalkulácie: &lt;EM&gt;Ubytovanie, Miestna daň za ubytovanie&lt;/EM&gt; a &lt;EM&gt;Služby&lt;/EM&gt;&amp;nbsp;(len základné služby). 
+&lt;LI&gt;z&amp;nbsp;evidencie&amp;nbsp;&lt;A href="ffa5a889-7bfe-4165-ba83-15263eb77358"&gt;Hotelové účty&lt;/A&gt; - hotelový účet nebude priradený k ubytovaniu (osobe). &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;V&amp;nbsp;oboch prípadoch sa vytvorením hotelového účtu&amp;nbsp;zapíše nový záznam do knihy&amp;nbsp;&lt;EM&gt;Hotelové účty&lt;/EM&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;Odporúčaný postup&lt;/STRONG&gt; vytvorenia hotelového účtu je z&amp;nbsp;&lt;A href="d43ef71f-edb1-44f7-b1a2-c0cf18067ee9"&gt;formulára Ubytovanie&lt;/A&gt;, záložka &lt;EM&gt;Hotelové účty&lt;/EM&gt;, po otvorení z&amp;nbsp;&lt;A href="3ca37544-bbc0-4a88-af6a-a2132b74279d"&gt;grafického prehľadu izieb&lt;/A&gt; (ponuka &lt;EM&gt;Hotel&lt;/EM&gt;). &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Postup vytvorenia hotelového účtu&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;V&amp;nbsp;ponuke &lt;EM&gt;Hotel&lt;/EM&gt; otvorte&amp;nbsp;&lt;A href="3ca37544-bbc0-4a88-af6a-a2132b74279d" style="auto-update-caption: true"&gt;Grafický prehľad izieb&lt;/A&gt;&lt;I&gt;.&lt;/I&gt; 
+&lt;LI&gt;Otvorte&amp;nbsp;ubytovanie,&amp;nbsp;ku ktorému chcete vytvoriť hotelový účet. 
+&lt;LI&gt;Vo&amp;nbsp;&lt;A href="d43ef71f-edb1-44f7-b1a2-c0cf18067ee9"&gt;formulári Ubytovanie&lt;/A&gt; vyberte záložku&amp;nbsp;&lt;EM&gt;Hotelové účty,&lt;/EM&gt; stlačte tlačidlo &lt;I&gt;Nový -&lt;/I&gt; otvorí sa&amp;nbsp;&lt;A href="260d59f6-592f-4e0b-9166-3f0dfeb98c71"&gt;formulár Hotelový účet&lt;/A&gt;. Hotelový účet &lt;STRONG&gt;sa&amp;nbsp;automaticky vytvára na osobu, ktorá bola do ubytovania zadaná ako prvá&lt;/STRONG&gt;. Zmeniť osobu možno v&amp;nbsp;záložke &lt;EM&gt;Ostatné&lt;/EM&gt;. 
+&lt;LI&gt;Zadajte (upravte) názov hotelového účtu. Do názvu hotelového účtu sa automaticky dopĺňa meno osoby, možno ho však upraviť aj manuálne. Zadajte ďalšie údaje, napr. o&amp;nbsp;zaplatenej zálohe. 
+&lt;LI&gt;Zvoľte záložku &lt;I&gt;Základné&amp;nbsp;- Účtenky hotelového účtu&lt;/I&gt;.&amp;nbsp;Na pridanie novej účtenky stlačte tlačidlo &lt;EM&gt;Nový.&lt;/EM&gt; Otvorí sa formulár &lt;EM&gt;Otvorený hotelový účet&lt;/EM&gt;. 
+&lt;LI&gt;Pridajte&amp;nbsp;položky do otvoreného&amp;nbsp;hotelového účtu. Po stlačení klávesu F3 možno zobraziť zoznam položiek, ktoré je možné pridať do hotelového účtu. Ak nepoužívate modul &lt;A href="dbe76648-4e40-4ef5-938e-6b4a45580f97"&gt;Skladová evidencia&lt;/A&gt;, v&amp;nbsp;tomto formulári môžete nadefinovať jednotlivé predajné položky (akoby skladové karty). V&amp;nbsp;prípade, že používate aj modul&amp;nbsp;&lt;A href="78d20602-4b59-4b31-9f0a-a04a1d376ec5"&gt;Skladová evidencia&lt;/A&gt;, v&amp;nbsp;zozname sa zobrazia skladové karty. 
+&lt;LI&gt;Pridanie&amp;nbsp;položky do hotelového účtu sa realizuje v&amp;nbsp;poli &lt;I&gt;Množstvo*Kód položky&lt;/I&gt;. 
+&lt;UL&gt;
+&lt;LI&gt;Pri predaji&amp;nbsp;zapíšte kód položky&amp;nbsp;priamo do poľa &lt;I&gt;Množstvo*Kód položky&lt;/I&gt; a&amp;nbsp;potvrďte klávesom &lt;I&gt;Enter&lt;/I&gt;. Program pridá hľadanú položku v&amp;nbsp;množstve jednej mernej jednotky. 
+&lt;LI&gt;Ak potrebujete predať iné množstvo, ako jedna merná jednotka, uveďte pred kód položky potrebné množstvo, napr. 2*1122, 0.5*1122 a pod. V&amp;nbsp;prípade, že nepoznáte kód položky, môžete zobraziť zoznam položiek určených na predaj&amp;nbsp;stlačením klávesu&amp;nbsp;F3. 
+&lt;LI&gt;Zo zoznamu položiek vložených do hotelového účtu môžete ktorúkoľvek odstrániť (tlačidlo &lt;EM&gt;Vymazať&lt;/EM&gt; alebo kláves &lt;EM&gt;Delete&lt;/EM&gt;). 
+&lt;LI&gt;Ak potrebujete stornovať riadok, môžete použiť položku so záporným množstvom, napr. -1*1122, -2*1122, -0.5*1122 a pod. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Zadanie údajov potvrďte stlačením tlačidla &lt;EM&gt;&lt;STRONG&gt;OK&lt;/STRONG&gt;&lt;/EM&gt;. Vytvorenie hotelového účtu je ukončené. Jednotlivé položky je, samozrejme, možné dopĺňať aj neskôr (priebežne). &lt;/LI&gt;&lt;/OL&gt;
+&lt;H2&gt;Postup&amp;nbsp;presunu položiek z &lt;EM&gt;Pokladnice OBERON&lt;/EM&gt; na hotelový účet&lt;/H2&gt;
+&lt;P&gt;Ubytovaný hosť po konzumácií&amp;nbsp;v hotelovom bare alebo reštaurácii nemusí svoj účet zaplatiť hneď, ale môže si&amp;nbsp;ho nechať&amp;nbsp;presunúť na hotelový účet a zaplatiť až pri&amp;nbsp;&lt;A href="6db7ebef-e775-4982-8e6b-5333e7600d5c"&gt;odchode&amp;nbsp;z hotela&lt;/A&gt; (check out).&amp;nbsp;V&amp;nbsp;nasledujúcej časti&amp;nbsp;je uvedený&amp;nbsp;návod, ako&amp;nbsp;má&amp;nbsp;postupovať obsluha (čašník) v &lt;EM&gt;Pokladnici OBERON&lt;/EM&gt; po konzumácií hosťa v hotelovom bare alebo reštaurácii.&lt;/P&gt;
+&lt;P&gt;Najskôr je potrebné vytvoriť osobitný&amp;nbsp;&lt;A href="46e6deed-ce15-42dc-be53-ab72142d9673"&gt;typ platby&lt;/A&gt; určený na presun účtu na hotelový účet:&lt;/P&gt;
+&lt;OL&gt;
+&lt;LI&gt;V ponuke &lt;I&gt;Sklad&lt;/I&gt; zvoľte položku&amp;nbsp;&lt;A href="69bbd499-45c0-4b0f-8f7a-c53fa5d70c1b"&gt;Pokladnica OBERON&lt;/A&gt;&lt;EM&gt;.&lt;/EM&gt; 
+&lt;LI&gt;V&amp;nbsp;systémovom paneli&amp;nbsp;&lt;EM&gt;Pokladnice OBERON&lt;/EM&gt; stlačte&amp;nbsp;tlačidlo &lt;EM&gt;Systém&lt;/EM&gt;. V záložke&amp;nbsp;&lt;EM&gt;Nastavenia&lt;/EM&gt; v&amp;nbsp;časti &lt;EM&gt;Typy platieb&lt;/EM&gt;&amp;nbsp;stlačte tlačidlo &lt;EM&gt;Definovať&lt;/EM&gt;, otvorí sa zoznam typov platieb. 
+&lt;LI&gt;Stlačte tlačidlo &lt;EM&gt;Nový&lt;/EM&gt;, otvorí sa&amp;nbsp;&lt;A href="77a7891e-a525-416c-ad7a-9e25ff95e430"&gt;formulár Typ platby&lt;/A&gt;. Zadajte náležitosti platby:&lt;BR&gt;&lt;STRONG&gt;Názov&lt;/STRONG&gt;: Presun na hotelový účet&lt;BR&gt;&lt;STRONG&gt;Spôsob zaúčtovania&lt;/STRONG&gt;: Presun na hotelový účet&lt;BR&gt;&lt;STRONG&gt;Mena&lt;/STRONG&gt;: EUR&lt;BR&gt;&lt;STRONG&gt;Počet kópií dokladu&lt;/STRONG&gt;: 1 (vytlačí sa jeden originál a jedna kópia pre zákazníka)&lt;BR&gt;&lt;STRONG&gt;Číslo platidla vo&amp;nbsp;fiškálnom zariadení&lt;/STRONG&gt; nastavte v&amp;nbsp;závislosti od typu&amp;nbsp;&lt;A href="04b8d290-1470-41ff-85a1-c44a20958841"&gt;fiškálneho zariadenia&lt;/A&gt; na hodnotu, ktorá v inom type platidla nie je použitá. Viac informácií nájdete v téme &lt;A href="77a7891e-a525-416c-ad7a-9e25ff95e430"&gt;Typ platby&lt;/A&gt;, časť &lt;EM&gt;Číslo platidla vo fiškálnom zariadení&lt;/EM&gt;.&lt;BR&gt;V záložke &lt;EM&gt;Základné&lt;/EM&gt; začiarknite možnosť &lt;EM&gt;Tlačiť v rozpise obratov podľa typu platby&lt;/EM&gt;. 
+&lt;LI&gt;Stlačením tlačidla &lt;EM&gt;OK&lt;/EM&gt; sa typ platby &lt;EM&gt;Presun na hotelový účet&lt;/EM&gt; uloží. &lt;/LI&gt;&lt;/OL&gt;
+&lt;P&gt;Pri samotnom presune položiek z &lt;EM&gt;Pokladnice OBERON&lt;/EM&gt; na hotelový účet postupujte takto:&lt;/P&gt;
+&lt;OL&gt;
+&lt;LI&gt;V&amp;nbsp;&lt;EM&gt;Pokladnici OBERON&lt;/EM&gt; pridajte na účet položky, ktoré hosť skonzumoval, a to buď&amp;nbsp;zo zoznamu položiek (F3) alebo&amp;nbsp;z&amp;nbsp;otvorených účtov. 
+&lt;LI&gt;Po ukončení konzumácie stlačte tlačidlo &lt;EM&gt;Tlač dokladu&amp;nbsp;(F12)&lt;/EM&gt;&amp;nbsp;- otvorí sa formulár, v&amp;nbsp;ktorom v&amp;nbsp;záložke &lt;EM&gt;Všetky typy platieb&lt;/EM&gt; vyberte typ platby &lt;EM&gt;Presun na hotelový účet&lt;/EM&gt;. 
+&lt;LI&gt;Zobrazí sa zoznam všetkých aktívnych&amp;nbsp;&lt;A href="ffa5a889-7bfe-4165-ba83-15263eb77358"&gt;hotelových účtov&lt;/A&gt;, vyberte účet,&amp;nbsp;na ktorý chcete položky presunúť,&amp;nbsp;a stlačte tlačidlo &lt;EM&gt;OK&lt;/EM&gt;. 
+&lt;LI&gt;Položky sa presunú na hotelový účet a vytlačí sa nedaňový&amp;nbsp;doklad, v prípade nastavenia aj kópia nedaňového&amp;nbsp;dokladu. &lt;/LI&gt;&lt;/OL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="17693231-e727-4758-90fa-dd6b46ca14e8" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="ffa5a889-7bfe-4165-ba83-15263eb77358">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="d0668f98-01a1-4104-9a94-50bbab533817" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="260d59f6-592f-4e0b-9166-3f0dfeb98c71">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="2ad5aaa7-4818-4652-ba33-47dec8b523af" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="3ca37544-bbc0-4a88-af6a-a2132b74279d">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="d73cd91e-c15a-456f-ae8b-cca81528ee59" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="d43ef71f-edb1-44f7-b1a2-c0cf18067ee9">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="28867f5a-4cdb-474c-92fe-fe43420ecfcb" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="bb24750f-46d1-4514-9afb-402259b02ecc">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="d0504d42-6f15-4427-ad0f-6ad31fa4a8be" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="52a22e5d-f6ee-46f3-9978-537f8fa5c984">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="02bb499e-fe58-4816-ab82-b523cd4c50c0" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="fc334b67-8148-4d4c-bb21-de0e0060b312">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="0559c642-96a3-4f26-a306-f44fb242473f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="2058071a-7c05-453f-976f-5b4cb142498d">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="dea15371-992c-496f-b3a0-8b97feae2072" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="be6740fb-9e90-4385-9537-27582dc4f26b">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="47796c22-9da7-4f95-b53b-0541a64fd517" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="69bbd499-45c0-4b0f-8f7a-c53fa5d70c1b">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="ec55e425-b036-43aa-8664-efdb02267ba4" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="f3814738-213c-4f39-96d3-cdcaeb6674ec">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="30bfede2-fcef-4d02-acc3-cf61e1c39859" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="77a7891e-a525-416c-ad7a-9e25ff95e430">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="66647c53-e53b-4723-9860-317a4fe49a44">
+      <Keyword m="2022-05-11T13:10:58.1648671Z">Hotelový účet - vytvorenie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="6bdbadb8-4792-4a5b-b74a-1b4bc95da952">
+      <Keyword m="2022-05-12T06:08:34.4195368Z">Presun položiek z Pokladnice OBERON na hotelový účet</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="7388df19-79de-476f-910b-404b82f75f34">
+      <Keyword m="2022-05-12T06:09:09.7835342Z">Konzumácia na hotelový účet (Pokladnica OBERON)</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

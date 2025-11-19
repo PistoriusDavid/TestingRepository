@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="3bed284c-d73b-4b5b-8549-843ef72ffcc2" Status="Complete" CreatedOn="2021-08-19T06:47:50.2975421Z" ModifiedOn="2022-06-27T10:16:35.5524644Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Hotel_Advanced_GuestRequirements" BuildFlags="">
+  <Title m="2021-08-19T06:48:36.7809194Z">Požiadavky hosťa</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2022-06-27T10:13:03.7734243Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; je venovaná &lt;STRONG&gt;možnosti zaevidovať rôzne požiadavky hosťa&lt;/STRONG&gt; v&amp;nbsp;module&amp;nbsp;&lt;A href="c3bd41f0-029e-4c74-b342-b0ffff647b6e"&gt;Hotelová recepcia&lt;/A&gt; (napr. detská postieľka, špeciálna strava, pes,&amp;nbsp;kytica a pod.).&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Modul &lt;A href="c3bd41f0-029e-4c74-b342-b0ffff647b6e"&gt;Hotelová recepcia&lt;/A&gt;&amp;nbsp;umožňuje ubytovacím zariadeniam &lt;STRONG&gt;zaevidovať pri&amp;nbsp;&lt;A href="2414619b-e1e1-4bc2-b745-c8d08f3f2549"&gt;rezervácii ubytovania&lt;/A&gt;, resp.&amp;nbsp;&lt;A href="d5286006-62ed-43bc-93a2-5f4ec69fce0b"&gt;ubytovaní&lt;/A&gt; (ale aj v&amp;nbsp;priebehu pobytu) rôzne požiadavky hosťa&amp;nbsp;- od detskej postieľky, cez špeciálnu stravu až po kyticu či fľašu sektu na izbe&lt;/STRONG&gt;.&amp;nbsp;Vďaka tomu ubytovacie zariadenia môžu vo vyššej miere reflektovať na špeciálne požiadavky svojich hostí a mať ich stále na zreteli. Na druhej strane hosťom môžu ponúknuť pocit vyššieho štandardu služieb a vedomie, že sa myslí na ich potreby a vyšší komfort. 
+&lt;LI&gt;&lt;EM&gt;Požiadavky hosťa&lt;/EM&gt; predstavujú &lt;STRONG&gt;zoznam položiek&lt;/STRONG&gt; dostupných vo formulároch&amp;nbsp;&lt;A href="90d7003c-1001-42ee-beef-bb7df6eada31"&gt;Rezervácia&lt;/A&gt; a&amp;nbsp;&lt;A href="d43ef71f-edb1-44f7-b1a2-c0cf18067ee9"&gt;Ubytovanie&lt;/A&gt;&amp;nbsp;(záložka &lt;EM&gt;Základné&lt;/EM&gt;). Zoznam&amp;nbsp;okrem preddefinovaných položiek umožňuje &lt;STRONG&gt;nadefinovať neobmedzený počet ďalších najrôznejších požiadaviek hosťa&lt;/STRONG&gt; podľa potrieb a&amp;nbsp;možností ubytovacieho zariadenia. 
+&lt;LI&gt;Škála môže byť naozaj široká a môže zahŕňať požiadavky ako napr. detská postieľka, detská stolička, prebaľovací pult, kočík, detský kútik, detský animátor, rozličné spoločenské hry alebo športové náradie, narodeninová torta, kvety, fľaša sektu či iné darčeky, úprava stola na romantickú večeru, špeciálna strava, rôzne relaxačné služby (welness, fitnes, sauna…), budenie,&amp;nbsp;výbava pre psa alebo iného domáceho miláčika, potvrdenie o pobyte, taxík atď. 
+&lt;LI&gt;Požiadavky hosťa je možné zobraziť v&amp;nbsp;&lt;A href="3ca37544-bbc0-4a88-af6a-a2132b74279d"&gt;Grafickom prehľade izieb&lt;/A&gt; v oddieloch &lt;EM&gt;Prichádzajúci hostia, Ubytovaní hostia&lt;/EM&gt; a &lt;EM&gt;Odchádzajúci hostia&lt;/EM&gt; a mať ich tak stále na zreteli. Uvedené požiadavky je zároveň možné vytlačiť (tlačový výstup &lt;EM&gt;Prehľad upratovania izieb k dátumu&lt;/EM&gt;)&lt;EM&gt;.&lt;/EM&gt; &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Definovať, resp. upraviť už nadefinovanú&amp;nbsp;požiadavku hosťa&amp;nbsp;je možné&amp;nbsp;pomocou &lt;A href="5a5262fd-4e93-4ae8-b237-d1a6a80dd180"&gt;formulára Požiadavka hosťa&lt;/A&gt;.&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H5&gt;Obrázok č. 1: Požiadavky hosťa vo formulári &lt;EM&gt;Rezervácia&lt;/EM&gt;&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/Hotel/Form_Hotel_GuestRequirements.png" size="70%"&gt;&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="81805079-1148-4a6c-90f7-4c7924c83bc0" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="2414619b-e1e1-4bc2-b745-c8d08f3f2549">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="c4681ace-e190-4653-8585-968f4e04526e" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="d5286006-62ed-43bc-93a2-5f4ec69fce0b">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="477b0f5e-296d-4f8e-ae1d-f776216a8780" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="90d7003c-1001-42ee-beef-bb7df6eada31">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="966674df-f7d6-4a31-beee-9a02e87962b3" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="d43ef71f-edb1-44f7-b1a2-c0cf18067ee9">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="b2e58be1-8364-44dc-bdfc-38f92efe8c57" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="3ca37544-bbc0-4a88-af6a-a2132b74279d">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="f19baefd-81ea-4d45-93eb-adc38d21bbeb" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="5a5262fd-4e93-4ae8-b237-d1a6a80dd180">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="daaee559-afe9-4c24-be63-82e20962d744" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="66ed476e-d5ea-4e46-a758-a3f190a60a7c">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="ad8ef916-38e8-45cf-b426-5517e5ab19c1">
+      <Keyword m="2022-06-27T10:15:37.9918556Z">Požiadavka hosťa</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="03fb43c1-b26f-4ca3-ae78-1295e1005d39">
+      <Keyword m="2022-06-27T10:15:42.623856Z">Požiadavky hostí</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="e09cbdd8-4c56-470c-aa99-e67fc02d01c5">
+      <Keyword m="2022-06-27T10:16:33.055115Z">Hosť - požiadavky</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

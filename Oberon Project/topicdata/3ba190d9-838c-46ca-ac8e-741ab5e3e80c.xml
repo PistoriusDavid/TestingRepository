@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="3ba190d9-838c-46ca-ac8e-741ab5e3e80c" Status="Complete" CreatedOn="2014-10-10T11:02:03.8782929Z" ModifiedOn="2023-10-30T07:11:48.4392392Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="30561" Name="Form_AccDouble_RenumberingBills" BuildFlags="">
+  <Title m="2014-12-11T12:51:44.6142578Z">Sprievodca Prečíslovanie dokladov</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-10-16T09:13:41.9746703Z">&lt;P&gt;&lt;SPAN&gt;Sprievodca&amp;nbsp;&lt;EM&gt;Prečíslovanie dokladov&amp;nbsp;&lt;/EM&gt;umožňuje &lt;STRONG&gt;automaticky prečíslovať&amp;nbsp;&lt;/STRONG&gt;&lt;A href="a6423943-483f-408c-befc-73e849cb6b05"&gt;doklady určitého typu&lt;/A&gt; v&amp;nbsp;&lt;A href="d8c9bfc8-92d1-4471-8909-e5f8ce602d6c"&gt;účtovnom denníku&lt;/A&gt; v&amp;nbsp;chronologickom slede (podľa dátumu dokladu). &lt;SPAN&gt;Sprievodca je dostupný z&amp;nbsp;programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;, ponuka&amp;nbsp;&lt;EM&gt;Účtovníctvo,&amp;nbsp;&lt;/EM&gt;&lt;A href="d8c9bfc8-92d1-4471-8909-e5f8ce602d6c"&gt;Účtovný denník&lt;/A&gt;, tlačidlo&amp;nbsp;&lt;EM&gt;Možnosti&lt;/EM&gt;.&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Pred použitím funkcie prečíslovania dokladov sa odporúča vykonať&amp;nbsp;&lt;A href="493f5942-f267-4f98-a46d-8acc745b9b88"&gt;zálohovanie údajov&lt;/A&gt;, keďže prečíslovanie je nevratný proces (nie je možné obnoviť pôvodné hodnoty).&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Funkcia prečíslovania dokladov &lt;STRONG&gt;sa&amp;nbsp;spravidla používa v&amp;nbsp;situáciách, keď sa neúčtuje v chronologickom (časovom) slede, prípadne, keď sa doplní určitý starší (spravidla&amp;nbsp;&lt;EM&gt;zabudnutý&lt;/EM&gt;) doklad&lt;/STRONG&gt;. 
+&lt;LI&gt;Pri prečíslovaní dokladov v účtovnom denníku&amp;nbsp;sa zároveň prečíslujú aj všetky súvisiace doklady v ďalších evidenciách (&lt;A href="5c21adcc-87c8-44e7-981d-02902635693d"&gt;Kniha pohľadávok&lt;/A&gt;,&amp;nbsp;&lt;A href="55028746-c263-4d92-a615-502222e8d53b"&gt;Kniha záväzkov&lt;/A&gt;,&amp;nbsp;&lt;A href="eb506116-6287-4c49-b289-8d1ee5614f0f"&gt;Kniha evidencie DPH&lt;/A&gt;,&amp;nbsp;&lt;A href="822d4556-571e-4260-ab82-e68d232b1662"&gt;Nákup PHL&lt;/A&gt;). 
+&lt;LI&gt;Do poľa &lt;EM&gt;Dátum&lt;/EM&gt; je možné zapísať dátum, od ktorého&amp;nbsp;sa doklady zvoleného typu prečíslujú (pri zadaní 01.01.&amp;nbsp;daného účtovného obdobia&amp;nbsp;sa prečíslujú všetky doklady). &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Ak využívate&amp;nbsp;funkciu prečíslovania pokladničných dokladov, je potrebné pri tlači pokladničných dokladov v&amp;nbsp;účtovnom denníku zakázať tlač čísla pokladničného dokladu (v&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="8406940f-006c-44df-b7ff-2f80e4556003"&gt;oddiel Používateľ, Tlač&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt; záložka &lt;EM&gt;Účtovníctvo&lt;/EM&gt;).&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;P&gt;&lt;STRONG&gt;Príklad&lt;/STRONG&gt;&lt;/P&gt;
+&lt;P&gt;V praxi sa môže vyskytnúť situácia, že&amp;nbsp;jeden doklad je v&amp;nbsp;účtovnom denníku rozúčtovaný na viac záznamov (riadkov), a&amp;nbsp;to&amp;nbsp;najčastejšie z&amp;nbsp;dôvodu rozúčtovania.&lt;/P&gt;
+&lt;P&gt;Doklady (pokladňa) s číselným radom:&lt;/P&gt;
+&lt;P&gt;01.01.&amp;nbsp; &amp;nbsp; P-001&lt;BR&gt;05.01.&amp;nbsp; &amp;nbsp;&amp;nbsp;P-002&lt;BR&gt;10.01.&amp;nbsp;&amp;nbsp;&amp;nbsp; P-003&lt;BR&gt;10.01.&amp;nbsp;&amp;nbsp; &amp;nbsp;P-003&lt;BR&gt;10.01.&amp;nbsp;&amp;nbsp;&amp;nbsp; P-004&lt;BR&gt;12.01.&amp;nbsp;&amp;nbsp;&amp;nbsp; P-005&lt;/P&gt;
+&lt;P&gt;Po pridaní nového dokladu dňa 04.01 a prečíslovaní&amp;nbsp;dokladov sa&amp;nbsp;číselný rad upraví takto:&lt;/P&gt;
+&lt;P&gt;01.01.&amp;nbsp; &amp;nbsp; P-001&lt;BR&gt;04.01.&amp;nbsp; &amp;nbsp;&amp;nbsp;P-002&lt;BR&gt;05.01.&amp;nbsp; &amp;nbsp;&amp;nbsp;P-003&lt;BR&gt;10.01.&amp;nbsp;&amp;nbsp;&amp;nbsp; P-004&lt;BR&gt;10.01.&amp;nbsp;&amp;nbsp; &amp;nbsp;P-004&lt;BR&gt;10.01.&amp;nbsp;&amp;nbsp;&amp;nbsp; P-005&lt;BR&gt;12.01.&amp;nbsp;&amp;nbsp;&amp;nbsp; P-006&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="efa9146f-470b-4403-8115-d627fe1a653a" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="d8c9bfc8-92d1-4471-8909-e5f8ce602d6c">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="9813c04c-93da-4d3b-a17e-6de8275f59fe" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="9aa7dbb1-f4a7-405e-8465-78b2133e0fd3">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="1ac4f844-8a02-4d61-aa96-618ed0f7a3ae">
+      <Keyword m="2023-10-16T09:13:52.3966274Z">Prečíslovanie dokladov v účtovnom denníku - sprievodca</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="d2d6afe3-b2a7-4571-aaad-959852892ffe">
+      <Keyword m="2023-10-16T09:14:00.9737544Z">Účtovný denník - prečíslovanie dokladov - sprievodca</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="1dce6bce-8c7d-443a-b0f9-14ec18f3c9a0" Status="Complete" CreatedOn="2014-09-04T11:28:06.7512Z" ModifiedOn="2024-11-07T13:51:25.8427482Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="ProgramControls_StructureProgramOptions" BuildFlags="">
+  <Title m="2014-10-07T10:15:32.1693002Z">Štruktúra a možnosti dokladu</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-11-07T13:51:25.8427482Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&amp;nbsp;&lt;/EM&gt;popisuje &lt;STRONG&gt;všeobecnú štruktúru a možnosti&amp;nbsp;dokladu&lt;/STRONG&gt; (&lt;A href="68022ee5-d91a-4a1d-960b-c5de57414b6f"&gt;pohľadávka&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt; &lt;A href="a7aeeeec-b6b6-45c5-b3d0-fe4f13937945"&gt;záväzok&lt;/A&gt;, &lt;A href="6712889d-bea7-4ae7-859d-82b809c7bdcc"&gt;objednávka prijatá&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt; &lt;A href="11f83bb8-ed8a-4859-a140-1aa6016fad9e"&gt;objednávka vydaná&lt;/A&gt;, &lt;A href="062891b1-9360-4c09-9c7b-9474a28e7849"&gt;príjemka&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt; &lt;A href="e5d60ce3-8ad2-43f2-b60d-08c773376f5b"&gt;výdajka&lt;/A&gt;) v&amp;nbsp;systéme OBERON. Ďalšie špecifické možnosti daného dokladu sú popísané priamo v téme venovanej príslušnému dokladu.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Tvorba dokladu sa realizuje pomocou sprievodcu &lt;EM&gt;Nový doklad&lt;/EM&gt;, v ktorom je možné zvoliť spôsob vytvorenia nového dokladu, a&amp;nbsp;to buď&amp;nbsp;štandardným zadaním alebo&amp;nbsp;z iného dokladu, prípadne je možné použiť iný spôsob vytvorenia dokladu v&amp;nbsp;závislosti od druhu vystavovaného dokladu (import údajov zo súboru typu XML, z&amp;nbsp;&lt;A href="0fb6c9c4-9b89-43f6-af59-f9418f6871dd"&gt;Evidencie reklamácie a servisu&lt;/A&gt;, z&amp;nbsp;knihy &lt;A href="a2807e3b-d8b1-4d61-a3b9-63df2783bfda"&gt;Úlohy a udalosti&lt;/A&gt;&amp;nbsp;alebo zo záznamov v&amp;nbsp;module&amp;nbsp;&lt;A href="c59586c9-a034-4f31-9a3c-1960428236e7"&gt;Hotelová recepcia&lt;/A&gt; - rezervácia, ubytovanie,&amp;nbsp;hotelový účet, poskytovaná služba). 
+&lt;LI&gt;Ďalej sa v sprievodcovi zadávajú základné údaje dokladu (prevádzka v prípade členenia na&amp;nbsp;&lt;A href="8df798f2-4fbf-4279-ad8c-493bdbe7f2e4"&gt;prevádzky&lt;/A&gt; a&amp;nbsp;&lt;A href="614e08c0-a29e-4810-a741-174e81a8e259"&gt;typ dokladu&lt;/A&gt;) a&amp;nbsp;&lt;A href="b7a48886-b367-4056-808a-59ba5f871f32"&gt;obchodný partner&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Horná časť formulára&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Horná časť&amp;nbsp;formulára dokladu sa líši pri rôznych&amp;nbsp;druhoch dokladov. Údaje, ktoré obsahuje,&amp;nbsp;sú dôležité pre účtovanie, spätnú kontrolu dokladov a tlačia sa v tlačových výstupoch. 
+&lt;LI&gt;Hlavička dokladu zobrazuje a umožňuje meniť nastavenia zadané v sprievodcovi tvorbou dokladu (&lt;A href="614e08c0-a29e-4810-a741-174e81a8e259"&gt;typ dokladu&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt; &lt;A href="a7e1c27b-e28f-4ae9-b643-16cc1b478212"&gt;druh pohybu&lt;/A&gt;, číslo dokladu, dátum). Zároveň umožňuje zadať ďalšie údaje (formu úhrady,&amp;nbsp;dátum dodania, splatnosť atď.). V hornej časti formulára sú uvedené aj&amp;nbsp;údaje o firme, prípadne prevádzke, a o&amp;nbsp;&lt;A href="b7a48886-b367-4056-808a-59ba5f871f32"&gt;obchodnom partnerovi&lt;/A&gt;. 
+&lt;LI&gt;Pri vytváraní dokladu a na samotnom doklade je možné overiť platnosť &lt;I&gt;IČ DPH&lt;/I&gt; obchodného partnera prostredníctvom databázy uloženej&amp;nbsp;v serveri firmy&amp;nbsp;EXALOGIC. Databáza sa aktualizuje z&amp;nbsp;databázy &lt;EM&gt;Finančnej správy SR&lt;/EM&gt; každý deň, informácie sú preto vždy aktuálne. Overiť &lt;I&gt;IČ DPH&lt;/I&gt; je možné stlačením tlačidla&amp;nbsp;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Button_Question.png"&gt;, ktoré sa nachádza vedľa kolónky &lt;I&gt;IČ DPH&lt;/I&gt;. Ďalšie informácie o overení &lt;EM&gt;IČ DPH&lt;/EM&gt; získate v téme&amp;nbsp;&lt;A href="ab574902-6abb-4c2c-b0a5-af9a2f62b7f4"&gt;Automatické overenie IČ DPH na internete&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/BasicInformation/ProgramControls/OvladanieTabulkyZaznamov/ProgramControl_HlavickaDokladu.gif"&gt;&lt;/P&gt;
+&lt;H2&gt;&lt;SPAN style="FONT-SIZE: 100%"&gt;Obsah dokladu&lt;/SPAN&gt;&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Obsah dokladu je&amp;nbsp;rôzny pri rôznych&amp;nbsp;druhoch dokladov. Obsah dokladu zobrazený na obrázku je dostupný v evidencii&amp;nbsp;&lt;A href="5c21adcc-87c8-44e7-981d-02902635693d"&gt;Kniha pohľadávok&lt;/A&gt;. Obsah dokladu zobrazuje položky dokladu, ktoré je možné pridať pomocou tlačidla &lt;EM&gt;Nový&lt;/EM&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/BasicInformation/ProgramControls/OvladanieTabulkyZaznamov/ProgramControl_Obsah_dokladu.gif"&gt;&lt;/P&gt;
+&lt;H3&gt;Položky dokladu&lt;/H3&gt;
+&lt;UL&gt;
+&lt;LI&gt;V závislosti od druhu dokladu umožňuje vybrať položky zo &lt;A href="1a33ab0b-2df7-4dc2-962b-8a3319c16831"&gt;skladových kariet&lt;/A&gt; alebo neskladové položky zadané ako text bez prepojenia na skladovú evidenciu (začiarkavacie políčko &lt;EM&gt;Položky zo skladu&lt;/EM&gt;). 
+&lt;LI&gt;Položky dokladu je možné vyberať z viacerých skladov (faktúry, objednávky) alebo len z konkrétneho skladu (príjemky, výdajky). 
+&lt;LI&gt;Položky na doklade je možné zoradiť pomocou&amp;nbsp;&lt;A href="38489850-ab82-41b6-b258-3fa613ed5861"&gt;panela na zmenu poradia položiek zoznamu&lt;/A&gt; (modrých šípok). 
+&lt;LI&gt;V&amp;nbsp;nastaveniach je možné zvoliť, pri akom minimálnom počte položiek na doklade sa bude zobrazovať &lt;EM&gt;Panel&amp;nbsp;na rýchle hľadanie&lt;/EM&gt; (ponuka &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="5a6e5663-262e-4ff0-9741-1569385d11e4"&gt;oddiel Firma, Všeobecné&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt; záložka &lt;EM&gt;Ostatné&lt;/EM&gt;). 
+&lt;LI&gt;Na&amp;nbsp;zrýchlenie pridávania viacerých položiek na doklad je možné zmeniť funkcionalitu tlačidla &lt;I&gt;OK&lt;/I&gt;, ktoré slúži na potvrdenie položky pridávanej na doklad. Funkcia &lt;I&gt;Uložiť a pridať ďalší&lt;/I&gt; po stlačení tlačidla &lt;I&gt;OK&lt;/I&gt; pridá položku na doklad, pričom zoznam skladových kariet zostane otvorený&amp;nbsp;na výber ďalšej položky - nie je potrebné znovu stláčať tlačidlo &lt;I&gt;Nový&lt;/I&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/BasicInformation/ProgramControls/ProgramControls_Variabilny_OK.gif"&gt;&lt;/P&gt;
+&lt;H3&gt;Text pred položkami&lt;/H3&gt;
+&lt;UL&gt;
+&lt;LI&gt;Umožňuje zadať text, ktorý sa bude tlačiť medzi hlavičkou a položkami dokladu. Text je možné formátovať alebo zadať priamo v&amp;nbsp;kóde HTML. Ten je možné zadať a upravovať, ak je aktívne tlačidlo &lt;EM&gt;Kód&lt;/EM&gt; na pravej strane nástrojovej lišty. Jednotlivé texty je možné uložiť a znova pridať do iného dokladu pomocou tlačidla &lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_ListButton.png"&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H3&gt;Spodný text&lt;/H3&gt;
+&lt;UL&gt;
+&lt;LI&gt;Umožňuje zadať text, ktorý sa bude tlačiť pod rekapituláciou dokladu - napr. poďakovanie alebo upozornenie na penále. Text je možné formátovať alebo zadať priamo v&amp;nbsp;kóde HTML. Ten je možné zadať a upravovať, ak je aktívne tlačidlo &lt;EM&gt;Kód&lt;/EM&gt; na pravej strane nástrojovej lišty. Jednotlivé texty je možné uložiť a znova pridať do iného dokladu pomocou tlačidla&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_ListButton.png"&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H3&gt;Doprava&lt;/H3&gt;
+&lt;UL&gt;
+&lt;LI&gt;Umožňuje zadať spôsob dopravy, miesto nakládky a vykládky.&amp;nbsp;Tieto informácie sa tlačia na tlačových výstupoch &lt;EM&gt;Dodací list&lt;/EM&gt; a pod. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Doplnkové údaje&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Doplnkové údaje predstavujú&amp;nbsp;predovšetkým údaje o účtovaní, meno pracovníka, ktorý doklad vystavil, údaje o &lt;A href="f68687b5-0939-447b-9f8e-37c883676f1e"&gt;členení&lt;/A&gt;. 
+&lt;LI&gt;Textové pole &lt;I&gt;Poznámka&lt;/I&gt; umožňuje evidovať krátky text k dokladu. Podľa poznámky je možné &lt;A href="1ea156c6-edd0-46e0-ab65-7f41af30e672"&gt;triediť a filtrovať&lt;/A&gt; záznamy v nadradenej knihe (napr. &lt;I&gt;Kniha pohľadávok&lt;/I&gt;). 
+&lt;LI&gt;Formuláre dokladov &lt;I&gt;Pohľadávka, Záväzok, Príjemka, Výdajka&lt;/I&gt; umožňujú skryť a následne zobraziť doplnkové údaje. Takýmto spôsobom je možné zmenšiť celý formulár tak, aby ho bolo možné zobraziť aj&amp;nbsp;v mobilných zariadeniach s menším rozlíšením displeja (tablety, netbooky). Skrytie údajov pod položkami&amp;nbsp;zároveň umožní zobraziť na displeji viac položiek dokladu. &lt;/LI&gt;&lt;/UL&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/BasicInformation/ProgramControls/OvladanieTabulkyZaznamov/ProgramControl_Doklad_DoplnInfo.gif"&gt;&lt;/P&gt;
+&lt;H2&gt;Rekapitulácia DPH&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Pomocou tlačidla&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_Button_Tree.png"&gt;&amp;nbsp;je možné meniť DPH medzi aktuálnou a pôvodnou sadzbou (viac v&amp;nbsp;téme&amp;nbsp;&lt;A href="3259200c-95c0-4632-adfb-62dafae5c955"&gt;Tvorba dokladov po zmene sadzby DPH&lt;/A&gt;). 
+&lt;LI&gt;Program umožňuje aj úpravy celkovej ceny dokladu. Uvedenú možnosť je potrebné povoliť používateľovi v &lt;A href="834e9546-a56b-476f-9028-ef4c24a82345"&gt;právach používateľov&lt;/A&gt;. 
+&lt;LI&gt;Na vystavenej faktúre sa DPH vypočítava jednotlivo pri každej&amp;nbsp;položke dokladu. Vypočítaná daň z tejto položky sa následne zaokrúhli. V rekapitulácii súm tohto dokladu sa daň&amp;nbsp;následne uvádza ako súčet vypočítaných a zaokrúhlených daní za jednotlivé položky. Bližšie informácie o výpočte DPH nájdete v téme &lt;A href="52df1f6d-0c85-4a3a-8ae8-dd57284545fc"&gt;Výpočet súm na doklade&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/BasicInformation/ProgramControls/OvladanieTabulkyZaznamov/ProgramControl_Doklad_rekapitulacia.gif"&gt;&lt;/P&gt;
+&lt;H2&gt;Zóna udalostí&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Zóna udalostí v systéme OBERON predstavuje osobitnú sekciu (informačný panel)&amp;nbsp;vo vybraných dokladových evidenciách (ale aj&amp;nbsp;vo&amp;nbsp;formulári &lt;EM&gt;Pokladnica OBERON&lt;/EM&gt;&amp;nbsp;atď.) oddelenú rozdeľovacou lištou. Slúži na zobrazenie rôznych informácií (o použitej cenovej hladine, navýšení, poklese množstva na skladovej karte na zápornú hodnotu&amp;nbsp;atď.) a&amp;nbsp;upozornení (napr. na nekorektnú súčasnú platnosť viacerých&amp;nbsp;&lt;A href="34f91c11-1a5d-4773-ac4e-48ad2fc859d3"&gt;pravidiel rozšírenej cenotvorby&lt;/A&gt; s rovnakou prioritou,&amp;nbsp;na neuhradené pohľadávky daného odberateľa pri tvorbe dokladu typu faktúra, výdajka&amp;nbsp;a pod.). 
+&lt;LI&gt;Zónu udalostí je možné v priebehu používania skryť a opätovne zobraziť pomocou rozdeľovacej lišty (stlačením ovládacieho tlačidla s trojuholníkom). &lt;/LI&gt;&lt;/UL&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/BasicInformation/ProgramControls/OvladanieTabulkyZaznamov/ProgramControl_Button_EventsZone.PNG"&gt;&lt;/P&gt;
+&lt;H2&gt;Dostupné možnosti&lt;/H2&gt;
+&lt;P&gt;Ďalšie možnosti práce s dokladmi&amp;nbsp;sú dostupné&amp;nbsp;po stlačení tlačidla &lt;EM&gt;Možnosti&lt;/EM&gt;.&lt;/P&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Zľava na položku F6&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Umožňuje zadať výšku zľavy v percentách alebo v&amp;nbsp;€ na vybranú (aktuálnu) položku.&amp;nbsp;&lt;A href="225638ed-22f6-4ac4-9085-6d77c64925db"&gt;Používateľ&lt;/A&gt; môže zadať zľavu len do takej výšky, akú má nastavenú vo&amp;nbsp;&lt;A href="12e7a96f-bc40-4359-bc7a-213d74a785d4"&gt;formulári Používateľ&lt;/A&gt;, záložka &lt;EM&gt;Iné práva&lt;/EM&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Zľava na doklad F7&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Umožňuje zadať výšku zľavy v percentách alebo v&amp;nbsp;€ na celý doklad.&amp;nbsp;&lt;A href="225638ed-22f6-4ac4-9085-6d77c64925db"&gt;Používateľ&lt;/A&gt; môže zadať zľavu len do takej výšky, akú má nastavenú vo&amp;nbsp;&lt;A href="12e7a96f-bc40-4359-bc7a-213d74a785d4"&gt;formulári Používateľ&lt;/A&gt;, záložka &lt;EM&gt;Iné práva&lt;/EM&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Precenenie dokladu&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Otvorí&amp;nbsp;&lt;A href="f5ab173a-3525-4357-ad3d-9b6ad3d206f1"&gt;sprievodcu Precenenie dokladu&lt;/A&gt;, ktorý umožňuje preceniť celkovú sumu dokladu, avšak iným spôsobom ako použitím bežnej zľavy (zľava = 0 %). Funkcia umožňuje celkovú sumu dokladu preceniť &lt;EM&gt;o&amp;nbsp;percentá, o&amp;nbsp;sumu, upraviť zľavu&amp;nbsp;&lt;/EM&gt;a &lt;EM&gt;nepreceniť, len vynulovať zľavu&lt;/EM&gt; na tých položkách, na ktorých je zadaná, pričom celková cena dokladu zostane zachovaná. Pri zadaní hodnoty precenenia o&amp;nbsp;percento alebo o&amp;nbsp;sumu s kladným znamienkom (+) sa suma dokladu zvýši a pri zadaní záporného znamienka (-) sa suma zníži (zľava).&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Precenenie dokladu (zmena ceny)&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Otvorí&amp;nbsp;&lt;A href="f5ab173a-3525-4357-ad3d-9b6ad3d206f1"&gt;sprievodcu Precenenie dokladu (zmena ceny)&lt;/A&gt;, ktorý umožňuje preceniť celkovú sumu dokladu, avšak iným spôsobom ako použitím bežnej zľavy (zľava = 0 %), pričom sa suma dokladu precení podľa cien uvedených na skladových kartách. Funkcia umožňuje&amp;nbsp;preceniť celkovú sumu dokladu zadaním&amp;nbsp;konkrétneho percenta navýšenia z&amp;nbsp;obstarávacej alebo poslednej nákupnej ceny, prípadne podľa inej cenovej hladiny, pričom môže zohľadniť aj&amp;nbsp;&lt;A href="34f91c11-1a5d-4773-ac4e-48ad2fc859d3"&gt;pravidlá rozšírenej cenotvorby&lt;/A&gt;. Tento spôsob precenenia zohľadňuje&amp;nbsp;len skladové položky dokladu, nie neskladové položky.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Doklad - podrobnosti o výnose&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Zobrazí podrobné informácie o výnose ako výnos v absolútnej hodnote alebo percentách, maržu, zľavy. Ďalšie informácie získate v téme &lt;A href="219d1e12-dc75-4817-a237-5369100b0d11"&gt;&lt;/A&gt;&lt;A href="219d1e12-dc75-4817-a237-5369100b0d11"&gt;Zistenie výnosu&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Zobraziť hmotnosť položiek F9&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;V informačnom okne zobrazí celkovú hmotnosť položiek&amp;nbsp;v&amp;nbsp;doklade. Hmotnosť položiek musí byť zadaná na&amp;nbsp;&lt;A href="1a33ab0b-2df7-4dc2-962b-8a3319c16831"&gt;skladových kartách&lt;/A&gt;&amp;nbsp;(vo&amp;nbsp;&lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;formulári Skladová karta&lt;/A&gt;, záložka &lt;EM&gt;Doplň. údaje - Hmotnosť mernej jednotky&lt;/EM&gt;).&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Vložiť položky z iného dokladu (záznamu)&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Umožňuje pridať položky z&amp;nbsp;už existujúceho dokladu (záznamu) -&amp;nbsp;&lt;A href="0be61fcc-a85b-4572-876d-2171a5cb7c29"&gt;výdajky&lt;/A&gt;,&amp;nbsp;&lt;A href="48505e8d-5f28-4063-882b-ca07f33670ef"&gt;objednávky prijatej&lt;/A&gt;,&amp;nbsp;faktúry, z&amp;nbsp;&lt;A href="ffa5a889-7bfe-4165-ba83-15263eb77358"&gt;hotelového účtu&lt;/A&gt;, z&amp;nbsp;&lt;A href="945b74ea-31f8-44e7-baef-ffb5fc136b05"&gt;reklamácie/servisu&lt;/A&gt;, z&amp;nbsp;&lt;A href="a2807e3b-d8b1-4d61-a3b9-63df2783bfda"&gt;úlohy/udalosti&lt;/A&gt;, z&amp;nbsp;&lt;A href="4a3fd53c-a95a-4850-8adb-17666063e88d"&gt;poskytovanej služby&lt;/A&gt;. Do faktúry je v&amp;nbsp;jednom kroku možné vložiť aj viacej označených (kláves &lt;I&gt;Insert&lt;/I&gt;) dokladov (záznamov).&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Hromadne vymazať položky z dokladu&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Umožňuje vymazať všetky položky z dokladu. Funkciu je vhodné využiť v&amp;nbsp;prípade, že nie je možné vymazať celý doklad.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Šablóny&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Šablóny dokladu sú&amp;nbsp;prístupné&amp;nbsp;po stlačení tlačidla &lt;EM&gt;Šablóny.&amp;nbsp;&lt;/EM&gt;Pomocou šablóny je možné rýchlo nastaviť predvolené polia (parametre) dokladu. Viac informácií&amp;nbsp;získate v téme &lt;A href="db475de1-533d-46c4-a50a-4a57b0cf3573"&gt;Šablóny&lt;/A&gt;&lt;EM&gt;.&lt;/EM&gt; &lt;/LI&gt;&lt;/UL&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/BasicInformation/ProgramControls/ProgramControls_sablony_ponuka.gif"&gt;&lt;/P&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt; 
+&lt;P&gt;Druhy pohybu, príjmu aj výdaja si môže stanoviť&amp;nbsp;používateľ sám. Ak pri tvorbe &lt;I&gt;Výdajky&lt;/I&gt; nemáte k&amp;nbsp;dispozícii požadovaný druh pohybu, prerušte tvorbu výdajky a doplňte potrebný pohyb vo formulári &lt;A href="a7e1c27b-e28f-4ae9-b643-16cc1b478212"&gt;Druhy pohybov&lt;/A&gt;.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Bližšie informácie o použitých klávesoch a klávesových skratkách na ovládanie knihy (tabuľky) získate v téme &lt;A href="6a6f2a40-680f-4f3b-906a-5030ac5cd33d"&gt;Klávesové skratky&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="746dc6e0-2186-4e56-ac9a-ddc1e6ce19d6" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="1ea156c6-edd0-46e0-ab65-7f41af30e672">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="76982f76-cbcc-43d4-af61-ffa4fc69e7f7" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="54bcf6c3-515f-4dcb-a3eb-0bf905629a16">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="3d2b4721-3db6-4452-a585-136ae677c3a5">
+      <Keyword m="2021-09-09T13:25:40.0163077Z">Doklad - štruktúra a možnosti (všeobecné informácie)</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="efc7362c-06f6-4f73-a8b2-f78e70396e42">
+      <Keyword m="2021-06-16T12:11:17.036071Z">Zóna udalostí</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="acd57291-0484-4774-b701-3221fb6ad71a">
+      <Keyword m="2021-09-10T08:21:42.3568625Z">Štrúktúra dokladu</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="3aaf88a9-9429-4f56-ba7a-6e16a3683ff3">
+      <Keyword m="2021-09-10T08:21:47.0644953Z">Možnosti dokladu</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="c2259ac4-56fc-4fb8-a2bf-0ac83a5139b4">
+      <Keyword m="2021-09-10T08:21:55.1741277Z">Hlavička dokladu</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="e2e78ff2-f8a7-4861-9aca-0bff5feb49f8">
+      <Keyword m="2021-09-10T08:22:16.2338655Z">Obsah dokladu</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="ec825c7b-7a5c-480b-866d-1cc5cf941673">
+      <Keyword m="2021-09-10T08:22:23.0033079Z">Položky dokladu</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="7b5a9caf-36bc-4365-bf6a-96db27339907">
+      <Keyword m="2022-12-14T13:52:50.2913031Z">Horná časť formulára dokladu</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

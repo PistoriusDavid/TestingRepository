@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="b1b0dcee-286e-4564-a6a6-597d54e2e13a" Status="Complete" CreatedOn="2014-10-10T10:55:42.1334583Z" ModifiedOn="2023-10-30T07:12:00.7860725Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="30550" Name="Form_AccDouble_MassAccBill" BuildFlags="">
+  <Title m="2021-07-14T08:47:26.1805032Z">Sprievodca Hromadné účtovanie dokladov</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-10-16T10:47:28.309631Z">&lt;P&gt;&lt;SPAN&gt;Sprievodca&amp;nbsp;&lt;EM&gt;Hromadné účtovanie dokladov&lt;/EM&gt; umožňuje vykonávať&amp;nbsp;&lt;A href="41513109-f711-4de5-b494-67671f203dca"&gt;hromadné účtovanie dokladov&lt;/A&gt;&amp;nbsp;- funkciu systému OBERON, ktorá slúži na &lt;STRONG&gt;automatické hromadné&amp;nbsp;zaúčtovanie dokladov do účtovného alebo peňažného&amp;nbsp;denníka&lt;/STRONG&gt;. &lt;SPAN&gt;Sprievodca je&amp;nbsp;dostupný z&amp;nbsp;programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;, ponuka&amp;nbsp;&lt;EM&gt;Účtovníctvo&lt;/EM&gt;,&amp;nbsp;&lt;A href="41513109-f711-4de5-b494-67671f203dca"&gt;Hromadné účtovanie dokladov&lt;/A&gt;, tlačidlo&amp;nbsp;&lt;EM&gt;Nový&lt;/EM&gt;.&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Pri hromadnom účtovaní dokladov ide n&lt;SPAN&gt;ajčastejšie o hromadné zaúčtovanie konkrétnej evidencie za zvolené obdobie (&lt;A href="5c21adcc-87c8-44e7-981d-02902635693d"&gt;Kniha pohľadávok&lt;/A&gt;,&amp;nbsp;&lt;A href="55028746-c263-4d92-a615-502222e8d53b"&gt;Kniha záväzkov&lt;/A&gt; atď.).&amp;nbsp;Bankové výpisy (napr. úhrady faktúr)&amp;nbsp;sa účtujú v&amp;nbsp;osobitnej&amp;nbsp;evidencii&amp;nbsp;&lt;A href="02bbf54b-086f-4641-8c33-4dd461e56fb4" style="auto-update-caption: true"&gt;Spracovanie bankových výpisov&lt;/A&gt;.&lt;/SPAN&gt; 
+&lt;LI&gt;&lt;SPAN&gt;V sprievodcovi je možné začiarknuť možnosť &lt;EM&gt;Pred samotným zaúčtovaním vykonať test zaúčtovania&lt;/EM&gt;. V tom prípade program najskôr&amp;nbsp;vykoná test&amp;nbsp;účtovania a až následne sa uskutoční samotné účtovanie. V&amp;nbsp;rámci testu sa skontrolujú všetky zdrojové záznamy (doklady), ktoré sú predmetom účtovania, či spĺňajú všetky potrebné podmienky na korektné zaúčtovanie.&lt;/SPAN&gt; 
+&lt;LI&gt;&lt;SPAN&gt;V&amp;nbsp;prípade potreby je možné dané hromadné zaúčtovanie zrušiť (tlačidlo &lt;EM&gt;Možnosti -&lt;/EM&gt; &lt;EM&gt;Zrušiť hromadné&amp;nbsp;zaúčtovanie&lt;/EM&gt;).&amp;nbsp;Po zrušení zaúčtovania sa &lt;STRONG&gt;vymažú záznamy v účtovnom/peňažnom denníku&lt;/STRONG&gt;, v knihe&amp;nbsp;&lt;A href="41513109-f711-4de5-b494-67671f203dca"&gt;Hromadné účtovanie dokladov&lt;/A&gt;&amp;nbsp;však daný záznam o hromadnom zaúčtovaní ostatne zachovaný (so stavom zaúčtovania &lt;EM&gt;Nezaúčtované&lt;/EM&gt;). V prípade potreby&amp;nbsp;tak bude možné parametre daného účtovania upraviť (pomocou&amp;nbsp;&lt;A href="ddc4243d-b368-46d6-b86f-529790debae3"&gt;formulára Hromadné účtovanie dokladov&lt;/A&gt;&amp;nbsp;po stlačení tlačidla &lt;EM&gt;Oprava&lt;/EM&gt;)&amp;nbsp;a&amp;nbsp;účtovanie vykonať nanovo (tlačidlo &lt;EM&gt;Možnosti -&lt;/EM&gt; &lt;EM&gt;Hromadne zaúčtovať&lt;/EM&gt;). Aj v tomto prípade sa otvorí sprievodca &lt;EM&gt;Hromadné účtovanie dokladov&lt;/EM&gt;.&lt;/SPAN&gt; &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Postup hromadného zaúčtovania dokladov&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;V evidencii&amp;nbsp;&lt;A href="41513109-f711-4de5-b494-67671f203dca"&gt;hromadné účtovanie dokladov&lt;/A&gt;&amp;nbsp;stlačte tlačidlo &lt;EM&gt;Nový&lt;/EM&gt;. 
+&lt;LI&gt;Otvorí sa sprievodca, v ktorom v&amp;nbsp;prvom kroku zvoľte evidenciu a obdobie, za ktoré chcete vykonať hromadné zaúčtovanie. 
+&lt;LI&gt;V druhom kroku zadajte, prípadne upravte údaje o zázname hromadného účtovania (dátum a čas, pomenovanie). 
+&lt;LI&gt;Po stlačení tlačidla &lt;EM&gt;Ďalej&lt;/EM&gt; sa do evidencie&amp;nbsp;&lt;A href="41513109-f711-4de5-b494-67671f203dca"&gt;Hromadné účtovanie dokladov&lt;/A&gt;&amp;nbsp;uloží záznam. Tu bude dostupná aj správa o priebehu zaúčtovania, ako aj možnosť dané hromadné zaúčtovanie zrušiť. 
+&lt;LI&gt;Na otestovanie korektnosti zaúčtovania začiarknite&amp;nbsp;pole &lt;EM&gt;Pred samotným zaúčtovaním vykonať test zaúčtovania&lt;/EM&gt;. 
+&lt;LI&gt;Po stlačení tlačidla &lt;EM&gt;Dokončiť&lt;/EM&gt; sa vykoná zaúčtovanie a&amp;nbsp;v&amp;nbsp;účtovnom/peňažnom denníku sa automaticky vytvoria záznamy podľa zvolených kritérií účtovania. &lt;/LI&gt;&lt;/OL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;V&amp;nbsp;prípade, že hromadné účtovanie vykonávate po zrušení zaúčtovania, vyberte príslušný záznam, stlačte tlačidlo &lt;EM&gt;Možnosti&lt;/EM&gt; (prípadne pravé tlačidlo myši) a zvoľte možnosť &lt;EM&gt;Hromadne zaúčtovať&lt;/EM&gt;. Ďalej postupujte od bodu 5.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="42d9bf5a-e3e4-48f5-a1b7-6d09e0f49a0b" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="41513109-f711-4de5-b494-67671f203dca">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="770b43d0-520a-4642-96eb-e9c17f818560" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="ddc4243d-b368-46d6-b86f-529790debae3">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="56b972c1-5ae1-4115-b250-bd86fb0cc84e">
+      <Keyword m="2021-07-14T09:15:06.0251807Z">Hromadné účtovanie dokladov - sprievodca</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

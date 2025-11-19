@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="4c0cffe2-a77b-44ea-bb3a-39476f21e420" Status="Complete" CreatedOn="2016-08-12T12:02:12.8291309Z" ModifiedOn="2023-08-16T09:03:59.6901674Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="70730" Name="Menu_Wages_MonthlyReportWages" BuildFlags="">
+  <Title m="2021-03-19T12:37:20.1688615Z">Mesačná uzávierka miezd</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-08-16T09:03:59.6901674Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;je venovaná&amp;nbsp;položke&amp;nbsp;&lt;EM&gt;Mesačná uzávierka miezd&lt;/EM&gt;&amp;nbsp;v&amp;nbsp;ponuke&amp;nbsp;&lt;EM&gt;Mzdy,&amp;nbsp;Obdobie&lt;/EM&gt;&amp;nbsp;programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Výberom položky sa otvorí sprievodca&amp;nbsp;&lt;EM&gt;Mesačná uzávierka spracovaných&amp;nbsp;miezd&lt;/EM&gt;, pomocou ktorého je možné v&amp;nbsp;systéme OBERON po kompletnom spracovaní miezd za daný mesiac&amp;nbsp;&lt;STRONG&gt;vykonať mesačnú uzávierku&amp;nbsp;miezd.&amp;nbsp;Uzávierkou sa mesiac uzatvorí &lt;/STRONG&gt;(mzdy už nebude možné v&amp;nbsp;aktuálnom mesiaci&amp;nbsp;ďalej spracovávať), &lt;STRONG&gt;vygenerujú sa&amp;nbsp;&lt;/STRONG&gt;&lt;A href="1288dcf2-9f76-4fc6-941a-1d03361bf937"&gt;príkazy na úhradu&lt;/A&gt; (aj so súbormi pre&amp;nbsp;&lt;A href="ef8ec592-c1af-45af-92b7-8734ce46e0f5"&gt;internetbanking&lt;/A&gt;) a&amp;nbsp;vytvoria sa&amp;nbsp;&lt;STRONG&gt;potrebné tlačové výstupy a&amp;nbsp;exporty údajov pre všetky dotknuté inštitúcie &lt;/STRONG&gt;(finančnú správu&lt;EM&gt;,&amp;nbsp;Sociálnu poisťovňu &lt;/EM&gt;a zdravotné poisťovne). Uzávierku je možné v&amp;nbsp;prípade potreby aj zrušiť, upraviť mzdu a uzávierku opätovne vykonať. 
+&lt;LI&gt;Pomocou uzávierky miezd sa generujú tieto výkazy&amp;nbsp;na&amp;nbsp;elektronické zasielanie údajov: 
+&lt;UL&gt;
+&lt;LI&gt;Finančná správa - mesačný výkaz, 
+&lt;LI&gt;Sociálne poistenie - mesačný výkaz, 
+&lt;LI&gt;Zdravotné poistenie - mesačný výkaz, 
+&lt;LI&gt;Hromadný príkaz na úhradu do banky. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Údaje o spracovaných mzdách a rekapitulácie (tlačové výstupy), exporty údajov do všetkých inštitúcií, hromadný príkaz&amp;nbsp;na úhradu a pod.,&amp;nbsp;&lt;STRONG&gt;sa automaticky vygenerujú do jedného adresára&lt;/STRONG&gt; - v sprievodcovi je možné upraviť jeho umiestnenie. Štandardne je to adresár &lt;STRONG&gt;C:\OBERON\_CompanyDocuments\Názov firmy\Rok\Mzdy\Mesiac&lt;/STRONG&gt;. 
+&lt;LI&gt;Všetky potrebné &lt;STRONG&gt;tlačové výstupy&lt;/STRONG&gt; sa exportujú do daného adresára (vo formáte PDF). V prípade potreby&amp;nbsp;ich možno hneď aj hromadne vytlačiť. Vytlačenie tlačových výstupov je možné aj kedykoľvek neskôr. 
+&lt;LI&gt;&lt;EM&gt;Mesačná uzávierka miezd&lt;/EM&gt; generuje &lt;STRONG&gt;hromadné príkazy&amp;nbsp;na úhradu&lt;/STRONG&gt; v evidencii&amp;nbsp;&lt;A href="1288dcf2-9f76-4fc6-941a-1d03361bf937"&gt;Príkazy&amp;nbsp;na úhradu&lt;/A&gt; - tu je možné&amp;nbsp;s vytvorenými príkazmi&amp;nbsp;na úhradu ďalej pracovať a v&amp;nbsp;prípade potreby ich aj upravovať. Sprievodca umožňuje &lt;STRONG&gt;anonymizovať osobné údaje pracovníkov&lt;/STRONG&gt;, aby sa v hromadnom&amp;nbsp;príkaze na úhradu nezobrazovali. 
+&lt;LI&gt;Po mesačnej uzávierke miezd je možné &lt;STRONG&gt;vykonať zaúčtovanie miezd&lt;/STRONG&gt; do&amp;nbsp;&lt;A href="d8c9bfc8-92d1-4471-8909-e5f8ce602d6c"&gt;účtovného denníka&lt;/A&gt; (platí len pre podvojné účtovníctvo), viac informácií o tomto tzv. priamom&amp;nbsp;zaúčtovaní&amp;nbsp;je možné získať v&amp;nbsp;téme&amp;nbsp;&lt;A href="354e86f6-e098-451f-a4d6-2ecf73bce5ee"&gt;Zaúčtovanie miezd do účtovného denníka&lt;/A&gt;. 
+&lt;LI&gt;Sprievodca umožňuje nastaviť generovanie podkladov pre zaúčtovanie do&amp;nbsp;&lt;A href="d8c9bfc8-92d1-4471-8909-e5f8ce602d6c"&gt;účtovného denníka&lt;/A&gt; (voliteľné tlačové výstupy a súbory)&amp;nbsp;aj pre prípad, že &lt;STRONG&gt;sa spracovanie miezd vykonáva na inom počítači (v inej databáze)&amp;nbsp;ako spracovanie účtovníctva&lt;/STRONG&gt; -&amp;nbsp;spravidla pri externom spracovávaní miezd. Vtedy sa okrem tlačového výstupu automaticky vygeneruje XML súbor (napr. &lt;EM&gt;Uctovanie miezd 07-2023.xml&lt;/EM&gt;), v ktorom sú&amp;nbsp;uložené mzdové zložky&amp;nbsp;na zaúčtovanie. Viac informácií o&amp;nbsp;zaúčtovaní pomocou súboru XML získate v&amp;nbsp;téme &lt;A href="354e86f6-e098-451f-a4d6-2ecf73bce5ee"&gt;Zaúčtovanie miezd do účtovného denníka&lt;/A&gt;. 
+&lt;LI&gt;Po vykonaní mesačnej uzávierky miezd bude možné &lt;STRONG&gt;hromadne&amp;nbsp;odoslať pracovníkom výplatné pásky e-mailom&lt;/STRONG&gt;. Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="462dcabe-b3eb-4865-8bee-ade16b5faaec" style="auto-update-caption: true"&gt;Zasielanie výplatných pások e-mailom&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Zrušenie mesačnej uzávierky miezd&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Po vykonaní uzávierky už &lt;STRONG&gt;nie je&amp;nbsp;možné v&amp;nbsp;aktuálnom mesiaci mzdy ďalej spracovávať&lt;/STRONG&gt;. V prípade potreby vykonania dodatočných zmien v spracovaných mzdách &lt;STRONG&gt;je však možné túto uzávierku&lt;/STRONG&gt; &lt;STRONG&gt;zrušiť&lt;/STRONG&gt;. Storno uzávierky je možné vykonať z rovnakej&amp;nbsp;ponuky &lt;EM&gt;Mzdy&lt;/EM&gt;, &lt;EM&gt;Obdobie&lt;/EM&gt;, &lt;EM&gt;Mesačná uzávierka miezd&lt;/EM&gt;. 
+&lt;LI&gt;Uzávierku miezd &lt;STRONG&gt;je možné zrušiť aj vtedy,&amp;nbsp;keď sú už mzdy zaúčtované do účtovného denníka&lt;/STRONG&gt;. Dôvodom je fakt, že v&amp;nbsp;spracovaných mzdách&amp;nbsp;je možné upraviť taký&amp;nbsp;údaj, ktorý nemá vplyv na vyplatené mzdy, napr. údaj o zostatku dovolenky, počte dní poistenia a pod. Ak by sa však zmenila napr. hrubá mzda, je&amp;nbsp;potrebné upraviť účtovanie manuálne, prípadne&amp;nbsp;účtovanie zrušiť a opätovne vykonať. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt; 
+&lt;P&gt;Pred prvým vytvorením uzávierky miezd je potrebné skontrolovať, či sú vykonané všetky nastavenia uvedené&amp;nbsp;v&amp;nbsp;téme&amp;nbsp;&lt;A href="79af9a91-49b8-4a9e-8e2c-2d664c8325ab" style="auto-update-caption: true"&gt;Prvé kroky&lt;/A&gt;.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H5&gt;Obrázok č. 1: Sprievodca &lt;EM&gt;Mesačná uzávierka spracovaných miezd&lt;/EM&gt;&lt;/H5&gt;
+&lt;P&gt;&lt;IMG style="BORDER-TOP: black 1px solid; BORDER-RIGHT: grey 1px solid; BORDER-BOTTOM: grey 1px solid; BORDER-LEFT: grey 1px solid" border=0 src="images/Forms/Wages/Form_Wages_MonthlyDeadlineWages.PNG"&gt;&amp;nbsp;&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="460cfdff-0b2e-4dd8-87c0-cab4e28b8e4f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="79af9a91-49b8-4a9e-8e2c-2d664c8325ab">
+      <Title m="2023-07-20T11:40:24.1287663Z">Mzdy a dochádzka - prvé kroky</Title>
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="9195c179-f9d4-4f21-9066-d645e450ff20" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="6923b0c5-166b-4e3b-a53b-71f62b53b2fc">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="5e689635-491b-45b0-af08-6a15a7efeda9" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1e1da5f2-5abd-48a4-bf82-4f31c614ac45">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="00164fd3-bdac-4adf-9f87-59e425e0fe9d" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1288dcf2-9f76-4fc6-941a-1d03361bf937">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="10ee6e59-6c58-409f-8b62-067a23796125" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="81a7aa22-db03-4095-8a7c-3e7436fee8c6">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="fae1c7c5-cf6e-4471-9b81-0a58dd51da30" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="354e86f6-e098-451f-a4d6-2ecf73bce5ee">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="279f86bb-3533-40c5-ac50-b5800f076a70" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="bcaf2c4a-25ad-40c8-af4c-0ea15bf3105d">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="c703c4af-ac72-4dab-829e-d6698c9eda57" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="462dcabe-b3eb-4865-8bee-ade16b5faaec">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="0f3cfdc0-6b81-4dae-a049-0989fb0e513e">
+      <Keyword m="2016-08-31T11:21:13.0160498Z">Mesačná uzávierka spracovaných miezd</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="e7684baa-0854-47de-9c5c-11a12200d09e">
+      <Keyword m="2016-08-31T11:21:30.5517985Z">Uzávierka miezd</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="902da60c-2bce-4522-a350-f447d65ff4bd">
+      <Keyword m="2016-11-10T09:01:51.7107462Z">Storno uzávierky miezd</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="217815a7-6c0a-47a6-9c72-cb23abc27443">
+      <Keyword m="2017-02-02T07:11:00.3685375Z">Zrušenie uzávierky miezd</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

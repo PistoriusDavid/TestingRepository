@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="c1257826-a36d-42b9-9cfc-1d5259eba93c" Status="Complete" CreatedOn="2019-11-25T08:01:15.9372921Z" ModifiedOn="2024-12-30T08:00:11.9916904Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Device_CashRegister_EURO_50_On-Line_Install" BuildFlags="">
+  <Title m="2020-01-07T08:48:33.3254513Z">Pokladnica Euro-50i/o v režime on-line - inštalácia</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-12-30T08:00:11.9916904Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; popisuje &lt;STRONG&gt;inštaláciu registračnej pokladnice&lt;/STRONG&gt;&amp;nbsp;&lt;A href="1842a08e-25ff-465b-8e26-0803ca7282f7"&gt;Euro-50i/o&amp;nbsp;v režime on-line&lt;/A&gt; (počas predaja pripojená k počítaču).&lt;/P&gt;
+&lt;H2&gt;Pripojenie zariadenia&lt;/H2&gt;
+&lt;P&gt;Zariadenie sa napája pomocou sieťového adaptéra a pripája sa&amp;nbsp;k počítaču pomocou mini USB kábla.&amp;nbsp;&lt;/P&gt;
+&lt;H2&gt;Nastavenia pokladnice&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Pred samotnou inštaláciou je vhodné sa oboznámiť s&amp;nbsp;funkciami a možnosťami pokladnice pomocou &lt;EM&gt;Návodu na používanie&lt;/EM&gt;, ktorý je dodávaný spolu s&amp;nbsp;registračnou pokladnicou. Pomocou návodu nahrajte do zariadenia identifikačné a autentifikačné údaje a&amp;nbsp;vykonajte ostatné nastavenia komunikácie. 
+&lt;LI&gt;Keďže modul &lt;EM&gt;Skladová evidencia&lt;/EM&gt; systému OBERON môže pracovať s predajnými cenami zaokrúhlenými na iný počet desatinných miest ako je tomu v registračnej pokladnici, &lt;SPAN style="COLOR: rgb(255,0,0)"&gt;je potrebné tieto nastavenia zosúladiť&lt;/SPAN&gt; (v OBERON-e sa realizujú v ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="5a6e5663-262e-4ff0-9741-1569385d11e4"&gt;oddiel Firma, Všeobecné&lt;/A&gt;, záložka &lt;EM&gt;Systém&lt;/EM&gt;. V opačnom prípade hrozí nesprávny výpočet predajných cien spôsobený zaokrúhľovaním. 
+&lt;LI&gt;Zoradenie merných jednotiek v pokladnici musí byť zhodné s &lt;A href="6ddfac3e-e981-40ed-bbc3-9198f75f969a"&gt;číselníkom merných jednotiek&lt;/A&gt; v programe. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Nastavenia v OBERON-e&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;Pripojte registračnú pokladnicu pomocou&amp;nbsp;mini USB kábla&amp;nbsp;k&amp;nbsp;počítaču. Uistite sa, že máte nainštalovaný&amp;nbsp;&lt;A href="https://exalogic.sk/na-stiahnutie-oberon/euro-ovladac-pre-virtualny-com-port/" target=_blank&gt;EURO - ovládač pre virtuálny COM port&lt;/A&gt;. 
+&lt;LI&gt;Ak ešte nemáte v systéme OBERON vytvorenú (založenú) firmu, vytvorte ju&amp;nbsp;- bližšie informácie nájdete v téme &lt;A href="9a485893-6dd2-44e8-9740-a4cd7083a932" style="auto-update-caption: true"&gt;Vytvorenie účtovnej jednotky (databázy)&lt;/A&gt;. 
+&lt;LI&gt;Spustite program &lt;EM&gt;OBERON - Agenda firmy.&lt;/EM&gt; 
+&lt;LI&gt;Zvoľte ponuku &lt;EM&gt;Servis,&amp;nbsp;&lt;/EM&gt;&lt;A href="749ff4f1-eeb5-43f5-98d2-021399d8cec7"&gt;Zariadenia&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt; stlačte tlačidlo &lt;I&gt;Pridať.&lt;/I&gt; V&amp;nbsp;otvorenom formulári vyberte&amp;nbsp;typ zariadenia&amp;nbsp;&lt;I&gt;&lt;STRONG&gt;Fiškálne zariadenie&lt;/STRONG&gt;&lt;/I&gt;, zadajte názov pokladnice, vyberte model&amp;nbsp;&lt;EM&gt;&lt;STRONG&gt;Elcom Euro-50 On-Line (eKasa)&lt;/STRONG&gt;&lt;/EM&gt; a&amp;nbsp;zadajte (vyberte) &lt;STRONG&gt;názov počítača&lt;/STRONG&gt;, ku ktorému sa má zariadenie pripojiť, prípadne zadajte&amp;nbsp;ostatné údaje. Potom stlačte tlačidlo &lt;I&gt;Nastaviť zariadenie -&lt;/I&gt; otvorí sa&amp;nbsp;&lt;A href="06f5e819-cf70-4875-b3fd-eca80b19939b"&gt;formulár&lt;/A&gt;, v ktorom:&lt;BR&gt;- v záložke &lt;EM&gt;Komunikácia&lt;/EM&gt; vyberte správny komunikačný port. Na otestovanie komunikácie so zariadením stlačte tlačidlo &lt;EM&gt;Detegovať&lt;/EM&gt;;&lt;BR&gt;-&amp;nbsp;v&amp;nbsp;záložke &lt;EM&gt;Základné&lt;/EM&gt;&amp;nbsp;je možné vybrať tlačiareň na tlač nefiškálnych textov (rôznych súhrnných&amp;nbsp;obratov, mincoviek, náhradného paragónu pri nefunkčnosti fiškálnej tlačiarne a&amp;nbsp;pod.);&lt;BR&gt;-&amp;nbsp;v&amp;nbsp;záložke &lt;EM&gt;Nastavenia modulu&lt;/EM&gt; možno zadefinovať hlavičku pokladničného dokladu;&lt;BR&gt;-&amp;nbsp;v&amp;nbsp;záložke&amp;nbsp;&lt;EM&gt;Pokladnica OBERON&amp;nbsp;&lt;/EM&gt;nastavte parametre predaja a zobrazenia&amp;nbsp;&lt;A href="aec074f4-3e1c-4a1e-8a80-06fcecf51156"&gt;Pokladnice OBERON&lt;/A&gt;. Každú pokladnicu definovanú v&amp;nbsp;systéme OBERON&amp;nbsp;je potrebné priradiť k&amp;nbsp;určitému&amp;nbsp;&lt;A href="327921ae-e0fb-48da-b179-61714048b841"&gt;predajnému miestu&lt;/A&gt;. Ďalšie dôležité nastavenia sú&amp;nbsp;&lt;I&gt;Režim predaja&lt;/I&gt;, &lt;I&gt;Režim zobrazenia&lt;/I&gt;&amp;nbsp;a&amp;nbsp;&lt;I&gt;Vytváranie skladových pohybov&lt;/I&gt;. Viac informácií získate v téme&amp;nbsp;&lt;A href="bb0e1e82-e344-4bf0-834a-a294269f2e71" style="auto-update-caption: true"&gt;Formulár Pokladnica OBERON - nastavenia&lt;/A&gt;. 
+&lt;LI&gt;Nastavenia vykonané vo formulári &lt;EM&gt;Nastavenie&amp;nbsp;fiškálneho zariadenia Elcom Euro-50 On-Line (eKasa)&lt;/EM&gt; a&amp;nbsp;vo formulári &lt;EM&gt;Zariadenie&lt;/EM&gt;&amp;nbsp;potvrďte stlačením tlačidla &lt;STRONG&gt;&lt;EM&gt;OK&lt;/EM&gt;&lt;/STRONG&gt;. 
+&lt;LI&gt;Inštalácia registračnej pokladnice je ukončená. &lt;/LI&gt;&lt;/OL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Ďalšie informácie získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="06f5e819-cf70-4875-b3fd-eca80b19939b" style="auto-update-caption: true"&gt;Formulár Nastavenie zariadenia&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H5&gt;Obrázok č. 1: Nastavenie komunikácie s registračnou pokladnicou &lt;EM&gt;Euro-50i/o&lt;/EM&gt; v režime on-line&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/CashRegister/Form_CashRegister_Euro50_Settings.png"&gt;&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="3380acbf-009a-4efe-b3b6-4167ce5f3226" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="1842a08e-25ff-465b-8e26-0803ca7282f7">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="d1c572c5-2240-4fc4-89f0-972cd5ffcb95" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="a75ad602-f141-475d-afba-8d0f3dcf668a">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="4750ce62-908a-4afc-b3f9-6d883631026f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="749ff4f1-eeb5-43f5-98d2-021399d8cec7">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="9f03114f-427f-4e27-82e3-0253bbc911b9" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="06f5e819-cf70-4875-b3fd-eca80b19939b">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="b3bcd469-824b-438a-90a5-96e02736007c">
+      <Keyword m="2020-01-08T08:35:34.0864527Z">Euro-50/o v režime on-line - inštalácia</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="fa18be37-1f99-4d9d-ae86-5916a15650fa">
+      <Keyword m="2020-01-08T08:35:41.5198094Z">Euro-50i/o v režime on-line - inštalácia</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="49abfccc-1a2e-4ec9-a13f-a103b2de9c8b">
+      <Keyword m="2021-04-07T13:10:33.1003781Z">eKasa Euro-50 v režime on-line - inštalácia</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

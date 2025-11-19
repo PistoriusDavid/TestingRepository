@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="1491b978-c63c-4182-95f4-70eade92f4d5" Status="Complete" CreatedOn="2017-09-28T07:22:37.6141287Z" ModifiedOn="2023-08-22T12:10:00.0717522Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Wages_Start_Absence" BuildFlags="">
+  <Title m="2017-09-28T08:39:19.4535738Z">Ako zadať neprítomnosť v práci</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-08-22T12:10:00.0717522Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;postup, ako zadať pracovníkovi neprítomnosť&lt;/STRONG&gt; pri&amp;nbsp;&lt;A href="6923b0c5-166b-4e3b-a53b-71f62b53b2fc"&gt;tvorbe miezd&lt;/A&gt;&amp;nbsp;(čerpanie dovolenky, nemocenské, ošetrovanie člena rodiny, návšteva lekára atď.). Predpokladá sa, že daný pracovník je zaevidovaný v&amp;nbsp;knihe &lt;A href="8dd60281-9cc7-41fe-9dd2-2ad5c7ffe047"&gt;Pracovníci&lt;/A&gt; a má vytvorený pracovný pomer v&amp;nbsp;knihe &lt;A href="3fced304-5201-4497-bb58-104c1fd77990"&gt;Pracovné pomery pracovníkov&lt;/A&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Systém OBERON umožňuje zadať neprítomnosť v práci &lt;STRONG&gt;z troch rôznych miest&lt;/STRONG&gt; v programe: 
+&lt;UL&gt;
+&lt;LI&gt;pri úprave (spracovaní)&amp;nbsp;mzdy z ponuky &lt;EM&gt;Mzdy,&amp;nbsp;&lt;/EM&gt;&lt;A href="6923b0c5-166b-4e3b-a53b-71f62b53b2fc"&gt;Tvorba miezd&lt;/A&gt;, 
+&lt;LI&gt;pri evidovaní dochádzky z ponuky &lt;EM&gt;Mzdy,&lt;/EM&gt;&amp;nbsp;&lt;A href="ce9e15f9-7459-4a5c-8bad-db17ef7b59ea"&gt;Pracovný kalendár&lt;/A&gt;, 
+&lt;LI&gt;vo&amp;nbsp;&lt;A href="95a3b7e2-6135-4860-a655-5724b186b94c"&gt;formulári Pracovný pomer pracovníka&lt;/A&gt;, záložka &lt;EM&gt;Neprítomnosti&lt;/EM&gt;, &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Po zadaní neprítomnosti v&amp;nbsp;jednom z uvedených miest sa daná neprítomnosť &lt;STRONG&gt;bude zobrazovať aj na ostatných miestach&lt;/STRONG&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Postup zadania neprítomnosti pri úprave mzdy&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;V programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt; zvoľte ponuku &lt;EM&gt;Mzdy,&amp;nbsp;&lt;/EM&gt;&lt;A href="6923b0c5-166b-4e3b-a53b-71f62b53b2fc"&gt;Tvorba miezd&lt;/A&gt;, prípadne stlačte tlačidlo&amp;nbsp;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Button_Wages.png"&gt;&amp;nbsp;v nástrojovej lište OBERON-u.&amp;nbsp; 
+&lt;LI&gt;Vyberte (označte kurzorom) mzdu, ktorú chcete spracovať. V&amp;nbsp;dolnej časti formulára oddelenej&amp;nbsp;&lt;A href="38489850-ab82-41b6-b258-3fa613ed5861"&gt;rozdeľovacou lištou&lt;/A&gt; sa zobrazí príslušná výplatná páska. 
+&lt;LI&gt;Stlačte tlačidlo &lt;EM&gt;&lt;STRONG&gt;Upraviť mzdu&lt;/STRONG&gt;&lt;/EM&gt;. Otvorí sa&amp;nbsp;&lt;A href="2cd2daa2-afd8-4a7b-9ca3-da8f3c35fec4"&gt;formulár Úprava mzdy&lt;/A&gt;, v ktorom zvoľte záložku &lt;EM&gt;Neprítomnosti.&lt;/EM&gt; 
+&lt;LI&gt;Stlačte tlačidlo &lt;EM&gt;Nový&lt;/EM&gt; a zo zoznamu &lt;STRONG&gt;vyberte druh neprítomnosti a&amp;nbsp;zadajte dátum trvania neprítomnosti&amp;nbsp;(od - do)&lt;/STRONG&gt;. Stlačením tlačidla &lt;EM&gt;OK&lt;/EM&gt; sa neprítomnosť uloží. 
+&lt;LI&gt;Po celkovej úprave (spracovaní) mzdy stlačte&amp;nbsp;&lt;I&gt;&lt;STRONG&gt;OK (spracované)&lt;/STRONG&gt;&lt;/I&gt;. Formulár sa uzatvorí a&amp;nbsp;do údajov na&amp;nbsp;páske sa premietnu&amp;nbsp;vykonané zmeny. Formulár môžete zatvoriť aj tlačidlom &lt;EM&gt;OK (koncept),&lt;/EM&gt; ktorý sa používa na označovanie ešte nespracovaných a nedokončených miezd. &lt;/LI&gt;&lt;/OL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt; 
+&lt;P&gt;Pri zadávaní neprítomnosti môžu vzniknúť tieto situácie:&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;- nie je známy dátum ukončenia PN&lt;/STRONG&gt; - v prípade, že nie je známy dátum ukončenia PN a je predpoklad, že PN bude pokračovať aj v ďalšom mesiaci, &lt;EM&gt;Dátum do&lt;/EM&gt; &lt;STRONG&gt;je potrebné ponechať nevyplnený&lt;/STRONG&gt;&lt;BR&gt;&lt;IMG border=0 alt="" src="images/Wages/Wages_Absence1.png"&gt;&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;- PN na prelome mesiacov -&amp;nbsp;&lt;/STRONG&gt;PN na prelome mesiacov &lt;STRONG&gt;sa vypĺňa štandardne&lt;/STRONG&gt;, t. j. rovnako ako v prípade PN v rámci jedného mesiaca&lt;BR&gt;&lt;IMG border=0 alt="" src="images/Wages/Wages_Absence2.png"&gt;&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Zadanie neprítomnosti pri evidovaní dochádzky&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;V programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt; zvoľte ponuku &lt;EM&gt;Mzdy,&lt;/EM&gt;&amp;nbsp;&lt;A href="ce9e15f9-7459-4a5c-8bad-db17ef7b59ea"&gt;Pracovný kalendár&lt;/A&gt;, prípadne stlačte tlačidlo &lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Button_WorkCalendar.png"&gt; v nástrojovej lište OBERON-u. 
+&lt;LI&gt;Z rozbaľovacieho zoznamu so šípkou&amp;nbsp;v pravom hornom rohu, ktorý slúži na rýchlu úpravu dochádzky alebo pracovného plánu (Obrázok č. 1),&amp;nbsp;vyberte neprítomnosť, ktorú chcete zadať, napr. &lt;EM&gt;Dovolenka&lt;/EM&gt;. 
+&lt;LI&gt;Kurzor sa zmení na stylus, ktorým označte&amp;nbsp;deň alebo viacero dní,&amp;nbsp;v&amp;nbsp;ktoré si pracovník bude čerpať dovolenku. Program uvedené dni označí príslušným symbolom a farbou. Týmto spôsobom zadané neprítomnosti sa automaticky prenesú do&amp;nbsp;&lt;A href="6923b0c5-166b-4e3b-a53b-71f62b53b2fc"&gt;Tvorby miezd&lt;/A&gt;. &lt;/LI&gt;&lt;/OL&gt;
+&lt;H5&gt;Obrázok č. 1: Rozbaľovací zoznam na rýchlu úpravu dochádzky alebo pracovného plánu v &lt;EM&gt;Pracovnom kalendári&lt;/EM&gt;&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/Attendance/Form_Attendance_WorkingCalendar.png"&gt;&lt;/P&gt;
+&lt;H2&gt;Zadanie neprítomnosti v pracovnom pomere pracovníka&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;V programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt; zvoľte ponuku &lt;EM&gt;Mzdy,&lt;/EM&gt;&amp;nbsp;&lt;A href="3fced304-5201-4497-bb58-104c1fd77990"&gt;Pracovné pomery pracovníkov&lt;/A&gt;. 
+&lt;LI&gt;Zvoľte pracovný pomer pracovníka, ktorému chcete zadať neprítomnosť, a&amp;nbsp;stlačte tlačidlo &lt;EM&gt;Oprava&lt;/EM&gt;. 
+&lt;LI&gt;V&amp;nbsp;záložke &lt;EM&gt;Neprítomnosti&lt;/EM&gt;&amp;nbsp;stlačte tlačidlo &lt;EM&gt;Nový&lt;/EM&gt;. &lt;STRONG&gt;Vyberte zo zoznamu druh neprítomnosti a&amp;nbsp;zadajte dátum trvania neprítomnosti&amp;nbsp;(od - do)&lt;/STRONG&gt;. Stlačením tlačidla &lt;EM&gt;OK&lt;/EM&gt; sa neprítomnosť uloží. 
+&lt;LI&gt;Vykonané nastavenia vo formulári &lt;EM&gt;Pracovný pomer pracovníka&lt;/EM&gt;&amp;nbsp;uložte stlačením tlačidla &lt;EM&gt;&lt;STRONG&gt;OK&lt;/STRONG&gt;&lt;/EM&gt;. &lt;/LI&gt;&lt;/OL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="af0fcb37-2970-44dc-bcb5-f8e6ff91eb59" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="6923b0c5-166b-4e3b-a53b-71f62b53b2fc">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="38893e83-7df1-4281-be52-28d7ecb2d088" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1e1da5f2-5abd-48a4-bf82-4f31c614ac45">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="1e706dc9-901a-47db-bc48-e2678efe4ba4" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="2cd2daa2-afd8-4a7b-9ca3-da8f3c35fec4">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="bccbdac2-82a1-4470-8b54-96661566e752" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="ce9e15f9-7459-4a5c-8bad-db17ef7b59ea">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="d410a991-3018-403b-8ae5-b29168e91945" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="3fced304-5201-4497-bb58-104c1fd77990">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="5f286ac6-8c77-4651-9b5c-902b3ec01a87" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="95a3b7e2-6135-4860-a655-5724b186b94c">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="1c0686b9-1b65-4d9e-8fde-f9b96317a9a1">
+      <Keyword m="2017-09-28T08:37:40.8067585Z">Nemocenské</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="7f10f876-cb22-487b-8683-7fdfeda79139">
+      <Keyword m="2017-09-28T08:37:51.2694958Z">PN</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="b3c46cf5-b841-4aeb-959e-325630d1e71d">
+      <Keyword m="2023-07-18T09:18:16.987959Z">Neprítomnosť v práci - postup zadania</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="efc641c9-5681-4550-a810-25b6a181f39d">
+      <Keyword m="2017-09-28T08:38:35.0551867Z">OČR</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

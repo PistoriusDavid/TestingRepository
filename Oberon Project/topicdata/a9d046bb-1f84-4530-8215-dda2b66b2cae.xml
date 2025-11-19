@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="a9d046bb-1f84-4530-8215-dda2b66b2cae" Status="Complete" CreatedOn="2024-10-01T12:18:16.6540642Z" ModifiedOn="2024-12-18T09:50:51.3087516Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="OBERON_Businesses" BuildFlags="">
+  <Title m="2024-10-01T12:18:39.455236Z">Pre koho je OBERON určený?</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-12-18T09:50:51.3087516Z">&lt;P&gt;Systém OBERON je určený na vedenie rôznorodej agendy malých a stredne veľkých účtovných jednotiek (firiem). Všetky tieto účtovné jednotky (firmy) možno&amp;nbsp;rozdeliť podľa oblastí, na ktoré sú zamerané - tzv. odborových zameraní. Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;prehľad najčastejších odborových zameraní,&amp;nbsp;pre ktoré je systém OBERON určený&lt;/STRONG&gt;, a&amp;nbsp;zároveň prehľad tých funkcií, evidencií a nástrojov, ktoré môžu účtovné jednotky (firmy) v rámci daného odborového zamerania v programe využiť.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Systém OBERON obsahuje &lt;STRONG&gt;celý rad základných funkcií, možností a vlastností, ktoré sú nevyhnutné&lt;/STRONG&gt; pre správu agendy každej účtovnej jednotky (firmy). V tomto &lt;EM&gt;Pomocníku&lt;/EM&gt; sú popísané &lt;STRONG&gt;pri každom z&amp;nbsp;modulov&lt;/STRONG&gt; OBERON-u v témach s názvom &lt;EM&gt;&lt;STRONG&gt;Základné možnosti&lt;/STRONG&gt;&lt;/EM&gt;&amp;nbsp;(&lt;A href="45c3e766-c948-449b-9292-afacb10df9bc"&gt;Podvojné účtovníctvo - základné možnosti&lt;/A&gt;,&amp;nbsp;&lt;A href="98f3fbbd-4456-432c-9318-8f9c9a7d933e"&gt;Jednoduché účtovníctvo - základné možnosti&lt;/A&gt;,&amp;nbsp;&lt;A href="60bbb193-6ba6-495c-8c54-431baf8b966f"&gt;Fakturácia - základné možnosti&lt;/A&gt;,&amp;nbsp;&lt;A href="dbe76648-4e40-4ef5-938e-6b4a45580f97"&gt;Skladová evidencia - základné možnosti&lt;/A&gt;,&amp;nbsp;&lt;A href="45c3e766-c948-449b-9292-afacb10df9bc"&gt;Pokladnica OBERON - základné možnosti&lt;/A&gt;,&amp;nbsp;&lt;A href="4637ee90-9b44-4ba9-b816-66f0f601fddb"&gt;Mzdy - základné možnosti&lt;/A&gt;,&amp;nbsp;&lt;A href="5387f5a3-4949-4456-95ca-18cc05004cec"&gt;Dochádzka - základné možnosti&lt;/A&gt;,&amp;nbsp;&lt;A href="c59586c9-a034-4f31-9a3c-1960428236e7"&gt;Hotelová recepcia - základné možnosti&lt;/A&gt;,&amp;nbsp;&lt;A href="c59586c9-a034-4f31-9a3c-1960428236e7"&gt;CRM a registratúra - základné možnosti&lt;/A&gt;,&amp;nbsp;&lt;A href="c59586c9-a034-4f31-9a3c-1960428236e7"&gt;Evidencia vozidiel - základné možnosti&lt;/A&gt;). 
+&lt;LI&gt;Základné evidencie, číselníky&amp;nbsp;a nastavenia sú sústredené najmä do dvoch ponúk programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;: do ponuky &lt;EM&gt;&lt;STRONG&gt;Servis&lt;/STRONG&gt;&lt;/EM&gt; a do ponuky &lt;EM&gt;&lt;STRONG&gt;Firma&lt;/STRONG&gt;&lt;/EM&gt;. Tu možno napr. evidovať údaje o&amp;nbsp;firme, heslá ktoré používa, bankové účty, účtovné pokladne, obchodných partnerov firmy, jej pracovníkov, používateľov, ktorí budú s programom pracovať atď. 
+&lt;LI&gt;V nasledujúcej časti sú uvedené &lt;STRONG&gt;najčastejšie odborové zamerania&lt;/STRONG&gt;, pri ktorých možno používať systém OBERON. Pri každom odborovom zameraní je&amp;nbsp;uvedená stručná informácia&amp;nbsp;o&amp;nbsp;možnostiach použitia systému OBERON s odkazom na ďalšiu tému, ktorá obsahuje podrobný&amp;nbsp;&lt;STRONG&gt;prehľad špecifických evidencií, funkcií a&amp;nbsp;nástrojov&lt;/STRONG&gt;, ktoré môžu jednotlivé firmy v&amp;nbsp;rámci daného odborového zamerania&amp;nbsp;v&lt;STRONG&gt;&amp;nbsp;&lt;/STRONG&gt;OBERON-e využívať. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H1&gt;1. Veľkoobchod&lt;/H1&gt;
+&lt;TABLE id=table1 cellSpacing=15 cellPadding=15 width="100%" border=1&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TD bgColor=white width="10%" align=left cellspacing="15" cellpadding="15"&gt;&lt;IMG style="FLOAT: left; MARGIN-RIGHT: 20px" border=0 alt="" src="images/OBERON/Basic/OBERON_Wholesale.png"&gt;&lt;/TD&gt;
+&lt;TD style="TEXT-ALIGN: left; PADDING-TOP: 15px" bgColor=white width="85%"&gt;
+&lt;P&gt;Jedným z hlavných okruhov účtovných jednotiek, pre ktoré je systém OBERON určený, sú &lt;STRONG&gt;veľkoobchodné prevádzky&lt;/STRONG&gt;. Program pre tento druh prevádzok&amp;nbsp;ponúka predovšetkým tieto funkcie:&amp;nbsp;&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Veľkoobchodná pokladnica&lt;/STRONG&gt; - umožňuje&amp;nbsp;zaevidovanie úhrady&amp;nbsp;výdajky, objednávky, faktúry, možnosť zadať ľubovoľnú predajnú cenu s&amp;nbsp;DPH alebo bez DPH... 
+&lt;LI&gt;&lt;STRONG&gt;Fiškálne zariadenia&lt;/STRONG&gt; - podpora vlastnej certifikovanej fiškálnej tlačiarne&amp;nbsp;&lt;A href="00fa9619-a13d-4745-8938-cc0c2b5039ce"&gt;eKasa PANDORA&lt;/A&gt;&amp;nbsp;&lt;A href="1f32a90c-7b4a-4d69-9f38-a560178794b3" style="auto-update-caption: true"&gt;&lt;IMG border=0 alt="Odporúčané riešenia" src="images/OBERON/Basic/Odporucane-riesenie_ruka_ikona.png"&gt;&lt;/A&gt;, ako aj ďalších&amp;nbsp;fiškálnych zariadení od rôznych výrobcov. 
+&lt;LI&gt;&lt;STRONG&gt;Skladová evidencia&lt;/STRONG&gt; - určená na evidenciu zásob, prácu s objednávkami, faktúrami, príjmom, výdajom a&amp;nbsp;expedíciou&amp;nbsp;tovaru, sledovaním pripravenosti, naskladnenosti a vyskladnenosti&amp;nbsp;tovaru. 
+&lt;LI&gt;&lt;STRONG&gt;Rozšírená cenotvorba&lt;/STRONG&gt; -&amp;nbsp;možnosť&amp;nbsp;nastaviť pri rovnakom tovare rôzne zmluvné ceny rôznym odberateľom, prípadne vytvárať akcie a zľavy... 
+&lt;LI&gt;&lt;STRONG&gt;Komunikácia s internetovým obchodom&lt;/STRONG&gt; -&amp;nbsp;umožňuje on-line predaj, vybavovanie objednávok a zasielanie faktúr&amp;nbsp;z OBERON-u. 
+&lt;LI&gt;&lt;STRONG&gt;Fakturácia -&amp;nbsp;&lt;/STRONG&gt;vystavovanie pohľadávok (vystavené, vydané, vyšlé, odberateľské, odoslané&amp;nbsp;faktúry)&amp;nbsp;a&amp;nbsp;zaevidovanie záväzkov (prijaté, došlé, dodávateľské, doručené faktúry). 
+&lt;LI&gt;&lt;STRONG&gt;Cloudové riešenia -&amp;nbsp;&lt;/STRONG&gt;vhodné pre&amp;nbsp;veľkooobchodné prevádzky&amp;nbsp;s viacerými predajňami s nižšou kadenciou predaja&amp;nbsp;s&amp;nbsp;nízkym nárokom na dostupnosť centrálnej databázy vzhľadom na spoľahlivosť vydávania pokladničných dokladov. 
+&lt;LI&gt;&lt;STRONG&gt;Mobilné riešenia&lt;/STRONG&gt;&amp;nbsp;- aplikácia&amp;nbsp;&lt;A href="be17efdf-4b36-4b47-ad5d-09b0f66c8f65"&gt;ASTON - mobilný skladník&lt;/A&gt; pre &lt;EM&gt;Android&lt;/EM&gt; a &lt;EM&gt;iOS&lt;/EM&gt; na všestrannú prácu v sklade (príjem objednávok, príjem a výdaj tovaru, sledovanie&amp;nbsp; pripravenosti, naskladnenosti a&amp;nbsp;vyskladnenosti&amp;nbsp;tovaru, expedícia tovaru,&amp;nbsp;editácia skladových kariet, kontrola cien...). 
+&lt;LI&gt;&lt;STRONG&gt;CRM&lt;/STRONG&gt; - riadenie vzťahov so zákazníkmi a sledovanie obchodných prípadov. &lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Ďalšie informácie o&amp;nbsp;špecifických&amp;nbsp;funkciách, evidenciách&amp;nbsp;a nástrojoch OBERON-u, ktoré môžu využiť veľkoobchodné prevádzky, nájdete v&amp;nbsp;téme&amp;nbsp;&lt;A href="5863f24e-7c88-4841-aefb-fd36562544c1" style="auto-update-caption: true"&gt;OBERON pre veľkoobchod&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;/LI&gt;&lt;/UL&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;
+&lt;H1&gt;2. Maloobchod&lt;/H1&gt;
+&lt;H2&gt;&amp;nbsp;2.1 Predajne potravín&lt;/H2&gt;
+&lt;TABLE id=table2.1 cellSpacing=15 cellPadding=15 width="100%" border=1&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TD bgColor=white width="10%" align=left cellspacing="15" cellpadding="15"&gt;&lt;IMG border=0 alt="" src="images/OBERON/Basic/OBERON_Groceries.png"&gt;&lt;/TD&gt;
+&lt;TD style="TEXT-ALIGN: left; PADDING-TOP: 15px" bgColor=white width="85%"&gt;
+&lt;P&gt;Popri veľkoobchodných prevádzkach je&amp;nbsp;systém OBERON určený aj pre&amp;nbsp;&lt;STRONG&gt;maloobchodné&amp;nbsp;prevádzky&lt;/STRONG&gt;. V&amp;nbsp;rámci nich osobitnú skupinu predstavujú &lt;STRONG&gt;maloobchodné&lt;/STRONG&gt; &lt;STRONG&gt;predajne potravín&lt;/STRONG&gt;. Program pre tento druh prevádzok&amp;nbsp;ponúka najmä tieto funkcie:&amp;nbsp;&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Maloobchodná pokladnica&lt;/STRONG&gt; - určená na bežný predaj v maloobchodných prevádzkach s&amp;nbsp;vysokou kadenciou predaja. 
+&lt;LI&gt;&lt;STRONG&gt;Fiškálne zariadenia&lt;/STRONG&gt; - podpora vlastnej certifikovanej fiškálnej tlačiarne&amp;nbsp;&lt;A href="00fa9619-a13d-4745-8938-cc0c2b5039ce"&gt;eKasa PANDORA&lt;/A&gt;&amp;nbsp;&lt;A href="1f32a90c-7b4a-4d69-9f38-a560178794b3" style="auto-update-caption: true"&gt;&lt;IMG border=0 alt="Odporúčané riešenia" src="images/OBERON/Basic/Odporucane-riesenie_ruka_ikona.png"&gt;&lt;/A&gt;, ako aj ďalších&amp;nbsp;fiškálnych zariadení od rôznych výrobcov. 
+&lt;LI&gt;&lt;STRONG&gt;Pripojiteľné zariadenia&lt;/STRONG&gt; -&amp;nbsp;podpora celého radu ďalších&amp;nbsp;&lt;A href="3f051fd3-9727-4ecc-9613-7a7fb1cb2a54"&gt;pripojiteľných zariadení&lt;/A&gt; (napr.&amp;nbsp;snímače čiarových kódov, zákaznícke displeje,&amp;nbsp;elektronické váhy a&amp;nbsp;váhoskenery, platobné terminály, pokladničné zásuvky, snímače RFID kľúčov na rýchle prihlásenie obsluhy, tlačiarne samolepiacich&amp;nbsp;etikiet...). 
+&lt;LI&gt;&lt;STRONG&gt;Skladová evidencia&lt;/STRONG&gt; - určená na evidenciu zásob, prácu s objednávkami, faktúrami, príjmom, výdajom a&amp;nbsp;expedíciou&amp;nbsp;tovaru, sledovaním pripravenosti, naskladnenosti a vyskladnenosti&amp;nbsp;tovaru. 
+&lt;LI&gt;&lt;STRONG&gt;Rozšírená cenotvorba&lt;/STRONG&gt; -&amp;nbsp;možnosť&amp;nbsp;poskytovať rôzne percentuálne alebo množstevné zľavy, vytvárať akciové ceny a letáky, zmluvné ceny a pod. 
+&lt;LI&gt;&lt;A href="4b2b3447-f2f1-4bbe-9d21-3d87994bfba8"&gt;&lt;STRONG&gt;Pobočkový režim&lt;/STRONG&gt;&lt;/A&gt; - umožňuje vytvoriť sieť maloobchodných predajní. Správa skladových položiek (cenník), evidencia skladu, cenotvorba (akcie) sa vykonávajú v centrále, z predajne sa on-line prenášajú informácie o predaji. Centrálna databáza môže byť umiestnená v centrále firmy alebo v cloude. 
+&lt;LI&gt;&lt;STRONG&gt;Mobilné riešenia&lt;/STRONG&gt;&amp;nbsp;- aplikácia&amp;nbsp;&lt;A href="be17efdf-4b36-4b47-ad5d-09b0f66c8f65"&gt;ASTON - mobilný skladník&lt;/A&gt; pre &lt;EM&gt;Android&lt;/EM&gt; a &lt;EM&gt;iOS&lt;/EM&gt; na všestrannú prácu v sklade (príjem objednávok, príjem a výdaj tovaru, sledovanie&amp;nbsp; pripravenosti, naskladnenosti a&amp;nbsp;vyskladnenosti&amp;nbsp;tovaru, expedícia tovaru,&amp;nbsp;editácia skladových kariet, kontrola cien...). &lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Ďalšie informácie o&amp;nbsp;špecifických&amp;nbsp;funkciách, evidenciách&amp;nbsp;a nástrojoch OBERON-u, ktoré môžu využiť&amp;nbsp;maloobchodné predajne potravín, nájdete v&amp;nbsp;téme&amp;nbsp;&lt;A href="94b89091-3814-45b6-8520-6a6f19f53fc8" style="auto-update-caption: true"&gt;OBERON pre maloobchod - predajne potravín&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;/LI&gt;&lt;/UL&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;
+&lt;H2&gt;2.2 Ostatné predajne&lt;/H2&gt;
+&lt;TABLE id=table2.2 cellSpacing=15 cellPadding=15 width="100%" border=1&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TD bgColor=white width="10%" align=left cellspacing="15" cellpadding="15"&gt;&lt;IMG style="FLOAT: left; MARGIN-RIGHT: 20px" border=0 alt="" src="images/OBERON/Basic/OBERON_Retail.png"&gt;&lt;/TD&gt;
+&lt;TD style="TEXT-ALIGN: left; PADDING-TOP: 15px" bgColor=white width="85%"&gt;
+&lt;P&gt;Okrem predajní potravín môžu systém OBERON využívať aj &lt;STRONG&gt;ostatné maloobchodné prevádzky&lt;/STRONG&gt; zamerané na predaj tovaru rôzneho druhu (železiarstva, drogérie, kníhkupectvá, kvetinárstva,&amp;nbsp;predajne elektroniky, odevov, obuvi, domácich, záhradkárskych, chovateľských potrieb atď.).&amp;nbsp;Pre tento okruh prevádzok sú v programe k&amp;nbsp;dispozícii&amp;nbsp;hlavne tieto funkcie:&amp;nbsp;&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Maloobchodná pokladnica&lt;/STRONG&gt; - určená na bežný predaj v maloobchodných prevádzkach s&amp;nbsp;vysokou kadenciou predaja. 
+&lt;LI&gt;&lt;STRONG&gt;Fiškálne zariadenia&lt;/STRONG&gt; - podpora vlastnej certifikovanej fiškálnej tlačiarne&amp;nbsp;&lt;A href="00fa9619-a13d-4745-8938-cc0c2b5039ce"&gt;eKasa PANDORA&lt;/A&gt;&amp;nbsp;&lt;A href="1f32a90c-7b4a-4d69-9f38-a560178794b3" style="auto-update-caption: true"&gt;&lt;IMG border=0 alt="Odporúčané riešenia" src="images/OBERON/Basic/Odporucane-riesenie_ruka_ikona.png"&gt;&lt;/A&gt;, ako aj ďalších&amp;nbsp;fiškálnych zariadení od rôznych výrobcov. 
+&lt;LI&gt;&lt;STRONG&gt;Pripojiteľné zariadenia&lt;/STRONG&gt; -&amp;nbsp;podpora celého radu ďalších&amp;nbsp;&lt;A href="3f051fd3-9727-4ecc-9613-7a7fb1cb2a54"&gt;pripojiteľných zariadení&lt;/A&gt; (napr.&amp;nbsp;snímače čiarových kódov, zákaznícke displeje,&amp;nbsp;elektronické váhy a&amp;nbsp;váhoskenery, platobné terminály, pokladničné zásuvky, snímače RFID kľúčov na rýchle prihlásenie obsluhy, tlačiarne samolepiacich&amp;nbsp;etikiet...). 
+&lt;LI&gt;&lt;STRONG&gt;Skladová evidencia&lt;/STRONG&gt; - určená na evidenciu zásob, prácu s objednávkami, faktúrami, príjmom, výdajom a&amp;nbsp;expedíciou&amp;nbsp;tovaru, sledovaním pripravenosti, naskladnenosti a vyskladnenosti&amp;nbsp;tovaru. 
+&lt;LI&gt;&lt;STRONG&gt;Rozšírená cenotvorba&lt;/STRONG&gt; -&amp;nbsp;možnosť&amp;nbsp;poskytovať rôzne percentuálne alebo množstevné zľavy, vytvárať akciové ceny a letáky, zmluvné ceny a pod. 
+&lt;LI&gt;&lt;A href="4b2b3447-f2f1-4bbe-9d21-3d87994bfba8"&gt;&lt;STRONG&gt;Pobočkový režim&lt;/STRONG&gt;&lt;/A&gt; - umožňuje vytvoriť sieť maloobchodných predajní. Správa skladových položiek (cenník), evidencia skladu, cenotvorba (akcie) sa vykonávajú v centrále, z predajne sa on-line prenášajú informácie o predaji. Centrálna databáza môže byť umiestnená v centrále firmy alebo v cloude. 
+&lt;LI&gt;&lt;STRONG&gt;Mobilné riešenia&lt;/STRONG&gt;&amp;nbsp;- aplikácia&amp;nbsp;&lt;A href="be17efdf-4b36-4b47-ad5d-09b0f66c8f65"&gt;ASTON - mobilný skladník&lt;/A&gt; pre &lt;EM&gt;Android&lt;/EM&gt; a &lt;EM&gt;iOS&lt;/EM&gt; na všestrannú prácu v sklade (príjem objednávok, príjem a výdaj tovaru, sledovanie&amp;nbsp; pripravenosti, naskladnenosti a&amp;nbsp;vyskladnenosti&amp;nbsp;tovaru, expedícia tovaru,&amp;nbsp;editácia skladových kariet, kontrola cien...). 
+&lt;LI&gt;&lt;A href="945b74ea-31f8-44e7-baef-ffb5fc136b05"&gt;&lt;STRONG&gt;Reklamácie a servis&lt;/STRONG&gt;&lt;/A&gt; - možnosť evidovať reklamácie a&amp;nbsp;servisné zásahy (v module&amp;nbsp;&lt;A href="f1a6963d-36aa-4134-92a5-fa47a4345e74"&gt;CRM a registratúra&lt;/A&gt;). &lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Ďalšie informácie o&amp;nbsp;špecifických&amp;nbsp;funkciách, evidenciách&amp;nbsp;a nástrojoch OBERON-u, ktoré môžu využiť&amp;nbsp;maloobchodné prevádzky (okrem predajní potravín), nájdete v&amp;nbsp;téme&amp;nbsp;&lt;A href="48327d6b-77b0-4dbb-b2d9-990763b81171" style="auto-update-caption: true"&gt;OBERON pre maloobchod - ostatné predajne&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;/LI&gt;&lt;/UL&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;
+&lt;H1&gt;3. Internetový obchod&amp;nbsp;&lt;/H1&gt;
+&lt;TABLE id=table3 cellSpacing=15 cellPadding=15 width="100%" border=1&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TD bgColor=white width="10%" align=left cellspacing="15" cellpadding="15"&gt;&lt;IMG style="FLOAT: left; MARGIN-RIGHT: 20px" border=0 alt="" src="images/OBERON/Basic/OBERON_OnlineStore.png"&gt;&lt;/TD&gt;
+&lt;TD style="TEXT-ALIGN: left; PADDING-TOP: 15px" bgColor=white width="85%"&gt;
+&lt;P&gt;Osobitným odborovým zameraním, pre ktoré je systém OBERON určený, sú &lt;STRONG&gt;internetové obchody&lt;/STRONG&gt;. Tie môžu v programe využiť predovšetkým tieto funkcie:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Komunikácia s&amp;nbsp;internetovým obchodom&lt;/STRONG&gt; -&amp;nbsp;umožňuje on-line predaj, podpora viacerých on-line a off-line e-shopových riešení, prehľad rozsahu synchronizácie pri jednotlivých internetových obchodoch je k&amp;nbsp;dispozícii v&amp;nbsp;téme &lt;A href="2ba6a435-be52-46a1-b723-fb2b8ca084c0" style="auto-update-caption: true"&gt;Internetový obchod v systéme OBERON&lt;/A&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;PrestaShop&lt;/STRONG&gt; - priama (natívna) podpora&amp;nbsp;&lt;A href="7437cbeb-c6d1-4b19-92ee-150ba8e4097f"&gt;internetového obchodu PrestaShop&lt;/A&gt;&amp;nbsp;&lt;A href="1f32a90c-7b4a-4d69-9f38-a560178794b3" style="auto-update-caption: true"&gt;&lt;IMG border=0 alt="Odporúčané riešenia" src="images/OBERON/Basic/Odporucane-riesenie_ruka_ikona.png"&gt;&lt;/A&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;Rozsah synchronizácie&amp;nbsp;pri PrestaShope&lt;/STRONG&gt; -&amp;nbsp;export skladových kariet,&amp;nbsp;obrázkov,&amp;nbsp;predajných cien (vrátane vybraných cien rozšírenej cenotvorby),&amp;nbsp;parametrov a variantov (farby, veľkosti...),&amp;nbsp;aktuálnych množstiev (aj z viacerých skladov),&amp;nbsp;kategórií skladových kariet, import prijatých objednávok, aktualizácia stavov prijatých&amp;nbsp;objednávok. 
+&lt;LI&gt;&lt;STRONG&gt;Implementácia PrestaShopu&lt;/STRONG&gt;&amp;nbsp;- na implementáciu môžete využiť služby niektorej zo špecializovaných firiem:&amp;nbsp;&lt;A href="https://exalogic.sk/oberon/suvisiace-produkty/prestashop-ivanic/" target=_blank&gt;iVANIC, s.r.o.&lt;/A&gt;&amp;nbsp;alebo&amp;nbsp;&lt;A href="https://exalogic.sk/oberon/suvisiace-produkty/prestashop-caleydon/" target=_blank&gt;Caleydon s.r.o.&lt;/A&gt; 
+&lt;LI&gt;&lt;STRONG&gt;Skladová evidencia&lt;/STRONG&gt; - určená na evidenciu zásob, prácu s objednávkami, faktúrami, príjmom, výdajom a&amp;nbsp;expedíciou&amp;nbsp;tovaru, sledovaním pripravenosti, naskladnenosti a vyskladnenosti&amp;nbsp;tovaru. 
+&lt;LI&gt;&lt;STRONG&gt;Fakturácia -&amp;nbsp;&lt;/STRONG&gt;vystavovanie pohľadávok (vystavené, vydané, vyšlé, odberateľské, odoslané&amp;nbsp;faktúry)&amp;nbsp;a&amp;nbsp;zaevidovanie záväzkov (prijaté, došlé, dodávateľské, doručené faktúry). 
+&lt;LI&gt;&lt;STRONG&gt;Mobilné riešenia&lt;/STRONG&gt;&amp;nbsp;- aplikácia&amp;nbsp;&lt;A href="be17efdf-4b36-4b47-ad5d-09b0f66c8f65"&gt;ASTON - mobilný skladník&lt;/A&gt; pre &lt;EM&gt;Android&lt;/EM&gt; a &lt;EM&gt;iOS&lt;/EM&gt; na všestrannú prácu v sklade (príjem objednávok, príjem a výdaj tovaru, sledovanie&amp;nbsp; pripravenosti, naskladnenosti a&amp;nbsp;vyskladnenosti&amp;nbsp;tovaru, expedícia tovaru,&amp;nbsp;editácia skladových kariet, kontrola cien...). 
+&lt;LI&gt;&lt;STRONG&gt;Chameleoon&lt;/STRONG&gt; -&amp;nbsp;externá webová aplikácia, ktorá umožňuje jednoducho vytvárať a tlačiť expedičné štítky pre celý rad kuriérskych spoločností z celej Európy bez potreby manuálneho prepisovania.&amp;nbsp;&amp;nbsp; &lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Ďalšie informácie o&amp;nbsp;špecifických&amp;nbsp;funkciách, evidenciách&amp;nbsp;a nástrojoch OBERON-u, ktoré môžu využiť internetové obchody, nájdete v&amp;nbsp;téme&amp;nbsp;&lt;A href="e9054369-ab3a-48e6-9fe1-5a394f543764" style="auto-update-caption: true"&gt;OBERON pre internetový obchod&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;/LI&gt;&lt;/UL&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;
+&lt;H1&gt;4.&amp;nbsp;Gastro&amp;nbsp;&lt;/H1&gt;
+&lt;TABLE id=table4 cellSpacing=15 cellPadding=15 width="100%" border=1&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TD bgColor=white width="10%" align=left cellspacing="15" cellpadding="15"&gt;&lt;IMG style="FLOAT: left; MARGIN-RIGHT: 20px" border=0 alt="" src="images/OBERON/Basic/OBERON_Restaurants.png"&gt;&lt;/TD&gt;
+&lt;TD style="TEXT-ALIGN: left; PADDING-TOP: 15px" bgColor=white width="85%"&gt;
+&lt;P&gt;Ďalším z hlavných okruhov účtovných jednotiek, pre ktoré je OBERON určený, sú &lt;STRONG&gt;gastroprevádzky&lt;/STRONG&gt;.&amp;nbsp;Pre tento okruh prevádzok sú v&amp;nbsp;programe k&amp;nbsp;dispozícii&amp;nbsp;hlavne tieto funkcie:&amp;nbsp;&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Reštauračná pokladnica&lt;/STRONG&gt; - určená pre reštaurácie, bary, zariadenia rýchleho občerstvenia (bistrá, bufety...)&amp;nbsp;atď. 
+&lt;LI&gt;&lt;STRONG&gt;Dotykový displej - Fast food&lt;/STRONG&gt; - osobitný&amp;nbsp;režim zobrazenia pokladnice pre gastroprevádzky, ktorý umožňuje ovládanie dotykom (alebo myšou).&amp;nbsp;Položky sú reprezentované tlačidlami (obrázkami jedál a nápojov) a zatriedené podľa&amp;nbsp;&lt;A href="07957769-848a-42b8-8d4b-678f7246396c"&gt;skupín v pokladnici&lt;/A&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;Grafický prehľad stolov&lt;/STRONG&gt; -&amp;nbsp;možnosť používať&amp;nbsp;interaktívny grafický prehľad stolov, ktorý&amp;nbsp;v&amp;nbsp;grafickej podobe zobrazuje pôdorys reštaurácie s rozmiestnením stolov (prípadne ďalších objektov). 
+&lt;LI&gt;&lt;A href="e0ccff3e-b9e7-4572-bc3c-7f41a32280dd"&gt;&lt;STRONG&gt;Otvorené účty&lt;/STRONG&gt;&lt;/A&gt; -&amp;nbsp;na evidovanie položiek, ktoré si zákazníci objednali, pričom na ich základe&amp;nbsp;sa na&amp;nbsp;&lt;A href="b24ad235-cf7f-43e2-b3e8-ec0f7d92f6b6"&gt;fiškálnom zariadení&lt;/A&gt;&amp;nbsp;zaeviduje (vytlačí) daňový doklad. 
+&lt;LI&gt;&lt;STRONG&gt;Fiškálne zariadenia&lt;/STRONG&gt; - podpora vlastnej certifikovanej fiškálnej tlačiarne&amp;nbsp;&lt;A href="00fa9619-a13d-4745-8938-cc0c2b5039ce"&gt;eKasa PANDORA&lt;/A&gt;&amp;nbsp;&lt;A href="1f32a90c-7b4a-4d69-9f38-a560178794b3" style="auto-update-caption: true"&gt;&lt;IMG border=0 alt="Odporúčané riešenia" src="images/OBERON/Basic/Odporucane-riesenie_ruka_ikona.png"&gt;&lt;/A&gt;, ako aj ďalších&amp;nbsp;fiškálnych zariadení od rôznych výrobcov. 
+&lt;LI&gt;&lt;STRONG&gt;Pripojiteľné zariadenia&lt;/STRONG&gt; - podpora celého radu ďalších&amp;nbsp;&lt;A href="3f051fd3-9727-4ecc-9613-7a7fb1cb2a54"&gt;pripojiteľných zariadení&lt;/A&gt; (napr.&amp;nbsp;zákaznícke displeje,&amp;nbsp;platobné terminály, pokladničné zásuvky, snímače RFID kľúčov na rýchle prihlásenie obsluhy...). 
+&lt;LI&gt;&lt;STRONG&gt;Systém bonovacích monitorov&lt;/STRONG&gt; -&amp;nbsp;možnosť nielen tlačiť, ale aj zobrazovať objednávky pre kuchyňu a&amp;nbsp;pre prípravu nápojov&amp;nbsp;na&amp;nbsp;&lt;A href="d9867d81-7de7-4ce2-9c45-932025935b8b"&gt;bonovacom monitore&lt;/A&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;Skladová evidencia&lt;/STRONG&gt; - určená na evidenciu zásob, prácu s objednávkami, faktúrami, príjmom a&amp;nbsp;výdajom tovaru atď. 
+&lt;LI&gt;&lt;STRONG&gt;Mobilné riešenia&lt;/STRONG&gt;&amp;nbsp;-&amp;nbsp; gastroaplikácia &lt;A href="942d48d5-b290-40f6-8ba3-45cf78f380f9"&gt;LUKUL - nielen mobilný čašník&lt;/A&gt; pre&amp;nbsp;&lt;EM&gt;Android&amp;nbsp;&lt;/EM&gt;a &lt;EM&gt;iOS&lt;/EM&gt;, elektronický jedálny/nápojový lístok &lt;A href="fe4a9463-d066-4a56-8eee-a728ae1a7220"&gt;OBERON eMenu&lt;/A&gt;, aplikácia&amp;nbsp;&lt;A href="be17efdf-4b36-4b47-ad5d-09b0f66c8f65"&gt;ASTON - mobilný skladník&lt;/A&gt; pre &lt;EM&gt;Android&lt;/EM&gt; a &lt;EM&gt;iOS&lt;/EM&gt; na všestrannú prácu v sklade. 
+&lt;LI&gt;&lt;STRONG&gt;Databáza s predpripravenými údajmi&lt;/STRONG&gt; - vytvorí databázu s&amp;nbsp;receptúrami a&amp;nbsp;kalkuláciami jedál, ktoré&amp;nbsp;možno využiť v reštauračnej prevádzke). &lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Ďalšie informácie o&amp;nbsp;špecifických&amp;nbsp;funkciách, evidenciách&amp;nbsp;a nástrojoch OBERON-u, ktoré môžu využiť gastroprevádzky, nájdete v&amp;nbsp;téme&amp;nbsp;&lt;A href="afacbd84-5416-4179-ba37-e4843b6ebc4c" style="auto-update-caption: true"&gt;OBERON pre gastroprevádzky&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;/LI&gt;&lt;/UL&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;
+&lt;H1&gt;5. Ubytovacie zariadenia&lt;/H1&gt;
+&lt;TABLE id=table5 cellSpacing=15 cellPadding=15 width="100%" border=1&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TD bgColor=white width="10%" align=left cellspacing="15" cellpadding="15"&gt;&lt;IMG style="FLOAT: left; MARGIN-RIGHT: 20px" border=0 alt="" src="images/OBERON/Basic/OBERON_Hotels.png"&gt;&lt;/TD&gt;
+&lt;TD style="TEXT-ALIGN: left; PADDING-TOP: 15px" bgColor=white width="85%"&gt;
+&lt;P&gt;Medzi hlavné okruhy účtovných jednotiek, pre ktoré je OBERON určený, patria aj &lt;STRONG&gt;ubytovacie zariadenia&lt;/STRONG&gt;.&amp;nbsp;Tie môžu v programe využiť predovšetkým tieto funkcie:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Grafický prehľad izieb&lt;/STRONG&gt; - možnosť aktívnej práce s&amp;nbsp;celým radom funkcií modulu&amp;nbsp;&lt;A href="c3bd41f0-029e-4c74-b342-b0ffff647b6e"&gt;Hotelová recepcia&lt;/A&gt; v&amp;nbsp;interaktívnom&amp;nbsp;&lt;A href="3ca37544-bbc0-4a88-af6a-a2132b74279d"&gt;grafickom prehľade izieb&lt;/A&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;Rezervácie služieb&lt;/STRONG&gt; - možnosť práce s&amp;nbsp;dvomi typmi služieb:&amp;nbsp;základné&amp;nbsp;a&amp;nbsp;rozšírené. Možnosť aktívnej práce s rozšírenými službami v&amp;nbsp;interaktívnom &lt;A href="0f4cbef4-f919-441f-bd61-6ef9ca0b1344"&gt;grafickom prehľade poskytovaných služieb&lt;/A&gt; a&amp;nbsp;v&amp;nbsp;&lt;A href="4a3fd53c-a95a-4850-8adb-17666063e88d"&gt;knihe poskytovaných služieb&lt;/A&gt;. 
+&lt;LI&gt;&lt;A href="fc334b67-8148-4d4c-bb21-de0e0060b312"&gt;&lt;STRONG&gt;Automatický výpočet ceny za ubytovanie&lt;/STRONG&gt;&lt;/A&gt;&amp;nbsp;- na základe nastavených cenových hladín v&amp;nbsp;číselníku&amp;nbsp;&lt;A href="79646e11-b21e-473c-a78b-7e0fb8b55c14" style="auto-update-caption: true"&gt;Cenotvorba ubytovania&lt;/A&gt;. &amp;nbsp;&amp;nbsp;&amp;nbsp; 
+&lt;LI&gt;&lt;STRONG&gt;Hotelové účty&lt;/STRONG&gt; - možnosť používať&amp;nbsp;&lt;A href="ffa5a889-7bfe-4165-ba83-15263eb77358"&gt;hotelové účty&lt;/A&gt; v prípade, že&amp;nbsp;hosť neplatí za ubytovanie a&amp;nbsp;poskytnuté služby hneď, ale až pri odchode. Pri&amp;nbsp;odchode hosťa z hotela (check out) sa uzatvára hotelový účet jeho vyúčtovaním a zaplatením. 
+&lt;LI&gt;&lt;A href="5eaef397-0196-4360-a339-fcb1a11c32e3" rel=noopener&gt;&lt;STRONG&gt;On-line rezervačný formulár ubytovania&lt;/STRONG&gt;&lt;/A&gt; - modul podporuje&amp;nbsp;priamu on-line rezerváciu izieb pomocou&amp;nbsp;rezervačného formulára ubytovania (tzv. web booking engine)&amp;nbsp;na webovej stránke ubytovacieho zariadenia, ktorý môže byť vo viacerých jazykoch.&amp;nbsp;Podpora&amp;nbsp;viacerých ďalších rezervačných formulárov ubytovania (&lt;A href="a8869db0-d369-49c6-b801-de33672ce874"&gt;rezervačný formulár Beds24,&lt;/A&gt;&amp;nbsp;&lt;A href="dc8cdc4a-5c2a-427b-89e7-3c191be93746"&gt;rezervačný formulár Bigeron&lt;/A&gt;...). 
+&lt;LI&gt;&lt;STRONG&gt;Hotel Channel Manager&lt;/STRONG&gt; - možnosť prepojenia s&amp;nbsp;províznymi rezervačnými portálmi ubytovania (&lt;EM&gt;Booking.com,&amp;nbsp;Expedia.com&lt;/EM&gt; atď.), a to pomocou &lt;A href="25b9b2fe-ad9e-49dd-9a59-e57d2520e87b"&gt;manažéra rezervačných kanálov&lt;/A&gt; (napr.&amp;nbsp;&lt;A href="2564d1eb-a7ed-46a7-a957-6087afe26471"&gt;Beds24&lt;/A&gt;,&amp;nbsp;&lt;A href="3e65fff1-f915-40da-8283-7ddd54167c2b"&gt;D-EDGE&lt;/A&gt;). Prepojenie spočíva v&amp;nbsp;automatickom odosielaní obsadenosti z&amp;nbsp;modulu &lt;EM&gt;Hotelová recepcia&lt;/EM&gt; (evidovaných rezervácií a&amp;nbsp;zaevidovaných ubytovaní) a&amp;nbsp;v&amp;nbsp;prijímaní rezervácií ubytovania z&amp;nbsp;rezervačných platforiem. 
+&lt;LI&gt;&lt;STRONG&gt;Zasielanie notifikácií&lt;/STRONG&gt; - možnosť nastaviť zasielanie&amp;nbsp;&lt;A href="e301d0fb-f429-4bb5-a4df-7257efbe967b"&gt;notifikácií&lt;/A&gt; na automatické informovanie o&amp;nbsp;určitých skutočnostiach (napr.&amp;nbsp;&lt;A href="1f7db5e4-f5f7-4631-854a-bd7679c3186a"&gt;notifikácie pre hosťa pred jeho príchodom&lt;/A&gt;). 
+&lt;LI&gt;&lt;A href="de42d42d-6f5c-49ba-b0c9-1413773f7ef1"&gt;&lt;STRONG&gt;Hotel on-line check-in&lt;/STRONG&gt;&lt;/A&gt; - funkcia zahŕňajúca: 
+&lt;UL class=bullet-list&gt;
+&lt;LI&gt;&lt;STRONG&gt;pre-check in&lt;/STRONG&gt; - predstavuje elektronickú registráciu hosťa (on-line check-in) pred samotným príchodom do ubytovacieho zariadenia; spravidla ju hosť vykonáva sám v pohodlí svojho domova, 
+&lt;LI&gt;&lt;STRONG&gt;rýchly check-in&lt;/STRONG&gt; - predstavuje elektronickú registráciu hosťa (on-line check-in) bezprostredne po príchode do ubytovacieho zariadenia a následnom prevzatí izby.&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Prepojenie s inými modulmi&lt;/STRONG&gt;:&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 
+&lt;UL class=bullet-list&gt;
+&lt;LI&gt;&lt;A href="dbe76648-4e40-4ef5-938e-6b4a45580f97"&gt;Skladová evidencia&lt;/A&gt; - so skladovými položkami je možné pracovať na hotelových účtoch či v&amp;nbsp;rezerváciách pri kalkulácii ceny, 
+&lt;LI&gt;&lt;A href="aec074f4-3e1c-4a1e-8a80-06fcecf51156"&gt;Pokladnica OBERON&lt;/A&gt; - umožňuje zapísať položky z pokladnice na hotelový účet a&amp;nbsp;následne zaevidovať úhradu hotelového účtu, ako aj&amp;nbsp;poskytnutých služieb, 
+&lt;LI&gt;&lt;A href="60bbb193-6ba6-495c-8c54-431baf8b966f"&gt;Fakturácia&lt;/A&gt; - umožňuje jednoducho fakturovať rezerváciu ubytovania, ubytovanie, hotelový účet či poskytnutú službu. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Reštauračné služby&lt;/STRONG&gt; -&amp;nbsp;v&amp;nbsp;prípade, že ubytovacie zariadenie poskytuje aj služby spojené s podávaním jedál a nápojov, môže využiť funkcie programu určené aj&amp;nbsp;pre odborové zameranie &lt;EM&gt;&lt;STRONG&gt;Gastro&lt;/STRONG&gt;&lt;/EM&gt;. Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="afacbd84-5416-4179-ba37-e4843b6ebc4c" style="auto-update-caption: true"&gt;OBERON pre gastroprevádzky&lt;/A&gt;. &lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Ďalšie informácie o&amp;nbsp;špecifických&amp;nbsp;funkciách, evidenciách&amp;nbsp;a nástrojoch OBERON-u, ktoré môžu využiť ubytovacie zariadenia, nájdete v&amp;nbsp;téme&amp;nbsp;&lt;A href="7fe31f77-9973-46a5-82b8-e27b7eda72a3" style="auto-update-caption: true"&gt;OBERON pre ubytovacie zariadenia&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;/LI&gt;&lt;/UL&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;
+&lt;H1&gt;6. Účtovné firmy&amp;nbsp;&lt;/H1&gt;
+&lt;TABLE id=table6 cellSpacing=15 cellPadding=15 border=1&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TD bgColor=white width="10%" align=left cellspacing="15" cellpadding="15"&gt;&lt;IMG style="FLOAT: left; MARGIN-RIGHT: 20px" border=0 alt="" src="images/OBERON/Basic/OBERON_AccountingCompanies.png"&gt;&lt;/TD&gt;
+&lt;TD style="TEXT-ALIGN: left; PADDING-TOP: 15px" bgColor=white width="85%"&gt;
+&lt;P&gt;Osobitným okruhom účtovných jednotiek, pre ktoré je OBERON určený, sú &lt;STRONG&gt;účtovné firmy, ktoré vedú&amp;nbsp;účtovníctvo pre veľký počet ďalších firiem&lt;/STRONG&gt;. Tieto firmy môžu využiť predovšetkým tieto funkcie programu:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Podvojné aj jednoduché účtovníctvo&lt;/STRONG&gt; - program umožňuje účtovným firmám viesť účtovníctvo tak v sústave&amp;nbsp;&lt;A href="49dd3167-870a-4fdf-b631-d4f692f1ed72"&gt;podvojného&lt;/A&gt;, ako aj&amp;nbsp;&lt;A href="32be28cf-2368-4818-9d24-cfa9d59afb75"&gt;jednoduchého účtovníctva.&lt;/A&gt; 
+&lt;LI&gt;&lt;STRONG&gt;Účtovné osnovy&lt;/STRONG&gt; - podvojné účtovníctvo umožňuje pracovať so štandardnou účtovnou osnovou pre podnikateľské subjekty, pre mikro účtovné jednotky,&amp;nbsp;ako aj s účtovnou osnovou pre&amp;nbsp;neziskové organizácie. 
+&lt;LI&gt;&lt;STRONG&gt;Cloudové riešenia&lt;/STRONG&gt; - na bezproblémový prístup&amp;nbsp;môžu byť databázy jednotlivých&amp;nbsp;firiem uložené v cloude. 
+&lt;LI&gt;&lt;STRONG&gt;Mobilné riešenia&lt;/STRONG&gt; - aplikácia&amp;nbsp;&lt;A href="518026eb-be63-494d-b3e3-837f9509c543" style="auto-update-caption: true"&gt;QeeR skener&lt;/A&gt; pre &lt;EM&gt;Android&lt;/EM&gt; a &lt;EM&gt;iOS&lt;/EM&gt; na&amp;nbsp;&lt;A href="cf9e27af-d4c5-4b0c-9b37-78cfa72b9abd"&gt;automatické účtovanie pokladničných dokladov&lt;/A&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;CRM&lt;/STRONG&gt; - riadenie vzťahov so zákazníkmi a sledovanie obchodných prípadov. 
+&lt;LI&gt;&lt;STRONG&gt;Multilicencia&lt;/STRONG&gt; - pre účtovné firmy je určený osobitný druh licencie - tzv.&amp;nbsp;&lt;A href="644b0685-defe-4ce5-b3cd-e731b5eff299"&gt;multilicencia&lt;/A&gt;, s&amp;nbsp;ktorou môžu viesť účtovníctvo pre neobmedzené množstvo&amp;nbsp;menších firiem. &lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Ďalšie informácie o&amp;nbsp;špecifických&amp;nbsp;funkciách, evidenciách&amp;nbsp;a nástrojoch OBERON-u, ktoré môžu využiť účtovné firmy, nájdete v&amp;nbsp;téme&amp;nbsp;&lt;A href="f101328f-3a41-43ee-96ec-d26ea5e8fa95" style="auto-update-caption: true"&gt;OBERON pre účtovné firmy&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;/LI&gt;&lt;/UL&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;
+&lt;H1&gt;7. Mzdové firmy&amp;nbsp;&lt;/H1&gt;
+&lt;TABLE id=table7 cellSpacing=15 cellPadding=15 border=1&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TD bgColor=white width="10%" align=left cellspacing="15" cellpadding="15"&gt;&lt;IMG style="FLOAT: left; MARGIN-RIGHT: 20px" border=0 alt="" src="images/OBERON/Basic/OBERON_WagesCompanies.png"&gt;&lt;/TD&gt;
+&lt;TD style="TEXT-ALIGN: left; PADDING-TOP: 15px" bgColor=white width="85%"&gt;
+&lt;P&gt;Ďalším osobitným okruhom účtovných jednotiek, pre ktoré je OBERON určený, sú &lt;STRONG&gt;mzdové firmy, ktoré spracúvajú mzdovú agendu&amp;nbsp;pre veľký počet ďalších firiem&lt;/STRONG&gt;. Mzdové firmy môžu využiť najmä tieto funkcie programu:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Spracovanie miezd&lt;/STRONG&gt; - preddefinované typy pracovných pomerov, mzdové predkontácie a mzdové zložky,&amp;nbsp; hromadné&amp;nbsp;&lt;A href="462dcabe-b3eb-4865-8bee-ade16b5faaec"&gt;zaslanie výplatných pások pracovníkom automaticky e-mailom&lt;/A&gt; atď. 
+&lt;LI&gt;&lt;STRONG&gt;Evidencia dochádzky&lt;/STRONG&gt; - okrem spracovania miezd program umožňuje účtovným jednotkám&amp;nbsp;&lt;A href="3883342c-9ef0-4fd9-8773-88df84f78f65"&gt;evidovať čas a dochádzku&lt;/A&gt;. Veľkou výhodou je, že po spracovaní sa dochádzka môže automaticky preniesť do tvorby miezd. 
+&lt;LI&gt;&lt;STRONG&gt;Cloudové riešenia&lt;/STRONG&gt; - na bezproblémový prístup&amp;nbsp;môžu byť databázy jednotlivých&amp;nbsp;firiem uložené v cloude. 
+&lt;LI&gt;&lt;STRONG&gt;CRM&lt;/STRONG&gt; - riadenie vzťahov so zákazníkmi a sledovanie obchodných prípadov. 
+&lt;LI&gt;&lt;STRONG&gt;Multilicencia&lt;/STRONG&gt; - pre mzdové firmy je určený osobitný druh licencie - tzv.&amp;nbsp;&lt;A href="644b0685-defe-4ce5-b3cd-e731b5eff299"&gt;multilicencia&lt;/A&gt;, s&amp;nbsp;ktorou môžu spracúvať mzdovú agendu pre neobmedzené množstvo&amp;nbsp;menších firiem. &lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Ďalšie informácie o&amp;nbsp;špecifických&amp;nbsp;funkciách, evidenciách&amp;nbsp;a nástrojoch OBERON-u, ktoré môžu využiť mzdové firmy, nájdete v&amp;nbsp;téme&amp;nbsp;&lt;A href="9752d9ab-fec9-4864-add3-bab6a4aa44c3" style="auto-update-caption: true"&gt;OBERON pre mzdové firmy&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;/LI&gt;&lt;/UL&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="d12a6216-dde3-4a4a-bea6-759f17aa0042" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="ff101cdb-97bb-4962-b99a-6347d95ff311">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="e3970730-1ba7-4878-9961-673bf6007cc0" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="95d188df-c149-46a9-8474-4d9493f2ad41">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="cdcca6f1-0a5c-4bb1-a0d0-fedb7c40e5af" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="40c83e5f-22aa-4ba5-b4c1-35938f90fac2">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="92eaf06c-2151-45b0-b1bf-4f492533c42a" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="2ed2711c-75f6-4f18-8dbb-1b44eaab93c0">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="697f1e8e-6aa5-4361-b4bc-8244461e17f3" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="04d2db16-08ec-459e-b5c9-71dd3a9f9e2f">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="b517d67e-f06e-42aa-b0cb-3d78cb8536b0">
+      <Keyword m="2024-10-28T06:55:26.1702323Z">Odborové zamerania</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="da2338b2-f56a-4f55-b921-50f09ef9fa25">
+      <Keyword m="2024-10-28T06:55:42.2218972Z">OBERON - pre koho je určený</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="693880d5-e874-4081-a1c3-4973eb4cc219">
+      <Keyword m="2024-10-28T06:56:32.241241Z">Odvetvia - pre koho je OBERON určený</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="01604c2f-121c-47e3-8c6f-fc221b67b037">
+      <Keyword m="2024-10-28T06:56:53.7917285Z">Firmy - pre koho je OBERON určený</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="66efb9c0-4030-447e-9ebc-7a1b3e6c35ff">
+      <Keyword m="2024-10-28T06:57:07.1346693Z">Odbory - pre koho je OBERON určený</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

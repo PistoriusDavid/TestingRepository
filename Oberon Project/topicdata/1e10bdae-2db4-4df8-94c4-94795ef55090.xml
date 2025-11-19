@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="1e10bdae-2db4-4df8-94c4-94795ef55090" Status="Complete" CreatedOn="2014-10-24T06:08:38.9873046Z" ModifiedOn="2024-12-04T14:12:30.0790148Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="22010" Name="Form_OBERON_XML_ExportXML" BuildFlags="">
+  <Title m="2021-11-30T08:41:28.7220846Z">Sprievodca XML komunikácia - export údajov</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-12-04T14:12:30.0790148Z">&lt;P&gt;Sprievodca&amp;nbsp;&lt;EM&gt;XML komunikácia - export údajov&lt;/EM&gt; umožňuje &lt;STRONG&gt;manuálne exportovať&amp;nbsp;údaje do&amp;nbsp;súboru typu&amp;nbsp;XML&lt;/STRONG&gt;.&lt;STRONG&gt;&amp;nbsp;&lt;/STRONG&gt;Dostupný je&amp;nbsp;v&amp;nbsp;rôznych&amp;nbsp;evidenciách programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;&amp;nbsp;(kniha pohľadávok, kniha záväzkov, peňažný denník, príjemky...)&amp;nbsp;po stlačení tlačidla&amp;nbsp;&lt;EM&gt;Možnosti&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Sprievodca umožňuje:&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;Nastaviť názov súboru, prípadne jeho umiestnenie, do ktorého sa budú exportovať údaje. Je vhodné vybrať adresár, v&amp;nbsp;ktorom nemá&amp;nbsp;používateľ systému &lt;EM&gt;Windows&lt;/EM&gt; obmedzené právo na zápis (pridávanie súborov). Takýto adresár je napr. &lt;I&gt;C:\OBERON\_Export_Import&lt;/I&gt;. 
+&lt;LI&gt;Určiť, či sa má vytvoriť vzorový súbor typu XML. Vytvorenie takéhoto súboru má význam pre integrátorov na poznanie názvov všetkých elementov a komentárov. Štandardný&amp;nbsp;súbor XML neobsahuje komentare a všetky elementy, čím je takýto súbor relatívne menší. 
+&lt;LI&gt;Určiť,&amp;nbsp;ktoré záznamy sa majú&amp;nbsp;exportovať: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;I&gt;Aktuálne vybraný záznam&lt;/I&gt; - záznam, ktorý je označený kurzorom, 
+&lt;LI&gt;&lt;I&gt;&lt;A href="54bcf6c3-515f-4dcb-a3eb-0bf905629a16"&gt;Len označené záznamy&lt;/A&gt;&lt;/I&gt; - za označený záznam sa považuje ten, ktorý v&amp;nbsp;prvom stĺpci knihy (zoznamu) obsahuje znak &lt;B&gt;*&lt;/B&gt; (hviezdička), 
+&lt;LI&gt;&lt;I&gt;Všetky záznamy v zozname&lt;/I&gt; - všetky záznamy knihy alebo tie, ktoré zodpovedajú podmienkam &lt;A href="1ea156c6-edd0-46e0-ab65-7f41af30e672"&gt;filtra&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Vybrať&amp;nbsp;&lt;A href="ab9d497d-fd18-4185-a487-28e3bf04cecf"&gt;nastavenia XML komunikácie&lt;/A&gt;, ktoré sa majú uplatniť, prípadne vykonať export v&amp;nbsp;natívnom formáte &lt;EM&gt;OBERON XML&lt;/EM&gt;. &lt;/LI&gt;&lt;/OL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt; 
+&lt;P&gt;Bližšie informácie o nastaveniach XML komunikácie sú k dispozícii v téme &lt;A href="ab9d497d-fd18-4185-a487-28e3bf04cecf"&gt;Nastavenia XML komunikácie&lt;/A&gt;.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="fc275444-fe60-4730-b62a-491452c0b026" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="56f661c6-24da-46aa-b157-5d988cbe792b">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="2cbcaee9-f297-42e1-b800-e8b023342dc2" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="ab9d497d-fd18-4185-a487-28e3bf04cecf">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="51ab26b3-a698-4017-8b54-590f26a02a91" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="2c463344-2e7a-4599-8afb-f5d06c2366e0">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="43c4fb8c-a041-4909-88e2-de203a0322e1">
+      <Keyword m="2021-05-05T08:53:16.7924837Z">XML komunikácia - manuálny export údajov (sprievodca)</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="6b4e0a83-2cb3-47ae-bb88-46931655a756">
+      <Keyword m="2021-05-05T08:53:10.6796477Z">Export údajov - XML komunikácia (sprievodca)</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

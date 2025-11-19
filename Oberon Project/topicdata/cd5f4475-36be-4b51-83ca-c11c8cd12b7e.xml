@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="cd5f4475-36be-4b51-83ca-c11c8cd12b7e" Status="Complete" CreatedOn="2019-04-17T10:46:09.8232675Z" ModifiedOn="2023-12-29T12:32:28.7188636Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="21700" Name="Device_FiscalDevice_ECM" BuildFlags="">
+  <Title m="2019-04-17T11:19:16.331483Z">EXALOGIC CashRegister Manager</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-12-29T12:32:28.7188636Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;informácie o aplikácii&lt;/STRONG&gt; &lt;STRONG&gt;&lt;EM&gt;EXALOGIC CashRegister Manager&lt;/EM&gt;&amp;nbsp;(ECM)&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;EM&gt;&lt;STRONG&gt;E&lt;/STRONG&gt;XALOGIC &lt;STRONG&gt;C&lt;/STRONG&gt;ashRegister &lt;STRONG&gt;M&lt;/STRONG&gt;anager&lt;/EM&gt;&amp;nbsp;(ECM) predstavuje&amp;nbsp;ovládač&amp;nbsp;(tlačový manažér) systému eKasa, prostredníctvom ktorého&amp;nbsp;&lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9" style="auto-update-caption: true"&gt;Pokladnica OBERON&lt;/A&gt; môže v&amp;nbsp;závislosti od konkrétneho&amp;nbsp;&lt;A href="b24ad235-cf7f-43e2-b3e8-ec0f7d92f6b6"&gt;fiškálneho zariadenia&lt;/A&gt;&amp;nbsp;s&amp;nbsp;týmto&amp;nbsp;fiškálnym zariadením komunikovať.&amp;nbsp;Aplikácia je spustená&amp;nbsp;na pozadí systému &lt;EM&gt;Windows&lt;/EM&gt; a jej ikona&amp;nbsp;sa štandardne&amp;nbsp;zobrazuje na&amp;nbsp;paneli úloh (vpravo dole). 
+&lt;LI&gt;&lt;EM&gt;EXALOGIC CashRegister Manager&lt;/EM&gt;&amp;nbsp;ako&amp;nbsp;aplikácia systému &lt;EM&gt;Windows&lt;/EM&gt;&amp;nbsp;beží v počítači a komunikuje s&amp;nbsp;eKasa zariadením&amp;nbsp;a nadstavbovým pokladničným programom&amp;nbsp;&lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9" style="auto-update-caption: true"&gt;Pokladnica OBERON&lt;/A&gt;. 
+&lt;LI&gt;Ovládač ECM môže pracovať vo viacerých režimoch (&lt;STRONG&gt;jednoduchý režim, režim Windows služba, režim zdieľania&lt;/STRONG&gt;), viac informácií získate v téme &lt;A href="19b510d5-e443-4f00-b4dc-6048fa05a4ea"&gt;Režimy použitia ovládača EXALOGIC CashRegister Manager&lt;/A&gt;. 
+&lt;LI&gt;ECM je súčasťou štandardnej inštalácie OBERON-u, automaticky sa inštaluje&amp;nbsp;do adresára &lt;EM&gt;OBERON\eKasaECM&lt;/EM&gt;. 
+&lt;LI&gt;V aktuálnej verzii&amp;nbsp;ECM&amp;nbsp;zabezpečuje komunikáciu len s fiškálnym zariadením&amp;nbsp;&lt;A href="00fa9619-a13d-4745-8938-cc0c2b5039ce"&gt;eKasa PANDORA&lt;/A&gt;&amp;nbsp;&lt;A href="1f32a90c-7b4a-4d69-9f38-a560178794b3" style="auto-update-caption: true"&gt;&lt;IMG border=0 alt="Odporúčané riešenia" src="images/OBERON/Basic/Odporucane-riesenie_ruka_ikona.png"&gt;&lt;/A&gt;. Vtedy ECM obsahuje inštanciu&amp;nbsp;&lt;STRONG&gt;eKasa&amp;nbsp;PANDORA&amp;nbsp;PPEKK&lt;/STRONG&gt; (pokladničný program eKasa klient), s ktorým OBERON komunikuje prostredníctvom protokolu TCP/IP. Postup inštalácie získate v téme&amp;nbsp;&lt;A href="2bb8914d-3e8f-417d-a083-b83300c24d66"&gt;Fiškálna tlačiareň eKasa PANDORA - inštalácia&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 1: Ponuka&amp;nbsp;aplikácie &lt;EM&gt;EXALOGIC CashRegister Manager&lt;/EM&gt; (po kliknutí pravým tlačidlom myši na ikonu)&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/CashRegisterECM/Device_ECM_Menu.png"&gt;&lt;/P&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;SPAN style="COLOR: rgb(0,176,80)"&gt;&lt;STRONG&gt;Zelená farba&lt;/STRONG&gt;&lt;/SPAN&gt; ikony&amp;nbsp;aplikácie &lt;EM&gt;EXALOGIC CashRegister Manager&lt;/EM&gt; indikuje, že komunikácia s fiškálnym zariadením prebieha korektne, &lt;SPAN style="COLOR: rgb(255,0,0)"&gt;&lt;STRONG&gt;červená farba&lt;/STRONG&gt;&lt;/SPAN&gt; ikony&amp;nbsp;znamená, že fiškálne zariadenie je odpojené, &lt;SPAN style="COLOR: rgb(247,150,70)"&gt;&lt;STRONG&gt;oranžová farba&lt;/STRONG&gt;&lt;/SPAN&gt; ikony signalizuje nedostupnosť servera finančnej správy.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Stavový panel&lt;/H2&gt;
+&lt;P&gt;Stavový panel ovládača &lt;EM&gt;EXALOGIC CashRegister Manager&lt;/EM&gt; sa zobrazí po vybratí možnosti &lt;EM&gt;Spravovať ECM&lt;/EM&gt; v ponuke&amp;nbsp;ovládača. Panel informuje o aktuálnom stave nasledujúcich položiek:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;EXALOGIC CashRegister Manager&lt;/STRONG&gt; - aktuálny stav ovládača ECM z hľadiska jeho pripojenia na &lt;EM&gt;ECM Server&lt;/EM&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;ECM Server&lt;/STRONG&gt; - predstavuje tlačový manažér fiškálneho zariadenia (pri zariadení &lt;EM&gt;eKasa PANDORA&lt;/EM&gt;&amp;nbsp;je to&amp;nbsp;PPEKK). Môže bežať na tomto počítači, prípadne na inom. 
+&lt;LI&gt;&lt;STRONG&gt;Chránené dátové úložisko&lt;/STRONG&gt; - zobrazuje pripojenie ovládača &lt;EM&gt;ECM Server&lt;/EM&gt; k fiškálnemu zariadeniu alebo CHDÚ. 
+&lt;LI&gt;&lt;STRONG&gt;Tlačiareň pokladničných dokladov&lt;/STRONG&gt; - informuje o aktuálnom stave pripojenia tlačiarne pokladničných dokladov. 
+&lt;LI&gt;&lt;STRONG&gt;Server finančnej správy&lt;/STRONG&gt; - signalizuje dostupnosť servera finančnej správy na zasielanie pokladničných dokladov, resp. dátových správ. 
+&lt;LI&gt;&lt;STRONG&gt;Aktuálny stav systému eKasa&lt;/STRONG&gt; - informuje o celkovom aktuálnom stave a funkčnosti&amp;nbsp;systému eKasa, napr. detekcia chybnej dátovej správy, neodoslaných dokladov, platnosti certifikátu podnikateľa a pod. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 2: Stavový panel ovládača &lt;EM&gt;EXALOGIC CashRegister Manager&lt;/EM&gt;&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/CashRegisterECM/Device_ECM_StatusPanel.png"&gt;&amp;nbsp;&lt;/P&gt;
+&lt;H2&gt;Základné funkcie aplikácie&lt;/H2&gt;
+&lt;P&gt;Aplikácia&amp;nbsp;&lt;EM&gt;EXALOGIC CashRegister Manager&lt;/EM&gt; umožňuje vykonávať nasledujúce akcie:&lt;/P&gt;
+&lt;OL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Neodoslané doklady&lt;/STRONG&gt; - program umožňuje neodoslané&amp;nbsp;doklady zobraziť, vytlačiť alebo&amp;nbsp;odoslať na &lt;EM&gt;Finančnú správu SR&lt;/EM&gt;, viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="49a252bc-d94f-4296-9a80-4ebf60f06e34"&gt;Neodosladné doklady&lt;/A&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;Poloha pokladnice&lt;/STRONG&gt; - príslušný&amp;nbsp;formulár umožňuje zadať údaje, ktoré identifikujú umiestnenie prenosnej pokladnice, na ktorej podnikateľ v danom čase eviduje prijatú tržbu. Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="a6b7934e-b2e9-4e76-87d7-26ee0fd40775"&gt;Poloha pokladnice&lt;/A&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;Nastavenie komunikácie&lt;/STRONG&gt; - možnosť nastaviť komunikáciu medzi&amp;nbsp;aplikáciou &lt;EM&gt;EXALOGIC CashRegister Manager&lt;/EM&gt; a fiškálnym zariadením, viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="20fab2a5-7ca2-41e6-ae77-dae8e2878d40"&gt;Nastavenie komunikácie&lt;/A&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;Zápis identifikačných a autentifikačných údajov&lt;/STRONG&gt; - pomocou príslušného sprievodcu je možné fiškálnemu zariadeniu nastaviť&amp;nbsp;identifikačné a autentifikačné údaje, viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="a14ac842-73d2-4d86-ab96-a99fe02e5a8f"&gt;Zápis identifikačných a autentifikačných údajov&lt;/A&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;Servisné funkcie&lt;/STRONG&gt; - jednotlivé servisné funkcie sú popísané v téme&amp;nbsp;&lt;A href="29bd64a8-4089-47af-9d44-7b52ec98996b"&gt;Servisné funkcie ECM&lt;/A&gt;. &lt;/LI&gt;&lt;/OL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="147ebf2a-d8d5-4bfa-9b1c-e040fef90893" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="b24ad235-cf7f-43e2-b3e8-ec0f7d92f6b6">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="e47ec047-6498-4d4f-8f77-b05891eb0ba6" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="49a252bc-d94f-4296-9a80-4ebf60f06e34">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="cf74d93e-8ae1-4106-b0b1-a717c7c24569" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="a6b7934e-b2e9-4e76-87d7-26ee0fd40775">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="2c77df98-ae81-4e8c-a57d-d1e6f85dfd59" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="20fab2a5-7ca2-41e6-ae77-dae8e2878d40">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="be78204e-b1e6-457e-96aa-e8dd8d95c910" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="a14ac842-73d2-4d86-ab96-a99fe02e5a8f">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="5bebce26-ab8b-4fc9-a3c3-d68257094197" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="a75ad602-f141-475d-afba-8d0f3dcf668a">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="41b54c0d-83b2-4452-878f-79525be8ac37" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="8fa578bf-92a5-43f3-82fc-be145cd19442">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="31835a27-7b96-4229-84cc-6d5753217dbf" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="19b510d5-e443-4f00-b4dc-6048fa05a4ea">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="100fb89b-b808-4aab-8beb-24f0ec343518">
+      <Keyword m="2022-08-12T09:49:51.9315295Z">ECM - základné informácie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="608805d2-1433-4ba6-8d0d-d9546a453e9a">
+      <Keyword m="2022-08-12T09:50:05.5646387Z">eKasa - EXALOGIC CashRegister Manager - základné informácie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="b3482b08-b4db-4b3e-bcd7-589c8fcd589b">
+      <Keyword m="2022-08-12T09:50:01.2846223Z">eKasa - ECM - základné informácie</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

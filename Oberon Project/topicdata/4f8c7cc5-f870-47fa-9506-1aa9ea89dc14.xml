@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="4f8c7cc5-f870-47fa-9506-1aa9ea89dc14" Status="Complete" CreatedOn="2014-09-05T15:19:19.7697851Z" ModifiedOn="2023-04-04T09:19:39.8122044Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="22209" Name="Menu_Stock_SerialNumbers" BuildFlags="">
+  <Title m="2014-09-06T19:30:47.5231571Z">Výrobné a sériové čísla </Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-04-04T09:19:39.8122044Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;je venovaná&amp;nbsp;položke&amp;nbsp;&lt;EM&gt;Výrobné a sériové čísla&lt;/EM&gt;&amp;nbsp;v&amp;nbsp;ponuke&amp;nbsp;&lt;EM&gt;Sklad&lt;/EM&gt; programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&amp;nbsp;&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Výberom položky sa otvorí&amp;nbsp;&lt;STRONG&gt;zoznam&amp;nbsp;výrobných a sériových čísel, pod ktorými sú evidované príslušné&amp;nbsp;skladové položky&lt;/STRONG&gt; v knihe&amp;nbsp;&lt;A href="1a33ab0b-2df7-4dc2-962b-8a3319c16831"&gt;Skladové karty&lt;/A&gt;. Modul&amp;nbsp;&lt;A href="78d20602-4b59-4b31-9f0a-a04a1d376ec5"&gt;Skladová evidencia&lt;/A&gt; totiž umožňuje evidovať jednotlivé položky&amp;nbsp;v&amp;nbsp;sklade aj pod výrobným,&amp;nbsp;prípadne sériovým číslom. &amp;nbsp;&amp;nbsp;&amp;nbsp; 
+&lt;LI&gt;Ponuka &lt;I&gt;Sklad,&amp;nbsp;Výrobné a sériové čísla&lt;/I&gt; predstavuje len zoznam evidovaných výrobných a sériových čísel a nie štandardnú evidenciu. Nenachádza sa tu tlačidlo &lt;EM&gt;Nový&lt;/EM&gt; ani &lt;EM&gt;Oprava&lt;/EM&gt; na pridanie, resp. opravu výrobného alebo sériového čísla. Tie sa pridávajú na inom mieste - &lt;STRONG&gt;v&amp;nbsp;procese tvorby dokladu&amp;nbsp;&lt;/STRONG&gt;&lt;A href="efed1882-1614-4406-b57a-3023aee6ba26"&gt;Príjemka&lt;/A&gt;. Viac informácií získate v téme &lt;A href="11af5a68-7562-4576-b7c5-ee49a64a571a"&gt;Príjem tovaru s výrobným/sériovým číslom do skladu&lt;/A&gt;. 
+&lt;LI&gt;Pod pojmom &lt;STRONG&gt;výrobné číslo&lt;/STRONG&gt; sa rozumie číslo&amp;nbsp;jedného kusu daného tovaru. To znamená, že&amp;nbsp;na jedno výrobné číslo je možné prijať len jeden kus daného tovaru. 
+&lt;LI&gt;&lt;STRONG&gt;Sériové číslo&lt;/STRONG&gt;, na rozdiel od výrobného čísla, predstavuje číslo pre niekoľko&amp;nbsp;kusov daného tovaru - &lt;STRONG&gt;sériu, šaržu, dávku vyrobenú naraz&lt;/STRONG&gt; (napr. konzerv jedla, namiešanej farby,&amp;nbsp;keramiky vypálenej v&amp;nbsp;jednej várke a pod.). V&amp;nbsp;tomto prípade je&amp;nbsp;na jedno sériové číslo možné prijať viacero kusov daného tovaru. 
+&lt;LI&gt;Aby program umožňoval evidovať výrobné a sériové čísla, je potrebné na &lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;skladovej karte&lt;/A&gt; v záložke &lt;I&gt;Doplň. údaje&lt;/I&gt; zvoliť možnosť &lt;I&gt;&lt;STRONG&gt;Evidovať výrobné/sériové čísla&lt;/STRONG&gt;&lt;/I&gt;. 
+&lt;LI&gt;Kliknutím na tlačidlo &lt;I&gt;Podrobnosti&lt;/I&gt; sa zobrazia podrobnosti o skladových pohyboch v súvislosti s výrobným alebo sériovým číslom.&amp;nbsp; 
+&lt;LI&gt;S&amp;nbsp;evidenciou výrobných a sériových čísel je zároveň možné definovať záručnú dobu (&lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;formulár Skladová karta&lt;/A&gt;,&amp;nbsp;záložka &lt;EM&gt;Doplň. údaje&lt;/EM&gt;), prípadne vytlačiť záručné listy (v&amp;nbsp;ponuke &lt;EM&gt;Sklad,&amp;nbsp;&lt;/EM&gt;&lt;A href="0be61fcc-a85b-4572-876d-2171a5cb7c29"&gt;Výdajky&lt;/A&gt;, resp. &lt;EM&gt;Fakturácia&lt;/EM&gt;,&amp;nbsp;&lt;A href="5c21adcc-87c8-44e7-981d-02902635693d"&gt;Kniha pohľadávok&lt;/A&gt;). &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Ďalšie informácie získate v téme&amp;nbsp;&lt;A href="6f1a89e8-2f56-4543-a452-409834433d36"&gt;Všeobecne o výrobných a sériových číslach&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="9a1a88e0-2950-44c2-902f-5a95ec548bfd" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="6f1a89e8-2f56-4543-a452-409834433d36">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="ad5958d7-1b0f-4c4a-9c74-8a542b5378d4" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="11af5a68-7562-4576-b7c5-ee49a64a571a">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="675bef0e-4e2a-40c4-9474-9b993a4b0667" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="27d57cef-b60c-4f53-a2a0-a63698a367a7">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="7b975366-2f26-4257-ae57-f56f8c8d54b4" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="c233ada3-0fed-4911-97f3-0680973ebac1">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="4311b3d2-2514-4b28-baac-849c8c7566e5">
+      <Keyword m="2021-11-19T11:49:16.7494859Z">Výrobné číslo</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="ffe55872-c4d4-4beb-8d12-54a16b242abe">
+      <Keyword m="2021-11-19T11:49:23.3739622Z">Sériové číslo</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

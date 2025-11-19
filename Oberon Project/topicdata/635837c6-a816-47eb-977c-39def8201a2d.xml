@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="635837c6-a816-47eb-977c-39def8201a2d" Status="Complete" CreatedOn="2022-02-21T10:11:24.406297Z" ModifiedOn="2022-02-21T13:29:56.3937991Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Help_AboutProgram" BuildFlags="">
+  <Title m="2022-02-21T10:12:07.6397652Z">O programe</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2022-02-21T13:29:56.3937991Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;je venovaná&amp;nbsp;položke&amp;nbsp;&lt;EM&gt;O programe&lt;/EM&gt;&amp;nbsp;v ponuke&amp;nbsp;&lt;EM&gt;Pomocník&lt;/EM&gt; programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Výberom položky sa&amp;nbsp;otvorí formulár &lt;EM&gt;O programe&lt;/EM&gt;, ktorý obsahuje&amp;nbsp;nasledujúce informácie: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;EM&gt;&lt;STRONG&gt;Verzia&lt;/STRONG&gt;&lt;/EM&gt; - informácia o aktuálne nainštalovanej verzii&amp;nbsp;systému OBERON&amp;nbsp;(napr. &lt;EM&gt;Február/2022&lt;/EM&gt;), prípadne číslo jej revízie (napr. 4.1.11.0). Pred&amp;nbsp;&lt;A href="f6c9b9bf-bd79-4781-b0a4-f3f69b8304c5"&gt;inštalovaním novšej verzie&lt;/A&gt;&amp;nbsp;odporúčame vykonať&amp;nbsp;&lt;A href="493f5942-f267-4f98-a46d-8acc745b9b88"&gt;zálohovanie databázy&lt;/A&gt;&amp;nbsp;účtovnej jednotky. Dôvodom je skutočnosť, že po nainštalovaní novej verzie a&amp;nbsp;následnom prvom otvorení databázy sa spravidla vykonáva tzv. transformácia (konverzia) databázy - úprava databázových štruktúr, pričom v prípade problémov môže dôjsť aj k strate niektorých údajov. 
+&lt;LI&gt;&lt;EM&gt;&lt;STRONG&gt;Verzia databázy&lt;/STRONG&gt;&lt;/EM&gt; - informácia o aktuálnej verzii databázy (napr. 4.11). 
+&lt;LI&gt;&lt;EM&gt;&lt;STRONG&gt;Dátum vydania verzie&lt;/STRONG&gt;&lt;/EM&gt; - napr. 26. 1. 2022. 
+&lt;LI&gt;Informácia o autorských právach a&amp;nbsp;kontaktné údaje dodávateľa programu. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Stlačením tlačidla&amp;nbsp;&lt;EM&gt;&lt;STRONG&gt;Detaily&lt;/STRONG&gt;&lt;/EM&gt; sa zobrazí formulár, ktorý obsahuje súhrnné informácie o&amp;nbsp;účtovnej jednotke, verzii operačného systému, parametroch počítača, type databázy, jej veľkosti, umiestnenia v&amp;nbsp;počítači atď. Formulár zároveň obsahuje prehľad používaných modulov s&amp;nbsp;možnosťou zobrazenia počtu záznamov v&amp;nbsp;jednotlivých evidenciách podľa účtovných období.
+&lt;LI&gt;Pri novej verzii systému OBERON (posudzuje sa názov a dátum vydania verzie) je potrebné nainštalovať aktualizáciu OBERON-u (pri sieťovej prevádzke na každom počítači v sieti).&amp;nbsp;Pri databázovom systéme typu SQL&amp;nbsp;po nainštalovaní novšej verzie OBERON-u do počítača zodpovednej osoby a&amp;nbsp;úspešnej transformácii (konverzii) databázy možno&amp;nbsp;použiť&amp;nbsp;&lt;A href="2a1837ed-0abe-4628-af0f-1d01841af450"&gt;automatickú databázovú aktualizáciu&lt;/A&gt;, keď&amp;nbsp;sa zašle pokyn všetkým počítačom v&amp;nbsp;sieti (ktoré sú pripojené&amp;nbsp;k&amp;nbsp;databáze), aby&amp;nbsp;pokračovali v&amp;nbsp;procese aktualizácie. Podmienkou je, aby všetci používatelia v sieti mali&amp;nbsp;v&amp;nbsp;čase aktualizácie&amp;nbsp;v počítači rovnakú verziu OBERON-u.&lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="b67ce8f2-cdb9-4baa-a707-3ab02e734163" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="8c0e0dd3-ce14-410b-9a1c-76b92585e960">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="3be97b1f-cee7-40c8-85b9-73a5f9f3a87e" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="519bcf42-f3e7-48c1-98a9-02a5784576f9">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="d03bccf0-fa11-432d-b5fe-d80382a0cb4b" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="b3576a4b-0cf7-4032-bc13-35a363dd611a">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="a8c49af5-b588-448a-a88e-c606421ec024" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="14223592-268a-4a9d-a456-da9adeb1c46b">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="5b20f37d-7072-4dec-89b2-781a7d439037">
+      <Keyword m="2022-02-21T11:08:56.4263242Z">Počet záznamov v jednotlivých evidenciách podľa účtovných období</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="a59356a6-e6d4-4b7b-8314-c8e3ef177259">
+      <Keyword m="2022-02-21T11:07:26.3353515Z">Verzia programu - informácie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="c74b98d9-ed25-4553-9cf5-7c348342ec75">
+      <Keyword m="2022-02-21T11:07:39.3619338Z">Verzia databázy - informácie</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

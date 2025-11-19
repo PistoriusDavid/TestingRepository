@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="846ca30b-f11b-4096-ad20-3e4c57ba09d5" Status="Complete" CreatedOn="2022-11-02T11:46:12.4836682Z" ModifiedOn="2024-05-31T12:31:40.8583546Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="OAC_AutomaticEmailSending" BuildFlags="">
+  <Title m="2020-10-07T08:52:35.1297917Z">Automatické odosielanie e-mailov</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-05-31T12:31:40.8583546Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; je venovaná&amp;nbsp;jednej z&amp;nbsp;&lt;A href="9ce25bbd-35d1-4096-acd5-70007f5af5a6"&gt;automatických úloh&lt;/A&gt;&amp;nbsp;systému OBERON&amp;nbsp;- &lt;STRONG&gt;automatickému odosielaniu e-mailov&lt;/STRONG&gt;.&lt;/P&gt;&lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;V systéme OBERON&amp;nbsp;je táto&amp;nbsp;automatická úloha z dôvodu kompatibility stále&amp;nbsp;vykonávaná aj v&amp;nbsp;staršom programe &lt;EM&gt;OBERON Center&lt;/EM&gt;, avšak&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;&amp;nbsp;s obmedzenou platnosťou&lt;/SPAN&gt;.&amp;nbsp;Z tohto dôvodu je potrebné automatickú úlohu konfigurovať v&amp;nbsp;programe&amp;nbsp;&lt;A href="09f3dae9-2fb7-490f-97dc-37f60885b398"&gt;OBERON Automation Center&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Základné informácie&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;EM&gt;Automatické odosielanie e-mailov&lt;/EM&gt;&amp;nbsp;predstavuje&amp;nbsp;&lt;A href="9ce25bbd-35d1-4096-acd5-70007f5af5a6"&gt;automatickú úlohu&lt;/A&gt;, ktorá v&amp;nbsp;systéme OBERON umožňuje&amp;nbsp;&lt;STRONG&gt;automaticky odosielať e-mailové správy v rámci&amp;nbsp;&lt;/STRONG&gt;&lt;A href="04e52362-d0f3-4a9a-8ec5-36ef724a7ee2"&gt;hromadného zasielania e-mailov&lt;/A&gt; (hromadného mailingu) - jedného zo spôsobov&amp;nbsp;&lt;A href="e06c0c09-80ea-4083-8f6a-5a49a3fc9474"&gt;odosielania e-mailových správ&lt;/A&gt; v systéme OBERON. 
+&lt;LI&gt;Hromadné zasielanie e-mailov (hromadný mailing)&amp;nbsp;v&amp;nbsp;systéme OBERON&amp;nbsp;je nástrojom, ktorý umožňuje &lt;STRONG&gt;rozposielať hromadné e-mailové správy konkrétnym skupinám príjemcov (stovkám až tisícom adresátov)&lt;/STRONG&gt;, napr. v rámci&amp;nbsp;marketingovej kampane, informovania o&amp;nbsp;rôznych podujatiach, zmenách (napr. adresy sídla firmy) a pod. Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="04e52362-d0f3-4a9a-8ec5-36ef724a7ee2" style="auto-update-caption: true"&gt;Hromadné zasielanie e-mailov&lt;/A&gt;. 
+&lt;LI&gt;Hromadné e-mailové správy &lt;STRONG&gt;sa vytvárajú&lt;/STRONG&gt; v programe &lt;EM&gt;OBERON – Agenda firmy&lt;/EM&gt; v ponuke &lt;EM&gt;CRM&lt;/EM&gt;,&amp;nbsp;&lt;A href="f7710ccc-3e00-4ba2-a8d6-c11f18f5ddae"&gt;Hromadné správy (kampane)&lt;/A&gt;. 
+&lt;LI&gt;E-mailové správy vytvorené (vygenerované)&amp;nbsp;pomocou hromadného mailingu (kampaní) &lt;STRONG&gt;sa evidujú&lt;/STRONG&gt; v&amp;nbsp;evidencii&amp;nbsp;&lt;A href="32dedc5d-8e4e-420e-acec-60ba202b6ec7"&gt;E-mailové správy&lt;/A&gt;. Pri hromadnom odoslaní e-mailov &lt;STRONG&gt;sa&amp;nbsp;vytvorené (vygenerované)&amp;nbsp;e-mailové správy pre všetkých príjemcov (adresátov) uložia v&amp;nbsp;tejto evidencii a následne sa pomocou SMTP servera fyzicky odošlú&lt;/STRONG&gt;.&amp;nbsp;Na základe toho je možné spätne overiť, či bola správa danému adresátovi odoslaná. 
+&lt;LI&gt;Automatická úloha &lt;EM&gt;Automatické odosielanie e-mailov&lt;/EM&gt; &lt;STRONG&gt;zabezpečuje&amp;nbsp;fyzické odosielanie e-mailových správ&lt;/STRONG&gt;&amp;nbsp;z&amp;nbsp;evidencie&amp;nbsp;&lt;A href="32dedc5d-8e4e-420e-acec-60ba202b6ec7"&gt;E-mailové správy&lt;/A&gt;. Ak sa v danej evidencii objaví nová e-mailová správa (alebo viac správ), vzápätí&amp;nbsp;sa odošle (do cca 15 sekúnd). 
+&lt;LI&gt;Automatickú úlohu &lt;EM&gt;Automatické odosielanie e-mailov&lt;/EM&gt;&amp;nbsp;možno nastaviť pre konkrétnu&amp;nbsp;&lt;A href="8df798f2-4fbf-4279-ad8c-493bdbe7f2e4"&gt;prevádzku&lt;/A&gt;, napr. ak má účtovná jednotka viac predajní v&amp;nbsp;rôznych mestách a chce zasielať akciový leták len zákazníkom v danom meste. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt; 
+&lt;P&gt;V rámci hromadného mailingu je okrem e-mailových správ možné hromadne zasielať aj &lt;STRONG&gt;SMS správy&lt;/STRONG&gt;. Ide, samozrejme, len o zasielanie krátkych textových správ bez obrázkov a príloh. Na ich zasielanie &lt;STRONG&gt;je okrem automatickej úlohy &lt;EM&gt;Automatické odosielanie e-mailov&lt;/EM&gt;&lt;/STRONG&gt; &lt;STRONG&gt;potrebné nastaviť aj ďalšiu automatickú úlohu&lt;/STRONG&gt; &lt;A href="4a6f63ac-fdeb-4de8-93d1-77c969da1f18"&gt;Posielanie SMS správ cez EuroSMS&lt;/A&gt;, ktorá umožňuje automaticky zasielať vytvorené SMS v rámci alebo mimo firmy a&amp;nbsp;zároveň spätne overovať, či a kedy bola daná&amp;nbsp;SMS správa doručená. Všetky vygenerované SMS správy sa nachádzajú v&amp;nbsp;evidencii&amp;nbsp;&lt;EM&gt;CRM&lt;/EM&gt;, &lt;A href="d4119d75-dd5b-4a1c-b9fa-c982601e0746"&gt;SMS správy&lt;/A&gt;. Na využitie služby &lt;STRONG&gt;je&lt;/STRONG&gt; &lt;STRONG&gt;potrebná registrácia&lt;/STRONG&gt; na stránke &lt;A href="http://www.eurosms.com/"&gt;www.eurosms.com&lt;/A&gt;. Po zaregistrovaní získate prihlasovacie údaje a integračné údaje potrebné pre odosielanie SMS. Služba &lt;STRONG&gt;je spoplatnená podľa cenníka poskytovateľa&lt;/STRONG&gt;.&amp;nbsp;Bližšie informácie získate&amp;nbsp;v témach&amp;nbsp;&lt;A href="cb2b6fc2-5bb6-49e3-8bbf-65463b3f026f"&gt;EuroSMS&lt;/A&gt; a&amp;nbsp;&lt;A href="d4119d75-dd5b-4a1c-b9fa-c982601e0746" style="auto-update-caption: true"&gt;SMS správy&lt;/A&gt;.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Nastavenie hromadného zasielania e-mailov&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;Pred&amp;nbsp;nastavením automatickej úlohy v&amp;nbsp;systéme OBERON &lt;STRONG&gt;sa uistite, že je&amp;nbsp;na počítači, ktorý je neustále zapnutý (spravidla sieťovom databázovom serveri),&lt;/STRONG&gt;&amp;nbsp;správne nastavený&amp;nbsp;&lt;STRONG&gt;server&lt;/STRONG&gt;&amp;nbsp;&lt;A href="09f3dae9-2fb7-490f-97dc-37f60885b398"&gt;OBERON Automation Center&lt;/A&gt;. Postup nastavenia je dostupný v&amp;nbsp;téme&amp;nbsp;&lt;A href="fd64c37a-486b-4cdf-a370-297aaa8a8f73" style="auto-update-caption: true"&gt;Nastavenie servera OBERON Automation Center&lt;/A&gt;.&amp;nbsp;Správnosť nastavenia a&amp;nbsp;fungovania&amp;nbsp;servera OAC môžete skontrolovať v&amp;nbsp;programe&lt;STRONG&gt;&amp;nbsp;&lt;EM&gt;OBERON Automation Center&lt;/EM&gt; (klient)&lt;/STRONG&gt; (v&amp;nbsp;programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;, ponuka&amp;nbsp;&lt;EM&gt;OBERON&lt;/EM&gt;,&amp;nbsp;&lt;A href="69282df4-d4d6-462a-8cf2-68000e3e6f93"&gt;OBERON Automation Center (klient)&lt;/A&gt;). &lt;SPAN style="COLOR: rgb(255,0,0)"&gt;Pri&amp;nbsp;použití&lt;/SPAN&gt; &lt;EM style="COLOR: rgb(255,0,0)"&gt;OBERON Automation Center&lt;/EM&gt;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;&amp;nbsp;&lt;STRONG&gt;odporúčame&lt;/STRONG&gt;&lt;/SPAN&gt; &lt;STRONG style="COLOR: rgb(255,0,0)"&gt;používať databázu SQL&lt;/STRONG&gt;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;.&lt;/SPAN&gt; 
+&lt;LI&gt;Na &lt;STRONG&gt;klientskom počítači&lt;/STRONG&gt; spustite program &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt; a&amp;nbsp;v&amp;nbsp;ponuke &lt;EM&gt;OBERON,&amp;nbsp;&lt;/EM&gt;&lt;A href="e975459f-e882-49f2-adb9-79e68a07df0e"&gt;Otvorenie agendy (firmy)&lt;/A&gt; otvorte databázu účtovnej jednotky. 
+&lt;LI&gt;V&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="225638ed-22f6-4ac4-9085-6d77c64925db" style="auto-update-caption: true"&gt;Používatelia&lt;/A&gt; vytvorte&amp;nbsp;nového používateľa&amp;nbsp;typu &lt;I&gt;&lt;STRONG&gt;Systémový&lt;/STRONG&gt;&lt;/I&gt;. 
+&lt;LI&gt;V&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="9ce25bbd-35d1-4096-acd5-70007f5af5a6"&gt;Automatické úlohy&lt;/A&gt;&amp;nbsp;stlačte tlačidlo &lt;EM&gt;Nový&lt;/EM&gt;. Otvorí sa&amp;nbsp;formulár &lt;EM&gt;Automatická úloha&lt;/EM&gt;, v&amp;nbsp;ktorom vyberte typ úlohy&amp;nbsp;&lt;EM&gt;&lt;STRONG&gt;Automatické odosielanie e-mailov&lt;/STRONG&gt;&lt;/EM&gt; a zadajte názov úlohy. 
+&lt;LI&gt;Stlačením tlačidla&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_Button_Refresh.png"&gt;&amp;nbsp;pri rozbaľovacom zozname &lt;EM&gt;Vykonávať na serveri&lt;/EM&gt;&amp;nbsp;aktualizujte zoznam dostupných serverov a vyberte príslušný server OAC, na ktorom sa má úloha vykonávať. 
+&lt;LI&gt;Vyberte používateľa systému OBERON vytvoreného v&amp;nbsp;bode č.&amp;nbsp;3, pod ktorým sa má automatická&amp;nbsp;úloha vykonávať. 
+&lt;LI&gt;Stlačte tlačidlo &lt;EM&gt;Nastaviť&lt;/EM&gt;. Otvorí sa &lt;A href="432ca5a2-f3ad-4cd5-9194-aae8a3baa03e"&gt;formulár Nastavenie automatickej úlohy 'Automatické odosielanie e-mailov'&lt;/A&gt;, v&amp;nbsp;ktorom: 
+&lt;UL&gt;
+&lt;LI&gt;v&amp;nbsp;záložke &lt;EM&gt;Základné&lt;/EM&gt; &lt;STRONG&gt;zvoľte SMTP server&lt;/STRONG&gt;, prostredníctvom ktorého sa budú jednotlivé e-mailové správy odosielať, zadajte meno odosielateľa správy,&amp;nbsp;prípadne vyberte prevádzku, 
+&lt;LI&gt;v&amp;nbsp;záložke &lt;EM&gt;Ostatné&lt;/EM&gt; &lt;STRONG&gt;nastavte kadenciu odosielania e-mailových správ&lt;/STRONG&gt;. Pri väčšom počte e-mailových správ hrozí riziko zaradenia SMTP servera na čiernu listinu&amp;nbsp;(blacklist). Z tohto dôvodu je možné automatické odosielanie e-mailov obmedziť v počte zasielaných správ za určitý časový úsek (100 e-mailov za hodinu až 3&amp;nbsp;000 e-mailov za hodinu). &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Vykonané nastavenia potvrďte stlačením tlačidla &lt;STRONG&gt;&lt;EM&gt;OK&lt;/EM&gt;&lt;/STRONG&gt;. &lt;/LI&gt;&lt;/OL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="d724d140-c25b-4e41-947f-89022ca614be" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="9ce25bbd-35d1-4096-acd5-70007f5af5a6">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="970678d8-63c6-46f7-a8af-fdfcb79ac7aa" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="04e52362-d0f3-4a9a-8ec5-36ef724a7ee2">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="ccd3a9f9-6e8a-486b-b1d8-c4fd858e240d" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="f7710ccc-3e00-4ba2-a8d6-c11f18f5ddae">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="fe515863-f2c0-45b4-892d-85d474a2bc49" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="32dedc5d-8e4e-420e-acec-60ba202b6ec7">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="d7c51484-a213-4276-8b80-d0b7e5742de0" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="432ca5a2-f3ad-4cd5-9194-aae8a3baa03e">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="0ee3b324-9ef2-4be5-b752-a60384aef6bf">
+      <Keyword m="2021-06-25T10:07:02.9552765Z">Hromadný mailing - nastavenie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="0e3682df-5577-405c-8775-d682ca86d192">
+      <Keyword m="2021-06-25T10:06:49.6812432Z">Hromadné zasielanie e-mailov - nastavenie</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

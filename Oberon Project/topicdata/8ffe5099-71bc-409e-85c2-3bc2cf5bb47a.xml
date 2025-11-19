@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="8ffe5099-71bc-409e-85c2-3bc2cf5bb47a" Status="Complete" CreatedOn="2015-03-23T09:11:06.6503906Z" ModifiedOn="2022-03-07T11:06:34.2467793Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="22330" Name="Menu_Firm_InventoryCash" BuildFlags="">
+  <Title m="2015-03-23T09:12:34.3447266Z">Inventúra hotovosti (mincovka)</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2022-03-07T11:06:34.2467793Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;je venovaná&amp;nbsp;položke&amp;nbsp;&lt;EM&gt;Inventúra hotovosti (mincovka)&lt;/EM&gt;&amp;nbsp;v ponuke&amp;nbsp;&lt;EM&gt;Firma&lt;/EM&gt; programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;. Položka je dostupná aj z&amp;nbsp;modulu&amp;nbsp;&lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnica OBERON&lt;/A&gt;&amp;nbsp;po stlačení príslušného tlačidla, ktoré je spravidla umiestnené medzi tlačidlami vrchného panela.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&amp;nbsp;&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Výberom položky sa otvorí&amp;nbsp;formulár &lt;EM&gt;Inventúra hotovosti (mincovka)&lt;/EM&gt;, pomocou ktorého je možné &lt;STRONG&gt;vypočítať stav (aktuálny zostatok) hotovosti a cenín v pokladnici, prípadne akúkoľvek inú hotovosť alebo ceniny&lt;/STRONG&gt;.&amp;nbsp; 
+&lt;LI&gt;Mincovka je dostupná z ponuky &lt;EM&gt;Firma&lt;/EM&gt; alebo z modulu &lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnica OBERON&lt;/A&gt;. Zadané údaje v obidvoch mincovkách sa ukladajú samostatne, t. j.&amp;nbsp;používateľ môže urobiť mincovku na &lt;EM&gt;Pokladnici OBERON&lt;/EM&gt; a zároveň nezávisle inú mincovku v&amp;nbsp;ponuke &lt;EM&gt;Firma&lt;/EM&gt;. 
+&lt;LI&gt;Okrem toho, údaje vo formulári &lt;EM&gt;Inventúra hotovosti&lt;/EM&gt; &lt;EM&gt;(mincovka)&lt;/EM&gt;&amp;nbsp;sa ukladajú pre aktuálne prihláseného&amp;nbsp;&lt;A href="225638ed-22f6-4ac4-9085-6d77c64925db"&gt;používateľa&lt;/A&gt;, t. j.&amp;nbsp;každý&amp;nbsp;používateľ si môže zostaviť svoju mincovku, resp. mincovky. 
+&lt;LI&gt;Mincovku dostupnú&amp;nbsp;v module &lt;EM&gt;Pokladnica OBERON&lt;/EM&gt; je možné vytlačiť na&amp;nbsp;&lt;A href="b24ad235-cf7f-43e2-b3e8-ec0f7d92f6b6"&gt;fiškálnej tlačiarni&lt;/A&gt;, mincovka dostupná z ponuky &lt;EM&gt;Firma&lt;/EM&gt; sa tlačí&amp;nbsp;na&amp;nbsp;štandardnej tlačiarni. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Práca s formulárom&amp;nbsp;&lt;EM&gt;Inventúra hotovosti (mincovka)&lt;/EM&gt;&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;Vo formulári &lt;EM&gt;Inventúra hotovosti (mincovka)&lt;/EM&gt; vyberte menu, ktorej bankovky a mince sa chystáte spočítať. Mincovku je možné&amp;nbsp;vykonať&amp;nbsp;v&amp;nbsp;predvolenej mene EUR, prípadne v cudzích menách nadefinovaných v&amp;nbsp;systéme OBERON (ponuka &lt;EM&gt;Firma&lt;/EM&gt;, &lt;EM&gt;Predvoľby,&lt;/EM&gt; &lt;A href="09e378df-5c76-42f3-a245-b33dd0580648"&gt;Cudzie meny&lt;/A&gt;).&amp;nbsp; 
+&lt;LI&gt;Zadajte počet kusov jednotlivých bankoviek a mincí. V prípade, že potrebujete zadať iné platidlo, ako je nadefinované, zadajte do poľa označeného symbolom&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_Button_YellowPlus.png"&gt;&amp;nbsp;názov platidla a jeho nominálnu hodnotu. Zadefinované nové platidlá&amp;nbsp;sa automaticky uložia a pri najbližšom spustení&amp;nbsp;&lt;EM&gt;Inventúry hotovosti (mincovka)&lt;/EM&gt;&amp;nbsp;ich už nebude nutné znova definovať. &lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;STRONG&gt;Príklad:&lt;/STRONG&gt;&lt;BR&gt;Názov nového platidla: Stravné lístky 4,80&lt;BR&gt;Hodnota: 4,80&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;LI&gt;Program priebežne počíta aktuálnu celkovú sumu hotovosti a cenín. Po zatvorení&amp;nbsp;a&amp;nbsp;následnom otvorení formulára ostanú údaje zadané v mincovke zachované. 
+&lt;LI&gt;&lt;EM&gt;Inventúru hotovosti (mincovku)&lt;/EM&gt;&amp;nbsp;je možné aj vytlačiť (tlačidlo &lt;EM&gt;Tlač&lt;/EM&gt;). Uložiť tlačový výstup vo formáte PDF je možné len pri mincovke spustenej z ponuky &lt;EM&gt;Firma&lt;/EM&gt;. &lt;/LI&gt;&lt;/OL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="cca739f6-3376-472a-86e4-d0a5fae3e1f4" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="69bbd499-45c0-4b0f-8f7a-c53fa5d70c1b">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="5ccdd583-df21-4c42-b9cf-b4dc8594809f" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="09e378df-5c76-42f3-a245-b33dd0580648">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="e106304a-1258-4cba-9187-6030e45ff89c">
+      <Keyword m="2015-03-23T09:23:57.5332031Z">Mincovka</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="3fa1788b-80f0-4a99-8dad-e6030f1ce5d5">
+      <Keyword m="2015-03-23T11:58:06.5126953Z">Inventúra pokladnice</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

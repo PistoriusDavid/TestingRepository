@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="747496d6-0267-424d-a55e-aed6cbd90050" Status="Complete" CreatedOn="2014-09-10T07:41:52.098476Z" ModifiedOn="2024-11-13T14:12:20.9012655Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="CashRegister_Prevadzka" BuildFlags="">
+  <Title m="2021-07-06T11:55:40.5399961Z">Pokladnica OBERON - uvedenie do prevádzky</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-11-13T14:12:20.9012655Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje&amp;nbsp;postup&amp;nbsp;uvedenia do prevádzky &lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnice OBERON&lt;/A&gt; spolu s inštaláciou&amp;nbsp;&lt;A href="b24ad235-cf7f-43e2-b3e8-ec0f7d92f6b6"&gt;fiškálnej tlačiarne&lt;/A&gt;, čím sa z&amp;nbsp;počítača vytvorí plnohodnotná&amp;nbsp;&lt;A href="04b8d290-1470-41ff-85a1-c44a20958841"&gt;on-line registračná pokladnica&lt;/A&gt;. Uvedený postup je určený servisným technikom, skúseným&amp;nbsp;používateľom, prípadne zodpovedným pracovníkom danej firmy - prevádzky. Osloviť môžete aj niektorého z&amp;nbsp;našich&amp;nbsp;&lt;A href="f83c2a9c-cda4-4862-8628-7ba16ddb1b06"&gt;zmluvných partnerov (servisných stredísk)&lt;/A&gt;.&lt;/P&gt;
+&lt;H2&gt;1. Založenie firmy - vytvorenie údajovej základne&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI style="COLOR: rgb(0,0,0)"&gt;Na počítači,&amp;nbsp;na ktorom bude prevádzkovaná&amp;nbsp;&lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnica OBERON&lt;/A&gt;, vykonajte&amp;nbsp;&lt;A href="19a10c98-2b1d-4fe1-8ab2-98921ab328be"&gt;inštaláciu OBERON-u&lt;/A&gt;&amp;nbsp;a&amp;nbsp;spustite program &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;. 
+&lt;LI style="COLOR: rgb(0,0,0)"&gt;Ak ešte nemáte v systéme OBERON vytvorenú (založenú) firmu, vytvorte ju&amp;nbsp;- bližšie informácie nájdete v&amp;nbsp;téme &lt;A href="9a485893-6dd2-44e8-9740-a4cd7083a932" style="auto-update-caption: true"&gt;Vytvorenie účtovnej jednotky (databázy)&lt;/A&gt;. Zároveň je potrebné povoliť v ponuke&amp;nbsp;&lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="5a6e5663-262e-4ff0-9741-1569385d11e4"&gt;oddiel Firma, Moduly&lt;/A&gt;&amp;nbsp;účtovnej jednotke a&amp;nbsp;v&amp;nbsp;&lt;A href="6ffb02fa-4c5c-4d33-8a0c-6dba98b26a77"&gt;oddiele Používateľ, Moduly&lt;/A&gt; danému používateľovi prácu s&amp;nbsp;modulmi&amp;nbsp;&lt;A href="78d20602-4b59-4b31-9f0a-a04a1d376ec5"&gt;Skladová evidencia&lt;/A&gt;&amp;nbsp;a&amp;nbsp;&lt;A href="a6f5e32d-6f1e-40bb-9d15-3f784a183252"&gt;Pokladnica OBERON&lt;/A&gt;. 
+&lt;LI&gt;V prípade existencie údajovej základne (firmy)&amp;nbsp;alebo ak budete pracovať v&amp;nbsp;&lt;A href="9c0e1613-bfdc-48f6-9d03-58aba39dab36"&gt;sieťovej prevádzke&lt;/A&gt; a dátová základňa je umiestnená&amp;nbsp;v&amp;nbsp;inom počítači v&amp;nbsp;sieti, môžete tento krok vynechať. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;2. Nastavenie modulu&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;V&amp;nbsp;ponuke &lt;EM&gt;OBERON,&amp;nbsp;&lt;/EM&gt;&lt;A href="e975459f-e882-49f2-adb9-79e68a07df0e"&gt;Otvorenie agendy (firmy)&lt;/A&gt; otvorte databázu účtovnej jednotky. V&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="5a6e5663-262e-4ff0-9741-1569385d11e4"&gt;oddiel Firma, Všeobecné&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt; záložka &lt;EM&gt;Základné&lt;/EM&gt; nastavte sadzby DPH. 
+&lt;LI&gt;V&amp;nbsp;ponuke&amp;nbsp;&lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="58eee6a7-b5aa-47a5-9d0e-6f9987c96a52"&gt;oddiel Firma, Sklad&lt;/A&gt;, záložka &lt;EM&gt;Skladové karty&lt;/EM&gt;&amp;nbsp;nastavte spôsob výpočtu predajnej ceny a&amp;nbsp;v závislosti od typu prevádzky&amp;nbsp;vykonajte&amp;nbsp;ďalšie nastavenia (umožniť prácu s&amp;nbsp;&lt;A href="2d9e274d-bfb7-43bc-9e70-b091ed82b9b2"&gt;receptúrami a kalkuláciami jedál&lt;/A&gt;, umožniť&amp;nbsp;&lt;A href="00777364-8b56-4ec5-b5ce-b302f3f384a3"&gt;evidenciu spotrebiteľského balenia liehu&lt;/A&gt;&amp;nbsp;atď.). &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;3.&amp;nbsp;Vytvorenie skladu a skladových kariet&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;V existujúcej firme je potrebné v&amp;nbsp;ponuke &lt;I&gt;Sklad,&lt;/I&gt; &lt;A href="1e423d36-8e0a-4420-b2e9-05f12806ec3a"&gt;Sklady&lt;/A&gt;&amp;nbsp;vytvoriť &lt;A href="1e423d36-8e0a-4420-b2e9-05f12806ec3a"&gt;sklad (sklady, zoskupenia skladov)&lt;/A&gt;&amp;nbsp;a zaevidovať &lt;A href="1a33ab0b-2df7-4dc2-962b-8a3319c16831"&gt;skladové položky&lt;/A&gt;, ktoré chcete na pokladnici predávať. Počet skladov závisí od charakteru prevádzky, pričom sklady je možné vytvárať aj dodatočne. Bližšie informácie o vytvorení skladových kariet nájdete v téme &lt;A href="277559d2-a8ba-4399-b39d-58b8b28b01ff"&gt;Založenie skladovej karty&lt;/A&gt;. Celkový postup sprevádzkovania modulu&amp;nbsp;&lt;A href="78d20602-4b59-4b31-9f0a-a04a1d376ec5"&gt;Skladová evidencia&lt;/A&gt;, s&amp;nbsp;ktorým je modul &lt;EM&gt;Pokladnica OBERON&lt;/EM&gt; licenčne spojený,&amp;nbsp;získate v téme&amp;nbsp;&lt;A href="713352a4-493d-4e5e-a592-49c7723d5ca4"&gt;Skladová evidencia - prvé kroky&lt;/A&gt;. 
+&lt;LI&gt;Dôležitým nastavením na &lt;A href="1a33ab0b-2df7-4dc2-962b-8a3319c16831"&gt;skladovej karte&lt;/A&gt; v&amp;nbsp;záložke &lt;I&gt;Reg. pokladnice&lt;/I&gt; je pole &lt;I&gt;Umožniť pracovať s&amp;nbsp;položkou na pokladnici&lt;/I&gt; (predávať je možné len také položky,&amp;nbsp;pri ktorých je tento príznak nastavený). 
+&lt;LI&gt;Ďalšie nastavenia skladovej karty v&amp;nbsp;závislosti od typu prevádzky: 
+&lt;UL&gt;
+&lt;LI&gt;ak budete pracovať s reštauračnou pokladnicou, je potrebné&amp;nbsp;&lt;A href="12572b52-44a7-433c-be59-df1192f3c6a0"&gt;vytvoriť receptúry predávaných položiek&lt;/A&gt;, 
+&lt;LI&gt;ak budete využívať&amp;nbsp;&lt;A href="9b8fe798-5f73-41eb-a068-6f6edb55ae9d"&gt;režim Fast food&lt;/A&gt;, je vhodné v záložke&amp;nbsp;&lt;I&gt;Reg. pokladnice&lt;/I&gt; zatriediť skladové položky do&amp;nbsp;&lt;A href="f83017eb-1d46-42a5-991b-bdf5d628aa8d"&gt;skupín&lt;/A&gt;, prípadne priradiť položkám obrázky, 
+&lt;LI&gt;ak budete používať aplikáciu&amp;nbsp;&lt;A href="942d48d5-b290-40f6-8ba3-45cf78f380f9"&gt;LUKUL - nielen mobilný čašník&lt;/A&gt;, je potrebné vykonať&amp;nbsp;&lt;A href="2f634ed7-507e-4cf9-a6bf-6e68510e6f57"&gt;príslušné nastavenia&lt;/A&gt;, 
+&lt;LI&gt;v prípade, že skladová karta je spotrebiteľské balenie liehu, je potrebné&amp;nbsp;&lt;A href="00777364-8b56-4ec5-b5ce-b302f3f384a3"&gt;zadať údaje o spotrebiteľskom balení liehu&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;4.&amp;nbsp;Inštalácia fiškálnej tlačiarne&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;V ponuke &lt;EM&gt;Servis,&amp;nbsp;&lt;/EM&gt;&lt;A href="749ff4f1-eeb5-43f5-98d2-021399d8cec7"&gt;Zariadenia&lt;/A&gt; pridajte medzi zariadenia programu niektorú z&amp;nbsp;&lt;A href="d9b919e7-20c4-4c50-9910-4f13211ed9a8"&gt;podporovaných fiškálnych tlačiarní&lt;/A&gt;. Fiškálna tlačiareň musí byť pripojená k počítaču. Odporúčanou fiškálnou tlačiarňou je vlastná certifikovaná fiškálna tlačiareň &lt;A href="00fa9619-a13d-4745-8938-cc0c2b5039ce"&gt;eKasa PANDORA&lt;/A&gt;&amp;nbsp;&lt;A href="1f32a90c-7b4a-4d69-9f38-a560178794b3" style="auto-update-caption: true"&gt;&lt;IMG border=0 alt="Odporúčané riešenia" src="images/OBERON/Basic/Odporucane-riesenie_ruka_ikona.png"&gt;&lt;/A&gt;. 
+&lt;LI&gt;Všeobecný postup pridania zariadenia do systému OBERON&amp;nbsp;je uvedený v téme &lt;A href="749ff4f1-eeb5-43f5-98d2-021399d8cec7"&gt;Zariadenia&lt;/A&gt;. &lt;EM&gt;Pomocník&lt;/EM&gt; však obsahuje postup aj pre každú&amp;nbsp;&lt;A href="d9b919e7-20c4-4c50-9910-4f13211ed9a8"&gt;fiškálnu tlačiareň&lt;/A&gt; zvlášť. Fiškálnych&amp;nbsp;tlačiarní&amp;nbsp;môže byť vo firme aj&amp;nbsp;v&amp;nbsp;jednom počítači nainštalovaných viacero a rôznych typov. 
+&lt;LI&gt;V&amp;nbsp;prípade, že chcete nainštalovať &lt;I&gt;Pokladnicu OBERON&lt;/I&gt; len&amp;nbsp;na skúšobné účely a nemáte k&amp;nbsp;dispozícii fiškálnu tlačiareň, nainštalujte &lt;A href="30dd45fc-685d-4adf-a959-f87840e12c7f"&gt;virtuálne fiškálne zariadenie&amp;nbsp;Fiscal UNI (SK)&lt;/A&gt;, ktoré slúži na skúšobné účely a neumožňuje tlačiť daňové doklady. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;5.&amp;nbsp;Nastavenie &lt;EM&gt;Pokladnice OBERON&lt;/EM&gt;&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Nastavenia sú dostupné vo&amp;nbsp;&lt;A href="bb0e1e82-e344-4bf0-834a-a294269f2e71"&gt;formulári Pokladnica OBERON - nastavenia&lt;/A&gt;.&amp;nbsp;Každú pokladnicu definovanú v&amp;nbsp;systéme OBERON&amp;nbsp;je potrebné priradiť k&amp;nbsp;určitému&amp;nbsp;&lt;A href="327921ae-e0fb-48da-b179-61714048b841"&gt;predajnému miestu&lt;/A&gt;. Ďalšie dôležité nastavenia sú&amp;nbsp;&lt;I&gt;Režim predaja&lt;/I&gt;, &lt;I&gt;Režim zobrazenia&lt;/I&gt;&amp;nbsp;a&amp;nbsp;&lt;I&gt;Vytváranie skladových pohybov&lt;/I&gt;. 
+&lt;LI&gt;Pri používaní&amp;nbsp;&lt;A href="aec074f4-3e1c-4a1e-8a80-06fcecf51156"&gt;Pokladnice OBERON&lt;/A&gt; v&amp;nbsp;režime reštauračnej pokladnice&amp;nbsp;je na&amp;nbsp;&lt;A href="e0ccff3e-b9e7-4572-bc3c-7f41a32280dd"&gt;prácu s otvorenými účtami (stolmi)&lt;/A&gt;&amp;nbsp;potrebné&amp;nbsp;pre každé predajné miesto nadefinovať &lt;A href="479e9fda-1e0d-43d2-97e2-32f31244c476" style="auto-update-caption: true"&gt;Zoznam stolov&lt;/A&gt;.&amp;nbsp;Každý stôl je potrebné priradiť k&amp;nbsp;&lt;A href="327921ae-e0fb-48da-b179-61714048b841"&gt;predajnému miestu, prípadne k zóne&lt;/A&gt;. Na alternatívnu prácu s otvorenými účtami (stolmi) je možné nadefinovať&amp;nbsp;&lt;A href="c3c6b9fe-a88f-42c3-a10f-1e7f5f944ebf"&gt;grafický prehľad stolov&lt;/A&gt;. 
+&lt;LI&gt;V&amp;nbsp;ponuke &lt;EM&gt;Firma, Predvoľby,&lt;/EM&gt;&amp;nbsp;&lt;A href="f3814738-213c-4f39-96d3-cdcaeb6674ec"&gt;Typy platieb&lt;/A&gt; nadefinujte&amp;nbsp;typy platieb, s&amp;nbsp;ktorými budete pracovať. Pokladnica umožňuje niekoľko spôsobov vystavenia dokladu, napr. hotovostnú platbu v&amp;nbsp;EUR&amp;nbsp;alebo cudzej mene, platbu ceninou (stravné lístky),&amp;nbsp;&lt;A href="1a618813-f50b-46a3-8a94-598d5394f491"&gt;bezhotovostnú platbu&lt;/A&gt; v&amp;nbsp;EUR&amp;nbsp;alebo cudzej mene (platobnou kartou alebo platobnou bránou), prípadne&amp;nbsp;&lt;A href="0312f424-bcb0-4d34-aad4-64a1f63eca85"&gt;zaevidovanie úhrady faktúry v hotovosti&lt;/A&gt;&amp;nbsp;a v neposlednom rade&amp;nbsp;zaevidovanie úhrady&amp;nbsp;nedaňovým dokladom (tzv. vnútorné zúčtovanie). &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;6.&amp;nbsp;Nastavenie vzhľadu &lt;EM&gt;Pokladnice OBERON&lt;/EM&gt;&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Nastavenie vzhľadu &lt;EM&gt;Pokladnice OBERON&lt;/EM&gt; je dostupné vo&amp;nbsp;&lt;A href="422aed09-2423-4763-b538-639c0493b060"&gt;formulári Nastavenie vzhľadu pokladnice&lt;/A&gt;. Bližšie informácie o nastavení vzhľadu získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="c9f7216f-f252-4be3-aa26-3e9bb6d4c887" style="auto-update-caption: true"&gt;Nastavenie vzhľadu Pokladnice OBERON&lt;/A&gt;. 
+&lt;LI&gt;Ak budete používať &lt;EM&gt;Pokladnicu OBERON&lt;/EM&gt; v režime zobrazenia &lt;EM&gt;Dotykový displej - Fast food&lt;/EM&gt;, vykonajte&amp;nbsp;&lt;A href="9b8fe798-5f73-41eb-a068-6f6edb55ae9d"&gt;príslušné nastavenia&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2 align=justify&gt;7.&amp;nbsp;Voliteľné nastavenia&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Nainštalujte do počítača a nastavte ďalšie pripojiteľné zariadenia ako&amp;nbsp;&lt;A href="80a78093-fc45-4db9-b74b-e1f9829f7b3c"&gt;snímač čiarových kódov&lt;/A&gt;, &lt;A href="98f367d6-b09e-4406-aad9-d4b2cfc4b504"&gt;elektronické váhy&lt;/A&gt;, &lt;A href="07a9169a-6739-4fc2-bbd8-959ae5d3b93d"&gt;snímač prístupu&lt;/A&gt; a pod. Ak budete používať pokladnicu v&amp;nbsp;režime reštauračnej pokladnice, nastavte &lt;A href="b9d7c873-7b63-4210-86fe-ab1c66ea6502"&gt;bonovaciu tlačiareň&lt;/A&gt; alebo&amp;nbsp;&lt;A href="d9867d81-7de7-4ce2-9c45-932025935b8b"&gt;bonovací monitor&lt;/A&gt;&amp;nbsp;na tlač, resp. zobrazovanie objednávok do kuchyne (baru). 
+&lt;LI&gt;Ak bude počítač pracovať výhradne ako registračná pokladnica, odporúčame vytvoriť zástupcu&amp;nbsp;systému OBERON a umiestniť ho do zložky &lt;B&gt;&lt;EM&gt;Po spustení&lt;/EM&gt;&lt;/B&gt; (stlačte tlačidlo &lt;EM&gt;Windows+R&lt;/EM&gt; a zadajte príkaz shell:startup).&amp;nbsp;Vtedy sa pri spustení počítača automaticky spustí OBERON. Aby sa automaticky spustila aj&amp;nbsp;&lt;EM&gt;Pokladnica OBERON&lt;/EM&gt; a bolo možné ihneď začať predávať, vo&amp;nbsp;&lt;A href="bb0e1e82-e344-4bf0-834a-a294269f2e71"&gt;formulári Pokladnica OBERON - nastavenia&lt;/A&gt;, záložka &lt;EM&gt;Tento počítač&lt;/EM&gt; začiarknite pole &lt;EM&gt;Pokladnicu otvoriť automaticky po spustení programu&lt;/EM&gt;. 
+&lt;LI&gt;Ak bude na pokladnici pracovať viac pokladníkov, je potrebné do systému OBERON nadefinovať ďalších&amp;nbsp;&lt;A href="225638ed-22f6-4ac4-9085-6d77c64925db"&gt;používateľov&lt;/A&gt; a&amp;nbsp;ich &lt;A href="834e9546-a56b-476f-9028-ef4c24a82345"&gt;práva&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;P align=justify&gt;Uvedenie &lt;I&gt;Pokladnice OBERON&lt;/I&gt; do prevádzky je ukončené.&amp;nbsp;Na plnohodnotné využívanie pokladnice je potrebné aktivovať&amp;nbsp;&lt;A href="ef83607d-f365-445e-bf00-b257cead6f19"&gt;licenciu.&lt;/A&gt;&lt;/P&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt; 
+&lt;UL&gt;
+&lt;LI&gt;Popis používateľského rozhrania &lt;EM&gt;Pokladnice OBERON&lt;/EM&gt; je dostupný v téme &lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9" style="auto-update-caption: true"&gt;Pokladnica OBERON&lt;/A&gt;. Praktické informácie&amp;nbsp;týkajúce sa&amp;nbsp;predaja&amp;nbsp;sú dostupné v&amp;nbsp;téme &lt;A href="69bbd499-45c0-4b0f-8f7a-c53fa5d70c1b"&gt;Predaj na Pokladnici OBERON&lt;/A&gt;. 
+&lt;LI&gt;Informácie o ďalších možnostiach použitia &lt;EM&gt;Pokladnice OBERON&lt;/EM&gt; v závislosti od spôsobu nasadenia systému OBERON získate v&amp;nbsp;téme &lt;A href="93f31314-1503-41b9-a8f1-f477de367a39"&gt;Možnosti použitia systému OBERON&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt; 
+&lt;P&gt;&lt;B&gt;Videonávod&lt;/B&gt;&lt;/P&gt;
+&lt;P&gt;K téme je spracovaný videonávod&amp;nbsp;&lt;A href="https://exalogic.sk/na-stiahnutie-oberon/sprevadzkovanie-registracnej-pokladnice/" target=_blank&gt;Sprevádzkovanie registračnej pokladnice&lt;/A&gt;. Všetky videonávody&amp;nbsp;sú k&amp;nbsp;dispozícii&amp;nbsp;na stránke&amp;nbsp;&lt;A href="http://www.exalogic.sk/"&gt;www.exalogic.sk&lt;/A&gt; v&amp;nbsp;sekcii &lt;EM&gt;Na stiahnutie,&amp;nbsp;&lt;/EM&gt;&lt;A href="https://exalogic.sk/na-stiahnutie/oberon-agenda-firmy/video-navody-na-stiahnutie/" target=_blank&gt;Videonávody&lt;/A&gt;.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="2c9d7fa0-cd9a-4cc4-bb6a-9ea791106588" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="9a485893-6dd2-44e8-9740-a4cd7083a932">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="f930cdc7-a8da-4000-bf06-bfc5910a6f5f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="a6f5e32d-6f1e-40bb-9d15-3f784a183252">
+      <Title m="2023-02-27T06:55:09.5515183Z">Pokladnica OBERON - všeobecne o koncepcii</Title>
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="67c98cc9-1723-41da-b312-6b0f24a535fa" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="713352a4-493d-4e5e-a592-49c7723d5ca4">
+      <Title m="2023-02-27T07:06:22.6574298Z">Skladová evidencia - prvé kroky</Title>
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="9d1abb14-bcc0-4263-969c-2f38ba94a2b7" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="50c663a4-45de-40cf-8d7d-a10045645f82" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="2f634ed7-507e-4cf9-a6bf-6e68510e6f57">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="e84f045c-b3cc-4a10-9d10-6267a5db3cf1" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="d9b919e7-20c4-4c50-9910-4f13211ed9a8">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="243fe30c-c4a9-4789-a0ff-377ae1aac878" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="b24ad235-cf7f-43e2-b3e8-ec0f7d92f6b6">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="a40634f2-4328-42ca-ac76-1d8457c81572" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="00fa9619-a13d-4745-8938-cc0c2b5039ce">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="01c1880c-2408-4e3d-98eb-b7fedbadc245" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="3f051fd3-9727-4ecc-9613-7a7fb1cb2a54">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="b259b933-1131-4fd4-92c8-dd02de684ed3" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="93f31314-1503-41b9-a8f1-f477de367a39">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="7ddedc80-1446-4a2a-9b3b-7c5b9f6ad718" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="5a6e5663-262e-4ff0-9741-1569385d11e4">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="81efdaac-e67a-4dcd-a7fe-dfa51e72eb0f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="58eee6a7-b5aa-47a5-9d0e-6f9987c96a52">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="13f98ec7-0c5b-4ac5-a7c1-565c28151c7c">
+      <Keyword m="2014-09-25T11:41:15.5585937Z">Inštalácia Pokladnice OBERON</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="856bc2da-33ea-4fe6-9740-013151617773">
+      <Keyword m="2023-02-27T07:11:35.5421575Z">Pokladnica OBERON - prvé kroky</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="83e49167-645b-4ea7-a0d6-6737667a7e55">
+      <Keyword m="2023-02-27T07:11:43.0408048Z">Prvé kroky - Pokladnica OBERON</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="b907b87e-1c63-43d3-9680-0b11dee8804c">
+      <Keyword m="2023-02-27T07:11:56.5578892Z">Pokladnica OBERON - inštalácia</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="c058b04e-5689-4088-9c23-6bbb73927bee">
+      <Keyword m="2023-02-27T07:12:05.4636165Z">Uvedenie do prevádzky - Pokladnica OBERON</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="1bccb746-df5e-4a22-a2d9-0de846d940c8">
+      <Keyword m="2023-02-27T07:12:14.0957953Z">Sprevádzkovanie Pokladnice OBERON</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

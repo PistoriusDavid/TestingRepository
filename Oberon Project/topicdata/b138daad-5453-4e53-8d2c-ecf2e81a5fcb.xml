@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="b138daad-5453-4e53-8d2c-ecf2e81a5fcb" Status="Complete" CreatedOn="2014-09-05T07:05:45.5449483Z" ModifiedOn="2024-07-12T11:24:28.9332865Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Web_OBERON_Web" BuildFlags="">
+  <Title m="2014-09-05T07:06:10.592381Z">OBERON Web</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-07-12T08:20:59.4466355Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; popisuje jedno z&amp;nbsp;&lt;A href="c23e6100-7028-47b3-952a-f43fbf6ee5c6"&gt;mobilných riešení&lt;/A&gt; systému OBERON určených pre mobilné zariadenia a dotykové displeje - webovú aplikáciu &lt;STRONG&gt;OBERON Web&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;I&gt;OBERON Web&lt;/I&gt; je &lt;STRONG&gt;nadstavbová webová aplikácia systému OBERON, ktorá&amp;nbsp;môže byť spustená v ľubovoľnom webovom prehliadači, pričom svojou funkčnosťou je prispôsobená aj&amp;nbsp;na použitie na mobilných zariadeniach&lt;/STRONG&gt; (tablety, smartfóny...). Keďže ide o webovú aplikáciu, nezáleží na používanom operačnom systéme daného zariadenia - či už je to &lt;EM&gt;Windows, macOS, Android, iOS&lt;/EM&gt; atď. 
+&lt;LI&gt;Aplikácia &lt;I&gt;OBERON Web&lt;/I&gt; &lt;STRONG&gt;poskytuje&amp;nbsp;vybrané manažérske informácie zo systému OBERON v reálnom čase&lt;/STRONG&gt;, prípadne umožňuje vykonávať určité špecifické činnosti, napr. zadávanie fyzických množstiev&amp;nbsp;pri inventúre skladu. Aplikácia obsahuje informácie ako napríklad: 
+&lt;UL&gt;
+&lt;LI&gt;aktuálne prihlásení používatelia do OBERON-u, 
+&lt;LI&gt;evidencia&amp;nbsp;&lt;A href="b7a48886-b367-4056-808a-59ba5f871f32"&gt;obchodných partnerov&lt;/A&gt;, 
+&lt;LI&gt;zostatky bankových účtov a pokladníc, 
+&lt;LI&gt;prehľad&amp;nbsp;pohľadávok a záväzkov, 
+&lt;LI&gt;prehľad&amp;nbsp;prijatých objednávok, 
+&lt;LI&gt;skladové karty, možnosť&amp;nbsp;&lt;A href="489dd25b-dd6a-416d-be26-ce647566b429"&gt;spracovania inventúry&lt;/A&gt; v sklade pomocou mobilných zariadení (zápis fyzických množstiev), 
+&lt;LI&gt;aktuálne stavy zásob v sklade, 
+&lt;LI&gt;štatistiky k nákupom a predajom v sklade, obrátkovosti, 
+&lt;LI&gt;množstvo grafov o príjme, predaji a výnosoch v skladoch, 
+&lt;LI&gt;aktuálne obraty registračných pokladníc, 
+&lt;LI&gt;prehľad otvorených&amp;nbsp;účtov (stolov), 
+&lt;LI&gt;štatistiky k predajom na pokladniciach z&amp;nbsp;&lt;A href="fd6a0f47-c326-43a2-8408-003cce805463"&gt;knihy tržieb&lt;/A&gt;, 
+&lt;LI&gt;prístup ku&amp;nbsp;&lt;A href="3ca37544-bbc0-4a88-af6a-a2132b74279d"&gt;grafickému prehľadu izieb&lt;/A&gt;, 
+&lt;LI&gt;&lt;A href="5eaef397-0196-4360-a339-fcb1a11c32e3"&gt;rezervačný formulár ubytovania&lt;/A&gt;, 
+&lt;LI&gt;chyžným prístup k prehľadu upratania izieb, 
+&lt;LI&gt;údržbárovi prístup k zoznamu drobných závad a opráv, &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 
+&lt;LI&gt;zmluvným partnerom (cestovným kanceláriám) prístup ku grafickému prehľadu obsadenosti izieb, 
+&lt;LI&gt;&lt;A href="7583c808-0f61-4c23-9397-b5d2335c8c8f"&gt;majiteľom apartmánov&lt;/A&gt; v apartmánovom dome prístup ku grafickému prehľadu obsadenosti izieb svojho apartmánu (prípadne k viacerým apartmánom), 
+&lt;LI&gt;ubytovaným &lt;A href="1401d019-26f1-420b-9587-421922ef4e1e"&gt;hosťom prístup k svojmu hotelovému účtu&lt;/A&gt; 
+&lt;LI&gt;a ďalšie zaujímavé informácie. &lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget layout="block" type="Note Box"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Bližšie informácie&amp;nbsp;o&amp;nbsp;nastavení komunikácie so systémom OBERON získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="c53d22d1-3049-46da-9a2b-baf764eddd0f" style="auto-update-caption: true"&gt;Inštalácia aplikácie OBERON Web&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H5&gt;Obrázok č. 1: Grafický prehľad izieb v aplikácii &lt;EM&gt;OBERON Web&lt;/EM&gt;&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/OBERON_Web/OBERONWeb_RoomCalendar.png"&gt;&amp;nbsp;&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="1b96bcab-fa69-4e6f-a8c1-7867428b1659" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="c53d22d1-3049-46da-9a2b-baf764eddd0f">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="9b091c6d-5591-4e7e-ab4a-b5c61d8859e7" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="c23e6100-7028-47b3-952a-f43fbf6ee5c6">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="e2ce4567-c82f-43ac-925e-c57eeb1ea9f3" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="1401d019-26f1-420b-9587-421922ef4e1e">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="4ffb6e4c-b15f-44c6-9f2a-e99468ba9900" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="7583c808-0f61-4c23-9397-b5d2335c8c8f">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="f160a6db-9fdb-4f8e-9acd-9f567aa01e8a">
+      <Keyword m="2023-01-24T10:50:27.3428017Z">Webová aplikácia OBERON Web</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="a83e31a2-ba8c-4234-96f2-45eb618ea5cb">
+      <Keyword m="2023-01-24T10:50:13.988831Z">Nadstavbová webová aplikácia OBERON Web</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="e128c766-527b-4b39-8e0c-2987484247d0">
+      <Keyword m="2023-01-24T10:50:33.9355337Z">Aplikácia OBERON Web</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

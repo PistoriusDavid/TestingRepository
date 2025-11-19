@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="f6c9b9bf-bd79-4781-b0a4-f3f69b8304c5" Status="Complete" CreatedOn="2014-09-01T15:59:54.3978124Z" ModifiedOn="2024-11-07T13:51:25.8567424Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="InstallationUpdate" BuildFlags="">
+  <Title m="2014-09-01T16:00:13.7089169Z">Inštalácia aktualizácie</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-11-07T13:51:25.8567424Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;obsahuje &lt;STRONG&gt;rôzne spôsoby aktualizácie OBERON-u s popisom postupu manuálnej aktualizácie a aktualizácie z internetu&lt;/STRONG&gt; (prostredníctvom programu&amp;nbsp;&lt;A href="24e780fd-36d3-4a6e-bfc0-a8665c75e4ee"&gt;OBERON Center&lt;/A&gt;).&lt;/P&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Ak sa po inštalácii aktualizácie chcete vyhnúť reštartu počítača,&amp;nbsp;&lt;STRONG&gt;zatvorte pred jej spustením&amp;nbsp;OBERON aj všetky jeho súčasti vrátane služby&amp;nbsp;&lt;/STRONG&gt;&lt;A href="09f3dae9-2fb7-490f-97dc-37f60885b398"&gt;OBERON Automation Center&lt;/A&gt;&amp;nbsp;(v ponuke &lt;EM&gt;Štart&lt;/EM&gt;&amp;nbsp;systému &lt;EM&gt;Windows&lt;/EM&gt; vyhľadajte aplikáciu&amp;nbsp;&lt;EM&gt;Services&lt;/EM&gt;, kde v&amp;nbsp;zozname služieb vyhľadajte službu &lt;EM&gt;OBERON Automation Center Service,&lt;/EM&gt; pravým tlačidlom kliknite na službu a&amp;nbsp;zvoľte možnosť &lt;EM&gt;Stop&lt;/EM&gt;).&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Inštalácia aktualizácie&amp;nbsp;OBERON-u&amp;nbsp;znamená &lt;STRONG&gt;inštaláciu novšej verzie OBERON-u&amp;nbsp;do počítača,&amp;nbsp;v ktorom&amp;nbsp;je už OBERON nainštalovaný&lt;/STRONG&gt;. Nové verzie programov sú potrebné v prípade legislatívnych zmien, doplnenia nových funkcií jednotlivých modulov, prípadne opráv nedostatkov predošlých verzií. 
+&lt;LI&gt;Inštaláciu aktualizácie systému OBERON je možné vykonať viacerými spôsobmi, pričom vždy ide o ten istý inštalačný súbor: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;manuálna aktualizácia&lt;/STRONG&gt; - inštalačný súbor novšej verzie OBERON-u je možné získať z webovej stránky wwww.exalogic.sk, sekcia &lt;A href="https://exalogic.sk/na-stiahnutie/" target=_blank&gt;Na stiahnutie&lt;/A&gt;,&amp;nbsp;resp. z programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;, ponuka &lt;EM&gt;Pomocník, OBERON na internete (www.exalogic.sk).&lt;/EM&gt; Tu je k dispozícii na stiahnutie vždy najnovšia aktuálna verzia OBERON-u; 
+&lt;LI&gt;&lt;A href="46d868f7-8416-4300-bc86-a272c14f35d9"&gt;&lt;STRONG&gt;aktualizácia z internetu&lt;/STRONG&gt;&lt;/A&gt; - typ aktualizácie je dostupný z programu&amp;nbsp;&lt;A href="24e780fd-36d3-4a6e-bfc0-a8665c75e4ee"&gt;OBERON Center&lt;/A&gt;. Oproti&amp;nbsp;webovej stránke &lt;A href="http://www.exalogic.sk"&gt;www.exalogic.sk&lt;/A&gt;&amp;nbsp;sa tu zverejňuje až po uplynutí určitého času (spravidla niekoľko dní) bezchybnej prevádzky; 
+&lt;LI&gt;&lt;A href="2a1837ed-0abe-4628-af0f-1d01841af450"&gt;&lt;STRONG&gt;automatická databázová aktualizácia&lt;/STRONG&gt;&lt;/A&gt; -&amp;nbsp;tento typ aktualizácie&amp;nbsp;je vhodné použiť pri sieťovej prevádzke OBERON-u, keď je potrebné vykonať inštaláciu aktualizácie&amp;nbsp;na každom počítači v&amp;nbsp;sieti. Dostupná je pritom&amp;nbsp;&lt;STRONG&gt;len pre databázový systém typu SQL&lt;/STRONG&gt; (súborová&amp;nbsp;databáza &lt;EM&gt;Microsoft Access&lt;/EM&gt; nie je podporovaná). Typické použitie je&amp;nbsp;v&amp;nbsp;prípade umiestnenia&amp;nbsp;databázy v cloude, prípadne&amp;nbsp;aj v&amp;nbsp;bežnej sieťovej prevádzke. Dostupná je v programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;, ponuka &lt;EM&gt;Servis,&amp;nbsp;&lt;/EM&gt;&lt;A href="2a1837ed-0abe-4628-af0f-1d01841af450"&gt;Automatická databázová aktualizácia&lt;/A&gt;. Pri používaní služby&amp;nbsp;&lt;A href="09f3dae9-2fb7-490f-97dc-37f60885b398"&gt;OBERON Automation Center (OAC)&lt;/A&gt; &lt;SPAN style="COLOR: rgb(255,0,0)"&gt;je potrebné spustiť automatickú databázovú aktualizáciu priamo zo servera (t.&amp;nbsp;j. najprv aktualizovať OBERON na serveri a odtiaľ následne spustiť automatickú databázovú aktualizáciu)&lt;/SPAN&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Pred inštalovaním novšej verzie&amp;nbsp;odporúčame vykonať&amp;nbsp;&lt;A href="493f5942-f267-4f98-a46d-8acc745b9b88"&gt;zálohovanie databázy&lt;/A&gt;&amp;nbsp;účtovnej jednotky. Dôvodom je skutočnosť, že po nainštalovaní novej verzie a&amp;nbsp;následnom prvom otvorení databázy sa spravidla vykonáva &lt;STRONG&gt;tzv. transformácia (konverzia) databázy&lt;/STRONG&gt; - úprava databázových štruktúr, pričom v prípade problémov môže dôjsť aj k strate niektorých údajov. 
+&lt;LI&gt;Pri aktualizácii &lt;STRONG&gt;nie je potrebné pôvodnú verziu odinštalovať&lt;/STRONG&gt;, stačí nainštalovať novú verziu do adresára s pôvodnou verziou (všetky dátové súbory zostanú zachované). 
+&lt;LI&gt;Pri aktualizovaní OBERON-u &lt;STRONG&gt;je možné preskočiť naraz aj niekoľko verzií&lt;/STRONG&gt;, takže nie je nutné inštalovať každú vydanú verziu. Počet verzií, ktoré možno takto preskočiť, nie je presne daný, ale &lt;STRONG&gt;najnovšou verziou možno priamo nahradiť verziu spred približne troch&amp;nbsp;rokov&lt;/STRONG&gt;. &lt;SPAN style="COLOR: rgb(255,0,0)"&gt;Ak by účtovná jednotka používala ešte staršiu verziu,&amp;nbsp;aktualizácia sa nevykoná a bude potrebné kontaktovať dodávateľa systému OBERON&lt;/SPAN&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Informáciu o aktuálne nainštalovanej verzii systému OBERON&amp;nbsp;v počítači je možné získať v ponuke &lt;EM&gt;Pomocník&lt;/EM&gt;, &lt;EM&gt;O programe.&lt;/EM&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Manuálna aktualizácia&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;V internetovom prehliadači&amp;nbsp;otvorte stránku &lt;A href="http://exalogic.sk/na-stiahnutie/" target=_blank&gt;www.exalogic.sk&lt;/A&gt; (prípadne v programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;&amp;nbsp;vyberte&amp;nbsp;ponuku &lt;EM&gt;Pomocník, OBERON na internete (www.exalogic.sk)&lt;/EM&gt;). Zvoľte podstránku&amp;nbsp;&lt;A href="https://exalogic.sk/na-stiahnutie/" target=_blank&gt;Na stiahnutie&lt;/A&gt;. 
+&lt;LI&gt;Stiahnite súbor &lt;I&gt;&lt;STRONG&gt;oberon_setup.exe&lt;/STRONG&gt;&lt;/I&gt;. Čas sťahovania závisí od rýchlosti pripojenia na internet (spravidla trvá niekoľko minút). 
+&lt;LI&gt;Ak je spustená služba&amp;nbsp;&lt;A href="09f3dae9-2fb7-490f-97dc-37f60885b398"&gt;OBERON Automation Center&lt;/A&gt;,&amp;nbsp;&lt;STRONG&gt;zastavte ju&lt;/STRONG&gt; (v ponuke &lt;EM&gt;Štart&lt;/EM&gt;&amp;nbsp;systému &lt;EM&gt;Windows&lt;/EM&gt; vyhľadajte aplikáciu&amp;nbsp;&lt;EM&gt;Services&lt;/EM&gt;, kde v&amp;nbsp;zozname služieb vyhľadajte službu &lt;EM&gt;OBERON Automation Center Service,&lt;/EM&gt; pravým tlačidlom kliknite na službu a&amp;nbsp;zvoľte možnosť &lt;EM&gt;Stop&lt;/EM&gt;).&amp;nbsp;Vďaka tomu&amp;nbsp;po ukončení inštalácie aktualizácie nebude potrebné počítač reštartovať. 
+&lt;LI&gt;Spustite stiahnutý inštalačný súbor a pokračujte podľa pokynov sprievodcu inštaláciou. &amp;nbsp;&amp;nbsp;&amp;nbsp; 
+&lt;LI&gt;Ak po inštalácii sprievodca inštaláciou&amp;nbsp;vyžaduje&amp;nbsp;reštart počítača,&amp;nbsp;rešpektujte to a &lt;STRONG&gt;dokončite inštaláciu reštartom&lt;/STRONG&gt;. &lt;/LI&gt;&lt;/OL&gt;
+&lt;H2&gt;Aktualizácia z internetu&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;Spustite program &lt;A href="24e780fd-36d3-4a6e-bfc0-a8665c75e4ee"&gt;OBERON Center&lt;/A&gt; a zvoľte&amp;nbsp;oddiel&amp;nbsp;&lt;A href="46d868f7-8416-4300-bc86-a272c14f35d9"&gt;Aktualizácia z internetu&lt;/A&gt;&lt;EM&gt;.&lt;/EM&gt; 
+&lt;LI&gt;Stlačte tlačidlo &lt;I&gt;&lt;STRONG&gt;Vyhľadať aktualizácie&lt;/STRONG&gt;&lt;/I&gt; - vyhľadá sa najnovšia dostupná aktualizácia. 
+&lt;LI&gt;Následne stlačte tlačidlo &lt;I&gt;&lt;STRONG&gt;Stiahnuť&lt;/STRONG&gt;&lt;/I&gt; - čas sťahovania závisí od rýchlosti pripojenia&amp;nbsp;k&amp;nbsp;internetu. V poznámke sa zobrazuje priebeh sťahovania aktualizácie - počkajte na stiahnutie kompletného súboru. 
+&lt;LI&gt;Stlačte tlačidlo &lt;I&gt;&lt;STRONG&gt;Inštalovať&lt;/STRONG&gt;.&lt;/I&gt; Kladne potvrďte ďalšie informačné formuláre inštalátora. 
+&lt;LI&gt;Ak po inštalácii sprievodca inštaláciou&amp;nbsp;vyžaduje&amp;nbsp;reštart počítača,&amp;nbsp;rešpektujte to a &lt;STRONG&gt;dokončite inštaláciu reštartom&lt;/STRONG&gt;. &lt;/LI&gt;&lt;/OL&gt;
+&lt;P&gt;Viac informácií o tomto spôsobe aktualizácie OBERON-u získate v téme&amp;nbsp;&lt;A href="46d868f7-8416-4300-bc86-a272c14f35d9"&gt;Aktualizácia z internetu&lt;/A&gt;.&lt;/P&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt; 
+&lt;P&gt;&amp;nbsp;&lt;STRONG&gt;Videonávod&lt;/STRONG&gt;&lt;/P&gt;
+&lt;P&gt;K téme je spracovaný videonávod&amp;nbsp;&lt;A href="https://exalogic.sk/na-stiahnutie-oberon/aktualizacia-systemu-oberon/" target=_blank&gt;Aktualizácia systému OBERON&lt;/A&gt;. Všetky videonávody nájdete na stránke&amp;nbsp;&lt;A href="http://www.exalogic.sk/" target=_blank&gt;www.exalogic.sk&lt;/A&gt; v&amp;nbsp;ponuke &lt;EM&gt;Na stiahnutie,&amp;nbsp;&lt;/EM&gt;&lt;A href="https://exalogic.sk/na-stiahnutie/oberon-agenda-firmy/video-navody-na-stiahnutie/" target=_blank&gt;Videonávody&lt;/A&gt;.&lt;/P&gt;
+&lt;P&gt;Inštaláciu aktualizácie OBERON-u je možné aj objednať prostredníctvom&amp;nbsp;&lt;A href="https://exalogic.sk/formulare/instalacia-objednavka/" target=_blank&gt;webového formulára&lt;/A&gt;. Inštalácia sa realizuje prostredníctvom vzdialenej plochy za asistencie zodpovednej osoby účtovnej jednotky. Služba je spoplatnená sadzbou &lt;STRONG&gt;10 € s DPH&lt;/STRONG&gt; za inštaláciu na 1 počítači. Uvedená suma&amp;nbsp;sa pripočíta k cene licencie na nasledujúce účtovné obdobie.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="efcc73ba-402b-4c71-a917-f210be0750aa" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="46d868f7-8416-4300-bc86-a272c14f35d9">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="1b401313-4819-4c51-8fa4-9f9741d0f800" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="2a1837ed-0abe-4628-af0f-1d01841af450">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="2ec50398-7b2f-47f7-a7fa-abf7c5579aef" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="19a10c98-2b1d-4fe1-8ab2-98921ab328be">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="f3398d61-ce11-4656-a3d5-d65cd976120b" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="028d6815-a941-4351-b441-3bc4f4350a38">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="3b153c0f-5fda-4e04-a411-0328e458af6d" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="114e64df-3d6c-4a0e-9405-c0e75fbe02dc">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="5a42b1a7-cb98-460a-bdc1-fcc78e60ae7b">
+      <Keyword m="2021-03-09T12:51:08.237412Z">Upgrade OBERON-u</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="ba587343-dd68-4609-8fdf-869dafe61212">
+      <Keyword m="2021-03-09T12:50:32.1083472Z">Aktualizácia OBERON-u</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="745b44be-a784-4bcb-8595-67541003d5da">
+      <Keyword m="2021-03-09T12:58:00.6161751Z">Inštalácia novšej verzie OBERON-u</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="cb3ff6d0-4a00-4f50-8570-b103f1e8eb53">
+      <Keyword m="2021-03-12T09:58:24.376833Z">Manuálna aktualizácia OBERON-u</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="8c154e53-1e23-4c91-a2a6-c5ff77bd5b47">
+      <Keyword m="2022-09-13T11:07:30.1631149Z">Transformácia (konverzia) databázy </Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="c21834e9-2932-404b-8dda-d9086ec7464c">
+      <Keyword m="2022-09-13T11:07:53.1257936Z">Úprava databázových štruktúr</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

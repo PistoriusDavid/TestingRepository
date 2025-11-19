@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="7f960b85-ac92-44d4-9202-65e5c3818346" Status="Complete" CreatedOn="2015-12-03T12:30:37.0355282Z" ModifiedOn="2023-10-30T07:13:06.4588308Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="30570" Name="Form_AccDouble_ExportAccountingBook" BuildFlags="">
+  <Title m="2021-07-19T12:49:02.6941686Z">Sprievodca Export účtovného denníka na externé spracovanie</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-10-16T10:49:50.9976417Z">&lt;P&gt;Sprievodca &lt;EM&gt;Export účtovného denníka&amp;nbsp;na externé spracovanie&lt;/EM&gt; umožňuje &lt;STRONG&gt;vytvoriť súbor&amp;nbsp;vo formáte databázy &lt;EM&gt;Microsoft Access&lt;/EM&gt; (s&amp;nbsp;príponou &lt;EM&gt;.mdb&lt;/EM&gt;), ktorý bude obsahovať údaje účtovného denníka&lt;/STRONG&gt; (sprievodca vytvorí jednu tabuľku, ktorá bude obsahovať záznamy účtovného denníka). Takto&amp;nbsp;vyexportované údaje&amp;nbsp;sa môžu použiť na ďalšie spracovanie, finančnú analýzu, externý audit a pod. Sprievodca je dostupný z&amp;nbsp;programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;, ponuka&amp;nbsp;&lt;EM&gt;Účtovníctvo&lt;/EM&gt;,&amp;nbsp;&lt;A href="d8c9bfc8-92d1-4471-8909-e5f8ce602d6c"&gt;Účtovný denník&lt;/A&gt;, tlačidlo &lt;EM&gt;Možnosti - Export XML údajov&lt;/EM&gt;.&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="2994cfbc-28d3-41b3-bcac-a955b1a764df" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="d8c9bfc8-92d1-4471-8909-e5f8ce602d6c">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="fb439ff4-dec4-490d-8e72-aeff08587879">
+      <Keyword m="2021-07-19T13:13:11.10997Z">Účtovný denník - export na externé spracovanie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="2701cd08-59e4-41b6-aa10-6f5dda17f438">
+      <Keyword m="2023-10-16T10:49:03.8041178Z">Export účtovného denníka na externé spracovanie - sprievodca</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

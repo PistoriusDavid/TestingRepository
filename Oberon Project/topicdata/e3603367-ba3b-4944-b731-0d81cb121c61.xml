@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="e3603367-ba3b-4944-b731-0d81cb121c61" Status="Complete" CreatedOn="2020-05-05T13:09:10.3615806Z" ModifiedOn="2024-01-18T12:58:27.4312206Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="50200" Name="Menu_Invoices_OrdersStates" BuildFlags="">
+  <Title m="2023-05-24T12:43:26.8558169Z">Typy stavov prijatých objednávok</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-01-18T12:58:27.4312206Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;je venovaná&amp;nbsp;položke&amp;nbsp;&lt;EM&gt;Typy stavov prijatých objednávok&lt;/EM&gt; v ponuke&amp;nbsp;&lt;EM&gt;Fakturácia&lt;/EM&gt; programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Výberom položky sa otvorí&amp;nbsp;číselník&amp;nbsp;&lt;EM&gt;Typy stavov prijatých objednávok&lt;/EM&gt;, ktorý &lt;STRONG&gt;umožňuje definovať typy stavov&amp;nbsp;&lt;/STRONG&gt;&lt;A href="48505e8d-5f28-4063-882b-ca07f33670ef"&gt;prijatých objednávok&lt;/A&gt;. Na základe definovaných typov stavov prijatých objednávok&amp;nbsp;je možné pri každej prijatej objednávke&amp;nbsp;&lt;STRONG&gt;evidovať&amp;nbsp;stavy prijatej objednávky&lt;/STRONG&gt;, napr. &lt;EM&gt;Nová objednávka, Potrebné objednať, Potrebné vyskladniť, Odoslaná&lt;/EM&gt; atď. Evidovanie stavov prijatých objednávok umožňuje&amp;nbsp;udržiavať prehľad o úkonoch spojených s&amp;nbsp;prijatými objednávkami a sledovať históriu jednotlivých prijatých objednávok v&amp;nbsp;čase.&amp;nbsp;Stav prijatej objednávky potom&amp;nbsp;&lt;STRONG&gt;odzrkadľuje aktuálny status vybavenia objednávky&lt;/STRONG&gt;,&amp;nbsp;resp. &lt;STRONG&gt;upresnenie jej procesného spracovania&lt;/STRONG&gt;. 
+&lt;LI&gt;V systéme OBERON sú základné typy stavov prijatých objednávok preddefinované, ďalšie typy si môže účtovná jednotka&amp;nbsp;vo&amp;nbsp;&lt;A href="52b12b75-3fa1-4a52-8f08-34d2f53f390d"&gt;formulári Typ stavu prijatej objednávky&lt;/A&gt;&amp;nbsp;podľa potreby ľubovoľne definovať.&amp;nbsp;Nepoužívané typy stavov možno zakázať (deaktivovať), a tak presne nastaviť proces spracovania objednávky s&amp;nbsp;ohľadom na potreby danej účtovnej jednotky od&amp;nbsp;zaevidovania&amp;nbsp;objednávky&amp;nbsp;až po jej vybavenie. 
+&lt;LI&gt;Vzhľadom na to, že typy&amp;nbsp;stavov prijatých objednávok si&amp;nbsp;môžu&amp;nbsp;používatelia podľa potreby vytvárať sami, je dôležité mať pri každom type stavu prijatej objednávky &lt;STRONG&gt;jednoznačne určené, k akému druhu&amp;nbsp;stavu prijatej objednávky prislúcha&lt;/STRONG&gt;. Na základe druhu&amp;nbsp;stavu prijatej objednávky sa program rozhoduje, ako bude s daným záznamom&amp;nbsp;pracovať. Druhy stavov prijatých objednávok sú v programe pevne dané a nie je ich možné upravovať. 
+&lt;LI&gt;Stavy prijatých objednávok&amp;nbsp;slúžia na sprehľadnenie práce s prijatými objednávkami, pričom&amp;nbsp;je ich možné používať&amp;nbsp;samostatne, prípadne v prepojení s&amp;nbsp;&lt;A href="2ba6a435-be52-46a1-b723-fb2b8ca084c0"&gt;internetovým obchodom&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Definovať, resp. upraviť už definovaný typ stavu prijatej objednávky je možné vo &lt;A href="52b12b75-3fa1-4a52-8f08-34d2f53f390d"&gt;formulári Typ stavu prijatej objednávky&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H5&gt;Obrázok č. 1: Typy stavov prijatých objednávok&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/Invoices/Form_Invoices_OrderReceived_Condition.PNG"&gt;&amp;nbsp;&lt;/P&gt;
+&lt;H2&gt;Zmena stavu prijatej objednávky&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Stav danej prijatej objednávky je možné zmeniť &lt;STRONG&gt;manuálne, alebo je možné&amp;nbsp;nastaviť automatické zmeny stavov&lt;/STRONG&gt;, napr. aby sa po vyfakturovaní objednávky jej stav automaticky zmenil na &lt;EM&gt;Potrebné vyskladniť&lt;/EM&gt;, prípadne &lt;EM&gt;Potrebné odoslať&lt;/EM&gt; (v závislosti od nastavených procesov danej firmy). Automatické zmeny stavov&amp;nbsp;možno nastaviť vo&amp;nbsp;&lt;A href="52b12b75-3fa1-4a52-8f08-34d2f53f390d"&gt;formulári Typ stavu prijatej objednávky&lt;/A&gt;, záložka &lt;EM&gt;Ostatné&lt;/EM&gt;. Napríklad: 
+&lt;UL&gt;
+&lt;LI&gt;po vyfakturovaní objednávky je možné nastaviť, či objednávka nadobudne stav &lt;EM&gt;Vybavená&lt;/EM&gt; alebo &lt;EM&gt;Potrebné vyskladniť&lt;/EM&gt;. Ak nebude dodaný všetok objednaný tovar (napr. z&amp;nbsp;dôvodu jeho nedostupnosti), môže&amp;nbsp;nadobudnúť stav &lt;EM&gt;Čiastočne dodaná.&lt;/EM&gt; 
+&lt;LI&gt;podobne po&amp;nbsp;zaevidovaní úhrady&amp;nbsp;objednávky na &lt;EM&gt;Pokladnici OBERON&lt;/EM&gt; je možné nastaviť, či objednávka nadobudne stav &lt;EM&gt;Vybavená&lt;/EM&gt; alebo &lt;EM&gt;Potrebné vyskladniť&lt;/EM&gt;. Ak nebol dodaný všetok objednaný tovar, môže nadobudnúť stav &lt;EM&gt;Čiastočne dodaná.&lt;/EM&gt; &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Ku každej&amp;nbsp;prijatej objednávke sa eviduje aj história zmien stavov danej objednávky - pri každej zmene stavu (či už manuálnej alebo automatickej) sa do tejto histórie&amp;nbsp;uloží záznam (&lt;A href="6712889d-bea7-4ae7-859d-82b809c7bdcc"&gt;formulár Objednávka prijatá&lt;/A&gt;, záložka &lt;EM&gt;Stavy&lt;/EM&gt;). 
+&lt;LI&gt;Pri každom&amp;nbsp;stave je možné nastaviť, aby po tom, čo ho prijatá objednávka nadobudne,&amp;nbsp;mohol byť používateľ po uplynutí určitého času upozornený, aby danej objednávke venoval zvýšenú pozornosť, prípadne vykonal určitú akciu. Upozornenie spočíva vo farebnom odlíšení záznamu - záznam sa začne zobrazovať &lt;STRONG style="COLOR: rgb(171,115,213)"&gt;fialovou farbou&lt;/STRONG&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;&amp;nbsp;Tabuľka č. 1:&amp;nbsp;Prehľad stavov prijatých objednávok&lt;/H5&gt;
+&lt;TABLE border=0&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TH align=left&gt;&lt;STRONG&gt;Ikona&lt;/STRONG&gt;&lt;/TH&gt;
+&lt;TH&gt;&lt;STRONG&gt;Názov stavu&lt;/STRONG&gt;&lt;/TH&gt;
+&lt;TH&gt;&lt;STRONG&gt;Popis stavu&lt;/STRONG&gt;&lt;/TH&gt;
+&lt;TH align=center&gt;&lt;STRONG&gt;Okamih automatickej zmeny&lt;/STRONG&gt;&lt;/TH&gt;
+&lt;TH&gt;&lt;STRONG&gt;Poznámka&lt;/STRONG&gt;&lt;/TH&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD align=left&gt;&lt;IMG border=0 alt="" src="images/Forms/Invoices/Form_Invoices_OrderReceived_NewOffer.png"&gt;&lt;/TD&gt;
+&lt;TD&gt;Nová ponuka&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P align=left&gt;Ponuka zaslaná zákazníkovi (ešte nepotvrdená)&lt;/P&gt;&lt;/TD&gt;
+&lt;TD&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD align=left&gt;&lt;IMG border=0 alt="" src="images/Forms/Invoices/Form_Invoices_OrderReceived_OK.png"&gt;&lt;/TD&gt;
+&lt;TD&gt;Akceptovaná ponuka&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P align=left&gt;Zákazník akceptoval ponuku&lt;/P&gt;&lt;/TD&gt;
+&lt;TD&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD align=left&gt;&lt;IMG border=0 alt="" src="images/Forms/Invoices/Form_Invoices_OrderReceived_AcceptedOffer.png"&gt;&lt;/TD&gt;
+&lt;TD&gt;Z ponuky objednávka&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P align=left&gt;Z ponuky bola vytvorená objednávka&lt;/P&gt;&lt;/TD&gt;
+&lt;TD&gt;Zmena nastane pri vytvorení objednávky z ponuky.&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD align=left&gt;&lt;IMG border=0 alt="" src="images/Forms/Invoices/Form_Invoices_OrderReceived_Refused.png"&gt;&lt;/TD&gt;
+&lt;TD&gt;Zamietnutá ponuka&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P align=left&gt;Zákazník neakceptoval ponuku&lt;/P&gt;&lt;/TD&gt;
+&lt;TD&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD align=left&gt;&lt;IMG border=0 alt="" src="images/Forms/Invoices/Form_Invoices_OrderReceived_Payment.png"&gt;&lt;/TD&gt;
+&lt;TD&gt;Nová objednávka (čaká sa na platbu)&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P align=left&gt;Nová objednávka, pri ktorej sa vyžaduje platba vopred&lt;/P&gt;&lt;/TD&gt;
+&lt;TD&gt;Nový stav objednávky, keď sa vyžaduje platba vopred, napr. zákazník platí bankovým prevodom. Takéto objednávky systém OBERON ignoruje a&amp;nbsp;nezahŕňa ich medzi&amp;nbsp;reálne objednané (alebo rezervované) množstvá - zahrnie ich až vtedy, keď sa stav zmení na &lt;EM&gt;Nová objednávka (uhradená)&lt;/EM&gt;.&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P align=left&gt;Zápis úhrady do objednávky je možné pri bankovom prevode aj automaticky pomocou&amp;nbsp;&lt;A href="02bbf54b-086f-4641-8c33-4dd461e56fb4"&gt;spracovania bankových výpisov&lt;/A&gt;.&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD align=left&gt;&lt;IMG border=0 alt="" src="images/Forms/Invoices/Form_Invoices_OrderReceived_NewOrder.png"&gt;&lt;/TD&gt;
+&lt;TD&gt;Nová objednávka&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P align=left&gt;Nová objednávka&lt;/P&gt;&lt;/TD&gt;
+&lt;TD&gt;Predvolený stav objednávky.&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P align=left&gt;&amp;nbsp;&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD colSpan=5 align=left&gt;&lt;STRONG&gt;Od&amp;nbsp;nasledujúceho&amp;nbsp;stavu (&lt;EM&gt;Nová objednávka (uhradená)&lt;/EM&gt;)&amp;nbsp;sa&lt;/STRONG&gt; &lt;STRONG&gt;objednávka&lt;/STRONG&gt; &lt;STRONG&gt;považuje z hľadiska evidencie zásob&amp;nbsp;za platnú.&lt;/STRONG&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD align=left&gt;&lt;IMG border=0 alt="" src="images/Forms/Invoices/Form_Invoices_OrderReceived_PaymentHand.png"&gt;&lt;/TD&gt;
+&lt;TD&gt;Nová objednávka (uhradená)&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P align=left&gt;Objednávka bola uhradená&lt;/P&gt;&lt;/TD&gt;
+&lt;TD&gt;Nastane pri automatickom&amp;nbsp;spracovaní bankových výpisov a zapísaní úhrady do objednávky.&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD align=left&gt;&lt;IMG border=0 alt="" src="images/Forms/Invoices/Form_Invoices_OrderReceived_Trolley.PNG"&gt;&lt;/TD&gt;
+&lt;TD&gt;Potrebné objednať&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P align=left&gt;Tovar nie je na sklade, je ho potrebné objednať u dodávateľa&lt;/P&gt;&lt;/TD&gt;
+&lt;TD&gt;Daný stav navrhuje systém OBERON vtedy, keď niektorý tovar na objednávke nie je na sklade a ani na inom sklade účtovnej jednotky. Objednávky v tomto stave sú zahrnuté do&amp;nbsp;&lt;A href="f65d09c4-6f7e-42a3-8ae5-3cda89534c06"&gt;automatickej tvorby vydaných objednávok&lt;/A&gt;.&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD align=left&gt;&lt;IMG border=0 alt="" src="images/Forms/Invoices/Form_Invoices_OrderReceived_Waiting.png"&gt;&lt;/TD&gt;
+&lt;TD&gt;Objednané u dodávateľa&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P align=left&gt;Tovar nie je na sklade, bol objednaný u dodávateľa&lt;/P&gt;&lt;/TD&gt;
+&lt;TD&gt;Nastane automaticky pri&amp;nbsp;&lt;A href="f65d09c4-6f7e-42a3-8ae5-3cda89534c06"&gt;automatickej tvorbe vydaných objednávok&lt;/A&gt; (ak bol daný tovar zahrnutý do vydanej objednávky).&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD align=left&gt;&lt;IMG border=0 alt="" src="images/Forms/Invoices/Form_Invoices_OrderReceived_ArrowRight.png"&gt;&lt;/TD&gt;
+&lt;TD&gt;Previesť z iného skladu&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P align=left&gt;Tovar je potrebné previesť z iného skladu&lt;/P&gt;&lt;/TD&gt;
+&lt;TD&gt;Daný stav navrhuje systém OBERON vtedy,&amp;nbsp;keď niektorý tovar na objednávke nie je na aktuálnom sklade, nachádza sa však na inom sklade&amp;nbsp;účtovnej jednotky.&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD align=left&gt;&lt;IMG border=0 alt="" src="images/Forms/Invoices/Form_Invoices_OrderReceived_Manufacture.png"&gt;&lt;/TD&gt;
+&lt;TD&gt;Do výroby&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P align=left&gt;Tovar je potrebné vyrobiť&lt;/P&gt;&lt;/TD&gt;
+&lt;TD&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P align=left&gt;Používateľ môže nastaviť tento stav manuálne, ak je v&amp;nbsp;objednávke tovar, ktorý vyrába účtovná jednotka.&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD align=left&gt;&lt;IMG border=0 alt="" src="images/Forms/Invoices/Form_Invoices_OrderReceived_OrderOK.png"&gt;&lt;/TD&gt;
+&lt;TD&gt;Očakávané dodanie&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P align=left&gt;Tovar nie je na sklade, dodávateľ potvrdil dodanie&lt;/P&gt;&lt;/TD&gt;
+&lt;TD&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P align=left&gt;Používateľ môže nastaviť tento stav manuálne, ak mu jeho dodávateľ potvrdí dodanie daného tovaru.&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD align=left&gt;&lt;IMG border=0 alt="" src="images/Forms/Invoices/Form_Invoices_OrderReceived_Warehouseman.png"&gt;&lt;/TD&gt;
+&lt;TD&gt;Potrebné vyskladniť&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P align=left&gt;Tovar je na sklade pripravený na vyskladnenie&lt;/P&gt;&lt;/TD&gt;
+&lt;TD&gt;Nastane automaticky po vložení objednávky do&amp;nbsp;dokladu (výdajky, faktúry, pokladničného dokladu), pričom všetok objednaný tovar je na sklade (je ho možné vyskladniť a dodať). Objednávky v tomto stave je možné fyzicky vyskladniť pomocou aplikácie&amp;nbsp;&lt;A href="be17efdf-4b36-4b47-ad5d-09b0f66c8f65"&gt;ASTON&lt;/A&gt;.&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P align=left&gt;Tento stav nemusí používať každá účtovná jednotka - vtedy je však potrebné v stavoch objednávok nastaviť, ktorý iný stav sa má použiť, môže to byť napr. &lt;EM&gt;Vybavená.&lt;/EM&gt;&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD align=left&gt;&lt;IMG border=0 alt="" src="images/Forms/Invoices/Form_Invoices_OrderReceived_Paper.PNG"&gt;&lt;/TD&gt;
+&lt;TD&gt;Čiastočne dodaná&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P align=left&gt;Tovar bude dodaný len čiastočne.&lt;/P&gt;&lt;/TD&gt;
+&lt;TD&gt;Nastane automaticky po vložení objednávky do&amp;nbsp;dokladu (výdajky, faktúry, pokladničného dokladu), pričom bolo dodanie upravené, napr. pre nedostatok&amp;nbsp;množstva na sklade. Objednávky v tomto stave je možné fyzicky vyskladniť pomocou aplikácie&amp;nbsp;&lt;A href="be17efdf-4b36-4b47-ad5d-09b0f66c8f65"&gt;ASTON&lt;/A&gt;.&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P align=left&gt;Pre objednávky v tomto stave odporúčame využiť možnosť automaticky túto objednávku uzatvoriť a&amp;nbsp;vytvoriť novú z len nedodaných množstiev (možnosť&amp;nbsp;&lt;EM&gt;Uzatvoriť a vytvoriť z&amp;nbsp;nedodaných množstiev novú&lt;/EM&gt;).&lt;/P&gt;
+&lt;P align=left&gt;&amp;nbsp;&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD colSpan=5 align=left&gt;&lt;STRONG&gt;Od predchádzajúceho stavu (&lt;EM&gt;Čiastočne dodaná&lt;/EM&gt;)&amp;nbsp;sa objednávka z hľadiska evidencie zásob&amp;nbsp;považuje za&amp;nbsp;uzatvorenú.&lt;/STRONG&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD align=left&gt;&lt;IMG border=0 alt="" src="images/Forms/Invoices/Form_Invoices_OrderReceived_CarVan.png"&gt;&lt;/TD&gt;
+&lt;TD&gt;Pripravené na odoslanie&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P align=left&gt;Tovar bol vyskladnený, je ho potrebné odoslať&lt;/P&gt;&lt;/TD&gt;
+&lt;TD&gt;Nastáva automaticky pri vyskladnení tovaru, napr. na mobilnej aplikácii ASTON.&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P align=left&gt;Používateľ môže nastaviť tento stav aj manuálne (spravidla po jeho vyskladnení).&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD align=left&gt;&lt;IMG border=0 alt="" src="images/Forms/Invoices/Form_Invoices_OrderReceived_Home.png"&gt;&lt;/TD&gt;
+&lt;TD&gt;Odoslaná&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P align=left&gt;Tovar bol odoslaný, očakáva sa doručenie zákazníkovi&lt;/P&gt;&lt;/TD&gt;
+&lt;TD&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P align=left&gt;Nastavuje sa manuálne po fyzickom odoslaní tovaru (prebratí zásielkovou službou).&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD align=left&gt;&lt;IMG border=0 alt="" src="images/Forms/Invoices/Form_Invoices_OrderReceived_OK.png"&gt;&lt;/TD&gt;
+&lt;TD&gt;Vybavená&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P align=left&gt;Tovar bol doručený zákazníkovi&lt;/P&gt;&lt;/TD&gt;
+&lt;TD&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P align=left&gt;Nastavuje sa manuálne po fyzickom odoslaní tovaru, prípadne po potvrdení doručenia (pri sledovaní zásielok).&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD align=left&gt;&lt;IMG border=0 alt="" src="images/Forms/Invoices/Form_Invoices_OrderReceived_WaitingToRefund.png"&gt;&lt;/TD&gt;
+&lt;TD&gt;Očakávané vrátenie&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P align=left&gt;Vrátenie tovaru, prípadne obalov z&amp;nbsp;predaných tovarov.&lt;/P&gt;&lt;/TD&gt;
+&lt;TD&gt;Objednávke sa tento stav automaticky nastaví vtedy, keď obsahuje len záporné položky. Tento stav možno použiť v prípadoch, keď je potrebné evidovať vrátenie tovaru, prípadne obalov z predaných tovarov (napr. paliet, prepraviek, sudov a pod.).&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P align=left&gt;Nastavuje sa automaticky, ak objednávka obsahuje len záporné položky. Ak nebude tento stav definovaný, takejto objednávke sa automaticky nastaví stav &lt;EM&gt;Vybavená&lt;/EM&gt;.&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD align=left&gt;&lt;IMG border=0 alt="" src="images/Forms/Invoices/Form_Invoices_OrderReceived_Canceled.png"&gt;&lt;/TD&gt;
+&lt;TD&gt;Zrušená&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P align=left&gt;Zrušená objednávka zo strany zákazníka&lt;/P&gt;&lt;/TD&gt;
+&lt;TD&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P align=left&gt;Nastavuje sa manuálne - napr.&amp;nbsp;tovar nie je možné dodať.&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD align=left&gt;&lt;IMG border=0 alt="" src="images/Forms/Invoices/Form_Invoices_OrderReceived_Refused.png"&gt;&lt;/TD&gt;
+&lt;TD&gt;Zamietnutá&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P align=left&gt;Zrušená objednávka zo strany e-shopu&lt;/P&gt;&lt;/TD&gt;
+&lt;TD&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P align=left&gt;Nastavuje sa manuálne - napr.&amp;nbsp;zákazník neuhradil tovar vopred.&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="77f134fe-83e4-4159-8e47-7cdca3662a45" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="c91cdf0d-f982-42ce-a348-4fb310046672">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="535088eb-dccd-4f56-a596-834c174d8101" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="48505e8d-5f28-4063-882b-ca07f33670ef">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="71226f84-50b6-4dad-b56a-cc8c936ebe08" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="a9a8c655-077e-45cb-acb3-8fdb105a2409">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="095e2aa8-b05e-451c-a5e0-d5e5a27ee23f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="52b12b75-3fa1-4a52-8f08-34d2f53f390d">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="93a589fb-ca90-472d-b17a-d6a221827339">
+      <Keyword m="2021-09-20T07:07:26.0911841Z">Prijaté objednávky - zmena stavu</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="c10268f8-46b0-43ab-aea6-9cd3004e50c4">
+      <Keyword m="2021-09-20T07:07:39.412412Z">Zmena stavu prijatej objednávky</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="4ff9d0df-0a5b-4d14-a38f-6cbd4fca1780">
+      <Keyword m="2021-09-20T08:18:41.3433157Z">Prijaté objednávky - stavy</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

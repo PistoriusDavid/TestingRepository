@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="ce9e15f9-7459-4a5c-8bad-db17ef7b59ea" Status="Complete" CreatedOn="2016-05-10T10:00:47.8782933Z" ModifiedOn="2023-10-09T06:01:10.314285Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="70500" Name="Menu_Wages_WorkCalendar" BuildFlags="">
+  <Title m="2016-08-02T07:00:58.1454043Z">Pracovný kalendár</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-10-05T05:36:37.355999Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;je venovaná&amp;nbsp;položke&amp;nbsp;&lt;EM&gt;Pracovný kalendár&lt;/EM&gt; v&amp;nbsp;ponuke&amp;nbsp;&lt;EM&gt;Mzdy&lt;/EM&gt; programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Výberom položky sa otvorí &lt;EM&gt;Pracovný kalendár&lt;/EM&gt; -&amp;nbsp;&lt;STRONG&gt;interaktívny formulár,&amp;nbsp;ktorý&amp;nbsp;umožňuje vytvoriť a&lt;EM&gt;&amp;nbsp;&lt;/EM&gt;v&amp;nbsp;grafickom&amp;nbsp;prehľade zobraziť&amp;nbsp;pracovný&amp;nbsp;plán pracovníkov&lt;/STRONG&gt; (rozpis&amp;nbsp;&lt;A href="a77380d9-dc93-41be-9423-aa76a8c7f9f4"&gt;pracovných zmien&lt;/A&gt;, resp. služieb), t. j. dni, v ktoré majú pracovať. 
+&lt;LI&gt;Stlačením pravého tlačidla myši program umožňuje vyvolať kontextovú ponuku, kde je možné &lt;STRONG&gt;automaticky vygenerovať pracovný plán&amp;nbsp;pracovníkov&lt;/STRONG&gt; na základe nastaveného&amp;nbsp;&lt;A href="0d06308b-64cf-4d51-bc3a-9c262750667d"&gt;pracovného plánu firmy&lt;/A&gt; a&amp;nbsp;&lt;A href="3fced304-5201-4497-bb58-104c1fd77990"&gt;pracovných pomerov pracovníkov&lt;/A&gt;&amp;nbsp;(&lt;A href="95a3b7e2-6135-4860-a655-5724b186b94c"&gt;formulár Pracovný pomer pracovníka&lt;/A&gt;, záložka &lt;EM&gt;Dochádzka&lt;/EM&gt;). V&amp;nbsp;prípade potreby je možné automaticky vygenerovaný pracovný plán manuálne upraviť. Na manuálnu úpravu&amp;nbsp;možno&amp;nbsp;použiť&amp;nbsp;rozbaľovací zoznam so šípkou&amp;nbsp;v&amp;nbsp;pravom hornom rohu formulára alebo zoznam pracovných zmien v ľavom paneli oddelenom&amp;nbsp;&lt;A href="38489850-ab82-41b6-b258-3fa613ed5861"&gt;rozdeľovacou lištou&lt;/A&gt;.&amp;nbsp; 
+&lt;LI&gt;Ak&amp;nbsp;účtovná jednotka&amp;nbsp;&lt;STRONG&gt;nebude&amp;nbsp;na evidenciu dochádzky využívať&amp;nbsp;dochádzkový terminál&lt;/STRONG&gt;, môže súčasne s&amp;nbsp;vygenerovaním pracovného plánu &lt;STRONG&gt;vygenerovať&amp;nbsp;jednotlivým pracovníkom aj dochádzku&lt;/STRONG&gt;. Dochádzka sa vygeneruje podľa pracovného plánu daného pracovníka s&amp;nbsp;prihliadnutím na neprítomnosti zadané pri pracovnom pomere (vo&amp;nbsp;&lt;A href="95a3b7e2-6135-4860-a655-5724b186b94c"&gt;formulári Pracovný pomer pracovníka&lt;/A&gt;, záložka &lt;EM&gt;Neprítomnosti&lt;/EM&gt;). Dochádzku je možné neskôr podľa evidovaných neprítomností manuálne upraviť. Na manuálnu úpravu&amp;nbsp;možno&amp;nbsp;použiť&amp;nbsp;rozbaľovací zoznam so šípkou&amp;nbsp;v&amp;nbsp;pravom hornom rohu formulára alebo kontextovú ponuku tabuľky záznamov, ktorá sa zobrazí po kliknutí pravým tlačidlom myši na vybraný záznam.&amp;nbsp;Týmto spôsobom&amp;nbsp;je možné zadať aj neprítomnosti pracovníka v&amp;nbsp;práci, ktoré&amp;nbsp;sa automaticky prenesú do&amp;nbsp;&lt;A href="6923b0c5-166b-4e3b-a53b-71f62b53b2fc"&gt;Tvorby miezd&lt;/A&gt;&amp;nbsp;- viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="1491b978-c63c-4182-95f4-70eade92f4d5" style="auto-update-caption: true"&gt;Ako zadať neprítomnosť v práci&lt;/A&gt;. 
+&lt;LI&gt;Ak účtovná jednotka &lt;STRONG&gt;využíva na evidenciu dochádzky pracovníkov dochádzkový terminál&lt;/STRONG&gt;, jednotlivé&amp;nbsp;&lt;A href="4eb19cec-64b2-467f-8e96-fa7e5387704c"&gt;časové zložky dochádzky&lt;/A&gt; na základe prechodov evidovaných na dochádzkovom termináli sa do &lt;EM&gt;Pracovného kalendára&lt;/EM&gt; &lt;STRONG&gt;prenášajú automaticky&lt;/STRONG&gt; (v grafickom prehľade sa zobrazia vždy v&amp;nbsp;nasledujúci deň).&amp;nbsp;V&amp;nbsp;prípade potreby je možné aj dochádzku zaevidovanú pomocou dochádzkového terminálu následne manuálne upraviť. Tým je možné zaevidovať skutočne odpracovaný čas pracovníka pre &lt;EM&gt;Mzdy&lt;/EM&gt;. 
+&lt;LI&gt;Spracovanie príchodov a odchodov zaznamenaných na&amp;nbsp;&lt;A href="f46f3a8f-ba04-4359-ba99-dc6caeeba021"&gt;dochádzkovom termináli&lt;/A&gt; sa v&amp;nbsp;programe&amp;nbsp;&lt;STRONG&gt;vykonáva automaticky&lt;/STRONG&gt;. Spracovanie príchodov a odchodov znamená prenos údajov&amp;nbsp;(prechodov) zaznamenaných na dochádzkovom termináli do&amp;nbsp;evidencie dochádzky, kde sa&amp;nbsp;vygenerujú časové periódy evidencie času a&amp;nbsp;vypočítajú odpracované hodiny. V &lt;EM&gt;Pracovnom kalendári&lt;/EM&gt;&amp;nbsp;však možno v&amp;nbsp;odôvodnených prípadoch (napr. ak bola vykonaná manuálna&amp;nbsp;úprava&amp;nbsp;záznamov v&amp;nbsp;knihe&amp;nbsp;&lt;A href="4a82f3bd-3c2b-4ab4-91f7-df0fa039cd5c" style="auto-update-caption: true"&gt;Evidencia príchodov a odchodov&lt;/A&gt;, prípadne zmena v&amp;nbsp;&lt;A href="05f759ce-29f8-46c1-b195-7dc22fc30cbd"&gt;pravidlách spracovania dochádzky&lt;/A&gt;) vykonať&amp;nbsp;aj manuálne&amp;nbsp;spracovanie pomocou funkcie &lt;EM&gt;&lt;STRONG&gt;Spracovanie príchodov a&amp;nbsp;odchodov&lt;/STRONG&gt;&lt;/EM&gt;&amp;nbsp;(tlačidlo &lt;EM&gt;Možnosti&lt;/EM&gt;, resp. kontextová ponuka). 
+&lt;LI&gt;Pre spracovanie miezd je pracovný kalendár &lt;STRONG&gt;dôležitý aj vtedy, keď sa dochádzkový terminál nepoužíva&lt;/STRONG&gt;. Z&amp;nbsp;pracovného kalendára (plánu) sa vypočítavajú hodiny práce v&amp;nbsp;nočnej zmene, práce v sobotu a nedeľu a pod. Následne je možné automaticky vypočítať príplatky za tieto dni (hodiny). &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Ak je už v evidencii zadaná dochádzka, opätovným vygenerovaním &lt;SPAN style="COLOR: rgb(255,0,0)"&gt;sa nevratne prepíše&lt;/SPAN&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H5&gt;Obrázok č. 1: Pracovný kalendár s legendou skratiek časových zložiek dochádzky a pracovných zmien – zadanie absencie&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/Attendance/Form_Attendance_WorkingCalendar_Stylus.png"&gt;&lt;/P&gt;
+&lt;H2&gt;Ďalšie informácie&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;V dolnom paneli &lt;EM&gt;Pracovného kalendára&lt;/EM&gt;&amp;nbsp;je k dispozícii podrobná rekapitulácia dochádzky podľa jednotlivých pracovníkov. 
+&lt;LI&gt;V grafickom prehľade je možné meniť výšku riadkov a šírku stĺpcov jednoduchým posunutím trojuholníka v pravom hornom rohu formulára. 
+&lt;LI&gt;Na zvýšenie&amp;nbsp;prehľadnosti&amp;nbsp;je v ľavom paneli oddelenom&amp;nbsp;&lt;A href="38489850-ab82-41b6-b258-3fa613ed5861"&gt;rozdeľovacou lištou&lt;/A&gt;&amp;nbsp;k dispozícii &lt;STRONG&gt;vstavaný filter&lt;/STRONG&gt;, pomocou ktorého možno rýchlo filtrovať záznamy podľa&amp;nbsp;pracovísk. Zároveň sa tu nachádza &lt;STRONG&gt;celková rekapitulácia dochádzky&lt;/STRONG&gt; všetkých pracovníkov spolu s&amp;nbsp;&lt;STRONG&gt;interaktívnou legendou skratiek časových zložiek dochádzky a pracovných zmien&lt;/STRONG&gt;. 
+&lt;LI&gt;Z&amp;nbsp;&lt;EM&gt;Pracovného kalendára&lt;/EM&gt;&amp;nbsp;je možné po stlačení tlačidla &lt;EM&gt;Tlač&lt;/EM&gt; tlačiť rozličné &lt;STRONG&gt;tlačové výstupy&lt;/STRONG&gt;, napr. &lt;EM&gt;Rozpis pracovných zmien, Pracovný plán pracovníkov&lt;/EM&gt; atď. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Stav záznamu&lt;/H2&gt;
+&lt;TABLE style="HEIGHT: 145px; WIDTH: 50.4%"&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TD width=41&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Button_Blue.png"&gt;&lt;/TD&gt;
+&lt;TD&gt;Čaká na spracovanie&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=41&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Button_Orange.png"&gt;&lt;/TD&gt;
+&lt;TD&gt;Automaticky alebo manuálne spracovaný záznam (upozornenie)&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=41&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Button_Red.png"&gt;&lt;/TD&gt;
+&lt;TD&gt;Problém v dochádzke&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;
+&lt;H2&gt;Popis stavov spracovania dochádzky&lt;/H2&gt;
+&lt;TABLE style="HEIGHT: 295px; WIDTH: 50.4%"&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TD width=41&gt;&lt;IMG border=0 alt="" src="images/Forms/Wages/Form_Wages_Icon_NotProcessed.PNG"&gt;&lt;/TD&gt;
+&lt;TD&gt;Dochádzka&amp;nbsp;ešte nebola spracovaná&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=41&gt;&lt;IMG border=0 alt="" src="images/Forms/Wages/Form_Wages_Icon_Conceprt.PNG"&gt;&lt;/TD&gt;
+&lt;TD&gt;Dochádzka bola uložená ako koncept (návrh)&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=41&gt;&lt;IMG border=0 alt="" src="images/Forms/Wages/Form_Wages_Icon_Ended.PNG"&gt;&lt;/TD&gt;
+&lt;TD&gt;Dochádzka bola spracovaná&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=41&gt;&lt;IMG border=0 alt="" src="images/Forms/Wages/Form_Wages_Icon_EndedWithSignature.PNG"&gt;&lt;/TD&gt;
+&lt;TD&gt;Dochádzka bola spracovaná a podpísaná (odsúhlásená zodpovednou osobou)&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=41&gt;&lt;IMG border=0 alt="" src="images/Forms/Wages/Form_Wages_Icon_DeadlineWages.PNG"&gt;&lt;/TD&gt;
+&lt;TD&gt;Bola vykonaná uzávierka miezd, dochádzku nie je možné zmeniť&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=41&gt;&lt;IMG border=0 alt="" src="images/Forms/Wages/Form_Wages_Icon_DeadlineWagesWithSignature.PNG"&gt;&lt;/TD&gt;
+&lt;TD&gt;Bola vykonaná uzávierka miezd na podpísanú dochádzku,&amp;nbsp;dochádzku nie je možné zmeniť&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;
+&lt;H2&gt;Ďalšie možnosti evidencie&lt;/H2&gt;
+&lt;P&gt;Ďalšie možnosti práce so záznamami&amp;nbsp;sú dostupné po stlačení tlačidla &lt;EM&gt;Možnosti&lt;/EM&gt;, prípadne v kontextovej ponuke tabuľky záznamov.&lt;/P&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Generovať pracovný plán&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Otvorí sa sprievodca, pomocou ktorého je možné vybraným pracovníkom (ich pracovným pomerom) vygenerovať pracovný plán, t. j. dni, v&amp;nbsp;ktoré majú pracovať. Vyberte pracovníka, resp. pracovníkov a zvoľte, či chcete ponechať aktuálne evidovanú dochádzku, vymazať dochádzku alebo vygenerovať dochádzku podľa pracovného plánu pracovníka, resp. pracovníkov.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Spracovanie príchodov a odchodov&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Otvorí sa sprievodca, pomocou ktorého možno&amp;nbsp;manuálne spracovať príchody a odchody v&amp;nbsp;prípade, že bola vykonaná&amp;nbsp;manuálna úprava záznamov v&amp;nbsp;knihe&amp;nbsp;&lt;A href="4a82f3bd-3c2b-4ab4-91f7-df0fa039cd5c" style="auto-update-caption: true"&gt;Evidencia príchodov a odchodov&lt;/A&gt;, prípadne zmena v&amp;nbsp;&lt;A href="05f759ce-29f8-46c1-b195-7dc22fc30cbd"&gt;pravidlách spracovania dochádzky&lt;/A&gt;. V&amp;nbsp;jednotlivých krokoch vyberte pracovníkov, ktorým sa má spracovať dochádzka, prípadne dátum, ku ktorému sa má spracovať dochádzka. Zvoľte, či pri opätovnom spracovaní dochádzky sa majú prepísať údaje v dňoch, ktoré boli manuálne upravené.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Hromadné zaslanie tlačových výstupov&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Otvorí sa sprievodca na hromadné zaslanie niektorých tlačových výstupov pracovníkom (pracovný plán, dochádzka pracovníka). Pre každého pracovníka sa automaticky vytvorí e-mailová správa s&amp;nbsp;prílohou -&amp;nbsp;tlačovým výstupom ako súborom vo formáte PDF. Ak má pracovník nastavené heslo pre zasielanie príloh, príloha bude automaticky chránená heslom (zašifrovaná). Heslo je možné zadať vo&amp;nbsp;&lt;A href="8dd60281-9cc7-41fe-9dd2-2ad5c7ffe047"&gt;formulári Pracovník&lt;/A&gt;, záložka &lt;EM&gt;Kontakty&lt;/EM&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Zobraziť príchody a odchody&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Otvorí sa evidencia príchodov a odchodov daného pracovníka.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Označiť&amp;nbsp;za spracovanú&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Funkcia označí dochádzku pracovníka za spracovanú.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Označiť za koncept&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Funkcia označí dochádzku pracovníka za koncept.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;XML komunikácia - export údajov&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Otvorí sa sprievodca, ktorý umožňuje exportovať údaje z&amp;nbsp;tejto evidencie do súboru typu XML. Viac informácií získate v téme&amp;nbsp;&lt;A href="56f661c6-24da-46aa-b157-5d988cbe792b" style="auto-update-caption: true"&gt;Všeobecne o XML komunikácii&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;XML komunikácia - import údajov&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Otvorí sa sprievodca, ktorý umožňuje&amp;nbsp;importovať údaje&amp;nbsp;zo súboru typu&amp;nbsp;XML do tejto evidencie. Viac informácií získate v téme&amp;nbsp;&lt;A href="56f661c6-24da-46aa-b157-5d988cbe792b" style="auto-update-caption: true"&gt;Všeobecne o XML komunikácii&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="2e9582f7-9b94-4d15-9266-2e520d14bf64" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="d616cd9f-1633-4d2d-b827-b072f162a1c8">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="7a56ca49-0666-40bf-b0bf-e4113b2e471c" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="0d06308b-64cf-4d51-bc3a-9c262750667d">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="30262faa-a0fa-45ca-bb59-7c1cbd2b8151" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="3fced304-5201-4497-bb58-104c1fd77990">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="ccc0c9c6-24e7-4c9f-b34e-ff5fd9154424" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="4a82f3bd-3c2b-4ab4-91f7-df0fa039cd5c">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="255d50e3-4e4b-414e-bdeb-f812afa9d1c9" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="f46f3a8f-ba04-4359-ba99-dc6caeeba021">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="b7591dc4-5833-4593-812b-b536c692e9c0" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="a77380d9-dc93-41be-9423-aa76a8c7f9f4">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="80ec0391-13db-4aca-95ac-8f96e2083026" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="4eb19cec-64b2-467f-8e96-fa7e5387704c">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="76d47fae-6c01-48bc-9077-e2b8fa766ac8" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1491b978-c63c-4182-95f4-70eade92f4d5">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="5479a308-3a66-4ca8-a513-ea5218ce2eb1" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="001a08ce-5c9e-49ef-be9f-38e29fe140a0">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="3a473dd3-c4a9-46b5-b4d6-e9daf5f341c0">
+      <Keyword m="2016-09-26T12:28:27.1142685Z">Evidencia pracovného času</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="c998274d-0b4d-4757-a4d6-c112a2641f20">
+      <Keyword m="2018-06-08T12:40:24.24829Z">Dochádzka - Pracovný kalendár</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="6564c067-7fe3-4391-a5da-2b30e8280494">
+      <Keyword m="2018-04-20T07:40:50.8677304Z">Evidencia dochádzky</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="3df172c9-a683-4c06-aefc-3687a2289ed8">
+      <Keyword m="2018-06-08T12:40:09.8817382Z">Pracovné zmeny</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

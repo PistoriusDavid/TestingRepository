@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="1f2813d0-c593-41db-8216-c46ae992da65" Status="Complete" CreatedOn="2014-09-10T08:01:40.5164496Z" ModifiedOn="2023-05-10T13:01:35.7301738Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="false" HelpContextIds="" Name="Vehicles_Started_First_Steps" BuildFlags="">
+  <Title m="2014-09-10T08:02:03.6577733Z">Prvé kroky</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-05-10T13:01:35.7301738Z">&lt;P&gt;Skôr, ako začnete s modulom&amp;nbsp;&lt;EM&gt;Evidencia vozidiel&lt;/EM&gt;&amp;nbsp;pracovať, je potrebné, aby ste v&amp;nbsp;programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt; založili novú firmu. Viac informácií nájdete v&amp;nbsp;téme&amp;nbsp;&lt;A href="9a485893-6dd2-44e8-9740-a4cd7083a932"&gt;Vytvorenie účtovnej jednotky (databázy)&lt;/A&gt;.&amp;nbsp;Zároveň je potrebné povoliť v ponuke&amp;nbsp;&lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="5a6e5663-262e-4ff0-9741-1569385d11e4"&gt;oddiel Firma, Moduly&lt;/A&gt;&amp;nbsp;účtovnej jednotke a&amp;nbsp;v&amp;nbsp;&lt;A href="6ffb02fa-4c5c-4d33-8a0c-6dba98b26a77"&gt;oddiele Používateľ, Moduly&lt;/A&gt; danému používateľovi prácu s&amp;nbsp;modulom&amp;nbsp;&lt;A href="085651d2-b64b-4884-b55d-0ba2b7f7808a"&gt;Evidencia vozidiel&lt;/A&gt;.&lt;/P&gt;
+&lt;H2&gt;1. Vozidlá&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;V&amp;nbsp;ponuke &lt;EM&gt;Vozidlá&lt;/EM&gt;, &lt;A href="c6542278-5d57-4c96-b3d8-ec30f2b5a6d3"&gt;Vozidlá&lt;/A&gt;&lt;EM&gt;&amp;nbsp;&lt;/EM&gt;nadefinujte jednotlivé vozidlá, ktoré budete používať na podnikanie. Pri vypĺňaní jednotlivých polí bude potrebný&amp;nbsp;technický preukaz vozidla, ktorý obsahuje požadované údaje, napr. číslo VIN, priemerná spotreba a pod. Pole &lt;I&gt;Počiatočný stav počítadla&lt;/I&gt; je možné zadať&amp;nbsp;aj dodatočne. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;2. Sadzby základných náhrad&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Pri využívaní súkromného vozidla odporúčame skontrolovať&amp;nbsp;&lt;A href="d217346c-8ef3-4c61-a572-2ee976bb817f"&gt;sadzby základných cestovných náhrad&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;3. Nastavenie predkontácií pri uplatňovaní 80&amp;nbsp;% paušálnych výdavkov&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Na uplatňovanie preukázateľne vynaložených daňových výdavkov na spotrebované pohonné látky (PHL) formou uplatnenia paušálnych výdavkov do výšky 80 % z celkového preukázateľného nákupu PHL za príslušné zdaňovacie obdobie nastavte príslušné predkontácie. Ďalšie informácie získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="3e00a8e4-7e48-4911-b6e8-8b43fa6aa331" style="auto-update-caption: true"&gt;Účtovanie PHL pri uplatňovaní 80 % paušálnych výdavkov&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="5a1405d3-6ed7-418d-95e0-f72adf3b6803" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="9a485893-6dd2-44e8-9740-a4cd7083a932">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="b09132d0-1b69-4a32-8105-6f57237f3064" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="081aff87-08e6-4933-9843-d1b47dc745fb">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="63ff44be-8975-44cf-af9c-1dd71473f535" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="6ffb02fa-4c5c-4d33-8a0c-6dba98b26a77">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="b5b03f14-a744-4b1a-9146-3802a2c584e6" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="c6542278-5d57-4c96-b3d8-ec30f2b5a6d3">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="0cc7f322-451c-4ae6-9c76-aa8efe48b1b0" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="d217346c-8ef3-4c61-a572-2ee976bb817f">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="86e56ec8-2445-4521-b544-5e406fb8d23a" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="3e00a8e4-7e48-4911-b6e8-8b43fa6aa331">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="595d92cb-04b9-4b07-9382-c24522b90711">
+      <Keyword m="2015-02-18T12:26:28.8359375Z">Prvé kroky - Evidencia vozidiel</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="26106af9-20be-4bb9-bb97-0ff282f10c69">
+      <Keyword m="2023-05-10T12:59:54.5893487Z"> Evidencia vozidiel - prvé kroky</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

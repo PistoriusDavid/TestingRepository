@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="dffc17b2-b0c1-444a-ba8a-b80a9182a05e" Status="Complete" CreatedOn="2016-06-20T07:48:28.7853489Z" ModifiedOn="2023-04-14T06:53:30.7605089Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="AccSingle_Accounting_Samples_CashRegisterSalesPosting" BuildFlags="">
+  <Title m="2021-08-18T07:50:18.2101746Z">Zaúčtovanie tržby z registračnej pokladnice do peňažného denníka</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-04-14T06:53:30.7605089Z">&lt;P&gt;V tejto téme &lt;EM&gt;Pomocníka&lt;/EM&gt; je uvedený &lt;STRONG&gt;príklad zaúčtovania tržby&lt;/STRONG&gt; z&amp;nbsp;&lt;A href="04b8d290-1470-41ff-85a1-c44a20958841"&gt;registračnej pokladnice&lt;/A&gt;&amp;nbsp;do&amp;nbsp;&lt;A href="5e82cca9-b8af-4a80-ba30-7ab91914a595"&gt;peňažného denníka&lt;/A&gt;.&lt;/P&gt;
+&lt;H2&gt;Príklad: Zaúčtovanie tržby v&amp;nbsp;hotovosti a platobnou kartou&lt;/H2&gt;
+&lt;H3&gt;Zadanie:&lt;/H3&gt;
+&lt;P&gt;Firma prijala tržbu na pokladnici v hodnote 950 €, z toho:&lt;BR&gt;- hotovosť -&amp;gt; 600 €,&lt;BR&gt;- platobná karta -&amp;gt; 350 €.&lt;/P&gt;
+&lt;P&gt;Tržbu na pokladnici v hotovosti účtovník zadá do peňažného denníka ako príjem ovplyvňujúci&amp;nbsp;základ dane - tržba za tovar. Tržba platená platobnou kartou sa zaeviduje ako výdaj do priebežnej položky. Vklad a výber do pokladnice sa neúčtuje, tieto informácie slúžia len na informovanie, aký zostatok sa&amp;nbsp;v registračnej pokladnici nachádza.&lt;/P&gt;
+&lt;H3&gt;Účtovanie:&lt;/H3&gt;
+&lt;TABLE id=table1 style="HEIGHT: 55px; WIDTH: 1000px; BORDER-COLLAPSE: collapse" width=1000 border=0&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TD height=8 width="17%"&gt;&lt;B&gt;Tržba&lt;/B&gt;&lt;/TD&gt;
+&lt;TD height=8 width="17%"&gt;&lt;B&gt;Predkontácia&lt;/B&gt;&lt;/TD&gt;
+&lt;TD height=8 width=230&gt;&lt;B&gt;Názov&lt;/B&gt;&lt;/TD&gt;
+&lt;TD height=8 width=284 align=right&gt;&lt;B&gt;Text&lt;/B&gt;&lt;/TD&gt;
+&lt;TD height=8 width="13%" align=right&gt;&lt;B&gt;Suma&lt;/B&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=15 width="17%" align=left&gt;Hotovosť&lt;/TD&gt;
+&lt;TD height=15 width="17%" align=left&gt;200&lt;/TD&gt;
+&lt;TD height=15 width=230 align=left&gt;Príjem - tovar&lt;/TD&gt;
+&lt;TD height=15 width=284 align=right&gt;Príjem ovplv. základ dane - tovar&lt;/TD&gt;
+&lt;TD height=15 width="13%" align=right&gt;600&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=15 width="17%" align=left&gt;Platobná karta&lt;/TD&gt;
+&lt;TD height=15 width="17%" align=left&gt;120&lt;/TD&gt;
+&lt;TD height=15 width=230 align=left&gt;Príjem&amp;nbsp;z priebežnej položky&lt;/TD&gt;
+&lt;TD height=15 width=284 align=right&gt;Priebežná položka - výdaj&lt;/TD&gt;
+&lt;TD height=15 width="13%" align=right&gt;350&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="8e9f94d6-4fdd-4748-a011-4491b20aca77" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="5e82cca9-b8af-4a80-ba30-7ab91914a595">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="e0ffaa50-18d1-4250-b47c-e51ff9019ec5" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="38889643-dcf0-4def-80fb-d0adb0b00d70">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="6ec0e9c6-cffe-42e4-8218-221545316768" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="fd6a0f47-c326-43a2-8408-003cce805463">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="393b6ba6-e9bb-4333-982a-faf2fbf8a88c" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="900c1b8a-2645-4225-ac93-d387237f3d90">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="855c339d-30bf-45fb-8dd3-80e1fb41d5fb">
+      <Keyword m="2021-08-18T07:44:47.6221684Z">Tržba z registračnej pokladnice - zaúčtovanie (JÚ)</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

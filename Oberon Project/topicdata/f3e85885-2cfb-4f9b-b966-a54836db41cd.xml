@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="f3e85885-2cfb-4f9b-b966-a54836db41cd" Status="Complete" CreatedOn="2014-09-02T12:12:21.4835792Z" ModifiedOn="2024-07-15T08:54:59.4775216Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Developers_WebServices_Installation" BuildFlags="">
+  <Title m="2014-09-02T12:12:39.0285827Z">Inštalácia webovej služby</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-07-12T10:47:18.9045902Z">&lt;P align=left&gt;V&amp;nbsp;tejto téme&amp;nbsp;&lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;je popísaný&amp;nbsp;&lt;STRONG&gt;všeobecný postup inštalácie webovej služby&lt;/STRONG&gt;, ktorá sa&amp;nbsp;v&amp;nbsp;systéme OBERON nastavuje ako&amp;nbsp;jedna z&amp;nbsp;&lt;A href="9ce25bbd-35d1-4096-acd5-70007f5af5a6"&gt;automatických úloh&lt;/A&gt; vykonávaných programom&amp;nbsp;&lt;A href="09f3dae9-2fb7-490f-97dc-37f60885b398"&gt;OBERON Automation Center&lt;/A&gt;.&amp;nbsp;&lt;STRONG&gt;Konkrétne postupy inštalácie&lt;/STRONG&gt;&amp;nbsp;&lt;STRONG&gt;webových služieb&lt;/STRONG&gt; jednotlivých nadstavbových&amp;nbsp;modulov, resp.&amp;nbsp;aplikácií alebo iných externých systémov implementovaných do systému OBERON sú spravidla &lt;STRONG&gt;popísané jednotlivo&lt;/STRONG&gt; v príslušných témach &lt;EM&gt;Pomocníka&lt;/EM&gt;. Keďže postup vyžaduje určité znalosti sieťovej infraštruktúry (nastavenie brány firewall, sieťového smerovača a&amp;nbsp;pod.), je určený pre servisných technikov.&lt;/P&gt;
+&lt;H2&gt;Postup inštalácie&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;Pred&amp;nbsp;nastavením automatickej úlohy v&amp;nbsp;systéme OBERON sa uistite, že je&amp;nbsp;&lt;STRONG&gt;na počítači, ktorý je neustále zapnutý (spravidla sieťovom databázovom serveri),&lt;/STRONG&gt;&amp;nbsp;správne nastavený&amp;nbsp;&lt;STRONG&gt;server&lt;/STRONG&gt;&amp;nbsp;&lt;A href="09f3dae9-2fb7-490f-97dc-37f60885b398"&gt;OBERON Automation Center&lt;/A&gt;. Postup nastavenia je dostupný v&amp;nbsp;téme&amp;nbsp;&lt;A href="fd64c37a-486b-4cdf-a370-297aaa8a8f73" style="auto-update-caption: true"&gt;Nastavenie servera OBERON Automation Center&lt;/A&gt;.&amp;nbsp;Správnosť nastavenia a&amp;nbsp;fungovania&amp;nbsp;servera OAC môžete skontrolovať v&amp;nbsp;programe&lt;STRONG&gt;&amp;nbsp;&lt;EM&gt;OBERON Automation Center&lt;/EM&gt; (klient)&lt;/STRONG&gt; (v&amp;nbsp;programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;, ponuka&amp;nbsp;&lt;EM&gt;OBERON&lt;/EM&gt;,&amp;nbsp;&lt;A href="69282df4-d4d6-462a-8cf2-68000e3e6f93"&gt;OBERON Automation Center (klient)&lt;/A&gt;). &lt;SPAN style="COLOR: rgb(255,0,0)"&gt;Pri&amp;nbsp;použití&lt;/SPAN&gt; &lt;EM style="COLOR: rgb(255,0,0)"&gt;OBERON Automation Center&lt;/EM&gt;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;&amp;nbsp;&lt;STRONG&gt;odporúčame&lt;/STRONG&gt;&lt;/SPAN&gt; &lt;STRONG style="COLOR: rgb(255,0,0)"&gt;používať databázu SQL&lt;/STRONG&gt;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;.&lt;/SPAN&gt; 
+&lt;LI&gt;Na &lt;STRONG&gt;serveri (nie na&lt;/STRONG&gt; &lt;STRONG&gt;klientskom počítači)&lt;/STRONG&gt;&amp;nbsp;spustite program &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt; &lt;STRONG&gt;ako správca&lt;/STRONG&gt; a&amp;nbsp;v&amp;nbsp;ponuke &lt;EM&gt;OBERON,&amp;nbsp;&lt;/EM&gt;&lt;A href="e975459f-e882-49f2-adb9-79e68a07df0e"&gt;Otvorenie agendy (firmy)&lt;/A&gt; otvorte databázu účtovnej jednotky. 
+&lt;LI&gt;V&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="225638ed-22f6-4ac4-9085-6d77c64925db" style="auto-update-caption: true"&gt;Používatelia&lt;/A&gt; vytvorte&amp;nbsp;nového používateľa&amp;nbsp;typu &lt;I&gt;&lt;STRONG&gt;Systémový&lt;/STRONG&gt;&lt;/I&gt;. 
+&lt;LI&gt;V&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="9ce25bbd-35d1-4096-acd5-70007f5af5a6"&gt;Automatické úlohy&lt;/A&gt;&amp;nbsp;stlačte tlačidlo &lt;EM&gt;Nový&lt;/EM&gt;. Otvorí sa&amp;nbsp;formulár &lt;EM&gt;Automatická úloha&lt;/EM&gt;, v&amp;nbsp;ktorom vyberte jeden z&amp;nbsp;nasledujúcich typov úlohy a zadajte názov úlohy: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;WebServices API - OBERON 1G&lt;/STRONG&gt;, 
+&lt;LI&gt;&lt;STRONG&gt;WebServices API - OBERON 2G&lt;/STRONG&gt;, 
+&lt;LI&gt;&lt;STRONG&gt;WebServices API - Pokladnica OBERON 1G&lt;/STRONG&gt;, 
+&lt;LI&gt;&lt;STRONG&gt;WebServices API -&amp;nbsp;OBERON vernostný systém 1G&lt;/STRONG&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Stlačením tlačidla&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_Button_Refresh.png"&gt;&amp;nbsp;pri rozbaľovacom zozname &lt;EM&gt;Vykonávať na serveri&lt;/EM&gt;&amp;nbsp;aktualizujte zoznam dostupných serverov a vyberte príslušný server OAC, na ktorom sa má úloha vykonávať. 
+&lt;LI&gt;Vyberte používateľa systému OBERON vytvoreného v&amp;nbsp;bode č.&amp;nbsp;3, pod ktorým sa má automatická&amp;nbsp;úloha vykonávať. 
+&lt;LI&gt;Stlačte tlačidlo &lt;EM&gt;Nastaviť&lt;/EM&gt;,&amp;nbsp;v&amp;nbsp;závislosti od&amp;nbsp;typu úlohy sa zobrazí jeden z nasledujúcich formulárov:&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 
+&lt;UL&gt;
+&lt;LI&gt;&lt;A href="a8d6abf6-4a2a-4e37-a89a-1afbb2b09e17" style="auto-update-caption: true"&gt;Formulár Nastavenie automatickej úlohy 'WebServices API - OBERON'&lt;/A&gt;, 
+&lt;LI&gt;&lt;A href="621f9ff1-bc7a-40af-9c1e-be72be87c01e" style="auto-update-caption: true"&gt;Formulár Nastavenie automatickej úlohy 'WebServices API - Pokladnica OBERON'&lt;/A&gt;, 
+&lt;LI&gt;&lt;A href="96c706bf-e858-4618-b202-b00cfa132356" style="auto-update-caption: true"&gt;Formulár Nastavenie automatickej úlohy 'WebServices API - OBERON vernostný systém'&lt;/A&gt;.&lt;BR&gt;&lt;BR&gt;&lt;IMG border=0 alt="" src="images/Forms/OAC/Form_OAC_WebServices2G.PNG"&gt;&lt;BR&gt;&lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;V&amp;nbsp;danom formulári v záložke &lt;EM&gt;Komunikácia&lt;/EM&gt; vykonajte príslušné nastavenia: 
+&lt;UL&gt;
+&lt;LI&gt;zadajte &lt;STRONG&gt;číslo TCP/IP&amp;nbsp;portu&lt;/STRONG&gt;, pod ktorým bude daná služba dostupná (port musí byť voľný - t.&amp;nbsp;j.&amp;nbsp;v systéme &lt;EM&gt;Windows&lt;/EM&gt; ho nesmie používať iná služba, pre OAC odporúčame používať hodnoty 22 001 a nasl.), 
+&lt;LI&gt;zvoľte spôsob autentifikácie používateľov, 
+&lt;LI&gt;zvoľte spôsob zabezpečenia, 
+&lt;LI&gt;začiarknite pole &lt;EM&gt;&lt;STRONG&gt;Zasielať podrobné info do 'Prehľadu činností' (na OAC klienta)&lt;/STRONG&gt;&lt;/EM&gt; ak chcete, aby bol prehľad záznamov o činnosti (logovania) dostupný v&amp;nbsp;programe&amp;nbsp;&lt;A href="69282df4-d4d6-462a-8cf2-68000e3e6f93" style="auto-update-caption: true"&gt;OBERON Automation Center (klient)&lt;/A&gt;, oddiel &lt;EM&gt;Prehľad činností&lt;/EM&gt;, 
+&lt;LI&gt;pole &lt;EM&gt;&lt;STRONG&gt;Aktivovať podrobnú analýzu komunikácie cez webovú službu&lt;/STRONG&gt;&lt;/EM&gt; ponechajte nezačiarknuté (slúži len pre pracovníkov centra podpory na detekciu prípadných problémov, ktoré sa môžu vyskytnúť pri komunikácii), 
+&lt;LI&gt;začiarknite pole &lt;EM&gt;&lt;STRONG&gt;Pridať výnimku do Windows firewall&lt;/STRONG&gt;&lt;/EM&gt; (ak používate bránu firewall iného výrobcu, je potrebné povoliť zadaný port manuálne). &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Aby systém &lt;I&gt;Windows&lt;/I&gt;&amp;nbsp;webovú službu povolil, je nevyhnutné vykonať jej registráciu - stlačte tlačidlo &lt;EM&gt;&lt;STRONG&gt;Zaregistrovať službu&lt;/STRONG&gt;&lt;/EM&gt;. Pred prípadnou dodatočnou zmenou napr. čísla portu je potrebné najprv zrušiť registráciu danej služby, zmeniť port a následne opätovne vykonať registráciu. 
+&lt;LI&gt;V záložke &lt;EM&gt;Nastavenia&lt;/EM&gt;&amp;nbsp;v závislosti od typu úlohy stlačte tlačidlo &lt;EM&gt;&lt;STRONG&gt;Rozšírené nastavenia webovej služby&lt;/STRONG&gt;&lt;/EM&gt; na vykonanie ďalších nastavení automatickej úlohy, prípadne vykonajte registráciu do služby&amp;nbsp;&lt;A href="02f77fd1-6b2f-482c-8dd0-77896d038c3e"&gt;OBERON Link&lt;/A&gt;. 
+&lt;LI&gt;Vykonané nastavenia potvrďte stlačením tlačidla &lt;STRONG&gt;&lt;EM&gt;OK&lt;/EM&gt;&lt;/STRONG&gt;. 
+&lt;LI&gt;V&amp;nbsp;zozname úloh vo &lt;A href="9ce25bbd-35d1-4096-acd5-70007f5af5a6"&gt;formulári Automatické úlohy&lt;/A&gt;&amp;nbsp;v stĺpci &lt;EM&gt;Popis&lt;/EM&gt; získate údaje (&lt;STRONG&gt;IP adresu počítača spolu s číslom komunikačného TCP/IP&amp;nbsp;portu&lt;/STRONG&gt;) na použitie napr. v&amp;nbsp;ďalších aplikáciách. 
+&lt;LI&gt;Ak je webová služba nakonfigurovaná korektne, vo webovom prehliadači je možné vykonať jej kontrolu - po zadaní IP adresy a portu v&amp;nbsp;tvare &lt;STRONG&gt;192.168.16.20:22001&lt;/STRONG&gt; sa zobrazí informácia o danej službe. &lt;/LI&gt;&lt;/OL&gt;
+&lt;H2&gt;Vytvorenie bezpečnostného certifikátu&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Certifikát zabezpečeného pripojenia je potrebné vytvoriť vtedy,&amp;nbsp;keď je požadovaná komunikácia s webovou službou typu OBERON pomocou zabezpečeného protokolu&amp;nbsp;&lt;B&gt;HTTPS&lt;/B&gt; &lt;I&gt;- Secure Sockets Layer (SSL).&lt;/I&gt; 
+&lt;LI&gt;V príslušnom formulári v&amp;nbsp;závislosti od typu automatickej úlohy (tlačidlo &lt;EM&gt;Nastaviť&lt;/EM&gt; za poľom &lt;I&gt;Typ úlohy&lt;/I&gt;) v&amp;nbsp;záložke &lt;EM&gt;Komunikácia&lt;/EM&gt; stlačte tlačidlo &lt;I&gt;Vygenerovať certifikát&lt;/I&gt;. Okrem vygenerovania certifikátu sa vykoná aj jeho inštalácia do systému &lt;I&gt;Windows&lt;/I&gt; (import certifikátu do zložky &lt;I&gt;Personal&lt;/I&gt;). 
+&lt;LI&gt;Na&amp;nbsp;zabezpečenú komunikáciu je možné použiť aj už existujúci certifikát. Ďalšie informácie o jeho inštalácii: &lt;/LI&gt;&lt;/UL&gt;
+&lt;BLOCKQUOTE style="MARGIN-RIGHT: 0px" dir=ltr&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;A href="http://msdn.microsoft.com/en-us/library/aa738659.aspx" target=_blank&gt;inštalácia certifikátu certifikačnej autority&lt;/A&gt;, 
+&lt;LI&gt;&lt;A href="http://msdn.microsoft.com/en-us/library/ms733791.aspx" target=_blank&gt;konfigurácia certifikátu&lt;/A&gt;, 
+&lt;LI&gt;&lt;A href="http://msdn.microsoft.com/en-us/library/bfsktky3.aspx" target=_blank&gt;manuálne vytvorenie certifikátu&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;/BLOCKQUOTE&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="92c0dda2-338c-4206-ac17-5dfb62e83d8b" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="58bb31ca-00c8-4641-ad99-7d58e24f59c5">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="b367612d-39e8-4d26-b22b-3345cea90e0a" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="7d4c6ecf-89c9-402a-966c-96a86ae3bfbb">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="5fdb1b58-8a70-4a4e-9ea1-92ca0e10c417" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="02f77fd1-6b2f-482c-8dd0-77896d038c3e">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="303ed690-8ac3-4e55-a33f-e51b25b6f252" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="a8d6abf6-4a2a-4e37-a89a-1afbb2b09e17">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="47b042fa-f2a1-4b4d-9a06-51735a38497a" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="621f9ff1-bc7a-40af-9c1e-be72be87c01e">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="486eb7f0-18b1-478d-a7db-56540a406460" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="96c706bf-e858-4618-b202-b00cfa132356">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="d2fe606e-369b-4c37-a18f-cbe786d6f62a">
+      <Keyword m="2021-04-16T09:03:26.9401846Z">Webová služba - inštalácia (všeobecný postup)</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="096a424c-99be-4395-9cc3-c5e8de90f15b">
+      <Keyword m="2021-04-16T09:16:51.8415236Z">Vytvorenie bezpečnostného certifikátu</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="eb7478d5-d314-49ac-a4e2-4155b402cdc5">
+      <Keyword m="2021-04-16T09:17:12.1452842Z">Webová služba - vytvorenie bezpečnostného certifikátu</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="879ecf8f-cfa7-4dc5-8f76-adcc6f2ebf09">
+      <Keyword m="2022-07-18T07:17:51.2888978Z">SSL - inštalácia webovej služby</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="12372099-3208-49fa-8d40-003fe32fbfa2">
+      <Keyword m="2024-07-15T08:54:59.1052744Z">OBERON Link - inštalácia webovej služby</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

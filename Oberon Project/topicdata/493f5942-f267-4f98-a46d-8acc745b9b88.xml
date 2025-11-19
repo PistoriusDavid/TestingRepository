@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="493f5942-f267-4f98-a46d-8acc745b9b88" Status="Complete" CreatedOn="2014-09-04T15:46:14.2223292Z" ModifiedOn="2023-08-04T07:09:53.196066Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="DataBackup_Overview" BuildFlags="">
+  <Title m="2014-09-04T15:52:12.945847Z">Všeobecne o zálohovaní</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-08-04T07:01:25.4007725Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;obsahuje &lt;STRONG&gt;všeobecné informácie&lt;/STRONG&gt; &lt;STRONG&gt;o zálohovaní údajov&lt;/STRONG&gt; v systéme OBERON.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Zálohovanie údajov (zálohovanie dát, backup)&amp;nbsp;znamená &lt;STRONG&gt;vytváranie kópie, resp. kópií&amp;nbsp;údajov a ich ukladanie na záložné médium&lt;/STRONG&gt; pre prípad potreby&amp;nbsp;&lt;A href="c47b2846-a02e-4066-992b-cc976cd8a717"&gt;obnovenia&lt;/A&gt; práve spracúvaných alebo nedávno uložených údajov, ak došlo k ich poškodeniu, strate&amp;nbsp;alebo zničeniu. 
+&lt;LI&gt;Zálohovanie údajov v systéme OBERON je možné vykonávať&amp;nbsp;dvoma základnými spôsobmi: 
+&lt;LI style="LIST-STYLE-TYPE: none; DISPLAY: inline"&gt;
+&lt;OL&gt;
+&lt;LI&gt;&lt;STRONG&gt;&lt;A href="ee4036d9-55fd-40ee-ab76-69337f16b1cc"&gt;Manuálne zálohovanie&lt;/A&gt;&lt;/STRONG&gt; - je dostupné v programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt; v ponuke &lt;EM&gt;Servis,&amp;nbsp;&lt;/EM&gt;&lt;A href="ee4036d9-55fd-40ee-ab76-69337f16b1cc"&gt;Zálohovanie údajov&lt;/A&gt;.&amp;nbsp;Pomocou sprievodcu je možné vykonať zálohu údajov danej účtovnej jednotky (firmy) na&amp;nbsp;záložné médium (pevný alebo vymeniteľný disk). &lt;SPAN style="COLOR: rgb(255,0,0)"&gt;Manuálne zálohovanie je určené&lt;/SPAN&gt; &lt;STRONG style="COLOR: rgb(255,0,0)"&gt;len pre súborovú databázu &lt;EM&gt;Microsoft Access&lt;/EM&gt; (nie SQL server)&lt;/STRONG&gt;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;.&lt;/SPAN&gt; 
+&lt;LI&gt;&lt;A href="02dc0022-00b9-4102-be15-a4415d7e1abf"&gt;&lt;STRONG&gt;Automatické zálohovanie&lt;/STRONG&gt;&lt;/A&gt; - vykonáva sa bez zásahu obsluhy na základe nastavenej&amp;nbsp;&lt;A href="9ce25bbd-35d1-4096-acd5-70007f5af5a6"&gt;automatickej úlohy&lt;/A&gt; programom&amp;nbsp;&lt;A href="09f3dae9-2fb7-490f-97dc-37f60885b398"&gt;OBERON Automation Center&lt;/A&gt;.&amp;nbsp;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;Automatické zálohovanie je určené tak&amp;nbsp;pre databázy&amp;nbsp;typu &lt;/SPAN&gt;&lt;/SPAN&gt;&lt;STRONG&gt;&lt;EM style="COLOR: rgb(0,0,0)"&gt;SQL server&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;,&lt;/SPAN&gt;&lt;/EM&gt;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;&amp;nbsp;ako&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt; aj&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt; pre&amp;nbsp;&lt;/SPAN&gt;&lt;/SPAN&gt;databázy typu&amp;nbsp;&lt;/SPAN&gt;&lt;/STRONG&gt;&lt;/SPAN&gt;&lt;STRONG&gt;&lt;EM&gt;Microsoft Access&lt;/EM&gt;, pričom umožňuje zálohovať aj&amp;nbsp;iné, neúčtovné údaje&lt;/STRONG&gt;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;.&lt;/SPAN&gt; &lt;/LI&gt;&lt;/OL&gt;
+&lt;LI&gt;Rozdiely medzi &lt;B&gt;manuálnym&lt;/B&gt; zálohovaním a &lt;STRONG&gt;automatickým zálohovaním&lt;/STRONG&gt;: &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/LI&gt;&lt;/UL&gt;
+&lt;TABLE style="WIDTH: 60%" border=0&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#d9e1f2 width="15%" align=left&gt;&lt;B&gt;Manuálne zálohovanie&lt;/B&gt;&lt;/TD&gt;
+&lt;TD bgColor=#d9e1f2 width="15%" align=left&gt;&lt;B&gt;Automatické zálohovanie&lt;/B&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=37 align=center&gt;
+&lt;P align=left&gt;Určené len pre súborovú databázu &lt;EM&gt;Microsoft Access&lt;/EM&gt;&lt;/P&gt;&lt;/TD&gt;
+&lt;TD height=37 align=center&gt;
+&lt;P align=left&gt;Určené&amp;nbsp;pre SQL server (zálohuje aj súborovú databázu &lt;EM&gt;Microsoft Access&lt;/EM&gt;, prípadne ďalšie údaje)&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD align=center&gt;
+&lt;P align=left&gt;Musí&amp;nbsp;byť aktivované&amp;nbsp;používateľom&lt;/P&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P align=left&gt;Môže zálohovať údaje automaticky bez zásahu&amp;nbsp;používateľa&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD align=center&gt;
+&lt;P align=left&gt;Zálohuje údaje účtovnej jednotky (firmy), s&amp;nbsp;ktorou sa práve pracuje&lt;/P&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P align=left&gt;Môže zálohovať údaje viacerých účtovných jednotiek (firiem) súčasne&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD align=center&gt;
+&lt;P align=left&gt;Umožňuje&amp;nbsp;zálohovať údaje na pevný či vymeniteľný disk&lt;/P&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P align=left&gt;Umožňuje&amp;nbsp;zálohovať údaje aj mimo firmy na FTP server&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;
+&lt;H2&gt;Zálohovanie z hľadiska databázových systémov&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Z hľadiska použitého&amp;nbsp;&lt;A href="0b81f4ea-5e68-48c1-8b89-933d5a23d962"&gt;databázového systému&lt;/A&gt;&amp;nbsp;sa samotné vykonanie zálohy &lt;STRONG&gt;zásadne technologicky odlišuje&lt;/STRONG&gt;: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;&lt;EM&gt;Microsoft Access&lt;/EM&gt;&lt;/STRONG&gt; - zálohu je možné vykonať manuálnym zálohovaním, prípadne možno použiť&amp;nbsp;&lt;A href="02dc0022-00b9-4102-be15-a4415d7e1abf"&gt;automatické zálohovanie&lt;/A&gt;. 
+&lt;LI&gt;&lt;B&gt;&lt;EM&gt;SQL server&lt;/EM&gt;&lt;/B&gt; - zálohu je možné vykonať len automatickým zálohovaním. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Vykonať zálohovanie údajov môže len&amp;nbsp;používateľ, ktorý má na to &lt;STRONG&gt;oprávnenie&lt;/STRONG&gt; (ponuka &lt;I&gt;Servis&lt;/I&gt;,&amp;nbsp;&lt;A href="834e9546-a56b-476f-9028-ef4c24a82345"&gt;Práva používateľov&lt;/A&gt;, právo &lt;EM&gt;Zálohovanie údajov&lt;/EM&gt;). Platí to pre manuálne zálohovanie súborovej databázy &lt;EM&gt;Microsoft Access&lt;/EM&gt;&amp;nbsp;aj automatické zálohovanie SQL databázových&amp;nbsp;systémov (vtedy sa overuje právo&amp;nbsp;používateľa). Pri automatickom zálohovaní súborovej databázy&amp;nbsp;&lt;EM&gt;Microsoft Access&lt;/EM&gt;&amp;nbsp;sa &lt;STRONG&gt;neoveruje právo&amp;nbsp;používateľa&lt;/STRONG&gt;, keďže používateľovi už z&amp;nbsp;hľadiska priameho prístupu k súboru cez operačný systém &lt;EM&gt;Windows&lt;/EM&gt; nie je možné odoprieť prístup k súboru. 
+&lt;LI&gt;Informácie o obnove údajov zo zálohy je možné získať v téme &lt;A href="c47b2846-a02e-4066-992b-cc976cd8a717"&gt;Všeobecne o obnove údajov&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Prečo zálohovať&lt;/H2&gt;Existuje niekoľko dôvodov, prečo je potrebné údaje pravidelne zálohovať: 
+&lt;UL&gt;
+&lt;LI&gt;V&amp;nbsp;programe môže&amp;nbsp;používateľ&amp;nbsp;omylom vymazať niektorý dôležitý údaj, ktorý je možné získať späť len z&amp;nbsp;predchádzajúcej zálohy. 
+&lt;LI&gt;K&amp;nbsp;počítaču majú prístup aj iné osoby neznalé práce na počítači. Súbor s&amp;nbsp;údajmi môžu jednoducho vymazať (napr. kolegovia, priatelia, deti...). 
+&lt;LI&gt;Pri zlyhaní operačného systému môže dôjsť k&amp;nbsp;neopraviteľnému poškodeniu databázy, a tým aj k&amp;nbsp;strate všetkých účtovných údajov. 
+&lt;LI&gt;Môže zlyhať počítač, napr. pevný disk, ktorého oprava je nemožná (vtedy sa stratia nielen údaje z&amp;nbsp;účtovníctva, ale aj všetky údaje z počítača). 
+&lt;LI&gt;V&amp;nbsp;prípade nakazenia počítača vírusom&amp;nbsp;nastáva veľké riziko straty údajov. 
+&lt;LI&gt;Krádež počítača. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Ako často zálohovať&lt;/H2&gt;
+&lt;P&gt;Na túto otázku neexistuje&amp;nbsp;jednoznačná odpoveď. Interval zálohovania bude pravdepodobne iný, ak napr. predpokladaný počet zápisov v&amp;nbsp;&lt;A href="d8c9bfc8-92d1-4471-8909-e5f8ce602d6c"&gt;účtovnom&lt;/A&gt;/&lt;A href="5e82cca9-b8af-4a80-ba30-7ab91914a595"&gt;peňažnom denníku&lt;/A&gt; bude za celý účtovný rok tisíc, a iný, ak ich bude niekoľko desiatok tisíc. Všeobecne &lt;STRONG&gt;odporúčame vykonávať zálohovanie údajov&amp;nbsp;tak, aby v&amp;nbsp;prípade ich straty&amp;nbsp;bolo možné doklady doúčtovať v&amp;nbsp;priebehu jedného dňa&lt;/STRONG&gt;. V prípade napr. modulu&amp;nbsp;&lt;I&gt;Mzdy a&amp;nbsp;dochádzka&lt;/I&gt; odporúčame zálohovať údaje po každom spracovaní miezd, t. j. raz mesačne.&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;Údaje zálohujte vždy predtým, ako budete s&amp;nbsp;počítačom manipulovať, napr. pred premiestnením počítača do inej prevádzky&amp;nbsp;(pri preprave môže dôjsť k&amp;nbsp;poškodeniu počítača). 
+&lt;LI&gt;V prípade, že&amp;nbsp;chcete v&amp;nbsp;odbornom servise opraviť, nastaviť, upgradovať či vyladiť počítač, prípadne doň nainštalovať nový program a pod., je tiež potrebné zálohovať údaje. 
+&lt;LI&gt;Údaje zálohujte aj pred inštaláciou novšej verzie OBERON-u. Pri transformácii databázy sa môže&amp;nbsp;výnimočne objaviť chyba, prípadne môže nastať neočakávané vypnutie elektrického prúdu a&amp;nbsp;pod. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Kam zálohovať&lt;/H2&gt;
+&lt;P&gt;Zálohovať údaje je možné na tieto najčastejšie používané médiá:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;USB disky (kľúče), externé pevné disky&lt;/STRONG&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;Vzdialené servery (napr. FTP)&lt;/STRONG&gt; - ide o možnosť uložiť si dáta prostredníctvom internetu v serveroch poskytovateľa takejto služby. Poskytovateľ za poplatok úmerný veľkosti ukladaných dát zaručuje vysokú dostupnosť dát, ako aj ochranu ich dôvernosti. Ochrana dôvernosti&amp;nbsp;sa typicky realizuje šifrovaním s tým, že šifrovací kľúč má k&amp;nbsp;dispozícii iba zákazník. 
+&lt;LI&gt;&lt;EM&gt;&lt;STRONG&gt;Google Drive&lt;/STRONG&gt;&lt;/EM&gt; - každý zaregistrovaný používateľ v systéme&amp;nbsp;&lt;EM&gt;Google&lt;/EM&gt; má možnosť zdarma ukladať svoje údaje do cloudu. Podporované sú&amp;nbsp;všetky zariadenia (smartfón, table, notebook, desktop). Dáta je možné zálohovať&amp;nbsp;prostredníctvom webových prehliadačov,&amp;nbsp;prípadne&amp;nbsp;prostredníctvom priamej inštalácie aplikácie. Služba je do istej kapacity bezplatná. 
+&lt;LI&gt;&lt;EM&gt;&lt;STRONG&gt;OneDrive&lt;/STRONG&gt;&lt;/EM&gt; - alternatíva služby &lt;EM&gt;Google Drive&lt;/EM&gt; od spoločnosti &lt;EM&gt;Microsoft&lt;/EM&gt; do istej kapacity bezplatná, po prekročení kapacity dostupná pre používateľov balíka &lt;EM&gt;Office 365&lt;/EM&gt;. &lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="937e0e45-a2ce-4c0e-85df-ae8bb1b35d21" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="ee4036d9-55fd-40ee-ab76-69337f16b1cc">
+      <Title m="2022-01-31T12:06:23.9259128Z">Manuálne zálohovanie</Title>
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="c8417928-a8a5-4a3a-a0df-97016cdae4fe" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="02dc0022-00b9-4102-be15-a4415d7e1abf">
+      <Title m="2023-08-04T07:09:51.8287906Z">Automatické zálohovanie</Title>
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="c803113e-7027-4881-af14-2c3d084911b1" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="c47b2846-a02e-4066-992b-cc976cd8a717">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="37ab5db9-248b-4180-adbc-72b96fd6cbb7">
+      <Keyword m="2022-01-31T12:22:05.4130074Z">Zálohovanie údajov - všeobecné informácie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="3451494a-5d38-47b9-a51a-bf563f5a6431">
+      <Keyword m="2022-01-31T12:22:24.7575315Z">Prečo zálohovať</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="4417eec5-f871-41e5-a95c-2fc6bc22508e">
+      <Keyword m="2022-01-31T12:22:31.3186784Z">Ako často zálohovať</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="c1b3a502-bee3-4341-bfee-e01dee70458c">
+      <Keyword m="2022-01-31T12:22:51.8536485Z">Kam zálohovať</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

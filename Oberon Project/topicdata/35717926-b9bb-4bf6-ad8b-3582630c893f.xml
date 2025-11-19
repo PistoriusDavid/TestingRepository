@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="35717926-b9bb-4bf6-ad8b-3582630c893f" Status="Complete" CreatedOn="2018-03-28T12:37:37.3965732Z" ModifiedOn="2023-11-13T11:51:54.3190008Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Device_AttendanceTerminal_OBERON_Installation" BuildFlags="">
+  <Title m="2018-03-28T12:38:10.1792971Z">Inštalácia dochádzkového terminálu OBERON</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-11-13T11:51:54.3190008Z">&lt;P&gt;Táto téma&amp;nbsp;&lt;EM&gt;Pomocníka&lt;/EM&gt; je venovaná&lt;STRONG&gt;&amp;nbsp;postupu inštalácie softvérového dochádzkového terminálu&amp;nbsp;&lt;/STRONG&gt;&lt;A href="6856d140-bbfc-43c6-b0d7-0a6360827bb8"&gt;OBERON&lt;/A&gt;.&lt;/P&gt;
+&lt;H2&gt;Postup&amp;nbsp;inštalácie dochádzkového&amp;nbsp;terminálu OBERON&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;Ak ešte nemáte v systéme OBERON vytvorenú (založenú) firmu, vytvorte ju&amp;nbsp;- bližšie informácie nájdete v téme &lt;A href="9a485893-6dd2-44e8-9740-a4cd7083a932" style="auto-update-caption: true"&gt;Vytvorenie účtovnej jednotky (databázy)&lt;/A&gt;. &amp;nbsp;&amp;nbsp;&amp;nbsp; 
+&lt;LI&gt;Spustite program &lt;EM&gt;OBERON - Agenda firmy.&lt;/EM&gt; 
+&lt;LI&gt;Zvoľte ponuku &lt;EM&gt;Servis,&amp;nbsp;&lt;/EM&gt;&lt;A href="749ff4f1-eeb5-43f5-98d2-021399d8cec7"&gt;Zariadenia&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt; stlačte tlačidlo &lt;I&gt;Pridať.&lt;/I&gt; V&amp;nbsp;otvorenom formulári vyberte&amp;nbsp;typ zariadenia&amp;nbsp;&lt;EM&gt;&lt;STRONG&gt;Dochádzkový terminál&lt;/STRONG&gt;&lt;/EM&gt;, zadajte názov zariadenia,&amp;nbsp;vyberte&amp;nbsp;model&amp;nbsp;&lt;EM&gt;&lt;STRONG&gt;OBERON terminál&lt;/STRONG&gt;&lt;/EM&gt; a&amp;nbsp;zadajte (vyberte) &lt;STRONG&gt;názov počítača&lt;/STRONG&gt;, ku ktorému sa má zariadenie pripojiť, prípadne zadajte&amp;nbsp;ostatné údaje. 
+&lt;LI&gt;Terminál sa spúšťa pomocou &lt;STRONG&gt;špeciálne vytvoreného zástupcu na pracovnej ploche systému&amp;nbsp;&lt;EM&gt;Windows&lt;/EM&gt;&lt;/STRONG&gt;. Na vytvorenie zástupcu stlačte tlačidlo &lt;I&gt;Nastaviť zariadenie.&lt;/I&gt; Otvorí&amp;nbsp;sa&amp;nbsp;formulár &lt;EM&gt;Dochádzkový terminál OBERON&lt;/EM&gt;.&amp;nbsp;Stlačením tlačidla &lt;EM&gt;Vytvoriť zástupcu&lt;/EM&gt; vytvorte&amp;nbsp;odkaz na spúšťanie terminálu na pracovnej ploche. 
+&lt;LI&gt;Dochádzkový terminál je možné chrániť &lt;STRONG&gt;pred neoprávneným prístupom&lt;/STRONG&gt;. Môže ho spravovať (vykonávať nastavenia, ukončiť terminál) len pracovník, ktorý je&amp;nbsp;&lt;A href="225638ed-22f6-4ac4-9085-6d77c64925db"&gt;používateľom&lt;/A&gt; systému OBERON&amp;nbsp;s&amp;nbsp;príznakom &lt;EM&gt;Administrátor&lt;/EM&gt;. V&amp;nbsp;systéme OBERON musí existovať aspoň jeden takýto správca. V&amp;nbsp;opačnom prípade bude mať do dochádzkového terminálu prístup ktorýkoľvek pracovník. Nastavenie pracovníka&amp;nbsp;na spravovanie dochádzkového terminálu (správcu):&lt;BR&gt;5.1 V ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="225638ed-22f6-4ac4-9085-6d77c64925db"&gt;Používatelia&lt;/A&gt; používateľovi vybranému za správcu dochádzkového terminálu prideľte práva administrátora (vo&amp;nbsp;&lt;A href="12e7a96f-bc40-4359-bc7a-213d74a785d4"&gt;formulári Používateľ&lt;/A&gt;,&amp;nbsp;záložka &lt;EM&gt;Používateľ&lt;/EM&gt; začiarknite možnosť &lt;EM&gt;Administrátor&lt;/EM&gt;).&lt;BR&gt;5.2 Vo&amp;nbsp;&lt;A href="8dd60281-9cc7-41fe-9dd2-2ad5c7ffe047"&gt;formulári Pracovník&lt;/A&gt;&amp;nbsp;(ponuka &lt;EM&gt;Firma&lt;/EM&gt;, resp.&amp;nbsp;&lt;EM&gt;Mzdy, Pracovníci&lt;/EM&gt;): 
+&lt;UL&gt;
+&lt;LI&gt;v záložke &lt;EM&gt;Zaradenie&lt;/EM&gt; pri položke &lt;EM&gt;Používateľ v systéme OBERON&lt;/EM&gt; z rozbaľovacieho zoznamu vyberte používateľa z bodu 5.1, 
+&lt;LI&gt;v záložke &lt;EM&gt;Dochádzka&lt;/EM&gt; priraďte pracovníkovi &lt;EM&gt;Prístupový kód pracovníka&lt;/EM&gt; a prípadne aj&amp;nbsp;&lt;EM&gt;Heslo pre dochádzkový terminál&lt;/EM&gt;, 
+&lt;LI&gt;v záložke &lt;EM&gt;Dochádzka&amp;nbsp;&lt;/EM&gt;priraďte pracovníkovi dochádzkový terminál - pri položke &lt;EM&gt;Dochádzkové terminály&lt;/EM&gt; vyberte&lt;EM&gt;&amp;nbsp;Terminál OBERON&lt;/EM&gt; (resp. iný názov, ktorý ste zadali vo formulári &lt;EM&gt;Zariadenie&lt;/EM&gt;). &lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/OL&gt;&lt;innovasys:widget layout="block" type="Caution Box"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Každý používaný dochádzkový terminál musí byť nadefinovaný v zozname zariadení systému OBERON (ponuka &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="749ff4f1-eeb5-43f5-98d2-021399d8cec7"&gt;Zariadenia&lt;/A&gt;). Aby sa mohol pracovník na danom termináli prihlásiť, musí byť v&amp;nbsp;ponuke &lt;EM&gt;Firma&lt;/EM&gt;, resp. &lt;EM&gt;Mzdy,&lt;/EM&gt;&amp;nbsp;&lt;EM&gt;Pracovníci&lt;/EM&gt; priradený k danému pracovníkovi konkrétny dochádzkový terminál. Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="28ad3f59-16f3-4162-a0a6-387778cbc7c3" style="auto-update-caption: true"&gt;Priradenie dochádzkového terminálu pracovníkovi&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt; &lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="e2fb7ba5-34f9-46a4-883e-b1bcfd89bc3f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="f46f3a8f-ba04-4359-ba99-dc6caeeba021">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="09324764-b747-4c03-87b7-588959c99bd6" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="6856d140-bbfc-43c6-b0d7-0a6360827bb8">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="92dc7bc4-1f7f-4232-b9b2-6f4c4efeba75" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="749ff4f1-eeb5-43f5-98d2-021399d8cec7">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="36ad7f42-b032-4da8-85fa-fdc5592ddd0c" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="06f5e819-cf70-4875-b3fd-eca80b19939b">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="40477194-cc98-4f54-b021-a1e5b1e68201">
+      <Keyword m="2018-06-12T12:30:56.4202526Z">Dochádzkový terminál OBERON - inštalácia</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="7bf8ec08-5132-4ee3-9189-aa317cd7acab">
+      <Keyword m="2021-05-10T11:06:03.3381745Z">OBERON terminál - inštalácia</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="8f310fdf-7fdc-464c-8538-04cc0aa3948b">
+      <Keyword m="2023-11-13T11:42:33.9237195Z">OBERON terminál - vypnutie</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

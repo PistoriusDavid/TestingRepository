@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="cdfc0d2e-850e-4858-9d56-bf7348720216" Status="Complete" CreatedOn="2020-11-30T07:59:34.4924422Z" ModifiedOn="2023-10-30T07:11:20.8126603Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="40530" Name="Form_Acc_iInvocesOffsettingsItem" BuildFlags="">
+  <Title m="2020-11-30T08:00:26.3637908Z">Formulár Položka zápočtu</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-10-17T07:45:24.2314525Z">&lt;P&gt;Formulár &lt;EM&gt;Položka zápočtu&lt;/EM&gt; umožňuje &lt;STRONG&gt;pridať alebo zmeniť jednotlivé položky zápočtu&lt;/STRONG&gt; (pohľadávka, záväzok, súhrnná platba, súhrnná platba (provízia)) v&amp;nbsp;&lt;A href="33c01089-c83f-47e5-a262-79c14d9ff698"&gt;Evidencii zápočtov faktúr&lt;/A&gt;. Formulár je dostupný z&amp;nbsp;programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;, &lt;A href="5b38ec44-f2e2-4ee1-b00a-268b6d20482b"&gt;formulár Zápočet&lt;/A&gt;, tlačidlo&amp;nbsp;&lt;EM&gt;Nový&lt;/EM&gt; alebo &lt;EM&gt;Oprava&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Popis formulára &lt;EM&gt;Položka zápočtu&lt;/EM&gt;&lt;/H2&gt;&lt;innovasys:widget type="Tab Strip" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Zápočet&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;H3&gt;Druh položky (dokladu)&lt;/H3&gt;
+&lt;P&gt;Vyberá sa druh pohybu - pohľadávka, záväzok, súhrnná platba, súhrnná platba (provízia).&lt;/P&gt;
+&lt;H3&gt;Číslo dokladu&lt;/H3&gt;
+&lt;P&gt;Zobrazuje sa číslo dokladu pohľadávky alebo záväzku. Stlačením tlačidla&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_ListButton.png"&gt;&amp;nbsp;sa zobrazia neuhradené pohľadávky alebo záväzky.&amp;nbsp;Označiť faktúry je možné po jednej alebo viacero naraz, a to pomocou tlačidla &lt;EM&gt;Insert&lt;/EM&gt;. Bližšie informácie o označovaní záznamov získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="54bcf6c3-515f-4dcb-a3eb-0bf905629a16" style="auto-update-caption: true"&gt;Označovanie záznamov&lt;/A&gt;.&amp;nbsp;&lt;/P&gt;
+&lt;H3&gt;Externé číslo&lt;/H3&gt;
+&lt;P&gt;Externé číslo je číslo dodávateľskej faktúry z &lt;EM&gt;Knihy záväzkov,&lt;/EM&gt; prípadne externý doklad zo zápisu v&amp;nbsp;účtovnom alebo v peňažnom denníku.&lt;/P&gt;
+&lt;H3&gt;Započítaná suma&lt;/H3&gt;
+&lt;P&gt;Zobrazuje sa započítaná suma z pohľadávok a záväzkov. Sumu je možné manuálne upraviť.&amp;nbsp;&lt;/P&gt;
+&lt;H3&gt;Predkontácia&lt;/H3&gt;
+&lt;P&gt;Vyberá sa&amp;nbsp;predkontácia, podľa ktorej bude pohľadávka alebo záväzok zaúčtovaná. Pri automatickej tvorbe položiek zápočtov program nastaví predkontáciu podľa predvolených predkontácií, tie sa definujú v&amp;nbsp;nastaveniach programu (ponuka&amp;nbsp;&lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="932262cc-b80f-4ce6-aba6-6a7d4a18f5ec"&gt;oddiel Firma, Účtovníctvo&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt; záložka &lt;EM&gt;Účtovanie&lt;/EM&gt;).&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Obchodný partner&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Zadajte alebo vyberte&amp;nbsp;&lt;A href="b7a48886-b367-4056-808a-59ba5f871f32"&gt;obchodného partnera&lt;/A&gt; stlačením tlačidla &lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_ListButton.png"&gt;&amp;nbsp; alebo klávesu F3 v poli &lt;EM&gt;Obchodný partner&lt;/EM&gt;. Platnosť IČ DPH obchodného partnera je možné overiť kliknutím na tlačidlo&amp;nbsp;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Button_Question.png"&gt;.&amp;nbsp;Ďalšie informácie o overení IČ DPH získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="ab574902-6abb-4c2c-b0a5-af9a2f62b7f4"&gt;Automatické overenie IČ DPH na internete&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="0d347405-367b-4b3e-965d-842ab5db3cf4" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="33c01089-c83f-47e5-a262-79c14d9ff698">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="0ca290e6-4b3d-43c8-a568-8a1f1eb9d97d" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="5b38ec44-f2e2-4ee1-b00a-268b6d20482b">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="b58eb5cb-0c34-4fad-acc5-cab0ad5f84b1" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="2c25546b-872e-4c70-a89a-53e5999a7fe1">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="f65a99cd-e2c2-4a0d-b1c1-a92235aad0d3">
+      <Keyword m="2021-08-05T08:38:20.0678707Z">Položka zápočtu - formulár</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="71e8b731-3991-4422-9705-0e801859c86b">
+      <Keyword m="2021-08-05T08:38:43.3100028Z">Zápočet - položka - formulár</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

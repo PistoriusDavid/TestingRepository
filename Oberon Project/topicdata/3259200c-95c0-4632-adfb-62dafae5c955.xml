@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="3259200c-95c0-4632-adfb-62dafae5c955" Status="Complete" CreatedOn="2021-08-10T11:31:08.4405627Z" ModifiedOn="2024-12-04T08:50:30.4171295Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Invoices_Advanced_VATRateChange" BuildFlags="">
+  <Title m="2021-08-10T11:31:56.8645801Z">Tvorba dokladov po zmene sadzby DPH</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-12-04T08:50:30.4171295Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;informácie o možnostiach&amp;nbsp;tvorby dokladov &lt;/STRONG&gt;v&amp;nbsp;systéme OBERON v&amp;nbsp;prípade&amp;nbsp;legislatívnej zmeny sadzieb DPH.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Každá legislatívna zmena&amp;nbsp;sadzieb&amp;nbsp;DPH &lt;STRONG&gt;vyžaduje nastavenie nových sadzieb DPH&amp;nbsp;&lt;/STRONG&gt;v&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="5a6e5663-262e-4ff0-9741-1569385d11e4"&gt;oddiel Firma, Všeobecné&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt; záložka &lt;EM&gt;Základné&lt;/EM&gt;. Po&amp;nbsp;nastavení budú nové&amp;nbsp;sadzby DPH dostupné pri tvorbe dokladov vo všetkých dokladových formulároch. 
+&lt;LI&gt;&lt;STRONG&gt;V&lt;/STRONG&gt;&amp;nbsp;&lt;STRONG&gt;prechodnom období po legislatívnej zmene sadzieb DPH&lt;/STRONG&gt;, keď sa napr. v&amp;nbsp;knihe záväzkov striedavo objavujú doklady s novými sadzbami DPH a doklady ešte s pôvodnými&amp;nbsp;sadzbami DPH, &lt;STRONG&gt;nie je potrebné vykonávať nijaké dodatočné nastavenia&lt;/STRONG&gt; - okrem nastavenia nových sadzieb DPH stačí zachovať nastavené aj pôvodné sadzby DPH. Vtedy program dokladu sám priradí správnu sadzbu DPH podľa dátumu dokladu (dodania) a nastavení sadzieb v&amp;nbsp;nastaveniach programu. 
+&lt;LI&gt;V odôvodnených prípadoch (spravidla pri neskorom doručení dokladu a jeho dodatočnom zaevidovaní) &lt;STRONG&gt;možno sadzbu DPH na doklade upraviť manuálne&lt;/STRONG&gt;. Túto úpravu možno vykonať &lt;STRONG&gt;len pred pridaním položiek do dokladu&lt;/STRONG&gt;. Pri manuálnej úprave&amp;nbsp;sadzieb DPH na doklade&amp;nbsp;postupujte takto: 
+&lt;OL&gt;
+&lt;LI&gt;Uistite sa, že sú po legislatívnej zmene sadzieb DPH v&amp;nbsp;nastaveniach programu nastavené nové sadzby DPH (ponuka &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="5a6e5663-262e-4ff0-9741-1569385d11e4"&gt;oddiel Firma, Všeobecné&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt; záložka &lt;EM&gt;Základné&lt;/EM&gt;). 
+&lt;LI&gt;Uistite sa, že sú v&amp;nbsp;rovnakej ponuke nastavené aj pôvodné sadzby DPH, ktoré platili do legislatívnej zmeny sadzieb DPH. 
+&lt;LI&gt;&lt;STRONG&gt;Na zadanie dokladu s&amp;nbsp;pôvodnou (starou) sadzbou DPH&lt;/STRONG&gt;, pred pridaním položiek zvoľte v&amp;nbsp;danom doklade pôvodnú sadzbu stlačením&amp;nbsp;tlačidla &lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_Button_Tree.png"&gt; vedľa poľa s&amp;nbsp;výškou DPH v dolnej časti formulára.&amp;nbsp;Otvorí sa formulár &lt;EM&gt;Nastavenie sadzby DPH&lt;/EM&gt;, v&amp;nbsp;ktorom výberom stanovte&amp;nbsp;pre tento&amp;nbsp;doklad platnosť pôvodnej sadzby DPH. &lt;/LI&gt;&lt;/OL&gt;&lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Doklad v systéme OBERON je možné vystaviť s inou sadzbou DPH aj v prípade režimu&amp;nbsp;&lt;A href="fbb3fe9e-2f4a-401b-bb15-384245126a0a"&gt;One Stop Shop&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="ecde3bf9-a054-460a-900e-c54306a70a94" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="194e0195-69ae-453f-b550-6b65617e63f1">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="71af7170-4a9f-4914-9269-c178f58eac8e" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1dce6bce-8c7d-443a-b0f9-14ec18f3c9a0">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="1adf14c0-b76f-4013-a5f5-0f33aba97216" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="8a35cd0d-3fea-40c5-9831-a35062e762b4">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="62eff3f8-e6a1-4176-b092-1e677b94e660" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="5a6e5663-262e-4ff0-9741-1569385d11e4">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="6806ec5f-615a-4f23-9df4-bc594b80136f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="fbb3fe9e-2f4a-401b-bb15-384245126a0a">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="0c13ec85-73ad-45e4-bd39-20b435462863">
+      <Keyword m="2023-04-24T11:05:08.1436331Z">DPH - tvorba dokladov po zmene sadzby DPH</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="88a5d049-7073-4b80-a508-cf18a7aed286">
+      <Keyword m="2023-04-24T11:04:53.1889652Z">Zmena sadzby DPH - tvorba dokladov</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

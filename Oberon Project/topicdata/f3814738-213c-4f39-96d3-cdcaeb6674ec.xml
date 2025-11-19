@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="f3814738-213c-4f39-96d3-cdcaeb6674ec" Status="Complete" CreatedOn="2014-09-08T11:14:24.5243998Z" ModifiedOn="2023-07-07T08:37:48.4646054Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="22350" Name="Menu_Firm_Pref_Payment_Types" BuildFlags="">
+  <Title m="2014-09-08T11:14:46.6076629Z">Typy platieb</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-07-07T08:37:48.4646054Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;je venovaná&amp;nbsp;položke&amp;nbsp;&lt;EM&gt;Typy platieb&lt;/EM&gt;&amp;nbsp;v ponuke&amp;nbsp;&lt;EM&gt;Firma, Predvoľby&lt;/EM&gt;&amp;nbsp;programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Výberom položky sa otvorí&amp;nbsp;číselník &lt;EM&gt;Typy platieb&lt;/EM&gt;,&amp;nbsp;v&amp;nbsp;ktorom je možné &lt;STRONG&gt;definovať typy platieb&lt;/STRONG&gt; v module&amp;nbsp;&lt;A href="a6f5e32d-6f1e-40bb-9d15-3f784a183252"&gt;Pokladnica OBERON&lt;/A&gt;. 
+&lt;LI&gt;V&amp;nbsp;závislosti od nadefinovaných typov platieb je následne možné zaevidovať pokladničný doklad rôznymi spôsobmi, a&amp;nbsp;to podľa toho: 
+&lt;UL&gt;
+&lt;LI&gt;či sa vybraným typom platby prijíma hotovosť, cenina (napr. stravné lístky) alebo je to&amp;nbsp;&lt;A href="1a618813-f50b-46a3-8a94-598d5394f491"&gt;platba kartou, prípadne iná bezhotovostná platba&lt;/A&gt;, 
+&lt;LI&gt;či sa má&amp;nbsp;na pokladnici zaevidovať (vytlačiť) daňový doklad alebo nedaňový doklad (tzv. vnútorné zúčtovanie), napr. reprezentačný fond, strava zamestnancov, účet majiteľa, presun na hotelový účet atď.,&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 
+&lt;LI&gt;v akej mene sa má doklad uhradiť, prípadne či ide o úhradu faktúry v hotovosti atď. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;O tom, akým spôsobom sa doklad zaeviduje, rozhoduje obsluha v momente tlače dokladu (kláves &lt;I&gt;F12 - Tlač&lt;/I&gt; &lt;EM&gt;dokladu&lt;/EM&gt; pri predaji na pokladnici).&amp;nbsp;Vtedy sa zobrazí&amp;nbsp;formulár &lt;EM&gt;Výber spôsobu úhrady (platby)&lt;/EM&gt;&amp;nbsp;na výber spôsobu platby, ktorým sa doklad zaeviduje. 
+&lt;LI&gt;Ak v prípade používania&amp;nbsp;&lt;A href="942d48d5-b290-40f6-8ba3-45cf78f380f9"&gt;aplikácie LUKUL&lt;/A&gt; nebude pri type platby &lt;EM&gt;Presun na hotelový účet&lt;/EM&gt;&amp;nbsp;v záložke &lt;EM&gt;Pokladnice&lt;/EM&gt; vybraná pokladnica priradená k danej&amp;nbsp;webovej službe, záložka &lt;EM&gt;Hotelové účty&lt;/EM&gt; &lt;STRONG&gt;nebude&amp;nbsp;v aplikácii &lt;EM&gt;LUKUL&lt;/EM&gt; dostupná&lt;/STRONG&gt; (nebude sa zobrazovať). &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Definovať nový typ platby je možné pomocou&amp;nbsp;&lt;A href="77a7891e-a525-416c-ad7a-9e25ff95e430"&gt;formulára Typ platby&lt;/A&gt;. Možnosť definovať a upravovať &lt;EM&gt;Typy platieb&lt;/EM&gt; má len&amp;nbsp;&lt;A href="225638ed-22f6-4ac4-9085-6d77c64925db"&gt;používateľ&lt;/A&gt; s&amp;nbsp;príznakom &lt;EM&gt;Administrátor&lt;/EM&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt; 
+&lt;P&gt;&lt;STRONG&gt;Videonávody:&lt;/STRONG&gt;&lt;/P&gt;
+&lt;P&gt;K téme&amp;nbsp;sú spracované videonávody:&lt;/P&gt;&lt;A href="https://exalogic.sk/na-stiahnutie-oberon/predaj-na-pokladnici-oberon-novinky" target=_blank&gt;&lt;/A&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;A href="https://exalogic.sk/na-stiahnutie-oberon/predaj-na-pokladnici-oberon-novinky" target=_blank&gt;Predaj na Pokladnici OBERON&lt;/A&gt;, 
+&lt;LI&gt;&lt;A href="https://exalogic.sk/na-stiahnutie-oberon/pokladnica-oberon-typy-platieb/" target=_blank&gt;Pokladnica OBERON - typy platieb&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;P&gt;Všetky videonávody&amp;nbsp;sú k&amp;nbsp;dispozícii&amp;nbsp;na stránke&amp;nbsp;&lt;A href="http://www.exalogic.sk/"&gt;www.exalogic.sk&lt;/A&gt; v&amp;nbsp;sekcii &lt;EM&gt;Na stiahnutie,&amp;nbsp;&lt;/EM&gt;&lt;A href="https://exalogic.sk/na-stiahnutie/oberon-agenda-firmy/video-navody-na-stiahnutie/" target=_blank&gt;Videonávody&lt;/A&gt;.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="369dbd8f-048c-4bcb-b38d-022493fb96fa" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="33375f84-7c1b-41ee-9ded-8398c1ad99bd" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="69bbd499-45c0-4b0f-8f7a-c53fa5d70c1b">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="ac89dc10-f2f1-4760-8bd5-65c634e50ccf" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="46e6deed-ce15-42dc-be53-ab72142d9673">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="c75ff3fc-bd55-4c04-990d-71bae9aae088" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="77a7891e-a525-416c-ad7a-9e25ff95e430">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="028cea98-7dbd-40b0-81ad-7c016b3140cd">
+      <Keyword m="2023-03-02T07:16:48.9637604Z">Typy platieb na Pokladnici OBERON - číselník</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="f2433784-9041-40c5-9c32-3eca6ef5ea14">
+      <Keyword m="2023-03-02T07:16:43.3784615Z">Pokladnica OBERON - typy platieb - číselník</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="21df46dd-dc97-4873-a6a2-6f6582ee0493">
+      <Keyword m="2023-02-13T13:55:49.7453335Z">Typy platieb - číselník</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

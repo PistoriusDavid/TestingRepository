@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="f03d4e27-214d-4138-8d5a-3c65ca1ea6a4" Status="Complete" CreatedOn="2024-02-28T13:07:01.5597708Z" ModifiedOn="2024-03-18T09:02:24.341949Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="22340" Name="Menu_Firm_FileRepositoryArchive" BuildFlags="">
+  <Title m="2024-02-28T13:07:36.8770219Z">Hromadný export príloh dokumentov</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-03-18T09:02:24.341949Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;je venovaná&amp;nbsp;položke&amp;nbsp;&lt;EM&gt;Hromadný export príloh dokumentov&lt;/EM&gt; v ponuke&amp;nbsp;&lt;EM&gt;Firma&lt;/EM&gt; programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Výberom položky sa otvorí&amp;nbsp;sprievodca, pomocou ktorého&amp;nbsp;&lt;STRONG&gt;možno hromadne exportovať elektronické prílohy dokumentov z&amp;nbsp;aktuálnej databázy (prípadne archívnej databázy) do zvoleného adresára na disku počítača&lt;/STRONG&gt;, t. j. do&amp;nbsp;&lt;A href="68a24d97-e4a5-4cf4-bc7a-72262df5973e"&gt;elektronického archívu&lt;/A&gt;. 
+&lt;LI&gt;Táto funkcia sa odporúča používať aspoň raz za účtovné obdobie, napr. po jeho ukončení je možné hromadne vyexportovať prílohy výdajok,&amp;nbsp;vystavených faktúr a pod. podpísané zákazníkmi pomocou&amp;nbsp;&lt;A href="a315053c-fb60-4f19-a3df-40b9c9dd02f8"&gt;digitálnej podpisovej podložky&lt;/A&gt;, prijaté (došlé) faktúry evidované pri jednotlivých záznamoch ako prílohy vo formáte&amp;nbsp;PDF, prípadne ich elektronické kópie (skeny), dokumenty a výkazy pracovníkov z&amp;nbsp;miezd a pod. 
+&lt;LI&gt;Cieľom hromadného exportu príloh je &lt;STRONG&gt;zálohovanie údajov mimo databázy účtovnej jednotky v prehľadnej štruktúrovanej forme&lt;/STRONG&gt;. Takto vyexportované údaje je možné poskytnúť tretej strane napr. pri kontrole a pod. 
+&lt;LI&gt;Hromadný export záznamov môže vykonať len&amp;nbsp;&lt;A href="225638ed-22f6-4ac4-9085-6d77c64925db"&gt;používateľ&lt;/A&gt; s príznakom &lt;EM&gt;Administrátor.&lt;/EM&gt; &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Postup hromadného exportu&lt;/H2&gt;
+&lt;P&gt;Pri hromadnom exporte príloh dokumentov postupujte podľa nasledujúcich krokov:&lt;/P&gt;
+&lt;DIV style="MARGIN-LEFT: 2em"&gt;
+&lt;OL&gt;
+&lt;LI&gt;Zadajte &lt;STRONG&gt;obdobie&lt;/STRONG&gt;, za ktoré sa majú prílohy dokumentov exportovať. 
+&lt;LI&gt;Zvoľte&amp;nbsp;&lt;STRONG&gt;adresár&amp;nbsp;na disku počítača&lt;/STRONG&gt;, do ktorého sa prílohy vyexportujú. V danom adresári sa automaticky vytvorí podadresár s daným obdobím (rokom) a ďalšie podadresáre podľa jednotlivých evidencií. 
+&lt;LI&gt;Zvoľte &lt;STRONG&gt;evidencie&lt;/STRONG&gt;, s ktorými sa bude pracovať. Na označenie všetkých evidencií stlačte pravé tlačidlo myši a zvoľte možnosť &lt;EM&gt;Označiť všetky&lt;/EM&gt;. 
+&lt;LI&gt;Zvoľte &lt;STRONG&gt;sklady&lt;/STRONG&gt;, s ktorými sa bude pracovať. Na označenie všetkých skladov stlačte pravé tlačidlo myši a zvoľte možnosť &lt;EM&gt;Označiť všetky&lt;/EM&gt;. 
+&lt;LI&gt;Po stlačení tlačidla &lt;EM&gt;&lt;STRONG&gt;Dokončiť&lt;/STRONG&gt;&lt;/EM&gt; sa vykoná hromadný export príloh dokumentov. &lt;/LI&gt;&lt;/OL&gt;&lt;/DIV&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="0610d500-0ce6-4fb0-81cc-16edce6f56e6" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="68a24d97-e4a5-4cf4-bc7a-72262df5973e">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="eed85898-67b9-4dda-b9fc-a3e7436936fb" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="98d635be-10ba-40e1-83f1-acc2366c63eb">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="2dc96b1a-fe24-4065-8811-acbda974f08c" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="79eb5ae4-3bae-4a0c-be52-69c1ed8e59e5">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="c481118c-f015-4eca-aeb1-d47c2c73be21">
+      <Keyword m="2024-03-05T10:41:09.0180122Z">Export príloh dokumentov - automatický</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="7e130e94-2c33-4a7d-aaa1-e7a9dcdd2aa6">
+      <Keyword m="2024-03-05T10:35:31.5892109Z">Elektronický archív - hromadný export príloh dokumentov</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="6f2a304e-3154-4e08-84da-5abec2f8ab6f">
+      <Keyword m="2024-03-05T10:35:17.0461395Z">Prílohy dokumentov - hromadný export</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="c47ea8cd-523f-496b-af4f-8c0d89fbf57f">
+      <Keyword m="2024-03-05T10:35:54.7312902Z">Postup hromadného exportu príloh dokumentov</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

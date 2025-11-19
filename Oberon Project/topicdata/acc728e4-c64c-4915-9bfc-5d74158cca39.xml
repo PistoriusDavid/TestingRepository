@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="acc728e4-c64c-4915-9bfc-5d74158cca39" Status="Complete" CreatedOn="2015-11-16T10:19:29.9652969Z" ModifiedOn="2024-07-17T07:43:39.5126971Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="70320" Name="Menu_Wages_InsuranceCompanies" BuildFlags="">
+  <Title m="2015-11-16T10:21:07.9535781Z">Poisťovne</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-07-18T09:42:27.3984334Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;je venovaná&amp;nbsp;položke&amp;nbsp;&lt;EM&gt;Poisťovne&lt;/EM&gt; v&amp;nbsp;ponuke&amp;nbsp;&lt;EM&gt;Mzdy&lt;/EM&gt; programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Výberom položky sa otvorí&amp;nbsp;číselník&amp;nbsp;&lt;EM&gt;Zoznam poisťovní&lt;/EM&gt;,&amp;nbsp;v&amp;nbsp;ktorom je možné &lt;STRONG&gt;definovať poisťovne&lt;/STRONG&gt; v&amp;nbsp;module&amp;nbsp;&lt;A href="bf009605-0be8-4286-8ef5-4c7d3b89143a"&gt;Mzdy&lt;/A&gt; a&amp;nbsp;&lt;A href="3883342c-9ef0-4fd9-8773-88df84f78f65"&gt;dochádzka&lt;/A&gt;. Definovať možno &lt;EM&gt;Sociálnu poisťovňu&lt;/EM&gt;, zdravotné poisťovne, dôchodkové správcovské spoločnosti (DSS)&amp;nbsp;a&amp;nbsp;doplnkové dôchodkové spoločnosti (DDS).&amp;nbsp;Ich údaje sa využívajú pri tlači výkazov pre&amp;nbsp;poisťovne. 
+&lt;LI&gt;Ku každej poisťovni je možné evidovať nielen&amp;nbsp;základné údaje (názov, IČO, adresa...), ale aj bankové spojenie s&amp;nbsp;doplňujúcimi informáciami k platbám. 
+&lt;LI&gt;Poisťovne sa priraďujú k pracovníkom (vo&amp;nbsp;&lt;A href="8dd60281-9cc7-41fe-9dd2-2ad5c7ffe047"&gt;formulári Pracovník,&lt;/A&gt; záložka &lt;EM&gt;Poisťovne&lt;/EM&gt;), čo umožňuje identifikovať&amp;nbsp;príslušnosť pracovníkov k&amp;nbsp;týmto inštitúciám. 
+&lt;LI&gt;Poisťovňa, ku ktorej sú už priradení pracovníci, sa môže dodatočne upravovať, takáto poisťovňa sa však neodporúča vymazať. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Popis formulára &lt;EM&gt;Poisťovňa&lt;/EM&gt;&lt;/H2&gt;&lt;innovasys:widget type="Tab Strip" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Základné&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Typ poisťovne&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Vyberte typ poisťovne:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;Sociálna poisťovňa, 
+&lt;LI&gt;Zdravotná poisťovňa, 
+&lt;LI&gt;Dôchodková správcovská spoločnosť (II. pilier) - spoločnosť, ktorá vykonáva starobné dôchodkové sporenie, 
+&lt;LI&gt;Doplnková dôchodková spoločnosť (III. pilier) - spoločnosť, ktorá vykonáva doplnkové dôchodkové sporenie. &lt;/LI&gt;&lt;/UL&gt;
+&lt;P&gt;Vo&amp;nbsp;&lt;A href="8dd60281-9cc7-41fe-9dd2-2ad5c7ffe047"&gt;formulári Pracovník,&lt;/A&gt; záložka &lt;EM&gt;Poisťovne&lt;/EM&gt; možno&amp;nbsp;priradiť pracovníkovi zdravotnú poisťovňu, prípadne dôchodkové spoločnosti.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Kód poisťovne&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Pre zdravotné poisťovne sa zadáva kód&amp;nbsp;poisťovne:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;DÔVERA zdravotná poisťovňa, a.s. – kód poisťovne: 24, 
+&lt;LI&gt;VŠEOBECNÁ zdravotná poisťovňa, a.s. – kód poisťovne: 25, 
+&lt;LI&gt;UNION zdravotná poisťovňa, a.s. – kód poisťovne: 27. &lt;/LI&gt;&lt;/UL&gt;
+&lt;P&gt;Kód pobočky je dvojmiestne číslo, ku ktorému je možné pridať ďalšie 2&amp;nbsp;znaky, ktoré označujú pobočku poisťovne.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;IČO, Adresa, Krajina, Telefón, E-mail&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Do týchto textových polí sa zadáva IČO a kontaktné údaje. Tieto údaje sa využívajú&amp;nbsp;pri tvorbe tlačových výstupov.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Neaktívna poisťovňa&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Poisťovňu je možné označiť&amp;nbsp;za neaktívnu v prípade, že sa už nepoužíva. S&amp;nbsp;neaktívnou poisťovňou nie je možné pracovať, nezobrazuje sa v&amp;nbsp;zozname.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Bankové spojenie&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;K poisťovni je možné zadať bankový účet - použije sa ako cieľový bankový účet&amp;nbsp;na odvod sumy pre danú inštitúciu. Zadať možno aj&amp;nbsp;doplňujúce informácie k platbám - variabilný, konštantný, špecifický symbol. Variabilný alebo špecifický symbol môže byť tzv. všeobecného formátu. Viac informácií je možné získať v&amp;nbsp;téme&amp;nbsp;&lt;A href="bcaf2c4a-25ad-40c8-af4c-0ea15bf3105d"&gt;Variabilné symboly v OBERON-e&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Iné&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Záložka &lt;EM&gt;Iné&lt;/EM&gt; slúži na evidenciu doplňujúcich informácií o danej poisťovni.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="fe4834fd-479f-43be-ac71-0cc2584fa6c2" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="8dd60281-9cc7-41fe-9dd2-2ad5c7ffe047">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="f9822191-3942-4b69-bf58-57c0972e89bd" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="bcaf2c4a-25ad-40c8-af4c-0ea15bf3105d">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="00b33f01-971f-422e-ac12-9012eba5d2b4" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="cef3d868-1ade-4aea-a26d-083fc2a21048">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="7ddd5127-3e6e-432a-aa72-92adac1fb204" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="11979e09-0fdd-4525-b44f-bd3eeaca7d05">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="6372a51b-ea3f-414c-a991-fdd9e4e373e1" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="beb97ace-1408-443d-87c0-bce72b007ea7">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="00a00b98-3f3d-4e1a-837d-3bdd913c91d0">
+      <Keyword m="2023-07-11T13:03:59.4387028Z">Poisťovne - číselník</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="2b01d5c4-8b7a-4faa-84a7-3268e6acb731">
+      <Keyword m="2023-07-11T13:04:40.5329799Z">Sociálna poisťovňa - číselník</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="2a292ae3-3eb5-48fd-9b57-7d868e210255">
+      <Keyword m="2023-07-11T13:06:34.3400042Z">Zdravotná poisťovňa - číselník</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="f1e19d3a-4514-43a3-af2c-f68d3a1d5312">
+      <Keyword m="2023-07-11T13:05:32.9158656Z">DDS - číselník</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="e9ee218c-be78-42cb-84d6-4d048d1190c5">
+      <Keyword m="2023-07-11T13:05:37.7314619Z">DSS - číselník</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="420a0fc5-9160-4cbc-9352-f24881c75ec5">
+      <Keyword m="2023-07-11T13:05:59.9187738Z">Dôchodková správcovská spoločnosť (II. pilier) - číselník</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="ef367935-5f78-4f63-bb9a-9c62c3d77224">
+      <Keyword m="2023-07-11T13:06:19.7374878Z">Doplnková dôchodková spoločnosť (III. pilier) - číselník</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

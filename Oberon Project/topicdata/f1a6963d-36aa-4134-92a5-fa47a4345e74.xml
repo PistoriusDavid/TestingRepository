@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="f1a6963d-36aa-4134-92a5-fa47a4345e74" Status="Complete" CreatedOn="2014-09-11T06:53:24.6849788Z" ModifiedOn="2024-05-23T08:07:09.0180713Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="false" HelpContextIds="" Name="CRM_About_Concept" BuildFlags="">
+  <Title m="2021-07-13T10:19:26.4617398Z">Všeobecne o koncepcii</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-05-23T08:07:09.0180713Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;obsahuje &lt;STRONG&gt;všeobecné informácie o module &lt;EM&gt;CRM a registratúra&lt;/EM&gt;&lt;/STRONG&gt; v&amp;nbsp;systéme OBERON.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;EM&gt;CRM a&amp;nbsp;registratúra&lt;/EM&gt;&amp;nbsp;v systéme OBERON &lt;STRONG&gt;predstavuje samostatný modul, ktorý je tvorený tromi časťami:&lt;/STRONG&gt; 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;CRM&lt;/STRONG&gt; - z angl. &lt;EM&gt;&lt;STRONG&gt;C&lt;/STRONG&gt;ustomer &lt;STRONG&gt;R&lt;/STRONG&gt;elationship &lt;STRONG&gt;M&lt;/STRONG&gt;anagement&lt;/EM&gt; (riadenie vzťahov so zákazníkmi). CRM&amp;nbsp;je oblasť riadenia, ktorá zahŕňa všetky procesy komunikácie so zákazníkmi (evidencia komunikácie, úlohy, udalosti, kalendár udalostí). Okrem toho je CMR možné používať aj v rámci vnútrofiremných procesov - evidovať úlohy a udalosti pracovníkov firmy, vykonávať ich kontrolu, vyhodnocovať atď. 
+&lt;LI&gt;&lt;STRONG&gt;Evidencia reklamácií a servisu&lt;/STRONG&gt; - umožňuje evidovať a riadiť všetky činnosti súvisiace s reklamáciami a servisom v ľubovoľnom podnikateľskom odbore. 
+&lt;LI&gt;&lt;STRONG&gt;Registratúra&lt;/STRONG&gt; - určená na vedenie evidencie registratúry dokumentov podľa zákona 395/2002 Z. z. o archívoch a registratúrach. Umožňuje spravovať&amp;nbsp;&lt;A href="e24eddba-71a4-4980-9396-4947da76375a"&gt;registratúrny plán&lt;/A&gt; a&amp;nbsp;viesť&amp;nbsp;&lt;A href="0fe6411c-9069-4097-b90f-e69f01a61569"&gt;registratúrny (podací) denník&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;CRM - základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;EM&gt;CRM&lt;/EM&gt; umožňuje riadiť&amp;nbsp;nielen &lt;STRONG&gt;proces predaja,&amp;nbsp;ale aj služieb a ďalších činností&lt;/STRONG&gt; spojených s&amp;nbsp;kompletnou starostlivosťou o zákazníkov. Zásadným prínosom nasadenia systému je&amp;nbsp;zlepšenie vzťahov so zákazníkmi, sprehľadnenie všetkých procesov, ich presná evidencia, evidencia kompletnej histórie. 
+&lt;LI&gt;Okrem toho&amp;nbsp;je CRM možné používať aj &lt;STRONG&gt;na riadenie vnútrofiremných procesov&lt;/STRONG&gt; -&amp;nbsp;plánovanie pracovných a osobných stretnutí,&amp;nbsp;školení, evidencia pracovných úloh, ich vyhodnocovanie atď. Zvyšuje informovanosť pracovníkov vo firme,&amp;nbsp;vedúcim pracovníkom (prípadne majiteľom) pomáha riadiť a kontrolovať zamestnancov, zlepšuje celkové fungovanie organizácie. 
+&lt;LI&gt;V&amp;nbsp;systéme OBERON&amp;nbsp;sa z&amp;nbsp;hľadiska evidencie pracuje s&amp;nbsp;úlohami a udalosťami. Pod pojmom &lt;STRONG&gt;úloha&lt;/STRONG&gt; sa rozumie každá činnosť, ktorá je pridelená konkrétnej osobe na vykonanie. Ide vlastne o súbor informácií, ktorý obsahuje&amp;nbsp;názov a popis úlohy, dátum začiatku a konca úlohy, dátum požadovaného konca úlohy, typ úlohy, stav úlohy (plánovaná, prebieha, ukončená, zamietnutá, zrušená...), prípadne ďalšie informácie.&amp;nbsp;Ku každej úlohe&amp;nbsp;možno&amp;nbsp;evidovať stupeň dokončenia úlohy vyjadrený v %. Úloha &lt;STRONG&gt;sa nezobrazuje&lt;/STRONG&gt; v&amp;nbsp;&lt;A href="3590e987-a2d8-48a5-a8dc-ce67c7d0e271"&gt;Kalendári udalostí&lt;/A&gt;. Príkladom úlohy je vypracovanie cenovej ponuky, výmena žiarovky&amp;nbsp;v&amp;nbsp;izbe, potreba odoslať balík atď. Pod pojmom &lt;STRONG&gt;udalosť&lt;/STRONG&gt; sa rozumie každá aktivita v záujme efektívneho riadenia procesov vo firme (stretnutie, porada, školenie,&amp;nbsp;prijatý telefonát, e-mailová komunikácia), ktorá môže mať&amp;nbsp;rôzny stav (plánovaná, vykonaná, nevykonaná, zrušená). Udalosti &lt;STRONG&gt;sa môžu a&amp;nbsp;nemusia&amp;nbsp;zobrazovať&lt;/STRONG&gt; v&amp;nbsp;&lt;A href="3590e987-a2d8-48a5-a8dc-ce67c7d0e271"&gt;Kalendári udalostí&lt;/A&gt;&amp;nbsp;alebo môžu byť označené ako súkromné; vtedy sú dostupné len používateľovi, ktorý danú udalosť vytvoril, prípadne používateľom, pre ktorých sú určené.&amp;nbsp;Udalosť má na rozdiel od úlohy svoj začiatok a koniec. Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="a2807e3b-d8b1-4d61-a3b9-63df2783bfda"&gt;Úlohy a udalosti&lt;/A&gt;. 
+&lt;LI&gt;&lt;SPAN class=st&gt;Úlohy a&amp;nbsp;udalosti možno zoskupovať do tzv.&amp;nbsp;&lt;A href="5065958b-9ec2-46c0-81ce-ce9e316c90b7"&gt;CRM zložiek&lt;/A&gt;, ktoré sú určené &lt;SPAN class=st&gt;&lt;STRONG&gt;na evidenciu&amp;nbsp;rôznych obchodných prípadov, projektov, zákaziek&lt;/STRONG&gt; a pod. Hoci sú &lt;SPAN class=st&gt;CRM zložky &lt;STRONG&gt;primárne určené na zoskupovanie jednotlivých&amp;nbsp;&lt;/STRONG&gt;&lt;A href="a2807e3b-d8b1-4d61-a3b9-63df2783bfda"&gt;úloh a udalostí&lt;/A&gt; (podobne ako v registratúre tzv. spis), možno ich&amp;nbsp;používať &lt;STRONG&gt;aj samostatne&lt;/STRONG&gt; (napr. obchodný prípad, projekt, zákazka).&amp;nbsp;V&lt;SPAN class=st&gt;iac informácií získate v téme&amp;nbsp;&lt;A href="5065958b-9ec2-46c0-81ce-ce9e316c90b7" style="auto-update-caption: true"&gt;CRM zložky&lt;/A&gt;.&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt; 
+&lt;LI&gt;&lt;SPAN class=st&gt;&lt;SPAN class=st&gt;&lt;SPAN class=st&gt;&lt;SPAN class=st&gt;Každej úlohe a udalosti je možné nastaviť &lt;STRONG&gt;pripomenutie formou e-mailovej alebo SMS správy&lt;/STRONG&gt;, a tým zabezpečiť, aby sa na žiadnu dôležitú úlohu alebo udalosť nezabudlo. Pripomenutie sa odošle používateľovi, ktorému je úloha určená. Pripomenutie je možné nastaviť v&amp;nbsp;rozsahu minút, hodín, dní alebo týždňov. Viac informácií o príslušných nastaveniach získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="e301d0fb-f429-4bb5-a4df-7257efbe967b" style="auto-update-caption: true"&gt;O automatických notifikáciách&lt;/A&gt;.&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt; 
+&lt;LI&gt;Systém OBERON umožňuje &lt;STRONG&gt;hromadné odosielanie e-mailových správ (hromadný mailing)&lt;/STRONG&gt;. Funkcia umožňuje rozposielať hromadné e-mailové správy (ale aj SMS správy)&amp;nbsp;konkrétnym skupinám príjemcov, napr. v rámci reklamnej kampane, informovania o&amp;nbsp;rôznych podujatiach, zmenách (napr. adresy sídla firmy) a pod. Hromadné e-mailové správy sa vytvárajú v programe &lt;EM&gt;OBERON – Agenda firmy&lt;/EM&gt; v&amp;nbsp;ponuke &lt;EM&gt;CRM&lt;/EM&gt;,&amp;nbsp;&lt;A href="f7710ccc-3e00-4ba2-a8d6-c11f18f5ddae"&gt;Hromadné správy (kampane)&lt;/A&gt;. Fyzické odosielanie e-mailových správ zabezpečuje &lt;EM&gt;Automatické odosielanie e-mailov&lt;/EM&gt; ako jedna z&amp;nbsp;&lt;A href="9ce25bbd-35d1-4096-acd5-70007f5af5a6"&gt;automatických úloh&lt;/A&gt; systému OBERON. Viac informácií o príslušných nastaveniach získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="04e52362-d0f3-4a9a-8ec5-36ef724a7ee2"&gt;Hromadné zasielanie e-mailov&lt;/A&gt;. 
+&lt;LI&gt;&lt;SPAN class=st&gt;&lt;SPAN class=st&gt;&lt;SPAN class=st&gt;Systém OBERON &lt;STRONG&gt;umožňuje obojsmernú synchronizáciu&amp;nbsp;úloh a udalostí&lt;/STRONG&gt;&amp;nbsp;medzi&amp;nbsp;modulom&amp;nbsp;&lt;EM&gt;CRM a registratúra&lt;/EM&gt; (evidencia&amp;nbsp;&lt;A href="a2807e3b-d8b1-4d61-a3b9-63df2783bfda"&gt;Úlohy a udalosti&lt;/A&gt;&lt;EM&gt;,&amp;nbsp;&lt;/EM&gt;&lt;A href="3590e987-a2d8-48a5-a8dc-ce67c7d0e271"&gt;Kalendár udalostí&lt;/A&gt;) a&amp;nbsp;&lt;EM&gt;Kalendárom Google&lt;/EM&gt;.&amp;nbsp;Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="500d259b-3e05-4b22-86a5-adc149eb9595" style="auto-update-caption: true"&gt;Synchronizácia s Kalendárom Google&lt;/A&gt;.&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt; 
+&lt;LI&gt;&lt;SPAN class=st&gt;&lt;SPAN class=st&gt;&lt;SPAN class=st&gt;Ak má účtovná jednotka viac&amp;nbsp;&lt;A href="8df798f2-4fbf-4279-ad8c-493bdbe7f2e4"&gt;prevádzok&lt;/A&gt;,&amp;nbsp;záznamy v&amp;nbsp;knihách&amp;nbsp;&lt;A href="a2807e3b-d8b1-4d61-a3b9-63df2783bfda" style="auto-update-caption: true"&gt;Úlohy a udalosti&lt;/A&gt; a&amp;nbsp;&lt;A href="5065958b-9ec2-46c0-81ce-ce9e316c90b7" style="auto-update-caption: true"&gt;CRM zložky&lt;/A&gt; je možné členiť podľa týchto prevádzok - takéto&amp;nbsp;záznamy môžu mať iný číselný rad (v&amp;nbsp;závislosti&amp;nbsp;od nastavenia systému).&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt; &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;&lt;SPAN class=st&gt;Obrázok č. 1:&amp;nbsp; Kalendár udalostí&lt;/SPAN&gt;&lt;/H5&gt;
+&lt;P&gt;&lt;SPAN class=st&gt;&amp;nbsp;&lt;IMG border=0 alt="" src="images/Forms/CRM/Form_CRM_Calendar_SingleUser.png"&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;H2&gt;&lt;SPAN class=st&gt;Reklamácie/servis&amp;nbsp;- základné informácie&lt;/SPAN&gt;&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;SPAN class=st&gt;Kniha&amp;nbsp;&lt;A href="945b74ea-31f8-44e7-baef-ffb5fc136b05"&gt;Evidencia reklamácií a servisu&lt;/A&gt; je &lt;STRONG&gt;určená na evidenciu reklamácií a&amp;nbsp;servisných zásahov&lt;/STRONG&gt;. Umožňuje &lt;STRONG&gt;evidovať a riadiť všetky činnosti súvisiace s reklamáciami a servisom v ľubovoľnom podnikateľskom odbore&lt;/STRONG&gt;.&lt;/SPAN&gt; 
+&lt;LI&gt;&lt;SPAN class=st&gt;Systém OBERON obsahuje pevne definované druhy reklamácie/servisu, ktoré nie je možné upravovať: &lt;EM&gt;&lt;STRONG&gt;Reklamácia&lt;/STRONG&gt;, &lt;STRONG&gt;Predzáručný servis&lt;/STRONG&gt;, &lt;STRONG&gt;Záručný servis&lt;/STRONG&gt;&lt;/EM&gt;&lt;STRONG&gt;&amp;nbsp;&lt;/STRONG&gt;a &lt;EM&gt;&lt;STRONG&gt;Pozáručný servis&lt;/STRONG&gt;&lt;/EM&gt;. Na základe druhu&amp;nbsp;reklamácie/servisu sa program rozhoduje, ako bude s daným záznamom&amp;nbsp;pracovať. Ku každému druhu reklamácie/servisu&amp;nbsp;je v programe preddefinovaný jeden&amp;nbsp;&lt;A href="52bcc711-881c-4cf6-bc24-47080bba3264"&gt;typ reklamácie/servisu&lt;/A&gt;, ďalšie typy&amp;nbsp;reklamácie/servisu si môže účtovná jednotka podľa potreby ľubovoľne definovať.&lt;/SPAN&gt; 
+&lt;LI&gt;&lt;SPAN class=st&gt;Pri každom zázname reklamácie alebo servisu je možné evidovať&amp;nbsp;stavy reklamácie/servisu, napr. &lt;EM&gt;Zaevidovanie, Prijatie, Presun do interného servisu, Prijatie&amp;nbsp;z interného servisu&lt;/EM&gt; atď. Umožňujú&amp;nbsp;udržiavať prehľad o úkonoch spojených s&amp;nbsp;reklamáciami a servisom a sledovať históriu jednotlivých reklamácií a servisu v čase.&amp;nbsp;V systéme OBERON sú základné typy stavov udalostí reklamácie/servisu preddefinované, ďalšie typy si môže účtovná jednotka&amp;nbsp;podľa potreby ľubovoľne definovať.&lt;/SPAN&gt; 
+&lt;LI&gt;&lt;SPAN class=st&gt;K&amp;nbsp;danému záznamu je možné &lt;STRONG&gt;evidovať položky&amp;nbsp;na vyúčtovanie&lt;/STRONG&gt; (&lt;A href="802c5a4f-4c78-4ff0-9f58-dbec5cce6c16"&gt;formulár Reklamácia/Servis&lt;/A&gt;, záložka &lt;EM&gt;Vyúčtovanie&lt;/EM&gt;), a to v členení podľa toho, či ich zákazník&amp;nbsp;uhrádza alebo nie (v&amp;nbsp;rámci záruky). Zadáva sa materiál a práca, ktoré boli použité pri reklamácii alebo servise. Pridať sa môže skladová karta (tovar) alebo neskladová položka (služba - doprava, práca a pod.). Vložením skladovej položky sa vytvorí&amp;nbsp;&lt;A href="fc7595a6-54ce-4aa9-acb4-93d7880e854e"&gt;skladový pohyb&lt;/A&gt;. Následne je možné reklamáciu/servis vyúčtovať na&amp;nbsp;&lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnici OBERON&lt;/A&gt; alebo vyfakturovať. Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="0fb6c9c4-9b89-43f6-af59-f9418f6871dd" style="auto-update-caption: true"&gt;Vyúčtovanie reklamácie/servisu&lt;/A&gt;.&lt;/SPAN&gt; &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;&lt;SPAN class=st&gt;Registratúra - základné informácie&lt;/SPAN&gt;&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Najdôležitejšou knihou pri správe registratúry je&amp;nbsp;&lt;A href="0fe6411c-9069-4097-b90f-e69f01a61569"&gt;registratúrny (podací) denník&lt;/A&gt;. Obsahuje údaje o prijatí, tvorbe, vybavení a odoslaní registratúrnych záznamov. 
+&lt;LI&gt;Záznamy v registratúrnom denníku sa zatrieďujú podľa vytvoreného&amp;nbsp;&lt;A href="e24eddba-71a4-4980-9396-4947da76375a"&gt;registratúrneho plánu&lt;/A&gt;. Registratúrny plán môže byť vopred preddefinovaný podľa charakteru účtovnej jednotky (obchodná spoločnosť, živnostník, obecný úrad), prípadne ho možno dopĺňať a&amp;nbsp;upravovať podľa požiadaviek firmy. 
+&lt;LI&gt;Okrem registratúrneho plánu možno dokumenty zatrieďovať do&amp;nbsp;&lt;A href="b9d813c2-1ac9-4606-b104-819ea02b6463"&gt;spisov&lt;/A&gt;. Pomocou spisu možno rýchlo pristúpiť k dokumentom, ktoré sa síce nachádzajú v rôznych častiach registratúrneho plánu, ale napriek tomu k sebe logicky patria.
+&lt;LI&gt;&lt;A href="5d728358-074b-4fe2-8ba7-bc9f6dba02c7" style="auto-update-caption: true"&gt;Registratúrne stredisko (archív)&lt;/A&gt; predstavuje miesto, kde sa ukladajú a ochraňujú uzatvorené&amp;nbsp;&lt;A href="b9d813c2-1ac9-4606-b104-819ea02b6463"&gt;spisy&lt;/A&gt;&amp;nbsp;účtovnej jednotky&amp;nbsp;do uplynutia predpísaných lehôt uloženia a do ich vyradenia. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Ďalšie informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;V jednotlivých evidenciách modulu je možné využiť &lt;STRONG&gt;export alebo import&amp;nbsp;údajov&lt;/STRONG&gt; pomocou tzv.&amp;nbsp;&lt;A href="56f661c6-24da-46aa-b157-5d988cbe792b"&gt;XML komunikácie&lt;/A&gt;. 
+&lt;LI&gt;V prípade potreby je možné položky&amp;nbsp;záznamov &lt;STRONG&gt;zoradiť&lt;/STRONG&gt;&amp;nbsp;pomocou&amp;nbsp;&lt;A href="38489850-ab82-41b6-b258-3fa613ed5861"&gt;panela na zmenu poradia položiek zoznamu&lt;/A&gt;&amp;nbsp;(modrých šípok). 
+&lt;LI&gt;Systém OBERON udržiava medzi súvisiacimi záznamami v rôznych evidenciách &lt;STRONG&gt;väzby&lt;/STRONG&gt;.&amp;nbsp;To umožňuje zostaviť&amp;nbsp;grafický prehľad väzieb daného záznamu, ktorý je zároveň interaktívny - kliknutím pravým tlačidlom myši je možné jednotlivé záznamy zobraziť, upraviť, resp. exportovať. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Licenčné podmienky&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;V&amp;nbsp;obmedzenom režime (na skúšobné účely) je možné s modulom &lt;EM&gt;CRM a&amp;nbsp;registratúra&lt;/EM&gt; pracovať &lt;STRONG&gt;aj bez licencie&lt;/STRONG&gt; - viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="95d188df-c149-46a9-8474-4d9493f2ad41" style="auto-update-caption: true"&gt;Licenčná politika&lt;/A&gt;. 
+&lt;LI&gt;Plnohodnotne je možné modul&amp;nbsp;&lt;EM&gt;CRM a&amp;nbsp;registratúra&lt;/EM&gt; používať &lt;STRONG&gt;len s&amp;nbsp;platnou&amp;nbsp;licenciou&lt;/STRONG&gt;. Dôležitým faktorom pri výbere typu licencie&amp;nbsp;je predpokladaný počet úloh a udalostí, zápisov v evidencii reklamácií a servisu a počet záznamov v registratúrnom denníku. Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="644b0685-defe-4ce5-b3cd-e731b5eff299" style="auto-update-caption: true"&gt;Typy licencií&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="18d35772-fd98-4582-8478-ea6235f7c369" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="4d0a07f5-c25e-4882-9372-386a05de0c2f">
+      <Title m="2023-05-19T09:02:02.5978044Z">CRM a registratúra - základné možnosti</Title>
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="13ec2568-7a46-4b96-adcf-9fde4bc43148" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="8aceb7b7-82d8-48f5-810d-b750bb1ef046">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="47c86f5c-df53-4a8c-94ea-acbfd47cb692" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="7b7f98da-da3e-4834-9d02-873a024e9d82">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="4f7c4da9-a88d-400a-bf49-f8880092224a" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="df0520a4-ee6e-45a0-b7ff-633fd1e91718">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="5b8399cf-6228-4d87-87d1-d74d9244371c">
+      <Keyword m="2023-05-19T09:03:51.4776224Z">CRM a registratúra - všeobecne o koncepcii</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="f4ec77d8-c646-468a-b0a8-376e0b8f00ae">
+      <Keyword m="2023-05-19T09:04:13.3000154Z">CRM - základné informácie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="2927ea72-5f3e-4aa9-823c-f4f8d44d41a1">
+      <Keyword m="2023-05-19T09:04:29.1072255Z">Reklamácie/servis - základné informácie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="ef160387-08fb-4706-ac03-8f250ef5579a">
+      <Keyword m="2023-05-19T09:04:48.6058877Z">Registratúra - základné informácie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="f539f44d-d33f-4717-9681-4cbffe7938e7">
+      <Keyword m="2023-05-19T12:34:05.0387109Z">Customer Relationship Management - všeobecne o koncepcii</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

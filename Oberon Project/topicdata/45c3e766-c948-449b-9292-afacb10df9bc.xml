@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="45c3e766-c948-449b-9292-afacb10df9bc" Status="Complete" CreatedOn="2014-09-08T14:35:17.5726733Z" ModifiedOn="2024-10-04T11:32:00.9703868Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="AccDouble_Basic_Options" BuildFlags="">
+  <Title m="2021-07-13T10:20:12.9480689Z">Základné možnosti</Title>
+  <ContentsTitle m="2014-09-17T12:04:19.5429687Z">Základné možnosti</ContentsTitle>
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-10-04T11:32:00.9703868Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;informácie o základných možnostiach, užitočných funkciách a zaujímavých vlastnostiach&lt;/STRONG&gt; v&amp;nbsp;&lt;A href="49dd3167-870a-4fdf-b631-d4f692f1ed72"&gt;podvojnom účtovníctve&lt;/A&gt;&amp;nbsp;v&amp;nbsp;systéme OBERON.&lt;/P&gt;
+&lt;H2&gt;Základné možnosti a vlastnosti&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Modifikovateľná účtovná osnova s možnosťou definovať &lt;A href="da8a9192-a6cc-4470-b5d5-13d3ec435f97"&gt;predkontácie&lt;/A&gt;. 
+&lt;LI&gt;Účtovanie nasledujúcich účtovných rokov bez nutnosti uzatvorenia aktuálneho obdobia, účtovnú závierku je možné vykonať aj viackrát. 
+&lt;LI&gt;Možnosť uplatniť&amp;nbsp;&lt;A href="3e08b8bb-efeb-44fe-88c6-7292a88a3094"&gt;hospodársky rok&lt;/A&gt;. 
+&lt;LI&gt;Import/export údajov prostredníctvom&amp;nbsp;&lt;A href="56f661c6-24da-46aa-b157-5d988cbe792b"&gt;XML komunikácie&lt;/A&gt;&amp;nbsp;(napr. import externej pokladnice do účtovného denníka alebo jeho export na externé spracovanie, import/export faktúr&amp;nbsp;a pod.). 
+&lt;LI&gt;Podpora elektronického platobného styku (export príkazu na úhradu a jeho import do &lt;A href="ef8ec592-c1af-45af-92b7-8734ce46e0f5"&gt;internetbankingu&lt;/A&gt;). 
+&lt;LI&gt;Možnosť&amp;nbsp;&lt;A href="f68687b5-0939-447b-9f8e-37c883676f1e"&gt;členenia&lt;/A&gt;&amp;nbsp;dokladov podľa požiadaviek na sledovanie jednotlivých činností,&amp;nbsp;zákaziek, dodávaných produktov, služieb, prenájmu&amp;nbsp;alebo ďalších sledovaných odvetví vo firme. Členenie je dostupné formou tzv. stromovej štruktúry. 
+&lt;LI&gt;Analytické členenie účtovného rozvrhu. 
+&lt;LI&gt;Automatické číslovanie dokladov v účtovnom denníku (pokladničné doklady, interné doklady). 
+&lt;LI&gt;Zostavené výkazy (napr. &lt;EM&gt;DPH daňové priznanie, Kontrolný výkaz DPH, Súvaha&lt;/EM&gt; a pod.) sú vždy k dispozícii v&amp;nbsp;evidencii&amp;nbsp;&lt;A href="71b702c2-e6e7-4f9a-b66b-15dba7d31ae1"&gt;Priznania a výkazy&lt;/A&gt;, ku každému výkazu je možné evidovať ľubovoľné prílohy. 
+&lt;LI&gt;Možnosť zaúčtovania úhrady&amp;nbsp;&lt;A href="6ed3037c-7be6-40bf-acbe-8336e4c5131a"&gt;colného dlhu&lt;/A&gt;.
+&lt;LI&gt;&lt;A href="831d0b51-ffdf-4708-8afc-9d305d97e4d0"&gt;Účtovná závierka účtovného denníka&lt;/A&gt;. 
+&lt;LI&gt;Prepracovaný systém&amp;nbsp;&lt;A href="834e9546-a56b-476f-9028-ef4c24a82345"&gt;práv používateľov&lt;/A&gt;, či už v jednopoužívateľskej alebo &lt;A href="9c0e1613-bfdc-48f6-9d03-58aba39dab36"&gt;sieťovej&lt;/A&gt;&amp;nbsp;prevádzke. 
+&lt;LI&gt;Jednoduché kopírovanie záznamov (&lt;EM&gt;Ctrl+C, Ctrl+V&lt;/EM&gt;). &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Užitočné funkcie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Predovšetkým pre väčšie účtovné jednotky môžu byť užitočné funkcie&amp;nbsp;&lt;A href="41513109-f711-4de5-b494-67671f203dca"&gt;Hromadné účtovanie dokladov&lt;/A&gt;&amp;nbsp;na hromadné&amp;nbsp;zaúčtovanie dokladov do účtovného denníka a&amp;nbsp;&lt;A href="02bbf54b-086f-4641-8c33-4dd461e56fb4" style="auto-update-caption: true"&gt;Spracovanie bankových výpisov&lt;/A&gt;&amp;nbsp;na hromadné spracovanie bankových výpisov v&amp;nbsp;elektronickom formáte. Import a následné spracovanie bankových výpisov je možné vykonávať aj automaticky pomocou osobitnej automatickej úlohy. Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="1a074e9a-9cf9-4ab8-b9a8-68575142a704" style="auto-update-caption: true"&gt;Automatické spracovanie bankových výpisov&lt;/A&gt;. 
+&lt;LI&gt;&lt;A href="e50f9e37-991e-4800-9fc3-3eeb6ce162a7"&gt;Hromadné zaúčtovanie skladu&lt;/A&gt;&amp;nbsp;s&amp;nbsp;možnosťou nastavenia skladových predkontácií, pomocou ktorých sa hromadne zaúčtujú pohyby na sklade (za určité obdobie). 
+&lt;LI&gt;&lt;A href="b4329672-0a25-4161-bea7-150f71012c40"&gt;Hromadné účtovanie majetku (účtovných odpisov)&lt;/A&gt;. 
+&lt;LI&gt;&lt;A href="7410538f-4d0e-4d92-b76b-1e4df963548c"&gt;Automatické účtovanie tržieb&lt;/A&gt;&amp;nbsp;registračných pokladníc (fiškálnych tlačiarní). Okrem toho je možné&amp;nbsp;automaticky zaúčtovať aj úhrady faktúr v&amp;nbsp;hotovosti s&amp;nbsp;automatickým zaúčtovaním zaokrúhlenia a všetky výbery a vklady peňažných prostriedkov v pokladnici. 
+&lt;LI&gt;&lt;A href="cf9e27af-d4c5-4b0c-9b37-78cfa72b9abd" style="auto-update-caption: true"&gt;Automatické účtovanie pokladničných dokladov&lt;/A&gt;&amp;nbsp;pomocou&amp;nbsp;&lt;A href="80a78093-fc45-4db9-b74b-e1f9829f7b3c"&gt;snímača čiarových kódov&lt;/A&gt;&amp;nbsp;alebo aplikácie&amp;nbsp;&lt;A href="518026eb-be63-494d-b3e3-837f9509c543"&gt;QeeR skener&lt;/A&gt;. 
+&lt;LI&gt;&lt;A href="cc3dcaea-c62f-450b-9878-6298aa9b0f6e"&gt;Automatické účtovanie zaokrúhlenia&lt;/A&gt;. 
+&lt;LI&gt;Automatické preúčtovanie daňových nákladov pri pomernom odpočítaní DPH. 
+&lt;LI&gt;Automatické prečíslovanie dokladov - možnosť dodatočne automaticky prečíslovať doklady v účtovnom denníku. 
+&lt;LI&gt;Prečíslovanie pokladničných dokladov&amp;nbsp;- zároveň sa prečíslujú všetky súvisiace doklady v&amp;nbsp;iných knihách (&lt;EM&gt;Kniha pohľadávok, Kniha záväzkov, Kniha evidencie DPH,&amp;nbsp;Evidencia vozidiel&lt;/EM&gt;). 
+&lt;LI&gt;&lt;A href="c5a0e260-f27f-4a19-9b09-39a40bfbd69f"&gt;Export výkazov vo formáte XML do aplikácie eDane&lt;/A&gt;&amp;nbsp;&lt;EM&gt;Finančného riaditeľstva SR&lt;/EM&gt; (export údajov a jeho následný import do programu &lt;EM&gt;eDane&lt;/EM&gt; sa spravidla vykonávajú automaticky pri vytváraní daného výkazu). 
+&lt;LI&gt;Automatické účtovanie kurzových rozdielov (zisk alebo strata). 
+&lt;LI&gt;&lt;A href="aaff1cb2-5d8a-481e-990e-0f69c608171e"&gt;Zamykanie dokladov&lt;/A&gt;&amp;nbsp;na ochranu proti neželaným zmenám (napr. po podaní DPH priznania, po kompletnom zaúčtovaní mesiaca a pod.).
+&lt;LI&gt;Prepojenie účtovného denníka (pokladničných dokladov) s evidenciou&amp;nbsp;&lt;A href="822d4556-571e-4260-ab82-e68d232b1662"&gt;nákupu pohonných látok&lt;/A&gt;&amp;nbsp;(v&amp;nbsp;module&amp;nbsp;&lt;A href="085651d2-b64b-4884-b55d-0ba2b7f7808a"&gt;Evidencia vozidiel&lt;/A&gt;),&amp;nbsp;automatické čiastočné odpočítanie DPH vo výške 80&amp;nbsp;%. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Zaujímavé vlastnosti&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Interaktívne grafické znázornenie väzieb medzi dokladmi – na kontrolu správnosti zaúčtovania. 
+&lt;LI&gt;Veľké množstvo tlačových výstupov z jednotlivých evidencií (obraty na účtoch, saldokonto, hlavná kniha atď.). 
+&lt;LI&gt;Vybrané manažérske informácie dostupné v reálnom čase prostredníctvom webovej aplikácie&amp;nbsp;&lt;A href="b138daad-5453-4e53-8d2c-ecf2e81a5fcb"&gt;OBERON Web&lt;/A&gt;&amp;nbsp;(obchodní partneri, zostatky bankových účtov a pokladní...).&amp;nbsp;&amp;nbsp; &lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="1f59945d-cfc8-4299-89ed-cf0774ec47de" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="49dd3167-870a-4fdf-b631-d4f692f1ed72">
+      <Title m="2021-08-19T13:08:05.8748944Z">Podvojné účtovníctvo - všeobecne o koncepcii</Title>
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="273d129b-4c8e-475e-a93b-96512ac34cbd" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="66d035b9-3aac-4820-8bba-a449c83c0851">
+      <Title m="2022-07-04T09:04:02.2766474Z">Podvojné účtovníctvo - prvé kroky</Title>
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="59f7bb73-7c6d-4234-9e6d-f80127b6aeb4" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="9980b99c-4409-4422-9d70-9cdd8893d0f3">
+      <Title m="2021-09-13T10:00:56.690532Z">Fakturácia - všeobecne o koncepcii</Title>
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="311a82a1-e58f-436d-8f0e-aa83ea6a9990" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="60bbb193-6ba6-495c-8c54-431baf8b966f">
+      <Title m="2021-09-13T10:01:07.9461403Z">Fakturácia - základné možnosti</Title>
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="1dad779d-414a-4dfb-8793-2b8c77fd4bfc">
+      <Keyword m="2021-07-08T12:29:10.8996842Z">Základné možnosti - podvojné účtovníctvo</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="6157e284-610c-4893-84ad-31b858367346">
+      <Keyword m="2021-08-19T13:25:21.3094933Z">Podvojné účtovníctvo - základné možnosti</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

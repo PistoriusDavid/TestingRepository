@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="d2cbffc3-0018-421d-8660-5af74ea4cd99" Status="Complete" CreatedOn="2025-04-09T10:31:24.0973738Z" ModifiedOn="2025-04-09T10:32:02.7856956Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="OBERON_News_2025_03" BuildFlags="{4AAE0FD4-7313-4FEE-A25F-0785B885F736},826B51BD-B6F0-4B2C-A814-029E169D018F">
+  <Title m="2025-04-09T10:31:48.2975809Z">Čo bolo nové vo verzii Marec/2025</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2025-04-09T10:32:02.7856956Z">&lt;P&gt;Dňa 20.03.2025&amp;nbsp;bola&amp;nbsp;vydaná&amp;nbsp;nová verzia ekonomického systému OBERON s&amp;nbsp;označením &lt;STRONG&gt;Marec/2025&lt;/STRONG&gt;. V&amp;nbsp;nasledujúcej časti sú vymenované najdôležitejšie novinky, vylepšenia a&amp;nbsp;opravy oproti verzii&amp;nbsp;&lt;STRONG&gt;Február/2025&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;H2&gt;OBERON&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Tlačové výstupy&lt;/STRONG&gt; - úprava niektorých tlačových výstupov v súvislosti s 3 sadzbami DPH platnými od 1.1.2025. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Účtovníctvo&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Spracovanie bankových výpisov&lt;/STRONG&gt; - pribudli nové podmienky v pravidlách pri zaúčtovaní úhrady faktúr, a to na základe uhrádzanej faktúry. Je možné nastaviť napr. inú predkontáciu na základe typu uhrádzanej faktúry (iná predkontácia pre zálohovú faktúru a iná pre bežnú faktúru). 
+&lt;LI&gt;&lt;STRONG&gt;Spracovanie bankových výpisov&lt;/STRONG&gt; - pribudla možnosť nastaviť v pravidlách predkontáciu na zaúčtovanie výdaja do priebežnej položky a druhú predkontáciu na zaúčtovanie príjmu z priebežnej položky, napr. výber z bankového účtu a automatické zaúčtovanie príjmu do pokladne (prípadne na iný bankový účet). &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Skladová evidencia&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Kategórie skladových kariet&lt;/STRONG&gt; - pribudla možnosť jednotlivé vetvy v stromovej štruktúre posúvať, t. j. meniť poradie (pôvodne bol strom zotriedený podľa abecedy). 
+&lt;LI&gt;&lt;STRONG&gt;Automatická tvorba objednávok&lt;/STRONG&gt; - bol upravený výpočet objednaného množstva pri voľbe &lt;EM&gt;z prijatých objednávok a skladových kariet&lt;/EM&gt; - skladová karta sa objedná len vtedy, ak množstvo klesne pod minimálne (pôvodne sa objednalo, ak bolo nižšie ako maximálne). &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Pokladnica OBERON&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;pikMenu&lt;/STRONG&gt; - pribudlo prepojenie s externým reštauračným objednávkovým systémom pikMenu. Umožňuje objednávanie jedla alebo nápojov priamo zákazníkmi v reštaurácii, prípadne objednávanie jedla na donášku. Viac informácií v&amp;nbsp;téme&amp;nbsp;&lt;A href="23e4ac4d-169f-4c85-8e00-60f1e71ff358"&gt;pikMenu&lt;/A&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;Platobný terminál Printec ENGAGE (PRSK05)&lt;/STRONG&gt; - pribudla podpora platobného terminálu dodávaného&amp;nbsp;firmou &lt;EM&gt;Printec&lt;/EM&gt; s protokolom PRSK05, ktorý sa používa v&amp;nbsp;zariadeniach &lt;EM&gt;P400, V200c, V240Wifi, V210Wifi, M400.&lt;/EM&gt; Terminál je&amp;nbsp;určený pre banky: &lt;EM&gt;&lt;STRONG&gt;ČSOB, Tatra banka, Raiffeisen banka, UniCredit Bank&lt;/STRONG&gt;&lt;/EM&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;Obslužné&lt;/STRONG&gt; - pribudla podpora evidencie obslužného s prepojením s bankovými terminálmi, prípadne platobnými bránami. Ak zákazník zadá pri platbe platobnou kartou obslužné, prenesie a zaeviduje sa do systému OBERON. Viac informácií v téme&amp;nbsp;&lt;A href="fe23503f-10eb-4b61-8265-4377f0401583" style="auto-update-caption: true"&gt;Obslužné&lt;/A&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;Notifikácia donášky&lt;/STRONG&gt; - pribudla možnosť tlačiť notifikáciu objednávky donášky na bonovacej tlačiarni pri objednávke prijatej z externého systému, napr. pikMenu. 
+&lt;LI&gt;&lt;STRONG&gt;EFox&lt;/STRONG&gt; - oprava sumárnych súčtov pri uzávierke. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Mzdy a dochádzka&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Potvrdenie o zdaniteľnej mzde&lt;/STRONG&gt; - úprava potvrdenia o zdaniteľnej mzde na rok 2025. 
+&lt;LI&gt;&lt;STRONG&gt;Vymeriavací základ&lt;/STRONG&gt; - zmena max. vymeriavacieho základu v sociálnom poistení zo 7-násobku priemernej mesačnej mzdy na 11-násobok. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;SPAN&gt;V prípade preskočenia viacerých verzií programu je dôležité si prečítať informácie o novinkách, vylepšeniach a opravách&amp;nbsp;aj&amp;nbsp;z&amp;nbsp;&lt;A href="dc832235-0e36-4aac-ae54-e51641eb2f50"&gt;predchádzajúcich verzií&lt;/A&gt;&lt;STRONG&gt;.&lt;/STRONG&gt; V&amp;nbsp;niektorej z predošlých verzií mohlo dôjsť k&amp;nbsp;dôležitým zmenám, o&amp;nbsp;ktorých je v niektorých prípadoch nevyhnutné vedieť.&lt;/SPAN&gt;&lt;/innovasys:widgetproperty&gt; &lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="c7357ab9-e0d8-47e3-b432-b3034ba1bd58" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="dc832235-0e36-4aac-ae54-e51641eb2f50">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="0aff6ea2-d3f9-4c1e-9000-f2192f9f2edc">
+      <Keyword m="2014-11-24T11:38:34.3847265Z">Verzia</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="6f1a89e8-2f56-4543-a452-409834433d36" Status="Complete" CreatedOn="2014-09-11T10:56:58.6078474Z" ModifiedOn="2023-05-31T06:52:09.8362347Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Stock_Advanced_Product_Evidence" BuildFlags="">
+  <Title m="2021-11-12T11:54:00.5056346Z">Všeobecne o výrobných a sériových číslach</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-05-31T06:52:09.8362347Z">&lt;P&gt;V&amp;nbsp;tejto téme &lt;EM&gt;Pomocníka&lt;/EM&gt; sú uvedené všeobecné informácie o&amp;nbsp;&lt;A href="4f8c7cc5-f870-47fa-9506-1aa9ea89dc14"&gt;výrobných a sériových číslach&lt;/A&gt;, pod ktorými je možné evidovať&amp;nbsp;&lt;A href="1a33ab0b-2df7-4dc2-962b-8a3319c16831"&gt;skladové položky&lt;/A&gt; v&amp;nbsp;systéme OBERON.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Systém OBERON&amp;nbsp;umožňuje evidovať jednotlivé položky na sklade aj pod výrobným číslom, prípadne sériovým číslom. Aby bolo možné s&amp;nbsp;výrobnými a sériovými číslami v&amp;nbsp;systéme OBERON pracovať, je potrebné v&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="58eee6a7-b5aa-47a5-9d0e-6f9987c96a52"&gt;oddiel Firma, Sklad&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt; záložka &lt;EM&gt;Skladové karty &lt;/EM&gt;začiarknuť pole &lt;I&gt;&lt;STRONG&gt;Umožniť pracovať s&amp;nbsp;výrobnými a&amp;nbsp;sériovými číslami&lt;/STRONG&gt;.&lt;/I&gt; 
+&lt;LI&gt;Pod pojmom &lt;STRONG&gt;výrobné číslo&lt;/STRONG&gt; sa rozumie číslo&amp;nbsp;jedného kusu daného tovaru. To znamená, že&amp;nbsp;na jedno výrobné číslo je možné prijať len jeden kus daného tovaru. 
+&lt;LI&gt;&lt;STRONG&gt;Sériové číslo&lt;/STRONG&gt;, na rozdiel od výrobného čísla, predstavuje číslo pre niekoľko&amp;nbsp;kusov daného tovaru - sériu, šaržu, dávku vyrobenú naraz (napr. konzerv jedla, namiešanej farby,&amp;nbsp;keramiky vypálenej v&amp;nbsp;jednej várke a pod.). V&amp;nbsp;tomto prípade je&amp;nbsp;na jedno sériové číslo možné prijať viacero kusov daného tovaru. 
+&lt;LI&gt;Aby program umožňoval evidovať výrobné a sériové čísla, je potrebné na &lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;skladovej karte&lt;/A&gt; v záložke &lt;I&gt;Doplň. údaje&lt;/I&gt; zvoliť možnosť &lt;I&gt;&lt;STRONG&gt;Evidovať výrobné/sériové čísla&lt;/STRONG&gt;&lt;/I&gt;. Na&amp;nbsp;výber sú tieto&amp;nbsp;možnosti: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;B&gt;&lt;I&gt;Neevidovať&lt;/I&gt;&lt;/B&gt; - výrobné ani sériové čísla sa nebudú evidovať. 
+&lt;LI&gt;&lt;B&gt;&lt;I&gt;Evidovať výrobné čísla&lt;/I&gt;&lt;/B&gt; - program bude evidovať výrobné čísla tovarov. Pri&amp;nbsp;&lt;A href="62db2271-9ae9-4968-b790-47a07e7c6aef"&gt;príjme&amp;nbsp;do skladu&lt;/A&gt; a&amp;nbsp;&lt;A href="0a22d060-0b8a-4166-ba9b-8239f36863a0"&gt;pri výdaji zo skladu&lt;/A&gt; je potrebné zadať konkrétne výrobné čísla, množstvo je automaticky nastavené na počet 1. Každé výrobné číslo je možné podrobne sledovať od jeho nakúpenia až po predaj. Výrobné čísla sa využívajú pri tovaroch ako napr. komponenty počítačov, spotrebná elektronika a pod. 
+&lt;LI&gt;&lt;B&gt;&lt;I&gt;Evidovať sériové čísla&lt;/I&gt;&lt;/B&gt; -&amp;nbsp;sériové číslo (prípadne šarža) je rovnaké číslo ako výrobné, ale pri sériovom čísle&amp;nbsp;je možné na jedno číslo prijať niekoľko kusov tovarov naraz. Sériové čísla sa využívajú pri tovaroch ako potraviny, alkohol, lieky a pod. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Evidencia výrobných a sériových čísel umožňuje pri príjme alebo výdaji väčšieho množstva tovarov zadávať&amp;nbsp;&lt;A href="11af5a68-7562-4576-b7c5-ee49a64a571a"&gt;rozsah výrobných čísel&lt;/A&gt;. Program nepodporuje možnosť vydávania tovarov s&amp;nbsp;výrobným alebo sériovým číslom, ktoré nie&amp;nbsp;sú na sklade. 
+&lt;LI&gt;Zoznam&lt;EM&gt;&amp;nbsp;&lt;/EM&gt;&lt;A href="4f8c7cc5-f870-47fa-9506-1aa9ea89dc14"&gt;Výrobné a sériové čísla&lt;/A&gt; (ponuka &lt;EM&gt;Sklad&lt;/EM&gt;) nepredstavuje štandardnú evidenciu. Nenachádza sa tu tlačidlo &lt;EM&gt;Nový&lt;/EM&gt; ani &lt;EM&gt;Oprava&lt;/EM&gt; na pridanie, resp. opravu výrobného alebo sériového čísla.&amp;nbsp;Tie sa pridávajú na inom mieste - &lt;STRONG&gt;v&amp;nbsp;procese tvorby dokladu&amp;nbsp;&lt;/STRONG&gt;&lt;A href="efed1882-1614-4406-b57a-3023aee6ba26"&gt;Príjemka&lt;/A&gt;. Viac informácií získate v téme &lt;A href="11af5a68-7562-4576-b7c5-ee49a64a571a"&gt;Príjem tovaru s výrobným/sériovým číslom do skladu&lt;/A&gt;. 
+&lt;LI&gt;Kliknutím na tlačidlo &lt;I&gt;Podrobnosti&lt;/I&gt; sa zobrazia podrobnosti o skladových pohyboch v súvislosti s výrobným alebo sériovým číslom.&amp;nbsp; 
+&lt;LI&gt;S&amp;nbsp;evidenciou výrobných a sériových čísel je zároveň možné definovať záručnú dobu (&lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;formulár Skladová karta&lt;/A&gt;,&amp;nbsp;záložka &lt;EM&gt;Doplň. údaje&lt;/EM&gt;), prípadne&amp;nbsp;v&amp;nbsp;ponuke &lt;EM&gt;Sklad,&amp;nbsp;&lt;/EM&gt;&lt;A href="0be61fcc-a85b-4572-876d-2171a5cb7c29"&gt;Výdajky&lt;/A&gt;, resp. &lt;EM&gt;Fakturácia&lt;/EM&gt;,&amp;nbsp;&lt;A href="5c21adcc-87c8-44e7-981d-02902635693d"&gt;Kniha pohľadávok&lt;/A&gt;&amp;nbsp;vytlačiť záručné listy (tak vrchný, ako aj spodný text záručného listu je možné zadať podľa potrieb účtovnej jednotky). 
+&lt;LI&gt;Výrobné a sériové čísla je možné zadávať a vyhľadávať aj pomocou snímača čiarových kódov. Bližšie informácie o zariadení získate v téme&amp;nbsp;&lt;A href="80a78093-fc45-4db9-b74b-e1f9829f7b3c"&gt;Snímače čiarových kódov&lt;/A&gt;. &amp;nbsp;&amp;nbsp;&amp;nbsp; 
+&lt;LI&gt;Výrobné a sériové čísla a&amp;nbsp;údaj o záručnej dobe je možné tlačiť aj na pokladničnom doklade. Po výbere skladovej položky na otvorený účet sa zobrazí formulár, v ktorom stlačte tlačidlo &lt;EM&gt;Nový&lt;/EM&gt; a vyberte výrobné, resp. sériové číslo. Tlač výrobných a sériových čísel sa nastavuje vo&amp;nbsp;&lt;A href="bb0e1e82-e344-4bf0-834a-a294269f2e71"&gt;formulári Pokladnica OBERON - nastavenia&lt;/A&gt;&amp;nbsp;(záložka &lt;EM&gt;Tlač dokladu&lt;/EM&gt;). &lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="a5d2426b-d563-49ce-91e0-0aacea282e9a" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="4f8c7cc5-f870-47fa-9506-1aa9ea89dc14">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="ccfaa3eb-462a-4ff3-abf7-a478a53d0250" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="11af5a68-7562-4576-b7c5-ee49a64a571a">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="ca3f8803-8173-435b-a8d5-7baf7ec6179e" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="27d57cef-b60c-4f53-a2a0-a63698a367a7">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="32794a19-5b2e-4ea3-9d02-d40dac8106fe" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1a33ab0b-2df7-4dc2-962b-8a3319c16831">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="5fe8ea4d-8d98-4861-9e23-aaf12fcfd770" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="86ce651c-2637-4165-93b4-36535a700fbf">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="6f26d6e4-1f6d-41a1-9390-7a18dd6d8a4b">
+      <Keyword m="2014-11-19T12:11:12.5048828Z">Sériové čísla</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="729161b7-6315-4ebd-bcac-faee178e131e">
+      <Keyword m="2021-11-19T12:51:45.3932906Z">Výrobné čísla</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="d5cf6681-73c0-40a6-9919-926efc1ca4b2">
+      <Keyword m="2021-11-19T13:39:31.9037886Z">Šarža</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="6822e8dd-9326-4229-9b3a-190b992f8690">
+      <Keyword m="2021-11-19T13:39:36.5840541Z">Dávka</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="adc9ed95-ca87-4112-a797-389f6b556be6">
+      <Keyword m="2021-11-19T13:39:39.0165994Z">Várka</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="2b666ed3-6427-4a12-a07d-1f321086bc75">
+      <Keyword m="2021-11-19T13:40:12.3888335Z">Séria</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

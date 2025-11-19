@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="d9d47a4c-5442-45eb-b5a5-952fb1eb00b4" Status="Complete" CreatedOn="2017-04-07T10:27:04.6314986Z" ModifiedOn="2022-07-18T12:08:28.4149703Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="22100" Name="Form_OBERON_Export_EmailAdress" BuildFlags="">
+  <Title m="2017-04-07T10:27:46.763777Z">Sprievodca Export e-mailových adries</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2022-07-18T12:08:28.4149703Z">&lt;P&gt;&lt;SPAN&gt;Sprievodca&amp;nbsp;&lt;EM&gt;Export e-mailových adries&lt;/EM&gt;&amp;nbsp;umožňuje &lt;STRONG&gt;exportovať e-mailové adresy z&amp;nbsp;vybraných evidencií do samostatného textového súboru&lt;/STRONG&gt;&lt;SPAN&gt;. &lt;SPAN&gt;&lt;SPAN&gt;Sprievodca je dostupný z&amp;nbsp;viacerých miest v programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt; (napr. z&amp;nbsp;evidencie&amp;nbsp;&lt;A href="b7a48886-b367-4056-808a-59ba5f871f32" style="auto-update-caption: true"&gt;Obchodní partneri&lt;/A&gt;) po stlačení tlačidla &lt;EM&gt;Možnosti,&lt;/EM&gt; resp. z&amp;nbsp;kontextovej ponuky tabuľky záznamov.&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;H2&gt;Základné informácie&amp;nbsp;&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Pomocou sprievodcu je možné vyexportovať do samostatného textového súboru (typu TXT) zoznam e-mailových adries obchodných partnerov, resp. ubytovaných hostí. Súbor s e-mailovými adresami s&amp;nbsp;názvom &lt;EM&gt;&lt;STRONG&gt;email_address.txt&lt;/STRONG&gt;&lt;/EM&gt;&amp;nbsp;sa uloží do adresára &lt;EM&gt;C:\OBERON\_Export_Import\&lt;/EM&gt;.&amp;nbsp;Exportované e-mailové adresy je ďalej možné použiť napr.&amp;nbsp;pri&amp;nbsp;&lt;A href="04e52362-d0f3-4a9a-8ec5-36ef724a7ee2"&gt;hromadnom zasielaní e-mailov&lt;/A&gt;. 
+&lt;LI&gt;Exportovať je možné:&lt;BR&gt;&amp;nbsp;&amp;nbsp; - e-mailové adresy z&amp;nbsp;knihy&amp;nbsp;&lt;A href="b7a48886-b367-4056-808a-59ba5f871f32"&gt;Obchodní partneri&lt;/A&gt;&amp;nbsp;(tlačidlo &lt;EM&gt;Možnosti&lt;/EM&gt;),&lt;BR&gt;&amp;nbsp;&amp;nbsp; - e-mailové adresy z&amp;nbsp;&lt;A href="07f48863-95c7-4678-8544-16af72204ce3"&gt;Histórie ubytovaných osôb&lt;/A&gt;&amp;nbsp;(tlačidlo &lt;EM&gt;Možnosti&lt;/EM&gt;),&lt;BR&gt;&amp;nbsp;&amp;nbsp; - e-mailové adresy z&amp;nbsp;&lt;A href="3ca37544-bbc0-4a88-af6a-a2132b74279d"&gt;Grafického prehľadu izieb&lt;/A&gt;&amp;nbsp;(kontextová ponuka). 
+&lt;LI&gt;E-mailové adresy môžu byť oddelené: 
+&lt;UL&gt;
+&lt;LI&gt;bodkočiarkou, 
+&lt;LI&gt;čiarkou, 
+&lt;LI&gt;CR -&amp;nbsp;Carriage return - posunie kurzor na začiatok riadku, 
+&lt;LI&gt;CRLF - e-mailová adresa bude&amp;nbsp;umiestnená na nový riadok, 
+&lt;LI&gt;prípadne ich kombináciou. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;V&amp;nbsp;prípade obchodných partnerov je možné vyexportovať&amp;nbsp;adresy všetkých alebo aktuálne načítaných obchodných partnerov, prípadne adresy len vybraných&amp;nbsp;&lt;A href="b7531e2b-4bd6-4a46-a7e2-fd94bbc64325"&gt;skupín obchodných partnerov&lt;/A&gt;. Zároveň je možné do exportu zahrnúť aj e-mailové adresy prevádzok, resp. evidovaných osôb. 
+&lt;LI&gt;V&amp;nbsp;prípade histórie ubytovaných osôb je možné vyexportovať adresy&amp;nbsp;jednotlivých kategórií hostí, prípadne aj hostí bez zadanej kategórie, a&amp;nbsp;to&amp;nbsp;za zvolené&amp;nbsp;obdobie. 
+&lt;LI&gt;Po ukončení exportu&amp;nbsp;sa zobrazí správa o priebehu. &lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="82bfa6d2-b6b3-4b3b-abe4-e2ee97025134" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="5020b29b-b6e5-48bb-bfc6-800d68d5b8e9">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="0fde7649-bebc-4428-88eb-e86a89772b3a" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="b7a48886-b367-4056-808a-59ba5f871f32">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="65252f97-8693-47ee-a1ee-a9d956edbf63" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="07f48863-95c7-4678-8544-16af72204ce3">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="6d336a59-125c-4c4f-9118-45d3950347a2" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="3ca37544-bbc0-4a88-af6a-a2132b74279d">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="5e617fa5-5608-48eb-aa23-88b24c9ea060">
+      <Keyword m="2022-01-18T13:48:50.0445376Z">Mailling - export e-mailových adries</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="051f35cd-68e7-4c2f-a895-ff103a9f8741">
+      <Keyword m="2022-01-18T13:48:40.8277914Z">Hromadný mailing - export e-mailových adries</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="d67a432e-2346-4128-885a-276a1f71cd69">
+      <Keyword m="2022-01-18T13:48:23.8566441Z">Export e-mailových adries do súboru</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

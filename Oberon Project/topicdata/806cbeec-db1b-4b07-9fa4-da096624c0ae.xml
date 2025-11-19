@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="806cbeec-db1b-4b07-9fa4-da096624c0ae" Status="Complete" CreatedOn="2014-09-04T12:30:36.7934Z" ModifiedOn="2025-02-03T14:05:00.2024468Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Legislative_Statement_Documents_VAT" BuildFlags="">
+  <Title m="2014-09-04T12:33:12.9788Z">Kontrolný výkaz DPH</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2025-02-03T14:05:00.2024468Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje&amp;nbsp;&lt;STRONG&gt;informácie o kontrolnom výkaze DPH, možnostiach jeho zostavenia&lt;/STRONG&gt; v&amp;nbsp;systéme OBERON &lt;STRONG&gt;a&amp;nbsp;stručný prehľad častí kontrolného výkazu&amp;nbsp;s&amp;nbsp;transakciami&lt;/STRONG&gt;, ktoré sa do jednotlivých častí uvádzajú.&lt;/P&gt;
+&lt;H2&gt;Základné informácie o kontrolnom výkaze&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Od 1.1.2014 sa ako jeden z nástrojov boja proti daňovým podvodom zaviedla pre platiteľov DPH &lt;STRONG&gt;povinnosť podávania kontrolného výkazu&lt;/STRONG&gt;&amp;nbsp;(§&amp;nbsp;78a zákona o DPH). Táto povinnosť sa vzťahuje na platiteľov DPH, teda osoby registrované pre DPH v zmysle §&amp;nbsp;4, §&amp;nbsp;4a, §&amp;nbsp;5 alebo §&amp;nbsp;6 zákona o DPH (nevzťahuje sa na osoby registrované pre DPH podľa §&amp;nbsp;7 alebo §&amp;nbsp;7a zákona o&amp;nbsp;DPH). Kontrolný výkaz sa môže podávať &lt;STRONG&gt;len elektronickými prostriedkami&lt;/STRONG&gt;. 
+&lt;LI&gt;Správne vyplnenie kontrolného výkazu vyžaduje &lt;STRONG&gt;evidovať&amp;nbsp;na dokladoch&lt;/STRONG&gt;&amp;nbsp;&lt;STRONG&gt;isté údaje&lt;/STRONG&gt;, napr. pri dobropisoch číslo pôvodného dokladu, ku ktorému sa dobropis vzťahuje. Zvýšenú pozornosť je potrebné venovať vystaveným faktúram a zadaným údajom odberateľa - &lt;STRONG&gt;IČ DPH je nevyhnutné uvádzať&lt;/STRONG&gt; a naopak, pri vystavení faktúry fyzickej osobe (nepodnikateľovi) musí zostať pole IČO prázdne, pretože takýto doklad&amp;nbsp;patrí do inej sekcie výkazu. 
+&lt;LI&gt;V kontrolnom výkaze sa nachádzajú aj &lt;STRONG&gt;určité špeciality&lt;/STRONG&gt; - vybrané druhy tovarov sa vo výkaze sledujú podrobne aj s množstvom, preto si niektoré účtovné jednotky musia &lt;STRONG&gt;na skladových kartách nastaviť kód kombinovanej nomenklatúry&amp;nbsp;colného sadzobníka&lt;/STRONG&gt; (vo&amp;nbsp;&lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;formulári Skladová karta&lt;/A&gt;, záložka &lt;EM&gt;Doplň. údaje&lt;/EM&gt;, pole &lt;EM&gt;Colný sadzobník - KN&lt;/EM&gt;). Týka sa to dodávateľa, ktorý uvádza dodanie tovaru, pri ktorom sa uplatňuje&amp;nbsp;&lt;A href="6cd390d6-697d-4829-bc05-ea31662ffe4e"&gt;prenesenie daňovej povinnosti&lt;/A&gt; na odberateľa, ak ide o vybrané druhy tovarov a služieb dodané inému platiteľovi dane, pričom dodávateľ je povinný vyhotoviť faktúru, ale osobou povinnou platiť daň je odberateľ. 
+&lt;LI&gt;Režim prenesenia daňovej povinnosti sa uplatňuje pri vybraných tovaroch a službách podľa § 69, ods. 12 písm. f) až i) zákona o&amp;nbsp;DPH (napr.&amp;nbsp;dodávkach obilnín, železa a ocele a predmetov z nich, mobilných telefónov, stavebných prác atď.). Pri dodaní niektorých z týchto tovarov a služieb (konkrétne ide o&amp;nbsp;mobilné telefóny a&amp;nbsp;integrované obvody) sa režim prenesenia daňovej povinnosti uplatňuje len v prípade, že základ dane na faktúre za dodanie týchto tovarov je 5&amp;nbsp;000 € a viac. 
+&lt;LI&gt;Systém OBERON umožňuje zostaviť: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;EM&gt;&lt;STRONG&gt;Riadny výkaz&lt;/STRONG&gt;&lt;/EM&gt; je výkaz podaný v&amp;nbsp;riadnom termíne. 
+&lt;LI&gt;&lt;I&gt;&lt;STRONG&gt;Opravný výkaz&lt;/STRONG&gt;&lt;/I&gt; sa podáva po podaní riadneho výkazu v rámci termínu podania riadneho výkazu a&amp;nbsp;obsahuje všetky údaje výkazu. 
+&lt;LI&gt;&lt;EM&gt;&lt;STRONG&gt;Dodatočný výkaz&lt;/STRONG&gt;&lt;/EM&gt; je špeciálnym druhom výkazu, ktorý obsahuje len zmenené riadky, a to pred opravou (ako v riadnom výkaze) a po oprave. Tu môžu vznikať celkom zaujímavé situácie, keď v dodatočnom výkaze je potrebné uviesť doklad, ktorý&amp;nbsp;používateľ z dôvodu duplicity vymazal. &lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Kontrolný výkaz v OBERON-e&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Zostavenie &lt;I&gt;Kontrolného výkazu DPH&lt;/I&gt; v&amp;nbsp;systéme OBERON umožňuje kniha &lt;A href="71b702c2-e6e7-4f9a-b66b-15dba7d31ae1"&gt;Priznania a výkazy&lt;/A&gt;. Okrem exportu do&amp;nbsp;formátu XML obsahuje aj tlač podkladov&amp;nbsp;na zostavenie daného výkazu. 
+&lt;LI&gt;Pri vytváraní výkazu je možné &lt;STRONG&gt;overiť platnosť všetkých čísel IČ DPH&lt;/STRONG&gt; vstupujúcich do výkazu prostredníctvom on-line databázy firmy&amp;nbsp;EXALOGIC, ktorá denne preberá informácie z finančnej správy. Ďalšie informácie o overení IČ DPH získate v téme&amp;nbsp;&lt;A href="ab574902-6abb-4c2c-b0a5-af9a2f62b7f4"&gt;Automatické overenie IČ DPH na internete&lt;/A&gt;. 
+&lt;LI&gt;Na to, aby bolo možné určiť, v ktorej časti (sekcii) kontrolného výkazu má byť daný záznam uvedený, je potrebné v&amp;nbsp;dokladoch ako &lt;A href="68022ee5-d91a-4a1d-960b-c5de57414b6f"&gt;pohľadávka&lt;/A&gt;,&amp;nbsp;&lt;A href="b844cf33-8762-4c77-bfde-4a5b5b22350f"&gt;zápis v peňažnom&lt;/A&gt; alebo&amp;nbsp;&lt;A href="bc2ddb1a-1ece-4899-841a-e180956c3702"&gt;účtovnom denníku&lt;/A&gt; v&amp;nbsp;rozbaľovacom zozname &lt;EM&gt;Typ DPH&lt;/EM&gt; zvoliť správny typ DPH. V prípade, že bude v&amp;nbsp;rozbaľovacom zozname &lt;EM&gt;Typ DPH&lt;/EM&gt;&amp;nbsp;zvolená možnosť &lt;EM&gt;Nezaradiť do priznania DPH,&lt;/EM&gt; nebude daný doklad&amp;nbsp;do priznania DPH zaradený. 
+&lt;LI&gt;Po výbere správneho typu DPH v&amp;nbsp;rozbaľovacom zozname &lt;EM&gt;Typ DPH&lt;/EM&gt; sa aktivuje rozbaľovací zoznam &lt;EM&gt;&lt;STRONG&gt;Kontrolný výkaz&lt;/STRONG&gt;&lt;/EM&gt; (v&amp;nbsp;niektorých dokladoch nazvaný&amp;nbsp;&lt;EM&gt;&lt;STRONG&gt;DPH - KV&lt;/STRONG&gt;&lt;/EM&gt;), v&amp;nbsp;ktorom bude možné&amp;nbsp;určiť, v ktorej časti kontrolného výkazu má byť daný záznam uvedený. 
+&lt;LI&gt;Rozbaľovací zoznam&amp;nbsp;&lt;EM&gt;Kontrolný výkaz&lt;/EM&gt; (&lt;EM&gt;DPH - KV&lt;/EM&gt;) obsahuje špeciálnu položku (nastavenie), a to &lt;EM&gt;&lt;B&gt;Automaticky&lt;/B&gt;&lt;/EM&gt; -&amp;nbsp;po jej výbere&amp;nbsp;program automaticky určí sekciu vo výkaze, v&amp;nbsp;ktorej má byť daný záznam uvedený,&amp;nbsp;čo&amp;nbsp;používateľovi značne zjednoduší prácu. Túto voľbu odporúčame používať &lt;STRONG&gt;pri bežných účtovných operáciách&lt;/STRONG&gt;, kde je voľba jednoznačná, napr. vystavenie pohľadávky, zaevidovanie záväzku, bežných nákupov v hotovosti a pod. &lt;STRONG&gt;Pri nejednoznačných dokladoch&lt;/STRONG&gt; je možné uviesť konkrétnu časť výkazu, pričom pre doklady, ktoré patria do&amp;nbsp;časti&amp;nbsp;A2, to platí vždy. Manuálne zaradenie do danej časti program&amp;nbsp;rešpektuje vždy,&amp;nbsp;v prípade chybného zaradenia však zobrazuje varovné hlásenia. 
+&lt;LI&gt;V dokladoch typu &lt;I&gt;&lt;STRONG&gt;Dobropis&lt;/STRONG&gt;&lt;/I&gt; je potrebné uvádzať číslo pôvodného dokladu, ku ktorému sa dobropis vzťahuje. OBERON&amp;nbsp;vo formulári dokladu faktúry (dobropisu) neobsahuje ďalšie pole&amp;nbsp;na zadanie pôvodného čísla dokladu - to je možné zadať do poľa &lt;I&gt;Číslo objednávky&lt;/I&gt;. Ak nie je známe, je možné zadať&amp;nbsp;nulu (0). 
+&lt;LI&gt;Systém OBERON zostavuje výlučne zo zápisov uvedených v &lt;A href="eb506116-6287-4c49-b289-8d1ee5614f0f"&gt;Knihe evidencie DPH&lt;/A&gt;. V prípade, že sa vo výkaze vyskytujú problémy (napr. s faktúrami), je potrebné skontrolovať dané faktúry v&amp;nbsp;&lt;A href="eb506116-6287-4c49-b289-8d1ee5614f0f"&gt;knihe evidencie DPH&lt;/A&gt; (nestačí skontrolovať faktúry v &lt;A href="5c21adcc-87c8-44e7-981d-02902635693d"&gt;knihe pohľadávok&lt;/A&gt;, alebo &lt;A href="55028746-c263-4d92-a615-502222e8d53b"&gt;záväzkov&lt;/A&gt;). &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Stručný prehľad častí výkazu&amp;nbsp;s&amp;nbsp;transakciami, ktoré sa do jednotlivých častí uvádzajú&lt;/H2&gt;
+&lt;P&gt;&lt;B&gt;&lt;FONT size=2&gt;Časť A&lt;/FONT&gt;&lt;/B&gt; - uvádzajú sa tuzemské odoslané faktúry, kde odberateľ má IČO (právnické osoby, fyzické – podnikatelia), zásielkový predaj do zahraničia nezdaniteľnej osobe.&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;B&gt;A.1&lt;/B&gt; - tuzemské odoslané faktúry, kde odberateľ má IČO (nemusí byť platiteľom DPH), zásielkový predaj do zahraničia, ak odberateľom je nezdaniteľná osoba, tuzemské dodávky podľa §&amp;nbsp;69 ods. 12 f – i, kde základ nepresiahne sumu 5 000 €,&amp;nbsp;t. j. poľnohospodárske plodiny, kovy a kovové výrobky, mobilné telefóny, integrované obvody – nenastane prenos daňovej povinnosti na odberateľa. 
+&lt;LI&gt;Neuvádzajú sa: 
+&lt;UL&gt;
+&lt;LI&gt;tuzemské faktúry oslobodené od dane, ktoré idú do riadku 15 výkazu DPH (nájom bez dane, kultúrne, športové, vzdelávacie služby, poštové služby, zdravotná starostlivosť, služby sociálnej pomoci, služby dodané členom, finančné služby, RSTV, poisťovacie služby, lotérie, všetko oslobodené od dane...), 
+&lt;LI&gt;dodanie tovaru a služby do členských štátov EÚ, do tretích krajín a v rámci trojstranného obchodu (prvý odberateľ alebo dodávateľ). &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;&lt;B&gt;A.2 -&lt;/B&gt; vystavené faktúry bez dane, kde odberateľ platí daň (§ 69, ods. 12 písm. f) až i) zákona o DPH, napr.&amp;nbsp;dodávky obilnín, železa a ocele a predmetov z nich, mobilných telefónov, stavebných prác atď.). Viac informácií o&amp;nbsp;dokladoch v tomto oddiele&amp;nbsp;(s prenesením daňovej povinnosti) je možné získať v téme&amp;nbsp;&lt;A href="6cd390d6-697d-4829-bc05-ea31662ffe4e"&gt;Prenesenie daňovej povinnosti&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;P&gt;&lt;B&gt;&lt;FONT size=2&gt;Časť B&lt;/FONT&gt;&lt;/B&gt; - uvádzajú sa všetky došlé faktúry a došlé zjednodušené faktúry.&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;B&gt;B.1&lt;/B&gt; - došlé faktúry so samozdanením. 
+&lt;LI&gt;&lt;B&gt;B.2&lt;/B&gt; - všetky došlé faktúry, ktoré nie sú zjednodušenými faktúrami. 
+&lt;LI&gt;&lt;B&gt;B.3&lt;/B&gt; - došlé zjednodušené faktúry, tuzemské nákupy v hotovosti. 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;B.3.1 -&amp;nbsp;&lt;/STRONG&gt;prijaté zjednodušené faktúry podľa §&amp;nbsp;74 ods. 3 písm. a) až c) zákona o DPH, z ktorých príjemca plnenia uplatňuje odpočítanie dane (ak celková suma odpočítanej dane za príslušné obdobie je menej ako 3 000 €). 
+&lt;LI&gt;&lt;STRONG&gt;B.3.2 -&amp;nbsp;&lt;/STRONG&gt;prijaté zjednodušené faktúry podľa §&amp;nbsp;74&amp;nbsp;ods. 3 písm. a) až c) zákona o DPH, z ktorých príjemca plnenia uplatňuje odpočítanie dane (ak celková suma odpočítanej dane za príslušné obdobie je viac ako 3 000 €). &lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/UL&gt;
+&lt;P&gt;&lt;B&gt;&lt;FONT size=2&gt;Časť C&lt;/FONT&gt;&lt;/B&gt; - uvádzajú sa všetky odoslané aj prijaté dobropisy, ťarchopisy a doklady s opravou základu dane.&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;B&gt;C.1&lt;/B&gt; - vystavené dobropisy, ťarchopisy, opravné doklady (§&amp;nbsp;25a)&amp;nbsp;alebo doklady s opravou základu dane. 
+&lt;LI&gt;&lt;B&gt;C.2&lt;/B&gt; - došlé dobropisy, ťarchopisy, opravné faktúry, opravné doklady (§&amp;nbsp;25a) a&amp;nbsp;doklady s opravou základu dane. &lt;/LI&gt;&lt;/UL&gt;
+&lt;P&gt;&lt;B&gt;&lt;FONT size=2&gt;Časť D&lt;/FONT&gt;&lt;/B&gt; - uvádzajú sa vystavené zjednodušené faktúry a tržby v hotovosti.&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;B&gt;D.1&lt;/B&gt; - tuzemské predaje cez&amp;nbsp;registračné pokladnice&amp;nbsp;v hotovosti (aj opravy a reklamácie). 
+&lt;LI&gt;&lt;B&gt;D.2&lt;/B&gt; - zásielkový predaj v tuzemsku, dodanie tovaru a služieb nezdaniteľným osobám. &lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="35aec7e7-6019-428f-9087-a67fae093751" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="eb506116-6287-4c49-b289-8d1ee5614f0f">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="b038393a-36f1-4fd5-bdb9-ef28b77fab78" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="ab574902-6abb-4c2c-b0a5-af9a2f62b7f4">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="f59d5a5d-eb29-489a-b2ab-7db1c83fa721" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="c5a0e260-f27f-4a19-9b09-39a40bfbd69f">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="4e7f4e0c-5c0f-472c-ade5-603e1af2052b" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="6cd390d6-697d-4829-bc05-ea31662ffe4e">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="f0d84ce2-c7b9-42eb-b1e2-cc675ed306b9" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="8f7c0098-5332-40a6-a7e7-92be2a86e854">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="cc9d7335-9eae-47f4-85b3-049001945706">
+      <Keyword m="2022-12-07T13:51:03.981836Z">DPH - kontrolný výkaz</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="cebd5c2b-df3f-42d2-9f63-21304f41de28">
+      <Keyword m="2015-01-14T10:02:21.0947265Z">Výkaz DPH</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="4d0cc29c-0df5-42ed-b766-89a34d3e9422">
+      <Keyword m="2022-12-07T13:51:09.7745782Z">Overenie IČ DPH - kontrolný výkaz</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

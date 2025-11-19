@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="e90f516a-cb3b-43d9-82dd-440c6e6e9789" Status="Complete" CreatedOn="2021-06-07T07:38:21.2729413Z" ModifiedOn="2023-11-29T11:08:46.7714805Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="LUKUL_DeliveryService" BuildFlags="">
+  <Title m="2021-06-07T07:39:11.8767597Z">Aplikácia LUKUL - režim donášky</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-11-29T11:08:46.7714805Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;je venovaná &lt;STRONG&gt;režimu &lt;EM&gt;LUKUL eMenu - donáška&lt;/EM&gt; ako jednému z režimov mobilnej aplikácie&amp;nbsp;&lt;/STRONG&gt;&lt;A href="942d48d5-b290-40f6-8ba3-45cf78f380f9"&gt;LUKUL - nielen mobilný čašník&lt;/A&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Režim&amp;nbsp;&lt;EM&gt;LUKUL eMenu - donáška&lt;/EM&gt; aplikácie &lt;EM&gt;LUKUL&lt;/EM&gt; je určený pre zákazníka na prezeranie elektronického&amp;nbsp;jedálneho (a nápojového)&amp;nbsp;lístka na vlastnom mobilnom zariadení (smartfóne, tablete)&amp;nbsp;s&amp;nbsp;možnosťou objednania na donášku. 
+&lt;LI&gt;Porovnanie jednotlivých režimov mobilnej aplikácie&lt;STRONG&gt;&amp;nbsp;&lt;/STRONG&gt;&lt;EM&gt;LUKUL&lt;/EM&gt; z viacerých hľadísk, napr. pre koho je daný režim určený, ďalej z pohľadu nastavení v OBERON-e, spôsobu prihlásenia do aplikácie,&amp;nbsp;používateľského rozhrania, dostupnosti jednotlivých funkcií je dostupný v téme&amp;nbsp;&lt;A href="c1f1084d-0742-45cd-966a-7cf001b770c7"&gt;Aplikácia LUKUL - porovnanie režimov&lt;/A&gt;. 
+&lt;LI&gt;Na stiahnutie a&amp;nbsp;spustenie aplikácie v režime &lt;EM&gt;LUKUL eMenu - donáška&lt;/EM&gt;&amp;nbsp;je potrebné v&amp;nbsp;programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt; vygenerovať prístupové &lt;STRONG&gt;QR kódy&lt;/STRONG&gt;, ktoré sa spravidla&amp;nbsp;sprístupňujú na webovej stránke reštauračného zariadenia. Postup vygenerovania QR kódov pre režim &lt;EM&gt;LUKUL eMenu - donáška&lt;/EM&gt; je k&amp;nbsp;dispozícii v téme &lt;A href="770624f5-e8d5-40f9-bf9f-bccb1839fdab"&gt;Sprievodca QR kód donáškovej služby a aplikácie LUKUL&lt;/A&gt;. 
+&lt;LI&gt;Zákazník pri donáškovom režime zákazník najskôr svojím mobilným zariadením nasníma QR kód na stiahnutie aplikácie. Po jej nainštalovaní a otvorení nasníma&amp;nbsp;QR kód na spustenie aplikácie v režime donáškovej služby. 
+&lt;LI&gt;Informácie o inštalácii aplikácie &lt;EM&gt;LUKUL&lt;/EM&gt; a nastaveniach režimu &lt;EM&gt;LUKUL eMenu - donáška&lt;/EM&gt;&amp;nbsp;sú dostupné v téme&amp;nbsp;&lt;A href="20b1783a-a8ca-42a9-b2f3-80c658d62248"&gt;Aplikácia LUKUL - inštalácia&lt;/A&gt;. Informácie o ďalších nastaveniach režimu sú k dispozícii v témach&amp;nbsp;&lt;A href="4fe96b33-a1cd-4c08-93bc-d553db021c87"&gt;Nastavenia eMenu&lt;/A&gt;&amp;nbsp;a&amp;nbsp;&lt;A href="bcb35762-ef45-4dfd-b53a-93e752742cdd"&gt;formulár eMenu nastavenia&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 1: Ukážky obrazoviek aplikácie v režime &lt;EM&gt;LUKUL eMenu - donáška&lt;/EM&gt;&lt;/H5&gt;
+&lt;P&gt;&amp;nbsp;&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERONMobileSolutions/OBERONMobileSolutions_LUKUL_Delivery_Info.png"&gt;&amp;nbsp;&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERONMobileSolutions/OBERONMobileSolutions_LUKUL_Delivery_eMenu.png"&gt;&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERONMobileSolutions/OBERONMobileSolutions_LUKUL_Delivery_Locations.png"&gt;&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERONMobileSolutions/OBERONMobileSolutions_LUKUL_Delivery_Contact.png"&gt;&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERONMobileSolutions/OBERONMobileSolutions_LUKUL_Delivery_Payment.png"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/P&gt;
+&lt;H3&gt;Hlavná ponuka LUKUL&amp;nbsp;eMenu - donáška&lt;/H3&gt;
+&lt;UL&gt;
+&lt;LI&gt;V hlavnej ponuke v dolnej časti obrazovky sa nachádzajú tieto položky: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Info&lt;/STRONG&gt; - v závislosti od&amp;nbsp;&lt;A href="bcb35762-ef45-4dfd-b53a-93e752742cdd"&gt;nastavení&lt;/A&gt; obsahuje informácie o reštauračnej prevádzke, napr. logo, názov prevádzky, údaje o&amp;nbsp;otváracích hodinách s informáciou, dokedy je možné prijímať objednávky na donášku, aktuálny čas donášky,&amp;nbsp;uvítací text a pod. s tlačidlom na zobrazenie informácií o objednávke. 
+&lt;LI&gt;&lt;STRONG&gt;Skupiny&lt;/STRONG&gt; - napr. &lt;EM&gt;Nealko nápoje,&lt;/EM&gt; &lt;EM&gt;Polievky, Šaláty, Dezerty&lt;/EM&gt; a pod. Názvy a&amp;nbsp;poradie skupín sa nastavujú v OBERON-e&amp;nbsp;ako skupiny&amp;nbsp;v&amp;nbsp;pokladnici&amp;nbsp;v&amp;nbsp;záložke &lt;EM&gt;Reg.&amp;nbsp;pokladnice&lt;/EM&gt;&amp;nbsp;&lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;formulára Skladová karta&lt;/A&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;eMenu&lt;/STRONG&gt; -&amp;nbsp;po výbere konkrétnej skupiny zobrazuje položky tejto skupiny. Ak nie je vybraná žiadna skupina, zobrazuje položky prvej skupiny alebo&amp;nbsp;naposledy vybranej skupiny.&amp;nbsp;Potiahnutím prstom sprava doľava a späť je možné v ponuke listovať medzi jednotlivými skupinami položiek. Krátkym klepnutím na položku ju možno pridať do&amp;nbsp;účtu (opakovaným krátkym klepnutím sa pridá príslušné množstvo danej položky) - ak sú k danej skladovej karte priradené prílohy (záložka &lt;EM&gt;Receptúra, eMenu prílohy&lt;/EM&gt; - zadávajú sa čísla skladových kariet príloh), aplikácia &lt;STRONG&gt;automaticky ponúkne na výber priradené prílohy&amp;nbsp;&lt;/STRONG&gt;(&lt;A href="66abad1e-bfa7-4d8a-b34c-6c1e9a69b4f9"&gt;automatická ponuka príloh&lt;/A&gt;). Dlhým stlačením (long press) položky sa zobrazí ponuka, kde je možné upraviť množstvo položky, vymazať množstvo (napr. pri chybnom vybratí), vybrať&amp;nbsp;ďalšiu prílohu, pridať &lt;STRONG&gt;špecifikácie&lt;/STRONG&gt; (napr. &lt;EM&gt;Nechladená, Bez syra,&amp;nbsp;Well done&lt;/EM&gt; atď. - pozri aj&amp;nbsp;&lt;A href="18aeb679-252d-405b-9661-7ed645370717"&gt;automatická ponuka špecifikácií&lt;/A&gt;) alebo&amp;nbsp;zobraziť&amp;nbsp;&lt;A href="05de0f02-be92-4f82-8a06-57e1ee70fbdf"&gt;&lt;STRONG&gt;podrobnosti o položke&lt;/STRONG&gt;&lt;/A&gt;. V&amp;nbsp;prípade, že položka ešte nie je vybratá do otvoreného účtu, dlhým stlačením je možné zobraziť priamo podrobnosti o&amp;nbsp;položke.&amp;nbsp;Informácie, ktoré sa prenášajú zo systému OBERON do ponuky &lt;EM&gt;eMenu&lt;/EM&gt;, sa preberajú zo skladovej položky pridanej do jedálneho lístka -&amp;nbsp;viac v&amp;nbsp;téme&amp;nbsp;&lt;A href="2f634ed7-507e-4cf9-a6bf-6e68510e6f57" style="auto-update-caption: true"&gt;Aplikácia LUKUL - nastavenia v OBERON-e&lt;/A&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;Účet&lt;/STRONG&gt; - obsahuje položky&amp;nbsp;otvoreného donáškového&amp;nbsp;účtu. Dlhým stlačením (long press) položky sa otvorí ponuka, v ktorej je možné upraviť množstvo položky, zadať poznámku k&amp;nbsp;objednávke, prípadne&amp;nbsp;oddeľovač chodov. Jednotlivé poznámky k objednávke (napr. dobre prepiecť, bez prílohy a pod.) je možné priebežne ukladať na opätovné použitie. 
+&lt;LI&gt;&lt;STRONG&gt;Platba&lt;/STRONG&gt; - umožňuje dokončiť objednávku na donášku: 
+&lt;UL&gt;
+&lt;LI&gt;vybrať lokalitu a spôsob doručenia (osobný odber alebo doprava), 
+&lt;LI&gt;skontrolovať objednávku (zobrazí položky účtu vrátane prípadnej ceny za dopravu), 
+&lt;LI&gt;zvoliť čas&amp;nbsp;doručenia (umožňuje upraviť automaticky vypočítaný čas doručenia podľa&amp;nbsp;&lt;A href="bcb35762-ef45-4dfd-b53a-93e752742cdd"&gt;nastavení v OBERONe&lt;/A&gt;), 
+&lt;LI&gt;zadať kontaktné údaje (meno, priezvisko a adresu na doručenie objednávky), 
+&lt;LI&gt;vybrať preferovaný spôsob úhrady (hotovosť alebo platobná karta). &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Stlačením tlačidla &lt;EM&gt;OBJEDNAŤ&lt;/EM&gt; sa objednávka donášky odošle do&amp;nbsp;OBERON-u, kde sa zobrazí v evidencii&amp;nbsp;&lt;A href="e0ccff3e-b9e7-4572-bc3c-7f41a32280dd"&gt;otvorených účtov&lt;/A&gt; pre donášku a v závislosti od nastavení spôsobu overovania sa zapíše do bonovacej knihy a&amp;nbsp;vytlačí na&amp;nbsp;&lt;A href="b9d7c873-7b63-4210-86fe-ab1c66ea6502"&gt;bonovacej tlačiarni&lt;/A&gt; (prípadne zobrazí na&amp;nbsp;&lt;A href="d9867d81-7de7-4ce2-9c45-932025935b8b"&gt;bonovacom monitore&lt;/A&gt;). Viac informácií o možnostiach nastavenia spôsobu overovania a ďalších súvisiacich nastaveniach získate v témach&amp;nbsp;&lt;A href="4fe96b33-a1cd-4c08-93bc-d553db021c87"&gt;Nastavenia eMenu&lt;/A&gt;&amp;nbsp;a&amp;nbsp;&lt;A href="bcb35762-ef45-4dfd-b53a-93e752742cdd"&gt;formulár eMenu nastavenia&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Na opustenie&amp;nbsp;danej položky hlavnej ponuky klepnite na ikonu&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_LUKUL_left.png"&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Zmeniť &lt;STRONG&gt;stav overenia prijatej objednávky&lt;/STRONG&gt; na donášku v systéme OBERON je možné kliknutím do poľa &lt;EM&gt;Stav overenia&lt;/EM&gt; v evidencii otvorených účtov pre donášku. Kliknutím do poľa &lt;EM&gt;Adresa&lt;/EM&gt;&amp;nbsp;je v prípade potreby možné &lt;STRONG&gt;manuálne&amp;nbsp;upraviť čas donášky&lt;/STRONG&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H5&gt;Obrázok č. 2: Zmena stavu overenia prijatej objednávky na donášku (vľavo) a manuálna úprava času donášky (vpravo)&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/CashRegister/Form_CashRegister_Delivery_Verification.PNG" width="40%"&gt;&amp;nbsp;&lt;IMG border=0 alt="" src="images/Forms/CashRegister/Form_CashRegister_Delivery_TimeModification.png" width="40%"&gt;&lt;/P&gt;
+&lt;H3&gt;Ďalšie informácie&lt;/H3&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Info o aktuálnej objednávke&lt;/STRONG&gt; - po odoslaní objednávky na donášku (ponuka &lt;EM&gt;Platba&lt;/EM&gt;) sa v aplikácii zobrazia informácie o poslednej objednávke (dátum a čas objednania,&amp;nbsp;približný čas dodania, stav prijatia a spracovania objednávky atď.). Na zobrazenie informácií o aktuálnej objednávke slúži aj tlačidlo &lt;EM&gt;Info o objednávke&lt;/EM&gt; v ponuke &lt;EM&gt;Info&lt;/EM&gt;. 
+&lt;LI&gt;Pred odoslaním&amp;nbsp;objednávky&amp;nbsp;na donášku je možné v ponuke &lt;EM&gt;Účet&lt;/EM&gt; ľubovoľne mazať jednotlivé položky (potiahnutím&amp;nbsp;položky doľava v otvorenom účte sa zobrazí ikona &lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_LUKUL_delete.png"&gt;). &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 2: Informácie o aktuálnej objednávke - pred potvrdením, po potvrdení, po prijatí a&amp;nbsp;po uzatvorení&lt;/H5&gt;
+&lt;P&gt;&amp;nbsp; &lt;IMG border=0 alt="" src="images/OBERONMobileSolutions/OBERONMobileSolutions_LUKUL_Delivery_OrderInfo1.png"&gt;&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERONMobileSolutions/OBERONMobileSolutions_LUKUL_Delivery_OrderInfo2.png"&gt;&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERONMobileSolutions/OBERONMobileSolutions_LUKUL_Delivery_OrderInfo4.png"&gt;&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERONMobileSolutions/OBERONMobileSolutions_LUKUL_Delivery_OrderInfo3.png"&gt;&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="ef855a21-00e2-438b-9173-9f1f0e150911" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="942d48d5-b290-40f6-8ba3-45cf78f380f9">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="9fc9b80f-6cc4-4b05-a839-ed568c508edb" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="2f634ed7-507e-4cf9-a6bf-6e68510e6f57">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="cbabca3b-3370-4c63-a010-5c4d37ab79b7" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="4fe96b33-a1cd-4c08-93bc-d553db021c87">
+      <Title m="2023-02-06T10:07:26.2285996Z">Aplikácia LUKUL - nastavenia eMenu</Title>
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="045f0483-9d57-4377-a2ef-eb81cdee47f4" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="bcb35762-ef45-4dfd-b53a-93e752742cdd">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="e7729c1b-ea02-4b1b-b4ba-927311ae8e37" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="20b1783a-a8ca-42a9-b2f3-80c658d62248">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="43de1d08-1771-40f8-b653-257e550554fd" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="66abad1e-bfa7-4d8a-b34c-6c1e9a69b4f9">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="832cd65b-8d87-4c38-88ee-eeae6d758cc7">
+      <Keyword m="2021-06-09T08:37:17.604914Z">Režim donášky - aplikácia LUKUL</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="9ab88bf2-1dc7-40d2-b226-25865cd62072">
+      <Keyword m="2021-06-09T08:36:48.4826355Z">Donáška - LUKUL</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="217857fa-67c3-4547-ab00-24b417818524">
+      <Keyword m="2021-06-09T08:36:32.9760142Z">LUKUL eMenu - donáška</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="c04f9f16-c615-4616-94bc-77c6e61978e6">
+      <Keyword m="2021-06-09T08:36:17.3487171Z">Gastroaplikácia LUKUL - režim donášky</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="618ac8c8-e2d6-411a-bf36-9af9f86dc76a">
+      <Keyword m="2023-01-25T13:36:49.8622504Z">Čas donášky - manuálna úprava - LUKUL</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="86ce651c-2637-4165-93b4-36535a700fbf" Status="Complete" CreatedOn="2014-09-09T12:40:43.9053194Z" ModifiedOn="2024-10-21T12:49:41.8866092Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="51015" Name="Stock_Start_Work_With_Barcodes" BuildFlags="">
+  <Title m="2014-09-09T12:41:16.1981664Z">Práca s čiarovými kódmi</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-10-21T12:49:41.8866092Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;informácie o možnostiach práce s&amp;nbsp;čiarovými kódmi&lt;/STRONG&gt; v&amp;nbsp;systéme OBERON.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Čiarový kód predstavuje vizuálnu, strojovo čitateľnú formu údajov určenú na zadávanie týchto údajov do počítačového systému. Je tvorený &lt;STRONG&gt;sériou hrubých a tenkých čiar oddelených medzerami&lt;/STRONG&gt; (jednorozmerný, lineárny,&amp;nbsp;1D kód), prípadne &lt;STRONG&gt;mozaikou&lt;/STRONG&gt; (dvojrozmerný, maticový,&amp;nbsp;2D kód). 
+&lt;LI&gt;Pri &lt;STRONG&gt;jednorozmernom čiarovom kóde&lt;/STRONG&gt;&amp;nbsp;sú čiary&amp;nbsp;zvyčajne čierne na bielom pozadí a ich šírka a množstvo môžu byť rôzne.&amp;nbsp;Existuje niekoľko typov jednorozmerných čiarových kódov, z ktorých každý má svoju vlastnú charakteristiku. Niektoré&amp;nbsp;dokážu kódovať iba numerické znaky, iné alfanumerické znaky a niektoré aj špeciálne znaky ($, &amp;lt;, &amp;gt; atď.).&amp;nbsp;Teória pozná asi 200 druhov čiarových kódov, z ktorých každý má svoj vlastný spôsob kódovania jednotlivých znakov do sústavy čiar a medzier. 
+&lt;LI&gt;&lt;STRONG&gt;Dvojrozmerný čiarový kód&lt;/STRONG&gt; nesie strojovo čitateľnú informáciu zakódovanú spravidla v bielych a čiernych plochách usporiadaných vo dvoch smeroch do matice. Takéto usporiadanie umožňuje uložiť väčšie množstvo informácií než bežný, jednorozmerný čiarový kód. Príkladom dvojrozmerného čiarového kódu je &lt;STRONG&gt;QR kód&lt;/STRONG&gt; (&lt;EM&gt;&lt;STRONG&gt;Q&lt;/STRONG&gt;uick &lt;STRONG&gt;R&lt;/STRONG&gt;esponse Code&lt;/EM&gt; - kód rýchlej odozvy), ktorého čiernobiele štvorce môžu predstavovať numerické, alfanumerické alebo špeciálne znaky, ale aj znaky v nelatinskom písme, ako je japonské kandži. 
+&lt;LI&gt;Na čítanie jednorozmerných a dvojrozmerných (1D a 2D) čiarových kódov OBERON podporuje snímače čiarových kódov pripájané&amp;nbsp;cez sériový port (napr. COM1), alebo USB port (&lt;STRONG&gt;v&amp;nbsp;režime&amp;nbsp;virtuálneho sériového portu&lt;/STRONG&gt;). Bližšie informácie o&amp;nbsp;týchto zariadeniach získate v&amp;nbsp;téme &lt;A href="80a78093-fc45-4db9-b74b-e1f9829f7b3c" style="auto-update-caption: true"&gt;Snímače čiarových kódov&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Čiarový kód EAN&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Čiarový kód &lt;STRONG&gt;EAN&lt;/STRONG&gt; (&lt;EM&gt;&lt;STRONG&gt;E&lt;/STRONG&gt;uropean &lt;STRONG&gt;A&lt;/STRONG&gt;rticle &lt;STRONG&gt;N&lt;/STRONG&gt;umber&lt;/EM&gt;) je najbežnejšie používaným čiarovým kódom. Používa sa na označenie spotrebného tovaru určeného na predaj konečnému spotrebiteľovi po celom svete (vrátane&amp;nbsp;skupinových alebo kartónových balení). Tento kód môže používať každý štát zapojený do medzinárodného združenia &lt;EM&gt;&lt;STRONG&gt;GS1&lt;/STRONG&gt;&lt;/EM&gt;. 
+&lt;LI&gt;Čiarový kód EAN dokáže kódovať číslice 0 až 9, pričom každá číslica je kódovaná 2 čiarami a 2 medzerami. Môže obsahovať buď&amp;nbsp;osem číslic (&lt;STRONG&gt;EAN-8&lt;/STRONG&gt;), alebo trinásť číslic (&lt;STRONG&gt;EAN-13&lt;/STRONG&gt;). 
+&lt;LI&gt;Prvé číslice (prefix) určujú štát pôvodu (napr. Slovensko má číslo 858), ďalšie číslice&amp;nbsp;určujú výrobcu (číslo výrobcu) a nasledujúce číslice, okrem poslednej, určujú konkrétny tovar (číslo výrobku). Posledná číslica je kontrolná. 
+&lt;LI&gt;Čísla jednotlivým štátom prideľuje združenie &lt;EM&gt;GS1&lt;/EM&gt; so sídlom v Bruseli, čísla výrobcom&amp;nbsp;na Slovensku prideľuje&amp;nbsp;&lt;EM&gt;GS1 Slovakia&lt;/EM&gt; ako jediná licencovaná organizácia pre registráciu do systému &lt;EM&gt;GS1&lt;/EM&gt; na území &lt;EM&gt;Slovenskej republiky&lt;/EM&gt;. 
+&lt;LI&gt;Kód EAN-8 sa používa na označenie malých maloobchodných výrobkov, na ktorých nie je dostatočný priestor pre čiarový kód EAN-13 (napr.&amp;nbsp;cukrovinky). &lt;/LI&gt;&lt;/UL&gt;
+&lt;P&gt;&lt;STRONG&gt;EAN-13&lt;/STRONG&gt;&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;Čiarový kód EAN-13 predstavuje trinásťmiestne číslo na označenie akéhokoľvek spotrebného tovaru, ktoré je rozdelené do štyroch častí: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Prefix&lt;/STRONG&gt; - prvé trojčíslie prideľuje &lt;EM&gt;GS1&lt;/EM&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;Číslo výrobcu&lt;/STRONG&gt; -&amp;nbsp;prideľuje &lt;EM&gt;GS1 Slovakia&lt;/EM&gt; (označuje výrobcu alebo distribútora). 
+&lt;LI&gt;&lt;STRONG&gt;Číslo výrobku&lt;/STRONG&gt; -&amp;nbsp;prideľuje samotný výrobca (distribútor) v rámci prideleného rozsahu. 
+&lt;LI&gt;&lt;STRONG&gt;Kontrolná číslica&lt;/STRONG&gt; -&amp;nbsp;je súčasťou kódu EAN-13 a vypočíta sa podľa presne definovaného algoritmu z dvanástich predchádzajúcich číslic. Kontrolná číslica slúži&amp;nbsp;na kontrolu správnosti dekódovania. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Postup výpočtu (kód 8581234123458):&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 
+&lt;OL&gt;
+&lt;LI&gt;Sčítajú sa čísla na nepárnych pozíciách (8+8+2+4+2+4=28). 
+&lt;LI&gt;Sčítajú sa čísla na&amp;nbsp;párnych pozíciách a výsledok sa vynásobí tromi ((5+1+3+1+3+5)*3=54). 
+&lt;LI&gt;Oba výsledky sa sčítajú, súčet&amp;nbsp;sa zaokrúhli nahor na celé číslo deliteľné 10, od ktorého súčet&amp;nbsp;odpočítame. Takto získame kontrolnú číslicu (28+54=82; 90-82=8). &lt;/LI&gt;&lt;/OL&gt;&lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 1: Štruktúra&amp;nbsp;a príklad čiarového kódu EAN-13&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Stock/Stock_EAN-13_Structure.PNG"&gt;&amp;nbsp; &lt;IMG border=0 alt="" src="images/Stock/Stock_EAN-13_Example.PNG"&gt;&lt;/P&gt;
+&lt;P&gt;Zdroj informácií a obrázkov: &lt;A href="https://www.gs1sk.org/down/sp-tovar.pdf"&gt;https://www.gs1sk.org/down/sp-tovar.pdf&lt;/A&gt;&lt;/P&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;V prípade použitia iného čiarového kódu ako EAN-13 je potrebné v&amp;nbsp;systéme OBERON upraviť tlačové výstupy, v ktorých sa tento čiarový kód bude tlačiť. Ide hlavne o &lt;STRONG&gt;typ čiarového kódu&lt;/STRONG&gt;,&amp;nbsp;ktorý nezodpovedá definícii EAN. Tu odporúčame použiť&amp;nbsp;&lt;B&gt;Code128A&lt;/B&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Použitie čiarových kódov v&amp;nbsp;OBERON-e&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Z&amp;nbsp;technického hľadiska sa v&amp;nbsp;systéme OBERON&amp;nbsp;môžu jednorozmerné a dvojrozmerné (1D a 2D) čiarové kódy používať ambivalentne (t.&amp;nbsp;j. je jedno, ktorý typ čiarového kódu sa v tej-ktorej situácii použije). Z praktického hľadiska je však možné vymedziť oblasti, keď je výhodnejšie použiť jeden z&amp;nbsp;uvedených typov čiarových kódov. Jednorozmerný čiarový kód postačuje použiť v&amp;nbsp;situáciách,&amp;nbsp;pri ktorých sa ukladá menšie množstvo informácií. Dvojrozmerný čiarový kód sa, naopak, používa v&amp;nbsp;situáciách, keď je množstvo informácií, ktoré je potrebné uložiť, väčšie. 
+&lt;LI&gt;V systéme OBERON sa &lt;STRONG&gt;jednorozmerné&amp;nbsp;čiarové kódy&lt;/STRONG&gt; spravidla používajú: 
+&lt;UL&gt;
+&lt;LI&gt;pri evidencii skladových položiek v&amp;nbsp;knihe&amp;nbsp;&lt;A href="1a33ab0b-2df7-4dc2-962b-8a3319c16831"&gt;Skladové karty&lt;/A&gt;, 
+&lt;LI&gt;pri evidencii&amp;nbsp;&lt;A href="b0e0ad9c-d19d-4670-8485-ec384dbae1bd"&gt;variantov&lt;/A&gt; skladových kariet, 
+&lt;LI&gt;pri&amp;nbsp;&lt;A href="61edd121-1efe-4a14-907c-8c8a18cc4539"&gt;tlači cenoviek a etikiet&lt;/A&gt;, 
+&lt;LI&gt;pri &lt;A href="58b3fe6b-140a-4b1e-a7af-33b95fd684a4"&gt;automatickej tlači etikiet na Pokladnici OBERON&lt;/A&gt;, 
+&lt;LI&gt;pri evidencii čísel &lt;A href="6c98a377-1b88-4eb8-801b-1f168641373b"&gt;vernostných kariet&lt;/A&gt;&amp;nbsp;&lt;A href="b7a48886-b367-4056-808a-59ba5f871f32"&gt;obchodných partnerov&lt;/A&gt;, 
+&lt;LI&gt;pri&amp;nbsp;&lt;A href="0cbf9ae9-1760-4f87-89be-559b62ee193b"&gt;výkupe zálohovaných vratných obalov&lt;/A&gt;, 
+&lt;LI&gt;pri&amp;nbsp;práci s&amp;nbsp;aplikáciou &lt;A href="be17efdf-4b36-4b47-ad5d-09b0f66c8f65"&gt;ASTON - mobilný skladník&lt;/A&gt;... &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Dvojrozmerné čiarové kódy (QR kódy)&lt;/STRONG&gt;&amp;nbsp;sa v&amp;nbsp;OBERON-e používajú napríklad: 
+&lt;UL&gt;
+&lt;LI&gt;na rýchle pripojenie ďalších mobilných zariadení v&amp;nbsp;aplikácii&amp;nbsp;&lt;A href="be17efdf-4b36-4b47-ad5d-09b0f66c8f65"&gt;ASTON - mobilný skladník&lt;/A&gt;&amp;nbsp;a na samotnú prácu s aplikáciou, 
+&lt;LI&gt;na prihlasovanie do aplikácie&amp;nbsp;&lt;A href="942d48d5-b290-40f6-8ba3-45cf78f380f9"&gt;LUKUL - nielen mobilný čašník&lt;/A&gt;, 
+&lt;LI&gt;na prihlasovanie do webovej aplikácie&amp;nbsp;&lt;A href="fe4a9463-d066-4a56-8eee-a728ae1a7220"&gt;OBERON eMenu&lt;/A&gt;, 
+&lt;LI&gt;pri&amp;nbsp;&lt;A href="0773204a-fdc5-42c2-89b0-73d53dd5a2e4"&gt;pre check-ine&lt;/A&gt; a&amp;nbsp;&lt;A href="5b415da0-dc8c-4b42-8572-14159203f57a"&gt;rýchlom check-ine&lt;/A&gt;&amp;nbsp;v&amp;nbsp;module&amp;nbsp;&lt;A href="c3bd41f0-029e-4c74-b342-b0ffff647b6e"&gt;Hotelová recepcia&lt;/A&gt;, 
+&lt;LI&gt;pri&amp;nbsp;tlačových výstupoch&amp;nbsp;&lt;A href="60bbb193-6ba6-495c-8c54-431baf8b966f"&gt;faktúr s QR kódom na rýchlu úhradu&lt;/A&gt;&amp;nbsp;(tzv. &lt;EM&gt;PAY by square&lt;/EM&gt;), 
+&lt;LI&gt;pri&amp;nbsp;&lt;A href="cf9e27af-d4c5-4b0c-9b37-78cfa72b9abd"&gt;automatickom účtovaní pokladničných dokladov&lt;/A&gt;&amp;nbsp;pomocou&amp;nbsp;&lt;A href="518026eb-be63-494d-b3e3-837f9509c543"&gt;QeeR skenera&lt;/A&gt; alebo&amp;nbsp;&lt;A href="80a78093-fc45-4db9-b74b-e1f9829f7b3c"&gt;snímača čiarových kódov&lt;/A&gt;, 
+&lt;LI&gt;pri&amp;nbsp;&lt;A href="61edd121-1efe-4a14-907c-8c8a18cc4539"&gt;tlači cenoviek a&amp;nbsp;etikiet&lt;/A&gt;, 
+&lt;LI&gt;pri &lt;A href="58b3fe6b-140a-4b1e-a7af-33b95fd684a4"&gt;automatickej tlači etikiet na Pokladnici OBERON&lt;/A&gt;... &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;V&amp;nbsp;OBERON-e je možné čiarový kód vygenerovať aj &lt;STRONG&gt;automaticky&lt;/STRONG&gt;, a to&amp;nbsp;vo formáte EAN-13. Možno tak urobiť stlačením tlačidla&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_Button_EAN.png"&gt;&amp;nbsp;na dvoch miestach v programe: 
+&lt;UL&gt;
+&lt;LI&gt;pre skladové karty&amp;nbsp;vo&amp;nbsp;&lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;formulári Skladová karta&lt;/A&gt;, záložka &lt;EM&gt;Reg. pokladnice -&lt;/EM&gt; čiarový kód sa vytvorí z čísla skladovej karty&lt;EM&gt;,&lt;/EM&gt; 
+&lt;LI&gt;pre obchodných partnerov&amp;nbsp;vo&amp;nbsp;&lt;A href="4fbe9db8-25bc-420f-aee5-228d0a8ff03f"&gt;formulári Obchodný partner&lt;/A&gt;, záložka &lt;EM&gt;Ceny -&lt;/EM&gt; čiarový kód sa vytvorí z čísla IČO obchodného partnera. &lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Čiarové kódy je možné v&amp;nbsp;systéme OBERON zadávať buď&amp;nbsp;&lt;STRONG&gt;manuálne&lt;/STRONG&gt;, alebo jednoduchým &lt;STRONG&gt;nasnímaním&amp;nbsp;&lt;/STRONG&gt;pomocou&amp;nbsp;&lt;A href="80a78093-fc45-4db9-b74b-e1f9829f7b3c"&gt;snímača čiarových kódov&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Použitie čiarových kódov na skladových kartách&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Na &lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;skladovej karte&lt;/A&gt;&amp;nbsp;v záložke &lt;EM&gt;Reg. pokladnice&lt;/EM&gt;&amp;nbsp;je možné evidovať jeden, prípadne viac čiarových kódov, pričom sa&amp;nbsp;čiarové kódy&amp;nbsp;pri zadávaní v&amp;nbsp;poli oddeľujú čiarkou a&amp;nbsp;medzerou. Pri predaji položky je možné nasnímať ktorýkoľvek z evidovaných&amp;nbsp;čiarových kódov. 
+&lt;LI&gt;V&amp;nbsp;praxi&amp;nbsp;môže nastať aj&amp;nbsp;situácia, keď rôzne skladové karty v tom istom sklade majú&amp;nbsp;&lt;B&gt;rovnaký&lt;/B&gt; čiarový kód. Predaj takýchto položiek sa mierne odlišuje od predaja&amp;nbsp;bežných položiek - po nasnímaní čiarového kódu napr. na&amp;nbsp;&lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnici OBERON&lt;/A&gt; sa zobrazí ďalší formulár, v&amp;nbsp;ktorom sa zobrazia skladové položky s&amp;nbsp;rovnakých čiarovým kódom. Obsluha pokladnice ďalej určí, ktorá položka sa má predať. 
+&lt;LI&gt;Skladová karta umožňuje evidovať aj rôzne&amp;nbsp;&lt;A href="b0e0ad9c-d19d-4670-8485-ec384dbae1bd"&gt;varianty&lt;/A&gt; tovaru&amp;nbsp;(v záložke &lt;EM&gt;Varianty&lt;/EM&gt;), napr. veľkosť obuvi, farbu a pod.&amp;nbsp;Ku každému variantu je&amp;nbsp;možné evidovať vlastný čiarový kód, a tým presne určiť vybraný variant. 
+&lt;LI&gt;Čiarové kódy je možné na skladovú kartu zadať manuálne alebo pomocou &lt;A href="80a78093-fc45-4db9-b74b-e1f9829f7b3c"&gt;snímača čiarových kódov&lt;/A&gt;. Ak sa má&amp;nbsp;na skladovej karte evidovať&amp;nbsp;&lt;A href="6f1a89e8-2f56-4543-a452-409834433d36"&gt;výrobné alebo sériové číslo&lt;/A&gt;, je možné aj toto číslo pri príjme načítať pomocou snímača čiarových kódov. 
+&lt;LI&gt;Čiarové kódy evidované na skladovej karte (resp. jej variante) možno využiť: 
+&lt;UL&gt;
+&lt;LI&gt;pri&amp;nbsp;vyhľadávaní pomocou&amp;nbsp;čiarového kódu v knihe &lt;A href="1a33ab0b-2df7-4dc2-962b-8a3319c16831"&gt;Skladové karty&lt;/A&gt; a v &lt;A href="79f53c12-0f9d-46c1-b039-2a412e1671f0"&gt;inventúrnom súpise&lt;/A&gt;, 
+&lt;LI&gt;pri vyhľadávaní pomocou čiarového kódu v aplikácii&amp;nbsp;&lt;A href="be17efdf-4b36-4b47-ad5d-09b0f66c8f65"&gt;ASTON&lt;/A&gt;, 
+&lt;LI&gt;na zjednodušenie a zrýchlenie predaja&amp;nbsp;na&amp;nbsp;&lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnici OBERON&lt;/A&gt;, 
+&lt;LI&gt;pri zadávaní skladových položiek pri vytváraní dokladu ako&amp;nbsp;&lt;A href="0be61fcc-a85b-4572-876d-2171a5cb7c29"&gt;výdajka&lt;/A&gt;, &lt;A href="efed1882-1614-4406-b57a-3023aee6ba26"&gt;príjemka&lt;/A&gt;,&amp;nbsp;&lt;A href="5c21adcc-87c8-44e7-981d-02902635693d"&gt;pohľadávka&lt;/A&gt;,&amp;nbsp;&lt;A href="55028746-c263-4d92-a615-502222e8d53b"&gt;záväzok&lt;/A&gt; alebo záznamu v&amp;nbsp;knihe&amp;nbsp;&lt;A href="945b74ea-31f8-44e7-baef-ffb5fc136b05"&gt;Evidencia reklamácií a servisu&lt;/A&gt;, 
+&lt;LI&gt;pri&amp;nbsp;&lt;A href="61edd121-1efe-4a14-907c-8c8a18cc4539"&gt;tlači cenoviek a etikiet&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/UL&gt;
+&lt;P&gt;&lt;STRONG&gt;Príklad čiarového kódu skladovej karty:&lt;/STRONG&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style="COLOR: rgb(192,0,0)"&gt;&lt;STRONG&gt;990&lt;/STRONG&gt;&lt;/SPAN&gt;&lt;SPAN style="COLOR: rgb(0,32,96)"&gt;&lt;STRONG&gt;00078&lt;/STRONG&gt;&lt;/SPAN&gt;&lt;SPAN style="COLOR: rgb(0,176,80)"&gt;&lt;STRONG&gt;00003&lt;/STRONG&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style="COLOR: rgb(192,0,0)"&gt;&lt;SPAN style="COLOR: rgb(192,0,0)"&gt;&lt;STRONG&gt;990&lt;/STRONG&gt;&lt;/SPAN&gt;&lt;/SPAN&gt; - prefix čiarového kódu (skladová karta má prefix 990,&amp;nbsp;&lt;A href="6c98a377-1b88-4eb8-801b-1f168641373b"&gt;vernostný systém&lt;/A&gt; má prefix 994,&amp;nbsp;ostatné majú prefix 999)&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style="COLOR: rgb(0,32,96)"&gt;&lt;STRONG&gt;00078&lt;/STRONG&gt;&lt;/SPAN&gt; - číslo skladovej karty&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style="COLOR: rgb(0,176,80)"&gt;&lt;STRONG&gt;00003&lt;/STRONG&gt;&lt;/SPAN&gt; - doplnenie čiarového kódu tak, aby spĺňal štandard EAN-13&lt;/P&gt;
+&lt;H2&gt;Použitie čiarových kódov v evidencii obchodných partnerov&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;A href="b7a48886-b367-4056-808a-59ba5f871f32"&gt;Obchodnému partnerovi&lt;/A&gt; je možné ako číslo vernostnej karty&amp;nbsp;vygenerovať čiarový kód a vytlačiť&amp;nbsp;&lt;A href="6c98a377-1b88-4eb8-801b-1f168641373b"&gt;vernostnú kartu&lt;/A&gt; s čiarovým kódom. Tento čiarový kód je možné okrem&amp;nbsp;&lt;A href="f63e245e-f7c1-4def-b012-21256dea3530"&gt;vernostného systému (kumulovanie a čerpanie benefitov)&lt;/A&gt;&amp;nbsp;využiť: 
+&lt;UL&gt;
+&lt;LI&gt;pri vyhľadávaní obchodného partnera&amp;nbsp;pomocou čiarového kódu v&amp;nbsp;evidencii&amp;nbsp;&lt;A href="b7a48886-b367-4056-808a-59ba5f871f32"&gt;Obchodní partneri&lt;/A&gt;, 
+&lt;LI&gt;pri načítaní&amp;nbsp;obchodného partnera pri predaji na&amp;nbsp;&lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnici OBERON&lt;/A&gt;, 
+&lt;LI&gt;pri načítaní&amp;nbsp;obchodného partnera z dokladových formulárov (tlačidlo&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_ListButton.png"&gt;) pri tvorbe dokladov ako&amp;nbsp;&lt;A href="0be61fcc-a85b-4572-876d-2171a5cb7c29"&gt;výdajka&lt;/A&gt;, &lt;A href="efed1882-1614-4406-b57a-3023aee6ba26"&gt;príjemka&lt;/A&gt;,&amp;nbsp;&lt;A href="5c21adcc-87c8-44e7-981d-02902635693d"&gt;pohľadávka&lt;/A&gt;,&amp;nbsp;&lt;A href="55028746-c263-4d92-a615-502222e8d53b"&gt;záväzok&lt;/A&gt;&amp;nbsp;alebo&amp;nbsp;z&amp;nbsp;&lt;A href="802c5a4f-4c78-4ff0-9f58-dbec5cce6c16"&gt;formulára Reklamácia/Servis&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Pri načítaní čiarového kódu snímačom&amp;nbsp;v&amp;nbsp;&lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnici OBERON&lt;/A&gt; program identifikuje, či ide o&amp;nbsp;obchodného partnera alebo skladovú kartu. Ak ide o partnera, určí ho ako odberateľa pokladničného účtu. &lt;/LI&gt;&lt;/UL&gt;
+&lt;P&gt;&lt;STRONG&gt;Príklad čísla&lt;/STRONG&gt; &lt;STRONG&gt;(čiarového kódu)&lt;/STRONG&gt; &lt;STRONG&gt;vernostnej karty:&lt;/STRONG&gt;&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;&lt;SPAN style="COLOR: rgb(192,0,0)"&gt;994&lt;SPAN style="COLOR: rgb(0,176,80)"&gt;0&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;SPAN style="COLOR: rgb(0,32,96)"&gt;23654852&lt;/SPAN&gt;&lt;SPAN style="COLOR: rgb(0,176,80)"&gt;9&lt;/SPAN&gt;&lt;/STRONG&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style="COLOR: rgb(192,0,0)"&gt;&lt;STRONG&gt;&lt;SPAN style="COLOR: rgb(192,0,0)"&gt;994&lt;/SPAN&gt;&lt;/STRONG&gt;&lt;/SPAN&gt; - prefix čiarového kódu (vernostný systém má prefix 994, skladová karta má prefix 990, ostatné majú prefix 999)&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style="COLOR: rgb(0,32,96)"&gt;&lt;STRONG&gt;23654852&lt;/STRONG&gt;&lt;/SPAN&gt; - IČO obchodného partnera&lt;/P&gt;
+&lt;P&gt;&lt;SPAN style="COLOR: rgb(0,176,80)"&gt;&lt;STRONG&gt;0 &lt;SPAN style="COLOR: rgb(0,0,0)"&gt;a&lt;/SPAN&gt; 2&lt;/STRONG&gt;&lt;/SPAN&gt;&amp;nbsp;- doplnenie čísla tak, aby spĺňalo štandard EAN-13&lt;/P&gt;
+&lt;H2&gt;Vážený čiarový kód&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Výrobky, ktoré sa predávajú na základe skutočnej hmotnosti (mäsové výrobky a pod.), sa podľa normy&amp;nbsp;označujú špeciálnym kódom vo formáte EAN-13, ktorý začína číslicami &lt;STRONG&gt;26&lt;/STRONG&gt;, &lt;STRONG&gt;27&lt;/STRONG&gt; alebo &lt;STRONG&gt;29&lt;/STRONG&gt;. Do tohto tzv. váženého čiarového kódu je zakódovaný &lt;STRONG&gt;kód položky&lt;/STRONG&gt; a&amp;nbsp;&lt;STRONG&gt;hmotnosť danej položky&amp;nbsp;v&amp;nbsp;gramoch (g)&lt;/STRONG&gt;. Kódy s prefixami 27 a 29 sú platné len na území Slovenska.&amp;nbsp;V OBERON-e hodnota začiatočných číslic pre čiarový kód môže byť v&amp;nbsp;rozpätí &lt;STRONG&gt;20 až 29&lt;/STRONG&gt;. 
+&lt;LI&gt;Vážený čiarový kód môže obsahovať&amp;nbsp;obal predávaného tovaru už od výroby. V opačnom prípade&amp;nbsp;je na značenie výrobkov, ktoré sa predávajú na základe skutočnej hmotnosti, potrebná &lt;A href="98f367d6-b09e-4406-aad9-d4b2cfc4b504"&gt;elektronická váha&lt;/A&gt;, ktorá po odvážení výrobku vytlačí štítok s čiarovým kódom a skutočnou hmotnosťou.&lt;STRONG&gt;&amp;nbsp;&lt;/STRONG&gt;Ten sa následne pri predaji na&amp;nbsp;&lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnici OBERON&lt;/A&gt; nasníma&amp;nbsp;&lt;A href="80a78093-fc45-4db9-b74b-e1f9829f7b3c"&gt;snímačom čiarových kódov&lt;/A&gt;. Niektoré váhy dokážu po odvážení tovaru zaslať vážený čiarový kód aj priamo do počítača, &lt;STRONG&gt;musia však obsahovať kódy položiek predávaných na pokladnici&lt;/STRONG&gt;. 
+&lt;LI&gt;Definícia a príklad váženého čiarového kódu:&lt;BR&gt;V sklade je evidovaná skladová karta &lt;EM&gt;Paprika&amp;nbsp;červená&lt;/EM&gt;&amp;nbsp;s kódom položky 3743 a&amp;nbsp;s mernou jednotkou kg. Na &lt;EM&gt;Pokladnici OBERON&lt;/EM&gt; je pomocou snímača čiarových kódov nasnímaný čiarový kód 2837432002849. Na účtenku sa automaticky&amp;nbsp;zapíše nová položka &lt;I&gt;Paprika červená&lt;/I&gt;&amp;nbsp;s hmotnosťou &lt;I&gt;0,284 kg&lt;/I&gt; a prepočítanou predajnou cenou. 
+&lt;P&gt;Dekódovanie &lt;STRONG&gt;28&lt;SPAN style="COLOR: rgb(112,48,160)"&gt;3743&lt;/SPAN&gt;2&lt;SPAN style="COLOR: rgb(192,0,0)"&gt;00284&lt;/SPAN&gt;9&lt;/STRONG&gt;:&lt;BR&gt;&lt;STRONG&gt;&amp;nbsp;&amp;nbsp; 28&lt;/STRONG&gt; - hodnota znamená, že ide o vážený&amp;nbsp;čiarový kód, tým je odlíšený od iného EAN kódu&amp;nbsp;(hodnota môže byť z rozsahu 20 až 29)&lt;BR&gt;&lt;SPAN style="COLOR: rgb(112,48,160)"&gt;&lt;STRONG&gt;&amp;nbsp;&amp;nbsp; 3743&lt;/STRONG&gt;&lt;/SPAN&gt; - štvormiestny kód položky&lt;BR&gt;&lt;STRONG&gt;&amp;nbsp;&amp;nbsp; 2&lt;/STRONG&gt; - kontrolný súčet&lt;BR&gt;&lt;SPAN style="COLOR: rgb(192,0,0)"&gt;&lt;STRONG&gt;&amp;nbsp;&amp;nbsp; 00284&lt;/STRONG&gt;&lt;/SPAN&gt; - hmotnosť v g&lt;BR&gt;&lt;STRONG&gt;&amp;nbsp;&amp;nbsp; 9&lt;/STRONG&gt; - kontrolný súčet&lt;/P&gt;
+&lt;LI&gt;Z definície váženého čiarového kódu vyplýva, že&amp;nbsp;na správne fungovanie je potrebné mať na skladovej karte zadaný &lt;STRONG&gt;kód položky, ktorý&amp;nbsp;musí byť v tomto prípade štvormiestny&lt;/STRONG&gt;&amp;nbsp;(nastavuje sa vo&amp;nbsp;&lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;formulári Skladová karta&lt;/A&gt;, záložka &lt;EM&gt;Reg. pokladnice&lt;/EM&gt;) a&amp;nbsp;merná jednotka môže byť &lt;STRONG&gt;g, dg, kg, t&lt;/STRONG&gt;. Čiarový kód nemusí byť zadaný. 
+&lt;LI&gt;V prípade predaja tovaru s&amp;nbsp;veľmi nízkou hmotnosťou, pri ktorom je potrebná vyššia presnosť váženia ako na celé gramy (napr.&amp;nbsp;pri výrobkoch zo zlata, platiny a pod.), alebo naopak, pri predaji tovaru, ktorého hmotnosť presahuje 99 999 gramov (99 kg),&amp;nbsp;je možné na &lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;skladovej karte&lt;/A&gt; (záložka &lt;EM&gt;Reg. pokladnice&lt;/EM&gt;) nastaviť &lt;STRONG&gt;presnosť čiarového kódu&lt;/STRONG&gt; na 100&amp;nbsp;g, 10&amp;nbsp;g, 0,1&amp;nbsp;g a 0,01&amp;nbsp;g a&amp;nbsp;následne prispôsobiť zaokrúhľovanie ceny s DPH (záložka&amp;nbsp;&lt;EM&gt;Cena&lt;/EM&gt;).&lt;BR&gt;&lt;STRONG&gt;Príklad&lt;/STRONG&gt;:&lt;BR&gt;Prstene zo zlata sa predávajú na gramy, na skladovej karte je nastavená presnosť váženého kódu 0,01&amp;nbsp;g. Pri nasnímaní váženého kódu sa pracuje podľa vzorca &lt;STRONG&gt;hodnota&lt;/STRONG&gt;&amp;nbsp;&lt;STRONG&gt;EAN kódu * nastavenie,&lt;/STRONG&gt; teda&lt;STRONG&gt;&amp;nbsp;&lt;/STRONG&gt;00178&amp;nbsp;*&amp;nbsp;0,01&amp;nbsp;=&amp;nbsp;1,78&amp;nbsp;g. Prsteň váži 1,78&amp;nbsp;g. 
+&lt;LI&gt;V praxi sa môže stať, že dodávatelia dodávajú tovary s čiarovými&amp;nbsp;kódmi, ktoré&amp;nbsp;nerešpektujú špecifikáciu &lt;STRONG&gt;EAN-13,&amp;nbsp;&lt;/STRONG&gt;napr. kód oblečenia je 2701066018248, avšak podľa špecifikácie by to mal byť&amp;nbsp;&lt;A href="86ce651c-2637-4165-93b4-36535a700fbf"&gt;vážený čiarový kód&lt;/A&gt;. Vtedy je možné v nastaveniach snímača čiarového kódu v OBERON-e zakázať&amp;nbsp;automatické rozpoznávanie váženého čiarového kódu. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Čiarové kódy kupónov pre&amp;nbsp;výkup zálohovaných&amp;nbsp;vratných obalov&lt;/H2&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Ručný odber&amp;nbsp;a poloautomaty (prefix 439)&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Čiarový kód kupónu pre ručný&amp;nbsp;a poloautomatizovaný odber&amp;nbsp;&lt;A href="0cbf9ae9-1760-4f87-89be-559b62ee193b"&gt;zálohovaných&amp;nbsp;vratných obalov&lt;/A&gt;&amp;nbsp;na nápoje má nasledujúce parametre:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;Formát čiarového kódu: code-128&lt;/SPAN&gt; 
+&lt;LI&gt;Počet číslic: 20 
+&lt;LI&gt;Štruktúra kódu:&amp;nbsp; &lt;CODE style="FONT-SIZE: 1.1em; FONT-FAMILY: Lucida Console; LETTER-SPACING: 0.1em"&gt;&lt;STRONG&gt;PPP&lt;SPAN style="COLOR: rgb(73,113,30)"&gt;NNNN&lt;/SPAN&gt;&lt;SPAN&gt;&lt;SPAN style="COLOR: rgb(255,192,0)"&gt;&lt;SPAN&gt;DDD&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;SPAN style="COLOR: rgb(0,112,192)"&gt;SSSSS&lt;/SPAN&gt;&lt;SPAN style="COLOR: rgb(247,150,70)"&gt;AAAA&lt;/SPAN&gt;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;C&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/STRONG&gt;&lt;/CODE&gt; 
+&lt;LI&gt;Testovací kód:&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;CODE style="FONT-SIZE: 1.1em; FONT-FAMILY: Lucida Console; LETTER-SPACING: 0.1em"&gt;&lt;STRONG&gt;439&lt;SPAN&gt;&lt;SPAN style="COLOR: rgb(73,113,30)"&gt;&lt;SPAN&gt;0126&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;SPAN style="COLOR: rgb(255,192,0)"&gt;330&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;SPAN style="COLOR: rgb(0,112,192)"&gt;00359&lt;/SPAN&gt;&lt;SPAN style="COLOR: rgb(247,150,70)"&gt;1050&lt;/SPAN&gt;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;1&lt;/SPAN&gt;&lt;/STRONG&gt;&lt;/CODE&gt; 
+&lt;LI&gt;&lt;STRONG&gt;439 - PPP&lt;/STRONG&gt;: 3 číslice pre prefix 
+&lt;LI&gt;&lt;STRONG style="COLOR: rgb(73,113,30)"&gt;0126 - NNNN&lt;/STRONG&gt;: 4 číslice pre číslo&amp;nbsp;skenera, ktoré bude dostupné v používateľskom účte v registračnom portáli &lt;EM&gt;Správcu zálohového systému&amp;nbsp;&lt;/EM&gt;(ID odberného miesta/obchodu) 
+&lt;LI&gt;&lt;STRONG style="COLOR: rgb(255,192,0)"&gt;330 - DDD&lt;/STRONG&gt;: 3 číslice označujúce deň v roku 
+&lt;LI&gt;&lt;STRONG style="COLOR: rgb(0,112,192)"&gt;00359 - SSSSS&lt;/STRONG&gt;: 5 číslic pre poradové číslo dokladu 
+&lt;LI&gt;&lt;STRONG style="COLOR: rgb(247,150,70)"&gt;1050 - AAAA&lt;/STRONG&gt;: 4 číslice pre sumu kupónu (napr. 1050 pre 10,50 €) 
+&lt;LI&gt;&lt;STRONG style="COLOR: rgb(255,0,0)"&gt;1 - C&lt;/STRONG&gt;:&amp;nbsp;kontrolná&amp;nbsp;číslica &lt;/LI&gt;&lt;/UL&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;TOMRA (prefix 980)&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Čiarový kód kupónu pre odber&amp;nbsp;&lt;A href="0cbf9ae9-1760-4f87-89be-559b62ee193b"&gt;zálohovaných vratných obalov&lt;/A&gt;&amp;nbsp;na nápoje na zálohomatoch &lt;STRONG&gt;TOMRA&lt;/STRONG&gt; má nasledujúce parametre.&amp;nbsp;V čiarovom kóde sú odlíšené obaly za fľaše PET a plechovky a za ostatné vratné obaly (sklenené fľaše, prepravky). Po načítaní takéhoto čiarového kódu pribudnú v pokladnici dva riadky – vrátenie obalov za fľaše PET a plechovky a prípadne ďalší napr. za sklenené fľaše.&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;Formát čiarového kódu: code-128&lt;/SPAN&gt; 
+&lt;LI&gt;Počet číslic: 28 
+&lt;LI&gt;Štruktúra kódu:&amp;nbsp; &lt;CODE style="FONT-SIZE: 1.1em; FONT-FAMILY: Lucida Console; LETTER-SPACING: 0.1em"&gt;&lt;STRONG&gt;PPP&lt;SPAN style="COLOR: rgb(73,113,30)"&gt;NNNNN&lt;/SPAN&gt;&lt;SPAN style="COLOR: rgb(255,192,0)"&gt;I&lt;/SPAN&gt;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;Y&lt;/SPAN&gt;&lt;SPAN style="COLOR: rgb(112,48,160)"&gt;DOY&lt;/SPAN&gt;&lt;SPAN style="COLOR: rgb(255,192,0)"&gt;RRRR&lt;/SPAN&gt;&lt;SPAN style="COLOR: rgb(49,133,155)"&gt;OOOO&lt;/SPAN&gt;&lt;/STRONG&gt;&lt;SPAN style="COLOR: rgb(0,112,192)"&gt;&lt;STRONG&gt;&lt;SPAN style="COLOR: rgb(247,150,70)"&gt;&lt;SPAN style="COLOR: rgb(0,112,192)"&gt;&lt;STRONG style="COLOR: rgb(247,150,70)"&gt;QQQQ&lt;/STRONG&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;SPAN style="COLOR: rgb(146,208,80)"&gt;EE&lt;/SPAN&gt;&lt;/STRONG&gt;&lt;STRONG&gt;&lt;FONT color=red&gt;C&lt;/FONT&gt;&lt;/STRONG&gt;&lt;/SPAN&gt;&lt;/CODE&gt; 
+&lt;LI&gt;Testovací kód:&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;CODE style="FONT-SIZE: 1.1em; FONT-FAMILY: Lucida Console; LETTER-SPACING: 0.1em"&gt;&lt;STRONG&gt;980&lt;SPAN style="COLOR: rgb(73,113,30)"&gt;00173&lt;/SPAN&gt;&lt;SPAN style="COLOR: rgb(255,192,0)"&gt;1&lt;/SPAN&gt;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;1&lt;/SPAN&gt;&lt;SPAN style="COLOR: rgb(112,48,160)"&gt;354&lt;/SPAN&gt;&lt;SPAN style="COLOR: rgb(255,192,0)"&gt;0013&lt;/SPAN&gt;&lt;SPAN style="COLOR: rgb(49,133,155)"&gt;0015&lt;/SPAN&gt;&lt;SPAN style="COLOR: rgb(247,150,70)"&gt;0427&lt;/SPAN&gt;&lt;SPAN style="COLOR: rgb(146,208,80)"&gt;09&lt;/SPAN&gt;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;2&lt;/SPAN&gt;&lt;/STRONG&gt;&lt;/CODE&gt; 
+&lt;LI&gt;&lt;STRONG&gt;980&amp;nbsp;- PPP&lt;/STRONG&gt;: 3 číslice pre prefix 
+&lt;LI&gt;&lt;STRONG style="COLOR: rgb(73,113,30)"&gt;00173 -&amp;nbsp;&lt;SPAN style="COLOR: rgb(73,113,30)"&gt;NNNNN&lt;/SPAN&gt;&lt;/STRONG&gt;:&amp;nbsp;5 číslic pre číslo&amp;nbsp;skenera, ktoré bude dostupné v používateľskom účte v registračnom portáli &lt;EM&gt;Správcu zálohového systému&lt;/EM&gt; (ID odberného miesta/obchodu) 
+&lt;LI&gt;&lt;STRONG style="COLOR: rgb(255,192,0)"&gt;1&amp;nbsp;- I&lt;/STRONG&gt;: 1 číslica pre poradové číslo zálohomatu v&amp;nbsp;obchode 
+&lt;LI&gt;&lt;STRONG style="COLOR: rgb(255,0,0)"&gt;1&amp;nbsp;- Y&lt;/STRONG&gt;:&amp;nbsp;1 číslica pre rok 
+&lt;LI&gt;&lt;STRONG style="COLOR: rgb(112,48,160)"&gt;354&amp;nbsp;- DOY&lt;/STRONG&gt;:&amp;nbsp;3 číslice pre deň v&amp;nbsp;roku 
+&lt;LI&gt;&lt;STRONG style="COLOR: rgb(255,192,0)"&gt;0013 - RRRR&lt;/STRONG&gt;: 4 číslice pre hodnotu za sklenené fľaše a prepravky 
+&lt;LI&gt;&lt;SPAN style="COLOR: rgb(49,133,155)"&gt;&lt;STRONG&gt;0015 - OOOO&lt;/STRONG&gt;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;: 4 číslice pre hodnotu za plastové PET fľaše a plechovky&lt;/SPAN&gt;&lt;/SPAN&gt; 
+&lt;LI&gt;&lt;SPAN style="COLOR: rgb(49,133,155)"&gt;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;&lt;SPAN style="COLOR: rgb(0,112,192)"&gt;&lt;STRONG style="COLOR: rgb(247,150,70)"&gt;&lt;SPAN style="COLOR: rgb(247,150,70)"&gt;0427 -&lt;/SPAN&gt;&lt;SPAN style="COLOR: rgb(247,150,70)"&gt;&amp;nbsp;&lt;/SPAN&gt;QQQQ&lt;/STRONG&gt;&lt;/SPAN&gt;: 4 číslice pre poradové číslo kupónu&lt;/SPAN&gt;&lt;/SPAN&gt; 
+&lt;LI&gt;&lt;SPAN style="COLOR: rgb(49,133,155)"&gt;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;&lt;STRONG style="COLOR: rgb(146,208,80)"&gt;09 - EE&lt;/STRONG&gt;: náhodné číslo (rezerva)&lt;/SPAN&gt;&lt;/SPAN&gt; 
+&lt;LI&gt;&lt;STRONG style="COLOR: rgb(255,0,0)"&gt;2&amp;nbsp;- C&lt;/STRONG&gt;:&amp;nbsp;kontrolná&amp;nbsp;číslica kupónu &lt;/LI&gt;&lt;/UL&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;RVM Systems (prefix 21, 49, 50, 53, 63)&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Čiarový kód kupónu pre odber&amp;nbsp;&lt;A href="0cbf9ae9-1760-4f87-89be-559b62ee193b"&gt;zálohovaných vratných obalov&lt;/A&gt;&amp;nbsp;na nápoje na zálohomatoch &lt;STRONG&gt;RVM Systems&lt;/STRONG&gt; má nasledujúce parametre.&amp;nbsp;V čiarovom kóde sú odlíšené obaly za fľaše PET a plechovky a za ostatné vratné obaly (sklenené fľaše, prepravky). Po načítaní takéhoto čiarového kódu pribudnú v pokladnici dva riadky – vrátenie obalov za fľaše PET a plechovky a prípadne ďalší napr. za sklenené fľaše.&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;Formát čiarového kódu: code-128&lt;/SPAN&gt; 
+&lt;LI&gt;Počet číslic: 24 
+&lt;LI&gt;Štruktúra kódu:&amp;nbsp; &lt;CODE style="FONT-SIZE: 1.1em; FONT-FAMILY: Lucida Console; LETTER-SPACING: 0.1em"&gt;&lt;STRONG&gt;PP&lt;SPAN style="COLOR: rgb(73,113,30)"&gt;NNNN&lt;/SPAN&gt;&lt;SPAN style="COLOR: rgb(255,192,0)"&gt;RRRRR&lt;/SPAN&gt;&lt;SPAN style="COLOR: rgb(49,133,155)"&gt;OOOOO&lt;/SPAN&gt;&lt;/STRONG&gt;&lt;SPAN style="COLOR: rgb(0,112,192)"&gt;&lt;STRONG style="COLOR: rgb(247,150,70)"&gt;QQQQQ&lt;/STRONG&gt;&lt;STRONG&gt;&lt;FONT color=#7030a0&gt;DOY&lt;/FONT&gt;&lt;/STRONG&gt;&lt;/SPAN&gt;&lt;/CODE&gt; 
+&lt;LI&gt;Testovací kód:&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;CODE style="FONT-SIZE: 1.1em; FONT-FAMILY: Lucida Console; LETTER-SPACING: 0.1em"&gt;&lt;STRONG&gt;21&lt;SPAN style="COLOR: rgb(73,113,30)"&gt;8100&lt;/SPAN&gt;&lt;SPAN style="COLOR: rgb(255,192,0)"&gt;00013&lt;/SPAN&gt;&lt;SPAN style="COLOR: rgb(49,133,155)"&gt;00015&lt;/SPAN&gt;&lt;SPAN style="COLOR: rgb(247,150,70)"&gt;00001&lt;/SPAN&gt;&lt;SPAN style="COLOR: rgb(112,48,160)"&gt;333&lt;/SPAN&gt;&lt;/STRONG&gt;&lt;/CODE&gt; 
+&lt;LI&gt;&lt;STRONG&gt;21&amp;nbsp;- PP&lt;/STRONG&gt;: 2 číslice pre prefix 
+&lt;LI&gt;&lt;STRONG style="COLOR: rgb(73,113,30)"&gt;8100 -&amp;nbsp;&lt;SPAN style="COLOR: rgb(73,113,30)"&gt;NNNN&lt;/SPAN&gt;&lt;/STRONG&gt;:&amp;nbsp;4 číslice pre číslo&amp;nbsp;skenera, ktoré bude dostupné v používateľskom účte v registračnom portáli &lt;EM&gt;Správcu zálohového systému&lt;/EM&gt; (ID odberného miesta/obchodu) 
+&lt;LI&gt;&lt;STRONG style="COLOR: rgb(255,192,0)"&gt;00013 - RRRRR&lt;/STRONG&gt;:&amp;nbsp;5 číslic pre hodnotu za sklenené fľaše a prepravky 
+&lt;LI&gt;&lt;SPAN style="COLOR: rgb(49,133,155)"&gt;&lt;STRONG&gt;0015 - OOOOO&lt;/STRONG&gt;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;:&amp;nbsp; 5 číslic pre hodnotu za plastové PET fľaše a plechovky&lt;/SPAN&gt;&lt;/SPAN&gt; 
+&lt;LI&gt;&lt;SPAN style="COLOR: rgb(49,133,155)"&gt;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;&lt;SPAN style="COLOR: rgb(0,112,192)"&gt;&lt;STRONG style="COLOR: rgb(247,150,70)"&gt;&lt;SPAN style="COLOR: rgb(247,150,70)"&gt;&lt;SPAN style="COLOR: rgb(247,150,70)"&gt;00001&lt;/SPAN&gt;&lt;SPAN style="COLOR: rgb(247,150,70)"&gt;&amp;nbsp;&lt;/SPAN&gt;-&lt;/SPAN&gt;&lt;SPAN style="COLOR: rgb(247,150,70)"&gt;&amp;nbsp;&lt;/SPAN&gt;QQQQQ&lt;/STRONG&gt;&lt;/SPAN&gt;: 5 číslic&amp;nbsp;pre poradové číslo kupónu&lt;/SPAN&gt;&lt;/SPAN&gt; 
+&lt;LI&gt;&lt;SPAN style="COLOR: rgb(49,133,155)"&gt;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;&lt;STRONG style="COLOR: rgb(112,48,160)"&gt;333&amp;nbsp;- DOY&lt;/STRONG&gt;:&amp;nbsp;3 číslice pre deň v&amp;nbsp;roku&lt;/SPAN&gt;&lt;/SPAN&gt; &lt;/LI&gt;&lt;/UL&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;P&gt;Viac informácií o&amp;nbsp;problematike zálohovania a výkupu&amp;nbsp;zálohovaných&amp;nbsp;vratných obalov&amp;nbsp;získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="0cbf9ae9-1760-4f87-89be-559b62ee193b" style="auto-update-caption: true"&gt;Zálohovanie vratných obalov&lt;/A&gt;.&lt;/P&gt;
+&lt;H2&gt;Čiarový kód GS1 - štandard (norma) používaná napr. v zdravotníctve&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Združenie&amp;nbsp;&lt;EM&gt;&lt;STRONG&gt;GS1&lt;/STRONG&gt;&lt;/EM&gt; dlhodobo spolupracuje v oblasti zavádzania štandardov v oblasti zdravotníctva s cieľom zvýšenia bezpečnosti pacientov, zníženia chybovosti v zdravotnej starostlivosti a&amp;nbsp;pod. Pomocou čiarových kódov možno kontrolovať a lokalizovať každú šaržu lieku, ktorá bola podaná, zamedziť používaniu falošných liečiv atď. 
+&lt;LI&gt;Čiarový kód štandardu GS1 spoužívaný v zdravotníctve (a aj v iných odvetviach)&amp;nbsp;obsahuje okrem bežného čiarového kódu EAN-13 aj ďalšie údaje, a to napr. dátum výroby, exspirácie, číslo šarže&amp;nbsp;a pod. Pri nasnímaní takéhoto čiarového kódu sa v prípade používania sériových čísiel (šarží) pri príjme a výdaji automaticky vytvoria zápisy v &lt;A href="4f8c7cc5-f870-47fa-9506-1aa9ea89dc14"&gt;zozname výrobných/sériových čísel&lt;/A&gt;. Tu je možné sledovať aj dátum výroby a&amp;nbsp;záručnú dobu (exspiráciu). 
+&lt;LI&gt;Formát čiarového kódu: &lt;STRONG&gt;Code 128&lt;/STRONG&gt; 
+&lt;LI&gt;Počet čísel: dynamicky podľa údajov, začína 01 
+&lt;LI&gt;Čiarový kód pri zobrazení v číselnej podobe môže obsahovať zátvorky (), ktorú určujú typ údaja. 
+&lt;LI&gt;Príklad čiarového kódu GS1:&amp;nbsp;(01)00845225002886(11)200930(17)230928(10)0302034683 &lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="eca00eee-6d02-47e0-86ff-f743d74e3ccb" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="c233ada3-0fed-4911-97f3-0680973ebac1">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="7b833a16-fdee-4777-89b6-39e75023db2f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="4fbe9db8-25bc-420f-aee5-228d0a8ff03f">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="c6d15eac-0bf5-4bf5-811b-04af08023299" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="80a78093-fc45-4db9-b74b-e1f9829f7b3c">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="f14d8c98-a4e1-4958-8eb9-695f9803521c" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="34f91c11-1a5d-4773-ac4e-48ad2fc859d3">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="298a4cd7-de48-4a5b-9675-abc340481aad" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="5ba18930-a06e-4228-a051-bb2c63ebe86d">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="9ad24289-174c-482d-81f0-3135a3fa837b">
+      <Keyword m="2014-11-12T12:20:11.4042032Z">Čiarový kód</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="af27b93e-5e6e-4372-b4f7-d35800d06864">
+      <Keyword m="2014-11-12T13:49:34.258789Z">EAN</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="f9cc475f-759a-4959-9567-c9b3fb1873cf">
+      <Keyword m="2015-01-03T07:44:07.30416Z">Vernostná karta</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="3ee3c868-570d-4cea-a9ff-3c8952f3bb2a">
+      <Keyword m="2015-01-03T07:44:17.6857538Z">Zákaznícka karta</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="794faf1d-7be6-4de2-85ba-194d9b2e14d1">
+      <Keyword m="2015-01-03T07:56:07.0413266Z">Vážený čiarový kód</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="c7f1830e-cb5b-46f2-a8c4-4f6c257b93af">
+      <Keyword m="2016-03-09T08:52:58.5300666Z">Barcode</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="deb71afa-8f3e-449e-ac11-118c4fc9c96d">
+      <Keyword m="2016-05-11T07:04:03.6605894Z">Výrobky s premenlivou hmotnosťou</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="04a97386-112c-497a-8624-5c18d7b0e556">
+      <Keyword m="2019-02-28T11:16:10.1187052Z">Generátor čiarového kódu</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="d1e02cc5-a2e8-4c6b-aa6b-fca8f7cfa500">
+      <Keyword m="2021-11-19T07:42:17.3636874Z">EAN-13</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="521203c1-2620-46fc-bdc9-1cdfe1fb0ed8">
+      <Keyword m="2021-11-19T07:42:29.5087013Z">1D kód</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="03bf88c6-fcea-419e-bb57-f36b64ff375f">
+      <Keyword m="2021-11-19T07:42:39.4139Z">2D kód</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="d23e60c2-a49d-4c68-8ac9-81a37c0aadf1">
+      <Keyword m="2021-11-19T07:42:43.4705735Z">QR kód</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="039dffe6-b4a2-44ab-a9f0-5bfe3d81e866">
+      <Keyword m="2021-11-19T07:42:50.5202674Z">Lineárny kód</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="91dc64b4-5702-4a7a-a8cb-10169484d815">
+      <Keyword m="2021-11-19T07:42:55.0053464Z">Maticový kód</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="673d6566-c80b-4bf0-92c0-8de91b72ceb3">
+      <Keyword m="2021-11-19T07:43:00.4886847Z">Jednorozmerný kód</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="5bd104ce-a408-453c-b9f4-97f5f7377515">
+      <Keyword m="2021-11-19T07:43:05.0092082Z">Dvojrozmerný kód</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="ed8da721-7b84-41d5-8e6a-d6b140587001">
+      <Keyword m="2021-11-19T10:24:04.234285Z">GS1 Slovakia</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="7e1e4fa8-f19f-4899-aae5-8567e62a46fe">
+      <Keyword m="2022-01-12T12:40:59.0825957Z">Čiarové kódy - práca</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="4f9bd873-94fa-4d9b-96a8-977b0a30f9d7">
+      <Keyword m="2022-01-12T12:41:05.604482Z">Čiarový kód - práca</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="077e50a4-eabf-466d-8c22-6ff7b4d19bcd">
+      <Keyword m="2022-01-12T13:19:56.5914745Z">Čiarový kód kupónu pre odber zálohovaných jednorazových obalov </Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="b926e6af-9129-4b5f-b70c-d08820691be9">
+      <Keyword m="2023-11-16T10:02:53.7057343Z">Správca záloh</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="689472c0-ca6a-404e-9b17-d57573748fc1">
+      <Keyword m="2023-11-16T10:48:00.9779564Z">QR kódy - práca s čiarovými kódmi</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="6a638e90-afaf-47d6-aedf-e5c63aa320b5">
+      <Keyword m="2023-11-16T10:48:20.2324999Z">QR kódy - všeobecné informácie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="929320fb-a8ba-4ec5-8dde-b04981c9c5d2">
+      <Keyword m="2023-11-16T10:48:27.0770403Z">QR kódy - použitie v OBERON-e</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

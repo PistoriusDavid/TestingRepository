@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="89eb521c-c123-4503-ab08-ae59bcf4b34e" Status="Complete" CreatedOn="2021-07-06T08:00:50.5684404Z" ModifiedOn="2022-11-21T14:18:35.3458225Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Menu_OBERON_OpenOBERONCenter" BuildFlags="">
+  <Title m="2021-07-06T08:01:21.5454584Z">Otvoriť OBERON Center</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2022-05-30T07:12:37.8500154Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;je venovaná&amp;nbsp;položke&amp;nbsp;&lt;EM&gt;Otvoriť&amp;nbsp;OBERON Center&lt;/EM&gt;&amp;nbsp;v ponuke &lt;EM&gt;OBERON&lt;/EM&gt; programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Výberom položky sa&amp;nbsp;otvorí&amp;nbsp;program &lt;A href="24e780fd-36d3-4a6e-bfc0-a8665c75e4ee"&gt;OBERON Center&lt;/A&gt;, ktorý je &lt;STRONG&gt;súčasťou&amp;nbsp;systému OBERON&amp;nbsp;a je určený&amp;nbsp;na vykonávanie určitých špecifických funkcií&lt;/STRONG&gt; - samostatných automatických úloh a činností&amp;nbsp;na pozadí. 
+&lt;LI&gt;Program predstavuje spustiteľný súbor &lt;EM&gt;Oberon Center.exe&lt;/EM&gt;, ktorý sa nachádza v adresári &lt;SPAN lang=en-us xml:lang="en-us"&gt;&lt;EM&gt;\\OBERON\SHARE\SYSTEM&lt;/EM&gt;&lt;/SPAN&gt; a spúšťa sa automaticky pri spustení počítača. Jeho ikona sa štandardne zobrazuje&amp;nbsp;na paneli úloh systému &lt;EM&gt;Windows&lt;/EM&gt;&amp;nbsp;v&amp;nbsp;systémových ikonách (pri dátume a čase). &lt;/LI&gt;&lt;/UL&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/OBERON_Center/Oberon_Center_Taskbar.png"&gt;&lt;/P&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Ďalšie informácie získate v téme&amp;nbsp;&lt;A href="24e780fd-36d3-4a6e-bfc0-a8665c75e4ee"&gt;OBERON Center&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="edbc5030-a1e7-4669-8624-67f0770555de" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="24e780fd-36d3-4a6e-bfc0-a8665c75e4ee">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="4272e076-43f9-45a3-a950-68b68eba29cf">
+      <Keyword m="2021-07-06T08:19:44.3207686Z">OBERON Center - otvorenie</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

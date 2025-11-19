@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="c674b4cf-fcde-4565-a245-852c1508b74f" Status="Complete" CreatedOn="2014-10-13T06:32:24.0074903Z" ModifiedOn="2023-06-30T11:03:45.8480983Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="39030" Name="MsgBox_AccDouble_Exchange_Difference" BuildFlags="">
+  <Title m="2014-10-13T06:32:49.9609747Z">Zaúčtovanie kurzového rozdielu</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2021-08-30T12:45:09.1579604Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;informácie o dialógovom okne týkajúcom sa zaúčtovania kurzového rozdielu&lt;/STRONG&gt; do&amp;nbsp;&lt;A href="d8c9bfc8-92d1-4471-8909-e5f8ce602d6c"&gt;účtovného denníka&lt;/A&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Aktuálne&amp;nbsp;zaúčtovávaný doklad&amp;nbsp;predstavuje úhradu faktúry v cudzej mene. V doklade je kurzový rozdiel, preto je potrebné&amp;nbsp;do&amp;nbsp;&lt;A href="d8c9bfc8-92d1-4471-8909-e5f8ce602d6c"&gt;účtovného denníka&lt;/A&gt; zaúčtovať kurzový zisk alebo stratu. Program vykoná toto zaúčtovanie automaticky podľa zvolenej&amp;nbsp;&lt;A href="da8a9192-a6cc-4470-b5d5-13d3ec435f97"&gt;predkontácie&lt;/A&gt;, ktorú je potrebné nastaviť.
+&lt;LI&gt;Predkontácie kurzového zisku/straty je možné nastaviť&amp;nbsp;v&amp;nbsp;ponuke &lt;EM&gt;Účtovníctvo,&amp;nbsp;&lt;/EM&gt;&lt;A href="da8a9192-a6cc-4470-b5d5-13d3ec435f97"&gt;Predkontácie&lt;/A&gt;. Vyberte príslušnú predkontáciu, stlačte tlačidlo &lt;EM&gt;Oprava&lt;/EM&gt;, záložka &lt;EM&gt;Preúčtovania&lt;/EM&gt;. Do&amp;nbsp;poľa &lt;EM&gt;Predkontácia&lt;/EM&gt; &lt;EM&gt;pre kurzový zisk/stratu&lt;/EM&gt; zapíšte príslušné čísla predkontácií.&lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="8a0e0ad8-d4ba-4d2f-8b90-1bf5d021f898" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="8c1f1dd4-a841-4745-beed-49dd12964b0a">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="2603b2f3-faf4-4b8b-a497-d655e40bfddf" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="350a3a7d-8aa8-4886-88e9-1181038807cf">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="975d2f29-4ecc-4fbc-b2e7-d829d93b0881" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="09e378df-5c76-42f3-a245-b33dd0580648">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="e80e6994-c5fc-4d11-9075-f9fa32de3cc3">
+      <Keyword m="2021-08-30T12:52:40.887892Z">Dialógové okno - zaúčtovanie kurzového rozdielu</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

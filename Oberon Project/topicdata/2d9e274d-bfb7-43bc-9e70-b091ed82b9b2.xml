@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="2d9e274d-bfb7-43bc-9e70-b091ed82b9b2" Status="Complete" CreatedOn="2014-09-11T11:05:32.8762619Z" ModifiedOn="2023-06-01T12:37:18.8510189Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Stock_Advanced_Recepture_About" BuildFlags="">
+  <Title m="2021-10-28T06:31:35.5053696Z">Všeobecne o receptúrach</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-06-01T12:37:18.8510189Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;všeobecné informácie o&amp;nbsp;receptúrach&lt;/STRONG&gt; v systéme OBERON.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Systém OBERON umožňuje prácu s&amp;nbsp;receptúrami a&amp;nbsp;kalkuláciami jedál a&amp;nbsp;nápojov. Aby bolo možné s receptúrami v&amp;nbsp;systéme OBERON pracovať, je potrebné v&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="58eee6a7-b5aa-47a5-9d0e-6f9987c96a52"&gt;oddiel Firma, Sklad&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt; záložka &lt;EM&gt;Skladové karty&lt;/EM&gt; začiarknuť pole &lt;I&gt;&lt;STRONG&gt;Umožniť pracovať s receptúrami a&amp;nbsp;kalkuláciami jedál&lt;/STRONG&gt;.&lt;/I&gt; 
+&lt;LI&gt;Receptúra je skladová karta, na ktorej je nastavený&amp;nbsp;&lt;A href="8deac9fe-9864-41e8-aaa3-02257c241d78"&gt;typ karty&lt;/A&gt;&amp;nbsp;&lt;STRONG&gt;&lt;EM&gt;Receptúra&lt;/EM&gt;&lt;/STRONG&gt;. Ide o&amp;nbsp;špeciálny typ skladovej karty, ktorá sa podobne ako sada alebo výrobok skladá z&amp;nbsp;ďalších&amp;nbsp;skladových kariet - jednoduchých alebo aj receptúr, napr. zeleninový šalát sa môže skladať z&amp;nbsp;nálevu (receptúra) a ďalších zložiek (jednoduché karty).&amp;nbsp;Na rozdiel od iných typov kariet&amp;nbsp;je tento typ určený&amp;nbsp;na kalkuláciu jedál, napr. navyše umožňuje výpočet hmotnosti a pod. Množstvo na karte je vždy nulové (neeviduje sa). 
+&lt;LI&gt;Receptúru&amp;nbsp;je možné predať na&amp;nbsp;&lt;A href="aec074f4-3e1c-4a1e-8a80-06fcecf51156"&gt;Pokladnici OBERON&lt;/A&gt; v&amp;nbsp;režime reštauračnej pokladnice. Pri odpisovaní predaných množstiev receptúr program automaticky&amp;nbsp;zníži množstvá na skladových kartách jednotlivých položiek receptúr. Napr. pri vydaní receptúry &lt;I&gt;Káva so šľahačkou&lt;/I&gt;&amp;nbsp;sa odpíše príslušné množstvo na skladovej karte kávy,&amp;nbsp;šľahačky, cukru&amp;nbsp;atď. 
+&lt;LI&gt;Systém OBERON neumožňuje vložiť receptúru do faktúry. Aby bolo možné receptúru vyfakturovať, je potrebné najskôr vložiť receptúru do &lt;A href="0be61fcc-a85b-4572-876d-2171a5cb7c29"&gt;výdajky&lt;/A&gt;. Vytvorenie&amp;nbsp;&lt;A href="fc7595a6-54ce-4aa9-acb4-93d7880e854e"&gt;skladových pohybov&lt;/A&gt;,&amp;nbsp;a tým zníženie stavu&amp;nbsp;zásob na skladových kartách položiek receptúry nastáva pri uložení výdajky. V&amp;nbsp;zozname&amp;nbsp;&lt;A href="fc7595a6-54ce-4aa9-acb4-93d7880e854e"&gt;skladových pohybov&lt;/A&gt;&amp;nbsp;sa automaticky vytvoria &lt;STRONG&gt;pohyby typu výdaj položiek receptúry&lt;/STRONG&gt; s&amp;nbsp;interným&amp;nbsp;&lt;A href="a7e1c27b-e28f-4ae9-b643-16cc1b478212"&gt;druhom pohybu&lt;/A&gt;&lt;EM&gt;&amp;nbsp;V-Receptúra&lt;/EM&gt;, &lt;STRONG&gt;skladový pohyb typu príjem hotového jedla&lt;/STRONG&gt; s&amp;nbsp;interným druhom pohybu &lt;EM&gt;P-Receptúra&lt;/EM&gt; (v obstarávacích cenách)&amp;nbsp;a&amp;nbsp;&lt;STRONG&gt;skladový pohyb typu&amp;nbsp;výdaj hotového jedla&lt;/STRONG&gt; (v predajných cenách). Príklad: Obsluha v reštauračnej prevádzke chce vyfakturovať 10&amp;nbsp;porcií jedla &lt;EM&gt;Tatársky biftek&lt;/EM&gt;. V&amp;nbsp;prvom kroku vytvorí výdajku, do ktorej vloží&amp;nbsp;10 porcií&amp;nbsp;daného jedla. Po uložení výdajky sa do skladových pohybov uložia skladové pohyby typu výdaj položiek receptúry s&amp;nbsp;interným&amp;nbsp;druhom pohybu&lt;EM&gt;&amp;nbsp;V-Receptúra&lt;/EM&gt; a skladový pohyb typu príjem hotového jedla s&amp;nbsp;interným druhom pohybu &lt;EM&gt;P-Receptúra&lt;/EM&gt; (v obstarávacích cenách) a skladový pohyb typu výdaj hotového jedla (v predajných cenách). Následne obsluha vytvorí faktúru z&amp;nbsp;existujúcej výdajky (prvý krok v sprievodcovi vytváraním&amp;nbsp;&lt;A href="ec4e9be4-140f-4ec9-aa04-544e9870bfe1"&gt;novej faktúry&lt;/A&gt;). 
+&lt;LI&gt;Pri tomto výdaji receptúry (hotového jedla) sa eviduje výnos, t. j. rozdiel medzi obstarávacími cenami jednotlivých zložiek receptúry a jej predajnou cenou.&amp;nbsp;Pri prípadnom&amp;nbsp;vymazaní výdajky sa stavy zásob upravia na pôvodné hodnoty.
+&lt;LI&gt;Pri organizovaní spoločenských akcií (svadieb, konferencií, školení...)&amp;nbsp;je možné využiť tlačový výstup v&amp;nbsp;knihe &lt;A href="48505e8d-5f28-4063-882b-ca07f33670ef"&gt;Objednávky prijaté&lt;/A&gt;, a&amp;nbsp;to &lt;STRONG&gt;&lt;EM&gt;Objednávka prijatá (podrobný rozbor)&lt;/EM&gt;&lt;/STRONG&gt;. Okrem informácií o&amp;nbsp;výpočte zisku, navýšenia, marže atď. obsahuje aj podrobné &lt;STRONG&gt;informácie o surovinách &lt;/STRONG&gt;obsiahnutých v&amp;nbsp;jednotlivých receptúrach&lt;STRONG&gt;&amp;nbsp;&lt;/STRONG&gt;v&amp;nbsp;objednávke:&lt;STRONG&gt; objednané množstvo, aktuálne množstvo na sklade, ako aj rozdiel medzi týmito množstvami.&amp;nbsp;&lt;/STRONG&gt;To môže účtovnej jednotke poslúžiť ako podkladová informácia, &lt;STRONG&gt;ktoré suroviny a&amp;nbsp;akom množstve je potrebné dokúpiť&lt;/STRONG&gt;. Ďalší tlačový výstup &lt;STRONG&gt;&lt;EM&gt;Objednávka prijatá (podrobný rozbor) [len označené]&lt;/EM&gt;&lt;/STRONG&gt; poskytuje súhrnné informácie o surovinách, ktoré je potrebné zakúpiť pre všetky označené akcie (objednávky).&amp;nbsp;Viac informácií získate v téme&amp;nbsp;&lt;A href="657aa6d8-5eeb-4dbb-8a4d-38b12858a942"&gt;Cenové ponuky v gastrosektore&lt;/A&gt;. 
+&lt;LI&gt;Receptúry možno rýchlo a&amp;nbsp;jednoducho vytvárať skopírovaním inej receptúry (&lt;EM&gt;Ctrl+C/Ctrl+V&lt;/EM&gt;). &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Na ukážkové účely je&amp;nbsp;k&amp;nbsp;dispozícii&amp;nbsp;vzorová databáza pre reštauračné prevádzky s receptúrami a&amp;nbsp;kalkuláciami jedál. Databáza je dostupná priamo v programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;&amp;nbsp;z&amp;nbsp;&lt;A href="d2b25c8c-d57f-4678-8021-3148259d3777"&gt;formulára Otvorenie agendy (firmy)&lt;/A&gt;, tlačidlo &lt;EM&gt;Nová firma&lt;/EM&gt;&amp;nbsp;(Obrázok č. 1).&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H5&gt;Obrázok č. 1: Databáza s receptúrami a&amp;nbsp;kalkuláciami jedál&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Stock/Stock_Recipes_TestDatabase.PNG"&gt;&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="194941ed-a95a-47d6-8b74-56f59aaa9313" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="12572b52-44a7-433c-be59-df1192f3c6a0">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="2c221bf5-546e-42c2-904e-00ecc70baf63" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="691d23dd-a44d-48f0-827e-c6a358b2dabc">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="c4335cfc-66ce-4827-8e6d-a5dcaee80b7a" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="d625d826-19da-443e-9c4b-9fd6d5a9c0bd">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="b8736dc8-c375-425a-8302-d596a9075f88" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="3ae0999b-7567-4494-ac38-6da31fcaa7b1">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="f7a9c309-59a2-4c4d-8d96-656f6362dc26" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="8deac9fe-9864-41e8-aaa3-02257c241d78">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="8e5e4a69-bc44-4647-90ae-b41625ba49b6" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="277559d2-a8ba-4399-b39d-58b8b28b01ff">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="9ed5cf97-4fe3-4657-a39d-3edf72b88b24" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="657aa6d8-5eeb-4dbb-8a4d-38b12858a942">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="edb05d04-ef7e-4aaa-8c6e-97a35db28dbc" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="8c3cc66a-acbb-4047-aad2-b06170ec7fb5">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="095f2851-b2c0-49de-9832-fda633c20226" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="7dd24e6f-6f96-4a51-9881-991d948d6392">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="9d7043db-eacc-4e58-90b5-c9e31ce5f3c2" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="fe4a9463-d066-4a56-8eee-a728ae1a7220">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="85b1c51e-422c-403b-ac5f-da56120bc3d8" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="2f634ed7-507e-4cf9-a6bf-6e68510e6f57">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="b3efe5f4-2e0d-4e1e-931a-8257caaa86c9">
+      <Keyword m="2023-05-31T10:03:34.5608831Z">Receptúry - všeobecné informácie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="4ac79ca1-51be-4836-aa22-d954e5e90fe6">
+      <Keyword m="2023-05-31T10:04:07.7924339Z">Výdaj receptúry</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="8f052310-29d5-432b-a468-63aaa85ad030">
+      <Keyword m="2015-07-06T09:09:09.3309453Z">Odťaženie receptúry</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="0ba26ae9-27e4-4f26-a831-e9f5c8b06df0">
+      <Keyword m="2023-05-31T10:04:15.5768696Z">Predaj receptúry</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="d04a76f4-74d5-49be-a52f-ad4d5b6ca22e">
+      <Keyword m="2023-05-31T10:04:25.6037065Z">Receptúra - výdaj</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="c07ebcb7-c78a-452a-8eb4-75a510e7996f">
+      <Keyword m="2023-05-31T10:04:31.3703895Z">Receptúra - predaj</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

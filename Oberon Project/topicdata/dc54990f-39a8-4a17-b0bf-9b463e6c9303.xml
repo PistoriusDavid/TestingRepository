@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="dc54990f-39a8-4a17-b0bf-9b463e6c9303" Status="Complete" CreatedOn="2014-09-09T12:48:42.841713Z" ModifiedOn="2024-07-08T10:11:16.2443399Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Stock_Advanced_Recalculation_Acquisition_Prices" BuildFlags="">
+  <Title m="2014-09-09T12:49:54.1777932Z">Prepočet obstarávacích cien a výnosov</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-06-20T11:40:36.4614573Z">&lt;P&gt;V&amp;nbsp;tejto téme &lt;EM&gt;Pomocníka&lt;/EM&gt; sú uvedené &lt;STRONG&gt;informácie o funkcii, ktorá umožňuje prepočítať obstarávacie ceny a&amp;nbsp;výnosy&lt;/STRONG&gt; v&amp;nbsp;module&amp;nbsp;&lt;A href="78d20602-4b59-4b31-9f0a-a04a1d376ec5"&gt;Skladová evidencia&lt;/A&gt; systému OBERON. Funkcia &lt;EM&gt;Prepočet obstarávacích cien a&amp;nbsp;výnosov&lt;/EM&gt; je dostupná&amp;nbsp;v&amp;nbsp;ponuke &lt;EM&gt;Sklad&lt;/EM&gt;,&amp;nbsp;&lt;A href="1a33ab0b-2df7-4dc2-962b-8a3319c16831"&gt;Skladové karty&lt;/A&gt; po stlačení tlačidla &lt;EM&gt;Možnosti&lt;/EM&gt;.&amp;nbsp;&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Funkcia &lt;EM&gt;Prepočet obstarávacích cien a&amp;nbsp;výnosov&lt;/EM&gt; opätovne prepočíta obstarávacie ceny a&amp;nbsp;výnosy na všetkých&amp;nbsp;&lt;A href="1a33ab0b-2df7-4dc2-962b-8a3319c16831"&gt;skladových kartách&lt;/A&gt; v danom&amp;nbsp;&lt;A href="1e423d36-8e0a-4420-b2e9-05f12806ec3a"&gt;sklade&lt;/A&gt;. Funkcia sa používa v&amp;nbsp;prípadoch, keď sa &lt;STRONG&gt;spätne opravujú doklady, vydáva sa do mínusu, vykonáva sa storno na registračnej pokladnici&lt;/STRONG&gt; a pod. 
+&lt;LI&gt;Funkcia prepočtu sa dokáže vysporiadať aj s&amp;nbsp;prípadmi nesprávne vedenej evidencie v časovom slede, tzv. &lt;STRONG&gt;výdajom do mínusu&lt;/STRONG&gt;. V&amp;nbsp;praxi je to pomerne častý problém: evidenčne je tovar najskôr vydaný a až potom prijatý. Fyzicky vydávanie do mínusu (vyskladnenie)&amp;nbsp;je v tomto prípade nemožné - nie je možné vydať (vyskladniť)&amp;nbsp;to, čo ešte&amp;nbsp;nebolo prijaté (naskladnené).&amp;nbsp;Preto ak to situácia umožňuje, odporúča sa sled príjmov a výdajov upraviť tak, aby boli evidované v logickom chronologickom slede (najprv bol zrealizovaný príjem a&amp;nbsp;až potom výdaj). 
+&lt;LI&gt;Funkcia prepočtu obstarávacích cien a&amp;nbsp;výnosov sa odporúča použiť aj v&amp;nbsp;prípade &lt;STRONG&gt;spätnej opravy&amp;nbsp;&lt;/STRONG&gt;&lt;A href="a64f2b63-4025-4a07-b855-a85d34e55627"&gt;dokladu s obstarávacími nákladmi&lt;/A&gt;. Vtedy sa v sklade opätovne prepočítajú obstarávacie ceny a&amp;nbsp;výnosy&amp;nbsp;na všetkých skladových kartách daného skladu. 
+&lt;LI&gt;Pri&amp;nbsp;účtovaní v systéme&amp;nbsp;&lt;A href="49dd3167-870a-4fdf-b631-d4f692f1ed72"&gt;podvojného účtovníctva&lt;/A&gt;&amp;nbsp;sa táto funkcia odporúča použiť&amp;nbsp;vždy pred &lt;A href="e50f9e37-991e-4800-9fc3-3eeb6ce162a7"&gt;hromadným zaúčtovaním skladu&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt; 
+&lt;P&gt;&lt;STRONG&gt;Príklad&lt;/STRONG&gt;&lt;/P&gt;
+&lt;P&gt;Dňa 15.10. firma prijala do skladu 10 kusov tovaru za cenu 100&amp;nbsp;€ za kus. Dňa 16.10. predala jeden kus za predajnú cenu 150&amp;nbsp;€. Výnos tejto položky predstavuje 50&amp;nbsp;€. Následne&amp;nbsp;k&amp;nbsp;10.10.&amp;nbsp;do skladu spätne zaevidovala ďalšiu príjemku, v ktorej prijali 10 kusov, avšak za cenu 120&amp;nbsp;€ za kus.&amp;nbsp;Problémom je, že dňa 15.10. mala byť priemerná obstarávacia cena skladovej položky 110&amp;nbsp;€ (pri množstve 20 kusov) a výnos dňa 16.10. mal byť 40&amp;nbsp;€, a nie vo výške 50 €. Funkcia &lt;I&gt;Prepočet&lt;/I&gt; &lt;I&gt;obstarávacích cien a výnosov&lt;/I&gt; opätovne chronologicky prepočíta obstarávaciu cenu a aj výnosy - v&amp;nbsp;príklade dňa 16.10. upraví výnos z 50&amp;nbsp;€ na 40 €.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="b3cc82da-0d5a-4759-9050-af819e13bdee" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1a33ab0b-2df7-4dc2-962b-8a3319c16831">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="b45adca6-5d58-4de4-99a2-3617f126d2d1" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="a64f2b63-4025-4a07-b855-a85d34e55627">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="cc725be7-b354-4735-a523-f86901c1c3e7" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="a00f332d-33c1-411f-9a2a-4116c3e783ef">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="e3339bb5-4dee-423a-a95c-048d877257b1" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="e50f9e37-991e-4800-9fc3-3eeb6ce162a7">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="18a8f0d3-1d75-43cd-b639-7752fa1467eb" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="c9f0ed56-580d-477c-9dbe-2e850398781f">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="e5e7ece6-ac70-4c86-a88a-064501aeb7c8" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="b1838751-e53e-4824-bd05-991e16d1eb2a">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="41405cbf-8a46-4396-a6ab-20c435e09437" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="f427806c-a0f0-4040-90f9-5f35cb60f08b">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="d988f20a-7aeb-49e3-ba18-e49284bd50a8" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="9abefb3a-4c7f-4c93-bc46-883d2e85d910">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="8fa4c57e-2dfa-4c09-ac80-30165d05f477">
+      <Keyword m="2021-11-26T10:05:55.8412627Z">Obstarávacie ceny a výnosy - prepočet</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="76269d5d-55c5-4c6d-ae38-24b8626874bf">
+      <Keyword m="2023-04-26T08:39:51.9164331Z">Výnosy - prepočet</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

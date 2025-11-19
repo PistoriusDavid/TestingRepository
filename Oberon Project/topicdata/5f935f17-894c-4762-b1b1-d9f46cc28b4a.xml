@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="5f935f17-894c-4762-b1b1-d9f46cc28b4a" Status="Complete" CreatedOn="2019-04-10T12:07:57.2697671Z" ModifiedOn="2023-10-30T07:16:14.4639259Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="80430" Name="Form_CashRegister_FiscalDevice_CommunicationSettings" BuildFlags="">
+  <Title m="2019-04-10T12:08:21.4558589Z">Sprievodca Nastavenie komunikácie fiškálneho zariadenia</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-08-03T11:04:29.5302267Z">&lt;P&gt;V závislosti od konkrétneho&amp;nbsp;&lt;A href="04b8d290-1470-41ff-85a1-c44a20958841"&gt;fiškálneho zariadenia&lt;/A&gt;&amp;nbsp;môže &lt;A href="a6f5e32d-6f1e-40bb-9d15-3f784a183252"&gt;Pokladnica OBERON&lt;/A&gt;&amp;nbsp;s týmto fiškálnym zariadením komunikovať prostredníctvom ovládača&amp;nbsp;&lt;A href="cd5f4475-36be-4b51-83ca-c11c8cd12b7e"&gt;EXALOGIC CashRegister Manager&lt;/A&gt; (ECM). Pomocou tohto sprievodcu je možné nastaviť&amp;nbsp;parametre komunikácie medzi&amp;nbsp;ovládačom ECM a fiškálnym zariadením (CHDÚ). Sprievodca je dostupný z&amp;nbsp;ponuky &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="749ff4f1-eeb5-43f5-98d2-021399d8cec7"&gt;Zariadenia&lt;/A&gt;&amp;nbsp;po stlačení tlačidla&amp;nbsp;&lt;EM&gt;Pridať&lt;/EM&gt; alebo &lt;EM&gt;Upraviť&lt;/EM&gt;.&lt;/P&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Momentálne je&amp;nbsp;komunikácia prostredníctvom ovládača ECM možná len s fiškálnou tlačiarňou&amp;nbsp;&lt;A href="00fa9619-a13d-4745-8938-cc0c2b5039ce"&gt;eKasa PANDORA&lt;/A&gt;&amp;nbsp;&lt;A href="1f32a90c-7b4a-4d69-9f38-a560178794b3" style="auto-update-caption: true"&gt;&lt;IMG border=0 alt="Odporúčané riešenia" src="images/OBERON/Basic/Odporucane-riesenie_ruka_ikona.png"&gt;&lt;/A&gt;, preto sa postup popísaný v&amp;nbsp;tejto téme vzťahuje na toto fiškálne zariadenie.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Zistenie IP adresy &lt;EM&gt;eKasa PANDORA CHDÚ&lt;/EM&gt;&lt;/H2&gt;
+&lt;P&gt;Po pripojení fiškálnej tlačiarne &lt;A href="00fa9619-a13d-4745-8938-cc0c2b5039ce"&gt;eKasa PANDORA&lt;/A&gt; sa po niekoľkých sekundách na tlačiarni automaticky vytlačí report, ktorý okrem iného obsahuje aktuálnu &lt;STRONG&gt;IP adresu&lt;/STRONG&gt; zariadenia &lt;EM&gt;eKasa PANDORA CHDÚ&lt;/EM&gt;. Danú IP adresu&amp;nbsp;pridelil zariadeniu DHCP server lokálnej počítačovej siete (výrobné nastavenie IP adresy je server DHCP). V prípade, že DHCP server nie je v&amp;nbsp;sieti dostupný, IP adresa sa pridelí náhodne. &lt;SPAN style="COLOR: rgb(255,0,0)"&gt;Report s IP adresou sa automaticky vytlačí len z&amp;nbsp;takého zariadenia (CHDÚ), do ktorého ešte neboli zapísané identifikačné a autentifikačné údaje&lt;/SPAN&gt;.&lt;/P&gt;
+&lt;P&gt;Na korektné nastavenie komunikácie fiškálneho zariadenia je nevyhnutné určiť jeho IP adresu. Aktuálna IP adresa zariadenia je síce známa (z vytlačeného reportu), na správne fungovanie zariadenia je však&amp;nbsp;nevyhnutné, aby malo pridelenú jedinečnú a &lt;SPAN style="COLOR: rgb(255,0,0)"&gt;&lt;STRONG&gt;nemennú&amp;nbsp;IP adresu&lt;/STRONG&gt;&lt;/SPAN&gt;. To sa dá docieliť dvoma spôsobmi:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;manuálnym nastavením pevnej IP adresy (neodporúča sa)&lt;/STRONG&gt; - existuje riziko, že rovnaká IP adresa môže byť&amp;nbsp;pridelená aj inému zariadeniu v sieti (serverom DHCP alebo nedopatrením správcom siete, prípadne ktorýmkoľvek iným&amp;nbsp;používateľom), 
+&lt;LI&gt;&lt;STRONG&gt;nastavením statickej IP adresy na serveri DHCP (odporúča sa)&lt;/STRONG&gt; - zaručuje, že zariadeniu bude pridelená vždy tá istá IP adresa. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Nastavenie IP adresy &lt;EM&gt;eKasa PANDORA CHDÚ&lt;/EM&gt;&lt;/H2&gt;
+&lt;P&gt;Zvoľte ponuku &lt;EM&gt;Servis,&amp;nbsp;&lt;/EM&gt;&lt;A href="749ff4f1-eeb5-43f5-98d2-021399d8cec7"&gt;Zariadenia&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt; stlačte tlačidlo &lt;I&gt;Pridať.&lt;/I&gt; V&amp;nbsp;otvorenom formulári vyberte&amp;nbsp;typ zariadenia&amp;nbsp;&lt;I&gt;&lt;STRONG&gt;Fiškálne zariadenie&lt;/STRONG&gt;&lt;/I&gt;, zadajte názov pokladnice, vyberte model&amp;nbsp;&lt;STRONG&gt;&lt;EM&gt;eKasa PANDORA &lt;/EM&gt;&lt;/STRONG&gt;a&amp;nbsp;zadajte (vyberte) &lt;STRONG&gt;názov počítača&lt;/STRONG&gt;, ku ktorému sa má zariadenie pripojiť, prípadne zadajte&amp;nbsp;ostatné údaje. Potom stlačte tlačidlo &lt;I&gt;Nastaviť zariadenie -&lt;/I&gt; otvorí sa&amp;nbsp;&lt;A href="3c20e547-e046-4644-87b3-c8979f7cbacc"&gt;formulár&lt;/A&gt;, v ktorom v&amp;nbsp;záložke &lt;EM&gt;Komunikácia&lt;/EM&gt; vykonajte nasledujúce nastavenia.&lt;/P&gt;
+&lt;OL&gt;
+&lt;LI&gt;Stlačením tlačidla &lt;EM&gt;Vyhľadať a nastaviť...&lt;/EM&gt; detegujte (vyhľadajte) zariadenie &lt;EM&gt;eKasa PANDORA CHDÚ&lt;/EM&gt; s príslušnou IP adresou. Otvorí sa formulár so zoznamom detegovaných (vyhľadaných) fiškálnych zariadení s príslušným IP adresami. V zozname vyberte dané zariadenie a stlačte tlačidlo &lt;EM&gt;Nastaviť IP...&lt;/EM&gt; (Obrázok č. 1). &lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt; 
+&lt;P&gt;&lt;STRONG&gt;Riešenie problémov&amp;nbsp;pri detekcii zariadenia&lt;/STRONG&gt;&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;Uistite sa, že je v sieti dostupný DHCP server. &lt;/LI&gt;&lt;/UL&gt;
+&lt;UL&gt;
+&lt;LI&gt;Uistite sa, že fiškálne zariadenie (CHDÚ) je pripojené cez router, ktorý na danom sieťovom rozhraní preposiela &lt;STRONG&gt;packet typu Broadcast&lt;/STRONG&gt;. 
+&lt;LI&gt;Ak bude chybne zadaná IP adresa predvolenej brány CHDÚ, (napr. z inej podsiete), CHDÚ nebude možné detegovať. Tu treba opätovne nastaviť IP adresu (aj bez vyhľadania CHDÚ) - vtedy je však potrebné zadať výrobné číslo CHDÚ manuálne. Po zmene IP je potrebné chvíľu počkať,&amp;nbsp;keďže sa&amp;nbsp;v CHDÚ reštartuje sieťové rozhranie. &lt;/LI&gt;&lt;/UL&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;LI&gt;Otvorí sa formulár (Obrázok č. 2), v&amp;nbsp;ktorom môžete nastaviť&amp;nbsp;IP adresu fiškálneho zariadenia, a to dvoma spôsobmi:&lt;BR&gt;2.1&amp;nbsp;&lt;STRONG&gt;získať IP&amp;nbsp;adresu automaticky (DHCP klient)&lt;/STRONG&gt; &lt;STRONG&gt;- odporúčané nastavenie&lt;/STRONG&gt;. V&amp;nbsp;tejto chvíli je potrebné:&lt;BR&gt;2.1.1 na DHCP serveri nastaviť&amp;nbsp;tomuto zariadeniu&amp;nbsp;túto IP adresu ako statickú, prípadne nastaviť inú požadovanú IP adresu (tiež ako statickú),&lt;BR&gt;2.1.2 po tomto nastavení je nevyhnutné vypnúť a znovu zapnúť zariadenie &lt;EM&gt;eKasa PANDORA CHDÚ&lt;/EM&gt;,&lt;BR&gt;2.1.3&amp;nbsp;po chvíli je potrebné&amp;nbsp;stlačiť tlačidlo &lt;EM&gt;Znova vyhľadať...&lt;/EM&gt; -&amp;nbsp;zobrazí sa aktualizovaný zoznam detegovaných (vyhľadaných) fiškálnych zariadení s&amp;nbsp;novonastavenou IP adresou,&lt;BR&gt;2.1.4 príslušné nastavenia potvrdiť stlačením tlačidla &lt;STRONG&gt;&lt;EM&gt;OK&lt;/EM&gt;&lt;/STRONG&gt;.&lt;BR&gt;2.2 &lt;STRONG&gt;nastaviť manuálne ako pevnú IP adresu - neodporúča sa&lt;/STRONG&gt;.&lt;BR&gt;Vykonané nastavenia potvrďte stlačením tlačidla &lt;STRONG&gt;&lt;EM&gt;OK&lt;/EM&gt;&lt;/STRONG&gt;. 
+&lt;LI&gt;Na&amp;nbsp;vysokú ochranu hesla k certifikátu podnikateľa je možné&amp;nbsp;v&amp;nbsp;ďalšom kroku&amp;nbsp;zadať kľúč, ktorým bude uvedené heslo zašifrované. Ak nezadáte žiadnu hodnotu, heslo k certifikátu podnikateľa bude chránené štandardným šifrovacím kľúčom. Uvedené nastavenie slúži na zamedzenie pripojenia daného zariadenia&amp;nbsp;&lt;EM&gt;eKasa PANDORA CHDÚ&lt;/EM&gt; k inému počítaču. 
+&lt;LI&gt;Po stlačení tlačidla &lt;EM&gt;Dokončiť&lt;/EM&gt; sa nastavenia uložia. &lt;/LI&gt;&lt;/OL&gt;
+&lt;H5&gt;Obrázok č. 1: Zoznam vyhľadaných fiškálnych zariadení s príslušnými IP adresami&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/CashRegisterECM/Device_ECM_Communication.PNG"&gt;&lt;/P&gt;
+&lt;H5&gt;&amp;nbsp;Obrázok č. 2: Nastavenie statickej IP adresy&amp;nbsp;fiškálneho zariadenia&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/CashRegisterECM/Device_ECM_IPAdress.PNG"&gt;&amp;nbsp;&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="95f740d7-33ff-4999-80c2-b8dbc5c1cc3e" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="3c20e547-e046-4644-87b3-c8979f7cbacc">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="f329c60b-fc95-4a22-b1f7-ec705880d5c4" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="2bb8914d-3e8f-417d-a083-b83300c24d66">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="41f9a5b3-db4e-4ff0-b262-a8693aa47c09">
+      <Keyword m="2022-08-12T05:45:44.2214906Z">Komunikácia fiškálneho nastavenia - nastavenie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="4dcba3f4-2d73-4586-89ca-a16359c1702c">
+      <Keyword m="2022-08-12T05:45:28.0022893Z">eKasa PANDORA - nastavenie komunikácie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="2415b19a-17ad-4e8e-b4a6-d120ea99efa5">
+      <Keyword m="2022-08-12T05:45:53.7659877Z">PANDORA - nastavenie komunikácie</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

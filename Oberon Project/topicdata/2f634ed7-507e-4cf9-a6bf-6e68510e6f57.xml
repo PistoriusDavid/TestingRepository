@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="2f634ed7-507e-4cf9-a6bf-6e68510e6f57" Status="Complete" CreatedOn="2022-11-07T12:03:44.3510362Z" ModifiedOn="2025-05-07T10:52:27.9045174Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="LUKUL_OBERONSettings" BuildFlags="">
+  <Title m="2022-11-07T12:04:31.2110615Z">Aplikácia LUKUL - nastavenia v OBERON-e</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2025-05-07T10:52:27.9045174Z">&lt;P align=left&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;súbor nastavení, ktoré je potrebné vykonať v systéme OBERON pred&amp;nbsp;&lt;/STRONG&gt;&lt;A href="20b1783a-a8ca-42a9-b2f3-80c658d62248"&gt;inštaláciou aplikácie LUKUL&lt;/A&gt;, t. j. nastavením komunikácie medzi&amp;nbsp;aplikáciou &lt;EM&gt;LUKUL&lt;/EM&gt; a&amp;nbsp;systémom OBERON.&lt;/P&gt;
+&lt;H2 align=left&gt;Základné nastavenia v OBERON-e&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Sprevádzkovanie &lt;EM&gt;Pokladnice OBERON&lt;/EM&gt;&lt;/STRONG&gt; - pred&amp;nbsp;inštaláciou aplikácie &lt;EM&gt;LUKUL - nielen mobilný čašník&lt;/EM&gt; je nutné mať sprevádzkovanú &lt;A href="a6f5e32d-6f1e-40bb-9d15-3f784a183252"&gt;Pokladnicu OBERON&lt;/A&gt;. Návod, ako tak urobiť, sa nachádza v&amp;nbsp;téme&amp;nbsp;&lt;A href="747496d6-0267-424d-a55e-aed6cbd90050"&gt;Pokladnica OBERON - uvedenie do prevádzky&lt;/A&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;Zoznam stolov&lt;/STRONG&gt; -&amp;nbsp;na&amp;nbsp;prácu s otvorenými účtami (stolmi)&amp;nbsp;je v &lt;EM&gt;Pokladnici OBERON&lt;/EM&gt; potrebné&amp;nbsp;&lt;STRONG&gt;nadefinovať zoznam stolov&lt;/STRONG&gt;.&amp;nbsp;Každý stôl je potrebné priradiť k&amp;nbsp;&lt;A href="327921ae-e0fb-48da-b179-61714048b841"&gt;predajnému miestu, prípadne k&amp;nbsp;zóne&lt;/A&gt;.&amp;nbsp;Bližšie informácie spolu s&amp;nbsp;postupom definovania stola&amp;nbsp;sú dostupné v&amp;nbsp;téme&amp;nbsp;&lt;A href="479e9fda-1e0d-43d2-97e2-32f31244c476" style="auto-update-caption: true"&gt;Zoznam stolov&lt;/A&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;Skladové karty&lt;/STRONG&gt; - všetky údaje potrebné&amp;nbsp;na naplnenie ponuky &lt;EM&gt;eMenu&lt;/EM&gt; tak v režime &lt;EM&gt;&lt;STRONG&gt;LUKUL - mobilný čašník&lt;/STRONG&gt;&lt;/EM&gt;, ako aj v jednotlivých režimoch &lt;STRONG&gt;&lt;EM&gt;LUKUL eMenu&lt;/EM&gt;&lt;/STRONG&gt;&amp;nbsp;určených pre zákazníkov (hostí) sa vyčítavajú zo systému OBERON, preto je dôležité, aby každá položka zobrazená v&amp;nbsp;ponuke bola správne zadaná aj v&amp;nbsp;&lt;A href="dbe76648-4e40-4ef5-938e-6b4a45580f97"&gt;skladovej evidencii&lt;/A&gt; systému OBERON. Viac informácií nájdete v&amp;nbsp;téme&amp;nbsp;&lt;A href="277559d2-a8ba-4399-b39d-58b8b28b01ff"&gt;Založenie skladovej karty&lt;/A&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;Skupiny v pokladnici&lt;/STRONG&gt; -&amp;nbsp;v&amp;nbsp;záložke &lt;EM&gt;Reg.&amp;nbsp;pokladnice&lt;/EM&gt;&amp;nbsp;&lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;formulára Skladová karta&lt;/A&gt;&amp;nbsp;(ponuka &lt;EM&gt;Sklad, Skladové karty&lt;/EM&gt;) nastavte názvy a poradie (prípadne aj farbu a&amp;nbsp;obrázok&amp;nbsp;na sprehľadnenie práce v&amp;nbsp;aplikácii)&amp;nbsp;&lt;A href="07957769-848a-42b8-8d4b-678f7246396c"&gt;skupín v&amp;nbsp;pokladnici&lt;/A&gt;&amp;nbsp;- v&amp;nbsp;aplikácii sa zobrazujú ako &lt;STRONG&gt;&lt;EM&gt;Skupiny&lt;/EM&gt;&lt;/STRONG&gt; (napr. &lt;EM&gt;Polievky, Šaláty, Dezerty&lt;/EM&gt; a&amp;nbsp;pod.). Jednotlivým skupinám môžete priradiť &lt;STRONG&gt;prioritu&lt;/STRONG&gt;, následkom čoho sa v aplikácii &lt;EM&gt;LUKUL&lt;/EM&gt;&amp;nbsp;položky po pridaní na otvorený účet &lt;STRONG&gt;automaticky zoradia&lt;/STRONG&gt; - viac informácií získate v&amp;nbsp;témach&amp;nbsp;&lt;A href="07957769-848a-42b8-8d4b-678f7246396c" style="auto-update-caption: true"&gt;Skladové karty - skupiny v pokladnici&lt;/A&gt;&amp;nbsp;a&amp;nbsp;&lt;A href="1b25ffff-3c56-4c16-a60c-868a0106a206" style="auto-update-caption: true"&gt;Aplikácia LUKUL - automatické triedenie položiek&lt;/A&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;Kód položky&lt;/STRONG&gt; - položky v ponuke &lt;EM&gt;eMenu&lt;/EM&gt; sú &lt;STRONG&gt;zoradené podľa kódu položky&lt;/STRONG&gt; v záložke &lt;EM&gt;Reg. pokladnice&lt;/EM&gt; &lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;formulára Skladová karta&lt;/A&gt;, a to aj v rámci jednotlivých skupín. 
+&lt;LI&gt;&lt;STRONG&gt;Ďalšie nastavenia&lt;/STRONG&gt; - vo &lt;A href="bcb35762-ef45-4dfd-b53a-93e752742cdd"&gt;formulári eMenu - nastavenia&lt;/A&gt;&amp;nbsp;(ponuke&amp;nbsp;&lt;EM&gt;Firma, Predvoľby&lt;/EM&gt;,&amp;nbsp;&lt;A href="4fe96b33-a1cd-4c08-93bc-d553db021c87"&gt;Nastavenia eMenu&lt;/A&gt;),&amp;nbsp;vykonajte&amp;nbsp;vybrané nastavenia pre jednotlivé režimy &lt;EM&gt;LUKUL eMenu&lt;/EM&gt;&amp;nbsp;vrátane&amp;nbsp;&lt;A href="e90f516a-cb3b-43d9-82dd-440c6e6e9789"&gt;režimu LUKUL eMenu - donáška&lt;/A&gt;&amp;nbsp;&lt;STRONG&gt;z pohľadu prevádzkara&lt;/STRONG&gt;. &lt;/LI&gt;&lt;/OL&gt;
+&lt;H5&gt;Obrázok č. 1: Nastavenie skupín v pokladnici&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/OBERONMobileSolutions/OBERONMobileSolutions_LUKUL_CashRegisterGroups.png"&gt;&lt;/P&gt;
+&lt;H2&gt;Údaje prenášané z&amp;nbsp;OBERON-u&amp;nbsp;do ponuky eMenu aplikácie LUKUL&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Pre &lt;STRONG&gt;zobrazenie položiek&lt;/STRONG&gt; v ponuke &lt;EM&gt;eMenu&lt;/EM&gt; sú dôležité nasledujúce nastavenia vo &lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;formulári Skladová karta&lt;/A&gt;: 
+&lt;UL&gt;
+&lt;LI&gt;pri režime &lt;STRONG&gt;&lt;EM&gt;LUKUL - mobilný čašník&lt;/EM&gt;&lt;/STRONG&gt; v&amp;nbsp;záložke &lt;EM&gt;Reg. pokladnice&lt;/EM&gt;&amp;nbsp;začiarkavacie políčko &lt;EM&gt;&lt;STRONG&gt;Umožniť pracovať s položkou na pokladnici&lt;/STRONG&gt;,&lt;/EM&gt; 
+&lt;LI&gt;pri jednotlivých režimoch &lt;EM&gt;&lt;STRONG&gt;LUKUL eMenu&lt;/STRONG&gt;&lt;/EM&gt; určených pre zákazníkov (hostí)&amp;nbsp;v&amp;nbsp;záložke &lt;EM&gt;Receptúra&lt;/EM&gt; je potrebné pridať položku do jedálneho lístka (tlačidlo &lt;STRONG&gt;&lt;EM&gt;Pridať alebo odobrať&lt;/EM&gt;&lt;/STRONG&gt;). Bližšie informácie nájdete v&amp;nbsp;téme&amp;nbsp;&lt;A href="7dd24e6f-6f96-4a51-9881-991d948d6392"&gt;Jedálny lístok&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Uvedené nastavenia majú za následok, že niektoré skladové položky zostávajú pre zákazníka (hosťa) skryté (napr. položky typu doblok, fľaša a pod.). 
+&lt;LI&gt;&lt;STRONG&gt;Názov&amp;nbsp;&lt;/STRONG&gt;jedla/nápoja sa vyčítava buď z&amp;nbsp;názvu skladovej karty v záložke &lt;EM&gt;Základné&amp;nbsp;&lt;/EM&gt;&lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;formulára Skladová karta&lt;/A&gt;, alebo z poľa &lt;EM&gt;Názov položky na bločku&lt;/EM&gt; (ak je zadaný) v&amp;nbsp;záložke &lt;EM&gt;Reg. pokladnice&lt;/EM&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;Rozšírený popis&lt;/STRONG&gt; jedla/nápoja (napr. zloženie, názov v inom jazyku a pod.) sa prenáša z poľa &lt;EM&gt;Doplňujúci text&lt;/EM&gt; &lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;formulára Skladová karta&lt;/A&gt;&amp;nbsp;(záložka &lt;EM&gt;Základné&lt;/EM&gt;).&amp;nbsp;Maximálna dĺžka doplňujúceho textu je 255 znakov vrátane medzier. 
+&lt;LI&gt;&lt;STRONG&gt;Podrobnosti o položke&lt;/STRONG&gt;&amp;nbsp;(jedle/nápoji) sa skladajú z&amp;nbsp;obrázkov a&amp;nbsp;textu. Obrázky sa&amp;nbsp;k&amp;nbsp;danej skladovej karte priraďujú vo &lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;formulári Skladová karta&lt;/A&gt; po stlačení tlačidla &lt;EM&gt;Dokumenty a&amp;nbsp;obrázky...&amp;nbsp;&lt;/EM&gt;(viac informácií&amp;nbsp;nižšie v časti &lt;EM&gt;Obrázky&lt;/EM&gt;). Text sa&amp;nbsp;prenáša z poľa &lt;EM&gt;Podrobný popis&lt;/EM&gt; &lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;formulára Skladová karta&lt;/A&gt;&amp;nbsp;(záložka &lt;EM&gt;Základné&lt;/EM&gt;).&amp;nbsp;Tento text môže byť vhodne doplnený krátkym textom, ktorý sa na skladovej karte&amp;nbsp;v rovnakej záložke pridáva ako &lt;EM&gt;Doplňujúci text&lt;/EM&gt;. Zároveň je v podrobnostiach možné zobraziť informáciu o&amp;nbsp;nutričnej hodnote a prípadných alergénoch - údaje sa zadávajú na skladovej karte&amp;nbsp;&lt;A href="8deac9fe-9864-41e8-aaa3-02257c241d78"&gt;typu receptúra&lt;/A&gt; po stlačení tlačidla &lt;EM&gt;Zloženie&lt;/EM&gt; (záložka &lt;EM&gt;Základné&lt;/EM&gt;). Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="05de0f02-be92-4f82-8a06-57e1ee70fbdf" style="auto-update-caption: true"&gt;Aplikácia LUKUL - podrobnosti o položkách&lt;/A&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;Cena položky&lt;/STRONG&gt; sa vyčítava z oddielu &lt;EM&gt;Predajná cena&lt;/EM&gt; v záložke &lt;EM&gt;Cena&lt;/EM&gt; &lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;formulára Skladová karta&lt;/A&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;Hmotnosť, nutričná hodnota&amp;nbsp;a alergény&lt;/STRONG&gt;&amp;nbsp;sa preberajú zo zloženia receptúry (v prípade,&amp;nbsp;že je skladová karta&amp;nbsp;&lt;A href="8deac9fe-9864-41e8-aaa3-02257c241d78"&gt;typu receptúra&lt;/A&gt;): hmotnosť&amp;nbsp;z poľa &lt;EM&gt;Hmotnosť/objem uvádzané na jedálnom lístku&lt;/EM&gt; (v záložke &lt;EM&gt;Položky receptúry&lt;/EM&gt;), nutričná hodnota&amp;nbsp;a&amp;nbsp;alergény z&amp;nbsp;polí &lt;EM&gt;Nutričná hodnota&lt;/EM&gt;&amp;nbsp;a&amp;nbsp;&lt;EM&gt;Alergény&lt;/EM&gt; (v záložke &lt;EM&gt;Ostatné&lt;/EM&gt;). Stlačením informácie o alergénoch v aplikácii sa otvorí zoznam alergénov, ktorý sa prenáša z&amp;nbsp;formulára&amp;nbsp;&lt;A href="6b7313ef-9556-46e9-8382-8d937a2ab35d"&gt;Jedálny lístok&lt;/A&gt;, záložka&amp;nbsp;&lt;EM&gt;Alergény&lt;/EM&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;eMenu prílohy&lt;/STRONG&gt; - vo &lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;formulári Skladová karta&lt;/A&gt;&amp;nbsp;v záložke &lt;EM&gt;Receptúra&lt;/EM&gt; je možné zadať&amp;nbsp;kódy položiek skladových kariet - príloh k danej položke (skladovej karte), pričom sa jednotlivé kódy&amp;nbsp;oddeľujú čiarkou a&amp;nbsp;medzerou. Napr. pri skladovej karte&amp;nbsp;&lt;EM&gt;Pečené kuracie stehno&lt;/EM&gt; sa zadajú kódy položiek pre ryžu, zemiakovú kašu, hranolčeky a&amp;nbsp;pod. Zároveň je potrebné v nastaveniach aplikácie &lt;EM&gt;LUKUL&lt;/EM&gt; v ponuke &lt;EM&gt;Používateľ&lt;/EM&gt; povoliť funkciu &lt;EM&gt;Rýchle objednávanie - ponúkať prílohy&lt;/EM&gt;. Pri objednávaní pomocou&amp;nbsp;aplikácie&amp;nbsp;&lt;EM&gt;LUKUL&lt;/EM&gt; pri výbere položky&amp;nbsp;&lt;EM&gt;Pečené kuracie stehno&amp;nbsp;&lt;/EM&gt;program automaticky ponúkne&amp;nbsp;obsluhe na výber prílohy podľa zadaných kódov položiek. Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="66abad1e-bfa7-4d8a-b34c-6c1e9a69b4f9" style="auto-update-caption: true"&gt;Aplikácia LUKUL - automatická ponuka príloh&lt;/A&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;eMenu&amp;nbsp;špecifikácie&lt;/STRONG&gt; - vo &lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;formulári Skladová karta&lt;/A&gt;&amp;nbsp;v záložke &lt;EM&gt;Receptúra&lt;/EM&gt; je možné zadať&amp;nbsp;poznámky k objednávke (manuálne vpísať alebo preddefinovať a následne vybrať z číselníka), ktoré špecifikujú spôsob prípravy alebo servírovania daného jedla, resp. nápoja.&amp;nbsp;Špecifikácie sa tlačia na &lt;A href="b9d7c873-7b63-4210-86fe-ab1c66ea6502"&gt;bonovacej tlačiarni&lt;/A&gt;&amp;nbsp;(zobrazujú na &lt;A href="d9867d81-7de7-4ce2-9c45-932025935b8b"&gt;bonovacom monitore&lt;/A&gt;). Na skladovej karte sa oddeľujú čiarkou, napr. &lt;EM&gt;Nechladená, Bez syra, So šľahačkou, Rare, Medium rare, Well done&lt;/EM&gt; atď.&amp;nbsp;Po&amp;nbsp;zaškrtnutí možnosti &lt;EM&gt;&lt;STRONG&gt;Vždy ponúkať výber špecifikácie&lt;/STRONG&gt;&lt;/EM&gt; pri objednávaní pomocou&amp;nbsp;aplikácie&amp;nbsp;&lt;EM&gt;LUKUL&lt;/EM&gt; bude program&amp;nbsp;ponúkať na výber&amp;nbsp;špecifikácie automaticky&amp;nbsp;-&amp;nbsp;pri výbere jedla &lt;EM&gt;Hovädzí steak&lt;/EM&gt;&amp;nbsp;môžu byť&amp;nbsp;v závislosti od nastavení ponúknuté na výber napr. tieto špecifikácie - &lt;EM&gt;Rare, Medium rare, Well done.&lt;/EM&gt; Uvedené nastavenie je dostupné aj priamo v aplikácii &lt;EM&gt;LUKUL&lt;/EM&gt;.&amp;nbsp;Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="18aeb679-252d-405b-9661-7ed645370717" style="auto-update-caption: true"&gt;Aplikácia LUKUL - automatická ponuka špecifikácií&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 2: Podrobnosti o položke a zoznam alergénov&lt;/H5&gt;
+&lt;P&gt;&amp;nbsp; &lt;IMG border=0 alt="" src="images/OBERONMobileSolutions/OBERONMobileSolutions_LUKUL_Menu_Item3.png"&gt;&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERONMobileSolutions/OBERONMobileSolutions_LUKUL_Menu_Allergens.png"&gt;&lt;/P&gt;
+&lt;H3&gt;Obrázky&lt;/H3&gt;
+&lt;UL&gt;
+&lt;LI&gt;Jednotlivé skupiny sa tak v režime &lt;EM&gt;&lt;STRONG&gt;LUKUL - mobilný čašník&lt;/STRONG&gt;&lt;/EM&gt;, ako aj v jednotlivých režimoch &lt;STRONG&gt;&lt;EM&gt;LUKUL eMenu&lt;/EM&gt;&lt;/STRONG&gt; môžu zobrazovať &lt;STRONG&gt;s obrázkom, alebo bez neho&lt;/STRONG&gt;. Obrázok skupiny sa nastavuje ako obrázok skupiny v pokladnici vo &lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;formulári Skladová karta,&lt;/A&gt; záložka &lt;EM&gt;Reg.&amp;nbsp;pokladnice&lt;/EM&gt;. Základné obrázky skupín v&amp;nbsp;pokladnici sú predvolené, ďalšie obrázky si môže účtovná jednotka&amp;nbsp;ľubovoľne doplniť. Na tento účel odporúčame používať obrázky &lt;STRONG&gt;vo&amp;nbsp;formáte&amp;nbsp;PNG kvôli priehľadnosti s&amp;nbsp;rozmermi&amp;nbsp; aspoň 64&amp;nbsp;x&amp;nbsp;64 pixelov a&amp;nbsp;&lt;/STRONG&gt;&lt;STRONG&gt;veľkosťou max. 5&amp;nbsp;-&amp;nbsp;10&amp;nbsp;kB&lt;/STRONG&gt;. 
+&lt;LI&gt;Jednotlivé položky &lt;EM&gt;eMenu&lt;/EM&gt;&amp;nbsp;sa tak v režime &lt;EM&gt;&lt;STRONG&gt;LUKUL - mobilný čašník&lt;/STRONG&gt;&lt;/EM&gt;, ako aj v jednotlivých režimoch &lt;STRONG&gt;&lt;EM&gt;LUKUL eMenu&lt;/EM&gt;&lt;/STRONG&gt; môžu zobrazovať &lt;STRONG&gt;s obrázkom, alebo bez neho&lt;/STRONG&gt;. Obrázok k danej skladovej karte (položke) je možné priradiť vo &lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;formulári Skladová karta&lt;/A&gt; po stlačení tlačidla &lt;EM&gt;Dokumenty a&amp;nbsp;obrázky... -&amp;nbsp;&lt;/EM&gt;&lt;EM&gt;Nový&lt;/EM&gt; alebo &lt;EM&gt;Oprava&lt;/EM&gt; (možno použiť aj funkciu &lt;EM&gt;Drag&amp;amp;Drop&lt;/EM&gt;).&amp;nbsp;Otvorí sa&lt;EM&gt;&amp;nbsp;&lt;/EM&gt;&lt;A href="fa471057-f995-4987-b25d-6b5b16f939e3"&gt;formulár Dokument (obrázok)&lt;/A&gt;, v&amp;nbsp;ktorom&amp;nbsp;začiarknite&amp;nbsp;možnosť&amp;nbsp;&lt;EM&gt;&lt;STRONG&gt;Malý obrázok (na zobrazenie náhľadu)&lt;/STRONG&gt;&lt;/EM&gt;. Na tento účel odporúčame používať obrázky &lt;STRONG&gt;vo&amp;nbsp;formáte&amp;nbsp;PNG kvôli priehľadnosti&amp;nbsp;s&amp;nbsp;rozmermi&amp;nbsp; aspoň 64&amp;nbsp;x&amp;nbsp;64 pixelov a&amp;nbsp;veľkosťou max. 5&amp;nbsp;-&amp;nbsp;10&amp;nbsp;kB&lt;/STRONG&gt; - sú určené&amp;nbsp;tak&amp;nbsp;pre obsluhu, ako aj pre zákazníka (hosťa) na lepšiu orientáciu v ponuke. 
+&lt;LI&gt;Obrázky určené &lt;STRONG&gt;na zobrazenie v rámci podrobností o položkách&lt;/STRONG&gt;&amp;nbsp;sa k danej skladovej karte (položke)&amp;nbsp;tiež priraďujú&amp;nbsp;vo &lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;formulári Skladová karta&lt;/A&gt; po stlačení tlačidla &lt;EM&gt;Dokumenty a obrázky...&lt;/EM&gt;, tieto obrázky je však &lt;STRONG&gt;nutné pridať do databázy&lt;/STRONG&gt; (nie do adresára mimo databázy) -&amp;nbsp;viac informácií v&amp;nbsp;téme&amp;nbsp;&lt;A href="9ba16dc2-7b3e-4e9f-b3eb-b2d7e44e796a"&gt;Knižnica dokumentov a obrázkov&lt;/A&gt;. Obrázky odporúčame používať&lt;STRONG&gt;&amp;nbsp;vo&amp;nbsp;formáte&amp;nbsp;PNG kvôli priehľadnosti s&amp;nbsp;rozmermi aspoň 600&amp;nbsp;x&amp;nbsp;600 pixelov a&amp;nbsp;&lt;/STRONG&gt;&lt;STRONG&gt;veľkosťou&amp;nbsp;&lt;/STRONG&gt;&lt;STRONG&gt;100&amp;nbsp;- 150 kB&lt;/STRONG&gt; (sú určené na prezentáciu jednotlivých jedál a nápojov spravidla vlastnými fotografiami). 
+&lt;LI&gt;Ďalšie informácie o práci s obrázkami v OBERON-e získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="ccadca4e-2fbd-4b28-8d92-f826f3019bd0" style="auto-update-caption: true"&gt;Práca s obrázkami&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Použitie príliš veľkých obrázkov v režime &lt;EM&gt;LUKUL - mobilný čašník&lt;/EM&gt; by mohlo spôsobovať &lt;STRONG&gt;výrazné spomalenie a v krajnom prípade až nespustenie aplikácie&lt;/STRONG&gt; (spustenie aplikácie sa musí ukončiť v časovom limite 10 sekúnd).&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H3&gt;Ďalšie nastavenia&lt;/H3&gt;
+&lt;UL&gt;
+&lt;LI&gt;V ponuke &lt;EM&gt;Firma&lt;/EM&gt;, &lt;EM&gt;Údaje o firme&lt;/EM&gt;, oddiel &lt;EM&gt;Logo&lt;/EM&gt;&amp;nbsp;možno nastaviť &lt;STRONG&gt;logo&lt;/STRONG&gt; firmy, resp. prevádzky - prenáša sa do záložky &lt;EM&gt;Info&lt;/EM&gt; hlavnej ponuky aplikácie v režime &lt;EM&gt;LUKUL eMenu&lt;/EM&gt;. Tu je možné zobraziť aj &lt;STRONG&gt;uvítací text&lt;/STRONG&gt; (napr. &lt;EM&gt;Vítame Vás&lt;/EM&gt;) - prenáša sa z formulára&amp;nbsp;&lt;A href="6b7313ef-9556-46e9-8382-8d937a2ab35d"&gt;Jedálny lístok&lt;/A&gt;, záložka&amp;nbsp;&lt;EM&gt;Základné&lt;/EM&gt;. 
+&lt;LI&gt;V prípade vypredania niektorej položky je možné v OBERON-e danú skladovú kartu označiť ako dočasne nedostupnú,&amp;nbsp;a to&amp;nbsp;stlačením tlačidla &lt;EM&gt;F6&lt;/EM&gt; &lt;EM&gt;-&lt;/EM&gt; &lt;EM&gt;Označiť položku za dočasne nedostupnú&lt;/EM&gt;&amp;nbsp;v&amp;nbsp;evidencii&amp;nbsp;&lt;A href="1a33ab0b-2df7-4dc2-962b-8a3319c16831"&gt;Skladové karty&lt;/A&gt; (prípadne po stlačení tlačidla &lt;EM&gt;Možnosti&lt;/EM&gt;).&amp;nbsp;Po označení sa bude cena danej položky v&amp;nbsp;aplikácii&amp;nbsp;zobrazovať &lt;SPAN style="COLOR: rgb(127,127,127)"&gt;&lt;STRONG&gt;sivou farbou&lt;/STRONG&gt;&lt;/SPAN&gt; a&amp;nbsp;položku nebude možné objednať. Príznak &lt;EM&gt;Dočasne nedostupné&lt;/EM&gt; je možné nastaviť aj u položiek, na ktorých zostatkové množstvo je nenulové. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt; 
+&lt;P&gt;Pri&amp;nbsp;režimoch &lt;EM&gt;&lt;STRONG&gt;LUKUL eMenu&lt;/STRONG&gt;&lt;/EM&gt; určených pre zákazníkov (hostí)&amp;nbsp;v reštauračných prevádzkach odporúčame vytvoriť &lt;STRONG&gt;jednotný lístok pre jedlá a nápoje&lt;/STRONG&gt;&amp;nbsp;s názvom napr. &lt;EM&gt;LUKUL eMenu&lt;/EM&gt; a&amp;nbsp;k nemu priradiť jednotlivé skladové karty.&amp;nbsp;Pre režim &lt;EM&gt;LUKUL eMenu&amp;nbsp;- donáška&lt;/EM&gt; odporúčame vytvoriť &lt;STRONG&gt;samostatný lístok&lt;/STRONG&gt; (napr. &lt;EM&gt;LUKUL eMenu - donáška&lt;/EM&gt;). Individuálne&amp;nbsp;lístky (jedálny, nápojový, raňajkový...) odporúčame ponechať zvlášť&amp;nbsp;kvôli tlači fyzických lístkov.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H5&gt;Obrázok č. 3: Nastavenie jednotného lístka pre jedlá a nápoje LUKUL&amp;nbsp;eMenu&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/OBERONMobileSolutions/OBERONMobileSolutions_LUKUL_LUKULeMenuSettings.png"&gt;&amp;nbsp;&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="09bb51aa-8c0d-464c-aa36-06ac3b9809c7" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="942d48d5-b290-40f6-8ba3-45cf78f380f9">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="2738bb72-e4e7-43bb-840e-6923511f4062" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="c1f1084d-0742-45cd-966a-7cf001b770c7">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="60e99222-1f06-45c9-b1b9-ee863c7b5558" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="e90f516a-cb3b-43d9-82dd-440c6e6e9789">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="895446d4-6c03-4c18-8ab5-4ff3685926e8" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="20b1783a-a8ca-42a9-b2f3-80c658d62248">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="6fda0a55-f346-408c-ac6c-a2438f758432" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="4fe96b33-a1cd-4c08-93bc-d553db021c87">
+      <Title m="2023-02-06T10:11:02.3359958Z">Aplikácia LUKUL - nastavenia eMenu</Title>
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="4032ff23-59d2-46ae-b4aa-85cb0d0122aa" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="bcb35762-ef45-4dfd-b53a-93e752742cdd">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="6d52d3e9-a788-4400-be1e-20c2bdeb3c4c" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="ccadca4e-2fbd-4b28-8d92-f826f3019bd0">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="3939c2b5-8660-4220-b3c1-074fe50df356">
+      <Keyword m="2021-04-20T12:05:03.3666183Z">Obrázky - LUKUL</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="4861e287-d64c-4a11-b28e-f88c3a5f6969">
+      <Keyword m="2022-11-25T09:22:12.9460172Z">Obrázok - veľkosť pre LUKUL</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="44f411ae-3d4f-4d09-af28-cb98a5626357">
+      <Keyword m="2022-11-25T09:22:20.9149535Z">Veľkosť obrázka - LUKUL</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="f6f638c1-e179-4edf-95f6-fa945cacb670">
+      <Keyword m="2023-01-25T13:17:15.1196003Z">LUKUL - nastavenia v OBERON-e</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="e7b539e3-bd00-477d-a024-132a9d3559c3">
+      <Keyword m="2023-01-25T13:17:47.6045736Z">LUKUL - údaje prenášané z OBERON-u</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="d4c96d3d-c1bf-4896-a7af-f2d0bb918504">
+      <Keyword m="2023-01-25T13:23:32.7147905Z">Automatická ponuka príloh - LUKUL</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="3cb0e3ef-3164-475b-a0ef-6cd376c3fdaf">
+      <Keyword m="2023-01-25T13:23:43.1727593Z">Automatická ponuka špecifikácií - LUKUL</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="23985221-e319-4e90-8649-4670255ec18c">
+      <Keyword m="2023-01-25T13:23:50.2455514Z">Automatické triedenie položiek - LUKUL</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="c701d9d6-aba8-455e-9219-e1240ef36df2">
+      <Keyword m="2023-01-25T13:23:57.0224907Z">Dočasne nedostupná položka - LUKUL</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="57f67fcd-05e0-4785-a97f-0e0d1c19df2d">
+      <Keyword m="2023-01-25T13:24:38.8762399Z">Podrobnosti o položke - LUKUL</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="c2da8a7d-a005-41c9-9622-6388798a3c40">
+      <Keyword m="2023-01-25T13:27:33.7316169Z">Prílohy - LUKUL</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="35c2dd6d-f609-448f-a00f-8ea7e716de8c">
+      <Keyword m="2023-01-25T13:27:48.565439Z">Priorita - LUKUL</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="2a66c4ba-636f-4e23-afef-e61cb6a5194e">
+      <Keyword m="2023-01-25T13:28:00.3431694Z">Špecifikácie - LUKUL</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="4d05cecc-0423-444f-ab6b-3ccd81a182b3">
+      <Keyword m="2023-01-25T13:28:28.611174Z">Triedenie položiek - LUKUL</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

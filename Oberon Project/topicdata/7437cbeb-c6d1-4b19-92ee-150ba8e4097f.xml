@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="7437cbeb-c6d1-4b19-92ee-150ba8e4097f" Status="Complete" CreatedOn="2014-09-05T06:55:58.6323789Z" ModifiedOn="2025-02-17T08:56:53.1587478Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="OBERONCenter_eShop_PrestaShop" BuildFlags="">
+  <Title m="2014-09-05T06:56:50.771361Z">Internetový obchod PrestaShop</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2025-02-17T08:56:53.1587478Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; je venovaná jednému z&amp;nbsp;&lt;A href="2ba6a435-be52-46a1-b723-fb2b8ca084c0"&gt;podporovaných e-shopových riešení&lt;/A&gt; v&amp;nbsp;systéme OBERON -&amp;nbsp;&lt;A href="4bc0fb91-8926-432e-879e-5e0150ed62d3"&gt;on-line internetovému obchodu&lt;/A&gt; &lt;EM&gt;&lt;STRONG&gt;PrestaShop&lt;/STRONG&gt;&lt;/EM&gt;. Pre používateľov OBERON-u je&amp;nbsp;&lt;A href="1f32a90c-7b4a-4d69-9f38-a560178794b3"&gt;odporúčaným&lt;/A&gt; internetovým obchodom&amp;nbsp;&lt;A href="1f32a90c-7b4a-4d69-9f38-a560178794b3" style="auto-update-caption: true"&gt;&lt;IMG border=0 alt="Odporúčané riešenia" src="images/OBERON/Basic/Odporucane-riesenie_ruka_ikona.png"&gt;&lt;/A&gt;.&lt;/P&gt;
+&lt;H5&gt;Tabuľka č. 1: Podporované verzie internetového obchodu &lt;EM&gt;PrestaShop&lt;/EM&gt;&lt;/H5&gt;
+&lt;TABLE id=table2 style="WIDTH: 50%" borderColor=silver cellSpacing=0 cellPadding=2 border=1&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TD width="7.5%"&gt;&lt;/TD&gt;
+&lt;TD bgColor=#d9e1f2 width="3%" align=center&gt;&lt;STRONG&gt;1.7.x&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD bgColor=#d9e1f2 width="3%" align=center&gt;&lt;STRONG&gt;8.x.x&lt;/STRONG&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc align=left&gt;&lt;STRONG&gt;Natívna podpora PrestaShopu v OBERON-e&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=left&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=left&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;STRONG&gt;Ovládač&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=center&gt;1.7 *&lt;/TD&gt;
+&lt;TD align=center&gt;1.7 *&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;* Ovládač 1.7 platný pre verzie 1.7x aj 8.x.x&lt;BR&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Systém OBERON podporuje viaceré on-line a&amp;nbsp;off-line e-shopové riešenia. Viac informácií o&amp;nbsp;internetových obchodoch prepojených s OBERON-om je možné získať v téme&amp;nbsp;&lt;A href="2ba6a435-be52-46a1-b723-fb2b8ca084c0"&gt;Internetový obchod v systéme OBERON&lt;/A&gt;. 
+&lt;LI&gt;Internetový obchod &lt;A href="http://prestashop.com/" target=_blank&gt;PrestaShop&lt;/A&gt;&amp;nbsp;predstavuje on-line internetový obchod, ktorý ako jediné z e-shopových riešení na trhu&amp;nbsp;systém OBERON podporuje &lt;STRONG&gt;priamo (od verzie 1.7.x)&lt;/STRONG&gt;. Z tohto dôvodu je pre používateľov OBERON-u&amp;nbsp;odporúčanou e-shopovou platformou. Dôvodom je skutočnosť, že ide o&amp;nbsp;všeobecne obľúbený a často používaný internetový obchod, ktorý vďaka bezplatne distribuovanému systému s otvoreným kódom (open source) s množstvom predvolených šablón a modulov môže nájsť uplatnenie v ktoromkoľvek druhu podnikania. 
+&lt;LI&gt;Systém OBERON komunikuje s &lt;EM&gt;PrestaShopom&lt;/EM&gt; priamo &lt;STRONG&gt;prostredníctvom natívneho formátu pre tento e-shop, pričom časť komunikácie prebieha aj prostredníctvom rozhrania WEB API &lt;EM&gt;PrestaShopu&lt;/EM&gt;&lt;/STRONG&gt;. Komunikácia medzi systémom OBERON a &lt;EM&gt;PrestaShopom&lt;/EM&gt; prebieha po vykonaní potrebných nastavení úplne autonómne. Nie je potrebné vykonávať alebo spúšťať žiadne exporty alebo importy údajov charakteristické pre &lt;A href="22856409-6be1-40cd-8216-1b6caae2c548"&gt;off-line internetové obchody&lt;/A&gt;. Typický čas od momentu, keď zákazník dokončí svoju objednávku v &lt;EM&gt;PrestaShope&lt;/EM&gt;, po jej zobrazenie v OBERON-e je do niekoľkých minút. Toto automatické on-line prepojenie je rýchle, robustné a málo poruchové. Jednu databázu systému OBERON &lt;STRONG&gt;možno prepojiť s jedným alebo aj viacerými nezávislými internetovými obchodmi&lt;/STRONG&gt; &lt;EM&gt;PrestaShop&lt;/EM&gt;. 
+&lt;LI&gt;Prepojenie OBERON-u s &lt;EM&gt;PrestaShopom&lt;/EM&gt; funguje &lt;STRONG&gt;plne automatizovane&lt;/STRONG&gt;, čím významne uľahčuje prácu s e-shopom. V systéme OBERON stačí napr. prijať nový tovar alebo na existujúcich&amp;nbsp;&lt;A href="1a33ab0b-2df7-4dc2-962b-8a3319c16831"&gt;skladových kartách&lt;/A&gt; zmeniť nejaký parameter alebo cenu a všetky zmeny sa automaticky zmenia aj v internetovom obchode. Naopak, nové prichádzajúce objednávky z internetového obchodu sa automaticky zobrazujú v&amp;nbsp;&lt;A href="48505e8d-5f28-4063-882b-ca07f33670ef"&gt;knihe prijatých objednávok&lt;/A&gt; systému OBERON. 
+&lt;LI&gt;&lt;EM&gt;PrestaShop&lt;/EM&gt; obsahuje viac než 300 vstavaných modulov a celý rad grafických tém, ktoré značne urýchľujú grafický návrh nového internetového obchodu, čím významne skracujú&amp;nbsp;čas jeho&amp;nbsp;nasadenia do ostrej prevádzky. E-shop podporuje&amp;nbsp;&lt;A href="04d2db16-08ec-459e-b5c9-71dd3a9f9e2f"&gt;multijazyčnosť&lt;/A&gt;, takže je ho možné prevádzkovať či už v&amp;nbsp;slovenčine, češtine, poľštine, maďarčine, prípadne aj v iných jazykoch.&amp;nbsp;Názvy produktov, popisy atď. je možné zadávať v&amp;nbsp;cudzom jazyku priamo v&amp;nbsp;OBERON-e. 
+&lt;LI&gt;Ako open source riešenie, &lt;EM&gt;PrestaShop&lt;/EM&gt; umožňuje prevádzkovať vlastný internetový obchod &lt;STRONG&gt;len za zlomok ceny v porovnaní s iným bežným komerčným riešením&lt;/STRONG&gt;. Vďaka zdrojovým kódom si ho môžete &lt;STRONG&gt;nainštalovať aj na váš internetový server (webhosting)&lt;/STRONG&gt;, t. j. bez ďalších mesačných nákladov. Problémom nie je ani skutočnosť, že pri open source systémoch je podpora všeobecne obmedzená - na Slovensku existujú&amp;nbsp;&lt;A href="https://exalogic.sk/oberon/suvisiace-produkty/prestashop/" target=_blank&gt;špecializované firmy&lt;/A&gt;, ktoré sa implementáciou &lt;EM&gt;PrestaShopu&lt;/EM&gt; zaoberajú a&amp;nbsp;sú schopné pre vás&amp;nbsp;nakonfigurovať tento internetový obchod na kľúč. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Postup inštalácie internetového obchodu &lt;EM&gt;PrestaSho&lt;/EM&gt;p&amp;nbsp;je dostupný&amp;nbsp;v téme&amp;nbsp;&lt;A href="f6dadabc-4824-4868-b3f3-24f817d9f2eb"&gt;Internetový obchod PrestaShop - inštalácia&lt;/A&gt;. Postup nastavenia prepojenia &lt;EM&gt;PrestaShopu&lt;/EM&gt; so systémom OBERON je uvedený v téme&amp;nbsp;&lt;A href="0c8a8cea-c087-4d1d-ac9e-8c24ad563ce6" style="auto-update-caption: true"&gt;Nastavenie komunikácie OBERON-u s PrestaShopom&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H5&gt;Obrázok č. 1:&amp;nbsp;Ukážka internetového obchodu &lt;EM&gt;PrestaShop&lt;/EM&gt;&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/OBERON_Center/Oberon_Center_Presta_shop.png"&gt;&lt;/P&gt;
+&lt;H2&gt;Rozsah synchronizácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Export skladových kariet. 
+&lt;LI&gt;Export obrázkov. 
+&lt;LI&gt;Export predajných cien (vrátane vybraných cien rozšírenej cenotvorby). 
+&lt;LI&gt;Export parametrov a variantov (farby, veľkosti...). 
+&lt;LI&gt;Export aktuálnych množstiev (aj z viacerých skladov). 
+&lt;LI&gt;Export kategórií skladových kariet. 
+&lt;LI&gt;Import objednávok. 
+&lt;LI&gt;Aktualizácia stavov objednávok. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Ďalšie zaujímavé vlastnosti&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Moduly &lt;I&gt;Najpredávanejšie produkty, Nové produkty&lt;/I&gt; na úvodnej stránke. 
+&lt;LI&gt;Vstavaný náhľad obrázkov produktov. 
+&lt;LI&gt;Neobmedzený počet typov úhrad. 
+&lt;LI&gt;Používateľské účty s možnosťou automatického zasielania newslettrov. 
+&lt;LI&gt;RSS vlákna. 
+&lt;LI&gt;Vstavaný textový editor. 
+&lt;LI&gt;Neobmedzené množstvo nastavení mien a daňových hladín. 
+&lt;LI&gt;SSL šifrovanie. 
+&lt;LI&gt;Modul&amp;nbsp;na zasielanie SMS správ. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;&lt;EM&gt;PrestaShop&lt;/EM&gt; a cenotvorba&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Systém OBERON okrem &lt;STRONG&gt;základnej cenotvorby&lt;/STRONG&gt; tvorenej&amp;nbsp;štyrmi predajnými cenami a odporúčanou predajnou cenou&amp;nbsp;(zadávané na skladovej karte v záložke &lt;EM&gt;Cena&lt;/EM&gt;) obsahuje aj &lt;STRONG&gt;tzv.&lt;/STRONG&gt;&amp;nbsp;&lt;STRONG&gt;rozšírenú cenotvorbu&lt;/STRONG&gt;. Oba druhy cien (&lt;STRONG&gt;základné ceny, aj&amp;nbsp;vybrané ceny rozšírenej cenotvorby&lt;/STRONG&gt; -&amp;nbsp;napr. pre veľkoobchodných partnerov iné ceny (zmluvné, letákové dohody a pod.)) umožňuje zasielať aj do internetového obchodu&amp;nbsp;&lt;EM&gt;PrestaShop&lt;/EM&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H3&gt;Základná cenotvorba v &lt;EM&gt;PrestaShope&lt;/EM&gt;&lt;/H3&gt;
+&lt;UL&gt;
+&lt;LI&gt;Používatelia OBERON-u, ktorí prevádzkujú &lt;EM&gt;PrestaShop&lt;/EM&gt;, môžu &lt;STRONG&gt;základnú cenotvorbu vyžiť na nastavenie dvojakých cien&lt;/STRONG&gt;: jednej pre koncových zákazníkov (napr. &lt;EM&gt;Cena 1&lt;/EM&gt;) a druhej pre zmluvných partnerov (napr. &lt;EM&gt;Cena 4&lt;/EM&gt;). V OBERON-e si na skladovej karte nastavte predajnú cenu pre koncových zákazníkov (napr. &lt;EM&gt;Cenu 1&lt;/EM&gt;) a&amp;nbsp;pre zmluvných partnerov (napr. &lt;EM&gt;Cenu 4&lt;/EM&gt;). V programe &lt;EM&gt;OBERON Center&lt;/EM&gt; v nastaveniach internetového obchodu v záložke &lt;EM&gt;Sklady&lt;/EM&gt; začiarknite &lt;EM&gt;Predajnú cenu 1&lt;/EM&gt; a &lt;EM&gt;Predajnú cenu 4&lt;/EM&gt;. A napokon v administratívnej zóne &lt;EM&gt;PrestaShopu&lt;/EM&gt; pri zaregistrovanom zmluvnom partnerovi ako &lt;EM&gt;Predvolenú skupinu zákazníka&lt;/EM&gt; vyberte &lt;EM&gt;OBERON cenová hladina 4&lt;/EM&gt;. Zaregistrovaným a prihláseným zmluvným partnerom sa tak pri produkte v e-shope bude zobrazovať &lt;STRONG&gt;im určená cena&lt;/STRONG&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H3&gt;Rozšírená cenotvorba v &lt;EM&gt;PrestaShope&lt;/EM&gt;&lt;/H3&gt;
+&lt;UL&gt;
+&lt;LI&gt;Oproti obmedzeným možnostiam základnej cenotvorby &lt;STRONG&gt;rozšírená cenotvorba&amp;nbsp;prenášaná do &lt;EM&gt;PrestaShopu&lt;/EM&gt; umožňuje komfortne nastaviť&lt;/STRONG&gt; &lt;STRONG&gt;pravidlo rozšírenej cenotvorby&lt;/STRONG&gt; (napr. konkrétnu cenovú hladinu alebo zľavu v %) a uplatniť ho &lt;STRONG&gt;pri vybranej skupine obchodných (zmluvných) partnerov, prípadne aj pri jednotlivých partneroch&lt;/STRONG&gt;, čím možno vytvoriť personalizované predajné ceny pre každého obchodného partnera zvlášť. 
+&lt;LI&gt;Pri pravidle &lt;EM&gt;Štandardná zľava v percentách&lt;/EM&gt; existuje možnosť zasielať do internetového obchodu zápornú zľavu z&amp;nbsp;predajnej ceny (navýšenie). To je možné využiť, ak chceme do internetového obchodu zasielať položky s vyššou cenou. 
+&lt;LI&gt;&lt;STRONG style="COLOR: rgb(255,0,0)"&gt;Upozornenie:&lt;/STRONG&gt; Systém OBERON a internetový obchod &lt;EM&gt;PrestaShop&lt;/EM&gt; sú dva nezávislé systémy, preto nie je technicky možný úplný prenos rozšírenej cenotvorby z&amp;nbsp;OBERON-u do &lt;EM&gt;PrestaShopu&lt;/EM&gt;&amp;nbsp;v&amp;nbsp;pomere 1:1. V nasledujúcej tabuľke je uvedený&amp;nbsp;&lt;STRONG&gt;prehľad podporovaných a nepodporovaných funkcií rozšírenej cenotvorby v &lt;EM&gt;PrestaShope&lt;/EM&gt;&lt;/STRONG&gt;. 
+&lt;LI&gt;Viac informácií o možnostiach rozšírenej cenotvorby získate v&amp;nbsp;téme &lt;A href="34f91c11-1a5d-4773-ac4e-48ad2fc859d3" style="auto-update-caption: true"&gt;Pravidlá rozšírenej cenotvorby&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Rozšírená cenotvorba je podporovaná&amp;nbsp;od verzie &lt;STRONG&gt;&lt;EM&gt;PrestaShopu&lt;/EM&gt; 1.7.&lt;/STRONG&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H5&gt;Tabuľka č. 1: Prehľad podporovaných a nepodporovaných funkcií rozšírenej cenotvorby&lt;/H5&gt;
+&lt;TABLE id=table2 style="WIDTH: 50%" cellSpacing=0 cellPadding=2 width="50%" border=1&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TD width="3%"&gt;&lt;/TD&gt;
+&lt;TD bgColor=#fff2cc width="5%" align=center&gt;
+&lt;P align=left&gt;&lt;STRONG style="COLOR: rgb(0,0,0)"&gt;Podporuje&lt;/STRONG&gt;&lt;/P&gt;&lt;/TD&gt;
+&lt;TD bgColor=#d9e1f2 width="5%"&gt;
+&lt;P align=left&gt;&lt;STRONG&gt;Nepodporuje&lt;/STRONG&gt;&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD&gt;&lt;STRONG&gt;Typ pravidla&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P align=left&gt;Štandardná zľava v percentách&lt;BR&gt;Konkrétna cenová hladina&lt;BR&gt;Množstevná zľava v percentách&lt;BR&gt;Zmluvné ceny&lt;BR&gt;Akciový leták&lt;BR&gt;Akciový leták dohoda s dodávateľom&lt;BR&gt;Navýšenie z obstarávacej ceny&lt;BR&gt;Navýšenie z poslednej nákupnej ceny&lt;/P&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P align=left&gt;Množstvo N za cenu množstva N-1&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD&gt;&lt;STRONG&gt;Priorita&amp;nbsp;&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=center&gt;
+&lt;P align=left&gt;Podľa priority pravidla&lt;/P&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P align=center&gt;&amp;nbsp;-&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD&gt;&lt;STRONG&gt;Prevádzka&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=center&gt;
+&lt;P align=center&gt;&amp;nbsp;-&lt;/P&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P align=left&gt;Platnosť pravidla&amp;nbsp;pre prevádzku&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD&gt;&lt;STRONG&gt;Zľava&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=center&gt;
+&lt;P align=left&gt;Výpočet zľavy z vybratej predajnej ceny&lt;BR&gt;Zľavu prepočítať na inú predajnú cenu (konkrétnu/najvyššiu)&lt;/P&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P align=left&gt;Kumulácia zľavy&amp;nbsp;&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD&gt;&lt;STRONG&gt;Okruh platnosti typov dokladov&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=center&gt;
+&lt;P align=center&gt;-&lt;/P&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P align=left&gt;Faktúra, výdajka, pokladničný doklad&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD&gt;&lt;STRONG&gt;Okruh platnosti skladových kariet&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=center&gt;
+&lt;P align=left&gt;Podľa zoznamu skladových kariet, skladu, kategórie&lt;BR&gt;Podľa skladovej skupiny, tovarovej skupiny&lt;BR&gt;Podľa výrobcu&lt;BR&gt;Podľa obsahu čiarového kódu&lt;/P&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P align=center&gt;&amp;nbsp;-&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD&gt;&lt;STRONG&gt;Okruh platnosti obchodných partnerov&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=center&gt;
+&lt;P align=left&gt;Zoznam vybraných partnerov&lt;BR&gt;Skupiny obchodných partnerov&amp;nbsp;(&lt;A href="b7531e2b-4bd6-4a46-a7e2-fd94bbc64325"&gt;zľavy podľa výšky obratov&lt;/A&gt;)&lt;/P&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P align=left&gt;Vernostný systém&amp;nbsp;&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;
+&lt;P&gt;Poznámka: Aby sa pravidlo rozšírenej cenotvorby prenášalo aj do internetového obchodu,&amp;nbsp;musí byť pri ňom&amp;nbsp;zaškrtnutá možnosť &lt;EM&gt;Pravidlo platí aj pre internetový obchod&lt;/EM&gt;.&lt;BR&gt;&lt;/P&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Podrobné informácie o možnostiach komunikácie medzi OBERON-om a &lt;EM&gt;PrestaShopom&lt;/EM&gt; získate v prehľadnej tabuľke v&amp;nbsp;téme&amp;nbsp;&lt;A href="2ba6a435-be52-46a1-b723-fb2b8ca084c0"&gt;Internetový obchod v systéme OBERON&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Vybrané nastavenia&lt;/H2&gt;
+&lt;H3&gt;Nastavenie nových produktov&lt;/H3&gt;
+&lt;UL&gt;
+&lt;LI&gt;Na zobrazovanie&amp;nbsp;nových&amp;nbsp;produktov v&amp;nbsp;&lt;EM&gt;PrestaShope&lt;/EM&gt; je potrebné na&amp;nbsp;danej skladovej karte v záložke &lt;EM&gt;Internetový obchod&lt;/EM&gt; začiarknuť pole &lt;EM&gt;Novinka&lt;/EM&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H3&gt;Nastavenie akciových produktov&lt;/H3&gt;
+&lt;UL&gt;
+&lt;LI&gt;Pri používaní&amp;nbsp;&lt;EM&gt;PrestaShopu&lt;/EM&gt; (ale aj&amp;nbsp;&lt;A href="4bc0fb91-8926-432e-879e-5e0150ed62d3"&gt;on-line internetového obchodu&lt;/A&gt; ako takého) je možné využiť &lt;STRONG&gt;niektoré skryté možnosti OBERON-u na prácu s cenotvorbou a zľavami&lt;/STRONG&gt;. 
+&lt;LI&gt;Štandardne sa do internetového obchodu prenáša predajná cena zadaná na skladovej karte&amp;nbsp;(&lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;formulár Skladová karta&lt;/A&gt;, záložka &lt;EM&gt;Cena&lt;/EM&gt;, &lt;EM&gt;Cena 1 – 4&lt;/EM&gt;). Ak sa však zadá cena aj do poľa &lt;EM&gt;&lt;STRONG&gt;Odporúčaná predajná cena s DPH&lt;/STRONG&gt;&lt;/EM&gt;, do e-shopu sa prenesie predajná&amp;nbsp;cena a &lt;STRONG&gt;rozdiel medzi ňou a štandardnou predajnou cenou sa automaticky dopočíta ako zľava&lt;/STRONG&gt; (napr. ak je na skladovej karte nastavená predajná cena s DPH&amp;nbsp;80 € a&amp;nbsp;do poľa &lt;EM&gt;Odporúčaná predajná cena s&amp;nbsp;DPH&lt;/EM&gt; sa nastaví cena 100 €, do internetového obchodu sa prenesie cena 80 € a rozdiel 20 € sa automaticky&amp;nbsp;dopočíta ako zľava). 
+&lt;LI&gt;Alternatívne je možné na skladovej karte nastaviť &lt;EM&gt;Odporúčanú predajnú cenu s&amp;nbsp;DPH&lt;/EM&gt; a&amp;nbsp;vo &lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;formulári Skladová karta&lt;/A&gt;, záložka &lt;EM&gt;Internetový obchod&lt;/EM&gt; výšku zľavy v&amp;nbsp;percentách. 
+&lt;LI&gt;Pre program nie je problém ani ďalší spôsob cenotvorby – zadá sa skutočná predajná cena a&amp;nbsp;vo &lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;formulári Skladová karta&lt;/A&gt;, záložka &lt;EM&gt;Internetový obchod&amp;nbsp;&lt;/EM&gt;výška zľavy&amp;nbsp;v&amp;nbsp;percentách, vtedy sa automaticky dopočíta cena pred zľavou. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H3&gt;Export zostatkových množstiev&lt;/H3&gt;
+&lt;UL&gt;
+&lt;LI&gt;Zo skladových kariet v&amp;nbsp;OBERON-e sa do &lt;EM&gt;PrestaShopu&lt;/EM&gt; štandardne exportujú&amp;nbsp;aktuálne zostatkové množstvá. Toto je však možné jednoduchým nastavením zmeniť tak, by sa do e-shopu zasielali&amp;nbsp;&lt;STRONG&gt;minimálne množstvá&lt;/STRONG&gt; (z poľa &lt;I&gt;Minimálne množstvo&lt;/I&gt;) (napr. ak tovar nie je momentálne na sklade, no napriek tomu ho&amp;nbsp;predajca vie v krátkom čase expedovať). Dostupné sú aj ďalšie možnosti - napr. export&amp;nbsp;aktuálnych množstiev alebo minimálnych&amp;nbsp;množstiev podľa toho, čo predstavuje&amp;nbsp;vyššiu hodnotu. Uvedené nastavenia sú dostupné vo &lt;A href="d6f59ec9-e1c8-4452-b048-fac4d4ab6fd8"&gt;formulári Internetový obchod - on-line pripojenie (rozšírené nastavenia)&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H3&gt;Export dostupnosti&lt;/H3&gt;
+&lt;P&gt;Systém OBERON umožňuje&amp;nbsp;viaceré nastavenia&amp;nbsp;dostupnosti skladových položiek, ktoré sa exportujú do &lt;EM&gt;PrestaShopu&lt;/EM&gt; (vo &lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;formulári Skladová karta&lt;/A&gt;, záložka &lt;EM&gt;Internetový obchod&lt;/EM&gt;):&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Dostupné (povolené objednávanie aj pri nulovom množstve)&lt;/STRONG&gt; - budú povolené objednávky skladovej položky aj v&amp;nbsp;prípade, že nebude na sklade. 
+&lt;LI&gt;&lt;STRONG&gt;Dostupné (zakázané objednávanie pri nulovom množstve)&lt;/STRONG&gt; - budú povolené objednávky skladovej položky&amp;nbsp;len v&amp;nbsp;prípade, že bude na sklade. Ak na sklade nebude, objednávky budú zakázané. 
+&lt;LI&gt;&lt;STRONG&gt;Dočasne nedostupné (zakázané objednávanie)&lt;/STRONG&gt; - objednávky skladovej položky budú zakázané. 
+&lt;LI&gt;&lt;STRONG&gt;Automaticky (podľa nastavenia e-shopu)&lt;/STRONG&gt; - OBERON&amp;nbsp;nebude zasielať&amp;nbsp;dostupnosť, budú platiť nastavenia dostupnosti&amp;nbsp;vykonané v&amp;nbsp;internetovom obchode. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H3&gt;Export doby dodania&lt;/H3&gt;
+&lt;UL&gt;
+&lt;LI&gt;Systém OBERON umožňuje&amp;nbsp;osobitne nastaviť a&amp;nbsp;exportovať do &lt;EM&gt;PrestaShopu&lt;/EM&gt; &lt;STRONG&gt;dobu dodania skladovej položky, ktorá je na sklade a&amp;nbsp;skladovej položky, ktorá nie je na sklade&lt;/STRONG&gt; (má nulové zostatkové množstvo) vo &lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;formulári Skladová karta&lt;/A&gt;, záložka &lt;EM&gt;Internetový obchod&lt;/EM&gt;). &lt;/LI&gt;&lt;/UL&gt;
+&lt;HR&gt;
+
+&lt;P align=center&gt;&lt;A href="1f32a90c-7b4a-4d69-9f38-a560178794b3" style="auto-update-caption: true"&gt;&lt;IMG border=0 alt="Odporúčané riešenia" src="images/OBERON/Basic/Odporucane-riesenie.png"&gt;&lt;/A&gt;&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="d892a315-ebbc-4b7f-80fb-14002b02d75c" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="2ba6a435-be52-46a1-b723-fb2b8ca084c0">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="256dcaca-1371-470a-971c-bd2f11afc913" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="4bc0fb91-8926-432e-879e-5e0150ed62d3">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="465d6cc6-0a78-4c99-add4-e2b30f9cbef0" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="f6dadabc-4824-4868-b3f3-24f817d9f2eb">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="90e42611-811f-41d3-bf44-41ccf114ab1f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="8c899f70-c073-4ad3-a0d9-4371281f8da5">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="2b15e713-0ebe-4c98-93d0-e8d0c0703b7e" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="0c8a8cea-c087-4d1d-ac9e-8c24ad563ce6">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="fed8b469-735e-4aae-91e7-20e22f92ae38">
+      <Keyword m="2014-10-30T11:20:59.9091796Z">PrestaShop</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="c3c43245-e8f1-40e0-ac00-3ca44c938d27">
+      <Keyword m="2022-07-27T06:11:06.3676627Z">On-line internetový obchod - PrestaShop</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="7346fb06-18b7-468d-a976-4bb4b47ad2df">
+      <Keyword m="2022-07-27T06:10:50.8597171Z">E-shop - PrestaShop</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="e50f0d84-cf27-44b2-bfe3-1df4c902f3fb">
+      <Keyword m="2020-05-15T12:45:09.7627915Z">Cenotvorba PrestaShop</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="b61e8112-cf09-406d-9d09-cd15fbac3791">
+      <Keyword m="2020-05-15T12:45:28.3205451Z">Rozšírená cenotvorba - PrestaShop</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="874ef017-197b-4c92-9c9c-aa41f5176714">
+      <Keyword m="2022-07-18T07:17:22.3168149Z">SSL - PrestaShop</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="0b09cc4b-906f-4bc5-8015-c4bd4e59fc15">
+      <Keyword m="2022-07-27T06:11:25.2261894Z">PrestaShop - rozsah synchronizácie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="b3fd02bc-e07d-4698-844e-d4c44ef6dc79">
+      <Keyword m="2022-07-27T06:12:11.1602601Z">PrestaShop - vybrané nastavenia</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

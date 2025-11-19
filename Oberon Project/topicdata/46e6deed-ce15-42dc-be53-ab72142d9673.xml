@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="46e6deed-ce15-42dc-be53-ab72142d9673" Status="Complete" CreatedOn="2014-09-10T07:43:13.0421057Z" ModifiedOn="2025-03-17T07:20:09.3823063Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="80110" Name="CashRegister_Started_Payment_Type" BuildFlags="">
+  <Title m="2023-03-01T11:39:52.4162145Z">Typ platby</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2025-03-17T07:20:09.3823063Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;informácie o type platby&lt;/STRONG&gt; v module&amp;nbsp;&lt;A href="a6f5e32d-6f1e-40bb-9d15-3f784a183252"&gt;Pokladnica OBERON&lt;/A&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnica OBERON&lt;/A&gt;&amp;nbsp;umožňuje &lt;STRONG&gt;rôzne spôsoby zaevidovania pokladničných dokladov&lt;/STRONG&gt; (hotovostná platba, platobná karta, vnútorné zúčtovanie atď.). Na zaevidovanie pokladničného dokladu konkrétnym spôsobom &lt;STRONG&gt;je&lt;/STRONG&gt; &lt;STRONG&gt;potrebné&lt;/STRONG&gt; &lt;STRONG&gt;v systéme OBERON definovať&amp;nbsp;osobitný typ platby&lt;/STRONG&gt;. 
+&lt;LI&gt;Typy platieb sa definujú v&amp;nbsp;číselníku&amp;nbsp;&lt;A href="f3814738-213c-4f39-96d3-cdcaeb6674ec"&gt;Typy platieb&lt;/A&gt; (ponuka &lt;EM&gt;Firma, Predvoľby&lt;/EM&gt;). V&amp;nbsp;závislosti od nadefinovaných typov platieb je následne možné zaevidovať pokladničný doklad rôznymi spôsobmi, a&amp;nbsp;to podľa toho: 
+&lt;UL&gt;
+&lt;LI&gt;či sa vybraným typom platby prijíma hotovosť, cenina (napr. stravné lístky) alebo je to&amp;nbsp;&lt;A href="1a618813-f50b-46a3-8a94-598d5394f491"&gt;platba kartou, prípadne iná bezhotovostná pl&lt;/A&gt;atba, 
+&lt;LI&gt;či sa má&amp;nbsp;na pokladnici zaevidovať (vytlačiť) daňový doklad alebo nedaňový doklad (tzv. vnútorné zúčtovanie), napr. reprezentačný fond, strava zamestnancov, účet majiteľa, presun na hotelový účet atď.,&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 
+&lt;LI&gt;v akej mene sa má doklad uhradiť, prípadne či ide o&amp;nbsp;&lt;A href="0312f424-bcb0-4d34-aad4-64a1f63eca85"&gt;úhradu faktúry v hotovosti&lt;/A&gt; atď. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;O tom, akým spôsobom sa doklad zaeviduje, rozhoduje obsluha v momente tlače dokladu (kláves &lt;I&gt;F12 - Tlač&lt;/I&gt; &lt;EM&gt;dokladu&lt;/EM&gt; pri predaji na pokladnici).&amp;nbsp;Vtedy sa zobrazí&amp;nbsp;formulár &lt;EM&gt;Výber spôsobu úhrady (platby)&lt;/EM&gt;&amp;nbsp;na výber spôsobu platby, ktorým sa doklad zaeviduje (Obrázok č. 2). 
+&lt;LI&gt;V&amp;nbsp;&lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnici OBERON&lt;/A&gt;&amp;nbsp;je možné konkrétny typ platby&amp;nbsp;pridať ako tlačidlo do niektorého z panelov (napr. do pravého bočného panela). V takom prípade sa po stlačení tlačidla automaticky zaeviduje (vytlačí) doklad daným typom platby. Postup vytvorenia tlačidla je dostupný v téme&amp;nbsp;&lt;A href="c9f7216f-f252-4be3-aa26-3e9bb6d4c887" style="auto-update-caption: true"&gt;Nastavenie vzhľadu Pokladnice OBERON&lt;/A&gt;. &amp;nbsp;&amp;nbsp;&amp;nbsp; 
+&lt;LI&gt;Postup presunu položiek z &lt;EM&gt;Pokladnice OBERON&lt;/EM&gt; na hotelový účet je popísaný v téme&amp;nbsp;&lt;A href="75c3faa8-8de5-4868-b98c-687ae53d87ae" style="auto-update-caption: true"&gt;Vytvorenie hotelového účtu&lt;/A&gt; 
+&lt;LI&gt;Ak v prípade používania&amp;nbsp;&lt;A href="942d48d5-b290-40f6-8ba3-45cf78f380f9"&gt;aplikácie LUKUL&lt;/A&gt; nebude pri type platby &lt;EM&gt;Presun na hotelový účet&lt;/EM&gt;&amp;nbsp;v záložke &lt;EM&gt;Pokladnice&lt;/EM&gt; vybraná pokladnica priradená k danej&amp;nbsp;webovej službe, záložka &lt;EM&gt;Hotelové účty&lt;/EM&gt; &lt;STRONG&gt;nebude&amp;nbsp;v aplikácii &lt;EM&gt;LUKUL&lt;/EM&gt; dostupná&lt;/STRONG&gt; (nebude sa zobrazovať). &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Definovať nový typ platby je možné pomocou&amp;nbsp;&lt;A href="77a7891e-a525-416c-ad7a-9e25ff95e430"&gt;formulára Typ platby&lt;/A&gt;. Možnosť definovať a upravovať &lt;EM&gt;Typy platieb&lt;/EM&gt; má len&amp;nbsp;&lt;A href="225638ed-22f6-4ac4-9085-6d77c64925db"&gt;používateľ&lt;/A&gt; s&amp;nbsp;príznakom &lt;EM&gt;Administrátor&lt;/EM&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Spôsoby zaevidovania pokladničných dokladov&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Daňový doklad - hotovostná platba&lt;/STRONG&gt; - používa sa pre všetky hotovostné operácie, je to najčastejšie používaný typ platby. Navyšuje&amp;nbsp;denné obraty&amp;nbsp;a zostatok&amp;nbsp;hotovosti v pokladnici. Ak chcete na pokladnici prijímať aj cudzie meny v hotovosti, vytvorte pomocou tejto voľby príslušný počet typov platby podľa prijímaných mien. 
+&lt;LI&gt;&lt;STRONG&gt;Daňový doklad - cenina (hotovostná platba)&lt;/STRONG&gt; - používa sa pri platbe ľubovoľnou ceninou, najčastejšie stravnými lístkami. Navyšuje&amp;nbsp;denné obraty&amp;nbsp;a zostatok&amp;nbsp;danej ceniny v pokladnici. Hodnotu ceniny je možné nadefinovať pre každú ceninu zvlášť, ale aj zadávať pri zaevidovaní dokladu. 
+&lt;LI&gt;&lt;STRONG&gt;Daňový doklad - platobná karta&lt;/STRONG&gt; - používa sa pre&amp;nbsp;&lt;A href="1a618813-f50b-46a3-8a94-598d5394f491"&gt;bezhotovostnú platbu&lt;/A&gt;&amp;nbsp;platobnou kartou. Vtedy sa peňažné prostriedky do pokladnice nezapočítajú, avšak do denných obratov bude takýto doklad zahrnutý vždy.&amp;nbsp;Na&amp;nbsp;zaevidovanie platieb platobnými kartami sa tento spôsob používa najčastejšie, takéto platby sú zahrnuté do denných uzávierok fiškálnej tlačiarne, a pripísané platby na účet sa potom už neúčtujú do príjmu. 
+&lt;LI&gt;&lt;STRONG&gt;Daňový doklad - iná bezhotovostná platba&lt;/STRONG&gt;&amp;nbsp;- používa sa pre&amp;nbsp;&lt;A href="1a618813-f50b-46a3-8a94-598d5394f491"&gt;bezhotovostnú platbu&lt;/A&gt;, pri ktorej sa však nepoužije platobný terminál.&amp;nbsp;Nový typ platby je&amp;nbsp;možné použiť vtedy, keď je otvorený účet&amp;nbsp;&amp;nbsp;(doklad) uhradený inou bezhotovostnou platbou, napr. pri donáške pomocou platobnej brány (typicky napr. pri &lt;EM&gt;Bistro.sk&lt;/EM&gt;).&amp;nbsp; 
+&lt;LI&gt;&lt;STRONG&gt;Nedaňový doklad - vnútorné zúčtovanie&lt;/STRONG&gt; - pozor, táto voľba umožňuje vytvoriť také typy platieb, pri použití ktorých sa nenavyšujú denné obraty ani stav hotovosti v pokladnici. Preto je možné&amp;nbsp;typy platieb s touto voľbou používať len na také pokladničné operácie, pri ktorých je potrebné, aby sa predajom na pokladnici&amp;nbsp;znížili zásoby na sklade, ale tento úbytok zásob sa&amp;nbsp;zrealizuje&amp;nbsp;iným spôsobom ako daňovým dokladom (napr. reprezentačný fond, účet majiteľa, strava zamestnancov,&amp;nbsp;firemné akcie alebo prezentácie, vlastná spotreba, zúčtovanie škôd a pod.). Zaevidovanie takýchto dokladov z&amp;nbsp;hľadiska dane sa vykonáva v inej agende, napr. vystavením faktúry. 
+&lt;LI&gt;&lt;STRONG&gt;Nedaňový doklad - presun na hotelový účet&lt;/STRONG&gt; - táto voľba umožňuje vytvoriť typ platby, ktorý nenavyšuje&amp;nbsp;denné obraty&amp;nbsp;ani stav hotovosti v pokladnici, ale presúva pokladničný doklad na neskoršie&amp;nbsp;zaevidovanie do modulu&amp;nbsp;&lt;A href="c3bd41f0-029e-4c74-b342-b0ffff647b6e"&gt;Hotelová recepcia&lt;/A&gt;. Aby bolo možné používať takéto typy platieb, je potrebné mať okrem modulu&amp;nbsp;&lt;EM&gt;Hotelová recepcia&amp;nbsp;&lt;/EM&gt;&lt;A href="75c3faa8-8de5-4868-b98c-687ae53d87ae"&gt;vytvorený aspoň jeden hotelový účet&lt;/A&gt; niektorého ubytovaného hosťa. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt; 
+&lt;P&gt;&lt;STRONG&gt;Videonávody:&lt;/STRONG&gt;&lt;/P&gt;
+&lt;P&gt;K téme&amp;nbsp;sú spracované videonávody:&lt;/P&gt;&lt;A href="https://exalogic.sk/na-stiahnutie-oberon/predaj-na-pokladnici-oberon-novinky" target=_blank&gt;&lt;/A&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;A href="https://exalogic.sk/na-stiahnutie-oberon/predaj-na-pokladnici-oberon-novinky" target=_blank&gt;Predaj na Pokladnici OBERON&lt;/A&gt;, 
+&lt;LI&gt;&lt;A href="https://exalogic.sk/na-stiahnutie-oberon/pokladnica-oberon-typy-platieb/" target=_blank&gt;Pokladnica OBERON - typy platieb&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;P&gt;Všetky videonávody&amp;nbsp;sú k&amp;nbsp;dispozícii&amp;nbsp;na stránke&amp;nbsp;&lt;A href="http://www.exalogic.sk/"&gt;www.exalogic.sk&lt;/A&gt; v&amp;nbsp;sekcii &lt;EM&gt;Na stiahnutie,&amp;nbsp;&lt;/EM&gt;&lt;A href="https://exalogic.sk/na-stiahnutie/oberon-agenda-firmy/video-navody-na-stiahnutie/" target=_blank&gt;Videonávody&lt;/A&gt;.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H5&gt;Obrázok č. 1: Formulár &lt;EM&gt;Typ platby&lt;/EM&gt;&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/CashRegister/Form_CashRegister_PaymentType.png"&gt;&lt;/P&gt;
+&lt;H2&gt;Číslo platidla vo fiškálnom zariadení&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Číslo platidla vo fiškálnom zariadení&amp;nbsp;predstavuje z hľadiska nastavenia typu platby v OBERON-e kľúčový parameter. Na to, aby boli tržby správne rozčlenené podľa typov platieb aj vo fiškálnom zariadení, je nevyhnutné, aby&amp;nbsp;číslo platidla nastavené pri danom type platby v&amp;nbsp;OBERON-e &lt;STRONG&gt;bolo zhodné&lt;/STRONG&gt; s číslom daného platidla vo fiškálnom zariadení. 
+&lt;LI&gt;Fiškálne tlačiarne majú interne nastavené platidlá, ktoré tvoria dva parametre: &lt;STRONG&gt;číslo platidla a názov platidla&lt;/STRONG&gt;, napr. "1 - Hotovosť", "2 - Platobná karta", "3 - Stravné lístky", "5 - Úhrada faktúry". 
+&lt;LI&gt;Niektoré fiškálne tlačiarne (&lt;A href="00fa9619-a13d-4745-8938-cc0c2b5039ce"&gt;eKasa PANDORA&lt;/A&gt;&amp;nbsp;&lt;A href="1f32a90c-7b4a-4d69-9f38-a560178794b3" style="auto-update-caption: true"&gt;&lt;IMG border=0 alt="Odporúčané riešenia" src="images/OBERON/Basic/Odporucane-riesenie_ruka_ikona.png"&gt;&lt;/A&gt;,&amp;nbsp;&lt;A href="b1c5bcba-0d5d-4543-955f-bef5ebcd30ed"&gt;Efox/o - T Elcom RP80&lt;/A&gt;, čiastočne&amp;nbsp;&lt;A href="a7b7005c-b8d1-4ecd-862a-996128b685a9"&gt;FiskalPRO eKasa&lt;/A&gt;) &lt;STRONG&gt;umožňujú nadefinovať ľubovoľné čísla platidiel&lt;/STRONG&gt; a následne ich zapísať do zariadenia, a to buď pomocou servisného programu, alebo z OBERON-u (funkcia &lt;EM&gt;Zapísať do zariadenia&lt;/EM&gt;, v nej zvoliť možnosť zapísať &lt;EM&gt;Platidlá (typy platieb&lt;/EM&gt;). Vtedy do názvu platidla vo fiškálnej tlačiarni program cez komunikačný protokol zapíše názov daného typu platby v programe s rovnakým číslom platidla. Túto funkciu odporúčame použiť v prípade, že ste si nie istí nastavením platidiel fiškálnej tlačiarne a nemáte k dispozícii servisný program. Potrebné je však dodržať niektoré záležitosti (napr. vo fiškálnej tlačiarni &lt;A href="b1c5bcba-0d5d-4543-955f-bef5ebcd30ed"&gt;Efox/o - T Elcom RP80&lt;/A&gt;&amp;nbsp;je nutné zvoliť číslo platidla iné ako 0, &lt;A href="a7b7005c-b8d1-4ecd-862a-996128b685a9"&gt;FiskalPRO eKasa&lt;/A&gt;&amp;nbsp;má pre platbu kartou nemenné číslo platidla 2). 
+&lt;LI&gt;V&amp;nbsp;iných fiškálnych tlačiarňach (&lt;A href="88774d27-941a-4924-a7c3-793588d21523"&gt;Pegas FM-06 eKasa&lt;/A&gt;,&amp;nbsp;&lt;A href="9d32ac6a-62c8-4740-b603-a4a63c990b43"&gt;Pegassino Printer eKasa&lt;/A&gt;, &lt;A href="95da6649-0c97-4ca6-8253-47b62c0153ea"&gt;VAROS FT4000B&lt;/A&gt;,&amp;nbsp;&lt;A href="4281d5ab-ba5e-4733-bdd1-665d32ecf729"&gt;VAROS FT5000B&lt;/A&gt;,&amp;nbsp;&lt;A href="50a20232-b2c6-4814-9cdb-b8ee5ce35e3e"&gt;Easy-Pos.eKasa&lt;/A&gt;, čiastočne &lt;A href="a7b7005c-b8d1-4ecd-862a-996128b685a9"&gt;FiskalPRO eKasa&lt;/A&gt;) sú čísla platidiel &lt;STRONG&gt;nadefinované nemenne&lt;/STRONG&gt;. V&amp;nbsp;týchto prípadoch je potrebné nastaviť rovnaké čísla platidiel v OBERON-e. 
+&lt;LI&gt;Pri zaevidovaní (tlači) daňového dokladu OBERON zasiela fiškálnej tlačiarni číslo platidla nastavené na type platby, ktorý sa použil pri zaevidovaní dokladu - &lt;STRONG&gt;nie názov platidla&lt;/STRONG&gt;. Na pokladničnom doklade (a aj uzávierke) sa bude tlačiť ten názov, ktorý je nastavený vo fiškálnej tlačiarni pri danom čísle platidla. 
+&lt;LI&gt;OBERON&amp;nbsp;umožňuje nastaviť &lt;STRONG&gt;rovnaké číslo platidla rôznym typom platieb&lt;/STRONG&gt; (program na túto skutočnosť upozorní, ale umožní dané nastavenia uložiť). Vtedy sa na dennej uzávierke sumy týchto typov platieb započítajú (sčítajú) pod jedno číslo platidla. Napr. typ platby &lt;EM&gt;Stravný lístok 3 €&lt;/EM&gt; a &lt;EM&gt;Stravný lístok 4 €&lt;/EM&gt; sa započítajú (sčítajú) pod číslo platidla 3 s názvom vo fiškálnej tlačiarni &lt;EM&gt;Stravné lístky&lt;/EM&gt;. 
+&lt;LI&gt;Iným praktickým príkladom je nastavenie typu platby &lt;EM&gt;Hotovosť&lt;/EM&gt; s číslom platidla 1 a typu platby &lt;EM&gt;Hotovosť&amp;nbsp;- donáška&lt;/EM&gt; s číslom platidla tiež 1 (program na kolíziu upozorní, ale umožní dané nastavenia uložiť). Tým sa dosiahne, že síce na dennej uzávierke vytlačenej priamo z fiškálnej tlačiarne sa sumy týchto typov platieb započítajú (sčítajú) pod jedno číslo platidla, &lt;STRONG&gt;ale v&amp;nbsp;obratoch pokladnice v&amp;nbsp;členení podľa typov platieb vytlačených z OBERON-u budú sumy typu platby &lt;EM&gt;Hotovosť&lt;/EM&gt; a typu platby &lt;EM&gt;Hotovosť&amp;nbsp;- donáška&lt;/EM&gt; rozdelené&lt;/STRONG&gt;. To umožní oddeliť hotovosť v pokladnici priamo na prevádzke a hotovosť, ktorú majú odovzdať kuriéri, ktorí roznášali jedlo (spolu s pokladničnými dokladmi).&amp;nbsp;Automatickú tlač&amp;nbsp;obratov pokladnice v&amp;nbsp;členení podľa typov platieb hneď po vytlačení dennej uzávierky z&amp;nbsp;fiškálnej tlačiarne&amp;nbsp;možno nastaviť vo&amp;nbsp;&lt;A href="bb0e1e82-e344-4bf0-834a-a294269f2e71"&gt;formulári Pokladnica OBERON - nastavenia&lt;/A&gt;, záložka &lt;EM&gt;Nastavenia tlače&lt;/EM&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Spôsoby úhrady (platby)&lt;/H2&gt;
+&lt;P&gt;Stlačením tlačidla&amp;nbsp;&lt;I&gt;F12 - Tlač&lt;/I&gt; &lt;EM&gt;dokladu&lt;/EM&gt; sa otvorí formulár &lt;EM&gt;Výber spôsobu úhrady (platby)&lt;/EM&gt; (Obrázok č. 2). Obsluha&amp;nbsp;zvolí spôsob úhrady, zadá hodnotu prijatých peňažných prostriedkov (prípadne stravných lístkov alebo aj iných cenín, resp. platobnej karty) a následne sa vytlačí pokladničný doklad. Hodnota výdavku&amp;nbsp;sa zobrazí aj na displeji &lt;EM&gt;Pokladnice OBERON&lt;/EM&gt;.&lt;/P&gt;
+&lt;P&gt;Typ platby je možné vybrať&amp;nbsp;pomocou dvoch záložiek:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;EM&gt;&lt;STRONG&gt;Vybrané typy platieb&lt;/STRONG&gt;&lt;/EM&gt; - zobrazujú sa&amp;nbsp;najčastejšie používané typy platieb - väčšinou &lt;EM&gt;Hotovosť&lt;/EM&gt; a &lt;EM&gt;Platobná karta&lt;/EM&gt; (prípadne &lt;EM&gt;Ceniny&lt;/EM&gt;). Do poľa &lt;EM&gt;Hotovosť&lt;/EM&gt; sa zadáva hodnota prijatých peňažných prostriedkov, následne program vypočíta výdavok, ktorý bude vrátený zákazníkovi. Vybrané typy platieb sú optimalizované na použitie aj&amp;nbsp;na dotykových displejoch - majú širšie riadky. V prípade používania cenín je&amp;nbsp;potrebné skontrolovať &lt;EM&gt;Hodnotu ceniny&lt;/EM&gt; vo&amp;nbsp;&lt;A href="4d7d8ef6-9b38-4e70-b810-e9229d59e4df"&gt;formulári Cenina&lt;/A&gt;&amp;nbsp;- aby sa zobrazovala v tejto záložke,&amp;nbsp;jej výška&amp;nbsp;(hodnota) musí byť nulová. Do poľa &lt;EM&gt;Cenina&lt;/EM&gt; sa potom zadáva celková hodnota prijatej ceniny, napríklad&amp;nbsp;1 stravný lístok v hodnote 4,20 EUR/1 ks sa zadá&amp;nbsp;ako hodnota&amp;nbsp;4,20 (Obrázok č. 2), 2 stravné lístky v hodnote 4,20 EUR/1 ks sa zadajú&amp;nbsp;ako hodnota&amp;nbsp;8,40. Ak bude hodnota ceniny zadaná priamo vo &lt;A href="4d7d8ef6-9b38-4e70-b810-e9229d59e4df"&gt;formulári Cenina&lt;/A&gt;, cenina sa bude zobrazovať v&amp;nbsp;nasledujúcej záložke &lt;EM&gt;Všetky typy platieb&lt;/EM&gt;.&amp;nbsp; 
+&lt;LI&gt;&lt;EM&gt;&lt;STRONG&gt;Všetky typy platieb&lt;/STRONG&gt;&lt;/EM&gt; - zobrazia sa všetky nadefinované typy platieb. Používa sa hlavne&amp;nbsp;vtedy,&amp;nbsp;keď účtovná jednotka&amp;nbsp;používa viac hotovostných typov platieb (napr. vo viacerých menách), prípadne&amp;nbsp;používa ďalšie typy platieb, napr.&amp;nbsp;vnútorné zúčtovanie, presun na hotelový účet a pod. &lt;/LI&gt;&lt;/UL&gt;
+&lt;P&gt;Vyúčtovať predaj (vytlačiť daňový doklad)&amp;nbsp;je možné aj &lt;STRONG&gt;kombináciou rôznych typov platieb&lt;/STRONG&gt;, napr. hotovosť/stravné lístky (Obrázok č. 2), alebo hotovosť/platobná karta, a to jednoduchým zapísaním hodnôt do polí v záložke &lt;EM&gt;Vybrané typy platieb&lt;/EM&gt;. V&amp;nbsp;záložke &lt;EM&gt;Všetky typy platieb&lt;/EM&gt; na rozdelenie sumy medzi jednotlivé typy platieb stlačte tlačidlo &lt;EM&gt;&lt;STRONG&gt;Rozdeliť - F9&lt;/STRONG&gt;&lt;/EM&gt;.&lt;/P&gt;
+&lt;H5&gt;&amp;nbsp;Obrázok č. 2: Formulár Výber spôsobu úhrady (platby)&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/CashRegister/Form_CashRegister_PaymentType_Pay.png"&gt;&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="aa926d5a-b3f2-4762-b9ed-0bbc9e0a982f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="289e69f8-bad3-4104-ad3a-3635dfac193b" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="c9f7216f-f252-4be3-aa26-3e9bb6d4c887">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="fc8ed7b5-b769-4c8d-b89c-4861e02c2dfa" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="69bbd499-45c0-4b0f-8f7a-c53fa5d70c1b">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="eb3ae1f9-6091-4768-a89f-c33a39dc66e6" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="f3814738-213c-4f39-96d3-cdcaeb6674ec">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="7d3b801f-c9fd-47b9-9892-b60ea21a636c" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="77a7891e-a525-416c-ad7a-9e25ff95e430">
+      <Title m="2014-12-01T10:15:16.6318359Z">Formulár Typ platby</Title>
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="d2eefd39-e2f1-4366-897a-8fd9cc81f61f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="4d7d8ef6-9b38-4e70-b810-e9229d59e4df">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="4b1c04f3-6706-439f-b180-74cb6ccb9abc" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="75c3faa8-8de5-4868-b98c-687ae53d87ae">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="25c97e42-2af2-4720-8dbf-79ddeaabb455" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="0312f424-bcb0-4d34-aad4-64a1f63eca85">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="d5481345-746a-45c8-9267-c0ee110903d7" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="942d48d5-b290-40f6-8ba3-45cf78f380f9">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="d9381c9e-8afa-4105-bb44-6d1bfebe06fe">
+      <Keyword m="2023-03-02T07:03:45.4186866Z">Pokladnica OBERON  - typy platieb</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="4762ccb8-fda6-4e86-935c-d0b701d17fb4">
+      <Keyword m="2023-03-02T07:03:31.9785692Z">Hotovosť - typy platieb</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="273ca4c6-bc00-448e-9cff-ab2ca2164d7e">
+      <Keyword m="2023-03-02T07:03:36.7856018Z">Platobná karta  - typy platieb</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="d7da9298-8711-48e4-8c00-80b0c39f1cdd">
+      <Keyword m="2023-03-02T07:03:48.3801027Z">Stravné lístky - typy platieb</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="0aa0eb0d-aa9b-4e98-a9af-3d24e1f3163b">
+      <Keyword m="2014-09-23T13:10:41.9960937Z">Platidlá</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="5a4813a2-3e57-430c-9874-b0f69f90e4a0">
+      <Keyword m="2023-03-02T07:04:01.0696245Z">Cenina - typy platieb</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="b2183ba3-0631-45d9-99cd-84c2f7ce3574">
+      <Keyword m="2023-03-02T14:03:41.201428Z">Bezhotovostná platba - typy platieb</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="546e2b57-71a8-456c-9fb9-a5418724e821">
+      <Keyword m="2023-03-02T07:03:52.6845285Z">Vnútorné zaúčtovanie - typy platieb</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="9353bbdb-43ca-46b8-9143-6e58109f943d">
+      <Keyword m="2023-03-02T07:04:08.5749505Z">Presun na hotelový účet - typy platieb</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="196c942e-7ddc-4254-97b0-7706dc7840a1">
+      <Keyword m="2023-03-02T14:03:34.8739068Z">Číslo platidla vo fiškálnom zariadení    </Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="3ac16d2c-5192-478b-8e48-a61d079f0e2b">
+      <Keyword m="2023-03-02T14:30:54.4913175Z">Čísla platidiel vo fiškálnom zariadení    </Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

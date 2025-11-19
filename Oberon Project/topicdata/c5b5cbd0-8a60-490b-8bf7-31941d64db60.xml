@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="c5b5cbd0-8a60-490b-8bf7-31941d64db60" Status="Complete" CreatedOn="2016-07-19T10:50:52.2743658Z" ModifiedOn="2024-06-19T10:29:49.2603752Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="21070" Name="Exportimport_Import_OtherAccPrograms" BuildFlags="">
+  <Title m="2016-07-19T10:52:20.8392063Z">Import údajov z iného softvéru</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-06-19T10:29:49.2603752Z">&lt;P&gt;V&amp;nbsp;tejto téme &lt;EM&gt;Pomocníka&lt;/EM&gt; sú uvedené &lt;STRONG&gt;informácie o možnosti jednorazového importu&amp;nbsp;údajov z vybraných externých účtovných systémov&lt;/STRONG&gt;&amp;nbsp;do systému OBERON. Téma obsahuje &lt;STRONG&gt;tak zoznam externých účtovných systémov&lt;/STRONG&gt;, z&amp;nbsp;ktorých je možný jednorazový&amp;nbsp;import vybraných údajov do OBERON-u, &lt;STRONG&gt;ako aj postup samotného importu&lt;/STRONG&gt;.&lt;/P&gt;&lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Pred samotným vykonaním importu je potrebné mať na zreteli, že &lt;STRONG&gt;štruktúra údajov externých programov sa môže v závislosti od času a verzie meniť&lt;/STRONG&gt;. Z tohto dôvodu &lt;SPAN style="COLOR: rgb(255,0,0)"&gt;nevykonávajte import do ostrej databázy, ale najprv overte funkčnosť importu na skúšobnej databáze&lt;/SPAN&gt; (&lt;A href="40c83e5f-22aa-4ba5-b4c1-35938f90fac2"&gt;trial licencia&lt;/A&gt;). V prípade, že sa import neuskutoční korektne, je potrebné kontaktovať firmu EXALOGIC.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Systém OBERON umožňuje &lt;STRONG&gt;jednorazovo naimportovať údaje z vybraných externých účtovných systémov (napr. &lt;EM&gt;iKelp, Money s3, Pohoda&lt;/EM&gt;...)&lt;/STRONG&gt;. Najčastejšie je možné importovať údaje o&amp;nbsp;obchodných partneroch, skladové&amp;nbsp;karty (aj počiatočné stavy zásob), pracovníkov v mzdách a&amp;nbsp;pod. 
+&lt;LI&gt;Import údajov z&amp;nbsp;iného softvéru&amp;nbsp;sa spravidla používa pri prechode z&amp;nbsp;iného softvéru na systém OBERON,&amp;nbsp;aby po&amp;nbsp;&lt;A href="9a485893-6dd2-44e8-9740-a4cd7083a932"&gt;vytvorení novej účtovnej jednotky (databázy)&lt;/A&gt;&amp;nbsp;bolo možné v OBERON-e pracovať s&amp;nbsp;importovanými údajmi&amp;nbsp;z pôvodnej evidencie. 
+&lt;LI&gt;Cieľom importu je&amp;nbsp;v maximálnej možnej miere uľahčiť používateľovi prechod z&amp;nbsp;iného&amp;nbsp;softvéru na OBERON a&amp;nbsp;zásadne skrátiť čas&amp;nbsp;uvedenia nového systému do ostrej prevádzky. 
+&lt;LI&gt;Import&amp;nbsp;odporúčame vykonávať &lt;STRONG&gt;do prázdnej databázy, ktorá má zadané základné údaje o firme&lt;/STRONG&gt;. Samotný OBERON odporúčame mať aktivovaný, resp. mať&amp;nbsp;&lt;A href="95d188df-c149-46a9-8474-4d9493f2ad41"&gt;objednanú licenciu a využiť jej dočasnú platnosť&lt;/A&gt;, t.&amp;nbsp;j.&amp;nbsp;&lt;A href="40c83e5f-22aa-4ba5-b4c1-35938f90fac2"&gt;trial licenciu&lt;/A&gt;), keďže import údajov overuje aktuálne licenčné práva.&amp;nbsp;Import je však možné použiť aj&amp;nbsp;na import údajov do už&amp;nbsp;používanej databázy. V&amp;nbsp;tom prípade pred importom vykonajte&amp;nbsp;&lt;A href="493f5942-f267-4f98-a46d-8acc745b9b88"&gt;zálohu databázy&lt;/A&gt;. 
+&lt;LI&gt;Pred vykonaním importu do ostrej databázy &lt;STRONG&gt;najprv overte funkčnosť importu na skúšobnej databáze&lt;/STRONG&gt; (&lt;A href="40c83e5f-22aa-4ba5-b4c1-35938f90fac2"&gt;trial licencia&lt;/A&gt;). V prípade, že sa import neuskutoční korektne, je potrebné kontaktovať firmu EXALOGIC (pozri upozornenie vyššie). 
+&lt;LI&gt;Import sa spravidla vykonáva &lt;STRONG&gt;načítaním údajov priamo zo zdrojovej databázy&amp;nbsp;externého softvéru do cieľovej databázy OBERON-u&lt;/STRONG&gt; (nie pomocou súborov). 
+&lt;LI&gt;Hoci tento spôsob importu&amp;nbsp;je rýchly, komfortný a&amp;nbsp;so&amp;nbsp;širokým rozsahom importovaných údajov, nepokrýva všetky externé softvéry a&amp;nbsp;ani v&amp;nbsp;rámci jednotlivých softvérov nie je podporovaný import údajov zo všetkých evidencií. V takom prípade je možné využiť jednorazový &lt;STRONG&gt;import&amp;nbsp;(prípadne aktualizáciu)&amp;nbsp;vybraných údajov zo súboru typu XLSX&lt;/STRONG&gt; (&lt;EM&gt;Libre Office,&lt;/EM&gt; &lt;EM&gt;Microsoft Excel&lt;/EM&gt; a pod.), ktorý možno&amp;nbsp;realizovať kedykoľvek (nielen pri vytvorení firmy). Viac informácií získate v téme&amp;nbsp;&lt;A href="1c4fe40d-4be6-4e94-9ccc-39727c9a6a0c" style="auto-update-caption: true"&gt;Import údajov zo súboru typu XLSX&lt;/A&gt;. 
+&lt;LI&gt;V&amp;nbsp;systéme OBERON je zároveň dostupná aj možnosť opakovaných importov, resp. exportov dokladov (faktúr, príjemiek...)&amp;nbsp;z/do iných softvérov na základe&amp;nbsp;&lt;A href="56f661c6-24da-46aa-b157-5d988cbe792b"&gt;XML komunikácie&lt;/A&gt;. Viac informácií získate v&amp;nbsp;témach&amp;nbsp;&lt;A href="c4bb279e-a2ba-4690-83b9-efb2e11cc077" style="auto-update-caption: true"&gt;Import dokladov z iných softvérov&lt;/A&gt; a&amp;nbsp;&lt;A href="2c463344-2e7a-4599-8afb-f5d06c2366e0" style="auto-update-caption: true"&gt;Export dokladov do iných softvérov&lt;/A&gt;. 
+&lt;LI&gt;Viac informácií o možnostiach importu a exportu údajov v systéme OBERON získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="5020b29b-b6e5-48bb-bfc6-800d68d5b8e9" style="auto-update-caption: true"&gt;Možnosti importu a exportu údajov v OBERON-e&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Pri používaní&amp;nbsp;&lt;A href="0b81f4ea-5e68-48c1-8b89-933d5a23d962"&gt;databázového&amp;nbsp;systému SQL&lt;/A&gt;&amp;nbsp;odporúčame import zveriť do rúk odborníkovi.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H5&gt;Obrázok č. 1: Sprievodca jednorazovým importom údajov z iného softvéru do OBERON-u&lt;/H5&gt;
+&lt;P&gt;&lt;IMG style="BORDER-TOP: black 1px solid; BORDER-RIGHT: grey 1px solid; BORDER-BOTTOM: grey 1px solid; BORDER-LEFT: grey 1px solid" border=0 src="images/BasicInformation/TransportData/ExportImport_ImportFromOtherProgramms.png"&gt;&amp;nbsp;&lt;/P&gt;
+&lt;H2&gt;Možnosti priameho importu&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Abiset - iKelp&lt;BR&gt;&amp;nbsp;&amp;nbsp; -&lt;/STRONG&gt; Skladové karty&lt;BR&gt;&amp;nbsp;&amp;nbsp; - Počiatočné stavy zásob 
+&lt;LI&gt;&lt;STRONG&gt;Cígler - Money S3&lt;/STRONG&gt;&lt;BR&gt;&amp;nbsp;&amp;nbsp; - Obchodní partneri&lt;BR&gt;&amp;nbsp;&amp;nbsp; - Skladové karty&lt;BR&gt;&amp;nbsp;&amp;nbsp; - Počiatočné stavy zásob&lt;BR&gt;&amp;nbsp;&amp;nbsp; - Faktúry vydané/prijaté 
+&lt;LI&gt;&lt;STRONG&gt;Kros - Olymp&lt;BR&gt;&lt;/STRONG&gt;&amp;nbsp;&amp;nbsp; - Pracovníci (mzdy)&lt;BR&gt;&amp;nbsp;&amp;nbsp; - Pracovné pomery (aj zrážky) 
+&lt;LI&gt;&lt;STRONG&gt;Kros -&amp;nbsp;OMEGA&lt;BR&gt;&lt;/STRONG&gt;&amp;nbsp;&amp;nbsp; - Obchodní partneri&lt;BR&gt;&amp;nbsp;&amp;nbsp; - Skladové karty&lt;BR&gt;&amp;nbsp;&amp;nbsp; - Počiatočné stavy zásob&lt;BR&gt;&amp;nbsp;&amp;nbsp; - Faktúry vydané/prijaté&lt;BR&gt;&amp;nbsp;&amp;nbsp; - Evidencia majetku&lt;BR&gt;&amp;nbsp;&amp;nbsp; - Základné číselníky 
+&lt;LI&gt;&lt;STRONG&gt;Stormware - Pohoda&lt;/STRONG&gt;&lt;BR&gt;&amp;nbsp;&amp;nbsp; - Obchodní partneri&lt;BR&gt;&amp;nbsp;&amp;nbsp; - Skladové karty&lt;BR&gt;&amp;nbsp;&amp;nbsp; - Počiatočné stavy zásob&lt;BR&gt;&amp;nbsp;&amp;nbsp; - Faktúry vydané/prijaté&lt;BR&gt;&amp;nbsp;&amp;nbsp; - Evidencia majetku&lt;BR&gt;&amp;nbsp;&amp;nbsp; - Základné číselníky 
+&lt;LI&gt;&lt;STRONG&gt;MRP - Visual&lt;BR&gt;&amp;nbsp;&amp;nbsp; -&lt;/STRONG&gt; Skladové karty&lt;BR&gt;&amp;nbsp;&amp;nbsp; - Počiatočné stavy zásob&lt;BR&gt;&amp;nbsp;&amp;nbsp; - Faktúry vydané/prijaté 
+&lt;LI&gt;&lt;STRONG&gt;Sunsoft&amp;nbsp;- WinOASIS&lt;BR&gt;&lt;/STRONG&gt;&amp;nbsp;&amp;nbsp; - Obchodní partneri&lt;BR&gt;&amp;nbsp;&amp;nbsp; - Skladové karty (aj receptúry)&lt;BR&gt;&amp;nbsp;&amp;nbsp; - Počiatočné stavy zásob&lt;BR&gt;&amp;nbsp;&amp;nbsp; - Faktúry (vydané, prijaté)&lt;BR&gt;&amp;nbsp;&amp;nbsp; - Základné čísleníky 
+&lt;LI&gt;&lt;STRONG&gt;Syscon - F Max&lt;/STRONG&gt;&lt;BR&gt;&amp;nbsp;&amp;nbsp; - Obchodní partneri&lt;BR&gt;&amp;nbsp;&amp;nbsp; - Skladové karty (aj receptúry)&lt;BR&gt;&amp;nbsp;&amp;nbsp; - Počiatočné stavy zásob &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Postup &amp;nbsp;&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;V&amp;nbsp;programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt; vytvorte novú prázdnu databázu&amp;nbsp;podľa postupu uvedeného v téme&amp;nbsp;&lt;A href="9a485893-6dd2-44e8-9740-a4cd7083a932" style="auto-update-caption: true"&gt;Vytvorenie účtovnej jednotky (databázy)&lt;/A&gt;. 
+&lt;LI&gt;Ak sa budú importovať údaje do novej databázy,&amp;nbsp;v ponuke &lt;EM&gt;Servis&lt;/EM&gt;, &lt;EM&gt;Licenčné práva&lt;/EM&gt; si skontrolujte aktiváciu&amp;nbsp;&lt;A href="40c83e5f-22aa-4ba5-b4c1-35938f90fac2"&gt;trial licencie&lt;/A&gt;&amp;nbsp;na používanie systému OBERON. Bližšie informácie v&amp;nbsp;téme&amp;nbsp;&lt;A href="49208c26-7930-4363-9fab-977662e2e8cc" style="auto-update-caption: true"&gt;Ako objednať OBERON&lt;/A&gt;. 
+&lt;LI&gt;Pri importe do už&amp;nbsp;používanej databázy vytvorte&amp;nbsp;&lt;A href="493f5942-f267-4f98-a46d-8acc745b9b88"&gt;zálohu&lt;/A&gt;&amp;nbsp;aktuálnej databázy.&amp;nbsp;V prípade neočakávaných problémov bude možné pracovať s&amp;nbsp;databázou v&amp;nbsp;stave pred importom a import zopakovať. 
+&lt;LI&gt;V OBERON-e zvoľte ponuku OBERON a vyberte položku&amp;nbsp;&lt;A href="e975459f-e882-49f2-adb9-79e68a07df0e"&gt;Otvorenie agendy (firmy)&lt;/A&gt;&lt;EM&gt;.&lt;/EM&gt; 
+&lt;LI&gt;Stlačte tlačidlo &lt;EM&gt;Možnosti.&lt;/EM&gt; Otvorí sa formulár, v ktorom vyberte &lt;EM&gt;&lt;STRONG&gt;Import údajov z iného softvéru&lt;/STRONG&gt;&lt;/EM&gt;. 
+&lt;LI&gt;Otvorí sa sprievodca &lt;EM&gt;Import údajov z iného softvéru&lt;/EM&gt;.&amp;nbsp;Postupujte podľa pokynov v sprievodcovi. Vyberte program, z ktorého chcete údaje importovať. Ak sa požadovaný softvér v&amp;nbsp;zozname nenachádza,&amp;nbsp;kontaktujte firmu&amp;nbsp;&lt;A href="571f742b-c33d-495b-bab3-01ff69c38ef0"&gt;EXALOGIC&lt;/A&gt; a informujte sa o možnosti ďalšieho postupu. 
+&lt;LI&gt;Vykonajte import údajov. &lt;/LI&gt;&lt;/OL&gt;
+&lt;H2&gt;Ďalšie informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Import faktúr (vydaných, ako aj prijatých) sa vykonáva tak, že sa importujú všetky doklady za posledné 2 kalendárne roky. Zároveň sa importujú aj staršie faktúry, ktoré ešte nie sú uhradené. V prípade niektorých softvérov OBERON naimportuje aj zaúčtovanie úhrad, t.&amp;nbsp;j. zapíše záznamy do peňažného/účtovného denníka.&amp;nbsp; 
+&lt;LI&gt;Import údajov z iných programov je vzhľadom na odlišné koncepcie programov a rozdielne dátové štruktúry veľmi komplikovaný proces. &lt;STRONG&gt;Nie je možné očakávať import&amp;nbsp;kompletne všetkých údajov danej evidencie&lt;/STRONG&gt;, spravidla sa importujú len&amp;nbsp;najdôležitejšie údaje. Ak&amp;nbsp;usúdite, že import danej evidencie nie je dostatočný, kontaktujte firmu&amp;nbsp;&lt;A href="571f742b-c33d-495b-bab3-01ff69c38ef0" target=_blank&gt;EXALOGIC&lt;/A&gt; a informujte sa o možnosti rozšírenia daného importu. &lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="cb8a6b41-bd3a-4697-8433-39c399532218" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="5020b29b-b6e5-48bb-bfc6-800d68d5b8e9">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="07d08d2a-7df3-4845-b005-7090ba5785cd" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="19a10c98-2b1d-4fe1-8ab2-98921ab328be">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="b31f0ac6-c94a-4b50-beff-89ea0c16463c" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="9a485893-6dd2-44e8-9740-a4cd7083a932">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="c58c5a79-64d7-4b97-bd16-15cd0c50830c">
+      <Keyword m="2016-07-19T12:39:34.4057276Z">Prechod z iného softvéru na OBERON</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="885b4b58-2506-4aff-b49e-4fff61fde574">
+      <Keyword m="2016-07-19T12:57:51.4744083Z">Výmena softvéru za OBERON</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="8948bbb6-ac83-445c-bbca-1e190e1c309c">
+      <Keyword m="2021-03-30T12:35:33.6322659Z">Iný softvér - import údajov</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="5cb452dc-f276-4073-9d1c-2ec7cf0fa966">
+      <Keyword m="2021-03-30T12:36:00.2148687Z">Konkurenčný softvér - import údajov</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="870c422f-4908-4cb6-b95f-1bcfa01adbb7">
+      <Keyword m="2021-03-30T12:36:12.997838Z">Jednorazový import údajov z iného softvéru</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

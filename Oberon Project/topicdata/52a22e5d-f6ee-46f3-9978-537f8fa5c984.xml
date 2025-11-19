@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="52a22e5d-f6ee-46f3-9978-537f8fa5c984" Status="Complete" CreatedOn="2014-09-08T10:48:52.4777717Z" ModifiedOn="2023-06-08T08:54:37.1742646Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="22707" Name="Menu_Hotel_Services" BuildFlags="">
+  <Title m="2014-09-08T10:49:06.5905789Z">Služby</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-06-08T08:54:37.1742646Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;je venovaná&amp;nbsp;položke&amp;nbsp;&lt;EM&gt;Služby&lt;/EM&gt;&amp;nbsp;v ponuke&amp;nbsp;&lt;EM&gt;Hotel&lt;/EM&gt; programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Výberom položky sa otvorí&amp;nbsp;číselník&amp;nbsp;&lt;EM&gt;Zoznam služieb&lt;/EM&gt;, v&amp;nbsp;ktorom&amp;nbsp;je možné &lt;STRONG&gt;definovať služby ubytovacieho zariadenia&lt;/STRONG&gt; v module &lt;A href="c3bd41f0-029e-4c74-b342-b0ffff647b6e"&gt;Hotelová recepcia&lt;/A&gt;. 
+&lt;LI&gt;Služby&amp;nbsp;zahŕňajú stravovacie&amp;nbsp;služby, prenájom športovísk,&amp;nbsp;zapožičanie športového náčinia, priestorov a pod. Ubytovacie zariadenie&amp;nbsp;ich môže poskytovať&amp;nbsp;hosťom, ale aj&amp;nbsp;neubytovaným osobám za&amp;nbsp;poplatok alebo&amp;nbsp;zdarma v rámci pobytového balíka. 
+&lt;LI&gt;V&amp;nbsp;systéme OBERON rozlišujeme&amp;nbsp;nasledujúce typy služieb: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;základné&lt;/STRONG&gt; - služby, ktoré sa pravidelne opakujú, napr. raňajky, večere, parkovanie&amp;nbsp;a pod., 
+&lt;LI&gt;&lt;STRONG&gt;rozšírené&lt;/STRONG&gt; - predstavujú doplnkové služby ubytovacieho zariadenia, napr. wellness, tenis, biliard a pod. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Tak základné, ako aj rozšírené služby možno priradiť k jednotlivým &lt;STRONG&gt;druhom služby&lt;/STRONG&gt;, ktoré je možné v&amp;nbsp;systéme OBERON ľubovoľne definovať (napr. k&amp;nbsp;druhu služby &lt;EM&gt;Reštaurácia&lt;/EM&gt; možno priradiť služby &lt;EM&gt;Raňajky, Večera&lt;/EM&gt; a pod.). Takéto členenie umožňuje získať prehľad o poskytnutých službách podľa daného druhu služby (podľa druhu služby je možné vytvárať tlačové výstupy). 
+&lt;LI&gt;Pomocou &lt;STRONG&gt;typu položky&lt;/STRONG&gt; (&lt;EM&gt;Strava, Služby, Ostatné&lt;/EM&gt;) je možné členiť položky podľa typu a následne ich pri fakturácii&amp;nbsp;&lt;A href="ffa5a889-7bfe-4165-ba83-15263eb77358"&gt;hotelového účtu&lt;/A&gt; zoskupiť. 
+&lt;LI&gt;Niektoré služby&amp;nbsp;sa poskytujú až nasledujúci deň po príchode (napr. raňajky). Pre tento prípad systém OBERON umožňuje nastaviť,&amp;nbsp;či sa má dátum začiatku poskytovania služby automaticky zvýšiť o jeden deň. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Základné služby&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Základné služby v&amp;nbsp;module&amp;nbsp;&lt;A href="c3bd41f0-029e-4c74-b342-b0ffff647b6e"&gt;Hotelová recepcia&lt;/A&gt; predstavujú &lt;STRONG&gt;služby, ktoré sa spravidla poskytujú opakovane&lt;/STRONG&gt; (napr. raňajky, večere, parkovanie&amp;nbsp;a pod.). Poskytujú sa&amp;nbsp;&lt;STRONG&gt;k ubytovaniu (rezervácii)&lt;/STRONG&gt;, pričom je možné určiť rozsah dátumov a počet poskytnutia služby za jeden deň. 
+&lt;LI&gt;Základné služby &lt;STRONG&gt;sa nezobrazujú&lt;/STRONG&gt; v&amp;nbsp;&lt;A href="0f4cbef4-f919-441f-bd61-6ef9ca0b1344"&gt;Grafickom prehľade poskytovaných služieb&lt;/A&gt;&amp;nbsp;-&amp;nbsp;pri tomto type služby nie je potrebná rezervácia služby. 
+&lt;LI&gt;Podobne ako pri &lt;A href="1a33ab0b-2df7-4dc2-962b-8a3319c16831"&gt;skladovej karte&lt;/A&gt;&amp;nbsp;&lt;A href="8deac9fe-9864-41e8-aaa3-02257c241d78"&gt;typu služba&lt;/A&gt;&amp;nbsp;sa pri nich &lt;STRONG&gt;neeviduje množstvo&lt;/STRONG&gt;. Možno ich však prepojiť s modulmi &lt;EM&gt;Skladová evidencia&lt;/EM&gt;, &lt;EM&gt;Pokladnica OBERON&lt;/EM&gt; a &lt;EM&gt;Účtovníctvo&lt;/EM&gt;. 
+&lt;LI&gt;Základné služby&amp;nbsp;&lt;STRONG&gt;sú zahrnuté do automatickej tvorby&amp;nbsp;položiek kalkulácie ceny za ubytovanie&lt;/STRONG&gt;&amp;nbsp;pri&amp;nbsp;&lt;A href="2414619b-e1e1-4bc2-b745-c8d08f3f2549"&gt;zaevidovaní rezervácie ubytovania&lt;/A&gt;, resp.&amp;nbsp;&lt;A href="d5286006-62ed-43bc-93a2-5f4ec69fce0b"&gt;zaevidovanie ubytovania (príchod hosťa)&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Rozšírené služby&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Rozšírené služby v&amp;nbsp;module&amp;nbsp;&lt;A href="c3bd41f0-029e-4c74-b342-b0ffff647b6e"&gt;Hotelová recepcia&lt;/A&gt; predstavujú &lt;STRONG&gt;doplnkové služby ubytovacieho zariadenia&lt;/STRONG&gt; (napr. wellness, tenis, biliard a pod.). Možno ich poskytovať &lt;STRONG&gt;k ubytovaniu (rezervácii), ale aj samostatne&lt;/STRONG&gt; (neubytovaným hosťom). 
+&lt;LI&gt;Rozšírené&amp;nbsp;služby &lt;STRONG&gt;sa zobrazujú&lt;/STRONG&gt; v&amp;nbsp;&lt;A href="0f4cbef4-f919-441f-bd61-6ef9ca0b1344"&gt;Grafickom prehľade poskytovaných služieb&lt;/A&gt;, ktorý umožňuje dva rôzne spôsoby zobrazenia: &lt;EM&gt;&lt;STRONG&gt;štandardné&lt;/STRONG&gt;&lt;/EM&gt; a &lt;EM&gt;&lt;STRONG&gt;denný plánovač&lt;/STRONG&gt;&lt;/EM&gt;. Tu možno zaevidovať&amp;nbsp;aj rezervácie rozšírených služieb. Zoznam poskytovaných rozšírených služieb&amp;nbsp;je dostupný v &lt;A href="4a3fd53c-a95a-4850-8adb-17666063e88d"&gt;Knihe poskytovaných služieb&lt;/A&gt;. 
+&lt;LI&gt;Podobne ako pri &lt;A href="1a33ab0b-2df7-4dc2-962b-8a3319c16831"&gt;skladovej karte&lt;/A&gt;&amp;nbsp;&lt;A href="8deac9fe-9864-41e8-aaa3-02257c241d78"&gt;typu služba&lt;/A&gt;&amp;nbsp;sa pri nich &lt;STRONG&gt;neeviduje množstvo&lt;/STRONG&gt;. Možno ich však prepojiť s modulmi &lt;EM&gt;Skladová evidencia&lt;/EM&gt;, &lt;EM&gt;Pokladnica OBERON&lt;/EM&gt; a &lt;EM&gt;Účtovníctvo&lt;/EM&gt;. 
+&lt;LI&gt;Tieto služby &lt;STRONG&gt;nie sú zahrnuté do automatickej tvorby&amp;nbsp;položiek kalkulácie ceny za ubytovanie&lt;/STRONG&gt;&amp;nbsp;pri&amp;nbsp;&lt;A href="2414619b-e1e1-4bc2-b745-c8d08f3f2549"&gt;zaevidovaní rezervácie ubytovania&lt;/A&gt;, resp.&amp;nbsp;&lt;A href="d5286006-62ed-43bc-93a2-5f4ec69fce0b"&gt;zaevidovanie ubytovania (príchod hosťa)&lt;/A&gt;. 
+&lt;LI&gt;Poskytnutú rozšírenú službu je možné vyúčtovať &lt;STRONG&gt;manuálne, presunutím na hotelový účet alebo vystavením faktúry&lt;/STRONG&gt;. Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="4a3fd53c-a95a-4850-8adb-17666063e88d" style="auto-update-caption: true"&gt;Kniha poskytovaných služieb&lt;/A&gt;. 
+&lt;LI&gt;V rámci rozšírených služieb je možné rezervovať napr.: 
+&lt;UL&gt;
+&lt;LI&gt;priestory - rokovacie,&amp;nbsp;školiace miestnosti, salóniky&amp;nbsp;(na rôzne zasadnutia, schôdze, semináre, školenia, plesy,&amp;nbsp;svadby, oslavy...), 
+&lt;LI&gt;športoviská - fitness, tenisové kurty,&amp;nbsp;bowlingové dráhy, snooker, biliard, stolný tenis..., 
+&lt;LI&gt;športové potreby - lopty, rakety a ďalšie športové&amp;nbsp;náčinie..., 
+&lt;LI&gt;wellness&amp;nbsp;- sauny, soláriá, masáže.... &lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Porovnanie základných a rozšírených služieb&lt;/H2&gt;
+&lt;TABLE style="WIDTH: 60%" borderColor=silver cellSpacing=0 cellPadding=2 border=1&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TD&gt;&lt;/TD&gt;
+&lt;TD style="WIDTH: 20%" bgColor=#d9e1f2 align=center&gt;&lt;B&gt;Základné služby&lt;/B&gt;&lt;/TD&gt;
+&lt;TD style="WIDTH: 20%" bgColor=#d9e1f2 align=center&gt;&lt;B&gt;Rozšírené služby&lt;/B&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;STRONG&gt;Poskytované k ubytovaniu (rezervácii)&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;STRONG&gt;Poskytované samostatne&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;STRONG&gt;Zobrazenie v grafickom prehľade poskytovaných služieb&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;STRONG&gt;Evidencia v knihe poskytovaných služieb&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;STRONG&gt;Evidencia zostatkových množstiev&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;STRONG&gt;Zahrnuté do automatickej tvorby položiek hotelového účtu&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;STRONG&gt;Zahrnuté do automatickej tvorby položiek kalkulácie ceny za ubytovanie&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;STRONG&gt;Zahrnuté do automatickej tvorby položiek kalkulácie ceny za služby&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;STRONG&gt;Priradenie k druhu služby&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;STRONG&gt;Členenie podľa typu položky&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;STRONG&gt;Posunutie dátumu začiatku postkytovania služby o jeden deň&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;STRONG&gt;Nastavenie rozsahu dátumov poskytovania služby&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;STRONG&gt;Nastavenie času poskytnutia služby&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;STRONG&gt;Nastavenie počtu poskytnutia služby za jeden deň&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;STRONG&gt;Nastavenie dennej dostupnosti poskytovania služby&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;STRONG&gt;Nastavenie vylúčiteľnej doby medzi dvoma poskytovanými službami&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;STRONG&gt;Možnosť rezervovať do určitého dátumu&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;STRONG&gt;Možnosť evidovať množstvá&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;STRONG&gt;Prepojenie so skladovou evidenciou&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;STRONG&gt;Prepojenie s Pokladnicou OBERON&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;STRONG&gt;Prepojenie s účtovníctvom&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;STRONG&gt;Prepojenie s externými systémami&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Bližšie informácie o&amp;nbsp;vyúčtovaní rozšírených služieb získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="4a3fd53c-a95a-4850-8adb-17666063e88d" style="auto-update-caption: true"&gt;Kniha poskytovaných služieb&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Popis formulára &lt;EM&gt;Služba (definícia)&lt;/EM&gt; - základná služba&lt;/H2&gt;
+&lt;P&gt;Formulár je dostupný z&amp;nbsp;programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;, ponuka &lt;EM&gt;Hotel&lt;/EM&gt;,&amp;nbsp;&lt;EM&gt;Služby&lt;/EM&gt;, tlačidlo &lt;EM&gt;Nový&lt;/EM&gt;, typ služby &lt;EM&gt;Základná služba&lt;/EM&gt;.&lt;/P&gt;&lt;innovasys:widget type="Tab Strip" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Hlavička&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Zadávajú sa základné informácie o službe (názov, druh, typ služby).&lt;/P&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Druh služby&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Druh služby&amp;nbsp;umožňuje priradiť tak základné, ako aj rozšírené služby k&amp;nbsp;druhu služby (napr. k&amp;nbsp;druhu služby &lt;EM&gt;Reštaurácia&lt;/EM&gt; možno priradiť služby &lt;EM&gt;Raňajky, Večera&lt;/EM&gt; a pod.). Takéto členenie umožňuje získať prehľad o poskytnutých službách podľa daného druhu služby (podľa druhu služby je možné vytvárať tlačové výstupy). Jednotlivé druhy služieb je možné v&amp;nbsp;systéme OBERON ľubovoľne definovať.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Základné&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Evidujú sa základné údaje o službe - typ položky, cena s DPH, merná jednotka, zľava, sadzba DPH.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Typ položky&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Pomocou typu položky (&lt;EM&gt;Strava, Služby, Ostatné&lt;/EM&gt;) je možné členiť položky podľa typu a následne ich pri fakturácii&amp;nbsp;&lt;A href="ffa5a889-7bfe-4165-ba83-15263eb77358"&gt;hotelového účtu&lt;/A&gt; zoskupiť.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Kód položky&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Základnú službu je možné prepojiť s&amp;nbsp;modulmi&amp;nbsp;&lt;A href="78d20602-4b59-4b31-9f0a-a04a1d376ec5"&gt;Skladová evidencia&lt;/A&gt;,&amp;nbsp;&lt;A href="a6f5e32d-6f1e-40bb-9d15-3f784a183252"&gt;Pokladnica OBERON&lt;/A&gt; a &lt;EM&gt;Účtovníctvo&lt;/EM&gt;. V&amp;nbsp;module &lt;EM&gt;Skladová evidencia&lt;/EM&gt; sa vytvorí skladová karta&amp;nbsp;&lt;A href="8deac9fe-9864-41e8-aaa3-02257c241d78"&gt;typu služba&lt;/A&gt; (napr. &lt;EM&gt;Raňajky&lt;/EM&gt;). Zadaním kódu položky tejto skladovej karty sa daná základná služba s&amp;nbsp;touto skladovou kartou prepojí. Takéto prepojenie je dôležité z&amp;nbsp;hľadiska predaja danej služby na&amp;nbsp;&lt;A href="a6f5e32d-6f1e-40bb-9d15-3f784a183252"&gt;Pokladnici OBERON&lt;/A&gt;,&amp;nbsp;vyhodnocovania predaja danej služby z hľadiska štatistík v&amp;nbsp;evidencii pokladničných dokladov a&amp;nbsp;skladových pohybov (tlačových výstupov), ale aj z pohľadu účtovníctva.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Dátum&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Niektoré služby&amp;nbsp;sa poskytujú až nasledujúci deň po príchode (napr. raňajky). Pre tento prípad systém OBERON umožňuje nastaviť,&amp;nbsp;či sa má dátum začiatku poskytovania služby automaticky zvýšiť o jeden deň.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Externé systémy&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Na tomto mieste je možné zadať jedinečné identifikátory služby, ktoré slúžia na prepojenie OBERON-u s externými rezervačnými systémami (napr.&amp;nbsp;&lt;A href="3e65fff1-f915-40da-8283-7ddd54167c2b"&gt;D-EDGE&lt;/A&gt;).&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Popis formulára &lt;EM&gt;Služba (definícia)&lt;/EM&gt; - rozšírená služba&lt;/H2&gt;
+&lt;P&gt;Formulár je dostupný z&amp;nbsp;programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;, ponuka &lt;EM&gt;Hotel&lt;/EM&gt;,&amp;nbsp;&lt;EM&gt;Služby&lt;/EM&gt;, tlačidlo &lt;EM&gt;Nový&lt;/EM&gt;, typ služby&lt;EM&gt;&amp;nbsp;Rozšírená služba&lt;/EM&gt;.&lt;/P&gt;&lt;innovasys:widget type="Tab Strip" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Hlavička&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Zadávajú sa základné informácie o službe (názov, druh, typ služby).&lt;/P&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Druh služby&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Druh služby&amp;nbsp;umožňuje priradiť tak základné, ako aj rozšírené služby k&amp;nbsp;druhu služby (napr. k&amp;nbsp;druhu služby&amp;nbsp;&lt;EM&gt;Športoviská&lt;/EM&gt; možno priradiť služby &lt;EM&gt;Tenisový kurt,&amp;nbsp;Snooker&lt;/EM&gt; a pod.). Takéto členenie umožňuje získať prehľad o poskytnutých službách podľa daného druhu služby.&amp;nbsp;Podľa druhu služby je možné vytvárať tlačové výstupy. Jednotlivé druhy služieb je možné v&amp;nbsp;systéme OBERON ľubovoľne definovať.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Základné&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Evidujú sa základné údaje o službe - typ položky, cena s DPH, merná jednotka, zľava, sadzba DPH.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Typ položky&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Pomocou typu položky (&lt;EM&gt;Strava, Služby, Ostatné&lt;/EM&gt;) je možné členiť položky podľa typu a následne ich pri fakturácii&amp;nbsp;&lt;A href="ffa5a889-7bfe-4165-ba83-15263eb77358"&gt;hotelového účtu&lt;/A&gt; zoskupiť.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Kód položky&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Rozšírenú&amp;nbsp;službu je možné prepojiť s&amp;nbsp;modulmi&amp;nbsp;&lt;A href="78d20602-4b59-4b31-9f0a-a04a1d376ec5"&gt;Skladová evidencia&lt;/A&gt;,&amp;nbsp;&lt;A href="a6f5e32d-6f1e-40bb-9d15-3f784a183252"&gt;Pokladnica OBERON&lt;/A&gt; a &lt;EM&gt;Účtovníctvo&lt;/EM&gt;. V&amp;nbsp;module &lt;EM&gt;Skladová evidencia&lt;/EM&gt; sa vytvorí skladová karta&amp;nbsp;&lt;A href="8deac9fe-9864-41e8-aaa3-02257c241d78"&gt;typu služba&lt;/A&gt; (napr. &lt;EM&gt;Snooker&lt;/EM&gt;). Zadaním kódu položky tejto skladovej karty sa daná&amp;nbsp;rozšírená služba s&amp;nbsp;touto skladovou kartou prepojí. Takéto prepojenie je dôležité z&amp;nbsp;hľadiska predaja danej služby na&amp;nbsp;&lt;A href="a6f5e32d-6f1e-40bb-9d15-3f784a183252"&gt;Pokladnici OBERON&lt;/A&gt;,&amp;nbsp;vyhodnocovania predaja danej služby z hľadiska štatistík v&amp;nbsp;evidencii pokladničných dokladov a&amp;nbsp;skladových pohybov (tlačových výstupov), ale aj z pohľadu účtovníctva.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Dátum&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Niektoré služby&amp;nbsp;sa poskytujú až nasledujúci deň po príchode (napr. raňajky). Pre tento prípad systém OBERON umožňuje nastaviť,&amp;nbsp;či sa má dátum začiatku poskytovania služby automaticky zvýšiť o jeden deň.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Rozšírené služby&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;FONT style="COLOR: rgb(0,0,0)" color=#552b83&gt;S rozšírenými službami je možné pracovať v&amp;nbsp;&lt;A href="0f4cbef4-f919-441f-bd61-6ef9ca0b1344"&gt;grafickom prehľade poskytovaných služieb&lt;/A&gt;. Záložka obsahuje&amp;nbsp;nastavenia služby z&amp;nbsp;hľadiska zobrazenia v&amp;nbsp;grafickom prehľade poskytovaných služieb.&lt;/FONT&gt;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;&amp;nbsp;&lt;/SPAN&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Druh rozšírenej služby&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Vyberá sa druh rozšírenej služby (napr. &lt;EM&gt;Športoviská, Priestory, Wellness&lt;/EM&gt; a pod.), ku ktorému sa daná rozšírená služba priradí (napr. pri službe &lt;EM&gt;Tenisový kurt&lt;/EM&gt; sa vyberie druh &lt;EM&gt;Športoviská&lt;/EM&gt;). Jednotlivé druhy&amp;nbsp;rozšírenej služby&amp;nbsp;je možné v&amp;nbsp;systéme OBERON ľubovoľne definovať.&amp;nbsp;V&amp;nbsp;&lt;A href="0f4cbef4-f919-441f-bd61-6ef9ca0b1344"&gt;grafickom prehľade poskytovaných služieb&lt;/A&gt;&amp;nbsp;sa nadefinované druhy rozšírenej služby zobrazujú vo forme záložiek v&amp;nbsp;hornej časti formulára.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Časový rozsah&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Zadáva sa denná dostupnosť poskytovania služby, t.&amp;nbsp;j.&amp;nbsp;časový rozsah, v&amp;nbsp;ktorom sa bude služba poskytovať. Časový rozsah sa bude zobrazovať v&amp;nbsp;&lt;A href="0f4cbef4-f919-441f-bd61-6ef9ca0b1344"&gt;grafickom prehľade poskytovaných služieb&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Minimálny časový úsek&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Minimálny časový úsek je minimálny čas, ktorý bude&amp;nbsp;daná služba trvať, a predstavuje, na aké minimálne časti bude rozdelený&amp;nbsp;&lt;A href="0f4cbef4-f919-441f-bd61-6ef9ca0b1344"&gt;grafický prehľad poskytovaných služieb&lt;/A&gt;. Podľa minimálneho časového úseku sa bude dať zaevidovať rezervácia služby. Dĺžka časového úseku závisí od druhu rozšírenej služby - iný časový úsek bude mať prenájom tenisového kurtu a iný čas masáž.&amp;nbsp;V&amp;nbsp;rámci jedného&amp;nbsp;druhu rozšírenej služby&amp;nbsp;je vhodné mať nadefinované služby s&amp;nbsp;približne rovnakými minimálnymi časovými úsekmi, v prípade rôznych minimálnych časových&amp;nbsp;úsekov sa bude zobrazovať najmenší časový úsek.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Umožniť evidovať množstvá&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;K&amp;nbsp;rozšírenej službe je možné evidovať aj množstvá, napr. pri prenájme gastrozariadenia možno evidovať taniere, poháre, príbory atď.,&amp;nbsp;kde na každú akciu, resp.&amp;nbsp;podujatie&amp;nbsp;sa požičiava rôzny počet kusov týchto položiek.&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;Maximálne dostupné množstvo&lt;/STRONG&gt; - zadáva sa maximálne množstvo, ktoré má podnikateľ&amp;nbsp;k dispozícii (napr. 600 pohárov na víno).&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;Počet voľných riadkov v&amp;nbsp;grafickom prehľade&lt;/STRONG&gt; - zadáva sa počet riadkov v grafickom prehľade, teda&amp;nbsp;počet zákazníkov, ktorým je podnikateľ schopný súčasne požičať alebo&amp;nbsp;prenajať napríklad gastrovybavenie, lešenie, náradie atď. Napr. celkovo má 600 pohárov na víno, ale obvykle má maximálne 6 podujatí súčasne - v&amp;nbsp;tom prípade mu stačí počet voľných riadkov v grafickom prehľade nastaviť na 6.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Vylúčiteľné doby&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Vylúčiteľná doba predstavuje časový úsek alebo&amp;nbsp;obdobie, v ktorom sa nebude daná&amp;nbsp;služba poskytovať. &lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Vylúčiteľná doba medzi dvoma poskytovanými službami&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Zadáva sa čas v minútach medzi dvoma poskytovanými službami, ktorý je potrebný po skončení služby na prípravu&amp;nbsp;na ďalšiu službu. Napr. pri službe &lt;EM&gt;Tenis&lt;/EM&gt; môže byť doba nastavená na 0, ale pri službe &lt;EM&gt;Masáž&lt;/EM&gt; môže byť doba nastavená na 10 minút.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Pravidelná vylúčiteľná doba&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Zadáva sa&amp;nbsp;začiatok pravidelnej údržby v hodinách a čas trvania vylúčiteľnej doby v minútach. Pravidelnú vylúčiteľnú dobu zadajte v prípade,&amp;nbsp;že poskytovaná služba vyžaduje po určitom používaní údržbu. Napr. pri službe&amp;nbsp;&lt;EM&gt;Korčuľovanie na ľade&lt;/EM&gt; je potrebné po každej hodine vykonať údržbu ľadu rolbou.&amp;nbsp;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Kalendár&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Stlačením tlačidla &lt;EM&gt;Kalendár&lt;/EM&gt; sa otvorí&amp;nbsp;formulár, v ktorom bude zobrazený celý kalendárny rok (tzv.&amp;nbsp;&lt;A href="0b544ca9-1220-4056-8c1d-82d41ecbac18"&gt;ročný kalendár&lt;/A&gt;).&amp;nbsp;Za vylúčiteľnú dobu, t.&amp;nbsp;j. čas, keď sa rozšírená služba nebude poskytovať,&amp;nbsp;možno označiť:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;deň v týždni - napr. každý pondelok, 
+&lt;LI&gt;mesiac - bude označený celý mesiac v roku, 
+&lt;LI&gt;sviatky a dni pracovného pokoja - budú označené nedele a dni pracovného pokoja. &lt;/LI&gt;&lt;/UL&gt;
+&lt;P&gt;Informácie o&amp;nbsp;ovládaní kalendára získate v téme&amp;nbsp;&lt;A href="0b544ca9-1220-4056-8c1d-82d41ecbac18"&gt;Ročný kalendár&lt;/A&gt;.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Externé systémy&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Na tomto mieste je možné zadať jedinečné identifikátory služby, ktoré slúžia na prepojenie OBERON-u s externými rezervačnými systémami (napr.&amp;nbsp;&lt;A href="3e65fff1-f915-40da-8283-7ddd54167c2b"&gt;D-EDGE&lt;/A&gt;).&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="451ee204-f118-4a37-98b6-e2d9490f01d5" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="75c3faa8-8de5-4868-b98c-687ae53d87ae">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="b68b2b11-02d2-4a1e-b165-1aac0caad9c7" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="1a33ab0b-2df7-4dc2-962b-8a3319c16831">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="53c06e0f-caae-4f3c-8ada-94973f5c8d14" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="0f4cbef4-f919-441f-bd61-6ef9ca0b1344">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="1ab36b11-30fa-4b2c-83bb-0f1e7420f912" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="4a3fd53c-a95a-4850-8adb-17666063e88d">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="94fa620f-658a-4329-9ce8-58a45827db71" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="a4d41ab0-a4b9-4307-9ae5-8b7a8d7ba977">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="5db4f748-a62f-4af8-b3ae-5ef8e96cdff3">
+      <Keyword m="2015-05-05T10:17:07.977539Z">Základná služba</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="3e606909-a766-4c8c-8a58-82fd56bf6e1b">
+      <Keyword m="2015-05-05T10:17:15.7089843Z">Rozšírená služba</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="06aa61b2-3145-4c4c-9cba-339f19869091">
+      <Keyword m="2022-05-18T10:54:48.9342142Z">Rozšírené služby</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="4101824d-eb51-4824-a7e9-b35d917f7f5b">
+      <Keyword m="2022-05-18T10:55:01.9209875Z">Základné služby</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="8b7cfc49-d538-4fc2-8eac-b51b7d20647b">
+      <Keyword m="2022-05-18T10:55:42.4974308Z">Služby - hotelová recepcia</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="d7b9f91e-0a8f-417d-9184-c15cd2d261bf">
+      <Keyword m="2022-05-24T09:05:05.6410933Z">Porovnanie základných a rozšírených služieb</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="9ce25bbd-35d1-4096-acd5-70007f5af5a6" Status="Complete" CreatedOn="2021-12-10T13:21:11.5991218Z" ModifiedOn="2025-05-15T11:41:20.1543969Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="94010" Name="Menu_Service_AutomaticTasks" BuildFlags="">
+  <Title m="2021-12-14T07:56:04.4043793Z">Automatické úlohy</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-09-05T13:26:00.9057141Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;je venovaná&amp;nbsp;položke&amp;nbsp;&lt;EM&gt;Automatické úlohy&lt;/EM&gt;&amp;nbsp;v ponuke &lt;EM&gt;Servis&lt;/EM&gt; programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Výberom položky sa&amp;nbsp;otvorí&amp;nbsp;formulár&amp;nbsp;&lt;EM&gt;Automatické úlohy&lt;/EM&gt;, ktorý &lt;STRONG&gt;obsahuje zoznam všetkých&amp;nbsp;automatických úloh nadefinovaných v&amp;nbsp;rámci danej firmy (databázy)&lt;/STRONG&gt;. Automatické úlohy predstavujú nástroj, ktorý umožňuje vykonávať samostatné&amp;nbsp;automatické činnosti a&amp;nbsp;funkcie v pravidelných intervaloch na pozadí systému OBERON, a to bez zásahu používateľa. Na ich vykonávanie slúži program &lt;A href="09f3dae9-2fb7-490f-97dc-37f60885b398"&gt;OBERON Automation Center&lt;/A&gt;. 
+&lt;LI&gt;Automatické úlohy zahŕňajú napr. automatické notifikácie prostredníctvom generátora notifikácií, import kurzového lístka, automatické odosielanie e-mailov, import/export údajov z/do rezervačných portálov prostredníctvom manažéra rezervačných kanálov (&lt;EM&gt;Channel Manager&lt;/EM&gt;), ale aj webové služby, automatický export a import údajov&amp;nbsp;z/do externého internetového obchodu atď. 
+&lt;LI&gt;Podstatou automaticky vykonávaných úloh je &lt;STRONG&gt;úplná automatizácia činností a funkcií&lt;/STRONG&gt;, a tak odbremenenie používateľov OBERON-u: v&amp;nbsp;závislosti od nastavení a infraštruktúry sa úlohy môžu vykonávať plne automatizovane, a to aj vtedy, keď používateľ práve nepracuje s OBERON-om na svojom počítači (napr. zápis prijatých objednávok z internetového obchodu, príjem&amp;nbsp;on-line rezervácií z&amp;nbsp;rezervačného portálu, automatické odosielanie notifikácií pred príchodom hosťa do ubytovacieho zariadenia atď.). 
+&lt;LI&gt;Stlačením tlačila &lt;EM&gt;Nový&lt;/EM&gt; sa otvorí formulár &lt;EM&gt;Automatické úlohy&lt;/EM&gt;, ktorý &lt;STRONG&gt;umožňuje automatickú úlohu nadefinovať&lt;/STRONG&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;TABLE style="HEIGHT: 100px; WIDTH: 70%" border=0&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#d9e1f2 height=18 width="16%" align=left&gt;&lt;B&gt;Typ&lt;/B&gt;&lt;/TD&gt;
+&lt;TD bgColor=#d9e1f2 height=18 width="10%" align=left&gt;&lt;B&gt;Program&lt;/B&gt;&lt;/TD&gt;
+&lt;TD bgColor=#d9e1f2 height=18 width="20%" align=left&gt;&lt;B&gt;Popis&lt;/B&gt;&lt;/TD&gt;
+&lt;TD bgColor=#d9e1f2 height=18 width="30%" align=left&gt;&lt;B&gt;Príklad použitia&lt;/B&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;A href="47863971-c920-44ee-b49b-99a58f439915" style="auto-update-caption: true"&gt;Generátor notifikácií&lt;/A&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P align=left&gt;OAC/&lt;BR&gt;OBERON Center *&lt;/P&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P align=left&gt;Nástroj, pomocou ktorého systém OBERON automaticky generuje notifikácie (e-mailové a SMS správy).&lt;/P&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P align=left&gt;Informovanie o&amp;nbsp;blížiacom sa stretnutí zaevidovanom v&amp;nbsp;&lt;A href="f1a6963d-36aa-4134-92a5-fa47a4345e74"&gt;CRM&lt;/A&gt;, upozorňovanie na&amp;nbsp;&lt;A href="77f4529f-a73f-4a6d-b4fe-02d338cbdafa"&gt;meškajúcich pracovníkov&lt;/A&gt; do zamestnania,&amp;nbsp;informácia o výške dennej uzávierky na pokladnici a&amp;nbsp;pod.&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;A href="846ca30b-f11b-4096-ad20-3e4c57ba09d5" style="auto-update-caption: true"&gt;Automatické odosielanie e-mailov&lt;/A&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P align=left&gt;OAC/&lt;BR&gt;OBERON Center *&lt;/P&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P align=left&gt;Úloha&amp;nbsp;zasiela na pozadí e-mailové správy vygenerované a zapísané v&amp;nbsp;module&amp;nbsp;&lt;A href="f1a6963d-36aa-4134-92a5-fa47a4345e74"&gt;CRM&lt;/A&gt; v evidencii&amp;nbsp;&lt;A href="32dedc5d-8e4e-420e-acec-60ba202b6ec7"&gt;E-mailové správy&lt;/A&gt;.&lt;/P&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P align=left&gt;Rozposielanie hromadných e-mailových správ konkrétnym skupinám príjemcov (napr. pri reklamnej kampani, informovaní o podujatí atď.).&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;A href="aecc92e6-f07c-418c-b1d1-e7794a78fd31" style="auto-update-caption: true"&gt;Automatický XML export/import&lt;/A&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P align=left&gt;OBERON Center&lt;/P&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P align=left&gt;Nástroj, ktorý umožňuje automaticky exportovať/importovať&amp;nbsp;súbory XML&amp;nbsp;v&amp;nbsp;ľubovoľných&amp;nbsp;evidenciách&amp;nbsp;(&lt;A href="1a33ab0b-2df7-4dc2-962b-8a3319c16831"&gt;skladové karty&lt;/A&gt;,&amp;nbsp;&lt;A href="48505e8d-5f28-4063-882b-ca07f33670ef"&gt;objednávky prijaté&lt;/A&gt;...)&amp;nbsp;konkrétnym skupinám príjemcov.&lt;/P&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P align=left&gt;Export/import&amp;nbsp;z/do iných účtovných jednotiek (firiem) používajúcich systém OBERON, resp. externých systémov (napr.&amp;nbsp;&lt;A href="2ba6a435-be52-46a1-b723-fb2b8ca084c0"&gt;internetového obchodu&lt;/A&gt;).&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;A href="350a3a7d-8aa8-4886-88e9-1181038807cf" style="auto-update-caption: true"&gt;Import kurzového lístka z ECB&lt;/A&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P align=left&gt;OAC/&lt;BR&gt;OBERON Center *&lt;/P&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P align=left&gt;Úloha umožňuje automaticky importovať kurzový lístok z&amp;nbsp;&lt;EM&gt;Európskej centrálnej banky&lt;/EM&gt; (ECB) do databázy účtovnej jednotky (firmy).&lt;/P&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P align=left&gt;&lt;A href="183ab557-cc49-4d23-8935-dfcc8379a1ec"&gt;Vytvorenie faktúry v cudzej mene&lt;/A&gt;.&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;A href="1a074e9a-9cf9-4ab8-b9a8-68575142a704" style="auto-update-caption: true"&gt;Automatické spracovanie bankových výpisov&lt;/A&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P align=left&gt;OAC&lt;/P&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P align=left&gt;Úloha umožňuje&lt;STRONG&gt;&amp;nbsp;&lt;/STRONG&gt;automatický import bankových výpisov na ich následné zaúčtovanie do&amp;nbsp;&lt;A href="d8c9bfc8-92d1-4471-8909-e5f8ce602d6c"&gt;účtovného&lt;/A&gt;, resp.&amp;nbsp;&lt;A href="5e82cca9-b8af-4a80-ba30-7ab91914a595"&gt;peňažného denníka&lt;/A&gt;, resp. zápis do vybraných evidencií. Samotné spracovanie možno vykonať automaticky v&amp;nbsp;rámci tejto automatickej&amp;nbsp;úlohy, alebo manuálne&amp;nbsp;pomocou funkcie&amp;nbsp;&lt;A href="02bbf54b-086f-4641-8c33-4dd461e56fb4"&gt;spracovania bankových výpisov&lt;/A&gt;.&lt;/P&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P align=left&gt;Automatický import a&amp;nbsp;spracovanie bankových výpisov (&lt;EM&gt;Fio banka&lt;/EM&gt;, &lt;EM&gt;Tatra banka&lt;/EM&gt;).&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;A href="2564d1eb-a7ed-46a7-a957-6087afe26471" style="auto-update-caption: true"&gt;Manažér rezervačných kanálov Beds24&lt;/A&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P align=left&gt;OAC/&lt;BR&gt;OBERON Center *&lt;/P&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P align=left&gt;Softvérový nástroj, resp. komunikačné rozhranie (interface) určené pre modul&amp;nbsp;&lt;A href="c3bd41f0-029e-4c74-b342-b0ffff647b6e"&gt;Hotelová recepcia&lt;/A&gt;, ktoré&amp;nbsp;umožňuje export údajov o&amp;nbsp;obsadenosti ubytovacieho zariadenia a import rezervácií ubytovania.&lt;/P&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P align=left&gt;Pri rezervácii izby napr. prostredníctvom rezervačného portálu &lt;EM&gt;Booking.com&lt;/EM&gt; manažér zabezpečí, že sa táto rezervácia automaticky zapíše aj do&amp;nbsp;&lt;A href="5570e633-ca2e-4887-9361-57c5ce552da6"&gt;knihy rezervácií&lt;/A&gt; a zobrazí sa v&amp;nbsp;&lt;A href="3ca37544-bbc0-4a88-af6a-a2132b74279d"&gt;grafickom prehľade izieb&lt;/A&gt; v OBERON-e. Podobne, ak recepčná zaeviduje nové ubytovanie v OBERON-e, manažér zabezpečí, že sa táto obsadenosť prenesie aj do všetkých ostatných rezervačných platforiem a potenciálny hosť si už nebude môcť danú izbu zarezervovať.&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;A href="3e65fff1-f915-40da-8283-7ddd54167c2b" style="auto-update-caption: true"&gt;Manažér rezervačných kanálov D-EDGE&lt;/A&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P align=left&gt;OAC/&lt;BR&gt;OBERON Center *&lt;/P&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P align=left&gt;Softvérový nástroj, resp. komunikačné rozhranie (interface) určené pre modul&amp;nbsp;&lt;A href="c3bd41f0-029e-4c74-b342-b0ffff647b6e"&gt;Hotelová recepcia&lt;/A&gt;, ktoré&amp;nbsp;umožňuje export údajov o&amp;nbsp;obsadenosti ubytovacieho zariadenia a import rezervácií ubytovania.&lt;/P&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P align=left&gt;Pri rezervácii izby napr. prostredníctvom rezervačného portálu &lt;EM&gt;Booking.com&lt;/EM&gt; manažér zabezpečí, že sa táto rezervácia automaticky zapíše aj do&amp;nbsp;&lt;A href="5570e633-ca2e-4887-9361-57c5ce552da6"&gt;knihy rezervácií&lt;/A&gt; a zobrazí sa v&amp;nbsp;&lt;A href="3ca37544-bbc0-4a88-af6a-a2132b74279d"&gt;grafickom prehľade izieb&lt;/A&gt; v OBERON-e. Podobne, ak recepčná zaeviduje nové ubytovanie v OBERON-e, manažér zabezpečí, že sa táto obsadenosť prenesie aj do všetkých ostatných rezervačných platforiem a potenciálny hosť si už nebude môcť danú izbu zarezervovať.&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;A href="4a6f63ac-fdeb-4de8-93d1-77c969da1f18"&gt;Posielanie SMS správ cez EuroSMS&lt;/A&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P align=left&gt;OAC/&lt;BR&gt;OBERON Center *&lt;/P&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P align=left&gt;Úloha umožňuje posielať SMS správy v rámci alebo mimo firmy. Služba je spoplatnená podľa cenníka poskytovateľa.&amp;nbsp;Bližšie informácie získate&amp;nbsp;v&amp;nbsp;témach&amp;nbsp;&lt;A href="cb2b6fc2-5bb6-49e3-8bbf-65463b3f026f"&gt;EuroSMS&lt;/A&gt; a&amp;nbsp;&lt;A href="d4119d75-dd5b-4a1c-b9fa-c982601e0746" style="auto-update-caption: true"&gt;SMS správy&lt;/A&gt;.&lt;/P&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P align=left&gt;Rozposielanie hromadných SMS správ konkrétnym skupinám príjemcov (napr. pri reklamnej kampani, informovaní o podujatí atď.), resp. automatických notifikácií (napr. upomienky po neuhradení faktúry).&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;A href="b7531e2b-4bd6-4a46-a7e2-fd94bbc64325"&gt;Aktualizácia skupín obchodných partnerov podľa obratu&lt;/A&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P align=left&gt;OAC/&lt;BR&gt;OBERON Center *&lt;/P&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P align=left&gt;Úloha umožňuje priraďovať obchodných partnerov do skupín&amp;nbsp;na základe výšky obratu obchodných partnerov.&lt;/P&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P align=left&gt;Obchodným partnerom s&amp;nbsp;vyšším obratom je možné poskytnúť výhodnejšie ceny.&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;A href="87f87ba8-cd9e-47ef-9dda-0ca54dfa1dd0"&gt;On-line pobočková synchronizácia&lt;/A&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P align=left&gt;OBERON Center&lt;/P&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P align=left&gt;Nástroj&amp;nbsp;na automaticky vykonávanú synchronizáciu údajov medzi&amp;nbsp;pobočkou (alebo viacerými pobočkami) a centrálou firmy, keď&amp;nbsp;komunikácia medzi pobočkou&amp;nbsp;a&amp;nbsp;centrálou prebieha s&amp;nbsp;oneskorením len niekoľkých desiatok sekúnd.&lt;/P&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P align=left&gt;Prevádzka s&amp;nbsp;viacerými predajňami s vysokou kadenciou predaja (napr. predajne potravín, rôzne predajné miesta vstupeniek do kúpalísk, klzísk, kín a pod.) s&amp;nbsp;vysokým nárokom na dostupnosť centrálnej databázy vzhľadom na spoľahlivosť vydávania pokladničných dokladov.&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;A href="500d259b-3e05-4b22-86a5-adc149eb9595" style="auto-update-caption: true"&gt;Synchronizácia s Kalendárom Google&lt;/A&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P align=left&gt;OBERON Center&lt;/P&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P align=left&gt;Nástroj, ktorý umožňuje&amp;nbsp;udalosti evidované v&amp;nbsp;&lt;A href="f1a6963d-36aa-4134-92a5-fa47a4345e74"&gt;CRM&lt;/A&gt;&amp;nbsp;(evidencia &lt;EM&gt;Úlohy a udalosti, Kalendár udalostí&lt;/EM&gt;) zobrazovať aj v &lt;EM&gt;Kalendári Google&lt;/EM&gt;&lt;EM&gt;.&lt;/EM&gt; Prepojenie sa vytvorí nainštalovaním doplnku zo&amp;nbsp;&lt;A href="a1ae5eb5-f369-4aab-80b2-c6585166d550"&gt;Správcu doplnkov&lt;/A&gt;.&lt;/P&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P align=left&gt;Po vytvorení&amp;nbsp;kalendára &lt;EM&gt;Google&lt;/EM&gt;&amp;nbsp;napr.&amp;nbsp;&lt;EM&gt;Firma CRM&lt;/EM&gt;&amp;nbsp;a nastavení zdieľania s&amp;nbsp;ostatnými členmi firmy budú môcť pridávať alebo upravovať udalosti v&amp;nbsp;kalendári&amp;nbsp;všetci členovia firmy. Okrem toho, po nastavení automatickej úlohy bude takýto&amp;nbsp;spoločne používaný&amp;nbsp;kalendár zároveň&amp;nbsp;synchronizovaný s&amp;nbsp;modulom&amp;nbsp;&lt;EM&gt;CRM a&amp;nbsp;registratúra&lt;/EM&gt;&amp;nbsp;v&amp;nbsp;OBERON-e.&amp;nbsp;&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;A href="74a4e3f7-d1c9-476a-9bb2-e7d7a98a8248"&gt;Synchronizácia so systémom&amp;nbsp;HikCentral&lt;/A&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P align=left&gt;OBERON Center&lt;/P&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P align=left&gt;Úloha určená pre modul&amp;nbsp;&lt;A href="c3bd41f0-029e-4c74-b342-b0ffff647b6e"&gt;Hotelová recepcia&lt;/A&gt;, v&amp;nbsp;rámci ktorej sa&amp;nbsp;zo systému OBERON do prístupového systému &lt;EM&gt;HikCentral&lt;/EM&gt;&amp;nbsp;odosielajú údaje&amp;nbsp;o osobách aktuálne zaevidovaných v&amp;nbsp;&lt;A href="0b9519ff-9438-422b-a3e8-358b628293e9"&gt;knihe ubytovaných&lt;/A&gt;, ktoré sú&amp;nbsp;platné v danom čase.&lt;/P&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P align=left&gt;Systém &lt;EM&gt;HikCentral&lt;/EM&gt; bráni vstupu neubytovaných osôb do ubytovacieho zariadenia a umožňuje tak ponechať jeho vstup bez kontroly personálu. Turniket je zároveň vybavený ochranou proti preskočeniu – v prípade neželanej udalosti automaticky odošle video a&amp;nbsp;fotografiu zodpovednej osobe.&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;A href="23e5d4e3-fa9b-483d-8068-1ea847daccc1" style="auto-update-caption: true"&gt;Dochádzkové terminály - komunikácia&lt;/A&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P align=left&gt;OAC/&lt;BR&gt;OBERON Center *&lt;/P&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P align=left&gt;Úloha&amp;nbsp;zabezpečuje komunikáciu medzi systémom OBERON a&amp;nbsp;&lt;A href="f46f3a8f-ba04-4359-ba99-dc6caeeba021"&gt;dochádzkovými terminálmi&lt;/A&gt;.&lt;/P&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P align=left&gt;Komunikácia s&amp;nbsp;dochádzkovým terminálom&amp;nbsp;&lt;A href="ac73b976-c72c-449c-a608-c41ca5eb24ba" style="auto-update-caption: true"&gt;Dochádzkový terminál EXALOGIC A-C071S&lt;/A&gt;.&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;A href="58bb31ca-00c8-4641-ad99-7d58e24f59c5"&gt;WebServices API - OBERON 1G&lt;/A&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P align=left&gt;OAC&lt;BR&gt;&lt;/P&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P align=left&gt;Webové služby systému OBERON&amp;nbsp;umožňujú komunikáciu medzi OBERON-om a ďalšími nadstavbovými modulmi, resp. aplikáciami pomocou protokolu SOAP a JSON.&lt;/P&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P align=left&gt;&amp;nbsp;Základná webová služba systému OBERON.&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;A href="58bb31ca-00c8-4641-ad99-7d58e24f59c5"&gt;WebServices API - OBERON 2G&lt;/A&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P align=left&gt;OAC&lt;/P&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P align=left&gt;Webové služby systému OBERON&amp;nbsp;umožňujú komunikáciu medzi OBERON-om a ďalšími nadstavbovými modulmi, resp. aplikáciami pomocou protokolu SOAP a JSON.&lt;/P&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P align=left&gt;&amp;nbsp;Základná webová služba systému OBERON.&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;A href="58bb31ca-00c8-4641-ad99-7d58e24f59c5"&gt;WebServices API - Pokladnica OBERON 1G&lt;/A&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P align=left&gt;OAC&lt;/P&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P align=left&gt;Webové služby systému OBERON&amp;nbsp;umožňujú komunikáciu medzi OBERON-om a ďalšími nadstavbovými modulmi, resp. aplikáciami pomocou protokolu SOAP a JSON.&lt;/P&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P align=left&gt;Webová služba určená širokému spektru aplikácií na prístup k&amp;nbsp;&lt;A href="aec074f4-3e1c-4a1e-8a80-06fcecf51156"&gt;Pokladnici OBERON&lt;/A&gt;&amp;nbsp;(napr.&amp;nbsp;&lt;A href="942d48d5-b290-40f6-8ba3-45cf78f380f9"&gt;LUKUL - nielen mobilný čašník&lt;/A&gt;,&amp;nbsp;&lt;A href="d9867d81-7de7-4ce2-9c45-932025935b8b"&gt;systém bonovacích monitorov&lt;/A&gt;).&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;A href="58bb31ca-00c8-4641-ad99-7d58e24f59c5"&gt;WebServices API - OBERON vernostný systém 1G&lt;/A&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P align=left&gt;OAC&lt;/P&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P align=left&gt;Webové služby systému OBERON&amp;nbsp;umožňujú komunikáciu medzi OBERON-om a ďalšími nadstavbovými modulmi, resp. aplikáciami pomocou protokolu SOAP a JSON.&lt;/P&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P align=left&gt;Webová služba servera vernostného systému pre&amp;nbsp;&lt;A href="92147420-5d85-4b11-a328-06d401650294"&gt;OBERON vernostný systém (klient)&lt;/A&gt; prvej generácie.&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;A href="02dc0022-00b9-4102-be15-a4415d7e1abf" style="auto-update-caption: true"&gt;Automatické zálohovanie&lt;/A&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P align=left&gt;OAC/&lt;BR&gt;OBERON Center *&lt;/P&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P align=left&gt;Úloha na automatické zálohovanie databázy typu SQL server, prípadne aj súborovej databázy &lt;EM&gt;Microsoft Access&lt;/EM&gt; alebo iných, neúčtovných údajov.&lt;/P&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P align=left&gt;Pravidelné vytváranie záloh údajov podľa nastaveného časového plánu.&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;* V systéme OBERON&amp;nbsp;možno&amp;nbsp;túto automatickú úlohu z dôvodu kompatibility stále&amp;nbsp;vykonávať aj v&amp;nbsp;staršom programe &lt;EM&gt;OBERON Center&lt;/EM&gt;, avšak&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;&amp;nbsp;s obmedzenou platnosťou&lt;/SPAN&gt;.&amp;nbsp;Z tohto dôvodu je potrebné automatickú úlohu konfigurovať v&amp;nbsp;programe&amp;nbsp;&lt;A href="09f3dae9-2fb7-490f-97dc-37f60885b398"&gt;OBERON Automation Center&lt;/A&gt;. 
+&lt;H2&gt;Popis formulára &lt;EM&gt;Automatické úlohy&lt;/EM&gt;&lt;/H2&gt;
+&lt;P&gt;Formulár je dostupný z programu&amp;nbsp;&lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;, ponuka &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;EM&gt;Automatické úlohy&lt;/EM&gt;, tlačidlo&amp;nbsp;&lt;EM&gt;Nový&lt;/EM&gt; alebo &lt;EM&gt;Oprava&lt;/EM&gt;.&lt;/P&gt;&lt;innovasys:widget layout="block" type="Tab Strip"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;innovasys:widget layout="block" type="Tab Item"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Základné údaje&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;innovasys:widget layout="block" type="Drop Down Section"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Typ úlohy&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Automatické úlohy môžu byť&amp;nbsp;týchto&amp;nbsp;typov:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;Generátor notifikácií, &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 
+&lt;LI&gt;Automatické odosielanie e-mailov, 
+&lt;LI&gt;Automatický XML export/import, 
+&lt;LI&gt;Import kurzového lístka z ECB, 
+&lt;LI&gt;Automatické spracovanie&amp;nbsp;bankových výpisov, 
+&lt;LI&gt;Hotelový rezervačný systém Beds24, 
+&lt;LI&gt;Hotelový rezervačný systém D-EDGE, &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 
+&lt;LI&gt;Posielanie SMS správ cez &lt;A href="cb2b6fc2-5bb6-49e3-8bbf-65463b3f026f"&gt;EuroSMS&lt;/A&gt;, 
+&lt;LI&gt;Aktualizácia skupín obchodných partnerov podľa obratu, 
+&lt;LI&gt;On-line pobočková synchronizácia, 
+&lt;LI&gt;Synchronizácia s&amp;nbsp;&lt;A href="500d259b-3e05-4b22-86a5-adc149eb9595"&gt;Kalendárom Google&lt;/A&gt;, 
+&lt;LI&gt;Synchronizácia so systémom&amp;nbsp;&lt;A href="74a4e3f7-d1c9-476a-9bb2-e7d7a98a8248"&gt;HikCentral&lt;/A&gt;, 
+&lt;LI&gt;WebServices API - OBERON 1G, 
+&lt;LI&gt;WebServices API - OBERON 2G, 
+&lt;LI&gt;WebServices API - Pokladnica OBERON 1G. &lt;/LI&gt;&lt;/UL&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget layout="block" type="Drop Down Section"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Názov&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Názov (pomenovanie) automatickej úlohy, napr. &lt;EM&gt;Kurz.&amp;nbsp;lístok, Beds24&lt;/EM&gt; atď.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget layout="block" type="Drop Down Section"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Nastaviť&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Stlačením tlačidla &lt;EM&gt;Nastaviť&lt;/EM&gt; sa otvorí formulár&amp;nbsp;v závislosti od typu automatickej úlohy:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;A href="eaffff1a-43ad-4c90-a988-ebc3a51c1109"&gt;Formulár Nastavenie notifikácie&lt;/A&gt;, 
+&lt;LI&gt;&lt;A href="432ca5a2-f3ad-4cd5-9194-aae8a3baa03e" style="auto-update-caption: true"&gt;Formulár Nastavenie automatickej úlohy 'Automatické odosielanie e-mailov'&lt;/A&gt;, 
+&lt;LI&gt;&lt;A href="aca42d40-2f3f-4847-9cbd-870b3444bb4d" style="auto-update-caption: true"&gt;Formulár Nastavenie automatickej úlohy 'Automatický XML export/import'&lt;/A&gt;, 
+&lt;LI&gt;&lt;A href="efd024a7-c559-4268-ac8b-ce6d71e4252e" style="auto-update-caption: true"&gt;Formulár Nastavenie automatickej úlohy 'Import kurzového lístka'&lt;/A&gt;, 
+&lt;LI&gt;&lt;A href="d78358e7-12c7-4337-9566-98295a2b2a5b" style="auto-update-caption: true"&gt;Formulár Nastavenie automatickej úlohy 'Automatické spracovanie bankových výpisov'&lt;/A&gt;, 
+&lt;LI&gt;&lt;A href="49beed71-814f-440b-aa51-deed6f063140" style="auto-update-caption: true"&gt;Formulár Nastavenie automatickej úlohy 'Beds24'&lt;/A&gt;,&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 
+&lt;LI&gt;&lt;A href="2f5004a1-3092-42ef-8f11-f35818f26724" style="auto-update-caption: true"&gt;Formulár Nastavenie automatickej úlohy 'D-EDGE'&lt;/A&gt;, 
+&lt;LI&gt;&lt;A href="4a6f63ac-fdeb-4de8-93d1-77c969da1f18" style="auto-update-caption: true"&gt;Formulár Nastavenie automatickej úlohy 'Sms sender: EuroSMS'&lt;/A&gt;, 
+&lt;LI&gt;&lt;A href="646bf512-f7a3-46c1-a594-962602ba58d7" style="auto-update-caption: true"&gt;Formulár Nastavenie automatickej úlohy 'On-line pobočková synchronizácia'&lt;/A&gt;, 
+&lt;LI&gt;&lt;A href="a8d6abf6-4a2a-4e37-a89a-1afbb2b09e17"&gt;Formulár Nastavenie automatickej úlohy 'WebServices API - OBERON'&lt;/A&gt;, 
+&lt;LI&gt;&lt;A href="621f9ff1-bc7a-40af-9c1e-be72be87c01e"&gt;Formulár Nastavenie automatickej úlohy 'WebServices API - Pokladnica OBERON'&lt;/A&gt;, 
+&lt;LI&gt;&lt;A href="96c706bf-e858-4618-b202-b00cfa132356"&gt;Formulár Nastavenie automatickej úlohy 'WebServices API - OBERON vernostný systém'&lt;/A&gt;, 
+&lt;LI&gt;&lt;A href="6499a206-9a28-440a-90ca-e6d5556763b4"&gt;Formulár Nastavenie automatickej úlohy 'Automatické zálohovanie'&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget layout="block" type="Drop Down Section"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Vykonávať na serveri, pod&amp;nbsp;používateľom&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;&lt;STRONG&gt;Server OAC&lt;/STRONG&gt;&amp;nbsp;- zadáva sa názov servera a používateľa v&amp;nbsp;systéme OBERON.&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;OBERON Center&lt;/STRONG&gt; - zadáva sa názov počítača a&amp;nbsp;používateľa systému &lt;EM&gt;Windows&lt;/EM&gt;, pod ktorým sa má úloha vykonávať. Nastavenie je dôležité pri využívaní počítača viacerými používateľmi, napr. v&amp;nbsp;režime &lt;EM&gt;terminal server&lt;/EM&gt;. Ak nebude meno používateľa zadané, úloha sa bude vykonávať v každom spustenom používateľskom profile, čo môže spôsobovať problémy.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget layout="block" type="Tab Item"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Doplňujúce nastavenia&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Pre vybrané automatické úlohy je možné manuálne nastaviť časový interval vykonávania. Automatické úlohy sa môžu aktivovať manuálne alebo automaticky vo zvolenej časovej perióde (deň, týždeň, mesiac).&amp;nbsp;Úlohy sa môžu vykonávať aj viackrát za deň, pričom je možné zadať časový interval opakovania (v minútach).&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="a2d64340-f17b-44d9-94ce-1890b9da6baf" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="09f3dae9-2fb7-490f-97dc-37f60885b398">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="f7f3e95a-4674-4305-8e5b-d23cf7b3a307" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="69282df4-d4d6-462a-8cf2-68000e3e6f93">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="7290ed56-a28a-4883-be16-0a1998a82c7b" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="fd64c37a-486b-4cdf-a370-297aaa8a8f73">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="9eb47719-8cef-46b9-b565-8f239bddfd44" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="7388e749-75b9-4306-85dd-b467bcb6a89c">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="13a3c681-8090-4de5-9dee-7b19aae13c97">
+      <Keyword m="2023-02-14T09:29:32.0925502Z">Zoznam automatických úloh</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="f0373bf6-61e6-4227-819c-568d1847fc62">
+      <Keyword m="2024-09-06T07:33:33.1851078Z">Fio banka - automatické úlohy</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="bd216e51-7bf9-48fe-8c0f-48b78105b860">
+      <Keyword m="2024-09-06T07:33:44.3703605Z">Tatra banka - automatické úlohy</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="10dd240e-1c39-4338-945c-e86552f18fad">
+      <Keyword m="2025-05-15T11:41:16.640228Z">Everifin - automatické úlohy</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

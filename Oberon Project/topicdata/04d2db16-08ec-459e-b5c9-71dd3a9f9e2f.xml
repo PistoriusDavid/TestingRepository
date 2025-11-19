@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="04d2db16-08ec-459e-b5c9-71dd3a9f9e2f" Status="Complete" CreatedOn="2017-05-30T13:04:37.7636453Z" ModifiedOn="2024-07-29T13:01:13.0196356Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="OBERONLanguageVersions" BuildFlags="">
+  <Title m="2017-05-30T12:38:27.5647476Z">Jazykové verzie OBERON-u</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-07-29T13:01:13.0196356Z">&lt;P&gt;Systém OBERON podporuje multijazyčnosť - jazykové verzie,&amp;nbsp;ktoré zahŕňajú tak &lt;STRONG&gt;jazykové verzie programu&lt;/STRONG&gt;, ako aj &lt;STRONG&gt;jazykové verzie údajov&lt;/STRONG&gt; v&amp;nbsp;programe evidovaných. Informácie o nich sú predmetom tejto témy &lt;EM&gt;Pomocníka&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Jazykové verzie programu&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Pri jazykových verziách programu nejde o úplné jazykové verzie celého programu. Preložené sú&amp;nbsp;len &lt;STRONG&gt;najčastejšie používané objekty&amp;nbsp;&lt;/STRONG&gt;(názvy jednotlivých položiek menu, názvy záložiek, tlačidiel atď.) &lt;STRONG&gt;a&amp;nbsp;hlásenia&lt;/STRONG&gt; v programe. Zároveň sú v&amp;nbsp;programe preložené &lt;STRONG&gt;najpoužívanejšie tlačové výstupy&lt;/STRONG&gt;, napr. faktúra, dodací list, objednávka, hotelový účet, výplatná páska atď. 
+&lt;LI&gt;Jazykové verzie programu môžu využiť predovšetkým tí&amp;nbsp;používatelia OBERON-u, ktorí neovládajú slovenský jazyk&amp;nbsp;(napr.&amp;nbsp;vedenie, resp. manažéri&amp;nbsp;v medzinárodných firmách a pod.). 
+&lt;LI&gt;Zdôvodnením neúplnosti jazykových verzií programu je skutočnosť, že aj keď je program&amp;nbsp;prioritne určený pre malé a stredné firmy, obsahuje pomerne rozsiahly počet modulov a funkcií a tomu zodpovedá aj počet objektov, hlásení a tlačových výstupov. Keďže ide o&amp;nbsp;rádovo stovky tisíc takýchto položiek, bolo by veľmi problematické všetky dôsledne preložiť do iných jazykov. Jazykové verzie programu si dávajú skromnejší cieľ, a&amp;nbsp;to najmä &lt;STRONG&gt;uľahčiť používanie programu&lt;/STRONG&gt; aj klientmi neovládajúcimi slovenský jazyk. 
+&lt;LI&gt;Predvoleným jazykom OBERON-u je slovenčina. Ďalší jazyk je možné doinštalovať z programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;&amp;nbsp;pomocou&amp;nbsp;&lt;A href="a1ae5eb5-f369-4aab-80b2-c6585166d550"&gt;Správcu doplnkov&lt;/A&gt;&amp;nbsp;(ponuka &lt;EM&gt;Servis&lt;/EM&gt;). 
+&lt;LI&gt;Zoznam dostupných jazykov sa v&amp;nbsp;&lt;A href="a1ae5eb5-f369-4aab-80b2-c6585166d550"&gt;Správcovi doplnkov&lt;/A&gt; nachádza v oddiele&amp;nbsp;&lt;EM&gt;&lt;STRONG&gt;Jazykové súbory&lt;/STRONG&gt;&lt;/EM&gt;.&amp;nbsp;Akýkoľvek ďalší jazyk okrem jazykov dostupných v&amp;nbsp;&lt;EM&gt;Správcovi doplnkov&lt;/EM&gt; je možné v OBERON-e vytvoriť pomocou&amp;nbsp;&lt;A href="817c0c0f-2bed-4b71-9cae-38f5032c1661"&gt;Editora jazykov&lt;/A&gt;. Editor jazykov je možné použiť aj na úpravu vybraných výrazov po nainštalovaní jazyka zo&amp;nbsp;&lt;EM&gt;Správcu doplnkov&lt;/EM&gt;. 
+&lt;LI&gt;Prepnutím programu do iného jazyka sa nezmenia jeho vlastnosti a stále zostáva legislatívne určený len na použitie pre daňové subjekty na území &lt;EM&gt;Slovenskej republiky&lt;/EM&gt;. 
+&lt;LI&gt;Kto by však chcel program použiť napríklad na evidenciu zásob, prípadne využiť jeho ďalšie moduly, kde nedôjde k legislatívnej kolízii, môže tak, samozrejme, urobiť a program použiť kdekoľvek na svete (za predpokladu, že program bude fungovať aj v jazykovej verzii systému &lt;EM&gt;Windows&lt;/EM&gt; používanej v danej lokalite). &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Jazykové verzie aktualizujeme a dopĺňame o nové výrazy približne jeden až dvakrát ročne. Preto je možné, že s postupným vývojom programu a jeho dopĺňaním o nové položky tieto zmeny nie sú bezprostredne reflektované v jazykových súboroch dostupných v&amp;nbsp;&lt;A href="a1ae5eb5-f369-4aab-80b2-c6585166d550"&gt;Správcovi doplnkov&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Jazykové verzie údajov&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Jazykové verzie údajov predstavujú&amp;nbsp;preklady &lt;STRONG&gt;dát evidovaných v&amp;nbsp;databáze&lt;/STRONG&gt; účtovnej jednotky, pričom každý používateľ si&amp;nbsp;môže preklady údajov&amp;nbsp;do databázy účtovnej jednotky pridávať sám (po pridaní sú dostupné&amp;nbsp;pre všetkých používateľov&amp;nbsp;databázy). 
+&lt;LI&gt;Predvoleným jazykom OBERON-u je slovenčina. Ďalší jazyk je možné pridať v&amp;nbsp;ponuke &lt;EM&gt;Firma, Predvoľby,&amp;nbsp;&lt;/EM&gt;&lt;A href="e040a1de-5802-4302-ad10-3e2222949604"&gt;Štáty&lt;/A&gt;&amp;nbsp;&lt;STRONG&gt;pridaním daného štátu&lt;/STRONG&gt;. Viac informácií o správnom vyplnení potrebných údajov o štáte získate vo &lt;A href="c74441ae-8cdd-4bf2-940c-a1041ed9c586"&gt;formulári Štát&lt;/A&gt;. 
+&lt;LI&gt;Po pridaní daného štátu (jazyka)&amp;nbsp;pribudne v jednotlivých evidenciách pri položkách rozbaľovací zoznam s možnosťou výberu ikony vlajky daného štátu na zadanie prekladu položky do príslušného poľa. 
+&lt;LI&gt;Jazykové verzie údajov tak umožňujú evidovať vybrané údaje v OBERON-e &lt;STRONG&gt;v niekoľkých jazykových mutáciách&lt;/STRONG&gt;. Napr. údaje na skladovej karte je možné evidovať v slovenskom, ale aj v anglickom, nemeckom, maďarskom, ruskom, poľskom, českom a ďalších jazykoch. Následne napr. pri vystavovaní faktúry v cudzej mene bude možné pridať položky do faktúry v danom jazyku. Inou oblasťou využitia je napr. preklad údajov prenášaných do ponuky &lt;EM&gt;eMenu&lt;/EM&gt; aplikácie&amp;nbsp;&lt;A href="942d48d5-b290-40f6-8ba3-45cf78f380f9"&gt;LUKUL - nielen mobilný čašník&lt;/A&gt;, ktorá funguje vo viacerých jazykových verziách - po prepnutí jazyka v aplikácii sa budú zobrazovať jednotlivé údaje v&amp;nbsp;príslušnom jazyku. Podobne pri&amp;nbsp;exporte údajov do&amp;nbsp;&lt;A href="2ba6a435-be52-46a1-b723-fb2b8ca084c0"&gt;internetového obchodu&lt;/A&gt; je možné tieto údaje prenášať v rôznych jazykoch v závislosti od potrieb daného e-shopu (napr. pri prevádzkovaní webovej stránky obchodu vo viacerých jazykových mutáciách). &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 1: Formulár štát so správne vyplnenými údajmi&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/Hotel/Form_Hotel_State.png"&gt;&amp;nbsp;&lt;/P&gt;
+&lt;H5&gt;Obrázok č. 2: Preklad údajov vo formulári &lt;EM&gt;Skladová karta&lt;/EM&gt;&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/OBERON/Basic/OBERONBasic_LanguageVersions_Data.PNG"&gt;&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="f5ba7faa-ee1e-4799-b7f7-3cc149676eea" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="a1ae5eb5-f369-4aab-80b2-c6585166d550">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="62171a59-1891-4658-87cb-c81a05c49906" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="817c0c0f-2bed-4b71-9cae-38f5032c1661">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="d5ae9738-6b75-43a2-9415-c71df0eb1f54" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="e040a1de-5802-4302-ad10-3e2222949604">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="9f5d72da-7c37-4d23-8777-b594a9c48544" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="c74441ae-8cdd-4bf2-940c-a1041ed9c586">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="ffa6f55e-271e-4be7-8f5b-086d6f1968a4">
+      <Keyword m="2021-04-19T12:24:28.5432227Z">Jazykové verzie programu</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="c6964feb-4d7b-4cfa-b110-4e4642cafa58">
+      <Keyword m="2021-04-19T12:24:37.9373152Z">Jazykové verzie údajov</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="a74976bb-d475-40b6-b665-0187261fc92d">
+      <Keyword m="2021-04-19T12:24:43.7689754Z">Preklady - program</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="568d6d83-62af-45ca-9168-24a1aaf784b3">
+      <Keyword m="2021-04-19T12:24:48.6120119Z">Preklady - údaje</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="c12714ab-0c17-4629-bbec-7ee42d575eca">
+      <Keyword m="2021-04-26T06:35:19.5923273Z">Viacjazyčné názvy položiek</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

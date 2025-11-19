@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="74c4e61b-2bf3-4f39-bd68-5a3764330e6b" Status="Complete" CreatedOn="2014-10-09T06:43:12.9959516Z" ModifiedOn="2024-10-24T11:05:19.7298845Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="CashRegister_Advanced_CreateStockMovement" BuildFlags="">
+  <Title m="2014-10-09T06:46:35.5455368Z">O spôsoboch odpisovania stavu zásob</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-10-24T11:05:19.7298845Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; je venovaná &lt;STRONG&gt;rôznym spôsobom odpisovania&amp;nbsp;stavu zásob zo skladu&lt;/STRONG&gt; pri&amp;nbsp;&lt;A href="69bbd499-45c0-4b0f-8f7a-c53fa5d70c1b"&gt;predaji na Pokladnici OBERON&lt;/A&gt;,&amp;nbsp;t. j. v akom okamihu sa pri predaji&amp;nbsp;vytvorí&amp;nbsp;&lt;A href="fc7595a6-54ce-4aa9-acb4-93d7880e854e"&gt;skladový pohyb&lt;/A&gt; a&amp;nbsp;zároveň sa zníži stav zásob&amp;nbsp;danej&amp;nbsp;&lt;A href="1a33ab0b-2df7-4dc2-962b-8a3319c16831"&gt;skladovej karty&lt;/A&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;V systéme OBERON sú dostupné &lt;STRONG&gt;dva hlavné spôsoby odpisovania stavu zásob zo skladu, t.&amp;nbsp;j. vytvárania skladových pohybov&lt;/STRONG&gt;, a to: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;ihneď po zaevidovaní (vytlačení)&lt;/STRONG&gt; pokladničného dokladu, 
+&lt;LI&gt;&lt;STRONG&gt;sumárne&lt;/STRONG&gt; - spravidla pri&amp;nbsp;&lt;A href="900c1b8a-2645-4225-ac93-d387237f3d90"&gt;dennej uzávierke&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;O&amp;nbsp;tom, ktorý spôsob sa bude používať, je možné nastaviť vo&amp;nbsp;&lt;A href="bb0e1e82-e344-4bf0-834a-a294269f2e71"&gt;formulári Pokladnica OBERON - nastavenia&lt;/A&gt;, záložka &lt;EM&gt;Režim predaja&lt;/EM&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;V&amp;nbsp;prvom prípade&lt;/STRONG&gt; sa skladové pohyby vytvoria (znížia stavy zásob) &lt;STRONG&gt;ihneď po vytlačení dokladu&lt;/STRONG&gt;. Pri vytvorení skladových pohybov sa aktualizujú množstvá na skladových kartách. Toto nastavenie sa používa &lt;STRONG&gt;vo veľkoobchodných prevádzkach, prípadne v&amp;nbsp;maloobchode&lt;/STRONG&gt;. Zároveň je možné pri tomto nastavení&amp;nbsp;&lt;STRONG&gt;zakázať výdaj tovaru &lt;EM&gt;do mínusu&lt;/EM&gt;&lt;/STRONG&gt;,&amp;nbsp;t. j. evidovať záporné stavy. Nastavenie sa nachádza vo&amp;nbsp;&lt;A href="bb0e1e82-e344-4bf0-834a-a294269f2e71"&gt;formulári Pokladnica OBERON - nastavenia&lt;/A&gt;&amp;nbsp;v záložke &lt;EM&gt;Akcie&lt;/EM&gt; (políčko &lt;EM&gt;Vždy povoliť výdaj tovaru a&amp;nbsp;evidovať aj záporné stavy&lt;/EM&gt; je potrebné nechať nezačiarknuté). Tento spôsob vytvárania skladových pohybov je potrebné mať nastavený, &lt;STRONG&gt;ak sa majú v&amp;nbsp;skladových pohyboch evidovať obchodní partneri&lt;/STRONG&gt; vybraní pri predaji. 
+&lt;LI&gt;&lt;STRONG&gt;V druhom prípade&lt;/STRONG&gt; sa po predaji (vytlačení daňového dokladu) ihneď neupraví množstvo na skladových kartách, ale &lt;STRONG&gt;až sumárne&lt;/STRONG&gt;, napr. po dennej uzávierke. V&amp;nbsp;reštauračnom režime je dostupná len táto možnosť, a to&amp;nbsp;z dôvodu veľkého množstva pohybov - hlavne pri skladových kartách&amp;nbsp;&lt;A href="8deac9fe-9864-41e8-aaa3-02257c241d78"&gt;typu receptúra&lt;/A&gt;. Napr. pri predaji 50-tich porcií jedla je zbytočne 50-krát odpisovať 2&amp;nbsp;g korenia - odpíše sa sumárne 100&amp;nbsp;g korenia. 
+&lt;LI&gt;Skladové pohyby sa vytvárajú sumárne&amp;nbsp;z&amp;nbsp;&lt;A href="a4568b9d-f4ac-4d94-b56f-de3717381da7"&gt;pokladničných dokladov&lt;/A&gt; alebo&amp;nbsp;&lt;A href="ffa5a889-7bfe-4165-ba83-15263eb77358"&gt;hotelových účtov&lt;/A&gt; po aktivácii&amp;nbsp;&lt;EM&gt;&lt;STRONG&gt;Vytvorenia skladových pohybov&lt;/STRONG&gt;.&lt;/EM&gt; To znamená, že pohyb na skladovej karte sa vytvorí vtedy,&amp;nbsp;keď sa položka predá na&amp;nbsp;&lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnici OBERON&lt;/A&gt; alebo&amp;nbsp;pridá na&amp;nbsp;&lt;A href="ffa5a889-7bfe-4165-ba83-15263eb77358"&gt;hotelový účet&lt;/A&gt; (ak je nastavený modul&amp;nbsp;&lt;A href="c3bd41f0-029e-4c74-b342-b0ffff647b6e"&gt;Hotelová recepcia&lt;/A&gt;) a následne sa manuálne alebo automaticky spustí funkcia &lt;EM&gt;Vytvorenie skladových pohybov&lt;/EM&gt; (dostupná v module&amp;nbsp;&lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnica OBERON&lt;/A&gt;, záložka &lt;EM&gt;Systém&lt;/EM&gt;, tlačidlo &lt;EM&gt;Uzávierky&lt;/EM&gt;). Sumárne vytvorenie skladových pohybov je možné vykonať kedykoľvek manuálne, &lt;STRONG&gt;najčastejšie sa však vykonáva automaticky&lt;/STRONG&gt; po&amp;nbsp;&lt;A href="900c1b8a-2645-4225-ac93-d387237f3d90"&gt;dennej uzávierke&lt;/A&gt;. 
+&lt;LI&gt;Aktivácia sumárneho vytvorenia skladových pohybov môže byť: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Pri dennej uzávierke - automaticky&lt;/STRONG&gt; - predané množstvá sa odpíšu zo stavu zásob sumárne automaticky po dennej uzávierke. 
+&lt;LI&gt;&lt;STRONG&gt;Pri dennej uzávierke - pýtať sa -&lt;/STRONG&gt; pri každej dennej uzávierke sa program spýta, či má vytvoriť skladové pohyby. 
+&lt;LI&gt;&lt;STRONG&gt;Nevytvárať&lt;/STRONG&gt; - skladové pohyby sa nevytvárajú. Nevytvárať skladové pohyby je potrebné na &lt;A href="88af013e-47e9-408a-ac47-18fb4edb5553"&gt;off-line pobočkovej pokladnici&lt;/A&gt;, kde sa nevedie skladová evidencia. Skladové pohyby sa vytvárajú po importovaní predaja do databázy, v ktorej sa vedie skladová evidencia. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Pri sumárnom vytváraní skladových pohybov &lt;STRONG&gt;nie je možné evidovať odberateľa ku každému pohybu (predaju)&lt;/STRONG&gt;. 
+&lt;LI&gt;V systéme OBERON existujú&amp;nbsp;určité &lt;STRONG&gt;špeciálne prípady&lt;/STRONG&gt;, keď sa skladový pohyb (a teda zníženie stavu zásob) nevytvára k pokladničnému dokladu, ale bol vytvorený v inej evidencii: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;uhradenie výdajky&lt;/STRONG&gt; -&amp;nbsp;zaevidovanie úhrady&amp;nbsp;výdajky v hotovosti na pokladnici, skladový pohyb sa vytvára k výdajke&amp;nbsp;s dátumom vytvorenia výdajky; 
+&lt;LI&gt;&lt;STRONG&gt;hotelový účet&lt;/STRONG&gt; -&amp;nbsp;zaevidovanie úhrady&amp;nbsp;hotelového účtu. Skladový pohyb&amp;nbsp;nevzniká&amp;nbsp;ihneď po zápise (pridaní)&amp;nbsp;položky na &lt;A href="ffa5a889-7bfe-4165-ba83-15263eb77358"&gt;hotelový účet&lt;/A&gt; , ale&amp;nbsp;sumárne pri spustení funkcie na pokladnici &lt;EM&gt;Vytvorenie skladových pohybov&lt;/EM&gt; (najčastejšie automaticky&amp;nbsp;pri dennej uzávierke - pozri vyššie). &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Pri zostavení tlačových výstupov z pokladničných dokladov (pnuka &lt;EM&gt;Sklad&lt;/EM&gt;,&amp;nbsp;&lt;A href="a4568b9d-f4ac-4d94-b56f-de3717381da7"&gt;Pokladničné doklady&lt;/A&gt;, tlačidlo &lt;EM&gt;Tlač&lt;/EM&gt;) je potrebné mať vždy na zreteli, či chceme do tlačového výstupu zahrnúť doklady &lt;STRONG&gt;podľa dátumu a&amp;nbsp;času vytlačenia dokladu&lt;/STRONG&gt;, alebo podľa dátumu &lt;STRONG&gt;a&amp;nbsp;času výdaja&lt;/STRONG&gt;, t. j. vytvorenia skladového pohybu. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt; 
+&lt;P&gt;&lt;STRONG&gt;Príklad&lt;/STRONG&gt;&lt;BR&gt;Na recepcii hotela si hosť kúpi jednu fľašu vína (ďalej len tovar), ktorý si dá zapísať na hotelový účet (teda za tovar hneď nezaplatí). O dva dni bude hosť odchádzať a&amp;nbsp;zaeviduje sa úhrada hotelového účtu s daným tovarom. V tlačových zostavách o predaných položkách &lt;STRONG&gt;budú zásadné rozdiely&lt;/STRONG&gt; - ak sa zostaví tlačový výstup podľa dátumu a&amp;nbsp;času&amp;nbsp;výdaja, tovar bude uvedený v&amp;nbsp;okamihu jeho vloženia na otvorený hotelový účet, ak sa zostaví podľa dátumu vytlačenia dokladu, bude uvedený až v deň zaevidovania (vytlačenia) dokladu.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Príklad bežného pokladničného dokladu a výdajky&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Na obrázku nižšie &lt;EM&gt;&lt;STRONG&gt;Registračná pokladnica A&lt;/STRONG&gt;&lt;/EM&gt; znázorňuje predaj položiek priamym výberom zo zoznamu &lt;A href="1a33ab0b-2df7-4dc2-962b-8a3319c16831"&gt;skladových kariet&lt;/A&gt;. V takomto prípade &lt;A href="fc7595a6-54ce-4aa9-acb4-93d7880e854e"&gt;skladový pohyb&lt;/A&gt; vykonáva &lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnica OBERON&lt;/A&gt;&amp;nbsp;- dátum pohybu bude zhodný s dátumom&amp;nbsp;zaevidovania (vytlačenia) pokladničného dokladu. 
+&lt;LI&gt;&lt;I&gt;&lt;STRONG&gt;Registračná pokladnica B&lt;/STRONG&gt;&lt;/I&gt; znázorňuje&amp;nbsp;zaevidovanie úhrady&amp;nbsp;výdajky na&amp;nbsp;&lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnici OBERON&lt;/A&gt;. Skladový pohyb sa vykoná&amp;nbsp;hneď po vložení položky&amp;nbsp;do &lt;A href="0be61fcc-a85b-4572-876d-2171a5cb7c29"&gt;výdajky&lt;/A&gt; - dátum skladového pohybu bude zhodný s dátumom vytvorenia&amp;nbsp;výdajky. 
+&lt;LI&gt;V oboch prípadoch sa na fiškálnom&amp;nbsp;zariadení zaeviduje a&amp;nbsp;vytlačí daňový doklad a vykoná sa zápis v knihe &lt;A href="a4568b9d-f4ac-4d94-b56f-de3717381da7"&gt;Pokladničné doklady&lt;/A&gt;. V knihe je možné vyhľadať staršie pokladničné doklady a tlačiť rôzne tlačové zostavy. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 1: Vytvorenie skladového pohybu pri zaevidovaní (vytlačení) pokladničného dokladu a úhrady výdajky&lt;/H5&gt;
+&lt;P&gt;&amp;nbsp;&lt;IMG border=0 alt="" src="images/CashRegister/CashRegister_Schema.png"&gt;&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="d8055934-5ea8-4ffd-8ed6-be8cf5f65be3" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="34e0e93e-c80b-4f43-af3d-dbf90759855c" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="69bbd499-45c0-4b0f-8f7a-c53fa5d70c1b">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="5fe59d0d-33a6-41c6-94c8-7466fc638e21" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1a33ab0b-2df7-4dc2-962b-8a3319c16831">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="16032956-a68d-41ea-8dcd-d0747a65613f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="fc7595a6-54ce-4aa9-acb4-93d7880e854e">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="0407fe18-0dda-4505-a285-1ee246e8ee11" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="bb0e1e82-e344-4bf0-834a-a294269f2e71">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="7aa2dece-50ec-439b-96fc-021a1ff42e21" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="900c1b8a-2645-4225-ac93-d387237f3d90">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="bdbf1613-7df7-4eb3-b7d5-c99c20ca4e3b" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="a4568b9d-f4ac-4d94-b56f-de3717381da7">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="fd82e3af-45b2-4b25-baf0-f0c12523de32" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="ffa5a889-7bfe-4165-ba83-15263eb77358">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="1e4e7620-8932-4b9e-b626-732c4db0b892" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="0be61fcc-a85b-4572-876d-2171a5cb7c29">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="59c3edb9-35ba-4355-85f7-0de7a882c862">
+      <Keyword m="2023-03-10T07:03:22.7979935Z">Vytvorenie skladových pohybov</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="b1982d5e-38f1-483a-bf39-a9272569f5d8">
+      <Keyword m="2023-03-10T07:03:54.4823311Z">Odpisovanie stavu zásob - spôsoby</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="2d4f97d9-2093-4c88-9a56-6b682f31af28">
+      <Keyword m="2023-03-10T07:03:37.4175358Z">Vytváranie skladových pohybov</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="8e80aafd-d58b-49f9-b189-923e91220ff2">
+      <Keyword m="2023-03-10T07:05:14.981516Z">Zníženie stavu zásob - spôsoby</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="135fc4cc-262f-453d-b5b9-d82094cf7129">
+      <Keyword m="2023-03-10T07:08:43.4162619Z">Spôsoby odpisovania stavu zásob</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

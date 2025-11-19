@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="94b89091-3814-45b6-8520-6a6f19f53fc8" Status="Complete" CreatedOn="2024-10-22T11:22:13.3850222Z" ModifiedOn="2024-12-19T07:58:25.0253652Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="OBERON_Businesses_Retail_GroceryStores" BuildFlags="">
+  <Title m="2024-10-22T11:28:41.3567342Z">OBERON pre maloobchod - predajne potravín</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-12-19T07:58:25.0253652Z">&lt;TABLE id=table1 borderColor=white cellSpacing=15 cellPadding=15 border=1&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TD bgColor=white width="10%" align=left cellpadding="15" cellspacing="15"&gt;&lt;IMG style="MARGIN-TOP: 35px; FLOAT: left; MARGIN-RIGHT: 20px" border=0 alt="" src="images/OBERON/Basic/OBERON_Groceries.png"&gt;&lt;/TD&gt;
+&lt;TD style="TEXT-ALIGN: left; PADDING-TOP: 10px" bgColor=white width="85%"&gt;
+&lt;P&gt;Malé a&amp;nbsp;stredne veľké&amp;nbsp;firmy, pre ktoré je systém OBERON určený,&amp;nbsp;možno&amp;nbsp;rozdeliť podľa oblastí, na ktoré sú zamerané - tzv. odborových zameraní. Prehľad&amp;nbsp;najčastejších odborových zameraní, v&amp;nbsp;rámci ktorých je vhodné používať systém OBERON, je dostupný v&amp;nbsp;téme&amp;nbsp;&lt;A href="a9d046bb-1f84-4530-8215-dda2b66b2cae" style="auto-update-caption: true"&gt;Pre koho je OBERON určený?&lt;/A&gt; Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje&amp;nbsp;&lt;STRONG&gt;prehľad špecifických evidencií, funkcií a&amp;nbsp;nástrojov&lt;/STRONG&gt;, ktoré môžu v OBERON-e využívať účtovné jednotky (firmy) v&amp;nbsp;rámci&amp;nbsp;odborového zamerania&amp;nbsp;&lt;EM&gt;&lt;STRONG&gt;Maloobchod - predajne potravín&lt;/STRONG&gt;&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Do okruhu&amp;nbsp;odborových zameraní, pre ktoré je systém OBERON určený,&amp;nbsp;patria aj&amp;nbsp;&lt;STRONG&gt;maloobchodné predajne potravín&lt;/STRONG&gt;.&amp;nbsp; 
+&lt;LI&gt;Systém OBERON obsahuje &lt;STRONG&gt;celý rad základných funkcií, možností a vlastností, ktoré sú nevyhnutné&lt;/STRONG&gt; pre správu agendy každej účtovnej jednotky (firmy). Tie, ktoré sú určené pre maloobchodné prevádzky, sú &lt;STRONG&gt;podrobne popísané&lt;/STRONG&gt; v&amp;nbsp;témach s&amp;nbsp;názvom &lt;EM&gt;&lt;STRONG&gt;Základné možnosti&lt;/STRONG&gt;&lt;/EM&gt;&amp;nbsp;(&lt;A href="aec074f4-3e1c-4a1e-8a80-06fcecf51156"&gt;Pokladnica OBERON&amp;nbsp;- základné možnosti&lt;/A&gt;,&amp;nbsp;&lt;A href="dbe76648-4e40-4ef5-938e-6b4a45580f97"&gt;Skladová evidencia - základné možnosti&lt;/A&gt;...). 
+&lt;LI&gt;Základné evidencie, číselníky&amp;nbsp;a nastavenia sú sústredené najmä do dvoch ponúk programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;: do ponuky &lt;EM&gt;&lt;STRONG&gt;Servis&lt;/STRONG&gt;&lt;/EM&gt; a do ponuky &lt;EM&gt;&lt;STRONG&gt;Firma&lt;/STRONG&gt;&lt;/EM&gt;. Tu možno napr. evidovať údaje o firme, heslá ktoré používa, bankové účty, účtovné pokladne, obchodných partnerov firmy, jej pracovníkov, používateľov, ktorí budú s programom pracovať atď. 
+&lt;LI&gt;V nasledujúcej časti&amp;nbsp;je uvedený &lt;STRONG&gt;prehľad špecifických evidencií, funkcií a&amp;nbsp;nástrojov&lt;/STRONG&gt;, ktoré môžu v&amp;nbsp;OBERON-e využiť &lt;STRONG&gt;maloobchodné predajne potravín&lt;/STRONG&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;
+&lt;H1&gt;Evidencie, funkcie a nástroje špecifické pre maloobchodné predajne potravín&lt;/H1&gt;
+&lt;H2&gt;Pokladnica&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;A href="c9f7216f-f252-4be3-aa26-3e9bb6d4c887"&gt;&lt;STRONG&gt;Maloobchodná pokladnica&lt;/STRONG&gt;&lt;/A&gt; - určená na bežný predaj v maloobchodných prevádzkach s&amp;nbsp;vysokou kadenciou predaja. 
+&lt;LI&gt;&lt;STRONG&gt;Prispôsobenie pokladnice&lt;/STRONG&gt; - možnosť&amp;nbsp;&lt;A href="c9f7216f-f252-4be3-aa26-3e9bb6d4c887"&gt;nastaviť vzhľad pokladnice&lt;/A&gt; podľa vlastných potrieb (napr. zobrazenie len tých tlačidiel, ktoré sú&amp;nbsp;pre danú firmu podstatné, dotykový displej...). 
+&lt;LI&gt;&lt;STRONG&gt;Vlastné tlačidlá&lt;/STRONG&gt; - je možné nadefinovať vlastné tlačidlá (napr. tlačidlá na rýchly predaj položiek (PLU), tlačidlo s&amp;nbsp;konkrétnym&amp;nbsp;&lt;A href="46e6deed-ce15-42dc-be53-ab72142d9673"&gt;typom platby&lt;/A&gt;, s&amp;nbsp;konkrétnou výškou zľavy) a priradiť im farbu. 
+&lt;LI&gt;&lt;STRONG&gt;Vernostný systém&lt;/STRONG&gt; - prepojenie s &lt;A href="6c98a377-1b88-4eb8-801b-1f168641373b"&gt;vernostnými a zľavovými systémami&lt;/A&gt;&amp;nbsp;(viac v téme&amp;nbsp;&lt;A href="7a7d2c0d-866b-42ff-89bd-19d34b0b0a11" style="auto-update-caption: true"&gt;Vernostný systém na Pokladnici OBERON&lt;/A&gt;). 
+&lt;LI&gt;&lt;STRONG&gt;Fiškálne zariadenia&lt;/STRONG&gt; - podpora vlastnej certifikovanej fiškálnej tlačiarne&amp;nbsp;&lt;A href="00fa9619-a13d-4745-8938-cc0c2b5039ce"&gt;eKasa PANDORA&lt;/A&gt;&amp;nbsp;&lt;A href="1f32a90c-7b4a-4d69-9f38-a560178794b3" style="auto-update-caption: true"&gt;&lt;IMG border=0 alt="Odporúčané riešenia" src="images/OBERON/Basic/Odporucane-riesenie_ruka_ikona.png"&gt;&lt;/A&gt;, ako aj ďalších&amp;nbsp;fiškálnych zariadení od rôznych výrobcov. 
+&lt;LI&gt;&lt;STRONG&gt;Paragón&lt;/STRONG&gt; - možnosť tlače&amp;nbsp;náhradného paragónu pri nefunkčnosti fiškálneho zariadenia. 
+&lt;LI&gt;&lt;STRONG&gt;Pripojiteľné zariadenia&lt;/STRONG&gt; - podpora celého radu ďalších&amp;nbsp;&lt;A href="3f051fd3-9727-4ecc-9613-7a7fb1cb2a54"&gt;pripojiteľných zariadení&lt;/A&gt; (napr.&amp;nbsp;snímače čiarových kódov, zákaznícke displeje,&amp;nbsp;platobné terminály, pokladničné zásuvky, snímače RFID kľúčov na rýchle prihlásenie obsluhy, tlačiarne samolepiacich&amp;nbsp;etikiet...). 
+&lt;LI&gt;&lt;STRONG&gt;Podpora váženia&lt;/STRONG&gt; - vážený čiarový&amp;nbsp;kód, &lt;A href="98f367d6-b09e-4406-aad9-d4b2cfc4b504"&gt;elektronické váhy&lt;/A&gt;,&amp;nbsp;&lt;A href="e90970b3-c6fb-4ec5-bac8-4a06d41662b4"&gt;váhoskenery&lt;/A&gt;... 
+&lt;LI&gt;&lt;A href="58b3fe6b-140a-4b1e-a7af-33b95fd684a4" style="auto-update-caption: true"&gt;&lt;STRONG&gt;Automatická tlač etikiet na Pokladnici OBERON&lt;/STRONG&gt;&lt;/A&gt;&amp;nbsp;- napr. informácia o&amp;nbsp;špeciálnom spôsobe skladovania konkrétnej potraviny a pod. 
+&lt;LI&gt;&lt;STRONG&gt;Pridanie položky do otvoreného účtu&lt;/STRONG&gt; - viacerými spôsobmi: &lt;A href="e76125f0-4fb3-4e56-82db-667593132461"&gt;zadaním kódu položky&lt;/A&gt; z klávesnice (&lt;EM&gt;Množstvo*Kód položky&lt;/EM&gt;), výberom zo zoznamu (F3), pomocou &lt;A href="80a78093-fc45-4db9-b74b-e1f9829f7b3c"&gt;snímača čiarových kódov&lt;/A&gt;&amp;nbsp;alebo&amp;nbsp;&lt;A href="98f367d6-b09e-4406-aad9-d4b2cfc4b504"&gt;elektronických váh&lt;/A&gt;, prostredníctvom tlačidiel PLU, pri dotykovom režime zobrazenia pomocou klávesnice na obrazovke...). 
+&lt;LI&gt;&lt;STRONG&gt;Možnosti úpravy účtu&lt;/STRONG&gt;&amp;nbsp;- zadávanie zliav, zmena typu položky (vratný obal, vrátenie tovaru, zľava, oprava, odpočítaná záloha, výmena poukazu...),&amp;nbsp;možnosť&amp;nbsp;odložiť predaj. 
+&lt;LI&gt;&lt;STRONG&gt;&lt;A href="69bbd499-45c0-4b0f-8f7a-c53fa5d70c1b"&gt;Špeciálne prípady predaja&lt;/A&gt;&lt;/STRONG&gt; - úhrada faktúry v hotovosti, predaj a výkup vratných obalov, predaj spotrebiteľského balenia liehu (SBL), predaj balení s jedným čiarovým kódom... 
+&lt;LI&gt;&lt;A href="0cbf9ae9-1760-4f87-89be-559b62ee193b"&gt;&lt;STRONG&gt;Zálohovanie vratných obalov&lt;/STRONG&gt;&lt;/A&gt;&amp;nbsp;- bežných (napr. pivové fľaše, prepravky) aj jednorazových (plastová fľaša PET, plechovka), výkup zálohovaných jednorazových vratných obalov. 
+&lt;LI&gt;&lt;STRONG&gt;Viazaná položka&lt;/STRONG&gt; - možnosť automatického vkladania viazanej položky do neuzatvoreného pokladničného dokladu&amp;nbsp;- napr.&amp;nbsp;pri výdaji &lt;A href="0cbf9ae9-1760-4f87-89be-559b62ee193b"&gt;zálohovaných vratných obalov&lt;/A&gt; alebo&amp;nbsp;pri&amp;nbsp;&lt;A href="1619ae25-859c-4a39-a28b-ccdcc430f6a3"&gt;príjme, resp. výdaji tovaru v baleniach&lt;/A&gt;&amp;nbsp;(pri predaji napr. nápoja sa do dokladu automaticky pridá vratný obal (fľaša), prípadne aj balenie (prepravka)). 
+&lt;LI&gt;&lt;STRONG&gt;Čiarové kódy&lt;/STRONG&gt; - pokročilá&amp;nbsp;&lt;A href="86ce651c-2637-4165-93b4-36535a700fbf"&gt;práca s čiarovými kódmi&lt;/A&gt;&amp;nbsp;(bežný EAN kód, vážený čiarový kód...).&lt;IMG style="MARGIN-LEFT: 20px; MARGIN-RIGHT: 20px" border=0 alt="" src="images/OBERONMobileSolutions/OBERONMobileSolutions_ASTON_Incremental.png" width=200 align=right height=428&gt; 
+&lt;LI&gt;&lt;STRONG&gt;Variabilná tlač dokladu&lt;/STRONG&gt; - možnosť&amp;nbsp;tlače&amp;nbsp;čísla čiarového kódu na doklade,&amp;nbsp;možnosť tlače ľubovoľného textu k dokladu, prípadne ku každej položke dokladu,&amp;nbsp;možnosť úpravy textu na pokladničnom doklade pred jeho tlačou, možnosť&amp;nbsp;&lt;A href="09461dd2-eb0e-43f3-a701-786a1328a96e"&gt;nahradiť názov položky na doklade poznámkou k položke&lt;/A&gt; (ak je zadaná). 
+&lt;LI&gt;&lt;STRONG&gt;&lt;A href="74c4e61b-2bf3-4f39-bd68-5a3764330e6b"&gt;Odpisovanie stavu zásob&lt;/A&gt;&lt;/STRONG&gt; -&amp;nbsp;možnosť&amp;nbsp;vytvárania skladových pohybov&amp;nbsp;ihneď po zaevidovaní (vytlačení) pokladničného dokladu. 
+&lt;LI&gt;&lt;STRONG&gt;Prehľad o výnose&lt;/STRONG&gt; - možnosť zobraziť výnos v eurách, v percentách, maržu, poskytnutú zľavu (v&amp;nbsp;&lt;A href="834e9546-a56b-476f-9028-ef4c24a82345"&gt;právach používateľov&lt;/A&gt; možno obmedziť prístup k tomuto tlačidlu). 
+&lt;LI&gt;&lt;STRONG&gt;Obraty pokladnice&lt;/STRONG&gt; - možnosť zobraziť a vytlačiť obraty pokladne (&lt;EM&gt;Ctrl+O&lt;/EM&gt;) - hotovostné platby, ceniny, platobné karty, iné bezhotovostné platby&amp;nbsp;a vnútorné zúčtovanie. 
+&lt;LI&gt;&lt;STRONG&gt;Pracovné zmeny&lt;/STRONG&gt; - podpora &lt;A href="69bbd499-45c0-4b0f-8f7a-c53fa5d70c1b"&gt;pracovných zmien&lt;/A&gt;, podľa ktorých je možné tlačiť obraty pokladnice. 
+&lt;LI&gt;&lt;A href="8ffe5099-71bc-409e-85c2-3bc2cf5bb47a"&gt;&lt;STRONG&gt;Inventúra hotovosti (mincovka)&lt;/STRONG&gt;&lt;/A&gt; - slúži na výpočet hodnôt bankoviek a mincí v EUR alebo v cudzej mene. 
+&lt;LI&gt;&lt;STRONG&gt;Storno dokladu&lt;/STRONG&gt; - jednoduché a rýchle storno dokladu (vrátenie tovaru), a to aj ľubovoľný počet dní spätne (z histórie dokladov). 
+&lt;LI&gt;&lt;STRONG&gt;Automatické notifikácie&lt;/STRONG&gt; - &lt;A href="284db2bc-8b11-40d2-b3fe-213808fff2fa"&gt;možnosť poslať dennú uzávierku majiteľovi formou SMS alebo e-mailu&lt;/A&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;Cudzie meny&lt;/STRONG&gt; - práca s&amp;nbsp;&lt;A href="09e378df-5c76-42f3-a245-b33dd0580648"&gt;cudzími menami&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Sklad&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;&lt;A href="78d20602-4b59-4b31-9f0a-a04a1d376ec5"&gt;Skladová evidencia&lt;/A&gt;&lt;/STRONG&gt; - evidencia zásob, práca s objednávkami, faktúrami, príjmom, výdajom a&amp;nbsp;expedíciou&amp;nbsp;tovaru, sledovanie pripravenosti, naskladnenosti a vyskladnenosti&amp;nbsp;tovaru. Vydávanie tovaru z jedného, prípadne viacerých skladov. 
+&lt;LI&gt;&lt;STRONG&gt;Kategórie skladových kariet&lt;/STRONG&gt; - kvôli prehľadnosti je&amp;nbsp;možné skladové karty členiť do&amp;nbsp;&lt;A href="4dfc2d36-f1c8-4b60-81c4-62e8e5197b99"&gt;kategórií&lt;/A&gt;, ktoré sa zobrazujú formou stromovej štruktúry. 
+&lt;LI&gt;&lt;A href="34f91c11-1a5d-4773-ac4e-48ad2fc859d3"&gt;&lt;STRONG&gt;Rozšírená cenotvorba&lt;/STRONG&gt;&lt;/A&gt; - možnosť&amp;nbsp;poskytovať rôzne percentuálne alebo množstevné zľavy, vytvárať akciové ceny a letáky, akcie na tovar s končiacou zárukou (napr. jogurt)&amp;nbsp;a pod. 
+&lt;LI&gt;&lt;A href="f65d09c4-6f7e-42a3-8ae5-3cda89534c06"&gt;&lt;STRONG&gt;Automatická tvorba objednávok&lt;/STRONG&gt;&lt;/A&gt;&amp;nbsp;-&amp;nbsp;podľa evidovaných prijatých objednávok a aktuálneho stavu zásob. 
+&lt;LI&gt;&lt;A href="7417bb5c-568f-4291-bbb9-0e5872ad6299"&gt;&lt;STRONG&gt;Príjem/výdaj tovaru v baleniach&lt;/STRONG&gt;&lt;/A&gt; - možnosť&amp;nbsp;prijímať/vydávať tovar vo väčších vratných alebo nevratných baleniach (napr. paleta obsahuje 60&amp;nbsp;kartónov mlieka po 12 ks a&amp;nbsp;pod.), ktoré si používateľ môže definovať sám. 
+&lt;LI&gt;&lt;A href="61edd121-1efe-4a14-907c-8c8a18cc4539"&gt;&lt;STRONG&gt;Tlač cenoviek a etikiet&lt;/STRONG&gt;&lt;/A&gt; - cenovky sa používajú na evidenciu a&amp;nbsp;označovanie&amp;nbsp;tovaru v regáloch, pričom etikety&amp;nbsp;predstavujú samolepiace štítky, ktoré obsahujú rôzne údaje o tovare (napr.&amp;nbsp;spôsob skladovania potravín&amp;nbsp;a pod.) a&amp;nbsp;spravidla sa lepia priamo na konkrétny tovar. 
+&lt;LI&gt;&lt;STRONG&gt;Umiestnenie&lt;/STRONG&gt; - možnosť zadať na skladovej karte&amp;nbsp;fyzické umiestnenie tovaru v sklade (napr. &lt;EM&gt;Regál 5, Skriňa 2&lt;/EM&gt; a pod.). 
+&lt;LI&gt;&lt;STRONG&gt;Inventúra skladu&lt;/STRONG&gt; - prepracovaný systém&amp;nbsp;&lt;A href="79f53c12-0f9d-46c1-b039-2a412e1671f0"&gt;inventúry&lt;/A&gt;, tlač manka, prebytku a pod. Zadávanie fyzických množstiev je možné aj pomocou mobilnej aplikácie&amp;nbsp;&lt;A href="be17efdf-4b36-4b47-ad5d-09b0f66c8f65"&gt;ASTON - mobilný skladník&lt;/A&gt; alebo webovej aplikácie&amp;nbsp;&lt;A href="b138daad-5453-4e53-8d2c-ecf2e81a5fcb"&gt;OBERON Web&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Ďalšie funkcie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;A href="4b2b3447-f2f1-4bbe-9d21-3d87994bfba8"&gt;&lt;STRONG&gt;Pobočkový režim&lt;/STRONG&gt;&lt;/A&gt; - umožňuje vytvoriť sieť maloobchodných predajní. Správa skladových položiek (cenník), evidencia skladu, cenotvorba (akcie) sa vykonávajú v centrále, z predajne sa on-line prenášajú informácie o predaji. Centrálna databáza môže byť umiestnená v centrále firmy alebo v cloude.&amp;nbsp;Inou možnosťou je použitie&amp;nbsp;&lt;A href="88af013e-47e9-408a-ac47-18fb4edb5553"&gt;off-line pobočkovej pokladnice&lt;/A&gt;, keď výmena údajov spravidla prebieha vo forme samostatných dátových súborov.&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 
+&lt;LI&gt;&lt;STRONG&gt;Mobilné riešenia&lt;/STRONG&gt;&amp;nbsp;- aplikácia&amp;nbsp;&lt;A href="be17efdf-4b36-4b47-ad5d-09b0f66c8f65"&gt;ASTON - mobilný skladník&lt;/A&gt; pre &lt;EM&gt;Android&lt;/EM&gt; a &lt;EM&gt;iOS&lt;/EM&gt; na všestrannú prácu v sklade (príjem objednávok, príjem a výdaj tovaru,&amp;nbsp;editácia skladových kariet, inventúra, kontrola cien...) a&amp;nbsp;ako pomocník pri predaji v predajniach s veľkou predajnou plochou. 
+&lt;LI&gt;&lt;A href="c1e2e5a1-2cf4-47aa-a546-47d5baa1df3e"&gt;&lt;STRONG&gt;Elektronický podpis&lt;/STRONG&gt;&lt;/A&gt; - automatické podpisovanie a overovanie pravosti elektronických dokumentov (PDF, XML) s vložením podpísaného PDF dokumentu ako prílohy do e-mailu. 
+&lt;LI&gt;&lt;A href="68a24d97-e4a5-4cf4-bc7a-72262df5973e"&gt;&lt;STRONG&gt;Elektronický archív&lt;/STRONG&gt;&lt;/A&gt;&amp;nbsp;- veľmi užitočným pre každú účtovnú jednotku môže byť&amp;nbsp;elektronický archív, ktorý umožňuje v&amp;nbsp;elektronickej forme uschovávať doklady (výdajky,&amp;nbsp; faktúry...). 
+&lt;LI&gt;&lt;A href="dcd3c480-994c-477d-9fc7-17af717ade13" style="auto-update-caption: true"&gt;&lt;STRONG&gt;Správca hesiel&lt;/STRONG&gt;&lt;/A&gt;&amp;nbsp;- užitočným nástrojom je aj&amp;nbsp;&lt;EM&gt;Správca hesiel&lt;/EM&gt;&amp;nbsp;určený na správu hesiel účtovnej jednotky a&amp;nbsp;ich zdieľanie&amp;nbsp;(napr. prihlásenie do internetbankingu, údaje platobných kariet, BOK kód, prihlásenie do&amp;nbsp;SQL servera, internetových obchodov a pod.). 
+&lt;LI&gt;&lt;A href="b138daad-5453-4e53-8d2c-ecf2e81a5fcb"&gt;&lt;STRONG&gt;OBERON Web&lt;/STRONG&gt;&lt;/A&gt;&amp;nbsp;- webová aplikácia, ktorá sprístupňuje vybrané manažérske informácie dostupné v reálnom čase (aktuálne obraty registračných pokladníc,&amp;nbsp;aktuálne stavy zásob v sklade, štatistiky k&amp;nbsp;predajom na pokladniciach z&amp;nbsp;&lt;A href="fd6a0f47-c326-43a2-8408-003cce805463"&gt;knihy tržieb&lt;/A&gt;...) a&amp;nbsp;umožňuje vykonávať inventúru skladu. 
+&lt;LI&gt;&lt;STRONG&gt;Tlačové výstupy&lt;/STRONG&gt; - množstvo prehľadných&amp;nbsp;tlačových výstupov&amp;nbsp;na analýzu predaja, grafy. 
+&lt;LI&gt;&lt;A href="04d2db16-08ec-459e-b5c9-71dd3a9f9e2f"&gt;&lt;STRONG&gt;Jazykové verzie&lt;/STRONG&gt;&lt;/A&gt; - zahŕňajú jazykové verzie programu (preklady názvov&amp;nbsp;jednotlivých položiek menu, názvov záložiek, tlačidiel atď., hlásenia v programe a&amp;nbsp;tlačové výstupy) a jazykové verzie údajov (preklady dát evidovaných v databáze účtovnej jednotky). &lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="f06d8cf3-7b03-4c1b-aba7-3d9f89cf0c18" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="ff101cdb-97bb-4962-b99a-6347d95ff311">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="c23b0ab7-0dde-429b-b0fb-5e6331745f36" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="a9d046bb-1f84-4530-8215-dda2b66b2cae">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="d6bf187e-4e95-482f-bf22-3b6e58854cff" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="48327d6b-77b0-4dbb-b2d9-990763b81171">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="27e9ef6a-80f4-4318-be89-827db3640a48" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="aec074f4-3e1c-4a1e-8a80-06fcecf51156">
+      <Title m="2024-10-28T09:37:09.7549518Z">Pokladnica OBERON - základné možnosti</Title>
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="5e119eea-96c6-4aab-81cd-c0caa0592236" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="dbe76648-4e40-4ef5-938e-6b4a45580f97">
+      <Title m="2024-10-28T09:37:37.3709796Z">Skladová evidencia - základné možnosti</Title>
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="e3970730-1ba7-4878-9961-673bf6007cc0" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="95d188df-c149-46a9-8474-4d9493f2ad41">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="cdcca6f1-0a5c-4bb1-a0d0-fedb7c40e5af" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="40c83e5f-22aa-4ba5-b4c1-35938f90fac2">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="697f1e8e-6aa5-4361-b4bc-8244461e17f3" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="04d2db16-08ec-459e-b5c9-71dd3a9f9e2f">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="a4c5a1bc-2f8a-49a1-b98b-8ae089417653">
+      <Keyword m="2024-10-28T07:05:31.0712351Z">Maloobchod - predajne potravín - pre koho je OBERON určený</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

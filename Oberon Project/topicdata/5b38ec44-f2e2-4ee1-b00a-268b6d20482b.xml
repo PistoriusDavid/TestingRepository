@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="5b38ec44-f2e2-4ee1-b00a-268b6d20482b" Status="Complete" CreatedOn="2020-11-20T08:45:27.1683144Z" ModifiedOn="2023-10-12T13:20:47.1203297Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="40490" Name="Form_Acc_InvocesOffsettings" BuildFlags="">
+  <Title m="2020-11-20T08:45:57.4539442Z">Formulár Zápočet</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-10-12T13:20:47.1203297Z">&lt;P&gt;Formulár &lt;EM&gt;Zápočet&lt;/EM&gt; umožňuje &lt;STRONG&gt;vytvoriť, resp. upraviť&amp;nbsp;zápočet&lt;/STRONG&gt; v&amp;nbsp;knihe&amp;nbsp;&lt;A href="33c01089-c83f-47e5-a262-79c14d9ff698"&gt;Evidencia zápočtov faktúr&lt;/A&gt;. Formulár je dostupný z programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;, ponuka &lt;EM&gt;Účtovníctvo&lt;/EM&gt;,&amp;nbsp;&lt;A href="33c01089-c83f-47e5-a262-79c14d9ff698"&gt;Evidencia zápočtov faktúr&lt;/A&gt;,&amp;nbsp;tlačidlo &lt;EM&gt;Nový&lt;/EM&gt; - otvorí sa sprievodca &lt;EM&gt;Nový zápočet&lt;/EM&gt;, v ktorom v poslednom kroku stlačte tlačidlo &lt;EM&gt;Dokončiť&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Popis formulára &lt;EM&gt;Zápočet&lt;/EM&gt;&lt;/H2&gt;&lt;innovasys:widget layout="block" type="Drop Down Section"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Typ zápočtu&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Typ zápočtu môže byť:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;jednostranný zápočet&lt;/STRONG&gt; - je jednostranným právnym úkonom, na ktorého platnosť a účinnosť sa nevyžaduje súhlas druhej strany. Jednostranné započítanie pohľadávok je prejavením vôle jedného účastníka započítať druhému účastníkovi vzájomné pohľadávky, a to bez ohľadu na to, či s takýmto započítaním druhá strana súhlasí, alebo nie. 
+&lt;LI&gt;&lt;STRONG&gt;zápočet dohodou&lt;/STRONG&gt; -&amp;nbsp;pri tomto druhu zápočtu nie je nutné splniť predchádzajúce podmienky (na základe dohody strán možno započítať akékoľvek vzájomné pohľadávky, t.&amp;nbsp;j. aj premlčané a pred&amp;nbsp;dátumom splatnosti). V prípade zápočtu dohodou je však potrebné, aby prvý účastník predložil takýto zápočet druhému účastníkovi na odsúhlasenie. Po odsúhlasení a potvrdení zápočtu posiela druhý účastník jednu kópiu zápočtu späť prvému účastníkovi a až potom môže byť zápočet zaúčtovaný. 
+&lt;LI&gt;&lt;STRONG&gt;zaúčtovanie súhrnnej platby&lt;/STRONG&gt; - v tomto treťom špeciálnom prípade ide o zaúčtovanie prijatej hromadnej platby od sprostredkovateľa a úhradu vystavených faktúr jednotlivých odberateľov. Inými slovami, týmto spôsobom je možné zaúčtovať zápočet medzi odberateľmi a tretím partnerom, ktorý sprostredkúva predaj tovarov alebo služieb a prijíma platby v mene účtovnej jednotky. Typickým príkladom sú zľavové portály, rezervačné portály ubytovania alebo v dnešnej dobe čoraz obľúbenejšie internetové obchody využívajúce platobné brány.&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget layout="block" type="Note Box"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Bližšie informácie o zápočtoch získate v téme&amp;nbsp;&lt;A href="33c01089-c83f-47e5-a262-79c14d9ff698" style="auto-update-caption: true"&gt;Evidencia zápočtov faktúr&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget layout="block" type="Drop Down Section"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Číslo dokladu&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Program automaticky vytvorí číselný rad podľa zadaného spôsobu. Bližšie informácie o číslovaní dokladov získate v téme&amp;nbsp;&lt;A href="9aa7dbb1-f4a7-405e-8465-78b2133e0fd3"&gt;Číslovanie&amp;nbsp;dokladov (záznamov)&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget layout="block" type="Drop Down Section"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Číslo externého dokladu&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Do poľa &lt;EM&gt;Číslo externého dokladu&lt;/EM&gt; o súhrnnej platbe je možné zaznačiť číslo dokladu alebo označenie dokladu, napr. 7/2023. Číslo externého dokladu je číslo dodávateľskej faktúry z&amp;nbsp;&lt;A href="55028746-c263-4d92-a615-502222e8d53b"&gt;Knihy záväzkov&lt;/A&gt;&lt;EM&gt;.&lt;/EM&gt;&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget layout="block" type="Drop Down Section"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Suma súhrnnej platby&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Suma súhrnnej platby predstavuje celkovú sumu zníženú o sumu provízie.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget layout="block" type="Drop Down Section"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Schválený zápočet&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Zápočet je potrebné schváliť, zaúčtovať zápočet je možné len schválený. Neschválené zápočty sa zobrazujú &lt;STRONG style="COLOR: rgb(171,115,213)"&gt;fialovou farbou&lt;/STRONG&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget layout="block" type="Drop Down Section"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Obchodný partner&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Zadajte alebo vyberte&amp;nbsp;&lt;A href="b7a48886-b367-4056-808a-59ba5f871f32"&gt;obchodného partnera&lt;/A&gt; stlačením tlačidla &lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_ListButton.png"&gt;&amp;nbsp; alebo klávesu F3 v poli &lt;EM&gt;Obchodný partner&lt;/EM&gt;. Platnosť IČ DPH obchodného partnera je možné overiť kliknutím na tlačidlo&amp;nbsp;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Button_Question.png"&gt;.&amp;nbsp;Ďalšie informácie o overení IČ DPH získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="ab574902-6abb-4c2c-b0a5-af9a2f62b7f4"&gt;Automatické overenie IČ DPH na internete&lt;/A&gt;.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget layout="block" type="Drop Down Section"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Doklady zápočtu&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Doklady zápočtu (pohľadávky, záväzky a súhrnná platba).&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget layout="block" type="Drop Down Section"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Dohoda zápočtu&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;V záložke &lt;EM&gt;Dohoda zápočtu&lt;/EM&gt; je možné uložiť text dohody. Dohoda o započítaní vzájomných pohľadávok je osobitným druhom zmluvy, ktorou si veriteľ a dlžník započítavajú vzájomné pohľadávky, v dôsledku čoho tieto pohľadávky zaniknú v rozsahu, v akom sa navzájom kryjú.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="c076d277-b70a-47e2-a580-40afb2cca99f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="33c01089-c83f-47e5-a262-79c14d9ff698">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="c8a8723c-44f1-48ff-89b7-6bfeddb6edea" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="cdfc0d2e-850e-4858-9d56-bf7348720216">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="a71a6165-59de-4826-90a5-372cc2f4695a" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="2c25546b-872e-4c70-a89a-53e5999a7fe1">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="7ff737e0-b362-4ee1-b65e-ef8d8982ec28">
+      <Keyword m="2021-08-04T13:20:45.1646094Z">Zápočet - formulár</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="befcf385-72dc-47fc-8a00-0ee8c3d6b0a5">
+      <Keyword m="2021-08-04T13:20:49.9537659Z">Zápočty - formulár</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

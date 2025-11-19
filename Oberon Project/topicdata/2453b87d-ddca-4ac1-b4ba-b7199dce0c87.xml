@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="2453b87d-ddca-4ac1-b4ba-b7199dce0c87" Status="Complete" CreatedOn="2015-09-09T07:52:50.5839843Z" ModifiedOn="2023-10-11T11:53:22.2125369Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Form_OBERON_Sett_Firm_CRM" BuildFlags="">
+  <Title m="2015-09-18T10:18:31.3378906Z">Formulár Nastavenia - Firma  - CRM a registratúra</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-10-11T08:30:02.0470047Z">&lt;P&gt;Formulár &lt;EM&gt;Nastavenia - Firma -&amp;nbsp;CRM a registratúra&lt;/EM&gt;&amp;nbsp;umožňuje &lt;STRONG&gt;vykonať nastavenia číslovania záznamov&lt;/STRONG&gt; v evidenciách&amp;nbsp;&lt;A href="a2807e3b-d8b1-4d61-a3b9-63df2783bfda"&gt;Úlohy a udalosti&lt;/A&gt;&amp;nbsp;a&amp;nbsp;&lt;A href="5065958b-9ec2-46c0-81ce-ce9e316c90b7"&gt;CRM zložky&lt;/A&gt;, rozsahu kódov položiek na členenie na materiál, prácu a dopravu a ďalšie nastavenia v systéme OBERON. Formulár je dostupný z programu &lt;EM&gt;OBERON -&amp;nbsp;Agenda firmy&lt;/EM&gt;, ponuka &lt;EM&gt;Servis,&amp;nbsp;&lt;/EM&gt;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;&amp;nbsp;- v&amp;nbsp;sekcii &lt;EM&gt;Firma&lt;/EM&gt; zvoľte oddiel &lt;EM&gt;CRM a registratúra&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Popis formulára &lt;EM&gt;Nastavenia - Firma - CRM a registratúra&lt;/EM&gt;&lt;/H2&gt;&lt;innovasys:widget type="Tab Strip" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Úlohy a udalosti&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;H3&gt;Číslovanie záznamov&lt;/H3&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Štandardný číselný rad&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Program pri vytvorení nového záznamu zistí najvyššie číslo záznamu, zvýši ho o 1 a také číslo pridelí vytváranému záznamu. Tento postup je nemenný bez ohľadu na dátum záznamu. Viac informácií nájdete v&amp;nbsp;téme&amp;nbsp;&lt;A href="9aa7dbb1-f4a7-405e-8465-78b2133e0fd3" style="auto-update-caption: true"&gt;Číslovanie dokladov (záznamov)&lt;/A&gt;.&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;Príklad:&lt;/STRONG&gt; pri vytváraní záznamu so spätnou platnosťou (spätným dátumom) program pridelí najvyššie číslo tak, ako by to bol aktuálny záznam.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Podľa prevádzok&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Program pri vytváraní čísla záznamu medzi prefix roku a samotné číslo záznamu vkladá číslo prevádzky. Viac informácií nájdete v&amp;nbsp;témach&amp;nbsp;&lt;A href="8df798f2-4fbf-4279-ad8c-493bdbe7f2e4"&gt;Prevádzky&lt;/A&gt; a&amp;nbsp;&lt;A href="9aa7dbb1-f4a7-405e-8465-78b2133e0fd3" style="auto-update-caption: true"&gt;Číslovanie dokladov (záznamov)&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt; 
+&lt;H3&gt;Kalendár udalostí&lt;/H3&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Zvoľte rozsah času v plánovači&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Nastavenie umožňuje určiť rozsah času v plánovači (od - do).&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Reklamácie a servis&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Vyúčtovanie reklamácie/servisu&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;V evidencii vyúčtovania je možné členiť položky na materiál, prácu a dopravu. Rozčlenenie vykonáva program na základe kódu položky,&amp;nbsp;resp. rozsahu kódov položiek - ak je kód položky v danom rozsahu, program považuje takúto položku za prácu, resp. za dopravu. Bližšie informácie v&amp;nbsp;téme&amp;nbsp;&lt;A href="0fb6c9c4-9b89-43f6-af59-f9418f6871dd" style="auto-update-caption: true"&gt;Vyúčtovanie reklamácie/servisu&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Registratúra&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;H3&gt;Registratúrny (podací) denník - registratúrna značka&lt;/H3&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Vyžadovať zadať&amp;nbsp;registratúrnu značku&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Registratúrna značka je symbol ustanovený&amp;nbsp;&lt;A href="e24eddba-71a4-4980-9396-4947da76375a"&gt;registratúrnym plánom&lt;/A&gt; pre určitý spis alebo skupinu spisov. Registratúrna značka sa skladá z&amp;nbsp;alfanumerických znakov&lt;EM&gt;.&lt;/EM&gt; V prípade, že bude toto nastavenie začiarknuté, program bude vyžadovať zadanie registratúrnej značky pri vytváraní záznamu v&amp;nbsp;&lt;A href="0fe6411c-9069-4097-b90f-e69f01a61569"&gt;registratúrnom (podacom) denníku&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt; 
+&lt;H3&gt;Registratúrny (podací) denník - spôsob číslovania &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/H3&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Štandardné (jeden číselný rad)&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Program pri vytvorení nového záznamu zistí najvyššie číslo záznamu, zvýši ho o 1 a pridelí vytváranému záznamu. Tento postup je nemenný bez ohľadu na dátum záznamu. Pri vytváraní záznamu so spätnou platnosťou (spätným dátumom) program pridelí záznamu najvyššie číslo tak, akoby to bol aktuálny záznam. &lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Podľa organizačných útvarov&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Program pri vytváraní čísla záznamu vkladá medzi prefix roku a&amp;nbsp;samotné číslo záznamu&amp;nbsp;číslo&amp;nbsp;&lt;A href="e507e3e5-493f-48df-a358-f85facee1796"&gt;organizačného útvaru&lt;/A&gt;. &lt;STRONG&gt;Príklad:&lt;/STRONG&gt; číslo záznamu&amp;nbsp;2023/xx001, kde xx je kód organizačného útvaru.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Podľa prevádzok a organizačných útvarov&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Program pri vytváraní čísla záznamu vkladá medzi prefix roku a&amp;nbsp;samotné číslo záznamu&amp;nbsp;číslo&amp;nbsp;&lt;A href="8df798f2-4fbf-4279-ad8c-493bdbe7f2e4"&gt;prevádzky&lt;/A&gt; a kód organizačného útvaru.&amp;nbsp;&lt;STRONG&gt;Príklad:&lt;/STRONG&gt; 23/1/D/0001 - rok/číslo prevádzky/kód organizačného útvaru/číslo záznamu.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="600ff883-168a-4c41-8102-f0d407910000" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="89fa80dd-8f80-4e9f-9a25-1eed4f6fdbb8">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="66c13a0a-cc89-4419-8983-ea2a362e550f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="8a35cd0d-3fea-40c5-9831-a35062e762b4">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="5276b8e2-bf68-4686-bbe9-fe7bd003867d" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="4d0a07f5-c25e-4882-9372-386a05de0c2f">
+      <Title m="2023-10-11T08:30:45.7523706Z">CRM a registratúra - základné možnosti</Title>
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="f83b8c40-bc19-497d-9a27-07668a88649d" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="0fe6411c-9069-4097-b90f-e69f01a61569">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="d5d04e98-b5ba-4842-92f2-458d73b80f8a" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="a2807e3b-d8b1-4d61-a3b9-63df2783bfda">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="dd508cd6-7018-4092-8b08-985b532fa347" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="5065958b-9ec2-46c0-81ce-ce9e316c90b7">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="31ae4fd2-76f7-4dc0-930d-7ed4b22c38f6">
+      <Keyword m="2021-05-27T07:01:16.1858127Z">Firma - CRM a registratúra - nastavenia programu</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="79b97b4f-a14c-4923-b3ff-3522f76f0a21">
+      <Keyword m="2021-05-27T06:59:45.070815Z">Nastavenia programu - Firma - CRM a registratúra</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

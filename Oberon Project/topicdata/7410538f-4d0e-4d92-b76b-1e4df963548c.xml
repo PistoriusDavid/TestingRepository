@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="7410538f-4d0e-4d92-b76b-1e4df963548c" Status="Complete" CreatedOn="2014-09-11T07:38:55.9501982Z" ModifiedOn="2023-03-27T13:18:32.2694374Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="AccDouble_Advanced_CashRegister_Accounting" BuildFlags="">
+  <Title m="2021-07-14T08:01:32.2959087Z">Automatické účtovanie tržieb Pokladnice OBERON (podvojné účtovníctvo)</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-03-27T13:18:32.2694374Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; je venovaná &lt;STRONG&gt;automatickému účtovaniu tržieb&amp;nbsp;&lt;/STRONG&gt;&lt;A href="a6f5e32d-6f1e-40bb-9d15-3f784a183252"&gt;Pokladnice OBERON&lt;/A&gt;&amp;nbsp;v&amp;nbsp;&lt;A href="49dd3167-870a-4fdf-b631-d4f692f1ed72"&gt;podvojnom účtovníctve&lt;/A&gt; systému OBERON.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Automatickým účtovaním tržieb v OBERON-e rozumieme zaúčtovanie&amp;nbsp;&lt;A href="900c1b8a-2645-4225-ac93-d387237f3d90"&gt;dennej uzávierky&lt;/A&gt; (vzniknutej v&amp;nbsp;module&amp;nbsp;&lt;A href="a6f5e32d-6f1e-40bb-9d15-3f784a183252"&gt;Pokladnica OBERON&lt;/A&gt;) do &lt;A href="d8c9bfc8-92d1-4471-8909-e5f8ce602d6c"&gt;účtovného denníka&lt;/A&gt;. 
+&lt;LI&gt;Denná uzávierka vykonaná na &lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnici OBERON&lt;/A&gt; sa automaticky zapíše do evidencie &lt;A href="fd6a0f47-c326-43a2-8408-003cce805463"&gt;Kniha tržieb&lt;/A&gt;. Tu je aj funkcia automatického účtovania tržieb dostupná, a&amp;nbsp;to po stlačení tlačidla&amp;nbsp;&lt;EM&gt;Možnosti - Zaúčtovať dennú uzávierku do účtovného denníka&lt;/EM&gt;. 
+&lt;LI&gt;Okrem automatického účtovania tržieb systém OBERON umožňuje automaticky zaúčtovať aj úhrady faktúr, ako aj všetky&amp;nbsp;&lt;A href="fb9314f2-ef5d-4d18-87bc-94a856057bdc"&gt;výbery a vklady peňažných prostriedkov v pokladnici&lt;/A&gt;. 
+&lt;LI&gt;Tržby vzniknuté&amp;nbsp;&lt;A href="2edf9500-71d3-4b5c-9d44-990261fb51bc"&gt;používaním registračnej pokladnice v režime off-line&lt;/A&gt; (keď sa používajú funkcie pre zápis a načítanie PLU) nie je možné automaticky zaúčtovať, keďže nie sú známe predané položky v členení podľa typov platieb (hotovosť, platobná karta a&amp;nbsp;pod.). 
+&lt;LI&gt;Automatické zaúčtovanie tržieb (danej dennej uzávierky) je možné kedykoľvek zrušiť. Vtedy sa z účtovného denníka automaticky odstránia všetky záznamy vzniknuté pri zaúčtovaní. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget layout="block" type="Caution Box"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Aj keď&amp;nbsp;zákon povinnosť vyhotovovať denné uzávierky od 01.04.2019&amp;nbsp;podnikateľom neukladá, na evidenciu a kontrolu prijatých tržieb a hotovosti sú naďalej nevyhnutné. Týka sa to najmä tých podnikateľov, ktorí okrem hotovosti prijímajú aj iné platidlá. Dôvodom je, že eKasa zóna finančnej správy&amp;nbsp;&lt;STRONG&gt;eviduje len celkové sumy tržieb&lt;/STRONG&gt; a neobsahuje informácie o&amp;nbsp;&lt;A href="46e6deed-ce15-42dc-be53-ab72142d9673"&gt;type platby&lt;/A&gt;, a to v členení podľa prijatej hotovosti, cenín (poukážok, šekov a pod.), platieb kartou, prípadne iných bezhotovostných platieb. Na správne rozúčtovanie tržieb podľa typov platieb tak denná uzávierka zostáva pre&amp;nbsp;potreby účtovníctva&amp;nbsp;jediným zdrojom informácií. Viac informácií získate v téme&amp;nbsp;&lt;A href="900c1b8a-2645-4225-ac93-d387237f3d90"&gt;Vyhotovovanie uzávierok&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Nastavenie zaúčtovania&lt;/H2&gt;Aby bolo možné tržby automaticky zaúčtovať, musia byť splnené nasledujúce podmienky: 
+&lt;UL&gt;
+&lt;LI&gt;Každá fyzická registračná pokladnica (počítač s&amp;nbsp;&lt;A href="b24ad235-cf7f-43e2-b3e8-ec0f7d92f6b6"&gt;fiškálnou tlačiarňou&lt;/A&gt;) by mala zastupovať jednu účtovnú pokladňu - tu treba využiť analytické členenie účtu 211. Odvod tržby sa&amp;nbsp;potom bude&amp;nbsp;účtovať ako prevod peňažných prostriedkov do hlavnej účtovnej pokladne, prípadne na bankový účet. Priradenie fyzickej pokladnice k účtovnej pokladni je možné vo&amp;nbsp;&lt;A href="bb0e1e82-e344-4bf0-834a-a294269f2e71"&gt;formulári Pokladnica OBERON - nastavenia&lt;/A&gt;,&amp;nbsp;záložka &lt;EM&gt;Režim predaja&lt;/EM&gt;. 
+&lt;LI&gt;Keďže sa tržby členia podľa typov platieb (hotovosť, platobné karty a pod.), je potrebné v nastaveniach typov platieb &lt;I&gt;Pokladnice OBERON&lt;/I&gt; (ponuka &lt;I&gt;Firma&lt;/I&gt;, &lt;I&gt;Predvoľby&lt;/I&gt;,&amp;nbsp;&lt;A href="f3814738-213c-4f39-96d3-cdcaeb6674ec"&gt;Typy platieb&lt;/A&gt;) určiť predkontáciu, akou bude daný typ platby zaúčtovaný. V&amp;nbsp;predkontácii na strane MD je možné uviesť konkrétne analytické číslo pokladne (napr. 211 010), prípadne zvoliť možnosť &lt;I&gt;Automaticky&lt;/I&gt; - vtedy sa za číslo účtu pokladne dosadí hodnota nastavená pri danej fiškálnej tlačiarni. Výhodou takéhoto riešenia je, že pre zaúčtovanie tržby viacerých fiškálnych&amp;nbsp;tlačiarní je možné použiť tú istú predkontáciu. 
+&lt;LI&gt;Samotné tržby sa účtujú na účty 60x podľa toho, aké položky sa v daný deň predali. Z tohto dôvodu je potrebné na skladových kartách nastaviť skladovú predkontáciu, na ktorej bude uvedený účet výnosu. Ak na skladových kartách nebude zadané číslo predkontácie (a tým aj účet výnosu), tržby&amp;nbsp;sa zaúčtujú na východiskové účty 601, 602, 604 podľa typu skladovej karty (neskladové položky sa budú považovať za služby). 
+&lt;LI&gt;Pre automatické zaúčtovanie vkladov a výberov je potrebné, aby každý typ vkladu alebo výberu mal nastavenú predkontáciu. To je možné nastaviť v ponuke &lt;I&gt;Firma&lt;/I&gt;, &lt;I&gt;Predvoľby&lt;/I&gt;,&amp;nbsp;&lt;A href="fb9314f2-ef5d-4d18-87bc-94a856057bdc"&gt;Typy výberov a vkladov v hotovosti&lt;/A&gt;. Ak niektorý typ vkladu alebo výberu nebude mať nastavenú predkontáciu, nebude automaticky zaúčtovaný. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget layout="block" type="Note Box"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;STRONG&gt;Príklad zaúčtovania tržby&lt;/STRONG&gt; z&amp;nbsp;&lt;A href="04b8d290-1470-41ff-85a1-c44a20958841"&gt;registračnej pokladnice&lt;/A&gt;&amp;nbsp;do&amp;nbsp;&lt;A href="d8c9bfc8-92d1-4471-8909-e5f8ce602d6c"&gt;účtovného denníka&lt;/A&gt;&amp;nbsp;v téme &lt;A href="fa734cea-321c-4a9e-a802-e638272d6e7a" style="auto-update-caption: true"&gt;Zaúčtovanie tržby z registračnej pokladnice do účtovného denníka&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="12c7c7f2-58ff-4815-bd9b-1235aac0e449" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="4893515a-9384-4098-83e7-28a353ec03e2" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="900c1b8a-2645-4225-ac93-d387237f3d90">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="72e6d1a2-ac6d-417d-b76e-c30d0c011074" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="fd6a0f47-c326-43a2-8408-003cce805463">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="0f62ba2c-486a-4f6f-926d-12289e90d0ad" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="d8c9bfc8-92d1-4471-8909-e5f8ce602d6c">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="ef8afafe-45e5-4f08-8a0b-e034db24ad7a" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="f3814738-213c-4f39-96d3-cdcaeb6674ec">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="703ceb92-ce8f-4f12-beb6-6d9a1ad1a8d9" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="fb9314f2-ef5d-4d18-87bc-94a856057bdc">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="c060d492-8f09-4766-97c5-a346e59c8010" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="fa734cea-321c-4a9e-a802-e638272d6e7a">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="083abee8-50ec-4fa1-885f-e7c1a0740c40">
+      <Keyword m="2021-08-10T06:29:38.2003212Z">Tržba - automatické účtovanie (podvojné účtovníctvo)</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="d0273d44-f801-4ba5-88bd-a77444cbcef0">
+      <Keyword m="2021-08-10T06:29:44.8327148Z">Účtovanie tržieb Pokladnice OBERON (podvojné účtovníctvo)</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="53223c88-2614-4852-b2e9-e312465334b5">
+      <Keyword m="2021-08-10T06:29:27.7419035Z">Denná uzávierka - automatické účtovanie tržieb (podvojné účtovníctvo)</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="b26f11ad-5566-4d41-9b50-1bb736c101e8">
+      <Keyword m="2021-08-10T06:29:42.3838615Z">Tržby - automatické účtovanie (podvojné účtovníctvo)</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

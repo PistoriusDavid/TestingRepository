@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="58bb31ca-00c8-4641-ad99-7d58e24f59c5" Status="Complete" CreatedOn="2014-09-02T12:11:50.7538215Z" ModifiedOn="2025-03-20T09:52:23.7623631Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Developers_WebServices_BasicInfo" BuildFlags="">
+  <Title m="2021-03-30T11:34:09.6109831Z">Všeobecne o webových službách</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2025-03-20T09:52:23.7623631Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;všeobecné informácie o&lt;/STRONG&gt; &lt;STRONG&gt;webových službách&lt;/STRONG&gt; systému OBERON.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Webovú službu predstavuje rozhranie (end point), ktoré &lt;STRONG&gt;tvorí IP adresa a TCP/IP port&lt;/STRONG&gt; na danom počítači. Uvedené rozhranie umožňuje iným aplikáciám (napr.&amp;nbsp;&lt;A href="be17efdf-4b36-4b47-ad5d-09b0f66c8f65"&gt;ASTON&lt;/A&gt;,&amp;nbsp;&lt;A href="942d48d5-b290-40f6-8ba3-45cf78f380f9"&gt;LUKUL&lt;/A&gt; a iným aplikáciám tretích strán) &lt;STRONG&gt;komunikovať so systémom OBERON&lt;/STRONG&gt;. 
+&lt;LI&gt;OBERON komunikuje s&amp;nbsp;nadstavbovými modulmi, resp. aplikáciami&amp;nbsp;pomocou protokolu &lt;STRONG&gt;SOAP&lt;/STRONG&gt; a &lt;STRONG&gt;JSON&lt;/STRONG&gt;. Komunikácia prebieha pomocou sieťového protokolu &lt;B&gt;TCP-IP&lt;/B&gt;, pričom ako transportný protokol môže&amp;nbsp;slúžiť aj&amp;nbsp;&lt;B&gt;HTTP&lt;/B&gt; alebo zabezpečené &lt;B&gt;HTTPS&lt;/B&gt;. 
+&lt;LI&gt;Hlavnou výhodou webových služieb je nezávislosť od platformy a&amp;nbsp;vývojového jazyka, preto sa&amp;nbsp;často používajú (či už v&amp;nbsp;režime server alebo klient) na on-line komunikáciu aj s inými externými systémami. 
+&lt;LI&gt;Ako hostiteľ webovej služby (v režime server)&amp;nbsp;sa využíva program &lt;A href="09f3dae9-2fb7-490f-97dc-37f60885b398" style="auto-update-caption: true"&gt;OBERON Automation Center&lt;/A&gt;. 
+&lt;LI&gt;Samotné webové služby sa nastavujú ako automatické úlohy&amp;nbsp;v ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="9ce25bbd-35d1-4096-acd5-70007f5af5a6"&gt;Automatické úlohy&lt;/A&gt;&amp;nbsp;programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;. Tu je možné&amp;nbsp;nakonfigurovať jednu, prípadne aj viac webových služieb&amp;nbsp;súčasne. 
+&lt;LI&gt;&lt;STRONG&gt;Všeobecný postup inštalácie webovej služby&lt;/STRONG&gt; je popísaný&amp;nbsp;v&amp;nbsp;téme&amp;nbsp;&lt;A href="f3e85885-2cfb-4f9b-b966-a54836db41cd" style="auto-update-caption: true"&gt;Inštalácia webovej služby&lt;/A&gt;.&amp;nbsp;&lt;STRONG&gt;Konkrétne postupy inštalácie&lt;/STRONG&gt; &lt;STRONG&gt;webových služieb&lt;/STRONG&gt; jednotlivých nadstavbových&amp;nbsp;modulov, resp.&amp;nbsp;aplikácií alebo iných externých systémov implementovaných do systému OBERON sú spravidla&amp;nbsp;popísané&amp;nbsp;jednotlivo v&amp;nbsp;príslušných témach &lt;EM&gt;Pomocníka&lt;/EM&gt;. 
+&lt;LI&gt;V systéme OBERON&amp;nbsp;je k&amp;nbsp;dispozícii&amp;nbsp;viacero typov automatických úloh pre webové služby: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;WebServices API - OBERON 1G&lt;/STRONG&gt;&amp;nbsp;- prestavuje základnú webovú službu systému OBERON prvej generácie, ktorá zabezpečuje komunikáciu s nasledujúcimi nadstavbovými modulmi, resp. aplikáciami: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;A href="b138daad-5453-4e53-8d2c-ecf2e81a5fcb"&gt;OBERON Web&lt;/A&gt;&amp;nbsp;- nadstavbová webová aplikácia, ktorá poskytuje vybrané manažérske informácie zo systému OBERON v reálnom čase. 
+&lt;LI&gt;&lt;A href="fe4a9463-d066-4a56-8eee-a728ae1a7220"&gt;OBERON eMenu&lt;/A&gt; - jednoduchý elektronický&amp;nbsp;jedálny alebo nápojový lístok (&lt;EM&gt;OBERON eMenu&lt;/EM&gt;), ktorý si môže zákazník prezerať na svojom mobilnom zariadení. 
+&lt;LI&gt;&lt;A href="5eaef397-0196-4360-a339-fcb1a11c32e3"&gt;Rezervačný formulár ubytovania&lt;/A&gt;&amp;nbsp;na internetovej stránke ubytovacieho zariadenia (web booking). 
+&lt;LI&gt;&lt;A href="0773204a-fdc5-42c2-89b0-73d53dd5a2e4"&gt;Pre check-in&lt;/A&gt;&amp;nbsp;na&amp;nbsp;elektronickú registráciu hosťa (&lt;A href="de42d42d-6f5c-49ba-b0c9-1413773f7ef1"&gt;hotel on-line check-in&lt;/A&gt;) pred samotným príchodom do ubytovacieho zariadenia. 
+&lt;LI&gt;&lt;A href="5b415da0-dc8c-4b42-8572-14159203f57a"&gt;Rýchly check-in&lt;/A&gt;&amp;nbsp;na&amp;nbsp;elektronickú registráciu hosťa (&lt;A href="de42d42d-6f5c-49ba-b0c9-1413773f7ef1"&gt;hotel on-line check-in&lt;/A&gt;) bezprostredne po príchode do ubytovacieho zariadenia a&amp;nbsp;následnom prevzatí izby. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;WebServices API - OBERON 2G&lt;/STRONG&gt; - prestavuje základnú webovú službu systému OBERON&amp;nbsp;druhej generácie, ktorá zabezpečuje komunikáciu s nasledujúcimi aplikáciami:&amp;nbsp;&amp;nbsp;&amp;nbsp; 
+&lt;UL&gt;
+&lt;LI&gt;&lt;A href="be17efdf-4b36-4b47-ad5d-09b0f66c8f65"&gt;ASTON - mobilný skladník&lt;/A&gt;&amp;nbsp;- mobilná aplikácia pre&amp;nbsp;&lt;EM&gt;Android&amp;nbsp;&lt;/EM&gt;a &lt;EM&gt;iOS&lt;/EM&gt; určená na použitie so systémom OBERON. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;WebServices API - Pokladnica OBERON 1G&lt;/STRONG&gt; - prestavuje&amp;nbsp;webovú službu prvej generácie určená aplikáciám na prístup k&amp;nbsp;&lt;A href="a6f5e32d-6f1e-40bb-9d15-3f784a183252"&gt;Pokladnici OBERON&lt;/A&gt;, ktorá zabezpečuje komunikáciu s nasledujúcimi nadstavbovými modulmi, resp. aplikáciami:&amp;nbsp;&amp;nbsp; 
+&lt;UL&gt;
+&lt;LI&gt;&lt;A href="942d48d5-b290-40f6-8ba3-45cf78f380f9"&gt;LUKUL - nielen mobilný čašník&lt;/A&gt;&amp;nbsp;- viacúčelová mobilná gastroaplikácia pre&amp;nbsp;&lt;EM&gt;Android&amp;nbsp;&lt;/EM&gt;a &lt;EM&gt;iOS&lt;/EM&gt; určená na použitie so systémom OBERON. 
+&lt;LI&gt;&lt;A href="d9867d81-7de7-4ce2-9c45-932025935b8b"&gt;Systém bonovacích monitorov&lt;/A&gt;&amp;nbsp;- bonovacie monitory sa v systéme OBERON používajú na&amp;nbsp;zobrazenie objednávok do kuchyne (na prípravu jedál) alebo baru (na prípravu nápojov) z&amp;nbsp;&lt;A href="aec074f4-3e1c-4a1e-8a80-06fcecf51156"&gt;Pokladnice OBERON&lt;/A&gt; prevádzkovanej v&amp;nbsp;reštauračnom režime, prípadne z&amp;nbsp;aplikácie&amp;nbsp;&lt;A href="942d48d5-b290-40f6-8ba3-45cf78f380f9"&gt;LUKUL - nielen mobilný čašník&lt;/A&gt;,
+&lt;LI&gt;&lt;A href="23e4ac4d-169f-4c85-8e00-60f1e71ff358"&gt;pikMenu&lt;/A&gt; - externá webová aplikácia - QR menu určená predovšetkým pre reštauračné prevádzky. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;WebServices API -&amp;nbsp;OBERON vernostný systém 1G -&lt;/STRONG&gt; webová služba servera vernostného systému pre&amp;nbsp;&lt;A href="92147420-5d85-4b11-a328-06d401650294"&gt;OBERON vernostný systém (klient)&lt;/A&gt; prvej generácie. 
+&lt;LI&gt;&lt;B&gt;Hasam EPOS&lt;/B&gt; - webová služba komunikujúca s externým turniketovým a dverovým systémom (modul &lt;A href="49dd3167-870a-4fdf-b631-d4f692f1ed72"&gt;Hotelová recepcia&lt;/A&gt;). &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Rozhranie webovej služby OBERON&amp;nbsp;je popísané pomocou formátu WSDL - obsahuje všetky metódy, dátové typy parametrov metód, štruktúry atď.&amp;nbsp;Na zobrazenie všetkých objektov je možné použiť aj vývojové prostredie &lt;I&gt;Microsoft Visual Studio&lt;/I&gt; pri pridaní tzv. &lt;I&gt;Service Reference&lt;/I&gt;. 
+&lt;LI&gt;Prístup k určitým funkciám webovej služby typu OBERON je možné z dôvodu bezpečnosti obmedziť - je možné povoliť len určitú konkrétnu funkciu, pričom ostatné môžu byť zakázané. 
+&lt;LI&gt;Metódy obsiahnuté v tejto webovej&amp;nbsp;službe nie sú konečné, v prípade potreby je možné implementovať ďalšie požadované funkcie. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Dokumentácia k webovým službám&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Odkazy na dokumentáciu k webovým službám (referenčné príručky pre vývojárov) sú dostupné v téme&amp;nbsp;&lt;A href="519bcf42-f3e7-48c1-98a9-02a5784576f9" style="auto-update-caption: true"&gt;Špecializovaná dokumentácia&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Technické informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Pred&amp;nbsp;nastavením automatickej úlohy v&amp;nbsp;systéme OBERON sa uistite, že je&amp;nbsp;&lt;STRONG&gt;na počítači, ktorý je neustále zapnutý (spravidla sieťovom databázovom serveri),&lt;/STRONG&gt;&amp;nbsp;správne nastavený&amp;nbsp;&lt;STRONG&gt;server&lt;/STRONG&gt;&amp;nbsp;&lt;A href="09f3dae9-2fb7-490f-97dc-37f60885b398"&gt;OBERON Automation Center&lt;/A&gt;. Postup nastavenia je dostupný v&amp;nbsp;téme&amp;nbsp;&lt;A href="fd64c37a-486b-4cdf-a370-297aaa8a8f73" style="auto-update-caption: true"&gt;Nastavenie servera OBERON Automation Center&lt;/A&gt;.&amp;nbsp;Správnosť nastavenia a&amp;nbsp;fungovania&amp;nbsp;servera OAC môžete skontrolovať v&amp;nbsp;programe&lt;STRONG&gt;&amp;nbsp;&lt;EM&gt;OBERON Automation Center (klient)&lt;/EM&gt;&lt;/STRONG&gt; (v&amp;nbsp;programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;, ponuka&amp;nbsp;&lt;EM&gt;OBERON&lt;/EM&gt;,&amp;nbsp;&lt;A href="69282df4-d4d6-462a-8cf2-68000e3e6f93"&gt;OBERON Automation Center (klient)&lt;/A&gt;). &lt;SPAN style="COLOR: rgb(255,0,0)"&gt;Pri&amp;nbsp;použití&lt;/SPAN&gt; &lt;EM style="COLOR: rgb(255,0,0)"&gt;OBERON Automation Center&lt;/EM&gt;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;&amp;nbsp;&lt;STRONG&gt;odporúčame&lt;/STRONG&gt;&lt;/SPAN&gt; &lt;STRONG style="COLOR: rgb(255,0,0)"&gt;používať databázu SQL&lt;/STRONG&gt;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;.&lt;/SPAN&gt; 
+&lt;LI&gt;Automatická úloha pre webovú službu sa vždy nastavuje na&amp;nbsp;&lt;STRONG&gt;serveri (nie na&lt;/STRONG&gt; &lt;STRONG&gt;klientskom počítači&lt;/STRONG&gt;. Dôvodom je nutnosť registrácie (prípadne zrušenia registrácie) webovej služby priamo na počítači, kde bude táto služba hosťovaná. 
+&lt;LI&gt;Počítač vyhradený na server webovej služby by mal mať &lt;STRONG&gt;pevnú IP adresu&lt;/STRONG&gt; a&amp;nbsp;na bráne firewall &lt;STRONG&gt;povolené príslušné komunikačné TCP/IP porty&lt;/STRONG&gt;. 
+&lt;LI&gt;V prípade využívania služby aj mimo lokálnej počítačovej siete je nevyhnutné nastaviť &lt;STRONG&gt;presmerovanie&lt;/STRONG&gt; portu na smerovači (routri) z verejnej IP adresy na IP adresu počítača v lokálnej sieti, na ktorom je služba spustená (predpokladá sa, že príslušná prevádzka má verejnú statickú IP adresu alebo dynamické DNS), pričom je nutné povoliť aj bránu firewall. 
+&lt;LI&gt;&lt;EM&gt;OBERON Automation Center&lt;/EM&gt; môže hosťovať &lt;STRONG&gt;súčasne aj viac od seba nezávislých&amp;nbsp;webových služieb&lt;/STRONG&gt;, ich počet je však obmedzený hardvérom počítača - jeho výkonom a hlavne operačnou pamäťou. 
+&lt;LI&gt;Pre vývojárov a systémových integrátorov&amp;nbsp;je k dispozícii&amp;nbsp;&lt;A href="519bcf42-f3e7-48c1-98a9-02a5784576f9" target=_blank&gt;on-line dokumentácia&lt;/A&gt; (referenčná príručka), ktorá obsahuje popis štruktúr a metód webových služieb. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 1: Štruktúra systému OBERON z hľadiska vývojára&lt;/H5&gt;
+&lt;P&gt;&amp;nbsp;&amp;nbsp;&lt;IMG border=0 alt="" src="images/Developers/Web services/OBERON_API.png"&gt;&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="35a17fa0-3786-4e41-9132-7b0cdb0fc665" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="519bcf42-f3e7-48c1-98a9-02a5784576f9">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="55c14330-07fa-47d5-9125-7cfa28991f8c" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="f3e85885-2cfb-4f9b-b966-a54836db41cd">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="3b01867f-4a14-4490-a1e8-ac4f2d586e4d" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="7d4c6ecf-89c9-402a-966c-96a86ae3bfbb">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="f3bd966c-ca56-430b-a651-4d6c99924f98" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="02f77fd1-6b2f-482c-8dd0-77896d038c3e">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="ad3ab0a6-a58c-4607-8591-81bd15514ddf" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="9ce25bbd-35d1-4096-acd5-70007f5af5a6">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="a40b7afe-cb5c-4d9d-9b9b-727f0b037d91" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="09f3dae9-2fb7-490f-97dc-37f60885b398">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="7d3f8c78-daca-465f-b919-51b4667cc554" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="69282df4-d4d6-462a-8cf2-68000e3e6f93">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="29a4bee0-53ca-4903-8edd-1e0d603cdbf1">
+      <Keyword m="2021-04-16T07:21:29.9308706Z">Webové služby - všeobecné informácie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="cf8812d3-df94-4efc-bda2-f95d4fae19e5">
+      <Keyword m="2022-11-10T12:18:22.6787105Z">WebServices API - OBERON 1G - všeobecné informácie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="0093631e-47e1-4aa6-a99b-c20332cd3b9b">
+      <Keyword m="2022-11-10T12:25:42.2175098Z">WebServices API - Pokladnica OBERON 1G - všeobecné informácie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="78c94b10-028d-4e5b-aba2-90143dd88105">
+      <Keyword m="2022-11-10T12:32:14.8753641Z">WebServices API - OBERON vernostný systém 1G  - všeobecné informácie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="11bd4b8b-bde9-46b7-9906-a96fa62eaf67">
+      <Keyword m="2021-04-16T07:33:25.7772786Z">Webová služba Hasam EPOS - všeobecné informácie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="7c699284-1a85-48c8-af0f-a790ccf8ea9d">
+      <Keyword m="2022-11-10T12:25:19.7336044Z">WebServices API - OBERON 2G - všeobecné informácie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="8a47f668-fdb6-443e-9dfd-e0d8a17a3030">
+      <Keyword m="2024-07-12T08:16:49.5039661Z">JSON</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="ae2f6a34-e151-4e1b-8b8a-092c3c29850e">
+      <Keyword m="2024-07-12T08:16:54.1849765Z">SOAP</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="85b53bfa-c6a3-45b0-9128-d2f513efd0cb">
+      <Keyword m="2024-07-12T08:17:00.0880661Z">End point</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="abf30325-1cf9-477a-98cf-11eec7265f87">
+      <Keyword m="2024-07-12T08:17:18.7626143Z">TCP/IP</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="15d75dd5-1c33-4a07-be0c-51316726b2df">
+      <Keyword m="2024-07-12T08:17:21.7913552Z">HTTP</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="825f3c95-8608-4edf-9109-c95145064bb1">
+      <Keyword m="2024-07-12T08:17:32.244811Z">HTTPS</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="e5200c77-b491-4893-9fd4-8e171256d356">
+      <Keyword m="2024-07-12T08:17:57.3804905Z">Pre vývojárov - webové služby</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="5bd45092-f212-48ed-ba38-ffcf1afc772c">
+      <Keyword m="2024-07-12T08:17:51.5762282Z">Developer - webové služby</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

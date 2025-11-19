@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="2762a45e-ecf0-4176-972f-6f766604b4c6" Status="Complete" CreatedOn="2014-11-24T12:06:16.1066708Z" ModifiedOn="2023-12-20T12:03:15.6708024Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Developers_Interfaces_FiscalUniversalInterface_Workspace" BuildFlags="">
+  <Title m="2015-01-14T08:52:50.3007812Z">Fiscal Universal Interface - príprava prostredia </Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-12-20T12:03:15.6708024Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;popisuje &lt;STRONG&gt;postup prípravy vývojového prostredia na vývoj externej DLL knižnice (ovládača) na komunikáciu s nepodporovanou fiškálnou tlačiarňou pomocou&amp;nbsp;rozhrania&amp;nbsp;&lt;/STRONG&gt;&lt;A href="5442590e-2d9a-4550-984d-e5b23f239d05"&gt;Fiscal Universal Interface&lt;/A&gt;. Postup je určený pre výrobcov, dovozcov a&amp;nbsp;servisných technikov.&lt;/P&gt;&lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Pred samotným vývojom externej DLL knižnice (ovládača) odporúčame mať &lt;A href="19a10c98-2b1d-4fe1-8ab2-98921ab328be"&gt;nainštalovanú&lt;/A&gt; aktuálnu verziu&amp;nbsp;systému OBERON. Do samotného projektu vzoru (šablóny) knižnice &lt;B&gt;&lt;EM&gt;Fiscal Universal Driver&lt;/EM&gt;&lt;/B&gt; sú vložené knižnice objektov zo systému OBERON, a&amp;nbsp;preto je potrebné mať aktuálne verzie týchto knižníc uložené v&amp;nbsp;adresári C:\OBERON\SHARE\SYSTEM.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Inštalácia IDE pre VB&amp;nbsp;.NET projekty&lt;/H2&gt;
+&lt;P&gt;Systém OBERON je&amp;nbsp;vyvíjaný v&amp;nbsp;programovacom jazyku &lt;EM&gt;&lt;STRONG&gt;Visual&amp;nbsp;Basic &lt;/STRONG&gt;&lt;/EM&gt;v&amp;nbsp;programovacom prostredí &lt;I&gt;&lt;STRONG&gt;Microsoft Visual Studio 2019&lt;/STRONG&gt;&lt;/I&gt;. Vzor DLL knižnice (ovládača) &lt;B&gt;&lt;EM&gt;Fiscal Universal Driver&lt;/EM&gt;&lt;/B&gt; je preto tiež napísaný v&amp;nbsp;tomto programovacom prostredí a&amp;nbsp;v tomto jazyku. Úlohou programátora je zapísanie programového kódu do pripraveného vzoru (šablóny), ktorý obsahuje definície všetkých potrebných funkcií, vlastností a&amp;nbsp;udalostí. Preto potrebuje nástroj, pomocou ktorého bude vedieť doplniť chýbajúci programový kód do vzoru a&amp;nbsp;tento doplnený vzor skompilovať a&amp;nbsp;vytvoriť ovládač &lt;B&gt;&lt;EM&gt;Fiscal Universal Driver&lt;/EM&gt;&lt;/B&gt;. Na internetových stránkach firmy &lt;EM&gt;Microsoft&lt;/EM&gt; je možné nájsť programovacie prostredie &lt;A href="https://www.visualstudio.com/products/visual-studio-express-vs" target=_blank&gt;Microsoft Visual Studio&lt;/A&gt;. Je to verzia, ktorá postačuje na vytvorenie ovládača &lt;B&gt;&lt;EM&gt;Fiscal Universal Driver&lt;/EM&gt;&lt;/B&gt;. Vzor DLL knižnice (ovládača) je možné získať na vyžiadanie od firmy EXALOGIC.&lt;/P&gt;
+&lt;H5&gt;Obrázok č. 1: Programovacie prostredie &lt;EM&gt;Microsoft Visual Studio 2019&lt;/EM&gt;&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Developers/UniversalInterface/Studio.png"&gt;&lt;/P&gt;
+&lt;H2&gt;Nastavenie projektu&lt;/H2&gt;
+&lt;P&gt;Do samotného projektu vzoru (šablóny) knižnice &lt;B&gt;&lt;EM&gt;Fiscal Universal Driver&lt;/EM&gt;&lt;/B&gt; sú vložené knižnice objektov zo systému OBERON, a&amp;nbsp;preto je potrebné mať aktuálne verzie týchto knižníc uložené v&amp;nbsp;adresári C:\OBERON\SHARE\SYSTEM.&lt;/P&gt;
+&lt;P&gt;Vo vlastnostiach projektu je potrebné skontrolovať niektoré dôležité nastavenia. V záložke &lt;EM&gt;Compile&lt;/EM&gt; je potrebné nastaviť cestu, kam sa má&amp;nbsp;nakopírovať ovládač po skompilovaní. V záložke &lt;EM&gt;Debug&lt;/EM&gt; je potrebné zvoliť štartovanie externého programu a nastaviť cestu k&amp;nbsp;OBERON-u. Ďalším dôležitým nastavením sú v záložke &lt;EM&gt;References&lt;/EM&gt; referencie na knižnice&amp;nbsp;systému OBERON, ktoré by mali byť súčasťou&amp;nbsp;OBERON-u v jeho systémovom adresári.&lt;/P&gt;
+&lt;H5&gt;Obrázok č. 3: Nastavenie cesty, do ktorej sa má&amp;nbsp;nakopírovať skompilovaný ovládač&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Developers/UniversalInterface/UniversalInterface_Compile.png"&gt;&amp;nbsp;&lt;/P&gt;
+&lt;H5&gt;Obrázok č. 4:&amp;nbsp;Nastavenie cesty k externému programu OBERON&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Developers/UniversalInterface/UniversalInterface_Debug.png"&gt;&amp;nbsp;&lt;/P&gt;
+&lt;H5&gt;Obrázokč. 5: Nastavenie referencií na knižnice systému OBERON&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Developers/UniversalInterface/UniversalInterface_References.png"&gt;&lt;/P&gt;
+&lt;H5&gt;Obrázok č. 6:&amp;nbsp;Nainštalované súčasti (knižnice) systému OBERON&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Developers/UniversalInterface/UniversalInterface_Kniznice.png"&gt;&amp;nbsp;&lt;/P&gt;
+&lt;H2&gt;Zdrojové kódy &lt;SPAN id=dxMisspelled reason="spell" word="vzorového"&gt;vzorového&lt;/SPAN&gt; projektu&lt;/H2&gt;
+&lt;P&gt;Po nainštalovaní prostredia a knižníc už nič nebráni samotnému programovaniu ovládača. Zdrojové kódy vzorového projektu je možné získať na vyžiadanie od firmy EXALOGIC.&lt;/P&gt;
+&lt;H5&gt;Obrázok č. 7:&amp;nbsp;Vzorový projekt&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Developers/UniversalInterface/Vzor2.png"&gt;&lt;/P&gt;
+&lt;H2&gt;Overenie funkčnosti zapísaného kódu&lt;/H2&gt;
+&lt;P&gt;Vzor ovládača je naprogramovaný tak, aby už v okamihu otvorenia projektu v programovacom prostredí bol spustiteľný a dokázal nejakým spôsobom komunikovať so systémom OBERON. Po spustení OBERON-u a pridaní nového zariadenia typu &lt;I&gt;Fiškálny modul&lt;/I&gt; so zvoleným modelom &lt;I&gt;Fiscal Universal Interface&lt;/I&gt; je fiškálna tlačiareň pripojená a pripravená komunikovať so systémom OBERON. Počas komunikácie s ovládačom a&amp;nbsp;volaní jeho funkcií OBERON vypisuje na obrazovku informácie o týchto funkciách v podobe dialógových okien, čím je&amp;nbsp;hneď v&amp;nbsp;úvode programovania zabezpečená&amp;nbsp;funkčnosť a akási interaktivita medzi programovým kódom a programátorom. V nastaveniach zariadenia&amp;nbsp;možno ovládač otestovať a&amp;nbsp;nechať si vypísať informácie načítané z fiškálnej tlačiarne.&lt;/P&gt;
+&lt;H5&gt;Obrázok č. 8: Nastavenia komunikácie&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Developers/UniversalInterface/UniversalInterface_Detekcia.png"&gt;&amp;nbsp;&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="54487b83-44d9-457e-8fd8-1a2cf629a2bc" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="3757d6bf-3009-4685-beee-617e34892086">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="82a3596e-e5dc-4cc6-97e4-bca0f800cd65" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="5442590e-2d9a-4550-984d-e5b23f239d05">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="fdbaee9f-55b1-4f77-b12f-83105ff90f77" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="4b7ab8d2-0e55-4be8-a112-430b9fb9d7e9">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="b01e76a2-7c77-47f3-be0c-6385297879be">
+      <Keyword m="2022-08-16T05:33:33.9769474Z">IDE - Fiscal Universal Interface</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="6b507557-d468-4003-917d-b56aa58f04d5">
+      <Keyword m="2022-08-16T07:08:20.2734086Z">IDE - Integrated Development Environment</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="bb3e3b70-0f4f-4653-bd4d-86cc857d13d8">
+      <Keyword m="2022-08-16T08:55:17.859967Z">Fiscal Universal Driver - príprava prostredia</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="e19b7485-69dc-4b2d-9f10-c747d2f6db31">
+      <Keyword m="2022-08-16T08:56:47.6715052Z">Vzorová DLL knižnica (ovládač) - Fiscal Universal Interface - príprava prostredia</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="2161f5b6-fc37-4731-94b3-a5bb09b57b7c">
+      <Keyword m="2022-08-16T08:57:02.6665956Z">DLL knižnica - Fiscal Universal Interface - príprava prostredia</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="e0722380-512a-44c0-ac63-bcb076f292e1">
+      <Keyword m="2022-08-16T08:57:18.3236694Z">Driver - Fiscal Universal Interface - príprava prostredia</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="f1fdc993-21a1-4db1-989e-fda72f89ef31" Status="Complete" CreatedOn="2014-10-15T12:11:16.5720411Z" ModifiedOn="2023-10-30T07:15:07.1123475Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="51044" Name="Form_StockCard_DiscoutSale_StockCard" BuildFlags="">
+  <Title m="2015-05-18T08:13:31.3523438Z">Formulár Rozšírená cenotvorba - skladová karta</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-06-01T12:46:56.154675Z">&lt;P&gt;Formulár &lt;EM&gt;Rozšírená cenotvorba - skladová karta&lt;/EM&gt; umožňuje &lt;STRONG&gt;zadať akciovú cenu na danú skladovú položku&lt;/STRONG&gt;. V prípade&amp;nbsp;&lt;A href="40c5a838-b404-441c-ac13-f0232013d8f7"&gt;letákovej dohody&lt;/A&gt; umožňuje evidovať aj nákupnú cenu dohodnutú s&amp;nbsp;dodávateľom. Formulár je dostupný z&amp;nbsp;programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;, ponuka&amp;nbsp;&lt;EM&gt;Sklad&lt;/EM&gt;, &lt;A href="34f91c11-1a5d-4773-ac4e-48ad2fc859d3" style="auto-update-caption: true"&gt;Pravidlá rozšírenej cenotvorby&lt;/A&gt;, tlačidlo &lt;EM&gt;Nový,&lt;/EM&gt; záložka &lt;EM&gt;Skladové karty&lt;/EM&gt; (Pravidlo uplatniť na: &lt;EM&gt;Vybrané skladové karty&lt;/EM&gt;)&lt;EM&gt;.&lt;/EM&gt;&lt;/P&gt;
+&lt;H2&gt;Popis formulára &lt;EM&gt;Rozšírená cenotvorba&lt;/EM&gt;&lt;/H2&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Aktuálna predajná cena&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Zobrazuje sa aktuálna predajná cena, ktorá čerpá údaje zo&amp;nbsp;&lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;skladovej karty&lt;/A&gt;.&amp;nbsp;Používateľa informuje o svojej výške&amp;nbsp;pri zadávaní &lt;EM&gt;Novej predajnej ceny&lt;/EM&gt; (akciovej ceny) ako zľavy z aktuálnej predajnej ceny. Rozbaľovací zoznam umožňuje zobraziť všetky cenové hladiny bez aj s DPH.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Nová predajná cena&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Akciová predajná cena s alebo bez DPH. Predajnú cenu možno zadať ako hodnotu alebo zľavu z aktuálnej predajnej ceny. Táto cena nahradí (po dobu trvania akcie) konkrétnu cenovú hladinu na skladovej karte.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Nákupná cena (z letákovej dohody)&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Evidencia nákupnej ceny uzavretej v letákovej dohode. Automaticky sa prepočítava &lt;EM&gt;rabat&lt;/EM&gt; k novej predajnej cene. Ponuka je k dispozícii len pri výbere položky pre pravidlo &lt;A href="40c5a838-b404-441c-ac13-f0232013d8f7"&gt;Akciový leták (letáková dohoda s&amp;nbsp;dodávateľom)&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Poznámka ku zľavnenej položke (uvádza sa pri predaji)&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Uvedená poznámka sa bude tlačiť pri predaji na pokladničnom doklade.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="20fec12c-4355-4286-b628-6ddcd8c5f10f" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="34f91c11-1a5d-4773-ac4e-48ad2fc859d3">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="d79b5c61-8f3f-45e3-bad8-84779e9dd3b5" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="6b018069-d729-4bd0-8bf8-2162d116c247">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="2804a4e4-0651-4877-b290-c62ab2ed6e92" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="40c5a838-b404-441c-ac13-f0232013d8f7">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="1601e905-e17a-4cc0-8175-a2fc2e84aec3" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="5ba18930-a06e-4228-a051-bb2c63ebe86d">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="31f7d294-16a0-420e-ae70-3c79bd24fda5">
+      <Keyword m="2021-11-04T11:12:10.8981283Z">Rozšírená cenotvorba - skladová karta - formulár</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="e42fdd84-4611-4a54-b3f2-ecee756edba9">
+      <Keyword m="2021-11-04T11:12:23.072527Z">Nákupná cena - letáková dohoda</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="d8ae14cf-9630-493e-862c-233b06edf2a8">
+      <Keyword m="2021-11-04T11:12:32.7074832Z">Nová predajná cena - letáková dohoda</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="5e1016df-9459-4b9d-ba00-260cc7bfc3f0">
+      <Keyword m="2021-11-04T11:12:49.3393032Z">Aktuálna predajná cena - akcia</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

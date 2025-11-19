@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="2a34c11f-bee8-4fdd-bf7f-70ee7b49bc79" Status="Complete" CreatedOn="2022-05-02T06:38:44.5783945Z" ModifiedOn="2024-02-02T09:09:25.1665769Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="51300" Name="Stock_Advanced_Sets" BuildFlags="">
+  <Title m="2022-05-02T06:44:12.0689132Z">Všeobecne o sadách</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-02-02T09:09:25.1665769Z">&lt;P&gt;V &amp;nbsp;tejto téme &lt;EM&gt;Pomocníka&lt;/EM&gt; sú uvedené všeobecné informácie o&amp;nbsp;jednom z &lt;A href="8deac9fe-9864-41e8-aaa3-02257c241d78"&gt;typov skladových kariet&lt;/A&gt; v&amp;nbsp;systéme OBERON - &lt;STRONG&gt;sada&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Jedným z kľúčových parametrov&amp;nbsp;&lt;A href="1a33ab0b-2df7-4dc2-962b-8a3319c16831"&gt;skladovej karty&lt;/A&gt; je jej typ. Viac informácií o&amp;nbsp;klasifikácii typov skladových kariet v&amp;nbsp;systéme OBERON získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="8deac9fe-9864-41e8-aaa3-02257c241d78" style="auto-update-caption: true"&gt;Typy skladových kariet&lt;/A&gt;. 
+&lt;LI&gt;Sada predstavuje &lt;STRONG&gt;špeciálny typ skladovej karty, ktorá sa skladá z&amp;nbsp;ďalších skladových kariet&lt;/STRONG&gt; (inými slovami&amp;nbsp;makrokarta alebo&amp;nbsp;set). Pri výdaji skladovej karty tohto typu sa do dokladu &lt;STRONG&gt;nezapíše priamo táto skladová karta, ale všetky skladové karty uvedené v sade&lt;/STRONG&gt;. 
+&lt;LI&gt;Sada sa môže skladať &lt;STRONG&gt;len z&amp;nbsp;jednoduchých skladových kariet&lt;/STRONG&gt; (nie je možné do sady vložiť inú sadu). Typickým príkladom sady je napr. počítačová zostava (PC + monitor + klávesnica + myš...), satelitný set (prijímač + parabola + kábel + konzola...) a pod. Konkrétne príklady použitia skladovej karty&amp;nbsp;&lt;A href="8deac9fe-9864-41e8-aaa3-02257c241d78"&gt;typu sada&lt;/A&gt; sú uvedené v téme&amp;nbsp;&lt;A href="54a1321c-d4a6-43cf-8577-376a3f38f28c" style="auto-update-caption: true"&gt;Príklady sád&lt;/A&gt;. 
+&lt;LI&gt;Pri zadaní predajných cien jednotlivých položiek sady (skladových kariet) je k&amp;nbsp;dispozícii viacero možností: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;EM&gt;&lt;STRONG&gt;Fixná cena&lt;/STRONG&gt;&lt;/EM&gt; -&amp;nbsp;použije sa zadaná&amp;nbsp;predajná cena s&amp;nbsp;DPH za mernú jednotku. 
+&lt;LI&gt;&lt;EM&gt;&lt;STRONG&gt;Cenová hladina 1 - 4&lt;/STRONG&gt;&lt;/EM&gt; - použije sa zvolená cenová hladina 1 - 4 zadaná na skladovej karte v&amp;nbsp;záložke &lt;EM&gt;Cena&lt;/EM&gt;. 
+&lt;LI&gt;&lt;EM&gt;&lt;STRONG&gt;Cenová hladina automaticky&lt;/STRONG&gt;&lt;/EM&gt; - použije sa&amp;nbsp;cenová hladina nastavená vo &lt;A href="4fbe9db8-25bc-420f-aee5-228d0a8ff03f"&gt;formulári Obchodný partner&lt;/A&gt;, záložka &lt;EM&gt;Cena&lt;/EM&gt;. 
+&lt;LI&gt;&lt;EM&gt;&lt;STRONG&gt;Zľava z ceny 1 - 4&lt;/STRONG&gt;&lt;/EM&gt; - použije sa&amp;nbsp;cena po zadanej percentuálnej zľave zo zvolenej&amp;nbsp;cenovej hladiny 1 - 4 zadanej na skladovej karte&amp;nbsp;v&amp;nbsp;záložke &lt;EM&gt;Cena&lt;/EM&gt;. 
+&lt;LI&gt;&lt;EM&gt;&lt;STRONG&gt;Zľava z ceny automaticky&lt;/STRONG&gt;&lt;/EM&gt; - použije sa&amp;nbsp;cena po zadanej percentuálnej zľave z cenovej hladiny nastavenej vo&amp;nbsp;&lt;A href="4fbe9db8-25bc-420f-aee5-228d0a8ff03f"&gt;formulári Obchodný partner&lt;/A&gt;, záložka &lt;EM&gt;Cena&lt;/EM&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Skladovú kartu&amp;nbsp;&lt;A href="8deac9fe-9864-41e8-aaa3-02257c241d78"&gt;typu sada&lt;/A&gt;&amp;nbsp;&lt;STRONG&gt;nie je možné do skladu prijať&lt;/STRONG&gt;. Množstvo na skladovej karte &lt;STRONG&gt;je vždy nulové (neeviduje sa)&lt;/STRONG&gt;. 
+&lt;LI&gt;Pri odpisovaní predaných množstiev sád program automaticky odpíše množstvá na skladových kartách jednotlivých položiek sád. Napr. pri vydaní&amp;nbsp;sady &lt;I&gt;Počítačová zostava&lt;/I&gt; bude odpísané po jednom kuse na skladových kartách &lt;I&gt;PC, monitor, klávesnica, myš&lt;/I&gt; a pod. 
+&lt;LI&gt;Skladová karta&amp;nbsp;&lt;A href="8deac9fe-9864-41e8-aaa3-02257c241d78"&gt;typu sada&lt;/A&gt; &lt;STRONG&gt;nepodporuje viazané položky&lt;/STRONG&gt;, t.&amp;nbsp;j. ak sa do sady vloží skladová karta, ktorá obsahuje viazanú položku, a následne sa táto sada vloží do dokladu, viazaná položka sa do dokladu nevloží.
+&lt;LI&gt;Pri predaji sady sa zohľadňuje&amp;nbsp;&lt;A href="6cd390d6-697d-4829-bc05-ea31662ffe4e"&gt;prenesenej daňovej povinnosti&lt;/A&gt;. Pri zmene ceny sady (prípadne pri uplatnení zľavy) sa štandardne cena položiek sady prepočítava alikvotne. Ak je však niektorá zložka sady s prenesenou daňovou povinnosťou (nulovou sadzbou DPH), cena tejto položky sa&amp;nbsp;zníži o&amp;nbsp;DPH a následne sa o túto sumu zníži aj celková cena sady. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 1: Príklad skladovej karty typu sada - &lt;EM&gt;Počítačová zostava HP PAVILION&lt;/EM&gt;&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/Stock/Form_Stock_PCSet.png" width="35%"&gt;&amp;nbsp;&lt;/P&gt;
+&lt;H2&gt;Sady a vratné obaly&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Skladovú kartu&amp;nbsp;&lt;A href="8deac9fe-9864-41e8-aaa3-02257c241d78"&gt;typu sada&lt;/A&gt; je možné použiť aj pri predaji napr. &lt;STRONG&gt;darčekových košov, ktoré obsahujú&amp;nbsp;vratné obaly&lt;/STRONG&gt; (fľaše PET, plechovky, pivové fľaše...). Tu sa však nevyužíva viazaná položka, ale vytvorí sa sada, ktorá bude obsahovať skladovú kartu napr. &lt;EM&gt;Darčekový kôš&lt;/EM&gt; a toľko kusov vratných obalov, koľko ich darčekový kôš obsahuje (napr. 3 plechovky). Po pridaní skladovej položky &lt;EM&gt;Darčekový kôš&lt;/EM&gt; do dokladu sa tak do dokladu automaticky pridajú aj vratné obaly. 
+&lt;LI&gt;Okrem toho skladovú kartu&amp;nbsp;&lt;A href="8deac9fe-9864-41e8-aaa3-02257c241d78"&gt;typu sada&lt;/A&gt; možno použiť pri predaji &lt;STRONG&gt;väčších balení nápojov, ktoré majú len jeden čiarový kód&lt;/STRONG&gt; (napr. 6 ks minerálnych vôd balených spolu). Sada bude v&amp;nbsp;tomto prípade obsahovať 6 ks minerálnych vôd a 6 ks vratných obalov. &lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="a812579d-cd69-4fee-b10b-d58888a6fe43" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1a33ab0b-2df7-4dc2-962b-8a3319c16831">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="b8736dc8-c375-425a-8302-d596a9075f88" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="8deac9fe-9864-41e8-aaa3-02257c241d78">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="c4335cfc-66ce-4827-8e6d-a5dcaee80b7a" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="54a1321c-d4a6-43cf-8577-376a3f38f28c">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="880b13f7-5f94-4704-8938-8b15192808a8" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="69bbd499-45c0-4b0f-8f7a-c53fa5d70c1b">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="97439957-d122-4cef-99e4-ca7ad7a68934" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="0cbf9ae9-1760-4f87-89be-559b62ee193b">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="b3efe5f4-2e0d-4e1e-931a-8257caaa86c9">
+      <Keyword m="2022-05-02T11:04:42.1792716Z">Sady - všeobecné informácie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="4ac79ca1-51be-4836-aa22-d954e5e90fe6">
+      <Keyword m="2022-05-02T11:05:30.976783Z">Darčekový kôš - sada</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="8f052310-29d5-432b-a468-63aaa85ad030">
+      <Keyword m="2022-05-02T11:05:15.3034576Z">Sada - všeobecné informácie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="007762ca-3839-4501-80f7-cf4c0f1727bd">
+      <Keyword m="2022-05-03T10:27:52.4067718Z">Sada a vratné obaly</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="53c5a615-45ee-413a-8f12-06e5c5b9ba29">
+      <Keyword m="2022-05-03T10:27:58.3201924Z">Vratné obaly - sada</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

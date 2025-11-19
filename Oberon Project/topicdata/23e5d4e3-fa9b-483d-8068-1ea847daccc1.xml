@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="23e5d4e3-fa9b-483d-8068-1ea847daccc1" Status="Complete" CreatedOn="2024-05-29T06:50:34.413193Z" ModifiedOn="2024-05-31T12:31:40.8773594Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="OAC_AttendanceTerminals-Communication" BuildFlags="">
+  <Title m="2024-05-29T06:51:14.5944422Z">Dochádzkové terminály - komunikácia</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-05-31T12:31:40.8773594Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; je venovaná&amp;nbsp;jednej z&amp;nbsp;&lt;A href="9ce25bbd-35d1-4096-acd5-70007f5af5a6"&gt;automatických úloh&lt;/A&gt;&amp;nbsp;systému OBERON, ktorá &lt;STRONG&gt;zabezpečuje komunikáciu&lt;/STRONG&gt; medzi systémom OBERON a&amp;nbsp;&lt;A href="f46f3a8f-ba04-4359-ba99-dc6caeeba021"&gt;dochádzkovými terminálmi&lt;/A&gt;.&lt;/P&gt;&lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;V systéme OBERON&amp;nbsp;je táto&amp;nbsp;funkcia z dôvodu kompatibility stále&amp;nbsp;vykonávaná aj v&amp;nbsp;staršom programe &lt;EM&gt;OBERON Center&lt;/EM&gt;, avšak&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;&amp;nbsp;s obmedzenou platnosťou&lt;/SPAN&gt;.&amp;nbsp;Z tohto dôvodu je potrebné komunikáciu s&amp;nbsp;dochádzkovými terminálmi konfigurovať v&amp;nbsp;programe&amp;nbsp;&lt;A href="09f3dae9-2fb7-490f-97dc-37f60885b398"&gt;OBERON Automation Center&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Základné informácie&amp;nbsp;&amp;nbsp;&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;EM&gt;Dochádzkové terminály - komunikácia&lt;/EM&gt; predstavuje&amp;nbsp;&lt;A href="9ce25bbd-35d1-4096-acd5-70007f5af5a6"&gt;automatickú úlohu&lt;/A&gt;, ktorá v&amp;nbsp;systéme OBERON&amp;nbsp;umožňuje komunikáciu s &lt;A href="f46f3a8f-ba04-4359-ba99-dc6caeeba021"&gt;dochádzkovými terminálmi&lt;/A&gt;. 
+&lt;LI&gt;Pred nastavením automatickej úlohy je potrebné daný dochádzkový terminál&amp;nbsp;definovať v zozname zariadení systému OBERON (ponuka Servis,&amp;nbsp;&lt;A href="749ff4f1-eeb5-43f5-98d2-021399d8cec7"&gt;Zariadenia&lt;/A&gt;). 
+&lt;LI&gt;Aby sa mohol pracovník na danom termináli prihlásiť, musí byť v&amp;nbsp;ponuke &lt;EM&gt;Firma&lt;/EM&gt;, resp. &lt;EM&gt;Mzdy,&lt;/EM&gt;&amp;nbsp;&lt;A href="8dd60281-9cc7-41fe-9dd2-2ad5c7ffe047"&gt;Pracovníci&lt;/A&gt; priradený k&amp;nbsp;danému pracovníkovi konkrétny dochádzkový terminál. Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="28ad3f59-16f3-4162-a0a6-387778cbc7c3" style="auto-update-caption: true"&gt;Priradenie dochádzkového terminálu pracovníkovi&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Nastavenie automatickej úlohy&amp;nbsp;&lt;EM&gt;Dochádzkové terminály - komunikácia&lt;/EM&gt;&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;Pred&amp;nbsp;nastavením automatickej úlohy v&amp;nbsp;systéme OBERON &lt;STRONG&gt;sa uistite, že je&amp;nbsp;na počítači, ktorý je neustále zapnutý (spravidla sieťovom databázovom serveri),&lt;/STRONG&gt;&amp;nbsp;správne nastavený&amp;nbsp;&lt;STRONG&gt;server&lt;/STRONG&gt;&amp;nbsp;&lt;A href="09f3dae9-2fb7-490f-97dc-37f60885b398"&gt;OBERON Automation Center&lt;/A&gt;. Postup nastavenia je dostupný v&amp;nbsp;téme&amp;nbsp;&lt;A href="fd64c37a-486b-4cdf-a370-297aaa8a8f73" style="auto-update-caption: true"&gt;Nastavenie servera OBERON Automation Center&lt;/A&gt;.&amp;nbsp;Správnosť nastavenia a&amp;nbsp;fungovania&amp;nbsp;servera OAC môžete skontrolovať v&amp;nbsp;programe&lt;STRONG&gt;&amp;nbsp;&lt;EM&gt;OBERON Automation Center&lt;/EM&gt; (klient)&lt;/STRONG&gt; (v&amp;nbsp;programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;, ponuka&amp;nbsp;&lt;EM&gt;OBERON&lt;/EM&gt;,&amp;nbsp;&lt;A href="69282df4-d4d6-462a-8cf2-68000e3e6f93"&gt;OBERON Automation Center (klient)&lt;/A&gt;). &lt;SPAN style="COLOR: rgb(255,0,0)"&gt;Pri&amp;nbsp;použití&lt;/SPAN&gt; &lt;EM style="COLOR: rgb(255,0,0)"&gt;OBERON Automation Center&lt;/EM&gt;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;&amp;nbsp;&lt;STRONG&gt;odporúčame&lt;/STRONG&gt;&lt;/SPAN&gt; &lt;STRONG style="COLOR: rgb(255,0,0)"&gt;používať databázu SQL&lt;/STRONG&gt;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;.&lt;/SPAN&gt; 
+&lt;LI&gt;Na &lt;STRONG&gt;klientskom počítači&lt;/STRONG&gt; spustite program &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt; a&amp;nbsp;v&amp;nbsp;ponuke &lt;EM&gt;OBERON,&amp;nbsp;&lt;/EM&gt;&lt;A href="e975459f-e882-49f2-adb9-79e68a07df0e"&gt;Otvorenie agendy (firmy)&lt;/A&gt; otvorte databázu účtovnej jednotky. 
+&lt;LI&gt;V&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="225638ed-22f6-4ac4-9085-6d77c64925db" style="auto-update-caption: true"&gt;Používatelia&lt;/A&gt; vytvorte&amp;nbsp;nového používateľa&amp;nbsp;typu &lt;I&gt;&lt;STRONG&gt;Systémový&lt;/STRONG&gt;&lt;/I&gt;. 
+&lt;LI&gt;V&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="9ce25bbd-35d1-4096-acd5-70007f5af5a6"&gt;Automatické úlohy&lt;/A&gt;&amp;nbsp;stlačte tlačidlo &lt;EM&gt;Nový&lt;/EM&gt;. Otvorí sa&amp;nbsp;formulár &lt;EM&gt;Automatická úloha&lt;/EM&gt;, v&amp;nbsp;ktorom vyberte typ úlohy&amp;nbsp;&lt;EM&gt;&lt;STRONG&gt;Dochádzkové terminály - komunikácia&lt;/STRONG&gt;&lt;/EM&gt; a zadajte názov úlohy. 
+&lt;LI&gt;Stlačením tlačidla&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_Button_Refresh.png"&gt;&amp;nbsp;pri rozbaľovacom zozname &lt;EM&gt;Vykonávať na serveri&lt;/EM&gt;&amp;nbsp;aktualizujte zoznam dostupných serverov a vyberte príslušný server OAC, na ktorom sa má úloha vykonávať. 
+&lt;LI&gt;Vyberte používateľa systému OBERON vytvoreného v&amp;nbsp;bode č.&amp;nbsp;3, pod ktorým sa má automatická&amp;nbsp;úloha vykonávať. 
+&lt;LI&gt;Stlačte tlačidlo &lt;EM&gt;Nastaviť&lt;/EM&gt;. Otvorí sa &lt;A href="c47973d1-8866-4142-a372-e5a497b4eca7"&gt;formulár Nastavenie automatickej úlohy 'Dochádzkové terminály - komunikácia'&lt;/A&gt;, v&amp;nbsp;ktorom: 
+&lt;UL&gt;
+&lt;LI&gt;v&amp;nbsp;záložke &lt;EM&gt;Dochádzkové terminály&lt;/EM&gt; &lt;STRONG&gt;vyberte dochádzkové terminály&lt;/STRONG&gt;, s ktorými má automatická úloha komunikovať, t.&amp;nbsp;j. sťahovať prechody a aktualizovať údaje o pracovníkoch&lt;EM&gt;,&lt;/EM&gt; 
+&lt;LI&gt;v&amp;nbsp;záložke&amp;nbsp;&lt;EM&gt;Nastavenia&lt;/EM&gt; zvoľte, či sa majú zasielať podrobné informácie do &lt;EM&gt;Prehľadu činností&lt;/EM&gt; (na OAC klienta). &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Vykonané nastavenia potvrďte stlačením tlačidla &lt;STRONG&gt;&lt;EM&gt;OK&lt;/EM&gt;&lt;/STRONG&gt;. &lt;/LI&gt;&lt;/OL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="2298641f-994c-4ea1-9d99-1701b636c31b" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="9ce25bbd-35d1-4096-acd5-70007f5af5a6">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="410293a9-be67-4e49-aee8-c960c3c48dbd" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="c47973d1-8866-4142-a372-e5a497b4eca7">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="68922d31-bf3a-450a-95e8-e4939fa64ef8" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="f46f3a8f-ba04-4359-ba99-dc6caeeba021">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="51d6196c-4b85-48b6-8782-7ed316f24c62" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="ac73b976-c72c-449c-a608-c41ca5eb24ba">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="fb8e0cb4-396d-4a79-ae10-535911d0da88" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="e11b492e-8020-499e-8e54-0b71c6ebdd75">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="7494460e-267c-4db4-af4b-aeb02f559776">
+      <Keyword m="2024-05-29T08:55:17.0674478Z">Automatická úloha Dochádzkové terminály - komunikácia</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="15643cbe-7b98-4530-a786-019d26d832c1">
+      <Keyword m="2024-05-29T08:40:54.7478259Z">Nastavenie automatickej úlohy Dochádzkové terminály - komunikácia</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

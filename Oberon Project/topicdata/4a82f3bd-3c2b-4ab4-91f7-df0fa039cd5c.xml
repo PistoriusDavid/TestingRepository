@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="4a82f3bd-3c2b-4ab4-91f7-df0fa039cd5c" Status="Complete" CreatedOn="2018-02-23T09:07:24.5326105Z" ModifiedOn="2023-10-05T05:49:06.3623648Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="70600" Name="Menu_Wages_Registry_TimeSheet" BuildFlags="">
+  <Title m="2018-02-23T09:08:53.663407Z">Evidencia príchodov a odchodov</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-09-25T09:08:09.3686241Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;je venovaná&amp;nbsp;položke&amp;nbsp;&lt;EM&gt;Evidencia príchodov a&amp;nbsp;odchodov&lt;/EM&gt; v&amp;nbsp;ponuke&amp;nbsp;&lt;EM&gt;Mzdy&lt;/EM&gt; programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&amp;nbsp;&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Výberom položky sa otvorí&amp;nbsp;kniha&amp;nbsp;&lt;EM&gt;Evidencia príchodov a&amp;nbsp;odchodov&lt;/EM&gt;, ktorá &lt;STRONG&gt;umožňuje evidenciu fyzických prechodov pracovníkov&lt;/STRONG&gt; spravidla zaznamenaných na&amp;nbsp;&lt;A href="f46f3a8f-ba04-4359-ba99-dc6caeeba021"&gt;dochádzkových termináloch&lt;/A&gt;. 
+&lt;LI&gt;V&amp;nbsp;prípade používania &lt;A href="8df798f2-4fbf-4279-ad8c-493bdbe7f2e4"&gt;prevádzok&lt;/A&gt;&amp;nbsp;záznamy&amp;nbsp;v&amp;nbsp;evidencii (fyzické prechody pracovníkov) možno &lt;STRONG&gt;zobraziť podľa príslušnosti&amp;nbsp;k prevádzke&lt;/STRONG&gt;, a&amp;nbsp;to&amp;nbsp;ako podmnožiny&amp;nbsp;záznamov knihy&amp;nbsp;&lt;EM&gt;Evidencia príchodov a&amp;nbsp;odchodov&lt;/EM&gt;.&amp;nbsp;Možno tak urobiť pomocou filtra&amp;nbsp;&lt;EM&gt;Prevádzka&lt;/EM&gt; v&amp;nbsp;hornej časti evidencie.&amp;nbsp;Zoznam dostupných prevádzok (definujú sa v ponuke &lt;EM&gt;Firma&lt;/EM&gt;,&amp;nbsp;&lt;A href="a833ee8a-1289-42b9-923f-80f549497702"&gt;Údaje o firme&lt;/A&gt;)&amp;nbsp;je možné v prípade potreby obmedziť pomocou&amp;nbsp;&lt;A href="834e9546-a56b-476f-9028-ef4c24a82345"&gt;používateľských práv&lt;/A&gt;. 
+&lt;LI&gt;Kniha, podobne ako iné evidencie,&amp;nbsp;umožňuje vytvárať záznamy &lt;STRONG&gt;manuálne&lt;/STRONG&gt;.&amp;nbsp;Pri používaní dochádzkových terminálov sa prechody zaznamenané &lt;A href="f46f3a8f-ba04-4359-ba99-dc6caeeba021"&gt;dochádzkovými terminálmi&lt;/A&gt;&amp;nbsp;vytvárajú v knihe&amp;nbsp;&lt;STRONG&gt;automaticky&lt;/STRONG&gt;. V prípade potreby je možné tak manuálne, ako&amp;nbsp;aj automaticky zaevidované prechody&amp;nbsp;upraviť, pričom&amp;nbsp;po manuálnej úprave bude vždy možné zistiť hodnoty pôvodného (originálneho) záznamu. 
+&lt;LI&gt;Príchody a odchody pracovníkov&amp;nbsp;sa z&amp;nbsp;&lt;A href="f46f3a8f-ba04-4359-ba99-dc6caeeba021"&gt;dochádzkového terminálu&lt;/A&gt; načítavajú &lt;STRONG&gt;od prvého dňa predchádzajúceho mesiaca&lt;/STRONG&gt;. &amp;nbsp;&amp;nbsp;&amp;nbsp; 
+&lt;LI&gt;Na základe evidencie príchodov a odchodov je možné získať &lt;STRONG&gt;aktuálny prehľad prítomnosti pracovníkov na pracovisku&lt;/STRONG&gt;. Viac informácií získate v téme&amp;nbsp;&lt;A href="77f4529f-a73f-4a6d-b4fe-02d338cbdafa"&gt;Prítomní pracovníci&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Zaevidovať, resp. upraviť už zaevidovaný fyzický prechod pracovníka je možné pomocou&amp;nbsp;&lt;A class=LastChild href="c75f2889-6d89-46fe-b1e1-e699b22ed226"&gt;formulára Fyzický prechod pracovníka&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Ďalšie informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Záznamy v knihe&amp;nbsp;možno&amp;nbsp;&lt;STRONG&gt;filtrovať alebo triediť&lt;/STRONG&gt;. Nastaviť kritériá filtrovania alebo triedenia možno po stlačení tlačidla &lt;A href="124da68e-c3f0-43e4-9466-60b4916bfc41"&gt;Vlastnosti&lt;/A&gt;.
+&lt;LI&gt;Na zvýšenie&amp;nbsp;prehľadnosti v evidencii&amp;nbsp;je v ľavom paneli oddelenom&amp;nbsp;&lt;A href="38489850-ab82-41b6-b258-3fa613ed5861"&gt;rozdeľovacou lištou&lt;/A&gt;&amp;nbsp;k&amp;nbsp;dispozícii &lt;STRONG&gt;vstavaný filter&lt;/STRONG&gt;, pomocou ktorého možno rýchlo filtrovať záznamy podľa&amp;nbsp;typu (&lt;EM&gt;Všetky, Len príchody, Len odchody&lt;/EM&gt;)&amp;nbsp;a&amp;nbsp;času prechodu (&lt;EM&gt;Všetky, Dnes a včera, Tento a&amp;nbsp;minulý týždeň...&lt;/EM&gt;). 
+&lt;LI&gt;Z&amp;nbsp;evidencie je možné po stlačení tlačidla &lt;EM&gt;Tlač&lt;/EM&gt; tlačiť &lt;STRONG&gt;tlačové výstupy&lt;/STRONG&gt;, napr. &lt;EM&gt;Príchody a odchody (pracovníci za obdobie)&lt;/EM&gt; atď. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 1:&amp;nbsp;Kniha &lt;EM&gt;Evidencia príchodov a odchodov&lt;/EM&gt;&amp;nbsp;&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/Attendance/Form_Attendance_TimeSheet.png"&gt;&lt;/P&gt;
+&lt;H2&gt;Ďalšie možnosti evidencie&lt;/H2&gt;
+&lt;P&gt;Ďalšie možnosti práce so záznamami&amp;nbsp;sú dostupné po stlačení tlačidla &lt;EM&gt;Možnosti&lt;/EM&gt;, prípadne v kontextovej ponuke tabuľky záznamov.&lt;/P&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;XML komunikácia - export príchodov a odchodov&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Otvorí sa sprievodca, ktorý umožňuje exportovať údaje z&amp;nbsp;tejto evidencie do súboru typu XML. Viac informácií získate v téme&amp;nbsp;&lt;A href="56f661c6-24da-46aa-b157-5d988cbe792b" style="auto-update-caption: true"&gt;Všeobecne o XML komunikácii&lt;/A&gt;. XML komunikáciu možno využiť napríklad v situácii, keď sa&amp;nbsp;prevádzka s dochádzkovým terminálom nachádza na inom mieste ako mzdár.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;XML komunikácia - import príchodov a odchodov&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Otvorí sa sprievodca, ktorý umožňuje&amp;nbsp;importovať údaje&amp;nbsp;zo súboru typu&amp;nbsp;XML do tejto evidencie. Viac informácií získate v téme&amp;nbsp;&lt;A href="56f661c6-24da-46aa-b157-5d988cbe792b" style="auto-update-caption: true"&gt;Všeobecne o XML komunikácii&lt;/A&gt;. XML komunikáciu možno využiť napríklad v situácii, keď sa&amp;nbsp;prevádzka s dochádzkovým terminálom nachádza na inom mieste ako mzdár.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="27ab5dc2-c387-4265-a992-e2be19c5288e" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="f46f3a8f-ba04-4359-ba99-dc6caeeba021">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="b474580d-f0bb-44a3-bff1-70fa4e7aae77" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="ce9e15f9-7459-4a5c-8bad-db17ef7b59ea">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="10b53a99-d6aa-4553-912e-9df942980741" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="945e7141-25d7-4e5b-bf76-95cad39c7edb">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="2505b3f1-efcc-4849-9a6c-61ac8dcdc0ea" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="c75f2889-6d89-46fe-b1e1-e699b22ed226">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="8118930f-459c-4ca3-bffb-cb39781c573d" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="77f4529f-a73f-4a6d-b4fe-02d338cbdafa">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="9f817299-5842-4cf5-a504-3119d9ab70e7" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="5bfb1129-550c-42bb-9f72-ba0b3687a2b5">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="a058bd41-8892-4245-b252-0438ff87f916">
+      <Keyword m="2023-08-28T10:52:46.4494221Z">Dochádzka - evidencia príchodov a odchodov</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="24bff09f-a4ee-4c49-9480-755f1e7e69e2">
+      <Keyword m="2023-08-28T10:53:27.2822207Z">Kniha Evidencia príchodov a odchodov</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="eeba67e1-5f68-463f-8d40-7b7784df6291">
+      <Keyword m="2023-08-28T10:53:00.2695967Z">Príchod - evidencia dochádzky</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="957ac373-0127-4f20-ac78-d94e3c9756c4">
+      <Keyword m="2023-08-28T10:53:09.6366619Z">Odchod - evidencia dochádzky</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="5020b29b-b6e5-48bb-bfc6-800d68d5b8e9" Status="Complete" CreatedOn="2014-09-04T15:06:30.0169604Z" ModifiedOn="2023-10-09T08:08:32.7335561Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="ExportImport_Overview" BuildFlags="">
+  <Title m="2014-09-04T15:07:45.573282Z">Možnosti importu a exportu údajov v OBERON-e</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-10-09T08:08:32.7335561Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; je venovaná &lt;STRONG&gt;prehľadu možností importu a exportu údajov&lt;/STRONG&gt; v&amp;nbsp;systéme OBERON, ktoré sú&amp;nbsp;veľmi široké a rôznorodé. Z hľadiska používateľov, použitej technológie a možností systému ich môžeme rozdeliť na:&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;A)&amp;nbsp;Importy a exporty v závislosti&amp;nbsp;od legislatívy&lt;/STRONG&gt;&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;Export&amp;nbsp;výkazov do&amp;nbsp;aplikácie&amp;nbsp;&lt;A href="c5a0e260-f27f-4a19-9b09-39a40bfbd69f"&gt;eDane&lt;/A&gt;. 
+&lt;LI&gt;Export rôznych iných výkazov&amp;nbsp;do štátnych inštitúcií (napr. mzdové výkazy do&amp;nbsp;zdravotných poisťovní, &lt;EM&gt;Sociálnej poisťovne&lt;/EM&gt; a pod.). 
+&lt;LI&gt;Export špecializovaných výkazov (napr.&amp;nbsp;cena práce&amp;nbsp;&lt;A href="3a260235-ceef-4dec-9bbe-b5e34ed1f880"&gt;ISCP&lt;/A&gt;). 
+&lt;LI&gt;Export&amp;nbsp;&lt;A href="6f290377-1b2d-4fe5-8c12-944b437f9337"&gt;hlásenia pobytu cudzincov&lt;/A&gt;. 
+&lt;LI&gt;Import&amp;nbsp;&lt;A href="8f7c0098-5332-40a6-a7e7-92be2a86e854"&gt;colného sadzobníka&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;P&gt;&lt;STRONG&gt;B)&amp;nbsp;Importy a exporty medzi účtovnou jednotkou a ďalšími inštitúciami&lt;/STRONG&gt;&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;Import bankových výpisov a ich&amp;nbsp;&lt;A href="02bbf54b-086f-4641-8c33-4dd461e56fb4"&gt;hromadné účtovanie&lt;/A&gt;. 
+&lt;LI&gt;Export&amp;nbsp;&lt;A href="1288dcf2-9f76-4fc6-941a-1d03361bf937"&gt;príkazov na úhradu&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;P&gt;&lt;STRONG&gt;C)&amp;nbsp;&lt;/STRONG&gt;&lt;STRONG&gt;Importy a exporty medzi účtovnou jednotkou&lt;/STRONG&gt; &lt;STRONG&gt;a&amp;nbsp;externými systémami&lt;/STRONG&gt;&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;Jednorazový&amp;nbsp;&lt;A href="c5b5cbd0-8a60-490b-8bf7-31941d64db60"&gt;import údajov z&amp;nbsp;iného účtovného&amp;nbsp;softvéru&lt;/A&gt;&amp;nbsp;(napr. &lt;EM&gt;iKelp, Money s3, Pohoda&lt;/EM&gt;...). 
+&lt;LI&gt;Jednorazové &lt;A href="1c4fe40d-4be6-4e94-9ccc-39727c9a6a0c"&gt;importy alebo aktualizácia údajov zo súboru typu XLSX&lt;/A&gt; (napr. skladových kariet, predajných cien, obchodných partnerov...). 
+&lt;LI&gt;Opakovaný&amp;nbsp;&lt;A href="c4bb279e-a2ba-4690-83b9-efb2e11cc077"&gt;import dokladov (faktúr, príjemiek...) z iných softvérov&lt;/A&gt;&amp;nbsp;(tzv.&amp;nbsp;&lt;A href="56f661c6-24da-46aa-b157-5d988cbe792b"&gt;XML komunikácia&lt;/A&gt;). 
+&lt;LI&gt;Opakovaný &lt;A href="2c463344-2e7a-4599-8afb-f5d06c2366e0"&gt;export dokladov (faktúr...) do iných softvérov&lt;/A&gt;&amp;nbsp;(tzv.&amp;nbsp;&lt;A href="56f661c6-24da-46aa-b157-5d988cbe792b"&gt;XML komunikácia&lt;/A&gt;). 
+&lt;LI&gt;Importy a exporty údajov v&amp;nbsp;rámci&amp;nbsp;&lt;A href="1dc4ea18-03c0-4028-afe5-4532583b6a44"&gt;off-line transportov údajov&lt;/A&gt;. 
+&lt;LI&gt;Export&amp;nbsp;skladových kariet do&amp;nbsp;&lt;A href="2ba6a435-be52-46a1-b723-fb2b8ca084c0"&gt;internetového obchodu&lt;/A&gt; a import objednávok&amp;nbsp;z internetového obchodu. 
+&lt;LI&gt;Automatický import rezervácií ubytovania a export obsadenosti v prepojení&amp;nbsp;s rôznymi rezervačnými portálmi pomocou&amp;nbsp;&lt;A href="25b9b2fe-ad9e-49dd-9a59-e57d2520e87b"&gt;manažéra rezervačných kanálov&lt;/A&gt;&amp;nbsp;(Channel Manager). &lt;/LI&gt;&lt;/UL&gt;
+&lt;P&gt;&lt;STRONG&gt;D)&amp;nbsp;Exporty a importy&amp;nbsp;údajov medzi&amp;nbsp;pobočkami a&amp;nbsp;centrálou&amp;nbsp;účtovnej jednotky&lt;/STRONG&gt;&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;Export a import údajov v&amp;nbsp;rámci&amp;nbsp;&lt;A href="4b2b3447-f2f1-4bbe-9d21-3d87994bfba8"&gt;pobočkového režimu&lt;/A&gt;&amp;nbsp;medzi pobočkami a centrálou účtovnej jednotky (napr. stavy zásob,&amp;nbsp;faktúry,&amp;nbsp;off-line pobočková&amp;nbsp;&lt;EM&gt;Pokladnica OBERON&lt;/EM&gt;&amp;nbsp;a pod.). &lt;/LI&gt;&lt;/UL&gt;
+&lt;P&gt;&lt;STRONG&gt;E)&amp;nbsp;Exporty a importy&amp;nbsp;údajov medzi jednotlivými modulmi systému&lt;/STRONG&gt;&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;Export údajov z modulu &lt;EM&gt;Mzdy a dochádzka&lt;/EM&gt; a ich&amp;nbsp;následný import do&amp;nbsp;&lt;A href="d8c9bfc8-92d1-4471-8909-e5f8ce602d6c"&gt;účtovného denníka&lt;/A&gt;&amp;nbsp;s automatickým zaúčtovaním. 
+&lt;LI&gt;Jednorazové alebo&amp;nbsp;opakované importy údajov z&amp;nbsp;rovnakých evidencií, ale iných databáz, napr. import obchodných partnerov, skladových kariet, aktualizovanie predajných cien, import údajov modulu &lt;EM&gt;Hotelová recepcia&lt;/EM&gt; a pod. (tzv.&amp;nbsp;&lt;A href="56f661c6-24da-46aa-b157-5d988cbe792b"&gt;XML komunikácia&lt;/A&gt;). &lt;/LI&gt;&lt;/UL&gt;
+&lt;P&gt;&lt;STRONG&gt;F)&amp;nbsp;Iné jednorazové alebo opakované importy a exporty údajov&lt;/STRONG&gt;&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;A href="7f960b85-ac92-44d4-9202-65e5c3818346"&gt;Export účtovného denníka&amp;nbsp;na externé spracovanie&lt;/A&gt; (napr. audit, ďalšie analýzy a pod.). 
+&lt;LI&gt;Export&amp;nbsp;grafického prehľadu izieb vo formáte&amp;nbsp;HTML. &lt;/LI&gt;&lt;/UL&gt;
+&lt;P&gt;&lt;STRONG&gt;G)&amp;nbsp;Exporty a importy&amp;nbsp;údajov pomocou webových služieb (WebServices API)&lt;/STRONG&gt;&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;Export alebo import údajov pomocou &lt;A href="58bb31ca-00c8-4641-ad99-7d58e24f59c5"&gt;webových služieb&lt;/A&gt; systému OBERON (napr. import objednávok, komunikácia s mobilným čašníkom a pod.). 
+&lt;LI&gt;Systém OBERON sa&amp;nbsp;pripája k&amp;nbsp;externým webovým službám (napr.&amp;nbsp;&lt;A href="ab574902-6abb-4c2c-b0a5-af9a2f62b7f4"&gt;overenie IČ DPH&lt;/A&gt;, vernostný systém&amp;nbsp;&lt;A href="29a9a88d-471d-434a-ad1c-de2068775bdf"&gt;Cardberg&lt;/A&gt;...). &lt;/LI&gt;&lt;/UL&gt;
+&lt;P&gt;&lt;STRONG&gt;H)&amp;nbsp;Exporty a importy údajov pomocou špecializovaných rozhraní&lt;/STRONG&gt;&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;Na export alebo import údajov sa používajú&amp;nbsp;&lt;A href="3757d6bf-3009-4685-beee-617e34892086"&gt;špeciálne programové rozhrania&lt;/A&gt; (interfaces). Umožňujú komunikovať s externými systémami alebo aj&amp;nbsp;zariadeniami, napr. s&amp;nbsp;&lt;A href="04b8d290-1470-41ff-85a1-c44a20958841"&gt;fiškálnymi zariadeniami&lt;/A&gt;).&lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="01a084c1-6444-417c-a321-1db9283d9920" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="c5b5cbd0-8a60-490b-8bf7-31941d64db60">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="51d5b64e-6261-4bbd-9140-8790ba7c23f7" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1c4fe40d-4be6-4e94-9ccc-39727c9a6a0c">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="755b101a-5fb7-48cf-958d-735880d40ccd" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="c4bb279e-a2ba-4690-83b9-efb2e11cc077">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="3119032b-7a5c-4864-9d6d-c8be45e34ced" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="2c463344-2e7a-4599-8afb-f5d06c2366e0">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="5e4898bf-fbaf-4399-8bef-d4ea62d08712" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="56f661c6-24da-46aa-b157-5d988cbe792b">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="618462d2-68a6-4ff6-8155-08de7e577318">
+      <Keyword m="2021-03-30T11:22:18.7631767Z">Export údajov v OBERON-e - prehľad možností</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="af9340d9-0924-4d0d-b836-6eae5290948c">
+      <Keyword m="2021-03-30T11:22:28.467526Z">Import údajov v OBERON-e - prehľad možností</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

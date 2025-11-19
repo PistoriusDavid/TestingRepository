@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="1c45ad86-636b-4d4e-87f9-e2932e494f51" Status="Complete" CreatedOn="2014-09-08T10:34:58.3240609Z" ModifiedOn="2024-07-17T08:13:38.8306203Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="22803" Name="Menu_Vehicles_Travel_Orders" BuildFlags="">
+  <Title m="2015-01-14T09:11:53.6474609Z">Cestovné príkazy </Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-05-09T13:29:17.5887843Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;je venovaná&amp;nbsp;položke&amp;nbsp;&lt;EM&gt;Cestovné príkazy&lt;/EM&gt; v&amp;nbsp;ponuke&amp;nbsp;&lt;EM&gt;Vozidlá&lt;/EM&gt; programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Výberom položky sa otvorí&amp;nbsp;kniha&amp;nbsp;&lt;EM&gt;Cestovné príkazy&lt;/EM&gt;, v&amp;nbsp;ktorej &lt;STRONG&gt;je možné vytvárať a&amp;nbsp;evidovať cestovné príkazy pri vysielaní na pracovnú cestu&lt;/STRONG&gt;.&amp;nbsp;Pritom platí, že jeden cestovný príkaz môže obsahovať viacero pracovných ciest. V rámci jednotlivých cestovných príkazov sa eviduje preddavok, účel cesty, cestovné, ako aj ďalšie výdavky ako ubytovanie, strava atď. 
+&lt;LI&gt;V záložke &lt;I&gt;Vyúčtovanie&lt;/I&gt; je možné skontrolovať &lt;STRONG&gt;súhrnný stav cestovného príkazu&lt;/STRONG&gt;. Ak nie je presne známe, koľko prostriedkov je potrebných na pokrytie nákladov pracovnej cesty, je možné zadať len hodnotu predpokladaných nákladov na pracovnú cestu. 
+&lt;LI&gt;Cestovné náhrady sa dajú vypočítať stlačením tlačidla&amp;nbsp;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Button_Calc.png"&gt; vo formulári &lt;EM&gt;Položka cestovného príkazu&lt;/EM&gt; (záložka &lt;EM&gt;Položky&lt;/EM&gt;, tlačidlo &lt;EM&gt;Nový&lt;/EM&gt;). 
+&lt;LI&gt;Jednotlivé položky (cesty) cestovného príkazu je možné dopĺňať aj dodatočne, keď sú známe všetky údaje o pracovnej ceste. 
+&lt;LI&gt;Vytvorený cestovný príkaz je možné &lt;STRONG&gt;vytlačiť, prípadne uložiť do formátu PDF alebo poslať e-mailom&lt;/STRONG&gt;. Pomocou tlačového výstupu &lt;EM&gt;Kniha cestovných príkazov&lt;/EM&gt; je možné vytlačiť na jeden dokument ľubovoľný počet ciest s celkovou výškou náhrad. Každý tlačový výstup si&amp;nbsp;možno najskôr prezrieť na obrazovke. 
+&lt;LI&gt;Cestovný príkaz je možné jednoducho skopírovať pomocou&amp;nbsp;klávesových skratiek&amp;nbsp;&lt;EM&gt;Ctrl+C&lt;/EM&gt; a &lt;EM&gt;Ctrl+V,&lt;/EM&gt; a tým vytvoriť nový cestovný príkaz a následne ho upraviť. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Bližšie informácie o ovládaní evidencie, používaní filtrov, triedení záznamov a pod. sú dostupné v téme&amp;nbsp;&lt;A href="8936fde4-aac3-4672-99a2-c8bd5ccffdcd"&gt;Ovládanie knihy (evidencie)&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="08957ae5-e449-466c-b0ec-668c7c2a2229" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="280be3ab-e42c-462b-bb0b-7abeac11b45a">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="d1513568-c54c-4dba-8a5c-9256f1a168ed" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="792fd782-391e-4f5a-95a0-f5784a058294">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="c3b1d94e-9f7b-469b-a1f0-d43d7e3800f4" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="d217346c-8ef3-4c61-a572-2ee976bb817f">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="e6060d63-75f4-4815-a03c-fcba3304f67b" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="beb97ace-1408-443d-87c0-bce72b007ea7">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="443bd9f7-2bd3-42c9-93b4-2badc5508f84" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="129b1c37-0b9d-4a3f-b676-ec7fadd0f7f2">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="a08d89c1-f9ab-497e-a0fb-f3a37e14d419" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="e2b43d8d-2743-477c-8bc3-27a0608a8552">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="4e5e4fa1-2373-4568-923c-f6c1cb3127aa">
+      <Keyword m="2015-01-14T09:11:56.4951171Z">Cestovné príkazy </Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="1d468fdb-1f63-41cd-9531-d4137985ebd1">
+      <Keyword m="2015-04-29T08:08:42.9394531Z">Kniha cestovných príkazov</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="225529c6-9c52-4859-ba9e-f13814be703e">
+      <Keyword m="2015-05-04T09:25:13.5701094Z">Cesty</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="71960bfc-5bdc-4eda-a0cb-def6f4b7497f">
+      <Keyword m="2023-05-09T06:31:20.4578864Z">Pracovná cesta</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

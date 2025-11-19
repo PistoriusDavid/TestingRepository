@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="cb2b6fc2-5bb6-49e3-8bbf-65463b3f026f" Status="Complete" CreatedOn="2022-04-06T12:16:37.3435407Z" ModifiedOn="2022-12-15T11:51:14.0305285Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="ExternalSystem_EuroSMS" BuildFlags="">
+  <Title m="2022-04-06T12:20:45.8876294Z">EuroSMS</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2022-11-16T09:04:21.8804699Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; popisuje jeden zo&amp;nbsp;&lt;A href="9690f267-6ad7-4e22-9af2-675ef3d9d041"&gt;súvisiacich produktov&lt;/A&gt; systému OBERON -&amp;nbsp;&lt;STRONG&gt;službu &lt;EM&gt;EuroSMS&lt;/EM&gt;&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&amp;nbsp;&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Spoločnosť &lt;A href="https://www.eurosms.com/sms/" rel=noopener target=_blank&gt;EuroSMS s.r.o.&lt;/A&gt; ako prevádzkovateľ internetového portálu &lt;A href="https://www.eurosms.com/sms/" rel=noopener target=_blank&gt;www.eurosms.com&lt;/A&gt; (SMS centrum, brána) poskytuje služby posielania/príjmu SMS a Viber správ z webového rozhrania, prípadne formou automatizácie pripojením zákazníckych systémov prostredníctvom SMS API na zabezpečenom protokole https. Pre banky, poisťovne a agregátorov je k dispozícii SMPP. 
+&lt;LI&gt;Do systému OBERON je služba zasielania SMS správ integrovaná na základe &lt;STRONG&gt;rozhrania SMS API&lt;/STRONG&gt;. 
+&lt;LI&gt;V systéme OBERON je možné vytvárať SMS správy &lt;STRONG&gt;buď manuálne, alebo automaticky&lt;/STRONG&gt; - v rámci hromadného odosielania správ, resp. automatických notifikácií. Všetky vytvorené správy sa evidujú v knihe &lt;EM&gt;SMS správy&lt;/EM&gt;. Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="d4119d75-dd5b-4a1c-b9fa-c982601e0746" style="auto-update-caption: true"&gt;SMS správy&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Ďalšie informácie získate na webovej stránke&amp;nbsp;&lt;A href="https://exalogic.sk/oberon/suvisiace-produkty/chameleoon/" target=_blank&gt;EuroSMS&lt;/A&gt;&amp;nbsp;a&amp;nbsp;na&amp;nbsp;&lt;A href="https://www.eurosms.com/sms/" target=_blank&gt;webovej stránke dodávateľa&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="0b82bdb5-510f-4e7a-a3fb-8d984461e94b" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="9690f267-6ad7-4e22-9af2-675ef3d9d041">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="f757da93-c175-41cd-a4d3-6bd4bd60fbd8" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="af53c105-e266-49b7-a25c-832ac36e4280">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="bea3acca-d3fd-4d3a-bf3e-344f3fe58933" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="d4119d75-dd5b-4a1c-b9fa-c982601e0746">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="d22268d5-f108-4b4b-9587-7e447602b44e">
+      <Keyword m="2022-04-06T12:27:37.448107Z">SMS brána - EuroSMS</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

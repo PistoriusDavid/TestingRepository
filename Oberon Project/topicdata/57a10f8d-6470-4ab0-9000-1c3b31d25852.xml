@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="57a10f8d-6470-4ab0-9000-1c3b31d25852" Status="Complete" CreatedOn="2017-02-20T10:37:55.2122419Z" ModifiedOn="2023-08-01T11:37:42.0164799Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="70420" Name="Menu_Wages_Accounting" BuildFlags="">
+  <Title m="2017-02-20T10:38:55.9384564Z">Zaúčtovanie miezd - nastavenia</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-08-01T11:37:42.0164799Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; je venovaná &lt;STRONG&gt;nastaveniam zaúčtovania miezd&lt;/STRONG&gt; v&amp;nbsp;&lt;A href="49dd3167-870a-4fdf-b631-d4f692f1ed72"&gt;podvojnom účtovníctve&lt;/A&gt; systému OBERON.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Systém OBERON umožňuje &lt;STRONG&gt;automaticky zaúčtovať&amp;nbsp;spracované mzdy&lt;/STRONG&gt; -&amp;nbsp;t.&amp;nbsp;j. vykonať účtovné zápisy&amp;nbsp;do&amp;nbsp;&lt;A href="d8c9bfc8-92d1-4471-8909-e5f8ce602d6c"&gt;účtovného denníka&lt;/A&gt; (zaúčtovanie účtovného predpisu spracovaných miezd).&amp;nbsp;Zaúčtovať mzdy je možné len v&amp;nbsp;&lt;A href="49dd3167-870a-4fdf-b631-d4f692f1ed72"&gt;podvojnom účtovníctve&lt;/A&gt; (v&amp;nbsp;&lt;A href="32be28cf-2368-4818-9d24-cfa9d59afb75"&gt;jednoduchom účtovníctve&lt;/A&gt; sa účtuje o peniazoch, čiže vyplatené mzdy, odvody atď. sa účtujú pri peňažnom pohybe, t. j. spravidla pri &lt;A href="02bbf54b-086f-4641-8c33-4dd461e56fb4"&gt;účtovaní bankových výpisov&lt;/A&gt;). 
+&lt;LI&gt;Nastavenia zaúčtovania miezd je však možné použiť &lt;STRONG&gt;aj nezávisle&amp;nbsp;od účtovania v účtovnom denníku&lt;/STRONG&gt; - len ako nastavenie pre &lt;A href="66ed476e-d5ea-4e46-a758-a3f190a60a7c"&gt;tlačové výstupy&lt;/A&gt; týkajúce sa rozúčtovania miezd, hlavne pri viacerých&amp;nbsp;&lt;A href="8df798f2-4fbf-4279-ad8c-493bdbe7f2e4"&gt;prevádzkach&lt;/A&gt; účtovnej jednotky a podrobnejšom sledovaní mzdových nákladov. Viac informácií je možné získať v téme&amp;nbsp;&lt;A href="c1379073-007e-434a-a410-d6fde709ff9e"&gt;O členení pracovníkov a rozúčtovaní miezd&lt;/A&gt;. 
+&lt;LI&gt;V nastaveniach zaúčtovania miezd sa nastavujú&amp;nbsp;&lt;A href="da8a9192-a6cc-4470-b5d5-13d3ec435f97"&gt;účtovné predkontácie&lt;/A&gt;&lt;STRONG&gt;&amp;nbsp;na zaúčtovanie jednotlivých mzdových zložiek&lt;/STRONG&gt;, pričom okrem účtovania rozhodujú o podrobnom rozúčtovaní miezd&amp;nbsp;na podrobné sledovanie mzdových nákladov. Pre jednu mzdovú zložku môže existovať jedno, prípadne aj viac nastavení. Základné nastavenia zaúčtovania miezd sú v systéme OBERON&amp;nbsp;&lt;STRONG&gt;preddefinované&lt;/STRONG&gt;. Ďalšie nastavenia si môže účtovná jednotka podľa potreby&amp;nbsp;&lt;STRONG&gt;ľubovoľne definovať&lt;/STRONG&gt;. 
+&lt;LI&gt;Zaúčtovanie miezd sa vykonáva pomocou&amp;nbsp;&lt;A href="41513109-f711-4de5-b494-67671f203dca"&gt;hromadného účtovania dokladov&lt;/A&gt;, prípadne pomocou súboru XML vygenerovaného pri&amp;nbsp;&lt;A href="4c0cffe2-a77b-44ea-bb3a-39476f21e420"&gt;mesačnej uzávierke spracovaných miezd&lt;/A&gt;&amp;nbsp;(napr. ak sa mzdy spracúvajú externe). Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="354e86f6-e098-451f-a4d6-2ecf73bce5ee"&gt;Zaúčtovanie miezd do účtovného denníka&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget layout="block" type="Note Box"&gt;&lt;innovasys:widgetproperty name="Content" layout="block"&gt;Definovať, resp. upraviť už definované nastavenie zaúčtovania miezd&amp;nbsp;je možné&amp;nbsp;pomocou &lt;A href="d668807b-6912-425a-a7f3-9c62798d8822"&gt;formulára Zaúčtovanie mzdy - nastavenie&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Ďalšie informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Možnosti rozúčtovania mzdy: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Podrobne nerozúčtovať -&lt;/STRONG&gt; automatické základné rozúčtovanie, ktoré sa&amp;nbsp;vykoná&amp;nbsp;vždy,&amp;nbsp;keď sú pracovníci&amp;nbsp;priradení k&amp;nbsp;&lt;A href="8df798f2-4fbf-4279-ad8c-493bdbe7f2e4"&gt;prevádzkam&lt;/A&gt;&amp;nbsp;alebo ak&amp;nbsp;akákoľvek mzda v danom mesiaci&amp;nbsp;bola&amp;nbsp;rozúčtovaná podľa tzv.&amp;nbsp;&lt;A href="f68687b5-0939-447b-9f8e-37c883676f1e"&gt;členenia&lt;/A&gt;. Vtedy sa vytvoria účtovné zápisy &lt;STRONG&gt;s&amp;nbsp;rovnakou predkontáciou&lt;/STRONG&gt;&amp;nbsp;(s tým istým číslom účtovného rozvrhu), &lt;STRONG&gt;no každá prevádzka bude na samostatnom riadku&lt;/STRONG&gt; (to isté platí aj pre&amp;nbsp;členenie). Z toho vyplýva, že na základe jedného nastavenia zaúčtovania&amp;nbsp;sa automaticky mzdy rozúčtujú na prevádzky alebo členenie,&amp;nbsp;no na to isté analytické číslo. Následne bude možné&amp;nbsp;v&amp;nbsp;účtovnom denníku&amp;nbsp;zostaviť tlačové výstupy len za určité prevádzky či členenie. 
+&lt;LI&gt;&lt;STRONG&gt;Podrobne rozúčtovať (na rovnaké účty)&lt;/STRONG&gt; - podľa zvolenej položky je možné pridať k tzv. základnému rozúčtovaniu ďalšie rozúčtovanie, napr. podľa pracoviska, zdravotnej poisťovne atď. Vtedy sa vytvoria účtovné zápisy &lt;STRONG&gt;s&amp;nbsp;rovnakou predkontáciou&lt;/STRONG&gt;&amp;nbsp;(s tým istým číslom účtovného rozvrhu), &lt;STRONG&gt;no rozúčtované podľa tohto ďalšieho poľa&lt;/STRONG&gt;.&amp;nbsp;Z toho vyplýva, že na základe jedného nastavenia zaúčtovania sa mzdy automaticky rozúčtujú na&amp;nbsp;základné rozúčtovanie (prevádzky alebo členenie) a zároveň na&amp;nbsp;zadané ďalšie rozúčtovanie (napr. pracovisko zdravotná poisťovňa atď.).
+&lt;LI&gt;&lt;STRONG&gt;Zaúčtovať len vybrané mzdy&lt;/STRONG&gt; - zaúčtované budú &lt;STRONG&gt;len také mzdy, ktoré vyhovujú zadanej podmienke pri tomto nastavení&lt;/STRONG&gt;, napr. zaúčtované budú len mzdy pracovníkov danej profesie. Predpokladom&amp;nbsp;je vytvorenie&lt;STRONG&gt; viacerých nastavení zaúčtovania&lt;/STRONG&gt;&amp;nbsp;(napr. pre každú profesiu zvlášť) s&amp;nbsp;rôznymi predkontáciami a&amp;nbsp;rôznymi&amp;nbsp;číslami účtovného rozvrhu (pozri Obrázok č. 1).&amp;nbsp;Vtedy sa vytvoria účtovné zápisy &lt;STRONG&gt;s&amp;nbsp;rôznymi predkontáciami&lt;/STRONG&gt;&amp;nbsp;(s rôznymi číslami účtovného rozvrhu).&lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;V nastaveniach zaúčtovania miezd &lt;STRONG&gt;nemusí byť definované nastavenie takej&amp;nbsp;zložky mzdy, akú účtovná jednotka nepoužíva&lt;/STRONG&gt;, napr. ak sociálny fond účtovná jednotka netvorí, nastavenie zaúčtovania pre túto zložku mzdy nemusí byť zadané. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 1: Zaúčtovanie vybraných miezd - vytvorenie dvoch rôznych anaylytických účtov na rozúčtovanie hrubej mzdy podľa profesie&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/Wages/Form_Firm_WagesAccountingSettings.png"&gt;&amp;nbsp;&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="21e5e706-21db-4776-a1c8-cc733a8ac941" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="d8c9bfc8-92d1-4471-8909-e5f8ce602d6c">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="d0a407c1-927b-4315-a857-39ebe3704b3a" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="41513109-f711-4de5-b494-67671f203dca">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="cde0d256-2127-4e5a-a63e-28637b380b1b" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="d668807b-6912-425a-a7f3-9c62798d8822">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="bec5dc20-46ee-49b7-9a3f-d89e2bdc10b9" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="354e86f6-e098-451f-a4d6-2ecf73bce5ee">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="181a2747-bcf4-4069-8f9a-e7c95e9c5fcc" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="c1379073-007e-434a-a410-d6fde709ff9e">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="e638cf31-ad44-4de0-ac7d-96a113a10db4">
+      <Keyword m="2023-07-31T11:07:39.1513125Z">Nastavenia zaúčtovania miezd</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

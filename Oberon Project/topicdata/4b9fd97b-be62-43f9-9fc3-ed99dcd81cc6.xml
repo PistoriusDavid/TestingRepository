@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="4b9fd97b-be62-43f9-9fc3-ed99dcd81cc6" Status="Complete" CreatedOn="2021-09-14T06:38:14.3306487Z" ModifiedOn="2025-03-17T06:59:11.1422865Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="LUKUL_PaymentCard" BuildFlags="">
+  <Title m="2021-09-14T06:39:17.9239324Z">Aplikácia LUKUL a platba kartou</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2025-03-17T06:59:11.1422865Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;je venovaná &lt;STRONG&gt;problematike platby platobnou kartou v&amp;nbsp;aplikácii&lt;/STRONG&gt; &lt;A href="942d48d5-b290-40f6-8ba3-45cf78f380f9"&gt;LUKUL - nielen mobilný čašník&lt;/A&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;V aplikácii &lt;EM&gt;LUKUL&lt;/EM&gt; existujú dve možnosti platby kartou: 
+&lt;OL&gt;
+&lt;LI&gt;&lt;STRONG&gt;pomocou softvérového platobného terminálu&amp;nbsp;&lt;A href="936ab11c-b8d8-4007-8633-78c649beae4b"&gt;GP tom&lt;/A&gt;&amp;nbsp;&lt;A href="1f32a90c-7b4a-4d69-9f38-a560178794b3" style="auto-update-caption: true"&gt;&lt;IMG border=0 alt="Odporúčané riešenia" src="images/OBERON/Basic/Odporucane-riesenie_ruka_ikona.png"&gt;&lt;/A&gt;&lt;/STRONG&gt;, 
+&lt;LI&gt;&lt;STRONG&gt;prostredníctvom hardvérového&amp;nbsp;&lt;/STRONG&gt;&lt;A href="5ad1a704-08fd-4f9c-8302-8f8759cef50a"&gt;&lt;STRONG&gt;platobného POS terminálu&lt;/STRONG&gt;&lt;/A&gt;. &lt;/LI&gt;&lt;/OL&gt;
+&lt;LI&gt;Uvedené možnosti sú dostupné v režime&amp;nbsp;&lt;STRONG&gt;&lt;EM&gt;LUKUL - mobilný čašník&lt;/EM&gt;&lt;/STRONG&gt; určenom pre obsluhu. Viac informácií o režimoch aplikácie získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="c1f1084d-0742-45cd-966a-7cf001b770c7" style="auto-update-caption: true"&gt;Aplikácia LUKUL - porovnanie režimov&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;1. Softvérový platobný terminál&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Softvérový platobný terminál v&amp;nbsp;aplikácii &lt;EM&gt;LUKUL&lt;/EM&gt; predstavujú aplikácie &lt;EM&gt;&lt;STRONG&gt;GP tom&lt;/STRONG&gt;&lt;/EM&gt;&amp;nbsp;a &lt;EM&gt;&lt;STRONG&gt;GP tom PIN&lt;/STRONG&gt;&lt;/EM&gt; (od firmy&amp;nbsp;&lt;A href="https://www.globalpayments.sk/sk-sk/global-payments" target=_blank&gt;Global Payments&lt;/A&gt;) dostupné na stiahnutie v obchode &lt;EM&gt;Google Play&lt;/EM&gt;. Riešenie&amp;nbsp;premení mobilné zariadenie (smartfón,&amp;nbsp;tablet), na ktorom beží aplikácia &lt;EM&gt;LUKUL&lt;/EM&gt;&amp;nbsp;(v režime &lt;EM&gt;LUKUL - mobilný čašník&lt;/EM&gt;)&amp;nbsp;na jednoduché zariadenie na prijímanie platobných kariet. Umožňuje tak realizovať platby platobnou kartou priamo z mobilného zariadenia obsluhy. 
+&lt;LI&gt;Podmienkou použitia softvérového platobného terminálu je &lt;STRONG&gt;operačný systém &lt;EM&gt;Android&lt;/EM&gt; od verzie 8.0&lt;/STRONG&gt; a&amp;nbsp;&lt;STRONG&gt;mobilné zariadenie s&amp;nbsp;technológiou&lt;/STRONG&gt; &lt;EM&gt;&lt;STRONG&gt;NFC&lt;/STRONG&gt;&lt;/EM&gt; (&lt;EM&gt;&lt;STRONG&gt;N&lt;/STRONG&gt;ear &lt;STRONG&gt;F&lt;/STRONG&gt;ield &lt;STRONG&gt;C&lt;/STRONG&gt;ommunication&lt;/EM&gt; - komunikácia na krátke vzdialenosti), ktorá je nevyhnutná na funkciu bezkontaktných platieb. 
+&lt;LI&gt;Obsluha v aplikácii &lt;EM&gt;LUKUL&lt;/EM&gt; jednoducho zadá platbu platobnou kartou, zákazník priloží svoju platobnú kartu (prípadne smartfón alebo hodinky) k&amp;nbsp;zadnej strane mobilného zariadenia obsluhy, podľa potreby zadá PIN kód. Aplikácia sa spojí s autorizačným centrom a platbu autorizuje. Následne sa zaeviduje a vytlačí pokladničný doklad (prípadne sa odošle na e-mailovú adresu zákazníka (hosťa)). Peniaze prídu obchodníkovi na účet hneď nasledujúci deň po vykonaní transakcie. 
+&lt;LI&gt;Viac informácií o platobnom termináli získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="936ab11c-b8d8-4007-8633-78c649beae4b" style="auto-update-caption: true"&gt;Platobný terminál GP tom&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Na použitie softvérového platobného terminálu&amp;nbsp;&lt;EM&gt;&lt;STRONG&gt;GP tom&lt;/STRONG&gt;&lt;/EM&gt;&amp;nbsp;a &lt;EM&gt;&lt;STRONG&gt;GP tom PIN&lt;/STRONG&gt;&lt;/EM&gt; je potrebné&amp;nbsp;v&amp;nbsp;nastaveniach aplikácie &lt;EM&gt;LUKUL&lt;/EM&gt; v ponuke &lt;EM&gt;Používateľ&lt;/EM&gt; &lt;STRONG&gt;povoliť&lt;/STRONG&gt; funkciu &lt;EM&gt;Platobný terminál v&amp;nbsp;mobile&lt;/EM&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H5&gt;&lt;SPAN&gt;Obrázok č. 1: Povolenie platobného terminálu a&amp;nbsp;platba kartou s&amp;nbsp;&lt;EM&gt;GP tom&lt;/EM&gt; v aplikácii &lt;EM&gt;LUKUL&lt;/EM&gt;&lt;/SPAN&gt;&lt;/H5&gt;
+&lt;P&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERONMobileSolutions/OBERONMobileSolutions_LUKUL_POSterminal_Setting.png"&gt;&amp;nbsp; &lt;IMG border=0 alt="" src="images/OBERONMobileSolutions/OBERONMobileSolutions_LUKUL_GPtom_Card.png"&gt;&amp;nbsp;&amp;nbsp;&lt;IMG border=0 alt="" src="images/Devices/GPtom_TapCard.png"&gt;&lt;/P&gt;
+&lt;H2&gt;2. Platobný POS terminál&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Systém OBERON podporuje nasledujúce platobné POS&amp;nbsp;terminály: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;PAX&lt;/STRONG&gt; &lt;A href="1f32a90c-7b4a-4d69-9f38-a560178794b3" style="auto-update-caption: true"&gt;&lt;STRONG&gt;&lt;IMG border=0 alt="Odporúčané riešenia" src="images/OBERON/Basic/Odporucane-riesenie_ruka_ikona.png"&gt;&lt;/STRONG&gt;&lt;/A&gt;&lt;STRONG&gt;&amp;nbsp;-&lt;/STRONG&gt; dodáva&amp;nbsp;&lt;A href="https://www.globalpayments.sk/sk-sk" target=_blank&gt;Global Payments s.r.o.&lt;/A&gt;, 
+&lt;LI&gt;&lt;STRONG&gt;FiskalPRO&lt;/STRONG&gt; - dodáva&amp;nbsp;&lt;A href="http://www.a3soft.sk/" target=_blank&gt;A3&amp;nbsp;Soft s.r.o.&lt;/A&gt;, 
+&lt;LI&gt;&lt;STRONG&gt;AXASOFT&lt;/STRONG&gt; -&amp;nbsp;dodáva &lt;A href="http://www.axasoft.eu/" target=_blank&gt;AXASOFT, a.s.&lt;/A&gt; &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Pri hardvérovom platobnom POS termináli je nutné pridať tento terminál medzi &lt;A href="749ff4f1-eeb5-43f5-98d2-021399d8cec7"&gt;zariadenia&lt;/A&gt; v&amp;nbsp;systéme OBERON &lt;STRONG&gt;na počítači, v ktorom&amp;nbsp;je hosťovaná (spustená)&amp;nbsp;webová služba &lt;EM&gt;LUKUL&lt;/EM&gt;&lt;/STRONG&gt;. Mal by to byť zároveň počítač, na ktorom sa používa&amp;nbsp;&lt;EM&gt;Pokladnica OBERON&lt;/EM&gt;. Viac informácií o inštalácii platobného terminálu získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="4476c34e-8808-4fd9-a7c2-b6a271b1109e"&gt;Inštalácia platobného POS terminálu&lt;/A&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;Zariadenia &lt;EM&gt;FiskalPRO&lt;/EM&gt;&lt;/STRONG&gt;&amp;nbsp;od firmy &lt;A href="http://www.a3soft.sk/" target=_blank&gt;A3 Soft s.r.o.&lt;/A&gt;, ktoré predstavujú tak&amp;nbsp;&lt;A href="5ad1a704-08fd-4f9c-8302-8f8759cef50a"&gt;platobný POS terminál&lt;/A&gt;, ako aj&amp;nbsp;&lt;A href="b24ad235-cf7f-43e2-b3e8-ec0f7d92f6b6"&gt;fiškálne zariadenie&lt;/A&gt;&amp;nbsp;(2v1),&amp;nbsp;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;musia&amp;nbsp;byť tak v režime&amp;nbsp;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;fiškálneho zariadenia, ako aj v režime&lt;/SPAN&gt;&lt;/SPAN&gt; platobného&amp;nbsp;terminálu (musia mať zapnuté aj platobné funkcie)&lt;/SPAN&gt;&lt;/SPAN&gt;. Zároveň je potrebné nastaviť, &lt;SPAN style="COLOR: rgb(255,0,0)"&gt;aby sa&amp;nbsp;príkaz na platbu kartou&amp;nbsp;neposielal zo zariadenia, ale z&amp;nbsp;OBERON-u&lt;/SPAN&gt;.&amp;nbsp;V závislosti od typu zariadenia postupujte takto:&lt;/SPAN&gt; 
+&lt;UL&gt;
+&lt;LI&gt;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;&lt;STRONG&gt;zariadenia s&amp;nbsp;operačným systémom &lt;EM&gt;Android&lt;/EM&gt; (&lt;EM&gt;FiskalPRO&amp;nbsp;Android (eKasa)&lt;/EM&gt;)&lt;/STRONG&gt; - pri týchto zariadeniach&lt;/SPAN&gt;&amp;nbsp;je na nastavenie posielania príkazu na platbu kartou z OBERON-u a nie zo zariadenia&amp;nbsp;potrebné v&amp;nbsp;ponuke &lt;EM&gt;FiskalPRO&lt;/EM&gt; &lt;EM&gt;Manager, INTERPRETER&lt;/EM&gt; začiarknuť pole &lt;EM&gt;Zakázať platobný terminál v prípade platby kartou pri uzavretí dokladu cez interpreter (FTCLOSE)&lt;/EM&gt;; pri zapnutí režimu platobného terminálu postupujte podľa návodu dodávateľa;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt; 
+&lt;LI&gt;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;&lt;STRONG&gt;zariadenia bez operačného systému &lt;EM&gt;Android&lt;/EM&gt; (&lt;EM&gt;FiskalPRO&lt;/EM&gt; &lt;EM&gt;(eKasa)&lt;/EM&gt;)&lt;/STRONG&gt; - nastavenia vykonáva servisný technik. Na zapnutie režimu platobného terminálu (popri režime fiškálneho zariadenia)&amp;nbsp;sa nastavuje&amp;nbsp;lokácia 6212 na hodnotu 0 (6212=0), na nastavenie posielania príkazu na platbu kartou z OBERON-u a nie zo zariadenia sa nastavuje lokácia 6408 na inú hodnotu ako 2, napr. 99 (6408=99). Po nastavení lokácií reštartujte zariadenie.&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt; &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Následne je potrebné&amp;nbsp;zariadenia pridať medzi &lt;A href="749ff4f1-eeb5-43f5-98d2-021399d8cec7"&gt;zariadenia&lt;/A&gt; v&amp;nbsp;systéme OBERON &lt;SPAN style="COLOR: rgb(255,0,0)"&gt;aj ako platobný terminál (nestačí&amp;nbsp;ho pridať len ako fiškálne zariadenie)&lt;/SPAN&gt; -&amp;nbsp;postup inštalácie&amp;nbsp;je dostupný v&amp;nbsp;téme&amp;nbsp;&lt;A href="4476c34e-8808-4fd9-a7c2-b6a271b1109e" style="auto-update-caption: true"&gt;Inštalácia platobného POS terminálu&lt;/A&gt;. 
+&lt;LI&gt;Po výbere platby kartou v aplikácii &lt;EM&gt;LUKUL&lt;/EM&gt; program&amp;nbsp;&lt;A href="09f3dae9-2fb7-490f-97dc-37f60885b398"&gt;OBERON Automation Center&lt;/A&gt; urobí zápis informácie o transakcii do otvoreného účtu. Aplikácia &lt;EM&gt;LUKUL&lt;/EM&gt; si overí, či zápis transakcie prebehol úspešne. V kladnom prípade dá pokyn na zaevidovanie a&amp;nbsp;tlač dokladu, resp. jeho odoslanie na e-mailovú adresu zákazníka (hosťa). &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Na použitie&amp;nbsp;hardvérového platobného terminálu (&lt;EM&gt;&lt;STRONG&gt;PAX, FiskalPRO, AXASOFT&lt;/STRONG&gt;&lt;/EM&gt;) je potrebné&amp;nbsp;v nastaveniach aplikácie &lt;EM&gt;LUKUL&lt;/EM&gt; v ponuke &lt;EM&gt;Používateľ&lt;/EM&gt;&amp;nbsp;&lt;STRONG&gt;zakázať&lt;/STRONG&gt; funkciu &lt;EM&gt;Platobný terminál v mobile&lt;/EM&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Overenie platby platobnou kartou&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;V&amp;nbsp;systéme OBERON je pre prípad poruchy a následného prerušenia platby platobnou kartou dostupná funkcia &lt;STRONG&gt;automatického overenia platobnej transakcie&lt;/STRONG&gt;. Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="5ad1a704-08fd-4f9c-8302-8f8759cef50a" style="auto-update-caption: true"&gt;Platobné POS terminály&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Zariadenia &lt;EM&gt;FiskalPRO&lt;/EM&gt;&amp;nbsp;s operačným systémom &lt;EM&gt;Android&lt;/EM&gt; (&lt;A href="c111b0dd-b673-4f62-a306-dfbabdd8d697"&gt;FiskalPRO Android (eKasa)&lt;/A&gt;) je možné používať ako mobilný čašník s aplikáciou &lt;EM&gt;LUKUL&lt;/EM&gt; a&amp;nbsp;súčasne ako fiškálne zariadenie a&amp;nbsp;platobný terminál (3 v 1).&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="ef855a21-00e2-438b-9173-9f1f0e150911" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="942d48d5-b290-40f6-8ba3-45cf78f380f9">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="6b8c2d0f-6052-40f6-a772-9d5b3ecaec99" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="c1f1084d-0742-45cd-966a-7cf001b770c7">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="e1b46ef0-2061-4338-b9b1-91980a9c5103" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="2f634ed7-507e-4cf9-a6bf-6e68510e6f57">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="dcdaca17-4f4a-4b2d-bcfe-65e6614a9469" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="4fe96b33-a1cd-4c08-93bc-d553db021c87">
+      <Title m="2023-02-06T10:10:03.8003611Z">Aplikácia LUKUL - nastavenia eMenu</Title>
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="e7729c1b-ea02-4b1b-b4ba-927311ae8e37" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="20b1783a-a8ca-42a9-b2f3-80c658d62248">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="f893a04d-8d2b-48a4-8554-32bf4eee368a" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="5ad1a704-08fd-4f9c-8302-8f8759cef50a">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="5231d9c1-30ab-449f-8578-13b151e39515" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="4476c34e-8808-4fd9-a7c2-b6a271b1109e">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="a5cfe58f-c41b-41fd-b4ff-28dbaf60472d">
+      <Keyword m="2021-09-14T10:50:50.1771261Z">Platba kartou - LUKUL</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="3d4c6362-6fac-4a67-99fe-7ee09aedeea8">
+      <Keyword m="2021-09-14T10:50:57.2822133Z">LUKUL - platba kartou</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="5bd3f725-4223-4c57-a609-c1954d3e4db2">
+      <Keyword m="2021-09-14T10:51:04.0949065Z">Platobná karta - LUKUL</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="ddf319db-e42e-4b84-aca2-b82afd15724b">
+      <Keyword m="2021-09-14T10:52:37.6253481Z">Kreditná karta - LUKUL</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="2afa9648-3f08-4730-a1da-8c212b2cf440">
+      <Keyword m="2022-10-05T10:03:48.7126802Z">Lokácia - nastavenie FiskalPRO</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="7e691f32-a2af-4568-86ec-3beffa4f8fc3">
+      <Keyword m="2022-10-05T10:04:23.5255162Z">FiskalPRO - nastavenie lokácií</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="8ad0e2d9-500b-47ba-9906-95a3d9662e4d">
+      <Keyword m="2022-10-05T10:05:28.4854974Z">FiskalPRO - zapnuté platobné funkcie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="afeda21b-2810-4384-b7b5-e116f6e8eaf2">
+      <Keyword m="2023-01-25T13:44:01.5862344Z">GP tom - LUKUL</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="72ef23ea-1030-420e-af89-55c3717da615">
+      <Keyword m="2023-01-25T13:51:57.7284137Z">LUKUL - GP tom (PIN)</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="a3e0a149-71ea-45a8-8b99-6a30c8ad9bd9">
+      <Keyword m="2023-01-25T13:51:40.733488Z">GP tom PIN - LUKUL</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

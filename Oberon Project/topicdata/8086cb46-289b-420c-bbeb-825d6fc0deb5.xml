@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="8086cb46-289b-420c-bbeb-825d6fc0deb5" Status="Complete" CreatedOn="2014-09-05T06:53:36.5062497Z" ModifiedOn="2025-01-10T11:57:30.7438233Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="OBERONCenter_eShop_Offline_FormatFiles" BuildFlags="">
+  <Title m="2020-03-27T13:10:04.2990121Z">Off-line internetový obchod - formáty súborov </Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2025-01-10T11:57:30.7438233Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; &lt;STRONG&gt;obsahuje formáty súborov, ktoré sa používajú pri komunikácii systému OBERON s&lt;/STRONG&gt;&amp;nbsp;&lt;A href="22856409-6be1-40cd-8216-1b6caae2c548"&gt;off-line internetovým obchodom&lt;/A&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Komunikácia s &lt;A href="22856409-6be1-40cd-8216-1b6caae2c548"&gt;off-line internetovým obchodom&lt;/A&gt; obsiahnutá v programe &lt;A href="24e780fd-36d3-4a6e-bfc0-a8665c75e4ee"&gt;OBERON Center&lt;/A&gt; umožňuje export a import údajov pomocou súborov vo formáte &lt;STRONG&gt;XML alebo CSV&lt;/STRONG&gt; (tzv. off-line komunikácia). Informácie, ktoré sa vymieňajú medzi systémom OBERON a&amp;nbsp;off-line internetovým obchodom, používajú formáty súborov uvedené nižšie. 
+&lt;LI&gt;Pri &lt;STRONG&gt;importe objednávok pomocou súboru typu&amp;nbsp;XML&lt;/STRONG&gt; je možné použiť &lt;A href="50adcd4a-de72-439e-895f-021cd9537535"&gt;XSLT transformačné šablóny&lt;/A&gt;&amp;nbsp;na konverziu údajov z&amp;nbsp;iného formátu XML. Súbor so vzorovou štruktúrou objednávky vo formáte XML platný od 01.01.2025&amp;nbsp;je možné získať takto: 
+&lt;OL&gt;
+&lt;LI&gt;Nainštalujte aktuálnu verziu OBERON-u (inštalačný súbor je dostupný na&amp;nbsp;webovej stránke &lt;A href="http://www.exalogic.sk/"&gt;www.exalogic.sk&lt;/A&gt; v sekcii&amp;nbsp;&lt;EM&gt;Na stiahnutie&lt;/EM&gt;). 
+&lt;LI&gt;V programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt; v&amp;nbsp;evidencii&amp;nbsp;&lt;A href="48505e8d-5f28-4063-882b-ca07f33670ef" style="auto-update-caption: true"&gt;Objednávky prijaté&lt;/A&gt; vytvorte vzorový nový doklad, ktorý obsahuje základnú, zníženú a nulovú sadzbu DPH a prípadne aj cudziu menu. 
+&lt;LI&gt;Stlačte tlačidlo &lt;EM&gt;Možnosti&lt;/EM&gt; a vyberte položku &lt;EM&gt;&lt;STRONG&gt;XML komunikácia - export údajov&lt;/STRONG&gt;&lt;/EM&gt;. Otvorí sa sprievodca, v ktorom začiarknite pole &lt;EM&gt;&lt;STRONG&gt;Vytvoriť vzorový XML&lt;/STRONG&gt;&lt;/EM&gt;. Takto vyexportovaný súbor bude obsahovať všetky elementy a komentáre. &lt;/LI&gt;&lt;/OL&gt;&lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 1: Export vzorového súboru typu XML&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/eShops/Form_eShop_Offline_SampleFile.PNG"&gt;&lt;/P&gt;
+&lt;H2&gt;Hlavička XML súboru&lt;/H2&gt;
+&lt;P&gt;Každý súbor importu alebo exportu obsahuje hlavičku identifikujúcu súbor systému OBERON a nastavenia konkrétneho súboru.&lt;/P&gt;&lt;innovasys:widget layout="block" type="Drop Down Section"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Formát XML&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Súbor vo formáte XML musí obsahovať hlavičku, ktorá identifikuje súbor v systéme OBERON. Štruktúra hlavičky (názvy tagov musia byť zhodné). Vzorovú hlavičku obsahuje vzorový súbor XML, ktorý možno získať exportom z OBERON-u (pozri &lt;EM&gt;Základné informácie&lt;/EM&gt; vyššie).&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget layout="block" type="Drop Down Section"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Formát CSV&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Hlavička súboru vo formáte CSV sa skladá z dvoch riadkov, ktoré sa nachádzajú na začiatku súboru importu.&lt;BR&gt;&lt;BR&gt;&lt;SPAN style="FONT-WEIGHT: bold"&gt;Príklad:&lt;/SPAN&gt; 
+&lt;BLOCKQUOTE&gt;1050|text|11.05.2020|Demo reštaurácia API|Máj/2020 Beta2|506&lt;BR&gt;1|Import objednávok &lt;/BLOCKQUOTE&gt;
+&lt;DIV style="MARGIN-LEFT: 15px"&gt;Riadok č. 1: 
+&lt;OL class=impList style="PADDING-LEFT: 15px" type=1&gt;
+&lt;LI&gt;Identifikátor typu súboru v programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;, číselné vyjadrenie 
+&lt;LI&gt;Identifikátor typu súboru - pomenovanie, je určené len pre prehľadnosť pri otvorení súboru v textovom editore (napr. &lt;EM&gt;Poznámkovom bloku&lt;/EM&gt;) 
+&lt;LI&gt;Dátum vytvorenia súboru 
+&lt;LI&gt;Názov firmy, z údajov ktorej bol súbor vytvorený 
+&lt;LI&gt;Verzia OBERON-u, v ktorej bol súbor vytvorený 
+&lt;LI&gt;Číslo verzie databázy firmy &lt;/LI&gt;&lt;/OL&gt;&lt;BR&gt;Riadok č. 2 sa líši podľa druhu údajov, ktoré sa nachádzajú v súbore.&lt;BR&gt;&lt;/DIV&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Export skladových kariet&lt;/H2&gt;&lt;STRONG&gt;Formáty súborov:&lt;/STRONG&gt; &lt;innovasys:widget layout="block" type="Drop Down Section"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Obecný formát XML&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Príklad XML súboru:&lt;/P&gt;&lt;innovasys:widget layout="block" type="Colorized Example Code Section From File"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Type your example code here. It will be automatically colorized when you switch to Preview or build the help system.&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Filename"&gt;OBERONResources\eShop_Offline_ExportStockCard.xml&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="LanguageName"&gt;XML&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="inline" name="Region"&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget layout="block" type="Drop Down Section"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Obecný formát CSV&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Export skladových kariet vo formáte CSV.&lt;BR&gt;
+&lt;BLOCKQUOTE&gt;Nastavenie exportu - riadok č. 2&lt;BR&gt;1|Export skladových položiek|1|Všetky|0|&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;BR&gt;&lt;SPAN style="FONT-WEIGHT: bold"&gt;Popis hodnôt:&lt;/SPAN&gt;&lt;BR&gt;
+&lt;OL class=impList type=1&gt;
+&lt;LI&gt;Typ exportu podľa nastavení programu &lt;EM&gt;OBERON Center&lt;/EM&gt; 
+&lt;LI&gt;Textová hodnota typu exportu 
+&lt;LI&gt;Nastavenie exportu - napr. či všetky záznamy alebo len zmenené 
+&lt;LI&gt;Textová hodnota nastavenia exportu 
+&lt;LI&gt;0 - Obrázky sa neexportujú, 1 - obrázky sú exportované &lt;/LI&gt;&lt;/OL&gt;Riadok hlavičky objednávky:&lt;BR&gt;6826|82|0|00015|eShop karta 1|ks|-4|19|123456789012|0123|eShop karta 1|Kategoria 1|Podkategoria 1|&amp;lt;p&amp;gt;Popisny text 1 &amp;lt;/p&amp;gt;&amp;lt;br/&amp;gt;&amp;lt;p&amp;gt;Popisny text 2&amp;lt;/p&amp;gt;&amp;lt;ul&amp;gt;&amp;lt;li&amp;gt;vlastnost 1 &amp;lt;/li&amp;gt;&amp;lt;li&amp;gt;vlastnost 2 &amp;lt;/li&amp;gt;&amp;lt;/ul&amp;gt;|7 dní|Terchová xxx|1|0|0|www.exalogic.sk|3|10. 10. 2010|1-1-home.jpg;1-1-large.jpg||roky|2|||g||0||0|4,664|5,55|4,42|5,26|4,21|5,01|4,076|4,85| &lt;/BLOCKQUOTE&gt;&lt;SPAN style="FONT-WEIGHT: bold"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp; Popis hodnôt:&lt;/SPAN&gt;&lt;BR&gt;
+&lt;OL class=impList type=1&gt;
+&lt;LI&gt;ID - jedinečný identifikátor skladovej karty v evidencii&amp;nbsp;systému OBERON 
+&lt;LI&gt;ID Skladu - jedinečný identifikátor skladu, v ktorom sa skladová karta nachádza 
+&lt;LI&gt;ID Dodávateľa - jedinečný identifikátor dodávateľa 
+&lt;LI&gt;Číslo skladovej karty 
+&lt;LI&gt;Názov skladovej karty 
+&lt;LI&gt;Merná jednotka 
+&lt;LI&gt;Množstvo na skladovej karte 
+&lt;LI&gt;Sadzba DPH 
+&lt;LI&gt;Čiarový kód skladovej karty 
+&lt;LI&gt;Kód na &lt;EM&gt;Pokladnici OBERON&lt;/EM&gt; 
+&lt;LI&gt;Názov skladovej karty v internetovom obchode 
+&lt;LI&gt;Hlavná kategória 
+&lt;LI&gt;Popis položky pre internetový obchod 
+&lt;LI&gt;Doba dodania 
+&lt;LI&gt;Výrobca 
+&lt;LI&gt;Novinka 
+&lt;LI&gt;Výpredaj 
+&lt;LI&gt;Nedostupná v internetovom obchode 
+&lt;LI&gt;WWW produktu 
+&lt;LI&gt;Zľava pre internetový obchod 
+&lt;LI&gt;Platnosť zľavy do dátumu (dd.mm.rrrr) 
+&lt;LI&gt;Katalógové označenie 
+&lt;LI&gt;Záručná doba - text (napr. 2 dni) 
+&lt;LI&gt;Záručná doba - čas hodnota z textu (2) 
+&lt;LI&gt;Umiestnenie v sklade 
+&lt;LI&gt;Skladová skupina 
+&lt;LI&gt;Hmotnosť - jednotková 
+&lt;LI&gt;KP - klasifikácia produkcie 
+&lt;LI&gt;Príznak, či je možné uplatniť zľavu na položku 
+&lt;LI&gt;Ak sú na položku uplatnené 'Zľavy a akcie', tak je tu uvedený text zobrazujúci sa pri predaji, napr. ku 6-tim fľašiam dať 1 pohár zdarma 
+&lt;LI&gt;Jednotková nákupná cena bez DPH 
+&lt;LI&gt;Predajná cena 1 bez DPH 
+&lt;LI&gt;Predajná cena 1 s DPH 
+&lt;LI&gt;Predajná cena 2 bez DPH 
+&lt;LI&gt;Predajná cena 2 s DPH 
+&lt;LI&gt;Predajná cena 3 bez DPH 
+&lt;LI&gt;Predajná cena 3 s DPH 
+&lt;LI&gt;Predajná cena 4 bez DPH 
+&lt;LI&gt;Predajná cena 4 s DPH 
+&lt;LI&gt;Obrázok malý; Obrázok veľký - jednotlivé názvy obrázkov sú oddelené znakom bodkočiarka (;) Ascii znak 59. V súčasnosti program podporuje len dva obrázky &lt;/LI&gt;&lt;/OL&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Import objednávok&lt;/H2&gt;&lt;SPAN style="FONT-WEIGHT: bold"&gt;Formáty súborov:&lt;/SPAN&gt; &lt;innovasys:widget layout="block" type="Drop Down Section"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Obecný formát XML&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Formát XML je základný formát výmeny dát pre&amp;nbsp;systém OBERON. Vzhľadom na túto skutočnosť je import objednávky univerzálny pre všetky druhy importu, teda aj pre internetový obchod. Pri internetovom obchode však nie je nutné prenášať všetky dáta, ale len údaje potrebné&amp;nbsp;na správne vytvorenie objednávky v OBERON-e.&lt;/P&gt;
+&lt;P&gt;Súbor so vzorovou štruktúrou objednávky vo formáte XML platný od 01.01.2025&amp;nbsp;možno získať na základe exportu z knihy&amp;nbsp;&lt;A href="48505e8d-5f28-4063-882b-ca07f33670ef" style="auto-update-caption: true"&gt;Objednávky prijaté&lt;/A&gt; (pozri &lt;EM&gt;Základné informácie&lt;/EM&gt; vyššie).&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget layout="block" type="Drop Down Section"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Obecný formát CSV&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Formát súboru CSV je textový súbor so štandardnou kódovou stránkou pre stredoeurópske jazyky, typ &lt;EM&gt;Windows-1250&lt;/EM&gt;.&lt;BR&gt;Hodnoty v riadkoch súboru sú oddelené oddeľovacím znakom | (stredník), Ascii znak č. 124. Oddeľovače riadkov sú znaky CRLF - CR (Ascii 13) LF (Ascii 10).&lt;BR&gt;&lt;BR&gt;Prvý riadok je &lt;EM&gt;hlavička súboru&lt;/EM&gt;. Druhý riadok je nastavenie súboru, ktoré sa líši podľa typu súboru a dát.&lt;BR&gt;&lt;BR&gt;Nastavenia pre import objednávok:&lt;BR&gt;
+&lt;BLOCKQUOTE&gt;1|Import objednávok &lt;/BLOCKQUOTE&gt;Samotné objednávky spolu s položkami začínajú riadkom č. 3 súboru importu. Vždy v poradí hlavička objednávky a následne jej položky. Vzhľadom na zachovanie integrity dát&amp;nbsp;systému OBERON sa v&amp;nbsp;hlavičke sumy neuvádzajú, pretože sa automaticky dopočítavajú podľa importovaných položiek.&lt;BR&gt;&lt;BR&gt;&lt;SPAN style="FONT-WEIGHT: bold"&gt;Príklad hlavičky objednávky:&lt;/SPAN&gt;&lt;BR&gt;Hlavička objednávky je pevnej dĺžky, kde počet hodnôt hlavičky musí byť vždy 34. V prípade, že nie je hodnota známa, je napriek tomu nutné oddeľovač použiť. 
+&lt;BLOCKQUOTE&gt;Riadok hlavičky objednávky:&lt;BR&gt;2010OP0001|05.06.2010|05.06.2010|0|0|423.992|0|80.558|504.55|Poznamka|pred&amp;nbsp;položkami|prijemca|objednavatel|clenenie/podkategoria| Meno|Conex&amp;nbsp;s.r.o.|Panenská 125|12345|Skalica|9874561230|6541237890|SK6541237890|vozidlo firmy| Ford|SK 123KK|súčasti WC|07.5.2010|WCex|Banícka 15|34567|Košice|Colny urad Košice| nakladať opatrne|08.5.2010|Conex s.r.o.|Panenská 125|12345|Skalica|Colný úrad Skalica|Vykladat opatrne &lt;/BLOCKQUOTE&gt;&lt;SPAN style="FONT-WEIGHT: bold"&gt;Popis hodnôt:&lt;/SPAN&gt;&lt;BR&gt;
+&lt;DIV style="MARGIN-LEFT: 10px"&gt;
+&lt;OL class=impList type=1&gt;
+&lt;LI&gt;Číslo objednávky - toto číslo bude v evidencii importované do poľa 'Externý doklad' 
+&lt;LI&gt;Dátum evidencie (vytvorenia) 
+&lt;LI&gt;Dátum rezervácie 
+&lt;LI&gt;Základ dane pri nulovej sadzbe DPH 
+&lt;LI&gt;Základ dane pri zníženej sadzbe DPH 
+&lt;LI&gt;Základ dane pri základnej sadzbe DPH 
+&lt;LI&gt;Suma dane v zníženej sadzbe DPH 
+&lt;LI&gt;Suma dane vo základnej sadzbe DPH 
+&lt;LI&gt;Celková suma dokladu (s DPH), povinný údaj 
+&lt;LI&gt;Poznámka na objednávke 
+&lt;LI&gt;Text pred položkami 
+&lt;LI&gt;Príjemca objednávky 
+&lt;LI&gt;Meno objednávateľa 
+&lt;LI&gt;Členenie - toto členenie musí vyplývať&amp;nbsp;z nastavení členenia firmy 
+&lt;LI&gt;Používateľ, ktorý objednávku pridal (napr. importoval) 
+&lt;LI&gt;Obchodný partner - Názov firmy alebo meno 
+&lt;LI&gt;Obchodný partner - Ulica 
+&lt;LI&gt;Obchodný partner - PSČ 
+&lt;LI&gt;Obchodný partner - Obec 
+&lt;LI&gt;Obchodný partner - IČO 
+&lt;LI&gt;Obchodný partner - DIČ 
+&lt;LI&gt;Obchodný partner - IČDPH 
+&lt;LI&gt;Spôsob dopravy 
+&lt;LI&gt;Vozidlo - napr. pomenovanie, továrenská značka, vodič 
+&lt;LI&gt;EVČ vozidla podľa spôsobu dopravy 
+&lt;LI&gt;Popis tovaru&amp;nbsp;na dopravu 
+&lt;LI&gt;Dátum nakládky tovaru 
+&lt;LI&gt;Miesto nakládky riadok č. 1 - napr. pomenovanie miesta 
+&lt;LI&gt;Miesto nakládky riadok č. 2 - napr. ulica umiestnenia skladu 
+&lt;LI&gt;Miesto nakládky riadok č. 3 - napr. obec umiestnenia skladu 
+&lt;LI&gt;Miesto nakládky riadok č. 4 
+&lt;LI&gt;Miesto zaclenia 
+&lt;LI&gt;Poznámka pre nakládku 
+&lt;LI&gt;Dátum vykládky 
+&lt;LI&gt;Miesto vykládky riadok č. 1 - napr. pomenovanie miesta 
+&lt;LI&gt;Miesto vykládky riadok č. 2 - napr. ulica dodania tovaru 
+&lt;LI&gt;Miesto vykládky riadok č. 3 - napr. PSČ, obec dodania 
+&lt;LI&gt;Miesto vykládky riadok č. 4 - napr. GPS súradnice 
+&lt;LI&gt;Miesto vyclenia tovaru 
+&lt;LI&gt;Poznámka pre vykládku &lt;/LI&gt;&lt;/OL&gt;&lt;/DIV&gt;&lt;BR&gt;&lt;BR&gt;&lt;SPAN style="FONT-WEIGHT: bold"&gt;Príklad položky objednávky:&lt;/SPAN&gt;&lt;BR&gt;Položka objednávky je pevnej dĺžky, kde počet hodnôt položky musí byť vždy&amp;nbsp;8 Číselné hodnoty, ktoré nie sú známe, obsahujú hodnotu 0 (nula). 
+&lt;BLOCKQUOTE&gt;Položka bez zľavy:&lt;BR&gt;00015|eShop karta 1|ks|19|1.000|126.00|149.90|126.000|149.90|0|149.90&lt;BR&gt;&lt;BR&gt;Položka so zľavou:&lt;BR&gt;00015|eShop karta 1|ks|19|3.000|95.29|113.40|340.202|404.84|10|449.82 &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/BLOCKQUOTE&gt;
+&lt;OL class=impList type=1&gt;
+&lt;LI&gt;Číslo skladovej karty - v prípade, že sa nezhoduje so žiadnou existujúcou skladovou kartou, v evidencii je importovaná položka neskladová (neskladovú položku nie je možné preniesť, napr. do výdajky). 
+&lt;LI&gt;Názov položky - nemusí sa zhodovať s názvom skladovej karty,&amp;nbsp;v takom prípade je však&amp;nbsp;pri nájdení zhody podľa čísla prepísaný názvom na skladovej karte. 
+&lt;LI&gt;Merná jednotka 
+&lt;LI&gt;Sadzba DPH 
+&lt;LI&gt;Množstvo 
+&lt;LI&gt;Cena za MJ bez DPH 
+&lt;LI&gt;Cena za MJ s DPH 
+&lt;LI&gt;Suma celkom bez DPH 
+&lt;LI&gt;Suma celkom s DPH 
+&lt;LI&gt;Zľava v percentách 
+&lt;LI&gt;Celková cena za položku pred zľavou - pri zľave sa z celkovej sumy s DPH pred zľavou spätne dopočítavajú všetky ostatné sumy &lt;/LI&gt;&lt;/OL&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="45f3c2a9-9b8e-453e-9243-010fe08cadc1" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="22856409-6be1-40cd-8216-1b6caae2c548">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="a2717c7a-95e9-4d17-ae8e-c79d73aebc30" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="caa17c38-0574-4ac0-ad9e-8d7d689b169a">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="40a2da38-46bf-447f-bef7-16eb8849a1eb">
+      <Keyword m="2020-04-07T11:12:15.5256485Z">Off-line internetový obchod</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="3d3f245a-6ad1-47d3-9a21-49792bb3285e">
+      <Keyword m="2021-08-20T07:41:18.5383212Z">XML formát - off-line internetový obchod</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="93cfa95c-4476-4455-839b-83ee6b48b35b">
+      <Keyword m="2021-08-20T07:45:52.8086359Z">CSV formát - off-line internetový obchod</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="3a8d2d68-e30a-4386-ae01-e36516a14004">
+      <Keyword m="2021-08-20T07:46:07.4877826Z">Formáty XML a CSV - off-line internetový obchod</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="0ee248b3-a28a-48d2-8b06-e586e9f7217f" Status="Complete" CreatedOn="2014-10-09T14:02:28.1743018Z" ModifiedOn="2023-03-07T14:01:35.4752244Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="80120" Name="Form_CashRegister_Item_Moves" BuildFlags="">
+  <Title m="2014-12-11T09:37:36.1269531Z">Formulár Presun položiek medzi účtami</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-03-07T14:01:08.9691544Z">&lt;P&gt;Formulár&amp;nbsp;&lt;EM&gt;Presun položiek medzi účtami&lt;/EM&gt;&amp;nbsp;umožňuje vykonať presun položiek medzi dvoma otvorenými&amp;nbsp;účtami v&amp;nbsp;rámci&amp;nbsp;&lt;A href="e0ccff3e-b9e7-4572-bc3c-7f41a32280dd"&gt;práce s otvorenými účtami (stolmi)&lt;/A&gt; na&amp;nbsp;&lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnici OBERON&lt;/A&gt;. Formulár je dostupný&amp;nbsp;z&amp;nbsp;programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;,&amp;nbsp;ponuka &lt;EM&gt;Sklad&lt;/EM&gt;,&amp;nbsp;&lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnica OBERON&lt;/A&gt;&amp;nbsp;- vo vrchnom paneli zvoľte záložku&amp;nbsp;&lt;EM&gt;Základné&lt;/EM&gt; označenú symbolom&amp;nbsp;&lt;IMG style="WIDTH: 20px" border=0 alt="" src="images/CashRegister/CashRegister_Button_Basic.png"&gt; a v&amp;nbsp;nej tlačidlo &lt;EM&gt;Presun položiek (Ctrl+P)&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Popis formulára &lt;EM&gt;Presun položiek medzi účtami&lt;/EM&gt;&lt;/H2&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Aktívne okno účtu&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Aktívne okno účtu je lemované hrubým farebným rámom. Vyberá sa kliknutím do plochy okna účtu.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Zmena účtu&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Zobrazí sa zoznam otvorených účtov na výber protiúčtu, na ktorý chcete položky presunúť. Vybrať môžete zo zoznamu&amp;nbsp;otvorených pokladničných účtov alebo vytvoriť nový účet.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Premiestniť&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Presunie kurzorom&amp;nbsp;označenú položku na protiúčet.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Premiestniť všetky&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Presunie všetky položky na protiúčet.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="9ba7587a-dbbd-41e5-a35c-1730b55a9b82" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="e0ccff3e-b9e7-4572-bc3c-7f41a32280dd">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="f0339388-6c8d-4c3b-8fcf-a20465433c1e" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="c3c6b9fe-a88f-42c3-a10f-1e7f5f944ebf">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="90756d57-33ae-4031-a898-fe7c8084c43b">
+      <Keyword m="2023-03-07T14:01:15.9020913Z">Presun položiek medzi účtami - formulár</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

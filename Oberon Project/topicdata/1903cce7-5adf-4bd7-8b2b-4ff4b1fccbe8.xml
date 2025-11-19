@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="1903cce7-5adf-4bd7-8b2b-4ff4b1fccbe8" Status="Complete" CreatedOn="2014-09-09T11:34:57.5155988Z" ModifiedOn="2023-04-14T10:36:12.7580752Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="51011" Name="Invoices_Invoice_Vystavenie_Faktur" BuildFlags="">
+  <Title m="2021-09-02T07:16:29.3101535Z">Hromadné vystavenie faktúr - pohľadávok</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-04-14T10:36:12.7580752Z">&lt;P&gt;V tejto téme &lt;EM&gt;Pomocníka&lt;/EM&gt; sú uvedené informácie o funkcii systému OBERON, ktorá &lt;STRONG&gt;umožňuje&amp;nbsp;hromadne vytvoriť faktúry&lt;/STRONG&gt; v&amp;nbsp;&lt;A href="5c21adcc-87c8-44e7-981d-02902635693d"&gt;Knihe pohľadávok&lt;/A&gt;.&lt;/P&gt;&lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Pred hromadným vytvorením faktúr odporúčame vykonať&amp;nbsp;&lt;A href="493f5942-f267-4f98-a46d-8acc745b9b88"&gt;zálohovanie údajov&lt;/A&gt;, pretože v prípade omylu môže nastať problém s vrátením knihy pohľadávok späť do pôvodného stavu.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Funkcia &lt;EM&gt;Hromadné vystavenie faktúr&amp;nbsp;&lt;/EM&gt;je dostupná v &lt;A href="5c21adcc-87c8-44e7-981d-02902635693d"&gt;Knihe pohľadávok&lt;/A&gt;&amp;nbsp;po stlačení tlačidla &lt;EM&gt;Možnosti&lt;/EM&gt;. Výberom funkcie sa otvorí sprievodca hromadným vystavením faktúr - pohľadávok. 
+&lt;LI&gt;Pri hromadnom vystavení faktúr je najskôr potrebné vybrať &lt;A href="b7a48886-b367-4056-808a-59ba5f871f32"&gt;obchodných partnerov&lt;/A&gt;&amp;nbsp;(odberateľov), ktorým budú faktúry vystavené. Odberateľov sprievodca umožňuje vybrať:
+&lt;UL&gt;
+&lt;LI&gt;&lt;B&gt;z knihy pohľadávok&lt;/B&gt; - pri tejto možnosti budú faktúry hromadne vystavené odberateľom nachádzajúcim sa&amp;nbsp;v&amp;nbsp;dokladoch v &lt;A href="5c21adcc-87c8-44e7-981d-02902635693d"&gt;knihe pohľadávok&lt;/A&gt;. Na zúženie výberu je potrebné použiť&amp;nbsp;&lt;A href="124da68e-c3f0-43e4-9466-60b4916bfc41"&gt;filtre&lt;/A&gt; (faktúry je potrebné vybrať/vyfiltrovať skôr, ako spustíte tohto sprievodcu).
+&lt;LI&gt;&lt;B&gt;z evidencie obchodných partnerov&lt;/B&gt; - pri tejto možnosti budú faktúry hromadne vystavené vybraným odberateľom z evidencie &lt;A href="b7a48886-b367-4056-808a-59ba5f871f32"&gt;obchodných partnerov&lt;/A&gt;. Odberateľov je potrebné označiť hviezdičkou * (klávesom &lt;EM&gt;Insert&lt;/EM&gt;, prípadne pomocou možnosti &lt;I&gt;Označiť záznamy&lt;/I&gt;).&lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Následne vyberte &lt;B&gt;vzorovú&lt;/B&gt; faktúru, podľa ktorej sa faktúry hromadne vystavia. Hromadne vystavená faktúra bude&amp;nbsp;de facto&amp;nbsp;totožná so vzorovou faktúrou, pričom na nej bude iný odberateľ. 
+&lt;LI&gt;Sprievodca môže obsahovať aj ďalší krok. Ak bolo zvolené hromadné vystavenie faktúr z knihy pohľadávok, je možné preberať z faktúr nielen odberateľov, ale &lt;STRONG&gt;aj ďalšie náležitosti&lt;/STRONG&gt;, napr. položky, vrchný a spodný text,&amp;nbsp;&lt;A href="f68687b5-0939-447b-9f8e-37c883676f1e"&gt;členenie&lt;/A&gt; a pod. (vtedy sa tieto údaje nepreberajú zo vzorovej faktúry). &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Dátumy vystavenia, zdaniteľného plnenia a splatnosti sa nepreberajú zo vzorovej faktúry, ale sú nastavené podľa systémového dátumu počítača.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="332703a1-2be1-4d3a-989d-10bd2f177acb" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="5c21adcc-87c8-44e7-981d-02902635693d">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="26808b18-8995-4201-98ac-48d9df072403" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="b7a48886-b367-4056-808a-59ba5f871f32">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="e1a4a046-5ffa-40a4-a096-cd66e7a91ae9">
+      <Keyword m="2021-09-08T12:41:13.4358846Z">Vystavenie pohľadávky - hromadné</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="66c70c1e-73d6-43ff-ac87-2be829b53505">
+      <Keyword m="2021-09-08T12:41:24.0757794Z">Pohľadávky - hromadné vystavenie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="1140cac8-d280-4604-8e8e-e00382784329">
+      <Keyword m="2021-09-08T12:42:34.3967049Z">Faktúry - hromadné vystavenie</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="54bcf6c3-515f-4dcb-a3eb-0bf905629a16" Status="Complete" CreatedOn="2014-09-04T11:37:14.7432Z" ModifiedOn="2024-08-07T07:21:51.63229Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="ProgramControls_Filters_SelectRecords" BuildFlags="">
+  <Title m="2016-01-04T08:17:33.536962Z">Označovanie záznamov</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-08-07T07:21:51.63229Z">&lt;P&gt;Táto téma&amp;nbsp;&lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;informácie o označovaní záznamov&lt;/STRONG&gt; v&amp;nbsp;systéme OBERON.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Označovanie záznamov popri bežných&amp;nbsp;&lt;A href="1ea156c6-edd0-46e0-ab65-7f41af30e672"&gt;filtroch&lt;/A&gt; predstavuje ďalší silný nástroj na prácu so záznamami v&amp;nbsp;systéme OBERON.&amp;nbsp;Využitie má&amp;nbsp;ako doplnok pri použití viacerých a&amp;nbsp;zložitejších podmienok, ktoré niekedy nie je možné docieliť ani štyrmi filtrami. 
+&lt;LI&gt;Pomocou označovania záznamov je možné &lt;STRONG&gt;z&amp;nbsp;príslušného zoznamu jednoducho a rýchlo vybrať&amp;nbsp;záznamy vyhovujúce určitej podmienke&lt;/STRONG&gt;. 
+&lt;LI&gt;Za označený záznam sa považuje ten, ktorý v&amp;nbsp;prvom stĺpci knihy (zoznamu) &lt;STRONG&gt;obsahuje&amp;nbsp;symbol *&lt;/STRONG&gt; &lt;STRONG&gt;(hviezdička)&lt;/STRONG&gt;. 
+&lt;LI&gt;V prípade sieťovej prevádzky OBERON-u je označovanie&amp;nbsp;záznamov pre každého&amp;nbsp;používateľa &lt;STRONG&gt;nezávislé&lt;/STRONG&gt;, t. j. označené záznamy jedného&amp;nbsp;používateľa neovplyvnia označené záznamy druhého&amp;nbsp;používateľa. 
+&lt;LI&gt;Označené záznamy si program &lt;STRONG&gt;pamätá&lt;/STRONG&gt; aj po ukončení a opätovnom spustení programu. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Označenie&amp;nbsp;(zrušenie označenia) jedného záznamu&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Označiť jeden záznam je možné pomocou klávesu &lt;EM&gt;&lt;B&gt;Ins&lt;/B&gt;&lt;/EM&gt; (&lt;EM&gt;Insert&lt;/EM&gt;). Po stlačení uvedeného klávesu sa v&amp;nbsp;otvorenej knihe označí aktuálny záznam. V&amp;nbsp;prípade,&amp;nbsp;že&amp;nbsp;je aktuálny záznam už označený, toto označenie sa zruší. 
+&lt;LI&gt;Označiť záznam (prípadne zrušiť označenie) je možné aj myšou -&amp;nbsp;stlačením &lt;STRONG&gt;pravého tlačidla&lt;/STRONG&gt; a výberom možnosti &lt;EM&gt;Označovanie záznamov - Označiť/odznačiť aktuálny záznam&lt;/EM&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 1: Označovanie záznamov pomocou myši&lt;/H5&gt;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_DataGrid_RowSelection.png"&gt; 
+&lt;H2&gt;Hromadné označenie (zrušenie označenia) záznamov&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Po stlačení tlačidiel &lt;EM&gt;CTRL&amp;nbsp;+ Plus&lt;/EM&gt;&amp;nbsp;je možné &lt;STRONG&gt;hromadne označiť záznamy&lt;/STRONG&gt;, ktoré sa&amp;nbsp;aktuálne nachádzajú v&amp;nbsp;zozname (ak sa v&amp;nbsp;zozname nachádzajú záznamy vyhovujúce určitému filtru, budú označené len tieto záznamy). 
+&lt;LI&gt;Po stlačení tlačidiel &lt;EM&gt;CTRL&amp;nbsp;+ Mínus&lt;/EM&gt;&amp;nbsp;je možné &lt;STRONG&gt;hromadne zrušiť označenie záznamov&lt;/STRONG&gt; aktuálne sa nachádzajúcich v&amp;nbsp;zozname (ak sa v&amp;nbsp;zozname nachádzajú záznamy vyhovujúce určitému filtru, bude zrušené označenie len týchto záznamov). &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Invertovať označenie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Pomocou klávesu &lt;STRONG&gt;&lt;EM&gt;/&lt;/EM&gt; (delenie)&lt;/STRONG&gt; je možné označené záznamy invertovať. Invertovanie (obrátený výber, negácia) znamená, že pri záznamoch, ktoré boli označené, bude označenie zrušené a tie, ktoré neboli označené, sa označia. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Označené záznamy je možné prehľadne zobraziť pomocou&amp;nbsp;&lt;A href="1ea156c6-edd0-46e0-ab65-7f41af30e672"&gt;filtra&lt;/A&gt;.&amp;nbsp;Filter je potrebné nastaviť s podmienkou &lt;EM&gt;Vybrať záznamy - Len označené&lt;/EM&gt;.&amp;nbsp;Následne sa zobrazia len záznamy označené hviezdičkou.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="a215be9b-1b6a-4f0d-8be1-531a79b5b9f2" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="1ea156c6-edd0-46e0-ab65-7f41af30e672">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="5a37cb02-2799-415e-b0b4-10c94cf7cbf9" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="4a930c98-fab8-4cda-849e-734179654358">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="b5bcc1fb-4553-461c-ab69-7d2f7dc45fe1">
+      <Keyword m="2021-10-01T11:18:15.5444433Z">Zrušenie označenia záznamov</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="83c9ab86-ef4d-4050-b53c-4689f1403b96">
+      <Keyword m="2022-12-14T14:00:05.1864003Z">Hviezdička (symbol) - označovanie záznamov</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="4d782a0b-a737-4327-a218-f17836d739f9">
+      <Keyword m="2022-12-14T13:59:54.8822731Z">Symbol hviezdičky - označovanie záznamov</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="cc68a59b-2e53-41e5-96be-299e6ce30fa5">
+      <Keyword m="2022-12-14T13:59:35.4662223Z">Hromadné označovanie záznamov</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="409ca682-fffa-461d-8335-0605ef32570c">
+      <Keyword m="2021-03-25T13:27:18.9439785Z">Invertovať označenie záznamov</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="7efe487d-6006-4648-ab67-49cf1be6298b">
+      <Keyword m="2021-10-01T11:15:38.0927006Z">Insert - označovanie záznamov</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="15a9b8d3-6fe2-474d-afc1-a38d454caf9a">
+      <Keyword m="2021-10-01T11:16:24.2966788Z">Inverzia označenia záznamov</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

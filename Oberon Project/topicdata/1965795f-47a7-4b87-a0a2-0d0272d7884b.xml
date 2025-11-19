@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="1965795f-47a7-4b87-a0a2-0d0272d7884b" Status="Complete" CreatedOn="2016-10-31T11:50:17.0672816Z" ModifiedOn="2024-07-17T08:01:50.6651854Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Wages_Practical_FoodVouchers" BuildFlags="">
+  <Title m="2016-10-31T11:51:43.3611675Z">Stravné lístky</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-07-17T08:01:50.6651854Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; je venovaná &lt;STRONG&gt;problematike stravných lístkov&lt;/STRONG&gt; v&amp;nbsp;systéme OBERON.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Podľa &lt;EM&gt;Zákonníka práce&lt;/EM&gt; (zákon č. 311/2001 Z. z.) je zamestnávateľ povinný zabezpečovať svojim zamestnancom stravovanie (predovšetkým formou jedného teplého hlavného jedla vrátane vhodného nápoja), a to buď vo vlastnom stravovacom zariadení, alebo v stravovacom zariadení iného zamestnávateľa, alebo prostredníctvom právnickej osoby alebo fyzickej osoby, ktorá má oprávnenie sprostredkovať stravovacie služby, t. j. &lt;STRONG&gt;na báze stravných lístkov (poukážok, gastrolístkov)&lt;/STRONG&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;Minimálna hodnota stravného lístka je 75 % stravného pre pracovné cesty od 5 do 12 hodín&lt;/STRONG&gt; (aktuálne sadzby stravného sú dostupné v&amp;nbsp;téme&amp;nbsp;&lt;A href="beb97ace-1408-443d-87c0-bce72b007ea7" style="auto-update-caption: true"&gt;Zákonné sadzby a ďalšie odkazy&lt;/A&gt;). Od 1. 6. 2023 suma stravného pre pracovné cesty od 5 do 12 hodín predstavuje 7,30 eur, minimálna hodnota stravného lístka je preto 5,48 eura (75 % zo sumy 7,30 eur). &lt;EM&gt;Zákonník práce&lt;/EM&gt; určuje len minimálnu hodnotu stravného lístka, zamestnávateľ sa môže rozhodnúť poskytovať ju aj vo vyššej hodnote. 
+&lt;LI&gt;&lt;STRONG&gt;Celková hodnota stravného&lt;/STRONG&gt; &lt;STRONG&gt;lístka&lt;/STRONG&gt; pozostáva z&amp;nbsp;dvoch častí: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;zo sumy, ktorou zamestnávateľ prispieva zamestnancovi na stravu&lt;/STRONG&gt; - jej výška musí&amp;nbsp;zodpovedať &lt;STRONG&gt;minimálne 55 % ceny jedla a&amp;nbsp;maximálne 55 % stravného poskytovaného pri pracovnej ceste v&amp;nbsp;trvaní 5 až 12 hodín&lt;/STRONG&gt; (pri sume stravného 7,30 eura maximálny príspevok na jedno jedlo má hodnotu 4,02 eur (55 % zo sumy 7,30 eur)). Okrem uvedenej sumy môže zamestnávateľ poskytnúť príspevok na stravovanie zamestnancov aj&amp;nbsp;&lt;STRONG&gt;zo sociálneho fondu&lt;/STRONG&gt;, pričom tento príspevok nie je limitovaný (v&amp;nbsp;OBERON-e mu zodpovedá mzdová predkontácia&amp;nbsp;&lt;EM&gt;&lt;STRONG&gt;810 - Sociálny fond (stravné príspevok)&lt;/STRONG&gt;&lt;/EM&gt;). 
+&lt;LI&gt;&lt;STRONG&gt;zo sumy, ktorú si zamestnanec hradí sám&lt;/STRONG&gt; -&amp;nbsp;uhrádza sa formou zrážky zo mzdy. V&amp;nbsp;OBERON-e jej zodpovedá mzdová predkontácia &lt;EM&gt;&lt;STRONG&gt;705 - Stravné lístky&lt;/STRONG&gt;&lt;/EM&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Podľa platnej legislatívy sa tí zamestnanci, ktorým zamestnávateľ zabezpečuje stravovanie formou stravných lístkov, majú &lt;STRONG&gt;právo výberu medzi stravnými lístkami a finančným príspevkom na stravovanie&lt;/STRONG&gt;.&amp;nbsp;Uvedený finančný príspevok&amp;nbsp;nepodlieha odvodovému zaťaženiu, ani sa nezdaňuje. V&amp;nbsp;OBERON-e mu zodpovedá mzdová predkontácia&amp;nbsp;&lt;EM&gt;&lt;STRONG&gt;221 - Stravné (finančný príspevok)&lt;/STRONG&gt;&lt;/EM&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Postup zadania zrážky za stravné lístky&lt;/H2&gt;
+&lt;P&gt;Nasledujúci postup zohľadňuje prípad, keď zamestnávateľ poskytuje stravné lístky vo vyššej&amp;nbsp;hodnote&amp;nbsp;6 €, pričom príspevok zamestnávateľa je&amp;nbsp;3,3 € a príspevok zamestnanca je&amp;nbsp;2,7 € (príspevok zo sociálneho fondu sa neposkytuje).&lt;/P&gt;
+&lt;OL&gt;
+&lt;LI&gt;V programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt; zvoľte ponuku &lt;EM&gt;Mzdy,&lt;/EM&gt; &lt;A href="3fced304-5201-4497-bb58-104c1fd77990"&gt;Pracovné pomery pracovníkov&lt;/A&gt;. 
+&lt;LI&gt;Vyberte (označte kurzorom) pracovný pomer&amp;nbsp;pracovníka, ktorému chcete vykonať zrážku za stravné lístky a&amp;nbsp;stlačte tlačidlo &lt;EM&gt;Oprava&lt;/EM&gt;. 
+&lt;LI&gt;Otvorí sa&amp;nbsp;&lt;A href="95a3b7e2-6135-4860-a655-5724b186b94c"&gt;formulár Pracovný pomer pracovníka&lt;/A&gt;, v záložke &lt;EM&gt;Zrážky&lt;/EM&gt; stlačte tlačidlo &lt;EM&gt;Nový&lt;/EM&gt;. 
+&lt;LI&gt;Stlačte tlačidlo výberu&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_ListButton.png"&gt;&amp;nbsp;a vyberte predkontáciu &lt;EM&gt;&lt;STRONG&gt;705 - Stravné lístky&lt;/STRONG&gt;&lt;/EM&gt;. 
+&lt;LI&gt;Zadajte mesiac, od ktorého sa bude zrážka zo mzdy sťahovať. 
+&lt;LI&gt;Vyberte tarifu: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;čiastka&lt;/STRONG&gt; - zadajte&amp;nbsp;čiastku, ktorá bude pevne daná, napr.&amp;nbsp;54 €; pri tvorbe mzdy vo&amp;nbsp;&lt;A href="2cd2daa2-afd8-4a7b-9ca3-da8f3c35fec4"&gt;formulári Úprava mzdy&lt;/A&gt;, záložka &lt;EM&gt;Zložky mzdy&lt;/EM&gt; bude potrebné sumu upraviť v&amp;nbsp;závislosti od počtu&amp;nbsp;dní, v ktoré má zamestnanec v&amp;nbsp;danom mesiaci nárok na stravné, 
+&lt;LI&gt;&lt;STRONG&gt;čiastka na deň&lt;/STRONG&gt; - zadajte časť hodnoty stravného lístka, ktorú uhrádza zamestnanec (v našom prípade 2,7 €);&amp;nbsp;celková hodnota sa vypočíta ako&amp;nbsp;počet odpracovaných dní*zadaná hodnota (celková hodnota sa bude automaticky meniť v&amp;nbsp;závislosti&amp;nbsp;od zadaných neprítomností v práci), 
+&lt;LI&gt;&lt;STRONG&gt;čiastka na počet&lt;/STRONG&gt; - zadajte časť hodnoty stravného lístka, ktorú uhrádza zamestnanec (v našom prípade 2,7 €);&amp;nbsp;pri tvorbe mzdy vo&amp;nbsp;&lt;A href="2cd2daa2-afd8-4a7b-9ca3-da8f3c35fec4"&gt;formulári Úprava mzdy&lt;/A&gt;, záložka &lt;EM&gt;Zložky mzdy&lt;/EM&gt; bude potrebné zadať počet dní, v ktoré má zamestnanec nárok na stravné; celková hodnota sa vypočíta ako&amp;nbsp;počet odpracovaných dní*zadaná hodnota (celková hodnota sa nebude automaticky meniť v&amp;nbsp;závislosti&amp;nbsp;od zadaných neprítomností v práci). &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Spôsob úhrady zvoľte &lt;EM&gt;&lt;STRONG&gt;V prospech firmy&lt;/STRONG&gt;&lt;/EM&gt;. 
+&lt;LI&gt;Vykonané nastavenia uložte stlačením tlačidla &lt;EM&gt;&lt;STRONG&gt;OK&lt;/STRONG&gt;&lt;/EM&gt;. Zrážka sa bude zobrazovať pri&amp;nbsp;tvorbe miezd vo&amp;nbsp;&lt;A href="2cd2daa2-afd8-4a7b-9ca3-da8f3c35fec4"&gt;formulári Úprava mzdy&lt;/A&gt;, záložka &lt;EM&gt;Zložky mzdy&lt;/EM&gt;. V prípade, že pracovníkovi už bola&amp;nbsp;vygenerovaná mzda, je potrebné mzdu opätovne vygenerovať (&lt;EM&gt;Tvorba miezd&lt;/EM&gt;, tlačidlo &lt;EM&gt;Možnosti&lt;/EM&gt;). &lt;/LI&gt;&lt;/OL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt; 
+&lt;P&gt;Zrážku za stravné lístky je možné vo&amp;nbsp;&lt;A href="2cd2daa2-afd8-4a7b-9ca3-da8f3c35fec4"&gt;formulári Úprava mzdy&lt;/A&gt;, záložka &lt;EM&gt;Zložky mzdy&lt;/EM&gt; zadať aj pomocou čísla predkontácie, napr.: 2,7*20*705, teda &lt;STRONG&gt;SUMA*POČET DNÍ*ČÍSLO PREDKONTÁCIE&lt;/STRONG&gt;.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="04cc869a-0942-4501-8e41-16164055e9b8" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="6923b0c5-166b-4e3b-a53b-71f62b53b2fc">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="44cc9b22-fe83-4fbd-b385-f47de950a9bc" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1e1da5f2-5abd-48a4-bf82-4f31c614ac45">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="f5c5db22-7e84-4376-83b3-e583552f52bf" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="2cd2daa2-afd8-4a7b-9ca3-da8f3c35fec4">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="b7823c3a-ff31-4093-bc3b-346585a741f5" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="fc8d8173-0da0-459a-b570-587597ce3315">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="78c9fd2b-6754-420f-97d6-3dfea5edcc15" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="beb97ace-1408-443d-87c0-bce72b007ea7">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="810daac5-0e91-4f32-8629-2bfb42bffe30" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="ee4f5a89-c541-421f-bfd1-b284baf6dd8d">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="6c240bed-0b98-488e-a01e-35065caffdb3">
+      <Keyword m="2016-10-31T12:01:02.9579152Z">Gastrolístky</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="900997b5-ad30-4d50-b71c-f889db50413e">
+      <Keyword m="2023-07-26T13:04:36.8355627Z">Stravovacie poukážky</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="3fcf5cf3-bcaf-4379-9dc7-3287dd45cd9d">
+      <Keyword m="2023-07-26T13:04:55.6634804Z">Zrážka - stravné lístky</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="6f64fb35-26ff-4b52-a346-456d5130e269">
+      <Keyword m="2023-07-26T13:05:05.0009027Z">705 - Stravné lístky</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="1ff092a7-469e-4496-b3cc-c571641df18a">
+      <Keyword m="2023-07-26T13:05:20.168844Z">221 - Stravné (finančný príspevok)</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="508c7752-89ba-4792-8350-0c41a58ab2d7">
+      <Keyword m="2023-07-26T13:05:34.4691439Z">810 - Sociálny fond (stravné príspevok)</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="eaffff1a-43ad-4c90-a988-ebc3a51c1109" Status="Complete" CreatedOn="2022-06-06T11:30:27.7777187Z" ModifiedOn="2024-09-23T11:57:01.0675327Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="93280" Name="Form_AutomaticTask_NotificationSettings" BuildFlags="">
+  <Title m="2021-03-12T10:30:42.044689Z">Formulár Nastavenie notifikácie</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-09-23T11:57:01.0675327Z">&lt;P&gt;Formulár&amp;nbsp;&lt;EM&gt;Nastavenie notifikácie&lt;/EM&gt; &lt;STRONG&gt;umožňuje nadefinovať jednotlivé typy&amp;nbsp;&lt;/STRONG&gt;&lt;A href="e301d0fb-f429-4bb5-a4df-7257efbe967b"&gt;automatických notifikácií&lt;/A&gt; &lt;STRONG&gt;vo forme e-mailových a SMS správ&lt;/STRONG&gt; generovaných pomocou&amp;nbsp;automatickej úlohy&amp;nbsp;&lt;A href="47863971-c920-44ee-b49b-99a58f439915"&gt;Generátor notifikácií&lt;/A&gt;. Formulár &lt;EM&gt;Nastavenie notifikácie&lt;/EM&gt; je dostupný z programu &lt;EM&gt;OBERON - Agenda firmy:&lt;/EM&gt;&lt;/P&gt;
+&lt;OL&gt;
+&lt;LI&gt;v&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="5a6e5663-262e-4ff0-9741-1569385d11e4"&gt;oddiel Firma, Všeobecné&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt; záložka &lt;EM&gt;Ostatné&lt;/EM&gt; stlačte tlačidlo &lt;EM&gt;Nastaviť&lt;/EM&gt;. Otvorí sa formulár &lt;EM&gt;Nastavenia notifikácií&lt;/EM&gt;, v ktorom stlačte tlačidlo&amp;nbsp;&lt;EM&gt;Nový&lt;/EM&gt; alebo &lt;EM&gt;Oprava&lt;/EM&gt;, 
+&lt;LI&gt;v&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="9ce25bbd-35d1-4096-acd5-70007f5af5a6"&gt;Automatické úlohy&lt;/A&gt;&amp;nbsp;stlačte tlačidlo&amp;nbsp;&lt;EM&gt;Nový&lt;/EM&gt; alebo&amp;nbsp;&lt;EM&gt;Oprava -&lt;/EM&gt;&amp;nbsp;otvorí sa formulár &lt;EM&gt;Automatická úloha&lt;/EM&gt;, v&amp;nbsp;ktorom vyberte daný typ automatickej úlohy a&amp;nbsp;stlačte tlačidlo &lt;EM&gt;Nastaviť&lt;/EM&gt;. Otvorí sa formulár &lt;EM&gt;Nastavenia notifikácií&lt;/EM&gt;, v&amp;nbsp;ktorom stlačte tlačidlo&amp;nbsp;&lt;EM&gt;Nový&lt;/EM&gt; alebo &lt;EM&gt;Oprava&lt;/EM&gt;. &lt;/LI&gt;&lt;/OL&gt;
+&lt;H2&gt;Popis formulára &lt;EM&gt;Nastavenie&amp;nbsp;notifikácie&lt;/EM&gt;&lt;/H2&gt;&lt;innovasys:widget type="Tab Strip" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Základné&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;H3&gt;Typ&lt;/H3&gt;
+&lt;P&gt;Zadáva sa typ notifikácie:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;&lt;STRONG&gt;Nezadané&lt;/STRONG&gt;&lt;/STRONG&gt; 
+&lt;LI&gt;&lt;STRONG&gt;CRM - úlohy a udalosti&lt;/STRONG&gt; - notifikácia úloh a udalostí z modulu&amp;nbsp;&lt;A href="f1a6963d-36aa-4134-92a5-fa47a4345e74"&gt;CRM a registratúra&lt;/A&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;Hotel&lt;/STRONG&gt; &lt;STRONG&gt;-&amp;nbsp;on-line rezervácia ubytovania&amp;nbsp;(pre hosťa)&lt;/STRONG&gt; - notifikácia o&amp;nbsp;novej on-line rezervácii (alebo dopyte) ubytovania. Týka sa rezervácií pomocou&amp;nbsp;&lt;A href="5eaef397-0196-4360-a339-fcb1a11c32e3"&gt;webového rezervačného formulára&lt;/A&gt; v&amp;nbsp;prepojení&amp;nbsp;s&amp;nbsp;webovými službami OBERON, prípadne aj rezervácií zaevidovaných automaticky pomocou&amp;nbsp;&lt;A href="25b9b2fe-ad9e-49dd-9a59-e57d2520e87b"&gt;manažéra rezervačných kanálov&lt;/A&gt; (napr.&amp;nbsp;&lt;A href="2564d1eb-a7ed-46a7-a957-6087afe26471"&gt;Beds24&lt;/A&gt;,&amp;nbsp;&lt;A href="3e65fff1-f915-40da-8283-7ddd54167c2b"&gt;D-EDGE&lt;/A&gt;). 
+&lt;LI&gt;&lt;STRONG&gt;Hotel - on-line rezervácia ubytovania (pre hotel)&lt;/STRONG&gt; - pri prijatí rezervácie ubytovania z&amp;nbsp;&lt;A href="5eaef397-0196-4360-a339-fcb1a11c32e3"&gt;webového rezervačného formulára&lt;/A&gt; sa doručí e-mailová alebo SMS správa s detailmi rezervácie na zadanú adresu alebo telefónne číslo ubytovacieho zariadenia. Zároveň sa ďalšia notifikácia&amp;nbsp;doručí&amp;nbsp;aj hosťovi, ktorý&amp;nbsp;rezerváciu vytvoril. 
+&lt;LI&gt;&lt;STRONG&gt;Hotel - notifikácia pred príchodom (pre hosťa)&lt;/STRONG&gt; - pred príchodom hosťa systém OBERON zasiela e-mailovú alebo SMS správu s&amp;nbsp;informáciami napr. o polohe hotela, parkovaní a pod. V notifikačnej správe je možné zaslať aj odkaz&amp;nbsp;na osobitný formulár na webovej stránke ubytovacieho zariadenia na zadanie identifikačných údajov hosťa, prípadne aj ďalších osôb&amp;nbsp;ešte pred príchodom do ubytovacieho zariadenia v rámci tzv. pre check-inu (viac informácií je možné získať v téme&amp;nbsp;&lt;A href="0773204a-fdc5-42c2-89b0-73d53dd5a2e4"&gt;Pre check-in&lt;/A&gt;). 
+&lt;LI&gt;&lt;STRONG&gt;Hotel - notifikácia po odchode hosťa&lt;/STRONG&gt; - po odchode hosťa systém OBERON zasiela e-mailovú alebo SMS správu, napr. poďakovanie za pobyt, žiadosť o spätnú väzbu. 
+&lt;LI&gt;&lt;STRONG&gt;Pokladnica OBERON - denná uzávierka&lt;/STRONG&gt; - po vykonaní dennej uzávierky v&amp;nbsp;module&amp;nbsp;&lt;A href="aec074f4-3e1c-4a1e-8a80-06fcecf51156"&gt;Pokladnica OBERON&lt;/A&gt; program odošle e-mailovú alebo SMS správu na zadanú adresu alebo telefónne číslo. 
+&lt;LI&gt;&lt;STRONG&gt;Dochádzka - meškajúci pracovníci&lt;/STRONG&gt; -&amp;nbsp;v prípade, že pracovník nepríde do práce do stanoveného času,&amp;nbsp;doručí&amp;nbsp;sa&amp;nbsp;príjemcovi e-mailová alebo SMS správa na zadanú adresu alebo telefónne číslo. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H3&gt;Názov&lt;/H3&gt;
+&lt;P&gt;Zadáva sa pomenovanie notifikácie.&lt;/P&gt;
+&lt;H3&gt;Príjemcovia&lt;/H3&gt;
+&lt;P&gt;Zadávajú sa&amp;nbsp;používatelia, ktorým sa odošle e-mailová alebo&amp;nbsp;SMS správa. Používatelia musia mať zadané platnú e-mailovú adresu, resp.&amp;nbsp;telefónne číslo. Kontaktné údaje sa zadávajú vo&amp;nbsp;&lt;A href="12e7a96f-bc40-4359-bc7a-213d74a785d4"&gt;formulári Používateľ&lt;/A&gt;, záložka &lt;EM&gt;Podrobnosti&lt;/EM&gt;.&lt;/P&gt;
+&lt;H3&gt;Prevádzka&lt;/H3&gt;
+&lt;P&gt;Ak účtovná jednotka používa&amp;nbsp;&lt;A href="8df798f2-4fbf-4279-ad8c-493bdbe7f2e4"&gt;prevádzky&lt;/A&gt;, niektoré notifikácie sa môžu používať len pre danú prevádzku. Zároveň je možné pre každú prevádzku nastaviť notifikáciu samostatne, a to najmä obsah správy (predlohu).&lt;/P&gt;
+&lt;H3&gt;Zakázať&lt;/H3&gt;
+&lt;P&gt;Zakázať notifikáciu znamená, že&amp;nbsp;ju nebude možné používať, v systéme však ostane definovaná.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Predlohy&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;H3&gt;Predloha pre OBERON&lt;/H3&gt;
+&lt;P&gt;Začiarknutím možnosti &lt;EM&gt;Notifikovať v&amp;nbsp;OBERON-e &lt;/EM&gt;sa budú notifikačné správy zobrazovať v&amp;nbsp;&lt;A href="e301d0fb-f429-4bb5-a4df-7257efbe967b"&gt;paneli notifikácií&lt;/A&gt;. Stlačením tlačidla &lt;EM&gt;Upraviť predlohu (OBERON)&lt;/EM&gt; je&amp;nbsp;možné&amp;nbsp;upraviť predlohu pre panel notifikácií. Viac informácií v&amp;nbsp;téme&amp;nbsp;&lt;A href="ebccc473-482c-4940-99b3-b4f5d534ccf7"&gt;Editor predlohy&lt;/A&gt;.&lt;/P&gt;
+&lt;H3&gt;Predloha pre e-mail&lt;/H3&gt;
+&lt;P&gt;Začiarknutím možnosti &lt;EM&gt;Notifikovať odoslaním elektronickej pošty&lt;/EM&gt; sa budú odosielať e-mailové správy. Stlačením tlačidla &lt;EM&gt;Upraviť predlohu (e-mail)&lt;/EM&gt; je&amp;nbsp;možné&amp;nbsp;upraviť predlohu pre e-mailové správy. Viac informácií v&amp;nbsp;téme&amp;nbsp;&lt;A href="ebccc473-482c-4940-99b3-b4f5d534ccf7"&gt;Editor predlohy&lt;/A&gt;.&lt;/P&gt;
+&lt;H3&gt;Predloha pre SMS&lt;/H3&gt;
+&lt;P&gt;Začiarknutím možnosti &lt;EM&gt;Notifikovať odoslaním SMS správy&lt;/EM&gt; sa budú odosielať SMS správy. Stlačením tlačidla &lt;EM&gt;Upraviť predlohu (SMS)&lt;/EM&gt; je&amp;nbsp;možné upraviť predlohu pre SMS správy. Viac informácií v&amp;nbsp;téme&amp;nbsp;&lt;A href="ebccc473-482c-4940-99b3-b4f5d534ccf7"&gt;Editor predlohy&lt;/A&gt;.&lt;/P&gt;
+&lt;H3&gt;Nastaviť predvolené predlohy&lt;/H3&gt;
+&lt;P&gt;Stlačením tlačidla &lt;EM&gt;Nastaviť predvolené predlohy&lt;/EM&gt; sa aktuálne zadané notifikácie zmažú a prepíšu predvolenými predlohami.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Ostatné&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Záložka &lt;EM&gt;Ostatné&lt;/EM&gt; sa zobrazuje len pri vybraných notifikáciách (napr. pri meškajúcich pracovníkoch).&lt;/P&gt;
+&lt;P&gt;Tu je možné nastaviť&amp;nbsp;čas, po uplynutí ktorého bude príjemca upozornený na meškajúcich pracovníkov. Čas v minútach je možné nastaviť pre štandardné pracovné pomery, pre pomery s pružným pracovným časom, prípadne pre pomery, pri ktorých sa len eviduje pracovný čas.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="62efcae4-37a6-48ee-9b15-828af995f1f3" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="fd64c37a-486b-4cdf-a370-297aaa8a8f73">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="8fd9e30e-40ea-4cb7-a3a8-023229d767cd" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="9ce25bbd-35d1-4096-acd5-70007f5af5a6">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="8a1e8faa-f67b-4737-a754-57ce4d97a6cc" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="e301d0fb-f429-4bb5-a4df-7257efbe967b">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="54a6c317-7a95-40f1-8890-2c94f187df07" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="47863971-c920-44ee-b49b-99a58f439915">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="6c4dc76f-501e-418e-acd1-b26ad879ae71" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="ebccc473-482c-4940-99b3-b4f5d534ccf7">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="70ed6a40-859f-4674-bf8f-6e59c2130b57">
+      <Keyword m="2021-06-28T13:14:25.6715035Z">Nastavenie typov notifikácí</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="4991fffd-0593-4766-b4f7-a3fe7d69f710">
+      <Keyword m="2021-06-28T13:15:36.3759572Z">Notifikácie - nastavenie typov</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="f1aa9ddb-d244-44aa-b470-ec23ad50580d">
+      <Keyword m="2021-06-28T13:15:42.481086Z">Automatické notifikácie - definovanie typov</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

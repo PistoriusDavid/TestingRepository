@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="c546faa8-9298-4064-95a0-cc26aee963e2" Status="Complete" CreatedOn="2014-09-09T12:31:47.5836435Z" ModifiedOn="2023-04-14T13:27:25.1731742Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Invoices_Start_ProformaInvoice_Invoice" BuildFlags="">
+  <Title m="2021-08-12T08:39:48.0819997Z">Zúčtovanie zálohovej faktúry</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-04-14T13:27:25.1731742Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; je venovaná &lt;STRONG&gt;postupu zúčtovania&amp;nbsp;&lt;/STRONG&gt;&lt;A href="2d1b2b76-359e-449e-bd88-c5a9229a926d"&gt;zálohovej faktúry&lt;/A&gt; tak v&amp;nbsp;&lt;A href="49dd3167-870a-4fdf-b631-d4f692f1ed72"&gt;podvojnom účtovníctve&lt;/A&gt;, ako aj v&amp;nbsp;&lt;A href="32be28cf-2368-4818-9d24-cfa9d59afb75"&gt;jednoduchom účtovníctve&lt;/A&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Pred prijatím zálohy za dodanie tovaru alebo služby&amp;nbsp;dodávateľ spravidla vystavuje&amp;nbsp;&lt;A href="2d1b2b76-359e-449e-bd88-c5a9229a926d"&gt;zálohovú faktúru&lt;/A&gt; (preddavková faktúra, predfaktúra, proforma faktúra), ktorá nie je daňovým ani účtovným dokladom. Zúčtovaním zálohovej faktúry sa myslí &lt;STRONG&gt;vystavenie daňového dokladu k&amp;nbsp;vystavenej&amp;nbsp;zálohovej faktúre&lt;/STRONG&gt;. 
+&lt;LI&gt;Po prijatí zálohy za dodanie tovaru alebo služby&amp;nbsp;má dodávateľ - platiteľ DPH povinnosť vystaviť v&amp;nbsp;závislosti od toho, kedy sa dodanie tovaru alebo služby zrealizuje,&amp;nbsp;daňový doklad,&amp;nbsp;a&amp;nbsp;to buď &lt;STRONG&gt;faktúru k&amp;nbsp;prijatej zálohe, t.&amp;nbsp;j. faktúru na zálohu, alebo konečnú (ostrú) vyúčtovaciu faktúru&lt;/STRONG&gt;. 
+&lt;LI&gt;V prípade, že sa dodanie tovaru alebo služby&amp;nbsp;&lt;STRONG&gt;nezrealizuje&lt;/STRONG&gt; v lehote do 15 dní od prijatia zálohy, dodávateľ vystaví do 15 dní od prijatia zálohy, resp. do konca kalendárneho mesiaca, v&amp;nbsp;ktorom bola záloha prijatá, daňový doklad&amp;nbsp;&lt;EM&gt;&lt;STRONG&gt;faktúru na zálohu&lt;/STRONG&gt;&lt;/EM&gt;. Následne&amp;nbsp;po dodaní tovaru alebo služby vystaví&amp;nbsp;&lt;EM&gt;&lt;STRONG&gt;konečnú vyúčtovaciu faktúru&lt;/STRONG&gt;&lt;/EM&gt;&amp;nbsp;ako konečný daňový doklad, v&amp;nbsp;ktorom bude zúčtovaná&amp;nbsp;faktúra na zálohu&amp;nbsp;a&amp;nbsp;uvedený dodaný tovar alebo služba. 
+&lt;LI&gt;Ak sa dodanie tovaru alebo služby&amp;nbsp;&lt;STRONG&gt;zrealizuje&lt;/STRONG&gt; v lehote do 15 dní od prijatia zálohy, dodávateľ vystaví len jeden daňový doklad - &lt;EM&gt;&lt;STRONG&gt;konečnú vyúčtovaciu faktúru&lt;/STRONG&gt;&lt;/EM&gt;, v&amp;nbsp;ktorej bude zúčtovaná zálohová faktúra a uvedený dodaný tovar alebo služba. 
+&lt;LI&gt;V&amp;nbsp;systéme OBERON je možné &lt;STRONG&gt;jednou konečnou faktúrou zúčtovať jednu alebo ľubovoľný počet zálohových faktúr&lt;/STRONG&gt;. Musí byť pri tom splnená podmienka, že všetky vystavené zálohové faktúry, ktoré chcete zúčtovať, musia byť vystavené na toho istého&amp;nbsp;&lt;A href="b7a48886-b367-4056-808a-59ba5f871f32"&gt;obchodného partnera&lt;/A&gt;. &lt;SPAN style="COLOR: rgb(255,0,0)"&gt;Túto podmienku je nutné dôsledne dodržať&lt;/SPAN&gt; (program ponúka pri vystavení konečnej faktúry zoznam zálohových faktúr obchodného partnera uvedeného na konečnej faktúre). &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;1. Dodanie tovaru alebo služby&amp;nbsp;sa nezrealizuje v lehote do 15 dní od prijatia zálohy&lt;/H2&gt;
+&lt;H3&gt;1.1 Postup zúčtovania zálohovej faktúry faktúrou na zálohu&lt;/H3&gt;
+&lt;OL&gt;
+&lt;LI&gt;V ponuke &lt;EM&gt;Fakturácia&lt;/EM&gt; otvorte &lt;A href="5c21adcc-87c8-44e7-981d-02902635693d"&gt;Knihu pohľadávok&lt;/A&gt;. 
+&lt;LI&gt;Stlačte tlačidlo &lt;I&gt;Nový&lt;/I&gt;, otvorí sa sprievodca &lt;I&gt;Nový doklad.&lt;/I&gt; Zvoľte spôsob vyhotovenia novej pohľadávky,&amp;nbsp;typ dokladu&amp;nbsp;&lt;EM&gt;&lt;STRONG&gt;Faktúra na zálohu&lt;/STRONG&gt;&lt;/EM&gt;&amp;nbsp;a zadajte, resp. vyberte &lt;A href="b7a48886-b367-4056-808a-59ba5f871f32"&gt;obchodného partnera&lt;/A&gt;. Stlačením tlačidla&amp;nbsp;&lt;I&gt;Dokončiť&lt;/I&gt; sa otvorí &lt;A href="68022ee5-d91a-4a1d-960b-c5de57414b6f"&gt;formulár Pohľadávka&lt;/A&gt;. 
+&lt;LI&gt;Stlačte tlačidlo &lt;EM&gt;Možnosti&lt;/EM&gt; a vyberte&lt;STRONG&gt; &lt;EM&gt;Zúčtovanie zálohovej faktúry&lt;/EM&gt;&lt;/STRONG&gt;. Zobrazí sa zoznam nezúčtovaných zálohových faktúr, resp. faktúr na prijaté zálohy vystavených na vybraného &lt;A href="b7a48886-b367-4056-808a-59ba5f871f32"&gt;obchodného partnera&lt;/A&gt;. 
+&lt;LI&gt;V&amp;nbsp;zozname&amp;nbsp;zálohových faktúr vyberte zálohovú faktúru (prípadne viac zálohových faktúr), ktorá sa má&amp;nbsp;zúčtovať, a stlačte tlačidlo &lt;I&gt;&lt;STRONG&gt;OK&lt;/STRONG&gt;&lt;/I&gt;. Program vybranú zálohovú faktúru umiestni do položiek faktúry.&amp;nbsp;Po stlačení tlačidla &lt;EM&gt;Oprava&lt;/EM&gt; na kladnej položke je možné&amp;nbsp;zmeniť sadzbu DPH na zálohovej faktúre. 
+&lt;LI&gt;V&amp;nbsp;rekapitulácii súm dokladu je v&amp;nbsp;poli &lt;I&gt;Záloha&lt;/I&gt; uvedený súčet súm vybraných zálohových faktúr. 
+&lt;LI&gt;Faktúru uložte tlačidlom &lt;I&gt;&lt;STRONG&gt;OK&lt;/STRONG&gt;&lt;/I&gt;. Do knihy vydaných faktúr (pohľadávok) sa uloží faktúra&amp;nbsp;k prijatej platbe (faktúra na zálohu). &lt;/LI&gt;&lt;/OL&gt;
+&lt;H3&gt;1.2 Postup zúčtovania faktúry na zálohu konečnou&amp;nbsp;vyúčtovacou faktúrou&lt;/H3&gt;
+&lt;OL&gt;
+&lt;LI&gt;V ponuke &lt;EM&gt;Fakturácia&lt;/EM&gt; otvorte &lt;A href="5c21adcc-87c8-44e7-981d-02902635693d"&gt;Knihu pohľadávok&lt;/A&gt;. 
+&lt;LI&gt;Stlačte tlačidlo &lt;I&gt;Nový&lt;/I&gt;, otvorí sa sprievodca &lt;I&gt;Nový doklad.&lt;/I&gt; Zvoľte spôsob vyhotovenia novej pohľadávky,&amp;nbsp;typ dokladu&amp;nbsp;&lt;EM&gt;&lt;STRONG&gt;Faktúra&lt;/STRONG&gt;&lt;/EM&gt; a zadajte, resp. vyberte &lt;A href="b7a48886-b367-4056-808a-59ba5f871f32"&gt;obchodného partnera&lt;/A&gt;. Stlačením tlačidla&amp;nbsp;&lt;I&gt;Dokončiť&lt;/I&gt; sa otvorí &lt;A href="68022ee5-d91a-4a1d-960b-c5de57414b6f"&gt;formulár Pohľadávka&lt;/A&gt;. 
+&lt;LI&gt;Vo formulári definujte&amp;nbsp;formu úhrady, dátum vystavenia, dodania, splatnosť atď. 
+&lt;LI&gt;Stlačte tlačidlo &lt;EM&gt;Možnosti&lt;/EM&gt; a vyberte &lt;EM&gt;&lt;STRONG&gt;Zúčtovanie zálohovej faktúry&lt;/STRONG&gt;&lt;/EM&gt;. Zobrazí sa zoznam nezúčtovaných zálohových faktúr, resp. faktúr na prijaté zálohy&amp;nbsp;vystavených na vybraného &lt;A href="b7a48886-b367-4056-808a-59ba5f871f32"&gt;obchodného partnera&lt;/A&gt;. 
+&lt;LI&gt;V&amp;nbsp;zozname nezúčtovaných zálohových faktúr vyberte&amp;nbsp;faktúru na prijatú zálohu, ktorá sa má&amp;nbsp;zúčtovať, a stlačte tlačidlo &lt;I&gt;&lt;STRONG&gt;OK&lt;/STRONG&gt;&lt;/I&gt;. Program vybranú faktúru na&amp;nbsp;zálohu umiestni do položiek faktúry ako dve položky: zápornú a kladnú. Kladnú položku vymažte a do faktúry pridajte položky, na ktoré bola prijatá záloha, prípadne aj ďalšie položky.
+&lt;LI&gt;V&amp;nbsp;prípade,&amp;nbsp;že&amp;nbsp;nechcete zúčtovať&amp;nbsp;celú&amp;nbsp;faktúru na zálohu, stlačte na položke tlačidlo &lt;I&gt;Oprava&lt;/I&gt; a upravte výšku zúčtovanej sumy. 
+&lt;LI&gt;Faktúru uložte tlačidlom &lt;I&gt;&lt;STRONG&gt;OK&lt;/STRONG&gt;&lt;/I&gt;. Do knihy vydaných faktúr (pohľadávok) sa uloží konečná (ostrá) vyúčtovacia&amp;nbsp;faktúra. &lt;/LI&gt;&lt;/OL&gt;
+&lt;H2&gt;2. Dodanie tovaru alebo služby&amp;nbsp;sa zrealizuje v lehote do 15 dní od prijatia zálohy&lt;/H2&gt;
+&lt;H3&gt;2.1 Postup zúčtovania zálohovej faktúry konečnou vyúčtovacou faktúrou&lt;/H3&gt;
+&lt;OL&gt;
+&lt;LI&gt;V ponuke &lt;EM&gt;Fakturácia&lt;/EM&gt; otvorte &lt;A href="5c21adcc-87c8-44e7-981d-02902635693d"&gt;Knihu pohľadávok&lt;/A&gt;. 
+&lt;LI&gt;Stlačte tlačidlo &lt;I&gt;Nový&lt;/I&gt;, otvorí sa sprievodca &lt;I&gt;Nový doklad.&lt;/I&gt; Zvoľte spôsob vyhotovenia novej pohľadávky,&amp;nbsp;typ dokladu&amp;nbsp;&lt;EM&gt;&lt;STRONG&gt;Faktúra&lt;/STRONG&gt;&lt;/EM&gt; a zadajte, resp. vyberte &lt;A href="b7a48886-b367-4056-808a-59ba5f871f32"&gt;obchodného partnera&lt;/A&gt;. Stlačením tlačidla&amp;nbsp;&lt;I&gt;Dokončiť&lt;/I&gt; sa otvorí &lt;A href="68022ee5-d91a-4a1d-960b-c5de57414b6f"&gt;formulár Pohľadávka&lt;/A&gt;. 
+&lt;LI&gt;Vo formulári definujte&amp;nbsp;formu úhrady, dátum vystavenia, dodania, splatnosť atď. 
+&lt;LI&gt;Stlačte tlačidlo &lt;EM&gt;Možnosti&lt;/EM&gt; a vyberte &lt;EM&gt;&lt;STRONG&gt;Zúčtovanie zálohovej faktúry&lt;/STRONG&gt;&lt;/EM&gt;. Zobrazí sa zoznam nezúčtovaných zálohových faktúr, resp. faktúr na prijaté zálohy vystavených na vybraného &lt;A href="b7a48886-b367-4056-808a-59ba5f871f32"&gt;obchodného partnera&lt;/A&gt;. 
+&lt;LI&gt;V&amp;nbsp;zozname&amp;nbsp;zálohových faktúr vyberte zálohovú faktúru (prípadne viac zálohových faktúr), ktorá sa má&amp;nbsp;zúčtovať, a stlačte tlačidlo &lt;I&gt;&lt;STRONG&gt;OK&lt;/STRONG&gt;&lt;/I&gt;. Program vybranú faktúru na&amp;nbsp;zálohu umiestni do položiek faktúry ako dve položky: zápornú a kladnú. Kladnú položku vymažte a do faktúry pridajte položky, na ktoré bola prijatá záloha, prípadne aj ďalšie položky. 
+&lt;LI&gt;V&amp;nbsp;rekapitulácii súm dokladu je v&amp;nbsp;poli &lt;I&gt;Záloha&lt;/I&gt; uvedený súčet súm vybraných zálohových faktúr. 
+&lt;LI&gt;Faktúru uložte tlačidlom &lt;I&gt;&lt;STRONG&gt;OK&lt;/STRONG&gt;&lt;/I&gt;. Do knihy vydaných faktúr (pohľadávok) sa uloží konečná (ostrá) vyúčtovacia&amp;nbsp;faktúra. &lt;/LI&gt;&lt;/OL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="86a7ddfe-dd47-49a1-8a89-fc7ec4ca4a2a" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="2d1b2b76-359e-449e-bd88-c5a9229a926d">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="aee43368-99c1-4250-b5c3-830cd791cd49" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="5c21adcc-87c8-44e7-981d-02902635693d">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="d430ea6a-6dc4-4a2b-b087-21e4641bfa85" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="55028746-c263-4d92-a615-502222e8d53b">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="3531d8d9-0e47-45e7-ac26-12c574b5b8c0" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="b7a48886-b367-4056-808a-59ba5f871f32">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="b8ad569b-c030-4d44-98d8-c6703c6d1653" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="67d541c3-f071-41bc-92bc-7b19bc1cf191">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="ad7d6042-6a01-425d-b1d9-f84768f0548b" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="6ee38dab-a560-4507-9331-b6a6c5449b00">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="bdd798ba-03c4-43b2-bec0-a4096a455969">
+      <Keyword m="2023-04-14T13:10:56.7024368Z">Zálohová faktúra - zúčtovanie</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

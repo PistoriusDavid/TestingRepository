@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="60ddc156-3b78-444f-ab36-e2f9bfdef6ea" Status="Complete" CreatedOn="2016-08-03T07:30:48.0488685Z" ModifiedOn="2022-12-08T09:46:01.1850249Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="AccDouble_Accounting_Samples_TransferBetweenBankAccount" BuildFlags="">
+  <Title m="2016-08-03T07:32:39.2294138Z">Prevody medzi finančnými účtami</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2022-12-08T09:46:01.1850249Z">&lt;P&gt;Pohyb peňazí medzi pokladnicou a bankovým účtom&amp;nbsp;je možný len na základe dokladov. Pre pokladnicu je to príjmový a výdavkový pokladničný doklad, pre bankový účet výpis z bankového účtu. Pri prevode peňazí medzi pokladnicou a bankovým účtom môže v&amp;nbsp;praxi nastať situácia, že nie sú v&amp;nbsp;ten istý deň&amp;nbsp; k&amp;nbsp;dispozícii obidva doklady, a&amp;nbsp;preto sa na účtovanie používa účet &lt;STRONG&gt;261 – &lt;EM&gt;Peniaze na ceste&lt;/EM&gt;&lt;/STRONG&gt;. Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;dva príklady&lt;/STRONG&gt;:&amp;nbsp;prvý&amp;nbsp;ukazuje účtovanie prevodu peňazí z bankového účtu do pokladne a opačne,&amp;nbsp;v&amp;nbsp;druhom príklade je zobrazené účtovanie bankového úveru.&lt;/P&gt;
+&lt;H2&gt;Príklad 1: Prevod medzi pokladňou a bankovým účtom&lt;/H2&gt;
+&lt;P&gt;Účtová skupina &lt;STRONG&gt;26&amp;nbsp;- &lt;EM&gt;Prevody medzi finančnými účtami&lt;/EM&gt;&lt;/STRONG&gt; sa používa na preklenutie časového nesúladu medzi vkladmi alebo výbermi peňazí a prijatím príslušných bankových výpisov účtovnou jednotkou. Obdobne sa tu účtujú účtovné prípady, pri ktorých dochádza k časovému nesúladu pri prevodoch medzi účtami účtovnej jednotky v bankách. Na účtoch účtovej skupiny 26 sa vklady alebo výbery peňazí a iných hotovostí účtujú podľa pokladničných dokladov alebo výpisov z účtov v bankách a účtov úverov.&lt;/P&gt;
+&lt;H3&gt;Účtovanie:&lt;/H3&gt;
+&lt;TABLE style="HEIGHT: 233px; WIDTH: 70%"&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TH height=12 width=35&gt;&lt;/TH&gt;
+&lt;TH height=12 width=478&gt;&lt;STRONG&gt;Obsah účtovného prípadu&lt;/STRONG&gt;&lt;/TH&gt;
+&lt;TH height=12 width=57&gt;&lt;STRONG&gt;MD&lt;/STRONG&gt;&lt;/TH&gt;
+&lt;TH height=12 width=36&gt;&lt;STRONG&gt;DAL&lt;/STRONG&gt;&lt;/TH&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=10 width=35&gt;&lt;STRONG&gt;1&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD height=10 width=478 colSpan=3&gt;Prevod medzi pokladňou a bankovými účtami&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=11 width=35&gt;1a&lt;/TD&gt;
+&lt;TD height=11 width=478&gt;Vklad peňažnej hotovosti z pokladne (VPD)&lt;/TD&gt;
+&lt;TD height=11 width=57&gt;261&lt;/TD&gt;
+&lt;TD height=11 width=36&gt;211&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=3 width=35&gt;1b&lt;/TD&gt;
+&lt;TD height=3 width=478&gt;Príjem peňažných prostriedkov na bankový účet (VBÚ)&lt;/TD&gt;
+&lt;TD height=3 width=57&gt;221&lt;/TD&gt;
+&lt;TD height=3 width=36&gt;261&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=12 width=35 colSpan=4&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=18 width=35&gt;&lt;STRONG&gt;2&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD height=18 width=478 colSpan=3&gt;Výber peňažnej hotovosti z bankového účtu do pokladne&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=2 width=35&gt;2a&lt;/TD&gt;
+&lt;TD height=2 width=478&gt;Príjem peňazí v hotovosti do pokladne (PPD)&lt;/TD&gt;
+&lt;TD height=2 width=57&gt;211&lt;/TD&gt;
+&lt;TD height=2 width=36&gt;261&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=18 width=35&gt;2b&lt;/TD&gt;
+&lt;TD height=18 width=478&gt;Úbytok peňažných prostriedkov na bankovom účte (VBÚ)&lt;/TD&gt;
+&lt;TD height=18 width=57&gt;261&lt;/TD&gt;
+&lt;TD height=30 width=36&gt;221&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;
+&lt;H3&gt;Legenda:&amp;nbsp;&lt;/H3&gt;211 - Pokladnica&amp;nbsp;&lt;BR&gt;221 - Bankové účty&lt;BR&gt;261 - Peniaze na ceste&lt;BR&gt;VPD - Výdajkový pokladničný doklad&lt;BR&gt;VBÚ - Výpis bankového účtu&lt;BR&gt;PPD - Príjmový&amp;nbsp;pokladničný doklad 
+&lt;H2&gt;Príklad 2: Účtovanie bankového úveru&lt;/H2&gt;
+&lt;P&gt;Na účtoch účtovej skupiny &lt;STRONG&gt;46&amp;nbsp;- &lt;EM&gt;Bankové úvery&lt;/EM&gt;&lt;/STRONG&gt; sa účtujú bankové úvery, ktoré majú dlhodobý charakter. Dlhodobým charakterom bankového úveru sa rozumie obdobie dohodnutej doby splatnosti dlhšie ako jeden rok.&amp;nbsp;Analytické účty sa vedú podľa jednotlivých úverov poskytnutých účtovnej jednotke a podľa jednotlivých bánk.&lt;/P&gt;
+&lt;H3&gt;Účtovanie:&lt;/H3&gt;
+&lt;TABLE style="HEIGHT: 353px; WIDTH: 80%"&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TH height=14 width=52&gt;&lt;/TH&gt;
+&lt;TH height=14 width=208&gt;&lt;STRONG&gt;Obsah účtovného prípadu&lt;/STRONG&gt;&lt;/TH&gt;
+&lt;TH height=14 width=28&gt;&lt;STRONG&gt;MD&lt;/STRONG&gt;&lt;/TH&gt;
+&lt;TH height=14 width=36&gt;&lt;STRONG&gt;DAL&lt;/STRONG&gt;&lt;/TH&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=3 width=52&gt;&lt;STRONG&gt;1&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD colSpan=3&gt;Poskytnutý dlhodobý bankový úver - čerpanie úveru prevodom peňažných prostriedkov na bežný bankový účet účtovnej jednotky&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=11 width=52&gt;&lt;STRONG&gt;a)&lt;/STRONG&gt; 1.&amp;nbsp;r.&lt;/TD&gt;
+&lt;TD&gt;Prevod (výdaj) peň. prostriedkov z úverového účtu do &lt;EM&gt;Peniaze na ceste&lt;/EM&gt; (VBÚ)&lt;/TD&gt;
+&lt;TD height=11 width=28&gt;261&lt;/TD&gt;
+&lt;TD height=11 width=36&gt;461&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=14 width=52&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;2.&amp;nbsp;r&lt;/TD&gt;
+&lt;TD&gt;Príjem peň. prostriedkov na bežný bankový účet z &lt;EM&gt;Peniaze na ceste&lt;/EM&gt;&amp;nbsp;(VBÚ)&lt;/TD&gt;
+&lt;TD height=14 width=28&gt;221&lt;/TD&gt;
+&lt;TD height=14 width=36&gt;261&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=16 width=52&gt;&lt;STRONG&gt;b)&lt;/STRONG&gt; 1.&amp;nbsp;r.&lt;/TD&gt;
+&lt;TD&gt;Čerpanie úhrad záväzkov priamo z poskytnutého úveru&lt;/TD&gt;
+&lt;TD height=16 width=28&gt;účty záväzkov&lt;/TD&gt;
+&lt;TD height=16 width=36&gt;461&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=12 width=35 colSpan=4&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=12 width=52&gt;&lt;STRONG&gt;3&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD height=12 width=208 colSpan=3&gt;Splátka&amp;nbsp; bankového úveru vrátane úrokov&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=5 width=52&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;1.&amp;nbsp;r.&lt;/TD&gt;
+&lt;TD&gt;Úbytok peň. prostriedkov na bankovom účte (VBÚ)&lt;/TD&gt;
+&lt;TD height=5 width=28&gt;261&lt;/TD&gt;
+&lt;TD height=5 width=36&gt;221&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=1 width=52&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;2.&amp;nbsp;r&lt;/TD&gt;
+&lt;TD&gt;Zníženie bankového úveru (VBÚ)&lt;/TD&gt;
+&lt;TD height=1 width=28&gt;461&lt;/TD&gt;
+&lt;TD height=1 width=36&gt;261&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=12 width=35 colSpan=4&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=18 width=52&gt;&lt;STRONG&gt;4&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD&gt;Úroky z úveru z úverového účtu&lt;/TD&gt;
+&lt;TD height=18 width=28&gt;562, 042&lt;/TD&gt;
+&lt;TD height=30 width=36&gt;461&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;
+&lt;H3&gt;Legenda:&lt;/H3&gt;042 - Obstaranie dlhodobého&amp;nbsp;hmotného majetku&lt;BR&gt;221 - Bankové účty&lt;BR&gt;261 - Peniaze na ceste&lt;BR&gt;461 - Bankové úvery&lt;BR&gt;562 - Úroky&lt;BR&gt;VBÚ - Výpis bankového účtu</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="8eb05654-178a-43ef-9787-09e78f4bc971" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="d8c9bfc8-92d1-4471-8909-e5f8ce602d6c">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="8d26a041-4e23-46d4-b9e8-6a2fee25be14" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="93ded66f-b7a6-40a8-89e0-bd501cd17bfc">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="3c41d243-dd47-4189-901d-f3669e53632f">
+      <Keyword m="2016-08-03T13:12:31.4393702Z">Peniaze na ceste</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="6d30e0ca-ac69-462e-81ac-9db7e9cdc2b6">
+      <Keyword m="2016-08-03T13:12:49.6241553Z">Prevod medzi pokladnicou a bankovým účtom</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="6933aa54-191d-4fca-9550-f346ae77122a">
+      <Keyword m="2016-08-03T13:13:45.0875737Z">Príklad účtovania prevodu medzi pokladnicou a bankovým účtom</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

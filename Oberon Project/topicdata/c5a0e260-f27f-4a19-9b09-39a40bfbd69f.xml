@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="c5a0e260-f27f-4a19-9b09-39a40bfbd69f" Status="Complete" CreatedOn="2014-09-04T15:09:56.7387842Z" ModifiedOn="2023-05-09T07:52:04.9735034Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="ExportImport_StatementsDocument_eDane" BuildFlags="">
+  <Title m="2021-08-09T09:04:46.280668Z">Export výkazov do aplikácie eDane</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-05-09T07:52:04.9735034Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; popisuje &lt;STRONG&gt;postup vytvorenia výkazu v&amp;nbsp;systéme OBERON a jeho následný export do&amp;nbsp;aplikácie &lt;I&gt;Finančného riaditeľstva SR&lt;/I&gt;&amp;nbsp;&lt;EM&gt;eDane&lt;/EM&gt;.&lt;/STRONG&gt; Export údajov sa vykonáva pomocou&amp;nbsp;súborov vo formáte XML.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Systém OBERON umožňuje export vybraných výkazov a priznaní do súboru typu XML na jeho následný import do aplikácie &lt;I&gt;Finančného riaditeľstva SR&lt;/I&gt;&amp;nbsp;&lt;EM&gt;eDane&lt;/EM&gt;. 
+&lt;LI&gt;Tvorba výkazov v&amp;nbsp;programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;&amp;nbsp;je sústredená do evidencie&amp;nbsp;&lt;A href="71b702c2-e6e7-4f9a-b66b-15dba7d31ae1"&gt;Priznania a výkazy&lt;/A&gt; (ponuka &lt;I&gt;Firma&lt;/I&gt;)&lt;I&gt;.&lt;/I&gt; Export údajov a jeho následný import do&amp;nbsp;aplikácie &lt;I&gt;eDane&lt;/I&gt;&amp;nbsp;sa spravidla vykonáva &lt;STRONG&gt;automaticky pri vytváraní daného výkazu&lt;/STRONG&gt; v tejto evidencii. 
+&lt;LI&gt;Zoznam aktuálne podporovaných výkazov a&amp;nbsp;priznaní sa nachádza v téme&amp;nbsp;&lt;A href="71b702c2-e6e7-4f9a-b66b-15dba7d31ae1"&gt;Priznania a výkazy&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Technické požiadavky&lt;/H2&gt;&lt;innovasys:widget layout="block" type="Caution Box"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Od 2. novembra 2022 starú verziu aplikácie &lt;EM&gt;eDane&lt;/EM&gt; &lt;STRONG&gt;nahrádza nová verzia aplikácie&lt;/STRONG&gt;, ktorá obsahuje všetky funkcie pôvodnej verzie. Finančná správa upozorňuje, že podania prostredníctvom starej verzie aplikácie&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;&amp;nbsp;nebudú po 2. novembri 2022 akceptované&lt;/SPAN&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;OL&gt;
+&lt;LI&gt;&lt;STRONG data-rich-text-format-boundary="true"&gt;Odinštalovanie starej verzie&lt;/STRONG&gt; - na bezproblémové fungovanie je potrebné starú verziu &lt;EM&gt;eDane&lt;/EM&gt; (nainštalovanú pred 11.08.2022) odinštalovať a nainštalovať novú. 
+&lt;LI&gt;&lt;STRONG&gt;Inštalácia aplikácie &lt;EM&gt;D.Launcher/D.Suite&lt;/EM&gt; pre &lt;EM&gt;Windows&lt;/EM&gt;&lt;/STRONG&gt; - v ďalšom kroku je nevyhnutné mať nainštalovanú aplikáciu &lt;EM&gt;D.Launcher/D.Suite&lt;/EM&gt; pre systém &lt;EM&gt;Windows&lt;/EM&gt;. Inštalačný balík je dostupný na ústrednom portáli verejnej správy&amp;nbsp;&lt;A href="http://www.slovensko.sk" rel="noreferrer noopener" target=_blank&gt;www.slovensko.sk&lt;/A&gt; v sekcii&amp;nbsp;&lt;A href="https://www.slovensko.sk/sk/na-stiahnutie" target=_blank&gt;Na stiahnutie&lt;/A&gt;. &lt;STRONG&gt;Odporúčame inštaláciu celého balíka aplikácií&lt;/STRONG&gt;, ktorého súčasťou je aj &lt;STRONG&gt;aplikácia &lt;EM&gt;D.Launcher/D.Suite&lt;/EM&gt;&lt;/STRONG&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;Inštalácia rozšírenia &lt;EM&gt;D.Bridge 2&lt;/EM&gt; do vybraných webových prehliadačov&lt;/STRONG&gt; - podmienkou úspešného podpisovania cez aplikáciu &lt;EM&gt;D.Launcher v2.x&lt;/EM&gt; je inštalácia a povolenie rozšírenia &lt;EM&gt;D.Bridge 2&lt;/EM&gt; do webových prehliadačov &lt;STRONG&gt;&lt;EM&gt;Chrome, Chromium, Opera, MS Edge&lt;/EM&gt;&lt;/STRONG&gt; a&amp;nbsp;&lt;STRONG&gt;&lt;EM&gt;Firefox&lt;/EM&gt;&lt;/STRONG&gt;. Inštalačné súbory sú dostupné na portáli &lt;A href="http://www.slovensko.sk" rel="noreferrer noopener" target=_blank&gt;www.slovensko.sk&lt;/A&gt; v sekcii&amp;nbsp;&lt;A href="https://www.slovensko.sk/sk/na-stiahnutie" target=_blank&gt;Na stiahnutie&lt;/A&gt; &lt;STRONG&gt;po kliknutí na názvy jednotlivých webových prehliadačov&lt;/STRONG&gt;. Rozšírenie do &lt;EM&gt;MS Internet Explorer&lt;/EM&gt; nie je potrebné. 
+&lt;LI&gt;&lt;STRONG&gt;Inštalácia aplikácie &lt;EM&gt;eDane/Java&lt;/EM&gt;&lt;/STRONG&gt; - na &lt;STRONG&gt;&lt;A href="https://www.financnasprava.sk/sk/elektronicke-sluzby/elektronicka-komunikacia/elektronicka-komunikacia-dane/edane" rel="noopener noreferrer" target=_blank&gt;webovej stránke &lt;EM&gt;Finančnej správy SR&lt;/EM&gt;&lt;/A&gt;&lt;/STRONG&gt; spustite aplikáciu &lt;EM&gt;eDane/Java&lt;/EM&gt; kliknutím na jej logo. Otvorí sa okno, v ktorom kliknite na odkaz &lt;EM&gt;Zobraziť viac informácií&lt;/EM&gt; a následne na tlačidlo &lt;EM&gt;Nainštalovať a spustiť&lt;/EM&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;Inštalácia aktuálnej verzie OBERON-u&lt;/STRONG&gt; - nová verzia aplikácie &lt;EM&gt;eDane&lt;/EM&gt; je implementovaná do systému OBERON od verzie &lt;STRONG&gt;Október/2022&lt;/STRONG&gt; (táto verzia OBERON-u &lt;STRONG&gt;už vyžaduje novú verziu aplikácie &lt;EM&gt;eDane&lt;/EM&gt;&lt;/STRONG&gt;). &lt;/LI&gt;&lt;/OL&gt;
+&lt;H2&gt;Postup vytvorenia výkazu&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;V&amp;nbsp;programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt; zvoľte ponuku &lt;EM&gt;Firma&lt;/EM&gt;,&amp;nbsp;&lt;A href="71b702c2-e6e7-4f9a-b66b-15dba7d31ae1"&gt;Priznania a výkazy&lt;/A&gt;. Stlačte tlačidlo &lt;I&gt;Pridať&lt;/I&gt;, vyberte požadovaný typ výkazu - postupujte podľa pokynov sprievodcu. 
+&lt;LI&gt;V poslednom kroku sprievodcu zvoľte možnosť &lt;EM&gt;Exportovať výkaz do súboru,&lt;/EM&gt; pričom &lt;STRONG&gt;venujte zvýšenú pozornosť ceste k súboru&lt;/STRONG&gt; (prednastavený adresár je &lt;STRONG&gt;C:\OBERON\_Export_Import\&lt;/STRONG&gt;). 
+&lt;LI&gt;Začiarknite voľbu &lt;EM&gt;&lt;STRONG&gt;Otvoriť výkaz v programe eDane&lt;/STRONG&gt;&lt;/EM&gt; - po stlačení tlačidla &lt;I&gt;Dokončiť&lt;/I&gt; sa vytvorí požadovaný výkaz (XML) a následne &lt;STRONG&gt;sa vykoná automatický import údajov do aplikácie &lt;EM&gt;eDane&lt;/EM&gt;&lt;/STRONG&gt; (aplikácia sa následne otvorí a&amp;nbsp;zobrazí importované údaje). &lt;/LI&gt;&lt;/OL&gt;&lt;innovasys:widget layout="block" type="Caution Box"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Je možné, že pri niektorých výkazoch sa&amp;nbsp;program &lt;EM&gt;eDane&lt;/EM&gt; otvorí, no výkaz&amp;nbsp;sa nenačíta.&amp;nbsp;V tom prípade&amp;nbsp;&lt;STRONG&gt;je potrebné vybrať výkaz&amp;nbsp;v&amp;nbsp;aplikácii &lt;EM&gt;eDane&lt;/EM&gt; manuálne&lt;/STRONG&gt; - až následne sa údaje načítajú. Ak sa&amp;nbsp;import nevykoná&amp;nbsp;automaticky, použite nižšie uvedený postup&amp;nbsp;na manuálny import&amp;nbsp;súboru XML.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H5&gt;Obrázok č.&amp;nbsp;1:&amp;nbsp;&amp;nbsp;Sprievodca vytvorením&amp;nbsp;&lt;EM&gt;Kontrolného výkazu DPH&lt;/EM&gt;&lt;/H5&gt;
+&lt;P&gt;&lt;IMG style="BORDER-TOP: black 1px solid; BORDER-RIGHT: grey 1px solid; BORDER-BOTTOM: grey 1px solid; BORDER-LEFT: grey 1px solid" border=0 src="images/BasicInformation/PrintReports/StatementDocuments_DPH.png"&gt;&amp;nbsp;&lt;/P&gt;&lt;innovasys:widget layout="block" type="Tip Box"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Výkazy je možné exportovať do súboru XML aj dodatočne. V knihe &lt;I&gt;Priznania a výkazy&lt;/I&gt; vyberte&amp;nbsp;príslušný záznam, stlačte tlačidlo &lt;I&gt;Možnosti&lt;/I&gt; a&amp;nbsp;zvoľte &lt;EM&gt;Exportovať záznam...&lt;/EM&gt; Ďalej postupujte podľa pokynov sprievodcu.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Postup manuálneho importu XML súboru v&amp;nbsp;aplikácii eDANE/Java&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;Spustite&amp;nbsp;aplikáciu &lt;EM&gt;eDane&lt;/EM&gt;. Keďže si program kontroluje aktuálnosť výkazov v komunikácii so serverom daňového riaditeľstva, odporúčame mať počítač pripojený&amp;nbsp;k&amp;nbsp;internetu. 
+&lt;LI&gt;Vyberte&amp;nbsp;príslušný výkaz v ponuke &lt;EM&gt;Daňové dokumenty - Daň z pridanej hodnoty - Kontrolný výkaz daň z pridanej hodnoty.&amp;nbsp;&lt;/EM&gt;Po výbere dokumentu sa načíta konkrétne daňové tlačivo pripravené na vyplnenie. 
+&lt;LI&gt;V ponuke &lt;EM&gt;Práca s DP&lt;/EM&gt; zvoľte možnosť &lt;EM&gt;Načítať z XML súboru&lt;/EM&gt;. 
+&lt;H5&gt;Obrázok č. 2: Import XML súboru do aplikácie eDane&lt;BR&gt;&lt;BR&gt;&lt;IMG style="BORDER-TOP: black 1px solid; BORDER-RIGHT: grey 1px solid; BORDER-BOTTOM: grey 1px solid; BORDER-LEFT: grey 1px solid" border=0 src="images/BasicInformation/PrintReports/StatementDocuments_ImportXML.png"&gt;&lt;/H5&gt;
+&lt;LI&gt;Nalistujte exportovaný dokument XML a potvrďte tlačidlom &lt;EM&gt;Potvrdiť&lt;/EM&gt;. Systém OBERON má&amp;nbsp;na ukladanie súborov predvolený adresár &lt;STRONG&gt;C:\OBERON\_Export_Import&lt;/STRONG&gt;&amp;nbsp;a presná cesta aj s&amp;nbsp;názvom súboru je uvedená v sprievodcovi tvorbou výkazu (Obrázok č. 1). 
+&lt;H5&gt;Obrázok č. 3: Cesta k&amp;nbsp;súboru&amp;nbsp;XML&lt;BR&gt;&lt;IMG style="BORDER-TOP: black 1px solid; BORDER-RIGHT: grey 1px solid; BORDER-BOTTOM: grey 1px solid; BORDER-LEFT: grey 1px solid" border=0 src="images/BasicInformation/PrintReports/StatementDocuments_ImportXML2.png"&gt;&amp;nbsp;&lt;/H5&gt;
+&lt;LI&gt;Po vyplnení dokumentu používateľ stlačí tlačidlo &lt;EM&gt;&lt;STRONG&gt;Kontrolovať&lt;/STRONG&gt;&lt;/EM&gt;.&amp;nbsp;Ak sú všetky položky formulára vyplnené korektne, používateľ je o správnosti vyplnenia dokumentu informovaný zobrazením oznamu.&amp;nbsp;Ak dokument nie je správne vyplnený, chybné položky sú&amp;nbsp;zvýraznené farebne. 
+&lt;LI&gt;Vyplnený dokument je možné &lt;STRONG&gt;elektronicky podpísať&lt;/STRONG&gt;, a to stlačením tlačidla &lt;EM&gt;Podpísať ZEP-om&lt;/EM&gt;.&amp;nbsp;Aplikácia na pozadí realizuje kontrolu dokumentu. Ak dokument spĺňa nadefinované kritériá, aplikácia zobrazí hlavné okno vstavaného podpisového komponentu &lt;STRONG&gt;D.Signer/XAdES&lt;/STRONG&gt;.&amp;nbsp;Používateľ vyberie certifikát a výber potvrdí tlačidlom &lt;EM&gt;&lt;STRONG&gt;OK&lt;/STRONG&gt;&lt;/EM&gt;. 
+&lt;LI&gt;Prihláste sa na portál daňovej sekcie FR SR stlačením tlačidla &lt;EM&gt;Podať EZ-ou&lt;/EM&gt; alebo cez ponuku &lt;EM&gt;Elektronická podateľňa, Prihlásenie&lt;/EM&gt; a vyplnený dokument sa odošle. 
+&lt;LI&gt;V prípade úspešného odoslania dokumentu aplikácia zobrazí správu o úspešnom odoslaní s časovým údajom prijatia podania v &lt;EM&gt;Elektronickej podateľni&lt;/EM&gt; (&lt;EM&gt;Zoznam prijatých dokumentov a potvrdení&lt;/EM&gt;). 
+&lt;LI&gt;Používateľ môže v ktoromkoľvek okamihu vytvárania daňového dokumentu použiť funkciu uloženia do XML súboru (ponuka &lt;EM&gt;Práca s DP, Uložiť do XML súboru&lt;/EM&gt;).&amp;nbsp;&amp;nbsp; 
+&lt;LI&gt;Vytlačiť a uložiť&amp;nbsp;vo formáte&amp;nbsp;PDF je možné len dokument, ktorý spĺňa nadefinované kritériá. Stlačením tlačidla &lt;EM&gt;Vytlačiť&lt;/EM&gt; v spodnej časti formulára sa dokument otvorí v programe na prehliadanie PDF súborov (napr. &lt;EM&gt;Adobe Reader&lt;/EM&gt;). Následne je možné v prehliadači súbor uložiť (ponuka &lt;EM&gt;File, Save as&lt;/EM&gt;). &lt;/LI&gt;&lt;/OL&gt;&lt;innovasys:widget layout="block" type="Tip Box"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Viac informácií o&amp;nbsp;používaní aplikácie &lt;EM&gt;eDane/Java&lt;/EM&gt; získate v&amp;nbsp;dokumente&amp;nbsp;&lt;A href="http://edane.drsr.sk/install/java2014/pouzivatelska_prirucka.pdf" target=_blank&gt;Používateľská príručka -&amp;nbsp;eDane/Java&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="0ac66e57-e89e-405e-9f5f-2ee146101c2f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="ExportImport_Overview.html">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="016a9bd7-91d4-487d-a5ad-99ebdd88108f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="71b702c2-e6e7-4f9a-b66b-15dba7d31ae1">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="240bb6ce-3873-40cd-a082-193ed23bf594" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="806cbeec-db1b-4b07-9fa4-da096624c0ae">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="e09a3954-2365-45d0-b76e-5d3d03db23a7" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="53938972-8074-48db-a8fd-a5337867d9dc">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="bec0f8b8-ef8f-4bcc-9037-617656196345">
+      <Keyword m="2022-12-14T14:10:22.3330015Z">eDane - export výkazov</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="2bdbb650-169a-4727-9dad-cf8506c1de36">
+      <Keyword m="2022-12-14T14:10:14.8860157Z">Aplikácia eDane - export výkazov</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="02ca31c1-287d-425a-b279-17b117f216ca">
+      <Keyword m="2022-12-14T14:10:35.7181216Z">Java - eDane</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="2ad1151d-c68b-47ae-9aff-fe89b99ca0db">
+      <Keyword m="2021-03-31T06:53:31.2479866Z">XML - export výkazov pre eDane</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="bc603eda-1109-49c6-b154-ac1d6343d3f9">
+      <Keyword m="2021-03-31T06:53:40.2251996Z">XML - import do eDane</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="4d95fa56-6f43-42bf-94da-5fa9b26ee105">
+      <Keyword m="2021-03-31T08:36:20.1619436Z">Priznania a výkazy - eDane</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

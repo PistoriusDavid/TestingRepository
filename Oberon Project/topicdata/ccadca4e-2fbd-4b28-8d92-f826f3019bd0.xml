@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="ccadca4e-2fbd-4b28-8d92-f826f3019bd0" Status="Complete" CreatedOn="2023-12-01T07:41:05.5600433Z" ModifiedOn="2024-09-25T11:59:20.7314452Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="ProgramControls_FileRepositoryPictures" BuildFlags="">
+  <Title m="2023-12-01T07:41:33.8165201Z">Práca s obrázkami</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-09-25T11:59:20.7314452Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;popisuje &lt;STRONG&gt;možnosti práce s&amp;nbsp;obrázkami&lt;/STRONG&gt; v&amp;nbsp;systéme OBERON.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Systém OBERON umožňuje vo vybraných evidenciách používať obrázky.&amp;nbsp;Oblasti použitia sú veľmi rôznorodé a&amp;nbsp;zahŕňajú predovšetkým tieto prípady: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;logo firmy a prevádzok&lt;/STRONG&gt; - program umožňuje nastaviť logo účtovnej jednotky, prípadne prevádzky,&amp;nbsp;ktoré sa bude tlačiť napr. na vystavených faktúrach. Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="fe609232-2720-4a0f-bacd-713d7d0cbe09" style="auto-update-caption: true"&gt;Logo na faktúre&lt;/A&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;logo firmy na Pokladnici OBERON&lt;/STRONG&gt; - v pravom bočnom paneli &lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnice OBERON&lt;/A&gt;&amp;nbsp;možno na mieste,&amp;nbsp;kde&amp;nbsp;sa predvolene zobrazuje logo &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;, nastaviť zobrazovanie loga účtovnej jednotky. Viac informácií v&amp;nbsp;téme &lt;A href="c9f7216f-f252-4be3-aa26-3e9bb6d4c887" style="auto-update-caption: true"&gt;Nastavenie vzhľadu Pokladnice OBERON&lt;/A&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;obrázok skupiny v&amp;nbsp;pokladnici&lt;/STRONG&gt; - v&amp;nbsp;&lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnici OBERON&lt;/A&gt;&amp;nbsp;sa na tlačidlách skupín v pokladnici môžu zobrazovať obrázky. Viac informácií v téme&amp;nbsp;&lt;A href="9b8fe798-5f73-41eb-a068-6f6edb55ae9d" style="auto-update-caption: true"&gt;Režim Fast food&lt;/A&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;obrázok skladovej karty&lt;/STRONG&gt; - skladovej karte možno priradiť viacero obrázkov, ktoré nemusia mať nastavený žiadny príznak alebo im možno nastaviť osobitný príznak. Viac informácií v&amp;nbsp;téme &lt;A href="fa471057-f995-4987-b25d-6b5b16f939e3" style="auto-update-caption: true"&gt;Formulár Dokument (obrázok)&lt;/A&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;obrázok kategórie skladovej karty&lt;/STRONG&gt; - každej kategórii je možné priradiť obrázok, ktorý sa prenáša do internetového obchodu. Viac informácií v&amp;nbsp;téme&amp;nbsp;&lt;A href="4dfc2d36-f1c8-4b60-81c4-62e8e5197b99" style="auto-update-caption: true"&gt;Kategórie skladových kariet&lt;/A&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;obrázok položky v aplikácii &lt;EM&gt;OBERON eMenu&lt;/EM&gt;&lt;/STRONG&gt; - pridáva sa vo&amp;nbsp;&lt;A href="fa471057-f995-4987-b25d-6b5b16f939e3"&gt;formulári Dokument (obrázok)&lt;/A&gt;&amp;nbsp;ako obrázok skladovej karty s&amp;nbsp;príznakom &lt;STRONG&gt;&lt;EM&gt;Malý obrázok (na zobrazenie náhľadu)&lt;/EM&gt;&lt;/STRONG&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;obrázok skupiny v&amp;nbsp;aplikácii LUKUL&lt;/STRONG&gt; - nastavujú sa ako obrázky skupín v pokladnici vo &lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;formulári Skladová karta,&lt;/A&gt; záložka &lt;EM&gt;Reg.&amp;nbsp;pokladnice&lt;/EM&gt;. Základné obrázky skupín v&amp;nbsp;pokladnici sú predvolené, ďalšie obrázky si môže účtovná jednotka&amp;nbsp;ľubovoľne doplniť. Viac informácií v&amp;nbsp;téme &lt;A href="2f634ed7-507e-4cf9-a6bf-6e68510e6f57" style="auto-update-caption: true"&gt;Aplikácia LUKUL - nastavenia v OBERON-e&lt;/A&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;obrázok položky eMenu v&amp;nbsp;aplikácii LUKUL&lt;/STRONG&gt; - pridáva sa vo&amp;nbsp;&lt;A href="fa471057-f995-4987-b25d-6b5b16f939e3"&gt;formulári Dokument (obrázok)&lt;/A&gt;&amp;nbsp;ako obrázok skladovej karty s&amp;nbsp;príznakom &lt;STRONG&gt;&lt;EM&gt;Malý obrázok (na zobrazenie náhľadu)&lt;/EM&gt;&lt;/STRONG&gt;. Viac informácií v&amp;nbsp;téme &lt;A href="2f634ed7-507e-4cf9-a6bf-6e68510e6f57" style="auto-update-caption: true"&gt;Aplikácia LUKUL - nastavenia v OBERON-e&lt;/A&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;podrobnosti o&amp;nbsp;položkách v&amp;nbsp;aplikácii LUKUL&lt;/STRONG&gt; - obrázky sa pridávajú ako obrázky skladovej karty vo&amp;nbsp;&lt;A href="fa471057-f995-4987-b25d-6b5b16f939e3"&gt;formulári Dokument (obrázok)&lt;/A&gt;. Obrázky je &lt;STRONG&gt;nutné pridať do databázy&lt;/STRONG&gt;. Sú určené na prezentáciu jednotlivých jedál a nápojov spravidla vlastnými fotografiami, preto by mali mať dostatočnú veľkosť. Viac informácií v&amp;nbsp;téme &lt;A href="2f634ed7-507e-4cf9-a6bf-6e68510e6f57" style="auto-update-caption: true"&gt;Aplikácia LUKUL - nastavenia v OBERON-e&lt;/A&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;obrázok podpisu a&amp;nbsp;pečiatky&lt;/STRONG&gt; - priraďuje sa používateľovi&amp;nbsp;a&amp;nbsp;je určený na tlač na doklade (napr. faktúre, dodacom liste, objednávke...). Viac informácií v&amp;nbsp;téme &lt;A href="263345a9-095c-462c-9c0e-7e5eb28e7dff" style="auto-update-caption: true"&gt;Ako pridať na faktúru podpis alebo pečiatku?&lt;/A&gt; 
+&lt;LI&gt;&lt;STRONG&gt;obrázky (ikony)&lt;/STRONG&gt; - malé obrázky (ikony) v&amp;nbsp;rôznych evidenciách a číselníkoch, napr. &lt;EM&gt;Správa údržby, Kalendár podujatí, Požiadavky hosťa, Zoznam stolov&lt;/EM&gt;, obrázky zdrojov rezervácií, typov úloh, udalostí a CRM zložiek atď. 
+&lt;LI&gt;&lt;STRONG&gt;obrázky príloh&lt;/STRONG&gt; - okrem predchádzajúcich prípadov systém OBERON umožňuje vo vybraných evidenciách evidovať obrázky v&amp;nbsp;rámci tzv. &lt;STRONG&gt;príloh&lt;/STRONG&gt;. Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="79eb5ae4-3bae-4a0c-be52-69c1ed8e59e5" style="auto-update-caption: true"&gt;Práca s prílohami&lt;/A&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;obrázky hromadných správ (kampaní)&lt;/STRONG&gt; - do&amp;nbsp;hromadných správ (kampaní) možno okrem textu vkladať aj&amp;nbsp;obrázky. Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="f7710ccc-3e00-4ba2-a8d6-c11f18f5ddae" style="auto-update-caption: true"&gt;Hromadné správy (kampane)&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Tabuľka č. 1: Prehľad používania obrázkov v OBERON-e s&amp;nbsp;odporúčanými parametrami&lt;/H5&gt;
+&lt;TABLE id=table2 style="WIDTH: 80%" borderColor=silver cellSpacing=0 cellPadding=2 width="50%" border=1&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TD width="10%" align=center&gt;&lt;B style="COLOR: rgb(0,0,0)"&gt;Obrázok&lt;/B&gt;&lt;/TD&gt;
+&lt;TD bgColor=#d9e1f2 width="3%" align=center&gt;&lt;B style="COLOR: rgb(0,0,0)"&gt;Odporúčané rozmery&amp;nbsp;(px)&lt;/B&gt;&lt;/TD&gt;
+&lt;TD bgColor=#d9e1f2 width="3%" align=center&gt;&lt;B style="COLOR: rgb(0,0,0)"&gt;Odporúčaná veľkosť&amp;nbsp;(kB)&lt;/B&gt;&lt;/TD&gt;
+&lt;TD bgColor=#d9e1f2 width="5%" align=center&gt;&lt;B&gt;Odporúčaný formát&lt;/B&gt;&lt;/TD&gt;
+&lt;TD bgColor=#d9e1f2 width="3%" align=center&gt;&lt;B&gt;Podpora Drag&amp;amp;Drop&lt;/B&gt;&lt;/TD&gt;
+&lt;TD bgColor=#d9e1f2 width="10%" align=center&gt;&lt;B&gt;Spôsob ukladania&lt;/B&gt;&lt;/TD&gt;
+&lt;TD bgColor=#d9e1f2 width="3%" align=center&gt;&lt;B&gt;Export do e-shopu&lt;/B&gt;&lt;/TD&gt;
+&lt;TD bgColor=#d9e1f2 width="10%" align=center&gt;&lt;B&gt;Nastavenie v&amp;nbsp;programe&lt;/B&gt;&lt;/TD&gt;
+&lt;TD bgColor=#d9e1f2 width="10%" align=center&gt;&lt;STRONG&gt;Viac informácií&lt;/STRONG&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc width=3&gt;&lt;B&gt;Logo firmy/prevádzky&lt;/B&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" width=38 align=center&gt;102&amp;nbsp;x&amp;nbsp;102&lt;/TD&gt;
+&lt;TD align=center&gt;10&amp;nbsp;-&amp;nbsp;15&lt;/TD&gt;
+&lt;TD align=center&gt;PNG, JPG, GIF&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;Do databázy/mimo databázy&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;A href="a833ee8a-1289-42b9-923f-80f549497702" style="auto-update-caption: true"&gt;Údaje o firme&lt;/A&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;A href="fe609232-2720-4a0f-bacd-713d7d0cbe09" style="auto-update-caption: true"&gt;Logo na faktúre&lt;/A&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc width=3&gt;&lt;B&gt;Pokladnica OBERON - logo firmy&lt;/B&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" width=38 align=center&gt;102&amp;nbsp;x&amp;nbsp;102&lt;/TD&gt;
+&lt;TD align=center&gt;10&amp;nbsp;-&amp;nbsp;15&lt;/TD&gt;
+&lt;TD align=center&gt;PNG, JPG, GIF&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;Do databázy/mimo databázy&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;A href="422aed09-2423-4763-b538-639c0493b060"&gt;Formulár Nastavenie vzhľadu pokladnice&lt;/A&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;A href="c9f7216f-f252-4be3-aa26-3e9bb6d4c887" style="auto-update-caption: true"&gt;Nastavenie vzhľadu Pokladnice OBERON&lt;/A&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc width=3&gt;&lt;STRONG&gt;Pokladnica OBERON - obrázok zadanej položky&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" width=38 align=center&gt;64&amp;nbsp;x&amp;nbsp;64&lt;/TD&gt;
+&lt;TD align=center&gt;5&amp;nbsp;-&amp;nbsp;10&lt;/TD&gt;
+&lt;TD align=center&gt;PNG&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;Do databázy/mimo databázy&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P&gt;&lt;A href="fa471057-f995-4987-b25d-6b5b16f939e3" style="auto-update-caption: true"&gt;Formulár Dokument (obrázok)&lt;/A&gt;&lt;BR&gt;&lt;STRONG&gt;&lt;EM&gt;Základný (predvolený) obrázok&lt;/EM&gt;)&lt;/STRONG&gt;&lt;/P&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;A href="c9f7216f-f252-4be3-aa26-3e9bb6d4c887" style="auto-update-caption: true"&gt;Nastavenie vzhľadu Pokladnice OBERON&lt;/A&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc width=3&gt;&lt;B&gt;Pokladnica OBERON - skupiny v&amp;nbsp;pokladnici&lt;/B&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" width=38 align=center&gt;64&amp;nbsp;x&amp;nbsp;64&lt;/TD&gt;
+&lt;TD align=center&gt;5&amp;nbsp;-&amp;nbsp;10&lt;/TD&gt;
+&lt;TD align=center&gt;PNG&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;Do databázy/mimo databázy&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;A href="07957769-848a-42b8-8d4b-678f7246396c" style="auto-update-caption: true"&gt;Skladové karty - skupiny v pokladnici&lt;/A&gt;&amp;nbsp;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;A href="9b8fe798-5f73-41eb-a068-6f6edb55ae9d" style="auto-update-caption: true"&gt;Režim Fast food&lt;/A&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc width=3&gt;&lt;STRONG&gt;Obrázok položky pre internetový obchod&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" width=38 align=center&gt;800&amp;nbsp;x&amp;nbsp;800&lt;/TD&gt;
+&lt;TD align=center&gt;100&amp;nbsp;-&amp;nbsp;150&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P&gt;JPG&lt;BR&gt;(biele pozadie)&lt;/P&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;Do databázy/mimo databázy&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;A href="fa471057-f995-4987-b25d-6b5b16f939e3" style="auto-update-caption: true"&gt;Formulár Dokument (obrázok)&lt;/A&gt;&lt;BR&gt;&lt;EM&gt;&lt;STRONG&gt;Odosielať do internetového obchodu&lt;/STRONG&gt;&lt;/EM&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1" style="auto-update-caption: true"&gt;Formulár Skladová karta&lt;/A&gt;&amp;nbsp;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc width=3&gt;&lt;STRONG&gt;Obrázok kategórie&lt;/STRONG&gt; &lt;STRONG&gt;pre internetový obchod&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" width=38 align=center&gt;800&amp;nbsp;x&amp;nbsp;800&lt;/TD&gt;
+&lt;TD align=center&gt;100&amp;nbsp;-&amp;nbsp;150&lt;/TD&gt;
+&lt;TD align=center&gt;PNG&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;Do databázy/mimo databázy&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;A href="4dfc2d36-f1c8-4b60-81c4-62e8e5197b99" style="auto-update-caption: true"&gt;Kategórie skladových kariet&lt;/A&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;A href="4dfc2d36-f1c8-4b60-81c4-62e8e5197b99" style="auto-update-caption: true"&gt;Kategórie skladových kariet&lt;/A&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc width=3&gt;&lt;STRONG&gt;OBERON eMenu&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" width=38 align=center&gt;64&amp;nbsp;x&amp;nbsp;64&lt;/TD&gt;
+&lt;TD align=center&gt;5&amp;nbsp;-&amp;nbsp;10&lt;/TD&gt;
+&lt;TD align=center&gt;PNG&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;Do databázy/mimo databázy&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;A href="fa471057-f995-4987-b25d-6b5b16f939e3" style="auto-update-caption: true"&gt;Formulár Dokument (obrázok)&lt;/A&gt;&lt;BR&gt;&lt;EM&gt;&lt;STRONG&gt;Malý obrázok (na zobrazenie náhľadu)&lt;/STRONG&gt;&lt;/EM&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;A href="fe4a9463-d066-4a56-8eee-a728ae1a7220" style="auto-update-caption: true"&gt;Jedálny lístok v mobilnom zariadení&lt;/A&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc width=3&gt;&lt;STRONG&gt;LUKUL - skupiny&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" width=38 align=center&gt;64&amp;nbsp;x&amp;nbsp;64&lt;/TD&gt;
+&lt;TD align=center&gt;5&amp;nbsp;-&amp;nbsp;10&lt;/TD&gt;
+&lt;TD align=center&gt;PNG&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;Do databázy/mimo databázy&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;A href="07957769-848a-42b8-8d4b-678f7246396c" style="auto-update-caption: true"&gt;Skladové karty - skupiny v pokladnici&lt;/A&gt;&amp;nbsp;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;A href="2f634ed7-507e-4cf9-a6bf-6e68510e6f57" style="auto-update-caption: true"&gt;Aplikácia LUKUL - nastavenia v OBERON-e&lt;/A&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc width=3&gt;&lt;STRONG&gt;LUKUL - položky&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" width=38 align=center&gt;64&amp;nbsp;x&amp;nbsp;64&lt;/TD&gt;
+&lt;TD align=center&gt;5&amp;nbsp;-&amp;nbsp;10&lt;/TD&gt;
+&lt;TD align=center&gt;PNG&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;Do databázy/mimo databázy&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;A href="fa471057-f995-4987-b25d-6b5b16f939e3" style="auto-update-caption: true"&gt;Formulár Dokument (obrázok)&lt;/A&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;A href="2f634ed7-507e-4cf9-a6bf-6e68510e6f57" style="auto-update-caption: true"&gt;Aplikácia LUKUL - nastavenia v OBERON-e&lt;/A&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc width=3&gt;&lt;STRONG&gt;LUKUL - podrobnosti o položkách&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" width=38 align=center&gt;
+&lt;P&gt;600&amp;nbsp;x&amp;nbsp;600&lt;/P&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P&gt;100&amp;nbsp;-&amp;nbsp;150&lt;/P&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;PNG&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;Do databázy&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;A href="fa471057-f995-4987-b25d-6b5b16f939e3" style="auto-update-caption: true"&gt;Formulár Dokument (obrázok)&lt;/A&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;A href="2f634ed7-507e-4cf9-a6bf-6e68510e6f57" style="auto-update-caption: true"&gt;Aplikácia LUKUL - nastavenia v OBERON-e&lt;/A&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc width=3&gt;&lt;STRONG&gt;Podpis a pečiatka&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" width=38 align=center&gt;200&amp;nbsp;x&amp;nbsp;100&lt;/TD&gt;
+&lt;TD align=center&gt;10&amp;nbsp;-&amp;nbsp;15&lt;/TD&gt;
+&lt;TD align=center&gt;PNG, JPG, GIF, BMP&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;Do databázy/mimo databázy&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;A href="12e7a96f-bc40-4359-bc7a-213d74a785d4" style="auto-update-caption: true"&gt;Formulár Používateľ&lt;/A&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;A href="263345a9-095c-462c-9c0e-7e5eb28e7dff" style="auto-update-caption: true"&gt;Ako pridať na faktúru podpis alebo pečiatku?&lt;/A&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc width=3&gt;&lt;STRONG&gt;Obrázky (ikony)&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" width=38 align=center&gt;16&amp;nbsp;x&amp;nbsp;16&lt;/TD&gt;
+&lt;TD align=center&gt;1&amp;nbsp;-&amp;nbsp;2&lt;/TD&gt;
+&lt;TD align=center&gt;PNG&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;Do databázy/mimo databázy&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;Rôzne&lt;/TD&gt;
+&lt;TD align=center&gt;Rôzne&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc width=3&gt;&lt;STRONG&gt;Obrázky&amp;nbsp;príloh&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" width=38 align=center&gt;Automatické zmenšovanie&lt;/TD&gt;
+&lt;TD align=center&gt;Automatické zmenšovanie&lt;/TD&gt;
+&lt;TD align=center&gt;Rôzny&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;Do databázy/mimo databázy&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;A href="d36ad291-a0d7-45f5-b79b-489d18ff28ee" style="auto-update-caption: true"&gt;Formulár Príloha&lt;/A&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;A href="79eb5ae4-3bae-4a0c-be52-69c1ed8e59e5" style="auto-update-caption: true"&gt;Práca s prílohami&lt;/A&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc width=3&gt;&lt;STRONG&gt;Obrázky&amp;nbsp;hromadných správ (kampaní)&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" width=38 align=center&gt;Rôzne&lt;/TD&gt;
+&lt;TD align=center&gt;Max. 1024&lt;/TD&gt;
+&lt;TD align=center&gt;Rôzny&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;Do databázy/mimo databázy&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;Formulár Obsah hromadnej správy&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;A href="f7710ccc-3e00-4ba2-a8d6-c11f18f5ddae" style="auto-update-caption: true"&gt;Hromadné správy (kampane)&lt;/A&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;
+&lt;H2&gt;Ďalšie informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Obrázky príloh a obrázky vkladané do &lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;formulára Skladová karta&lt;/A&gt; (tlačidlo &lt;EM&gt;Dokumenty a&amp;nbsp;obrázky&lt;/EM&gt;) možno&amp;nbsp;k&amp;nbsp;jednotlivým záznamom vkladať aj pomocou funkcie &lt;EM&gt;&lt;STRONG&gt;Drag&amp;amp;Drop&lt;/STRONG&gt;&lt;/EM&gt; (angl. &lt;EM&gt;Potiahni a pusť&lt;/EM&gt;). Napríklad jednoduchým potiahnutím myši je možné vložiť&amp;nbsp;obrázok z internetového prehliadača, prípadne&amp;nbsp;z celého radu aplikácií podporovaných systémom &lt;EM&gt;Windows&lt;/EM&gt;, ako sú &lt;EM&gt;Messenger, WhatsApp, Discord&lt;/EM&gt; atď. 
+&lt;LI&gt;Pri prílohách typu obrázok systém OBERON podporuje &lt;STRONG&gt;automatické zmenšovanie&lt;/STRONG&gt; pri ich vkladaní medzi prílohy, ak veľkosť obrázka presahuje maximálnu povolenú veľkosť (nastavenú v&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="5a6e5663-262e-4ff0-9741-1569385d11e4"&gt;oddiel Firma, Všeobecné&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt; záložka &lt;EM&gt;Prílohy&lt;/EM&gt;). Príloha typu BMP (nekomprimovaný formát obrázka) sa automaticky mení na komprimovaný typ JPG, t. j. obrázok je zmenšený vždy. 
+&lt;LI&gt;V nastaveniach programu (ponuka &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="5a6e5663-262e-4ff0-9741-1569385d11e4"&gt;oddiel Firma, Všeobecné&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt; záložka &lt;EM&gt;Prílohy&lt;/EM&gt;) možno zvoliť &lt;STRONG&gt;spôsob&amp;nbsp;ukladania obrázkov, ale aj iných dokumentov&lt;/STRONG&gt; v&amp;nbsp;OBERON-e v rámci príloh: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Do databázy&lt;/STRONG&gt; - obrázky sa budú ukladať priamo do databázy. Každý obrázok uložený v&amp;nbsp;databáze zväčší jej veľkosť, čo by časom mohol byť výrazný problém pri súborovej databáze&amp;nbsp;&lt;EM&gt;Microsoft Access&lt;/EM&gt;, ktorá má maximálnu veľkosť 1GB. Naopak, v&amp;nbsp;prípade SQL servera je to odporúčané nastavenie&amp;nbsp;(keďže v&amp;nbsp;sieťovej prevádzke nie je potrebné zdieľať žiadne ďalšie adresáre na disku). V&amp;nbsp;prípade&amp;nbsp;&lt;A href="9c0e1613-bfdc-48f6-9d03-58aba39dab36"&gt;umiestnenia databázy&lt;/A&gt; mimo lokálnej počítačovej siete (v cloude) je potrebné zvoliť túto možnosť. 
+&lt;LI&gt;&lt;STRONG&gt;Do vyhradeného adresára (mimo databázy)&lt;/STRONG&gt; - súbory sa nakopírujú do nastaveného adresára. Tento adresár by mal byť viditeľný pre všetky počítače v lokálnej počítačovej sieti. Toto riešenie je vhodné pri používaní súborovej databázy &lt;EM&gt;Microsoft Access&lt;/EM&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Je dôležité vedieť, aký spôsob ukladania obrázkov a dokumentov je zvolený a tomu prispôsobiť aj &lt;STRONG&gt;nastavenie zálohovania&lt;/STRONG&gt;. Tým možno predísť prípadom, že síce databáza účtovnej jednotky bude zálohovaná, ale dokumenty a obrázky nie (to isté platí v&amp;nbsp;situácii, keď sa&amp;nbsp;&lt;A href="529e2eb4-6a11-4d0e-bdb1-7fd774dea453"&gt;prenáša databáza do iného počítača, či servera&lt;/A&gt;, aby sa okrem databázy preniesli aj dokumenty a obrázky). &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Funkcia &lt;STRONG&gt;&lt;EM&gt;Drag&amp;amp;Drop&lt;/EM&gt;&lt;/STRONG&gt; je nefunkčná v prípade, že je zdrojová aplikácia&amp;nbsp;spustená s&amp;nbsp;inými oprávneniami ako OBERON (napr. je spustená v&amp;nbsp;režime oprávnenia ako správca, a OBERON nie).&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="f03609ac-6442-4a1d-91c6-3ffaff17928c" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="79eb5ae4-3bae-4a0c-be52-69c1ed8e59e5">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="012060a7-aa5a-42b4-b425-f083095ac74c" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="5a6e5663-262e-4ff0-9741-1569385d11e4">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="566607bd-3190-4222-b69e-5071884b11ab" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1dce6bce-8c7d-443a-b0f9-14ec18f3c9a0">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="5eb78683-b7e4-4874-ba3e-ad62dbfaf317">
+      <Keyword m="2023-12-13T12:56:43.192513Z">Obrázky - práca s nimi</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="eebaf1fa-b1a1-4f0a-a771-8d76924298fe">
+      <Keyword m="2023-12-13T12:55:32.766035Z">Drag&amp;Drop - obrázky</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="ab8436c1-3938-442b-8b8c-5f7b65b6c4db">
+      <Keyword m="2023-11-23T06:54:24.9567266Z">Drag&amp;Drop - nefunguje</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="7d16b372-dd90-4b44-be91-4f61759a0f30">
+      <Keyword m="2024-07-15T08:32:16.1073023Z">Obrázky - tabuľka (veľkosti)</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="f8a81d97-c40a-438b-9b29-175d4dfa9e14">
+      <Keyword m="2023-12-13T12:56:34.54396Z">Obrázky - prehľad odporúčaných parametrov</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

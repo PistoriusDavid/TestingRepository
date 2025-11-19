@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="2fc0a4bc-c3e4-4848-9f4e-700aa0a4c6f1" Status="Complete" CreatedOn="2025-07-23T06:42:55.607152Z" ModifiedOn="2025-07-23T06:45:38.180088Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="OBERON_News_2025_06" BuildFlags="{4AAE0FD4-7313-4FEE-A25F-0785B885F736},826B51BD-B6F0-4B2C-A814-029E169D018F">
+  <Title m="2025-07-23T06:45:38.179079Z">Čo bolo nové vo verzii Jún/2025</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2025-07-23T06:45:10.7525377Z">&lt;P&gt;Dňa 05.06.2025&amp;nbsp;bola&amp;nbsp;vydaná&amp;nbsp;nová verzia ekonomického systému OBERON s&amp;nbsp;označením &lt;STRONG&gt;Jún/2025&lt;/STRONG&gt;. V&amp;nbsp;nasledujúcej časti sú vymenované najdôležitejšie novinky, vylepšenia a&amp;nbsp;opravy oproti verzii&amp;nbsp;&lt;STRONG&gt;Apríl/2025&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;H2&gt;OBERON&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Aida – AI asistentka pre OBERON&lt;/STRONG&gt; - virtuálna asistentka (chatbotka), ktorej úlohou je pomáhať používateľom zefektívniť prácu v systéme OBERON. 
+&lt;LI&gt;&lt;STRONG&gt;Obchodní partneri&lt;/STRONG&gt; - pribudol nový tlačový výstup &lt;EM&gt;Obraty skupín obchodných partnerov&lt;/EM&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;Import SEPA XML&lt;/STRONG&gt; - úprava načítania údajov o bankovom účte. Niektoré banky začali používať iný element (pri BIC). 
+&lt;LI&gt;&lt;STRONG&gt;Notifikácie&lt;/STRONG&gt; - pribudla možnosť upozorňovať používateľa prijatú notifikáciu zvukom. V ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="22339df8-4cc9-4569-8a96-654b454293af"&gt;oddiel Používateľ, Všeobecné&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt; záložka &lt;EM&gt;Ostatné&lt;/EM&gt; je možné upozornenie zvukom vypnúť (predvolene zapnuté). &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Účtovníctvo&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Evidencia e-Kasa dokladov&lt;/STRONG&gt; - v účtovnom (peňažnom) denníku&amp;nbsp;bolo upravené sťahovanie eKasa dokladov vystavených v roku 2024, kde FS prestala zasielať rekapituláciu dokladu, a preto sa musí dopočítavať z položiek (ako v roku 2025). 
+&lt;LI&gt;&lt;STRONG&gt;Sťahovanie bankových výpisov&lt;/STRONG&gt; - pribudlo prepojenie s externým systémom&amp;nbsp;&lt;EM&gt;&lt;STRONG&gt;Everifin&lt;/STRONG&gt;&lt;/EM&gt;, ktorý umožňuje sťahovať bankové výpisy (transakcie) zo všetkých slovenských bánk, ako aj z väčšiny bánk EÚ. Viac informácií v&amp;nbsp;téme&amp;nbsp;&lt;A href="bfbd5782-31d5-47a6-a664-1897881b652f" style="auto-update-caption: true"&gt;Prepojenie s Everifin&lt;/A&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;Bankové výpisy typu GPC&lt;/STRONG&gt; - úprava overenia údajov v súbore. 
+&lt;LI&gt;&lt;STRONG&gt;Účtovný denník&lt;/STRONG&gt; - v kontextovej ponuke pribudla položka &lt;EM&gt;Prilepiť&lt;/EM&gt; &lt;EM&gt;špeciálne&lt;/EM&gt; - umožňuje hromadne vytvoriť viac zápisov, napr. účtovný predpis nájomného na celý účtovný rok. 
+&lt;LI&gt;&lt;STRONG&gt;Peňažný denník&lt;/STRONG&gt; - v kontextovej ponuke pribudla položka &lt;EM&gt;Prilepiť špeciálne&lt;/EM&gt; - umožňuje hromadne vytvoriť viac zápisov, napr. pravidelne sa opakujúce zápisy v pokladni, nepeňažné operácie (interné doklady). &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Skladová evidencia&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Rozšírená cenotvorba&lt;/STRONG&gt; - platnosť pravidla rozšírenej cenotvorby je možné určiť na základe čísla použitej vernostnej karty, napr. ak začína (obsahuje, končí) určitým číslom, použije sa cenotvorba určená daným pravidlom. 
+&lt;LI&gt;&lt;STRONG&gt;Vernostný systém&lt;/STRONG&gt; - pribudol nový typ s názvom &lt;EM&gt;Len evidovanie vernostných kariet&lt;/EM&gt;. Nejde o štandardný vernostný systém, avšak umožňuje evidovať na &lt;EM&gt;Pokladnici OBERON&lt;/EM&gt; použitú vernostnú kartu a tieto dáta o predaji následne exportovať do externého systému. 
+&lt;LI&gt;&lt;STRONG&gt;Automatická tvorba objednávok&lt;/STRONG&gt; - úprava objednávania z prijatých objednávok. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Pokladnica OBERON&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Elcom Efox&lt;/STRONG&gt; - oprava duplicitnej tlače potvrdenky o platbe kartou. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;SPAN&gt;V prípade preskočenia viacerých verzií programu je dôležité si prečítať informácie o novinkách, vylepšeniach a&amp;nbsp;opravách&amp;nbsp;aj&amp;nbsp;z&amp;nbsp;&lt;A href="dc832235-0e36-4aac-ae54-e51641eb2f50"&gt;predchádzajúcich verzií&lt;/A&gt;&lt;STRONG&gt;.&lt;/STRONG&gt; V&amp;nbsp;niektorej z&amp;nbsp;predošlých verzií mohlo dôjsť k&amp;nbsp;dôležitým zmenám, o&amp;nbsp;ktorých je v&amp;nbsp;niektorých prípadoch nevyhnutné vedieť.&lt;/SPAN&gt;&lt;/innovasys:widgetproperty&gt; &lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="c7357ab9-e0d8-47e3-b432-b3034ba1bd58" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="dc832235-0e36-4aac-ae54-e51641eb2f50">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="0aff6ea2-d3f9-4c1e-9000-f2192f9f2edc">
+      <Keyword m="2014-11-24T11:38:34.3847265Z">Verzia</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

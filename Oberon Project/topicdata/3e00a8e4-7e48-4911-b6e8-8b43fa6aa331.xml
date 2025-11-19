@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="3e00a8e4-7e48-4911-b6e8-8b43fa6aa331" Status="Complete" CreatedOn="2016-02-16T08:44:18.2831787Z" ModifiedOn="2024-11-11T12:17:15.5720938Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Vehicles_Started_PHL_AccountCoding" BuildFlags="">
+  <Title m="2023-05-04T12:30:48.7718448Z">Účtovanie PHL pri uplatňovaní 80 % paušálnych výdavkov</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-11-11T12:17:15.5720938Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;postup pri uplatňovaní preukázateľne vynaložených daňových výdavkov na spotrebované pohonné látky (PHL) formou uplatnenia paušálnych výdavkov do výšky 80 %&lt;/STRONG&gt; &lt;STRONG&gt;z celkového preukázateľného nákupu PHL&lt;/STRONG&gt; za príslušné zdaňovacie obdobie.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Podľa zákona o dani z príjmov môže daňovník pri uplatňovaní preukázateľne vynaložených daňových výdavkov na spotrebované PHL postupovať podľa jedného z troch nasledujúcich spôsobov: 
+&lt;OL&gt;
+&lt;LI&gt;&lt;STRONG&gt;na základe dokladov o nákupe PHL&lt;/STRONG&gt; najviac do výšky vykázanej z prístrojov satelitného systému sledovania prevádzky vozidiel, 
+&lt;LI&gt;&lt;STRONG&gt;podľa cien platných v čase nákupu PHL&lt;/STRONG&gt; (na základe dokladu o ich nákupe), prepočítané podľa spotreby uvedenej v osvedčení o evidencii alebo v technickom preukaze, 
+&lt;LI&gt;&lt;STRONG&gt;vo forme paušálnych výdavkov do výšky 80 %&lt;/STRONG&gt; z celkového preukázateľného nákupu PHL za príslušné zdaňovacie obdobie primeraného počtu najazdených kilometrov podľa stavu tachometra na začiatku a na konci príslušného zdaňovacieho obdobia pre každé motorové vozidlo samostatne. &lt;/LI&gt;&lt;/OL&gt;&lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Postup pri uplatňovaní 80&amp;nbsp;% paušálnych výdavkov v podvojnom účtovníctve&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;V&amp;nbsp;programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt; zvoľte ponuku&amp;nbsp;&lt;I&gt;Účtovníctvo,&lt;/I&gt; &lt;EM&gt;Predkontácie.&lt;/EM&gt; Vyberte predkontáciu &lt;EM&gt;&lt;STRONG&gt;Nákup PHL&lt;/STRONG&gt;&lt;/EM&gt; a stlačte tlačidlo &lt;EM&gt;Oprava&lt;/EM&gt;. 
+&lt;LI&gt;Otvorí sa&amp;nbsp;&lt;A href="6510031b-e990-40e6-96aa-d0034df89cdc"&gt;formulár Predkontácia (podvojné účtovníctvo)&lt;/A&gt;,&amp;nbsp;v&amp;nbsp;ktorom v&amp;nbsp;záložke &lt;EM&gt;Základné&lt;/EM&gt; zmeňte číselnú hodnotu &lt;EM&gt;&lt;STRONG&gt;Percento odpočítania&lt;/STRONG&gt;&lt;/EM&gt; na &lt;STRONG&gt;80&amp;nbsp;%&lt;/STRONG&gt;. 
+&lt;LI&gt;V&amp;nbsp;záložke &lt;EM&gt;Účty&lt;/EM&gt;&amp;nbsp;v&amp;nbsp;časti &lt;EM&gt;Základné účty&lt;/EM&gt; nastavte predkontácie pre základ DPH a DPH a v&amp;nbsp;časti &lt;EM&gt;Doplňujúce účty&lt;/EM&gt;&amp;nbsp;v poli &lt;EM&gt;Pripočítateľná položka&lt;/EM&gt; vyberte samostatný analytický nedaňový účet (na Obrázku č. 1&amp;nbsp;je to účet 501 999), na ktorý sa sa preúčtuje 20&amp;nbsp;% nedaňových výdavkov (vo&amp;nbsp;&lt;A href="6909f742-ec64-499d-8ad9-5dd51100a35e"&gt;formulári Účet účtovnej osnovy&lt;/A&gt; začiarknite pole &lt;EM&gt;&lt;STRONG&gt;Nedaňové výdavky (nezdaňovaná činnosť)&lt;/STRONG&gt;&lt;/EM&gt;). &lt;/LI&gt;&lt;/OL&gt;
+&lt;H2&gt;Príklad&lt;/H2&gt;
+&lt;P&gt;Auto je zaradené do majetku firmy, pokladničný doklad v hodnote 50,00 € za nákup&amp;nbsp;PHL&amp;nbsp;je potrebné rozdeliť na 80&amp;nbsp;% daňových výdavkov (40,00 €)&amp;nbsp;a 20&amp;nbsp;% nedaňových výdavkov 10,00 €.&lt;/P&gt;
+&lt;P&gt;Celková suma: 50,00 €&lt;/P&gt;
+&lt;P&gt;80 % z celkovej sumy: 40,00 €&lt;/P&gt;
+&lt;P&gt;DPH (20&amp;nbsp;%) - 6,67 €&lt;/P&gt;
+&lt;P&gt;Základ DPH - 33,33 €&lt;/P&gt;
+&lt;P&gt;20 % z celkovej sumy: 10,00 €&lt;/P&gt;
+&lt;H5&gt;Obrázok č. 1:&amp;nbsp;Zápis v účtovnom denníku&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/Vehicles/Form_Vehicle_AccDoublePHL.png"&gt;&lt;/P&gt;
+&lt;H2&gt;Postup pri uplatňovaní 80&amp;nbsp;% paušálnych výdavkov v&amp;nbsp;jednoduchom účtovníctve&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;V&amp;nbsp;programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt; zvoľte ponuku&amp;nbsp;&lt;I&gt;Účtovníctvo,&lt;/I&gt; &lt;EM&gt;Predkontácie.&lt;/EM&gt; Vyberte predkontáciu &lt;EM&gt;&lt;STRONG&gt;Nákup PHL&lt;/STRONG&gt;&lt;/EM&gt; a stlačte tlačidlo &lt;EM&gt;Oprava&lt;/EM&gt;. 
+&lt;LI&gt;Otvorí sa&amp;nbsp;&lt;A href="a56b7fc5-439a-494e-8c6a-fc1eb485303b"&gt;formulár Predkontácia (jednoduché účtovníctvo)&lt;/A&gt;, v&amp;nbsp;ktorom v&amp;nbsp;záložke&amp;nbsp;&lt;EM&gt;Predvoľby&lt;/EM&gt; zmeňte číselnú hodnotu &lt;EM&gt;&lt;STRONG&gt;Percento odpočítania&lt;/STRONG&gt;&lt;/EM&gt; na &lt;STRONG&gt;80&amp;nbsp;%&lt;/STRONG&gt;. 
+&lt;LI&gt;V&amp;nbsp;záložke&amp;nbsp;&lt;EM&gt;Preúčtovania&lt;/EM&gt;&amp;nbsp;vyberte&amp;nbsp;predkontáciu&amp;nbsp;na preúčtovanie&amp;nbsp;20&amp;nbsp;% daňových výdavkov (vo&amp;nbsp;&lt;A href="a56b7fc5-439a-494e-8c6a-fc1eb485303b"&gt;formulári Predkontácia (jednoduché účtovníctvo)&lt;/A&gt; v&amp;nbsp;záložke &lt;EM&gt;Základné údaje&lt;/EM&gt; v&amp;nbsp;poli &lt;EM&gt;Zapisovať do stĺpca&lt;/EM&gt; vyberte &lt;EM&gt;&lt;STRONG&gt;Výdavok ovplyv. základ dane-zásoby&lt;/STRONG&gt;&lt;/EM&gt;). 
+&lt;LI&gt;Po vykonaní zápisu do peňažného denníka program daný zápis &lt;STRONG&gt;rozúčtuje do dvoch zápisov&lt;/STRONG&gt; - jedného pre&amp;nbsp;celkovú sumu (100 %) a druhého pre zvyšnú sumu (20&amp;nbsp;%) v&amp;nbsp;zápornej hodnote odpočítanú z celkovej sumy&amp;nbsp;(pozri Obrázok č. 2). &lt;/LI&gt;&lt;/OL&gt;
+&lt;H2&gt;Príklad&lt;/H2&gt;
+&lt;P&gt;Auto je zaradené do majetku firmy, pokladničný doklad v hodnote 50,00 € za nákup&amp;nbsp;PHL&amp;nbsp;je potrebné rozdeliť na 80&amp;nbsp;% daňových výdavkov (40,00 €)&amp;nbsp;a 20&amp;nbsp;% nedaňových výdavkov 10,00 €.&lt;/P&gt;
+&lt;P&gt;Celková suma: 50,00 €&lt;/P&gt;
+&lt;P&gt;80 % z celkovej sumy: 40,00 €&lt;/P&gt;
+&lt;P&gt;20 % z celkovej sumy: 10,00 €&lt;/P&gt;
+&lt;H5&gt;Obrázok č. 2:&amp;nbsp;Dva zápisy v peňažnom denníku&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/Vehicles/Form_Vehicle_AccSinglePHL.png"&gt;&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="88473f8a-6cfe-4e57-ace5-4c284ceb6461" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="6510031b-e990-40e6-96aa-d0034df89cdc">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="da42af86-fa0e-4c02-b3b4-0652ca18a581" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="a56b7fc5-439a-494e-8c6a-fc1eb485303b">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="258c17b3-4426-46e9-8507-b1c8e8ad0d49" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="822d4556-571e-4260-ab82-e68d232b1662">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="0692f373-76a7-48ce-825b-d508f82b989e" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="75b0747a-07d3-4044-a463-48cbddb73f49">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="d0347181-6165-43d8-890b-bbcac7ea004b" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="280be3ab-e42c-462b-bb0b-7abeac11b45a">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="f8ebe046-cbca-4a9d-8c85-34627fe2e4e4">
+      <Keyword m="2023-05-04T12:44:06.122717Z">Auto - 80 % výdavky PHL</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="5053171d-e92d-48e8-8e36-224f432f29ff">
+      <Keyword m="2023-05-04T12:32:00.5630535Z">PHL - percento odpočítania 80 %</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="78d99251-d803-475f-83df-22896635964d">
+      <Keyword m="2023-05-04T12:31:38.0003855Z">80 % paušálnych výdavkov - účtovanie PHL</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="89a8d572-c6d5-4eb2-91a4-7738ec68fa0f">
+      <Keyword m="2023-05-04T12:44:01.2586396Z">Príklady účtovania - 80 % výdavky PHL</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

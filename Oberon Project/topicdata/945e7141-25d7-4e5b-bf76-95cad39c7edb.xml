@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="945e7141-25d7-4e5b-bf76-95cad39c7edb" Status="Complete" CreatedOn="2018-03-27T07:14:14.6075827Z" ModifiedOn="2023-10-04T13:07:34.3632998Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Wages_Attendance_Attendance_Record" BuildFlags="">
+  <Title m="2018-04-17T11:30:11.3109938Z">Evidencia dochádzky na softvérových dochádzkových termináloch</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-10-02T09:19:39.6141668Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; je venovaná &lt;STRONG&gt;evidencii dochádzky na softvérových dochádzkových termináloch&lt;/STRONG&gt; podporovaných systémom OBERON.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Systém OBERON umožňuje evidovať dochádzku na dvoch softvérových dochádzkových termináloch: na&amp;nbsp;&lt;A href="6856d140-bbfc-43c6-b0d7-0a6360827bb8"&gt;dochádzkovom termináli OBERON&lt;/A&gt; a&amp;nbsp;na&amp;nbsp;&lt;A href="1e150e57-14b3-4afd-8380-996f4ed00898"&gt;dochádzkovom termináli OBERON - Agenda firmy&lt;/A&gt;. 
+&lt;LI&gt;Kým na používanie dochádzkového&amp;nbsp;terminálu &lt;EM&gt;OBERON&lt;/EM&gt;&amp;nbsp;je potrebné &lt;STRONG&gt;vyhradiť hardvérové zariadenie&lt;/STRONG&gt; (počítač, tablet), dochádzkový terminál &lt;EM&gt;OBERON&amp;nbsp;-&amp;nbsp;Agenda firmy&lt;/EM&gt; je dostupný priamo z programu a je určený na individuálnu evidenciu dochádzky&amp;nbsp;pracovníkov &lt;STRONG&gt;na ich vlastných počítačoch&lt;/STRONG&gt;, napr. pri práci z domu (homeoffice). Samotná evidencia dochádzky na&amp;nbsp;oboch termináloch sa však nelíši. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 1: Dochádzkový terminál &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/Attendance/Form_Attendance_TerminalOBERONAgendafirmy.png"&gt;&lt;/P&gt;
+&lt;H2&gt;&amp;nbsp;Evidencia dochádzky na dochádzkových termináloch &lt;EM&gt;OBERON&lt;/EM&gt; a &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Pri príchode do zamestnania stlačte tlačidlo &lt;STRONG&gt;Príchod&lt;/STRONG&gt; (nie je potrebné najprv stlačiť tlačidlo &lt;STRONG&gt;Práca&lt;/STRONG&gt;, keďže je prednastavené). 
+&lt;LI&gt;Pri odchode zo zamestnania stlačte tlačidlo &lt;STRONG&gt;Odchod&lt;/STRONG&gt; (nie je potrebné najprv stlačiť tlačidlo &lt;STRONG&gt;Práca&lt;/STRONG&gt;, keďže je prednastavené). 
+&lt;LI&gt;Pri neskoršom príchode do zamestnania (napr. od lekára) má pracovník dve možnosti. V prvom prípade stlačí tlačidlo &lt;STRONG&gt;Príchod&lt;/STRONG&gt;. V druhom prípade môže&amp;nbsp;najprv stlačiť&amp;nbsp;príslušné tlačidlo (&lt;EM&gt;Lekár&lt;/EM&gt;) a&amp;nbsp;následne tlačidlo &lt;STRONG&gt;Príchod&lt;/STRONG&gt;. Čas od plánovaného nástupu do zamestnania (definuje sa v ponuke &lt;EM&gt;Mzdy, Dochádzka,&amp;nbsp;&lt;/EM&gt;&lt;A href="05f759ce-29f8-46c1-b195-7dc22fc30cbd"&gt;Pravidlá spracovania dochádzky&lt;/A&gt;) do príchodu sa vtedy bude automaticky počítať do daného druhu neprítomnosti. 
+&lt;LI&gt;Pri skoršom odchode zo zamestnania (napr. služobne) najprv stlačte&amp;nbsp;príslušné tlačidlo (&lt;EM&gt;Služobne&lt;/EM&gt;) a&amp;nbsp;následne tlačidlo &lt;STRONG&gt;Odchod&lt;/STRONG&gt;. Čas&amp;nbsp;do plánovaného odchodu zo zamestnania (definuje sa v ponuke &lt;EM&gt;Mzdy, Dochádzka,&amp;nbsp;&lt;/EM&gt;&lt;A href="05f759ce-29f8-46c1-b195-7dc22fc30cbd"&gt;Pravidlá spracovania dochádzky&lt;/A&gt;) od reálneho odchodu sa vtedy bude automaticky počítať do daného druhu neprítomnosti. 
+&lt;LI&gt;Pri skoršom odchode zo zamestnania s plánovaným návratom&amp;nbsp;(napr. súkromne) najprv stlačte &lt;STRONG&gt;príslušné tlačidlo&lt;/STRONG&gt; a potom&amp;nbsp;tlačidlo &lt;STRONG&gt;Odchod&lt;/STRONG&gt;&lt;EM&gt;.&lt;/EM&gt; Pri návrate&amp;nbsp;stačí stlačiť tlačidlo &lt;STRONG&gt;Príchod&lt;/STRONG&gt;. &lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="56abd9c8-ef1a-4b10-b177-704f8c222e99" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="d616cd9f-1633-4d2d-b827-b072f162a1c8">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="05fa556e-cfae-4bbd-bae1-3fef81addd71" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="28ad3f59-16f3-4162-a0a6-387778cbc7c3">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="4a7bfea9-c8bf-4ddc-9440-07be20fe45b6" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="05f759ce-29f8-46c1-b195-7dc22fc30cbd">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="fdf872a8-1965-4a80-9551-238b9de9714b" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="6856d140-bbfc-43c6-b0d7-0a6360827bb8">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="3a1b994f-58dd-43da-bbf4-059843d88034" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1e150e57-14b3-4afd-8380-996f4ed00898">
+      <Title m="2018-06-13T06:24:49.6243525Z">Dochádzkový terminál OBERON - Agenda firmy</Title>
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="aacd8d66-5c70-4773-a622-8226198d5cd0">
+      <Keyword m="2021-05-10T13:18:24.3638771Z">Softvérové dochádzkové terminály - evidencia dochádzky</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="6c77089e-8a70-4434-9c6b-290b059948a3" Status="Complete" CreatedOn="2014-10-10T08:27:50.4990299Z" ModifiedOn="2023-11-23T13:52:31.3591777Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="30560" Name="Form_AccDouble_NumberSeries" BuildFlags="">
+  <Title m="2014-12-15T12:25:53.515625Z">Formulár Účtovný denník - číselné rady</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-11-23T13:52:31.3591777Z">&lt;P&gt;Formulár &lt;EM&gt;Účtovný denník - číselné rady&lt;/EM&gt; umožňuje&amp;nbsp;&lt;STRONG&gt;definovať číselné rady&lt;/STRONG&gt;, ktoré je možné priradiť k&amp;nbsp;&lt;A href="a6423943-483f-408c-befc-73e849cb6b05"&gt;typom dokladov&lt;/A&gt; v účtovnom denníku. Formulár je dostupný z formulára&amp;nbsp;&lt;EM&gt;Účtovný denník -&amp;nbsp;typ dokladu&lt;/EM&gt;&amp;nbsp;(ponuka &lt;EM&gt;Účtovníctvo&lt;/EM&gt;,&amp;nbsp;&lt;A href="a6423943-483f-408c-befc-73e849cb6b05"&gt;Typy dokladov&lt;/A&gt;, tlačidlo &lt;EM&gt;Nový&lt;/EM&gt; - pri položke &lt;EM&gt;Číselný rad&lt;/EM&gt; stlačte tlačidlo&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_ListButton.png"&gt;).&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Číselný rad predstavuje&amp;nbsp;spôsob&amp;nbsp;číslovania dokladov daného typu v&amp;nbsp;&lt;A href="d8c9bfc8-92d1-4471-8909-e5f8ce602d6c"&gt;účtovnom denníku&lt;/A&gt;. 
+&lt;LI&gt;Číselný rad je možné priradiť k jednému, prípadne k viacerým typom dokladov. Nastaviť číslovanie dokladov daného typu v účtovnom denníku je možné vo formulári &lt;EM&gt;Účtovný denník - typ dokladu&lt;/EM&gt;. Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="a6423943-483f-408c-befc-73e849cb6b05"&gt;Typy dokladov&lt;/A&gt;. 
+&lt;LI&gt;Na definovanie nového číselného radu stlačte tlačidlo&amp;nbsp;&lt;EM&gt;Nový&lt;/EM&gt; alebo &lt;EM&gt;Oprava&lt;/EM&gt;. Otvorí sa formulár &lt;EM&gt;Účtovný denník - číselný rad&lt;/EM&gt;, ktorý je popísaný nižšie. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Popis formulára &lt;EM&gt;Účtovný denník - číselný rad&lt;/EM&gt;&lt;/H2&gt;
+&lt;P&gt;Formulár je dostupný z&amp;nbsp;formulára&amp;nbsp;&lt;EM&gt;Účtovný denník - číselné rady&amp;nbsp;&lt;/EM&gt;po stlačení tlačidla &lt;EM&gt;Nový&lt;/EM&gt; alebo &lt;EM&gt;Oprava&lt;/EM&gt;.&lt;/P&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Názov&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Pomenovanie číselného radu.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Spôsob číslovania&amp;nbsp;&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Spôsob číslovania predstavuje spôsob, akým&amp;nbsp;bude program číslovať doklady daného typu v&amp;nbsp;účtovnom denníku. Dostupné spôsoby číslovania:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Štandardné číslovanie&lt;/STRONG&gt; -&amp;nbsp;program pri vytvorení nového dokladu zistí najvyššie číslo dokladu, zvýši ho o 1 a toto číslo pridelí vytváranému dokladu. Tento postup je nemenný bez ohľadu na dátum dokladu. Príklad: pri vytváraní dokladu so spätnou platnosťou (spätným dátumom) program pridelí najvyššie číslo tak, akoby to bol aktuálny doklad. 
+&lt;LI&gt;&lt;STRONG&gt;Nečíslovať&lt;/STRONG&gt; - program nebude pri vytvorení nového dokladu vypĺňať pole &lt;EM&gt;Doklad&lt;/EM&gt; vo&amp;nbsp;&lt;A href="bc2ddb1a-1ece-4899-841a-e180956c3702"&gt;formulári Zápis v účtovnom denníku&lt;/A&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;Nečíslovať - pamätať si posledný doklad&lt;/STRONG&gt; - program pri vytvorení nového dokladu zadá do poľa &lt;EM&gt;Doklad&lt;/EM&gt; číslo posledného dokladu. 
+&lt;LI&gt;&lt;STRONG&gt;Nečíslovať - dopĺňať interné číslo&lt;/STRONG&gt; - program doklady nečísluje, ale do poľa &lt;EM&gt;Doklad&lt;/EM&gt; dopĺňa interné číslo. &lt;/LI&gt;&lt;/UL&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Kontrolovať duplicitu&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Pri novom zápise do účtovného denníka program skontroluje, či sa doklad s daným číslom už&amp;nbsp;v&amp;nbsp;účtovnom denníku nenachádza.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Číslovať od&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Zadáva sa číslo, od ktorého sa bude číslovať, napr. Int001, B1-001&lt;EM&gt;.&lt;/EM&gt; Pri zaúčtovaní dokladu do účtovného denníka sa&amp;nbsp;danému dokladu&amp;nbsp;priradí číselné označenie automaticky. Číselné označenie&amp;nbsp;dokladov&amp;nbsp;spravidla pozostáva z&amp;nbsp;tzv. prefixu, ktorý môže obsahovať všetky alfanumerické znaky, a číselného indexu. Číselné označenie je potrebné zvoliť tak, aby číselný index, ktorý bude program automaticky navyšovať, bol &lt;STRONG&gt;na konci číselného označenia&lt;/STRONG&gt;, napr. B1-001 (kde&amp;nbsp;P predstavuje alfanumerický&amp;nbsp;prefix a&amp;nbsp;0001 číselný index). Do číselného indexu prvého čísla dokladu &lt;SPAN style="COLOR: rgb(255,0,0)"&gt;je nutné doplniť potrebný počet núl podľa predpokladaného najvyššieho dosiahnutého čísla dokladu&lt;/SPAN&gt;, napr. B1-001&amp;nbsp;pri predpokladanom najvyššom počte&amp;nbsp;daných dokladov 999.&lt;/P&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Bližšie informácie o číslovaní dokladov (záznamov) v&amp;nbsp;systéme OBERON získate v téme&amp;nbsp;&lt;A href="9aa7dbb1-f4a7-405e-8465-78b2133e0fd3"&gt;Číslovanie dokladov (záznamov)&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Poznámka&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Zadáva sa napr. bližší popis daného číselného radu.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="9ddda83f-4cc4-4626-be70-790da7b8697c" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="a6423943-483f-408c-befc-73e849cb6b05">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="8007c08d-d6f0-42d8-810d-6cdd492fe628" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="9aa7dbb1-f4a7-405e-8465-78b2133e0fd3">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="ed2d789e-674e-4d40-a517-6af4fddbc4d1">
+      <Keyword m="2015-04-21T11:49:50.140625Z">Číselné rady v účtovnom denníku</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="826b5e6e-71b2-4071-876c-f69132a101cf">
+      <Keyword m="2023-10-16T09:14:25.6486822Z">Účtovný denník - číselné rady - formulár</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="cdaa015c-3e3f-43ca-aac3-e34967ae1414">
+      <Keyword m="2023-10-16T09:15:44.995452Z">Číslovanie dokladov v účtovnom denníku - nastavenie</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

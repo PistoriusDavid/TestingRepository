@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="868b6d78-95e3-441c-b92d-3766d440ae08" Status="Complete" CreatedOn="2015-09-02T12:03:11.4307891Z" ModifiedOn="2023-10-30T07:19:29.008281Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="90230" Name="Form_CRM_LocationDocuments" BuildFlags="">
+  <Title m="2023-05-22T11:39:57.3410499Z">Formulár Umiestnenie</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-10-17T07:45:25.3376984Z">&lt;P&gt;Formulár&amp;nbsp;&lt;I&gt;Umiestnenie&lt;/I&gt; umožňuje definovať, resp. upraviť už definované umiestnenie, t.&amp;nbsp;j. budovu, miestnosť alebo iný organizačný útvar účtovnej jednotky v&amp;nbsp;module &lt;A href="f1a6963d-36aa-4134-92a5-fa47a4345e74"&gt;CRM a registratúra&lt;/A&gt;, v&amp;nbsp;ktorom sa fyzicky umiestňujú dokumenty.&amp;nbsp;Formulár je dostupný z&amp;nbsp;programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt; z&amp;nbsp;&lt;A href="2af84798-6d4b-40bc-8b7b-e537906a909c"&gt;formulára Záznam v registratúrnom (podacom) denníku&lt;/A&gt;, tlačidlo&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_ListButton.png"&gt;&amp;nbsp;pri rozbaľovacom zozname &lt;EM&gt;Umiestnenie&lt;/EM&gt;. Otvorí sa číselník&amp;nbsp;&lt;I&gt;Umiestnenia&lt;/I&gt;, v&amp;nbsp;ktorom stlačte tlačidlo&amp;nbsp;&lt;EM&gt;Nový&lt;/EM&gt; alebo &lt;EM&gt;Oprava&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Popis formulára &lt;EM&gt;Umiestnenie&lt;/EM&gt;&lt;/H2&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Názov&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Zadáva sa&amp;nbsp;pomenovanie umiestnenia.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Vymazanie&amp;nbsp;záznamu zo zoznamu umiestnení nijako neovplyvní zadané umiestnenia v záznamoch&amp;nbsp;&lt;A href="0fe6411c-9069-4097-b90f-e69f01a61569"&gt;registratúrneho (podacieho) denníka&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="505d89e5-98a9-4b74-9045-157a4029e597" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="2af84798-6d4b-40bc-8b7b-e537906a909c">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="93ba2e21-fa89-4e73-bb5c-868c73e00776" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="4b79a1e8-1752-4eda-95fc-5c72989d5e31">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="5f27d07c-7e11-434d-bb13-87a513539e77" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="0fe6411c-9069-4097-b90f-e69f01a61569">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="b32812a8-943e-4e0b-9533-d0f8fdf0d224">
+      <Keyword m="2023-05-22T11:40:19.7755539Z">Umiestnenie - formulár</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

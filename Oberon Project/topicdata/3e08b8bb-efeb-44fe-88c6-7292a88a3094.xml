@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="3e08b8bb-efeb-44fe-88c6-7292a88a3094" Status="Complete" CreatedOn="2018-09-11T08:02:35.9615313Z" ModifiedOn="2022-12-06T08:04:52.3978551Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="30440" Name="AccDouble_Advanced_FiscalYear" BuildFlags="">
+  <Title m="2018-09-11T08:03:07.3165087Z">Hospodársky rok</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2022-12-06T08:03:29.4169415Z">&lt;P&gt;V tejto téme &lt;EM&gt;Pomocníka&lt;/EM&gt; sú uvedené &lt;STRONG&gt;informácie o&amp;nbsp;hospodárskom roku&amp;nbsp;&lt;/STRONG&gt;- jednom z&amp;nbsp;účtovných období v&amp;nbsp;systéme OBERON.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Účtovným&amp;nbsp;obdobím v systéme OBERON je štandardne &lt;STRONG&gt;kalendárny rok&lt;/STRONG&gt;. Okrem neho však &lt;STRONG&gt;účtovná jednotka - právnická osoba&lt;/STRONG&gt;&amp;nbsp;účtujúca v sústave&amp;nbsp;&lt;A href="49dd3167-870a-4fdf-b631-d4f692f1ed72"&gt;podvojného účtovníctva&lt;/A&gt; môže používať aj &lt;STRONG&gt;hospodársky&amp;nbsp;(fiškálny) rok&lt;/STRONG&gt;. &lt;STRONG&gt;Fyzická osoba - podnikateľ &lt;/STRONG&gt;účtovné obdobie hospodársky rok &lt;STRONG&gt;nemôže uplatniť&lt;/STRONG&gt; a to bez ohľadu na to, či účtuje v sústave&amp;nbsp;&lt;A href="32be28cf-2368-4818-9d24-cfa9d59afb75"&gt;jednoduchého účtovníctva&lt;/A&gt; alebo v sústave&amp;nbsp;&lt;A href="49dd3167-870a-4fdf-b631-d4f692f1ed72"&gt;podvojného účtovníctva&lt;/A&gt;. 
+&lt;LI&gt;Účtovné obdobie hospodársky rok&amp;nbsp;predstavuje obdobie nepretržite za sebou idúcich 12 kalendárnych mesiacov, ktoré nie sú zhodné s kalendárnym rokom. Výnimka je pri prechode z účtovného na hospodársky rok, keď býva obdobie kratšie ako 12 mesiacov. 
+&lt;LI&gt;K&amp;nbsp;zmene účtovného obdobia môže dôjsť &lt;STRONG&gt;len k&amp;nbsp;prvému dňu&lt;/STRONG&gt; kalendárneho mesiaca.&amp;nbsp;Účtovné obdobie, ktorým je hospodársky rok, musí účtovná jednotka uplatňovať &lt;STRONG&gt;minimálne jedno účtovné obdobie&lt;/STRONG&gt;. 
+&lt;LI&gt;Na zmenu účtovného obdobia &lt;STRONG&gt;nie je potrebný súhlas&lt;/STRONG&gt; daňového úradu. Postačuje, ak účtovná jednotka zmenu účtovného obdobia daňovému úradu &lt;STRONG&gt;písomne oznámi&lt;/STRONG&gt; v&amp;nbsp;stanovenom termíne. 
+&lt;LI&gt;Dôvodom prechodu na hospodársky rok býva najčastejšie&amp;nbsp;&lt;STRONG&gt;zladenie účtovného obdobia&amp;nbsp;so sezónnosťou podnikania&lt;/STRONG&gt; (poľnohospodárstvo, cestovný ruch, stavebníctvo atď.). Uplatnenie hospodárskeho roka podnikateľským subjektom, ktorých podnikateľská činnosť má sezónny charakter,&amp;nbsp;spravidla prináša&amp;nbsp;reálnejší výsledok hospodárenia. 
+&lt;LI&gt;Možnosť zmeny účtovného obdobia na hospodársky rok nemajú účtovné jednotky:
+&lt;UL&gt;
+&lt;LI&gt;ktoré sú subjektom verejnej správy,
+&lt;LI&gt;ktorými sú fyzické osoby – podnikatelia, pretože zákon o dani z príjmov pre nich ustanovuje zdaňovacie obdobie iba kalendárny rok.&amp;nbsp;&lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;K úskaliam uplatnenia hospodárskeho roka patrí vyššia administratívna náročnosť. Okrem toho v prípade dane z motorových vozidiel,&amp;nbsp;dane z nehnuteľnosti, mzdového účtovníctva&amp;nbsp;a pod. sa nemenia tradičné termíny pre podanie daňového priznania. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Hospodársky rok v OBERON-e&lt;/H2&gt;
+&lt;P&gt;Medzi najdôležitejšie zmeny patrí:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;validácia dokladov podľa hospodárskeho roka, 
+&lt;LI&gt;&lt;A href="d8c9bfc8-92d1-4471-8909-e5f8ce602d6c"&gt;účtovný denník&lt;/A&gt; sa zobrazuje presne podľa hospodárskeho roka, 
+&lt;LI&gt;účtovná závierka sa zostavuje k poslednému dňu hospodárskeho roka (nie k 31.12. daného roka), 
+&lt;LI&gt;účty sa otvárajú k prvému dňu hospodárskeho roka, 
+&lt;LI&gt;predkontácie, výkazy, licencia sa posudzuje k začiatku účtovného obdobia. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt; 
+&lt;P&gt;Na používanie softvéru OBERON sa zakupujú tzv. ročné licencie, ktoré sú&amp;nbsp;najčastejšie určené na kalendárny rok. V prípade hospodárskeho roka sa licencia zakupuje a posudzuje k dátumu &lt;STRONG&gt;začiatku&amp;nbsp;&lt;/STRONG&gt;hospodárskeho roka (rok dátumu začiatku).&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;Príklad:&lt;/STRONG&gt; Firma uplatňuje&amp;nbsp;hospodársky rok od 01.05.2022 do 30.04.2023 -&amp;nbsp;musí&amp;nbsp;si zakúpiť licenciu na rok 2022.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Nastavenie hospodárskeho roka&lt;/H2&gt;
+&lt;P&gt;Hospodársky rok sa nastavuje&amp;nbsp;v&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="932262cc-b80f-4ce6-aba6-6a7d4a18f5ec"&gt;oddiel Firma, Účtovníctvo&lt;/A&gt;, záložka &lt;EM&gt;Základné&lt;/EM&gt;.&amp;nbsp;Po stlačení tlačidla &lt;EM&gt;Hospodárske roky&lt;/EM&gt;&amp;nbsp;je potrebné nadefinovať začiatok a koniec hospodárskeho roka. Vhodné je nastaviť predchádzajúci, aktuálny a nasledujúci rok. Po nastavení hospodárskych rokov je potrebné nastaviť spracovávané obdobie (ponuka &lt;EM&gt;Firma&lt;/EM&gt;, &lt;EM&gt;Obdobie&lt;/EM&gt;,&amp;nbsp;&lt;A href="6b3b68a9-966a-42c2-8b0e-31fc5f3290df"&gt;Zmena spracovávaného obdobia&lt;/A&gt;). Po zmene účtovného obdobia program dovolí zapísať len doklady z daného účtovného obdobia, t.&amp;nbsp;j. hospodárskeho roka.&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="bc7b0b80-7e33-4bc8-80ee-c716a2eb473f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="49dd3167-870a-4fdf-b631-d4f692f1ed72">
+      <Title m="2021-08-13T09:07:50.1245997Z">Podvojné účtovníctvo - všeobecne o koncepcii</Title>
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="9e8c7fd9-d578-476e-9390-d2f426a84d34" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="6b3b68a9-966a-42c2-8b0e-31fc5f3290df">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="302fbc17-1e12-4ea0-bfee-024ed97d466b">
+      <Keyword m="2018-09-11T08:05:40.9316199Z">Fiškálny rok</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="3b2ff0b1-a778-4cd0-b891-24cd59c19ddb">
+      <Keyword m="2022-12-06T08:04:51.5307405Z">Účtovné obdobie - hospodársky rok</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

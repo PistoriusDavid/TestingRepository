@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="1c4fe40d-4be6-4e94-9ccc-39727c9a6a0c" Status="Complete" CreatedOn="2021-10-13T06:47:47.7679198Z" ModifiedOn="2022-12-19T12:00:36.3808353Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="21080" Name="Exportimport_Import_XLSXFile" BuildFlags="">
+  <Title m="2021-10-13T06:49:07.5467993Z">Import údajov zo súboru typu XLSX</Title>
+  <ContentsTitle m="2021-10-13T12:31:03.8102929Z">Import údajov zo súboru typu XLSX</ContentsTitle>
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2022-12-19T12:00:36.3808353Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; popisuje &lt;STRONG&gt;možnosti importu údajov&amp;nbsp;do&amp;nbsp;systému OBERON zo súboru typu XLSX&lt;/STRONG&gt; (&lt;EM&gt;Libre Office,&lt;/EM&gt; &lt;EM&gt;Microsoft Excel&lt;/EM&gt; a pod.).&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Aj keď do systému OBERON možno jednorazovo&amp;nbsp;&lt;A href="c5b5cbd0-8a60-490b-8bf7-31941d64db60"&gt;naimportovať údaje z vybraných externých účtovných systémov&lt;/A&gt;, tento spôsob importu nepokrýva všetky externé softvéry a&amp;nbsp;ani v&amp;nbsp;rámci jednotlivých softvérov nie je podporovaný import údajov zo všetkých evidencií. V takom prípade je možné využiť import vybraných údajov zo súboru typu XLSX (&lt;EM&gt;Libre Office,&lt;/EM&gt; &lt;EM&gt;Microsoft Excel&lt;/EM&gt; a pod.).&amp;nbsp;Externé&amp;nbsp;účtovné systémy totiž spravidla umožňujú export údajov do súboru typu XLSX. Takto vyexportované údaje je následne možné naimportovať do systému OBERON. 
+&lt;LI&gt;V&amp;nbsp;rámci importu zo súboru typu XLSX systém OBERON umožňuje tak &lt;STRONG&gt;jednorazový import, ako aj aktualizáciu vybraných údajov&lt;/STRONG&gt;. Import, resp. aktualizácia zahŕňa nasledujúce možnosti: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;import (len aktualizovanie) cien skladových položiek&lt;/STRONG&gt; - umožňuje aktualizovať predajné ceny na skladových kartách v&amp;nbsp;ponuke &lt;EM&gt;Sklad&lt;/EM&gt;,&amp;nbsp;&lt;A href="1a33ab0b-2df7-4dc2-962b-8a3319c16831"&gt;Skladové karty&lt;/A&gt;, tlačidlo &lt;EM&gt;Možnosti&lt;/EM&gt;, prípadne importovať skladové karty s&amp;nbsp;akciovou cenou&amp;nbsp;do pravidla rozšírenej cenotvorby &lt;EM&gt;Akciový leták, Akciový leták (dohoda s dodávateľom)&lt;/EM&gt; a &lt;EM&gt;Zmluvné ceny&lt;/EM&gt;&amp;nbsp;(vo&amp;nbsp;&lt;A href="6b018069-d729-4bd0-8bf8-2162d116c247"&gt;formulári Pravidlo cenotvorby&lt;/A&gt;, záložka &lt;EM&gt;Skladové karty&lt;/EM&gt;, tlačidlo &lt;EM&gt;Možnosti&lt;/EM&gt;).&amp;nbsp;Viac informácií v téme&amp;nbsp;&lt;A href="9f876a39-4860-4c68-867c-a911d0aa6c46"&gt;Import predajných cien&lt;/A&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;import (len aktualizovanie) údajov skladových kariet&lt;/STRONG&gt; - umožňuje aktualizovať vybrané údaje na skladových kartách v&amp;nbsp;ponuke &lt;EM&gt;Sklad&lt;/EM&gt;,&amp;nbsp;&lt;A href="1a33ab0b-2df7-4dc2-962b-8a3319c16831"&gt;Skladové karty&lt;/A&gt;, tlačidlo &lt;EM&gt;Možnosti&lt;/EM&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;import skladových kariet&lt;/STRONG&gt; - umožňuje jednorazovo naimportovať skladové karty (a&amp;nbsp;to aj v&amp;nbsp;cudzom jazyku)&amp;nbsp;v&amp;nbsp;ponuke &lt;EM&gt;Sklad&lt;/EM&gt;,&amp;nbsp;&lt;A href="1a33ab0b-2df7-4dc2-962b-8a3319c16831"&gt;Skladové karty&lt;/A&gt;, tlačidlo &lt;EM&gt;Možnosti&lt;/EM&gt;, viac informácií v téme&amp;nbsp;&lt;A href="6e8e65c8-c776-4e45-bf3b-65fca66a1eff"&gt;Import skladových kariet&lt;/A&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;import obchodných partnerov&lt;/STRONG&gt; -&amp;nbsp;umožňuje jednorazovo naimportovať obchodných partnerov v ponuke &lt;EM&gt;Firma&lt;/EM&gt;, &lt;A href="b7a48886-b367-4056-808a-59ba5f871f32"&gt;Obchodní partneri&lt;/A&gt;, tlačidlo &lt;EM&gt;Možnosti&lt;/EM&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;import príjemcov (do CRM)&lt;/STRONG&gt; - umožňuje jednorazovo naimportovať príjemcov správ v ponuke &lt;EM&gt;CRM&lt;/EM&gt;,&amp;nbsp;&lt;A href="e80ec1f4-28f4-496f-8b9c-fc504944fff5"&gt;Zoznam príjemcov správ&lt;/A&gt;, tlačidlo &lt;EM&gt;Možnosti&lt;/EM&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;import úloh a udalostí (do CRM)&lt;/STRONG&gt; - umožňuje jednorazovo naimportovať úlohy a udalosti v ponuke &lt;EM&gt;CRM&lt;/EM&gt;,&amp;nbsp;&lt;A href="a2807e3b-d8b1-4d61-a3b9-63df2783bfda"&gt;Úlohy a udalosti&lt;/A&gt;, tlačidlo &lt;EM&gt;Možnosti.&lt;/EM&gt; 
+&lt;LI&gt;&lt;STRONG&gt;import položiek dokladov&lt;/STRONG&gt; - umožňuje jednorazovo naimportovať položky do záväzku, objednávky prijatej, príjemky a výdajky po stlačení tlačidla &lt;EM&gt;Možnosti&lt;/EM&gt; v&amp;nbsp;príslušnom doklade. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Súbor, ktorý slúži na import údajov do systému OBERON, nemôže byť ľubovoľný súbor XLSX,&amp;nbsp;ale&amp;nbsp;len &lt;STRONG&gt;vzorový&lt;/STRONG&gt; (s vopred definovaným formátom). Takýto súbor je spravidla možné získať v&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="a1ae5eb5-f369-4aab-80b2-c6585166d550"&gt;Správca doplnkov&lt;/A&gt;, oddiel &lt;EM&gt;Ostatné&lt;/EM&gt; nainštalovaním doplnku pre daný import. Po nainštalovaní doplnku sa&amp;nbsp;vzorový súbor uloží do adresára &lt;EM&gt;C:\OBERON_Export_Import&lt;/EM&gt;. Do vzorového súboru&amp;nbsp;je možné spravidla pomocou schránky (clipboard) nakopírovať údaje určené na import (&lt;EM&gt;Ctrl+C&lt;/EM&gt;/&lt;EM&gt;Ctrl+V&lt;/EM&gt;). Pri niektorých importoch sa súbor automaticky otvorí v sprievodcovi daným importom. 
+&lt;LI&gt;Daný vzorový súbor je možné upraviť v rôznych tabuľkových kalkulátoroch (napr. &lt;EM&gt;LibreOffice, Microsoft Excel&lt;/EM&gt;), pričom tabuľkový kalkulátor musí byť nainštalovaný v počítači aj pri samotnom importe. V súbore je potrebné v prvom &lt;STRONG style="COLOR: rgb(255,0,0)"&gt;(červenom) riadku&lt;/STRONG&gt;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;&amp;nbsp;&lt;/SPAN&gt;z rozbaľovacích zoznamov správne vybrať jednotlivé polia v OBERON-e, ku ktorým sa majú priradiť údaje v daných stĺpcoch a do ktorých sa tieto údaje následne naimportujú. 
+&lt;LI&gt;Pri napĺňaní stĺpcov údajmi je potrebné dodržať nasledujúce pokyny: 
+&lt;UL&gt;
+&lt;LI&gt;prvý &lt;STRONG style="COLOR: rgb(255,0,0)"&gt;(červený)&amp;nbsp;riadok&lt;/STRONG&gt;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;&amp;nbsp;&lt;/SPAN&gt;v súbore &lt;STRONG&gt;musí byť zachovaný&lt;/STRONG&gt;, pričom v jednotlivých stĺpcoch je&amp;nbsp;potrebné z&amp;nbsp;rozbaľovacích zoznamov vybrať&amp;nbsp;názov stĺpca (t.&amp;nbsp;j. jednotlivé polia v OBERON-e, napr. &lt;EM&gt;Názov, Čiarový kód, Kód položky, MJ&lt;/EM&gt; atď.), 
+&lt;LI&gt;vo vzorovom súbore &lt;STRONG&gt;musí byť zadané pole&amp;nbsp;na synchronizáciu&lt;/STRONG&gt;&amp;nbsp;zvolené v sprievodcovi importom, podľa ktorého sa budú záznamy v zdrojovej a cieľovej evidencii vyhľadávať (synchronizovať), 
+&lt;LI&gt;prvá položka musí byť umiestená na riadku 2, po ktorej budú nasledovať ďalšie, medzi jednotlivými položkami však &lt;STRONG&gt;nesmie byť prázdny riadok&lt;/STRONG&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="cb8a6b41-bd3a-4697-8433-39c399532218" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="5020b29b-b6e5-48bb-bfc6-800d68d5b8e9">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="ebaa496f-f10e-42ae-8ef9-7d50bb84d2ce" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="c5b5cbd0-8a60-490b-8bf7-31941d64db60">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="b10e76db-19f9-4f70-a2a6-de154f4f87a6" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="6e8e65c8-c776-4e45-bf3b-65fca66a1eff">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="c5ad1680-64f3-4a25-9c02-4a22638ab80d" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="9f876a39-4860-4c68-867c-a911d0aa6c46">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="885b4b58-2506-4aff-b49e-4fff61fde574">
+      <Keyword m="2021-10-13T12:31:38.3482636Z">Excel - import (aktualizácia) údajov</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="8948bbb6-ac83-445c-bbca-1e190e1c309c">
+      <Keyword m="2021-10-13T12:32:03.752259Z">XLSX - import (aktualizácia) údajov</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="870c422f-4908-4cb6-b95f-1bcfa01adbb7">
+      <Keyword m="2021-10-13T07:32:56.9398444Z">Jednorazový import údajov zo súboru typu XLSX</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="0b32c966-cf65-4b8f-9f26-f88bfb33f53c">
+      <Keyword m="2021-10-13T12:31:54.8307516Z">LibreOffice - import (aktualizácia) údajov</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="ee4496c9-ff0e-4f63-a084-b972354fd5f5">
+      <Keyword m="2021-10-13T07:33:09.5095656Z">Aktualizácia údajov zo súboru typu XLSX</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="6c6722bf-2783-4c71-a496-52ba6d47d0bb">
+      <Keyword m="2021-10-27T07:02:35.1962945Z">XLSX importy</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="6c0c408b-c677-473d-a113-a8fea0e90548">
+      <Keyword m="2022-07-18T09:04:00.6673039Z">Import XLSX</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

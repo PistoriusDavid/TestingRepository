@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="7dd24e6f-6f96-4a51-9881-991d948d6392" Status="Complete" CreatedOn="2021-09-23T10:22:05.568267Z" ModifiedOn="2025-04-15T07:25:48.2362764Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="CashRegister_Advanced_Menu" BuildFlags="">
+  <Title m="2021-09-23T10:23:53.4387419Z">Jedálny lístok</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2025-04-15T07:25:48.2362764Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;informácie o jedálnom (nápojovom, raňajkovom atď.) lístku&lt;/STRONG&gt; v&amp;nbsp;systéme OBERON.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;V OBERON-e je možné nadefinovať neobmedzený počet&amp;nbsp;jedálnych (nápojových, raňajkových a pod.) lístkov. Nadefinovať jedálny lístok&amp;nbsp;je možné vo&amp;nbsp;&lt;A href="6b7313ef-9556-46e9-8382-8d937a2ab35d"&gt;formulári Jedálny lístok&lt;/A&gt;&amp;nbsp;(pozri postup nižšie). 
+&lt;LI&gt;Pri každom lístku je možné nadefinovať názov lístka, uvítací text, text na začiatku a na konci, zoznam alergénov, prípadne zadať otváracie hodiny. Následne je možné do vopred nadefinovaných&amp;nbsp;lístkov zaradiť jednotlivé položky -&amp;nbsp;skladové&amp;nbsp;karty (spravidla&amp;nbsp;&lt;A href="2d9e274d-bfb7-43bc-9e70-b091ed82b9b2"&gt;receptúry&lt;/A&gt; - jedlá a&amp;nbsp;nápoje&amp;nbsp;- pozri postup nižšie).&amp;nbsp;Jedna položka (skladová karta) môže byť zaradená do viacerých&amp;nbsp;lístkov súčasne. 
+&lt;LI&gt;Po pridaní skladových položiek je možné jedálny lístok &lt;STRONG&gt;vytlačiť&lt;/STRONG&gt; (tlačový výstup &lt;EM&gt;Jedálny lístok&lt;/EM&gt; v ponuke &lt;EM&gt;Sklad&lt;/EM&gt;) &lt;STRONG&gt;ako&lt;/STRONG&gt; &lt;STRONG&gt;podklad na tvorbu&lt;/STRONG&gt; jedálneho lístka reštauračnej prevádzky (obsahuje údaje o&amp;nbsp;hmotnosti, ceny a kódy pre obsluhu). 
+&lt;LI&gt;Okrem tlačeného jedálneho lístka systém OBERON umožňuje &lt;STRONG&gt;vytvoriť aj jednoduchý elektronický&amp;nbsp;jedálny lístok&lt;/STRONG&gt;, ktorý je možné zobraziť na&amp;nbsp;mobilnom zariadení zákazníka.&amp;nbsp;Ide o&amp;nbsp;webovú miniaplikáciu &lt;STRONG&gt;OBERON eMenu&lt;/STRONG&gt; dostupnú pomocou QR kódu umiestneného na stole alebo na inom&amp;nbsp;vhodnom mieste v rámci reštauračnej prevádzky. Bližšie informácie v téme&amp;nbsp;&lt;A href="fe4a9463-d066-4a56-8eee-a728ae1a7220" style="auto-update-caption: true"&gt;Jedálny lístok v mobilnom zariadení&lt;/A&gt;. 
+&lt;LI&gt;Popri uvedených možnostiach použitia&amp;nbsp;má jedálny lístok v systéme OBERON využitie aj v aplikácii&amp;nbsp;&lt;A href="942d48d5-b290-40f6-8ba3-45cf78f380f9"&gt;LUKUL&lt;/A&gt;&amp;nbsp;na zobrazenie položiek v ponuke &lt;EM&gt;eMenu&lt;/EM&gt; pri jednotlivých režimoch &lt;EM&gt;&lt;STRONG&gt;LUKUL eMenu&lt;/STRONG&gt;&lt;/EM&gt; určených pre zákazníkov (hostí). Viac informácií v téme&amp;nbsp;&lt;A href="942d48d5-b290-40f6-8ba3-45cf78f380f9" style="auto-update-caption: true"&gt;Aplikácia LUKUL&lt;/A&gt;. &amp;nbsp;&amp;nbsp;&amp;nbsp; 
+&lt;LI&gt;Položky v jedálnom lístku je možné rozdeliť do &lt;STRONG&gt;skupín&lt;/STRONG&gt; (napr. &lt;EM&gt;Polievky, Šaláty, Dezerty&lt;/EM&gt; a pod.). Názvy a poradie skupín &lt;STRONG&gt;sa nastavujú ako&lt;/STRONG&gt; &lt;STRONG&gt;kategórie skladových kariet&lt;/STRONG&gt; v&amp;nbsp;ponuke &lt;EM&gt;Sklad&lt;/EM&gt;,&amp;nbsp;&lt;A href="4dfc2d36-f1c8-4b60-81c4-62e8e5197b99" style="auto-update-caption: true"&gt;Kategórie skladových kariet&lt;/A&gt;. Hlavná vetva jedálneho lístka v&amp;nbsp;zozname kategórií, pod ktorou sa budú zobrazovať príslušné kategórie skladových kariet ako skupiny jedál pre daný lístok, sa nastavuje vo&amp;nbsp;&lt;A href="6b7313ef-9556-46e9-8382-8d937a2ab35d"&gt;formulári Jedálny lístok&lt;/A&gt;, záložka &lt;EM&gt;Základné údaje&lt;/EM&gt;. V prípade, že prevádzka používa viacero lístkov (jedálny, nápojový, raňajkový, donáškový...), je potrebné, aby si vytvorila &lt;STRONG&gt;hlavné vetvy kategórií pre každý z&amp;nbsp;týchto lístkov&lt;/STRONG&gt;. 
+&lt;LI&gt;Jedálny lístok môže byť členený &lt;STRONG&gt;až do dvoch úrovní&lt;/STRONG&gt;, napr. &lt;EM&gt;Jedlá z mäsa&lt;/EM&gt; možno ďalej členiť na &lt;EM&gt;Jedlá z&amp;nbsp;bravčového mäsa, Jedlá z kuracieho mäsa&lt;/EM&gt; atď. Okrem toho možno to isté jedlo &lt;STRONG&gt;zaradiť do viacerých skupín&lt;/STRONG&gt;: napr. ak jedlo obsahuje tak kuracie ako aj bravčové mäso, môže byť v jedálnom lístku zaradené do oboch skupín. 
+&lt;LI&gt;Položky v lístku sú &lt;STRONG&gt;zoradené podľa kódu položky&lt;/STRONG&gt; v záložke &lt;EM&gt;Reg. pokladnice&lt;/EM&gt; &lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;formulára Skladová karta&lt;/A&gt;, a to aj v rámci jednotlivých skupín. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Postup vytvorenia jedálneho lístka&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;Vo &lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;formulári Skladová karta&lt;/A&gt; (ponuka &lt;EM&gt;Sklad, Skladové karty&lt;/EM&gt;, tlačidlo&amp;nbsp;&lt;EM&gt;Nový&lt;/EM&gt; alebo &lt;EM&gt;Oprava&lt;/EM&gt;)&lt;EM&gt;&amp;nbsp;&lt;/EM&gt;v&amp;nbsp;záložke &lt;EM&gt;Receptúra&lt;/EM&gt; stlačte tlačidlo &lt;EM&gt;Pridať alebo odobrať&lt;/EM&gt; a&amp;nbsp;následne &lt;EM&gt;Upraviť&lt;/EM&gt; a &lt;EM&gt;Nový.&lt;/EM&gt; Otvorí sa&amp;nbsp;&lt;A href="6b7313ef-9556-46e9-8382-8d937a2ab35d"&gt;formulár Jedálny lístok&lt;/A&gt;. 
+&lt;LI&gt;V&amp;nbsp;otvorenom formulári podľa potreby zadajte: 
+&lt;UL&gt;
+&lt;LI&gt;názov lístka, 
+&lt;LI&gt;uvítací text, 
+&lt;LI&gt;text na začiatku a na konci, 
+&lt;LI&gt;zoznam alergénov, 
+&lt;LI&gt;otváracie hodiny. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Vykonané nastavenia potvrďte stlačením tlačidla &lt;EM&gt;&lt;STRONG&gt;OK&lt;/STRONG&gt;&lt;/EM&gt;. &lt;/LI&gt;&lt;/OL&gt;
+&lt;H2&gt;Postup zaradenia položky (skladovej karty) do jedálneho lístka&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;Vo &lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;formulári Skladová karta&lt;/A&gt; (ponuka &lt;EM&gt;Sklad, Skladové karty&lt;/EM&gt;, tlačidlo&amp;nbsp;&lt;EM&gt;Nový&lt;/EM&gt; alebo &lt;EM&gt;Oprava&lt;/EM&gt;)&lt;EM&gt;&amp;nbsp;&lt;/EM&gt;v&amp;nbsp;záložke &lt;EM&gt;Receptúra&lt;/EM&gt; stlačte tlačidlo &lt;EM&gt;Pridať alebo odobrať&lt;/EM&gt;. 
+&lt;LI&gt;V&amp;nbsp;otvorenom formulári v poli &lt;EM&gt;Všetky skupiny&lt;/EM&gt; vyberte lístok, do ktorého chcete skladovú kartu zaradiť. 
+&lt;LI&gt;Stlačením tlačidla&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_Button_BlueArrow.png"&gt;&amp;nbsp;premiestnite vybraný lístok do poľa &lt;EM&gt;Vybrané skupiny&lt;/EM&gt;. Tým sa skladová karta zaradí do vybraného jedálneho lístka. 
+&lt;LI&gt;Vykonané nastavenia potvrďte stlačením tlačidla &lt;EM&gt;&lt;STRONG&gt;OK&lt;/STRONG&gt;&lt;/EM&gt;. &lt;/LI&gt;&lt;/OL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;&amp;nbsp;Jedna položka (skladová karta) môže byť zaradená do viacerých&amp;nbsp;lístkov súčasne.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H5&gt;Obrázok č. 1:&amp;nbsp;OBERON eMenu&amp;nbsp;(vľavo) a ponuka eMenu v&amp;nbsp;aplikácii LUKUL (vpravo)&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/CashRegister/CashRegister_FoodMenu_Mobil.png"&gt;&amp;nbsp;&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERONMobileSolutions/OBERONMobileSolutions_LUKUL_eMenu.png"&gt;&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="5e8baaa3-3782-497a-a38e-23fe6fb70c61" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1a33ab0b-2df7-4dc2-962b-8a3319c16831">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="2a6d24b2-2b13-4a9c-b9e2-79bf129598ad" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="66ed476e-d5ea-4e46-a758-a3f190a60a7c">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="13b05bb9-669d-4b64-ba25-0cc2ff72d1cc" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="fe4a9463-d066-4a56-8eee-a728ae1a7220">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="e92138c9-229b-4cbc-81e0-19357af95004" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="942d48d5-b290-40f6-8ba3-45cf78f380f9">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="66209817-dfac-40a6-8058-2c1f003c627a" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="4fe96b33-a1cd-4c08-93bc-d553db021c87">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="2edf92d9-e798-4fd3-983a-b479fecbb35b" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="6b7313ef-9556-46e9-8382-8d937a2ab35d">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="8e0379a4-d4d8-4815-96e2-2f272c98a441">
+      <Keyword m="2023-03-08T10:29:00.2915879Z">Tlačený jedálny lístok</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="68feaa0a-75df-4490-a70e-94f03cc5ac40">
+      <Keyword m="2023-03-08T10:29:24.2236774Z">Jedálny lístok - LUKUL</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="14a36c78-d132-4789-ad20-37169618483c">
+      <Keyword m="2023-03-08T10:30:26.5318548Z">Jedálny lístok - elektronický (OBERON eMenu)</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="d5b7dc4b-4f38-4a9a-9973-034b547918db">
+      <Keyword m="2020-07-01T07:39:40.4354966Z">Nápojový lístok</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="3d8f12e8-24e7-4768-b4c7-a06f2e952e48">
+      <Keyword m="2023-03-08T10:29:44.2453881Z">Postup vytvorenia jedálneho/nápojového lístka</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="03fc60f1-3035-499e-8522-66f1f480ebe9">
+      <Keyword m="2023-03-08T10:29:52.5137141Z">Menu - jedálny lístok</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="8ea6960f-733e-4135-8971-ec33844a0f7e">
+      <Keyword m="2023-03-08T10:30:03.8132261Z">Postup zaradenia položky (skladovej karty) do jedálneho/nápojového lístka</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="f0e57886-e61d-4c7b-ab25-f73801dc2629">
+      <Keyword m="2023-03-08T10:30:15.2635291Z">Raňajkový lístok</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="edaba12a-0e88-4bb8-a706-fa555fea0560">
+      <Keyword m="2023-03-08T10:30:55.7904256Z">Jedálny lístok - tlačený</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="a706e5ad-4717-472f-b1a3-9b368ef39aa4" Status="Complete" CreatedOn="2018-06-07T08:39:56.5403982Z" ModifiedOn="2023-09-11T10:32:21.7011115Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Wages_Attendance_Attendance_AboutBreaks" BuildFlags="">
+  <Title m="2018-06-07T08:40:33.0737923Z">O prestávkach v práci</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-09-11T10:31:56.7800156Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; je venovaná &lt;STRONG&gt;prestávkam v práci a ich nastaveniam&lt;/STRONG&gt; v systéme OBERON.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Poskytovanie prestávok v práci zamestnancom patrí medzi zákonné povinnosti&amp;nbsp;zamestnávateľa. Kým niektoré prestávky sa do pracovného času započítavajú, niektoré&amp;nbsp;sa doň,&amp;nbsp;naopak, nezapočítavajú. &lt;EM&gt;Zákonník práce&lt;/EM&gt;&amp;nbsp;definuje tri prestávky v práci: 
+&lt;OL&gt;
+&lt;LI&gt;&lt;STRONG&gt;prestávku na odpočinok a jedenie,&lt;/STRONG&gt; 
+&lt;LI&gt;&lt;STRONG&gt;prestávku poskytovanú z dôvodov zaistenia bezpečnosti a ochrany zdravia zamestnancov pri práci,&lt;/STRONG&gt; 
+&lt;LI&gt;&lt;STRONG&gt;prestávku na dojčenie.&lt;/STRONG&gt; &lt;/LI&gt;&lt;/OL&gt;&lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Prestávka na odpočinok a jedenie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Zamestnanci, ktorých pracovná zmena je dlhšia ako&amp;nbsp;6 hodín (u mladistvých zamestnancov je to 4,5&amp;nbsp;hodiny), majú nárok na prestávku na odpočinok a jedenie v trvaní 30&amp;nbsp;minút. 
+&lt;LI&gt;Prestávka na odpočinok a jedenie nie je pracovným časom, t. j. spravidla sa &lt;STRONG&gt;nezapočítava do pracovného času&lt;/STRONG&gt; a nepatrí za ňu mzda.&amp;nbsp;To znamená, že&amp;nbsp;pri najbežnejšom týždennom pracovnom úväzku 37,5&amp;nbsp;hodiny a prestávke&amp;nbsp;30 minút v jednozmennej prevádzke (napr. administratívni pracovníci) pracovník strávi v práci spolu 40 hodín (37,5 + 2,5), z&amp;nbsp;toho však čas strávený cez prestávku (2,5&amp;nbsp;hodiny) &lt;STRONG&gt;zaplatený nemá&lt;/STRONG&gt;. 
+&lt;LI&gt;Ak však&amp;nbsp;ide o&amp;nbsp;práce, ktoré sa nemôžu prerušiť, musí sa zamestnancovi aj bez prerušenia prevádzky alebo práce zabezpečiť primeraný čas na odpočinok a&amp;nbsp;jedenie. V tomto prípade sa prestávka na odpočinok a jedenie &lt;STRONG&gt;do pracovného času započítava&lt;/STRONG&gt; a patrí za ňu mzda. To znamená, že napr. pri týždennom pracovnom úväzku 37,5 hodiny a prestávke trvajúcej 30&amp;nbsp;minút v&amp;nbsp;nepretržitej prevádzke&amp;nbsp;(typickým príkladom sú pracovníci vo výrobe obsluhujúci stroje a zariadenia alebo vrátnici) pracovník strávi v práci spolu 40 hodín (37,5 + 2,5), z&amp;nbsp;toho však čas strávený cez prestávku (2,5&amp;nbsp;hodiny) &lt;STRONG&gt;zaplatený má&lt;/STRONG&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Nastavenie prestávok v OBERON-e&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Nastavenie prestávok v&amp;nbsp;systéme OBERON sa&amp;nbsp;uskutočňuje vo&amp;nbsp;&lt;A href="95a3b7e2-6135-4860-a655-5724b186b94c"&gt;formulári Pracovný pomer pracovníka&lt;/A&gt;, záložka &lt;EM&gt;Dochádzka.&lt;/EM&gt; Tu je možné nastaviť, či sa prestávka má zahrnúť to odpracovaných hodín a v akej dĺžke v&amp;nbsp;závislosti od typu prevádzky. Napr. pri jednozmennej prevádzke sa prestávka na odpočinok a jedenie &lt;STRONG&gt;nezapočítava do pracovného času&lt;/STRONG&gt;, v tomto prípade sa &lt;STRONG&gt;do uvedeného políčka uvedie nula („0“)&lt;/STRONG&gt;. Pri nepretržitej prevádzke, kde nie je možné prácu prerušiť, sa prestávka na odpočinok a jedenie &lt;STRONG&gt;do pracovného času započítava&lt;/STRONG&gt;, do uvedené políčka &lt;STRONG&gt;sa uvedie dĺžka prestávky v minútach&lt;/STRONG&gt;. 
+&lt;LI&gt;Pre určenie pracovného času v pracovnej zmluve je z vyššie uvedených dôvodov potrebné prihliadať na pracovný úväzok a súčasne aj na možnosť (ne)zahrnúť prestávku do odpracovaných hodín. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č.&amp;nbsp;1: Nastavenie prestávky vo formulári &lt;EM&gt;Pracovný pomer pracovníka&lt;/EM&gt;&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/Attendance/Attendance_prestavku_zahrnut.png"&gt;&lt;/P&gt;
+&lt;H2&gt;Spôsoby evidencie prestávky&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Pri spracovaní dochádzky (evidencie príchodov a odchodov) je možné pomocou&amp;nbsp;&lt;A href="05f759ce-29f8-46c1-b195-7dc22fc30cbd"&gt;Pravidiel&amp;nbsp;spracovania dochádzky&lt;/A&gt; určiť, akým spôsobom sa prestávka zaeviduje a prenesie do miezd.&amp;nbsp;
+&lt;LI&gt;Vo&amp;nbsp;&lt;A href="a507e795-a7e0-4153-be12-61c2ef9185e0"&gt;formulári Pravidlo spracovania dochádzky&lt;/A&gt;&amp;nbsp;je po výbere&amp;nbsp;druhu pravidla &lt;EM&gt;Prestávka&lt;/EM&gt; možné zadať názov prestávky, určiť jej prioritu a zvoliť jeden z&amp;nbsp;nasledujúcich&amp;nbsp;spôsobov evidencie prestávky: 
+&lt;OL&gt;
+&lt;LI&gt;&lt;STRONG&gt;&lt;EM&gt;Evidovať reálnu&lt;/EM&gt;&lt;/STRONG&gt; - prestávka sa bude evidovať v&amp;nbsp;reálnej dĺžke tak, ako bola&amp;nbsp;zaznamenaná na&amp;nbsp;&lt;A href="f46f3a8f-ba04-4359-ba99-dc6caeeba021"&gt;dochádzkovom termináli&lt;/A&gt;, 
+&lt;LI&gt;&lt;EM&gt;&lt;STRONG&gt;Evidovať reálnu (započítať minimálnu dĺžku&lt;/STRONG&gt;)&lt;/EM&gt; -&amp;nbsp;systém bude evidovať reálnu prestávku tak, ako bola zaznamenaná na dochádzkovom termináli, pričom započíta minimálnu dĺžku podľa nastavenia, 
+&lt;LI&gt;&lt;STRONG&gt;&lt;EM&gt;Generovať automaticky&lt;/EM&gt;&lt;/STRONG&gt; - prestávka&amp;nbsp;sa bude generovať&amp;nbsp;automaticky. Používa sa v prípadoch, keď pracovník nechodí na obed (kuchári, čašníci), avšak zo zákona je potrebné evidovať prestávky. &lt;/LI&gt;&lt;/OL&gt;&lt;/LI&gt;&lt;/UL&gt;
+&lt;P&gt;&lt;STRONG&gt;Príklad - Prestávka:&lt;/STRONG&gt;&lt;/P&gt;
+&lt;P&gt;Pracovník má zo zákona nárok na 30-minútovú prestávku. V prvom prípade príde z prestávky skôr (12:00&amp;nbsp;-&amp;nbsp;12:20),&amp;nbsp;v druhom prípade si prestávku predĺži (12:00&amp;nbsp;-&amp;nbsp;12:50).&lt;/P&gt;
+&lt;TABLE style="HEIGHT: 79px; WIDTH: 665px" width=665 border=0&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TH&gt;&lt;STRONG&gt;Prestávka&lt;/STRONG&gt;&lt;/TH&gt;
+&lt;TH&gt;&lt;STRONG&gt;Evidovať reálnu&lt;/STRONG&gt;&lt;/TH&gt;
+&lt;TH&gt;
+&lt;P&gt;&lt;STRONG&gt;Evidovať reálnu&lt;BR&gt;(započítať min. dĺžku)&lt;/STRONG&gt;&lt;/P&gt;&lt;/TH&gt;
+&lt;TH&gt;&lt;STRONG&gt;Generovať automaticky&lt;/STRONG&gt;&lt;/TH&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD&gt;&lt;STRONG&gt;12:00&amp;nbsp;-&amp;nbsp;12:20&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD&gt;12:00&amp;nbsp;-&amp;nbsp;12:20&lt;/TD&gt;
+&lt;TD&gt;12:00&amp;nbsp;-&amp;nbsp;12:30&lt;/TD&gt;
+&lt;TD&gt;12:00&amp;nbsp;-&amp;nbsp;12:30&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD&gt;&lt;STRONG&gt;12:00&amp;nbsp;-&amp;nbsp;12:50&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD&gt;12:00&amp;nbsp;-&amp;nbsp;12:50&lt;/TD&gt;
+&lt;TD&gt;12:00&amp;nbsp;-&amp;nbsp;12:30&lt;/TD&gt;
+&lt;TD&gt;12:00&amp;nbsp;-&amp;nbsp;12:30&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;
+&lt;H5&gt;Obrázok č.&amp;nbsp;2: Nastavenie pravidla pre spracovanie dochádzky - prestávka&lt;/H5&gt;
+&lt;P&gt;&lt;IMG style="HEIGHT: 392px; WIDTH: 590px" border=0 alt="" src="images/Forms/Attendance/Form_Attendance_Prestavka.png" width=749 height=491&gt;&lt;/P&gt;
+&lt;H2&gt;Prestávka z dôvodov zaistenia bezpečnosti a ochrany zdravia zamestnancov pri práci a prestávka na dojčenie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Prestávka poskytovaná z&amp;nbsp;dôvodov zaistenia bezpečnosti a&amp;nbsp;ochrany zdravia zamestnancov pri práci sa &lt;STRONG&gt;započítava do pracovného času&amp;nbsp;&lt;/STRONG&gt;a patrí za ňu mzda. 
+&lt;LI&gt;Matke, ktorá dojčí svoje dieťa, je zamestnávateľ povinný poskytnúť okrem prestávok v&amp;nbsp;práci osobitné prestávky na dojčenie, ktoré sa &lt;STRONG&gt;započítavajú do pracovného času&lt;/STRONG&gt; ženy a&amp;nbsp;poskytuje sa za ne náhrada mzdy v&amp;nbsp;sume jej priemerného zárobku. &lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="fb2e5c93-8b22-438f-8e52-56c912aa3005" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="85220d47-fc01-4329-90a7-1b68f5e6e083">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="11dbd286-cb55-494f-b822-586b6b8b4818" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="a77380d9-dc93-41be-9423-aa76a8c7f9f4">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="d252f909-c78f-4852-8549-c9acb1d22963" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="05f759ce-29f8-46c1-b195-7dc22fc30cbd">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="bc84efd7-741a-44ed-a066-ad0221ec3a37" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="95a3b7e2-6135-4860-a655-5724b186b94c">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="8a4c13fb-2aef-4a5d-957e-e18b748cce01" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="a507e795-a7e0-4153-be12-61c2ef9185e0">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="563d41e9-fbfb-4cf4-b35b-db522c71abf8">
+      <Keyword m="2018-06-08T12:36:42.3649912Z">Prestávka v práci</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="f02fdc70-67be-4262-a9f9-b80777463c21">
+      <Keyword m="2023-09-11T09:37:29.8480956Z">Pravidlo spracovania dochádzky - prestávky v práci</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="056b148d-6eda-4e7c-ad1d-529d511f0e7c">
+      <Keyword m="2023-09-11T09:37:13.7611688Z">Dochádzka - prestávky v práci</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="398b4cae-c109-4d76-b73d-78b20a1ef5c4">
+      <Keyword m="2023-09-11T09:37:20.8106655Z">Evidencia dochádzky - prestávky v práci</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="f2be8124-3f23-4f43-914a-4806a7c8ab75">
+      <Keyword m="2023-09-11T10:32:20.5379755Z">Spôsoby evidencie prestávky</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

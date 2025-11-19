@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="89fa80dd-8f80-4e9f-9a25-1eed4f6fdbb8" Status="Complete" CreatedOn="2014-09-08T12:42:10.0315696Z" ModifiedOn="2022-01-28T14:20:48.6467258Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Menu_Service_Program_Settings" BuildFlags="">
+  <Title m="2014-09-08T12:42:33.7769277Z">Nastavenia programu</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2022-01-28T14:20:48.6467258Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;je venovaná&amp;nbsp;položke&amp;nbsp;&lt;EM&gt;Nastavenia programu&lt;/EM&gt;&amp;nbsp;v ponuke &lt;EM&gt;Servis&lt;/EM&gt; programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Výberom položky sa otvorí formulár &lt;EM&gt;Nastavenia programu&lt;/EM&gt;, v ktorom &lt;STRONG&gt;sú dostupné&lt;/STRONG&gt; &lt;STRONG&gt;takmer všetky nastavenia systému OBERON týkajúce sa aktuálne spracovávanej (otvorenej) firmy&lt;/STRONG&gt;. Položka otvorí&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;formulár Nastavenia programu&lt;/A&gt;, v&amp;nbsp;ktorom je možné nastavenia nadefinovať. 
+&lt;LI&gt;Výnimku tvoria nastavenia&amp;nbsp;&lt;A href="3f051fd3-9727-4ecc-9613-7a7fb1cb2a54"&gt;pripojiteľných zariadení&lt;/A&gt; (fiškálne tlačiarne, registračné pokladnice,&amp;nbsp;snímače čiarových kódov, elektronické váhy atď.), ktoré sú v&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="749ff4f1-eeb5-43f5-98d2-021399d8cec7"&gt;Zariadenia&lt;/A&gt;&amp;nbsp;a&amp;nbsp;vybrané nastavenia účtovnej jednotky (napr. zodpovedné osoby za spracovanie účtovníctva,&amp;nbsp;údaje pre štatistiku) dostupné v ponuke &lt;EM&gt;Firma&lt;/EM&gt;, &lt;A href="a833ee8a-1289-42b9-923f-80f549497702"&gt;Údaje o firme&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Ďalšie informácie získate v téme&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4" style="auto-update-caption: true"&gt;Formulár Nastavenia programu&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="6a72674d-39a4-43bd-8657-e2776fcc9f94" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="8a35cd0d-3fea-40c5-9831-a35062e762b4">
+      <Title m="2014-10-27T07:12:59.461914Z">Formulár Nastavenia programu</Title>
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="995cbd32-17ea-4d38-b680-788fb2c530f6" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="749ff4f1-eeb5-43f5-98d2-021399d8cec7">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="4ae5f6b5-97de-49e9-9070-2fb69917a27e" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="a833ee8a-1289-42b9-923f-80f549497702">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="2196421c-d97d-4ce7-bdf0-32d7cf9e98ed">
+      <Keyword m="2021-04-16T10:50:44.7151462Z">Nastavenia programu - hlavná ponuka</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

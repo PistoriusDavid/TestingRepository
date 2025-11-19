@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="d47942c0-d9d3-458d-b7cc-95ff8b2a67a4" Status="Complete" CreatedOn="2014-09-04T08:58:49.4928Z" ModifiedOn="2022-12-15T09:19:46.9560553Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Device_Door_Locks" BuildFlags="">
+  <Title m="2014-09-04T08:59:04.6232Z">Dverové zámky</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2022-09-09T07:00:19.5540513Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;je venovaná dverovým zámkom,&amp;nbsp;ktoré predstavujú jeden z typov&amp;nbsp;&lt;A href="3f051fd3-9727-4ecc-9613-7a7fb1cb2a54"&gt;pripojiteľných zariadení&lt;/A&gt; podporovaných v&amp;nbsp;systéme OBERON. Téma obsahuje&amp;nbsp;&lt;STRONG&gt;všeobecné&amp;nbsp;informácie&amp;nbsp;spolu s&amp;nbsp;postupom inštalácie a návodom aktivácie prístupovej karty&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Dverové&amp;nbsp;zámky implementované v systéme OBERON predstavujú &lt;STRONG&gt;hotelové zámkové systémy určené pre ubytovacie zariadenia&lt;/STRONG&gt;, ktoré&amp;nbsp;je možné prepojiť s modulom&amp;nbsp;&lt;A href="c59586c9-a034-4f31-9a3c-1960428236e7"&gt;Hotelová recepcia&lt;/A&gt;.&amp;nbsp;Ide o&amp;nbsp;elektronické zámkové systémy&amp;nbsp;na ovládanie z&amp;nbsp;vonkajšej strany bezkontaktnou kartou. Zámok obsahuje mechaniku s motorovým ovládaním, ktorá v&amp;nbsp;prípade priblíženia karty uvoľní alebo blokuje kľučku. Vnútornou kľučkou je možné dvere bez obmedzenia otvoriť. 
+&lt;LI&gt;Systém&amp;nbsp;umožňuje vydanie hosťovskej karty a&amp;nbsp;zadanie potrebných prístupových práv. Poskytuje tak&amp;nbsp;komfort&amp;nbsp;hosťovi, ktorý má bez akýchkoľvek problémov a&amp;nbsp;komplikácií zabezpečený vstup do vlastnej izby, hotelového bazéna, či ďalších hotelových prevádzok. 
+&lt;LI&gt;Na prístupové karty môžu byť naviazané ďalšie služby, napr. klimatizácia, parkovisko, vstup do fitnesu, wellnessu a pod. Takéto identifikátory je možné zadať&amp;nbsp;ku každej izbe osobitne. 
+&lt;LI&gt;Kartu pre elektronické zámky je možné vytvoriť priamo&amp;nbsp;z&amp;nbsp;OBERON-u, kde sa automaticky&amp;nbsp;na kartu zapíše&amp;nbsp;izba, termín pobytu, meno hosťa a pod.&amp;nbsp;Dôjde tak k zjednodušeniu práce obsluhy recepcie&amp;nbsp;a&amp;nbsp;zároveň sa eliminuje priestor&amp;nbsp;na prípadné chyby. 
+&lt;LI&gt;K dverovým zámkom je potrebné mať nainštalovaný &lt;STRONG&gt;softvér výrobcu dverových zámkov&lt;/STRONG&gt;. Tento softvér je potrebný na správu manažérskych prístupových kariet a kariet pre personál hotela a&amp;nbsp;&lt;STRONG&gt;nie je súčasťou systému OBERON&lt;/STRONG&gt;. Modul &lt;EM&gt;Hotelová recepcia&lt;/EM&gt;&amp;nbsp;v&amp;nbsp;spojení s týmto softvérom slúži na aktivovanie bezdotykových kariet pre hotelových hostí. 
+&lt;LI&gt;K systému OBERON je možné pripojiť&amp;nbsp;tieto systémy: 
+&lt;UL&gt;
+&lt;LI&gt;dverový systém&amp;nbsp;&lt;A href="abb7c314-1a2d-4d71-8706-3c00a8cf2276"&gt;SALTO&lt;/A&gt;&amp;nbsp;&lt;A href="1f32a90c-7b4a-4d69-9f38-a560178794b3" style="auto-update-caption: true"&gt;&lt;IMG border=0 alt="Odporúčané riešenia" src="images/OBERON/Basic/Odporucane-riesenie_ruka_ikona.png"&gt;&lt;/A&gt;&amp;nbsp;- pre používateľov OBERON-u je&amp;nbsp;&lt;A href="1f32a90c-7b4a-4d69-9f38-a560178794b3"&gt;odporúčaným&lt;/A&gt; riešením, 
+&lt;LI&gt;dverový systém&amp;nbsp;&lt;A href="2a7a94ec-b0eb-4f8c-9bb5-a62c39dfe060"&gt;ASSA ABLOY&lt;/A&gt;, 
+&lt;LI&gt;dverový systém&amp;nbsp;&lt;A href="678febcd-d889-4897-b1d0-cb63fd0b4a5c"&gt;SEALOCK&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="8f9a62f3-c096-4633-853d-d6352703698d" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="3f051fd3-9727-4ecc-9613-7a7fb1cb2a54">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="14f40246-bc9d-4779-9b6e-b9f51f980718" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="678febcd-d889-4897-b1d0-cb63fd0b4a5c">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="78376e49-bf70-49b4-bb75-845fca5d7201" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="2a7a94ec-b0eb-4f8c-9bb5-a62c39dfe060">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="8ab77b1a-ad26-41ec-bf7e-1e3a4ab9871e" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="abb7c314-1a2d-4d71-8706-3c00a8cf2276">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="694b3a31-9b34-41a8-99e3-2f4f122ca725">
+      <Keyword m="2021-05-18T11:35:50.1011869Z">Hotelové zámkové systémy</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="b7b7afb8-dd18-4b37-a8dd-6af15e34aa8e">
+      <Keyword m="2021-05-18T11:36:16.5916669Z">Elektronické hotelové zámky</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="9946b076-3588-4e2e-9d7b-8a2ea1eac24c">
+      <Keyword m="2021-05-18T11:36:39.602749Z">Zámkové systémy pre ubytovacie zariadenia</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

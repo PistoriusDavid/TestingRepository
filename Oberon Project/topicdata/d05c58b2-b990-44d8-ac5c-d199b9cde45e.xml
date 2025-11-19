@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="d05c58b2-b990-44d8-ac5c-d199b9cde45e" Status="Complete" CreatedOn="2016-08-08T06:23:35.6191015Z" ModifiedOn="2023-07-25T06:24:41.2206104Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="70400" Name="Menu_Wages_ChangePeriod" BuildFlags="">
+  <Title m="2021-03-19T12:36:57.6459364Z">Zmena spracovávaného obdobia miezd</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-07-20T08:35:51.509586Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;je venovaná&amp;nbsp;položke&amp;nbsp;&lt;EM&gt;Zmena spracovávaného obdobia miezd&lt;/EM&gt;&amp;nbsp;v&amp;nbsp;ponuke&amp;nbsp;&lt;EM&gt;Mzdy,&amp;nbsp;Obdobie&lt;/EM&gt;&amp;nbsp;programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;V OBERON-e existujú dva druhy období&amp;nbsp;-&amp;nbsp;&lt;A href="6b3b68a9-966a-42c2-8b0e-31fc5f3290df"&gt;jedno pre celý systém OBERON&lt;/A&gt;&amp;nbsp;a druhé výlučne&amp;nbsp;pre modul &lt;EM&gt;Mzdy a&amp;nbsp;dochádzka&lt;/EM&gt;. Dôvodom je, že mzdy sa spracúvajú na mesačnej báze, a to spravidla mesiac spätne. 
+&lt;LI&gt;Výberom položky sa otvorí sprievodca &lt;EM&gt;Zmena spracovávaného obdobia miezd&lt;/EM&gt;, pomocou ktorého je možné v&amp;nbsp;systéme OBERON&amp;nbsp;&lt;STRONG&gt;zmeniť obdobie (mesiac), za ktorý sa budú spracovávať mzdy&lt;/STRONG&gt;. Zmenu spracovávaného obdobia miezd je potrebné vykonať až po&amp;nbsp;&lt;A href="4c0cffe2-a77b-44ea-bb3a-39476f21e420"&gt;mesačnej uzávierke miezd&lt;/A&gt; za aktuálny mesiac. 
+&lt;LI&gt;Pri zmene obdobia&amp;nbsp;na nové obdobie sa pôvodné obdobie neuzatvára, nemažú sa v ňom žiadne údaje, takže v&amp;nbsp;odôvodnených prípadoch &lt;STRONG&gt;sa možno ešte vrátiť aj k pôvodnému obdobiu&lt;/STRONG&gt;.&amp;nbsp;Aktuálne spracovávané obdobie sa bude zobrazovať v&amp;nbsp;evidencii &lt;A href="6923b0c5-166b-4e3b-a53b-71f62b53b2fc"&gt;Tvorba miezd&lt;/A&gt;. 
+&lt;LI&gt;Pri prechode do nového spracovávaného obdobia sa pracovníkom, ktorí v tomto novom&amp;nbsp;období ešte nemajú spracovanú mzdu, do evidencie &lt;A href="6923b0c5-166b-4e3b-a53b-71f62b53b2fc"&gt;Tvorba miezd&lt;/A&gt;&amp;nbsp;&lt;STRONG&gt;načítajú aktuálne údaje&lt;/STRONG&gt; (mzdové zložky, neprítomnosti...). Ak by v&amp;nbsp;období, do ktorého sa prechádza, mali pracovníci už spracované mzdy, tieto spracované mzdy &lt;STRONG&gt;zostanú bez zmeny&lt;/STRONG&gt;. 
+&lt;LI&gt;Pri tvorbe miezd je možné &lt;STRONG&gt;prezerať výplatné pásky aj spätne&lt;/STRONG&gt;, a to aj bez zmeny obdobia.&amp;nbsp;V&amp;nbsp;evidencii &lt;A href="6923b0c5-166b-4e3b-a53b-71f62b53b2fc"&gt;Tvorba miezd&lt;/A&gt;&amp;nbsp;stačí v&amp;nbsp;poli &lt;EM&gt;Obdobie&lt;/EM&gt; (v&amp;nbsp;ľavom paneli) nastaviť príslušný mesiac, za ktorý chcete prezerať výplatné pásky. 
+&lt;LI&gt;Pri zmene spracovávaného obdobia je možné vykonať nasledujúce činnosti: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;EM&gt;Prepočítať mesačné priemery&lt;/EM&gt;, 
+&lt;LI&gt;&lt;EM&gt;Prepočítať ročné priemery&lt;/EM&gt;, 
+&lt;LI&gt;&lt;EM&gt;Prenos zostatkov a pripísanie nárokov na dovolenku&lt;/EM&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Spracovávané obdobie miezd je možné zmeniť &lt;STRONG&gt;buď len&amp;nbsp;aktuálne prihlásenému používateľovi, alebo všetkým používateľom, prípadne len vybraným používateľom&lt;/STRONG&gt;. 
+&lt;LI&gt;Pred prvotným spracovaním miezd&amp;nbsp;je potrebné &lt;STRONG&gt;nastaviť&amp;nbsp;počiatočné spracovávané obdobie miezd&lt;/STRONG&gt;. Následne bude potrebné správnosť nastavenia spracovávaného obdobia miezd skontrolovať pred každým spracovaním miezd pracovníkom. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Otvoriť sprievodcu na zmenu&amp;nbsp;spracovávaného obdobia miezd možno&amp;nbsp;&lt;STRONG&gt;aj priamo v systémovom paneli&lt;/STRONG&gt; kliknutím pravým tlačidlom myši na obdobie pre spracovanie miezd&amp;nbsp;a výberom možnosti &lt;EM&gt;&lt;STRONG&gt;Zmeniť spracovávané obdobie&lt;/STRONG&gt;.&lt;/EM&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="6b2591d0-0715-4525-9d38-58217157f430" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="6923b0c5-166b-4e3b-a53b-71f62b53b2fc">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="f95367bf-ab7c-47ab-90c4-acee35f3ab73" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="4c0cffe2-a77b-44ea-bb3a-39476f21e420">
+      <Title m="2021-03-19T12:45:28.7469616Z">Mesačná uzávierka miezd </Title>
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="ca206590-d287-4421-8449-4e1c5fc3e205" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1e1da5f2-5abd-48a4-bf82-4f31c614ac45">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="dee1c559-5ecd-46fe-a44c-c72a49ac1478" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="f77fe5bd-e3df-4e7b-84f3-93d44bf10c0d">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="d53d037c-859f-42ee-b978-a16560c944a4" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="6b3b68a9-966a-42c2-8b0e-31fc5f3290df">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="935c9db6-104f-478e-856c-b39a04a5942d">
+      <Keyword m="2023-07-20T08:31:49.5667344Z">Obdobie - mzdy - zmena</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="bf6e6ff2-42e7-423e-b81d-52a5c3e60de6">
+      <Keyword m="2023-07-20T08:30:12.5776786Z">Mzdy - zmena spracovávaného obdobia</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

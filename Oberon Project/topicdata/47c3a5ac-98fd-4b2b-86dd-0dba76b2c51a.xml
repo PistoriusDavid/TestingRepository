@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="47c3a5ac-98fd-4b2b-86dd-0dba76b2c51a" Status="Complete" CreatedOn="2025-02-26T10:00:55.9987384Z" ModifiedOn="2025-02-26T10:01:58.9763687Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="OBERON_News_2025_02" BuildFlags="{4AAE0FD4-7313-4FEE-A25F-0785B885F736},826B51BD-B6F0-4B2C-A814-029E169D018F">
+  <Title m="2025-02-26T10:01:28.4613831Z">Čo bolo nové vo verzii Február/2025</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2025-02-26T10:01:58.9763687Z">&lt;P&gt;Dňa 05.02.2025&amp;nbsp;bola&amp;nbsp;vydaná&amp;nbsp;nová verzia ekonomického systému OBERON s&amp;nbsp;označením &lt;STRONG&gt;Február/2025&lt;/STRONG&gt;. V&amp;nbsp;nasledujúcej časti sú vymenované najdôležitejšie novinky, vylepšenia a&amp;nbsp;opravy oproti verzii&amp;nbsp;&lt;STRONG&gt;Január/2025&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;H2&gt;Účtovníctvo&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Účtovanie pokladničných dokladov&lt;/STRONG&gt; - do účtovného/peňažného denníka bolo doplnené pole &lt;EM&gt;eKasa UID&lt;/EM&gt; na uloženie identifikátora pokladničného dokladu (UID) zo systému eKasa FS. Pribudol náhľad daného bločku, ako aj jeho automatické uloženie ako prílohy k danému záznamu. 
+&lt;LI&gt;&lt;STRONG&gt;Daňové priznania k dani z príjmov&lt;/STRONG&gt; - bolo implementované daňové priznanie k dani z príjmov fyzických osôb (typ B) a daňové priznanie k dani z príjmov právnických osôb za rok 2024 (platné od 01.01.2025). 
+&lt;LI&gt;&lt;STRONG&gt;Kontrolný výkaz DPH&lt;/STRONG&gt; - bol implementovaný kontrolný výkaz DPH platný od 01.01.2025. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Mzdy&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Mzdové veličiny&lt;/STRONG&gt; - boli aktualizované mzdové veličiny platné pre rok 2025. 
+&lt;LI&gt;&lt;STRONG&gt;Potvrdenie o zdaniteľnej mzde&lt;/STRONG&gt; - úprava potvrdenia o zdaniteľnej mzde (za určitých okolností, napr. ak sa zamestnancovi uplatnil doplatok do minimálneho odvodu na zdravotné poistenie a mzda bola záporná, bola v čiastkovom základe dane uvedená záporná hodnota). 
+&lt;LI&gt;&lt;STRONG&gt;Ročné hlásenie&lt;/STRONG&gt; – úprava ročného hlásenia za rok 2024. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Pokladnica OBERON&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Odloženie predaja&lt;/STRONG&gt; - pribudla možnosť odložiť predaj aj z otvoreného účtu (pôvodne len z priameho predaja). 
+&lt;LI&gt;&lt;STRONG&gt;Tlačidlá pre otvorené účty&lt;/STRONG&gt; – pribudla možnosť nadefinovať samostatné systémové tlačidlá aj pre otvorené účty, ktoré umožňujú jednoduchým stlačením tlačidla otvárať nové účty, ako aj prepínať medzi jednotlivými otvorenými účtami. 
+&lt;LI&gt;&lt;STRONG&gt;Režim Fast food&lt;/STRONG&gt; - pri zmene veľkosti tlačidiel sa mení aj veľkosť fontu. 
+&lt;LI&gt;&lt;STRONG&gt;ELCOM EFox&lt;/STRONG&gt; - oprava testovania zaevidovania dokladu. 
+&lt;LI&gt;&lt;STRONG&gt;Platobný terminál Teya&lt;/STRONG&gt; – oprava vnútorných objektov ovládača platobného terminálu. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget layout="block" type="Caution Box"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;SPAN&gt;V prípade preskočenia viacerých verzií programu je dôležité si prečítať informácie o novinkách, vylepšeniach a opravách&amp;nbsp;aj&amp;nbsp;z&amp;nbsp;&lt;A href="dc832235-0e36-4aac-ae54-e51641eb2f50"&gt;predchádzajúcich verzií&lt;/A&gt;&lt;STRONG&gt;.&lt;/STRONG&gt; V&amp;nbsp;niektorej z predošlých verzií mohlo dôjsť k&amp;nbsp;dôležitým zmenám, o&amp;nbsp;ktorých je v niektorých prípadoch nevyhnutné vedieť.&lt;/SPAN&gt;&lt;/innovasys:widgetproperty&gt; &lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="c7357ab9-e0d8-47e3-b432-b3034ba1bd58" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="dc832235-0e36-4aac-ae54-e51641eb2f50">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="0aff6ea2-d3f9-4c1e-9000-f2192f9f2edc">
+      <Keyword m="2014-11-24T11:38:34.3847265Z">Verzia</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

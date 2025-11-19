@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="172ab39f-e82b-4a73-94eb-dc1d4d66323e" Status="Complete" CreatedOn="2016-10-07T07:40:05.4930945Z" ModifiedOn="2023-10-11T11:53:26.2994576Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Form_OBERON_Sett_Firm_Wages" BuildFlags="">
+  <Title m="2021-05-27T07:03:41.7949423Z">Formulár Nastavenia - Firma - Mzdy a dochádzka</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-05-12T12:32:00.17763Z">&lt;P&gt;Formulár &lt;EM&gt;Nastavenia - Firma -&amp;nbsp;Mzdy a dochádzka&lt;/EM&gt;&amp;nbsp;umožňuje &lt;STRONG&gt;vykonať nastavenia schvaľovania miezd, (ne)zahrnutie sviatku do odpracovaných hodín a ďalšie nastavenia&lt;/STRONG&gt; v systéme OBERON. Formulár je dostupný z programu &lt;EM&gt;OBERON -&amp;nbsp;Agenda firmy&lt;/EM&gt;, ponuka &lt;EM&gt;Servis,&amp;nbsp;&lt;/EM&gt;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;&amp;nbsp;- v&amp;nbsp;sekcii &lt;EM&gt;Firma&lt;/EM&gt; zvoľte oddiel &lt;EM&gt;Mzdy a dochádzka&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Popis formulára &lt;EM&gt;Nastavenia - Firma - Mzdy a dochádzka&lt;/EM&gt;&lt;/H2&gt;&lt;innovasys:widget type="Tab Strip" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Základné&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 
+&lt;H3&gt;Schvaľovanie miezd&lt;/H3&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Umožniť schvaľovať (podpisovať) mzdy&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Začiarknutie políčka povolí schvaľovanie (podpisovanie) mzdy, ktoré môže vykonávať len&amp;nbsp;iný&amp;nbsp;&lt;A href="225638ed-22f6-4ac4-9085-6d77c64925db"&gt;používateľ&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt; &lt;/innovasys:widget&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Výpočet miezd&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;H3&gt;Mesačná mzda&lt;/H3&gt;
+&lt;P&gt;Nastavenie umožňuje určiť spôsob výpočtu miezd. Na výber sú dve možnosti:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;Sviatok zahrnúť do odpracovaných hodín 
+&lt;LI&gt;Sviatok nezahrnúť do odpracovaných&amp;nbsp;hodín - počítať náhradu za sviatok&amp;nbsp; &lt;/LI&gt;&lt;/UL&gt;
+&lt;P&gt;Viac informácií nájdete v téme&amp;nbsp;&lt;A href="ae7d60eb-a50d-4811-b213-d94b66200304" style="auto-update-caption: true"&gt;Odmeňovanie práce vo sviatok&lt;/A&gt;.&lt;/P&gt;
+&lt;H3&gt;Mzdové sadzby&lt;/H3&gt;
+&lt;P&gt;Zobrazuje sa&amp;nbsp;rekapitulácia mzdových sadzieb, s ktorými program počíta, napr. daňový bonus, vymeriavací základ, nezdaniteľné časti atď. Pre správny výpočet miezd je dôležité, aby program pracoval s aktuálnymi mzdovými sadzbami. Mzdové sadzby sa upravujú automaticky pri aktualizácii systému OBERON.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="f9843c2d-312b-401d-bdc9-a1eab9392bdb" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="89fa80dd-8f80-4e9f-9a25-1eed4f6fdbb8">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="0280cb4c-6580-46f9-8446-b03df4cfe242" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="8a35cd0d-3fea-40c5-9831-a35062e762b4">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="0c46a123-9e19-4208-801e-4d6575968376" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="6923b0c5-166b-4e3b-a53b-71f62b53b2fc">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="4b697f12-4e30-4b01-8e24-4605714a6a2d" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="fc8d8173-0da0-459a-b570-587597ce3315">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="04fe0e0a-87e9-4037-a8d9-53272250fc2b">
+      <Keyword m="2021-05-27T07:25:30.9377618Z">Firma - Mzdy a dochádzka - nastavenia programu</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="6d514fed-8e54-48e1-848d-1bc9a3a78951">
+      <Keyword m="2021-05-27T07:26:09.8471967Z">Nastavenia programu - Firma - Mzdy a dochádzka</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="f04ae14d-879c-41ca-8b98-d31549f4b766">
+      <Keyword m="2023-03-20T10:22:47.2891198Z">Mzdy - umožniť schvaľovať</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

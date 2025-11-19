@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="1e423d36-8e0a-4420-b2e9-05f12806ec3a" Status="Complete" CreatedOn="2014-09-05T15:23:16.8113431Z" ModifiedOn="2023-12-13T09:04:23.6812124Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="50320" Name="Menu_Stock_Stocks" BuildFlags="">
+  <Title m="2014-10-16T13:31:17.0904124Z">Sklady</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-12-13T09:04:23.6812124Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;je venovaná&amp;nbsp;položke&amp;nbsp;&lt;EM&gt;Sklady&amp;nbsp;&lt;/EM&gt;v&amp;nbsp;ponuke&amp;nbsp;&lt;EM&gt;Sklad&lt;/EM&gt; programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Výberom položky sa otvorí&amp;nbsp;číselník &lt;EM&gt;Sklady&lt;/EM&gt;, ktorý &lt;STRONG&gt;umožňuje&lt;/STRONG&gt; &lt;STRONG&gt;definovať sklady&lt;/STRONG&gt;, ktoré&amp;nbsp;účtovná jednotka používa. 
+&lt;LI&gt;Po pridaní nového skladu do zoznamu skladov možno s&amp;nbsp;týmto skladom pracovať, a to tak, že program umožní tento sklad vyberať v&amp;nbsp;jednotlivých knihách. Možno tak urobiť pomocou &lt;STRONG&gt;filtra &lt;EM&gt;Sklad&lt;/EM&gt;&lt;/STRONG&gt; v&amp;nbsp;hornej časti evidencie.&amp;nbsp;Zoznam dostupných skladov je možné v prípade potreby obmedziť pomocou používateľských práv. 
+&lt;LI&gt;Modul&amp;nbsp;&lt;A href="78d20602-4b59-4b31-9f0a-a04a1d376ec5"&gt;Skladová evidencia&lt;/A&gt; umožňuje pracovať s neobmedzeným počtom skladov. Počet skladov vytvorených v databáze&amp;nbsp;závisí predovšetkým&amp;nbsp;&lt;STRONG&gt;od charakteru prevádzky&lt;/STRONG&gt;, pričom je potrebné mať na zreteli viacero faktorov. Napríklad hmotnú zodpovednosť - v&amp;nbsp;reštauračnej prevádzke je obvykle za sklad &lt;EM&gt;Kuchyňa&lt;/EM&gt; zodpovedný kuchár a za sklad &lt;EM&gt;Bar&lt;/EM&gt; hlavný barman. Taktiež inventúru je možné vykonávať za určitý sklad - napr. v sklade &lt;EM&gt;Bar&lt;/EM&gt; je interval inventúry iný ako v sklade &lt;EM&gt;Kuchyňa&lt;/EM&gt;. 
+&lt;LI&gt;Stlačením tlačidla &lt;I&gt;Zoskupenia&lt;/I&gt; sa zobrazí formulár &lt;EM&gt;Zoskupenia skladov&lt;/EM&gt;, v ktorom je možné vytvárať &lt;STRONG&gt;zoskupenia skladov&lt;/STRONG&gt;: ak pracujete s&amp;nbsp;väčším počtom skladov, môžete vytvoriť zoskupenie a určiť, ktoré sklady&amp;nbsp;majú patriť&amp;nbsp;do tohto zoskupenia. Túto možnosť je možné využiť na získanie súhrnných informácií nie po jednotlivých skladoch, ale za celé zoskupenie skladov (napr. v&amp;nbsp;tlačovom výstupe v&amp;nbsp;knihe skladových kariet &lt;EM&gt;Stavy zásob k dátumu&lt;/EM&gt;)&lt;EM&gt;.&lt;/EM&gt; 
+&lt;LI&gt;Skladové doklady&amp;nbsp;&lt;A href="e5d60ce3-8ad2-43f2-b60d-08c773376f5b"&gt;výdajka&lt;/A&gt; a&amp;nbsp;&lt;A href="062891b1-9360-4c09-9c7b-9474a28e7849"&gt;príjemka&lt;/A&gt; je možné vystavovať len v rámci jedného skladu - &lt;STRONG&gt;na jednu výdajku/príjemku nie je možné pridať položky z viacerých skladov&lt;/STRONG&gt;. Naproti tomu &lt;STRONG&gt;do dokladov faktúra a&amp;nbsp;objednávka možno pridať položky z&amp;nbsp;viacerých skladov&lt;/STRONG&gt;. 
+&lt;LI&gt;Vymazaním skladu sa nevratne odstránia všetky&amp;nbsp;&lt;A href="1a33ab0b-2df7-4dc2-962b-8a3319c16831"&gt;skladové karty&lt;/A&gt;,&amp;nbsp;&lt;A href="fc7595a6-54ce-4aa9-acb4-93d7880e854e"&gt;skladové pohyby&lt;/A&gt;,&amp;nbsp;&lt;A href="efed1882-1614-4406-b57a-3023aee6ba26"&gt;príjemky&lt;/A&gt; a&amp;nbsp;&lt;A href="0be61fcc-a85b-4572-876d-2171a5cb7c29"&gt;výdajky&lt;/A&gt; evidované k&amp;nbsp;tomuto skladu. Pred vymazaním skladu je vhodné vykonať zálohu údajov (túto záložnú kópiu možno využiť, ak sa zistí potreba napr. dodatočného vytlačenia určitého dokladu z&amp;nbsp;tohto skladu). &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Ďalšie informácie&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/H2&gt;
+&lt;UL style="MARGIN-RIGHT: 0px"&gt;
+&lt;LI&gt;&lt;A href="62db2271-9ae9-4968-b790-47a07e7c6aef"&gt;Do skladu možno prijímať tovar&lt;/A&gt; pomocou príjemky, resp. faktúry, alebo kombinovane. 
+&lt;LI&gt;Zo skladu možno tovar vydať viacerými spôsobmi. Viac informácií v&amp;nbsp;téme&amp;nbsp;&lt;A href="0a22d060-0b8a-4166-ba9b-8239f36863a0" style="auto-update-caption: true"&gt;Výdaj zo skladu&lt;/A&gt;.&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 
+&lt;LI&gt;Na zvýšenie prehľadu o príjme a výdaji v sklade možno&amp;nbsp;definovať&amp;nbsp;&lt;A href="a7e1c27b-e28f-4ae9-b643-16cc1b478212"&gt;druhy pohybov&lt;/A&gt; (napr. &lt;EM&gt;P-Tuzemsko&lt;/EM&gt;, &lt;EM&gt;V-Reklamácia&lt;/EM&gt; atď.). 
+&lt;LI&gt;Modul umožňuje &lt;A href="2392223e-1a44-40e3-98a0-dfb1872ba86e"&gt;sledovanie pripravenosti&lt;/A&gt;, &lt;A href="5f711bd3-c5ab-4b68-93cc-214b6720faf8"&gt;naskladnenosti a vyskladnenosti tovaru&lt;/A&gt;. 
+&lt;LI&gt;Na&amp;nbsp;rýchle hľadanie položiek v sklade je možné použiť&amp;nbsp;&lt;A href="80a78093-fc45-4db9-b74b-e1f9829f7b3c"&gt;snímač čiarových kódov&lt;/A&gt;. K jednej skladovej karte je možné evidovať viacero čiarových kódov, prípadne k viacerým skladovým kartám je možné evidovať rovnaký čiarový kód. 
+&lt;LI&gt;Modul podporuje &lt;A href="78bceae1-1cc7-4e31-a232-24b38044c3d0"&gt;komisionálny predaj&lt;/A&gt; - evidenciu na strane prijatých tovarov na komisionálny predaj, prípadne poskytnutých na komisionálny predaj. 
+&lt;LI&gt;Výdaj materiálu (tovaru) zo skladu možno&amp;nbsp;pre daného odberateľa (obchodného partnera) obmedziť pomocou tzv.&amp;nbsp;&lt;A href="96fd7619-32d2-462b-bad8-6f986dc4c6b2"&gt;kredit limitu&lt;/A&gt;. 
+&lt;LI&gt;Na všestrannú prácu v&amp;nbsp;sklade možno používať mobilnú aplikáciu &lt;A href="be17efdf-4b36-4b47-ad5d-09b0f66c8f65"&gt;ASTON - mobilný skladník&lt;/A&gt; pre &lt;EM&gt;Android&lt;/EM&gt; a &lt;EM&gt;iOS&lt;/EM&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Číselný rad&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Ak účtovná jednotka používa viac ako jeden sklad, môže nastaviť, či má program používať &lt;STRONG&gt;jeden číselný rad pre všetky sklady&lt;/STRONG&gt; (ponuka &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="58eee6a7-b5aa-47a5-9d0e-6f9987c96a52"&gt;oddiel Firma, Sklad&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt; záložka &lt;EM&gt;Skladové karty&lt;/EM&gt;). Nastavenie určuje, či jednotlivé sklady budú na základe číslovania skladových kariet vzájomne prepojené, alebo úplne&amp;nbsp;nezávislé. 
+&lt;LI&gt;Po &lt;STRONG&gt;aktivovaní nastavenia (začiarknutí políčka)&lt;/STRONG&gt; budú všetky sklady vzájomne prepojené a&amp;nbsp;program bude&amp;nbsp;kontrolovať číselné označenie skladových kariet v&amp;nbsp;jednotlivých skladoch. Na základe nastavenia nedovolí, aby sa vytvorila skladová karta s&amp;nbsp;rovnakým&amp;nbsp;číslom,&amp;nbsp;aké už má skladová karta&amp;nbsp;v&amp;nbsp;inom sklade, ale s iným názvom. Vytvoriť bude možné len skladovú kartu &lt;STRONG&gt;s rovnakým číslom aj názvom&lt;/STRONG&gt;. V takomto prípade pôjde o&amp;nbsp;vytvorenie&amp;nbsp;&lt;STRONG&gt;rovnakej skladovej karty&lt;/STRONG&gt;, keďže skladová karta je determinovaná číslom a názvom (jednoznačným identifikátorom skladovej karty &lt;STRONG&gt;sú súčasne&amp;nbsp;číslo skladovej karty a jej názov&lt;/STRONG&gt; - viac informácií v téme&amp;nbsp;&lt;A href="1a33ab0b-2df7-4dc2-962b-8a3319c16831" style="auto-update-caption: true"&gt;Skladové karty&lt;/A&gt;). Ak sú tieto dva parametre rovnaké na skladovej karte v&amp;nbsp;inom sklade, resp. iných skladoch, ide vždy o&amp;nbsp;rovnakú kartu (a&amp;nbsp;to bez&amp;nbsp;ohľadu na to, či&amp;nbsp;je nastavený jeden číselný rad pre skladové karty vo všetkých skladoch alebo nie). 
+&lt;LI&gt;Nastaviť jeden číselný rad&amp;nbsp;pre všetky sklady je potrebné v&amp;nbsp;prípade, že&amp;nbsp;budete robiť &lt;STRONG&gt;prevody&lt;/STRONG&gt; medzi skladmi. 
+&lt;LI&gt;Ak&amp;nbsp;účtovná jednotka nepoužíva&amp;nbsp;jeden číselný rad pre skladové karty vo všetkých skladoch, program &lt;STRONG&gt;dovolí, aby sa v rôznych skladoch nachádzali skladové karty s&amp;nbsp;rovnakým číslom karty, ale s odlišným názvom&lt;/STRONG&gt;. Vo chvíli, keď program realizuje&amp;nbsp;&lt;A href="6acbdde2-e6a9-43bc-8e10-4e1aa1ea1c3d"&gt;prevod do iného skladu&lt;/A&gt; a v cieľovom sklade vytvára príjemku, overuje, či sa v tomto sklade nenachádza skladová karta inej položky&amp;nbsp;s iným názvom, ale s&amp;nbsp;rovnakým číslom,&amp;nbsp;ako je jedna z kariet&amp;nbsp;vo výdajke. Ak áno,&amp;nbsp;zobrazí dialógové okno s upozornením na túto skutočnosť a hoci umožní výdajku dokončiť, automatické vytvorenie príjemky v cieľovom sklade sa neuskutoční. &lt;STRONG&gt;Nie je teda možné uskutočniť&amp;nbsp;prevod do iného skladu v&amp;nbsp;prípade, že sa v cieľovom sklade nachádza skladová karta s&amp;nbsp;rovnakým číslom, ale s&amp;nbsp;iným názvom&lt;/STRONG&gt;, ako v sklade, odkiaľ sa vykonáva prevod. V prípade potreby je možné skladové karty manuálne prečíslovať. 
+&lt;LI&gt;Po aktivovaní používania jedného číselného radu pre všetky sklady je v&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="58eee6a7-b5aa-47a5-9d0e-6f9987c96a52"&gt;oddiel Firma, Sklad&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt; záložka &lt;EM&gt;Skladové karty&lt;/EM&gt;)&amp;nbsp;zároveň možné&amp;nbsp;nastaviť, či pri úprave údajov na skladovej karte sa má upraviť skladová karta len v&amp;nbsp;tomto sklade,&amp;nbsp;alebo aj rovnaké skladové karty v&amp;nbsp;iných skladoch (voľba &lt;EM&gt;Zmeny na karte aktualizovať vo všetkých skladoch&lt;/EM&gt;). Využitie tejto možnosti môže spočívať napr. v&amp;nbsp;úprave predajných cien (pri zmene predajnej ceny v&amp;nbsp;jednom sklade&amp;nbsp;sa automaticky zmení predajná cena rovnakej položky aj v iných skladoch). &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;V prípade, že v&amp;nbsp;rámci účtovnej jednotky pracuje so skladmi&amp;nbsp;viacero používateľov, je možné nastaviť konkrétnym&amp;nbsp;&lt;A href="834e9546-a56b-476f-9028-ef4c24a82345"&gt;používateľom práva&lt;/A&gt; na jednotlivé sklady (plný prístup, len prezeranie, nepovoliť prístup). Pri vytvorení nového skladu bude mať používateľ automaticky k danému skladu prístup, v prípade potreby je možné používateľovi&amp;nbsp;právo na nový sklad obmedziť.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Popis formulára &lt;EM&gt;Sklad&lt;/EM&gt;&lt;/H2&gt;&lt;innovasys:widget type="Tab Strip" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Základné údaje&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;&lt;STRONG&gt;Názov skladu&lt;/STRONG&gt; - zadajte názov skladu.&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;Externý sklad&lt;/STRONG&gt; -&amp;nbsp;predstavuje sklad, v ktorom sa &lt;STRONG&gt;reálne nevedie skladová evidencia&lt;/STRONG&gt;. Používa sa spravidla pri&amp;nbsp;&lt;A href="67abf56c-fe22-4bc8-ba77-6a8058a8782f"&gt;on-line pobočkovom režime&lt;/A&gt;&amp;nbsp;- po vytvorení databázy v&amp;nbsp;pobočke sa automaticky všetky sklady pobočky nastavia s príznakom externý sklad (na pobočke sa nevytvárajú príjemky, výdajky, tie sa&amp;nbsp;vytvárajú len&amp;nbsp;v&amp;nbsp;centrále).&lt;/P&gt;
+&lt;P&gt;Externý sklad však &lt;STRONG&gt;môže predstavovať aj sklad dodávateľa&lt;/STRONG&gt;, pričom obsahuje aj jeho skladové množstvá. Tie má používateľ k dispozícii, čo zefektívňuje jeho prácu s objednávkami. Tieto množstvá (množstvo na externom sklade) sa môžu prenášať aj do internetového obchodu. Skladové karty&amp;nbsp;je možné&amp;nbsp;do externého skladu naimportovať zo súboru typu XML, XLSX a pod.&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;Automaticky aktualizovať predajné ceny&lt;/STRONG&gt; - nastavenie platí len pri číslovaní skladových kariet jedným číselným radom vo všetkých skladoch. Týka sa aktualizácie predajných cien tých skladových kariet, ktoré existujú (majú zhodné číslo a názov) aj v&amp;nbsp;inom sklade (skladoch). V&amp;nbsp;prípade zmeny predajnej ceny&amp;nbsp;na skladovej karte v&amp;nbsp;inom sklade, ktorý má tiež toto nastavenie aktívne, sa predajná cena zmení aj na danej skladovej karte v&amp;nbsp;tomto&amp;nbsp;sklade.&amp;nbsp;Toto nastavenie je možné deaktivovať. Tým je možné zabezpečiť, aby boli ceny položiek vo&amp;nbsp;zvolenom sklade&amp;nbsp;&lt;STRONG&gt;určené individuálne&lt;/STRONG&gt; - čo je možné využiť napr. pri&amp;nbsp;&lt;A href="6c98a377-1b88-4eb8-801b-1f168641373b"&gt;vernostnom systéme&lt;/A&gt;, ktorý využíva samostatný sklad&amp;nbsp;na evidenciu položiek na čerpanie benefitov, t.&amp;nbsp;j. zľavnených položiek či&amp;nbsp;položiek zdarma (popri položkách na kumulovanie benefitov).&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;Nezobrazovať&lt;/STRONG&gt; - zaškrtnite&amp;nbsp;vtedy,&amp;nbsp;keď&amp;nbsp;existujú dôvody, pre ktoré sklad nemožno vymazať zo zoznamu skladov, ale sa s&amp;nbsp;týmto skladom už nepracuje a je výhodné, aby sa tento sklad nezobrazoval v rozbaľovacích zoznamoch&amp;nbsp;na výber skladov. V takomto prípade sa skladové karty daného skladu nezarátavajú medzi skladové karty obmedzené &lt;A href="95d188df-c149-46a9-8474-4d9493f2ad41"&gt;licenčnými právami&lt;/A&gt;.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Doplňujúce údaje&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;&lt;EM&gt;Zahrnúť sklad do výpočtu kredit limitu&lt;/EM&gt;&lt;/STRONG&gt;. -&amp;nbsp;v prípade, že účtovná jednotka využíva &lt;A href="96fd7619-32d2-462b-bad8-6f986dc4c6b2"&gt;Kredit limit&lt;/A&gt;, je možné vybraný sklad zahrnúť (prípadne vylúčiť) z výpočtu kredit limitu. &lt;/LI&gt;&lt;/UL&gt;
+&lt;P&gt;&lt;STRONG&gt;Zahrnúť do výpočtu kredit limitu&lt;/STRONG&gt; -&amp;nbsp;v&amp;nbsp;prípade, že účtovná jednotka využíva funkciu&amp;nbsp;&lt;A href="96fd7619-32d2-462b-bad8-6f986dc4c6b2"&gt;Kredit limit&lt;/A&gt;, je možné vybraný sklad zahrnúť (prípadne vylúčiť)&amp;nbsp;do výpočtu kredit limitu.&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;Evidovať stav naskladnenia&lt;/STRONG&gt; -&amp;nbsp;v&amp;nbsp;prípade, že účtovná jednotka chce sledovať naskladnenosť tovaru (fyzický príjem tovaru), je potrebné zaškrtnúť túto možnosť.&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;Evidovať stav vyskladnenia&lt;/STRONG&gt; -&amp;nbsp;v&amp;nbsp;prípade, že účtovná jednotka chce sledovať vyskladnenosť tovaru (fyzický&amp;nbsp;výdaj tovaru), je potrebné zaškrtnúť túto možnosť.&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;Hlavná vetva pre kategórie skladových kariet&lt;/STRONG&gt; - pomocou tlačidla&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_ListButton.png"&gt; sa zobrazí formulár&amp;nbsp;&lt;A href="4dfc2d36-f1c8-4b60-81c4-62e8e5197b99"&gt;Kategórie skladových kariet&lt;/A&gt;,&amp;nbsp;v&amp;nbsp;ktorom je možné pridať alebo vybrať hlavnú&amp;nbsp;skupinu (vetvu)&amp;nbsp;v stromovej štruktúre, pod ktorou sa budú zobrazovať kategórie skladových kariet evidovaných v&amp;nbsp;danom sklade. Nastavenie umožňuje rozčleniť stromovú štruktúru v&amp;nbsp;prípade používania viacerých skladov tak, že sa po výbere daného skladu&amp;nbsp;v evidencii&amp;nbsp;&lt;A href="1a33ab0b-2df7-4dc2-962b-8a3319c16831"&gt;Skladové karty&lt;/A&gt;&amp;nbsp;(pomocou filtra &lt;EM&gt;Sklad&lt;/EM&gt; v&amp;nbsp;hornej časti evidencie) bude zobrazovať stromová štruktúra prislúchajúca len k danému skladu (napr. pri vedení osobitných skladov pre stavebný materiál, vodoinštalačný materiál a kúpeľňové štúdio sa po výbere skladu &lt;EM&gt;Stavebný materiál&lt;/EM&gt; v stromovej štruktúre zobrazia len kategórie prislúchajúce k tomuto skladu).&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Komisionálny sklad&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Ak účtovná jednotka&amp;nbsp;poskytuje tovar na &lt;STRONG&gt;komisionálny predaj&lt;/STRONG&gt;, môže ku skladu priradiť odberateľa, ktorému daný sklad patrí. Bližšie informácie o komisionálnom predaji získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="78bceae1-1cc7-4e31-a232-24b38044c3d0"&gt;Komisionálny predaj&lt;/A&gt;.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="c826349e-b3dd-499f-9f88-b54e871c98a2" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1a33ab0b-2df7-4dc2-962b-8a3319c16831">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="fbbbbe93-7948-469d-a41a-92e91d04f0c5" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="62db2271-9ae9-4968-b790-47a07e7c6aef">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="12b92d8d-c87f-4361-b946-27a1d59c6c6f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="0a22d060-0b8a-4166-ba9b-8239f36863a0">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="d8a620b8-f6c1-4961-a11c-5e0bf18e52df" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="6acbdde2-e6a9-43bc-8e10-4e1aa1ea1c3d">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="abebbd90-cd93-4d8e-ab40-f4e48152aeb6" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="4dfc2d36-f1c8-4b60-81c4-62e8e5197b99">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="2bfa844f-dc12-4df0-bdd6-bb5aa31c3bfc" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="5f711bd3-c5ab-4b68-93cc-214b6720faf8">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="9dab8471-9aff-4697-b0bb-a67d937d4caf" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="f427806c-a0f0-4040-90f9-5f35cb60f08b">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="34891b4f-8651-408c-8f73-82db4a96f9d9" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="79f53c12-0f9d-46c1-b039-2a412e1671f0">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="d9b9dad4-e553-4c54-a2be-6c4aac671443">
+      <Keyword m="2014-11-18T12:15:06.5107421Z">Pridanie skladu</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="d317de6c-4379-4488-a16b-c2a0030a7f13">
+      <Keyword m="2014-11-24T11:44:16.673789Z">Vymazanie skladu</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="a196efa8-3cb6-4fd4-a9af-5a914888bd6e">
+      <Keyword m="2014-11-24T12:15:58.7284765Z">Zoskupenia skladov</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="0d39e8f0-3961-4177-b383-59946709bb8b">
+      <Keyword m="2021-10-28T09:35:53.6091768Z">Číselný rad - sklady</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="065d4c06-ebd4-46dd-8863-a7c30f66df04">
+      <Keyword m="2021-10-28T09:36:04.5579329Z">Jeden číselný rad pre všetky sklady</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="0143172f-e042-4180-adea-5efdf1dccae1">
+      <Keyword m="2021-10-28T10:08:16.1659293Z">Sklad</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="bbd23b1e-4e17-4ae2-8ff2-ddf0b9566cdb">
+      <Keyword m="2021-10-28T10:09:42.7854207Z">Externý sklad</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="66e70a19-edb3-4460-a5fc-31c6f0f4484c">
+      <Keyword m="2021-10-28T10:09:57.7073109Z">Sklad - formulár</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="988406a2-912e-406d-9147-d10b1c966e8d">
+      <Keyword m="2021-10-28T13:11:17.9223878Z">Prevod do iného skladu</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="973f316f-2c76-4d26-ae02-058c3394d1bc">
+      <Keyword m="2021-10-29T07:20:59.9788655Z">Hlavná vetva pre kategórie skladových kariet</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

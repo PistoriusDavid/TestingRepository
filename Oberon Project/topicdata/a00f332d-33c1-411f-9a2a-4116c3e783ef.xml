@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="a00f332d-33c1-411f-9a2a-4116c3e783ef" Status="Complete" CreatedOn="2014-09-11T07:55:59.710754Z" ModifiedOn="2022-12-08T08:42:45.2259792Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="AccDouble_Acc_Stock_About_Stock_Accounting" BuildFlags="">
+  <Title m="2017-04-20T10:22:21.6900947Z">Všeobecne o účtovaní skladu (zásob)</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2022-12-08T07:24:43.8705753Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;informácie&amp;nbsp;o&amp;nbsp;účtovaní skladu&lt;/STRONG&gt; v&amp;nbsp;&lt;A href="49dd3167-870a-4fdf-b631-d4f692f1ed72"&gt;podvojnom účtovníctve&lt;/A&gt;&amp;nbsp;- o spôsoboch účtovania, ich jednotlivých možnostiach a rozdieloch medzi nimi. Pod účtovaním skladu sa rozumie účtovanie pohybu zásob.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Postupy účtovania umožňujú účtovať skladové zásoby&amp;nbsp;dvoma základnými spôsobmi. Spôsob účtovania si môže účtovná jednotka zvoliť, prípadne v niektorých prípadoch je určená priamo legislatívou (postupy účtovania - § 43 ods.&amp;nbsp;1&amp;nbsp;&lt;A href="https://www.mfsr.sk/sk/dane-cla-uctovnictvo/uctovnictvo-audit/uctovnictvo/legislativa-sr/opatrenia-oblasti-uctovnictva/uctovnictvo-podnikatelov/podvojne-uctovnictvo/postupy-uctovania/" target=_blank&gt;Opatrenia Ministerstva financií Slovenskej republiky č. 23054/2002-92&lt;/A&gt;). 
+&lt;LI&gt;Zvolený spôsob účtovania používa účtovná jednotka počas celého účtovného obdobia, a to vo všetkých skladoch. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Spôsoby účtovania skladu (zásob)&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;A href="c9f0ed56-580d-477c-9dbe-2e850398781f"&gt;&lt;STRONG&gt;Spôsob A&lt;/STRONG&gt;&lt;/A&gt;&amp;nbsp;-&amp;nbsp;nákup&amp;nbsp;a predaj zásob sa účtuje na účty skladu (účty &lt;STRONG&gt;112&lt;/STRONG&gt;, &lt;STRONG&gt;132&lt;/STRONG&gt;).&amp;nbsp;Prírastky a úbytky v zásobách sa spravidla účtujú&amp;nbsp;podľa jednotlivých dokladov. Účtovanie sa vykonáva &lt;STRONG&gt;priebežne počas celého účtovného roka&lt;/STRONG&gt;. Účtovanie spôsobom (metódou) A je možné vykonávať &lt;STRONG&gt;vo dvoch variantoch&lt;/STRONG&gt; - s&amp;nbsp;používaním účtov obstarania (účty 111, 131) alebo aj bez týchto účtov.
+&lt;LI&gt;&lt;STRONG&gt;Výhody:&lt;/STRONG&gt;
+&lt;UL&gt;
+&lt;LI&gt;účtovníctvo&amp;nbsp;poskytuje reálne informácie o&amp;nbsp;stave a pohybe zásob, a to v priebehu celého účtovného obdobia;
+&lt;LI&gt;presne vedené účtovníctvo dáva korektné informácie o stave a pohybe majetku podnikateľského subjektu, tak ako aj o ostatných aktívach a pasívach. Účtovníctvo ďalej podáva presné informácie o výnosoch a nákladoch, t. j. o&amp;nbsp;výsledku hospodárenia.&lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Nevýhody:&lt;/STRONG&gt;
+&lt;UL&gt;
+&lt;LI&gt;zložitejšia evidencia - viac účtovných zápisov v&amp;nbsp;&lt;A href="d8c9bfc8-92d1-4471-8909-e5f8ce602d6c"&gt;účtovnom denníku&lt;/A&gt;;
+&lt;LI&gt;zložitejšie opravy v sklade - spätná oprava v dokladoch&amp;nbsp;skladu (výdajky, príjemky, faktúry)&amp;nbsp;je zložitá a v niektorých prípadoch až nemožná (z dôvodu veľkej prácnosti dodatočných opráv). Opravy dokladov sa preto&amp;nbsp;spravidla vykonávajú novým (opravným) účtovným dokladom.&lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;&lt;A href="b1838751-e53e-4824-bd05-991e16d1eb2a"&gt;&lt;STRONG&gt;Spôsob B&lt;/STRONG&gt;&lt;/A&gt;&amp;nbsp;- obstaranie (nákup) zásob sa účtuje priamo&amp;nbsp;do nákladov - na ťarchu príslušných nákladových účtov (účtovná skupina &lt;STRONG&gt;50x&lt;/STRONG&gt;). Až na konci účtovného obdobia sa vykoná inventúra a zistený zostatok (aktuálny stav) sa zaúčtuje na účty zásob.
+&lt;LI&gt;&lt;STRONG&gt;Výhody:&lt;/STRONG&gt;
+&lt;UL&gt;
+&lt;LI&gt;jednoduchšia evidencia - menej účtovných zápisov v&amp;nbsp;&lt;A href="d8c9bfc8-92d1-4471-8909-e5f8ce602d6c"&gt;účtovnom denníku&lt;/A&gt;;
+&lt;LI&gt;jednoduchšie opravy v sklade - spätné opravy v dokladoch&amp;nbsp;skladu (výdajky, príjemky, faktúry)&amp;nbsp;je jednoduchý, je možné&amp;nbsp; kedykoľvek vykonať&amp;nbsp;&lt;A href="dc54990f-39a8-4a17-b0bf-9b463e6c9303"&gt;prepočet obstarávacích cien a výnosov&lt;/A&gt; na ich zreálnenie.&lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Nevýhody:&lt;/STRONG&gt;
+&lt;UL&gt;
+&lt;LI&gt;v priebehu účtovného obdobia (roka) účtovníctvo neposkytuje&amp;nbsp;údaje o stave zásob a ostatné údaje súvisiace&amp;nbsp;so zásobami;
+&lt;LI&gt;účtovníctvo je menej prehľadné - neposkytuje presné informácie o nákladoch, a tým&amp;nbsp;ani o&amp;nbsp;hospodárskom výsledku. Informácie o zásobách sú však dostupné priamo v skladovej evidencii&amp;nbsp;(stavy zásob, výnosy).&lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Vždy pred &lt;A href="e50f9e37-991e-4800-9fc3-3eeb6ce162a7"&gt;hromadným zaúčtovaním skladu&lt;/A&gt; sa odporúča použiť funkciu &lt;A href="dc54990f-39a8-4a17-b0bf-9b463e6c9303"&gt;Prepočet obstarávacích cien a výnosov&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Aký spôsob účtovania skladu (zásob) si vybrať?&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Spôsobom A&lt;/STRONG&gt; účtujú účtovné jednotky, ktoré majú zákonnú povinnosť viesť podvojné účtovníctvo a&amp;nbsp;majú povinnosť dať účtovnú závierku overovať audítorom. Spôsob účtovania A si však môžu vybrať aj účtovné jednotky, ktoré nemajú povinnosť dať účtovnú závierku overovať audítorom. 
+&lt;LI&gt;Spôsob A je vhodný pre&amp;nbsp;účtovné jednotky, ktoré účtujú v reálnom čase a vyžadujú presné informácie z účtovníctva priebežne počas celého účtovného obdobia. Tento spôsob využívajú hlavne väčšie účtovné jednotky, ktoré podrobne sledujú tak hospodárenie firmy, ako aj cash-flow. 
+&lt;LI&gt;&lt;STRONG&gt;Spôsob B&lt;/STRONG&gt; je vhodný pre účtovné jednotky, ktoré nevyžadujú&amp;nbsp;a nečerpajú informácie o hospodárení účtovnej jednotky počas účtovného obdobia z&amp;nbsp;účtovníctva (z&amp;nbsp;účtovného denníka). Informácie o&amp;nbsp;stave zásob, tržbách a&amp;nbsp;výnosoch v&amp;nbsp;sklade&amp;nbsp;im poskytuje evidencia skladu a na konečný hospodársky výsledok si počkajú&amp;nbsp;až na koniec účtovného obdobia (po&amp;nbsp;zostavení &lt;A href="831d0b51-ffdf-4708-8afc-9d305d97e4d0"&gt;účtovnej závierky&lt;/A&gt;). &lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="c3af9d4f-2ebb-49dd-9cdf-2e32070bcf0a" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="e50f9e37-991e-4800-9fc3-3eeb6ce162a7">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="251678a9-f67d-463f-8139-f6eed0d78811" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="c9f0ed56-580d-477c-9dbe-2e850398781f">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="8d2deeed-d899-4849-bdc8-acb82ff83795" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="b1838751-e53e-4824-bd05-991e16d1eb2a">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="599fd25e-af06-4835-955a-e18e20297cb7" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="7938745b-8087-4417-ac30-c75c697309e7">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="4670ac18-1748-4b31-972e-7b4fd840f0ae">
+      <Keyword m="2022-12-08T08:42:39.1517919Z">Spôsob A - všeobecne o účtovaní skladu</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="0d358f09-2a02-4ddf-9718-781064af4eab">
+      <Keyword m="2022-12-08T08:42:45.2259792Z">Spôsob B - všeobecne o účtovaní skladu</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

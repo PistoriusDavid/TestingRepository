@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="f93130c1-bcfc-4752-af35-084daf4a2fbf" Status="Complete" CreatedOn="2014-11-27T10:04:25.8398437Z" ModifiedOn="2023-05-26T09:32:53.8300719Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="22311" Name="Menu_Firm_Pref_Register_Attributes" BuildFlags="">
+  <Title m="2014-11-27T10:06:30.4296875Z">Skladové karty - atribúty</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-05-26T09:32:53.8300719Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;je venovaná&amp;nbsp;položke&amp;nbsp;&lt;EM&gt;Skladové karty - atribúty&lt;/EM&gt;&amp;nbsp;v ponuke&amp;nbsp;&lt;EM&gt;Firma, Predvoľby&lt;/EM&gt;&amp;nbsp;programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Výberom položky sa otvorí číselník&amp;nbsp;&lt;EM&gt;Zoznam atribútov skladových kariet&lt;/EM&gt;, v ktorom je možné&amp;nbsp;&lt;STRONG&gt;definovať atribúty skladových kariet, t.&amp;nbsp;j. ich špecifické vlastnosti (farba, veľkosť, rozmer atď.)&lt;/STRONG&gt;, ktoré sa&amp;nbsp;používajú pri vytváraní&amp;nbsp;&lt;A href="b0e0ad9c-d19d-4670-8485-ec384dbae1bd"&gt;variantov skladových kariet&lt;/A&gt; v&amp;nbsp;module&amp;nbsp;&lt;A href="78d20602-4b59-4b31-9f0a-a04a1d376ec5"&gt;Skladová evidencia&lt;/A&gt;. 
+&lt;LI&gt;Atribúty môžu nadobúdať tieto typy hodnôt: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Bez hodnoty&lt;/STRONG&gt;, 
+&lt;LI&gt;&lt;STRONG&gt;Textová hodnota&lt;/STRONG&gt; - atribút skladovej karty bude nastavený na textovú hodnotu, napríklad veľkosť S, M, L, XL, 
+&lt;LI&gt;&lt;STRONG&gt;Farba&lt;/STRONG&gt; - atribút skladovej karty bude nastavený na určitú farbu, napr. zelenú, 
+&lt;LI&gt;&lt;STRONG&gt;Číselná hodnota&lt;/STRONG&gt; - atribút skladovej karty bude nastavený na číselnú hodnotu, ktorá môže byť bez desatinného miesta alebo s ním, napr. veľkosť topánky. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Viac informácií o atribútoch získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="b0e0ad9c-d19d-4670-8485-ec384dbae1bd" style="auto-update-caption: true"&gt;Práca s variantmi skladovej karty&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Číselník je dostupný aj z&amp;nbsp;formulára &lt;EM&gt;Variant skladovej karty&lt;/EM&gt;, záložka&amp;nbsp;&lt;EM&gt;Základné&lt;/EM&gt;,&amp;nbsp;&lt;EM&gt;Atribúty variantu&lt;/EM&gt;, tlačidlo&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_ListButton.png"&gt;&amp;nbsp;(&lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;formulár Skladová karta&lt;/A&gt;, záložka &lt;EM&gt;Varianty&lt;/EM&gt;, tlačidlo &lt;EM&gt;Nový&lt;/EM&gt; alebo &lt;EM&gt;Oprava&lt;/EM&gt;).&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="f3f7e4c3-bc67-405e-ad7c-1a7a286be341" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="c233ada3-0fed-4911-97f3-0680973ebac1">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="5d49138f-1b14-431f-bb4b-3969ba0a0a9d" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="b0e0ad9c-d19d-4670-8485-ec384dbae1bd">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="a1e6eb4a-778f-4341-aa96-bbea5f6ac5bf" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1c0f4281-386c-4f5a-910f-e8d01a1b28d9">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="bd804aae-fef1-4cd1-ab8c-ef31ef129ac5">
+      <Keyword m="2022-01-21T08:51:03.6721285Z">Atribúty - varianty skladovej karty - definovanie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="d3022f30-8559-4ea5-bfef-73366d330fe4">
+      <Keyword m="2022-01-21T08:50:47.5283003Z">Atribút - varianty skladovej karty - definovanie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="44c511d4-8904-4a28-a338-954f2f4fbb2c">
+      <Keyword m="2023-02-13T14:14:12.594358Z">Atribúty - varianty skladovej karty - číselník</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

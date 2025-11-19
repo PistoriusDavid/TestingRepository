@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="00777364-8b56-4ec5-b5ce-b302f3f384a3" Status="Complete" CreatedOn="2014-09-10T06:45:28.3069342Z" ModifiedOn="2023-06-08T08:58:51.0333648Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="false" HelpContextIds="" Name="Stock_Advanced_SBL" BuildFlags="">
+  <Title m="2022-07-08T11:16:20.125616Z">Evidencia a predaj SBL</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-06-08T08:58:51.0333648Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;informácie o evidencii a predaji spotrebiteľských balení liehu (SBL) a&amp;nbsp;o&amp;nbsp;súvisiacich nastaveniach&lt;/STRONG&gt; v&amp;nbsp;systéme OBERON. Informácie uvedené v&amp;nbsp;tejto téme &lt;STRONG&gt;majú len informatívny charakter a nie sú právne záväzné&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Osoba, ktorá chce v rámci podnikateľskej činnosti (pohostinstvá, reštaurácie, bufety, hotely...) na území &lt;EM&gt;Slovenskej republiky&lt;/EM&gt; predávať&amp;nbsp;lieh v spotrebiteľskom balení (t.&amp;nbsp;j.&amp;nbsp;destiláty, likéry a iné liehové nápoje) označený kontrolnou známkou, alebo predávať lieh z takéhoto spotrebiteľského balenia, &lt;STRONG&gt;musí mať povolenie na predaj&lt;/STRONG&gt;. 
+&lt;LI&gt;Podľa &lt;EM&gt;Zákona č. 105/2004 Z. z. o spotrebnej dani z liehu a o zmene a doplnení zákona č. 467/2002 Z. z. o výrobe a uvádzaní liehu na trh&lt;/EM&gt; sa podnikateľské subjekty, ktoré sa zaoberajú predajom spotrebiteľského balenia liehu,&amp;nbsp;delia na dve skupiny: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;distribútori&amp;nbsp;&lt;/STRONG&gt;-&amp;nbsp;podnikatelia, ktorí sa zaoberajú kúpou spotrebiteľského balenia liehu a jeho ďalšieho predaja iným podnikateľským subjektom;&amp;nbsp;u distribútorov SBL je potrebné &lt;STRONG&gt;povolenie na distribúciu&amp;nbsp;SBL&lt;/STRONG&gt; od colného úradu, 
+&lt;LI&gt;&lt;STRONG&gt;predajcovia&lt;/STRONG&gt; - podnikatelia, ktorí kupujú&amp;nbsp;spotrebiteľské balenie liehu na účely predaja konečnému spotrebiteľovi (napr. v&amp;nbsp;reštauračných zariadeniach); u predajcov SBL je potrebné &lt;STRONG&gt;povolenie na predaj SBL&lt;/STRONG&gt; od colného úradu. &lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Povinnosti distribútorov SBL&lt;/H2&gt;
+&lt;P&gt;Povinnosti distribútorov SBL podrobne vymedzuje § 54&amp;nbsp;zákona č. 530/2011 Z.&amp;nbsp;z.&amp;nbsp;o&amp;nbsp;spotrebnej dani z alkoholických nápojov. Zahŕňajú napr. povinnosť:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;nakupovať SBL len od inej osoby &lt;STRONG&gt;oprávnenej na distribúciu&lt;/STRONG&gt; (preveriť platnosť oprávnenia dodávateľa&amp;nbsp;na distribúciu SBL možno na&amp;nbsp;&lt;A href="https://www.financnasprava.sk/sk/elektronicke-sluzby/verejne-sluzby/zoznamy/detail/_b1b6fedd-fa9d-4f10-a80b-a27500892f11" target=_blank&gt;tejto webovej adrese&lt;/A&gt;), 
+&lt;LI&gt;predložiť na požiadanie colného úradu doklady preukazujúce &lt;STRONG&gt;spôsob nadobudnutia SBL&lt;/STRONG&gt;, 
+&lt;LI&gt;skladovať v prevádzkarni &lt;STRONG&gt;SBL určené len na predaj&lt;/STRONG&gt; v rámci podnikateľskej činnosti, 
+&lt;LI&gt;&lt;STRONG&gt;viesť za kalendárny mesiac&lt;/STRONG&gt; &lt;STRONG&gt;evidenciu SBL&lt;/STRONG&gt; za každú prevádzkareň tak, aby colný úrad pri výkone daňového dozoru mohol overiť stav zásob spotrebiteľských balení liehu ku dňu výkonu daňového dozoru, a&amp;nbsp;&lt;STRONG&gt;uchovávať túto evidenciu&amp;nbsp;päť rokov&lt;/STRONG&gt;. Túto evidenciu možno viesť aj pomocou skladového softvéru bez denného vyplňovania tlačív, na požiadanie colného úradu je potrebné ju predložiť. Na tento účel možno využiť tlačové výstupy v&amp;nbsp;systéme OBERON v&amp;nbsp;ponuke &lt;EM&gt;Sklad,&amp;nbsp;&lt;/EM&gt;&lt;A href="fc7595a6-54ce-4aa9-acb4-93d7880e854e"&gt;Skladové pohyby&lt;/A&gt;&amp;nbsp;(Obrázok č. 1), 
+&lt;LI&gt;&lt;STRONG&gt;uvádzať&lt;/STRONG&gt; na daňovom doklade o predaji SBL: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;identifikačné údaje dodávateľa alebo&amp;nbsp;odberateľa a číslo jeho oprávnenia na distribúciu&lt;/STRONG&gt;, ak je odberateľom osoba oprávnená na distribúciu, resp. &lt;STRONG&gt;číslo jeho povolenia na predaj&lt;/STRONG&gt;, ak je odberateľom držiteľ povolenia na predaj (na tlač obchodného partnera na pokladničnom doklade je potrebné zvoliť odberateľa pri &lt;A href="69bbd499-45c0-4b0f-8f7a-c53fa5d70c1b"&gt;predaji na Pokladnici OBERON&lt;/A&gt; v&amp;nbsp;záložke &lt;I&gt;Obchodní partneri&lt;/I&gt;), 
+&lt;LI&gt;&lt;STRONG&gt;čiarový kód EAN&lt;/STRONG&gt; za každé spotrebiteľské balenie; ak má SBL pridelených viac čiarových kódov EAN, uvedie ten čiarový kód EAN, ktorý použije pri predaji spotrebiteľského balenia. &lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Držiteľ povolenia na&amp;nbsp;distribúciu SBL&amp;nbsp;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;&lt;STRONG&gt;nemá od 01.07.2021 povinnosť&lt;/STRONG&gt;&lt;/SPAN&gt; &lt;STRONG&gt;zasielať uvedenú evidenciu miestne príslušnému colnému úradu&lt;/STRONG&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Povinnosti predajcov SBL&lt;/H2&gt;
+&lt;P&gt;Povinnosti predajcov SBL podrobne vymedzuje § 54&amp;nbsp;zákona č. 530/2011 Z.&amp;nbsp;z.&amp;nbsp;o&amp;nbsp;spotrebnej dani z alkoholických nápojov. Zahŕňajú napr. povinnosť:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;nakupovať, alebo inak odoberať SBL na účel ďalšieho predaja v rámci podnikateľskej činnosti, &lt;STRONG&gt;len od osoby, ktorej colný úrad vydal oprávnenie na distribúciu&lt;/STRONG&gt; (preveriť platnosť oprávnenia dodávateľa&amp;nbsp;na distribúciu SBL možno na&amp;nbsp;&lt;A href="https://www.financnasprava.sk/sk/elektronicke-sluzby/verejne-sluzby/zoznamy/detail/_b1b6fedd-fa9d-4f10-a80b-a27500892f11" target=_blank&gt;&lt;/A&gt;&lt;A href="https://www.financnasprava.sk/sk/elektronicke-sluzby/verejne-sluzby/zoznamy/detail/_b1b6fedd-fa9d-4f10-a80b-a27500892f11" target=_blank&gt;tejto webovej adrese&lt;/A&gt;), 
+&lt;LI&gt;predložiť na požiadanie colného úradu doklady preukazujúce &lt;STRONG&gt;spôsob nadobudnutia SBL&lt;/STRONG&gt;, 
+&lt;LI&gt;skladovať v prevádzkarni &lt;STRONG&gt;SBL určené len na predaj&lt;/STRONG&gt; v rámci podnikateľskej činnosti, 
+&lt;LI&gt;&lt;STRONG&gt;viesť za kalendárny mesiac evidenciu SBL&lt;/STRONG&gt; podľa dokladov o&amp;nbsp;nákupe a predaji SBL a čiarového kódu EAN tak, aby colný úrad pri výkone daňového dozoru mohol overiť stav zásob spotrebiteľských balení liehu ku dňu výkonu daňového dozoru, a&amp;nbsp;&lt;STRONG&gt;uchovávať túto evidenciu&amp;nbsp;päť rokov&lt;/STRONG&gt;. Túto evidenciu možno viesť aj pomocou skladového softvéru bez denného vyplňovania tlačív, na požiadanie colného úradu je potrebné ju predložiť. Na tento účel možno využiť tlačové výstupy v&amp;nbsp;systéme OBERON v&amp;nbsp;ponuke &lt;EM&gt;Sklad,&amp;nbsp;&lt;/EM&gt;&lt;A href="fc7595a6-54ce-4aa9-acb4-93d7880e854e"&gt;Skladové pohyby&lt;/A&gt;&amp;nbsp;(Obrázok č. 1). &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Držiteľ povolenia na predaj SBL&amp;nbsp;&lt;STRONG&gt;nemá&amp;nbsp;povinnosť zasielať uvedenú evidenciu miestne príslušnému colnému úradu&lt;/STRONG&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H5&gt;Obrázok č. 1: Tlačové výstupy - evidencia príjmu a výdaja SBL&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/Stock/Form_Stock_PrintReport_SBL2.png"&gt;&amp;nbsp;&lt;/P&gt;&lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Skôr, než začnete evidovať a predávať SBL v systéme OBERON, &lt;STRONG&gt;venujte náležitú pozornosť&amp;nbsp;príslušným nastaveniam programu&lt;/STRONG&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Nastavenia systému OBERON umožňujúce evidenciu a predaj SBL&lt;/H2&gt;
+&lt;H3&gt;Nastavenia platné pre distribútorov aj&amp;nbsp;predajcov SBL&lt;/H3&gt;
+&lt;UL&gt;
+&lt;LI&gt;V prípade, že má&amp;nbsp;účtovná jednotka&amp;nbsp;pridelené &lt;STRONG&gt;číslo povolenia na distribúciu, resp.&amp;nbsp;predaj SBL&lt;/STRONG&gt;, je potrebné toto číslo zadať v ponuke &lt;EM&gt;Firma&lt;/EM&gt;,&amp;nbsp;&lt;A href="a833ee8a-1289-42b9-923f-80f549497702"&gt;Údaje o firme&lt;/A&gt;, oddiel &lt;EM&gt;Doplňujúce údaje - &lt;STRONG&gt;Číslo povolenia na predaj alkoholu&lt;/STRONG&gt;&lt;/EM&gt;. 
+&lt;LI&gt;V&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="58eee6a7-b5aa-47a5-9d0e-6f9987c96a52"&gt;oddiel Firma, Sklad&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt; záložka &lt;EM&gt;Skladové karty&lt;/EM&gt; začiarknite možnosť&amp;nbsp;&lt;STRONG&gt;&lt;EM&gt;Umožniť evidovať spotrebiteľské balenie liehu&lt;/EM&gt;&lt;/STRONG&gt;. Na základe tohto nastavenia sa vo&amp;nbsp;&lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;formulári Skladová karta&lt;/A&gt;, záložka &lt;EM&gt;Doplň. údaje&lt;/EM&gt; zobrazí&amp;nbsp;sekcia &lt;EM&gt;&lt;STRONG&gt;Spotrebiteľské balenie liehu&lt;/STRONG&gt;&lt;/EM&gt;, kde je možné evidovať nasledujúce údaje na identifikáciu&amp;nbsp;skladovej karty ako SBL: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Obchodný názov&lt;/STRONG&gt; - oficiálny obchodný názov (od výrobcu) SBL, nemusí sa zhodovať s názvom skladovej karty, 
+&lt;LI&gt;&lt;STRONG&gt;Objem SBL balenia v litroch&lt;/STRONG&gt; -&amp;nbsp;ak je napr.&amp;nbsp;0,7 l balenie 40 % vodky, uvádza sa&amp;nbsp;0,7, 
+&lt;LI&gt;&lt;STRONG&gt;Percento objemu liehu v&amp;nbsp;SBL&lt;/STRONG&gt; - ak je napr.&amp;nbsp;0,7 l balenie 40 % vodky, uvádza sa&amp;nbsp;40. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Vzhľadom na to, že je pre colný úrad povinné viesť evidenciu SBL &lt;STRONG&gt;na samostatnej skladovej karte&amp;nbsp;&lt;/STRONG&gt;&lt;STRONG&gt;podľa čiarového kódu (EAN)&lt;/STRONG&gt;, je potrebné mať&amp;nbsp;na&amp;nbsp;skladovej karte evidujúcej SBL&amp;nbsp;v&amp;nbsp;záložke &lt;EM&gt;Reg. pokladnice&lt;/EM&gt; vyplnené pole &lt;STRONG&gt;&lt;EM&gt;Čiarový kód&lt;/EM&gt;&lt;/STRONG&gt;. Tento čiarový kód sa bude tlačiť vo výkazoch a&amp;nbsp;daňových dokladoch. Čiarový kód je možné zadávať aj pomocou&amp;nbsp;&lt;A href="80a78093-fc45-4db9-b74b-e1f9829f7b3c"&gt;snímača čiarových kódov&lt;/A&gt;. Na tlač čiarového kódu na dokladoch&amp;nbsp;(faktúrach, výdajkách v&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="8406940f-006c-44df-b7ff-2f80e4556003"&gt;oddiel Používateľ, Tlač&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt; záložka&amp;nbsp;&lt;EM&gt;Faktúry, Výdajky&lt;/EM&gt;&amp;nbsp;začiarknite možnosť &lt;EM&gt;K&amp;nbsp;názvu položky pripájať čiarový kód&lt;/EM&gt;. Zároveň je potrebné, aby boli vyplnené údaje o&amp;nbsp;skladových kartách, ktoré sa týkajú SBL, vrátane poľa pre čiarový kód na záložke &lt;EM&gt;Reg. pokladnica&lt;/EM&gt; (ak je zadaných viac kódov,&amp;nbsp;bude sa tlačiť len prvý čiarový kód).&amp;nbsp;V&amp;nbsp;prípade, že používate upravené tlačové výstupy na faktúry, nie je potrebné zrušiť upravené výstupy, a&amp;nbsp;opätovne ich upravovať,&amp;nbsp;keďže čiarový kód program dopĺňa pri tlači faktúry k&amp;nbsp;názvu skladovej karty. 
+&lt;LI&gt;V ponuke &lt;EM&gt;Firma&lt;/EM&gt;,&amp;nbsp;&lt;A href="b7a48886-b367-4056-808a-59ba5f871f32"&gt;Obchodní partneri&lt;/A&gt;, záložka &lt;EM&gt;Rozšírené&lt;/EM&gt;&amp;nbsp;zadajte ku každému obchodnému partnerovi, ktorý prijíma alebo vydáva lieh v&amp;nbsp;spotrebiteľskom balení, &lt;STRONG&gt;číslo povolenia na predaj alkoholu&lt;/STRONG&gt; (Obrázok č. 2). Číslo povolenia kvôli korektnej evidencii&amp;nbsp;&lt;STRONG style="COLOR: rgb(255,0,0)"&gt;zadávajte pozorne&lt;/STRONG&gt;. Ak je v&amp;nbsp;poli zadaná nulová hodnota (0), vo výkaze bude obrat zahrnutý medzi predaj konečnému spotrebiteľovi. Ak partner nemá zadané IČO, obrat bude vo výkaze taktiež zaradený medzi predaj konečnému spotrebiteľovi. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 2: Pole &lt;EM&gt;Číslo povolenia&lt;/EM&gt; vo formulári &lt;EM&gt;Obchodný partner&lt;/EM&gt;&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/Stock/Form_Stock_SBL_Partner.png"&gt;&lt;/P&gt;
+&lt;H3&gt;Ďalšie nastavenia platné pre distribútorov SBL pri predaji na &lt;EM&gt;Pokladnici OBERON&lt;/EM&gt;&lt;/H3&gt;
+&lt;UL&gt;
+&lt;LI&gt;Pri&amp;nbsp;&lt;A href="69bbd499-45c0-4b0f-8f7a-c53fa5d70c1b"&gt;predaji na Pokladnici OBERON&lt;/A&gt; sa údaje o danom odberateľovi SBL (aj s číslom povolenia) tlačia na pokladničnom doklade, ak je v nastavení príslušného &lt;A href="46e6deed-ce15-42dc-be53-ab72142d9673"&gt;typu platby&lt;/A&gt; začiarknutá voľba &lt;EM&gt;Na doklade tlačiť odberateľa&lt;/EM&gt;. 
+&lt;LI&gt;Číslo čiarového kódu SBL sa tlačí&amp;nbsp;pri položke na pokladničnom doklade, ak je vo &lt;A href="bb0e1e82-e344-4bf0-834a-a294269f2e71"&gt;formulári Pokladnica OBERON - nastavenia&lt;/A&gt; v záložke &lt;I&gt;Tlač dokladu&lt;/I&gt;&amp;nbsp;začiarknutá&amp;nbsp;možnosť&amp;nbsp;&lt;I&gt;Tlačiť čiarový kód položky (bude tlačený len&amp;nbsp;ako text na ďalšom riadku)&lt;/I&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Príklady daňových dokladov:&lt;/H2&gt;
+&lt;P&gt;Faktúra so zobrazeným čiarovým kódom uvedeným pri názve položky a&amp;nbsp;s&amp;nbsp;číslami povolení od colného úradu v&amp;nbsp;časti za rekapituláciou DPH.&lt;/P&gt;
+&lt;H2&gt;&lt;IMG border=0 alt="" src="images/Stock/Stock_SBL_FA.png"&gt;&lt;/H2&gt;
+&lt;P&gt;Pokladničný doklad s uvedeným obchodným partnerom s číslom povolenia na predaj SBL a položkou SBL s uvedeným EAN kódom.&lt;/P&gt;
+&lt;H2&gt;&lt;IMG border=0 alt="" src="images/Stock/Stock_SBL_Paragon.png"&gt;&lt;/H2&gt;
+&lt;H2&gt;Všeobecné pokyny k&amp;nbsp;evidencii stavu zásob, ktoré sú z&amp;nbsp;pohľadu colného úradu spotrebiteľské balenia liehu&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Pri vedení evidencie stavu zásob, ktoré sú SBL, je potrebné sa zamyslieť, v&amp;nbsp;akých merných jednotkách by sa mali takéto položky evidovať. Ak sa ich rozhodneme evidovať v&amp;nbsp;kusoch, je nutné správne nastaviť a&amp;nbsp;používať prepočet merných jednotiek, pretože v&amp;nbsp;týchto istých kusoch ich predávať rozlievané koncovým spotrebiteľom je príliš zložité. 
+&lt;LI&gt;Väčšia nepríjemnosť s&amp;nbsp;evidenciou v&amp;nbsp;kusoch nastáva pri vykonávaní opakovaných inventúr stavu zásob, lebo správne určiť, koľko merných jednotiek predstavuje SBL v balení&amp;nbsp;0,7 litra naplnená asi do jednej tretiny, je pomerne zložité. Myslíme si, že je &lt;STRONG&gt;výhodnejšie pre tieto položky zvoliť merné jednotky v&amp;nbsp;litroch&lt;/STRONG&gt;. Koeficient prepočtu pre výdaj v&amp;nbsp;takom prípade nastavíme pri predaji 0,4&amp;nbsp;dcl tohto SBL na 0,040, jeho mernú jednotku na prepočet môžeme už zvoliť ks alebo to môže byť aj merná jednotka s&amp;nbsp;iným názvom. 
+&lt;LI&gt;Ak používame prepočet merných jednotiek na skladových kartách, typ skladovej karty volíme &lt;I&gt;Jednoduchá karta&lt;/I&gt;. Je však možné zvoliť úplne odlišnú metódu, a&amp;nbsp;aj&amp;nbsp;položky alkoholu alebo všeobecne položky používané v&amp;nbsp;bare čašníkmi v&amp;nbsp;skladovej evidencii evidovať na jednoduchých skladových kartách bez prepočtu merných jednotiek&amp;nbsp;a&amp;nbsp;pri výdaji používať skladové karty&amp;nbsp;&lt;A href="8deac9fe-9864-41e8-aaa3-02257c241d78"&gt;typu receptúra&lt;/A&gt;. 
+&lt;LI&gt;Vzhľadom na to, že je pre colný úrad povinné viesť evidenciu SBL &lt;STRONG&gt;podľa čiarového kódu (EAN)&lt;/STRONG&gt;, je potrebné každé balenie liehu, ktoré sa odlišuje čiarovým kódom, evidovať &lt;STRONG&gt;na samostatnej skladovej karte&lt;/STRONG&gt;. Je potrebné vytvoriť tri skladové karty (0,5 litra, 0,7 litra a 1 liter) - pre každé balenie jednu s mernou jednotkou l (liter), pričom každá karta bude mať nastavený svoj EAN kód uvedený na obale SBL. To platí aj pre prípad, že sa z nejakého dôvodu objaví na trhu SBL s rovnakým názvom a prípadne aj v rovnakom balení, ale s rôznym čiarovým kódom. Prípadne si je možné evidenciu zjednodušiť objednávaním len jedného typu balenia alkoholu. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Bližšie informácie o nastavení merných jednotiek pri evidencii a výdaji SBL predovšetkým v prevádzkach, ktoré rozlievajú SBL (reštaurácie, bary...), nájdete v téme &lt;A href="7417bb5c-568f-4291-bbb9-0e5872ad6299"&gt;Práca s mernými jednotkami&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="6718f840-c7a0-430e-b9fe-a4e5dcf6f907" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1a33ab0b-2df7-4dc2-962b-8a3319c16831">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="3b164d58-fdff-4958-9895-7fb0772953b9" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="c233ada3-0fed-4911-97f3-0680973ebac1">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="0e78d49c-79eb-46fe-93ec-b749cb55e5e0" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="7417bb5c-568f-4291-bbb9-0e5872ad6299">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="59d7b0f5-9129-44d5-81e7-81ec497bc49b" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="69bbd499-45c0-4b0f-8f7a-c53fa5d70c1b">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="88757511-9be5-4ff1-8deb-a7d02d0b5d78">
+      <Keyword m="2022-07-11T12:04:31.872999Z">Alkohol - evidencia a predaj SBL</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="95b474b3-2ae7-46cf-a3b1-7f011589dd2a">
+      <Keyword m="2022-11-07T08:16:07.5560496Z">SBL - evidencia a predaj</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="0a4f30a9-78ad-4e83-90ec-ca55ceb7b742">
+      <Keyword m="2022-07-11T12:04:41.1220679Z">Predaj SBL</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="9bc1e084-69fb-4459-907d-84154b6bd7bc">
+      <Keyword m="2022-07-11T12:04:50.7319037Z">Evidencia SBL</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="efcd66ab-2742-47b1-8f24-37282fe9d6c2">
+      <Keyword m="2022-07-11T12:05:06.1004616Z">Distribúcia SBL</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="732c79fb-aebd-4b8b-982d-84bf30d70286">
+      <Keyword m="2022-07-11T12:05:11.8621171Z">Distribútori SBL</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="f401a46a-3cda-44bf-9c3f-04c3e8ec507e">
+      <Keyword m="2022-07-11T12:05:16.5257525Z">Predajcovia SBL</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

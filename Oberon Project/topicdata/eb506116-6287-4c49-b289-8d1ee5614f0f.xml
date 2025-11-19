@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="eb506116-6287-4c49-b289-8d1ee5614f0f" Status="Complete" CreatedOn="2014-09-05T15:00:37.536597Z" ModifiedOn="2023-10-16T07:35:14.7793975Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="22601" Name="Menu_Acc_VATBook" BuildFlags="">
+  <Title m="2014-09-05T15:00:53.637518Z">Kniha evidencie DPH</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-10-16T07:35:14.7793975Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;je venovaná&amp;nbsp;položke&amp;nbsp;&lt;EM&gt;Kniha evidencie DPH&lt;/EM&gt;&amp;nbsp;v&amp;nbsp;ponuke&amp;nbsp;&lt;EM&gt;Účtovníctvo&lt;/EM&gt; programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;. Položka je dostupná len v prípade, že je firma&amp;nbsp;platiteľom DPH a táto skutočnosť je zohľadnená v&amp;nbsp;nastaveniach programu&amp;nbsp;(ponuka &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="5a6e5663-262e-4ff0-9741-1569385d11e4"&gt;oddiel Firma, Všeobecné&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt; záložka &lt;EM&gt;Základné&lt;/EM&gt;).&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Výberom položky sa otvorí &lt;EM&gt;Kniha evidencie DPH&lt;/EM&gt;. V&amp;nbsp;účtovníctve ide o&amp;nbsp;pomocnú knihu, ktorá &lt;STRONG&gt;slúži na evidenciu dokladov&amp;nbsp;na vyplnenie daňového priznania k&amp;nbsp;dani z&amp;nbsp;pridanej hodnoty&lt;/STRONG&gt;. 
+&lt;LI&gt;Do &lt;I&gt;Knihy evidencie DPH&lt;/I&gt; &lt;STRONG&gt;sa pridávajú záznamy spravidla automaticky&lt;/STRONG&gt;, vo výnimočných prípadoch aj manuálne. Nové zápisy do &lt;I&gt;Knihy evidencie DPH&lt;/I&gt; pridáva program v&amp;nbsp;závislosti&amp;nbsp;od činnosti&amp;nbsp;používateľa&amp;nbsp;v&amp;nbsp;iných knihách, napr. pri vystavení faktúry sa automaticky vytvorí zápis v knihe evidencie DPH (pri oprave sa zápis automaticky opraví). &amp;nbsp;&amp;nbsp;&amp;nbsp; 
+&lt;LI&gt;Výkaz &lt;I&gt;DPH daňové priznanie&lt;/I&gt; sa nezostavuje v tejto knihe,&amp;nbsp;ale v evidencii &lt;A href="71b702c2-e6e7-4f9a-b66b-15dba7d31ae1"&gt;Priznania a výkazy&lt;/A&gt; (ponuka &lt;I&gt;Firma&lt;/I&gt;), ktorá používateľovi poskytuje prehľad o vystavených riadnych, opravných, dodatočných, prípadne informatívnych&amp;nbsp;daňových priznaniach DPH. Zároveň obsahuje ďalšie výkazy, ako &lt;A href="806cbeec-db1b-4b07-9fa4-da096624c0ae"&gt;Kontrolný výkaz&lt;/A&gt;, prípadne &lt;I&gt;Súhrnný výkaz&lt;/I&gt;. 
+&lt;LI&gt;Pridanie, opravu alebo vymazanie už existujúceho zápisu v&amp;nbsp;knihe evidencie DPH program vykoná pri: 
+&lt;UL&gt;
+&lt;LI&gt;vystavení nového dokladu (faktúry, dobropisu) v&amp;nbsp;&lt;A href="5c21adcc-87c8-44e7-981d-02902635693d"&gt;knihe pohľadávok&lt;/A&gt;/&lt;A href="55028746-c263-4d92-a615-502222e8d53b"&gt;záväzkov&lt;/A&gt;, 
+&lt;LI&gt;oprave alebo vymazaní dokladu v knihe pohľadávok/záväzkov, 
+&lt;LI&gt;zaevidovaní dokladu do&amp;nbsp;&lt;A href="d8c9bfc8-92d1-4471-8909-e5f8ce602d6c"&gt;účtovného denníka&lt;/A&gt;, 
+&lt;LI&gt;oprave alebo vymazaní zápisu v&amp;nbsp;účtovnom alebo&amp;nbsp;&lt;A href="5e82cca9-b8af-4a80-ba30-7ab91914a595"&gt;peňažnom denníku&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Záznamy v knihe&amp;nbsp;možno&amp;nbsp;filtrovať alebo triediť. Nastaviť kritériá filtrovania alebo triedenia možno po stlačení tlačidla &lt;A href="124da68e-c3f0-43e4-9466-60b4916bfc41"&gt;Vlastnosti&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Pridať, resp. opraviť zápis v&amp;nbsp;&lt;EM&gt;Knihe evidencie DPH&lt;/EM&gt; je možné pomocou&amp;nbsp;&lt;A href="67257dbc-08ea-4c8b-99e6-9fda263d2ebf"&gt;formulára Zápis v knihe evidencie DPH&lt;/A&gt;&lt;EM&gt;.&lt;/EM&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Ďalšie možnosti evidencie&lt;/H2&gt;
+&lt;P&gt;V knihe evidencie DPH sú&amp;nbsp;pre prácu so&amp;nbsp;záznamami dostupné ďalšie možnosti, a to po stlačení&amp;nbsp;tlačidla&amp;nbsp;&lt;EM&gt;Možnosti&lt;/EM&gt;, prípadne v&amp;nbsp;kontextovej ponuke tabuľky záznamov.&lt;/P&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Zostaviť DPH daňové priznanie&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Umožňuje otvoriť&amp;nbsp;evidenciu&amp;nbsp;&lt;A href="71b702c2-e6e7-4f9a-b66b-15dba7d31ae1"&gt;Priznaní a výkazov&lt;/A&gt; (ponuka &lt;EM&gt;Firma&lt;/EM&gt;), kde&amp;nbsp;je pomocou tlačidla&amp;nbsp;&lt;EM&gt;Pridať&lt;/EM&gt; možné zostaviť &lt;EM&gt;DPH daňové priznanie&lt;/EM&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt; 
+&lt;P&gt;V prípade, že dôjde k nechcenému vymazaniu zápisu z knihy evidencie&amp;nbsp;DPH, možno ho obnoviť tak, že&amp;nbsp;sa doklad, z&amp;nbsp;ktorého zápis pochádzal, otvorí v príslušnej evidencii tlačidlom &lt;I&gt;Oprava&lt;/I&gt; a potvrdí tlačidlom &lt;I&gt;&lt;STRONG&gt;OK&lt;/STRONG&gt;&lt;/I&gt;. Program zistí, že sa zápis k tomuto dokladu v knihe&amp;nbsp;evidencie&amp;nbsp;DPH nenachádza,&amp;nbsp;a ponúkne jeho opätovné zaradenie do knihy evidencie DPH.&amp;nbsp;&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Bližšie informácie o ovládaní evidencie, používaní filtrov, triedení záznamov a pod. sú dostupné v&amp;nbsp;téme&amp;nbsp;&lt;A href="8936fde4-aac3-4672-99a2-c8bd5ccffdcd"&gt;Ovládanie knihy (evidencie)&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="b1e995f9-38c5-4cc7-861a-61d307611b32" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="67257dbc-08ea-4c8b-99e6-9fda263d2ebf">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="db619835-8512-49c7-8f21-6d04ab1334a1" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="71b702c2-e6e7-4f9a-b66b-15dba7d31ae1">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="1c191739-0346-4add-9569-4d54f1d84375" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="52df1f6d-0c85-4a3a-8ae8-dd57284545fc">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="0f7ed9bf-1d02-4b03-ba64-baf3d06d7bcb" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="194e0195-69ae-453f-b550-6b65617e63f1">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="5dff58a1-4840-4a0b-8d09-faa375a6c2f2" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="3259200c-95c0-4632-adfb-62dafae5c955">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="3e43a200-9265-4974-8070-e75a91219510">
+      <Keyword m="2021-08-09T06:39:34.2614773Z">DPH - kniha evidencie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="6922ed74-2209-43a4-a3a2-f43ff25e925c">
+      <Keyword m="2014-11-18T09:28:18.9248046Z">Evidencia DPH</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

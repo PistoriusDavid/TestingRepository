@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="4ebe2877-9617-4943-8341-0dc7cadbf16e" Status="Complete" CreatedOn="2014-10-08T09:52:13.7557289Z" ModifiedOn="2023-10-12T09:04:55.5048773Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Form_User_Stock" BuildFlags="">
+  <Title m="2015-10-06T11:50:46.0947266Z">Formulár Nastavenia - Používateľ - Sklad </Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-10-12T09:04:55.5048773Z">&lt;P&gt;Formulár &lt;EM&gt;Nastavenia -&amp;nbsp;Používateľ -&amp;nbsp;Sklad&lt;/EM&gt; &lt;STRONG&gt;umožňuje pre aktuálne prihláseného používateľa vykonať nastavenia predvolenej cenovej hladiny, upozornení pri príjme a výdaji skladových položiek a pri vytváraní nových dokladov&lt;/STRONG&gt; (na príliš veľký rozdiel v&amp;nbsp;nákupnej cene, pri poklese množstva do záporného zostatku, na neuhradené pohľadávky daného odberateľa). Formulár je dostupný z programu &lt;EM&gt;OBERON -&amp;nbsp;Agenda firmy&lt;/EM&gt;, ponuka &lt;EM&gt;Servis,&amp;nbsp;&lt;/EM&gt;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;&amp;nbsp;- v&amp;nbsp;sekcii&amp;nbsp;&lt;EM&gt;Používateľ&lt;/EM&gt; zvoľte oddiel &lt;EM&gt;Sklad&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Popis formulára &lt;EM&gt;Nastavenia -&amp;nbsp;Používateľ - Sklad&lt;/EM&gt;&lt;/H2&gt;
+&lt;H3&gt;Cena&lt;/H3&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Cenová hladina&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Nastavenie určí predvolenú predajnú cenu pre daného&amp;nbsp;používateľa. Túto predajnú cenu priradí program položke za predpokladu, že obchodný partner a aj druh pohybu majú nastavenú automatickú predajnú cenu. Táto cena sa tlačí na dokladoch s odporúčanými predajnými cenami - napr. &lt;EM&gt;Dodací list s odporúčanými predajnými cenami&lt;/EM&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H3&gt;Príjem položky do skladu&lt;/H3&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Zobraziť upozornenie pri príjme na príliš veľký rozdiel v nákupnej cene&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Upozorní, ak je rozdiel medzi nákupnou a obstarávacou cenou väčší ako zvolené percento.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H3&gt;Výdaj položky zo skladu&lt;/H3&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Zobraziť upozornenie na pokles množstva do záporného zostatku&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Ak je&amp;nbsp;&lt;A href="58eee6a7-b5aa-47a5-9d0e-6f9987c96a52"&gt;povolené evidovanie záporných stavov&lt;/A&gt; na skladových kartách, program zobrazí hlásenie pri poklese stavu zásob pod nulu - &lt;EM&gt;výdaji do mínusu&lt;/EM&gt;. V prípade nastavenia hodnoty &lt;EM&gt;Minimálne množstvo&lt;/EM&gt; vo&amp;nbsp;&lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;formulári Skladová karta&lt;/A&gt; (záložka &lt;EM&gt;Objednávky&lt;/EM&gt;) program upozorňuje aj na pokles zostatku pod toto minimálne množstvo.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H3&gt;Upozornenia pri vytváraní nových dokladov&lt;/H3&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Zobrazovať upozornenie (v zóne udalostí)&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Začiarknutie poľa nastaví zobrazovanie upozornenia na neuhradené pohľadávky daného odberateľa a&amp;nbsp;text z poľa &lt;EM&gt;Upozornenie&lt;/EM&gt;&amp;nbsp;&lt;A href="4fbe9db8-25bc-420f-aee5-228d0a8ff03f"&gt;formulára Obchodný partner&lt;/A&gt; (záložka &lt;EM&gt;Iné&lt;/EM&gt;)&amp;nbsp;v&amp;nbsp;&lt;A href="1dce6bce-8c7d-443a-b0f9-14ec18f3c9a0"&gt;zóne udalostí&lt;/A&gt;&amp;nbsp;pri tvorbe dokladu typu faktúra, výdajka&amp;nbsp;a pod.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Zobrazovať (toto) upozornenie aj v samostatnom informačnom okne&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Pri tvorbe dokladu (faktúra, výdajka a pod.) sa upozornenie na neuhradené pohľadávky daného odberateľa, resp. text z poľa &lt;EM&gt;Upozornenie&lt;/EM&gt;&amp;nbsp;&lt;A href="4fbe9db8-25bc-420f-aee5-228d0a8ff03f"&gt;formulára Obchodný partner&lt;/A&gt; (záložka &lt;EM&gt;Iné&lt;/EM&gt;) zobrazí aj samostatnom informačnom okne.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="2830271f-8c1b-4a43-8e9e-22f23da5ef47" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="89fa80dd-8f80-4e9f-9a25-1eed4f6fdbb8">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="c6cc5495-5df4-469f-b9cd-ae9fe3a8e6a8" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="8a35cd0d-3fea-40c5-9831-a35062e762b4">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="798e73f7-846a-4b78-aa1f-c9fbde7c0e6b" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="dbe76648-4e40-4ef5-938e-6b4a45580f97">
+      <Title m="2023-10-12T07:49:53.640945Z">Skladová evidencia - základné možnosti</Title>
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="75203a12-da98-4273-bfc4-b5906895ed9e" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="12e7a96f-bc40-4359-bc7a-213d74a785d4">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="00eeeb35-0218-48ba-b4b6-723181917da7" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="4fbe9db8-25bc-420f-aee5-228d0a8ff03f">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="6ff5b343-fe53-4534-9a73-511a3bdb2abc">
+      <Keyword m="2021-05-27T13:02:55.6462023Z">Nastavenia programu - Používateľ - Sklad</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="0aff0146-c36d-4469-a1bf-601957fc3652">
+      <Keyword m="2021-05-27T13:03:07.8368262Z">Používateľ - Sklad - Nastavenia programu</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="a2025e8b-c4d0-4992-bfff-60a819b861d2">
+      <Keyword m="2022-03-02T14:26:04.3458544Z">Upozornenia - neuhradené pohľadávky</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

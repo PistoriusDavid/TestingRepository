@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="9c0e1613-bfdc-48f6-9d03-58aba39dab36" Status="Complete" CreatedOn="2014-09-01T14:24:46.8863614Z" ModifiedOn="2024-08-05T13:23:27.0955381Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="false" HelpContextIds="" Name="InstallationNetwork" BuildFlags="">
+  <Title m="2019-04-26T07:16:57.9474688Z">Všeobecne o sieťovej inštalácii</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-08-05T13:23:27.0955381Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;obsahuje &lt;STRONG&gt;všeobecné informácie o&amp;nbsp;sieťovej inštalácii&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&amp;nbsp;&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Systém OBERON je možné používať &lt;STRONG&gt;v&amp;nbsp;sieťovej prevádzke, pri ktorej môžu viacerí používatelia&amp;nbsp;súčasne pristupovať&lt;/STRONG&gt; k&amp;nbsp;jednotlivým dokladom účtovníctva, skladu atď. - čiže k&amp;nbsp;databáze.&amp;nbsp;Údajová základňa (databáza) môže byť umiestnená&amp;nbsp;v&amp;nbsp;jednom z&amp;nbsp;počítačov, ktoré sú v&amp;nbsp;sieti rovnocenné, prípadne môže byť umiestnená&amp;nbsp;v&amp;nbsp;sieťovom serveri. 
+&lt;LI&gt;Všeobecným pravidlom pri sieťovej inštalácii je, &lt;STRONG&gt;aby bol systém OBERON nainštalovaný v&amp;nbsp;každom počítači v&amp;nbsp;sieti&lt;/STRONG&gt;. Po úspešnej inštalácii je potrebné&amp;nbsp;v&amp;nbsp;jednom z&amp;nbsp;počítačov&amp;nbsp;(serveri) vytvoriť &lt;A href="9a485893-6dd2-44e8-9740-a4cd7083a932"&gt;novú firmu&lt;/A&gt; (databázu) a&amp;nbsp;v ostatných počítačoch v&amp;nbsp;sieti sa len pripojiť k&amp;nbsp;danej databáze (pomocou formulára &lt;EM&gt;Otvorenie agendy (firmy)&lt;/EM&gt;). 
+&lt;LI&gt;Dôležitým faktorom je voľba vhodného&amp;nbsp;&lt;A href="0b81f4ea-5e68-48c1-8b89-933d5a23d962"&gt;databázového systému&lt;/A&gt;&amp;nbsp;(typu databázy). 
+&lt;LI&gt;Pred samotnou inštaláciou&amp;nbsp;sa odporúčame oboznámiť s&amp;nbsp;&lt;A href="14223592-268a-4a9d-a456-da9adeb1c46b"&gt;hardvérovými a softvérovými požiadavkami&lt;/A&gt;&amp;nbsp;na systém OBERON. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Existujú viaceré varianty použitia systému OBERON v sieťovej prevádzke, ďalšie informácie je možné získať v téme&amp;nbsp;&lt;A href="93f31314-1503-41b9-a8f1-f477de367a39"&gt;Možnosti použitia systému OBERON&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Databázový systém SQL Server (klient/server)&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Odporúčaným databázovým systémom&lt;/STRONG&gt; pri sieťovej prevádzke je &lt;STRONG&gt;systém klient/server&lt;/STRONG&gt;, pri ktorom &lt;STRONG&gt;je databáza umiestnená&amp;nbsp;v SQL databázovom serveri&lt;/STRONG&gt;, pričom je OBERON nainštalovaný &lt;STRONG&gt;aj na každej pracovnej stanici&lt;/STRONG&gt; (počítači v sieti).&amp;nbsp; 
+&lt;LI&gt;Pred samotnou inštaláciou OBERON-u odporúčame nainštalovať daný databázový SQL server. Bližšie informácie o inštalácii SQL serverov sú dostupné v&amp;nbsp;týchto témach &lt;I&gt;Pomocníka&lt;/I&gt;: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;A href="f0a7aeb9-190b-4de7-90e7-30322114e9a9"&gt;Inštalácia MariaDB&lt;/A&gt;, 
+&lt;LI&gt;&lt;A href="6072e597-0b64-4765-ad7d-c373b77beb9a"&gt;Inštalácia MySQL Servera&lt;/A&gt;, 
+&lt;LI&gt;&lt;A href="701211a9-6951-4401-acfb-fd5ea760c84d"&gt;Inštalácia Microsoft SQL Servera&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;SQL server býva najčastejšie súčasťou lokálnej&amp;nbsp;počítačovej siete, existuje však možnosť pripojiť sa k databázovému serveru umiestnenému v cloude (t. j. mimo lokálnej počítačovej siete). Na pripojenie&amp;nbsp;k&amp;nbsp;databáze sa spravidla používa internetové pripojenie.&amp;nbsp;&amp;nbsp; &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Súborová databáza Microsoft Access&lt;/H2&gt;Pre sieťovú prevádzku systému OBERON sa už v súčasnosti &lt;STRONG&gt;neodporúča&lt;/STRONG&gt; používať databázu typu &lt;EM&gt;&lt;STRONG&gt;Microsoft Access&lt;/STRONG&gt;&lt;/EM&gt;. Dôvodom je už prekonanie tejto technológie systémami s&amp;nbsp;SQL serverom, pritom za rovnakú cenu celého systému.&amp;nbsp;Používaním systémov s&amp;nbsp;SQL serverom sa&amp;nbsp;zároveň&amp;nbsp;zvyšuje&amp;nbsp;bezpečnosť a&amp;nbsp;rýchlosť spracovania údajov. 
+&lt;UL&gt;
+&lt;LI&gt;Princíp sieťovej inštalácie pri&amp;nbsp;&lt;A href="0b81f4ea-5e68-48c1-8b89-933d5a23d962"&gt;súborovej databáze Microsoft Access&lt;/A&gt;&amp;nbsp;spočíva &lt;STRONG&gt;v&amp;nbsp;umiestnení dátovej základne (databázy)&lt;/STRONG&gt;&amp;nbsp;&lt;STRONG&gt;na zdieľaný pevný disk&lt;/STRONG&gt; (na ktorý majú prístup jednotliví&amp;nbsp;používatelia) &lt;STRONG&gt;a v inštalácii OBERON-u na každú pracovnú stanicu&lt;/STRONG&gt; (počítači v sieti). V praxi ide o&amp;nbsp;malú sieť, v&amp;nbsp;ktorej sú všetky počítače rovnocenné a ani jeden z&amp;nbsp;počítačov nie je vyhradený na funkciu servera. 
+&lt;LI&gt;Viac informácií o sieťovej inštalácii pri použití súborovej databázy &lt;EM&gt;Microsoft Access&lt;/EM&gt; spolu s&amp;nbsp;postupom inštalácie nájdete v téme&amp;nbsp;&lt;A href="3c57ad66-7da9-4c69-9073-76947140b42f"&gt;Sieťová inštalácia (databáza MS Access)&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Po úspešnej&amp;nbsp;sieťovej inštalácii&amp;nbsp;je potrebné, aby technik, ktorý inštaláciu vykonal,&amp;nbsp;vyplnil&amp;nbsp;&lt;A href="b1149fc4-6187-4f45-ac50-c576f3e450db"&gt;Protokol o implementácii systému OBERON (technické údaje)&lt;/A&gt;&amp;nbsp;a&amp;nbsp;odovzdal&amp;nbsp;ho zodpovednej osobe.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="156c9e3c-dde2-44a4-83f3-edfff15dd9c4" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="93f31314-1503-41b9-a8f1-f477de367a39">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="aff23b0e-22d1-4af2-a65e-c075c47bd87e" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="0b81f4ea-5e68-48c1-8b89-933d5a23d962">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="691ae916-48c2-4895-a286-02b306e54b74" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="14223592-268a-4a9d-a456-da9adeb1c46b">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="1b460703-87f8-45b0-9e88-00ba04fd2c44" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="3c57ad66-7da9-4c69-9073-76947140b42f">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="1e84e64e-4076-4e44-b27a-39334a960829" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="71cf5cbf-4eb0-4b7e-a822-f73f083611ca">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="0a94f54e-feec-4974-857c-05457bff10ba" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="b1149fc4-6187-4f45-ac50-c576f3e450db">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="c7d8f854-8551-48e0-969c-4f44a01b45b9">
+      <Keyword m="2021-03-24T09:10:17.2374925Z">Sieťová inštalácia OBERON-u - všeobecné informácie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="e8b358d0-ae5a-457a-897f-af228b06a872">
+      <Keyword m="2021-03-24T09:10:46.3820383Z">Inštalácia OBERON-u - sieťová (všeobecné informácie)</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

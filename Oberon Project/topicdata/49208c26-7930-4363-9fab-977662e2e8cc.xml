@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="49208c26-7930-4363-9fab-977662e2e8cc" Status="Complete" CreatedOn="2015-01-28T11:34:30.0683593Z" ModifiedOn="2024-07-30T10:26:35.2169542Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="21100" Name="Licence_Order_Licence" BuildFlags="">
+  <Title m="2015-01-28T11:35:41.2734375Z">Ako objednať OBERON</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-07-30T10:25:50.0281857Z">&lt;P&gt;V tejto téme&amp;nbsp;&lt;EM&gt;Pomocníka&lt;/EM&gt; je uvedený &lt;STRONG&gt;postup, ako objednať licenciu systému OBERON pre jednu firmu, ako aj postup objednania multilicencie pre účtovnú firmu&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Na používanie systému OBERON sa zakupujú tzv. ročné licencie. Licencie sa zakupujú &lt;STRONG&gt;na účtovné obdobie, spravidla na&amp;nbsp;kalendárny rok&lt;/STRONG&gt;.
+&lt;LI&gt;Zakúpením licencie na daný rok&amp;nbsp;používateľ získa právo pracovať v&amp;nbsp;tomto období &lt;STRONG&gt;bez ohľadu na čas, kedy&amp;nbsp;tak bude robiť&lt;/STRONG&gt;. Platnosť licencie neskončí 31.12. daného roka, ale pracovať v&amp;nbsp;príslušnom období&amp;nbsp;bude možné neobmedzene aj v&amp;nbsp;nasledujúcich kalendárnych rokoch.&lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Bližšie informácie o licenciách&amp;nbsp;získate v téme&amp;nbsp;&lt;A href="efb93a2c-e449-4770-88ba-0fe999e90ccd" style="auto-update-caption: true"&gt;Cenník - licencie OBERON&lt;/A&gt;, porovnanie jednotlivých typov licencií je dostupné v téme&amp;nbsp;&lt;A href="644b0685-defe-4ce5-b3cd-e731b5eff299" style="auto-update-caption: true"&gt;Typy licencií&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Postup objednania licencie pre jednu firmu&lt;/H2&gt;
+&lt;P&gt;Pred samotným objednaním je potrebné mať&amp;nbsp;&lt;A href="19a10c98-2b1d-4fe1-8ab2-98921ab328be"&gt;nainštalovaný systém OBERON&lt;/A&gt; a&amp;nbsp;&lt;A href="9a485893-6dd2-44e8-9740-a4cd7083a932"&gt;vytvorenú databázu firmy&lt;/A&gt;.&lt;/P&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;1. Vytvorenie objednávky&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Objednávka licencie sa vytvára v ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="ef83607d-f365-445e-bf00-b257cead6f19"&gt;Licenčné práva&lt;/A&gt;&amp;nbsp;stlačením tlačidla &lt;EM&gt;&lt;STRONG&gt;Objednať&lt;/STRONG&gt;&lt;/EM&gt; (ponuka je dostupná len pre&amp;nbsp;&lt;A href="225638ed-22f6-4ac4-9085-6d77c64925db"&gt;používateľov&lt;/A&gt; s&amp;nbsp;príznakom &lt;EM&gt;Administrátor)&lt;/EM&gt;. Otvorí sa sprievodca, v&amp;nbsp;ktorom je potrebné zadať nasledujúce údaje:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;druh licencie&lt;/STRONG&gt; -&amp;nbsp;pre jednu firmu (multilicencia je určená pre účtovnú firmu, ktorej bude dovolené spracovávať účtovníctvo, resp. mzdy pre neobmedzený počet firiem); 
+&lt;LI&gt;&lt;STRONG&gt;fakturačné údaje&lt;/STRONG&gt; -&amp;nbsp;skontrolujte správnosť fakturačných údajov&amp;nbsp;(zobrazené údaje&amp;nbsp;je možné zmeniť v&amp;nbsp;ponuke &lt;EM&gt;Firma&lt;/EM&gt;,&amp;nbsp;&lt;A href="a833ee8a-1289-42b9-923f-80f549497702"&gt;Údaje o&amp;nbsp;firme&lt;/A&gt;). Ak sa fakturačné údaje líšia od adresy firmy, v ďalšom kroku môžete zadať iné fakturačné údaje, ktoré sa použijú na vystavenie faktúry; 
+&lt;LI&gt;&lt;STRONG&gt;kontaktná osoba&lt;/STRONG&gt; - zadajte údaje kontaktnej osoby, ktorá objednávku vybavuje. Pozornosť venujte hlavne &lt;STRONG&gt;e-mailovej adrese&lt;/STRONG&gt;, pretože na ňu bude doručená výzva na úhradu poplatku za licenciu; 
+&lt;LI&gt;&lt;STRONG&gt;účtovné obdobie&lt;/STRONG&gt; - vyberte účtovné obdobie,&amp;nbsp;na ktoré si chcete objednať licenciu, viac v&amp;nbsp;téme&amp;nbsp;&lt;A href="6b3b68a9-966a-42c2-8b0e-31fc5f3290df"&gt;Zmena spracovávaného obdobia&lt;/A&gt;; 
+&lt;LI&gt;&lt;STRONG&gt;moduly&lt;/STRONG&gt; - pomocou tlačidla &lt;EM&gt;Upraviť&lt;/EM&gt; vyberte moduly, ktoré bude účtovná jednotka využívať; 
+&lt;LI&gt;&lt;STRONG&gt;počet&amp;nbsp;používateľov&lt;/STRONG&gt; - zadajte počet súčasne prihlásených používateľov (počítačov) v sieti, t. j. na koľkých počítačoch sa bude v&amp;nbsp;OBERON-e súčasne&amp;nbsp;pracovať. &lt;/LI&gt;&lt;/UL&gt;
+&lt;P&gt;Vygeneruje sa objednávací kód, ktorý je potrebné zaslať firme&amp;nbsp;EXALOGIC:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Pripojiť sa na server&amp;nbsp;EXALOGIC (odporúčaný spôsob)&lt;/STRONG&gt; - pri výbere tejto možnosti sa objednávka odošle automaticky prostredníctvom internetu (najjednoduchší a najrýchlejší spôsob zaslania objednávky); 
+&lt;LI&gt;&lt;STRONG&gt;Zobraziť objednávku v náhľade na obrazovke&lt;/STRONG&gt; - objednávka&amp;nbsp;sa zobrazí v náhľade na obrazovke, je potrebné ju uložiť a poslať elektronickou poštou (v prípade, že počítač nie je pripojený k internetu). &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Celková cena za licenciu systému OBERON je &lt;STRONG&gt;vždy&amp;nbsp;súčtom&lt;/STRONG&gt;&amp;nbsp;&lt;EM&gt;Základnej ceny,&amp;nbsp;&lt;/EM&gt;&lt;EM&gt;Ceny za moduly&amp;nbsp;&lt;/EM&gt;a&amp;nbsp;&lt;EM&gt;Ceny za&amp;nbsp;súčasne prihlásených používateľov&lt;/EM&gt;&lt;EM&gt;,&lt;/EM&gt; prípadne ceny za ďalšie&amp;nbsp;voliteľné položky (napr. za pobočku, za službu&amp;nbsp;&lt;A href="02f77fd1-6b2f-482c-8dd0-77896d038c3e" style="auto-update-caption: true"&gt;OBERON Link&lt;/A&gt; a pod.). Bližšie informácie získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="efb93a2c-e449-4770-88ba-0fe999e90ccd"&gt;Cenník - licencie OBERON&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;2. Úhrada poplatku za licenciu&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Po vytvorení objednávky bude systém OBERON pracovať v rámci tzv.&amp;nbsp;&lt;A href="40c83e5f-22aa-4ba5-b4c1-35938f90fac2"&gt;trial licencie&lt;/A&gt;. &lt;STRONG&gt;Trial&amp;nbsp;licencia je časovo&amp;nbsp;obmedzená, štandardne na&amp;nbsp;obdobie 15 dní.&lt;/STRONG&gt; &lt;SPAN style="COLOR: rgb(255,0,0)"&gt;Počas týchto dní je potrebné na základe doručenej výzvy uhradiť poplatok za licenciu na bankový účet&lt;/SPAN&gt;.&amp;nbsp;V odôvodnených prípadoch (napr. počas víkendu) je možné uhradiť poplatok za licenciu aj bez výzvy na&amp;nbsp;nasledujúci bankový účet:&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;Fio banka, a. s., pobočka zahraničnej banky&lt;/STRONG&gt;&lt;BR&gt;Č. ú.: 2600893411/8330&lt;BR&gt;IBAN: SK26 8330 0000 0026 0089 3411&lt;BR&gt;BIC (SWIFT): FIOZSKBAXXX&lt;BR&gt;Variabilný symbol: IČO firmy&lt;/P&gt;&lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;UL&gt;
+&lt;LI&gt;V jednom účtovnom období (od 1.1. do 31.12.)&amp;nbsp;je možné pracovať &lt;STRONG style="COLOR: rgb(255,0,0)"&gt;v rámci&amp;nbsp;tzv.&amp;nbsp;trial licencie len raz&lt;/STRONG&gt;. Príklad: Ak si účtovná jednotka objedná licenciu napr. v januári, získa trial licenciu, v rámci ktorej môže pracovať a má 15 dní na to, aby uhradila poplatok za licenciu. Ak sa však táto účtovná jednotka rozhodne objednať licenciu &lt;STRONG&gt;na ďalšie účtovné obdobie v predstihu ešte v tom istom roku&lt;/STRONG&gt; (napr. v decembri)&lt;STRONG&gt;, &lt;SPAN style="COLOR: rgb(255,0,0)"&gt;trial licenciu už nezíska&lt;/SPAN&gt;&lt;/STRONG&gt;. Aby účtovná jednotka opätovne získala trial licenciu, je potrebné, aby si objednala licenciu &lt;STRONG&gt;až v&amp;nbsp;nasledujúcom účtovnom období (po 1.1.)&lt;/STRONG&gt;. Podrobné informácie o fungovaní trial licencie získate v&amp;nbsp;&lt;A href="40c83e5f-22aa-4ba5-b4c1-35938f90fac2"&gt;Obchodných podmienkach&lt;/A&gt;. 
+&lt;LI&gt;Ďalším prípadom je &lt;STRONG&gt;rozšírenie licencie&lt;/STRONG&gt;. Príklad: Ak si účtovná jednotka objedná v danom účtovnom období (napr. v januári) &lt;STRONG&gt;licenciu typu &lt;EM&gt;Mini&lt;/EM&gt;&lt;/STRONG&gt;, získa trial licenciu. Ak si však&amp;nbsp;neskôr v tom istom roku (napr. v septembri) &lt;STRONG&gt;rozšíri licenciu na typ &lt;EM&gt;Štandard&lt;/EM&gt;, &lt;SPAN style="COLOR: rgb(255,0,0)"&gt;trial licenciu už nezíska&lt;/SPAN&gt;&lt;/STRONG&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;3. Aktivácia licencie&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Po uhradení poplatku vám bude licencia &lt;STRONG&gt;aktivovaná automaticky&lt;/STRONG&gt;. Ak nie je počítač pripojený k internetu, aktiváciu je možné vykonať manuálnym zadaním aktivačného kódu v ponuke&amp;nbsp;&lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="ef83607d-f365-445e-bf00-b257cead6f19"&gt;Licenčné práva&lt;/A&gt; po stlačení tlačidla &lt;EM&gt;&lt;STRONG&gt;Aktivovať&lt;/STRONG&gt;&lt;/EM&gt;. Po dokončení aktivácie sa licencia pridá a zobrazí vo formulári &lt;EM&gt;Licenčné práva&lt;/EM&gt;.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Postup objednania multilicencie pre účtovnú firmu&lt;/H2&gt;
+&lt;P&gt;Pred samotným objednaním je potrebné mať&amp;nbsp;&lt;A href="19a10c98-2b1d-4fe1-8ab2-98921ab328be"&gt;nainštalovaný systém OBERON&lt;/A&gt; a&amp;nbsp;&lt;A href="9a485893-6dd2-44e8-9740-a4cd7083a932"&gt;vytvorenú databázu firmy&lt;/A&gt;.&lt;/P&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;1. Vytvorenie objednávky&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Objednávka multilicencie sa vytvára v ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="ef83607d-f365-445e-bf00-b257cead6f19"&gt;Licenčné práva&lt;/A&gt;&amp;nbsp;(ponuka je dostupná len pre&amp;nbsp;&lt;A href="225638ed-22f6-4ac4-9085-6d77c64925db"&gt;používateľov&lt;/A&gt; s&amp;nbsp;príznakom &lt;EM&gt;Administrátor)&lt;/EM&gt;.&amp;nbsp;V&amp;nbsp;rozbaľovacom zozname &lt;EM&gt;&lt;STRONG&gt;Hardvérový kľúč&lt;/STRONG&gt;&lt;/EM&gt;&amp;nbsp;je najskôr potrebné&amp;nbsp;zvoliť jednu z&amp;nbsp;nasledujúcich možností:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;EM&gt;Bez hardvérového kľúča&lt;/EM&gt; - vyberá sa pri prvotnom objednaní multilicencie. Po výbere tejto možnosti bude účtovnej jednotke zaslaný pamäťový kľúč (USB disk, kľúč) už obsahujúci multilicenciu na vybrané obdobie. 
+&lt;LI&gt;&lt;EM&gt;Automaticky detegovať&lt;/EM&gt; - vyberá sa pri druhom a ďalšom objednaní&amp;nbsp;multilicencie,&amp;nbsp;keď účtovná jednotka už hardvérový kľúč vlastní. V procese objednávky bude na pokyn sprievodcu potrebné tento kľúč vložiť do portu počítača, z&amp;nbsp;ktorého sa objednávka odosiela. 
+&lt;LI&gt;&lt;EM&gt;Predvolený disk 'K'&lt;/EM&gt; - vyberá sa za rovnakých podmienok, ako v&amp;nbsp;predchádzajúcom bode, rozdiel je v nastavení hardvérového kľúča v systéme &lt;EM&gt;Windows&lt;/EM&gt;&amp;nbsp;pod písmenom jednotky &lt;EM&gt;&lt;STRONG&gt;K&lt;/STRONG&gt;&lt;/EM&gt; (kvôli&amp;nbsp;rýchlejšej detekcii). Postup nastavenia hardvérového kľúča na disk &lt;EM&gt;K&lt;/EM&gt; je dostupný v&amp;nbsp;téme&amp;nbsp;&lt;A href="14223592-268a-4a9d-a456-da9adeb1c46b" style="auto-update-caption: true"&gt;Hardvérové a softvérové požiadavky&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;P&gt;Na objednanie multilicencie stlačte tlačidlo &lt;EM&gt;&lt;STRONG&gt;Objednať&lt;/STRONG&gt;.&lt;/EM&gt; Otvorí sa sprievodca, v ktorom je potrebné zadať nasledujúce údaje:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;druh licencie&lt;/STRONG&gt; - multilicencia -&amp;nbsp;je určená pre účtovnú firmu, ktorej bude dovolené spracovávať účtovníctvo a mzdy pre neobmedzený počet firiem; 
+&lt;LI&gt;&lt;STRONG&gt;hardvérový kľúč&lt;/STRONG&gt; - USB disk, kľúč (pozri vyššie); 
+&lt;LI&gt;&lt;STRONG&gt;fakturačné údaje&lt;/STRONG&gt; -&amp;nbsp;skontrolujte správnosť fakturačných údajov; 
+&lt;LI&gt;&lt;STRONG&gt;kontaktná osoba&lt;/STRONG&gt; - zadajte údaje kontaktnej osoby, ktorá objednávku vybavuje. Pozornosť venujte hlavne &lt;STRONG&gt;e-mailovej adrese&lt;/STRONG&gt;, pretože na ňu bude doručená výzva na úhradu poplatku za licenciu; 
+&lt;LI&gt;&lt;STRONG&gt;účtovné obdobie&lt;/STRONG&gt; - vyberte účtovné obdobie, pre ktoré si chcete objednať licenciu, viac v&amp;nbsp;téme&amp;nbsp;&lt;A href="6b3b68a9-966a-42c2-8b0e-31fc5f3290df"&gt;Zmena spracovávaného obdobia&lt;/A&gt;; 
+&lt;LI&gt;&lt;STRONG&gt;moduly&lt;/STRONG&gt; - pomocou tlačidla &lt;EM&gt;Upraviť&lt;/EM&gt; vyberte moduly, ktoré bude účtovná jednotka využívať&amp;nbsp;(&lt;EM&gt;Účtovníctvo, Mzdy a dochádzka&lt;/EM&gt; alebo oboje). V prípade objednávky hardvérového kľúča zadajte počet hardvérových kľúčov. &lt;/LI&gt;&lt;/UL&gt;
+&lt;P&gt;Vygeneruje sa objednávací kód, ktorý je potrebné zaslať firme&amp;nbsp;EXALOGIC:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Pripojiť sa na server&amp;nbsp;EXALOGIC&lt;/STRONG&gt; &lt;STRONG&gt;(odporúčaný spôsob)&lt;/STRONG&gt;&amp;nbsp;- pri výbere tejto možnosti sa objednávka odošle automaticky prostredníctvom internetu (najjednoduchší a najrýchlejší spôsob zaslania objednávky); 
+&lt;LI&gt;&lt;STRONG&gt;Zobraziť objednávku v náhľade na obrazovku&lt;/STRONG&gt; - objednávka&amp;nbsp;sa zobrazí v náhľade na obrazovke, je potrebné ju uložiť a poslať elektronickou poštou (v prípade, že počítač nie je pripojený k internetu). &lt;/LI&gt;&lt;/UL&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;2. Úhrada poplatku za licenciu&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;Po vytvorení objednávky je potrebné na základe doručenej výzvy uhradiť poplatok za multilicenciu na bankový účet&lt;/SPAN&gt;.&amp;nbsp;V odôvodnených prípadoch (napr. počas víkendu) je možné uhradiť poplatok za licenciu aj bez výzvy na&amp;nbsp;nasledujúci bankový účet:&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;Fio banka, a. s., pobočka zahraničnej banky&lt;/STRONG&gt;&lt;BR&gt;Č. ú.: 2600893411/8330&lt;BR&gt;IBAN: SK26 8330 0000 0026 0089 3411&lt;BR&gt;BIC (SWIFT): FIOZSKBAXXX&lt;BR&gt;Variabilný symbol: IČO firmy&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;3. Aktivácia multilicencie&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Po uhradení poplatku vám bude zaslaný hardvérový kľúč, na ktorom bude uložená &lt;STRONG&gt;aktivovaná multilicencia&lt;/STRONG&gt; pre&amp;nbsp;vašu firmu. V prípade, že hardvérový kľúč už vlastníte, multilicencia sa na ňom aktivuje automaticky za predpokladu, že&amp;nbsp;hardvérový kľúč bude&amp;nbsp;zapojený do počítača pripojeného k internetu. Ak&amp;nbsp;počítač pripojený k internetu nie je, aktiváciu je možné vykonať manuálnym zadaním aktivačného kódu v ponuke&amp;nbsp;&lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="ef83607d-f365-445e-bf00-b257cead6f19"&gt;Licenčné práva&lt;/A&gt;&amp;nbsp;po stlačení tlačidla &lt;EM&gt;&lt;STRONG&gt;Aktivovať&lt;/STRONG&gt;&lt;/EM&gt;. Po dokončení aktivácie sa multilicencia pridá a zobrazí vo formulári &lt;EM&gt;Licenčné práva&lt;/EM&gt;.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt; 
+&lt;P&gt;&lt;STRONG&gt;Videonávod&lt;/STRONG&gt;&lt;/P&gt;
+&lt;P&gt;K téme je spracovaný videonávod&amp;nbsp;&lt;A href="https://exalogic.sk/na-stiahnutie-oberon/licencne-prava/" target=_blank&gt;Licenčné práva&lt;/A&gt;. Všetky videonávody&amp;nbsp;sú k&amp;nbsp;dispozícii&amp;nbsp;na stránke&amp;nbsp;&lt;A href="http://www.exalogic.sk/"&gt;www.exalogic.sk&lt;/A&gt; v&amp;nbsp;sekcii &lt;EM&gt;Na stiahnutie,&amp;nbsp;&lt;/EM&gt;&lt;A href="https://exalogic.sk/na-stiahnutie/oberon-agenda-firmy/video-navody-na-stiahnutie/" target=_blank&gt;Videonávody&lt;/A&gt;.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="6237867f-a106-4720-af34-0a3ca802c37a" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="ef83607d-f365-445e-bf00-b257cead6f19">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="c4a992bf-e0e0-4663-a325-ccb834515f0a" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="efb93a2c-e449-4770-88ba-0fe999e90ccd">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="5431b86a-0026-4574-86ae-556a5c80f1f7" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="644b0685-defe-4ce5-b3cd-e731b5eff299">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="71194494-2326-4a17-b6d3-741040a7bf41" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="19a10c98-2b1d-4fe1-8ab2-98921ab328be">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="e402033e-d244-4502-bac2-b70f9bdb4760" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="9a485893-6dd2-44e8-9740-a4cd7083a932">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="946b2377-d149-4334-aa98-d56ae8849716" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="6b3b68a9-966a-42c2-8b0e-31fc5f3290df">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="1b865fb4-ef2e-4957-aa6b-31e641a8b3b9">
+      <Keyword m="2021-03-23T12:09:10.8795506Z">Licencia - objednávka</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="6d628fcd-5f86-4754-983a-16f99cc77895">
+      <Keyword m="2021-03-23T12:11:04.66088Z">Objednávka (multi)licencie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="dc491893-6525-420b-a52e-bbc13d518ec9">
+      <Keyword m="2021-03-23T12:05:48.1966232Z">Multilicencia - objednávka</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="13cae378-8d0e-4a59-96a3-19a1bdbbe33e">
+      <Keyword m="2021-03-23T11:58:09.2036937Z">Multilicencia - aktivácia</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="e96d8b8f-fa0c-4430-8ffd-e5bcdb20111c">
+      <Keyword m="2021-03-23T12:09:26.1574342Z">Licencia - aktivácia</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="280984af-fdb6-4854-b82a-b25d970f375a">
+      <Keyword m="2021-03-23T12:09:38.8751558Z">Licencia - úhrada poplatku</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="eb8adf5d-8bfc-4391-84cc-60c12f0cf5c5">
+      <Keyword m="2021-03-23T12:10:38.7205154Z">Multilicencia - úhrada poplatku</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="dbce7fe6-f352-444a-822d-661654cb363d">
+      <Keyword m="2021-03-23T12:11:29.1580781Z">Úhrada poplatku za (multi)licenciu</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="ac585d65-30df-4a57-aaa0-22f8948cb37e">
+      <Keyword m="2021-03-23T12:11:39.0159463Z">Aktivácia (multi)licencie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="8d9824e1-222c-4f69-9c5e-3c81566df213">
+      <Keyword m="2024-01-09T08:57:41.5383737Z">Trial licencia - ako objednať OBERON</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="c6ce7921-8c3d-4718-a96c-903e08519965">
+      <Keyword m="2024-07-30T10:26:20.340276Z">Trial licencia - uplatnenie</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

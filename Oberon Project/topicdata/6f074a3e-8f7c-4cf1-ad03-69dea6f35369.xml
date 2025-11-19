@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="6f074a3e-8f7c-4cf1-ad03-69dea6f35369" Status="Complete" CreatedOn="2014-10-17T08:33:28.2851725Z" ModifiedOn="2023-10-30T07:18:35.5765222Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="22711" Name="Form_Hotel_Guests_PriceCategories" BuildFlags="">
+  <Title m="2022-06-24T12:59:46.7904428Z">Formulár Cenová kategória hostí</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-10-17T07:45:25.0586357Z">&lt;P&gt;Formulár &lt;EM&gt;Cenová kategória hostí&lt;/EM&gt; umožňuje definovať, resp. upraviť už vytvorenú&amp;nbsp;&lt;A href="c145fb4a-b1f9-404e-9f07-ee1a10f9b759"&gt;cenovú kategóriu hostí&lt;/A&gt; v&amp;nbsp;module&amp;nbsp;&lt;A href="c3bd41f0-029e-4c74-b342-b0ffff647b6e"&gt;Hotelová recepcia&lt;/A&gt; systému OBERON. Formulár je dostupný z programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt; z&amp;nbsp;&lt;A href="79646e11-b21e-473c-a78b-7e0fb8b55c14"&gt;formulára Cenová hladina&lt;/A&gt;, záložka &lt;EM&gt;Základné&lt;/EM&gt;, tlačidlo výberu&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_ListButton.png"&gt;&amp;nbsp;pri poli&amp;nbsp;&lt;EM&gt;Cenová kategória hostí&lt;/EM&gt; - otvorí sa číselník&amp;nbsp;&lt;EM&gt;Cenové kategória hostí&lt;/EM&gt;, v&amp;nbsp;ktorom stlačte tlačidlo&amp;nbsp;&lt;EM&gt;Nový&lt;/EM&gt; alebo &lt;EM&gt;Oprava&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Popis formulára &lt;EM&gt;Cenová kategória hostí&lt;/EM&gt;&lt;/H2&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Názov&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Zadáva sa názov cenovej kategórie hostí.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Predvolená cenová kategória&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Začiarknite v prípade, že chcete, aby program považoval danú cenovú kategóriu za predvolenú.&amp;nbsp;V&amp;nbsp;systéme &lt;STRONG&gt;musí byť vždy nadefinovaná jedna&lt;/STRONG&gt; &lt;STRONG&gt;predvolená cenová kategória hostí, ktorá sa bude používať pre bežných hostí&lt;/STRONG&gt; (tzv. pultové ceny). Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="c145fb4a-b1f9-404e-9f07-ee1a10f9b759" style="auto-update-caption: true"&gt;Cenové kategórie hostí&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Zakázať cenovú kategóriu&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Začiaknutím políčka možno cenovú kategóriu hostí zakázať.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="fdf4d61d-6199-4b1a-9136-18807721e3cb" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="79646e11-b21e-473c-a78b-7e0fb8b55c14">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="f1370b8a-aa2e-41b8-8c17-6d0eeaec2ccb">
+      <Keyword m="2022-06-24T13:02:22.9042752Z">Cenová kategória hostí - formulár</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="be17efdf-4b36-4b47-ad5d-09b0f66c8f65" Status="Complete" CreatedOn="2019-12-04T12:38:25.9743728Z" ModifiedOn="2024-09-25T10:33:53.7945365Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="ASTON" BuildFlags="">
+  <Title m="2019-12-04T12:39:06.8535711Z">Aplikácia ASTON</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-09-25T10:33:53.7945365Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; popisuje jedno z&amp;nbsp;&lt;A href="c23e6100-7028-47b3-952a-f43fbf6ee5c6"&gt;mobilných riešení&lt;/A&gt; systému OBERON určených pre mobilné zariadenia a dotykové displeje -&amp;nbsp;aplikáciu &lt;STRONG&gt;&lt;EM&gt;ASTON - mobilný skladník&lt;/EM&gt;&lt;/STRONG&gt; na prácu v sklade.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Aplikácia &lt;EM&gt;ASTON - mobilný skladník&lt;/EM&gt; je určená pre mobilné zariadenia&amp;nbsp;(terminály, smartfóny, tablety)&amp;nbsp;s operačným systémom &lt;EM&gt;&lt;STRONG&gt;Android&lt;/STRONG&gt;&lt;/EM&gt; a&amp;nbsp;&lt;EM&gt;&lt;STRONG&gt;iOS&lt;/STRONG&gt;&lt;/EM&gt; a&amp;nbsp;možno ju používať výhradne&amp;nbsp;so systémom OBERON. 
+&lt;LI&gt;Aplikačný program má využitie pri nasledujúcich činnostiach:&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;inventúra skladu&lt;/STRONG&gt; - zadávanie fyzických množstiev&amp;nbsp;do inventúrneho súpisu priamo na&amp;nbsp;mobilnom zariadení,&amp;nbsp;bližšie informácie získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="5147b081-3c16-436f-a07e-e6ce748d34ee" style="auto-update-caption: true"&gt;ASTON - inventúra skladu&lt;/A&gt;, 
+&lt;LI&gt;&lt;STRONG&gt;vyhľadanie skladovej karty -&lt;/STRONG&gt; vyhľadanie skladovej karty na jej kontrolu vrátane kontroly&amp;nbsp;ceny a prípadnú editáciu, bližšie informácie v&amp;nbsp;téme&amp;nbsp;&lt;A href="bf268d24-c860-4bc9-99c0-b1eb5b801a0d" style="auto-update-caption: true"&gt;ASTON - vyhľadať skladovú kartu&lt;/A&gt;, 
+&lt;LI&gt;&lt;STRONG&gt;práca s&amp;nbsp;prijatými objednávkami&lt;/STRONG&gt; - bližšie informácie v&amp;nbsp;téme&amp;nbsp;&lt;A href="3d4dee5e-3b0f-48eb-8aa5-e51e8d103052" style="auto-update-caption: true"&gt;ASTON - objednávky prijaté&lt;/A&gt;, 
+&lt;LI&gt;&lt;STRONG&gt;sledovanie pripravenosti tovaru v&amp;nbsp;sklade&lt;/STRONG&gt; - viac informácií v&amp;nbsp;téme&amp;nbsp;&lt;A href="7b93ec65-6370-4d92-ba17-c1200cd1e203" style="auto-update-caption: true"&gt;ASTON - sledovanie pripravenosti tovaru&lt;/A&gt;, 
+&lt;LI&gt;&lt;STRONG&gt;výdaj zo skladu&lt;/STRONG&gt; - viac informácií v&amp;nbsp;téme&amp;nbsp;&lt;A href="1db47d73-d554-4661-9e39-7a7937ff1c30" style="auto-update-caption: true"&gt;ASTON - výdaj zo skladu&lt;/A&gt;, 
+&lt;LI&gt;&lt;STRONG&gt;sledovanie vyskladnenosti tovaru&lt;/STRONG&gt; - viac informácií v&amp;nbsp;téme&amp;nbsp;&lt;A href="d846e034-8068-4f77-a764-6d26c438e66a" style="auto-update-caption: true"&gt;ASTON - sledovanie vyskladnenosti tovaru&lt;/A&gt;, 
+&lt;LI&gt;&lt;STRONG&gt;príjem do skladu&lt;/STRONG&gt; - viac informácií v&amp;nbsp;téme&amp;nbsp;&lt;A href="a4e6d09d-8d2c-4235-ab17-3204140f4118" style="auto-update-caption: true"&gt;ASTON - príjem do skladu&lt;/A&gt;, 
+&lt;LI&gt;&lt;STRONG&gt;sledovanie naskladnenosti tovaru&lt;/STRONG&gt; - viac informácií v&amp;nbsp;téme&amp;nbsp;&lt;A href="26b93bca-ce0e-4fed-9d46-d5b46a27f113" style="auto-update-caption: true"&gt;ASTON - sledovanie naskladnenosti tovaru&lt;/A&gt;, 
+&lt;LI&gt;&lt;STRONG&gt;expedícia tovaru&lt;/STRONG&gt; -&amp;nbsp;aplikácia umožňuje evidovať údaje&amp;nbsp;potrebné na expedíciu v&amp;nbsp;prijatých objednávkach a&amp;nbsp;vo výdajkách. Skladník priamo v&amp;nbsp;sklade tovar vyskladní a pomocou aplikácie zadá údaje na expedíciu (počet balíkov, typ balíka, celkovú hmotnosť, rozmery atď.). Zadané údaje sa automaticky prenesú do OBERON-u. Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="0a352869-3b4e-4ca4-bfbd-ad17483ed27b" style="auto-update-caption: true"&gt;Expedícia tovaru&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Aj keď je aplikácia určená aj pre smartfóny, resp. tablety, na prácu s ňou &lt;STRONG&gt;odporúčame použiť mobilný terminál&lt;/STRONG&gt; (&lt;A href="d236bb20-6609-4575-8dd8-4ea120c3d1c9"&gt;ODA S1-K&lt;/A&gt;,&amp;nbsp;&lt;A href="f6390b9c-745a-46e9-811e-3b32a7bd91a3"&gt;ODA S2&lt;/A&gt;). Výhodou mobilného terminálu oproti smartfónu (tabletu) je skutočnosť, že je prispôsobený na priemyselné využitie - okrem&amp;nbsp;vyššej robustnosti, výdrži batérie, prachotesnosti a&amp;nbsp;vodoodolnosti &lt;STRONG&gt;obsahuje&lt;/STRONG&gt; &lt;STRONG&gt;snímač čiarových kódov&lt;/STRONG&gt; (na rozdiel od fotoaparátu pri smartfóne alebo tablete), čo&amp;nbsp;umožňuje efektívnejšiu prácu v&amp;nbsp;sklade. 
+&lt;LI&gt;Aplikácia &lt;EM&gt;ASTON&lt;/EM&gt; komunikuje so systémom OBERON&amp;nbsp;na základe&amp;nbsp;&lt;A href="9ce25bbd-35d1-4096-acd5-70007f5af5a6"&gt;automatickej úlohy&lt;/A&gt; typu &lt;EM&gt;&lt;STRONG&gt;WebServices API - OBERON 2G&lt;/STRONG&gt;&lt;/EM&gt;, t.&amp;nbsp;j. &lt;A href="58bb31ca-00c8-4641-ad99-7d58e24f59c5"&gt;webových služieb&lt;/A&gt;.&amp;nbsp;Aplikácia&amp;nbsp;&lt;EM&gt;ASTON&lt;/EM&gt; v rámci komunikácie predstavuje &lt;STRONG&gt;klienta webovej služby&lt;/STRONG&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Bližšie informácie&amp;nbsp;o&amp;nbsp;nastavení komunikácie so systémom OBERON získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="4532794b-6100-4bd6-b5d1-4bdb8e6f1b89"&gt;Aplikácia ASTON - inštalácia&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Softvérové a hardvérové požiadavky&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Aplikáciu &lt;EM&gt;ASTON&lt;/EM&gt; je možné používať na mobilných zariadeniach s operačným systémom &lt;EM&gt;&lt;STRONG&gt;Android&lt;/STRONG&gt;&lt;/EM&gt; od verzie &lt;STRONG&gt;8.1&lt;/STRONG&gt; a s operačným systémom&amp;nbsp;&lt;STRONG&gt;&lt;EM&gt;iOS&lt;/EM&gt;&lt;/STRONG&gt; od verzie &lt;STRONG&gt;14&lt;/STRONG&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;Minimálne požiadavky&lt;/STRONG&gt; na&amp;nbsp;hardvér z hľadiska veľkosti displeja a výkonu sú ako napr. pri smartfóne&amp;nbsp;&lt;EM&gt;Xiaomi Redmi 7A 2GB/32GB.&lt;STRONG&gt;&amp;nbsp;&lt;/STRONG&gt;&lt;/EM&gt;&lt;STRONG&gt;Odporúčané požiadavky&lt;/STRONG&gt; sú ako napr. pri smartfóne&amp;nbsp;&lt;EM&gt;Xiaomi Redmi 10C 4 GB/64 GB&lt;/EM&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;&lt;SPAN class=i-see-also-sub-heading&gt;Výhody aplikácie&lt;/SPAN&gt;&lt;/H2&gt;
+&lt;P&gt;Aplikácia &lt;EM&gt;ASTON – mobilný skladník&lt;/EM&gt; sa vyznačuje celým radom &lt;STRONG&gt;predností, ktoré na slovenskom trhu nemajú konkurenciu&lt;/STRONG&gt;:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;Hlavnou výhodou, z ktorej vyplývajú aj ďalšie prednosti aplikácie, je, že &lt;STRONG&gt;so systémom OBERON komunikuje on-line&lt;/STRONG&gt;, čo zabezpečuje, že sa údaje na oboch stranách (v aplikácii a v OBERON-e) &lt;STRONG&gt;aktualizujú v reálnom čase&lt;/STRONG&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;Odpadá potreba akejkoľvek synchronizácie údajov&lt;/STRONG&gt; – ich prenos sa realizuje automaticky na pozadí. 
+&lt;LI&gt;Už vôbec nie je potrebný &lt;STRONG&gt;manuálny export a import údajov&lt;/STRONG&gt;. 
+&lt;LI&gt;V aplikácii sú vždy k dispozícii &lt;STRONG&gt;aktuálne ceny a množstvá&lt;/STRONG&gt;. 
+&lt;LI&gt;Aplikácia podporuje &lt;STRONG&gt;rozšírenú cenotvorbu, a to v 100 % rozsahu&lt;/STRONG&gt; (akciové ceny, zmluvné ceny atď.). 
+&lt;LI&gt;Aplikácia &lt;STRONG&gt;overuje aktuálny stav kredit limitu&lt;/STRONG&gt; (neuhradených faktúr). 
+&lt;LI&gt;Plnohodnotná práca s &lt;STRONG&gt;variantmi skladových kariet&lt;/STRONG&gt;. 
+&lt;LI&gt;Podpora &lt;STRONG&gt;výrobných a sériových čísel&lt;/STRONG&gt;. 
+&lt;LI&gt;Možnosť zmeny &lt;STRONG&gt;umiestnenia tovaru v sklade priamo v aplikácii&lt;/STRONG&gt;. 
+&lt;LI&gt;Práca s &lt;STRONG&gt;alternatívnymi mernými jednotkami&lt;/STRONG&gt;. 
+&lt;LI&gt;Podpora &lt;STRONG&gt;čiarového kódu GS1&lt;/STRONG&gt; – štandard (norma) používaná napr. v zdravotníctve. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Na prácu s&amp;nbsp;aplikáciou &lt;EM&gt;ASTON&lt;/EM&gt; odporúčame používať mobilný terminál&amp;nbsp;&lt;A href="726335c3-67d3-49b6-8825-c1f9d70c1be6"&gt;OBERON Data Assistant&lt;/A&gt; (&lt;A href="d236bb20-6609-4575-8dd8-4ea120c3d1c9"&gt;ODA S1-K&lt;/A&gt;,&amp;nbsp;&lt;A href="f6390b9c-745a-46e9-811e-3b32a7bd91a3"&gt;ODA S2&lt;/A&gt;)&amp;nbsp;&lt;A href="1f32a90c-7b4a-4d69-9f38-a560178794b3" style="auto-update-caption: true"&gt;&lt;IMG border=0 alt="Odporúčané riešenia" src="images/OBERON/Basic/Odporucane-riesenie_ruka_ikona.png"&gt;&lt;/A&gt;.&amp;nbsp;S&amp;nbsp;aplikáciou je možné použiť aj mobilné terminály od iných dodávateľov, &lt;SPAN style="COLOR: rgb(255,0,0)"&gt;nie je však garantovaná plná integrita takýchto zariadení&amp;nbsp;s aplikáciou&lt;/SPAN&gt; (napr. pri snímaní čiarového kódu sa kurzor automaticky nenastaví do poľa, do ktorého&amp;nbsp;sa má&amp;nbsp;čiarový kód nasnímať a pod.).&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H5 align=left&gt;&amp;nbsp;Obrázok č. 1: Obrazovky aplikácie&lt;/H5&gt;
+&lt;P align=left&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;IMG border=0 alt="" src="images/OBERONMobileSolutions/OBERONMobileSolutions_ASTON_MainScreen.png"&gt;&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERONMobileSolutions/OBERONMobileSolutions_ASTON_Inventory.png"&gt;&amp;nbsp;&lt;IMG style="HEIGHT: 433px; WIDTH: 208px" border=0 alt="" src="images/OBERONMobileSolutions/OBERONMobileSolutions_ASTON_OffloadList.png" width=201 height=427&gt;&amp;nbsp;&lt;IMG style="HEIGHT: 433px; WIDTH: 207px" border=0 alt="" src="images/OBERONMobileSolutions/OBERONMobileSolutions_ASTON_Onload.png" width=200 height=428&gt;&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="11073ee5-24e0-45ea-8b7a-7c62f93020d8" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="58bb31ca-00c8-4641-ad99-7d58e24f59c5">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="f4d55b6c-d2b5-4063-9a49-70eb63f275f7" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="4532794b-6100-4bd6-b5d1-4bdb8e6f1b89">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="1ee4b671-824a-4220-bf57-2a448528b1fc" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="5147b081-3c16-436f-a07e-e6ce748d34ee">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="b4ca365e-fa0b-48ff-b35e-f2e0d9fd1ef5" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="bf268d24-c860-4bc9-99c0-b1eb5b801a0d">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="b2e59ad9-de22-4a1b-873c-02510b3edc8b" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1db47d73-d554-4661-9e39-7a7937ff1c30">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="613d8e8e-9334-4e81-9ea0-0ad17ed9c3a3" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="d846e034-8068-4f77-a764-6d26c438e66a">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="a39983ae-0933-421e-ba47-640cb152aea8" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="a4e6d09d-8d2c-4235-ab17-3204140f4118">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="36b91300-8d18-45ac-97b1-663e3253cd60" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="26b93bca-ce0e-4fed-9d46-d5b46a27f113">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="8c1d238d-3aa4-4ee4-8fda-310af38c3847" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="726335c3-67d3-49b6-8825-c1f9d70c1be6">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="d9672496-824a-448a-bcde-fc6174a5fd01">
+      <Keyword m="2023-01-03T09:01:01.4031954Z">ASTON - všeobecné informácie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="3a8dd270-8301-4bcd-b281-3baf23afa769">
+      <Keyword m="2023-01-03T09:01:31.9753222Z">ASTON - mobilný terminál ODA (OBERON Data Assistant)</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="963c2f38-3287-431f-856c-0fd4b7c4d21a">
+      <Keyword m="2024-09-19T10:25:06.464111Z">ASTON</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

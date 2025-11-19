@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="1f7db5e4-f5f7-4631-854a-bd7679c3186a" Status="Complete" CreatedOn="2020-09-09T12:34:01.7400936Z" ModifiedOn="2023-07-13T08:12:26.7899175Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Hotel_Advanced_Notification_CheckIn" BuildFlags="">
+  <Title m="2023-01-20T08:23:56.0470456Z">Nastavenie notifikácie pre hosťa pred jeho príchodom</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-07-13T08:12:26.7899175Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje&amp;nbsp;&lt;STRONG&gt;informácie o&amp;nbsp;notifikácii zasielanej v&amp;nbsp;systéme OBERON&amp;nbsp;hosťovi pred jeho príchodom do ubytovacieho zariadenia spolu s návodom, ako&amp;nbsp;nastaviť jej odosielanie&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Systém OBERON umožňuje&amp;nbsp;svojich používateľov, obchodných partnerov a prípadne ďalšie osoby automaticky informovať o&amp;nbsp;určitých skutočnostiach formou&amp;nbsp;&lt;A href="e301d0fb-f429-4bb5-a4df-7257efbe967b"&gt;automatických notifikácií&lt;/A&gt; (e-mailových a SMS správ). 
+&lt;LI&gt;Notifikácia pred príchodom do ubytovacieho zariadenia sa zasiela hosťovi, ktorému &lt;STRONG&gt;má pripomenúť blížiaci sa termín pobytu&lt;/STRONG&gt;, prípadne&amp;nbsp;mu môže sprostredkovať aj ďalšie informácie (napr. o&amp;nbsp;adrese ubytovacieho zariadenia&amp;nbsp;(aj s&amp;nbsp;obrázkom mapy), o&amp;nbsp;preferovanom čase príchodu, o&amp;nbsp;telefónnom kontakte na recepciu a pod.).&amp;nbsp; 
+&lt;LI&gt;Notifikačná e-mailová, resp. SMS správa &lt;STRONG&gt;sa hosťovi zasiela na základe zaevidovanej rezervácie ubytovania 72 hodín pred jeho príchodom&lt;/STRONG&gt;, a to vždy len cez deň&amp;nbsp;v čase od 08:00 do 22:00 hod.&amp;nbsp;(teda nie v noci). 
+&lt;LI&gt;Čas zaslania notifikácie&amp;nbsp;sa odvodzuje od času rezervácie, t.&amp;nbsp;j. ak si hosť vytvoril rezerváciu v&amp;nbsp;podvečer, notifikácia sa zasiela v&amp;nbsp;podvečer. 
+&lt;LI&gt;Ak má účtovná jednotka viac ubytovacích zariadení, je možné upraviť šablónu (obsah zasielanej správy) samostatne pre každé ubytovacie zariadenie (&lt;A href="8df798f2-4fbf-4279-ad8c-493bdbe7f2e4"&gt;prevádzku&lt;/A&gt;). 
+&lt;LI&gt;V notifikačnej správe je možné zaslať aj odkaz&amp;nbsp;na osobitný formulár na webovej stránke ubytovacieho zariadenia na zadanie identifikačných údajov hosťa, prípadne aj ďalších osôb&amp;nbsp;ešte pred príchodom do ubytovacieho zariadenia v&amp;nbsp;rámci tzv. pre check-inu&amp;nbsp;- viac informácií je možné získať v téme&amp;nbsp;&lt;A href="0773204a-fdc5-42c2-89b0-73d53dd5a2e4"&gt;Pre check-in&lt;/A&gt;. 
+&lt;LI&gt;Generovanie notifikácií zabezpečuje &lt;A href="47863971-c920-44ee-b49b-99a58f439915" style="auto-update-caption: true"&gt;Generátor notifikácií&lt;/A&gt;&amp;nbsp;ako jedna z &lt;A href="9ce25bbd-35d1-4096-acd5-70007f5af5a6"&gt;automatických úloh&lt;/A&gt; systému OBERON. Viac informácií je možné získať v&amp;nbsp;téme&amp;nbsp;&lt;A href="e301d0fb-f429-4bb5-a4df-7257efbe967b" style="auto-update-caption: true"&gt;O automatických notifikáciách&lt;/A&gt;. 
+&lt;LI&gt;Notifikačné správy sa odosielajú &lt;STRONG&gt;automaticky&lt;/STRONG&gt;, nie je potrebné ich&amp;nbsp;posielať manuálne. V prípade notifikačných&amp;nbsp;SMS správ je možné&amp;nbsp;spätne overiť, či a kedy bola SMS vytvorená a&amp;nbsp;doručená. Všetky vygenerované SMS sú dostupné&amp;nbsp;v&amp;nbsp;evidencii&amp;nbsp;&lt;EM&gt;CRM&lt;/EM&gt;, &lt;A href="d4119d75-dd5b-4a1c-b9fa-c982601e0746"&gt;SMS správy&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č.&amp;nbsp;1: Notifikačný e-mail pre hosťa s odkazom na registračný formulár na webovej stránke ubytovacieho zariadenia (pre check-in)&lt;/H5&gt;
+&lt;P&gt;&lt;IMG style="BORDER-TOP: black 1px solid; BORDER-RIGHT: grey 1px solid; BORDER-BOTTOM: grey 1px solid; BORDER-LEFT: grey 1px solid" alt="" src="images/CRM/CRM_EmailNotification_BeforeArrival.png"&gt;&lt;/P&gt;
+&lt;H2&gt;Technické informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Aby bolo možné zasielať &lt;STRONG&gt;e-mailové notifikácie&lt;/STRONG&gt;, je potrebné v nastaveniach OBERON-u nastaviť&amp;nbsp;&lt;A href="ea5379c8-9451-40fc-ac0f-f038feefa916"&gt;typ poštového klienta&lt;/A&gt;&amp;nbsp;&lt;STRONG&gt;Webmail (SMTP Server)&lt;/STRONG&gt;. Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="ea5379c8-9451-40fc-ac0f-f038feefa916" style="auto-update-caption: true"&gt;Poštový klient&lt;/A&gt;. 
+&lt;LI&gt;Aby bolo možné zasielať &lt;STRONG&gt;SMS notifikácie&lt;/STRONG&gt;, je potrebné okrem automatickej úlohy &lt;EM&gt;Generátor notifikácií&lt;/EM&gt; nastaviť aj osobitnú automatickú úlohu&amp;nbsp;&lt;A href="4a6f63ac-fdeb-4de8-93d1-77c969da1f18"&gt;Posielanie SMS správ cez EuroSMS&lt;/A&gt;, ktorá umožňuje automaticky zasielať&amp;nbsp;vygenerované SMS a&amp;nbsp;zároveň spätne overovať, či a kedy bola daná&amp;nbsp;SMS správa doručená. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Nastavenie odosielania e-mailových notifikácií&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;Pred&amp;nbsp;nastavením automatickej úlohy v&amp;nbsp;systéme OBERON &lt;STRONG&gt;sa uistite, že je&amp;nbsp;na počítači, ktorý je neustále zapnutý (spravidla sieťovom databázovom serveri),&lt;/STRONG&gt;&amp;nbsp;správne nastavený&amp;nbsp;&lt;STRONG&gt;server&lt;/STRONG&gt;&amp;nbsp;&lt;A href="09f3dae9-2fb7-490f-97dc-37f60885b398"&gt;OBERON Automation Center&lt;/A&gt;. Postup nastavenia je dostupný v&amp;nbsp;téme&amp;nbsp;&lt;A href="fd64c37a-486b-4cdf-a370-297aaa8a8f73" style="auto-update-caption: true"&gt;Nastavenie servera OBERON Automation Center&lt;/A&gt;.&amp;nbsp;Správnosť nastavenia a&amp;nbsp;fungovania&amp;nbsp;servera OAC môžete skontrolovať v&amp;nbsp;programe&lt;STRONG&gt;&amp;nbsp;&lt;EM&gt;OBERON Automation Center&lt;/EM&gt; (klient)&lt;/STRONG&gt; (v&amp;nbsp;programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;, ponuka&amp;nbsp;&lt;EM&gt;OBERON&lt;/EM&gt;,&amp;nbsp;&lt;A href="69282df4-d4d6-462a-8cf2-68000e3e6f93"&gt;OBERON Automation Center (klient)&lt;/A&gt;). &lt;SPAN style="COLOR: rgb(255,0,0)"&gt;Pri&amp;nbsp;použití&lt;/SPAN&gt; &lt;EM style="COLOR: rgb(255,0,0)"&gt;OBERON Automation Center&lt;/EM&gt;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;&amp;nbsp;&lt;STRONG&gt;odporúčame&lt;/STRONG&gt; &lt;/SPAN&gt;&lt;STRONG style="COLOR: rgb(255,0,0)"&gt;používať databázu SQL&lt;/STRONG&gt;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;.&lt;/SPAN&gt; 
+&lt;LI&gt;Na &lt;STRONG&gt;klientskom počítači&lt;/STRONG&gt; spustite program &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt; a&amp;nbsp;v&amp;nbsp;ponuke &lt;EM&gt;OBERON,&amp;nbsp;&lt;/EM&gt;&lt;A href="e975459f-e882-49f2-adb9-79e68a07df0e"&gt;Otvorenie agendy (firmy)&lt;/A&gt; otvorte databázu účtovnej jednotky. 
+&lt;LI&gt;V&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="225638ed-22f6-4ac4-9085-6d77c64925db" style="auto-update-caption: true"&gt;Používatelia&lt;/A&gt; vytvorte&amp;nbsp;nového používateľa&amp;nbsp;typu &lt;I&gt;&lt;STRONG&gt;Systémový&lt;/STRONG&gt;&lt;/I&gt;. 
+&lt;LI&gt;V&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;, &lt;A href="5a6e5663-262e-4ff0-9741-1569385d11e4"&gt;oddiel Firma, Všeobecné&lt;/A&gt;, záložka &lt;EM&gt;E-mail&lt;/EM&gt;&amp;nbsp;vyberte typ poštového klienta &lt;STRONG&gt;Webmail (SMTP&amp;nbsp;Server)&lt;/STRONG&gt;. Bližšie informácie získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="ea5379c8-9451-40fc-ac0f-f038feefa916" style="auto-update-caption: true"&gt;Poštový klient&lt;/A&gt;. 
+&lt;LI&gt;V&amp;nbsp;rovnakej ponuke (&lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="5a6e5663-262e-4ff0-9741-1569385d11e4"&gt;oddiel Firma, Všeobecné&lt;/A&gt;) v&amp;nbsp;záložke &lt;EM&gt;Ostatné&lt;/EM&gt;&amp;nbsp;začiarknite možnosť &lt;EM&gt;&lt;STRONG&gt;Umožniť používať notifikácie&lt;/STRONG&gt;&lt;/EM&gt;. 
+&lt;LI&gt;Vo&amp;nbsp;&lt;A href="90d7003c-1001-42ee-beef-bb7df6eada31"&gt;formulári Rezervácia&lt;/A&gt; skontrolujte, či má hosť zadanú správnu e-mailovú adresu.&amp;nbsp;&amp;nbsp; 
+&lt;LI&gt;V&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="9ce25bbd-35d1-4096-acd5-70007f5af5a6"&gt;Automatické úlohy&lt;/A&gt;&amp;nbsp;stlačte tlačidlo &lt;EM&gt;Nový&lt;/EM&gt;. Otvorí sa&amp;nbsp;formulár &lt;EM&gt;Automatická úloha&lt;/EM&gt;, v&amp;nbsp;ktorom vyberte typ úlohy&amp;nbsp;&lt;STRONG&gt;&lt;EM&gt;Generátor notifikácií&lt;/EM&gt;&lt;/STRONG&gt; a zadajte názov úlohy. 
+&lt;LI&gt;Stlačením tlačidla&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_Button_Refresh.png"&gt;&amp;nbsp;pri rozbaľovacom zozname &lt;EM&gt;Vykonávať na serveri&lt;/EM&gt;&amp;nbsp;aktualizujte zoznam dostupných serverov a vyberte príslušný server OAC, na ktorom sa má úloha vykonávať. 
+&lt;LI&gt;Vyberte používateľa systému OBERON vytvoreného v&amp;nbsp;bode č.&amp;nbsp;3, pod ktorým sa má automatická&amp;nbsp;úloha vykonávať. 
+&lt;LI&gt;Stlačte tlačidlo &lt;EM&gt;Nastaviť&lt;/EM&gt;. Otvorí sa formulár &lt;EM&gt;Nastavenia notifikácií&lt;/EM&gt;, v&amp;nbsp;ktorom stlačte tlačidlo &lt;EM&gt;Nový&lt;/EM&gt;. Otvorí sa &lt;A href="eaffff1a-43ad-4c90-a988-ebc3a51c1109"&gt;formulár Nastavenie notifikácie&lt;/A&gt;, v&amp;nbsp;ktorom v&amp;nbsp;záložke &lt;EM&gt;Základné&lt;/EM&gt; vyberte typ notifikácie &lt;STRONG&gt;&lt;EM&gt;Hotel - notifikácia pred príchodom hosťa (pre hosťa)&lt;/EM&gt;&lt;/STRONG&gt;, pridajte jej názov, príjemcov a&amp;nbsp;prípadne poznámku. Ak používate&amp;nbsp;&lt;A href="8df798f2-4fbf-4279-ad8c-493bdbe7f2e4"&gt;prevádzky&lt;/A&gt;, vyberte&amp;nbsp;prevádzku (v OBERON-e je možné nadefinovať viac notifikácií&amp;nbsp;- obsah správy môže byť prispôsobený konkrétnej prevádzke, napr. konkrétnemu ubytovaciemu zariadeniu). 
+&lt;LI&gt;V záložke &lt;EM&gt;Predlohy&lt;/EM&gt; začiarknite možnosť &lt;EM&gt;&lt;STRONG&gt;Notifikovať odoslaním elektronickej pošty&lt;/STRONG&gt;&lt;/EM&gt;. Stlačením tlačidla &lt;EM&gt;Upraviť predlohu (e-mail)&lt;/EM&gt; je&amp;nbsp;možné&amp;nbsp;upraviť predlohu pre e-mailové správy. Viac informácií v téme&amp;nbsp;&lt;A href="ebccc473-482c-4940-99b3-b4f5d534ccf7"&gt;Editor predlohy&lt;/A&gt;. 
+&lt;LI&gt;Vykonané nastavenia potvrďte stlačením tlačidla &lt;STRONG&gt;&lt;EM&gt;OK&lt;/EM&gt;&lt;/STRONG&gt;. &lt;/LI&gt;&lt;/OL&gt;
+&lt;H2&gt;Nastavenie odosielania&amp;nbsp;SMS notifikácií&lt;/H2&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Nastavenie odosielania&amp;nbsp;SMS notifikácie je možné vykonať analogicky podľa&amp;nbsp;postupu v téme&amp;nbsp;&lt;A href="47863971-c920-44ee-b49b-99a58f439915"&gt;Generátor notifikácií&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="a7c3a098-1e33-427d-b84f-8b3b39984570" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="e301d0fb-f429-4bb5-a4df-7257efbe967b">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="b21d552d-3723-44e5-b104-1170a671faad" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="d4119d75-dd5b-4a1c-b9fa-c982601e0746">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="87c4aeb5-35a2-4189-a70b-559af8be6a2a" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="47863971-c920-44ee-b49b-99a58f439915">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="1c6740e9-5cc0-44aa-8a14-b339e1b0ff21" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="ebccc473-482c-4940-99b3-b4f5d534ccf7">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="9d0683e9-93a3-45c5-8d1c-4a006fca41b5" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="0773204a-fdc5-42c2-89b0-73d53dd5a2e4">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="c3414f2a-7829-4e09-8c07-5a9efab828cb">
+      <Keyword m="2021-06-30T08:48:19.467092Z">Automatická notifikácia pre hosťa pred jeho príchodom</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="9005c008-c54a-4395-92e5-df444f8d1e1e">
+      <Keyword m="2021-06-30T08:48:56.8481208Z">SMS notifikácia pre hosťa pred jeho príchodom</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="26ce7448-7bf4-484c-b592-66e4469def21">
+      <Keyword m="2021-06-30T08:48:31.4527917Z">Notifikácia pre hosťa pred jeho príchodom</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="ce3e3754-8a6f-4589-b804-7a61710bc573">
+      <Keyword m="2021-06-30T08:48:50.4072865Z">E-mailová notifikácia pre hosťa pred jeho príchodom</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

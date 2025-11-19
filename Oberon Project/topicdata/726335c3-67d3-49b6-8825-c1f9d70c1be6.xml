@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="726335c3-67d3-49b6-8825-c1f9d70c1be6" Status="Complete" CreatedOn="2020-11-25T14:47:57.537204Z" ModifiedOn="2024-09-25T10:34:31.82578Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Device_MobileTerminal_ODA" BuildFlags="">
+  <Title m="2020-11-25T14:49:20.1481982Z">ODA (OBERON Data Assistant)</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-09-25T10:34:31.82578Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;obsahuje&amp;nbsp;&lt;STRONG&gt;všeobecné&amp;nbsp;informácie&amp;nbsp;o&amp;nbsp;zariadeniach &lt;EM&gt;ODA (OBERON Data Assistant)&lt;/EM&gt; -&lt;/STRONG&gt; &lt;STRONG&gt;mobilných termináloch&lt;/STRONG&gt;, ktoré predstavujú jeden z typov&amp;nbsp;&lt;A href="3f051fd3-9727-4ecc-9613-7a7fb1cb2a54"&gt;pripojiteľných zariadení&lt;/A&gt; podporovaných v&amp;nbsp;systéme OBERON.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;EM&gt;ODA&amp;nbsp;(&lt;STRONG&gt;O&lt;/STRONG&gt;BERON &lt;STRONG&gt;D&lt;/STRONG&gt;ata &lt;STRONG&gt;A&lt;/STRONG&gt;ssistant)&lt;/EM&gt; predstavuje &lt;STRONG&gt;mobilný terminál&lt;/STRONG&gt;, t. j. prenosné hardvérové zariadenie určené na prácu v rôznorodých prevádzkach&lt;EM&gt;.&lt;/EM&gt; 
+&lt;LI&gt;V spolupráci so systémom OBERON ho možno používať s rôznymi aplikáciami (napr.&amp;nbsp;&lt;A href="be17efdf-4b36-4b47-ad5d-09b0f66c8f65"&gt;ASTON - mobilný skladník&lt;/A&gt;&amp;nbsp;na prácu v sklade). 
+&lt;LI&gt;S&amp;nbsp;aplikáciou &lt;EM&gt;ASTON - mobilný skladník&lt;/EM&gt; zariadenie umožňuje vykonávať nasledujúce činnosti: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;inventúra skladu&lt;/STRONG&gt; - zadávanie fyzických množstiev&amp;nbsp;do inventúrneho súpisu priamo na&amp;nbsp;mobilnom zariadení,&amp;nbsp;bližšie informácie získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="5147b081-3c16-436f-a07e-e6ce748d34ee" style="auto-update-caption: true"&gt;ASTON - inventúra skladu&lt;/A&gt;, 
+&lt;LI&gt;&lt;STRONG&gt;vyhľadanie skladovej karty -&lt;/STRONG&gt; vyhľadanie skladovej karty na jej kontrolu vrátane kontroly&amp;nbsp;ceny a prípadnú editáciu, bližšie informácie v&amp;nbsp;téme&amp;nbsp;&lt;A href="bf268d24-c860-4bc9-99c0-b1eb5b801a0d" style="auto-update-caption: true"&gt;ASTON - vyhľadať skladovú kartu&lt;/A&gt;,&amp;nbsp;&amp;nbsp; 
+&lt;LI&gt;&lt;STRONG&gt;práca s&amp;nbsp;prijatými objednávkami&lt;/STRONG&gt; - bližšie informácie v&amp;nbsp;téme&amp;nbsp;&lt;A href="3d4dee5e-3b0f-48eb-8aa5-e51e8d103052" style="auto-update-caption: true"&gt;ASTON - objednávky prijaté&lt;/A&gt;, 
+&lt;LI&gt;&lt;STRONG&gt;sledovanie pripravenosti tovaru v&amp;nbsp;sklade&lt;/STRONG&gt; - viac informácií v&amp;nbsp;téme&amp;nbsp;&lt;A href="7b93ec65-6370-4d92-ba17-c1200cd1e203" style="auto-update-caption: true"&gt;ASTON - sledovanie pripravenosti tovaru&lt;/A&gt;, 
+&lt;LI&gt;&lt;STRONG&gt;výdaj zo skladu&lt;/STRONG&gt; - viac informácií v&amp;nbsp;téme&amp;nbsp;&lt;A href="1db47d73-d554-4661-9e39-7a7937ff1c30" style="auto-update-caption: true"&gt;ASTON - výdaj zo skladu&lt;/A&gt;, 
+&lt;LI&gt;&lt;STRONG&gt;sledovanie vyskladnenosti tovaru&lt;/STRONG&gt; - viac informácií v&amp;nbsp;téme&amp;nbsp;&lt;A href="d846e034-8068-4f77-a764-6d26c438e66a" style="auto-update-caption: true"&gt;ASTON - sledovanie vyskladnenosti tovaru&lt;/A&gt;, 
+&lt;LI&gt;&lt;STRONG&gt;príjem do skladu&lt;/STRONG&gt; - viac informácií v&amp;nbsp;téme&amp;nbsp;&lt;A href="a4e6d09d-8d2c-4235-ab17-3204140f4118" style="auto-update-caption: true"&gt;ASTON - príjem do skladu&lt;/A&gt;, 
+&lt;LI&gt;&lt;STRONG&gt;sledovanie naskladnenosti tovaru&lt;/STRONG&gt; - viac informácií v&amp;nbsp;téme&amp;nbsp;&lt;A href="26b93bca-ce0e-4fed-9d46-d5b46a27f113" style="auto-update-caption: true"&gt;ASTON - sledovanie naskladnenosti tovaru&lt;/A&gt;, 
+&lt;LI&gt;&lt;STRONG&gt;expedícia tovaru&lt;/STRONG&gt; -&amp;nbsp;aplikácia umožňuje evidovať údaje&amp;nbsp;potrebné na expedíciu v&amp;nbsp;prijatých objednávkach a&amp;nbsp;vo výdajkách. Skladník priamo v&amp;nbsp;sklade tovar vyskladní a pomocou aplikácie zadá údaje na expedíciu (počet balíkov, typ balíka, celkovú hmotnosť, rozmery atď.). Zadané údaje sa automaticky prenesú do OBERON-u. Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="0a352869-3b4e-4ca4-bfbd-ad17483ed27b" style="auto-update-caption: true"&gt;Expedícia tovaru&lt;/A&gt;.&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Výhodou mobilného terminálu oproti smartfónu, resp. tabletu je skutočnosť, že je prispôsobený na priemyselné využitie - okrem&amp;nbsp;vyššej robustnosti, výdrži batérie, prachotesnosti a&amp;nbsp;vodoodolnosti obsahuje snímač čiarových kódov (na rozdiel od fotoaparátu pri smartfóne alebo tablete), čo&amp;nbsp;umožňuje efektívnejšiu prácu v&amp;nbsp;sklade. 
+&lt;LI&gt;Podporované modely (oba modely&amp;nbsp;sú pre&amp;nbsp;používateľov OBERON-u&amp;nbsp;&lt;A href="1f32a90c-7b4a-4d69-9f38-a560178794b3"&gt;odporúčanými&lt;/A&gt; mobilnými terminálmi): 
+&lt;UL&gt;
+&lt;LI&gt;&lt;A href="d236bb20-6609-4575-8dd8-4ea120c3d1c9"&gt;ODA S1-K&lt;/A&gt;&amp;nbsp;&lt;A href="1f32a90c-7b4a-4d69-9f38-a560178794b3" style="auto-update-caption: true"&gt;&lt;IMG border=0 alt="Odporúčané riešenia" src="images/OBERON/Basic/Odporucane-riesenie_ruka_ikona.png"&gt;&lt;/A&gt;, 
+&lt;LI&gt;&lt;A href="f6390b9c-745a-46e9-811e-3b32a7bd91a3"&gt;ODA S2&lt;/A&gt;&amp;nbsp;&lt;IMG border=0 alt="Odporúčané riešenia" src="images/OBERON/Basic/Odporucane-riesenie_ruka_ikona.png"&gt;&amp;nbsp;(zariadenie už nie je možné objednať), 
+&lt;LI&gt;&lt;A href="b05e8a8e-16f5-4d4f-9092-0990e840089a"&gt;ODA S3-PG&lt;/A&gt; &lt;IMG border=0 alt="Odporúčané riešenia" src="images/OBERON/Basic/Odporucane-riesenie_ruka_ikona.png"&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 1: Zariadenie &lt;EM&gt;ODA S1-K&lt;/EM&gt; (vľavo) a &lt;EM&gt;ODA S3-PG&lt;/EM&gt; (vpravo)&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Devices/Devices_Auxiliary/Device_Auxiliary_ODA_S1-K_Buttons.png"&gt;&amp;nbsp;&lt;IMG border=0 alt="" src="images/Devices/Devices_Auxiliary/Device_Auxiliary_ODA_S3-PG_front.png"&gt;&lt;/P&gt;&lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt; 
+&lt;UL&gt;
+&lt;LI&gt;Pri používaní čiarových kódov vo formáte EAN-13 je potrebné rešpektovať špecifikáciu tohto formátu. Predovšetkým prvé dve alebo tri číslice v kóde obyčajne identifikujú krajinu, v ktorej je zaregistrovaný výrobca. Prvou číslicou by preto &lt;STRONG&gt;nemala byť 0 (nula)&lt;/STRONG&gt;. V&amp;nbsp;prípade, že sa dané pravidlo nedodrží a čiarový kód sa začína nulou, zariadenie &lt;EM&gt;OBERON Data Assistant&lt;/EM&gt; (&lt;A href="d236bb20-6609-4575-8dd8-4ea120c3d1c9"&gt;ODA S1-K&lt;/A&gt;,&amp;nbsp;&lt;A href="f6390b9c-745a-46e9-811e-3b32a7bd91a3"&gt;ODA S2&lt;/A&gt;) danú číslicu oreže a pri skenovaní danú položku (skladovú kartu) nenájde. 
+&lt;LI&gt;Ak je nevyhnutné používať čiarové kódy začínajúce nulou, je potrebné vykonať v zariadení (&lt;EM&gt;ODA S1-K, ODA S2&lt;/EM&gt;) nasledujúce nastavenie: na ploche zariadenia otvorte aplikáciu &lt;EM&gt;Scanner&lt;/EM&gt; a v ponuke &lt;EM&gt;Barcode Settings, Advanced Configuration, UPC-A&lt;/EM&gt; začiarknite políčko &lt;EM&gt;Translate UPCA to EAN13&lt;/EM&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H5&gt;Obrázok č. 2: Nastavenie pre EAN-13 začínajúci nulou v zariadenaich &lt;EM&gt;ODA S1-K&lt;/EM&gt; a &lt;EM&gt;ODA S2&lt;/EM&gt;&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Devices/Devices_Auxiliary/Device_Auxiliary_ODA_EAN-13.png"&gt;&amp;nbsp;&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="f5502103-7e4c-46ed-aba5-1d52bc4922cf" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="3f051fd3-9727-4ecc-9613-7a7fb1cb2a54">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="5a6f75f2-4c04-4348-adf6-3485d9a0d321" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="d236bb20-6609-4575-8dd8-4ea120c3d1c9">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="e2c857fe-57f3-484e-a231-8703f2bd2bd4" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="f6390b9c-745a-46e9-811e-3b32a7bd91a3">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="4d9926ea-abcd-4609-9ebe-eac52ed56260" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="b05e8a8e-16f5-4d4f-9092-0990e840089a">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="67a86697-665e-49d6-8973-9dd63c9445e8" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="be17efdf-4b36-4b47-ad5d-09b0f66c8f65">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="145b909f-d702-4d1d-8447-948864c73240" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="4532794b-6100-4bd6-b5d1-4bdb8e6f1b89">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="13fec915-c54f-4856-a817-6c8ac1b8e569">
+      <Keyword m="2021-05-12T07:09:11.6322928Z">Mobilné terminály - ODA</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="9e3b47af-9e42-4572-b9e1-89ebfe18c789">
+      <Keyword m="2021-05-12T06:27:07.5386622Z">OBERON Data Assistant</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="81f3b5ad-96ab-4b65-a316-8bb3fa67da20">
+      <Keyword m="2021-05-12T06:26:45.3522Z">Aplikácia ASTON - OBERON Data Assistant</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="928e50af-925a-4ff8-a877-4b8c0b887121">
+      <Keyword m="2021-05-12T06:27:30.5824648Z">ASTON - OBERON Data Assistant</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

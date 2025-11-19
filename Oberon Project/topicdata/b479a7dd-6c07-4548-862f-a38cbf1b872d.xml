@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="b479a7dd-6c07-4548-862f-a38cbf1b872d" Status="Complete" CreatedOn="2014-09-09T11:22:35.0841341Z" ModifiedOn="2024-12-03T08:21:34.5716447Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Invoices_Received" BuildFlags="">
+  <Title m="2014-10-29T07:52:07.8417968Z">Zaevidovanie faktúry - záväzku</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-12-03T08:21:34.5716447Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;postup zaevidovania faktúry - záväzku spolu s&amp;nbsp;ďalšími doplňujúcimi informáciami&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;H2&gt;Postup zaevidovania faktúry&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;V ponuke &lt;I&gt;Fakturácia&lt;/I&gt; zvoľte položku &lt;A href="55028746-c263-4d92-a615-502222e8d53b"&gt;Kniha záväzkov&lt;/A&gt;. 
+&lt;LI&gt;V&amp;nbsp;otvorenej evidencii stlačte tlačidlo &lt;I&gt;Nový&lt;/I&gt;, zobrazí sa sprievodca &lt;I&gt;Nový doklad&lt;/I&gt;. Zvoľte spôsob vytvorenia nového záväzku.&amp;nbsp;Záväzok je možné vytvoriť štandardným zadaním alebo&amp;nbsp;z iného dokladu (z&amp;nbsp;inej faktúry, objednávky, príjemky alebo výdajky), prípadne importom zo súboru XML. 
+&lt;LI&gt;Ďalej v sprievodcovi zvoľte prevádzku (v prípade členenia na&amp;nbsp;&lt;A href="8df798f2-4fbf-4279-ad8c-493bdbe7f2e4"&gt;prevádzky&lt;/A&gt;) a&amp;nbsp;&lt;A href="614e08c0-a29e-4810-a741-174e81a8e259"&gt;typ dokladu&lt;/A&gt; &lt;EM&gt;-&lt;/EM&gt; prednastaveným typom je &lt;EM&gt;Faktúra.&lt;/EM&gt; Ak doklad bude obsahovať len skladové položky, začiarknite pole &lt;EM&gt;Skladový doklad (položky zo skladu)&lt;/EM&gt;. 
+&lt;LI&gt;V ďalšom kroku vyberte, resp. zadajte &lt;A href="b7a48886-b367-4056-808a-59ba5f871f32"&gt;obchodného partnera&lt;/A&gt;. Obchodného partnera je možné&amp;nbsp;&lt;A href="e5871f39-032a-431b-9117-df5a4e5dccc8"&gt;vyhľadať na internete podľa názvu&amp;nbsp;alebo podľa IČO&lt;/A&gt;. 
+&lt;LI&gt;Stlačením tlačidla&amp;nbsp;&lt;I&gt;Dokončiť&lt;/I&gt; sa otvorí &lt;A href="a7aeeeec-b6b6-45c5-b3d0-fe4f13937945"&gt;formulár Záväzok&lt;/A&gt;. 
+&lt;LI&gt;Vo formulári definujte&amp;nbsp;formu úhrady, dátum vystavenia, dodania, splatnosť atď. 
+&lt;LI&gt;Pridať novú položku&amp;nbsp;do dokladu je možné&amp;nbsp;v&amp;nbsp;záložke &lt;I&gt;Položky dokladu&lt;/I&gt;, tlačidlo &lt;I&gt;Nový&lt;/I&gt;. Položky dokladu môžu byť skladové (&lt;A href="1a33ab0b-2df7-4dc2-962b-8a3319c16831"&gt;skladové karty&lt;/A&gt;) alebo neskladové - nastavenie sa nachádza pod zoznamom položiek (rovnaké ako v sprievodcovi - pozri bod č. 3).&amp;nbsp;Stlačením tlačidla&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_ListButton.png"&gt;, ktoré sa nachádza&amp;nbsp;za názvom položky dokladu,&amp;nbsp;je možné&amp;nbsp;otvoriť &lt;A href="44687867-ecee-4004-93db-ac793d646191"&gt;Zoznam neskladových položiek&lt;/A&gt; (číselník), ktorý slúži na rýchlejšie a&amp;nbsp;jednoduchšie zadávanie často&amp;nbsp;používaných položiek dokladu. Funkcie na prácu s&amp;nbsp;položkami dokladu sú dostupné po stlačení tlačidla &lt;EM&gt;Možnosti&lt;/EM&gt; (napr. zadávanie zľavy). 
+&lt;LI&gt;Zápis údajov potvrďte stlačením tlačidla &lt;I&gt;&lt;STRONG&gt;OK&lt;/STRONG&gt;&lt;/I&gt;. Do knihy pohľadávok sa uloží nová faktúra - záväzok. &lt;/LI&gt;&lt;/OL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt; 
+&lt;UL&gt;
+&lt;LI&gt;Pri vytváraní nového dokladu (pohľadávky, záväzku, príjemky, výdajky) je možné obchodného partnera vyhľadať na internete podľa názvu alebo IČO.&amp;nbsp;Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="e5871f39-032a-431b-9117-df5a4e5dccc8"&gt;Vyhľadanie obchodného partnera podľa názvu alebo IČO&lt;/A&gt;. 
+&lt;LI&gt;Okrem toho je možné na internete overiť aj&amp;nbsp;IČ DPH obchodného partnera. Viac informácií získate v téme&amp;nbsp;&lt;A href="ab574902-6abb-4c2c-b0a5-af9a2f62b7f4"&gt;Automatické overenie IČ DPH na internete&lt;/A&gt;. 
+&lt;LI&gt;Zároveň je možné priamo v systéme OBERON získať on-line informácie o tržbách, zisku, dlhoch a nedoplatkoch konkrétneho obchodného partnera&lt;STRONG&gt;,&lt;/STRONG&gt; prípadne či je firma v reštrukturalizácii, v konkurze alebo či už nezanikla. Viac informácií získate v téme&amp;nbsp;&lt;A href="00d205b2-0e2c-439a-8f6e-a1126be097ea"&gt;On-line informácie o tržbách, zisku, dlhoch a nedoplatkoch&lt;/A&gt;. 
+&lt;LI&gt;Pri evidovaní záväzku je možné priamo z&amp;nbsp;programu automaticky overiť, či v prípade dodávateľa - platiteľa DPH dané číslo bankového účtu&amp;nbsp;figuruje v zozname na portáli finančnej správy ako účet používaný na podnikanie. Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="bda10a0f-7c77-4861-91a1-0366af826978" style="auto-update-caption: true"&gt;Automatické overenie bankových účtov dodávateľov&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Ďalšie informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Na zaevidovanej faktúre &lt;SPAN style="COLOR: rgb(255,0,0)"&gt;sa DPH&lt;/SPAN&gt; &lt;SPAN style="COLOR: rgb(255,0,0)"&gt;vypočítava pri každej jednej položke dokladu&lt;/SPAN&gt;.&amp;nbsp;Suma DPH&amp;nbsp;vypočítaná z&amp;nbsp;danej položky sa následne zaokrúhli. V rekapitulácii súm dokladu sa&amp;nbsp;suma DPH&amp;nbsp;potom uvádza ako súčet vypočítaných a zaokrúhlených&amp;nbsp;súm DPH&amp;nbsp;z jednotlivých položiek. Bližšie informácie o výpočte DPH nájdete v&amp;nbsp;téme &lt;A href="52df1f6d-0c85-4a3a-8ae8-dd57284545fc"&gt;Výpočet súm na doklade&lt;/A&gt;, prípadne v téme&amp;nbsp;&lt;A href="bb669cba-8a46-4b82-94de-9485abb13387" style="auto-update-caption: true"&gt;Výpočet DPH v rekapitulácii dokladu&lt;/A&gt;. 
+&lt;LI&gt;V odôvodnených prípadoch je možné &lt;STRONG&gt;upraviť celkovú rekapituláciu súm dokladu&lt;/STRONG&gt;. Podľa predvolených nastavení programu je táto možnosť vypnutá, nastavenie je možné zmeniť v &lt;A href="834e9546-a56b-476f-9028-ef4c24a82345"&gt;právach používateľa&lt;/A&gt; &lt;I&gt;-&lt;/I&gt; nastavenie &lt;I&gt;Manuálna úprava celkovej sumy prijatého/vydaného dokladu.&lt;/I&gt; 
+&lt;LI&gt;Pri úprave súm celkovej rekapitulácie dokladu je niekedy potrebné zrušiť väzbu medzi niektorými poľami, napr. základ DPH a výška DPH. Túto väzbu je možné zrušiť, prípadne opätovne povoliť pomocou &lt;A href="6a6f2a40-680f-4f3b-906a-5030ac5cd33d"&gt;skratkových klávesov&lt;/A&gt;&amp;nbsp;(vypnutie:&amp;nbsp;&lt;EM&gt;Ctrl+Shift+N&lt;/EM&gt;, zapnutie:&amp;nbsp;&lt;EM&gt;Ctrl+Shift+N&lt;/EM&gt;). &lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="561cae00-3f9d-4990-8444-90ed65ce5fce" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="55028746-c263-4d92-a615-502222e8d53b">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="68c83452-e8d5-49e1-8bd1-9bfddb4b54fc" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="c36e079b-cc33-4141-83a7-ee2b1c7b53a0">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="c98603b3-9135-41b3-9efe-8a462113e041" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="60388e53-ff9f-48e3-9f8c-e45df1201ad3">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="14b46c4e-04a7-4e0a-ab71-d1babe847789" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="183ab557-cc49-4d23-8935-dfcc8379a1ec">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="4e4a22fe-130f-47e2-a344-d33ff397bfad" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="58d85eb3-1501-4964-a648-35fe4f076b1a">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="8fc23b87-bb8a-4b8d-9423-c19c315a2689" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="52df1f6d-0c85-4a3a-8ae8-dd57284545fc">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="e30f40c1-ea51-41c4-ad0c-5f447ec14ace" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="bb669cba-8a46-4b82-94de-9485abb13387">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="10fe1349-45f0-442d-9601-62de56a36765" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="a7aeeeec-b6b6-45c5-b3d0-fe4f13937945">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="d4b0da66-4ef7-485b-b01b-25fa0e0abee5">
+      <Keyword m="2021-09-06T12:12:28.2499151Z">Faktúra - zaevidovanie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="3eb22669-e163-472b-97ea-aa4bc93945f3">
+      <Keyword m="2021-09-06T12:12:38.6277806Z">Záväzok - zaevidovanie</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="53600117-6139-4f5a-a639-1972dfcca586" Status="Complete" CreatedOn="2016-08-17T11:04:15.2780579Z" ModifiedOn="2023-10-31T14:29:25.6965602Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="ExternalSystem_UniObchod" BuildFlags="">
+  <Title m="2019-08-05T09:31:39.2579709Z">Internetový obchod UNIobchod </Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2022-08-03T10:59:07.3010672Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; je venovaná jednému z&amp;nbsp;&lt;A href="2ba6a435-be52-46a1-b723-fb2b8ca084c0"&gt;podporovaných e-shopových riešení&lt;/A&gt; v&amp;nbsp;systéme OBERON -&amp;nbsp;&lt;A href="4bc0fb91-8926-432e-879e-5e0150ed62d3"&gt;off-line internetovému obchodu&lt;/A&gt; &lt;EM&gt;&lt;STRONG&gt;UNIobchod&lt;/STRONG&gt;&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&amp;nbsp;&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Systém OBERON podporuje viaceré on-line a&amp;nbsp;off-line e-shopové riešenia. Viac informácií o&amp;nbsp;internetových obchodoch prepojených s OBERON-om je možné získať v téme&amp;nbsp;&lt;A href="2ba6a435-be52-46a1-b723-fb2b8ca084c0"&gt;Internetový obchod v systéme OBERON&lt;/A&gt;. 
+&lt;LI&gt;E-shopové riešenie UNIobchod ako&amp;nbsp;&lt;A href="22856409-6be1-40cd-8216-1b6caae2c548"&gt;off-line internetový obchod&lt;/A&gt; využíva exporty/importy údajov pomocou súborov &lt;A href="8086cb46-289b-420c-bbeb-825d6fc0deb5"&gt;typu XML&lt;/A&gt;. So systémom OBERON je prepojený na báze predvoleného (základného)&amp;nbsp;&lt;A href="8086cb46-289b-420c-bbeb-825d6fc0deb5"&gt;obecného XML formátu&lt;/A&gt; na&amp;nbsp;výmenu údajov. Viac informácií získate v téme&amp;nbsp;&lt;A href="22856409-6be1-40cd-8216-1b6caae2c548"&gt;Off-line internetový obchod (export/import súborov)&lt;/A&gt;. 
+&lt;LI&gt;&lt;EM&gt;UNIobchod&lt;/EM&gt; je&amp;nbsp;produktom slovenskej firmy&amp;nbsp;&lt;A href="https://www.webygroup.sk/" target=_blank&gt;WEBY GROUP, s.r.o.&lt;/A&gt;, ktorá ponúka niekoľko verzií e-shopu s možnosťou vyskladať si internetový obchod aj na mieru. Na zriadenie internetového obchodu &lt;EM&gt;UNIobchod&lt;/EM&gt; kontaktujte tvorcu e-shopu. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Možnosti prenosu údajov&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Na základe prepojenia so systémom OBERON je možné prenášať:
+&lt;UL&gt;
+&lt;LI&gt;všetky alebo len zmenené skladové karty (produkty) z OBERON-u do &lt;EM&gt;UNIobchodu&lt;/EM&gt;,
+&lt;LI&gt;celé skladové karty, prípadne bez obrázkov alebo len ceny a množstvá z OBERON-u do &lt;EM&gt;UNIobchodu&lt;/EM&gt;,
+&lt;LI&gt;obrázky, varianty, parametre a kategórie skladových kariet z OBERON-u do &lt;EM&gt;UNIobchodu&lt;/EM&gt;,
+&lt;LI&gt;prijaté objednávky z &lt;EM&gt;UNIobchodu&lt;/EM&gt; do OBERON-u.&lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Podrobné informácie o možnostiach komunikácie medzi OBERON-om a &lt;EM&gt;UNIobchodom&lt;/EM&gt; získate v prehľadnej tabuľke v&amp;nbsp;téme&amp;nbsp;&lt;A href="2ba6a435-be52-46a1-b723-fb2b8ca084c0"&gt;Internetový obchod v systéme OBERON&lt;/A&gt;&amp;nbsp;a na&amp;nbsp;&lt;A href="https://www.uniobchod.sk/prepojenie-internetoveho-obchodu-eshopu-s-oberonom.xhtml" target=_blank&gt;webovej stránke spoločnosti&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H5&gt;Obrázok č. 1: Ukážka prepojenia OBERON-u a &lt;EM&gt;UNIobchodu&lt;/EM&gt; u zákazníka&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/ProductOptions/ExternalSystems/WebyGroup_Uniobchod_Example.png"&gt;&amp;nbsp;&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="8ef2a260-8e1e-4564-ba5d-10a868178369" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="22856409-6be1-40cd-8216-1b6caae2c548">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="2e50a402-52b4-4548-9bf0-7380bac8ecc7">
+      <Keyword m="2019-08-05T09:31:47.5547302Z">UNIobchod </Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="13134721-e0d7-46a9-9ced-054186927aa7">
+      <Keyword m="2022-08-03T10:59:17.7895029Z">Weby Group - UNIobchod</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="a7d79f1a-5eec-479f-843b-d1d259f1eb52">
+      <Keyword m="2019-08-05T10:30:01.1194739Z">eShop UNIObchod </Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

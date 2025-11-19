@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="02287be9-0d9c-427d-8d25-88310ae34bbb" Status="Complete" CreatedOn="2014-09-02T12:07:07.0665955Z" ModifiedOn="2022-10-04T09:37:01.6251596Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Developers_XMLCommunication_CSV" BuildFlags="">
+  <Title m="2022-02-16T13:20:58.4542505Z">Transformačné šablóny na import súborov CSV</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2022-10-04T09:37:01.6251596Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;obsahuje &lt;STRONG&gt;informácie o&amp;nbsp;transformačných šablónach XSLT na&amp;nbsp;import&amp;nbsp;súborov&amp;nbsp;CSV&amp;nbsp;&lt;/STRONG&gt;&lt;STRONG&gt;spolu s&amp;nbsp;príslušnými nastaveniami&amp;nbsp;a&amp;nbsp;ostatnými relevantnými&amp;nbsp;informáciami&lt;/STRONG&gt; o&amp;nbsp;danej problematike.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Popri&amp;nbsp;&lt;A href="50adcd4a-de72-439e-895f-021cd9537535"&gt;transformačných šablónach XSLT&lt;/A&gt; na&amp;nbsp;import/export súborov XML sa&amp;nbsp;pri&amp;nbsp;&lt;A href="56f661c6-24da-46aa-b157-5d988cbe792b"&gt;XML komunikácii&lt;/A&gt;&amp;nbsp;v systéme OBERON používajú aj transformačné šablóny XSLT na&amp;nbsp;import&amp;nbsp;súborov&amp;nbsp;CSV&amp;nbsp;exportovaných z&amp;nbsp;iných systémov. 
+&lt;LI&gt;V&amp;nbsp;systéme OBERON transformačná šablóna XSLT na&amp;nbsp;import&amp;nbsp;súborov&amp;nbsp;CSV&amp;nbsp;slúži na prevod&amp;nbsp;súborov typu&amp;nbsp;CSV (&lt;EM&gt;&lt;STRONG&gt;C&lt;/STRONG&gt;omma &lt;STRONG&gt;S&lt;/STRONG&gt;eparated &lt;STRONG&gt;V&lt;/STRONG&gt;alues&lt;/EM&gt; - hodnoty oddelené čiarkami)&amp;nbsp;exportovaných z iných systémov do formátu XML, s ktorým pracuje systém OBERON (OBERON XML). Podpora transformácie &lt;STRONG&gt;je zabudovaná priamo v&amp;nbsp;OBERON-e&lt;/STRONG&gt; (tzv.&amp;nbsp;transformátor)&amp;nbsp;a vyžaduje šablónu XSLT&amp;nbsp;(uloženú vo formáte XML), ktorá popisuje spôsob priradenia jednotlivých položiek zo súborov CSV&amp;nbsp;do položiek výsledného&amp;nbsp;súboru XML. Šablóna XSLT má základnú štruktúru zhodnú so štruktúrou výsledného&amp;nbsp;súboru XML. 
+&lt;LI&gt;Transformačné šablóny XSLT na import súborov CSV umožňujú import: &lt;/LI&gt;&lt;/UL&gt;
+&lt;BLOCKQUOTE style="MARGIN-RIGHT: 0px" dir=ltr&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;bežných&amp;nbsp;súborov CSV&lt;/STRONG&gt; -&amp;nbsp;údaje sú oddelené bodkočiarkou, prípadne aj iným oddeľovačom, 
+&lt;LI&gt;&lt;STRONG&gt;bežných&amp;nbsp;súborov CSV s hlavičkou&amp;nbsp;-&amp;nbsp;&lt;/STRONG&gt;údaje sú oddelené&amp;nbsp;bodkočiarkou, prípadne&amp;nbsp;iným oddeľovačom, pričom konverzia údajov sa vykonáva na základe názvu stĺpca v&amp;nbsp;súbore CSV, ktorý&amp;nbsp;sa spravidla nachádza v prvom riadku súboru, 
+&lt;LI&gt;&lt;STRONG&gt;bežných textových súborov s pevnou šírkou&lt;/STRONG&gt; - údaje nie sú oddelené oddeľovačom, ale sú stanovené pevné šírky (presné pozície daných údajov), 
+&lt;LI&gt;&lt;STRONG&gt;import z dvoch súborov&lt;/STRONG&gt; -&amp;nbsp;import&amp;nbsp;napr. faktúr, kde v jednom súbore sú hlavičky a v druhom súbore položky faktúr. &lt;/LI&gt;&lt;/UL&gt;&lt;/BLOCKQUOTE&gt;
+&lt;UL&gt;
+&lt;LI&gt;Šablóna XSLT obsahuje základné nastavenia v sekcii &lt;EM&gt;Settings&lt;/EM&gt;&amp;nbsp;na&amp;nbsp;správne načítanie a spracovanie&amp;nbsp;súboru CSV. Vzorovú šablónu XSLT na import súborov CSV je možné získať&amp;nbsp;na&amp;nbsp;webovej stránke &lt;A href="http://www.exalogic.sk/"&gt;www.exalogic.sk&lt;/A&gt; v sekcii &lt;EM&gt;Na stiahnutie -&amp;nbsp;&lt;/EM&gt;&lt;A href="https://exalogic.sk/na-stiahnutie/oberon-agenda-firmy/xml-komunikacia-subory/" target=_blank&gt;XML komunikácia - súbory&lt;/A&gt; alebo vyexportovaním jedného dokladu (záznamu)&amp;nbsp;danej evidencie do súboru XML. Na úpravu súboru XML&amp;nbsp;je možné&amp;nbsp;použiť&amp;nbsp;vstavaný&amp;nbsp;&lt;A href="dbae92e9-a935-46e3-8f57-7854ad21497b"&gt;XML editor&lt;/A&gt;, prípadne ľubovoľný iný, napr.&amp;nbsp;&lt;A href="https://exalogic.sk/na-stiahnutie-oberon/xml-notepad/" target=_blank&gt;XML Notepad&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;V&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="a1ae5eb5-f369-4aab-80b2-c6585166d550"&gt;Správca doplnkov&lt;/A&gt;, oddiel &lt;EM&gt;XML&lt;/EM&gt; je k dispozícii transformačná šablóna na import príjemiek zo súboru CSV z&amp;nbsp;obchodnej siete &lt;EM&gt;Môj obchod&lt;/EM&gt;&amp;nbsp;spoločnosti METRO.&amp;nbsp;Viac informácií získate v téme&amp;nbsp;&lt;A href="c4bb279e-a2ba-4690-83b9-efb2e11cc077" style="auto-update-caption: true"&gt;Import dokladov z iných softvérov&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Základné nastavenia transformačnej šablóny&lt;/H2&gt;
+&lt;P&gt;&lt;EM&gt;&amp;lt;?xml version="1.0" encoding="UTF-8"?&amp;gt;&lt;BR&gt;&amp;lt;OBERON&amp;gt;&lt;BR&gt;&amp;lt;Header&amp;gt;&lt;BR&gt;&amp;lt;Settings&amp;gt;&lt;BR&gt;&amp;lt;CSVHeaderLine&amp;gt;1&amp;lt;/CSVHeaderLine&amp;gt;&lt;BR&gt;&amp;lt;CSVDelimiters&amp;gt;;&amp;lt;/CSVDelimiters&amp;gt;&lt;BR&gt;&amp;lt;CSVFieldWidths&amp;gt;5; 5; 8; 10&amp;lt;/CSVFieldWidths&amp;gt;&lt;BR&gt;&amp;lt;CSVEncoding&amp;gt;windows-1250&amp;lt;/CSVEncoding&amp;gt;&lt;BR&gt;&amp;lt;CSVDateFormat&amp;gt;d.M.yyyy&amp;lt;/CSVDateFormat&amp;gt;&lt;BR&gt;&amp;lt;CSVDecimalSeparator&amp;gt;,&amp;lt;/CSVDecimalSeparator&amp;gt;&lt;BR&gt;&amp;lt;XMLDateFormat&amp;gt;dd.MM.yyyy&amp;lt;/XMLDateFormat&amp;gt;&lt;BR&gt;&amp;lt;XMLDiscardEmpty&amp;gt;True&amp;lt;/XMLDiscardEmpty&amp;gt;&lt;BR&gt;&amp;lt;CSVInputFile&amp;gt;faktura_polozky.csv&amp;lt;/CSVInputFile&amp;gt;&amp;nbsp; &amp;lt;CSVRowDataType&amp;gt;//OBERON//Data//InvoicesIssued//Record&amp;lt;/CSVRowDataType&amp;gt;&lt;BR&gt;&amp;lt;CSVRowDataType&amp;gt;//OBERON//Data//InvoicesIssued//Record//Items//Item&amp;lt;/CSVRowDataType&amp;gt;&lt;BR&gt;&amp;lt;/Settings&amp;gt;&lt;BR&gt;&amp;lt;/Header&amp;gt;&lt;BR&gt;&amp;lt;/OBERON&amp;gt;&lt;/EM&gt;&lt;/P&gt;
+&lt;H2&gt;Popis jednotlivých nastavení (default je použitý v prípade, že chýba položka alebo je neplatná)&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;CSVHeaderLine = 1 (default: 0 - nemá riadok s popisom)&lt;/STRONG&gt; číslo riadka, kde je popis stĺpcov&amp;nbsp;súboru CSV. Tento popis je možné použiť ako identifikátor stĺpca. Ak nie je definovaný, potom nie je možné používať indexovanie stĺpcov menom. 
+&lt;LI&gt;CSVDelimiters = ; (default: ;) zoznam znakov, ktoré sú použité ako oddeľovače jednotlivých položiek v riadku&amp;nbsp;súboru CSV. Nesmie byť nastavený parameter CSVFieldWidths. 
+&lt;LI&gt;&lt;STRONG&gt;CSVFieldWidths = 5; 5; 8; 10 (default: )&lt;/STRONG&gt; nastavuje šírku jednotlivých stĺpcov v prípade,&amp;nbsp;že CSV je vo formáte s pevnou šírkou stĺpcov. 
+&lt;LI&gt;&lt;STRONG&gt;CSVEncoding = windows-1250&lt;/STRONG&gt; (default: kódovanie nastavené na počítači) nastavenie&amp;nbsp;&lt;A href="http://msdn.microsoft.com/en-us/library/system.text.encoding.aspx" target=_blank&gt;kódovania&lt;/A&gt;, v ktorom je uložený&amp;nbsp;súbor CSV. 
+&lt;LI&gt;&lt;STRONG&gt;CSVDateFormat = d.M.yyyy&lt;/STRONG&gt; (default: = d.M.yyyy) nastavenie&amp;nbsp;&lt;A href="http://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx" target=_blank&gt;formátu dátumu&lt;/A&gt; v&amp;nbsp;súbore CSV. 
+&lt;LI&gt;&lt;STRONG&gt;CSVDecimalSeparator = . (default: .)&lt;/STRONG&gt; nastavenie oddeľovača desatinnej časti čísla v&amp;nbsp;súbore CSV. 
+&lt;LI&gt;&lt;STRONG&gt;XMLDateFormat = dd.MM.yyyy (default: = dd.MM.yyyy)&lt;/STRONG&gt; nastavenie&amp;nbsp;&lt;A href="http://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx" target=_blank&gt;formátu dátumu&lt;/A&gt; vo výstupnom&amp;nbsp;súbore XML (neodporúča sa meniť). 
+&lt;LI&gt;&lt;STRONG&gt;XMLDiscardEmpty = True (default: False)&lt;/STRONG&gt; nastavenie na &lt;EM&gt;True&lt;/EM&gt; spôsobí, že nenastavené položky nebudú vo výslednom&amp;nbsp;súbore XML. 
+&lt;LI&gt;&lt;STRONG&gt;CSVInputFile = faktura_polozky.csv&lt;/STRONG&gt; názov ďalšieho súboru, ktorý obsahuje doplnkové CSV údaje pre import (napr. v prípade oddelených súborov faktúr a položiek faktúr). Táto položka sa môže opakovať. Súbory sú indexované v poradí : [0] = súbor z dialógu importu, [1..n] = súbory z CSVInputFile. K hodnote indexu aktuálne spracovávaného súboru sa dá pristupovať pomocou výrazu [[IndexFile]]. 
+&lt;LI&gt;&lt;STRONG&gt;CSVRowDataType = //OBERON//Data//InvoicesIssued//Record&lt;/STRONG&gt; zoznam typov, ktoré sa môžu vyskytnúť ako riadok&amp;nbsp;súboru CSV. Táto položka sa môže opakovať. Pred začatím spracovania každého riadku sa vyhodnocuje,&amp;nbsp;ktorý zo zadaných typov vyhovuje. Vyhovujúci typ sa použije&amp;nbsp;na spracovanie riadku. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Dátová časť transformačnej šablóny&lt;/H2&gt;
+&lt;P&gt;&lt;EM&gt;&amp;lt;?xml version="1.0" encoding="UTF-8"?&amp;gt;&lt;BR&gt;&amp;lt;OBERON&amp;gt;&lt;BR&gt;&amp;lt;Data&amp;gt;&lt;BR&gt;&amp;lt;InvoicesIssued&amp;gt;&lt;BR&gt;&amp;lt;Record CSVFieldValidate="= #[[IndexFile]] = 0" CreateReference="#[Číslo faktúry]"&amp;gt;&lt;BR&gt;&amp;lt;Document_Number&amp;gt;#[Číslo faktúry]&amp;lt;/Document_Number&amp;gt;&lt;BR&gt;&amp;lt;Document_Type&amp;gt;Faktúra&amp;lt;/Document_Type&amp;gt;&lt;BR&gt;&amp;lt;Date_Document&amp;gt;@[Dátum]&amp;lt;/Date_Document&amp;gt;&lt;BR&gt;&amp;lt;Date_Delivery&amp;gt;@[Dátum dod.listu]&amp;lt;/Date_Delivery&amp;gt;&lt;BR&gt;&amp;lt;Date_Expiration/&amp;gt;&lt;BR&gt;&amp;lt;Date_VAT/&amp;gt;&lt;BR&gt;&amp;lt;Expiration_Term&amp;gt;$[Platobná podmienka]&amp;lt;/Expiration_Term&amp;gt;&lt;BR&gt;&amp;lt;Number_DeliveryNote&amp;gt;#{5}&amp;lt;/Number_DeliveryNote&amp;gt;&lt;BR&gt;&amp;lt;Number_Order&amp;gt;#{BF}&amp;lt;/Number_Order&amp;gt;&lt;BR&gt;&amp;lt;AccountCoding_Number&amp;gt;10&amp;lt;/AccountCoding_Number&amp;gt;&lt;BR&gt;&amp;lt;Document_Classification CSVTranslate="Almelo,NL; Veldhoven=Veldhoven,NL "&amp;gt;$[Miesto odoslania]&amp;lt;/Document_Classification&amp;gt;&lt;BR&gt;&lt;/EM&gt;&lt;EM&gt;&amp;lt;/InvoicesIssued&amp;gt;&lt;BR&gt;&lt;/EM&gt;&lt;EM&gt;&amp;lt;/Data&amp;gt;&lt;BR&gt;&amp;lt;/OBERON&amp;gt;&lt;/EM&gt;&lt;/P&gt;
+&lt;P&gt;Hodnota (text) položky, ktorá obsahuje výraz, bude vo výslednom&amp;nbsp;súbore XML obsahovať výsledok tohto výrazu.&lt;/P&gt;
+&lt;H3&gt;Popis položky a jej atribútov (default je použitý v prípade, že chýba položka alebo je neplatná)&lt;/H3&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Hodnota položky = Výraz (default: )&lt;/STRONG&gt; 
+&lt;LI&gt;&lt;STRONG&gt;CSVFieldValidate = Výraz (default: 1(True))&lt;/STRONG&gt; výraz, ktorý vracia, či daná položka je platná. Ak nie je platná, nevloží sa do výsledného&amp;nbsp;súboru XML a nebudú sa spracovávať jej podpoložky. Hodnota je neplatná, ak výraz vráti 0 (False). 
+&lt;LI&gt;&lt;STRONG&gt;CSVTranslate ="Almelo,NL; Veldhoven=Veldhoven,NL " (default: )&lt;/STRONG&gt; transformačná tabuľka&amp;nbsp;na prevod načítaných hodnôt z CSV bunky vo formáte : CSVhodnota1=Nová hodnota1; CSVhodnota2=Nová hodnota2. 
+&lt;LI&gt;&lt;STRONG&gt;DefaultValue = Výraz (default: )&lt;/STRONG&gt; hodnota, ktorá sa použije v prípade, že hodnota položky aj po spracovaní výrazu ostane prázdna. 
+&lt;LI&gt;&lt;STRONG&gt;CreateReference = Výraz (default: )&lt;/STRONG&gt; systém si uloží tento element do zoznamu referencií pod touto hodnotou&amp;nbsp;na neskoršie použitie pri vkladaní podpoložiek pomocou InsertToReference. 
+&lt;LI&gt;&lt;STRONG&gt;InsertToReference = Výraz (default: )&lt;/STRONG&gt; hľadá referenčný element s touto hodnotou. Element sa hľadá v zozname, ktorý bol vytvorený pomocou CreateReference. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Výrazy&lt;/H2&gt;
+&lt;P&gt;Sú použité&amp;nbsp;na vytvorenie výslednej hodnoty podľa požiadaviek. Umožňujú napr. spájať texty a vykonávať základné matematické operácie a porovnania hodnôt a logické operácie.&lt;/P&gt;
+&lt;H3&gt;Aktuálne podporované vnútorné premenné (všetky sa dajú použiť aj ako text). Označenie typu $, #, @ je povinné.&lt;/H3&gt;
+&lt;UL&gt;
+&lt;LI&gt;#[[IndexFile]] - vráti index aktuálne spracovávaného súboru (číslované od 0). 
+&lt;LI&gt;&lt;A&gt;@[[ActualDate&lt;/A&gt;]] - vráti aktuálny dátum. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H3&gt;Indexovanie stĺpcov&amp;nbsp;súboru CSV. Označenie typu $, #, @ je povinné.&lt;/H3&gt;
+&lt;UL&gt;
+&lt;LI&gt;[názov stĺpca] - v prípade, že je nastavené číslo riadka hlavičky&amp;nbsp;súboru CSV. 
+&lt;LI&gt;{index stĺpca} - je možné použiť číslo (1,2,3...). 
+&lt;LI&gt;{pomenovaný index stĺpca} - index stĺpca ako sa používa v Exceli (A,B,C,...,AA,AB...). &lt;/LI&gt;&lt;/UL&gt;
+&lt;H3&gt;Vyhodnotenie výrazov sa vykonáva takto:&lt;/H3&gt;
+&lt;UL&gt;
+&lt;LI&gt;Načítanie hodnôt vnútorných premenných - nahradí túto časť obsahom tejto bunky z aktuálne spracovávaného CSV riadka.&lt;BR&gt;$[[názov premennej]] - načíta premennú ako text.&lt;BR&gt;#[[názov premennej]] - načíta premennú ako číslo (iba ak to umožňuje).&lt;BR&gt;@[[názov premennej]] - načíta premennú ako dátum (iba ak to umožňuje). 
+&lt;LI&gt;Načítanie obsahu CSV buniek a vnútorných premenných - nahradí túto časť obsahom tejto bunky z aktuálne spracovávaného CSV riadka.&lt;BR&gt;$[názov CSV stĺpca], ${index} - načíta hodnoty ako text.&lt;BR&gt;#[názov CSV stĺpca], #{index} - načíta hodnoty ako číslo.&lt;BR&gt;@[názov CSV stĺpca], @{index} - načíta hodnoty ako dátum. 
+&lt;LI&gt;Operácie s textom - umožňuje aktuálne spájať text pomocou operátora +.&lt;BR&gt;Treba dodržať typ načítaných údajov ako text a vlastné texty vkladať do úvodzoviek,&lt;BR&gt;napr. : $[číslo účtu] + "/" + $[kód banky]. 
+&lt;LI&gt;Matematické operácie - umožňuje vypočítať jednoduché matematické výrazy. Výpočet sa bude robiť iba v prípade, že sa&amp;nbsp;výraz začína znakom =,&lt;BR&gt;napr. = #[cena bez dph] * (#[sadzba dph]/100 + 1). 
+&lt;LI&gt;Logické operácie - umožňuje vykonať porovnávanie operátormi =,!=,&amp;lt;,&amp;gt;,&amp;lt;=,&amp;gt;= a zreťaziť viac logických operácií kľúčovými slovami and, or, xor. Výpočet sa bude robiť iba v prípade, že sa výraz začína znakom =. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Príklady&lt;/H2&gt;
+&lt;H3&gt;Naplnenie čísla faktúry zo stĺpca "Číslo faktúry" (č.&amp;nbsp;5, E) do položky "Document_Number"&lt;/H3&gt;
+&lt;UL&gt;
+&lt;LI&gt;&amp;lt;Document_Number&amp;gt;#[ Číslo faktúry]&amp;lt;/Document_Number&amp;gt; 
+&lt;LI&gt;&amp;lt;Document_Number&amp;gt;#{5}&amp;lt;/Document_Number&amp;gt; 
+&lt;LI&gt;&amp;lt;Document_Number&amp;gt;#{E}&amp;lt;/Document_Number&amp;gt; &lt;/LI&gt;&lt;/UL&gt;
+&lt;H3&gt;Vloženie položky, keď je hodnota nenulová&lt;/H3&gt;
+&lt;UL&gt;
+&lt;LI&gt;&amp;lt;Item CSVFieldValidate="= #[Základ vyš. DPH] != 0"&amp;gt;&amp;lt;/Item&amp;gt; &lt;/LI&gt;&lt;/UL&gt;
+&lt;H3&gt;Transformácia položky "Spôsob úhrady" na iné texty&lt;/H3&gt;
+&lt;UL&gt;
+&lt;LI&gt;&amp;lt;Payment_Method&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; CSVTranslate="PP=Prevodný príkaz; PT="POS terminál";"&amp;gt;&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; $[Spôsob úhrady]&lt;BR&gt;&amp;lt;/Payment_Method&amp;gt; &lt;/LI&gt;&lt;/UL&gt;
+&lt;H3&gt;Použitie default&amp;nbsp; hodnoty, ak nie je vyplnená v&amp;nbsp;súbore CSV&lt;/H3&gt;
+&lt;UL&gt;
+&lt;LI&gt;&amp;lt;CurrencyCode DefaultValue="EUR"&amp;gt;$[Mena]&amp;lt;/CurrencyCode&amp;gt; &lt;/LI&gt;&lt;/UL&gt;
+&lt;H3&gt;Validácia položky iba pri spracúvaní prvého&amp;nbsp;súboru CSV a vytvorenie referencie podľa čísla faktúry&lt;/H3&gt;
+&lt;UL&gt;
+&lt;LI&gt;&amp;lt;Record&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; CSVFieldValidate="= #[[IndexFile]] = 0"&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; CreateReference="#[Číslo faktúry]"&amp;gt;&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; ...&lt;BR&gt;&amp;lt;/Record&amp;gt; &lt;/LI&gt;&lt;/UL&gt;
+&lt;H3&gt;Validácia položky iba pri spracúvaní druhého&amp;nbsp;súboru CSV a vloženie tejto položky do položky so&amp;nbsp;zhodným&amp;nbsp;číslom faktúry&lt;/H3&gt;
+&lt;UL&gt;
+&lt;LI&gt;&amp;lt;Item&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; CSVFieldValidate="= #[[IndexFile]] = 1"&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; InsertToReference="#[Číslo faktúry]"&amp;gt;&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; ...&lt;BR&gt;&amp;lt;/Item&amp;gt; &lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="aca572c9-d72a-4b2f-8d4c-8c59db65193f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="56f661c6-24da-46aa-b157-5d988cbe792b">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="4f8fefc6-7929-4ed0-91e4-c8e29aa34df5" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="ab9d497d-fd18-4185-a487-28e3bf04cecf">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="dde866bc-2996-4a23-b97d-784202f2de21" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="50adcd4a-de72-439e-895f-021cd9537535">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="dd7af5f6-623d-4751-9b00-0d6abeb2b34e" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="c4bb279e-a2ba-4690-83b9-efb2e11cc077">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="103ea614-2de3-46d3-9717-b570568bc0f0">
+      <Keyword m="2021-04-06T08:56:49.5239237Z">CSV súbory - transformačné šablóny na import</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="9bb1cfa0-27ae-4213-b9c5-8c1a55a730ce">
+      <Keyword m="2021-04-06T08:37:27.8341018Z">XML komunikácia - transformačné šablóny CSV</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="8c1f1dd4-a841-4745-beed-49dd12964b0a" Status="Complete" CreatedOn="2014-09-08T10:55:08.902302Z" ModifiedOn="2023-07-12T13:20:02.9622663Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="22314" Name="Menu_Firm_Exchange_Rates" BuildFlags="">
+  <Title m="2014-09-08T10:55:32.7006632Z">Kurzový lístok</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-07-12T13:20:02.9622663Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;je venovaná&amp;nbsp;položke&amp;nbsp;&lt;EM&gt;Kurzový lístok&lt;/EM&gt;&amp;nbsp;v ponuke&amp;nbsp;&lt;EM&gt;Firma&lt;/EM&gt; programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;. Položka je dostupná len v prípade, že&amp;nbsp;je v&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="5a6e5663-262e-4ff0-9741-1569385d11e4"&gt;oddiel Firma, Všeobecné&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt; záložka &lt;EM&gt;Základné&lt;/EM&gt; povolené pracovať s&amp;nbsp;cudzími menami.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Výberom položky sa otvorí formulár&amp;nbsp;&lt;EM&gt;Kurzový lístok&lt;/EM&gt;, ktorý umožňuje&amp;nbsp;&lt;STRONG&gt;evidovať kurzy jednotlivých cudzích mien&lt;/STRONG&gt;. Cudzie meny je možné definovať v ponuke &lt;EM&gt;Firma&lt;/EM&gt;, &lt;EM&gt;Predvoľby&lt;/EM&gt;, &lt;A href="09e378df-5c76-42f3-a245-b33dd0580648"&gt;Cudzie meny&lt;/A&gt;. 
+&lt;LI&gt;Kurzový lístok sa sťahuje z internetovej stránky&amp;nbsp;&lt;A href="https://www.ecb.europa.eu/ecb/html/index.sk.html" target=_blank&gt;Európskej centrálnej banky&lt;/A&gt;. Predpokladom je pripojenie na internet. Jednotlivé výmenné kurzy sú stanovované na základe telekonferencie medzi národnými centrálnymi bankami, ktorá sa zvyčajne koná&amp;nbsp;o 14.15&amp;nbsp;hod. SEČ. Kurzový lístok má len informatívny charakter a je publikovaný v dňoch, keď je otvorený platobný systém TARGET. 
+&lt;LI&gt;V&amp;nbsp;systéme OBERON&amp;nbsp;je možné&amp;nbsp;nastaviť&amp;nbsp;&lt;A href="9ce25bbd-35d1-4096-acd5-70007f5af5a6"&gt;automatickú úlohu&lt;/A&gt;, ktorá&amp;nbsp;umožňuje &lt;STRONG&gt;automaticky v&amp;nbsp;pravidelných intervaloch importovať kurzový lístok z&amp;nbsp;&lt;EM&gt;Európskej centrálnej banky&lt;/EM&gt; do databázy účtovnej jednotky (firmy)&lt;/STRONG&gt; a&amp;nbsp;ďalej s ním pracovať. Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="350a3a7d-8aa8-4886-88e9-1181038807cf" style="auto-update-caption: true"&gt;Import kurzového lístka z ECB&lt;/A&gt;. 
+&lt;LI&gt;Jednotlivým používateľom&amp;nbsp;je možné obmedziť prácu s&amp;nbsp;kurzovým lístkom v ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="834e9546-a56b-476f-9028-ef4c24a82345"&gt;Práva používateľov&lt;/A&gt;. 
+&lt;LI&gt;V prípade úhrady faktúry v cudzej mene je potrebné v&amp;nbsp;&lt;A href="49dd3167-870a-4fdf-b631-d4f692f1ed72"&gt;podvojnom účtovníctve&lt;/A&gt; zaúčtovať kurzový zisk alebo stratu do&amp;nbsp;&lt;A href="d8c9bfc8-92d1-4471-8909-e5f8ce602d6c"&gt;účtovného denníka&lt;/A&gt;.&amp;nbsp;Predkontácia pre kurzový zisk a stratu sa definuje vo&amp;nbsp;&lt;A href="6510031b-e990-40e6-96aa-d0034df89cdc"&gt;formulári Predkontácia&lt;/A&gt;. Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="c674b4cf-fcde-4565-a245-852c1508b74f"&gt;Zaúčtovanie kurzového rozdielu&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Dostupné&amp;nbsp;možnosti&lt;/H2&gt;
+&lt;P&gt;Ďalšie možnosti práce so záznamami&amp;nbsp;sú dostupné&amp;nbsp;po stlačení tlačidla &lt;EM&gt;Možnosti&lt;/EM&gt;, prípadne v&amp;nbsp;kontextovej ponuke tabuľky záznamov.&lt;/P&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Stiahnutie kurzového lístka&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Funkcia stiahne kurzový lístok zadaných cudzích mien za zvolené obdobie z internetovej stránky&amp;nbsp;&lt;A href="https://www.ecb.europa.eu/ecb/html/index.sk.html" target=_blank&gt;Európskej centrálnej banky&lt;/A&gt;.&amp;nbsp;Kurzový lístok, ktorý bol stiahnutý, &lt;STRONG&gt;sa zapisuje do tzv.&amp;nbsp;zdieľanej databázy&lt;/STRONG&gt; (&lt;EM&gt;\\OBERON\SHARE\shared_data.mdb&lt;/EM&gt;). Systém OBERON však nepracuje priamo s&amp;nbsp;týmto kurzovým lístkom, ale ho kopíruje do databázy danej firmy. Do databázy danej firmy sa skopíruje pri jej otvorení. V prípade viacerých firiem sa skopíruje do databáz všetkých týchto firiem pri ich jednotlivom otvorení.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="79c091aa-9212-4f41-85a6-df227d042d9d" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="350a3a7d-8aa8-4886-88e9-1181038807cf">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="7c33f6bf-62b6-4675-8037-7a267d7feeea" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="efd024a7-c559-4268-ac8b-ce6d71e4252e">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="bae5779f-f951-4fc8-8fb6-65d47045eccb" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="09e378df-5c76-42f3-a245-b33dd0580648">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="3cfbfedd-79f2-429b-b586-a5838a2f9e74" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="183ab557-cc49-4d23-8935-dfcc8379a1ec">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="9b137327-9875-4a7a-82dc-d9e403a905da" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="c674b4cf-fcde-4565-a245-852c1508b74f">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="43139f96-f2e7-4eef-a1fa-2a9cdd85f4b1">
+      <Keyword m="2021-08-30T11:03:53.5112241Z">Devízy - stiahnutie kurzového lístka z ECB</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="37bb16bf-8abf-49b8-b583-102f55c46a41">
+      <Keyword m="2021-08-30T11:03:44.2750956Z">Automatické stiahnutie kurzového lístka z ECB</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>
