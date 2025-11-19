@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="a833ee8a-1289-42b9-923f-80f549497702" Status="Complete" CreatedOn="2014-09-08T10:57:27.7182418Z" ModifiedOn="2024-03-21T06:56:07.9367364Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="22308" Name="Menu_Firm_Informations_Firm" BuildFlags="">
+  <Title m="2014-09-08T10:57:45.3702514Z">Údaje o firme</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-03-21T06:56:07.9367364Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;je venovaná&amp;nbsp;položke&amp;nbsp;&lt;EM&gt;Údaje o&amp;nbsp;firme&lt;/EM&gt;&amp;nbsp;v&amp;nbsp;ponuke&amp;nbsp;&lt;EM&gt;Firma&lt;/EM&gt; programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Výberom položky sa otvorí&amp;nbsp;formulár &lt;EM&gt;Údaje o&amp;nbsp;firme&lt;/EM&gt;, v&amp;nbsp;ktorom je&amp;nbsp;možné: 
+&lt;UL&gt;
+&lt;LI&gt;zadať základné aj doplňujúce&amp;nbsp;informácie o účtovnej jednotke vrátane údajov evidovaných z dôvodu predaja alkoholu, 
+&lt;LI&gt;definovať &lt;A href="8df798f2-4fbf-4279-ad8c-493bdbe7f2e4"&gt;&lt;STRONG&gt;prevádzky&lt;/STRONG&gt;&lt;/A&gt;&amp;nbsp;účtovnej jednotky, 
+&lt;LI&gt;vykonať vybrané nastavenia pre spracovanie miezd, 
+&lt;LI&gt;zadať údaje&amp;nbsp;zodpovedných osôb (na zastupovanie firmy, vedenie účtovníctva a mzdovej agendy), 
+&lt;LI&gt;zadať údaje potrebné na zasielanie rôznych priznaní, potvrdení,&amp;nbsp;štatistických&amp;nbsp;výkazov, hlásenia pobytu cudzincov&amp;nbsp;a pod. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;V&amp;nbsp;oddiele &lt;I&gt;Logo&lt;/I&gt; je možné nadefinovať &lt;STRONG&gt;grafické logo&lt;/STRONG&gt;, ktoré sa bude tlačiť na dokladoch, napr. faktúrach, dodacích listoch a pod. V prípade, že sa účtovná jednotka člení na prevádzky, každá z&amp;nbsp;prevádzok môže mať svoje vlastné logo. Napr. účtovná jednotka prevádzkuje dva hotely - vtedy sa v&amp;nbsp;závislosti&amp;nbsp;od zadanej prevádzky napr. na dokladoch, ubytovacom voucheri a pod.&amp;nbsp;tlačia rozdielne logá. Bližšie informácie získate v téme&amp;nbsp;&lt;A href="fe609232-2720-4a0f-bacd-713d7d0cbe09" style="auto-update-caption: true"&gt;Logo na faktúre&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Popis formulára &lt;EM&gt;Údaje o firme&lt;/EM&gt;&lt;/H2&gt;&lt;innovasys:widget type="Tab Strip" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Základné údaje&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Zadávajú sa základné údaje o&amp;nbsp;účtovnej jednotke&amp;nbsp;(názov, adresa, právna forma, IČO, DIČ...). Adresa firmy&amp;nbsp;bude figurovať v rôznych tlačových výstupoch. Pri vytvorení novej firmy (databázy) &lt;STRONG&gt;pri zmene účtovnej jednotky (zmena IČO) na konkrétnej prevádzke&lt;/STRONG&gt;, pričom jej chod má byť kontinuálne zachovaný (napr. pri odstúpení predajne, ubytovacieho zariadenia a pod.), je&amp;nbsp;možné použiť &lt;STRONG&gt;sprievodcu &lt;EM&gt;Prevod do novej firmy (zmena&amp;nbsp;IČO)&lt;/EM&gt;&lt;/STRONG&gt;, ktorý je dostupný vo&amp;nbsp;&lt;A href="d2b25c8c-d57f-4678-8021-3148259d3777"&gt;formulári Otvorenie agendy (firmy)&lt;/A&gt;, tlačidlo &lt;EM&gt;Možnosti - Prevod do novej firmy (zmena IČO)&lt;/EM&gt;.&amp;nbsp;Uvedený sprievodca skopíruje údaje z aktuálnej databázy do novej, pričom z nej odstráni všetky nepotrebné údaje. Automaticky sa skopírujú skladové karty (s nulovým zostatkom), používatelia, obchodní partneri, nastavenia zariadení, otvorené objednávky a iné vybrané údaje. Sprievodca umožňuje zvoliť, ktoré ďalšie údaje sa majú skopírovať: pracovníci, pracovné pomery, pracovný kalendár, otvorené záznamy z CRM, z reklamácií, evidencia vozidiel, údaje hotelovej recepcie (rezervácie ubytovania, aktuálne otvorené hotelové účty a pod.).&lt;/P&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Štát&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Do poľa &lt;EM&gt;Štát&lt;/EM&gt; sa zadáva krajina, v ktorej&amp;nbsp;má daná firma sídlo podnikania. Stlačením tlačidla&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_ListButton.png"&gt;&amp;nbsp;sa zobrazí&amp;nbsp;&lt;A href="e040a1de-5802-4302-ad10-3e2222949604"&gt;zoznam štátov&lt;/A&gt;.&amp;nbsp;Pridať novú krajinu je možné stlačením tlačidla &lt;EM&gt;Nový&lt;/EM&gt;.&amp;nbsp;Ku každému štátu sa eviduje kód štátu s cieľom&amp;nbsp;&lt;A href="6f290377-1b2d-4fe5-8c12-944b437f9337"&gt;hlásenia pobytu cudzincov&lt;/A&gt; (v&amp;nbsp;module&amp;nbsp;&lt;A href="c3bd41f0-029e-4c74-b342-b0ffff647b6e"&gt;Hotelová recepcia&lt;/A&gt;) a kód krajiny pre štatistické účely.&amp;nbsp;Nastavenie štátu je dôležité aj pre&amp;nbsp;režim&amp;nbsp;&lt;A href="fbb3fe9e-2f4a-401b-bb15-384245126a0a"&gt;One Stop Shop (OSS)&lt;/A&gt;, ale slúži aj &lt;STRONG&gt;na pridanie jazyka&lt;/STRONG&gt; daného štátu do OBERON-u (viac informácií v téme&amp;nbsp;&lt;A href="04d2db16-08ec-459e-b5c9-71dd3a9f9e2f"&gt;Jazykové verzie OBERON-u&lt;/A&gt;). Popis formulára je dostupný v&amp;nbsp;téme&amp;nbsp;&lt;A href="c74441ae-8cdd-4bf2-940c-a1041ed9c586" style="auto-update-caption: true"&gt;Formulár Štát&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Prevádzka&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Ak účtovná jednotka používa prevádzky, vyberá sa predvolená prevádzka pre danú firmu.&amp;nbsp;Následne bude možné v&amp;nbsp;jednotlivých&amp;nbsp;dokladových&amp;nbsp;evidenciách vytvoriť nový doklad aj v&amp;nbsp;prípade, že v hornej časti evidencie nebude zvolená konkrétna prevádzka (ale len&amp;nbsp;možnosť &lt;EM&gt;*** Všetky prevádzky ***&lt;/EM&gt;).&amp;nbsp;Viac informácií o&amp;nbsp;prevádzka získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="8df798f2-4fbf-4279-ad8c-493bdbe7f2e4"&gt;Prevádzky&lt;/A&gt;.&lt;BR&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Venujte dostatok pozornosti&amp;nbsp;vypĺňaniu najmä obchodného názvu účtovnej jednotky.&amp;nbsp;V prípade, že firma má zadanú licenciu (prípadne licencie za minulé roky), názov účtovnej jednotky &lt;STRONG style="COLOR: rgb(255,0,0)"&gt;nebude možné zmeniť&lt;/STRONG&gt;. Aby bolo možné názov zmeniť, je potrebné odstrániť licencie, vykonať zmenu názvu a licencie opätovne aktivovať. Z tohto dôvodu je&amp;nbsp;potrebné&amp;nbsp;kontaktovať&amp;nbsp;&lt;A href="571f742b-c33d-495b-bab3-01ff69c38ef0"&gt;dodávateľa systému OBERON&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Doplňujúce údaje&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Zadávajú sa ďalšie doplňujúce&amp;nbsp;informácie o&amp;nbsp;účtovnej&amp;nbsp;jednotke, napr. daňový úrad, obchodný register, telefón,&amp;nbsp;webová adresa, e-mail&amp;nbsp;atď.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Mzdy a dochádzka&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;H3&gt;Deň výplaty&lt;/H3&gt;
+&lt;P&gt;Zadáva sa deň v mesiaci určený na výplatu miezd, štandardne je nastavený na 10. deň. Deň určený na výplatu sa uvádza vo výkazoch pre &lt;EM&gt;Sociálnu poisťovňu&lt;/EM&gt;, resp.&amp;nbsp;daňový úrad. Ak je zadaná 0 (nula),&amp;nbsp;vo firme nie je určený deň na výplatu miezd.&lt;/P&gt;
+&lt;H3&gt;Tvorba sociálneho fondu&lt;/H3&gt;
+&lt;P&gt;Zadáva sa percento odvodu&amp;nbsp;na tvorbu sociálneho fondu.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Zodpovedné osoby&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Zadávajú sa&amp;nbsp;nacionálie osôb, ktoré zastupujú účtovnú jednotku (konateľ), osobu zodpovednú za vedenie účtovníctva alebo mzdového účtovníctva. Tieto údaje sa používajú pri tvorbe rôznych tlačových výstupov.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Logo&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Zadáva sa logo účtovnej jednotky, ktoré sa bude tlačiť napr. na vystavených faktúrach. Obrázok loga&amp;nbsp;možno pridať pomocou tlačidla&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_Button_Images.png"&gt;. Obrázok&amp;nbsp;môže byť vo formáte &lt;STRONG&gt;JPG&lt;/STRONG&gt;, &lt;STRONG&gt;PNG&lt;/STRONG&gt; alebo&amp;nbsp;&lt;STRONG&gt;GIF&lt;/STRONG&gt;. Odporúčané rozmery obrázka sú &lt;STRONG&gt;102&amp;nbsp;x&amp;nbsp;102 pixelov&lt;/STRONG&gt;, veľkosť &lt;STRONG&gt;max. 10 - 15 kB&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;P&gt;Ak účtovná jednotka používa&amp;nbsp;&lt;A href="8df798f2-4fbf-4279-ad8c-493bdbe7f2e4"&gt;prevádzky&lt;/A&gt;, logo je možné nastaviť pre každú prevádzku samostatne (napr. účtovná jednotka prevádzkuje dva hotely).&lt;/P&gt;
+&lt;P&gt;Bližšie informácie v téme&amp;nbsp;&lt;A href="fe609232-2720-4a0f-bacd-713d7d0cbe09" style="auto-update-caption: true"&gt;Logo na faktúre&lt;/A&gt;.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Výkazy a štatistika&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;H3&gt;Ubytovacie zariadenia&lt;/H3&gt;
+&lt;P&gt;Zadáva sa identifikátor, ktorý ubytovacie zariadenie&amp;nbsp;dostalo po registrácii na &lt;EM&gt;Ministerstve vnútra SR&lt;/EM&gt;&amp;nbsp;na hlásenie pobytu cudzincov elektronickou formou. V prípade, že má ubytovacie zariadenie viacero&amp;nbsp;&lt;A href="8df798f2-4fbf-4279-ad8c-493bdbe7f2e4"&gt;prevádzok&lt;/A&gt; a viacero identifikátorov zariadenia, identifikátor sa zadáva ku každej prevádzke (vo&amp;nbsp;&lt;A href="8df798f2-4fbf-4279-ad8c-493bdbe7f2e4"&gt;formulári Prevádzka&lt;/A&gt;, záložka &lt;EM&gt;Ostatné&lt;/EM&gt;).&lt;/P&gt;
+&lt;H3&gt;Štatistika&lt;/H3&gt;
+&lt;P&gt;Zadáva sa číslo z číselníka štatistického úradu &lt;EM&gt;SK NACE&lt;/EM&gt;, ktorý sa použije pri tvorbe výkazov a priznaní.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Digitálny podpis&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Umožňuje vygenerovať podpisový certifikát danej účtovnej jednotky na digitálne podpisovanie&amp;nbsp;dokumentov (najmä vo formáte PDF).&amp;nbsp;Takto vygenerovaný podpisový&amp;nbsp;certifikát je alternatívou ku kvalifikovanému certifikátu vydanému certifikačnou autoritou a&amp;nbsp;je určený najmä pre interný&amp;nbsp;&lt;A href="68a24d97-e4a5-4cf4-bc7a-72262df5973e"&gt;elektronický archív dokumentov&lt;/A&gt;.&lt;/P&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 
+&lt;P&gt;Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="41fb8a3f-4d42-4e29-8296-05613775d8a6" style="auto-update-caption: true"&gt;Digitálny podpis vygenerovaný v OBERON-e&lt;/A&gt;.&lt;/P&gt;&lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Na&amp;nbsp;vygenerovanie podpisového certifikátu je potrebné program &lt;STRONG&gt;spustiť s oprávneniami administrátora&lt;/STRONG&gt;. Podpisový certifikát možno vygenerovať &lt;STRONG&gt;len so zakúpenou licenciou&lt;/STRONG&gt;, a&amp;nbsp;to z&amp;nbsp;dôvodu zabezpečenia požadovaného stupňa ochrany (podpisový certifikát bude možné stotožniť s&amp;nbsp;účtovnou jednotkou). Uvedené &lt;STRONG&gt;neplatí pre typ licencie &lt;EM&gt;Multi&lt;/EM&gt;&lt;/STRONG&gt;, aby nebolo možné&amp;nbsp;vygenerovať podpisový certifikát neoprávnene.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Externé systémy&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 
+&lt;P&gt;Zobrazujú sa ďalšie údaje firmy určené pre napojenie na externé systémy:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;GLN (Globálne lokalizačné číslo)&lt;/STRONG&gt; - slúži na jedinečnú identifikáciu spoločnosti. Číslo GLN je jedinečné na celom svete. GLN sa využíva&amp;nbsp;pri&amp;nbsp;&lt;A href="c4bb279e-a2ba-4690-83b9-efb2e11cc077"&gt;elektronickej výmene dát EDITEL&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="8cad5223-de29-45ed-a37d-d8543699d324" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="8dd60281-9cc7-41fe-9dd2-2ad5c7ffe047">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="29d17e95-fb5d-4c73-921f-a7b8c981e24f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="f68687b5-0939-447b-9f8e-37c883676f1e">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="6e5f6baa-9b29-43b1-a1d2-8aeb1be509d8" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="8df798f2-4fbf-4279-ad8c-493bdbe7f2e4">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="e93a14b2-1153-44e0-b7a1-a03ed647dfca" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="ccadca4e-2fbd-4b28-8d92-f826f3019bd0">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="6d846e71-763d-43ab-a49b-950a37521c4f">
+      <Keyword m="2014-11-18T09:40:12.2041015Z">Firemné údaje</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="34b30787-b68b-43a7-ab35-d5995d492b2d">
+      <Keyword m="2022-01-24T07:41:59.8333992Z">Prevádzky - definovanie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="3a25a57c-a200-41bb-bed7-5f1d2dfdcc22">
+      <Keyword m="2015-02-09T08:21:54.443711Z">Logo na faktúre</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="d2ff9ecf-0ca1-4761-b58f-a3a3153f42cb">
+      <Keyword m="2022-01-24T07:41:38.1755148Z">Logo účtovnej jednotky</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="0dd946db-1c48-44be-a785-90015bb07da8">
+      <Keyword m="2022-01-24T07:41:43.1599221Z">Logo prevádzky</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="969f9599-efb7-4ab4-a4af-1d9e59618ca8">
+      <Keyword m="2022-01-24T14:21:49.8388106Z">GLN (Globálne lokalizačné číslo) - EDITEL - nastavenie</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

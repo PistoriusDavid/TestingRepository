@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="7a452352-b957-4643-9190-c308ecf20975" Status="Complete" CreatedOn="2018-08-22T10:56:48.8449339Z" ModifiedOn="2023-10-04T13:06:18.3446548Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Wages_Attendance_Start_ProcessingWages" BuildFlags="">
+  <Title m="2018-08-22T10:57:56.8162646Z">Spracovanie dochádzky do miezd</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-10-04T13:06:18.3446548Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; je venovaná&amp;nbsp;&lt;STRONG&gt;problematike spracovania dochádzky do výpočtu miezd&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Aby sa v&amp;nbsp;systéme OBERON evidencia odpracovaných hodín,&amp;nbsp;nadčasov a pod.&amp;nbsp;v dochádzke použila pri výpočte&amp;nbsp;mzdy, je potrebné skontrolovať, resp. vykonať&amp;nbsp;nasledujúce nastavenia vo &lt;A href="95a3b7e2-6135-4860-a655-5724b186b94c"&gt;formulári Pracovný pomer pracovníka&lt;/A&gt;,&amp;nbsp;záložka &lt;EM&gt;Dochádzka&lt;/EM&gt;: 
+&lt;UL&gt;
+&lt;LI&gt;začiarknite pole &lt;EM&gt;&lt;STRONG&gt;Umožniť pracovať s dochádzkou&lt;/STRONG&gt;&lt;/EM&gt; - umožní pracovníkovi s daným pracovným pomerom evidovať pracovný čas a &lt;A href="3883342c-9ef0-4fd9-8773-88df84f78f65"&gt;dochádzku&lt;/A&gt;&amp;nbsp;(bude sa&amp;nbsp;zobrazovať v&amp;nbsp;&lt;A href="ce9e15f9-7459-4a5c-8bad-db17ef7b59ea"&gt;Pracovnom kalendári&lt;/A&gt;), 
+&lt;LI&gt;vyberte &lt;STRONG&gt;&lt;EM&gt;Pracovný plán firmy&lt;/EM&gt;&lt;/STRONG&gt; - pracovníkovi sa&amp;nbsp;priradí&amp;nbsp;&lt;A href="0d06308b-64cf-4d51-bc3a-9c262750667d"&gt;pracovný plán&lt;/A&gt;, podľa ktorého&amp;nbsp;má pracovať&amp;nbsp;(napr. jednozmenná ranná alebo&amp;nbsp;dvojzmenná&amp;nbsp;krátky, dlhý), 
+&lt;LI&gt;vyberte &lt;STRONG&gt;&lt;EM&gt;Rozvrh zmien pracovného plánu&lt;/EM&gt;&lt;/STRONG&gt;, podľa ktorého má pracovník pracovať - dostupné možnosti sú závislé&amp;nbsp;od pracovného plánu (pri jednozmennej prevádzke&amp;nbsp;rozvrh &lt;EM&gt;A&lt;/EM&gt;, pri viaczmennej aj ďalšie&amp;nbsp;rozvrhy - &lt;EM&gt;B&lt;/EM&gt; atď.&lt;EM&gt;)&lt;/EM&gt;, 
+&lt;LI&gt;zvoľte &lt;STRONG&gt;&lt;EM&gt;Spôsob evidencie pracovného času&lt;/EM&gt;&lt;/STRONG&gt; - viac informácií získate v téme&amp;nbsp;&lt;A href="bac74c4e-ccf8-48b4-aae5-0d77ffb32e63" style="auto-update-caption: true"&gt;Spôsoby evidencie pracovného času&lt;/A&gt;, 
+&lt;LI&gt;začiarknite pole &lt;STRONG&gt;&lt;EM&gt;Pri výpočte mzdy preberať odpracované hodiny z dochádzky&lt;/EM&gt;&lt;/STRONG&gt; ak chcete, aby sa evidencia odpracovaných hodín,&amp;nbsp;nadčasov a pod.&amp;nbsp;v dochádzke použila pri výpočte&amp;nbsp;mzdy. Ak nebude&amp;nbsp;pole začiarknuté, pracovníkovi sa&amp;nbsp;bude evidovať dochádzka, nebude však prepojená s výpočtom mzdy, 
+&lt;LI&gt;vykonané nastavenia potvrďte stlačením tlačidla &lt;EM&gt;&lt;STRONG&gt;OK&lt;/STRONG&gt;&lt;/EM&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Na samotné prenesenie dochádzky do miezd je potrebné v&amp;nbsp;&lt;A href="ce9e15f9-7459-4a5c-8bad-db17ef7b59ea"&gt;Pracovnom kalendári&lt;/A&gt;&amp;nbsp;&lt;STRONG&gt;dochádzku označiť za spracovanú&lt;/STRONG&gt; (tlačidlo &lt;EM&gt;Možnosti&lt;/EM&gt;, resp. kontextová ponuka). Následne bude možné s&amp;nbsp;prenesenými údajmi pracovať pri tvorbe miezd (ponuka &lt;EM&gt;Mzdy&lt;/EM&gt;,&amp;nbsp;&lt;A href="6923b0c5-166b-4e3b-a53b-71f62b53b2fc" style="auto-update-caption: true"&gt;Tvorba miezd&lt;/A&gt;). &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Pre spracovanie miezd je&amp;nbsp;&lt;A href="ce9e15f9-7459-4a5c-8bad-db17ef7b59ea" style="auto-update-caption: true"&gt;Pracovný kalendár&lt;/A&gt; &lt;STRONG&gt;dôležitý aj vtedy, keď sa dochádzkový terminál nepoužíva&lt;/STRONG&gt;. Z&amp;nbsp;pracovného kalendára (plánu) sa vypočítavajú hodiny práce v&amp;nbsp;nočnej zmene, práce v sobotu a nedeľu a pod. Následne je možné automaticky vypočítať príplatky za tieto dni (hodiny).&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="ebaa3c15-4090-4061-8a52-ed8e32d5ee9f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="95a3b7e2-6135-4860-a655-5724b186b94c">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="ed938b5e-5d79-4130-8043-2ced66828495" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="ce9e15f9-7459-4a5c-8bad-db17ef7b59ea">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="3a713d48-accf-42c7-a08e-fee1ff066857" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="6923b0c5-166b-4e3b-a53b-71f62b53b2fc">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="410b5293-6115-41d4-b070-4e34ced04725">
+      <Keyword m="2023-10-04T12:13:31.4545452Z">Dochádzka - spracovanie do miezd</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="7505f0d7-c443-4d20-a9b0-f9c1a8403524">
+      <Keyword m="2023-10-04T12:13:38.1192366Z">Mzdy - spracovanie dochádzky</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

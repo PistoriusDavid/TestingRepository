@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="ab574902-6abb-4c2c-b0a5-af9a2f62b7f4" Status="Complete" CreatedOn="2015-02-12T12:12:07.0224609Z" ModifiedOn="2022-11-21T13:39:36.036953Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="30580" Name="OBERON_Verification_ICDPH" BuildFlags="">
+  <Title m="2015-02-12T12:12:57.546875Z">Automatické overenie IČ DPH na internete</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2022-11-21T13:39:36.036953Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;informácie o funkcii na automatické&amp;nbsp;overenie platnosti čísla IČ DPH&amp;nbsp;&lt;/STRONG&gt;&lt;A href="b7a48886-b367-4056-808a-59ba5f871f32"&gt;obchodného partnera&lt;/A&gt; na internete.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Funkcia &lt;EM&gt;Automatické overenie platnosti IČ DPH&lt;/EM&gt; prostredníctvom internetu slúži &lt;STRONG&gt;na&amp;nbsp;overenie IČ DPH obchodného partnera v registri platiteľov DPH v SR alebo v inom členskom štáte&amp;nbsp;EÚ/Severnom Írsku&lt;/STRONG&gt;. 
+&lt;LI&gt;Automatické overenie IČ DPH&amp;nbsp;&amp;nbsp;je dostupné len na počítačoch pripojených na internet. 
+&lt;LI&gt;Overiť IČ DPH je možné viacerými spôsobmi: 
+&lt;UL&gt;
+&lt;LI&gt;pomocou systému VIES (&lt;EM&gt;&lt;STRONG&gt;V&lt;/STRONG&gt;AT&lt;STRONG&gt;&amp;nbsp;I&lt;/STRONG&gt;nformation &lt;STRONG&gt;E&lt;/STRONG&gt;xchange &lt;STRONG&gt;S&lt;/STRONG&gt;ystem&lt;/EM&gt;)&amp;nbsp;- na&amp;nbsp;&lt;A href="http://ec.europa.eu/taxation_customs/vies/vatRequest.html" target=_blank&gt;internetovom portáli Európskej komisie&lt;/A&gt;, kde je možné overiť registráciu k DPH v členských štátoch EÚ/Severnom Írsku, 
+&lt;LI&gt;priamo&amp;nbsp;v systéme OBERON je možné overiť IČ DPH pri konkrétnom&amp;nbsp;&lt;A href="4fbe9db8-25bc-420f-aee5-228d0a8ff03f"&gt;obchodnom partnerovi&lt;/A&gt; (tlačidlo&amp;nbsp;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Button_Question.png"&gt;) alebo hromadne (tlačidlo &lt;EM&gt;Možnosti&lt;/EM&gt;). Overiť IČ DPH je taktiež možné pri každom doklade (pohľadávka, záväzok, výdajka, príjemka) a pri tvorbe &lt;A href="806cbeec-db1b-4b07-9fa4-da096624c0ae"&gt;kontrolného výkazu DPH&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Ďalšie informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Pri kontrole IČ DPH môžu nastať tieto stavy: 
+&lt;UL&gt;
+&lt;LI&gt;účtovná jednotka je platiteľom DPH, pričom momentálne nenastali dôvody na zrušenie registrácie pre DPH, 
+&lt;LI&gt;účtovná jednotka je platiteľom DPH, pričom momentálne nastali dôvody na zrušenie registrácie pre DPH, 
+&lt;LI&gt;IČ DPH nebolo nájdené v registri platiteľov DPH (vymazaný platiteľ). &lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget layout="block" type="Note Box"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Overenie IČ DPH v systéme OBERON využíva databázu uloženú na serveroch firmy&amp;nbsp;EXALOGIC. Databáza sa aktualizuje z databázy &lt;EM&gt;Finančnej správy SR&lt;/EM&gt;&amp;nbsp;každý deň,&amp;nbsp;informácie sú preto vždy aktuálne.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget layout="block" type="Tip Box"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt; 
+&lt;P&gt;Okrem overenia IČ DPH&amp;nbsp;je možné priamo zo&amp;nbsp;systému OBERON:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;A href="e5871f39-032a-431b-9117-df5a4e5dccc8"&gt;vyhľadať obchodného partnera na internete podľa názvu alebo IČO&lt;/A&gt;, 
+&lt;LI&gt;získať&amp;nbsp;&lt;A href="00d205b2-0e2c-439a-8f6e-a1126be097ea"&gt;on-line informácie o tržbách, zisku, dlhoch a nedoplatkoch konkrétneho obchodného partnera&lt;/A&gt;, prípadne či je firma v&amp;nbsp;reštrukturalizácii, v konkurze alebo či už nezanikla, 
+&lt;LI&gt;&lt;A href="bda10a0f-7c77-4861-91a1-0366af826978"&gt;automaticky overiť bankové účty dodávateľov - platiteľov DPH&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="9b818ef3-2558-470f-b80b-11e64db10b05" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="4fbe9db8-25bc-420f-aee5-228d0a8ff03f">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="f3af39b6-465f-4af2-b0f6-83a0bb411e38" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="e5871f39-032a-431b-9117-df5a4e5dccc8">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="f0b50996-8bb4-4137-a455-8eeb134bbcf4" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="00d205b2-0e2c-439a-8f6e-a1126be097ea">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="7a475854-67c1-4756-973d-b75fca8258ce" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="bda10a0f-7c77-4861-91a1-0366af826978">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="eca42e68-0196-4eb3-a89c-e632d7e0e31a">
+      <Keyword m="2022-11-21T13:33:19.9880906Z">IČ DPH - automatické overenie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="78e4fe9a-8491-4ec5-8c8d-5b9e9061c268">
+      <Keyword m="2015-02-12T12:46:54.1269531Z">Overenie IČ DPH</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

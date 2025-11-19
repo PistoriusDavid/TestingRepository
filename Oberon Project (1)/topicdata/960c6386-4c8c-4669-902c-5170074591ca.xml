@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="960c6386-4c8c-4669-902c-5170074591ca" Status="Complete" CreatedOn="2023-08-02T08:27:45.4227728Z" ModifiedOn="2025-07-24T08:52:21.6201258Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Devices_DigitalSignaturePads_EXALOGIC-DSP1_Install" BuildFlags="">
+  <Title m="2023-08-02T08:28:44.5458657Z">Inštalácia digitálnej podpisovej podložky EXALOGIC-DSP1</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2025-07-24T08:52:21.6201258Z">&lt;P&gt;Táto téma&amp;nbsp;&lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;obsahuje&lt;STRONG&gt;&amp;nbsp;postup inštalácie a návod na použitie digitálnej podpisovej podložky&amp;nbsp;&lt;/STRONG&gt;&lt;A href="a315053c-fb60-4f19-a3df-40b9c9dd02f8"&gt;EXALOGIC-DSP1&lt;/A&gt;.&lt;/P&gt;
+&lt;H2&gt;Nastavenia v OBERON-e&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;Podpisovú podložku&amp;nbsp;pripojte do voľného USB portu počítača. &lt;STRONG&gt;Počkajte, kým sa zariadenie pridá medzi zariadenia systému &lt;EM&gt;Windows&lt;/EM&gt;&lt;/STRONG&gt; (v&amp;nbsp;sekcii &lt;EM&gt;Zariadenia s rozhraním HID&lt;/EM&gt; pribudne zariadenie s&amp;nbsp;názvom &lt;EM&gt;HID-compliant vendor-defined device&lt;/EM&gt;). Priebeh inštalácie sa zobrazí na displeji zariadenia. 
+&lt;LI&gt;Ak ešte nemáte v systéme OBERON vytvorenú (založenú) firmu, vytvorte ju&amp;nbsp;- bližšie informácie nájdete v téme &lt;A href="9a485893-6dd2-44e8-9740-a4cd7083a932" style="auto-update-caption: true"&gt;Vytvorenie účtovnej jednotky (databázy)&lt;/A&gt;. 
+&lt;LI&gt;Spustite program &lt;EM&gt;OBERON&amp;nbsp;- Agenda firmy&lt;/EM&gt;. Zvoľte ponuku &lt;EM&gt;Servis,&amp;nbsp;&lt;/EM&gt;&lt;A href="749ff4f1-eeb5-43f5-98d2-021399d8cec7"&gt;Zariadenia&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt; stlačte tlačidlo &lt;I&gt;Pridať.&lt;/I&gt; V&amp;nbsp;otvorenom formulári&amp;nbsp;vyberte&amp;nbsp;typ zariadenia&amp;nbsp;&lt;EM&gt;&lt;STRONG&gt;Digitálna podpisová podložka&lt;/STRONG&gt;&lt;/EM&gt; a&amp;nbsp;zadajte názov zariadenia. Ak používate&amp;nbsp;&lt;A href="8df798f2-4fbf-4279-ad8c-493bdbe7f2e4"&gt;prevádzky&lt;/A&gt;, zvoľte príslušnú prevádzku. Ďalej vyberte model&amp;nbsp;&lt;EM&gt;&lt;STRONG&gt;EXALOGIC-DSP1&lt;/STRONG&gt;&lt;/EM&gt;, zadajte (vyberte) &lt;STRONG&gt;názov počítača&lt;/STRONG&gt;, ku ktorému sa má zariadenie pripojiť, prípadne zadajte&amp;nbsp;ostatné údaje. 
+&lt;LI&gt;Stlačte tlačidlo &lt;I&gt;Nastaviť zariadenie -&lt;/I&gt; otvorí sa&amp;nbsp;&lt;A href="06f5e819-cf70-4875-b3fd-eca80b19939b"&gt;formulár&lt;/A&gt;, v&amp;nbsp;ktorom skontrolujte&amp;nbsp;&lt;A href="a315053c-fb60-4f19-a3df-40b9c9dd02f8"&gt;nastavenie predvoleného časového servera pre časovú pečiatku&lt;/A&gt; a môžete&amp;nbsp;otestovať komunikáciu s&amp;nbsp;podpisovou&amp;nbsp;podložkou. Po stlačení tlačidla &lt;EM&gt;&lt;STRONG&gt;Otestovať podpis&lt;/STRONG&gt;&lt;/EM&gt; sa rozsvieti displej podpisovej podložky. Ak komunikácia prebehla v poriadku, rozsvieti sa displej podpisovej podložky. Podpíšte sa na displeji podložky&amp;nbsp;elektromagnetickým perom, ktoré je súčasťou podložky, a&amp;nbsp;rovnakým perom stlačte&amp;nbsp;na podložke tlačidlo &lt;EM&gt;&lt;STRONG&gt;OK&lt;/STRONG&gt;&lt;/EM&gt;. Podpis sa odošle&amp;nbsp;a zobrazí sa v&amp;nbsp;testovacom okne v OBERON-e. 
+&lt;LI&gt;Stlačením tlačidla &lt;EM&gt;&lt;STRONG&gt;OK&lt;/STRONG&gt;&lt;/EM&gt; sa inštalácia&amp;nbsp;podpisovej podložky&amp;nbsp;ukončí. &lt;/LI&gt;&lt;/OL&gt;
+&lt;H2&gt;&amp;nbsp;&lt;A href="https://exalogic.sk/wp-content/uploads/2018/05/Navod-na-obsluhu_EXALOGIC-A-C071S.pdf" target=_blank&gt;&lt;IMG style="HEIGHT: 18px; WIDTH: 20px" border=0 alt="" src="images/OBERON/Controls/Controls_PdfIcon.png" width=30 height=27&gt;&lt;/A&gt;&amp;nbsp;&lt;A href="https://download.exalogic.sk/media/documents/Navod-na-pouzitie-EXALOGIC-DSP1.pdf" target=_blank&gt;Návod na použitie EXALOGIC-DSP1&lt;/A&gt;&lt;/H2&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="83e7b8db-3792-40e3-a9b8-f3b176193aca" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="a315053c-fb60-4f19-a3df-40b9c9dd02f8">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="6e0b722e-fb0a-4ccf-a288-7fe76bbd2d97" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="749ff4f1-eeb5-43f5-98d2-021399d8cec7">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="504ce780-9edd-4ecc-9587-f96514bb588f">
+      <Keyword m="2023-08-02T11:06:56.2364328Z">EXALOGIC-DSP1 - digitálna podpisová podložka - inštalácia</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="71904283-af69-4927-a920-2ce775d083b3">
+      <Keyword m="2023-08-02T11:06:31.1054458Z">Podpisová podložka EXALOGIC-DSP1 - inštalácia</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="1d311be2-3124-44e1-a29d-e5b6c8342421">
+      <Keyword m="2023-08-02T11:07:04.790681Z">EXALOGIC-DSP1 - inštalácia</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

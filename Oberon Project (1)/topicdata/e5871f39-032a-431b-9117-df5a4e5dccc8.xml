@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="e5871f39-032a-431b-9117-df5a4e5dccc8" Status="Complete" CreatedOn="2021-09-03T11:49:39.186849Z" ModifiedOn="2023-10-03T10:59:00.2771865Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="OBERON_Find_BusinessPartner" BuildFlags="">
+  <Title m="2021-09-03T11:50:41.3380073Z">Vyhľadanie obchodného partnera podľa názvu alebo IČO</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-10-03T10:59:00.2771865Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;informácie o funkcii, ktorá&amp;nbsp;umožňuje vyhľadať obchodného partnera na internete podľa názvu alebo čísla IČO&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Vo&amp;nbsp;&lt;A href="4fbe9db8-25bc-420f-aee5-228d0a8ff03f"&gt;formulári Obchodný partner&lt;/A&gt;,&amp;nbsp;ale aj pri vytváraní nového dokladu (pohľadávky, záväzku, príjemky, výdajky...) je možné obchodného partnera vyhľadať na internete priamo zo&amp;nbsp;systému OBERON&amp;nbsp;podľa názvu alebo čísla IČO. 
+&lt;LI&gt;Po zadaní názvu&amp;nbsp;alebo čísla&amp;nbsp;IČO stlačte príslušnú klávesovú skratku (pri názve &lt;EM&gt;F2&lt;/EM&gt;, pri čísle IČO &lt;EM&gt;Shift+F2&lt;/EM&gt;)&amp;nbsp;alebo tlačidlo&amp;nbsp;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Button_RegisterUZ.png"&gt;, prípadne kliknite pravým tlačidlom myši do daného poľa a&amp;nbsp;vyberte z kontextovej ponuky záznamov položku &lt;EM&gt;Vyhľadať na internete podľa názvu/podľa IČO.&lt;/EM&gt;&amp;nbsp;Funkcia sa pripojí na internet a on-line vyhľadá obchodného partnera.&amp;nbsp;Na vyhľadanie podľa názvu stačí zadať prvé štyri znaky názvu obchodného partnera.
+&lt;LI&gt;Informácie sa vyhľadávajú v&amp;nbsp;rôznych registroch na základe prepojení realizovanými firmou EXALOGIC. V&amp;nbsp;prípade nastavenia prepojenia s&amp;nbsp;platenou službou&amp;nbsp;&lt;A href="45606061-b153-4728-9964-618d7ef13eed" style="auto-update-caption: true"&gt;FinStat&lt;/A&gt; sa informácie dopĺňajú z&amp;nbsp;webového portálu &lt;EM&gt;FinStatu&lt;/EM&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 1: Sprievodca pri vytváraní nového dokladu - vyhľadanie podľa názvu obchodného partnera&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_BusinessPartner_SearchName.gif"&gt;&lt;/P&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt; 
+&lt;P&gt;Okrem&amp;nbsp;vyhľadania obchodného partnera na internete podľa názvu alebo čísla&amp;nbsp;IČO&amp;nbsp;je možné priamo zo&amp;nbsp;systému OBERON:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;získať&amp;nbsp;&lt;A href="00d205b2-0e2c-439a-8f6e-a1126be097ea"&gt;on-line informácie o tržbách, zisku, dlhoch a nedoplatkoch konkrétneho obchodného partnera&lt;/A&gt;, prípadne či je firma v&amp;nbsp;reštrukturalizácii, v konkurze alebo či už nezanikla, 
+&lt;LI&gt;&lt;A href="ab574902-6abb-4c2c-b0a5-af9a2f62b7f4"&gt;automaticky overiť číslo IČ DPH obchodného partnera na internete&lt;/A&gt;, 
+&lt;LI&gt;&lt;A href="bda10a0f-7c77-4861-91a1-0366af826978"&gt;automaticky overiť bankové účty dodávateľov - platiteľov DPH&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="a7ee8417-7662-4748-95ea-23a2b37e0708" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="45606061-b153-4728-9964-618d7ef13eed">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="9b818ef3-2558-470f-b80b-11e64db10b05" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="4fbe9db8-25bc-420f-aee5-228d0a8ff03f">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="3542543c-1526-40e5-b080-eb011b812b3e" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="00d205b2-0e2c-439a-8f6e-a1126be097ea">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="0465b4ad-7f37-41da-b77e-e43ba00d6b9a" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="ab574902-6abb-4c2c-b0a5-af9a2f62b7f4">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="43240e0e-6435-4628-8dbc-50c3f1313d69" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="bda10a0f-7c77-4861-91a1-0366af826978">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="eca42e68-0196-4eb3-a89c-e632d7e0e31a">
+      <Keyword m="2021-09-03T11:59:08.5252656Z">IČO - vyhľadanie obchodného partnera na internete</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="78e4fe9a-8491-4ec5-8c8d-5b9e9061c268">
+      <Keyword m="2021-09-03T11:59:18.7348205Z">Názov - vyhľadanie obchodného partnera na internete</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

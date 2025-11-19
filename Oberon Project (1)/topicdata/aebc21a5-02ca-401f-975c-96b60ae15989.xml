@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="aebc21a5-02ca-401f-975c-96b60ae15989" Status="Complete" CreatedOn="2014-09-04T08:25:16.108Z" ModifiedOn="2025-03-17T12:13:06.1307427Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Device_PrinterSpecial" BuildFlags="">
+  <Title m="2019-04-25T12:20:00.4877386Z">Tlačiarne samolepiacich etikiet a cenoviek</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2025-03-17T12:13:06.1307427Z">&lt;P&gt;V&amp;nbsp;tejto téme &lt;EM&gt;Pomocníka&lt;/EM&gt; sú uvedené &lt;STRONG&gt;informácie o tlačiarňach samolepiacich etikiet a cenoviek vrátane príkladov modelov&amp;nbsp;týchto špecializovaných tlačiarní&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Na tlač cenoviek&amp;nbsp;a etikiet&amp;nbsp;je možné použiť&amp;nbsp;akúkoľvek bežnú tlačiareň,&amp;nbsp;na tlač&amp;nbsp;samolepiacich etikiet sa však spravidla používajú špecializované tlačiarne. 
+&lt;LI&gt;Špecializované tlačiarne umožňujú tlač na rolku, ktorá obsahuje samolepiace štítky konkrétnej veľkosti. Rozmery štítka je možné v&amp;nbsp;systéme OBERON nastaviť tak, že sa upraví tlačový výstup cenovky alebo etikety. 
+&lt;LI&gt;Tlač cenoviek alebo etikiet&amp;nbsp;sa realizuje v grafickom režime tlačiarne, teda sa nepoužíva&amp;nbsp;špecializovaný jazyk zariadenia. Pred zakúpením danej tlačiarne &lt;STRONG&gt;je potrebné overiť, či umožňuje tlač v tomto grafickom režime&lt;/STRONG&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 1:&amp;nbsp; Špecializovaná tlačiareň&amp;nbsp;&lt;EM&gt;Zebra ZD411 (DT)&lt;/EM&gt;&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Devices/Device_Zebra411.png"&gt;&lt;/P&gt;
+&lt;H2&gt;Inštalácia&lt;/H2&gt;
+&lt;P&gt;Tlačiarne samolepiacich etikiet a cenoviek&amp;nbsp;&lt;STRONG&gt;nie je potrebné pridávať do zoznamu&amp;nbsp;&lt;/STRONG&gt;&lt;A href="749ff4f1-eeb5-43f5-98d2-021399d8cec7"&gt;zariadení&lt;/A&gt;&amp;nbsp;systému OBERON. Pridávajú sa&amp;nbsp;&lt;STRONG&gt;len do systému &lt;EM&gt;Windows&lt;/EM&gt;&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;H2&gt;Príklady modelov&amp;nbsp;špecializovaných&amp;nbsp;tlačiarní&lt;/H2&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Tlačiareň&amp;nbsp;Zebra ZD4xx, ZD6xx&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Výrobca: Zebra Technologies&lt;BR&gt;Spôsob pripojenia (rozhranie): USB, LAN, BT&lt;/P&gt;&lt;!-- /wp:paragraph --&gt;&lt;!-- wp:list --&gt;
+&lt;UL class=wp-block-list&gt;&lt;!-- wp:list-item --&gt;
+&lt;LI&gt;Tlačiareň &lt;EM&gt;Zebra ZD6xx&lt;/EM&gt; (základný modelový rad), resp. &lt;EM&gt;Zebra ZD6xx&lt;/EM&gt; (pokročilý modelový rad) je hardvérové zariadenie určené na tlač samolepiacich etikiet a cenoviek na automatizované označovanie tovaru. &lt;!-- /wp:list-item --&gt;&lt;!-- wp:list-item --&gt;
+&lt;LI&gt;Príkladom zariadenia je model ZD 411 (DT) - stolná tlačiareň s priamou tepelnou tlačou (direct thermal printer) etikiet. Zariadenie sa vyznačuje jednoduchým ovládaním, spoľahlivosťou a bezproblémovým fungovaním. &lt;!-- /wp:list-item --&gt;&lt;!-- wp:list-item --&gt;
+&lt;LI&gt;Keďže ide o termotlačiareň, nie je potrebné dopĺňať žiadnu náplň v podobe atramentu alebo tonera, potrebný je len termocitlivý papier. &lt;!-- /wp:list-item --&gt;&lt;!-- wp:list-item --&gt;
+&lt;LI&gt;Vďaka praktickému vyhotoveniu horného krytu má používateľ vždy prehľad o množstve čistých etikiet vo vnútri. &lt;!-- /wp:list-item --&gt;&lt;!-- wp:list-item --&gt;
+&lt;LI&gt;Tlačiareň disponuje oddeľovačom samolepky od podkladu. &lt;!-- /wp:list-item --&gt;&lt;/LI&gt;&lt;/UL&gt;&lt;!-- /wp:list --&gt;&lt;!-- wp:heading --&gt;
+&lt;H2 class=wp-block-heading&gt;Hlavné parametre&lt;/H2&gt;&lt;!-- /wp:heading --&gt;&lt;!-- wp:list --&gt;
+&lt;UL class=wp-block-list&gt;&lt;!-- wp:list-item --&gt;
+&lt;LI&gt;&lt;STRONG&gt;Tlačová technológia&lt;/STRONG&gt;: Priame teplo &lt;!-- /wp:list-item --&gt;&lt;!-- wp:list-item --&gt;
+&lt;LI&gt;&lt;STRONG&gt;Farebná tlač&lt;/STRONG&gt;: nie &lt;!-- /wp:list-item --&gt;&lt;!-- wp:list-item --&gt;
+&lt;LI&gt;&lt;STRONG&gt;Rozlíšenie:&lt;/STRONG&gt; 203 x 203 DPI &lt;!-- /wp:list-item --&gt;&lt;!-- wp:list-item --&gt;
+&lt;LI&gt;&lt;STRONG&gt;Rýchlosť tlače:&lt;/STRONG&gt; 152 mm/s &lt;!-- /wp:list-item --&gt;&lt;!-- wp:list-item --&gt;
+&lt;LI&gt;&lt;STRONG&gt;Max. šírka tlače:&lt;/STRONG&gt; 56 mm &lt;!-- /wp:list-item --&gt;&lt;!-- wp:list-item --&gt;
+&lt;LI&gt;&lt;STRONG&gt;Max. šírka pásky:&lt;/STRONG&gt; 58 mm &lt;!-- /wp:list-item --&gt;&lt;!-- wp:list-item --&gt;
+&lt;LI&gt;&lt;STRONG&gt;Dĺžka pásky&lt;/STRONG&gt;: 74 m &lt;/LI&gt;&lt;/UL&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="661380c0-2492-4744-a929-5a07eaa4f86a" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="3f051fd3-9727-4ecc-9613-7a7fb1cb2a54">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="d03a3dd3-01f2-4012-ad9b-599d96fa9184" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="58b3fe6b-140a-4b1e-a7af-33b95fd684a4">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="dfc4f3a1-3816-41fe-9ac7-c0e746e5359b" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="61edd121-1efe-4a14-907c-8c8a18cc4539">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="04bec059-27e4-4677-9cee-08998b452a03">
+      <Keyword m="2021-05-14T12:43:49.0489189Z">Štítky - tlačiarne</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="13a03924-8d99-46fd-991a-8888be039c42">
+      <Keyword m="2021-05-14T12:43:55.8979355Z">Cenovky - tlačiarne</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="49162622-fd4c-44e0-bb6c-45e8faf17ae5">
+      <Keyword m="2021-05-14T12:43:39.7921697Z">Etikety - tlačiarne</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="44f1f4b8-ca4b-4b4c-88d4-316f1f99b1f8">
+      <Keyword m="2021-05-14T12:43:31.8536508Z">Samolepiace etikety - tlačiarne</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

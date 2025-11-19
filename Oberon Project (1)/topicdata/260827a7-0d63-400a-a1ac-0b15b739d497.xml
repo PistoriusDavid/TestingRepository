@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="260827a7-0d63-400a-a1ac-0b15b739d497" Status="Complete" CreatedOn="2014-11-06T12:11:53.4270034Z" ModifiedOn="2024-08-06T10:35:09.3714085Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Installation_OBERON_Linux" BuildFlags="">
+  <Title m="2019-03-01T13:20:54.1496598Z">OBERON na Linuxe</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-08-06T10:35:09.3714085Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;obsahuje &lt;STRONG&gt;postup inštalácie systému OBERON v linuxovom prostredí&lt;/STRONG&gt;.&lt;/P&gt;&lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt; 
+&lt;P&gt;&lt;STRONG&gt;UPOZORNENIE:&lt;/STRONG&gt; Tento návod bol odskúšaný na linuxovej distribúcii &lt;STRONG&gt;Ubuntu 14.04.3 LTS&lt;/STRONG&gt; a &lt;STRONG&gt;Linux Mint 17.3 Rosa cinnamon&lt;/STRONG&gt; pre &lt;STRONG&gt;32 bit&lt;/STRONG&gt;. Pri distribúcii &lt;EM&gt;Linux Mint&lt;/EM&gt; je potrebné&amp;nbsp;navyše doinštalovať fonty. Uvedený postup bol funkčný pre verzie všetkých použitých súčastí, ktoré boli dostupné v období 12/2015. &lt;SPAN style="COLOR: rgb(255,0,0)"&gt;Firma EXALOGIC, s.r.o. nezodpovedá za prípadné&amp;nbsp;problémy&amp;nbsp;vzniknuté používaním systému OBERON na operačnom systéme&lt;/SPAN&gt; &lt;EM style="COLOR: rgb(255,0,0)"&gt;Linux&lt;/EM&gt;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;,&lt;/SPAN&gt;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;&lt;EM&gt;&amp;nbsp;&lt;/EM&gt;ani&lt;/SPAN&gt;&lt;/SPAN&gt; neposkytuje podporu pre zákazníkov využívajúcich systém OBERON na tomto operačnom systéme.&lt;/SPAN&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Hoci je systém OBERON primárne určený pre platformu &lt;EM&gt;Microsoft Windows&lt;/EM&gt;,&amp;nbsp;v&amp;nbsp;odôvodnených prípadoch&amp;nbsp;ho možno používať&amp;nbsp;aj pod ľubovoľnou distribúciou &lt;EM&gt;Linuxu&lt;/EM&gt;. 
+&lt;LI&gt;Keďže je OBERON vyvíjaný na platforme .NET, &lt;STRONG&gt;základom pre jeho&amp;nbsp;spustenie a prevádzkovanie&amp;nbsp;je podpora .NET prostredia v&amp;nbsp;linuxovom prostredí&lt;/STRONG&gt;. 
+&lt;LI&gt;Systém OBERON&amp;nbsp;obsahuje &lt;SPAN style="COLOR: rgb(255,0,0)"&gt;aj ovládače&amp;nbsp;externých pripojiteľných zariadení, ktoré môžu byť potenciálnym zdrojom problémov&lt;/SPAN&gt;. V tomto prípade&amp;nbsp;odporúčame využívať&amp;nbsp;&lt;A href="3f051fd3-9727-4ecc-9613-7a7fb1cb2a54"&gt;pripojiteľné zariadenia&lt;/A&gt;, ktoré OBERON podporuje natívne, teda bez externých ovládačov. 
+&lt;LI&gt;Doposiaľ zistené problémy:&lt;BR&gt;- nefunguje funkcia grafického znázornenia väzieb dokumentov (z hľadiska používania systému to však nie je dôležité). &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;O inštalácii&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Na&amp;nbsp;spustenie OBERON-u na &lt;EM&gt;Linuxe&lt;/EM&gt; sa využíva rozhranie &lt;STRONG&gt;WINE&lt;/STRONG&gt;. &lt;EM&gt;Wine&lt;/EM&gt; (čo je rekurzívny akronym pre &lt;EM&gt;&lt;STRONG&gt;W&lt;/STRONG&gt;INE &lt;STRONG&gt;I&lt;/STRONG&gt;s &lt;STRONG&gt;N&lt;/STRONG&gt;ot an &lt;STRONG&gt;E&lt;/STRONG&gt;mulator&lt;/EM&gt;) je open source projekt, ktorý umožňuje spustenie počítačových programov vyvinutých pre &lt;EM&gt;Microsoft Windows&lt;/EM&gt; na Unix-like operačných systémoch bežiacich na platforme x86 (napr. &lt;EM&gt;Linux, FreeBSD, Solaris-x86&lt;/EM&gt;). Je to docielené vrstvou kompatibility, ktorá prekladá volania z Win32 API na Unixové ekvivalenty a implementuje alternatívny kód. 
+&lt;LI&gt;Na&amp;nbsp;jednoduchšiu konfiguráciu &lt;EM&gt;Wine&lt;/EM&gt;&amp;nbsp;možno použiť nadstavbu &lt;STRONG&gt;&lt;EM&gt;PlayOnLinux&lt;/EM&gt;&lt;/STRONG&gt; &lt;EM&gt;-&amp;nbsp;&lt;/EM&gt;je to nástroj, ktorý zjednodušuje&amp;nbsp;inštaláciu&amp;nbsp;aplikácií a nastavenie &lt;EM&gt;Wine&lt;/EM&gt;. Okrem toho &lt;EM&gt;PlayOnLinux&lt;/EM&gt; obsahuje vlastnú databázu overených&amp;nbsp;aplikácií&amp;nbsp;a hier, ktoré je možné bez problémov inštalovať a spúšťať. Firma EXALOGIC pripravila tzv. &lt;STRONG&gt;virtuálny disk (image) pre &lt;EM&gt;PlayOnLinux&lt;/EM&gt;&lt;/STRONG&gt; (možno ho stiahnuť z&amp;nbsp;&lt;A href="http://www.exalogic.sk" target=_blank&gt;www.exalogic.sk&lt;/A&gt;&amp;nbsp;-&amp;nbsp;sekcia &lt;EM&gt;Na stiahnutie, OBERON doplnky,&lt;/EM&gt;&amp;nbsp;&lt;A href="https://exalogic.sk/na-stiahnutie-oberon/oberon-obraz-disku-pre-playonlinux/" target=_blank&gt;Linux - inštalačný balík&lt;/A&gt;), kde je celé prostredie&amp;nbsp;aj s&amp;nbsp;OBERON-om&amp;nbsp;už nainštalované&amp;nbsp;- celá inštalácia a konfigurácia je z tohto dôvodu podstatne jednoduchšia a rýchlejšia. 
+&lt;LI&gt;V závislosti&amp;nbsp;od spôsobu inštalácie môže&amp;nbsp;čas inštalácie OBERON-u trvať 30 až 60 minút. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt; 
+&lt;P&gt;OBERON podporuje viac typov databáz (&lt;A href="0b81f4ea-5e68-48c1-8b89-933d5a23d962"&gt;databázových&amp;nbsp; systémov&lt;/A&gt;). &lt;SPAN style="COLOR: rgb(255,0,0)"&gt;Pri použití na&lt;/SPAN&gt; &lt;EM style="COLOR: rgb(255,0,0)"&gt;Linuxe&lt;/EM&gt;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;&amp;nbsp;neodporúčame používať súborovú databázu&amp;nbsp;&lt;/SPAN&gt;&lt;EM style="COLOR: rgb(255,0,0)"&gt;Microsoft Access&lt;/EM&gt;, &lt;STRONG&gt;najlepším riešením je použitie&amp;nbsp;&lt;EM&gt;MariaDB&lt;/EM&gt; (&lt;EM&gt;MySQL&lt;/EM&gt;)&lt;/STRONG&gt;, ktoré sa dodávajú pre tento systém natívne.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Inštalácia Wine&lt;/H2&gt;
+&lt;P&gt;Existuje viacero možností ako nainštalovať &lt;EM&gt;Wine&lt;/EM&gt;, najmenej náročná je pomocou nasledujúcich príkazov. Otvorte terminál (CTRL+ALT+T) a zadajte:&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;sudo add-apt-repository ppa:ubuntu-wine/ppa&lt;BR&gt;sudo apt-get update&lt;BR&gt;sudo apt-get install wine1.7&lt;/STRONG&gt;&lt;/P&gt;
+&lt;P&gt;Po prvom spustení sa nainštaluje tiež &lt;STRONG&gt;&lt;EM&gt;Wine&lt;/EM&gt; &lt;EM&gt;Mono&lt;/EM&gt;&lt;/STRONG&gt; a &lt;STRONG&gt;&lt;EM&gt;Wine Gecko&lt;/EM&gt;&lt;/STRONG&gt;. Po úspešnom nainštalovaní&amp;nbsp;ponuka &lt;EM&gt;Wine&lt;/EM&gt;&amp;nbsp;vyzerá takto:&lt;/P&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/FAQ/FAQ_Wine_Menu.png"&gt;&lt;/P&gt;
+&lt;H2&gt;Inštalácia Winetricks&lt;/H2&gt;
+&lt;P&gt;Pomocou utility &lt;EM&gt;Winetricks&lt;/EM&gt; doinštalujete komponenty, ktoré sú potrebné na chod systému OBERON. Ak vaša distribúcia neobsahuje túto utilitu, možno ju nainštalovať nasledujúcim spôsobom. Je potrebné otvoriť terminál a zadať&amp;nbsp;tieto príkazy:&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;wget http://winetricks.org/winetricks&lt;BR&gt;chmod +x winetricks&lt;BR&gt;sudo apt-get install winetricks&lt;/STRONG&gt;&lt;/P&gt;
+&lt;H2&gt;Inštalácia PlayOnLinux&lt;/H2&gt;
+&lt;P&gt;&lt;SPAN&gt;&lt;EM&gt;PlayOnLinux&lt;/EM&gt; je softvér, ktorý umožní jednoduchšie nainštalovať a používať hry a aplikácie určené&amp;nbsp;pre &lt;EM&gt;Microsoft Windows&lt;/EM&gt;.&amp;nbsp;Na nainštalovanie zadajte do terminálu nasledujúce príkazy:&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style="MARGIN-BOTTOM: 0cm"&gt;&lt;SPAN&gt;&lt;STRONG&gt;wget -q "http://deb.playonlinux.com/public.gpg" -O- | sudo apt-key add -&lt;BR&gt;sudo wget http://deb.playonlinux.com/playonlinux_trusty.list -O /etc/apt/sources.list.d/playonlinux.list&lt;BR&gt;sudo apt-get update&lt;BR&gt;sudo apt-get install playonlinux&lt;/STRONG&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style="MARGIN-BOTTOM: 0cm"&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style="MARGIN-BOTTOM: 0cm"&gt;Po otvorení môžete nainštalovať OBERON z pripraveného obrazu, ktorý otvoríte cez &lt;STRONG&gt;&lt;EM&gt;PlayOnLinux Vault&lt;/EM&gt;&lt;/STRONG&gt;, alebo&amp;nbsp;nainštalovať OBERON a všetky komponenty manuálne.&amp;nbsp;&lt;/P&gt;
+&lt;P style="MARGIN-BOTTOM: 0cm"&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P style="MARGIN-BOTTOM: 0cm"&gt;&lt;SPAN&gt;&lt;STRONG&gt;&lt;IMG border=0 alt="" src="images/FAQ/PlayOnLinux_DefaultScreen.png"&gt;&lt;/STRONG&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P style="MARGIN-BOTTOM: 0cm"&gt;&amp;nbsp;&lt;/P&gt;&lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Od tohto bodu je možné v inštalácii pokračovať dvoma spôsobmi. Prvou možnosťou je inštalácia pomocou pripraveného obrazu, ktorý je možné stiahnuť&amp;nbsp;&lt;A href="http://exalogic.sk/na-stiahnutie-oberon/oberon-obraz-disku-pre-playonlinux/"&gt;tu&lt;/A&gt;. Táto možnosť sa odporúča pre menej skúsených používateľov, keďže nie je potrebná žiadna práca s terminálom a časová náročnosť tejto inštalácie nepresahuje 5 minút. Ak ste sa rozhodli pre túto možnosť, pokračujte podľa návodu s názvom&amp;nbsp;&lt;SPAN&gt;&lt;EM&gt;Inštalácia pomocou PlayOnLinux Vault&lt;/EM&gt;. Ak si chcete&amp;nbsp;obraz vytvoriť sami, postupujte podľa návodu s názvom &lt;EM&gt;Manuálna inštalácia&lt;/EM&gt;.&lt;/SPAN&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2 style="MARGIN-BOTTOM: 0cm"&gt;&lt;SPAN&gt;Inštalácia pomocou PlayOnLinux Vault&lt;/SPAN&gt;&lt;/H2&gt;
+&lt;P&gt;V programe &lt;STRONG&gt;&lt;EM&gt;PlayOnLinux&lt;/EM&gt;&lt;/STRONG&gt; je najskôr potrebné doinštalovať plugin &lt;STRONG&gt;&lt;EM&gt;PlayOnLinux Vault&lt;/EM&gt;&lt;/STRONG&gt;. V ponuke &lt;EM&gt;Plugins&lt;/EM&gt; vyberte &lt;EM&gt;PlayOnLinux Vault&lt;/EM&gt;&amp;nbsp;a reštartujte program.&amp;nbsp;Po spustení &lt;EM&gt;PlayOnLinux Vault&lt;/EM&gt; sa&amp;nbsp;zobrazí sprievodca inštaláciou. V inštalačnom kroku&amp;nbsp;&lt;STRONG&gt;&lt;EM&gt;What do&amp;nbsp;you want to do?&lt;/EM&gt;&lt;/STRONG&gt; vyberte možnosť&amp;nbsp;&lt;STRONG&gt;&lt;EM&gt;Restore an applications...&lt;/EM&gt;&lt;/STRONG&gt;&lt;/P&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/FAQ/FAQ_PlayOnLinux_RestoreApp.png"&gt;&lt;/P&gt;
+&lt;P&gt;Následne vyberiete umiestnenie&amp;nbsp;obrazu aplikácie. Obraz systému OBERON je možné stiahnuť&amp;nbsp;&lt;A href="http://exalogic.sk/na-stiahnutie-oberon/oberon-obraz-disku-pre-playonlinux/"&gt;tu&lt;/A&gt;.&lt;/P&gt;
+&lt;H2&gt;Manuálna inštalácia&lt;/H2&gt;
+&lt;P&gt;Ak máte funkčný &lt;EM&gt;Wine, Winetricks&lt;/EM&gt;&amp;nbsp;aj &lt;EM&gt;PlayOnLinux&lt;/EM&gt;, zadajte do terminálu nasledujúci príkaz.&lt;/P&gt;
+&lt;P&gt;&lt;CODE&gt;&lt;STRONG&gt;echo 0 | sudo tee /proc/sys/kernel/yama/ptrace_scope&lt;/STRONG&gt;&lt;/CODE&gt;&lt;/P&gt;
+&lt;P&gt;V ponuke &lt;EM&gt;PlayOnLinux&lt;/EM&gt; vyberte možnosť &lt;STRONG&gt;&lt;EM&gt;Install a program&lt;/EM&gt;&lt;/STRONG&gt;. Zobrazí sa ponuka &lt;STRONG&gt;&lt;EM&gt;PlayOnLinux install menu&lt;/EM&gt;&lt;/STRONG&gt;, kde je potrebné vybrať ponuku &lt;STRONG&gt;&lt;EM&gt;Install a non-listed program&lt;/EM&gt;&lt;/STRONG&gt; umiestnenú na dolnej lište programu.&lt;/P&gt;
+&lt;P&gt;&lt;IMG style="HEIGHT: 509px; WIDTH: 710px" border=0 alt="" src="images/FAQ/FAQ_PlayOnLinux_InstallMenu.png" width=800 height=578&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;Ďalší dôležitý krok v inštalačnom&amp;nbsp;sprievodcovi začína výberom virtuálneho disku. Vyberte prvú možnosť &lt;STRONG&gt;&lt;EM&gt;Install a program in a new virtual drive&lt;/EM&gt;&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/FAQ/FAQ_PlayOnLinux_VirtualDrive.png"&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;Následne zadajte meno virtuálneho disku, na ktorý&amp;nbsp;sa nainštaluje&amp;nbsp;systém OBERON.&lt;/P&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/FAQ/FAQ_PlayOnLinux_DiscName.png"&gt;&lt;/P&gt;
+&lt;P&gt;V ďalšom kroku&amp;nbsp;sprievodcu je možné nainštalovať knižnice potrebné&amp;nbsp;pre chod OBERON-u,&amp;nbsp;k tomuto kroku sa však&amp;nbsp;dá vrátiť aj neskôr. Vyberte možnosť &lt;STRONG&gt;&lt;EM&gt;Install some libraries&lt;/EM&gt;&lt;/STRONG&gt;, ako aj&lt;STRONG&gt;&amp;nbsp;&lt;EM&gt;Configure Wine&lt;/EM&gt;&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/FAQ/FAQ_PlayOnLinux_InstallComponents.png"&gt;&lt;/P&gt;
+&lt;P&gt;V programe &lt;EM&gt;Wine&lt;/EM&gt; je potrebné zmeniť preddefinovaný operačný systém &lt;EM&gt;Windows&lt;/EM&gt; na aktuálny.&lt;/P&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/FAQ/FAQ_Wine_WindowsVersion.png"&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;V ponuke výberu knižníc a komponentov vyberte nasledujúce:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;POL_Install_dotnet45&lt;/STRONG&gt; 
+&lt;LI&gt;&lt;STRONG&gt;POL_Install_gdiplus&lt;/STRONG&gt; 
+&lt;LI&gt;&lt;STRONG&gt;POL_Install_mdac28&lt;/STRONG&gt; &lt;/LI&gt;&lt;/UL&gt;
+&lt;P&gt;Po úspešnom nainštalovaní knižníc&amp;nbsp;sprievodca pokračuje výberom inštalačného súboru. Vyberte možnosť &lt;STRONG&gt;&lt;EM&gt;Select another file&lt;/EM&gt;&lt;/STRONG&gt; a v nasledujúcom okne &lt;STRONG&gt;&lt;EM&gt;Browse&lt;/EM&gt;&lt;/STRONG&gt; nalistujte inštalačný&amp;nbsp;súbor OBERON-u na disku počítača. Systém OBERON je možné stiahnuť&amp;nbsp;&lt;A href="http://exalogic.sk/na-stiahnutie/"&gt;tu&lt;/A&gt;.&lt;/P&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/FAQ/FAQ_PlayOnLinux_BrowseApp.png"&gt;&amp;nbsp;&lt;/P&gt;&lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Po úspešnej inštalácii OBERON-u sa spustí program&amp;nbsp;&lt;A href="24e780fd-36d3-4a6e-bfc0-a8665c75e4ee"&gt;OBERON Center&lt;/A&gt;, ktorý je potrebné vypnúť&amp;nbsp;na pokračovanie sprievodcu inštalácie.&amp;nbsp;Vypnúť ho môžete pomocou programu &lt;STRONG&gt;&lt;EM&gt;System monitor&lt;/EM&gt;&lt;/STRONG&gt;. V záložke &lt;STRONG&gt;&lt;EM&gt;Processes&lt;/EM&gt;&lt;/STRONG&gt; nájdite &lt;EM&gt;OBERON Center&lt;/EM&gt; a ukončite proces.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/FAQ/FAQ_PlayOnLinux_Center.png"&gt;&lt;/P&gt;
+&lt;P&gt;Po inštalácii OBERON-u pokračuje&amp;nbsp;sprievodca&amp;nbsp;výberom aplikácie, pre ktorú sa vytvorí odkaz. Môžete si vytvoriť odkaz pre OBERON a &lt;EM&gt;OBERON Center&lt;/EM&gt;.&amp;nbsp;Po vytvorení zástupcov&amp;nbsp;treba vybrať prvú možnosť &lt;STRONG&gt;&lt;EM&gt;I don't want to make another shortcut&lt;/EM&gt;&lt;/STRONG&gt;. Inštalácia je po tomto kroku dokončená a okno &lt;STRONG&gt;&lt;EM&gt;PlayOnLinux&lt;/EM&gt;&lt;/STRONG&gt; vyzerá takto:&lt;/P&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/FAQ/FAQ_PlayOnLinux_InstallComplete.png"&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;V tomto štádiu je OBERON pripravený na používanie. Dajú sa v ňom&amp;nbsp;však otvoriť len firmy, ktoré používajú&amp;nbsp;databázu&amp;nbsp;&lt;EM&gt;MySQL&lt;/EM&gt;. Pre fungovanie súborovej databázy &lt;EM&gt;MS&amp;nbsp;Access&lt;/EM&gt; je potrebné doinštalovať&amp;nbsp;komponent &lt;STRONG&gt;jet40&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/FAQ/FAQ_PlayOnLinux_Configure.png"&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;V programe &lt;STRONG&gt;&lt;EM&gt;PlayOnLinux&lt;/EM&gt;&lt;/STRONG&gt; vyberte možnosť &lt;STRONG&gt;&lt;EM&gt;Configure&lt;/EM&gt;&lt;/STRONG&gt; a prejdite do záložky &lt;STRONG&gt;&lt;EM&gt;Miscellaneous&lt;/EM&gt;&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;P&gt;&lt;IMG style="HEIGHT: 442px; WIDTH: 747px" border=0 alt="" src="images/FAQ/FAQ_PlayOnLinux_Miscellaneous.png" width=794 height=481&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;Kliknite na tlačidlo &lt;STRONG&gt;&lt;EM&gt;Open a shell&lt;/EM&gt;&lt;/STRONG&gt;. Otvorí sa terminál, kde je potrebné prejsť do koreňového priečinka. Zadajte príkaz &lt;STRONG&gt;cd&lt;/STRONG&gt;. Komponent &lt;STRONG&gt;jet40&lt;/STRONG&gt; nainštalujete príkazom &lt;STRONG&gt;winetricks jet40&lt;/STRONG&gt;. Po tomto kroku bude možné v&amp;nbsp;systéme OBERON používať&amp;nbsp;súborovú&amp;nbsp;databázu &lt;EM&gt;MS Access&lt;/EM&gt;.&lt;/P&gt;
+&lt;P&gt;V niektorých prípadoch je ešte potrebné nainštalovať fonty. Prejdite do záložky&amp;nbsp;&lt;STRONG&gt;&lt;EM&gt;Install components&lt;/EM&gt;&lt;/STRONG&gt; a nainštalujte tieto fonty:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Microsoft Core Fonts&lt;/STRONG&gt; 
+&lt;LI&gt;&lt;STRONG&gt;FontsSmoothBGR&lt;/STRONG&gt; 
+&lt;LI&gt;&lt;STRONG&gt;FontsSmoothGrayScale&lt;/STRONG&gt; 
+&lt;LI&gt;&lt;STRONG&gt;FontsSmoothRGB&lt;/STRONG&gt; 
+&lt;LI&gt;&lt;STRONG&gt;RegisterFonts&lt;/STRONG&gt; &lt;/LI&gt;&lt;/UL&gt;
+&lt;P&gt;&lt;IMG style="HEIGHT: 463px; WIDTH: 753px" border=0 alt="" src="images/FAQ/FAQ_PlayOnLinux_Fonts.png" width=799 height=484&gt;&amp;nbsp;&amp;nbsp;&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="eafe0a99-166e-47ff-a3a7-9728daaa21b9" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="19a10c98-2b1d-4fe1-8ab2-98921ab328be">
+      <Title m="2014-11-07T07:56:18.13458Z">Inštalácia OBERON-u</Title>
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="5559e4dc-e171-4e8b-921a-6edfbafb0d95" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="14223592-268a-4a9d-a456-da9adeb1c46b">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="1c1469fd-c43e-4db9-89c8-1022c8b227ad">
+      <Keyword m="2021-03-25T06:31:09.5772501Z">Linux - inštalácia OBERON-u</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

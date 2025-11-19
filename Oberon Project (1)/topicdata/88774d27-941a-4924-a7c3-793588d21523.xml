@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="88774d27-941a-4924-a7c3-793588d21523" Status="Complete" CreatedOn="2019-07-01T12:13:53.8220607Z" ModifiedOn="2024-05-30T06:39:17.2138253Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Device_FiscalDevice_PegasFM-06eKasa" BuildFlags="">
+  <Title m="2019-07-17T09:21:26.3093756Z">Fiškálna tlačiareň Pegas FM-06 eKasa</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2022-12-22T13:05:31.2161714Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;základné informácie&lt;/STRONG&gt; o podporovanej fiškálnej tlačiarni&amp;nbsp;&lt;EM&gt;Pegas M-06 eKasa&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;EM&gt;Pegas M-06 eKasa&lt;/EM&gt; predstavuje certifikovanú&amp;nbsp;&lt;A href="b24ad235-cf7f-43e2-b3e8-ec0f7d92f6b6"&gt;fiškálnu tlačiareň&lt;/A&gt;, ktorá v spojení s modulom &lt;A href="aec074f4-3e1c-4a1e-8a80-06fcecf51156"&gt;Pokladnica OBERON&lt;/A&gt; vytvorí z počítača&amp;nbsp;plnohodnotnú on-line registračnú pokladnicu. Počítač sa pritom nezmení na jednoúčelové zariadenie určené len na predaj, ale možno ho naďalej využívať aj na iné činnosti (ako bez fiškálnej tlačiarne), a to aj paralelne popri predaji na pokladnici. 
+&lt;LI&gt;Fiškálna tlačiareň &lt;EM&gt;Pegas M-06 eKasa&lt;/EM&gt; je zariadenie, ktoré sa skladá zo softvéru (pokladničného programu eKasa klient – PPEKK, ktorý je súčasťou firmvéru zariadenia), chráneného dátového úložiska a&amp;nbsp;tlačiarne pokladničných dokladov, ktoré sú súčasťou kitu zariadenia. 
+&lt;LI&gt;Zariadenie je kompatibilné s viacerými typmi tlačiarní pokladničných dokladov (konkrétny typ je potrebné overiť u výrobcu). 
+&lt;LI&gt;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;Výrobca pokladničného programu (PPEKK):&amp;nbsp;&lt;A href="http://www.bowa.sk/" target=_blank&gt;BOWA s.r.o.&lt;/A&gt;&lt;/SPAN&gt; 
+&lt;LI&gt;Výrobca chráneného dátového úložiska (CHDÚ):&amp;nbsp;&lt;A href="http://www.bowa.sk/" target=_blank&gt;BOWA s.r.o.&lt;/A&gt; 
+&lt;LI&gt;&lt;SPAN lang=en-us xml:lang="en-us"&gt;Spôsob pripojenia (rozhranie): RS232.&lt;/SPAN&gt; 
+&lt;LI&gt;&lt;SPAN lang=en-us xml:lang="en-us"&gt;Spôsob komunikácie: TCP/IP.&lt;/SPAN&gt; &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;SPAN lang=en-us xml:lang="en-us"&gt;&lt;SPAN lang=en-us xml:lang="en-us"&gt;Zariadenie sa inštaluje&amp;nbsp;v&amp;nbsp;programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;, ponuka &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="749ff4f1-eeb5-43f5-98d2-021399d8cec7" style="auto-update-caption: true"&gt;Zariadenia&lt;/A&gt;, tlačidlo &lt;EM&gt;Pridať&lt;/EM&gt;.&amp;nbsp;Viac informácií k inštalácii zariadenia získate v téme&amp;nbsp;&lt;A href="ea274222-0362-4c08-acdf-aaffbb57dd2b" style="auto-update-caption: true"&gt;Fiškálna tlačiareň Pegas FM-06 eKasa - inštalácia&lt;/A&gt;.&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/innovasys:widgetproperty&gt; &lt;/innovasys:widget&gt;
+&lt;H5&gt;&lt;SPAN lang=en-us xml:lang="en-us"&gt;&lt;SPAN lang=en-us xml:lang="en-us"&gt;Obrázok č. 1: Fiškálna tlačiareň &lt;EM&gt;Pegas FM-06 eKasa&lt;/EM&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Devices/Device_PegasFM-06eKasa.png"&gt;&amp;nbsp;&lt;/P&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Porovnanie jednotlivých podporovaných fiškálnych zariadení je dostupné v téme&amp;nbsp;&lt;A href="d9b919e7-20c4-4c50-9910-4f13211ed9a8"&gt;Podporované registračné pokladnice&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt; &lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="d7dc0aab-dd90-481e-9c7a-0db38066dc07" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="b24ad235-cf7f-43e2-b3e8-ec0f7d92f6b6">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="a1d89126-8a21-4783-909a-2b5921423bae" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="ea274222-0362-4c08-acdf-aaffbb57dd2b">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="e5fd29ba-ba78-4208-9e8e-5be4354a93c8" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="29c1b7d9-36d4-4d86-89bd-54cd2cb22050">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="0c6a8438-6e81-43a7-b0ce-6276cb9b7705">
+      <Keyword m="2021-04-07T11:43:35.3327131Z">Pegas FM-06 eKasa - fiškálna tlačiareň</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="90568613-f151-4334-9a5b-ff320bad27ec">
+      <Keyword m="2021-04-07T11:59:37.2246928Z">BOWA Pegas FM-06 eKasa</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="3edeba9a-0d60-4453-8cb8-6795ee84407a">
+      <Keyword m="2021-04-07T11:43:52.3055996Z">Pegas FM-06 eKasa - CHDÚ</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="e03d0df2-0469-42ee-b72e-993c74c8054c">
+      <Keyword m="2021-04-07T11:43:59.2537044Z">Pegas FM-06 eKasa - PPEKK</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="2ea65d17-f812-4ea2-89a3-a8bb69e2e5b8">
+      <Keyword m="2021-04-07T12:44:11.6917382Z">eKasa Pegas FM-06</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

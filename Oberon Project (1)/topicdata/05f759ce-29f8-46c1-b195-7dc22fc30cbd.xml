@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="05f759ce-29f8-46c1-b195-7dc22fc30cbd" Status="Complete" CreatedOn="2018-02-23T09:22:48.9531663Z" ModifiedOn="2023-10-02T13:16:40.8540596Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="70810" Name="Menu_Wages_ProcessingRules" BuildFlags="">
+  <Title m="2018-02-23T09:23:33.3414394Z">Pravidlá spracovania dochádzky</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-10-02T12:35:56.8510437Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;je venovaná&amp;nbsp;položke&amp;nbsp;&lt;EM&gt;Pravidlá spracovania dochádzky&lt;/EM&gt; v&amp;nbsp;ponuke&amp;nbsp;&lt;EM&gt;Mzdy,&amp;nbsp;Dochádzka&lt;/EM&gt;&amp;nbsp;programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Výberom položky sa otvorí&amp;nbsp;číselník&amp;nbsp;&lt;EM&gt;Pravidlá spracovania dochádzky&lt;/EM&gt;, ktorý &lt;STRONG&gt;umožňuje definovať jednotlivé pravidlá spracovania dochádzky&lt;/STRONG&gt;. 
+&lt;LI&gt;Pravidlá spracovania dochádzky určujú, akým spôsobom sa budú evidovať príchody/odchody do/z práce,&amp;nbsp;&lt;A href="a706e5ad-4717-472f-b1a3-9b368ef39aa4"&gt;prestávky v práci&lt;/A&gt; a&amp;nbsp;&lt;A href="376de250-3bb9-4979-9efd-9feb648ea91f"&gt;nadčasy&lt;/A&gt;. V rámci pravidiel je napr. možné nastaviť, či skorší príchod, resp. neskorší odchod sa bude rátať do odpracovaného času alebo nie.&amp;nbsp;Jednou z možností je aj automatické generovanie prestávky do evidencie dochádzky.&amp;nbsp; 
+&lt;LI&gt;Pravidlá sa môžu vzťahovať na všetky alebo len vybrané&amp;nbsp;&lt;A href="3fced304-5201-4497-bb58-104c1fd77990"&gt;pracovné pomery&lt;/A&gt; alebo&amp;nbsp;na vybrané&amp;nbsp;&lt;A href="0d06308b-64cf-4d51-bc3a-9c262750667d"&gt;pracovné plány firmy&lt;/A&gt;, pracoviská,&amp;nbsp;pracovné skupiny,&amp;nbsp;prípadne profesie. 
+&lt;LI&gt;V prípade potreby je možné kedykoľvek dané pravidlo manuálne deaktivovať (zakázať). &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Definovať pravidlo spracovania dochádzky&amp;nbsp;je možné pomocou&amp;nbsp;&lt;A href="a507e795-a7e0-4153-be12-61c2ef9185e0"&gt;formulára Pravidlo spracovania dochádzky&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt; 
+&lt;P&gt;Ak nebudú zadefinované žiadne pravidlá spracovania dochádzky, &lt;STRONG&gt;program bude počítať reálnu dochádzku&lt;/STRONG&gt; tak, ako bola zaznamenaná&amp;nbsp;na&amp;nbsp;&lt;A href="f46f3a8f-ba04-4359-ba99-dc6caeeba021"&gt;dochádzkovom termináli&lt;/A&gt;.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="65b59dd4-282f-4e63-849b-7813a7b6bd2f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="d616cd9f-1633-4d2d-b827-b072f162a1c8">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="55771995-d5a2-4e96-a1da-ea4d32162fd0" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="f46f3a8f-ba04-4359-ba99-dc6caeeba021">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="49e898fa-7042-440a-b3ca-207980e81331" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="4a82f3bd-3c2b-4ab4-91f7-df0fa039cd5c">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="ad94569d-f350-4c84-9f40-5fc8577d4d7d" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="945e7141-25d7-4e5b-bf76-95cad39c7edb">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="d1db6891-ba8f-4b53-b204-effa209e512c" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="bac74c4e-ccf8-48b4-aae5-0d77ffb32e63">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="62e46e42-c8f8-49ee-a0d4-87b6fbfeaa2a" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="a706e5ad-4717-472f-b1a3-9b368ef39aa4">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="ed755736-025e-43b8-ab7a-254a1097a0c6" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="376de250-3bb9-4979-9efd-9feb648ea91f">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="84a98332-cd60-449f-8beb-d9cb8558cea3" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="a507e795-a7e0-4153-be12-61c2ef9185e0">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="ff0adb83-f57b-4075-b17b-eecf5a23a420">
+      <Keyword m="2023-08-30T08:45:25.2311994Z">Dochádzka - pravidlá spracovania</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="0c6ac0e1-ec34-48f0-835f-d986dbc337ea">
+      <Keyword m="2023-08-30T08:45:37.4517682Z">Evidencia dochádzky - pravidlá spracovania</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="e406d255-52d9-4a83-9b5b-7014d6821441">
+      <Keyword m="2023-08-30T08:45:57.1265Z">Prestávka, nadčas - pravidlá spracovania dochádzky</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="fdb5fd96-89d8-44b2-ba34-48621f8dec77">
+      <Keyword m="2023-08-30T08:46:13.872735Z">Nadčas, prestávka - pravidlá spracovania dochádzky</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

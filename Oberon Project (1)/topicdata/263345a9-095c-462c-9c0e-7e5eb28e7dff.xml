@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="263345a9-095c-462c-9c0e-7e5eb28e7dff" Status="Complete" CreatedOn="2016-04-15T06:23:33.285992Z" ModifiedOn="2024-03-19T14:08:11.7049945Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="FAQ_OBERON_SignatureOnReport" BuildFlags="">
+  <Title m="2021-09-13T07:17:36.9482064Z">Ako pridať na faktúru podpis alebo pečiatku?</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-03-19T14:08:11.5219532Z">&lt;P&gt;V tejto téme &lt;EM&gt;Pomocníka&lt;/EM&gt; je uvedený &lt;STRONG&gt;postup, ako pridať&amp;nbsp;podpis, resp. pečiatku&amp;nbsp;používateľa na doklady&amp;nbsp;(faktúra, dodací list, objednávka...)&lt;/STRONG&gt;&amp;nbsp;vystavené v&amp;nbsp;systéme OBERON. Podpis a&amp;nbsp;pečiatka predstavujú &lt;STRONG&gt;nepovinné údaje na faktúre&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&amp;nbsp;&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Podľa § 71 ods. 1 zákona o DPH faktúrou je každý doklad alebo oznámenie, ktoré je vyhotovené v listinnej forme alebo elektronickej forme podľa tohto zákona alebo zákona platného v inom členskom štáte EÚ upravujúceho vyhotovenie faktúry. 
+&lt;LI&gt;Za faktúru sa považuje aj každý doklad alebo oznámenie, ktoré mení pôvodnú faktúru a osobitne a jednoznačne sa na ňu vzťahuje (&lt;A href="58d85eb3-1501-4964-a648-35fe4f076b1a"&gt;dobropis, ťarchopis&lt;/A&gt;). 
+&lt;LI&gt;Podľa § 74 ods. 1 zákona o DPH faktúra musí obsahovať&amp;nbsp;tieto náležitosti:&lt;BR&gt;&amp;nbsp;&amp;nbsp; a) meno a priezvisko zdaniteľnej osoby, adresu jej sídla a&amp;nbsp;miesta podnikania,&lt;BR&gt;&amp;nbsp;&amp;nbsp; b) meno a priezvisko príjemcu tovaru alebo služby, adresu jeho sídla a&amp;nbsp;miesta podnikania,&lt;BR&gt;&amp;nbsp;&amp;nbsp; c) poradové číslo faktúry,&lt;BR&gt;&amp;nbsp;&amp;nbsp; d) dátum, keď bol tovar alebo služba dodaná,&lt;BR&gt;&amp;nbsp;&amp;nbsp; e) dátum vyhotovenia faktúry,&lt;BR&gt;&amp;nbsp;&amp;nbsp; f) množstvo a druh dodaného tovaru alebo rozsah a druh dodanej služby,&lt;BR&gt;&amp;nbsp;&amp;nbsp; g) základ dane pre každú sadzbu dane, jednotkovú cenu bez dane a zľavy a rabaty, ak nie sú obsiahnuté v jednotkovej cene,&lt;BR&gt;&amp;nbsp;&amp;nbsp; h) uplatnenú sadzbu dane alebo oslobodenie od dane,&lt;BR&gt;&amp;nbsp;&amp;nbsp; i) výšku dane spolu v €, ktorá sa má zaplatiť,&lt;BR&gt;&amp;nbsp;&amp;nbsp; j) slovnú informáciu &lt;EM&gt;vyhotovenie faktúry odberateľom&lt;/EM&gt;, ak odberateľ, ktorý je príjemcom tovaru alebo služby, vyhotovuje faktúru podľa § 72 ods. 4,&lt;BR&gt;&amp;nbsp;&amp;nbsp; k) slovnú informáciu &lt;EM&gt;prenesenie daňovej povinnosti&lt;/EM&gt;, ak osobou povinnou platiť daň je príjemca tovaru alebo služby,&lt;BR&gt;&amp;nbsp;&amp;nbsp; l) údaje o dodanom novom dopravnom prostriedku podľa § 11 ods. 12,&lt;BR&gt;&amp;nbsp;&amp;nbsp; m) slovnú informáciu &lt;EM&gt;úprava zdaňovania prirážky - cestovné kancelárie&lt;/EM&gt;, ak sa uplatní osobitná úprava podľa § 65,&lt;BR&gt;&amp;nbsp;&amp;nbsp; n) slovnú informáciu &lt;EM&gt;úprava zdaňovania prirážky - použitý tovar&lt;/EM&gt;, &lt;EM&gt;úprava zdaňovania prirážky - umelecké diela&lt;/EM&gt; alebo &lt;EM&gt;úprava zdaňovania prirážky - zberateľské predmety a starožitnosti&lt;/EM&gt;, a to v závislosti od tovaru, pri ktorom sa uplatní osobitná úprava podľa § 66. 
+&lt;LI&gt;Z&amp;nbsp;uvedeného vyplýva, že faktúra na to, aby spĺňala všetky zákonné náležitosti,&amp;nbsp;&lt;STRONG&gt;nemusí obsahovať podpis ani pečiatku&lt;/STRONG&gt;. 
+&lt;LI&gt;Napriek tomu si účtovná jednotka môže v závislosti od svojich potrieb pridať na faktúru podpis, resp. firemnú pečiatku, a to vo forme oskenovaných obrázkov. 
+&lt;LI&gt;Obrázky podpisu a pečiatky &lt;STRONG&gt;sa pridávajú jednotlivým používateľom&lt;/STRONG&gt;. Následne sa budú automaticky tlačiť v dokladových formulároch (faktúra, dodací list, cenová ponuka, objednávka...). &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Vlastnosti oskenovaného podpisu a pečiatky&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Odporúčané formáty: PNG, JPG, GIF, BMP. 
+&lt;LI&gt;Odporúčané rozmery obrázka: 200 x 100 pixelov. 
+&lt;LI&gt;Odporúčaná veľkosť obrázka: 10&amp;nbsp;-&amp;nbsp;15 kB. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Postup nastavenia&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;V ponuke &lt;EM&gt;Servis&lt;/EM&gt; zvoľte položku&amp;nbsp;&lt;A href="225638ed-22f6-4ac4-9085-6d77c64925db"&gt;Používatelia&lt;/A&gt;. 
+&lt;LI&gt;Zvoľte používateľa,&amp;nbsp;ktorému chcete priradiť podpis, resp. pečiatku,&amp;nbsp;a&amp;nbsp;stlačte tlačidlo &lt;EM&gt;Oprava.&lt;/EM&gt; 
+&lt;LI&gt;Otvorí sa&amp;nbsp;&lt;A href="12e7a96f-bc40-4359-bc7a-213d74a785d4"&gt;formulár Používateľ&lt;/A&gt;, v záložke &lt;EM&gt;Podpis&lt;/EM&gt; stlačte tlačidlo&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_Button_Images.png"&gt;&amp;nbsp;a nalistujte oskenovaný podpis (odtlačok pečiatky). Na vloženie podpisu pomocou&amp;nbsp;&lt;A href="a315053c-fb60-4f19-a3df-40b9c9dd02f8"&gt;digitálnej podpisovej podložky&lt;/A&gt; stlačte tlačidlo &lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_Button_DSP.png"&gt;. 
+&lt;LI&gt;V dokladových formulároch (faktúra, dodací list, objednávka) sa bude&amp;nbsp;podpis tlačiť automaticky. 
+&lt;LI&gt;V iných tlačových výstupoch ako napr. &lt;EM&gt;Cestovný príkaz, Inventúra&lt;/EM&gt; je potrebné zvoliť daný tlačový výstup, stlačiť pravé tlačidlo myši a vybrať položku &lt;EM&gt;Vlastnosti tlačového výstupu&lt;/EM&gt;. Otvorí sa&amp;nbsp;&lt;A href="91150b04-8876-4fb2-89eb-d69d8cc654c2"&gt;formulár Vlastnosti tlačového výstupu&lt;/A&gt;, v ktorom začiarknite možnosť &lt;EM&gt;Tlačiť pečiatku a podpis používateľa&lt;/EM&gt;. &lt;/LI&gt;&lt;/OL&gt;
+&lt;H5&gt;Obrázok č. 1: Vlastnosti tlačového výstupu&amp;nbsp;&lt;/H5&gt;&lt;IMG border=0 alt="" src="images/Forms/Invoices/Form_Invoices_SignatureOnAccount.png"&gt; &lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt; 
+&lt;UL&gt;
+&lt;LI&gt;Okrem pridania podpisu, resp. firemnej pečiatky vo forme oskenovaných obrázkov systém OBERON umožňuje aj &lt;STRONG&gt;elektronické podpisovanie dokumentov&lt;/STRONG&gt;. Viac informácií získate v téme&amp;nbsp;&lt;A href="c1e2e5a1-2cf4-47aa-a546-47d5baa1df3e" style="auto-update-caption: true"&gt;Čo je elektronický podpis&lt;/A&gt;. 
+&lt;LI&gt;Popri&amp;nbsp;podpise a pečiatke je možné umiestniť do faktúry aj &lt;STRONG&gt;logo firmy, resp. logá jej jednotlivých prevádzok&lt;/STRONG&gt; - viac informácií v&amp;nbsp;téme&amp;nbsp;&lt;A href="fe609232-2720-4a0f-bacd-713d7d0cbe09"&gt;Logo na faktúre&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="388aa56c-92b2-48dc-b45f-8bce87319dd5" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="12e7a96f-bc40-4359-bc7a-213d74a785d4">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="386f802f-4350-40df-b415-31715c839054" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="91150b04-8876-4fb2-89eb-d69d8cc654c2">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="34b9286b-5763-4e3a-aca2-b90d13f2ac1b" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="fe609232-2720-4a0f-bacd-713d7d0cbe09">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="cef05db6-d0b9-49eb-97fe-4e397768fe81" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="a315053c-fb60-4f19-a3df-40b9c9dd02f8">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="17619b2e-6886-4a93-a55c-1d4ebe6a28db" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="c1e2e5a1-2cf4-47aa-a546-47d5baa1df3e">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="e5a6956a-5d72-43b6-9ba8-0a7517c91eb4" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="ccadca4e-2fbd-4b28-8d92-f826f3019bd0">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="3f9c655d-9085-4c78-ad50-3bbd91fca3bf">
+      <Keyword m="2016-04-15T09:27:28.0063453Z">Podpis alebo pečiatka na faktúre</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="6f4874b4-f5f9-42c5-a4b3-cc430d3ea3ac">
+      <Keyword m="2016-04-15T09:27:35.1019509Z">Pečiatka na faktúre</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="a199ce14-52ea-4a4d-aae1-85727103dd9d">
+      <Keyword m="2021-09-13T07:12:01.0626672Z">Pridanie podpisu alebo pečiatky na faktúru</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="47f0c7f0-1bdf-434f-b83f-ed04e1e8980d">
+      <Keyword m="2023-12-01T07:20:45.4261169Z">Podpis na faktúre</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

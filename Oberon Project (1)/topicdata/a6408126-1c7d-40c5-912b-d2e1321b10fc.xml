@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="a6408126-1c7d-40c5-912b-d2e1321b10fc" Status="Complete" CreatedOn="2015-09-09T08:15:24.3505859Z" ModifiedOn="2023-10-12T10:40:18.4424593Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Form_User_CRM" BuildFlags="">
+  <Title m="2021-05-27T13:00:36.347435Z">Formulár Nastavenia - Používateľ - CRM a registratúra</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-10-12T10:26:32.5139155Z">&lt;P&gt;Formulár &lt;EM&gt;Nastavenia -&amp;nbsp;Používateľ -&amp;nbsp;CRM a registratúra&lt;/EM&gt;&amp;nbsp;&lt;STRONG&gt;umožňuje pre aktuálne prihláseného používateľa vykonať nastavenia automatického otvárania kalendára udalostí a&amp;nbsp;registratúrneho (podacieho) denníka pri spustení programu&lt;/STRONG&gt;. Formulár je dostupný z programu &lt;EM&gt;OBERON -&amp;nbsp;Agenda firmy&lt;/EM&gt;, ponuka &lt;EM&gt;Servis,&amp;nbsp;&lt;/EM&gt;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;&amp;nbsp;- v&amp;nbsp;sekcii&amp;nbsp;&lt;EM&gt;Používateľ&lt;/EM&gt; zvoľte oddiel &lt;EM&gt;CRM a registratúra&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Popis formulára &lt;EM&gt;Nastavenia -&amp;nbsp;Používateľ - CRM a registratúra&lt;/EM&gt;&lt;/H2&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Kalendár udalostí&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Umožňuje nastaviť automatické otvorenie&amp;nbsp;&lt;A href="3590e987-a2d8-48a5-a8dc-ce67c7d0e271"&gt;Kalendára udalostí&lt;/A&gt; po spustení systému OBERON.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Registratúrny (podací) denník&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Umožňuje nastaviť automatické otvorenie&amp;nbsp;&lt;A href="0fe6411c-9069-4097-b90f-e69f01a61569"&gt;Registratúrneho denníka&lt;/A&gt; po spustení systému OBERON.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="19a557ed-f3ce-4fa2-99d6-0335a21a86d6" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="89fa80dd-8f80-4e9f-9a25-1eed4f6fdbb8">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="1d3338b2-7e61-4bfa-b860-7c62ad113f4a" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="8a35cd0d-3fea-40c5-9831-a35062e762b4">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="52cdb5cf-a62d-4d0b-ba9f-aee3c104523f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="4d0a07f5-c25e-4882-9372-386a05de0c2f">
+      <Title m="2021-05-27T13:07:57.5627792Z">CRM a registratúra - základné možnosti</Title>
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="c7f1b98f-46f6-432b-bb3a-dfc8cbcebfb1">
+      <Keyword m="2021-05-27T13:03:37.6807298Z">Nastavenia programu - Používateľ - CRM a registratúra</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="5818ed5a-97b8-42fc-bac2-7220c46deea5">
+      <Keyword m="2021-05-27T13:03:54.394903Z">Používateľ - CRM a registratúra - Nastavenia programu</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

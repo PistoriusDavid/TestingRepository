@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="e50f9e37-991e-4800-9fc3-3eeb6ce162a7" Status="Complete" CreatedOn="2014-09-11T07:30:43.9230559Z" ModifiedOn="2022-12-05T11:59:31.4548589Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="30430" Name="AccDouble_Advanced_StockAccounting" BuildFlags="">
+  <Title m="2017-02-24T08:46:29.9428782Z">Hromadné zaúčtovanie skladu</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2022-12-05T11:59:31.4548589Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; popisuje &lt;STRONG&gt;všeobecný postup pri hromadnom zaúčtovaní&amp;nbsp;skladu&lt;/STRONG&gt; v&amp;nbsp;&lt;A href="49dd3167-870a-4fdf-b631-d4f692f1ed72"&gt;podvojnom účtovníctve&lt;/A&gt;.&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;Hromadné zaúčtovanie skladu predpokladá &lt;STRONG&gt;nastavenie parametrov daného účtovania&lt;/STRONG&gt; (určenie obdobia atď.). Po nadefinovaní účtovania je možné toto účtovanie vykonať v ponuke &lt;EM&gt;Účtovníctvo,&lt;/EM&gt;&amp;nbsp;&lt;A href="41513109-f711-4de5-b494-67671f203dca"&gt;Hromadné účtovanie dokladov&lt;/A&gt;. Následne sa v&amp;nbsp;&lt;A href="5e82cca9-b8af-4a80-ba30-7ab91914a595"&gt;účtovnom denníku&lt;/A&gt; vytvoria príslušné záznamy.
+&lt;LI&gt;Vykonané účtovanie je možné kedykoľvek zrušiť (vtedy sa z&amp;nbsp;účtovného denníka odstránia záznamy vytvorené týmto účtovaním), prípadne opätovne vykonať. 
+&lt;LI&gt;Korektné zaúčtovanie vyžaduje správne nastavené&amp;nbsp;&lt;A href="da8a9192-a6cc-4470-b5d5-13d3ec435f97"&gt;predkontácie&lt;/A&gt; v&amp;nbsp;agende,&amp;nbsp;z ktorej sa&amp;nbsp;zaúčtovanie&amp;nbsp;vykonáva, v tomto prípade&amp;nbsp;na skladových kartách (ponuka &lt;EM&gt;Sklad&lt;/EM&gt;,&amp;nbsp;&lt;A href="1a33ab0b-2df7-4dc2-962b-8a3319c16831"&gt;Skladové karty&lt;/A&gt;, záložka &lt;I&gt;Doplň. údaje&lt;/I&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Pred hromadným zaúčtovaním skladu sa odporúča použiť funkciu&amp;nbsp;&lt;A href="dc54990f-39a8-4a17-b0bf-9b463e6c9303"&gt;Prepočet obstarávacích cien a výnosov&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H3&gt;Postup pri hromadnom zaúčtovaní skladu&lt;/H3&gt;
+&lt;OL&gt;
+&lt;LI&gt;V prvom kroku skontrolujte zoznam predkontácií (ponuka&amp;nbsp;&lt;EM&gt;Účtovníctvo&lt;/EM&gt;,&lt;EM&gt;&amp;nbsp;&lt;/EM&gt;&lt;A href="da8a9192-a6cc-4470-b5d5-13d3ec435f97"&gt;Predkontácie&lt;/A&gt;) a ich priradenie k&amp;nbsp;jednotlivým skladovým kartám. V&amp;nbsp;ponuke &lt;EM&gt;Sklad&lt;/EM&gt;, &lt;A href="1a33ab0b-2df7-4dc2-962b-8a3319c16831"&gt;Skladové karty&lt;/A&gt; otvorte skladovú kartu a&amp;nbsp;v&amp;nbsp;záložke &lt;I&gt;Doplň. údaje&lt;/I&gt; zadajte predkontáciu, podľa ktorej sa bude daná skladová položka účtovať. 
+&lt;LI&gt;Pred&amp;nbsp;zaúčtovaním odporúčame&amp;nbsp;použiť funkciu &lt;A href="dc54990f-39a8-4a17-b0bf-9b463e6c9303"&gt;Prepočet obstarávacích cien a výnosov&lt;/A&gt; (ponuka &lt;EM&gt;Sklad&lt;/EM&gt;, &lt;A href="1a33ab0b-2df7-4dc2-962b-8a3319c16831"&gt;Skladové karty&lt;/A&gt;, tlačidlo &lt;I&gt;Možnosti&lt;/I&gt;) -&amp;nbsp;pomocou nej&amp;nbsp;sa prepočítajú obstarávacie ceny v&amp;nbsp;prípade, že sa niektoré skladové doklady opravovali, prípadne sa doklady nezadávali v presnom časovom slede. 
+&lt;LI&gt;V evidencii&amp;nbsp;&lt;A href="41513109-f711-4de5-b494-67671f203dca"&gt;Hromadné účtovanie dokladov&lt;/A&gt; (ponuka &lt;I&gt;Účtovníctvo, Hromadné účtovanie dokladov)&lt;/I&gt; stlačte tlačidlo &lt;I&gt;Nový.&lt;/I&gt; Otvorí sa sprievodca, v ktorom&amp;nbsp;vyberte evidenciu &lt;EM&gt;&lt;STRONG&gt;Sklad&lt;/STRONG&gt;.&lt;/EM&gt; Pomocou tlačidla&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_Button_Tree.png"&gt;&amp;nbsp;nastavte sklady, ktoré sa majú zaúčtovať, a zvoľte spôsob zaúčtovania.&amp;nbsp;Zvoľte obdobie a pokračujte v sprievodcovi ďalej - ten vás prevedie zvyškom zaúčtovania. Pred samotným zaúčtovaním je možné vykonať jeho test -&amp;nbsp;odhalí možné problémy, ktoré môžu vzniknúť&amp;nbsp;pri zaúčtovaní. 
+&lt;LI&gt;V&amp;nbsp;poslednom kroku sa vykoná samotné zaúčtovanie -&amp;nbsp;vytvoria sa nové záznamy&amp;nbsp;v&amp;nbsp;&lt;A href="d8c9bfc8-92d1-4471-8909-e5f8ce602d6c"&gt;účtovnom denníku&lt;/A&gt;. Po zaúčtovaní je možné zobraziť správu o priebehu zaúčtovania. 
+&lt;LI&gt;Vykonané zaúčtovanie je možné aj hromadne zrušiť - pomocou tlačidla &lt;I&gt;Možnosti -&lt;/I&gt; &lt;I&gt;Zrušiť hromadné zaúčtovanie&lt;/I&gt;. &lt;/LI&gt;&lt;/OL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Ďalšie informácie o účtovaní skladu získate v téme&amp;nbsp;&lt;A href="a00f332d-33c1-411f-9a2a-4116c3e783ef"&gt;Všeobecne o účtovaní skladu (zásob)&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt; 
+&lt;UL&gt;
+&lt;LI&gt;Číslo&amp;nbsp;&lt;A href="da8a9192-a6cc-4470-b5d5-13d3ec435f97"&gt;predkontácie&lt;/A&gt; na jednotlivých skladových kartách je možné hromadne určiť pomocou funkcie &lt;I&gt;Hromadné zmeny;&lt;/I&gt; funkcia je dostupná z ponuky &lt;EM&gt;Sklad&lt;/EM&gt;, &lt;A href="1a33ab0b-2df7-4dc2-962b-8a3319c16831"&gt;Skladové karty&lt;/A&gt;, tlačidlo &lt;I&gt;Možnosti&lt;/I&gt;. 
+&lt;LI&gt;&lt;EM&gt;Správu o priebehu&lt;/EM&gt; zaúčtovania je možné vytlačiť. V ponuke &lt;EM&gt;Účtovníctvo, Hromadné účtovanie dokladov&lt;/EM&gt; otvorte&amp;nbsp;&lt;A href="ddc4243d-b368-46d6-b86f-529790debae3"&gt;formulár Hromadné účtovanie dokladov&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt;&amp;nbsp;stlačte&amp;nbsp;tlačidlo&lt;EM&gt;&amp;nbsp;Správy o priebehu&lt;/EM&gt; a&amp;nbsp;spustite tlač&lt;EM&gt;.&amp;nbsp;&lt;/EM&gt;Správu o priebehu je možné vytlačiť aj z formulára &lt;EM&gt;Hromadné účtovanie dokladov&lt;/EM&gt;&amp;nbsp;po stlačení&amp;nbsp;tlačidla &lt;EM&gt;Možnosti.&lt;/EM&gt;&amp;nbsp; &lt;/LI&gt;&lt;/UL&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="d4df1d00-050e-4271-bc82-bf79959b7531" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="41513109-f711-4de5-b494-67671f203dca">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="e4fe8ec4-a4f2-4583-a44e-cfe2be99546c" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="dc54990f-39a8-4a17-b0bf-9b463e6c9303">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="b2de7cb6-442a-4d13-aec7-7d61d9cd3bbe" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="d8c9bfc8-92d1-4471-8909-e5f8ce602d6c">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="5192fed5-04be-47c6-a0e5-f6cbbd73c793" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1a33ab0b-2df7-4dc2-962b-8a3319c16831">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="4ac302a6-0c47-4fc3-9a15-c3c9c193908f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="da8a9192-a6cc-4470-b5d5-13d3ec435f97">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="d303fdcb-e934-44dd-ac89-b720980147e7" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="a00f332d-33c1-411f-9a2a-4116c3e783ef">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="e8e8b7c0-e661-434a-bec3-499394e10299" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="c9f0ed56-580d-477c-9dbe-2e850398781f">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="bff7e6b0-bffb-4c69-afb7-bcf617e6bad8" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="b1838751-e53e-4824-bd05-991e16d1eb2a">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="d512dbdf-8b2f-4be0-b9e3-0ccf05f1e191">
+      <Keyword m="2022-12-05T10:28:30.9719522Z">Účtovanie skladu - hromadné</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="8a712865-34b3-4941-999c-976519988cc6">
+      <Keyword m="2021-08-13T11:29:00.8416507Z">Sklad - hromadné zaúčtovanie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="d39d9211-a8da-4e52-9756-d2de9d7cdefe">
+      <Keyword m="2022-12-05T10:28:39.8129275Z">Zaúčtovanie skladu - hromadné</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

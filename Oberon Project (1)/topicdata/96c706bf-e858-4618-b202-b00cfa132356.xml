@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="96c706bf-e858-4618-b202-b00cfa132356" Status="Complete" CreatedOn="2022-06-06T11:31:26.1493451Z" ModifiedOn="2023-07-06T09:15:09.0349052Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="93230" Name="Form_AutomaticTask_WebService_LoyaltySystem" BuildFlags="">
+  <Title m="2023-07-03T09:16:03.5362374Z">Formulár Nastavenie automatickej úlohy 'WebServices API - OBERON vernostný systém'</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-07-06T09:15:09.0349052Z">&lt;P&gt;Formulár&amp;nbsp;&lt;EM&gt;Nastavenie automatickej úlohy 'WebServices API - OBERON vernostný systém'&lt;/EM&gt;&amp;nbsp;umožňuje &lt;STRONG&gt;nadefinovať nastavenie&amp;nbsp;automatickej úlohy&amp;nbsp;&lt;EM&gt;'WebServices API -&amp;nbsp;OBERON vernostný systém 1G'&lt;/EM&gt;&lt;/STRONG&gt;&amp;nbsp;(server) pre&amp;nbsp;&lt;A href="92147420-5d85-4b11-a328-06d401650294"&gt;OBERON vernostný systém (klient)&lt;/A&gt;. Formulár&amp;nbsp;je dostupný z&amp;nbsp;&lt;A href="9ce25bbd-35d1-4096-acd5-70007f5af5a6"&gt;formulára Automatické úlohy&lt;/A&gt;, záložka &lt;EM&gt;Základné údaje&lt;/EM&gt; - po výbere typu automatickej úlohy&amp;nbsp;&lt;STRONG&gt;&lt;EM&gt;WebServices API -&amp;nbsp;&lt;/EM&gt;&lt;/STRONG&gt;&lt;STRONG&gt;&lt;EM&gt;OBERON vernostný systém&amp;nbsp;&lt;/EM&gt;&lt;/STRONG&gt;&lt;STRONG&gt;&lt;EM&gt;1G&lt;/EM&gt;&lt;/STRONG&gt; stlačte tlačidlo &lt;EM&gt;Nastaviť&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Popis formulára&amp;nbsp;&lt;EM&gt;Nastavenie automatickej úlohy 'WebServices API - OBERON vernostný systém'&lt;/EM&gt;&lt;/H2&gt;&lt;innovasys:widget layout="block" type="Tab Strip"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;innovasys:widget layout="block" type="Tab Item"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Komunikácia&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;H3&gt;Komunikácia&lt;/H3&gt;&lt;innovasys:widget layout="block" type="Drop Down Section"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;IP port&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Zadáva sa číslo TCP/IP&amp;nbsp;portu, pod ktorým bude daná služba dostupná (port musí byť voľný - t.&amp;nbsp;j.&amp;nbsp;v&amp;nbsp;systéme &lt;EM&gt;Windows&lt;/EM&gt; ho nesmie používať iná služba, predvolená hodnota je 21001).&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget layout="block" type="Drop Down Section"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Zabezpečenie&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Umožňuje zvoliť systém prístupu k webovej službe:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;
+&lt;P&gt;&lt;STRONG&gt;Bez autorizácie a zabezpečenia&lt;/STRONG&gt; &lt;STRONG&gt;-&lt;/STRONG&gt; k webovým službám sa bude pristupovať bez nutnosti prihlásenia sa&amp;nbsp;používateľom a komunikácia webovej služby nebude šifrovaná. Takéto nastavenie je vhodné používať len v prípade dôveryhodnej počítačovej siete, prípadne, keď je počítačová sieť chránená iným spôsobom.&amp;nbsp;&lt;/P&gt;
+&lt;LI&gt;
+&lt;P&gt;&lt;STRONG&gt;OBERON autorizácia&lt;/STRONG&gt; &lt;STRONG&gt;(bez zabezpečeného pripojenia)&lt;/STRONG&gt; - používa sa overovanie podľa používateľov systému OBERON, komunikácia však nie je šifrovaná.&amp;nbsp;Odporúča sa používať v malej sieti, ktorá je však zabezpečená iným spôsobom (sieťovou infraštruktúrou).&lt;/P&gt;
+&lt;LI&gt;
+&lt;P&gt;&lt;STRONG&gt;Bez OBERON autorizácie&lt;/STRONG&gt;&amp;nbsp;&lt;STRONG&gt;(zabezpečené pripojenie)&lt;/STRONG&gt; - používa sa zabezpečené pripojenie (https s použitím bezpečnostného certifikátu) vhodné aj&amp;nbsp;na pripojenie mimo zabezpečenej lokálnej siete, napr. z internetu. Na druhej strane sa nepoužíva overovanie klientov webovej služby, prístup k službe má ľubovoľný klient (komunikácia je však&amp;nbsp;šifrovaná).&lt;/P&gt;
+&lt;LI&gt;
+&lt;P&gt;&lt;STRONG&gt;OBERON autorizácia&amp;nbsp;(zabezpečené pripojenie)&lt;/STRONG&gt; - používa sa zabezpečené pripojenie (https s použitím bezpečnostného certifikátu), kde je celá komunikácia šifrovaná. Ďalej sa používa overovanie klientov (napr. podľa používateľov systému OBERON), čo umožňuje nastaviť práva pre každého klienta samostatne.&lt;/P&gt;&lt;/LI&gt;&lt;/UL&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget layout="block" type="Drop Down Section"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Certifikát zabezpečenia SSL&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Umožňuje vybrať už inštalovaný certifikát alebo vygenerovať nový v prípade zvoleného zabezpečeného pripojenia. Viac informácií získate v téme&amp;nbsp;&lt;A href="f3e85885-2cfb-4f9b-b966-a54836db41cd"&gt;Inštalácia webovej služby&lt;/A&gt;,&amp;nbsp;časť &lt;EM&gt;Vytvorenie bezpečnostného certifikátu&lt;/EM&gt;.&lt;/P&gt;
+&lt;P&gt;Na&amp;nbsp;zabezpečenú komunikáciu je možné použiť aj už existujúci certifikát. Ďalšie informácie o jeho inštalácii je možné získať kliknutím na nasledujúce odkazy:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;A href="http://msdn.microsoft.com/en-us/library/aa738659.aspx" target=_blank&gt;inštalácia certifikátu certifikačnej autority&lt;/A&gt;, 
+&lt;LI&gt;&lt;A href="http://msdn.microsoft.com/en-us/library/ms733791.aspx" target=_blank&gt;konfigurácia certifikátu&lt;/A&gt;, 
+&lt;LI&gt;&lt;A href="http://msdn.microsoft.com/en-us/library/bfsktky3.aspx" target=_blank&gt;manuálne vytvorenie certifikátu&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget layout="block" type="Drop Down Section"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Zasielať podrobné info do 'Prehľadu činností' (na OAC klienta)&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Po začiarknutí prehľad záznamov o činnosti (logovania) bude dostupný v&amp;nbsp;programe&amp;nbsp;&lt;A href="69282df4-d4d6-462a-8cf2-68000e3e6f93" style="auto-update-caption: true"&gt;OBERON Automation Center (klient)&lt;/A&gt;, oddiel &lt;EM&gt;Prehľad činností&lt;/EM&gt;.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H3&gt;Windows webové služby (WebServices)&lt;/H3&gt;&lt;innovasys:widget layout="block" type="Drop Down Section"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Pridať výnimku do Windows firewall&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Po začiarknutí pridá výnimku pre zadaný TCP/IP port&amp;nbsp;do brány firewall systému &lt;EM&gt;Windows&lt;/EM&gt;.&amp;nbsp;Ak používate bránu firewall iného výrobcu, je potrebné povoliť zadaný port manuálne.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget layout="block" type="Drop Down Section"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Zaregistrovať službu&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Po stlačení tlačidla sa&amp;nbsp;vykoná registrácia&amp;nbsp;webovej služby, aby ju&amp;nbsp;systém &lt;I&gt;Windows&lt;/I&gt;&amp;nbsp;povolil. Pred prípadnou dodatočnou zmenou napr. čísla portu je potrebné najprv zrušiť registráciu danej služby (stlačením tlačidla &lt;EM&gt;Zrušiť registráciu&lt;/EM&gt;), zmeniť port a následne opätovne vykonať registráciu. Zaregistrovať alebo zrušiť registráciu webovej služby je potrebné vykonať priamo na počítači, kde bude táto služba hosťovaná.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget layout="block" type="Tab Item"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Nastavenie&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;innovasys:widget layout="block" type="Drop Down Section"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Anonymizácia údajov&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Server vernostného systému OBERON zasiela na klienta (napr. &lt;EM&gt;Pokladnicu OBERON&lt;/EM&gt;) údaje o vernostnej karte. Niektoré údaje na vernostnej karte je možné z dôvodu ochrany osobných údajov anonymizovať, t. j. na klienta sa nebudú zasielať. Anonymizácia údajov predstavuje takú zmenu osobných údajov, po ktorej už tieto osobné údaje nemožno prideliť určitej&amp;nbsp;osobe. Dostupné sú nastavenia:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Bez anonymizácie (všetky údaje dostupné)&lt;/STRONG&gt;&amp;nbsp;- všetky údaje budú dostupné bez obmedzení. 
+&lt;LI&gt;&lt;STRONG&gt;Anonymizácia len osobných údajov osoby&lt;/STRONG&gt; - anonymizované budú len&amp;nbsp;základné údaje osoby (meno,&amp;nbsp;priezvisko,&amp;nbsp;čiastočná adresa), ostatné údaje budú dostupné bez obmedzení. 
+&lt;LI&gt;&lt;STRONG&gt;Anonymizácia identifikačných údajov osoby&lt;/STRONG&gt; - anonymizované budú nasledujúce údaje&amp;nbsp;- dátum narodenia, číslo dokladu totožnosti, presná adresa, e-mail, číslo telefónu. 
+&lt;LI&gt;&lt;STRONG&gt;Prístup len k číslu karty&lt;/STRONG&gt; - všetky údaje o vernostnej karte budú anonymizované, klient môže zistiť len&amp;nbsp;číslo vernostnej karty. 
+&lt;LI&gt;&lt;STRONG&gt;Anonymizovať všetko&lt;/STRONG&gt; - všetky údaje budú anonymizované, klient môže overiť len&amp;nbsp;existenciu karty. &lt;/LI&gt;&lt;/UL&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget layout="block" type="Drop Down Section"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Virtuálna registračná pokladnica&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Pri použití vernostnej karty sa môžu položky dokladu zapisovať do databázy. Virtuálna registračná pokladnica predstavuje pokladnicu nadefinovanú v ponuke Servis,&amp;nbsp;&lt;A href="749ff4f1-eeb5-43f5-98d2-021399d8cec7"&gt;Zariadenia&lt;/A&gt;.&amp;nbsp;&amp;nbsp;&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget layout="block" type="Tab Item"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Vernostná karta&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;innovasys:widget layout="block" type="Drop Down Section"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Počet dní platnosti karty&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Umožňuje&amp;nbsp;určiť, či nová vernostná karta vytvorená&amp;nbsp;vo &lt;A href="f63e245e-f7c1-4def-b012-21256dea3530"&gt;formulári Vernostný systém - kumulovanie/čerpanie benefitu&lt;/A&gt;, tlačidlo &lt;EM&gt;Vytvoriť kartu&lt;/EM&gt;,&amp;nbsp;bude mať obmedzenú platnosť. Ak bude zadaná nula, nová vytvorená vernostná karta nebude mať určený dátum ukončenia platnosti.&lt;/innovasys:widgetproperty&gt; &lt;/innovasys:widget&gt;&lt;innovasys:widget layout="block" type="Drop Down Section"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Predvolená zľava&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Zadáva sa predvolená zľava, ktorá bude použitá pri vytvorení novej vernostnej karty.&lt;/innovasys:widgetproperty&gt; &lt;/innovasys:widget&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget layout="block" type="Tab Item"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Benefity&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;innovasys:widget layout="block" type="Drop Down Section"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Sklad (zoskupenie skladov)&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Nastavuje sa&amp;nbsp;sklad, prípadne zoskupenie skladov, s ktorým bude vernostný systém pracovať. Sklad obsahuje tak položky na kumulovanie benefitov, ako aj položky na čerpanie benefitov (zľavnené položky či&amp;nbsp;položky zdarma).&lt;/innovasys:widgetproperty&gt; &lt;/innovasys:widget&gt;&lt;innovasys:widget layout="block" type="Drop Down Section"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Hodnota jedného vernostného bodu&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Zadáva sa hodnota jedného vernostného bodu, napr. 0,01 €. Benefit je možné čerpať formou percentuálnej zľavy, prípadne vo forme hodnotovej zľavy (zľava v konkrétnej hodnote - sume). Ak nebude hodnota bodu zadaná, v&amp;nbsp;rámci vernostného systému nebude&amp;nbsp;možné čerpať&amp;nbsp;hodnotovú zľavu (zľavu v konkrétnej hodnote - sume).&lt;/innovasys:widgetproperty&gt; &lt;/innovasys:widget&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget layout="block" type="Tip Box"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;V prípade dodatočných&amp;nbsp;zmien v nastaveniach webovej služby je vždy potrebné &lt;STRONG&gt;reštartovať server OAC&lt;/STRONG&gt; (v programe&amp;nbsp;&lt;A href="69282df4-d4d6-462a-8cf2-68000e3e6f93" style="auto-update-caption: true"&gt;OBERON Automation Center (klient)&lt;/A&gt;, oddiel &lt;EM&gt;Pripojenie k&amp;nbsp;serveru OAC&lt;/EM&gt;, tlačidlo &lt;EM&gt;Reštartovať server OAC&lt;/EM&gt;), aby sa vykonané zmeny prejavili.&lt;/innovasys:widgetproperty&gt; &lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="1e32b39c-68d9-4da3-92c7-e4c6ed859640" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="fd64c37a-486b-4cdf-a370-297aaa8a8f73">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="2084b351-3e31-4de3-aabe-4ef77d793fb3" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="9ce25bbd-35d1-4096-acd5-70007f5af5a6">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="813efde5-220a-417e-bebc-aa07da698d67" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="f3e85885-2cfb-4f9b-b966-a54836db41cd">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="cab85f6e-13e4-4908-9cd1-42d2daba2809" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="6c98a377-1b88-4eb8-801b-1f168641373b">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="20a11d79-bb57-41b3-b9bd-276cfbc97426" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="92147420-5d85-4b11-a328-06d401650294">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="b929920d-270a-42a7-99df-a23916918ab9">
+      <Keyword m="2023-07-03T10:26:13.5249644Z">Webová služba 'WebServices API - OBERON vernostný systém' - formulár</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="3f1e7a57-9dea-47a8-a5ff-fddf98cb04ab">
+      <Keyword m="2023-07-03T10:26:23.4372993Z">Webová služba 'WebServices API - OBERON vernostný systém' - nastavenia</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="1bfcae9a-2737-4bea-9e47-3c9f8b313acb">
+      <Keyword m="2023-07-03T10:27:11.4363781Z">SSL - nastavenia webovej služby OBERON vernostný systém</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="1addfbae-a9e7-4e42-b7da-9a6817c91c12">
+      <Keyword m="2023-07-03T10:19:14.4617493Z">Automatická úloha 'WebServices API - OBERON vernostný systém' - formulár</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="c928c855-5266-4865-acb6-cfa83521bb27">
+      <Keyword m="2023-07-03T10:20:08.8046266Z">Automatická úloha 'WebServices API - OBERON vernostný systém' - nastavenia</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

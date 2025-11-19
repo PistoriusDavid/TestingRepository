@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="6dd73cf9-75cf-48d2-a903-62cd66b9478a" Status="Complete" CreatedOn="2014-10-09T10:47:50.6572265Z" ModifiedOn="2023-05-04T11:50:28.8591153Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="22609" Name="Menu_Acc_AccountCoding_AccSingle" BuildFlags="">
+  <Title m="2021-07-12T11:02:36.7262159Z">Predkontácie (jednoduché účtovníctvo)</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-05-04T11:50:28.8591153Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;je venovaná&amp;nbsp;položke&amp;nbsp;&lt;EM&gt;Predkontácie&lt;/EM&gt;&amp;nbsp;v&amp;nbsp;ponuke&amp;nbsp;&lt;EM&gt;Účtovníctvo&lt;/EM&gt; programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&amp;nbsp;&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Výberom položky sa otvorí číselník &lt;EM&gt;Predkontácie&lt;/EM&gt;. Predkontácie v&amp;nbsp;&lt;A href="32be28cf-2368-4818-9d24-cfa9d59afb75"&gt;jednoduchom účtovníctve&lt;/A&gt; predstavujú &lt;STRONG&gt;preddefinované účtovné prípady, ktoré slúžia na rýchlejšie a&amp;nbsp;pohodlnejšie účtovanie predovšetkým frekventovaných účtovných prípadov&lt;/STRONG&gt;. 
+&lt;LI&gt;Po&amp;nbsp;&lt;A href="19a10c98-2b1d-4fe1-8ab2-98921ab328be"&gt;inštalácii programu&lt;/A&gt; a&amp;nbsp;&lt;A href="9a485893-6dd2-44e8-9740-a4cd7083a932"&gt;vytvorení novej účtovnej jednotky (databázy)&lt;/A&gt; je zoznam predkontácií naplnený predvolenými štandardnými účtovnými prípadmi, ktoré je možné ďalej dopĺňať, resp.&amp;nbsp;upravovať&amp;nbsp;podľa&amp;nbsp;potrieb a&amp;nbsp;požiadaviek účtovnej jednotky (a&amp;nbsp;to aj neskôr, resp. priebežne podľa potreby). 
+&lt;LI&gt;V&amp;nbsp;OBERON-e sa&amp;nbsp;predkontácie evidujú &lt;STRONG&gt;pre každý účtovný rok samostatne&lt;/STRONG&gt; (zmeny v&amp;nbsp;predkontáciách v aktuálnom účtovnom období neovplyvnia predkontácie v&amp;nbsp;inom účtovnom období).&amp;nbsp;Z&amp;nbsp;tohto dôvodu je potrebné&amp;nbsp;predkontácie do nového účtovného obdobia &lt;STRONG&gt;zakaždým naimportovať&lt;/STRONG&gt; (v&amp;nbsp;ponuke &lt;I&gt;Účtovníctvo,&lt;/I&gt;&amp;nbsp;&lt;A href="da8a9192-a6cc-4470-b5d5-13d3ec435f97"&gt;Predkontácie&lt;/A&gt;, tlačidlo &lt;EM&gt;Možnosti -&lt;/EM&gt;&amp;nbsp;&lt;EM&gt;Import predkontácií&lt;/EM&gt;). Dostupnými možnosťami sú&amp;nbsp;import predvolených hodnôt, ďalej import z&amp;nbsp;predchádzajúceho, resp. nasledujúceho účtovného obdobia a import z inej účtovnej jednotky (v&amp;nbsp;prípade spracovávania účtovníctva pre viacero firiem). 
+&lt;LI&gt;Vo formulári &lt;I&gt;Možnosti&lt;/I&gt;&amp;nbsp;je možné&amp;nbsp;vyexportovať predkontácie do súboru, ktorý je následne možné naimportovať (napr. do inej účtovnej jednotky ako je uvedené vyššie). 
+&lt;LI&gt;Importovať&amp;nbsp;predkontácie &lt;STRONG&gt;sa odporúča len do účtovníctva, v ktorom nie je v&amp;nbsp;peňažnom denníku nič zaúčtované&lt;/STRONG&gt;. Pri importe dôjde k&amp;nbsp;prepísaniu aktuálneho zoznamu&amp;nbsp;predkontácií&amp;nbsp;(s&amp;nbsp;ktorými&amp;nbsp;sa doteraz pracovalo). &lt;STRONG&gt;Proces je nevratný,&amp;nbsp;t.&amp;nbsp;j.&amp;nbsp;pôvodné údaje sa nevratne vymažú a&amp;nbsp;nahradia importovanými. &amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/STRONG&gt; 
+&lt;LI&gt;Už použité predkontácie v peňažnom denníku je dovolené opravovať,&amp;nbsp;ale &lt;SPAN style="COLOR: rgb(255,0,0)"&gt;neodporúča sa&amp;nbsp;to&lt;/SPAN&gt;&amp;nbsp;- účtovanie už zaúčtovaných záznamov sa nezmení, upravená predkontácia sa použije len pre nové záznamy. V prípade,&amp;nbsp;že sa zmení číslo predkontácie,&amp;nbsp;zmení sa&amp;nbsp;automaticky aj vo všetkých zápisoch peňažného denníka. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Pridávať, resp. upravovať predkontácie v&amp;nbsp;&lt;A href="32be28cf-2368-4818-9d24-cfa9d59afb75"&gt;jednoduchom účtovníctve&lt;/A&gt; je možné pomocou&amp;nbsp;&lt;A href="a56b7fc5-439a-494e-8c6a-fc1eb485303b"&gt;formulára Predkontácia (jednoduché účtovníctvo)&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="8d8bb049-d713-46ce-bef9-c83d1576c6d2" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="5e82cca9-b8af-4a80-ba30-7ab91914a595">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="483613db-9b01-432e-822f-8fb6b15aec3e" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="a56b7fc5-439a-494e-8c6a-fc1eb485303b">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="af21b351-66e2-4733-8901-015a34cd4887">
+      <Keyword m="2021-08-06T06:32:21.8940326Z">Import predkontácií - jednoduché účtovníctvo</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

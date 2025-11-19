@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="97a87301-f7ad-4aed-b4b5-b33c0942bf30" Status="Complete" CreatedOn="2014-09-10T07:58:23.7701964Z" ModifiedOn="2023-03-10T09:04:02.8159278Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="CashRegister_Advanced_Date_Time_Fiscal" BuildFlags="">
+  <Title m="2023-03-10T07:49:27.8040631Z">Nastavenie dátumu a času vo fiškálnom zariadení</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-03-10T08:34:00.0056981Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;informácie o nastavení dátumu a času&lt;/STRONG&gt; vo&amp;nbsp;&lt;A href="d9b919e7-20c4-4c50-9910-4f13211ed9a8"&gt;fiškálnych zariadeniach podporovaných&lt;/A&gt; v&amp;nbsp;systéme OBERON.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Pri zmene letného a zimného času je možné, že &lt;STRONG&gt;sa čas na fiškálnom zariadení automaticky nesynchronizuje&lt;/STRONG&gt; s&amp;nbsp;aktuálnym časom systému &lt;EM&gt;Windows&lt;/EM&gt;. Vtedy sa na displeji fiškálneho&amp;nbsp;zariadenia a na dokladoch z neho zobrazuje chybný čas. 
+&lt;LI&gt;Nastavenie správneho&amp;nbsp;dátumu a času je možné&amp;nbsp;vykonať v servisnom programe k danému fiškálnemu zariadeniu alebo je možné použiť sprievodcu &lt;I&gt;Zápis údajov do fiškálneho&amp;nbsp;zariadenia&lt;/I&gt; v systéme OBERON. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Postup zápisu dátumu a času v systéme OBERON:&lt;/H2&gt;
+&lt;P&gt;Zmenu v nastaveniach zariadení môže vykonávať len&amp;nbsp;&lt;A href="225638ed-22f6-4ac4-9085-6d77c64925db"&gt;používateľ&lt;/A&gt; s príznakom&amp;nbsp;&lt;I&gt;Administrátor&lt;/I&gt; a na počítači,&amp;nbsp;ku ktorému je toto zariadenie pripojené.&lt;/P&gt;
+&lt;OL&gt;
+&lt;LI&gt;V programe&amp;nbsp;&lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;&amp;nbsp;zvoľte ponuku&amp;nbsp;&lt;EM&gt;Servis&lt;/EM&gt;, &lt;A href="749ff4f1-eeb5-43f5-98d2-021399d8cec7"&gt;Zariadenia&lt;/A&gt;. 
+&lt;LI&gt;Kurzorom označte fiškálne zariadenie&amp;nbsp;&amp;nbsp;&lt;IMG border=0 alt="" src="images/CashRegister/CashRegister_Symbol.png"&gt;,v ktorom&amp;nbsp;chcete nastaviť dátum a čas. Rozoznáte ho podľa názvu, prípadne podľa názvu počítača, ku ktorému je pripojený. Fiškálne zariadenie&lt;STRONG&gt; musí byť pripojené, t.&amp;nbsp;j. musí komunikovať s&amp;nbsp;počítačom, na ktorom nastavenie vykonávate&lt;/STRONG&gt;. 
+&lt;LI&gt;Dvojklikom na zariadenie alebo tlačidlom &lt;I&gt;Upraviť&lt;/I&gt; otvorte formulár &lt;I&gt;Zariadenie&lt;/I&gt;. Následne stlačte tlačidlo &lt;I&gt;Nastaviť zariadenie&lt;/I&gt;. 
+&lt;LI&gt;Vo formulári &lt;I&gt;Nastavenia fiškálneho&amp;nbsp;zariadenia&lt;/I&gt; v záložke &lt;EM&gt;Komunikácia&lt;/EM&gt; stlačte tlačidlo &lt;I&gt;Zapísať do zariadenia&lt;/I&gt;. 
+&lt;LI&gt;V sprievodcovi vyberte &lt;I&gt;Dátum a čas&lt;/I&gt; a zápis vykonajte tlačidlom &lt;I&gt;Dokončiť.&lt;/I&gt; 
+&lt;LI&gt;Vykonané nastavenia potvrďte tlačidlom &lt;EM&gt;&lt;STRONG&gt;OK&lt;/STRONG&gt;&lt;/EM&gt;. Následne môžete znovu otvoriť&amp;nbsp;&lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnicu OBERON&lt;/A&gt; a&amp;nbsp;pokračovať v prevádzke. &lt;/LI&gt;&lt;/OL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="b282fabd-698b-4f0f-9162-0edfce979146" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="d9b919e7-20c4-4c50-9910-4f13211ed9a8">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="d8055934-5ea8-4ffd-8ed6-be8cf5f65be3" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="444eb5e9-5c8e-48cc-86d1-d7169995780f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="225638ed-22f6-4ac4-9085-6d77c64925db">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="f602d9d2-5510-42da-8f4d-6637effb2920" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="749ff4f1-eeb5-43f5-98d2-021399d8cec7">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="59c3edb9-35ba-4355-85f7-0de7a882c862">
+      <Keyword m="2023-03-10T08:17:52.5020033Z">Dátum a čas vo fiškálnom zariadení</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="b1982d5e-38f1-483a-bf39-a9272569f5d8">
+      <Keyword m="2014-09-25T10:51:30.1171875Z">Zmena času</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="2d4f97d9-2093-4c88-9a56-6b682f31af28">
+      <Keyword m="2014-09-25T10:51:23.2509765Z">Nastavenie času</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="7c57de1a-ddfc-4ba9-b55f-4483d5f0e605">
+      <Keyword m="2023-03-10T08:58:28.6452874Z">Zimný/letný čas - zmena vo fiškálnom zariadení</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="b7debcc3-985d-4d17-aa7c-4ad5ceaf31ff">
+      <Keyword m="2023-03-10T08:58:40.9696956Z">Letný/zimný čas - zmena vo fiškálnom zariadení</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

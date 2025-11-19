@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="fc7595a6-54ce-4aa9-acb4-93d7880e854e" Status="Complete" CreatedOn="2014-09-05T15:16:37.3044926Z" ModifiedOn="2022-12-19T09:42:13.7819956Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="50180" Name="Menu_Stock_StockMovements" BuildFlags="">
+  <Title m="2014-09-06T19:30:38.0776168Z">Skladové pohyby</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2022-12-19T09:42:13.7819956Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;je venovaná&amp;nbsp;položke&amp;nbsp;&lt;EM&gt;Skladové&amp;nbsp;pohyby&amp;nbsp;&lt;/EM&gt;v&amp;nbsp;ponuke&amp;nbsp;&lt;EM&gt;Sklad&lt;/EM&gt; programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Výberom položky sa otvorí evidencia záznamov o&amp;nbsp;skladových pohyboch. Skladovým pohybom rozumieme &lt;STRONG&gt;príjem jednej položky do skladu, prípadne&amp;nbsp;výdaj (predaj) jednej položky zo skladu&lt;/STRONG&gt;. Skladové pohyby&amp;nbsp;sú určené&amp;nbsp;na&amp;nbsp;&lt;STRONG&gt;analýzu&amp;nbsp;uskutočnených skladových operácií&lt;/STRONG&gt;. 
+&lt;LI&gt;Skladové&amp;nbsp;pohyby sa zobrazujú podľa príslušnosti ku&amp;nbsp;&lt;A href="1e423d36-8e0a-4420-b2e9-05f12806ec3a"&gt;skladu&lt;/A&gt;.&amp;nbsp;V&amp;nbsp;prípade používania viacerých skladov&amp;nbsp;skladové&amp;nbsp;pohyby&amp;nbsp;prislúchajúce k jednotlivým&amp;nbsp;skladom možno zobraziť ako podmnožiny&amp;nbsp;záznamov knihy&amp;nbsp;&lt;EM&gt;Skladové pohyby&lt;/EM&gt;.&amp;nbsp;Možno tak urobiť pomocou filtra &lt;EM&gt;Sklad&lt;/EM&gt; v&amp;nbsp;hornej časti evidencie.&amp;nbsp;Zoznam dostupných skladov (definujú sa v&amp;nbsp;ponuke &lt;EM&gt;Sklad&lt;/EM&gt;,&amp;nbsp;&lt;A href="1e423d36-8e0a-4420-b2e9-05f12806ec3a"&gt;Sklady&lt;/A&gt;)&amp;nbsp;je možné v prípade potreby obmedziť pomocou&amp;nbsp;&lt;A href="834e9546-a56b-476f-9028-ef4c24a82345"&gt;používateľských práv&lt;/A&gt;. 
+&lt;LI&gt;Skladové pohyby vznikajú pri vytváraní dokladov v&amp;nbsp;sklade, ako sú&amp;nbsp;&lt;A href="9980b99c-4409-4422-9d70-9cdd8893d0f3"&gt;faktúry&lt;/A&gt;,&amp;nbsp;&lt;A href="0be61fcc-a85b-4572-876d-2171a5cb7c29"&gt;výdajky&lt;/A&gt;,&amp;nbsp;&lt;A href="efed1882-1614-4406-b57a-3023aee6ba26"&gt;príjemky&lt;/A&gt;, pri&amp;nbsp;&lt;A href="69bbd499-45c0-4b0f-8f7a-c53fa5d70c1b"&gt;predaji na Pokladnici OBERON&lt;/A&gt; a pod. Z&amp;nbsp;tohto dôvodu nie je možné v knihe skladových pohybov vytvárať&amp;nbsp;nové, ani vymazávať existujúce skladové pohyby. Ak účtovná jednotka potrebuje opraviť&amp;nbsp;skladový pohyb, &lt;STRONG&gt;musí opraviť ten doklad, ktorým daný skladový pohyb vznikol&lt;/STRONG&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Bližšie informácie o ovládaní evidencie, používaní filtrov, triedení záznamov a pod. sú dostupné v&amp;nbsp;téme&amp;nbsp;&lt;A href="8936fde4-aac3-4672-99a2-c8bd5ccffdcd"&gt;Ovládanie knihy (evidencie)&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="da93b34b-ea6a-4435-8b2b-346a1f03af43" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="1e423d36-8e0a-4420-b2e9-05f12806ec3a">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="1c7a36e7-6ee6-4176-a7e6-b6de8088d4fc" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="1a33ab0b-2df7-4dc2-962b-8a3319c16831">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="94c05944-f2d6-4312-b87e-4668e30e3977" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="62db2271-9ae9-4968-b790-47a07e7c6aef">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="b8a7f115-f665-4b38-ad5a-1f0db77a395f" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="0a22d060-0b8a-4166-ba9b-8239f36863a0">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="e92d618d-5abc-4532-803e-0419038b3013">
+      <Keyword m="2021-10-29T09:02:39.2216836Z">Pohyb v sklade</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="a057f6ee-cfe4-4839-9d37-6d7c39ab9a48">
+      <Keyword m="2021-10-29T09:02:45.1498689Z">Skladový pohyb</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

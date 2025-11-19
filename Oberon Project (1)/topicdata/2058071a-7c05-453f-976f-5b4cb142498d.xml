@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="2058071a-7c05-453f-976f-5b4cb142498d" Status="Complete" CreatedOn="2014-09-10T08:25:01.9356062Z" ModifiedOn="2023-11-16T09:33:56.796624Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Hotel_Started_Accommodation_Payment_Overview" BuildFlags="">
+  <Title m="2022-05-11T05:56:59.2138142Z">Spôsoby zaevidovania úhrady za ubytovanie</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-11-16T09:33:56.796624Z">&lt;P&gt;V tejto téme &lt;EM&gt;Pomocníka&lt;/EM&gt; sú dostupné &lt;STRONG&gt;informácie o&amp;nbsp;dostupných spôsoboch&amp;nbsp;zaevidovania úhrady za ubytovanie&lt;/STRONG&gt; v&amp;nbsp;module&amp;nbsp;&lt;A href="c3bd41f0-029e-4c74-b342-b0ffff647b6e"&gt;Hotelová recepcia&lt;/A&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;V systéme OBERON je dostupných niekoľko spôsobov zaevidovania&amp;nbsp;úhrady za ubytovanie:&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 
+&lt;OL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Hotelový účet&lt;/STRONG&gt; (odporúčaný spôsob) - predpokladá&amp;nbsp;otvorenie hotelového účtu na danú izbu. Výhodou tohto spôsobu je, že na hotelovom účte môžu byť okrem ubytovania aj iné položky, pričom položky účtu môžu byť automaticky vygenerované programom (pomocou možnosti &lt;I&gt;Automaticky vytvoriť položky hotelového účtu...&lt;/I&gt;). Úhradu takéhoto hotelového účtu je&amp;nbsp;možné&amp;nbsp;zaevidovať pomocou manuálneho &lt;A href="be6740fb-9e90-4385-9537-27582dc4f26b"&gt;zápisu do pomocnej pokladničnej knihy&lt;/A&gt;&amp;nbsp;(v&amp;nbsp;prípade, že účtovná jednotka používa aj modul&amp;nbsp;&lt;A href="78d20602-4b59-4b31-9f0a-a04a1d376ec5"&gt;Skladová evidencia&lt;/A&gt;, úhrada sa namiesto pokladničnej knihy zaeviduje pomocou&amp;nbsp;&lt;A href="a6f5e32d-6f1e-40bb-9d15-3f784a183252"&gt;Pokladnice OBERON&lt;/A&gt;&amp;nbsp;- tlačidlo &lt;EM&gt;Hotelové účty&lt;/EM&gt;)&lt;EM&gt;,&lt;/EM&gt; ďalej vyfakturovať pomocou&amp;nbsp;&lt;A href="5c21adcc-87c8-44e7-981d-02902635693d"&gt;knihy pohľadávok&lt;/A&gt;, prípadne uzatvoriť manuálne (tlačidlo &lt;EM&gt;Možnosti - Manuálne uzatvorenie hotelového účtu&lt;/EM&gt;). Pri vyfakturovaní hotelového účtu je možné zoskupiť stravu a ostatné služby, pričom ostatné položky (ubytovanie,&amp;nbsp;vyúčtovanie zálohy a daň za ubytovanie) zostanú zachované. 
+&lt;LI&gt;&lt;STRONG&gt;Kniha pohľadávok&lt;/STRONG&gt; - v&amp;nbsp;&lt;A href="5c21adcc-87c8-44e7-981d-02902635693d"&gt;knihe pohľadávok&lt;/A&gt; je možné ubytovanie priamo vyfakturovať. 
+&lt;LI&gt;&lt;STRONG&gt;Pokladničná kniha&lt;/STRONG&gt; - úhrada za ubytovanie sa zaeviduje pomocou manuálneho&amp;nbsp;&lt;A href="be6740fb-9e90-4385-9537-27582dc4f26b"&gt;zápisu do pomocnej pokladničnej knihy&lt;/A&gt;. Tento spôsob možno použiť vtedy, keď sa za ubytovanie platí ihneď pri nástupe na pobyt, a to v&amp;nbsp;hotovosti. V prípade, že účtovná jednotka používa aj modul&amp;nbsp;&lt;A href="78d20602-4b59-4b31-9f0a-a04a1d376ec5"&gt;Skladová evidencia&lt;/A&gt;, úhrada sa namiesto pokladničnej knihy&amp;nbsp;zaeviduje pomocou&amp;nbsp;&lt;A href="a6f5e32d-6f1e-40bb-9d15-3f784a183252"&gt;Pokladnice OBERON&lt;/A&gt;. &lt;/LI&gt;&lt;/OL&gt;
+&lt;LI&gt;Hotelový účet daného hosťa&amp;nbsp;je dostupný aj z &lt;EM&gt;Knihy ubytovaných&lt;/EM&gt; (&lt;A href="d43ef71f-edb1-44f7-b1a2-c0cf18067ee9"&gt;formulár Ubytovanie&lt;/A&gt;, záložka &lt;EM&gt;Hotelové účty&lt;/EM&gt;). 
+&lt;LI&gt;Údaje o jednotlivých úhradách za ubytovanie sú dostupné aj v&amp;nbsp;&lt;A href="0b9519ff-9438-422b-a3e8-358b628293e9"&gt;knihe ubytovaných&lt;/A&gt;. Výhodou ich dostupnosti sú presné údaje pre štatistiku, prípadne pre grafické prehľady v tejto knihe. 
+&lt;LI&gt;Jednotlivé spôsoby zaevidovania úhrady za ubytovanie je možné ľubovoľne kombinovať, avšak z&amp;nbsp;dôvodu jednoduchšej kontroly týchto úhrad sa odporúča súčasne používať čo najmenej spôsobov. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 1:&amp;nbsp; Spôsoby zaevidovania úhrady za ubytovanie&lt;/H5&gt;
+&lt;P&gt;&amp;nbsp;&lt;IMG border=0 alt="" src="images/Hotel/Hotel_PaymentMethods.png"&gt;&lt;/P&gt;&lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Pri práci s&amp;nbsp;hotelovými účtami si je potrebné mať na zreteli, že na hotelovom účte môžu byť okrem ubytovania aj iné položky (napr.&amp;nbsp;parkovanie, sauna, polopenzia a pod.). Preto je potrebné, aby program vedel z&amp;nbsp;hotelového účtu vyčleniť len položky za ubytovanie. To je možné dosiahnuť&amp;nbsp;pomocou čiarového kódu (EAN) jednotlivých položiek. Ak bude čiarový kód v&amp;nbsp;určenom rozsahu čísel, bude sa takáto položka považovať&amp;nbsp;za ubytovanie. Rozsah kódov, s&amp;nbsp;ktorým program pracuje, sa nastavuje v&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="f0386fce-aa67-4fa4-a611-234d30fa9f82"&gt;oddiel Firma, Hotelová recepcia&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt; záložka &lt;EM&gt;Hotelové účty&lt;/EM&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="02baa1a9-4c37-40c6-a10e-52fc05a6ea5b" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="ffa5a889-7bfe-4165-ba83-15263eb77358">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="f374c959-0fe5-4a1b-9ac6-83c0945a9943" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="5c21adcc-87c8-44e7-981d-02902635693d">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="77f93860-d219-4f06-b0ca-313be438d551" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="250ef843-0b84-4f66-bc92-230067d309d8">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="8ee1c4be-72f3-4655-8a7b-b418babcccc2" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="0b9519ff-9438-422b-a3e8-358b628293e9">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="da57db2a-55db-4129-8989-5765838ebe8e" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="d43ef71f-edb1-44f7-b1a2-c0cf18067ee9">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="884631bd-f22d-409b-a97b-be744601b11d" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="79646e11-b21e-473c-a78b-7e0fb8b55c14">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="d771873a-f4c4-4e85-819e-746d9284b32c">
+      <Keyword m="2022-05-09T12:20:25.0440961Z">Pokladničná kniha - úhrada za ubytovanie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="0d39b78d-3e45-4226-a092-8db65990e6a5">
+      <Keyword m="2022-05-09T12:20:15.1024552Z">Úhrada za ubytovanie - spôsoby</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="3b2443cc-54ad-4d57-b71c-bda4fc75a231">
+      <Keyword m="2022-05-09T12:20:37.1141199Z">Hotelový účet - úhrada za ubytovanie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="9e1e22e6-feb4-449f-b4f8-edad8feb80fd">
+      <Keyword m="2022-05-09T12:20:49.3722249Z">Kniha pohľadávok - - úhrada za ubytovanie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="a1368bda-df74-4586-bb1d-bdcaa3c8ccc0">
+      <Keyword m="2022-05-09T12:21:16.5277522Z">Faktúra - - úhrada za ubytovanie</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

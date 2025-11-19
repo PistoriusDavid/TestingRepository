@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="dbe76648-4e40-4ef5-938e-6b4a45580f97" Status="Complete" CreatedOn="2014-09-09T11:36:12.4168829Z" ModifiedOn="2024-05-02T13:24:37.9000685Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="false" HelpContextIds="" Name="Stock_Basic_Options" BuildFlags="">
+  <Title m="2021-07-13T10:21:06.0589515Z">Základné možnosti</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-05-02T13:24:37.9000685Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;informácie o základných možnostiach, užitočných funkciách a&amp;nbsp;zaujímavých vlastnostiach&lt;/STRONG&gt;&amp;nbsp;modulu&amp;nbsp;&lt;A href="78d20602-4b59-4b31-9f0a-a04a1d376ec5"&gt;Skladová evidencia&lt;/A&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné možnosti a&amp;nbsp;vlastnosti&lt;/H2&gt;
+&lt;UL style="MARGIN-RIGHT: 0px"&gt;
+&lt;LI&gt;Možnosť nadefinovať a&amp;nbsp;viesť neobmedzené množstvo navzájom nezávislých&amp;nbsp;&lt;A href="1e423d36-8e0a-4420-b2e9-05f12806ec3a"&gt;skladov&lt;/A&gt;. 
+&lt;LI&gt;Pri práci s viacerými skladmi je možné pri číslovaní skladových kariet používať&amp;nbsp;&lt;A href="1e423d36-8e0a-4420-b2e9-05f12806ec3a"&gt;jeden číselný rad pre všetky sklady&lt;/A&gt; (používanie&amp;nbsp;&lt;A href="6acbdde2-e6a9-43bc-8e10-4e1aa1ea1c3d"&gt;prevodiek&lt;/A&gt;). 
+&lt;LI&gt;Pri väčšom počte skladov možnosť vytvárať &lt;STRONG&gt;zoskupenia skladov&lt;/STRONG&gt; (možnosť využiť na získanie súhrnných informácií nie po jednotlivých skladoch, ale za celé zoskupenie skladov). 
+&lt;LI&gt;Možnosť evidencie viacerých&amp;nbsp;&lt;A href="8deac9fe-9864-41e8-aaa3-02257c241d78"&gt;typov skladových kariet&lt;/A&gt; (jednoduchá, služba, vratný obal, sada, výrobok&amp;nbsp;atď.). 
+&lt;LI&gt;Skladové položky možno štandardne predávať na&amp;nbsp;&lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnici OBERON&lt;/A&gt;, prípadne&amp;nbsp;vložiť do dokladu (výdajky, faktúry...). 
+&lt;LI&gt;Na lepšiu orientáciu v&amp;nbsp;sklade možnosť definovať&amp;nbsp;&lt;A href="f83017eb-1d46-42a5-991b-bdf5d628aa8d"&gt;skladové skupiny&lt;/A&gt;, možnosť číslovania skladových kariet podľa skladových skupín. Jednu skladovú kartu možno priradiť k&amp;nbsp;jednej skladovej skupine. 
+&lt;LI&gt;Kvôli prehľadnosti je&amp;nbsp;možné skladové karty členiť do&amp;nbsp;&lt;A href="4dfc2d36-f1c8-4b60-81c4-62e8e5197b99"&gt;kategórií&lt;/A&gt;, ktoré sa zobrazujú formou stromovej štruktúry. Na rozdiel od skladovej skupiny, jedna skladová karta môže byť priradená k viacerým kategóriám. 
+&lt;LI&gt;Možnosť evidovania skladových položiek pod &lt;STRONG&gt;výrobným alebo sériovým číslom.&lt;/STRONG&gt; 
+&lt;LI&gt;Ku skladovým kartám je možné evidovať &lt;STRONG&gt;parametre&amp;nbsp;&lt;/STRONG&gt;a &lt;STRONG&gt;varianty&lt;/STRONG&gt;. 
+&lt;LI&gt;Ku každej skladovej karte možnosť evidovať &lt;STRONG&gt;obrázok alebo iný dokument&lt;/STRONG&gt;. 
+&lt;LI&gt;V prípade reštauračných prevádzok možnosť vytvárať &lt;STRONG&gt;kalkulácie jedál (receptúry)&lt;/STRONG&gt;. Skladové položky&amp;nbsp;&lt;A href="8deac9fe-9864-41e8-aaa3-02257c241d78"&gt;typu receptúra&lt;/A&gt; je možné&amp;nbsp;predávať na&amp;nbsp;&lt;A href="aec074f4-3e1c-4a1e-8a80-06fcecf51156"&gt;Pokladnica OBERON&lt;/A&gt;, prípadne priamo vložiť do výdajky, a tak znížiť stavy zásob (tzv. odťažovanie skladu). 
+&lt;LI&gt;Skladová karta obsahuje &lt;STRONG&gt;základnú cenotvorbu&lt;/STRONG&gt;, ktorá predstavuje celkom 4 predajné ceny, prípadne ďalšiu, odporúčanú predajnú cenu. Okrem toho modul umožňuje pracovať s&amp;nbsp;tzv.&amp;nbsp;&lt;STRONG&gt;rozšírenou cenotvorbou&lt;/STRONG&gt; -&amp;nbsp;množstevné zľavy, akciové letáky, letákové dohody s dodávateľmi, zľavy platné len v určitom čase (happy hour) a pod. Bližšie informácie získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="34f91c11-1a5d-4773-ac4e-48ad2fc859d3"&gt;Pravidlá rozšírenej cenotvorby&lt;/A&gt;. 
+&lt;LI&gt;Predajné ceny je možné počítať z obstarávacej alebo poslednej nákupnej ceny. 
+&lt;LI&gt;Možnosť&amp;nbsp;&lt;A href="62db2271-9ae9-4968-b790-47a07e7c6aef"&gt;príjmu tovaru do skladu&lt;/A&gt; pomocou príjemky, resp. faktúry, alebo kombinovane. 
+&lt;LI&gt;Možnosť&amp;nbsp;&lt;A href="0a22d060-0b8a-4166-ba9b-8239f36863a0"&gt;výdaja tovaru zo skladu&lt;/A&gt;&amp;nbsp;viacerými spôsobmi, možnosť rozdeliť už vytvorenú výdajku. 
+&lt;LI&gt;Možnosť definovať&amp;nbsp;&lt;A href="a7e1c27b-e28f-4ae9-b643-16cc1b478212"&gt;druhy pohybov&lt;/A&gt; na zvýšenie prehľadu o príjme a výdaji v sklade. 
+&lt;LI&gt;Možnosť&amp;nbsp;&lt;A href="2392223e-1a44-40e3-98a0-dfb1872ba86e"&gt;sledovania pripravenosti tovaru&lt;/A&gt;&amp;nbsp;a &lt;A href="5f711bd3-c5ab-4b68-93cc-214b6720faf8"&gt;naskladnenosti a vyskladnenosti tovaru&lt;/A&gt;. 
+&lt;LI&gt;Na&amp;nbsp;rýchle hľadanie položiek v sklade je možné použiť&amp;nbsp;&lt;A href="80a78093-fc45-4db9-b74b-e1f9829f7b3c"&gt;snímač čiarových kódov&lt;/A&gt;. K jednej skladovej karte je možné evidovať viacero čiarových kódov, prípadne k viacerým skladovým kartám je možné evidovať rovnaký čiarový kód. 
+&lt;LI&gt;Výdajky (príjemky) možno v prípade potreby opravovať. V zozname &lt;STRONG&gt;výdajok (príjemiek) možno sledovať ich vysporiadanosť&lt;/STRONG&gt;, t. j. sledovať, či k&amp;nbsp;daným dokladom&amp;nbsp;už bol vytvorený daňový doklad. K&amp;nbsp;dispozícii je interaktívne&amp;nbsp;grafické znázornenie väzieb medzi dokladmi, napr. objednávka,&amp;nbsp;dve&amp;nbsp;výdajky, faktúra. 
+&lt;LI&gt;Modul umožňuje evidovať &lt;STRONG&gt;vydané a prijaté objednávky&lt;/STRONG&gt;, a to s&amp;nbsp;cenami alebo bez cien. Z&amp;nbsp;vydanej/prijatej objednávky možno vytvoriť príjemku/výdajku, prípadne faktúru. V&amp;nbsp;prípade využívania modulu&amp;nbsp;&lt;A href="a6f5e32d-6f1e-40bb-9d15-3f784a183252"&gt;Pokladnica OBERON&lt;/A&gt; je možné z&amp;nbsp;objednávky vytvoriť pokladničný doklad. 
+&lt;LI&gt;Možnosť&amp;nbsp;pri objednávkach &lt;STRONG&gt;evidovať stavy&lt;/STRONG&gt;, ktoré odzrkadľujú aktuálny status ich&amp;nbsp;vybavenia,&amp;nbsp;resp. upresnenie ich procesného spracovania.&amp;nbsp;Kým pri vydaných objednávkach sú stavy dané (&lt;EM&gt;Nevybavená, Vybavuje sa, Vybavená, Zrušená&lt;/EM&gt;), pri prijatých objednávkach ich možno prispôsobiť a nadefinovať podľa potrieb účtovnej jednotky, napr. &lt;EM&gt;Nová objednávka, Potrebné objednať, Potrebné vyskladniť, Odoslaná&lt;/EM&gt; atď.&amp;nbsp;Bližšie informácie v&amp;nbsp;téme&amp;nbsp;&lt;A href="e3603367-ba3b-4944-b731-0d81cb121c61" style="auto-update-caption: true"&gt;Typy stavov prijatých objednávok&lt;/A&gt;. 
+&lt;LI&gt;Možnosť&amp;nbsp;&lt;A href="657aa6d8-5eeb-4dbb-8a4d-38b12858a942"&gt;tvorby cenových ponúk&lt;/A&gt;&amp;nbsp;s&amp;nbsp;možnosťou vytvorenia tlačových zostáv na nákup surovín pri organizovaní akcií (svadby, oslavy, školenia, konferencie...). 
+&lt;LI&gt;Možnosť&amp;nbsp;&lt;A href="06901091-ca91-46ba-8a98-f3183d00bb63"&gt;vytvárať a evidovať rezervácie tovaru (skladových položiek)&lt;/A&gt;. 
+&lt;LI&gt;Možnosť&amp;nbsp;&lt;A href="61edd121-1efe-4a14-907c-8c8a18cc4539"&gt;tlače cenoviek a etikiet&lt;/A&gt;.
+&lt;LI&gt;Možnosť&amp;nbsp;zadať (evidovať) údaje potrebné na správnu expedíciu tovaru zo skladu, t. j. počet a typ balíkov, ich hmotnosť, poznámku. 
+&lt;LI&gt;Jednoduché kopírovanie záznamov (&lt;EM&gt;Ctrl+C, Ctrl+V&lt;/EM&gt;). &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Užitočné funkcie&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Podpora&amp;nbsp;&lt;A href="00777364-8b56-4ec5-b5ce-b302f3f384a3"&gt;evidencie a predaja spotrebiteľských balení liehu (SBL)&lt;/A&gt;. 
+&lt;LI&gt;&lt;A href="f65d09c4-6f7e-42a3-8ae5-3cda89534c06"&gt;Automatická tvorba objednávok&lt;/A&gt;, a to&amp;nbsp;podľa evidovaných prijatých objednávok a aktuálneho stavu zásob. 
+&lt;LI&gt;Podpora&amp;nbsp;&lt;A href="6c98a377-1b88-4eb8-801b-1f168641373b"&gt;vernostných (zľavových) systémov&lt;/A&gt;. 
+&lt;LI&gt;Široká škála podporovaných&amp;nbsp;pripojiteľných &lt;A href="04b8d290-1470-41ff-85a1-c44a20958841"&gt;fiškálnych zariadení&lt;/A&gt;. 
+&lt;LI&gt;Prepracovaný systém&amp;nbsp;&lt;A href="79f53c12-0f9d-46c1-b039-2a412e1671f0"&gt;inventúry&lt;/A&gt;, tlač manka, prebytku a pod. Zadávanie fyzických množstiev je možné aj pomocou mobilnej aplikácie&amp;nbsp;&lt;A href="be17efdf-4b36-4b47-ad5d-09b0f66c8f65"&gt;ASTON - mobilný skladník&lt;/A&gt; alebo webovej aplikácie&amp;nbsp;&lt;A href="b138daad-5453-4e53-8d2c-ecf2e81a5fcb"&gt;OBERON Web&lt;/A&gt;. 
+&lt;LI&gt;Možnosť členenia dokladov pomocou stromovej štruktúry (ak&amp;nbsp;chceme členiť doklady&amp;nbsp;podľa rôznych činností účtovných jednotiek, napr. z predaja a služieb). 
+&lt;LI&gt;Pokročilá&amp;nbsp;&lt;A href="7417bb5c-568f-4291-bbb9-0e5872ad6299"&gt;práca s mernými jednotkami&lt;/A&gt; (možnosť definovať vlastné merné jednotky, práca s alternatívnymi mernými jednotkami...). 
+&lt;LI&gt;Možnosť&amp;nbsp;&lt;A href="7417bb5c-568f-4291-bbb9-0e5872ad6299"&gt;prijímať/vydávať tovar vo väčších vratných alebo nevratných baleniach&lt;/A&gt; (napr. paleta obsahuje 60&amp;nbsp;kartónov mlieka po 12 ks pod.), čo uľahčuje príjem a výdaj tovaru najmä vo veľkoobchode. 
+&lt;LI&gt;&lt;A href="0cbf9ae9-1760-4f87-89be-559b62ee193b"&gt;Zálohovanie vratných obalov&lt;/A&gt;&amp;nbsp;- bežných (napr. pivové fľaše, prepravky, palety a pod.) aj jednorazových (plastová fľaša PET, plechovka). 
+&lt;LI&gt;Možnosť &lt;STRONG&gt;automatického vkladania viazanej položky do&amp;nbsp;dokladu&lt;/STRONG&gt; (príjemka, výdajka...) - napr.&amp;nbsp;pri výdaji &lt;A href="0cbf9ae9-1760-4f87-89be-559b62ee193b"&gt;zálohovaných vratných obalov&lt;/A&gt; alebo&amp;nbsp;pri&amp;nbsp;&lt;A href="1619ae25-859c-4a39-a28b-ccdcc430f6a3"&gt;príjme, resp. výdaji tovaru v baleniach&lt;/A&gt;&amp;nbsp;(pri predaji napr. nápoja sa do dokladu automaticky pridá vratný obal (fľaša), prípadne aj balenie (prepravka)). 
+&lt;LI&gt;Pokročilá&amp;nbsp;&lt;A href="86ce651c-2637-4165-93b4-36535a700fbf"&gt;práca s čiarovými kódmi&lt;/A&gt;&amp;nbsp;(bežný EAN kód, vážený čiarový kód, čiarový kód GS1 - štandard (norma) používaná napr. v zdravotníctve atď.). 
+&lt;LI&gt;Podpora&amp;nbsp;&lt;A href="78bceae1-1cc7-4e31-a232-24b38044c3d0"&gt;komisionálneho predaja&lt;/A&gt; - evidencia na strane prijatých tovarov na komisionálny predaj, prípadne poskytnutých na komisionálny predaj. 
+&lt;LI&gt;Podpora funkcie &lt;EM&gt;Drag&amp;amp;Drop&lt;/EM&gt; na jednoduché a rýchle vkladanie&amp;nbsp;obrázkov v rôznych formátoch (napr. jednoduchým potiahnutím myši je možné pripojiť ku skladovej karte obrázok z internetového prehliadača, prípadne&amp;nbsp;z celého radu aplikácií podporovaných systémom &lt;EM&gt;Windows&lt;/EM&gt;, ako sú &lt;EM&gt;Messenger, WhatsApp, Discord&lt;/EM&gt; atď.). &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Zaujímavé vlastnosti&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Prepojenie s&amp;nbsp;mobilnou aplikáciou&amp;nbsp;&lt;A href="be17efdf-4b36-4b47-ad5d-09b0f66c8f65"&gt;ASTON - mobilný skladník&lt;/A&gt; na všestrannú prácu v&amp;nbsp;sklade. 
+&lt;LI&gt;Priame prepojenie s&amp;nbsp;internetovým obchodom&amp;nbsp;&lt;A href="7437cbeb-c6d1-4b19-92ee-150ba8e4097f"&gt;PrestaShop&lt;/A&gt;. 
+&lt;LI&gt;Možnosť prepojenia s&amp;nbsp;ďalšími&amp;nbsp;&lt;A href="2ba6a435-be52-46a1-b723-fb2b8ca084c0"&gt;on-line a off-line internetovými obchodmi&lt;/A&gt;. 
+&lt;LI&gt;Možnosť evidovať&amp;nbsp;&lt;A href="945b74ea-31f8-44e7-baef-ffb5fc136b05"&gt;reklamácie a servisné opravy&lt;/A&gt;. 
+&lt;LI&gt;Možnosť&amp;nbsp;&lt;A href="8c3cc66a-acbb-4047-aad2-b06170ec7fb5"&gt;nadefinovať položky denného menu&lt;/A&gt;. 
+&lt;LI&gt;Možnosť obmedziť výdaj materiálu (tovaru) zo skladu pre daného odberateľa pomocou tzv.&amp;nbsp;&lt;A href="96fd7619-32d2-462b-bad8-6f986dc4c6b2"&gt;kredit limitu&lt;/A&gt;. 
+&lt;LI&gt;Možnosť importovať a exportovať údaje pomocou &lt;A href="56f661c6-24da-46aa-b157-5d988cbe792b"&gt;XML komunikácie&lt;/A&gt;. 
+&lt;LI&gt;Interaktívne grafické znázornenie &lt;STRONG&gt;väzieb medzi dokumentmi&lt;/STRONG&gt; (záznamami) na kontrolu správnosti zaevidovania záznamov, napr. medzi skladovým pohybom a&amp;nbsp;pokladničným dokladom. 
+&lt;LI&gt;Prepracovaný systém&amp;nbsp;&lt;A href="834e9546-a56b-476f-9028-ef4c24a82345"&gt;práv používateľov&lt;/A&gt;, či už v jednopoužívateľskej alebo &lt;A href="9c0e1613-bfdc-48f6-9d03-58aba39dab36"&gt;sieťovej&lt;/A&gt; prevádzke. 
+&lt;LI&gt;&lt;A href="bc30e126-afb5-41aa-a261-e92501038063"&gt;Sledovanie činností&lt;/A&gt; - automaticky zaznamenáva činnosti a udalosti&amp;nbsp;pri práci so systémom OBERON, napr. vytvorenie skladovej karty, manuálna zmena predajnej ceny na skladovej karte a pod. 
+&lt;LI&gt;Celý rad funkcií dostupných vďaka&amp;nbsp;&lt;A href="58bb31ca-00c8-4641-ad99-7d58e24f59c5"&gt;webovým službám&lt;/A&gt;&amp;nbsp;- viac informácií v&amp;nbsp;téme&amp;nbsp;&lt;A href="78d20602-4b59-4b31-9f0a-a04a1d376ec5"&gt;Skladová evidencia - všeobecne o koncepcii&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="d07966ac-dff9-4b7c-b05f-9eed1c2f7204" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="78d20602-4b59-4b31-9f0a-a04a1d376ec5">
+      <Title m="2023-07-06T08:45:27.5379452Z">Skladová evidencia - všeobecne o koncepcii</Title>
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="247daf83-df20-4c97-a960-ab10181bda3d" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="66d035b9-3aac-4820-8bba-a449c83c0851">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="a346f5b6-613a-4a42-951c-ac3b62448bdb">
+      <Keyword m="2015-05-27T06:37:56.9355468Z">Základné možnosti - Skladová evidencia</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="73c908b4-0ef8-4624-a78d-0d35f215acdf">
+      <Keyword m="2023-07-06T08:46:01.0638035Z"> Skladová evidencia - základné možnosti</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

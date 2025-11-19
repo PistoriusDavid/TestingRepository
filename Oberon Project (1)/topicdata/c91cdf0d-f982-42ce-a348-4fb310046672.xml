@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="c91cdf0d-f982-42ce-a348-4fb310046672" Status="Complete" CreatedOn="2014-09-11T11:03:08.8210224Z" ModifiedOn="2024-05-15T06:49:35.7825481Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Stock_Advanced_Orders_About" BuildFlags="">
+  <Title m="2021-09-17T06:10:02.9312422Z">Všeobecne o objednávkach</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-05-15T06:49:35.7825481Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;všeobecné informácie o&amp;nbsp;objednávkach&lt;/STRONG&gt; v&amp;nbsp;systéme OBERON. Príslušné evidencie sú v programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt; dostupné v&amp;nbsp;ponuke &lt;EM&gt;Fakturácia&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Systém OBERON umožňuje prácu s&amp;nbsp;objednávkami. Aby bolo možné s&amp;nbsp;objednávkami&amp;nbsp;v&amp;nbsp;systéme OBERON pracovať, je potrebné v&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="58eee6a7-b5aa-47a5-9d0e-6f9987c96a52"&gt;oddiel Firma, Sklad&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt; záložka &lt;EM&gt;Skladové karty&lt;/EM&gt; začiarknuť pole &lt;I&gt;&lt;STRONG&gt;Umožniť pracovať&amp;nbsp;s&amp;nbsp;objednávkami&lt;/STRONG&gt;.&lt;/I&gt; 
+&lt;LI&gt;V OBERON-e možno rýchlo a jednoducho vytvárať&amp;nbsp;a evidovať: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;A href="a93948ab-009e-4c8c-9467-60d60a3eb342"&gt;objednávky vydané&lt;/A&gt; - objednávky na objednanie tovaru alebo služby u dodávateľa, 
+&lt;LI&gt;&lt;A href="48505e8d-5f28-4063-882b-ca07f33670ef"&gt;objednávky prijaté&lt;/A&gt; - objednávky, ktorými si zákazník&amp;nbsp;objednáva tovar alebo službu u účtovnej jednotky. Objednávky prijaté&amp;nbsp;je možné rozdeliť na &lt;EM&gt;&lt;STRONG&gt;Ponuky&lt;/STRONG&gt;&lt;/EM&gt; a&amp;nbsp;&lt;EM&gt;&lt;STRONG&gt;Objednávky&lt;/STRONG&gt;&lt;/EM&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Pri&amp;nbsp;objednávkach je možné &lt;STRONG&gt;evidovať rôzne stavy&lt;/STRONG&gt;.&amp;nbsp;Stav&amp;nbsp;objednávky vyjadruje, v akej fáze vybavenia sa&amp;nbsp;objednávka nachádza, napr. &lt;EM&gt;Nová objednávka, Potrebné objednať, Potrebné vyskladniť, Odoslaná, Vybavená&lt;/EM&gt; atď. Bližšie informácie o&amp;nbsp;stavoch prijatých objednávok získate v téme &lt;A href="e3603367-ba3b-4944-b731-0d81cb121c61" style="auto-update-caption: true"&gt;Typy stavov prijatých objednávok&lt;/A&gt;. 
+&lt;LI&gt;Objednávky možno vystaviť/zaevidovať bez ceny, alebo s cenou. 
+&lt;LI&gt;Vydané objednávky možno vytvárať manuálne, ale aj automaticky pomocou&amp;nbsp;&lt;A href="f65d09c4-6f7e-42a3-8ae5-3cda89534c06"&gt;automatickej tvorby vydaných objednávok&lt;/A&gt;. 
+&lt;LI&gt;Objednávky možno rýchlo a&amp;nbsp;jednoducho vytvárať skopírovaním staršej objednávky (&lt;EM&gt;Ctrl+C/Ctrl+V&lt;/EM&gt;). 
+&lt;LI&gt;Do objednávok je možné vkladať&amp;nbsp;&lt;A href="1a33ab0b-2df7-4dc2-962b-8a3319c16831"&gt;skladové karty&lt;/A&gt;, ale aj neskladové položky. Neskladové položky sú označené ikonou &lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_NonStockCardItem.png"&gt;. 
+&lt;LI&gt;Objednávky/ponuky&amp;nbsp;je možné&amp;nbsp;uložiť do formátu PDF, prípadne&amp;nbsp;ich možno odoslať e-mailom ako&amp;nbsp;prílohu vo formáte PDF podpísanú elektronickým podpisom&amp;nbsp;(tlačidlo &lt;EM&gt;Tlač&lt;/EM&gt;). Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="e06c0c09-80ea-4083-8f6a-5a49a3fc9474" style="auto-update-caption: true"&gt;Odosielanie e-mailov v systéme OBERON&lt;/A&gt;. 
+&lt;LI&gt;Evidencia&amp;nbsp;&lt;A href="48505e8d-5f28-4063-882b-ca07f33670ef"&gt;prijatých objednávok&lt;/A&gt; je veľmi často prepojená&amp;nbsp;s&amp;nbsp;internetovým obchodom - vtedy sa objednávky prenášajú z internetového obchodu priamo do evidencie prijatých&amp;nbsp;objednávok, viac informácií je možné získať v&amp;nbsp;téme&amp;nbsp;&lt;A href="2ba6a435-be52-46a1-b723-fb2b8ca084c0" style="auto-update-caption: true"&gt;Internetový obchod v systéme OBERON&lt;/A&gt;. 
+&lt;LI&gt;V prijatých objednávkach možno &lt;STRONG&gt;zobraziť dostupnosť množstiev&lt;/STRONG&gt; objednaných položiek.
+&lt;LI&gt;V prijatých objednávkach je možné evidovať aj ich úhradu - evidencia úhrad môže byť aj automatická, viac informácií je možné získať v téme&amp;nbsp;&lt;A href="02bbf54b-086f-4641-8c33-4dd461e56fb4" style="auto-update-caption: true"&gt;Spracovanie bankových výpisov&lt;/A&gt;.
+&lt;LI&gt;V&amp;nbsp;evidencii&amp;nbsp;&lt;A href="1a33ab0b-2df7-4dc2-962b-8a3319c16831" style="auto-update-caption: true"&gt;Skladové karty&lt;/A&gt; možno &lt;STRONG&gt;zobraziť&lt;/STRONG&gt;&amp;nbsp;&lt;STRONG&gt;nevybavené objednávky &lt;/STRONG&gt;(tlačidlo &lt;EM&gt;Možnosti&lt;/EM&gt;). Dvojklikom na pole &lt;EM&gt;Množstvo objednané&lt;/EM&gt; možno zároveň &lt;STRONG&gt;zobraziť odberateľov&lt;/STRONG&gt;, ktorí si objednali danú skladovú položku. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Ďalšie informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Prijaté objednávky môžu slúžiť aj na &lt;STRONG&gt;rezerváciu skladových položiek&lt;/STRONG&gt;. Bližšie informácie o&amp;nbsp;rezerváciách získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="06901091-ca91-46ba-8a98-f3183d00bb63" style="auto-update-caption: true"&gt;Rezervácie tovaru&lt;/A&gt;. 
+&lt;LI&gt;Objednávky je možné &lt;STRONG&gt;hromadne odstrániť k určitému dátumu&lt;/STRONG&gt;. Vymažú sa všetky objednávky vytvorené pred zadaným dátumom bez ohľadu na ich stav. V&amp;nbsp;ponuke&amp;nbsp;&lt;EM&gt;Fakturácia,&amp;nbsp;&lt;/EM&gt;&lt;A href="48505e8d-5f28-4063-882b-ca07f33670ef"&gt;Objednávky prijaté&lt;/A&gt; alebo&amp;nbsp;&lt;A href="a93948ab-009e-4c8c-9467-60d60a3eb342"&gt;Objednávky vydané&lt;/A&gt; kliknite na tlačidlo &lt;EM&gt;Možnosti&lt;/EM&gt;, vyberte možnosť &lt;EM&gt;Hromadné vymazanie objednávok&lt;/EM&gt; a postupujte podľa sprievodcu. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Práca s množstvami&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Systém OBERON umožňuje pri &lt;A href="48505e8d-5f28-4063-882b-ca07f33670ef"&gt;objednávkach prijatých&lt;/A&gt;&amp;nbsp;evidovať &lt;STRONG&gt;množstvo rezervované, množstvo pripravené&lt;/STRONG&gt; a &lt;STRONG&gt;množstvo dodané&lt;/STRONG&gt;. Informácia o rezervovanom, pripravenom a dodanom množstve sa&amp;nbsp;eviduje pri danej skladovej položke vo&amp;nbsp;&lt;A href="6712889d-bea7-4ae7-859d-82b809c7bdcc"&gt;formulári Objednávka prijatá&lt;/A&gt;, záložka &lt;EM&gt;Položky&amp;nbsp;dokladu&lt;/EM&gt;. 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Množstvo rezervované&lt;/STRONG&gt;&amp;nbsp;- eviduje množstvo vytvorené pri rezervácii tovaru. Postup na vytvorenie rezervácie je totožný s&amp;nbsp;&lt;A href="a9a8c655-077e-45cb-acb3-8fdb105a2409"&gt;postupom na vytvorenie prijatej objednávky&lt;/A&gt; s tým rozdielom, že sa vyplní pole &lt;EM&gt;&lt;STRONG&gt;Dátum rezervácie&lt;/STRONG&gt;&lt;/EM&gt;. Rezervovať tovar je možné v prijatej objednávke (nie&amp;nbsp;pri type dokladu &lt;EM&gt;Ponuka&lt;/EM&gt;).&amp;nbsp;Bližšie informácie o rezerváciách získate v téme&amp;nbsp;&lt;A href="06901091-ca91-46ba-8a98-f3183d00bb63" style="auto-update-caption: true"&gt;Rezervácie tovaru&lt;/A&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;Množstvo pripravené&lt;/STRONG&gt; - eviduje množstvo pripravené na vyskladnenie. Pripravené množstvo sa zaeviduje podľa reálneho množstva danej položky v sklade. Následne sa účtovná jednotka rozhodne,&amp;nbsp;ako sa bude s&amp;nbsp;danou objednávkou ďalej pracovať, napr. sa vybaví len čiastočne&amp;nbsp;(čiastočne dodaná). Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="2392223e-1a44-40e3-98a0-dfb1872ba86e" style="auto-update-caption: true"&gt;Sledovanie pripravenosti tovaru&lt;/A&gt;. Na zaevidovanie pripraveného množstva sa spravidla používa mobilná aplikácia&amp;nbsp;&lt;A href="be17efdf-4b36-4b47-ad5d-09b0f66c8f65"&gt;ASTON - mobilný skladník&lt;/A&gt;. Viac informácií&amp;nbsp;nájdete v&amp;nbsp;téme&amp;nbsp;&lt;A href="7b93ec65-6370-4d92-ba17-c1200cd1e203" style="auto-update-caption: true"&gt;ASTON - sledovanie pripravenosti tovaru&lt;/A&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;Množstvo dodané&lt;/STRONG&gt; - program ho dopĺňa automaticky po vložení prijatej objednávky do dokladu (výdajky, faktúry, pokladničného dokladu). Ak bolo dodanie (dodané množstvo) následne upravené&amp;nbsp;(spravidla pri&amp;nbsp;&lt;A href="e3603367-ba3b-4944-b731-0d81cb121c61"&gt;čiastočne dodanej prijatej objednávke&lt;/A&gt;, napr. pre nedostatok&amp;nbsp;množstva na sklade), dodané množstvo sa automaticky upraví aj v&amp;nbsp;prijatej objednávke. Ak je objednávka vybavená len čiastočne, pomocou funkcie &lt;EM&gt;&lt;STRONG&gt;Uzatvoriť a vytvoriť z nedodaných množstiev novú&lt;/STRONG&gt;&lt;/EM&gt; (tlačidlo &lt;EM&gt;Možnosti&lt;/EM&gt; v&amp;nbsp;knihe&amp;nbsp;&lt;A href="48505e8d-5f28-4063-882b-ca07f33670ef"&gt;Objednávky prijaté&lt;/A&gt;) je možné objednávku uzatvoriť so stavom &lt;EM&gt;Vybavená&lt;/EM&gt; a vytvoriť novú objednávku z pôvodnej čiastočne vybavenej objednávky. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;V praxi sa&amp;nbsp;spravidla stretávame s týmito spôsobmi (postupmi) vybavenia prijatej objednávky: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;A.&lt;/STRONG&gt;&amp;nbsp;&lt;STRONG&gt;z&amp;nbsp;objednávky prijatej&amp;nbsp;sa najprv vytvorí výdajka&lt;/STRONG&gt;, na základe ktorej sa bude môcť tovar vyskladniť (&lt;A href="d846e034-8068-4f77-a764-6d26c438e66a"&gt;sledovať vyskladnenosť je možné aj pomocou aplikácie ASTON&lt;/A&gt;), 
+&lt;LI&gt;&lt;STRONG&gt;B.&lt;/STRONG&gt; &lt;STRONG&gt;na základe objednávky prijatej&amp;nbsp;sa tovar fyzicky v sklade pripraví na vyskladnenie&lt;/STRONG&gt; a až následne sa&amp;nbsp;objednávka vloží do dokladu (výdajky, faktúry, pokladničného dokladu). Tento postup má výhodu v&amp;nbsp;tom, že sa &lt;STRONG&gt;najprv fyzicky overí dostupnosť množstva v&amp;nbsp;sklade a&amp;nbsp;až potom sa vytvorí doklad&lt;/STRONG&gt;. Tým možno predísť opravám dokladov, ak sa po ich vystavení zistí nedostatočné množstvo tovaru v sklade. Viac informácií&amp;nbsp;o&amp;nbsp;sledovaní pripravenosti tovaru v sklade, ako aj&amp;nbsp;postup zápisu množstva pripraveného tovaru v systéme OBERON získate v&amp;nbsp;témach&amp;nbsp;&lt;A href="2392223e-1a44-40e3-98a0-dfb1872ba86e" style="auto-update-caption: true"&gt;Sledovanie pripravenosti tovaru&lt;/A&gt;&amp;nbsp;a &lt;A href="7b93ec65-6370-4d92-ba17-c1200cd1e203" style="auto-update-caption: true"&gt;ASTON - sledovanie pripravenosti tovaru&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;OBERON&amp;nbsp;umožňuje automatickú tvorbu vydaných objednávok. Podklady pre tvorbu objednávok tvoria minimálne a maximálne množstvá evidované na&amp;nbsp;&lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;skladových kartách&lt;/A&gt;, prípadne aj&amp;nbsp;ešte nevybavené prijaté objednávky. Bližšie informácie získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="f65d09c4-6f7e-42a3-8ae5-3cda89534c06" style="auto-update-caption: true"&gt;Automatická tvorba objednávok&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="45c5f26d-47cd-44f3-8815-6f7d079b904e" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="a93948ab-009e-4c8c-9467-60d60a3eb342">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="99a7396f-3413-45ee-87dd-22ad3005e61a" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="48505e8d-5f28-4063-882b-ca07f33670ef">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="c26f012f-0a9c-40c2-9f7d-f2513b1c6d8a" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="e3603367-ba3b-4944-b731-0d81cb121c61">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="b19982c5-52d4-4bd8-ab4c-05bcbe8cfbb7" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="a9a8c655-077e-45cb-acb3-8fdb105a2409">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="2e12b32a-8f26-43eb-9947-013f39ae7123" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="f65d09c4-6f7e-42a3-8ae5-3cda89534c06">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="5d204ecf-d85d-478e-a7bf-ea03adc6b100" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="2392223e-1a44-40e3-98a0-dfb1872ba86e">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="e9d2a887-e782-4629-9614-d345fd3638a1" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="d846e034-8068-4f77-a764-6d26c438e66a">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="849ec450-c233-4d01-83c3-d02208201909" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="a1f7821c-ea35-44fa-a009-326418d87a95">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="ceea9257-858b-4e1e-9e0b-407ec110b1ba" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="2ba6a435-be52-46a1-b723-fb2b8ca084c0">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="cfbbc28b-ae22-4380-bacb-dec92dd2edce">
+      <Keyword m="2021-09-13T12:58:28.2324609Z">Objednávky - všeobecné informácie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="90b93ce7-0935-4f6a-9f50-0f6e73983e8f">
+      <Keyword m="2021-09-13T12:58:47.6845536Z">Ponuky - všeobecné informácie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="7cdf6254-dafa-4cc5-8bb4-49d9c3629d9a">
+      <Keyword m="2023-08-22T10:36:32.2124009Z">Rezervované množstvo - objednávky</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="75de24de-52d4-409c-85c5-6f78b79e60bf">
+      <Keyword m="2023-08-22T10:36:45.4461594Z">Dodané množstvo - objednávky</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="6bf3311d-78d0-477c-80ea-3f19fc756873">
+      <Keyword m="2023-08-22T10:37:24.7871479Z">Pripravené množstvo - objednávky</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="03527c59-3bc3-46ad-abc4-a55dc4a49c86">
+      <Keyword m="2023-09-06T06:26:10.7420198Z">Práca s množstvami - objednávky prijaté</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

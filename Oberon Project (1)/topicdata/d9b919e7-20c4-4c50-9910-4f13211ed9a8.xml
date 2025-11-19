@@ -1,0 +1,498 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="d9b919e7-20c4-4c50-9910-4f13211ed9a8" Status="Complete" CreatedOn="2019-07-10T07:05:59.4238851Z" ModifiedOn="2025-03-17T06:58:19.3056649Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Devices_CashDevicesSupported" BuildFlags="">
+  <Title m="2019-07-10T07:10:08.459959Z">Podporované registračné pokladnice</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2025-03-17T06:58:19.3056649Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;prehľad registračných pokladníc,&amp;nbsp;t.&amp;nbsp;j. fiškálnych zariadení&lt;/STRONG&gt;&amp;nbsp;podporovaných v&amp;nbsp;systéme OBERON.&lt;/P&gt;
+&lt;H2&gt;1. On-line registračné pokladnice (ORP)&lt;/H2&gt;
+&lt;P&gt;Z&amp;nbsp;legislatívneho hľadiska systém OBERON podporuje&amp;nbsp;tieto&amp;nbsp;fiškálne zariadenia &lt;B&gt;vyhovujúce&lt;/B&gt; zákonu, ktorým sa mení a dopĺňa &lt;EM&gt;Zákon 289/2008 Z. z. o používaní elektronickej registračnej pokladnice&lt;/EM&gt; a&amp;nbsp;&lt;EM&gt;Zákon 511/1992 Zb. o&amp;nbsp;správe daní a poplatkov&lt;/EM&gt;:&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;&lt;SPAN&gt;A)&lt;/SPAN&gt; Fiškálne tlačiarne:&lt;/STRONG&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;A href="00fa9619-a13d-4745-8938-cc0c2b5039ce"&gt;eKasa PANDORA&lt;/A&gt;&amp;nbsp;&lt;A href="1f32a90c-7b4a-4d69-9f38-a560178794b3" style="auto-update-caption: true"&gt;&lt;IMG border=0 alt="Odporúčané riešenia" src="images/OBERON/Basic/Odporucane-riesenie_ruka_ikona.png"&gt;&lt;/A&gt;&amp;nbsp;- pre používateľov OBERON-u je&amp;nbsp;&lt;A href="1f32a90c-7b4a-4d69-9f38-a560178794b3"&gt;odporúčanou&lt;/A&gt;&amp;nbsp;fiškálnou tlačiarňou,&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;A href="b1c5bcba-0d5d-4543-955f-bef5ebcd30ed"&gt;EFox-T Elcom RP80&lt;/A&gt;&amp;nbsp;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;(&lt;/SPAN&gt;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;zariadenie je podporované bez garancie ďalších úprav v komunikačnom protokole na základe budúcich aktualizácií firmvéru)&lt;/SPAN&gt;&lt;SPAN&gt;&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;A href="88774d27-941a-4924-a7c3-793588d21523"&gt;Pegas FM-06 eKasa&lt;/A&gt;&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;A href="9d32ac6a-62c8-4740-b603-a4a63c990b43"&gt;Pegassino Printer&lt;/A&gt;&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;A href="95da6649-0c97-4ca6-8253-47b62c0153ea"&gt;VAROS FT4000B&lt;/A&gt;&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;A href="4281d5ab-ba5e-4733-bdd1-665d32ecf729"&gt;VAROS FT5000B&lt;/A&gt;&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;A href="a7b7005c-b8d1-4ecd-862a-996128b685a9"&gt;FiskalPRO eKasa&lt;/A&gt;&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;A href="c111b0dd-b673-4f62-a306-dfbabdd8d697"&gt;FiskalPRO Android eKasa&lt;/A&gt;&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;A href="50a20232-b2c6-4814-9cdb-b8ee5ce35e3e"&gt;Easy-Pos.eKasa&lt;/A&gt;&amp;nbsp;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;(&lt;/SPAN&gt;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;zariadenie je podporované bez garancie ďalších úprav v komunikačnom protokole na základe budúcich aktualizácií firmvéru)&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&lt;SPAN&gt;&lt;STRONG&gt;B)&amp;nbsp;Registračné pokladnice v režime on-line (používané vo funkcii fiškálnej tlačiarne):&lt;/STRONG&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;A href="1842a08e-25ff-465b-8e26-0803ca7282f7"&gt;Euro-50i/o v režime on-line&lt;/A&gt;&amp;nbsp;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;(&lt;/SPAN&gt;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;zariadenie je podporované bez garancie ďalších úprav v komunikačnom protokole na základe budúcich aktualizácií firmvéru)&lt;/SPAN&gt;&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;A href="3e3b84bf-fa0a-4acc-8c8d-80b2bd0ad2c6"&gt;Euro-150i/o v režime on-line&lt;/A&gt;&amp;nbsp;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;(&lt;/SPAN&gt;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;zariadenie je podporované bez garancie ďalších úprav v komunikačnom protokole na základe budúcich aktualizácií firmvéru)&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P dir=ltr&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;STRONG&gt;C)&amp;nbsp;Registračné pokladnice v režime off-line:&lt;/STRONG&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P dir=ltr&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;A href="47095cae-f96e-42d3-a8ff-622bb53d61ba"&gt;Euro-50i/o&lt;/A&gt;&amp;nbsp;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;(&lt;/SPAN&gt;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;zariadenie je podporované bez garancie ďalších úprav v komunikačnom protokole na základe budúcich aktualizácií firmvéru)&lt;/SPAN&gt;&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;A href="d348b00e-f048-47ec-a3d9-3f7cefcc177e"&gt;Euro-150i/o&lt;/A&gt;&amp;nbsp;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;(&lt;/SPAN&gt;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;zariadenie je podporované bez garancie ďalších úprav v komunikačnom protokole na základe budúcich aktualizácií firmvéru)&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P dir=ltr&gt;&lt;SPAN&gt;&lt;B&gt;D)&lt;/B&gt; Fiškálne riešenia platné pre iné štáty ako &lt;EM&gt;Slovenská republika&lt;/EM&gt;:&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;A href="c1e30fa4-f96a-460c-9ed5-33fc343797bf" style="auto-update-caption: true"&gt;Fiscal UNI (CZ)&lt;/A&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P dir=ltr&gt;&lt;SPAN&gt;&lt;STRONG&gt;E)&lt;/STRONG&gt; &lt;SPAN&gt;Softvérové fiškálne zariadenie&lt;/SPAN&gt;&amp;nbsp;na skúšobné účely&amp;nbsp;&lt;A href="30dd45fc-685d-4adf-a959-f87840e12c7f"&gt;Fiscal UNI (SK)&lt;/A&gt;.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P dir=ltr&gt;&lt;SPAN&gt;&lt;B&gt;F)&lt;/B&gt; Fiškálne&amp;nbsp;tlačiarne pripojené formou univerzálneho rozhrania&lt;/SPAN&gt; &lt;A href="5442590e-2d9a-4550-984d-e5b23f239d05"&gt;Fiscal Universal Interface&lt;/A&gt;.&lt;/P&gt;
+&lt;H2 dir=ltr&gt;Porovnanie podporovaných registračných pokladníc&lt;/H2&gt;
+&lt;TABLE id=table2 borderColor=silver cellSpacing=0 cellPadding=2 width="50%" border=1&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TD width="7%"&gt;&lt;/TD&gt;
+&lt;TD bgColor=#d9e1f2 width="3%" align=center&gt;&lt;B style="COLOR: rgb(0,0,0)"&gt;eKasa PANDORA&lt;/B&gt;&lt;/TD&gt;
+&lt;TD bgColor=#d9e1f2 width="3%" align=center&gt;&lt;B&gt;Pegas FM-06 eKasa&lt;/B&gt;&lt;/TD&gt;
+&lt;TD bgColor=#d9e1f2 width="3%" align=center&gt;&lt;B&gt;Pegassino Printer&lt;/B&gt;&lt;/TD&gt;
+&lt;TD bgColor=#d9e1f2 width="3%" align=center&gt;&lt;B&gt;VAROS FT4000B&lt;/B&gt;&lt;/TD&gt;
+&lt;TD bgColor=#d9e1f2 width="3%" align=center&gt;&lt;B&gt;VAROS FT5000B&lt;/B&gt;&lt;/TD&gt;
+&lt;TD bgColor=#d9e1f2 width="3%" align=center&gt;&lt;B&gt;FiskalPRO eKasa&lt;/B&gt;&lt;/TD&gt;
+&lt;TD bgColor=#d9e1f2 width="3%" align=center&gt;&lt;B&gt;FiskalPRO Android eKasa&lt;/B&gt;&lt;/TD&gt;
+&lt;TD bgColor=#d9e1f2 width="3%" align=center&gt;&lt;B style="COLOR: rgb(127,127,127)"&gt;Easy-Pos.eKasa&lt;/B&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(127,127,127)" bgColor=#d9e1f2 width="3%" align=center&gt;&lt;STRONG&gt;Euro-50i/o, Euro-50/o&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(127,127,127)" bgColor=#d9e1f2 width="3%" align=center&gt;&lt;STRONG&gt;Euro-150i/o,&lt;BR&gt;Euro-150/o&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD bgColor=#d9e1f2 width="3%" align=center&gt;&lt;B style="COLOR: rgb(127,127,127)"&gt;Efox/o – T Elcom RP80&amp;nbsp;**&lt;/B&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;B&gt;Výrobca&lt;/B&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(191,191,191)" align=center&gt;&lt;A href="https://exalogic.sk/" target=_blank&gt;EXALOGIC, s.r.o.&lt;/A&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;A href="http://www.bowa.sk/" target=_blank&gt;BOWA s.r.o.&lt;/A&gt;&lt;BR&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN lang=en-us&gt;&lt;A href="http://www.bowa.sk/" target=_blank&gt;BOWA s.r.o.&lt;/A&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN lang=en-us&gt;&lt;SPAN lang=en-us&gt;&lt;SPAN lang=en-us&gt;&lt;A href="http://www.varos.sk/" target=_blank&gt;VAROS TECHNOLOGY, s.r.o.&lt;/A&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN lang=en-us&gt;&lt;SPAN lang=en-us&gt;&lt;A href="http://www.varos.sk/" target=_blank&gt;VAROS TECHNOLOGY, s.r.o.&lt;/A&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P&gt;&lt;SPAN lang=en-us&gt;&lt;SPAN lang=en-us&gt;&lt;SPAN lang=en-us&gt;&lt;A href="http://www.fiskalpro.sk/" target=_blank&gt;A3 Soft s.r.o.&lt;/A&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P&gt;&lt;SPAN lang=en-us&gt;&lt;SPAN lang=en-us&gt;&lt;SPAN lang=en-us&gt;&lt;A href="http://www.fiskalpro.sk/" target=_blank&gt;A3 Soft s.r.o.&lt;/A&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN lang=en-us&gt;&lt;SPAN&gt;&lt;SPAN lang=en-us&gt;&lt;A href="http://www.sasro.sk/" target=_blank&gt;&lt;/A&gt;&lt;A style="COLOR: rgb(127,127,127)" href="http://www.sasro.sk/" target=_blank&gt;S.A. spol. s r.o.&lt;/A&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;A href="http://www.elcom.sk/"&gt;&lt;/A&gt;&lt;A style="COLOR: rgb(127,127,127)" href="http://www.elcom.sk/"&gt;ELCOM, s.r.o.&lt;/A&gt;&lt;SPAN lang=en-us&gt;&lt;BR&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN lang=en-us&gt;&lt;SPAN lang=en-us&gt;&lt;A href="http://www.elcom.sk/"&gt;&lt;/A&gt;&lt;A style="COLOR: rgb(127,127,127)" href="http://www.elcom.sk/"&gt;ELCOM, s.r.o.&lt;/A&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN lang=SK&gt;&lt;SPAN lang=en-us&gt;&lt;A style="COLOR: rgb(127,127,127)" href="http://www.elcom.sk/"&gt;ELCOM, s.r.o.&lt;/A&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;B&gt;Výrobca CHDÚ&lt;/B&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(191,191,191)" align=center&gt;&lt;A href="https://exalogic.sk/" target=_blank&gt;EXALOGIC, s.r.o.&lt;/A&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN lang=en-us&gt;&lt;SPAN lang=en-us&gt;&lt;A href="http://www.bowa.sk/" target=_blank&gt;BOWA s.r.o.&lt;/A&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN lang=en-us&gt;&lt;SPAN lang=en-us&gt;&lt;A href="http://www.bowa.sk/" target=_blank&gt;BOWA s.r.o.&lt;/A&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN lang=en-us&gt;&lt;SPAN lang=en-us&gt;&lt;A href="http://www.bowa.sk/" target=_blank&gt;BOWA s.r.o.&lt;/A&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN lang=en-us&gt;&lt;SPAN lang=en-us&gt;&lt;A href="http://www.bowa.sk/" target=_blank&gt;BOWA s.r.o.&lt;/A&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN lang=en-us&gt;&lt;SPAN lang=en-us&gt;&lt;SPAN lang=en-us&gt;&lt;SPAN lang=en-us&gt;&lt;SPAN lang=en-us&gt;&lt;SPAN lang=en-us&gt;&lt;SPAN lang=en-us&gt;&lt;A href="http://www.fiskalpro.sk/" target=_blank&gt;A3 Soft s.r.o.&lt;/A&gt;,&amp;nbsp;&lt;A href="https://chdu.tech/kontakt/" target=_blank&gt;CHDU s.r.o.&lt;/A&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN lang=en-us&gt;&lt;SPAN lang=en-us&gt;&lt;SPAN lang=en-us&gt;&lt;SPAN lang=en-us&gt;&lt;SPAN lang=en-us&gt;&lt;SPAN lang=en-us&gt;&lt;SPAN lang=en-us&gt;&lt;A href="http://www.fiskalpro.sk/" target=_blank&gt;A3 Soft s.r.o.&lt;/A&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN lang=en-us&gt;&lt;SPAN lang=en-us&gt;&lt;SPAN lang=en-us&gt;&lt;SPAN lang=en-us&gt;&lt;SPAN lang=en-us&gt;&lt;A style="COLOR: rgb(127,127,127)" href="https://chdu.tech/kontakt/" target=_blank&gt;CHDU s.r.o.&lt;/A&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;A href="http://www.elcom.sk/"&gt;&lt;/A&gt;&lt;A style="COLOR: rgb(127,127,127)" href="http://www.elcom.sk/"&gt;ELCOM, s.r.o.&lt;/A&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN lang=en-us&gt;&lt;A href="http://www.elcom.sk/"&gt;&lt;/A&gt;&lt;A style="COLOR: rgb(127,127,127)" href="http://www.elcom.sk/"&gt;ELCOM, s.r.o.&lt;/A&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN lang=en-us&gt;&lt;A style="COLOR: rgb(127,127,127)" href="http://www.elcom.sk/"&gt;ELCOM, s.r.o.&lt;/A&gt;&lt;/SPAN&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;B&gt;Spôsob pripojenia (rozhranie)&lt;/B&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=center&gt;LAN&lt;/TD&gt;
+&lt;TD align=center&gt;RS232&lt;/TD&gt;
+&lt;TD align=center&gt;RS232&lt;/TD&gt;
+&lt;TD align=center&gt;RS232, USB&lt;/TD&gt;
+&lt;TD align=center&gt;LAN&lt;/TD&gt;
+&lt;TD align=center&gt;USB, LAN, WiFi&lt;/TD&gt;
+&lt;TD align=center&gt;WiFi, LAN&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(127,127,127)" align=center&gt;USB&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(127,127,127)" align=center&gt;USB&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(127,127,127)" align=center&gt;USB, LAN (Plus)&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN style="COLOR: rgb(127,127,127)"&gt;USB, LAN,&lt;/SPAN&gt;&lt;SPAN style="COLOR: rgb(127,127,127)"&gt;&amp;nbsp;WiFi&lt;/SPAN&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;B&gt;Spôsob komunikácie&lt;/B&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=center&gt;TCP/IP&lt;/TD&gt;
+&lt;TD align=center&gt;TCP/IP&lt;/TD&gt;
+&lt;TD align=center&gt;TCP/IP&lt;/TD&gt;
+&lt;TD align=center&gt;TCP/IP&lt;/TD&gt;
+&lt;TD align=center&gt;TCP/IP&lt;/TD&gt;
+&lt;TD align=center&gt;sériový port, TCP/IP&lt;/TD&gt;
+&lt;TD align=center&gt;TCP/IP&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(127,127,127)" align=center&gt;DLL&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(127,127,127)" align=center&gt;sériový port&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(127,127,127)" align=center&gt;sériový port, TCP/IP (Plus)&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN style="COLOR: rgb(127,127,127)"&gt;sériový port USB, TCPI/IP&lt;/SPAN&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;STRONG&gt;Ovládač&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;ovládač (DLL)&lt;/TD&gt;
+&lt;TD align=center&gt;ovládač (DLL)&lt;/TD&gt;
+&lt;TD align=center&gt;ovládač (DLL)&lt;/TD&gt;
+&lt;TD align=center&gt;ovládač (DLL)&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(127,127,127)" align=center&gt;ovládač (DLL)&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_CrossGrey.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_CrossGrey.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_CrossGrey.png"&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;STRONG&gt;Podpora platidiel (typov platieb)&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_TickGrey.png"&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(127,127,127)" align=center&gt;pevné 3&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(127,127,127)" align=center&gt;pevné 3&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_TickGrey.png"&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;STRONG&gt;Tlač obratov pokladnice (typy platieb)&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_TickGrey.png"&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(127,127,127)" align=center&gt;manuálne&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(127,127,127)" align=center&gt;manuálne&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_TickGrey.png"&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;STRONG&gt;Tlač kumulatívnych obratov podľa stavu na serveri FS&amp;nbsp;SR (typy platieb)&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_CrossGrey.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_CrossGrey.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_CrossGrey.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_CrossGrey.png"&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;STRONG&gt;Priebežná uzávierka&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_TickGrey.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_CrossGrey.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_CrossGrey.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_TickGrey.png"&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;STRONG&gt;Denná uzávierka&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_TickGrey.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_TickGrey.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_TickGrey.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_TickGrey.png"&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;STRONG&gt;Intervalová uzávierka&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_TickGrey.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_CrossGrey.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_CrossGrey.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_CrossGrey.png"&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;STRONG&gt;Evidencia zostatku tržby&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_TickGrey.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_CrossGrey.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_CrossGrey.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_CrossGrey.png"&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;STRONG&gt;Tlač neodoslaných dátových správ (súhrn)&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_CrossGrey.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_CrossGrey.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_CrossGrey.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_CrossGrey.png"&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;STRONG&gt;Tlač nedaňových dokladov&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_TickGrey.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_CrossGrey.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_CrossGrey.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_TickGrey.png"&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;STRONG&gt;Tlač kópie posledného dokladu&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_TickGrey.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_TickGrey.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_TickGrey.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_TickGrey.png"&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;STRONG&gt;Tlač kópie staršieho dokladu&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;BR&gt;&lt;A href="https://portal.fiskalpro.eu/sk/prihlasenie?returnUrl=%2Fsk" target=_blank&gt;on-line portál FiskalPRO&lt;/A&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;BR&gt;&lt;A href="https://portal.fiskalpro.eu/sk/prihlasenie?returnUrl=%2Fsk" target=_blank&gt;on-line portál FiskalPRO&lt;/A&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_CrossGrey.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_CrossGrey.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_CrossGrey.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_CrossGrey.png"&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;STRONG&gt;Plnohodnotné zdieľanie (tlač z&amp;nbsp;viacerých počítačov)&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_CrossGrey.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_CrossGrey.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_CrossGrey.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_CrossGrey.png"&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;STRONG&gt;Tlač mena obsluhy pokladnice&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_TickGrey.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_CrossGrey.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_CrossGrey.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_TickGrey.png"&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;STRONG&gt;Tlač názvu otvoreného účtu&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_TickGrey.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_CrossGrey.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_CrossGrey.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_TickGrey.png"&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;STRONG&gt;Tlač čísla skladovej karty&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_TickGrey.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_TickGrey.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_TickGrey.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_TickGrey.png"&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;STRONG&gt;Tlač kódu položky&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_TickGrey.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_TickGrey.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_TickGrey.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_TickGrey.png"&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;STRONG&gt;Tlač čiarového kódu položky&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_TickGrey.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_CrossGrey.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_CrossGrey.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_TickGrey.png"&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;STRONG&gt;Tlač doplňujúceho popisu zo skladovej karty&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_TickGrey.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_CrossGrey.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_CrossGrey.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_TickGrey.png"&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;STRONG&gt;Tlač výrobného/sériového čísla&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_TickGrey.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_CrossGrey.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_CrossGrey.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_TickGrey.png"&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;STRONG&gt;Tlač údajov o ubytovaní hosťa pri zaevidovaní úhrady hotelového účtu&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_TickGrey.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_CrossGrey.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_CrossGrey.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_TickGrey.png"&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;STRONG&gt;Tlač odberateľa&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_TickGrey.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_CrossGrey.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_CrossGrey.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_TickGrey.png"&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;STRONG&gt;Tlač čísla objednávky z bonovacej knihy&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_TickGrey.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_CrossGrey.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_CrossGrey.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_TickGrey.png"&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;STRONG&gt;Tlač čísla objednávky z bonovacej knihy (ústrižok)&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_CrossGrey.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_CrossGrey.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_CrossGrey.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_CrossGrey.png"&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;STRONG&gt;Tlač poznámky k položke&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_TickGrey.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_CrossGrey.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_CrossGrey.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_TickGrey.png"&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;STRONG&gt;Tlač poznámky namiesto položky dokladu&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_TickGrey.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_TickGrey.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_TickGrey.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_TickGrey.png"&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;STRONG&gt;Počet položiek dokladu&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=center&gt;neobm.&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;neobm.&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;neobm.&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;neobm.&lt;/TD&gt;
+&lt;TD align=center&gt;neobm.&lt;/TD&gt;
+&lt;TD align=center&gt;100&amp;nbsp;-&amp;nbsp;200&amp;nbsp;*&lt;/TD&gt;
+&lt;TD align=center&gt;100&amp;nbsp;-&amp;nbsp;200&amp;nbsp;*&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(127,127,127)" align=center&gt;200&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(127,127,127)" align=center&gt;30&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(127,127,127)" align=center&gt;100&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN style="COLOR: rgb(127,127,127)"&gt;80&lt;/SPAN&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;* v závislosti od dĺžky názvu položky&lt;BR&gt;** &lt;SPAN style="COLOR: rgb(255,0,0)"&gt;Zariadenie je podporované bez garancie ďalších úprav v komunikačnom protokole na základe budúcich aktualizácií firmvéru&lt;/SPAN&gt;.</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="7db9f0ec-515c-4168-aa05-17c179747706" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="749ff4f1-eeb5-43f5-98d2-021399d8cec7">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="9e4dc412-c922-42b5-bb26-b46a60eae96f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="04b8d290-1470-41ff-85a1-c44a20958841">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="4872a8fe-7e52-41bf-bae7-674f0b15bced" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="b24ad235-cf7f-43e2-b3e8-ec0f7d92f6b6">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="f00c574d-9427-4e6f-a6e2-db07966ca9a1" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="2edf9500-71d3-4b5c-9d44-990261fb51bc">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="ff9d6601-ad08-4689-8259-74e2bc116320" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="a75ad602-f141-475d-afba-8d0f3dcf668a">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="f7b23925-a1bb-41c6-8409-ca2b44113e29" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="29c1b7d9-36d4-4d86-89bd-54cd2cb22050">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="1aac79e2-89ef-40c8-88a5-1a5e7144f1ee">
+      <Keyword m="2021-03-19T14:20:44.4017954Z">Podporované registračné pokladnice - prehľadná tabuľka</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="62ad34f6-a425-40f8-a4fb-ecd22f4e7fd7">
+      <Keyword m="2021-03-19T14:21:31.0411976Z">Podporované registračné pokladnice - porovnanie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="0f4ac659-6356-411d-8594-bc82a81ba948">
+      <Keyword m="2021-03-19T14:21:43.3622961Z">Registračné pokladnice - porovnanie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="44c8534a-2991-422f-8b43-e0c39a2eb377">
+      <Keyword m="2021-03-19T14:21:59.4599461Z">On-line registračné pokladnice - porovnanie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="e42eb4fc-fb46-44ec-9d93-39f86dc963f7">
+      <Keyword m="2021-03-19T14:22:19.2239624Z">ORP - porovnanie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="f9fe14d9-fd77-4016-9009-f2d7d1178fe8">
+      <Keyword m="2021-03-19T14:23:46.6227786Z">Fiškálne zariadenia - porovnanie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="6ccf0b9a-f325-4f87-ad8a-abdfc6a3ac22">
+      <Keyword m="2021-03-19T14:25:01.1138835Z">Fiškálne tlačiarne - porovnanie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="890a88b7-2c40-4ddf-8e35-7ed2b384619c">
+      <Keyword m="2021-03-19T14:26:00.8099438Z">eKasa zariadenia - porovnanie</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

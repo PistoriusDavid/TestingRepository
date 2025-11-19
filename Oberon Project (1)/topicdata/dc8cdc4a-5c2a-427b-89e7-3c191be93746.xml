@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="dc8cdc4a-5c2a-427b-89e7-3c191be93746" Status="Complete" CreatedOn="2022-04-07T08:03:42.2200535Z" ModifiedOn="2022-04-11T07:19:24.4933133Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="ExternalSystem_HotelReservationForm_Bigeron" BuildFlags="">
+  <Title m="2022-04-07T08:05:09.3557403Z">Rezervačný formulár ubytovania Bigeron</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2022-04-11T07:19:24.4933133Z">&lt;P&gt;V systéme OBERON existuje&amp;nbsp;možnosť vytvoriť&amp;nbsp;&lt;A href="5eaef397-0196-4360-a339-fcb1a11c32e3"&gt;rezervačný formulár ubytovania&lt;/A&gt; (web booking engine, internet booking engine, smart booking engine, on-line booking system...) na internetovej stránke ubytovacieho zariadenia a&amp;nbsp;prepojiť ho&amp;nbsp;s&amp;nbsp;modulom &lt;A href="49dd3167-870a-4fdf-b631-d4f692f1ed72"&gt;Hotelová recepcia&lt;/A&gt;. Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; je venovaná &lt;STRONG&gt;jednej z&amp;nbsp;možností,&amp;nbsp;ako môžu používatelia systému OBERON&lt;/STRONG&gt; &lt;STRONG&gt;zriadiť na webovej stránke svojho ubytovacieho zariadenia rezervačný formulár ubytovania&lt;/STRONG&gt; &lt;STRONG&gt;-&lt;/STRONG&gt;&amp;nbsp;použítím riešenia firmy &lt;A href="https://www.bigbigger.sk/" rel=noopener target=_blank&gt;Big &amp;amp; BIGGER s.r.o.&lt;/A&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Modul &lt;A href="c3bd41f0-029e-4c74-b342-b0ffff647b6e"&gt;Hotelová recepcia&lt;/A&gt; systému OBERON podporuje &lt;STRONG&gt;priamu on-line rezerváciu izieb pomocou rezervačného formulára ubytovania na webovej stránke ubytovacieho zariadenia&lt;/STRONG&gt;. Prepojenie formulára s&amp;nbsp;modulom &lt;EM&gt;Hotelová recepcia&lt;/EM&gt; sa realizuje pomocou &lt;A href="58bb31ca-00c8-4641-ad99-7d58e24f59c5"&gt;webových služieb&lt;/A&gt;, t.&amp;nbsp;j. on-line, čím sa výrazne minimalizuje riziko duplicitnej rezervácie (prebukovania). 
+&lt;LI&gt;Rezervačný formulár umožňuje po vykonaní rezervácie hosťom na internetovej stránke automaticky &lt;STRONG&gt;zapísať rezerváciu (alebo dopyt na ubytovanie) do evidencie rezervácií a&amp;nbsp;vzápätí&amp;nbsp;ju zobraziť v&amp;nbsp;grafickom prehľade izieb&lt;/STRONG&gt;. Rezervovať je možné jednu, prípadne aj viac izieb, pričom je možné overiť stav voľných izieb aj s automatickým výpočtom ceny za ubytovanie.&amp;nbsp;Viac informácií získate v téme&amp;nbsp;&lt;A href="5eaef397-0196-4360-a339-fcb1a11c32e3" style="auto-update-caption: true"&gt;Rezervačný formulár ubytovania&lt;/A&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;Jednou z možností, ako môžu používatelia systému OBERON zriadiť na webovej stránke svojho ubytovacieho zariadenia rezervačný formulár ubytovania&lt;/STRONG&gt;, je použitie riešenia firmy &lt;A href="https://www.bigbigger.sk/" rel=noopener target=_blank&gt;Big &amp;amp; BIGGER s.r.o.&lt;/A&gt;, ktorá vo svojom portfóliu ponúka &lt;STRONG&gt;celý rad dizajnových a&amp;nbsp;rezervačných riešení ušitých priamo pre segment HORECA&lt;/STRONG&gt; (pre ostatné hotelové riešenia pozri tému&amp;nbsp;&lt;A href="27c75db0-2abe-4c96-a8bc-c7f208132bda" style="auto-update-caption: true"&gt;Bigeron&lt;/A&gt;). 
+&lt;LI&gt;Na zriadenie rezervačného formulára &lt;STRONG&gt;je potrebné kontaktovať&lt;/STRONG&gt; firmu &lt;A href="https://www.bigbigger.sk/" rel=noopener target=_blank&gt;Big &amp;amp; BIGGER s.r.o.&lt;/A&gt;&amp;nbsp;ako prevádzkovateľa služby. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Výhody rezervačného formulára Bigeron&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Jednoduché a rýchle prepojenie s modulom &lt;EM&gt;Hotelová&lt;/EM&gt; &lt;EM&gt;recepcia&lt;/EM&gt;&lt;/STRONG&gt; - rezervačný formulár môžete mať na webovej stránke vášho ubytovacieho zariadenia už do 24 hodín. 
+&lt;LI&gt;&lt;STRONG&gt;Rýchly prehľad ponuky vášho ubytovacieho zariadenia&lt;/STRONG&gt; – zvolením vybraného dátumu z prehľadného kalendára systém vygeneruje nielen voľné izby ale aj súvisiace služby. Táto možnosť pomáha lepšie vyťažiť ostatné súčasti vášho zariadenia (reštauráciu, wellness, športoviská atď.). 
+&lt;LI&gt;&lt;STRONG&gt;Asistent voľných dátumov&lt;/STRONG&gt; – v prípade, že nie je pre zvolené obdobie voľná žiadna izba, systém ponúkne iný najvhodnejší voľný dátum s parametrami, ktoré potenciálny zákazník zadal do rezervačného formulára 
+&lt;LI&gt;&lt;STRONG&gt;Flexibilita&lt;/STRONG&gt; – možnosť doplniť produkt o funkcie podľa vašich konkrétnych požiadaviek a potrieb, ktoré pomôžu zlepšiť váš predaj. 
+&lt;LI&gt;&lt;STRONG&gt;Prepojenie s on-line platobnými bránami a ďalšie možnosti platby&lt;/STRONG&gt; – okrem klasického on-line predaja môžete v systéme nastaviť možnosť zálohovej platby pre všetky alebo konkrétny typ pobytu. 
+&lt;LI&gt;&lt;STRONG&gt;Automatické vygenerovanie ponuky pobytových balíčkov k izbe&lt;/STRONG&gt; – systém priradí k voľným izbám vami vytvorené pobytové balíčky so službami navyše. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Pobytové balíčky&lt;/H2&gt;
+&lt;P&gt;Rezervačný formulár &lt;EM&gt;Bigeron&lt;/EM&gt; umožňuje automaticky &lt;STRONG&gt;vygenerovať k danej izbe ponuku pobytových balíčkov&lt;/STRONG&gt;. Predaj pobytových balíčkov umožňuje predávať spolu s ubytovaním aj &lt;STRONG&gt;ďalšie služby navyše&lt;/STRONG&gt;, a tak zatraktívniť ponuku pobytov. V konečnom dôsledku tak môže prispieť k zvýšeniu počtu rezervácií. Výsledná cena za ubytovanie a služby zahrnuté do vygenerovanej ponuky pobytového balíčka sa &lt;STRONG&gt;automaticky vypočítava pri rezervácii&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;Automatický výpočet ceny za izbu a počet dní (násobkom alebo percentuálne). 
+&lt;LI&gt;Variabilné možnosti započítavania služieb (služba na počet nocí, počet osôb, vrátane balíčka, nad určitý počet nocí...). 
+&lt;LI&gt;Možnosť rezervovať pobyt priamo z detailu pobytu bez zbytočných klikov navyše. 
+&lt;LI&gt;Pridávanie voliteľných služieb ku konkrétnemu balíčku (k romantickému pobytu pridajte možnosť zakúpiť si fľašu šampanského a pod.). &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Ďalšie informácie získate na webovej stránke&amp;nbsp;&lt;A href="https://exalogic.sk/oberon/suvisiace-produkty/rezervacny-formular-bigeron/" target=_blank&gt;Rezervačný formulár Bigeron&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="1ebf2351-7ddc-4251-9c1e-063dbebe9b4b" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="9690f267-6ad7-4e22-9af2-675ef3d9d041">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="b19e847d-87f2-489f-9272-518e718fc765" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="5eaef397-0196-4360-a339-fcb1a11c32e3">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="87d9e323-b4b0-40d5-b88b-a4a71f5cd9e3">
+      <Keyword m="2022-04-07T08:11:59.5468477Z">Bigeron - pobytové balíčky</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="25f23c7c-c1aa-49bc-a23e-109c27ae90d1">
+      <Keyword m="2022-04-07T08:11:48.0403353Z">Bigeron - rezervačný formulár ubytovania</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

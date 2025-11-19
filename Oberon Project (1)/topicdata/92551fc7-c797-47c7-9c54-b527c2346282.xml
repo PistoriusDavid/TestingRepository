@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="92551fc7-c797-47c7-9c54-b527c2346282" Status="Complete" CreatedOn="2024-09-18T07:39:40.0537687Z" ModifiedOn="2025-05-27T11:54:49.2547149Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="BankAPI_Tatrabanka" BuildFlags="">
+  <Title m="2024-09-18T07:42:41.1833403Z">Prepojenie s Tatra bankou</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2025-05-27T11:54:49.2547149Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;informácie o prepojení systému OBERON s &lt;EM&gt;Tatra bankou&lt;/EM&gt;&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Systém OBERON umožňuje &lt;STRONG&gt;prepojenie so slovenskými, ale aj zahraničnými&amp;nbsp;bankami&lt;/STRONG&gt; v&amp;nbsp;rámci &lt;EM&gt;Európskeho hospodárskeho priestoru&lt;/EM&gt; (EHP)&lt;STRONG&gt;, ktoré sa realizuje pomocou bankového rozhrania (tzv.&lt;/STRONG&gt; &lt;EM&gt;&lt;STRONG&gt;Bank API&lt;/STRONG&gt;&lt;/EM&gt;). Prepojenie OBERON-u s bankami prostredníctvom rozhrania &lt;EM&gt;Bank API&lt;/EM&gt; umožňuje &lt;STRONG&gt;sťahovať bankové&amp;nbsp;výpisy (transakcie)&amp;nbsp;priamo z banky&lt;/STRONG&gt; bez potreby exportovať bankový výpis do súboru a&amp;nbsp;následne ho&amp;nbsp;importovať.&amp;nbsp;Viac informácií získate v téme&amp;nbsp;&lt;A href="836278d3-cfe9-4218-aaf5-51ee9fd113fe"&gt;Prepojenie s bankami&lt;/A&gt;. 
+&lt;LI&gt;Prepojenie s&amp;nbsp;&lt;EM&gt;Tatra bankou&lt;/EM&gt; sa realizuje prostredníctvom bankového rozhrania &lt;STRONG&gt;&lt;EM&gt;Tatra banka Premium API&lt;/EM&gt;&lt;/STRONG&gt;. 
+&lt;LI&gt;Na strane OBERON-u je funkcia prepojenia s &lt;EM&gt;Tatra bankou&lt;/EM&gt; bezplatná. Na strane &lt;EM&gt;Tatra banky&lt;/EM&gt; je používanie rozhrania &lt;EM&gt;Tatra banka Premium API&lt;/EM&gt; &lt;STRONG&gt;spoplatnené&lt;/STRONG&gt; podľa cenníka&amp;nbsp;banky. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Postup nastavenia prepojenia&lt;/H2&gt;
+&lt;P&gt;Nastavenie bankového rozhrania API je špecifické pre každú banku. Postup nastavenia prepojenia s&amp;nbsp;&lt;EM&gt;Tatra bankou&lt;/EM&gt; pozostáva z dvoch hlavných krokov, ktoré sa ďalej členia na viacero čiastkových krokov:&lt;/P&gt;
+&lt;H3&gt;1. Uzatvorenie zmluvy s Tatra bankou a aktivácia služby Premium API&lt;SUP&gt;TB&lt;/SUP&gt;&lt;/H3&gt;
+&lt;OL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Uzatvorenie zmluvy&lt;/STRONG&gt; - v&amp;nbsp;prvom kroku je potrebné uzatvoriť zmluvu o používaní&amp;nbsp;služby &lt;EM&gt;Premium API&lt;SUP&gt;TB&lt;/SUP&gt;&lt;/EM&gt;&amp;nbsp;s&amp;nbsp;&lt;EM&gt;Tatra bankou&lt;/EM&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;Vytvorenie používateľského účtu&lt;/STRONG&gt; -&amp;nbsp;v rámci aktivácie služby&amp;nbsp;&lt;EM&gt;Premium API&lt;SUP&gt;TB&lt;/SUP&gt;&lt;/EM&gt; si ako nový klient vytvoríte používateľský účet vo webovej aplikácii &lt;EM&gt;Tatra banky&lt;/EM&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;Pripojenie bankových účtov&lt;/STRONG&gt; - vo webovej aplikácii &lt;EM&gt;Tatra banky&lt;/EM&gt; pripojte bankové účty, ktoré bude používať v systéme OBERON prostredníctvom rozhrania API. Pripojenie bankového účtu je platné 180 dní (obmedzenie definované bankami). Po uplynutí tejto lehoty je potrebné pripojenie vo webovej aplikácii obnoviť. 
+&lt;LI&gt;&lt;STRONG&gt;Získanie identifikačného kľúča aplikácie (API Key) a&lt;/STRONG&gt; &lt;STRONG&gt;tajného kľúča (Shared secret)&lt;/STRONG&gt; - súčasťou procesu je získanie uvedených kľúčov, ktoré sú generované bankou (sú uvedené v zmluve). &lt;/LI&gt;&lt;/OL&gt;
+&lt;H3&gt;2. Nastavenia v OBERON-e&lt;/H3&gt;
+&lt;OL&gt;
+&lt;LI&gt;V&amp;nbsp;programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt; zvoľte ponuku &lt;EM&gt;Firma,&amp;nbsp;&lt;/EM&gt;&lt;A href="93ded66f-b7a6-40a8-89e0-bd501cd17bfc" style="auto-update-caption: true"&gt;Vlastné bankové účty&lt;/A&gt;. 
+&lt;LI&gt;Označte kurzorom účet &lt;EM&gt;Tatra banky&lt;/EM&gt; (predpokladá sa, že účtovná jednotka už má daný účet definovaný) a stlačte tlačidlo &lt;EM&gt;Oprava&lt;/EM&gt;. Otvorí sa&amp;nbsp;&lt;A href="93ded66f-b7a6-40a8-89e0-bd501cd17bfc"&gt;formulár Bankový účet&lt;/A&gt;. 
+&lt;LI&gt;V&amp;nbsp;záložke &lt;EM&gt;Bankové výpisy&lt;/EM&gt; stlačte tlačidlo výberu&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_ListButton.png"&gt;&amp;nbsp;pri položke &lt;EM&gt;Bankové API&lt;/EM&gt;. Otvorí sa&amp;nbsp;&lt;A href="b1032a3e-bd73-461a-92f6-02d1f210540a"&gt;číselník Nastavenie externej webovej služby&lt;/A&gt;, v&amp;nbsp;ktorom stlačte tlačidlo &lt;EM&gt;Nový&lt;/EM&gt;. 
+&lt;LI&gt;Zadajte názov rozhrania, zvoľte&amp;nbsp;druh &lt;EM&gt;&lt;STRONG&gt;Bankové API&lt;/STRONG&gt;&lt;/EM&gt;, vyberte &lt;EM&gt;&lt;STRONG&gt;Tatra banka Premium API&lt;/STRONG&gt;&lt;/EM&gt; a&amp;nbsp;stlačte tlačidlo &lt;EM&gt;&lt;STRONG&gt;Nastaviť API&lt;/STRONG&gt;&lt;/EM&gt;. 
+&lt;LI&gt;Otvorí sa formulár, v&amp;nbsp;ktorom v&amp;nbsp;záložke &lt;EM&gt;Základné&lt;/EM&gt; zadajte &lt;STRONG&gt;API kľúč&lt;/STRONG&gt; &lt;STRONG&gt;(API Key)&lt;/STRONG&gt; a &lt;STRONG&gt;Tajný kľúč&lt;/STRONG&gt; &lt;STRONG&gt;(Shared secret)&lt;/STRONG&gt;, ktorý ste získali uzatvorením zmluvy s &lt;EM&gt;Tatra bankou&lt;/EM&gt; (bod&amp;nbsp;4 predchádzajúceho postupu). 
+&lt;LI&gt;V záložke &lt;EM&gt;Autorizácia&lt;/EM&gt; stlačte tlačidlo &lt;EM&gt;&lt;STRONG&gt;Autorizovať API&lt;/STRONG&gt;&lt;/EM&gt;. Stlačením tlačidla budete presmerovaní do webovej aplikácie &lt;EM&gt;Tatra banky&lt;/EM&gt;, kde je potrebné vykonať autorizáciu systému OBERON. Do aplikácie sa prihláste tými istými údajmi, ktoré ste použili pri vytvorení používateľského účtu vo webovej aplikácii &lt;EM&gt;Tatra banky&lt;/EM&gt; (v bode 2 predchádzajúceho postupu). 
+&lt;LI&gt;Po úspešnej autorizácii sa do&amp;nbsp;formulára &lt;EM&gt;Tatra banka - Premium API&lt;/EM&gt; automaticky doplnia &lt;EM&gt;&lt;STRONG&gt;Prístupový kľúč (Access Token)&lt;/STRONG&gt;&lt;/EM&gt; a&amp;nbsp;&lt;EM&gt;&lt;STRONG&gt;aktualizačný kľúč (Refresh Token)&lt;/STRONG&gt;&lt;/EM&gt;. V&amp;nbsp;záložke &lt;EM&gt;Autorizované účty&lt;/EM&gt; bude dostupný zoznam bankových účtov, na ktoré sa vzťahuje autorizácia. 
+&lt;LI&gt;Vykonané nastavenia uložte stlačením tlačidla &lt;STRONG&gt;&lt;EM&gt;OK&lt;/EM&gt;&lt;/STRONG&gt;. &lt;/LI&gt;&lt;/OL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;UL&gt;
+&lt;LI&gt;Na &lt;STRONG&gt;automatický import a&amp;nbsp;spracovanie bankových&amp;nbsp;výpisov (transakcií)&lt;/STRONG&gt; možno v OBERON-e nastaviť automatickú&amp;nbsp;úlohu&amp;nbsp;&lt;A href="1a074e9a-9cf9-4ab8-b9a8-68575142a704" style="auto-update-caption: true"&gt;Automatické spracovanie bankových výpisov&lt;/A&gt;. 
+&lt;LI&gt;Bankové rozhranie &lt;EM&gt;Tatra banka Premium API&lt;/EM&gt; umožňuje &lt;STRONG&gt;sťahovať bankové&amp;nbsp;výpisy (transakcie)&amp;nbsp;aj z iných bánk&lt;/STRONG&gt;. O&amp;nbsp;tejto možnosti sa informujte priamo v &lt;EM&gt;Tatra banke&lt;/EM&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;V prípade, že máte&amp;nbsp;prostredníctvom &lt;EM&gt;Tatra banky&lt;/EM&gt; pripojených viac bankových účtov, rozhranie &lt;EM&gt;Tatra banka Premium API&lt;/EM&gt;&amp;nbsp;umožňuje získavať údaje transakcií &lt;STRONG&gt;len po jednotlivých účtoch&lt;/STRONG&gt;. To sa premieta do počtu volaní rozhrania API, t. j. predplatený balík volaní sa rýchlejšie vyčerpá. Preto je nutné zvážiť zakúpenie balíka s dostatočným počtom transakcií, prípadne zvážiť využitie inej nami ponúkanej služby.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="aa827694-1791-4a70-b9de-179f99067e82" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="836278d3-cfe9-4218-aaf5-51ee9fd113fe">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="9d5bfd57-e703-4c5f-b002-27fd17888742" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="93ded66f-b7a6-40a8-89e0-bd501cd17bfc">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="03e3f53f-f1ef-4fc1-838d-d4780d83e4e6" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="0121f553-c6f2-4860-87bc-485e3cb08e2f">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="5167f75f-d177-4529-9dfd-f8e4e0cdb318" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="02bbf54b-086f-4641-8c33-4dd461e56fb4">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="686a1584-18e6-465f-aec0-ec01fdb3bf26" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="9ce25bbd-35d1-4096-acd5-70007f5af5a6">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="ba21347d-b48d-41e2-b841-64f387670762" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1a074e9a-9cf9-4ab8-b9a8-68575142a704">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="227587ce-96ef-49cf-922d-56955d978fa2">
+      <Keyword m="2024-09-05T12:49:18.6502373Z">Tatra banka Premium API - nastavenie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="59a6bf6e-36d8-42fb-94b8-ead04d5597f1">
+      <Keyword m="2024-09-05T12:49:31.8316237Z">Bank API - Tatra banka Premium</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="6f384d41-b1f4-46d9-a287-81e58935595d">
+      <Keyword m="2024-09-18T10:56:52.8779007Z">Tatra banka - Bank API</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

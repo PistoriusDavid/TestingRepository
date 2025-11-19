@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="b2fd5a00-627a-4bb5-a28c-f6b923ddcdc6" Status="Complete" CreatedOn="2015-03-12T12:25:36.6347656Z" ModifiedOn="2024-09-27T09:23:17.079713Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="ExternalSystem_OBERONDataCloud_ENGINESlovakia" BuildFlags="">
+  <Title m="2024-09-27T09:01:19.0317993Z">OBERON Data Cloud (ENGINE Slovakia)</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-09-27T09:23:17.079713Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; popisuje jeden zo&amp;nbsp;&lt;A href="9690f267-6ad7-4e22-9af2-675ef3d9d041"&gt;súvisiacich produktov&lt;/A&gt; systému OBERON -&amp;nbsp;&lt;STRONG&gt;cloudové riešenie&lt;/STRONG&gt; &lt;EM&gt;&lt;STRONG&gt;OBERON Data Cloud &lt;/STRONG&gt;&lt;/EM&gt;od firmy &lt;STRONG&gt;&lt;EM&gt;ENGINE Slovakia s.r.o.&lt;/EM&gt;&lt;/STRONG&gt; Pre používateľov OBERON-u je&amp;nbsp;&lt;A href="1f32a90c-7b4a-4d69-9f38-a560178794b3"&gt;odporúčaným&lt;/A&gt; cloudovým riešením&amp;nbsp;&lt;A href="1f32a90c-7b4a-4d69-9f38-a560178794b3" style="auto-update-caption: true"&gt;&lt;IMG border=0 alt="Odporúčané riešenia" src="images/OBERON/Basic/Odporucane-riesenie_ruka_ikona.png"&gt;&lt;/A&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&amp;nbsp;&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;EM&gt;OBERON Data Cloud&lt;/EM&gt; je profesionálne riešenie od firmy &lt;A href="https://www.engine.sk/" rel=noopener target=_blank&gt;ENGINE Slovakia s.r.o.&lt;/A&gt;&amp;nbsp;&lt;STRONG&gt;určené pre hosting databázy v cloudovom úložisku&lt;/STRONG&gt;. Používatelia systému OBERON môžu mať takto cez internet prístup k svojej databáze odkiaľkoľvek, kde je prístup na internet. Na prácu so systémom OBERON je potrebné mať ľubovoľný počítač s operačným systémom &lt;EM&gt;Window&lt;/EM&gt;s a pripojením na internet. Takto je možné k jednej databáze pripojiť počítače v prevádzkach v rôznych mestách, notebooky obchodných cestujúcich a pod. 
+&lt;LI&gt;Cloudové&amp;nbsp;riešenie môže byť &lt;STRONG&gt;výhodné aj pre malú firmu bez stálej prevádzky&lt;/STRONG&gt; a s mobilnými pracovníkmi, prípadne takými, ktorí pracujú z domu alebo živnostníka s externým účtovníkom. Zároveň je dostatočne &lt;STRONG&gt;výkonné aj pre veľké firmy&lt;/STRONG&gt; (typicky 50 - 75 súčasne pripojených používateľov do jednej databázy) a veľkú databázu s agendami v počte desiatok až stoviek tisíc zápisov. 
+&lt;LI&gt;Za veľmi prijateľný &lt;STRONG&gt;mesačný paušál&lt;/STRONG&gt; môžu používatelia systému OBERON získať pripojenie na &lt;STRONG&gt;server MariaDB&lt;/STRONG&gt; s&amp;nbsp;pripravenou konfiguráciou databázy. Servery firmy&amp;nbsp;&lt;EM&gt;ENGINE Slovakia&lt;/EM&gt; majú &lt;STRONG&gt;konektivitu 1 Gbit/s&lt;/STRONG&gt; do siete internet a sú umiestnené a zabezpečené v&amp;nbsp;certifikovanom dátovom centre TIER 3. Databázy sú &lt;STRONG&gt;pravidelne zálohované&lt;/STRONG&gt; 1x denne v nočných hodinách počas minimálne 14 dní na záložný server umiestnený v inom dátovom centre.. Prístup k týmto zálohám je možné získať prostredníctvom zákazníckej linky spoločnosti &lt;EM&gt;ENGINE Slovakia&lt;/EM&gt;. 
+&lt;LI&gt;Svoju databázu môžete bez problémov kedykoľvek migrovať z formátu &lt;EM&gt;Microsoft Access&lt;/EM&gt; alebo &lt;EM&gt;MS SQL&lt;/EM&gt; do databázy &lt;EM&gt;MariaDB&lt;/EM&gt; &lt;STRONG&gt;priamo v programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;&lt;/STRONG&gt;. Bližšie informácie sú uvedené v téme&amp;nbsp;&lt;A href="53708756-df6d-4205-b722-ff19054c3797" style="auto-update-caption: true"&gt;Migrácia údajov do iného databázového systému&lt;/A&gt;.&amp;nbsp;Zmena databázy vám neprinesie žiadne ďalšie starosti alebo úpravy nastavení. Nastavenie pripojenia k serveru &lt;EM&gt;MariaDB&lt;/EM&gt; je tiež veľmi jednoduché. Oslobodíte sa tak od závislosti od vlastného dátového úložiska a získate &lt;STRONG&gt;prístup k dátam odkiaľkoľvek&lt;/STRONG&gt;, kde sa pripojíte k internetu. 
+&lt;LI&gt;Všetky vaše prevádzky (strediská) začnú používať tú istú databázu, takže nemusíte riešiť žiadne transporty alebo exporty a importy údajov. Ďalej môžete predávať na registračných pokladniciach, môžete dať on-line prístup svojim účtovníkom, získať tak okamžitý prehľad o stave firmy a ušetrený čas a peniaze investovať inde. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 1: Nastavenie pripojenia&lt;/H5&gt;
+&lt;P class=tquote&gt;&lt;IMG border=0 alt="" src="images/ProductOptions/ExternalSystems/OberonDataCloud_Connection.png"&gt;&lt;/P&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Ďalšie informácie získate na webovej stránke&amp;nbsp;&lt;A href="https://exalogic.sk/oberon/suvisiace-produkty/oberon-data-cloud/" target=_blank&gt;OBERON Data Cloud (ENGINE Slovakia)&lt;/A&gt;&amp;nbsp;a na&amp;nbsp;&lt;A href="https://www.engine.sk/" target=_blank&gt;webovej stránke dodávateľa&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="05c1ef12-d53b-4109-825b-51c52d514c62" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="9690f267-6ad7-4e22-9af2-675ef3d9d041">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="8bc33c2c-c491-4698-82ed-4a424afd803b" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="0b81f4ea-5e68-48c1-8b89-933d5a23d962">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="cd07ca11-ae80-4c60-a798-4807086e8d38" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="53708756-df6d-4205-b722-ff19054c3797">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="1c8232fc-bde1-4cb5-982a-1619450d004c" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="f0a7aeb9-190b-4de7-90e7-30322114e9a9">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="d22268d5-f108-4b4b-9587-7e447602b44e">
+      <Keyword m="2022-04-06T10:07:59.7233358Z">Cloud - ENGINE Slovakia</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="a953a28b-88bb-4d5a-8f41-70e4ef9d02d4">
+      <Keyword m="2022-04-06T11:38:14.3065552Z">MariaDB server - cloud</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

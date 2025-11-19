@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="98f367d6-b09e-4406-aad9-d4b2cfc4b504" Status="Complete" CreatedOn="2015-01-19T12:19:27.5374609Z" ModifiedOn="2023-08-04T12:47:32.4960608Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Device_Electronic_Scales" BuildFlags="">
+  <Title m="2015-01-19T12:20:50.4798438Z">Elektronické váhy</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-08-04T12:47:32.4960608Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;je venovaná&lt;STRONG&gt;&amp;nbsp;&lt;/STRONG&gt;elektronickým váham, ktoré predstavujú jeden z typov&amp;nbsp;&lt;A href="3f051fd3-9727-4ecc-9613-7a7fb1cb2a54"&gt;pripojiteľných zariadení&lt;/A&gt; podporovaných v systéme OBERON. Téma obsahuje tak &lt;STRONG&gt;všeobecné, ako aj&amp;nbsp;technické informácie vrátane postupu inštalácie a návodu, ako postupovať pri vážení v systéme OBERON&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Elektronické váhy&amp;nbsp;predstavujú&amp;nbsp;&lt;STRONG&gt;hardvérové zariadenie určené na váženie tovaru v rôznorodých prevádzkach&lt;/STRONG&gt; (predajne mäsa, zeleniny, iných výrobkov, ale aj stánkový predaj a pod.). V systéme OBERON sa spravidla používajú v prepojení s modulom &lt;A href="a6f5e32d-6f1e-40bb-9d15-3f784a183252"&gt;Pokladnica OBERON&lt;/A&gt;. Vtedy sa&amp;nbsp;predávané odvážené množstvo automaticky zapíše do novej položky pokladničného dokladu. Okrem toho môžu elektronické váhy disponovať aj ďalšími funkciami,&amp;nbsp;napr.&amp;nbsp;výpočet ceny, počítanie kusov, tlač etikiet a pod. 
+&lt;LI&gt;Z hľadiska prepojenia s modulom&amp;nbsp;&lt;A href="a6f5e32d-6f1e-40bb-9d15-3f784a183252"&gt;Pokladnica OBERON&lt;/A&gt; existujú&amp;nbsp;nasledujúce možnosti práce&amp;nbsp;s elektronickými váhami: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Pokyn na odváženie sa vykoná na váhach&lt;/STRONG&gt; - na váhach je potrebné stlačiť&amp;nbsp;tlačidlo na odváženie tovaru, ktoré zašle do počítača vážený čiarový kód, ktorý okrem údaja o&amp;nbsp;hmotnosti obsahuje aj&amp;nbsp;štvormiestny kód tovaru na spárovanie s&amp;nbsp;príslušnou skladovou položkou. 
+&lt;LI&gt;&lt;STRONG&gt;Pokyn na odváženie sa vykoná&amp;nbsp;v&amp;nbsp;&lt;EM&gt;Pokladnici OBERON&lt;/EM&gt;&lt;/STRONG&gt; -&amp;nbsp;v&amp;nbsp;pokladnici sa nachádza tlačidlo&amp;nbsp;&lt;EM&gt;Odvážiť (Ctrl+F2)&lt;/EM&gt;, ktorého stlačením sa&amp;nbsp;zašle pokyn do váh na odváženie tovaru. Následne&amp;nbsp;prebehne komunikácia s váhami a váhy odošlú do&amp;nbsp;pokladnice informáciu o hmotnosti tovaru položeného na váhach. 
+&lt;LI&gt;&lt;STRONG&gt;Váhy nie&amp;nbsp;sú pripojené k &lt;EM&gt;Pokladnici OBERON&lt;/EM&gt;&lt;/STRONG&gt; - v tomto prípade váhy nie&amp;nbsp;sú pripojené k počítaču, na ktorom sa vykonáva predaj. Váženie prebieha autonómne, pričom váhy&amp;nbsp;tlačia etikety s&amp;nbsp;váženým čiarovým kódom. Tento čiarový kód&amp;nbsp;sa potom na &lt;EM&gt;Pokladnici OBERON&lt;/EM&gt; nasníma bežným&amp;nbsp;&lt;A href="80a78093-fc45-4db9-b74b-e1f9829f7b3c"&gt;snímačom čiarových kódov&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Vo všeobecnosti sa najčastejšie vážia skladové položky, ktoré majú nastavenú mernú jednotku hmotnosti (g, kg, t). OBERON umožňuje vážiť aj položky, ktoré sa predávajú&amp;nbsp;na kusy -&amp;nbsp;takáto skladová karta však musí mať zadanú váhu jedného kusa, napr. pri položke &lt;EM&gt;Veľké klince&lt;/EM&gt; váži jeden klinec 50 g, pri odvážení váhy 0,5 kg bude predaných automaticky 10 ks. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Technické informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;K systému OBERON je možné pripojiť váhy rôznych výrobcov, pretože &lt;STRONG&gt;podporuje najčastejšie používané komunikačné protokoly&lt;/STRONG&gt;. Váhy ako zariadenie spravidla podporujú viac komunikačných protokolov, preto je pri inštalácii potrebné nahliadnuť do technickej dokumentácie a nastaviť podporovaný&amp;nbsp;komunikačný protokol. 
+&lt;LI&gt;Systém OBERON podporuje nasledujúce komunikačné protokoly:&lt;BR&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Vážený čiarový kód&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Elektronické váhy využívajúce vážený čiarový kód sú vlastne váhy, ktoré po odvážení tovaru vytlačia etikety (využívajú sa v&amp;nbsp;predajniach potravín, v skladoch). Systém OBERON podporuje nasledujúce protokoly pre elektronické váhy využívajúce vážený čiarový kód:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Obecný vážený EAN13&lt;/STRONG&gt; - váhy zasielajú vážený čiarový kód&lt;EM&gt;.&lt;/EM&gt; Je to čiarový kód vo formáte EAN 13, v ktorom je zakódovaná &lt;STRONG&gt;hmotnosť danej položky v gramoch (g)&lt;/STRONG&gt; a&amp;nbsp;&lt;STRONG&gt;kód položky&lt;/STRONG&gt; (nie &lt;I&gt;Čiarový kód&lt;/I&gt; skladovej karty!). Z &lt;A href="86ce651c-2637-4165-93b4-36535a700fbf"&gt;definície váženého čiarového kódu&lt;/A&gt; vyplýva, že&amp;nbsp;na správne fungovanie je potrebné mať na skladovej karte zadaný &lt;STRONG&gt;štvormiestny kód položky&lt;/STRONG&gt; (nastavuje sa vo&amp;nbsp;&lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;formulári Skladová karta&lt;/A&gt;, záložka &lt;EM&gt;Reg. pokladnice&lt;/EM&gt;) a &lt;STRONG&gt;merná jednotka môže byť&amp;nbsp;g, dg, kg, t&lt;/STRONG&gt;. Čiarový kód nemusí byť zadaný. 
+&lt;LI&gt;&lt;STRONG&gt;EAN13 s kontrolným súčtom&lt;/STRONG&gt; - funguje podobným spôsobom ako &lt;EM&gt;obecný vážený&amp;nbsp;EAN 13&lt;/EM&gt; kód. Rozdiel je v technickom riešení zasielania kontrolného súčtu pri komunikácii váh a&amp;nbsp;počítača. &lt;/LI&gt;&lt;/UL&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Protokol CAS&amp;nbsp; (výrobca CAS)&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;K systému OBERON je možné&amp;nbsp;prostredníctvom protokolu &lt;STRONG&gt;CAS Standard Protocol&lt;/STRONG&gt; pripojiť elektronické váhy CAS radu ER PLUS od kórejského výrobcu CAS.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Protokoly DIBAL (výrobca Dibal)&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Obchodné elektronické váhy DIBAL radu F a G od španielskeho výrobcu DIBAL je možné pripojiť k pokladničnému systému OBERON v dvoch rôznych režimoch práce, a to prostredníctvom protokolov:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;DIBAL Delta Protocol&lt;/STRONG&gt; - parametre komunikácie -&amp;nbsp;8 bitov, párna parita, 1 stop bit, bez riadenia HW toku, 
+&lt;LI&gt;&lt;STRONG&gt;DIBAL Apollo/Posnet Protocol&lt;/STRONG&gt;, 
+&lt;LI&gt;&lt;STRONG&gt;DIBAL Uniprox Protocol&lt;/STRONG&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;P&gt;Príklady konkrétnych typov váh: &lt;EM&gt;Dibal G-300,&amp;nbsp;Dibal G-310, Dibal F-210,&amp;nbsp;Dibal F-200&lt;/EM&gt;.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Protokol SASI&amp;nbsp; (výrobca Datalogic)&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Snímače &lt;STRONG&gt;Datalogic&lt;/STRONG&gt; radu Magellan patria medzi výkonné snímače&amp;nbsp;na automatizáciu zberu dát s dôrazom na vysokú dekódovaciu schopnosť.&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;SASI protokol&lt;/STRONG&gt;&amp;nbsp;- parametre komunikácie - 7 bitov, párna parita, 1 stop bit, bez riadenia HW toku &lt;/LI&gt;&lt;/UL&gt;
+&lt;P&gt;Príklady konkrétnych typov váh:&amp;nbsp;&lt;EM&gt;Datalogic Magellan 8400, Datalogic Magellan 8300&lt;/EM&gt;.&lt;/P&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Datalogic používa tento protokol v obľúbených váhoskeneroch,&amp;nbsp;viac informácií je možné získať v téme&amp;nbsp;&lt;A href="e90970b3-c6fb-4ec5-bac8-4a06d41662b4"&gt;Váhoskenery&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Indikátor s protokolom&amp;nbsp;BWS&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Elektronické váhy prepojené s indikátorom BWS umožňujú odváženie tovaru a odovzdanie dát počítaču s nainštalovaným OBERON-om. Indikátor BWS sa používa hlavne v&amp;nbsp;priemyselných prevádzkach.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Indikátor s protokolom&amp;nbsp;DFWL&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Elektronické váhy prepojené s indikátorom DFWL (výrobca DINI ARGEO)&amp;nbsp;umožňujú odváženie tovaru a odovzdanie dát počítaču s nainštalovaným OBERON-om. Indikátor DFWL sa používa hlavne v&amp;nbsp;priemyselných prevádzkach.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Inštalácia elektronických váh&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;Pripojte váhy&amp;nbsp;do sériového komunikačného portu počítača, napr. COM1, alebo&amp;nbsp;do USB portu, ktorý emuluje virtuálny sériový port. Ak už v&amp;nbsp;počítači nie je voľný komunikačný port (je obsadený iným zariadením), je potrebné do počítača zakúpiť tzv.&amp;nbsp;rozšírenie portov cez rozhranie USB. 
+&lt;LI&gt;Ak ešte nemáte v systéme OBERON vytvorenú (založenú) firmu, vytvorte ju&amp;nbsp;- bližšie informácie nájdete v téme &lt;A href="9a485893-6dd2-44e8-9740-a4cd7083a932" style="auto-update-caption: true"&gt;Vytvorenie účtovnej jednotky (databázy)&lt;/A&gt;. 
+&lt;LI&gt;Spustite program &lt;EM&gt;OBERON - Agenda firmy.&lt;/EM&gt; 
+&lt;LI&gt;Zvoľte ponuku &lt;EM&gt;Servis,&amp;nbsp;&lt;/EM&gt;&lt;A href="749ff4f1-eeb5-43f5-98d2-021399d8cec7"&gt;Zariadenia&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt; stlačte tlačidlo &lt;I&gt;Pridať.&lt;/I&gt; V&amp;nbsp;otvorenom formulári&amp;nbsp;vyberte&amp;nbsp;typ zariadenia&amp;nbsp;&lt;EM&gt;&lt;STRONG&gt;Elektronická váha&lt;/STRONG&gt;&lt;/EM&gt;,&amp;nbsp;zadajte názov zariadenia, zvoľte konkrétny model (výrobcu) alebo len daný&amp;nbsp;komunikačný protokol a&amp;nbsp;zadajte (vyberte) &lt;STRONG&gt;názov počítača&lt;/STRONG&gt;, ku ktorému sa má zariadenie pripojiť, prípadne zadajte&amp;nbsp;ostatné údaje. Potom stlačte tlačidlo &lt;I&gt;Nastaviť zariadenie -&lt;/I&gt; otvorí sa&amp;nbsp;&lt;A href="06f5e819-cf70-4875-b3fd-eca80b19939b"&gt;formulár&lt;/A&gt;, v&amp;nbsp;ktorom je potrebné zadať parametre komunikácie - &lt;STRONG&gt;číslo komunikačného portu, rýchlosť komunikácie&lt;/STRONG&gt; (spravidla býva výrobcom&amp;nbsp;nastavená na hodnotu 9600&amp;nbsp;b/s). 
+&lt;LI&gt;Stlačením tlačidla &lt;STRONG&gt;&lt;EM&gt;OK&lt;/EM&gt;&lt;/STRONG&gt; sa inštalácia&amp;nbsp;váh ukončí. 
+&lt;LI&gt;Po nastavení všetkých potrebných parametrov otestujte váhy odvážením tovaru pomocou tlačidla &lt;EM&gt;Odvážiť&lt;/EM&gt;. V prípade načítania hmotnosti sú váhy&amp;nbsp;nainštalované správne. Ak sa po odvážení nezobrazia žiadne načítané dáta, zmeňte komunikačný port, rýchlosť komunikácie, prípadne vyskúšajte použitie iného komunikačného protokolu. &lt;/LI&gt;&lt;/OL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;S&amp;nbsp;&lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnicou OBERON&lt;/A&gt; je možné prepojiť viacero elektronických váh. Bližšie informácie o zapojení vyššieho počtu váh získate v téme&amp;nbsp;&lt;A href="9678bca2-1255-40c4-aff2-e3607fbaae23" style="auto-update-caption: true"&gt;Zapojenie viacerých elektronických váh&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Ako vážiť&amp;nbsp;na &lt;EM&gt;Pokladnici OBERON&lt;/EM&gt;&lt;/H2&gt;
+&lt;P&gt;Váhy sa v systéme OBERON spravidla používajú pri predaji na &lt;EM&gt;Pokladnici OBERON&lt;/EM&gt;. Spôsob váženia&amp;nbsp;závisí od použitého komunikačného protokolu a strany, na ktorej sa vykoná pokyn na váženie:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;A)&lt;/STRONG&gt; &lt;STRONG&gt;Pokyn na odváženie sa vykoná na váhach&lt;/STRONG&gt; - váhy zašlú vážený čiarový kód do pokladnice, ktorá automaticky pridá odváženú položku na pokladničný doklad. Vážený kód obsahuje&amp;nbsp;kód položky, ktorý musí mať skladová položka nastavený (vo&amp;nbsp;&lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;formulári Skladová karta&lt;/A&gt;, záložka &lt;EM&gt;Reg. pokladnice&lt;/EM&gt;). 
+&lt;LI&gt;&lt;STRONG&gt;B)&lt;/STRONG&gt; &lt;STRONG&gt;Pokyn na odváženie sa vykoná na &lt;EM&gt;Pokladnici OBERON&lt;/EM&gt;&lt;/STRONG&gt; - tu je potrebné stlačiť tlačidlo&amp;nbsp;&lt;EM&gt;Odvážiť (Ctrl+F2)&lt;/EM&gt; (jeho umiestnenie závisí od nastavenia vzhľadu&amp;nbsp;pokladnice). Následne&amp;nbsp;prebehne komunikácia s váhami a váhy odošlú do&amp;nbsp;pokladnice informáciu o&amp;nbsp;hmotnosti tovaru položeného na váhach. Odvážená hmotnosť sa automaticky &lt;STRONG&gt;zobrazí na displeji pokladnice&lt;/STRONG&gt;. Pri výbere položky&amp;nbsp;na predaj sa použije hmotnosť ako množstvo danej položky. Vybrať položku&amp;nbsp;na predaj&amp;nbsp;je možné rôznymi spôsobmi, napr. zadaním kódu položky do poľa &lt;EM&gt;Množstvo * Kód&lt;/EM&gt; (tu množstvo netreba zadávať), nasnímaním čiarového kódu, stlačením tlačidla&amp;nbsp;na rýchly predaj PLU, stlačením tlačidla na fastfoodovej pokladnici, prípadne manuálnym vybratím zo zoznamu položiek (F3). &lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;V prípade,&amp;nbsp;že sa tlačidlo &lt;EM&gt;Odvážiť&lt;/EM&gt; nenachádza vo vrchnom paneli v &lt;EM&gt;Pokladnici OBERON&lt;/EM&gt; (prípadne ani v pravom bočnom paneli),&amp;nbsp;je potrebné&amp;nbsp;nastaviť jeho zobrazovanie - tlačidlo &lt;EM&gt;Systém&lt;/EM&gt;, záložka &lt;EM&gt;Nastavenia&lt;/EM&gt;, tlačidlo &lt;EM&gt;Definovať&lt;/EM&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="14a8ae5a-ba18-4824-b8ed-41ea5331510b" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="3f051fd3-9727-4ecc-9613-7a7fb1cb2a54">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="015d72b8-46c6-40bc-baec-23198313daac" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="749ff4f1-eeb5-43f5-98d2-021399d8cec7">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="994c930f-bdcd-41f6-88b4-af6e2e64de9c" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="e90970b3-c6fb-4ec5-bac8-4a06d41662b4">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="71762dbe-8b2f-4fef-ab98-cad7cc5b07f6" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="9678bca2-1255-40c4-aff2-e3607fbaae23">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="3501ebf5-b539-4209-82ea-cb9ad31674b8">
+      <Keyword m="2015-01-20T08:42:30.2451171Z">Váhy</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="440a78c2-9abe-4be0-b5ca-228a1a5c857f">
+      <Keyword m="2015-01-20T08:43:08.7246093Z">Digitálne váhy</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="8a098d0b-1d07-4fef-88ff-8841a22e049a">
+      <Keyword m="2015-01-20T08:43:26.5488281Z">Elektronické váhy</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="b4b0e90f-1d83-4438-81dd-6ce200adab60">
+      <Keyword m="2015-01-22T08:24:10.2832031Z">DIBAL</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="af0c1df4-b07c-4afc-903d-8d0f1e891c72">
+      <Keyword m="2015-01-22T08:24:15.1708984Z">BWS</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="a684d4f1-55d4-4b38-b20c-f335e8dac2c3">
+      <Keyword m="2018-12-07T09:12:17.7431583Z">DFWL</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="b5d0170f-32f0-4230-8617-7a31bdfb434d">
+      <Keyword m="2022-12-15T08:00:47.9002753Z">Vážený čiarový kód - elektronické váhy</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="682cdb52-4f4e-41e9-864a-2d2bd86866e6">
+      <Keyword m="2021-05-11T12:54:34.6086507Z">CAS</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="3fcc794f-910c-4a30-bbb3-a7a379ab1988">
+      <Keyword m="2021-05-11T12:54:52.0431699Z">SASI</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

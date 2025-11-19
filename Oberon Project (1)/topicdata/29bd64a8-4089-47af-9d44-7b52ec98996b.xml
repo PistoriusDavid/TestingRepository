@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="29bd64a8-4089-47af-9d44-7b52ec98996b" Status="Complete" CreatedOn="2020-01-27T08:41:16.9400817Z" ModifiedOn="2023-12-29T12:34:25.140253Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="21740" Name="Device_FiscalDevice_ECM_Servis" BuildFlags="">
+  <Title m="2020-01-27T08:59:04.0507593Z">Servisné funkcie ECM</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-12-29T12:34:25.140253Z">&lt;P&gt;V závislosti od konkrétneho&amp;nbsp;&lt;A href="b24ad235-cf7f-43e2-b3e8-ec0f7d92f6b6"&gt;fiškálneho zariadenia&lt;/A&gt;&amp;nbsp;môže&amp;nbsp;&lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9" style="auto-update-caption: true"&gt;Pokladnica OBERON&lt;/A&gt;&amp;nbsp;s týmto fiškálnym zariadením komunikovať prostredníctvom aplikácie &lt;A href="cd5f4475-36be-4b51-83ca-c11c8cd12b7e"&gt;EXALOGIC CashRegister Manager&lt;/A&gt; (ECM).&amp;nbsp;V tejto téme &lt;EM&gt;Pomocníka&lt;/EM&gt; sú popísané &lt;STRONG&gt;jednotlivé servisné funkcie&amp;nbsp;ovládača&amp;nbsp;&lt;/STRONG&gt;&lt;A href="cd5f4475-36be-4b51-83ca-c11c8cd12b7e"&gt;EXALOGIC CashRegister Manager.&lt;/A&gt; Servisné funkcie sú určené &lt;STRONG&gt;len servisným technikom&lt;/STRONG&gt;!&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Ovládač &lt;EM&gt;EXALOGIC CashRegister Manager&amp;nbsp;&lt;/EM&gt;umožňuje: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Načítať dátové správy z CHDÚ&lt;/STRONG&gt; - funkcia umožní načítať z fiškálneho zariadenia&amp;nbsp;tzv. žurnál. Tvoria ho dátové správy vo formáte XML uložené v chránenom dátovom úložisku (CHDÚ) fiškálneho zariadenia. V&amp;nbsp;ďalšom kroku zvoľte rozsah načítaných údajov a časový rozsah. 
+&lt;LI&gt;&lt;STRONG&gt;Načítať správy o priebehu z CHDÚ&lt;/STRONG&gt; - funkcia umožní z fiškálneho zariadenia načítať správy o priebehu (logy). Uvedená funkcia je určená len pre servisných technikov. 
+&lt;LI&gt;&lt;STRONG&gt;Aktualizácia firmvéru&lt;/STRONG&gt; - pomocou sprievodcu je možné aktualizovať firmvér fiškálneho zariadenia. Vyberte súbor s údajmi nového firmvéru s príponou dll. &lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="a1c4cfd2-38b3-4bd5-a788-430164798f58" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="cd5f4475-36be-4b51-83ca-c11c8cd12b7e">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="4aab3f81-a40f-4b57-8dac-e960b4169f80" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="49a252bc-d94f-4296-9a80-4ebf60f06e34">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="56730ea0-6011-4d0a-926f-0953e5919e22" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="a14ac842-73d2-4d86-ab96-a99fe02e5a8f">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="4d7efbed-da95-475f-8dd5-9e1df6f1ac38">
+      <Keyword m="2020-01-27T09:00:49.8075911Z">ECM - Servisné funkcie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="785043be-32a2-48d4-83c5-e4cbaac84a99">
+      <Keyword m="2021-04-08T07:54:36.8147665Z">eKasa - ECM - Servisné funkcie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="338432a3-e357-43f0-b309-a0a6aaebda30">
+      <Keyword m="2021-04-08T07:54:53.7351848Z">EXALOGIC CashRegister Manager - Servisné funkcie</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

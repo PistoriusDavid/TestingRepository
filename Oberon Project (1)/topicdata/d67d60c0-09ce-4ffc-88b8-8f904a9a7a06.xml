@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="d67d60c0-09ce-4ffc-88b8-8f904a9a7a06" Status="Complete" CreatedOn="2024-09-18T08:15:12.0100981Z" ModifiedOn="2025-05-15T11:00:59.548966Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="BankAPI_Fiobanka" BuildFlags="">
+  <Title m="2024-09-18T08:15:43.1649463Z">Prepojenie s Fio bankou</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2025-05-15T11:00:59.548966Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;informácie o prepojení systému OBERON s &lt;EM&gt;Fio bankou&lt;/EM&gt;&lt;/STRONG&gt;, ktoré je odporúčaným riešením &lt;A href="1f32a90c-7b4a-4d69-9f38-a560178794b3" style="auto-update-caption: true"&gt;&lt;IMG border=0 alt="Odporúčané riešenia" src="images/OBERON/Basic/Odporucane-riesenie_ruka_ikona.png"&gt;&lt;/A&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Systém OBERON umožňuje &lt;STRONG&gt;prepojenie so slovenskými, ale aj zahraničnými&amp;nbsp;bankami&lt;/STRONG&gt; v&amp;nbsp;rámci &lt;EM&gt;Európskeho hospodárskeho priestoru&lt;/EM&gt; (EHP)&lt;STRONG&gt;, ktoré sa realizuje pomocou bankového rozhrania (tzv.&lt;/STRONG&gt; &lt;EM&gt;&lt;STRONG&gt;Bank API&lt;/STRONG&gt;&lt;/EM&gt;). Prepojenie OBERON-u s bankami prostredníctvom rozhrania &lt;EM&gt;Bank API&lt;/EM&gt; umožňuje &lt;STRONG&gt;sťahovať bankové&amp;nbsp;výpisy (transakcie)&amp;nbsp;priamo z banky&lt;/STRONG&gt; bez potreby exportovať bankový výpis do súboru a&amp;nbsp;následne ho&amp;nbsp;importovať. Viac informácií získate v téme&amp;nbsp;&lt;A href="836278d3-cfe9-4218-aaf5-51ee9fd113fe"&gt;Prepojenie s bankami&lt;/A&gt;. 
+&lt;LI&gt;Prepojenie s&amp;nbsp;&lt;EM&gt;Fio bankou&lt;/EM&gt; sa realizuje prostredníctvom bankového rozhrania &lt;STRONG&gt;&lt;EM&gt;Fio API Bankovníctvo&lt;/EM&gt;&lt;/STRONG&gt;. 
+&lt;LI&gt;Na strane OBERON-u je funkcia prepojenia s &lt;EM&gt;Fio bankou&lt;/EM&gt; bezplatná. Rovnako na strane banky je používanie rozhrania &lt;EM&gt;Fio API Bankovníctvo&lt;/EM&gt; &lt;STRONG&gt;dostupné zdarma&lt;/STRONG&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Postup nastavenia prepojenia&lt;/H2&gt;
+&lt;P&gt;Nastavenie bankového rozhrania API je špecifické pre každú banku. Postup nastavenia prepojenia s&amp;nbsp;&lt;EM&gt;Fio bankou&lt;/EM&gt; je veľmi jednoduchý a&amp;nbsp;pozostáva z nasledujúcich krokov:&lt;/P&gt;
+&lt;OL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Vygenerovanie API tokenu&lt;/STRONG&gt; - realizuje sa v&amp;nbsp;internetbankingu &lt;EM&gt;Fio banky&lt;/EM&gt; (v ponuke &lt;EM&gt;Nastavenia/API&lt;/EM&gt; stlačte tlačidlo &lt;EM&gt;&lt;STRONG&gt;Pridať nový token&lt;/STRONG&gt;&lt;/EM&gt;), 
+&lt;LI&gt;&lt;STRONG&gt;Zadanie vygenerovaného API tokenu do OBERON-u&lt;/STRONG&gt; - vo&amp;nbsp;&lt;A href="93ded66f-b7a6-40a8-89e0-bd501cd17bfc"&gt;formulári Bankový účet&lt;/A&gt;, 
+&lt;LI&gt;&lt;STRONG&gt;Zadanie dátumu platnosti tokenu&lt;/STRONG&gt; (nepovinné). &lt;/LI&gt;&lt;/OL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt; 
+&lt;UL&gt;
+&lt;LI&gt;Na &lt;STRONG&gt;automatický import a&amp;nbsp;spracovanie bankových&amp;nbsp;výpisov (transakcií)&lt;/STRONG&gt; možno v OBERON-e nastaviť automatickú&amp;nbsp;úlohu&amp;nbsp;&lt;A href="1a074e9a-9cf9-4ab8-b9a8-68575142a704" style="auto-update-caption: true"&gt;Automatické spracovanie bankových výpisov&lt;/A&gt;. 
+&lt;LI&gt;Bankové výpisy (transakcie) z&amp;nbsp;&lt;EM&gt;Fio banky&lt;/EM&gt; možno stiahnuť aj spätne za celý účtovný rok. V tom prípade je potrebné v&amp;nbsp;internetbankingu &lt;EM&gt;Fio banky&lt;/EM&gt; (ponuka &lt;EM&gt;Nastavenia/API&lt;/EM&gt;) odomknúť ikonu zámku na dočasné sprístupnenie kompletných dát prístupných pomocou API tokenu (pozri Obrázok č. 1). &lt;/LI&gt;&lt;/UL&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H5&gt;Obrázok č. 1: Dočasné sprístupnenie kompletných dát prístupných pomocou API tokenu&lt;/H5&gt;
+&lt;P&gt;&amp;nbsp;&lt;IMG border=0 alt="" src="images/Forms/Accounting/Acc_FiobankaAPItoken_Unlock.png"&gt;&lt;/P&gt;&lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;API token sa viaže na názov počítača, t. j. je dostupný len na danom počítači.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;HR&gt;
+
+&lt;P align=center&gt;&lt;A href="1f32a90c-7b4a-4d69-9f38-a560178794b3" style="auto-update-caption: true"&gt;&lt;IMG border=0 alt="Odporúčané riešenia" src="images/OBERON/Basic/Odporucane-riesenie.png"&gt;&lt;/A&gt;&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="1d0a8ca0-2f1c-4230-81f6-a131ccfb4a6f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="836278d3-cfe9-4218-aaf5-51ee9fd113fe">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="9d5bfd57-e703-4c5f-b002-27fd17888742" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="93ded66f-b7a6-40a8-89e0-bd501cd17bfc">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="03e3f53f-f1ef-4fc1-838d-d4780d83e4e6" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="0121f553-c6f2-4860-87bc-485e3cb08e2f">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="5167f75f-d177-4529-9dfd-f8e4e0cdb318" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="02bbf54b-086f-4641-8c33-4dd461e56fb4">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="686a1584-18e6-465f-aec0-ec01fdb3bf26" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="9ce25bbd-35d1-4096-acd5-70007f5af5a6">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="ba21347d-b48d-41e2-b841-64f387670762" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1a074e9a-9cf9-4ab8-b9a8-68575142a704">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="227587ce-96ef-49cf-922d-56955d978fa2">
+      <Keyword m="2024-09-18T10:45:14.9788483Z">Fio API Bankovníctvo - nastavenie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="59a6bf6e-36d8-42fb-94b8-ead04d5597f1">
+      <Keyword m="2024-09-18T10:45:08.0891316Z">Bank API - Fio API Bankovníctvo</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

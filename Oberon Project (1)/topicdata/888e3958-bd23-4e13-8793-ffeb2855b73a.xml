@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="888e3958-bd23-4e13-8793-ffeb2855b73a" Status="Complete" CreatedOn="2020-02-18T08:43:03.601578Z" ModifiedOn="2023-09-25T08:48:12.2354601Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="90170" Name="Menu_CRM_BlackListRecepients" BuildFlags="">
+  <Title m="2020-10-07T07:08:28.877996Z">Zoznam zakázaných príjemcov správ</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-09-25T08:48:12.2354601Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;je venovaná&amp;nbsp;položke &lt;EM&gt;Zoznam zakázaných príjemcov správ&lt;/EM&gt; v ponuke&amp;nbsp;&lt;EM&gt;CRM&lt;/EM&gt; programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&amp;nbsp;&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Kniha &lt;EM&gt;Zoznam zakázaných príjemcov správ&lt;/EM&gt; umožňuje evidovať kontaktné údaje príjemcov&amp;nbsp;e-mailových, resp. SMS správ v&amp;nbsp;rámci odosielania&amp;nbsp;&lt;A href="f7710ccc-3e00-4ba2-a8d6-c11f18f5ddae"&gt;hromadných správ (kampaní&lt;/A&gt;) v&amp;nbsp;module&amp;nbsp;&lt;A href="f1a6963d-36aa-4134-92a5-fa47a4345e74"&gt;CRM a registratúra&lt;/A&gt;, ktorí &lt;STRONG&gt;boli zakázaní&lt;/STRONG&gt; &lt;STRONG&gt;(vymazaní zo zoznamu príjemcov)&lt;/STRONG&gt;. Ku každému príjemcovi je možné priradiť dôvod zakázania (odhlásenie z e-mailov, nežiaduci príjemca, neudelený súhlas atď.). 
+&lt;LI&gt;Zakázaného príjemcu je možné kedykoľvek presunúť&amp;nbsp;späť do&amp;nbsp;&lt;A href="e80ec1f4-28f4-496f-8b9c-fc504944fff5"&gt;zoznamu príjemcov&lt;/A&gt;&amp;nbsp;prostredníctvom tlačidla &lt;EM&gt;Možnosti&lt;/EM&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Ďalšie informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Záznamy v knihe&amp;nbsp;možno&amp;nbsp;&lt;STRONG&gt;filtrovať alebo triediť&lt;/STRONG&gt;. Nastaviť kritériá filtrovania alebo triedenia možno po stlačení tlačidla &lt;A href="124da68e-c3f0-43e4-9466-60b4916bfc41"&gt;Vlastnosti&lt;/A&gt;. 
+&lt;LI&gt;Na zvýšenie&amp;nbsp;prehľadnosti v evidencii&amp;nbsp;je v ľavom paneli oddelenom&amp;nbsp;&lt;A href="38489850-ab82-41b6-b258-3fa613ed5861"&gt;rozdeľovacou lištou&lt;/A&gt; dostupný &lt;STRONG&gt;vstavaný filter&lt;/STRONG&gt;, pomocou ktorého možno rýchlo filtrovať záznamy podľa typu kontaktu príjemcu a skupín príjemcov. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Dostupné možnosti&lt;/H2&gt;
+&lt;P&gt;Ďalšie možnosti práce so záznamami&amp;nbsp;sú dostupné&amp;nbsp;po stlačení tlačidla &lt;EM&gt;Možnosti&lt;/EM&gt;, prípadne v&amp;nbsp;kontextovej ponuke tabuľky záznamov.&lt;/P&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Zaradiť medzi povolených príjemcov&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Funkcia povolí zakázaného príjemcu a presunie ho do&amp;nbsp;&lt;A href="e80ec1f4-28f4-496f-8b9c-fc504944fff5"&gt;zoznamu príjemcov&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Hromadne nastaviť skupiny príjemcov&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Funkcia hromadne zmení skupinu príjemcov na inú skupinu.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;XML komunikácia - export údajov&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Otvorí sa sprievodca, ktorý umožňuje exportovať údaje z&amp;nbsp;tejto evidencie do súboru typu XML. Viac informácií získate v téme&amp;nbsp;&lt;A href="56f661c6-24da-46aa-b157-5d988cbe792b" style="auto-update-caption: true"&gt;Všeobecne o XML komunikácii&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;XML komunikácia - import dokladu&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Otvorí sa sprievodca, ktorý umožňuje&amp;nbsp;importovať údaje&amp;nbsp;zo súboru typu&amp;nbsp;XML do tejto evidencie. Viac informácií získate v téme&amp;nbsp;&lt;A href="56f661c6-24da-46aa-b157-5d988cbe792b" style="auto-update-caption: true"&gt;Všeobecne o XML komunikácii&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="4c481d75-52aa-47bb-84ec-95f4a2d9fa12" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="04e52362-d0f3-4a9a-8ec5-36ef724a7ee2">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="5a7cbecb-b16f-4ead-ac49-b9379b6115f8" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="f7710ccc-3e00-4ba2-a8d6-c11f18f5ddae">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="7a3e3326-581e-427f-ab66-0df7da6e1cb9" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="2a13b609-7775-4239-a87c-75bcc12b0012">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="2f37d7e3-b288-4e88-adda-b1979f351ec1" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="32dedc5d-8e4e-420e-acec-60ba202b6ec7">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="2f185838-ef70-4d7d-8a81-51e749cae203" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="d4119d75-dd5b-4a1c-b9fa-c982601e0746">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="03407442-0b8d-450f-b321-9a35805c98b1" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="b7a48886-b367-4056-808a-59ba5f871f32">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="50363bd3-3564-4cc9-99f6-4c1f2fc9d9bd" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="e80ec1f4-28f4-496f-8b9c-fc504944fff5">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="7b54a321-0122-4c79-9e89-a523ecebfc46" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="846ca30b-f11b-4096-ad20-3e4c57ba09d5">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="e1f194fb-8ce5-4fe1-b09a-8243696dd7f9">
+      <Keyword m="2021-06-25T13:02:44.2212746Z">Blacklist - hromadný mailing</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="eb4d028e-2e5f-4e1e-a5c9-3f99ba469290">
+      <Keyword m="2021-06-25T13:02:18.9295066Z">Hromadný mailing - zoznam zakázaných príjemcov správ</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="c1f5717e-4b41-4197-af93-e5e40cba12a2">
+      <Keyword m="2021-06-25T13:02:38.0593561Z">Čierna listina - hromadný mailing</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="477f68bd-d72e-4a76-a33f-24a9c729f2c1">
+      <Keyword m="2021-06-25T13:02:22.9470375Z">SMS - zoznam zakázaných príjemcov správ</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="3a640be0-67f1-424a-933b-cbc71d2b4402">
+      <Keyword m="2021-06-25T13:02:30.339365Z">E-mail - zoznam zakázaných príjemcov správ</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

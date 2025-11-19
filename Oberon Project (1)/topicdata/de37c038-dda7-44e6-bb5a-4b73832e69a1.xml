@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="de37c038-dda7-44e6-bb5a-4b73832e69a1" Status="Complete" CreatedOn="2021-10-07T11:44:27.9291397Z" ModifiedOn="2022-07-19T11:25:00.5342779Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Devices_for_Kitchen_Overview" BuildFlags="">
+  <Title m="2021-10-07T11:45:09.5995221Z">Bonovacie zariadenia</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2022-07-19T11:25:00.5342779Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; je venovaná &lt;STRONG&gt;problematike bonovacích zariadení, ktoré slúžia na objednávanie jedál a nápojov v gastroprevádzkach&lt;/STRONG&gt; z&amp;nbsp;&lt;A href="aec074f4-3e1c-4a1e-8a80-06fcecf51156"&gt;Pokladnice OBERON&lt;/A&gt; prevádzkovanej v&amp;nbsp;reštauračnom režime, prípadne z&amp;nbsp;aplikácie&amp;nbsp;&lt;A href="942d48d5-b290-40f6-8ba3-45cf78f380f9"&gt;LUKUL - nielen mobilný čašník&lt;/A&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;A href="aec074f4-3e1c-4a1e-8a80-06fcecf51156"&gt;Pokladnica OBERON&lt;/A&gt; v&amp;nbsp;režime reštauračnej pokladnice, ale aj aplikácia &lt;A href="942d48d5-b290-40f6-8ba3-45cf78f380f9"&gt;LUKUL - nielen mobilný čašník&lt;/A&gt;&amp;nbsp;umožňujú automaticky objednávať jedlá v&amp;nbsp;prípravni jedál (v&amp;nbsp;kuchyni), prípadne nápoje v&amp;nbsp;bare. 
+&lt;LI&gt;Systém OBERON podporuje tieto bonovacie zariadenia: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;A href="b9d7c873-7b63-4210-86fe-ab1c66ea6502"&gt;&lt;STRONG&gt;bonovacie tlačiarne&lt;/STRONG&gt;&lt;/A&gt;&amp;nbsp;- položky jedál alebo nápojov zapísané na &lt;A href="e0ccff3e-b9e7-4572-bc3c-7f41a32280dd"&gt;otvorený účet (stôl)&lt;/A&gt;&amp;nbsp;sa po odoslaní objednávky vytlačia, 
+&lt;LI&gt;&lt;A href="d9867d81-7de7-4ce2-9c45-932025935b8b"&gt;&lt;STRONG&gt;bonovacie monitory&lt;/STRONG&gt;&lt;/A&gt; - položky jedál alebo nápojov&amp;nbsp;pridané na &lt;A href="e0ccff3e-b9e7-4572-bc3c-7f41a32280dd"&gt;otvorený účet (stôl)&lt;/A&gt;&amp;nbsp;sa po odoslaní objednávky zobrazia na monitore&amp;nbsp;(smart TV, tablete). &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Bonovacie tlačiarne je možné používať aj v kombinácii so systémom bonovacích monitorov. 
+&lt;LI&gt;Na umožnenie tlače objednávok na bonovacej tlačiarni je potrebné danú tlačiareň pridať medzi zariadenia v OBERON-e. Postup inštalácie nájdete v&amp;nbsp;téme&amp;nbsp;&lt;A href="5e465cda-4abf-4265-8b19-bb85470e116c"&gt;Inštalácia bonovacej tlačiarne&lt;/A&gt;. 
+&lt;LI&gt;Aby sa mohli objednávky jedál a nápojov zobrazovať na bonovacom monitore, je potrebné nakonfigurovať&amp;nbsp;&lt;A href="58bb31ca-00c8-4641-ad99-7d58e24f59c5"&gt;webovú službu&lt;/A&gt;. Postup&amp;nbsp;konfigurácie získate v téme&amp;nbsp;&lt;A href="2a7fe044-bfb5-45f5-b288-2aedb71f7999"&gt;Inštalácia bonovacieho monitora&lt;/A&gt;.&amp;nbsp; 
+&lt;LI&gt;Aby bola položka zaradená do objednávky, musí byť vo formulári&amp;nbsp;&lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;Skladová karta&lt;/A&gt;&amp;nbsp;(záložka&amp;nbsp;&lt;EM&gt;Receptúra&lt;/EM&gt;)&amp;nbsp;zadané&amp;nbsp;&lt;STRONG&gt;číslo bonovacej tlačiarne (monitora)&lt;/STRONG&gt;, na ktorej sa má objednávka vytlačiť&amp;nbsp;(zobraziť). 
+&lt;LI&gt;Každá položka zaradená do objednávky&amp;nbsp;sa pred vytlačením (zobrazením na&amp;nbsp;bonovacom monitore)&amp;nbsp;zapíše do&amp;nbsp;&lt;A href="83d00926-652d-4ae9-8cba-997d462fac7d"&gt;bonovacej knihy&lt;/A&gt;. 
+&lt;LI&gt;Pre aplikáciu &lt;EM&gt;LUKUL&lt;/EM&gt; je vo formulári &lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;Skladová karta&lt;/A&gt;&amp;nbsp;(záložka &lt;EM&gt;Receptúra&lt;/EM&gt;) možné zadať k danej skladovej karte jedla alebo nápoja&amp;nbsp;tzv. &lt;STRONG&gt;špecifikácie&lt;/STRONG&gt; - poznámky&amp;nbsp;k objednávke, ktoré špecifikujú spôsob prípravy alebo servírovania daného jedla, resp. nápoja (napr. &lt;EM&gt;Nechladená, Bez syra, So šľahačkou, Rare, Medium rare, Well done&lt;/EM&gt; atď.).&amp;nbsp;Špecifikácie sa tlačia na bonovacej tlačiarni (resp. zobrazujú na bonovacom monitore). Viac informácií v&amp;nbsp;téme&amp;nbsp;&lt;A href="20b1783a-a8ca-42a9-b2f3-80c658d62248"&gt;Aplikácia LUKUL - inštalácia&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="3f9f2394-691a-4c36-93f8-8a491df79d65" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="3f051fd3-9727-4ecc-9613-7a7fb1cb2a54">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="3aa0c8e9-1f81-4539-bcc5-f64f78c20632" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="b9d7c873-7b63-4210-86fe-ab1c66ea6502">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="94e113d5-112b-41eb-b451-d3c30c369268" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="d9867d81-7de7-4ce2-9c45-932025935b8b">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="7ec40c92-8310-4d74-bf6b-348b3a5bc4a6" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="7979135b-101e-4e8b-8544-bb8b653b7074">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="b658ca96-2665-4027-b37d-3249b3b31c98">
+      <Keyword m="2021-10-07T13:00:02.8700341Z">Bonovacie zariadenia</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="797daa79-271f-4112-948c-bb4f901cf880">
+      <Keyword m="2021-10-07T13:00:15.8766078Z">Objednávky jedál a nápojov - zariadenia</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="35f0947b-e465-40db-9c8f-91a3e58e7fee">
+      <Keyword m="2021-10-08T07:09:56.8825993Z">Bonovacie tlačiarne</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="662a49d4-60e3-4e3f-b33c-5cc31a0e4920">
+      <Keyword m="2021-10-08T07:10:02.0113713Z">Bonovacie monitory</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="2e5ea5aa-3477-439b-8046-f8d12df67d89">
+      <Keyword m="2021-10-08T07:10:14.8209937Z">Objednávkové zariadenia</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

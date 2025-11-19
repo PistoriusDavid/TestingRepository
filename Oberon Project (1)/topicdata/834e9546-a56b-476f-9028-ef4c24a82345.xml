@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="834e9546-a56b-476f-9028-ef4c24a82345" Status="Complete" CreatedOn="2014-09-08T12:50:32.1512892Z" ModifiedOn="2023-02-14T11:43:00.8070786Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="22402" Name="Menu_Service_User_Privileges" BuildFlags="">
+  <Title m="2015-10-07T06:15:01.6835937Z">Práva používateľov</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-02-14T11:43:00.76707Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;je venovaná&amp;nbsp;položke&amp;nbsp;&lt;EM&gt;Práva používateľov&lt;/EM&gt;&amp;nbsp;v ponuke&amp;nbsp;&lt;EM&gt;Servis&lt;/EM&gt; programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;. Položka je dostupná len pre&amp;nbsp;&lt;A href="225638ed-22f6-4ac4-9085-6d77c64925db"&gt;používateľov&lt;/A&gt; s&amp;nbsp;príznakom &lt;EM&gt;Administrátor&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Výberom položky sa otvorí formulár &lt;EM&gt;Práva používateľov&lt;/EM&gt;, ktorý umožňuje &lt;STRONG&gt;definovať práva prístupu jednotlivých používateľov systému OBERON&lt;/STRONG&gt; k jednotlivým nastaveniam, funkciám, nástrojom, evidenciám a&amp;nbsp;ďalším formulárom, evidenčným úkonom, práci so záznamami, schvaľovaniu úkonov vykonaných inými používateľmi, tlači dokladov a iných dokumentov atď. V osobitnej záložke je možné definovať práva používateľov&amp;nbsp;k&amp;nbsp;jednotlivým &lt;STRONG&gt;tlačovým výstupom&lt;/STRONG&gt;. 
+&lt;LI&gt;Kvôli prehľadnosti sú práva používateľov zatriedené do &lt;STRONG&gt;kategórií&lt;/STRONG&gt; (napr. &lt;EM&gt;OBERON, Účtovníctvo,&amp;nbsp;&lt;/EM&gt;Hotelová recepcia atď.), pri tlačových výstupoch aj do &lt;STRONG&gt;podkategórií&lt;/STRONG&gt; (napr. &lt;EM&gt;Kniha ubytovaných, Hotelové účty&lt;/EM&gt; atď.). 
+&lt;LI&gt;Definovať a meniť práva používateľov (aj definovať samotných používateľov) môže len používateľ s príznakom &lt;EM&gt;&lt;STRONG&gt;Administrátor&lt;/STRONG&gt;&lt;/EM&gt;. Viac informácií získate v téme &lt;A href="225638ed-22f6-4ac4-9085-6d77c64925db"&gt;Používatelia&lt;/A&gt;. 
+&lt;LI&gt;Práva používateľov sa definujú &lt;STRONG&gt;pomocou kontextovej ponuky&lt;/STRONG&gt;, kde sú dostupné jednotlivé nastavenia práv: &lt;EM&gt;Nepovoliť prístup, Len prezeranie, Pridať alebo opraviť, Plný prístup&lt;/EM&gt; (vysvetlenie jednotlivých nastavení pozri nižšie). 
+&lt;LI&gt;Na jednoduchšie definovanie rovnakých práv jednotlivým používateľom je možné práva daného používateľa &lt;STRONG&gt;skopírovať a&amp;nbsp;prilepiť ich inému používateľovi&lt;/STRONG&gt; (napr. pri rovnakom pracovnom zaradení používateľov). 
+&lt;LI&gt;Vybranému používateľovi je možné povoliť/zakázať všetky práva a&amp;nbsp;zároveň vybrané právo je možné povoliť/zakázať všetkým používateľom. 
+&lt;LI&gt;Vo formulári je dostupné vyhľadávanie na rýchle vyhľadanie konkrétneho práva. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 1: Formulár&amp;nbsp;&lt;EM&gt;Práva používateľov&lt;/EM&gt; -&amp;nbsp;kontextová ponuka&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_OptionsUsers.PNG"&gt;&lt;/P&gt;
+&lt;H2&gt;Špeciálne práva&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Používateľovi možno povoliť, resp. odoprieť práva k agende (dokladom, tlačovým výstupom...) konkrétnej &lt;A href="8df798f2-4fbf-4279-ad8c-493bdbe7f2e4"&gt;prevádzky&lt;/A&gt;. Napr. po&amp;nbsp;povolení práv len k&amp;nbsp;&lt;EM&gt;Prevádzke 1&lt;/EM&gt; a&amp;nbsp;odopretí práv k ostatným prevádzkam používateľ bude&amp;nbsp;mať prístup len&amp;nbsp;napr. k pohľadávkam &lt;EM&gt;Prevádzky 1&lt;/EM&gt;&amp;nbsp;a k&amp;nbsp;pohľadávkam iných prevádzok (&lt;EM&gt;Prevádzka 2, Prevádzka 3&lt;/EM&gt;...)&amp;nbsp;bude&amp;nbsp;mať prístup zakázaný (nebudú sa mu zobrazovať). 
+&lt;LI&gt;Podobne možno používateľovi&amp;nbsp;povoliť, resp. odoprieť práva ku konkrétnemu&amp;nbsp;&lt;A href="1e423d36-8e0a-4420-b2e9-05f12806ec3a"&gt;skladu&lt;/A&gt;. Napr. po&amp;nbsp;povolení práv len ku&amp;nbsp;&lt;EM&gt;Skladu 1&lt;/EM&gt; a&amp;nbsp;odopretí práv k ostatným&amp;nbsp;skladom používateľ bude&amp;nbsp;môcť pracovať len so &lt;EM&gt;Skladom 1&lt;/EM&gt;&amp;nbsp;a k&amp;nbsp;ostatným skladom&amp;nbsp;(&lt;EM&gt;Sklad 2,&amp;nbsp;Sklad 3&lt;/EM&gt;...)&amp;nbsp;bude&amp;nbsp;mať prístup zakázaný (nebudú sa mu zobrazovať skladové karty a pod.). &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Legenda práv používateľov&lt;/H2&gt;
+&lt;TABLE style="WIDTH: 100%"&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TD width="15%"&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Button_UserPrivileges_Red.png"&gt;&lt;/TD&gt;
+&lt;TD&gt;&lt;STRONG&gt;Nepovoliť prístup&lt;/STRONG&gt; - používateľovi nebude povolený prístup k danej evidencii, tlačovému výstupu a pod.&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width="15%"&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Button_UserPrivileges_Yellow.png"&gt;&lt;/TD&gt;
+&lt;TD&gt;&lt;STRONG&gt;Len prezeranie&lt;/STRONG&gt; -&amp;nbsp;používateľ môže údaje len prezerať, nie meniť alebo vymazať.&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width="15%"&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Button_UserPrivileges_Blue.png"&gt;&lt;/TD&gt;
+&lt;TD&gt;&lt;STRONG&gt;Pridať alebo opraviť (vymazať len do koša)&lt;/STRONG&gt; -&amp;nbsp;používateľ môže pridávať, opravovať a&amp;nbsp;mazať údaje, ale nie vyprázdňovať&amp;nbsp;&lt;A href="90dfd66e-297e-41e9-9796-5f3c43ed111d"&gt;kôš&lt;/A&gt;.&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width="15%"&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Button_UserPrivileges_Green.png"&gt;&lt;/TD&gt;
+&lt;TD&gt;&lt;STRONG&gt;Plný prístup &lt;/STRONG&gt;- používateľ môže pridávať, opravovať a&amp;nbsp;mazať údaje vrátane vyprázdňovania&amp;nbsp;&lt;A href="90dfd66e-297e-41e9-9796-5f3c43ed111d"&gt;koša&lt;/A&gt;.&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="bc841cb2-0954-4fbb-af6c-9b0adb7ef5e3" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="225638ed-22f6-4ac4-9085-6d77c64925db">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="242c472d-4017-4c10-ba66-bea160596cc2" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="a414f273-6f62-4a8f-a809-e6f956459972">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="c78ca63a-a9bd-4191-8972-e96f8d6ef855" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="90dfd66e-297e-41e9-9796-5f3c43ed111d">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="036bf7ae-b852-4b63-983b-820950e85900">
+      <Keyword m="2022-01-28T14:29:11.7473654Z">Kategórie - práva používateľov</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="c7d05c77-93e0-4c22-bd04-e9aa76b529f5">
+      <Keyword m="2022-01-28T14:29:19.5863162Z">Používatelia - práva</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="313f2b28-f490-4e7a-acf0-f2c8aa7e7c95">
+      <Keyword m="2022-01-28T14:29:27.5782759Z">Používateľ - práva</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="da189811-4c85-4513-9237-3310d595406b">
+      <Keyword m="2022-02-02T08:31:40.4342551Z">Podkategórie - práva používateľov</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

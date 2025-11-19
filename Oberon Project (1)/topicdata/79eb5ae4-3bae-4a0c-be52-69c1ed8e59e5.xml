@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="79eb5ae4-3bae-4a0c-be52-69c1ed8e59e5" Status="Complete" CreatedOn="2023-11-21T13:08:06.1342595Z" ModifiedOn="2025-08-21T10:41:10.3601165Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="ProgramControls_FileRepository" BuildFlags="">
+  <Title m="2023-11-21T13:17:08.3638099Z">Práca s prílohami</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2025-08-21T10:41:10.3601165Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;popisuje &lt;STRONG&gt;možnosti práce s&amp;nbsp;prílohami&lt;/STRONG&gt; v&amp;nbsp;systéme OBERON.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Systém OBERON umožňuje vo vybraných evidenciách (tých, kde to má&amp;nbsp;praktický význam: &lt;EM&gt;Výdajky, Príjemky, Objednávky prijaté, Kniha pohľadávok, Kniha záväzkov, Objednávky vydané, Dokumenty a&amp;nbsp;výkazy pracovníkov, Kniha rezervácií, Kniha ubytovaných, Hotelové účty, Obchodní partneri, Evidencia reklamácií a servisu, Evidencia zápočtov faktúr...&lt;/EM&gt;)&amp;nbsp;&lt;STRONG&gt;evidovať ku každému záznamu prílohy&lt;/STRONG&gt; (t.&amp;nbsp;j. dokumenty a obrázky). 
+&lt;LI&gt;V&amp;nbsp;závislosti od konkrétnej evidencie môžu byť prílohy rôzne, napr. v&amp;nbsp;knihe záväzkov&amp;nbsp;možno k zaevidovanému záväzku pripojiť prijatú faktúru, v&amp;nbsp;evidencii reklamácií a servisu možno pripojiť k záznamu reklamácie reklamačný formulár a pod.). 
+&lt;LI&gt;Prílohu možno k záznamu štandardne pripojiť &lt;STRONG&gt;pomocou tlačidla &lt;EM&gt;Prílohy&lt;/EM&gt;&lt;/STRONG&gt;. Jeho stlačením&amp;nbsp;sa otvorí formulár, v ktorom možno pridať, resp. oskenovať&amp;nbsp;dokument alebo obrázok. Po stlačení tlačidla&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_Button_YellowPlus.png"&gt; sa otvorí&amp;nbsp;&lt;A href="d36ad291-a0d7-45f5-b79b-489d18ff28ee"&gt;formulár Príloha&lt;/A&gt;, v&amp;nbsp;ktorom možno po stlačení tlačidla výberu&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_ListButton.png"&gt; nalistovať dokument z&amp;nbsp;vybraného&amp;nbsp;umiestnenia v&amp;nbsp;počítači. 
+&lt;LI&gt;Systém OBERON podporuje aj iný manuálny spôsob pripájania príloh k&amp;nbsp;jednotlivým záznamom, a&amp;nbsp;to pomocou funkcie &lt;STRONG&gt;&lt;EM&gt;Drag&amp;amp;Drop&lt;/EM&gt;&lt;/STRONG&gt; (angl. &lt;EM&gt;Potiahni a pusť&lt;/EM&gt;), ktorá umožňuje jednoducho a rýchlo&amp;nbsp;vkladať dokumenty a&amp;nbsp;obrázky v&amp;nbsp;rôznych formátoch&amp;nbsp;medzi prílohy záznamu v OBERON-e. Napríklad jednoduchým potiahnutím myši je možné vložiť prílohu prijatej faktúry z e-mailu, obrázok z internetového prehliadača, prípadne prílohu z celého radu aplikácií podporovaných systémom &lt;EM&gt;Windows&lt;/EM&gt;, ako sú &lt;EM&gt;Messenger, WhatsApp, Discord&lt;/EM&gt; atď. 
+&lt;LI&gt;K&amp;nbsp;záznamu možno &lt;STRONG&gt;automaticky pripojiť prílohu po vytvorení súboru tlačového výstupu vo formáte PDF a následnom podpísaní&amp;nbsp;&lt;/STRONG&gt;&lt;A href="41fb8a3f-4d42-4e29-8296-05613775d8a6"&gt;digitálnym podpisom vygenerovaným v OBERON-e&lt;/A&gt;&amp;nbsp;alebo &lt;A href="bdf07bad-43fb-450a-9dba-15b8366448a9"&gt;kvalifikovaným elektronickým podpisom (KEP)&lt;/A&gt; vo &lt;A href="2bac8d21-6ae0-44e4-8b2e-403ac2f25955"&gt;formulári Tlačové výstupy&lt;/A&gt; (napr. tlačový výstup faktúry sa po podpise uloží k danému záznamu ako príloha vo formáte PDF). Podpísaná príloha &lt;STRONG&gt;sa automaticky stáva súčasťou aj&amp;nbsp;&lt;/STRONG&gt;&lt;A href="68a24d97-e4a5-4cf4-bc7a-72262df5973e"&gt;elektronického archívu&lt;/A&gt;. 
+&lt;LI&gt;V evidenciách, ktoré umožňujú evidovať prílohy, možno dokumenty &lt;STRONG&gt;podpisovať pomocou digitálnej podpisovej podložky&lt;/STRONG&gt;. Do vygenerovaného&amp;nbsp;tlačového výstupu (vo formáte PDF) sa po podpise na digitálnej podpisovej podložke&amp;nbsp;vloží podpis zákazníka, a&amp;nbsp;tým sa dokument&amp;nbsp;digitálne podpíše. Takýto dokument sa &lt;STRONG&gt;automaticky uloží ako príloha k danému záznamu v&amp;nbsp;danej evidencii&amp;nbsp;a zároveň sa stane súčasťou&amp;nbsp;&lt;/STRONG&gt;&lt;A href="68a24d97-e4a5-4cf4-bc7a-72262df5973e"&gt;elektronického archívu&lt;/A&gt;. Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="a315053c-fb60-4f19-a3df-40b9c9dd02f8" style="auto-update-caption: true"&gt;Digitálna podpisová podložka EXALOGIC-DSP1&lt;/A&gt;. 
+&lt;LI&gt;Po pripojení prílohy (prípadne viacerých príloh) k záznamu možno tieto prílohy zobraziť &lt;STRONG&gt;jednoduchým dvojklikom na&lt;/STRONG&gt;&amp;nbsp;&lt;STRONG&gt;bunku s&amp;nbsp;kancelárskou sponou&lt;/STRONG&gt;, ktorá sa zobrazí pri zázname v&amp;nbsp;danej evidencii. &lt;/LI&gt;&lt;/UL&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Button_PrintReports.PNG"&gt;&lt;/P&gt;
+&lt;H2&gt;Ďalšie informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Vo formulári &lt;EM&gt;Prílohy dokladu/záznamu&lt;/EM&gt; je k dispozícii &lt;STRONG&gt;jednoduchý režim zobrazenia&amp;nbsp;bez automatického náhľadu danej prílohy&lt;/STRONG&gt;. V tomto režime je možné mať dané okno vždy na vrchu (tlačidlo &lt;STRONG&gt;&lt;EM&gt;Vždy na vrchu&lt;/EM&gt;&lt;/STRONG&gt;) nad napr. e-mailovým klientom, a tak jednoducho pomocou funkcie&amp;nbsp;&lt;EM&gt;Drag&amp;amp;Drop&lt;/EM&gt; automaticky vložiť prílohu z&amp;nbsp;e-mailu, napr. prijatú faktúru vo&amp;nbsp;formáte PDF. 
+&lt;LI&gt;Pri prílohách typu obrázok systém OBERON podporuje &lt;STRONG&gt;automatické zmenšovanie&lt;/STRONG&gt; pri ich vkladaní medzi prílohy, ak veľkosť obrázka presahuje maximálnu povolenú veľkosť (nastavenú v&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="5a6e5663-262e-4ff0-9741-1569385d11e4"&gt;oddiel Firma, Všeobecné&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt; záložka &lt;EM&gt;Prílohy&lt;/EM&gt;). Príloha typu BMP (nekomprimovaný formát obrázka) sa automaticky mení na komprimovaný typ JPG, t. j. obrázok je zmenšený vždy. 
+&lt;LI&gt;V nastaveniach programu (ponuka &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="5a6e5663-262e-4ff0-9741-1569385d11e4"&gt;oddiel Firma, Všeobecné&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt; záložka &lt;EM&gt;Prílohy&lt;/EM&gt;) možno zvoliť spôsob&amp;nbsp;ukladania príloh -&amp;nbsp;obrázkov&amp;nbsp;a iných dokumentov v&amp;nbsp;OBERON-e: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Do databázy&lt;/STRONG&gt; - dokumenty a&amp;nbsp;obrázky sa budú ukladať priamo do databázy. Každý dokument alebo obrázok uložený v&amp;nbsp;databáze zväčší jej veľkosť, čo by časom mohol byť výrazný problém pri súborovej databáze&amp;nbsp;&lt;EM&gt;Microsoft Access&lt;/EM&gt;, ktorá má maximálnu veľkosť 1GB. Naopak, v&amp;nbsp;prípade SQL servera je to odporúčané nastavenie&amp;nbsp;(keďže v&amp;nbsp;sieťovej prevádzke nie je potrebné zdieľať žiadne ďalšie adresáre na disku). V&amp;nbsp;prípade&amp;nbsp;&lt;A href="9c0e1613-bfdc-48f6-9d03-58aba39dab36"&gt;umiestnenia databázy&lt;/A&gt; mimo lokálnej počítačovej siete (v cloude) je potrebné zvoliť túto možnosť. 
+&lt;LI&gt;&lt;STRONG&gt;Do vyhradeného adresára (mimo databázy)&lt;/STRONG&gt; - súbory sa nakopírujú do nastaveného adresára. Tento adresár by mal byť viditeľný pre všetky počítače v lokálnej počítačovej sieti. Toto riešenie je vhodné pri používaní súborovej databázy &lt;EM&gt;Microsoft Access&lt;/EM&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Funkcia &lt;STRONG&gt;&lt;EM&gt;Drag&amp;amp;Drop&lt;/EM&gt;&lt;/STRONG&gt; je nefunkčná v prípade, že je zdrojová aplikácia&amp;nbsp;spustená s&amp;nbsp;inými oprávneniami ako OBERON (napr. je spustená v&amp;nbsp;režime oprávnenia ako správca, a OBERON nie).&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Skenovanie príloh&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Skenovanie dokumentov je štandardnou funkciou systému OBERON vo všetkých evidenciách, ktoré umožňujú prácu s prílohami. Funkcia umožňuje priamo v&amp;nbsp;prostredí programu &lt;STRONG&gt;digitalizovať dokumenty a&amp;nbsp;priložiť ich k&amp;nbsp;záznamom&lt;/STRONG&gt;, čím sa ukladajú do &lt;A href="68a24d97-e4a5-4cf4-bc7a-72262df5973e"&gt;elektronického archívu&lt;/A&gt;.
+&lt;LI&gt;Skenovanie predstavuje &lt;STRONG&gt;jednu z&amp;nbsp;možností, ako prikladať k záznamom rôzne typy príloh&lt;/STRONG&gt; v&amp;nbsp;závislosti od konkrétnej evidencie. Napríklad v&amp;nbsp;knihe záväzkov sa odporúča prikladať elektronické faktúry vo formáte PDF, no v&amp;nbsp;prípade papierovej faktúry ju možno&amp;nbsp;oskenovať.
+&lt;LI&gt;Na správne fungovanie funkcie je potrebné, aby bol v&amp;nbsp;počítači nainštalovaný &lt;STRONG&gt;ovládač TWAIN&lt;/STRONG&gt; od výrobcu skenera. Tento ovládač môže, ale nemusí byť predinštalovaný&amp;nbsp;- v&amp;nbsp;prípade jeho absencie je ho potrebné stiahnuť zo stránky výrobcu a&amp;nbsp;doinštalovať.
+&lt;LI&gt;Dokument možno oskenovať&amp;nbsp;buď okamžitým spustením skenovania, alebo otvorením rozhrania ovládača skenera a vykonaním skenovania v ňom.
+&lt;LI&gt;V ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="5a6e5663-262e-4ff0-9741-1569385d11e4"&gt;oddiel Firma, Všeobecné&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt; záložka &lt;EM&gt;Prílohy &lt;/EM&gt;je možné definovať maximálnu veľkosť prílohy. Ak oskenovaný dokument túto veľkosť &lt;STRONG&gt;prekročí, systém ho neuloží&lt;/STRONG&gt;. Odporúča sa preto neskenovať zbytočne veľké súbory, aby sa predišlo problémom s&amp;nbsp;ukladaním.
+&lt;LI&gt;Počas skenovania je možné &lt;STRONG&gt;nastaviť veľkosť výsledného súboru&lt;/STRONG&gt;, čím sa dá podľa potreby optimalizovať kvalita a&amp;nbsp;veľkosť skenu.&lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="af2fa8ff-2c41-414f-b3bf-ca2872825af6" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="ccadca4e-2fbd-4b28-8d92-f826f3019bd0">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="012060a7-aa5a-42b4-b425-f083095ac74c" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="5a6e5663-262e-4ff0-9741-1569385d11e4">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="566607bd-3190-4222-b69e-5071884b11ab" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1dce6bce-8c7d-443a-b0f9-14ec18f3c9a0">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="26f0a534-d2b6-48e5-97da-067b2e155a87" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="68a24d97-e4a5-4cf4-bc7a-72262df5973e">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="299ebd19-baa3-4da0-985f-9d78f6a7fa26" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="a833ee8a-1289-42b9-923f-80f549497702">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="61b05079-8dae-4414-adef-28e493bcb226" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="68a24d97-e4a5-4cf4-bc7a-72262df5973e">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="b4e7e0c2-cbfb-4e70-9aba-54f35c1416de">
+      <Keyword m="2023-11-22T12:42:24.8764019Z">Prílohy</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="5eb78683-b7e4-4874-ba3e-ad62dbfaf317">
+      <Keyword m="2023-11-22T12:42:33.0448906Z">Dokumenty a obrázky - prílohy</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="eebaf1fa-b1a1-4f0a-a771-8d76924298fe">
+      <Keyword m="2023-11-22T12:42:42.3844888Z">Drag&amp;Drop</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="ab8436c1-3938-442b-8b8c-5f7b65b6c4db">
+      <Keyword m="2023-11-23T06:54:24.9567266Z">Drag&amp;Drop - nefunguje</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="5f7d8448-14a7-4592-bcaf-0af0ccf121b6">
+      <Keyword m="2025-08-21T09:34:57.6611916Z">Skenovanie príloh</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="b938769f-021a-46a4-8b9d-8b508d7768be">
+      <Keyword m="2025-08-21T09:35:06.5767333Z">Skenovanie dokumentov</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

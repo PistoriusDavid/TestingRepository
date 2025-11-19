@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="a7e1c27b-e28f-4ae9-b643-16cc1b478212" Status="Complete" CreatedOn="2014-09-05T15:29:51.6789282Z" ModifiedOn="2023-10-17T07:37:15.792595Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="50330" Name="Menu_Stock_MovementTypes" BuildFlags="">
+  <Title m="2014-09-06T19:30:57.6337354Z">Druhy pohybov</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-10-17T07:37:15.792595Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;je venovaná&amp;nbsp;položke&amp;nbsp;&lt;EM&gt;Druhy pohybov&amp;nbsp;&lt;/EM&gt;v&amp;nbsp;ponuke&amp;nbsp;&lt;EM&gt;Sklad&lt;/EM&gt; programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Výberom položky sa otvorí&amp;nbsp;číselník &lt;EM&gt;Druhy pohybov&lt;/EM&gt;, ktorý &lt;STRONG&gt;umožňuje definovať druhy pohybov&lt;/STRONG&gt;, ktoré bude účtovná jednotka pri vedení skladovej evidencie používať. 
+&lt;LI&gt;Druh pohybu predstavuje &lt;STRONG&gt;vlastnosť dokladu, ktorú možno aplikovať na výdajky alebo príjemky&lt;/STRONG&gt;. Túto vlastnosť je možné použiť &lt;STRONG&gt;na filtrovanie dokladov&lt;/STRONG&gt; a získať prehľad o príjme&amp;nbsp;alebo výdaji v&amp;nbsp;sklade podľa daného druhu pohybu. 
+&lt;LI&gt;V&amp;nbsp;niektorých špeciálnych prípadoch má druh pohybu nenahraditeľnú úlohu. Je to napr. pri práci s&amp;nbsp;obstarávacími nákladmi a ich rozpočítavaním na skladové karty, pri prevodkách a pod. 
+&lt;LI&gt;Modul &lt;EM&gt;Sklad&lt;/EM&gt;&lt;EM&gt;ová evidencia&lt;/EM&gt; pracuje s&amp;nbsp;tromi základnými kategóriami druhov pohybov: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Výdaj&lt;/STRONG&gt;, 
+&lt;LI&gt;&lt;STRONG&gt;Príjem&lt;/STRONG&gt;, 
+&lt;LI&gt;&lt;STRONG&gt;Príjem (obstarávacie náklady)&lt;/STRONG&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Používateľ môže vytvoriť a používať prakticky neobmedzený počet druhov pohybov a ľubovoľne ich pomenovať, ale každý druh pohybu musí patriť do jednej z&amp;nbsp;uvedených kategórií. 
+&lt;LI&gt;Kategória druhu pohybu má vplyv aj na to, aké položky obsahuje rozbaľovací zoznam &lt;I&gt;Druh pohybu&lt;/I&gt; pri vytváraní nového dokladu vo formulári &lt;I&gt;Nová príjemka (výdajka)&lt;/I&gt;. Pri vytváraní príjemky sú v&amp;nbsp;rozbaľovacom zozname &lt;I&gt;Druh pohybu&lt;/I&gt; len druhy pohybov z&amp;nbsp;kategórií &lt;EM&gt;Príjem&lt;/EM&gt; alebo &lt;EM&gt;Príjem (obstarávacie náklady).&lt;/EM&gt; Podobne, pri tvorbe výdajky&amp;nbsp;sú v&amp;nbsp;tomto zozname len druhy pohybov patriace do kategórie &lt;EM&gt;Výdaj&lt;/EM&gt;. 
+&lt;LI&gt;Informácie k používaniu druhov pohybov získate v téme&amp;nbsp;&lt;A href="654ac563-026a-455d-a98b-e523f62ef4fa"&gt;Ako používať druhy pohybov&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Popis formulára &lt;EM&gt;Druh pohybu&lt;/EM&gt;&lt;/H2&gt;
+&lt;P&gt;Formulár je dostupný z ponuky &lt;EM&gt;Sklad&lt;/EM&gt;,&amp;nbsp;&lt;EM&gt;Druhy pohybov&lt;/EM&gt;, tlačidlo&amp;nbsp;&lt;EM&gt;Nový&lt;/EM&gt; alebo &lt;EM&gt;Oprava&lt;/EM&gt;.&lt;/P&gt;&lt;innovasys:widget type="Tab Strip" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Základné&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Názov&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Identifikátor pohybu,&amp;nbsp;názov musí byť jedinečný - nesmie sa zhodovať s názvom iného pohybu.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Druh pohybu&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Vyberá sa druh pohybu z týchto&amp;nbsp;kategórií - výdaj, príjem a&amp;nbsp;príjem (obstarávacie náklady).&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Pre obeh tovaru používať&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Ku každému pohybu možno stanoviť spôsob&amp;nbsp;obehu tovaru alebo, inak povedané, kam (odkiaľ) bude smerovať. K&amp;nbsp;dispozícií sú tieto možnosti:&amp;nbsp;&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Obchodní partneri&lt;/STRONG&gt;, 
+&lt;LI&gt;&lt;STRONG&gt;Sklady&lt;/STRONG&gt;, 
+&lt;LI&gt;&lt;STRONG&gt;Pracovníci&lt;/STRONG&gt;, 
+&lt;LI&gt;&lt;STRONG&gt;*** Nezadáva sa ***&lt;/STRONG&gt; (prázdny riadok). &lt;/LI&gt;&lt;/UL&gt;
+&lt;P&gt;Výberom jednej z&amp;nbsp;týchto možností stanovíte, kam bude tovar smerovať. V&amp;nbsp;závislosti od toho sa totiž na príjemke (výdajke) &lt;STRONG&gt;bude v&amp;nbsp;oblasti, kde by ste očakávali polia&amp;nbsp;na zápis údajov o obchodnom partnerovi, objavovať možnosť nezadať obchodného partnera, ale sklad alebo prevádzku, prípadne ani jedno z&amp;nbsp;uvedených&lt;/STRONG&gt;. To je dôležité napr. vtedy, keď budete uskutočňovať medziskladové presuny alebo odberateľom bude prevádzka účtovnej jednotky.&lt;/P&gt;
+&lt;P&gt;Pri výdaji do iného skladu &lt;STRONG&gt;prevodkou sa okrem výdajky v zdrojovom sklade vytvorí aj príjemka v cieľovom sklade&lt;/STRONG&gt;. Tým sa zabezpečí výdaj a príjem tovaru, ale&amp;nbsp;spravidla nastanú&amp;nbsp;komplikácie pri oprave a vymazaní príjemky alebo výdajky. Napr. pri oprave, alebo vymazaní &lt;I&gt;V-Prevodka&lt;/I&gt; sa zmeny dotknú len daného dokladu, nie súvisiaceho dokladu &lt;I&gt;P-Prevodka&lt;/I&gt;. &lt;SPAN style="COLOR: rgb(255,0,0)"&gt;Tento doklad je potrebné upraviť manuálne&lt;/SPAN&gt;.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Druh pohybu v cudzej mene&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Umožňuje určiť, či doklad s týmto druhom pohybu bude v cudzej mene - teda v inej mene, ako je predvolená mena systému (na Slovensku EUR).&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Druh pohybu bez DPH&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Umožňuje určiť, či na doklade s týmto druhom pohybu&amp;nbsp;bude&amp;nbsp;program používať nulovú sadzbu DPH, napr. pri vývoze tovaru do zahraničia.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Iné&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Kontrolovať vysporiadanosť dokladov&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Kontrola vysporiadanosti je vlastnosťou pohybu použitého na príjemke (výdajke) a súvisí s&amp;nbsp;jednou z&amp;nbsp;vlastností príjemiek (výdajok), ktorá sa nazýva vysporiadanosť. Vysporiadaná príjemka je taká príjemka, ku ktorej &lt;STRONG&gt;existuje záznam o tom, akým dokladom bola&amp;nbsp;vyúčtovaná (vysporiadaná)&lt;/STRONG&gt;. Napr. ak&amp;nbsp;vytvoríte výdajku s&amp;nbsp;takým druhom pohybu,&amp;nbsp;pri ktorom je nastavené, že sa má kontrolovať vysporiadanosť, program automaticky nastaví, že táto príjemka nie je vysporiadaná. Vysporiadaná bude až vtedy, keď ju&amp;nbsp;vyúčtujete nejakým dokladom. Ak vo formulári &lt;I&gt;Druhy pohybov&lt;/I&gt;&amp;nbsp;pri vybranom pohybe stanovíte, že sa pri tomto pohybe nemá kontrolovať vysporiadanosť, tak pri vytváraní dokladu s&amp;nbsp;takýmto druhom pohybu program automaticky nastaví, že je už vysporiadaný (v&amp;nbsp;poli &lt;EM&gt;Vysporiadanosť&lt;/EM&gt; bude &lt;EM&gt;Áno&lt;/EM&gt;).&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Kontrolovať kredit limit&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Umožňuje nastaviť, či sa doklady (výdajky)&amp;nbsp;s týmto druhom pohybu zahrnú do výpočtu &lt;A href="96fd7619-32d2-462b-bad8-6f986dc4c6b2"&gt;kredit limitu&lt;/A&gt;.&amp;nbsp;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Položka dokladu musí obsahovať číslo colného sadzobníka&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Umožňuje nastaviť, aby do dokladu&amp;nbsp;s týmto druhom pohybu bolo možné pridať len položky, ktoré obsahujú kód kombinovanej nomenklatúry&amp;nbsp;&lt;A href="8f7c0098-5332-40a6-a7e7-92be2a86e854"&gt;colného sadzobníka&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Výhradná predajná cena pri výdaji&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Pri použití tohto druhu pohybu sa použije predajná cena navýšená o nastavenú hodnotu v percentách, alebo sa použije predajná cena, ktorá sa nastavuje na&amp;nbsp;&lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;skladovej karte&lt;/A&gt;. V prípade zvolenia možnosti &lt;EM&gt;Automaticky&lt;/EM&gt; sa použije cena podľa nastavení v programe alebo&amp;nbsp;sa uplatní zľava zadaná pri danom obchodnom partnerovi.&lt;/P&gt;
+&lt;P&gt;Ak je zadaná &lt;STRONG&gt;nula, tovar bude vydaný za obstarávaciu cenu&lt;/STRONG&gt; (používa sa napr. pri prevode z jedného skladu do druhého).&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="e1d7a7a1-fa6c-4e1d-b132-616ad9733e10" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="654ac563-026a-455d-a98b-e523f62ef4fa">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="b46a85a5-7137-4fdb-aad0-80a9079ce3a0" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="efed1882-1614-4406-b57a-3023aee6ba26">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="c55d24a5-eec7-4935-aa28-d7aaf7128181" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="0be61fcc-a85b-4572-876d-2171a5cb7c29">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="25acd846-4adc-4669-9e04-26669375f8a9" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="62db2271-9ae9-4968-b790-47a07e7c6aef">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="77ca22c2-8ab1-4fc7-ae7b-911a14473c9d" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="0a22d060-0b8a-4166-ba9b-8239f36863a0">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="9e9f5f01-15ab-43be-a1d3-34939ed4325e" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="6cd390d6-697d-4829-bc05-ea31662ffe4e">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="dd6f7a87-6fee-422f-b1dc-cd3808ff9143">
+      <Keyword m="2021-10-22T08:36:55.8826264Z">Prevodka - druh pohybu</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

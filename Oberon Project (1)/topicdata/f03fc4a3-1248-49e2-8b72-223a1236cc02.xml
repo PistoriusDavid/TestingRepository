@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="f03fc4a3-1248-49e2-8b72-223a1236cc02" Status="Complete" CreatedOn="2014-09-08T14:40:24.0302017Z" ModifiedOn="2022-11-22T07:42:09.0368089Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="AccDouble_Start_Default_States" BuildFlags="">
+  <Title m="2014-09-08T14:40:48.9826289Z">Zadanie počiatočných stavov</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2021-07-21T11:38:58.7154488Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; je venovaná &lt;STRONG&gt;zadaniu počiatočných stavov na účtoch&lt;/STRONG&gt; v&amp;nbsp;&lt;A href="49dd3167-870a-4fdf-b631-d4f692f1ed72"&gt;podvojnom účtovníctve&lt;/A&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Počiatočné stavy&amp;nbsp;na účtoch v&amp;nbsp;podvojnom účtovníctve&amp;nbsp;sa zadávajú priamo do&amp;nbsp;&lt;A href="d8c9bfc8-92d1-4471-8909-e5f8ce602d6c"&gt;účtovného denníka&lt;/A&gt;. Účtujú sa oproti začiatočnému súvahovému účtu 701. 
+&lt;LI&gt;V prípade, že ste&amp;nbsp;účtovali predchádzajúce účtovné obdobie&amp;nbsp;v&amp;nbsp;OBERON-e, počiatočné stavy program vytvorí automaticky pri&amp;nbsp;&lt;A href="831d0b51-ffdf-4708-8afc-9d305d97e4d0"&gt;účtovnej závierke účtovného denníka&lt;/A&gt;. 
+&lt;LI&gt;Ak v&amp;nbsp;OBERON-e začínate účtovať prvé účtovné obdobie, je potrebné&amp;nbsp;zaevidovať aj všetky neuhradené pohľadávky a záväzky (v&amp;nbsp;knihách&amp;nbsp;&lt;A href="5c21adcc-87c8-44e7-981d-02902635693d"&gt;Kniha pohľadávok&lt;/A&gt; a&amp;nbsp;&lt;A href="55028746-c263-4d92-a615-502222e8d53b"&gt;Kniha záväzkov&lt;/A&gt;), a&amp;nbsp;to&amp;nbsp;s&amp;nbsp;dátumami z pôvodnej evidencie. Pri úhrade týchto dokladov bude potom s nimi možné jednotlivé úhrady &lt;EM&gt;spárovať&lt;/EM&gt;. &lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="f06d6a95-274b-48d4-9358-966bbb0701ed" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="66d035b9-3aac-4820-8bba-a449c83c0851">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="691562a0-6865-4b5a-bcc0-c747a3f47e08" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="831d0b51-ffdf-4708-8afc-9d305d97e4d0">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="272c0bdb-38b8-4216-8e93-cce53bc3e43b">
+      <Keyword m="2022-11-22T07:42:09.0318076Z">Počiatočné stavy - podvojné účtovníctvo</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

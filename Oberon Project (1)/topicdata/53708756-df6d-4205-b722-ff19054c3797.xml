@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="53708756-df6d-4205-b722-ff19054c3797" Status="Complete" CreatedOn="2014-09-01T16:04:10.2064438Z" ModifiedOn="2024-08-08T06:24:23.0549248Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="21060" Name="InstallationMigration" BuildFlags="">
+  <Title m="2021-02-19T13:48:55.5886662Z">Migrácia údajov do iného databázového systému</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-08-08T06:24:23.0549248Z">&lt;P&gt;Táto téma je venovaná &lt;STRONG&gt;funkcii &lt;EM&gt;Migrácia údajov do iného databázového systému&lt;/EM&gt;&lt;/STRONG&gt;, pomocou ktorej je možné&amp;nbsp;zmeniť databázový systém účtovnej jednotky (firmy) z&amp;nbsp;aktuálneho databázového&amp;nbsp;systému na iný.&lt;/P&gt;&lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Pred migráciou údajov je potrebné vykonať&amp;nbsp;&lt;A href="7cbdb63a-dd9a-445c-a3ab-b51876e0541f"&gt;Prevod do novej databázy&lt;/A&gt; (ponuka &lt;EM&gt;Servis&lt;/EM&gt;). Pri migrácii súborovej databázy &lt;EM&gt;Microsoft Access&lt;/EM&gt; do databázového systému typu SQL je potrebné pred prevodom do novej databázy vykonať aj&amp;nbsp;&lt;EM&gt;&lt;STRONG&gt;Údržbu databázy&lt;/STRONG&gt; &lt;STRONG&gt;Microsoft Access&lt;/STRONG&gt;&lt;/EM&gt; (&lt;A href="d2b25c8c-d57f-4678-8021-3148259d3777"&gt;formulár Otvorenie agendy (firmy)&lt;/A&gt;, tlačidlo &lt;EM&gt;Možnosti&lt;/EM&gt;).&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Systém OBERON podporuje viacero typov databáz, tzv. &lt;A href="0b81f4ea-5e68-48c1-8b89-933d5a23d962"&gt;databázových systémov&lt;/A&gt;.&amp;nbsp;Informácie o tom,&amp;nbsp;aký typ databázového systému účtovná jednotka používa, je možné zistiť v&amp;nbsp;ponuke &lt;I&gt;Pomocník&lt;/I&gt;, &lt;I&gt;O programe&lt;/I&gt;, tlačidlo &lt;I&gt;Detaily&lt;/I&gt;. Samotná funkcia migrácie údajov je dostupná v&amp;nbsp;ponuke OBERON, položka&amp;nbsp;&lt;A href="e975459f-e882-49f2-adb9-79e68a07df0e"&gt;Otvorenie agendy (firmy),&lt;/A&gt; tlačidlo &lt;I&gt;Možnosti.&lt;/I&gt; 
+&lt;LI&gt;Migrácia údajov sa najčastejšie používa &lt;STRONG&gt;z dôvodu zníženého výkonu programu&amp;nbsp;v predvolenom type databázy&lt;/STRONG&gt; &lt;I&gt;&lt;STRONG&gt;Microsoft Access&lt;/STRONG&gt;.&lt;/I&gt; Výkon spravidla klesá s nárastom databázy,&amp;nbsp;t. j.&amp;nbsp;počtu záznamov v databáze. Pri práci so systémom OBERON, hlavne pri viacpoužívateľskej prevádzke (prípadne pri používaní fiškálnych tlačiarní), sa fyzická databáza neustále zväčšuje, čo v určitom okamihu môže spôsobiť potrebu prechodu na robustnejší&amp;nbsp; typ databázy -&amp;nbsp;&lt;STRONG&gt;SQL server&lt;/STRONG&gt; (databáza typu klient/server)&lt;STRONG&gt;.&lt;/STRONG&gt; Pri používaní&amp;nbsp;súborovej databázy&amp;nbsp;&lt;I&gt;Microsoft Access&lt;/I&gt; odporúčame prechod na SQL server už pri databáze&amp;nbsp;s&amp;nbsp;veľkosťou nad 100&amp;nbsp;MB. 
+&lt;LI&gt;Migráciu údajov je možné vykonať kedykoľvek, pričom zdrojový a cieľový databázový&amp;nbsp;systém sa môže ľubovoľne kombinovať, napr. z &lt;I&gt;Microsoft Access&lt;/I&gt; na &lt;I&gt;MySQL&lt;/I&gt;, z&amp;nbsp;&lt;I&gt;MySQL&lt;/I&gt; na &lt;I&gt;Microsoft SQL Server,&lt;/I&gt; alebo aj &lt;I&gt;z MySQL&lt;/I&gt; na &lt;I&gt;Microsoft Access.&lt;/I&gt; Migráciou údajov &lt;STRONG&gt;zostane pôvodná databáza zachovaná&lt;/STRONG&gt; - v cieľovom databázovom systéme sa vlastne len vytvorí kópia zdrojovej (pôvodnej) databázy&lt;I&gt;.&lt;/I&gt; 
+&lt;LI&gt;Priebeh migrácie spolu s prípadnými chybovými hláseniami&amp;nbsp;sa zaznamenáva a po ukončení migrácie sa&amp;nbsp;ukladá do textového súboru s príponou &lt;I&gt;.log&lt;/I&gt; v adresári &lt;A href="2ed2711c-75f6-4f18-8dbb-1b44eaab93c0"&gt;Temp&lt;/A&gt;. 
+&lt;LI&gt;Samotnú migráciu možno vykonať vo&amp;nbsp;&lt;A href="d2b25c8c-d57f-4678-8021-3148259d3777"&gt;formulári Otvorenie agendy (firmy)&lt;/A&gt;. Kurzorom označte firmu (databázu), ktorú chcete migrovať, stlačte&amp;nbsp;tlačidlo &lt;EM&gt;Možnosti&lt;/EM&gt; a&amp;nbsp;zvoľte možnosť&amp;nbsp;&lt;I&gt;&lt;STRONG&gt;Migrácia údajov&amp;nbsp;do iného databázového&amp;nbsp;systému&lt;/STRONG&gt;&lt;/I&gt;. Otvorí sa sprievodca, ktorý umožňuje zmeniť &lt;A href="0b81f4ea-5e68-48c1-8b89-933d5a23d962"&gt;databázový systém&lt;/A&gt; (&lt;EM&gt;Microsoft Access 2003, resp. 2007, MariaDB,&amp;nbsp;MySQL Server, MS SQL Server&lt;/EM&gt;). &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Migrácia údajov&amp;nbsp;do SQL servera umiestneného v cloude&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Niektoré účtovné jednotky môžu používať systém s SQL serverom, ktorý &lt;STRONG&gt;je umiestnený mimo firmy, t. j. v cloude&lt;/STRONG&gt;, prípadne v prenajatom dedikovanom serveri&lt;I&gt;.&lt;/I&gt; Vtedy migrácia údajov môže trvať aj niekoľkonásobne dlhší čas v porovnaní s&amp;nbsp;lokálnou počítačovou sieťou. Preto v týchto prípadoch odporúčame postupovať &lt;STRONG&gt;iným spôsobom&lt;/STRONG&gt; - migráciu databázy vykonať&amp;nbsp;do lokálneho SQL servera, potom vytvorené databázové súbory SQL servera manuálne skopírovať do&amp;nbsp;SQL servera v cloude. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Pre jednu účtovnú jednotku&amp;nbsp;systém OBERON štandardne využíva dve databázy. Jednu&amp;nbsp;na samotné údaje firmy a druhú&amp;nbsp;na údaje&amp;nbsp;&lt;A href="bc30e126-afb5-41aa-a261-e92501038063"&gt;Sledovania činností&lt;/A&gt;&amp;nbsp;(tzv. log záznamy). V prípade použitia databázy &lt;I&gt;MS Access&lt;/I&gt; sú záznamy uložené v&amp;nbsp;súbore s príponou LOG, ktorý sa nachádza v&amp;nbsp;&lt;A href="2ed2711c-75f6-4f18-8dbb-1b44eaab93c0"&gt;adresári s údajmi&lt;/A&gt; účtovnej jednotky. V prípade použitia &lt;I&gt;SQL servera&lt;/I&gt; sú údaje&amp;nbsp;&lt;EM&gt;Sledovania činností&lt;/EM&gt; uložené v&amp;nbsp;samostatnej databáze, v ktorej názve sa na konci nachádza výraz "_logs", napr. "oberon_demorestauracia_logs".&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="ce302ec9-e26b-4f22-89e4-e6bba8f1577e" CategoryId="836f9d58-cafb-44cd-82b4-eda09492d555" TopicLinkCategorySource="SpecificValue" Target="0b81f4ea-5e68-48c1-8b89-933d5a23d962">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="ceecb4e3-6bc9-4390-90f3-da49aeb47288" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="e975459f-e882-49f2-adb9-79e68a07df0e">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="39ae0abf-8782-4f6a-8f8d-9848db9e2817" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="2ed2711c-75f6-4f18-8dbb-1b44eaab93c0">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="04f35023-ce2d-472f-b46c-09ffe7ac979b">
+      <Keyword m="2021-02-19T14:21:36.9075482Z">Presun údajov do iného databázového systému</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="7e58da57-ff2d-44e3-b4cd-37d4c66cee57">
+      <Keyword m="2021-03-25T12:38:06.1678045Z">Cloud - migrácia údajov do SQL servera</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="56e93cf3-8ebc-4aee-960d-4b0c07431990">
+      <Keyword m="2021-03-25T12:37:27.9659706Z">Migrácia údajov do SQL servera umiestneného v cloude</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

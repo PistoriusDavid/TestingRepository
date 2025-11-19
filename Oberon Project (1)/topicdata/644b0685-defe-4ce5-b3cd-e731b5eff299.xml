@@ -1,0 +1,549 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="644b0685-defe-4ce5-b3cd-e731b5eff299" Status="Complete" CreatedOn="2014-09-01T12:46:26.8098963Z" ModifiedOn="2025-08-12T08:21:29.0022809Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="LicenceTypes" BuildFlags="">
+  <Title m="2014-09-01T12:46:42.7098057Z">Typy licencií</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2025-08-12T08:21:29.0022809Z">&lt;P&gt;V&amp;nbsp;tejto&amp;nbsp;téme &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;sú uvedené&amp;nbsp;&lt;STRONG&gt;informácie o&amp;nbsp;rozsahu jednotlivých typov licencie pre jednu firmu&lt;/STRONG&gt; s&amp;nbsp;ohľadom na dostupnosť funkcií a počet zápisov v&amp;nbsp;evidenciách&amp;nbsp;jednotlivých modulov&amp;nbsp;systému&amp;nbsp;OBERON. Téma obsahuje aj &lt;STRONG&gt;informácie o&amp;nbsp;dostupnosti funkcií a počte zápisov v&amp;nbsp;evidenciách&amp;nbsp;jednotlivých modulov&lt;/STRONG&gt; &lt;STRONG&gt;v rámci multilicencie pre viaceré firmy&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;OBERON rozlišuje dva základné druhy licencií: 
+&lt;OL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Licencia pre jednu firmu&lt;/STRONG&gt; - ide o bežnú licenciu určenú&amp;nbsp;na spracovanie vlastnej agendy firmy jednej účtovnej jednotky na jednom alebo viacerých počítačoch. 
+&lt;LI&gt;&lt;STRONG&gt;Multilicencia pre viaceré firmy&lt;/STRONG&gt;&amp;nbsp;- ide o špeciálnu licenciu určenú pre účtovné firmy, ktoré vedú účtovníctvo alebo mzdovú agendu pre neobmedzené množstvo&amp;nbsp;menších firiem. &lt;/LI&gt;&lt;/OL&gt;
+&lt;LI&gt;V rámci &lt;STRONG&gt;licencie pre jednu&amp;nbsp;firmu&lt;/STRONG&gt; sa rozlišuje niekoľko&lt;STRONG&gt;&amp;nbsp;typov licencií&lt;/STRONG&gt;: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;EM&gt;&lt;STRONG&gt;Mini&lt;/STRONG&gt;,&lt;/EM&gt; 
+&lt;LI&gt;&lt;EM&gt;&lt;EM&gt;&lt;STRONG&gt;Štandard&lt;/STRONG&gt;,&lt;/EM&gt;&lt;/EM&gt; 
+&lt;LI&gt;&lt;EM&gt;&lt;EM&gt;&lt;EM&gt;&lt;STRONG&gt;Profi&lt;/STRONG&gt;&lt;/EM&gt;.&lt;/EM&gt;&lt;/EM&gt; &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Každý z&amp;nbsp;týchto&amp;nbsp;typov &lt;STRONG&gt;licencie pre jednu&amp;nbsp;firmu&lt;/STRONG&gt; má &lt;STRONG&gt;presne špecifikovaný rozsah&lt;/STRONG&gt;, v ktorom&amp;nbsp;je možné systém OBERON používať (počet záznamov v jednotlivých evidenciách za jeden kalendárny rok, počet vytlačených pokladničných dokladov za jeden deň a pod.). Tomuto rozsahu je prispôsobená aj &lt;A href="efb93a2c-e449-4770-88ba-0fe999e90ccd"&gt;cena za daný typ licencie&lt;/A&gt;. Pred kúpou licencie OBERON je potrebné sa &lt;STRONG&gt;oboznámiť s rozdielmi medzi jednotlivými typmi licencií&lt;/STRONG&gt; a vybrať si ten, ktorý zodpovedá požiadavkám účtovnej jednotky. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Niektoré moduly alebo súčasti systému OBERON sú plne funkčné aj bez zakúpenia licencie, napr. &lt;EM&gt;Evidencia vozidiel&lt;/EM&gt;, &lt;EM&gt;Kniha majetku&lt;/EM&gt;, &lt;EM&gt;Editor tlačových výstupov&lt;/EM&gt; a pod.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H1&gt;1. Licencia pre jednu firmu&lt;/H1&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Účtovníctvo&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;TABLE id=table5 style="WIDTH: 70%" borderColor=#111111 cellSpacing=0 cellPadding=0 width="70%" border=1&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TD height=16 width="20%"&gt;&lt;B&gt;&amp;nbsp;&lt;/B&gt;&lt;/TD&gt;
+&lt;TD height=16 width="30%" colSpan=4 align=center&gt;&lt;B&gt;Typ licencie&lt;/B&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=16 width="20%"&gt;&lt;STRONG&gt;&amp;nbsp;&lt;I&gt;Kniha alebo funkcia&lt;/I&gt;&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD height=16 width="10%" align=center&gt;&lt;B&gt;Bez licencie&lt;/B&gt;&lt;/TD&gt;
+&lt;TD height=16 width="10%" align=center&gt;
+&lt;P align=center&gt;&lt;B&gt;Mini&lt;BR&gt;40&amp;nbsp;€&lt;/B&gt;&lt;/P&gt;&lt;/TD&gt;
+&lt;TD height=16 width="10%" align=center&gt;&lt;B&gt;Štandard&lt;BR&gt;70&amp;nbsp;€&lt;/B&gt;&lt;/TD&gt;
+&lt;TD height=16 width="10%" align=center&gt;&lt;B&gt;Profi&lt;BR&gt;100&amp;nbsp;€&lt;/B&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=18 width="20%"&gt;Počet zápisov v&amp;nbsp;účtovnom denníku&lt;/TD&gt;
+&lt;TD height=18 width="10%" align=center&gt;100&lt;/TD&gt;
+&lt;TD height=18 width="10%" align=center&gt;1 000&lt;/TD&gt;
+&lt;TD height=18 width="10%" align=center&gt;10 000&lt;/TD&gt;
+&lt;TD height=18 width="10%" align=center&gt;&lt;FONT size=2 face="Segoe UI"&gt;neobmedzene&lt;/FONT&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=18 width="20%"&gt;Počet zápisov v&amp;nbsp;peňažnom denníku&lt;/TD&gt;
+&lt;TD height=18 width="10%" align=center&gt;100&lt;/TD&gt;
+&lt;TD height=18 width="10%" align=center&gt;1 000&lt;/TD&gt;
+&lt;TD height=18 width="10%" align=center&gt;10 000&lt;/TD&gt;
+&lt;TD height=18 width="10%" align=center&gt;&lt;FONT size=2 face="Segoe UI"&gt;neobmedzene&lt;/FONT&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=19 width="20%"&gt;Počet zápisov&amp;nbsp;v knihe pohľadávok&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;1&amp;nbsp;000&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;&lt;FONT size=2 face="Segoe UI"&gt;neobmedzene&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;&lt;FONT size=2 face="Segoe UI"&gt;neobmedzene&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;&lt;FONT size=2 face="Segoe UI"&gt;neobmedzene&lt;/FONT&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=19 width="20%"&gt;Kniha majetku (odpisy), drobného majetku&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=19 width="20%"&gt;Kniha evidencie DPH&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=19 width="20%"&gt;Tlačové výstupy v&amp;nbsp;rôznych jazykoch a&amp;nbsp;štýloch&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=19 width="20%"&gt;Hromadné&amp;nbsp;spracovanie položiek bankových výpisov&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=19 width="20%"&gt;Podpora elektronického platobného styku&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=19 width="20%"&gt;Export výkazov vo formáte XML pre&amp;nbsp;aplikáciu eDane&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=19 width="20%"&gt;&lt;A href="518026eb-be63-494d-b3e3-837f9509c543"&gt;Aplikácia QeeR skener&lt;/A&gt;&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;Legenda: áno - je zahrnuté v licencii,&amp;nbsp;nie - nie je zahrnuté v licencii &lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Skladová evidencia, Pokladnica OBERON&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;TABLE id=table5 style="WIDTH: 70%" borderColor=#111111 cellSpacing=0 cellPadding=0 width="70%" border=1&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TD height=16 width="20%"&gt;&lt;B&gt;&amp;nbsp;&lt;/B&gt;&lt;/TD&gt;
+&lt;TD height=16 width="30%" colSpan=4 align=center&gt;&lt;B&gt;Typ licencie&lt;/B&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=16 width="20%"&gt;&lt;STRONG&gt;&amp;nbsp;&lt;I&gt;Kniha alebo funkcia&lt;/I&gt;&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD height=16 width="10%" align=center&gt;&lt;B&gt;Bez licencie&lt;/B&gt;&lt;/TD&gt;
+&lt;TD height=16 width="10%" align=center&gt;&lt;B&gt;Mini&lt;BR&gt;40&amp;nbsp;€&lt;/B&gt;&lt;/TD&gt;
+&lt;TD height=16 width="10%" align=center&gt;&lt;B&gt;Štandard&lt;BR&gt;70&amp;nbsp;€&lt;/B&gt;&lt;/TD&gt;
+&lt;TD height=16 width="10%" align=center&gt;&lt;B&gt;Profi&lt;BR&gt;100&amp;nbsp;€&lt;/B&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=19 width="20%"&gt;Počet skladov&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;&lt;FONT size=2 face="Segoe UI"&gt;neobmedzene&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;&lt;FONT size=2 face="Segoe UI"&gt;neobmedzene&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;&lt;FONT size=2 face="Segoe UI"&gt;neobmedzene&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;&lt;FONT size=2 face="Segoe UI"&gt;neobmedzene&lt;/FONT&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=17 width="20%"&gt;Počet skladových kariet (vo všetkých aktívnych&amp;nbsp; skladoch)&lt;/TD&gt;
+&lt;TD height=17 width="10%" align=center&gt;100&lt;/TD&gt;
+&lt;TD height=17 width="10%" align=center&gt;1 000&lt;/TD&gt;
+&lt;TD height=17 width="10%" align=center&gt;10 000&lt;/TD&gt;
+&lt;TD height=17 width="10%" align=center&gt;&lt;FONT size=2 face="Segoe UI"&gt;neobmedzene&lt;/FONT&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=19 width="20%"&gt;Počet skladových pohybov (príjmov a&amp;nbsp;výdajov)&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;100&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;10 000&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;100 000&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;&lt;FONT size=2 face="Segoe UI"&gt;neobmedzene&lt;/FONT&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=19 width="20%"&gt;Počet zápisov v&amp;nbsp;knihe pohľadávok&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;1&amp;nbsp;000&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;&lt;FONT face=Webdings&gt;&lt;FONT face=Webdings&gt;&lt;FONT size=2 face="Segoe UI"&gt;neobmedzene&lt;/FONT&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;&lt;FONT face=Webdings&gt;&lt;FONT face=Webdings&gt;&lt;FONT size=2 face="Segoe UI"&gt;neobmedzene&lt;/FONT&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;&lt;FONT face=Webdings&gt;&lt;FONT face=Webdings&gt;&lt;FONT size=2 face="Segoe UI"&gt;neobmedzene&lt;/FONT&gt;&lt;/FONT&gt;&lt;/FONT&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=19 width="20%"&gt;Evidencia výrobných a&amp;nbsp;sériových čísiel&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=19 width="20%"&gt;Evidencia parametrov a&amp;nbsp;variantov&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=19 width="20%"&gt;Výdajky, príjemky, objednávky&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=19 width="20%"&gt;Počet prečítaných PLU z&amp;nbsp;registračných pokladníc&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;100&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;&lt;FONT size=2 face="Segoe UI"&gt;neobmedzene&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;&lt;FONT size=2 face="Segoe UI"&gt;neobmedzene&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;&lt;FONT size=2 face="Segoe UI"&gt;neobmedzene&lt;/FONT&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=19 width="20%"&gt;Celkový počet pokladničných dokladov&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;100&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;&lt;FONT size=2 face="Segoe UI"&gt;neobmedzene&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;&lt;FONT size=2 face="Segoe UI"&gt;neobmedzene&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;&lt;FONT size=2 face="Segoe UI"&gt;neobmedzene&lt;/FONT&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=19 width="20%"&gt;Cenotvorba - množstevné zľavy, akciové letáky, letákové dohody s&amp;nbsp;dodávateľmi, zľavy platné len v určitom čase (happy hour)&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;100&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;&lt;FONT size=2 face="Segoe UI"&gt;neobmedzene&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;&lt;FONT size=2 face="Segoe UI"&gt;neobmedzene&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;&lt;FONT size=2 face="Segoe UI"&gt;neobmedzene&lt;/FONT&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=30 width="20%"&gt;Počet pokladničných dokladov v&amp;nbsp;Pokladnici&amp;nbsp;OBERON&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;&amp;nbsp;2/deň&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;&lt;FONT size=2 face="Segoe UI"&gt;neobmedzene&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;&lt;FONT size=2 face="Segoe UI"&gt;neobmedzene&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;&lt;FONT size=2 face="Segoe UI"&gt;neobmedzene&lt;/FONT&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=19 width="20%"&gt;Prepojenie&amp;nbsp;s&amp;nbsp;internetovým obchodom&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=19 width="20%"&gt;Komunikácia s&amp;nbsp;hardvérovými zariadeniami&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=19 width="20%"&gt;&lt;A href="d9867d81-7de7-4ce2-9c45-932025935b8b"&gt;Systém bonovacích monitorov&lt;/A&gt;&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=19 width="20%"&gt;&lt;A href="be17efdf-4b36-4b47-ad5d-09b0f66c8f65" style="auto-update-caption: true"&gt;Aplikácia ASTON&lt;/A&gt;&amp;nbsp;*&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=19 width="20%"&gt;&lt;A href="942d48d5-b290-40f6-8ba3-45cf78f380f9" style="auto-update-caption: true"&gt;Aplikácia LUKUL&lt;/A&gt;&amp;nbsp;*&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;Legenda: áno - je zahrnuté v licencii,&amp;nbsp;nie - nie je zahrnuté v licencii, * - potrebné zakúpiť licencie na príslušný počet používateľov &lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Mzdy a dochádzka&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;TABLE id=table6 style="WIDTH: 70%" borderColor=#111111 cellSpacing=0 cellPadding=0 width="70%" border=1&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TD height=19 width="20%"&gt;&lt;B&gt;&amp;nbsp;&lt;/B&gt;&lt;/TD&gt;
+&lt;TD height=16 width="30%" colSpan=4 align=center&gt;&lt;B&gt;Typ licencie&lt;/B&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=19 width="20%"&gt;&lt;B&gt;&amp;nbsp;&lt;I&gt;Kniha alebo funkcia&lt;/I&gt;&lt;/B&gt;&lt;/TD&gt;
+&lt;TD height=16 width="10%" align=center&gt;&lt;B&gt;Bez licencie&lt;BR&gt;&lt;/B&gt;&lt;/TD&gt;
+&lt;TD height=16 width="10%" align=center&gt;&lt;STRONG&gt;Mini&lt;BR&gt;&lt;/STRONG&gt;&lt;STRONG&gt;30&amp;nbsp;€&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD height=16 width="10%" align=center&gt;&lt;STRONG&gt;Štandard&lt;BR&gt;&lt;/STRONG&gt;&lt;STRONG&gt;100&amp;nbsp;€&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD height=16 width="10%" align=center&gt;&lt;STRONG&gt;Profi&lt;BR&gt;&lt;/STRONG&gt;&lt;STRONG&gt;160&amp;nbsp;€&lt;/STRONG&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=19 width="20%"&gt;Počet pracovníkov v evidencii&lt;/TD&gt;
+&lt;TD height=18 width="10%" align=center&gt;neobmedzene&lt;/TD&gt;
+&lt;TD height=18 width="10%" align=center&gt;neobmedzene&lt;/TD&gt;
+&lt;TD height=18 width="10%" align=center&gt;neobmedzene&lt;/TD&gt;
+&lt;TD height=18 width="10%" align=center&gt;neobmedzene&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=18 width="20%"&gt;Maximálny počet spracovaných miezd/rok&lt;/TD&gt;
+&lt;TD height=18 width="10%" align=center&gt;3*&lt;/TD&gt;
+&lt;TD height=18 width="10%" align=center&gt;72&lt;/TD&gt;
+&lt;TD height=18 width="10%" align=center&gt;240&lt;/TD&gt;
+&lt;TD height=18 width="10%" align=center&gt;neobmedzene&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=19 width="20%"&gt;Priemerný počet pracovníkov/mesiac&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;0&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;6&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;20&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;neobmedzene&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=19 width="20%"&gt;Dochádzka - generovanie pracovného&amp;nbsp;plánu&amp;nbsp;(pracovníkov za mesiac)&lt;/TD&gt;
+&lt;TD height=18 width="10%" align=center&gt;3&lt;/TD&gt;
+&lt;TD height=18 width="10%" align=center&gt;6&lt;/TD&gt;
+&lt;TD height=18 width="10%" align=center&gt;20&lt;/TD&gt;
+&lt;TD height=18 width="10%" align=center&gt;neobmedzene&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=19 width="20%"&gt;Dochádzka - spracovanie príchodov a&amp;nbsp;odchodov&amp;nbsp;(pracovníkov za mesiac)&lt;/TD&gt;
+&lt;TD height=18 width="10%" align=center&gt;3&lt;/TD&gt;
+&lt;TD height=18 width="10%" align=center&gt;6&lt;/TD&gt;
+&lt;TD height=18 width="10%" align=center&gt;20&lt;/TD&gt;
+&lt;TD height=18 width="10%" align=center&gt;neobmedzene&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=19 width="20%"&gt;Počet zápisov v knihe pohľadávok&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;1&amp;nbsp;000&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;&lt;FONT size=2 face="Segoe UI"&gt;neobmedzene&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;&lt;FONT size=2 face="Segoe UI"&gt;neobmedzene&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;&lt;FONT size=2 face="Segoe UI"&gt;neobmedzene&lt;/FONT&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;Legenda: áno - je zahrnuté v licencii,&amp;nbsp;nie - nie je zahrnuté v licencii&lt;BR&gt;* V mesiacoch január, február a marec&amp;nbsp;nie je možné spracovávať&amp;nbsp;bez licencie.&amp;nbsp; &lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;CRM a registratúra&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;TABLE id=table5 style="WIDTH: 70%" borderColor=#111111 cellSpacing=0 cellPadding=0 width="70%" border=1&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TD height=16 width="20%"&gt;&lt;B&gt;&amp;nbsp;&lt;/B&gt;&lt;/TD&gt;
+&lt;TD height=16 width="30%" colSpan=4 align=center&gt;&lt;B&gt;Typ licencie&lt;/B&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=16 width="20%"&gt;&lt;STRONG&gt;&amp;nbsp;&lt;I&gt;Kniha alebo funkcia&lt;/I&gt;&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD height=16 width="10%" align=center&gt;&lt;B&gt;Bez licencie&lt;/B&gt;&lt;/TD&gt;
+&lt;TD height=16 width="10%" align=center&gt;&lt;B&gt;Mini&lt;BR&gt;20&amp;nbsp;€&lt;/B&gt;&lt;/TD&gt;
+&lt;TD height=16 width="10%" align=center&gt;&lt;B&gt;Štandard&lt;BR&gt;50&amp;nbsp;€&lt;/B&gt;&lt;/TD&gt;
+&lt;TD height=16 width="10%" align=center&gt;&lt;B&gt;Profi&lt;BR&gt;80&amp;nbsp;€&lt;/B&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=19 width="20%"&gt;Počet úloh a udalostí&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;10&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;250&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;1&amp;nbsp;000&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;neobmedzene&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=19 width="20%"&gt;Evidencia reklamácií a&amp;nbsp;servisu&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;10&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;250&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;1&amp;nbsp;000&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;neobmedzene&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=19 width="20%"&gt;Počet záznamov v&amp;nbsp;registratúrnom denníku&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;10&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;500&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;2&amp;nbsp;000&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;neobmedzene&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=19 width="20%"&gt;Hromadné správy (kampane)&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;Legenda: áno - je zahrnuté v licencii,&amp;nbsp;nie - nie je zahrnuté v licencii &lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Hotelová recepcia&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;TABLE id=table7 style="WIDTH: 70%" borderColor=#111111 cellSpacing=0 cellPadding=0 width="70%" border=1&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TD height=16 width="20%"&gt;&lt;B&gt;&amp;nbsp;&lt;/B&gt;&lt;/TD&gt;
+&lt;TD height=16 width="30%" colSpan=4 align=center&gt;&lt;B&gt;Typ licencie&lt;/B&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=16 width="20%"&gt;&lt;STRONG&gt;&amp;nbsp;&lt;I&gt;Kniha alebo funkcia&lt;/I&gt;&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD height=16 width="10%" align=center&gt;&lt;B&gt;Bez licencie&lt;/B&gt;&lt;/TD&gt;
+&lt;TD height=16 width="10%" align=center&gt;&lt;B&gt;Mini&lt;BR&gt;40&amp;nbsp;€&lt;/B&gt;&lt;/TD&gt;
+&lt;TD height=16 width="10%" align=center&gt;&lt;B&gt;Štandard&lt;BR&gt;100&amp;nbsp;€&lt;/B&gt;&lt;/TD&gt;
+&lt;TD height=16 width="10%" align=center&gt;&lt;B&gt;Profi&lt;BR&gt;200&amp;nbsp;€&lt;/B&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=19 width="20%"&gt;Počet izieb&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;2&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;8&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;25&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;neobmedzene&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=19 width="20%"&gt;Počet zápisov v knihe rezervácií&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;10&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;neobmedzene&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;neobmedzene&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;neobmedzene&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=19 width="20%"&gt;Počet zápisov v knihe ubytovaných&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;10&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;neobmedzene&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;neobmedzene&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;neobmedzene&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=19 width="20%"&gt;Počet zápisov v knihe pohľadávok&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;1&amp;nbsp;000&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;&lt;FONT size=2 face="Segoe UI"&gt;neobmedzene&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;&lt;FONT size=2 face="Segoe UI"&gt;neobmedzene&lt;/FONT&gt;&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;&lt;FONT size=2 face="Segoe UI"&gt;neobmedzene&lt;/FONT&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=19 width="20%"&gt;Prepojenie s&amp;nbsp;&lt;A href="25b9b2fe-ad9e-49dd-9a59-e57d2520e87b"&gt;manažérom rezervačných kanálov&lt;/A&gt;&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=19 width="20%"&gt;On-line&amp;nbsp;&lt;A href="5eaef397-0196-4360-a339-fcb1a11c32e3"&gt;rezervačný formulár ubytovania&lt;/A&gt;&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=19 width="20%"&gt;&lt;A href="de42d42d-6f5c-49ba-b0c9-1413773f7ef1"&gt;Hotel on-line check-in&lt;/A&gt;&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=19 width="20%"&gt;&lt;A href="0f4cbef4-f919-441f-bd61-6ef9ca0b1344"&gt;Prehľad poskytovaných služieb&lt;/A&gt;&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=19 width="20%"&gt;Podpora&amp;nbsp;&lt;A href="1ca0ffc5-a594-4417-b906-a801ad45f893"&gt;čítačky dokladov&lt;/A&gt;&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;Legenda: áno - je zahrnuté v licencii,&amp;nbsp;nie - nie je zahrnuté v licencii &lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Ostatné evidencie a funkcie&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;TABLE id=table5 style="WIDTH: 70%" borderColor=#111111 cellSpacing=0 cellPadding=0 width="70%" border=1&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TD height=16 width="20%"&gt;&lt;B&gt;&amp;nbsp;&lt;/B&gt;&lt;/TD&gt;
+&lt;TD height=16 width="30%" colSpan=4 align=center&gt;&lt;B&gt;Typ licencie&lt;/B&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=16 width="20%"&gt;&lt;STRONG&gt;&amp;nbsp;&lt;I&gt;Kniha alebo funkcia&lt;/I&gt;&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD height=16 width="10%" align=center&gt;&lt;B&gt;Bez licencie&lt;/B&gt;&lt;/TD&gt;
+&lt;TD height=16 width="10%" align=center&gt;&lt;B&gt;Mini&lt;/B&gt;&lt;/TD&gt;
+&lt;TD height=16 width="10%" align=center&gt;&lt;B&gt;Štandard&lt;/B&gt;&lt;/TD&gt;
+&lt;TD height=16 width="10%" align=center&gt;&lt;B&gt;Profi&lt;/B&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=19 width="20%"&gt;Počet spracovávaných firiem&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;neobmedzene&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;1&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;1&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;1&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=19 width="20%"&gt;Všetky ostatné evidencie&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=19 width="20%"&gt;Modul Evidencia vozidiel&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=19 width="20%"&gt;Program Editor tlačových výstupov&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=19 width="20%"&gt;&lt;A href="b138daad-5453-4e53-8d2c-ecf2e81a5fcb"&gt;OBERON Web&lt;/A&gt;&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=19 width="20%"&gt;Sieťová prevádzka&lt;/TD&gt;
+&lt;TD height=18 width="10%" align=center&gt;áno&lt;/TD&gt;
+&lt;TD height=18 width="10%" align=center&gt;áno&lt;/TD&gt;
+&lt;TD height=18 width="10%" align=center&gt;áno&lt;/TD&gt;
+&lt;TD height=18 width="10%" align=center&gt;áno&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=19 width="20%"&gt;Prenositeľnosť údajov do iných počítačov&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=19 width="20%"&gt;Transport údajov&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=19 width="20%"&gt;Služba Vzdialená pomoc&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=19 width="20%"&gt;Automatické notifikácie&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=19 width="20%"&gt;Automatická aktualizácia&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=19 width="20%"&gt;Aktualizácia cez internet&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;Legenda: áno - je zahrnuté v licencii,&amp;nbsp;nie - nie je zahrnuté v licencii &lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H1&gt;2. Multilicencia pre viaceré firmy&lt;/H1&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Účtovníctvo (podvojné aj jednoduché)&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;TABLE id=table8 style="WIDTH: 40%" borderColor=#111111 cellSpacing=0 cellPadding=0 width="40%" border=1&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TD height=16 width="20%"&gt;&lt;STRONG&gt;&amp;nbsp;&lt;I&gt;Kniha alebo funkcia&lt;/I&gt;&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD height=16 width="10%" align=center&gt;&lt;B&gt;Multi&lt;BR&gt;200&amp;nbsp;€&lt;/B&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=18 width="20%"&gt;Počet zápisov v&amp;nbsp;účtovnom denníku&lt;/TD&gt;
+&lt;TD height=18 width="10%" align=center&gt;10&amp;nbsp;000&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=18 width="20%"&gt;Počet zápisov v&amp;nbsp;peňažnom denníku&lt;/TD&gt;
+&lt;TD height=18 width="10%" align=center&gt;5&amp;nbsp;000&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=19 width="20%"&gt;Počet zápisov&amp;nbsp;v knihe pohľadávok&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;neobmedzene&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=19 width="20%"&gt;Kniha majetku (odpisy), drobného majetku&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=19 width="20%"&gt;Kniha evidencie DPH&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=19 width="20%"&gt;Všetky ostatné evidencie&lt;/TD&gt;
+&lt;TD height=18 width="10%" align=center&gt;áno&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=19 width="20%"&gt;Počet spracovávaných firiem&lt;/TD&gt;
+&lt;TD height=18 width="10%" align=center&gt;neobmedzene&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=19 width="20%"&gt;Prenositeľnosť údajov do iných počítačov&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;áno &lt;FONT face=Tahoma&gt;HW&lt;/FONT&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;Legenda: áno - je zahrnuté v licencii,&amp;nbsp;nie- nie je zahrnuté v licencii, HW - potreba&amp;nbsp;hardvérového kľúča &amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Mzdy a dochádzka&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;TABLE id=table9 style="WIDTH: 40%" borderColor=#111111 cellSpacing=0 cellPadding=0 width="40%" border=1&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TD height=19 width="20%"&gt;&amp;nbsp;&lt;I&gt;&lt;STRONG&gt;Kniha alebo funkcia&lt;/STRONG&gt;&lt;/I&gt;&lt;/TD&gt;
+&lt;TD height=16 width="10%" align=center&gt;&lt;B&gt;Multi&lt;BR&gt;200&amp;nbsp;€&lt;/B&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=19 width="20%"&gt;Počet pracovníkov v evidencii&lt;/TD&gt;
+&lt;TD height=18 width="10%" align=center&gt;neobmedzene&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=18 width="20%"&gt;Maximálny počet spracovaných miezd/rok&lt;/TD&gt;
+&lt;TD height=18 width="10%" align=center&gt;240&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=19 width="20%"&gt;Priemerný počet pracovníkov/mesiac&lt;/TD&gt;
+&lt;TD height=19 width="10%" align=center&gt;20&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=19 width="20%"&gt;Dochádzka - generovanie pracovného&amp;nbsp;plánu&amp;nbsp;(pracovníkov za mesiac)&lt;/TD&gt;
+&lt;TD height=18 width="10%" align=center&gt;20&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=19 width="20%"&gt;Dochádzka - spracovanie príchodov a&amp;nbsp;odchodov (pracovníkov za mesiac)&lt;/TD&gt;
+&lt;TD height=18 width="10%" align=center&gt;20&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=19 width="20%"&gt;Všetky ostatné evidencie&lt;/TD&gt;
+&lt;TD height=18 width="10%" align=center&gt;áno&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=19 width="20%"&gt;Počet spracovávaných firiem&lt;/TD&gt;
+&lt;TD height=18 width="10%" align=center&gt;neobmedzene&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=19 width="20%"&gt;Prenositeľnosť údajov do iných počítačov&lt;/TD&gt;
+&lt;TD height=18 width="10%" align=center&gt;
+&lt;P&gt;áno&amp;nbsp;&lt;FONT face=Tahoma&gt;HW&lt;/FONT&gt;&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;Legenda: áno - je zahrnuté v licencii,&amp;nbsp;nie - nie je zahrnuté v licencii, HW - potreba&amp;nbsp;hardvérového kľúča &lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="a91dc84a-8156-41de-aef4-ad007dcc4f93" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="95d188df-c149-46a9-8474-4d9493f2ad41">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="566f34e3-acfd-44bd-bb1a-d3da04f5d101" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="efb93a2c-e449-4770-88ba-0fe999e90ccd">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="4f3f0c57-3f9d-4337-823f-9abb59457638" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="49208c26-7930-4363-9fab-977662e2e8cc">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="72ad01bf-ca90-468f-a852-6eb37ca3f39b" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="40c83e5f-22aa-4ba5-b4c1-35938f90fac2">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="c14a68e3-7704-402e-8b89-a8bb25946fc3">
+      <Keyword m="2022-12-12T10:18:08.960622Z">Multilicencia - moduly</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="044555be-6bde-4582-98e1-0b1e71286a0d">
+      <Keyword m="2015-11-10T07:13:56.055664Z">Obmedzenia licencie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="99ca9d79-8a2d-417f-9b41-1f52842adf1f">
+      <Keyword m="2021-03-23T08:28:15.4556539Z">Licencie OBERON - typy</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="1c2fefe8-4e87-48e9-a968-293367f19927">
+      <Keyword m="2022-12-08T13:19:46.7708917Z">Licencia pre 1 firmu</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="66553a7b-67d4-4465-8ab2-e88f54c39b30">
+      <Keyword m="2022-12-12T10:17:34.1049169Z">Multilicencia - info o jednotlivých moduloch</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="955b58b6-7148-46aa-97ae-008698b9c499">
+      <Keyword m="2022-12-08T13:20:27.3043417Z">Mini - typ licencie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="d3022f42-f252-4b68-b019-4ce91ea4dc27">
+      <Keyword m="2022-12-08T13:20:18.8472885Z">Štandard - typ licencie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="fcbcbe95-40f1-4cd1-aa84-508e71123802">
+      <Keyword m="2022-12-08T13:20:33.049259Z">Profi - typ licencie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="82ec75b5-fa31-47cb-b8aa-0c65a588938c">
+      <Keyword m="2022-12-12T10:16:41.9215218Z">Rozsah typov licencií</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="43605c12-e8e1-41cf-9fd1-6c344153ec17">
+      <Keyword m="2022-12-12T10:16:52.0022822Z">Rozdiely medzi typmi licencií</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="0039c764-e523-4297-9ede-dc7ecc7efac5">
+      <Keyword m="2022-12-12T10:17:09.5738204Z">Druhy licencií</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

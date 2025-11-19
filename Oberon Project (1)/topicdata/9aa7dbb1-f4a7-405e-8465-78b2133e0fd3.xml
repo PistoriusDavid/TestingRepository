@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="9aa7dbb1-f4a7-405e-8465-78b2133e0fd3" Status="Complete" CreatedOn="2014-09-04T11:30:06.1912Z" ModifiedOn="2024-08-07T11:54:49.7180254Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="ProgramControls_DocumentsNumbering" BuildFlags="">
+  <Title m="2021-09-08T10:16:12.5596384Z">Číslovanie dokladov (záznamov)</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-08-07T11:54:49.7180254Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; je venovaná číslovaniu dokladov, resp. záznamov&amp;nbsp;(pohľadávky, záväzky, výdajky, príjemky, objednávky, skladové karty, záznamy v knihe&amp;nbsp;&lt;A href="a2807e3b-d8b1-4d61-a3b9-63df2783bfda"&gt;Úlohy a udalosti&lt;/A&gt;,&amp;nbsp;&lt;A href="ffa5a889-7bfe-4165-ba83-15263eb77358"&gt;hotelové účty&lt;/A&gt;...)&amp;nbsp;v systéme OBERON.&lt;/P&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Hoci sa táto téma primárne týka číslovania dokladov (záznamov) definovaných v úvode témy, metodika číslovania popísaná v tejto téme platí aj pre&amp;nbsp;&lt;A href="6c77089e-8a70-4434-9c6b-290b059948a3"&gt;číslovanie dokladov v účtovnom denníku&lt;/A&gt; a&amp;nbsp;&lt;A href="9b7111d2-812c-4d4f-b0a4-d2a89e72df18"&gt;číslovanie dokladov v&amp;nbsp;peňažnom denníku&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Pri vytváraní&amp;nbsp;nového dokladu (záznamu)&amp;nbsp;v&amp;nbsp;systéme OBERON sa&amp;nbsp;mu&amp;nbsp;automaticky&amp;nbsp;&lt;STRONG&gt;priradí číselné označenie tak, aby tvorilo súvislý číselný rad&lt;/STRONG&gt;. 
+&lt;LI&gt;Číselné označenie&amp;nbsp;dokladov (záznamov) spravidla pozostáva z&amp;nbsp;tzv. prefixu, ktorý môže obsahovať všetky alfanumerické znaky, a číselného indexu. Číselné označenie je potrebné zvoliť tak, aby číselný index, ktorý bude program automaticky navyšovať, bol &lt;STRONG&gt;na konci číselného označenia&lt;/STRONG&gt;, napr. 2021VF0001 (kde 2021VF predstavuje alfanumerický&amp;nbsp;prefix a&amp;nbsp;0001 číselný index) alebo 2021/0001 (kde 2021/ je alfanumerický prefix a&amp;nbsp;0001 číselný index). &lt;STRONG&gt;Nesprávnym číselným označením je napr. označenie 001/2021, pretože ďalší doklad nebude mať číslo 002/2021, ale&amp;nbsp;001/2022&lt;/STRONG&gt;. 
+&lt;LI&gt;Do číselného indexu prvého čísla dokladu&amp;nbsp;(záznamu)&amp;nbsp;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;je nutné doplniť potrebný počet núl podľa predpokladaného najvyššieho dosiahnutého čísla dokladu&lt;/SPAN&gt;, napr. 2021VF0001&amp;nbsp;pri predpokladanom najvyššom počte dokladov 9&amp;nbsp;999.&amp;nbsp; 
+&lt;LI&gt;Podobne, ako pri iných dokladoch (záznamoch), aj pred samotným číslovaním&amp;nbsp;&lt;A href="1a33ab0b-2df7-4dc2-962b-8a3319c16831"&gt;skladových kariet&lt;/A&gt; je potrebné mať na zreteli, koľko skladových kariet bude v budúcnosti účtovná jednotka&amp;nbsp;približne&amp;nbsp;mať a &lt;SPAN style="COLOR: rgb(255,0,0)"&gt;číslovanie začať s&amp;nbsp;potrebným počtom núl podľa predpokladaného&amp;nbsp;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;najvyššieho počtu skladových kariet&lt;/SPAN&gt;&lt;/SPAN&gt;, napr. pri predpokladanom najvyššom počte skladových kariet 9&amp;nbsp;999 je potrebné začať číslovanie číslami&amp;nbsp;0001, 0002, 0003... (nesprávne 1, 2,&amp;nbsp;3...). 
+&lt;LI&gt;Nutnosť doplniť do čísel&amp;nbsp;dokladov (záznamov) potrebný počet núl vyplýva zo skutočnosti, že &lt;STRONG&gt;číselné označenia záznamov, resp. dokladov v&amp;nbsp;OBERON-e nepredstavujú čísla, ale textový reťazec&lt;/STRONG&gt;. To znamená, že napr. číslo 200 je väčšie ako číslo 1000. Nasledujúce usporiadanie čísel (od najmenšieho po najväčšie) ilustruje, akým spôsobom program zoraďuje čísla skladových kariet:&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; 001&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; 002&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; 009&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; 020&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; 1000&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; 200&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; 2000&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; 220&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; 999 &lt;/LI&gt;&lt;/UL&gt;
+&lt;UL&gt;
+&lt;LI&gt;Predpokladajme, že nebudete mať počet skladových kariet vyšší ako 999. Skladové karty očíslujte s úvodnými nulami. Pri vytvorení novej skladovej karty vyššej ako 999 program zisťuje, aké číslo bolo naposledy použité a zvýši ho o 1, teda 1000. Pri zadaní ďalšej skladovej karty znova zvýši číslo o 1 na 1001. Takto postupuje 100 krát až sa zastaví na čísle 1100. Po zadaní ďalšej skladovej karty ju už program nepridá automaticky, ale ju umožní&amp;nbsp;vytvoriť už len manuálne. Možným riešením je na každej skladovej karte dodatočne&amp;nbsp;pripísať ešte jednu alebo viac núl (napr. skladovú kartu s číslom 001 prepísať na 0001, 002 na 0002 atď.). Počet všetkých skladových kariet sa zvýši z pôvodných 999 na 9999. Iným riešením je vytvoriť skladovú kartu s číslom napr. 999000 - v tom prípade bude program pokračovať v číslovaní zvýšením tohto čísla o 1 (999001, 999002 atď.). 
+&lt;LI&gt;Skladové karty je možné číslovať tak, že všetky skladové karty budú mať jeden číselný rad, alebo podľa&amp;nbsp;&lt;A href="f83017eb-1d46-42a5-991b-bdf5d628aa8d"&gt;skladových skupín&lt;/A&gt;. V tom prípade bude mať každá skladová skupina svoj rozsah čísiel skladových kariet (t.&amp;nbsp;j.&amp;nbsp;vlastný číselný rad). Napr. skladové karty v gastroprevádzke priradené ku skladovej skupine &lt;EM&gt;Predjedlá&lt;/EM&gt; môžu mať čísla kariet 1100 až&amp;nbsp;1199, &lt;EM&gt;Polievky&lt;/EM&gt; 1200 až 1299 atď., skladové karty priradené ku skladovej skupine &lt;EM&gt;Televízory&lt;/EM&gt;&amp;nbsp;môžu mať čísla&amp;nbsp;TV-0001 až TV-9999 a pod. Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="f83017eb-1d46-42a5-991b-bdf5d628aa8d" style="auto-update-caption: true"&gt;Skladové karty - skladové skupiny&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Typy číselných radov&amp;nbsp;&lt;/H2&gt;
+&lt;P&gt;Pri nastavení číslovania&amp;nbsp;dokladov (záznamov) sú v OBERON-e dostupné nasledujúce spôsoby číslovania:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;I&gt;&lt;STRONG&gt;Štandardný číselný rad&lt;/STRONG&gt;&lt;/I&gt; - program pri vytvorení nového dokladu&amp;nbsp;(záznamu) zistí najvyššie číslo dokladu, zvýši ho o 1 a&amp;nbsp;toto číslo pridelí vytváranému dokladu. Tento postup je nemenný bez ohľadu na dátum dokladu.&lt;BR&gt;&lt;STRONG&gt;Príklad&lt;/STRONG&gt;: Pri vytváraní dokladu&amp;nbsp;(záznamu) so spätnou platnosťou (spätným dátumom) mu program pridelí najvyššie číslo tak, ako by to bol aktuálny doklad&amp;nbsp;(záznam). 
+&lt;LI&gt;&lt;I&gt;&lt;STRONG&gt;Podľa dátumu - mesačne&lt;/STRONG&gt;&lt;/I&gt; - program čísluje doklady vo formáte &lt;I&gt;rrmmčččč.&lt;/I&gt; Napr. prvá príjemka v septembri 2021 bude označená číselným označením&amp;nbsp;&lt;I&gt;P21090001&lt;/I&gt;. Pri pridaní dokladu do daného mesiaca program zvýši posledné číslo dokladu v&amp;nbsp;danom mesiaci.&lt;BR&gt;&lt;STRONG&gt;Príklad&lt;/STRONG&gt;:&amp;nbsp;V&amp;nbsp;decembri 2021 bude pridaná príjemka s dátumom 25.9.2021. Napriek tomu, že aj v mesiaci október a november boli vytvárané príjemky, program zvýši posledné číslo príjemky v septembri a&amp;nbsp;pridelí ho dokladu. Pridelené číslo bude &lt;I&gt;P21090002&lt;/I&gt;. 
+&lt;LI&gt;&lt;I&gt;&lt;STRONG&gt;Podľa prevádzok&lt;/STRONG&gt; -&lt;/I&gt; program pri vytváraní čísla dokladu&amp;nbsp;(záznamu) medzi prefix roku a samotné číslo dokladu vkladá číslo prevádzky, napr. 21050001 - rok 2021, číslo prevádzky 05, číslo dokladu 0001. Číslo prevádzky program uplatňuje podľa prevádzky zvolenej v hornej časti evidencie. Ak&amp;nbsp;je v&amp;nbsp;danej evidencii (napr. v&amp;nbsp;knihe pohľadávok) v&amp;nbsp;hornej časti evidencie zvolená možnosť &lt;EM&gt;*** Všetky prevádzky ***,&lt;/EM&gt; program&amp;nbsp;novému&amp;nbsp;dokladu (záznamu) priradí číslo podľa prevádzky priradenej používateľovi, ktorý daný doklad (záznam) vytvára (prevádzku je k&amp;nbsp;používateľovi možné priradiť&amp;nbsp;vo&amp;nbsp;&lt;A href="12e7a96f-bc40-4359-bc7a-213d74a785d4"&gt;formulári Používateľ&lt;/A&gt;, záložka &lt;EM&gt;Podrobnosti&lt;/EM&gt;), prípadne podľa predvolenej prevádzky (nastavenej vo formulári &lt;A href="a833ee8a-1289-42b9-923f-80f549497702"&gt;Údaje o firme&lt;/A&gt;, záložka &lt;EM&gt;Základné údaje&lt;/EM&gt;). Viac informácií o&amp;nbsp;prevádzkach získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="8df798f2-4fbf-4279-ad8c-493bdbe7f2e4"&gt;Prevádzky&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Nastavenia číslovania&amp;nbsp;dokladov (záznamov)&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Spôsob číslovania dokladov v&amp;nbsp;&lt;A href="5c21adcc-87c8-44e7-981d-02902635693d"&gt;Knihe pohľadávok&lt;/A&gt; a&amp;nbsp;v&amp;nbsp;&lt;A href="55028746-c263-4d92-a615-502222e8d53b"&gt;Knihe záväzkov&lt;/A&gt;&amp;nbsp;sa nastavuje v ponuke&amp;nbsp;&lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="932262cc-b80f-4ce6-aba6-6a7d4a18f5ec"&gt;oddiel Firma, Účtovníctvo&lt;/A&gt;, záložka&amp;nbsp;&lt;EM&gt;Fakturácia.&lt;/EM&gt; 
+&lt;LI&gt;V&amp;nbsp;ponuke&amp;nbsp;&lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="58eee6a7-b5aa-47a5-9d0e-6f9987c96a52"&gt;oddiel Firma, Sklad&lt;/A&gt;, záložka&amp;nbsp;&lt;EM&gt;Skladové karty&lt;/EM&gt; je možné nastaviť jeden číselný rad pre všetky sklady v prípade, že účtovná jednotka pracuje s viac ako jedným skladom. V&amp;nbsp;záložke &lt;EM&gt;Číslovanie dokladov&lt;/EM&gt; sa nastavuje spôsob číslovania príjemiek, výdajok a objednávok. 
+&lt;LI&gt;Spôsob číslovania záznamov v knihách &lt;A href="a2807e3b-d8b1-4d61-a3b9-63df2783bfda"&gt;Úlohy a udalosti&lt;/A&gt; a&amp;nbsp;&lt;A href="5065958b-9ec2-46c0-81ce-ce9e316c90b7"&gt;CRM zložky&lt;/A&gt;&amp;nbsp;je možné zvoliť v&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="2453b87d-ddca-4ac1-b4ba-b7199dce0c87"&gt;oddiel Firma, CRM a registratúra&lt;/A&gt;, záložka&amp;nbsp;&lt;EM&gt;Úlohy a udalosti&lt;/EM&gt;. V záložke &lt;EM&gt;Registratúra&lt;/EM&gt; sa nastavuje spôsob&amp;nbsp;číslovania záznamov v&amp;nbsp;&lt;A href="0fe6411c-9069-4097-b90f-e69f01a61569"&gt;registratúrnom (podacom) denníku&lt;/A&gt;. 
+&lt;LI&gt;V ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="f0386fce-aa67-4fa4-a611-234d30fa9f82"&gt;oddiel Firma, Hotelová recepcia&lt;/A&gt;, záložka&amp;nbsp;&lt;EM&gt;Hotelové účty&lt;/EM&gt; je možné nastaviť spôsob číslovania&amp;nbsp;&lt;A href="ffa5a889-7bfe-4165-ba83-15263eb77358"&gt;hotelových účtov&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt; 
+&lt;P&gt;V&amp;nbsp;&lt;A href="5c21adcc-87c8-44e7-981d-02902635693d"&gt;Knihe pohľadávok&lt;/A&gt; a&amp;nbsp;v&amp;nbsp;&lt;A href="55028746-c263-4d92-a615-502222e8d53b"&gt;Knihe záväzkov&lt;/A&gt;&amp;nbsp;možno používať samostatné číselné rady aj&amp;nbsp;pre rôzne&amp;nbsp;&lt;A href="614e08c0-a29e-4810-a741-174e81a8e259"&gt;typy dokladov&lt;/A&gt;&amp;nbsp;(napr. na oddelenie zálohových faktúr, zahraničných faktúr a pod.). Viac informácií získate v téme&amp;nbsp;&lt;A href="c36e079b-cc33-4141-83a7-ee2b1c7b53a0"&gt;Typy dokladov v&amp;nbsp;knihe pohľadávok a záväzkov&lt;/A&gt;, časť &lt;EM&gt;Číselné rady&lt;/EM&gt;.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="697f3fba-4433-4a11-a569-42f9d730117f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="5c21adcc-87c8-44e7-981d-02902635693d">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="cca1c5ad-9c9c-4f63-ae08-5b2af08432fd" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="55028746-c263-4d92-a615-502222e8d53b">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="0785e623-a438-428b-a95b-99de1c73bf7a" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="48505e8d-5f28-4063-882b-ca07f33670ef">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="bb7d590e-1b0c-451b-9795-9d36234c1a80" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="a93948ab-009e-4c8c-9467-60d60a3eb342">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="f40a7450-13c5-43d3-b302-fa87427ef0c4" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="efed1882-1614-4406-b57a-3023aee6ba26">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="6a832af8-9aef-44e5-bd0f-1581dc92fe2c" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="0be61fcc-a85b-4572-876d-2171a5cb7c29">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="a5b0982c-d048-4906-baa1-aaa6b6d7a807" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="6acbdde2-e6a9-43bc-8e10-4e1aa1ea1c3d">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="bfd90c11-cc3e-46e6-8e52-9e9b5bd748b0" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1e423d36-8e0a-4420-b2e9-05f12806ec3a">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="93fc5dc8-6c97-4e0c-a94d-7510fceabd1e" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1a33ab0b-2df7-4dc2-962b-8a3319c16831">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="798fbebc-732e-44c5-87a4-3ed3bcefae06" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="c36e079b-cc33-4141-83a7-ee2b1c7b53a0">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="b69edfe3-d23e-40e0-ad13-40dc1f446764">
+      <Keyword m="2021-03-25T13:32:35.4820526Z">Príklad - číslovanie skladových kariet</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="3a74e17e-38ec-40b3-8c6d-98c6cef4f6f9">
+      <Keyword m="2021-03-25T13:33:09.8188924Z">Typy číselných radov</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="c2e2aacf-d3d1-4f47-985f-e6dd0b76647a">
+      <Keyword m="2021-09-08T06:26:32.6927787Z">Skladové karty - číslovanie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="d549c809-b811-4013-8c11-db6a5569553b">
+      <Keyword m="2021-09-08T06:26:37.6177335Z">Záznamy - číslovanie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="647150c5-6f8c-4d9f-8577-ebd426561275">
+      <Keyword m="2021-09-08T06:26:45.4416049Z">Číslovanie skladových kariet</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="a225d168-32a6-4286-a10d-78ea1ffd0ef5">
+      <Keyword m="2021-09-08T06:27:00.2205445Z">Číslovanie faktúr</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="af05337e-27dd-48fb-8d78-b02225267a5a">
+      <Keyword m="2021-09-08T06:27:11.6020134Z">Číslovanie príjemiek</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="54ea328f-cad8-43ff-8e55-e049ac5605d9">
+      <Keyword m="2021-09-08T06:27:17.6916476Z">Číslovanie výdajok</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="ca7aed6b-1b93-4fbe-a977-e1e857c1f5d1">
+      <Keyword m="2021-09-08T06:27:24.5710035Z">Číslovanie objednávok</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="8583c02e-3b0a-4d9b-ba29-fab90902ac3b">
+      <Keyword m="2021-09-08T06:27:38.9157994Z">Doklady - číslovanie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="397ea3bc-e163-4558-901e-fe8be3891470">
+      <Keyword m="2021-09-08T06:28:44.6037467Z">Číselné rady - typy</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="12d69288-1991-4588-9da4-babf484d79ae">
+      <Keyword m="2021-09-08T06:28:49.698995Z">Číselný rad</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="8dfd20ef-9ffa-455b-96e1-295bddcafb97">
+      <Keyword m="2021-09-08T06:28:54.4192456Z">Číselný index</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="27f666e3-bb83-47f6-af7c-024c27291093">
+      <Keyword m="2021-09-08T06:29:11.6917932Z">Prefix - číslovanie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="7d6fa836-f5a5-4925-a28f-eafc8a3c355b">
+      <Keyword m="2023-04-25T06:17:32.5959444Z">Jeden číselný rad pre všetky sklady - číslovanie záznamov</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

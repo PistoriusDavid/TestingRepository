@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="c74441ae-8cdd-4bf2-940c-a1041ed9c586" Status="Complete" CreatedOn="2016-01-22T07:03:47.2920505Z" ModifiedOn="2025-06-05T11:45:23.175581Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="22052" Name="Form_OBERON_FirmInformation_State" BuildFlags="">
+  <Title m="2022-01-21T07:15:37.2372749Z">Formulár Štát</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2025-06-05T11:45:23.175581Z">&lt;P&gt;Formulár&amp;nbsp;&lt;EM&gt;Štát&lt;/EM&gt;&amp;nbsp;umožňuje do systému OBERON &lt;STRONG&gt;pridať nový, resp. upraviť už pridaný štát, krajinu alebo závislé územie&lt;/STRONG&gt;, a&amp;nbsp;to podľa medzinárodnej normy (číselníka) krajín&amp;nbsp;&lt;A href="https://sk.wikipedia.org/wiki/ISO_3166-1" target=_blank&gt;ISO 3166-1&lt;/A&gt;. Formulár &lt;EM&gt;Štát&lt;/EM&gt; je dostupný z&amp;nbsp;viacerých miest v programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;, napr. z ponuky &lt;EM&gt;Firma&lt;/EM&gt;,&amp;nbsp;&lt;EM&gt;Predvoľby&lt;/EM&gt;,&amp;nbsp;&lt;A href="e040a1de-5802-4302-ad10-3e2222949604"&gt;Štáty&lt;/A&gt;, tlačidlo &lt;EM&gt;Nový&lt;/EM&gt;,&amp;nbsp;z&amp;nbsp;&lt;A href="1069a4cb-6f8c-4b31-bb30-a363dbd4bd2b"&gt;formulára Osoba&lt;/A&gt; v&amp;nbsp;&lt;EM&gt;Hotelovej recepcii&lt;/EM&gt;, z&amp;nbsp;&lt;A href="4fbe9db8-25bc-420f-aee5-228d0a8ff03f"&gt;formulára Obchodný partner&lt;/A&gt; atď.&lt;/P&gt;
+&lt;H2&gt;Popis formulára&amp;nbsp;&lt;EM&gt;Štát&lt;/EM&gt;&lt;/H2&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Kód štátu&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Kód štátu predstavuje&amp;nbsp;skratku, ktorá sa používa na základe normy ISO. Ide o&amp;nbsp;trojmiestny kód zložený z numerických znakov. Kód štátu musí byť zadaný a je ho možné zistiť na&amp;nbsp;&lt;A href="https://sk.wikipedia.org/wiki/ISO_3166-1" target=_blank&gt;tejto internetovej stránke&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Názov&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Názov štátu v slovenskom jazyku. Stlačením tlačidla&amp;nbsp;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Button_RegisterUZ.png"&gt;&amp;nbsp;je možné daný štát vyhľadať v&amp;nbsp;zozname štátov. &lt;STRONG&gt;Jeho výberom sa automaticky vyplnia polia &lt;EM&gt;Kód štátu, Skrátený názov&lt;/EM&gt; a &lt;EM&gt;Štatistický úrad - kódy krajiny&lt;/EM&gt; (&lt;EM&gt;Akronym&amp;nbsp;2&lt;/EM&gt; a&amp;nbsp;&lt;EM&gt;Akronym 3&lt;/EM&gt;).&lt;/STRONG&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Jazyk&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Vyberá sa jazyk z&amp;nbsp;rozbaľovacieho zoznamu. Okrem slovenského jazyka je na výber&amp;nbsp;dvanásť&amp;nbsp;spravidla svetových jazykov, resp. jazykov susedných krajín. Pridanie daného jazyka je dôležité z hľadiska prekladov dát v OBERON-e. Viac informácií získate v téme&amp;nbsp;&lt;A href="04d2db16-08ec-459e-b5c9-71dd3a9f9e2f"&gt;Jazykové verzie OBERON-u&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Vízová povinnosť&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Vízum oprávňuje cudzinca prechádzať alebo sa zdržiavať v schengenskom priestore v&amp;nbsp;čase platnosti víza. Pri štátoch zo zadanou vízovou povinnosťou je potrebné k ubytovanej osobe zadať&amp;nbsp;vízum. Vízum sa udeľuje vo forme vízovej nálepky. Doba pobytu a platnosti víza je vyznačená vo vízovej nálepke. Vízová povinnosť sa môže v čase meniť.&amp;nbsp;Zoznam krajín,&amp;nbsp;ktorých štátni príslušníci nepodliehajú vízovej povinnosti pri vstupe na územie SR, je možné získať na &lt;A href="http://www.minv.sk/?bezvizovy-rezim" target=_blank&gt;tejto internetovej stránke&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Štatistický úrad - kódy krajiny&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Akronym predstavuje skratku, ktorá sa používa na základe normy ISO. Akronym môže byť troj- alebo štvormiestny&amp;nbsp;a je ho možné zistiť na&amp;nbsp;&lt;A href="https://sk.wikipedia.org/wiki/ISO_3166-1" target=_blank&gt;tejto internetovej stránke&lt;/A&gt;. Napr. &lt;EM&gt;Akronym 3&lt;/EM&gt; sa používa v režime &lt;EM&gt;One Stop Shop,&lt;/EM&gt; viac informácií v téme&amp;nbsp;&lt;A href="fbb3fe9e-2f4a-401b-bb15-384245126a0a" style="auto-update-caption: true"&gt;One Stop Shop (OSS) – osobitná úprava dane&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Sadzby DPH&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;V krajinách EÚ sa uplatňujú rôzne druhy sadzieb DPH. Sadzba závisí od výrobku alebo služby, ktorých sa týka transakcia. Ku každej krajine je možné zadať vyššiu, nižšiu a inú sadzbu DPH. Zoznam krajín s platnými sadzbami DPH je zverejnený na webovej stránke&amp;nbsp;&lt;A href="https://europa.eu/youreurope/business/taxation/vat/vat-rules-rates/index_sk.htm" target=_blank&gt;Európskej únie&lt;/A&gt;. Rôzne sadzby DPH sa využívajú v režime &lt;EM&gt;One Stop Shop&lt;/EM&gt; - ak je firma v&amp;nbsp;tomto režime, bude môcť vytvárať doklady (faktúry) v inej sadzbe DPH&amp;nbsp;podľa členských štátov EÚ. Viac informácií v téme&amp;nbsp;&lt;A href="fbb3fe9e-2f4a-401b-bb15-384245126a0a" style="auto-update-caption: true"&gt;One Stop Shop (OSS) – osobitná úprava dane&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;EM&gt;Kód štátu, Názov, Skrátený názov&lt;/EM&gt; a &lt;EM&gt;Štatistický úrad - kódy krajiny&lt;/EM&gt; (&lt;EM&gt;Akronym&amp;nbsp;2&lt;/EM&gt; a &lt;EM&gt;Akronym 3&lt;/EM&gt;) je možné načítať automaticky on-line zo štatistického úradu, a to stlačením tlačidla&amp;nbsp;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Button_RegisterUZ.png"&gt;&amp;nbsp;a&amp;nbsp;výberom daného štátu zo zoznamu.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Najčastejšie používané štáty&lt;/H2&gt;
+&lt;TABLE id=table4 style="HEIGHT: 350px; WIDTH: 600px; BORDER-COLLAPSE: collapse" cellPadding=2 width=351 border=0&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TH height=20 width=200&gt;&lt;B&gt;Štát&lt;/B&gt;&lt;/TH&gt;
+&lt;TH height=10 width=101&gt;&lt;B&gt;Akronym 2&lt;/B&gt;&lt;/TH&gt;
+&lt;TH height=10 width=101&gt;&lt;B&gt;Akronym 3&lt;/B&gt;&lt;/TH&gt;
+&lt;TH height=20&gt;&lt;B&gt;Kód štátu&lt;/B&gt;&lt;/TH&gt;
+&lt;TH height=30&gt;
+&lt;P&gt;&lt;STRONG&gt;Základná sadzba DPH&lt;/STRONG&gt;&lt;/P&gt;&lt;/TH&gt;
+&lt;TH height=30&gt;&lt;B&gt;Znížená sadzba DPH&amp;nbsp;1&lt;/B&gt;&lt;/TH&gt;
+&lt;TH height=30&gt;&lt;B&gt;Znížená sadzba DPH&amp;nbsp;2&lt;/B&gt;&lt;/TH&gt;&lt;/TR&gt;
+&lt;TR class=SK&gt;
+&lt;TD class=SK height=6 width=138&gt;Slovensko&lt;/TD&gt;
+&lt;TD class=SK height=6 width=101 align=left&gt;SK&lt;/TD&gt;
+&lt;TD class=SK height=6 width=101 align=left&gt;SVK&lt;/TD&gt;
+&lt;TD class=SK height=6 align=left&gt;1703&lt;/TD&gt;
+&lt;TD class=SK height=6 align=left&gt;23&lt;/TD&gt;
+&lt;TD class=SK height=6 align=left&gt;19&lt;/TD&gt;
+&lt;TD class=SK height=6 align=left&gt;5&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR class=SK&gt;
+&lt;TD class=SK height=2 width=138&gt;Česko&lt;/TD&gt;
+&lt;TD class=SK height=6 width=101 align=left&gt;CZ&lt;/TD&gt;
+&lt;TD class=SK height=2 width=101 align=left&gt;CZE&lt;/TD&gt;
+&lt;TD class=SK height=2 align=left&gt;1203&lt;/TD&gt;
+&lt;TD class=SK height=6 align=left&gt;21&lt;/TD&gt;
+&lt;TD class=SK height=6 align=left&gt;15&lt;/TD&gt;
+&lt;TD class=SK height=6 align=left&gt;10&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR class=SK&gt;
+&lt;TD class=SK height=5 width=138&gt;Poľsko&lt;/TD&gt;
+&lt;TD class=SK height=6 width=101 align=left&gt;PL&lt;/TD&gt;
+&lt;TD class=SK height=5 width=101 align=left&gt;POL&lt;/TD&gt;
+&lt;TD class=SK height=5 align=left&gt;1616&lt;/TD&gt;
+&lt;TD class=SK height=6 align=left&gt;23&lt;/TD&gt;
+&lt;TD class=SK height=6 align=left&gt;8&lt;/TD&gt;
+&lt;TD class=SK height=6 align=left&gt;5&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR class=SK&gt;
+&lt;TD class=SK height=4 width=138&gt;Maďarsko&lt;/TD&gt;
+&lt;TD class=SK height=6 width=101 align=left&gt;HU&lt;/TD&gt;
+&lt;TD class=SK height=4 width=101 align=left&gt;HUN&lt;/TD&gt;
+&lt;TD class=SK height=4 align=left&gt;1348&lt;/TD&gt;
+&lt;TD class=SK height=6 align=left&gt;27&lt;/TD&gt;
+&lt;TD class=SK height=6 align=left&gt;18&lt;/TD&gt;
+&lt;TD class=SK height=6 align=left&gt;5&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR class=SK&gt;
+&lt;TD class=SK height=12 width=138&gt;Rakúsko&lt;/TD&gt;
+&lt;TD class=SK height=6 width=101 align=left&gt;AT&lt;/TD&gt;
+&lt;TD class=SK height=12 width=101 align=left&gt;AUT&lt;/TD&gt;
+&lt;TD class=SK height=12 align=left&gt;1040&lt;/TD&gt;
+&lt;TD class=SK height=6 align=left&gt;20&lt;/TD&gt;
+&lt;TD class=SK height=6 align=left&gt;13&lt;/TD&gt;
+&lt;TD class=SK height=6 align=left&gt;10&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR class=SK&gt;
+&lt;TD class=SK width=138&gt;Rusko&lt;/TD&gt;
+&lt;TD class=SK height=6 width=101 align=left&gt;RU&lt;/TD&gt;
+&lt;TD class=SK width=101 align=left&gt;RUS&lt;/TD&gt;
+&lt;TD class=SK align=left&gt;1643&lt;/TD&gt;
+&lt;TD class=SK height=6 align=left&gt;-&lt;/TD&gt;
+&lt;TD class=SK height=6 align=left&gt;-&lt;/TD&gt;
+&lt;TD class=SK height=6 align=left&gt;-&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR class=SK&gt;
+&lt;TD class=SK width=138&gt;Anglicko&lt;/TD&gt;
+&lt;TD class=SK height=6 width=101 align=left&gt;GB&lt;/TD&gt;
+&lt;TD class=SK width=101 align=left&gt;GBR&lt;/TD&gt;
+&lt;TD class=SK align=left&gt;1826&lt;/TD&gt;
+&lt;TD class=SK height=6 align=left&gt;-&lt;/TD&gt;
+&lt;TD class=SK height=6 align=left&gt;-&lt;/TD&gt;
+&lt;TD class=SK height=6 align=left&gt;-&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR class=SK&gt;
+&lt;TD class=SK width=138&gt;Francúzsko&lt;/TD&gt;
+&lt;TD class=SK height=6 width=101 align=left&gt;FR&lt;/TD&gt;
+&lt;TD class=SK width=101 align=left&gt;FRA&lt;/TD&gt;
+&lt;TD class=SK align=left&gt;1250&lt;/TD&gt;
+&lt;TD class=SK height=6 align=left&gt;20&lt;/TD&gt;
+&lt;TD class=SK height=6 align=left&gt;10&lt;/TD&gt;
+&lt;TD class=SK height=6 align=left&gt;5,5&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR class=SK&gt;
+&lt;TD class=SK width=138&gt;Nemecko&lt;/TD&gt;
+&lt;TD class=SK height=6 width=101 align=left&gt;DE&lt;/TD&gt;
+&lt;TD class=SK width=101 align=left&gt;DEU&lt;/TD&gt;
+&lt;TD class=SK align=left&gt;1276&lt;/TD&gt;
+&lt;TD class=SK height=6 align=left&gt;19&lt;/TD&gt;
+&lt;TD class=SK height=6 align=left&gt;7&lt;/TD&gt;
+&lt;TD class=SK height=6 align=left&gt;-&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR class=SK&gt;
+&lt;TD class=SK height=1 width=138&gt;Spojené štáty americké&lt;/TD&gt;
+&lt;TD class=SK height=6 width=101 align=left&gt;US&lt;/TD&gt;
+&lt;TD class=SK height=1 width=101 align=left&gt;USA&lt;/TD&gt;
+&lt;TD class=SK height=1 align=left&gt;4840&lt;/TD&gt;
+&lt;TD class=SK height=6 align=left&gt;-&lt;/TD&gt;
+&lt;TD class=SK height=6 align=left&gt;-&lt;/TD&gt;
+&lt;TD class=SK height=6 align=left&gt;-&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR class=SK&gt;
+&lt;TD class=SK width=138&gt;Taliansko&lt;/TD&gt;
+&lt;TD class=SK height=6 width=101 align=left&gt;IT&lt;/TD&gt;
+&lt;TD class=SK width=101 align=left&gt;ITA&lt;/TD&gt;
+&lt;TD class=SK align=left&gt;1380&lt;/TD&gt;
+&lt;TD class=SK height=6 align=left&gt;22&lt;/TD&gt;
+&lt;TD class=SK height=6 align=left&gt;10&lt;/TD&gt;
+&lt;TD class=SK height=6 align=left&gt;5&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;
+&lt;H5&gt;Obrázok č. 1: Príklad správne zadaného štátu&lt;/H5&gt;&lt;IMG border=0 alt="" src="images/Forms/Hotel/Form_Hotel_State.png"&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="a2083094-6d91-4ec0-8011-747d6d1f4f91" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="a833ee8a-1289-42b9-923f-80f549497702">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="c6b397e3-32e8-49b8-b6dc-45d82f9da699" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="6f290377-1b2d-4fe5-8c12-944b437f9337">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="52019001-e8e2-4f54-82d6-470c6c841a04" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1069a4cb-6f8c-4b31-bb30-a363dbd4bd2b">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="3a764783-7ad7-4049-a0c7-f152a1d01ddf" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="04d2db16-08ec-459e-b5c9-71dd3a9f9e2f">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="86106820-d21b-4fb3-bc40-d167913025c4">
+      <Keyword m="2016-01-22T07:12:00.9568658Z">Kódy štátov</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="92ed95c3-aa97-4e9d-9f4c-c9ca960a6340">
+      <Keyword m="2022-01-21T07:36:14.22382Z">Štáty - formulár</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="267577ca-3e77-4f02-930f-bfb3bbd64b81">
+      <Keyword m="2021-09-21T08:10:20.7498365Z">Jazyk - pridanie do OBERON-u</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="0a4da812-f798-4053-8694-b4673476e9c6">
+      <Keyword m="2022-01-21T07:36:08.5448597Z">Štát - formulár</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="16a6958c-d295-4e9e-934d-dd8b83ef279d">
+      <Keyword m="2022-01-21T07:41:20.3697551Z">Vízová povinnosť - štát</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="c8f8fe5c-b55f-473a-bc65-089c02072d31">
+      <Keyword m="2022-01-21T07:42:12.6815077Z">Vízum - štát</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="921f57db-4abc-4685-9fcf-461c470487db">
+      <Keyword m="2022-01-21T07:42:18.3637778Z">Víza - štát</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

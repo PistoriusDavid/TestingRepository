@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="6acbdde2-e6a9-43bc-8e10-4e1aa1ea1c3d" Status="Complete" CreatedOn="2014-09-09T12:37:38.1476947Z" ModifiedOn="2023-04-25T08:44:46.928639Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Stock_Start_Stock_Transfer" BuildFlags="">
+  <Title m="2017-06-20T05:59:19.1238844Z">Prevod do iného skladu</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-04-25T08:44:46.928639Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;postup, ako&amp;nbsp;vykonať prevod&amp;nbsp;skladovej položky do iného skladu&lt;/STRONG&gt; v systéme OBERON.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Prevod do iného&amp;nbsp;&lt;A href="1e423d36-8e0a-4420-b2e9-05f12806ec3a"&gt;skladu&lt;/A&gt; sa v&amp;nbsp;OBERON-e používa v prípade, že&amp;nbsp;účtovná jednotka používa viacero skladov a potrebuje previesť&amp;nbsp;&lt;A href="1a33ab0b-2df7-4dc2-962b-8a3319c16831"&gt;skladovú položku&lt;/A&gt; z&amp;nbsp;jedného skladu do iného (napr. skladovú položku &lt;EM&gt;Hubert Club Brut 0,75 l&amp;nbsp;&lt;/EM&gt;zo skladu &lt;EM&gt;Bar&lt;/EM&gt; do skladu &lt;EM&gt;Kabaret&lt;/EM&gt;).&amp;nbsp;Inou možnosťou použitia je prevod do skladu odberateľa pri&amp;nbsp;&lt;A href="78bceae1-1cc7-4e31-a232-24b38044c3d0"&gt;komisionálnom predaji&lt;/A&gt;. 
+&lt;LI&gt;Prevod z&amp;nbsp;jedného do druhého skladu je možné realizovať&amp;nbsp;&lt;A href="0be61fcc-a85b-4572-876d-2171a5cb7c29"&gt;výdajkou&lt;/A&gt; typu prevodka, pričom adresátom na výdajke nebude obchodný partner, ale cieľový sklad.&amp;nbsp;Na tento účel je štandardne v&amp;nbsp;číselníku&amp;nbsp;&lt;A href="a7e1c27b-e28f-4ae9-b643-16cc1b478212"&gt;druhov pohybov&lt;/A&gt; preddefinovaný druh pohybu pomenovaný &lt;I&gt;V-Prevodka&lt;/I&gt;. 
+&lt;LI&gt;Pri prevode sa tovar spravidla vydáva a prijíma v obstarávacích cenách (v&amp;nbsp;záložke &lt;EM&gt;Iné&lt;/EM&gt; pri danom druhu pohybu je potrebné skontrolovať nastavenie &lt;EM&gt;Výhradná predajná cena pri výdaji - Navýšenie&lt;/EM&gt; - potrebné je zadať nulu (0). Výnimkou je prevod pri komisionálnom&amp;nbsp;predaji - viac informácií v téme&amp;nbsp;&lt;A href="78bceae1-1cc7-4e31-a232-24b38044c3d0"&gt;Komisionálny predaj&lt;/A&gt;. 
+&lt;LI&gt;Predpokladom na realizovanie prevodov skladových položiek&amp;nbsp;medzi skladmi je nastavenie &lt;STRONG&gt;jedného číselného radu pre všetky sklady&lt;/STRONG&gt; (ponuka &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="58eee6a7-b5aa-47a5-9d0e-6f9987c96a52"&gt;oddiel Firma, Sklad&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt; záložka &lt;EM&gt;Skladové karty&lt;/EM&gt;). Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="1e423d36-8e0a-4420-b2e9-05f12806ec3a"&gt;Sklady&lt;/A&gt;, časť &lt;EM&gt;Číselný rad&lt;/EM&gt;. 
+&lt;LI&gt;V&amp;nbsp;prípade, že sa&amp;nbsp;konkrétny tovar&amp;nbsp;eviduje v zdrojovom a cieľovom sklade v inej mernej jednotke, program &lt;STRONG&gt;automaticky prepočíta množstvo&lt;/STRONG&gt; podľa alternatívnej mernej jednotky pre príjem zadanej na skladovej karte v&amp;nbsp;cieľovom sklade. Napr.&amp;nbsp;skladová karta&amp;nbsp;&lt;EM&gt;Zemiaky&lt;/EM&gt; je v&amp;nbsp;zdrojovom sklade evidovaná v&amp;nbsp;kilogramoch (kg) a&amp;nbsp;v&amp;nbsp;cieľovom sklade v&amp;nbsp;25-kg vreciach, t.&amp;nbsp;j.&amp;nbsp;v&amp;nbsp;kusoch (ks). V prípade, že je v&amp;nbsp;cieľovom sklade na skladovej karte zadaná &lt;STRONG&gt;alternatívna&lt;/STRONG&gt; &lt;STRONG&gt;MJ pre&amp;nbsp;príjem&lt;/STRONG&gt;&amp;nbsp;&lt;EM&gt;kilogram&lt;/EM&gt; (kg) a&amp;nbsp;&lt;STRONG&gt;koeficient prepočtu množstva&lt;/STRONG&gt; 0,04 (1 ks/25&amp;nbsp;kg=0,04), program automaticky vykoná prepočet množstva skladovej položky&amp;nbsp;na kusy (ks). &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 1: Množstvo vydané zo zdrojového skladu v doklade&amp;nbsp;&lt;EM&gt;Výdajka&lt;/EM&gt; typu &lt;EM&gt;Prevodka&lt;/EM&gt; (100 kg)&lt;/H5&gt;
+&lt;P&gt;&lt;IMG style="WIDTH: 50%" border=0 alt="" src="images/Forms/Stock/Form_Stock_TransferAmount.png"&gt;&lt;/P&gt;
+&lt;H5&gt;Obrázok č. 2: Množstvo prijaté do cieľového skladu v&amp;nbsp;doklade &lt;EM&gt;Príjemka&lt;/EM&gt; (4 ks)&lt;/H5&gt;
+&lt;P&gt;&lt;IMG style="WIDTH: 50%" border=0 alt="" src="images/Forms/Stock/Form_Stock_TransferAmount_ReceiveNote.png"&gt;&amp;nbsp;&lt;/P&gt;
+&lt;H2&gt;Postup prevodu do iného skladu&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;V ponuke&amp;nbsp;&lt;I&gt;Sklad&lt;/I&gt; zvoľte položku &lt;A href="0be61fcc-a85b-4572-876d-2171a5cb7c29"&gt;Výdajky&lt;/A&gt;. 
+&lt;LI&gt;Presvedčte sa, že pomocou filtra &lt;EM&gt;Sklad&lt;/EM&gt; v&amp;nbsp;hornej časti evidencie je zvolený ten sklad, z ktorého chcete vytvoriť novú výdajku a uskutočniť prevod. 
+&lt;LI&gt;Stlačte tlačidlo &lt;I&gt;Nový&lt;/I&gt;, zobrazí sa sprievodca &lt;I&gt;Nová výdajka&lt;/I&gt;. Zvoľte spôsob vytvorenia novej výdajky. Výdajku je možné vytvoriť štandardným zadaním alebo&amp;nbsp;z iného dokladu (z&amp;nbsp;objednávky&amp;nbsp;prijatej alebo vydanej, príjemky, inej výdajky), prípadne importom zo súboru. 
+&lt;LI&gt;Vyberte druh pohybu &lt;STRONG&gt;&lt;EM&gt;V-Prevodka&lt;/EM&gt;&lt;/STRONG&gt;, zadajte dátum a číslo dokladu.&amp;nbsp;Ak sa&amp;nbsp;uvedený druh pohybu&amp;nbsp;v&amp;nbsp;zozname pohybov nenachádza, doplňte ho v&amp;nbsp;ponuke &lt;EM&gt;Sklad,&lt;/EM&gt; &lt;A href="a7e1c27b-e28f-4ae9-b643-16cc1b478212"&gt;Druhy pohybov&lt;/A&gt;. 
+&lt;LI&gt;Vyberte &lt;STRONG&gt;sklad&lt;/STRONG&gt;, do ktorého sa má prevod uskutočniť. 
+&lt;LI&gt;Stlačením tlačidla&amp;nbsp;&lt;I&gt;Dokončiť&lt;/I&gt; sa otvorí &lt;A href="e5d60ce3-8ad2-43f2-b60d-08c773376f5b"&gt;formulár Výdajka&lt;/A&gt;. 
+&lt;LI&gt;Vo formulári skontrolujte, resp. definujte&amp;nbsp;údaje ako druh pohybu, číslo, dátum atď. V&amp;nbsp;záložke &lt;EM&gt;Položky dokladu&lt;/EM&gt; pomocou tlačidla &lt;EM&gt;Nový&lt;/EM&gt; pridajte do výdajky položky, ktoré chcete previesť do iného skladu. 
+&lt;LI&gt;Tvorbu výdajky ukončite stlačením tlačidla &lt;I&gt;&lt;STRONG&gt;OK&lt;/STRONG&gt;&lt;/I&gt;. 
+&lt;LI&gt;Vo chvíli, keď budete dokončovať tvorbu výdajky (prevodky) do iného skladu, program sa vás opýta, či chcete, aby sa v&amp;nbsp;sklade, do ktorého sa prevod realizuje, automaticky vytvorila aj príslušná &lt;A href="062891b1-9360-4c09-9c7b-9474a28e7849"&gt;príjemka&lt;/A&gt;. Ak zvolíte &lt;I&gt;Áno&lt;/I&gt;, v&amp;nbsp;sklade, do ktorého sa realizuje prevod, sa automaticky vytvorí príjemka s&amp;nbsp;totožnými položkami. &lt;/LI&gt;&lt;/OL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Ak&amp;nbsp;účtovná jednotka nepoužíva&amp;nbsp;jeden číselný rad pre skladové karty vo všetkých skladoch, program dovolí, aby sa v rôznych skladoch nachádzali skladové karty s&amp;nbsp;rovnakým číslom karty, ale s odlišným názvom. Vo chvíli, keď program realizuje&amp;nbsp;&lt;A href="6acbdde2-e6a9-43bc-8e10-4e1aa1ea1c3d"&gt;prevod do iného skladu&lt;/A&gt; a v cieľovom sklade vytvára príjemku, overuje, či sa v tomto sklade nenachádza skladová karta inej položky&amp;nbsp;s iným názvom, ale s&amp;nbsp;rovnakým číslom,&amp;nbsp;ako je jedna z kariet&amp;nbsp;vo výdajke. Ak áno,&amp;nbsp;zobrazí dialógové okno s upozornením na túto skutočnosť a hoci umožní výdajku dokončiť, automatické vytvorenie príjemky v cieľovom sklade sa neuskutoční. &lt;STRONG&gt;Nie je teda možné uskutočniť&amp;nbsp;prevod do iného skladu v&amp;nbsp;prípade, že sa v cieľovom sklade nachádza skladová karta s&amp;nbsp;rovnakým číslom, ale s&amp;nbsp;iným názvom&lt;/STRONG&gt;, ako v sklade, odkiaľ sa vykonáva prevod. V prípade potreby je možné skladové karty manuálne prečíslovať.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="eef27599-8c32-4070-ab10-06e09d015e64" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1e423d36-8e0a-4420-b2e9-05f12806ec3a">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="4e8587fd-f0db-4863-9199-714ff0a08441" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1a33ab0b-2df7-4dc2-962b-8a3319c16831">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="3be22705-0370-40d7-a154-e38149e6e28c" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="a7e1c27b-e28f-4ae9-b643-16cc1b478212">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="e81150fc-0008-412a-9bf8-7f542812e2f5" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="62db2271-9ae9-4968-b790-47a07e7c6aef">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="7a672061-a81e-44f4-b836-89418ae5e7fb" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="0a22d060-0b8a-4166-ba9b-8239f36863a0">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="9b2140b3-7039-4f2d-80c5-3890550b5828" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="78bceae1-1cc7-4e31-a232-24b38044c3d0">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="cc355984-4b91-48c4-9523-ba45fc5bdc8a">
+      <Keyword m="2014-11-18T12:14:06.383789Z">Prevodka</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="feacc4ac-faf5-4611-8530-dc5b0f0544b2">
+      <Keyword m="2014-11-24T11:53:45.0907812Z">Vystavenie prevodky</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="31eb991e-022b-4041-86da-4ad765252780">
+      <Keyword m="2021-11-15T13:42:25.7293845Z">Prevod do iného skladu - postup</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="f76a6c7a-3780-42e7-8d5b-75b2a8bfdff5">
+      <Keyword m="2021-11-15T13:42:47.7355319Z">V-Prevodka</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="8f530427-3896-49e4-b2ef-2d885d59a60f">
+      <Keyword m="2021-11-15T13:42:51.8125961Z">V-Príjemka</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="e29e0848-7969-4433-be36-05ebe2642c7e">
+      <Keyword m="2021-11-15T13:43:00.1016114Z">Komisionálny predaj - prevodka</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

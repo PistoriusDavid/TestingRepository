@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="d2b25c8c-d57f-4678-8021-3148259d3777" Status="Complete" CreatedOn="2014-10-16T11:19:51.7253953Z" ModifiedOn="2024-07-08T08:28:36.9968799Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Form_OBERON_FirmOpen" BuildFlags="">
+  <Title m="2015-03-17T12:13:13.6640625Z">Formulár Otvorenie agendy (firmy)</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-07-08T08:28:36.9968799Z">&lt;P&gt;Formulár &lt;EM&gt;Otvorenie agendy (firmy)&lt;/EM&gt;&amp;nbsp;umožňuje v systéme OBERON &lt;STRONG&gt;predovšetkým otvoriť už existujúcu&lt;/STRONG&gt; firmu,&amp;nbsp;&lt;A href="9a485893-6dd2-44e8-9740-a4cd7083a932"&gt;vytvoriť novú&lt;/A&gt; alebo &lt;STRONG&gt;odstrániť existujúcu firmu&lt;/STRONG&gt;. Umožňuje aplikovať aj ďalšie funkcie pre prácu s&amp;nbsp;databázou dostupné po stlačení tlačidla &lt;I&gt;Možnosti&lt;/I&gt;. Vo vrchnej časti formulára sa nachádza panel na rýchle hľadanie - zobrazuje sa však len v&amp;nbsp;prípade, že je počet firiem vo formulári väčší ako 20. Formulár je dostupný z programu&amp;nbsp;&lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;, ponuka &lt;EM&gt;OBERON,&amp;nbsp;&lt;/EM&gt;&lt;A href="e975459f-e882-49f2-adb9-79e68a07df0e"&gt;Otvorenie agendy (firmy)&lt;/A&gt;.&lt;/P&gt;
+&lt;H2&gt;Popis formulára&amp;nbsp;&lt;EM&gt;Otvorenie agendy (firmy)&lt;/EM&gt;&lt;/H2&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Nová Firma&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Sprievodca umožňuje vytvoriť novú firmu (databázu). Viac informácií získate v téme &lt;A href="9a485893-6dd2-44e8-9740-a4cd7083a932" style="auto-update-caption: true"&gt;Vytvorenie účtovnej jednotky (databázy)&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Nalistovať&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Sprievodca umožňuje pridať existujúcu firmu do zoznamu firiem,&amp;nbsp;ak je umiestnená&amp;nbsp;v SQL serveri, prípadne&amp;nbsp;v&amp;nbsp;inom&amp;nbsp;počítači alebo v&amp;nbsp;lokálnom počítači, ale v inom adresári, ako je štandardný (&lt;I&gt;C:\OBERON\DATA_U&lt;/I&gt;).&amp;nbsp;Viac informácií získate v téme &lt;A href="14d3162b-3fe5-4ed2-9385-8147b2d77b2b"&gt;Sprievodca Vytvorenie nového pripojenia&lt;/A&gt;.&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Odstrániť&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Umožňuje odstrániť vybranú firmu. Databázu je možné len odobrať zo zoznamu alebo&amp;nbsp;odstrániť natrvalo. Pri možnosti&amp;nbsp;odobrať len zo zoznamu firiem databáza zostáva zachovaná a&amp;nbsp;možno ju kedykoľvek opätovne nalistovať.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Možnosti&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;EM&gt;&lt;STRONG&gt;Zobraziť podrobnosti o pripojení k zdroju údajov&lt;/STRONG&gt; -&lt;/EM&gt; zobrazia sa podrobnosti, ako napr. názov databázy, jej umiestnenie, veľkosť, znaková sada. Podrobnosti je možné uložiť, prípadne aj vytlačiť. 
+&lt;LI&gt;&lt;I&gt;&lt;STRONG&gt;Vytvoriť odkaz na pracovnej ploche&lt;/STRONG&gt;&lt;/I&gt; - vytvorí odkaz na pracovnej ploche priamo na zvolenú firmu. 
+&lt;LI&gt;&lt;EM&gt;&lt;STRONG&gt;Údržba databázy&lt;/STRONG&gt; &lt;STRONG&gt;Microsoft Access&lt;/STRONG&gt; -&lt;/EM&gt; servisná funkcia určená na opravu štruktúry databázových tabuliek a defragmentáciu&amp;nbsp;údajov&amp;nbsp;databázového súboru (s&amp;nbsp;príponou&amp;nbsp;MDB). Údržba databázy je určená len pre súborovú databázu &lt;EM&gt;Microsoft Access&lt;/EM&gt;. Funkcia sa najčastejšie používa na odstránenie stavu poškodenia databázového súboru&amp;nbsp;v dôsledku poruchy počítača, výpadku napájania počítača, poruchy operačného systému počas prevádzky programu alebo pri zlyhaní sieťovej konektivity v&amp;nbsp;prípade sieťovej prevádzky. Pri závažnejšom poškodení databázy odporúčame následne použiť servisnú funkciu&amp;nbsp;&lt;A href="7cbdb63a-dd9a-445c-a3ab-b51876e0541f"&gt;Prevod do novej databázy&lt;/A&gt;. Po použití funkcie sa záloha databázového súboru uloží do adresára &lt;EM&gt;C:\OBERON\Temp&lt;/EM&gt;. &lt;SPAN style="COLOR: rgb(255,0,0)"&gt;Pred použitím oboch funkcií&amp;nbsp;však aj tak odporúčame&amp;nbsp;&lt;/SPAN&gt;&lt;A href="ee4036d9-55fd-40ee-ab76-69337f16b1cc"&gt;zálohovanie databázy&lt;/A&gt;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;!&lt;/SPAN&gt; Informácie, ako postupovať pri poškodenej databáze, získate v téme&amp;nbsp;&lt;A href="a5cb5e1d-b643-4229-b77a-26caeb479aa9" style="auto-update-caption: true"&gt;Poškodená databáza&lt;/A&gt;. 
+&lt;LI&gt;&lt;EM&gt;&lt;STRONG&gt;Hromadná údržba databáz&lt;/STRONG&gt; &lt;STRONG&gt;Microsoft Access&lt;/STRONG&gt; -&lt;/EM&gt; pomocou tohto sprievodcu je možné vykonať konverziu viacerých databáz s príponou &lt;EM&gt;.mdb&lt;/EM&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;&lt;EM&gt;Úprava prihlasovacích údajov&amp;nbsp;do SQL servera&lt;/EM&gt;&lt;/STRONG&gt; - zobrazí sa formulár, v ktorom je možné zmeniť prihlasovacie údaje&amp;nbsp;do SQL servera. 
+&lt;LI&gt;&lt;I&gt;&lt;STRONG&gt;Migrácia údajov&amp;nbsp;do iného databázového&amp;nbsp;systému&lt;/STRONG&gt;&lt;/I&gt; - sprievodca umožňuje zmeniť &lt;A href="0b81f4ea-5e68-48c1-8b89-933d5a23d962"&gt;databázový systém&lt;/A&gt; (&lt;EM&gt;Microsoft Access 2003, resp. 2007, MariaDB,&amp;nbsp;MySQL Server, MS SQL Server&lt;/EM&gt;); viac informácií nájdete v&amp;nbsp;téme&amp;nbsp;&lt;A href="53708756-df6d-4205-b722-ff19054c3797"&gt;Migrácia údajov do iného databázového systému&lt;/A&gt;. 
+&lt;LI&gt;&lt;EM&gt;&lt;STRONG&gt;Vytvorenie pobočkovej databázy&amp;nbsp;&lt;/STRONG&gt;-&lt;/EM&gt; pomocou tohto sprievodcu je možné jednorazovo vytvoriť novú databázu pre pobočku. Databáza&amp;nbsp;sa vytvorí ako čiastočná kópia databázy centrály. Bližšie informácie získate v téme&amp;nbsp;&lt;A href="87f87ba8-cd9e-47ef-9dda-0ca54dfa1dd0" style="auto-update-caption: true"&gt;Nastavenie on-line pobočkového režimu&lt;/A&gt;. 
+&lt;LI&gt;&lt;EM&gt;&lt;STRONG&gt;Import údajov z iného softvéru&lt;/STRONG&gt; -&lt;/EM&gt; sprievodca umožní jednorazovo naimportovať údaje z niektorých&amp;nbsp;iných účtovných programov. Import sa spravidla používa pri prechode z&amp;nbsp;iného softvéru na softvér OBERON, keď po vytvorení novej účtovnej jednotky (databázy) je možné v novom programe pracovať s&amp;nbsp;importovanými údajmi&amp;nbsp;z pôvodnej evidencie. Bližšie informácie v&amp;nbsp;téme&amp;nbsp;&lt;A href="c5b5cbd0-8a60-490b-8bf7-31941d64db60" style="auto-update-caption: true"&gt;Import údajov z iného softvéru&lt;/A&gt;. 
+&lt;LI&gt;&lt;EM&gt;&lt;STRONG&gt;Prevod do novej databázy (zmena IČO)&lt;/STRONG&gt;&lt;/EM&gt; - otvorí sa sprievodca určený na vytvorenie novej firmy (databázy) pri zmene účtovnej jednotky (zmena IČO) na konkrétnej prevádzke, pričom jej chod má byť kontinuálne zachovaný, napr. pri odstúpení predajne, ubytovacieho zariadenia a pod. Uvedený sprievodca skopíruje údaje z aktuálnej databázy do novej, pričom z nej odstráni všetky nepotrebné údaje. Automaticky sa skopírujú skladové karty (s nulovým zostatkom), používatelia, obchodní partneri, nastavenia zariadení, otvorené objednávky a iné vybrané údaje. Sprievodca umožňuje zvoliť, ktoré ďalšie údaje sa majú skopírovať: pracovníci, pracovné pomery, pracovný kalendár, otvorené záznamy z CRM, z reklamácií, evidencia vozidiel, údaje hotelovej recepcie (rezervácie ubytovania, aktuálne otvorené hotelové účty a pod.). &lt;STRONG&gt;Upozornenie:&lt;/STRONG&gt; Licencia na používanie softvéru &lt;STRONG&gt;je viazaná na IČO účtovnej jednotky&lt;/STRONG&gt;. Pri zmene tohto údaja je preto potrebné zakúpiť novú licenciu. &lt;/LI&gt;&lt;/UL&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="13f55ec2-6e87-4460-b55f-66856ee6e298" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="e975459f-e882-49f2-adb9-79e68a07df0e">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="b74ed02f-ce2c-45d5-a3ed-1e267acbd1ef" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="0c107d0c-e14f-4aa7-a954-d84b299ac5cb">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="41ba757c-db7c-4dde-bf10-0d2d93211835" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="9a485893-6dd2-44e8-9740-a4cd7083a932">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="d852dd50-6d9c-42e2-9171-bcdded37d36c" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="53708756-df6d-4205-b722-ff19054c3797">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="e46d75ad-4716-459e-839f-4cefc74ce597" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="87f87ba8-cd9e-47ef-9dda-0ca54dfa1dd0">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="5d2aa855-cc7d-4678-ba40-cd6e50ba31bf" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="c5b5cbd0-8a60-490b-8bf7-31941d64db60">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="562fd5f7-fc60-439b-91fc-ad2add210839" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="2ed2711c-75f6-4f18-8dbb-1b44eaab93c0">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="027223ae-3e9f-4953-a9af-90822c61484d">
+      <Keyword m="2021-08-03T07:23:33.8698994Z">Otvorenie agendy (firmy) - formulár</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="07591baa-0074-402e-bf84-21e2dea12412">
+      <Keyword />
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="caa6736e-1fe0-4661-a16d-07ded5872a9a">
+      <Keyword m="2021-08-03T07:34:39.093342Z">Vytvorenie novej firmy - formulár</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="44d3be67-0ebd-4981-adbc-0a0c38410eaa">
+      <Keyword m="2021-08-03T07:35:06.2807707Z">Odstránenie firmy - formulár</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

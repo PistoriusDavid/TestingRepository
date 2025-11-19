@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="3c20e547-e046-4644-87b3-c8979f7cbacc" Status="Complete" CreatedOn="2019-04-10T12:09:19.5737248Z" ModifiedOn="2023-03-30T05:42:45.2530964Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="80400" Name="Form_CashRegister_FiscalDevice_FinancialAdministrationSettings" BuildFlags="">
+  <Title m="2020-02-04T13:23:10.5735863Z">Formulár Nastavenie - eKasa klient ECM</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-03-30T05:42:45.2530964Z">&lt;P&gt;Formulár &lt;EM&gt;Nastavenie - eKasa klient ECM&lt;/EM&gt;&amp;nbsp;&lt;STRONG&gt;umožňuje inštaláciu, resp. nastavenie&amp;nbsp;&lt;/STRONG&gt;&lt;A href="04b8d290-1470-41ff-85a1-c44a20958841"&gt;fiškálneho zariadenia&lt;/A&gt;&amp;nbsp;do systému OBERON. Formulár je dostupný z&amp;nbsp;programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;, ponuka&amp;nbsp;&lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="749ff4f1-eeb5-43f5-98d2-021399d8cec7"&gt;Zariadenia&lt;/A&gt;&amp;nbsp;po stlačení tlačidla &lt;EM&gt;Pridať&lt;/EM&gt; alebo &lt;EM&gt;Upraviť&lt;/EM&gt;&amp;nbsp;- otvorí sa formulár &lt;EM&gt;Zariadenie&lt;/EM&gt;,&amp;nbsp;v ktorom po zvolení príslušného typu zariadenia a&amp;nbsp;modelu stlačte tlačidlo &lt;EM&gt;Nastaviť zariadenie&lt;/EM&gt;.&lt;/P&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Momentálne sa formulár používa len na inštaláciu (nastavenie) fiškálnej tlačiarne&amp;nbsp;&lt;A href="00fa9619-a13d-4745-8938-cc0c2b5039ce"&gt;eKasa PANDORA&lt;/A&gt;&amp;nbsp;&lt;A href="1f32a90c-7b4a-4d69-9f38-a560178794b3" style="auto-update-caption: true"&gt;&lt;IMG border=0 alt="Odporúčané riešenia" src="images/OBERON/Basic/Odporucane-riesenie_ruka_ikona.png"&gt;&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Popis formulára &lt;EM&gt;Nastavenie - eKasa klient ECM&lt;/EM&gt;&lt;/H2&gt;&lt;innovasys:widget type="Tab Strip" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Ovládač ECM&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;V tejto záložke je možné nastaviť &lt;STRONG&gt;ovládač&amp;nbsp;EXALOGIC CashRegister Manager&lt;/STRONG&gt; (ovládač systému eKasa). Prostredníctvom tohto ovládača&amp;nbsp;&lt;A href="aec074f4-3e1c-4a1e-8a80-06fcecf51156"&gt;Pokladnica OBERON&lt;/A&gt; komunikuje s&amp;nbsp;fiškálnym zariadením. Ovládač môže byť spustený buď na&amp;nbsp;danom počítači,&amp;nbsp;prípadne aj na inom počítači.&amp;nbsp;Bližšie informácie sú dostupné v&amp;nbsp;téme&amp;nbsp;&lt;A href="8fa578bf-92a5-43f3-82fc-be145cd19442" style="auto-update-caption: true"&gt;Sprievodca Nastavenie EXALOGIC CashRegister Manager&lt;/A&gt;.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Komunikácia&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Tu je možné nastaviť parametre &lt;STRONG&gt;komunikácie ovládača EXALOGIC CashRegister Manager&amp;nbsp;s&lt;/STRONG&gt;&amp;nbsp;&lt;STRONG&gt;fiškálnym zariadením&lt;/STRONG&gt;. Bližší popis je dostupný v&amp;nbsp;téme&amp;nbsp;&lt;A href="5f935f17-894c-4762-b1b1-d9f46cc28b4a" style="auto-update-caption: true"&gt;Sprievodca Nastavenie komunikácie fiškálneho zariadenia&lt;/A&gt;.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;eKasa&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;H3&gt;Nastavenie identifikačných a autentifikačných údajov&lt;/H3&gt;
+&lt;P&gt;Identifikačné a autentifikačné&amp;nbsp;údaje sú uložené v súboroch, ktoré vydáva &lt;EM&gt;Finančná správa SR&lt;/EM&gt;. Obsahujú údaje o účtovnej jednotke, registračné číslo pokladnice,&amp;nbsp;ako aj certifikát určený&amp;nbsp;na šifrovanie komunikácie medzi fiškálnym zariadením a finančnou správou. Stlačením tlačidla &lt;EM&gt;Zapísať do zariadenia&lt;/EM&gt; sa otvorí&amp;nbsp;sprievodca, pomocou ktorého je možné&amp;nbsp;tieto údaje zapísať do fiškálneho zariadenia. Viac informácií je k dispozícii v&amp;nbsp;téme&amp;nbsp;&lt;A href="f1a1ee48-d6ac-4b22-bab3-a6e4ccc3cf99" style="auto-update-caption: true"&gt;Sprievodca Nastavenie identifikačných a autentifikačných údajov&lt;/A&gt;.&lt;/P&gt;
+&lt;H3 class=i-see-also-sub-heading&gt;Ďalšie nastavenie fiškálneho zariadenia&lt;/H3&gt;
+&lt;P&gt;Fiškálne zariadenie obsahuje konfiguračné údaje, ktoré je možné načítať, prípadne je možné konfiguráciu pozmeniť a zapísať do fiškálneho zariadenia.&lt;/P&gt;
+&lt;H3&gt;Tlačiareň pre tlač nefiškálnych textov&lt;/H3&gt;
+&lt;P&gt;V&amp;nbsp;tomto kroku je možné vybrať tlačiareň na tlač nefiškálnych textov (rôznych súhrnných&amp;nbsp;obratov, mincoviek, náhradného paragónu pri nefunkčnosti fiškálneho zariadenia a pod.).&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Texty&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;V tejto záložke je možné zadefinovať doplňujúcu hlavičku/pätičku a&amp;nbsp;otestovať tlač nefiškálneho dokladu.&lt;/P&gt;
+&lt;P&gt;&lt;EM&gt;&lt;STRONG&gt;Hlavička dokladu&lt;/STRONG&gt;&lt;/EM&gt;&amp;nbsp;- umožňuje zadať hlavičku dokladu, ktorá sa však používa len na tlač nefiškálnych dokladov. Hlavná hlavička pokladničného dokladu je determinovaná&amp;nbsp;&lt;A href="a14ac842-73d2-4d86-ab96-a99fe02e5a8f"&gt;zápisom identifikačných údajov&lt;/A&gt; do fiškálneho zariadenia a priamo v OBERON-e ju nie je možné nadefinovať.&lt;/P&gt;
+&lt;P&gt;&lt;I&gt;&lt;STRONG&gt;Doplňujúca hlavička&lt;/STRONG&gt;&lt;/I&gt; -&amp;nbsp;umožňuje&amp;nbsp;zadať ľubovoľné doplňujúce údaje tlačené na začiatku dokladu pred položkami.&lt;/P&gt;
+&lt;P&gt;&lt;I&gt;&lt;STRONG&gt;Pätička/&lt;I&gt;&lt;STRONG&gt;Doplňujúca pätička&lt;/STRONG&gt;&lt;/I&gt;&lt;/STRONG&gt;&lt;/I&gt; - umožňujú&amp;nbsp;zadať ľubovoľné doplňujúce údaje tlačené za položkami,&amp;nbsp;napr. poďakovanie za nákup, otváracie hodiny a pod.&lt;/P&gt;
+&lt;H3&gt;Test zaevidovania a tlače dokladu&lt;/H3&gt;
+&lt;P&gt;Stlačením tlačidla &lt;EM&gt;Vytlačiť testovací doklad&lt;/EM&gt; je možné vykonať test tlače (vytlačí sa nefiškálny doklad).&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Pokladnica OBERON&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 
+&lt;P&gt;V&amp;nbsp;tejto záložke je možné nastaviť parametre&amp;nbsp;predaja a zobrazenia &lt;A href="aec074f4-3e1c-4a1e-8a80-06fcecf51156"&gt;Pokladnice OBERON&lt;/A&gt;. Každú pokladnicu definovanú v&amp;nbsp;systéme OBERON&amp;nbsp;je potrebné priradiť k&amp;nbsp;určitému&amp;nbsp;&lt;A href="327921ae-e0fb-48da-b179-61714048b841"&gt;predajnému miestu&lt;/A&gt;. Ďalšie dôležité nastavenia sú&amp;nbsp;&lt;I&gt;Režim predaja&lt;/I&gt;, &lt;I&gt;Režim zobrazenia&lt;/I&gt;&amp;nbsp;a&amp;nbsp;&lt;I&gt;Vytváranie skladových pohybov&lt;/I&gt;. Bližšie informácie získate v téme&amp;nbsp;&lt;A href="bb0e1e82-e344-4bf0-834a-a294269f2e71" style="auto-update-caption: true"&gt;Formulár Pokladnica OBERON - nastavenia&lt;/A&gt;.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H5&gt;Obrázok č. 1: Formulár&amp;nbsp;&lt;EM&gt;Nastavenie - eKasa klient ECM&lt;/EM&gt;&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/CashRegister/Form_CashRegister_eKasa_Settings.png"&gt;&amp;nbsp;&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="26128ce3-c547-43bd-b807-be21a0fd53fd" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="749ff4f1-eeb5-43f5-98d2-021399d8cec7">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="b1b5b8e1-543e-4d2e-8dd2-b66bd1af9c13" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="b24ad235-cf7f-43e2-b3e8-ec0f7d92f6b6">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="32048ceb-77ba-4815-b227-3676ddee0dce" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="2bb8914d-3e8f-417d-a083-b83300c24d66">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="2682c4d8-b58f-4e70-aa0c-240ccd77fd21" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="06f5e819-cf70-4875-b3fd-eca80b19939b">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="90a7ce6e-374f-4dcd-a8a6-c3a8141212b5" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="8fa578bf-92a5-43f3-82fc-be145cd19442">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="db2fbae9-ee2c-48d4-8bd9-edaeb316695d" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="5f935f17-894c-4762-b1b1-d9f46cc28b4a">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="e054519b-c14e-4397-b050-b467dec9d1cf" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="f1a1ee48-d6ac-4b22-bab3-a6e4ccc3cf99">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="3a4be85f-5e1a-457a-b753-d2e260d64a87" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="1cbe6856-1ab3-4ee5-9d79-853699a50095">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="effa09f6-743b-49ff-a62b-86955fdd5720">
+      <Keyword m="2023-03-29T10:43:35.5724762Z">eKasa klient ECM - nastavenie - formulár</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="8d5640d1-f613-41a1-b2d0-31178dbe7f86">
+      <Keyword m="2023-03-29T10:43:43.6754275Z">Nastavenie - eKasa klient ECM - formulár</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

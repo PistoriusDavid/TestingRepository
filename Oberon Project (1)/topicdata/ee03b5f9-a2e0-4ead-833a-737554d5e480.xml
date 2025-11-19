@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="ee03b5f9-a2e0-4ead-833a-737554d5e480" Status="Complete" CreatedOn="2025-01-15T10:07:40.1968357Z" ModifiedOn="2025-03-13T13:39:46.7529128Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="OBERON_News_2024_12" BuildFlags="{4AAE0FD4-7313-4FEE-A25F-0785B885F736},826B51BD-B6F0-4B2C-A814-029E169D018F">
+  <Title m="2025-01-15T10:08:15.0207713Z">Čo bolo nové vo verzii December/2024</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2025-03-13T13:39:46.7529128Z">&lt;P&gt;Dňa 13.12.2024&amp;nbsp;bola&amp;nbsp;vydaná&amp;nbsp;nová verzia ekonomického systému OBERON s&amp;nbsp;označením &lt;STRONG&gt;December/2024&lt;/STRONG&gt;. V&amp;nbsp;nasledujúcej časti sú vymenované najdôležitejšie novinky, vylepšenia a&amp;nbsp;opravy oproti verzii&amp;nbsp;&lt;STRONG&gt;Október/2024&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;H2&gt;OBERON&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Cenník licencií&lt;/STRONG&gt; - zmena&amp;nbsp;&lt;A href="efb93a2c-e449-4770-88ba-0fe999e90ccd"&gt;cien licencií&lt;/A&gt; z dôvodu úpravy DPH. 
+&lt;LI&gt;&lt;STRONG&gt;Legislatívne úpravy&lt;/STRONG&gt; - z dôvodu zmien sadzieb DPH. 
+&lt;LI&gt;&lt;STRONG&gt;Zmena nastavení sadzieb DPH&lt;/STRONG&gt; - pribudla evidencia (zoznam) sadzieb DPH s ich platnosťou - program tak bude vedieť súčasne pracovať s rôznymi sadzbami DPH pri účtovaní v&amp;nbsp;roku 2025 a spätne v&amp;nbsp;roku 2024. 
+&lt;LI&gt;&lt;STRONG&gt;Rozšírenie databázových polí pre uloženie hlavičky dokladu&lt;/STRONG&gt; - pôvodne sa ukladala vyššia a nižšia sadzba DPH, po novom základná (vyššia) sadzba 23&amp;nbsp;%&amp;nbsp;a dve znížené (nižšie) sadzby 5&amp;nbsp;% a 19&amp;nbsp;%. 
+&lt;LI&gt;&lt;STRONG&gt;Tlačové výstupy&lt;/STRONG&gt; - úprava všetkých tlačových dokladových výstupov ako napr. faktúra, dodací list, výdajka, príjemka, objednávky, reklamácie a servis, hotelové účty atď. 
+&lt;LI&gt;&lt;STRONG&gt;Rozšírenie počtu polí pre sadzby DPH&lt;/STRONG&gt; - pridané polia pre dve znížené sadzby DPH&amp;nbsp;v účtovnom (peňažnom denníku), v&amp;nbsp;knihe evidencie DPH, v&amp;nbsp;pomocnej pokladničnej knihe atď. 
+&lt;LI&gt;&lt;STRONG&gt;Webové služby&lt;/STRONG&gt; - bola upravená rekapitulácia dokladu. 
+&lt;LI&gt;&lt;STRONG&gt;Exporty a importy&amp;nbsp;XML&lt;/STRONG&gt; - bola upravená rekapitulácia dokladu. Ak používate transformačné šablóny,&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;&amp;nbsp;je nevyhnutné urobiť v nich úpravy&lt;/SPAN&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Skladová evidencia&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Rozšírená cenotvorba&lt;/STRONG&gt; - pomocou sprievodcu hromadnou zmenou sadzieb DPH na skladových kartách možno sadzby DPH a predajné ceny upraviť aj v&amp;nbsp;&lt;A href="34f91c11-1a5d-4773-ac4e-48ad2fc859d3"&gt;pravidlách rozšírenej cenotvorby&lt;/A&gt;&amp;nbsp;- viac informácií v&amp;nbsp;téme&amp;nbsp;&lt;A href="194e0195-69ae-453f-b550-6b65617e63f1" style="auto-update-caption: true"&gt;Zmena sadzby DPH&lt;/A&gt; . 
+&lt;LI&gt;&lt;STRONG&gt;Kategórie&lt;/STRONG&gt; - v kategóriách skladových kariet pribudlo nastavenie &lt;EM&gt;Nezasielať do internetového obchodu&lt;/EM&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Pokladnica OBERON&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;eKasa zariadenia&lt;/STRONG&gt; -&amp;nbsp;v súvislosti so zmenou sadzieb DPH je nevyhnutné aktualizovať firmvér (PPEKK)&amp;nbsp;podporovaných zariadení eKasa. Tu je zoznam zariadení eKasa, ktoré už boli upravené pre zmeny od 1.&amp;nbsp;1.&amp;nbsp;2025: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;EM&gt;eKasa PANDORA&lt;/EM&gt;&amp;nbsp;- pripravené pre 2025, inštalačná sada &lt;STRONG&gt;obsahuje&lt;/STRONG&gt; aktualizované PPEKK, CHDÚ (jeho firmvér) nie je potrebné aktualizovať. Nové sadzby DPH sa v&amp;nbsp;zariadení&amp;nbsp;nastavia automaticky. 
+&lt;LI&gt;&amp;nbsp;- pripravené pre 2025. 
+&lt;LI&gt;&lt;EM&gt;Pegas FM-06&lt;/EM&gt; - pripravené pre 2025. 
+&lt;LI&gt;&lt;EM&gt;VAROS FT4000B, FT5000B&lt;/EM&gt;&amp;nbsp;- pripravené pre 2025. 
+&lt;LI&gt;&lt;EM&gt;Elcom EFox-T&lt;/EM&gt;&amp;nbsp;- pripravené pre 2025. 
+&lt;LI&gt;&lt;EM&gt;EasyPos.2019&lt;/EM&gt;&amp;nbsp;- pripravené pre 2025, verzia &lt;STRONG&gt;obsahuje&lt;/STRONG&gt; podporu PPEKK pre 2025, po inštalácii OBERON-u je nutné aktualizovať doplnok pre &lt;EM&gt;EasyPos&lt;/EM&gt; v &lt;EM&gt;Správcovi doplnkov&lt;/EM&gt;. 
+&lt;LI&gt;&lt;EM&gt;Euro-50i/o, 150i/o&lt;/EM&gt;&amp;nbsp;(režim off-line) - pripravené pre 2025. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Zasielanie bločku elektronicky&lt;/STRONG&gt; - vylepšená práca pri zadávaní e-mailovej adresy pri vyhotovení pokladničného dokladu na zaslanie v elektronickej podobe. Pribudla možnosť vybrať e-mailovú adresu z evidencie obchodných partnerov, prípadne ju nasnímať &amp;nbsp;kódu QR. 
+&lt;LI&gt;&lt;STRONG&gt;Fiscal UNI (SK)&lt;/STRONG&gt; - testovacie fiškálne zariadenie &lt;EM&gt;FiscalVirtual&lt;/EM&gt; bolo zmenené na&amp;nbsp;&lt;A href="30dd45fc-685d-4adf-a959-f87840e12c7f"&gt;Fiscal UNI (SK)&lt;/A&gt;. Používatelia, ktorí nemajú povinnosť evidovať tržby v systéme eKasa a používajú na evidenciu tržby &lt;EM&gt;FiscalVirtual&lt;/EM&gt;, si musia opätovne nastaviť hlavičku a&amp;nbsp;pätičku dokladu. Pred inštaláciou je potrebné vykonať dennú uzávierku. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;SPAN&gt;V prípade preskočenia viacerých verzií programu je dôležité si prečítať informácie o novinkách, vylepšeniach a opravách&amp;nbsp;aj&amp;nbsp;z&amp;nbsp;&lt;A href="dc832235-0e36-4aac-ae54-e51641eb2f50"&gt;predchádzajúcich verzií&lt;/A&gt;&lt;STRONG&gt;.&lt;/STRONG&gt; V&amp;nbsp;niektorej z predošlých verzií mohlo dôjsť k&amp;nbsp;dôležitým zmenám, o&amp;nbsp;ktorých je v niektorých prípadoch nevyhnutné vedieť.&lt;/SPAN&gt;&lt;/innovasys:widgetproperty&gt; &lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="c7357ab9-e0d8-47e3-b432-b3034ba1bd58" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="dc832235-0e36-4aac-ae54-e51641eb2f50">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="0aff6ea2-d3f9-4c1e-9000-f2192f9f2edc">
+      <Keyword m="2014-11-24T11:38:34.3847265Z">Verzia</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

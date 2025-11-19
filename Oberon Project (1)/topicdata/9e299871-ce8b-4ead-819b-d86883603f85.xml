@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="9e299871-ce8b-4ead-819b-d86883603f85" Status="Complete" CreatedOn="2014-08-31T13:59:27.4439546Z" ModifiedOn="2025-07-30T11:16:44.8725041Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="1010" Name="OBERON_News" BuildFlags="826B51BD-B6F0-4B2C-A814-029E169D018F,{4AAE0FD4-7313-4FEE-A25F-0785B885F736}">
+  <Title m="2014-08-31T13:59:47.6481103Z">Čo je nové</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2025-07-30T11:16:44.8725041Z">&lt;P&gt;Dňa 30.07.2025&amp;nbsp;bola&amp;nbsp;vydaná&amp;nbsp;nová verzia ekonomického systému OBERON s&amp;nbsp;označením &lt;STRONG&gt;Júl/2025&lt;/STRONG&gt;. V&amp;nbsp;nasledujúcej časti sú vymenované najdôležitejšie novinky, vylepšenia a&amp;nbsp;opravy oproti verzii&amp;nbsp;&lt;STRONG&gt;Jún/2025&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;H2&gt;OBERON&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Digitálna podpisová podložka&lt;/STRONG&gt; - pribudla možnosť dočasne vypnúť časový server na vytváranie časovej pečiatky z dôvodu jeho dočasnej nedostupnosti, prípadne&amp;nbsp;použiť ľubovoľný iný&amp;nbsp;časový server (Time Stamp Authority (TSA) Server). &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Účtovníctvo&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Daňové priznanie DPH&lt;/STRONG&gt; - od 01.07.2025 je platné nové daňové priznanie DPH (ako aj nová štruktúra XML). V porovnaní s pôvodným priznaním sú v ňom rozpísané znížené sadzby DPH. Za obdobie 07/2025 (t. j. od 01.08.2025) je potrebné podávať už toto nové daňové priznanie DPH. 
+&lt;LI&gt;&lt;STRONG&gt;Samozdanenie&lt;/STRONG&gt; -&amp;nbsp;boli doplnené ďalšie typy DPH pri samozdanení tak, aby sa dali zadať položky v zdrojovom doklade aj v nižších sadzbách DPH (pôvodne len v základnej sadzbe DPH). 
+&lt;LI&gt;&lt;STRONG&gt;Kniha evidencie DPH&lt;/STRONG&gt; - boli upravené tlačové výstupy, ktoré boli rozšírené o druhú nižšiu sadzbu DPH. Ak ste mali tlačové výstupy v tejto evidencii upravené, je potrebné ich zrušiť a opätovne upraviť. 
+&lt;LI&gt;&lt;STRONG&gt;Pokladničné doklady&lt;/STRONG&gt; - boli upravené tlačové výstupy &lt;EM&gt;Pokladničné doklady&lt;/EM&gt; a &lt;EM&gt;Pokladničný doklad&lt;/EM&gt;, kde sú rozpísané všetky sadzby DPH. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Skladová evidencia&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;PrestaShop&lt;/STRONG&gt; - bola pridaná aktualizácia jednotkovej ceny pre PrestaShop 8. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Mzdy a dochádzka&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Životné minimum&lt;/STRONG&gt; - zapracované&amp;nbsp;zmeny po&amp;nbsp;legislatívnej úprave životného minima. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;SPAN&gt;V prípade preskočenia viacerých verzií programu je dôležité si prečítať informácie o novinkách, vylepšeniach a&amp;nbsp;opravách&amp;nbsp;aj&amp;nbsp;z&amp;nbsp;&lt;A href="dc832235-0e36-4aac-ae54-e51641eb2f50"&gt;predchádzajúcich verzií&lt;/A&gt;&lt;STRONG&gt;.&lt;/STRONG&gt; V&amp;nbsp;niektorej z&amp;nbsp;predošlých verzií mohlo dôjsť k&amp;nbsp;dôležitým zmenám, o&amp;nbsp;ktorých je v&amp;nbsp;niektorých prípadoch nevyhnutné vedieť.&lt;/SPAN&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="c7357ab9-e0d8-47e3-b432-b3034ba1bd58" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="dc832235-0e36-4aac-ae54-e51641eb2f50">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="0aff6ea2-d3f9-4c1e-9000-f2192f9f2edc">
+      <Keyword m="2014-11-24T11:38:34.3847265Z">Verzia</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

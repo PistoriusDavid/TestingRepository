@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="614e08c0-a29e-4810-a741-174e81a8e259" Status="Complete" CreatedOn="2014-09-05T15:11:09.8457631Z" ModifiedOn="2023-04-13T11:16:46.5135512Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="false" HelpContextIds="" Name="Menu_Invoices_InvoicesTypes" BuildFlags="">
+  <Title m="2014-12-11T10:11:06.7568359Z">Typy dokladov</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-04-13T11:16:46.5135512Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;je venovaná&amp;nbsp;položke&amp;nbsp;&lt;EM&gt;Typy dokladov&lt;/EM&gt;&amp;nbsp;v ponuke&amp;nbsp;&lt;EM&gt;Fakturácia&lt;/EM&gt; programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Výberom položky sa otvorí číselník &lt;EM&gt;Typy dokladov&amp;nbsp;- kniha pohľadávok/záväzkov&lt;/EM&gt;, ktorý umožňuje definovať &lt;A href="c36e079b-cc33-4141-83a7-ee2b1c7b53a0"&gt;typy dokladov v knihe pohľadávok a záväzkov&lt;/A&gt;. 
+&lt;LI&gt;Typ dokladu &lt;STRONG&gt;bližšie&amp;nbsp;určuje druh dokladu&lt;/STRONG&gt;. Napr. typy dokladu &lt;EM&gt;Faktúra na zálohu&lt;/EM&gt; a&lt;EM&gt;&amp;nbsp;Faktúra v&amp;nbsp;cudzej mene&lt;/EM&gt; bližšie určujú druh dokladu &lt;EM&gt;Faktúra&lt;/EM&gt;. Typy dokladov je tak možné použiť &lt;STRONG&gt;na podrobnejšie členenie dokladov rovnakého druhu&lt;/STRONG&gt;. &amp;nbsp;&amp;nbsp;&amp;nbsp; 
+&lt;LI&gt;Jednotlivé typy dokladov sa definujú vo &lt;A href="f1cca27c-d866-466a-a87a-bf8db384f6a7"&gt;formulári Typ dokladu - kniha pohľadávok/záväzkov&lt;/A&gt;&amp;nbsp;dostupnom z&amp;nbsp;číselníka po stlačení tlačidla &lt;EM&gt;Nový&lt;/EM&gt; alebo &lt;EM&gt;Oprava&lt;/EM&gt;. 
+&lt;LI&gt;Formulár&amp;nbsp;zároveň umožňuje pre jednotlivé typy dokladov nastaviť atribúty, ako napr. samostatný číselný rad, spôsob zaokrúhľovania celkovej sumy dokladu, či je doklad v&amp;nbsp;tuzemskej alebo cudzej mene a iné. 
+&lt;LI&gt;Samostatné číselné rady pre rôzne typy dokladov v&amp;nbsp;knihe pohľadávok a&amp;nbsp;v&amp;nbsp;knihe záväzkov možno používať napr. na oddelenie zálohových faktúr, zahraničných faktúr a pod. 
+&lt;LI&gt;Po nadefinovaní typov dokladov sa vždy v sprievodcovi vytváraním nového dokladu napr. v&amp;nbsp;knihe pohľadávok&amp;nbsp;výberom v&amp;nbsp;rozbaľovacom zozname &lt;EM&gt;Typ dokladu&lt;/EM&gt; určí,&amp;nbsp;ku ktorému typu dokladu&amp;nbsp;bude nová pohľadávka prislúchať. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Definovať typ dokladu v&amp;nbsp;knihe pohľadávok/záväzkov je možné pomocou &lt;A href="f1cca27c-d866-466a-a87a-bf8db384f6a7"&gt;formulára Typ dokladu - kniha pohľadávok/záväzkov&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Bližšie informácie o typoch dokladov v knihe pohľadávok a záväzkov získate v téme&amp;nbsp;&lt;A href="c36e079b-cc33-4141-83a7-ee2b1c7b53a0"&gt;Typy dokladov v knihe pohľadávok a záväzkov&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="2bb0729f-3f5e-4fc2-aeb8-ce221b88cce4" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="5c21adcc-87c8-44e7-981d-02902635693d">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="3af7248c-13c3-4aff-ab94-aef41dd4e7b4" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="55028746-c263-4d92-a615-502222e8d53b">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="405c7d72-6a98-4452-beb6-e0bbee005296" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="c36e079b-cc33-4141-83a7-ee2b1c7b53a0">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="c6dd73f5-55d9-40b1-8d75-4af538d22f9a" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="f1cca27c-d866-466a-a87a-bf8db384f6a7">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="9097e839-7df8-4953-9a4f-65d049f0b1dc">
+      <Keyword m="2022-12-19T09:12:49.326851Z">Doklady - typy v knihe pohľadávok a záväzkov</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="b537103d-c89e-40e1-8de5-af8797196462" Status="Complete" CreatedOn="2025-05-28T09:04:22.6591743Z" ModifiedOn="2025-05-28T09:17:02.5983764Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="22102" Name="Article_Tips" BuildFlags="D8EEEC64-8D7C-4E22-962B-32BF6BBC5DF5,826B51BD-B6F0-4B2C-A814-029E169D018F">
+  <Title m="2025-05-28T09:12:18.7302773Z">Dýško, bakšiš, sprepitné…</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2025-05-28T09:16:27.4930272Z">&lt;P&gt;Na Slovensku sa pre obslužné používa množstvo rozmanitých výrazov, z ktorých sú niektoré spisovné (prepitné), iné skôr expresívne, subštandardné, či zastarané (diškrécia, tringeld, bakšiš, oročka). Uvedenú plejádu synonymných výrazov dopĺňa slovo dýško, ktoré je importom z češtiny a v slovníku slovenského jazyka sa neuvádza.&lt;/P&gt;
+&lt;P&gt;Všetky uvedené výrazy spája ich význam: ide o dobrovoľnú peňažnú odmenu zákazníka za obsluhu, ktorá môže byť zahrnutá v účte alebo poskytnutá samostatne. Kým s obslužným bolo dosiaľ možné v systéme OBERON pracovať len v rámci aplikácie LUKUL – nielen mobilný čašník, od verzie programu Apríl/2025 možno obslužné evidovať v OBERON-e priamo na Pokladnici OBERON. Viac informácií o novinke vám prinášame v tomto článku.&lt;/P&gt;
+&lt;H2&gt;Legislatívny rámec&lt;/H2&gt;
+&lt;P&gt;Na Slovensku je obslužné upravené legislatívou, ktorá stanovuje pravidlá pre jeho poskytovanie a zdaňovanie.&lt;/P&gt;
+&lt;P&gt;Podľa zákona o dani z príjmov je obslužné považované za príjem a podlieha zdaneniu. Prevádzkovatelia zariadení (reštaurácie, bary, kaviarne, ale aj kaderníctva a iné prevádzky, kde sa prijíma obslužné) sú preto povinní zabezpečiť správne zaúčtovanie a odvody z obslužného.&lt;/P&gt;
+&lt;H2&gt;Obslužné v OBERON-e&lt;/H2&gt;
+&lt;P&gt;V praxi je dlhodobo štandardne rozšírené poskytovanie obslužného v hotovosti. V zmysle zákona by mal byť takýto príjem správne zaúčtovaný a mali by byť z neho zrealizované príslušné odvody.&lt;/P&gt;
+&lt;P&gt;Okrem klasického poskytovania obslužného v hotovosti je však možné zadať obslužné aj pri platbe kartou, resp. inej bezhotovostnej platbe. Takto zadané obslužné možno od verzie Apríl/2025 evidovať aj v systéme OBERON.&lt;/P&gt;
+&lt;H2&gt;Platobné terminály&lt;/H2&gt;
+&lt;P&gt;Pokiaľ ide o platbu kartou, moderné platobné terminály umožňujú zadávať obslužné ako súčasť platobného procesu. Táto funkcia musí byť dostupná v danom termináli a zároveň povolená v nastaveniach zariadenia v OBERON-e (ponuka Servis, Zariadenia). Spravidla sa využíva na termináloch používaných v reštauráciách, kaviarňach a iných prevádzkach, kde zákazníci môžu dobrovoľne pridať obslužné k celkovej sume. Obsluha alebo zákazník môže zadať výšku obslužného priamo na termináli pred potvrdením platby. Následne sa informácia o zadanom obslužnom odošle do OBERON-u a zaeviduje sa do obratov pokladnice (v členení tak podľa typov platieb, ako aj pokladníkov). V obratoch pokladnice môže byť obslužné členené podľa toho, či bolo poskytnuté obsluhe, alebo pre kuchára v prípade, že túto funkciu podporuje daný platobný terminál, prípadne externá aplikácia. Na konci dňa tak poskytuje prehľad o prijatých sumách obslužného.&lt;/P&gt;
+&lt;P&gt;Nasledujúca galéria predstavuje zadanie obslužného na platobnom termináli a jeho zobrazenie na potvrdenke z platobného terminálu a v obratoch pokladnice.&lt;/P&gt;
+&lt;P&gt;Funkcia evidencie obslužného je v Pokladnici OBERON štandardne dostupná v reštauračnom režime. V iných režimoch predaja je dostupná len v prípade, že je obrat obslužného rôzny od nuly.&lt;/P&gt;
+&lt;P&gt;Pri platbe prostredníctvom platobného terminálu sumu obslužného zadáva do platobného terminálu obsluha na podnet hosťa.&lt;/P&gt;
+&lt;H2&gt;Iné bezhotovostné platby&lt;/H2&gt;
+&lt;P&gt;Na rozdiel od predchádzajúceho spôsobu platby, iné bezhotovostné platby, pri ktorých sa nepoužíva platobný terminál, ale otvorený pokladničný účet (doklad) sa uhrádza inou bezhotovostnou platbou (napr. pri elektronickom jedálnom lístku (pikMenu) alebo pri donáške pomocou platobnej brány) umožňujú zadať sumu obslužného samotnému hosťovi v reštaurácii, resp. zákazníkovi pri objednávke na donášku.&lt;/P&gt;
+&lt;P&gt;Pri iných bezhotovostných platbách sa informácia o obslužnom odosiela do OBERON-u do otvorených účtov, kde sa zobrazuje v stĺpci Obslužné. Zároveň sa suma obslužného zobrazuje v informačnej zóne (displeji) Pokladnice OBERON. Obsluha je tak informovaná o výške poskytnutého obslužného.&lt;/P&gt;
+&lt;P&gt;V informačnej zóne (displeji) Pokladnice OBERON sa môžu zobrazovať aj iné informácie, ako napr. poznámka, že zákazník už účet uhradil v externej aplikácii a pod.&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="6de8d738-e744-4cf7-9f23-dea43813bed4" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="0c107d0c-e14f-4aa7-a954-d84b299ac5cb">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="00265d33-5a8e-451b-8036-d7f334e77653" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="0b81f4ea-5e68-48c1-8b89-933d5a23d962">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="803a5137-812e-4909-b83f-35d1b415d6b9">
+      <Keyword m="2021-07-02T12:52:00.7308263Z">Zatvorenie programu OBERON - Agenda firmy</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="94164c16-417b-44a8-93d4-d10003b9104b">
+      <Keyword m="2021-07-02T12:51:54.8818262Z">Ukončenie programu OBERON - Agenda firmy</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

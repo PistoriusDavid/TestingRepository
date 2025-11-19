@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="516fa65d-19fa-43dc-b3a2-defa17b47d01" Status="Complete" CreatedOn="2025-06-06T06:16:02.7166487Z" ModifiedOn="2025-06-09T07:16:38.4325285Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="40610" Name="Form_Acc_AccountingBook_PasteSpecial" BuildFlags="">
+  <Title m="2025-06-09T06:50:40.2563985Z">Formulár Prilepiť špeciálne - opakovane</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2025-06-09T07:15:52.4455163Z">&lt;P&gt;Formulár &lt;EM&gt;Prilepiť špeciálne - opakovane&lt;/EM&gt; umožňuje &lt;STRONG&gt;vytvoriť hromadne viac záznamov v&amp;nbsp;účtovnom, resp. peňažnom denníku, a to pre každý kalendárny mesiac jeden&lt;/STRONG&gt;. Formulár je dostupný z&amp;nbsp;programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;, ponuka &lt;EM&gt;Účtovníctvo&lt;/EM&gt;,&amp;nbsp;&lt;A href="5e82cca9-b8af-4a80-ba30-7ab91914a595"&gt;Peňažný denník&lt;/A&gt;&amp;nbsp;alebo&amp;nbsp;&lt;A href="d8c9bfc8-92d1-4471-8909-e5f8ce602d6c"&gt;Účtovný denník&lt;/A&gt;,&amp;nbsp;tlačidlo &lt;EM&gt;Možnosti&lt;/EM&gt; po výbere možnosti &lt;EM&gt;Prilepiť špeciálne.&lt;/EM&gt;&lt;/P&gt;
+&lt;H2&gt;Popis formulára &lt;EM&gt;Prilepiť špeciálne - opakovane&lt;/EM&gt;&lt;/H2&gt;&lt;innovasys:widget layout="block" type="Drop Down Section"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Dátum prvého nového zápisu&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Vyberá sa dátum prvého nového zápisu v&amp;nbsp;denníku.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget layout="block" type="Drop Down Section"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Dátum posledného zápisu&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Vyberá sa dátum posledného zápisu zápisu v&amp;nbsp;denníku.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget layout="block" type="Tip Box"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt; 
+&lt;P&gt;Príklad:&lt;BR&gt;V denníku potrebujeme skopírovať záznam (napr. &lt;EM&gt;Nájomné&lt;/EM&gt;) z januára do všetkých ostatných mesiacov kalendárneho roka. Záznam je &lt;STRONG&gt;s dátumom 1.1.2025&lt;/STRONG&gt;. Pri použití funkcie &lt;EM&gt;Prilepiť špeciálne - opakovane&lt;/EM&gt; a zadaní &lt;EM&gt;Dátumu posledného zápisu&lt;/EM&gt; 1.12.2025 sa nové záznamy vytvoria vždy k&amp;nbsp;1. dňu v&amp;nbsp;príslušnom mesiaci.&lt;/P&gt;
+&lt;P&gt;Ak je kopírovaný záznam &lt;STRONG&gt;z&amp;nbsp;posledného dňa v&amp;nbsp;mesiaci&lt;/STRONG&gt; (napr. 31.1., 28.2, resp. 29.2., 30.3. atď.), nové záznamy sa vytvoria vždy k&amp;nbsp;poslednému dňu v&amp;nbsp;príslušnom mesiaci.&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="71bfa8e9-4aea-4ca7-97d3-e5ba196778e4" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="d8c9bfc8-92d1-4471-8909-e5f8ce602d6c">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="687acbae-1fbf-47be-a85f-c5e813a53fb4" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="5e82cca9-b8af-4a80-ba30-7ab91914a595">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="d7014f6e-2c4e-4724-a1c8-983c16e0ada2">
+      <Keyword m="2025-06-09T07:16:22.3654642Z">Hromadné účtovanie - prilepiť špeciálne (opakovane)</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="d8e0920f-4775-44f3-b24a-4cb9bc25a0df">
+      <Keyword m="2025-06-09T07:16:38.2695036Z">Prilepiť špeciálne - opakovane</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

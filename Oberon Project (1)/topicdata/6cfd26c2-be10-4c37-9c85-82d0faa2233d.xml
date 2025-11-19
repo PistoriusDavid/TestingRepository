@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="6cfd26c2-be10-4c37-9c85-82d0faa2233d" Status="Complete" CreatedOn="2014-10-13T06:28:42.8848428Z" ModifiedOn="2023-10-30T07:21:09.7786252Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="39020" Name="MsgBox_AccDouble_Reaccounting_VAT" BuildFlags="">
+  <Title m="2022-12-07T14:11:46.3131163Z">Preúčtovanie neuhradenej DPH na uhradenú</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-07-18T12:06:03.406657Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;informácie o dialógovom okne týkajúcom sa informácie o&amp;nbsp;potrebe preúčtovania neuhradenej DPH na uhradenú&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;V aktuálne zadávanom doklade došlo k&amp;nbsp;úhrade DPH. Z tohto dôvodu je potrebné preúčtovať uhradenú DPH z analytického účtu neuhradenej DPH na analytický účet uhradenej DPH. 
+&lt;LI&gt;Preúčtovanie program vykoná automaticky na základe zadanej&amp;nbsp;&lt;A href="da8a9192-a6cc-4470-b5d5-13d3ec435f97"&gt;predkontácie&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Pre potreby uplatnenia nároku na odpočet DPH sú účtovné jednotky povinné viesť analytickú evidenciu nezaplatenej a zaplatenej DPH.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="577c2061-15ab-4a56-929a-087c517994ff" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="eb506116-6287-4c49-b289-8d1ee5614f0f">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="638643e9-940e-4bba-b4dc-fb3abb7a7862" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="e505dc5f-a1a1-4ff1-adfe-6b74b674d6d0">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords />
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

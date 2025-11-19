@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="2a7fe044-bfb5-45f5-b288-2aedb71f7999" Status="Complete" CreatedOn="2021-10-07T12:06:03.3247016Z" ModifiedOn="2023-07-13T07:52:47.2482953Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Device_Monitors_for_Kitchen_Install" BuildFlags="">
+  <Title m="2021-10-07T12:06:50.6872557Z">Inštalácia bonovacieho monitora</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-07-13T07:52:47.2482953Z">&lt;P align=left&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje postup inštalácie&amp;nbsp;&lt;A href="d9867d81-7de7-4ce2-9c45-932025935b8b"&gt;bonovacieho monitora&lt;/A&gt;, t.&amp;nbsp;j. &lt;STRONG&gt;postup nastavenia komunikácie&lt;/STRONG&gt; medzi bonovacím monitorom a&amp;nbsp;systémom OBERON. Téma obsahuje aj postup prihlásenia do rozhrania bonovacieho monitora a&amp;nbsp;nastavenia vzhľadu bonovacieho monitora.&lt;/P&gt;
+&lt;H2 align=left&gt;1. Nastavenie lokálnej počítačovej siete&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;Na&amp;nbsp;zabezpečenie potrebnej sieťovej infraštruktúry, nastavenie lokálnej počítačovej siete a jej následnú správu&amp;nbsp;odporúčame &lt;STRONG&gt;kontaktovať servisného technika&lt;/STRONG&gt;. Osloviť môžete niektorého z&amp;nbsp;našich&amp;nbsp;&lt;A href="f83c2a9c-cda4-4862-8628-7ba16ddb1b06"&gt;zmluvných partnerov (servisných stredísk)&lt;/A&gt;. 
+&lt;LI&gt;Bonovací monitor komunikuje so systémom OBERON&amp;nbsp;na základe&amp;nbsp;&lt;A href="9ce25bbd-35d1-4096-acd5-70007f5af5a6"&gt;automatickej úlohy&lt;/A&gt; typu &lt;EM&gt;&lt;STRONG&gt;WebServices API - Pokladnica OBERON 1G&lt;/STRONG&gt;&lt;/EM&gt;, t.&amp;nbsp;j. &lt;A href="58bb31ca-00c8-4641-ad99-7d58e24f59c5"&gt;webových služieb&lt;/A&gt;. Z&amp;nbsp;tohto dôvodu je potrebné v prevádzke &lt;STRONG&gt;zabezpečiť WiFi pripojenie&lt;/STRONG&gt; do lokálnej počítačovej siete. 
+&lt;LI&gt;&lt;STRONG&gt;Zvoľte počítač,&amp;nbsp;na ktorom bude automatická úloha (webová služba) spustená&lt;/STRONG&gt;. Mal by to byť počítač, ktorý je zapnutý v čase, v ktorom je otvorená prevádzka. Odporúča sa sieťový databázový server, prípadne počítač, na ktorom sa používa&amp;nbsp;&lt;A href="a6f5e32d-6f1e-40bb-9d15-3f784a183252"&gt;Pokladnica OBERON&lt;/A&gt;. Dôvodom je jednoduchší prístup k&amp;nbsp;tlačovým úlohám pri paralelnom používaní bonovacích tlačiarní (napr. v prípade zaseknutia papiera bude jednoduchší prístup k tomuto počítaču ako napr. k serveru). 
+&lt;LI&gt;Uistite sa, že&amp;nbsp;sa automatická úloha aj&amp;nbsp;bonovací monitor&amp;nbsp;používajú&amp;nbsp;&lt;STRONG&gt;v tej istej počítačovej sieti&lt;/STRONG&gt;.&amp;nbsp;Bonovací monitor&amp;nbsp;v rámci komunikácie predstavuje &lt;STRONG&gt;klienta webovej služby&lt;/STRONG&gt;. 
+&lt;LI&gt;Ak sa bude&amp;nbsp;bonovací monitor&amp;nbsp;používať &lt;STRONG&gt;mimo lokálnej počítačovej siete&lt;/STRONG&gt;,&amp;nbsp;je potrebné&amp;nbsp;nastaviť presmerovanie portu na smerovači (routri) z verejnej IP adresy na IP adresu počítača v lokálnej sieti, na ktorom je automatická úloha spustená (predpokladá sa, že prevádzka má verejnú statickú IP adresu alebo dynamické DNS). Následne sa bude možné k&amp;nbsp;webovej službe pripájať &lt;STRONG&gt;odkiaľkoľvek z&amp;nbsp;vonkajšieho internetu&lt;/STRONG&gt;. &lt;/LI&gt;&lt;/OL&gt;
+&lt;H2&gt;2.&amp;nbsp;Nastavenie automatickej úlohy&amp;nbsp;&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;Pred&amp;nbsp;nastavením automatickej úlohy v&amp;nbsp;systéme OBERON sa uistite, že je&amp;nbsp;&lt;STRONG&gt;na počítači, ktorý&amp;nbsp;je zapnutý v čase, v ktorom je otvorená prevádzka&lt;/STRONG&gt;, správne nastavený&amp;nbsp;&lt;STRONG&gt;server&lt;/STRONG&gt;&amp;nbsp;&lt;A href="09f3dae9-2fb7-490f-97dc-37f60885b398"&gt;OBERON Automation Center&lt;/A&gt;. Postup nastavenia je dostupný v&amp;nbsp;téme&amp;nbsp;&lt;A href="fd64c37a-486b-4cdf-a370-297aaa8a8f73" style="auto-update-caption: true"&gt;Nastavenie servera OBERON Automation Center&lt;/A&gt;.&amp;nbsp;Správnosť nastavenia a&amp;nbsp;fungovania&amp;nbsp;servera OAC môžete skontrolovať v&amp;nbsp;programe&lt;STRONG&gt;&amp;nbsp;&lt;EM&gt;OBERON Automation Center&lt;/EM&gt; (klient)&lt;/STRONG&gt; (v&amp;nbsp;programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;, ponuka&amp;nbsp;&lt;EM&gt;OBERON&lt;/EM&gt;,&amp;nbsp;&lt;A href="69282df4-d4d6-462a-8cf2-68000e3e6f93"&gt;OBERON Automation Center (klient)&lt;/A&gt;). &lt;SPAN style="COLOR: rgb(255,0,0)"&gt;Pri&amp;nbsp;použití&lt;/SPAN&gt; &lt;EM style="COLOR: rgb(255,0,0)"&gt;OBERON Automation Center&lt;/EM&gt;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;&amp;nbsp;&lt;STRONG&gt;odporúčame&lt;/STRONG&gt; &lt;/SPAN&gt;&lt;STRONG style="COLOR: rgb(255,0,0)"&gt;používať databázu SQL&lt;/STRONG&gt;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;.&lt;/SPAN&gt; 
+&lt;LI&gt;Na &lt;STRONG&gt;serveri (nie na&lt;/STRONG&gt; &lt;STRONG&gt;klientskom počítači)&lt;/STRONG&gt;&amp;nbsp;spustite program &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt; &lt;STRONG&gt;ako správca&lt;/STRONG&gt; a&amp;nbsp;v&amp;nbsp;ponuke &lt;EM&gt;OBERON,&amp;nbsp;&lt;/EM&gt;&lt;A href="e975459f-e882-49f2-adb9-79e68a07df0e"&gt;Otvorenie agendy (firmy)&lt;/A&gt; otvorte databázu účtovnej jednotky. 
+&lt;LI&gt;V&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="225638ed-22f6-4ac4-9085-6d77c64925db" style="auto-update-caption: true"&gt;Používatelia&lt;/A&gt; vytvorte&amp;nbsp;nového používateľa&amp;nbsp;typu &lt;STRONG&gt;&lt;EM&gt;Systémový&lt;/EM&gt;&lt;/STRONG&gt; (napr. s názvom &lt;EM&gt;sys_bonmonitor&lt;/EM&gt;). 
+&lt;LI&gt;V&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="9ce25bbd-35d1-4096-acd5-70007f5af5a6"&gt;Automatické úlohy&lt;/A&gt;&amp;nbsp;stlačte tlačidlo &lt;EM&gt;Nový&lt;/EM&gt;.&amp;nbsp;Otvorí sa formulár &lt;EM&gt;Automatická úloha&lt;/EM&gt;, v ktorom vyberte typ úlohy&amp;nbsp;&lt;EM&gt;&lt;STRONG&gt;WebServices API - Pokladnica OBERON 1G&lt;/STRONG&gt;&lt;/EM&gt; a zadajte názov úlohy (napr. &lt;EM&gt;Bonovací monitor&lt;/EM&gt;). 
+&lt;LI&gt;Stlačením tlačidla&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_Button_Refresh.png"&gt;&amp;nbsp;pri rozbaľovacom zozname &lt;EM&gt;Vykonávať na serveri&lt;/EM&gt;&amp;nbsp;aktualizujte zoznam dostupných serverov a vyberte príslušný server OAC, na ktorom sa má úloha vykonávať. 
+&lt;LI&gt;Vyberte používateľa systému OBERON vytvoreného v&amp;nbsp;bode č.&amp;nbsp;3, pod ktorým sa má automatická&amp;nbsp;úloha vykonávať. 
+&lt;LI&gt;Stlačte tlačidlo &lt;EM&gt;Nastaviť&lt;/EM&gt;, zobrazí sa&amp;nbsp;&lt;A href="621f9ff1-bc7a-40af-9c1e-be72be87c01e"&gt;formulár Nastavenie automatickej úlohy 'WebServices API - Pokladnica OBERON'&lt;/A&gt;, v&amp;nbsp;ktorom v&amp;nbsp;záložke&lt;EM&gt;&amp;nbsp;Komunikácia&lt;/EM&gt;: 
+&lt;UL&gt;
+&lt;LI&gt;zadajte &lt;STRONG&gt;číslo TCP/IP&amp;nbsp;portu&lt;/STRONG&gt;, pod ktorým bude daná služba dostupná (port musí byť voľný - t.&amp;nbsp;j.&amp;nbsp;v systéme &lt;EM&gt;Windows&lt;/EM&gt; ho nesmie používať iná služba, pre OAC odporúčame používať hodnoty 22&amp;nbsp;001 a nasl.), 
+&lt;LI&gt;zvoľte spôsob zabezpečenia &lt;EM&gt;&lt;STRONG&gt;OBERON autorizácia&lt;/STRONG&gt; &lt;STRONG&gt;(bez zabezpečeného pripojenia)&lt;/STRONG&gt;&lt;/EM&gt;, 
+&lt;LI&gt;začiarknite pole &lt;EM&gt;&lt;STRONG&gt;Zasielať podrobné info do 'Prehľadu činností' (na OAC klienta)&lt;/STRONG&gt;&lt;/EM&gt; - prehľad záznamov o činnosti (logovania) bude dostupný v&amp;nbsp;programe&amp;nbsp;&lt;A href="69282df4-d4d6-462a-8cf2-68000e3e6f93" style="auto-update-caption: true"&gt;OBERON Automation Center (klient)&lt;/A&gt;, oddiel &lt;EM&gt;Prehľad činností&lt;/EM&gt;, 
+&lt;LI&gt;začiarknite pole &lt;EM&gt;&lt;STRONG&gt;Pridať výnimku do Windows firewall&lt;/STRONG&gt;&lt;/EM&gt; (ak používate bránu firewall iného výrobcu, je potrebné povoliť zadaný port manuálne). &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Aby systém &lt;I&gt;Windows&lt;/I&gt;&amp;nbsp;webovú službu povolil, je nevyhnutné vykonať jej registráciu - stlačte tlačidlo &lt;EM&gt;&lt;STRONG&gt;Zaregistrovať službu&lt;/STRONG&gt;&lt;/EM&gt;. Pred prípadnou dodatočnou zmenou napr. čísla portu je potrebné najprv zrušiť registráciu danej služby, zmeniť port a následne opätovne vykonať registráciu. 
+&lt;LI&gt;V&amp;nbsp;záložke &lt;EM&gt;Nastavenia&lt;/EM&gt; &lt;A href="621f9ff1-bc7a-40af-9c1e-be72be87c01e"&gt;formulára Nastavenie automatickej úlohy 'WebServices API - Pokladnica OBERON'&lt;/A&gt;: 
+&lt;UL&gt;
+&lt;LI&gt;pri položke &lt;EM&gt;Pokladnica OBERON&lt;/EM&gt; &lt;STRONG&gt;vyberte pokladnicu, ktorú bude táto webová služba zastupovať&lt;/STRONG&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Vykonané nastavenia potvrďte stlačením tlačidla &lt;STRONG&gt;&lt;EM&gt;OK&lt;/EM&gt;&lt;/STRONG&gt;. 
+&lt;LI&gt;V&amp;nbsp;zozname úloh vo &lt;A href="9ce25bbd-35d1-4096-acd5-70007f5af5a6"&gt;formulári Automatické úlohy&lt;/A&gt;&amp;nbsp;v stĺpci &lt;EM&gt;Popis&lt;/EM&gt; získate údaje (&lt;STRONG&gt;IP adresu počítača spolu s číslom komunikačného TCP/IP&amp;nbsp;portu&lt;/STRONG&gt;). 
+&lt;LI&gt;Ak je webová služba nakonfigurovaná korektne, vo webovom prehliadači je možné vykonať jej kontrolu - po zadaní IP adresy a portu v&amp;nbsp;tvare &lt;STRONG&gt;192.168.16.20:22001&lt;/STRONG&gt; sa zobrazí informácia o danej službe. 
+&lt;LI&gt;Otvorte program&lt;STRONG&gt;&amp;nbsp;&lt;EM&gt;OBERON Automation Center (klient)&lt;/EM&gt;&lt;/STRONG&gt; (ponuka&amp;nbsp;&lt;EM&gt;OBERON&lt;/EM&gt;,&amp;nbsp;&lt;A href="69282df4-d4d6-462a-8cf2-68000e3e6f93"&gt;OBERON Automation Center (klient)&lt;/A&gt;). V&amp;nbsp;oddiele &lt;EM&gt;Automatické úlohy&lt;/EM&gt; dvojklikom na danú úlohu otvorte okno &lt;EM&gt;Detaily&lt;/EM&gt;, v&amp;nbsp;ktorom sa nachádza odkaz v tvare napr. &lt;STRONG&gt;&lt;EM&gt;http://192.168.16.20:22001&lt;/EM&gt;&lt;/STRONG&gt;&lt;A&gt;&lt;STRONG&gt;&lt;EM&gt;/display/card/&lt;/EM&gt;&lt;/STRONG&gt;&lt;/A&gt;&amp;nbsp;na zobrazenie&amp;nbsp;systému bonovacích monitorov. &lt;/LI&gt;&lt;/OL&gt;
+&lt;H2&gt;Prihlásenie do rozhrania bonovacieho monitora&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;Po otvorení systému bonovacích monitorov vo webovom prehliadači (zadaním adresy v&amp;nbsp;tvare napr.&amp;nbsp;&lt;STRONG&gt;http://192.168.16.20:22001&lt;/STRONG&gt;&lt;A&gt;&lt;STRONG&gt;/display/card/&lt;/STRONG&gt;&lt;/A&gt;, resp. kliknutím na tento odkaz v&amp;nbsp;programe&amp;nbsp;&lt;STRONG&gt;&lt;EM&gt;OBERON Automation Center (klient)&lt;/EM&gt;&lt;/STRONG&gt; (bod č. 13 predchádzajúceho postupu)) stlačte&amp;nbsp;tlačidlo &lt;EM&gt;&lt;STRONG&gt;Nastavenia komunikácie&lt;/STRONG&gt;&lt;/EM&gt;. 
+&lt;LI&gt;Otvorí sa formulár,&amp;nbsp;v&amp;nbsp;ktorom zadajte: 
+&lt;UL&gt;
+&lt;LI&gt;adresu servera v&amp;nbsp;tvare &lt;STRONG&gt;192.168.16.20:22001&lt;/STRONG&gt;, 
+&lt;LI&gt;prihlasovacie meno - názov používateľa v systéme OBERON&amp;nbsp;(napr. &lt;EM&gt;Admin&lt;/EM&gt;), 
+&lt;LI&gt;prihlasovacie heslo - heslo používateľa v systéme OBERON&amp;nbsp;(ak je nastavené). &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Stlačte tlačidlo &lt;EM&gt;Nastaviť&lt;/EM&gt;. Otvorí sa rozhranie bonovacieho monitora. &lt;/LI&gt;&lt;/OL&gt;
+&lt;H2&gt;Nastavenie bonovacieho monitora&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;V&amp;nbsp;rozhraní bonovacieho monitora v&amp;nbsp;hlavnej ponuke stlačte tlačidlo &lt;EM&gt;Nastavenia&lt;/EM&gt;. 
+&lt;LI&gt;Otvorí sa formulár, v ktorom môžete nastaviť: 
+&lt;UL&gt;
+&lt;LI&gt;v záložke &lt;EM&gt;Systém&lt;/EM&gt;: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;názov bonovacieho monitora&lt;/STRONG&gt; - pomenovanie bonovacieho monitora, 
+&lt;LI&gt;&lt;STRONG&gt;zastupovať bonovacie&amp;nbsp;tlačiarne&lt;/STRONG&gt; - nastavuje sa&amp;nbsp;číslo&amp;nbsp;bonovacej tlačiarne, ktorú bonovací monitor zastupuje (musí byť rovnaké ako číslo nastavené na &lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;skladovej karte&lt;/A&gt;&amp;nbsp;v&amp;nbsp;záložke &lt;EM&gt;Receptúra&lt;/EM&gt;); v&amp;nbsp;prípade zastupovania viacerých tlačiarní (napr. pre kuchyňu a&amp;nbsp;bar), zadajte čísla&amp;nbsp;tlačiarní oddelené čiarkou bez medzier, 
+&lt;LI&gt;&lt;STRONG&gt;režim činnosti&lt;/STRONG&gt; (&lt;EM&gt;Kartičky, Kartičky (adaptívne), Tabuľka, Fast food výdaj)&lt;/EM&gt;, 
+&lt;LI&gt;&lt;STRONG&gt;prehrávanie zvuku pri novej objednávke&lt;/STRONG&gt; - pri zobrazení novej objednávky zaznie zvukový signál (v prípade, že sa po nastavení zvuk neprehráva, je potrebné skontrolovať povolenie prehrávania zvuku vo webovom prehliadači), 
+&lt;LI&gt;&lt;STRONG&gt;prehrávanie zvuku pri novej položke objednávky&lt;/STRONG&gt;, 
+&lt;LI&gt;&lt;STRONG&gt;režim zobrazenia&lt;/STRONG&gt; - tmavý alebo svetlý, &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;v záložke &lt;EM&gt;Správanie&lt;/EM&gt;: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;dĺžku zobrazenia položky alebo&amp;nbsp;objednávky po vybavení v&amp;nbsp;sekundách&lt;/STRONG&gt;, 
+&lt;LI&gt;&lt;STRONG&gt;stavy počas času vybavenia&amp;nbsp;objednávky v minútach&lt;/STRONG&gt; (krátky, stredný, dlhý), &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;v&amp;nbsp;záložke &lt;EM&gt;Vzhľad&lt;/EM&gt;: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;veľkosť textu hlavičky (kartičky)&lt;/STRONG&gt;, 
+&lt;LI&gt;&lt;STRONG&gt;veľkosť textu položky objednávky&lt;/STRONG&gt;, 
+&lt;LI&gt;&lt;STRONG&gt;výšku riadka textu položky objednávky&lt;/STRONG&gt;,&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;v&amp;nbsp;záložke &lt;EM&gt;Kartičky&lt;/EM&gt;: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;počet kartičiek v&amp;nbsp;jednom riadku&lt;/STRONG&gt;, 
+&lt;LI&gt;&lt;STRONG&gt;šírku farebného označenia kategórie menu&lt;/STRONG&gt; - podľa nastavení farieb vo &lt;A href="07957769-848a-42b8-8d4b-678f7246396c"&gt;formulári Skupiny v pokladnici&lt;/A&gt; (pri hodnote "0" (nula) bude zobrazenie farieb vypnuté), 
+&lt;LI&gt;&lt;STRONG&gt;režim pre čašníka aj kuchára&lt;/STRONG&gt; - okrem ikony pre kuchára (na označenie dokončenia prípravy jedla/nápoja) zobrazuje aj ikonu pre&amp;nbsp;obsluhu na označenie vynesenia jedla/nápoja, 
+&lt;LI&gt;&lt;STRONG&gt;zobrazovanie súhrnu objednávok&lt;/STRONG&gt; - nastavuje sa pre režim &lt;EM&gt;Kartičky&lt;/EM&gt;, v&amp;nbsp;osobitnom paneli zobrazí zoznam položiek s&amp;nbsp;počtom ich objednávok, 
+&lt;LI&gt;&lt;STRONG&gt;zobrazovanie&amp;nbsp;používateľa v&amp;nbsp;hlavičke&lt;/STRONG&gt; -&amp;nbsp;v objednávke zobrazí meno obsluhy, ktorá objednávku odoslala, 
+&lt;LI&gt;&lt;STRONG&gt;zobrazovanie&amp;nbsp;poradového čísla dokladu&lt;/STRONG&gt;, &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;v&amp;nbsp;záložke &lt;EM&gt;Kartičky (adaptívne)&lt;/EM&gt;: 
+&lt;UL&gt;
+&lt;LI&gt;okrem&amp;nbsp;rovnakých nastavení, ako v záložke &lt;EM&gt;Kartičky&lt;/EM&gt;, obsahuje aj &lt;STRONG&gt;nastavenie počtu položiek objednávky do roztiahnutia&lt;/STRONG&gt; na zhustené zobrazenie kartičiek na monitore (na rovnakej ploche sa zobrazí väčší počet kartičiek), &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;v&amp;nbsp;záložke &lt;EM&gt;FastFood&lt;/EM&gt;: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;zobrazovanie animovaných gifov&lt;/STRONG&gt; - nastavuje sa pre režim &lt;EM&gt;Fast food výdaj&lt;/EM&gt;, umožňuje nastaviť&amp;nbsp;gif osobitne pre vybavované objednávky a objednávky čakajúce na vynesenie. &lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Stlačením tlačidla &lt;EM&gt;Uložiť&lt;/EM&gt; sa nastavenia uložia. &lt;/LI&gt;&lt;/OL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="a182dd97-0d27-43a6-9f1d-175160da3fa7" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="d9867d81-7de7-4ce2-9c45-932025935b8b">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="87262a67-2fc5-4a87-b264-386f8ceb79a1" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="fd64c37a-486b-4cdf-a370-297aaa8a8f73">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="349f9a62-dfff-4a0b-85eb-1d69c1638d6f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="9ce25bbd-35d1-4096-acd5-70007f5af5a6">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="f8ec8d85-2874-4391-bc78-d9ed0fa05be8" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="f3e85885-2cfb-4f9b-b966-a54836db41cd">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="d6e39239-f7e7-4e56-a4e1-dcfef957ee04" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="69282df4-d4d6-462a-8cf2-68000e3e6f93">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="85b96ecb-37f0-4d59-b982-0f178945037e">
+      <Keyword m="2021-10-08T12:21:43.7239937Z">Bonovací monitor - inštalácia</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="2a22b182-0eeb-4975-a518-f955fbad8e5a">
+      <Keyword m="2021-10-08T12:24:53.1078353Z">Objednávkový monitor - inštalácia</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="28a8c4c9-ba59-4ead-994e-11eef3c8e4ce">
+      <Keyword m="2021-10-08T12:21:59.2218651Z">Nastavenie bonovacieho monitora</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="53dcdd0d-f815-4040-9bc5-f925afbaaf85">
+      <Keyword m="2022-01-24T12:21:39.1843411Z">Zvukový signál - bonovací monitor</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="198a787f-acfc-4bd4-a64f-fe77e3e8f3fb">
+      <Keyword m="2022-01-24T12:21:47.2575168Z">Signál - bonovací monitor</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

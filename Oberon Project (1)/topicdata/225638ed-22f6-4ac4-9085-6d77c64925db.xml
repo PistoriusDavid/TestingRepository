@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="225638ed-22f6-4ac4-9085-6d77c64925db" Status="Complete" CreatedOn="2014-09-08T12:49:44.3085527Z" ModifiedOn="2024-09-03T12:51:09.9596603Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="22404" Name="Menu_Service_Users" BuildFlags="">
+  <Title m="2022-01-25T12:18:01.8926652Z">Používatelia</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-09-03T12:51:09.9596603Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;je venovaná&amp;nbsp;položke&amp;nbsp;&lt;EM&gt;Používatelia&lt;/EM&gt; v ponuke &lt;EM&gt;Servis&lt;/EM&gt; programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;. Položka je dostupná len pre&amp;nbsp;používateľov s&amp;nbsp;príznakom &lt;EM&gt;Administrátor&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Výberom položky sa otvorí&amp;nbsp;číselník &lt;EM&gt;Zoznam používateľov&lt;/EM&gt;, v&amp;nbsp;ktorom je možné &lt;STRONG&gt;definovať používateľov systému OBERON&lt;/STRONG&gt;. Ďalej&amp;nbsp;v&amp;nbsp;číselníku možno vybranému používateľovi &lt;STRONG&gt;nastaviť,&amp;nbsp;zmeniť alebo zrušiť heslo&lt;/STRONG&gt;&amp;nbsp;(tlačidlo &lt;EM&gt;Možnosti&lt;/EM&gt;). 
+&lt;LI&gt;Systém OBERON je možné používať na jednom počítači jednou osobou, na jednom počítači viacerými osobami, prípadne na viacerých počítačoch (tzv.&amp;nbsp;&lt;A href="9c0e1613-bfdc-48f6-9d03-58aba39dab36"&gt;sieťová inštalácia&lt;/A&gt;). Ak bude systém používať súčasne&amp;nbsp;viac osôb, je nevyhnutné pri spustení programu vybrať&amp;nbsp;používateľa, pod ktorým bude&amp;nbsp;daná&amp;nbsp;osoba pracovať. Odporúčame&amp;nbsp;ku každej osobe definovať&amp;nbsp;jedného&amp;nbsp;používateľa, pričom každý&amp;nbsp;používateľ by mal mať zadané aj heslo. 
+&lt;LI&gt;Počet definovaných používateľov nie je licenčne obmedzený, a teda nemá vplyv na cenu systému. Licenčne závislý je však počet &lt;STRONG&gt;súčasne prihlásených&amp;nbsp;používateľov&lt;/STRONG&gt;&amp;nbsp;do systému OBERON, t. j. počet používateľov, ktorý pracujú so systémom OBERON v rovnakom čase. Do počtu súčasne prihlásených používateľov sa zahŕňajú aj používatelia prihlásení do mobilných aplikácií&amp;nbsp;&lt;A href="be17efdf-4b36-4b47-ad5d-09b0f66c8f65"&gt;ASTON&lt;/A&gt; a&amp;nbsp;&lt;A href="942d48d5-b290-40f6-8ba3-45cf78f380f9"&gt;LUKUL&lt;/A&gt;.&amp;nbsp;Viac informácií získate v téme&amp;nbsp;&lt;A href="efb93a2c-e449-4770-88ba-0fe999e90ccd" style="auto-update-caption: true"&gt;Cenník - licencie OBERON&lt;/A&gt;. 
+&lt;LI&gt;Zoznam aktuálne prihlásených používateľov do programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt; je dostupný vo formulári &lt;EM&gt;Zoznam prihlásených používateľov&lt;/EM&gt; (ponuka &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="ff9dd37a-2a02-4346-a6d8-bed33c784086"&gt;Prihlásení používatelia&lt;/A&gt;). 
+&lt;LI&gt;V&amp;nbsp;systéme OBERON sa rozlišujú nasledujúce typy používateľov: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Štandardný&lt;/STRONG&gt; - bežný používateľ, ktorý predstavuje konkrétnu osobu používajúcu systém OBERON,&amp;nbsp;napr. účtovník, pokladník, čašník, recepčná atď. 
+&lt;LI&gt;&lt;STRONG&gt;Systémový&lt;/STRONG&gt; - systémový&amp;nbsp;používateľ&amp;nbsp;nepredstavuje konkrétnu osobu, ale sa definuje pre potreby automatických úloh vykonávaných na pozadí&amp;nbsp;(napr.&amp;nbsp;&lt;A href="58bb31ca-00c8-4641-ad99-7d58e24f59c5"&gt;webové služby&lt;/A&gt; a pod.), resp. aplikácií. Nie je možné sa pod ním prihlásiť do OBERON-u a naopak, pod štandardným&amp;nbsp;používateľom nie je možné spúšťať&amp;nbsp;automatické úlohy&amp;nbsp;vykonávané na pozadí. 
+&lt;LI&gt;&lt;EM&gt;&lt;STRONG&gt;Administrátor&lt;/STRONG&gt;&lt;/EM&gt; - nejde o&amp;nbsp;samostatný typ používateľa, ale o&amp;nbsp;príznak, ktorý je možné nastaviť spravidla štandardnému používateľovi. Používateľ s&amp;nbsp;týmto príznakom môže definovať používateľov a&amp;nbsp;meniť ich práva. Administrátor disponuje aj ďalšími možnosťami&amp;nbsp;nastavenia programu, ku ktorým ostatní&amp;nbsp;používatelia nemajú prístup. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Jednotlivým používateľom je možné meniť oprávnenie na prácu s OBERON-om, prípadne obmedziť prístup&amp;nbsp;k&amp;nbsp;určitým záznamom. Stlačením tlačidla &lt;EM&gt;Nastavenie práv&lt;/EM&gt; sa zobrazia&amp;nbsp;&lt;A href="834e9546-a56b-476f-9028-ef4c24a82345"&gt;práva používateľa&lt;/A&gt;. 
+&lt;LI&gt;Používateľa je možné priradiť k&amp;nbsp;&lt;A href="8df798f2-4fbf-4279-ad8c-493bdbe7f2e4"&gt;prevádzke&lt;/A&gt; (vo&amp;nbsp;&lt;A href="12e7a96f-bc40-4359-bc7a-213d74a785d4"&gt;formulári Používateľ&lt;/A&gt;, záložka &lt;EM&gt;Podrobnosti&lt;/EM&gt;). 
+&lt;LI&gt;Konkrétnemu používateľovi je možné nastaviť maximálnu výšku zľavy v percentách, ktorú môže poskytnúť (vo&amp;nbsp;&lt;A href="12e7a96f-bc40-4359-bc7a-213d74a785d4"&gt;formulári Používateľ&lt;/A&gt;, záložka &lt;EM&gt;Iné práva&lt;/EM&gt;).
+&lt;LI&gt;Ak sa používateľ, ktorý je prihlásený do systému OBERON na jednom počítači, prihlási do programu na inom počítači, program sa na prvom počítači automaticky ukončí (do 10 sekúnd). &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Definovať nového používateľa je možné pomocou&amp;nbsp;&lt;A href="a414f273-6f62-4a8f-a809-e6f956459972"&gt;sprievodcu Vytvorenie nového používateľa&lt;/A&gt;.&amp;nbsp;Definovať, resp. upravovať údaje o&amp;nbsp;už vytvorenom&amp;nbsp;&lt;A href="225638ed-22f6-4ac4-9085-6d77c64925db"&gt;používateľovi&lt;/A&gt;&amp;nbsp;je možné vo&amp;nbsp;&lt;A href="12e7a96f-bc40-4359-bc7a-213d74a785d4"&gt;formulári Používateľ&lt;/A&gt;.&amp;nbsp;Definovať používateľov môže len používateľ s príznakom &lt;EM&gt;&lt;STRONG&gt;Administrátor&lt;/STRONG&gt;&lt;/EM&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Na čo slúžia&amp;nbsp;používatelia&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;B&gt;Identifikácia osoby pri prihlásení sa do systému&lt;/B&gt; - na základe prihláseného používateľa&amp;nbsp;program pracuje s nastaveniami platnými len pre tohto používateľa, napr.&amp;nbsp;pamätá si nastavenia daných zoznamov ako šírka a usporiadanie jednotlivých stĺpcov, umiestnenie okna na monitore,&amp;nbsp;nastavenia farieb, filtrov&amp;nbsp;a pod. Viac informácií v témach&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;formulár Nastavenia programu&lt;/A&gt; a&amp;nbsp;&lt;A href="8936fde4-aac3-4672-99a2-c8bd5ccffdcd" style="auto-update-caption: true"&gt;Ovládanie knihy (evidencie)&lt;/A&gt;. 
+&lt;LI&gt;&lt;B&gt;Obmedzenie práv&amp;nbsp;používateľa&lt;/B&gt; - umožňuje obmedziť prístup štandardného používateľa k modulom, funkciám, evidenciám, skladom, ale aj napr. tlačovým výstupom programu. Viac informácií v téme&amp;nbsp;&lt;A href="834e9546-a56b-476f-9028-ef4c24a82345"&gt;Práva používateľov&lt;/A&gt;. 
+&lt;LI&gt;&lt;B&gt;Evidovanie dokladov a sledovanie činnosti&amp;nbsp;používateľa&lt;/B&gt; - systém eviduje informácie, ktorý používateľ vytvoril daný doklad, a umožňuje sledovať vybrané činnosti. Tým umožňuje spätnú analýzu práce jednotlivých používateľov. Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="bc30e126-afb5-41aa-a261-e92501038063"&gt;Sledovanie činností&lt;/A&gt;. 
+&lt;LI&gt;&lt;B&gt;Podpísanie dokumentov&lt;/B&gt; - používateľovi je možné prideliť certifikát, ktorým je možné&amp;nbsp;&lt;A href="c1e2e5a1-2cf4-47aa-a546-47d5baa1df3e"&gt;elektronicky podpísať&lt;/A&gt; tlačový výstup vo formáte PDF&amp;nbsp;(napr. faktúru). Taktiež možno k&amp;nbsp;používateľovi priradiť obrázok s pečiatkou a podpisom, ktorý sa bude tlačiť na doklade. Postup, ako pridať&amp;nbsp;podpis, resp. pečiatku&amp;nbsp;používateľa na doklady&amp;nbsp;(faktúra, dodací list, objednávka...)&amp;nbsp;je dostupný v&amp;nbsp;téme&amp;nbsp;&lt;A href="263345a9-095c-462c-9c0e-7e5eb28e7dff" style="auto-update-caption: true"&gt;Ako pridať na faktúru podpis alebo pečiatku?&lt;/A&gt; &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Dostupné možnosti&lt;/H2&gt;
+&lt;P&gt;Ďalšie možnosti práce so záznamami&amp;nbsp;sú dostupné&amp;nbsp;po stlačení tlačidla &lt;EM&gt;Možnosti&lt;/EM&gt;, prípadne v&amp;nbsp;kontextovej ponuke tabuľky záznamov.&lt;/P&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Zmeniť heslo&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Umožňuje zmeniť, ale aj nastaviť&amp;nbsp;heslo vybranému používateľovi v zozname. Heslo si môže&amp;nbsp;používateľ zmeniť (nastaviť) aj sám, a to pri&amp;nbsp;&lt;A href="0c107d0c-e14f-4aa7-a954-d84b299ac5cb"&gt;prihlásení do systému OBERON&lt;/A&gt; (tlačidlo &lt;EM&gt;Zmeniť heslo&lt;/EM&gt;).&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Vymazať heslo&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Umožňuje vymazať (odstrániť) heslo vybranému používateľovi v zozname. Funkcia sa&amp;nbsp;spravidla používa pri strate (zabudnutí) hesla používateľom -&amp;nbsp;správca systému mu heslo odstráni a&amp;nbsp;používateľ si následne v&amp;nbsp;prihlasovacom formulári zadá&amp;nbsp;svoje nové heslo.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Bližšie informácie o ovládaní evidencie, používaní filtrov, triedení záznamov a pod. sú dostupné v téme&amp;nbsp;&lt;A href="8936fde4-aac3-4672-99a2-c8bd5ccffdcd"&gt;Ovládanie knihy (evidencie)&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="34f94cd1-4244-487a-8a83-c22a5c02b46b" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="12e7a96f-bc40-4359-bc7a-213d74a785d4">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="0b620d17-76ff-4152-8826-b10eb047667b" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="a414f273-6f62-4a8f-a809-e6f956459972">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="7d98620a-212b-482b-a408-10a4d0b44e20" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="ff9dd37a-2a02-4346-a6d8-bed33c784086">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="9181cdc8-bac3-44dc-adab-d15c2574c73c" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="834e9546-a56b-476f-9028-ef4c24a82345">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="964dd806-f9ae-41aa-8ee1-cc8accc29215" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="bc30e126-afb5-41aa-a261-e92501038063">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="723d5754-80ed-48d7-b732-16aaa5860cf0" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="8dd60281-9cc7-41fe-9dd2-2ad5c7ffe047">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="85018b71-885a-4b0a-9399-a836231865ff" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="ccadca4e-2fbd-4b28-8d92-f826f3019bd0">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="5d1ab9a5-4696-423a-9b4b-b72739134d12">
+      <Keyword m="2022-01-25T11:01:39.4183674Z">Heslo používateľa - nastavenie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="bd353bf4-59a6-4ba5-995b-c2bf794f2a87">
+      <Keyword m="2014-11-18T10:46:50.78125Z">Meno uvádzané na dokladoch</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="cb4f33f9-c3a9-4072-964d-cfe4765de88a">
+      <Keyword m="2023-02-14T10:26:16.6002247Z">Užívatelia (správne Používatelia)</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="42c5e1bb-5fc5-4cd2-a12b-7e25d7af88f3">
+      <Keyword m="2022-01-25T11:03:12.2867798Z">Vymazanie hesla používateľa</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="16761cdc-4e34-4f1c-9765-0260ac550f3b">
+      <Keyword m="2022-01-25T11:03:15.3993452Z">Zmena hesla používateľa</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="0801f752-cd15-4710-af89-602602ea045d">
+      <Keyword m="2022-01-25T11:03:04.9929995Z">Nastavenie hesla používateľa</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="5d93f359-f508-4aae-95ab-e0934b0187c1">
+      <Keyword m="2022-01-25T11:04:51.0198403Z">Odstránenie hesla používateľa</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="be841c2c-b145-4994-b7d7-40018f868e29">
+      <Keyword m="2022-01-25T12:16:28.832156Z">Typy používateľov</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="c5912331-c24d-443f-912a-bf926656df05">
+      <Keyword m="2023-02-14T10:26:05.547198Z">Užívateľ (správne Používateľ)</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

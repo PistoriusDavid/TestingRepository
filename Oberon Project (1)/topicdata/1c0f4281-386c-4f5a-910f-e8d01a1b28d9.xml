@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="1c0f4281-386c-4f5a-910f-e8d01a1b28d9" Status="Complete" CreatedOn="2016-11-28T10:19:44.0613242Z" ModifiedOn="2023-05-26T11:50:41.6225995Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="51200" Name="Form_Stock_GeneratorVariants" BuildFlags="">
+  <Title m="2017-08-25T07:42:43.7656238Z">Generátor variantov</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-05-26T11:50:41.6225995Z">&lt;P&gt;V&amp;nbsp;tejto téme &lt;EM&gt;Pomocníka&lt;/EM&gt; sú uvedené &lt;STRONG&gt;informácie o generátore variantov - nástroji na&amp;nbsp;automatickú tvorbu (hromadné generovanie)&amp;nbsp;&lt;/STRONG&gt;&lt;A href="b0e0ad9c-d19d-4670-8485-ec384dbae1bd"&gt;variantov skladových kariet&lt;/A&gt;. Generátor variantov je dostupný&amp;nbsp;z&amp;nbsp;&lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;formulára Skladová karta&lt;/A&gt;, záložka &lt;EM&gt;Varianty,&amp;nbsp;&lt;/EM&gt;kontextová ponuka tabuľky záznamov&amp;nbsp;(pravé tlačidlo myši).&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Generátor variantov&amp;nbsp;predstavuje &lt;STRONG&gt;nástroj, ktorý umožňuje pre&amp;nbsp;konkrétnu skladovú kartu automaticky vytvoriť&amp;nbsp;&lt;/STRONG&gt;&lt;A href="b0e0ad9c-d19d-4670-8485-ec384dbae1bd"&gt;varianty&lt;/A&gt;.&amp;nbsp;Používa sa spravidla &lt;STRONG&gt;pri vyššom počte atribútov&lt;/STRONG&gt; (napr. pri&amp;nbsp;topánkach rôznej farby a veľkosti), keď jednotlivých variantov môže byť aj pomerne&amp;nbsp;vysoký počet. 
+&lt;LI&gt;Varianty sa môžu generovať len na základe vybraných atribútov (napr. výber farieb), resp. kombinácií viacerých atribútov (napr. farby a veľkosti). Atribúty je možné vyberať jednotlivo, t. j. napr. len niektoré farby alebo len niektoré veľkosti. 
+&lt;LI&gt;Počet vygenerovaných je možné obmedziť (nastavenie &lt;EM&gt;Maximálny počet vygenerovaných variantov&lt;/EM&gt;). Ak sa dané varianty na skladovej karte už nachádzajú,&amp;nbsp;z&amp;nbsp;generovania&amp;nbsp;sa automaticky vynechajú (t.&amp;nbsp;j.&amp;nbsp;nevygenerujú sa duplicitne). &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;&amp;nbsp;Obrázok č. 1: Generátor variantov pre skladovú kartu&lt;/H5&gt;
+&lt;P&gt;&lt;IMG style="BORDER-TOP: black 1px solid; BORDER-RIGHT: grey 1px solid; BORDER-BOTTOM: grey 1px solid; BORDER-LEFT: grey 1px solid" border=0 src="images/Forms/Stock/Form_Stock_Variants_Generator.png"&gt;&amp;nbsp;&lt;/P&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Viac informácií&amp;nbsp;o&amp;nbsp;používaní&amp;nbsp;variantov &lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;skladových kariet&lt;/A&gt; v module&amp;nbsp;&lt;A href="78d20602-4b59-4b31-9f0a-a04a1d376ec5"&gt;Skladová evidencia&lt;/A&gt;&amp;nbsp;systému OBERON získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="b0e0ad9c-d19d-4670-8485-ec384dbae1bd" style="auto-update-caption: true"&gt;Práca s variantmi skladovej karty&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="73f4c942-a679-4f38-a590-2c5f4ab33d8e" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="c233ada3-0fed-4911-97f3-0680973ebac1">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="00a7c959-672d-48a1-a17f-a519e9da8e4f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="f93130c1-bcfc-4752-af35-084daf4a2fbf">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="703b7d7f-5dde-43ea-bd9f-f7a194fb7f89" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="b0e0ad9c-d19d-4670-8485-ec384dbae1bd">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="2fc8dafb-523b-4788-a386-b4f4ab0128d2">
+      <Keyword m="2022-01-21T12:40:06.2158588Z">Varianty skladovej karty - generátor</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="e50e1d5b-475e-486b-8629-895aaea10412">
+      <Keyword m="2022-01-21T12:40:20.4870291Z">Varianty skladovej karty - automatické generovanie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="89201819-c9db-4101-9ad7-867bc1134cc3">
+      <Keyword m="2022-01-21T12:40:32.3659849Z">Varianty skladovej karty - hromadné generovanie</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

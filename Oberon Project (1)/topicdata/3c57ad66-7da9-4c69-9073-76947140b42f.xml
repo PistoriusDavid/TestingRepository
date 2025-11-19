@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="3c57ad66-7da9-4c69-9073-76947140b42f" Status="Complete" CreatedOn="2014-09-01T14:29:23.119161Z" ModifiedOn="2024-08-05T13:25:36.5819223Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="InstallationDatabaseMSAccess" BuildFlags="">
+  <Title m="2014-09-01T14:31:26.5722221Z">Sieťová inštalácia (databáza MS Access)</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-08-05T13:25:36.5819223Z">&lt;P&gt;Táto téma&amp;nbsp;&lt;EM&gt;Pomocníka&lt;/EM&gt; je venovaná&amp;nbsp;&lt;A href="9c0e1613-bfdc-48f6-9d03-58aba39dab36"&gt;sieťovej inštalácii OBERON-u&lt;/A&gt;&lt;STRONG&gt; pri použití súborovej databázy&lt;/STRONG&gt;&amp;nbsp;&lt;STRONG&gt;&lt;EM&gt;Microsoft Access&lt;/EM&gt;&lt;/STRONG&gt; (nie SQL servera).&lt;/P&gt;&lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Pre sieťovú prevádzku systému OBERON sa už v súčasnosti &lt;STRONG style="COLOR: rgb(255,0,0)"&gt;neodporúča&lt;/STRONG&gt;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;&amp;nbsp;používať databázu typu&lt;/SPAN&gt; &lt;EM style="COLOR: rgb(255,0,0)"&gt;Microsoft Access&lt;/EM&gt;. Dôvodom je prekonanie tejto technológie&amp;nbsp;&lt;A href="0b81f4ea-5e68-48c1-8b89-933d5a23d962"&gt;systémami s SQL serverom&lt;/A&gt;, pritom za rovnakú cenu celého systému.&amp;nbsp;Používaním systémov s&amp;nbsp;SQL serverom sa&amp;nbsp;zároveň&amp;nbsp;zvyšuje&amp;nbsp;bezpečnosť a&amp;nbsp;rýchlosť spracovania údajov.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Princíp sieťovej inštalácie pri&amp;nbsp;&lt;A href="0b81f4ea-5e68-48c1-8b89-933d5a23d962"&gt;súborovej databáze Microsoft Access&lt;/A&gt;&amp;nbsp;spočíva &lt;STRONG&gt;v&amp;nbsp;umiestnení dátovej základne (databázy)&lt;/STRONG&gt;&amp;nbsp;&lt;STRONG&gt;na zdieľaný pevný disk&lt;/STRONG&gt; (na ktorý majú prístup jednotliví&amp;nbsp;používatelia) &lt;STRONG&gt;a v inštalácii OBERON-u na každú pracovnú stanicu&lt;/STRONG&gt; (počítači v sieti). V praxi ide o&amp;nbsp;malú sieť, v&amp;nbsp;ktorej sú všetky počítače rovnocenné a ani jeden z&amp;nbsp;počítačov nie je vyhradený na funkciu servera. 
+&lt;LI&gt;Pri výbere počítača,&amp;nbsp;v ktorom bude umiestnená dátová základňa (databáza), je potrebné zohľadniť skutočnosť, že &lt;STRONG&gt;tento počítač musí byť v&amp;nbsp;prevádzke vždy, keď aspoň jeden z&amp;nbsp;ďalších&amp;nbsp;používateľov v&amp;nbsp;tejto sieti chce pracovať&lt;/STRONG&gt;. Mal by to byť výkonný a&amp;nbsp;stabilný počítač, pričom odporúčame použitie záložného zdroja napájania. 
+&lt;LI&gt;Pri tomto type&amp;nbsp;databázového systému&amp;nbsp;je potrebné &lt;STRONG&gt;ethernetové sieťové prepojenie (neodporúča sa WiFi pripojenie) s minimálnou prenosovou rýchlosťou 100 Mbit/s&lt;/STRONG&gt;. V opačnom prípade by používateľov pri práci mohla zdržiavať nedostatočná prenosová kapacita siete. Postup zapojenia sieťového kábla 100 Mb/s pri&amp;nbsp;&lt;A href="9c0e1613-bfdc-48f6-9d03-58aba39dab36"&gt;sieťovej inštalácii&lt;/A&gt; systému OBERON je dostupný v téme&amp;nbsp;&lt;A href="71cf5cbf-4eb0-4b7e-a822-f73f083611ca" style="auto-update-caption: true"&gt;Zapojenie sieťového kábla 100 Mb&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Postup inštalácie&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;Nainštalujte&amp;nbsp;OBERON do počítača, ktorý bude plniť funkciu servera (aj keď to nie je vyhradený server, ďalej v texte len server). Po inštalácii otvorte program &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;&amp;nbsp;a&amp;nbsp;&lt;A href="9a485893-6dd2-44e8-9740-a4cd7083a932"&gt;vytvorte novú firmu (databázu)&lt;/A&gt;. 
+&lt;LI&gt;V novej firme nadefinujte&amp;nbsp;&lt;A href="225638ed-22f6-4ac4-9085-6d77c64925db"&gt;používateľov&lt;/A&gt;, ktorí sa budú pripájať k&amp;nbsp;tomuto počítaču z pracovných staníc. Môžete tak urobiť v ponuke &lt;EM&gt;Servis,&amp;nbsp;&lt;/EM&gt;&lt;A href="225638ed-22f6-4ac4-9085-6d77c64925db" style="auto-update-caption: true"&gt;Používatelia&lt;/A&gt;&lt;EM&gt;.&lt;/EM&gt; 
+&lt;LI&gt;Je potrebné umožniť zdieľanie disku&amp;nbsp;v tomto počítači (počítači servera). Môžete povoliť&amp;nbsp;zdieľanie celého disku, prípadne &lt;STRONG&gt;len adresára OBERON (odporúčame)&lt;/STRONG&gt;.&lt;BR&gt;Zdieľanie nastavíte:&lt;BR&gt;3.1 Na pracovnej ploche zvoľte položku &lt;EM&gt;&lt;STRONG&gt;Tento počítač&lt;/STRONG&gt;&lt;/EM&gt;, vyberte disk, na ktorý ste inštalovali OBERON.&lt;BR&gt;3.2 V zozname adresárov kliknite pravým tlačidlom myši na adresár OBERON, zvoľte položku &lt;EM&gt;&lt;STRONG&gt;Zdieľanie&lt;/STRONG&gt;&lt;/EM&gt;. V okne &lt;EM&gt;Zdieľanie&lt;/EM&gt; nastavte pomenovanie zdieľania, napr. OBERON. Nezabudnite zvoliť typ prístupu na &lt;STRONG&gt;&lt;EM&gt;Plný&lt;/EM&gt;&lt;/STRONG&gt;. Ak sa položka &lt;EM&gt;Zdieľanie&lt;/EM&gt; v&amp;nbsp;ponuke nenachádza, je potrebné v&amp;nbsp;nastaveniach siete zapnúť voľbu, ktorá umožní na tomto počítači zdieľať súbory ostatným&amp;nbsp;používateľom. 
+&lt;LI&gt;Na pracovnej stanici je potrebné &lt;STRONG&gt;namapovať disk na serveri&lt;/STRONG&gt;. Na pracovnej ploche zvoľte položku &lt;EM&gt;Počítače v sieti&lt;/EM&gt;, vyberte počítač - server. Na serveri budú zobrazené všetky zdieľania, pravým tlačidlom myši vyberte OBERON, v zobrazenej ponuke zvoľte položku &lt;EM&gt;Pripojiť sieťovú jednotku&lt;/EM&gt;. Zvoľte písmeno mapovanej diskovej jednotky, napr. U. 
+&lt;LI&gt;Nainštalujte OBERON &lt;STRONG&gt;na pracovnú stanicu&lt;/STRONG&gt;. Po nainštalovaní otvorte program &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;.&amp;nbsp;Zvoľte položku ponuky OBERON,&amp;nbsp;&lt;A href="e975459f-e882-49f2-adb9-79e68a07df0e"&gt;Otvorenie agendy (firmy)&lt;/A&gt;. Po zobrazení formulára stlačte tlačidlo &lt;EM&gt;&lt;STRONG&gt;Nalistovať&lt;/STRONG&gt;&lt;/EM&gt;. Nalistujte namapovanú diskovú jednotku počítača,&amp;nbsp;v ktorom je umiestnená databáza, otvorte adresár DATA_U a vyberte firmu umiestnenú v serveri. 
+&lt;LI&gt;Po otvorení firmy po sieti je sieťová inštalácia jednej pracovnej stanice ukončená. Ďalšiu pracovnú stanicu nainštalujete podľa tohto postupu od bodu 5. &lt;/LI&gt;&lt;/OL&gt;&lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Po úspešnej sieťovej inštalácii je potrebné, aby technik, ktorý inštaláciu vykonal,&amp;nbsp;vyplnil&amp;nbsp;&lt;A href="b1149fc4-6187-4f45-ac50-c576f3e450db"&gt;Protokol o implementácii systému OBERON (technické údaje)&lt;/A&gt;&amp;nbsp;a&amp;nbsp;odovzdal&amp;nbsp;ho zodpovednej osobe.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="b1d18aa3-c0b7-44f7-a276-130f774e6318" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="9c0e1613-bfdc-48f6-9d03-58aba39dab36">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="80114aca-9ab1-4a81-816c-9cb31c564cb5" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="9a485893-6dd2-44e8-9740-a4cd7083a932">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="ae453aea-f0e0-4360-aa8a-ec98b8a1411d" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="0b81f4ea-5e68-48c1-8b89-933d5a23d962">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="418f317a-4382-40da-913b-b00760a48b57" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="71cf5cbf-4eb0-4b7e-a822-f73f083611ca">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="15d6ac83-4196-45f6-887c-187bd8e3eb8d" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="b1149fc4-6187-4f45-ac50-c576f3e450db">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="bb5c4753-8320-41aa-ad0e-94ddb6f873fc">
+      <Keyword m="2022-12-14T13:27:35.1905385Z">Microsoft Access - sieťová inštalácia</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="1776a2b9-9225-44f5-97af-4c5016528984">
+      <Keyword m="2022-12-14T13:29:16.4996635Z">Súborová databáza - sieťová inštalácia</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

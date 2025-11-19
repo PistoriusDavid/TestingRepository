@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="be6740fb-9e90-4385-9537-27582dc4f26b" Status="Complete" CreatedOn="2014-09-10T08:23:19.3067362Z" ModifiedOn="2024-11-11T12:17:15.5670932Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Hotel_Started_CashBook" BuildFlags="">
+  <Title m="2014-09-10T08:23:47.3983429Z">Pridanie zápisu do pokladničnej knihy</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-11-11T12:17:15.5670932Z">&lt;P&gt;V tejto téme&amp;nbsp;&lt;EM&gt;Pomocníka&lt;/EM&gt; je popísaný&amp;nbsp;&lt;STRONG&gt;postup, ako pridať zápis&lt;/STRONG&gt; do&amp;nbsp;&lt;A href="250ef843-0b84-4f66-bc92-230067d309d8"&gt;Pokladničnej knihy&lt;/A&gt;&amp;nbsp;v&amp;nbsp;module&amp;nbsp;&lt;A href="c3bd41f0-029e-4c74-b342-b0ffff647b6e"&gt;Hotelová recepcia&lt;/A&gt; systému OBERON.&amp;nbsp;&lt;/P&gt;
+&lt;H2&gt;Postup pridania zápisu do&amp;nbsp;pokladničnej knihy&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;V ponuke&amp;nbsp;&lt;EM&gt;Hotel&lt;/EM&gt; zvoľte položku&amp;nbsp;&lt;A href="250ef843-0b84-4f66-bc92-230067d309d8"&gt;Pokladničná kniha&lt;/A&gt; a&amp;nbsp;stlačte tlačidlo &lt;EM&gt;Nový&lt;/EM&gt;. Otvorí sa formulár &lt;EM&gt;Zápis v&amp;nbsp;pokladničnej knihe&lt;/EM&gt;. &amp;nbsp;&amp;nbsp;&amp;nbsp; 
+&lt;LI&gt;Pomocou pokladničnej knihy je možné evidovať príjmy a výdaje v&amp;nbsp;hotovosti. Zvoľte typ zápisu: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Príjem&lt;/STRONG&gt; - pri príjme môžu nastať tieto prípady: 
+&lt;UL&gt;
+&lt;LI&gt;úhrada ubytovania z&amp;nbsp;&lt;A href="0b9519ff-9438-422b-a3e8-358b628293e9"&gt;knihy ubytovaných&lt;/A&gt;&amp;nbsp;-&amp;nbsp;pole &lt;I&gt;Prijaté od&lt;/I&gt; nevypĺňajte, ale pomocou tlačidla výberu &lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_ListButton.png"&gt;&amp;nbsp;vyberte v&amp;nbsp;knihe ubytovaných príslušné ubytovanie, 
+&lt;LI&gt;úhrada otvoreného&amp;nbsp;&lt;A href="ffa5a889-7bfe-4165-ba83-15263eb77358"&gt;hotelového účtu&lt;/A&gt;&amp;nbsp;-&amp;nbsp;pole &lt;I&gt;Prijaté od&lt;/I&gt; nevypĺňajte, ale pomocou tlačidla výberu &lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_ListButton.png"&gt;&amp;nbsp;vyberte otvorený hotelový účet, 
+&lt;LI&gt;ľubovoľný&amp;nbsp;iný bežný&amp;nbsp;príjem - pole &lt;EM&gt;Prijaté od&lt;/EM&gt; vyplňte manuálne (v&amp;nbsp;tomto prípade nebude vytvorená väzba na knihu ubytovaných alebo hotelové účty). &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Výdaj&lt;/STRONG&gt; - eviduje sa výdaj z pokladnice napr. na nákup v hotovosti. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Skontrolujte, resp. zadajte príslušné sumy a&amp;nbsp;zápis údajov potvrďte stlačením tlačidla &lt;I&gt;&lt;STRONG&gt;OK&lt;/STRONG&gt;&lt;/I&gt;. Do pokladničnej knihy sa uloží nový zápis. &lt;/LI&gt;&lt;/OL&gt;
+&lt;H2&gt;Popis formulára &lt;EM&gt;Zápis v pokladničnej knihe&lt;/EM&gt;&lt;/H2&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Typ zápisu&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Vyberte typ zápisu (príjem do pokladne alebo výdaj z pokladne).&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Číslo dokladu&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Program automaticky vytvorí číselný rad podľa zvoleného typu zápisu. Bližšie informácie o číslovaní dokladov získate v téme&amp;nbsp;&lt;A href="9aa7dbb1-f4a7-405e-8465-78b2133e0fd3"&gt;Číslovanie&amp;nbsp;dokladov (záznamov)&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Prijaté od&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Zadáva sa, od koho sa prijímajú alebo komu sa vydávajú peňažné prostriedky. Stlačením tlačidla &lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_ListButton.png"&gt;&amp;nbsp;sa otvorí formulár &lt;EM&gt;Výber ubytovaných&lt;/EM&gt;, v ktorom je možné vybrať záznam z &lt;EM&gt;Knihy ubytovaných&lt;/EM&gt; alebo záznam z knihy &lt;EM&gt;Hotelové účty&lt;/EM&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Obchodný partner&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Zadávajú sa údaje&amp;nbsp;o&amp;nbsp;&lt;A href="b7a48886-b367-4056-808a-59ba5f871f32"&gt;obchodnom partnerovi&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Sumy EUR&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Polia pre zápis výšky DPH, základu DPH a celkovej sumy. Medzi poľami sú väzby, ktoré uľahčujú a urýchľujú zadanie jednotlivých súm. Stlačením tlačidla&amp;nbsp;&lt;IMG border=0 alt="" src="images/Forms/AccDouble/Form_Acc_Double_DPHChange.gif"&gt;&amp;nbsp;je možné zmeniť nastavenie sadzieb DPH.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Len pre vnútornú evidenciu&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Umožňuje&amp;nbsp;jednotlivým záznamom v knihe ubytovaných nastaviť príznak &lt;EM&gt;Len pre vnútornú evidenciu&lt;/EM&gt;.&amp;nbsp;Vnútorná evidencia znamená evidenciu ubytovaných hostí, ktorí za ubytovanie neplatia (napr. majiteľ, rodinní príslušníci, obchodný partner). Takéto záznamy nebudú zahrnuté&amp;nbsp;do výkazov a&amp;nbsp;štatistík. Nastavenie je dostupné len v prípade, že je používateľovi v ponuke&amp;nbsp;&lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="083711c0-de0e-4799-bac0-e58f055fd03a"&gt;oddiel Používateľ, Hotelová recepcia&lt;/A&gt;&amp;nbsp;povolené pracovať so záznamami s&amp;nbsp;príznakom&amp;nbsp; &lt;EM&gt;Len pre vnútornú evidenciu&lt;/EM&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="7668ebd3-f39e-447c-8546-0e148988d645" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="250ef843-0b84-4f66-bc92-230067d309d8">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="c8dfa18b-0287-4e50-bf25-0115ef2be4a6" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="2058071a-7c05-453f-976f-5b4cb142498d">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="896afcb4-44fa-45b3-8b47-d8fa1e9b9994">
+      <Keyword m="2022-05-10T06:49:54.4287755Z">Pokladničná kniha v Hotelovej recepcii - pridanie zápisu</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

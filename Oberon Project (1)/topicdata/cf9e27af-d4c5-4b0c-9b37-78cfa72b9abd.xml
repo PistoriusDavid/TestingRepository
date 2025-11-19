@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="cf9e27af-d4c5-4b0c-9b37-78cfa72b9abd" Status="Complete" CreatedOn="2019-09-09T08:31:02.6233519Z" ModifiedOn="2025-08-25T11:07:27.244057Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Acc_Advanced_eKasaReceipts" BuildFlags="">
+  <Title m="2022-02-21T12:35:34.5733063Z">Automatické účtovanie pokladničných dokladov</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2025-02-04T11:33:03.7800922Z">&lt;P&gt;V&amp;nbsp;tejto téme &lt;EM&gt;Pomocníka&lt;/EM&gt; sú uvedené informácie o&amp;nbsp;automatickom účtovaní&amp;nbsp;pokladničných dokladov -&amp;nbsp;funkcii, ktorá&amp;nbsp;umožňuje &lt;STRONG&gt;automaticky zaúčtovať pokladničné doklady (bločky)&amp;nbsp;&lt;/STRONG&gt;do&amp;nbsp;&lt;A href="d8c9bfc8-92d1-4471-8909-e5f8ce602d6c"&gt;účtovného&lt;/A&gt;, resp.&amp;nbsp;&lt;A href="5e82cca9-b8af-4a80-ba30-7ab91914a595"&gt;peňažného denníka&lt;/A&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;V&amp;nbsp;&lt;A href="5e82cca9-b8af-4a80-ba30-7ab91914a595"&gt;peňažnom&lt;/A&gt;/&lt;A href="d8c9bfc8-92d1-4471-8909-e5f8ce602d6c"&gt;účtovnom denníku&lt;/A&gt; v&amp;nbsp;module &lt;EM&gt;Účtovníctvo&lt;/EM&gt;&amp;nbsp;je pre používateľov systému OBERON k dispozícii&amp;nbsp;funkcia automatického účtovania&amp;nbsp;pokladničných dokladov (bločkov), a&amp;nbsp;to&amp;nbsp;pomocou&amp;nbsp;&lt;A href="80a78093-fc45-4db9-b74b-e1f9829f7b3c"&gt;snímača čiarových kódov&lt;/A&gt; (s&amp;nbsp;podporou&amp;nbsp;QR kódov), prípadne mobilnej aplikácie&amp;nbsp;&lt;A href="518026eb-be63-494d-b3e3-837f9509c543"&gt;QeeR skener&lt;/A&gt;&amp;nbsp;pre &lt;EM&gt;Android&lt;/EM&gt; a &lt;EM&gt;iOS&lt;/EM&gt;. 
+&lt;LI&gt;Každý vystavený pokladničný doklad obsahuje čiarový QR kód. Po jeho nasnímaní OBERON automaticky vyhľadá&amp;nbsp;v&amp;nbsp;systéme eKasa&amp;nbsp;daný doklad (podobne ako aplikácia &lt;EM&gt;Over doklad&lt;/EM&gt;), údaje z neho stiahne a zaeviduje do peňažného/účtovného denníka. Vo formulári účtovania sa automaticky nastaví: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;dátum vyhotovenia dokladu&lt;/STRONG&gt;, 
+&lt;LI&gt;&lt;STRONG&gt;obchodný partner&lt;/STRONG&gt;, 
+&lt;LI&gt;&lt;STRONG&gt;suma dokladu aj s rozpisom DPH&lt;/STRONG&gt;, 
+&lt;LI&gt;&lt;STRONG&gt;do poľa &lt;EM&gt;Doplňujúci text&lt;/EM&gt;&amp;nbsp;sa zapíše relevantná položka&lt;/STRONG&gt;,
+&lt;LI&gt;&lt;STRONG&gt;do poľa &lt;EM&gt;eKasa UID&lt;/EM&gt; unikátny identifikátor dokladu (UID) z pokladničného dokladu&lt;/STRONG&gt; - viac informácií získate v témach&amp;nbsp;&lt;A href="bc2ddb1a-1ece-4899-841a-e180956c3702" style="auto-update-caption: true"&gt;Formulár Zápis v účtovnom denníku&lt;/A&gt; a&amp;nbsp;&lt;A href="b844cf33-8762-4c77-bfde-4a5b5b22350f" style="auto-update-caption: true"&gt;Formulár Zápis v peňažnom denníku&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Na&amp;nbsp;snímanie QR kódu je možné použiť štandardný ručný&amp;nbsp;&lt;A href="80a78093-fc45-4db9-b74b-e1f9829f7b3c"&gt;snímač čiarových kódov&lt;/A&gt; s podporou QR kódov alebo &lt;STRONG&gt;bezplatnú&lt;/STRONG&gt; mobilnú aplikáciu, resp. softvérový snímač QR kódov&amp;nbsp;&lt;A href="518026eb-be63-494d-b3e3-837f9509c543"&gt;QeeR skener&lt;/A&gt; (pre &lt;EM&gt;Android&lt;/EM&gt; a&amp;nbsp;&lt;EM&gt;iOS&lt;/EM&gt;). Výhodou mobilnej aplikácie je, že umožňuje nasnímať viac dokladov naraz a tie je&amp;nbsp;potom možné postupne účtovať. Inštalácia a nastavenie aplikácie sú bližšie popísané v&amp;nbsp;téme&amp;nbsp;&lt;A href="84f513e6-b158-4719-9008-729f2ba0dc66" style="auto-update-caption: true"&gt;QeeR skener - inštalácia&lt;/A&gt;. 
+&lt;LI&gt;V prípade účtovania pre viaceré firmy je potrebné zariadenie (snímač čiarových kódov s podporou QR kódov&amp;nbsp;alebo QeeR skener) &lt;STRONG&gt;pridať do každej firmy zvlášť&lt;/STRONG&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Postup zaúčtovania pokladničných dokladov do peňažného/účtovného denníka&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;Pred začatím účtovania &lt;STRONG&gt;zoraďte pokladničné doklady (bločky) podľa typu&lt;/STRONG&gt;, napr. nákup PHL, nákup materiálu, opravy a udržiavanie, cestovné náklady atď. 
+&lt;LI&gt;V&amp;nbsp;programe &lt;EM&gt;OBERON&amp;nbsp;- Agenda firmy&lt;/EM&gt; zvoľte ponuku &lt;EM&gt;Účtovníctvo&amp;nbsp;&lt;/EM&gt;a otvorte&amp;nbsp;&lt;A href="5e82cca9-b8af-4a80-ba30-7ab91914a595"&gt;peňažný&lt;/A&gt;, resp.&amp;nbsp;&lt;A href="d8c9bfc8-92d1-4471-8909-e5f8ce602d6c"&gt;účtovný denník&lt;/A&gt;. 
+&lt;LI&gt;V mobilnom zariadení&amp;nbsp;otvorte aplikáciu&amp;nbsp;&lt;A href="518026eb-be63-494d-b3e3-837f9509c543"&gt;QeeR skener&lt;/A&gt;. V hlavnej ponuke vyberte možnosť &lt;EM&gt;&lt;STRONG&gt;Skener&lt;/STRONG&gt;&lt;/EM&gt;. 
+&lt;LI&gt;Stlačte tlačidlo &lt;EM&gt;Skenovať&lt;/EM&gt;. Zobrazí sa rámček, do ktorého zamerajte QR kód pokladničného dokladu. Postupne nasnímajte ďalšie &lt;STRONG&gt;doklady rovnakého typu&lt;/STRONG&gt;, napr. nákup PHL. 
+&lt;LI&gt;Po nasnímaní dokladov v mobilnej aplikácii &lt;STRONG&gt;vyberte doklad&lt;/STRONG&gt;, ktorý chcete poslať do OBERON-u, a stlačte tlačidlo &lt;EM&gt;&lt;STRONG&gt;Odoslať&lt;/STRONG&gt;&lt;/EM&gt;. V prípade, že nechcete doklady odosielať manuálne, v ponuke aplikácie &lt;EM&gt;Nastavenia&lt;/EM&gt;&amp;nbsp;začiarknite možnosť &lt;EM&gt;Bloček odoslať ihneď po nasnímaní&lt;/EM&gt;. 
+&lt;LI&gt;Aplikácia nasnímaný doklad odošle do peňažného, resp. účtovného denníka, v&amp;nbsp;ktorom sa automaticky otvorí&amp;nbsp;&lt;A href="b844cf33-8762-4c77-bfde-4a5b5b22350f"&gt;formulár Zápis v peňažnom denníku&lt;/A&gt;, resp.&amp;nbsp;&lt;A href="bc2ddb1a-1ece-4899-841a-e180956c3702"&gt;formulár Zápis&amp;nbsp;v&amp;nbsp;účtovnom denníku&lt;/A&gt;, do ktorého sa automaticky zapíšu odoslané údaje.&amp;nbsp;Vo formulári &lt;STRONG&gt;nastavte predkontáciu podľa typu pokladničných dokladov&lt;/STRONG&gt;, ktoré práve účtujete (napr. nákup PHL). Predkontáciu použitú pri účtovaní prvého dokladu program automaticky doplní aj pri účtovaní nasledujúceho dokladu. 
+&lt;LI&gt;Alternatívne môžete použiť ručný&amp;nbsp;&lt;A href="80a78093-fc45-4db9-b74b-e1f9829f7b3c"&gt;snímač čiarových kódov&lt;/A&gt; s podporou QR kódov. Pri snímaní čiarového kódu je potrebné zamerať snímač zariadenia na kód a stlačiť tlačidlo. Vzápätí sa údaje z&amp;nbsp;kódu načítajú do OBERON-u. &lt;/LI&gt;&lt;/OL&gt;&lt;innovasys:widget layout="block" type="Tip Box"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Výhodou mobilnej aplikácie &lt;EM&gt;QeeR skener&lt;/EM&gt;&amp;nbsp;oproti ručnému snímaču je, že umožňuje nasnímať viac dokladov naraz a tie je potom možné postupne účtovať.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H5&gt;&amp;nbsp;Obrázok č. 1: Snímanie dokladu a&amp;nbsp;zoznam QR kódov&lt;/H5&gt;
+&lt;P&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;IMG border=0 alt="" src="images/Devices/Device_QeeRskener_Frame.png"&gt;&amp;nbsp;&amp;nbsp; &lt;IMG border=0 alt="" src="images/Devices/Device_QeeRskener_QRCodesList.png"&gt;&amp;nbsp;&lt;/P&gt;&lt;innovasys:widget layout="block" type="Note Box"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;V prípade, že&amp;nbsp;off-line&amp;nbsp;pokladničné doklady&amp;nbsp;neboli&amp;nbsp;následne zaevidované v&amp;nbsp;systéme eKasa, nie je možné ich automatické zaúčtovanie v OBERON-e.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="116a37ca-9179-47fc-821f-630617d37228" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="d8c9bfc8-92d1-4471-8909-e5f8ce602d6c">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="1fc32791-6890-4c4d-825a-a4bba2f9dc7b" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="5e82cca9-b8af-4a80-ba30-7ab91914a595">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="4f41b391-68a2-436b-9151-1d1ee1cb08bf" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="518026eb-be63-494d-b3e3-837f9509c543">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="3335e621-56d3-4042-98e7-f4ed4eabd355" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="84f513e6-b158-4719-9008-729f2ba0dc66">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="0ef35043-9683-46e2-a229-c9a683bc06a5" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="80a78093-fc45-4db9-b74b-e1f9829f7b3c">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="66404603-a52c-493c-94a1-f8f61c5cfa07" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="f6de9f99-2b83-4075-99cf-98684bee04d8">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="78f21c25-7deb-4c1d-8fc3-fd34f241776c">
+      <Keyword m="2021-08-12T11:51:26.2331432Z">QR kód na pokladničnom doklade - automatické účtovanie </Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="5d29d83c-d0d4-4215-8df9-3603cdda9ae1">
+      <Keyword m="2021-08-12T11:52:21.2162104Z">Bločky - automatické účtovanie </Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="5d2ab83c-eb76-4df3-8e36-fbcc52d9d075">
+      <Keyword m="2022-12-05T11:46:27.0757432Z">eKasa doklady - automatické účtovanie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="98ccbeea-dfba-4216-8243-7fba4a02fc62">
+      <Keyword m="2022-12-05T11:46:46.34029Z">Automatické účtovanie bločkov</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="cca249ae-64ae-467e-9305-0e1a4279266e">
+      <Keyword m="2024-01-24T11:49:02.185285Z">QeeR skener - automatické účtovanie pokladničných dokladov</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="87eb06ee-d853-40f2-ae12-18155757dfe4">
+      <Keyword m="2024-01-24T11:48:55.1683261Z">Snímač čiarových kódov - automatické účtovanie pokladničných dokladov</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

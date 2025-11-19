@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="c3bd41f0-029e-4c74-b342-b0ffff647b6e" Status="Complete" CreatedOn="2014-09-10T08:07:54.9438657Z" ModifiedOn="2024-11-27T12:15:01.808093Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="false" HelpContextIds="" Name="Hotel_Concept_About" BuildFlags="">
+  <Title m="2021-07-13T10:17:51.0010837Z">Všeobecne o koncepcii</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-11-27T12:15:01.808093Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;všeobecné informácie o module &lt;EM&gt;Hotelová recepcia&lt;/EM&gt;&lt;/STRONG&gt; v&amp;nbsp;systéme OBERON.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Modul &lt;EM&gt;Hotelová recepcia&lt;/EM&gt; predstavuje jeden z modulov systému OBERON, ktorý je&lt;STRONG&gt;&amp;nbsp;určený pre všetky typy ubytovacích zariadení&lt;/STRONG&gt; - hotely, apartmánové domy, penzióny, chaty, turistické ubytovne atď. (celkový počet izieb: 200, počet záznamov v knihe ubytovaných: 100 000, počet osôb v histórii ubytovaných hostí: 100 000). 
+&lt;LI&gt;Z hľadiska&amp;nbsp;ponúkaných funkcií a&amp;nbsp;možností na jednej strane a licenčnej politiky a&amp;nbsp;ceny na strane druhej modul poskytuje &lt;STRONG&gt;pravdepodobne najlepší pomer cena/výkon na Slovensku&lt;/STRONG&gt;. 
+&lt;LI&gt;Modul &lt;EM&gt;Hotelová recepcia&lt;/EM&gt; nie je &lt;EM&gt;„sám vojak v poli"&lt;/EM&gt;, ale v rámci systému OBERON umožňuje prepojenie so&amp;nbsp;&lt;A href="78d20602-4b59-4b31-9f0a-a04a1d376ec5"&gt;skladovým&lt;/A&gt;,&amp;nbsp;&lt;A href="a6f5e32d-6f1e-40bb-9d15-3f784a183252"&gt;pokladničným&lt;/A&gt; a&amp;nbsp;&lt;A href="9980b99c-4409-4422-9d70-9cdd8893d0f3"&gt;účtovným systémom&lt;/A&gt;. Výsledkom je&amp;nbsp;&lt;STRONG&gt;komplexné riešenie typu &lt;EM&gt;„všetko v jednom“&lt;/EM&gt;&lt;/STRONG&gt;. 
+&lt;LI&gt;Jednou zo základných charakteristík modulu je&amp;nbsp;bezpečnosť a rýchla dostupnosť všetkých údajov o hosťoch. 
+&lt;LI&gt;Najpoužívanejším formulárom modulu je interaktívny&amp;nbsp;&lt;A href="3ca37544-bbc0-4a88-af6a-a2132b74279d"&gt;grafický prehľad izieb&lt;/A&gt;, &lt;STRONG&gt;ktorý&amp;nbsp;v&amp;nbsp;grafickej podobe zobrazuje prehľad voľných, rezervovaných a&amp;nbsp;obsadených&amp;nbsp;izieb&lt;/STRONG&gt;. Údaje čerpá z&amp;nbsp;&lt;A href="5570e633-ca2e-4887-9361-57c5ce552da6"&gt;knihy rezervácií&lt;/A&gt;,&amp;nbsp;&lt;A href="311d7f3a-77ff-4be7-a9cf-5be3539ff604"&gt;zmluvných rezervácií&lt;/A&gt;&amp;nbsp;a&amp;nbsp;&lt;A href="0b9519ff-9438-422b-a3e8-358b628293e9"&gt;ubytovaných&lt;/A&gt;. Umožňuje &lt;STRONG&gt;aktívne pracovať s&amp;nbsp;celým radom funkcií&lt;/STRONG&gt; modulu&amp;nbsp;&lt;EM&gt;Hotelová recepcia&lt;/EM&gt; - zaevidovať dopyt,&amp;nbsp;rezerváciu a&amp;nbsp;ubytovanie (príchod hosťa),&amp;nbsp;založiť otvorený hotelový účet, uskutočňovať presuny medzi izbami&amp;nbsp;a pod. 
+&lt;LI&gt;Medzi&amp;nbsp;základné&amp;nbsp;evidencie modulu&amp;nbsp;patrí&amp;nbsp;&lt;A href="0b9519ff-9438-422b-a3e8-358b628293e9"&gt;Kniha ubytovaných&lt;/A&gt;, ktorá je určená&amp;nbsp;&lt;STRONG&gt;na evidenciu údajov o&amp;nbsp;ubytovaných hosťoch&lt;/STRONG&gt;.&amp;nbsp;Po odchode hostí v&amp;nbsp;nej záznamy ostávajú, pričom sú dostupné aj zo samostatnej evidencie&amp;nbsp;&lt;A href="07f48863-95c7-4678-8544-16af72204ce3" style="auto-update-caption: true"&gt;História ubytovaných osôb&lt;/A&gt;. 
+&lt;LI&gt;V module možno pracovať s&amp;nbsp;nasledujúcimi typmi služieb poskytovanými ubytovacím zariadením: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;základné&lt;/STRONG&gt; - služby, ktoré sa pravidelne opakujú, napr. raňajky, večere, parkovanie&amp;nbsp;a pod., 
+&lt;LI&gt;&lt;STRONG&gt;rozšírené&lt;/STRONG&gt; - predstavujú doplnkové služby ubytovacieho zariadenia, napr. wellness, tenis, biliard a pod. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Prehľad&lt;STRONG&gt;&amp;nbsp;rezervovaných,&amp;nbsp;prebiehajúcich a ukončených rozšírených služieb v&amp;nbsp;grafickej podobe zobrazuje interaktívny&amp;nbsp;&lt;/STRONG&gt;&lt;A href="0f4cbef4-f919-441f-bd61-6ef9ca0b1344"&gt;grafický prehľad poskytovaných služieb&lt;/A&gt;&amp;nbsp;(základné služby sa v&amp;nbsp;grafickom prehľade nezobrazujú). Údaje čerpá z&amp;nbsp;&lt;A href="4a3fd53c-a95a-4850-8adb-17666063e88d"&gt;knihy poskytovaných služieb&lt;/A&gt;. Formulár zároveň&amp;nbsp;umožňuje &lt;STRONG&gt;aktívne pracovať s&amp;nbsp;rozšírenými službami&lt;/STRONG&gt; -&amp;nbsp;zaevidovať dopyt, resp. rezerváciu rozšírenej služby (nová rezervácia), ako aj čerpanie rozšírenej služby (nová služba), a&amp;nbsp;to&amp;nbsp;tak&amp;nbsp;ubytovaným hosťom, ako aj samostatne (neubytovaným hosťom), označiť službu ako poskytnutú, zameniť služby,&amp;nbsp;vyúčtovať službu atď.&amp;nbsp;Viac informácií o&amp;nbsp;službách v&amp;nbsp;systéme OBERON a&amp;nbsp;ich definovaní získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="52a22e5d-f6ee-46f3-9978-537f8fa5c984"&gt;Služby&lt;/A&gt;. 
+&lt;LI&gt;Doplnkovými knihami modulu sú &lt;A href="5570e633-ca2e-4887-9361-57c5ce552da6"&gt;Kniha rezervácií&lt;/A&gt;&amp;nbsp;na&amp;nbsp;evidenciu prijatých rezervácií ubytovania,&amp;nbsp;&lt;A href="ffa5a889-7bfe-4165-ba83-15263eb77358"&gt;Hotelové účty&lt;/A&gt;&amp;nbsp;na evidenciu tak otvorených, ako aj uzatvorených (neaktívnych) hotelových účtov&amp;nbsp;a&amp;nbsp;&lt;A href="250ef843-0b84-4f66-bc92-230067d309d8"&gt;Pokladničná kniha&lt;/A&gt;&amp;nbsp;na evidenciu príjmov a&amp;nbsp;výdajov v&amp;nbsp;hotovosti. 
+&lt;LI&gt;&lt;STRONG&gt;Na evidenciu rôznych&amp;nbsp;podujatí alebo&amp;nbsp;udalostí&lt;/STRONG&gt; ako sú sviatky, prázdniny, športové, spoločenské, kultúrne a iné podujatia a pod., ktoré sú dôležité z&amp;nbsp;hľadiska prevádzky ubytovacieho zariadenia, je určená kniha&amp;nbsp;&lt;A href="6cdb47cd-c962-4aae-8611-d39a2a7007d8"&gt;Kalendár podujatí&lt;/A&gt;&lt;EM&gt;.&lt;/EM&gt; 
+&lt;LI&gt;Kniha&amp;nbsp;&lt;A href="da337293-96d9-46af-8566-75e5b427aef5"&gt;Správa údržby&lt;/A&gt; &lt;STRONG&gt;umožňuje evidovať a spravovať údržbu ubytovacích jednotiek&lt;/STRONG&gt; (izieb, ale i celých&amp;nbsp;objektov,&amp;nbsp;vybavenia izieb), &lt;STRONG&gt;rozšírených&amp;nbsp;služieb, resp. priestorov&lt;/STRONG&gt;&amp;nbsp;(bazénov, wellness, sáun, reštauračných zariadení...) &lt;STRONG&gt;a&amp;nbsp;ostatných&amp;nbsp;súčastí ubytovacieho zariadenia&lt;/STRONG&gt; (dverových zámkov, trezoru, vozidiel, športového náradia...). 
+&lt;LI&gt;&lt;A href="902561af-a2ca-4bf7-adcd-21be1663b30a"&gt;Izby&lt;/A&gt; ubytovacieho zariadenia je možné členiť podľa &lt;STRONG&gt;objektov&lt;/STRONG&gt; (napr. budov, apartmánových domov...), &lt;STRONG&gt;zoskupení izieb a majiteľov izieb&lt;/STRONG&gt; (apartmánové domy). Podľa týchto kritérií je potom možné zostaviť rôzne tlačové výstupy či štatistiky. 
+&lt;LI&gt;Modul&amp;nbsp;umožňuje&amp;nbsp;&lt;A href="fc334b67-8148-4d4c-bb21-de0e0060b312"&gt;automatický výpočet ceny za ubytovanie&lt;/A&gt;, vtedy je však potrebné zadať cenové hladiny a ceny v&amp;nbsp;číselníku&amp;nbsp;&lt;A href="79646e11-b21e-473c-a78b-7e0fb8b55c14"&gt;Cenotvorba ubytovania&lt;/A&gt;&amp;nbsp;- cenu je možné stanoviť za osoby, za izbu, podľa dĺžky pobytu, sezónne, akciové... atď. 
+&lt;LI&gt;Údaje z&amp;nbsp;číselníka&amp;nbsp;&lt;EM&gt;Cenotvorba ubytovania&lt;/EM&gt;&amp;nbsp;čerpá&amp;nbsp;&lt;A href="c2c5ff27-6417-4630-9f9b-5760a815edf1"&gt;Grafický prehľad cien&lt;/A&gt; -&amp;nbsp;interaktívny formulár,&amp;nbsp;ktorý&amp;nbsp;v&amp;nbsp;grafickej podobe zobrazuje &lt;STRONG&gt;prehľad cenových hladín ubytovacieho zariadenia platných v&amp;nbsp;danom čase&lt;/STRONG&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Ďalšie informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Modul&amp;nbsp;&lt;EM&gt;Hotelová recepcia&lt;/EM&gt; je možné používať &lt;STRONG&gt;samostatne, prípadne spolu s ďalšími modulmi&lt;/STRONG&gt; systému OBERON. Prepojenie spočíva napr.&amp;nbsp;v&amp;nbsp;možnosti pracovať na otvorených hotelových účtoch s&amp;nbsp;položkami zo skladu, pričom je potom možné úhradu takéhoto otvoreného hotelového účtu zaevidovať na &lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnici OBERON&lt;/A&gt;. Ďalšou výhodou je možnosť jednoducho fakturovať rezerváciu ubytovania, ubytovanie, hotelový účet či poskytnutú službu. 
+&lt;LI&gt;Modul možno prepojiť s&amp;nbsp;&lt;STRONG&gt;províznymi rezervačnými portálmi ubytovania&lt;/STRONG&gt; (&lt;EM&gt;Booking.com, HRS.com, Hotel.cz, Hotel.de, Hotele.pl, Expedia.com, HotelClub.com, BookYourHotel.org&lt;/EM&gt; atď.), a to pomocou &lt;A href="25b9b2fe-ad9e-49dd-9a59-e57d2520e87b"&gt;manažéra rezervačných kanálov&lt;/A&gt; (napr.&amp;nbsp;&lt;A href="2564d1eb-a7ed-46a7-a957-6087afe26471"&gt;Beds24&lt;/A&gt;,&amp;nbsp;&lt;A href="3e65fff1-f915-40da-8283-7ddd54167c2b"&gt;D-EDGE&lt;/A&gt;). Prepojenie spočíva &lt;STRONG&gt;v&amp;nbsp;automatickom odosielaní obsadenosti&lt;/STRONG&gt; z&amp;nbsp;modulu &lt;EM&gt;Hotelová recepcia&lt;/EM&gt; (evidovaných rezervácií a&amp;nbsp;zaevidovaných ubytovaní) &lt;STRONG&gt;a&amp;nbsp;v&amp;nbsp;prijímaní rezervácií ubytovania&lt;/STRONG&gt; z&amp;nbsp;rezervačných platforiem. Umožňuje tak automaticky aktualizovať tieto údaje &lt;STRONG&gt;na viacerých rezervačných platformách súčasne&lt;/STRONG&gt;. Manažér rezervačných kanálov &lt;A href="2564d1eb-a7ed-46a7-a957-6087afe26471"&gt;Beds24&lt;/A&gt;&amp;nbsp;zároveň poskytuje možnosť umiestniť na stránke ubytovacieho zariadenia vlastný&amp;nbsp;&lt;A href="a8869db0-d369-49c6-b801-de33672ce874"&gt;rezervačný formulár ubytovania Beds24&lt;/A&gt;. 
+&lt;LI&gt;K systému OBERON je možné pripojiť viacero&amp;nbsp;zámkových systémov. Bližšie informácie získate v téme&amp;nbsp;&lt;A href="d47942c0-d9d3-458d-b7cc-95ff8b2a67a4" style="auto-update-caption: true"&gt;Dverové zámky&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 1:&amp;nbsp;Grafický prehľad izieb&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/Hotel/Hotel_GraphicalViewRooms.png" width="60%"&gt;&amp;nbsp;&lt;/P&gt;
+&lt;H5&gt;Obrázok č. 2:&amp;nbsp; Grafický prehľad poskytovaných služieb&lt;/H5&gt;
+&lt;P&gt;&lt;IMG style="HEIGHT: 546px; WIDTH: 817px" border=0 alt="" src="images/Forms/Hotel/Form_Hotel_GraphicalViewServices.png" width=1027 height=628&gt;&lt;/P&gt;
+&lt;H5&gt;Obrázok č. 3: Väzby dokumentov - jedna skupinová rezervácia, ubytovanie v dvoch&amp;nbsp;izbách,&amp;nbsp;poskytnuté služby a príslušný hotelový účet&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/Hotel/Form_Hotel_DocumentReleation.png"&gt;&amp;nbsp;&lt;/P&gt;
+&lt;H2&gt;Webové služby&lt;/H2&gt;V&amp;nbsp;module &lt;EM&gt;Hotelová recepcia&lt;/EM&gt; je možné použiť tieto funkcie využívajúce&amp;nbsp;&lt;A href="58bb31ca-00c8-4641-ad99-7d58e24f59c5"&gt;webové služby&lt;/A&gt;: 
+&lt;UL class=bullet-list&gt;
+&lt;LI&gt;&lt;A href="5eaef397-0196-4360-a339-fcb1a11c32e3" rel=noopener&gt;on-line rezervačný formulár ubytovania&lt;/A&gt; - modul podporuje&amp;nbsp;&lt;STRONG&gt;priamu on-line rezerváciu izieb&lt;/STRONG&gt; pomocou&amp;nbsp;rezervačného formulára ubytovania (tzv. web booking engine)&amp;nbsp;na webovej stránke ubytovacieho zariadenia. Rezervačný formulár umožňuje po vykonaní rezervácie hosťom na internetovej stránke automaticky &lt;STRONG&gt;zapísať rezerváciu (alebo dopyt na ubytovanie) do evidencie rezervácií a&amp;nbsp;vzápätí&amp;nbsp;ju zobraziť v&amp;nbsp;grafickom prehľade izieb&lt;/STRONG&gt;. Rezervovať je možné jednu, prípadne aj viac izieb, pričom je možné overiť stav voľných izieb aj s automatickým výpočtom ceny za ubytovanie, 
+&lt;LI&gt;&lt;A href="de42d42d-6f5c-49ba-b0c9-1413773f7ef1"&gt;hotel on-line check-in&lt;/A&gt; - funkcia zahŕňajúca: 
+&lt;UL class=bullet-list&gt;
+&lt;LI&gt;&lt;STRONG&gt;pre-check in&lt;/STRONG&gt; - predstavuje elektronickú registráciu hosťa (on-line check-in) pred samotným príchodom do ubytovacieho zariadenia; spravidla ju hosť vykonáva sám v pohodlí svojho domova, 
+&lt;LI&gt;&lt;STRONG&gt;rýchly check-in&lt;/STRONG&gt; - predstavuje elektronickú registráciu hosťa (on-line check-in) bezprostredne po príchode do ubytovacieho zariadenia a následnom prevzatí izby, &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;&lt;SPAN style="TEXT-DECORATION: underline"&gt;&lt;A href="b138daad-5453-4e53-8d2c-ecf2e81a5fcb" rel=noopener&gt;OBERON Web&lt;/A&gt;&lt;/SPAN&gt; - nadstavbová webová aplikácia&amp;nbsp;pre smartfóny, tablety či iné mobilné zariadenia umožňujúca napr.: 
+&lt;UL&gt;
+&lt;LI&gt;zobraziť &lt;A href="5eaef397-0196-4360-a339-fcb1a11c32e3" rel=noopener&gt;on-line rezervačný formulár ubytovania&lt;/A&gt;, 
+&lt;LI&gt;majiteľovi či prevádzkarovi prístup k okamžitým tržbám na recepcii či v reštaurácii, prípadne otvoreným stolom v reštaurácii, 
+&lt;LI&gt;údržbárovi prístup k zoznamu drobných porúch a opráv, 
+&lt;LI&gt;chyžným prístup k prehľadu upratovania izieb, 
+&lt;LI&gt;ubytovaným&amp;nbsp;&lt;A href="1401d019-26f1-420b-9587-421922ef4e1e"&gt;hosťom prístup k svojmu hotelovému účtu&lt;/A&gt;, 
+&lt;LI&gt;prístup ku grafickému prehľadu obsadenosti izieb: 
+&lt;UL&gt;
+&lt;LI&gt;majiteľom a prevádzkarom, 
+&lt;LI&gt;&lt;A href="7583c808-0f61-4c23-9397-b5d2335c8c8f"&gt;majiteľom apartmánov (prístup k aktuálnej obsadenosti svojho apartmánu&lt;/A&gt;, prípadne viacerých apartmánov), 
+&lt;LI&gt;zmluvným partnerom (cestovným kanceláriám). &lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Licenčné podmienky&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;V&amp;nbsp;obmedzenom režime (na skúšobné účely) je možné s modulom &lt;EM&gt;Hotelová recepcia&lt;/EM&gt; pracovať &lt;STRONG&gt;aj bez licencie&lt;/STRONG&gt; - viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="95d188df-c149-46a9-8474-4d9493f2ad41" style="auto-update-caption: true"&gt;Licenčná politika&lt;/A&gt;. 
+&lt;LI&gt;Plnohodnotne je možné modul&amp;nbsp;&lt;EM&gt;Hotelová recepcia&lt;/EM&gt; používať &lt;STRONG&gt;len s&amp;nbsp;platnou&amp;nbsp;licenciou&lt;/STRONG&gt;. Dôležitým faktorom pri výbere typu licencie&amp;nbsp;je počet izieb v&amp;nbsp;ubytovacom zariadení. Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="644b0685-defe-4ce5-b3cd-e731b5eff299" style="auto-update-caption: true"&gt;Typy licencií&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="bce42c27-df08-4738-8c58-7d8031207f9a" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="c59586c9-a034-4f31-9a3c-1960428236e7">
+      <Title m="2022-07-04T09:07:51.5386598Z">Hotelová recepcia - základné možnosti</Title>
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="7a4809c7-4aed-4a07-a10b-94e38c3b153a">
+      <Keyword m="2022-07-04T09:10:26.8800619Z">Hotelová recepcia - všeobecne o koncepcii</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="829b4ffe-8247-40b9-bc5c-d0e0719347da">
+      <Keyword m="2022-07-04T09:10:43.3466216Z">Všeobecne o koncepcii - Hotelová recepcia</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

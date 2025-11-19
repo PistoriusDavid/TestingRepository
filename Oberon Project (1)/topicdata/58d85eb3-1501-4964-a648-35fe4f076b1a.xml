@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="58d85eb3-1501-4964-a648-35fe4f076b1a" Status="Complete" CreatedOn="2014-09-09T11:33:34.7988677Z" ModifiedOn="2023-04-19T09:41:20.5021041Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Invoices_Dobropis" BuildFlags="">
+  <Title m="2021-09-03T06:01:37.065453Z">Oprava základu DPH - dobropis a ťarchopis</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-04-19T07:37:29.5873323Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; je venovaná &lt;STRONG&gt;problematike opravy základu dane&lt;/STRONG&gt; definovanej v zákone č. 222/2004 Z. z. o dani z pridanej hodnoty - tzv. &lt;STRONG&gt;dobropisu a ťarchopisu&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Opravu základu dane upravuje zákon o DPH § 25, pričom pojmy &lt;EM&gt;dobropis&lt;/EM&gt; a&amp;nbsp;&lt;EM&gt;ťarchopis&lt;/EM&gt; priamo nepoužíva. V praxi sa však tieto pojmy používajú častejšie ako &lt;EM&gt;oprava základu dane&lt;/EM&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;Dobropis&lt;/STRONG&gt; účtovná jednotka vystavuje na opravu základu dane pri dodaní tovaru alebo služby a pri nadobudnutí tovaru v tuzemsku z iného členského štátu pri: 
+&lt;UL&gt;
+&lt;LI&gt;úplnom alebo čiastočnom zrušení dodávky tovaru alebo služby, 
+&lt;LI&gt;úplnom alebo čiastočnom vrátení dodávky tovaru (napr. pri reklamácii), 
+&lt;LI&gt;znížení ceny tovaru alebo služby po vzniku daňovej povinnosti (napr. pri dodatočnom priznaní&amp;nbsp;zľavy, rabatu, bonusu). &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Ťarchopis&lt;/STRONG&gt; účtovná jednotka vystavuje na opravu základu dane pri dodaní tovaru alebo služby a pri nadobudnutí tovaru v tuzemsku z iného členského štátu pri: 
+&lt;UL&gt;
+&lt;LI&gt;zvýšení ceny tovaru alebo služby (napr. pri nedodržaní podmienky odobratia určitého množstva tovaru). &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Vystavenie alebo zaevidovanie dobropisu/ťarchopisu je analogické ako vystavenie faktúry v&amp;nbsp;knihe pohľadávok, resp. zaevidovanie faktúry v&amp;nbsp;knihe záväzkov,&amp;nbsp;je však potrebné zvoliť typ dokladu &lt;EM&gt;&lt;STRONG&gt;Dobropis&lt;/STRONG&gt;&lt;/EM&gt;, resp&lt;EM&gt;. &lt;STRONG&gt;Ťarchopis&lt;/STRONG&gt;&lt;/EM&gt;. Bližšie informácie získate v&amp;nbsp;témach&amp;nbsp;&lt;A href="ec4e9be4-140f-4ec9-aa04-544e9870bfe1"&gt;Vystavenie faktúry - pohľadávky&lt;/A&gt;, resp.&amp;nbsp;&lt;A href="b479a7dd-6c07-4548-862f-a38cbf1b872d"&gt;Zaevidovanie faktúry - záväzku&lt;/A&gt;. 
+&lt;LI&gt;Pri dobropise/ťarchopise je potrebné zvoliť správny &lt;I&gt;Typ DPH&lt;/I&gt;. 
+&lt;LI&gt;Dobropis/ťarchopis sa zadáva do tej istej knihy,&amp;nbsp;v ktorej&amp;nbsp;bol vystavený pôvodný doklad, t. j. pri&amp;nbsp;dobropisovaní pohľadávky je potrebné dobropis zadať do &lt;I&gt;Knihy pohľadávok&lt;/I&gt;. 
+&lt;LI&gt;Pri pridávaní položky&amp;nbsp;do dobropisu&amp;nbsp;je vždy potrebné uvádzať &lt;B&gt;záporné množstvo&lt;/B&gt; (&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;nie zápornú cenu za MJ!&lt;/SPAN&gt;). Následne&amp;nbsp;program vypočíta zápornú hodnotu dokladu.
+&lt;LI&gt;Zaevidovanie úhrady dobropisu/ťarchopisu v hotovosti &lt;STRONG&gt;je potrebné vykonať na&amp;nbsp;&lt;/STRONG&gt;&lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnici OBERON&lt;/A&gt;. Postup zaevidovania úhrady je totožný s postupom zaevidovania&amp;nbsp;úhrady faktúry v&amp;nbsp;hotovosti, pričom príznak položky je nastavený na príznak &lt;EM&gt;&lt;STRONG&gt;Vrátenie tovaru&lt;/STRONG&gt;&lt;/EM&gt;. Bližšie informácie získate v téme&amp;nbsp;&lt;A href="0312f424-bcb0-4d34-aad4-64a1f63eca85" style="auto-update-caption: true"&gt;Úhrada faktúry v hotovosti&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Na vystavenej faktúre sa DPH vypočítava osobitne pri každej položke dokladu. Vypočítaná&amp;nbsp;suma DPH&amp;nbsp;z tejto položky sa následne zaokrúhli. V rekapitulácii súm tohto dokladu sa&amp;nbsp;suma DPH&amp;nbsp;potom uvádza ako súčet vypočítaných a zaokrúhlených&amp;nbsp;súm DPH&amp;nbsp;z jednotlivých položiek. Bližšie informácie o výpočte DPH nájdete v téme &lt;A href="52df1f6d-0c85-4a3a-8ae8-dd57284545fc"&gt;Výpočet súm na doklade&lt;/A&gt;, prípadne v&amp;nbsp;téme&amp;nbsp;&lt;A href="bb669cba-8a46-4b82-94de-9485abb13387" style="auto-update-caption: true"&gt;Výpočet DPH na doklade&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="4ecc6603-a71c-4a4f-951e-5b1dcd1dcd15" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="5c21adcc-87c8-44e7-981d-02902635693d">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="a1b420f0-fa0e-41f7-b5d2-3d1560245da4" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="55028746-c263-4d92-a615-502222e8d53b">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="7867dc3a-c9b0-4287-9a5f-c82284a82006" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="ec4e9be4-140f-4ec9-aa04-544e9870bfe1">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="1d7ca132-3f58-4e8c-928a-52d47e6ef686" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="b479a7dd-6c07-4548-862f-a38cbf1b872d">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="01e6d9c3-43a9-4445-b84f-401056a5c22c" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="614e08c0-a29e-4810-a741-174e81a8e259">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="55a30e84-e276-4de2-93c3-cb8d57c3c086" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="0312f424-bcb0-4d34-aad4-64a1f63eca85">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="495c0d2a-bacc-4b7b-95de-db1829863105" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="69bbd499-45c0-4b0f-8f7a-c53fa5d70c1b">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="562b0724-a998-45b6-839b-2454fbf410f5">
+      <Keyword m="2017-11-03T09:32:28.0658892Z">Dobropis</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="36f37f99-97fa-4d1a-b6a8-6418b4bdffac">
+      <Keyword m="2017-11-03T09:32:34.3722623Z">Ťarchopis</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="d06c0989-bb6c-43e9-b9c8-f3c9cf4bf0b2">
+      <Keyword m="2017-11-03T09:39:11.9541037Z">Opravná faktúra</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="abc20a35-5217-4bf6-baff-ad2f56bfe17a">
+      <Keyword m="2021-09-03T10:34:33.5400386Z">Oprava základu dane</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

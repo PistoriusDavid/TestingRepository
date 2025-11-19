@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="130c9322-1fee-4569-96c1-58565b27b452" Status="Complete" CreatedOn="2014-10-01T12:55:46.9291271Z" ModifiedOn="2023-10-11T11:53:38.2112969Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Form_OBERON_Sett_Computer_General" BuildFlags="">
+  <Title m="2014-12-10T09:06:53.6748046Z">Formulár Nastavenia - Počítač - Všeobecné</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-10-11T11:23:54.0897217Z">&lt;P&gt;Formulár &lt;EM&gt;Nastavenia -&amp;nbsp;Počítač -&amp;nbsp;Všeobecné&lt;/EM&gt;&amp;nbsp;umožňuje &lt;STRONG&gt;vykonať nastavenia typu prihlasovacieho formulára do systému OBERON, umožnenia&amp;nbsp;automatického odhlasovania a&amp;nbsp;rýchlosti pripojenia k&amp;nbsp;databáze&lt;/STRONG&gt;. Formulár je dostupný z programu &lt;EM&gt;OBERON -&amp;nbsp;Agenda firmy&lt;/EM&gt;, ponuka &lt;EM&gt;Servis,&amp;nbsp;&lt;/EM&gt;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;&amp;nbsp;- v&amp;nbsp;sekcii&amp;nbsp;&lt;EM&gt;Počítač&lt;/EM&gt; zvoľte oddiel &lt;EM&gt;Všeobecné&lt;/EM&gt;.&lt;/P&gt;&lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;V&amp;nbsp;sekcii &lt;EM&gt;Počítač&lt;/EM&gt;&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;formulára Nastavenia programu&lt;/A&gt; sú&amp;nbsp;k&amp;nbsp;dispozícii&amp;nbsp;nastavenia platné len pre daný počítač. &lt;STRONG&gt;Pri zmene názvu počítača v&amp;nbsp;systéme &lt;EM&gt;Windows&lt;/EM&gt; sa&amp;nbsp;nastavenia&lt;/STRONG&gt; &lt;STRONG&gt;vykonané&lt;/STRONG&gt; &lt;STRONG&gt;v tejto sekcii stratia!&lt;/STRONG&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Popis formulára &lt;EM&gt;Nastavenia - Počítač - Všeobecné&lt;/EM&gt;&lt;/H2&gt;
+&lt;H3&gt;Prihlásenie&amp;nbsp;používateľa do programu&lt;/H3&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Typ prihlasovacieho formulára&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Nastavenie umožňuje zvoliť typ prihlasovacieho formulára&amp;nbsp;na prihlásenie&amp;nbsp;používateľa do systému OBERON. Dostupné sú&amp;nbsp;tieto možnosti:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Predvolený&lt;/STRONG&gt; - typ formulára sa použije automaticky podľa toho, či je program nastavený na používanie dotykového displeja alebo nie. Podobne to platí aj pre nastavenie o používaní modulu &lt;EM&gt;Pokladnica OBERON&lt;/EM&gt; pre dotykový displej, tzv. režim &lt;EM&gt;FastFood&lt;/EM&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;Štandardný&lt;/STRONG&gt; - použije sa štandardný formulár&amp;nbsp;na prihlásenie&amp;nbsp;používateľa. 
+&lt;LI&gt;&lt;STRONG&gt;Rozšírený&lt;/STRONG&gt;&amp;nbsp;- použije sa rozšírený formulár&amp;nbsp;na prihlásenie&amp;nbsp;používateľa, ktorý je optimalizovaný pre dotykový displej. 
+&lt;LI&gt;&lt;STRONG&gt;Osobný PIN&lt;/STRONG&gt;&amp;nbsp;- použije sa špeciálny formulár&amp;nbsp;na prihlásenie&amp;nbsp;používateľa, v ktorom sa na rozdiel od predchádzajúcich možností nevyberá&amp;nbsp;používateľ, ale sa len zadá určitý alfanumerický kód. Jednotlivým&amp;nbsp;používateľom je možné PIN&amp;nbsp;nastaviť v&amp;nbsp;evidencii&amp;nbsp;&lt;A href="225638ed-22f6-4ac4-9085-6d77c64925db"&gt;Používatelia&lt;/A&gt;&amp;nbsp;(&lt;EM&gt;Kód rýchleho prístupu&lt;/EM&gt; v&amp;nbsp;záložke &lt;EM&gt;Podrobnosti&lt;/EM&gt;). &lt;/LI&gt;&lt;/UL&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H3&gt;Automatické odhlasovanie&lt;/H3&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Umožniť automatické odhlásenie&amp;nbsp;používateľa&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Automaticky odhlási&amp;nbsp;používateľa pri nečinnosti&amp;nbsp;používateľa, t. j. ak nebude zaznamenaný žiaden pohyb myšou ani vstup z klávesnice. Uvedené nastavenie sa najčastejšie používa v module&amp;nbsp;&lt;A href="aec074f4-3e1c-4a1e-8a80-06fcecf51156"&gt;Pokladnica OBERON&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H3&gt;Rýchlosť pripojenia k databáze&lt;/H3&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Rýchlosť pripojenia&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Rýchlosť pripojenia má zásadný vplyv na načítavanie kníh a celkový chod aplikácie v sieťovej prevádzke. Z tohto dôvodu je možné optimalizovať napr. množstvo zobrazovaných záznamov v&amp;nbsp;danej knihe tak, aby čas načítania knihy nebol pridlhý - čím pomalšie pripojenie, tým menší počet načítaných záznamov.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="388baf3e-a75b-4f77-8d18-1df0a07de593" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="89fa80dd-8f80-4e9f-9a25-1eed4f6fdbb8">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="518e0f36-2cc0-463c-964c-ab8672a44ef1" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="89fa80dd-8f80-4e9f-9a25-1eed4f6fdbb8">
+      <Title m="2014-10-27T13:56:07.0546875Z">Formulár Nastavenia programu</Title>
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="820d05ae-5a29-4043-87f6-2d0a72ca9498">
+      <Keyword m="2021-05-27T09:05:42.9557122Z">Osobný PIN - nastavenia programu</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="d31466ac-ada6-446b-a804-a7578fc4661f">
+      <Keyword m="2021-05-27T09:05:51.0301325Z">PIN - nastavenia programu</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="cdbdc008-7f1e-496b-8fb3-4cf51a123918">
+      <Keyword m="2021-05-27T09:06:28.2989829Z">Počítač - Všeobecné - nastavenia programu</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="ba5fa22b-4b30-4198-a181-e18838cf43d3">
+      <Keyword m="2021-05-27T09:07:04.1432334Z">Nastavenia programu - Počítač - Všeobecné</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

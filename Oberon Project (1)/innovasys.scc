@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceControlConnection>
+  <Provider>GIT</Provider>
+  <RemoteMoniker>../$/</RemoteMoniker>
+  <ProviderProperties>
+    <Branch>TestingOberonGit</Branch>
+    <ServerUrl>https://github.com/PistoriusDavid/TestingRepository</ServerUrl>
+    <RepositoryFolder>C:\temp\OberonTest</RepositoryFolder>
+    <RepositoryDirectoryInfo>C:\temp\OberonTest</RepositoryDirectoryInfo>
+    <AuthorEmail>dpistorius@contiem.com</AuthorEmail>
+    <AuthorName>David Pistorius</AuthorName>
+    <UserName></UserName>
+    <Password>SFMyAEANAwD3KiW0aicEwDm4nBni754GEo7CENwOyjlhY8DlvV+ccky7xykl3dOvwonQIqeVB9/NtmD9o6mZrCNx8YxLSph7ASjlrnNrgYcGZeaISUTY+DlcOdySX0jGHhQEfHVZtaEH+BpVc5vtulfRwLZbVjQ1jyvYjTLkMkafPiJvRYB8ryqlOVHNqUtS+SsQpPtymd/o7+duMKZNPRfI7AJWWxbLfcBIHQo+xIv2TK4y3ckb2ViEbW4YFjsZ5Ugdu81iwBY=</Password>
+    <SupplyUserCredentials>false</SupplyUserCredentials>
+  </ProviderProperties>
+</SourceControlConnection>

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="8f7c0098-5332-40a6-a7e7-92be2a86e854" Status="Complete" CreatedOn="2014-10-15T12:18:55.8383097Z" ModifiedOn="2023-12-20T08:28:03.7187235Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="51048" Name="Form_StockCard_ColnySadzobnik" BuildFlags="">
+  <Title m="2023-04-17T11:53:06.4044538Z">Formulár Colný sadzobník</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-04-18T09:17:22.3468106Z">&lt;P&gt;Formulár&amp;nbsp;&lt;EM&gt;Colný sadzobník&lt;/EM&gt; umožňuje &lt;STRONG&gt;účtovnej jednotke&lt;/STRONG&gt; &lt;STRONG&gt;naimportovať colný sadzobník do&amp;nbsp;aktuálneho účtovného obdobia&lt;/STRONG&gt;. Súčasťou colného sadzobníka je kombinovaná nomenklatúra, ktorá sa&amp;nbsp;v&amp;nbsp;systéme OBERON&amp;nbsp;používa pri&amp;nbsp;&lt;A href="6cd390d6-697d-4829-bc05-ea31662ffe4e"&gt;prenesení daňovej povinnosti&lt;/A&gt;. Formulár je dostupný z&amp;nbsp;&lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;formulára Skladová karta&lt;/A&gt;, záložka&amp;nbsp;&lt;EM&gt;Doplň. údaje&lt;/EM&gt;&amp;nbsp;- pri poli &lt;EM&gt;Colný sadzobník - KN&lt;/EM&gt; stlačte tlačidlo&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_ListButton.png"&gt;.&lt;/P&gt;
+&lt;H2&gt;Popis formulára &lt;EM&gt;Colný sadzobník&lt;/EM&gt;&lt;/H2&gt;
+&lt;H3&gt;Tlačidlo &lt;EM&gt;Možnosti&lt;/EM&gt;&lt;/H3&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Import colného sadzobníka&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Keďže sa colný sadzobník do nového účtovného obdobia automaticky neprenáša, je ho potrebné naimportovať manuálne. Výberom možnosti sa otvorí&amp;nbsp;sprievodca, pomocou ktorého je možné import vykonať. Na výber je niekoľko spôsobov importu:&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;Z databázy 'Colnej správy' (*.MDB)&lt;/STRONG&gt; - pri prvotnom importe, prípadne pri zmenách v colnom sadzobníku je&amp;nbsp;potrebné colný sadzobník&amp;nbsp;naimportovať do aktuálneho účtovného obdobia priamo z databázy colného úradu. Súbor s príponou &lt;EM&gt;.MDB&lt;/EM&gt; najprv stiahnite z&amp;nbsp;&lt;A href="https://intrastat.financnasprava.sk/index.php?page=soft" target=_blank&gt;webovej stránky Finančnej správy&amp;nbsp;SR&lt;/A&gt; do počítača a následne ho pomocou tohto sprievodcu naimportujte do OBERON-u (Obrázok č. 1).&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;Z predchádzajúceho účtovného obdobia&lt;/STRONG&gt; - štandardný spôsob importu, naimportuje colný sadzobník z predchádzajúceho účtovného obdobia.&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;Z nasledujúceho účtovného obdobia&lt;/STRONG&gt; - naimportuje colný sadozbník z nasledujúceho účtovného obdobia.&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;Z inej účtovnej jednotky&lt;/STRONG&gt; - naimportuje colný sadzobník z inej databázy (firmy).&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H5&gt;Obrázok č. 1: Súbor colného sadzobníka s príponou .MDB na internetovej stránke finančnej správy&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/Stock/Form_Stock_TARIC.png"&gt;&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="e26aa025-4fa4-4374-9a87-707ec669b48f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="c233ada3-0fed-4911-97f3-0680973ebac1">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="5ed5f3fa-8fe0-454b-bcf1-f3e1cf0beac3" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="6cd390d6-697d-4829-bc05-ea31662ffe4e">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="72be82d8-a386-4804-8a11-934c71a0587e">
+      <Keyword m="2023-04-18T06:34:39.1204282Z">Colný sadzobník - formulár</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="f0ba1c86-e949-4555-98bd-231914ca7e57">
+      <Keyword m="2023-04-18T06:34:46.8377439Z">Intrastat - colný sadzobník</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="d729f156-48eb-4be2-a9a1-71fb0593fbd3">
+      <Keyword m="2023-04-18T06:34:52.0548738Z">Kombinovaná nomenklatúra - colný sadzobník</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="07b1fb79-db61-45a2-9adc-89742c8c9487">
+      <Keyword m="2023-12-20T08:27:51.9138444Z">Import colného sadzobníka</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="179978a0-4041-4d18-b68b-dcbf869b9c81">
+      <Keyword m="2023-12-20T08:28:03.1715994Z">Colný sadzobník - import</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

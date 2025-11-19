@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="d9867d81-7de7-4ce2-9c45-932025935b8b" Status="Complete" CreatedOn="2021-10-07T06:05:19.5729879Z" ModifiedOn="2023-03-21T10:23:16.214839Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Device_Monitors_for_Kitchen" BuildFlags="">
+  <Title m="2021-10-07T06:06:04.9285832Z">Bonovacie monitory</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-03-21T10:23:16.214839Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; popisuje&amp;nbsp;jeden z&amp;nbsp;typov&amp;nbsp;&lt;A href="de37c038-dda7-44e6-bb5a-4b73832e69a1"&gt;bonovacích zariadení&lt;/A&gt; podporovaných v&amp;nbsp;systéme OBERON - bonovacie monitory, ktoré sa v systéme OBERON používajú &lt;STRONG&gt;na&amp;nbsp;zobrazenie objednávok do kuchyne (na prípravu jedál) alebo baru (na prípravu nápojov)&lt;/STRONG&gt; z&amp;nbsp;&lt;A href="aec074f4-3e1c-4a1e-8a80-06fcecf51156"&gt;Pokladnice OBERON&lt;/A&gt; prevádzkovanej v&amp;nbsp;reštauračnom režime, prípadne z&amp;nbsp;aplikácie&amp;nbsp;&lt;A href="942d48d5-b290-40f6-8ba3-45cf78f380f9"&gt;LUKUL - nielen mobilný čašník&lt;/A&gt;.&lt;/P&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Okrem bonovacích&amp;nbsp;monitorov je na objednávky do kuchyne alebo baru možné využiť aj&amp;nbsp;&lt;A href="b9d7c873-7b63-4210-86fe-ab1c66ea6502"&gt;bonovacie tlačiarne&lt;/A&gt;&amp;nbsp;- vtedy sa objednávky jedál a nápojov tlačia&amp;nbsp;&lt;STRONG&gt;na vyhradených tlačiarňach, prípadne na tlačiarňach pokladničných dokladov (fiškálnych tlačiarňach)&lt;/STRONG&gt;, čo sa však &lt;SPAN style="COLOR: rgb(255,0,0)"&gt;neodporúča&lt;/SPAN&gt; (viac informácií v téme&amp;nbsp;&lt;A href="b9d7c873-7b63-4210-86fe-ab1c66ea6502" style="auto-update-caption: true"&gt;Bonovacie tlačiarne&lt;/A&gt;). Objednávky posielané z&amp;nbsp;aplikácie&amp;nbsp;&lt;A href="942d48d5-b290-40f6-8ba3-45cf78f380f9"&gt;LUKUL&lt;/A&gt; &lt;SPAN style="COLOR: rgb(255,0,0)"&gt;nie je možné tlačiť na&amp;nbsp;tej istej tlačiarni, ako pokladničné doklady&lt;/SPAN&gt; (nie je povolená tlač na fiškálnej tlačiarni). Bonovacie&amp;nbsp;tlačiarne &lt;STRONG&gt;je možné používať aj v&amp;nbsp;kombinácii s&amp;nbsp;bonovacími&amp;nbsp;monitormi&lt;/STRONG&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Základné informácie&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Bonovací monitor predstavuje taký typ hardvérového zariadenia, na ktorom sa položky jedál alebo nápojov zapísané na &lt;A href="e0ccff3e-b9e7-4572-bc3c-7f41a32280dd"&gt;otvorený účet (stôl)&lt;/A&gt; po odoslaní objednávky z&amp;nbsp;&lt;A href="aec074f4-3e1c-4a1e-8a80-06fcecf51156"&gt;Pokladnice OBERON&lt;/A&gt; prevádzkovanej v&amp;nbsp;reštauračnom režime, resp. z&amp;nbsp;aplikácie&amp;nbsp;&lt;A href="942d48d5-b290-40f6-8ba3-45cf78f380f9"&gt;LUKUL - nielen mobilný čašník&lt;/A&gt;&amp;nbsp;zobrazia na monitore (smart TV, tablete). 
+&lt;LI&gt;V&amp;nbsp;systéme bonovacích monitorov je možné používať nasledujúce režimy&amp;nbsp;prispôsobené potrebám personálu (kuchár, čašník) a zákazníka (výdajne jedál, &lt;EM&gt;fastfood&lt;/EM&gt;): 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Kartičky (kartičkový režim)&lt;/STRONG&gt; - zobrazenie primárne určené pre personál prípravne jedál/nápojov.&amp;nbsp;Objednávky sa zobrazujú vo forme objednávkových kartičiek (s&amp;nbsp;možnosťou upraviť počet kartičiek v&amp;nbsp;jednom riadku), ktoré obsahujú číslo&amp;nbsp;otvoreného&amp;nbsp;účtu (stola),&amp;nbsp;farebné pole signalizujúce stav podľa času vybavenia objednávky,&amp;nbsp;zoznam položiek objednávky a&amp;nbsp;ikonu kuchára na začiarknutie po vybavení (ukončení prípravy) položky, resp. celej objednávky. Režim umožňuje&amp;nbsp;aj zapnutie &lt;EM&gt;Režimu pre čašníka aj kuchára&lt;/EM&gt; (v&amp;nbsp;záložke &lt;EM&gt;Kartičky&lt;/EM&gt;) - zobrazí sa&amp;nbsp;ikona aj&amp;nbsp;pre obsluhu na stlačenie po vynesení objednaného jedla/nápoja. 
+&lt;LI&gt;&lt;STRONG&gt;Kartičky (adaptívne)&lt;/STRONG&gt; - na rozdiel od predchádzajúcej možnosti obsahuje aj nastavenie počtu položiek objednávky do roztiahnutia (záložka &lt;EM&gt;Kartičky (adaptívne)&lt;/EM&gt;), ktoré umožňuje zhustené zobrazenie kartičiek na monitore (na rovnakej ploche zobrazuje väčší počet kartičiek). 
+&lt;LI&gt;&lt;STRONG&gt;Tabuľky (tabuľkový režim)&lt;/STRONG&gt; - zobrazenie vo forme tabuľky primárne určené pre obsluhu. Objednávky sa zobrazujú vo forme tabuľkových záznamov radených pod sebou, ktoré obsahujú&amp;nbsp;farebné pole signalizujúce stav podľa času vybavenia objednávky, číslo objednávky, názov položky&amp;nbsp;a&amp;nbsp;ikonu kuchára na začiarknutie po vybavení (ukončení prípravy) objednávky. Režim umožňuje&amp;nbsp;aj zapnutie &lt;EM&gt;Režimu pre čašníka aj kuchára&lt;/EM&gt; (v&amp;nbsp;záložke &lt;EM&gt;Systém&lt;/EM&gt;) - zobrazí sa&amp;nbsp;ikona aj&amp;nbsp;pre obsluhu na stlačenie po vynesení objednaného jedla/nápoja. 
+&lt;LI&gt;&lt;STRONG&gt;Fast food výdaj&lt;/STRONG&gt;&amp;nbsp;- zobrazenie pre zákazníka. Objednávky sa zobrazujú vo forme zjednodušeného prehľadu, ktorý obsahuje číslo objednávky, názvy položiek a ich počet, prípadne animované gify symbolizujúce prípravu a vynesenie jedla/nápoja. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Položka, ktorá sa bude zobrazovať na monitore, musí mať na&amp;nbsp;&lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;skladovej karte&lt;/A&gt;&amp;nbsp;(záložka &lt;I&gt;Receptúra&lt;/I&gt;) zadané&amp;nbsp;&lt;STRONG&gt;číslo bonovacej tlačiarne&lt;/STRONG&gt;, ktorú bude zastupovať. Toto číslo je potrebné zadať aj v&amp;nbsp;nastaveniach bonovacieho monitora. V&amp;nbsp;prípade použitia bonovacieho monitora namiesto bonovacej tlačiarne &lt;STRONG&gt;sa už bonovacia tlačiareň nepridáva medzi zariadenia&lt;/STRONG&gt; v&amp;nbsp;systéme OBERON. Na sprevádzkovanie je potrebné &lt;STRONG&gt;nastaviť automatickú úlohu&lt;/STRONG&gt;. Viac informácií o inštalácii a nastavení bonovacieho monitora&amp;nbsp;získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="2a7fe044-bfb5-45f5-b288-2aedb71f7999"&gt;Inštalácia bonovacieho monitora&lt;/A&gt;. 
+&lt;LI&gt;Každá položka zobrazená na monitore&amp;nbsp;sa automaticky zapisuje do&amp;nbsp;&lt;A href="83d00926-652d-4ae9-8cba-997d462fac7d"&gt;bonovacej knihy&lt;/A&gt;. 
+&lt;LI&gt;Systém môže fungovať aj na viacerých monitoroch súčasne - jeden monitor v bare, na ktorom sa budú zobrazovať len objednávky na nápoje, ďalší monitor v kuchyni, kde sa budú zobrazovať len jedlá. 
+&lt;LI&gt;Obsluha v kuchyni môže meniť poradie jednotlivých objednávok.&amp;nbsp;V prípade, že bonovací monitor nie je dotykový, na ovládanie monitora a nastavenie príznakov prípravy jedla a jeho vynesenia sa používa &lt;STRONG&gt;ďalší tablet alebo dotykový monitor&lt;/STRONG&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Ďalšie informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Systém bonovacích monitorov umožňuje v záložke &lt;EM&gt;Systém&lt;/EM&gt; nastaviť &lt;STRONG&gt;prehrávanie zvuku&lt;/STRONG&gt; pri novej objednávke, resp. pri zmene stavu položky, prípadne&amp;nbsp;použitie tmavého/svetlého režimu zobrazenia. 
+&lt;LI&gt;Objednávkam je možné v&amp;nbsp;záložke &lt;EM&gt;Správanie&lt;/EM&gt; nastaviť dĺžku zobrazenia položky alebo&amp;nbsp;objednávky po vybavení (v sekundách) a&amp;nbsp;stavy, ktoré objednávky nadobudnú v závislosti od času vybavenia&amp;nbsp;objednávky (v minútach). Stavy sú farebne odlíšené - krátky &lt;SPAN style="COLOR: rgb(0,176,80)"&gt;&lt;STRONG&gt;zelenou&lt;/STRONG&gt;&lt;/SPAN&gt;, stredný &lt;SPAN style="COLOR: rgb(247,150,70)"&gt;&lt;STRONG&gt;oranžovou&lt;/STRONG&gt;&lt;/SPAN&gt; a dlhý &lt;SPAN style="COLOR: rgb(255,0,0)"&gt;&lt;STRONG&gt;červenou&lt;/STRONG&gt;&lt;/SPAN&gt; farbou. 
+&lt;LI&gt;V&amp;nbsp;záložke &lt;EM&gt;Vzhľad&lt;/EM&gt; je ďalej možné nastaviť veľkosť textu hlavičky (kartičky), veľkosť textu položky objednávky a&amp;nbsp;výšku riadka textu položky objednávky. 
+&lt;LI&gt;Osobitne pre režim &lt;EM&gt;&lt;STRONG&gt;Kartičky&lt;/STRONG&gt;&lt;/EM&gt; a&amp;nbsp;pre režim &lt;STRONG&gt;&lt;EM&gt;Kartičky (adaptívne)&lt;/EM&gt;&lt;/STRONG&gt; je možné nastaviť počet kartičiek v jednom riadku, šírku farebného označenia kategórie menu&amp;nbsp;a zobrazovanie súhrnu objednávok (nastavenie v osobitnom paneli zobrazí zoznam položiek s počtom ich objednávok). Okrem toho možno nastaviť zobrazovanie používateľa a&amp;nbsp;poradového čísla dokladu v&amp;nbsp;hlavičke kartičky. Pre režim &lt;EM&gt;&lt;STRONG&gt;Kartičky (adaptívne)&lt;/STRONG&gt;&lt;/EM&gt; je okrem toho možné nastaviť počet&amp;nbsp;položiek objednávky do roztiahnutia na zhustené zobrazenie kartičiek na monitore. 
+&lt;LI&gt;Pre režim &lt;EM&gt;&lt;STRONG&gt;Fast food výdaj&lt;/STRONG&gt;&lt;/EM&gt; možno nastaviť zobrazenie animovaných gifov zvlášť pre pripravované objednávky a objednávky čakajúce na vynesenie. 
+&lt;LI&gt;Systém bonovacích monitorov umožňuje zobrazenie tak aktívnych, ako aj zrušených objednávok jedál/nápojov (storn). &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt; 
+&lt;P&gt;Postup inštalácie bonovacieho monitora je uvedený v téme &lt;A href="2a7fe044-bfb5-45f5-b288-2aedb71f7999"&gt;Inštalácia bonovacieho monitora&lt;/A&gt;.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H5&gt;Obrázok č. 1: Bonovací monitor v kartičkovom režime zobrazenia - takúto obrazovku môže vidieť kuchár, prípadne čašník&lt;/H5&gt;
+&lt;P&gt;&lt;IMG style="BORDER-TOP: black 1px solid; HEIGHT: 476px; BORDER-RIGHT: grey 1px solid; WIDTH: 911px; BORDER-BOTTOM: grey 1px solid; BORDER-LEFT: grey 1px solid" border=0 alt="" src="images/CashRegister/KitchenDisplay_Cards.png" width=1921 height=905&gt;&lt;/P&gt;
+&lt;H5&gt;&amp;nbsp;Obrázok č. 2: Tabuľkový&amp;nbsp;režim - takúto obrazovku môže vidieť čašník, prípadne kuchár&lt;/H5&gt;
+&lt;P&gt;&lt;IMG style="BORDER-TOP: black 1px solid; BORDER-RIGHT: grey 1px solid; BORDER-BOTTOM: grey 1px solid; BORDER-LEFT: grey 1px solid" border=0 alt="" src="images/CashRegister/KitchenDisplay_Table.png"&gt;&lt;/P&gt;
+&lt;H5&gt;Obrázok č. 3: Režim &lt;EM&gt;Fast food výdaj&lt;/EM&gt; - takúto obrazovku vidí zákazník&lt;/H5&gt;
+&lt;P&gt;&lt;IMG style="BORDER-TOP: black 1px solid; HEIGHT: 483px; BORDER-RIGHT: grey 1px solid; WIDTH: 797px; BORDER-BOTTOM: grey 1px solid; BORDER-LEFT: grey 1px solid" border=0 alt="" src="images/CashRegister/KitchenDisplay_Fastfood.png" width=1921 height=1081&gt;&amp;nbsp;&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="e9959972-2cc8-4df9-be81-0894c4e21a89" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="de37c038-dda7-44e6-bb5a-4b73832e69a1">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="95c2ae7f-7b74-4b08-8287-80eeebc855d0" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="b9d7c873-7b63-4210-86fe-ab1c66ea6502">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="44638501-92e5-49a5-8a0d-9a700311aa55" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="69bbd499-45c0-4b0f-8f7a-c53fa5d70c1b">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="0978f4d9-d6fe-4948-88fd-48a11eb1b622" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="942d48d5-b290-40f6-8ba3-45cf78f380f9">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="dd33a98d-c305-455b-907c-dfff77974a1d" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="2a7fe044-bfb5-45f5-b288-2aedb71f7999">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="85b96ecb-37f0-4d59-b982-0f178945037e">
+      <Keyword m="2021-10-08T12:28:07.3336152Z">Bonovací monitor</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="9a651c76-4602-4dad-85b2-95d7a0a9c8d9">
+      <Keyword m="2021-10-08T12:29:22.4239197Z">Monitor do kuchyne</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="2a22b182-0eeb-4975-a518-f955fbad8e5a">
+      <Keyword m="2021-10-08T12:28:35.1049442Z">Objednávkový monitor</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="9da888f3-520f-4a35-8049-d0ac0c4d892e">
+      <Keyword m="2021-10-08T12:29:56.740545Z">Kuchyňa - bonovacie monitory</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="abb97a9c-c567-4d4f-87ae-40b6bb8c349d">
+      <Keyword m="2021-10-08T12:30:12.7343928Z">Bar - bonovacie monitory</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="f60919eb-ebf1-4bfc-81e7-fe6681033d94">
+      <Keyword m="2021-10-08T12:38:39.9039898Z">Displej bonovací</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="fd060056-e782-4c56-abf9-2967e6fa4dca">
+      <Keyword m="2021-10-08T12:38:59.0520242Z">Interaktívna obrazovka do kuchyne/baru</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="b90ca616-7347-4c4e-a75c-c0791e9fe9d6">
+      <Keyword m="2021-10-08T12:39:07.1154459Z">KDS</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="1486965c-571b-411e-9ce6-ce09a003e81e">
+      <Keyword m="2021-10-08T12:39:16.517849Z">Kitchen Display System</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="58989664-75ee-4cf4-83a9-a2dd8ea3ce9c">
+      <Keyword m="2021-10-08T12:39:27.3123012Z">Kuchynský monitor</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="465a3c1c-b75a-46af-8159-c20b199f5566">
+      <Keyword m="2021-10-08T12:39:39.7194813Z">Monitor bonovací</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="23a3a15b-5faa-4548-9828-f8d74c65ba33">
+      <Keyword m="2021-10-11T07:18:48.5344519Z">Kartičky - bonovacie monitory</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="738dcb0f-7a68-4d27-873d-c72f0733fcc3">
+      <Keyword m="2021-10-11T07:19:09.4418282Z">Tabuľka - bonovacie monitory</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="dafc5d4c-f9de-43e5-8953-27babc83fdf9">
+      <Keyword m="2021-10-11T07:19:24.077431Z">Fast food výdaj - bonovacie monitory</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="9752d9ab-fec9-4864-add3-bab6a4aa44c3" Status="Complete" CreatedOn="2024-10-04T13:24:08.9411847Z" ModifiedOn="2024-12-19T08:34:12.0521631Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="OBERON_Businesses_PayrollCompanies" BuildFlags="">
+  <Title m="2024-10-04T13:24:53.1321734Z">OBERON pre mzdové firmy</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-12-19T08:34:12.0521631Z">&lt;TABLE&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TD bgColor=white width="10%" align=left cellpadding="15" cellspacing="15"&gt;&lt;IMG style="MARGIN-TOP: 35px; FLOAT: left; MARGIN-RIGHT: 20px" border=0 alt="" src="images/OBERON/Basic/OBERON_WagesCompanies.png"&gt;&lt;/TD&gt;
+&lt;TD style="TEXT-ALIGN: left; PADDING-TOP: 10px" bgColor=white width="85%"&gt;
+&lt;P&gt;Malé a&amp;nbsp;stredne veľké&amp;nbsp;firmy, pre ktoré je systém OBERON určený,&amp;nbsp;možno&amp;nbsp;rozdeliť podľa oblastí, na ktoré sú zamerané - tzv. odborových zameraní. Prehľad&amp;nbsp;najčastejších odborových zameraní, v&amp;nbsp;rámci ktorých je vhodné používať systém OBERON, je dostupný v&amp;nbsp;téme&amp;nbsp;&lt;A href="a9d046bb-1f84-4530-8215-dda2b66b2cae" style="auto-update-caption: true"&gt;Pre koho je OBERON určený?&lt;/A&gt; Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje&amp;nbsp;&lt;STRONG&gt;prehľad špecifických evidencií, funkcií a&amp;nbsp;nástrojov&lt;/STRONG&gt;, ktoré môžu v OBERON-e využívať účtovné jednotky (firmy) v&amp;nbsp;rámci&amp;nbsp;odborového zamerania&amp;nbsp;&lt;EM&gt;&lt;STRONG&gt;Mzdové&lt;/STRONG&gt;&lt;/EM&gt; &lt;EM&gt;&lt;STRONG&gt;firmy&lt;/STRONG&gt;&lt;/EM&gt;.&amp;nbsp;&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Do okruhu&amp;nbsp;odborových zameraní, pre ktoré je systém OBERON určený,&amp;nbsp;patria aj&amp;nbsp;&lt;STRONG&gt;mzdové firmy, ktoré spracúvajú mzdovú agendu&amp;nbsp;pre veľký počet ďalších firiem&lt;/STRONG&gt;. 
+&lt;LI&gt;Systém OBERON obsahuje &lt;STRONG&gt;celý rad základných funkcií, možností a vlastností, ktoré sú nevyhnutné&lt;/STRONG&gt; pre správu agendy každej účtovnej jednotky (firmy). Tie, ktoré sú určené pre mzdové firmy, sú &lt;STRONG&gt;podrobne popísané&lt;/STRONG&gt; v&amp;nbsp;témach s&amp;nbsp;názvom &lt;EM&gt;&lt;STRONG&gt;Základné možnosti&lt;/STRONG&gt;&lt;/EM&gt;&amp;nbsp;(&lt;A href="4637ee90-9b44-4ba9-b816-66f0f601fddb"&gt;Mzdy - základné možnosti&lt;/A&gt;,&amp;nbsp;&lt;A href="5387f5a3-4949-4456-95ca-18cc05004cec"&gt;Dochádzka - základné možnosti&lt;/A&gt;...). 
+&lt;LI&gt;Základné evidencie, číselníky&amp;nbsp;a nastavenia sú sústredené najmä do dvoch ponúk programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;: do ponuky &lt;EM&gt;&lt;STRONG&gt;Servis&lt;/STRONG&gt;&lt;/EM&gt; a do ponuky &lt;EM&gt;&lt;STRONG&gt;Firma&lt;/STRONG&gt;&lt;/EM&gt;. Tu možno napr. evidovať údaje o firme, heslá ktoré používa, bankové účty, účtovné pokladne, obchodných partnerov firmy, jej pracovníkov, používateľov, ktorí budú s programom pracovať atď. 
+&lt;LI&gt;V nasledujúcej časti&amp;nbsp;je uvedený &lt;STRONG&gt;prehľad špecifických evidencií, funkcií a&amp;nbsp;nástrojov&lt;/STRONG&gt;, ktoré môžu v&amp;nbsp;OBERON-e využiť &lt;STRONG&gt;mzdové firmy&lt;/STRONG&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;
+&lt;H1&gt;Evidencie, funkcie a nástroje špecifické pre mzdové firmy&lt;/H1&gt;
+&lt;H2&gt;Mzdy&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Preddefinované typy pracovných pomerov&lt;/STRONG&gt; -&amp;nbsp;spravidla postačujú pre 90&amp;nbsp;% pracovnoprávnych vzťahov, prípadne si podľa potreby možno definovať&amp;nbsp;vlastné &lt;A href="c244d752-1bd6-48c8-aaed-e52c71d41f26"&gt;typy pracovných pomerov&lt;/A&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;Preddefinované mzdové predkontácie&amp;nbsp;&lt;/STRONG&gt;-&amp;nbsp;na jednoduché zadávanie mzdových zložiek (výberom zo zoznamu alebo&amp;nbsp;súčinom sumy a&amp;nbsp;čísla predkontácie), možnosť definovať&amp;nbsp;ďalšie&amp;nbsp;&lt;A href="fc8d8173-0da0-459a-b570-587597ce3315"&gt;mzdové predkontácie&lt;/A&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;Predvypočítané mzdy&lt;/STRONG&gt;&amp;nbsp;- možnosť pracovať s&amp;nbsp;predvypočítanými mzdami pracovníkov na základe nastavení&amp;nbsp;&lt;A href="3fced304-5201-4497-bb58-104c1fd77990"&gt;pracovných pomerov&lt;/A&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;Sledovanie rozpracovanosti miezd&lt;/STRONG&gt; - pri mzde pracovníka možno evidovať&amp;nbsp;rôzne stavy a štádiá jej rozpracovanosti - nespracovaná mzda, koncept, spracovaná a&amp;nbsp;podpísaná (odsúhlasená) mzda. 
+&lt;LI&gt;&lt;STRONG&gt;Súbeh viacerých pracovných pomerov&lt;/STRONG&gt; - výpočet mzdy pri súbehu viacerých pracovných pomerov. 
+&lt;LI&gt;&lt;STRONG&gt;Automatický prepočet odpracovaných hodín&lt;/STRONG&gt; - napr. pri zadaní nemocenskej dávky sa automaticky upraví počet odpracovaných dní a hodín. 
+&lt;LI&gt;&lt;STRONG&gt;Automatické generovanie&lt;/STRONG&gt; &lt;A href="1288dcf2-9f76-4fc6-941a-1d03361bf937"&gt;&lt;STRONG&gt;príkazov na úhradu&lt;/STRONG&gt;&lt;/A&gt; - aj so súbormi pre&amp;nbsp;&lt;A href="ef8ec592-c1af-45af-92b7-8734ce46e0f5"&gt;internetbanking&lt;/A&gt; a tvorba potrebných tlačových výstupov a&amp;nbsp;exportov údajov pre finančnú správu&lt;EM&gt;,&amp;nbsp;Sociálnu poisťovňu&lt;/EM&gt; a&amp;nbsp;zdravotné poisťovne. 
+&lt;LI&gt;&lt;STRONG&gt;Jednoduché storno mzdy&lt;/STRONG&gt; -&amp;nbsp;mzda a manuálne zadané mzdové zložky sa vymažú z databázy, pričom sa mzda opätovne prepočíta podľa pracovného pomeru (prípadne evidencie dochádzky). 
+&lt;LI&gt;&lt;STRONG&gt;Variabilné rozvrhnutie pracovného času&lt;/STRONG&gt; - možnosť rovnomerného a nerovnomerného rozvrhnutia pracovného času. 
+&lt;LI&gt;&lt;A href="375979c2-cf78-4499-8ba9-30a5e2f1eb23"&gt;&lt;STRONG&gt;Vzory tlačív a výkazov&lt;/STRONG&gt;&lt;/A&gt; - pracovná zmluva, dodatok k pracovnej zmluve, dohoda o vykonaní práce, dohoda o pracovnej činnosti, dohoda o hmotnej zodpovednosti, žiadosť o návštevu lekára atď. 
+&lt;LI&gt;&lt;STRONG&gt;Komunikácia s externými inštitúciami&lt;/STRONG&gt; - možnosť vytvárať zostavovať &lt;A href="375979c2-cf78-4499-8ba9-30a5e2f1eb23"&gt;dokumenty a výkazy&lt;/A&gt;&amp;nbsp;určené na komunikáciu s&amp;nbsp;externými inštitúciami (&lt;EM&gt;Sociálna poisťovňa&lt;/EM&gt;, zdravotné poisťovne, úrad práce, finančná správa...). 
+&lt;LI&gt;&lt;STRONG&gt;Prehľadné grafy&lt;/STRONG&gt;&amp;nbsp;-&lt;EM&gt;&amp;nbsp;Hrubé mzdy, Čerpaná dovolenka, Počet spracovaných miezd, Vývoj miezd za obdobie.&lt;/EM&gt; 
+&lt;LI&gt;&lt;STRONG&gt;Zasielanie výplatných pások&lt;/STRONG&gt; - hromadné&amp;nbsp;&lt;A href="462dcabe-b3eb-4865-8bee-ade16b5faaec"&gt;zaslanie výplatných pások pracovníkom automaticky e-mailom&lt;/A&gt; ako PDF príloh (v prípade potreby môžu byť chránené heslom). 
+&lt;LI&gt;&lt;A href="354e86f6-e098-451f-a4d6-2ecf73bce5ee"&gt;&lt;STRONG&gt;Automatické zaúčtovanie miezd&lt;/STRONG&gt;&lt;/A&gt; do účtovného denníka. 
+&lt;LI&gt;&lt;STRONG&gt;Členenie (rozúčtovanie) mzdových nákladov&lt;/STRONG&gt; - podľa&amp;nbsp;&lt;A href="c1379073-007e-434a-a410-d6fde709ff9e"&gt;prevádzok&lt;/A&gt;,&amp;nbsp;&lt;A href="a2d510ea-4cba-46cd-b337-c01fb332cd35"&gt;pracovísk&lt;/A&gt;&amp;nbsp;a&amp;nbsp;tzv.&amp;nbsp;&lt;A href="f68687b5-0939-447b-9f8e-37c883676f1e"&gt;členenia&lt;/A&gt; (stromovej štruktúry).&lt;IMG style="WIDTH: 300px; MARGIN-LEFT: 20px; MARGIN-RIGHT: 20px" border=0 alt="" src="images/Devices/Device_Attendance_EXALOGIC_A-C071S.png" align=right&gt; &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Dochádzka&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;A href="3883342c-9ef0-4fd9-8773-88df84f78f65"&gt;&lt;STRONG&gt;Evidencia dochádzky pracovníkov&lt;/STRONG&gt;&lt;/A&gt; - spolu s&amp;nbsp;vytvorením podkladov pre spracovanie mzdy. Možnosť viesť tak&amp;nbsp;evidenciu&amp;nbsp;dochádzky, ako aj&amp;nbsp;pracovného času zamestnancom,&amp;nbsp;dohodárom, externým pracovníkom, živnostníkom. 
+&lt;LI&gt;&lt;STRONG&gt;Dochádzkový terminál&lt;/STRONG&gt; - možnosť používať buď hardvérový, alebo&amp;nbsp;softvérový&amp;nbsp;&lt;A href="f46f3a8f-ba04-4359-ba99-dc6caeeba021"&gt;dochádzkový terminál&lt;/A&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;Automatické spracovanie príchodov a odchodov&lt;/STRONG&gt; zaznamenaných na dochádzkovom termináli a tvorba podkladov na spracovanie miezd. 
+&lt;LI&gt;&lt;STRONG&gt;Prestávky v práci&lt;/STRONG&gt; - automatické generovanie&amp;nbsp;&lt;A href="a706e5ad-4717-472f-b1a3-9b368ef39aa4"&gt;prestávok v práci&lt;/A&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;Variabilné spracovanie nadčasov&lt;/STRONG&gt; - možnosť variabilne spracovávať&amp;nbsp;&lt;A href="376de250-3bb9-4979-9efd-9feb648ea91f"&gt;nadčasy&lt;/A&gt; (nepreplácať, tvoriť náhradné voľno, preplatiť ako odmeny a pod.). 
+&lt;LI&gt;&lt;STRONG&gt;Výrazné uľahčenie práce&lt;/STRONG&gt; &lt;STRONG&gt;pri mzdovom účtovníctve&lt;/STRONG&gt; - výpočet hodín práce v&amp;nbsp;nočnej zmene, práce v sobotu a nedeľu a pod. a následný automatický výpočet príplatkov za tieto dni (hodiny). 
+&lt;LI&gt;&lt;STRONG&gt;Prítomní pracovníci&lt;/STRONG&gt; - prehľad o aktuálnej&amp;nbsp;&lt;A href="77f4529f-a73f-4a6d-b4fe-02d338cbdafa"&gt;prítomnosti pracovníkov&lt;/A&gt; na pracovisku. 
+&lt;LI&gt;&lt;STRONG&gt;Automatické notifikácie&lt;/STRONG&gt; - možnosť automaticky zasielať&amp;nbsp;&lt;A href="7eb22e77-fa37-4bce-a53a-4d6382202041"&gt;notifikácie o meškajúcich pracovníkoch&lt;/A&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;Generovanie dochádzky&lt;/STRONG&gt; - pri práci bez dochádzkového terminálu možnosť spolu s&amp;nbsp;pracovným plánom vygenerovať&amp;nbsp;jednotlivým pracovníkom aj dochádzku (zároveň s prestávkou) s možnosťou jej ďalšej úpravy, napr. podľa evidovaných neprítomností. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Ďalšie funkcie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Cloudové riešenia&lt;/STRONG&gt;&amp;nbsp;- na bezproblémový prístup&amp;nbsp;môžu byť databázy jednotlivých&amp;nbsp;firiem uložené v cloude.&amp;nbsp;K&amp;nbsp;dispozícii je viacero cloudových riešení:&amp;nbsp;&lt;A href="cd4b8ec5-af3b-4964-8330-cdb144f66307"&gt;OBERON Cloud&lt;/A&gt; od spoločnosti &lt;EM&gt;GLOBERG:Digital&lt;/EM&gt; vhodný najmä pre účtovné, resp. mzdové firmy,&amp;nbsp;&lt;A href="b2fd5a00-627a-4bb5-a28c-f6b923ddcdc6"&gt;OBERON Data Cloud&lt;/A&gt; od firmy &lt;EM&gt;ENGINE Slovakia&lt;/EM&gt;, prípadne ďalšie (napr. od &amp;nbsp;&lt;A href="089202e5-faad-43b4-8972-aeaaa9abd86f"&gt;Websupportu&lt;/A&gt;). 
+&lt;LI&gt;&lt;STRONG&gt;Multilicencia&lt;/STRONG&gt; - pre mzdové firmy je určený osobitný druh licencie - tzv.&amp;nbsp;&lt;A href="644b0685-defe-4ce5-b3cd-e731b5eff299"&gt;multilicencia&lt;/A&gt;, s&amp;nbsp;ktorou môžu spracúvať mzdovú agendu pre neobmedzené množstvo&amp;nbsp;menších firiem. 
+&lt;LI&gt;&lt;A href="f1a6963d-36aa-4134-92a5-fa47a4345e74"&gt;&lt;STRONG&gt;CRM&lt;/STRONG&gt;&lt;/A&gt; - riadenie vzťahov so zákazníkmi a sledovanie obchodných prípadov. 
+&lt;LI&gt;&lt;A href="c1e2e5a1-2cf4-47aa-a546-47d5baa1df3e"&gt;&lt;STRONG&gt;Elektronický podpis&lt;/STRONG&gt;&lt;/A&gt; - automatické podpisovanie a overovanie pravosti elektronických dokumentov (PDF, XML) s vložením podpísaného PDF dokumentu ako prílohy do e-mailu. 
+&lt;LI&gt;&lt;A href="68a24d97-e4a5-4cf4-bc7a-72262df5973e"&gt;&lt;STRONG&gt;Elektronický archív&lt;/STRONG&gt;&lt;/A&gt;&amp;nbsp;- veľmi užitočným pre každú účtovnú jednotku môže byť&amp;nbsp;elektronický archív, ktorý umožňuje v&amp;nbsp;elektronickej forme uschovávať aj mzdovú dokumentáciu účtovných jednotiek (firiem). 
+&lt;LI&gt;&lt;A href="dcd3c480-994c-477d-9fc7-17af717ade13" style="auto-update-caption: true"&gt;&lt;STRONG&gt;Správca hesiel&lt;/STRONG&gt;&lt;/A&gt;&amp;nbsp;- užitočným nástrojom je aj&amp;nbsp;&lt;EM&gt;Správca hesiel&lt;/EM&gt;&amp;nbsp;určený na správu hesiel účtovnej jednotky a&amp;nbsp;ich zdieľanie&amp;nbsp;(napr. konateľ firmy môže zdieľať heslo do internetbankingu so mzdovou&amp;nbsp;účtovníčkou). 
+&lt;LI&gt;&lt;A href="04d2db16-08ec-459e-b5c9-71dd3a9f9e2f"&gt;&lt;STRONG&gt;Jazykové verzie&lt;/STRONG&gt;&lt;/A&gt; - zahŕňajú jazykové verzie programu (preklady názvov&amp;nbsp;jednotlivých položiek menu, názvov záložiek, tlačidiel atď., hlásenia v programe a&amp;nbsp;tlačové výstupy) a jazykové verzie údajov (preklady dát evidovaných v databáze účtovnej jednotky). &lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="4bb216ac-64cd-426d-8686-af6b2abe590d" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="ff101cdb-97bb-4962-b99a-6347d95ff311">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="c23b0ab7-0dde-429b-b0fb-5e6331745f36" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="a9d046bb-1f84-4530-8215-dda2b66b2cae">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="fec3ccc3-3d2b-4dd1-9c0a-4f953625b494" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="4637ee90-9b44-4ba9-b816-66f0f601fddb">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="6fbe484a-97c5-4aa8-a25e-7b97a57789ed" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="5387f5a3-4949-4456-95ca-18cc05004cec">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="e3970730-1ba7-4878-9961-673bf6007cc0" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="95d188df-c149-46a9-8474-4d9493f2ad41">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="cdcca6f1-0a5c-4bb1-a0d0-fedb7c40e5af" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="40c83e5f-22aa-4ba5-b4c1-35938f90fac2">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="6a0e8fcf-fc8e-4f6b-969c-024ae15aeae1" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="04d2db16-08ec-459e-b5c9-71dd3a9f9e2f">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="322cb5b6-8b89-45cd-a442-ad5ca1b53df0">
+      <Keyword m="2024-10-28T07:04:16.2693537Z">Mzdové firmy - pre koho je OBERON určený</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

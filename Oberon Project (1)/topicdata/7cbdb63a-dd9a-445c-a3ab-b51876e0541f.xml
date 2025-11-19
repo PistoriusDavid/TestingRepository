@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="7cbdb63a-dd9a-445c-a3ab-b51876e0541f" Status="Complete" CreatedOn="2014-09-08T12:53:49.2184394Z" ModifiedOn="2023-10-25T12:04:17.3971168Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="22412" Name="Menu_Service_Database_Transfer" BuildFlags="">
+  <Title m="2014-09-08T12:54:24.6834679Z">Prevod do novej databázy</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-10-25T12:04:17.3971168Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;je venovaná&amp;nbsp;položke&amp;nbsp;&lt;EM&gt;Prevod do novej databázy&lt;/EM&gt;&amp;nbsp;v ponuke&amp;nbsp;&lt;EM&gt;Servis&lt;/EM&gt; programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;. Položka je dostupná len pre&amp;nbsp;&lt;A href="225638ed-22f6-4ac4-9085-6d77c64925db"&gt;používateľov&lt;/A&gt; s&amp;nbsp;príznakom &lt;EM&gt;Administrátor&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Výberom položky sa otvorí&amp;nbsp;sprievodca &lt;EM&gt;Prevod do novej databázy&lt;/EM&gt;,&amp;nbsp;ktorý umožňuje vykonať prevod aktuálnej databázy do novej. Ide o&amp;nbsp;&lt;STRONG&gt;servisnú funkciu, ktorá umožňuje odstrániť problémy s&amp;nbsp;&lt;/STRONG&gt;&lt;A href="a5cb5e1d-b643-4229-b77a-26caeb479aa9"&gt;poškodenou databázou&lt;/A&gt;&lt;STRONG&gt;.&lt;/STRONG&gt; 
+&lt;LI&gt;Funkcia je určená &lt;STRONG&gt;tak pre súborovú databázu &lt;EM&gt;Microsoft Access&lt;/EM&gt;, ako aj SQL server&lt;/STRONG&gt; (&lt;EM&gt;MariaDB&lt;/EM&gt;, &lt;EM&gt;MySQL Server,&lt;/EM&gt; &lt;EM&gt;Microsoft SQL Server&lt;/EM&gt;). 
+&lt;LI&gt;Funkciu možno použiť najmä v&amp;nbsp;prípadoch neopraviteľného poškodenia databázy a pri problémoch pri tlači, keď je&amp;nbsp;databáza funkčná, ale má narušenú vnútornú štruktúru. Pri súborovej databáze &lt;EM&gt;Microsoft Access&lt;/EM&gt; sa spravidla&amp;nbsp;používa v nadväznosti na inú servisnú funkciu -&amp;nbsp;&lt;EM&gt;&lt;STRONG&gt;Údržbu databázy&lt;/STRONG&gt; &lt;STRONG&gt;Microsoft Access&lt;/STRONG&gt;&lt;/EM&gt; (dostupnú vo&amp;nbsp;&lt;A href="d2b25c8c-d57f-4678-8021-3148259d3777"&gt;formulári Otvorenie agendy (firmy)&lt;/A&gt;, ktorá je určená na opravu štruktúry databázových tabuliek a&amp;nbsp;defragmentáciu&amp;nbsp;údajov&amp;nbsp;databázového súboru (s&amp;nbsp;príponou&amp;nbsp;MDB) na odstránenie stavu&amp;nbsp;poškodenia&amp;nbsp;databázy v&amp;nbsp;dôsledku&amp;nbsp;poruchy počítača, výpadku napájania počítača, poruchy operačného systému počas prevádzky programu alebo pri zlyhaní sieťovej konektivity v&amp;nbsp;prípade sieťovej prevádzky. 
+&lt;LI&gt;Prevodom do novej databázy sa vytvorí nová prázdna databáza, do ktorej sa následne prevedú všetky údaje z&amp;nbsp;aktuálnej databázy. &lt;SPAN style="COLOR: rgb(255,0,0)"&gt;Pri použití tejto funkcie nesmú s databázou pracovať iní&amp;nbsp;používatelia&lt;/SPAN&gt;. 
+&lt;LI&gt;Sprievodca prevodom umožňuje &lt;STRONG&gt;zmeniť spôsob prevodu údajov&lt;/STRONG&gt;, a to v prípade, že predchádzajúci prevod bol z dôvodu poškodenia údajov v&amp;nbsp;niektorých databázových tabuľkách neúspešný. Z tohto dôvodu je možné určiť databázové tabuľky, ktorých údaje&amp;nbsp;sa neprevedú. 
+&lt;LI&gt;Pri prevode do novej databázy sa môže&amp;nbsp;vykonať&amp;nbsp;dočasná záloha aktuálnej databázy (pri súborovej databáze &lt;EM&gt;Microsoft Access&lt;/EM&gt; sa uloží do adresára &lt;EM&gt;C:\OBERON\Temp&lt;/EM&gt;, pri SQL serveri zálohu predstavuje pôvodná databáza). Pred použitím funkcie však aj tak odporúčame&amp;nbsp;&lt;A href="ee4036d9-55fd-40ee-ab76-69337f16b1cc"&gt;zálohovanie databázy&lt;/A&gt;! V prípade problémov s databázou po prevode údajov (napr. chýbajúce záznamy) sa tak bude možné&amp;nbsp;k&amp;nbsp;pôvodnej databáze&amp;nbsp;&lt;A href="c47b2846-a02e-4066-992b-cc976cd8a717"&gt;jednoducho vrátiť&lt;/A&gt;. 
+&lt;LI&gt;Po ukončení prevodu do novej databázy (môže trvať niekoľko minút až hodín v závislosti od veľkosti databázy) sa zobrazí správa o priebehu. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Informácie, ako postupovať pri poškodenej databáze,&amp;nbsp;získate v téme &lt;A href="a5cb5e1d-b643-4229-b77a-26caeb479aa9"&gt;Poškodená databáza&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="e70773d1-b43b-4ec6-825e-43962a2d8f7f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="0b81f4ea-5e68-48c1-8b89-933d5a23d962">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="ae17a5e2-a06a-43b5-be6c-bcb6b6479548" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="a5cb5e1d-b643-4229-b77a-26caeb479aa9">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="da810546-7cc2-4555-b775-12e2d4cfd2dc" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="e975459f-e882-49f2-adb9-79e68a07df0e">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="bf6bc6da-d7e0-4325-8d76-47255c2cb1c4" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="493f5942-f267-4f98-a46d-8acc745b9b88">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="532f2bcd-82b0-419b-bda4-1438ac6b8fb1" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="c47b2846-a02e-4066-992b-cc976cd8a717">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="f4fce325-8e55-43d1-8e28-f7ca593a7adf">
+      <Keyword m="2022-02-03T10:52:53.3501847Z">Chyba databázy - prevod do novej databázy</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="3e4f78c5-c175-43cc-8398-d29071b061eb">
+      <Keyword m="2022-02-03T10:53:30.2665411Z">Databáza - prevod do novej</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="a0516f66-c653-4de9-a6fa-e5607b8c7d6c">
+      <Keyword m="2022-02-03T10:52:41.9503876Z">Zálohovanie - prevod do novej databázy</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="768873e2-97c2-4286-a7ea-33bb598adbfe">
+      <Keyword m="2022-02-03T10:53:07.834793Z">Poškodená databáza - prevod do novej databázy</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

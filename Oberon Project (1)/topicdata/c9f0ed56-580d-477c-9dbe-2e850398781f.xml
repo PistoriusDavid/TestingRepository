@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="c9f0ed56-580d-477c-9dbe-2e850398781f" Status="Complete" CreatedOn="2014-09-11T07:57:21.4164273Z" ModifiedOn="2022-12-08T08:51:53.1901752Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="AccDouble_Acc_Stock_Accounting_Method_A" BuildFlags="">
+  <Title m="2014-09-11T07:58:14.2404487Z">Účtovanie spôsobom A</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2022-12-08T08:51:53.1901752Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; je venovaná&amp;nbsp;&lt;A href="a00f332d-33c1-411f-9a2a-4116c3e783ef"&gt;účtovaniu skladu&lt;/A&gt; &lt;STRONG&gt;spôsobom A&lt;/STRONG&gt;. Nákup&amp;nbsp;a predaj zásob sa pri tomto spôsobe&amp;nbsp;účtuje na účty skladu (účty &lt;STRONG&gt;112&lt;/STRONG&gt;, &lt;STRONG&gt;132&lt;/STRONG&gt;).&amp;nbsp;Prírastky a úbytky v zásobách sa spravidla&amp;nbsp;účtujú&amp;nbsp;podľa jednotlivých dokladov. Účtovanie sa vykonáva priebežne počas celého účtovného roka.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Podstatou &lt;A href="a00f332d-33c1-411f-9a2a-4116c3e783ef"&gt;účtovania skladu&lt;/A&gt;&amp;nbsp;spôsobom A je sústredenie všetkých nákladov vynaložených na obstaranie zásob na &lt;STRONG&gt;majetkových účtoch zásob&lt;/STRONG&gt;. Spotreba zásob sa prejaví v&amp;nbsp;nákladoch v okamihu ich skutočnej spotreby (pri materiáli a tovare) alebo ako zníženie výnosov v okamihu ich vyskladnenia (pri zásobách vlastnej výroby).
+&lt;LI&gt;V OBERON-e&amp;nbsp;pod účtovaním skladu rozumieme&amp;nbsp;účtovanie záznamov z evidencie skladových pohybov. Predpokladom je správne nastavenie predkontácií na skladových kartách, účtovanie sa vykonáva pomocou &lt;A href="41513109-f711-4de5-b494-67671f203dca"&gt;hromadného účtovania dokladov&lt;/A&gt;. Viac informácií získate v&amp;nbsp;téme &lt;A href="e50f9e37-991e-4800-9fc3-3eeb6ce162a7"&gt;Hromadné zaúčtovanie skladu&lt;/A&gt;. 
+&lt;LI&gt;Účtovanie spôsobom (metódou) A je možné vykonávať vo dvoch variantoch:
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;s&amp;nbsp;používaním účtov obstarania -&lt;/STRONG&gt; nákup sa vykonáva&amp;nbsp;pomocou účtov obstarania&amp;nbsp;(111/131)&amp;nbsp;oproti účtu&amp;nbsp;321 - &lt;EM&gt;Dodávatelia&lt;/EM&gt; a následný príjem do skladu (príjemka) preúčtovaním z&amp;nbsp;účtu obstarania na účet skladu (112/111).
+&lt;LI&gt;&lt;STRONG&gt;bez účtov obstarania&lt;/STRONG&gt; - nákup sa vykonáva priamo na účty skladu, napr. 112/321. Na rozdiel od používania účtov obstarania tu nemá účtovná jednotka&amp;nbsp;presný prehľad o nevyfakturovaných príjemkách. Účtovníctvo (účtovný denník a výkazy z neho) síce neposkytuje informáciu o nevyfakturovaných&amp;nbsp;príjemkách (dodacích&amp;nbsp;listoch),&amp;nbsp;tento údaj&amp;nbsp;však poskytuje skladová evidencia (v OBERON-e tzv. vysporiadanosť príjemiek/výdajok).&lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Príklady účtovania skladu spôsobom A sú dostupné v&amp;nbsp;téme&amp;nbsp;&lt;A href="7938745b-8087-4417-ac30-c75c697309e7"&gt;Príklady účtovania skladu&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Účtovanie spôsobom A (s použitím účtov obstarania)&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Nakupované zásoby&lt;/STRONG&gt; sa účtujú v účtovnej skupine 11 a 13. V priebehu účtovného obdobia sa zložky obstarávacej ceny nakupovaných zásob účtujú na ťarchu účtu 111&amp;nbsp;- &lt;EM&gt;Obstaranie materiálu&lt;/EM&gt; a 131 - &lt;EM&gt;Obstaranie tovaru&lt;/EM&gt;. 
+&lt;LI&gt;&lt;B&gt;Prevzatie materiálu a tovaru na sklad&lt;/B&gt; sa vykonáva v obstarávacích cenách: 
+&lt;UL&gt;
+&lt;LI&gt;112/111 príjem materiálu na sklad,
+&lt;LI&gt;132/131 príjem tovaru na sklad.&lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Spotreba materiálu a predaj tovaru&lt;/STRONG&gt; sa účtuje na ťarchu účtov skupiny 50 - &lt;EM&gt;Spotrebované nákupy&lt;/EM&gt;, 542 - &lt;EM&gt;Predaný materiál&lt;/EM&gt; so súvzťažným zápisom na účte zásob. 
+&lt;LI&gt;&lt;B&gt;Inventarizačné rozdiely materiálu a tovaru&lt;/B&gt; sa účtujú:
+&lt;UL&gt;
+&lt;LI&gt;na ťarchu účtu 549&amp;nbsp;- &lt;EM&gt;Manká a škody&lt;/EM&gt;,
+&lt;LI&gt;v prospech účtu 648&amp;nbsp;- &lt;EM&gt;Ostatné výnosy z hospodárskej činnosti&amp;nbsp;- prebytky&lt;/EM&gt;,
+&lt;LI&gt;prebytok, ak je preukázateľné, že došlo k chybnému účtovaniu pri ich vyskladnení, sa účtuje v prospech účtov účtovej skupiny 50 – &lt;EM&gt;Spotrebované nákupy&lt;/EM&gt;,
+&lt;LI&gt;skutočný úbytok zásob, ak je preukázateľné, že došlo k chybnému účtovaniu pri ich vyskladnení, sa účtuje na ťarchu účtov účtovej skupiny 50 – &lt;EM&gt;Spotrebované nákupy&lt;/EM&gt;.&lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/OL&gt;
+&lt;H2&gt;Účtovanie spôsobom A (bez účtov obstarania)&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Nakupované zásoby&lt;/STRONG&gt; sa účtujú priamo na účty skladu (ako prevzatie materiálu a tovaru na sklad):
+&lt;UL&gt;
+&lt;LI&gt;112/321 príjem materiálu na sklad,
+&lt;LI&gt;132/321 príjem tovaru na sklad.&lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Spotreba materiálu a predaj tovaru&lt;/STRONG&gt; sa účtuje na ťarchu účtov skupiny 50 - &lt;EM&gt;Spotrebované nákupy&lt;/EM&gt;, 542 - &lt;EM&gt;Predaný materiál&lt;/EM&gt; so súvzťažným zápisom na účte zásob. 
+&lt;LI&gt;&lt;B&gt;Inventarizačné rozdiely materiálu a tovaru&lt;/B&gt; sa účtujú:
+&lt;UL&gt;
+&lt;LI&gt;na ťarchu účtu 549 – &lt;EM&gt;Manká a škody&lt;/EM&gt;,
+&lt;LI&gt;v prospech účtu 648 – &lt;EM&gt;Ostatné výnosy z hospodárskej činnosti&amp;nbsp;- prebytky&lt;/EM&gt;,
+&lt;LI&gt;prebytok, ak je preukázateľné, že došlo k chybnému účtovaniu pri ich vyskladnení, sa účtuje v prospech účtov účtovej skupiny 50 – &lt;EM&gt;Spotrebované nákupy&lt;/EM&gt;,
+&lt;LI&gt;skutočný úbytok zásob, ak je preukázateľné, že došlo k chybnému účtovaniu pri ich vyskladnení, sa účtuje na ťarchu účtov účtovej skupiny 50 – &lt;EM&gt;Spotrebované nákupy&lt;/EM&gt;.&lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/OL&gt;
+&lt;H2&gt;Účtovanie spôsobom A - zásoby vlastnej výroby&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;V priebehu účtovného obdobia sa prírastky zásob vlastnej výroby ocenené vlastnými nákladmi účtujú na ťarchu účtov účtovej skupiny 12 - &lt;EM&gt;Zásoby vlastnej výroby&lt;/EM&gt; so súvzťažným zápisom v prospech príslušných účtov účtovej skupiny 61 - &lt;EM&gt;Zmeny stavu vnútroorganizačných zásob&lt;/EM&gt;.&lt;BR&gt;Pri vyskladnení zásob sa účtuje na ťarchu príslušných účtov účtovej skupiny 61 - &lt;EM&gt;Zmeny stavu vnútroorganizačných zásob&lt;/EM&gt; a v prospech príslušných účtov účtovej skupiny 12 - &lt;EM&gt;Zásoby vlastnej výroby.&lt;/EM&gt; 
+&lt;LI&gt;Inventarizačné rozdiely zásob vlastnej výroby sa účtujú na ťarchu účtu 549 - &lt;EM&gt;Manká a škody&lt;/EM&gt;, ak ide o manká, a v prospech účtov účtovej skupiny 61 - &lt;EM&gt;Zmeny stavu vnútroorganizačných zásob&lt;/EM&gt;, ak ide o prebytky.&lt;BR&gt;Úbytky zásob do výšky noriem prirodzených úbytkov sa účtujú na ťarchu účtov účtovej skupiny 61 - &lt;EM&gt;Zmeny stavu vnútroorganizačných zásob.&lt;/EM&gt; &lt;/LI&gt;&lt;/OL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="c760aeea-dbbd-4e87-92bf-07a6806a2624" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="a00f332d-33c1-411f-9a2a-4116c3e783ef">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="8def6f40-e088-4e87-827b-b568175a95ad" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="e50f9e37-991e-4800-9fc3-3eeb6ce162a7">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="4c6af1e9-6e7b-4a2e-9616-0a9192d34f97" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="b1838751-e53e-4824-bd05-991e16d1eb2a">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="2924badd-b526-4148-8888-f9b83a37beba" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="7938745b-8087-4417-ac30-c75c697309e7">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="3a8834b4-c983-4b2b-8d5d-575db6fdf64b">
+      <Keyword m="2022-12-08T08:42:04.9315402Z">Spôsob A - účtovanie skladu</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="e7dacadc-7810-44a2-8039-01b6a9534b1b">
+      <Keyword m="2022-12-08T08:41:58.7947171Z">Metóda A - účtovanie skladu</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

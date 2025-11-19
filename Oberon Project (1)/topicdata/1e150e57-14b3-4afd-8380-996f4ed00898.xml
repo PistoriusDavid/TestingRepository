@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="1e150e57-14b3-4afd-8380-996f4ed00898" Status="Complete" CreatedOn="2018-03-09T08:09:41.1733193Z" ModifiedOn="2024-02-15T11:39:25.0761281Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Menu_OBERON_TimeSheet" BuildFlags="">
+  <Title m="2018-03-09T08:10:37.3529549Z">Príchod/Odchod</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-02-15T11:39:25.0761281Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;je venovaná&amp;nbsp;položke&amp;nbsp;&lt;EM&gt;Príchod/Odchod&lt;/EM&gt; v ponuke &lt;EM&gt;OBERON&lt;/EM&gt; programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;. Položka je dostupná len v prípade, že je v zozname zariadení systému OBERON (ponuka &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="749ff4f1-eeb5-43f5-98d2-021399d8cec7"&gt;Zariadenia&lt;/A&gt;) nastavený&amp;nbsp;&lt;STRONG&gt;softvérový dochádzkový terminál&lt;/STRONG&gt; &lt;EM&gt;&lt;STRONG&gt;OBERON - Agenda firmy&lt;/STRONG&gt;.&lt;/EM&gt;&lt;/P&gt;
+&lt;H2&gt;Základné informácie&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Systém OBERON podporuje viaceré hardvérové a&amp;nbsp;softvérové&amp;nbsp;dochádzkové terminály na&amp;nbsp;evidenciu príchodov a odchodov pracovníkov, t. j. evidenciu dochádzky. Viac informácií o týchto zariadeniach získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="f46f3a8f-ba04-4359-ba99-dc6caeeba021" style="auto-update-caption: true"&gt;Dochádzkové terminály&lt;/A&gt;. 
+&lt;LI&gt;Výberom položky sa zobrazí &lt;STRONG&gt;softvérový dochádzkový terminál &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;&lt;/STRONG&gt;, ktorý je určený na individuálnu evidenciu dochádzky&amp;nbsp;pracovníkov na ich vlastných počítačoch, napr. pri práci z&amp;nbsp;domu (homeoffice). Keďže sa&amp;nbsp;spúšťa priamo&amp;nbsp;z&amp;nbsp;programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;, na&amp;nbsp;jeho prevádzku nie&amp;nbsp;je potrebné vyhradiť ďalšie hardvérové zariadenie (počítač, tablet), ako pri&amp;nbsp;&lt;A href="6856d140-bbfc-43c6-b0d7-0a6360827bb8"&gt;dochádzkovom termináli OBERON&lt;/A&gt;. 
+&lt;LI&gt;Identifikácia pracovníkov sa realizuje viacerými spôsobmi, a to&amp;nbsp;pomocou: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;prístupového kódu&lt;/STRONG&gt;, 
+&lt;LI&gt;&lt;STRONG&gt;priložením RFID kľúča/karty (kľúčenky) na&amp;nbsp;snímač prístupu&lt;/STRONG&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Na autorizáciu, resp. overenie identity pracovníka je možné použiť &lt;STRONG&gt;heslo&lt;/STRONG&gt;. 
+&lt;LI&gt;V tomto termináli sa nedefinujú pracovníci - všetky potrebné nastavenia sa realizujú v systéme OBERON. 
+&lt;LI&gt;Možnosť evidencie neobmedzeného počtu pracovníkov a záznamov. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Keďže softvérový dochádzkový terminál &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt; je určený na individuálnu evidenciu dochádzky pracovníkov na ich vlastných počítačoch, ako ochrana pred zneužitím pracovníkmi (t. j. posúvaním dátumov a časov príchodov a odchodov) sa pri evidencii dochádzky nepoužíva lokálny čas daného počítača, ale čas počítača, na ktorom beží SQL server (táto funkcia sa vzťahuje len na databázy SQL, nie súborovú databázu &lt;EM&gt;Microsoft Access&lt;/EM&gt;).&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H5&gt;Obrázok č. 1: Dochádzkový terminál &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/Attendance/Form_Attendance_TerminalOBERONAgendafirmy.png"&gt;&amp;nbsp;&lt;/P&gt;
+&lt;H2&gt;Postup nastavenia terminálu&amp;nbsp;&amp;nbsp;&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;Ak ešte nemáte v systéme OBERON vytvorenú (založenú) firmu, vytvorte ju&amp;nbsp;- bližšie informácie nájdete v téme &lt;A href="9a485893-6dd2-44e8-9740-a4cd7083a932" style="auto-update-caption: true"&gt;Vytvorenie účtovnej jednotky (databázy)&lt;/A&gt;. &amp;nbsp;&amp;nbsp;&amp;nbsp; 
+&lt;LI&gt;Spustite program &lt;EM&gt;OBERON - Agenda firmy.&lt;/EM&gt; 
+&lt;LI&gt;Zvoľte ponuku &lt;EM&gt;Servis,&amp;nbsp;&lt;/EM&gt;&lt;A href="749ff4f1-eeb5-43f5-98d2-021399d8cec7"&gt;Zariadenia&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt; stlačte tlačidlo &lt;I&gt;Pridať.&lt;/I&gt; V&amp;nbsp;otvorenom formulári&amp;nbsp; vyberte&amp;nbsp;typ zariadenia&amp;nbsp;&lt;EM&gt;&lt;STRONG&gt;Dochádzkový terminál&lt;/STRONG&gt;&lt;/EM&gt;, zadajte názov zariadenia,&amp;nbsp;vyberte&amp;nbsp;model&amp;nbsp;&lt;EM&gt;&lt;STRONG&gt;OBERON - Agenda firmy&lt;/STRONG&gt;&lt;/EM&gt; a&amp;nbsp;zadajte&amp;nbsp;(vyberte) &lt;STRONG&gt;názov počítača&lt;/STRONG&gt;, ku ktorému sa má zariadenie pripojiť, prípadne zadajte&amp;nbsp;ostatné údaje. 
+&lt;LI&gt;Vykonané nastavenia potvrďte tlačidlom &lt;STRONG&gt;&lt;EM&gt;OK&lt;/EM&gt;&lt;/STRONG&gt;. &lt;/LI&gt;&lt;/OL&gt;&lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Každý používaný dochádzkový terminál musí byť nadefinovaný v zozname zariadení systému OBERON (ponuka &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="749ff4f1-eeb5-43f5-98d2-021399d8cec7"&gt;Zariadenia&lt;/A&gt;). Aby sa mohol pracovník na danom termináli prihlásiť, musí byť v&amp;nbsp;ponuke &lt;EM&gt;Firma&lt;/EM&gt;, resp. &lt;EM&gt;Mzdy,&lt;/EM&gt;&amp;nbsp;&lt;EM&gt;Pracovníci&lt;/EM&gt; priradený k danému pracovníkovi konkrétny dochádzkový terminál. Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="28ad3f59-16f3-4162-a0a6-387778cbc7c3" style="auto-update-caption: true"&gt;Priradenie dochádzkového terminálu pracovníkovi&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="aa8c606c-9d95-46b8-b5f6-86029ab8eef0" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="749ff4f1-eeb5-43f5-98d2-021399d8cec7">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="39a5b047-f446-4d03-854f-a08fed0bce55" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="f46f3a8f-ba04-4359-ba99-dc6caeeba021">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="294b0fe8-62ee-4fa8-9d7d-8783bfbadd2d" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="07a9169a-6739-4fc2-bbd8-959ae5d3b93d">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="13016890-248a-437a-bd8c-1d8e578a256d" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="5bfb1129-550c-42bb-9f72-ba0b3687a2b5">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="02494b5b-962b-4df1-8d59-8ec578b17325" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="28ad3f59-16f3-4162-a0a6-387778cbc7c3">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="edbc5030-a1e7-4669-8624-67f0770555de" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="945e7141-25d7-4e5b-bf76-95cad39c7edb">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="3f3ea158-575c-4aa0-9cf6-c67abba5409f">
+      <Keyword m="2018-04-18T09:32:10.9601953Z">Dochádzkový terminál OBERON - Agenda firmy</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="f058b437-efd3-493d-8262-84eff084a5d5">
+      <Keyword m="2021-05-10T12:55:33.6021189Z">Dochádzkový terminál OBERON - Agenda firmy - inštalácia</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="86f97cef-eaa0-42b9-806b-ba27aa36da0e">
+      <Keyword m="2021-05-10T12:56:47.0293044Z">OBERON - Agenda firmy terminál</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="a1bb89fb-0c8f-4804-bb82-59834678d51f">
+      <Keyword m="2021-05-10T12:57:07.06323Z">OBERON - Agenda firmy - dochádzkový terminál</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

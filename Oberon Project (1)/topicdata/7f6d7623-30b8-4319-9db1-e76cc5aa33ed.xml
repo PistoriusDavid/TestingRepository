@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="7f6d7623-30b8-4319-9db1-e76cc5aa33ed" Status="Complete" CreatedOn="2019-06-20T07:20:58.2092209Z" ModifiedOn="2023-03-27T11:51:20.387382Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="CashRegister_Started_DisplayeKasaStates" BuildFlags="">
+  <Title m="2019-07-01T13:53:59.3825267Z">Stavy pokladnice z hľadiska pripojenia k systému eKasa</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-03-08T13:19:16.2403126Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; je venovaná &lt;STRONG&gt;stavom, ktoré môže&amp;nbsp;nadobúdať pokladnica z&amp;nbsp;hľadiska pripojenia k&amp;nbsp;systému eKasa&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Každá&amp;nbsp;&lt;A href="d9b919e7-20c4-4c50-9910-4f13211ed9a8"&gt;on-line registračná pokladnica&lt;/A&gt; (eKasa pokladnica) &lt;STRONG&gt;musí byť prostredníctvom internetového&amp;nbsp;signálu pripojená k systému eKasa&lt;/STRONG&gt; zriadenému &lt;EM&gt;Finančnou správou SR&lt;/EM&gt;, kam&amp;nbsp;&lt;STRONG&gt;má v reálnom čase&lt;/STRONG&gt; &lt;STRONG&gt;odosielať údaje v podobe&lt;/STRONG&gt; &lt;STRONG&gt;tzv. dátových správ&lt;/STRONG&gt;. 
+&lt;LI&gt;Stabilný internetový signál však na predajnom mieste nemusí byť vždy dostupný. Z hľadiska dostupnosti internetového signálu môžu na predajnom mieste nastať tieto situácie: 
+&lt;UL&gt;
+&lt;LI&gt;na predajnom mieste dochádza ku krátkodobým výpadkom internetového signálu, 
+&lt;LI&gt;predajné miesto je trvalo bez dostupného internetového signálu. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;V&amp;nbsp;závislosti&amp;nbsp;od dostupnosti pripojenia k&amp;nbsp;systému eKasa môže&amp;nbsp;&lt;A href="aec074f4-3e1c-4a1e-8a80-06fcecf51156"&gt;Pokladnica OBERON&lt;/A&gt;&amp;nbsp;nadobúdať &lt;STRONG&gt;rôzne stavy, ktoré sa v grafickej podobe zobrazujú na displeji pokladnice&lt;/STRONG&gt; spolu s&amp;nbsp;prípadným počtom neodoslaných pokladničných dokladov. 
+&lt;LI&gt;Okrem toho sa na displeji pokladnice &lt;STRONG&gt;v grafickej podobe&amp;nbsp;signalizuje&lt;/STRONG&gt;, keď pokladnica obsahuje chybný pokladničný doklad (dátovú správu) alebo&amp;nbsp;pokladnica nie je dostupná (nekomunikuje s&amp;nbsp;OBERON-om). &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Krátkodobý výpadok internetu&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Platná legislatívna úprava v súvislosti s komunikáciou on-line registračnej pokladnice so systémom eKasa ustanovila tzv. &lt;STRONG&gt;hraničnú dobu odozvy&lt;/STRONG&gt; s dĺžkou dvoch sekúnd. Ide o&amp;nbsp;časový úsek od prvého pokusu o odoslanie dátovej správy, počas ktorej je podnikateľ povinný čakať na pridelenie unikátneho identifikátora dokladu zo systému eKasa.&amp;nbsp;Znamená to, že po potvrdení pokladničného dokladu je podnikateľ povinný maximálne&amp;nbsp;dve&amp;nbsp;sekundy čakať na to, aby sa jeho pokladnica prostredníctvom internetu spojila so systémom eKasa&amp;nbsp;a vymenila si s ním údaje. 
+&lt;LI&gt;Ak server finančnej správy neodpovie do&amp;nbsp;dvoch&amp;nbsp;sekúnd, na pokladnici sa vystaví tzv. off-line doklad. Rozdiel bude v tom, že tento pokladničný&amp;nbsp;doklad nebude obsahovať unikátny identifikátor pokladničného dokladu. Namiesto neho na ňom&amp;nbsp;bude&amp;nbsp;podpisový kód podnikateľa, ktorý slúži na identifikáciu podnikateľa. Prostredníctvom neho&amp;nbsp;bude možné overiť pravosť dokladu. 
+&lt;LI&gt;Každý doklad zaevidovaný do pokladnice (či už on-line alebo off-line) sa v podobe dátovej správy uloží do pamäte pokladnice, tzv. &lt;STRONG&gt;ch&lt;/STRONG&gt;ráneného &lt;STRONG&gt;d&lt;/STRONG&gt;átového &lt;STRONG&gt;ú&lt;/STRONG&gt;ložiska (CHDÚ). 
+&lt;LI&gt;Ak teda&amp;nbsp;v prípade dočasného výpadku internetu podnikateľ nebude môcť zaevidovať tržbu v systéme eKasa, dátová správa sa uloží&amp;nbsp;v&amp;nbsp;CHDÚ. Následne je podnikateľ povinný zabezpečiť zaslanie uloženej dátovej správy do systému eKasa &lt;STRONG&gt;najneskôr do&amp;nbsp;96 hodín&lt;/STRONG&gt; od prvého pokusu o jej zaslanie. 
+&lt;LI&gt;V zmysle platnej legislatívy sa neodoslané pokladničné doklady po obnovení internetového pripojenia odosielajú do systému eKasa automaticky na pozadí v závislosti od konkrétnej on-line registračnej pokladnice. Neodoslané doklady je možné zaslať do systému eKasa aj manuálne pomocou tlačidla&amp;nbsp;&lt;EM&gt;Ďalšie možnosti, Odoslať neodoslané doklady na Finančnú správu FS&lt;/EM&gt; v&amp;nbsp;&lt;A href="38489850-ab82-41b6-b258-3fa613ed5861"&gt;systémovom paneli&lt;/A&gt;&amp;nbsp;&lt;EM&gt;Pokladnice OBERON&lt;/EM&gt; (klávesová skratka &lt;EM&gt;Ctrl+A&lt;/EM&gt;). &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;STRONG&gt;Dôležité!&lt;/STRONG&gt; &amp;nbsp;Ak problém s odosielaním údajov do systému eKasa vznikol na strane finančnej správy, lehota na ich odoslanie sa považuje za dodržanú, ak sa do systému eKasa&amp;nbsp; &lt;STRONG&gt;zašlú do&amp;nbsp;96 hodín od zverejnenia oznámenia&lt;/STRONG&gt; &lt;STRONG&gt;o odstránení prekážok&lt;/STRONG&gt; na strane finančnej správy na jej internetovej stránke.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Predajné miesto bez pokrytia&amp;nbsp;internetovým signálom&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Ak na predajnom mieste&amp;nbsp;nie je trvalo dostupný internetový signál, podnikateľ je povinný bez zbytočného odkladu elektronicky podať ktorémukoľvek daňovému úradu &lt;STRONG&gt;žiadosť o povolenie odkladu zo zasielania údajov&lt;/STRONG&gt; z on-line registračnej pokladnice do&amp;nbsp;systému eKasa. Následne daňový úrad vydá v tejto veci rozhodnutie o povolení odkladu. 
+&lt;LI&gt;V prípade, že podnikateľ dostal povolenie na odklad z odosielania údajov, bude naďalej evidovať všetky tržby prostredníctvom registračnej pokladnice, ale &lt;STRONG&gt;v off-line režime&lt;/STRONG&gt;. Následne bude podnikateľ povinný odoslať tieto informácie do systému eKasa, a to&amp;nbsp;&lt;STRONG&gt;najneskôr do 30 dní&lt;/STRONG&gt; &lt;STRONG&gt;od okamihu,&amp;nbsp;keď boli do pamäte pokladnice uložené&lt;/STRONG&gt;. V praxi to znamená, že podnikateľ bude musieť vziať na nejaký čas registračnú pokladnicu na miesto, kde je k dispozícii internetové pripojenie. To bude potrebné už aj na samom začiatku - registračnú pokladnicu si bude musieť zinicializovať rovnako, ako podnikateľ s dostupným internetovým signálom. Pre túto skupinu podnikateľov sú preto vhodnejšie menšie mobilné pokladnice. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Stavy pokladnice&amp;nbsp;&lt;/H2&gt;
+&lt;P&gt;Stavy pokladnice&amp;nbsp;sa zobrazujú na displeji&amp;nbsp;&lt;A href="a6f5e32d-6f1e-40bb-9d15-3f784a183252"&gt;Pokladnice OBERON&lt;/A&gt;&amp;nbsp;v&amp;nbsp;grafickej podobe, pričom v závislosti&amp;nbsp;od pripojenia k&amp;nbsp;systému eKasa, resp. dostupnosti zariadenia môžu nadobúdať&amp;nbsp;tieto hodnoty (farby):&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Štandardný režim - &lt;SPAN style="COLOR: rgb(0,176,80)"&gt;zelená ikona&lt;/SPAN&gt;&lt;/STRONG&gt;&lt;BR&gt;On-line registračná pokladnica je pripojená k systému eKasa (serveru&amp;nbsp;finančnej správy). Zároveň pokladnica neobsahuje chybný pokladničný doklad (dátovú správu)&amp;nbsp;a komunikuje s OBERON-om korektne. &lt;STRONG&gt;&lt;BR&gt;&lt;IMG style="MARGIN-BOTTOM: 20px; MARGIN-TOP: 20px" border=0 alt="" src="images/Forms/CashRegister/Form_CashRegister_DisplayState_Green.png"&gt;&lt;/STRONG&gt; 
+&lt;LI&gt;&lt;STRONG&gt;Nepripojené k systému eKasa (nedostupný server finančnej správy) - &lt;SPAN style="COLOR: rgb(112,48,160)"&gt;fialová ikona&lt;/SPAN&gt;&lt;/STRONG&gt;&lt;BR&gt;On-line registračná pokladnica&amp;nbsp;nie je pripojená k internetu, prípadne nie je dostupný&amp;nbsp;server finančnej správy. V tomto režime je možné vystavovať len off-line doklady.&amp;nbsp;Číslo pod fialovou ikonou znázorňuje aktuálny počet&amp;nbsp;neodoslaných dokladov.&lt;BR&gt;&lt;IMG style="MARGIN-BOTTOM: 20px; MARGIN-TOP: 20px" border=0 alt="" src="images/Forms/CashRegister/Form_CashRegister_DisplayState_Violet.png"&gt; 
+&lt;LI&gt;&lt;STRONG&gt;Chybný doklad - &lt;SPAN style="COLOR: rgb(247,150,70)"&gt;oranžová ikona&lt;/SPAN&gt;&lt;/STRONG&gt;&lt;BR&gt;On-line registračná pokladnica je v stave, keď obsahuje chybný a neodoslaný pokladničný doklad&amp;nbsp;(dátovú správu). Na pokladnici nie je možné predávať, je nevyhnutné opraviť chybný doklad&amp;nbsp;(dátovú správu). Červeným číslom je zobrazené číslo chybného dokladu. Do pokladnice je potrebné zadať doklad tak, aby sa daný problém odstránil. Pri každom otvorení pokladnice alebo zaevidovaní dokladu sa zobrazí chybová správa o chybnom doklade (dátum, suma). V prípade,&amp;nbsp;že sa nepodarí zaevidovať nový opravný doklad, je potrebné použiť servisný program dodávaný s eKasa zariadením&amp;nbsp;a uvedený problém odstrániť.&lt;BR&gt;&lt;IMG style="MARGIN-BOTTOM: 20px; MARGIN-TOP: 20px" border=0 alt="" src="images/Forms/CashRegister/Form_CashRegister_DisplayState_Orange.png"&gt; 
+&lt;LI&gt;&lt;STRONG&gt;Zariadenie&amp;nbsp;nie je dostupné&amp;nbsp;- &lt;SPAN style="COLOR: rgb(255,0,0)"&gt;červená ikona&lt;/SPAN&gt;&lt;BR&gt;&lt;/STRONG&gt;On-line registračná pokladnica nie&amp;nbsp;je&amp;nbsp;zapnutá alebo&amp;nbsp;pripojená k počítaču, prípadne nie je správne nastavená komunikácia medzi zariadením a OBERON-om. Skontrolujte fyzické pripojenie&amp;nbsp;pokladnice&amp;nbsp;k&amp;nbsp;počítaču a parametre komunikácie.&lt;BR&gt;&lt;IMG style="MARGIN-TOP: 20px" border=0 alt="" src="images/Forms/CashRegister/Form_CashRegister_DisplayState_Red.png"&gt; &lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="91e64a8e-bdde-41dc-b63e-277505a283c9" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="692afb17-dc71-421c-a41f-3fa53eaf93f7" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="69bbd499-45c0-4b0f-8f7a-c53fa5d70c1b">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="530652c9-82a2-4579-b83b-ed6f0d4967fb" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="d9b919e7-20c4-4c50-9910-4f13211ed9a8">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="e1e366b0-d7ce-4a8c-9537-013c3d68a464">
+      <Keyword m="2019-06-21T08:38:09.4299459Z">eKasa - stavy pokladnice</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="bed56cd5-bf58-4736-b428-ea9bc275f291">
+      <Keyword m="2023-03-08T13:19:25.2776815Z">eKasa - off-line režim</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="e835583d-755c-44d9-b8d8-9a323c6497ba">
+      <Keyword m="2023-03-08T13:19:43.4303293Z">Neodoslané doklady - eKasa</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="45817fcb-558e-43f8-9709-41a6c9bbf710">
+      <Keyword m="2023-03-08T13:20:31.8268186Z">CHDÚ - uloženie dátovej správy</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="9fcbff16-15f5-416a-9c61-300268076bbe">
+      <Keyword m="2023-03-08T13:20:44.2626186Z">Pokladnica - stavy - eKasa</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="7eb90633-33c9-49b5-980e-7335d6e82d2a">
+      <Keyword m="2023-03-08T13:21:07.3592638Z">Chránené dátové úložisko - uloženie dátovej správy</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="a984c6c1-95d6-4b33-bb2f-a334cd0d94bf">
+      <Keyword m="2023-03-08T13:21:41.8805984Z">Pripojenie k systému eKasa - stavy pokladnice</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="67cc17f1-256a-4804-9e35-61edb9051071">
+      <Keyword m="2023-03-08T13:22:09.9275388Z">Hraničná doba odozvy - eKasa</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="35f38296-4964-4401-a015-08e3e5f4e440">
+      <Keyword m="2023-03-08T13:22:18.7291988Z">96 hodín - eKasa</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="c902024b-7023-4a25-b54a-861ec0303cc4">
+      <Keyword m="2023-03-08T13:22:23.6655015Z">30 dní - eKasa</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="add87e96-002e-46ad-bf98-3abd02719616">
+      <Keyword m="2023-03-08T13:23:04.2663296Z">Off-line režim - eKasa</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="c6da0754-a888-4232-b1f9-123e9e3801f8">
+      <Keyword m="2023-03-08T13:24:01.3712676Z">2 sekundy - hraničná doba odozvy - eKasa</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

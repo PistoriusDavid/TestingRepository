@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="cc3dcaea-c62f-450b-9878-6298aa9b0f6e" Status="Complete" CreatedOn="2014-09-08T14:40:55.8810235Z" ModifiedOn="2023-10-17T08:51:05.2018834Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="AccDouble_Start_Zauctovanie_Dennik" BuildFlags="">
+  <Title m="2014-09-08T14:42:49.1064996Z">Zaúčtovanie dokladu do účtovného denníka</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-10-17T08:51:05.2018834Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;postup zaúčtovania dokladu&lt;/STRONG&gt; do&amp;nbsp;&lt;A href="d8c9bfc8-92d1-4471-8909-e5f8ce602d6c"&gt;účtovného denníka&lt;/A&gt; -&amp;nbsp;základnej účtovnej knihy&amp;nbsp;&lt;A href="49dd3167-870a-4fdf-b631-d4f692f1ed72"&gt;podvojného účtovníctva&lt;/A&gt;.&lt;/P&gt;
+&lt;H2&gt;Postup zaúčtovania dokladu do účtovného denníka&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;V&amp;nbsp;ponuke &lt;I&gt;Účtovníctvo&lt;/I&gt; zvoľte položku &lt;A href="d8c9bfc8-92d1-4471-8909-e5f8ce602d6c"&gt;Účtovný denník&lt;/A&gt;. 
+&lt;LI&gt;V&amp;nbsp;otvorenej evidencii stlačte tlačidlo &lt;I&gt;Nový&lt;/I&gt;, otvorí sa &lt;A href="bc2ddb1a-1ece-4899-841a-e180956c3702"&gt;formulár Zápis v&amp;nbsp;účtovnom denníku&lt;/A&gt;. 
+&lt;LI&gt;Zadajte dátum,&amp;nbsp;&lt;A href="da8a9192-a6cc-4470-b5d5-13d3ec435f97"&gt;predkontáciu&lt;/A&gt;, sumy dokladu a ďalšie potrebné údaje. Medzi poľami &lt;EM&gt;Základ DPH&lt;/EM&gt;, &lt;EM&gt;DPH&lt;/EM&gt; a &lt;EM&gt;Suma celkom&lt;/EM&gt; sú väzby, ktoré uľahčujú&amp;nbsp;zaúčtovanie dokladu. 
+&lt;LI&gt;Po stlačení tlačidla &lt;I&gt;OK&lt;/I&gt; sa do účtovného denníka uloží nový zápis. Pri účtovaní dokladu do viacerých účtov účtovného rozvrhu&amp;nbsp;sa do účtovného denníka zapíše viac riadkov. &lt;/LI&gt;&lt;/OL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt; 
+&lt;UL&gt;
+&lt;LI&gt;Podľa predkontácie&amp;nbsp;je možné určiť, či&amp;nbsp;sa účtujú&amp;nbsp;pokladničné pohyby, bankové pohyby&amp;nbsp;alebo iné operácie. 
+&lt;LI&gt;Pri hotovostných dokladoch vystavených po 01.07.2022 je v&amp;nbsp;účtovnom denníku&amp;nbsp;k&amp;nbsp;dispozícii funkcia&amp;nbsp;&lt;STRONG&gt;automatické účtovanie zaokrúhlenia&lt;/STRONG&gt;. Pri manuálnom zaúčtovaní&amp;nbsp;&lt;STRONG&gt;nezaokrúhleného&amp;nbsp;&lt;/STRONG&gt;hotovostného dokladu sa pri uložení program dopytuje, či má&amp;nbsp;automaticky zaúčtovať zaokrúhlenie. V&amp;nbsp;tomto prípade musia byť&amp;nbsp;v použitej predkontácii zadané&amp;nbsp;čísla predkontácií na zaúčtovanie nákladov a&amp;nbsp;výnosov (vo&amp;nbsp;&lt;A href="6510031b-e990-40e6-96aa-d0034df89cdc"&gt;formulári Predkontácia (podvojné účtovníctvo)&lt;/A&gt;, záložka &lt;EM&gt;Preúčtovania&lt;/EM&gt;). &lt;/LI&gt;&lt;/UL&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Zrušiť zaúčtovanie dokladu (faktúry) v&amp;nbsp;účtovnom denníku je možné jednoduchým vymazaním príslušného zápisu z denníka (napr. pri oprave už zaúčtovanej faktúry - viac v téme&amp;nbsp;&lt;A href="2dc1ca32-542f-467a-a6f8-1c4a33a367fd"&gt;Oprava zaúčtovanej faktúry&lt;/A&gt;).&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="0799222a-088d-4a06-a151-34af5468b105" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="d8c9bfc8-92d1-4471-8909-e5f8ce602d6c">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="20fb893c-eec6-4729-ac5c-6376563a5ec6" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="2db9ea90-4731-4a7e-bafd-a7c70581514f">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="6d1494d2-f86e-4096-9271-2cd9fa323521" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="da8a9192-a6cc-4470-b5d5-13d3ec435f97">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="617514e5-b70d-4ad9-bd32-bf1308e351b9" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="bc2ddb1a-1ece-4899-841a-e180956c3702">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="6b537894-e779-4a47-ba88-5b2b9d88e300">
+      <Keyword m="2021-07-09T08:40:07.7443488Z">Postup zaúčtovania dokladu do účtovného denníka</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

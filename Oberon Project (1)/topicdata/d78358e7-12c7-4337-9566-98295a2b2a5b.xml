@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="d78358e7-12c7-4337-9566-98295a2b2a5b" Status="Complete" CreatedOn="2023-09-18T09:10:06.0868041Z" ModifiedOn="2023-09-20T07:45:36.2870415Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="93050" Name="Form_AutomaticTask_BankStatementAccounting" BuildFlags="">
+  <Title m="2023-09-20T06:43:04.656499Z">Formulár Nastavenie automatickej úlohy 'Automatické spracovanie bankových výpisov'</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-09-20T06:45:15.500973Z">&lt;P&gt;Formulár&amp;nbsp;&lt;EM&gt;Nastavenia automatickej úlohy 'Automatické spracovanie bankových výpisov'&lt;/EM&gt; &lt;STRONG&gt;umožňuje nadefinovať nastavenia&amp;nbsp;&lt;/STRONG&gt;&lt;A href="9ce25bbd-35d1-4096-acd5-70007f5af5a6"&gt;automatickej úlohy&lt;/A&gt;&amp;nbsp;&lt;A href="1a074e9a-9cf9-4ab8-b9a8-68575142a704" style="auto-update-caption: true"&gt;Automatické spracovanie bankových výpisov&lt;/A&gt;, ktorá v&amp;nbsp;systéme OBERON umožňuje&lt;STRONG&gt;&amp;nbsp;automatický import bankových výpisov&lt;/STRONG&gt; na ich následné zaúčtovanie do&amp;nbsp;&lt;A href="d8c9bfc8-92d1-4471-8909-e5f8ce602d6c"&gt;účtovného&lt;/A&gt;, resp.&amp;nbsp;&lt;A href="5e82cca9-b8af-4a80-ba30-7ab91914a595"&gt;peňažného denníka&lt;/A&gt;, resp. zápis do vybraných evidencií. Samotné spracovanie &lt;STRONG&gt;možno vykonať automaticky v rámci tejto automatickej&amp;nbsp;úlohy, alebo manuálne&lt;/STRONG&gt;&amp;nbsp;pomocou funkcie&amp;nbsp;&lt;A href="02bbf54b-086f-4641-8c33-4dd461e56fb4"&gt;spracovania bankových výpisov&lt;/A&gt;. Formulár je dostupný z programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;, ponuka &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="9ce25bbd-35d1-4096-acd5-70007f5af5a6"&gt;Automatické úlohy&lt;/A&gt;&amp;nbsp;- stlačte tlačidlo&amp;nbsp;&lt;EM&gt;Nový&lt;/EM&gt; alebo&amp;nbsp;&lt;EM&gt;Oprava.&lt;/EM&gt;&amp;nbsp;Otvorí sa formulár &lt;EM&gt;Automatická úloha&lt;/EM&gt;, v&amp;nbsp;ktorom vyberte daný typ automatickej úlohy a&amp;nbsp;stlačte tlačidlo &lt;EM&gt;Nastaviť&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Popis formulára &lt;EM&gt;Nastavenie automatickej úlohy&amp;nbsp;'Automatické spracovanie bankových výpisov'&lt;/EM&gt;&lt;/H2&gt;&lt;innovasys:widget type="Tab Strip" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;!-- Základné --&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Sťahovanie výpisov&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Začiarknutím polí zvoľte bankové účty, pre ktoré sa majú automaticky z banky (pomocou bankového rozhrania&amp;nbsp;&lt;EM&gt;Bank API&lt;/EM&gt;) sťahovať bankové výpisy a&amp;nbsp;nastavte interval sťahovania. &lt;!-- Základné koniec --&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;!-- Údaje pre zálohovanie --&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Spracovanie&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Začiarknutím polí&amp;nbsp;zvoľte bankové účty, pre ktoré sa má vykonávať automatické spracovanie stiahnutých bankových výpisov, t.&amp;nbsp;j. záznamov v evidencii&amp;nbsp;&lt;A href="02bbf54b-086f-4641-8c33-4dd461e56fb4" style="auto-update-caption: true"&gt;Spracovanie bankových výpisov&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;!-- Údaje pre zálohovanie koniec--&gt;&lt;!-- Oprávnenia --&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="31c9dcc4-8c88-413e-8706-65ec34848d11" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="fd64c37a-486b-4cdf-a370-297aaa8a8f73">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="15c3dce3-c95c-4be0-86e4-7e5a73825ddf" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="9ce25bbd-35d1-4096-acd5-70007f5af5a6">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="76f1c156-fd57-45a2-979f-edbd0c20f9d3" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1a074e9a-9cf9-4ab8-b9a8-68575142a704">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="ca37a97f-64a0-41b0-b005-f779a34eca97" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="09f3dae9-2fb7-490f-97dc-37f60885b398">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="613fbad7-f486-440e-aacc-c49873f8137f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="02bbf54b-086f-4641-8c33-4dd461e56fb4">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="f1ee0a48-f036-4832-9d80-d41f194272d2">
+      <Keyword m="2023-09-18T10:53:21.4349845Z">Účtovanie bankových výpisov - nastavenie - formulár</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="1998b530-8b43-49f1-bf27-6ad7e85c65c4">
+      <Keyword m="2023-09-18T10:47:18.8593242Z">Nastavenie automatickej úlohy 'Účtovanie bankových výpisov' - formulár</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

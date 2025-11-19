@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="aec074f4-3e1c-4a1e-8a80-06fcecf51156" Status="Complete" CreatedOn="2014-09-10T06:53:57.3470496Z" ModifiedOn="2024-11-13T08:02:42.679056Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="CashRegister_Basic_Options" BuildFlags="">
+  <Title m="2021-07-13T10:21:31.5743359Z">Základné možnosti</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-11-13T08:02:42.679056Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;informácie o základných možnostiach, užitočných funkciách a&amp;nbsp;zaujímavých vlastnostiach&lt;/STRONG&gt;&amp;nbsp;modulu&amp;nbsp;&lt;A href="a6f5e32d-6f1e-40bb-9d15-3f784a183252"&gt;Pokladnica OBERON&lt;/A&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné možnosti a&amp;nbsp;vlastnosti&lt;/H2&gt;
+&lt;UL style="MARGIN-RIGHT: 0px"&gt;
+&lt;LI&gt;&lt;EM&gt;Pokladnica OBERON&lt;/EM&gt; môže pracovať vo viacerých&amp;nbsp;&lt;A href="bb0e1e82-e344-4bf0-834a-a294269f2e71"&gt;režimoch predaja&lt;/A&gt;: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;&lt;EM&gt;Maloobchodná pokladnica&lt;/EM&gt;&lt;/STRONG&gt; - bežný predaj v maloobchodných prevádzkach, 
+&lt;LI&gt;&lt;STRONG&gt;&lt;EM&gt;Veľkoobchodná pokladnica&lt;/EM&gt;&lt;/STRONG&gt; - zaevidovanie úhrady&amp;nbsp;výdajky, objednávky, faktúry, možnosť zadať ľubovoľnú predajnú cenu s&amp;nbsp;DPH alebo bez DPH..., 
+&lt;LI&gt;&lt;STRONG&gt;&lt;EM&gt;Reštauračná pokladnica&lt;/EM&gt;&lt;/STRONG&gt; - otvorené účty (stoly), presuny medzi účtami, tlač na&amp;nbsp;&lt;A href="b9d7c873-7b63-4210-86fe-ab1c66ea6502"&gt;bonovacej tlačiarni&lt;/A&gt;, resp. zobrazenie na&amp;nbsp;&lt;A href="d9867d81-7de7-4ce2-9c45-932025935b8b"&gt;bonovacom monitore&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;&lt;EM&gt;Pokladnica OBERON&lt;/EM&gt; môže pracovať vo viacerých&amp;nbsp;&lt;A href="bb0e1e82-e344-4bf0-834a-a294269f2e71"&gt;režimoch zobrazenia&lt;/A&gt;: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;&lt;EM&gt;Štandardný&lt;/EM&gt;&lt;/STRONG&gt; - ovládanie pomocou klávesnice alebo myši, 
+&lt;LI&gt;&lt;STRONG&gt;&lt;EM&gt;Dotykový displej - Štandardný&lt;/EM&gt;&lt;/STRONG&gt; - štandardné ovládanie dotykom (alebo myšou), 
+&lt;LI&gt;&lt;STRONG&gt;&lt;EM&gt;Dotykový displej - Fast food&lt;/EM&gt;&lt;/STRONG&gt; - ovládanie dotykom (alebo myšou), predávané položky predstavujú tlačidlá s obrázkami. Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="9b8fe798-5f73-41eb-a068-6f6edb55ae9d" style="auto-update-caption: true"&gt;Režim Fast food&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Vzhľad pokladnice sa prispôsobuje režimu predaja a zobrazenia, možno ho však definovať a&amp;nbsp;tak prispôsobiť&amp;nbsp;svojim vlastným potrebám a&amp;nbsp;požiadavkám (napr.&amp;nbsp;zobrazenie displeja, spôsob zobrazenia položiek dokladu). 
+&lt;LI&gt;Je možné nadefinovať vlastné tlačidlá (napr. tlačidlá na rýchly predaj položiek (PLU), tlačidlo s&amp;nbsp;konkrétnym&amp;nbsp;&lt;A href="46e6deed-ce15-42dc-be53-ab72142d9673"&gt;typom platby&lt;/A&gt;, s&amp;nbsp;konkrétnou výškou zľavy) a priradiť im farbu. Možné je nastaviť aj veľkosť tlačidiel pokladnice, skupín&amp;nbsp;a položiek, na tlačidlách nastaviť zobrazovanie ceny skladových kariet, názvov skupín a klávesových skratiek na dotykovej pokladnici. Zobrazenie je možné obmedziť&amp;nbsp;len na tie tlačidlá, ktoré sú pre danú firmu podstatné.&amp;nbsp;Viac informácií je možné získať&amp;nbsp;v&amp;nbsp;téme&amp;nbsp;&lt;A href="c9f7216f-f252-4be3-aa26-3e9bb6d4c887" style="auto-update-caption: true"&gt;Nastavenie vzhľadu Pokladnice OBERON&lt;/A&gt;. 
+&lt;LI&gt;Položku do otvoreného pokladničného účtu je možné pridať: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;A href="e76125f0-4fb3-4e56-82db-667593132461"&gt;zadaním kódu položky&lt;/A&gt; z klávesnice (&lt;EM&gt;Množstvo*Kód položky&lt;/EM&gt;), 
+&lt;LI&gt;výberom zo zoznamu (F3), 
+&lt;LI&gt;pomocou &lt;A href="80a78093-fc45-4db9-b74b-e1f9829f7b3c"&gt;snímača čiarových kódov&lt;/A&gt;&amp;nbsp;alebo&amp;nbsp;&lt;A href="98f367d6-b09e-4406-aad9-d4b2cfc4b504"&gt;elektronických váh&lt;/A&gt;, 
+&lt;LI&gt;prostredníctvom tlačidiel PLU, 
+&lt;LI&gt;pri dotykovom režime zobrazenia pomocou klávesnice na obrazovke, 
+&lt;LI&gt;priamym stlačením tlačidla obrázka v&amp;nbsp;&lt;A href="9b8fe798-5f73-41eb-a068-6f6edb55ae9d"&gt;režime Fast food&lt;/A&gt;, 
+&lt;LI&gt;zadaním čiarového kódu do poľa &lt;EM&gt;Množstvo*Kód položky&lt;/EM&gt; v režime maloobchodná pokladnica (len v prípade, že je v&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="749ff4f1-eeb5-43f5-98d2-021399d8cec7"&gt;Zariadenia&lt;/A&gt; pridaný &lt;A href="80a78093-fc45-4db9-b74b-e1f9829f7b3c"&gt;snímač čiarových kódov&lt;/A&gt;). &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Práca s rôznymi&amp;nbsp;&lt;A href="46e6deed-ce15-42dc-be53-ab72142d9673"&gt;typmi platieb&lt;/A&gt; (hotovosť, ceniny,&amp;nbsp;&lt;A href="1a618813-f50b-46a3-8a94-598d5394f491"&gt;platobná karta, iná bezhotovostná platba&lt;/A&gt;, vnútorné&amp;nbsp;zúčtovanie...), evidencia hotovosti (výbery a&amp;nbsp;vklady hotovosti). 
+&lt;LI&gt;Možnosť rozúčtovať doklad na viaceré typy platidiel (napr. stravné lístky + doplatok platobnou kartou). 
+&lt;LI&gt;Práca s&amp;nbsp;&lt;A href="09e378df-5c76-42f3-a245-b33dd0580648"&gt;cudzími menami&lt;/A&gt;. 
+&lt;LI&gt;Možnosti úpravy účtu&amp;nbsp;- zadávanie zliav, zmena typu položky (vratný obal, vrátenie tovaru, zľava, oprava, odpočítaná záloha, výmena poukazu...),&amp;nbsp;možnosť&amp;nbsp;odložiť predaj. 
+&lt;LI&gt;Pokročilá&amp;nbsp;&lt;A href="e0ccff3e-b9e7-4572-bc3c-7f41a32280dd"&gt;práca s otvorenými účtami (stolmi)&lt;/A&gt;&amp;nbsp;-&amp;nbsp;presun medzi účtami, ich zlúčenie, oprava položky, zľava na položku, zľava na doklad&lt;EM&gt;.&lt;/EM&gt; 
+&lt;LI&gt;&lt;A href="c3c6b9fe-a88f-42c3-a10f-1e7f5f944ebf"&gt;Grafický prehľad stolov&lt;/A&gt;, možnosť otvoriť viacero pokladničných účtov pod jedným stolom (tzv. účteniek). 
+&lt;LI&gt;Podpora&amp;nbsp;&lt;A href="ce48e01d-f70b-46ba-b471-96fd53c869f4"&gt;predaja a výmeny poukazov&lt;/A&gt;. 
+&lt;LI&gt;Jednoduché a rýchle storno dokladu (vrátenie tovaru), a to aj ľubovoľný počet dní spätne (z histórie dokladov). 
+&lt;LI&gt;Podpora váženia - vážený čiarový kód, &lt;A href="98f367d6-b09e-4406-aad9-d4b2cfc4b504"&gt;elektronické váhy&lt;/A&gt;,&amp;nbsp;&lt;A href="e90970b3-c6fb-4ec5-bac8-4a06d41662b4"&gt;váhoskenery&lt;/A&gt;, priemyselné váhy. 
+&lt;LI&gt;Predaj tovaru pre rôznych odberateľov s rôznou cenou, možnosť tlače informácií o&amp;nbsp;odberateľovi (zákazníkovi), možnosť nastaviť &lt;A href="b7a48886-b367-4056-808a-59ba5f871f32"&gt;obchodnému partnerovi&lt;/A&gt;&amp;nbsp;odberateľskú zľavu, prípadne dokladu priradiť členenie. 
+&lt;LI&gt;Možnosť&amp;nbsp;tlače výrobného a sériového čísla a čísla čiarového kódu na doklade. Možnosť tlače ľubovoľného textu k dokladu, prípadne ku každej položke dokladu. Možnosť úpravy textu na pokladničnom doklade pred jeho tlačou. 
+&lt;LI&gt;Možnosť zobraziť posledný pokladničný doklad zaevidovaný na pokladnici. 
+&lt;LI&gt;Práca s&amp;nbsp;&lt;A href="34f91c11-1a5d-4773-ac4e-48ad2fc859d3"&gt;rozšírenou cenotvorbou&lt;/A&gt;&amp;nbsp;na vytvorenie rôznych akcií. 
+&lt;LI&gt;Možnosť&amp;nbsp;&lt;A href="8c3cc66a-acbb-4047-aad2-b06170ec7fb5"&gt;nadefinovať položky denného menu&lt;/A&gt;. 
+&lt;LI&gt;Množstvo tlačových výstupov&amp;nbsp;na analýzu predaja, grafy. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Užitočné funkcie&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/H2&gt;
+&lt;UL style="MARGIN-RIGHT: 0px"&gt;
+&lt;LI&gt;Prepojenie s inými modulmi systému OBERON: 
+&lt;UL&gt;
+&lt;LI&gt;modul&amp;nbsp;&lt;A href="78d20602-4b59-4b31-9f0a-a04a1d376ec5"&gt;Skladová evidencia&lt;/A&gt; - vydávanie tovaru z jedného, prípadne viacerých skladov, zaevidovanie úhrady&amp;nbsp;výdajky, možnosť vytvoriť z&amp;nbsp;neuzatvoreného pokladničného dokladu&amp;nbsp;výdajku, 
+&lt;LI&gt;modul&amp;nbsp;&lt;A href="9980b99c-4409-4422-9d70-9cdd8893d0f3"&gt;Fakturácia&lt;/A&gt; -&amp;nbsp;&lt;A href="0312f424-bcb0-4d34-aad4-64a1f63eca85"&gt;úhrada faktúry v hotovosti&lt;/A&gt;, možnosť vytvoriť z&amp;nbsp;neuzatvoreného pokladničného dokladu faktúru (pri&amp;nbsp;&lt;A href="6cd390d6-697d-4829-bc05-ea31662ffe4e"&gt;prenesení daňovej povinnosti&lt;/A&gt;&amp;nbsp;automaticky),&amp;nbsp;import položiek z&amp;nbsp;objednávky, 
+&lt;LI&gt;modul &lt;A href="c3bd41f0-029e-4c74-b342-b0ffff647b6e"&gt;Hotelová recepcia&lt;/A&gt; -&amp;nbsp;&lt;A href="75c3faa8-8de5-4868-b98c-687ae53d87ae"&gt;presun položiek z pokladnice na hotelový účet&lt;/A&gt;,&amp;nbsp;&lt;A href="2058071a-7c05-453f-976f-5b4cb142498d"&gt;zaevidovanie úhrady hotelového účtu&lt;/A&gt;, zaevidovanie úhrady služby, 
+&lt;LI&gt;modul&amp;nbsp;&lt;A href="f1a6963d-36aa-4134-92a5-fa47a4345e74"&gt;CRM a registratúra&lt;/A&gt; -&amp;nbsp;&lt;A href="0fb6c9c4-9b89-43f6-af59-f9418f6871dd"&gt;zaevidovanie úhrady reklamácie/servisu&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Možnosť zobraziť výnos v eurách, v percentách, maržu, poskytnutú zľavu (v&amp;nbsp;&lt;A href="834e9546-a56b-476f-9028-ef4c24a82345"&gt;právach používateľov&lt;/A&gt; možno obmedziť prístup k tomuto tlačidlu). 
+&lt;LI&gt;Možnosť zobraziť a vytlačiť obraty pokladne (&lt;EM&gt;Ctrl+O&lt;/EM&gt;) - hotovosť, ceniny, platobné karty a vnútorné zúčtovanie. 
+&lt;LI&gt;&lt;A href="0cbf9ae9-1760-4f87-89be-559b62ee193b"&gt;Zálohovanie vratných obalov&lt;/A&gt;&amp;nbsp;- bežných (napr. pivové fľaše, prepravky, palety a pod.) aj jednorazových (plastová fľaša PET, plechovka), výkup zálohovaných jednorazových vratných obalov. 
+&lt;LI&gt;&lt;A href="8ffe5099-71bc-409e-85c2-3bc2cf5bb47a"&gt;Inventúra hotovosti (mincovka)&lt;/A&gt; - slúži na výpočet hodnôt bankoviek a mincí v EUR alebo v cudzej mene. 
+&lt;LI&gt;&lt;A href="58b3fe6b-140a-4b1e-a7af-33b95fd684a4" style="auto-update-caption: true"&gt;Automatická tlač etikiet na Pokladnici OBERON&lt;/A&gt;&amp;nbsp;pri predaji, neobmedzený počet formátov, možnosť vlastnej úpravy, možnosť tlače aj s&amp;nbsp;čiarovým (QR) kódom. 
+&lt;LI&gt;&lt;A href="046063d5-e7e1-4d4b-9373-43a672fdf410"&gt;Košíkový predaj&lt;/A&gt; - možnosť evidencie predaného tovaru na akomkoľvek mieste v rámci prevádzky, pričom vyúčtovanie&amp;nbsp;sa zrealizuje&amp;nbsp;na centrálnej pokladnici. 
+&lt;LI&gt;V reštauračnej prevádzke podpora viacerých&amp;nbsp;&lt;A href="b9d7c873-7b63-4210-86fe-ab1c66ea6502"&gt;bonovacích tlačiarní&lt;/A&gt; (celkom 10), možnosť tlače kópie objednávky na tej istej fyzickej bonovacej tlačiarni (prípadne aj inej),&amp;nbsp;možnosť oddeľovať chody. Možnosť prepojenia so&amp;nbsp;&lt;A href="d9867d81-7de7-4ce2-9c45-932025935b8b"&gt;systémom bonovacích monitorov&lt;/A&gt;. 
+&lt;LI&gt;Podpora&amp;nbsp;&lt;A href="7979135b-101e-4e8b-8544-bb8b653b7074"&gt;priamej tlače na bonovacej tlačiarni&lt;/A&gt;. 
+&lt;LI&gt;Podpora objednávok jedál/nápojov na donášku - bližšie informácie v téme&amp;nbsp;&lt;A href="4fe96b33-a1cd-4c08-93bc-d553db021c87"&gt;Nastavenia eMenu&lt;/A&gt;. 
+&lt;LI&gt;&lt;A href="7410538f-4d0e-4d92-b76b-1e4df963548c"&gt;Automatické účtovanie tržieb Pokladnice OBERON (podvojné účtovníctvo)&lt;/A&gt; a&amp;nbsp;&lt;A href="38889643-dcf0-4def-80fb-d0adb0b00d70"&gt;Automatické účtovanie tržieb Pokladnice OBERON (jednoduché účtovníctvo)&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Praktické&amp;nbsp;informácie k predaju získate v téme&amp;nbsp;&lt;A href="69bbd499-45c0-4b0f-8f7a-c53fa5d70c1b" style="auto-update-caption: true"&gt;Predaj na Pokladnici OBERON&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Zaujímavé vlastnosti&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Podpora&amp;nbsp;vlastnej certifikovanej fiškálnej tlačiarne&amp;nbsp;&lt;A href="00fa9619-a13d-4745-8938-cc0c2b5039ce"&gt;eKasa PANDORA&lt;/A&gt;&amp;nbsp;&lt;A href="1f32a90c-7b4a-4d69-9f38-a560178794b3" style="auto-update-caption: true"&gt;&lt;IMG border=0 alt="Odporúčané riešenia" src="images/OBERON/Basic/Odporucane-riesenie_ruka_ikona.png"&gt;&lt;/A&gt;&amp;nbsp;a &lt;A href="d9b919e7-20c4-4c50-9910-4f13211ed9a8"&gt;niekoľkých ďalších fiškálnych tlačiarní od rôznych výrobcov&lt;/A&gt;. 
+&lt;LI&gt;Na&amp;nbsp;skúšobné účely je s pokladnicou možné&amp;nbsp;pracovať aj bez fiškálnej tlačiarne - vtedy je možné využiť možnosť nastaviť tzv. &lt;A href="30dd45fc-685d-4adf-a959-f87840e12c7f"&gt;virtuálne fiškálne zariadenie (Fiscal UNI (SK))&lt;/A&gt;, ktoré neumožňuje tlačiť daňové doklady. 
+&lt;LI&gt;Podpora celého radu ďalších&amp;nbsp;&lt;A href="3f051fd3-9727-4ecc-9613-7a7fb1cb2a54"&gt;pripojiteľných zariadení&lt;/A&gt; (napr.&amp;nbsp;snímače čiarových kódov, zákaznícke displeje,&amp;nbsp;elektronické váhy a&amp;nbsp;váhoskenery, platobné terminály, pokladničné zásuvky, snímače RFID kľúčov na rýchle prihlásenie obsluhy, tlačiarne samolepiacich&amp;nbsp;etikiet, bonovacie monitory...). 
+&lt;LI&gt;Pokladnica umožňuje pracovať v&amp;nbsp;&lt;A href="4b2b3447-f2f1-4bbe-9d21-3d87994bfba8"&gt;pobočkovom režime&lt;/A&gt;&amp;nbsp;na vytvorenie&amp;nbsp;siete maloobchodných predajní. Inou možnosťou je použitie&amp;nbsp;&lt;A href="88af013e-47e9-408a-ac47-18fb4edb5553"&gt;off-line pobočkovej pokladnice&lt;/A&gt;, keď výmena údajov spravidla prebieha vo forme samostatných dátových súborov. &amp;nbsp;&amp;nbsp;&amp;nbsp; 
+&lt;LI&gt;Prepojenie s&amp;nbsp;vlastnou mobilnou aplikáciu&amp;nbsp;&lt;A href="942d48d5-b290-40f6-8ba3-45cf78f380f9"&gt;LUKUL - nielen mobilný čašník&lt;/A&gt;, elektronickým jedálnym lístkom v&amp;nbsp;mobilnom zariadení&amp;nbsp;(&lt;A href="fe4a9463-d066-4a56-8eee-a728ae1a7220"&gt;OBERON eMenu&lt;/A&gt;), &lt;A href="6c98a377-1b88-4eb8-801b-1f168641373b"&gt;vernostnými a zľavovými systémami&lt;/A&gt;&amp;nbsp;(viac v téme&amp;nbsp;&lt;A href="7a7d2c0d-866b-42ff-89bd-19d34b0b0a11" style="auto-update-caption: true"&gt;Vernostný systém na Pokladnici OBERON&lt;/A&gt;) atď. 
+&lt;LI&gt;&lt;A href="284db2bc-8b11-40d2-b3fe-213808fff2fa"&gt;Možnosť poslať dennú uzávierku majiteľovi formou SMS alebo e-mailu&lt;/A&gt;. 
+&lt;LI&gt;Možnosť&amp;nbsp;&lt;A href="09461dd2-eb0e-43f3-a701-786a1328a96e"&gt;nahradiť názov položky na doklade poznámkou k položke&lt;/A&gt; (ak je zadaná). 
+&lt;LI&gt;Podpora &lt;A href="69bbd499-45c0-4b0f-8f7a-c53fa5d70c1b"&gt;pracovných zmien&lt;/A&gt;, podľa ktorých je možné tlačiť obraty pokladnice. 
+&lt;LI&gt;Vybrané manažérske informácie dostupné v reálnom čase prostredníctvom webovej aplikácie&amp;nbsp;&lt;A href="b138daad-5453-4e53-8d2c-ecf2e81a5fcb"&gt;OBERON Web&lt;/A&gt; (obchodní partneri, aktuálne obraty registračných pokladníc, prehľad otvorených&amp;nbsp;účtov (stolov), štatistiky k&amp;nbsp;predajom na pokladniciach z&amp;nbsp;&lt;A href="fd6a0f47-c326-43a2-8408-003cce805463"&gt;knihy tržieb&lt;/A&gt;...). &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt; 
+&lt;P&gt;&lt;STRONG&gt;Videonávody&lt;/STRONG&gt;&lt;/P&gt;
+&lt;P&gt;Na&amp;nbsp;jednoduché a rýchle oboznámenie sa s &lt;EM&gt;Pokladnicou OBERON&lt;/EM&gt;&amp;nbsp;sú k&amp;nbsp;téme&amp;nbsp;spracované videonávody:&lt;/P&gt;
+&lt;P&gt;&lt;A href="http://exalogic.sk/na-stiahnutie-oberon/predaj-na-pokladnici-oberon/" target=_blank&gt;Predaj na Pokladnici OBERON&lt;/A&gt;&amp;nbsp;&lt;BR&gt;&lt;A href="http://exalogic.sk/na-stiahnutie-oberon/pokladnica-oberon-typy-platieb/" target=_blank&gt;Pokladnica OBERON - typy platieb&lt;/A&gt;&lt;/P&gt;
+&lt;P&gt;Všetky videonávody&amp;nbsp;sú k&amp;nbsp;dispozícii&amp;nbsp;na stránke&amp;nbsp;&lt;A href="http://www.exalogic.sk/"&gt;www.exalogic.sk&lt;/A&gt; v&amp;nbsp;sekcii &lt;EM&gt;Na stiahnutie,&amp;nbsp;&lt;/EM&gt;&lt;A href="https://exalogic.sk/na-stiahnutie/oberon-agenda-firmy/video-navody-na-stiahnutie/" target=_blank&gt;Videonávody&lt;/A&gt;.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="e8646243-0c81-400f-9e0b-16a6846b7d59" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="a6f5e32d-6f1e-40bb-9d15-3f784a183252">
+      <Title m="2023-02-23T13:05:02.016062Z">Pokladnica OBERON - všeobecne o koncepcii</Title>
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="713d76f7-cce4-4e6d-af7c-e849aafdd912" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="747496d6-0267-424d-a55e-aed6cbd90050">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="faf50f82-0d96-4f46-8d45-60aebb947f55" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="ed253514-24d2-4a9d-99c0-477931afaec0" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="c9f7216f-f252-4be3-aa26-3e9bb6d4c887">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="02d2aa0a-ab87-495e-be40-91b5a156f215" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="69bbd499-45c0-4b0f-8f7a-c53fa5d70c1b">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="6b8508a1-7a90-4cd8-beb9-c458b56542e5">
+      <Keyword m="2023-02-23T13:06:23.4827115Z">Základné možnosti - Pokladnica OBERON</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="b7bc6c78-b973-4aea-ac3f-72c3d83691c7">
+      <Keyword m="2023-02-23T13:06:04.3342245Z">Pokladnica OBERON - základné možnosti</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="0a0afe76-e008-451d-bfe9-1cc488150b78">
+      <Keyword m="2023-04-11T13:13:53.18116Z">Pokladnica OBERON - pripojiteľné zariadenia</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="b585cd98-02b1-40d8-b684-b3b5a28a99e9">
+      <Keyword m="2023-04-11T13:14:22.1055092Z">Pokladnica OBERON - odporúčané fiškálne zariadenie</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

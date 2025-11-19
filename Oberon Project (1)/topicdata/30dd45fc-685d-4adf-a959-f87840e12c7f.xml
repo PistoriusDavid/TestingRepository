@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="30dd45fc-685d-4adf-a959-f87840e12c7f" Status="Complete" CreatedOn="2019-07-09T08:37:49.2964682Z" ModifiedOn="2024-10-30T10:20:20.2100848Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Device_FiscalDevice_FiscalUNI(SK)" BuildFlags="">
+  <Title m="2024-10-30T09:23:58.2660377Z">Fiscal UNI (SK)</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-10-30T10:20:20.2100848Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje základné informácie o softvérovom fiškálnom zariadení&amp;nbsp;&lt;EM&gt;Fiscal UNI (SK) -&lt;/EM&gt; &lt;STRONG&gt;softvérovej náhrade hardvérového fiškálneho&amp;nbsp;zariadenia&lt;/STRONG&gt;, ktorá je predovšetkým určená&amp;nbsp;na skúšobné účely alebo pre tých podnikateľov, ktorí nemajú povinnosť evidovať tržby v&amp;nbsp;systéme eKasa (napr.&amp;nbsp;podnikateľov s ŤZP).&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Fiškálne zariadenie&amp;nbsp;&lt;I&gt;Fiscal UNI (SK)&lt;/I&gt; je softvérová náhrada hardvérového fiškálneho&amp;nbsp;zariadenia, ktorá je&amp;nbsp;určená&amp;nbsp;&lt;STRONG&gt;najmä na&lt;/STRONG&gt; &lt;STRONG&gt;skúšobné účely&lt;/STRONG&gt;.
+&lt;LI&gt;&lt;EM&gt;Fiscal UNI (SK) &lt;/EM&gt;možno používať aj bez tlačiarne, vtedy sa doklady zobrazujú v&amp;nbsp;prednastavenom textovom prehliadači (štandardne v&amp;nbsp;&lt;I&gt;Poznámkovom bloku&lt;/I&gt; systému &lt;EM&gt;Windows&lt;/EM&gt;). 
+&lt;LI&gt;Softvérové fiškálne zariadenie je vhodné aj pre tých podnikateľov, ktorí nemajú povinnosť evidovať tržby v&amp;nbsp;systéme eKasa (napr.&amp;nbsp;podnikateľov s ŤZP).&amp;nbsp;Zariadenie obsahuje funkcie bežného fiškálneho zariadenia: umožňuje evidovať predané položky,&amp;nbsp;vykonávať dennú uzávierku, pričom pokladničné doklady a denné obraty ukladá na disk počítača (denné obraty sa ukladajú do súboru, ktorý je šifrovaný). &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Postup inštalácie&amp;nbsp;&amp;nbsp;&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;Ak ešte nemáte v systéme OBERON vytvorenú (založenú) firmu, vytvorte ju&amp;nbsp;- bližšie informácie nájdete v téme &lt;A href="9a485893-6dd2-44e8-9740-a4cd7083a932" style="auto-update-caption: true"&gt;Vytvorenie účtovnej jednotky (databázy)&lt;/A&gt;. 
+&lt;LI&gt;Spustite program &lt;EM&gt;OBERON - Agenda firmy.&lt;/EM&gt; 
+&lt;LI&gt;Zvoľte ponuku &lt;EM&gt;Servis,&amp;nbsp;&lt;/EM&gt;&lt;A href="749ff4f1-eeb5-43f5-98d2-021399d8cec7"&gt;Zariadenia&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt; stlačte tlačidlo &lt;I&gt;Pridať.&lt;/I&gt; V&amp;nbsp;otvorenom formulári vyberte&amp;nbsp;typ zariadenia&amp;nbsp;&lt;I&gt;&lt;STRONG&gt;Fiškálne zariadenie&lt;/STRONG&gt;&lt;/I&gt;, zadajte názov pokladnice, vyberte model&amp;nbsp;&lt;STRONG&gt;&lt;EM&gt;Fiscal UNI (SK)&lt;/EM&gt;&lt;/STRONG&gt; a&amp;nbsp;zadajte (vyberte) &lt;STRONG&gt;názov počítača&lt;/STRONG&gt;, ku ktorému sa má zariadenie pripojiť, prípadne zadajte&amp;nbsp;ostatné údaje. Potom stlačte tlačidlo &lt;I&gt;Nastaviť zariadenie -&lt;/I&gt; otvorí sa&amp;nbsp;&lt;A href="06f5e819-cf70-4875-b3fd-eca80b19939b"&gt;formulár&lt;/A&gt;, v&amp;nbsp;ktorom: 
+&lt;UL&gt;
+&lt;LI&gt;v záložke &lt;EM&gt;Komunikácia&lt;/EM&gt; skontrolujte nastavenie &lt;I&gt;Adresára s údajmi&lt;/I&gt;. Program ho nastaví automaticky a slúži na ukladanie kópií dokladov v&amp;nbsp;elektronickej forme, sú v&amp;nbsp;ňom uložené nastavenia fiškálneho zariadenia, jeho obraty a pod. Na otestovanie komunikácie so zariadením stlačte tlačidlo &lt;EM&gt;Otestovať&lt;/EM&gt;; 
+&lt;LI&gt;v&amp;nbsp;záložke &lt;EM&gt;Základné&lt;/EM&gt;&amp;nbsp;je možné vybrať tlačiareň na tlač pokladničných dokladov - určuje, kde sa budú tlačiť doklady, rôzne obraty, priebežné účty a pod. V&amp;nbsp;prípade, že k&amp;nbsp;počítaču nie je pripojená žiadna tlačiareň, môžete vybrať možnosť&amp;nbsp;&lt;STRONG&gt;&lt;EM&gt;***Len zobraziť náhľad***&lt;/EM&gt;&lt;/STRONG&gt;. Vtedy sa doklady netlačia, len zobrazujú v&amp;nbsp;prednastavenom prehliadači TXT súborov, najčastejšie v&amp;nbsp;&lt;I&gt;Poznámkovom bloku&lt;/I&gt; systému &lt;EM&gt;Windows&lt;/EM&gt;; 
+&lt;LI&gt;v&amp;nbsp;záložke &lt;EM&gt;Nastavenia modulu&lt;/EM&gt; možno nadefinovať údaje&amp;nbsp;hlavičky/pätičky pokladničného dokladu, prípadne ďalšie údaje; 
+&lt;LI&gt;v&amp;nbsp;záložke&amp;nbsp;&lt;EM&gt;Pokladnica OBERON&amp;nbsp;&lt;/EM&gt;nastavte parametre predaja a&amp;nbsp;zobrazenia&amp;nbsp;&lt;A href="aec074f4-3e1c-4a1e-8a80-06fcecf51156"&gt;Pokladnice OBERON&lt;/A&gt;. Každú pokladnicu definovanú v&amp;nbsp;systéme OBERON&amp;nbsp;je potrebné priradiť k&amp;nbsp;určitému&amp;nbsp;&lt;A href="327921ae-e0fb-48da-b179-61714048b841"&gt;predajnému miestu&lt;/A&gt;. Ďalšie dôležité nastavenia sú&amp;nbsp;&lt;I&gt;Režim predaja&lt;/I&gt;, &lt;I&gt;Režim zobrazenia&lt;/I&gt;&amp;nbsp;a&amp;nbsp;&lt;I&gt;Vytváranie skladových pohybov&lt;/I&gt;.&amp;nbsp;Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="bb0e1e82-e344-4bf0-834a-a294269f2e71" style="auto-update-caption: true"&gt;Formulár Pokladnica OBERON - nastavenia&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Príslušné nastavenia&amp;nbsp;potvrďte stlačením tlačidla &lt;STRONG&gt;&lt;EM&gt;OK&lt;/EM&gt;&lt;/STRONG&gt;. 
+&lt;LI&gt;Inštalácia softvérového fiškálneho zariadenia je ukončená. &lt;/LI&gt;&lt;/OL&gt;&lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Tlačiareň, ktorá bude tlačiť pokladničné doklady,&amp;nbsp;musí pracovať v &lt;STRONG&gt;textovom režime&lt;/STRONG&gt;. V systéme &lt;EM&gt;Windows&lt;/EM&gt; odporúčame použiť tlačiareň &lt;EM&gt;Generic/Text only&lt;/EM&gt;. V opačnom prípade (pri grafickom režime) bude doklad nesprávne naformátovaný.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="18c5cfef-7f3f-49b7-9aac-1258f569becd" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="b24ad235-cf7f-43e2-b3e8-ec0f7d92f6b6">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="4b0d3db1-af84-427e-be12-9bd7af923a2a" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="749ff4f1-eeb5-43f5-98d2-021399d8cec7">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="1cf9b460-080c-400d-8866-1be0201f6926" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="06f5e819-cf70-4875-b3fd-eca80b19939b">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="8257ae8e-88b4-4be4-9b66-11b8421b8d68">
+      <Keyword m="2024-10-30T10:16:36.8122057Z">ŤZP - Fiscal UNI (SK)</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="35a4fdc6-d63d-4669-9d90-128f9cef919c">
+      <Keyword m="2024-10-30T10:16:33.2079198Z">Testovacie účely -  - Fiscal UNI (SK)</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="9579b6ae-ee73-4c2e-be2e-7bd28d5cf7de">
+      <Keyword m="2024-10-30T10:16:29.9156621Z">Skúšobné účely - Fiscal UNI (SK)</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="c5198b0e-6a02-4375-b849-8f08f016af59">
+      <Keyword m="2024-10-30T10:16:41.5518309Z">Virtuálne fiškálne zariadenie Fiscal UNI (SK)</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="d38a119a-3822-4384-b52b-6d8c713ca3cf">
+      <Keyword m="2024-10-30T10:16:52.9943624Z">Softvérové fiškálne zariadenie Fiscal UNI (SK)</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="e47a2c0f-d5c8-43ff-8275-c7f839f3118a">
+      <Keyword m="2024-10-30T10:17:00.2252955Z">Fiscal Virtual</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

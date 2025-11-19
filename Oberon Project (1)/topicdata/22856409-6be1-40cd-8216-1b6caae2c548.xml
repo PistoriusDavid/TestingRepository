@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="22856409-6be1-40cd-8216-1b6caae2c548" Status="Complete" CreatedOn="2014-09-05T06:47:55.7987624Z" ModifiedOn="2022-08-03T10:52:38.2735024Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="OBERONCenter_eShop_Offline_ExportImportFiles" BuildFlags="">
+  <Title m="2020-03-27T13:09:47.3280038Z">Off-line internetový obchod (export/import súborov)</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2022-08-03T10:52:38.2735024Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; je venovaná &lt;STRONG&gt;off-line internetovému obchodu&lt;/STRONG&gt;, s ktorým systém&amp;nbsp;OBERON na rozdiel od&amp;nbsp;&lt;A href="4bc0fb91-8926-432e-879e-5e0150ed62d3"&gt;on-line internetového obchodu&lt;/A&gt; komunikuje &lt;STRONG&gt;len&lt;/STRONG&gt; &lt;STRONG&gt;nepriamo&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;O off-line pripojení k &lt;A href="2ba6a435-be52-46a1-b723-fb2b8ca084c0"&gt;internetovému obchodu&lt;/A&gt; hovoríme vtedy, keď OBERON komunikuje s internetovým obchodom &lt;STRONG&gt;len nepriamo, a to&amp;nbsp;pomocou exportov a importov súborov&lt;/STRONG&gt;. 
+&lt;LI&gt;Komunikácia s internetovým obchodom je obsiahnutá v programe &lt;A href="24e780fd-36d3-4a6e-bfc0-a8665c75e4ee"&gt;OBERON Center&lt;/A&gt; &lt;I&gt;-&lt;/I&gt; umožňuje prenos údajov&amp;nbsp;medzi OBERON-om a&amp;nbsp;internetovým obchodom, a to v &lt;A href="8086cb46-289b-420c-bbeb-825d6fc0deb5"&gt;obecných formátoch&lt;/A&gt; &lt;STRONG&gt;XML alebo&amp;nbsp;CSV&lt;/STRONG&gt;. Prenos exportovaných alebo importovaných údajov je najjednoduchší pomocou internetu - &lt;STRONG&gt;FTP pripojenia&lt;/STRONG&gt;. V odôvodnených prípadoch je možné použiť aj &lt;STRONG&gt;pevný či vymeniteľný disk počítača&lt;/STRONG&gt;. 
+&lt;LI&gt;Uvedené exporty alebo importy&amp;nbsp;údajov môžu prebiehať úplne automaticky bez zásahu&amp;nbsp;používateľa, prípadne sa ich vykonanie môže spúšťať manuálne. 
+&lt;LI&gt;Systém OBERON podporuje niekoľko off-line internetových obchodov (&lt;STRONG&gt;&lt;EM&gt;Obecný&lt;/EM&gt; - v systéme OBERON základný (predvolený)&lt;/STRONG&gt;&amp;nbsp;&lt;A href="8086cb46-289b-420c-bbeb-825d6fc0deb5"&gt;XML/CSV formát&lt;/A&gt; na&amp;nbsp;výmenu údajov určený na prepojenie OBERON-u&amp;nbsp;s externými e-shopovými riešeniami,&amp;nbsp;&lt;A href="53600117-6139-4f5a-a639-1972dfcca586"&gt;UNIobchod&lt;/A&gt;, &lt;EM&gt;BiznisWeb, Shoptet&lt;/EM&gt;), viac informácií o&amp;nbsp;podporovaných e-shopových&amp;nbsp;riešeniach nájdete v téme&amp;nbsp;&lt;A href="2ba6a435-be52-46a1-b723-fb2b8ca084c0"&gt;Internetový obchod v systéme OBERON&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Postup nastavenia prepojenia off-line internetového obchodu so systémom OBERON je uvedený v téme&amp;nbsp;&lt;A href="caa17c38-0574-4ac0-ad9e-8d7d689b169a" style="auto-update-caption: true"&gt;Nastavenie komunikácie OBERON-u s off-line internetovým obchodom&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Možnosti prenosu údajov&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Medzi možnosti komunikácie s off-line internetovým obchodom patrí: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;import prijatých objednávok&lt;/STRONG&gt;, 
+&lt;LI&gt;&lt;STRONG&gt;export skladových kariet&lt;/STRONG&gt; (v prostredí internetového obchodu označovaných ako produkty) zo skladového systému do internetového obchodu v rôznych variáciách (kompletné - vrátane obrázkov, parametrov, variantov a kategórií -&amp;nbsp;ale aj bez obrázkov, len ceny a množstvá alebo len identifikátory), 
+&lt;LI&gt;&lt;STRONG&gt;import pohľadávok&lt;/STRONG&gt; (vystavených faktúr). &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Pri komunikácii s internetovým obchodom je možné exportovať buď všetky skladové karty, alebo &lt;EM&gt;len zmenené&lt;/EM&gt;, t. j. také, na ktorých sa od posledného exportu manuálne zmenili údaje (napr. názov, predajná cena, popis pre internetový obchod) alebo&amp;nbsp;na ktorých nastal príjem alebo výdaj (zmenilo sa zostatkové množstvo). S termínom &lt;EM&gt;len zmenené&lt;/EM&gt; sa vždy pracuje s ohľadom na dátum a čas, od ktorého sa odvodzuje načítanie len zmenených položiek (posledný export). 
+&lt;LI&gt;Pri exporte kategórií skladových kariet (stromová štruktúra) jeden produkt môže byť v jednej, alebo viacerých kategóriách. 
+&lt;LI&gt;Export identifikátorov sa vykonáva predovšetkým&amp;nbsp;na odstránenie skladových kariet z internetového obchodu (v prípade, že sa vymažú z evidencie v OBERON-e alebo už nie&amp;nbsp;sú zaradené do internetového obchodu). Export umožňuje, aby internetový obchod identifikoval, ktoré skladové karty sú preň aktuálne a ktoré by mal odstrániť. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Podrobné informácie o možnostiach komunikácie medzi OBERON-om a konkrétnym internetovým obchodom získate v prehľadnej tabuľke v téme&amp;nbsp;&lt;A href="2ba6a435-be52-46a1-b723-fb2b8ca084c0"&gt;Internetový obchod v systéme OBERON&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="3bff7071-2d32-4c49-a37d-58860c02b40e" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="2ba6a435-be52-46a1-b723-fb2b8ca084c0">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="1a2e3be1-2fe1-4e65-9da2-ed2d8528f727" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="8086cb46-289b-420c-bbeb-825d6fc0deb5">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="30f21682-4af6-4882-af56-d7622f26a6ac" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="caa17c38-0574-4ac0-ad9e-8d7d689b169a">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="0c393d0e-313f-4b11-8eea-43717c36deac" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="53600117-6139-4f5a-a639-1972dfcca586">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="f573bb0d-62af-4d58-b223-efc6df1d77e6">
+      <Keyword m="2022-08-01T11:18:29.4270923Z">CSV - off-line internetový obchod</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="706c72a3-08f3-4756-97cb-1933e03ff2e5">
+      <Keyword m="2022-08-01T11:18:35.3799755Z">E-shop - off-line</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="34d508e7-cfdc-4592-8338-1a636997d7c6">
+      <Keyword m="2022-08-01T11:18:05.9522553Z">Shoptet - off-line internetový obchod</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="2537c97d-03c6-4909-8871-e0790a008f2c">
+      <Keyword m="2022-08-01T11:17:56.7191775Z">Biznisweb - off-line internetový obchod</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="a94f520c-0ef6-4532-9020-c520a7e2a662">
+      <Keyword m="2020-04-07T11:09:23.0674009Z">Off-line internetový obchod</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="af0ddeae-1de0-4a19-961a-1519477bad3e">
+      <Keyword m="2022-08-01T11:18:24.9147471Z">Export/import XML/CSV súborov - off-line internetový obchod</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="e3f02366-0948-4372-9bf4-ba206ad808c8">
+      <Keyword m="2022-08-01T11:18:18.3767509Z">Internetový obchod - off-line</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="ab94d95a-0a24-4aa9-8f8b-c4b8138d5cd5">
+      <Keyword m="2022-08-01T11:18:09.3369539Z">UNIobchod - off-line internetový obchod</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

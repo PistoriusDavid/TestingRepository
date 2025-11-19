@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="f70d563d-c13a-4063-89f1-ee85caef915a" Status="Complete" CreatedOn="2014-09-04T20:57:55.5977245Z" ModifiedOn="2023-03-22T12:54:41.1968252Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Devices_CashRegisterCash" BuildFlags="">
+  <Title m="2021-05-19T09:39:18.8283076Z">Pokladničné zásuvky</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-03-22T12:54:41.1968252Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;je venovaná &lt;STRONG&gt;pokladničným zásuvkám&lt;/STRONG&gt;,&amp;nbsp;ktoré predstavujú jeden z&amp;nbsp;typov&amp;nbsp;&lt;A href="3f051fd3-9727-4ecc-9613-7a7fb1cb2a54"&gt;pripojiteľných zariadení&lt;/A&gt; podporovaných v&amp;nbsp;systéme OBERON.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Pokladničné zásuvky&amp;nbsp;implementované v systéme OBERON predstavujú &lt;STRONG&gt;hardvérové zariadenia&lt;/STRONG&gt; &lt;STRONG&gt;určené na úschovu a ochranu&amp;nbsp;hotovosti (bankoviek a mincí)&lt;/STRONG&gt; spravidla počas predaja na&amp;nbsp;&lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnici OBERON&lt;/A&gt;. 
+&lt;LI&gt;Pri predaji na &lt;EM&gt;Pokladnici OBERON&lt;/EM&gt;&amp;nbsp;sa zariadenie pripája k fiškálnej tlačiarni. Zásuvku je možné otvárať manuálne (pomocou kľúča) alebo automaticky pri&amp;nbsp;zaevidovaní dokladu, prípadne&amp;nbsp;pomocou tlačidla&amp;nbsp;&lt;EM&gt;&lt;STRONG&gt;Otvoriť zásuvku (Ctrl+M)&lt;/STRONG&gt;&lt;/EM&gt; na &lt;EM&gt;Pokladnici OBERON&lt;/EM&gt;, z&amp;nbsp;ktorej sa odosiela do fiškálnej tlačiarne príkaz na otvorenie zásuvky. V&amp;nbsp;prípade, že sa toto tlačidlo v &lt;EM&gt;Pokladnici OBERON&lt;/EM&gt; nenachádza, je potrebné ho nadefinovať. Postup vytvorenia nových tlačidiel je dostupný v téme&amp;nbsp;&lt;A href="c9f7216f-f252-4be3-aa26-3e9bb6d4c887" style="auto-update-caption: true"&gt;Nastavenie vzhľadu Pokladnice OBERON&lt;/A&gt;. 
+&lt;LI&gt;Pokladničnú zásuvku je možné použiť aj pri predaji na&amp;nbsp;&lt;A href="2edf9500-71d3-4b5c-9d44-990261fb51bc"&gt;registračných pokladniciach v režime off-line&lt;/A&gt;. 
+&lt;LI&gt;Vnútro pokladničných zásuviek je členené na priečinky na mince a bankovky, čo&amp;nbsp;uľahčuje a zrýchľuje manipuláciu s peniazmi, a tým aj samotný predaj. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 1: Pokladničná zásuvka&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Devices/Device_CashRegisterDrawer.png"&gt;&lt;/P&gt;
+&lt;H2&gt;Technické&amp;nbsp;informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Pokladničná zásuvka sa k fiškálnemu zariadeniu, resp. k registračnej pokladnici pripája pomocou konektora RJ11 (štandardné&amp;nbsp;zapojenie konektora RJ11 na ovládanie pokladničných zásuviek je uvedené na Obrázku č. 2). 
+&lt;LI&gt;K jednej fiškálnej tlačiarni, resp. registračnej pokladnici je možné pripojiť dve pokladničné zásuvky. 
+&lt;LI&gt;Pred zapojením pokladničnej zásuvky sa treba ubezpečiť, že elektromagnet zásuvky aj fiškálna tlačiareň majú výstup na 24&amp;nbsp;V.&lt;BR&gt;&lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 2: Schéma konektora RJ11 a nastavenia v OBERON-e&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Devices/Devices_Auxiliary/Device_Auxiliary_RJ11scheme.png"&gt;&amp;nbsp;&lt;IMG border=0 alt="" src="images/Devices/Devices_Auxiliary/Device_Auxiliary_CashDrawerSettings.png"&gt;&lt;/P&gt;&lt;innovasys:widget layout="block" type="Caution Box"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt; 
+&lt;P&gt;V prípade, že sa pokladničná zásuvka neotvára, skontrolujte:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;zapojenie kábla z pokladničnej zásuvky do fiškálnej tlačiarne, 
+&lt;LI&gt;či je v zozname&amp;nbsp;&lt;A href="749ff4f1-eeb5-43f5-98d2-021399d8cec7"&gt;zariadení&lt;/A&gt; pridaná tlačiareň pokladničných dokladov a v nastaveniach začiarknutá možnosť &lt;EM&gt;Otvárať pokladničnú zásuvku&lt;/EM&gt;, prípadne správne vybraný pin (vývod) na otváranie zásuvky (Obrázok č. 2), 
+&lt;LI&gt;u dodávateľa fiškálnej tlačiarne, či dané zariadenie posiela tlačiarni pokladničných dokladov pokyn na otvorenie pokladničnej zásuvky.&lt;BR&gt;&lt;/LI&gt;&lt;/UL&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="a4493657-40de-4ffe-a1d3-4bca0bcfc63f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="3f051fd3-9727-4ecc-9613-7a7fb1cb2a54">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="ef8c7378-c214-40bb-9334-140c0a6ca308" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="04b8d290-1470-41ff-85a1-c44a20958841">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="86aecaff-9dae-4c5c-8bdc-20d1966b4a13" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="a92e71d7-962a-4c7e-a6f6-18cf8cda4947">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="b4af1f2e-406b-40d6-bc26-2c0c0a7aea13" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="749ff4f1-eeb5-43f5-98d2-021399d8cec7">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="ebd8a112-ea11-4130-9a01-8ca7a29e8e43" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="c9f7216f-f252-4be3-aa26-3e9bb6d4c887">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="a3b466bb-7676-4b9f-9102-aa3e16860a8e">
+      <Keyword m="2021-05-19T10:14:07.4147948Z">Peňažné zásuvky</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="788d4303-5e1f-44bc-b2cf-2e7e913dea87">
+      <Keyword m="2021-05-19T10:18:01.3183386Z">Zásuvky - pokladničné (peňažné)</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

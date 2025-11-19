@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="f77fe5bd-e3df-4e7b-84f3-93d44bf10c0d" Status="Complete" CreatedOn="2016-08-11T10:29:48.8077557Z" ModifiedOn="2023-07-25T08:27:10.4888927Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Wages_Start_CalculationAverageAndVacation" BuildFlags="">
+  <Title m="2016-08-11T10:32:01.7931406Z">Výpočet priemerov</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-07-25T08:27:10.4888927Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;informácie o problematike výpočtu priemerov pracovníkov&lt;/STRONG&gt;&amp;nbsp;v&amp;nbsp;module&amp;nbsp;&lt;A href="bf009605-0be8-4286-8ef5-4c7d3b89143a"&gt;Mzdy&lt;/A&gt; a&amp;nbsp;&lt;A href="3883342c-9ef0-4fd9-8773-88df84f78f65"&gt;dochádzka&lt;/A&gt; systému OBERON.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Systém OBERON umožňuje &lt;STRONG&gt;automatický&lt;/STRONG&gt; &lt;STRONG&gt;výpočet ročných a trojmesačných priemerov, t.&amp;nbsp;j.&amp;nbsp;priemerných zárobkov pracovníkov&lt;/STRONG&gt;.&amp;nbsp;Napr. pri zmene obdobia pri prechode do nového štvrťroka program&amp;nbsp;automaticky spustí funkciu na výpočet trojmesačného priemeru, pri prechode do nového kalendárneho roka sa automaticky spustí funkcia na výpočet trojmesačného, ale aj ročného priemeru. Podmienkou je, aby v&amp;nbsp;sprievodcovi&amp;nbsp;&lt;A href="d05c58b2-b990-44d8-ac5c-d199b9cde45e"&gt;zmenou spracovávaného obdobia miezd&lt;/A&gt; bolo začiarknuté pole &lt;EM&gt;&lt;STRONG&gt;Prepočítať&amp;nbsp;trojmesačné priemery&lt;/STRONG&gt;&lt;/EM&gt;, resp.&amp;nbsp;&lt;EM&gt;&lt;STRONG&gt;Prepočítať ročné priemery&lt;/STRONG&gt;&lt;/EM&gt;). 
+&lt;LI&gt;V&amp;nbsp;odôvodnených prípadoch (spravidla pri nástupe nového pracovníka) je možné funkciu automatického výpočtu priemerov spustiť &lt;STRONG&gt;aj mimo štandardného obdobia&lt;/STRONG&gt; (t.&amp;nbsp;j. prechodu do nového kalendárneho roka, resp. štvrťroka), a to začiarknutím polí &lt;EM&gt;Prepočítať&amp;nbsp;trojmesačné priemery&lt;/EM&gt;, resp.&amp;nbsp;&lt;EM&gt;Prepočítať ročné priemery&lt;/EM&gt; v&amp;nbsp;sprievodcovi&amp;nbsp;&lt;A href="d05c58b2-b990-44d8-ac5c-d199b9cde45e"&gt;zmenou spracovávaného obdobia miezd&lt;/A&gt;&amp;nbsp;(pozri nižšie). 
+&lt;LI&gt;Hodnoty priemerov sa zobrazujú vo &lt;A href="95a3b7e2-6135-4860-a655-5724b186b94c"&gt;formulári Pracovný pomer pracovníka&lt;/A&gt;, záložka &lt;EM&gt;Rozšírené&lt;/EM&gt; (zaokrúhlené na štyri desatinné miesta nahor).&amp;nbsp;Tu je možné v&amp;nbsp;odôvodnených prípadoch stlačením tlačidla&amp;nbsp;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Button_Calc.png"&gt;&amp;nbsp;spustiť funkcie na manuálny výpočet priemerov. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Výpočet ročného priemeru&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Pomocou funkcie na výpočet ročného priemeru sa všetkým pracovníkom &lt;STRONG&gt;vypočítajú nové ročné priemery (denný&amp;nbsp;vymeriavací základ)&lt;/STRONG&gt;. Výpočet sa vykonáva automaticky na konci kalendárneho roka&amp;nbsp;pri &lt;A href="d05c58b2-b990-44d8-ac5c-d199b9cde45e"&gt;zmene spracovávaného obdobia miezd&lt;/A&gt;&amp;nbsp;&lt;STRONG&gt;z decembra na január&lt;/STRONG&gt; po kompletnom ukončení spracovania miezd za mesiac december. Aby sa ročné priemery vypočítali automaticky, je potrebné, aby&amp;nbsp;v&amp;nbsp;sprievodcovi zmenou spracovávaného obdobia miezd bolo začiarknuté pole &lt;EM&gt;&lt;STRONG&gt;Prepočítať ročné priemery&lt;/STRONG&gt;&lt;/EM&gt;.&amp;nbsp;Priemer program vypočíta, aj keď pracovník nemá spracované mzdy kompletne za celý rok (použije údaje z&amp;nbsp;tých mesiacov, za ktoré sú spracované mzdy vybraného pracovníka). 
+&lt;LI&gt;Ročný priemer (denný vymeriavací základ) sa používa na výpočet náhrad príjmu pri úhrade nemocenského. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Výpočet trojmesačného priemeru&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Pomocou funkcie na výpočet trojmesačného priemeru sa všetkým pracovníkom &lt;STRONG&gt;vypočítajú nové&amp;nbsp;trojmesačné priemery&lt;/STRONG&gt;. Výpočet sa vykonáva automaticky pri &lt;A href="d05c58b2-b990-44d8-ac5c-d199b9cde45e"&gt;zmene spracovávaného obdobia miezd&lt;/A&gt;&amp;nbsp;&lt;STRONG&gt;pri prechode do nového štvrťroka&lt;/STRONG&gt; po kompletnom ukončení spracovania miezd za&amp;nbsp;aktuálny štvrťrok, t.&amp;nbsp;j. pred začatím spracovania miezd za 1., 4., 7. a&amp;nbsp;10. mesiac aktuálneho roka.&amp;nbsp;Aby sa trojmesačné priemery vypočítali automaticky,&amp;nbsp;je potrebné, aby&amp;nbsp;v&amp;nbsp;sprievodcovi zmenou spracovávaného obdobia miezd bolo začiarknuté pole&amp;nbsp;&lt;STRONG&gt;&lt;EM&gt;Prepočítať&lt;/EM&gt;&lt;/STRONG&gt; &lt;STRONG&gt;&lt;EM&gt;trojmesačné&lt;/EM&gt;&lt;/STRONG&gt; &lt;STRONG&gt;&lt;EM&gt;priemery&lt;/EM&gt;&lt;/STRONG&gt;. 
+&lt;LI&gt;Novému pracovníkovi, ktorý nastúpil do pracovného pomeru, program &lt;STRONG&gt;za prvý mesiac&lt;/STRONG&gt; &lt;STRONG&gt;automaticky vypočíta predpokladaný ročný aj trojmesačný priemer&lt;/STRONG&gt; na základe tarify základnej mzdy zadanej vo&amp;nbsp;&lt;A href="3fced304-5201-4497-bb58-104c1fd77990"&gt;formulári Pracovný pomer pracovníka&lt;/A&gt;, záložka &lt;EM&gt;Mzdové sadzby&lt;/EM&gt;. V ďalších mesiacoch sa odporúča&amp;nbsp;&lt;STRONG&gt;vypočítať trojmesačný priemer manuálne&lt;/STRONG&gt; (pomocou tlačidla&amp;nbsp;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Button_Calc.png"&gt;&amp;nbsp; vo &lt;A href="95a3b7e2-6135-4860-a655-5724b186b94c"&gt;formulári Pracovný pomer pracovníka&lt;/A&gt;, záložka &lt;EM&gt;Rozšírené&lt;/EM&gt;) až do chvíle, keď program vypočíta trojmesačný priemer automaticky (v mesiacoch 1, 4, 7, 10). 
+&lt;LI&gt;Trojmesačný priemer sa na pracovnoprávne účely&amp;nbsp;zisťuje vždy k&amp;nbsp;1.&amp;nbsp;dňu kalendárneho mesiaca nasledujúceho po rozhodujúcom období a&amp;nbsp;používa sa počas celého štvrťroka. 
+&lt;LI&gt;Trojmesačný priemer sa používa pri výpočte náhrady mzdy za dovolenku a&amp;nbsp;pri výpočte náhrady mzdy za sviatok. 
+&lt;LI&gt;&lt;STRONG&gt;Príklad:&lt;/STRONG&gt; Ak je aktuálne spracovávané obdobie miezd&amp;nbsp;nastavené na mesiace 1 až 3, trojmesačný priemer program automatický vypočíta&amp;nbsp;z&amp;nbsp;miezd spracovaných v&amp;nbsp;mesiacoch 10 až 12 predchádzajúceho roka; ak je aktuálne spracovávané obdobie miezd nastavené na mesiace 4 až 6, trojmesačný priemer program automatický vypočíta&amp;nbsp;z&amp;nbsp;miezd spracovaných v&amp;nbsp;mesiacoch 1 až 3 atď. &lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="f68768bf-a0f0-45c9-8745-46a1fd553db8" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="d05c58b2-b990-44d8-ac5c-d199b9cde45e">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="53cf7e15-d92b-4781-9539-887af7764afa" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="3fced304-5201-4497-bb58-104c1fd77990">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="a7ff76f9-524e-48c7-be45-312cd99457ab" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="95a3b7e2-6135-4860-a655-5724b186b94c">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="6e05fb98-8b22-4a09-830c-ed48b8186809" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="6923b0c5-166b-4e3b-a53b-71f62b53b2fc">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="0cede270-808b-49cd-9594-6212fd6367e6" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1e1da5f2-5abd-48a4-bf82-4f31c614ac45">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="1a3101d9-0046-4531-b24e-4953ca8acec6">
+      <Keyword m="2016-08-11T12:21:46.1756112Z">Ročný priemer</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="dfdc27fa-5ad5-4e7e-8d53-b57a1fa67d46">
+      <Keyword m="2021-03-19T12:50:22.5035004Z">Trojmesačný priemer </Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="a8c5940f-ea4b-41e1-ad06-16d002cef38c">
+      <Keyword m="2016-08-11T12:22:04.034687Z">Dovolenkový priemer</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="968ce77d-d8b2-4856-9dda-d2a76ded3219">
+      <Keyword m="2021-03-19T12:50:24.4751548Z">Priemer - ročný a trojmesačný </Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="546347e2-1088-4aed-9219-258ac2932d15">
+      <Keyword m="2023-07-25T08:04:27.0180412Z">Zárobok - priemerný</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="8993f884-6a4c-4a7a-b47d-110d4538ec28">
+      <Keyword m="2023-07-25T08:04:43.5968142Z">Priemery - výpočet</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

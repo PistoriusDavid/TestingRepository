@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="71cf5cbf-4eb0-4b7e-a822-f73f083611ca" Status="Complete" CreatedOn="2014-09-01T14:35:39.5096893Z" ModifiedOn="2022-12-14T13:30:02.3397865Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="InstallationNETConnector" BuildFlags="">
+  <Title m="2021-03-24T11:33:37.5031612Z">Zapojenie sieťového kábla 100 Mb</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2022-10-03T10:21:52.6545337Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje postup zapojenia sieťového kábla 100 Mb/s pri&amp;nbsp;&lt;A href="9c0e1613-bfdc-48f6-9d03-58aba39dab36"&gt;sieťovej inštalácii&lt;/A&gt; systému OBERON.&lt;/P&gt;
+&lt;H2&gt;Postup zapojenia sieťového kábla&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;Odporúčané zapojenie sieťového kábla pre sieť 100&amp;nbsp;Mb:&lt;BR&gt;&lt;BR&gt;&lt;IMG border=0 alt="" src="images/BasicInformation/Installation/LAN/siet100h.gif"&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;LI&gt;Odporúčané zapojenie sieťového kábla 100&amp;nbsp;Mb,&amp;nbsp;no v špecifickom prípade bez potreby sieťového&amp;nbsp;rozbočovača. Zapojenie je možné použiť len pri priamom prepojení dvoch počítačov:&lt;BR&gt;&lt;BR&gt;&lt;IMG border=0 alt="" src="images/BasicInformation/Installation/LAN/siet100.gif"&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/LI&gt;&lt;/OL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="1c9f71a5-725b-4ac2-adfb-0102f3996493" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="9c0e1613-bfdc-48f6-9d03-58aba39dab36">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="5ba31ce5-6393-4aab-99c6-14f6522cc263" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="3c57ad66-7da9-4c69-9073-76947140b42f">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="a9d2251e-8129-494b-ae02-abebc0d36c96">
+      <Keyword m="2022-10-03T10:22:30.3020113Z">Kábel 100 Mb - zapojenie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="d85a3117-9327-4034-9e98-1a043238ef60">
+      <Keyword m="2022-12-14T13:29:48.1278834Z">Súborová databáza - zapojenie kábla 100 Mb</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="3809b44d-f5fd-4179-b326-a47afa2a71b4">
+      <Keyword m="2022-12-14T13:30:00.9884393Z">Microsoft Access - zapojenie kábla 100 Mb</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="6ee38dab-a560-4507-9331-b6a6c5449b00" Status="Complete" CreatedOn="2014-09-09T10:46:00.585616Z" ModifiedOn="2021-08-23T13:18:01.2842163Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="49020" Name="AccSingle_Advanced_Opravny_Zapis" BuildFlags="">
+  <Title m="2014-09-09T10:46:47.9153231Z">Čo je opravný zápis k zápisu úhrady zálohovej faktúry</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2021-08-23T13:14:21.3375475Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;návod, ako postupovať pri opravnom zápise k zápisu úhrady&amp;nbsp;&lt;/STRONG&gt;&lt;A href="2d1b2b76-359e-449e-bd88-c5a9229a926d"&gt;zálohovej faktúry&lt;/A&gt;&amp;nbsp;(preddavkovej faktúry, predfaktúry) v&amp;nbsp;systéme&amp;nbsp;&lt;A href="32be28cf-2368-4818-9d24-cfa9d59afb75"&gt;jednoduchého účtovníctva&lt;/A&gt;. Predpokladá sa, že účtovná jednotka je platiteľom DPH.&lt;/P&gt;
+&lt;H2&gt;Postup na základe konkrétneho príkladu&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;Účtovná jednotka vystaví zálohovú faktúru na 120&amp;nbsp;€, z toho hodnota tovaru je 100&amp;nbsp;€ a DPH 20&amp;nbsp;€. Odberateľ uhradí celú zálohovú faktúru, pričom úhrada tejto zálohovej faktúry sa musí zaúčtovať do jedného stĺpca&amp;nbsp;&lt;A href="5e82cca9-b8af-4a80-ba30-7ab91914a595"&gt;peňažného denníka&lt;/A&gt;, a to do&amp;nbsp;stĺpca&amp;nbsp;&lt;EM&gt;Príjmy ovplyvňujúce základ dane - tovar&lt;/EM&gt;.
+&lt;LI&gt;Následne účtovná jednotka&amp;nbsp;&lt;A href="c546faa8-9298-4064-95a0-cc26aee963e2"&gt;vystaví daňový doklad k zálohovej faktúre&lt;/A&gt; - konečnú vyúčtovaciu faktúru.&amp;nbsp;Táto konečná faktúra bude vystavená na nulovú celkovú sumu, pričom príjem ovplyvňujúci základ dane bude len 100&amp;nbsp;€ a nie 120&amp;nbsp;€. Preto je potrebné do peňažného denníka zaúčtovať ďalší riadok (t.&amp;nbsp;j. zaúčtovať úhradu konečnej faktúry), v&amp;nbsp;ktorom bude stĺpec &lt;EM&gt;Príjmy ovplyvňujúce základ dane &lt;/EM&gt;- &lt;EM&gt;tovar&lt;/EM&gt; znížený o výšku DPH, t. j. základ dane bude -20&amp;nbsp;€ (mínus 20 €) a DPH 20&amp;nbsp;€. Suma 20&amp;nbsp;€&amp;nbsp;sa vlastne preúčtuje zo stĺpca &lt;EM&gt;Príjmy ovplyvňujúce základ dane - tovar&lt;/EM&gt; do stĺpca &lt;EM&gt;Príjmy neovplyvňujúce základ dane - DPH&lt;/EM&gt;. 
+&lt;LI&gt;Celková suma nového zápisu v&amp;nbsp;peňažnom denníku bude 0 (-20&amp;nbsp;+&amp;nbsp;20&amp;nbsp;=&amp;nbsp;0), takže neovplyvní peňažné prostriedky na bankovom účte alebo v&amp;nbsp;pokladni. &lt;/LI&gt;&lt;/OL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="0bd8ca6f-0837-4bf4-85dd-38873d40e21a" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="2d1b2b76-359e-449e-bd88-c5a9229a926d">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="1b7cfa39-ef38-45e7-85ec-7b8521087ad3" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="c546faa8-9298-4064-95a0-cc26aee963e2">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="fc0219c9-1b1d-46f5-8094-fc100acea3b1">
+      <Keyword m="2021-08-23T13:14:54.79596Z">Úhrada zálohovej faktúry - opravný zápis</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="af55239c-461e-4c97-8094-5dc9cf9352af">
+      <Keyword m="2021-08-23T13:15:11.3994855Z">Opravný zápis k zápisu úhrady zálohovej faktúry</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

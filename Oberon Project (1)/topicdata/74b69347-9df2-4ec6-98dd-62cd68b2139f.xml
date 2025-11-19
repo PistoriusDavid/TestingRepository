@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="74b69347-9df2-4ec6-98dd-62cd68b2139f" Status="Complete" CreatedOn="2024-05-09T11:28:39.4499729Z" ModifiedOn="2024-12-18T09:07:26.4224225Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="OBERON_News_2024_04" BuildFlags="{4AAE0FD4-7313-4FEE-A25F-0785B885F736},826B51BD-B6F0-4B2C-A814-029E169D018F">
+  <Title m="2024-05-09T11:29:08.4349853Z">Čo bolo nové vo verzii Apríl/2024</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-12-18T09:07:26.4224225Z">&lt;P&gt;Dňa 15.04.2024&amp;nbsp;bola&amp;nbsp;vydaná nová verzia ekonomického systému OBERON s&amp;nbsp;označením &lt;STRONG&gt;Apríl/2024&lt;/STRONG&gt;. V&amp;nbsp;nasledujúcej časti sú vymenované najdôležitejšie novinky, vylepšenia a&amp;nbsp;opravy oproti verzii&amp;nbsp;&lt;STRONG&gt;Marec/2024&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;H2&gt;Účtovníctvo&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Zálohové faktúry&lt;/STRONG&gt; - bol upravený tlačový výstup faktúry, v ktorej bola zúčtovaná faktúra na zálohu. Pribudla ďalšia rekapitulácia súm, v ktorej sú uvedené faktúry na zálohu. 
+&lt;LI&gt;&lt;STRONG&gt;Zaúčtovanie faktúry&lt;/STRONG&gt; - bolo vylepšené zaúčtovanie konečnej faktúry, v ktorej bola zúčtovaná faktúra na zálohu. 
+&lt;LI&gt;&lt;STRONG&gt;Peňažný denník&lt;/STRONG&gt; - bolo vylepšené zaúčtovanie priebežných položiek. Po uložení prvého zápisu príjmu do priebežnej položky (prípadne výdaja) bude používateľ vyzvaný na výber pokladne alebo bankového účtu&amp;nbsp;na vytvorenie druhého zápisu. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Fakturácia&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Zaslanie faktúry e-mailom&lt;/STRONG&gt; - bolo vylepšené zaslanie zbernej faktúry e-mailom, kde sa okrem PDF faktúry do e-mailu vložia aj všetky výdajky (ako PDF prílohy), ktoré zberná faktúra obsahuje. Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="60388e53-ff9f-48e3-9f8c-e45df1201ad3" style="auto-update-caption: true"&gt;Vytvorenie zbernej faktúry&lt;/A&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;Tlačový výstup faktúry&lt;/STRONG&gt; - bola upravená rekapitulácia súm dokladu, kde sa ušetrili tri riadky tlačového výstupu (na jednu stranu A4 vojde viac riadkov). &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Mzdy a dochádzka&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;
+&lt;DIV&gt;&lt;STRONG&gt;Mesačná uzávierka&lt;/STRONG&gt; - povolenie generovania prevodných príkazov so zníženými odvodmi pre potravinárov na ďalšie schválené obdobie (do 06/2024). &lt;/DIV&gt;
+&lt;LI&gt;
+&lt;DIV&gt;&lt;STRONG&gt;Vyhlásenie o poukázaní podielu zaplatenej dane z príjmov fyzickej osoby&lt;/STRONG&gt; - oprava problému pri exporte druhej časti rodného čísla do tlačiva. &lt;/DIV&gt;
+&lt;LI&gt;
+&lt;DIV&gt;&lt;STRONG&gt;Zrážky&lt;/STRONG&gt; - oprava zrážky zo mzdy zamestnanca na dôchodkové sporenie (2. pilier).&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/DIV&gt;
+&lt;LI&gt;
+&lt;DIV&gt;&lt;STRONG&gt;Dochádzka&lt;/STRONG&gt; - nový typ prechodu &lt;EM&gt;Len evidovať prechod&lt;/EM&gt;. Je to len evidenčný typ prechodu, ktorý nemá vplyv na spracovanie dochádzky. De facto neslúži na evidenciu dochádzky, ale na evidenciu prístupu v určitých špecifických prevádzkach, napr. nutnosť evidovať osoby, ktoré vstúpili do daného priestoru (výroba potravín, zbraní a pod.). Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="5bfb1129-550c-42bb-9f72-ba0b3687a2b5" style="auto-update-caption: true"&gt;Typy prechodov&lt;/A&gt;. &lt;/DIV&gt;&lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;ASTON - mobilný skladník&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Obrázky -&lt;/STRONG&gt; optimalizácia práce s obrázkami pri komunikácii s&amp;nbsp;&lt;A href="09f3dae9-2fb7-490f-97dc-37f60885b398" style="auto-update-caption: true"&gt;OBERON Automation Center&lt;/A&gt; (OAC). Problém s rýchlosťou komunikácie sa prejavoval najmä pri veľkom počte skladových kariet (niekoľko&amp;nbsp;desiatok tisíc) a databáze umiestnenej v cloude. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;SPAN&gt;V prípade preskočenia viacerých verzií programu je dôležité si prečítať informácie o novinkách, vylepšeniach a opravách&amp;nbsp;aj&amp;nbsp;z&amp;nbsp;&lt;A href="dc832235-0e36-4aac-ae54-e51641eb2f50"&gt;predchádzajúcich verzií&lt;/A&gt;&lt;STRONG&gt;.&lt;/STRONG&gt; V&amp;nbsp;niektorej z predošlých verzií mohlo dôjsť k&amp;nbsp;dôležitým zmenám, o&amp;nbsp;ktorých je v niektorých prípadoch nevyhnutné vedieť.&lt;/SPAN&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="c7357ab9-e0d8-47e3-b432-b3034ba1bd58" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="dc832235-0e36-4aac-ae54-e51641eb2f50">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="0aff6ea2-d3f9-4c1e-9000-f2192f9f2edc">
+      <Keyword m="2014-11-24T11:38:34.3847265Z">Verzia</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

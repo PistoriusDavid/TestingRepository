@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="07957769-848a-42b8-8d4b-678f7246396c" Status="Complete" CreatedOn="2014-10-15T13:31:46.6293046Z" ModifiedOn="2025-03-20T09:59:53.4852687Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="51087" Name="Form_StockCard_MenuGroups" BuildFlags="">
+  <Title m="2023-01-12T09:49:35.1768595Z">Skladové karty - skupiny v pokladnici</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2025-03-20T09:59:53.4852687Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;je venovaná&amp;nbsp;položke&amp;nbsp;&lt;EM&gt;Skladové karty -&amp;nbsp;skupiny v pokladnici&lt;/EM&gt;&amp;nbsp;v ponuke&amp;nbsp;&lt;EM&gt;Firma, Predvoľby&lt;/EM&gt;&amp;nbsp;programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Výberom položky sa otvorí číselník&amp;nbsp;&lt;EM&gt;Skupiny v pokladnici&lt;/EM&gt;, ktorý &lt;STRONG&gt;umožňuje&amp;nbsp;definovať&amp;nbsp;skupiny&lt;/STRONG&gt;&amp;nbsp;&lt;STRONG&gt;v pokladnici&lt;/STRONG&gt; v&amp;nbsp;evidencii&amp;nbsp;&lt;A href="1a33ab0b-2df7-4dc2-962b-8a3319c16831"&gt;skladových kariet&lt;/A&gt;&amp;nbsp;systému OBERON. Číselník je dostupný aj z&amp;nbsp;&lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;formulára Skladová karta&lt;/A&gt;, záložka &lt;EM&gt;Reg. pokladnice&lt;/EM&gt; po stlačení tlačidla&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_ListButton.png"&gt;&amp;nbsp;pri položke &lt;EM&gt;Skupina v&amp;nbsp;pokladnici&lt;/EM&gt;. 
+&lt;LI&gt;Skupiny v pokladnici sa v systéme OBERON používajú&amp;nbsp;na členenie položiek na&amp;nbsp;&lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnici OBERON&lt;/A&gt; &lt;STRONG&gt;najmä v&amp;nbsp;režime zobrazenia &lt;EM&gt;Dotykový displej -&lt;/EM&gt;&lt;/STRONG&gt; &lt;EM&gt;&lt;STRONG&gt;Fast food&lt;/STRONG&gt;&lt;/EM&gt; (&lt;A href="9b8fe798-5f73-41eb-a068-6f6edb55ae9d"&gt;režim Fast food&lt;/A&gt;), a to&amp;nbsp;na zvýšenie prehľadnosti pri predaji, napr. &lt;EM&gt;Nealko nápoje, Teplé nápoje, Predjedlá, Polievky&lt;/EM&gt; atď. Na&amp;nbsp;&lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnici OBERON&lt;/A&gt; predstavujú tlačidlá (pozri Obrázok č. 2). Stlačením tlačidla danej skupiny &lt;STRONG&gt;sa zobrazia tlačidlá predávaných položiek priradených k&amp;nbsp;danej skupine v pokladnici&lt;/STRONG&gt;. 
+&lt;LI&gt;Ku každej skupine je možné priradiť &lt;STRONG&gt;obrázok&lt;/STRONG&gt; (zo zoznamu preddefinovaných obrázkov alebo vlastný obrázok, &lt;STRONG&gt;odporúčané rozmery obrázka sú&amp;nbsp;aspoň&amp;nbsp;64&amp;nbsp;x&amp;nbsp;64 pixelov&lt;/STRONG&gt;&lt;STRONG&gt;, veľkosť max.&amp;nbsp;5&amp;nbsp;-&amp;nbsp;10&amp;nbsp;kB,&amp;nbsp;formát PNG&lt;/STRONG&gt;), prípadne &lt;STRONG&gt;farbu&lt;/STRONG&gt;. Ak skupina nemá priradený obrázok, zobrazuje sa jej názov. Ak skupina má priradený obrázok,&amp;nbsp;jej názov sa nezobrazuje. Program umožňuje nastaviť, aby sa na tlačidlách skupín zobrazoval tak obrázok, ako aj názov skupiny (vo &lt;A href="422aed09-2423-4763-b538-639c0493b060"&gt;formulári Nastavenie vzhľadu pokladnice&lt;/A&gt;, záložka &lt;EM&gt;Ostatné&lt;/EM&gt;). 
+&lt;LI&gt;Hoci sa skupiny v pokladnici spravidla používajú v gastroprevádzkach, je ich možné použiť na akékoľvek členenie položiek &lt;EM&gt;v Pokladnici OBERON&lt;/EM&gt;. 
+&lt;LI&gt;Nastavenia skupín v pokladnici sa prenášajú aj do aplikácie&amp;nbsp;&lt;A href="942d48d5-b290-40f6-8ba3-45cf78f380f9"&gt;LUKUL - nielen mobilný čašník&lt;/A&gt;, v&amp;nbsp;ktorej sa skupiny v pokladnici zobrazujú ako &lt;EM&gt;Skupiny&lt;/EM&gt;. 
+&lt;LI&gt;Poradie jednotlivých skupín v&amp;nbsp;OBERON-e &lt;STRONG&gt;určuje poradie týchto skupín&lt;/STRONG&gt; na &lt;EM&gt;Pokladnici OBERON&lt;/EM&gt;, v jedálnom/nápojovom lístku, resp. v aplikácii &lt;EM&gt;LUKUL&lt;/EM&gt;. Poradie jednotlivých skupín je možné meniť pomocou &lt;A href="38489850-ab82-41b6-b258-3fa613ed5861"&gt;panela na zmenu poradia položiek zoznamu&lt;/A&gt;&amp;nbsp;(modrých šípok). 
+&lt;LI&gt;Poradie skladových položiek v rámci jednotlivých skupín sa určuje &lt;STRONG&gt;podľa kódu položky&lt;/STRONG&gt;, ktorý sa nastavuje na skladovej karte v záložke &lt;EM&gt;Reg. pokladnice&lt;/EM&gt; (čím nižšie číslo, tým&amp;nbsp;vyššie bude skladová karta v zozname položiek).&amp;nbsp; 
+&lt;LI&gt;Skupiny v&amp;nbsp;pokladnici sa môžu v systéme OBERON použiť aj ako základ na vytvorenie&amp;nbsp;&lt;A href="4dfc2d36-f1c8-4b60-81c4-62e8e5197b99"&gt;kategórií skladových kariet&lt;/A&gt;, t. j. &lt;STRONG&gt;stromovej štruktúry&lt;/STRONG&gt; na &lt;STRONG&gt;členenie&amp;nbsp;skladových kariet&lt;/STRONG&gt; v&amp;nbsp;evidencii&amp;nbsp;&lt;A href="1a33ab0b-2df7-4dc2-962b-8a3319c16831"&gt;Skladové karty&lt;/A&gt;. 
+&lt;LI&gt;, &lt;STRONG&gt;odporúčané rozmery obrázka sú&amp;nbsp;aspoň&amp;nbsp;64&amp;nbsp;x&amp;nbsp;64 pixelov&lt;/STRONG&gt;&lt;STRONG&gt;, veľkosť max.&amp;nbsp;5&amp;nbsp;-&amp;nbsp;10&amp;nbsp;kB,&amp;nbsp;formát PNG&lt;/STRONG&gt;). &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 1: Formulár &lt;EM&gt;Skupiny v pokladnici&lt;/EM&gt; - nastavenie skupiny&lt;/H5&gt;
+&lt;H5&gt;&lt;IMG border=0 alt="" src="images/OBERONMobileSolutions/OBERONMobileSolutions_LUKUL_CashRegisterGroups.png"&gt;&lt;/H5&gt;
+&lt;H2&gt;Postup na vytvorenie novej skupiny&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;V ponuke &lt;EM&gt;Sklad&lt;/EM&gt; vyberte položku&amp;nbsp;&lt;A href="1a33ab0b-2df7-4dc2-962b-8a3319c16831"&gt;Skladové karty&lt;/A&gt;. 
+&lt;LI&gt;Zvoľte&amp;nbsp;ľubovoľnú skladovú kartu. Stlačením tlačidla &lt;EM&gt;Oprava&lt;/EM&gt; sa zobrazí &lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;formulár Skladová karta&lt;/A&gt;. 
+&lt;LI&gt;V záložke &lt;EM&gt;Reg. pokladnice&lt;/EM&gt; pri poli &lt;EM&gt;Skupina v pokladnici&lt;/EM&gt; stlačte&amp;nbsp;tlačidlo &lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_ListButton.png"&gt;&amp;nbsp;- otvorí sa&amp;nbsp;číselník &lt;EM&gt;Skupiny v&amp;nbsp;pokladnici&lt;/EM&gt;. 
+&lt;LI&gt;V číselníku&amp;nbsp;&lt;EM&gt;Skupiny v&lt;/EM&gt; &lt;EM&gt;pokladnici&lt;/EM&gt; stlačte tlačidlo &lt;EM&gt;Nový&lt;/EM&gt;. Otvorí sa formulár, v ktorom zadajte&amp;nbsp;názov skupiny, nastavte farbu, obrázok, prípadne prioritu.&amp;nbsp; 
+&lt;LI&gt;Vykonané nastavenia potvrďte stlačením tlačidla &lt;EM&gt;&lt;STRONG&gt;OK&lt;/STRONG&gt;&lt;/EM&gt;. &lt;/LI&gt;&lt;/OL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Poradie skupín v pokladnici je možné zmeniť pomocou&amp;nbsp;&lt;A href="38489850-ab82-41b6-b258-3fa613ed5861"&gt;panela na zmenu poradia položiek zoznamu&lt;/A&gt;&amp;nbsp;(modrých šípok).&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Postup na priradenie skladovej&amp;nbsp;karty&amp;nbsp;ku skupine v pokladnici&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;V ponuke &lt;EM&gt;Sklad&lt;/EM&gt; vyberte položku&amp;nbsp;&lt;A href="1a33ab0b-2df7-4dc2-962b-8a3319c16831"&gt;Skladové karty&lt;/A&gt;. 
+&lt;LI&gt;Vyberte skladovú kartu, ktorú chcete priradiť k určitej skupine. Stlačením tlačidla &lt;EM&gt;Oprava&lt;/EM&gt; sa otvorí&amp;nbsp;&lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;formulár Skladová karta&lt;/A&gt;. 
+&lt;LI&gt;V otvorenom&amp;nbsp;formulári kliknite na záložku &lt;EM&gt;Reg. pokladnice&lt;/EM&gt;. V záložke &lt;EM&gt;Reg. pokladnice&lt;/EM&gt; v&amp;nbsp;rozbaľovacom zozname &lt;EM&gt;Skupina v pokladnici&lt;/EM&gt;&amp;nbsp;vyberte danú&amp;nbsp;skupinu. 
+&lt;LI&gt;Vykonané nastavenia potvrďte stlačením tlačidla &lt;EM&gt;OK&lt;/EM&gt;. &lt;/LI&gt;&lt;/OL&gt;
+&lt;H5&gt;Obrázok č. 2:&amp;nbsp;&lt;EM&gt;Pokladnica OBERON&lt;/EM&gt;&amp;nbsp;v režime &lt;EM&gt;Fast food&lt;/EM&gt; (vľavo od&amp;nbsp;pravého bočného panela sú tlačidlá skupín v&amp;nbsp;pokladnici &lt;EM&gt;Nealko nápoje, Alko nápoje atď.&lt;/EM&gt;)&lt;/H5&gt;
+&lt;P&gt;&lt;IMG style="WIDTH: 65%" border=0 alt="" src="images/Forms/CashRegister/Form_CashRegister_FastFood2.png"&gt;&lt;/P&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Na&amp;nbsp;&lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnici OBERON&lt;/A&gt;, v&amp;nbsp;&lt;A href="7dd24e6f-6f96-4a51-9881-991d948d6392"&gt;jedálnom lístku&lt;/A&gt;, resp. v aplikácii&amp;nbsp;&lt;A href="942d48d5-b290-40f6-8ba3-45cf78f380f9"&gt;LUKUL&lt;/A&gt; sa zobrazujú len skupiny, ku ktorým je priradená aspoň jedna skladová karta.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="35e0dce6-aa55-4d0f-a504-6a256eb83094" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1a33ab0b-2df7-4dc2-962b-8a3319c16831">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="3b204efb-49e3-40d7-840f-ee653069e410" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="c9f7216f-f252-4be3-aa26-3e9bb6d4c887">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="2a5840ec-92f5-4309-99a0-271e694b3275" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="fe4a9463-d066-4a56-8eee-a728ae1a7220">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="4581dd5c-6867-46aa-9947-8dab40697624" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="942d48d5-b290-40f6-8ba3-45cf78f380f9">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="078bc73f-2f92-4f53-9cb6-3eabc401f1f4" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="ccadca4e-2fbd-4b28-8d92-f826f3019bd0">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="f35c0808-527d-4dbc-8a59-96d12d82a93c">
+      <Keyword m="2021-09-23T07:30:04.1180399Z">Jedálny lístok - skupiny jedál</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="81a52da9-3806-4d2c-a80d-1bfb10c1a691">
+      <Keyword m="2015-05-13T08:25:39.8408203Z">Skupiny v jedálnom lístku</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="3ef20f83-9c5a-457c-bc60-682d3f5a4a02">
+      <Keyword m="2021-09-23T07:29:44.1953933Z">LUKUL - skupiny, priorita</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="89f91681-9e2b-44fe-898b-b38fc23f1600">
+      <Keyword m="2021-09-23T07:30:23.889307Z">Skupiny - LUKUL</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="3a029ebb-5767-486a-9efb-305781713e3f">
+      <Keyword m="2021-09-23T07:30:30.5136252Z">Priorita - LUKUL</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="e8f0f2ef-20eb-4786-b78a-9f8b24c12b82">
+      <Keyword m="2021-12-15T11:56:47.8288795Z">Triedenie položiek - LUKUL</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="14ee3937-a9f5-42b3-b493-201bff5dc703">
+      <Keyword m="2023-03-16T12:07:36.0299588Z">Skupiny v pokladnici - skladová karta</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="44ddba96-dd33-4d26-9282-f62408afa5e2">
+      <Keyword m="2023-03-16T12:07:46.3261456Z">Skupina v pokladnici - skladová karta</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

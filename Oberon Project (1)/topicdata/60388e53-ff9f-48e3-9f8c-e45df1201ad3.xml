@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="60388e53-ff9f-48e3-9f8c-e45df1201ad3" Status="Complete" CreatedOn="2014-10-28T09:35:17.8945312Z" ModifiedOn="2024-04-03T13:04:53.2187609Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Invoices_Satrt_Issued_Accumulating_Invoice" BuildFlags="">
+  <Title m="2017-08-23T12:21:24.1052202Z">Vytvorenie zbernej faktúry</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-04-03T13:04:53.2187609Z">&lt;P&gt;V tejto téme &lt;EM&gt;Pomocníka&lt;/EM&gt; je uvedený &lt;STRONG&gt;postup vytvorenia zbernej faktúry&lt;/STRONG&gt; v&amp;nbsp;&lt;A href="5c21adcc-87c8-44e7-981d-02902635693d"&gt;Knihe pohľadávok&lt;/A&gt; systému OBERON.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Systém OBERON umožňuje vytvárať tzv. zberné faktúry. Pod pojmom zberná faktúra v knihe pohľadávok rozumieme&amp;nbsp;&lt;STRONG&gt;faktúru, ktorá je tvorená z jednej alebo spravidla z&amp;nbsp;viacerých výdajok (dodacích listov)&lt;/STRONG&gt;. 
+&lt;LI&gt;Zberné faktúry sa používajú v&amp;nbsp;situáciách,&amp;nbsp;keď účtovná jednotka dodáva tovar obchodnému partnerovi viacnásobne a opakovane, pričom nevystavuje daňový doklad (faktúru) pri každom dodaní.&amp;nbsp;Daňový doklad sa vystavuje napr. na mesačnej báze, prípadne v dlhších lehotách v závislosti od legislatívy&amp;nbsp;a&amp;nbsp;preferencií účtovnej jednotky.
+&lt;LI&gt;V prípade&amp;nbsp;zbernej faktúry, ktorá je tvorená z jednej alebo z viacerých výdajok, ktoré obsahujú prílohy vo formáte PDF podpísané&amp;nbsp;&lt;A href="a833ee8a-1289-42b9-923f-80f549497702"&gt;digitálnym podpisom vygenerovaným v OBERON-e&lt;/A&gt;,&amp;nbsp;&lt;A href="c1e2e5a1-2cf4-47aa-a546-47d5baa1df3e"&gt;kvalifikovaným elektronickým podpisom (KEP), resp. kvalifikovanou elektronickou pečaťou&lt;/A&gt;&amp;nbsp;alebo pomocou&amp;nbsp;&lt;A href="a315053c-fb60-4f19-a3df-40b9c9dd02f8"&gt;digitálnej podpisovej podložky&lt;/A&gt;, sa&amp;nbsp;tieto prílohy výdajok vložia do e-mailovej správy spolu s faktúrou. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Postup vytvorenia zbernej faktúry&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;V&amp;nbsp;ponuke &lt;I&gt;Fakturácia&lt;/I&gt; zvoľte položku&amp;nbsp;&lt;A href="5c21adcc-87c8-44e7-981d-02902635693d"&gt;Kniha pohľadávok&lt;/A&gt;. 
+&lt;LI&gt;V&amp;nbsp;otvorenej evidencii stlačte tlačidlo &lt;I&gt;Nový&lt;/I&gt;, zobrazí sa sprievodca &lt;I&gt;Nový doklad&lt;/I&gt;. Spôsob vytvorenia&amp;nbsp;vyberte &lt;I&gt;&lt;STRONG&gt;z&amp;nbsp;výdajky&lt;/STRONG&gt;&lt;/I&gt;. 
+&lt;LI&gt;Zadajte, prípadne vyberte výdajku, z ktorej&amp;nbsp;sa importujú údaje do novej pohľadávky. 
+&lt;LI&gt;V&amp;nbsp;rozbaľovacom zozname &lt;I&gt;Typ dokladu&lt;/I&gt;&amp;nbsp;zvoľte položku &lt;STRONG&gt;&lt;EM&gt;Faktúra&lt;/EM&gt;&lt;/STRONG&gt;, skontrolujte ostatné údaje (prevádzku, dátum atď.). 
+&lt;LI&gt;Pokračujte v sprievodcovi. Stlačením tlačidla&amp;nbsp;&lt;I&gt;Dokončiť&lt;/I&gt; sa otvorí &lt;A href="68022ee5-d91a-4a1d-960b-c5de57414b6f"&gt;formulár Pohľadávka&lt;/A&gt;, v ktorom je možné doplniť ďalšie náležitosti dokladu. 
+&lt;LI&gt;Ďalšie výdajky je možné pridať do dokladu po stlačení tlačidla &lt;STRONG&gt;&lt;EM&gt;Možnosti -&lt;/EM&gt;&amp;nbsp;&lt;EM&gt;Vložiť položky z výdajky&lt;/EM&gt;&lt;/STRONG&gt;. 
+&lt;LI&gt;Vytvorenie dokladu ukončite stlačením tlačidla &lt;I&gt;&lt;STRONG&gt;OK&lt;/STRONG&gt;&lt;/I&gt;. Do knihy pohľadávok sa uloží nová faktúra. Zbernú faktúru je možné vizuálne skontrolovať v &lt;EM&gt;Knihe pohľadávok&lt;/EM&gt;, tlačidlo &lt;EM&gt;Možnosti - Zobraziť väzby dokumentu&lt;/EM&gt;. &lt;/LI&gt;&lt;/OL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Pri vytvorení zbernej faktúry v&amp;nbsp;&lt;A href="55028746-c263-4d92-a615-502222e8d53b"&gt;Knihe záväzkov&lt;/A&gt; postupujte analogicky (faktúra sa vytvára z jednej alebo spravidla z viacerých príjemiek).&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt; 
+&lt;P&gt;Bližšie informácie o štruktúre a štandardných možnostiach dokladu v systéme OBERON&amp;nbsp;sú k&amp;nbsp;dispozícii&amp;nbsp;v téme &lt;A href="1dce6bce-8c7d-443a-b0f9-14ec18f3c9a0"&gt;Štruktúra a možnosti dokladu&lt;/A&gt;.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="e27ae25f-4437-4eae-a9ed-16c1e1831e40" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="5c21adcc-87c8-44e7-981d-02902635693d">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="05b3e388-3042-44d2-8322-3bdb86589425" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="0a22d060-0b8a-4166-ba9b-8239f36863a0">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="74cc5cb7-1b3e-4990-bd5a-b7f6e61f66fa">
+      <Keyword m="2023-04-19T06:42:37.6581557Z">Zberná faktúra - vytvorenie</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

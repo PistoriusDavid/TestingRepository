@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="2ed2711c-75f6-4f18-8dbb-1b44eaab93c0" Status="Complete" CreatedOn="2023-10-25T07:47:18.7962589Z" ModifiedOn="2024-08-12T12:33:33.8870449Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Tech_OBERONTechnicalInformation" BuildFlags="">
+  <Title m="2023-10-25T12:52:12.4432688Z">OBERON - základné technické informácie</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-08-12T12:33:33.8870449Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;technické&lt;/STRONG&gt; &lt;STRONG&gt;informácie o systéme OBERON&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;H2&gt;Vývojové nástroje&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Systém OBERON predstavuje softvér, ktorý je vyvíjaný v&amp;nbsp;programovacom prostredí &lt;I&gt;&lt;STRONG&gt;Microsoft Visual Studio 2019&lt;/STRONG&gt;&lt;/I&gt;. 
+&lt;LI&gt;Na tvorbu tlačových výstupov je použitý program od firmy &lt;EM&gt;&lt;B&gt;Stimulsoft&lt;/B&gt;&lt;/EM&gt;. 
+&lt;LI&gt;Na&amp;nbsp;zápis údajov do databázy je možné použiť viacero &lt;A href="0b81f4ea-5e68-48c1-8b89-933d5a23d962"&gt;databázových systémov&lt;/A&gt;. 
+&lt;LI&gt;Dokumentáciu k systému OBERON tvorí predovšetkým elektronická príručka vo forme&amp;nbsp;&lt;A href="8c0e0dd3-ce14-410b-9a1c-76b92585e960"&gt;Pomocníka OBERON&lt;/A&gt; (súbor OBERON.chm), ktorá je súčasťou štandardnej inštalácie a&amp;nbsp;je k&amp;nbsp;dispozícii&amp;nbsp;aj v&amp;nbsp;&lt;A href="https://exalogic.sk/help/oberon/index.html#OBERON_Info.html" target=_blank&gt;on-line verzii&lt;/A&gt;. &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Popis adresárov na disku počítača&lt;/H2&gt;
+&lt;P&gt;Po&amp;nbsp;&lt;A href="19a10c98-2b1d-4fe1-8ab2-98921ab328be"&gt;nainštalovaní&lt;/A&gt; systému OBERON sa na disku počítača vytvorí adresár OBERON (napr. C:\OBERON). V tomto adresári sa vytvoria &lt;STRONG&gt;ďalšie podadresáre&lt;/STRONG&gt;, ktoré sú popísané v&amp;nbsp;nasledujúcej časti.&lt;/P&gt;&lt;innovasys:widget layout="block" type="Tab Strip"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;!-- CompanyDocuments --&gt;&lt;innovasys:widget layout="block" type="Tab Item"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;_CompanyDocuments&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;V adresári sa nachádzajú dokumenty firmy, ktoré boli vytvorené systémom OBERON, napr. &lt;EM&gt;Daňové priznanie, Kontrolný výkaz DPH&lt;/EM&gt;, mesačné hlásenie pre &lt;EM&gt;Sociálnu poisťovňu&lt;/EM&gt;, pre zdravotné poisťovne atď. Dokumenty sú členené podľa roka, mesiaca, a podľa toho, či dokument patrí do miezd alebo do účtovníctva.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;!-- CompanyDocuments koniec --&gt;&lt;!-- Export_Import --&gt;&lt;innovasys:widget layout="block" type="Tab Item"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;_Export_Import&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;V adresári sa nachádzajú súbory vytvorené&amp;nbsp;systémom OBERON určené na export, prípadne import údajov, napr.&amp;nbsp;&lt;A href="ef8ec592-c1af-45af-92b7-8734ce46e0f5"&gt;homebanking&lt;/A&gt;, transport údajov.&lt;/P&gt;
+&lt;P&gt;Súbory v tomto adresári sa automaticky nevymazávajú. V prípade vymazania niektorého zo súborov z tohto adresára nie je funkčnosť&amp;nbsp;programu ohrozená.&lt;/P&gt;
+&lt;P&gt;Ak dôjde k vymazaniu celého adresára, nie je ohrozená funkčnosť systému OBERON, adresár sa po spustení programu znovu automaticky vytvorí.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;!-- Export Import koniec --&gt;&lt;!-- Update --&gt;&lt;innovasys:widget layout="block" type="Tab Item"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;_Update&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;V adresári sa nachádzajú&amp;nbsp;údaje o&amp;nbsp;aktualizáciách OBERON-u prostredníctvom &lt;A href="46d868f7-8416-4300-bc86-a272c14f35d9"&gt;aktualizácie z&amp;nbsp;internetu&lt;/A&gt; vykonávanej pomocou programu&amp;nbsp;&lt;A href="24e780fd-36d3-4a6e-bfc0-a8665c75e4ee"&gt;OBERON Center&lt;/A&gt;. Adresár obsahuje tieto podadresáre:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;EM&gt;UpdateDescriptions&lt;/EM&gt; - stručné popisy k&amp;nbsp;aktualizácii (čo je nové) 
+&lt;LI&gt;&lt;EM&gt;UpdateFiles&lt;/EM&gt; - uložené&amp;nbsp;aktualizačné súbory &lt;/LI&gt;&lt;/UL&gt;
+&lt;P&gt;V adresári &lt;EM&gt;Update&lt;/EM&gt; pribudne súbor vtedy, keď sa stiahnutý súbor presunie z dočasného adresára &lt;EM&gt;Temp&lt;/EM&gt;.&lt;BR&gt;Ak dôjde k vymazaniu adresára &lt;EM&gt;Update&lt;/EM&gt;, nie je ohrozená funkčnosť systému OBERON.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;!-- Update koniec --&gt;&lt;!-- Cache --&gt;&lt;innovasys:widget layout="block" type="Tab Item"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Cache&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;V tomto adresári sa nachádzajú súbory vyrovnávacej pamäte, ktoré používajú rôzne moduly systému&amp;nbsp;OBERON, napr. pri webovej službe obrázky načítané z&amp;nbsp;databázy. Z adresára sa automaticky mažú súbory staršie ako 3&amp;nbsp;roky.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;!-- Cache koniec --&gt;&lt;!-- DATA_FileRepository --&gt;&lt;innovasys:widget layout="block" type="Tab Item"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;DATA_FileRepository&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Adresár je určený pre súbory&amp;nbsp;&lt;A href="9ba16dc2-7b3e-4e9f-b3eb-b2d7e44e796a"&gt;Knižnice dokumentov a obrázkov&lt;/A&gt; v prípade použitia SQL servera.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;!-- DATA_FileRepository koniec --&gt;&lt;!-- Data_System --&gt;&lt;innovasys:widget layout="block" type="Tab Item"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Data_System&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Adresár je určený na ukladanie transformačných šablón XSLT, prípadne ďalších údajov.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;!-- Data_System koniec --&gt;&lt;!-- DATA_U --&gt;&lt;innovasys:widget layout="block" type="Tab Item"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;DATA_U&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Adresár obsahuje ďalšie adresáre s&amp;nbsp;údajmi účtovných jednotiek (firiem)&amp;nbsp;pri použití súborovej databázy &lt;EM&gt;&lt;STRONG&gt;Microsoft Access&lt;/STRONG&gt;&lt;/EM&gt; (nie databázového systému typu SQL server). Každý adresár predstavuje údaje jednej firmy. Bližšie informácie o adresári firmy pri súborovej databáze &lt;EM&gt;Microsoft Access&lt;/EM&gt; sú uvedené nižšie v&amp;nbsp;časti &lt;EM&gt;Popis adresára s&amp;nbsp;údajmi účtovnej jednotky (firmy)&lt;/EM&gt;.&lt;/P&gt;
+&lt;P&gt;Ak chcete zálohovať všetky dátové súbory, stačí ak&amp;nbsp;vykonáte zálohu&amp;nbsp;obsahu tohto adresára, prípadne len všetkých súborov s príponou&amp;nbsp;MDB.&lt;BR&gt;Program bude pracovať aj s údajmi, ktoré sa nachádzajú aj mimo tohto adresára, dokonca aj na inom disku, ako je to v prípade sieťovej prevádzky. Kde sú umiestnené súbory, s ktorými program pracuje, je možné zistiť nahliadnutím do súboru&amp;nbsp;&lt;EM&gt;C:\OBERON\SHARE\SYSTEM\OBERON_settings.xml&lt;/EM&gt;.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;!-- Data_U koniec --&gt;&lt;!-- Extensions --&gt;&lt;innovasys:widget layout="block" type="Tab Item"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Extensions&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;V tomto adresári sa nachádzajú doplnky stiahnuté a nainštalované pomocou&amp;nbsp;&lt;A href="a1ae5eb5-f369-4aab-80b2-c6585166d550"&gt;Správcu doplnkov&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;!-- Extensions --&gt;&lt;!-- Logs --&gt;&lt;innovasys:widget layout="block" type="Tab Item"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Logs&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;V tomto adresári sa nachádzajú správy o&amp;nbsp;priebehu, napr. komunikácia jednotlivých modulov OBERON-u so zariadeniami, prípadne s externými&amp;nbsp;systémami (správy o&amp;nbsp;priebehu&amp;nbsp;&lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnice OBERON&lt;/A&gt;, komunikácia s&amp;nbsp;dochádzkovými terminálmi,&amp;nbsp;s&amp;nbsp;manažérom rezervačných kanálov (channel manager) a&amp;nbsp;pod. Z&amp;nbsp;adresára sa automaticky mažú súbory staršie ako 6&amp;nbsp;mesiacov.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;!-- Logs --&gt;&lt;!-- SHARE --&gt;&lt;innovasys:widget layout="block" type="Tab Item"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;SHARE&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;V podadresári &lt;EM&gt;SYSTEM&lt;/EM&gt;&amp;nbsp;sú umiestnené spustiteľné súbory&amp;nbsp;programu&amp;nbsp;&lt;A href="aec074f4-3e1c-4a1e-8a80-06fcecf51156"&gt;OBERON - Agenda firmy&lt;/A&gt;, programu&amp;nbsp;&lt;A href="69282df4-d4d6-462a-8cf2-68000e3e6f93"&gt;OBERON Automation Center (klient)&lt;/A&gt;, ako aj&amp;nbsp;programu&amp;nbsp;&lt;A href="24e780fd-36d3-4a6e-bfc0-a8665c75e4ee"&gt;OBERON Center&lt;/A&gt;.&lt;/P&gt;
+&lt;P&gt;Súbory tlačových výstupov programu OBERON sa nachádzajú v adresári \SYSTEM\Reports a majú príponu MRT.&lt;/P&gt;
+&lt;P&gt;V adresári sa nachádza aj podadresár &lt;EM&gt;Servis&lt;/EM&gt;, v ktorom&amp;nbsp;je&amp;nbsp;program&amp;nbsp;&lt;A href="76d1c33f-06b5-4bb9-8a39-9635b68da1b4"&gt;VNC&lt;/A&gt; pre&amp;nbsp;&lt;A href="76d1c33f-06b5-4bb9-8a39-9635b68da1b4"&gt;vzdialenú pomoc&lt;/A&gt;.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;!-- SHARE koniec --&gt;&lt;!-- Temp --&gt;&lt;innovasys:widget layout="block" type="Tab Item"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Temp&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Adresár slúži na ukladanie dočasných súborov OBERON-u, napr.&amp;nbsp;na uloženie čiastkových výsledkov operácií a pod.&lt;/P&gt;
+&lt;P&gt;V prípade vymazania niektorého zo súborov z tohto adresára nie je funkčnosť systému OBERON ohrozená. Z adresára sa automaticky mažú súbory staršie ako 31&amp;nbsp;dní.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;!-- Temp koniec --&gt;&lt;!-- WebServices --&gt;&lt;innovasys:widget layout="block" type="Tab Item"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;WebServices&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;V tomto adresári sa nachádzajú súbory dôležité pre&amp;nbsp;&lt;A href="f3e85885-2cfb-4f9b-b966-a54836db41cd"&gt;inštaláciu webovej služby&lt;/A&gt; a jej ďalší chod.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;!-- WebServices koniec --&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget layout="block" type="Caution Box"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Ak sa nepoužívajú všetky moduly systému OBERON, niektoré z&amp;nbsp;uvedených adresárov nemusia na disku existovať.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Popis adresára s&amp;nbsp;údajmi účtovnej jednotky (firmy)&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Pri súborovej databáze &lt;EM&gt;&lt;STRONG&gt;Microsoft Access&lt;/STRONG&gt;&lt;/EM&gt; (nie databázovom systéme typu SQL server) sa po&amp;nbsp;&lt;A href="9a485893-6dd2-44e8-9740-a4cd7083a932"&gt;vytvorení účtovnej jednotky (databázy)&lt;/A&gt;&amp;nbsp;vytvorí na pevnom disku počítača (c:\OBERON\DATA_U\) samostatný adresár s údajmi účtovnej jednotky (firmy). Jeho názov sa zadáva pri vytvorení firmy (napr. Jan_Novak). Najdôležitejším súborom v&amp;nbsp;adresári je databázový súbor &lt;STRONG&gt;s&amp;nbsp;príponou MDB&lt;/STRONG&gt;, v ktorom sa nachádzajú všetky účtovné dáta účtovnej jednotky. 
+&lt;LI&gt;V adresári firmy sa môžu nachádzať aj ďalšie súbory, ktoré nie sú pre spustenie programu nevyhnutné,&amp;nbsp;a podadresáre, napr.&amp;nbsp;&lt;STRONG&gt;FileRepository&lt;/STRONG&gt;, ktorý slúži&amp;nbsp;na uloženie súborov &lt;A href="9ba16dc2-7b3e-4e9f-b3eb-b2d7e44e796a"&gt;Knižnice dokumentov a obrázkov&lt;/A&gt;. 
+&lt;LI&gt;V&amp;nbsp;prípade vytvorenia viacerých účtovných jednotiek (databáz) sú údaje každej účtovnej jednotky (firmy) uložené v samostatnom adresári. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Účtovné dáta - spôsob a štruktúra uloženia&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Pri súborovej databáze &lt;EM&gt;&lt;STRONG&gt;Microsoft Access&lt;/STRONG&gt;&lt;/EM&gt; (nie databázovom systéme typu SQL server) sú všetky účtovné dáta jednej účtovnej jednotky uložené v&amp;nbsp;databázovom súbore &lt;STRONG&gt;s&amp;nbsp;príponou MDB&lt;/STRONG&gt;. Súbor obsahuje tabuľky, indexy a dotazy. 
+&lt;LI&gt;Databáza sa vyznačuje vysokou odolnosťou voči poruchám ku ktorým dochádza najčastejšie pri výpadku elektrického prúdu. V&amp;nbsp;programoch je zabudovaná samoopravná funkcia, ktorá ak zistí pri spúšťaní programu chybu databázy je automaticky aktivovaná. 
+&lt;LI&gt;V odôvodnených prípadoch je možné MDB súbor otvoriť, prezerať a prípadne aj upravovať špeciálnymi programami, napr. &lt;EM&gt;Microsoft Access&amp;nbsp;2003&lt;/EM&gt;.&amp;nbsp;Prípadné zmeny v&amp;nbsp;tabuľkách však vykonávajte veľmi opatrne, najlepšie len po konzultácii s&amp;nbsp;autormi programu. 
+&lt;LI&gt;&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;Pred akoukoľvek manipuláciou s databázou (či už súborovou MDB alebo SQL) si overte, s&amp;nbsp;ktorou databázou program aktuálne pracuje.&lt;/SPAN&gt; S ktorou databázou program pracuje, a kde je uložená, je možné zistiť v&amp;nbsp;programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;, ponuka &lt;EM&gt;Pomocník&lt;/EM&gt;,&lt;EM&gt;&amp;nbsp;&lt;/EM&gt;&lt;A href="635837c6-a816-47eb-977c-39def8201a2d"&gt;O programe&lt;/A&gt;,&amp;nbsp;tlačidlo &lt;I&gt;Detaily&lt;/I&gt;. &lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="fe36c5a3-8bf4-4767-a35e-04256d1ff41e" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="0b81f4ea-5e68-48c1-8b89-933d5a23d962">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="8c62ca21-b5bc-4506-a260-5cb4866bfdd9" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="19a10c98-2b1d-4fe1-8ab2-98921ab328be">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="8c8c4fd9-0fe6-4ee7-ba1e-6bc519b13854" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="9a485893-6dd2-44e8-9740-a4cd7083a932">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="de4cbce4-9ec6-4818-a59f-17e2c011f830" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="114e64df-3d6c-4a0e-9405-c0e75fbe02dc">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="29aba2c2-0475-47d3-9ba8-6637178793d2" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="31e5e0c6-6e6c-403f-aa32-9ef5f8291566">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="57761922-53c9-4d28-9028-7aeacc9f9bdb" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="de8ea830-28e7-471f-aa50-c4f34eeb720d">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="70ba60b7-22a8-47a7-b781-b57497dee305">
+      <Keyword m="2023-10-25T12:07:23.7876199Z">Vývojové nástroje OBERON-u</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="97f38154-e06e-416f-ae1c-f8af481ff7e3">
+      <Keyword m="2023-10-25T12:07:34.125649Z">Popis adresárov na disku počítača</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="bf8adb16-9678-49f3-9929-de47b34cb23a">
+      <Keyword m="2023-10-25T12:07:43.7507754Z">Popis adresára s údajmi účtovnej jednotky (firmy)</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="ff4eae09-9201-4dd5-adf4-ddb4d3a0f85e">
+      <Keyword m="2023-10-25T12:07:52.2395021Z">Účtovné dáta - spôsob a štruktúra uloženia</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="8058913b-3a88-42cf-b377-90d56125d25f">
+      <Keyword m="2023-10-25T12:09:18.8825675Z">CompanyDocuments - adresár</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="39b6dc81-13b1-4635-896c-ced078538b1a">
+      <Keyword m="2023-10-25T12:09:15.3542852Z">Export_Import - adresár</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="d4808db4-40b9-4b24-b3fe-b9cd99a037b6">
+      <Keyword m="2023-10-25T12:09:08.6891138Z">Update - adresár</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="a3dc3f39-ea1c-4211-9624-593bd7630c6c">
+      <Keyword m="2023-10-25T12:10:32.4450276Z">DATA_FileRepository - adresár</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="3455c637-d1ba-487b-99c7-34b70167fcdc">
+      <Keyword m="2023-10-25T12:10:36.2769642Z">Data_System - adresár</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="97762f77-4123-476a-8bf8-724feee071f7">
+      <Keyword m="2023-10-25T12:10:39.0539042Z">DATA_U - adresár</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="a1a3df6b-6bf9-4719-ad17-fc1ec5f9421e">
+      <Keyword m="2023-10-25T12:10:45.3427295Z">Extensions - adresár</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="fd474f2a-d98c-4eaa-8cbc-4e347e9db4aa">
+      <Keyword m="2023-10-25T12:10:52.1587123Z">SHARE - adresár</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="03492d23-fad0-4f2f-a2ca-29badc78ec5b">
+      <Keyword m="2023-10-25T12:10:54.7118134Z">Temp - adresár</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="845fbe73-86ce-49cd-88e1-ccbbc4634b15">
+      <Keyword m="2023-10-25T12:11:02.463837Z">WebServices - adresár</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="8c899f70-c073-4ad3-a0d9-4371281f8da5" Status="Complete" CreatedOn="2015-03-16T11:35:57.6172421Z" ModifiedOn="2022-11-15T12:19:45.4229967Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="OBERONCenter_eShop_PrestaShop_Import_StockCard" BuildFlags="">
+  <Title m="2020-03-27T13:13:28.7855876Z">Import skladových kariet z PrestaShopu</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2022-11-15T12:19:45.4229967Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;postup jednorazového importu&amp;nbsp;&lt;/STRONG&gt;&lt;A href="1a33ab0b-2df7-4dc2-962b-8a3319c16831"&gt;skladových kariet&lt;/A&gt; z&amp;nbsp;internetového obchodu&amp;nbsp;&lt;A href="7437cbeb-c6d1-4b19-92ee-150ba8e4097f"&gt;PrestaShop&lt;/A&gt; do modulu&amp;nbsp;&lt;A href="78d20602-4b59-4b31-9f0a-a04a1d376ec5"&gt;Skladová evidencia&lt;/A&gt; systému OBERON.&amp;nbsp;Túto&amp;nbsp;funkciu je vhodné využiť v prípade,&amp;nbsp;že účtovná jednotka má vytvorený funkčný internetový obchod, pričom doposiaľ nepoužívala&amp;nbsp;systém OBERON.&lt;/P&gt;
+&lt;H2&gt;Postup importu skladových kariet z PrestaShopu do systému OBERON&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;V&amp;nbsp;nasledujúcej časti&amp;nbsp;je popísaný postup importu skladových kariet z&amp;nbsp;e-shopovej aplikácie&amp;nbsp;&lt;EM&gt;PrestaShop&lt;/EM&gt; do systému OBERON.
+&lt;LI&gt;Postup je &lt;STRONG&gt;rozdelený do troch krokov&lt;/STRONG&gt;, pričom prvý&amp;nbsp;z&amp;nbsp;nich&amp;nbsp;je potrebné urobiť priamo v&amp;nbsp;&lt;EM&gt;PrestaShope&lt;/EM&gt; (v module &lt;EM&gt;ExportDbToXml&lt;/EM&gt;), ďalšie kroky sa vykonávajú v&amp;nbsp;systéme OBERON.
+&lt;LI&gt;V&amp;nbsp;prvom kroku&amp;nbsp;je potrebné &lt;STRONG&gt;vyexportovať produkty do súboru XML&lt;/STRONG&gt;.&amp;nbsp;Tie sa&amp;nbsp;následne naimportujú do skladu v&amp;nbsp;systéme OBERON.
+&lt;LI&gt;OBERON natívne nepodporuje štruktúru&amp;nbsp;súboru XML vytvoreného v&amp;nbsp;&lt;EM&gt;PrestaShope&lt;/EM&gt;, preto pri importe údajov najprv &lt;STRONG&gt;pomocou transformačnej šablóny&amp;nbsp;vykoná konverziu&lt;/STRONG&gt; daného súboru do natívneho&amp;nbsp;(podporovaného) formátu.
+&lt;LI&gt;V treťom kroku je nutné &lt;STRONG&gt;synchronizovať (zosúladiť) skladové karty&lt;/STRONG&gt; v&amp;nbsp;OBERON-e s&amp;nbsp;internetovým obchodom &lt;EM&gt;PrestaShop&lt;/EM&gt;.&lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Na&amp;nbsp;správnu synchronizáciu naimportovaných kariet OBERON vyžaduje&amp;nbsp;vyplnené referenčné číslo (kód produktu). Inak budú karty vytvorené v e-shope duplicitne.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;1. Export databázy z PrestaShopu do súboru XML&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;OL&gt;
+&lt;LI&gt;Nainštalujte modul (rozšírenie/doplnok) &lt;EM&gt;ExportDbToXml&lt;/EM&gt; do internetového obchodu &lt;EM&gt;PrestaShop&lt;/EM&gt;. Súbor je možné získať zo stránky&amp;nbsp;&lt;A href="http://www.exalogic.sk/"&gt;www.exalogic.sk&lt;/A&gt; v sekcii &lt;EM&gt;Na stiahnutie, OBERON - doplnky, XML komunikácia - súbory,&amp;nbsp;&lt;/EM&gt;&lt;A href="https://exalogic.sk/na-stiahnutie-oberon/prestashop-export-databazy-do-xml/" target=_blank&gt;PrestaShop - export databázy do XML&lt;/A&gt;. 
+&lt;LI&gt;V nastavení modulu &lt;EM&gt;ExportDbToXml&lt;/EM&gt; spustite &lt;EM&gt;&lt;STRONG&gt;export database to XML&lt;/STRONG&gt;&lt;/EM&gt; a po úspešnom vygenerovaní súboru ho uložte na disk. &lt;/LI&gt;&lt;/OL&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;2. Import databázy vo formáte XML do skladu&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;OL&gt;
+&lt;LI&gt;V programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;&amp;nbsp;pomocou&amp;nbsp;&lt;A href="a1ae5eb5-f369-4aab-80b2-c6585166d550"&gt;Správcu doplnkov&lt;/A&gt;&amp;nbsp;(ponuka &lt;EM&gt;Servis&lt;/EM&gt;) nainštalujte transformačnú šablónu &lt;EM&gt;&lt;STRONG&gt;Transformačné šablóny pre komunikáciu s&amp;nbsp;PrestaShopom&lt;/STRONG&gt;&lt;/EM&gt;. &amp;nbsp;&amp;nbsp; 
+&lt;LI&gt;V ponuke &lt;EM&gt;Sklad&lt;/EM&gt; zvoľte položku&amp;nbsp;&lt;A href="1e423d36-8e0a-4420-b2e9-05f12806ec3a"&gt;Sklady&lt;/A&gt;, stlačte tlačidlo &lt;EM&gt;Nový&lt;/EM&gt; a vytvorte nový sklad, do ktorého sa vykoná import skladových kariet. 
+&lt;LI&gt;V evidencii&amp;nbsp;&lt;A href="1a33ab0b-2df7-4dc2-962b-8a3319c16831"&gt;Skladové karty&lt;/A&gt; vyberte novovytvorený sklad a stlačte tlačidlo &lt;EM&gt;Možnosti&lt;/EM&gt;, zvoľte položku&amp;nbsp;&lt;A href="87f1f18f-269b-4e21-998d-5e9b7f3d5024"&gt;XML komunikácia - hromadný import záznamov&lt;/A&gt;. Otvorí sa sprievodca na import údajov, pomocou ktorého&amp;nbsp;vyberte súbor, v&amp;nbsp;ktorom&amp;nbsp;sa nachádza&amp;nbsp;databáza &lt;EM&gt;PrestaShopu&lt;/EM&gt; vo formáte XML. 
+&lt;LI&gt;V ďalšom kroku z rozbaľovacieho zoznamu&amp;nbsp;vyberte šablónu&amp;nbsp;na transformáciu databázy nainštalovanú v bode č. 1 (&lt;EM&gt;Import skladových kariet do systému OBERON&lt;/EM&gt;). 
+&lt;LI&gt;Stlačením tlačidla &lt;EM&gt;Importovať&lt;/EM&gt; sa skladové karty naimportujú do príslušného skladu. 
+&lt;LI&gt;Skontrolujte naimportované skladové karty, či obsahujú požadované údaje&amp;nbsp;(názvy, popisy, ceny, množstvá). V prípade chybných alebo chýbajúcich údajov môže skúsený&amp;nbsp;používateľ upraviť transformačnú šablónu a znovu spustiť import údajov. 
+&lt;LI&gt;Po úspešnom naimportovaní skladových kariet je potrebné spustiť funkciu &lt;EM&gt;&lt;STRONG&gt;Automatické vytvorenie kategórií skladových kariet&lt;/STRONG&gt;&lt;/EM&gt; (ponuka &lt;EM&gt;Sklad&lt;/EM&gt;, &lt;EM&gt;Skladové karty&lt;/EM&gt;, tlačidlo &lt;EM&gt;Možnosti&lt;/EM&gt;), kde sa nanovo vygeneruje stromová štruktúra kategórií. &lt;/LI&gt;&lt;/OL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Systém OBERON&amp;nbsp;má na rozdiel od internetového obchodu &lt;EM&gt;PrestaShop&lt;/EM&gt; pre jednu skladovú kartu s variantmi jednu cenu. Preto v prípade, že &lt;EM&gt;PrestaShop&lt;/EM&gt; má vytvorenú kartu s kombináciami, ktoré majú nastavenú inú cenu, vytvorí&amp;nbsp;pre tieto varianty samostatnú skladovú kartu s touto cenou.&amp;nbsp;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;3. Export skladových kariet z OBERON-u do PrestaShopu&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Po úspešnom exporte databázy z &lt;EM&gt;Prestashopu&lt;/EM&gt; a následnom importe skladových kariet do skladu v systéme OBERON je potrebné synchronizovať (zosúladiť) skladové karty v OBERON-e s&amp;nbsp;internetovým obchodom &lt;EM&gt;PrestaShop&lt;/EM&gt;.&lt;/P&gt;
+&lt;OL&gt;
+&lt;LI&gt;Pred exportom skladových kariet (produktov) zo systému OBERON do internetového obchodu &lt;STRONG&gt;odporúčame vykonať zálohu databázy internetového obchodu&lt;/STRONG&gt;. 
+&lt;LI&gt;Nastavte pripojenie k internetovému obchodu &lt;EM&gt;PrestaShop&lt;/EM&gt;. Postup je bližšie popísaný v téme&amp;nbsp;&lt;A href="0c8a8cea-c087-4d1d-ac9e-8c24ad563ce6" style="auto-update-caption: true"&gt;Nastavenie komunikácie OBERON-u s PrestaShopom&lt;/A&gt;.&amp;nbsp; 
+&lt;LI&gt;V programe&amp;nbsp;&lt;A href="24e780fd-36d3-4a6e-bfc0-a8665c75e4ee"&gt;OBERON Center&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt; oddiel&lt;EM&gt;&amp;nbsp;Internetový obchod&lt;/EM&gt;&amp;nbsp;spustite (tlačidlo &lt;EM&gt;Spustiť&lt;/EM&gt;)&amp;nbsp;export všetkých skladových kariet s obrázkami do internetového obchodu &lt;EM&gt;PrestaShop&lt;/EM&gt;. 
+&lt;LI&gt;Skontrolujte produkty a ich vlastnosti v internetovom obchode, teda či naimportované produkty zodpovedajú pôvodným. &lt;/LI&gt;&lt;/OL&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="29206217-0f44-4eeb-90b7-801615cde58f" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="7437cbeb-c6d1-4b19-92ee-150ba8e4097f">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="f2a16a1e-2c2c-4428-8157-de9d3823df3c" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="f6dadabc-4824-4868-b3f3-24f817d9f2eb">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="199fbf08-ac0c-449a-8155-2dd5ad3a8905" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="0c8a8cea-c087-4d1d-ac9e-8c24ad563ce6">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="938bfa6d-2eff-4103-a6ef-88f9c89ba516">
+      <Keyword m="2022-07-27T07:02:24.8743506Z">Internetový obchod Prestashop - import produktov do OBERON-u</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="5b2d347c-c88f-4839-82a0-ffaa43d46fdf">
+      <Keyword m="2022-07-27T07:02:37.4201631Z">PrestaShop - import produktov do OBERON-u</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="c0ea93c9-0edb-40fa-ba54-3180d0ec8fca">
+      <Keyword m="2022-07-27T07:11:00.6061801Z">PrestaShop - import skladových kariet do OBERON-u</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

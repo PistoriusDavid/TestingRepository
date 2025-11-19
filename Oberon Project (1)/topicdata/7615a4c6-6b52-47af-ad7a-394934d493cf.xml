@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="7615a4c6-6b52-47af-ad7a-394934d493cf" Status="Complete" CreatedOn="2015-12-29T14:40:27.3882643Z" ModifiedOn="2022-06-29T08:13:36.6418592Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="60000" Name="Hotel_Advanced_SourceRezervation" BuildFlags="">
+  <Title m="2015-12-29T14:41:02.5531866Z">Zdroje rezervácie</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2022-06-29T08:13:36.6418592Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;informácie o zdrojoch rezervácií&lt;/STRONG&gt;&amp;nbsp;&lt;STRONG&gt;ubytovania&lt;/STRONG&gt; v&amp;nbsp;module&amp;nbsp;&lt;A href="c3bd41f0-029e-4c74-b342-b0ffff647b6e"&gt;Hotelová recepcia&lt;/A&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Pod pojmom zdroj rezervácie rozumieme &lt;STRONG&gt;pôvod rezervácie ubytovania&lt;/STRONG&gt;. Ten zahŕňa napr. rezervačný formulár ubytovania na webovej stránke ubytovacieho zariadenia, cestovnú agentúru,&amp;nbsp;provízny rezervačný portál (napr. &lt;EM&gt;Booking.com&lt;/EM&gt;) atď. 
+&lt;LI&gt;Zdroj rezervácií je možné konkrétnej rezervácii ubytovania pridať vo&amp;nbsp;&lt;A href="90d7003c-1001-42ee-beef-bb7df6eada31"&gt;formulári Rezervácia&lt;/A&gt;, resp.&amp;nbsp;&lt;A href="d43ef71f-edb1-44f7-b1a2-c0cf18067ee9"&gt;formulári Ubytovanie&lt;/A&gt;, záložka &lt;EM&gt;Obchodný partner&lt;/EM&gt;. V ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="f0386fce-aa67-4fa4-a611-234d30fa9f82"&gt;oddiel Firma, Hotelová recepcia&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt; záložka &lt;EM&gt;Ostatné&lt;/EM&gt; je možné nastaviť, aby program vyžadoval zadanie zdroja rezervácie pri jej evidovaní. 
+&lt;LI&gt;Evidencia zdrojov rezervácií slúži na kontrolnú činnosť, napr. vyúčtovanie provízií pre konkrétnu cestovnú&amp;nbsp;agentúru, prípadne ako zdroj údajov pre efektívnejší marketing. Ubytovacie zariadenia&amp;nbsp;evidenciou zdrojov rezervácií získajú dokonalý prehľad o tom, či vynaložené finančné prostriedky na reklamu sú použité naozaj efektívne. 
+&lt;LI&gt;V&amp;nbsp;systéme OBERON sú základné zdroje rezervácií ubytovania&amp;nbsp;&lt;STRONG&gt;preddefinované&lt;/STRONG&gt;. Ďalšie zdroje rezervácií si môže účtovná jednotka&amp;nbsp;podľa potreby&amp;nbsp;&lt;STRONG&gt;ľubovoľne definovať&lt;/STRONG&gt;. 
+&lt;LI&gt;Preddefinované zdroje rezervácií sú tieto: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;priamy kontakt&lt;/STRONG&gt; - rezervácia vytvorená napr. na základe telefonátu, e-mailu, na základe internetovej stránky ubytovacieho zariadenia, alebo tzv. z ulice&amp;nbsp;a pod., 
+&lt;LI&gt;&lt;STRONG&gt;internetový reklamný katalóg&lt;/STRONG&gt; - rezervácia vytvorená na základe reklamy na ubytovacom&amp;nbsp;portáli, 
+&lt;LI&gt;&lt;STRONG&gt;provízny rezervačný portál&lt;/STRONG&gt; - rezervácia vytvorená cez rezervačný portál, napr. &lt;EM&gt;Booking.com, Expedia&amp;nbsp;&lt;/EM&gt;a pod., 
+&lt;LI&gt;&lt;STRONG&gt;zľavový rezervačný portál&lt;/STRONG&gt; - rezervácia vytvorená&amp;nbsp;prostredníctvom zľavového portálu, 
+&lt;LI&gt;&lt;STRONG&gt;cestovná agentúra&lt;/STRONG&gt; - sprostredkovanie ubytovania cestovnou&amp;nbsp;agentúrou. &lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Postup vytvorenia rezervácie ubytovania je dostupný v téme&amp;nbsp;&lt;A href="2414619b-e1e1-4bc2-b745-c8d08f3f2549" style="auto-update-caption: true"&gt;Zaevidovanie rezervácie&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H5&gt;Obrázok č. 1: Tlačový výstup vo forme koláčového grafu &amp;nbsp;&lt;/H5&gt;&lt;IMG border=0 alt="" src="images/Hotel/Hotel_Rezervation_Graph1.png"&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="a6e04783-15d1-4670-a083-fe81781291fc" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="3ca37544-bbc0-4a88-af6a-a2132b74279d">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="05231984-0b42-4c07-8415-0ef0e7a91c84" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="2414619b-e1e1-4bc2-b745-c8d08f3f2549">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="337f3c1f-52ad-4e23-9d73-eb6ac83802c0" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="90d7003c-1001-42ee-beef-bb7df6eada31">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="13c3ddd3-e49b-4a02-b1b9-529435f82bcf" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="d43ef71f-edb1-44f7-b1a2-c0cf18067ee9">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="aa34b6bd-d360-4195-900c-a1fabb9967c4">
+      <Keyword m="2015-12-29T14:44:56.9175413Z">Kanály rezervácie ubytovania</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="8ca5bd34-7593-457e-bbda-4a6dc6218606">
+      <Keyword m="2022-06-29T07:42:54.5756213Z">Rezervácia - zdroje</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="133ddc6a-a428-4873-b534-cb91457a7bdb">
+      <Keyword m="2022-06-29T07:39:44.2064216Z">Cestovná agentúra - zdroje rezervácie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="d46f8b77-7d67-45f9-b6ff-694b76a7624d">
+      <Keyword m="2022-06-29T07:42:45.3905911Z">Pôvod rezervácie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="6e638d86-7f72-4829-b811-a1275a5ae741">
+      <Keyword m="2015-12-30T08:41:01.8625638Z">Štatistika rezervácií ubytovania</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="5988a83b-ee01-4b0b-bc2a-82f2438d53f2">
+      <Keyword m="2022-06-29T07:40:37.4857299Z">Booking.com  - zdroje rezervácie</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

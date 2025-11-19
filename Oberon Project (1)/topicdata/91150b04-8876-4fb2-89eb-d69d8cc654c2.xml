@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="91150b04-8876-4fb2-89eb-d69d8cc654c2" Status="Complete" CreatedOn="2021-03-29T12:23:24.4127926Z" ModifiedOn="2024-03-13T12:13:37.5961664Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="22040" Name="Form_OBERON_Print_Settings" BuildFlags="">
+  <Title m="2021-03-29T12:23:57.7932827Z">Formulár Vlastnosti tlačového výstupu</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-03-13T12:13:37.5961664Z">&lt;P&gt;Formulár &lt;EM&gt;Vlastnosti tlačového výstupu&lt;/EM&gt;&amp;nbsp;umožňuje&amp;nbsp;vykonať &lt;STRONG&gt;rôzne bližšie nastavenia&amp;nbsp;na zostavenie tlačového výstupu&lt;/STRONG&gt; v&amp;nbsp;systéme OBERON, resp.&amp;nbsp;&lt;A href="b3e41f60-bab3-4ad9-b73d-69ece0c12afa"&gt;jeho úpravu&lt;/A&gt;. Všeobecné informácie o tlačových výstupoch v systéme OBERON sú dostupné v&amp;nbsp;téme&amp;nbsp;&lt;A href="66ed476e-d5ea-4e46-a758-a3f190a60a7c" style="auto-update-caption: true"&gt;Všeobecne o tlačových výstupoch&lt;/A&gt;. Formulár&amp;nbsp;je možné otvoriť&amp;nbsp;z&amp;nbsp;akejkoľvek&amp;nbsp;evidencie (knihy) programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;&amp;nbsp;z&amp;nbsp;&lt;A href="2bac8d21-6ae0-44e4-8b2e-403ac2f25955"&gt;formulára Tlačové výstupy&lt;/A&gt; kliknutím pravým tlačidlom myši na&amp;nbsp;vybraný tlačový výstup a&amp;nbsp;výberom možnosti &lt;EM&gt;Vlastnosti tlačového výstupu&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Popis formulára &lt;EM&gt;Vlastnosti tlačového výstupu&lt;/EM&gt;&lt;/H2&gt;&lt;innovasys:widget type="Tab Strip" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Nastavenia&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;&lt;STRONG&gt;Tlačiť pečiatku a podpis používateľa&lt;/STRONG&gt;&amp;nbsp;- na doklade vytlačí obrázok podpisu nastavený prihlásenému&amp;nbsp;používateľovi vo &lt;A href="12e7a96f-bc40-4359-bc7a-213d74a785d4"&gt;formulári Používateľ&lt;/A&gt;, záložka &lt;EM&gt;Podpis&lt;/EM&gt;. Bližšie informácie získate v téme&amp;nbsp;&lt;A href="263345a9-095c-462c-9c0e-7e5eb28e7dff" style="auto-update-caption: true"&gt;Ako pridať na faktúru podpis alebo pečiatku?&lt;/A&gt;&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;Elektronicky&amp;nbsp;podpísať (platí len pre export do PDF)&lt;/STRONG&gt;&amp;nbsp;- podpíše exportovaný PDF dokument za účtovnú jednotku&amp;nbsp;&lt;A href="c1e2e5a1-2cf4-47aa-a546-47d5baa1df3e"&gt;kvalifikovaným elektronickým podpisom (KEP)&lt;/A&gt;, resp.&amp;nbsp;&lt;A href="a833ee8a-1289-42b9-923f-80f549497702"&gt;vygenerovaným podpisovým certifikátom&lt;/A&gt; nastaveným prihlásenému&amp;nbsp;používateľovi vo &lt;A href="12e7a96f-bc40-4359-bc7a-213d74a785d4"&gt;formulári Používateľ&lt;/A&gt;, záložka &lt;EM&gt;Podpis&lt;/EM&gt;. Toto nastavenie nesúvisí s&amp;nbsp;podpisovaním pomocou digitálnej podpisovej podložky, ktorá slúži na podpis tlačového výstupu zákazníkom (vtedy je potrebné ponechať pole nezačiarknuté). Viac informácií získate v téme&amp;nbsp;&lt;A href="a315053c-fb60-4f19-a3df-40b9c9dd02f8" style="auto-update-caption: true"&gt;Digitálna podpisová podložka EXALOGIC-DSP1&lt;/A&gt;.&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;Tlačiť hromadne&lt;/STRONG&gt;&amp;nbsp;- umožní, aby sa do jednej tlačovej zostavy zahrnuli všetky doklady zobrazené v danej knihe (napr. &lt;EM&gt;Knihe pohľadávok&lt;/EM&gt;). Vybrať doklady (záznamy) knihy&amp;nbsp;na tlač je možné pomocou&amp;nbsp;&lt;A href="1ea156c6-edd0-46e0-ab65-7f41af30e672"&gt;filtrov&lt;/A&gt;. V systéme OBERON&amp;nbsp;možno hromadne tlačiť dokumenty takmer v&amp;nbsp;každej evidencii, nie je však podporovaná hromadná&amp;nbsp;tlač každého dokumentu.&amp;nbsp;Hromadnú tlač je potrebné nastaviť pre každý tlačový výstup zvlášť. Nastaviť hromadnú tlač odporúčame na manuálne vytvorenej kópii tlačového výstupu (nazvanej napr. &lt;EM&gt;Faktúra - hromadná tlač&lt;/EM&gt;) a originál tlačového výstupu ponechať na tlač jedného dokladu. Viac informácií v téme&amp;nbsp;&lt;A href="bcc31dc7-fc29-4ed9-9897-7d0cdc4e3ecb" style="auto-update-caption: true"&gt;Hromadná tlač dokumentov&lt;/A&gt;.&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;Skryť v zozname tlačových výstupov&lt;/STRONG&gt;&amp;nbsp;- začiarknutím tohto&amp;nbsp;políčka je možné skryť tlačový výstup.&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;Predvolený&amp;nbsp;jazyk&lt;/STRONG&gt; - nastavuje sa jazyk, v ktorom&amp;nbsp;sa vytvorí&amp;nbsp;tlačový výstup.&amp;nbsp;&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Úpravy&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Zobrazuje stav daného tlačového výstupu, t.&amp;nbsp;j. či ide o pôvodný (originálny), alebo upravený tlačový výstup.&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;Upraviť&lt;/STRONG&gt; - otvorí &lt;A href="bd58b5ac-bf1a-44f0-9463-12aa3e5b8165"&gt;Editor tlačových výstupov&lt;/A&gt;, ktorý umožňuje&amp;nbsp;&lt;A href="b3e41f60-bab3-4ad9-b73d-69ece0c12afa"&gt;úpravu tlačového výstupu&lt;/A&gt;&amp;nbsp;(názov upraveného tlačového výstupu je pritom&amp;nbsp;možné označiť časovou značkou).&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;Odstrániť upravený&lt;/STRONG&gt; - úplne odstráni upravený tlačový výstup.&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;Použiť pôvodný tlačový výstup&lt;/STRONG&gt; - pri tlači sa budú vykonané úpravy ignorovať a&amp;nbsp;použije sa pôvodný (originálny) tlačový výstup.&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;Použiť upravený tlačový výstup&lt;/STRONG&gt; - pri tlači sa použije&amp;nbsp;upravený tlačový výstup.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Okraje&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Nastavuje sa odsadenie okrajov stránky tlačového výstupu.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Práva&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;V záložke &lt;EM&gt;Práva&lt;/EM&gt; je dostupná informácia, ktorí používatelia môžu, resp. nemôžu daný tlačový výstup upravovať podľa nastavení v&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="834e9546-a56b-476f-9028-ef4c24a82345" style="auto-update-caption: true"&gt;Práva používateľov&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="167a2ac8-d2d3-4c18-8a2f-fc5770082f10" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="2bac8d21-6ae0-44e4-8b2e-403ac2f25955">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="6471c2f5-6339-4007-b143-7d08d485ceeb" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="66ed476e-d5ea-4e46-a758-a3f190a60a7c">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="5af4bed7-702d-4620-bb5d-2335140647e9" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="bd58b5ac-bf1a-44f0-9463-12aa3e5b8165">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="bddc3c39-c3a8-46b8-88b6-326b36bd5bba" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="b3e41f60-bab3-4ad9-b73d-69ece0c12afa">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="e3be4f64-6a82-4202-9b38-d3b61862eaeb" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="bcc31dc7-fc29-4ed9-9897-7d0cdc4e3ecb">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="453a8c88-6cc2-414c-8f5c-d32001553842">
+      <Keyword m="2021-05-20T08:06:00.1639503Z">Vlastnosti tlačového výstupu - formulár</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="10b79f16-67ea-4622-96c5-d42e3355cb60">
+      <Keyword m="2021-03-30T11:01:07.7393966Z">Tlačový výstup - bližšie nastavenia a úprava</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="81919c98-aef7-469e-ac22-f322fb18d6b7">
+      <Keyword m="2021-03-30T10:59:57.6296576Z">Generovanie tlačového výstupu - bližšie nastavenia</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="93a4cc82-bc94-4319-9ddb-9beb2e0e82f1">
+      <Keyword m="2021-03-30T11:00:12.3159768Z">Zostavenie tlačového výstupu - bližšie nastavenia</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

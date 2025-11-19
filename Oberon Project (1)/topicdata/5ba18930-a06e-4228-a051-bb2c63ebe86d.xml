@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="5ba18930-a06e-4228-a051-bb2c63ebe86d" Status="Complete" CreatedOn="2014-09-10T06:37:12.3875693Z" ModifiedOn="2023-04-26T06:59:47.3146081Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Stock_Advanced_Discount_Sales" BuildFlags="">
+  <Title m="2015-06-01T12:24:28.6417579Z">Príklady rozšírenej cenotvorby</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-04-26T06:57:53.3579662Z">&lt;P&gt;V tejto téme &lt;EM&gt;Pomocníka&lt;/EM&gt; sú uvedené &lt;STRONG&gt;príklady použitia vybraných&amp;nbsp;&lt;/STRONG&gt;&lt;A href="34f91c11-1a5d-4773-ac4e-48ad2fc859d3"&gt;pravidiel rozšírenej cenotvorby&lt;/A&gt;.&lt;/P&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Príklad vytvorenia štandardnej zľavy v %&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Postup popisuje spôsob, ako konkrétnej skladovej karte priradiť zľavu 10&amp;nbsp;%.&lt;/P&gt;
+&lt;OL&gt;
+&lt;LI&gt;V ponuke &lt;I&gt;Sklad,&amp;nbsp;&lt;/I&gt;&lt;A href="34f91c11-1a5d-4773-ac4e-48ad2fc859d3" style="auto-update-caption: true"&gt;Pravidlá rozšírenej cenotvorby&lt;/A&gt; stlačte tlačidlo &lt;EM&gt;Nový.&lt;/EM&gt; Otvorí sa&amp;nbsp;&lt;A href="6b018069-d729-4bd0-8bf8-2162d116c247"&gt;formulár Pravidlo cenotvorby&lt;/A&gt;. 
+&lt;LI&gt;V záložke &lt;I&gt;Základné&lt;/I&gt; nastavte:&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Názov:&amp;nbsp;napr. &lt;EM&gt;Zľava 10&amp;nbsp;%&lt;BR&gt;&lt;/EM&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Typ: &lt;STRONG&gt;Štandardná zľava v percentách&lt;BR&gt;&lt;/STRONG&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Platnosť: zadajte&amp;nbsp;rozsah dvoch dátumov alebo&amp;nbsp;pomocou&amp;nbsp;&lt;A href="0b544ca9-1220-4056-8c1d-82d41ecbac18"&gt;ročného kalendára&lt;/A&gt;&amp;nbsp;vyberte konkrétne dni v roku, v&amp;nbsp;ktoré má dané pravidlo platiť&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Zľava: zadajte výšku zľavy 10&amp;nbsp;% z &lt;EM&gt;Predajnej ceny 1&lt;/EM&gt;&amp;nbsp; 
+&lt;LI&gt;Výber skladových kariet, pre ktoré bude pravidlo platiť, je možné určiť rôznorodo, napr. pomocou kategórií, skladových či tovarových skupín, prípadne môže ísť o okruh konkrétnych skladových kariet. 
+&lt;LI&gt;Nastavte všetky ostatné parametre pravidla. 
+&lt;LI&gt;Pravidlo uložte stlačením tlačidla &lt;EM&gt;OK&lt;/EM&gt;, následne&amp;nbsp;formulár so zoznamom pravidiel rozšírenej cenotvorby zatvorte. V&amp;nbsp;evidencii&amp;nbsp;&lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;Skladové karty&lt;/A&gt; je možné overiť korektnosť daného pravidla, pričom priamo na skladovej karte v záložke &lt;EM&gt;Ceny&lt;/EM&gt; je možné zobraziť dané pravidlo s vypočítanými cenami (tlačidlo &lt;EM&gt;Ceny rozšírenej cenotvorby...&lt;/EM&gt;). &lt;/LI&gt;&lt;/OL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Podobne je možné vytvoriť pravidlo typu &lt;EM&gt;Happy hour&lt;/EM&gt;, ktoré bude platiť len v určitých hodinách počas dňa - vo&amp;nbsp;&lt;A href="6b018069-d729-4bd0-8bf8-2162d116c247"&gt;formulári Pravidlo cenotvorby&lt;/A&gt; musí byť zadané pole &lt;EM&gt;Platnosť v&amp;nbsp;čase&lt;/EM&gt; (zadáva sa čas v&amp;nbsp;rámci dňa, počas ktorého bude akcia platiť).&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Príklad vytvorenia akcie na tovar s končiacou zárukou&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Postup popisuje spôsob vytvorenia akcie&amp;nbsp;na tovar s končiacou zárukou,&amp;nbsp;napr. kozmetika, mliečne výrobky, balené mäsové výrobky a pod. Problém s končiacou zárukou sa dá riešiť&amp;nbsp;&lt;A href="61edd121-1efe-4a14-907c-8c8a18cc4539"&gt;vytlačením nového čiarového kódu&lt;/A&gt; s&amp;nbsp;regulárnym výrazom a jeho nalepením na tovar. Pri predaji na &lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnici OBERON&lt;/A&gt; obsluha nasníma&amp;nbsp;&lt;A href="86ce651c-2637-4165-93b4-36535a700fbf"&gt;čiarový kód&lt;/A&gt;, program zistí, že obsahuje platný regulárny výraz a danému tovaru priradí zľavu podľa pravidla vytvoreného nižšie. Iný tovar, ktorému nekončí záruka, sa bude predávať za aktuálne platnú cenu.&lt;/P&gt;
+&lt;OL&gt;
+&lt;LI&gt;V ponuke &lt;I&gt;Sklad,&amp;nbsp;&lt;/I&gt;&lt;A href="34f91c11-1a5d-4773-ac4e-48ad2fc859d3" style="auto-update-caption: true"&gt;Pravidlá rozšírenej cenotvorby&lt;/A&gt; stlačte tlačidlo &lt;EM&gt;Nový.&lt;/EM&gt; Otvorí sa&amp;nbsp;&lt;A href="6b018069-d729-4bd0-8bf8-2162d116c247"&gt;formulár Pravidlo cenotvorby&lt;/A&gt;. 
+&lt;LI&gt;V záložke &lt;I&gt;Základné&lt;/I&gt; nastavte:&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Názov: napr. &lt;EM&gt;Záruka končí&lt;/EM&gt;&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Typ:&amp;nbsp;&lt;STRONG&gt;Štandardná zľava v percentách&lt;/STRONG&gt;&lt;STRONG&gt;&lt;BR&gt;&lt;/STRONG&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Platnosť: zadajte&amp;nbsp;rozsah dvoch dátumov alebo&amp;nbsp;pomocou&amp;nbsp;&lt;A href="0b544ca9-1220-4056-8c1d-82d41ecbac18"&gt;ročného kalendára&lt;/A&gt;&amp;nbsp;vyberte konkrétne dni v roku, v&amp;nbsp;ktoré má dané pravidlo platiť&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Zľava: zadajte výšku zľavy napr. 75&amp;nbsp;% z &lt;EM&gt;Predajnej ceny 1&lt;/EM&gt; 
+&lt;LI&gt;V&amp;nbsp;záložke &lt;EM&gt;Skladové karty&lt;/EM&gt;&amp;nbsp;vyberte:&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Sklad: všetky sklady alebo len vybraný sklad&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Pravidlo uplatniť na:&amp;nbsp;&lt;STRONG&gt;Čiarový kód obsahuje číslo&lt;/STRONG&gt; 
+&lt;LI&gt;Po stlačení&amp;nbsp;tlačidla&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_Button_Change.png"&gt;&amp;nbsp;zo zoznamu príkladov regulárnych výrazov vyberte&amp;nbsp;regulárny výraz, ktorý predstavuje podmienku&amp;nbsp;na vyhodnotenie pravidla (napr. prefix, sufix atď.). 
+&lt;LI&gt;V&amp;nbsp;záložke &lt;EM&gt;Ostatné&lt;/EM&gt; v&amp;nbsp;rozbaľovacom zozname &lt;EM&gt;Pole&amp;nbsp;pre synchronizáciu skladových kariet&lt;/EM&gt;&amp;nbsp;vyberte &lt;EM&gt;Čiarový kód&lt;/EM&gt;.&amp;nbsp; 
+&lt;LI&gt;Pravidlo uložte stlačením tlačidla &lt;EM&gt;OK&lt;/EM&gt;, následne&amp;nbsp;formulár so zoznamom pravidiel rozšírenej cenotvorby zatvorte. V&amp;nbsp;evidencii&amp;nbsp;&lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;Skladové karty&lt;/A&gt; je možné overiť korektnosť daného pravidla, pričom priamo na skladovej karte v záložke &lt;EM&gt;Ceny&lt;/EM&gt; je možné zobraziť dané pravidlo s vypočítanými cenami (tlačidlo &lt;EM&gt;Ceny rozšírenej cenotvorby...&lt;/EM&gt;). &lt;/LI&gt;&lt;/OL&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Príklad&amp;nbsp;použitia zmluvných cien pre&amp;nbsp;určitú skupinu&amp;nbsp;obchodných partnerov&amp;nbsp;&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Postup popisuje spôsob vytvorenia akcie pre firmu - veľkoobchod, ktorá&amp;nbsp;predáva tovar odberateľom za zmluvné ceny. Jeden tovar sa predáva za rôzne zmluvné ceny rôznym odberateľom.&lt;/P&gt;
+&lt;OL&gt;
+&lt;LI&gt;V ponuke &lt;I&gt;Sklad,&amp;nbsp;&lt;/I&gt;&lt;A href="34f91c11-1a5d-4773-ac4e-48ad2fc859d3" style="auto-update-caption: true"&gt;Pravidlá rozšírenej cenotvorby&lt;/A&gt; stlačte tlačidlo &lt;EM&gt;Nový.&lt;/EM&gt; Otvorí sa&amp;nbsp;&lt;A href="6b018069-d729-4bd0-8bf8-2162d116c247"&gt;formulár Pravidlo cenotvorby&lt;/A&gt;. 
+&lt;LI&gt;V záložke &lt;I&gt;Základné&lt;/I&gt; nastavte:&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Názov: napr. &lt;EM&gt;Zmluvné ceny&amp;nbsp;VIP&lt;/EM&gt;&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Typ: &lt;STRONG&gt;Zmluvné ceny&lt;/STRONG&gt;&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Platnosť: zadajte&amp;nbsp;rozsah dvoch dátumov alebo&amp;nbsp;pomocou&amp;nbsp;&lt;A href="0b544ca9-1220-4056-8c1d-82d41ecbac18"&gt;ročného kalendára&lt;/A&gt;&amp;nbsp;vyberte konkrétne dni v roku, v&amp;nbsp;ktoré má dané pravidlo platiť 
+&lt;LI&gt;V&amp;nbsp;záložke &lt;EM&gt;Skladové karty&lt;/EM&gt;&amp;nbsp;vyberte:&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Sklad: všetky sklady alebo len vybraný sklad&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 
+&lt;LI&gt;Stlačte tlačidlo &lt;EM&gt;Nový&lt;/EM&gt;,&amp;nbsp;vyberte skladovú kartu a stlačte tlačidlo &lt;EM&gt;&lt;STRONG&gt;OK&lt;/STRONG&gt;&lt;/EM&gt;. Otvorí sa formulár&amp;nbsp;&lt;A href="f1fdc993-21a1-4db1-989e-fda72f89ef31"&gt;Rozšírená cenotvorba - skladová karta&lt;/A&gt;, v ktorom zadajte novú predajnú cenu (zmluvnú cenu). 
+&lt;LI&gt;V záložke &lt;EM&gt;Typy dokladov&lt;/EM&gt; zadajte doklady, pre ktoré sa bude pravidlo uplatňovať. 
+&lt;LI&gt;V záložke&amp;nbsp;&lt;EM&gt;Obchodní partneri&lt;/EM&gt; vyberte z nasledujúcich možností:&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;- &lt;EM&gt;Všetkých obchodných partnerov&lt;/EM&gt;,&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;- &lt;EM&gt;Vybraných obchodných partnerov&lt;/EM&gt;,&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;- &lt;EM&gt;Skupiny obchodných partnerov&lt;/EM&gt;.&lt;BR&gt;Jednou možnosťou je vyberať obchodných partnerov postupne po jednom (tlačidlo &lt;EM&gt;Nový&lt;/EM&gt;). Druhou možnosťou&amp;nbsp;je vytvorenie skupiny obchodných partnerov, ktorým bude účtovaná zmluvná cena. Skupina sa vytvára vo&amp;nbsp;&lt;A href="4fbe9db8-25bc-420f-aee5-228d0a8ff03f"&gt;formulári Obchodný partner&lt;/A&gt;, v&amp;nbsp;záložke &lt;EM&gt;Skupiny&lt;/EM&gt;. Jeden obchodný partner môže patriť do viacerých skupín.&amp;nbsp;Druhý spôsob je rýchlejší pri veľkom počte obchodných partnerov. 
+&lt;LI&gt;Nastavte všetky ostatné parametre pravidla. 
+&lt;LI&gt;Pravidlo uložte stlačením tlačidla &lt;EM&gt;OK&lt;/EM&gt;, následne&amp;nbsp;formulár so zoznamom pravidiel rozšírenej cenotvorby zatvorte. V&amp;nbsp;evidencii&amp;nbsp;&lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;Skladové karty&lt;/A&gt; je možné overiť korektnosť daného pravidla, pričom priamo na skladovej karte v záložke &lt;EM&gt;Ceny&lt;/EM&gt; je možné zobraziť dané pravidlo s vypočítanými cenami (tlačidlo &lt;EM&gt;Ceny rozšírenej cenotvorby...&lt;/EM&gt;). &lt;/LI&gt;&lt;/OL&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Príklad vytvorenia pravidla &lt;EM&gt;Výpredaj&lt;/EM&gt; pomocou &lt;EM&gt;Kategórií skladových kariet&lt;/EM&gt;&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Jedným zo spôsobov, ako predávať v určitej zľave, je vytvorenie pravidla &lt;EM&gt;Výpredaj&lt;/EM&gt;, pričom pravidlo sa uplatní len na kategóriu, ktorú si kvôli tomu vytvoríme, napr. s názvom &lt;EM&gt;Akcia, Výpredaj&lt;/EM&gt;. Kategóriu vytvoríme v&amp;nbsp;ponuke &lt;EM&gt;Sklad&lt;/EM&gt;,&amp;nbsp;&lt;A href="4dfc2d36-f1c8-4b60-81c4-62e8e5197b99"&gt;Kategórie skladových kariet&lt;/A&gt;. Neskôr už nebude potrebné meniť pravidlo, budú sa meniť len skladové karty, ktoré budú patriť do výpredaja. Zmenu vykonáme priradením skladovej karty do kategórie &lt;EM&gt;Akcia, Výpredaj&lt;/EM&gt;. Kategóriu na&amp;nbsp;&lt;A href="1a33ab0b-2df7-4dc2-962b-8a3319c16831"&gt;skladovej karte&lt;/A&gt; je možné zmeniť aj hromadne (tlačidlo &lt;EM&gt;Možnosti&lt;/EM&gt;, &lt;EM&gt;Hromadné zmeny&lt;/EM&gt;).&lt;/P&gt;
+&lt;OL&gt;
+&lt;LI&gt;V ponuke &lt;I&gt;Sklad,&amp;nbsp;&lt;/I&gt;&lt;A href="34f91c11-1a5d-4773-ac4e-48ad2fc859d3" style="auto-update-caption: true"&gt;Pravidlá rozšírenej cenotvorby&lt;/A&gt; stlačte tlačidlo &lt;EM&gt;Nový.&lt;/EM&gt; Otvorí sa&amp;nbsp;&lt;A href="6b018069-d729-4bd0-8bf8-2162d116c247"&gt;formulár Pravidlo cenotvorby&lt;/A&gt;. 
+&lt;LI&gt;V záložke &lt;I&gt;Základné&lt;/I&gt; nastavte:&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Názov: napr. &lt;EM&gt;Výpredaj&lt;/EM&gt;&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Typ:&amp;nbsp;&lt;STRONG&gt;Štandardná zľava v percentách&lt;/STRONG&gt;&lt;STRONG&gt;&lt;BR&gt;&lt;/STRONG&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Platnosť: zadajte&amp;nbsp;rozsah dvoch dátumov alebo&amp;nbsp;pomocou&amp;nbsp;&lt;A href="0b544ca9-1220-4056-8c1d-82d41ecbac18"&gt;ročného kalendára&lt;/A&gt;&amp;nbsp;vyberte konkrétne dni v roku, v&amp;nbsp;ktoré má dané pravidlo platiť&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Zľava: zadajte výšku zľavy napr.&amp;nbsp;30&amp;nbsp;% z &lt;EM&gt;Predajnej ceny 1&lt;/EM&gt; 
+&lt;LI&gt;V&amp;nbsp;záložke &lt;EM&gt;Skladové karty&lt;/EM&gt;&amp;nbsp;vyberte:&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Sklad: všetky sklady&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Pravidlo uplatniť na:&amp;nbsp;&lt;STRONG&gt;Kategórie (vyberte kategóriu &lt;EM&gt;Akcia, Výpredaj&lt;/EM&gt;)&lt;/STRONG&gt; 
+&lt;LI&gt;Pravidlo uložte stlačením tlačidla &lt;EM&gt;OK&lt;/EM&gt;, následne&amp;nbsp;formulár so zoznamom pravidiel rozšírenej cenotvorby zatvorte. V&amp;nbsp;evidencii&amp;nbsp;&lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;Skladové karty&lt;/A&gt; je možné overiť korektnosť daného pravidla, pričom priamo na skladovej karte v záložke &lt;EM&gt;Ceny&lt;/EM&gt; je možné zobraziť dané pravidlo s vypočítanými cenami (tlačidlo &lt;EM&gt;Ceny rozšírenej cenotvorby...&lt;/EM&gt;). &lt;/LI&gt;&lt;/OL&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Príklad vytvorenia pravidla &lt;EM&gt;Výpredaj&lt;/EM&gt; pomocou &lt;EM&gt;Predajnej ceny 4&lt;/EM&gt;&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Ďalším spôsobom&amp;nbsp;je vytvorenie pravidla, pomocou ktorého sa bude tovar predávať v konkrétnej cenovej hladine, napr. &lt;EM&gt;Predajná cena 1&lt;/EM&gt; bude predstavovať štandardnú predajnú cenu, &lt;EM&gt;Predajná cena 4&lt;/EM&gt; bude predstavovať akciovú&amp;nbsp;predajnú cenu. Podobne ako v&amp;nbsp;predchádzajúcom príklade&amp;nbsp;vytvoríme v ponuke &lt;EM&gt;Sklad&lt;/EM&gt;,&amp;nbsp;&lt;A href="4dfc2d36-f1c8-4b60-81c4-62e8e5197b99"&gt;Kategórie skladových kariet&lt;/A&gt; novú kategóriu, ktorú nazveme napríklad &lt;EM&gt;Akcia, Výpredaj&lt;/EM&gt;. Po vytvorení pravidla sa bude meniť len kategória na skladovej karte pre tie karty, ktoré chceme zaradiť do akcie. Kategóriu na&amp;nbsp;&lt;A href="1a33ab0b-2df7-4dc2-962b-8a3319c16831"&gt;skladovej karte&lt;/A&gt; je možné zmeniť aj hromadne (tlačidlo &lt;EM&gt;Možnosti&lt;/EM&gt;, &lt;EM&gt;Hromadné zmeny&lt;/EM&gt;).&lt;/P&gt;
+&lt;OL&gt;
+&lt;LI&gt;V ponuke &lt;I&gt;Sklad,&amp;nbsp;&lt;/I&gt;&lt;A href="34f91c11-1a5d-4773-ac4e-48ad2fc859d3" style="auto-update-caption: true"&gt;Pravidlá rozšírenej cenotvorby&lt;/A&gt; stlačte tlačidlo &lt;EM&gt;Nový.&lt;/EM&gt; Otvorí sa&amp;nbsp;&lt;A href="6b018069-d729-4bd0-8bf8-2162d116c247"&gt;formulár Pravidlo cenotvorby&lt;/A&gt;. 
+&lt;LI&gt;V záložke &lt;I&gt;Základné&lt;/I&gt; nastavte:&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Názov: napr. &lt;EM&gt;Výpredaj - Predajná cena 4&lt;/EM&gt;&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Typ:&amp;nbsp;&lt;STRONG&gt;Konkrétna cenová hladina&lt;/STRONG&gt;&lt;STRONG&gt;&lt;BR&gt;&lt;/STRONG&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Platnosť: zadajte&amp;nbsp;rozsah dvoch dátumov alebo&amp;nbsp;pomocou&amp;nbsp;&lt;A href="0b544ca9-1220-4056-8c1d-82d41ecbac18"&gt;ročného kalendára&lt;/A&gt;&amp;nbsp;vyberte konkrétne dni v roku, v&amp;nbsp;ktoré má dané pravidlo platiť&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Cenová hladina: &lt;STRONG&gt;Predajná cena 4&lt;/STRONG&gt; 
+&lt;LI&gt;V&amp;nbsp;záložke &lt;EM&gt;Skladové karty&lt;/EM&gt;&amp;nbsp;vyberte:&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Sklad: všetky sklady&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Pravidlo uplatniť na:&amp;nbsp;&lt;STRONG&gt;Kategórie (vyberte kategóriu &lt;EM&gt;Akcia, Výpredaj&lt;/EM&gt;)&lt;/STRONG&gt; 
+&lt;LI&gt;Pravidlo uložte stlačením tlačidla &lt;EM&gt;OK&lt;/EM&gt;, následne&amp;nbsp;formulár so zoznamom pravidiel rozšírenej cenotvorby zatvorte. V&amp;nbsp;evidencii&amp;nbsp;&lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;Skladové karty&lt;/A&gt; je možné overiť korektnosť daného pravidla, pričom priamo na skladovej karte v záložke &lt;EM&gt;Ceny&lt;/EM&gt; je možné zobraziť dané pravidlo s vypočítanými cenami (tlačidlo &lt;EM&gt;Ceny rozšírenej cenotvorby...&lt;/EM&gt;). &lt;/LI&gt;&lt;/OL&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Po ukončení definovania pravidla je potrebné&amp;nbsp;formulár zatvoriť. Po&amp;nbsp;zatvorení formulára sa pravidlo uloží, aktualizujú sa údaje na skladových kartách a až následne&amp;nbsp;možno začať pravidlo používať.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="3c5e3068-e890-4595-8008-c40832edff84" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="34f91c11-1a5d-4773-ac4e-48ad2fc859d3">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="b03ca3c0-9867-4c97-8bfd-37ccb80037cd" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="6b018069-d729-4bd0-8bf8-2162d116c247">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="ba176096-0106-4e62-8bfe-387bc2a83ac9" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="40c5a838-b404-441c-ac13-f0232013d8f7">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="d79063bb-5f6c-41d8-93e0-13301392be5b" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="f1fdc993-21a1-4db1-989e-fda72f89ef31">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="59fd6de8-45bc-43db-a87e-c6d891649a8d" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1a33ab0b-2df7-4dc2-962b-8a3319c16831">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="e7b473b5-6b24-46a6-b43c-716b86f615b3" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="c233ada3-0fed-4911-97f3-0680973ebac1">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="684e8faa-ef5d-4936-a9c0-2b580d78c34e" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="4dfc2d36-f1c8-4b60-81c4-62e8e5197b99">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="a3ffe85d-d83c-40e9-98cc-ff1c6deb06f9" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="0b544ca9-1220-4056-8c1d-82d41ecbac18">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="4aa579cf-98b9-4e10-a32d-15a6595643ea" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="0e48f8ed-07c8-4be5-90cf-25dbf7d5afd9">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="b0940e2e-00b1-4eb8-b9a4-95a5741b8f22" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="86ce651c-2637-4165-93b4-36535a700fbf">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="c14cc2cb-dcf7-47ea-9eb9-5d8226b7f032" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="58eee6a7-b5aa-47a5-9d0e-6f9987c96a52">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="e8dd44d3-3e93-4528-9e81-5e3f76437380">
+      <Keyword m="2021-11-04T13:44:32.1583666Z">Akcia - príklady</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="48525ac0-ef74-4bbf-9140-60b91fa458a7">
+      <Keyword m="2021-11-04T13:45:00.0097798Z">Zľava a akcia - príklady</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="6f6aacda-0ce6-406d-ae58-743cb05b2f57">
+      <Keyword m="2021-11-04T13:44:39.7587469Z">Cenotvorba - príklady</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="be64ad82-267d-43ca-b1e3-5072a945c740">
+      <Keyword m="2021-11-04T13:45:09.3306657Z">Zmluvné ceny - príklady</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="fbf3706f-e60b-4959-9ff3-746894bbf456">
+      <Keyword m="2021-11-04T13:44:49.5526941Z">Regulárny výraz - príklad</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="1b987768-88e3-4ec5-91bd-aa439a3155cd">
+      <Keyword m="2023-04-26T06:59:30.7184269Z">Rozšírená cenotvorba - príklady</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="85d401f5-3894-4295-9532-d21f9f71aba0">
+      <Keyword m="2023-04-26T06:59:46.8190568Z">Pravidlá rozšírenej cenotvorby - príklady</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

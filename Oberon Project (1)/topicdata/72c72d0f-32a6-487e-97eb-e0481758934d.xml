@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="72c72d0f-32a6-487e-97eb-e0481758934d" Status="Complete" CreatedOn="2014-09-04T15:39:57.448779Z" ModifiedOn="2024-03-20T12:32:20.1336081Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Installation_of_Certificate" BuildFlags="">
+  <Title m="2022-10-26T11:46:17.2080032Z">Inštalácia kvalifikovaného certifikátu CA</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2022-10-26T11:48:10.9272524Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; je venovaná &lt;STRONG&gt;inštalácii kvalifikovaného certifikátu certifikačnej autority (CA)&amp;nbsp;pre potreby implementácie&amp;nbsp;kvalifikovanej elektronickej pečate v&amp;nbsp;systéme OBERON&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Inštalácia kvalifikovaného&amp;nbsp;certifikátu certifikačnej autority (CA) je analogická inštalácii certifikátov iných osôb. Pri inštalácii je potrebné ponechať&amp;nbsp;možnosť &lt;STRONG&gt;&lt;EM&gt;Automaticky vybrať priestor na uloženie certifikátov podľa typov&lt;/EM&gt;&lt;/STRONG&gt;. Certifikačná autorita bude v úložisku certifikátov pridaná medzi &lt;EM&gt;Dôveryhodné koreňové certifikačné autority&lt;/EM&gt;, prípadne medzi &lt;EM&gt;Sprostredkovateľské certifikačné autority&lt;/EM&gt; v&amp;nbsp;závislosti od druhu&amp;nbsp;služieb poskytovaných certifikačnou autoritou.&lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="c27e28a2-6b19-4838-96be-f2a1cb346439" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="c1e2e5a1-2cf4-47aa-a546-47d5baa1df3e">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="bdaed0ba-3b31-4d69-b7d1-e64d0b6d4a74" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="bdf07bad-43fb-450a-9dba-15b8366448a9">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="c938e279-44c5-4618-ab11-9f1b5794ea85" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="bc1bbd4d-e641-438f-9b36-0a24347dd246">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="7b8deb09-8a5a-4bda-9779-a8ab9914dc1d">
+      <Keyword m="2022-12-15T10:06:52.4822216Z">Certifikačná autorita - inštalácia kvalifikovaného certifikátu </Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="5130899a-28b2-4dee-afdf-ab205991909f">
+      <Keyword m="2022-12-15T10:04:51.4024327Z">Kvalifikovaný certifikát CA - inštalácia</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="2cf66840-d093-48fd-9b29-c0ffae9ea97d">
+      <Keyword m="2022-12-15T10:05:03.631125Z">CA certifikát - inštalácia</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="c4d553d5-5cad-4c6f-aeb3-c1577c05706a">
+      <Keyword m="2022-12-15T10:07:37.7849661Z">Certifikát CA - inštalácia</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="327921ae-e0fb-48da-b179-61714048b841" Status="Complete" CreatedOn="2014-09-10T07:47:10.3196772Z" ModifiedOn="2023-11-16T09:29:11.7904208Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="51096" Name="CashRegister_Started_Selling_Places" BuildFlags="">
+  <Title m="2021-03-02T14:10:33.0077584Z">O predajných miestach a zónach</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-11-16T09:29:11.7904208Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; je venovaná &lt;STRONG&gt;problematike predajných miest a zón&lt;/STRONG&gt; v systéme OBERON.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Predajné miesto&lt;/STRONG&gt; v&amp;nbsp;systéme OBERON predstavuje miesto, na&amp;nbsp;ktorom sa nachádza jedna alebo viac&amp;nbsp;&lt;A href="04b8d290-1470-41ff-85a1-c44a20958841"&gt;registračných pokladníc&lt;/A&gt;. Predajným miestam je spravidla potrebné venovať pozornosť pri použití viac ako jednej pokladnice v&amp;nbsp;rámci účtovnej jednotky (firmy). 
+&lt;LI&gt;Predajné miesto &lt;STRONG&gt;je povinný parameter&lt;/STRONG&gt;, t.&amp;nbsp;j. každú pokladnicu definovanú v&amp;nbsp;systéme OBERON&amp;nbsp;&lt;STRONG&gt;je potrebné priradiť k&amp;nbsp;určitému predajnému miestu&lt;/STRONG&gt;, pričom&amp;nbsp;k&amp;nbsp;jednému predajnému miestu možno priradiť aj viac pokladníc (pozri Obrázok č. 1). Pokladnicu možno k&amp;nbsp;predajnému miestu priradiť&amp;nbsp;vo &lt;A href="bb0e1e82-e344-4bf0-834a-a294269f2e71"&gt;formulári Pokladnica OBERON - nastavenia&lt;/A&gt;, záložka &lt;EM&gt;Režim predaja&lt;/EM&gt;. 
+&lt;LI&gt;Pri používaní&amp;nbsp;&lt;A href="aec074f4-3e1c-4a1e-8a80-06fcecf51156"&gt;Pokladnice OBERON&lt;/A&gt; &lt;STRONG&gt;v&amp;nbsp;režime reštauračnej pokladnice&lt;/STRONG&gt;&amp;nbsp;je na&amp;nbsp;&lt;A href="e0ccff3e-b9e7-4572-bc3c-7f41a32280dd"&gt;prácu s otvorenými účtami (stolmi)&lt;/A&gt;&amp;nbsp;potrebné&amp;nbsp;&lt;STRONG&gt;pre každé predajné miesto najprv nadefinovať zoznam stolov&lt;/STRONG&gt; (v&amp;nbsp;číselníku&amp;nbsp;&lt;A href="479e9fda-1e0d-43d2-97e2-32f31244c476"&gt;Zoznam stolov&lt;/A&gt; v&amp;nbsp;ponuke &lt;EM&gt;Firma, Predvoľby&lt;/EM&gt;). Pritom platí, že pri definovaní stola &lt;STRONG&gt;možno daný stôl priradiť k&amp;nbsp;jednému alebo aj viacerým predajným miestam&lt;/STRONG&gt; (napr. stôl majiteľa alebo stôl určený na reprezentačné účely a pod.).&amp;nbsp;Bližšie informácie spolu s&amp;nbsp;postupom definovania stola&amp;nbsp;sú dostupné v&amp;nbsp;téme&amp;nbsp;&lt;A href="479e9fda-1e0d-43d2-97e2-32f31244c476" style="auto-update-caption: true"&gt;Zoznam stolov&lt;/A&gt;. 
+&lt;LI&gt;Okrem predajného miesta možno pri definovaní stola&amp;nbsp;daný stôl&amp;nbsp;priradiť aj k&amp;nbsp;&lt;STRONG&gt;zóne&lt;/STRONG&gt;. Zóny predstavujú &lt;STRONG&gt;menšie jednotky&amp;nbsp;v rámci predajného miesta (tzv. rajóny)&lt;/STRONG&gt;. Spravidla ide napr. o&amp;nbsp;terasy, pivnice či iné konkrétne miestnosti v rámci reštauračnej prevádzky. Napr.&amp;nbsp;predajné miesto &lt;EM&gt;Reštaurácia&lt;/EM&gt; môže byť rozdelené do zón &lt;EM&gt;Reštaurácia, Terasa&lt;/EM&gt; a &lt;EM&gt;Pivnica&lt;/EM&gt; (Obrázok č. 1). Pritom platí, že pri definovaní stola &lt;STRONG&gt;možno daný stôl priradiť len k&amp;nbsp;jednej zóne&lt;/STRONG&gt;. 
+&lt;LI&gt;Zóny sa v systéme OBERON používajú: 
+&lt;UL&gt;
+&lt;LI&gt;všeobecne na ďalšie členenie predajného miesta a rozdelenie stolov do tzv. rajónov, 
+&lt;LI&gt;na rozdelenie stolov v&amp;nbsp;&lt;A href="c3c6b9fe-a88f-42c3-a10f-1e7f5f944ebf"&gt;grafickom prehľade stolov&lt;/A&gt;&amp;nbsp;(tu je zóna povinný parameter), 
+&lt;LI&gt;na rozdelenie stolov v&amp;nbsp;aplikácii&amp;nbsp;&lt;A href="942d48d5-b290-40f6-8ba3-45cf78f380f9"&gt;LUKUL - nielen mobilný čašník&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Pri &lt;A href="e0ccff3e-b9e7-4572-bc3c-7f41a32280dd"&gt;práci s otvorenými účtami (stolmi)&lt;/A&gt;&amp;nbsp;na &lt;A href="aec074f4-3e1c-4a1e-8a80-06fcecf51156"&gt;Pokladnici OBERON&lt;/A&gt; v&amp;nbsp;režime reštauračnej pokladnice&amp;nbsp;sa&amp;nbsp;otvorené účty (stoly)&amp;nbsp;v&amp;nbsp;pokladnici &lt;STRONG&gt;zobrazujú&amp;nbsp;v&amp;nbsp;rámci jedného predajného miesta&lt;/STRONG&gt;. Napr. otvorený účet (stôl)&amp;nbsp;v&amp;nbsp;pokladnici&amp;nbsp;&lt;EM&gt;Reštaurácia&lt;/EM&gt; je prístupný aj&amp;nbsp;v&amp;nbsp;pokladnici &lt;EM&gt;Terasa&lt;/EM&gt; (rovnaké predajné miesto &lt;EM&gt;Reštaurácia&lt;/EM&gt;),&amp;nbsp;no pre pokladnicu&amp;nbsp;&lt;EM&gt;Amfiteáter&lt;/EM&gt; je daný otvorený účet (stôl) neprístupný (Obrázok č. 1). 
+&lt;LI&gt;V&amp;nbsp;každej pokladnici sa eviduje&amp;nbsp;&lt;A href="a4568b9d-f4ac-4d94-b56f-de3717381da7"&gt;história všetkých položiek&lt;/A&gt;, ktoré boli na nej zaevidované. Za každú pokladnicu tak&amp;nbsp;možno zobraziť rôzne súhrnné správy o predaji. Avšak až predajné miesto umožňuje zobraziť súhrnnú správu o predaji za viac ako jednu pokladnicu. V&amp;nbsp;našom príklade v&amp;nbsp;súhrne predaja za predajné miesto &lt;EM&gt;Reštaurácia&lt;/EM&gt; budú zahrnuté položky pokladnice&amp;nbsp;&lt;EM&gt;Reštaurácia&lt;/EM&gt; a &lt;EM&gt;Terasa&lt;/EM&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Predajné miesta a&amp;nbsp;zóny možno definovať v&amp;nbsp;ponuke &lt;EM&gt;Firma, Predvoľby&lt;/EM&gt;,&amp;nbsp;&lt;A href="479e9fda-1e0d-43d2-97e2-32f31244c476"&gt;Zoznam stolov&lt;/A&gt;, tlačidlo &lt;EM&gt;Nový&lt;/EM&gt; - otvorí sa formulár &lt;EM&gt;Stôl&lt;/EM&gt;, v&amp;nbsp;ktorom stlačte tlačidlo&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_ListButton.png"&gt;&amp;nbsp;pri poli &lt;EM&gt;Predajné miesto&lt;/EM&gt; a&amp;nbsp;rozbaľovacom zozname &lt;EM&gt;Zóna&lt;/EM&gt; (pozri Obrázok č. 2).&amp;nbsp;Alternatívne možno predajné miesta nadefinovať vo &lt;A href="bb0e1e82-e344-4bf0-834a-a294269f2e71"&gt;formulári Pokladnica OBERON - nastavenia&lt;/A&gt;, záložka &lt;EM&gt;Režim predaja&lt;/EM&gt; po stlačení tlačidla &lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_ListButton.png"&gt;&amp;nbsp;pri poli &lt;EM&gt;Predajné miesto&lt;/EM&gt;.&amp;nbsp;Zóny&amp;nbsp;možno alternatívne&amp;nbsp;nadefinovať v ponuke &lt;EM&gt;Sklad&lt;/EM&gt;,&amp;nbsp;&lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnica OBERON&lt;/A&gt; - vo vrchnom paneli zvoľte záložku &lt;EM&gt;Systém&lt;/EM&gt; označenú symbolom&amp;nbsp;&lt;IMG style="WIDTH: 20px" alt="" src="images/CashRegister/CashRegister_Button_System.png"&gt; a v&amp;nbsp;nej tlačidlo &lt;EM&gt;Systém&lt;/EM&gt;. Otvorí sa formulár &lt;EM&gt;Pokladnica OBERON - Systém&lt;/EM&gt;, v&amp;nbsp;ktorom v&amp;nbsp;záložke&amp;nbsp;&lt;EM&gt;Nastavenia&lt;/EM&gt;, sekcia &lt;EM&gt;Zoznam stolov&lt;/EM&gt; stlačte tlačidlo &lt;EM&gt;Definovať&lt;/EM&gt; (druhé zhora).&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H5&gt;Obrázok č. 1: Príklad dvoch predajných miest a zón&lt;/H5&gt;
+&lt;H5&gt;&amp;nbsp;&lt;IMG border=0 alt="" src="images/CashRegister/CashRegister_SalesPoints&amp;amp;Zones.png"&gt;&lt;/H5&gt;
+&lt;H5&gt;Obrázok č. 2: Definovanie stola&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/CashRegister/Form_CashRegister_OpenedTables.png"&gt;&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="3fe53d80-ebbe-413f-a032-3a71679bbe3b" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="654fd2dc-af0d-4485-a7e1-38d6bbc8dd3b" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="69bbd499-45c0-4b0f-8f7a-c53fa5d70c1b">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="6463f306-f1c4-4c72-ad72-2babf12c6f5c" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="e0ccff3e-b9e7-4572-bc3c-7f41a32280dd">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="52b1ccaf-fd2c-44e2-90c9-5082e2abcc17" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="479e9fda-1e0d-43d2-97e2-32f31244c476">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="69428546-9676-4852-83bb-a55711df7488" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="c3c6b9fe-a88f-42c3-a10f-1e7f5f944ebf">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="e78530d2-4e04-4143-99fc-a08e8f42ee07" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="942d48d5-b290-40f6-8ba3-45cf78f380f9">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="d62282c3-9b0f-4fda-84af-2fd985dd5d66">
+      <Keyword m="2023-03-06T11:38:07.1868858Z">Otvorené účty (stoly) - predajné miesta a zóny</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="d243c1a7-c960-427e-8b51-e9e10d4d3bb2">
+      <Keyword m="2021-03-01T13:23:38.1801204Z">Predajné miesto</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="fef95240-f7a2-4132-8542-4c1e60e670d2">
+      <Keyword m="2021-03-01T13:57:43.1118503Z">Zóna</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="27f55303-695f-4349-80cf-25a640a4dc2f">
+      <Keyword m="2021-09-23T13:14:12.3857924Z">Zóny</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="b242e987-1316-42fe-8fb5-783d91885c4a">
+      <Keyword m="2021-09-23T13:14:22.0771333Z">Predajné miesta</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="06b29257-3692-4192-9bca-147746b9f7fd">
+      <Keyword m="2023-03-07T10:04:57.8364731Z">Rajóny (zóny)</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="a3f0dd6f-8462-4cbe-8e8a-50f18b923493">
+      <Keyword m="2023-03-07T10:05:06.159542Z">Rajón (zóna)</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

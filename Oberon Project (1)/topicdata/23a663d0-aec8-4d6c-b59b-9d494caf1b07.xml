@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="23a663d0-aec8-4d6c-b59b-9d494caf1b07" Status="Complete" CreatedOn="2014-10-29T10:36:06.3999046Z" ModifiedOn="2023-10-05T10:15:20.091626Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="FAQ_List_Stock" BuildFlags="">
+  <Title m="2014-10-29T10:36:28.1391481Z">Najčastejšie kladené otázky - Skladová evidencia</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-08-23T08:31:01.5190097Z">&lt;H2&gt;Otázky:&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;A href="1e423d36-8e0a-4420-b2e9-05f12806ec3a"&gt;Kde môžem v OBERON-e vytvoriť sklady, prípadne zoskupenia skladov?&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="8deac9fe-9864-41e8-aaa3-02257c241d78"&gt;S akými typmi skladových kariet môžem v OBERON-e pracovať?&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="277559d2-a8ba-4399-b39d-58b8b28b01ff"&gt;Ako mám postupovať pri zakladaní skladových kariet?&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="9aa7dbb1-f4a7-405e-8465-78b2133e0fd3"&gt;Na čo si mám dať pozor pri číslovaní skladových kariet?&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="f83017eb-1d46-42a5-991b-bdf5d628aa8d"&gt;Na čo slúžia skladové skupiny?&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="4dfc2d36-f1c8-4b60-81c4-62e8e5197b99"&gt;Na čo slúžia kategórie skladových kariet?&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="6f1a89e8-2f56-4543-a452-409834433d36"&gt;Chcem evidovať výrobné/sériové čísla, čo&amp;nbsp;mám nastaviť?&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="b0e0ad9c-d19d-4670-8485-ec384dbae1bd"&gt;Čo znamená evidovať varianty skladových položiek?&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="1c0f4281-386c-4f5a-910f-e8d01a1b28d9"&gt;Na čo slúži generátor variantov?&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="00777364-8b56-4ec5-b5ce-b302f3f384a3"&gt;Čo potrebujem nastaviť, ak chcem evidovať a predávať SBL?&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="12572b52-44a7-433c-be59-df1192f3c6a0"&gt;Ako mám vytvoriť skladovú kartu typu receptúra?&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="691d23dd-a44d-48f0-827e-c6a358b2dabc"&gt;Aká je to&amp;nbsp;zložená receptúra?&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="7417bb5c-568f-4291-bbb9-0e5872ad6299"&gt;Ako mám nastaviť merné jednotky na skladovej karte, napríklad keď chcem predávať čapované pivo?&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="8c3cc66a-acbb-4047-aad2-b06170ec7fb5"&gt;Ako môžem v OBERON-e nadefinovať položky denného menu?&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="0cbf9ae9-1760-4f87-89be-559b62ee193b"&gt;Ako mám postupovať pri zálohovaní vratných obalov?&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="7417bb5c-568f-4291-bbb9-0e5872ad6299"&gt;Čo je potrebné nastaviť pri príjme/výdaji tovaru v baleniach?&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="86ce651c-2637-4165-93b4-36535a700fbf"&gt;Aké sú možnosti práce s čiarovými kódmi v OBERON-e?&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="34f91c11-1a5d-4773-ac4e-48ad2fc859d3"&gt;Aké možnosti cenotvorby OBERON obsahuje?&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="0e48f8ed-07c8-4be5-90cf-25dbf7d5afd9"&gt;Ako mám na faktúre zadať zľavu?&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="62db2271-9ae9-4968-b790-47a07e7c6aef"&gt;Ako prijmem tovar na sklad?&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="0a22d060-0b8a-4166-ba9b-8239f36863a0"&gt;Ako vydám tovar zo skladu?&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="5f711bd3-c5ab-4b68-93cc-214b6720faf8"&gt;Môžem v OBERON-e sledovať naskladnenosť a vyskladnenosť tovaru?&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="654ac563-026a-455d-a98b-e523f62ef4fa"&gt;Ako sa používajú&amp;nbsp;druhy pohybov?&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="6acbdde2-e6a9-43bc-8e10-4e1aa1ea1c3d"&gt;Ako môžem vykonať prevod do iného skladu?&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="8d7d2b7c-6f1d-463c-8365-c8d914ca7aaa"&gt;Ako mám postupovať pri reklamácii/servise tovaru?&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="a9a8c655-077e-45cb-acb3-8fdb105a2409"&gt;Ako mám postupovať pri vytvorení&amp;nbsp;objednávky?&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="f65d09c4-6f7e-42a3-8ae5-3cda89534c06"&gt;Ako môžem&amp;nbsp;nastaviť automatickú tvorbu objednávok?&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="e3603367-ba3b-4944-b731-0d81cb121c61"&gt;Kde môžem nadefinovať typy stavov prijatých objednávok?&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="657aa6d8-5eeb-4dbb-8a4d-38b12858a942"&gt;Môžem v OBERON vytvárať cenové ponuky?&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="06901091-ca91-46ba-8a98-f3183d00bb63"&gt;Môžem v OBERON vytvárať rezervácie tovaru?&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="489dd25b-dd6a-416d-be26-ce647566b429"&gt;Ako mám vykonať inventúru skladu?&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="3ae0999b-7567-4494-ac38-6da31fcaa7b1"&gt;Pri inventúre som zistil rozdiel v receptúre. Ako to môžem skontrolovať?&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="f427806c-a0f0-4040-90f9-5f35cb60f08b"&gt;Ako môžem skontrolovať hodnotu skladu v obstarávacích cenách?&lt;/A&gt;
+&lt;LI&gt;&lt;A href="f427806c-a0f0-4040-90f9-5f35cb60f08b"&gt;Ako postupovať pri zistení rozdielu hodnoty skladu?&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="52df1f6d-0c85-4a3a-8ae8-dd57284545fc"&gt;Ako sa v OBERON-e vypočítavajú sumy na doklade?&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="219d1e12-dc75-4817-a237-5369100b0d11"&gt;Ako môžem zistiť výnos skladovej položky?&lt;/A&gt; &amp;nbsp;&amp;nbsp;&amp;nbsp; 
+&lt;LI&gt;&lt;A href="1903cce7-5adf-4bd7-8b2b-4ff4b1fccbe8"&gt;Ako môžem hromadne vystaviť faktúry v module Skladová evidencia?&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="96fd7619-32d2-462b-bad8-6f986dc4c6b2"&gt;Čo je to kredit limit a ako ho nastavím?&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="04d04395-7b97-45db-bdb1-4e36240a4b54"&gt;Ako funguje&amp;nbsp;vernostný systém?&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="61edd121-1efe-4a14-907c-8c8a18cc4539"&gt;Ako vytlačím cenovku/etiketu?&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="8da72a39-51ce-4e9b-8110-96aabb01509b"&gt;Ako odstránim skladovú kartu?&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="e505dc5f-a1a1-4ff1-adfe-6b74b674d6d0"&gt;Ako mám postupovať pri prechode z neplatiteľa na platiteľa DPH?&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="dc5c0cfa-a05f-44a5-8fcb-b8e69659fb60"&gt;Ako mám postupovať pri prechode z platiteľa na neplatiteľa DPH?&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="78bceae1-1cc7-4e31-a232-24b38044c3d0"&gt;Umožňuje OBERON komisionálny predaj?&lt;/A&gt; &lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="4f8b72e3-8c30-4f49-9946-bf178ca1ac43" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="10acb2be-830f-4012-930c-ead0f6ad67ab">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="d8ff52c2-9d4a-477d-90e8-e9d2e0bcf83e">
+      <Keyword m="2023-10-05T09:24:32.0014378Z">Skladová evidencia - FAQ</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="6d84d0b8-3f17-434b-98d4-08c5aba7f7f2">
+      <Keyword m="2023-10-05T10:15:20.0906254Z">FAQ - Skladová evidencia</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

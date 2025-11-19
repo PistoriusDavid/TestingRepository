@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="1cbe6856-1ab3-4ee5-9d79-853699a50095" Status="Complete" CreatedOn="2019-04-17T09:38:39.0278998Z" ModifiedOn="2023-03-30T07:28:29.1140536Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="80440" Name="Form_CashRegister_FiscalDevice_OBERONSettings" BuildFlags="">
+  <Title m="2022-11-29T07:23:02.4774033Z">Sprievodca Zápis nastavení do fiškálneho zariadenia</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-03-30T07:22:58.2400724Z">&lt;P&gt;Pomocou tohto sprievodcu je možné nastaviť, t. j.&amp;nbsp;zapísať údaje do&amp;nbsp;&lt;A href="04b8d290-1470-41ff-85a1-c44a20958841"&gt;fiškálneho zariadenia&lt;/A&gt; v systéme OBERON. Nastavenia odporúčame zveriť zodpovednej osobe, prípadne servisnému technikovi.&amp;nbsp;Sprievodca je dostupný z&amp;nbsp;&lt;A href="3c20e547-e046-4644-87b3-c8979f7cbacc"&gt;formulára Nastavenie - eKasa klient ECM&lt;/A&gt;, záložka &lt;EM&gt;eKasa&lt;/EM&gt;, tlačidlo &lt;EM&gt;Zapísať do zariadenia&lt;/EM&gt; v časti &lt;EM&gt;Ďalšie nastavenie fiškálneho zariadenia&lt;/EM&gt;.&lt;/P&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Momentálne je&amp;nbsp;zápis&amp;nbsp;nastavení do fiškálneho zariadenia pomocou tohto sprievodcu možný len pri&amp;nbsp;fiškálnej tlačiarni&amp;nbsp;&lt;A href="00fa9619-a13d-4745-8938-cc0c2b5039ce"&gt;eKasa PANDORA&lt;/A&gt;&amp;nbsp;&lt;A href="1f32a90c-7b4a-4d69-9f38-a560178794b3" style="auto-update-caption: true"&gt;&lt;IMG border=0 alt="Odporúčané riešenia" src="images/OBERON/Basic/Odporucane-riesenie_ruka_ikona.png"&gt;&lt;/A&gt;.&amp;nbsp;Pri iných fiškálnych zariadeniach sa zápis vykonáva pomocou osobitných sprievodcov po stlačení tlačidla&amp;nbsp;&lt;EM&gt;Zapísať do zariadenia&lt;/EM&gt; pri ich inštalácii, prípadne&amp;nbsp;pomocou&amp;nbsp;servisného programu výrobcu.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Sprievodca nastavením&lt;/H2&gt;Aby bolo možné fiškálne zariadenie nastaviť, musí byť pripojené k počítaču. 
+&lt;OL&gt;
+&lt;LI&gt;Zvoľte nastavenia, ktoré chcete zapísať do fiškálneho zariadenia:
+&lt;UL&gt;
+&lt;LI&gt;&lt;EM&gt;Dátum a čas&lt;/EM&gt;,
+&lt;LI&gt;&lt;EM&gt;Hlavička dokladu&lt;/EM&gt; - hlavná hlavička pokladničného dokladu je determinovaná&amp;nbsp;&lt;A href="a14ac842-73d2-4d86-ab96-a99fe02e5a8f"&gt;zápisom identifikačných údajov&lt;/A&gt; a do fiškálneho zariadenia&amp;nbsp;z&amp;nbsp;OBERON-u ju nie je možné zapísať,
+&lt;LI&gt;&lt;EM&gt;Doplňujúca hlavička&lt;/EM&gt;,
+&lt;LI&gt;&lt;EM&gt;Pätička dokladu&lt;/EM&gt;,
+&lt;LI&gt;&lt;EM&gt;Doplňujúca pätička dokladu&lt;/EM&gt;.&lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Zvoľte ďalšie nastavenia, ktoré chcete zapísať do fiškálneho zariadenia:
+&lt;UL&gt;
+&lt;LI&gt;&lt;EM&gt;Sadzby DPH&lt;/EM&gt;,
+&lt;LI&gt;&lt;EM&gt;Platidlá (typy platieb)&lt;/EM&gt;,
+&lt;LI&gt;&lt;EM&gt;Systémové nastavenia pre OBERON&lt;/EM&gt; - po začiarknutí políčka sa do fiškálneho zariadenia&amp;nbsp;&lt;A href="00fa9619-a13d-4745-8938-cc0c2b5039ce"&gt;eKasa PANDORA&lt;/A&gt;&amp;nbsp;&lt;A href="1f32a90c-7b4a-4d69-9f38-a560178794b3" style="auto-update-caption: true"&gt;&lt;IMG border=0 alt="Odporúčané riešenia" src="images/OBERON/Basic/Odporucane-riesenie_ruka_ikona.png"&gt;&lt;/A&gt;&amp;nbsp;zapíše aj &lt;STRONG&gt;názov zariadenia&lt;/STRONG&gt; nastavený vo&amp;nbsp;&lt;A href="749ff4f1-eeb5-43f5-98d2-021399d8cec7"&gt;formulári Zariadenie&lt;/A&gt;.&lt;BR&gt;&lt;STRONG&gt;Upozornenie!&lt;/STRONG&gt; &lt;SPAN style="COLOR: rgb(255,0,0)"&gt;Pri zmene uvedených nastavení postupujte veľmi opatrne, pretože môže dôjsť k zablokovaniu fiškálneho zariadenia.&lt;/SPAN&gt;&lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;V ďalšom kroku je možné upraviť nastavenia &lt;STRONG&gt;tlačiarne pokladničných dokladov&lt;/STRONG&gt;:
+&lt;UL&gt;
+&lt;LI&gt;Zvoľte typ (model) &amp;nbsp;tlačiarne, ktorá je pripojená k fiškálnemu zariadeniu.
+&lt;LI&gt;Nastavte počet riadkov, o ktorý sa má posunúť papier v tlačiarni na korektné orezanie papiera po skončení tlače&amp;nbsp;dokladu (odriadkovanie).&lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;V prípade, že na predajnom mieste nie je dostupný internet a daňový úrad vám vydal rozhodnutie, v&amp;nbsp;ktorom vám umožnil, aby boli dátové správy zasielané do systému eKasa najneskôr do 30 dní od ich uloženia v chránenom dátovom úložisku vášho fiškálneho zariadenia, v nasledujúcom kroku &lt;STRONG&gt;nastavte 30-dňovú lehotu&lt;/STRONG&gt; na odosielanie dátových správ (dokladov) do centrálneho dátového úložiska. 
+&lt;LI&gt;Po stlačení tlačidla &lt;EM&gt;Dokončiť&lt;/EM&gt; sa nastavenie uloží. &lt;/LI&gt;&lt;/OL&gt;
+&lt;H5&gt;Obrázok č. 1: Výber typu (modelu) tlačiarne pokladničných dokladov&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/CashRegister/Form_CashRegister_eKasa_Printer.png"&gt;&lt;/P&gt;
+&lt;H5&gt;Obrázok č. 2: Nastavenie 30-dňovej lehoty na odosielanie dátových správ (dokladov)&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/CashRegister/Form_CashRegister_eKasa_30-Day_Period.png"&gt;&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="477c77a2-45b6-4fdc-9eee-26f2f568c42e" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="3c20e547-e046-4644-87b3-c8979f7cbacc">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="6b381262-ff7b-4fb3-ac98-9462efed021a" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="2bb8914d-3e8f-417d-a083-b83300c24d66">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="42da3f0e-28ba-446f-b45b-0675c6078e68">
+      <Keyword m="2023-03-30T07:26:05.0720932Z">30-dňová lehota - eKasa PANDORA</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="644989b8-b96b-47dc-83d5-14a627751d6e">
+      <Keyword m="2023-03-30T07:26:28.3588389Z">Názov fiškálneho zariadenia - zápis eKasa PANDORA</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="c45fec4c-972e-4b7c-ae29-abd250220ac5">
+      <Keyword m="2023-03-30T07:26:46.1828477Z">Zápis nastavení do eKasa PANDORA - sprievodca</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="d7abc021-d2f9-4476-8116-d9980a8cab9c">
+      <Keyword m="2023-03-30T07:25:48.6930531Z">Tlačiareň pokladničných dokladov - nastavenie pre eKasa PANDORA</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

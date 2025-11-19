@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="0b544ca9-1220-4056-8c1d-82d41ecbac18" Status="Complete" CreatedOn="2021-06-09T11:19:13.0919438Z" ModifiedOn="2024-08-07T07:27:17.801233Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="20070" Name="ProgramControls_Calendar" BuildFlags="">
+  <Title m="2021-06-09T11:19:40.2227325Z">Ročný kalendár</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2022-10-03T11:43:53.6911128Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; je venovaná ročnému kalendáru v systéme OBERON. Obsahuje&amp;nbsp;&lt;STRONG&gt;základné informácie&amp;nbsp;o&amp;nbsp;možnostiach jeho použitia a popisuje spôsob jeho&amp;nbsp;ovládania&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;P&gt;Ročný kalendár&amp;nbsp;v systéme OBERON predstavuje nástroj, ktorý sa&amp;nbsp;používa napríklad:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;v&amp;nbsp;module &lt;A href="78d20602-4b59-4b31-9f0a-a04a1d376ec5"&gt;Skladová evidencia&lt;/A&gt; pri&amp;nbsp;&lt;A href="34f91c11-1a5d-4773-ac4e-48ad2fc859d3"&gt;rozšírenej cenotvorbe&lt;/A&gt; na určenie platnosti pravidla cenotvorby - viac informácií v téme&amp;nbsp;&lt;A href="6b018069-d729-4bd0-8bf8-2162d116c247"&gt;Formulár pravidlo cenotvorby&lt;/A&gt;. 
+&lt;LI&gt;v module&amp;nbsp;&lt;A href="c3bd41f0-029e-4c74-b342-b0ffff647b6e"&gt;Hotelová rececepcia&lt;/A&gt; pri cenotvorbe ubytovania na nastavenie dní, resp. období, v ktorých bude daná cenová hladina platiť - viac informácií v&amp;nbsp;téme&amp;nbsp;&lt;A href="79646e11-b21e-473c-a78b-7e0fb8b55c14"&gt;Cenotvorba ubytovania&lt;/A&gt;, a pri nastavení vylúčiteľnej doby pri definovaní rozšírenej služby -&amp;nbsp; viac informácií v&amp;nbsp;téme&amp;nbsp;&lt;A href="52a22e5d-f6ee-46f3-9978-537f8fa5c984" style="auto-update-caption: true"&gt;Služby&lt;/A&gt;, 
+&lt;LI&gt;V&amp;nbsp;&lt;A href="aec074f4-3e1c-4a1e-8a80-06fcecf51156"&gt;Pokladnici OBERON&lt;/A&gt; v nastaveniach&amp;nbsp;&lt;A href="e90f516a-cb3b-43d9-82dd-440c6e6e9789"&gt;režimu LUKUL eMenu - donáška&lt;/A&gt; na nastavenie dní, v ktoré majú platiť otváracie hodiny, v ktorých daná prevádzka vykonáva donášku jedál - viac informácií v téme&amp;nbsp;&lt;A href="bcb35762-ef45-4dfd-b53a-93e752742cdd"&gt;Formulár eMenu - nastavenia&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H6&gt;Obrázok č. 1: Ročný kalendár v systéme OBERON&lt;BR&gt;&lt;BR&gt;&lt;IMG border=0 alt="" src="images/Forms/CashRegister/Form_CashRegister_Delivery_Calendar.PNG" width="50%"&gt;&lt;/H6&gt;
+&lt;H2&gt;Ovládanie ročného kalendára&lt;/H2&gt;
+&lt;P&gt;Výber jednotlivých dní, prípadne celých časových úsekov&amp;nbsp;je možné v kalendári vykonávať viacerými spôsobmi:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;jednoduchým označením vybraného dňa kliknutím ľavým tlačidlom myši, 
+&lt;LI&gt;kliknutím ľavým tlačidlom myši na skratku dňa v týždni v hornej časti formulára - označí sa daný deň v týždni vo všetkým mesiacoch (celý stĺpec), 
+&lt;LI&gt;kliknutím ľavým tlačidlom myši na názov mesiaca v ľavej časti formulára - &amp;nbsp;označia sa všetky dni v danom mesiaci, 
+&lt;LI&gt;výberom jednej z položiek kontextovej ponuky, ktorá sa zobrazí kliknutím pravým tlačidlom myši na niektorý z dní v kalendári (Obrázok č. 1). &lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="5fd69e53-3841-4424-b27a-c564d2d7e910" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="6b018069-d729-4bd0-8bf8-2162d116c247">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="9648cdc8-e7af-4cd3-89ad-68b9a2504e39" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="79646e11-b21e-473c-a78b-7e0fb8b55c14">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="6b2c5428-4915-406f-8af4-44a03050d226" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="4fe96b33-a1cd-4c08-93bc-d553db021c87">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="98ed246f-a559-4585-bd7b-43ad4af5caaf" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="bcb35762-ef45-4dfd-b53a-93e752742cdd">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="f41e4070-020d-4b65-9660-7de94ccbb3f9">
+      <Keyword m="2021-06-09T12:53:43.6906233Z">Kalendár v OBERON-e</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="3a01f7e3-9a92-42c0-adb1-07f01736cbee">
+      <Keyword m="2024-08-07T07:27:09.0586579Z">Ovládanie ročného kalendára</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="11e7df62-1c09-4052-9742-fc259875bc59">
+      <Keyword m="2024-08-07T07:27:17.3270434Z">Ročný kalendár - ovládanie</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

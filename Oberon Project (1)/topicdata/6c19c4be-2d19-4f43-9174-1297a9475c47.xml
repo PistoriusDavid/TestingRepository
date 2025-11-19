@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="6c19c4be-2d19-4f43-9174-1297a9475c47" Status="Complete" CreatedOn="2016-09-09T08:04:19.6628368Z" ModifiedOn="2023-07-18T10:42:13.5255726Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Wages_Start_Printing_of_Payslips" BuildFlags="">
+  <Title m="2014-09-06T19:35:32.0554314Z">Vytlačenie výplatných pások </Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-07-18T10:42:13.5255726Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;postup, ako vytlačiť výplatné pásky v&amp;nbsp;systéme OBERON&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Účtovná jednotka&amp;nbsp;je povinná vydať pracovníkovi &lt;STRONG&gt;písomný doklad o spracovanej mzde&lt;/STRONG&gt;, t.&amp;nbsp;j. výplatnú pásku obsahujúcu údaje o jednotlivých zložkách mzdy&amp;nbsp;a o vykonaných zrážkach. Na žiadosť pracovníka&amp;nbsp;firma&amp;nbsp;predloží pracovníkovi na nahliadnutie doklady, na základe ktorých bola mzda (náhrada mzdy) vypočítaná. 
+&lt;LI&gt;Modul&amp;nbsp;&lt;A href="bf009605-0be8-4286-8ef5-4c7d3b89143a"&gt;Mzdy&lt;/A&gt; a&amp;nbsp;&lt;A href="3883342c-9ef0-4fd9-8773-88df84f78f65"&gt;dochádzka&lt;/A&gt;&amp;nbsp;umožňuje vytlačiť výplatné pásky, prípadne ďalšie tlačové výstupy súvisiace so spracovaním miezd (rekapitulácie, príkazy na úhradu, potvrdenia, výkazy&amp;nbsp;a pod.), a&amp;nbsp;to v&amp;nbsp;ponuke &lt;EM&gt;Mzd&lt;/EM&gt;y, &lt;A href="6923b0c5-166b-4e3b-a53b-71f62b53b2fc"&gt;Tvorba miezd&lt;/A&gt;, tlačidlo &lt;EM&gt;Tlač&lt;/EM&gt;. Výplatnú pásku je možné vytlačiť až po &lt;A href="6923b0c5-166b-4e3b-a53b-71f62b53b2fc"&gt;spracovaní mzdy&lt;/A&gt;&amp;nbsp;danému pracovníkovi. 
+&lt;LI&gt;Jednotlivé tlačové výstupy sú dostupné&amp;nbsp;bezprostredne po spracovaní mzdy danému pracovníkovi, t. j. nemusí byť&amp;nbsp;&lt;A href="4c0cffe2-a77b-44ea-bb3a-39476f21e420"&gt;vykonaná mesačná uzávierka miezd&lt;/A&gt;.&amp;nbsp;Exporty výkazov do &lt;EM&gt;Sociálnej poisťovne&lt;/EM&gt;&amp;nbsp;a zdravotných poisťovní sú dostupné až po&amp;nbsp;&lt;A href="4c0cffe2-a77b-44ea-bb3a-39476f21e420"&gt;mesačnej uzávierke spracovaných miezd&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Postup vytlačenia výplatnej pásky&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;V ponuke &lt;EM&gt;Mzdy&lt;/EM&gt; zvoľte ponuku&amp;nbsp;&lt;A href="6923b0c5-166b-4e3b-a53b-71f62b53b2fc"&gt;Tvorba miezd&lt;/A&gt;. 
+&lt;LI&gt;Uistite sa, že pracovníci, ktorým chcete vytlačiť výplatné pásky, majú&amp;nbsp;&lt;STRONG&gt;spracovanú mzdu&lt;/STRONG&gt;. 
+&lt;LI&gt;Stlačte tlačidlo &lt;EM&gt;Tlač&lt;/EM&gt;, vyberte tlačový výstup &lt;STRONG&gt;&lt;EM&gt;Výplatné pásky&lt;/EM&gt;&lt;/STRONG&gt;,&amp;nbsp;&lt;EM&gt;&lt;STRONG&gt;Výplatné listy&lt;/STRONG&gt;&lt;/EM&gt; alebo &lt;EM&gt;&lt;STRONG&gt;Výplatné listy (s grafom)&lt;/STRONG&gt;&lt;/EM&gt;. 
+&lt;LI&gt;Stlačte tlačidlo &lt;EM&gt;Tlač&lt;/EM&gt;, otvorí sa sprievodca, v&amp;nbsp;ktorom zvoľte, ktoré výplatné pásky sa majú vytlačiť: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;EM&gt;Všetky&amp;nbsp;spracované mzdy,&lt;/EM&gt; 
+&lt;LI&gt;&lt;EM&gt;Len vybraná spracovaná mzda,&lt;/EM&gt; 
+&lt;LI&gt;&lt;EM&gt;Mzdy vybraných pracovísk,&lt;/EM&gt; 
+&lt;LI&gt;&lt;EM&gt;Mzdy vybraných profesií&lt;/EM&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Stlačením tlačidla &lt;EM&gt;Tlač&lt;/EM&gt;&amp;nbsp;sa výplatné pásky vytlačia. &lt;/LI&gt;&lt;/OL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Výplatnú pásku možno odoslať aj na e-mailovú adresu pracovníka. Viac informácií získate v téme&amp;nbsp;&lt;A href="462dcabe-b3eb-4865-8bee-ade16b5faaec" style="auto-update-caption: true"&gt;Zasielanie výplatných pások e-mailom&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="0a05b5db-68e6-4ece-abff-4ea5ff325f80" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="6923b0c5-166b-4e3b-a53b-71f62b53b2fc">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="c6e04c6b-2d9d-4a8d-946c-065b97da6944" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1e1da5f2-5abd-48a4-bf82-4f31c614ac45">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="c51fa97d-76aa-47a2-8a6b-d0f9d4945c76" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="4c0cffe2-a77b-44ea-bb3a-39476f21e420">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="a5402c27-63d6-42ec-ae05-76ce6fe3fd95" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="66ed476e-d5ea-4e46-a758-a3f190a60a7c">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="77747096-d594-4be5-8803-9f713d827065" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="462dcabe-b3eb-4865-8bee-ade16b5faaec">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="2b7e29d1-fb39-4c90-be85-7e36706ead62">
+      <Keyword m="2023-07-13T11:22:27.133257Z">Tlač výplatnej pásky</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="aa50ab85-b4ab-4567-99da-4337b3bf894e">
+      <Keyword m="2023-07-13T11:22:18.0040305Z">Výplatná páska - tlač</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="b8dd6536-e473-4fba-b997-e5c0da8a0eff" Status="Complete" CreatedOn="2014-12-04T11:46:08.6545481Z" ModifiedOn="2024-10-15T13:06:37.6140453Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Exportimport_Offline_SettingsOBERONDatabase" BuildFlags="">
+  <Title m="2014-12-04T11:46:40.9153933Z">Transport údajov typu OBERON Database</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-10-15T13:06:37.6140453Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;obsahuje &lt;STRONG&gt;informácie o transporte&amp;nbsp;údajov typu&lt;/STRONG&gt; &lt;STRONG&gt;&lt;EM&gt;OBERON Database&lt;/EM&gt;&lt;/STRONG&gt;.&amp;nbsp;&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Z&amp;nbsp;hľadiska použitej technológie&amp;nbsp;&lt;A href="1dc4ea18-03c0-4028-afe5-4532583b6a44"&gt;off-line transporty údajov&lt;/A&gt; delíme na viaceré typy - viac informácií získate v téme&amp;nbsp;&lt;A href="797aaa39-ae1b-4f4c-bac5-88c9ac25f11d"&gt;Všeobecne o off-line pobočkovom režime&lt;/A&gt;. 
+&lt;LI&gt;Pri transporte údajov typu &lt;EM&gt;OBERON Database&lt;/EM&gt; sa na výmenu údajov nepoužíva súbor (ako pri&amp;nbsp;&lt;EM&gt;OBERON File Transfer&lt;/EM&gt;), ale &lt;STRONG&gt;priamy prístup&amp;nbsp;do databázy&lt;/STRONG&gt;. 
+&lt;LI&gt;Oproti typu transportu&amp;nbsp;&lt;EM&gt;OBERON File Transfer&lt;/EM&gt;, ktorý sa používa pri nestabilnom internetovom pripojení, sa typ transportu&amp;nbsp;&lt;EM&gt;OBERON Database&lt;/EM&gt;&amp;nbsp;uprednostňuje &lt;STRONG&gt;pri stabilnejšom internetovom pripojení&lt;/STRONG&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Transport údajov s priamym prístupom do databázy&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Pri transporte údajov typu &lt;EM&gt;OBERON Database&lt;/EM&gt; sa export údajov a ich následný import&amp;nbsp;realizuje &lt;STRONG&gt;priamym prístupom do cieľovej (prípadne zdrojovej) databázy&lt;/STRONG&gt;. Hlavnou výhodou v porovnaní s&amp;nbsp;transportom údajov&amp;nbsp;typu &lt;EM&gt;OBERON File Transfer&lt;/EM&gt; je, že ak bol vykonaný export zo zdrojovej databázy, je zaručený aj následný import do cieľovej databázy (pretože export je&amp;nbsp;súčasne aj importom). 
+&lt;LI&gt;Transport údajov je možné&amp;nbsp;vykonať spravidla&amp;nbsp;dvoma spôsobmi: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;EM&gt;&lt;STRONG&gt;export zo zdroja údajov (ktorý je zároveň importom do cieľa)&lt;/STRONG&gt;&lt;/EM&gt; -&amp;nbsp;napr. v pobočke sa nadefinuje transport údajov typu&amp;nbsp;&lt;EM&gt;export&lt;/EM&gt;, ktorý je súčasne aj &lt;EM&gt;importom&lt;/EM&gt; do centrály. Nevýhodou je, že k&amp;nbsp;databáze v cieli transportu (centrála)&amp;nbsp;môže byť&amp;nbsp;pre hromadný&amp;nbsp;zápis údajov pomalší prístup.&amp;nbsp;V tomto prípade&amp;nbsp;nerozhoduje len rýchlosť pripojenia, ale&amp;nbsp;hlavne rýchlosť odozvy,&amp;nbsp;tzv. latencia (ping). 
+&lt;LI&gt;&lt;EM&gt;&lt;STRONG&gt;import do cieľa (ktorý je zároveň exportom zo zdroja)&lt;/STRONG&gt;&lt;/EM&gt;&amp;nbsp;-&amp;nbsp;napr. v centrále sa nadefinuje transport údajov typu&amp;nbsp;&lt;EM&gt;import&lt;/EM&gt;, ktorý je zároveň aj exportom údajov z pobočky. Výhodou je rýchlosť, pretože načítanie údajov je vždy relatívne rýchle. Nevýhodou je, že zápis&amp;nbsp;údajov sa vykonáva v rámci&amp;nbsp;lokálnej počítačovej siete centrály&amp;nbsp;(prípadne priamo&amp;nbsp;v databázovom serveri). Z tohto dôvodu musí byť pobočka prístupná pre centrálu - teda musí mať pevnú IP adresu (uvedený problém je však možné vyriešiť sieťovou infraštruktúrou, napr.&amp;nbsp;VPN). &lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Je potrebné mať na zreteli, že pri transporte údajov typu OBERON Database sa nemusia prenášať všetky údaje v oboch smeroch (pri exporte zo zdroja a pri importe do cieľa transportu). O rozsahu prenášaných údajov sa pred nastavením transportu informujte u dodávateľa&amp;nbsp;programu.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H5&gt;Obrázok č. 1:&amp;nbsp;Transport údajov s priamym prístupom do databázy&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/BasicInformation/TransportData/TransportData_Database.png"&gt;&lt;/P&gt;
+&lt;H2&gt;Transport údajov s využitím tretej databázy&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Export údajov sa realizuje &lt;STRONG&gt;priamym prístupom do tretej databázy&lt;/STRONG&gt;, ktorá je umiestnená &lt;STRONG&gt;na&amp;nbsp;jednoducho dostupnom mieste,&amp;nbsp;najčastejšie v&amp;nbsp;cloude&lt;/STRONG&gt;.&amp;nbsp;Import sa realizuje načítaním údajov z&amp;nbsp;tejto tretej databázy a následným zápisom do cieľovej databázy. Hlavnou výhodou v porovnaní s&amp;nbsp;predchádzajúcou možnosťou je, že v čase transportu údajov nemusia byť súčasne pobočka ani centrála dostupné. Ďalšou výhodou je, že ani pobočka a ani centrála nemusia mať pevnú IP adresu, prípadne odpadá zložitejšie nastavovanie sieťovej infraštruktúry. Uvedený spôsob je vhodný pre väčší počet pobočiek. 
+&lt;LI&gt;Transport údajov sa realizuje na strane pobočky exportom údajov a&amp;nbsp;následne na strane centrály importom (a naopak). Výhodou&amp;nbsp;oproti prenosom&amp;nbsp;typu &lt;EM&gt;OBERON File Transfer&lt;/EM&gt;&amp;nbsp;je, že export je možné vykonať aj viackrát (údaje sa budú &lt;STRONG&gt;kumulovať&lt;/STRONG&gt; v tretej databáze), pričom import sa vykoná len jedenkrát. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 2: Transport údajov s využitím tretej databázy&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/BasicInformation/TransportData/TransportData_DatabaseThird.png"&gt;&amp;nbsp;&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="f383669c-3363-49cd-9fa6-55aa2c33357a" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1dc4ea18-03c0-4028-afe5-4532583b6a44">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="c67e0139-eb98-440e-a4ae-ec941b0c9b0d" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="797aaa39-ae1b-4f4c-bac5-88c9ac25f11d">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="748b352a-9599-44e2-bb95-165282047a03" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="2d5cb0af-0c1f-475d-a699-c315d30599f8">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="67c26184-d880-4522-9458-eef7cbc10819" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="88af013e-47e9-408a-ac47-18fb4edb5553">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="b5281b50-d03f-45d0-a738-0b7bffde669a" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="e3338780-69be-478a-90d4-060d971f987d">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="6f855434-4cfa-4427-8677-201d14b4ef99">
+      <Keyword m="2022-12-15T09:50:19.3424645Z">OBERON Database - transport údajov</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="df443441-2bd9-4305-bf72-5f2b380e710b">
+      <Keyword m="2022-12-15T09:50:26.2796233Z">Priamy prístup do databázy - transport údajov</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="3a260235-ceef-4dec-9bbe-b5e34ed1f880" Status="Complete" CreatedOn="2016-09-09T08:15:12.9325788Z" ModifiedOn="2023-07-24T11:52:25.9041931Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="70630" Name="Wages_Advanced_ISCP" BuildFlags="">
+  <Title m="2023-07-24T11:52:25.9031844Z">Informačný systém o cene práce (ISCP)</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-07-18T10:42:29.7808835Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;informácie o &lt;EM&gt;Informačnom systéme o cene práce (ISCP)&lt;/EM&gt;&lt;/STRONG&gt; - viacúčelovom tripartitnom informačnom systéme určenom na štatistické zisťovanie o cene práce pod koordináciou &lt;EM&gt;Ministerstva práce, sociálnych vecí a rodiny Slovenskej republiky&lt;/EM&gt; (MPSVR SR).&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Účtovná jednotka (firma) môže byť vybraná MPSVR SR na štatistické zisťovanie o cene práce. Štatistické zisťovanie o cene práce predstavuje rezortné zisťovanie &lt;EM&gt;Ministerstva práce, sociálnych vecí a rodiny SR&lt;/EM&gt;, ktoré v&amp;nbsp;spolupráci so &lt;EM&gt;Štatistickým úradom SR&lt;/EM&gt; zabezpečuje spracovateľská organizácia TREXIMA Bratislava. Zisťovanie je pod názvom &lt;EM&gt;&lt;STRONG&gt;Štvrťročný výkaz o cene práce ISCP (MPSVR SR) 1-04&lt;/STRONG&gt;&lt;/EM&gt; zaradené do &lt;EM&gt;Programu štátnych štatistických zisťovaní&lt;/EM&gt;. 
+&lt;LI&gt;Výkaz o&amp;nbsp;cene práce sa&amp;nbsp;odovzdáva štvrťročne v&lt;SPAN lang=en xml:lang="en"&gt;&amp;nbsp;&lt;/SPAN&gt;elektronickej forme. Modul&amp;nbsp;&lt;A href="bf009605-0be8-4286-8ef5-4c7d3b89143a"&gt;Mzdy&lt;/A&gt; a&amp;nbsp;&lt;A href="3883342c-9ef0-4fd9-8773-88df84f78f65"&gt;dochádzka&lt;/A&gt; umož&lt;SPAN lang=sk xml:lang="sk"&gt;ň&lt;/SPAN&gt;uje&amp;nbsp;export údajov&amp;nbsp;vo forme súboru XML, ktorý je následne možné nahrať na&amp;nbsp;&lt;A href="https://zbery.trexima.sk/" target=_blank&gt;Zbernom portáli spoločnosti TREXIMA&lt;/A&gt;. 
+&lt;LI&gt;Aby údaje o pracovníkoch obsahovali kompletné údaje, je potrebné správne nastaviť číselníky programu: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Vzdelanie&lt;/STRONG&gt; - určuje kód stupňa najvyššieho dosiahnutého vzdelania (&lt;A href="95a3b7e2-6135-4860-a655-5724b186b94c"&gt;formulár Pracovník&lt;/A&gt;, záložka &lt;EM&gt;Rozšírené&lt;/EM&gt;) 
+&lt;LI&gt;&lt;STRONG&gt;Profesie&lt;/STRONG&gt; - určuje kód pracovnej činnosti pracovníka v&amp;nbsp;&lt;EM&gt;Klasifikácii zamestnaní ISCO SK&lt;/EM&gt; (&lt;A href="95a3b7e2-6135-4860-a655-5724b186b94c"&gt;formulár Pracovný pomer pracovníka&lt;/A&gt;, záložka &lt;EM&gt;Základné&lt;/EM&gt;) 
+&lt;LI&gt;&lt;STRONG&gt;Pracoviská&lt;/STRONG&gt;&amp;nbsp;- určuje kód okresu pracoviska podľa &lt;EM&gt;Číselníka okresov Slovenskej republiky&lt;/EM&gt; (&lt;A href="95a3b7e2-6135-4860-a655-5724b186b94c"&gt;formulár Pracovný pomer pracovníka&lt;/A&gt;, záložka &lt;EM&gt;Základné&lt;/EM&gt;) 
+&lt;LI&gt;&lt;STRONG&gt;Štáty&lt;/STRONG&gt; - určuje štátnu príslušnosť&amp;nbsp;(&lt;A href="95a3b7e2-6135-4860-a655-5724b186b94c"&gt;formulár Pracovný pomer pracovníka&lt;/A&gt;, záložka &lt;EM&gt;Základné&lt;/EM&gt;, formulár &lt;EM&gt;Pracovisko&lt;/EM&gt;) &lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Postup vytvorenia exportu&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;V ponuke &lt;EM&gt;Mzdy&lt;/EM&gt; vyberte položku&amp;nbsp;&lt;A href="375979c2-cf78-4499-8ba9-30a5e2f1eb23"&gt;Dokumenty a výkazy pracovníkov&lt;/A&gt;. 
+&lt;LI&gt;Otvorí sa evidencia&amp;nbsp;&lt;EM&gt;Dokumenty a výkazy pracovníkov.&lt;/EM&gt; Stlačte tlačidlo &lt;EM&gt;&lt;STRONG&gt;Nový - Súhrnný dokument&lt;/STRONG&gt;&lt;/EM&gt;. 
+&lt;LI&gt;Otvorí sa sprievodca, zvoľte typ dokumentu &lt;EM&gt;&lt;STRONG&gt;Štatistika - štvrťročný výkaz o cene práce&amp;nbsp;ISCP&lt;/STRONG&gt;&lt;/EM&gt;. 
+&lt;LI&gt;V ďalšom kroku zadajte &lt;STRONG&gt;obdobie štvrťroka&lt;/STRONG&gt;, za ktorý sa má vytvoriť výkaz. Do výkazu budú zahrnutí pracovníci so spracovanou mzdou. 
+&lt;LI&gt;Po stlačení tlačidla &lt;EM&gt;&lt;STRONG&gt;Dokončiť&lt;/STRONG&gt;&lt;/EM&gt;&amp;nbsp;sa vytvorí nový dokument. 
+&lt;LI&gt;Otvorí sa formulár &lt;EM&gt;Dokument&lt;/EM&gt;, v ktorom skontrolujte správnosť údajov.&amp;nbsp;V&amp;nbsp;prípade zmien na zatvorenie dokumentu stlačte tlačidlo &lt;EM&gt;&lt;STRONG&gt;OK&lt;/STRONG&gt;&lt;/EM&gt;. 
+&lt;LI&gt;V&amp;nbsp;knihe &lt;EM&gt;Dokumenty a výkazy pracovníkov&lt;/EM&gt; stlačte tlačidlo &lt;EM&gt;Možnosti&lt;/EM&gt; a vyberte položku &lt;EM&gt;&lt;STRONG&gt;Exportovať dokument&lt;/STRONG&gt;&lt;/EM&gt;. 
+&lt;LI&gt;Otvorí sa sprievodca exportom dokumentu. Zadajte umiestnenie súboru. 
+&lt;LI&gt;Export údajov dokumentu&amp;nbsp;sa vykoná stlačením tlačidla &lt;EM&gt;&lt;STRONG&gt;Dokončiť&lt;/STRONG&gt;&lt;/EM&gt;. 
+&lt;LI&gt;Exportovaný súbor&amp;nbsp;je formátu XML (napr. &lt;EM&gt;ISCP_2Q2023.xml&lt;/EM&gt;, kde 2Q je druhý štvrťrok a&amp;nbsp;2023 je rok, za ktorý bol výkaz vytvorený)&amp;nbsp;a ukladá sa&amp;nbsp;na pevný disk&amp;nbsp;počítača&amp;nbsp;do adresára &lt;STRONG&gt;C:/OBERON/_CompanyDocuments/NazovFirmy/Rok/Mzdy/DokumentyVykazyPracovnici&lt;/STRONG&gt;. 
+&lt;LI&gt;Následne je možné vyexportovaný súbor nahrať na&amp;nbsp;&lt;A href="https://zbery.trexima.sk/" target=_blank&gt;Zbernom portáli spoločnosti TREXIMA&lt;/A&gt;. &lt;/LI&gt;&lt;/OL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Postup, ako vytvoriť ďalšie výkazy v elektronickom formáte,&amp;nbsp;získate v téme&amp;nbsp;&lt;A href="11979e09-0fdd-4525-b44f-bd3eeaca7d05" style="auto-update-caption: true"&gt;O elektronických hláseniach do štátnych inštitúcií&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="f75d4b4d-fb35-491f-b833-1e9beb9f8b1d" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="375979c2-cf78-4499-8ba9-30a5e2f1eb23">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="f829baa6-e4aa-4c31-8782-c828450c2444" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="11979e09-0fdd-4525-b44f-bd3eeaca7d05">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="df923561-07ef-4fbb-be95-ec1e8cbd5cf4">
+      <Keyword m="2014-11-12T10:57:50.471586Z">Cena práce</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="b4b18178-7291-45d1-8e25-bbf24c4b256e">
+      <Keyword m="2014-11-18T10:24:56.4560546Z">ISCP</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="4159f464-f226-4fc8-8ce4-8f6f953890c6">
+      <Keyword m="2015-05-20T11:35:31.3339843Z">TREXIMA</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="b61437b4-d174-4aca-8397-3334074d4976">
+      <Keyword m="2023-07-14T10:31:01.2170734Z">Štvrťročný výkaz o cene práce ISCP (MPSVR SR) 1-04 </Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="64c6678f-6cee-4a02-8dda-c26143cc5298">
+      <Keyword m="2023-07-14T10:32:10.8261882Z">Zberný portál spoločnosti TREXIMA</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

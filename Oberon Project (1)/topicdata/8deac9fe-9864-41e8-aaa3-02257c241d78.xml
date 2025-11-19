@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="8deac9fe-9864-41e8-aaa3-02257c241d78" Status="Complete" CreatedOn="2022-04-27T10:35:38.3337453Z" ModifiedOn="2025-04-28T06:55:21.6396688Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Stock_Start_Stock_CardTypes" BuildFlags="">
+  <Title m="2022-04-27T10:36:40.6019372Z">Typy skladových kariet</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2025-04-28T06:55:21.6396688Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; je venovaná&amp;nbsp;&lt;STRONG&gt;klasifikácii typov skladových kariet&lt;/STRONG&gt; v&amp;nbsp;systéme OBERON.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Skladová karta má&amp;nbsp;štyri povinné parametre: &lt;STRONG&gt;&lt;EM&gt;Číslo karty&lt;/EM&gt;, &lt;EM&gt;Názov&lt;/EM&gt;, &lt;EM&gt;Typ karty&lt;/EM&gt;, &lt;EM&gt;Merná jednotka&lt;/EM&gt;&lt;/STRONG&gt;. Jedným z kľúčových parametrov skladovej karty je jej typ. V&amp;nbsp;systéme OBERON je možné pracovať s&amp;nbsp;nasledujúcimi typmi skladových kariet: &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 
+&lt;UL&gt;
+&lt;LI&gt;&lt;B&gt;Jednoduchá karta&lt;/B&gt; - štandardný typ skladovej karty určený na evidenciu tovaru. Jednoduchá karta umožňuje evidovať príjem, výdaj a stav zásob na karte (zostatkového množstva). 
+&lt;LI&gt;&lt;STRONG&gt;Vratný obal&lt;/STRONG&gt; - špeciálny typ skladovej karty určený na evidenciu&amp;nbsp;&lt;STRONG&gt;jednorazových vratných obalov&lt;/STRONG&gt; (plastové fľaše PET, plechovky), &lt;STRONG&gt;ako aj bežných vratných obalov&lt;/STRONG&gt; (napr. pivové fľaše, prepravky, palety a pod.).&amp;nbsp;Pri výpočte, resp. prepočte&amp;nbsp;obstarávacích cien &lt;STRONG&gt;sa záporný výdaj považuje za príjem&lt;/STRONG&gt;. Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="0cbf9ae9-1760-4f87-89be-559b62ee193b" style="auto-update-caption: true"&gt;Zálohovanie vratných obalov&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;B&gt;Služba&lt;/B&gt; - špeciálny typ skladovej karty. Na rozdiel od jednoduchej karty je množstvo na skladovej karte vždy nulové (neeviduje sa)&amp;nbsp;bez ohľadu na príjem alebo výdaj (môže ísť napr. o dopravu, inštaláciu, balné&amp;nbsp;a pod.).&amp;nbsp;Pri výdaji&amp;nbsp;sa podobne ako&amp;nbsp;pri jednoduchých kartách zapisuje záznam do knihy skladových pohybov, ale tento pohyb&amp;nbsp;nemá vplyv na&amp;nbsp;množstvo&amp;nbsp;skladovej karty. 
+&lt;LI&gt;&lt;STRONG&gt;Sada&lt;/STRONG&gt; -&amp;nbsp;špeciálny typ skladovej karty, ktorá sa skladá z&amp;nbsp;ďalších skladových kariet (inými slovami&amp;nbsp;makrokarta alebo&amp;nbsp;set). Pri výdaji skladovej karty tohto typu sa do dokladu nezapíše priamo táto skladová karta, ale všetky skladové karty uvedené v&amp;nbsp;sade, pričom sa do poznámky k&amp;nbsp;jednotlivým položkám doplní názov sady. Cena daných položiek môže byť bežná zo skladovej karty, prípadne iná (napr. so zľavou). Pri zmene zložky sady sa predajné ceny sady automaticky prepočítajú. Tento typ skladovej karty nie je možné do skladu prijať. Množstvo na skladovej karte je&amp;nbsp;vždy nulové (neeviduje sa). Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="2a34c11f-bee8-4fdd-bf7f-70ee7b49bc79" style="auto-update-caption: true"&gt;Všeobecne o sadách&lt;/A&gt;. 
+&lt;LI&gt;&lt;B&gt;Výrobok&lt;/B&gt; - špeciálny typ skladovej karty, ktorá sa skladá z&amp;nbsp;ďalších skladových kariet. Pri výdaji skladovej karty tohto typu sa do dokladu zapíše jedna položka, avšak stavy zásob (množstvá) sa&amp;nbsp;odpíšu zo všetkých položiek (zložiek),&amp;nbsp;ktoré daný výrobok obsahuje. Tento typ skladovej karty nie je možné do skladu prijať. Množstvo na skladovej karte vždy nulové (neeviduje sa). 
+&lt;LI&gt;&lt;B&gt;Receptúra&lt;/B&gt; - špeciálny typ skladovej karty, ktorá sa podobne ako sada alebo výrobok skladá z&amp;nbsp;ďalších&amp;nbsp;skladových kariet - jednoduchých alebo aj receptúr. Na rozdiel od&amp;nbsp;nich je tento typ určený&amp;nbsp;na kalkuláciu jedál, napr. navyše umožňuje výpočet hmotnosti a pod. Receptúru&amp;nbsp;je možné vydať&amp;nbsp;na&amp;nbsp;&lt;A href="aec074f4-3e1c-4a1e-8a80-06fcecf51156"&gt;Pokladnici OBERON&lt;/A&gt; (v&amp;nbsp;režime reštauračnej pokladnice), prípadne vo&amp;nbsp;&lt;A href="0be61fcc-a85b-4572-876d-2171a5cb7c29"&gt;výdajke&lt;/A&gt;, z&amp;nbsp;ktorej možno následne&amp;nbsp;&lt;A href="ec4e9be4-140f-4ec9-aa04-544e9870bfe1"&gt;vytvoriť faktúru&lt;/A&gt;. Množstvo na karte je vždy nulové (neeviduje sa). Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="2d9e274d-bfb7-43bc-9e70-b091ed82b9b2" style="auto-update-caption: true"&gt;Všeobecne o receptúrach&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Pri skladových kartách typu &lt;STRONG&gt;vratný obal, služba, sada a receptúra&lt;/STRONG&gt; sa&amp;nbsp;pri výdaji nezobrazuje&amp;nbsp;upozornenie, ak navýšenie klesne pod percentuálnu hodnotu nastavenú v&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="58eee6a7-b5aa-47a5-9d0e-6f9987c96a52"&gt;oddiel Firma, Sklad&lt;/A&gt;, záložka &lt;EM&gt;Výdaj.&lt;/EM&gt; 
+&lt;LI&gt;Položky receptúry, výrobku a sady je možné triediť pomocou &lt;A href="38489850-ab82-41b6-b258-3fa613ed5861"&gt;panela na zmenu poradia položiek zoznamu&lt;/A&gt;&amp;nbsp;(modrých šípok). &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Porovnanie typov skladových kariet&lt;/H2&gt;
+&lt;TABLE id=table2 style="WIDTH: 80%" borderColor=silver cellSpacing=0 cellPadding=2 border=1&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TD width="8%"&gt;&lt;/TD&gt;
+&lt;TD bgColor=#d9e1f2 width="3%" align=center&gt;&lt;B style="COLOR: rgb(0,0,0)"&gt;Jednoduchá karta&lt;/B&gt;&lt;/TD&gt;
+&lt;TD bgColor=#d9e1f2 width="3%" align=center&gt;&lt;B&gt;Vratný obal&lt;/B&gt;&lt;/TD&gt;
+&lt;TD bgColor=#d9e1f2 width="3%" align=center&gt;&lt;B&gt;Služba&lt;/B&gt;&lt;/TD&gt;
+&lt;TD bgColor=#d9e1f2 width="3%" align=center&gt;&lt;B&gt;Sada&lt;/B&gt;&lt;/TD&gt;
+&lt;TD bgColor=#d9e1f2 width="3%" align=center&gt;&lt;B&gt;Výrobok&lt;/B&gt;&lt;/TD&gt;
+&lt;TD bgColor=#d9e1f2 width="3%" align=center&gt;&lt;B&gt;Receptúra&lt;/B&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;STRONG&gt;Štandardný typ skladovej&lt;/STRONG&gt; &lt;STRONG&gt;karty&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;STRONG&gt;Špeciálny typ skladovej karty&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;STRONG&gt;Evidencia stavu zásob (zostatkového množstva)&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;STRONG&gt;Príjem do skladu&lt;/STRONG&gt; &lt;STRONG&gt;(vloženie do príjemky, faktúry)&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;
+&lt;P&gt;&amp;nbsp;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&amp;nbsp;&lt;/P&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;STRONG&gt;Výdaj zo skladu (vloženie do výdajky)&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;*&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;STRONG&gt;Výdaj zo skladu (vloženie do faktúry)&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;STRONG&gt;Výdaj zo skladu (Pokladnica OBERON)&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;**&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;STRONG&gt;Skladová karta zložená z iných skladových kariet&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;STRONG&gt;Upozornenie na pokles navýšenia&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc&gt;&lt;STRONG&gt;Automatická tvorba objednávok&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;
+&lt;P&gt;* stav zásob sa&amp;nbsp;upraví súhrnne pri uložení dokladu&lt;/P&gt;
+&lt;P&gt;**&amp;nbsp;stav zásob sa&amp;nbsp;upraví súhrnne pri dennej uzávierke&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="7f453b5b-27d1-44b7-877a-dc1c6c9d1739" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1e423d36-8e0a-4420-b2e9-05f12806ec3a">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="a0b80d59-31bf-4a65-9079-e61cfa01371a" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1a33ab0b-2df7-4dc2-962b-8a3319c16831">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="8437f6ac-8792-4e4e-a89d-ff0ff17667b2" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="c233ada3-0fed-4911-97f3-0680973ebac1">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="1b1eade7-88f8-4f66-b462-c52095480cee" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="0cbf9ae9-1760-4f87-89be-559b62ee193b">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="bbdb4543-6354-4ec2-917d-bae2e1ae31e4" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="2a34c11f-bee8-4fdd-bf7f-70ee7b49bc79">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="f5b213f4-8dd8-4e20-8409-52d3ce0ea448" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="2d9e274d-bfb7-43bc-9e70-b091ed82b9b2">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="f76a72c4-8367-48c6-a526-2e3b4205f15a" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="277559d2-a8ba-4399-b39d-58b8b28b01ff">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="f252dce5-8e31-46e2-a091-a71fa7daf0c5">
+      <Keyword m="2022-04-27T13:05:13.7180236Z">Jednoduchá karta - typy skladových kariet</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="e487173f-8ce3-4c52-940f-7f21a19babe9">
+      <Keyword m="2014-11-24T09:57:55.5566015Z">Typ skladovej karty</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="3f05f8c7-f92a-49cb-a374-b572a0423425">
+      <Keyword m="2022-04-27T13:05:01.4116763Z">Skladové karty - typy</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="f7ddca2a-b988-4249-b0d4-5d9f70377a52">
+      <Keyword m="2022-04-27T13:05:24.0397024Z">Vratný obal - typy skladových kariet</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="5f24ae0b-733e-4b34-82d3-d63e7bd8bafe">
+      <Keyword m="2022-04-27T13:05:27.9523506Z">Služba - typy skladových kariet</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="d5019242-5fc8-4631-aaf8-fa0dd0ffaa7d">
+      <Keyword m="2022-04-27T13:05:35.5284301Z">Sada - typy skladových kariet</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="16ecacfa-b01c-4647-901a-b72859461195">
+      <Keyword m="2022-04-27T13:05:39.9216689Z">Receptúra - typy skladových kariet</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="fe85c27d-ec7f-4970-9918-f73a14a7e9d1">
+      <Keyword m="2022-04-27T13:05:56.6439994Z">Výrobok - typy skladových kariet</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="0563abcf-57b1-45bb-8cf0-3361bb46611b">
+      <Keyword m="2022-04-27T13:06:38.2356941Z">Typy skladových kariet - porovnanie</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

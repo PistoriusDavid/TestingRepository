@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="ab9d497d-fd18-4185-a487-28e3bf04cecf" Status="Complete" CreatedOn="2014-09-02T12:05:21.6625668Z" ModifiedOn="2022-12-21T13:45:04.2589384Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="22407" Name="Developers_XMLCommunication_Setings" BuildFlags="">
+  <Title m="2014-09-02T12:05:56.9255837Z">Nastavenia XML komunikácie</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2022-12-21T13:45:04.2589384Z">&lt;P&gt;V tejto téme &lt;EM&gt;Pomocníka&lt;/EM&gt; sú uvedené tak &lt;STRONG&gt;informácie o&amp;nbsp;možnostiach nastavení XML komunikácie, ako aj postup nastavenia parametrov XML komunikácie&lt;/STRONG&gt;&amp;nbsp;v systéme OBERON.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;A href="56f661c6-24da-46aa-b157-5d988cbe792b"&gt;XML komunikácia&lt;/A&gt; predstavuje jeden zo spôsobov, ako exportovať údaje zo systému&amp;nbsp;OBERON, alebo naopak, importovať do systému OBERON. Najčastejšie sa exportujú/importujú údaje dokladov ako faktúra, objednávka, výdajka a&amp;nbsp;pod. Viac informácií o&amp;nbsp;tomto spôsobe komunikácie a&amp;nbsp;kde ju možno použiť&amp;nbsp;získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="56f661c6-24da-46aa-b157-5d988cbe792b" style="auto-update-caption: true"&gt;Všeobecne o XML komunikácii&lt;/A&gt;. 
+&lt;LI&gt;V rámci nastavení&amp;nbsp;XML komunikácie sa v systéme OBERON&amp;nbsp;definujú &lt;STRONG&gt;nastavenia parametrov&amp;nbsp;importu a exportu údajov&amp;nbsp;v rámci&lt;/STRONG&gt;&amp;nbsp;&lt;A href="56f661c6-24da-46aa-b157-5d988cbe792b"&gt;XML komunikácie&lt;/A&gt;. 
+&lt;LI&gt;Nastavenia XML komunikácie sa uplatňujú pri samotnom importe alebo exporte&amp;nbsp;údajov. Najčastejšie sa využívajú: 
+&lt;UL&gt;
+&lt;LI&gt;pri importe na nastavenie spôsobu&amp;nbsp;konverzie údajov zo súboru&amp;nbsp;XML s odlišnou štruktúrou, ako OBERON priamo podporuje (tzv. natívny formát OBERON XML), 
+&lt;LI&gt;pri importe na nastavenie spôsobu&amp;nbsp;konverzie údajov zo súboru&amp;nbsp;iného formátu ako XML, 
+&lt;LI&gt;pri exporte na nastavenie spôsobu&amp;nbsp;konverzie údajov do súboru XML s odlišnou štruktúrou ako OBERON XML na ďalšie spracovanie v externých systémoch, 
+&lt;LI&gt;pri exporte na nastavenie spôsobu&amp;nbsp;konverzie údajov do súboru&amp;nbsp;iného formátu ako XML&amp;nbsp;na ďalšie spracovanie v externých systémoch, 
+&lt;LI&gt;pri importe alebo exporte&amp;nbsp;na určenie, v ktorých agendách systému OBERON bude možné s daným nastavením pracovať, 
+&lt;LI&gt;pri importe alebo exporte na nastavenie zobrazenia náhľadu XML súboru vo formáte HTML. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;V rámci&amp;nbsp;&lt;A href="2b1c8088-fe6c-4fab-bf73-6947c2bec31e"&gt;ďalších (podrobných) nastavení XML komunikácie&lt;/A&gt; je ďalej možné: 
+&lt;UL&gt;
+&lt;LI&gt;pri importe nastaviť sklad, polia na sychronizáciu skladových položiek atď. v prípade, že sa napr.&amp;nbsp;položky importovaného dokladu (faktúry, objednávky, príjemky...) majú &lt;STRONG&gt;naimportovať ako skladové&lt;/STRONG&gt;, 
+&lt;LI&gt;pri exporte nastaviť sklad,&amp;nbsp;z&amp;nbsp;ktorého sa má export vykonať, a&amp;nbsp;či sa majú exportovať aj základné, resp. rozšírené údaje skladových kariet, na základe ktorých sa pri následnom importe bude môcť z&amp;nbsp;položky dokladu&amp;nbsp;&lt;STRONG&gt;automaticky vytvoriť daná skladová karta&lt;/STRONG&gt; v&amp;nbsp;prípade, že sa v cieľovej databáze nenachádza. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Na konverziu údajov (spravidla zmenu štruktúry súboru XML, prípadne iného formátu, resp.&amp;nbsp;jeho&amp;nbsp;transformáciu&amp;nbsp;do zrozumiteľného formátu pre&amp;nbsp;používateľa, napr. HTML),&amp;nbsp;je možné&amp;nbsp;v&amp;nbsp;systéme OBERON&amp;nbsp;použiť &lt;A href="50adcd4a-de72-439e-895f-021cd9537535"&gt;transformačné šablóny XSLT&lt;/A&gt;&amp;nbsp;(prípadne &lt;A href="02287be9-0d9c-427d-8d25-88310ae34bbb"&gt;transformačné šablóny na import súborov&amp;nbsp;CSV&lt;/A&gt;). Výhodou využitia&amp;nbsp;transformačných šablón je ich relatívne jednoduchá úprava bez&amp;nbsp;nutnosti použitia&amp;nbsp;zložitejších nástrojov (stačí aj &lt;EM&gt;Poznámkový blok&lt;/EM&gt; systému &lt;EM&gt;Windows&lt;/EM&gt;, prípadne iný editor - napr. vstavaný&amp;nbsp;&lt;A href="dbae92e9-a935-46e3-8f57-7854ad21497b"&gt;XML editor&lt;/A&gt;, prípadne ľubovoľný iný, napr.&amp;nbsp;&lt;A href="https://exalogic.sk/na-stiahnutie-oberon/xml-notepad/" target=_blank&gt;XML Notepad&lt;/A&gt;). 
+&lt;LI&gt;Celý rad hotových transformačných šablón na import/export údajov v&amp;nbsp;rámci&amp;nbsp;&lt;A href="56f661c6-24da-46aa-b157-5d988cbe792b"&gt;XML komunikácie&lt;/A&gt;&amp;nbsp;v&amp;nbsp;systéme OBERON je dostupný vo forme doplnkov v ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="a1ae5eb5-f369-4aab-80b2-c6585166d550" style="auto-update-caption: true"&gt;Správca doplnkov&lt;/A&gt;. Použiť ich možno na&amp;nbsp;&lt;A href="c4bb279e-a2ba-4690-83b9-efb2e11cc077"&gt;import dokladov (faktúr, príjemiek...) z iných softvérov&lt;/A&gt;,&amp;nbsp;&lt;A href="2c463344-2e7a-4599-8afb-f5d06c2366e0"&gt;export dokladov (faktúr) do iných softvérov&lt;/A&gt;, pri komunikácii medzi systémom OBERON a&amp;nbsp;&lt;A href="22856409-6be1-40cd-8216-1b6caae2c548"&gt;off-line internetovým obchodom&lt;/A&gt; atď. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget layout="block" type="Note Box"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Nadefinovať&amp;nbsp;jednotlivé nastavenia parametrov&amp;nbsp;importu a exportu údajov&amp;nbsp;v rámci tzv.&amp;nbsp;&lt;A href="56f661c6-24da-46aa-b157-5d988cbe792b"&gt;XML komunikácie&lt;/A&gt; je možné vo &lt;A href="61528768-ed52-428d-b65c-458d9b11ae23"&gt;formulári Nastavenie XML komunikácie&lt;/A&gt;.&amp;nbsp;Ďalšie nastavenia je možné vykonať vo &lt;A href="2b1c8088-fe6c-4fab-bf73-6947c2bec31e"&gt;formulári Podrobné nastavenia XML komunikácie&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H5&gt;Obrázok č. : Nastavenie XML komunikácie, záložka &lt;EM&gt;Konverzia údajov&lt;/EM&gt;&lt;/H5&gt;
+&lt;P&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;IMG border=0 alt="" src="images/Forms/Invoices/Form_Invoices_Import_XML_Settings.png"&gt;&lt;/P&gt;
+&lt;H2&gt;Postup nastavenia parametrov&amp;nbsp;XML komunikácie&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;V programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt; v ponuke&amp;nbsp;&lt;EM&gt;Servis&lt;/EM&gt; zvoľte položku&amp;nbsp;&lt;A href="ec3ff388-810d-4d3c-b220-f3c89133ea79"&gt;Nastavenia XML komunikácie&lt;/A&gt;. 
+&lt;LI&gt;Otvorí sa číselník, v ktorom&amp;nbsp;stlačte tlačidlo &lt;EM&gt;Nový&lt;/EM&gt; -&amp;nbsp;otvorí sa&amp;nbsp;&lt;A href="61528768-ed52-428d-b65c-458d9b11ae23"&gt;formulár Nastavenie XML komunikácie&lt;/A&gt;, v&amp;nbsp;ktorom&amp;nbsp;&lt;STRONG&gt;nastavte&amp;nbsp;parametre importu/exportu&lt;/STRONG&gt;: 
+&lt;UL&gt;
+&lt;LI&gt;v&amp;nbsp;záložke &lt;EM&gt;Základné&lt;/EM&gt;&amp;nbsp;zadajte názov nastavenia. V rozbaľovacom zozname &lt;EM&gt;Modul&lt;/EM&gt; môžete nastaviť, v ktorej agende&amp;nbsp;bude možné s&amp;nbsp;týmto nastavením pracovať (napr. kniha pohľadávok). Po stlačení tlačidla &lt;EM&gt;Ďalšie nastavenia&lt;/EM&gt; sa otvorí&amp;nbsp;&lt;A href="2b1c8088-fe6c-4fab-bf73-6947c2bec31e"&gt;formulár Podrobné nastavenia XML komunikácie&lt;/A&gt;, v ktorom je možné vykonať ďalšie nastavenia v&amp;nbsp;prípade, že sa položky importovaného/exportovaného dokladu &lt;STRONG&gt;majú naimportovať /vyexportovať ako skladové&lt;/STRONG&gt; (napr. nastavenie skladu, poľa&amp;nbsp;na synchronizáciu skladových položiek a pod.); 
+&lt;LI&gt;v&amp;nbsp;záložke &lt;EM&gt;Zobrazenie údajov&lt;/EM&gt; môžete zadať transformačnú šablónu na zobrazenie náhľadu súboru XML (spravidla vo formáte HTML); 
+&lt;LI&gt;v&amp;nbsp;záložke &lt;EM&gt;Konverzia údajov&lt;/EM&gt; v&amp;nbsp;rozbaľovacom zozname &lt;EM&gt;Typ príkazu&lt;/EM&gt; zvoľte spôsob konverzie údajov v prípade, že vykonávate import/export z/do externého systému (iného formátu). Ak na konverziu údajov použijete transformačnú šablónu, vyberte možnosť &lt;EM&gt;&lt;STRONG&gt;XSLT šablóna&lt;/STRONG&gt;&lt;/EM&gt; (prípadne &lt;EM&gt;&lt;STRONG&gt;CSV šablóna&lt;/STRONG&gt;&lt;/EM&gt;) a&amp;nbsp;v&amp;nbsp;poli &lt;EM&gt;Príkaz&lt;/EM&gt;&amp;nbsp;pomocou tlačidla &lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_ListButton.png"&gt;&amp;nbsp;vyberte príslušnú&amp;nbsp;&lt;STRONG&gt;transformačnú šablónu&lt;/STRONG&gt; (nainštalovanú v&amp;nbsp;&lt;EM&gt;Správcovi doplnkov&lt;/EM&gt;). &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Vykonané nastavenia uložte stlačením tlačidla &lt;EM&gt;&lt;STRONG&gt;OK&lt;/STRONG&gt;&lt;/EM&gt;. &lt;/LI&gt;&lt;/OL&gt;&lt;innovasys:widget layout="block" type="Tip Box"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt; 
+&lt;UL&gt;
+&lt;LI&gt;V prípade inštalácie transformačnej šablóny na import/export dokladov zo &lt;EM&gt;Správcu doplnkov&lt;/EM&gt; sa&amp;nbsp;v ponuke &lt;EM&gt;Servis,&amp;nbsp;&lt;/EM&gt;&lt;A href="ec3ff388-810d-4d3c-b220-f3c89133ea79"&gt;Nastavenia XML komunikácie&lt;/A&gt;&amp;nbsp;automaticky vytvorí príslušné&amp;nbsp;nastavenie (napr.&amp;nbsp;&lt;EM&gt;Import vydanej FA do pohľadávok - SuperFaktura-&amp;gt;OBERON&lt;/EM&gt;, &lt;EM&gt;Export vydanej FA do formátu Editel XML - OBERON-&amp;gt;EDITEL&lt;/EM&gt; a pod.) s&amp;nbsp;nastaveným spôsobom konverzie a vybratou príslušnou transformačnou šablónou.&amp;nbsp;Manuálne nastaviť je v&amp;nbsp;ňom však potrebné &lt;STRONG&gt;ďalšie parametre v prípade, že sa položky dokladu&lt;/STRONG&gt; &lt;STRONG&gt;majú naimportovať/vyexportovať ako skladové&lt;/STRONG&gt; (sklad, polia&amp;nbsp;na synchronizáciu skladových položiek atď.). V opačnom prípade sa položky dokladu naimportujú/vyexportujú ako &lt;STRONG&gt;neskladové&lt;/STRONG&gt;. 
+&lt;LI&gt;Vo vybraných dokladových formulároch je možné &lt;STRONG&gt;priradiť neskladovú položku k už existujúcej skladovej karte alebo vytvoriť novú skladovú kartu&lt;/STRONG&gt;. Viac informácií získate v téme&amp;nbsp;&lt;A href="e133c0e5-e693-4162-a5ea-e67edf2f2f42" style="auto-update-caption: true"&gt;Formulár Priradiť položku dokladu ku skladovej karte&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="6b956b0b-5627-497d-8248-3b52318798cb" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="56f661c6-24da-46aa-b157-5d988cbe792b">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="1ef1dc61-2749-47a2-b4af-9d124dd185ee" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1e10bdae-2db4-4df8-94c4-94795ef55090">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="a42ecfb8-4d6f-471a-9a92-8b6744a515a7" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="87f1f18f-269b-4e21-998d-5e9b7f3d5024">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="4e362670-dfa9-48b5-85aa-374a0f380860" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="61528768-ed52-428d-b65c-458d9b11ae23">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="e224a2ec-f1d1-4be1-9d7b-938ab86b7226" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="2b1c8088-fe6c-4fab-bf73-6947c2bec31e">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="a50462c6-02f9-4f77-8279-51f79b8427e6" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="50adcd4a-de72-439e-895f-021cd9537535">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="c4c73255-636a-486c-8c43-e348ffb0074c" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="bdd6c3d1-daaa-4c3f-94be-af2784f716ae">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="7c0d9c18-94ad-49ca-904e-3891ee6df780" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="02287be9-0d9c-427d-8d25-88310ae34bbb">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="8af04440-cf6f-42cf-96fe-63c386ca58f3" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="e133c0e5-e693-4162-a5ea-e67edf2f2f42">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="0e57e4fc-2576-44bc-8fbb-695ab5bff59a">
+      <Keyword m="2021-04-06T07:43:41.829186Z">XML komunikácia - nastavenia</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="d182b1e3-cf92-4cb5-8feb-b593370f088d">
+      <Keyword m="2022-02-14T08:52:06.2312038Z">XML komunikácia - postup nastavenia parametrov </Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

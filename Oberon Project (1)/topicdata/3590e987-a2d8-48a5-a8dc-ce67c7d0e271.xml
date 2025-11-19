@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="3590e987-a2d8-48a5-a8dc-ce67c7d0e271" Status="Complete" CreatedOn="2015-08-27T07:48:46.7578125Z" ModifiedOn="2023-09-25T08:15:33.8235036Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="90010" Name="Menu_CRM_CalendarEvent" BuildFlags="">
+  <Title m="2015-08-27T07:49:53.4941406Z">Kalendár udalostí</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-09-25T08:15:33.8235036Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;je venovaná&amp;nbsp;položke&amp;nbsp;&lt;EM&gt;Kalendár udalostí&amp;nbsp;&lt;/EM&gt;v&amp;nbsp;ponuke&amp;nbsp;&lt;EM&gt;CRM&lt;/EM&gt; programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Výberom položky sa otvorí &lt;EM&gt;Kalendár udalostí&lt;/EM&gt; -&amp;nbsp;&lt;STRONG&gt;interaktívny formulár,&amp;nbsp;ktorý&amp;nbsp;v&amp;nbsp;grafickom prehľade zobrazuje&amp;nbsp;evidované udalosti&lt;/STRONG&gt;. Zároveň je vo formulári osobitne k&amp;nbsp;dispozícii&amp;nbsp;prehľadný zoznam&amp;nbsp;&lt;A href="a2807e3b-d8b1-4d61-a3b9-63df2783bfda"&gt;úloh a udalostí&lt;/A&gt;.&amp;nbsp;Kalendár čerpá údaje&amp;nbsp;z&amp;nbsp;&lt;A href="a2807e3b-d8b1-4d61-a3b9-63df2783bfda"&gt;knihy Úlohy a udalosti&lt;/A&gt;. 
+&lt;LI&gt;V &lt;EM&gt;Kalendári udalostí&lt;/EM&gt; je možné evidovať: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;udalosti&lt;/STRONG&gt; - napr. školenia, porady, stretnutia, telefonáty, e-maily a pod. Zobrazujú sa v grafickom prehľade kalendára. Tie, ktoré sa nezobrazujú v&amp;nbsp;grafickom prehľade kalendára, sa zobrazujú v&amp;nbsp;zozname úloh a&amp;nbsp;udalostí. 
+&lt;LI&gt;&lt;STRONG&gt;úlohy&lt;/STRONG&gt; - napr. vypracovanie obchodnej ponuky, reklamácia,&amp;nbsp;nákup, výmena tovaru a pod. Zobrazujú sa len v&amp;nbsp;zozname úloh a&amp;nbsp;udalostí. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;V&amp;nbsp;prípade používania &lt;A href="8df798f2-4fbf-4279-ad8c-493bdbe7f2e4"&gt;prevádzok&lt;/A&gt;&amp;nbsp;záznamy&amp;nbsp;vo formulári možno &lt;STRONG&gt;zobraziť podľa príslušnosti&amp;nbsp;k prevádzke&lt;/STRONG&gt;, a&amp;nbsp;to&amp;nbsp;ako podmnožiny&amp;nbsp;záznamov &lt;EM&gt;Kalendára udalostí&lt;/EM&gt;.&amp;nbsp;Možno tak urobiť pomocou filtra&amp;nbsp;&lt;EM&gt;Prevádzka&lt;/EM&gt; v&amp;nbsp;hornej časti formulára.&amp;nbsp;Zoznam dostupných prevádzok (definujú sa v ponuke &lt;EM&gt;Firma&lt;/EM&gt;,&amp;nbsp;&lt;A href="a833ee8a-1289-42b9-923f-80f549497702"&gt;Údaje o firme&lt;/A&gt;)&amp;nbsp;je možné v&amp;nbsp;prípade potreby obmedziť pomocou&amp;nbsp;&lt;A href="834e9546-a56b-476f-9028-ef4c24a82345"&gt;používateľských práv&lt;/A&gt;. 
+&lt;LI&gt;Stlačením &lt;B&gt;pravého&lt;/B&gt; &lt;STRONG&gt;tlačidla myši&lt;/STRONG&gt; v&amp;nbsp;grafickom prehľade program umožňuje vyvolať kontextovú ponuku, kde je možné priamo veľmi jednoducho a rýchlo pracovať s&amp;nbsp;jednotlivými záznamami: pridať novú udalosť (a&amp;nbsp;to aj z&amp;nbsp;reklamácie/servisu), upraviť existujúcu udalosť, pridať k&amp;nbsp;existujúcej udalosti podudalosť, resp. podúlohu atď. &amp;nbsp;&amp;nbsp;&amp;nbsp; 
+&lt;LI&gt;
+&lt;LI&gt;&lt;SPAN class=st&gt;Úlohy a&amp;nbsp;udalosti možno zoskupovať do tzv. CRM zložiek - viac informácií získate v téme&amp;nbsp;&lt;A href="5065958b-9ec2-46c0-81ce-ce9e316c90b7" style="auto-update-caption: true"&gt;CRM zložky&lt;/A&gt;.&lt;/SPAN&gt; 
+&lt;LI&gt;&lt;SPAN class=st&gt;&lt;SPAN class=st&gt;&lt;SPAN class=st&gt;&lt;SPAN class=st&gt;Systém OBERON &lt;STRONG&gt;umožňuje obojsmernú synchronizáciu&amp;nbsp;úloh a udalostí&lt;/STRONG&gt;&amp;nbsp;medzi&amp;nbsp;modulom&amp;nbsp;&lt;A href="f1a6963d-36aa-4134-92a5-fa47a4345e74"&gt;CRM a registratúra&lt;/A&gt;&amp;nbsp;(evidencia&amp;nbsp;&lt;A href="a2807e3b-d8b1-4d61-a3b9-63df2783bfda"&gt;Úlohy a udalosti&lt;/A&gt;&lt;EM&gt;,&amp;nbsp;&lt;/EM&gt;&lt;A href="3590e987-a2d8-48a5-a8dc-ce67c7d0e271"&gt;Kalendár udalostí&lt;/A&gt;) a&amp;nbsp;&lt;EM&gt;Kalendárom Google&lt;/EM&gt;.&amp;nbsp;Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="500d259b-3e05-4b22-86a5-adc149eb9595" style="auto-update-caption: true"&gt;Synchronizácia s Kalendárom Google&lt;/A&gt;.&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt; 
+&lt;LI&gt;&lt;SPAN class=st&gt;&lt;SPAN class=st&gt;&lt;SPAN class=st&gt;&lt;SPAN class=st&gt;V&amp;nbsp;ponuke&amp;nbsp;&lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="a6408126-1c7d-40c5-912b-d2e1321b10fc"&gt;oddiel Používateľ, CRM a registratúra&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt; možno pre aktuálne prihláseného používateľa nastaviť automatické otváranie &lt;EM&gt;Kalendára udalostí&lt;/EM&gt; po spustení programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;.&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt; &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Vytvoriť, resp. upraviť už vytvorenú&amp;nbsp;úlohu, resp. udalosť je možné&amp;nbsp;pomocou &lt;A href="e7eeba16-c957-49ba-b08a-b96e68f305b3"&gt;formulára Úloha&lt;/A&gt;&amp;nbsp;alebo&amp;nbsp;&lt;A href="ba23b970-8903-43ce-b7a0-7e60bb021cd1"&gt;formulára Udalosť&lt;/A&gt;.&amp;nbsp;Postup&amp;nbsp;vytvorenia&amp;nbsp;úlohy, resp. udalosti je popísaný v téme &lt;A href="b2cb9b90-3ca5-4bae-ae2f-9a671dac2e37" style="auto-update-caption: true"&gt;Vytvorenie úlohy a udalosti&lt;/A&gt;. &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H5&gt;Obrázok č. 1: Formulár &lt;EM&gt;Kalendár udalostí&lt;/EM&gt; pre jedného používateľa (zobrazenie &lt;EM&gt;pod sebou&lt;/EM&gt;)&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/CRM/Form_CRM_Calendar_SingleUser.png"&gt;&amp;nbsp;&lt;/P&gt;
+&lt;H5&gt;Obrázok č. 2: Formulár &lt;EM&gt;Kalendár udalostí&lt;/EM&gt; v zobrazení &lt;EM&gt;vedľa seba&lt;/EM&gt;&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/CRM/Form_CRM_Calendar_OtherViews.png"&gt;&amp;nbsp;&lt;/P&gt;
+&lt;H2&gt;Ďalšie informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;V grafickom prehľade je možné meniť výšku riadkov a šírku stĺpcov jednoduchým posunutím trojuholníka v pravom hornom rohu formulára.
+&lt;LI&gt;Na zvýšenie&amp;nbsp;prehľadnosti je v ľavom paneli oddelenom&amp;nbsp;&lt;A href="38489850-ab82-41b6-b258-3fa613ed5861"&gt;rozdeľovacou lištou&lt;/A&gt; dostupný &lt;STRONG&gt;vstavaný filter&lt;/STRONG&gt;, pomocou ktorého možno rýchlo filtrovať&amp;nbsp;záznamy (&lt;EM&gt;Len mnou zadané, Len určené pre mňa&lt;/EM&gt;). Ďalšie možnosti filtrovania sú dostupné po stlačení tlačidla &lt;EM&gt;Vlastnosti&lt;/EM&gt;, záložka &lt;EM&gt;Filtre&lt;/EM&gt;. V&amp;nbsp;záložke &lt;EM&gt;Kalendár udalostí&amp;nbsp;&lt;/EM&gt;&lt;A href="124da68e-c3f0-43e4-9466-60b4916bfc41"&gt;formulára Vlastnosti&lt;/A&gt;&amp;nbsp;je možné obmedziť zobrazenie udalostí iných používateľov v&amp;nbsp;prípade, že&amp;nbsp;sú udalosti v kalendári zobrazené v&amp;nbsp;členení podľa používateľov (je aktivované tlačidlo &lt;IMG border=0 alt="" src="images/CRM/CRM_Button_Calendar_Group.png" width=20&gt;).
+&lt;LI&gt;V ľavom paneli je dostupné aj &lt;STRONG&gt;pole na rýchle vyhľadanie obchodného partnera&lt;/STRONG&gt;. Po vyhľadaní konkrétneho obchodného partnera&amp;nbsp;program po pridaní novej udalosti automaticky doplní tohto obchodného partnera do&amp;nbsp;&lt;A href="ba23b970-8903-43ce-b7a0-7e60bb021cd1"&gt;formulára Udalosť&lt;/A&gt;, záložka &lt;EM&gt;Podrobnosti&lt;/EM&gt;. Pole slúži aj na zobrazenie úloh a udalostí týkajúcich sa daného obchodného partnera. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Popis tlačidiel&lt;/H2&gt;
+&lt;TABLE style="HEIGHT: 222px; WIDTH: 43.69%"&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TD width=22&gt;&lt;IMG border=0 alt="" src="images/CRM/CRM_Button_Calendar_Day.png"&gt;&lt;/TD&gt;
+&lt;TD&gt;&lt;STRONG&gt;Deň&lt;/STRONG&gt; -&amp;nbsp;zobrazia sa úlohy a udalosti z&amp;nbsp;aktuálneho dňa.&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=22&gt;&lt;IMG border=0 alt="" src="images/CRM/CRM_Button_Calendar_WorkingWeek.png"&gt;&lt;/TD&gt;
+&lt;TD&gt;&lt;STRONG&gt;Pracovný týždeň&lt;/STRONG&gt; -&amp;nbsp;zobrazia sa úlohy a udalosti z aktuálneho pracovného týždňa.&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=22&gt;&lt;IMG border=0 alt="" src="images/CRM/CRM_Button_Calendar_Week.png"&gt;&lt;/TD&gt;
+&lt;TD&gt;&lt;STRONG&gt;Týždeň&lt;/STRONG&gt; -&amp;nbsp;zobrazia sa úlohy a udalosti z aktuálneho kalendárneho&amp;nbsp;týždňa.&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=22&gt;&lt;IMG border=0 alt="" src="images/CRM/CRM_Button_Calendar_Month.png"&gt;&lt;/TD&gt;
+&lt;TD&gt;&lt;STRONG&gt;Mesiac&lt;/STRONG&gt; -&amp;nbsp;zobrazia sa úlohy a udalosti&amp;nbsp; z aktuálneho mesiaca.&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=22&gt;&lt;IMG border=0 alt="" src="images/CRM/CRM_Button_Calendar_Group.png"&gt;&lt;/TD&gt;
+&lt;TD&gt;&lt;STRONG&gt;Skupina&lt;/STRONG&gt; -&amp;nbsp;zobrazia sa úlohy a udalosti&amp;nbsp;v členení podľa používateľov v&amp;nbsp;konkrétnom dni, týždni, mesiaci podľa nastavení.&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=22&gt;&lt;IMG border=0 alt="" src="images/CRM/CRM_Button_Calendar_Look.png"&gt;&lt;/TD&gt;
+&lt;TD&gt;&lt;STRONG&gt;Zobrazenie&lt;/STRONG&gt; - grafický prehľad a zoznam úloh a udalostí sa zobrazia &lt;EM&gt;pod sebou&lt;/EM&gt; alebo &lt;EM&gt;vedľa seba&lt;/EM&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=22&gt;&lt;IMG border=0 alt="" src="images/CRM/CRM_Button_Calendar_Time.png"&gt;&lt;/TD&gt;
+&lt;TD&gt;&lt;STRONG&gt;Časový úsek&lt;/STRONG&gt; - minimálne časové úseky, na ktoré bude rozdelený kalendár udalostí&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;
+&lt;H2&gt;Dostupné&amp;nbsp;možnosti&lt;/H2&gt;
+&lt;P&gt;Ďalšie možnosti práce so záznamami&amp;nbsp;sú dostupné&amp;nbsp;po stlačení tlačidla &lt;EM&gt;Možnosti&lt;/EM&gt;, prípadne v&amp;nbsp;kontextovej ponuke tabuľky záznamov.&lt;/P&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Nová udalosť z reklamácie/servisu&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Funkcia umožní vytvoriť novú udalosť z&amp;nbsp;&lt;A href="945b74ea-31f8-44e7-baef-ffb5fc136b05"&gt;evidencie reklamácií a servisu&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Opakovať udalosť&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Udalosť je možné opakovať, teda udalosť sa automaticky vytvorí o zvolený časový úsek. Napr. každoročná prehliadka auta, každomesačné odovzdávanie výkazu atď.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Zmeniť stav&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Otvorí sa sprievodca, pomocou ktorého je možné zmeniť stav udalosti (&lt;EM&gt;Plánovaná,&lt;/EM&gt; &lt;EM&gt;Vykonaná, Nevykonaná, Zrušená&lt;/EM&gt;), zadať popis k zmene stavu a odoslať správu o zmene stavu elektronickou poštou na zadanú e-mailovú adresu.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="9124fcb2-a778-406b-9a10-94afe5655842" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="a2807e3b-d8b1-4d61-a3b9-63df2783bfda">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="09f46452-ddff-4174-912c-06aff6e90efb" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="b2cb9b90-3ca5-4bae-ae2f-9a671dac2e37">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="5503a2aa-dc7b-4da0-9ea9-f0c98e07ffa2" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="e7eeba16-c957-49ba-b08a-b96e68f305b3">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="404bbdf9-baad-459d-afea-5fea7a1846e3" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="ba23b970-8903-43ce-b7a0-7e60bb021cd1">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="2a080c66-6090-4098-a754-32d7a2f44ba1" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="945b74ea-31f8-44e7-baef-ffb5fc136b05">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="f15cc384-cb52-413d-a45f-7f94482cdd52" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="5065958b-9ec2-46c0-81ce-ce9e316c90b7">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="703a229f-9eb1-4fec-8d04-29f3a53f316e">
+      <Keyword m="2023-05-11T09:27:55.6526722Z">Grafický prehľad úloh a udalostí - kalendár udalostí</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="0b48bb75-5867-45b4-b08b-8430478c27bf">
+      <Keyword m="2023-05-11T09:26:29.6892358Z">Úloha - kalendár udalostí</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="c177c4ff-f3fb-4e5c-918c-e8bf4d091074">
+      <Keyword m="2023-05-11T09:26:40.9791851Z">Udalosť - kalendár udalostí</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="35169565-c0ef-47db-8dbc-d470ebf1cecf">
+      <Keyword m="2023-05-11T09:27:49.1397921Z">Zoznam úloh a udalostí - kalendár udalostí</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

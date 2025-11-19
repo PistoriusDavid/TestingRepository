@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="4dfc2d36-f1c8-4b60-81c4-62e8e5197b99" Status="Complete" CreatedOn="2014-10-24T10:51:03.1210937Z" ModifiedOn="2025-03-20T12:54:41.9987598Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="22218" Name="Menu_Stock_CategoryStockCard" BuildFlags="">
+  <Title m="2014-10-24T10:51:29.9638671Z">Kategórie skladových kariet</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2025-03-20T12:54:41.9987598Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;je venovaná&amp;nbsp;položke&amp;nbsp;&lt;EM&gt;Kategórie skladových kariet&lt;/EM&gt; v&amp;nbsp;ponuke&amp;nbsp;&lt;EM&gt;Sklad&lt;/EM&gt; programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Výberom položky sa otvorí&amp;nbsp;formulár &lt;EM&gt;Kategórie skladových kariet&lt;/EM&gt;, ktorý umožňuje &lt;STRONG&gt;definovať kategórie skladových kariet&lt;/STRONG&gt;, ktoré&amp;nbsp;účtovná jednotka eviduje v knihe&amp;nbsp;&lt;A href="1a33ab0b-2df7-4dc2-962b-8a3319c16831"&gt;Skladové karty&lt;/A&gt;. Kategórie skladových kariet nie sú povinné, účtovnej jednotke však umožňujú&amp;nbsp;sprehľadniť prácu so&amp;nbsp;skladovými kartami. 
+&lt;LI&gt;Kategórie skladových kariet umožňujú členiť skladové karty do &lt;STRONG&gt;stromovej štruktúry&lt;/STRONG&gt; podľa&amp;nbsp;potrieb účtovnej jednotky.&amp;nbsp;V stromovej štruktúre je možné využívať aj podkategórie, prípadne je možné skladovú kartu začleniť aj do viacerých kategórií. Priradiť skladovú kartu ku kategórii (kategóriám) je možné vo&amp;nbsp;&lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;formulári Skladová karta&lt;/A&gt;, tlačidlo výberu&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_ListButton.png"&gt;&amp;nbsp;pri položke &lt;EM&gt;Kategória&lt;/EM&gt;. 
+&lt;LI&gt;V&amp;nbsp;rámci kategórií je možné definovať &lt;STRONG&gt;hlavné skupiny stromovej štruktúry (vetvy)&lt;/STRONG&gt;&amp;nbsp;a k nim priradené &lt;STRONG&gt;položky (listy)&lt;/STRONG&gt;. Pod každou položkou je možné vytvoriť ďalšiu položku (t.&amp;nbsp;j. každý list je možné zmeniť na vetvu stromu, ktorá bude končiť listom). Jednotlivé hlavné skupiny aj položky stromovej štruktúre možno posúvať (meniť poradie) pomocou šípok v kontextovej ponuke. 
+&lt;LI&gt;V&amp;nbsp;knihe&amp;nbsp;&lt;A href="1a33ab0b-2df7-4dc2-962b-8a3319c16831"&gt;Skladové karty&lt;/A&gt;&amp;nbsp;je možné&amp;nbsp;kategórie skladových kariet vytvoriť &lt;STRONG&gt;automaticky&lt;/STRONG&gt; (tlačidlo &lt;EM&gt;Možnosti&lt;/EM&gt;). Stromovú štruktúru je možné vygenerovať napr. po importe skladových kariet z inej databázy, keď importované údaje obsahujú aj údaje o&amp;nbsp;kategóriách&amp;nbsp;skladových kariet. Nové kategórie je taktiež možné &lt;STRONG&gt;automaticky vytvoriť z ďalších polí skladovej karty&lt;/STRONG&gt;, napr. zo&amp;nbsp;&lt;A href="f83017eb-1d46-42a5-991b-bdf5d628aa8d"&gt;skladovej skupiny&lt;/A&gt;,&amp;nbsp;&lt;A href="07957769-848a-42b8-8d4b-678f7246396c"&gt;skupiny v pokladnici&lt;/A&gt;,&amp;nbsp;umiestnenia, dodávateľa a pod. 
+&lt;LI&gt;Každému&amp;nbsp;skladu je možné&amp;nbsp;(vo &lt;A href="1e423d36-8e0a-4420-b2e9-05f12806ec3a"&gt;formulári Sklad&lt;/A&gt;, záložka &lt;EM&gt;Doplňujúce údaje&lt;/EM&gt;) &lt;STRONG&gt;priradiť hlavnú&amp;nbsp;skupinu (vetvu)&lt;/STRONG&gt;&amp;nbsp;v stromovej štruktúre, pod ktorou sa budú zobrazovať kategórie skladových kariet evidovaných v&amp;nbsp;danom sklade. Nastavenie umožňuje rozčleniť stromovú štruktúru v&amp;nbsp;prípade používania viacerých skladov tak, že sa po výbere daného skladu&amp;nbsp;v evidencii&amp;nbsp;&lt;A href="1a33ab0b-2df7-4dc2-962b-8a3319c16831"&gt;Skladové karty&lt;/A&gt;&amp;nbsp;(pomocou filtra &lt;EM&gt;Sklad&lt;/EM&gt; v&amp;nbsp;hornej časti evidencie) bude zobrazovať stromová štruktúra prislúchajúca len k danému skladu (napr. pri vedení osobitných skladov pre stavebný materiál, vodoinštalačný materiál a kúpeľňové štúdio sa po výbere skladu &lt;EM&gt;Stavebný materiál&lt;/EM&gt; v stromovej štruktúre zobrazia len kategórie prislúchajúce k tomuto skladu). Na nastavenie hlavnej kategórie stlačte tlačidlo výberu &lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_ListButton.png"&gt;, označte vetvu kurzorom&amp;nbsp;a&amp;nbsp;potvrďte tlačidlom&amp;nbsp;&lt;EM&gt;OK.&lt;/EM&gt;&amp;nbsp;Na zrušenie hlavnej vetvy stlačte tlačidlo&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_Button_RedCross.png"&gt;. 
+&lt;LI&gt;V&amp;nbsp;gastroprevádzkach&amp;nbsp;sa kategórie&amp;nbsp;používajú &lt;STRONG&gt;aj na členenie položiek v jedálnom/nápojovom lístku&lt;/STRONG&gt;.&amp;nbsp;Následne je možné lístok vytlačiť (klasický &lt;A href="7dd24e6f-6f96-4a51-9881-991d948d6392"&gt;jedálny/nápojový lístok&lt;/A&gt;), resp. môže byť dostupný aj&amp;nbsp;na mobilnom zariadení zákazníka ako napr. webová miniaplikácia&amp;nbsp;&lt;A href="fe4a9463-d066-4a56-8eee-a728ae1a7220"&gt;OBERON eMenu&lt;/A&gt;. 
+&lt;LI&gt;Členenie skladových kariet do kategórií je možné využiť aj pri vytváraní pravidiel rozšírenej cenotvorby. Príklady vytvorenia pravidla rozšírenej cenotvorby s využitím kategórií nájdete v&amp;nbsp;téme&amp;nbsp;&lt;A href="5ba18930-a06e-4228-a051-bb2c63ebe86d" style="auto-update-caption: true"&gt;Príklady rozšírenej cenotvorby&lt;/A&gt;. 
+&lt;LI&gt;Kategórie skladových kariet je možné&amp;nbsp;pomocou&amp;nbsp;&lt;A href="56f661c6-24da-46aa-b157-5d988cbe792b"&gt;XML komunikácie&lt;/A&gt; naimportovať, prípadne exportovať (tlačidlo &lt;EM&gt;Možnosti&lt;/EM&gt;). &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 1: Formulár &lt;EM&gt;Kategórie skladových kariet&lt;/EM&gt; otvorený z&amp;nbsp;formulára &lt;EM&gt;Sklad,&lt;/EM&gt; záložka &lt;EM&gt;Doplňujúce údaje&lt;/EM&gt;&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/Stock/Form_CategoryStockCard.png"&gt;&lt;/P&gt;
+&lt;H2&gt;Vytváranie kategórií a skupín&lt;/H2&gt;
+&lt;P&gt;Tlačidlo &lt;EM&gt;Nový&lt;/EM&gt; je možné pomocou&amp;nbsp;zvislej šípky&amp;nbsp;rozbaliť. Po rozbalení sa zobrazia dve možnosti:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;EM&gt;Pridať hlavnú skupinu -&lt;/EM&gt; pridá hlavnú skupinu (vetvu&amp;nbsp;stromu). 
+&lt;LI&gt;&lt;EM&gt;Pridať položku&lt;/EM&gt; - vytvorí položku (list stromu) pod aktuálne vybranou (kurzorom označenou) skupinou alebo inou položkou. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Schránka (clipboard) umožňuje pomocou klávesovej skratky &lt;EM&gt;Ctrl+C&lt;/EM&gt; skopírovanie jednej zvolenej kategórie a celej stromovej štruktúry v nej (všetky vnorené položky). Následne je možné do inej, aktuálne vybranej&amp;nbsp;kategórie vlepiť buď&amp;nbsp;len&amp;nbsp;danú skopírovanú&amp;nbsp;kategóriu (&lt;EM&gt;Ctrl+V&lt;/EM&gt;) alebo jej celú stromovú štruktúru (&lt;EM&gt;Ctr+Shift+V&lt;/EM&gt;).&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Výber príslušnej kategórie skladovej karty&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Priradiť skladovú kartu ku kategórii (kategóriám) je možné vo&amp;nbsp;&lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;formulári Skladová karta&lt;/A&gt;, tlačidlo výberu&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_ListButton.png"&gt;&amp;nbsp;pri položke &lt;EM&gt;Kategória&lt;/EM&gt;. 
+&lt;LI&gt;Na priradenie skladovej karty ku kategórii&amp;nbsp;je potrebné začiarknuť políčko pred názvom kategórie. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Kategórie skladových kariet a internetový obchod&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Nastavenie kategórií je&amp;nbsp;dôležité aj&amp;nbsp;z hľadiska internetového obchodu&amp;nbsp;&lt;A href="7437cbeb-c6d1-4b19-92ee-150ba8e4097f"&gt;PrestaShop&lt;/A&gt; - prenášajú sa do e-shopu a triedia v ňom tovar do skupín a podskupín. 
+&lt;LI&gt;Každej kategórii je možné priradiť &lt;STRONG&gt;obrázok&lt;/STRONG&gt; určený pre&amp;nbsp;&lt;A href="7437cbeb-c6d1-4b19-92ee-150ba8e4097f"&gt;PrestaShop&lt;/A&gt;. Nastavuje sa vo formulári &lt;EM&gt;Kategória skladovej karty&lt;/EM&gt;, záložka &lt;EM&gt;Obrázok&lt;/EM&gt;. 
+&lt;LI&gt;V&amp;nbsp;prípade zaradenia skladovej karty do viacerých kategórií je možné pomocou kontextovej ponuky nastaviť vybranú kategóriu&amp;nbsp;ako &lt;STRONG&gt;hlavnú&lt;/STRONG&gt; (&lt;EM&gt;Nastaviť ako hlavnú kategóriu&lt;/EM&gt;). Táto kategória sa bude prenášať do internetového obchodu ako hlavná. 
+&lt;LI&gt;Program umožňuje nastaviť, aby sa daná kategória do internetového obchodu nezasielala (začiarknutím poľa &lt;EM&gt;&lt;STRONG&gt;Nezasielať do internetového obchodu&lt;/STRONG&gt;&lt;/EM&gt; vo formulári &lt;EM&gt;Kategória skladových kariet&lt;/EM&gt;). &lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="3e6c9318-b007-4fd4-891a-43f6e00f4c11" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1e423d36-8e0a-4420-b2e9-05f12806ec3a">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="02f9d053-7b50-465a-b202-08a0f525fb3c" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1a33ab0b-2df7-4dc2-962b-8a3319c16831">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="694d5d8d-9eca-47a4-93e9-a8300a1ded67" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="c233ada3-0fed-4911-97f3-0680973ebac1">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="d9576079-4fd3-4b45-abc6-b8582d5ef301" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="5ba18930-a06e-4228-a051-bb2c63ebe86d">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="54d1f2c9-aeb5-404a-bc0e-2c3384cada80" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="7437cbeb-c6d1-4b19-92ee-150ba8e4097f">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="e2231603-1139-4089-9051-0bb9079196a4" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="ccadca4e-2fbd-4b28-8d92-f826f3019bd0">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="{46CEF21D-3301-4517-A875-A0906828390E}" Id="30038aaa-ccc2-4cb3-8b55-13de88d2b462">
+      <Keyword m="2021-11-05T12:01:05.5268189Z">Kategória skladových kariet</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="89237acc-f04f-458b-9529-83d7eff480e2">
+      <Keyword m="2021-11-05T12:01:18.191487Z">Skladová karta - kategórie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="faf1e809-3dc3-4377-ab53-53bb0a6eb51f">
+      <Keyword m="2021-11-05T12:01:24.226036Z">Sklady - kategórie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="3af95347-9abb-4278-8089-38960a12bd6c">
+      <Keyword m="2021-11-05T12:00:36.2131523Z">Stromová štruktúra</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="7bb3a6ce-7cf5-4fe5-adbe-1aa1556bf08b">
+      <Keyword m="2021-11-05T12:00:43.922763Z">Vetva stromovej štruktúry</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="7f22bd40-e301-4bae-88b9-48840ec23202">
+      <Keyword m="2021-11-05T12:00:52.8371485Z">List stromovej štruktúry</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="dfe78819-d8b2-4f63-a47c-330cbfd5194d">
+      <Keyword m="2021-11-05T12:01:30.962063Z">Obrázky - kategórie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="6e41097a-dab6-46d5-bf73-46f5c4ac1568">
+      <Keyword m="2022-12-19T12:57:39.0511076Z">Hlavná kategória - nastavenie (e-shop)</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

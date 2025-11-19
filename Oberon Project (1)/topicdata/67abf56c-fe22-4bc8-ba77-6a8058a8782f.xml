@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="67abf56c-fe22-4bc8-ba77-6a8058a8782f" Status="Complete" CreatedOn="2018-11-19T11:17:26.5815918Z" ModifiedOn="2024-06-04T07:19:44.7418811Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="ExportImport_On-lineBranchMode_General" BuildFlags="">
+  <Title m="2018-11-22T12:04:20.025008Z">Všeobecne o on-line pobočkovom režime</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-06-04T07:19:44.7418811Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; je venovaná jednej z&amp;nbsp;&lt;A href="93f31314-1503-41b9-a8f1-f477de367a39"&gt;možností použitia systému OBERON&lt;/A&gt; - &lt;STRONG&gt;on-line pobočkového režimu&lt;/STRONG&gt; ako variantu&amp;nbsp;&lt;A href="4b2b3447-f2f1-4bbe-9d21-3d87994bfba8"&gt;pobočkového režimu&lt;/A&gt;, nástroja&amp;nbsp;na výmenu&amp;nbsp;dokladov (záznamov) medzi pobočkami a&amp;nbsp;centrálou jednej firmy.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&amp;nbsp;&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;On-line pobočkový režim predstavuje jeden z&amp;nbsp;variantov &lt;A href="4b2b3447-f2f1-4bbe-9d21-3d87994bfba8"&gt;pobočkového režimu&lt;/A&gt;&amp;nbsp;v&amp;nbsp;štruktúre centrála&amp;nbsp;- pobočka, prípadne viac pobočiek jednej firmy. Ide o nástroj &lt;STRONG&gt;na&amp;nbsp;výmenu&lt;/STRONG&gt; &lt;STRONG&gt;údajov&lt;/STRONG&gt;&lt;STRONG&gt;&amp;nbsp;v&amp;nbsp;reálnom čase&lt;/STRONG&gt;&amp;nbsp;medzi pobočkou so samostatnou&amp;nbsp;databázou a centrálou (s&amp;nbsp;hlavnou databázou účtovnej jednotky). Umožňuje tak jednosmernú, ako aj obojsmernú komunikáciu. 
+&lt;LI&gt;Centrála firmy má databázu umiestnenú &lt;STRONG&gt;v&amp;nbsp;lokálnej počítačovej sieti centrály&lt;/STRONG&gt;&amp;nbsp;alebo &lt;STRONG&gt;mimo lokálnej počítačovej siete v cloude&lt;/STRONG&gt;. V oboch prípadoch platí, že databáza centrály&amp;nbsp;musí byť viditeľná z&amp;nbsp;vonkajšieho internetu, t. j. databázový server musí byť dostupný pre jednotlivé pobočky.
+&lt;LI&gt;Centrála aj každá pobočka &lt;STRONG&gt;musí mať zakúpenú&lt;/STRONG&gt; &lt;STRONG&gt;vlastnú&amp;nbsp;&lt;/STRONG&gt;&lt;STRONG&gt;licenciu&lt;/STRONG&gt;. Bližšie informácie o typoch licencií a cenníku získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="644b0685-defe-4ce5-b3cd-e731b5eff299"&gt;Typy licencií&lt;/A&gt;&amp;nbsp;a&amp;nbsp;v téme &lt;A href="efb93a2c-e449-4770-88ba-0fe999e90ccd"&gt;Cenník - licencie OBERON&lt;/A&gt;. 
+&lt;LI&gt;On-line pobočkový režim&amp;nbsp;predstavuje automaticky vykonávanú &lt;STRONG&gt;on-line synchronizáciu údajov&lt;/STRONG&gt;, keď&amp;nbsp;komunikácia medzi pobočkou&amp;nbsp;a&amp;nbsp;centrálou prebieha s&amp;nbsp;oneskorením len niekoľkých desiatok sekúnd. Vyžaduje preto rýchle a&amp;nbsp;stabilné internetové pripojenie, dôležitým faktorom je aj počet používateľov v&amp;nbsp;sieti.&amp;nbsp;Občasné výpadky internetu pritom nespôsobia výpadok pobočky (keďže používa samostatnú databázu). 
+&lt;LI&gt;Typickým &lt;STRONG&gt;príkladom&lt;/STRONG&gt;&amp;nbsp;použitia on-line pobočkového režimu je prevádzka s&amp;nbsp;viacerými predajňami s vysokou kadenciou predaja (napr. predajne potravín, rôzne predajné miesta vstupeniek do kúpalísk, klzísk, kín a pod.) s&amp;nbsp;vysokým nárokom na dostupnosť centrálnej databázy vzhľadom na spoľahlivosť vydávania pokladničných dokladov. Pokladnica čerpá skladové položky (cenník) z centrály (cenotvorba a evidencia skladu sa vykonávajú v&amp;nbsp;databáze centrály), pričom množstvá predané&amp;nbsp;v pobočkách&amp;nbsp;sa ihneď po vytlačení dokladu zasielajú do centrály.&amp;nbsp;Tá má aktuálny prehľad o predaji a&amp;nbsp;stave zásob&amp;nbsp;v&amp;nbsp;každej pobočke v reálnom čase. Účtovná jednotka môže používať aj internetový obchod, ktorý zobrazuje aktuálne stavy zásob (dostupnosť tovaru) v reálnom čase. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 1: Použitie systému OBERON v&amp;nbsp;štruktúre centrála - pobočka s databázou v cloude (vľavo) a s databázou v centrále (vpravo)&lt;/H5&gt;
+&lt;P&gt;&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Basic/OBERON_Use_Option_6b.png"&gt;&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Basic/OBERON_Use_Option_7.png"&gt;&lt;/P&gt;
+&lt;H2&gt;Technické informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Komunikáciu pobočky s centrálou &lt;STRONG&gt;inicializuje vždy pobočka&lt;/STRONG&gt; - z tohto dôvodu pobočka nemusí mať verejnú IP adresu, tú musí mať len centrála (na prístup z pobočky k centrálnej databáze). Synchronizáciu údajov&amp;nbsp;vykonáva &lt;A href="9ce25bbd-35d1-4096-acd5-70007f5af5a6"&gt;automatická úloha&lt;/A&gt; &lt;STRONG&gt;&lt;EM&gt;On-line pobočková synchronizácia&lt;/EM&gt;&lt;/STRONG&gt;, ktorá je spustená na niektorom z počítačov&amp;nbsp;v&amp;nbsp;pobočke. 
+&lt;LI&gt;V prípade výpadku internetu pobočka bude pracovať aj naďalej, pričom synchronizácia sa vykoná pri &lt;STRONG&gt;najbližšom obnovení&lt;/STRONG&gt; internetového pripojenia. 
+&lt;LI&gt;V&amp;nbsp;pobočke je možné pracovať aj s centrálnou databázou, t. j. OBERON sa môže &lt;STRONG&gt;jednoducho prepnúť&lt;/STRONG&gt; z pobočkovej databázy&amp;nbsp;do centrálnej databázy a,&amp;nbsp;samozrejme, aj späť, a&amp;nbsp;to v&amp;nbsp;ponuke OBERON, &lt;EM&gt;Otvoriť centrálnu databázu v cloude,&lt;/EM&gt; resp. &lt;EM&gt;Otvoriť lokálnu pobočkovú databázu&lt;/EM&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;Priebeh o každej&amp;nbsp;synchronizácii&lt;/STRONG&gt;&amp;nbsp;sa zaznamenáva v programe&amp;nbsp;&lt;A href="24e780fd-36d3-4a6e-bfc0-a8665c75e4ee"&gt;OBERON Center&lt;/A&gt; (tzv.&amp;nbsp;&lt;EM&gt;Správy o priebehu&lt;/EM&gt;), ako aj do evidencie&amp;nbsp;&lt;A href="bc30e126-afb5-41aa-a261-e92501038063"&gt;Sledovanie činností&lt;/A&gt; -&amp;nbsp;uvedené údaje&amp;nbsp;sa zaznamenávajú tak&amp;nbsp;na strane pobočky, ako aj na strane centrály. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Postup nastavenia on-line pobočkového režimu je uvedený v téme&amp;nbsp;&lt;A href="87f87ba8-cd9e-47ef-9dda-0ca54dfa1dd0" style="auto-update-caption: true"&gt;Nastavenie on-line pobočkového režimu&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="c736ec42-6517-490b-882b-0a0da3b672f5" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="4b2b3447-f2f1-4bbe-9d21-3d87994bfba8">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="c1ac8207-a303-4962-b64d-5d4b84a155f2" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="87f87ba8-cd9e-47ef-9dda-0ca54dfa1dd0">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="ff91033b-7fd6-42a4-b044-2c6270d10c83">
+      <Keyword m="2022-12-15T09:42:54.0036157Z">On-line pobočkový režim - všeobecné informácie</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="e76125f0-4fb3-4e56-82db-667593132461" Status="Complete" CreatedOn="2015-10-02T06:11:47.1298828Z" ModifiedOn="2024-07-08T10:11:31.6065567Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="CashRegister_Started_SaleWithCode" BuildFlags="">
+  <Title m="2015-10-02T06:12:55.0380859Z">Predaj pomocou kódu položky</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-07-08T10:11:31.6065567Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;informácie o predaji&amp;nbsp;pomocou kódu položky&lt;/STRONG&gt; na&amp;nbsp;&lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnici OBERON&lt;/A&gt;&lt;EM&gt;.&lt;/EM&gt;&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;V závislosti od&amp;nbsp;&lt;A href="bb0e1e82-e344-4bf0-834a-a294269f2e71"&gt;režimu predaja&lt;/A&gt; &lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnica OBERON&lt;/A&gt;&amp;nbsp;umožňuje rýchly predaj pomocou kódu položky, t.&amp;nbsp;j.&amp;nbsp;&lt;STRONG&gt;formou priameho zadávania kódu predávanej položky (prípadne aj s množstvom) na klávesnici v&amp;nbsp;tvare&lt;/STRONG&gt; &lt;EM&gt;&lt;STRONG&gt;Kód položky&lt;/STRONG&gt;&lt;/EM&gt; (resp.&lt;STRONG&gt;&amp;nbsp;&lt;EM&gt;Množstvo*Kód položky&lt;/EM&gt;&lt;/STRONG&gt;),&amp;nbsp;napr. 2071 (resp. 2*2071, kde 2&amp;nbsp;predstavuje množstvo a&amp;nbsp;2071 je kód položky). Pole na zadávanie kódu položky (Obrázok č. 1)&amp;nbsp;je dostupné v používateľskom rozhraní &lt;EM&gt;Pokladnice OBERON&lt;/EM&gt; - viac informácií v&amp;nbsp;téme&amp;nbsp;&lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnica OBERON&lt;/A&gt;. 
+&lt;LI&gt;Predaj pomocou kódu položky je možné realizovať &lt;STRONG&gt;v režime maloobchodnej a&amp;nbsp;reštauračnej&amp;nbsp;pokladnice&lt;/STRONG&gt; (nie je dostupný v&amp;nbsp;režime &lt;STRONG&gt;veľkoobchodnej pokladnice&lt;/STRONG&gt;). Viac informácií o&amp;nbsp;režimoch pokladnice&amp;nbsp;získate v téme&amp;nbsp;&lt;A href="c9f7216f-f252-4be3-aa26-3e9bb6d4c887" style="auto-update-caption: true"&gt;Nastavenie vzhľadu Pokladnice OBERON&lt;/A&gt;. 
+&lt;LI&gt;Pri predaji skladovej položky sa kód položky zapíše priamo do poľa &lt;I&gt;Množstvo*Kód položky&lt;/I&gt; a potvrdí klávesom &lt;EM&gt;Enter&lt;/EM&gt;. Pokladnica vyhľadá v&amp;nbsp;sklade skladovú kartu a do zoznamu položiek vytváraného pokladničného dokladu pridá hľadanú položku v množstve jednej mernej jednotky. Po zadaní množstva a&amp;nbsp;kódu položky v tvare &lt;EM&gt;Množstvo*Kód položky&lt;/EM&gt; sa daná položka pridá do zoznamu položiek vytváraného pokladničného dokladu v zadanom množstve. Ak kód v sklade neexistuje (je nesprávny alebo nie je nastavený v poli &lt;I&gt;Kód položky&lt;/I&gt; na&amp;nbsp;&lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;skladovej karte&lt;/A&gt;), položka sa do zoznamu nepridá. 
+&lt;LI&gt;Do&amp;nbsp;poľa &lt;EM&gt;Množstvo*Kód položky&lt;/EM&gt; je možné zadať aj čiarový kód a program automaticky daný čiarový kód vyhľadá. Program vykoná to isté ako pri nasnímaní čiarového kódu &lt;A href="80a78093-fc45-4db9-b74b-e1f9829f7b3c"&gt;snímačom čiarových kódov&lt;/A&gt;. To umožňuje pracovať s&amp;nbsp;&lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnicou OBERON&lt;/A&gt; aj snímačom čiarových kódov emulujúcim klávesnicu. Program podporuje zadávanie čiarového kódu na pokladnici len v&amp;nbsp;prípade, že je v&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="749ff4f1-eeb5-43f5-98d2-021399d8cec7"&gt;Zariadenia&lt;/A&gt;&amp;nbsp;pridaný aspoň jeden &lt;A href="80a78093-fc45-4db9-b74b-e1f9829f7b3c"&gt;snímač čiarových kódov&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 1: Pole na zadávanie kódu položky (prípadne aj s&amp;nbsp;množstvom)&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/CashRegister/CahRegister_DirectSales.png"&gt;&lt;/P&gt;
+&lt;P&gt;&lt;/P&gt;
+&lt;TABLE border=0&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TH&gt;
+&lt;H2&gt;Predaj pomocou kódu položky&lt;/H2&gt;&lt;/TH&gt;
+&lt;TH width="20%"&gt;
+&lt;H2&gt;Príklad&lt;/H2&gt;&lt;/TH&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width="80%"&gt;
+&lt;P&gt;&lt;STRONG&gt;Predaj jednej položky (jednej mernej jednotky)&lt;/STRONG&gt;&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;Zadajte len kód položky (nie je potrebné zadávať množstvo). &lt;/LI&gt;&lt;/UL&gt;&lt;/TD&gt;
+&lt;TD width="20%"&gt;&lt;STRONG&gt;2071&lt;/STRONG&gt;, kde 2071 je kód položky&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=475&gt;
+&lt;P&gt;&lt;STRONG&gt;Predaj iného množstva, ako jedna merná jednotka&lt;/STRONG&gt;&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;Ak potrebujete predať iné množstvo, ako jedna merná jednotka, uveďte &lt;STRONG&gt;pred kód položky potrebné množstvo a&amp;nbsp;symbol hviezdičky&lt;/STRONG&gt;, napr. 2*2071, 0.5*2071 a&amp;nbsp;pod.&amp;nbsp; 
+&lt;LI&gt;V&amp;nbsp;prípade, že obsluha pokladnice nepozná kód položky, môže zobraziť zoznam skladových položiek stlačením tlačidla&amp;nbsp;&lt;EM&gt;Zoznam položiek (F3)&lt;/EM&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;/TD&gt;
+&lt;TD width="20%"&gt;&lt;STRONG&gt;2*2071&lt;/STRONG&gt;, kde 2 je množstvo a&amp;nbsp;2071 je kód položky&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=475&gt;
+&lt;P&gt;&lt;STRONG&gt;Vrátenie tovaru a záporná položka&lt;/STRONG&gt;&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;A href="9abefb3a-4c7f-4c93-bc46-883d2e85d910"&gt;Vrátenie tovaru&lt;/A&gt; sa zadáva &lt;STRONG&gt;so zápornými množstvami&lt;/STRONG&gt;, napr. -1*2071, -2*2071, -0.5*2071 a pod. Vrátenie tovaru je vlastne stornovanie položky (dokladu), napr. pri reklamácii. 
+&lt;LI&gt;Vratné obaly sa zadávajú ako vrátenie tovaru (-1*2071), ale na&amp;nbsp;&lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;skladovej karte&lt;/A&gt; musí byť v záložke &lt;EM&gt;Reg. pokladnice&lt;/EM&gt; nastavený príznak položky&amp;nbsp;&lt;EM&gt;Vratný obal&lt;/EM&gt;. 
+&lt;LI&gt;Položka s&amp;nbsp;príznakom &lt;EM&gt;Vrátenie tovaru&lt;/EM&gt; sa zobrazuje &lt;STRONG style="COLOR: rgb(255,0,0)"&gt;červenou farbou&lt;/STRONG&gt;, položka&amp;nbsp;s&amp;nbsp;príznakom &lt;EM&gt;Vratný obal&lt;/EM&gt; sa zobrazuje &lt;STRONG&gt;čiernou farbou&lt;/STRONG&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;/TD&gt;
+&lt;TD width="20%"&gt;-&lt;STRONG&gt;1*2071&lt;/STRONG&gt;, kde&amp;nbsp;1 je množstvo a&amp;nbsp;2071 je kód položky&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=475&gt;
+&lt;P&gt;&lt;STRONG&gt;Predaj s inou cenou ako predajnou&lt;/STRONG&gt;&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;Pri predaji je možné zadať &lt;STRONG&gt;priamo aj predajnú cenu&lt;/STRONG&gt;, a to tak, že sa za číselný kód položky uvedie ďalšia hviezdička a za ňou predajná cena (s DPH), napr. 2*2071*100 (predajná cena je v&amp;nbsp;tomto prípade 100 €). Túto možnosť je možné využiť &lt;STRONG&gt;aj pri vrátení tovaru (storne položky), ktorý je v&amp;nbsp;inej predajnej cene ako je aktuálna predajná cena položky&lt;/STRONG&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;/TD&gt;
+&lt;TD width="20%"&gt;&lt;STRONG&gt;2*2071*100&lt;/STRONG&gt;, kde&amp;nbsp;2 je množstvo, 2071 je kód položky a 100 je predajná cena&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=475&gt;
+&lt;P&gt;&lt;STRONG&gt;Predaj s inou cenou ako predajnou bez znalosti kódu položky&lt;/STRONG&gt;&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;Pri predaji je možné zadať &lt;STRONG&gt;priamo&amp;nbsp;predajnú cenu&lt;/STRONG&gt;&amp;nbsp;aj bez znalosti kódu položky. Výber položky sa realizuje pomocou tlačidla&amp;nbsp;&lt;EM&gt;Zoznam položiek (F3)&lt;/EM&gt; alebo načítaním kódu pomocou&amp;nbsp;&lt;A href="80a78093-fc45-4db9-b74b-e1f9829f7b3c"&gt;snímača čiarových kódov&lt;/A&gt;. Zápis príkladu bude teda 2**100 kláves &lt;EM&gt;F3&lt;/EM&gt;, kde obsluha vyberie položku 2071 a&amp;nbsp;potvrdí klávesom &lt;EM&gt;Enter&lt;/EM&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;/TD&gt;
+&lt;TD width="20%"&gt;&lt;STRONG&gt;2**100 kláves &lt;EM&gt;F3&lt;/EM&gt;&lt;/STRONG&gt;, kde&amp;nbsp;2 je množstvo, 100 je predajná cena s DPH&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=475&gt;
+&lt;P&gt;&lt;STRONG&gt;Predaj s inou cenou ako predajnou&lt;/STRONG&gt;&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;Program umožňuje zadávať aj položky &lt;STRONG&gt;v rôznych hladinách predajných cien nastavených&lt;/STRONG&gt; na&amp;nbsp;&lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;skladovej karte&lt;/A&gt;, a to tak, že sa za kód položky uvedú ďalšie dve hviezdičky a za ňou cenová hladina (číslo 1, 2, 3 alebo 4). Napr. 2*2071**1 (predá tovar v cenovej hladine 1), 2071**2 (predá tovar v cenovej hladine 2) a pod. Je&amp;nbsp;nutné, aby na skladovej karte boli vyplnené predajné ceny (vo&amp;nbsp;&lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;formulári Skladová karta&lt;/A&gt;, záložka &lt;EM&gt;Cena&lt;/EM&gt;, &lt;EM&gt;Cena 1 - 4&lt;/EM&gt;). 
+&lt;LI&gt;V prípade, že sa pri zadávaní 2*2071**2 vynechá kód položky, môže sa po zadaní &lt;EM&gt;Množstvo***Cenová hladina&lt;/EM&gt; kód položky vybrať&amp;nbsp;pomocou tlačidla&amp;nbsp;&lt;EM&gt;Zoznam položiek (F3)&lt;/EM&gt; alebo načítaním kódu pomocou&amp;nbsp;&lt;A href="80a78093-fc45-4db9-b74b-e1f9829f7b3c"&gt;snímača čiarových kódov&lt;/A&gt;. Zápis príkladu bude teda 2***2 kláves &lt;EM&gt;F3&lt;/EM&gt;, kde obsluha vyberie položku 2071 a&amp;nbsp;potvrdí klávesom &lt;EM&gt;Enter&lt;/EM&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;/TD&gt;
+&lt;TD width="20%"&gt;&lt;STRONG&gt;2*2071**1&lt;/STRONG&gt;, kde&amp;nbsp;2 je množstvo, 2071 je kód položky a 1 je cenová hladina&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=475&gt;
+&lt;P&gt;&lt;STRONG&gt;Odstránenie položky&lt;/STRONG&gt;&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;Zo zoznamu položiek vložených do dokladu vo formulári &lt;I&gt;Pokladnica OBERON&lt;/I&gt;&amp;nbsp;možno ktorúkoľvek odstrániť klávesom &lt;EM&gt;Delete&lt;/EM&gt; (kurzorom označte&amp;nbsp;položku, ktorú chcete vymazať a stlačte kláves &lt;EM&gt;Delete&lt;/EM&gt;). &lt;/LI&gt;&lt;/UL&gt;&lt;/TD&gt;
+&lt;TD width="20%"&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=475&gt;
+&lt;P&gt;&lt;STRONG&gt;Prepínanie medzi otvorenými účtami&lt;/STRONG&gt;&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;Pole &lt;EM&gt;Množstvo*Kód položky&lt;/EM&gt; umožňuje rýchle prepínanie medzi viacerými otvorenými účtami. Bližšie informácie získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="e0ccff3e-b9e7-4572-bc3c-7f41a32280dd" style="auto-update-caption: true"&gt;Práca s otvorenými účtami (stolmi)&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;/TD&gt;
+&lt;TD width="20%"&gt;&lt;STRONG&gt;/3,&lt;/STRONG&gt; kde 3 je číslo otvoreného účtu&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=475&gt;
+&lt;P&gt;&lt;STRONG&gt;Prepínanie medzi otvorenými&amp;nbsp;účtenkami&lt;/STRONG&gt;&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;Pole&amp;nbsp;&lt;EM&gt;Množstvo*Kód položky&lt;/EM&gt; umožňuje rýchle prepínanie medzi viacerými otvorenými účtenkami. Bližšie informácie získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="e0ccff3e-b9e7-4572-bc3c-7f41a32280dd" style="auto-update-caption: true"&gt;Práca s otvorenými účtami (stolmi)&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;/TD&gt;
+&lt;TD width="20%"&gt;&lt;STRONG&gt;//terasa,&lt;/STRONG&gt; kde terasa je názov účtenky&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="53492cfe-994b-4ca9-a201-b3e1f294e282" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="2d9f1c7a-836e-4f2b-8fc1-90583288ed9d" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="69bbd499-45c0-4b0f-8f7a-c53fa5d70c1b">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="9de2e674-7029-4b70-90e4-075cfdbcc627" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="c9f7216f-f252-4be3-aa26-3e9bb6d4c887">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="7655a96c-eee8-4ebb-a6b0-f8f43e546bfc" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="c233ada3-0fed-4911-97f3-0680973ebac1">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="fc9491c2-da8c-4ee1-b415-692749592b26" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="80a78093-fc45-4db9-b74b-e1f9829f7b3c">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="e8fb3215-7810-4c71-9cff-5aea1744846b">
+      <Keyword m="2023-03-20T06:55:33.3048734Z">Priamy predaj - Množstvo*Kód položky</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="6faacd1e-b615-45f4-a7fe-53b32c01c051">
+      <Keyword m="2023-03-20T06:55:49.0491376Z">Kód položky - predaj</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="c8d66df8-1d4e-4351-b9d6-d028ff26d213">
+      <Keyword m="2023-03-20T06:56:07.3055812Z">Klávesové skratky v Pokladnici OBERON - Množstvo*Kód položky</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="4fce7d48-2d7c-454a-8f8b-7a9cdd53b307">
+      <Keyword m="2023-03-20T06:55:42.8338956Z">Množstvo*Kód položky</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="49beed71-814f-440b-aa51-deed6f063140" Status="Complete" CreatedOn="2022-09-21T08:39:55.0984066Z" ModifiedOn="2023-07-03T10:35:52.519603Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="93251" Name="Form_AutomaticTask_Beds24" BuildFlags="">
+  <Title m="2021-03-08T14:06:19.0091537Z">Formulár Nastavenie automatickej úlohy 'Beds24'</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2022-11-03T12:27:54.8631414Z">&lt;P&gt;Formulár&amp;nbsp;&lt;EM&gt;Nastavenie automatickej úlohy 'Beds24'&lt;/EM&gt; umožňuje nadefinovať nastavenia&amp;nbsp;&lt;A href="9ce25bbd-35d1-4096-acd5-70007f5af5a6"&gt;automatickej úlohy&lt;/A&gt; &lt;EM&gt;&lt;STRONG&gt;Manažér rezervačných kanálov Beds24&lt;/STRONG&gt;&lt;/EM&gt; pre modul&amp;nbsp;&lt;A href="c3bd41f0-029e-4c74-b342-b0ffff647b6e"&gt;Hotelová recepcia&lt;/A&gt;. Úloha&amp;nbsp;umožňuje &lt;STRONG&gt;exportovať údaje o&amp;nbsp;voľných a obsadených ubytovacích kapacitách ubytovacieho zariadenia, ako aj import rezervácií ubytovania&lt;/STRONG&gt;. Formulár je dostupný z programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;, ponuka&amp;nbsp;&lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="9ce25bbd-35d1-4096-acd5-70007f5af5a6"&gt;Automatické úlohy&lt;/A&gt;,&amp;nbsp;tlačidlo &lt;EM&gt;Nový&lt;/EM&gt; - otvorí sa formulár, v&amp;nbsp;ktorom vyberte daný typ automatickej úlohy a&amp;nbsp;stlačte tlačidlo &lt;EM&gt;Nastaviť&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Popis formulára &lt;EM&gt;Nastavenie automatickej úlohy 'Beds24'&lt;/EM&gt;&lt;/H2&gt;&lt;innovasys:widget type="Tab Strip" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Prístupové údaje&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;&lt;STRONG&gt;URL Beds24&lt;/STRONG&gt;&amp;nbsp;- &lt;A href="https://api.beds24.com/json/"&gt;https://api.beds24.com/json/&lt;/A&gt;&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;API Key&lt;/STRONG&gt; - po prihlásení do účtu &lt;EM&gt;Beds24&lt;/EM&gt; zvoľte&amp;nbsp;ponuku &lt;EM&gt;Accounts&lt;/EM&gt;, &lt;EM&gt;Account Access&amp;nbsp;&lt;/EM&gt;a&lt;EM&gt;&amp;nbsp;&lt;/EM&gt;v sekcii &lt;EM&gt;API Key 1&lt;/EM&gt; zadajte do poľa &lt;EM&gt;API Key&lt;/EM&gt; &lt;STRONG&gt;ľubovoľný prístupový kľúč&lt;/STRONG&gt; (akoby heslo), pomocou ktorého bude &lt;EM&gt;OBERON&lt;/EM&gt; pristupovať k&amp;nbsp;&lt;EM&gt;Beds24&lt;/EM&gt;.&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;Otestovať komunikáciu medzi systémami&amp;nbsp;&lt;EM&gt;Beds24&lt;/EM&gt; a&amp;nbsp;OBERON je možné stlačením tlačidla &lt;EM&gt;Otestovať&lt;/EM&gt;.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="dc554564-05ec-48d8-a0f2-2ce4886ebd18" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="fd64c37a-486b-4cdf-a370-297aaa8a8f73">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="0986947b-1622-4d9c-925e-5c5f97299edd" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="9ce25bbd-35d1-4096-acd5-70007f5af5a6">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="97c1fd6d-c71b-4394-ae67-74981bbdb082" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="6cd4a47a-5c87-4c7c-aa5e-9d8c198e9602">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="0d29febe-8317-4f54-a0c5-e3aeaba184f2" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="2564d1eb-a7ed-46a7-a957-6087afe26471">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="0f840c2b-6b7f-4254-97bd-d00b01354ca6">
+      <Keyword m="2022-04-26T12:46:41.3437954Z">API Key - Beds24</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="618a376b-939b-487f-92da-f8f666f20497">
+      <Keyword m="2022-04-26T12:47:17.497987Z">Beds24 - nastavenie automatickej úloy - formulár</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="b2bcded5-2c05-4656-bfb3-c53512e5c6c8" Status="Complete" CreatedOn="2023-10-20T11:57:15.0823849Z" ModifiedOn="2023-10-20T12:57:41.3358494Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Tech_AppRun_StartError_MissingProgramFiles" BuildFlags="">
+  <Title m="2023-10-19T12:38:15.0260514Z">Chýbajúce alebo poškodené programové súbory</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-10-20T12:43:10.9247945Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; popisuje &lt;STRONG&gt;postupy pri riešení problémov spojených s&amp;nbsp;chýbajúcimi alebo poškodenými programovými súbormi&lt;/STRONG&gt; &lt;STRONG&gt;systému OBERON&lt;/STRONG&gt; &lt;STRONG&gt;a súbormi systému &lt;EM&gt;Windows&lt;/EM&gt;&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;H2&gt;Chýbajúce alebo poškodené programové súbory OBERON&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Ak nie je možné program spustiť z&amp;nbsp;dôvodu chýbajúceho alebo poškodeného konkrétneho programového súboru, je potrebné vykonať&lt;STRONG&gt; reinštaláciu systému OBERON&lt;/STRONG&gt;. Po odinštalovaní a pred opätovnou inštaláciou OBERON-u&amp;nbsp;&lt;STRONG&gt;reštartujte počítač&lt;/STRONG&gt;. 
+&lt;LI&gt;Ak reinštalácia nepomohla, problémom &lt;STRONG&gt;môže byť poškodená inštalačná sada&lt;/STRONG&gt; (napr. pri sťahovaní z internetu) - pokúste sa opätovne stiahnuť inštalačný súbor a opätovne vykonať inštaláciu. &lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="2196a6c0-060f-4b25-bbb0-a533982844fb" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="114e64df-3d6c-4a0e-9405-c0e75fbe02dc">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="379c1dd6-b6da-40e5-8ba6-6f81fccd2a2c" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="19a10c98-2b1d-4fe1-8ab2-98921ab328be">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="99376001-e71c-4851-b996-0fe5c23101eb" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="028d6815-a941-4351-b441-3bc4f4350a38">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="ced8ffc2-8fcc-409a-ac9e-5b0e965e5ae3">
+      <Keyword m="2023-10-20T12:57:41.3348492Z">Problémy so spustením OBERON-u - chýbajúce alebo poškodené programové súbory</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

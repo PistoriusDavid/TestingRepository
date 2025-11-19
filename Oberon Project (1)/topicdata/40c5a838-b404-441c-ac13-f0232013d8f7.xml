@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="40c5a838-b404-441c-ac13-f0232013d8f7" Status="Complete" CreatedOn="2014-10-15T12:24:52.4807084Z" ModifiedOn="2023-10-30T07:15:11.7643559Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="51043" Name="Form_Stock_LeafletAgreement" BuildFlags="">
+  <Title m="2014-12-12T08:34:32.0976562Z">Formulár Letáková dohoda</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-10-17T07:45:24.9596133Z">&lt;P&gt;Formulár&amp;nbsp;&lt;EM&gt;Letáková dohoda&lt;/EM&gt; umožňuje &lt;STRONG&gt;zadať údaje k&amp;nbsp;letákovej dohode s dodávateľom&lt;/STRONG&gt; v&amp;nbsp;rámci&amp;nbsp;&lt;A href="34f91c11-1a5d-4773-ac4e-48ad2fc859d3"&gt;pravidla rozšírenej cenotvorby&lt;/A&gt;&amp;nbsp;&lt;EM&gt;Akciový leták - letáková dohoda s dodávateľom&lt;/EM&gt;. Formulár&amp;nbsp;je dostupný z&amp;nbsp;&lt;A href="f1fdc993-21a1-4db1-989e-fda72f89ef31"&gt;formulára Rozšírená cenotvorba - skladová karta&lt;/A&gt;, tlačidlo výberu&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_ListButton.png"&gt;&amp;nbsp;pri rozbaľovacom zozname &lt;EM&gt;Letáková dohoda&lt;/EM&gt;, tlačidlo&amp;nbsp;&lt;EM&gt;Nový&lt;/EM&gt; alebo &lt;EM&gt;Oprava&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Popis formulára &lt;EM&gt;Letáková dohoda&lt;/EM&gt;&lt;/H2&gt;&lt;innovasys:widget type="Tab Strip" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Základné&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Všetky údaje majú informačný charakter. Informácie sa využívajú v tlačových výstupoch.&lt;/P&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Dátum evidencie&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Dátum zaevidovania letákovej dohody.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Obchodný partner&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Vyberá sa obchodný partner, s ktorým bola vytvorená a podpísaná&amp;nbsp;letáková dohoda.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Letákový poplatok&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Poplatok, ktorý&amp;nbsp;uhrádza dodávateľ napr. za zaradenie dodaného tovaru do letáku.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Dátum dodávky tovaru&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Vyberá sa rozpätie dátumov, v ktorom sa dodávateľ zaväzuje dodávať tovar podľa letákovej dohody.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Text dohody&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Znenie letákovej dohody.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Tab Item" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Doplňujúci text&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Doplňujúci text letákovej dohody.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="c9c78b45-c9af-47ea-8d46-c90a5a8475e9" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="34f91c11-1a5d-4773-ac4e-48ad2fc859d3">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="0bed01dc-caad-44bb-b877-982ab85d1338" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="6b018069-d729-4bd0-8bf8-2162d116c247">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="19355c4f-d352-4deb-9916-00b93b1caa3a" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="f1fdc993-21a1-4db1-989e-fda72f89ef31">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="29cc821f-2986-4246-9ddc-a1375c4a0235" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="5ba18930-a06e-4228-a051-bb2c63ebe86d">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="c6b25b70-7046-471f-a904-6771eb924a57">
+      <Keyword m="2021-11-04T12:32:58.4311693Z">Letáková dohoda - formulár</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="53d61894-3a20-40b5-880f-88c434b64f7c">
+      <Keyword m="2021-11-04T12:32:51.7044805Z">Akciový leták (letáková dohoda s dodávateľom)</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="940fa8ad-d52e-4443-8d08-cbc588311de3" Status="Complete" CreatedOn="2015-01-30T13:00:26.3320312Z" ModifiedOn="2024-03-20T12:31:33.4263991Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="ElectronicSignature_Installation_eID" BuildFlags="">
+  <Title m="2022-10-24T09:17:41.6306533Z">Inštalácia balíka aplikácií pre kartu eID</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-03-20T12:30:13.8745182Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;informácie k inštalácii balíka aplikácií potrebného na používanie&amp;nbsp;občianskeho preukazu s&amp;nbsp;elektronickým&amp;nbsp;čipom (tzv. karty eID)&lt;/STRONG&gt; vrátane vytvárania&amp;nbsp;&lt;A href="bdf07bad-43fb-450a-9dba-15b8366448a9"&gt;kvalifikovaného elektronického podpisu (KEP)&lt;/A&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Občiansky preukaz s elektronickým čipom predstavuje elektronickú identifikačnú kartu (eID), ktorá &lt;STRONG&gt;slúži na preukazovanie totožnosti občana SR pri osobnom styku s úradmi a inštitúciami&lt;/STRONG&gt;. Karta obsahuje elektronický čip, a tým umožňuje &lt;STRONG&gt;preukazovanie totožnosti občana v&amp;nbsp;elektronickom prostredí pri využívaní elektronických služieb verejnej správy&lt;/STRONG&gt; (služieb e-Government). 
+&lt;LI&gt;Na&amp;nbsp;používanie&amp;nbsp;občianskeho preukazu s&amp;nbsp;elektronickým&amp;nbsp;čipom (karty eID) vrátane vytvárania&amp;nbsp;&lt;A href="bdf07bad-43fb-450a-9dba-15b8366448a9"&gt;kvalifikovaného elektronického podpisu (KEP)&lt;/A&gt;&amp;nbsp;je potrebné nainštalovať &lt;STRONG&gt;balík aplikácií&lt;/STRONG&gt;, ktorý je dostupný na ústrednom portáli verejnej správy&amp;nbsp;&lt;A href="http://www.slovensko.sk/" rel="noreferrer noopener" target=_blank&gt;www.slovensko.sk&lt;/A&gt; v&amp;nbsp;sekcii&amp;nbsp;&lt;A href="https://www.slovensko.sk/sk/na-stiahnutie" target=_blank&gt;Na&amp;nbsp;stiahnutie&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Postup inštalácie balíka aplikácií&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Zistenie operačného systému pred inštaláciou&lt;/STRONG&gt; - vo webovom prehliadači zadajte adresu &lt;A href="http://www.slovensko.sk"&gt;www.slovensko.sk&lt;/A&gt;&amp;nbsp;a&amp;nbsp;stlačte&amp;nbsp;tlačidlo &lt;EM&gt;Na stiahnutie&lt;/EM&gt;.&amp;nbsp;V&amp;nbsp;&lt;A href="https://www.slovensko.sk/sk/na-stiahnutie" target=_blank&gt;otvorenej sekcii&lt;/A&gt;&amp;nbsp;stlačte tlačidlo &lt;EM&gt;&lt;STRONG&gt;Zistiť operačný systém&lt;/STRONG&gt;&lt;/EM&gt; na zistenie operačného systému počítača, do ktorého budete balík aplikácií inštalovať. 
+&lt;LI&gt;&lt;STRONG&gt;Stiahnutie inštalačného súboru a spustenie procesu inštalácie&lt;/STRONG&gt; -&amp;nbsp;na stiahnutie inštalačného&amp;nbsp;súboru balíka aplikácií (s&amp;nbsp;príponou .exe) do počítača stlačte tlačidlo &lt;EM&gt;&lt;STRONG&gt;Aplikácia&lt;/STRONG&gt;&lt;/EM&gt;. Po uložení súboru spustite proces inštalácie a&amp;nbsp;vykonajte inštaláciu všetkých súčastí balíka aplikácií. 
+&lt;LI&gt;&lt;STRONG&gt;Inštalácia ovládača kontaktnej čítačky čipových kariet&lt;/STRONG&gt;&amp;nbsp;- v prípade používania vlastnej čítačky (nie štandardnej čítačky &lt;EM&gt;IDBridge&amp;nbsp;CT30&lt;/EM&gt;, ktorá&amp;nbsp;sa vydáva k&amp;nbsp;občianskemu preukazu s čipom) nainštalujte ovládač zariadenia od výrobcu.&amp;nbsp; 
+&lt;LI&gt;&lt;STRONG&gt;Inštalácia rozšírenia &lt;EM&gt;D.Bridge 2&lt;/EM&gt; do vybraných webových prehliadačov&lt;/STRONG&gt; - podmienkou úspešného podpisovania cez aplikáciu &lt;EM&gt;D.Launcher v2.x&lt;/EM&gt; je inštalácia a povolenie rozšírenia &lt;EM&gt;D.Bridge 2&lt;/EM&gt; do webových prehliadačov &lt;STRONG&gt;&lt;EM&gt;Chrome, Chromium, Opera, MS Edge&lt;/EM&gt;&lt;/STRONG&gt; a&amp;nbsp;&lt;STRONG&gt;&lt;EM&gt;Firefox&lt;/EM&gt;&lt;/STRONG&gt;. Inštalačné súbory sú dostupné na portáli &lt;A href="http://www.slovensko.sk/" rel="noreferrer noopener" target=_blank&gt;www.slovensko.sk&lt;/A&gt; v sekcii&amp;nbsp;&lt;A href="https://www.slovensko.sk/sk/na-stiahnutie" target=_blank&gt;Na stiahnutie&lt;/A&gt; &lt;STRONG&gt;po kliknutí na názvy jednotlivých webových prehliadačov&lt;/STRONG&gt; (pozri&amp;nbsp;Obrázok č. 1).&amp;nbsp;Rozšírenie do &lt;EM&gt;MS Internet Explorer&lt;/EM&gt; nie je potrebné. 
+&lt;LI&gt;Po úspešnej inštalácii balíka aplikácií je možné začať používať kvalifikovaný elektronický podpis v&amp;nbsp;systéme OBERON. Bližšie informácie získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="bc1bbd4d-e641-438f-9b36-0a24347dd246" style="auto-update-caption: true"&gt;Kvalifikovaný elektronický podpis (KEP) v OBERON-e&lt;/A&gt;. &lt;/LI&gt;&lt;/OL&gt;
+&lt;H5&gt;Obrázok č. 1: Sekcia &lt;EM&gt;Na stiahnutie&lt;/EM&gt; ústredného portálu finančnej správy &lt;A href="http://www.slovensko.sk"&gt;www.slovensko.sk&lt;/A&gt;&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/ProductOptions/ElectronicSignature/ElectronicSignature_eIDInstallation.png"&gt;&amp;nbsp;&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="4a94ccf5-b684-444b-b9c2-553d3fece8c7" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="c1e2e5a1-2cf4-47aa-a546-47d5baa1df3e">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="69f5b7c6-ffdd-47a7-98e7-c15502a1e8b4" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="bdf07bad-43fb-450a-9dba-15b8366448a9">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="dcac5c6a-5a5c-4eb8-97aa-28bea3e48b4f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="bc1bbd4d-e641-438f-9b36-0a24347dd246">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="1f7debe6-4435-4bef-a5d7-4f7bdf88d19c">
+      <Keyword m="2024-03-20T12:31:10.2319892Z">eID karta - inštalácia balíka aplikácií (KEP)</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="11573c8c-c74f-46b6-8b68-78692c92fe9c">
+      <Keyword m="2024-03-20T12:31:25.2653512Z">Elektronický podpis (KEP) - inštalácia balíka aplikácií pre eID</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="38770ba6-8621-4da1-b220-5bd107eff806">
+      <Keyword m="2024-03-20T12:31:33.4263991Z">Karta eID - inštalácia balíka aplikácií (KEP)</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="e2477940-dcaf-4246-94fa-7200f73010d2">
+      <Keyword m="2024-03-20T12:31:04.1026627Z">Čítačka čipových kariet - KEP</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

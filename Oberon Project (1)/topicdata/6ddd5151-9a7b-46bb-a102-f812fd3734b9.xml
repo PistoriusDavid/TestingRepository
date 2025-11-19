@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="6ddd5151-9a7b-46bb-a102-f812fd3734b9" Status="Complete" CreatedOn="2014-09-11T07:41:40.9766372Z" ModifiedOn="2022-11-21T12:31:30.3115787Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Acc_Advanced_PropertyRegistration" BuildFlags="">
+  <Title m="2014-09-11T07:42:20.2468833Z">Zaevidovanie majetku do knihy investičného majetku</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2022-11-21T12:31:09.089102Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;postup, ako zaevidovať majetok&lt;/STRONG&gt; do&amp;nbsp;&lt;A href="d123f778-12d3-4049-8c94-3d1b7acdc24f"&gt;knihy investičného majetku&lt;/A&gt;&amp;nbsp;tak v systéme&amp;nbsp;&lt;A href="49dd3167-870a-4fdf-b631-d4f692f1ed72"&gt;podvojného&lt;/A&gt;, ako aj&amp;nbsp;&lt;A href="32be28cf-2368-4818-9d24-cfa9d59afb75"&gt;jednoduchého účtovníctva&lt;/A&gt;.&lt;/P&gt;
+&lt;H2&gt;Zaevidovanie majetku&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;V&amp;nbsp;programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt; v&amp;nbsp;ponuke &lt;I&gt;Účtovníctvo&lt;/I&gt; zvoľte položku &lt;I&gt;Kniha investičného majetku&lt;/I&gt;. 
+&lt;LI&gt;Otvorí sa&amp;nbsp;&lt;A href="d123f778-12d3-4049-8c94-3d1b7acdc24f"&gt;Kniha investičného majetku&lt;/A&gt;, v ktorej stlačte tlačidlo &lt;I&gt;Nový&lt;/I&gt;, zobrazí sa&amp;nbsp;&lt;A href="bc57ce0f-9264-4a9b-b75e-d56e1400286b"&gt;formulár Inventárna karta&lt;/A&gt;. 
+&lt;LI&gt;Vyplňte jednotlivé polia, minimálne hodnoty sú inventárne číslo a názov. V&amp;nbsp;prípade, že plánujete počítať odpisy, je potrebné zadať aj ďalšie údaje. V&amp;nbsp;záložke &lt;I&gt;Obstaranie&lt;/I&gt; je potrebné zadať dátum obstarania&amp;nbsp;a&amp;nbsp;obstarávaciu cenu. V záložke &lt;I&gt;Zaradenie&lt;/I&gt; je potrebné zadať dátum zaradenia (od tohto dátumu sa počítajú odpisy), odpisovú skupinu a&amp;nbsp;zvoliť spôsob odpisovania. 
+&lt;LI&gt;Pri majetku, ktorý bol&amp;nbsp;v predchádzajúcich účtovných obdobiach technicky zhodnotený, je potrebné zadať v záložke &lt;EM&gt;Technické zhodnotenie&lt;/EM&gt; všetky technické zhodnotenia&amp;nbsp;za všetky predchádzajúce roky. 
+&lt;LI&gt;Stlačením tlačidla &lt;EM&gt;Prepočítať odpisy&lt;/EM&gt;&amp;nbsp;je možné vykonať automatický prepočet (pri prvotnom stlačení výpočet)&amp;nbsp;daňových, resp. účtovných&amp;nbsp;odpisov&lt;EM&gt;.&lt;/EM&gt; Otvorí sa formulár, v&amp;nbsp;ktorom je možné upraviť dátum, od ktorého sa majú&amp;nbsp;odpisy prepočítať. Po prvýkrát, keď ešte nie sú zadané žiadne odpisy, je potrebné dať vypočítať odpisy od roku dátumu zaradenia (tento rok bude prednastavený). Ďalej je možné nastaviť, či sa majú pri prepočte prepísať manuálne zadané záznamy. Po stlačení tlačidla &lt;I&gt;Dokončiť&lt;/I&gt;&amp;nbsp;sa vykoná prepočet (výpočet)&amp;nbsp;odpisov na&amp;nbsp;inventárnej karte. Automaticky prepočítané (vypočítané)&amp;nbsp;odpisy je možné&amp;nbsp;manuálne upravovať. &amp;nbsp;&amp;nbsp;&amp;nbsp; 
+&lt;LI&gt;Po stlačení tlačidla &lt;I&gt;OK&lt;/I&gt; na inventárnej karte sa zaevidovanie majetku do knihy investičného majetku ukončí. V tlačových výstupoch je&amp;nbsp;možné vytlačiť príslušné tlačové výstupy. &lt;/LI&gt;&lt;/OL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;STRONG&gt;Vyradenie majetku&lt;/STRONG&gt; sa zadáva vo&amp;nbsp;&lt;A href="bc57ce0f-9264-4a9b-b75e-d56e1400286b"&gt;formulári Inventárna karta&lt;/A&gt;, záložka &lt;EM&gt;Vyradenie&lt;/EM&gt;. K vyradeniu je potrebné zadať dátum vyradenia, spôsob vyradenia, prípadne zostatkovú cenu.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="b3622d07-ffe1-42c4-a537-5fa3abdaad2e" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="d123f778-12d3-4049-8c94-3d1b7acdc24f">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="4a9b8b6e-015d-4d35-b552-c65d24d1f59e" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="bc57ce0f-9264-4a9b-b75e-d56e1400286b">
+      <Title m="2014-12-04T08:18:46.015625Z">Formulár Inventárna karta</Title>
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="5cd0d250-7361-4b20-897c-9aee5522e0d1" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="b4329672-0a25-4161-bea7-150f71012c40">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="40ef69d5-d0bd-4b0f-8107-a05a89ff2091" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="bcc3e198-b8ce-4038-84f8-b332aa57dedb">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="7c98edad-b77d-4a07-ab34-b1b36c814f0e">
+      <Keyword m="2021-08-11T11:32:29.4129732Z">Investičný majetok - zaevidovanie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="d526f34a-c2c6-4b21-bbac-0be93fd95cc9">
+      <Keyword m="2021-08-11T11:32:33.5887957Z">Majetok - zaevidovanie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="c7b5897d-92e1-488a-bff1-88da45369125">
+      <Keyword m="2021-08-11T11:32:22.9974106Z">Dlhodobý majetok - zaevidovanie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="16b2b0f8-581f-4d7b-8837-3d2f89202a7e">
+      <Keyword m="2017-06-28T08:44:48.4568595Z">Vyradenie majetku</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

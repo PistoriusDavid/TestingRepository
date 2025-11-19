@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="c1e30fa4-f96a-460c-9ed5-33fc343797bf" Status="Complete" CreatedOn="2023-01-05T14:05:22.1076255Z" ModifiedOn="2024-10-30T10:20:20.2160861Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="21500" Name="Device_FiscalDevice_FiscalUNI(CZ)" BuildFlags="">
+  <Title m="2023-01-05T14:07:08.0392571Z">Fiscal UNI (CZ)</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-10-30T10:20:20.2160861Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; je venovaná&amp;nbsp;softvérovému fiškálnemu zariadeniu &lt;EM&gt;Fiscal UNI (CZ)&lt;/EM&gt;. Téma obsahuje tak&amp;nbsp;základné informácie o zariadení, ako aj postup jeho inštalácie v&amp;nbsp;OBERON-e.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;EM&gt;Fiscal UNI (CZ)&lt;/EM&gt; predstavuje softvérové fiškálne zariadenie &lt;STRONG&gt;implementované do systému OBERON namiesto EET&lt;/STRONG&gt; (&lt;EM&gt;&lt;STRONG&gt;E&lt;/STRONG&gt;lektronická &lt;STRONG&gt;e&lt;/STRONG&gt;vidence &lt;STRONG&gt;t&lt;/STRONG&gt;ržeb&lt;/EM&gt;), ktorá v&amp;nbsp;minulosti predstavovala spôsob evidencie tržieb platný pre &lt;STRONG&gt;Českú republiku&lt;/STRONG&gt;. 
+&lt;LI&gt;&lt;EM&gt;Fiscal UNI (CZ)&lt;/EM&gt;&amp;nbsp;používateľom OBERON-u v&amp;nbsp;Českej republike &lt;STRONG&gt;umožňuje evidovať tržby za predaný tovar a&amp;nbsp;poskytnuté služby&amp;nbsp;a&amp;nbsp;vydávať (tlačiť)&amp;nbsp;daňové pokladničné doklady&lt;/STRONG&gt;. Zariadenie obsahuje funkcie bežného fiškálneho zariadenia: umožňuje evidovať predané položky,&amp;nbsp;vykonávať dennú uzávierku, pričom pokladničné doklady a denné obraty ukladá na disk počítača (denné obraty sa ukladajú do súboru, ktorý je šifrovaný). &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Postup inštalácie&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;Ak ešte nemáte v systéme OBERON vytvorenú (založenú) firmu, vytvorte ju&amp;nbsp;- bližšie informácie nájdete v téme &lt;A href="9a485893-6dd2-44e8-9740-a4cd7083a932" style="auto-update-caption: true"&gt;Vytvorenie účtovnej jednotky (databázy)&lt;/A&gt;. 
+&lt;LI&gt;Spustite program &lt;EM&gt;OBERON - Agenda firmy.&lt;/EM&gt; Zvoľte ponuku &lt;EM&gt;Servis,&amp;nbsp;&lt;/EM&gt;&lt;A href="749ff4f1-eeb5-43f5-98d2-021399d8cec7"&gt;Zariadenia&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt; stlačte tlačidlo &lt;I&gt;Pridať.&lt;/I&gt; V&amp;nbsp;otvorenom formulári vyberte&amp;nbsp;typ zariadenia&amp;nbsp;&lt;I&gt;&lt;STRONG&gt;Fiškálne zariadenie&lt;/STRONG&gt;&lt;/I&gt;, zadajte názov pokladnice, vyberte model&amp;nbsp;&lt;STRONG&gt;&lt;EM&gt;Fiscal UNI (CZ)&lt;/EM&gt;&lt;/STRONG&gt; a&amp;nbsp;zadajte (vyberte) &lt;STRONG&gt;názov počítača&lt;/STRONG&gt;, ku ktorému sa má zariadenie pripojiť, prípadne zadajte&amp;nbsp;ostatné údaje. Potom stlačte tlačidlo &lt;I&gt;Nastaviť zariadenie -&lt;/I&gt; otvorí sa&amp;nbsp;&lt;A href="06f5e819-cf70-4875-b3fd-eca80b19939b"&gt;formulár&lt;/A&gt;, v ktorom: 
+&lt;UL&gt;
+&lt;LI&gt;v&amp;nbsp;záložke &lt;EM&gt;Základné&lt;/EM&gt; môžete zadať označenie prevádzky, DIČ poplatníka, resp. DIČ poverujúceho poplatníka, 
+&lt;LI&gt;v záložke &lt;EM&gt;Komunikácia&lt;/EM&gt;: 
+&lt;UL&gt;
+&lt;LI&gt;skontrolujte nastavenie &lt;I&gt;Adresára s údajmi softvérového&amp;nbsp;fiškálneho zariadenia&lt;/I&gt; (program ho nastaví automaticky a slúži na ukladanie pokladničných dokladov a denných&amp;nbsp;tržieb&amp;nbsp;v&amp;nbsp;elektronickej forme, sú v&amp;nbsp;ňom uložené nastavenia fiškálneho zariadenia, šifrované denné obraty&amp;nbsp;a&amp;nbsp;pod.), 
+&lt;LI&gt;vyberte tlačiareň na tlač pokladničných dokladov,&amp;nbsp;&amp;nbsp;&amp;nbsp; 
+&lt;LI&gt;na otestovanie komunikácie stlačte tlačidlo &lt;EM&gt;Otestovať&lt;/EM&gt;, &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; 
+&lt;LI&gt;stlačte tlačidlo &lt;EM&gt;Zapísať do zariadenia&lt;/EM&gt; - otvorí sa sprievodca, ktorý umožňuje zapísať dátum a čas, doplňujúcu hlavičku, sadzby DPH, platidlá (typy platieb), prípadne systémové&amp;nbsp;nastavenia pre OBERON do fiškálneho zariadenia, &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;v&amp;nbsp;záložke &lt;EM&gt;Nastavenie&lt;/EM&gt; možno zadefinovať hlavičku, pätičku a doplňujúcu pätičku pokladničného dokladu; 
+&lt;LI&gt;v&amp;nbsp;záložke&amp;nbsp;&lt;EM&gt;Pokladnica OBERON&amp;nbsp;&lt;/EM&gt;nastavte parametre predaja a zobrazenia&amp;nbsp;&lt;A href="aec074f4-3e1c-4a1e-8a80-06fcecf51156"&gt;Pokladnice OBERON&lt;/A&gt;. Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="bb0e1e82-e344-4bf0-834a-a294269f2e71" style="auto-update-caption: true"&gt;Formulár Pokladnica OBERON - nastavenia&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Vykonané nastavenia&amp;nbsp;potvrďte stlačením tlačidla &lt;STRONG&gt;&lt;EM&gt;OK&lt;/EM&gt;&lt;/STRONG&gt;. 
+&lt;LI&gt;Inštalácia fiškálneho zariadenia &lt;EM&gt;Fiscal UNI (CZ)&lt;/EM&gt; je ukončená. &lt;/LI&gt;&lt;/OL&gt;&lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Tlačiareň, ktorá bude tlačiť pokladničné doklady,&amp;nbsp;musí pracovať v &lt;STRONG&gt;textovom režime&lt;/STRONG&gt;. V systéme &lt;EM&gt;Windows&lt;/EM&gt; odporúčame použiť tlačiareň &lt;EM&gt;Generic/Text only&lt;/EM&gt;. V opačnom prípade (pri grafickom režime) bude doklad nesprávne naformátovaný.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="3c4575dd-5b2f-445e-9e75-a3f9f6785a3f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="04b8d290-1470-41ff-85a1-c44a20958841">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="c4b0715d-e840-428a-aabe-c0f56f127710" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="749ff4f1-eeb5-43f5-98d2-021399d8cec7">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="866ca694-f00a-4272-a6fa-90f11980a4a0" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="06f5e819-cf70-4875-b3fd-eca80b19939b">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords />
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

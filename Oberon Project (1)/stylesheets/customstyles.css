@@ -1,0 +1,164 @@
+﻿/* This StyleSheet contains custom styles for this project */
+/* OBERON - farba fialová */
+.i-page-title, h1, h2, h3, h4, 
+.i-section-heading, .i-see-also-sub-heading
+{
+    color: #552b83;
+}
+
+
+/* Link Style */
+/* OBERON - linky počiarknuté */
+a:visited, a:link
+{
+    text-decoration: underline;
+}
+
+
+/* Link coloring */
+/* OBERON - linky kliknuté - modré  (pôvodne #960BB4)  */
+a:visited, a.i-popup-link:visited
+{
+  	color: #960BB4;  
+}
+
+/* OBERON - linky nekliknuté - fialové  (pôvodne #1364C4) */
+a:link, a.i-popup-link, a.i-popup-link:link
+{
+    color: #552b83;
+}
+
+
+/* Drop down sections  (pôvodne  #1364C4) */
+.i-dropdown-heading,
+.i-show-all-dropdowns,
+.i-hide-all-dropdowns {
+     color:  #552b83; 
+}
+
+
+/* OBERON - Veľkosť názvu sekcie - ako pôvodne 1.538 (pôvodne rovnaké ak h2) */
+.i-section-heading
+{
+    font-size: 1.538em;
+	margin-top: 1.3em;     /*Vrchná medzera - oddeľovač (Príbuzné témy)*/
+}
+
+/* OBERON - nadpis najväčší */
+h1
+{  
+	margin-top: 2.0em;   /*Vrchná medzera - oddeľovač nad nadpisov odstavca*/
+}
+
+/* OBERON - nadpis odstavca väčší */
+h2
+{
+    font-size: 1.1em;
+	margin-top: 2.0em;   /*Vrchná medzera - oddeľovač nad nadpisom odstavca*/
+}
+
+/* OBERON - nadpis odstavca*/
+h3
+{  
+	margin-top: 0.8em;   /*Vrchná medzera - oddeľovač nad nadpisom odstavca*/
+	margin-bottom: 0.1em;  /*spodná medzera - oddeľovač pod nadpisom odstavca*/
+}
+
+/* OBERON - čierny normálne písmo BOLD */
+h5
+{
+    font-size: 0.9em;
+    font-weight: bold;
+	margin-bottom: 0.3em;
+}
+
+/* OBERON - čierny normálne písmo BOLD */
+h6
+{
+    font-size: 0.8em;
+    font-weight: bold;
+	margin-bottom: 0.3em;
+}
+
+
+/* Widget Overrides */
+/* Informačný Box - vrchná medzera */
+#i-body-content table.hs-box
+{
+    margin-top: 30px;
+    margin-bottom: 4px;
+}
+/* OBERON - štýl pre kód */
+{
+    font-family: Lucida Console, Courier New;
+    }
+
+.NewStyle
+{
+}
+.NewStyle2
+{
+    table-layout: auto;
+}
+.NewStyle3
+{
+    border-collapse: separate;
+    empty-cells: hide;
+}
+.NewStyle4
+{
+    border-collapse: collapse;
+}
+.NewStyle5
+{
+    font-size: xx-small;
+    table-layout: auto;
+    text-transform: lowercase;
+}
+.NewStyle6
+{
+    table-layout: fixed;
+}
+.NewStyle7
+{
+    table-layout: fixed;
+}
+.NewStyle8
+{
+    direction: ltr;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: baseline;
+    width: 20px;
+    word-spacing: normal;
+}
+.NewStyle9
+{
+    margin: 2px 2px 2px 2px;
+}
+.NewStyle10
+{
+    border-collapse: collapse;
+}
+.NewStyle10
+{
+    border-collapse: collapse;
+}
+.NewStyle11
+{
+    background-color: Silver;
+}
+.NewStyle12
+{
+    background-color: Silver;
+}
+.NewStyle13
+{
+    background-color: Gray;
+}
+.NewStyle14
+{
+    vertical-align: middle;
+}

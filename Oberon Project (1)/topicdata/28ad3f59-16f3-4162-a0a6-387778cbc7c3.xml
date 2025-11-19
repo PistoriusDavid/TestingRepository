@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="28ad3f59-16f3-4162-a0a6-387778cbc7c3" Status="Complete" CreatedOn="2018-03-26T13:33:31.8561059Z" ModifiedOn="2023-10-04T10:58:58.5778418Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Wages_Attendance_AttendanceTerminal_To_Employee" BuildFlags="">
+  <Title m="2023-09-29T12:38:37.6092017Z">Priradenie dochádzkového terminálu pracovníkovi</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-10-04T10:58:58.5778418Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;informácie, ako priradiť&amp;nbsp;dochádzkový terminál k pracovníkovi&lt;/STRONG&gt; v prípade, že sa bude danému pracovníkovi evidovať dochádzka (príchody a&amp;nbsp;odchody) na&amp;nbsp;&lt;A href="f46f3a8f-ba04-4359-ba99-dc6caeeba021"&gt;dochádzkovom termináli&lt;/A&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Aby sa pracovníkovi mohla evidovať dochádzka&amp;nbsp;(príchody a&amp;nbsp;odchody) na&amp;nbsp;&lt;A href="f46f3a8f-ba04-4359-ba99-dc6caeeba021"&gt;dochádzkovom termináli&lt;/A&gt;, je mu potrebné daný dochádzkový terminál v&amp;nbsp;systéme OBERON priradiť. Ďalšou samozrejmou podmienkou je, aby bol daný pracovník evidovaný v&amp;nbsp;knihe&amp;nbsp;&lt;A href="8dd60281-9cc7-41fe-9dd2-2ad5c7ffe047" style="auto-update-caption: true"&gt;Pracovníci&lt;/A&gt; (ponuka &lt;EM&gt;Mzdy&lt;/EM&gt;, resp. &lt;EM&gt;Firma&lt;/EM&gt;). 
+&lt;LI&gt;Priradiť dochádzkový terminál pracovníkovi je možné dvojakým spôsobom: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;jednotlivo&lt;/STRONG&gt; - vo&amp;nbsp;&lt;A href="8dd60281-9cc7-41fe-9dd2-2ad5c7ffe047"&gt;formulári Pracovník&lt;/A&gt;, záložka &lt;EM&gt;Dochádzka&lt;/EM&gt;, 
+&lt;LI&gt;&lt;STRONG&gt;hromadne&lt;/STRONG&gt; - pomocou sprievodcu v evidencii&amp;nbsp;&lt;A href="8dd60281-9cc7-41fe-9dd2-2ad5c7ffe047"&gt;Pracovníci&lt;/A&gt; po stlačení tlačidla &lt;EM&gt;Možnosti&lt;/EM&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Priradenie dochádzkového terminálu pracovníkovi - jednotlivo&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;V&amp;nbsp;programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt; zvoľte ponuku&amp;nbsp;&lt;EM&gt;Mzdy&lt;/EM&gt;, resp. &lt;EM&gt;Firma&lt;/EM&gt;, &lt;A href="8dd60281-9cc7-41fe-9dd2-2ad5c7ffe047"&gt;Pracovníci&lt;/A&gt;. 
+&lt;LI&gt;Vyberte (označte kurzorom) pracovníka, ktorému chcete priradiť dochádzkový terminál, a&amp;nbsp;stlačte tlačidlo &lt;EM&gt;Oprava&lt;/EM&gt;. 
+&lt;LI&gt;Otvorí sa&amp;nbsp;&lt;A href="8dd60281-9cc7-41fe-9dd2-2ad5c7ffe047"&gt;formulár Pracovník&lt;/A&gt;, v&amp;nbsp;ktorom v záložke &lt;EM&gt;Dochádzka&lt;/EM&gt; nastavte: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Prístupový kód pracovníka&lt;/STRONG&gt; - minimálne trojmiestny&amp;nbsp;číselný kód na identifikáciu pracovníka na dochádzkovom termináli, 
+&lt;LI&gt;&lt;STRONG&gt;Heslo pre doch. terminál&lt;/STRONG&gt; - zadáva sa heslo na autorizáciu pracovníka&amp;nbsp;na&amp;nbsp;&lt;A href="f46f3a8f-ba04-4359-ba99-dc6caeeba021"&gt;dochádzkovom termináli&lt;/A&gt;&amp;nbsp;po zadaní prístupového kódu, 
+&lt;LI&gt;&lt;STRONG&gt;Kód prístupovej karty&lt;/STRONG&gt; - zadáva sa kód RFID kľúča, ak sa na evidenciu dochádzky používa hardvérový dochádzkový&amp;nbsp;terminál&amp;nbsp;alebo&amp;nbsp;&lt;A href="16818a7f-7c27-497a-be4a-4930302e84f1"&gt;snímač RFID kľúčov&lt;/A&gt;&amp;nbsp;v prípade softvérového dochádzkového terminálu, 
+&lt;LI&gt;&lt;STRONG&gt;Dochádzkové terminály&lt;/STRONG&gt; - zadáva sa dochádzkový terminál, ktorý bude daný pracovník používať. Pracovník môže používať viacero terminálov. Aby bolo možné terminál zadať, musí byť nainštalovaný v ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="749ff4f1-eeb5-43f5-98d2-021399d8cec7"&gt;Zariadenia&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Stlačením tlačidla &lt;EM&gt;&lt;STRONG&gt;OK&lt;/STRONG&gt;&lt;/EM&gt;&amp;nbsp;je priradenie ukončené. &lt;/LI&gt;&lt;/OL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Pri dochádzkovom termináli&amp;nbsp;&lt;A href="ac73b976-c72c-449c-a608-c41ca5eb24ba"&gt;EXALOGIC A-C071S&lt;/A&gt;&amp;nbsp;je potrebné, aby mal pracovník &lt;STRONG&gt;okrem prístupového kódu zadané aj heslo,&amp;nbsp;resp. kód prístupovej karty&lt;/STRONG&gt;. Pri ostatných typoch terminálov stačí mať zadaný prístupový kód pracovníka.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H5&gt;Obrázok č. 1: Priradenie dochádzkového terminálu k pracovníkovi - jednotlivo&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/Attendance/Form_Attendance_Employee.png"&gt;&amp;nbsp;&lt;/P&gt;
+&lt;H2&gt;Priradenie dochádzkového terminálu pracovníkovi - hromadne&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;V&amp;nbsp;programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt; zvoľte ponuku&amp;nbsp;&lt;EM&gt;Mzdy&lt;/EM&gt;, resp. &lt;EM&gt;Firma&lt;/EM&gt;, &lt;A href="8dd60281-9cc7-41fe-9dd2-2ad5c7ffe047"&gt;Pracovníci&lt;/A&gt;. 
+&lt;LI&gt;Stlačte tlačidlo &lt;EM&gt;Možnosti&lt;/EM&gt; a zvoľte &lt;EM&gt;&lt;STRONG&gt;Hromadné priradenie dochádzkových terminálov&lt;/STRONG&gt;&lt;/EM&gt;. 
+&lt;LI&gt;Otvorí sa sprievodca, v&amp;nbsp;ktorom&amp;nbsp;vyberte dochádzkové terminály, ktoré chcete hromadne priradiť, spôsob priradenia a&amp;nbsp;pracovníkov, ktorým sa majú dochádzkové terminály priradiť. 
+&lt;LI&gt;Stlačením tlačidla &lt;EM&gt;&lt;STRONG&gt;Dokončiť&lt;/STRONG&gt;&lt;/EM&gt;&amp;nbsp;je hromadné priradenie dochádzkových terminálov ukončené. &lt;/LI&gt;&lt;/OL&gt;
+&lt;H5&gt;Obrázok č. 2: Hromadné priradenie dochádzkového terminálu pracovníkom&lt;/H5&gt;
+&lt;P&gt;&lt;IMG style="HEIGHT: 402px; WIDTH: 683px" border=0 alt="" src="images/Forms/Attendance/Form_Attendance_Employee_Colective.png" width=674 height=403&gt;&amp;nbsp;&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="69391f6f-6732-4b85-860a-1e936fac57a6" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="d616cd9f-1633-4d2d-b827-b072f162a1c8">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="cf5d8343-574b-4f62-87f1-bdbe280487bc" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="749ff4f1-eeb5-43f5-98d2-021399d8cec7">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="eca77e9d-ba53-455e-bff0-4f20fa21f01c" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="f46f3a8f-ba04-4359-ba99-dc6caeeba021">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="6a2e1af9-317e-49c5-a756-12433beb0e3c" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="8dd60281-9cc7-41fe-9dd2-2ad5c7ffe047">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="ab33376b-1384-43a0-a4f7-8ad90073950c" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="3fced304-5201-4497-bb58-104c1fd77990">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="c226f364-d335-4ee0-abe2-06c084d8e41a" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="945e7141-25d7-4e5b-bf76-95cad39c7edb">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="fedaef70-4630-4354-804b-e8e25ebe1c89">
+      <Keyword m="2023-10-02T09:10:10.0509596Z">Hromadné priradenie dochádzkového terminálu pracovníkom</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="32a65e1d-dc58-4ac5-a770-7f2579f230a8">
+      <Keyword m="2023-10-02T09:10:26.9091419Z">Jednotlivé priradenie dochádzkového terminálu pracovníkovi</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="fe856002-e056-405b-8b15-6f8819327f1d">
+      <Keyword m="2023-10-02T09:09:55.848941Z">Ako priradiť dochádzkový terminál pracovníkovi</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

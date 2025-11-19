@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="140d1f07-a761-4ad1-a288-97a4ae098e6e" Status="Complete" CreatedOn="2015-08-20T11:48:08.2509765Z" ModifiedOn="2024-07-22T10:47:29.8547526Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Devices_MobileTerminal" BuildFlags="">
+  <Title m="2022-08-09T07:30:45.449119Z">Mobilné terminály</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-07-22T10:47:29.8547526Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;obsahuje &lt;STRONG&gt;všeobecné informácie o&amp;nbsp;priemyselných mobilných termináloch&lt;/STRONG&gt;,&amp;nbsp;ktoré predstavujú jeden z typov&amp;nbsp;&lt;A href="3f051fd3-9727-4ecc-9613-7a7fb1cb2a54"&gt;pripojiteľných zariadení&lt;/A&gt; podporovaných v&amp;nbsp;systéme OBERON.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Priemyselný mobilný terminál predstavuje&amp;nbsp;prenosné hardvérové zariadenie, ktoré je&amp;nbsp;určené na prácu v rôznorodých prevádzkach&lt;EM&gt;.&lt;/EM&gt; V spolupráci so systémom OBERON ho &lt;STRONG&gt;možno používať s rôznymi aplikáciami&lt;/STRONG&gt; (napr.&amp;nbsp;&lt;A href="be17efdf-4b36-4b47-ad5d-09b0f66c8f65"&gt;ASTON - mobilný skladník&lt;/A&gt;&amp;nbsp;na prácu v sklade). 
+&lt;LI&gt;Výhodou mobilného terminálu oproti smartfónu, resp. tabletu je skutočnosť, že je prispôsobený na priemyselné využitie - okrem&amp;nbsp;vyššej robustnosti, výdrži batérie, prachotesnosti a&amp;nbsp;vodoodolnosti obsahuje snímač čiarových kódov (na rozdiel od fotoaparátu pri smartfóne alebo tablete), čo&amp;nbsp;umožňuje efektívnejšiu prácu v&amp;nbsp;sklade. 
+&lt;LI&gt;Podporované&amp;nbsp;priemyselné mobilné terminály: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;A href="726335c3-67d3-49b6-8825-c1f9d70c1be6"&gt;(ODA) OBERON Data Assistant&lt;/A&gt;&amp;nbsp;s operačným systémom&amp;nbsp;&lt;EM&gt;Android&lt;/EM&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 1: Zariadenie&amp;nbsp;&lt;EM&gt;ODA S3-PG&lt;/EM&gt; s aplikáciou ASTON&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Devices/Devices_Auxiliary/Device_Auxiliary_ODA_S3-PG.png"&gt;&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="068b3605-d3d1-4bef-8348-e87b354ae8f0" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="3f051fd3-9727-4ecc-9613-7a7fb1cb2a54">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="1270660e-6857-4928-87c0-3a148bbfddb1" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="726335c3-67d3-49b6-8825-c1f9d70c1be6">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="b73d83d6-6936-4cd5-b569-2fd4d5470cea" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="be17efdf-4b36-4b47-ad5d-09b0f66c8f65">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="b08d43ac-bdf1-430f-b227-8008c2ba1cd5" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="489dd25b-dd6a-416d-be26-ce647566b429">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="1534e047-d709-4318-aef8-363588a377c5" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="5f711bd3-c5ab-4b68-93cc-214b6720faf8">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="49ae70b0-908e-4e0c-bd5a-d9f573b763cf">
+      <Keyword m="2022-08-09T07:50:31.2796906Z">Mobilné terminály - všeobecné informácie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="ebcce184-b07f-4557-a639-fa2e493538c7">
+      <Keyword m="2022-08-09T07:50:41.4971643Z">Mobilný terminál - všeobecné informácie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="537b9a0a-7d3a-4da6-9ba5-74f64a0da40b">
+      <Keyword m="2022-08-09T07:50:58.8356476Z">Terminál - mobilný</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="8cbafb4b-8a08-44d5-a461-94443e16d96a">
+      <Keyword m="2022-08-09T07:51:08.8959335Z">Priemyselné mobilné terminály</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

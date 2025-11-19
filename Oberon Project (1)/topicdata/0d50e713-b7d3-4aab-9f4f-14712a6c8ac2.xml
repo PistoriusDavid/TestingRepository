@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="0d50e713-b7d3-4aab-9f4f-14712a6c8ac2" Status="Complete" CreatedOn="2016-04-01T11:58:50.262848Z" ModifiedOn="2023-04-04T12:32:58.2502452Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Stock_Advanced_RecyclingTax" BuildFlags="">
+  <Title m="2016-04-01T12:04:13.9047155Z">Recyklačný poplatok pri predaji elektrozariadení</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-04-04T12:32:58.2502452Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje&amp;nbsp;&lt;STRONG&gt;informácie&amp;nbsp;týkajúce sa&amp;nbsp;recyklačného poplatku pri predaji elektrozariadení&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;V&amp;nbsp;zmysle § 34 ods. 1 písm. d)&amp;nbsp;&lt;EM&gt;Zákona č. 79/2015&lt;/EM&gt; &lt;EM&gt;Z. z. o odpadoch&lt;/EM&gt;&amp;nbsp;sa s&amp;nbsp;predajom elektrozariadenia určeného&amp;nbsp;na použitie v&amp;nbsp;domácnosti spája aj povinnosť &lt;STRONG&gt;uvádzať na jeho obale alebo etikete alebo na daňovom či inom obdobnom doklade vyhotovenom pri jeho predaji výšku recyklačného poplatku&lt;/STRONG&gt;. Tento poplatok je určený na úhradu nákladov na zber, prepravu a spracovanie elektroodpadu z domácností pochádzajúceho z tohto elektrozariadenia (t. j. nákladov na jeho ekologickú recykláciu po skončení jeho životnosti). 
+&lt;LI&gt;Zmyslom uvádzania&amp;nbsp;recyklačného poplatku viditeľným spôsobom je informovať spotrebiteľa, že po skončení životnosti nebude platiť žiadne poplatky za odovzdanie daného elektrozariadenia na recykláciu. 
+&lt;LI&gt;Povinnosť viditeľným spôsobom uvádzať recyklačný poplatok &lt;STRONG&gt;platí pre celý distribučný reťazec&lt;/STRONG&gt;&amp;nbsp;(od výrobcu/dovozcu, cez distribútora až po predajcu, ktorý predáva dané elektrozariadenie konečnému spotrebiteľovi), pričom sa&amp;nbsp;vzťahuje len na elektrozariadenia s použitím v domácnosti. 
+&lt;LI&gt;&lt;STRONG&gt;Výšku recyklačného poplatku&lt;/STRONG&gt; určuje výrobca elektrozariadenia alebo ten, kto elektrozariadenie uvádza na trh, a&amp;nbsp;je rovnaká pre celý distribučný reťazec (t.&amp;nbsp;j. rovnakú sumu platí výrobca/dovozca, distribútor, predajca aj spotrebiteľ). 
+&lt;LI&gt;Keďže sa&amp;nbsp;recyklačný poplatok má uvádzať viditeľným spôsobom v celom distribučnom reťazci, vhodným spôsobom, ako&amp;nbsp;informovať o jeho výške, je&amp;nbsp;&lt;STRONG&gt;v rámci daňového dokladu&lt;/STRONG&gt; – faktúry alebo pokladničného dokladu.&amp;nbsp;Na daňovom doklade by výška recyklačného poplatku mala byť &lt;STRONG&gt;presne vyčíslená ako samostatná položka&lt;/STRONG&gt;. 
+&lt;LI&gt;Tlač informácie o recyklačnom poplatku na daňovom doklade možno v&amp;nbsp;systéme OBERON &lt;STRONG&gt;nastaviť dvoma spôsobmi:&lt;/STRONG&gt; &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Nastavenie tlače - spôsob A&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;V&amp;nbsp;programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt; zvoľte ponuku &lt;EM&gt;Sklad&lt;/EM&gt;,&amp;nbsp;&lt;A href="1a33ab0b-2df7-4dc2-962b-8a3319c16831"&gt;Skladové karty&lt;/A&gt;. 
+&lt;LI&gt;Kurzorom označte skladovú kartu elektrozariadenia, ktorému chcete pridať informáciu o recyklačnom poplatku, a stlačte tlačidlo &lt;EM&gt;Oprava&lt;/EM&gt;. 
+&lt;LI&gt;Otvorí sa &lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;formulár Skladová karta&lt;/A&gt;, v ktorom v&amp;nbsp;záložke &lt;EM&gt;Základné&lt;/EM&gt; zadajte do poľa &lt;EM&gt;&lt;STRONG&gt;Doplňujúci text&lt;/STRONG&gt;&lt;/EM&gt; informáciu o&amp;nbsp;recyklačnom poplatku (napr. &lt;EM&gt;Recyklačný poplatok 2 €&lt;/EM&gt;). 
+&lt;LI&gt;V&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="58eee6a7-b5aa-47a5-9d0e-6f9987c96a52"&gt;oddiel Firma, Sklad&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt; záložka &lt;EM&gt;Výdaj&lt;/EM&gt;&amp;nbsp;začiarknite pole&amp;nbsp;&lt;EM&gt;&lt;STRONG&gt;Do poznámky vložiť doplňujúci text zo skladovej karty&lt;/STRONG&gt;.&lt;/EM&gt; 
+&lt;LI&gt;Vykonané nastavenia potvrďte stlačením tlačidla &lt;EM&gt;&lt;STRONG&gt;OK&lt;/STRONG&gt;.&lt;/EM&gt;&amp;nbsp;Text uvedený v poli &lt;EM&gt;Doplňujúci text&lt;/EM&gt; sa bude tlačiť &lt;STRONG&gt;na faktúrach, výdajkách a&amp;nbsp;pokladničných dokladoch&lt;/STRONG&gt;. &lt;/LI&gt;&lt;/OL&gt;
+&lt;H2&gt;Nastavenie tlače - spôsob B&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;V&amp;nbsp;programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt; zvoľte ponuku &lt;EM&gt;Sklad&lt;/EM&gt;,&amp;nbsp;&lt;A href="1a33ab0b-2df7-4dc2-962b-8a3319c16831"&gt;Skladové karty&lt;/A&gt;. 
+&lt;LI&gt;Kurzorom označte skladovú kartu elektrozariadenia, ktorému chcete pridať informáciu o recyklačnom poplatku, a stlačte tlačidlo &lt;EM&gt;Oprava&lt;/EM&gt;. 
+&lt;LI&gt;Otvorí sa &lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;formulár Skladová karta&lt;/A&gt;, v ktorom v&amp;nbsp;záložke&amp;nbsp;&lt;EM&gt;Doplň. údaje&lt;/EM&gt;&amp;nbsp;zadajte do poľa&amp;nbsp;&lt;EM&gt;&lt;STRONG&gt;Popis pri predaji&lt;/STRONG&gt;&lt;/EM&gt; informáciu o&amp;nbsp;recyklačnom poplatku (napr. &lt;EM&gt;Recyklačný poplatok 2 €&lt;/EM&gt;). 
+&lt;LI&gt;Na&amp;nbsp;tlač informácie o&amp;nbsp;recyklačnom poplatku na &lt;STRONG&gt;pokladničných dokladoch&lt;/STRONG&gt; začiarknite vo &lt;A href="bb0e1e82-e344-4bf0-834a-a294269f2e71"&gt;formulári Pokladnica OBERON - nastavenia&lt;/A&gt; v záložke &lt;I&gt;Tlač dokladu&lt;/I&gt; pole &lt;EM&gt;&lt;STRONG&gt;Za položku tlačiť doplňujúci popis zo skladovej karty&lt;/STRONG&gt;&lt;/EM&gt;. 
+&lt;LI&gt;Vykonané nastavenia potvrďte stlačením tlačidla &lt;EM&gt;&lt;STRONG&gt;OK&lt;/STRONG&gt;.&lt;/EM&gt;&amp;nbsp;Text uvedený v poli &lt;EM&gt;Popis pri predaji&lt;/EM&gt; sa bude tlačiť &lt;STRONG&gt;na&amp;nbsp;pokladničných dokladoch&lt;/STRONG&gt;. 
+&lt;LI&gt;Na&amp;nbsp;tlač informácie o&amp;nbsp;recyklačnom poplatku na &lt;STRONG&gt;faktúrach a výdajkách&lt;/STRONG&gt; začiarknite&amp;nbsp;v&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="8406940f-006c-44df-b7ff-2f80e4556003"&gt;oddiel Používateľ, Tlač&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt; záložka &lt;EM&gt;Faktúry, Výdajky&lt;/EM&gt;&amp;nbsp;pole &lt;EM&gt;&lt;STRONG&gt;Za položku tlačiť hodnotu z poľa "Popis pri predaji"&lt;/STRONG&gt;&lt;/EM&gt;. 
+&lt;LI&gt;Vykonané nastavenia potvrďte stlačením tlačidla &lt;EM&gt;&lt;STRONG&gt;OK&lt;/STRONG&gt;.&lt;/EM&gt;&amp;nbsp;Text uvedený v poli &lt;EM&gt;Popis pri predaji&lt;/EM&gt; sa bude tlačiť &lt;STRONG&gt;na faktúrach a&amp;nbsp;výdajkách&lt;/STRONG&gt;. &lt;/LI&gt;&lt;/OL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="e2582a0d-6841-453a-af09-b6d40cf4f4b5" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1a33ab0b-2df7-4dc2-962b-8a3319c16831">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="2a6a66a4-0112-49fe-b397-162872c8c7bd" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="c233ada3-0fed-4911-97f3-0680973ebac1">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="346551bf-d685-4455-90a1-f4a569a579e4" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="69bbd499-45c0-4b0f-8f7a-c53fa5d70c1b">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="8f48aed5-0403-4507-9a2d-9a75c146f1c1">
+      <Keyword m="2023-04-04T12:27:17.9285326Z">Zákon o odpadoch</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="d42700f0-7c97-4931-8359-1e23ff6b1c7a">
+      <Keyword m="2023-04-04T12:27:27.3600719Z">Výška recyklačného poplatku</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="822d4556-571e-4260-ab82-e68d232b1662" Status="Complete" CreatedOn="2014-09-08T10:34:29.251398Z" ModifiedOn="2023-05-09T06:04:08.4878119Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="22802" Name="Menu_Vehicles_PHL_Purchace" BuildFlags="">
+  <Title m="2014-09-08T10:34:49.8015734Z">Nákup PHL</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-05-09T06:04:08.4878119Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;je venovaná&amp;nbsp;položke&amp;nbsp;&lt;EM&gt;Nákup PHL&lt;/EM&gt; v&amp;nbsp;ponuke&amp;nbsp;&lt;EM&gt;Vozidlá&lt;/EM&gt; programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Výberom položky sa otvorí&amp;nbsp;kniha&amp;nbsp;&lt;EM&gt;Nákup PHL&lt;/EM&gt;, ktorá &lt;STRONG&gt;umožňuje evidovať doklady o nákupe&amp;nbsp;pohonných látok (PHL)&lt;/STRONG&gt;. 
+&lt;LI&gt;Evidovať doklady o&amp;nbsp;nákupe PHL je potrebné pri firemných, resp. prenajatých vozidlách. Pri súkromných vozidlách nie je potrebné evidovať všetky doklady o&amp;nbsp;nákupe PHL, len niektoré&amp;nbsp;z&amp;nbsp;&lt;SPAN lang=en xml:lang="en"&gt;dôvodu určenia správnej ceny PHL. Viac informácií o&amp;nbsp;rozdelení vozidiel v&amp;nbsp;systéme OBERON získate v téme&amp;nbsp;&lt;A href="c6542278-5d57-4c96-b3d8-ec30f2b5a6d3"&gt;Vozidlá&lt;/A&gt;.&lt;/SPAN&gt; 
+&lt;LI&gt;&lt;SPAN lang=en xml:lang="en"&gt;Ak účtovná jednotka popri module&amp;nbsp;&lt;A href="085651d2-b64b-4884-b55d-0ba2b7f7808a"&gt;Evidencia vozidiel&lt;/A&gt; používa aj modul &lt;EM&gt;Účtovníctvo&lt;/EM&gt;,&amp;nbsp;je možné zaevidovať doklad o&amp;nbsp;nákupe PHL &lt;STRONG&gt;aj v module &lt;EM&gt;Účtovníctvo&lt;/EM&gt;&lt;/STRONG&gt;. V tom prípade sa vytvorí väzba&amp;nbsp;medzi zaúčtovaným pokladničným dokladom a dokladom evidovaným v&amp;nbsp;module&amp;nbsp;&lt;A href="085651d2-b64b-4884-b55d-0ba2b7f7808a"&gt;Evidencia vozidiel&lt;/A&gt; (následne sa napr. pri prečíslovaní pokladničných dokladov v&amp;nbsp;účtovnom (peňažnom)&amp;nbsp;denníku automaticky prečíslujú aj doklady v&amp;nbsp;&lt;A href="280be3ab-e42c-462b-bb0b-7abeac11b45a"&gt;Knihe jázd&lt;/A&gt;). Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="75b0747a-07d3-4044-a463-48cbddb73f49" style="auto-update-caption: true"&gt;Zaevidovanie dokladu o nákupe PHL&lt;/A&gt;.&lt;/SPAN&gt; 
+&lt;LI&gt;Údaje o jednotlivých nákupoch PHL sa zobrazujú aj pri príslušných jazdách v&amp;nbsp;&lt;A href="280be3ab-e42c-462b-bb0b-7abeac11b45a"&gt;Knihe jázd&lt;/A&gt;. Aby sa tieto údaje o&amp;nbsp;nákupe PHL pri danej jazde zobrazili, je potrebné, aby dátum a čas nákupu PHL &lt;STRONG&gt;spadal do rozsahu&amp;nbsp;dátumov (časov) uskutočnenia jazdy&lt;/STRONG&gt;. 
+&lt;LI&gt;&lt;A href="280be3ab-e42c-462b-bb0b-7abeac11b45a"&gt;Kniha jázd&lt;/A&gt;&amp;nbsp;umožňuje zaevidovať jazdu &lt;STRONG&gt;aj spätne&lt;/STRONG&gt; po uplynutí aj niekoľkých mesiacov od jej uskutočnenia. Vtedy je možné podľa dokladov o nákupe PHL evidovaných v&amp;nbsp;knihe&amp;nbsp;&lt;EM&gt;Nákup PHL&lt;/EM&gt;&amp;nbsp;jednoducho zistiť, kde a kedy vozidlo čerpalo PHL, a tomu prispôsobiť jazdy. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Bližšie informácie o ovládaní evidencie, používaní filtrov, triedení záznamov a pod. sú dostupné v téme&amp;nbsp;&lt;A href="8936fde4-aac3-4672-99a2-c8bd5ccffdcd"&gt;Ovládanie knihy (evidencie)&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="c264dee4-c536-42e7-bf2a-8208dcde68f2" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="75b0747a-07d3-4044-a463-48cbddb73f49">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="461636b7-27c0-4d28-b6f2-c45ad2986ea0" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="280be3ab-e42c-462b-bb0b-7abeac11b45a">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="f76d40e6-bb0f-4da8-b0f8-6e7fbe7885e2" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="c6542278-5d57-4c96-b3d8-ec30f2b5a6d3">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="0fa36669-4353-44c5-a8f9-46b55e6745df" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="3e00a8e4-7e48-4911-b6e8-8b43fa6aa331">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="b779581f-e618-47ba-a80f-c60951b863de">
+      <Keyword m="2023-05-04T08:55:10.803554Z">Tankovanie - evidencia dokladov</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="bc78bcec-63ac-4180-a874-f660371f66aa">
+      <Keyword m="2023-05-04T08:54:57.6338042Z">PHL - nákup</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="a6e5c67b-3428-4d83-97c0-cfaf0cf861f2">
+      <Keyword m="2023-05-04T08:55:02.9784638Z">PHM - nákup</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="797aaa39-ae1b-4f4c-bac5-88c9ac25f11d" Status="Complete" CreatedOn="2014-09-04T15:17:20.5651697Z" ModifiedOn="2024-06-04T07:38:49.520583Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Exportimport_Offline_Overview" BuildFlags="">
+  <Title m="2018-11-30T11:27:47.9704505Z">Všeobecne o off-line pobočkovom režime</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-06-04T07:38:49.520583Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; je venovaná jednej z&amp;nbsp;&lt;A href="93f31314-1503-41b9-a8f1-f477de367a39"&gt;možností použitia systému OBERON&lt;/A&gt; - &lt;STRONG&gt;off-line pobočkového režimu&lt;/STRONG&gt; ako variantu&amp;nbsp;&lt;A href="4b2b3447-f2f1-4bbe-9d21-3d87994bfba8"&gt;pobočkového režimu&lt;/A&gt;, nástroja&amp;nbsp;na výmenu&amp;nbsp;dokladov (záznamov) medzi pobočkami a&amp;nbsp;centrálou jednej firmy.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Off-line pobočkový režim predstavuje jeden z variantov &lt;A href="4b2b3447-f2f1-4bbe-9d21-3d87994bfba8"&gt;pobočkového režimu&lt;/A&gt; v štruktúre centrála - pobočka, prípadne viac pobočiek jednej firmy. Ide o&amp;nbsp;nástroj &lt;STRONG&gt;na&amp;nbsp;výmenu&amp;nbsp;údajov&amp;nbsp;&lt;/STRONG&gt;(spravidla vo forme &lt;STRONG&gt;samostatných dátových súborov&lt;/STRONG&gt;) medzi pobočkou so samostatnou&amp;nbsp;databázou a&amp;nbsp;centrálou (s&amp;nbsp;hlavnou databázou účtovnej jednotky), a&amp;nbsp;to&amp;nbsp;&lt;STRONG&gt;pomocou FTP serverov,&amp;nbsp;ľubovoľných prenosných médií, prípadne priameho prístupu do databázy&lt;/STRONG&gt;.&amp;nbsp;Umožňuje tak jednosmernú, ako aj obojsmernú komunikáciu. 
+&lt;LI&gt;Centrála firmy&amp;nbsp;môže mať&amp;nbsp;databázu&amp;nbsp;umiestnenú v &lt;STRONG&gt;lokálnej počítačovej sieti centrály&lt;/STRONG&gt;, prípadne &lt;STRONG&gt;mimo lokálnej počítačovej siete v cloude&lt;/STRONG&gt;. Z pobočky nie je databáza centrály dostupná (viditeľná).
+&lt;LI&gt;Centrála aj každá pobočka &lt;STRONG&gt;musí mať zakúpenú&lt;/STRONG&gt; &lt;STRONG&gt;vlastnú&amp;nbsp;&lt;/STRONG&gt;&lt;STRONG&gt;licenciu&lt;/STRONG&gt;. Bližšie informácie o typoch licencií a&amp;nbsp;cenníku získate v téme&amp;nbsp;&lt;A href="644b0685-defe-4ce5-b3cd-e731b5eff299"&gt;Typy licencií&lt;/A&gt;&amp;nbsp;a&amp;nbsp;v téme &lt;A href="efb93a2c-e449-4770-88ba-0fe999e90ccd"&gt;Cenník - licencie OBERON&lt;/A&gt;. 
+&lt;LI&gt;Výmena údajov pri off-line pobočkovom režime sa vykonáva pomocou &lt;A href="1dc4ea18-03c0-4028-afe5-4532583b6a44"&gt;off-line transportov údajov&lt;/A&gt;. Funkcia umožňuje&amp;nbsp;exportovať a importovať&amp;nbsp;dáta automaticky na pozadí spravidla vo vopred stanovených intervaloch. Používateľ nemusí manuálne vyberať doklady&amp;nbsp;na transport a&amp;nbsp;ani manuálne transport spúšťať - o&amp;nbsp;všetko sa stará program&amp;nbsp;&lt;I&gt;OBERON Center&lt;/I&gt;. 
+&lt;LI&gt;V&amp;nbsp;off-line pobočkovom režime&amp;nbsp;je možné&amp;nbsp;pre automaticky&amp;nbsp;vykonávané opakované&amp;nbsp;transporty nastavovať periódy, a to aj simultánne počas práce ľubovoľného počtu používateľov s&amp;nbsp;údajovou základňou. Interval zasielania môže byť aj kratší ako 1&amp;nbsp;deň (napr. každé 2&amp;nbsp;hodiny). 
+&lt;LI&gt;Pri exporte údajov systém OBERON obsahuje mechanizmus, ktorým sa&amp;nbsp;označujú záznamy určené&amp;nbsp;na export. To zabezpečí, aby sa&amp;nbsp;&lt;STRONG&gt;zakaždým neexportovali všetky záznamy z danej evidencie&lt;/STRONG&gt; (napr. z knihy pokladničných dokladov), ale vždy len nové,&amp;nbsp;prípadne opravené. Toto označovanie záznamov&amp;nbsp;sa nazýva aj&amp;nbsp;termínom &lt;EM&gt;&lt;STRONG&gt;príznaky pre transport údajov&lt;/STRONG&gt;&lt;/EM&gt;. Viac informácií získate v téme&amp;nbsp;&lt;A href="803b07a0-8fcc-46b7-aaee-3b3f6f708106"&gt;Výber údajov na transport&lt;/A&gt;. 
+&lt;LI&gt;Off-line pobočkový režim sa spravidla využíva v prípade obmedzeného prístupu pobočky&amp;nbsp;na internet. V&amp;nbsp;prípade,&amp;nbsp;že&amp;nbsp;pobočka disponuje stabilným internetovým pripojením, odporúča sa&amp;nbsp;uprednostniť&amp;nbsp;&lt;A href="67abf56c-fe22-4bc8-ba77-6a8058a8782f"&gt;on-line pobočkový režim&lt;/A&gt;. 
+&lt;LI&gt;Podobne ako pri on-line pobočkovom režime &lt;STRONG&gt;príkladom&lt;/STRONG&gt; tohto použitia môže byť prevádzka s viacerými predajňami.&amp;nbsp;Pokladnica čerpá skladové položky (cenník) z centrály (cenotvorba a evidencia skladu&amp;nbsp;sa vykonávajú&amp;nbsp;v&amp;nbsp;databáze centrály), pričom množstvá predané&amp;nbsp;v pobočkách&amp;nbsp;sa zasielajú do&amp;nbsp;centrály.&amp;nbsp;Keďže sa transporty údajov vykonávajú napr. jedenkrát za deň, centrála nemá aktuálne informácie o predaji na pobočke, ostatné pobočky nemajú informácie o aktuálnom stave zásob atď. (ako&amp;nbsp;pri on-line pobočkovom režime),&amp;nbsp;v&amp;nbsp;mnohých prípadoch &lt;STRONG&gt;to však nepredstavuje zásadný problém&lt;/STRONG&gt;. 
+&lt;LI&gt;Pomocou používateľských práv&amp;nbsp;je možné nastaviť možnosť opravovať už exportované, prípadne importované záznamy&amp;nbsp;(nastavenie práv sa realizuje v&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="834e9546-a56b-476f-9028-ef4c24a82345" style="auto-update-caption: true"&gt;Práva používateľov&lt;/A&gt;). &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 1: Použitie systému OBERON v&amp;nbsp;štruktúre centrála - pobočka s databázou v&amp;nbsp;samostatnom počítači (serveri)&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/OBERON/Basic/OBERON_Use_Option_6a.png"&gt;&lt;/P&gt;
+&lt;H2&gt;Základné typy off-line transportov údajov&lt;/H2&gt;
+&lt;P&gt;Jednotlivé typy transportu údajov sa odlišujú tak v závislosti od&amp;nbsp;použitej technológie prenášaných údajov, ako aj od samotného spôsobu realizácie. Rozlišujeme nasledujúce typy transportu údajov:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;OBERON File Transport -&lt;/STRONG&gt; na prenos údajov sa používa súbor, ktorý sa zo zdroja do cieľového miesta presunie najčastejšie pomocou FTP prenosu. 
+&lt;LI&gt;&lt;STRONG&gt;OBERON Database&lt;/STRONG&gt; - export údajov a ich následný import sa vykonáva priamym pripojením k externej databáze typu OBERON. Bližšie informácie je možné získať v&amp;nbsp;téme&amp;nbsp;&lt;A href="b8dd6536-e473-4fba-b997-e5c0da8a0eff"&gt;Transport údajov typu OBERON Database&lt;/A&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;Transport Data Universal Interface&lt;/STRONG&gt; - export alebo import údajov&amp;nbsp;sa vykonáva pomocou zásuvného modulu (externej DLL knižnice), ktorá realizuje dané transporty podľa určitej špecifikácie, napr. export údajov o&amp;nbsp;predaných položkách do externej databázy typu ORACLE, ktoré sú určené&amp;nbsp;ďalej na analýzu predaja či tvorbu objednávok. Zásuvný modul je možné získať nainštalovaním pomocou&amp;nbsp;&lt;A href="a1ae5eb5-f369-4aab-80b2-c6585166d550"&gt;Správcu doplnkov&lt;/A&gt;, prípadne od externého dodávateľa. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt; 
+&lt;UL&gt;
+&lt;LI&gt;Viac informácií o jednotlivých typoch off-line transportov údajov vrátane postupu nastavenia&amp;nbsp;získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="1dc4ea18-03c0-4028-afe5-4532583b6a44" style="auto-update-caption: true"&gt;Off-line transporty údajov&lt;/A&gt;. 
+&lt;LI&gt;Postup nastavenia off-line pobočkového režimu je uvedený v téme&amp;nbsp;&lt;A href="2d5cb0af-0c1f-475d-a699-c315d30599f8" style="auto-update-caption: true"&gt;Nastavenie off-line pobočkového režimu&lt;/A&gt;. 
+&lt;LI&gt;Informácie o použití&amp;nbsp;&lt;A href="aec074f4-3e1c-4a1e-8a80-06fcecf51156"&gt;Pokladnice OBERON&lt;/A&gt; v režime&amp;nbsp;off-line pobočkovej pokladnice sú k dispozícii v&amp;nbsp;téme&amp;nbsp;&lt;A href="88af013e-47e9-408a-ac47-18fb4edb5553"&gt;Off-line pobočková pokladnica&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="8f2f4501-4849-4294-a093-9a8b6a964a7e" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="4b2b3447-f2f1-4bbe-9d21-3d87994bfba8">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="d56e3bca-1444-49aa-b1f1-d4acc4e44631" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="2d5cb0af-0c1f-475d-a699-c315d30599f8">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="cf95e7d6-0ee2-43e6-bfc9-fafae978b810" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1dc4ea18-03c0-4028-afe5-4532583b6a44">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="681d2c04-f7d7-42f6-92cc-4dad2f4d0962" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="e3338780-69be-478a-90d4-060d971f987d">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="a7771eff-dcbb-41de-aaad-733f703a69af" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="803b07a0-8fcc-46b7-aaee-3b3f6f708106">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="ec0dca63-5ba9-4ea2-9fff-f0e1ba3670b6" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="51614314-134c-4766-b52d-3258ab6c911d">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="cde237cf-aad7-4091-b042-bce4a2640ad1" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="88af013e-47e9-408a-ac47-18fb4edb5553">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="4940b89a-8bcf-4fbb-b1b4-a14e54ca8c8d" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="b8dd6536-e473-4fba-b997-e5c0da8a0eff">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="022ed66b-ccd2-440d-8807-afcece0c9f45">
+      <Keyword m="2022-12-15T09:44:12.5338001Z">Export údajov - off-line pobočkový režim</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="0e472f3b-b523-43e4-a150-516bc0e8eaac">
+      <Keyword m="2022-12-15T09:44:21.4791045Z">Import údajov - off-line pobočkový režim</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="90389a60-2a41-4d10-8ff8-ec0b182c9a75">
+      <Keyword m="2022-12-15T09:44:25.591783Z">Transport údajov - off-line pobočkový režim</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="1f174293-b7e6-4b7c-b40d-58ed99addb7e">
+      <Keyword m="2022-12-15T09:43:58.3320675Z">Off-line pobočkový režim - všeobecné informácie</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

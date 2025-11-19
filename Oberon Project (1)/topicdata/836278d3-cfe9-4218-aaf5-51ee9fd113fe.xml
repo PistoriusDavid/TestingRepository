@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="836278d3-cfe9-4218-aaf5-51ee9fd113fe" Status="Complete" CreatedOn="2024-09-18T07:44:40.8433542Z" ModifiedOn="2025-05-15T11:26:35.7346026Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="BankAPI_BankConnections_BankAPI" BuildFlags="">
+  <Title m="2024-09-18T11:03:19.1769032Z">Prepojenie s bankami - Bank API</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2025-05-15T11:26:35.7346026Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;informácie o prepojení systému OBERON s&amp;nbsp;vybranými slovenskými&amp;nbsp;bankami prostredníctvom bankového rozhrania (tzv. &lt;EM&gt;Bank API&lt;/EM&gt;)&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Systém OBERON umožňuje &lt;STRONG&gt;prepojenie so slovenskými, ale aj zahraničnými&amp;nbsp;bankami&lt;/STRONG&gt; v&amp;nbsp;rámci &lt;EM&gt;Európskeho hospodárskeho priestoru&lt;/EM&gt; (EHP)&lt;STRONG&gt;, ktoré sa realizuje pomocou bankového rozhrania (tzv.&lt;/STRONG&gt; &lt;EM&gt;&lt;STRONG&gt;Bank API&lt;/STRONG&gt;&lt;/EM&gt;). 
+&lt;LI&gt;Prepojenie OBERON-u s bankami prostredníctvom rozhrania &lt;EM&gt;Bank API&lt;/EM&gt; umožňuje &lt;STRONG&gt;sťahovať bankové&amp;nbsp;výpisy (transakcie)&amp;nbsp;priamo z banky&lt;/STRONG&gt; bez potreby exportovať bankový výpis z&amp;nbsp;internetbankingu&amp;nbsp;do súboru a následne ho&amp;nbsp;importovať do OBERON-u (do evidencie&amp;nbsp;&lt;A href="02bbf54b-086f-4641-8c33-4dd461e56fb4"&gt;Spracovanie bankových výpisov&lt;/A&gt;&amp;nbsp;v&amp;nbsp;ponuke &lt;EM&gt;Účtovníctvo&lt;/EM&gt;). 
+&lt;LI&gt;Systém OBERON umožňuje nasledujúce spôsoby importu&amp;nbsp;bankových výpisov (transakcií)&amp;nbsp;prostredníctvom rozhrania &lt;EM&gt;Bank API&lt;/EM&gt; na ich následné spracovanie v programe: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;automatický import&lt;/STRONG&gt; - vykonáva sa na základe automatickej úlohy&amp;nbsp;&lt;A href="1a074e9a-9cf9-4ab8-b9a8-68575142a704" style="auto-update-caption: true"&gt;Automatické spracovanie bankových výpisov&lt;/A&gt;, 
+&lt;LI&gt;&lt;STRONG&gt;manuálny import&lt;/STRONG&gt; - priamy manuálny import položiek bankových výpisov prostredníctvom rozhrania &lt;EM&gt;Bank API&lt;/EM&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Okrem toho systém OBERON ponúka aj ďalšie možnosti importu položiek bankových výpisov. Viac informácií o&amp;nbsp;možnostiach sťahovania bankových výpisov (transakcií)&amp;nbsp;do OBERON-u je možné získať v&amp;nbsp;téme&amp;nbsp;&lt;A href="0121f553-c6f2-4860-87bc-485e3cb08e2f"&gt;Spôsoby importu bankových výpisov&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Podporované banky&lt;/H2&gt;
+&lt;P&gt;Systém OBERON umožňuje prepojenie s nasledujúcimi&amp;nbsp;bankami:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;A href="d67d60c0-09ce-4ffc-88b8-8f904a9a7a06"&gt;Fio banka&lt;/A&gt; &lt;A href="1f32a90c-7b4a-4d69-9f38-a560178794b3" style="auto-update-caption: true"&gt;&lt;IMG border=0 alt="Odporúčané riešenia" src="images/OBERON/Basic/Odporucane-riesenie_ruka_ikona.png"&gt;&lt;/A&gt;, 
+&lt;LI&gt;všetky banky v&amp;nbsp;rámci EHP (&lt;A href="bfbd5782-31d5-47a6-a664-1897881b652f"&gt;Everifin&lt;/A&gt;), 
+&lt;LI&gt;&lt;A href="92551fc7-c797-47c7-9c54-b527c2346282"&gt;Tatra banka&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Porovnanie podporovaných bánk (platforiem)&lt;/H2&gt;
+&lt;TABLE id=table2 style="WIDTH: 50%" borderColor=silver cellSpacing=0 cellPadding=2 border=1&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TD width="20%"&gt;&lt;/TD&gt;
+&lt;TD bgColor=#d9e1f2 width="10%" align=center&gt;&lt;B style="COLOR: rgb(0,0,0)"&gt;Fio banka&lt;/B&gt;&lt;/TD&gt;
+&lt;TD bgColor=#d9e1f2 width="10%" align=center&gt;&lt;B&gt;Všetky banky v rámci EHP (Everifin)&lt;/B&gt;&lt;/TD&gt;
+&lt;TD bgColor=#d9e1f2 width="10%" align=center&gt;&lt;B&gt;Tatra banka&lt;/B&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc width="20%"&gt;&lt;B&gt;Rozhranie Bank API&lt;/B&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc width="20%"&gt;&lt;STRONG&gt;Názov rozhrania&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=center&gt;Fio&amp;nbsp;API Bankovníctvo&lt;/TD&gt;
+&lt;TD align=center&gt;Everifin BankConnect API&lt;/TD&gt;
+&lt;TD align=center&gt;Tatra banka Premium&amp;nbsp;API&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc width="20%"&gt;&lt;STRONG&gt;Uzatvorenie zmluvy&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc width="20%"&gt;&lt;STRONG&gt;Poplatok firme EXALOGIC&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc width="20%"&gt;&lt;STRONG&gt;Poplatok za službu&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc width="20%"&gt;&lt;STRONG&gt;Podpora&amp;nbsp;ďalších bánk&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#fff2cc width="20%"&gt;&lt;STRONG&gt;Stiahnutie transakcií spätne za účtovný rok&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD style="COLOR: rgb(0,0,0)" align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;
+&lt;TD align=center&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;SPAN&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="21ab86e1-4159-4eea-9e94-10509ce07044" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="d67d60c0-09ce-4ffc-88b8-8f904a9a7a06">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="f5b51734-8e3f-496b-9c06-8e538a40f69f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="bfbd5782-31d5-47a6-a664-1897881b652f">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="6f5900ed-5710-4fe0-8053-c23e41baf01d" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="92551fc7-c797-47c7-9c54-b527c2346282">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="9d5bfd57-e703-4c5f-b002-27fd17888742" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="93ded66f-b7a6-40a8-89e0-bd501cd17bfc">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="03e3f53f-f1ef-4fc1-838d-d4780d83e4e6" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="0121f553-c6f2-4860-87bc-485e3cb08e2f">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="5167f75f-d177-4529-9dfd-f8e4e0cdb318" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="02bbf54b-086f-4641-8c33-4dd461e56fb4">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="686a1584-18e6-465f-aec0-ec01fdb3bf26" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="9ce25bbd-35d1-4096-acd5-70007f5af5a6">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="ba21347d-b48d-41e2-b841-64f387670762" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1a074e9a-9cf9-4ab8-b9a8-68575142a704">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="227587ce-96ef-49cf-922d-56955d978fa2">
+      <Keyword m="2024-09-18T10:55:53.0205598Z">Banky - porovnanie (API)</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="59a6bf6e-36d8-42fb-94b8-ead04d5597f1">
+      <Keyword m="2024-09-18T10:55:38.9802353Z">Bank API</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="022c6e74-3b0c-48e8-8590-89ff3edeb0f5">
+      <Keyword m="2024-09-18T10:56:16.2813466Z">Bankové API - podporované banky</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

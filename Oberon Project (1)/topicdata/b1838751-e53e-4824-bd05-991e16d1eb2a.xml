@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="b1838751-e53e-4824-bd05-991e16d1eb2a" Status="Complete" CreatedOn="2014-09-11T07:58:27.6442153Z" ModifiedOn="2022-12-08T08:52:06.2049789Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="AccDouble_Acc_Stock_Accounting_Method_B" BuildFlags="">
+  <Title m="2014-09-11T07:58:40.2159344Z">Účtovanie spôsobom B</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2022-12-08T08:51:48.1373383Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; je venovaná&amp;nbsp;&lt;A href="a00f332d-33c1-411f-9a2a-4116c3e783ef"&gt;účtovaniu skladu&lt;/A&gt; &lt;STRONG&gt;spôsobom B&lt;/STRONG&gt;. Pri spôsobe B sa v priebehu roka účtujú príslušné výdavky na obstaranie zásob do nákladov. Na konci účtovného obdobia sa vykoná inventúra a účty zásob sa opravia o zistený stav. V&amp;nbsp;priebehu roka nie sú v účtovnej evidencii dostupné aktuálne údaje o stave zásob.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Podstatou &lt;A href="a00f332d-33c1-411f-9a2a-4116c3e783ef"&gt;účtovania skladu&lt;/A&gt;&amp;nbsp;spôsobom B je účtovanie nakupovaných aj aktivovaných zásob &lt;STRONG&gt;priamo do nákladov&lt;/STRONG&gt;.&amp;nbsp;Počiatočné stavy skladových účtov sa prevedú do nákladov a na konci účtovného obdobia sa stav zásob zaúčtuje ako konečný zostatok na skladové účty súvzťažne v prospech príslušného skladového účtu. 
+&lt;LI&gt;Pri spôsobe B &lt;STRONG&gt;sa&lt;/STRONG&gt; &lt;STRONG&gt;úbytky zásob neúčtujú&lt;/STRONG&gt;, lebo zásoby nie sú zaúčtované na majetkových účtoch. Pri uzatváraní účtovných kníh sa začiatočné stavy materiálu a tovaru preúčtujú do nákladov a skutočný stav materiálu a tovaru zistený inventúrou sa zaúčtuje na stranu &lt;EM&gt;Má dať&lt;/EM&gt; príslušného účtu zásob a na stranu &lt;EM&gt;Dal&lt;/EM&gt; príslušného nákladového účtu, čím sa znížia náklady o nespotrebovaný materiál alebo tovar. Začiatočné stavy zásob vlastnej výroby sa pri uzatváraní účtovných kníh zaúčtujú na stranu &lt;EM&gt;Má dať&lt;/EM&gt; príslušného účtu účtovnej skupiny 61&amp;nbsp;- &lt;EM&gt;Zmeny stavu vnútropodnikových zásob&lt;/EM&gt; a na stranu &lt;EM&gt;Dal&lt;/EM&gt; príslušného účtu skupiny 12&amp;nbsp;- &lt;EM&gt;Zásoby vlastnej výroby&lt;/EM&gt;. 
+&lt;LI&gt;Stav zásob zistený inventúrou sa zaúčtuje na stranu &lt;EM&gt;Má dať&lt;/EM&gt; účtov skupiny 12&amp;nbsp;- &lt;EM&gt;Zásoby vlastnej výroby&lt;/EM&gt; a na stranu &lt;EM&gt;Dal&lt;/EM&gt; účtov účtovnej skupiny 61 - &lt;EM&gt;Zmeny stavu vnútropodnikových zásob&lt;/EM&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Príklady účtovania skladu spôsobom B sú dostupné v téme &lt;A href="7938745b-8087-4417-ac30-c75c697309e7"&gt;Príklady účtovania skladu&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Účtovanie spôsobom B&lt;/H2&gt;
+&lt;P&gt;V&amp;nbsp;priebehu účtovného obdobia sa účtujú všetky zložky obstarávacej ceny zásob priamo do spotreby.&lt;BR&gt;&lt;BR&gt;Použité účty:&lt;BR&gt;50 - &lt;EM&gt;Spotrebované nákupy&lt;/EM&gt;&lt;BR&gt;501 - &lt;EM&gt;Spotreba materiálu&lt;/EM&gt;&lt;BR&gt;504 - &lt;EM&gt;Predaný tovar&lt;/EM&gt;&lt;/P&gt;
+&lt;P&gt;&lt;B&gt;Pri uzavieraní účtovných kníh&lt;/B&gt; postupujte podľa nasledujúceho postupu:&lt;/P&gt;
+&lt;OL&gt;
+&lt;LI&gt;Začiatočné stavy účtov 112 a 132 sa zaúčtujú do spotreby na účty 501 a 504. 
+&lt;LI&gt;Podľa inventarizácie sa zaúčtuje stav zásob na príslušné účty:&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; materiál:&amp;nbsp; MD 112/DAL 501,&lt;BR&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; tovar:&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;MD 132/DAL 504. 
+&lt;LI&gt;Manká a škody sa zaúčtujú na ťarchu účtu 549 - &lt;EM&gt;Manká a škody&lt;/EM&gt;. 
+&lt;LI&gt;Prebytky zásob sa zaúčtujú v prospech účtu 648&amp;nbsp;- &lt;EM&gt;Ostatné výnosy z hospodárskej činnosti&lt;/EM&gt;. &lt;/LI&gt;&lt;/OL&gt;
+&lt;H2&gt;Účtovanie spôsobom B - zásoby vlastnej výroby&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;V priebehu účtovného obdobia sa v účtovej skupine 12 - &lt;EM&gt;Zásoby vlastnej výroby&lt;/EM&gt; nevykonávajú žiadne účtovné zápisy a vynaložené náklady na výrobu alebo inú činnosť sa účtujú na príslušných účtoch účtovej triedy 5 - &lt;EM&gt;Náklady&lt;/EM&gt;. 
+&lt;LI&gt;Pri uzavieraní účtovných kníh sa začiatočné stavy zásob účtujú na príslušných účtoch účtovej skupiny: 
+&lt;UL&gt;
+&lt;LI&gt;12 - &lt;EM&gt;Zásoby vlastnej výroby&lt;/EM&gt; na ťarchu príslušných účtov účtovej skupiny 61 - &lt;EM&gt;Zmeny stavu vnútroorganizačných zásob&lt;/EM&gt;.&lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Stav zásob podľa inventarizácie sa účtuje na ťarchu príslušných účtov účtovej skupiny:
+&lt;UL&gt;
+&lt;LI&gt;12 - &lt;EM&gt;Zásoby vlastnej výroby&lt;/EM&gt; so súvzťažným zápisom na príslušný účet účtovej skupiny,
+&lt;LI&gt;61 - &lt;EM&gt;Zmeny stavu vnútroorganizačných zásob.&lt;/EM&gt;&lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Manká sa účtujú na ťarchu účtu 549 - &lt;EM&gt;Manká a škody&lt;/EM&gt;. 
+&lt;LI&gt;Prebytky zásob sa účtujú súvzťažne s príslušným účtom účtovej skupiny 61 - &lt;EM&gt;Zmeny stavu vnútroorganizačných zásob&lt;/EM&gt;. &lt;/LI&gt;&lt;/OL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="9327c0fe-cc3f-4599-8f5c-7825f1045a60" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="a00f332d-33c1-411f-9a2a-4116c3e783ef">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="4f1b710e-ee88-4a28-9d82-36a01084e732" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="e50f9e37-991e-4800-9fc3-3eeb6ce162a7">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="8d8b0ebf-5ee4-42d1-8133-708b6991c408" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="c9f0ed56-580d-477c-9dbe-2e850398781f">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="aa7f6b12-7d8e-4555-b6ee-dd12a440ccca" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="7938745b-8087-4417-ac30-c75c697309e7">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="1110b90a-5c34-4a70-903f-94c8085b2493">
+      <Keyword m="2022-12-08T08:52:06.2039701Z">Spôsob B - účtovanie skladu</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="caea377c-1921-4605-b10d-4c269f35b343">
+      <Keyword m="2022-12-08T08:52:02.6753617Z">Metóda B - účtovanie skladu</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

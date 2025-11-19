@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="e975459f-e882-49f2-adb9-79e68a07df0e" Status="Complete" CreatedOn="2014-09-05T14:47:27.1653904Z" ModifiedOn="2023-11-14T13:46:51.9008947Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="22103" Name="Menu_OBERON_Opening_Firm" BuildFlags="">
+  <Title m="2014-09-05T14:48:12.6199902Z">Otvorenie agendy (firmy)</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2022-05-30T07:36:33.135055Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;je venovaná&amp;nbsp;položke&amp;nbsp;&lt;EM&gt;Otvorenie agendy (firmy)&lt;/EM&gt;&amp;nbsp;v ponuke &lt;EM&gt;OBERON&lt;/EM&gt; programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Výberom položky sa otvorí&amp;nbsp;&lt;A href="d2b25c8c-d57f-4678-8021-3148259d3777"&gt;formulár Otvorenie agendy (firmy)&lt;/A&gt;, ktorý&amp;nbsp;&lt;STRONG&gt;slúži predovšetkým na otvorenie už existujúcej firmy,&lt;/STRONG&gt; &lt;A href="9a485893-6dd2-44e8-9740-a4cd7083a932"&gt;vytvorenie novej&lt;/A&gt; &lt;STRONG&gt;alebo odstránenie existujúcej firmy&lt;/STRONG&gt;. Umožňuje aplikovať aj ďalšie funkcie pre prácu s&amp;nbsp;databázou dostupné&amp;nbsp;po stlačení tlačidla &lt;I&gt;Možnosti&lt;/I&gt;. 
+&lt;LI&gt;Vo vrchnej časti formulára sa nachádza panel na rýchle hľadanie&amp;nbsp;- zobrazuje sa však len v&amp;nbsp;prípade, že je počet firiem vo formulári väčší ako 20. 
+&lt;LI&gt;Systém OBERON umožňuje jednou&amp;nbsp;&lt;A href="19a10c98-2b1d-4fe1-8ab2-98921ab328be"&gt;inštaláciou&lt;/A&gt; spracovávať agendu pre neobmedzený počet firiem. Viacero firiem je možné spracovávať aj bez zakúpenia licencie, niektoré funkcie programov však nie sú prístupné alebo je obmedzený počet zápisov v&amp;nbsp;niektorých evidenciách. Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="95d188df-c149-46a9-8474-4d9493f2ad41"&gt;Licenčná politika&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Pri vytvorení novej firmy alebo v prípade, že používateľ nemá nastavené žiadne heslo (prípadne&amp;nbsp;pri použití napríklad DEMO databázy) na prihlásenie &lt;STRONG&gt;nie je potrebné zadávať žiadne heslo&lt;/STRONG&gt;&amp;nbsp;(stačí&amp;nbsp;kliknúť na&amp;nbsp;tlačidlo &lt;EM&gt;OK&lt;/EM&gt;).&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H5&gt;Obrázok č. 1: Formulár &lt;EM&gt;Otvorenie agendy (firmy)&lt;/EM&gt; - zobrazuje zoznam firiem aj s umiestnením databázy&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_AgendaFirmy_Otvorenie.png"&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;Jednotlivé firmy môžu&amp;nbsp;na ukladanie údajov využívať ten istý, prípadne iný &lt;A href="0b81f4ea-5e68-48c1-8b89-933d5a23d962"&gt;databázový systém&lt;/A&gt;. Tak typ databázy, ako aj ďalšie aktuálne informácie o databáze, sú symbolizované nasledujúcimi ikonami:&lt;/P&gt;
+&lt;OL type=A&gt;
+&lt;LI&gt;&lt;B&gt;Databázy MS ACCESS&lt;/B&gt; 
+&lt;UL&gt;
+&lt;LI&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Button_DB_Access.png"&gt;&amp;nbsp;- Databáza firmy sa nachádza v štandardnom adresári &lt;B&gt;\OBERON\Data_U\.&lt;/B&gt; 
+&lt;LI&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Button_DB_Access_Exc.png"&gt;&amp;nbsp;- Databáza firmy sa nachádza v štandardnom adresári, ale je staršej verzie ako program (je potrebné vykonať transformáciu). 
+&lt;LI&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Button_DB_Access_PC.png"&gt;&amp;nbsp;- Databáza firmy sa nachádza&amp;nbsp;v&amp;nbsp;lokálnom počítači, ale v inom adresári ako &lt;B&gt;Data_U&lt;/B&gt;. 
+&lt;LI&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Button_DB_Access_Err.png"&gt;&amp;nbsp;- OBERON eviduje firmu s databázou&amp;nbsp;v&amp;nbsp;lokálnom počítači, ale táto databáza sa&amp;nbsp;v&amp;nbsp;zadanom umiestnení nenachádza (je zmazaná, presunutá alebo poškodená). 
+&lt;LI&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Button_DB_Access_Network.png"&gt;&amp;nbsp;- Databáza firmy sa nachádza&amp;nbsp;v&amp;nbsp;inom počítači a OBERON k nej pristupuje pomocou lokálnej počítačovej siete (LAN). 
+&lt;LI&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Databaza_firmy_Network_Err.png"&gt;&amp;nbsp;- Databáza firmy sa nachádza&amp;nbsp;v&amp;nbsp;inom počítači, ale počítač nie je prístupný cez LAN. Sieťovú jednotku, v&amp;nbsp;ktorej je umiestnená databáza, nebolo možné pripojiť. Počítač, v ktorom je databáza, pravdepodobne&amp;nbsp;nie je zapnutý, prípadne nie je funkčná LAN. 
+&lt;LI&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Button_DB_Access_USB.png"&gt;&amp;nbsp;- Databáza firmy sa nachádza&amp;nbsp;na USB kľúči. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;&lt;B&gt;SQL SERVER&lt;/B&gt; 
+&lt;UL&gt;
+&lt;LI&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Button_DB_Access_My_SQLServer.png"&gt;&amp;nbsp;- Databáza firmy sa nachádza&amp;nbsp;v&amp;nbsp;MySQL Serveri. 
+&lt;LI&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Button_DB_Access_MS_SQLServer.png"&gt;&amp;nbsp;- Databáza firmy sa nachádza&amp;nbsp;v&amp;nbsp;Microsoft SQL Serveri. 
+&lt;LI&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Button_DB_SQLServer_Err.png"&gt;&amp;nbsp;- Databáza firmy&amp;nbsp;typu SQL nie je dostupná. &lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/OL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Ďalšie informácie získate v téme&amp;nbsp;&lt;A href="d2b25c8c-d57f-4678-8021-3148259d3777" style="auto-update-caption: true"&gt;Formulár Otvorenie agendy (firmy)&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="b553dd1b-2fc7-4e3d-a56d-371bf189987f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="0c107d0c-e14f-4aa7-a954-d84b299ac5cb">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="6269549a-8a98-4d07-ae1c-121cc49388db" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="9a485893-6dd2-44e8-9740-a4cd7083a932">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="1e13ee19-f181-47d4-a8c7-afd7c051aea6" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="0b81f4ea-5e68-48c1-8b89-933d5a23d962">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="6c0a89b8-a470-44f9-9524-2dff2261f3a5" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="d2b25c8c-d57f-4678-8021-3148259d3777">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="29340b21-fb68-4c66-9268-43e3c75742d8" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="114e64df-3d6c-4a0e-9405-c0e75fbe02dc">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="d352e4f4-58ab-4f36-88f0-a3afab1d0a11" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="31e5e0c6-6e6c-403f-aa32-9ef5f8291566">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="3c309b54-ceb1-4fa5-b431-5bb1e83b828b">
+      <Keyword m="2014-11-18T10:09:21.3408203Z">Chyba databázy</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="dfc39af6-880f-42cf-be80-565cc7dcf140">
+      <Keyword m="2014-11-18T11:04:31.8701171Z">Nová firma</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="1350a5a7-ef86-4605-9a0d-959846de34d6">
+      <Keyword m="2021-08-03T07:35:57.1995651Z">Založenie novej firmy</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="69298256-1842-4a9d-8a70-8f4e3cc29d51">
+      <Keyword m="2015-03-23T07:24:35.9514062Z">Údržba databázy</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="2d70b381-9737-492f-af73-85dbc8d21609">
+      <Keyword m="2021-08-03T07:35:34.9808188Z">Odstránenie firmy</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="5c7248d0-be0c-4471-bffa-7fb9212f49b5">
+      <Keyword m="2021-08-03T07:35:52.7590379Z">Vytvorenie novej firmy</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="5e0f3718-0c09-4471-bdcc-a6bfebc36f5e" Status="Complete" CreatedOn="2021-01-17T10:15:16.3539346Z" ModifiedOn="2024-11-11T10:01:22.0847574Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="AccSingle_Accounting_Samples_Accommodation" BuildFlags="">
+  <Title m="2021-08-18T06:15:43.0041708Z">Účtovanie faktúr za ubytovanie cez rezervačný portál (jednoduché účtovníctvo)</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-11-11T10:01:22.0847574Z">&lt;P&gt;Táto téma&amp;nbsp;&lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;príklad&lt;/STRONG&gt; &lt;STRONG&gt;účtovania faktúr za ubytovanie&lt;/STRONG&gt; v&amp;nbsp;&lt;A href="32be28cf-2368-4818-9d24-cfa9d59afb75"&gt;jednoduchom účtovníctve&lt;/A&gt;&amp;nbsp;pri sprostredkovaní predaja ubytovania s&amp;nbsp;využitím on-line rezervačných portálov ubytovania.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Rezervačné portály (&lt;EM&gt;Booking.com, Airbnb.com&lt;/EM&gt; a ďalšie) umožňujú viaceré spôsoby, akými ubytovacie zariadenia prijímajú od hostí úhrady za ubytovanie. Najčastejším spôsobom je &lt;STRONG&gt;úhrada za ubytovanie po príchode hosťa do ubytovacieho zariadenia&lt;/STRONG&gt;. V takomto prípade ubytovacie zariadenie pri vyúčtovaní postupuje rovnako ako pri priamom ubytovaní hosťa (nie cez rezervačný portál). 
+&lt;LI&gt;Druhý spôsob predstavuje &lt;STRONG&gt;úhradu za&amp;nbsp;ubytovanie priamo rezervačnému portálu v čase rezervácie&lt;/STRONG&gt; prostredníctvom zabezpečeného on-line platobného systému. Na konci mesiaca rezervačný portál zašle&amp;nbsp;ubytovaciemu zariadeniu faktúru obsahujúcu súhrnnú čiastku provízie za sprostredkovanie ubytovania. 
+&lt;LI&gt;Podľa §15 ods. 1 zákona č. 222/2004 o DPH sa&amp;nbsp;za miesto dodania služby považuje miesto, na ktorom sa nachádza nehnuteľnosť, ku ktorej sa služba vzťahuje. Teda ak sa služby vzťahujú k nehnuteľnosti nachádzajúcej sa v SR, miestom dodania je SR. Následne, ak je ubytovanie poskytnuté v SR, je aj&amp;nbsp;predmetom dane v SR. Ak ubytovacie zariadenie nie je platiteľom DPH, je potrebné, aby &lt;STRONG&gt;sa zaregistrovalo na finančnej správe podľa § 7a zákona o DPH&lt;/STRONG&gt;. V OBERON-e je následne potrebné&amp;nbsp;v&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="5a6e5663-262e-4ff0-9741-1569385d11e4"&gt;oddiel Firma, Všeobecné&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt; záložka &lt;EM&gt;Základné&lt;/EM&gt; nastaviť typ DPH&amp;nbsp;&lt;STRONG&gt;&lt;EM&gt;Neplatiteľ DPH (len registrovaný)&lt;/EM&gt;&lt;/STRONG&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Príklad&lt;/H2&gt;
+&lt;H3&gt;Zadanie&amp;nbsp;&lt;/H3&gt;
+&lt;P&gt;Ubytovacie zariadenie predáva svoje izby cez zahraničný rezervačný portál &lt;EM&gt;Booking.com&lt;/EM&gt;. Hosť vytvorí rezerváciu elektronicky a&amp;nbsp;uhradí ju portálu svojou platobnou kartou. Po príchode do ubytovacieho zariadenia hosť už, samozrejme, neplatí - celý pobyt má vopred uhradený. Po odchode hosťa (spravidla do desiatich dní) rezervačný portál&amp;nbsp;zašle ubytovaciemu zariadeniu súhrnnú platbu za všetky zrealizované pobyty v danom mesiaci zníženú o svoju províziu.&amp;nbsp;Na&amp;nbsp;províziu portál posiela daňový doklad, pričom poskytne aj podrobný prehľad súhrnnej platby. &lt;EM&gt;Booking.com&lt;/EM&gt; vystupuje v&amp;nbsp;role sprostredkovateľa.&lt;/P&gt;
+&lt;P&gt;V mesiaci sa uskutočnili 3 pobyty v sume 110&amp;nbsp;€, 220&amp;nbsp;€ a 330&amp;nbsp;€ (spolu za všetky pobyty 660&amp;nbsp;€). Platba, ktorá príde na účet ubytovacieho zariadenia, je 600&amp;nbsp;€, znížená o províziu vo výške 60&amp;nbsp;€.&lt;/P&gt;
+&lt;H3&gt;Účtovanie v jednoduchom účtovníctve&lt;/H3&gt;
+&lt;P&gt;Faktúru za pobyt vystavuje každému hosťovi účtovná jednotka, nie rezervačný portál. Tieto faktúry sa ako doklady účtujú rovnako ako bežné odberateľské faktúry (pohľadávky). Zaúčtovať možno aj prijatú súhrnnú platbu ako bankový výpis (na import bankového výpisu možno použiť funkciu&amp;nbsp;&lt;A href="02bbf54b-086f-4641-8c33-4dd461e56fb4" style="auto-update-caption: true"&gt;Spracovanie bankových výpisov&lt;/A&gt;), nie je to však nutné. Prijatá súhrnná platba na bankový účet nie je záväzkom, tým je len daná provízia. Faktúra na províziu sa teda účtuje ako bežná dodávateľská faktúra (záväzok), pričom sa účtuje aj samozdanenie (dodanie služby od zahraničného dodávateľa).&lt;/P&gt;
+&lt;P&gt;Úhrady dokladov možno zaúčtovať manuálne alebo automaticky pomocou funkcie na zaúčtovanie súhrnnej platby v&amp;nbsp;&lt;A href="33c01089-c83f-47e5-a262-79c14d9ff698"&gt;Evidencii zápočtov faktúr&lt;/A&gt;.&lt;/P&gt;
+&lt;TABLE style="HEIGHT: 230px; WIDTH: 95%"&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TD bgColor=gray height=15 width=202&gt;&lt;STRONG&gt;Predkontácia&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD bgColor=gray height=15 width=250&gt;&lt;STRONG&gt;Text&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD bgColor=gray height=15 width=122&gt;&lt;STRONG&gt;Pokladňa/Účet&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD bgColor=gray height=15 width=40&gt;&lt;STRONG&gt;Príjem&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD bgColor=gray height=15 width=28&gt;
+&lt;P class=PRIKLAD&gt;&lt;STRONG&gt;Výdaj&lt;/STRONG&gt;&lt;/P&gt;&lt;/TD&gt;
+&lt;TD bgColor=gray height=15 width=36&gt;&lt;STRONG&gt;VOZD&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD bgColor=gray height=15 width=36&gt;&lt;STRONG&gt;VNZD&lt;/STRONG&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#e0e0e0 height=11 width=202&gt;210 - Príjem - výrobky a&amp;nbsp;služby&lt;/TD&gt;
+&lt;TD bgColor=#e0e0e0 height=11 width=250&gt;Vystavená faktúra hosťovi celkom&lt;/TD&gt;
+&lt;TD bgColor=#e0e0e0 width=122&gt;Nepeňažná operácia (úhrada FA)&lt;/TD&gt;
+&lt;TD bgColor=#e0e0e0 height=11 width=28&gt;
+&lt;P align=right&gt;110&lt;/P&gt;&lt;/TD&gt;
+&lt;TD bgColor=#e0e0e0 height=11 width=28&gt;&lt;/TD&gt;
+&lt;TD bgColor=#e0e0e0 height=11 width=36&gt;&lt;/TD&gt;
+&lt;TD bgColor=#e0e0e0 height=11 width=36&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=11 width=202&gt;210 - Príjem - výrobky a&amp;nbsp;služby&lt;/TD&gt;
+&lt;TD height=11 width=250&gt;Vystavená faktúra hosťovi celkom&lt;/TD&gt;
+&lt;TD width=122&gt;Nepeňažná operácia (úhrada FA)&lt;/TD&gt;
+&lt;TD height=11 width=28&gt;
+&lt;P align=right&gt;550&lt;/P&gt;&lt;/TD&gt;
+&lt;TD height=11 width=28&gt;&lt;/TD&gt;
+&lt;TD height=11 width=36&gt;&lt;/TD&gt;
+&lt;TD height=11 width=36&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#e0e0e0 height=11 width=202&gt;521 - Výdavok - provízia za sprostredkovanie&lt;/TD&gt;
+&lt;TD bgColor=#e0e0e0 height=14 width=250&gt;Provízia - zápočet s&amp;nbsp;úhradou pobytov&lt;/TD&gt;
+&lt;TD bgColor=#e0e0e0 width=122&gt;Nepeňažná operácia (úhrada FA)&lt;/TD&gt;
+&lt;TD bgColor=#e0e0e0 height=14 width=28&gt;&lt;/TD&gt;
+&lt;TD bgColor=#e0e0e0 height=11 width=28&gt;&lt;/TD&gt;
+&lt;TD bgColor=#e0e0e0 height=14 width=36&gt;
+&lt;P align=right&gt;60&lt;/P&gt;&lt;/TD&gt;
+&lt;TD bgColor=#e0e0e0 height=11 width=36&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=11 width=202&gt;361 - Príjem - za pobyty od sprostredkovateľov&lt;/TD&gt;
+&lt;TD height=16 width=250&gt;Prijatá súhrnná platba za pobyty na bankový účet (znížená o províziu)&lt;/TD&gt;
+&lt;TD height=11 width=122&gt;Banka&lt;/TD&gt;
+&lt;TD width=40&gt;
+&lt;P align=right&gt;600&lt;/P&gt;&lt;/TD&gt;
+&lt;TD height=16 width=28&gt;&lt;/TD&gt;
+&lt;TD height=16 width=36&gt;&lt;/TD&gt;
+&lt;TD height=11 width=36&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD bgColor=#e0e0e0 height=11 width=202&gt;720 - Výdavok - DPH (20&amp;nbsp;%)&lt;/TD&gt;
+&lt;TD bgColor=#e0e0e0 height=5 width=250&gt;Zdanenie služby (provízie)&lt;/TD&gt;
+&lt;TD bgColor=#e0e0e0 height=11 width=122&gt;Banka&lt;/TD&gt;
+&lt;TD bgColor=#e0e0e0 width=40&gt;&lt;/TD&gt;
+&lt;TD bgColor=#e0e0e0 height=5 width=28&gt;&lt;/TD&gt;
+&lt;TD bgColor=#e0e0e0 height=5 width=36&gt;&lt;/TD&gt;
+&lt;TD bgColor=#e0e0e0 height=11 width=36&gt;
+&lt;P align=right&gt;12&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="33a6dc01-ab49-4af1-8005-166db3ffde69" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="5e82cca9-b8af-4a80-ba30-7ab91914a595">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="e3868988-9c7d-4277-9c4b-d75a3d822e02" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="565cef7b-84c9-4402-966c-d3c94972cab4">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="40e16ece-22ab-452b-8a3e-b22ddf277c8f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="33c01089-c83f-47e5-a262-79c14d9ff698">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="7793227f-234f-469c-9a08-5c2347f9be14">
+      <Keyword m="2021-08-18T06:43:36.339767Z">Faktúra z Booking.com (JÚ)</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="b6eb2e5d-6b61-49ee-9199-28e1661f52a8">
+      <Keyword m="2021-08-18T06:43:39.3801809Z">Provízia z Booking.com (JÚ)</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="28a4f932-2529-4d70-8170-96fe51fc3ca2">
+      <Keyword m="2021-08-18T06:43:28.7466176Z">Booking.com - účtovanie provízie (JÚ)</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="09d32998-4da9-4af5-918e-ded28efdaa09">
+      <Keyword m="2021-08-18T06:43:42.1805579Z">Rezervačný portál - účtovanie provízie (JÚ)</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="175afc1d-f5c6-4603-bb13-8e20374531a2">
+      <Keyword m="2021-08-18T06:43:44.9011286Z">Zápočet - rezervačný portál (JÚ)</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="f1305f5d-2ebd-4be2-9977-ad3bd1b5347f">
+      <Keyword m="2021-08-18T06:43:34.011255Z">Evidencia zápočtov faktúr - rezervačný portál (JÚ)</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

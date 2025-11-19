@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="bf009605-0be8-4286-8ef5-4c7d3b89143a" Status="Complete" CreatedOn="2016-08-22T09:28:17.5264665Z" ModifiedOn="2024-06-06T11:42:55.3464277Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="false" HelpContextIds="" Name="Wages_About_Concept" BuildFlags="">
+  <Title m="2021-07-07T06:55:06.627004Z">Mzdy - všeobecne o koncepcii</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-06-06T11:42:55.3464277Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;všeobecné informácie o jednej z dvoch častí&amp;nbsp;modulu &lt;EM&gt;Mzdy a&amp;nbsp;dochádzka&amp;nbsp;&lt;/EM&gt;&lt;/STRONG&gt;systému OBERON -&lt;STRONG&gt;&lt;EM&gt;&amp;nbsp;Mzdy&lt;/EM&gt;&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;H2&gt;Dôležité evidencie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Modul &lt;EM&gt;Mzdy a&amp;nbsp;dochádzka&lt;/EM&gt; predstavuje jeden z modulov systému OBERON, ktorý&amp;nbsp;&lt;STRONG&gt;umožňuje spracovávať mzdovú&amp;nbsp;agendu&amp;nbsp;spolu s evidenciou pracovného času a dochádzky&lt;/STRONG&gt;. Skladá sa&amp;nbsp;z dvoch častí: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;&lt;EM&gt;Mzdy&lt;/EM&gt;&lt;/STRONG&gt; - spracovanie miezd a personálnej agendy - všeobecné informácie o tejto prvej časti modulu sú predmetom tejto témy &lt;EM&gt;Pomocníka&lt;/EM&gt;, 
+&lt;LI&gt;&lt;STRONG&gt;&lt;EM&gt;Dochádzka&lt;/EM&gt;&lt;/STRONG&gt; -&amp;nbsp;plánovanie pracovných zmien, evidencia pracovného času a dochádzky&amp;nbsp;a tvorba podkladov pre mzdovú agendu. Všeobecné informácie&amp;nbsp;o tejto&amp;nbsp;druhej časti modulu sa nachádzajú v téme&amp;nbsp;&lt;A href="3883342c-9ef0-4fd9-8773-88df84f78f65" style="auto-update-caption: true"&gt;Dochádzka - všeobecne o koncepcii&lt;/A&gt;.&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Pracovníci&amp;nbsp;firmy a ich osobné údaje, zaradenie vo firme, údaje pre&amp;nbsp;dochádzkový terminál&amp;nbsp;&lt;/STRONG&gt;atď.&amp;nbsp;sa evidujú v evidencii&amp;nbsp;&lt;A href="8dd60281-9cc7-41fe-9dd2-2ad5c7ffe047"&gt;Pracovníci&lt;/A&gt;. &lt;STRONG&gt;Pracovné pomery&lt;/STRONG&gt; priradené&amp;nbsp;&lt;A href="8dd60281-9cc7-41fe-9dd2-2ad5c7ffe047"&gt;pracovníkom&lt;/A&gt;&amp;nbsp;sa evidujú v&amp;nbsp;evidencii&amp;nbsp;&lt;A href="3fced304-5201-4497-bb58-104c1fd77990" style="auto-update-caption: true"&gt;Pracovné pomery pracovníkov&lt;/A&gt;. Jednému pracovníkovi možno priradiť viacero pracovných pomerov.&amp;nbsp;Ku každému pracovnému pomeru je možné evidovať informácie o mzde, dovolenke,&amp;nbsp;&lt;A href="1491b978-c63c-4182-95f4-70eade92f4d5"&gt;neprítomnosti&lt;/A&gt; a&amp;nbsp;zrážky. 
+&lt;LI&gt;&lt;STRONG&gt;Vytvoriť a evidovať rôzne dokumenty&lt;/STRONG&gt;,&amp;nbsp;ako je&amp;nbsp;pracovná zmluva, dohoda, rôzne tlačivá a pod., je možné v samostatnej evidencii&amp;nbsp;&lt;A href="375979c2-cf78-4499-8ba9-30a5e2f1eb23"&gt;Dokumenty a výkazy pracovníkov&lt;/A&gt;.&amp;nbsp;Tu sa zostavujú aj dokumenty určené na komunikáciu s&amp;nbsp;externými inštitúciami (&lt;EM&gt;Sociálna poisťovňa&lt;/EM&gt;, zdravotné poisťovne, úrad práce, finančná správa...). 
+&lt;LI&gt;Samotné spracovanie miezd sa vykonáva v&amp;nbsp;evidencii&amp;nbsp;&lt;A href="6923b0c5-166b-4e3b-a53b-71f62b53b2fc"&gt;Tvorba miezd&lt;/A&gt;.&amp;nbsp;Po otvorení knihy sa&amp;nbsp;zobrazia &lt;STRONG&gt;predvypočítané mzdy pracovníkov&lt;/STRONG&gt; na základe nastavení&amp;nbsp;&lt;A href="3fced304-5201-4497-bb58-104c1fd77990"&gt;pracovných pomerov&lt;/A&gt;. Po označení kurzorom mzdy, ktorú chcete spracovať, sa v&amp;nbsp;dolnej časti formulára oddelenej&amp;nbsp;&lt;A href="38489850-ab82-41b6-b258-3fa613ed5861"&gt;rozdeľovacou lištou&lt;/A&gt; zobrazí príslušná výplatná páska. Pri zmene akejkoľvek mzdovej zložky alebo neprítomnosti&amp;nbsp;sa mzda ihneď prepočíta a výplatná páska&amp;nbsp;sa zobrazí so zmenenými položkami. Pri mzde pracovníka možno evidovať&amp;nbsp;rôzne stavy a štádiá jej rozpracovanosti - nespracovaná mzda, koncept, spracovaná a&amp;nbsp;podpísaná (odsúhlasená) mzda. 
+&lt;LI&gt;Po kompletnom spracovaní miezd za daný mesiac je potrebné vykonať tzv. &lt;A href="4c0cffe2-a77b-44ea-bb3a-39476f21e420"&gt;mesačnú uzávierku miezd&lt;/A&gt;, čím&amp;nbsp;sa uzatvorí mesiac (mzdy už nebude možné v&amp;nbsp;aktuálnom mesiaci&amp;nbsp;ďalej spracovávať), vygenerujú sa&amp;nbsp;&lt;A href="1288dcf2-9f76-4fc6-941a-1d03361bf937"&gt;príkazy na úhradu&lt;/A&gt; (aj so súbormi pre&amp;nbsp;&lt;A href="ef8ec592-c1af-45af-92b7-8734ce46e0f5"&gt;internetbanking&lt;/A&gt;) a&amp;nbsp;vytvoria sa&amp;nbsp;&lt;STRONG&gt;potrebné tlačové výstupy a&amp;nbsp;exporty údajov pre všetky dotknuté inštitúcie&lt;/STRONG&gt; (finančnú správu&lt;EM&gt;,&amp;nbsp;Sociálnu poisťovňu&lt;/EM&gt; a zdravotné poisťovne). Uzávierku je možné v prípade potreby aj zrušiť, upraviť mzdu a uzávierku opätovne vykonať. 
+&lt;LI&gt;Medzi ďalšie evidencie patria&amp;nbsp;&lt;A href="1288dcf2-9f76-4fc6-941a-1d03361bf937"&gt;Príkazy na úhradu&lt;/A&gt;&amp;nbsp;a&amp;nbsp;&lt;A href="81a7aa22-db03-4095-8a7c-3e7436fee8c6"&gt;Stále platby&lt;/A&gt;. Tu sú uložené vygenerované príkazy na úhradu miezd, ktoré je možné v prípade potreby aj upravovať. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Ďalšie informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Okrem &lt;EM&gt;Dochádzky&lt;/EM&gt; sú &lt;EM&gt;Mzdy&lt;/EM&gt; prepojené s modulom &lt;EM&gt;Účtovníctvo&lt;/EM&gt;. Na základe&amp;nbsp;&lt;A href="57a10f8d-6470-4ab0-9000-1c3b31d25852"&gt;nastavení zaúčtovania miezd&lt;/A&gt; je možné &lt;STRONG&gt;spracované mzdy&amp;nbsp;automaticky zaúčtovať&lt;/STRONG&gt;&amp;nbsp;-&amp;nbsp;t.&amp;nbsp;j. vykonať účtovné zápisy&amp;nbsp;do&amp;nbsp;&lt;A href="d8c9bfc8-92d1-4471-8909-e5f8ce602d6c"&gt;účtovného denníka&lt;/A&gt;.&amp;nbsp;Zaúčtovať mzdy je možné len v&amp;nbsp;&lt;A href="49dd3167-870a-4fdf-b631-d4f692f1ed72"&gt;podvojnom účtovníctve&lt;/A&gt; (v&amp;nbsp;&lt;A href="32be28cf-2368-4818-9d24-cfa9d59afb75"&gt;jednoduchom účtovníctve&lt;/A&gt; sa účtuje o peniazoch, čiže vyplatené mzdy, odvody atď. sa účtujú pri peňažnom pohybe, t. j. spravidla pri &lt;A href="02bbf54b-086f-4641-8c33-4dd461e56fb4"&gt;účtovaní bankových výpisov&lt;/A&gt;). 
+&lt;LI&gt;Modul je určený pre &lt;STRONG&gt;rôzne veľké firmy, prípadne&amp;nbsp;účtovné (mzdové) firmy, ktoré spracúvajú mzdy pre iné firmy&lt;/STRONG&gt;. 
+&lt;LI&gt;Účtovné jednotky &lt;STRONG&gt;s&amp;nbsp;viacerými pracovníkmi&lt;/STRONG&gt; ocenia prepracovaný systém&amp;nbsp;&lt;A href="834e9546-a56b-476f-9028-ef4c24a82345"&gt;práv používateľov&lt;/A&gt; -&amp;nbsp;používatelia môžu mať prístup len k&amp;nbsp;určitým&amp;nbsp;evidenciám alebo funkciám (spracovaniu miezd, mesačnej uzávierke miezd, zaúčtovaniu miezd do účtovného denníka atď.), niektoré evidencie môžu byť pre niektorých používateľov úplne zakázané, prípadne povolené len na čítanie. 
+&lt;LI&gt;Vypočítanú mzdu je možné upravovať zadávaním tzv. mzdových zložiek. Ide hlavne o rôzne druhy odmien, príplatkov, prípadne zrážok. Mzdovú zložku je možné vybrať zo zoznamu preddefinovaných&amp;nbsp;&lt;A href="fc8d8173-0da0-459a-b570-587597ce3315"&gt;mzdových predkontácií&lt;/A&gt;, ktoré si používateľ môže v prípade potreby dopĺňať alebo&amp;nbsp;upravovať. 
+&lt;LI&gt;Aj keď účtovná jednotka nebude používať&amp;nbsp;&lt;A href="3883342c-9ef0-4fd9-8773-88df84f78f65"&gt;dochádzku&lt;/A&gt; (dochádzkové terminály), odporúčame&amp;nbsp;jej používať aspoň&amp;nbsp;&lt;A href="ce9e15f9-7459-4a5c-8bad-db17ef7b59ea"&gt;Pracovný kalendár&lt;/A&gt; - umožňuje plánovanie pracovných zmien. Z pracovného kalendára (plánu) sa vypočítavajú hodiny práce v&amp;nbsp;nočnej zmene, práce v sobotu a nedeľu a pod. Potom je možné automaticky vypočítať príplatky za tieto dni (hodiny). 
+&lt;LI&gt;Spracovanie miezd podporuje možnosť rovnomerného a nerovnomerného rozvrhnutia pracovného času. 
+&lt;LI&gt;Mzdové náklady je možné&amp;nbsp;&lt;A href="c1379073-007e-434a-a410-d6fde709ff9e"&gt;členiť (rozúčtovať)&lt;/A&gt;&amp;nbsp;podľa&amp;nbsp;&lt;A href="c1379073-007e-434a-a410-d6fde709ff9e"&gt;prevádzok&lt;/A&gt;,&amp;nbsp;&lt;A href="a2d510ea-4cba-46cd-b337-c01fb332cd35"&gt;pracovísk&lt;/A&gt;&amp;nbsp;a&amp;nbsp;tzv.&amp;nbsp;&lt;A href="f68687b5-0939-447b-9f8e-37c883676f1e"&gt;členenia&lt;/A&gt; (stromovej štruktúry). &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;&amp;nbsp;Obrázok č. 1: Kniha &lt;EM&gt;Tvorba miezd&lt;/EM&gt;&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Forms/Wages/Form_Wages_ProcessingWages.png"&gt;&lt;/P&gt;
+&lt;H2&gt;Licenčné podmienky&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;V&amp;nbsp;obmedzenom režime (na skúšobné účely) je možné s modulom &lt;EM&gt;Mzdy a dochádzka&lt;/EM&gt; pracovať &lt;STRONG&gt;aj bez licencie&lt;/STRONG&gt; - viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="95d188df-c149-46a9-8474-4d9493f2ad41" style="auto-update-caption: true"&gt;Licenčná politika&lt;/A&gt;. 
+&lt;LI&gt;Plnohodnotne je možné modul&amp;nbsp;&lt;EM&gt;Mzdy a dochádzka&lt;/EM&gt; používať &lt;STRONG&gt;len s&amp;nbsp;platnou&amp;nbsp;licenciou&lt;/STRONG&gt;. Dôležitým faktorom pri výbere typu licencie&amp;nbsp;je predpokladaný maximálny počet&amp;nbsp;spracovaných miezd za rok, priemerný počet pracovníkov za mesiac, počet pracovníkov, ktorým sa za mesiac vygeneruje pracovný plán a počet pracovníkov, ktorým sa za mesiac spracujú príchody a odchody. Ak budete evidovať dochádzku a spracovávať mzdy pre viacero firiem, využite špeciálnu licenciu určenú pre účtovné firmy - &lt;STRONG&gt;multilicenciu&lt;/STRONG&gt;. Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="644b0685-defe-4ce5-b3cd-e731b5eff299" style="auto-update-caption: true"&gt;Typy licencií&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="fedc0636-fc40-4c33-bd01-4b19bf8668ce" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="4637ee90-9b44-4ba9-b816-66f0f601fddb">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="3d12eade-a854-434d-82ec-1411c055d932" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="79af9a91-49b8-4a9e-8e2c-2d664c8325ab">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="3b111b29-dcc5-49f6-be52-4de5deac3f84" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="8883a3ef-5814-4275-8570-ca00cfbc1e93">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="6f0e3095-cbfb-4b7c-b676-20a5cd1c7942">
+      <Keyword m="2023-08-16T11:11:08.7040883Z">Všeobecne o koncepcii - mzdy</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

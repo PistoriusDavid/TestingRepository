@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="02f77fd1-6b2f-482c-8dd0-77896d038c3e" Status="Complete" CreatedOn="2024-07-10T12:00:58.2611211Z" ModifiedOn="2025-03-20T09:54:53.9415948Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="22500" Name="Developers_WebServices_OBERONLink" BuildFlags="">
+  <Title m="2024-07-10T12:01:29.1007684Z">OBERON Link</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2025-03-20T09:54:53.9415948Z">&lt;P align=left&gt;Táto téma&amp;nbsp;&lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;obsahuje &lt;STRONG&gt;informácie o službe &lt;EM&gt;OBERON Link&lt;/EM&gt;&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;EM&gt;OBERON Link&lt;/EM&gt; predstavuje službu, ktorá sa umožňuje aplikáciám využívajúcim &lt;A href="58bb31ca-00c8-4641-ad99-7d58e24f59c5"&gt;webové služby&lt;/A&gt;&amp;nbsp;systému OBERON &lt;STRONG&gt;pripájať k týmto webovým službám z vonkajšieho internetu&lt;/STRONG&gt; (t.&amp;nbsp;j. mimo lokálnej počítačovej siete). 
+&lt;LI&gt;Služba významne rozširuje a zjednodušuje možnosti použitia jednotlivých aplikácií, ktoré so systémom&amp;nbsp;OBERON komunikujú pomocou webových služieb, keďže &lt;STRONG&gt;nie je potrebné&lt;/STRONG&gt; &lt;STRONG&gt;pripojenie do lokálnej počítačovej siete alebo&amp;nbsp;nastavenie verejnej statickej IP adresy&lt;/STRONG&gt;. 
+&lt;LI&gt;Služba &lt;EM&gt;OBERON Link&lt;/EM&gt; umožňuje sprístupniť z vonkajšieho internetu &lt;STRONG&gt;všetky typy automatických úloh pre webové služby&lt;/STRONG&gt; dostupné v systéme OBERON. Vďaka sprístupneniu možno napr. pri aplikácii &lt;A href="be17efdf-4b36-4b47-ad5d-09b0f66c8f65"&gt;ASTON - mobilný skladník&lt;/A&gt;&amp;nbsp;používať mobilné dáta (t.&amp;nbsp;j. automatická úloha pre webovú službu aj aplikácia &lt;EM&gt;ASTON&lt;/EM&gt; sa nemusia používať v tej istej počítačovej sieti). Podobne možno pomocou odkazu v&amp;nbsp;tvare napr. &lt;EM&gt;&lt;STRONG&gt;https://mojafirma.server1.oberonlink.sk&lt;/STRONG&gt;&lt;STRONG&gt;/login&lt;/STRONG&gt;&lt;/EM&gt; zadaného do prehliadača&amp;nbsp;zobraziť aplikáciu &lt;A href="b138daad-5453-4e53-8d2c-ecf2e81a5fcb"&gt;OBERON Web&lt;/A&gt;&amp;nbsp;kdekoľvek, kde je pripojenie do internetovej siete&amp;nbsp;(nielen v lokálnej počítačovej sieti) aj bez verejnej statickej IP adresy. 
+&lt;LI&gt;Po zaregistrovaní je služba &lt;EM&gt;OBERON Link&lt;/EM&gt; dostupná &lt;STRONG&gt;30 dní zdarma (free trial)&lt;/STRONG&gt;. Po tomto skúšobnom období je služba &lt;STRONG&gt;spoplatnená&lt;/STRONG&gt; podľa&amp;nbsp;&lt;A href="efb93a2c-e449-4770-88ba-0fe999e90ccd"&gt;osobitného cenníka&lt;/A&gt;. V&amp;nbsp;rámci uvádzacej akcie možno službu &lt;EM&gt;OBERON Link&lt;/EM&gt; do 30.11.2025&amp;nbsp;využívať zdarma. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Možnosti použitia&lt;/H2&gt;
+&lt;P&gt;Niektoré príklady použitia služby:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;v&amp;nbsp;aplikácii&amp;nbsp;&lt;A href="b138daad-5453-4e53-8d2c-ecf2e81a5fcb"&gt;OBERON Web&lt;/A&gt; sprístupňuje&amp;nbsp;celý rad&amp;nbsp;vybraných manažérskych informácií zo systému OBERON v reálnom čase (napr. grafický prehľad izieb, prehľady pohľadávok, záväzkov, objednávok a mnohé ďalšie&amp;nbsp;prehľady a štatistiky atď.), 
+&lt;LI&gt;v aplikácii &lt;A href="be17efdf-4b36-4b47-ad5d-09b0f66c8f65"&gt;ASTON&lt;/A&gt;&amp;nbsp;umožňuje vytvárať&amp;nbsp;objednávky priamo v teréne (napr. z auta) a&amp;nbsp;vykonávať ostatné&amp;nbsp;práce (príjem, výdaj, inventúra...)&amp;nbsp;aj v&amp;nbsp;geograficky vzdialených skladoch, 
+&lt;LI&gt;v aplikácii&amp;nbsp;&lt;A href="942d48d5-b290-40f6-8ba3-45cf78f380f9"&gt;LUKUL&lt;/A&gt; sprístupňuje&amp;nbsp;elektronický jedálny (nápojový) lístok zákazníkom v ich mobilných zariadeniach s možnosťou objednania jedla (nápoja), 
+&lt;LI&gt;v aplikácii&amp;nbsp;&lt;A href="fe4a9463-d066-4a56-8eee-a728ae1a7220"&gt;OBERON eMenu&lt;/A&gt; umožňuje prezerať elektronický jedálny (nápojový) lístok zákazníkmi v ich mobilných zariadeniach,
+&lt;LI&gt;v aplikácii&amp;nbsp;&lt;A href="23e4ac4d-169f-4c85-8e00-60f1e71ff358" style="auto-update-caption: true"&gt;pikMenu&lt;/A&gt; umožňuje prezerať elektronický jedálny (nápojový) lístok zákazníkmi v ich mobilných zariadeniach a vykonávať objednávky v reštaurácii a na donášku. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Nastavenie služby OBERON Link&lt;/H2&gt;
+&lt;P&gt;Nastavenie služby &lt;EM&gt;OBERON Link&lt;/EM&gt; pozostáva z niekoľkých krokov:&lt;/P&gt;
+&lt;OL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Vytvorenie webovej služby&lt;/STRONG&gt; - spočíva v&amp;nbsp;nastavení automatickej úlohy pre webovú službu. Postup nastavenia je dostupný&amp;nbsp;v&amp;nbsp;téme&amp;nbsp;&lt;A href="f3e85885-2cfb-4f9b-b966-a54836db41cd" style="auto-update-caption: true"&gt;Inštalácia webovej služby&lt;/A&gt;. 
+&lt;LI&gt;&lt;STRONG&gt;Registrácia účtovnej jednotky (databázy) a jej overenie&lt;/STRONG&gt; - registráciu možno vykonať pomocou sprievodcu, ktorý je dostupný z&amp;nbsp;&lt;A href="a8d6abf6-4a2a-4e37-a89a-1afbb2b09e17"&gt;formulára Nastavenie automatickej úlohy 'WebServices API - OBERON'&lt;/A&gt;, záložka &lt;EM&gt;Nastavenia&lt;/EM&gt;, tlačidlo &lt;EM&gt;Vytvoriť&lt;/EM&gt;. Registrácia do služby &lt;EM&gt;OBERON Link&lt;/EM&gt; prebieha na základe zaslania overovacej e-mailovej správy na zadanú e-mailovú adresu, v ktorej možno službu &lt;EM&gt;OBERON Link&lt;/EM&gt; aktivovať stlačením tlačidla &lt;EM&gt;Aktivovať službu&lt;/EM&gt;, čím sa proces registrácie dokončí. 
+&lt;LI&gt;&lt;STRONG&gt;Zadanie subdomény&lt;/STRONG&gt; - v sprievodcovi uvedenom v bode 2 možno zadať subdoménu na vytvorenie domény pre vytvorenú&amp;nbsp;webovú službu.&amp;nbsp;Po vytvorení domény&amp;nbsp;sa automatická úloha&amp;nbsp;(webová služba) reštartuje. Ak má účtovná jednotka viac webových služieb, môže si zaregistrovať viac domén. 
+&lt;LI&gt;&lt;STRONG&gt;Príslušné nastavenia v jednotlivých aplikáciách&lt;/STRONG&gt; - po nastavení služby &lt;EM&gt;OBERON Link&lt;/EM&gt; je potrebné vykonať súvisiace nastavenia v jednotlivých aplikáciách, ktoré&amp;nbsp;so systémom&amp;nbsp;OBERON komunikujú pomocou webových služieb&amp;nbsp;(napr.&amp;nbsp;&lt;A href="be17efdf-4b36-4b47-ad5d-09b0f66c8f65"&gt;ASTON&lt;/A&gt; - pozri Obrázok č. 1). Na jednoduché nastavenie parametrov komunikácie v mobilných aplikáciách &lt;A href="be17efdf-4b36-4b47-ad5d-09b0f66c8f65"&gt;ASTON&lt;/A&gt;&amp;nbsp;a &lt;A href="942d48d5-b290-40f6-8ba3-45cf78f380f9"&gt;LUKUL&lt;/A&gt;&amp;nbsp;možno vygenerovať QR kód (vo &lt;A href="a8d6abf6-4a2a-4e37-a89a-1afbb2b09e17"&gt;formulári Nastavenie automatickej úlohy 'WebServices API - OBERON'&lt;/A&gt;, záložka &lt;EM&gt;Nastavenia&lt;/EM&gt;, tlačidlo &lt;EM&gt;Vygenerovať QR kód&lt;/EM&gt;). &lt;/LI&gt;&lt;/OL&gt;
+&lt;H5&gt;Obrázok č. 1: Nastavenie komunikácie v&amp;nbsp;aplikácii ASTON&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/OBERONMobileSolutions/OBERONMobileSolutions_ASTON_OBERONLink.png"&gt;&amp;nbsp;&lt;/P&gt;
+&lt;H2&gt;Technické informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Sprístupnenie webovej služby (end pointu) z&amp;nbsp;vonkajšieho internetu sa realizuje &lt;STRONG&gt;vytvorením zabezpečeného tunela&lt;/STRONG&gt; z&amp;nbsp;počítača, na ktorom beží webová služba (&lt;A href="09f3dae9-2fb7-490f-97dc-37f60885b398"&gt;server OAC&lt;/A&gt;), na server so službou &lt;EM&gt;OBERON Link&lt;/EM&gt;. Klient (webový prehliadač v&amp;nbsp;mobilnom zariadení, mobilné aplikácie&amp;nbsp;&lt;A href="be17efdf-4b36-4b47-ad5d-09b0f66c8f65"&gt;ASTON - mobilný skladník&lt;/A&gt;,&amp;nbsp;&lt;A href="942d48d5-b290-40f6-8ba3-45cf78f380f9"&gt;LUKUL - nielen mobilný čašník&lt;/A&gt;&amp;nbsp;alebo iné aplikácie tretích strán) sa pripája na server &lt;EM&gt;OBERON Link&lt;/EM&gt; pomocou doménového názvu v&amp;nbsp;tvare napr. &lt;STRONG&gt;https://mojafirma.server1.oberonlink.sk&lt;/STRONG&gt;. Na serveri &lt;EM&gt;OBERON Link&lt;/EM&gt; sa&amp;nbsp;vytvorí tunel, a tým prepojenie klienta s danou webovou službou. 
+&lt;LI&gt;Údaje medzi klientom a webovou službou sa zasielajú cez vytvorený tunel. Pri časoch odozvy požiadavky klienta na danú webovú službu bude dochádzať &lt;STRONG&gt;k&amp;nbsp;časovému oneskoreniu rádovo v desiatkach milisekúnd&lt;/STRONG&gt;. Uvedené oneskorenie je&amp;nbsp;z&amp;nbsp;pohľadu používateľa zanedbateľné, avšak pri intenzívnom používaní klientskej aplikácie (či už z&amp;nbsp;hľadiska požiadaviek alebo prenosovej kapacity) môže byť oneskorenie citeľnejšie. Pri intenzívnejšom používaní napr. aplikácie&amp;nbsp;&lt;A href="be17efdf-4b36-4b47-ad5d-09b0f66c8f65"&gt;ASTON&lt;/A&gt; (viacerými používateľmi v rovnakom čase) je preto&amp;nbsp;&lt;STRONG&gt;vhodnejším riešením verejná statická IP adresa&lt;/STRONG&gt;. 
+&lt;LI&gt;Vytvorený tunel je &lt;STRONG&gt;automaticky šifrovaný&lt;/STRONG&gt;. Z&amp;nbsp;tohto dôvodu webová služba už nemusí používať zabezpečené pripojenie (protokol HTTPS). &lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="92c0dda2-338c-4206-ac17-5dfb62e83d8b" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="58bb31ca-00c8-4641-ad99-7d58e24f59c5">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="303ed690-8ac3-4e55-a33f-e51b25b6f252" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="f3e85885-2cfb-4f9b-b966-a54836db41cd">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="742c458c-5bad-437a-b718-26fd1cf80566" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="7d4c6ecf-89c9-402a-966c-96a86ae3bfbb">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="4e8523ee-f323-42c4-8cd1-d6582d2cfc02">
+      <Keyword m="2024-07-11T07:08:05.68187Z">Služba OBERON Link</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="6a4b1ab4-9b27-47ef-85d7-224c3939507c">
+      <Keyword m="2024-07-11T07:08:26.3193939Z">Zabezpečený IP tunel - OBERON Link</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="6e45a367-3e3c-4ffc-8d4b-f1a5a66cef1f">
+      <Keyword m="2024-07-11T07:08:42.9538169Z">Vonkajší internet - OBERON Link</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="f1ceda71-0af1-4a43-a3f6-d7c2bc678fcb">
+      <Keyword m="2024-07-15T08:56:07.4875979Z">OBERON Link - možnosti použitia</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="e0e0aa46-3ac8-4084-a44c-69c6a293a86f">
+      <Keyword m="2024-07-15T08:56:15.3872311Z">OBERON Link - technické informácie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="b52186a9-b5e4-4ab1-9113-09a24f97d6ef">
+      <Keyword m="2024-07-15T08:56:51.0267473Z">OBERON Link - postup nastavenia služby</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="fd6a0f47-c326-43a2-8408-003cce805463" Status="Complete" CreatedOn="2014-09-05T15:32:13.6850505Z" ModifiedOn="2023-02-27T08:50:06.3068192Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="22217" Name="Menu_Stock_DailyBalances" BuildFlags="">
+  <Title m="2014-09-05T15:33:23.0920204Z">Kniha tržieb</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-02-27T08:50:06.3068192Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;je venovaná&amp;nbsp;položke&amp;nbsp;&lt;EM&gt;Kniha tržieb&amp;nbsp;&lt;/EM&gt;v&amp;nbsp;ponuke&amp;nbsp;&lt;EM&gt;Sklad&lt;/EM&gt; programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;. Položka je dostupná len v prípade, že je v&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="749ff4f1-eeb5-43f5-98d2-021399d8cec7"&gt;Zariadenia&lt;/A&gt; pridaná aspoň jedna &lt;A href="b24ad235-cf7f-43e2-b3e8-ec0f7d92f6b6"&gt;fiškálna tlačiareň,&lt;/A&gt; resp.&amp;nbsp;&lt;A href="2edf9500-71d3-4b5c-9d44-990261fb51bc"&gt;registračná pokladnica v režime off-line&lt;/A&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Výberom položky sa otvorí&amp;nbsp;&lt;EM&gt;Kniha tržieb&lt;/EM&gt;, ktorá &lt;STRONG&gt;umožňuje evidovať tržby vzniknuté používaním&amp;nbsp;&lt;/STRONG&gt;&lt;A href="d9b919e7-20c4-4c50-9910-4f13211ed9a8"&gt;registračných pokladníc (fiškálnych zariadení)&lt;/A&gt;. Jeden záznam v&amp;nbsp;knihe tržieb predstavuje &lt;STRONG&gt;jednu dennú uzávierku&lt;/STRONG&gt;. Záznamy do tejto evidencie je možné pridávať manuálne alebo automaticky pri&amp;nbsp;&lt;A href="900c1b8a-2645-4225-ac93-d387237f3d90"&gt;vykonaní dennej uzávierky&lt;/A&gt;&amp;nbsp;v&amp;nbsp;module &lt;A href="5e1320b7-163b-4ff1-a8a6-cf4ee99cf7d9"&gt;Pokladnica OBERON&lt;/A&gt;. 
+&lt;LI&gt;Táto evidencia &lt;STRONG&gt;je prístupná zo všetkých počítačov v sieti&lt;/STRONG&gt; - teda nielen z počítača, ku ktorému je pripojené fiškálne zariadenie a na ktorom bola vykonaná denná uzávierka. Okrem celkových obratov sú dostupné aj všetky vklady a výbery hotovosti pokladnice. 
+&lt;LI&gt;Pri&amp;nbsp;&lt;A href="900c1b8a-2645-4225-ac93-d387237f3d90"&gt;vyhotovení dennej uzávierky&lt;/A&gt; sa automaticky vytvorí záznam v&amp;nbsp;&lt;A href="fd6a0f47-c326-43a2-8408-003cce805463"&gt;Knihe tržieb&lt;/A&gt; - záznam obsahuje obraty danej dennej &lt;STRONG&gt;uzávierky v členení podľa použitých typov platieb&lt;/STRONG&gt; (hotovosť, platobná karta, stravné lístky a pod.), ďalej obsahuje údaje výberov a vkladov hotovosti pokladnice, prípadne je k dispozícii aj&amp;nbsp;zoznam uhradených faktúr v hotovosti. V závislosti od fiškálneho zariadenia kniha umožňuje zobraziť, resp. vytlačiť originál každej evidovanej dennej uzávierky tak, ako bola vytlačená na fiškálnej tlačiarni. 
+&lt;LI&gt;Záznamy v knihe tržieb, ktoré&amp;nbsp;sa do evidencie zapísali automaticky pri dennej uzávierke, &lt;STRONG&gt;je možné automaticky zaúčtovať&lt;/STRONG&gt; do &lt;A href="d8c9bfc8-92d1-4471-8909-e5f8ce602d6c"&gt;účtovného&lt;/A&gt; alebo&amp;nbsp;&lt;A href="5e82cca9-b8af-4a80-ba30-7ab91914a595"&gt;peňažného denníka&lt;/A&gt;. Ďalšie informácie o automatickom účtovaní získate v témach &lt;A href="7410538f-4d0e-4d92-b76b-1e4df963548c"&gt;Automatické účtovanie tržieb Pokladnice OBERON (podvojné účtovníctvo)&lt;/A&gt; alebo &lt;A href="38889643-dcf0-4def-80fb-d0adb0b00d70"&gt;Automatické účtovanie tržieb Pokladnice OBERON&amp;nbsp;(jednoduché účtovníctvo)&lt;/A&gt;. 
+&lt;LI&gt;Záznamy o denných uzávierkach v &lt;I&gt;Knihe tržieb&lt;/I&gt; &lt;STRONG&gt;je možné schvaľovať&lt;/STRONG&gt; (v závislosti&amp;nbsp;od nastavenia systému) - napr. dennú uzávierku vykonáva bežná obsluha pokladnice, schvaľovanie vykonáva prevádzkar či vedúci a nakoniec schválenú uzávierku zaúčtuje účtovníčka. 
+&lt;LI&gt;&lt;I&gt;Kniha tržieb&lt;/I&gt; &lt;STRONG&gt;eviduje aj originál dennej uzávierky&lt;/STRONG&gt; tak, ako bola vytlačená na pokladničnej páske z fiškálneho zariadenia. Táto funkcia je k dispozícii iba v prípade, že komunikačný protokol&amp;nbsp;fiškálneho zariadenia podporuje vyčítanie dennej uzávierky a&amp;nbsp;zároveň je táto funkcia do systému OBERON implementovaná.&amp;nbsp;Originál dennej uzávierky je možné zobraziť v záložke &lt;EM&gt;Originál dennej uzávierky&amp;nbsp;&lt;/EM&gt;formulára &lt;I&gt;Záznam v knihe tržieb&lt;/I&gt; (po stlačení tlačidla &lt;EM&gt;Nový&lt;/EM&gt; alebo &lt;EM&gt;Oprava&lt;/EM&gt;). 
+&lt;LI&gt;Evidencia &lt;EM&gt;Kniha tržieb&lt;/EM&gt; slúži okrem automatického účtovania tržieb aj ako zdroj vybraných manažérskych informácií - tie sú dostupné tak vo forme tlačových výstupov (aj vo forme grafov - pozri napr. Obrázok č. 1), ako aj vo webovej aplikácii &lt;A href="b138daad-5453-4e53-8d2c-ecf2e81a5fcb"&gt;OBERON Web&lt;/A&gt;. 
+&lt;LI&gt;Bezprostredne po vykonaní dennej uzávierky je možné tržbu za pokladnicu odoslať vo forme &lt;STRONG&gt;notifikačnej e-mailovej alebo SMS správy&lt;/STRONG&gt;. Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="284db2bc-8b11-40d2-b3fe-213808fff2fa" style="auto-update-caption: true"&gt;Môžem poslať dennú uzávierku majiteľovi formou SMS alebo e-mailu?&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Ďalšie&amp;nbsp;informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Obraty dennej uzávierky program počíta ako &lt;STRONG&gt;súčet pokladničných dokladov v rámci danej dennej uzávierky&lt;/STRONG&gt;. Ako podklad&amp;nbsp;na výpočet obratov slúžia údaje z databázy OBERON - teda nie údaje zapísané vo fiškálnom zariadení. Aj keď by sa&amp;nbsp;údaje v databáze a vo fiškálnom zariadení mali zhodovať, vo výnimočných prípadoch sa môžu vyskytnúť rozdiely. Najčastejšie je to z dôvodu chybného zaúčtovania dokladu (chyba komunikácie s tlačiarňou, alebo chyba zápisu údajov do databázy), alebo z dôvodu rozdielneho spôsobu výpočtu súm na doklade, prípadne chyby v zaokrúhľovaní. 
+&lt;LI&gt;Oproti dennej uzávierke zostavenej fiškálnym zariadením&amp;nbsp;kniha tržieb umožňuje evidovať aj &lt;A href="46e6deed-ce15-42dc-be53-ab72142d9673"&gt;typ platby&lt;/A&gt; &lt;I&gt;&lt;STRONG&gt;Vnútorné zúčtovanie&lt;/STRONG&gt;&lt;/I&gt;. Ak je v nastavení typu platby &lt;EM&gt;Vnútorné zúčtovanie&lt;/EM&gt; začiarknutý parameter &lt;I&gt;Tlačiť v rozpise obratov podľa typu platby&lt;/I&gt;, bude sa jeho tržba zobrazovať v stĺpci &lt;I&gt;Vnútorné zúčtovanie 1&lt;/I&gt;. V&amp;nbsp;opačnom prípade sa bude zobrazovať v stĺpci &lt;I&gt;Vnútorné zúčtovanie 2&lt;/I&gt;. 
+&lt;LI&gt;Ak dôjde pri dennej uzávierke k chybe (napr. pri porovnaní celkového obratu vo fiškálnom zariadení&amp;nbsp;s&amp;nbsp;výškou obratu v databázovej evidencii),&amp;nbsp;táto chyba sa zaznamená - potom sa záznam v evidencii zvýrazní &lt;SPAN style="COLOR: rgb(255,0,0)"&gt;&lt;STRONG&gt;červenou farbou&lt;/STRONG&gt;&lt;/SPAN&gt;. V prípade vymazania poľa s textom chyby sa farebné zvýraznenie zruší. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Dostupné&amp;nbsp;možnosti&lt;/H2&gt;
+&lt;P&gt;Ďalšie možnosti práce so záznamami&amp;nbsp;sú dostupné&amp;nbsp;po stlačení tlačidla &lt;EM&gt;Možnosti&lt;/EM&gt;, prípadne v&amp;nbsp;kontextovej ponuke tabuľky záznamov.&lt;/P&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Dennú uzávierku schváliť (zrušiť schválenie)&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Dennú uzávierku môže schváliť (prípadne zrušiť)&amp;nbsp;iný&amp;nbsp;používateľ&amp;nbsp;ako ten, ktorý uzávierku vytvoril. Po schválení je možné&amp;nbsp;dennú uzávierku&amp;nbsp;zaúčtovať. Bližšie informácie o&amp;nbsp;uzávierkach získate v téme&amp;nbsp;&lt;A href="900c1b8a-2645-4225-ac93-d387237f3d90"&gt;Vyhotovovanie uzávierok&lt;/A&gt;.&amp;nbsp;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Zaúčtovať dennú uzávierku do účtovného (peňažného) denníka&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Otvorí sa sprievodca, pomocou ktorého je možné dennú uzávierku automaticky zaúčtovať do&amp;nbsp;&lt;A href="d8c9bfc8-92d1-4471-8909-e5f8ce602d6c"&gt;účtovného&lt;/A&gt;, resp.&amp;nbsp;&lt;A href="5e82cca9-b8af-4a80-ba30-7ab91914a595"&gt;peňažného denníka&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Zrušiť zaúčtovanie dennej uzávierky&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Otvorí sa sprievodca, pomocou ktorého je možné zaúčtovanie dennej uzávierky zrušiť, čím sa z&amp;nbsp;&lt;A href="d8c9bfc8-92d1-4471-8909-e5f8ce602d6c"&gt;účtovného&lt;/A&gt;, resp.&amp;nbsp;&lt;A href="5e82cca9-b8af-4a80-ba30-7ab91914a595"&gt;peňažného denníka&lt;/A&gt; automaticky odstránia záznamy vytvorené pri zaúčtovaní dennej uzávierky.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Zobraziť vytvorené záznamy v denníku&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Funkcia zobrazí záznamy v&amp;nbsp;&lt;A href="d8c9bfc8-92d1-4471-8909-e5f8ce602d6c"&gt;účtovnom&lt;/A&gt;, resp.&amp;nbsp;&lt;A href="5e82cca9-b8af-4a80-ba30-7ab91914a595"&gt;peňažnom denníku&lt;/A&gt;&amp;nbsp;vytvorené pri zaúčtovaní dennej uzávierky.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Výber&amp;nbsp;záznamov pre transport údajov&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Vyberú sa záznamy zobrazené v&amp;nbsp;zozname, ktoré sa exportujú pri najbližšom&amp;nbsp;&lt;A href="1dc4ea18-03c0-4028-afe5-4532583b6a44"&gt;off-line transporte údajov&lt;/A&gt; (zoznam možno zúžiť pomocou&amp;nbsp;&lt;A href="1ea156c6-edd0-46e0-ab65-7f41af30e672"&gt;filtra&lt;/A&gt;). Exportujú sa len záznamy s príznakom &lt;EM&gt;Neexportované&lt;/EM&gt;, ostatné záznamy sa do exportu nezaradia (príznak program nastavuje automaticky, možno ho však manuálne zmeniť - pozri nižšie &lt;EM&gt;Zmena príznakov pre transport údajov)&lt;/EM&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Zmena príznakov pre transport údajov&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Pri používaní&amp;nbsp;&lt;A href="1dc4ea18-03c0-4028-afe5-4532583b6a44"&gt;off-line transportov údajov&lt;/A&gt;&amp;nbsp;sa záznamy automaticky označujú príznakmi. Pomocou sprievodcu je možné príznaky záznamov manuálne zmeniť, a tým ovplyvniť zaradenie vybraných záznamov medzi exportované údaje pri ich najbližšom transporte. Zmeny možno aplikovať na všetky&amp;nbsp;záznamy&amp;nbsp;v zozname alebo len na aktuálny záznam. Príznaky možno nastaviť na:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;EM&gt;Neexportované,&lt;/EM&gt; 
+&lt;LI&gt;&lt;EM&gt;Exportované,&lt;/EM&gt; 
+&lt;LI&gt;&lt;EM&gt;Nikdy nezaradiť na export&lt;/EM&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Drop Down Section" layout="block"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Transport údajov&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Výber možnosti otvorí program&amp;nbsp;&lt;A href="24e780fd-36d3-4a6e-bfc0-a8665c75e4ee"&gt;OBERON Center&lt;/A&gt;, oddiel&amp;nbsp;&lt;A href="1dc4ea18-03c0-4028-afe5-4532583b6a44"&gt;Off-line transporty údajov&lt;/A&gt;, kde možno manuálne spustiť transport údajov na import, resp. export záznamov do/z knihy tržieb.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H5&gt;Obrázok č. 1: Mesačný prehľad tržieb podľa typov platieb&lt;/H5&gt;&lt;IMG style="BORDER-TOP: black 1px solid; BORDER-RIGHT: grey 1px solid; BORDER-BOTTOM: grey 1px solid; BORDER-LEFT: grey 1px solid" border=0 src="images/CashRegister/CashRegister_Graph_Sales.png"&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="b3412e49-3b7f-4ba5-8e0a-d9168851238c" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="69bbd499-45c0-4b0f-8f7a-c53fa5d70c1b">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="f5a06f57-5356-4646-a548-6c842acdbdc9" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="900c1b8a-2645-4225-ac93-d387237f3d90">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="452196a8-3be3-472a-a1ec-00f1b492c326" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="46e6deed-ce15-42dc-be53-ab72142d9673">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="82f30951-926d-49ea-b832-27ddf37a5505" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1a618813-f50b-46a3-8a94-598d5394f491">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="8e0f9a26-99ec-43bd-b901-900275d88518" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="219d1e12-dc75-4817-a237-5369100b0d11">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="d8b81a4b-2a06-4482-aa7c-2c245cd53b84" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="284db2bc-8b11-40d2-b3fe-213808fff2fa">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="f5a4e691-da8a-41fc-a091-bddc4f425553" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="7410538f-4d0e-4d92-b76b-1e4df963548c">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="bfc6c59b-c208-4014-8d76-65d799036489" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="38889643-dcf0-4def-80fb-d0adb0b00d70">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="70c3794f-6e58-480c-bbef-38a051121c9a" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="dffc17b2-b0c1-444a-ba8a-b80a9182a05e">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="47d74c3c-abb7-4bba-af72-7469279a4c54">
+      <Keyword m="2023-02-21T10:15:09.1835828Z">Tržba - evidencia</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="f2e7eb6a-db0b-4a28-83a0-02be1bd95026">
+      <Keyword m="2023-02-21T10:15:27.610012Z">Denná uzávierka - kniha tržieb</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="6bf3b085-d1bd-4401-9dab-108239c2fc05">
+      <Keyword m="2023-02-21T10:15:18.8580141Z">Tržby - evidencia</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

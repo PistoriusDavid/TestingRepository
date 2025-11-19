@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="1ad091e3-2718-4bb2-993a-8b032ca8d10e" Status="Complete" CreatedOn="2022-01-10T09:21:06.5239363Z" ModifiedOn="2024-05-14T07:00:34.5284766Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="51060" Name="Form_StockCard_UnitOtherPackage" BuildFlags="">
+  <Title m="2022-01-10T14:01:44.9409287Z">Formulár Alternatívna merná jednotka (balenie)</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-05-14T06:26:46.0773753Z">&lt;P&gt;Formulár&amp;nbsp;&lt;EM&gt;Alternatívna merná jednotka (balenie)&lt;/EM&gt;&amp;nbsp;umožňuje pokročilú prácu s mernými jednotkami na danej skladovej karte. Formulár&amp;nbsp;je dostupný z&amp;nbsp;&lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;formulára Skladová karta&lt;/A&gt;,&amp;nbsp;záložka &lt;EM&gt;Základné&lt;/EM&gt;, pole &lt;EM&gt;Alternatívne MJ&lt;/EM&gt;,&amp;nbsp;tlačidlo&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_Button_YellowPlus.png"&gt;.&lt;/P&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;innovasys:widget layout="block" type="Caution Box"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Nastavenie&amp;nbsp;&lt;EM&gt;Alternatívne&amp;nbsp;MJ&lt;/EM&gt;&amp;nbsp;je vo&amp;nbsp;&lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;formulári Skladová karta&lt;/A&gt; dostupné&amp;nbsp;iba&amp;nbsp;v prípade, že je v&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="58eee6a7-b5aa-47a5-9d0e-6f9987c96a52"&gt;oddiel Firma, Sklad&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt; záložka &lt;EM&gt;Skladové karty&lt;/EM&gt; začiarknutá možnosť&amp;nbsp;&lt;STRONG&gt;&lt;EM&gt;Umožniť pracovať s&amp;nbsp;alternatívnymi mernými jednotkami.&lt;/EM&gt;&lt;/STRONG&gt;&lt;/innovasys:widgetproperty&gt; &lt;/innovasys:widget&gt;
+&lt;H3&gt;Popis formulára&amp;nbsp;&lt;EM&gt;Alternatívna merná jednotka (balenie)&lt;/EM&gt;&lt;/H3&gt;
+&lt;P&gt;&lt;IMG style="WIDTH: 30%" border=0 alt="" src="images/Forms/Stock/Form_Stock_UnitOtherPackage.png"&gt;&lt;/P&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;H3&gt;Prepočet MJ&lt;/H3&gt;&lt;innovasys:widget layout="block" type="Drop Down Section"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Alternatívna MJ&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Alternatívnu mernú jednotku je potrebné zadať, ak chcete prijímať/vydávať skladovú položku v inej mernej jednotke, ako je základná merná jednotka.&amp;nbsp;V&amp;nbsp;tomto prípade&amp;nbsp;je potrebné&amp;nbsp;zadať koeficient prepočtu&amp;nbsp;k základnej mernej jednotke (napr. príjem stavebného materiálu na palety alebo výdaj alkoholu v 0,04 l pohárikoch).&lt;/P&gt;
+&lt;P&gt;Prepočet merných jednotiek je možné využiť aj v&amp;nbsp;prípade, že účtovná jednotka chce prijímať/vydávať tovar vo väčších vratných baleniach (napr. pivo v prepravkách a pod.).&lt;BR&gt;&lt;STRONG&gt;Príklad:&lt;/STRONG&gt; Účtovná jednotka eviduje fľaškové pivo vo&amp;nbsp;fľašiach (fl), alternatívnu mernú jednotku nastaví na&amp;nbsp;prepravky (prep) a&amp;nbsp;koeficient prepočtu množstva na 20 (1 prepravka obsahuje 20 fliaš piva).&lt;/P&gt;
+&lt;P&gt;Program umožňuje&amp;nbsp;zadať aj viac alternatívnych merných jednotiek. Bližšie informácie o práci s mernými jednotkami nájdete v téme&amp;nbsp;&lt;A href="7417bb5c-568f-4291-bbb9-0e5872ad6299" style="auto-update-caption: true"&gt;Práca s mernými jednotkami&lt;/A&gt;.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget layout="block" type="Drop Down Section"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Koeficient prepočtu množstva&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Zadáva sa koeficient prepočtu k základnej mernej jednotke.&lt;/innovasys:widgetproperty&gt; &lt;/innovasys:widget&gt;&lt;innovasys:widget layout="block" type="Drop Down Section"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Použiť pre príjem/výdaj&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;&lt;STRONG&gt;MJ pre príjem&lt;/STRONG&gt; - prepočet MJ sa aplikuje pri&amp;nbsp;príjme skladovej položky.&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;MJ pre výdaj&lt;/STRONG&gt; - prepočet MJ sa aplikuje pri&amp;nbsp;výdaji&amp;nbsp;skladovej položky.&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;MJ pre príjem a&amp;nbsp;výdaj&lt;/STRONG&gt; - prepočet MJ sa aplikuje pri príjme aj pri výdaji skladovej položky.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget layout="block" type="Drop Down Section"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Predvolená merná jednotka&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Umožňuje určiť pri príjme/výdaji, ktorá predvolená merná jednotka sa má použiť. Ak nebude ani jedna alternatívna merná jednotka predvolenou, použije sa základná merná jednotka. V zozname merných jednotiek sa názov predvolenej mernej jednotky zobrazuje &lt;STRONG&gt;tučným&amp;nbsp;písmom&lt;/STRONG&gt;.&lt;/innovasys:widgetproperty&gt; &lt;/innovasys:widget&gt;
+&lt;H3&gt;Balenie&lt;/H3&gt;&lt;innovasys:widget layout="block" type="Drop Down Section"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Balenie (číslo skladovej karty)&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Zadáva sa číslo skladovej karty vratného balenia typu prepravka, paleta a pod. Táto karta musí mať nastavený typ karty &lt;EM&gt;Vratný obal&lt;/EM&gt; a cenu - napr. &lt;EM&gt;Balenie - prepravka (pivo)&lt;/EM&gt;.&lt;/innovasys:widgetproperty&gt; &lt;/innovasys:widget&gt;&lt;innovasys:widget layout="block" type="Drop Down Section"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Názov balenia&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Zobrazuje názov skladovej karty vratného&amp;nbsp;balenia zvoleného v&amp;nbsp;predchádzajúcom kroku - napr. &lt;EM&gt;Balenie - prepravka (pivo)&lt;/EM&gt;.&lt;/innovasys:widgetproperty&gt; &lt;/innovasys:widget&gt;&lt;innovasys:widget layout="block" type="Drop Down Section"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Spôsob práce s balením&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Umožňuje nastaviť spôsob práce s&amp;nbsp;balením. Nastavenie určuje, za akých podmienok sa balenie vloží do dokladu&amp;nbsp;k položke automaticky, prípadne, či je ho potrebné pridať manuálne.&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;Balenie do dokladu&amp;nbsp;pridať manuálne&lt;/STRONG&gt; - balenie sa pri&amp;nbsp;predaji položky nevkladá do dokladu zakaždým automaticky, ale je ho potrebné pridať manuálne, napr. prepravka.&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;Balenie vložiť do dokladu vždy (len plné balenie)&lt;/STRONG&gt; - balenie sa pri predaji položky automaticky vloží do dokladu vždy, keď je&amp;nbsp;plné, napr. pri predaji 22 fľaškových pív sa do dokladu vloží len 1&amp;nbsp;balenie (plná prepravka obsahuje 20 pív). Pri predaji 10 fľaškových pív sa do dokladu nevloží žiadna prepravka.&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;Balenie vložiť do dokladu vždy (aj čiastočné balenie)&lt;/STRONG&gt; - balenie sa pri predaji položky automaticky vloží do dokladu v takom počte, aby všetky predávané položky boli v balení, napr. pri predaji 10 fľaškových pív sa do dokladu automaticky vloží aj 1 prepravka. Pri predaji 22 fľaškových pív sa do dokladu automaticky&amp;nbsp;vložia 2 prepravky (prvá prepravka pre 20 fliaš,&amp;nbsp;druhá prepravka pre 2 fľaše).&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H3&gt;Cena&lt;/H3&gt;&lt;innovasys:widget layout="block" type="Drop Down Section"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Predajná cena s DPH 1&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Zobrazuje cenu skladovej položky za balenie vypočítanú ako&amp;nbsp;súčin&amp;nbsp;predajnej ceny 1 (&lt;EM&gt;Cena 1&lt;/EM&gt;) nastavenej v záložke &lt;EM&gt;Cena&lt;/EM&gt;&amp;nbsp;&lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;formulára Skladová karta&lt;/A&gt;&amp;nbsp;a&amp;nbsp;koeficientu prepočtu množstva (napr. pri fľaškovom pive s cenou 2 € a&amp;nbsp;prepravke: 2&amp;nbsp;€ *&amp;nbsp;20&amp;nbsp;fl&amp;nbsp;=&amp;nbsp;40&amp;nbsp;€).&lt;/innovasys:widgetproperty&gt; &lt;/innovasys:widget&gt;&lt;innovasys:widget layout="block" type="Drop Down Section"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Prepočítavať predajnú cenu podľa balenia&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Začiarknutím políčka je možné&amp;nbsp;nastaviť prepočet predajnej ceny podľa balenia, t.&amp;nbsp;j. nastaviť koeficient prepočtu ceny za balenie&amp;nbsp;danej skladovej položky. Tým je možné nastaviť zvýhodnenú cenu za balenie.&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;Koeficient prepočtu ceny&lt;/STRONG&gt; - zadáva sa koeficient, podľa ktorého sa má vypočítať nová (zvýhodnená) predajná cena (napr. pri koeficiente 0,95 a predajnej cene 2 € za fľaškové pivo bude cena za prepravku piva 38 € (nie 40 €).&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;Predajná cena s DPH 1&lt;/STRONG&gt;&amp;nbsp;- zobrazuje sa nová predajná cena vypočítaná na základe zadaného koeficientu prepočtu ceny. Novú predajnú cenu je možné aj zadať priamo, v tom prípade sa koeficient prepočtu ceny dopočíta.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;/innovasys:widgetproperty&gt;&lt;!-- Skladové karty koniec --&gt;&lt;!-- Číslovanie dokladu --&gt;&lt;/innovasys:widgetproperty&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="b177ce06-0cdb-4c6e-8675-6aac2e8ce55e" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1a33ab0b-2df7-4dc2-962b-8a3319c16831">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="00dc6675-abd1-4a1f-9eb5-e2ff18f14c97" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="c233ada3-0fed-4911-97f3-0680973ebac1">
+      <Title m="2014-11-25T09:25:46.461914Z">Formulár Skladová karta</Title>
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="498e445d-d36a-4930-8dce-cf3096b4ea72" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="6ddfac3e-e981-40ed-bbc3-9198f75f969a">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="1ff0e538-e8af-41a9-b538-996610d164fd" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="7417bb5c-568f-4291-bbb9-0e5872ad6299">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="7a1f635c-4921-4ce7-8ced-1ec30b2f750e" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1619ae25-859c-4a39-a28b-ccdcc430f6a3">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="5b7c98df-4108-4861-b0c6-41aabeb849d1">
+      <Keyword m="2022-01-10T11:09:19.6331011Z">Prepočet merných jednotiek</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="b7e02d01-2ca8-4d53-8e68-62dd30151515">
+      <Keyword m="2022-01-10T11:09:27.8492442Z">Balenie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="4f6b053e-b10e-495e-a916-1fb0d9a15288">
+      <Keyword m="2022-01-10T11:09:31.4652306Z">Obal</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="29428b2c-e730-4390-a9f3-14bbf48f52be">
+      <Keyword m="2022-01-10T11:10:03.6453411Z">Cenotvorba - prepočet predajnej ceny podľa balenia</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="73458f16-9478-4927-8bb8-b87cc94575fa">
+      <Keyword m="2022-01-10T11:10:14.5760479Z">Prepočet predajnej ceny podľa balenia</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="96a00e72-7a6b-46a3-84b2-1029b1168a87">
+      <Keyword m="2022-01-10T13:44:35.2656173Z">Alternatívne MJ</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="0e70d86e-762d-4bf7-aac0-376f2ed7b128">
+      <Keyword m="2022-01-10T13:44:38.8268789Z">Prepravka</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="7717c65d-3a51-4272-8eb5-b15856d94419">
+      <Keyword m="2022-01-10T13:44:41.482602Z">Paleta</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="b1d69242-cb48-4889-be27-9e583a2d5a9a">
+      <Keyword m="2022-01-10T14:02:03.5905029Z">Alternatívna merná jednotka (balenie) - formulár</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="3f26ddc7-7301-4b7b-bf60-742a8fc9cf2b">
+      <Keyword m="2024-05-14T07:00:31.9880927Z">Predvolená merná jednotka</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

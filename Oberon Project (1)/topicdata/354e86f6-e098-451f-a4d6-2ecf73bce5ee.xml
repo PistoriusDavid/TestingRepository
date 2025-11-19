@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="354e86f6-e098-451f-a4d6-2ecf73bce5ee" Status="Complete" CreatedOn="2017-02-20T10:50:10.2958633Z" ModifiedOn="2023-07-31T13:17:58.9170132Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Wages_Advanced_Wage_To_AccDouble" BuildFlags="">
+  <Title m="2017-02-20T10:51:27.6248045Z">Zaúčtovanie miezd do účtovného denníka</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-07-31T13:14:03.6429109Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;informácie o zaúčtovaní spracovaných miezd&lt;/STRONG&gt; do&amp;nbsp;&lt;A href="d8c9bfc8-92d1-4471-8909-e5f8ce602d6c"&gt;účtovného denníka&lt;/A&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Systém OBERON umožňuje automaticky zaúčtovať spracované mzdy do&amp;nbsp;&lt;A href="d8c9bfc8-92d1-4471-8909-e5f8ce602d6c"&gt;účtovného denníka&lt;/A&gt;. Zaúčtovať je možné &lt;STRONG&gt;len&amp;nbsp;mzdy v&amp;nbsp;uzatvorenom období (mesiaci)&lt;/STRONG&gt;,&amp;nbsp;t. j.&amp;nbsp;po &lt;A href="4c0cffe2-a77b-44ea-bb3a-39476f21e420"&gt;mesačnej uzávierke spracovaných miezd&lt;/A&gt;. 
+&lt;LI&gt;Zaúčtovanie miezd je možné v OBERON-e realizovať dvoma základnými spôsobmi: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;priame zaúčtovanie&lt;/STRONG&gt; - vykonáva sa v&amp;nbsp;evidencii&amp;nbsp;&lt;A href="41513109-f711-4de5-b494-67671f203dca"&gt;Hromadné účtovanie dokladov&lt;/A&gt;&amp;nbsp;(ponuka &lt;EM&gt;Účtovníctvo&lt;/EM&gt;), kde sa o&amp;nbsp;účtovaní vytvorí záznam. Tu bude dostupná aj správa o priebehu zaúčtovania (chybový protokol). Pomocou&amp;nbsp;sprievodcu zaúčtovaním sa &amp;nbsp;automaticky vytvoria zápisy v&amp;nbsp;účtovnom denníku. V prípade potreby je možné toto zaúčtovanie aj zrušiť a hromadne tak záznamy z účtovného denníka vymazať. Tento spôsob je možné použiť len v prípade, že spracovanie miezd a účtovníctvo sa vykonávajú &lt;STRONG&gt;v tej istej databáze (teda nie externe)&lt;/STRONG&gt;. Postup priameho zaúčtovania pozri nižšie. 
+&lt;LI&gt;&lt;STRONG&gt;zaúčtovanie pomocou súboru XML&lt;/STRONG&gt;&amp;nbsp;- pri&amp;nbsp;&lt;A href="4c0cffe2-a77b-44ea-bb3a-39476f21e420"&gt;mesačnej uzávierke miezd&lt;/A&gt; sa môže automaticky generovať súbor XML, ktorý obsahuje mzdové&amp;nbsp;údaje&amp;nbsp;na zaúčtovanie. Ten je potom možné naimportovať priamo&amp;nbsp;do účtovného denníka. Tento spôsob sa spravidla používa vtedy,&amp;nbsp;keď sa spracovanie miezd realizuje &lt;STRONG&gt;na inom počítači (v&amp;nbsp;inej databáze)&lt;/STRONG&gt;&amp;nbsp;ako spracovanie účtovníctva (napr. pri externom spracovávaní miezd). Postup zaúčtovania pomocou súboru XML pozri nižšie. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Zaúčtovanie miezd sa vykonáva &lt;STRONG&gt;na základe&amp;nbsp;nastavení zaúčtovania&lt;/STRONG&gt; - určujú, akým spôsobom a na aké účty sa má zaúčtovanie vykonať. Viac informácií v&amp;nbsp;téme&amp;nbsp;&lt;A href="57a10f8d-6470-4ab0-9000-1c3b31d25852" style="auto-update-caption: true"&gt;Zaúčtovanie miezd - nastavenia&lt;/A&gt;. 
+&lt;LI&gt;Zaúčtovanie miezd je možné vykonať &lt;STRONG&gt;len po mesačnej uzávierke miezd&lt;/STRONG&gt;. Opačne to však už neplatí, zaúčtované mzdy v&amp;nbsp;účtovnom denníku &lt;STRONG&gt;nemajú vplyv na zrušenie mesačnej uzávierky&lt;/STRONG&gt; miezd. Dôvodom je fakt, že mzdy už môžu byť zaúčtované, v&amp;nbsp;spracovaných mzdách&amp;nbsp;je však potrebné upraviť údaj, ktorý nemá vplyv na vyplatené mzdy, napr. údaj o zostatku dovolenky, počet dní poistenia a pod. Ak by sa však zmenila napr. hrubá mzda, &lt;STRONG&gt;je&amp;nbsp;potrebné upraviť účtovanie manuálne, prípadne&amp;nbsp;účtovanie zrušiť a opätovne vykonať&lt;/STRONG&gt;. 
+&lt;LI&gt;Záznamy v&amp;nbsp;&lt;A href="d8c9bfc8-92d1-4471-8909-e5f8ce602d6c"&gt;účtovnom denníku&lt;/A&gt;&amp;nbsp;vytvorené&amp;nbsp; automatickým zaúčtovaním je možné v prípade potreby &lt;STRONG&gt;upravovať, prípadne dopĺňať ďalšie&lt;/STRONG&gt;. Tieto záznamy sa nelíšia od bežných záznamov v denníku -&amp;nbsp;&amp;nbsp;len boli automaticky vytvorené programom. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Postup priameho zaúčtovania&lt;/H2&gt;
+&lt;P&gt;Tento typ zaúčtovania použite v&amp;nbsp;prípade, že sa spracovanie miezd vykonáva&amp;nbsp;v&amp;nbsp;rovnakej databáze, ako sa spracúva účtovníctvo.&lt;/P&gt;
+&lt;OL&gt;
+&lt;LI&gt;Po vykonaní&amp;nbsp;&lt;A href="4c0cffe2-a77b-44ea-bb3a-39476f21e420"&gt;mesačnej uzávierky miezd&lt;/A&gt; zvoľte ponuku &lt;EM&gt;Účtovníctvo&lt;/EM&gt;,&amp;nbsp;&lt;A href="41513109-f711-4de5-b494-67671f203dca"&gt;Hromadné účtovanie dokladov&lt;/A&gt; a stlačte tlačidlo &lt;EM&gt;Nový&lt;/EM&gt;. 
+&lt;LI&gt;Otvorí sa sprievodca zaúčtovaním.&amp;nbsp;Zvoľte evidenciu&amp;nbsp;(&lt;EM&gt;&lt;STRONG&gt;Mzdy&lt;/STRONG&gt;&lt;/EM&gt;) a&amp;nbsp;obdobie na zaúčtovanie. 
+&lt;LI&gt;Stlačte tlačidlo &lt;EM&gt;Ďalej&lt;/EM&gt; - tu je možné zadať dátum a čas evidencie záznamu v evidencii hromadného účtovania (má len informatívny charakter - mzdy budú zaúčtované&lt;STRONG&gt;&amp;nbsp;v&amp;nbsp;posledný deň daného mesiaca&lt;/STRONG&gt;, ktorého mzdy sa účtujú). 
+&lt;LI&gt;V ďalšom kroku sprievodcu je možné zvoliť, či pred samotným zaúčtovaním sa má vykonať &lt;STRONG&gt;test zaúčtovania&lt;/STRONG&gt; - tu sa vykoná výpočet zaúčtovania (rozúčtovania) miezd, ako aj test zaúčtovania v účtovnom denníku. Test je nepovinný, odporúčame ho však vykonať. 
+&lt;LI&gt;Po stlačení tlačidla &lt;EM&gt;&lt;STRONG&gt;Dokončiť&lt;/STRONG&gt;&lt;/EM&gt;&amp;nbsp;sa vykoná samotné zaúčtovanie miezd&amp;nbsp;- v účtovnom denníku&amp;nbsp;sa vytvoria nové záznamy podľa zvolených kritérií účtovania. &lt;/LI&gt;&lt;/OL&gt;
+&lt;H2&gt;Postup zaúčtovania pomocou súboru XML&lt;/H2&gt;
+&lt;P&gt;Tento typ zaúčtovania sa používa v&amp;nbsp;prípade, že sa spracovanie miezd vykonáva&amp;nbsp;v&amp;nbsp;inej databáze, ako sa spracúva účtovníctvo.&lt;/P&gt;
+&lt;OL&gt;
+&lt;LI&gt;V&amp;nbsp;sprievodcovi mesačnou uzávierkou spracovaných&amp;nbsp;miezd (ponuka &lt;EM&gt;Mzdy&lt;/EM&gt;,&amp;nbsp;&lt;A href="4c0cffe2-a77b-44ea-bb3a-39476f21e420"&gt;Mesačná uzávierka miezd&lt;/A&gt;) začiarknite položku &lt;EM&gt;Voliteľné tlačové výstupy&lt;/EM&gt;&amp;nbsp;-&amp;nbsp;pole &lt;EM&gt;&lt;STRONG&gt;Podklady pre zaúčtovanie do účtovného denníka&lt;/STRONG&gt;&lt;/EM&gt;. Vtedy sa okrem tlačového výstupu automaticky vygeneruje súbor XML (napr. &lt;EM&gt;Uctovanie miezd 07-2023.xml&lt;/EM&gt;), v ktorom sú&amp;nbsp;uložené mzdové zložky&amp;nbsp;na zaúčtovanie.&amp;nbsp;Dátum zaúčtovania bude nastavený automaticky &lt;STRONG&gt;na posledný deň daného mesiaca.&lt;/STRONG&gt; 
+&lt;LI&gt;Daný súbor XML je potrebné doručiť&amp;nbsp;do počítača, kde sa realizuje spracovanie účtovníctva. 
+&lt;LI&gt;Na počítači, kde sa spracováva účtovníctvo, otvorte&amp;nbsp;&lt;A href="d8c9bfc8-92d1-4471-8909-e5f8ce602d6c"&gt;Účtovný denník&lt;/A&gt;&amp;nbsp;- stlačte tlačidlo &lt;EM&gt;Možnosti&lt;/EM&gt;, zvoľte položku &lt;EM&gt;&lt;STRONG&gt;XML komunikácia - hromadný import údajov&lt;/STRONG&gt;.&lt;/EM&gt;&amp;nbsp;Otvorí sa sprievodca importom údajov, ktorý umožňuje naimportovať súbor XML. 
+&lt;LI&gt;Po stlačení tlačidla &lt;EM&gt;&lt;STRONG&gt;Dokončiť&lt;/STRONG&gt;&lt;/EM&gt;&amp;nbsp;sa&amp;nbsp;v&amp;nbsp;účtovnom denníku automaticky vytvoria záznamy. &lt;/LI&gt;&lt;/OL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="938b6cfb-f9b7-4811-b8ee-4ddedd06a226" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="d8c9bfc8-92d1-4471-8909-e5f8ce602d6c">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="c7cff7ea-a390-4293-b340-3052cd0d1271" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="57a10f8d-6470-4ab0-9000-1c3b31d25852">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="84388f29-22d0-4a6b-a9ae-bfc75d4935e5" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="41513109-f711-4de5-b494-67671f203dca">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="417d305b-aeb9-4131-8bd9-33e626737a8a" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="4c0cffe2-a77b-44ea-bb3a-39476f21e420">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="b5b4756d-ac5a-43eb-a4b5-aa2500a17efd" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="c1379073-007e-434a-a410-d6fde709ff9e">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="6aa51fe4-69aa-40e8-9639-f6a3e9f5f9a3">
+      <Keyword m="2021-07-19T07:44:20.1631184Z">Účtovanie miezd</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="3610a53e-d7e5-4c5d-91ef-d67b5aace2b2">
+      <Keyword m="2023-07-31T13:17:58.746265Z">Mzdy - účtovanie</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

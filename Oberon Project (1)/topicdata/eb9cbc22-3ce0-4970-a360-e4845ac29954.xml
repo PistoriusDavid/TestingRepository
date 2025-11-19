@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="eb9cbc22-3ce0-4970-a360-e4845ac29954" Status="Complete" CreatedOn="2024-01-24T11:12:43.0256879Z" ModifiedOn="2025-03-13T13:39:46.7018501Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="OBERON_News_2024_01" BuildFlags="{4AAE0FD4-7313-4FEE-A25F-0785B885F736},826B51BD-B6F0-4B2C-A814-029E169D018F">
+  <Title m="2024-01-24T11:13:06.2481737Z">Čo bolo nové vo verzii Január/2024</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2025-03-13T13:39:46.7018501Z">&lt;P&gt;Dňa 24.01.2024&amp;nbsp;bola&amp;nbsp;vydaná nová verzia ekonomického systému OBERON s&amp;nbsp;označením &lt;STRONG&gt;Január/2024&lt;/STRONG&gt;. V&amp;nbsp;nasledujúcej časti sú vymenované najdôležitejšie novinky, vylepšenia a&amp;nbsp;opravy oproti verzii&amp;nbsp;&lt;STRONG&gt;December/2023&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;H2&gt;Účtovníctvo&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Daňové priznanie typu B&lt;/STRONG&gt; - bolo doplnené tlačivo pre daňové priznanie typu B za rok 2023 (platné od 01.01.2024). 
+&lt;LI&gt;&lt;STRONG&gt;Nový typ DPH&lt;/STRONG&gt; - pribudol nový typ DPH "Oprava dane podľa § 25 ods. 1 až 3 (zníženie) [1,3]". 
+&lt;LI&gt;&lt;STRONG&gt;Otvorené záväzky k dátumu&lt;/STRONG&gt; - v sprievodcovi tlačového výstupu pribudla možnosť vyfiltrovať neuhradené záväzky v určitej lehote splatnosti (pôvodne sa len členili podľa splatnosti). 
+&lt;LI&gt;&lt;STRONG&gt;Klasifikácia produkcie&lt;/STRONG&gt; - tento číselník evidencie majetku bol upravený o legislatívne zmeny platné od 01.01.2024. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Skladová evidencia&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;PrestaShop&lt;/STRONG&gt; - pribudla podpora modulu pre čiastkové množstvá (t. j. hodnoty s desatinnými miestami) a údaje o mernej jednotke (okrem ks pribudla možnosť práce aj s inými mernými jednotkami, napr. kg, m a pod.). 
+&lt;LI&gt;&lt;STRONG&gt;Objednávky prijaté&lt;/STRONG&gt; - pribudol nový typ stavu prijatej objednávky, a to &lt;EM&gt;&lt;STRONG&gt;Očakávané vrátenie&lt;/STRONG&gt;&lt;/EM&gt;. Objednávke sa tento stav automaticky nastaví vtedy, keď obsahuje len záporné položky. Tento stav možno použiť v prípadoch, keď je potrebné evidovať vrátenie tovaru, prípadne obalov z&amp;nbsp;predaných tovarov (napr. paliet, prepraviek, sudov a pod.). &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Pokladnica OBERON&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;SPAN&gt;&lt;STRONG&gt;Displej&lt;/STRONG&gt; - dĺžka zobrazenia sumy na displeji po vytlačení dokladu sa zvýšila na 40 sekúnd (pôvodne sa suma vynulovala do 15 sekúnd).&lt;/SPAN&gt; 
+&lt;LI&gt;&lt;SPAN&gt;&lt;STRONG&gt;Sieťová tlač&lt;/STRONG&gt; - v &lt;EM&gt;Pokladnici OBERON&lt;/EM&gt; bola funkcia &lt;EM&gt;Sieťová tlač&lt;/EM&gt; zrušená a&amp;nbsp;nahradená modernejšími možnosťami zdieľania fiškálneho zariadenia, napr. plnohodnotným zdieľaním pri eKasa PANDORA (t.&amp;nbsp;j. zdieľanie jednej fiškálnej tlačiarne z dvoch alebo aj viacerých počítačov).&lt;/SPAN&gt; 
+&lt;LI&gt;&lt;SPAN&gt;&lt;STRONG&gt;Automatické overenie&lt;/STRONG&gt; - pribudla možnosť automaticky overiť, či bol doklad korektne zaevidovaný vo fiškálnom zariadení (CHDÚ). Funkcia sa automaticky aktivuje, ak v prípade zaevidovania (tlače) dokladu nepríde z fiškálneho zariadenia odpoveď, napr. pri chýbajúcom papieri v tlačiarni, pri prerušení spojenia z dôvodu výpadku počítačovej siete a pod. Uvedená funkcia zvýši spoľahlivosť systému a&amp;nbsp;nebude závislá od obsluhy pokladnice. Automatické overenie je dostupné pre zariadenia&amp;nbsp;&lt;A href="00fa9619-a13d-4745-8938-cc0c2b5039ce"&gt;eKasa PANDORA&lt;/A&gt; a , t.&amp;nbsp;j. len pre zariadenia, ktoré umožňujú načítať daný doklad z CHDÚ. Viac informácií v&amp;nbsp;téme&amp;nbsp;&lt;A href="29c1b7d9-36d4-4d86-89bd-54cd2cb22050" style="auto-update-caption: true"&gt;Problémy pri zaevidovaní dokladu&lt;/A&gt;.&lt;/SPAN&gt; &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Mzdy a dochádzka&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;
+&lt;DIV&gt;&lt;STRONG&gt;Mzdy&lt;/STRONG&gt; - boli vykonané legislatívne úpravy, aby bolo možné spracovávať mzdy za obdobie 01/2024. Na spracovanie miezd za január 2024 je&amp;nbsp;preto potrebné&lt;STRONG&gt;&amp;nbsp;mať nainštalovanú verziu &lt;EM&gt;Január/2024&lt;/EM&gt;&lt;/STRONG&gt;. &lt;/DIV&gt;
+&lt;LI&gt;
+&lt;DIV&gt;&lt;STRONG&gt;Prehľad o zrazených preddavkoch na daň&lt;/STRONG&gt; - implementovaná nová verzia výkazu platná pre rok 2024. &lt;/DIV&gt;
+&lt;LI&gt;
+&lt;DIV&gt;&lt;STRONG&gt;Výpočet miezd&lt;/STRONG&gt; - úprava výpočtu nepravidelných odvodov, úprava prenosu náhrady za sviatok z dochádzky do tvorby miezd v prípade neprítomnosti celý mesiac. &lt;/DIV&gt;
+&lt;LI&gt;
+&lt;DIV&gt;&lt;STRONG&gt;Registračný list FO&lt;/STRONG&gt; - úprava exportu, aby sa do prerušenia zahrnul aj mesiac nasledujúci po mesiaci, za ktorý sa výkaz generuje. Pri prerušení je od roku 2023 možné uviesť začiatok aj ukončenie prerušenia v jednom výkaze aj v prípade, že je prerušenie na rozhraní dvoch mesiacov (t. j. ak prerušenie začalo v minulom a skončilo v aktuálnom mesiaci, napr. choroba začala 20.12.2023 a skončila 8.1.2024). V takomto prípade teda nie je potrebné generovať dva výkazy (osobitne za december a osobitne za január), ale prerušenia sa uvedú v jednom výkaze. &lt;/DIV&gt;
+&lt;LI&gt;
+&lt;DIV&gt;&lt;STRONG&gt;Hromadné zaslanie výplatných pások&lt;/STRONG&gt; - v sprievodcovi bol parameter&amp;nbsp;&lt;EM&gt;Prevádzka&lt;/EM&gt; zmenený na &lt;EM&gt;Pracovisko&lt;/EM&gt;. &lt;/DIV&gt;&lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;CRM a registratúra&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Uloženie zaslanej&amp;nbsp;e-mailovej správy&lt;/STRONG&gt; - pribudlo automatické ukladanie&amp;nbsp;každej zaslanej&amp;nbsp;e-mailovej správy z &lt;A href="2bac8d21-6ae0-44e4-8b2e-403ac2f25955"&gt;formulára Tlačové výstupy&lt;/A&gt; do evidencie&amp;nbsp;&lt;A href="32dedc5d-8e4e-420e-acec-60ba202b6ec7" style="auto-update-caption: true"&gt;E-mailové správy&lt;/A&gt; v module &lt;EM&gt;CRM a registratúra&lt;/EM&gt;, napr. emailová správa s priloženou faktúrou sa uloží. Tak je možné jednoduchšie overiť, či a komu bola e-mailová správa zaslaná a v prípade potreby jej zaslanie zopakovať. Predpokladom ukladania e-mailových správ je povolenie používania modulu &lt;EM&gt;CRM a&amp;nbsp;registratúra&lt;/EM&gt;&amp;nbsp;v&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="081aff87-08e6-4933-9843-d1b47dc745fb"&gt;oddiel Firma, Moduly&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Evidencia vozidiel&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Evidencia vozidiel&lt;/STRONG&gt; - boli vykonané úpravy z dôvodu evidencie&amp;nbsp; vozidiel s elektrickým pohonom. 
+&lt;LI&gt;&lt;STRONG&gt;Vozidlá&lt;/STRONG&gt; - implementácia možnosti zadať pri kategórií vozidla, či ide o ťahač alebo náves. Zároveň implementácia daných údajov v daňovom priznaní spolu s danými sadzbami dane. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;SPAN&gt;V prípade preskočenia viacerých verzií programu je dôležité si prečítať informácie o novinkách, vylepšeniach a opravách&amp;nbsp;aj&amp;nbsp;z&amp;nbsp;&lt;A href="dc832235-0e36-4aac-ae54-e51641eb2f50"&gt;predchádzajúcich verzií&lt;/A&gt;&lt;STRONG&gt;.&lt;/STRONG&gt; V&amp;nbsp;niektorej z predošlých verzií mohlo dôjsť k&amp;nbsp;dôležitým zmenám, o&amp;nbsp;ktorých je v niektorých prípadoch nevyhnutné vedieť.&lt;/SPAN&gt;&lt;/innovasys:widgetproperty&gt; &lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="c7357ab9-e0d8-47e3-b432-b3034ba1bd58" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="dc832235-0e36-4aac-ae54-e51641eb2f50">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="0aff6ea2-d3f9-4c1e-9000-f2192f9f2edc">
+      <Keyword m="2014-11-24T11:38:34.3847265Z">Verzia</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

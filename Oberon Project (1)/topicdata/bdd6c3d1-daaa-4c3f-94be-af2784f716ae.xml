@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="bdd6c3d1-daaa-4c3f-94be-af2784f716ae" Status="Complete" CreatedOn="2017-06-05T10:42:46.2061483Z" ModifiedOn="2023-04-03T13:08:31.6761863Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Developers_XMLCommunication_Template" BuildFlags="">
+  <Title m="2021-01-28T11:30:44.8611448Z">Transformačné šablóny XSLT na mieru</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-04-03T13:08:31.6761863Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje&amp;nbsp;&lt;STRONG&gt;postup, ako požiadať&amp;nbsp;o&amp;nbsp;vytvorenie transformačnej šablóny XSLT na mieru&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;A href="56f661c6-24da-46aa-b157-5d988cbe792b"&gt;XML komunikácia&lt;/A&gt; v systéme OBERON je založená na súboroch XML, ktoré sú &lt;STRONG&gt;presne špecifického formátu&lt;/STRONG&gt; (ide o tzv. natívny formát OBERON XML). Aby&amp;nbsp;mohol systém&amp;nbsp;OBERON importovať údaje z&amp;nbsp;iného&amp;nbsp;softvéru s&amp;nbsp;odlišnou štruktúrou XML súboru, existuje možnosť pred samotným importom automaticky vykonať konverziu (transformáciu) týchto údajov. 
+&lt;LI&gt;Konverziu údajov je možné vykonať niekoľkými spôsobmi, pričom najčastejšie je to pomocou&amp;nbsp;&lt;A href="50adcd4a-de72-439e-895f-021cd9537535"&gt;transformačných šablón XSLT&lt;/A&gt;.&amp;nbsp;Hotové transformačné šablóny pre XML komunikáciu je možné vyhľadať a inštalovať pomocou&amp;nbsp;&lt;A href="a1ae5eb5-f369-4aab-80b2-c6585166d550"&gt;Správcu doplnkov&lt;/A&gt;&amp;nbsp;(oddiel&amp;nbsp;XML). 
+&lt;LI&gt;V prípade, že potrebná transformačná šablóna sa v &lt;EM&gt;Správcovi doplnkov&lt;/EM&gt; &lt;STRONG&gt;nenachádza, je možné vytvoriť&lt;/STRONG&gt; &lt;STRONG&gt;transformačnú šablónu na mieru&lt;/STRONG&gt; (podľa požiadaviek konkrétneho zákazníka). &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Ako požiadať o vytvorenie transformačnej šablóny XSLT na mieru&lt;/H2&gt;
+&lt;P&gt;V prípade, že máte záujem o vytvorenie novej transformačnej šablóny XSLT na mieru, je potrebné &lt;STRONG&gt;zaslať e-mail&lt;/STRONG&gt; na adresu &lt;A href="mailto:exalogic@exalogic.sk"&gt;exalogic@exalogic.sk&lt;/A&gt;&amp;nbsp;&lt;STRONG&gt;s presne špecifikovanou požiadavkou&lt;/STRONG&gt;, ktorá by mala obsahovať najmä tieto informácie:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;vstupný&amp;nbsp;súbor XML (ktorý sa bude importovať), 
+&lt;LI&gt;faktúru, prípadne iný doklad vo formáte PDF, 
+&lt;LI&gt;krátky popis, 
+&lt;LI&gt;časový horizont, v ktorom má byť šablóna vytvorená. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Cena transformačnej šablóny&lt;/H2&gt;
+&lt;P&gt;Cena bude stanovená po úvodnej analýze dát po zaslaní e-mailu. Orientačne sa cena bude pohybovať od 100 € do niekoľko stoviek € s DPH v závislosti od náročnosti a&amp;nbsp;všeobecnej prospešnosti aj pre iných zákazníkov. Viac informácií získate v téme&amp;nbsp;&lt;A href="b117e4ac-71e5-46fe-9ddd-d309e8415a85" style="auto-update-caption: true"&gt;Cenník - služby&lt;/A&gt;.&lt;/P&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Transformačné šablóny na konverziu údajov je možné vytvoriť aj vo vlastnej réžii. Vzorové šablóny XSLT&amp;nbsp;použiteľné&amp;nbsp;na konverziu XML súborov sú k&amp;nbsp;dispozícii na&amp;nbsp;webovej stránke &lt;A href="http://www.exalogic.sk/"&gt;www.exalogic.sk&lt;/A&gt; v sekcii &lt;EM&gt;Na stiahnutie -&amp;nbsp;&lt;/EM&gt;&lt;A href="https://exalogic.sk/na-stiahnutie/oberon-agenda-firmy/xml-komunikacia-subory/" target=_blank&gt;XML komunikácia - súbory&lt;/A&gt;&lt;EM&gt;.&lt;/EM&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="c476e268-7914-4b55-a4fb-f7a9f947c466" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="56f661c6-24da-46aa-b157-5d988cbe792b">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="9b2b865f-6af9-4786-9ace-88e8c7e323aa" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="ab9d497d-fd18-4185-a487-28e3bf04cecf">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="68738105-b15e-42be-9a8c-2163e926e55e" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="50adcd4a-de72-439e-895f-021cd9537535">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="cb53aed6-16ca-4cab-a04d-cb4e0b43889f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="c4bb279e-a2ba-4690-83b9-efb2e11cc077">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="b8fbd84a-43ac-4f7b-8ded-d245bcb0a1bd" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="2c463344-2e7a-4599-8afb-f5d06c2366e0">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="5d355f50-f84d-4765-a841-e61aaa129f34">
+      <Keyword m="2021-04-06T08:01:06.9613077Z">XML komunikácia - transformačné šablóny XSLT na mieru</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="4b79a1e8-1752-4eda-95fc-5c72989d5e31" Status="Complete" CreatedOn="2014-09-11T06:56:20.2150186Z" ModifiedOn="2023-05-23T13:15:55.6405684Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="CRM_Registrature_Started_Zapis_Registraturny_Dennik" BuildFlags="">
+  <Title m="2023-05-23T08:40:45.0606797Z">Pridanie záznamu do registratúrneho (podacieho) denníka</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-05-23T13:15:01.9900572Z">&lt;P&gt;V tejto téme &lt;EM&gt;Pomocníka&lt;/EM&gt; je uvedený &lt;STRONG&gt;postup pridania&amp;nbsp;záznamu do&amp;nbsp;&lt;/STRONG&gt;&lt;A href="0fe6411c-9069-4097-b90f-e69f01a61569"&gt;registratúrneho (podacieho) denníka&lt;/A&gt; v&amp;nbsp;module&amp;nbsp;&lt;A href="f1a6963d-36aa-4134-92a5-fa47a4345e74"&gt;CRM a registratúra&lt;/A&gt;.&lt;/P&gt;
+&lt;H2&gt;Postup pridania&amp;nbsp;záznamu&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;V&amp;nbsp;programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt; zvoľte ponuku &lt;EM&gt;CRM&lt;/EM&gt;, &lt;A href="0fe6411c-9069-4097-b90f-e69f01a61569" style="auto-update-caption: true"&gt;Registratúrny (podací) denník&lt;/A&gt;. 
+&lt;LI&gt;Stlačte tlačidlo &lt;I&gt;Nový&lt;/I&gt;, otvorí sa&amp;nbsp;&lt;A href="2af84798-6d4b-40bc-8b7b-e537906a909c"&gt;formulár Záznam v registratúrnom (podacom) denníku&lt;/A&gt;&lt;SPAN lang=en xml:lang="en"&gt;.&lt;/SPAN&gt;
+&lt;LI&gt;&lt;SPAN lang=en xml:lang="en"&gt;Zadajte potrebné údaje. Na zaradenie registratúrneho záznamu do&amp;nbsp;&lt;A href="b9d813c2-1ac9-4606-b104-819ea02b6463"&gt;spisu&lt;/A&gt; stlačte tlačidlo&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_ListButton.png"&gt;&amp;nbsp;pri poli &lt;EM&gt;Číslo spisu&lt;/EM&gt; a vyberte konkrétny spis v&amp;nbsp;stromovej štruktúre (v prípade potreby je tu možné založiť nový spis).&lt;/SPAN&gt; 
+&lt;LI&gt;&lt;SPAN lang=en xml:lang="en"&gt;&lt;SPAN lang=en xml:lang="en"&gt;Pole &lt;I&gt;Evidenčné číslo&lt;/I&gt; &lt;EM&gt;(značka)&lt;/EM&gt; program vyplní automaticky&amp;nbsp;podľa nastaveného spôsobu číslovania v&amp;nbsp;ponuke&amp;nbsp;&lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="8a35cd0d-3fea-40c5-9831-a35062e762b4"&gt;Nastavenia programu&lt;/A&gt;,&amp;nbsp;&lt;A href="2453b87d-ddca-4ac1-b4ba-b7199dce0c87"&gt;oddiel Firma, CRM a registratúra&lt;/A&gt;, záložka &lt;EM&gt;Registratúra&lt;/EM&gt;, v&amp;nbsp;odôvodnených prípadoch ho možno upraviť.&lt;/SPAN&gt;&lt;/SPAN&gt; 
+&lt;LI&gt;&lt;SPAN lang=en xml:lang="en"&gt;&lt;SPAN lang=en xml:lang="en"&gt;Vyberte registratúrnu značku (tlačidlo&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_ListButton.png"&gt;), ktorá bližšie špecifikuje typ záznamu podľa&amp;nbsp;&lt;A href="e24eddba-71a4-4980-9396-4947da76375a"&gt;registratúrneho plánu&lt;/A&gt;.&amp;nbsp;&lt;SPAN lang=en xml:lang="en"&gt;Ak je v&amp;nbsp;ľavej časti&amp;nbsp;&lt;A href="0fe6411c-9069-4097-b90f-e69f01a61569"&gt;Registratúrneho (podacieho) denníka&lt;/A&gt; vybraná&lt;/SPAN&gt; &lt;SPAN lang=sk xml:lang="sk"&gt;položka&lt;/SPAN&gt; &lt;SPAN lang=en xml:lang="en"&gt;registratúrneho plánu, pole sa vyplní automaticky.&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt; 
+&lt;LI&gt;&lt;SPAN lang=en xml:lang="en"&gt;&lt;SPAN lang=en xml:lang="en"&gt;&lt;SPAN lang=en xml:lang="en"&gt;V prípade číslovania podľa organizačných útvarov vyberte&amp;nbsp;&lt;A href="e507e3e5-493f-48df-a358-f85facee1796"&gt;organizačný útvar&lt;/A&gt;&amp;nbsp;účtovnej jednotky.&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt; 
+&lt;LI&gt;&lt;SPAN lang=en xml:lang="en"&gt;&lt;SPAN lang=en xml:lang="en"&gt;&lt;SPAN lang=en xml:lang="en"&gt;Zadajte údaj o fyzickom &lt;A href="868b6d78-95e3-441c-b92d-3766d440ae08"&gt;umiestnení&lt;/A&gt; registratúrneho záznamu&amp;nbsp;(budovy, miestnosti...).&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;
+&lt;LI&gt;&lt;SPAN lang=en xml:lang="en"&gt;&lt;SPAN lang=en xml:lang="en"&gt;&lt;SPAN lang=en xml:lang="en"&gt;&lt;SPAN lang=en xml:lang="en"&gt;&lt;SPAN lang=en xml:lang="en"&gt;&lt;SPAN lang=en xml:lang="en"&gt;&lt;SPAN lang=en xml:lang="en"&gt;K&amp;nbsp;záznamu je možné evidovať rôzne prílohy (napr. kópiu evidovaného dokumentu). Stlačením tlačidla &lt;EM&gt;Prílohy&lt;/EM&gt; sa otvorí evidencia &lt;EM&gt;Prílohy&lt;/EM&gt;, v ktorej možno napr. oskenovať, prípadne importovať dokument (tlačidlo &lt;EM&gt;Možnosti&lt;/EM&gt;). Po stlačení tlačidla &lt;EM&gt;Nový&lt;/EM&gt; sa otvorí&amp;nbsp;&lt;A href="d36ad291-a0d7-45f5-b79b-489d18ff28ee"&gt;formulár Príloha&lt;/A&gt;, v&amp;nbsp;ktorom možno po stlačení tlačidla výberu&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/Controls/Controls_ListButton.png"&gt; nalistovať dokument z&amp;nbsp;vybraného&amp;nbsp;umiestnenia v&amp;nbsp;počítači.&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt; 
+&lt;LI&gt;&lt;SPAN lang=en xml:lang="en"&gt;&lt;SPAN lang=en xml:lang="en"&gt;&lt;SPAN lang=en xml:lang="en"&gt;&lt;SPAN lang=en xml:lang="en"&gt;&lt;SPAN lang=en xml:lang="en"&gt;Po stlačení tlačidla &lt;I&gt;&lt;STRONG&gt;OK&lt;/STRONG&gt;&lt;/I&gt;&amp;nbsp;sa do registratúrneho (podacieho) denníka pridá nový záznam.&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/SPAN&gt; &lt;/LI&gt;&lt;/OL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="7eb32d2c-f78d-43c7-8fa5-803dc62dad98" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="0fe6411c-9069-4097-b90f-e69f01a61569">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="1b58440f-cd9a-475c-a7f6-4f49729d6aab" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="2af84798-6d4b-40bc-8b7b-e537906a909c">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="418b007f-f608-49d5-82dc-2bc57e6a21ab" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="e507e3e5-493f-48df-a358-f85facee1796">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="12b03899-60f9-4f0c-bc6e-aaaa9a1c8104" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="868b6d78-95e3-441c-b92d-3766d440ae08">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="c928d109-ce7e-4c34-bec3-18248d47a10e" CategoryId="" TopicLinkCategorySource="TargetItemCategory" Target="b9d813c2-1ac9-4606-b104-819ea02b6463">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="619c0375-6c09-4e43-9068-d3fc715f89ea">
+      <Keyword m="2023-05-22T12:48:33.999772Z">Registratúrny (podací) denník - pridanie záznamu</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

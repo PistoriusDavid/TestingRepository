@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="b4329672-0a25-4161-bea7-150f71012c40" Status="Complete" CreatedOn="2020-11-06T07:48:30.2176956Z" ModifiedOn="2023-04-14T07:17:07.029862Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="AccDouble_Advanced_AccountingAsset" BuildFlags="">
+  <Title m="2020-11-06T13:41:06.5735807Z">Hromadné účtovanie majetku (účtovných odpisov)</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2022-12-05T12:09:19.6282624Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; popisuje &lt;STRONG&gt;všeobecný postup pri hromadnom účtovaní&amp;nbsp;účtovných odpisov&lt;/STRONG&gt;&amp;nbsp;v&amp;nbsp;&lt;A href="49dd3167-870a-4fdf-b631-d4f692f1ed72"&gt;podvojnom účtovníctve&lt;/A&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Hromadné účtovanie účtovných odpisov&amp;nbsp;predpokladá &lt;STRONG&gt;nastavenie parametrov daného účtovania&lt;/STRONG&gt; (určenie obdobia atď.). Po nadefinovaní účtovania je možné toto účtovanie vykonať v ponuke &lt;EM&gt;Účtovníctvo,&lt;/EM&gt;&amp;nbsp;&lt;A href="41513109-f711-4de5-b494-67671f203dca"&gt;Hromadné účtovanie dokladov&lt;/A&gt;. Následne sa v&amp;nbsp;&lt;A href="5e82cca9-b8af-4a80-ba30-7ab91914a595"&gt;účtovnom denníku&lt;/A&gt; vytvoria príslušné záznamy.
+&lt;LI&gt;Vykonané účtovanie je možné kedykoľvek zrušiť (vtedy sa z&amp;nbsp;účtovného denníka odstránia záznamy vytvorené týmto účtovaním), prípadne opätovne vykonať. 
+&lt;LI&gt;Korektné zaúčtovanie vyžaduje správne nastavené&amp;nbsp;&lt;A href="da8a9192-a6cc-4470-b5d5-13d3ec435f97"&gt;predkontácie&lt;/A&gt; v&amp;nbsp;agende,&amp;nbsp;z ktorej sa&amp;nbsp;zaúčtovanie&amp;nbsp;vykonáva, v&amp;nbsp;tomto prípade&amp;nbsp;v&amp;nbsp;&lt;A href="d123f778-12d3-4049-8c94-3d1b7acdc24f"&gt;knihe investičného majetku&lt;/A&gt;. 
+&lt;LI&gt;Zaúčtovanie účtovných odpisov sa automaticky člení podľa&amp;nbsp;&lt;A href="8df798f2-4fbf-4279-ad8c-493bdbe7f2e4"&gt;prevádzky&lt;/A&gt; (ak sú inventárne karty pridelené k&amp;nbsp;prevádzke). Ďalším kritériom je typ majetku (hmotný/nehmotný) a nakoniec je to členenie podľa samotnej &lt;A href="da8a9192-a6cc-4470-b5d5-13d3ec435f97"&gt;predkontácie&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H3&gt;Postup pri hromadnom zaúčtovaní majetku&lt;/H3&gt;
+&lt;OL&gt;
+&lt;LI&gt;Skôr, ako začnete účtovať účtovné odpisy, sa predpokladá, že na kartách majetku je zadaná predkontácia&amp;nbsp;na zaúčtovanie. Samozrejmosťou sú už vypočítané&amp;nbsp;účtovné odpisy&amp;nbsp;v&amp;nbsp;&lt;A href="d123f778-12d3-4049-8c94-3d1b7acdc24f"&gt;knihe investičného majetku&lt;/A&gt;. 
+&lt;LI&gt;V evidencii&amp;nbsp;&lt;A href="41513109-f711-4de5-b494-67671f203dca"&gt;Hromadné účtovanie dokladov&lt;/A&gt; (ponuka &lt;I&gt;Účtovníctvo,&amp;nbsp;Hromadné účtovanie dokladov)&lt;/I&gt; stlačte tlačidlo &lt;I&gt;Nový.&lt;/I&gt; Otvorí sa sprievodca, v ktorom&amp;nbsp;vyberte evidenciu &lt;STRONG&gt;&lt;EM&gt;Majetok (odpisy)&lt;/EM&gt;&lt;/STRONG&gt; a&amp;nbsp;zvoľte obdobie - mesiac.&amp;nbsp;Pokračujte v&amp;nbsp;sprievodcovi ďalej - ten vás prevedie zvyškom zaúčtovania. Pred samotným zaúčtovaním je možné vykonať jeho test -&amp;nbsp;odhalí možné problémy, ktoré môžu vzniknúť&amp;nbsp;pri zaúčtovaní. 
+&lt;LI&gt;V&amp;nbsp;poslednom kroku sa vykoná samotné zaúčtovanie -&amp;nbsp;vytvoria sa nové záznamy&amp;nbsp;v&amp;nbsp;&lt;A href="d8c9bfc8-92d1-4471-8909-e5f8ce602d6c"&gt;účtovnom denníku&lt;/A&gt;. Po zaúčtovaní je možné zobraziť správu o priebehu zaúčtovania. 
+&lt;LI&gt;Vykonané zaúčtovanie je možné aj hromadne zrušiť - pomocou tlačidla &lt;I&gt;Možnosti -&lt;/I&gt; &lt;I&gt;Zrušiť hromadné zaúčtovanie&lt;/I&gt;. &lt;/LI&gt;&lt;/OL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt; 
+&lt;P&gt;&lt;EM&gt;Správu o priebehu&lt;/EM&gt; zaúčtovania je možné vytlačiť. V ponuke &lt;EM&gt;Účtovníctvo,&amp;nbsp;Hromadné účtovanie dokladov&lt;/EM&gt; otvorte&amp;nbsp;&lt;A href="ddc4243d-b368-46d6-b86f-529790debae3"&gt;formulár Hromadné účtovanie dokladov&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt;&amp;nbsp;stlačte&amp;nbsp;tlačidlo&lt;EM&gt;&amp;nbsp;Správy o&amp;nbsp;priebehu&lt;/EM&gt; a&amp;nbsp;spustite &lt;EM&gt;Tlač.&amp;nbsp;&lt;/EM&gt;Správu o priebehu je možné vytlačiť aj z formulára &lt;EM&gt;Hromadné účtovanie dokladov&lt;/EM&gt; po stlačení tlačidla &lt;EM&gt;Možnosti&lt;/EM&gt;.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Daňové odpisy sa v podvojnom účtovníctve neúčtujú, vstupujú však do daňového priznania.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="d4df1d00-050e-4271-bc82-bf79959b7531" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="41513109-f711-4de5-b494-67671f203dca">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="60287891-4a40-4e8d-95ef-c05ba3c71117" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="d123f778-12d3-4049-8c94-3d1b7acdc24f">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="8b2b2591-7783-4d05-b255-7848f93e38e1" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="d8c9bfc8-92d1-4471-8909-e5f8ce602d6c">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="1611f5e7-f01a-4520-821e-85af2fe17a84" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="da8a9192-a6cc-4470-b5d5-13d3ec435f97">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="d512dbdf-8b2f-4be0-b9e3-0ccf05f1e191">
+      <Keyword m="2021-08-11T08:49:25.4329131Z">Účtovanie účtovných odpisov</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="b49bf24f-fd8b-4d1a-9254-872f702d2c70">
+      <Keyword m="2023-04-14T06:39:10.6133501Z">Majetok - účtovanie účtovných odpisov</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="37eae9c1-c814-4e7c-9f51-c84fc8de254c">
+      <Keyword m="2021-08-11T08:49:37.0256457Z">Účtovné odpisy - účtovanie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="29d06470-9500-4ee6-825c-a4e9a7919aa0">
+      <Keyword m="2023-04-14T07:17:07.0288618Z">Účtovanie majetku (PÚ)</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

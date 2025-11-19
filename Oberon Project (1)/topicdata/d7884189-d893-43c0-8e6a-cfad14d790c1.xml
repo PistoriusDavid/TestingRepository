@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="d7884189-d893-43c0-8e6a-cfad14d790c1" Status="Complete" CreatedOn="2014-09-01T12:15:38.9572052Z" ModifiedOn="2024-07-18T10:48:06.7854178Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="OBERONStructure" BuildFlags="">
+  <Title m="2014-09-01T12:15:59.7803962Z">Štruktúra systému OBERON</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-07-18T10:48:06.7854178Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;informácie o štruktúre systému OBERON z&amp;nbsp;hľadiska jeho programovej skladby&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;H2&gt;Základná štruktúra&lt;/H2&gt;
+&lt;P&gt;Systém OBERON pozostáva z niekoľkých súčastí, ktoré spolu vytvárajú jeho&amp;nbsp;základnú štruktúru:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;OBERON - Agenda firmy&lt;/STRONG&gt; - program, ktorý tvorí základ celého systému. Obsahuje všetky knihy (evidencie, agendy), ktoré OBERON ponúka. Je to program, s&amp;nbsp;ktorým pracuje bežný&amp;nbsp;používateľ. 
+&lt;LI&gt;&lt;STRONG&gt;&lt;A href="09f3dae9-2fb7-490f-97dc-37f60885b398"&gt;OBERON Automation Center&lt;/A&gt;&lt;/STRONG&gt; - program určený&amp;nbsp;na vykonávanie&amp;nbsp;&lt;A href="9ce25bbd-35d1-4096-acd5-70007f5af5a6"&gt;automatických úloh&lt;/A&gt;&amp;nbsp;na pozadí (napr. automatické zasielanie notifikácií prostredníctvom generátora notifikácií, import kurzového lístka, automatické odosielanie e-mailov, import/export údajov z/do rezervačných portálov prostredníctvom manažéra rezervačných kanálov (&lt;EM&gt;Channel Manager&lt;/EM&gt;), ale aj webové služby, automatický export a&amp;nbsp;import údajov&amp;nbsp;z/do externého internetového obchodu atď.). &lt;SPAN style="COLOR: rgb(0,0,0)"&gt;V&amp;nbsp;štruktúre systému OBERON nahrádza starší program&lt;/SPAN&gt;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;EM style="COLOR: rgb(0,0,0)"&gt;OBERON Center&lt;/EM&gt;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;.&lt;/SPAN&gt;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;Aj keď&amp;nbsp;&lt;/SPAN&gt;&lt;EM style="COLOR: rgb(0,0,0)"&gt;OBERON Automation Center&lt;/EM&gt;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;umožňuje&lt;/SPAN&gt;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;&amp;nbsp;pracovať aj so súborovou databázou&lt;/SPAN&gt; &lt;EM style="COLOR: rgb(0,0,0)"&gt;Microsoft Access&lt;/EM&gt;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;,&lt;/SPAN&gt; &lt;SPAN style="COLOR: rgb(0,0,0)"&gt;p&lt;/SPAN&gt;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;ri&amp;nbsp;jeho použití&lt;/SPAN&gt;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;&amp;nbsp;&lt;STRONG&gt;odporúčame&lt;/STRONG&gt;&lt;/SPAN&gt;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;&amp;nbsp;&lt;/SPAN&gt;&lt;STRONG style="COLOR: rgb(0,0,0)"&gt;používať databázu SQL&lt;/STRONG&gt;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;.&lt;/SPAN&gt; 
+&lt;LI&gt;&lt;STRONG&gt;&lt;A href="c23e6100-7028-47b3-952a-f43fbf6ee5c6"&gt;Mobilné riešenia&lt;/A&gt;&lt;/STRONG&gt; - predstavujú rozšírenia systému OBERON pre mobilné zariadenia a dotykové displeje dodávané priamo s OBERON-om alebo partnermi&amp;nbsp;(&lt;A href="b138daad-5453-4e53-8d2c-ecf2e81a5fcb"&gt;OBERON Web&lt;/A&gt;,&amp;nbsp;&lt;A href="be17efdf-4b36-4b47-ad5d-09b0f66c8f65"&gt;ASTON - mobilný skladník&lt;/A&gt;,&amp;nbsp;&lt;A href="942d48d5-b290-40f6-8ba3-45cf78f380f9"&gt;LUKUL - nielen mobilný čašník&lt;/A&gt;,&amp;nbsp;&lt;A href="fe4a9463-d066-4a56-8eee-a728ae1a7220"&gt;OBERON eMenu&lt;/A&gt;, &lt;A href="518026eb-be63-494d-b3e3-837f9509c543"&gt;QeeR skener&lt;/A&gt;). &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 1:&amp;nbsp; Štruktúra systému&amp;nbsp;OBERON&lt;/H5&gt;
+&lt;P&gt;&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON/OBERON_Structure_Schema.png"&gt;&lt;/P&gt;
+&lt;H2&gt;Ďalšie informácie o systéme OBERON&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Okrem základných&amp;nbsp;súčastí systém OBERON obsahuje ďalšie zaujímavé nástroje: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;A href="bd58b5ac-bf1a-44f0-9463-12aa3e5b8165"&gt;Editor tlačových výstupov&lt;/A&gt; -&amp;nbsp;integrovaný priamo do systému, umožňuje individuálnu úpravu tlačových výstupov. 
+&lt;LI&gt;&lt;A href="bc30e126-afb5-41aa-a261-e92501038063"&gt;Sledovanie činností&lt;/A&gt; - umožňuje evidovať záznamy o udalostiach a&amp;nbsp;činnostiach vykonaných jednotlivými&amp;nbsp;používateľmi pri práci so systémom OBERON. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;K systému OBERON je možné pripojiť celý rad zariadení, ako sú&amp;nbsp;fiškálne tlačiarne, registračné pokladnice,&amp;nbsp;dochádzkové a platobné POS&amp;nbsp;terminály, čítačky dokladov, elektronické váhy, snímače čiarových kódov, mobilné terminály, dverové zámky&amp;nbsp;atď. Zoznam pripojiteľných zariadení je možné získať v&amp;nbsp;téme&amp;nbsp;&lt;A href="3f051fd3-9727-4ecc-9613-7a7fb1cb2a54"&gt;Prehľad pripojiteľných zariadení&lt;/A&gt;. 
+&lt;LI&gt;So systémom OBERON&amp;nbsp;je rôznym spôsobom prepojený celý rad externých softvérových a hardvérových riešení (&lt;A href="9690f267-6ad7-4e22-9af2-675ef3d9d041"&gt;súvisiace produkty a služby&lt;/A&gt;). Časť prepojení vznikla z iniciatívy firmy EXALOGIC (napr. s internetovým obchodom &lt;A href="7437cbeb-c6d1-4b19-92ee-150ba8e4097f"&gt;PrestaShop&lt;/A&gt;, manažérom rezervačných kanálov&amp;nbsp;&lt;A href="2564d1eb-a7ed-46a7-a957-6087afe26471"&gt;Beds24&lt;/A&gt; atď.), iné produkty a služby boli so systémom OBERON prepojené z iniciatívy a v réžii tretích strán (napr. internetový obchod&amp;nbsp;&lt;A href="2ba6a435-be52-46a1-b723-fb2b8ca084c0"&gt;GRANDUS&lt;/A&gt;, &lt;A href="53600117-6139-4f5a-a639-1972dfcca586"&gt;UNIobchod&lt;/A&gt;, webová aplikácia&amp;nbsp;&lt;A href="d7e11dcc-4852-4802-994c-2d80fa31aabe"&gt;Chameleoon&lt;/A&gt; atď.). Zoznam súvisiacich produktov a služieb je dostupný v&amp;nbsp;téme&amp;nbsp;&lt;A href="9690f267-6ad7-4e22-9af2-675ef3d9d041" style="auto-update-caption: true"&gt;Všeobecne o súvisiacich produktoch&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="1967dd0e-10d2-451b-824b-461b29ceb8a4" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="49dd3167-870a-4fdf-b631-d4f692f1ed72">
+      <Title m="2022-12-08T11:43:37.4970656Z">Podvojné účtovníctvo</Title>
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="aaface48-77b9-4a5e-abac-2591463045d2" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="32be28cf-2368-4818-9d24-cfa9d59afb75">
+      <Title m="2022-12-08T11:45:51.3226129Z">Jednoduché účtovníctvo</Title>
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="e7769169-899a-4b69-9313-dc6363a327a8" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="9980b99c-4409-4422-9d70-9cdd8893d0f3">
+      <Title m="2022-12-08T11:46:12.8857182Z">Fakturácia</Title>
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="070c313a-e700-42ad-a76d-c105a395feee" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="78d20602-4b59-4b31-9f0a-a04a1d376ec5">
+      <Title m="2022-12-08T11:46:32.7922311Z">Skladová evidencia</Title>
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="b40646e0-c6c7-4264-95b9-e3e346434ea0" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="a6f5e32d-6f1e-40bb-9d15-3f784a183252">
+      <Title m="2022-12-08T11:46:53.4422008Z">Pokladnica OBERON</Title>
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="e8b9ad72-88ee-4375-894b-4ea6fc089783" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="bf009605-0be8-4286-8ef5-4c7d3b89143a">
+      <Title m="2022-12-08T12:14:00.1000413Z">Mzdy</Title>
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="c5935b80-50bc-461f-b7c6-19d2b6022478" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="3883342c-9ef0-4fd9-8773-88df84f78f65">
+      <Title m="2022-12-08T12:14:18.5582621Z">Dochádzka</Title>
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="7b92e302-468a-4bb1-94e7-c2ddd5b77daf" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="c3bd41f0-029e-4c74-b342-b0ffff647b6e">
+      <Title m="2022-12-08T12:14:59.7318393Z">Hotelová recepcia</Title>
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="96a90d5a-1680-4114-b930-6a0dc12dcdc3" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="f1a6963d-36aa-4134-92a5-fa47a4345e74">
+      <Title m="2022-12-08T12:11:31.6663769Z">CRM a registratúra</Title>
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="6937a065-e099-473d-8634-3825cf47c43f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="945b74ea-31f8-44e7-baef-ffb5fc136b05">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="a785760c-25b1-41f1-ae34-1142742b56ae" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="085651d2-b64b-4884-b55d-0ba2b7f7808a">
+      <Title m="2022-12-08T11:47:31.4464661Z">Evidencia vozidiel</Title>
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="b7d1a64e-ee08-48cd-a0b2-08bf3d54415c" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="c23e6100-7028-47b3-952a-f43fbf6ee5c6">
+      <Title m="2022-12-08T12:16:51.2965472Z">Mobilné riešenia</Title>
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="504f4798-c7de-487a-9379-0936c0ca9280" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="09f3dae9-2fb7-490f-97dc-37f60885b398">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="2baa8c06-6069-4a72-b611-40e762c655bb" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="bd58b5ac-bf1a-44f0-9463-12aa3e5b8165">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="b1597be6-f9f4-499d-ae7f-b5e96c391fdc" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="bc30e126-afb5-41aa-a261-e92501038063">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="2e498303-bba7-40c7-b0d0-59221bbb04cb" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="3f051fd3-9727-4ecc-9613-7a7fb1cb2a54">
+      <Title m="2022-12-08T12:19:40.3131839Z">Pripojiteľné zariadenia</Title>
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="b6f093e8-c4e4-46e7-8b80-b4468cae7935" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="9690f267-6ad7-4e22-9af2-675ef3d9d041">
+      <Title m="2022-12-08T12:21:34.0082512Z">Súvisiace produkty a služby</Title>
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="d4482b76-0c5b-4d89-9525-663d6aed9d9f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="04d2db16-08ec-459e-b5c9-71dd3a9f9e2f">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="8d457dba-0702-43cc-b330-0625c0a7afbb">
+      <Keyword m="2022-12-08T12:39:17.6159182Z">OBERON - štruktúra</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="658df843-6a50-4f98-8d24-b5e78d0530a8">
+      <Keyword m="2022-12-08T12:39:25.711083Z">Systém OBERON - štruktúra</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

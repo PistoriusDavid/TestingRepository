@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="ad99d095-e232-4990-b629-8df431cf7039" Status="Complete" CreatedOn="2018-03-13T07:59:16.6963092Z" ModifiedOn="2023-10-30T07:17:58.8494687Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="70760" Name="Form_Wages_WorkPlan" BuildFlags="">
+  <Title m="2018-03-13T07:59:53.1600746Z">Formulár Pracovný plán</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-08-30T10:33:51.1662879Z">&lt;P&gt;Formulár &lt;EM&gt;Pracovný plán&lt;/EM&gt; umožňuje &lt;STRONG&gt;vytvoriť, prípadne zmeniť už vytvorený&lt;/STRONG&gt;&amp;nbsp;&lt;A href="0d06308b-64cf-4d51-bc3a-9c262750667d"&gt;pracovný plán firmy&lt;/A&gt;&amp;nbsp;v&amp;nbsp;module&amp;nbsp;&lt;A href="bf009605-0be8-4286-8ef5-4c7d3b89143a"&gt;Mzdy&lt;/A&gt; a&amp;nbsp;&lt;A href="3883342c-9ef0-4fd9-8773-88df84f78f65"&gt;dochádzka&lt;/A&gt;. Formulár je dostupný z&amp;nbsp;ponuky&amp;nbsp;&lt;EM&gt;Mzdy&lt;/EM&gt;, &lt;EM&gt;Dochádzka&lt;/EM&gt;,&amp;nbsp;&lt;A href="0d06308b-64cf-4d51-bc3a-9c262750667d"&gt;Pracovné plány firmy&lt;/A&gt;, tlačidlo&amp;nbsp;&lt;EM&gt;Nový&lt;/EM&gt; alebo &lt;EM&gt;Oprava&lt;/EM&gt;.&lt;/P&gt;
+&lt;H2&gt;Popis formulára &lt;EM&gt;Pracovný plán&lt;/EM&gt;&lt;/H2&gt;&lt;innovasys:widget layout="block" type="Tab Strip"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;innovasys:widget layout="block" type="Tab Item"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Základné&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;innovasys:widget layout="block" type="Drop Down Section"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Druh plánu&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Vyberte druh pracovného plánu:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Jednozmenná ranná&lt;/STRONG&gt; - základný jednozmenný pracovný kalendár, napr. pre pracovníkov v&amp;nbsp;administratíve v&amp;nbsp;rannej zmene v dňoch pondelok až piatok. 
+&lt;LI&gt;&lt;STRONG&gt;Jednozmenná ranná + sobota&lt;/STRONG&gt; - jednozmenný pracovný kalendár s rannou zmenou v dňoch pondelok až piatok a čiastočne aj v sobotu. 
+&lt;LI&gt;&lt;STRONG&gt;Dvojzmenná základná&lt;/STRONG&gt; - základný dvojzmenný pracovný kalendár s rannou a popoludňajšou zmenou v dňoch pondelok až piatok. 
+&lt;LI&gt;&lt;STRONG&gt;Dvojzmenná predajňa&lt;/STRONG&gt; - dvojzmenný pracovný kalendár s rannou a popoludňajšou zmenou v&amp;nbsp;dňoch pondelok až piatok a čiastočne aj v&amp;nbsp;sobotu. 
+&lt;LI&gt;&lt;STRONG&gt;Predajňa krátky, dlhý&lt;/STRONG&gt; - dvojzmenný kalendár s 12-hodinovou zmenou v dňoch pondelok až piatok a čiastočne aj v&amp;nbsp;sobotu použiteľný napr. v predajniach. 
+&lt;LI&gt;&lt;STRONG&gt;Dvojzmenná krátky, dlhý&lt;/STRONG&gt; - nepretržitý dvojzmenný kalendár s 12-hodinovou zmenou (tzv. krátky/dlhý týždeň) používaný napr. v reštauračných prevádzkach. 
+&lt;LI&gt;&lt;STRONG&gt;Trojzmenná týždenná&lt;/STRONG&gt; - trojzmenný pracovný kalendár v dňoch pondelok až piatok. 
+&lt;LI&gt;&lt;STRONG&gt;Nepretržitá štvorzmenná (28-dňová)&lt;/STRONG&gt;&amp;nbsp;- štvorzmenný pracovný kalendár pre nepretržité 24-hodinové prevádzky s 28-dňovým pracovným cyklom. 
+&lt;LI&gt;&lt;STRONG&gt;Nepretržitá štvorzmenná (8-dňová)&lt;/STRONG&gt;&amp;nbsp;- štvorzmenný pracovný kalendár pre nepretržité 24-hodinové prevádzky s 8-dňovým pracovným cyklom. 
+&lt;LI&gt;&lt;STRONG&gt;Vlastný vzor&lt;/STRONG&gt; - pracovný kalendár podľa vlastných požiadaviek. &lt;/LI&gt;&lt;/UL&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget layout="block" type="Drop Down Section"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Dátum začiatku&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Zadáva sa dátum&lt;FONT style="COLOR: rgb(0,0,0)" color=red&gt;,&amp;nbsp;od ktorého sa má začať cyklus danej zmennosti. Ide o &lt;STRONG&gt;kľúčový parameter&lt;/STRONG&gt;. V&amp;nbsp;nových prevádzkach sa spravidla zadáva pondelok,&amp;nbsp;pri fungujúcich prevádzkach je dátum začiatku potrebné prispôsobiť už existujúcemu pracovnému cyklu.&lt;/FONT&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget layout="block" type="Drop Down Section"&gt;&lt;innovasys:widgetproperty layout="inline" name="Heading"&gt;Zakázať pracovný plán&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Zakázať pracovný plán znamená, že ho nebude možné používať, v systéme však zostane definovaný.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget layout="block" type="Tab Item"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Zmeny&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Pracovný plán firmy&amp;nbsp;je tvorený&amp;nbsp;jednou alebo viacerými &lt;A href="a77380d9-dc93-41be-9423-aa76a8c7f9f4"&gt;pracovnými zmenami&lt;/A&gt; obsiahnutými v rozvrhoch pracovných zmien (v&amp;nbsp;závislosti od typu prevádzky). Z dostupných zmien vyberte tie, ktoré budú použité&amp;nbsp;v&amp;nbsp;danom pracovnom&amp;nbsp;pláne. Napr. pri dvojzmennej prevádzke krátky, dlhý týždeň sa zvolia zmenu &lt;EM&gt;Denná 12h&lt;/EM&gt; (zmena&amp;nbsp;&lt;EM&gt;Voľno&lt;/EM&gt; bude dostupná automaticky).&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget layout="block" type="Tab Item"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Rozvrhy&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;
+&lt;P&gt;Pracovný plán firmy&amp;nbsp;je tvorený&amp;nbsp;jednou alebo viacerými &lt;A href="a77380d9-dc93-41be-9423-aa76a8c7f9f4"&gt;pracovnými zmenami&lt;/A&gt;, ktoré sú obsiahnuté v&amp;nbsp;rozvrhoch pracovných zmien. Pri pracovnom pláne typu &lt;EM&gt;Vlastný vzor&lt;/EM&gt; je možné v&amp;nbsp;záložke meniť počet rozvrhov zmien a&amp;nbsp;dĺžku pracovného cyklu a vyberať&amp;nbsp;&lt;A href="a77380d9-dc93-41be-9423-aa76a8c7f9f4"&gt;pracovnú zmenu&lt;/A&gt;&amp;nbsp;(jednoduchým kliknutím do bunky).&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;Počet rozvrhov&amp;nbsp;zmien&lt;/STRONG&gt; - počet rozvrhov zmien pracovného plánu (rozvrh A,&amp;nbsp;rozvrh B).&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;Dĺžka pracovného cyklu&lt;/STRONG&gt; - počet dní, na ktorý bude nadefinovaný pracovný plán (14 dní, 28 dní a pod.)&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget layout="block" type="Tab Item"&gt;&lt;innovasys:widgetproperty layout="inline" name="Title"&gt;Iné&lt;/innovasys:widgetproperty&gt; &lt;innovasys:widgetproperty layout="block" name="Content"&gt;Poznámka k pracovnému plánu.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="f8adee78-919a-4f42-8b24-fda2467293af" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="0d06308b-64cf-4d51-bc3a-9c262750667d">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="bbf3d231-b66e-4dba-a8a6-4fa001e34e52" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="85220d47-fc01-4329-90a7-1b68f5e6e083">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="ea564fc7-ef7b-45bf-9493-a0309ea47c19">
+      <Keyword m="2023-08-24T11:04:46.7985397Z">Pracovný plán firmy - formulár</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

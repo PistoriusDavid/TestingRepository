@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="12572b52-44a7-433c-be59-df1192f3c6a0" Status="Complete" CreatedOn="2014-09-11T11:07:29.6469408Z" ModifiedOn="2023-06-08T08:57:53.3931722Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Stock_Advanced_Recepture_Recepture_Create" BuildFlags="">
+  <Title m="2014-09-11T11:07:58.8126089Z">Vytvorenie receptúry</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-06-08T08:57:53.3931722Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;postup vytvorenia receptúry&lt;/STRONG&gt; v&amp;nbsp;systéme OBERON.&lt;/P&gt;
+&lt;H2&gt;Postup vytvorenia receptúry&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;Pred samotným vytvorením skladovej karty&amp;nbsp;&lt;A href="8deac9fe-9864-41e8-aaa3-02257c241d78"&gt;typu receptúra&lt;/A&gt; je potrebné vytvoriť skladové karty jednotlivých položiek (zložiek) receptúry (ponuka &lt;EM&gt;Sklad&lt;/EM&gt;,&amp;nbsp;&lt;A href="1a33ab0b-2df7-4dc2-962b-8a3319c16831"&gt;Skladové karty&lt;/A&gt;, tlačidlo &lt;EM&gt;Nový&lt;/EM&gt;). Vytvárajú sa ako jednoduché skladové karty (&lt;A href="8deac9fe-9864-41e8-aaa3-02257c241d78"&gt;typ karty&lt;/A&gt; &lt;EM&gt;&lt;STRONG&gt;Jednoduchá&lt;/STRONG&gt;&lt;/EM&gt;), na ktorých odporúčame zadať aj obstarávaciu cenu, prípadne zaevidovať prvý príjem (tým sa správne vypočíta aj obstarávacia cena celej receptúry). Postup vytvorenia skladovej karty&amp;nbsp;nájdete v&amp;nbsp;téme&amp;nbsp;&lt;A href="277559d2-a8ba-4399-b39d-58b8b28b01ff" style="auto-update-caption: true"&gt;Založenie skladovej karty&lt;/A&gt;. 
+&lt;LI&gt;Na vytvorenie skladovej karty receptúry stlačte v&amp;nbsp;rovnakej ponuke (&lt;EM&gt;Sklad&lt;/EM&gt;,&amp;nbsp;&lt;A href="1a33ab0b-2df7-4dc2-962b-8a3319c16831"&gt;Skladové karty&lt;/A&gt;) tlačidlo &lt;EM&gt;Nový&lt;/EM&gt;. Otvorí sa&amp;nbsp;&lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;formulár Skladová karta&lt;/A&gt;, v&amp;nbsp;ktorom v&amp;nbsp;záložke &lt;EM&gt;Základné&lt;/EM&gt;&amp;nbsp;zadajte číslo a názov karty a&amp;nbsp;zvoľte &lt;A href="8deac9fe-9864-41e8-aaa3-02257c241d78"&gt;typ karty&lt;/A&gt;&lt;STRONG&gt;&lt;EM&gt;&amp;nbsp;Receptúra&lt;/EM&gt;&lt;/STRONG&gt;. 
+&lt;LI&gt;Stlačte tlačidlo &lt;I&gt;Zloženie&lt;/I&gt; pri&amp;nbsp;rozbaľovacom zozname &lt;EM&gt;Typ karty&lt;/EM&gt;. Otvorí sa&amp;nbsp;&lt;A href="7d59dbfd-5b4f-46aa-91a8-97fb4491d839"&gt;formulár Zloženie receptúry&lt;/A&gt;, ktorý umožňuje vytvoriť danú receptúru. 
+&lt;LI&gt;Zadajte počet porcií receptúry. V&amp;nbsp;záložke &lt;EM&gt;Položky receptúry&lt;/EM&gt; stlačením tlačidla &lt;EM&gt;Nový&lt;/EM&gt; pridajte do receptúry jednotlivé položky vytvorené v&amp;nbsp;bode 1. Ako položku receptúry môžete okrem jednoduchej skladovej karty vybrať aj skladovú kartu inej receptúry (viac v&amp;nbsp;téme&amp;nbsp;&lt;A href="691d23dd-a44d-48f0-827e-c6a358b2dabc" style="auto-update-caption: true"&gt;Zložená receptúra&lt;/A&gt;). Je potrebné mať na zreteli, že &lt;STRONG&gt;množstvá jednotlivých položiek vytváranej receptúry je potrebné stanoviť s&amp;nbsp;ohľadom na nastavený&amp;nbsp;počet porcií&lt;/STRONG&gt;. Poradie&amp;nbsp;položiek je možné&amp;nbsp;upraviť pomocou &lt;A href="38489850-ab82-41b6-b258-3fa613ed5861"&gt;panela na zmenu poradia položiek zoznamu&lt;/A&gt;&amp;nbsp;(modrých šípok). 
+&lt;LI&gt;V záložke &lt;I&gt;Postup prípravy&lt;/I&gt; je možné vložiť do receptúry postup prípravy daného jedla/nápoja. 
+&lt;LI&gt;V&amp;nbsp;záložke &lt;EM&gt;Ostatné&lt;/EM&gt; zadajte nutričnú hodnotu a alergény, ktoré dané jedlo/nápoj obsahuje. 
+&lt;LI&gt;Po&amp;nbsp;vyplnení požadovaných údajov&amp;nbsp;stlačte tlačidlo&amp;nbsp;&lt;I&gt;Zatvoriť&lt;/I&gt;. &lt;/LI&gt;&lt;/OL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt; 
+&lt;P&gt;Na položkách receptúry je možné merné jednotky kombinovať, napr. litre, ks, kg, g a pod.&amp;nbsp;Pri výpočte celkovej hmotnosti receptúry si s tým program poradí.&lt;/P&gt;&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;&lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Pri receptúrach jedál je potrebné zložky receptúr, ako je napr. soľ alebo koreniny, evidovať na ich skladových kartách v gramoch a nie v kg. Je potrebné mať na zreteli, že ak sa skladová karta receptúry skladá z položky v množstve 0.002 kg a táto receptúra je pre 10 porcií, pri výdaji dvoch porcií by sa malo vydať z položky receptúry 0.0004 kg. Program však umožňuje vydať (odpísať) zo skladu najmenšie množstvo 0.001 mernej jednotky, čiže v tomto prípade by pri predaji dvoch porcií nebolo odpísané žiadne množstvo.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Detské porcie jedál&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Detské porcie zväčša neobsahujú presnú polovicu množstva surovín bežnej porcie a&amp;nbsp;ani cena detskej porcie nie je presnou polovicou. Z&amp;nbsp;tohto dôvodu&amp;nbsp;je&amp;nbsp;optimálnym riešením&amp;nbsp;detské porcie evidovať &lt;STRONG&gt;vytvorením samostatných skladových kariet&amp;nbsp;&lt;/STRONG&gt;&lt;A href="8deac9fe-9864-41e8-aaa3-02257c241d78"&gt;typu receptúra&lt;/A&gt;, do&amp;nbsp;ktorých sú vložené pôvodné receptúry, avšak množstvo a cena&amp;nbsp;sú odlišné.&amp;nbsp; &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Ukážky vytvorených&amp;nbsp;receptúr sú dostupné v téme&amp;nbsp;&lt;A href="d625d826-19da-443e-9c4b-9fd6d5a9c0bd" style="auto-update-caption: true"&gt;Príklady receptúr&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="6aa08759-463b-4eb4-b01c-7a73d26a8c22" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="2d9e274d-bfb7-43bc-9e70-b091ed82b9b2">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="111accd7-5b51-4dc5-a81a-02318d412b49" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="691d23dd-a44d-48f0-827e-c6a358b2dabc">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="269302b2-7d1c-456e-a5fa-403ae15b0b0f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="d625d826-19da-443e-9c4b-9fd6d5a9c0bd">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="386e01d6-8746-4075-b01f-ad47f130fb0f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="3ae0999b-7567-4494-ac38-6da31fcaa7b1">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="279aeb20-411e-41a7-895a-f9f259be5522" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="7d59dbfd-5b4f-46aa-91a8-97fb4491d839">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="1010e00f-3c7c-4356-927e-66fa82e8516f">
+      <Keyword m="2023-05-31T12:03:23.411713Z">Receptúra - postup vytvorenia</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="af4ebf92-818d-4456-b3c1-51ddbc5c7f0a">
+      <Keyword m="2023-05-31T12:03:08.0026774Z">Detské porcie - receptúry</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="7decc58e-81ca-4351-a509-a4befc0f6208">
+      <Keyword m="2023-05-31T12:03:15.0529754Z">Polovičné porcie - receptúry</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="111d0a03-cf8c-4f5b-ab50-06477ba49ce8">
+      <Keyword m="2023-05-31T12:03:39.9533746Z">Postup vytvorenia receptúry</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

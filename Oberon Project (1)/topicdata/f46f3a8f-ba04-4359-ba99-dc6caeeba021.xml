@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="f46f3a8f-ba04-4359-ba99-dc6caeeba021" Status="Complete" CreatedOn="2018-03-09T08:39:09.5435492Z" ModifiedOn="2024-06-17T12:00:22.7661459Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Device_AttendanceTerminals_Overview" BuildFlags="">
+  <Title m="2018-03-27T12:20:28.4992072Z">Dochádzkové terminály</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-06-17T12:00:22.7661459Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;obsahuje&amp;nbsp;&lt;STRONG&gt;všeobecné&amp;nbsp;informácie&amp;nbsp;o&amp;nbsp;dochádzkových termináloch&lt;/STRONG&gt;, ktoré predstavujú jeden z typov&amp;nbsp;&lt;A href="3f051fd3-9727-4ecc-9613-7a7fb1cb2a54"&gt;pripojiteľných zariadení&lt;/A&gt; podporovaných v systéme OBERON.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Systém OBERON umožňuje používať viaceré &lt;STRONG&gt;hardvérové&lt;/STRONG&gt; aj &lt;STRONG&gt;softvérové&lt;/STRONG&gt; dochádzkové terminály. Ide o&amp;nbsp;elektronické zariadenia určené&amp;nbsp;&lt;STRONG&gt;na evidenciu príchodov a odchodov pracovníkov,&lt;/STRONG&gt; t. j. &lt;STRONG&gt;evidenciu dochádzky&lt;/STRONG&gt;.&amp;nbsp;Identifikácia pracovníkov sa môže uskutočňovať viacerými spôsobmi - pomocou prístupového kódu, heslom,&amp;nbsp;RFID kľúčom/kartou,&amp;nbsp;odtlačkom prsta alebo ich&amp;nbsp;kombináciou. 
+&lt;LI&gt;Dochádzkový terminál sa spravidla umiestňuje vo vstupných priestoroch firiem (na vrátnici, prípadne na inom vhodnom mieste). Informácie o&amp;nbsp;príchodoch a&amp;nbsp;odchodoch&amp;nbsp;pracovníkov&amp;nbsp;sa odosielajú do systému OBERON na&amp;nbsp;následné spracovanie dochádzky. 
+&lt;LI&gt;Dochádzkové&amp;nbsp;terminály, ktoré možno používať so&amp;nbsp;systémom OBERON: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;A href="ac73b976-c72c-449c-a608-c41ca5eb24ba"&gt;&lt;STRONG&gt;EXALOGIC A-C071S&lt;/STRONG&gt;&lt;/A&gt; &lt;A href="1f32a90c-7b4a-4d69-9f38-a560178794b3" style="auto-update-caption: true"&gt;&lt;IMG border=0 alt="Odporúčané riešenia" src="images/OBERON/Basic/Odporucane-riesenie_ruka_ikona.png"&gt;&lt;/A&gt;&amp;nbsp;- štandardný hardvérový dochádzkový terminál pripojený pomocou ethernetového kábla (RJ-45). Pre používateľov OBERON-u je&amp;nbsp;&lt;A href="1f32a90c-7b4a-4d69-9f38-a560178794b3"&gt;odporúčaným&lt;/A&gt; dochádzkovým terminálom. 
+&lt;LI&gt;&lt;A href="6856d140-bbfc-43c6-b0d7-0a6360827bb8"&gt;&lt;STRONG&gt;Dochádzkový terminál OBERON&lt;/STRONG&gt;&lt;/A&gt; - softvérový terminál, ktorý sa&amp;nbsp;používa&amp;nbsp;ako&amp;nbsp;výhradne spustená aplikácia (neumožňuje spúšťať a používať iné programy). Z tohto dôvodu je na&amp;nbsp;jeho&amp;nbsp;prevádzkovanie potrebné vyhradiť hardvérové zariadenie (počítač, tablet) s&amp;nbsp;dotykovým displejom, resp. all in one, na platforme &lt;EM&gt;Windows&lt;/EM&gt;, ktoré nebude možné používať na iné účely. Identifikácia pracovníka sa realizuje pomocou prístupového kódu alebo priložením RFID kľúča/karty (kľúčenky) na&amp;nbsp;&lt;A href="16818a7f-7c27-497a-be4a-4930302e84f1"&gt;snímač prístupu&lt;/A&gt;, napr.&amp;nbsp;&lt;A href="07a9169a-6739-4fc2-bbd8-959ae5d3b93d"&gt;&lt;/A&gt;&lt;A href="07a9169a-6739-4fc2-bbd8-959ae5d3b93d"&gt;snímač RFID kľúčov ECI-20&lt;/A&gt;. 
+&lt;LI&gt;&lt;A href="1e150e57-14b3-4afd-8380-996f4ed00898"&gt;&lt;STRONG&gt;Dochádzkový terminál OBERON - Agenda firmy&lt;/STRONG&gt;&lt;/A&gt;&amp;nbsp;- softvérový terminál dostupný&amp;nbsp;z&amp;nbsp;programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt; (ponuka &lt;EM&gt;OBERON, Príchod/Odchod&lt;/EM&gt;). Je určený na individuálnu evidenciu dochádzky&amp;nbsp;pracovníkov na ich vlastných počítačoch, napr. pri práci z&amp;nbsp;domu (home office). Keďže sa&amp;nbsp;spúšťa priamo&amp;nbsp;z&amp;nbsp;programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;, na&amp;nbsp;jeho prevádzku nie&amp;nbsp;je potrebné vyhradiť ďalšie hardvérové zariadenie (počítač, tablet), ako pri&amp;nbsp;predchádzajúcom dochádzkovom termináli OBERON. &lt;/LI&gt;&lt;/UL&gt;
+&lt;LI&gt;Dochádzkové terminály sa definujú v&amp;nbsp;programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;, ponuka &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="749ff4f1-eeb5-43f5-98d2-021399d8cec7" style="auto-update-caption: true"&gt;Zariadenia&lt;/A&gt;.&amp;nbsp; &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Každý používaný dochádzkový terminál musí byť nadefinovaný v zozname zariadení systému OBERON (ponuka Servis,&amp;nbsp;&lt;A href="749ff4f1-eeb5-43f5-98d2-021399d8cec7"&gt;Zariadenia&lt;/A&gt;). Aby sa mohol pracovník na danom termináli prihlásiť, musí byť v&amp;nbsp;ponuke &lt;EM&gt;Firma&lt;/EM&gt;, resp. &lt;EM&gt;Mzdy,&lt;/EM&gt;&amp;nbsp;&lt;A href="8dd60281-9cc7-41fe-9dd2-2ad5c7ffe047"&gt;Pracovníci&lt;/A&gt; priradený k&amp;nbsp;danému pracovníkovi konkrétny dochádzkový terminál. Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="28ad3f59-16f3-4162-a0a6-387778cbc7c3" style="auto-update-caption: true"&gt;Priradenie dochádzkového terminálu pracovníkovi&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Porovnanie dochádzkových terminálov&lt;/H2&gt;
+&lt;TABLE style="WIDTH: 50%"&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TH width=176&gt;&lt;/TH&gt;
+&lt;TH style="TEXT-ALIGN: center" width=143 align=center&gt;&lt;STRONG&gt;Dochádzkový terminál OBERON Agenda firmy&lt;/STRONG&gt;&lt;/TH&gt;
+&lt;TH style="TEXT-ALIGN: center" width=144 align=center&gt;&lt;STRONG&gt;Dochádzkový terminál OBERON&lt;BR&gt;&lt;/STRONG&gt;&lt;/TH&gt;
+&lt;TH style="TEXT-ALIGN: center" width=145 align=center&gt;&lt;STRONG&gt;EXALOGIC A-C071S&lt;/STRONG&gt;&lt;/TH&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=176&gt;&lt;STRONG&gt;Zariadenie&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD width=143 align=center&gt;Softvérový terminál v&amp;nbsp;programe OBERON&amp;nbsp;-&amp;nbsp;Agenda firmy&lt;/TD&gt;
+&lt;TD width=144 align=center&gt;Softvérový&amp;nbsp;terminál&amp;nbsp;&amp;nbsp;&lt;/TD&gt;
+&lt;TD width=145 align=center&gt;Hardvérový terminál&lt;BR&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=176&gt;&lt;STRONG&gt;Počet pracovníkov&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD width=143 align=center&gt;Neobmedzený&lt;/TD&gt;
+&lt;TD width=144 align=center&gt;Neobmedzený&lt;/TD&gt;
+&lt;TD width=145 align=center&gt;&amp;nbsp;2&amp;nbsp;000&lt;BR&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=176&gt;&lt;STRONG&gt;Počet záznamov&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD width=143 align=center&gt;&amp;nbsp;Neobmedzený&lt;BR&gt;&lt;/TD&gt;
+&lt;TD width=144 align=center&gt;Neobmedzený&lt;BR&gt;&lt;/TD&gt;
+&lt;TD width=145 align=center&gt;Neobmedzený (100&amp;nbsp;000&amp;nbsp; v&amp;nbsp;režime off-line)&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=176&gt;&lt;STRONG&gt;Režim off-line&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD width=143 align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/TD&gt;
+&lt;TD width=144 align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/TD&gt;
+&lt;TD width=145 align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=176&gt;&lt;STRONG&gt;Identifikácia prístupovým kódom&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD width=143 align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD width=144 align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD width=145 align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=36 width=176&gt;&lt;STRONG&gt;Identifikácia RFID kľúčom/kartou&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD height=36 width=143 align=center&gt;&lt;IMG style="HEIGHT: 26px; WIDTH: 29px" border=0 alt="" src="images/Forms/Menu/Tick_Star.png" width=50 height=46&gt;&lt;/TD&gt;
+&lt;TD height=36 width=144 align=center&gt;&amp;nbsp;&lt;IMG style="HEIGHT: 26px; WIDTH: 29px" border=0 alt="" src="images/Forms/Menu/Tick_Star.png" width=50 height=46&gt;&lt;/TD&gt;
+&lt;TD height=36 width=145 align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=32 width=176&gt;&lt;STRONG&gt;Identifikácia odtlačkom prsta&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD height=32 width=143 align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/TD&gt;
+&lt;TD height=32 width=144 align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_menu_Cross.png"&gt;&lt;/TD&gt;
+&lt;TD height=32 width=145 align=center&gt;
+&lt;P&gt;&amp;nbsp;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;Pri použití odtlačkov prstov povinnosť registrácie na &lt;EM&gt;Úrade na ochranu osobných údajov&lt;/EM&gt;&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=176&gt;&lt;STRONG&gt;Spôsob pripojenia (rozhranie)&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD width=143 align=center&gt;
+&lt;P align=center&gt;-&lt;/P&gt;&lt;/TD&gt;
+&lt;TD width=144 align=center&gt;
+&lt;P align=center&gt;-&lt;/P&gt;&lt;/TD&gt;
+&lt;TD width=145 align=center&gt;
+&lt;P align=center&gt;LAN&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=176&gt;&lt;STRONG&gt;Spôsob komunikácie&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD width=143 align=center&gt;Pripojenie k databáze účtovnej jednotky&lt;/TD&gt;
+&lt;TD width=144 align=center&gt;Pripojenie k databáze účtovnej jednotky&lt;/TD&gt;
+&lt;TD width=145 align=center&gt;
+&lt;P&gt;TCP/IP&lt;BR&gt;(zabezpečuje&amp;nbsp;&lt;A href="9ce25bbd-35d1-4096-acd5-70007f5af5a6"&gt;automatická úloha&lt;/A&gt;&amp;nbsp;v&amp;nbsp;&lt;A href="09f3dae9-2fb7-490f-97dc-37f60885b398"&gt;OAC&lt;/A&gt;)&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=176&gt;&lt;STRONG&gt;Typy prechodov&lt;/STRONG&gt;&lt;/TD&gt;
+&lt;TD width=143 align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD width=144 align=center&gt;&lt;IMG border=0 alt="" src="images/Forms/Menu/Form_Menu_Tick2.png"&gt;&lt;/TD&gt;
+&lt;TD width=145 align=center&gt;Preddefinované typy (max. 8)&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;
+&lt;P&gt;* priložením RFID&amp;nbsp;kľúča/karty (kľúčenky) na snímač prístupu&lt;/P&gt;
+&lt;H2&gt;Ďalšie informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Pri používaní dochádzkového terminálu (v režime on-line ) je možné zistiť, ktorí pracovníci sú, alebo nie sú&amp;nbsp;&lt;STRONG&gt;aktuálne vo firme prítomní&lt;/STRONG&gt;. Zároveň možno ihneď zistiť, ktorí pracovníci meškali, a to aj niekoľko dní spätne. Viac informácií získate v téme&amp;nbsp;&lt;A href="77f4529f-a73f-4a6d-b4fe-02d338cbdafa"&gt;Prítomní pracovníci&lt;/A&gt;. 
+&lt;LI&gt;K&amp;nbsp;jednej firme, resp. účtovnej jednotke&amp;nbsp;možno pripojiť aj viacero hardvérových dochádzkových terminálov (automatická synchronizácia pracovníkov a odtlačkov prsta). 
+&lt;LI&gt;Špecialitou je&amp;nbsp;pripojenie jedného hardvérového dochádzkového terminálu k viacerým účtovným jednotkám, resp. firmám. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č.&amp;nbsp;1: Viacero dochádzkových terminálov&amp;nbsp;pripojených&amp;nbsp;k jednej firme&lt;/H5&gt;
+&lt;P&gt;&amp;nbsp;&lt;IMG border=0 alt="" src="images/Attendance/Attendance_MoreTerminals.png"&gt;&lt;/P&gt;
+&lt;H5&gt;Obrázok č.&amp;nbsp;2:&amp;nbsp;Jeden dochádzkový terminál pripojený k viacerým firmám&lt;/H5&gt;
+&lt;P&gt;&amp;nbsp;&lt;IMG border=0 alt="" src="images/Attendance/Attendance_MoreFirms.png"&gt;&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="b67f9bca-072f-4cca-bde5-25e7f51ca4e0" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="3f051fd3-9727-4ecc-9613-7a7fb1cb2a54">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="f60eb8ad-4a2d-44b8-82f8-ba3532db678a" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="ac73b976-c72c-449c-a608-c41ca5eb24ba">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="94295a1c-2cec-467e-84e6-c75f71f8939d" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="6856d140-bbfc-43c6-b0d7-0a6360827bb8">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="80839414-5dbd-43a1-a9e7-81defea918e1" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1e150e57-14b3-4afd-8380-996f4ed00898">
+      <Title m="2018-06-12T12:24:03.5620686Z">Dochádzkový terminál OBERON - Agenda firmy</Title>
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="668374c7-58d2-4636-ac24-4c0d8d6f634d" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="28ad3f59-16f3-4162-a0a6-387778cbc7c3">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="89dab678-e419-4acc-be3f-ebb36f1a91e2" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="16818a7f-7c27-497a-be4a-4930302e84f1">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="24e4ff14-111c-40ef-bf08-621ea4f21c82">
+      <Keyword m="2021-05-04T06:16:00.2002219Z">Dochádzkové terminály - všeobecné informácie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="1566a2cf-32ec-4328-8fe6-a1ca70da0be6">
+      <Keyword m="2021-05-04T06:19:16.3785716Z">Dochádzkové terminály - porovnanie</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

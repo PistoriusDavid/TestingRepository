@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="376de250-3bb9-4979-9efd-9feb648ea91f" Status="Complete" CreatedOn="2018-07-24T12:28:09.3662547Z" ModifiedOn="2023-09-12T07:20:56.6013631Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Wages_Attendance_Overtime" BuildFlags="">
+  <Title m="2018-07-24T12:28:40.8536951Z">Práca nadčas</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-09-12T07:20:56.6013631Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; je venovaná &lt;STRONG&gt;nadčasom a ich nastaveniam&lt;/STRONG&gt; v systéme OBERON.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Podľa &lt;EM&gt;Zákonníka práce&lt;/EM&gt; &lt;EM&gt;„práca nadčas je práca vykonávaná zamestnancom na príkaz zamestnávateľa alebo s jeho súhlasom nad určený týždenný pracovný čas vyplývajúci z vopred určeného rozvrhnutia pracovného času a vykonávaná mimo rámca rozvrhu pracovných zmien.“&lt;/EM&gt; 
+&lt;LI&gt;Práca nadčas je obmedzená počtom &lt;STRONG&gt;najviac 8 hodín v priemere za týždeň v rámci najviac štyroch po sebe nasledujúcich mesiacov&lt;/STRONG&gt;, resp. na základe dohody zamestnávateľa so zástupcom zamestnancov (s príslušným odborovým orgánom, so zamestnaneckou radou alebo so zamestnaneckým dôverníkom) v období najviac 12 po sebe nasledujúcich mesiacov. 
+&lt;LI&gt;V kalendárnom roku možno nariadiť zamestnancovi prácu nadčas &lt;STRONG&gt;v rozsahu najviac 150 hodín&lt;/STRONG&gt;. 
+&lt;LI&gt;Zamestnanec môže v kalendárnom roku vykonať prácu nadčas &lt;STRONG&gt;najviac v rozsahu 400 hodín&lt;/STRONG&gt;. Uvedené limity práce nadčas (150 resp. 400 hodín) sa vzťahujú na prácu nadčas nariadenú alebo vykonanú v období kalendárneho roka, teda v období začínajúcom 1. januárom a končiacom 31. decembrom príslušného roka. 
+&lt;LI&gt;Práca v čase mimo riadnych pracovných hodín musí byť &lt;STRONG&gt;riadne dohodnutá&lt;/STRONG&gt;, najlepšie v písomnej forme, nielen ústnej. 
+&lt;LI&gt;Za prácu nadčas sa nepovažuje, ak zamestnanec nadpracúva prácou vykonávanou nad určený týždenný pracovný čas pracovné voľno, ktoré mu zamestnávateľ poskytol na jeho žiadosť, alebo pracovný čas, ktorý odpadol pre nepriaznivé poveternostné vplyvy. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Spôsoby evidencie a spracovania nadčasov&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Pri spracovaní dochádzky (evidencie príchodov a odchodov) je možné pomocou&amp;nbsp;&lt;A href="05f759ce-29f8-46c1-b195-7dc22fc30cbd"&gt;pravidiel&amp;nbsp;spracovania dochádzky&lt;/A&gt; určiť, akým spôsobom sa&amp;nbsp;nadčas zaeviduje a prenesie do miezd.&amp;nbsp; 
+&lt;LI&gt;Vo&amp;nbsp;&lt;A href="a507e795-a7e0-4153-be12-61c2ef9185e0"&gt;formulári Pravidlo spracovania dochádzky&lt;/A&gt;&amp;nbsp;je po výbere&amp;nbsp;druhu pravidla &lt;EM&gt;Nadčasy&lt;/EM&gt; možné zadať názov nadčasu, určiť jeho prioritu a zvoliť jeden z&amp;nbsp;nasledujúcich&amp;nbsp;spôsobov evidencie nadčasov: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;&lt;EM&gt;Hodiny neevidovať a nepreplatiť&lt;/EM&gt; -&lt;/STRONG&gt; odpracované hodiny nad určený pracovný čas sa nebudú evidovať a preplácať. 
+&lt;LI&gt;&lt;STRONG&gt;&lt;EM&gt;Hodiny neevidovať, vyplatiť odmenu (tarifou za nadčas)&lt;/EM&gt; -&lt;/STRONG&gt; hodiny za nadčas sa nebudú evidovať, pracovníkovi bude okrem základnej mzdy vyplatená mzda za nadčas+nadčasový príplatok. 
+&lt;LI&gt;&lt;STRONG&gt;&lt;EM&gt;Hodiny neevidovať, vyplatiť odmenou (tarifou zo základnej mzdy)&lt;/EM&gt; -&amp;nbsp;&lt;/STRONG&gt;hodiny za nadčas sa nebudú evidovať, pracovníkovi bude vyplatená základná mzda+mzda za nadčas (bez príplatku). 
+&lt;LI&gt;&lt;STRONG&gt;&lt;EM&gt;Zahrnúť do odpracovaných hodín&lt;/EM&gt; -&amp;nbsp;&lt;/STRONG&gt;hodiny za nadčas sa zahrnú do odpracovaných hodín, pracovníkovi bude vyplatená základná mzda (základná mzda*počet odpracovaných&amp;nbsp;hodín). 
+&lt;LI&gt;&lt;STRONG&gt;&lt;EM&gt;Konvertovať na náhradné voľno&lt;/EM&gt; -&amp;nbsp;&lt;/STRONG&gt;za hodiny za nadčas si pracovník uplatní náhradné voľno, v tomto prípade mu nepatrí príplatok za prácu nadčas. Termín čerpania náhradného voľna si musí zamestnanec so zamestnávateľom dohodnúť, a to najneskôr do 4 kalendárnych mesiacov nasledujúcich po mesiaci, v ktorom sa nadčas vykonával. &lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Príklad:&lt;/H2&gt;
+&lt;P&gt;Pracovník má základnú hodinovú mzdu&amp;nbsp;6 €, trojmesačný priemer&amp;nbsp;je&amp;nbsp;6,5 €. Pracovník za mesiac odpracoval 168 hodín (pracovný deň má 8 hodín a v mesiaci je 21 pracovných dní),&amp;nbsp;4 hodiny mal nadčasové. V závislosti od spôsobu evidencie nadčasov sa mu&amp;nbsp;hodiny a mzda vypočítajú takto:&lt;/P&gt;
+&lt;TABLE style="WIDTH: 70%"&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TH width=311&gt;&lt;STRONG&gt;Spôsob evidencie&lt;/STRONG&gt;&lt;/TH&gt;
+&lt;TH width=40&gt;&lt;STRONG&gt;Odpracované hodiny v&amp;nbsp;mzdách&lt;/STRONG&gt;&lt;/TH&gt;
+&lt;TH&gt;&lt;STRONG&gt;Nadčas&lt;/STRONG&gt;&lt;/TH&gt;
+&lt;TH&gt;&lt;STRONG&gt;Mzda&lt;/STRONG&gt;&lt;/TH&gt;
+&lt;TH&gt;&lt;STRONG&gt;Poznámka k výpočtu&lt;/STRONG&gt;&lt;/TH&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=311&gt;Hodiny neevidovať a nepreplatiť&lt;/TD&gt;
+&lt;TD width=40&gt;168&lt;/TD&gt;
+&lt;TD&gt;0&lt;/TD&gt;
+&lt;TD&gt;1008&lt;/TD&gt;
+&lt;TD&gt;6*168&lt;BR&gt;základná mzda*počet odpracovaných hodín&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD height=37 width=311&gt;Hodiny neevidovať, vyplatiť odmenu&lt;BR&gt;(tarifou za nadčas)&lt;/TD&gt;
+&lt;TD height=37 width=40&gt;168&lt;/TD&gt;
+&lt;TD height=37&gt;0&lt;/TD&gt;
+&lt;TD height=37&gt;1038,5&lt;/TD&gt;
+&lt;TD height=37&gt;
+&lt;P&gt;(6*168)+(6*4)+(25% z 6,5*4)&lt;BR&gt;základná mzda+mzda za nadčas+nadčasový príplatok&lt;/P&gt;&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=311&gt;Hodiny neevidovať, vyplatiť odmenou&lt;BR&gt;(tarifou zo základnej mzdy)&lt;/TD&gt;
+&lt;TD width=40&gt;168&lt;/TD&gt;
+&lt;TD&gt;0&lt;/TD&gt;
+&lt;TD&gt;1032&lt;/TD&gt;
+&lt;TD&gt;(6*168)+(6*4)&lt;BR&gt;základná mzda+mzda za nadčas&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=311&gt;Zahrnúť do odpracovaných hodín&lt;/TD&gt;
+&lt;TD width=40&gt;172&lt;/TD&gt;
+&lt;TD&gt;0&lt;/TD&gt;
+&lt;TD&gt;1032&lt;/TD&gt;
+&lt;TD&gt;6*172&lt;BR&gt;základná mzda*počet odpracovaných&amp;nbsp;hodín&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD width=311&gt;Konvertovať na náhradné voľno&lt;/TD&gt;
+&lt;TD width=40&gt;168&lt;/TD&gt;
+&lt;TD&gt;4&lt;/TD&gt;
+&lt;TD&gt;1008&lt;/TD&gt;
+&lt;TD&gt;6*168&lt;BR&gt;základná mzda*počet odpracovaných&amp;nbsp;hodín (za 4 hodiny nadčasu si pracovník uplatní náhradné voľno)&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="22b9634e-78c4-44b7-ac4b-da6548e82392" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="05f759ce-29f8-46c1-b195-7dc22fc30cbd">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="1b8886be-2028-4981-996b-9ec5ce5b885b" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="a507e795-a7e0-4153-be12-61c2ef9185e0">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="21801f12-edc3-4507-9cdb-3fcd72e04ed1">
+      <Keyword m="2023-09-11T10:32:36.0257846Z">Spôsoby evidencie a spracovania nadčasov</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="277aaf95-5c36-4cb8-98b2-dfc108d586b5">
+      <Keyword m="2023-09-11T13:05:01.7760354Z">Nadčasy</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

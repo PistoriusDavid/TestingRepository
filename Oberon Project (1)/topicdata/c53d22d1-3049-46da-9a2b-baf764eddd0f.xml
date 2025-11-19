@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="c53d22d1-3049-46da-9a2b-baf764eddd0f" Status="Complete" CreatedOn="2024-07-12T06:35:12.9594237Z" ModifiedOn="2024-07-15T08:58:32.6274514Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Web_OBERON_Web_Installation" BuildFlags="">
+  <Title m="2024-07-12T08:02:15.824281Z">Inštalácia aplikácie OBERON Web</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-07-12T11:26:12.0770482Z">&lt;P align=left&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje postup inštalácie webovej aplikácie&amp;nbsp;&lt;A href="b138daad-5453-4e53-8d2c-ecf2e81a5fcb" style="auto-update-caption: true"&gt;OBERON Web&lt;/A&gt;.&lt;/P&gt;
+&lt;H2 align=left&gt;1. Pripojenie k&amp;nbsp;webovej službe&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;V&amp;nbsp;závislosti od spôsobu použitia webovej služby &lt;STRONG&gt;zvoľte jednu z možností&amp;nbsp;pripojenia k&amp;nbsp;webovej službe a vykonajte potrebné nastavenia&lt;/STRONG&gt;. Viac informácií získate v&amp;nbsp;téme&amp;nbsp;&lt;A href="7d4c6ecf-89c9-402a-966c-96a86ae3bfbb" style="auto-update-caption: true"&gt;Možnosti pripojenia k webovej službe&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;2.&amp;nbsp;Nastavenie automatickej úlohy&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Webová služba sa nastavuje ako&amp;nbsp;jedna z&amp;nbsp;&lt;A href="9ce25bbd-35d1-4096-acd5-70007f5af5a6"&gt;automatických úloh&lt;/A&gt; vykonávaných programom&amp;nbsp;&lt;A href="09f3dae9-2fb7-490f-97dc-37f60885b398"&gt;OBERON Automation Center&lt;/A&gt;.&amp;nbsp;Samotná komunikácia s&amp;nbsp;webovou službou štandardne prebieha pomocou protokolu &lt;B&gt;SOAP&lt;/B&gt;, pričom je možné komunikovať aj pomocou &lt;B&gt;JSON&lt;/B&gt; štruktúr. 
+&lt;LI&gt;Všeobecný postup nastavenia webovej služby je dostupný v&amp;nbsp;téme &lt;A href="f3e85885-2cfb-4f9b-b966-a54836db41cd" style="auto-update-caption: true"&gt;Inštalácia webovej služby&lt;/A&gt;. Vo vybraných prípadoch je postup nastavenia webovej služby dostupný v príslušných témach &lt;EM&gt;Pomocníka&lt;/EM&gt; (napr.&amp;nbsp;&lt;A href="1401d019-26f1-420b-9587-421922ef4e1e" style="auto-update-caption: true"&gt;Prístup hosťa k svojmu hotelovému účtu&lt;/A&gt;). 
+&lt;LI&gt;Po nastavení automatickej úlohy v&amp;nbsp;zozname úloh vo &lt;A href="9ce25bbd-35d1-4096-acd5-70007f5af5a6"&gt;formulári Automatické úlohy&lt;/A&gt;&amp;nbsp;v stĺpci &lt;EM&gt;Popis&lt;/EM&gt; získate údaje: &lt;STRONG&gt;IP adresu počítača spolu s číslom komunikačného TCP/IP&amp;nbsp;portu&lt;/STRONG&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;3. Otvorenie aplikácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Na otvorenie aplikácie &lt;EM&gt;OBERON Web&lt;/EM&gt; zadajte do webového prehliadača&amp;nbsp;odkaz v&amp;nbsp;tvare napr. &lt;EM&gt;&lt;STRONG&gt;http://192.168.16.20:22001/login&lt;/STRONG&gt;&lt;/EM&gt; (Obrázok č. 1). 
+&lt;LI&gt;Pri službe&amp;nbsp;&lt;A href="02f77fd1-6b2f-482c-8dd0-77896d038c3e"&gt;OBERON Link&lt;/A&gt; zadajte do webového prehliadača&amp;nbsp;odkaz v&amp;nbsp;tvare napr. &lt;EM&gt;&lt;STRONG&gt;https://mojafirma.server1.oberonlink.sk&lt;/STRONG&gt;&lt;STRONG&gt;&lt;A&gt;/login&lt;/A&gt;&lt;/STRONG&gt;&lt;/EM&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 1:&amp;nbsp;Zadanie odkazu do webového prehliadača&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/OBERON_Web/OBERONWeb_Login.PNG"&gt;&amp;nbsp;&lt;IMG border=0 alt="" src="images/OBERON_Web/OBERONWeb_LoginOBERONLink.PNG"&gt;&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="053b776c-b655-4284-ae1c-16524fb15948" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="b138daad-5453-4e53-8d2c-ecf2e81a5fcb">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="4bef73e6-6251-446a-9444-b55eceb7e48f" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="f3e85885-2cfb-4f9b-b966-a54836db41cd">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="cab252df-7db3-4908-b9e7-7b82c0a36263" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="7d4c6ecf-89c9-402a-966c-96a86ae3bfbb">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="87b739c9-c1ff-4700-9fcd-21c681216863" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="02f77fd1-6b2f-482c-8dd0-77896d038c3e">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="f160a6db-9fdb-4f8e-9acd-9f567aa01e8a">
+      <Keyword m="2023-01-24T10:50:27.3428017Z">Webová aplikácia OBERON Web</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="a83e31a2-ba8c-4234-96f2-45eb618ea5cb">
+      <Keyword m="2023-01-24T10:50:13.988831Z">Nadstavbová webová aplikácia OBERON Web</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="e128c766-527b-4b39-8e0c-2987484247d0">
+      <Keyword m="2023-01-24T10:50:33.9355337Z">Aplikácia OBERON Web</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="074b1ad4-5f5d-4e53-9213-878a790a90b3">
+      <Keyword m="2024-07-15T08:58:32.6274514Z">OBERON Link - inštalácia OBERON Web</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="118b1dc0-7585-49bf-a82d-14d6ab3ff34e">
+      <Keyword m="2024-07-15T08:58:24.3379154Z">OBERON Web - inštalácia</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

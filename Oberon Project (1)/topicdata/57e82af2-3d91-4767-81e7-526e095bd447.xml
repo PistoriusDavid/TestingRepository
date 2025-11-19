@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="57e82af2-3d91-4767-81e7-526e095bd447" Status="Complete" CreatedOn="2014-10-17T09:18:39.1502251Z" ModifiedOn="2024-06-19T10:41:01.8968878Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="79010" Name="MsgBox_Wages_LicencePrivileges" BuildFlags="">
+  <Title m="2014-10-17T09:19:12.7591475Z">Nedostatočné licenčné práva na vykonanie tejto činnosti</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2024-06-19T10:41:01.8968878Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; obsahuje &lt;STRONG&gt;informácie o dialógovom okne týkajúcom sa informácie o nedostatočných licenčných právach v module &lt;EM&gt;Mzdy a dochádzka&lt;/EM&gt;&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Na používanie&amp;nbsp;modulu&amp;nbsp;&lt;A href="bf009605-0be8-4286-8ef5-4c7d3b89143a"&gt;Mzdy&lt;/A&gt; a&amp;nbsp;&lt;A href="3883342c-9ef0-4fd9-8773-88df84f78f65"&gt;dochádzka&lt;/A&gt;&amp;nbsp;je potrebné zakúpiť a&amp;nbsp;aktivovať licenciu. Bez zakúpenej licencie je možné spracovať &lt;STRONG&gt;len&amp;nbsp;3 mzdy v danom účtovnom období&lt;/STRONG&gt;. V mesiacoch január, február a marec &lt;STRONG&gt;nie je možné mzdy&amp;nbsp;spracovávať bez licencie&lt;/STRONG&gt;. 
+&lt;LI&gt;Po&amp;nbsp;&lt;A href="49208c26-7930-4363-9fab-977662e2e8cc"&gt;realizácii objednávky licencie&lt;/A&gt; je&amp;nbsp;systém OBERON&amp;nbsp;&lt;STRONG&gt;plne&amp;nbsp;funkčný v&amp;nbsp;rámci objednaného typu licencie počas 15 dní&amp;nbsp;od objednania licencie&lt;/STRONG&gt; &lt;STRONG&gt;(trial licencia)&lt;/STRONG&gt;.&amp;nbsp;Ak po uplynutí tohto času nedôjde k úhrade poplatku za&amp;nbsp;licenciu,&amp;nbsp;vybrané funkcie a počet zápisov v niektorých evidenciách sa znovu automaticky&amp;nbsp;&lt;A href="644b0685-defe-4ce5-b3cd-e731b5eff299"&gt;obmedzia&lt;/A&gt;.&amp;nbsp;&lt;A href="efb93a2c-e449-4770-88ba-0fe999e90ccd"&gt;Úhradou poplatku za licenciu a jej aktivovaním&lt;/A&gt;&amp;nbsp;sa obmedzenia zrušia -&amp;nbsp;so softvérom bude možné pracovať plnohodnotne.&lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Caution Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;STRONG&gt;Upozornenie:&lt;/STRONG&gt; V jednom účtovnom období (od 1.1. do 31.12.)&amp;nbsp;je možné pracovať &lt;STRONG style="COLOR: rgb(255,0,0)"&gt;v rámci&amp;nbsp;tzv.&amp;nbsp;trial licencie len raz&lt;/STRONG&gt;. Podrobné informácie o fungovaní trial licencie získate v&amp;nbsp;&lt;A href="40c83e5f-22aa-4ba5-b4c1-35938f90fac2"&gt;Obchodných podmienkach&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="a7f501c1-4762-4655-ac0f-bdc4517344e8" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="95d188df-c149-46a9-8474-4d9493f2ad41">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="d432b362-e34b-4638-8ba5-ac3ca94a0b18" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="644b0685-defe-4ce5-b3cd-e731b5eff299">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="4e3fd69e-eb21-4d00-a465-072c446eed51" CategoryId="" TopicLinkCategorySource="TopicCategory" Target="efb93a2c-e449-4770-88ba-0fe999e90ccd">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="9ce82859-0322-4ba3-9a38-8589f2f186a0">
+      <Keyword m="2023-07-18T10:59:29.22244Z">Chybové hlásenie - nedostatočné licenčné práva Mzdy a dochádzka</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

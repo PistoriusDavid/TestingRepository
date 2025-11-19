@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="2edf9500-71d3-4b5c-9d44-990261fb51bc" Status="Complete" CreatedOn="2014-09-03T14:43:44.001Z" ModifiedOn="2023-03-15T14:22:13.0548565Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Device_CashRegisterOff-line" BuildFlags="">
+  <Title m="2019-04-04T07:26:15.0815434Z">Použitie registračných pokladníc v režime off-line</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-03-15T14:22:13.0548565Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; je venovaná štandardným registračným pokladniciam&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;&lt;SPAN style="COLOR: rgb(0,0,0)"&gt;, ktoré &lt;STRONG&gt;nie sú počas predaja pripojené&lt;/STRONG&gt; &lt;STRONG&gt;k počítaču (režim off-line)&lt;/STRONG&gt;, ale predaj sa vykonáva priamo na pokladnici.&lt;/SPAN&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Okrem možnosti použitia registračných pokladníc vo funkcii&amp;nbsp;&lt;A href="b24ad235-cf7f-43e2-b3e8-ec0f7d92f6b6"&gt;fiškálnej tlačiarne&lt;/A&gt; prepojenej počas predaja s počítačom (tzv. &lt;EM&gt;režim on-line&lt;/EM&gt;&amp;nbsp;-&amp;nbsp;viac v téme&amp;nbsp;&lt;A href="04b8d290-1470-41ff-85a1-c44a20958841"&gt;Všeobecne o registračných pokladniciach&lt;/A&gt;),&amp;nbsp;systém OBERON umožňuje&amp;nbsp;používať registračné pokladnice&amp;nbsp;aj&amp;nbsp;v&amp;nbsp;režime off-line, keď je predaj možné vykonávať aj bez pripojenia k&amp;nbsp;počítaču. 
+&lt;LI&gt;Off-line&amp;nbsp;režim funguje autonómne a je nezávislý od počítača - OBERON slúži len na zápis skladových kariet (položiek PLU) do pokladnice a&amp;nbsp;na konci predajného dňa na vyčítanie predaných položiek a následnú úpravu (zníženie)&amp;nbsp;zostatkových množstiev na skladových kartách. &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;&lt;STRONG&gt;PLU&lt;/STRONG&gt; (&lt;STRONG&gt;P&lt;/STRONG&gt;rice &lt;STRONG&gt;L&lt;/STRONG&gt;ook &lt;STRONG&gt;U&lt;/STRONG&gt;p) je skratka&amp;nbsp;na označenie konkrétneho tovaru (tovarovej položky) predávaného na registračnej&amp;nbsp;pokladnici. Pod označením PLU sa rozumie názov tovaru, predajná cena a&amp;nbsp;príznaky (daňová hladina, tovarová skupina, predajná jednotka&amp;nbsp;a pod.). Pri registračných pokladniciach v režime off-line PLU de facto reprezentuje skladovú kartu, resp. identifikátor skladovej karty&amp;nbsp;v systéme OBERON.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2&gt;Predaj v režime off-line - nastavenia&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Pred prvým predajom je potrebné registračnú pokladnicu nastaviť podľa manuálu výrobcu. 
+&lt;LI&gt;Následne je pred&amp;nbsp;zápisom položiek do pokladnice potrebné na&amp;nbsp;&lt;A href="c233ada3-0fed-4911-97f3-0680973ebac1"&gt;skladových kartách&lt;/A&gt;&amp;nbsp;v záložke &lt;EM&gt;Reg.&amp;nbsp;pokladnice&lt;/EM&gt; priradiť k jednotlivým skladovým kartám čísla PLU, zadať názvy položiek na bločku (niektoré pokladnice umožňujú tlačiť názov len&amp;nbsp;s&amp;nbsp;dĺžkou napr. 18 znakov), prípadne nastaviť tzv. príznaky PLU. 
+&lt;LI&gt;Napokon je možné do registračnej pokladnice zapísať skladové karty (položky PLU) -&amp;nbsp;viac informácií v&amp;nbsp;téme&amp;nbsp;&lt;A href="f3d430ec-920c-4113-ab53-fb58e1368b4d"&gt;Zápis PLU do registračnej pokladnice&lt;/A&gt;. 
+&lt;LI&gt;V režime off-line sa po vytlačení&amp;nbsp;pokladničného dokladu&amp;nbsp;ihneď neprejaví úbytok na skladových kartách, stav zásob v&amp;nbsp;evidencii zostane nezmenený. Stavy zásob sa upravia&amp;nbsp;až po pripojení registračnej pokladnice k&amp;nbsp;počítaču a &amp;nbsp;následnom načítaní informácií o predaji -&amp;nbsp;tzv.&amp;nbsp;&lt;A href="fb814763-c53d-473c-821d-ebbf53114723"&gt;Čítanie PLU z&amp;nbsp;pokladnice&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H5&gt;Obrázok č. 1:&amp;nbsp; Registračná pokladnica &lt;EM&gt;Euro-150i/o Flexy BAT Plus&lt;/EM&gt;&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Devices/Device_Euro150.png"&gt;&lt;/P&gt;
+&lt;H2&gt;Položky ponuky&amp;nbsp;na prácu s registračnými pokladnicami v režime off-line&lt;/H2&gt;
+&lt;P&gt;Ak je v&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="749ff4f1-eeb5-43f5-98d2-021399d8cec7" style="auto-update-caption: true"&gt;Zariadenia&lt;/A&gt; pridaná aspoň jedna registračná pokladnica,&amp;nbsp;v ponuke &lt;EM&gt;Sklad - Registračné pokladnice&lt;/EM&gt; sa sprístupnia&amp;nbsp;tieto položky:&lt;/P&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;A href="1e77a4ea-9d02-498a-b332-0a5a036b23d7"&gt;Súhrn predaja&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="fb814763-c53d-473c-821d-ebbf53114723"&gt;Čítanie PLU z pokladnice&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="f3d430ec-920c-4113-ab53-fb58e1368b4d"&gt;Zápis PLU do pokladnice&lt;/A&gt; 
+&lt;LI&gt;&lt;A href="60b46e26-4dbe-43d9-a2e9-182be2dfafa8"&gt;Vytvorenie skladových kariet z pokladnice&lt;/A&gt; &lt;/LI&gt;&lt;/UL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;Prehľad podporovaných registračných pokladníc vrátane registračných pokladníc v&amp;nbsp;režime off-line nájdete v&amp;nbsp;téme&amp;nbsp;&lt;A href="d9b919e7-20c4-4c50-9910-4f13211ed9a8"&gt;Podporované registračné pokladnice&lt;/A&gt;. Prehľad ďalších pripojiteľných zariadení v systéme OBERON je možné získať v&amp;nbsp;téme&amp;nbsp;&lt;A href="3f051fd3-9727-4ecc-9613-7a7fb1cb2a54"&gt;Prehľad pripojiteľných zariadení&lt;/A&gt;.&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="0a418bbf-332c-452e-a491-991085a4d103" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="3f051fd3-9727-4ecc-9613-7a7fb1cb2a54">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="e113707f-e3d7-43fa-a094-cadd8a94bf27" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="04b8d290-1470-41ff-85a1-c44a20958841">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="6431e7e6-1a80-4053-b44d-a51d03c8886e" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="d9b919e7-20c4-4c50-9910-4f13211ed9a8">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="e3deefcb-31b9-4c30-ad3e-d953d46164eb" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="a75ad602-f141-475d-afba-8d0f3dcf668a">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="50e145c2-f82d-40a4-8164-1c3dfa24569a" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="747496d6-0267-424d-a55e-aed6cbd90050">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="8df79304-0d95-4081-a3f8-979a29f83be0">
+      <Keyword m="2021-04-30T12:40:20.0521449Z">Registračné pokladnice v režime off-line - všeobecné informácie</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="1024adbc-6e06-4646-bf7f-5d62644ad48b">
+      <Keyword m="2021-04-30T12:40:51.3321958Z">PLU - definícia</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="84f513e6-b158-4719-9008-729f2ba0dc66" Status="Complete" CreatedOn="2019-09-02T12:03:53.4276957Z" ModifiedOn="2023-12-04T13:21:22.1545318Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Device_Barcode_Scanner_QeeRskener_Install" BuildFlags="">
+  <Title m="2019-09-09T06:21:19.1740804Z">QeeR skener - inštalácia</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-12-04T13:21:22.1545318Z">&lt;P&gt;Táto téma&amp;nbsp;&lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;obsahuje&lt;STRONG&gt;&amp;nbsp;postup inštalácie softvérového snímača QR kódov&amp;nbsp;&lt;/STRONG&gt;&lt;A href="518026eb-be63-494d-b3e3-837f9509c543"&gt;QeeR skener&lt;/A&gt; tak v&amp;nbsp;systéme OBERON, ako aj v mobilnom zariadení.&lt;/P&gt;
+&lt;H2&gt;Sieťové rozhranie&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;Aby bolo možné softvérový snímač QR kódov &lt;A href="518026eb-be63-494d-b3e3-837f9509c543"&gt;QeeR skener&lt;/A&gt;&amp;nbsp;používať, je potrebné, aby bolo mobilné zariadenie &lt;STRONG&gt;pripojené do tej istej počítačovej siete, ako počítač&lt;/STRONG&gt;,&amp;nbsp;v&amp;nbsp;ktorom máte nainštalovaný OBERON a na ktorom budete pracovať. 
+&lt;LI&gt;Na úspešnú inštaláciu softvérového snímača&amp;nbsp;&lt;STRONG&gt;je nevyhnutné&lt;/STRONG&gt; &lt;STRONG&gt;poznať IP adresu siete&lt;/STRONG&gt;, do ktorej je pripojené mobilné zariadenie a počítač. IP adresu možno zistiť u správcu siete, resp. na počítači alebo v&amp;nbsp;mobilnom zariadení (napr. &lt;STRONG&gt;192.168.16.xx&lt;/STRONG&gt;). &lt;/LI&gt;&lt;/OL&gt;&lt;innovasys:widget type="Tip Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;IP adresu siete možno zistiť v mobilnom zariadení v ponuke &lt;EM&gt;Nastavenia, Wi-Fi, Podrobnosti siete, Adresa IP&lt;/EM&gt;, resp. &lt;EM&gt;Router&lt;/EM&gt;. Rozhodujúcim je tretia časť adresy, napr.&amp;nbsp;&lt;STRONG&gt;192.168.&lt;SPAN style="COLOR: rgb(255,0,0)"&gt;16&lt;/SPAN&gt;.xx&lt;/STRONG&gt;. Tú istú adresu je potom potrebné vybrať aj pri nastavení sieťového rozhrania v OBERON-e (pozri bod 3 nasledujúceho postupu).&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H2 align=justify&gt;Nastavenia v OBERON-e&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;Ak ešte nemáte v systéme OBERON vytvorenú (založenú) firmu, vytvorte ju&amp;nbsp;- bližšie informácie nájdete v téme &lt;A href="9a485893-6dd2-44e8-9740-a4cd7083a932" style="auto-update-caption: true"&gt;Vytvorenie účtovnej jednotky (databázy)&lt;/A&gt;. 
+&lt;LI&gt;Spustite program &lt;EM&gt;OBERON&amp;nbsp;- Agenda firmy&lt;/EM&gt;. 
+&lt;LI&gt;Zvoľte ponuku &lt;EM&gt;Servis,&amp;nbsp;&lt;/EM&gt;&lt;A href="749ff4f1-eeb5-43f5-98d2-021399d8cec7"&gt;Zariadenia&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt; stlačte tlačidlo &lt;I&gt;Pridať.&lt;/I&gt; V&amp;nbsp;otvorenom formulári zadajte pomenovanie zariadenia, vyberte typ zariadenia &lt;EM&gt;&lt;STRONG&gt;Snímač čiarového&amp;nbsp;kódu&lt;/STRONG&gt;&lt;/EM&gt; a&amp;nbsp;model&amp;nbsp;&lt;EM&gt;&lt;STRONG&gt;QeeR skener&lt;/STRONG&gt;,&lt;/EM&gt; zadajte (vyberte) &lt;STRONG&gt;názov počítača&lt;/STRONG&gt;, ku ktorému sa má zariadenie pripojiť, prípadne zadajte&amp;nbsp;ostatné údaje. Potom stlačte tlačidlo &lt;I&gt;Nastaviť zariadenie.&lt;/I&gt; Otvorí&amp;nbsp;sa formulár&amp;nbsp;s&amp;nbsp;parametrami komunikácie. V rozbaľovacom zozname &lt;EM&gt;&lt;STRONG&gt;Sieťové rozhranie&lt;/STRONG&gt;&lt;/EM&gt; vyberte IP adresu siete, do ktorej je pripojené mobilné zariadenie aj počítač, na ktorom budete s OBERON-om pracovať (napr. &lt;STRONG&gt;192.168.16.xx&lt;/STRONG&gt;). 
+&lt;LI&gt;Stlačte tlačidlo &lt;EM&gt;Pridať výnimku do Windows firewall&lt;/EM&gt; (ak používate bránu firewall iného výrobcu, je potrebné povoliť zadaný port manuálne).&amp;nbsp;Nastavenia&amp;nbsp;potvrďte stlačením tlačidla &lt;EM&gt;&lt;STRONG&gt;OK&lt;/STRONG&gt;.&lt;/EM&gt; 
+&lt;LI&gt;V prípade účtovania pre viaceré firmy je potrebné zariadenie (snímač čiarových kódov s&amp;nbsp;podporou QR kódov alebo QR skener) &lt;STRONG&gt;pridať do každej firmy zvlášť&lt;/STRONG&gt;. &lt;/LI&gt;&lt;/OL&gt;&lt;innovasys:widget type="Note Box" layout="block"&gt;&lt;innovasys:widgetproperty layout="block" name="Content"&gt;V prípade, že&amp;nbsp;používateľ pracuje s OBERON-om cez vzdialenú plochu a &lt;EM&gt;QeeR skener&lt;/EM&gt; komunikuje s lokálnym počítačom, je vo formulári &lt;EM&gt;Zariadenie&lt;/EM&gt; (ponuka &lt;EM&gt;Servis,&amp;nbsp;&lt;/EM&gt;&lt;A href="749ff4f1-eeb5-43f5-98d2-021399d8cec7"&gt;Zariadenia&lt;/A&gt;&lt;EM&gt;,&lt;/EM&gt;&amp;nbsp;tlačidlo &lt;EM&gt;Pridať&lt;/EM&gt;) potrebné vybrať počítač s&amp;nbsp;označením &lt;STRONG&gt;RDP: názov počítača,&amp;nbsp;s&amp;nbsp;ktorým&amp;nbsp;aplikácia komunikuje&lt;/STRONG&gt;&amp;nbsp;(napr. ak OBERON beží na počítači s názvom SERVER a&amp;nbsp;používateľ s ním pracuje&amp;nbsp;cez vzdialenú plochu z&amp;nbsp;počítača&amp;nbsp;s&amp;nbsp;názvom COMPUTER1,&amp;nbsp;vo formulári&amp;nbsp;&lt;EM&gt;Zariadenie&lt;/EM&gt; vyberie počítač RDP: COMPUTER1).&lt;/innovasys:widgetproperty&gt;&lt;/innovasys:widget&gt;
+&lt;H5&gt;Obrázok č. 1: Nastavenia komunikácie v OBERON-e&lt;/H5&gt;
+&lt;P&gt;&lt;IMG border=0 alt="" src="images/Devices/Device_QeeRSkenerr_PCSettings.png"&gt;&amp;nbsp;&lt;/P&gt;
+&lt;H2 align=justify&gt;Nastavenia v mobilnom zariadení&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;Aplikáciu&amp;nbsp;&lt;EM&gt;QeeR skener&lt;/EM&gt; vyhľadajte a nainštalujte do mobilného zariadenia pomocou aplikácie &lt;EM&gt;Obchod Play&lt;/EM&gt; alebo &lt;EM&gt;App Store&lt;/EM&gt;. Odkaz priamo na aplikáciu je umiestnený aj na&amp;nbsp;&lt;A href="https://exalogic.sk/zoznam/qeer-skener/" target=_blank&gt;webovej stránke&lt;/A&gt; firmy EXALOGIC&amp;nbsp;(tlačidlo &lt;EM&gt;Google play&lt;/EM&gt;, resp. &lt;EM&gt;App Store&lt;/EM&gt;). 
+&lt;LI&gt;Uistite sa, že &lt;STRONG&gt;mobilné zariadenie je pripojené do tej istej siete, ako počítač&lt;/STRONG&gt;,&amp;nbsp;v&amp;nbsp;ktorom máte nainštalovaný OBERON a na ktorom budete pracovať. 
+&lt;LI&gt;Otvorte aplikáciu klepnutím na ikonku na ploche mobilného zariadenia a v&amp;nbsp;ponuke &lt;EM&gt;Nastavenia&lt;/EM&gt; pridajte počítač do &lt;EM&gt;Zoznamu počítačov&lt;/EM&gt;. Zadajte nasledujúce údaje: 
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Názov počítača&lt;/STRONG&gt;, 
+&lt;LI&gt;&lt;STRONG&gt;IP adresa&lt;/STRONG&gt; - aktuálna IP adresa počítača, 
+&lt;LI&gt;&lt;STRONG&gt;číslo komunikačného portu&lt;/STRONG&gt; - TCP/IP port&amp;nbsp;v programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;. Na pripojenie aplikácie&amp;nbsp;k&amp;nbsp;danému&amp;nbsp;počítaču začiarknite políčko &lt;EM&gt;Nastaviť ako predvolený&lt;/EM&gt;. Počítač sa v zozname zobrazí &lt;SPAN style="COLOR: rgb(73,113,30)"&gt;&lt;STRONG&gt;zelenou farbou&lt;/STRONG&gt;&lt;/SPAN&gt;. &lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/OL&gt;
+&lt;H2&gt;Otestovanie snímača&lt;/H2&gt;
+&lt;OL&gt;
+&lt;LI&gt;V&amp;nbsp;ponuke &lt;EM&gt;Servis&lt;/EM&gt;,&amp;nbsp;&lt;A href="749ff4f1-eeb5-43f5-98d2-021399d8cec7" style="auto-update-caption: true"&gt;Zariadenia&lt;/A&gt; zvoľte pridané zariadenie &lt;EM&gt;QeeR skener&lt;/EM&gt; a&amp;nbsp;stlačte tlačidlo &lt;EM&gt;Upraviť&lt;/EM&gt; a následne tlačidlo&amp;nbsp;&lt;I&gt;Nastaviť zariadenie.&lt;/I&gt; Otvorí&amp;nbsp;sa formulár, v ktorom stlačte tlačidlo &lt;EM&gt;Štart&lt;/EM&gt;. 
+&lt;LI&gt;Z aplikácie &lt;EM&gt;QeeR skener&lt;/EM&gt; v mobilnom zariadení odošlite naskenované doklady. Pri úspešnej komunikácii sa príslušné kódy dokladov odošlú do OBERON-u (Obrázok č. 1). 
+&lt;LI&gt;Na ukončenie testovania stlačte tlačidlo &lt;EM&gt;Stop&lt;/EM&gt;. 
+&lt;LI&gt;Po úspešnom nadviazaní komunikácie je inštalácia zariadenia ukončená. &lt;/LI&gt;&lt;/OL&gt;
+&lt;H5&gt;Obrázok č.&amp;nbsp;2: Nastavenia komunikácie v mobilnom zariadení&lt;/H5&gt;
+&lt;P align=left&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;IMG border=0 alt="" src="images/Devices/Device_QeeRSkener_PhoneSettings.png"&gt;&lt;/P&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="d420e2ea-4d17-425c-8e68-36d5e5227565" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="518026eb-be63-494d-b3e3-837f9509c543">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="8dc2f3f6-b20c-43ed-87ac-e9b0dc3f1a28" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="749ff4f1-eeb5-43f5-98d2-021399d8cec7">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="d607cfe0-0300-4ce3-9c46-fd52e5886bc0" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="cf9e27af-d4c5-4b0c-9b37-78cfa72b9abd">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="4f4e854c-226b-4190-b1f4-24d25dbbf277">
+      <Keyword m="2019-09-13T06:22:46.8419208Z">QeeR skener - inštalácia</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="7883106d-5350-40d4-8f46-94beb9c50c02">
+      <Keyword m="2019-10-04T11:28:56.6188557Z">Skener QeeR - inštalácia</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

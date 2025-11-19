@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="72ad4da7-68c4-4e7a-a3f5-49097cad80a4" Status="Complete" CreatedOn="2021-07-06T06:51:16.4912918Z" ModifiedOn="2022-06-07T11:42:03.6169223Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Menu_OBERON_CentralDatabase_OpenInCloud" BuildFlags="">
+  <Title m="2021-07-06T06:53:49.9763805Z">Otvoriť centrálnu databázu v cloude</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2022-06-07T11:42:03.6169223Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt;&amp;nbsp;je venovaná&amp;nbsp;položke&amp;nbsp;&lt;EM&gt;Otvoriť centrálnu databázu v&amp;nbsp;cloude&lt;/EM&gt; v ponuke &lt;EM&gt;OBERON&lt;/EM&gt; programu &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;. Položka je dostupná len v prípade, že je v&amp;nbsp;programe&amp;nbsp;&lt;A href="24e780fd-36d3-4a6e-bfc0-a8665c75e4ee"&gt;OBERON Center&lt;/A&gt; nastavená&amp;nbsp;&lt;A href="9ce25bbd-35d1-4096-acd5-70007f5af5a6"&gt;automatická úloha&lt;/A&gt;&amp;nbsp;&lt;A href="87f87ba8-cd9e-47ef-9dda-0ca54dfa1dd0"&gt;On-line pobočková synchronizácia&lt;/A&gt;&amp;nbsp;a&amp;nbsp;v&amp;nbsp;programe &lt;EM&gt;OBERON - Agenda firmy&lt;/EM&gt;&amp;nbsp;je otvorená pobočková databáza.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Výberom položky sa systém OBERON prepne &lt;STRONG&gt;z pobočkovej databázy do centrálnej databázy&lt;/STRONG&gt; pri on-line pobočkovom režime. Viac informácií získate v téme&amp;nbsp;&lt;A href="67abf56c-fe22-4bc8-ba77-6a8058a8782f"&gt;Všeobecne o on-line pobočkovom režime&lt;/A&gt;. 
+&lt;LI&gt;Na prepnutie z centrálnej databázy do pobočkovej databázy slúži ponuka &lt;EM&gt;OBERON,&lt;/EM&gt;&amp;nbsp;&lt;A href="1404f8cb-22e7-4943-b086-a17ba98199a5"&gt;Otvoriť lokálnu pobočkovú databázu&lt;/A&gt;. &lt;/LI&gt;&lt;/UL&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="0bc4790d-759e-4ccf-a23a-a06d2eb28ac9" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="1404f8cb-22e7-4943-b086-a17ba98199a5">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="4417b99a-69c4-493c-b106-37d95b271447" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="67abf56c-fe22-4bc8-ba77-6a8058a8782f">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="49071f5e-7cb0-4f90-8752-7c1e517ecfcb" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="87f87ba8-cd9e-47ef-9dda-0ca54dfa1dd0">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="ca761f04-6c5e-4322-88a2-eff193e4882f">
+      <Keyword m="2021-07-06T07:45:55.3331485Z">Prepnúť z pobočkovej databázy do centrálnej databázy</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>

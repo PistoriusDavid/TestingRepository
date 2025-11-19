@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Topic Id="bac74c4e-ccf8-48b4-aae5-0d77ffb32e63" Status="Complete" CreatedOn="2018-08-14T07:55:58.9271562Z" ModifiedOn="2023-09-29T12:12:11.383656Z" ModifiedBy="" PageTypeName="OBERON Standard.html" AutoIndex="true" HelpContextIds="" Name="Wages_Attendance_Attendance_WorkingTimeType" BuildFlags="">
+  <Title m="2023-09-29T11:52:17.7100712Z">Spôsoby evidencie pracovného času</Title>
+  <ContentsTitle />
+  <Notes></Notes>
+  <CanonicalLink></CanonicalLink>
+  <TopicSections>
+    <TopicSection Name="BodyText">
+      <Content m="2023-09-29T12:10:11.6136366Z">&lt;P&gt;Táto téma &lt;EM&gt;Pomocníka&lt;/EM&gt; je venovaná &lt;STRONG&gt;rôznym spôsobom evidencie pracovného času&lt;/STRONG&gt; v&amp;nbsp;systéme OBERON.&lt;/P&gt;
+&lt;H2&gt;Základné informácie&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;Systém OBERON umožňuje &lt;STRONG&gt;evidovať&amp;nbsp;pracovný čas&amp;nbsp;pracovníkov viacerými spôsobmi&lt;/STRONG&gt;. Okrem bežných pracovníkov (zamestnancov) umožňuje evidovať pracovný čas aj&amp;nbsp;dohodárom, pracovníkom s&amp;nbsp;pružným pracovným časom, prípadne aj externým pracovníkom (napr. subdodávateľom, živnostníkom). 
+&lt;LI&gt;Spôsob evidencie pracovného času sa nastavuje vo&amp;nbsp;&lt;A href="95a3b7e2-6135-4860-a655-5724b186b94c"&gt;formulári Pracovný pomer pracovníka&lt;/A&gt;, záložka &lt;EM&gt;Dochádzka&lt;/EM&gt;. Zvolený spôsob &lt;STRONG&gt;má priamy vplyv na spracovanie dochádzky&lt;/STRONG&gt;, a to najmä na určenie&amp;nbsp;&lt;A href="376de250-3bb9-4979-9efd-9feb648ea91f"&gt;nadčasov&lt;/A&gt;, či náhradného voľna. 
+&lt;LI&gt;Spôsob evidencie pracovného času &lt;STRONG&gt;sa odvíja&amp;nbsp;od vzájomnej dohody medzi pracovníkom a zamestnávateľom&lt;/STRONG&gt; - z tohto dôvodu je ho&amp;nbsp;potrebné uviesť v&amp;nbsp;pracovnej zmluve, prípadne&amp;nbsp;v&amp;nbsp;kolektívnej zmluve. &lt;/LI&gt;&lt;/UL&gt;
+&lt;H2&gt;Spôsoby evidencie pracovného času pracovníkov&lt;/H2&gt;
+&lt;UL&gt;
+&lt;LI&gt;&lt;STRONG&gt;Štandardný pracovný čas&lt;/STRONG&gt; - používa sa pri bežných pracovníkoch, napr. vo výrobe. Chýbajúce hodiny sa hodnotia ako problém v dochádzke a musí ich riešiť zodpovedná osoba.&amp;nbsp;Hodiny odpracované&amp;nbsp;nad rámec pracovného plánu sa evidujú a odmeňujú ako nadčas. Pomocou&amp;nbsp;&lt;A href="05f759ce-29f8-46c1-b195-7dc22fc30cbd"&gt;pravidiel spracovania dochádzky&lt;/A&gt; možno určiť, akým spôsobom sa&amp;nbsp;nadčas zaeviduje a prenesie do miezd, napr. nepreplatiť, vyplatiť len ako odmenu, konvertovať na náhradné voľno&amp;nbsp;a pod. 
+&lt;LI&gt;&lt;STRONG&gt;Pružný pracovný čas (náhradné voľno)&lt;/STRONG&gt; - ak pracovník odpracuje v danom dni menej hodín, automaticky sa v danom dni eviduje&amp;nbsp;náhradné voľno (čerpanie), ak pracovník odpracuje hodiny naviac, v danom dni sa bude evidovať náhradné voľno (tvorba) (teda nie nadčas). Pri prevode do miezd sa rozdiel (saldo) náhradného voľna uvedenie ako celková tvorba náhradného voľna (kladná hodnota), prípadne ako čerpanie náhradného voľna (záporná hodnota salda). 
+&lt;LI&gt;&lt;STRONG&gt;Pružný pracovný čas (nadčasy za mesiac)&lt;/STRONG&gt; - ak pracovník odpracuje v danom dni menej hodín, automaticky sa v danom dni eviduje&amp;nbsp;náhradné voľno (čerpanie), ak pracovník odpracuje hodiny naviac, v danom dni sa bude evidovať náhradné voľno (tvorba) (teda nie nadčas). Ak je po skončení mesiaca celkové saldo náhradného voľna kladné (t. j. došlo&amp;nbsp;k tvorbe náhradného voľna), dochádzka &amp;nbsp;sa automaticky prepočíta&amp;nbsp;tak, že zostatok tvorby náhradného voľna sa presunie do nadčasov. Tým sa vlastne celkové saldo náhradného voľna v rámci mesiaca vždy vynuluje -&amp;nbsp;hodiny odpracované navyše sa preplatia ako bežné nadčasy. 
+&lt;LI&gt;&lt;STRONG&gt;Len evidovať pracovný čas&lt;/STRONG&gt;&amp;nbsp;- pri tomto spôsobe sa&amp;nbsp;eviduje len odpracovaný čas. Prípadné chýbajúce hodiny v rámci dňa sa nevyhodnocujú ako problém, negeneruje sa ani&amp;nbsp;náhradné voľno (čerpanie). Ak pracovník odpracuje v danom dni viac hodín ako je pracovný plán, hodiny naviac (nadčas) sa neeviduje (sú zahrnuté do odpracovaných hodín). Tento spôsob evidencie je vhodný pre pre externých pracovníkov, subdodávateľov a pod. &lt;/LI&gt;&lt;/UL&gt;
+&lt;P&gt;&lt;STRONG&gt;Tabuľka č.&amp;nbsp;1:&amp;nbsp;Prehľad rozdielov v&amp;nbsp;spôsoboch evidencie pracovného času&lt;/STRONG&gt;&lt;/P&gt;
+&lt;TABLE&gt;
+&lt;TBODY&gt;
+&lt;TR&gt;
+&lt;TH&gt;&lt;STRONG&gt;Položka&lt;/STRONG&gt;&lt;/TH&gt;
+&lt;TH width=130 align=center&gt;
+&lt;P align=center&gt;&lt;STRONG&gt;Štandardný pracovný čas&lt;/STRONG&gt;&lt;/P&gt;&lt;/TH&gt;
+&lt;TH width=130 align=center&gt;
+&lt;P align=center&gt;&lt;STRONG&gt;Pružný pracovný čas (náhradné voľno)&lt;/STRONG&gt;&lt;/P&gt;&lt;/TH&gt;
+&lt;TH width=130 align=center&gt;
+&lt;P align=center&gt;&lt;STRONG&gt;Pružný pracovný čas (nadčasy za mesiac)&lt;/STRONG&gt;&lt;/P&gt;&lt;/TH&gt;
+&lt;TH width=130 align=center&gt;
+&lt;P align=center&gt;&lt;STRONG&gt;Len evidovať pracovný čas&lt;/STRONG&gt;&lt;/P&gt;&lt;/TH&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD&gt;Upozornenie na chýbajúce (neodpracované) hodiny&lt;/TD&gt;
+&lt;TD width=130 align=center&gt;áno&lt;/TD&gt;
+&lt;TD width=130 align=center&gt;nie&lt;/TD&gt;
+&lt;TD width=130 align=center&gt;nie&lt;/TD&gt;
+&lt;TD width=130 align=center&gt;nie&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD&gt;Automatická konverzia chýbajúcich hodín&amp;nbsp;v dochádzke na &lt;EM&gt;Náhradné voľno (čerpanie)&lt;/EM&gt;&lt;/TD&gt;
+&lt;TD width=130 align=center&gt;nie&lt;/TD&gt;
+&lt;TD width=130 align=center&gt;áno&lt;/TD&gt;
+&lt;TD width=130 align=center&gt;áno&lt;/TD&gt;
+&lt;TD width=130 align=center&gt;nie&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD&gt;Automatická konverzia odpracovaných&amp;nbsp;hodín v dochádzke nad pracovný plán (teda nadčasov)&amp;nbsp;na &lt;EM&gt;Náhradné voľno (tvorba)&lt;/EM&gt;&lt;/TD&gt;
+&lt;TD width=130 align=center&gt;áno&lt;BR&gt;(pomocou pravidla)&lt;/TD&gt;
+&lt;TD width=130 align=center&gt;áno&lt;/TD&gt;
+&lt;TD width=130 align=center&gt;áno&lt;/TD&gt;
+&lt;TD width=130 align=center&gt;nie&lt;/TD&gt;&lt;/TR&gt;
+&lt;TR&gt;
+&lt;TD&gt;Automatická&amp;nbsp; konverzia zostatku náhradného voľna v dochádzke (za daný mesiac)&amp;nbsp;na &lt;EM&gt;Nadčasy&lt;/EM&gt;&lt;/TD&gt;
+&lt;TD width=130 align=center&gt;nie&lt;/TD&gt;
+&lt;TD width=130 align=center&gt;nie&lt;/TD&gt;
+&lt;TD width=130 align=center&gt;áno&lt;/TD&gt;
+&lt;TD width=130 align=center&gt;nie&lt;/TD&gt;&lt;/TR&gt;&lt;/TBODY&gt;&lt;/TABLE&gt;</Content>
+    </TopicSection>
+  </TopicSections>
+  <TopicLinks>
+    <TopicLink BuildFlags="" Id="fab93a4f-e11d-423e-9c47-5aeb7036f030" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="3fced304-5201-4497-bb58-104c1fd77990">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="e5a4e12f-2999-427c-afe4-04147a85e70c" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="95a3b7e2-6135-4860-a655-5724b186b94c">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="dce1f90d-b1a4-48fa-b55c-e88087ffd772" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="05f759ce-29f8-46c1-b195-7dc22fc30cbd">
+      <Title />
+      <Category />
+    </TopicLink>
+    <TopicLink BuildFlags="" Id="ff042083-9e81-48ab-82ef-3d88c44c3e51" CategoryId="" TopicLinkCategorySource="SpecificValue" Target="77f4529f-a73f-4a6d-b4fe-02d338cbdafa">
+      <Title />
+      <Category />
+    </TopicLink>
+  </TopicLinks>
+  <TopicKeywords>
+    <TopicKeyword BuildFlags="" Id="398b4cae-c109-4d76-b73d-78b20a1ef5c4">
+      <Keyword m="2023-09-29T12:12:03.015028Z">Dochádzka - spôsoby evidencie pracovného času</Keyword>
+    </TopicKeyword>
+    <TopicKeyword BuildFlags="" Id="09b27b9a-b359-4308-82a8-dd223057bb50">
+      <Keyword m="2023-09-29T12:11:35.2655739Z">Evidencia pracovného času - spôsoby</Keyword>
+    </TopicKeyword>
+  </TopicKeywords>
+  <PropertyDefinitionValues />
+  <ExcludedOtherFiles />
+</Topic>
