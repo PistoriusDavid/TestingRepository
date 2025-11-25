@@ -4778,5 +4778,4295 @@
     "O": "DPISTORIUS-LT02",
     "D": "2025-11-25T15:34:57.1104048Z",
     "B": "TestingOberonGit"
+  },
+  "\\OBERON_Help.hsp": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\projectdata\\glossary.xml": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\_OtherDocuments\\Word\\Protokol o implementacii systemu OBERON (technicke udaje).docx": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\_OtherDocuments\\XML\\Accouting_InvoiceAllocating.xml": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\_OtherDocuments\\XML\\Attendance_FunctioningPrinciple.xml": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\_OtherDocuments\\XML\\Attendance_MoreFirms.xml": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\_OtherDocuments\\XML\\Attendance_MoreTerminals.xml": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\_OtherDocuments\\XML\\CashRegister_SalesPoints&Zones.xml": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\_OtherDocuments\\XML\\CashRegister_Schema.xml": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\_OtherDocuments\\XML\\Contact_RemoteAssistance.xml": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\_OtherDocuments\\XML\\CRM_RegistrySchema.xml": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\_OtherDocuments\\XML\\Devices_Auxiliary_FiscalDevices_Schemas.xml": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\_OtherDocuments\\XML\\eKasa PANDORA_Modes.xml": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\_OtherDocuments\\XML\\eKasa PANDORA_Schema.xml": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\_OtherDocuments\\XML\\eKasa_Modes.xml": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\_OtherDocuments\\XML\\Hotel_AccommodationPricingExample.xml": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\_OtherDocuments\\XML\\Hotel_ExtendedServiceBillingMethods.xml": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\_OtherDocuments\\XML\\Hotel_ForeignersReport_MoreUnits.xml": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\_OtherDocuments\\XML\\Hotel_GuestPriceCategoriesExample.xml": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\_OtherDocuments\\XML\\Hotel_PaymentMethods.xml": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\_OtherDocuments\\XML\\LoyaltySystem_ClientServer.xml": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\_OtherDocuments\\XML\\OAC_AutomaticNotifications_Schema.xml": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\_OtherDocuments\\XML\\OBERON_API.xml": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\_OtherDocuments\\XML\\OBERON_Structure_Schema.xml": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\_OtherDocuments\\XML\\OBERON_UseOptions_Schemas.xml": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\_OtherDocuments\\XML\\OBERON_XMLCommunication.xml": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\_OtherDocuments\\XML\\Stock_StandardPercentageDiscount.xml": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\_OtherDocuments\\XML\\Wages_HolidayWork.xml": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\ContextIDs.h": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Accounting\\Accouting_InvoiceAllocating.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Attendance\\Attendance_FunctioningPrinciple.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Attendance\\Attendance_Green.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Attendance\\Attendance_Grey.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Attendance\\Attendance_MoreFirms.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Attendance\\Attendance_MoreTerminals.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Attendance\\Attendance_Orange.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Attendance\\Attendance_Red.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Attendance\\Attendance_SMS_LateEmployee.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Attendance\\Attendance_Terminal_Exalogic_Nastavenie2.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\Installation\\Certificates.NETFramework4.8_Win7SP1\\Installation_Certificate_Step1.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\Installation\\Certificates.NETFramework4.8_Win7SP1\\Installation_Certificate_Step2.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\Installation\\Certificates.NETFramework4.8_Win7SP1\\Installation_Certificate_Step3.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\Installation\\Certificates.NETFramework4.8_Win7SP1\\Installation_Certificate_Step4.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\Installation\\Installation_ChangeHW.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\Installation\\Installation_DPI_Normal-plus-zvacseny.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\Installation\\Installation_DPI_Vlastnosti.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\Installation\\Installation_MacOs.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\Installation\\Installation_Setup_Run.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\Installation\\LAN\\siet100.gif": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\Installation\\LAN\\siet100h.gif": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\Installation\\MariaDB\\Instalation_Mariadb_01.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\Installation\\MariaDB\\Instalation_Mariadb_02.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\Installation\\MariaDB\\Instalation_Mariadb_03.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\Installation\\MariaDB\\Instalation_Mariadb_05.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\Installation\\MariaDB\\Instalation_Mariadb_06.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\Installation\\MariaDB\\Instalation_Mariadb_07.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\Installation\\MariaDB\\Installation_ServicesMariaDB.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\Installation\\MSSQLExpress2017\\Instalation_ManagementStudio_1.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\Installation\\MSSQLExpress2017\\Instalation_ManagementStudio_2.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\Installation\\MSSQLExpress2017\\Instalation_ManagementStudio_3.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\Installation\\MSSQLExpress2017\\Instalation_ManagementStudio_4.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\Installation\\MSSQLExpress2017\\Instalation_ManagementStudio_5.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\Installation\\MSSQLExpress2017\\Instalation_ManagementStudio_6.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\Installation\\MSSQLExpress2017\\Instalation_MSExpress_01.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\Installation\\MSSQLExpress2017\\Instalation_MSExpress_02.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\Installation\\MSSQLExpress2017\\Instalation_MSExpress_03.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\Installation\\MSSQLExpress2017\\Instalation_MSExpress_04.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\Installation\\MSSQLExpress2017\\Instalation_MSExpress_05.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\Installation\\MSSQLExpress2017\\Instalation_MSExpress_06.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\Installation\\MSSQLExpress2017\\Instalation_MSExpress_07.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\Installation\\MSSQLExpress2017\\Instalation_MSExpress_08.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\Installation\\MSSQLExpress2017\\Instalation_MSExpress_09.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\Installation\\MSSQLExpress2017\\Instalation_MSExpress_10.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\Installation\\MSSQLExpress2017\\Instalation_MSExpress_12.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\Installation\\MSSQLExpress2017\\Instalation_MSExpress_13.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\Installation\\MSSQLExpress2017\\Instalation_MSExpress_14.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\Installation\\MSSQLExpress2017\\Instalation_MSExpress_15.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\Installation\\MSSQLExpress2017\\Instalation_MSExpress_16.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\Installation\\MSSQLExpress2017\\Instalattion_MSExpress_Firewall_01.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\Installation\\MSSQLExpress2017\\Instalattion_MSExpress_Firewall_02.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\Installation\\MSSQLExpress2022\\Instalation_ManagementStudio_01.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\Installation\\MSSQLExpress2022\\Instalation_ManagementStudio_02.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\Installation\\MSSQLExpress2022\\Instalation_ManagementStudio_03.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\Installation\\MSSQLExpress2022\\Instalation_ManagementStudio_04.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\Installation\\MSSQLExpress2022\\Instalation_MSSQL2022_01.PNG": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\Installation\\MSSQLExpress2022\\Instalation_MSSQL2022_02.PNG": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\Installation\\MSSQLExpress2022\\Instalation_MSSQL2022_03.PNG": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\Installation\\MSSQLExpress2022\\Instalation_MSSQL2022_04.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\Installation\\MSSQLExpress2022\\Instalation_MSSQL2022_05.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\Installation\\MSSQLExpress2022\\Instalation_MSSQL2022_06.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\Installation\\MSSQLExpress2022\\Instalation_MSSQL2022_07.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\Installation\\MSSQLExpress2022\\Instalation_MSSQL2022_08.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\Installation\\MSSQLExpress2022\\Instalation_MSSQL2022_09.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\Installation\\MSSQLExpress2022\\Instalation_MSSQL2022_10.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\Installation\\MSSQLExpress2022\\Instalation_MSSQL2022_11.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\Installation\\MSSQLExpress2022\\Instalation_MSSQL2022_12.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\Installation\\MSSQLExpress2022\\Instalation_MSSQL2022_12_Collation.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\Installation\\MSSQLExpress2022\\Instalation_MSSQL2022_13.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\Installation\\MSSQLExpress2022\\Instalation_MSSQL2022_14.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\Installation\\MSSQLExpress2022\\Instalation_MSSQL2022_15.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\Installation\\MSSQLExpress2022\\Instalation_MSSQL2022_16.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\Installation\\MySQLServer\\Instalation_MySql_01.PNG": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\Installation\\MySQLServer\\Instalation_MySql_02.PNG": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\Installation\\MySQLServer\\Instalation_MySql_03.PNG": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\Installation\\MySQLServer\\Instalation_MySql_04.PNG": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\Installation\\MySQLServer\\Instalation_MySql_05.PNG": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\Installation\\MySQLServer\\Instalation_MySql_06.PNG": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\Installation\\MySQLServer\\Instalation_MySql_07.PNG": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\Installation\\MySQLServer\\Instalation_MySql_08.PNG": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\Installation\\MySQLServer\\Instalation_MySql_10.PNG": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\Installation\\MySQLServer\\Instalation_MySql_11.PNG": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\Installation\\MySQLServer\\Instalation_MySql_12.PNG": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\Prices\\Database_LicenciaOK.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\PrintReports\\PrintReports_EditorTlace01.JPG": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\PrintReports\\PrintReports_HromadnaTlac.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\PrintReports\\PrintReports_Windows.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\PrintReports\\PrintReports_Wysiwig.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\PrintReports\\StatementDocuments_DPH.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\PrintReports\\StatementDocuments_ImportXML.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\PrintReports\\StatementDocuments_ImportXML2.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\ProgramControls\\OvladanieTabulkyZaznamov\\hlavicka_zoznamu.JPG": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\ProgramControls\\OvladanieTabulkyZaznamov\\ProgramControl_Button_EventsZone.PNG": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\ProgramControls\\OvladanieTabulkyZaznamov\\ProgramControl_Button_Toolobar.PNG": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\ProgramControls\\OvladanieTabulkyZaznamov\\ProgramControl_Doklad_DoplnInfo.gif": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\ProgramControls\\OvladanieTabulkyZaznamov\\ProgramControl_Doklad_rekapitulacia.gif": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\ProgramControls\\OvladanieTabulkyZaznamov\\ProgramControl_HlavickaDokladu.gif": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\ProgramControls\\OvladanieTabulkyZaznamov\\ProgramControl_Obsah_dokladu.gif": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\ProgramControls\\OvladanieTabulkyZaznamov\\ProgramControl_SplitterBar.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\ProgramControls\\ProgramControl_Book.PNG": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\ProgramControls\\ProgramControl_RecycleBin_Delete.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\ProgramControls\\ProgramControl_RecycleBin_DeleteFinal.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5899579Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\ProgramControls\\ProgramControls_Calculator.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\ProgramControls\\ProgramControls_QuickSearch.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\ProgramControls\\ProgramControls_sablony_ponuka.gif": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\ProgramControls\\programControls_Template.PNG": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\ProgramControls\\ProgramControls_ToolBar.PNG": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\ProgramControls\\ProgramControls_Variabilny_OK.gif": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\ProgramControls\\Sablony\\sablony_ponuka.gif": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\TransportData\\ExportImport_ImportFromOtherProgramms.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\TransportData\\TransportData_Database.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\TransportData\\TransportData_DatabaseThird.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\TransportData\\TransportData_eDane_Attachment.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\BasicInformation\\TransportData\\TransportData_eDane_Attachment_FinSprava.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\CashRegister\\CahRegister_DirectSales.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\CashRegister\\CashRegister_BasketSales_Schema.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\CashRegister\\CashRegister_Button_Basic.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\CashRegister\\CashRegister_Button_Copy.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\CashRegister\\CashRegister_Button_Delete.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\CashRegister\\CashRegister_Button_Edit.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\CashRegister\\CashRegister_Button_Merge.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\CashRegister\\CashRegister_Button_Minus.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\CashRegister\\CashRegister_Button_PLU1.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\CashRegister\\CashRegister_Button_Plus.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\CashRegister\\CashRegister_Button_Separated.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\CashRegister\\CashRegister_Button_System.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\CashRegister\\CashRegister_Button_VAT.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\CashRegister\\CashRegister_FoodMenu_Mobil.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\CashRegister\\CashRegister_FoodMenu_Tablet.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\CashRegister\\CashRegister_Graph_Sales.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\CashRegister\\CashRegister_Sale1.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\CashRegister\\CashRegister_Sale1_notes.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\CashRegister\\CashRegister_SalesPoints&Zones.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\CashRegister\\CashRegister_Schema.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\CashRegister\\CashRegister_Symbol.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\CashRegister\\CashRegister_TableOverview.PNG": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\CashRegister\\Device_PANDORA_Connection.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\CashRegister\\Device_PANDORA_ConnectionCables.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\CashRegister\\Devices_PANDORA_Diagram.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\CashRegister\\KitchenDisplay_Cards.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\CashRegister\\KitchenDisplay_Fastfood.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\CashRegister\\KitchenDisplay_Table.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\CashRegister\\Pokladnica-sietova tlac.gif": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\CashRegisterECM\\Device_ECM_Actualization_Download.PNG": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\CashRegisterECM\\Device_ECM_ActualizationEnd.PNG": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\CashRegisterECM\\Device_ECM_Communication.PNG": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\CashRegisterECM\\Device_ECM_IdentificationData.PNG": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\CashRegisterECM\\Device_ECM_Info.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\CashRegisterECM\\Device_ECM_IPAdress.PNG": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\CashRegisterECM\\Device_ECM_Location.PNG": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\CashRegisterECM\\Device_ECM_Menu.PNG": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\CashRegisterECM\\Device_ECM_StatusPanel.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\CashRegisterECM\\Device_ECM_UnsentBills.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\CRM\\CRM_Button_Calendar_Day.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\CRM\\CRM_Button_Calendar_Group.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\CRM\\CRM_Button_Calendar_Look.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\CRM\\CRM_Button_Calendar_Month.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\CRM\\CRM_Button_Calendar_Time.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\CRM\\CRM_Button_Calendar_Week.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\CRM\\CRM_Button_Calendar_WorkingWeek.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\CRM\\CRM_EmailNotification_BeforeArrival.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\CRM\\CRM_GoogleKalendar.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\CRM\\CRM_GoogleKalendar_CheckApp.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\CRM\\CRM_Notifications_TemplateEdit.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\CRM\\CRM_OnlineCheck-In_QR.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\CRM\\CRM_OnlineCheck-In_WebFormular.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\CRM\\CRM_RegistrySchema.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\CRM\\CRM_SMS_Messages.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\CRM\\Registry\\CRM_Registrature_Files.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Developers\\UniversalInterface\\Studio.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Developers\\UniversalInterface\\UniversalInterface_Compile.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Developers\\UniversalInterface\\UniversalInterface_Debug.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Developers\\UniversalInterface\\UniversalInterface_Detekcia.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Developers\\UniversalInterface\\UniversalInterface_Kniznice.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Developers\\UniversalInterface\\UniversalInterface_References.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Developers\\UniversalInterface\\Vzor2.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Developers\\Web services\\OBERON_API.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Developers\\XML Communication\\OBERON_XMLCommunication.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Developers\\XML Communication\\XML_Communication_Validator.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Devices\\Device_Attendance_EXALOGIC_A-C071S.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Devices\\Device_Barcode Scanner.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Devices\\Device_CashRegisterDrawer.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Devices\\Device_CustomerDisplay_OBERON.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Devices\\Device_DoorKey_Assaabloy.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Devices\\Device_DoorKey_Salto.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Devices\\Device_DoorKey_SEALOCK.gif": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Devices\\Device_Easy-Pos.eKasa.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Devices\\Device_ECI-125.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Devices\\Device_ECI-20.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Devices\\Device_EFox_T.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Devices\\Device_eKasaPANDORA.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Devices\\Device_eKasaPENELOPA.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Devices\\Device_eKasaPENELOPA_iMinSwift2Pro.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Devices\\Device_ElectronicScales_Connect.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Devices\\Device_ElectronicScales_Weigh.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Devices\\Device_EPSON_TM-T20II.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Devices\\Device_Euro150.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Devices\\Device_Euro50Mini_Medi.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Devices\\Device_EXALOGIC-DSP1.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Devices\\Device_FiskalPROA8.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Devices\\Device_FiskalPRON86.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Devices\\Device_FiskalPROT6.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Devices\\Device_GPritner80250Plus.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Devices\\Device_KitchenPrinter.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Devices\\Device_OCR315.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Devices\\Device_OCR31x_ID_Passport_MRZ.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Devices\\Device_OCR31x_State.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Devices\\Device_PAX.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Devices\\Device_PegasFM-06eKasa.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Devices\\Device_Pegassino.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Devices\\Device_POSTerminal.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Devices\\Device_QeeRskener_Frame.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Devices\\Device_QeeRskener_MainScreen.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Devices\\Device_QeeRSkener_PhoneSettings.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Devices\\Device_QeeRskener_QRCodesList.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Devices\\Device_QeeRSkenerr_PCSettings.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Devices\\Device_RFIDKey_ComPort.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Devices\\Device_RFIDKey_ComPort_ECI125.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Devices\\Device_Scales.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Devices\\Device_ScannerScales.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Devices\\Device_Teya.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Devices\\Device_U-58.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Devices\\Device_VAROS_FT4000B.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Devices\\Device_VAROS_FT5000B.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Devices\\Device_WD-5890DB.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Devices\\Device_WD-TX80U.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Devices\\Device_Wireless_Barcode Scanner_Docking_Station.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Devices\\Device_XTIOT-XTZ62E.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Devices\\Device_Zebra411.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Devices\\Devices_Auxiliary\\Device_Auxiliary_CashDrawerSettings.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Devices\\Devices_Auxiliary\\Device_Auxiliary_CHDU_Easy-Pos.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Devices\\Devices_Auxiliary\\Device_Auxiliary_Easy-Pos_Connection.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Devices\\Devices_Auxiliary\\Device_Auxiliary_Efox_Elcom_Connection.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Devices\\Devices_Auxiliary\\Device_Auxiliary_EXALOGIC-DSP1_PrintReport.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Devices\\Devices_Auxiliary\\Device_Auxiliary_FiskalPRO_Connection.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Devices\\Devices_Auxiliary\\Device_Auxiliary_FiskalPROA8_Connection.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Devices\\Devices_Auxiliary\\Device_Auxiliary_FiskalPRON86_Connection.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Devices\\Devices_Auxiliary\\Device_Auxiliary_ODA_EAN-13.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Devices\\Devices_Auxiliary\\Device_Auxiliary_ODA_S1-K_Back.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Devices\\Devices_Auxiliary\\Device_Auxiliary_ODA_S1-K_Buttons.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Devices\\Devices_Auxiliary\\Device_Auxiliary_ODA_S2_front.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Devices\\Devices_Auxiliary\\Device_Auxiliary_ODA_S3-PG.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Devices\\Devices_Auxiliary\\Device_Auxiliary_ODA_S3-PG_front.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Devices\\Devices_Auxiliary\\Device_Auxiliary_OIZ_eKasa.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Devices\\Devices_Auxiliary\\Device_Auxiliary_PANDORA_Connection_1.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Devices\\Devices_Auxiliary\\Device_Auxiliary_PANDORA_Connection_2.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Devices\\Devices_Auxiliary\\Device_Auxiliary_PANDORA_Connection_3.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Devices\\Devices_Auxiliary\\Device_Auxiliary_Pegas_Connection.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Devices\\Devices_Auxiliary\\Device_Auxiliary_Pegassino_Connection.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Devices\\Devices_Auxiliary\\Device_Auxiliary_RJ11scheme.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Devices\\Devices_Auxiliary\\Device_Auxiliary_VAROS FT4000B_Connection.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Devices\\Devices_Auxiliary\\Device_Auxiliary_VAROS FT5000B_Connection.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Devices\\Devices_Auxiliary\\Devices_Auxiliary_XT6201B_Settings.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Devices\\Devices_Auxiliary\\Devices_Auxiliary_XTZ62E_Settings.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Devices\\GPtom_AmountPut.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Devices\\GPtom_PutAmount.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Devices\\GPtom_TapCard.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Devices\\zapojenie_Epson.gif": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\FAQ\\FAQ_AutomaticAlerts_Receipt.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\FAQ\\FAQ_ChangeReport_Note.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\FAQ\\FAQ_PlayOnLinux_BrowseApp.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\FAQ\\FAQ_PlayOnLinux_Center.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\FAQ\\FAQ_PlayOnLinux_Configure.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\FAQ\\FAQ_PlayOnLinux_DiscName.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\FAQ\\FAQ_PlayOnLinux_Fonts.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\FAQ\\FAQ_PlayOnLinux_InstallComplete.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\FAQ\\FAQ_PlayOnLinux_InstallComponents.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\FAQ\\FAQ_PlayOnLinux_InstallMenu.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\FAQ\\FAQ_PlayOnLinux_Miscellaneous.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\FAQ\\FAQ_PlayOnLinux_RestoreApp.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\FAQ\\FAQ_PlayOnLinux_VirtualDrive.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\FAQ\\FAQ_Wine_Menu.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\FAQ\\FAQ_Wine_WindowsVersion.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\FAQ\\PlayOnLinux_DefaultScreen.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\AccDouble\\Form_Acc_Double_DPHChange.gif": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\AccDouble\\Form_AccDouble_BillMerge.PNG": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Accounting\\Acc_FiobankaAPItoken_Unlock.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Accounting\\Acc_Rules_Bank3.PNG": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Accounting\\Acc_Rules_Bank5.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Accounting\\Acc_Rules_Bank6.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Accounting\\Acc_Rules_Bank7.PNG": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Accounting\\Acc_Rules_Bank8.PNG": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Accounting\\Acc_Rules_Banks1.PNG": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Accounting\\Acc_Rules_Banks2.PNG": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Accounting\\Acc_Rules_Banks4.PNG": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Accounting\\Acc_Rules_Conditions.PNG": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Accounting\\AccDouble_DocumentRelation.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Accounting\\AccSingle_DocumentRelation.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\AccSingle\\Form_AccSingle_ColnyDlh1.PNG": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\AccSingle\\Form_AccSingle_ColnyDlh2.PNG": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Attendance\\Attendance_datum.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Attendance\\Attendance_dvojzmenna_kratky_dlhy.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Attendance\\Attendance_EXALOGIC_nastavenie komunikacie.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Attendance\\Attendance_jednozmenna_ranna_sobota.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Attendance\\Attendance_nepretrzita_28.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Attendance\\Attendance_prestavku_zahrnut.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Attendance\\Attendance_ShiftDefinition.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Attendance\\Attendance_trojzmenna_tyzdenna.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Attendance\\Attendance_vlastny_vzor.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Attendance\\Form_Attendance_Employee.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Attendance\\Form_Attendance_Employee_Colective.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Attendance\\Form_Attendance_Exalogicterminal_Prechody.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Attendance\\Form_Attendance_HolidayDelete.PNG": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Attendance\\Form_Attendance_Prestavka.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Attendance\\Form_Attendance_PritomniPracovnici2.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Attendance\\Form_Attendance_terminalOberon.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Attendance\\Form_Attendance_TerminalOBERONAgendafirmy.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Attendance\\Form_Attendance_TimeSheet.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Attendance\\Form_Attendance_WorkingCalendar.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Attendance\\Form_Attendance_WorkingCalendar_Stylus.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\BasicInformation\\Form_OBERON_CreateDatabase.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\BasicInformation\\Form_OBERON_CreateDatabase_SQLServer.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\CashRegister\\CashRegisterUniversal01.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\CashRegister\\CashRegisterUniversal02.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\CashRegister\\CashRegisterUniversal03.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\CashRegister\\CashRegisterUniversal04.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\CashRegister\\Davkove_Subory.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\CashRegister\\Form_CashRegister_Delivery_Calendar.PNG": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\CashRegister\\Form_CashRegister_Delivery_TimeModification.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\CashRegister\\Form_CashRegister_Delivery_Verification.PNG": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\CashRegister\\Form_CashRegister_DisplayState_Green.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\CashRegister\\Form_CashRegister_DisplayState_Orange.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\CashRegister\\Form_CashRegister_DisplayState_Red.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\CashRegister\\Form_CashRegister_DisplayState_Violet.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\CashRegister\\Form_CashRegister_Easy-Pos_COMSettings.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\CashRegister\\Form_CashRegister_Efox_Settings.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\CashRegister\\Form_CashRegister_eKasa.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\CashRegister\\Form_CashRegister_eKasa_30-Day_Period.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\CashRegister\\Form_CashRegister_eKasa_Printer.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\CashRegister\\Form_CashRegister_eKasa_Settings.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5909361Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\CashRegister\\Form_CashRegister_Euro150_off-line_Settings.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\CashRegister\\Form_CashRegister_Euro150_Settings.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\CashRegister\\Form_CashRegister_Euro50_off-line_Settings.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\CashRegister\\Form_CashRegister_Euro50_Settings.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\CashRegister\\Form_CashRegister_FastFood2.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\CashRegister\\Form_CashRegister_FiskalPRO_Settings.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\CashRegister\\Form_CashRegister_FiskalPROA8_Settings.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\CashRegister\\Form_CashRegister_FT5000B_Settings.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\CashRegister\\Form_CashRegister_JUP_pokladnicne_doklady.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\CashRegister\\Form_CashRegister_JUP_vymena.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\CashRegister\\Form_CashRegister_Maloobchod_Dotykova2.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\CashRegister\\Form_CashRegister_Maloobchod2.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\CashRegister\\Form_CashRegister_NetworkPrint.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\CashRegister\\Form_CashRegister_OpenedTables.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\CashRegister\\Form_CashRegister_OtherBilInformation.PNG": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\CashRegister\\Form_CashRegister_PaymentType.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\CashRegister\\Form_CashRegister_PaymentType_Bistro.sk.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\CashRegister\\Form_CashRegister_PaymentType_Invoice.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\CashRegister\\Form_CashRegister_PaymentType_NotePad.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\CashRegister\\Form_CashRegister_PaymentType_Pay.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\CashRegister\\Form_CashRegister_Peggassino_Settings.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\CashRegister\\Form_CashRegister_RevenueDisplay.PNG": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\CashRegister\\Form_CashRegister_Typpolozky3.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\CashRegister\\Form_CashRegister_VUP_vymena.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\CRM\\CRM_ComponentCRM_TaskEvent.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\CRM\\Form_CRM_Calendar_OtherViews.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\CRM\\Form_CRM_Calendar_SingleUser.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\CRM\\Form_CRM_Kalendar_SyncWithGoogle_Google.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\CRM\\Form_CRM_Kalendar_SyncWithGoogle_Oberon.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\CRM\\Form_CRM_MassMessages.PNG": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\CRM\\Form_CRM_NotificationPanel.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\CRM\\Form_CRM_Notifications.PNG": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\CRM\\Form_CRM_RegistraturePlan.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\CRM\\Form_CRM_Servis.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\CRM\\Form_CRM_Servis_States.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\eShops\\Form_eShop_Offline_SampleFile.PNG": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Hotel\\Form_Hotel_Accomodation.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Hotel\\Form_Hotel_CalendarEvent.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Hotel\\Form_Hotel_DocumentReleation.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Hotel\\Form_Hotel_DoorLocks_Activate.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Hotel\\Form_Hotel_DoorLocks_ActivateAccess.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Hotel\\Form_Hotel_GraphicalViewServices.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Hotel\\Form_Hotel_GuestRequirements.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Hotel\\Form_Hotel_ImportData.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Hotel\\Form_Hotel_Okupometer.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Hotel\\Form_Hotel_RoomOccupyOverview_Basic.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Hotel\\Form_Hotel_RoomOccupyOverview_Detail.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Hotel\\Form_Hotel_State.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Hotel\\Hotel_GraphicalView_Provided_NonCash.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Hotel\\Hotel_GraphicalView_Provided_Today_Dnesne.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Hotel\\Hotel_GraphicalViewRates.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Hotel\\Hotel_GraphicalViewRooms.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Hotel\\Hotel_GraphicalViewRooms_Tab1.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Hotel\\Hotel_GraphicalViewRooms_Tab2.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Hotel\\Hotel_GraphicalViewRooms_Tab3.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Hotel\\Hotel_GraphicalViewRooms_Tab4.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Hotel\\Hotel_GraphicalViewRooms_Tab5.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Hotel\\Hotel-cenove kategorie.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Invoices\\Form__Invoices_Logo_Bezprevadzky.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Invoices\\Form_Invoices_Discount.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Invoices\\Form_Invoices_DPH_Pohladavka.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Invoices\\Form_Invoices_DPH_Pohladavka_KontrolnyVykaz.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Invoices\\Form_Invoices_DPH_Pohladavka_SDopravou.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Invoices\\Form_Invoices_DPH_Pohladavka_SDopravou_KontrolnyVykaz.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Invoices\\Form_Invoices_Export_GLN_Firm.PNG": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Invoices\\Form_Invoices_Export_GLN_Partner.PNG": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Invoices\\Form_Invoices_Import_XML.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Invoices\\Form_Invoices_Import_XML_Settings.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Invoices\\Form_Invoices_InvoicesReceived_Detail.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Invoices\\Form_Invoices_ObchodniPartneri_PracaSprevadzkami4.GIF": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Invoices\\Form_Invoices_ObchodniPartneri_PracaSprevadzkami6.GIF": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Invoices\\Form_Invoices_OrderReceived.PNG": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Invoices\\Form_Invoices_OrderReceived_AcceptedOffer.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Invoices\\Form_Invoices_OrderReceived_ArrowRight.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Invoices\\Form_Invoices_OrderReceived_Canceled.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Invoices\\Form_Invoices_OrderReceived_CarVan.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Invoices\\Form_Invoices_OrderReceived_Condition.PNG": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Invoices\\Form_Invoices_OrderReceived_Home.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Invoices\\Form_Invoices_OrderReceived_Manufacture.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Invoices\\Form_Invoices_OrderReceived_NewOffer.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Invoices\\Form_Invoices_OrderReceived_NewOrder.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Invoices\\Form_Invoices_OrderReceived_OK.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Invoices\\Form_Invoices_OrderReceived_OrderOK.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Invoices\\Form_Invoices_OrderReceived_Paper.PNG": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Invoices\\Form_Invoices_OrderReceived_Payment.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Invoices\\Form_Invoices_OrderReceived_PaymentHand.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Invoices\\Form_Invoices_OrderReceived_Refused.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Invoices\\Form_Invoices_OrderReceived_Trolley.PNG": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Invoices\\Form_Invoices_OrderReceived_Waiting.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Invoices\\Form_Invoices_OrderReceived_WaitingToRefund.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Invoices\\Form_Invoices_OrderReceived_Warehouseman.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Invoices\\Form_Invoices_SignatureOnAccount.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Invoices\\Form_ObchodniPartneri_PracaSPrevadzkami5.GIF": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Invoices\\Form_ObchodniPartneri_Prevadzka1.PNG": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Invoices\\Form_ObchodniPartneri_Prevadzka2.PNG": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Invoices\\Form_ObchodniPartneri_Prevadzka3.PNG": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Invoices\\ZaokruhlovanieDPH_DPHRozdiel.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Invoices\\ZaokruhlovanieDPH_Polozky.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Menu\\Databaza_firmy_Network_Err.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Menu\\Fomr_LanguageEditor.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Menu\\Form_AgendaFirmy_Otvorenie.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Menu\\Form_Button_Blue.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Menu\\Form_Button_Calc.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Menu\\Form_Button_DB_Access.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Menu\\Form_Button_DB_Access_Err.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Menu\\Form_Button_DB_Access_Exc.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Menu\\Form_Button_DB_Access_MS_SQLServer.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Menu\\Form_Button_DB_Access_My_SQLServer.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Menu\\Form_Button_DB_Access_Network.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Menu\\Form_Button_DB_Access_PC.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Menu\\Form_Button_DB_Access_USB.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Menu\\Form_Button_DB_SQLServer_Err.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Menu\\Form_Button_Image.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Menu\\Form_Button_Information.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Menu\\Form_Button_Licence_Gray.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Menu\\Form_Button_Licence_GrayGren.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Menu\\Form_Button_Licence_GrayRed.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Menu\\Form_Button_Licence_Green.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Menu\\Form_Button_Licence_GreenRed.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Menu\\Form_Button_Licence_Red.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Menu\\Form_Button_Orange.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Menu\\Form_Button_PrintReports.PNG": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Menu\\Form_Button_Question.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Menu\\Form_Button_Red.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Menu\\Form_Button_Refresh.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Menu\\Form_Button_RegisterUZ.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Menu\\Form_Button_Services_Rendeted.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Menu\\Form_Button_Smile_Green.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Menu\\Form_Button_Smile_Red.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Menu\\Form_Button_Smile_Yellow.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Menu\\Form_Button_UserPrivileges_Blue.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Menu\\Form_Button_UserPrivileges_Green.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Menu\\Form_Button_UserPrivileges_Red.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Menu\\Form_Button_UserPrivileges_Yellow.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Menu\\Form_Button_Wages.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Menu\\Form_Button_WorkCalendar.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Menu\\Form_Extension_Manager.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Menu\\Form_Firm_Classification.PNG": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Menu\\Form_Firm_Classification_Wages.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Menu\\Form_GenericTextOnly.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Menu\\Form_GenericTextOnly_Properties.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Menu\\Form_menu_Cross.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Menu\\Form_menu_CrossGrey.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Menu\\Form_Menu_ExtensionManager_Language.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Menu\\Form_Menu_ExtensionManager_LoginUser.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Menu\\Form_Menu_Firm_Period_Change.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Menu\\Form_Menu_LoginUser.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Menu\\Form_Menu_LoginUser_Change.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Menu\\Form_Menu_OptionsUsers.PNG": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Menu\\Form_Menu_PasswordReset.PNG": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Menu\\Form_Menu_Period_Change.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Menu\\Form_Menu_Slash.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Menu\\Form_Menu_Tick2.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Menu\\Form_Menu_Tick3.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Menu\\Form_Menu_TickGrey.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Menu\\Form_Printer_Kitchen_Font.jpg": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Menu\\Print\\Form_Button_Print_Graph.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Menu\\Print\\Form_Button_Print_Graph2.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Menu\\Print\\Form_Button_Print_Sum.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Menu\\Print\\Form_Button_Print_Table.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Menu\\Print\\Form_Button_Print_Wizard.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Menu\\Print\\OBERON_Form_Print.PNG": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Menu\\Print\\tlac_ico1.gif": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Menu\\Print\\tlac_ico2.gif": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Menu\\Print\\tlac_ico3.gif": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Menu\\Properties\\Form_Menu_Properties.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Menu\\Properties\\Form_Menu_Properties_Filter.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Menu\\Settings\\Form_Settings_Computer.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Menu\\Settings\\Form_Settings_Firm.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Menu\\Settings\\Form_Settings_User.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Menu\\Tick_Star.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Menu\\TurnOn_Button.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\OAC\\Form_OAC_Client_ConnectionToServer.PNG": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\OAC\\Form_OAC_D-EDGE_Settings.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\OAC\\Form_OAC_WebServices2G.PNG": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Oberon_Center\\Form_OberonCenter_eShop_Offline01.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Oberon_Center\\Form_OberonCenter_StockCard_Inventory.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Oberon_Center\\Form_OberonCenter_XMLExportImport_Settings.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Servis\\Form_Servis_Devices.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Servis\\Form_Servis_XMLeditor.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Stock\\Form_CategoryStockCard.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Stock\\Form_Stock_AutomaticOrder.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Stock\\Form_Stock_Cenovka_JednotkovaCena.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Stock\\Form_Stock_Dailymenu_Cash.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Stock\\Form_Stock_Dailymenu_Settings.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Stock\\Form_Stock_DepositReturnablePackages.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Stock\\Form_Stock_Etiketa_uprava_mnozstva.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Stock\\Form_Stock_ExtentedPrices.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Stock\\Form_Stock_PCSet.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Stock\\Form_Stock_PrintReport_SBL2.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Stock\\Form_Stock_Reserve.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Stock\\Form_Stock_SBL_Partner.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Stock\\Form_Stock_TARIC.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Stock\\Form_Stock_TransferAmount.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Stock\\Form_Stock_TransferAmount_ReceiveNote.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Stock\\Form_Stock_UnitOtherPackage.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Stock\\Form_Stock_Variants_Generator.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Stock\\Form_StockCard.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Stock\\Form_StockCard_MU_SBL.PNG": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Stock\\Form_StockCard_StockGroups.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Stock\\Stock_DocumentRelation.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Vehicles\\Form_Vehicle_AccDoublePHL.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Vehicles\\Form_Vehicle_AccSinglePHL.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Vehicles\\Form_Vehicles_TravelOrders.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Wages\\Form_Firm_WagesAccountingSettings.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Wages\\Form_Wages_Advanced_TravelExpensesRefundsPayment01.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Wages\\Form_Wages_ChangeWage.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Wages\\Form_Wages_EmployeeDocuments_Social.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Wages\\Form_Wages_Employees.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Wages\\Form_Wages_Icon_Conceprt.PNG": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Wages\\Form_Wages_Icon_DeadlineWages.PNG": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Wages\\Form_Wages_Icon_DeadlineWagesWithSignature.PNG": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Wages\\Form_Wages_Icon_Ended.PNG": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Wages\\Form_Wages_Icon_EndedWithSignature.PNG": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Wages\\Form_Wages_Icon_NotProcessed.PNG": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Wages\\Form_Wages_MonthlyDeadlineWages.PNG": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Forms\\Wages\\Form_Wages_ProcessingWages.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Hotel\\Hotel_AccommodationPricingExample.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Hotel\\Hotel_Account.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Hotel\\Hotel_CalculationPrices_1.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Hotel\\Hotel_CalculationPrices_2.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Hotel\\Hotel_CalculationPrices_3.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Hotel\\Hotel_Channelmanager.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Hotel\\Hotel_ChannelManager_Beds24_01.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Hotel\\Hotel_ChannelManager_Beds24_03.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Hotel\\Hotel_ChannelManager_Booking_01.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Hotel\\Hotel_ExtendedServiceBillingMethods.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Hotel\\Hotel_ForeignersReport_MoreUnits.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Hotel\\Hotel_PaymentMethods.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Hotel\\Hotel_PluginWP_CheckIn_Settings.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Hotel\\Hotel_PluginWP_Instalation.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Hotel\\Hotel_PluginWP_Settings.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Hotel\\Hotel_PurposeStay.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Hotel\\Hotel_Rezervation_Graph1.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Hotel\\Hotel_RezervationEWeb.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\Hotel\\Hotel_RezervationEWeb_EN.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OAC\\OAC_AutomaticNotifications_Diagram.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OAC\\OAC_AutomaticNotifications_Schema.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OAC\\OAC_ComputerManagement.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OAC\\OAC_Services.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OAC\\OAC_Taskbar_Icon.png.PNG": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\AutoDatabaseUpdate_Process.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\AutoDatabaseUpdateSelect.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Basic\\Centrum-podpory_166x110.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Basic\\CRM-a-registratura_166x110.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Basic\\CSOB.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Basic\\E-shop_166x110.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Basic\\Evidencia-vozidiel_166x110.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5919268Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Basic\\Hotelova-recepcia_166x110.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Basic\\logo-exalogic.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Basic\\Moderne-technologie_166x110.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Basic\\Mzdy-a-dochadzka_166x110.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Basic\\OBERON_AccountingCompanies.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Basic\\OBERON_General.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Basic\\OBERON_Groceries.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Basic\\OBERON_Hotels.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Basic\\OBERON_logo_icon.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Basic\\OBERON_OnlineStore.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Basic\\OBERON_Restaurants.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Basic\\OBERON_Retail.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Basic\\OBERON_Services.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Basic\\OBERON_Use_Option_1.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Basic\\OBERON_Use_Option_2.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Basic\\OBERON_Use_Option_3.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Basic\\OBERON_Use_Option_4.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Basic\\OBERON_Use_Option_5.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Basic\\OBERON_Use_Option_6a.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Basic\\OBERON_Use_Option_6b.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Basic\\OBERON_Use_Option_7.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Basic\\OBERON_Use_Option_8.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Basic\\OBERON_WagesCompanies.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Basic\\OBERON_Wholesale.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Basic\\OBERONBasic_LanguageVersions_Data.PNG": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Basic\\Odporucane-riesenie.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Basic\\Odporucane-riesenie_ruka_ikona.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Basic\\Pokladnica-OBERON_166x110.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Basic\\Raiffeisenbanka.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Basic\\Skladova-evidencia_166x110.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Basic\\SSP.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Basic\\Tatrabanka.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Basic\\Tlacove-vystupy_166x110.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Basic\\Uctovanie_166x110.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Basic\\UniCreditBank.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Basic\\Viacjazycnost_166x110.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Contact\\Common_Star.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Contact\\Common_Star_Gray.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Contact\\Common_Star_LeftHalf_OnWhite.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Contact\\Common_Star_White.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Contact\\Contact_RemoteAssistance.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Controls\\Controls_ASTON_check.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Controls\\Controls_ASTON_info.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Controls\\Controls_ASTON_newitem.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Controls\\Controls_ASTON_noneoffload.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Controls\\Controls_ASTON_offload.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Controls\\Controls_ASTON_offload_green.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Controls\\Controls_ASTON_offloadok.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Controls\\Controls_ASTON_offloadproblem.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Controls\\Controls_ASTON_offloanone.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Controls\\Controls_ASTON_partialoffload.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Controls\\Controls_ASTON_send.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Controls\\Controls_ASTON_settings.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Controls\\Controls_BusinessPartner_SearchName.gif": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Controls\\Controls_Button_BlueArrow.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Controls\\Controls_Button_Change.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Controls\\Controls_Button_ChangeDirection.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Controls\\Controls_Button_DropDown.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Controls\\Controls_Button_DSP.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Controls\\Controls_Button_EAN.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Controls\\Controls_Button_FilterSettings.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Controls\\Controls_Button_Images.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Controls\\Controls_Button_Info.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Controls\\Controls_Button_LibraryImages.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Controls\\Controls_Button_Password.PNG": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Controls\\Controls_Button_Pause.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Controls\\Controls_Button_Play.PNG": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Controls\\Controls_Button_Print.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Controls\\Controls_Button_Printer.PNG": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Controls\\Controls_Button_RedCross.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Controls\\Controls_Button_RedX.PNG": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Controls\\Controls_Button_Refresh.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Controls\\Controls_Button_Save.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Controls\\Controls_Button_Stop.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Controls\\Controls_Button_Tools.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Controls\\Controls_Button_Tree.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Controls\\Controls_Button_YellowPlus.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Controls\\Controls_CheckBoxes.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Controls\\Controls_ComboBox.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Controls\\Controls_DataGrid_RowSelection.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Controls\\Controls_DataGrid_RowSortOrder.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Controls\\Controls_DataGrid_Sorting.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Controls\\Controls_DataGrid_Sorting_ASC.gif": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Controls\\Controls_DataGrid_Sorting_DSC.gif": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Controls\\Controls_EyeGreen.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Controls\\Controls_EyeGrey.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Controls\\Controls_EyeOrange.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Controls\\Controls_Find.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Controls\\Controls_ListButton.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Controls\\Controls_LUKUL_call-waiter-info.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Controls\\Controls_LUKUL_cash.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Controls\\Controls_LUKUL_credit-card.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Controls\\Controls_LUKUL_delete.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Controls\\Controls_LUKUL_hotel-bill.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Controls\\Controls_LUKUL_leave.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Controls\\Controls_LUKUL_left.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Controls\\Controls_LUKUL_qr.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Controls\\Controls_LUKUL_settings.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Controls\\Controls_LUKUL_voucher.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Controls\\Controls_MainMenu.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Controls\\Controls_NonStockCardItem.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Controls\\Controls_Notification_Source_Attendance.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Controls\\Controls_Notification_Source_Calc.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Controls\\Controls_Notification_Source_Car.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Controls\\Controls_Notification_Source_CashRegister.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Controls\\Controls_Notification_Source_CRM_Calendar.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Controls\\Controls_Notification_Source_Hotel_Bed.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Controls\\Controls_Notification_Source_Hotel_Bell.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Controls\\Controls_Notification_Source_Hotel_CheckIn.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Controls\\Controls_Notifications_Bell.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Controls\\Controls_Notifications_Text.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Controls\\Controls_PdfIcon.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Controls\\Controls_RadioButtons.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Controls\\Controls_TabPage.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Controls\\Controls_TextBox.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Controls\\Controls_TextBox_Calendar.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Controls\\Controls_TextBox_ContextMenu.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Controls\\Controls_VX520_green.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Controls\\Controls_VX520_red.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\Controls\\Controls_WordIcon.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON\\OBERON_Structure_Schema.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON_Center\\Oberon_Center_Presta_shop.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON_Center\\OBERON_Center_Remote_CashRegister.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON_Center\\Oberon_Center_Taskbar.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON_Center\\PrestaShop\\OBERON_Center_PrestaShop_account.PNG": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON_Center\\PrestaShop\\OBERON_Center_PrestaShop_admin-window.PNG": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON_Center\\PrestaShop\\OBERON_Center_PrestaShop_configuration.PNG": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON_Center\\PrestaShop\\OBERON_Center_PrestaShop_database_download.PNG": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON_Center\\PrestaShop\\OBERON_Center_PrestaShop_database_new.PNG": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON_Center\\PrestaShop\\OBERON_Center_PrestaShop_files-to-server.PNG": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON_Center\\PrestaShop\\OBERON_Center_PrestaShop_install.PNG": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON_Center\\PrestaShop\\OBERON_Center_PrestaShop_install-folder-delete_changed-admin.PNG": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON_Center\\PrestaShop\\OBERON_Center_PrestaShop_logo.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON_Center\\PrestaShop\\OBERON_Center_PrestaShop_URL_index.PNG": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON_Center\\PrestaShop\\OBERON_Center_PrestaShop_webservice_key.PNG": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON_Web\\OberonWeb_HotelBill.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON_Web\\OBERONWeb_Login.PNG": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON_Web\\OBERONWeb_LoginOBERONLink.PNG": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERON_Web\\OBERONWeb_RoomCalendar.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERONMobileSolutions\\OBERONMobileSolutions_ASTON_AmountVerification.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERONMobileSolutions\\OBERONMobileSolutions_ASTON_AmountVerificationDelete.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERONMobileSolutions\\OBERONMobileSolutions_ASTON_AmountVerificationEdit.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERONMobileSolutions\\OBERONMobileSolutions_ASTON_AmountVerificationList.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERONMobileSolutions\\OBERONMobileSolutions_ASTON_CommunicationSettings.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERONMobileSolutions\\OBERONMobileSolutions_ASTON_GooglePlayUpdate.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERONMobileSolutions\\OBERONMobileSolutions_ASTON_Incremental.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERONMobileSolutions\\OBERONMobileSolutions_ASTON_Inventory.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERONMobileSolutions\\OBERONMobileSolutions_ASTON_MainScreen.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERONMobileSolutions\\OBERONMobileSolutions_ASTON_OBERONLink.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERONMobileSolutions\\OBERONMobileSolutions_ASTON_Offload.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERONMobileSolutions\\OBERONMobileSolutions_ASTON_OffloadDelete.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERONMobileSolutions\\OBERONMobileSolutions_ASTON_OffloadEdit.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERONMobileSolutions\\OBERONMobileSolutions_ASTON_OffloadList.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERONMobileSolutions\\OBERONMobileSolutions_ASTON_Onload.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERONMobileSolutions\\OBERONMobileSolutions_ASTON_OnloadDelete.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERONMobileSolutions\\OBERONMobileSolutions_ASTON_OnloadEdit.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERONMobileSolutions\\OBERONMobileSolutions_ASTON_OnloadList.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERONMobileSolutions\\OBERONMobileSolutions_ASTON_ProfilImport.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERONMobileSolutions\\OBERONMobileSolutions_ASTON_ProfilImport_New.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERONMobileSolutions\\OBERONMobileSolutions_ASTON_StockCardLookUp.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERONMobileSolutions\\OBERONMobileSolutions_LUKUL_CashRegisterGroups.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERONMobileSolutions\\OBERONMobileSolutions_LUKUL_CommunicationSettings.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERONMobileSolutions\\OBERONMobileSolutions_LUKUL_Delivery_Contact.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERONMobileSolutions\\OBERONMobileSolutions_LUKUL_Delivery_eMenu.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERONMobileSolutions\\OBERONMobileSolutions_LUKUL_Delivery_Info.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERONMobileSolutions\\OBERONMobileSolutions_LUKUL_Delivery_Locations.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERONMobileSolutions\\OBERONMobileSolutions_LUKUL_Delivery_OrderInfo1.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERONMobileSolutions\\OBERONMobileSolutions_LUKUL_Delivery_OrderInfo2.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERONMobileSolutions\\OBERONMobileSolutions_LUKUL_Delivery_OrderInfo3.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERONMobileSolutions\\OBERONMobileSolutions_LUKUL_Delivery_OrderInfo4.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERONMobileSolutions\\OBERONMobileSolutions_LUKUL_Delivery_Payment.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERONMobileSolutions\\OBERONMobileSolutions_LUKUL_Description.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERONMobileSolutions\\OBERONMobileSolutions_LUKUL_Details_Steak.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERONMobileSolutions\\OBERONMobileSolutions_LUKUL_Details_Window.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERONMobileSolutions\\OBERONMobileSolutions_LUKUL_Details_Wine.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERONMobileSolutions\\OBERONMobileSolutions_LUKUL_eMenu.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERONMobileSolutions\\OBERONMobileSolutions_LUKUL_GooglePlayUpdate.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERONMobileSolutions\\OBERONMobileSolutions_LUKUL_GPtom_Card.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERONMobileSolutions\\OBERONMobileSolutions_LUKUL_Groups.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERONMobileSolutions\\OBERONMobileSolutions_LUKUL_ipad1.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERONMobileSolutions\\OBERONMobileSolutions_LUKUL_ipad2.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERONMobileSolutions\\OBERONMobileSolutions_LUKUL_ItemDelete.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERONMobileSolutions\\OBERONMobileSolutions_LUKUL_LUKULeMenuSettings.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERONMobileSolutions\\OBERONMobileSolutions_LUKUL_MainScreen.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERONMobileSolutions\\OBERONMobileSolutions_LUKUL_Menu_Allergens.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERONMobileSolutions\\OBERONMobileSolutions_LUKUL_Menu_eMenu.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERONMobileSolutions\\OBERONMobileSolutions_LUKUL_Menu_FastOrder.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERONMobileSolutions\\OBERONMobileSolutions_LUKUL_Menu_Info.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERONMobileSolutions\\OBERONMobileSolutions_LUKUL_Menu_Item1.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERONMobileSolutions\\OBERONMobileSolutions_LUKUL_Menu_Item2.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERONMobileSolutions\\OBERONMobileSolutions_LUKUL_Menu_Item3.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERONMobileSolutions\\OBERONMobileSolutions_LUKUL_Menu_QR.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERONMobileSolutions\\OBERONMobileSolutions_LUKUL_Menu_Tip.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERONMobileSolutions\\OBERONMobileSolutions_LUKUL_Payment.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERONMobileSolutions\\OBERONMobileSolutions_LUKUL_Pictures_Dtb.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERONMobileSolutions\\OBERONMobileSolutions_LUKUL_PIN.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERONMobileSolutions\\OBERONMobileSolutions_LUKUL_POSterminal_Setting.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERONMobileSolutions\\OBERONMobileSolutions_LUKUL_Settings.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERONMobileSolutions\\OBERONMobileSolutions_LUKUL_SideDishes_Codes.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERONMobileSolutions\\OBERONMobileSolutions_LUKUL_SideDishes_Meal.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5929266Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERONMobileSolutions\\OBERONMobileSolutions_LUKUL_SideDishes_Offer.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5939256Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERONMobileSolutions\\OBERONMobileSolutions_LUKUL_SortingGroups.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5939256Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERONMobileSolutions\\OBERONMobileSolutions_LUKUL_SortingSoups.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5939256Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERONMobileSolutions\\OBERONMobileSolutions_LUKUL_Specifications.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5939256Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERONMobileSolutions\\OBERONMobileSolutions_LUKUL_Specifications1.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5939256Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERONMobileSolutions\\OBERONMobileSolutions_LUKUL_Specifications2.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5939256Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERONMobileSolutions\\OBERONMobileSolutions_LUKUL_Specifications3.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5939256Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERONMobileSolutions\\OBERONMobileSolutions_LUKUL_Tab.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5939256Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERONMobileSolutions\\OBERONMobileSolutions_LUKUL_TabDelete.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5939256Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERONMobileSolutions\\OBERONMobileSolutions_LUKUL_Tables.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5939256Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERONMobileSolutions\\OBERONMobileSolutions_LUKUL_TabOptions.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5939256Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\OBERONMobileSolutions\\OBERONMobileSolutions_LUKUL_UserSettings.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5939256Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\ProductOptions\\ElectronicArchives\\ElektronicArchives_CertificateExport.PNG": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5939256Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\ProductOptions\\ElectronicArchives\\ElektronicArchives_Directory.PNG": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5939256Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\ProductOptions\\ElectronicSignature\\EL_podpis_01.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5939256Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\ProductOptions\\ElectronicSignature\\EL_podpis_02.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5939256Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\ProductOptions\\ElectronicSignature\\EL_podpis_03.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5939256Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\ProductOptions\\ElectronicSignature\\EL_podpis_04.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5939256Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\ProductOptions\\ElectronicSignature\\EL_podpis_05.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5939256Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\ProductOptions\\ElectronicSignature\\EL_podpis_12.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5939256Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\ProductOptions\\ElectronicSignature\\ElectronicSignature_eID_SerialNumber.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5939256Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\ProductOptions\\ElectronicSignature\\ElectronicSignature_eIDInstallation.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5939256Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\ProductOptions\\ElectronicSignature\\ElectronicSignature_UserCertificate.png.PNG": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5939256Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\ProductOptions\\ElectronicSignature\\ElectronicSignature_Verification.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5939256Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\ProductOptions\\ElectronicSignature\\ElectronicSignature_Verification_AddCertificate800px.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5939256Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\ProductOptions\\EmailCommunication\\EmailCommunication_Gmail_Nastavenie_Dvojstupnove.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5939256Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\ProductOptions\\EmailCommunication\\EmailCommunication_Gmail_Nastavenie_Ikona.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5939256Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\ProductOptions\\EmailCommunication\\EmailCommunication_Gmail_NastavenieUctu.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5939256Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\ProductOptions\\EmailCommunication\\EmailCommunication_Model_Email.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5939256Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\ProductOptions\\EmailCommunication\\EmailCommunication_Model_FreeRezervation.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5939256Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\ProductOptions\\EmailCommunication\\EmailCommunication_Model_Predloha.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5939256Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\ProductOptions\\EmailCommunication\\EmailCommunication_Model_Report.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5939256Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\ProductOptions\\EmailCommunication\\EmailCommunication_Model_SignatureDetail.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5939256Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\ProductOptions\\EmailCommunication\\EmailCommunication_SMTP_Gmail.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5939256Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\ProductOptions\\ExternalSystems\\GoogleKalendar_button.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5939256Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\ProductOptions\\ExternalSystems\\GoogleKalendar_Button_AddCalendar.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5939256Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\ProductOptions\\ExternalSystems\\Hotel_ChannelManager_Dedge.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5939256Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\ProductOptions\\ExternalSystems\\Hotel_ExternalSystem_Beds24_APIKey1_whitelist.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5939256Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\ProductOptions\\ExternalSystems\\Hotel_ExternalSystem_Beds24_BookingPage.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5939256Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\ProductOptions\\ExternalSystems\\Hotel_ExternalSystem_Beds24_BookingWidget.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5939256Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\ProductOptions\\ExternalSystems\\Hotel_ExternalSystem_Beds24_DailyPriceSetting.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5939256Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\ProductOptions\\ExternalSystems\\Hotel_ExternalSystem_Beds24_Globalpayments.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5939256Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\ProductOptions\\ExternalSystems\\Hotel_ExternalSystem_Beds24_IDHotela.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5939256Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\ProductOptions\\ExternalSystems\\Hotel_ExternalSystem_Beds24_IDTypuIzby.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5939256Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\ProductOptions\\ExternalSystems\\Hotel_ExternalSystem_Beds24_KnihaUbytovanych.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5939256Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\ProductOptions\\ExternalSystems\\Hotel_ExternalSystem_Beds24_Logo.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5939256Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\ProductOptions\\ExternalSystems\\Hotel_ExternalSystem_Beds24_OAC1.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5939256Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\ProductOptions\\ExternalSystems\\Hotel_ExternalSystem_Beds24_OAC2.PNG": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5939256Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\ProductOptions\\ExternalSystems\\Hotel_ExternalSystem_Beds24_OAC3.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5939256Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\ProductOptions\\ExternalSystems\\Hotel_ExternalSystem_Beds24_Objekt.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5939256Z",
+    "B": "TestingOberonGit"
+  },
+  "\\images\\ProductOptions\\ExternalSystems\\Hotel_ExternalSystem_Beds24_PayPal.png": {
+    "O": "DPISTORIUS-LT02",
+    "D": "2025-11-25T15:36:00.5939256Z",
+    "B": "TestingOberonGit"
   }
 }
